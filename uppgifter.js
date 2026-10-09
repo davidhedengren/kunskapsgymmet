@@ -23997,10 +23997,10 @@ window.BANK = [
     "id": "4.40",
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Diagrammet visar kraften som funktion av förlängningen för en fjäder.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,05</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,1</text><line x1=\"313.20000000000005\" y1=\"26\" x2=\"313.20000000000005\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.20000000000005\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,15</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,25</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Δl (m)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Bestäm fjäderkonstanten ur lutningen.</li><li>Vilken kraft krävs för förlängningen 0,15 m?</li>\n<li>Vad betyder arean under linjen? Bestäm arbetet som krävs för att långsamt dra ut fjädern 0,25 m från obelastad längd.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fjäderkonstanten är kraft–förlängningsgrafens lutning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\frac{20}{0{,}25}=80\\ \\mathrm{N/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd Hookes lag vid 0,15 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=kx=80\\cdot0{,}15=12\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Arean under grafen är arbetet som krävs för att dra ut fjädern och därmed den lagrade elastiska energin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_f=\\frac12Fx=\\frac12\\cdot20\\cdot0{,}25=2{,}5\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fjäderkonstanten är \\(80\\ \\mathrm{N/m}\\), kraften vid 0,15 m är \\(12\\ \\mathrm N\\), och hela triangelarean motsvarar \\(2{,}5\\ \\mathrm J\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Grafen visar kraften som krävs för att långsamt dra ut en fjäder från ospänd längd.</p><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,05</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,1</text><line x1=\"313.20000000000005\" y1=\"26\" x2=\"313.20000000000005\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.20000000000005\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,15</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,25</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Δl (m)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg><ol type=\"a\"><li>Bestäm fjäderkonstanten i N/m med hjälp av grafens lutning.</li><li>Hur stor kraft krävs för förlängningen 0,15 m?</li><li>Vad motsvarar arean under grafen? Bestäm arbetet för förlängningen 0,25 m.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Fjäderkraften är F = kx. Grafens lutning är därför fjäderkonstanten. Läs av 20 N vid 0,25 m.</p>\\[k=\\frac Fx=\\frac{20}{0{,}25}=80\\,\\mathrm{N/m}\\]<p><strong>b)</strong> Multiplicera fjäderkonstanten med den nya förlängningen.</p>\\[F=kx=80\\cdot0{,}15=12\\,\\mathrm N\\]<p><strong>c)</strong> Arean motsvarar dragkraftens arbete och den energi som lagras i fjädern. Kraften ökar från 0 till 20 N. Arbetet är triangelns area.</p>\\[W=\\frac{0{,}25\\cdot20}{2}=2{,}5\\,\\mathrm J\\]</div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -24013,7 +24013,7 @@ window.BANK = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "ledtrad": "<p>Vilken storhet motsvarar area i ett kraft–förlängningsdiagram?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -33074,8 +33074,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna elastisk energi",
     "poang": "(1/0/0)",
-    "t": "<p>En fjäder med k = 200 N/m trycks ihop 6,0 cm. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">6,0 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 200 N/m</text></svg></div><p>Bestäm den lagrade elastiska energin. Svara i J. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[x=0{,}060\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{200\\cdot 0{,}060^{2}}{2}=0{,}36\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,36 J.</p></div>",
+    "t": "<p>En fjäder med fjäderkonstanten k = 200 N/m trycks ihop 6,0 cm från sin ospända längd. Använd \\(E_f\\) = kx²/2. Bestäm energin som lagras i fjädern. Svara i J.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">6,0 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 200 N/m</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hoptryckningen ska anges i meter: 6,0 cm = 0,060 m. Sätt in den i den givna formeln.</p>\\[E_f=\\frac{kx^2}{2}=\\frac{200\\cdot0{,}060^2}{2}=0{,}360\\,\\mathrm J\\]</div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "begrepp",
@@ -33084,13 +33084,13 @@ window.BANK = [
     "familjNyckel": "fjaderenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 0.36,
-    "tolerans": 0,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Omvandla till meter innan du kvadrerar längden.</p>",
+    "ledtrad": "<p>Omvandla hoptryckningen till meter innan du kvadrerar den.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -33135,8 +33135,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>En bungyhoppare på 70 kg hoppar från en plattform. Repets fästpunkt ligger 25 m över en markerad yta nedanför. Repet är 15 m långt när det inte är sträckt och följer Hookes lag när det sträcks. Hopparen startar från vila vid fästpunkten. Räkna hopparen som en liten kropp och bortse från repets massa och från energiförluster. a) Bestäm repets största förlängning om hopparen vänder precis vid den markerade ytan.</p><p>b) Bestäm k med energisambandet \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>c) I en andra modell är den obelastade längden 16 m men k oförändrat. Har hopparen då noll fart när den når den markerade ytan? Motivera.</p><p>Använd g = 9,82 m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Total fallsträcka är 25 m, men repet är slappt under de första 15 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Förlängningen vid ytan är</p><div class=\"facit-matte\">\\[x=25-15=10\\, \\mathrm{m}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid vändläget är farten noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför 70 · 9,82 · 25 = k · 10²/2, så</p><div class=\"facit-matte\">\\[k=343{,}7\\, \\mathrm{N/m}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Med 16 m obelastad längd är x = 9 m vid ytan.</p></div><div class=\"facit-stycke\"><p>Fjädern har då energin 343,7 · 9²/2 = 13 919,85 J, medan lägesenergin minskat med 17 185 J.</p></div><div class=\"facit-stycke\"><p>Skillnaden 3265,15 J är rörelseenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Farten är alltså inte noll;</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2\\cdot 3265{,}15}{70}}\\approx 9{,}66\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta jämför två givna idealmodeller; i ett verkligt rep påverkar längden även dess egenskaper.</p></div></div></div></div></div>",
+    "t": "<p>En bungyhoppare på 70 kg startar från vila vid repets fästpunkt, 25 m över en markerad yta. Repet är 15 m långt när det är ospänt. När det sträcks följer det F = kx. Räkna hopparen som en punkt och bortse från repets massa och energiförluster. Använd \\(E_f\\) = kx²/2 och g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är repets förlängning om hopparen vänder precis vid den markerade ytan?</li><li>Vilken fjäderkonstant k krävs då?</li><li>I en annan modell är repets ospända längd 16 m men k lika stort. Har hopparen noll fart när den når den markerade ytan? Visa med en energiberäkning.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Fallsträckan är 25 m. De första 15 m faller hopparen utan att sträcka repet.</p>\\[x=25-15=10\\,\\mathrm m\\]<p><strong>b)</strong> Hopparen står stilla både vid starten och vid vändningen. Minskad lägesenergi har därför blivit energi i repet.</p>\\[mgh=\\frac{kx^2}{2}\\quad\\Rightarrow\\quad k=\\frac{2mgh}{x^2}\\]\\[k=\\frac{2\\cdot70\\cdot9{,}82\\cdot25}{10^2}=343{,}7\\,\\mathrm{N/m}\\]<p><strong>c)</strong> Med det längre repet är förlängningen vid ytan 25 − 16 = 9 m. Beräkna den frigjorda lägesenergin och repets energi.</p>\\[E_\\text{frigjord}=70\\cdot9{,}82\\cdot25=17185\\,\\mathrm J\\]\\[E_f=\\frac{343{,}7\\cdot9^2}{2}=13919{,}85\\,\\mathrm J\\]<p>Skillnaden är rörelseenergi.</p>\\[E_k=17185-13919{,}85=3265{,}15\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot3265{,}15}{70}}\\approx9{,}66\\,\\mathrm{m/s}\\]<p>Hopparen har alltså fart nedåt när den når ytan.</p></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -33150,7 +33150,7 @@ window.BANK = [
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "ledtrad": "<p>Hur stor del av fallsträckan ger förlängning av repet?</p>",
     "traningsniva": 4,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "miniräknare": true,
     "geogebra": false,
     "spel": false,
@@ -39149,8 +39149,8 @@ window.BANK = [
     "niva": "C",
     "typ": "kombinera fjäderenergi och friktionsarbete",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss på 1,4 kg släpps från vila mot en fjäder med k = 200 N/m, hoptryckt 10 cm. Klossen glider på ett vågrätt bord med glidfriktionstalet 0,22 och lämnar fjädern vid obelastad längd. Rörelsen startar direkt. Bortse från övriga förluster.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"193\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1,4 kg</text><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">10 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 200 N/m</text><text x=\"380\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">μ = 0,22</text></svg></div><p>Använd g = 9,82 m/s².</p><p>Bestäm hela glidsträckan från startläget tills klossen stannar. Svara i m. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Startenergin är</p><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{200\\cdot 0{,}10^{2}}{2}=1{,}0\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen verkar under hela sträckan d:</p><div class=\"facit-matte\">\\[0{,}22\\cdot 1{,}4 g\\cdot d=1{,}0\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[d\\approx 0{,}3306\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>Det är längre än fjäderns 0,10 m, så klossen kan lämna fjädern.</p></div></div><p class=\"facit-svar\">Svaret är 0,33 m.</p></div>",
+    "t": "<p>En kloss på 1,4 kg hålls mot en fjäder på ett vågrätt bord. Fjäderkonstanten är 200 N/m och fjädern är hoptryckt 10 cm. Klossen släpps från vila och lämnar fjädern när den är ospänd. Glidfriktionstalet är 0,22. Bortse från andra energiförluster och använd g = 9,82 m/s². Hur långt glider klossen från startläget tills den stannar? Svara i m.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"193\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1,4 kg</text><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">10 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 200 N/m</text><text x=\"380\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">μ = 0,22</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 10 cm till 0,10 m. Den lagrade fjäderenergin är</p>\\[E_f=\\frac{200\\cdot0{,}10^2}{2}=1{,}0\\,\\mathrm J\\]<p>Friktionen bromsar under hela glidsträckan d, även medan fjädern skjuter klossen.</p>\\[f=\\mu mg=0{,}22\\cdot1{,}4\\cdot9{,}82=3{,}02456\\,\\mathrm N\\]<p>Klossen slutar i vila och fjädern är då ospänd. Hela startenergin motsvarar därför friktionens arbete, räknat som ett positivt belopp.</p>\\[fd=E_f\\quad\\Rightarrow\\quad d=\\frac{1{,}0}{3{,}02456}\\approx0{,}331\\,\\mathrm m\\]<p>Sträckan är längre än 0,10 m. Klossen lämnar alltså fjädern innan den stannar, som uppgiften anger.</p></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -39158,13 +39158,13 @@ window.BANK = [
     ],
     "familjNyckel": "fjaderenergi-och-friktion",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.33,
-    "tolerans": 0,
+    "rättSvar": 0.33062660353902723,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilket arbete tar hand om den ursprungliga fjäderenergin?</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Fjädern ger startenergin. Hur mycket energi tar friktionen per meter?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "m",
@@ -39566,8 +39566,8 @@ window.BANK = [
     "niva": "C",
     "typ": "kombinera fjäderenergi och friktionsarbete",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss på 2,0 kg släpps från vila mot en fjäder med k = 260 N/m, hoptryckt 13 cm. Den glider på ett vågrätt bord med glidfriktionstalet 0,22. Klossen är inte fastkopplad i fjädern och rörelsen startar direkt. Bortse från övriga energiförluster.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"193\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">2,0 kg</text><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">13 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 260 N/m</text><text x=\"380\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">μ = 0,22</text></svg></div><p>Använd g = 9,82 m/s².</p><p>Bestäm farten precis när klossen lämnar fjädern vid dess obelastade längd. Svara i m/s. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ursprunglig fjäderenergi är</p><div class=\"facit-matte\">\\[\\frac{260\\cdot 0{,}13^{2}}{2}=2{,}197\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Under kontakten gör friktionen arbetet</p><div class=\"facit-matte\">\\[0{,}22\\cdot 2 g\\cdot 0{,}13=0{,}561704\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kvarvarande rörelseenergi är 1,635296 J.</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2\\cdot 1{,}635296}{2}}\\approx 1{,}27879\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 1,28 m/s.</p></div>",
+    "t": "<p>En kloss på 2,0 kg hålls mot en fjäder på ett vågrätt bord. Fjäderkonstanten är 260 N/m och fjädern är hoptryckt 13 cm. Klossen släpps från vila och är inte fäst i fjädern. Glidfriktionstalet är 0,22. Rörelsen börjar direkt. Bortse från andra energiförluster och använd g = 9,82 m/s². Vilken fart har klossen när fjädern blir ospänd och klossen lämnar den? Svara i m/s.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"193\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">2,0 kg</text><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">13 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 260 N/m</text><text x=\"380\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">μ = 0,22</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hoptryckningen är 13 cm = 0,13 m. Beräkna startenergin och den energi som friktionen tar under dessa 0,13 m.</p>\\[E_f=\\frac{260\\cdot0{,}13^2}{2}=2{,}197\\,\\mathrm J\\]\\[E_\\text{förlust}=\\mu mgs=0{,}22\\cdot2{,}0\\cdot9{,}82\\cdot0{,}13\\]\\[E_\\text{förlust}=0{,}561704\\,\\mathrm J\\]<p>Resten blir klossens rörelseenergi.</p>\\[E_k=2{,}197-0{,}561704=1{,}635296\\,\\mathrm J\\]\\[\\frac{mv^2}{2}=E_k\\quad\\Rightarrow\\quad v=\\sqrt{\\frac{2E_k}{m}}\\]\\[v=\\sqrt{\\frac{2\\cdot1{,}635296}{2{,}0}}\\approx1{,}28\\,\\mathrm{m/s}\\]</div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -39575,13 +39575,13 @@ window.BANK = [
     ],
     "familjNyckel": "fart-efter-fjaderkontakt",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.28,
-    "tolerans": 0,
+    "rättSvar": 1.2787869251755744,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Förloras energi till friktionen även innan klossen lämnar fjädern?</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Beräkna fjäderenergin och dra bort den energi som friktionen tar under fjäderns hoptryckning.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "m/s",
@@ -39598,8 +39598,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En leksakspistol har en fjäder med fjäderkonstanten 350 N/m som trycks ihop 12 cm. Projektilen väger 20 g. Fjäderns lagrade energi är ½kx².</p>\n<ol><li>Hur mycket energi lagras i fjädern?</li><li>Vilken fart får projektilen om all energi överförs?</li>\n<li>Varför blir den verkliga farten lägre?</li></ol><p>Räkna med att rörelsen är vågrät. Projektilens massa är 0,020 kg. Vi bortser från fjäderns massa och energiförluster.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elastiska energin i en ihoptryckt fjäder är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_f=\\frac12kx^2=\\frac12\\cdot350\\cdot0{,}12^2=2{,}52\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om all fjäderenergi blir rörelseenergi gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac12kx^2=\\frac12mv^2\\]\\[v=x\\sqrt{\\frac{k}{m}}=0{,}12\\sqrt{\\frac{350}{0{,}020}}=15{,}9\\ \\mathrm{m/s}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I verkligheten går energi bland annat till friktion, ljud, luftmotstånd och fjäderns egen rörelse.</p></div><div class=\"facit-stycke\"><p>Därför blir projektilens fart lägre än det ideala värdet.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fjädern lagrar \\(2{,}52\\ \\mathrm J\\), vilket idealiskt ger projektilen farten \\(15{,}9\\ \\mathrm{m/s}\\).</p></div>",
+    "t": "<p>En leksakspistol skjuter en kula på 20 g vågrätt. Fjäderkonstanten är 350 N/m och fjädern trycks ihop 12 cm. Kulan startar från vila. Använd \\(E_f\\) = kx²/2.</p><ol type=\"a\"><li>Hur mycket energi lagras i fjädern?</li><li>Vilken fart får kulan om hela fjäderenergin blir rörelseenergi? Bortse från rotation.</li><li>Varför blir farten ofta lägre i verkligheten?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Omvandla 12 cm till 0,12 m.</p>\\[E_f=\\frac{350\\cdot0{,}12^2}{2}=2{,}52\\,\\mathrm J\\]<p><strong>b)</strong> Massan är 20 g = 0,020 kg. Om all energi blir rörelseenergi gäller mv²/2 = \\(E_f\\).</p>\\[v=\\sqrt{\\frac{2E_f}{m}}=\\sqrt{\\frac{2\\cdot2{,}52}{0{,}020}}\\approx15{,}9\\,\\mathrm{m/s}\\]<p><strong>c)</strong> En del energi går till friktion, ljud och fjäderns egen rörelse. Då får kulan mindre rörelseenergi och lägre fart.</p></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -50553,8 +50553,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En fjäder med k = 250 N/m trycks ihop 12 cm från obelastat läge. Den skjuter en liten kula med massan 50 g från vila längs ett vågrätt spår. Kulan lämnar fjädern vid obelastad längd. Bortse från friktion, luftmotstånd och rotation. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den lagrade fjäderenergin. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm kulans fart när den lämnar fjädern. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Samma anordning riktas lodrätt uppåt. Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">x = 0,12 m ger</p><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{250\\cdot 0{,}12^{2}}{2}=1{,}8\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,8 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Fjäderenergin är 250 · 0,12²/2 = 1,8 J. m = 0,050 kg och mv²/2 = 1,8 J ger</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{3{,}6}{0{,}050}}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8,49 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Fjäderenergin är</p><div class=\"facit-matte\">\\[\\frac{250\\cdot 0{,}12^{2}}{2}=1{,}8\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mellan start och högsta läge omvandlas fjäderenergin till lägesenergi:</p><div class=\"facit-matte\">\\[m g h=1{,}8\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Höjden mäts från start, inte från mynningen.</p></div></div><p class=\"facit-svar\">Svar: 3,67 m.</p></div></div></div>",
+    "t": "<p>En fjäder med k = 250 N/m trycks ihop 12 cm. Den skjuter en kula på 50 g från vila. Kulan är inte fäst i fjädern. Bortse från energiförluster. Använd \\(E_f\\) = kx²/2 och g = 9,82 m/s².</p><p>Figuren visar det vågräta skottet.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg><ol type=\"a\"><li>Bestäm energin i den hoptryckta fjädern. Svara i J. Svara med tre värdesiffror.</li><li>Skottet är vågrätt. Vilken fart har kulan när fjädern blir ospänd? Svara i m/s. Svara med tre värdesiffror.</li><li>Skottet riktas i stället rakt upp. Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 12 cm till 0,12 m och använd den givna energiformeln.</p>\\[E_f=\\frac{250\\cdot0{,}12^2}{2}=1{,}80\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Fjädern lagrar \\(E_f\\) = 250 · 0,12²/2 = 1,8 J. Vid ett vågrätt skott utan förluster blir hela energin rörelseenergi. Kulans massa är 50 g = 0,050 kg.</p>\\[\\frac{mv^2}{2}=E_f\\quad\\Rightarrow\\quad v=\\sqrt{\\frac{2E_f}{m}}\\]\\[v=\\sqrt{\\frac{2\\cdot1{,}8}{0{,}050}}\\approx8{,}49\\,\\mathrm{m/s}\\]<p><strong>c)</strong></p><p>Fjäderenergin är \\(E_f\\) = 250 · 0,12²/2 = 1,8 J. Vid högsta läget står kulan stilla och fjädern är ospänd. Startenergin har blivit ökad lägesenergi. Massan är 50 g = 0,050 kg.</p>\\[mgh=E_f\\quad\\Rightarrow\\quad h=\\frac{E_f}{mg}\\]\\[h=\\frac{1{,}8}{0{,}050\\cdot9{,}82}\\approx3{,}67\\,\\mathrm m\\]<p>Höjden räknas från kulans startläge.</p></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -50564,13 +50564,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.8,
-      8.49,
-      3.67
+      8.48528137423857,
+      3.665987780040733
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken längdenhet passar k i N/m?</p>",
@@ -50597,17 +50597,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fjäder med k = 250 N/m trycks ihop 12 cm från obelastat läge. Den skjuter en liten kula med massan 50 g från vila längs ett vågrätt spår. Kulan lämnar fjädern vid obelastad längd. Bortse från friktion, luftmotstånd och rotation. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg></span>",
+    "spelIntro": "<p>En fjäder med k = 250 N/m trycks ihop 12 cm. Den skjuter en kula på 50 g från vila. Kulan är inte fäst i fjädern. Bortse från energiförluster. Använd \\(E_f\\) = kx²/2 och g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den lagrade fjäderenergin. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fjäder med fjäderkonstanten 250 N/m trycks ihop 12 cm. Använd \\(E_f=kx^2/2\\).</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg><p>Bestäm den lagrade fjäderenergin. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">x = 0,12 m ger</p><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{250\\cdot 0{,}12^{2}}{2}=1{,}8\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,8 J.</p></div>",
+        "fraga": "Bestäm energin i den hoptryckta fjädern. Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En fjäder med k = 250 N/m trycks ihop 12 cm. Använd \\(E_f\\) = kx²/2.<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg></p><p>Bestäm energin i den hoptryckta fjädern. Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 12 cm till 0,12 m och använd den givna energiformeln.</p>\\[E_f=\\frac{250\\cdot0{,}12^2}{2}=1{,}80\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken längdenhet passar k i N/m?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -50615,9 +50615,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm kulans fart när den lämnar fjädern. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fjäder med k = 250 N/m trycks ihop 12 cm från obelastat läge. Den skjuter en liten kula med massan 50 g från vila längs ett vågrätt spår. Kulan lämnar fjädern vid obelastad längd. Bortse från friktion, luftmotstånd och rotation. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg></span><p>Bestäm kulans fart när den lämnar fjädern. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Fjäderenergin är 250 · 0,12²/2 = 1,8 J. m = 0,050 kg och mv²/2 = 1,8 J ger</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{3{,}6}{0{,}050}}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8,49 m/s.</p></div>",
+        "fraga": "Vilken fart har kulan när fjädern blir ospänd? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En fjäder med k = 250 N/m, hoptryckt 12 cm, skjuter en kula på 50 g från vila längs ett vågrätt spår. Bortse från friktion, luftmotstånd och rotation. Använd \\(E_f\\) = kx²/2.<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg></p><p>Vilken fart har kulan när fjädern blir ospänd? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fjädern lagrar \\(E_f\\) = 250 · 0,12²/2 = 1,8 J. Vid ett vågrätt skott utan förluster blir hela energin rörelseenergi. Kulans massa är 50 g = 0,050 kg.</p>\\[\\frac{mv^2}{2}=E_f\\quad\\Rightarrow\\quad v=\\sqrt{\\frac{2E_f}{m}}\\]\\[v=\\sqrt{\\frac{2\\cdot1{,}8}{0{,}050}}\\approx8{,}49\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vilken energi har kulan när fjädern är obelastad?</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -50629,9 +50629,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Samma anordning riktas lodrätt uppåt. Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fjäder med k = 250 N/m trycks ihop 12 cm från obelastat läge. Den skjuter en liten kula med massan 50 g från vila längs ett vågrätt spår. Kulan lämnar fjädern vid obelastad längd. Bortse från friktion, luftmotstånd och rotation. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Fjäderns hoptryckning mellan start och obelastat läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 70 V205 M35 155 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 140 H50 L60 128 L75 152 L90 128 L105 152 L120 128 L135 152 L150 140 H160\" fill=\"none\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"175\" cy=\"140\" r=\"15\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"300\" cy=\"140\" r=\"15\" fill=\"none\" stroke=\"#a1a6ae\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><path d=\"M175 169 V220 M300 169 V220 M175 213 H300\" fill=\"none\" stroke=\"#9399a2\"/><text x=\"238\" y=\"238\" text-anchor=\"middle\">12 cm</text><text x=\"175\" y=\"102\" text-anchor=\"middle\">Start</text><text x=\"300\" y=\"82\" text-anchor=\"middle\">Obelastad</text><text x=\"300\" y=\"102\" text-anchor=\"middle\">fjäder</text></g></svg></span><p>Samma anordning riktas lodrätt uppåt. Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Fjäderenergin är</p><div class=\"facit-matte\">\\[\\frac{250\\cdot 0{,}12^{2}}{2}=1{,}8\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mellan start och högsta läge omvandlas fjäderenergin till lägesenergi:</p><div class=\"facit-matte\">\\[m g h=1{,}8\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Höjden mäts från start, inte från mynningen.</p></div></div><p class=\"facit-svar\">Svar: 3,67 m.</p></div>",
+        "fraga": "Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En fjäder med k = 250 N/m, hoptryckt 12 cm, skjuter en kula på 50 g från vila rakt upp. Kulan är inte fäst i fjädern. Bortse från energiförluster. Använd \\(E_f\\) = kx²/2 och g = 9,82 m/s².</p><p>Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fjäderenergin är \\(E_f\\) = 250 · 0,12²/2 = 1,8 J. Vid högsta läget står kulan stilla och fjädern är ospänd. Startenergin har blivit ökad lägesenergi. Massan är 50 g = 0,050 kg.</p>\\[mgh=E_f\\quad\\Rightarrow\\quad h=\\frac{E_f}{mg}\\]\\[h=\\frac{1{,}8}{0{,}050\\cdot9{,}82}\\approx3{,}67\\,\\mathrm m\\]<p>Höjden räknas från kulans startläge.</p></div>",
         "ledtrad": "<p>Vilka energier finns i startläget och i det högsta läget?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -50715,8 +50715,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En låda på 25 kg dras med en vågrät kraft 8,0 m längs ett plant golv med konstant fart. Glidfriktionstalet är 0,40. Bortse från övrigt motstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm dragkraftens storlek.</li><li>Bestäm dragkraftens arbete.</li><li>Förklara vad den tillförda energin omvandlas till.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På det vågräta golvet är</p><div class=\"facit-matte\">\\[N=m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart ger</p><div class=\"facit-matte\">\\[F_{\\mathrm{drag}}=\\mu m g=0{,}40\\cdot 25\\cdot 9{,}82=98{,}2\\, \\mathrm{N}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{drag}}=98{,}2\\cdot 8{,}0=785{,}6\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Friktionen uträttar −785,6 J, så nettoarbetet är noll.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin är oförändrad.</p></div><div class=\"facit-stycke\"><p>Den tillförda energin blir främst inre energi i lådan och golvet, vilket kan höja deras temperatur.</p></div></div></div></div></div>",
+    "t": "<p>En låda på 25 kg dras 8,0 m med konstant fart längs ett vågrätt golv. Dragkraften är vågrät och glidfriktionstalet 0,40. Bortse från annat motstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är dragkraften?</li><li>Hur stort arbete gör dragkraften?</li><li>Vad omvandlas den tillförda energin till? Förklara.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> På golvet är normalkraften mg. Vid konstant fart balanserar dragkraften friktionen.</p>\\[F=\\mu mg=0{,}40\\cdot25\\cdot9{,}82=98{,}2\\,\\mathrm N\\]<p><strong>b)</strong> Kraften verkar längs förflyttningen.</p>\\[W=Fs=98{,}2\\cdot8{,}0=785{,}6\\,\\mathrm J\\]<p><strong>c)</strong> Farten är konstant, så rörelseenergin ökar inte. Friktionen gör −785,6 J och tar lika mycket energi som dragkraften tillför. Energin blir främst värme i lådan och golvet.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "begrepp",
@@ -50728,7 +50728,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Vilket nettoarbete är förenligt med att farten är konstant?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "arbete vid konstant fart",
     "miniräknare": true,
     "geogebra": false,
@@ -50858,8 +50858,8 @@ window.BANK = [
     "niva": "C",
     "typ": "välja höjdens nollnivå",
     "poang": "(1/1/0)",
-    "t": "<p>En fjäderkanon riktas lodrätt uppåt. Fjäderkonstanten är 900 N/m och fjädern trycks ihop 0,18 m. En projektil på 350 g startar från vila mot fjädern och lämnar den vid obelastad längd. Mynningen ligger 0,18 m över projektilens startläge. Bortse från energiförluster. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm fjäderenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Hur högt når projektilen över mynningen? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{900\\cdot 0{,}18^{2}}{2}=14{,}58\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 14,58 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Startenergin är</p><div class=\"facit-matte\">\\[\\frac{900\\cdot 0{,}18^{2}}{2}=14{,}58\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Höjden över startläget är</p><div class=\"facit-matte\">\\[\\frac{14{,}58}{0{,}350\\cdot 9{,}82}\\approx 4{,}24207\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>Mynningen ligger 0,18 m högre än startläget, så höjden över mynningen är cirka 4,06207 m.</p></div></div><p class=\"facit-svar\">Svar: 4,06 m.</p></div></div></div>",
+    "t": "<p>En fjäderkanon skjuter en kula på 350 g rakt upp från vila. Fjäderkonstanten är 900 N/m och fjädern trycks ihop 0,18 m. Kulan är inte fäst i fjädern. Mynningen ligger 0,18 m över kulans startläge. Bortse från energiförluster. Använd \\(E_f\\) = kx²/2 och g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm fjäderenergin vid starten. Svara i J. Svara med tre värdesiffror.</li><li>Hur högt når kulan över mynningen? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Använd den givna energiformeln.</p>\\[E_f=\\frac{900\\cdot0{,}18^2}{2}=14{,}58\\,\\mathrm J\\]<p>Med tre värdesiffror: 14,6 J.</p><p><strong>b)</strong></p><p>Fjädern lagrar 900 · 0,18²/2 = 14,58 J. Vid högsta läget är kulan stilla och fjädern ospänd. Hela startenergin har blivit ökad lägesenergi. Massan är 350 g = 0,350 kg.</p>\\[h_\\text{från start}=\\frac{14{,}58}{0{,}350\\cdot9{,}82}\\approx4{,}24207\\,\\mathrm m\\]<p>Mynningen ligger 0,18 m över startläget. Dra bort den höjden.</p>\\[\\begin{gathered}h_\\text{över mynningen}=\\frac{14{,}58}{0{,}350\\cdot9{,}82}-0{,}18\\\\\\approx4{,}06\\,\\mathrm m\\end{gathered}\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "modellering",
@@ -50869,15 +50869,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       14.58,
-      4.06
+      4.062071574047135
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Mät deformationen från obelastad längd.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -50896,17 +50896,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fjäderkanon riktas lodrätt uppåt. Fjäderkonstanten är 900 N/m och fjädern trycks ihop 0,18 m. En projektil på 350 g startar från vila mot fjädern och lämnar den vid obelastad längd. Mynningen ligger 0,18 m över projektilens startläge. Bortse från energiförluster. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En fjäderkanon skjuter en kula på 350 g rakt upp från vila. Fjäderkonstanten är 900 N/m och fjädern trycks ihop 0,18 m. Kulan är inte fäst i fjädern. Mynningen ligger 0,18 m över kulans startläge. Bortse från energiförluster. Använd \\(E_f\\) = kx²/2 och g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm fjäderenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fjäder med fjäderkonstanten 900 N/m trycks ihop 0,18 m. Använd \\(E_f=kx^2/2\\).</p><p>Bestäm fjäderenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{900\\cdot 0{,}18^{2}}{2}=14{,}58\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 14,58 J.</p></div>",
-        "ledtrad": "<p>Mät deformationen från obelastad längd.</p>",
+        "fraga": "Bestäm fjäderenergin vid starten. Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En fjäder med k = 900 N/m trycks ihop 0,18 m. Använd \\(E_f\\) = kx²/2.</p><p>Bestäm fjäderenergin vid starten. Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd den givna energiformeln.</p>\\[E_f=\\frac{900\\cdot0{,}18^2}{2}=14{,}58\\,\\mathrm J\\]<p>Med tre värdesiffror: 14,6 J.</p></div>",
+        "ledtrad": "<p>Sätt in hoptryckningen i den givna energiformeln.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -50914,12 +50914,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur högt når projektilen över mynningen? Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fjäderkanon riktas lodrätt uppåt. Fjäderkonstanten är 900 N/m och fjädern trycks ihop 0,18 m. En projektil på 350 g startar från vila mot fjädern och lämnar den vid obelastad längd. Mynningen ligger 0,18 m över projektilens startläge. Bortse från energiförluster. Använd \\(E_f=\\dfrac{kx^2}{2}\\).</p><p>Använd g = 9,82 m/s².</p><p>Hur högt når projektilen över mynningen? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Startenergin är</p><div class=\"facit-matte\">\\[\\frac{900\\cdot 0{,}18^{2}}{2}=14{,}58\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Höjden över startläget är</p><div class=\"facit-matte\">\\[\\frac{14{,}58}{0{,}350\\cdot 9{,}82}\\approx 4{,}24207\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>Mynningen ligger 0,18 m högre än startläget, så höjden över mynningen är cirka 4,06207 m.</p></div></div><p class=\"facit-svar\">Svar: 4,06 m.</p></div>",
-        "ledtrad": "<p>Från vilken nivå ger energibalansen först höjden?</p>",
+        "fraga": "Hur högt når kulan över mynningen? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En fjäderkanon skjuter en kula på 350 g rakt upp från vila. Fjäderkonstanten är 900 N/m och fjädern trycks ihop 0,18 m. Kulan är inte fäst i fjädern. Mynningen ligger 0,18 m över kulans startläge. Bortse från energiförluster. Använd \\(E_f\\) = kx²/2 och g = 9,82 m/s².</p><p>Hur högt når kulan över mynningen? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fjädern lagrar 900 · 0,18²/2 = 14,58 J. Vid högsta läget är kulan stilla och fjädern ospänd. Hela startenergin har blivit ökad lägesenergi. Massan är 350 g = 0,350 kg.</p>\\[h_\\text{från start}=\\frac{14{,}58}{0{,}350\\cdot9{,}82}\\approx4{,}24207\\,\\mathrm m\\]<p>Mynningen ligger 0,18 m över startläget. Dra bort den höjden.</p>\\[\\begin{gathered}h_\\text{över mynningen}=\\frac{14{,}58}{0{,}350\\cdot9{,}82}-0{,}18\\\\\\approx4{,}06\\,\\mathrm m\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Energibalansen ger höjden från kulans startläge. Hur räknar du om den till höjden över mynningen?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -51609,8 +51609,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete av en sned kraft",
     "poang": "(3/0/0)",
-    "t": "<p>En låda dras 25 m längs ett vågrätt golv med en konstant kraft på 120 N. Repet är riktat 40° uppåt från rörelseriktningen. Lådan behåller kontakten med golvet.</p><span class=\"fig\"><svg height=\"258\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 200\"><rect x=\"15\" y=\"150\" width=\"450\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"15\" y1=\"150\" x2=\"465\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"90\" y=\"96\" width=\"100\" height=\"54\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"140\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text><line x1=\"190\" y1=\"100\" x2=\"281.925\" y2=\"22.8655\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"289.59,16.44 284.88,26.39 278.97,19.34\" fill=\"#B43123\"/><text x=\"303.586\" y=\"16.4376\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 120 N</text><line x1=\"190\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 4\"/><path d=\"M 228 100 A 38 38 0 0 0 219.1 75.6\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"242\" y=\"84\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40°</text><line x1=\"90\" y1=\"178\" x2=\"340\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"173\" x2=\"90\" y2=\"183\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"173\" x2=\"340\" y2=\"183\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"215\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">s = 25 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm dragkraftens vågräta komponent.</li><li>Bestäm dragkraftens arbete.</li><li>Bestäm den lodräta komponentens arbete och motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{x}}=120 \\cos 40^{\\circ}\\approx 91{,}93\\, \\mathrm{N}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=120\\cdot 25 \\cos 40^{\\circ}\\approx 2298{,}13 J=2{,}30\\, \\mathrm{kJ}\\]</div></div></div><div class=\"facit-stycke\"><p>Mellanleden bör inte avrundas.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den lodräta komponenten gör noll arbete eftersom lådan inte förflyttas lodrätt.</p></div><div class=\"facit-stycke\"><p>Kraft och förflyttning är vinkelräta.</p></div></div></div></div></div>",
+    "t": "<p>En låda dras 25 m längs ett vågrätt golv. Repet drar med en konstant kraft på 120 N i vinkeln 40° uppåt från rörelseriktningen.</p><svg height=\"258\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 200\"><rect x=\"15\" y=\"150\" width=\"450\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"15\" y1=\"150\" x2=\"465\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"90\" y=\"96\" width=\"100\" height=\"54\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"140\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">låda</text><line x1=\"190\" y1=\"100\" x2=\"281.925\" y2=\"22.8655\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"289.59,16.44 284.88,26.39 278.97,19.34\" fill=\"#B43123\"/><text x=\"303.586\" y=\"16.4376\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 120 N</text><line x1=\"190\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 4\"/><path d=\"M 228 100 A 38 38 0 0 0 219.1 75.6\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"242\" y=\"84\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40°</text><line x1=\"90\" y1=\"178\" x2=\"340\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"173\" x2=\"90\" y2=\"183\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"173\" x2=\"340\" y2=\"183\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"215\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">s = 25 m</text></svg><ol type=\"a\"><li>Hur stor är repkraftens vågräta del?</li><li>Hur stort arbete gör repkraften?</li><li>Hur stort arbete gör repkraftens lodräta del? Förklara.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vinkeln mäts från golvet, så den vågräta delen fås med cosinus.</p>\\[F_x=120\\cos40^\\circ\\approx91{,}9\\,\\mathrm N\\]<p><strong>b)</strong> Bara den vågräta delen gör arbete. Använd kraften utan avrundning.</p>\\[\\begin{gathered}W=Fs\\cos40^\\circ\\\\=120\\cdot25\\cos40^\\circ\\approx2300\\,\\mathrm J\\end{gathered}\\]<p><strong>c)</strong> Lådan flyttas inte lodrätt. Den lodräta kraften är vinkelrät mot förflyttningen och gör därför 0 J arbete.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "begrepp",
@@ -51625,7 +51625,7 @@ window.BANK = [
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -51638,8 +51638,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hennes arbete på vagnen under 80 m. Använd W = Fs. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>Vilken total sträcka motsvarar ett arbete på 5,4 kJ? Svara i m. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften verkar i rörelseriktningen. Arbetet är kraft gånger sträcka.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=Fs=45\\cdot80=3600\\,\\mathrm J=3{,}6\\,\\mathrm{kJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,6 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla först 5,4 kJ till 5400 J. Lös sedan ut sträckan ur W = Fs.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{5400}{45}=120\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 120 m.</p></div></div></div>",
+    "t": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen. Använd W = Fs.</p><ol type=\"a\"><li>Hur stort arbete gör kraften under 80 m? Svara i kJ. Svara med tre värdesiffror.</li><li>Hur långt dras vagnen om kraften gör arbetet 5,4 kJ? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kraften och förflyttningen har samma riktning. Multiplicera kraften med sträckan och omvandla J till kJ.</p>\\[W=45\\cdot80=3600\\,\\mathrm J=3{,}60\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Omvandla 5,4 kJ till 5400 J. Lös sedan W = Fs för sträckan.</p>\\[s=\\frac WF=\\frac{5400}{45}=120\\,\\mathrm m\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -51648,11 +51648,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.6,
-      120
+      120.0
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Hur många joule är en kilojoule?</p>",
@@ -51660,7 +51660,7 @@ window.BANK = [
     "typ": "arbete och sträcka",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "kJ",
@@ -51676,17 +51676,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen.</p>",
+    "spelIntro": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen. Använd W = Fs.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm hennes arbete på vagnen under 80 m. Använd W = Fs. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen.</p><p>Bestäm hennes arbete på vagnen under 80 m. Använd W = Fs. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften verkar i rörelseriktningen. Arbetet är kraft gånger sträcka.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=Fs=45\\cdot80=3600\\,\\mathrm J=3{,}6\\,\\mathrm{kJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,6 kJ.</p></div>",
+        "fraga": "Hur stort arbete gör kraften under 80 m? Svara i kJ. Svara med tre värdesiffror.",
+        "t": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen. Använd W = Fs.</p><p>Hur stort arbete gör kraften under 80 m? Svara i kJ. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften och förflyttningen har samma riktning. Multiplicera kraften med sträckan och omvandla J till kJ.</p>\\[W=45\\cdot80=3600\\,\\mathrm J=3{,}60\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Hur många joule är en kilojoule?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -51694,13 +51694,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt drar hon vagnen? Svara i m.",
-        "t": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen. Arbetet är 5,4 kJ.</p><p>Hur långt drar hon vagnen? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla först 5,4 kJ till 5400 J. Lös sedan ut sträckan ur W = Fs.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{5400}{45}=120\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 120 m.</p></div>",
+        "fraga": "Hur långt dras vagnen om kraften gör arbetet 5,4 kJ? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Ellen drar en vagn med en konstant kraft på 45 N i rörelseriktningen. Använd W = Fs.</p><p>Hur långt dras vagnen om kraften gör arbetet 5,4 kJ? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 5,4 kJ till 5400 J. Lös sedan W = Fs för sträckan.</p>\\[s=\\frac WF=\\frac{5400}{45}=120\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Vilken storhet är okänd i W = Fs?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -51847,8 +51847,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Olle lyfter en vikt på 3,0 kg rakt uppåt. Vikten är i vila både före och efter lyftet. Olles kraft uträttar arbetet 42 J. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur mycket ökar viktens lägesenergi? Svara i J. Svara med ett heltal.</li><li>Hur högt lyfter Olle vikten? Svara i m. Avrunda vid behov till 2 decimaler.</li><li>En dator på 2,4 kg har i en annan situation lägesenergin 32 J. Bestäm höjden över den valda nollnivån. Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin är lika stor i start och slut.</p></div><div class=\"facit-stycke\"><p>Därför blir hela lyftarbetet en ökning i lägesenergi.</p></div></div><p class=\"facit-svar\">Svar: 42 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=mg\\Delta h\\) ger \\(\\Delta h=\\dfrac{42}{3{,}0\\cdot9{,}82}\\).</p></div></div><p class=\"facit-svar\">Svar: 1,43 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E_p=mgh\\) ger \\(h=\\dfrac{32}{2{,}4\\cdot9{,}82}\\).</p></div></div><p class=\"facit-svar\">Svar: 1,36 m.</p></div></div></div>",
+    "t": "<p>Olle lyfter en vikt på 3,0 kg rakt upp. Vikten börjar och slutar i vila. Hans kraft gör arbetet 42 J. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket ökar viktens lägesenergi? Svara i J. Svara med tre värdesiffror.</li><li>Hur högt lyfts vikten? Svara i m. Svara med tre värdesiffror.</li><li>En dator på 2,4 kg har lägesenergin 32 J. Hur högt ligger den över den valda nollnivån? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vikten har ingen rörelseenergi före eller efter lyftet. Hela lyftarbetet blir därför ökad lägesenergi.</p>\\[\\Delta E_p=W=42{,}0\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Vikten börjar och slutar i vila, så lyftarbetet är ökningen i lägesenergi. Lös W = mgh för höjden.</p>\\[h=\\frac W{mg}=\\frac{42}{3{,}0\\cdot9{,}82}\\approx1{,}43\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Lägesenergin räknas från den valda nollnivån. Lös \\(E_p\\) = mgh för höjden.</p>\\[h=\\frac{E_p}{mg}=\\frac{32}{2{,}4\\cdot9{,}82}\\approx1{,}36\\,\\mathrm m\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
@@ -51857,13 +51857,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       42,
-      1.43,
-      1.36
+      1.4256619144602851,
+      1.357773251866938
     ],
     "tolerans": [
-      0,
-      0.01,
-      0.01
+      0.05,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Har rörelseenergin ändrats mellan start och slut?</p>",
@@ -51871,7 +51871,7 @@ window.BANK = [
     "typ": "lyftarbete och lägesenergi",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "J",
@@ -51890,16 +51890,16 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Olle lyfter en vikt på 3,0 kg rakt uppåt. Vikten är i vila både före och efter lyftet. Olles kraft uträttar arbetet 42 J. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Olle lyfter en vikt på 3,0 kg rakt upp. Vikten börjar och slutar i vila. Hans kraft gör arbetet 42 J. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket ökar viktens lägesenergi? Svara i J. Svara med ett heltal.",
-        "t": "<p>Olle lyfter en vikt på 3,0 kg rakt uppåt. Vikten är i vila både före och efter lyftet. Olles kraft uträttar arbetet 42 J. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><p>Hur mycket ökar viktens lägesenergi? Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin är lika stor i start och slut.</p></div><div class=\"facit-stycke\"><p>Därför blir hela lyftarbetet en ökning i lägesenergi.</p></div></div><p class=\"facit-svar\">Svar: 42 J.</p></div>",
+        "fraga": "Hur mycket ökar viktens lägesenergi? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En vikt lyfts rakt upp från vila till vila. Lyftkraftens arbete är 42 J. Bortse från luftmotståndet.</p><p>Hur mycket ökar viktens lägesenergi? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vikten har ingen rörelseenergi före eller efter lyftet. Hela lyftarbetet blir därför ökad lägesenergi.</p>\\[\\Delta E_p=W=42{,}0\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Har rörelseenergin ändrats mellan start och slut?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -51908,13 +51908,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur högt lyfter Olle vikten? Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Olle lyfter en vikt på 3,0 kg rakt uppåt. Vikten är i vila både före och efter lyftet. Olles kraft uträttar arbetet 42 J. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><p>Hur högt lyfter Olle vikten? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=mg\\Delta h\\) ger \\(\\Delta h=\\dfrac{42}{3{,}0\\cdot9{,}82}\\).</p></div></div><p class=\"facit-svar\">Svar: 1,43 m.</p></div>",
+        "fraga": "Hur högt lyfts vikten? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Olle lyfter en vikt på 3,0 kg rakt upp från vila till vila. Lyftkraftens arbete är 42 J. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur högt lyfts vikten? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vikten börjar och slutar i vila, så lyftarbetet är ökningen i lägesenergi. Lös W = mgh för höjden.</p>\\[h=\\frac W{mg}=\\frac{42}{3{,}0\\cdot9{,}82}\\approx1{,}43\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Vilken höjdändring motsvarar ökningen i lägesenergi?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -51922,13 +51922,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur högt är datorn över den valda nollnivån? Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En dator på 2,4 kg har lägesenergin 32 J. Använd g = 9,82 m/s².</p><p>Hur högt är datorn över den valda nollnivån? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E_p=mgh\\) ger \\(h=\\dfrac{32}{2{,}4\\cdot9{,}82}\\).</p></div></div><p class=\"facit-svar\">Svar: 1,36 m.</p></div>",
+        "fraga": "Hur högt ligger datorn över den valda nollnivån? Svara i m med tre värdesiffror.",
+        "t": "<p>En dator på 2,4 kg har lägesenergin 32 J. Använd g = 9,82 m/s².</p><p>Hur högt ligger datorn över den valda nollnivån? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin räknas från den valda nollnivån. Lös \\(E_p\\) = mgh för höjden.</p>\\[h=\\frac{E_p}{mg}=\\frac{32}{2{,}4\\cdot9{,}82}\\approx1{,}36\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Vilken storhet ska lösas ut ur lägesenergin?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52066,8 +52066,8 @@ window.BANK = [
     "niva": "C",
     "typ": "lägesenergi och temperatur",
     "poang": "(1/3/0)",
-    "t": "<p>I en förenklad modell faller vatten 93 m från vila och bromsas sedan helt. All förlorad mekanisk energi antas stanna som inre energi i samma vattenmängd. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm frigjord lägesenergi per kilogram vatten.</li><li>Bestäm temperaturökningen enligt modellen.</li><li>Bestäm fallhöjden som skulle ge temperaturökningen 1,0 °C.</li><li>Ge två skäl till att resultatet inte direkt förutsäger temperaturen i ett verkligt vattenfall.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{\\Delta E_{\\mathrm{p}}}{m}=g h=9{,}82\\cdot 93=913{,}26\\, \\mathrm{J/kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">mgh = mcΔT ger</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{g h}{c}=\\frac{913{,}26}{4180}\\approx 0{,}2185\\, {}^\\circ\\mathrm{C}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[h=\\frac{c \\Delta T}{g}=\\frac{4180}{9{,}82}\\approx 425{,}66\\, \\mathrm{m}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>I verkligheten kan energi föras till luft och omgivning och vatten kan avdunsta.</p></div><div class=\"facit-stycke\"><p>Vattnet kan också ha rörelseenergi kvar där temperaturen mäts.</p></div><div class=\"facit-stycke\"><p>Därför måste mätplatser och energiutbyte med omgivningen preciseras.</p></div></div></div></div></div>",
+    "t": "<p>Vatten faller 93 m från vila och bromsas helt. I en modell blir hela den förlorade lägesenergin värme i samma vatten. För uppvärmningen gäller E = mcΔT, med c = 4180 J/(kg·°C). Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket lägesenergi frigörs per kilogram vatten?</li><li>Hur stor blir temperaturökningen i modellen?</li><li>Vilken fallhöjd skulle ge temperaturökningen 1,0 °C i samma modell?</li><li>Ge två skäl till att ett verkligt vattenfall kan ge en annan temperaturökning.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Lägesenergin per kilogram fås genom att dividera mgh med massan.</p>\\[\\frac E m=gh=9{,}82\\cdot93=913{,}26\\,\\mathrm{J/kg}\\]<p><strong>b)</strong> Sätt mgh = mcΔT. Massan förkortas bort.</p>\\[\\Delta T=\\frac{gh}{c}=\\frac{9{,}82\\cdot93}{4180}\\approx0{,}218\\,^\\circ\\mathrm C\\]<p><strong>c)</strong> Lös samma samband för fallhöjden.</p>\\[h=\\frac{c\\Delta T}{g}=\\frac{4180\\cdot1{,}0}{9{,}82}\\approx426\\,\\mathrm m\\]<p><strong>d)</strong> Energi kan överföras till luften och marken. En del vatten kan avdunsta. Vattnet kan också ha fart kvar där temperaturen mäts, så all rörelseenergi har då inte blivit värme. Två av dessa förklaringar räcker.</p></div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "modellering",
@@ -52079,7 +52079,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Hur kan energin som frigörs kopplas till vattnets temperaturändring?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -52699,8 +52699,8 @@ window.BANK = [
     "niva": "C",
     "typ": "lyft med motstånd",
     "poang": "(0/2/0)",
-    "t": "<p>En låda på 20 kg dras från vila till vila till en plattform 2,0 m hög via en bana som är 5,0 m lång. I en förenklad modell är den bromsande kraften konstant 39,28 N längs hela banan. Bortse från övriga energiförluster.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,111.0\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 83.5 238.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><polygon points=\"191.9,190.9 241.3,169.3 226.9,136.3 177.5,157.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"234.1\" y1=\"152.8\" x2=\"302.0\" y2=\"123.2\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M312.0 118.8 L304.4 128.7 L299.6 117.7 Z\" fill=\"#2b6cb0\"/><text x=\"306\" y=\"110\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"149.2\" y1=\"223.7\" x2=\"370.3\" y2=\"127.2\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"294\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 m</text><line x1=\"393.0\" y1=\"255.0\" x2=\"393.0\" y2=\"111.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"419\" y=\"189\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">2,0 m</text></svg></div><p>Använd g = 9,82 m/s².</p><p>Bestäm dragkraftens sammanlagda arbete på lådan. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=0\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dragkraften måste både öka lägesenergin med 20 · 9,82 · 2 = 392,8 J och ersätta motståndets energiförlust</p><div class=\"facit-matte\">\\[39{,}28\\cdot 5=196{,}4\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Summan är 589,2 J.</p></div></div><p class=\"facit-svar\">Svar: 589,2 J.</p></div>",
+    "t": "<p>En låda på 20 kg dras upp till en plattform 2,0 m över startläget längs en 5,0 m lång bana. Lådan börjar och slutar i vila. En konstant motståndskraft på 39,28 N bromsar längs hela banan. Bortse från andra energiförluster och använd g = 9,82 m/s². Hur stort arbete gör dragkraften på lådan? Svara i J.</p><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,111.0\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 83.5 238.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><polygon points=\"191.9,190.9 241.3,169.3 226.9,136.3 177.5,157.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"234.1\" y1=\"152.8\" x2=\"302.0\" y2=\"123.2\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M312.0 118.8 L304.4 128.7 L299.6 117.7 Z\" fill=\"#2b6cb0\"/><text x=\"306\" y=\"110\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"149.2\" y1=\"223.7\" x2=\"370.3\" y2=\"127.2\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"294\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 m</text><line x1=\"393.0\" y1=\"255.0\" x2=\"393.0\" y2=\"111.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"419\" y=\"189\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">2,0 m</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften ska både öka lägesenergin och ersätta den energi som motståndet tar. Rörelseenergin ändras inte mellan start och slut.</p>\\[\\Delta E_p=mgh=20\\cdot9{,}82\\cdot2{,}0=392{,}8\\,\\mathrm J\\]\\[E_\\text{förlust}=fs=39{,}28\\cdot5{,}0=196{,}4\\,\\mathrm J\\]\\[W=392{,}8+196{,}4=589{,}2\\,\\mathrm J\\]<p>Med tre värdesiffror: 589 J.</p></div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "modellering",
@@ -52709,11 +52709,11 @@ window.BANK = [
     "familjNyckel": "arbete__lyft_med_motstand",
     "svarstyp": "numeriskt",
     "rättSvar": 589.2,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka två poster måste dragarbetet täcka när start- och slutfarten är noll?</p>",
+    "ledtrad": "<p>Dragkraften ska både öka lägesenergin och ersätta energin som motståndet tar.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -52950,9 +52950,9 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "typ": "arbete ur kraftdiagram",
-    "poang": "(2/0/0)",
-    "t": "<p>Diagrammet visar kraftkomponenten längs en vagns förflyttning.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">9</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">s (m)</text><polyline points=\"54.00,246.00 313.20,26.00 486.00,26.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"313.20\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/></svg></span><p>Bestäm arbetet under förflyttningen 0–10 m. Svara i J.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Arbetet är arean under grafen.</p></div><div class=\"facit-stycke\"><p>Mellan 0 och 6 m är arean en triangel: \\(\\dfrac{6\\cdot60}{2}=180\\) J.</p></div><div class=\"facit-stycke\"><p>Mellan 6 och 10 m är den en rektangel: \\(4\\cdot60=240\\) J.</p></div><div class=\"facit-stycke\"><p>\\(W=180+240=420\\) J</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 420 J</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Grafen visar kraften i en vagns rörelseriktning. Hur stort arbete gör kraften under de första 10 m? Svara i J.</p><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">9</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">s (m)</text><polyline points=\"54.00,246.00 313.20,26.00 486.00,26.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"313.20\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet är arean under grafen. Kraften ökar från 0 till 60 N under de första 6 m. Därefter är den 60 N under 10 − 6 = 4 m.</p>\\[W_1=\\frac{6\\cdot60}{2}=180\\,\\mathrm J\\]\\[W_2=4\\cdot60=240\\,\\mathrm J\\]\\[W=W_1+W_2=180+240=420\\,\\mathrm J\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "begrepp",
@@ -52960,11 +52960,11 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__arbete_ur_kraftdiagram",
     "svarstyp": "numeriskt",
-    "rättSvar": 420,
-    "tolerans": 0,
+    "rättSvar": 420.0,
+    "tolerans": 0.5,
     "självrättning": true,
-    "ledtrad": "<p>Vilka enkla geometriska områden kan grafens area delas i?</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Dela arean under grafen i en triangel och en rektangel.</p>",
+    "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -53321,8 +53321,8 @@ window.BANK = [
     "niva": "E",
     "typ": "lägesenergi och höjdskillnad",
     "poang": "(3/0/0)",
-    "t": "<p>En fågel på 0,80 kg sitter först 15 m över marken och flyger sedan upp till 30 m. Marken är nollnivå för lägesenergin. Räkna bara på arbetet mot tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin på 15 m höjd. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm lägesenergin på 30 m höjd. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm arbetet mot tyngdkraften under höjningen. Svara i J. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 15=117{,}84\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 117,84 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 30=235{,}68\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 235,68 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=0{,}80\\cdot 9{,}82\\cdot \\left(30-15\\right)=117{,}84\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är inte fågelns hela energiförbrukning.</p></div></div><p class=\"facit-svar\">Svar: 117,84 J.</p></div></div></div>",
+    "t": "<p>En fågel på 0,80 kg flyger från 15 m till 30 m över marken. Marken är nollnivå för lägesenergin. Använd \\(E_p\\) = mgh och g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm lägesenergin på 15 m höjd. Svara i J. Svara med tre värdesiffror.</li><li>Bestäm lägesenergin på 30 m höjd. Svara i J. Svara med tre värdesiffror.</li><li>Hur stort arbete krävs mot tyngdkraften under höjningen? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Sätt in massan och höjden i den givna formeln.</p>\\[E_p=0{,}80\\cdot9{,}82\\cdot15=117{,}84\\,\\mathrm J\\]<p>Med tre värdesiffror: 118 J.</p><p><strong>b)</strong></p><p>Använd höjden över marken, som är nollnivå.</p>\\[E_p=0{,}80\\cdot9{,}82\\cdot30=235{,}68\\,\\mathrm J\\]<p>Med tre värdesiffror: 236 J.</p><p><strong>c)</strong></p><p>Arbetet mot tyngdkraften är ökningen i lägesenergi. Höjdökningen är 30 − 15 = 15 m.</p>\\[W=mg\\Delta h=0{,}80\\cdot9{,}82\\cdot15=117{,}84\\,\\mathrm J\\]<p>Med tre värdesiffror: 118 J. Fågelns övriga energiförbrukning ingår inte.</p></div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
@@ -53330,21 +53330,21 @@ window.BANK = [
     "familjNyckel": "arbete__lagesenergi_och_hojdskillnad",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      117.84,
-      235.68,
-      117.84
+      117.84000000000002,
+      235.68000000000004,
+      117.84000000000002
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken höjd ska användas?</p>",
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "J",
@@ -53363,16 +53363,16 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fågel på 0,80 kg sitter först 15 m över marken och flyger sedan upp till 30 m. Marken är nollnivå för lägesenergin. Räkna bara på arbetet mot tyngdkraften.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En fågel på 0,80 kg flyger från 15 m till 30 m över marken. Marken är nollnivå för lägesenergin. Använd \\(E_p\\) = mgh och g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fågel på 0,80 kg är 15 m över marken. Marken är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 15=117{,}84\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 117,84 J.</p></div>",
-        "ledtrad": "<p>Vilken höjd ska användas?</p>",
+        "fraga": "Bestäm lägesenergin på 15 m höjd. Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En fågel på 0,80 kg är 15 m över marken. Marken är nollnivå för lägesenergin. Använd \\(E_p\\) = mgh och g = 9,82 m/s².</p><p>Bestäm lägesenergin på 15 m höjd. Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sätt in massan och höjden i den givna formeln.</p>\\[E_p=0{,}80\\cdot9{,}82\\cdot15=117{,}84\\,\\mathrm J\\]<p>Med tre värdesiffror: 118 J.</p></div>",
+        "ledtrad": "<p>Sätt in fågelns massa och höjden över marken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -53381,12 +53381,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fågel på 0,80 kg är 30 m över marken. Marken är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Hur stor är fågelns lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 30=235{,}68\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 235,68 J.</p></div>",
-        "ledtrad": "<p>Hur ändras lägesenergin när höjden fördubblas?</p>",
+        "fraga": "Bestäm lägesenergin på 30 m höjd. Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En fågel på 0,80 kg är 30 m över marken. Marken är nollnivå för lägesenergin. Använd \\(E_p\\) = mgh och g = 9,82 m/s².</p><p>Bestäm lägesenergin på 30 m höjd. Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd höjden över marken, som är nollnivå.</p>\\[E_p=0{,}80\\cdot9{,}82\\cdot30=235{,}68\\,\\mathrm J\\]<p>Med tre värdesiffror: 236 J.</p></div>",
+        "ledtrad": "<p>Sätt in fågelns massa och höjden över marken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -53395,13 +53395,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm arbetet mot tyngdkraften under höjningen. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En fågel på 0,80 kg sitter först 15 m över marken och flyger sedan upp till 30 m. Marken är nollnivå för lägesenergin. Räkna bara på arbetet mot tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm arbetet mot tyngdkraften under höjningen. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=0{,}80\\cdot 9{,}82\\cdot \\left(30-15\\right)=117{,}84\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är inte fågelns hela energiförbrukning.</p></div></div><p class=\"facit-svar\">Svar: 117,84 J.</p></div>",
-        "ledtrad": "<p>Är det sluthöjden eller höjdskillnaden som bestämmer arbetet?</p>",
+        "fraga": "Hur stort arbete krävs mot tyngdkraften under höjningen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En fågel på 0,80 kg flyger från 15 m till 30 m över marken. Använd g = 9,82 m/s².</p><p>Hur stort arbete krävs mot tyngdkraften under höjningen? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet mot tyngdkraften är ökningen i lägesenergi. Höjdökningen är 30 − 15 = 15 m.</p>\\[W=mg\\Delta h=0{,}80\\cdot9{,}82\\cdot15=117{,}84\\,\\mathrm J\\]<p>Med tre värdesiffror: 118 J. Fågelns övriga energiförbrukning ingår inte.</p></div>",
+        "ledtrad": "<p>Använd höjdökningen, inte sluthöjden.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -53419,8 +53419,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete med olika obekanta",
     "poang": "(3/0/0)",
-    "t": "<p>I tre separata fall verkar en konstant kraft i förflyttningens riktning. Sambandet är W = Fs.</p><ol style=\"display:grid;gap:0.85rem\"><li>F = 80 N och s = 15 m. Bestäm W. Svara i J. Svara med ett heltal.</li><li>W = 600 J och s = 4,0 m. Bestäm F. Svara i N. Svara med ett heltal.</li><li>W = 2400 J och F = 300 N. Bestäm s. Svara i m. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=80\\cdot 15=1200\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1200 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{600}{4{,}0}=150\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 150 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{2400}{300}=8\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8 m.</p></div></div></div>",
+    "t": "<p>En konstant kraft verkar i förflyttningens riktning. Använd W = Fs.</p><ol type=\"a\"><li>Kraften är 80 N och sträckan 15 m. Bestäm arbetet i J. Svara med tre värdesiffror.</li><li>Arbetet är 600 J och sträckan 4,0 m. Bestäm kraften i N. Svara med tre värdesiffror.</li><li>Arbetet är 2400 J och kraften 300 N. Bestäm sträckan i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=80\\cdot15=1200\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Dividera arbetet med sträckan.</p>\\[F=\\frac Ws=\\frac{600}{4{,}0}=150\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Dividera arbetet med kraften.</p>\\[s=\\frac WF=\\frac{2400}{300}=8{,}00\\,\\mathrm m\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -53429,17 +53429,17 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1200,
-      150,
-      8
+      150.0,
+      8.0
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      5.0,
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Sätt in kraften och sträckan i sambandet.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -53461,14 +53461,14 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I tre separata fall verkar en konstant kraft i förflyttningens riktning. Sambandet är W = Fs.</p>",
+    "spelIntro": "<p>En konstant kraft verkar i förflyttningens riktning. Använd W = Fs.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "F = 80 N och s = 15 m. Bestäm W. Svara i J. Svara med ett heltal.",
-        "t": "<p>I tre separata fall verkar en konstant kraft i förflyttningens riktning. Sambandet är W = Fs.</p><p>F = 80 N och s = 15 m. Bestäm W. Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=80\\cdot 15=1200\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1200 J.</p></div>",
-        "ledtrad": "<p>Sätt in kraften och sträckan i sambandet.</p>",
+        "fraga": "Bestäm arbetet i J med tre värdesiffror.",
+        "t": "<p>En konstant kraft på 80 N flyttar ett föremål 15 m i kraftens riktning. Använd W = Fs.</p><p>Bestäm arbetet i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=80\\cdot15=1200\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Multiplicera kraften med sträckan.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -53480,10 +53480,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "W = 600 J och s = 4,0 m. Bestäm F. Svara i N. Svara med ett heltal.",
-        "t": "<p>I tre separata fall verkar en konstant kraft i förflyttningens riktning. Sambandet är W = Fs.</p><p>W = 600 J och s = 4,0 m. Bestäm F. Svara i N. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{600}{4{,}0}=150\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 150 N.</p></div>",
-        "ledtrad": "<p>Hur löser du ut kraften?</p>",
+        "fraga": "Bestäm kraften i N med tre värdesiffror.",
+        "t": "<p>En konstant kraft gör arbetet 600 J under 4,0 m i kraftens riktning. Använd F = W/s.</p><p>Bestäm kraften i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera arbetet med sträckan.</p>\\[F=\\frac Ws=\\frac{600}{4{,}0}=150\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Dividera arbetet med sträckan.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -53495,10 +53495,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "W = 2400 J och F = 300 N. Bestäm s. Svara i m. Svara med ett heltal.",
-        "t": "<p>I tre separata fall verkar en konstant kraft i förflyttningens riktning. Sambandet är W = Fs.</p><p>W = 2400 J och F = 300 N. Bestäm s. Svara i m. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{2400}{300}=8\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8 m.</p></div>",
-        "ledtrad": "<p>Hur löser du ut sträckan?</p>",
+        "fraga": "Bestäm sträckan i m med tre värdesiffror.",
+        "t": "<p>En konstant kraft på 300 N gör arbetet 2400 J i kraftens riktning. Använd s = W/F.</p><p>Bestäm sträckan i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera arbetet med kraften.</p>\\[s=\\frac WF=\\frac{2400}{300}=8{,}00\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Dividera arbetet med kraften.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -53918,8 +53918,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp som är 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i lägesenergi. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm Claras arbete på vagnen. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm dragkraften. Svara i N. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=8{,}0\\cdot 9{,}82\\cdot 2{,}4=188{,}544\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 188,54 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Rörelseenergin är oförändrad och motstånd saknas, så</p><div class=\"facit-matte\">\\[W=\\Delta E_{\\mathrm{p}}=188{,}544\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 188,54 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=8{,}0\\cdot 9{,}82\\cdot 2{,}4=188{,}544\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs längs rampen ger</p><div class=\"facit-matte\">\\[F=\\frac{188{,}544}{12}=15{,}712\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 15,71 N.</p></div></div></div>",
+    "t": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp, 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktionen och använd g = 9,82 m/s².</p><svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg><ol type=\"a\"><li>Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</li><li>Hur stort arbete gör Claras kraft på vagnen? Svara i J. Svara med tre värdesiffror.</li><li>Hur stor är dragkraften? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lägesenergin ökar med massan gånger g gånger höjdökningen.</p>\\[\\begin{gathered}\\Delta E_p=mg\\Delta h\\\\=8{,}0\\cdot9{,}82\\cdot2{,}4=188{,}544\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 189 J.</p><p><strong>b)</strong></p><p>Farten är konstant, så rörelseenergin ändras inte. Utan friktion blir hela dragarbetet ökad lägesenergi.</p>\\[W=mg\\Delta h=8{,}0\\cdot9{,}82\\cdot2{,}4=188{,}544\\,\\mathrm J\\]<p>Med tre värdesiffror: 189 J.</p><p><strong>c)</strong></p><p>Utan friktion och vid konstant fart är arbetet ökningen i lägesenergi.</p>\\[W=8{,}0\\cdot9{,}82\\cdot2{,}4=188{,}544\\,\\mathrm J\\]<p>Kraften verkar längs den 12 m långa rampen. Lös W = Fs för kraften.</p>\\[F=\\frac Ws=\\frac{188{,}544}{12}\\approx15{,}7\\,\\mathrm N\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -53927,18 +53927,18 @@ window.BANK = [
     "familjNyckel": "arbete__kraft_och_arbete_pa_ramp",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      188.54,
-      188.54,
-      15.71
+      188.544,
+      188.544,
+      15.712000000000002
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.5,
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilket av rampens mått bestämmer energiökningen?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "kraft och arbete på ramp",
     "miniräknare": true,
     "geogebra": false,
@@ -53961,16 +53961,16 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp som är 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg></span>",
+    "spelIntro": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp, 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktionen och använd g = 9,82 m/s².</p><svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ökningen i lägesenergi. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp som är 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg></span><p>Bestäm ökningen i lägesenergi. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=8{,}0\\cdot 9{,}82\\cdot 2{,}4=188{,}544\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 188,54 J.</p></div>",
-        "ledtrad": "<p>Vilket av rampens mått bestämmer energiökningen?</p>",
+        "fraga": "Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 8,0 kg höjs 2,4 m. Använd \\(\\Delta E_p\\) = mgΔh och g = 9,82 m/s².</p><p>Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin ökar med massan gånger g gånger höjdökningen.</p>\\[\\begin{gathered}\\Delta E_p=mg\\Delta h\\\\=8{,}0\\cdot9{,}82\\cdot2{,}4=188{,}544\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 189 J.</p></div>",
+        "ledtrad": "<p>Massan och höjdökningen bestämmer energiökningen.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -53979,13 +53979,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm Claras arbete på vagnen. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp som är 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg></span><p>Bestäm Claras arbete på vagnen. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Rörelseenergin är oförändrad och motstånd saknas, så</p><div class=\"facit-matte\">\\[W=\\Delta E_{\\mathrm{p}}=188{,}544\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 188,54 J.</p></div>",
-        "ledtrad": "<p>Ändras vagnens rörelseenergi?</p>",
+        "fraga": "Hur stort arbete gör Claras kraft på vagnen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp, 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktionen och använd g = 9,82 m/s².<svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg></p><p>Hur stort arbete gör Claras kraft på vagnen? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten är konstant, så rörelseenergin ändras inte. Utan friktion blir hela dragarbetet ökad lägesenergi.</p>\\[W=mg\\Delta h=8{,}0\\cdot9{,}82\\cdot2{,}4=188{,}544\\,\\mathrm J\\]<p>Med tre värdesiffror: 189 J.</p></div>",
+        "ledtrad": "<p>Ändras rörelseenergin när farten är konstant?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -53993,12 +53993,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm dragkraften. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp som är 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg></span><p>Bestäm dragkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=8{,}0\\cdot 9{,}82\\cdot 2{,}4=188{,}544\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs längs rampen ger</p><div class=\"facit-matte\">\\[F=\\frac{188{,}544}{12}=15{,}712\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 15,71 N.</p></div>",
-        "ledtrad": "<p>Vilken sträcka verkar dragkraften längs?</p>",
+        "fraga": "Hur stor är dragkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Clara drar en vagn på 8,0 kg med konstant fart uppför en rak ramp, 12 m lång och 2,4 m hög. Kraften är parallell med rampen. Bortse från friktionen och använd g = 9,82 m/s².<svg height=\"153\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.743 79.245 397.257 98.113\"><polygon points=\"60,170 373,170 373,106\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(216,138) rotate(-11.537)\"><rect x=\"-38\" y=\"-46\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"-19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"19.76\" cy=\"-6\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"19.76\" cy=\"-6\" r=\"1.8\" fill=\"#2B2527\"/></g><line x1=\"396\" y1=\"106\" x2=\"396\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"106\" x2=\"401\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"391\" y1=\"170\" x2=\"401\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"405\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,4 m</text><line x1=\"373\" y1=\"106\" x2=\"400\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"373\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 m</text></svg></p><p>Hur stor är dragkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan friktion och vid konstant fart är arbetet ökningen i lägesenergi.</p>\\[W=8{,}0\\cdot9{,}82\\cdot2{,}4=188{,}544\\,\\mathrm J\\]<p>Kraften verkar längs den 12 m långa rampen. Lös W = Fs för kraften.</p>\\[F=\\frac Ws=\\frac{188{,}544}{12}\\approx15{,}7\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Beräkna arbetet från höjdökningen och använd sedan rampens längd i W = Fs.</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -54242,10 +54242,10 @@ window.BANK = [
     "id": "5.57",
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>En powerbank har laddningskapaciteten 10 000 mAh. Modellera cellspänningen som konstant 3,7 V under urladdningen. Använd E = UQ och 1 Ah = 3600 C.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Uppskatta den lagrade elektriska energin. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>Hur stor höjdökning motsvarar energin för en person på 70 kg om all energi blir lägesenergi? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">10 000 mAh =</p><div class=\"facit-matte\">\\[10 A h=36\\,000\\, \\mathrm{C}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=3{,}7\\cdot 36\\,000=133\\,200 J=133{,}2\\, \\mathrm{kJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 133,2 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">mgh = 133 200 J ger</p><div class=\"facit-matte\">\\[h=\\frac{133\\,200}{70\\cdot 9{,}82}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är en ideal gräns utan omvandlingsförluster.</p></div></div><p class=\"facit-svar\">Svar: 193,77 m.</p></div></div></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En powerbank har kapaciteten 10 000 mAh. Spänningen är konstant 3,7 V i denna modell. Använd E = UQ, 1 Ah = 3600 C och g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket elektrisk energi kan den lagra? Svara i kJ. Svara med tre värdesiffror.</li><li>Hur stor höjdökning motsvarar hela energin för en person på 70 kg? Anta att all energi blir lägesenergi. Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla kapaciteten till laddning i C.</p>\\[10000\\,\\mathrm{mAh}=10\\,\\mathrm{Ah}\\]\\[Q=10\\cdot3600=36000\\,\\mathrm C\\]<p>Energin är spänningen gånger laddningen.</p>\\[E=UQ=3{,}7\\cdot36000=133200\\,\\mathrm J\\]\\[E=133{,}2\\,\\mathrm{kJ}\\approx133\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Kapaciteten är 10 000 mAh = 10 Ah = 36 000 C. Energin blir E = 3,7 · 36 000 = 133 200 J. Om hela energin blir lägesenergi gäller mgh = E.</p>\\[h=\\frac E{mg}=\\frac{133200}{70\\cdot9{,}82}\\approx194\\,\\mathrm m\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "modellering",
@@ -54255,15 +54255,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       133.2,
-      193.77
+      193.77363980215304
     ],
     "tolerans": [
-      0,
-      0
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Omvandla först laddningskapaciteten till coulomb.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "jämföra elektrisk energi och lägesenergi",
     "miniräknare": true,
     "geogebra": false,
@@ -54283,17 +54283,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En powerbank har laddningskapaciteten 10 000 mAh. Modellera cellspänningen som konstant 3,7 V under urladdningen. Använd E = UQ och 1 Ah = 3600 C.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En powerbank har kapaciteten 10 000 mAh. Spänningen är konstant 3,7 V i denna modell. Använd E = UQ, 1 Ah = 3600 C och g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket elektrisk energi kan powerbanken lagra? Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En powerbank har laddningskapaciteten 10 000 mAh och spänningen 3,7 V. Räkna spänningen som konstant. Använd E = UQ och 1 Ah = 3600 C.</p><p>Hur mycket elektrisk energi kan powerbanken lagra? Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">10 000 mAh =</p><div class=\"facit-matte\">\\[10 A h=36\\,000\\, \\mathrm{C}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=3{,}7\\cdot 36\\,000=133\\,200 J=133{,}2\\, \\mathrm{kJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 133,2 kJ.</p></div>",
-        "ledtrad": "<p>Omvandla först laddningskapaciteten till coulomb.</p>",
+        "fraga": "Hur mycket elektrisk energi kan den lagra? Svara i kJ. Svara med tre värdesiffror.",
+        "t": "<p>En powerbank har kapaciteten 10 000 mAh. Spänningen är konstant 3,7 V i denna modell. Använd E = UQ, 1 Ah = 3600 C.</p><p>Hur mycket elektrisk energi kan den lagra? Svara i kJ. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla kapaciteten till laddning i C.</p>\\[10000\\,\\mathrm{mAh}=10\\,\\mathrm{Ah}\\]\\[Q=10\\cdot3600=36000\\,\\mathrm C\\]<p>Energin är spänningen gånger laddningen.</p>\\[E=UQ=3{,}7\\cdot36000=133200\\,\\mathrm J\\]\\[E=133{,}2\\,\\mathrm{kJ}\\approx133\\,\\mathrm{kJ}\\]</div>",
+        "ledtrad": "<p>Omvandla först mAh till Ah och sedan till C.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -54301,14 +54301,14 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor höjdökning motsvarar energin för en person på 70 kg om all energi blir lägesenergi? Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En powerbank har laddningskapaciteten 10 000 mAh. Modellera cellspänningen som konstant 3,7 V under urladdningen. Använd E = UQ och 1 Ah = 3600 C.</p><p>Använd g = 9,82 m/s².</p><p>Hur stor höjdökning motsvarar energin för en person på 70 kg om all energi blir lägesenergi? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">mgh = 133 200 J ger</p><div class=\"facit-matte\">\\[h=\\frac{133\\,200}{70\\cdot 9{,}82}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är en ideal gräns utan omvandlingsförluster.</p></div></div><p class=\"facit-svar\">Svar: 193,77 m.</p></div>",
-        "ledtrad": "<p>Vilket energisamband beskriver lyftet?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "fraga": "Hur stor höjdökning motsvarar energin? Svara i m med tre värdesiffror.",
+        "t": "<p>En powerbank lagrar 133,2 kJ. Hela energin används i en modell för att lyfta en person på 70 kg. Använd g = 9,82 m/s².</p><p>Hur stor höjdökning motsvarar energin? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla den givna energin: 133,2 kJ = 133 200 J. Hela energin blir ökad lägesenergi. Lös mgh = E för höjden.</p>\\[h=\\frac E{mg}=\\frac{133200}{70\\cdot9{,}82}\\approx194\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Omvandla den givna energin till J och använd mgh = E.</p>",
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "modellering",
           "procedur"
@@ -54325,8 +54325,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>I en modell av en pilbåge ökar dragkraften linjärt från noll till 300 N när strängen dras 0,55 m. Bågen spänns långsamt. Pilen har massan 25 g och skjuts vågrätt. Bortse från pilens rotation.</p><ol style=\"display:grid;gap:0.85rem\"><li>Rita kraften som funktion av förlängningen och bestäm arbetet ur grafens area.</li><li>Bestäm pilens fart om hela arbetet blir rörelseenergi.</li><li>Bestäm farten om endast 80 % av arbetet blir pilens rörelseenergi.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Grafen går linjärt från (0 m, 0 N) till (0,55 m, 300 N).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Triangelns area är</p><div class=\"facit-matte\">\\[E=\\frac{300\\cdot 0{,}55}{2}=82{,}5\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">m = 0,025 kg och mv²/2 = 82,5 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{165}{0{,}025}}\\approx 81{,}24\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_k = 0,80 · 82,5 = 66 J ger</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{132}{0{,}025}}\\approx 72{,}66\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><p>Farten multipliceras med √0,80, inte med 0,80.</p></div></div></div></div><span class=\"fig\"><svg height=\"360\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 430 250\" role=\"img\" aria-label=\"Kraft–förlängningsdiagram med en rät linje från noll till 300 newton vid 0,55 meter.\">\n    <defs><marker id=\"pil-axel-55\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\"><path d=\"M0,0 L7,3.5 L0,7 Z\" fill=\"#2B2527\"/></marker></defs>\n    <line x1=\"58\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" marker-end=\"url(#pil-axel-55)\"/>\n    <line x1=\"58\" y1=\"205\" x2=\"58\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"2\" marker-end=\"url(#pil-axel-55)\"/>\n    <path d=\"M58 205 L360 45 L360 205 Z\" fill=\"#B43123\" fill-opacity=\"0.12\" stroke=\"none\"/>\n    <line x1=\"58\" y1=\"205\" x2=\"360\" y2=\"45\" stroke=\"#B43123\" stroke-width=\"3\"/>\n    <line x1=\"360\" y1=\"45\" x2=\"360\" y2=\"205\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/>\n    <line x1=\"58\" y1=\"45\" x2=\"360\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/>\n    <text x=\"398\" y=\"243\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">x / m</text>\n    <text x=\"45\" y=\"24\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">F / N</text>\n    <text x=\"360\" y=\"226\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">0,55</text>\n    <text x=\"48\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">300</text>\n    <text x=\"253\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#B43123\">area = lagrad energi</text>\n  </svg></span></div>",
+    "t": "<p>När en pilbåge spänns ökar kraften linjärt från 0 till 300 N under 0,55 m. Bågen spänns långsamt. En pil på 25 g skjuts vågrätt. Bortse från rotation.</p><ol type=\"a\"><li>Rita kraften mot förlängningen och bestäm arbetet med grafens area.</li><li>Vilken fart får pilen om hela arbetet blir rörelseenergi?</li><li>Vilken fart får pilen om 80 % av arbetet blir rörelseenergi?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Rita en rät linje från (0 m, 0 N) till (0,55 m, 300 N). Arbetet är triangelns area.</p>\\[W=\\frac{0{,}55\\cdot300}{2}=82{,}5\\,\\mathrm J\\]<p><strong>b)</strong> Massan är 25 g = 0,025 kg. Sätt mv²/2 = W och lös för farten.</p>\\[v=\\sqrt{\\frac{2W}{m}}=\\sqrt{\\frac{2\\cdot82{,}5}{0{,}025}}\\approx81{,}2\\,\\mathrm{m/s}\\]<p><strong>c)</strong> Beräkna först den energi som pilen får.</p>\\[E_k=0{,}80\\cdot82{,}5=66{,}0\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot66{,}0}{0{,}025}}\\approx72{,}7\\,\\mathrm{m/s}\\]<p>Farten minskar med faktorn √0,80, eftersom rörelseenergin beror på farten i kvadrat.</p><svg height=\"360\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 430 250\" role=\"img\" aria-label=\"Kraft–förlängningsdiagram med en rät linje från noll till 300 newton vid 0,55 meter.\">\n    <defs><marker id=\"pil-axel-55\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\"><path d=\"M0,0 L7,3.5 L0,7 Z\" fill=\"#2B2527\"/></marker></defs>\n    <line x1=\"58\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" marker-end=\"url(#pil-axel-55)\"/>\n    <line x1=\"58\" y1=\"205\" x2=\"58\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"2\" marker-end=\"url(#pil-axel-55)\"/>\n    <path d=\"M58 205 L360 45 L360 205 Z\" fill=\"#B43123\" fill-opacity=\"0.12\" stroke=\"none\"/>\n    <line x1=\"58\" y1=\"205\" x2=\"360\" y2=\"45\" stroke=\"#B43123\" stroke-width=\"3\"/>\n    <line x1=\"360\" y1=\"45\" x2=\"360\" y2=\"205\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/>\n    <line x1=\"58\" y1=\"45\" x2=\"360\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/>\n    <text x=\"398\" y=\"243\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">x / m</text>\n    <text x=\"45\" y=\"24\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">F / N</text>\n    <text x=\"360\" y=\"226\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">0,55</text>\n    <text x=\"48\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#2B2527\">300</text>\n    <text x=\"253\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" fill=\"#B43123\">area = lagrad energi</text>\n  </svg></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -54338,8 +54338,8 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "ledtrad": "<p>Vilken area motsvarar arbetet, och hur påverkar verkningsgraden energin till pilen?</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Arbetet är arean under kraftgrafen. Hur stor del av arbetet blir pilens rörelseenergi?</p>",
+    "traningsniva": 3,
     "typ": "energi ur kraft–förlängningsgraf",
     "miniräknare": true,
     "geogebra": false,
@@ -54541,8 +54541,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Simon flyttar en vagn till ett bord. Vid ett lodrätt lyft med konstant fart krävs kraften mg. På en rak friktionsfri ramp räcker en kraft parallellt med rampen som är en fjärdedel så stor, också vid konstant fart.</p><ol style=\"display:grid;gap:0.85rem\"><li>Förklara mekanikens gyllene regel för denna ramp.</li><li>Bestäm rampens lutningsvinkel.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Utan förluster är arbetet mgh oavsett väg.</p></div><div class=\"facit-stycke\"><p>Fyra gånger mindre kraft kräver därför fyra gånger längre förflyttning: rampens längd är 4h.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\sin \\theta=\\frac{h}{4 h}=\\frac{1}{4}\\]</div></div></div><div class=\"facit-stycke\"><p>Alltså θ = arcsin(0,25) ≈ 14,48°.</p></div></div></div></div></div>",
+    "t": "<p>En vagn flyttas upp till ett bord. Ett lodrätt lyft med konstant fart kräver kraften mg. På en friktionsfri ramp krävs en fjärdedel så stor kraft längs rampen, också vid konstant fart.</p><ol type=\"a\"><li>Med vilken faktor är vägen längs rampen längre än lyfthöjden? Förklara med arbete.</li><li>Vilken vinkel har rampen mot golvet?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Samma höjdökning utan friktion kräver samma arbete, mgh. På rampen gäller (mg/4)s = mgh, så s = 4h. En fjärdedel så stor kraft kräver fyra gånger så lång väg. Detta är mekanikens gyllene regel.</p><p><strong>b)</strong> Höjden är motstående katet och rampens längd hypotenusa.</p>\\[\\sin\\theta=\\frac h s=\\frac h{4h}=\\frac14\\]\\[\\theta=\\arcsin0{,}25\\approx14{,}5^\\circ\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -54571,8 +54571,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En låda på 20 kg dras med konstant fart 12 m uppför ett rakt plan med lutningen 10°. Dragkraften är parallell med planet. Glidfriktionstalet är 0,30. Bortse från luftmotståndet.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,196.8\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.4 247.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"126\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">10°</text><polygon points=\"190.0,229.4 243.2,220.1 236.9,184.6 183.8,194.0\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.1\" y1=\"202.3\" x2=\"312.9\" y2=\"189.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M323.8 187.6 L314.0 195.4 L311.9 183.6 Z\" fill=\"#2b6cb0\"/><text x=\"321\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.0\" y1=\"223.5\" x2=\"140.7\" y2=\"232.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M129.9 233.9 L139.7 226.1 L141.8 237.9 Z\" fill=\"#c0392b\"/><text x=\"99\" y=\"224\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"146.3\" y1=\"250.3\" x2=\"367.4\" y2=\"211.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">12 m</text></svg></div><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm friktionens arbete på lådan. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm ökningen i lägesenergi. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=m g \\cos 10^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen verkar mot rörelsen, så</p><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=-0{,}30\\cdot 20\\cdot 9{,}82 \\cos 10^{\\circ}\\cdot 12\\]</div></div></div></div><p class=\"facit-svar\">Svar: -696,3 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjdökningen är 12 sin10° m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=20\\cdot 9{,}82\\cdot 12 \\sin 10^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 409,25 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant fart är</p><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=0\\]</div></div></div><div class=\"facit-stycke\"><p>Dragkraftens arbete är ökningen i lägesenergi plus beloppet av friktionsarbetet: mg · 12(sin10°+0,30 cos10°).</p></div></div><p class=\"facit-svar\">Svar: 1105,55 J.</p></div></div></div>",
+    "t": "<p>En låda på 20 kg dras med konstant fart 12 m uppför en rak ramp som lutar 10°. Dragkraften verkar längs rampen. Glidfriktionstalet är 0,30. Använd g = 9,82 m/s².</p><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,196.8\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.4 247.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"126\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">10°</text><polygon points=\"190.0,229.4 243.2,220.1 236.9,184.6 183.8,194.0\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.1\" y1=\"202.3\" x2=\"312.9\" y2=\"189.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M323.8 187.6 L314.0 195.4 L311.9 183.6 Z\" fill=\"#2b6cb0\"/><text x=\"321\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.0\" y1=\"223.5\" x2=\"140.7\" y2=\"232.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M129.9 233.9 L139.7 226.1 L141.8 237.9 Z\" fill=\"#c0392b\"/><text x=\"99\" y=\"224\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"146.3\" y1=\"250.3\" x2=\"367.4\" y2=\"211.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">12 m</text></svg><ol type=\"a\"><li>Bestäm friktionens arbete i J, med tecken. Svara med tre värdesiffror.</li><li>Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</li><li>Hur stort arbete gör dragkraften? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Dragkraften verkar längs rampen, så normalkraften är N = mg cos10°. Friktionen bromsar och gör negativt arbete.</p>\\[W_f=-\\mu mgs\\cos10^\\circ\\]\\[\\begin{gathered}W_f=-0{,}30\\cdot20\\cdot9{,}82\\cdot12\\cos10^\\circ\\\\\\approx-696\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Höjdökningen är rampens längd gånger sinus för lutningsvinkeln.</p>\\[h=12\\sin10^\\circ\\approx2{,}08378\\,\\mathrm m\\]<p>Använd höjden utan avrundning i energiberäkningen.</p>\\[\\Delta E_p=20\\cdot9{,}82\\cdot12\\sin10^\\circ\\approx409\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Vid konstant fart ändras inte rörelseenergin. Dragkraftens arbete ökar lägesenergin och ersätter den energi som friktionen tar.</p>\\[\\Delta E_p=20\\cdot9{,}82\\cdot12\\sin10^\\circ\\approx409{,}254\\,\\mathrm J\\]\\[E_\\text{förlust}=0{,}30\\cdot20\\cdot9{,}82\\cdot12\\cos10^\\circ\\]\\[E_\\text{förlust}\\approx696{,}298\\,\\mathrm J\\]\\[W=\\Delta E_p+E_\\text{förlust}\\approx1{,}11\\cdot10^3\\,\\mathrm J\\]<p>Beräkna summan med oavrundade värden.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -54581,14 +54581,14 @@ window.BANK = [
     "familjNyckel": "arbete__arbete_uppfor_ett_stravt_plan",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -696.3,
-      409.25,
-      1105.55
+      -696.2984736897515,
+      409.25402512542144,
+      1105.5524988151728
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.5,
+      0.5,
+      5.0
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilket tecken får arbetet av en bromsande kraft?</p>",
@@ -54615,13 +54615,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda på 20 kg dras med konstant fart 12 m uppför ett rakt plan med lutningen 10°. Dragkraften är parallell med planet. Glidfriktionstalet är 0,30. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,196.8\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.4 247.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"126\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">10°</text><polygon points=\"190.0,229.4 243.2,220.1 236.9,184.6 183.8,194.0\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.1\" y1=\"202.3\" x2=\"312.9\" y2=\"189.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M323.8 187.6 L314.0 195.4 L311.9 183.6 Z\" fill=\"#2b6cb0\"/><text x=\"321\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.0\" y1=\"223.5\" x2=\"140.7\" y2=\"232.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M129.9 233.9 L139.7 226.1 L141.8 237.9 Z\" fill=\"#c0392b\"/><text x=\"99\" y=\"224\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"146.3\" y1=\"250.3\" x2=\"367.4\" y2=\"211.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">12 m</text></svg></div>",
+    "spelIntro": "<p>En låda på 20 kg dras med konstant fart 12 m uppför en rak ramp som lutar 10°. Dragkraften verkar längs rampen. Glidfriktionstalet är 0,30. Använd g = 9,82 m/s².</p><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,196.8\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.4 247.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"126\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">10°</text><polygon points=\"190.0,229.4 243.2,220.1 236.9,184.6 183.8,194.0\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.1\" y1=\"202.3\" x2=\"312.9\" y2=\"189.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M323.8 187.6 L314.0 195.4 L311.9 183.6 Z\" fill=\"#2b6cb0\"/><text x=\"321\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.0\" y1=\"223.5\" x2=\"140.7\" y2=\"232.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M129.9 233.9 L139.7 226.1 L141.8 237.9 Z\" fill=\"#c0392b\"/><text x=\"99\" y=\"224\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"146.3\" y1=\"250.3\" x2=\"367.4\" y2=\"211.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">12 m</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionens arbete på lådan. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 20 kg dras med konstant fart 12 m uppför ett rakt plan med lutningen 10°. Dragkraften är parallell med planet. Glidfriktionstalet är 0,30. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionens arbete på lådan. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=m g \\cos 10^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen verkar mot rörelsen, så</p><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=-0{,}30\\cdot 20\\cdot 9{,}82 \\cos 10^{\\circ}\\cdot 12\\]</div></div></div></div><p class=\"facit-svar\">Svar: -696,3 J.</p></div>",
+        "fraga": "Bestäm friktionens arbete i J, med tecken. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 20 kg dras med konstant fart 12 m uppför en rak ramp som lutar 10°. Dragkraften verkar längs rampen. Glidfriktionstalet är 0,30. Använd g = 9,82 m/s².<svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,196.8\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.4 247.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"126\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">10°</text><polygon points=\"190.0,229.4 243.2,220.1 236.9,184.6 183.8,194.0\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.1\" y1=\"202.3\" x2=\"312.9\" y2=\"189.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M323.8 187.6 L314.0 195.4 L311.9 183.6 Z\" fill=\"#2b6cb0\"/><text x=\"321\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.0\" y1=\"223.5\" x2=\"140.7\" y2=\"232.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M129.9 233.9 L139.7 226.1 L141.8 237.9 Z\" fill=\"#c0392b\"/><text x=\"99\" y=\"224\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"146.3\" y1=\"250.3\" x2=\"367.4\" y2=\"211.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">12 m</text></svg></p><p>Bestäm friktionens arbete i J, med tecken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften verkar längs rampen, så normalkraften är N = mg cos10°. Friktionen bromsar och gör negativt arbete.</p>\\[W_f=-\\mu mgs\\cos10^\\circ\\]\\[\\begin{gathered}W_f=-0{,}30\\cdot20\\cdot9{,}82\\cdot12\\cos10^\\circ\\\\\\approx-696\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>Vilket tecken får arbetet av en bromsande kraft?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -54634,12 +54634,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm ökningen i lägesenergi. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 20 kg dras med konstant fart 12 m uppför ett rakt plan med lutningen 10°. Dragkraften är parallell med planet. Glidfriktionstalet är 0,30. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm ökningen i lägesenergi. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjdökningen är 12 sin10° m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=20\\cdot 9{,}82\\cdot 12 \\sin 10^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 409,25 J.</p></div>",
+        "fraga": "Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 20 kg flyttas 12 m uppför en rak ramp som lutar 10°. Använd g = 9,82 m/s².<svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,196.8\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.4 247.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"126\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">10°</text><polygon points=\"190.0,229.4 243.2,220.1 236.9,184.6 183.8,194.0\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.1\" y1=\"202.3\" x2=\"312.9\" y2=\"189.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M323.8 187.6 L314.0 195.4 L311.9 183.6 Z\" fill=\"#2b6cb0\"/><text x=\"321\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.0\" y1=\"223.5\" x2=\"140.7\" y2=\"232.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M129.9 233.9 L139.7 226.1 L141.8 237.9 Z\" fill=\"#c0392b\"/><text x=\"99\" y=\"224\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"146.3\" y1=\"250.3\" x2=\"367.4\" y2=\"211.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">12 m</text></svg></p><p>Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdökningen är rampens längd gånger sinus för lutningsvinkeln.</p>\\[h=12\\sin10^\\circ\\approx2{,}08378\\,\\mathrm m\\]<p>Använd höjden utan avrundning i energiberäkningen.</p>\\[\\Delta E_p=20\\cdot9{,}82\\cdot12\\sin10^\\circ\\approx409\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Hur får du höjdskillnaden från rampens längd?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -54648,9 +54648,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 20 kg dras med konstant fart 12 m uppför ett rakt plan med lutningen 10°. Dragkraften är parallell med planet. Glidfriktionstalet är 0,30. Bortse från luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant fart är</p><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=0\\]</div></div></div><div class=\"facit-stycke\"><p>Dragkraftens arbete är ökningen i lägesenergi plus beloppet av friktionsarbetet: mg · 12(sin10°+0,30 cos10°).</p></div></div><p class=\"facit-svar\">Svar: 1105,55 J.</p></div>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 20 kg dras med konstant fart 12 m uppför en rak ramp som lutar 10°. Dragkraften verkar längs rampen. Glidfriktionstalet är 0,30. Använd g = 9,82 m/s².<svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,196.8\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.4 247.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"126\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">10°</text><polygon points=\"190.0,229.4 243.2,220.1 236.9,184.6 183.8,194.0\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.1\" y1=\"202.3\" x2=\"312.9\" y2=\"189.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M323.8 187.6 L314.0 195.4 L311.9 183.6 Z\" fill=\"#2b6cb0\"/><text x=\"321\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.0\" y1=\"223.5\" x2=\"140.7\" y2=\"232.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M129.9 233.9 L139.7 226.1 L141.8 237.9 Z\" fill=\"#c0392b\"/><text x=\"99\" y=\"224\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"146.3\" y1=\"250.3\" x2=\"367.4\" y2=\"211.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">12 m</text></svg></p><p>Hur stort arbete gör dragkraften? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart ändras inte rörelseenergin. Dragkraftens arbete ökar lägesenergin och ersätter den energi som friktionen tar.</p>\\[\\Delta E_p=20\\cdot9{,}82\\cdot12\\sin10^\\circ\\approx409{,}254\\,\\mathrm J\\]\\[E_\\text{förlust}=0{,}30\\cdot20\\cdot9{,}82\\cdot12\\cos10^\\circ\\]\\[E_\\text{förlust}\\approx696{,}298\\,\\mathrm J\\]\\[W=\\Delta E_p+E_\\text{förlust}\\approx1{,}11\\cdot10^3\\,\\mathrm J\\]<p>Beräkna summan med oavrundade värden.</p></div>",
         "ledtrad": "<p>Summera arbetena med tecken och använd konstant fart.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -54786,8 +54786,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Två oberoende situationer gäller mekaniskt arbete.</p><ol style=\"display:grid;gap:0.85rem\"><li>En konstant kraft i rörelseriktningen uträttar 360 MJ under 180 km. Bestäm kraften. Svara i N. Svara med ett heltal.</li><li>Damien håller en vikt på 12 kg helt stilla i 45 s. Hur stort mekaniskt arbete uträttar hans kraft på vikten? Svara i J. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = 360 · 10⁶ J och</p><div class=\"facit-matte\">\\[s=180\\cdot 10^{3}\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=2000\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2000 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vikten förflyttas inte.</p></div><div class=\"facit-stycke\"><p>Därför är arbetet på vikten noll, även om Damiens muskler förbrukar energi.</p></div></div><p class=\"facit-svar\">Svar: 0 J.</p></div></div></div>",
+    "t": "<p>Här är två frågor om mekaniskt arbete.</p><ol type=\"a\"><li>En konstant kraft gör arbetet 360 MJ under 180 km i kraftens riktning. Bestäm kraften i N. Svara med tre värdesiffror.</li><li>Damien håller en vikt helt stilla. Hur stort mekaniskt arbete gör hans kraft på vikten? Svara i J.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla arbete och sträcka till J och m. Lös sedan W = Fs för kraften.</p>\\[W=360\\cdot10^6\\,\\mathrm J,\\quad s=180\\cdot10^3\\,\\mathrm m\\]\\[F=\\frac Ws=\\frac{360\\cdot10^6}{180\\cdot10^3}=2{,}00\\cdot10^3\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Vikten flyttas inte. Då är kraftens mekaniska arbete noll, även om musklerna använder energi.</p>\\[W=0\\,\\mathrm J\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -54795,11 +54795,11 @@ window.BANK = [
     "familjNyckel": "arbete__arbete_och_utebliven_forflyttning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2000,
+      2000.0,
       0
     ],
     "tolerans": [
-      0,
+      5.0,
       0
     ],
     "självrättning": true,
@@ -54808,7 +54808,7 @@ window.BANK = [
     "typ": "arbete och utebliven förflyttning",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "N",
@@ -54824,17 +54824,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två oberoende situationer gäller mekaniskt arbete.</p>",
+    "spelIntro": "<p>Här är två frågor om mekaniskt arbete.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En konstant kraft i rörelseriktningen uträttar 360 MJ under 180 km. Bestäm kraften. Svara i N. Svara med ett heltal.",
-        "t": "<p>Två oberoende situationer gäller mekaniskt arbete.</p><p>En konstant kraft i rörelseriktningen uträttar 360 MJ under 180 km. Bestäm kraften. Svara i N. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = 360 · 10⁶ J och</p><div class=\"facit-matte\">\\[s=180\\cdot 10^{3}\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=2000\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2000 N.</p></div>",
+        "fraga": "Hur stor är kraften? Svara i N med tre värdesiffror.",
+        "t": "<p>En konstant kraft gör arbetet 360 MJ under 180 km i kraftens riktning.</p><p>Hur stor är kraften? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla arbete och sträcka till J och m. Lös sedan W = Fs för kraften.</p>\\[W=360\\cdot10^6\\,\\mathrm J,\\quad s=180\\cdot10^3\\,\\mathrm m\\]\\[F=\\frac Ws=\\frac{360\\cdot10^6}{180\\cdot10^3}=2{,}00\\cdot10^3\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Omvandla båda prefixen innan du dividerar.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -54843,9 +54843,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort mekaniskt arbete utför hans kraft på vikten? Svara i J. Svara med ett heltal.",
-        "t": "<p>Damien håller en vikt helt stilla.</p><p>Hur stort mekaniskt arbete utför hans kraft på vikten? Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vikten förflyttas inte.</p></div><div class=\"facit-stycke\"><p>Därför är arbetet på vikten noll, även om Damiens muskler förbrukar energi.</p></div></div><p class=\"facit-svar\">Svar: 0 J.</p></div>",
+        "fraga": "Hur stort mekaniskt arbete gör kraften på vikten? Svara i J.",
+        "t": "<p>Damien håller en vikt helt stilla.</p><p>Hur stort mekaniskt arbete gör kraften på vikten? Svara i J.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vikten flyttas inte. Då är kraftens mekaniska arbete noll, även om musklerna använder energi.</p>\\[W=0\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Kräver mekaniskt arbete en förflyttning?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -54867,8 +54867,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Johannes drar en låda 6,0 m längs ett vågrätt golv. Den konstanta dragkraften är 180 N och riktas 35° uppåt från rörelseriktningen. Lådan behåller kontakten med golvet.</p><span class=\"fig\"><svg height=\"287\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.943 12.575 416.114 192.395\"><line x1=\"30\" y1=\"146\" x2=\"410\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"156\" x2=\"38\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"61.6667\" y1=\"156\" x2=\"69.6667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"93.3333\" y1=\"156\" x2=\"101.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"125\" y1=\"156\" x2=\"133\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"156.667\" y1=\"156\" x2=\"164.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"188.333\" y1=\"156\" x2=\"196.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"156\" x2=\"228\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"251.667\" y1=\"156\" x2=\"259.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"283.333\" y1=\"156\" x2=\"291.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"315\" y1=\"156\" x2=\"323\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"346.667\" y1=\"156\" x2=\"354.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"378.333\" y1=\"156\" x2=\"386.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"92\" width=\"86\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"108\" x2=\"320\" y2=\"108\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"190\" y1=\"108\" x2=\"286.66\" y2=\"40.318\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"294.851,34.5822 289.298,44.0861 284.021,36.5499\" fill=\"#B43123\"/><text x=\"302.851\" y=\"30.5822\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 236 108 A 46 46 0 0 0 227.681 81.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"252.945\" y=\"93.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text><line x1=\"147\" y1=\"176\" x2=\"380\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"147\" y1=\"171\" x2=\"147\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"171\" x2=\"380\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"263.5\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Hur stort blir dragkraftens arbete över samma sträcka om samma kraftbelopp i stället riktas vågrätt? Svara i J. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Endast den vågräta komponenten gör arbete:</p><div class=\"facit-matte\">\\[W=180 \\cos 35^{\\circ}\\cdot 6{,}0\\]</div></div></div></div><p class=\"facit-svar\">Svar: 884,68 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraft och förflyttning får samma riktning.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=180\\cdot 6{,}0=1080\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1080 J.</p></div></div></div>",
+    "t": "<p>Johannes drar en låda 6,0 m längs ett vågrätt golv. Dragkraften är konstant 180 N och riktas 35° uppåt från rörelseriktningen.</p><svg height=\"287\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.943 12.575 416.114 192.395\"><line x1=\"30\" y1=\"146\" x2=\"410\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"156\" x2=\"38\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"61.6667\" y1=\"156\" x2=\"69.6667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"93.3333\" y1=\"156\" x2=\"101.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"125\" y1=\"156\" x2=\"133\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"156.667\" y1=\"156\" x2=\"164.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"188.333\" y1=\"156\" x2=\"196.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"156\" x2=\"228\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"251.667\" y1=\"156\" x2=\"259.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"283.333\" y1=\"156\" x2=\"291.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"315\" y1=\"156\" x2=\"323\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"346.667\" y1=\"156\" x2=\"354.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"378.333\" y1=\"156\" x2=\"386.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"92\" width=\"86\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"108\" x2=\"320\" y2=\"108\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"190\" y1=\"108\" x2=\"286.66\" y2=\"40.318\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"294.851,34.5822 289.298,44.0861 284.021,36.5499\" fill=\"#B43123\"/><text x=\"302.851\" y=\"30.5822\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 236 108 A 46 46 0 0 0 227.681 81.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"252.945\" y=\"93.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text><line x1=\"147\" y1=\"176\" x2=\"380\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"147\" y1=\"171\" x2=\"147\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"171\" x2=\"380\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"263.5\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text></svg><ol type=\"a\"><li>Hur stort arbete gör dragkraften? Svara i J. Svara med tre värdesiffror.</li><li>Hur stort arbete skulle kraften 180 N göra under 6,0 m om den riktades vågrätt längs rörelsen? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Bara kraftens vågräta del gör arbete när lådan flyttas vågrätt.</p>\\[W=Fs\\cos\\theta=180\\cdot6{,}0\\cos35^\\circ\\approx885\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Kraft och förflyttning har samma riktning. Multiplicera kraften med sträckan.</p>\\[W=Fs=180\\cdot6{,}0=1080\\,\\mathrm J\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -54876,12 +54876,12 @@ window.BANK = [
     "familjNyckel": "arbete__jamfora_kraftens_riktning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      884.68,
+      884.6842078321112,
       1080
     ],
     "tolerans": [
-      0,
-      0
+      0.5,
+      5.0
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken vinkel finns mellan kraft och förflyttning?</p>",
@@ -54889,7 +54889,7 @@ window.BANK = [
     "typ": "jämföra kraftens riktning",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "J",
@@ -54905,17 +54905,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Johannes drar en låda 6,0 m längs ett vågrätt golv. Den konstanta dragkraften är 180 N och riktas 35° uppåt från rörelseriktningen. Lådan behåller kontakten med golvet.</p><span class=\"fig\"><svg height=\"287\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.943 12.575 416.114 192.395\"><line x1=\"30\" y1=\"146\" x2=\"410\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"156\" x2=\"38\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"61.6667\" y1=\"156\" x2=\"69.6667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"93.3333\" y1=\"156\" x2=\"101.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"125\" y1=\"156\" x2=\"133\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"156.667\" y1=\"156\" x2=\"164.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"188.333\" y1=\"156\" x2=\"196.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"156\" x2=\"228\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"251.667\" y1=\"156\" x2=\"259.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"283.333\" y1=\"156\" x2=\"291.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"315\" y1=\"156\" x2=\"323\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"346.667\" y1=\"156\" x2=\"354.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"378.333\" y1=\"156\" x2=\"386.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"92\" width=\"86\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"108\" x2=\"320\" y2=\"108\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"190\" y1=\"108\" x2=\"286.66\" y2=\"40.318\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"294.851,34.5822 289.298,44.0861 284.021,36.5499\" fill=\"#B43123\"/><text x=\"302.851\" y=\"30.5822\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 236 108 A 46 46 0 0 0 227.681 81.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"252.945\" y=\"93.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text><line x1=\"147\" y1=\"176\" x2=\"380\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"147\" y1=\"171\" x2=\"147\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"171\" x2=\"380\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"263.5\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text></svg></span>",
+    "spelIntro": "<p>Johannes drar en låda 6,0 m längs ett vågrätt golv. Dragkraften är konstant 180 N och riktas 35° uppåt från rörelseriktningen.</p><svg height=\"287\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.943 12.575 416.114 192.395\"><line x1=\"30\" y1=\"146\" x2=\"410\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"156\" x2=\"38\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"61.6667\" y1=\"156\" x2=\"69.6667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"93.3333\" y1=\"156\" x2=\"101.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"125\" y1=\"156\" x2=\"133\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"156.667\" y1=\"156\" x2=\"164.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"188.333\" y1=\"156\" x2=\"196.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"156\" x2=\"228\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"251.667\" y1=\"156\" x2=\"259.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"283.333\" y1=\"156\" x2=\"291.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"315\" y1=\"156\" x2=\"323\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"346.667\" y1=\"156\" x2=\"354.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"378.333\" y1=\"156\" x2=\"386.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"92\" width=\"86\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"108\" x2=\"320\" y2=\"108\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"190\" y1=\"108\" x2=\"286.66\" y2=\"40.318\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"294.851,34.5822 289.298,44.0861 284.021,36.5499\" fill=\"#B43123\"/><text x=\"302.851\" y=\"30.5822\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 236 108 A 46 46 0 0 0 227.681 81.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"252.945\" y=\"93.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text><line x1=\"147\" y1=\"176\" x2=\"380\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"147\" y1=\"171\" x2=\"147\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"171\" x2=\"380\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"263.5\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Johannes drar en låda 6,0 m längs ett vågrätt golv. Den konstanta dragkraften är 180 N och riktas 35° uppåt från rörelseriktningen. Lådan behåller kontakten med golvet.</p><span class=\"fig\"><svg height=\"287\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.943 12.575 416.114 192.395\"><line x1=\"30\" y1=\"146\" x2=\"410\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"156\" x2=\"38\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"61.6667\" y1=\"156\" x2=\"69.6667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"93.3333\" y1=\"156\" x2=\"101.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"125\" y1=\"156\" x2=\"133\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"156.667\" y1=\"156\" x2=\"164.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"188.333\" y1=\"156\" x2=\"196.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"156\" x2=\"228\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"251.667\" y1=\"156\" x2=\"259.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"283.333\" y1=\"156\" x2=\"291.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"315\" y1=\"156\" x2=\"323\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"346.667\" y1=\"156\" x2=\"354.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"378.333\" y1=\"156\" x2=\"386.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"92\" width=\"86\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"108\" x2=\"320\" y2=\"108\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"190\" y1=\"108\" x2=\"286.66\" y2=\"40.318\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"294.851,34.5822 289.298,44.0861 284.021,36.5499\" fill=\"#B43123\"/><text x=\"302.851\" y=\"30.5822\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 236 108 A 46 46 0 0 0 227.681 81.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"252.945\" y=\"93.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text><line x1=\"147\" y1=\"176\" x2=\"380\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"147\" y1=\"171\" x2=\"147\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"171\" x2=\"380\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"263.5\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text></svg></span><p>Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Endast den vågräta komponenten gör arbete:</p><div class=\"facit-matte\">\\[W=180 \\cos 35^{\\circ}\\cdot 6{,}0\\]</div></div></div></div><p class=\"facit-svar\">Svar: 884,68 J.</p></div>",
-        "ledtrad": "<p>Vilken vinkel finns mellan kraft och förflyttning?</p>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Johannes drar en låda 6,0 m längs ett vågrätt golv. Dragkraften är konstant 180 N och riktas 35° uppåt från rörelseriktningen.<svg height=\"287\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.943 12.575 416.114 192.395\"><line x1=\"30\" y1=\"146\" x2=\"410\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"156\" x2=\"38\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"61.6667\" y1=\"156\" x2=\"69.6667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"93.3333\" y1=\"156\" x2=\"101.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"125\" y1=\"156\" x2=\"133\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"156.667\" y1=\"156\" x2=\"164.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"188.333\" y1=\"156\" x2=\"196.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"156\" x2=\"228\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"251.667\" y1=\"156\" x2=\"259.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"283.333\" y1=\"156\" x2=\"291.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"315\" y1=\"156\" x2=\"323\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"346.667\" y1=\"156\" x2=\"354.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"378.333\" y1=\"156\" x2=\"386.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"92\" width=\"86\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"108\" x2=\"320\" y2=\"108\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"190\" y1=\"108\" x2=\"286.66\" y2=\"40.318\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"294.851,34.5822 289.298,44.0861 284.021,36.5499\" fill=\"#B43123\"/><text x=\"302.851\" y=\"30.5822\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 236 108 A 46 46 0 0 0 227.681 81.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"252.945\" y=\"93.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text><line x1=\"147\" y1=\"176\" x2=\"380\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"147\" y1=\"171\" x2=\"147\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"171\" x2=\"380\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"263.5\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text></svg></p><p>Hur stort arbete gör dragkraften? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara kraftens vågräta del gör arbete när lådan flyttas vågrätt.</p>\\[W=Fs\\cos\\theta=180\\cdot6{,}0\\cos35^\\circ\\approx885\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Bara kraftens vågräta del bidrar till arbetet.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -54923,12 +54923,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort blir dragkraftens arbete över samma sträcka om samma kraftbelopp i stället riktas vågrätt? Svara i J. Svara med ett heltal.",
-        "t": "<p>Johannes drar en låda 6,0 m längs ett vågrätt golv. Den konstanta dragkraften är 180 N och riktas 35° uppåt från rörelseriktningen. Lådan behåller kontakten med golvet.</p><span class=\"fig\"><svg height=\"287\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.943 12.575 416.114 192.395\"><line x1=\"30\" y1=\"146\" x2=\"410\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"156\" x2=\"38\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"61.6667\" y1=\"156\" x2=\"69.6667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"93.3333\" y1=\"156\" x2=\"101.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"125\" y1=\"156\" x2=\"133\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"156.667\" y1=\"156\" x2=\"164.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"188.333\" y1=\"156\" x2=\"196.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"156\" x2=\"228\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"251.667\" y1=\"156\" x2=\"259.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"283.333\" y1=\"156\" x2=\"291.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"315\" y1=\"156\" x2=\"323\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"346.667\" y1=\"156\" x2=\"354.667\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"378.333\" y1=\"156\" x2=\"386.333\" y2=\"146\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"104\" y=\"92\" width=\"86\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"108\" x2=\"320\" y2=\"108\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"190\" y1=\"108\" x2=\"286.66\" y2=\"40.318\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"294.851,34.5822 289.298,44.0861 284.021,36.5499\" fill=\"#B43123\"/><text x=\"302.851\" y=\"30.5822\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 236 108 A 46 46 0 0 0 227.681 81.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"252.945\" y=\"93.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text><line x1=\"147\" y1=\"176\" x2=\"380\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"147\" y1=\"171\" x2=\"147\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"171\" x2=\"380\" y2=\"181\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"263.5\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text></svg></span><p>Hur stort blir dragkraftens arbete över samma sträcka om samma kraftbelopp i stället riktas vågrätt? Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraft och förflyttning får samma riktning.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=180\\cdot 6{,}0=1080\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1080 J.</p></div>",
-        "ledtrad": "<p>Hur ändras kraftkomponenten längs förflyttningen?</p>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i J med tre värdesiffror.",
+        "t": "<p>En låda dras 6,0 m av en konstant kraft på 180 N i rörelseriktningen. Använd W = Fs.</p><p>Hur stort arbete gör dragkraften? Svara i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraft och förflyttning har samma riktning. Multiplicera kraften med sträckan.</p>\\[W=Fs=180\\cdot6{,}0=1080\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Kraften och förflyttningen har samma riktning.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -54947,8 +54947,8 @@ window.BANK = [
     "niva": "E",
     "typ": "proportionalitet i arbete",
     "poang": "(3/0/0)",
-    "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm arbetet för kraften 250 N under 40 m. Använd W = Fs. Svara i kJ. Svara med ett heltal.</li><li>Bestäm arbetet om kraften fördubblas till 500 N men sträckan fortfarande är 40 m. Svara i kJ. Svara med ett heltal.</li><li>Bestäm arbetet för kraften 250 N under 20 m. Svara i kJ. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=250\\cdot 40=10\\,000 J=10\\, \\mathrm{kJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 10 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=500\\cdot 40=20\\,000 J=20\\, \\mathrm{kJ}\\]</div></div></div><div class=\"facit-stycke\"><p>Dubbla kraften ger dubbla arbetet vid samma sträcka.</p></div></div><p class=\"facit-svar\">Svar: 20 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=250\\cdot 20=5000 J=5\\, \\mathrm{kJ}\\]</div></div></div><div class=\"facit-stycke\"><p>Halva sträckan ger halva arbetet vid samma kraft.</p></div></div><p class=\"facit-svar\">Svar: 5 kJ.</p></div></div></div>",
+    "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen. Använd W = Fs.</p><ol type=\"a\"><li>Kraften är 250 N och sträckan 40 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.</li><li>Kraften är 500 N och sträckan 40 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.</li><li>Kraften är 250 N och sträckan 20 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Multiplicera kraften med sträckan. Dela med 1000 för att få kJ.</p>\\[W=250\\cdot40=10000\\,\\mathrm J=10{,}0\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Multiplicera kraften med sträckan och omvandla till kJ.</p>\\[W=500\\cdot40=20000\\,\\mathrm J=20{,}0\\,\\mathrm{kJ}\\]<p>Dubbelt så stor kraft ger dubbelt så stort arbete vid samma sträcka.</p><p><strong>c)</strong></p><p>Multiplicera kraften med sträckan och omvandla till kJ.</p>\\[W=250\\cdot20=5000\\,\\mathrm J=5{,}00\\,\\mathrm{kJ}\\]<p>Halva sträckan ger halva arbetet vid samma kraft.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -54956,21 +54956,21 @@ window.BANK = [
     "familjNyckel": "arbete__proportionalitet_i_arbete",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10,
-      20,
-      5
+      10.0,
+      20.0,
+      5.0
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.05,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken omvandling krävs från J till kJ?</p>",
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "kJ",
@@ -54989,17 +54989,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen.</p>",
+    "spelIntro": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen. Använd W = Fs.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm arbetet för kraften 250 N under 40 m. Använd W = Fs. Svara i kJ. Svara med ett heltal.",
-        "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen.</p><p>Bestäm arbetet för kraften 250 N under 40 m. Använd W = Fs. Svara i kJ. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=250\\cdot 40=10\\,000 J=10\\, \\mathrm{kJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 10 kJ.</p></div>",
+        "fraga": "Kraften är 250 N och sträckan 40 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.",
+        "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen. Använd W = Fs.</p><p>Kraften är 250 N och sträckan 40 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera kraften med sträckan. Dela med 1000 för att få kJ.</p>\\[W=250\\cdot40=10000\\,\\mathrm J=10{,}0\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Vilken omvandling krävs från J till kJ?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -55008,13 +55008,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm arbetet om kraften fördubblas till 500 N men sträckan fortfarande är 40 m. Svara i kJ. Svara med ett heltal.",
-        "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen.</p><p>Bestäm arbetet om kraften fördubblas till 500 N men sträckan fortfarande är 40 m. Svara i kJ. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=500\\cdot 40=20\\,000 J=20\\, \\mathrm{kJ}\\]</div></div></div><div class=\"facit-stycke\"><p>Dubbla kraften ger dubbla arbetet vid samma sträcka.</p></div></div><p class=\"facit-svar\">Svar: 20 kJ.</p></div>",
+        "fraga": "Kraften är 500 N och sträckan 40 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.",
+        "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen. Använd W = Fs.</p><p>Kraften är 500 N och sträckan 40 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera kraften med sträckan och omvandla till kJ.</p>\\[W=500\\cdot40=20000\\,\\mathrm J=20{,}0\\,\\mathrm{kJ}\\]<p>Dubbelt så stor kraft ger dubbelt så stort arbete vid samma sträcka.</p></div>",
         "ledtrad": "<p>Vilken faktor ändras i W = Fs?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -55023,13 +55023,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm arbetet för kraften 250 N under 20 m. Svara i kJ. Svara med ett heltal.",
-        "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen.</p><p>Bestäm arbetet för kraften 250 N under 20 m. Svara i kJ. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=250\\cdot 20=5000 J=5\\, \\mathrm{kJ}\\]</div></div></div><div class=\"facit-stycke\"><p>Halva sträckan ger halva arbetet vid samma kraft.</p></div></div><p class=\"facit-svar\">Svar: 5 kJ.</p></div>",
+        "fraga": "Kraften är 250 N och sträckan 20 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.",
+        "t": "<p>En person drar en kälke med en konstant kraft i rörelseriktningen. Använd W = Fs.</p><p>Kraften är 250 N och sträckan 20 m. Bestäm arbetet i kJ. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera kraften med sträckan och omvandla till kJ.</p>\\[W=250\\cdot20=5000\\,\\mathrm J=5{,}00\\,\\mathrm{kJ}\\]<p>Halva sträckan ger halva arbetet vid samma kraft.</p></div>",
         "ledtrad": "<p>Hur påverkar sträckan arbetet?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -55178,8 +55178,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "poang": "(0/3/0)",
-    "t": "<p>Diagrammet är en förenklad modell av en pilbåges dragkraft. Grafen består av raka linjesegment. Bågen spänns långsamt och den tillförda energin lagras i bågen.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">240</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">280</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">320</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126.00000000000001\" y1=\"26\" x2=\"126.00000000000001\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126.00000000000001\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,1</text><line x1=\"198.00000000000003\" y1=\"26\" x2=\"198.00000000000003\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198.00000000000003\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"270.00000000000006\" y1=\"26\" x2=\"270.00000000000006\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270.00000000000006\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,3</text><line x1=\"342.00000000000006\" y1=\"26\" x2=\"342.00000000000006\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342.00000000000006\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,4</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,5</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">x (m)</text><polyline points=\"54,246 198.00000000000003,122.25 342.00000000000006,53.5 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Förklara varför \\(E_f=\\dfrac{kx^2}{2}\\) med ett konstant k inte beskriver hela grafen.</li><li>Bestäm arbetet när bågen spänns till 0,60 m.</li><li>En pil på 24 g får 80 % av arbetet som rörelseenergi vid ett vågrätt skott. Bestäm farten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften är inte proportionell mot förlängningen över hela intervallet: grafens lutning ändras.</p></div><div class=\"facit-stycke\"><p>Ett konstant k kan därför inte beskriva hela grafen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">De raka delarna ger tre trapetsareor: 0,20(0+180)/2 = 18 J, 0,20(180+280)/2 = 46 J och</p><div class=\"facit-matte\">\\[\\frac{0{,}20 \\left(280+320\\right)}{2}=60\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Totalt</p><div class=\"facit-matte\">\\[W=124\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_k = 0,80 · 124 = 99,2 J och m = 0,024 kg.</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2\\cdot 99{,}2}{0{,}024}}\\approx 90{,}92\\, \\mathrm{m/s}\\]</div></div></div></div></div></div></div>",
+    "t": "<p>Grafen visar kraften för att långsamt spänna en pilbåge. Grafens delar är raka. Arbetet lagras som energi i bågen.</p><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">240</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">280</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">320</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126.00000000000001\" y1=\"26\" x2=\"126.00000000000001\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126.00000000000001\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,1</text><line x1=\"198.00000000000003\" y1=\"26\" x2=\"198.00000000000003\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198.00000000000003\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,2</text><line x1=\"270.00000000000006\" y1=\"26\" x2=\"270.00000000000006\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270.00000000000006\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,3</text><line x1=\"342.00000000000006\" y1=\"26\" x2=\"342.00000000000006\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342.00000000000006\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,4</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,5</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">x (m)</text><polyline points=\"54,246 198.00000000000003,122.25 342.00000000000006,53.5 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg><ol type=\"a\"><li>Varför kan formeln \\(E_f\\) = kx²/2 med ett enda konstant k inte beskriva hela grafen?</li><li>Bestäm arbetet för förlängningen 0,60 m.</li><li>En pil på 24 g får 80 % av arbetet som rörelseenergi vid ett vågrätt skott. Bestäm farten.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Med konstant k skulle F = kx vara en enda rät linje genom origo. Här ändras grafens lutning, så kraften är inte proportionell mot förlängningen över hela intervallet.</p><p><strong>b)</strong> Arbetet är arean under grafen. Dela den i tre trapetser med bredden 0,20 m.</p>\\[W_1=\\frac{0{,}20(0+180)}2=18\\,\\mathrm J\\]\\[W_2=\\frac{0{,}20(180+280)}2=46\\,\\mathrm J\\]\\[W_3=\\frac{0{,}20(280+320)}2=60\\,\\mathrm J\\]\\[W=18+46+60=124\\,\\mathrm J\\]<p><strong>c)</strong> Pilens massa är 24 g = 0,024 kg. Den får rörelseenergin 0,80 · 124 = 99,2 J.</p>\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot99{,}2}{0{,}024}}\\approx90{,}9\\,\\mathrm{m/s}\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "modellering",
@@ -55190,8 +55190,8 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Hur kan arean beräknas mellan två intilliggande brytpunkter?</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Beräkna en trapetsarea för varje rak del av grafen.</p>",
+    "traningsniva": 3,
     "typ": "icke-linjär kraft och lagrad energi",
     "miniräknare": true,
     "geogebra": false,
@@ -55208,8 +55208,8 @@ window.BANK = [
     "omr": "arbete",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<p>En väska på 4,0 kg står först på golvet. Den lyfts till vila på ett bord 0,75 m över golvet och därefter ytterligare 0,40 m. Golvet är nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin när väskan står på golvet. Svara i J. Svara med ett heltal.</li><li>Bestäm lägesenergin när väskan står på bordet. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm lyftkraftens arbete från golvet till bordet när väskan börjar och slutar i vila. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm lägesenergin efter den ytterligare höjningen med 0,40 m. Svara i J. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På den valda nollnivån är</p><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=4{,}0\\cdot 9{,}82\\cdot 0{,}75=29{,}46\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 29,46 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin ändras inte mellan start och slut.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraftens arbete är</p><div class=\"facit-matte\">\\[m g \\Delta h=29{,}46\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 29,46 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Höjden över golvet är</p><div class=\"facit-matte\">\\[0{,}75+0{,}40=1{,}15\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=4{,}0\\cdot 9{,}82\\cdot 1{,}15=45{,}172\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 45,17 J.</p></div></div></div>",
+    "t": "<p>En väska på 4,0 kg lyfts från golvet till ett bord 0,75 m högre och därefter ytterligare 0,40 m. Väskan är stilla före och efter varje lyft. Golvet är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm lägesenergin på golvet i J.</li><li>Bestäm lägesenergin på bordet i J. Svara med tre värdesiffror.</li><li>Bestäm lyftkraftens arbete från golvet till bordet i J. Bortse från luftmotståndet. Svara med tre värdesiffror.</li><li>Bestäm lägesenergin efter båda lyften i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På den valda nollnivån är höjden noll och lägesenergin noll.</p>\\[E_p=0\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Använd höjden över golvet i den givna formeln.</p>\\[E_p=mgh=4{,}0\\cdot9{,}82\\cdot0{,}75=29{,}46\\,\\mathrm J\\]<p>Med tre värdesiffror: 29,5 J.</p><p><strong>c)</strong></p><p>Väskan börjar och slutar i vila. Hela lyftarbetet blir därför ökad lägesenergi.</p>\\[W=mg\\Delta h=4{,}0\\cdot9{,}82\\cdot0{,}75=29{,}46\\,\\mathrm J\\]<p>Med tre värdesiffror: 29,5 J.</p><p><strong>d)</strong></p><p>Summera höjningarna innan du beräknar lägesenergin.</p>\\[h=0{,}75+0{,}40=1{,}15\\,\\mathrm m\\]\\[E_p=4{,}0\\cdot9{,}82\\cdot1{,}15=45{,}172\\,\\mathrm J\\]<p>Med tre värdesiffror: 45,2 J.</p></div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
@@ -55220,13 +55220,13 @@ window.BANK = [
       0,
       29.46,
       29.46,
-      45.17
+      45.172
     ],
     "tolerans": [
       0,
-      0,
-      0,
-      0
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Vad innebär det att välja en nollnivå?</p>",
@@ -55234,7 +55234,7 @@ window.BANK = [
     "typ": "nollnivå och flera lyft",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "J",
@@ -55256,13 +55256,13 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En väska på 4,0 kg står först på golvet. Den lyfts till vila på ett bord 0,75 m över golvet och därefter ytterligare 0,40 m. Golvet är nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En väska på 4,0 kg lyfts från golvet till ett bord 0,75 m högre och därefter ytterligare 0,40 m. Väskan är stilla före och efter varje lyft. Golvet är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är väskans lägesenergi? Svara i J. Svara med ett heltal.",
-        "t": "<p>En väska står på golvet. Golvet är nollnivå för lägesenergin.</p><p>Hur stor är väskans lägesenergi? Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På den valda nollnivån är</p><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0 J.</p></div>",
+        "fraga": "Bestäm lägesenergin på golvet i J.",
+        "t": "<p>En väska står på golvet. Golvet är nollnivå för lägesenergin.</p><p>Bestäm lägesenergin på golvet i J.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På den valda nollnivån är höjden noll och lägesenergin noll.</p>\\[E_p=0\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vad innebär det att välja en nollnivå?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -55274,12 +55274,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är väskans lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En väska på 4,0 kg står på ett bord 0,75 m över golvet. Golvet är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Hur stor är väskans lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=4{,}0\\cdot 9{,}82\\cdot 0{,}75=29{,}46\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 29,46 J.</p></div>",
+        "fraga": "Bestäm lägesenergin på bordet i J. Svara med tre värdesiffror.",
+        "t": "<p>En väska på 4,0 kg står på ett bord 0,75 m över golvet. Golvet är nollnivå. Använd \\(E_p\\) = mgh och g = 9,82 m/s².</p><p>Bestäm lägesenergin på bordet i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd höjden över golvet i den givna formeln.</p>\\[E_p=mgh=4{,}0\\cdot9{,}82\\cdot0{,}75=29{,}46\\,\\mathrm J\\]<p>Med tre värdesiffror: 29,5 J.</p></div>",
         "ledtrad": "<p>Vilken höjd har väskan relativt nollnivån?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -55288,13 +55288,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm lyftkraftens arbete från golvet till bordet när väskan börjar och slutar i vila. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En väska på 4,0 kg lyfts 0,75 m från golvet till ett bord. Väskan börjar och slutar i vila. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete från golvet till bordet när väskan börjar och slutar i vila. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin ändras inte mellan start och slut.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraftens arbete är</p><div class=\"facit-matte\">\\[m g \\Delta h=29{,}46\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 29,46 J.</p></div>",
+        "fraga": "Bestäm lyftkraftens arbete från golvet till bordet i J. Bortse från luftmotståndet. Svara med tre värdesiffror.",
+        "t": "<p>En väska på 4,0 kg lyfts 0,75 m från vila till vila. Använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete från golvet till bordet i J. Bortse från luftmotståndet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Väskan börjar och slutar i vila. Hela lyftarbetet blir därför ökad lägesenergi.</p>\\[W=mg\\Delta h=4{,}0\\cdot9{,}82\\cdot0{,}75=29{,}46\\,\\mathrm J\\]<p>Med tre värdesiffror: 29,5 J.</p></div>",
         "ledtrad": "<p>Vilken energiändring måste lyftarbetet ge?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -55302,13 +55302,13 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm lägesenergin efter den ytterligare höjningen med 0,40 m. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En väska på 4,0 kg står först på golvet. Den lyfts till vila på ett bord 0,75 m över golvet och därefter ytterligare 0,40 m. Golvet är nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin efter den ytterligare höjningen med 0,40 m. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Höjden över golvet är</p><div class=\"facit-matte\">\\[0{,}75+0{,}40=1{,}15\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=4{,}0\\cdot 9{,}82\\cdot 1{,}15=45{,}172\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 45,17 J.</p></div>",
+        "fraga": "Bestäm lägesenergin efter båda lyften i J. Svara med tre värdesiffror.",
+        "t": "<p>En väska på 4,0 kg lyfts först 0,75 m över golvet och sedan ytterligare 0,40 m. Golvet är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin efter båda lyften i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Summera höjningarna innan du beräknar lägesenergin.</p>\\[h=0{,}75+0{,}40=1{,}15\\,\\mathrm m\\]\\[E_p=4{,}0\\cdot9{,}82\\cdot1{,}15=45{,}172\\,\\mathrm J\\]<p>Med tre värdesiffror: 45,2 J.</p></div>",
         "ledtrad": "<p>Vilken är den totala höjden över golvet?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -55326,8 +55326,8 @@ window.BANK = [
     "niva": "E",
     "typ": "upprepade lyft",
     "poang": "(3/0/0)",
-    "t": "<p>En låda på 25 kg lyfts lodrätt 1,8 m med konstant fart. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm lyftkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm arbetet för att lyfta tolv sådana lådor lika högt under samma villkor. Svara i kJ. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart ger</p><div class=\"facit-matte\">\\[F=m g=25\\cdot 9{,}82=245{,}5\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 245,5 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=F h=245{,}5\\cdot 1{,}8=441{,}9\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 441,9 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet per låda är</p><div class=\"facit-matte\">\\[25\\cdot 9{,}82\\cdot 1{,}8=441{,}9\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet är summan för de tolv lådorna:</p><div class=\"facit-matte\">\\[12\\cdot 441{,}9=5302{,}8\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,3 kJ.</p></div></div></div>",
+    "t": "<p>En låda på 25 kg lyfts 1,8 m rakt upp med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är lyftkraften? Svara i N. Svara med tre värdesiffror.</li><li>Hur stort arbete gör lyftkraften? Svara i J. Svara med tre värdesiffror.</li><li>Tolv likadana lådor lyfts 1,8 m var med konstant fart. Hur stort blir det sammanlagda lyftarbetet? Svara i kJ. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart balanserar lyftkraften tyngdkraften.</p>\\[F=mg=25\\cdot9{,}82=245{,}5\\,\\mathrm N\\]<p>Med tre värdesiffror: 246 N.</p><p><strong>b)</strong></p><p>Konstant fart ger F = mg = 25 · 9,82 = 245,5 N. Kraften är riktad längs förflyttningen.</p>\\[W=Fh=245{,}5\\cdot1{,}8=441{,}9\\,\\mathrm J\\]<p>Med tre värdesiffror: 442 J.</p><p><strong>c)</strong></p><p>Varje låda kräver arbetet 25 · 9,82 · 1,8 = 441,9 J. Multiplicera med antalet lådor och omvandla till kJ.</p>\\[W=12\\cdot441{,}9=5302{,}8\\,\\mathrm J\\]\\[W=5{,}3028\\,\\mathrm{kJ}\\approx5{,}30\\,\\mathrm{kJ}\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
@@ -55336,20 +55336,20 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       245.5,
-      441.9,
-      5.3
+      441.90000000000003,
+      5.3028
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.5,
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vad är resultanten när farten är konstant?</p>",
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "N",
@@ -55368,16 +55368,16 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda på 25 kg lyfts lodrätt 1,8 m med konstant fart. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En låda på 25 kg lyfts 1,8 m rakt upp med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är lyftkraften på lådan? Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 25 kg lyfts rakt upp med konstant fart. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på lådan? Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart ger</p><div class=\"facit-matte\">\\[F=m g=25\\cdot 9{,}82=245{,}5\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 245,5 N.</p></div>",
-        "ledtrad": "<p>Vad är resultanten när farten är konstant?</p>",
+        "fraga": "Hur stor är lyftkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 25 kg lyfts rakt upp med konstant fart. Använd F = mg och g = 9,82 m/s².</p><p>Hur stor är lyftkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar lyftkraften tyngdkraften.</p>\\[F=mg=25\\cdot9{,}82=245{,}5\\,\\mathrm N\\]<p>Med tre värdesiffror: 246 N.</p></div>",
+        "ledtrad": "<p>Vilken kraft balanserar tyngdkraften vid konstant fart?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -55386,13 +55386,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm lyftkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 25 kg lyfts lodrätt 1,8 m med konstant fart. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=F h=245{,}5\\cdot 1{,}8=441{,}9\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 441,9 J.</p></div>",
-        "ledtrad": "<p>Kraften och förflyttningen har samma riktning.</p>",
+        "fraga": "Hur stort arbete gör lyftkraften? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 25 kg lyfts 1,8 m rakt upp med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart ger F = mg = 25 · 9,82 = 245,5 N. Kraften är riktad längs förflyttningen.</p>\\[W=Fh=245{,}5\\cdot1{,}8=441{,}9\\,\\mathrm J\\]<p>Med tre värdesiffror: 442 J.</p></div>",
+        "ledtrad": "<p>Beräkna lyftkraften innan du använder W = Fh.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -55400,13 +55400,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm arbetet för att lyfta tolv sådana lådor lika högt under samma villkor. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 25 kg lyfts lodrätt 1,8 m med konstant fart. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm arbetet för att lyfta tolv sådana lådor lika högt under samma villkor. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet per låda är</p><div class=\"facit-matte\">\\[25\\cdot 9{,}82\\cdot 1{,}8=441{,}9\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet är summan för de tolv lådorna:</p><div class=\"facit-matte\">\\[12\\cdot 441{,}9=5302{,}8\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,3 kJ.</p></div>",
-        "ledtrad": "<p>Hur ska arbetena för flera likadana lyft kombineras?</p>",
+        "fraga": "Hur stort blir det sammanlagda lyftarbetet? Svara i kJ med tre värdesiffror.",
+        "t": "<p>Tolv lådor på 25 kg var lyfts 1,8 m var rakt upp med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur stort blir det sammanlagda lyftarbetet? Svara i kJ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje låda kräver arbetet 25 · 9,82 · 1,8 = 441,9 J. Multiplicera med antalet lådor och omvandla till kJ.</p>\\[W=12\\cdot441{,}9=5302{,}8\\,\\mathrm J\\]\\[W=5{,}3028\\,\\mathrm{kJ}\\approx5{,}30\\,\\mathrm{kJ}\\]</div>",
+        "ledtrad": "<p>Beräkna arbetet för en låda och multiplicera med antalet lådor.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -59480,8 +59480,8 @@ window.BANK = [
     "niva": "C",
     "typ": "arbete mellan två fjäderlägen",
     "poang": "(1/2/0)",
-    "t": "<p>En fjäder med k = 800 N/m dras långsamt ut från obelastat läge. Bortse från energiförluster.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm arbetet från 0 till 0,25 m förlängning.</li><li>Bestäm största kraften och medelkraften över denna sträcka.</li><li>Bestäm arbetet från 0,25 till 0,50 m och förklara varför det skiljer sig från det första arbetet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=\\frac{k x^{2}}{2}=\\frac{800\\cdot 0{,}25^{2}}{2}=25\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{max}}=k x=200\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Kraften ökar linjärt från 0 till 200 N, så medelkraften över sträckan är 100 N.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=\\frac{800 \\left(0{,}50^{2}-0{,}25^{2}\\right)}{2}=75\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Under den andra sträckan ökar kraften från 200 till 400 N och medelkraften är 300 N.</p></div><div class=\"facit-stycke\"><p>Samma sträcka med tre gånger medelkraften ger tre gånger arbetet.</p></div></div></div></div></div>",
+    "t": "<p>En fjäder med k = 800 N/m dras långsamt ut från sin ospända längd. Bortse från energiförluster.</p><ol type=\"a\"><li>Bestäm arbetet för att dra ut fjädern 0,25 m.</li><li>Bestäm den största kraften och medelkraften under den förlängningen.</li><li>Bestäm arbetet för att därefter dra fjädern från 0,25 m till 0,50 m förlängning. Varför skiljer det sig från det första arbetet?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Arbetet lagras som fjäderenergi.</p>\\[W=\\frac{kx^2}{2}=\\frac{800\\cdot0{,}25^2}{2}=25\\,\\mathrm J\\]<p><strong>b)</strong> Kraften ökar linjärt från noll till kx.</p>\\[F_\\text{max}=800\\cdot0{,}25=200\\,\\mathrm N\\]\\[F_\\text{medel}=\\frac{0+200}{2}=100\\,\\mathrm N\\]<p><strong>c)</strong> Beräkna den lagrade energin vid 0,50 m och subtrahera energin vid 0,25 m.</p>\\[E_2=\\frac{800\\cdot0{,}50^2}{2}=100\\,\\mathrm J\\]\\[W=100-25=75\\,\\mathrm J\\]<p>Under den andra sträckan ökar kraften från 200 till 400 N. Medelkraften är 300 N, alltså tre gånger så stor som under den första sträckan. Samma sträcka med tre gånger så stor medelkraft ger tre gånger så stort arbete.</p></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -59493,7 +59493,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Jämför energierna före och efter varje sträckning.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -103602,8 +103602,8 @@ window.BANK = [
     "niva": "A",
     "typ": "kombinera fjäderenergi och friktionsarbete",
     "poang": "(0/2/2)",
-    "t": "<p>En kloss med massa m > 0 släpps från vila mot en fjäder med konstant k > 0, hoptryckt sträckan x₀ > 0 på ett vågrätt bord. Klossen är inte fäst i fjädern. Glidfriktionstalet är μ > 0 och glidfriktionen är μmg och rörelsen antas starta direkt. Bortse från övriga förluster. a) Ta fram villkoret för att klossen ska lämna fjädern med positiv fart.</p><p>b) En elev sätter hela glidsträckan till d = kx₀²/(2μmg) utan att kontrollera villkoret. Förklara varför uttrycket inte alltid kan användas.</p><p>c) Kontrollera villkoret för m = 1,8 kg, k = 220 N/m, x₀ = 12 cm och μ = 0,22, och beräkna hela glidsträckan för detta fall.</p><p>Använd g = 9,82 m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Startenergin är kx₀²/2.</p></div><div class=\"facit-stycke\"><p>Fram till obelastad längd förloras μmgx₀ till friktion.</p></div><div class=\"facit-stycke\"><p>Positiv fart där kräver kx₀²/2 &gt; μmgx₀, alltså kx₀ &gt; 2μmg.</p></div><div class=\"facit-stycke\"><p>Vid likhet når klossen obelastad längd med noll fart.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Formeln för d antar att all ursprunglig fjäderenergi till slut har blivit friktionsarbete och att fjädern är obelastad.</p></div><div class=\"facit-stycke\"><p>Om klossen stannar medan fjädern fortfarande är hoptryckt finns elastisk energi kvar; då gäller inte den energibalansen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">kx₀ = 26,4 N och</p><div class=\"facit-matte\">\\[2 \\mu m g=2\\cdot 0{,}22\\cdot 1{,}8\\cdot 9{,}82\\approx 7{,}78\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Villkoret är uppfyllt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_f = 220 · 0,12²/2 = 1,584 J och</p><div class=\"facit-matte\">\\[d=\\frac{1{,}584}{0{,}22\\cdot 1{,}8\\cdot 9{,}82}\\approx 0{,}4073\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är hela sträckan från start, inklusive de första 12 cm under fjäderkontakten.</p></div></div></div></div></div>",
+    "t": "<p>En kloss med massa m hålls mot en fjäder med fjäderkonstant k på ett vågrätt bord. Fjädern är hoptryckt x₀ från sin ospända längd. Klossen släpps från vila, börjar glida direkt och är inte fäst i fjädern. Friktionstalet μ gäller både vid vila och glidning. Alla storheter är positiva. Bortse från andra energiförluster.</p><ol type=\"a\"><li>Ta fram villkoret för att klossen ska lämna fjädern med positiv fart.</li><li>En elev använder d = kx₀²/(2μmg) för hela glidsträckan utan att kontrollera villkoret. Varför fungerar formeln inte i alla fall?</li><li>Kontrollera villkoret för m = 1,8 kg, k = 220 N/m, x₀ = 12 cm och μ = 0,22. Bestäm hela glidsträckan. Använd g = 9,82 m/s².</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Startenergin är kx₀²/2. Fram till ospänd längd glider klossen x₀, så friktionen tar energin μmgx₀. Resten måste vara positiv för att klossen ska lämna fjädern med fart.</p>\\[\\frac{kx_0^2}{2}-\\mu mgx_0\\gt0\\quad\\Rightarrow\\quad kx_0\\gt2\\mu mg\\]<p>Vid likhet når klossen ospänd längd med farten noll.</p><p><strong>b)</strong> Formeln antar att hela startenergin går åt till friktion och att fjädern är ospänd när klossen stannar. Om klossen stannar medan fjädern fortfarande är hoptryckt finns energi kvar i fjädern. Då får man inte sätta μmgd lika med hela startenergin.</p><p><strong>c)</strong> Omvandla 12 cm till 0,12 m och jämför villkorets båda led.</p>\\[kx_0=220\\cdot0{,}12=26{,}4\\,\\mathrm N\\]\\[2\\mu mg=2\\cdot0{,}22\\cdot1{,}8\\cdot9{,}82\\approx7{,}78\\,\\mathrm N\\]<p>Villkoret är uppfyllt. Startenergin är 220 · 0,12²/2 = 1,584 J och friktionskraften är 0,22 · 1,8 · 9,82 = 3,88872 N.</p>\\[d=\\frac{1{,}584}{3{,}88872}\\approx0{,}407\\,\\mathrm m\\]<p>Detta är hela glidsträckan från startläget, inklusive de första 0,12 m vid fjädern.</p></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -103618,7 +103618,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Jämför startenergin med friktionsarbetet fram till fjäderns obelastade längd.</p>",
     "traningsniva": 5,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "typfamilj": "Villkor för att lämna fjädern",
@@ -119433,8 +119433,8 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__grundlaggande_arbete",
     "svarstyp": "numeriskt",
-    "rättSvar": 36,
-    "tolerans": 0,
+    "rättSvar": 36.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -119455,8 +119455,8 @@ window.BANK = [
     "niva": "E",
     "typ": "negativt arbete",
     "poang": "(2/0/0)",
-    "t": "<p>En bil bromsas på en vågrät väg av en konstant motståndskraft på 500 N, riktad mot rörelsen. Bilen förflyttas 25 m innan den stannar.</p><p>Bestäm motståndskraftens arbete på bilen. Ange tecken. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraften är motriktad förflyttningen:</p><div class=\"facit-matte\">\\[W=-500\\cdot 25=-12\\,500 J=-12{,}5\\, \\mathrm{kJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -12,5 kJ.</p></div>",
+    "t": "<p>En bil bromsas av en konstant motståndskraft på 500 N under 25 m på en vågrät väg. Kraften är riktad mot rörelsen. Bestäm kraftens arbete i kJ, med tecken.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften motverkar rörelsen, så arbetet är negativt. Omvandla sedan J till kJ.</p>\\[W=-Fs=-500\\cdot25=-12500\\,\\mathrm J\\]\\[W=-12{,}5\\,\\mathrm{kJ}\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -119464,13 +119464,13 @@ window.BANK = [
     "familjNyckel": "arbete__negativt_arbete",
     "svarstyp": "numeriskt",
     "rättSvar": -12.5,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Ökar eller minskar den bromsande kraften rörelseenergin?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kJ",
     "svarFormat": "numeriskt",
@@ -119485,8 +119485,8 @@ window.BANK = [
     "niva": "C",
     "typ": "modellera sträcka från area",
     "poang": "(0/2/0)",
-    "t": "<p>En plan rektangulär gräsmatta är 10 m × 20 m. Gräsklipparens klippbredd är 0,50 m och det krävs en konstant framåtriktad kraft på 15 N för att skjuta den. Räkna på raka, kant i kant liggande stråk utan överlapp och bortse från vändningar. Räkna bara på arbetet för att skjuta klipparen.</p><p>Uppskatta det sammanlagda arbetet. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=10\\cdot 20=200\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Stråkens sammanlagda längd är</p><div class=\"facit-matte\">\\[s=\\frac{A}{b}=\\frac{200}{0{,}50}=400\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=F s=15\\cdot 400=6000 J=6\\, \\mathrm{kJ}\\]</div></div></div><div class=\"facit-stycke\"><p>Energin till själva klippningen ingår inte.</p></div></div><p class=\"facit-svar\">Svar: 6 kJ.</p></div>",
+    "t": "<p>En gräsmatta är 10 m lång och 20 m bred. Gräsklipparen klipper en 0,50 m bred remsa och skjuts med kraften 15 N i rörelseriktningen. Remsorna ligger kant i kant. Bortse från vändningarna. Hur stort arbete gör kraften för att skjuta klipparen över hela gräsmattan? Svara i kJ.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna gräsmattans area. Dela med klippbredden för att få remsornas sammanlagda längd.</p>\\[A=10\\cdot20=200\\,\\mathrm{m^2}\\]\\[s=\\frac A b=\\frac{200}{0{,}50}=400\\,\\mathrm m\\]<p>Multiplicera kraften med sträckan och omvandla till kJ.</p>\\[W=15\\cdot400=6000\\,\\mathrm J=6{,}00\\,\\mathrm{kJ}\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -119494,8 +119494,8 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__modellera_stracka_fran_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 6.0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -119548,8 +119548,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete under given tid",
     "poang": "(2/0/0)",
-    "t": "<p>En pojke skjuter en låda längs ett vågrätt golv med konstant fart 0,82 m/s. Hans konstanta kraft på 20 N är riktad i rörelseriktningen.</p><p>Bestäm pojkens arbete på lådan under 16 s. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Sträckan är</p><div class=\"facit-matte\">\\[s=v t=0{,}82\\cdot 16=13{,}12\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=F s=20\\cdot 13{,}12=262{,}4\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 262,4 J.</p></div>",
+    "t": "<p>En pojke skjuter en låda med konstant fart 0,82 m/s. Hans kraft är 20 N i rörelseriktningen. Hur stort arbete gör kraften under 16 s? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först sträckan med den konstanta farten.</p>\\[s=vt=0{,}82\\cdot16=13{,}12\\,\\mathrm m\\]<p>Arbetet är kraften gånger sträckan.</p>\\[W=Fs=20\\cdot13{,}12=262{,}4\\,\\mathrm J\\]<p>Med tre värdesiffror: 262 J.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -119557,13 +119557,13 @@ window.BANK = [
     "familjNyckel": "arbete__arbete_under_given_tid",
     "svarstyp": "numeriskt",
     "rättSvar": 262.4,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hur kan tiden och farten ge förflyttningen?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -119578,8 +119578,8 @@ window.BANK = [
     "niva": "E",
     "typ": "välja obekant i arbetssambandet",
     "poang": "(3/0/0)",
-    "t": "<p>En murare skjuter en skottkärra längs ett vågrätt underlag. Kraften är konstant och riktad i rörelseriktningen.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm arbetet för kraften 178 N under 3,00 m. Svara i J. Svara med ett heltal.</li><li>I ett annat fall är arbetet 534 J och kraften 120 N. Bestäm sträckan. Svara i m. Avrunda vid behov till 2 decimaler.</li><li>I ett tredje fall är arbetet 534 J och sträckan 2,5 m. Bestäm kraften. Svara i N. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=178\\cdot 3{,}00=534\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 534 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{534}{120}=4{,}45\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4,45 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{534}{2{,}5}=213{,}6\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 213,6 N.</p></div></div></div>",
+    "t": "<p>En konstant kraft skjuter en skottkärra i kraftens riktning. Använd W = Fs.</p><ol type=\"a\"><li>Kraften är 178 N och sträckan 3,00 m. Bestäm arbetet i J. Svara med tre värdesiffror.</li><li>Arbetet är 534 J och kraften 120 N. Bestäm sträckan i m. Svara med tre värdesiffror.</li><li>Arbetet är 534 J och sträckan 2,5 m. Bestäm kraften i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=178\\cdot3{,}00=534\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Dividera arbetet med kraften.</p>\\[s=\\frac WF=\\frac{534}{120}=4{,}45\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Dividera arbetet med sträckan.</p>\\[F=\\frac Ws=\\frac{534}{2{,}5}=213{,}6\\,\\mathrm N\\]<p>Med tre värdesiffror: 214 N.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -119592,9 +119592,9 @@ window.BANK = [
       213.6
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.5,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -119620,13 +119620,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En murare skjuter en skottkärra längs ett vågrätt underlag. Kraften är konstant och riktad i rörelseriktningen.</p>",
+    "spelIntro": "<p>En konstant kraft skjuter en skottkärra i kraftens riktning. Använd W = Fs.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm arbetet för kraften 178 N under 3,00 m. Svara i J. Svara med ett heltal.",
-        "t": "<p>En murare skjuter en skottkärra längs ett vågrätt underlag. Kraften är konstant och riktad i rörelseriktningen.</p><p>Bestäm arbetet för kraften 178 N under 3,00 m. Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=178\\cdot 3{,}00=534\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 534 J.</p></div>",
+        "fraga": "Hur stort arbete gör kraften? Svara i J med tre värdesiffror.",
+        "t": "<p>En kraft på 178 N skjuter en skottkärra 3,00 m i kraftens riktning. Använd W = Fs.</p><p>Hur stort arbete gör kraften? Svara i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=178\\cdot3{,}00=534\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Kraften verkar i förflyttningens riktning.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -119638,9 +119638,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "I ett annat fall är arbetet 534 J och kraften 120 N. Bestäm sträckan. Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En murare skjuter en skottkärra längs ett vågrätt underlag. Kraften är konstant och riktad i rörelseriktningen.</p><p>I ett annat fall är arbetet 534 J och kraften 120 N. Bestäm sträckan. Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{534}{120}=4{,}45\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4,45 m.</p></div>",
+        "fraga": "Hur långt flyttas kärran? Svara i m med tre värdesiffror.",
+        "t": "<p>En kraft på 120 N gör arbetet 534 J på en skottkärra. Kraften verkar längs rörelsen. Använd s = W/F.</p><p>Hur långt flyttas kärran? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera arbetet med kraften.</p>\\[s=\\frac WF=\\frac{534}{120}=4{,}45\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Lös ut sträckan ur sambandet för arbete.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -119652,13 +119652,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "I ett tredje fall är arbetet 534 J och sträckan 2,5 m. Bestäm kraften. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En murare skjuter en skottkärra längs ett vågrätt underlag. Kraften är konstant och riktad i rörelseriktningen.</p><p>I ett tredje fall är arbetet 534 J och sträckan 2,5 m. Bestäm kraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{534}{2{,}5}=213{,}6\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 213,6 N.</p></div>",
+        "fraga": "Hur stor är kraften? Svara i N med tre värdesiffror.",
+        "t": "<p>En kraft gör arbetet 534 J när en skottkärra flyttas 2,5 m i kraftens riktning.</p><p>Hur stor är kraften? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera arbetet med sträckan.</p>\\[F=\\frac Ws=\\frac{534}{2{,}5}=213{,}6\\,\\mathrm N\\]<p>Med tre värdesiffror: 214 N.</p></div>",
         "ledtrad": "<p>Vilken kvot ger kraftens belopp?</p>",
         "niva": "E",
-        "traningsniva": 1,
-        "arbetsinsats": 1,
+        "traningsniva": 2,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -119740,22 +119740,22 @@ window.BANK = [
     "niva": "E",
     "typ": "lyftarbete med enhetsbyte",
     "poang": "(2/0/0)",
-    "t": "<p>En väska på 22 kg lyfts lodrätt 45 cm från vila till vila. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=22\\cdot 9{,}82\\cdot 0{,}45=97{,}218\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 97,22 J.</p></div>",
+    "t": "<p>En väska på 22 kg lyfts rakt upp 45 cm från vila till vila. Bortse från luftmotståndet och använd g = 9,82 m/s². Hur stort arbete gör lyftkraften? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Väskan börjar och slutar i vila, så lyftarbetet ökar lägesenergin. Omvandla 45 cm till 0,45 m.</p>\\[W=mg\\Delta h=22\\cdot9{,}82\\cdot0{,}45\\approx97{,}2\\,\\mathrm J\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__lyftarbete_med_enhetsbyte",
     "svarstyp": "numeriskt",
-    "rättSvar": 97.22,
-    "tolerans": 0,
+    "rättSvar": 97.21800000000002,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken enhet måste höjdändringen ha?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -119770,22 +119770,22 @@ window.BANK = [
     "niva": "E",
     "typ": "sammanlagd lägesenergi",
     "poang": "(2/0/0)",
-    "t": "<p>En brandman på 75,0 kg bär 15,0 kg utrustning uppför en lodrät stege. Höjdökningen för både brandmannen och utrustningen är 28,0 m.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm ökningen i deras sammanlagda lägesenergi. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den sammanlagda massan är</p><div class=\"facit-matte\">\\[75{,}0+15{,}0=90{,}0\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=90{,}0\\cdot 9{,}82\\cdot 28{,}0=24\\,746{,}4\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är inte kroppens totala energiförbrukning.</p></div></div><p class=\"facit-svar\">Svar: 24,75 kJ.</p></div>",
+    "t": "<p>En brandman på 75,0 kg bär 15,0 kg utrustning uppför en stege. Båda höjs 28,0 m. Använd g = 9,82 m/s². Hur mycket ökar deras sammanlagda lägesenergi? Svara i kJ.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Både brandmannen och utrustningen höjs. Summera massorna och beräkna lägesenergiökningen.</p>\\[m=75{,}0+15{,}0=90{,}0\\,\\mathrm{kg}\\]\\[\\Delta E_p=90{,}0\\cdot9{,}82\\cdot28{,}0=24746{,}4\\,\\mathrm J\\]\\[\\Delta E_p\\approx24{,}7\\,\\mathrm{kJ}\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__sammanlagd_lagesenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 24.75,
-    "tolerans": 0,
+    "rättSvar": 24.7464,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilka massor får samma höjdökning?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kJ",
     "svarFormat": "numeriskt",
@@ -119800,8 +119800,8 @@ window.BANK = [
     "niva": "E",
     "typ": "jämföra lodrätt och vågrätt arbete",
     "poang": "(2/0/0)",
-    "t": "<p>En låda på 120 kg flyttas med konstant fart i två separata fall. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Lådan lyfts lodrätt 5,0 m. Bestäm lyftkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>Lådan dras i stället 5,0 m på vågrätt golv med glidfriktionstalet 0,55. Dragkraften är vågrät. Bestäm dragkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart är lyftkraften mg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=120\\cdot 9{,}82\\cdot 5{,}0=5892\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,89 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg och</p><div class=\"facit-matte\">\\[F_{\\mathrm{drag}}=\\mu m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[W=0{,}55\\cdot 120\\cdot 9{,}82\\cdot 5{,}0=3240{,}6\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,24 kJ.</p></div></div></div>",
+    "t": "<p>En låda på 120 kg flyttas 5,0 m med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Lådan lyfts rakt upp. Hur stort arbete gör lyftkraften? Svara i kJ. Svara med tre värdesiffror.</li><li>Lådan dras längs ett vågrätt golv. Dragkraften är vågrät och glidfriktionstalet 0,55. Hur stort arbete gör dragkraften? Svara i kJ. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart ger lyftkraften F = mg. Arbetet blir ökningen i lägesenergi.</p>\\[W=120\\cdot9{,}82\\cdot5{,}0=5892\\,\\mathrm J\\]\\[W\\approx5{,}89\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>På vågrätt golv är normalkraften mg. Vid konstant fart balanserar dragkraften friktionen.</p>\\[F=\\mu mg=0{,}55\\cdot120\\cdot9{,}82=648{,}12\\,\\mathrm N\\]\\[W=Fs=648{,}12\\cdot5{,}0=3240{,}6\\,\\mathrm J\\]\\[W\\approx3{,}24\\,\\mathrm{kJ}\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
@@ -119809,18 +119809,18 @@ window.BANK = [
     "familjNyckel": "arbete__jamfora_lodratt_och_vagratt_arbete",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.89,
-      3.24
+      5.892,
+      3.2405999999999997
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken kraft balanserar tyngdkraften under lyftet?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -119837,17 +119837,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda på 120 kg flyttas med konstant fart i två separata fall. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En låda på 120 kg flyttas 5,0 m med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Lådan lyfts lodrätt 5,0 m. Bestäm lyftkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 120 kg flyttas med konstant fart i två separata fall. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Lådan lyfts lodrätt 5,0 m. Bestäm lyftkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart är lyftkraften mg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=120\\cdot 9{,}82\\cdot 5{,}0=5892\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,89 kJ.</p></div>",
+        "fraga": "Hur stort arbete gör lyftkraften? Svara i kJ med tre värdesiffror.",
+        "t": "<p>En låda på 120 kg lyfts 5,0 m rakt upp med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften? Svara i kJ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart ger lyftkraften F = mg. Arbetet blir ökningen i lägesenergi.</p>\\[W=120\\cdot9{,}82\\cdot5{,}0=5892\\,\\mathrm J\\]\\[W\\approx5{,}89\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Vilken kraft balanserar tyngdkraften under lyftet?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -119855,12 +119855,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Lådan dras i stället 5,0 m på vågrätt golv med glidfriktionstalet 0,55. Dragkraften är vågrät. Bestäm dragkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 120 kg flyttas med konstant fart i två separata fall. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Lådan dras i stället 5,0 m på vågrätt golv med glidfriktionstalet 0,55. Dragkraften är vågrät. Bestäm dragkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg och</p><div class=\"facit-matte\">\\[F_{\\mathrm{drag}}=\\mu m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[W=0{,}55\\cdot 120\\cdot 9{,}82\\cdot 5{,}0=3240{,}6\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,24 kJ.</p></div>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i kJ med tre värdesiffror.",
+        "t": "<p>En låda på 120 kg dras 5,0 m längs ett vågrätt golv med konstant fart. Dragkraften är vågrät och glidfriktionstalet 0,55. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör dragkraften? Svara i kJ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrätt golv är normalkraften mg. Vid konstant fart balanserar dragkraften friktionen.</p>\\[F=\\mu mg=0{,}55\\cdot120\\cdot9{,}82=648{,}12\\,\\mathrm N\\]\\[W=Fs=648{,}12\\cdot5{,}0=3240{,}6\\,\\mathrm J\\]\\[W\\approx3{,}24\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Vilken kraft balanseras i det vågräta fallet?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -119879,22 +119879,22 @@ window.BANK = [
     "niva": "E",
     "typ": "lyftarbete i tyngdlyftning",
     "poang": "(2/0/0)",
-    "t": "<p>En skivstång med vikter har massan 175 kg. Den lyfts lodrätt 2,2 m från vila till vila. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lyftarens arbete på skivstången. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom rörelseenergin är densamma i start och slut är arbetet</p><div class=\"facit-matte\">\\[m g \\Delta h=175\\cdot 9{,}82\\cdot 2{,}2=3780{,}7\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,78 kJ.</p></div>",
+    "t": "<p>En skivstång på 175 kg lyfts rakt upp 2,2 m från vila till vila. Bortse från luftmotståndet och använd g = 9,82 m/s². Hur stort arbete gör lyftaren på stången? Svara i kJ.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stången börjar och slutar i vila. Lyftarens arbete ökar därför lägesenergin.</p>\\[W=mgh=175\\cdot9{,}82\\cdot2{,}2=3780{,}7\\,\\mathrm J\\]\\[W\\approx3{,}78\\,\\mathrm{kJ}\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__lyftarbete_i_tyngdlyftning",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.78,
-    "tolerans": 0,
+    "rättSvar": 3.7807000000000004,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken energi har ändrats mellan start- och slutläget?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kJ",
     "svarFormat": "numeriskt",
@@ -119909,22 +119909,22 @@ window.BANK = [
     "niva": "E",
     "typ": "massa ur lyftarbete",
     "poang": "(2/0/0)",
-    "t": "<p>Ett klot lyfts lodrätt 1,5 m med konstant fart av ett rep. Repet uträttar arbetet 550 J. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm klotets massa. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant fart är</p><div class=\"facit-matte\">\\[W=m g h\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[m=\\frac{550}{9{,}82\\cdot 1{,}5}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 37,34 kg.</p></div>",
+    "t": "<p>Ett rep lyfter ett klot 1,5 m rakt upp med konstant fart. Repet gör arbetet 550 J. Bortse från luftmotståndet och använd g = 9,82 m/s². Vilken massa har klotet? Svara i kg.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart går repets arbete till ökad lägesenergi. Lös W = mgh för massan.</p>\\[m=\\frac W{gh}=\\frac{550}{9{,}82\\cdot1{,}5}\\approx37{,}3\\,\\mathrm{kg}\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__massa_ur_lyftarbete",
     "svarstyp": "numeriskt",
-    "rättSvar": 37.34,
-    "tolerans": 0,
+    "rättSvar": 37.3387644263408,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken storhet ska lösas ut ur lyftarbetet?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kg",
     "svarFormat": "numeriskt",
@@ -119939,22 +119939,22 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete mellan två höjder",
     "poang": "(2/0/0)",
-    "t": "<p>En väska på 4,5 kg flyttas från ett bord 0,95 m över golvet till en hylla 1,75 m över golvet. Väskan börjar och slutar i vila. Bortse från luftmotstånd.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Höjder över golvet\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"20\" y1=\"270\" x2=\"400\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"20\" y1=\"279\" x2=\"28\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"32\" y1=\"279\" x2=\"40\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"44\" y1=\"279\" x2=\"52\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"56\" y1=\"279\" x2=\"64\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"68\" y1=\"279\" x2=\"76\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"80\" y1=\"279\" x2=\"88\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"92\" y1=\"279\" x2=\"100\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"104\" y1=\"279\" x2=\"112\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"116\" y1=\"279\" x2=\"124\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"128\" y1=\"279\" x2=\"136\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"140\" y1=\"279\" x2=\"148\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"152\" y1=\"279\" x2=\"160\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"164\" y1=\"279\" x2=\"172\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"176\" y1=\"279\" x2=\"184\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"188\" y1=\"279\" x2=\"196\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"200\" y1=\"279\" x2=\"208\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"212\" y1=\"279\" x2=\"220\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"224\" y1=\"279\" x2=\"232\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"236\" y1=\"279\" x2=\"244\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"248\" y1=\"279\" x2=\"256\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"260\" y1=\"279\" x2=\"268\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"272\" y1=\"279\" x2=\"280\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"284\" y1=\"279\" x2=\"292\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"296\" y1=\"279\" x2=\"304\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"308\" y1=\"279\" x2=\"316\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"320\" y1=\"279\" x2=\"328\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"332\" y1=\"279\" x2=\"340\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"344\" y1=\"279\" x2=\"352\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"356\" y1=\"279\" x2=\"364\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"368\" y1=\"279\" x2=\"376\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"380\" y1=\"279\" x2=\"388\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"392\" y1=\"279\" x2=\"400\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"50\" y=\"156.0\" width=\"100\" height=\"8\" fill=\"#b08a5a\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"164.0\" x2=\"60\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"140\" y1=\"164.0\" x2=\"140\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"166.0\" y1=\"270.0\" x2=\"166.0\" y2=\"156.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"193\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,95 m</text><rect x=\"80\" y=\"122.0\" width=\"50\" height=\"34\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"105\" y=\"114\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">4,5 kg</text><rect x=\"200\" y=\"60.0\" width=\"100\" height=\"8\" fill=\"#b08a5a\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"68.0\" x2=\"210\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"290\" y1=\"68.0\" x2=\"290\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"316.0\" y1=\"270.0\" x2=\"316.0\" y2=\"60.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"343\" y=\"171\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1,75 m</text></svg></div><p>Använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Höjdökningen är</p><div class=\"facit-matte\">\\[1{,}75-0{,}95=0{,}80\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=4{,}5\\cdot 9{,}82\\cdot 0{,}80=35{,}352\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 35,35 J.</p></div>",
+    "t": "<p>En väska på 4,5 kg lyfts från ett bord 0,95 m över golvet till en hylla 1,75 m över golvet. Väskan börjar och slutar i vila. Bortse från luftmotståndet och använd g = 9,82 m/s². Hur stort arbete gör lyftkraften? Svara i J.</p><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Höjder över golvet\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"20\" y1=\"270\" x2=\"400\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"20\" y1=\"279\" x2=\"28\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"32\" y1=\"279\" x2=\"40\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"44\" y1=\"279\" x2=\"52\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"56\" y1=\"279\" x2=\"64\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"68\" y1=\"279\" x2=\"76\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"80\" y1=\"279\" x2=\"88\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"92\" y1=\"279\" x2=\"100\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"104\" y1=\"279\" x2=\"112\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"116\" y1=\"279\" x2=\"124\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"128\" y1=\"279\" x2=\"136\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"140\" y1=\"279\" x2=\"148\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"152\" y1=\"279\" x2=\"160\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"164\" y1=\"279\" x2=\"172\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"176\" y1=\"279\" x2=\"184\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"188\" y1=\"279\" x2=\"196\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"200\" y1=\"279\" x2=\"208\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"212\" y1=\"279\" x2=\"220\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"224\" y1=\"279\" x2=\"232\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"236\" y1=\"279\" x2=\"244\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"248\" y1=\"279\" x2=\"256\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"260\" y1=\"279\" x2=\"268\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"272\" y1=\"279\" x2=\"280\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"284\" y1=\"279\" x2=\"292\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"296\" y1=\"279\" x2=\"304\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"308\" y1=\"279\" x2=\"316\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"320\" y1=\"279\" x2=\"328\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"332\" y1=\"279\" x2=\"340\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"344\" y1=\"279\" x2=\"352\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"356\" y1=\"279\" x2=\"364\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"368\" y1=\"279\" x2=\"376\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"380\" y1=\"279\" x2=\"388\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"392\" y1=\"279\" x2=\"400\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"50\" y=\"156.0\" width=\"100\" height=\"8\" fill=\"#b08a5a\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"164.0\" x2=\"60\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"140\" y1=\"164.0\" x2=\"140\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"166.0\" y1=\"270.0\" x2=\"166.0\" y2=\"156.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"193\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,95 m</text><rect x=\"80\" y=\"122.0\" width=\"50\" height=\"34\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"105\" y=\"114\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">4,5 kg</text><rect x=\"200\" y=\"60.0\" width=\"100\" height=\"8\" fill=\"#b08a5a\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"68.0\" x2=\"210\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"290\" y1=\"68.0\" x2=\"290\" y2=\"270\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"316.0\" y1=\"270.0\" x2=\"316.0\" y2=\"60.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"343\" y=\"171\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1,75 m</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet ökar lägesenergin. Använd höjdskillnaden mellan hyllan och bordet.</p>\\[\\Delta h=1{,}75-0{,}95=0{,}80\\,\\mathrm m\\]\\[W=mg\\Delta h=4{,}5\\cdot9{,}82\\cdot0{,}80\\approx35{,}4\\,\\mathrm J\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__arbete_mellan_tva_hojder",
     "svarstyp": "numeriskt",
-    "rättSvar": 35.35,
-    "tolerans": 0,
+    "rättSvar": 35.352,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Mäts arbetet av sluthöjden eller höjdökningen?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -119969,8 +119969,8 @@ window.BANK = [
     "niva": "C",
     "typ": "rangordna lyftarbeten",
     "poang": "(0/2/0)",
-    "t": "<p>Fem föremål lyfts lodrätt från vila till vila utan luftmotstånd. Massorna och höjdökningarna är: A: m och h; B: m och h/2; C: 2m och h; D: m/2 och 3h/2; E: 3m/2 och 3h/4. Anta m > 0 och h > 0.</p><ol style=\"display:grid;gap:0.85rem\"><li>Rangordna arbetena från minst till störst och motivera med beräkningar.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Alla föremål börjar och slutar i vila.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dividera arbetena med mgh: A ger 1, B ger 1/2, C ger 2, D ger (1/2)(3/2) = 3/4 och E ger</p><div class=\"facit-matte\">\\[\\left(\\frac{3}{2}\\right) \\left(\\frac{3}{4}\\right)=\\frac{9}{8}\\]</div></div></div><div class=\"facit-stycke\"><p>Alltså B &lt; D &lt; A &lt; E &lt; C.</p></div></div></div></div></div>",
+    "t": "<p>Fem föremål lyfts rakt upp från vila till vila. Bortse från luftmotståndet. Massan och höjdökningen är A: m och h; B: m och h/2; C: 2m och h; D: m/2 och 3h/2; E: 3m/2 och 3h/4. Både m och h är positiva.</p><ol type=\"a\"><li>Rangordna lyftkrafternas arbeten från minst till störst. Visa hur du jämför dem.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftarbetet är massan gånger g gånger höjdökningen. Jämför varje arbete med mgh.</p>\\[W_A=mgh,\\quad W_B=\\frac12mgh,\\quad W_C=2mgh\\]\\[W_D=\\frac12mg\\cdot\\frac32h=\\frac34mgh\\]\\[W_E=\\frac32mg\\cdot\\frac34h=\\frac98mgh\\]<p>De positiva faktorerna kan ordnas som 1/2, 3/4, 1, 9/8 och 2. Från minst till störst blir därför B, D, A, E, C.</p></div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "modellering",
@@ -119999,8 +119999,8 @@ window.BANK = [
     "niva": "C",
     "typ": "masscentrums höjd",
     "poang": "(0/2/0)",
-    "t": "<p>En sluten cylinder på 400 g har masscentrum i sitt geometriska centrum. Radien är 3,5 cm och längden 13,0 cm. Cylindern ligger först på sidan på ett bord och ställs sedan upp på sin plana ändyta.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm ökningen i lägesenergi. Svara i J. Avrunda vid behov till 3 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Masscentrum ligger först på höjden 0,035 m och sedan på höjden</p><div class=\"facit-matte\">\\[\\frac{0{,}130}{2}=0{,}065\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Δh = 0,030 m ger</p><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=0{,}400\\cdot 9{,}82\\cdot 0{,}030=0{,}11784\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,118 J.</p></div>",
+    "t": "<p>En cylinder på 400 g har tyngdpunkten i mitten. Radien är 3,5 cm och längden 13,0 cm. Den ligger på sidan på ett bord och ställs sedan upp på sin plana ändyta. Använd g = 9,82 m/s². Hur mycket ökar lägesenergin? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin beror på tyngdpunktens höjd. När cylindern ligger på sidan är höjden radien, 3,5 cm. När den står är höjden halva längden, 6,5 cm.</p>\\[\\Delta h=6{,}5-3{,}5=3{,}0\\,\\mathrm{cm}=0{,}030\\,\\mathrm m\\]<p>Massan är 400 g = 0,400 kg.</p>\\[\\begin{gathered}\\Delta E_p=mg\\Delta h\\\\=0{,}400\\cdot9{,}82\\cdot0{,}030\\approx0{,}118\\,\\mathrm J\\end{gathered}\\]</div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "modellering",
@@ -120008,12 +120008,12 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__masscentrums_hojd",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.118,
-    "tolerans": 0,
+    "rättSvar": 0.11784,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Var ligger masscentrum i de två lägena?</p>",
+    "ledtrad": "<p>På vilken höjd ligger cylinderns tyngdpunkt när den ligger respektive står?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -120030,8 +120030,8 @@ window.BANK = [
     "niva": "A",
     "typ": "stapling och generell lägesenergi",
     "poang": "(1/1/2)",
-    "t": "<p>Fem identiska byggblock står först var för sig på samma golv. Varje block har massan 25,0 kg och höjden 15,0 cm. Blocken staplas med samma orientering tätt ovanpå varandra. Ingen energi går förlorad vid placeringen.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i lägesenergi när fem block staplas till ett torn.</li><li>Ta fram ett uttryck för n likadana block med massan m och höjden h.</li><li>Bedöm påståendet: ”Dubbelt så många block ger dubbelt så stor energiökning.”</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det nedersta blocket ligger kvar på samma höjd.</p></div><div class=\"facit-stycke\"><p>De övriga höjs 0,15, 0,30, 0,45 och 0,60 m.</p></div><div class=\"facit-stycke\"><p>Summan är 1,50 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=25{,}0\\cdot 9{,}82\\cdot 1{,}50=368{,}25\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Blockens höjdändringar är 0, h, 2h, …, (n−1)h.</p></div><div class=\"facit-stycke\"><p>Summan är hn(n−1)/2.</p></div><div class=\"facit-stycke\"><p>Därför Δ\\(E_{\\mathrm{p}}\\) = mghn(n−1)/2.</p></div><div class=\"facit-stycke\"><p>Detta är också det sammanlagda lyftarbetet från vila till vila om energiförluster försummas.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Påståendet är fel.</p></div><div class=\"facit-stycke\"><p>För n &gt; 1 är kvoten Δ\\(E_{\\mathrm{p}}\\)(2n)/Δ\\(E_{\\mathrm{p}}\\)(n) = 2(2n−1)/(n−1), vilket är större än 4.</p></div><div class=\"facit-stycke\"><p>Fler block måste både lyftas och placeras allt högre.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">För fem respektive tio block är kvoten</p><div class=\"facit-matte\">\\[\\frac{90}{20}=4{,}5\\]</div></div></div></div></div></div></div>",
+    "t": "<p>Fem likadana byggblock står var för sig på ett golv. Varje block har massan 25,0 kg och höjden 15,0 cm. De staplas tätt ovanpå varandra, med samma sida nedåt. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket ökar blockens sammanlagda lägesenergi?</li><li>Ta fram en formel för energiökningen när n likadana block med massan m och höjden h staplas på samma sätt.</li><li>En elev säger: ”Dubbelt så många block ger dubbelt så stor energiökning.” Stämmer det? Motivera.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Det nedersta blockets tyngdpunkt ligger kvar på samma höjd. De övriga höjs 0,15, 0,30, 0,45 och 0,60 m. Summera höjdökningarna.</p>\\[\\begin{gathered}h_\\text{summa}=0+0{,}15+0{,}30+0{,}45+0{,}60\\\\=1{,}50\\,\\mathrm m\\end{gathered}\\]\\[\\Delta E_p=25{,}0\\cdot9{,}82\\cdot1{,}50=368{,}25\\,\\mathrm J\\]<p><strong>b)</strong> Tyngdpunkterna höjs 0, h, 2h, …, (n − 1)h. Summan av heltalen 0 till n − 1 är n(n − 1)/2.</p>\\[\\Delta E_p=mgh\\frac{n(n-1)}2\\]<p><strong>c)</strong> Nej. Antalet block ökar, och fler block måste dessutom placeras högre. För n större än 1 ger formeln</p>\\[\\frac{\\Delta E_p(2n)}{\\Delta E_p(n)}=\\frac{2n(2n-1)}{n(n-1)}=\\frac{2(2n-1)}{n-1}\\]<p>Kvoten är större än 4. Fem block ger faktorn 5 · 4/2 = 10, medan tio block ger 10 · 9/2 = 45. Energiökningen blir då 45/10 = 4,5 gånger så stor.</p></div>",
     "familj": "Lägesenergi och lyftarbete",
     "formaga": [
       "modellering",
@@ -120044,9 +120044,9 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Hur mycket höjs masscentrum hos varje block jämfört med startläget?</p>",
+    "ledtrad": "<p>Hur mycket höjs varje blocks tyngdpunkt från startläget?</p>",
     "traningsniva": 5,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -120060,8 +120060,8 @@ window.BANK = [
     "niva": "E",
     "typ": "när arbete är noll",
     "poang": "(3/0/0)",
-    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>En person trycker vågrätt på en låda som står stilla. Förklara varför personens kraft inte gör mekaniskt arbete på lådan.</li><li>En person bär ett paket vågrätt på konstant höjd och utövar en lodrät kraft uppåt. Förklara varför denna kraft inte gör arbete på paketet.</li><li>Ett föremål hänger stilla i ett rep. Förklara varför repkraften inte gör arbete på föremålet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lådans förflyttning är noll.</p></div><div class=\"facit-stycke\"><p>Därför är kraftens arbete noll, även om personen anstränger sig.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften är vinkelrät mot förflyttningen.</p></div><div class=\"facit-stycke\"><p>Dess komponent längs förflyttningen är noll, så arbetet är noll.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Föremålet förflyttas inte, så repkraftens arbete är noll.</p></div></div></div></div></div>",
+    "t": "<p>Förklara arbetet av den angivna kraften i varje situation.</p><ol type=\"a\"><li>En person trycker på en låda som står stilla. Gör personens kraft arbete på lådan?</li><li>En person bär ett paket vågrätt på samma höjd. Personens kraft på paketet är lodrät uppåt. Gör just den kraften arbete?</li><li>Ett föremål hänger stilla i ett rep. Gör repkraften arbete på föremålet?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Nej. Lådan flyttas inte, så arbetet är noll även om personen anstränger sig.</p><p><strong>b)</strong> Nej. Kraften är lodrät och förflyttningen vågrät. Kraften är vinkelrät mot förflyttningen och gör därför inget arbete.</p><p><strong>c)</strong> Nej. Föremålet flyttas inte och repkraftens arbete är noll.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "begrepp",
@@ -120076,7 +120076,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Undersök både förflyttningen och vinkeln mellan kraft och förflyttning.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -120090,8 +120090,8 @@ window.BANK = [
     "niva": "E",
     "typ": "positivt och negativt arbete",
     "poang": "(3/0/0)",
-    "t": "<p>En tyngdlyftning delas in i fem skeden: A: stången ligger stilla på golvet. B: lyftaren för stången uppåt med kraft uppåt. C: stången hålls stilla ovanför huvudet. D: stången har släppts och faller. E: stången ligger åter stilla på golvet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ange i vilka skeden lyftaren gör arbete på stången, med tecken.</li><li>Ange i vilka skeden tyngdkraften gör arbete på stången, med tecken. Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftaren gör positivt arbete i B, när en uppåtriktad kraft verkar under förflyttning uppåt.</p></div><div class=\"facit-stycke\"><p>I A och C är stången stilla, och i D och E har lyftaren släppt den.</p></div><div class=\"facit-stycke\"><p>Där gör lyftaren inget arbete på stången.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften gör negativt arbete i B eftersom den verkar nedåt medan stången flyttas uppåt.</p></div><div class=\"facit-stycke\"><p>I D gör den positivt arbete under fallet.</p></div><div class=\"facit-stycke\"><p>I A, C och E saknas förflyttning, så arbetet är noll.</p></div><div class=\"facit-stycke\"><p>Själva stöten mot golvet ingår inte i dessa skeden.</p></div></div></div></div></div>",
+    "t": "<p>En skivstång rör sig genom fem lägen: A: stilla på golvet; B: på väg upp, med lyftarens kraft uppåt; C: hålls stilla; D: har släppts och faller; E: ligger åter stilla på golvet. Själva stöten mot golvet ingår inte.</p><ol type=\"a\"><li>I vilka lägen gör lyftarens kraft arbete på stången? Ange arbetets tecken och förklara.</li><li>I vilka lägen gör tyngdkraften arbete på stången? Ange arbetets tecken och förklara.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Lyftaren gör positivt arbete i B. Kraften och förflyttningen är då uppåt. I A och C flyttas inte stången. I D och E håller lyftaren inte i den. Lyftaren gör därför inget arbete i dessa lägen.</p><p><strong>b)</strong> Tyngdkraften gör negativt arbete i B eftersom den är nedåt och stången flyttas uppåt. I D gör den positivt arbete eftersom både kraft och förflyttning är nedåt. I A, C och E är stången stilla, så arbetet är noll.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "begrepp",
@@ -120105,7 +120105,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Ta med också arbete där kraften är motriktad förflyttningen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -120120,8 +120120,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete under lyft och sänkning",
     "poang": "(3/0/0)",
-    "t": "<p>Greger kör bänkpress med en skivstång och vikter med sammanlagd massa 72 kg. Han lyfter stången lodrätt 65 cm med konstant fart och sänker den sedan samma sträcka med konstant fart. Bortse från vändningsskedena och luftmotståndet.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm Gregers kraft på stången till storlek och riktning under lyftet.</li><li>Bestäm Gregers arbete på stången under lyftet.</li><li>Bestäm kraften och arbetet när han sänker stången samma sträcka med konstant fart.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart är resultanten noll.</p></div><div class=\"facit-stycke\"><p>Greger håller kraften F = mg = 72 · 9,82 = 707,04 N riktad uppåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraft och förflyttning har samma riktning:</p><div class=\"facit-matte\">\\[W=707{,}04\\cdot 0{,}65=459{,}576 J\\approx 460\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften är fortfarande 707,04 N uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Förflyttningen är däremot nedåt, så</p><div class=\"facit-matte\">\\[W=-707{,}04\\cdot 0{,}65=-459{,}576\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Negativt arbete betyder här att Gregers kraft tar energi från stången.</p></div></div></div></div></div>",
+    "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp 65 cm med konstant fart och sänker den sedan lika långt med konstant fart. Bortse från vändningarna och luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är Gregers kraft under lyftet och åt vilket håll verkar den?</li><li>Hur stort arbete gör Gregers kraft under lyftet?</li><li>Hur ändras kraften och arbetet när han sänker stången?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vid konstant fart balanserar Gregers kraft tyngdkraften. Hans kraft är uppåt.</p>\\[F=mg=72\\cdot9{,}82=707{,}04\\,\\mathrm N\\]<p><strong>b)</strong> Omvandla 65 cm till 0,65 m. Kraften och förflyttningen är åt samma håll.</p>\\[W=Fs=707{,}04\\cdot0{,}65=459{,}576\\,\\mathrm J\\]<p><strong>c)</strong> Kraften är fortfarande 707,04 N uppåt eftersom farten är konstant. Förflyttningen är däremot nedåt, så arbetet blir negativt.</p>\\[W=-Fs=-707{,}04\\cdot0{,}65=-459{,}576\\,\\mathrm J\\]<p>Gregers kraft tar då energi från stången.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "begrepp",
@@ -120135,7 +120135,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Jämför kraftens riktning med förflyttningens riktning i båda fallen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -120181,8 +120181,8 @@ window.BANK = [
     "niva": "E",
     "typ": "vinkel ur arbete",
     "poang": "(2/0/0)",
-    "t": "<p>En tvättkorg dras 5,0 m längs ett vågrätt golv med en konstant kraft på 85 N. Kraften är riktad snett uppåt i rörelseriktningen och uträttar arbetet 212,5 J. Korgen behåller kontakten med golvet.</p><div class=\"fig smal\"><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål dras med en kraft snett uppåt\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"25\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"25\" y1=\"199\" x2=\"33\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"37\" y1=\"199\" x2=\"45\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"49\" y1=\"199\" x2=\"57\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"61\" y1=\"199\" x2=\"69\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"73\" y1=\"199\" x2=\"81\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"85\" y1=\"199\" x2=\"93\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"97\" y1=\"199\" x2=\"105\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"109\" y1=\"199\" x2=\"117\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"121\" y1=\"199\" x2=\"129\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"133\" y1=\"199\" x2=\"141\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"145\" y1=\"199\" x2=\"153\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"157\" y1=\"199\" x2=\"165\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"169\" y1=\"199\" x2=\"177\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"181\" y1=\"199\" x2=\"189\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"193\" y1=\"199\" x2=\"201\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"205\" y1=\"199\" x2=\"213\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"217\" y1=\"199\" x2=\"225\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"229\" y1=\"199\" x2=\"237\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"241\" y1=\"199\" x2=\"249\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"253\" y1=\"199\" x2=\"261\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"265\" y1=\"199\" x2=\"273\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"277\" y1=\"199\" x2=\"285\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"289\" y1=\"199\" x2=\"297\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"301\" y1=\"199\" x2=\"309\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"313\" y1=\"199\" x2=\"321\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"325\" y1=\"199\" x2=\"333\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"337\" y1=\"199\" x2=\"345\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"349\" y1=\"199\" x2=\"357\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"361\" y1=\"199\" x2=\"369\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"373\" y1=\"199\" x2=\"381\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"385\" y1=\"199\" x2=\"393\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"397\" y1=\"199\" x2=\"405\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"409\" y1=\"199\" x2=\"417\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"421\" y1=\"199\" x2=\"429\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"433\" y1=\"199\" x2=\"441\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"140\" y=\"130\" width=\"100\" height=\"60\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.0\" y1=\"160.0\" x2=\"343.3\" y2=\"67.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M351.5 59.6 L347.3 71.4 L339.3 62.5 Z\" fill=\"#2b6cb0\"/><text x=\"357\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">85 N</text><line x1=\"240\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><path d=\"M298 160 A58 58 0 0 0 283.1 121.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"315\" y=\"142\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">?</text><line x1=\"140.0\" y1=\"218.0\" x2=\"400.0\" y2=\"218.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"270\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 m</text></svg></div><p>Bestäm vinkeln mellan kraften och golvet. Vinkeln ligger mellan 0° och 90°. Svara i °. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs cosθ ger</p><div class=\"facit-matte\">\\[\\cos \\theta=\\frac{212{,}5}{85\\cdot 5{,}0}=0{,}5\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\theta=60^{\\circ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 60 °.</p></div>",
+    "t": "<p>En tvättkorg dras 5,0 m längs ett vågrätt golv av en konstant kraft på 85 N. Kraften är riktad snett uppåt och gör arbetet 212,5 J. Vilken vinkel mellan 0° och 90° bildar kraften med golvet? Svara i grader.</p><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål dras med en kraft snett uppåt\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"25\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"25\" y1=\"199\" x2=\"33\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"37\" y1=\"199\" x2=\"45\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"49\" y1=\"199\" x2=\"57\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"61\" y1=\"199\" x2=\"69\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"73\" y1=\"199\" x2=\"81\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"85\" y1=\"199\" x2=\"93\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"97\" y1=\"199\" x2=\"105\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"109\" y1=\"199\" x2=\"117\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"121\" y1=\"199\" x2=\"129\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"133\" y1=\"199\" x2=\"141\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"145\" y1=\"199\" x2=\"153\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"157\" y1=\"199\" x2=\"165\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"169\" y1=\"199\" x2=\"177\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"181\" y1=\"199\" x2=\"189\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"193\" y1=\"199\" x2=\"201\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"205\" y1=\"199\" x2=\"213\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"217\" y1=\"199\" x2=\"225\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"229\" y1=\"199\" x2=\"237\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"241\" y1=\"199\" x2=\"249\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"253\" y1=\"199\" x2=\"261\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"265\" y1=\"199\" x2=\"273\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"277\" y1=\"199\" x2=\"285\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"289\" y1=\"199\" x2=\"297\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"301\" y1=\"199\" x2=\"309\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"313\" y1=\"199\" x2=\"321\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"325\" y1=\"199\" x2=\"333\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"337\" y1=\"199\" x2=\"345\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"349\" y1=\"199\" x2=\"357\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"361\" y1=\"199\" x2=\"369\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"373\" y1=\"199\" x2=\"381\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"385\" y1=\"199\" x2=\"393\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"397\" y1=\"199\" x2=\"405\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"409\" y1=\"199\" x2=\"417\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"421\" y1=\"199\" x2=\"429\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"433\" y1=\"199\" x2=\"441\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"140\" y=\"130\" width=\"100\" height=\"60\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.0\" y1=\"160.0\" x2=\"309.5\" y2=\"39.6\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M315 30.1 L314.7 36.6 L304.3 42.6 Z\" fill=\"#2b6cb0\"/><text x=\"329\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">85 N</text><line x1=\"240\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><path d=\"M298 160 A58 58 0 0 0 269 109.8\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"315\" y=\"142\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">?</text><line x1=\"140.0\" y1=\"218.0\" x2=\"400.0\" y2=\"218.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"270\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 m</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara kraftens del längs rörelsen gör arbete. Lös W = Fs cosθ för cosθ.</p>\\[\\cos\\theta=\\frac W{Fs}=\\frac{212{,}5}{85\\cdot5{,}0}=0{,}5\\]\\[\\theta=\\arccos0{,}5=60{,}0^\\circ\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "begrepp",
@@ -120190,13 +120190,13 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__vinkel_ur_arbete",
     "svarstyp": "numeriskt",
-    "rättSvar": 60,
-    "tolerans": 0,
+    "rättSvar": 60.00000000000001,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken storhet är okänd i sambandet för en sned krafts arbete?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "°",
@@ -120212,21 +120212,21 @@ window.BANK = [
     "niva": "E",
     "typ": "sned dragkraft under given tid",
     "poang": "(2/0/0)",
-    "t": "<p>Helena drar en kälke med konstant fart 1,5 m/s längs vågrät mark. Repet har vinkeln 30,0° uppåt från rörelseriktningen och dragkraften är konstant 240 N. Kälken behåller kontakten med marken.</p><div class=\"fig smal\"><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål dras med en kraft snett uppåt\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"25\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"25\" y1=\"199\" x2=\"33\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"37\" y1=\"199\" x2=\"45\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"49\" y1=\"199\" x2=\"57\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"61\" y1=\"199\" x2=\"69\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"73\" y1=\"199\" x2=\"81\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"85\" y1=\"199\" x2=\"93\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"97\" y1=\"199\" x2=\"105\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"109\" y1=\"199\" x2=\"117\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"121\" y1=\"199\" x2=\"129\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"133\" y1=\"199\" x2=\"141\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"145\" y1=\"199\" x2=\"153\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"157\" y1=\"199\" x2=\"165\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"169\" y1=\"199\" x2=\"177\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"181\" y1=\"199\" x2=\"189\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"193\" y1=\"199\" x2=\"201\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"205\" y1=\"199\" x2=\"213\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"217\" y1=\"199\" x2=\"225\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"229\" y1=\"199\" x2=\"237\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"241\" y1=\"199\" x2=\"249\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"253\" y1=\"199\" x2=\"261\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"265\" y1=\"199\" x2=\"273\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"277\" y1=\"199\" x2=\"285\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"289\" y1=\"199\" x2=\"297\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"301\" y1=\"199\" x2=\"309\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"313\" y1=\"199\" x2=\"321\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"325\" y1=\"199\" x2=\"333\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"337\" y1=\"199\" x2=\"345\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"349\" y1=\"199\" x2=\"357\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"361\" y1=\"199\" x2=\"369\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"373\" y1=\"199\" x2=\"381\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"385\" y1=\"199\" x2=\"393\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"397\" y1=\"199\" x2=\"405\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"409\" y1=\"199\" x2=\"417\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"421\" y1=\"199\" x2=\"429\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"433\" y1=\"199\" x2=\"441\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><path d=\"M120 186 L250 186 Q268 186 270 168\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"3\"/><rect x=\"125\" y=\"156\" width=\"125\" height=\"20\" rx=\"4\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"176\" x2=\"150\" y2=\"186\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"225\" y1=\"176\" x2=\"225\" y2=\"186\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"250.0\" y1=\"166.0\" x2=\"370.4\" y2=\"96.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M379.9 91.0 L373.4 101.7 L367.4 91.3 Z\" fill=\"#2b6cb0\"/><text x=\"386\" y=\"81\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">240 N</text><line x1=\"250\" y1=\"166\" x2=\"370\" y2=\"166\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><path d=\"M308 166 A58 58 0 0 0 300.2 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"327\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">30,0°</text></svg></div><p>Bestäm dragkraftens arbete under 10,0 s. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Sträckan är</p><div class=\"facit-matte\">\\[v t=1{,}5\\cdot 10{,}0=15\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=240 \\cos 30^{\\circ}\\cdot 15\\approx 3117{,}69\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,12 kJ.</p></div>",
+    "t": "<p>Helena drar en kälke med konstant fart 1,5 m/s längs vågrät mark. Repet drar med 240 N i vinkeln 30,0° uppåt från rörelseriktningen. Hur stort arbete gör repkraften under 10,0 s? Svara i kJ.</p><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål dras med en kraft snett uppåt\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"25\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"25\" y1=\"199\" x2=\"33\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"37\" y1=\"199\" x2=\"45\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"49\" y1=\"199\" x2=\"57\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"61\" y1=\"199\" x2=\"69\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"73\" y1=\"199\" x2=\"81\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"85\" y1=\"199\" x2=\"93\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"97\" y1=\"199\" x2=\"105\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"109\" y1=\"199\" x2=\"117\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"121\" y1=\"199\" x2=\"129\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"133\" y1=\"199\" x2=\"141\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"145\" y1=\"199\" x2=\"153\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"157\" y1=\"199\" x2=\"165\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"169\" y1=\"199\" x2=\"177\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"181\" y1=\"199\" x2=\"189\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"193\" y1=\"199\" x2=\"201\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"205\" y1=\"199\" x2=\"213\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"217\" y1=\"199\" x2=\"225\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"229\" y1=\"199\" x2=\"237\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"241\" y1=\"199\" x2=\"249\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"253\" y1=\"199\" x2=\"261\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"265\" y1=\"199\" x2=\"273\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"277\" y1=\"199\" x2=\"285\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"289\" y1=\"199\" x2=\"297\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"301\" y1=\"199\" x2=\"309\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"313\" y1=\"199\" x2=\"321\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"325\" y1=\"199\" x2=\"333\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"337\" y1=\"199\" x2=\"345\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"349\" y1=\"199\" x2=\"357\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"361\" y1=\"199\" x2=\"369\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"373\" y1=\"199\" x2=\"381\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"385\" y1=\"199\" x2=\"393\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"397\" y1=\"199\" x2=\"405\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"409\" y1=\"199\" x2=\"417\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"421\" y1=\"199\" x2=\"429\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"433\" y1=\"199\" x2=\"441\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><path d=\"M120 186 L250 186 Q268 186 270 168\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"3\"/><rect x=\"125\" y=\"156\" width=\"125\" height=\"20\" rx=\"4\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"176\" x2=\"150\" y2=\"186\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"225\" y1=\"176\" x2=\"225\" y2=\"186\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"250.0\" y1=\"166.0\" x2=\"370.4\" y2=\"96.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M379.9 91.0 L373.4 101.7 L367.4 91.3 Z\" fill=\"#2b6cb0\"/><text x=\"386\" y=\"81\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">240 N</text><line x1=\"250\" y1=\"166\" x2=\"370\" y2=\"166\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><path d=\"M308 166 A58 58 0 0 0 300.2 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"327\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">30,0°</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först sträckan under de 10,0 sekunderna. Bara kraftens vågräta del gör arbete.</p>\\[s=vt=1{,}5\\cdot10{,}0=15\\,\\mathrm m\\]\\[W=Fs\\cos\\theta=240\\cdot15\\cos30{,}0^\\circ\\]\\[W\\approx3117{,}69\\,\\mathrm J\\approx3{,}12\\,\\mathrm{kJ}\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__sned_dragkraft_under_given_tid",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.12,
-    "tolerans": 0,
+    "rättSvar": 3.117691453623979,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Bestäm först förflyttningen under den angivna tiden.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kJ",
@@ -120242,8 +120242,8 @@ window.BANK = [
     "niva": "E",
     "typ": "en krafts arbete och nettoarbete",
     "poang": "(3/0/0)",
-    "t": "<p>En låda på 15 kg förflyttas med konstant fart i tre separata fall. Beräkna arbetet av den angivna drag- eller lyftkraften, inte nettoarbetet. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>En vågrät dragkraft på 100 N flyttar lådan 5,0 m på ett golv. Svara i J. Svara med ett heltal.</li><li>Dragkraften är 100 N och riktad 30,0° snett uppåt. Lådan flyttas 5,00 m vågrätt och behåller kontakten med golvet. Svara i J med tre värdesiffror.</li><li>En lodrät lyftkraft flyttar lådan 5,0 m uppåt. Svara i J. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dragkraftens arbete är</p><div class=\"facit-matte\">\\[W=100\\cdot 5{,}0=500\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 500 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=100 \\cos 30^{\\circ}\\cdot 5{,}0\\approx 433{,}013\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 433 J (tre värdesiffror).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant fart är</p><div class=\"facit-matte\">\\[F_{\\mathrm{lyft}}=m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet blir</p><div class=\"facit-matte\">\\[W=15\\cdot 9{,}82\\cdot 5{,}0=736{,}5\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 736,5 J.</p></div></div></div>",
+    "t": "<p>Beräkna arbetet som den angivna kraften gör på lådan. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En vågrät dragkraft på 100 N flyttar lådan 5,0 m i kraftens riktning. Svara i J. Svara med tre värdesiffror.</li><li>En dragkraft på 100 N riktas 30,0° uppåt från rörelseriktningen. Lådan flyttas 5,00 m vågrätt. Svara i J. Svara med tre värdesiffror.</li><li>En låda på 15 kg lyfts rakt upp 5,0 m med konstant fart. Bortse från luftmotståndet. Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kraften och förflyttningen har samma riktning.</p>\\[W=Fs=100\\cdot5{,}0=500\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Bara kraftens vågräta del gör arbete.</p>\\[\\begin{gathered}W=Fs\\cos\\theta\\\\=100\\cdot5{,}00\\cos30{,}0^\\circ\\approx433\\,\\mathrm J\\end{gathered}\\]<p><strong>c)</strong></p><p>Vid konstant fart är lyftkraften F = mg. Den verkar längs förflyttningen.</p>\\[W=mgh=15\\cdot9{,}82\\cdot5{,}0=736{,}5\\,\\mathrm J\\]<p>Med tre värdesiffror: 737 J.</p></div>",
     "familj": "Arbete när kraften lutar",
     "formaga": [
       "procedur"
@@ -120252,20 +120252,20 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       500,
-      433,
+      433.0127018922194,
       736.5
     ],
     "tolerans": [
-      0,
       0.5,
-      0
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken krafts arbete efterfrågas?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "J",
@@ -120284,13 +120284,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En låda på 15 kg förflyttas med konstant fart i tre separata fall. Beräkna arbetet av den angivna drag- eller lyftkraften, inte nettoarbetet. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Beräkna arbetet som den angivna kraften gör på lådan. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör dragkraften? Svara i J som ett heltal.",
-        "t": "<p>En vågrät dragkraft på 100 N flyttar en låda 5,0 m längs ett golv.</p><p>Hur stort arbete gör dragkraften? Svara i J som ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dragkraftens arbete är</p><div class=\"facit-matte\">\\[W=100\\cdot 5{,}0=500\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 500 J.</p></div>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i J med tre värdesiffror.",
+        "t": "<p>En låda flyttas 5,0 m av en vågrät kraft på 100 N i rörelseriktningen. Använd W = Fs.</p><p>Hur stort arbete gör dragkraften? Svara i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften och förflyttningen har samma riktning.</p>\\[W=Fs=100\\cdot5{,}0=500\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken krafts arbete efterfrågas?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -120303,12 +120303,12 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur stort arbete gör dragkraften? Svara i J med tre värdesiffror.",
-        "t": "<p>En låda flyttas 5,00 m vågrätt längs ett golv. Dragkraften är 100 N och riktad 30,0° snett uppåt.</p><p>Hur stort arbete gör dragkraften? Svara i J med tre värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara kraftkomponenten i rörelsens riktning bidrar till arbetet.</p><div class=\"facit-matte\">\\[W=Fs\\cos\\theta=100\\cdot5{,}00\\cdot\\cos30{,}0^\\circ\\approx433{,}013\\,\\mathrm{J}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 433 J (tre värdesiffror).</p></div>",
+        "t": "<p>En låda flyttas 5,00 m vågrätt. En dragkraft på 100 N verkar 30,0° uppåt från rörelseriktningen.</p><p>Hur stort arbete gör dragkraften? Svara i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara kraftens vågräta del gör arbete.</p>\\[\\begin{gathered}W=Fs\\cos\\theta\\\\=100\\cdot5{,}00\\cos30{,}0^\\circ\\approx433\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>Vilken kraftkomponent är parallell med rörelsen?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -120316,13 +120316,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort arbete gör lyftkraften på lådan? Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 15 kg lyfts rakt upp 5,0 m med konstant fart. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften på lådan? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant fart är</p><div class=\"facit-matte\">\\[F_{\\mathrm{lyft}}=m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet blir</p><div class=\"facit-matte\">\\[W=15\\cdot 9{,}82\\cdot 5{,}0=736{,}5\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 736,5 J.</p></div>",
+        "fraga": "Hur stort arbete gör lyftkraften? Svara i J med tre värdesiffror.",
+        "t": "<p>En låda på 15 kg lyfts rakt upp 5,0 m med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften? Svara i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är lyftkraften F = mg. Den verkar längs förflyttningen.</p>\\[W=mgh=15\\cdot9{,}82\\cdot5{,}0=736{,}5\\,\\mathrm J\\]<p>Med tre värdesiffror: 737 J.</p></div>",
         "ledtrad": "<p>Vilken kraft krävs när accelerationen är noll?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -120340,9 +120340,9 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "typ": "arbete med känt motstånd",
-    "poang": "(0/2/0)",
-    "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför ett rakt plan med lutningen 20°. Dragkraften är parallell med planet och en konstant motståndskraft på 40 N verkar nedför planet.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,134.9\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 84.5 240.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">20°</text><polygon points=\"191.2,201.8 242.0,183.3 229.7,149.5 178.9,167.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"235.8\" y1=\"166.4\" x2=\"305.4\" y2=\"141.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M315.7 137.3 L307.4 146.7 L303.3 135.4 Z\" fill=\"#2b6cb0\"/><text x=\"310\" y=\"128\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.2\" y1=\"196.1\" x2=\"143.1\" y2=\"212.9\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M132.8 216.7 L141.1 207.3 L145.2 218.5 Z\" fill=\"#c0392b\"/><text x=\"113\" y=\"208\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">40 N</text><line x1=\"148.4\" y1=\"231.2\" x2=\"369.5\" y2=\"150.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"293\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">26 m</text></svg></div><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm dragkraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm dragkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraftjämvikt längs planet ger</p><div class=\"facit-matte\">\\[F_{\\mathrm{drag}}=m g \\sin 20^{\\circ}+40=18\\cdot 9{,}82 \\sin 20^{\\circ}+40\\]</div></div></div></div><p class=\"facit-svar\">Svar: 100,46 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=F_{\\mathrm{drag}}\\cdot 26=\\left(18\\cdot 9{,}82 \\sin 20^{\\circ}+40\\right)\\cdot 26\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,61 kJ.</p></div></div></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför en rak ramp som lutar 20°. Dragkraften verkar längs rampen. En motståndskraft på 40 N bromsar nedför. Använd g = 9,82 m/s².</p><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,134.9\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 84.5 240.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">20°</text><polygon points=\"191.2,201.8 242.0,183.3 229.7,149.5 178.9,167.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"235.8\" y1=\"166.4\" x2=\"305.4\" y2=\"141.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M315.7 137.3 L307.4 146.7 L303.3 135.4 Z\" fill=\"#2b6cb0\"/><text x=\"310\" y=\"128\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.2\" y1=\"196.1\" x2=\"143.1\" y2=\"212.9\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M132.8 216.7 L141.1 207.3 L145.2 218.5 Z\" fill=\"#c0392b\"/><text x=\"113\" y=\"208\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">40 N</text><line x1=\"148.4\" y1=\"231.2\" x2=\"369.5\" y2=\"150.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"293\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">26 m</text></svg><ol type=\"a\"><li>Hur stor är dragkraften? Svara i N. Svara med tre värdesiffror.</li><li>Hur stort arbete gör dragkraften? Svara i kJ. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart balanserar dragkraften både tyngdkraftens del längs rampen och motståndet.</p>\\[F=mg\\sin20^\\circ+40\\]\\[F=18\\cdot9{,}82\\sin20^\\circ+40\\approx100\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Konstant fart ger dragkraften F = 18 · 9,82 sin20° + 40 = 100,455480… N. Kraften verkar längs rampen. Använd den utan avrundning.</p>\\[W=(18\\cdot9{,}82\\sin20^\\circ+40)\\cdot26\\]\\[W\\approx2611{,}84\\,\\mathrm J\\approx2{,}61\\,\\mathrm{kJ}\\]</div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -120351,12 +120351,12 @@ window.BANK = [
     "familjNyckel": "arbete__arbete_med_kant_motstand",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      100.46,
-      2.61
+      100.4554805342452,
+      2.611842493890375
     ],
     "tolerans": [
-      0,
-      0
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -120379,18 +120379,18 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför ett rakt plan med lutningen 20°. Dragkraften är parallell med planet och en konstant motståndskraft på 40 N verkar nedför planet.</p><p>Använd g = 9,82 m/s².</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,134.9\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 84.5 240.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">20°</text><polygon points=\"191.2,201.8 242.0,183.3 229.7,149.5 178.9,167.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"235.8\" y1=\"166.4\" x2=\"305.4\" y2=\"141.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M315.7 137.3 L307.4 146.7 L303.3 135.4 Z\" fill=\"#2b6cb0\"/><text x=\"310\" y=\"128\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.2\" y1=\"196.1\" x2=\"143.1\" y2=\"212.9\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M132.8 216.7 L141.1 207.3 L145.2 218.5 Z\" fill=\"#c0392b\"/><text x=\"113\" y=\"208\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">40 N</text><line x1=\"148.4\" y1=\"231.2\" x2=\"369.5\" y2=\"150.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"293\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">26 m</text></svg></div>",
+    "spelIntro": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför en rak ramp som lutar 20°. Dragkraften verkar längs rampen. En motståndskraft på 40 N bromsar nedför. Använd g = 9,82 m/s².</p><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,134.9\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 84.5 240.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">20°</text><polygon points=\"191.2,201.8 242.0,183.3 229.7,149.5 178.9,167.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"235.8\" y1=\"166.4\" x2=\"305.4\" y2=\"141.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M315.7 137.3 L307.4 146.7 L303.3 135.4 Z\" fill=\"#2b6cb0\"/><text x=\"310\" y=\"128\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.2\" y1=\"196.1\" x2=\"143.1\" y2=\"212.9\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M132.8 216.7 L141.1 207.3 L145.2 218.5 Z\" fill=\"#c0392b\"/><text x=\"113\" y=\"208\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">40 N</text><line x1=\"148.4\" y1=\"231.2\" x2=\"369.5\" y2=\"150.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"293\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">26 m</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm dragkraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför ett rakt plan med lutningen 20°. Dragkraften är parallell med planet och en konstant motståndskraft på 40 N verkar nedför planet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm dragkraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraftjämvikt längs planet ger</p><div class=\"facit-matte\">\\[F_{\\mathrm{drag}}=m g \\sin 20^{\\circ}+40=18\\cdot 9{,}82 \\sin 20^{\\circ}+40\\]</div></div></div></div><p class=\"facit-svar\">Svar: 100,46 N.</p></div>",
+        "fraga": "Hur stor är dragkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 18 kg dras med konstant fart uppför en ramp som lutar 20°. Dragkraften verkar längs rampen. En motståndskraft på 40 N bromsar nedför. Använd g = 9,82 m/s².<svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,134.9\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 84.5 240.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">20°</text><polygon points=\"191.2,201.8 242.0,183.3 229.7,149.5 178.9,167.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"235.8\" y1=\"166.4\" x2=\"305.4\" y2=\"141.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M315.7 137.3 L307.4 146.7 L303.3 135.4 Z\" fill=\"#2b6cb0\"/><text x=\"310\" y=\"128\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.2\" y1=\"196.1\" x2=\"143.1\" y2=\"212.9\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M132.8 216.7 L141.1 207.3 L145.2 218.5 Z\" fill=\"#c0392b\"/><text x=\"113\" y=\"208\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">40 N</text><line x1=\"148.4\" y1=\"231.2\" x2=\"369.5\" y2=\"150.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"293\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">26 m</text></svg></p><p>Hur stor är dragkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar dragkraften både tyngdkraftens del längs rampen och motståndet.</p>\\[F=mg\\sin20^\\circ+40\\]\\[F=18\\cdot9{,}82\\sin20^\\circ+40\\approx100\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka krafter motverkar rörelsen längs planet?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "modellering",
           "procedur"
@@ -120398,9 +120398,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm dragkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför ett rakt plan med lutningen 20°. Dragkraften är parallell med planet och en konstant motståndskraft på 40 N verkar nedför planet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm dragkraftens arbete. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=F_{\\mathrm{drag}}\\cdot 26=\\left(18\\cdot 9{,}82 \\sin 20^{\\circ}+40\\right)\\cdot 26\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,61 kJ.</p></div>",
+        "fraga": "Hur stort arbete gör dragkraften? Svara i kJ. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför en rak ramp som lutar 20°. Dragkraften verkar längs rampen. En motståndskraft på 40 N bromsar nedför. Använd g = 9,82 m/s².<svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,134.9\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 84.5 240.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">20°</text><polygon points=\"191.2,201.8 242.0,183.3 229.7,149.5 178.9,167.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"235.8\" y1=\"166.4\" x2=\"305.4\" y2=\"141.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M315.7 137.3 L307.4 146.7 L303.3 135.4 Z\" fill=\"#2b6cb0\"/><text x=\"310\" y=\"128\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"189.2\" y1=\"196.1\" x2=\"143.1\" y2=\"212.9\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M132.8 216.7 L141.1 207.3 L145.2 218.5 Z\" fill=\"#c0392b\"/><text x=\"113\" y=\"208\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">40 N</text><line x1=\"148.4\" y1=\"231.2\" x2=\"369.5\" y2=\"150.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"293\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">26 m</text></svg></p><p>Hur stort arbete gör dragkraften? Svara i kJ. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart ger dragkraften F = 18 · 9,82 sin20° + 40 = 100,455480… N. Kraften verkar längs rampen. Använd den utan avrundning.</p>\\[W=(18\\cdot9{,}82\\sin20^\\circ+40)\\cdot26\\]\\[W\\approx2611{,}84\\,\\mathrm J\\approx2{,}61\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Använd kraften utan att avrunda mellanledet.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -120423,8 +120423,8 @@ window.BANK = [
     "niva": "C",
     "typ": "arbetets tecken på lutande plan",
     "poang": "(1/2/0)",
-    "t": "<p>En låda på 15 kg glider nedför ett rakt plan med lutningen 28°. Glidfriktionstalet är 0,25. Endast tyngdkraft, normalkraft och glidfriktion verkar.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.4,255 374.6,255 374.6,80.0\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.4 255 A42 42 0 0 0 82.5 235.3\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">28°</text><polygon points=\"192.7,176.7 240.4,151.3 223.5,119.5 175.8,144.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"184.3\" y1=\"160.8\" x2=\"119.0\" y2=\"195.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M109.2 200.7 L116.1 190.2 L121.8 200.8 Z\" fill=\"#2b6cb0\"/><text x=\"102\" y=\"193\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">v</text><line x1=\"237.6\" y1=\"146.0\" x2=\"280.9\" y2=\"123.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M290.6 117.9 L283.7 128.3 L278.1 117.7 Z\" fill=\"#c0392b\"/><text x=\"311\" y=\"110\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"150.3\" y1=\"214.0\" x2=\"370.8\" y2=\"96.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"296\" y=\"161\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1,20 m</text></svg></div><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm friktionens arbete när lådan glider 1,20 m.</li><li>Bestäm tyngdkraftens arbete under samma sträcka.</li><li>Avgör om farten ökar, är konstant eller minskar. Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=m g \\cos 28^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=-\\mu N s=-0{,}25\\cdot 15\\cdot 9{,}82 \\cos 28^{\\circ}\\cdot 1{,}20\\approx -39{,}02\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Det negativa tecknet är nödvändigt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{g}}=m g s \\sin 28^{\\circ}=15\\cdot 9{,}82\\cdot 1{,}20 \\sin 28^{\\circ}\\approx 82{,}98\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Normalkraften gör inget arbete.</p></div><div class=\"facit-stycke\"><p>Nettoarbetet är \\(W_{\\mathrm{g}}\\) + \\(W_{\\mathrm{fr}}\\) ≈ 43,97 J, alltså positivt.</p></div><div class=\"facit-stycke\"><p>Därför ökar rörelseenergin och farten.</p></div></div></div></div></div>",
+    "t": "<p>En låda på 15 kg glider 1,20 m nedför en rak ramp som lutar 28°. Glidfriktionstalet är 0,25. Bara tyngdkraft, normalkraft och friktion verkar. Använd g = 9,82 m/s².</p><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.4,255 374.6,255 374.6,80.0\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.4 255 A42 42 0 0 0 82.5 235.3\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"108\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">28°</text><polygon points=\"192.7,176.7 240.4,151.3 223.5,119.5 175.8,144.9\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"184.3\" y1=\"160.8\" x2=\"119.0\" y2=\"195.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M109.2 200.7 L116.1 190.2 L121.8 200.8 Z\" fill=\"#2b6cb0\"/><text x=\"102\" y=\"193\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">v</text><line x1=\"237.6\" y1=\"146.0\" x2=\"280.9\" y2=\"123.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M290.6 117.9 L283.7 128.3 L278.1 117.7 Z\" fill=\"#c0392b\"/><text x=\"311\" y=\"110\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">friktion</text><line x1=\"150.3\" y1=\"214.0\" x2=\"370.8\" y2=\"96.7\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"296\" y=\"161\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1,20 m</text></svg><ol type=\"a\"><li>Bestäm friktionens arbete, med tecken.</li><li>Bestäm tyngdkraftens arbete under samma förflyttning.</li><li>Ökar farten, är den konstant eller minskar den? Förklara med arbete och energi.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Normalkraften är mg cos28°. Friktionen är μ gånger normalkraften och verkar mot rörelsen.</p>\\[W_f=-\\mu mgs\\cos28^\\circ\\]\\[\\begin{gathered}W_f=-0{,}25\\cdot15\\cdot9{,}82\\cdot1{,}20\\cos28^\\circ\\\\\\approx-39{,}0\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong> Lådans höjd minskar med 1,20 sin28° m. Tyngdkraftens arbete är positivt.</p>\\[W_g=15\\cdot9{,}82\\cdot1{,}20\\sin28^\\circ\\approx83{,}0\\,\\mathrm J\\]<p><strong>c)</strong> Normalkraften är vinkelrät mot rörelsen och gör inget arbete. Summan av de andra arbetena är ungefär 83,0 − 39,0 = 44,0 J. Det positiva nettoarbetet ökar rörelseenergin, så farten ökar.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -121057,8 +121057,8 @@ window.BANK = [
     "niva": "A",
     "typ": "rampens längd, kraft och arbete",
     "poang": "(0/2/3)",
-    "t": "<p>En låda med massa m > 0 dras med konstant fart uppför en rak ramp till höjden h > 0. Dragkraften är parallell med rampen. Rampens vinkel är 0° &lt; θ &lt; 90° och glidfriktionstalet μ är positivt och konstant. Bortse från övriga förluster.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram dragkraften och dragarbetet som funktioner av θ.</li><li>Jämför ramper med vinklarna 30° och 60° om μ = 0,20. Vilken kräver minst kraft respektive minst arbete?</li><li>Bedöm påståendet: ”En längre ramp sparar alltid både kraft och arbete.”</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg cosθ och kraftjämvikt längs planet ger</p><div class=\"facit-matte\">\\[F=m g \\left(\\sin \\theta+\\mu \\cos \\theta\\right)\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Rampens längd är</p><div class=\"facit-matte\">\\[s=\\frac{h}{\\sin \\theta}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[W=F s=m g h \\left(1+\\frac{\\mu \\cos \\theta}{\\sin \\theta}\\right)\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">För 30° är F/(mg) = 0,5+0,20 · 0,866… ≈ 0,6732 och</p><div class=\"facit-matte\">\\[\\frac{W}{m g h}\\approx 1{,}3464\\]</div></div></div><div class=\"facit-stycke\"><p>För 60° är motsvarande tal 0,866…+0,20 · 0,5 ≈ 0,9660 och 1,1155.</p></div><div class=\"facit-stycke\"><p>Den flackare rampen kräver mindre kraft men större arbete.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Påståendet är fel.</p></div><div class=\"facit-stycke\"><p>Vid given höjd och positiv μ ökar friktionsarbetet när rampen görs flackare: kvoten cosθ/sinθ ökar.</p></div><div class=\"facit-stycke\"><p>Även utan friktion är arbetet mgh oförändrat, inte mindre.</p></div><div class=\"facit-stycke\"><p>Kraftbehov och energibehov måste bedömas var för sig.</p></div></div></div></div></div>",
+    "t": "<p>En låda med massa m dras med konstant fart uppför en rak ramp till höjden h. Dragkraften verkar längs rampen. Rampens vinkel θ ligger mellan 0° och 90° och glidfriktionstalet μ är positivt. Bortse från annat motstånd.</p><ol type=\"a\"><li>Ta fram formler för dragkraften och dess arbete, uttryckta med θ, μ, m, g och h.</li><li>Jämför ramper som lutar 30° och 60° när μ = 0,20. Vilken kräver minst kraft? Vilken kräver minst arbete?</li><li>Stämmer påståendet ”En längre ramp sparar alltid både kraft och arbete”? Förklara.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Normalkraften är mg cosθ. Vid konstant fart balanserar dragkraften både tyngdkraftens del längs rampen och friktionen.</p>\\[F=mg\\sin\\theta+\\mu mg\\cos\\theta\\]<p>Rampens längd är s = h/sinθ. Multiplicera F med s och förenkla.</p>\\[W=mgh\\left(1+\\mu\\frac{\\cos\\theta}{\\sin\\theta}\\right)\\]<p><strong>b)</strong> Jämför kraften med mg och arbetet med mgh.</p>\\[\\frac{F_{30}}{mg}=\\sin30^\\circ+0{,}20\\cos30^\\circ\\approx0{,}673\\]\\[\\frac{F_{60}}{mg}=\\sin60^\\circ+0{,}20\\cos60^\\circ\\approx0{,}966\\]\\[\\frac{W_{30}}{mgh}=1+0{,}20\\frac{\\cos30^\\circ}{\\sin30^\\circ}\\approx1{,}346\\]\\[\\frac{W_{60}}{mgh}=1+0{,}20\\frac{\\cos60^\\circ}{\\sin60^\\circ}\\approx1{,}115\\]<p>30° kräver mindre kraft men större arbete.</p><p><strong>c)</strong> Nej. Vid samma höjd ökar friktionsarbetet när rampen görs flackare: cosθ/sinθ ökar. Utan friktion är arbetet mgh lika stort för alla ramper. Mindre kraft betyder därför inte automatiskt mindre arbete.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -121073,7 +121073,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Uttryck normalkraften och rampens längd med lutningsvinkeln.</p>",
     "traningsniva": 5,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -130826,8 +130826,8 @@ window.BANK = [
     "niva": "C",
     "typ": "rampens praktiska fördel",
     "poang": "(2/2/0)",
-    "t": "<p>En låda på 150 kg ska upp på ett lastflak 1,00 m över marken. Den kan lyftas lodrätt eller dras med konstant fart längs en 5,00 m lång rak ramp. Kraften på rampen är parallell med rampen. Bortse först från friktionen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,187.6\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.2 246.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><polygon points=\"190.1,225.4 243.1,214.6 235.9,179.3 182.9,190.1\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"239.5\" y1=\"196.9\" x2=\"312.0\" y2=\"182.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M322.7 179.9 L313.2 188.0 L310.8 176.3 Z\" fill=\"#2b6cb0\"/><text x=\"320\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"146.6\" y1=\"247.5\" x2=\"367.7\" y2=\"202.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"241\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,00 m</text><line x1=\"393.0\" y1=\"255.0\" x2=\"393.0\" y2=\"187.6\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"422\" y=\"227\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1,00 m</text></svg></div><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kraften och arbetet för ett lodrätt lyft med konstant fart.</li><li>Bestäm rampens vinkel samt kraften och arbetet på rampen utan friktion.</li><li>Förklara varför rampen kan vara praktisk trots att friktion ökar arbetet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=m g=150\\cdot 9{,}82=1473\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g h=1473\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">sinθ = 1,00/5,00 = 0,20, så</p><div class=\"facit-matte\">\\[\\theta\\approx 11{,}54^{\\circ}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=m g \\sin \\theta=294{,}6\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=F\\cdot 5{,}00=1473\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Kraften minskar men arbetet är detsamma.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid måttlig friktion kan den nödvändiga kraften fortfarande vara betydligt mindre än vid lodrätt lyft.</p></div><div class=\"facit-stycke\"><p>Man fördelar arbetet över längre väg.</p></div><div class=\"facit-stycke\"><p>Fördelen är mindre kraftbehov, inte en garanterad energibesparing.</p></div></div></div></div></div>",
+    "t": "<p>En låda på 150 kg ska höjas till ett lastflak 1,00 m över marken. Den kan lyftas rakt upp eller dras med konstant fart längs en rak, 5,00 m lång ramp. Kraften på rampen verkar längs den. Bortse först från friktionen och använd g = 9,82 m/s².</p><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett lutande plan med en låda\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"255\" x2=\"455\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"264\" x2=\"38\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"42\" y1=\"264\" x2=\"50\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"54\" y1=\"264\" x2=\"62\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"66\" y1=\"264\" x2=\"74\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"78\" y1=\"264\" x2=\"86\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"90\" y1=\"264\" x2=\"98\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"102\" y1=\"264\" x2=\"110\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"114\" y1=\"264\" x2=\"122\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"126\" y1=\"264\" x2=\"134\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"138\" y1=\"264\" x2=\"146\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"150\" y1=\"264\" x2=\"158\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"162\" y1=\"264\" x2=\"170\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"174\" y1=\"264\" x2=\"182\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"186\" y1=\"264\" x2=\"194\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"198\" y1=\"264\" x2=\"206\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"210\" y1=\"264\" x2=\"218\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"222\" y1=\"264\" x2=\"230\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"234\" y1=\"264\" x2=\"242\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"246\" y1=\"264\" x2=\"254\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"258\" y1=\"264\" x2=\"266\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"270\" y1=\"264\" x2=\"278\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"282\" y1=\"264\" x2=\"290\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"294\" y1=\"264\" x2=\"302\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"306\" y1=\"264\" x2=\"314\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"318\" y1=\"264\" x2=\"326\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"330\" y1=\"264\" x2=\"338\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"342\" y1=\"264\" x2=\"350\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"354\" y1=\"264\" x2=\"362\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"366\" y1=\"264\" x2=\"374\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"378\" y1=\"264\" x2=\"386\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"390\" y1=\"264\" x2=\"398\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"402\" y1=\"264\" x2=\"410\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"414\" y1=\"264\" x2=\"422\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"426\" y1=\"264\" x2=\"434\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"438\" y1=\"264\" x2=\"446\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"450\" y1=\"264\" x2=\"458\" y2=\"255\" stroke=\"#24262b\" stroke-width=\"0.9\"/><polygon points=\"45.0,255 375.0,255 375.0,187.6\" fill=\"#d9dde3\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M87.0 255 A42 42 0 0 0 86.2 246.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><polygon points=\"190.1,225.4 243.1,214.6 235.9,179.3 182.9,190.1\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"239.5\" y1=\"196.9\" x2=\"312.0\" y2=\"182.1\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M322.7 179.9 L313.2 188.0 L310.8 176.3 Z\" fill=\"#2b6cb0\"/><text x=\"320\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">F</text><line x1=\"146.6\" y1=\"247.5\" x2=\"367.7\" y2=\"202.4\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"288\" y=\"241\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,00 m</text><line x1=\"393.0\" y1=\"255.0\" x2=\"393.0\" y2=\"187.6\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"422\" y=\"227\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1,00 m</text></svg><ol type=\"a\"><li>Bestäm lyftkraften och dess arbete vid ett rakt lyft med konstant fart.</li><li>Bestäm rampens vinkel, dragkraften och dess arbete utan friktion.</li><li>Varför kan rampen vara praktisk även om friktion ökar arbetet?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vid konstant fart balanserar lyftkraften tyngdkraften.</p>\\[F=mg=150\\cdot9{,}82=1473\\,\\mathrm N\\]\\[W=Fh=1473\\cdot1{,}00=1473\\,\\mathrm J\\]<p><strong>b)</strong> Rampens höjd och längd ger sinθ = 1,00/5,00 = 0,20.</p>\\[\\theta=\\arcsin0{,}20\\approx11{,}5^\\circ\\]\\[\\begin{gathered}F=mg\\sin\\theta\\\\=150\\cdot9{,}82\\cdot0{,}20=294{,}6\\,\\mathrm N\\end{gathered}\\]\\[W=Fs=294{,}6\\cdot5{,}00=1473\\,\\mathrm J\\]<p>Kraften är mindre än vid det raka lyftet, men vägen längre och arbetet lika stort.</p><p><strong>c)</strong> Vid måttlig friktion kan kraften fortfarande vara mycket mindre än vid ett rakt lyft. Rampen fördelar arbetet över en längre väg och kan därför göra flytten lättare.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -130976,8 +130976,8 @@ window.BANK = [
     "niva": "C",
     "typ": "sned dragkraft och normalkraft",
     "poang": "(1/2/0)",
-    "t": "<p>En kloss på 5,0 kg glider 4,5 m åt höger på ett vågrätt golv. Repet drar med 40 N, riktat 30° uppåt åt höger. Glidfriktionstalet är 0,25. Bortse från övrigt motstånd.</p><div class=\"fig smal\"><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål dras med en kraft snett uppåt\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"25\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"25\" y1=\"199\" x2=\"33\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"37\" y1=\"199\" x2=\"45\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"49\" y1=\"199\" x2=\"57\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"61\" y1=\"199\" x2=\"69\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"73\" y1=\"199\" x2=\"81\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"85\" y1=\"199\" x2=\"93\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"97\" y1=\"199\" x2=\"105\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"109\" y1=\"199\" x2=\"117\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"121\" y1=\"199\" x2=\"129\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"133\" y1=\"199\" x2=\"141\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"145\" y1=\"199\" x2=\"153\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"157\" y1=\"199\" x2=\"165\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"169\" y1=\"199\" x2=\"177\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"181\" y1=\"199\" x2=\"189\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"193\" y1=\"199\" x2=\"201\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"205\" y1=\"199\" x2=\"213\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"217\" y1=\"199\" x2=\"225\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"229\" y1=\"199\" x2=\"237\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"241\" y1=\"199\" x2=\"249\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"253\" y1=\"199\" x2=\"261\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"265\" y1=\"199\" x2=\"273\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"277\" y1=\"199\" x2=\"285\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"289\" y1=\"199\" x2=\"297\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"301\" y1=\"199\" x2=\"309\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"313\" y1=\"199\" x2=\"321\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"325\" y1=\"199\" x2=\"333\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"337\" y1=\"199\" x2=\"345\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"349\" y1=\"199\" x2=\"357\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"361\" y1=\"199\" x2=\"369\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"373\" y1=\"199\" x2=\"381\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"385\" y1=\"199\" x2=\"393\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"397\" y1=\"199\" x2=\"405\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"409\" y1=\"199\" x2=\"417\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"421\" y1=\"199\" x2=\"429\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"433\" y1=\"199\" x2=\"441\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"140\" y=\"130\" width=\"100\" height=\"60\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.0\" y1=\"160.0\" x2=\"360.4\" y2=\"90.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M369.9 85.0 L363.4 95.7 L357.4 85.3 Z\" fill=\"#2b6cb0\"/><text x=\"376\" y=\"75\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">40 N</text><line x1=\"240\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><path d=\"M298 160 A58 58 0 0 0 290.2 131.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"317\" y=\"149\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">30°</text><line x1=\"140.0\" y1=\"218.0\" x2=\"400.0\" y2=\"218.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"270\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,5 m</text></svg></div><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm repkraftens arbete.</li><li>Bestäm friktionens arbete.</li><li>Avgör om klossens fart ökar, är konstant eller minskar. Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{T}}=40 \\cos 30^{\\circ}\\cdot 4{,}5\\approx 155{,}885\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ingen lodrät acceleration ger</p><div class=\"facit-matte\">\\[N=m g-T \\sin 30^{\\circ}=49{,}1-20=29{,}1\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">F_fr = 0,25 · 29,1 = 7,275 N och</p><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=-7{,}275\\cdot 4{,}5=-32{,}7375\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nettoarbetet är cirka 155,885−32,7375 = 123,147 J &gt; 0.</p></div><div class=\"facit-stycke\"><p>Rörelseenergin och farten ökar.</p></div><div class=\"facit-stycke\"><p>Kontroll: N &gt; 0, så kontakt med golvet är möjlig.</p></div></div></div></div></div>",
+    "t": "<p>En kloss på 5,0 kg glider 4,5 m åt höger längs ett vågrätt golv. Ett rep drar med 40 N i vinkeln 30° uppåt åt höger. Glidfriktionstalet är 0,25. Bortse från annat motstånd och använd g = 9,82 m/s².</p><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål dras med en kraft snett uppåt\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"25\" y1=\"190\" x2=\"440\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"25\" y1=\"199\" x2=\"33\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"37\" y1=\"199\" x2=\"45\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"49\" y1=\"199\" x2=\"57\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"61\" y1=\"199\" x2=\"69\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"73\" y1=\"199\" x2=\"81\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"85\" y1=\"199\" x2=\"93\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"97\" y1=\"199\" x2=\"105\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"109\" y1=\"199\" x2=\"117\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"121\" y1=\"199\" x2=\"129\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"133\" y1=\"199\" x2=\"141\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"145\" y1=\"199\" x2=\"153\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"157\" y1=\"199\" x2=\"165\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"169\" y1=\"199\" x2=\"177\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"181\" y1=\"199\" x2=\"189\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"193\" y1=\"199\" x2=\"201\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"205\" y1=\"199\" x2=\"213\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"217\" y1=\"199\" x2=\"225\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"229\" y1=\"199\" x2=\"237\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"241\" y1=\"199\" x2=\"249\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"253\" y1=\"199\" x2=\"261\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"265\" y1=\"199\" x2=\"273\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"277\" y1=\"199\" x2=\"285\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"289\" y1=\"199\" x2=\"297\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"301\" y1=\"199\" x2=\"309\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"313\" y1=\"199\" x2=\"321\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"325\" y1=\"199\" x2=\"333\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"337\" y1=\"199\" x2=\"345\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"349\" y1=\"199\" x2=\"357\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"361\" y1=\"199\" x2=\"369\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"373\" y1=\"199\" x2=\"381\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"385\" y1=\"199\" x2=\"393\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"397\" y1=\"199\" x2=\"405\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"409\" y1=\"199\" x2=\"417\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"421\" y1=\"199\" x2=\"429\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"433\" y1=\"199\" x2=\"441\" y2=\"190\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"140\" y=\"130\" width=\"100\" height=\"60\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240.0\" y1=\"160.0\" x2=\"360.4\" y2=\"90.5\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M369.9 85.0 L363.4 95.7 L357.4 85.3 Z\" fill=\"#2b6cb0\"/><text x=\"376\" y=\"75\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">40 N</text><line x1=\"240\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><path d=\"M298 160 A58 58 0 0 0 290.2 131.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"317\" y=\"149\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">30°</text><line x1=\"140.0\" y1=\"218.0\" x2=\"400.0\" y2=\"218.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"270\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,5 m</text></svg><ol type=\"a\"><li>Bestäm repkraftens arbete.</li><li>Bestäm friktionens arbete, med tecken.</li><li>Ökar farten, är den konstant eller minskar den? Förklara med arbete och energi.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Bara repkraftens vågräta del gör arbete.</p>\\[W_\\text{rep}=40\\cdot4{,}5\\cos30^\\circ\\approx156\\,\\mathrm J\\]<p><strong>b)</strong> Repets lodräta kraft minskar normalkraften. Ingen lodrät acceleration sker.</p>\\[\\begin{gathered}N=mg-F\\sin30^\\circ\\\\=5{,}0\\cdot9{,}82-40\\sin30^\\circ=29{,}1\\,\\mathrm N\\end{gathered}\\]<p>Friktionen verkar mot rörelsen och gör negativt arbete.</p>\\[W_f=-\\mu Ns=-0{,}25\\cdot29{,}1\\cdot4{,}5\\approx-32{,}7\\,\\mathrm J\\]<p><strong>c)</strong> Tyngdkraften och normalkraften gör inget arbete under den vågräta rörelsen. Nettoarbetet är ungefär 156 − 32,7 = 123 J. Rörelseenergin och farten ökar.</p></div>",
     "familj": "Arbete W = F·s",
     "formaga": [
       "modellering",
@@ -130990,8 +130990,8 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilken påverkan har repets lodräta komponent på kontakten med golvet?</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Repets lodräta kraft minskar normalkraften. Hur påverkar det friktionen?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -131006,8 +131006,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete ur diagram med centimeter",
     "poang": "(2/0/0)",
-    "t": "<p>Diagrammet visar kraftkomponenten i rörelseriktningen under en förflyttning på 15 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" role=\"img\" aria-label=\"Diagram\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g stroke=\"#E4E3E6\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"22\" x2=\"55.0\" y2=\"258\"/><line x1=\"186.0\" y1=\"22\" x2=\"186.0\" y2=\"258\"/><line x1=\"317.0\" y1=\"22\" x2=\"317.0\" y2=\"258\"/><line x1=\"448.0\" y1=\"22\" x2=\"448.0\" y2=\"258\"/><line x1=\"55\" y1=\"258.0\" x2=\"448\" y2=\"258.0\"/><line x1=\"55\" y1=\"199.0\" x2=\"448\" y2=\"199.0\"/><line x1=\"55\" y1=\"140.0\" x2=\"448\" y2=\"140.0\"/><line x1=\"55\" y1=\"81.0\" x2=\"448\" y2=\"81.0\"/><line x1=\"55\" y1=\"22.0\" x2=\"448\" y2=\"22.0\"/></g><line x1=\"55\" y1=\"258\" x2=\"448\" y2=\"258\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"55\" y1=\"258\" x2=\"55\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"/><g font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\"><text x=\"55.0\" y=\"284\" text-anchor=\"middle\">0</text><text x=\"186.0\" y=\"284\" text-anchor=\"middle\">5</text><text x=\"317.0\" y=\"284\" text-anchor=\"middle\">10</text><text x=\"448.0\" y=\"284\" text-anchor=\"middle\">15</text><text x=\"47\" y=\"262.0\" text-anchor=\"end\">0</text><text x=\"47\" y=\"203.0\" text-anchor=\"end\">10</text><text x=\"47\" y=\"144.0\" text-anchor=\"end\">20</text><text x=\"47\" y=\"85.0\" text-anchor=\"end\">30</text><text x=\"47\" y=\"26.0\" text-anchor=\"end\">40</text></g><text x=\"430\" y=\"293\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">s (cm)</text><text x=\"12\" y=\"12\" font-family=\"sans-serif\" font-size=\"12\">F (N)</text><polyline points=\"55.0,258.0 317.0,51.5 448.0,51.5\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><p>Bestäm arbetet under hela förflyttningen. Svara i J.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Arbetet är arean under grafen: en triangel och en rektangel.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Omvandla sträckorna till meter: 10 cm = 0,10 m och</p><div class=\"facit-matte\">\\[5 c m=0{,}05\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>\\(W=\\dfrac{35\\cdot0{,}10}{2}+35\\cdot0{,}05=1{,}75+1{,}75=3{,}5\\) J</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,5 J</p></div>",
+    "t": "<p>Grafen visar kraften i rörelseriktningen under en förflyttning på 15 cm. Bestäm kraftens arbete under hela förflyttningen. Svara i J.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" role=\"img\" aria-label=\"Diagram\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g stroke=\"#E4E3E6\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"22\" x2=\"55.0\" y2=\"258\"/><line x1=\"186.0\" y1=\"22\" x2=\"186.0\" y2=\"258\"/><line x1=\"317.0\" y1=\"22\" x2=\"317.0\" y2=\"258\"/><line x1=\"448.0\" y1=\"22\" x2=\"448.0\" y2=\"258\"/><line x1=\"55\" y1=\"258.0\" x2=\"448\" y2=\"258.0\"/><line x1=\"55\" y1=\"199.0\" x2=\"448\" y2=\"199.0\"/><line x1=\"55\" y1=\"140.0\" x2=\"448\" y2=\"140.0\"/><line x1=\"55\" y1=\"81.0\" x2=\"448\" y2=\"81.0\"/><line x1=\"55\" y1=\"22.0\" x2=\"448\" y2=\"22.0\"/></g><line x1=\"55\" y1=\"258\" x2=\"448\" y2=\"258\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"55\" y1=\"258\" x2=\"55\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"/><g font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\"><text x=\"55.0\" y=\"284\" text-anchor=\"middle\">0</text><text x=\"186.0\" y=\"284\" text-anchor=\"middle\">5</text><text x=\"317.0\" y=\"284\" text-anchor=\"middle\">10</text><text x=\"448.0\" y=\"284\" text-anchor=\"middle\">15</text><text x=\"47\" y=\"262.0\" text-anchor=\"end\">0</text><text x=\"47\" y=\"203.0\" text-anchor=\"end\">10</text><text x=\"47\" y=\"144.0\" text-anchor=\"end\">20</text><text x=\"47\" y=\"85.0\" text-anchor=\"end\">30</text><text x=\"47\" y=\"26.0\" text-anchor=\"end\">40</text></g><text x=\"430\" y=\"293\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">s (cm)</text><text x=\"12\" y=\"12\" font-family=\"sans-serif\" font-size=\"12\">F (N)</text><polyline points=\"55.0,258.0 317.0,51.5 448.0,51.5\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet är arean under grafen. De första 10 cm ger en triangel och de sista 5 cm en rektangel. Omvandla till 0,10 m och 0,05 m.</p>\\[W_1=\\frac{35\\cdot0{,}10}{2}=1{,}75\\,\\mathrm J\\]\\[W_2=35\\cdot0{,}05=1{,}75\\,\\mathrm J\\]\\[W=W_1+W_2=3{,}50\\,\\mathrm J\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "begrepp",
@@ -131016,12 +131016,12 @@ window.BANK = [
     "familjNyckel": "arbete__arbete_ur_diagram_med_centimeter",
     "svarstyp": "numeriskt",
     "rättSvar": 3.5,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken enhet får arean om du läser av längden i centimeter?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
@@ -131037,8 +131037,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete från avtagande kraft",
     "poang": "(2/0/0)",
-    "t": "<p>Diagrammet visar den framåtriktade kraften på en bil som skjuts längs en vågrät väg.</p><span class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Kraften minskar linjärt från 400 N vid 2 m till 100 N vid 24 m\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"97.50\" y1=\"45\" x2=\"97.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"130.00\" y1=\"45\" x2=\"130.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"162.50\" y1=\"45\" x2=\"162.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"195.00\" y1=\"45\" x2=\"195.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"227.50\" y1=\"45\" x2=\"227.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"260.00\" y1=\"45\" x2=\"260.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"292.50\" y1=\"45\" x2=\"292.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"325.00\" y1=\"45\" x2=\"325.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"357.50\" y1=\"45\" x2=\"357.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"390.00\" y1=\"45\" x2=\"390.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"422.50\" y1=\"45\" x2=\"422.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"455.00\" y1=\"45\" x2=\"455.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"487.50\" y1=\"45\" x2=\"487.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"228.75\" x2=\"520\" y2=\"228.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"202.50\" x2=\"520\" y2=\"202.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"176.25\" x2=\"520\" y2=\"176.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"123.75\" x2=\"520\" y2=\"123.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"97.50\" x2=\"520\" y2=\"97.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"71.25\" x2=\"520\" y2=\"71.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">F (N)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">x (m)</text><polyline points=\"97.5,45.0 455.0,202.5\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"130.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"195.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text><text x=\"260.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">12</text><text x=\"325.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">16</text><text x=\"390.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"455.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">24</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">28</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"232.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">50</text><text x=\"57\" y=\"206.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">100</text><text x=\"57\" y=\"180.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">150</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">200</text><text x=\"57\" y=\"127.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">250</text><text x=\"57\" y=\"101.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">300</text><text x=\"57\" y=\"75.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">350</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">400</text></svg></span><p>Bestäm kraftens arbete från x = 2 m till x = 24 m. Svara i J.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Arbetet är trapetsarean under grafen.</p></div><div class=\"facit-stycke\"><p>Medelkraften över sträckan är \\(\\dfrac{400+100}{2}=250\\) N och förflyttningen är \\(24-2=22\\) m.</p></div><div class=\"facit-stycke\"><p>\\(W=250\\cdot22=5\\,500\\) J</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5 500 J</p></div>",
+    "t": "<p>Grafen visar kraften i rörelseriktningen på en bil. Bestäm kraftens arbete från x = 2 m till x = 24 m. Svara i J.</p><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Kraften minskar linjärt från 400 N vid 2 m till 100 N vid 24 m\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"97.50\" y1=\"45\" x2=\"97.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"130.00\" y1=\"45\" x2=\"130.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"162.50\" y1=\"45\" x2=\"162.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"195.00\" y1=\"45\" x2=\"195.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"227.50\" y1=\"45\" x2=\"227.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"260.00\" y1=\"45\" x2=\"260.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"292.50\" y1=\"45\" x2=\"292.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"325.00\" y1=\"45\" x2=\"325.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"357.50\" y1=\"45\" x2=\"357.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"390.00\" y1=\"45\" x2=\"390.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"422.50\" y1=\"45\" x2=\"422.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"455.00\" y1=\"45\" x2=\"455.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"487.50\" y1=\"45\" x2=\"487.50\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"228.75\" x2=\"520\" y2=\"228.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"202.50\" x2=\"520\" y2=\"202.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"176.25\" x2=\"520\" y2=\"176.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"123.75\" x2=\"520\" y2=\"123.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"97.50\" x2=\"520\" y2=\"97.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"71.25\" x2=\"520\" y2=\"71.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">F (N)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">x (m)</text><polyline points=\"97.5,45.0 455.0,202.5\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"130.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"195.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text><text x=\"260.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">12</text><text x=\"325.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">16</text><text x=\"390.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"455.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">24</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">28</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"232.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">50</text><text x=\"57\" y=\"206.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">100</text><text x=\"57\" y=\"180.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">150</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">200</text><text x=\"57\" y=\"127.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">250</text><text x=\"57\" y=\"101.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">300</text><text x=\"57\" y=\"75.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">350</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">400</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet är trapetsens area i det angivna intervallet. Kraften minskar linjärt från 400 till 100 N, så medelkraften är medelvärdet av dessa krafter.</p>\\[F_\\text{medel}=\\frac{400+100}{2}=250\\,\\mathrm N\\]\\[s=24-2=22\\,\\mathrm m\\]\\[W=F_\\text{medel}s=250\\cdot22=5500\\,\\mathrm J\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "begrepp",
@@ -131046,13 +131046,13 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__arbete_fran_avtagande_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 5500,
-    "tolerans": 0,
+    "rättSvar": 5500.0,
+    "tolerans": 5.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hur kan medelkraften bestämmas när grafen är rät?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
@@ -131068,8 +131068,8 @@ window.BANK = [
     "niva": "C",
     "typ": "uppskatta arbete ur kraftdiagram",
     "poang": "(0/2/0)",
-    "t": "<p>Diagrammet visar kraftkomponenten i rörelseriktningen. Grafen består av raka segment mellan de markerade heltalslägena.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" role=\"img\" aria-label=\"Diagram\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g stroke=\"#E4E3E6\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"22\" x2=\"55.0\" y2=\"258\"/><line x1=\"133.6\" y1=\"22\" x2=\"133.6\" y2=\"258\"/><line x1=\"212.2\" y1=\"22\" x2=\"212.2\" y2=\"258\"/><line x1=\"290.8\" y1=\"22\" x2=\"290.8\" y2=\"258\"/><line x1=\"369.4\" y1=\"22\" x2=\"369.4\" y2=\"258\"/><line x1=\"448.0\" y1=\"22\" x2=\"448.0\" y2=\"258\"/><line x1=\"55\" y1=\"258.0\" x2=\"448\" y2=\"258.0\"/><line x1=\"55\" y1=\"210.8\" x2=\"448\" y2=\"210.8\"/><line x1=\"55\" y1=\"163.6\" x2=\"448\" y2=\"163.6\"/><line x1=\"55\" y1=\"116.4\" x2=\"448\" y2=\"116.4\"/><line x1=\"55\" y1=\"69.2\" x2=\"448\" y2=\"69.2\"/><line x1=\"55\" y1=\"22.0\" x2=\"448\" y2=\"22.0\"/></g><line x1=\"55\" y1=\"258\" x2=\"448\" y2=\"258\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"55\" y1=\"258\" x2=\"55\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"/><g font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\"><text x=\"55.0\" y=\"284\" text-anchor=\"middle\">0</text><text x=\"133.6\" y=\"284\" text-anchor=\"middle\">1</text><text x=\"212.2\" y=\"284\" text-anchor=\"middle\">2</text><text x=\"290.8\" y=\"284\" text-anchor=\"middle\">3</text><text x=\"369.4\" y=\"284\" text-anchor=\"middle\">4</text><text x=\"448.0\" y=\"284\" text-anchor=\"middle\">5</text><text x=\"47\" y=\"262.0\" text-anchor=\"end\">0</text><text x=\"47\" y=\"214.8\" text-anchor=\"end\">10</text><text x=\"47\" y=\"167.6\" text-anchor=\"end\">20</text><text x=\"47\" y=\"120.4\" text-anchor=\"end\">30</text><text x=\"47\" y=\"73.2\" text-anchor=\"end\">40</text><text x=\"47\" y=\"26.0\" text-anchor=\"end\">50</text></g><text x=\"434\" y=\"293\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">s (m)</text><text x=\"12\" y=\"12\" font-family=\"sans-serif\" font-size=\"12\">F (N)</text><polyline points=\"55.0,116.4 133.6,78.6 212.2,69.2 290.8,116.4 369.4,182.5 448.0,210.8\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Uppskatta arbetet under förflyttningen 0–5 m. Visa hur du bestämmer arean.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Grafens brytpunkter kan avläsas ungefär som F = 30, 38, 40, 30, 16 och 10 N vid s = 0, 1, 2, 3, 4 och 5 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Trapetser med bredd 1 m ger</p><div class=\"facit-matte\">\\[W\\approx 34+39+35+23+13=144\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>En rimlig grafisk uppskattning är omkring 140–150 J.</p></div><div class=\"facit-stycke\"><p>Bedöm även avläsning och metod, inte bara sluttalet.</p></div></div></div></div></div>",
+    "t": "<p>Grafen visar kraften i rörelseriktningen. Linjerna mellan heltalslägena är raka.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" role=\"img\" aria-label=\"Diagram\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g stroke=\"#E4E3E6\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"22\" x2=\"55.0\" y2=\"258\"/><line x1=\"133.6\" y1=\"22\" x2=\"133.6\" y2=\"258\"/><line x1=\"212.2\" y1=\"22\" x2=\"212.2\" y2=\"258\"/><line x1=\"290.8\" y1=\"22\" x2=\"290.8\" y2=\"258\"/><line x1=\"369.4\" y1=\"22\" x2=\"369.4\" y2=\"258\"/><line x1=\"448.0\" y1=\"22\" x2=\"448.0\" y2=\"258\"/><line x1=\"55\" y1=\"258.0\" x2=\"448\" y2=\"258.0\"/><line x1=\"55\" y1=\"210.8\" x2=\"448\" y2=\"210.8\"/><line x1=\"55\" y1=\"163.6\" x2=\"448\" y2=\"163.6\"/><line x1=\"55\" y1=\"116.4\" x2=\"448\" y2=\"116.4\"/><line x1=\"55\" y1=\"69.2\" x2=\"448\" y2=\"69.2\"/><line x1=\"55\" y1=\"22.0\" x2=\"448\" y2=\"22.0\"/></g><line x1=\"55\" y1=\"258\" x2=\"448\" y2=\"258\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"55\" y1=\"258\" x2=\"55\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"/><g font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\"><text x=\"55.0\" y=\"284\" text-anchor=\"middle\">0</text><text x=\"133.6\" y=\"284\" text-anchor=\"middle\">1</text><text x=\"212.2\" y=\"284\" text-anchor=\"middle\">2</text><text x=\"290.8\" y=\"284\" text-anchor=\"middle\">3</text><text x=\"369.4\" y=\"284\" text-anchor=\"middle\">4</text><text x=\"448.0\" y=\"284\" text-anchor=\"middle\">5</text><text x=\"47\" y=\"262.0\" text-anchor=\"end\">0</text><text x=\"47\" y=\"214.8\" text-anchor=\"end\">10</text><text x=\"47\" y=\"167.6\" text-anchor=\"end\">20</text><text x=\"47\" y=\"120.4\" text-anchor=\"end\">30</text><text x=\"47\" y=\"73.2\" text-anchor=\"end\">40</text><text x=\"47\" y=\"26.0\" text-anchor=\"end\">50</text></g><text x=\"434\" y=\"293\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">s (m)</text><text x=\"12\" y=\"12\" font-family=\"sans-serif\" font-size=\"12\">F (N)</text><polyline points=\"55.0,116.4 133.6,78.6 212.2,69.2 290.8,116.4 369.4,182.5 448.0,210.8\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><ol type=\"a\"><li>Uppskatta arbetet under de första 5 m. Visa hur du bestämmer arean under grafen.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid s = 0, 1, 2, 3, 4 och 5 m är kraften ungefär 30, 38, 40, 30, 16 och 10 N. Dela arean i fem trapetser med bredden 1 m. Varje trapets har arean bredden gånger medelvärdet av ändkrafterna.</p>\\[W\\approx\\frac{30+38}{2}+\\frac{38+40}{2}+\\frac{40+30}{2}\\]\\[\\phantom{W}\\quad+\\frac{30+16}{2}+\\frac{16+10}{2}\\]\\[W\\approx34+39+35+23+13=144\\,\\mathrm J\\]<p>En avläsning som ger omkring 140–150 J är rimlig. Avläsningen och metoden ska också bedömas.</p></div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "modellering",
@@ -131098,22 +131098,22 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete lagrat i en fjäder",
     "poang": "(1/0/0)",
-    "t": "<p>En fjäder med k = 25,0 N/m dras långsamt ut 0,450 m från obelastat läge utan energiförluster. Använd W = kx²/2.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som dras ut\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L58.8 145 L72.2 119 L85.8 145 L99.2 119 L112.8 145 L126.2 119 L139.8 145 L153.2 119 L166.8 145 L180.2 119 L193.8 145 L207.2 119 L220.8 145 L234.2 119 L247.8 145 L261.2 119 L274.8 145 L288.2 119 L295 132 L305 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"305\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"234\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"240.0\" y1=\"90.0\" x2=\"305.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"272\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,450 m</text><text x=\"174\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 25,0 N/m</text><line x1=\"361.0\" y1=\"135.0\" x2=\"414.0\" y2=\"135.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M425.0 135.0 L414.0 141.0 L414.0 129.0 Z\" fill=\"#2b6cb0\"/><text x=\"409\" y=\"122\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">F</text></svg></div><p>Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=\\frac{25{,}0\\cdot 0{,}450^{2}}{2}=2{,}53125\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,53 J.</p></div>",
+    "t": "<p>En fjäder med k = 25,0 N/m dras långsamt ut 0,450 m från sin ospända längd. Bortse från energiförluster. Använd W = kx²/2. Bestäm dragkraftens arbete i J.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som dras ut\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L58.8 145 L72.2 119 L85.8 145 L99.2 119 L112.8 145 L126.2 119 L139.8 145 L153.2 119 L166.8 145 L180.2 119 L193.8 145 L207.2 119 L220.8 145 L234.2 119 L247.8 145 L261.2 119 L274.8 145 L288.2 119 L295 132 L305 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"305\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"234\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"240.0\" y1=\"90.0\" x2=\"305.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"272\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,450 m</text><text x=\"174\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 25,0 N/m</text><line x1=\"361.0\" y1=\"135.0\" x2=\"414.0\" y2=\"135.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M425.0 135.0 L414.0 141.0 L414.0 129.0 Z\" fill=\"#2b6cb0\"/><text x=\"409\" y=\"122\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">F</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet lagras som fjäderenergi. Sätt in förlängningen i den givna formeln.</p>\\[W=\\frac{kx^2}{2}=\\frac{25{,}0\\cdot0{,}450^2}{2}\\approx2{,}53\\,\\mathrm J\\]</div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__arbete_lagrat_i_en_fjader",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.53,
-    "tolerans": 0,
+    "rättSvar": 2.53125,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilken deformation ska kvadreras?</p>",
+    "ledtrad": "<p>x är förlängningen från ospänd längd. Använd den i energiformeln.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -131128,8 +131128,8 @@ window.BANK = [
     "niva": "E",
     "typ": "fjäderkraftens negativa arbete",
     "poang": "(2/0/0)",
-    "t": "<p>En fjäder med k = 25,0 N/m trycks långsamt ihop 0,450 m från obelastat läge. Bortse från energiförluster.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,450 m</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 25,0 N/m</text></svg></div><p>Bestäm fjäderkraftens arbete på den hand som trycker ihop fjädern. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Handen tillför fjädern energin</p><div class=\"facit-matte\">\\[\\frac{k x^{2}}{2}=2{,}53125\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Fjädern verkar mot handens förflyttning och gör därför arbetet −2,53125 J på handen.</p></div></div><p class=\"facit-svar\">Svar: -2,53 J.</p></div>",
+    "t": "<p>En hand trycker långsamt ihop en fjäder med k = 25,0 N/m. Hoptryckningen från ospänd längd är 0,450 m. Bortse från energiförluster. Bestäm fjäderkraftens arbete på handen i J, med tecken.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,450 m</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 25,0 N/m</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fjäderkraften verkar mot handens förflyttning. Dess arbete på handen är därför negativt. Beloppet är den energi som lagras i fjädern.</p>\\[W_f=-\\frac{kx^2}{2}=-\\frac{25{,}0\\cdot0{,}450^2}{2}\\approx-2{,}53\\,\\mathrm J\\]</div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "begrepp",
@@ -131137,13 +131137,13 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__fjaderkraftens_negativa_arbete",
     "svarstyp": "numeriskt",
-    "rättSvar": -2.53,
-    "tolerans": 0,
+    "rättSvar": -2.53125,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken krafts arbete efterfrågas, och åt vilket håll verkar den?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "J",
@@ -131159,8 +131159,8 @@ window.BANK = [
     "niva": "C",
     "typ": "fjäderenergi och arbete från olika krafter",
     "poang": "(1/3/0)",
-    "t": "<p>En lodrät fjäder har k = 150 N/m. En första vikt hänger stilla och förlänger fjädern 10 cm. En andra vikt fästs under den första medan en hand stöder systemet. Handen sänker sedan båda vikterna långsamt ytterligare 20 cm tills de hänger i jämvikt utan stöd vid förlängningen 30 cm. Bortse från övriga energiförluster.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i fjäderenergi.</li><li>Bestäm tyngdkraften på vardera vikten.</li><li>Hur mycket arbete gör tyngdkraften på den andra vikten under sänkningen? Jämför med ökningen i fjäderenergi och redogör även för den första viktens och handens roll i energibalansen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{f}}=\\frac{150 \\left(0{,}30^{2}-0{,}10^{2}\\right)}{2}=6{,}0\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Första jämvikten ger</p><div class=\"facit-matte\">\\[m_{1} g=k\\cdot 0{,}10=15\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Slutlig jämvikt ger</p><div class=\"facit-matte\">\\[\\left(m_{1}+m_{2}\\right) g=k\\cdot 0{,}30=45\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[m_{2} g=30\\, \\mathrm{N}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den andra vikten sänks 0,20 m, så tyngdkraften gör arbetet 30 · 0,20 = 6,0 J på den.</p></div><div class=\"facit-stycke\"><p>Det råkar vara samma tal som Δ\\(E_{\\mathrm{f}}\\) i detta exempel, men är inte samma fysikaliska storhet.</p></div><div class=\"facit-stycke\"><p>Den första vikten förlorar också 15 · 0,20 = 3,0 J lägesenergi.</p></div><div class=\"facit-stycke\"><p>Totalt frigörs 9,0 J, varav 6,0 J lagras i fjädern och 3,0 J tas upp av handen som bromsar sänkningen.</p></div><div class=\"facit-stycke\"><p>Därför kan man inte generellt identifiera den andra viktens tyngdkraftsarbete med ändringen i fjäderenergi.</p></div></div></div></div></div>",
+    "t": "<p>En lodrät fjäder med k = 150 N/m förlängs 10 cm av en vikt som hänger stilla. En andra vikt fästs under den första medan en hand stöder båda. Handen sänker dem långsamt ytterligare 20 cm. Då hänger de stilla utan stöd och fjäderns totala förlängning är 30 cm. Bortse från andra energiförluster.</p><ol type=\"a\"><li>Hur mycket ökar fjäderenergin under sänkningen?</li><li>Hur stor är tyngdkraften på den första och den andra vikten?</li><li>Hur stort arbete gör tyngdkraften på den andra vikten under sänkningen? Förklara hela energibalansen, inklusive den första vikten och handen.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Beräkna fjäderenergin före och efter sänkningen. Förlängningarna är 0,10 m och 0,30 m.</p>\\[E_1=\\frac{150\\cdot0{,}10^2}{2}=0{,}75\\,\\mathrm J\\]\\[E_2=\\frac{150\\cdot0{,}30^2}{2}=6{,}75\\,\\mathrm J\\]\\[\\Delta E_f=6{,}75-0{,}75=6{,}0\\,\\mathrm J\\]<p><strong>b)</strong> I jämvikt balanserar fjäderkraften tyngdkraften. Den första vikten har tyngdkraften 150 · 0,10 = 15 N. Båda tillsammans har 150 · 0,30 = 45 N. Den andra vikten har därför 45 − 15 = 30 N.</p><p><strong>c)</strong> Den andra vikten sänks 0,20 m. Tyngdkraften gör arbetet 30 · 0,20 = 6,0 J på den. Den första viktens tyngdkraft gör dessutom 15 · 0,20 = 3,0 J. Totalt frigörs alltså 9,0 J. Av detta lagras 6,0 J i fjädern och 3,0 J tas upp av handen när den bromsar sänkningen. Handens arbete på vikterna är −3,0 J. Att den andra viktens tyngdkraftsarbete råkar vara lika med fjäderns energiökning innebär inte att de alltid är lika.</p></div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "modellering",
@@ -131175,7 +131175,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Vilka kroppar förlorar lägesenergi när fjäderns nedre ände sänks?</p>",
     "traningsniva": 4,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -131189,22 +131189,22 @@ window.BANK = [
     "niva": "E",
     "typ": "fjäderkonstant ur arbete",
     "poang": "(2/0/0)",
-    "t": "<p>En fjäder trycks långsamt ihop 2,37 cm från obelastat läge. Det tillförda arbetet är 13,4 J. Bortse från energiförluster.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">2,37 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = ?</text></svg></div><p>Bestäm fjäderkonstanten. Svara i kN/m. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = kx²/2 ger</p><div class=\"facit-matte\">\\[k=\\frac{2 W}{x^{2}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med x = 0,0237 m blir</p><div class=\"facit-matte\">\\[k=\\frac{26{,}8}{0{,}0237^{2}}\\approx 47\\,713{,}15\\, \\mathrm{N/m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 47,71 kN/m.</p></div>",
+    "t": "<p>En fjäder trycks långsamt ihop 2,37 cm från sin ospända längd. Arbetet är 13,4 J. Bortse från energiförluster. Vilken fjäderkonstant har fjädern? Svara i kN/m.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">2,37 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = ?</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet lagras som fjäderenergi. Omvandla 2,37 cm till 0,0237 m och lös W = kx²/2 för k.</p>\\[k=\\frac{2W}{x^2}=\\frac{2\\cdot13{,}4}{0{,}0237^2}\\]\\[k\\approx47713{,}15\\,\\mathrm{N/m}\\approx47{,}7\\,\\mathrm{kN/m}\\]</div>",
     "familj": "Fjäderenergi",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arbete__fjaderkonstant_ur_arbete",
     "svarstyp": "numeriskt",
-    "rättSvar": 47.71,
-    "tolerans": 0,
+    "rättSvar": 47.71315138243515,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilken enhet ska deformationen ha när k beräknas?</p>",
+    "ledtrad": "<p>Omvandla hoptryckningen till meter och lös W = kx²/2 för k.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kN/m",
     "svarFormat": "numeriskt",
@@ -131216,11 +131216,11 @@ window.BANK = [
     "id": "5.237",
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
+    "niva": "E",
     "typ": "jämföra konstant och varierande kraft",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett flygplan accelererar längs ett flygdäck. Motorn ger konstant 130 kN i rörelseriktningen. Katapultkraften varierar enligt diagrammet och verkar i samma riktning.</p><span class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Katapultkraft från 1100 kN till 65 kN under 85 meter\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"91.76\" y1=\"45\" x2=\"91.76\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"118.53\" y1=\"45\" x2=\"118.53\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"145.29\" y1=\"45\" x2=\"145.29\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"172.06\" y1=\"45\" x2=\"172.06\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"198.82\" y1=\"45\" x2=\"198.82\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"225.59\" y1=\"45\" x2=\"225.59\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"252.35\" y1=\"45\" x2=\"252.35\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"279.12\" y1=\"45\" x2=\"279.12\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"305.88\" y1=\"45\" x2=\"305.88\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"332.65\" y1=\"45\" x2=\"332.65\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"359.41\" y1=\"45\" x2=\"359.41\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"386.18\" y1=\"45\" x2=\"386.18\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"412.94\" y1=\"45\" x2=\"412.94\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"439.71\" y1=\"45\" x2=\"439.71\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"466.47\" y1=\"45\" x2=\"466.47\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"493.24\" y1=\"45\" x2=\"493.24\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"237.50\" x2=\"520\" y2=\"237.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"220.00\" x2=\"520\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"202.50\" x2=\"520\" y2=\"202.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"185.00\" x2=\"520\" y2=\"185.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"167.50\" x2=\"520\" y2=\"167.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"132.50\" x2=\"520\" y2=\"132.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"115.00\" x2=\"520\" y2=\"115.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"97.50\" x2=\"520\" y2=\"97.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"80.00\" x2=\"520\" y2=\"80.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"62.50\" x2=\"520\" y2=\"62.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">F (kN)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">x (m)</text><polyline points=\"65.0,62.5 520.0,243.625\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"508\" y=\"218\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#245e9b\">65 kN</text><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"118.53\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"172.06\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"225.59\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">30</text><text x=\"279.12\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">40</text><text x=\"332.65\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">50</text><text x=\"386.18\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">60</text><text x=\"439.71\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">70</text><text x=\"493.24\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">80</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">85</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"224.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">200</text><text x=\"57\" y=\"189.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">400</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">600</text><text x=\"57\" y=\"119.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">800</text><text x=\"57\" y=\"84.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1000</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1200</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motorns arbete under 85 m.</li><li>Bestäm katapultens arbete under samma sträcka.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{motor}}=130\\,000\\cdot 85=11\\,050\\,000 J=11{,}05\\, \\mathrm{MJ}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Katapultkraften avtar linjärt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Medelkraften är</p><div class=\"facit-matte\">\\[\\frac{\\left(1100+65\\right)}{2}=582{,}5\\, \\mathrm{kN}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{katapult}}=582{,}5\\cdot 85=49\\,512{,}5 k J\\approx 49{,}51\\, \\mathrm{MJ}\\]</div></div></div></div></div></div></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett flygplan accelererar längs ett flygdäck. Motorn ger konstant 130 kN i rörelseriktningen. En katapult drar åt samma håll med kraften i grafen.</p><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Katapultkraft från 1100 kN till 65 kN under 85 meter\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"91.76\" y1=\"45\" x2=\"91.76\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"118.53\" y1=\"45\" x2=\"118.53\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"145.29\" y1=\"45\" x2=\"145.29\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"172.06\" y1=\"45\" x2=\"172.06\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"198.82\" y1=\"45\" x2=\"198.82\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"225.59\" y1=\"45\" x2=\"225.59\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"252.35\" y1=\"45\" x2=\"252.35\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"279.12\" y1=\"45\" x2=\"279.12\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"305.88\" y1=\"45\" x2=\"305.88\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"332.65\" y1=\"45\" x2=\"332.65\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"359.41\" y1=\"45\" x2=\"359.41\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"386.18\" y1=\"45\" x2=\"386.18\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"412.94\" y1=\"45\" x2=\"412.94\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"439.71\" y1=\"45\" x2=\"439.71\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"466.47\" y1=\"45\" x2=\"466.47\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"493.24\" y1=\"45\" x2=\"493.24\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"237.50\" x2=\"520\" y2=\"237.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"220.00\" x2=\"520\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"202.50\" x2=\"520\" y2=\"202.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"185.00\" x2=\"520\" y2=\"185.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"167.50\" x2=\"520\" y2=\"167.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"132.50\" x2=\"520\" y2=\"132.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"115.00\" x2=\"520\" y2=\"115.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"97.50\" x2=\"520\" y2=\"97.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"80.00\" x2=\"520\" y2=\"80.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"62.50\" x2=\"520\" y2=\"62.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">F (kN)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">x (m)</text><polyline points=\"65.0,62.5 520.0,243.625\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"508\" y=\"218\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#245e9b\">65 kN</text><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"118.53\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"172.06\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"225.59\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">30</text><text x=\"279.12\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">40</text><text x=\"332.65\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">50</text><text x=\"386.18\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">60</text><text x=\"439.71\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">70</text><text x=\"493.24\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">80</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">85</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"224.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">200</text><text x=\"57\" y=\"189.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">400</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">600</text><text x=\"57\" y=\"119.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">800</text><text x=\"57\" y=\"84.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1000</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1200</text></svg><ol type=\"a\"><li>Bestäm motorns arbete under 85 m.</li><li>Bestäm katapultens arbete under samma 85 m.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Motorns kraft är konstant. Omvandla 130 kN till 130 000 N och multiplicera med sträckan.</p>\\[\\begin{gathered}W_\\text{motor}=130000\\cdot85\\\\=11050000\\,\\mathrm J=11{,}05\\,\\mathrm{MJ}\\end{gathered}\\]<p><strong>b)</strong> Katapultkraften minskar linjärt från 1100 till 65 kN. Arbetet är trapetsens area. Medelkraften är</p>\\[F_\\text{medel}=\\frac{1100+65}{2}=582{,}5\\,\\mathrm{kN}\\]\\[W_\\text{katapult}=582500\\cdot85\\]\\[W_\\text{katapult}=49512500\\,\\mathrm J\\approx49{,}5\\,\\mathrm{MJ}\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "modellering",
@@ -131234,7 +131234,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken area motsvarar respektive krafts arbete?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -137421,7 +137421,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137450,8 +137450,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 6.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137481,7 +137481,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 98.2,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137510,8 +137510,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 5.89,
-    "tolerans": 0,
+    "rättSvar": 5.892,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137592,7 +137592,7 @@ window.BANK = [
     "traningsniva": 1,
     "familj": "Fjäderenergi",
     "typ": "fjäderenergi från deformation",
-    "ledtrad": "<p>Deformationen x anges redan i meter.</p>",
+    "ledtrad": "<p>Hoptryckningen x är redan angiven i meter.</p>",
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -137602,8 +137602,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "rättSvar": 1.0000000000000002,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137632,8 +137632,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 1.6,
-    "tolerans": 0,
+    "rättSvar": 1.6000000000000003,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137714,7 +137714,7 @@ window.BANK = [
     "traningsniva": 1,
     "familj": "Arbete W = F·s",
     "typ": "glidfriktionens arbete",
-    "ledtrad": "<p>När kraften är motriktad förflyttningen blir arbetet negativt: \\(W=-F\\cdot s\\).</p>",
+    "ledtrad": "<p>Kraften verkar mot rörelsen. Vilket tecken får dess arbete?</p>",
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -137755,7 +137755,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": -12,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137768,7 +137768,7 @@ window.BANK = [
     "id": "5.346",
     "kap": 5,
     "omr": "arbete",
-    "t": "<p>En konstant kraft i rörelseriktningen utför arbetet 180 J när en låda flyttas 6,0 m.</p><p>Bestäm kraftens storlek. Svara i N. Svara med ett heltal.</p>",
+    "t": "<p>En konstant kraft i rörelseriktningen utför arbetet 180 J när en låda flyttas 6,0 m.</p><p>Använd F = W/s. Bestäm kraftens storlek. Svara i N. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs ger</p><div class=\"facit-matte\">\\[F=\\frac{W}{s}=\\frac{180}{6{,}0}=30\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 30 N.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -137784,8 +137784,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 30,
-    "tolerans": 0,
+    "rättSvar": 30.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -137798,7 +137798,7 @@ window.BANK = [
     "id": "5.347",
     "kap": 5,
     "omr": "arbete",
-    "t": "<p>En konstant kraft på 25 N utför arbetet 100 J. Kraft och förflyttning har samma riktning.</p><p>Bestäm förflyttningens längd. Svara i m. Avrunda vid behov till 1 decimal.</p>",
+    "t": "<p>En konstant kraft på 25 N utför arbetet 100 J. Kraft och förflyttning har samma riktning.</p><p>Använd s = W/F. Bestäm förflyttningens längd. Svara i m. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs ger</p><div class=\"facit-matte\">\\[s=\\frac{W}{F}=\\frac{100}{25}=4{,}0\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4 m.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -137814,8 +137814,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 4.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "m",
     "svarFormat": "numeriskt",
@@ -137828,8 +137828,8 @@ window.BANK = [
     "id": "5.348",
     "kap": 5,
     "omr": "arbete",
-    "t": "<p>En sten på 250 g ligger 2,0 m över vald nollnivå.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[250 g=0{,}250\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}250\\cdot 9{,}82\\cdot 2{,}0=4{,}91\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4,91 J.</p></div>",
+    "t": "<p>En sten på 250 g ligger 2,0 m över lägesenergins nollnivå. Använd g = 9,82 m/s². Bestäm lägesenergin i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan till kg: 250 g = 0,250 kg. Beräkna lägesenergin från den valda nollnivån.</p>\\[E_p=mgh=0{,}250\\cdot9{,}82\\cdot2{,}0=4{,}91\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Lägesenergi och lyftarbete",
@@ -137837,7 +137837,7 @@ window.BANK = [
     "ledtrad": "<p>Vilken massenhet behövs för att energin ska få enheten joule?</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arbete__lagesenergi_med_enhetsbyte",
     "formaga": [
       "procedur"
@@ -137845,7 +137845,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4.91,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137858,8 +137858,8 @@ window.BANK = [
     "id": "5.349",
     "kap": 5,
     "omr": "arbete",
-    "t": "<p>En kropp på 2,0 kg har lägesenergin 58,92 J relativt en vald nollnivå.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm höjden över nollnivån. Svara i m. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_p = mgh ger</p><div class=\"facit-matte\">\\[h=\\frac{58{,}92}{2{,}0\\cdot 9{,}82}=3{,}0\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3 m.</p></div>",
+    "t": "<p>En sten på 2,0 kg har lägesenergin 58,92 J. Använd g = 9,82 m/s². Hur högt ligger den över lägesenergins nollnivå? Svara i m.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös \\(E_p\\) = mgh för höjden.</p>\\[h=\\frac{E_p}{mg}=\\frac{58{,}92}{2{,}0\\cdot9{,}82}=3{,}00\\,\\mathrm m\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Lägesenergi och lyftarbete",
@@ -137867,15 +137867,15 @@ window.BANK = [
     "ledtrad": "<p>Lös ut höjden ur lägesenergin.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arbete__hojd_fran_lagesenergi",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0,
+    "rättSvar": 3.0,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "m",
     "svarFormat": "numeriskt",
@@ -137981,24 +137981,24 @@ window.BANK = [
     "id": "5.353",
     "kap": 5,
     "omr": "arbete",
-    "t": "<p>En fjäder med k = 400 N/m är hoptryckt 5,0 cm.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 400 N/m</text></svg></div><p>Bestäm fjäderenergin. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[5{,}0 c m=0{,}050\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{f}}=\\frac{400\\cdot 0{,}050^{2}}{2}=0{,}50\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,5 J.</p></div>",
+    "t": "<p>En fjäder med k = 400 N/m trycks ihop 5,0 cm från sin ospända längd. Bestäm den lagrade fjäderenergin i J.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 cm</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 400 N/m</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla hoptryckningen: 5,0 cm = 0,050 m. Beräkna sedan fjäderenergin.</p>\\[E_f=\\frac{kx^2}{2}=\\frac{400\\cdot0{,}050^2}{2}=0{,}500\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Fjäderenergi",
     "typ": "fjäderenergi med enhetsbyte",
-    "ledtrad": "<p>Omvandla deformationen till meter innan den kvadreras.</p>",
+    "ledtrad": "<p>Omvandla hoptryckningen till meter innan du kvadrerar den.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arbete__fjaderenergi_med_enhetsbyte",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
-    "tolerans": 0,
+    "rättSvar": 0.5000000000000001,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -138011,16 +138011,16 @@ window.BANK = [
     "id": "5.354",
     "kap": 5,
     "omr": "arbete",
-    "t": "<p>En fjäder med k = 200 N/m lagrar energin 4,0 J när den trycks ihop.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">x = ?</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 200 N/m</text></svg></div><p>Bestäm sammantryckningen. Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_f = kx²/2 ger</p><div class=\"facit-matte\">\\[x=\\sqrt{\\frac{2 E_{\\mathrm{f}}}{k}}=\\sqrt{\\frac{8{,}0}{200}}=0{,}20\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,2 m.</p></div>",
+    "t": "<p>En fjäder med k = 200 N/m lagrar 4,0 J när den trycks ihop från sin ospända längd. Hur långt är den hoptryckt? Svara i m.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som trycks ihop av en kloss\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L54.6 142 L59.7 122 L64.9 142 L70.0 122 L75.2 142 L80.3 122 L85.5 142 L90.6 122 L95.8 142 L100.9 122 L106.1 142 L111.2 122 L116.4 142 L121.5 122 L126.7 142 L131.8 122 L137.0 142 L142.1 122 L147.3 142 L152.4 122 L155 132 L165 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"165.0\" y1=\"90.0\" x2=\"240.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"202\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">x = ?</text><text x=\"104\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = 200 N/m</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös fjäderenergins formel för hoptryckningen x. Använd den positiva roten eftersom x är en längd.</p>\\[E_f=\\frac{kx^2}{2}\\quad\\Rightarrow\\quad x=\\sqrt{\\frac{2E_f}{k}}\\]\\[x=\\sqrt{\\frac{2\\cdot4{,}0}{200}}=0{,}200\\,\\mathrm m\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Fjäderenergi",
     "typ": "deformation från fjäderenergi",
-    "ledtrad": "<p>Lös först ut deformationen i kvadrat.</p>",
+    "ledtrad": "<p>Lös energiformeln för hoptryckningen x. En längd är positiv.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arbete__deformation_fran_fjaderenergi",
     "formaga": [
       "procedur"
@@ -138028,7 +138028,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.2,
-    "tolerans": 0,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarEnhet": "m",
     "svarFormat": "numeriskt",
@@ -138041,8 +138041,8 @@ window.BANK = [
     "id": "5.355",
     "kap": 5,
     "omr": "arbete",
-    "t": "<p>En fjäder lagrar energin 2,0 J när den är utdragen 0,10 m från ospänt läge.</p><div class=\"fig smal\"><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som dras ut\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L58.8 145 L72.2 119 L85.8 145 L99.2 119 L112.8 145 L126.2 119 L139.8 145 L153.2 119 L166.8 145 L180.2 119 L193.8 145 L207.2 119 L220.8 145 L234.2 119 L247.8 145 L261.2 119 L274.8 145 L288.2 119 L295 132 L305 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"305\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"234\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"240.0\" y1=\"90.0\" x2=\"305.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"272\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,10 m</text><text x=\"174\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = ?</text></svg></div><p>Bestäm fjäderkonstanten. Svara i N/m. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_f = kx²/2 ger</p><div class=\"facit-matte\">\\[k=\\frac{2 E_{\\mathrm{f}}}{x^{2}}=\\frac{4{,}0}{0{,}10^{2}}=400\\, \\mathrm{N/m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 400 N/m.</p></div>",
+    "t": "<p>En fjäder lagrar 2,0 J när den dras ut 0,10 m från sin ospända längd. Bestäm fjäderkonstanten i N/m.</p><svg width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En fjäder som dras ut\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"40\" y1=\"160\" x2=\"440\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"2.2\"/><line x1=\"40\" y1=\"169\" x2=\"48\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"52\" y1=\"169\" x2=\"60\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"64\" y1=\"169\" x2=\"72\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"76\" y1=\"169\" x2=\"84\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"88\" y1=\"169\" x2=\"96\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"100\" y1=\"169\" x2=\"108\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"112\" y1=\"169\" x2=\"120\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"124\" y1=\"169\" x2=\"132\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"148\" y1=\"169\" x2=\"156\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"160\" y1=\"169\" x2=\"168\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"172\" y1=\"169\" x2=\"180\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"184\" y1=\"169\" x2=\"192\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"196\" y1=\"169\" x2=\"204\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"208\" y1=\"169\" x2=\"216\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"220\" y1=\"169\" x2=\"228\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"232\" y1=\"169\" x2=\"240\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"244\" y1=\"169\" x2=\"252\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"256\" y1=\"169\" x2=\"264\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"268\" y1=\"169\" x2=\"276\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"280\" y1=\"169\" x2=\"288\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"292\" y1=\"169\" x2=\"300\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"304\" y1=\"169\" x2=\"312\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"316\" y1=\"169\" x2=\"324\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"328\" y1=\"169\" x2=\"336\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"340\" y1=\"169\" x2=\"348\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"352\" y1=\"169\" x2=\"360\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"364\" y1=\"169\" x2=\"372\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"376\" y1=\"169\" x2=\"384\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"388\" y1=\"169\" x2=\"396\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"400\" y1=\"169\" x2=\"408\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"412\" y1=\"169\" x2=\"420\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"424\" y1=\"169\" x2=\"432\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><line x1=\"436\" y1=\"169\" x2=\"444\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"0.9\"/><rect x=\"28\" y=\"50\" width=\"14\" height=\"110\" fill=\"#c7ccd4\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M42 132 L52 132 L58.8 145 L72.2 119 L85.8 145 L99.2 119 L112.8 145 L126.2 119 L139.8 145 L153.2 119 L166.8 145 L180.2 119 L193.8 145 L207.2 119 L220.8 145 L234.2 119 L247.8 145 L261.2 119 L274.8 145 L288.2 119 L295 132 L305 132\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"305\" y=\"110\" width=\"56\" height=\"50\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"68\" x2=\"240\" y2=\"164\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"234\" y=\"63\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">ospänt läge</text><line x1=\"240.0\" y1=\"90.0\" x2=\"305.0\" y2=\"90.0\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"272\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,10 m</text><text x=\"174\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">k = ?</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös fjäderenergins formel \\(E_f\\) = kx²/2 för k.</p>\\[k=\\frac{2E_f}{x^2}=\\frac{2\\cdot2{,}0}{0{,}10^2}=400\\,\\mathrm{N/m}\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Fjäderenergi",
@@ -138050,15 +138050,15 @@ window.BANK = [
     "ledtrad": "<p>Vilken av storheterna i fjäderenergin är okänd?</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arbete__fjaderkonstant_fran_energi",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 400,
-    "tolerans": 0,
+    "rättSvar": 399.99999999999994,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarEnhet": "N/m",
     "svarFormat": "numeriskt",
@@ -169318,19 +169318,19 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete som rektangelarea",
     "poang": "(1/0/0)",
-    "t": "<p>Diagrammet visar dragkraften i rörelseriktningen när en släde dras över snön.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: konstant 40 N från 0 till 5 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"183.20\" x2=\"420\" y2=\"183.20\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"146.40\" x2=\"420\" y2=\"146.40\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"109.60\" x2=\"420\" y2=\"109.60\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"72.80\" x2=\"420\" y2=\"72.80\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,72.8 420.0,72.8\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"187.20\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"150.40\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"113.60\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"76.80\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text></svg></span><p>Bestäm arbetet som dragkraften uträttar på 5 m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Arbetet är arean under kraft–sträcka-grafen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=40\\cdot5=200\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm J\\).</p></div>",
+    "t": "<p>Grafen visar dragkraften i rörelseriktningen på en släde. Hur stort arbete gör kraften under de första 5 m? Svara i J.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: konstant 40 N från 0 till 5 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"183.20\" x2=\"420\" y2=\"183.20\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"146.40\" x2=\"420\" y2=\"146.40\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"109.60\" x2=\"420\" y2=\"109.60\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"72.80\" x2=\"420\" y2=\"72.80\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,72.8 420.0,72.8\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"187.20\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"150.40\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"113.60\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"76.80\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften är konstant 40 N under 5 m. Arbetet är rektangelns area under grafen.</p>\\[W=Fs=40\\cdot5=200\\,\\mathrm J\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 200,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Vilken storhet motsvarar arean under en F–s-graf?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -169344,19 +169344,19 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete som triangelarea",
     "poang": "(1/0/0)",
-    "t": "<p>Diagrammet visar kraften som krävs för att dra ut ett träningsgummiband.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: rät linje från 0 till 60 N på 0,30 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"113.33\" y1=\"36\" x2=\"113.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"358.67\" y1=\"36\" x2=\"358.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"193.71\" x2=\"420\" y2=\"193.71\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"167.43\" x2=\"420\" y2=\"167.43\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"141.14\" x2=\"420\" y2=\"141.14\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"114.86\" x2=\"420\" y2=\"114.86\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"88.57\" x2=\"420\" y2=\"88.57\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.29\" x2=\"420\" y2=\"62.29\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,220.0 420.0,62.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"113.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,05</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,1</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,15</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,2</text><text x=\"358.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,25</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,3</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"197.71\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"171.43\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"145.14\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"118.86\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"92.57\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"66.29\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">70</text></svg></span><p>Bestäm arbetet när bandet dras ut 0,30 m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Arean under grafen är en triangel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\tfrac12\\cdot0{,}30\\cdot60=9{,}0\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm J\\).</p></div>",
+    "t": "<p>Grafen visar kraften som krävs för att långsamt dra ut ett gummiband. Bestäm arbetet för en förlängning från 0 till 0,30 m. Svara i J.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: rät linje från 0 till 60 N på 0,30 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"113.33\" y1=\"36\" x2=\"113.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"358.67\" y1=\"36\" x2=\"358.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"193.71\" x2=\"420\" y2=\"193.71\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"167.43\" x2=\"420\" y2=\"167.43\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"141.14\" x2=\"420\" y2=\"141.14\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"114.86\" x2=\"420\" y2=\"114.86\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"88.57\" x2=\"420\" y2=\"88.57\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.29\" x2=\"420\" y2=\"62.29\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,220.0 420.0,62.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"113.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,05</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,1</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,15</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,2</text><text x=\"358.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,25</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,3</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"197.71\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"171.43\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"145.14\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"118.86\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"92.57\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"66.29\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">70</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften ökar linjärt från 0 till 60 N under 0,30 m. Arbetet är triangelns area under grafen.</p>\\[W=\\frac{0{,}30\\cdot60}{2}=9{,}00\\,\\mathrm J\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0,
+    "rättSvar": 9.0,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Vilken form har området under grafen?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -169367,22 +169367,22 @@ window.BANK = [
     "id": "5.360",
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
+    "niva": "E",
     "typ": "arbete ur sammansatt area",
-    "poang": "(0/1/0)",
-    "t": "<p>En stock dras med ett rep. När stocken når en asfaltväg släpper man gradvis på repet. Diagrammet visar dragkraften i rörelseriktningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: 50 N från 0 till 4 m, sedan linjärt ned till 0 vid 6 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"113.33\" y1=\"36\" x2=\"113.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"358.67\" y1=\"36\" x2=\"358.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"189.33\" x2=\"420\" y2=\"189.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"158.67\" x2=\"420\" y2=\"158.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"128.00\" x2=\"420\" y2=\"128.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"97.33\" x2=\"420\" y2=\"97.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"66.67\" x2=\"420\" y2=\"66.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,66.7 297.3,66.7 420.0,220.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"113.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"358.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"193.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"162.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"132.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"101.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"70.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text></svg></span><p>Bestäm det totala arbetet som dragkraften uträttar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela upp arean i en rektangel och en triangel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=50\\cdot4+\\tfrac12\\cdot2\\cdot50=200+50=250\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\ \\mathrm J\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Grafen visar kraften i rörelseriktningen när en stock dras med ett rep. Bestäm repkraftens arbete under de första 6 m. Svara i J.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: 50 N från 0 till 4 m, sedan linjärt ned till 0 vid 6 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"113.33\" y1=\"36\" x2=\"113.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"358.67\" y1=\"36\" x2=\"358.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"189.33\" x2=\"420\" y2=\"189.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"158.67\" x2=\"420\" y2=\"158.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"128.00\" x2=\"420\" y2=\"128.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"97.33\" x2=\"420\" y2=\"97.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"66.67\" x2=\"420\" y2=\"66.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,66.7 297.3,66.7 420.0,220.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"113.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"358.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"193.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"162.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"132.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"101.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"70.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet är arean under grafen. Först är kraften 50 N under 4 m. Sedan minskar den linjärt till noll under 2 m.</p>\\[W_1=50\\cdot4=200\\,\\mathrm J\\]\\[W_2=\\frac{2\\cdot50}{2}=50\\,\\mathrm J\\]\\[W=W_1+W_2=250\\,\\mathrm J\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 250,
-    "tolerans": 0,
+    "rättSvar": 250.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Dela upp området under grafen i enklare figurer.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -169393,22 +169393,22 @@ window.BANK = [
     "id": "5.361",
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
+    "niva": "E",
     "typ": "arbete för del av sträckan",
-    "poang": "(0/1/0)",
-    "t": "<p>En låda knuffas först över ett kakelgolv och sedan in på en heltäckningsmatta, där det krävs större kraft. Diagrammet visar knuffkraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: 30 N från 0 till 2 m, 60 N från 2 till 5 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"193.71\" x2=\"420\" y2=\"193.71\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"167.43\" x2=\"420\" y2=\"167.43\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"141.14\" x2=\"420\" y2=\"141.14\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"114.86\" x2=\"420\" y2=\"114.86\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"88.57\" x2=\"420\" y2=\"88.57\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.29\" x2=\"420\" y2=\"62.29\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,141.1 199.2,141.1\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"199.2,62.3 420.0,62.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"197.71\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"171.43\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"145.14\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"118.86\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"92.57\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"66.29\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">70</text></svg></span><p>Bestäm arbetet under de första 3,0 m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Räkna bara arean fram till</p><div class=\"facit-matte\">\\[s=3{,}0\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=30\\cdot2+60\\cdot1=120\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\mathrm J\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Grafen visar kraften i rörelseriktningen när en låda knuffas över ett golv. Bestäm kraftens arbete under de första 3,0 m. Svara i J.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: 30 N från 0 till 2 m, 60 N från 2 till 5 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"193.71\" x2=\"420\" y2=\"193.71\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"167.43\" x2=\"420\" y2=\"167.43\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"141.14\" x2=\"420\" y2=\"141.14\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"114.86\" x2=\"420\" y2=\"114.86\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"88.57\" x2=\"420\" y2=\"88.57\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.29\" x2=\"420\" y2=\"62.29\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,141.1 199.2,141.1\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"199.2,62.3 420.0,62.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"19\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"197.71\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"171.43\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"145.14\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"118.86\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"92.57\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"66.29\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">70</text></svg><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna bara arean fram till 3,0 m. Kraften är 30 N under de första 2 m och 60 N under nästa 1 m.</p>\\[W=30\\cdot2+60\\cdot1=120\\,\\mathrm J\\]</div>",
     "familj": "Arbete ur kraftdiagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Var slutar området du ska räkna? Dela upp det vid kraftbytet.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -169421,8 +169421,8 @@ window.BANK = [
     "niva": "E",
     "typ": "lägesenergi och lyftarbete",
     "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>Anna (52 kg) går upp i ett 80 m högt torn. Bestäm hennes lägesenergi relativt marken.</li><li>Tio oljefat (150 kg var) lastas upp på ett 1,2 m högt flak. Hur stort är lyftarbetet?</li><li>En höjdhoppare har lägesenergin 1,59 kJ på 2,45 m höjd. Bestäm massan.</li><li>En cyklist (66,2 kg) tar sig från 1 270 m till 2 260 m över havet. Hur mycket ökar lägesenergin?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_p=52\\cdot9{,}82\\cdot80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\,851\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=10\\cdot150\\cdot9{,}82\\cdot1{,}2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\,676\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{1\\,590}{9{,}82\\cdot2{,}45}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=66{,}2\\cdot9{,}82\\cdot990\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}44\\cdot10^{5}\\) J</p></li></ol></div>",
+    "t": "<p>Bestäm lägesenergi eller lyftarbete. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Anna på 52 kg står 80 m över marken, som är nollnivå. Bestäm lägesenergin i J. Svara med tre värdesiffror.</li><li>Tio oljefat på 150 kg var lyfts 1,2 m från vila till vila. Bestäm lyftkraftens sammanlagda arbete i J. Svara med tre värdesiffror.</li><li>En höjdhoppares lägesenergi är 1,59 kJ när tyngdpunkten ligger 2,45 m över nollnivån. Bestäm massan i kg. Svara med tre värdesiffror.</li><li>En cyklist på 66,2 kg färdas från 1270 m till 2260 m över havet. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Använd höjden över marken i den givna formeln.</p>\\[E_p=mgh=52\\cdot9{,}82\\cdot80\\approx4{,}09\\cdot10^4\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Den sammanlagda massan är 10 · 150 = 1500 kg. Faten börjar och slutar i vila, så lyftarbetet ökar lägesenergin.</p>\\[\\begin{gathered}W=mgh\\\\=1500\\cdot9{,}82\\cdot1{,}2\\approx1{,}77\\cdot10^4\\,\\mathrm J\\end{gathered}\\]<p><strong>c)</strong></p><p>Omvandla 1,59 kJ till 1590 J och lös \\(E_p\\) = mgh för massan.</p>\\[m=\\frac{E_p}{gh}=\\frac{1590}{9{,}82\\cdot2{,}45}\\approx66{,}1\\,\\mathrm{kg}\\]<p><strong>d)</strong></p><p>Beräkna höjdökningen före energiökningen.</p>\\[\\Delta h=2260-1270=990\\,\\mathrm m\\]\\[\\Delta E_p=66{,}2\\cdot9{,}82\\cdot990\\approx6{,}44\\cdot10^5\\,\\mathrm J\\]</div>",
     "id": "5.497",
     "miniräknare": true,
     "geogebra": false,
@@ -169435,10 +169435,10 @@ window.BANK = [
       643583.16
     ],
     "tolerans": [
-      613.0,
-      510.0,
-      0.991,
-      9650.0
+      50.0,
+      50.0,
+      0.05,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -169464,13 +169464,13 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Bestäm lägesenergi eller lyftarbete. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Anna (52 kg) går upp i ett 80 m högt torn. Bestäm hennes lägesenergi relativt marken.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Anna (52 kg) går upp i ett 80 m högt torn. Bestäm hennes lägesenergi relativt marken.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_p=52\\cdot9{,}82\\cdot80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\,851\\) J</p></div>",
+        "fraga": "Bestäm Annas lägesenergi i J med tre värdesiffror.",
+        "t": "<p>Anna på 52 kg står 80 m över marken, som är nollnivå. Använd \\(E_p\\) = mgh och g = 9,82 m/s².</p><p>Bestäm Annas lägesenergi i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd höjden över marken i den givna formeln.</p>\\[E_p=mgh=52\\cdot9{,}82\\cdot80\\approx4{,}09\\cdot10^4\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(E_p=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -169479,42 +169479,42 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Tio oljefat (150 kg var) lastas upp på ett 1,2 m högt flak. Hur stort är lyftarbetet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Tio oljefat (150 kg var) lastas upp på ett 1,2 m högt flak. Hur stort är lyftarbetet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=10\\cdot150\\cdot9{,}82\\cdot1{,}2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\,676\\) J</p></div>",
+        "fraga": "Bestäm lyftkraftens sammanlagda arbete i J med tre värdesiffror.",
+        "t": "<p>Tio oljefat på 150 kg var lyfts 1,2 m från vila till vila. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens sammanlagda arbete i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den sammanlagda massan är 10 · 150 = 1500 kg. Faten börjar och slutar i vila, så lyftarbetet ökar lägesenergin.</p>\\[\\begin{gathered}W=mgh\\\\=1500\\cdot9{,}82\\cdot1{,}2\\approx1{,}77\\cdot10^4\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En höjdhoppare har lägesenergin 1,59 kJ på 2,45 m höjd. Bestäm massan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En höjdhoppare har lägesenergin 1,59 kJ på 2,45 m höjd. Bestäm massan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{1\\,590}{9{,}82\\cdot2{,}45}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) kg</p></div>",
+        "fraga": "Bestäm höjdhopparens massa i kg med tre värdesiffror.",
+        "t": "<p>En höjdhoppares lägesenergi är 1,59 kJ när tyngdpunkten ligger 2,45 m över nollnivån. Använd g = 9,82 m/s².</p><p>Bestäm höjdhopparens massa i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 1,59 kJ till 1590 J och lös \\(E_p\\) = mgh för massan.</p>\\[m=\\frac{E_p}{gh}=\\frac{1590}{9{,}82\\cdot2{,}45}\\approx66{,}1\\,\\mathrm{kg}\\]</div>",
         "ledtrad": "<p>\\(E_p=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En cyklist (66,2 kg) tar sig från 1 270 m till 2 260 m över havet. Hur mycket ökar lägesenergin?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En cyklist (66,2 kg) tar sig från 1 270 m till 2 260 m över havet. Hur mycket ökar lägesenergin?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=66{,}2\\cdot9{,}82\\cdot990\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}44\\cdot10^{5}\\) J</p></div>",
+        "fraga": "Bestäm ökningen i lägesenergi i J med tre värdesiffror.",
+        "t": "<p>En cyklist på 66,2 kg färdas från 1270 m till 2260 m över havet. Använd g = 9,82 m/s².</p><p>Bestäm ökningen i lägesenergi i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna höjdökningen före energiökningen.</p>\\[\\Delta h=2260-1270=990\\,\\mathrm m\\]\\[\\Delta E_p=66{,}2\\cdot9{,}82\\cdot990\\approx6{,}44\\cdot10^5\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(\\Delta E_p=mg\\Delta h\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_p=mgh\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -169523,8 +169523,8 @@ window.BANK = [
     "niva": "C",
     "typ": "energi i mat och lyftarbete",
     "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><ol type=\"a\"><li>Ett glas mjölk ger 80 kcal. Hur många glas behöver en person (65 kg) för att gå upp för ett 125 m högt berg, om all energi blir lyftarbete?</li><li>Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur högt berg måste en person (75 kg) gå upp för att arbeta bort den?</li><li>Hur många lyft med kraften 20,0 N och sträckan 45,0 cm krävs för samma nyttiga energi?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{65\\cdot9{,}82\\cdot125}{80\\cdot4\\,186}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}24\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{75\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(318\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{20{,}0\\cdot0{,}450}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,046\\)</p></li></ol></div>",
+    "t": "<p>I dessa modeller används matens energi till mekaniskt arbete. Använd 1 kcal = 4186 J och g = 9,82 m/s².</p><ol type=\"a\"><li>Ett glas mjölk innehåller 80 kcal. Vilken andel av ett glas motsvarar lyftarbetet för en person på 65 kg som går upp 125 m? Anta att all energi blir lyftarbete. Svara som ett decimaltal. Svara med tre värdesiffror.</li><li>En glass innehåller 280 kcal. En person på 75 kg kan använda 20 % av energin till lyftarbete. Vilken höjdökning motsvarar det? Svara i m. Svara med tre värdesiffror.</li><li>En glass innehåller 280 kcal och 20 % kan användas till arbete. Hur många hela lyft krävs minst för att det sammanlagda arbetet ska nå denna energi? Varje lyft sker med kraften 20,0 N under 45,0 cm i kraftens riktning. Svara med ett heltal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna lyftarbetet och energin i ett glas i samma enhet. Kvoten anger andelen av glaset.</p>\\[W=65\\cdot9{,}82\\cdot125=79787{,}5\\,\\mathrm J\\]\\[E_\\text{glas}=80\\cdot4186=334880\\,\\mathrm J\\]\\[\\text{andel}=\\frac{79787{,}5}{334880}\\approx0{,}238\\]<p>Det motsvarar ungefär en fjärdedel av ett glas i modellen.</p><p><strong>b)</strong></p><p>Beräkna först energin som kan bli lyftarbete.</p>\\[E=0{,}20\\cdot280\\cdot4186=234416\\,\\mathrm J\\]<p>Lös mgh = E för höjdökningen.</p>\\[h=\\frac E{mg}=\\frac{234416}{75\\cdot9{,}82}\\approx318\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Energin som kan bli arbete är 0,20 · 280 · 4186 = 234 416 J. Omvandla 45,0 cm till 0,450 m och beräkna arbetet per lyft.</p>\\[W_\\text{ett lyft}=Fs=20{,}0\\cdot0{,}450=9{,}00\\,\\mathrm J\\]\\[n=\\frac{234416}{9{,}00}\\approx26046{,}222\\]<p>26 046 hela lyft räcker inte. Avrunda uppåt till det minsta heltal som når energin.</p>\\[n_\\text{min}=26047\\]</div>",
     "id": "5.498",
     "miniräknare": true,
     "geogebra": false,
@@ -169533,12 +169533,12 @@ window.BANK = [
     "rättSvar": [
       0.2382569875776398,
       318.2837746096402,
-      26046.222222222223
+      26047
     ],
     "tolerans": [
-      0.0051,
-      5.1,
-      391.0
+      0.0005,
+      0.5,
+      0
     ],
     "självrättning": true,
     "formaga": [
@@ -169562,14 +169562,14 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p>",
+    "spelIntro": "<p>I dessa modeller används matens energi till mekaniskt arbete. Använd 1 kcal = 4186 J och g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett glas mjölk ger 80 kcal. Hur många glas behöver en person (65 kg) för att gå upp för ett 125 m högt berg, om all energi blir lyftarbete?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><p>Ett glas mjölk ger 80 kcal. Hur många glas behöver en person (65 kg) för att gå upp för ett 125 m högt berg, om all energi blir lyftarbete?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{65\\cdot9{,}82\\cdot125}{80\\cdot4\\,186}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}24\\)</p></div>",
-        "ledtrad": "<p>Lyftarbete delat med energi per glas.</p>",
+        "fraga": "Vilken andel av ett glas motsvarar lyftarbetet? Svara som ett decimaltal med tre värdesiffror.",
+        "t": "<p>Ett glas mjölk innehåller 80 kcal. En person på 65 kg går upp 125 m. Anta att all energi blir lyftarbete. Använd 1 kcal = 4186 J och g = 9,82 m/s².</p><p>Vilken andel av ett glas motsvarar lyftarbetet? Svara som ett decimaltal med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lyftarbetet och energin i ett glas i samma enhet. Kvoten anger andelen av glaset.</p>\\[W=65\\cdot9{,}82\\cdot125=79787{,}5\\,\\mathrm J\\]\\[E_\\text{glas}=80\\cdot4186=334880\\,\\mathrm J\\]\\[\\text{andel}=\\frac{79787{,}5}{334880}\\approx0{,}238\\]<p>Det motsvarar ungefär en fjärdedel av ett glas i modellen.</p></div>",
+        "ledtrad": "<p>Dividera lyftarbetet med energin i ett glas.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -169577,10 +169577,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur högt berg måste en person (75 kg) gå upp för att arbeta bort den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><p>Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur högt berg måste en person (75 kg) gå upp för att arbeta bort den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{75\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(318\\) m</p></div>",
-        "ledtrad": "<p>Nyttig energi först.</p>",
+        "fraga": "Vilken höjdökning motsvarar energin som kan bli lyftarbete? Svara i m med tre värdesiffror.",
+        "t": "<p>En glass innehåller 280 kcal. En person på 75 kg kan använda 20 % av energin till lyftarbete. Använd 1 kcal = 4186 J och g = 9,82 m/s².</p><p>Vilken höjdökning motsvarar energin som kan bli lyftarbete? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först energin som kan bli lyftarbete.</p>\\[E=0{,}20\\cdot280\\cdot4186=234416\\,\\mathrm J\\]<p>Lös mgh = E för höjdökningen.</p>\\[h=\\frac E{mg}=\\frac{234416}{75\\cdot9{,}82}\\approx318\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Beräkna först 20 % av matens energi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -169588,10 +169588,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur många lyft med kraften 20,0 N och sträckan 45,0 cm motsvarar det?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>1 kcal = 4,186 kJ.</p><p>Kroppen kan använda 20 % av energin i en glass (280 kcal) till arbete. Hur många lyft med kraften 20,0 N och sträckan 45,0 cm motsvarar det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{0{,}20\\cdot280\\cdot4\\,186}{20{,}0\\cdot0{,}450}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,046\\)</p></div>",
-        "ledtrad": "<p>Arbete per lyft.</p>",
+        "fraga": "Hur många hela lyft krävs minst för att det sammanlagda arbetet ska nå den tillgängliga energin? Svara med ett heltal.",
+        "t": "<p>En glass innehåller 280 kcal och 20 % kan användas till arbete. Varje lyft sker med kraften 20,0 N under 45,0 cm i kraftens riktning. Använd 1 kcal = 4186 J.</p><p>Hur många hela lyft krävs minst för att det sammanlagda arbetet ska nå den tillgängliga energin? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Energin som kan bli arbete är 0,20 · 280 · 4186 = 234 416 J. Omvandla 45,0 cm till 0,450 m och beräkna arbetet per lyft.</p>\\[W_\\text{ett lyft}=Fs=20{,}0\\cdot0{,}450=9{,}00\\,\\mathrm J\\]\\[n=\\frac{234416}{9{,}00}\\approx26046{,}222\\]<p>26 046 hela lyft räcker inte. Avrunda uppåt till det minsta heltal som når energin.</p>\\[n_\\text{min}=26047\\]</div>",
+        "ledtrad": "<p>Dividera den tillgängliga energin med arbetet per lyft. Vilket heltal räcker minst?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -169610,8 +169610,8 @@ window.BANK = [
     "niva": "E",
     "typ": "från Death Valley till Mount Whitney",
     "poang": "(3/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><ol type=\"a\"><li>Bestäm lägesenergin på botten av dalen relativt havsnivån.</li><li>Hur mycket ökar lägesenergin från dalen till toppen?</li><li>Vid ett tillfälle är lägesenergin 1,60 MJ relativt havsnivån. På vilken höjd är vandraren?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_p=65{,}0\\cdot9{,}82\\cdot(-85{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-54\\,256\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=65{,}0\\cdot9{,}82\\cdot4\\,505\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}88\\cdot10^{6}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{1{,}60\\cdot10^6}{65{,}0\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,507\\) m</p></li></ol></div>",
+    "t": "<p>En vandrare på 65,0 kg går från 85,0 m under havsnivån till 4420 m över havet. Havsnivån är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm lägesenergin i dalen i J, med tecken. Svara med tre värdesiffror.</li><li>Hur mycket ökar lägesenergin från dalen till toppen? Svara i J. Svara med tre värdesiffror.</li><li>På vilken höjd över havet är lägesenergin 1,60 MJ? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Under nollnivån är höjden negativ. Lägesenergin får samma tecken.</p>\\[\\begin{gathered}E_p=mgh\\\\=65{,}0\\cdot9{,}82\\cdot(-85{,}0)\\approx-5{,}43\\cdot10^4\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Vandraren börjar under havsnivån. Höjdökningen är därför större än toppens höjd över havet.</p>\\[\\Delta h=4420-(-85{,}0)=4505\\,\\mathrm m\\]\\[\\Delta E_p=65{,}0\\cdot9{,}82\\cdot4505\\approx2{,}88\\cdot10^6\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Omvandla 1,60 MJ till 1,60 · 10⁶ J. Lös \\(E_p\\) = mgh för höjden.</p>\\[h=\\frac{E_p}{mg}=\\frac{1{,}60\\cdot10^6}{65{,}0\\cdot9{,}82}\\approx2{,}51\\cdot10^3\\,\\mathrm m\\]</div>",
     "id": "5.499",
     "miniräknare": true,
     "geogebra": false,
@@ -169623,9 +169623,9 @@ window.BANK = [
       2506.6583111389627
     ],
     "tolerans": [
-      814.0,
-      43100.0,
-      37.6
+      50.0,
+      5000.0,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -169649,40 +169649,40 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p>",
+    "spelIntro": "<p>En vandrare på 65,0 kg går från 85,0 m under havsnivån till 4420 m över havet. Havsnivån är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken lägesenergi har vandraren? Ange tecken och svara i J.",
-        "t": "<p>En vandrare på 65,0 kg står 85,0 m under havsnivån. Havsnivån är nollnivå för lägesenergin. Använd g = 9,82 m/s².</p><p>Vilken lägesenergi har vandraren? Ange tecken och svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_p=65{,}0\\cdot9{,}82\\cdot(-85{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-54\\,256\\) J</p></div>",
-        "ledtrad": "<p>Under nollnivån blir lägesenergin negativ.</p>",
+        "fraga": "Bestäm lägesenergin i dalen i J, med tecken. Svara med tre värdesiffror.",
+        "t": "<p>En vandrare på 65,0 kg står 85,0 m under havsnivån. Havsnivån är nollnivå. Använd g = 9,82 m/s².</p><p>Bestäm lägesenergin i dalen i J, med tecken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Under nollnivån är höjden negativ. Lägesenergin får samma tecken.</p>\\[\\begin{gathered}E_p=mgh\\\\=65{,}0\\cdot9{,}82\\cdot(-85{,}0)\\approx-5{,}43\\cdot10^4\\,\\mathrm J\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Vilket tecken har höjden under nollnivån?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket ökar lägesenergin från dalen till toppen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Botten av Death Valley ligger 85,0 m under havsnivån och toppen av Mount Whitney 4 420 m över havet. En vandrare väger 65,0 kg.</p><p>Hur mycket ökar lägesenergin från dalen till toppen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=65{,}0\\cdot9{,}82\\cdot4\\,505\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}88\\cdot10^{6}\\) J</p></div>",
-        "ledtrad": "<p>Höjdskillnaden är 4 505 m.</p>",
+        "fraga": "Hur mycket ökar lägesenergin från dalen till toppen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En vandrare på 65,0 kg går från 85,0 m under havsnivån till 4420 m över havet. Använd g = 9,82 m/s².</p><p>Hur mycket ökar lägesenergin från dalen till toppen? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vandraren börjar under havsnivån. Höjdökningen är därför större än toppens höjd över havet.</p>\\[\\Delta h=4420-(-85{,}0)=4505\\,\\mathrm m\\]\\[\\Delta E_p=65{,}0\\cdot9{,}82\\cdot4505\\approx2{,}88\\cdot10^6\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Subtrahera startens negativa höjd från sluthöjden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur högt över havsnivån är vandraren? Svara i m.",
-        "t": "<p>En vandrare på 65,0 kg har lägesenergin 1,60 MJ relativt havsnivån. Använd g = 9,82 m/s².</p><p>Hur högt över havsnivån är vandraren? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{1{,}60\\cdot10^6}{65{,}0\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,507\\) m</p></div>",
-        "ledtrad": "<p>\\(h=\\dfrac{E_p}{mg}\\).</p>",
+        "fraga": "På vilken höjd över havet befinner sig vandraren? Svara i m med tre värdesiffror.",
+        "t": "<p>En vandrare på 65,0 kg har lägesenergin 1,60 MJ relativt havsnivån. Använd g = 9,82 m/s².</p><p>På vilken höjd över havet befinner sig vandraren? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 1,60 MJ till 1,60 · 10⁶ J. Lös \\(E_p\\) = mgh för höjden.</p>\\[h=\\frac{E_p}{mg}=\\frac{1{,}60\\cdot10^6}{65{,}0\\cdot9{,}82}\\approx2{,}51\\cdot10^3\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Omvandla MJ till J och lös energiformeln för höjden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_p=mgh\\) med \\(h\\) från nollnivån.</p>",
@@ -169697,8 +169697,8 @@ window.BANK = [
     "niva": "C",
     "typ": "lägesenergi med vinklar",
     "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En cyklist (72,0 kg) cyklar 1,2 km upp för en backe med lutningen 4,3°. Hur mycket ökar lägesenergin?</li><li>En flicka (20 kg) gungar i en 3,0 m lång gunga upp till vinkeln 45° från lodlinjen. Hur mycket ökar lägesenergin?</li><li>En rivningskula (600 kg) hänger i en 8,0 m lång vajer. Vilken vinkel med lodlinjen ger lägesenergiökningen 4,5 kJ?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=72{,}0\\cdot9{,}82\\cdot1\\,200\\sin4{,}3^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\,616\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=20\\cdot9{,}82\\cdot3{,}0(1-\\cos45^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(173\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1-\\cos\\theta=\\dfrac{4\\,500}{600\\cdot9{,}82\\cdot8{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) °</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En cyklist på 72,0 kg färdas 1,2 km längs en rak backe som lutar 4,3° mot marken. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</li><li>En flicka på 20 kg gungar från nedersta läget till 45° från lodlinjen. Gungans linor är 3,0 m långa. Räkna flickan som en punkt i linornas nedre ändar. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</li><li>En rivningskula på 600 kg hänger i en 8,0 m lång vajer. Den dras åt sidan tills lägesenergin ökat 4,5 kJ från nedersta läget. Vilken vinkel mellan 0° och 90° bildar vajern med lodlinjen? Svara i grader. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 1,2 km till 1200 m. Backens längd och vinkel ger höjdökningen.</p>\\[h=1200\\sin4{,}3^\\circ\\approx89{,}9764\\,\\mathrm m\\]<p>Behåll höjden utan avrundning i energiberäkningen.</p>\\[\\begin{gathered}\\Delta E_p=72{,}0\\cdot9{,}82\\cdot1200\\sin4{,}3^\\circ\\\\\\approx6{,}36\\cdot10^4\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>I nedersta läget är flickan 3,0 m under upphängningen. Vid 45° är det lodräta avståndet 3,0 cos45° m. Skillnaden ger höjdökningen.</p>\\[h=3{,}0-3{,}0\\cos45^\\circ\\approx0{,}878680\\,\\mathrm m\\]\\[\\Delta E_p=20\\cdot9{,}82\\cdot3{,}0(1-\\cos45^\\circ)\\approx173\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Höjdökningen ges av h = \\(\\Delta E_p\\)/(mg). För vajern gäller också h = l(1 − cosθ). Omvandla 4,5 kJ till 4500 J och kombinera sambanden.</p>\\[\\cos\\theta=1-\\frac{4500}{600\\cdot9{,}82\\cdot8{,}0}\\]\\[\\theta=\\arccos\\!\\left(1-\\frac{4500}{600\\cdot9{,}82\\cdot8{,}0}\\right)\\approx25{,}2^\\circ\\]</div>",
     "id": "5.500",
     "miniräknare": true,
     "geogebra": false,
@@ -169710,9 +169710,9 @@ window.BANK = [
       25.23973310984517
     ],
     "tolerans": [
-      954.0,
-      5.1,
-      0.51
+      50.0,
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -169736,14 +169736,14 @@ window.BANK = [
       "°"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En cyklist (72,0 kg) cyklar 1,2 km upp för en backe med lutningen 4,3°. Hur mycket ökar lägesenergin?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En cyklist (72,0 kg) cyklar 1,2 km upp för en backe med lutningen 4,3°. Hur mycket ökar lägesenergin?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=72{,}0\\cdot9{,}82\\cdot1\\,200\\sin4{,}3^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\,616\\) J</p></div>",
-        "ledtrad": "<p>Höjdskillnaden är \\(s\\sin\\alpha\\).</p>",
+        "fraga": "En cyklist på 72,0 kg färdas 1,2 km längs en rak backe som lutar 4,3° mot marken. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En cyklist på 72,0 kg färdas 1,2 km längs en rak backe som lutar 4,3° mot marken. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 1,2 km till 1200 m. Backens längd och vinkel ger höjdökningen.</p>\\[h=1200\\sin4{,}3^\\circ\\approx89{,}9764\\,\\mathrm m\\]<p>Behåll höjden utan avrundning i energiberäkningen.</p>\\[\\begin{gathered}\\Delta E_p=72{,}0\\cdot9{,}82\\cdot1200\\sin4{,}3^\\circ\\\\\\approx6{,}36\\cdot10^4\\,\\mathrm J\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Backens längd och vinkel ger höjdökningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -169751,10 +169751,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En flicka (20 kg) gungar i en 3,0 m lång gunga upp till vinkeln 45° från lodlinjen. Hur mycket ökar lägesenergin?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En flicka (20 kg) gungar i en 3,0 m lång gunga upp till vinkeln 45° från lodlinjen. Hur mycket ökar lägesenergin?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=20\\cdot9{,}82\\cdot3{,}0(1-\\cos45^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(173\\) J</p></div>",
-        "ledtrad": "<p>Höjden ökar med \\(l(1-\\cos\\theta)\\).</p>",
+        "fraga": "En flicka på 20 kg gungar från nedersta läget till 45° från lodlinjen. Gungans linor är 3,0 m långa. Räkna flickan som en punkt i linornas nedre ändar. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En flicka på 20 kg gungar från nedersta läget till 45° från lodlinjen. Gungans linor är 3,0 m långa. Räkna flickan som en punkt i linornas nedre ändar. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I nedersta läget är flickan 3,0 m under upphängningen. Vid 45° är det lodräta avståndet 3,0 cos45° m. Skillnaden ger höjdökningen.</p>\\[h=3{,}0-3{,}0\\cos45^\\circ\\approx0{,}878680\\,\\mathrm m\\]\\[\\Delta E_p=20\\cdot9{,}82\\cdot3{,}0(1-\\cos45^\\circ)\\approx173\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Jämför det lodräta avståndet till upphängningen före och efter rörelsen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -169762,10 +169762,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En rivningskula (600 kg) hänger i en 8,0 m lång vajer. Vilken vinkel med lodlinjen ger lägesenergiökningen 4,5 kJ?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En rivningskula (600 kg) hänger i en 8,0 m lång vajer. Vilken vinkel med lodlinjen ger lägesenergiökningen 4,5 kJ?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1-\\cos\\theta=\\dfrac{4\\,500}{600\\cdot9{,}82\\cdot8{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) °</p></div>",
-        "ledtrad": "<p>Höjden ökar med \\(l(1-\\cos\\theta)\\).</p>",
+        "fraga": "En rivningskula på 600 kg hänger i en 8,0 m lång vajer. Den dras åt sidan tills lägesenergin ökat 4,5 kJ från nedersta läget. Vilken vinkel mellan 0° och 90° bildar vajern med lodlinjen? Svara i grader. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En rivningskula på 600 kg hänger i en 8,0 m lång vajer. Den dras åt sidan tills lägesenergin ökat 4,5 kJ från nedersta läget. Vilken vinkel mellan 0° och 90° bildar vajern med lodlinjen? Svara i grader. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdökningen ges av h = \\(\\Delta E_p\\)/(mg). För vajern gäller också h = l(1 − cosθ). Omvandla 4,5 kJ till 4500 J och kombinera sambanden.</p>\\[\\cos\\theta=1-\\frac{4500}{600\\cdot9{,}82\\cdot8{,}0}\\]\\[\\theta=\\arccos\\!\\left(1-\\frac{4500}{600\\cdot9{,}82\\cdot8{,}0}\\right)\\approx25{,}2^\\circ\\]</div>",
+        "ledtrad": "<p>Beräkna höjdökningen från energin och koppla den till vajerns vinkel.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -169784,8 +169784,8 @@ window.BANK = [
     "niva": "C",
     "typ": "hiss med motvikt",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hiss med passagerare (totalt 1 202 kg) hänger i en vajer som löper över en trumma högst upp i hisschaktet. I vajerns andra ände hänger en motvikt på 801 kg. Hissen åker 40 m uppåt, och samtidigt åker motvikten 40 m nedåt.</p><ol type=\"a\"><li>Hur mycket ökar lägesenergin för hissen med passagerare?</li><li>Hur stort arbete måste motorn som driver trumman minst uträtta?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=1\\,202\\cdot9{,}82\\cdot40\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}7\\cdot10^{5}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=(1\\,202-801)\\cdot9{,}82\\cdot40\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\cdot10^{5}\\) J</p></li></ol></div>",
+    "t": "<p>En hiss med passagerare har massan 1202 kg. En motvikt på 801 kg är kopplad till hissen med en vajer över en trumma. Hissen höjs 40 m samtidigt som motvikten sänks 40 m. Båda börjar och slutar i vila. Bortse från energiförluster och vajerns och trummans massa. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket ökar hissens och passagerarnas sammanlagda lägesenergi? Svara i J. Svara med tre värdesiffror.</li><li>Hur stort arbete måste motorn tillföra systemet? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna lägesenergiökningen med hissens och passagerarnas massa.</p>\\[\\Delta E_{p,\\text{hiss}}=1202\\cdot9{,}82\\cdot40\\approx4{,}72\\cdot10^5\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Hissens lägesenergi ökar samtidigt som motviktens minskar. Motorn tillför skillnaden eftersom systemet börjar och slutar i vila utan energiförluster.</p>\\[\\Delta E_{p,\\text{hiss}}=1202\\cdot9{,}82\\cdot40=472145{,}6\\,\\mathrm J\\]\\[\\begin{gathered}\\Delta E_{p,\\text{motvikt}}=-801\\cdot9{,}82\\cdot40\\\\=-314632{,}8\\,\\mathrm J\\end{gathered}\\]\\[\\begin{gathered}W=(1202-801)\\cdot9{,}82\\cdot40\\\\\\approx1{,}58\\cdot10^5\\,\\mathrm J\\end{gathered}\\]</div>",
     "id": "5.501",
     "miniräknare": true,
     "geogebra": false,
@@ -169796,8 +169796,8 @@ window.BANK = [
       157512.80000000002
     ],
     "tolerans": [
-      7080.0,
-      5100.0
+      500.0,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -169818,24 +169818,24 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hiss med passagerare (totalt 1 202 kg) hänger i en vajer som löper över en trumma högst upp i hisschaktet. I vajerns andra ände hänger en motvikt på 801 kg. Hissen åker 40 m uppåt, och samtidigt åker motvikten 40 m nedåt.</p>",
+    "spelIntro": "<p>En hiss med passagerare har massan 1202 kg. En motvikt på 801 kg är kopplad till hissen med en vajer över en trumma. Hissen höjs 40 m samtidigt som motvikten sänks 40 m. Båda börjar och slutar i vila. Bortse från energiförluster och vajerns och trummans massa. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket ökar hissens och passagerarnas sammanlagda lägesenergi? Svara i J.",
-        "t": "<p>En hiss med passagerare har sammanlagda massan 1202 kg och åker 40 m uppåt. Använd g = 9,82 m/s².</p><p>Hur mycket ökar hissens och passagerarnas sammanlagda lägesenergi? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_p=1\\,202\\cdot9{,}82\\cdot40\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}7\\cdot10^{5}\\) J</p></div>",
+        "fraga": "Hur mycket ökar hissens och passagerarnas sammanlagda lägesenergi? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En hiss med passagerare har massan 1202 kg och höjs 40 m. Använd g = 9,82 m/s².</p><p>Hur mycket ökar hissens och passagerarnas sammanlagda lägesenergi? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lägesenergiökningen med hissens och passagerarnas massa.</p>\\[\\Delta E_{p,\\text{hiss}}=1202\\cdot9{,}82\\cdot40\\approx4{,}72\\cdot10^5\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(\\Delta E_p=mg\\Delta h\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort arbete måste motorn som driver trumman minst uträtta?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En hiss med passagerare (totalt 1 202 kg) hänger i en vajer som löper över en trumma högst upp i hisschaktet. I vajerns andra ände hänger en motvikt på 801 kg. Hissen åker 40 m uppåt, och samtidigt åker motvikten 40 m nedåt.</p><p>Hur stort arbete måste motorn som driver trumman minst uträtta?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=(1\\,202-801)\\cdot9{,}82\\cdot40\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\cdot10^{5}\\) J</p></div>",
+        "fraga": "Hur stort arbete måste motorn tillföra systemet? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En hiss med passagerare har massan 1202 kg. En motvikt på 801 kg är kopplad till hissen med en vajer över en trumma. Hissen höjs 40 m samtidigt som motvikten sänks 40 m. Båda börjar och slutar i vila. Bortse från energiförluster och vajerns och trummans massa. Använd g = 9,82 m/s².</p><p>Hur stort arbete måste motorn tillföra systemet? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hissens lägesenergi ökar samtidigt som motviktens minskar. Motorn tillför skillnaden eftersom systemet börjar och slutar i vila utan energiförluster.</p>\\[\\Delta E_{p,\\text{hiss}}=1202\\cdot9{,}82\\cdot40=472145{,}6\\,\\mathrm J\\]\\[\\begin{gathered}\\Delta E_{p,\\text{motvikt}}=-801\\cdot9{,}82\\cdot40\\\\=-314632{,}8\\,\\mathrm J\\end{gathered}\\]\\[\\begin{gathered}W=(1202-801)\\cdot9{,}82\\cdot40\\\\\\approx1{,}58\\cdot10^5\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>Motviktens lägesenergi minskar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -169855,15 +169855,15 @@ window.BANK = [
     "niva": "C",
     "typ": "fjäder skjuter upp kula",
     "poang": "(0/1/0)",
-    "t": "<p>En fjäder med fjäderkonstanten 88,0 N/m trycks ihop 4,0 cm. En kula på 40 g startar från vila mot fjädern och skjuts lodrätt uppåt. Bortse från energiförluster. Använd g = 9,82 m/s².</p><p>Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Vid högsta läget är farten noll. Fjäderenergin har då blivit lägesenergi. Omvandla 4,0 cm till 0,040 m och 40 g till 0,040 kg.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{kx^2}{2}=mgh\\\\\\Rightarrow\\  h=\\frac{88{,}0\\cdot0{,}040^2}{2\\cdot0{,}040\\cdot9{,}82}\\approx0{,}179\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,18 m.</p></div></div>",
+    "t": "<p>En fjäder med k = 88,0 N/m trycks ihop 4,0 cm och skjuter en kula på 40 g rakt upp från vila. Kulan är inte fäst i fjädern. Bortse från energiförluster och använd g = 9,82 m/s². Hur högt når kulan över sitt startläge vid den hoptryckta fjädern? Svara i m.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 4,0 cm till 0,040 m och 40 g till 0,040 kg. Vid högsta läget är kulan stilla och fjädern ospänd. Fjäderenergin har blivit ökad lägesenergi.</p>\\[\\frac{kx^2}{2}=mgh\\quad\\Rightarrow\\quad h=\\frac{kx^2}{2mg}\\]\\[h=\\frac{88{,}0\\cdot0{,}040^2}{2\\cdot0{,}040\\cdot9{,}82}\\approx0{,}179\\,\\mathrm m\\]</div>",
     "id": "5.502",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fjäderenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 0.17922606924643583,
-    "tolerans": 0.0051,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -169883,8 +169883,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete med vågrät kraft",
     "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Ett föremål skjuts 3,2 m med kraften 18 N. Bestäm arbetet.</li><li>En bil bromsas av en konstant friktionskraft på 500 N under sträckan 25 m. Hur stor energi tar friktionen bort från bilen? Svara i J.</li><li>En byrå på 46,0 kg knuffas 10,3 m över ett vågrätt golv med konstant fart. Knuffkraften är vågrät och glidfriktionstalet är 0,50. Hur stort arbete gör knuffkraften? Svara i J.</li><li>En pojke puttar en låda med en konstant kraft på 24 N i rörelseriktningen. Lådans fart är konstant 0,65 m/s under 18 s. Hur stort arbete gör pojkens kraft på lådan? Svara i J.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=18\\cdot3{,}2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(57{,}6\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Friktionens arbete är negativt. Energin som försvinner ur bilens rörelse är arbetets positiva belopp.</p><div class=\"facit-matte\">\\[E_\\mathrm{förlust}=Fs=500\\cdot25=12500\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 12 500 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Konstant fart betyder att knuffkraften är lika stor som friktionskraften. På det vågräta golvet är normalkraften mg.</p><div class=\"facit-matte\">\\[W=\\mu mgs=0{,}50\\cdot46{,}0\\cdot9{,}82\\cdot10{,}3\\approx2326\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2330 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Beräkna först sträckan med fart gånger tid. Multiplicera sedan med kraften.</p><div class=\"facit-matte\">\\[\\begin{gathered}s=vt=0{,}65\\cdot18=11{,}7\\,\\mathrm m\\\\ W=Fs=24\\cdot11{,}7=280{,}8\\,\\mathrm J\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 280,8 J.</p></div></div></div></div>",
+    "t": "<p>Beräkna arbete eller energiförlust. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En kraft på 18 N flyttar ett föremål 3,2 m i kraftens riktning. Bestäm arbetet i J. Svara med tre värdesiffror.</li><li>En bil bromsas av en konstant friktionskraft på 500 N under 25 m på en vågrät väg. Hur mycket energi tar friktionen från bilens rörelse? Svara med ett positivt värde i J. Svara med tre värdesiffror.</li><li>En byrå på 46,0 kg knuffas 10,3 m längs ett vågrätt golv med konstant fart. Knuffkraften är vågrät och glidfriktionstalet 0,50. Bestäm knuffkraftens arbete i J. Svara med tre värdesiffror.</li><li>En pojke knuffar en låda med kraften 24 N i rörelseriktningen. Farten är konstant 0,65 m/s. Bestäm kraftens arbete under 18 s i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=18\\cdot3{,}2=57{,}6\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Friktionens arbete är negativt, men frågan gäller hur mycket energi den tar. Ange arbetets positiva belopp.</p>\\[E_\\text{förlust}=Fs=500\\cdot25=12500\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Knuffkraften är vågrät, så normalkraften är mg. Vid konstant fart balanserar knuffkraften friktionen.</p>\\[F=\\mu mg=0{,}50\\cdot46{,}0\\cdot9{,}82=225{,}86\\,\\mathrm N\\]\\[W=Fs=225{,}86\\cdot10{,}3\\approx2330\\,\\mathrm J\\]<p><strong>d)</strong></p><p>Beräkna sträckan med den konstanta farten och multiplicera sedan med kraften.</p>\\[s=vt=0{,}65\\cdot18=11{,}7\\,\\mathrm m\\]\\[W=Fs=24\\cdot11{,}7\\approx281\\,\\mathrm J\\]</div>",
     "id": "5.520",
     "miniräknare": true,
     "geogebra": false,
@@ -169897,10 +169897,10 @@ window.BANK = [
       280.8
     ],
     "tolerans": [
-      0.864,
-      510.0,
-      51.0,
-      5.46
+      0.05,
+      50.0,
+      5.0,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -169926,13 +169926,13 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Beräkna arbete eller energiförlust. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör kraften? Svara i J.",
-        "t": "<p>En konstant kraft på 18 N verkar i rörelseriktningen medan ett föremål flyttas 3,2 m.</p><p>Hur stort arbete gör kraften? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=18\\cdot3{,}2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(57{,}6\\) J</p></div>",
+        "fraga": "Bestäm arbetet i J med tre värdesiffror.",
+        "t": "<p>En konstant kraft på 18 N flyttar ett föremål 3,2 m i kraftens riktning. Använd W = Fs.</p><p>Bestäm arbetet i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=18\\cdot3{,}2=57{,}6\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -169941,42 +169941,42 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor energi tar friktionen bort från bilen? Svara i J.",
-        "t": "<p>En bil bromsas av en konstant friktionskraft på 500 N under sträckan 25 m.</p><p>Hur stor energi tar friktionen bort från bilen? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Friktionens arbete är negativt. Energin som försvinner ur bilens rörelse är arbetets positiva belopp.</p><div class=\"facit-matte\">\\[E_\\mathrm{förlust}=Fs=500\\cdot25=12500\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 12 500 J.</p></div></div>",
+        "fraga": "Hur mycket energi tar friktionen från bilens rörelse? Svara med ett positivt värde i J med tre värdesiffror.",
+        "t": "<p>En bil bromsas av en konstant friktionskraft på 500 N under 25 m på en vågrät väg.</p><p>Hur mycket energi tar friktionen från bilens rörelse? Svara med ett positivt värde i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionens arbete är negativt, men frågan gäller hur mycket energi den tar. Ange arbetets positiva belopp.</p>\\[E_\\text{förlust}=Fs=500\\cdot25=12500\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Multiplicera friktionskraftens storlek med bromssträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort arbete gör knuffkraften? Svara i J.",
-        "t": "<p>En byrå på 46,0 kg knuffas 10,3 m över ett vågrätt golv med konstant fart. Knuffkraften är vågrät och glidfriktionstalet är 0,50. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör knuffkraften? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Konstant fart betyder att knuffkraften är lika stor som friktionskraften. På det vågräta golvet är normalkraften mg.</p><div class=\"facit-matte\">\\[W=\\mu mgs=0{,}50\\cdot46{,}0\\cdot9{,}82\\cdot10{,}3\\approx2326\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2330 J.</p></div></div>",
+        "fraga": "Bestäm knuffkraftens arbete i J med tre värdesiffror.",
+        "t": "<p>En byrå på 46,0 kg knuffas 10,3 m längs ett vågrätt golv med konstant fart. Knuffkraften är vågrät och glidfriktionstalet 0,50. Använd g = 9,82 m/s².</p><p>Bestäm knuffkraftens arbete i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Knuffkraften är vågrät, så normalkraften är mg. Vid konstant fart balanserar knuffkraften friktionen.</p>\\[F=\\mu mg=0{,}50\\cdot46{,}0\\cdot9{,}82=225{,}86\\,\\mathrm N\\]\\[W=Fs=225{,}86\\cdot10{,}3\\approx2330\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Konstant fart: kraften är lika stor som friktionen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Hur stort arbete gör pojkens kraft på lådan? Svara i J.",
-        "t": "<p>En pojke puttar en låda med en konstant kraft på 24 N i rörelseriktningen. Lådans fart är konstant 0,65 m/s under 18 s.</p><p>Hur stort arbete gör pojkens kraft på lådan? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Beräkna först sträckan med fart gånger tid. Multiplicera sedan med kraften.</p><div class=\"facit-matte\">\\[\\begin{gathered}s=vt=0{,}65\\cdot18=11{,}7\\,\\mathrm m\\\\ W=Fs=24\\cdot11{,}7=280{,}8\\,\\mathrm J\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 280,8 J.</p></div></div>",
+        "fraga": "Bestäm kraftens arbete under 18 s i J med tre värdesiffror.",
+        "t": "<p>En pojke knuffar en låda med en konstant kraft på 24 N i rörelseriktningen. Farten är konstant 0,65 m/s.</p><p>Bestäm kraftens arbete under 18 s i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna sträckan med den konstanta farten och multiplicera sedan med kraften.</p>\\[s=vt=0{,}65\\cdot18=11{,}7\\,\\mathrm m\\]\\[W=Fs=24\\cdot11{,}7\\approx281\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Bestäm sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
     "traningsniva": 2,
     "familjNyckel": "arbete__arbete_w_fs",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -169985,22 +169985,22 @@ window.BANK = [
     "niva": "C",
     "typ": "klippa gräsmatta",
     "poang": "(0/1/0)",
-    "t": "<p>Uppskatta arbetet för att klippa en gräsmatta (10 m × 20 m) med en gräsklippare som är 50 cm bred och kräver kraften 15 N.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sträcka: \\(\\dfrac{10\\cdot20}{0{,}50}=400\\) m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=15\\cdot400\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,000\\) J</p></div>",
+    "t": "<p>En gräsmatta är 10 m lång och 20 m bred. Gräsklipparen klipper en 0,50 m bred remsa och skjuts med kraften 15 N i rörelseriktningen. Remsorna ligger kant i kant. Vid vändningar och förflyttningar mellan remsorna skjuts klipparen ytterligare 60 m med samma kraft. Hur stort sammanlagt arbete gör kraften för att skjuta klipparen? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gräsmattans area är 10 · 20 = 200 m². Dela med klippbredden för att få sträckan under klippningen. Lägg sedan till de extra 60 m.</p>\\[s=\\frac{200}{0{,}50}+60=460\\,\\mathrm m\\]\\[W=Fs=15\\cdot460=6900\\,\\mathrm J\\]</div>",
     "id": "5.521",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Arbete W = F·s",
     "svarstyp": "numeriskt",
-    "rättSvar": 6000,
-    "tolerans": 90.0,
+    "rättSvar": 6900.0,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "modellering",
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur lång sträcka måste klipparen gå?</p>",
+    "ledtrad": "<p>Beräkna sträckan under klippningen och lägg till de extra förflyttningarna.</p>",
     "traningsniva": 3,
     "svarEnhet": "J",
     "familjNyckel": "arbete__arbete_w_fs",
@@ -170010,26 +170010,26 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
+    "niva": "E",
     "typ": "träd släpas bort",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett träd (800 kg) släpas med konstant fart. Friktionstalet är 0,61 och arbetet blir 1,2 MJ. Hur lång sträcka släpades trädet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{1{,}2\\cdot10^6}{0{,}61\\cdot800\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\) m</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett träd på 800 kg dras med konstant fart längs vågrät mark. Dragkraften är vågrät och glidfriktionstalet 0,61. Dragkraftens arbete är 1,2 MJ. Använd g = 9,82 m/s². Hur långt dras trädet? Svara i m.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar dragkraften friktionen. Normalkraften är mg.</p>\\[F=\\mu mg=0{,}61\\cdot800\\cdot9{,}82=4792{,}16\\,\\mathrm N\\]<p>Omvandla 1,2 MJ till 1,2 · 10⁶ J. Lös W = Fs för sträckan.</p>\\[s=\\frac WF=\\frac{1{,}2\\cdot10^6}{4792{,}16}\\approx250\\,\\mathrm m\\]</div>",
     "id": "5.522",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Arbete W = F·s",
     "svarstyp": "numeriskt",
     "rättSvar": 250.40900136890255,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Vid konstant fart balanserar dragkraften friktionen. Vilken kraft ska användas i W = Fs?</p>",
+    "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "arbete__arbete_w_fs",
     "arbetsinsats": 2,
@@ -170041,22 +170041,22 @@ window.BANK = [
     "niva": "E",
     "typ": "skottkärra",
     "poang": "(3/0/0)",
-    "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p><ol type=\"a\"><li>Bestäm arbetet.</li><li>Hur långt flyttas den med samma arbete om kraften är 140 N?</li><li>Hur stor är kraften med samma arbete om sträckan är 1,8 m?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=165\\cdot2{,}80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(462\\) J</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut sträckan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac WF=\\frac{462}{140}=3{,}30\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,3 m.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut kraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac Ws=\\frac{462}{1{,}8}\\approx256{,}7\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 257 N.</p></div></div></div>",
+    "t": "<p>En konstant kraft på 165 N skjuter en skottkärra 2,80 m i kraftens riktning. Använd W = Fs.</p><ol type=\"a\"><li>Bestäm arbetet i J. Svara med tre värdesiffror.</li><li>Hur långt kan kärran flyttas med samma arbete om kraften är 140 N i rörelseriktningen? Svara i m. Svara med tre värdesiffror.</li><li>Vilken kraft i rörelseriktningen behövs för samma arbete under 1,8 m? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=165\\cdot2{,}80=462\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Det ursprungliga arbetet är 165 · 2,80 = 462 J. Lös W = Fs för sträckan.</p>\\[s=\\frac WF=\\frac{462}{140}=3{,}30\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Det ursprungliga arbetet är 165 · 2,80 = 462 J. Lös W = Fs för kraften.</p>\\[F=\\frac Ws=\\frac{462}{1{,}8}\\approx257\\,\\mathrm N\\]</div>",
     "id": "5.523",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Arbete W = F·s",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      462.0,
+      461.99999999999994,
       3.3,
-      256.666666667
+      256.6666666666667
     ],
     "tolerans": [
-      6.93,
-      0.0495,
-      3.85
+      0.5,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -170079,13 +170079,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p>",
+    "spelIntro": "<p>En konstant kraft på 165 N skjuter en skottkärra 2,80 m i kraftens riktning. Använd W = Fs.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm arbetet.",
-        "t": "<p>Det krävs den vågräta kraften 165 N för att flytta en skottkärra 2,80 m.</p><p>Bestäm arbetet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=165\\cdot2{,}80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(462\\) J</p></div>",
+        "fraga": "Bestäm arbetet i J. Svara med tre värdesiffror.",
+        "t": "<p>En konstant kraft på 165 N skjuter en skottkärra 2,80 m i kraftens riktning. Använd W = Fs.</p><p>Bestäm arbetet i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera kraften med sträckan.</p>\\[W=Fs=165\\cdot2{,}80=462\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170094,9 +170094,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt flyttas föremålet? Svara i m.",
-        "t": "<p>En kraft på 140 N verkar i rörelseriktningen och utför arbetet 462 J.</p><p>Hur långt flyttas föremålet? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut sträckan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac WF=\\frac{462}{140}=3{,}30\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,3 m.</p></div></div>",
+        "fraga": "Hur långt flyttas föremålet? Svara i m med tre värdesiffror.",
+        "t": "<p>En kraft på 140 N i rörelseriktningen gör arbetet 462 J. Använd s = W/F.</p><p>Hur långt flyttas föremålet? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd det givna arbetet och dividera med kraften.</p>\\[s=\\frac WF=\\frac{462}{140}=3{,}30\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -170105,18 +170105,18 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är kraften? Svara i N.",
-        "t": "<p>En kraft verkar i rörelseriktningen och utför arbetet 462 J under 1,8 m.</p><p>Hur stor är kraften? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När kraften verkar i rörelseriktningen är arbetet kraft gånger sträcka. Lös ut kraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac Ws=\\frac{462}{1{,}8}\\approx256{,}7\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 257 N.</p></div></div>",
+        "fraga": "Hur stor är kraften? Svara i N med tre värdesiffror.",
+        "t": "<p>En kraft i rörelseriktningen gör arbetet 462 J under 1,8 m.</p><p>Hur stor är kraften? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös W = Fs för kraften och använd det givna arbetet.</p>\\[F=\\frac Ws=\\frac{462}{1{,}8}\\approx257\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "arbete__arbete_w_fs",
     "arbetsinsats": 2,
     "spel": true
@@ -170127,8 +170127,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bromsarbete ur rörelseenergi",
     "poang": "(2/0/0)",
-    "t": "<p>Bestäm bromsarbetets storlek.</p><ol type=\"a\"><li>En cyklist med cykel (113 kg) bromsar från 15 m/s till stillastående.</li><li>En bil (1,3 ton) bromsar från 21,5 m/s till stillastående.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{113\\cdot15^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,712\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{1\\,300\\cdot21{,}5^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p></li></ol></div>",
+    "t": "<p>Fordonet bromsar till vila på en vågrät väg. Bortse från hjulens rotation. Beräkna den energi som de sammanlagda bromskrafterna tar från rörelsen, som ett positivt värde.</p><ol type=\"a\"><li>En cyklist med cykel har massan 113 kg och startfarten 15 m/s. Svara i J. Svara med tre värdesiffror.</li><li>En bil har massan 1,3 ton och startfarten 21,5 m/s. Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Slutfarten är noll. Bromskrafternas arbete är negativt och lika stort i belopp som startens rörelseenergi. Frågan gäller det positiva beloppet.</p>\\[E_\\text{förlust}=\\frac{mv_0^2}{2}=\\frac{113\\cdot15^2}{2}\\approx12700\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Omvandla massan: 1,3 ton = 1300 kg. Hela startens rörelseenergi tas från bilen när den stannar.</p>\\[\\begin{gathered}E_\\text{förlust}=\\frac{mv_0^2}{2}\\\\=\\frac{1300\\cdot21{,}5^2}{2}\\approx3{,}00\\cdot10^5\\,\\mathrm J\\end{gathered}\\]</div>",
     "id": "5.524",
     "miniräknare": true,
     "geogebra": false,
@@ -170139,8 +170139,8 @@ window.BANK = [
       300462.5
     ],
     "tolerans": [
-      510.0,
-      5100.0
+      50.0,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -170161,29 +170161,29 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm bromsarbetets storlek.</p>",
+    "spelIntro": "<p>Fordonet bromsar till vila på en vågrät väg. Bortse från hjulens rotation. Beräkna den energi som de sammanlagda bromskrafterna tar från rörelsen, som ett positivt värde.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En cyklist med cykel (113 kg) bromsar från 15 m/s till stillastående.",
-        "t": "<p>Bestäm bromsarbetets storlek.</p><p>En cyklist med cykel (113 kg) bromsar från 15 m/s till stillastående.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{113\\cdot15^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,712\\) J</p></div>",
+        "fraga": "En cyklist med cykel har massan 113 kg och startfarten 15 m/s. Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Fordonet bromsar till vila på en vågrät väg. Bortse från hjulens rotation. Beräkna den energi som de sammanlagda bromskrafterna tar från rörelsen, som ett positivt värde.</p><p>En cyklist med cykel har massan 113 kg och startfarten 15 m/s. Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Slutfarten är noll. Bromskrafternas arbete är negativt och lika stort i belopp som startens rörelseenergi. Frågan gäller det positiva beloppet.</p>\\[E_\\text{förlust}=\\frac{mv_0^2}{2}=\\frac{113\\cdot15^2}{2}\\approx12700\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Bromsarbetet tar all rörelseenergi.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En bil (1,3 ton) bromsar från 21,5 m/s till stillastående.",
-        "t": "<p>Bestäm bromsarbetets storlek.</p><p>En bil (1,3 ton) bromsar från 21,5 m/s till stillastående.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{1\\,300\\cdot21{,}5^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p></div>",
+        "fraga": "En bil har massan 1,3 ton och startfarten 21,5 m/s. Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Fordonet bromsar till vila på en vågrät väg. Bortse från hjulens rotation. Beräkna den energi som de sammanlagda bromskrafterna tar från rörelsen, som ett positivt värde.</p><p>En bil har massan 1,3 ton och startfarten 21,5 m/s. Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 1,3 ton = 1300 kg. Hela startens rörelseenergi tas från bilen när den stannar.</p>\\[\\begin{gathered}E_\\text{förlust}=\\frac{mv_0^2}{2}\\\\=\\frac{1300\\cdot21{,}5^2}{2}\\approx3{,}00\\cdot10^5\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>Bromsarbetet tar all rörelseenergi.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Bromsarbete = minskning i rörelseenergi.</p>",
@@ -170198,24 +170198,24 @@ window.BANK = [
     "niva": "E",
     "typ": "lyftarbete",
     "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En resväska på 18 kg lyfts lodrätt 65 cm. Väskan är stilla före och efter lyftet. Bortse från energiförluster. Hur stort arbete gör lyftkraften på väskan? Svara i J.</li><li>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</li><li>En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.</li><li>Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Arbetet ökar väskans lägesenergi. Omvandla först 65 cm till 0,65 m.</p><div class=\"facit-matte\">\\[W=mg\\Delta h=18\\cdot9{,}82\\cdot0{,}65=114{,}894\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 115 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Både brandmannen och utrustningen lyfts 28,0 m. Summera massorna innan du beräknar ökningen i lägesenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=75{,}0+15{,}0=90{,}0\\,\\mathrm{kg}\\qquad W=mgh=90{,}0\\cdot9{,}82\\cdot28{,}0=24746{,}4\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 24 700 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=175\\cdot9{,}82\\cdot2{,}2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,781\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftarbetet blir ökad lägesenergi. Lös ut massan ur sambandet mellan arbete och höjd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh\\quad\\Rightarrow\\quad m=\\frac W{gh}=\\frac{620}{9{,}82\\cdot1{,}8}\\approx35{,}08\\,\\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 35 kg.</p></div></div></div></div>",
+    "t": "<p>Använd g = 9,82 m/s² och bortse från luftmotståndet. Föremålen börjar och slutar i vila.</p><ol type=\"a\"><li>En väska på 18 kg lyfts 65 cm rakt upp. Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.</li><li>En brandman på 75,0 kg med 15,0 kg utrustning klättrar 28,0 m uppåt. Bestäm ökningen i deras sammanlagda lägesenergi i J. Svara med tre värdesiffror.</li><li>En skivstång på 175 kg sänks 2,2 m. Bestäm arbetet som lyftarens uppåtriktade kraft gör på stången i J, med tecken. Svara med tre värdesiffror.</li><li>Ett rep lyfter ett klot 1,8 m med arbetet 620 J. Bestäm klotets massa i kg. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 65 cm till 0,65 m. Väskan börjar och slutar i vila, så lyftarbetet ökar lägesenergin.</p>\\[W=mg\\Delta h=18\\cdot9{,}82\\cdot0{,}65\\approx115\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Summera massorna eftersom både brandmannen och utrustningen höjs.</p>\\[m=75{,}0+15{,}0=90{,}0\\,\\mathrm{kg}\\]\\[\\Delta E_p=90{,}0\\cdot9{,}82\\cdot28{,}0\\approx24700\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Stången börjar och slutar i vila. Lyftarens arbete är ändringen i lägesenergi. Kraften är uppåt och förflyttningen nedåt, så arbetet är negativt.</p>\\[\\begin{gathered}W=mg\\Delta h\\\\=175\\cdot9{,}82\\cdot(-2{,}2)\\approx-3780\\,\\mathrm J\\end{gathered}\\]<p><strong>d)</strong></p><p>Klotet börjar och slutar i vila, så repets arbete ökar lägesenergin. Lös W = mgh för massan.</p>\\[m=\\frac W{gh}=\\frac{620}{9{,}82\\cdot1{,}8}\\approx35{,}1\\,\\mathrm{kg}\\]</div>",
     "id": "5.525",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lägesenergi och lyftarbete",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      114.894,
+      114.89399999999999,
       24746.4,
-      3780.7000000000003,
-      35.0758090066
+      -3780.7000000000003,
+      35.075809006562565
     ],
     "tolerans": [
-      1.73,
-      371.0,
-      56.7,
-      0.526
+      0.5,
+      50.0,
+      5.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -170241,57 +170241,57 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s² och bortse från luftmotståndet. Föremålen börjar och slutar i vila.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör lyftkraften på väskan? Svara i J.",
-        "t": "<p>En resväska på 18 kg lyfts lodrätt 65 cm. Väskan är stilla före och efter lyftet. Bortse från energiförluster. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften på väskan? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Arbetet ökar väskans lägesenergi. Omvandla först 65 cm till 0,65 m.</p><div class=\"facit-matte\">\\[W=mg\\Delta h=18\\cdot9{,}82\\cdot0{,}65=114{,}894\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 115 J.</p></div></div>",
-        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "fraga": "En väska på 18 kg lyfts 65 cm rakt upp. Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och bortse från luftmotståndet. Föremålen börjar och slutar i vila.</p><p>En väska på 18 kg lyfts 65 cm rakt upp. Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 65 cm till 0,65 m. Väskan börjar och slutar i vila, så lyftarbetet ökar lägesenergin.</p>\\[W=mg\\Delta h=18\\cdot9{,}82\\cdot0{,}65\\approx115\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Omvandla höjdökningen till meter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (75,0 kg) med utrustning (15,0 kg) klättrar 28,0 m rakt upp. Bestäm arbetet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Både brandmannen och utrustningen lyfts 28,0 m. Summera massorna innan du beräknar ökningen i lägesenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=75{,}0+15{,}0=90{,}0\\,\\mathrm{kg}\\qquad W=mgh=90{,}0\\cdot9{,}82\\cdot28{,}0=24746{,}4\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 24 700 J.</p></div></div>",
-        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "fraga": "En brandman på 75,0 kg med 15,0 kg utrustning klättrar 28,0 m uppåt. Bestäm ökningen i deras sammanlagda lägesenergi i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och bortse från luftmotståndet. Föremålen börjar och slutar i vila.</p><p>En brandman på 75,0 kg med 15,0 kg utrustning klättrar 28,0 m uppåt. Bestäm ökningen i deras sammanlagda lägesenergi i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Summera massorna eftersom både brandmannen och utrustningen höjs.</p>\\[m=75{,}0+15{,}0=90{,}0\\,\\mathrm{kg}\\]\\[\\Delta E_p=90{,}0\\cdot9{,}82\\cdot28{,}0\\approx24700\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Summera massorna som höjs.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En skivstång (175 kg) lyfts 2,2 m. Bestäm lyftarbetet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=175\\cdot9{,}82\\cdot2{,}2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,781\\) J</p></div>",
-        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "fraga": "En skivstång på 175 kg sänks 2,2 m. Bestäm arbetet som lyftarens uppåtriktade kraft gör på stången i J, med tecken. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och bortse från luftmotståndet. Föremålen börjar och slutar i vila.</p><p>En skivstång på 175 kg sänks 2,2 m. Bestäm arbetet som lyftarens uppåtriktade kraft gör på stången i J, med tecken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stången börjar och slutar i vila. Lyftarens arbete är ändringen i lägesenergi. Kraften är uppåt och förflyttningen nedåt, så arbetet är negativt.</p>\\[\\begin{gathered}W=mg\\Delta h\\\\=175\\cdot9{,}82\\cdot(-2{,}2)\\approx-3780\\,\\mathrm J\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Kraften är uppåt och förflyttningen nedåt. Vilket tecken får arbetet?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett lyftarbete på 620 J lyfter ett klot 1,8 m. Bestäm klotets massa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftarbetet blir ökad lägesenergi. Lös ut massan ur sambandet mellan arbete och höjd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh\\quad\\Rightarrow\\quad m=\\frac W{gh}=\\frac{620}{9{,}82\\cdot1{,}8}\\approx35{,}08\\,\\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 35 kg.</p></div></div>",
-        "ledtrad": "<p>\\(W=mgh\\).</p>",
+        "fraga": "Ett rep lyfter ett klot 1,8 m med arbetet 620 J. Bestäm klotets massa i kg. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och bortse från luftmotståndet. Föremålen börjar och slutar i vila.</p><p>Ett rep lyfter ett klot 1,8 m med arbetet 620 J. Bestäm klotets massa i kg. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klotet börjar och slutar i vila, så repets arbete ökar lägesenergin. Lös W = mgh för massan.</p>\\[m=\\frac W{gh}=\\frac{620}{9{,}82\\cdot1{,}8}\\approx35{,}1\\,\\mathrm{kg}\\]</div>",
+        "ledtrad": "<p>Lös lyftarbetets formel för massan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(W=mgh\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "arbete__lagesenergi_och_lyftarbete",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -170300,20 +170300,20 @@ window.BANK = [
     "niva": "E",
     "typ": "lyfta eller skjuta en låda",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p><ol type=\"a\"><li>Bestäm arbetet när den lyfts 5,0 m rakt upp.</li><li>Bestäm arbetet när den skjuts 5,0 m längs golvet med friktionstalet 0,55.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=120\\cdot9{,}82\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,892\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=0{,}55\\cdot120\\cdot9{,}82\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,241\\) J</p></li></ol></div>",
+    "t": "<p>En låda på 120 kg flyttas 5,0 m med konstant fart. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Lådan sänks rakt ned av ett rep. Bestäm repkraftens arbete i J, med tecken. Svara med tre värdesiffror.</li><li>Lådan skjuts i stället längs ett vågrätt golv. Skjutkraften är vågrät och glidfriktionstalet 0,55. Bestäm skjutkraftens arbete i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart är repkraften mg uppåt. Förflyttningen är nedåt, så repets arbete är negativt.</p>\\[W=-mgs=-120\\cdot9{,}82\\cdot5{,}0\\approx-5890\\,\\mathrm J\\]<p><strong>b)</strong></p><p>På vågrätt golv är normalkraften mg. Vid konstant fart balanserar skjutkraften friktionen.</p>\\[F=\\mu mg=0{,}55\\cdot120\\cdot9{,}82=648{,}12\\,\\mathrm N\\]\\[W=Fs=648{,}12\\cdot5{,}0\\approx3240\\,\\mathrm J\\]</div>",
     "id": "5.526",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Arbete W = F·s",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5892.0,
+      -5892.0,
       3240.6
     ],
     "tolerans": [
-      88.4,
-      51.0
+      5.0,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -170334,29 +170334,29 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p>",
+    "spelIntro": "<p>En låda på 120 kg flyttas 5,0 m med konstant fart. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm arbetet när den lyfts 5,0 m rakt upp.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p><p>Bestäm arbetet när den lyfts 5,0 m rakt upp.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=120\\cdot9{,}82\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,892\\) J</p></div>",
-        "ledtrad": "<p>\\(W=mgh\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "Bestäm arbetet när den skjuts 5,0 m längs golvet med friktionstalet 0,55.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) flyttas med konstant fart.</p><p>Bestäm arbetet när den skjuts 5,0 m längs golvet med friktionstalet 0,55.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=0{,}55\\cdot120\\cdot9{,}82\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,241\\) J</p></div>",
-        "ledtrad": "<p>Kraften är lika med friktionen.</p>",
+        "fraga": "Lådan sänks rakt ned av ett rep. Bestäm repkraftens arbete i J, med tecken. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 120 kg flyttas 5,0 m med konstant fart. Använd g = 9,82 m/s².</p><p>Lådan sänks rakt ned av ett rep. Bestäm repkraftens arbete i J, med tecken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är repkraften mg uppåt. Förflyttningen är nedåt, så repets arbete är negativt.</p>\\[W=-mgs=-120\\cdot9{,}82\\cdot5{,}0\\approx-5890\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Repet drar uppåt medan lådan flyttas nedåt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Lådan skjuts längs ett vågrätt golv. Skjutkraften är vågrät och glidfriktionstalet 0,55. Bestäm skjutkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 120 kg flyttas 5,0 m med konstant fart. Använd g = 9,82 m/s².</p><p>Lådan skjuts längs ett vågrätt golv. Skjutkraften är vågrät och glidfriktionstalet 0,55. Bestäm skjutkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrätt golv är normalkraften mg. Vid konstant fart balanserar skjutkraften friktionen.</p>\\[F=\\mu mg=0{,}55\\cdot120\\cdot9{,}82=648{,}12\\,\\mathrm N\\]\\[W=Fs=648{,}12\\cdot5{,}0\\approx3240\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Konstant fart ger en skjutkraft lika stor som friktionen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
@@ -170368,11 +170368,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "arbete",
-    "niva": "A",
+    "niva": "C",
     "typ": "lyftarbete med tyngdpunkt",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En väska (6,2 kg) lyfts från ett 82 cm högt bord till en hylla 1,90 m över golvet. Bestäm arbetet.</li><li>En jämnt fördelad cylinder på 350 g ligger på sidan på ett vågrätt bord. Radien är 4,0 cm och längden är 11,0 cm. Den ställs upp på sin plana ändyta. Hur mycket ökar cylinderns lägesenergi? Svara i J.</li><li>Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=6{,}2\\cdot9{,}82\\cdot1{,}08\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Cylinderns mitt höjs från radien 4,0 cm till halva längden 5,5 cm. Höjdökningen är alltså 0,015 m.</p><div class=\"facit-matte\">\\[\\Delta E_p=mg\\Delta h=0{,}350\\cdot9{,}82\\cdot0{,}015=0{,}051555\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,052 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Stenarna lyfts 0,15 + 0,30 + 0,45 + 0,60 = 1,50 m sammanlagt: \\(W=25{,}0\\cdot9{,}82\\cdot1{,}50\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(368\\) J</p></div></div></div></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd g = 9,82 m/s². Föremålen börjar och slutar i vila.</p><ol type=\"a\"><li>En väska på 6,2 kg lyfts från ett bord 82 cm över golvet till en hylla 1,90 m över golvet. Bortse från luftmotståndet. Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.</li><li>En cylinder på 350 g har tyngdpunkten i mitten. Radien är 4,0 cm och längden 11,0 cm. Den ligger på sidan och ställs upp på sin plana ändyta. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</li><li>Fem likadana block på 25,0 kg var är staplade ovanpå varandra. Varje block är 15,0 cm högt. Blocken placeras sedan var för sig på samma golv, med samma sida nedåt. Hur mycket minskar deras sammanlagda lägesenergi? Svara med ett positivt värde i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 82 cm till 0,82 m och beräkna höjdökningen. Lyftarbetet ökar lägesenergin.</p>\\[\\Delta h=1{,}90-0{,}82=1{,}08\\,\\mathrm m\\]\\[W=6{,}2\\cdot9{,}82\\cdot1{,}08\\approx65{,}8\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Tyngdpunkten är först på höjden 4,0 cm och sedan på halva längden, 5,5 cm. Höjdökningen är 1,5 cm = 0,015 m. Massan är 350 g = 0,350 kg.</p>\\[\\Delta E_p=0{,}350\\cdot9{,}82\\cdot0{,}015\\approx0{,}0516\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Det nedersta blockets tyngdpunkt ändrar inte höjd. De övriga tyngdpunkterna sänks 0,15, 0,30, 0,45 och 0,60 m. Summera dessa höjdminskningar.</p>\\[\\begin{gathered}h_\\text{summa}=0+0{,}15+0{,}30+0{,}45+0{,}60\\\\=1{,}50\\,\\mathrm m\\end{gathered}\\]<p>Varje block har massan 25,0 kg. Lägesenergin minskar med</p>\\[E_\\text{minskning}=25{,}0\\cdot9{,}82\\cdot1{,}50\\approx368\\,\\mathrm J\\]</div>",
     "id": "5.527",
     "miniräknare": true,
     "geogebra": false,
@@ -170381,12 +170381,12 @@ window.BANK = [
     "rättSvar": [
       65.75472,
       0.051555,
-      368.25
+      368.24999999999994
     ],
     "tolerans": [
-      0.986,
-      0.00223,
-      5.52
+      0.05,
+      5e-05,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -170409,25 +170409,25 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Föremålen börjar och slutar i vila.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En väska (6,2 kg) lyfts från ett 82 cm högt bord till en hylla 1,90 m över golvet. Bestäm arbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En väska (6,2 kg) lyfts från ett 82 cm högt bord till en hylla 1,90 m över golvet. Bestäm arbetet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=6{,}2\\cdot9{,}82\\cdot1{,}08\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) J</p></div>",
-        "ledtrad": "<p>Höjdskillnaden är 0,80 m.</p>",
+        "fraga": "En väska på 6,2 kg lyfts från ett bord 82 cm över golvet till en hylla 1,90 m över golvet. Bortse från luftmotståndet. Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Föremålen börjar och slutar i vila.</p><p>En väska på 6,2 kg lyfts från ett bord 82 cm över golvet till en hylla 1,90 m över golvet. Bortse från luftmotståndet. Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 82 cm till 0,82 m och beräkna höjdökningen. Lyftarbetet ökar lägesenergin.</p>\\[\\Delta h=1{,}90-0{,}82=1{,}08\\,\\mathrm m\\]\\[W=6{,}2\\cdot9{,}82\\cdot1{,}08\\approx65{,}8\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Omvandla bordets höjd till meter och ta höjdskillnaden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket ökar cylinderns lägesenergi? Svara i J.",
-        "t": "<p>En jämnt fördelad cylinder på 350 g ligger på sidan på ett vågrätt bord. Radien är 4,0 cm och längden är 11,0 cm. Den ställs upp på sin plana ändyta. Använd g = 9,82 m/s².</p><p>Hur mycket ökar cylinderns lägesenergi? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Cylinderns mitt höjs från radien 4,0 cm till halva längden 5,5 cm. Höjdökningen är alltså 0,015 m.</p><div class=\"facit-matte\">\\[\\Delta E_p=mg\\Delta h=0{,}350\\cdot9{,}82\\cdot0{,}015=0{,}051555\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,052 J.</p></div></div>",
-        "ledtrad": "<p>Hur mycket höjs tyngdpunkten?</p>",
+        "fraga": "En cylinder på 350 g har tyngdpunkten i mitten. Radien är 4,0 cm och längden 11,0 cm. Den ligger på sidan och ställs upp på sin plana ändyta. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Föremålen börjar och slutar i vila.</p><p>En cylinder på 350 g har tyngdpunkten i mitten. Radien är 4,0 cm och längden 11,0 cm. Den ligger på sidan och ställs upp på sin plana ändyta. Hur mycket ökar lägesenergin? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdpunkten är först på höjden 4,0 cm och sedan på halva längden, 5,5 cm. Höjdökningen är 1,5 cm = 0,015 m. Massan är 350 g = 0,350 kg.</p>\\[\\Delta E_p=0{,}350\\cdot9{,}82\\cdot0{,}015\\approx0{,}0516\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Hur mycket höjs cylinderns tyngdpunkt?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -170435,12 +170435,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Fem murstenar (15,0 cm höga, 25,0 kg var) ligger på marken och staplas. Bestäm det minsta lyftarbetet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Stenarna lyfts 0,15 + 0,30 + 0,45 + 0,60 = 1,50 m sammanlagt: \\(W=25{,}0\\cdot9{,}82\\cdot1{,}50\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(368\\) J</p></div>",
-        "ledtrad": "<p>Hur högt lyfts varje sten?</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Fem likadana block på 25,0 kg var är staplade ovanpå varandra. Varje block är 15,0 cm högt. Blocken placeras sedan var för sig på samma golv, med samma sida nedåt. Hur mycket minskar deras sammanlagda lägesenergi? Svara med ett positivt värde i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Föremålen börjar och slutar i vila.</p><p>Fem likadana block på 25,0 kg var är staplade ovanpå varandra. Varje block är 15,0 cm högt. Blocken placeras sedan var för sig på samma golv, med samma sida nedåt. Hur mycket minskar deras sammanlagda lägesenergi? Svara med ett positivt värde i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det nedersta blockets tyngdpunkt ändrar inte höjd. De övriga tyngdpunkterna sänks 0,15, 0,30, 0,45 och 0,60 m. Summera dessa höjdminskningar.</p>\\[\\begin{gathered}h_\\text{summa}=0+0{,}15+0{,}30+0{,}45+0{,}60\\\\=1{,}50\\,\\mathrm m\\end{gathered}\\]<p>Varje block har massan 25,0 kg. Lägesenergin minskar med</p>\\[E_\\text{minskning}=25{,}0\\cdot9{,}82\\cdot1{,}50\\approx368\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Hur mycket sänks varje blocks tyngdpunkt? Summera höjdminskningarna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -170454,11 +170454,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
+    "niva": "E",
     "typ": "bänkpress",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p><ol type=\"a\"><li>Hur stor kraft lyfter han med?</li><li>Hur stort arbete gör han när han lyfter?</li><li>Vilket arbete gör Gregers kraft på stången när han sänker den 65 cm? Ange tecken och svara i J.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart betyder att den sammanlagda kraften är noll. Gregers kraft uppåt är därför lika stor som tyngdkraften nedåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=mg=72\\cdot9{,}82=707{,}04\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 707 N uppåt.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart ökar inte rörelseenergin. Gregers arbete blir skivstångens ökade lägesenergi. Höjden är 65 cm = 0,65 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh=72\\cdot9{,}82\\cdot0{,}65=459{,}576\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 460 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Gregers kraft är uppåtriktad och lika stor som tyngdkraften. Stången rör sig nedåt, så hans arbete är negativt.</p><div class=\"facit-matte\">\\[W=-mgs=-72\\cdot9{,}82\\cdot0{,}65=-459{,}576\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka −460 J.</p></div></div></div></div></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp 65 cm med konstant fart och sänker den sedan lika långt med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är Gregers kraft under lyftet? Svara i N. Svara med tre värdesiffror.</li><li>Bestäm Gregers arbete under lyftet i J. Svara med tre värdesiffror.</li><li>Bestäm Gregers arbete under sänkningen i J, med tecken. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart balanserar Gregers kraft tyngdkraften. Hans kraft är uppåt.</p>\\[F=mg=72\\cdot9{,}82\\approx707\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Konstant fart ger kraften mg uppåt. Omvandla 65 cm till 0,65 m. Kraften och förflyttningen har samma riktning.</p>\\[W=mgh=72\\cdot9{,}82\\cdot0{,}65\\approx460\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Även under sänkningen balanserar Gregers uppåtriktade kraft tyngdkraften. Förflyttningen är nedåt. Arbetet blir därför negativt.</p>\\[W=-mgs=-72\\cdot9{,}82\\cdot0{,}65\\approx-460\\,\\mathrm J\\]</div>",
     "id": "5.528",
     "miniräknare": true,
     "geogebra": false,
@@ -170470,9 +170470,9 @@ window.BANK = [
       -459.57599999999996
     ],
     "tolerans": [
-      10.6,
-      6.89,
-      6.89
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -170496,14 +170496,14 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Greger lyfter en skivstång (72 kg) 65 cm med konstant fart och sänker den sedan sakta med konstant fart.</p>",
+    "spelIntro": "<p>Greger lyfter en skivstång på 72 kg rakt upp 65 cm med konstant fart och sänker den sedan lika långt med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är Gregers kraft på skivstången? Svara i N.",
-        "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp med konstant fart. Använd g = 9,82 m/s².</p><p>Hur stor är Gregers kraft på skivstången? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart betyder att den sammanlagda kraften är noll. Gregers kraft uppåt är därför lika stor som tyngdkraften nedåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=mg=72\\cdot9{,}82=707{,}04\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 707 N uppåt.</p></div></div>",
-        "ledtrad": "<p>Konstant fart: jämvikt.</p>",
+        "fraga": "Hur stor är Gregers kraft under lyftet? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp med konstant fart. Använd F = mg och g = 9,82 m/s².</p><p>Hur stor är Gregers kraft under lyftet? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar Gregers kraft tyngdkraften. Hans kraft är uppåt.</p>\\[F=mg=72\\cdot9{,}82\\approx707\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Vid konstant fart balanseras tyngdkraften.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -170511,29 +170511,29 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort arbete gör Gregers kraft? Svara i J.",
-        "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp 65 cm med konstant fart. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör Gregers kraft? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart ökar inte rörelseenergin. Gregers arbete blir skivstångens ökade lägesenergi. Höjden är 65 cm = 0,65 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh=72\\cdot9{,}82\\cdot0{,}65=459{,}576\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 460 J.</p></div></div>",
-        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "fraga": "Bestäm Gregers arbete under lyftet i J. Svara med tre värdesiffror.",
+        "t": "<p>Greger lyfter en skivstång på 72 kg rakt upp 65 cm med konstant fart. Använd g = 9,82 m/s².</p><p>Bestäm Gregers arbete under lyftet i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart ger kraften mg uppåt. Omvandla 65 cm till 0,65 m. Kraften och förflyttningen har samma riktning.</p>\\[W=mgh=72\\cdot9{,}82\\cdot0{,}65\\approx460\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Omvandla sträckan till meter och beräkna arbetet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Vilket arbete gör Gregers kraft på stången? Ange tecken och svara i J.",
-        "t": "<p>Greger sänker en skivstång på 72 kg lodrätt 65 cm med konstant fart. Använd g = 9,82 m/s².</p><p>Vilket arbete gör Gregers kraft på stången? Ange tecken och svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Gregers kraft är uppåtriktad och lika stor som tyngdkraften. Stången rör sig nedåt, så hans arbete är negativt.</p><div class=\"facit-matte\">\\[W=-mgs=-72\\cdot9{,}82\\cdot0{,}65=-459{,}576\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka −460 J.</p></div></div>",
-        "ledtrad": "<p>Kraft och förflyttning är motriktade.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Bestäm Gregers arbete under sänkningen i J, med tecken. Svara med tre värdesiffror.",
+        "t": "<p>Greger sänker en skivstång på 72 kg rakt ned 65 cm med konstant fart. Använd g = 9,82 m/s².</p><p>Bestäm Gregers arbete under sänkningen i J, med tecken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Även under sänkningen balanserar Gregers uppåtriktade kraft tyngdkraften. Förflyttningen är nedåt. Arbetet blir därför negativt.</p>\\[W=-mgs=-72\\cdot9{,}82\\cdot0{,}65\\approx-460\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Kraften och förflyttningen har motsatta riktningar.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "arbete__arbete_w_fs",
     "arbetsinsats": 2,
     "spel": true
@@ -170544,8 +170544,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arbete med sned dragkraft",
     "poang": "(3/0/0)",
-    "t": "<p>Bestäm arbetet.</p><ol type=\"a\"><li>Frida drar en låda 5,5 m med 70 N i ett snöre som bildar 35° med golvet.</li><li>Oskar drar en tvättkorg 5,0 m med 85 N i vinkeln 60° mot golvet.</li><li>Helena drar en släde med 240 N i vinkeln 30,0° mot marken med farten 1,5 m/s i 10,0 s.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=70\\cos35^\\circ\\cdot5{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(315\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=85\\cos60^\\circ\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(212{,}5\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(s=15\\) m, \\(W=240\\cos30{,}0^\\circ\\cdot15\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,118\\) J</p></li></ol></div>",
+    "t": "<p>Kraften är konstant. Förflyttningen är vågrät och föremålet behåller kontakten med underlaget.</p><ol type=\"a\"><li>Frida drar en låda 5,5 m med kraften 70 N, riktad 35° uppåt från rörelseriktningen. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.</li><li>Oskar drar en tvättkorg 5,0 m med kraften 85 N, riktad 60° uppåt från rörelseriktningen. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.</li><li>Helena drar en kälke med kraften 240 N, riktad 30,0° uppåt från rörelseriktningen. Farten är konstant 1,5 m/s. Bestäm dragkraftens arbete under 10,0 s i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Bara kraftens vågräta del gör arbete.</p>\\[W=Fs\\cos\\theta=70\\cdot5{,}5\\cos35^\\circ\\approx315\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Förflyttningen är vågrät, så använd kraftens vågräta del.</p>\\[W=85\\cdot5{,}0\\cos60^\\circ=212{,}5\\,\\mathrm J\\]<p>Med tre värdesiffror: 213 J.</p><p><strong>c)</strong></p><p>Beräkna sträckan med den konstanta farten. Bara kraftens vågräta del gör arbete.</p>\\[s=vt=1{,}5\\cdot10{,}0=15\\,\\mathrm m\\]\\[W=240\\cdot15\\cos30{,}0^\\circ\\approx3120\\,\\mathrm J\\]</div>",
     "id": "5.529",
     "miniräknare": true,
     "geogebra": false,
@@ -170553,13 +170553,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       315.37353705126185,
-      212.5,
+      212.50000000000003,
       3117.691453623979
     ],
     "tolerans": [
-      5.1,
-      5.1,
-      51.0
+      0.5,
+      0.5,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -170582,40 +170582,40 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm arbetet.</p>",
+    "spelIntro": "<p>Kraften är konstant. Förflyttningen är vågrät och föremålet behåller kontakten med underlaget.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Frida drar en låda 5,5 m med 70 N i ett snöre som bildar 35° med golvet.",
-        "t": "<p>Bestäm arbetet.</p><p>Frida drar en låda 5,5 m med 70 N i ett snöre som bildar 35° med golvet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=70\\cos35^\\circ\\cdot5{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(315\\) J</p></div>",
-        "ledtrad": "<p>Bara den vågräta komposanten gör arbete.</p>",
+        "fraga": "Frida drar en låda 5,5 m med kraften 70 N, riktad 35° uppåt från rörelseriktningen. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>Kraften är konstant. Förflyttningen är vågrät och föremålet behåller kontakten med underlaget.</p><p>Frida drar en låda 5,5 m med kraften 70 N, riktad 35° uppåt från rörelseriktningen. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara kraftens vågräta del gör arbete.</p>\\[W=Fs\\cos\\theta=70\\cdot5{,}5\\cos35^\\circ\\approx315\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Bara kraftens vågräta del gör arbete.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Oskar drar en tvättkorg 5,0 m med 85 N i vinkeln 60° mot golvet.",
-        "t": "<p>Bestäm arbetet.</p><p>Oskar drar en tvättkorg 5,0 m med 85 N i vinkeln 60° mot golvet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=85\\cos60^\\circ\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(212{,}5\\) J</p></div>",
-        "ledtrad": "<p>Bara den vågräta komposanten gör arbete.</p>",
+        "fraga": "Oskar drar en tvättkorg 5,0 m med kraften 85 N, riktad 60° uppåt från rörelseriktningen. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>Kraften är konstant. Förflyttningen är vågrät och föremålet behåller kontakten med underlaget.</p><p>Oskar drar en tvättkorg 5,0 m med kraften 85 N, riktad 60° uppåt från rörelseriktningen. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Förflyttningen är vågrät, så använd kraftens vågräta del.</p>\\[W=85\\cdot5{,}0\\cos60^\\circ=212{,}5\\,\\mathrm J\\]<p>Med tre värdesiffror: 213 J.</p></div>",
+        "ledtrad": "<p>Bara kraftens vågräta del gör arbete.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Helena drar en släde med 240 N i vinkeln 30,0° mot marken med farten 1,5 m/s i 10,0 s.",
-        "t": "<p>Bestäm arbetet.</p><p>Helena drar en släde med 240 N i vinkeln 30,0° mot marken med farten 1,5 m/s i 10,0 s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(s=15\\) m, \\(W=240\\cos30{,}0^\\circ\\cdot15\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,118\\) J</p></div>",
-        "ledtrad": "<p>Bestäm sträckan.</p>",
+        "fraga": "Helena drar en kälke med kraften 240 N, riktad 30,0° uppåt från rörelseriktningen. Farten är konstant 1,5 m/s. Bestäm dragkraftens arbete under 10,0 s i J. Svara med tre värdesiffror.",
+        "t": "<p>Kraften är konstant. Förflyttningen är vågrät och föremålet behåller kontakten med underlaget.</p><p>Helena drar en kälke med kraften 240 N, riktad 30,0° uppåt från rörelseriktningen. Farten är konstant 1,5 m/s. Bestäm dragkraftens arbete under 10,0 s i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna sträckan med den konstanta farten. Bara kraftens vågräta del gör arbete.</p>\\[s=vt=1{,}5\\cdot10{,}0=15\\,\\mathrm m\\]\\[W=240\\cdot15\\cos30{,}0^\\circ\\approx3120\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Beräkna sträckan med den konstanta farten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(W=F\\cos\\alpha\\cdot s\\).</p>",
@@ -170630,8 +170630,8 @@ window.BANK = [
     "niva": "C",
     "typ": "vagn uppför backe",
     "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><ol type=\"a\"><li>Vilken kraft längs backen krävs utan friktion?</li><li>Bestäm arbetet utan friktion.</li><li>Bestäm arbetet om friktionen är 40 N.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm kraften längs backen</p><p>Konstant fart betyder att krafterna längs backen balanserar. Utan friktion måste dragkraften balansera tyngdkraftens komposant:</p><div class=\"facit-matte\">\\[F=mg\\sin20^\\circ=18\\cdot9{,}82\\sin20^\\circ\\approx60{,}455\\,\\text{N}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(60\\,\\text{N}\\) uppför backen.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm dragkraften</p><p>Vid konstant fart utan friktion balanserar dragkraften tyngdens komposant längs backen:</p><div class=\"facit-matte\">\\[F=mg\\sin20^\\circ=18\\cdot9{,}82\\sin20^\\circ\\approx60{,}455\\,\\text{N}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna dragkraftens arbete</p><p>Kraften verkar i förflyttningens riktning. Använd \\(W=Fs\\) och behåll det oavrundade kraftvärdet:</p><div class=\"facit-matte\">\\[W=18\\cdot9{,}82\\sin20^\\circ\\cdot26\\approx1571{,}84\\,\\text{J}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(1{,}6\\,\\text{kJ}\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm den totala dragkraften</p><p>Dragkraften måste balansera både tyngdens komposant och friktionen:</p><div class=\"facit-matte\">\\[F=18\\cdot9{,}82\\sin20^\\circ+40\\approx100{,}455\\,\\text{N}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna arbetet</p><div class=\"facit-matte\">\\[W=Fs\\approx100{,}455\\cdot26\\approx2611{,}84\\,\\text{J}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(2{,}6\\,\\text{kJ}\\).</p></div></div></div></div>",
+    "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför en rak backe som lutar 20°. Dragkraften verkar längs backen. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor dragkraft behövs utan friktion? Svara i N. Svara med tre värdesiffror.</li><li>Hur stort arbete gör dragkraften utan friktion? Svara i J. Svara med tre värdesiffror.</li><li>Hur stort arbete gör dragkraften om en konstant friktionskraft på 40 N bromsar nedför? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär att dragkraften balanserar tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=mg\\sin20^\\circ\\\\=18\\cdot9{,}82\\sin20^\\circ\\approx60{,}5\\,\\mathrm N\\end{gathered}\\]<p><strong>b)</strong></p><p>Dragkraften är F = 18 · 9,82 sin20° N. Kraften verkar längs de 26 m. Använd kraften utan avrundning.</p>\\[W=Fs=18\\cdot9{,}82\\sin20^\\circ\\cdot26\\approx1570\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Dragkraften måste balansera både tyngdkraftens del längs backen och friktionen.</p>\\[F=18\\cdot9{,}82\\sin20^\\circ+40\\approx100{,}45548\\,\\mathrm N\\]<p>Använd kraften utan avrundning när arbetet beräknas.</p>\\[W=(18\\cdot9{,}82\\sin20^\\circ+40)\\cdot26\\approx2610\\,\\mathrm J\\]</div>",
     "id": "5.530",
     "miniräknare": true,
     "geogebra": false,
@@ -170643,9 +170643,9 @@ window.BANK = [
       2611.842493890375
     ],
     "tolerans": [
-      0.907,
-      51.0,
-      51.0
+      0.05,
+      5.0,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -170669,36 +170669,36 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p>",
+    "spelIntro": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför en rak backe som lutar 20°. Dragkraften verkar längs backen. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken kraft längs backen krävs utan friktion?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><p>Vilken kraft längs backen krävs utan friktion?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm kraften längs backen</p><p>Konstant fart betyder att krafterna längs backen balanserar. Utan friktion måste dragkraften balansera tyngdkraftens komposant:</p><div class=\"facit-matte\">\\[F=mg\\sin20^\\circ=18\\cdot9{,}82\\sin20^\\circ\\approx60{,}455\\,\\text{N}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(60\\,\\text{N}\\) uppför backen.</p></div>",
-        "ledtrad": "<p>Tyngdens komposant längs backen.</p>",
+        "fraga": "Hur stor dragkraft behövs utan friktion? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 18 kg dras med konstant fart uppför en friktionsfri backe som lutar 20°. Dragkraften verkar längs backen. Använd g = 9,82 m/s².</p><p>Hur stor dragkraft behövs utan friktion? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att dragkraften balanserar tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=mg\\sin20^\\circ\\\\=18\\cdot9{,}82\\sin20^\\circ\\approx60{,}5\\,\\mathrm N\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Dragkraften balanserar tyngdkraftens del längs backen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm arbetet utan friktion.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><p>Bestäm arbetet utan friktion.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm dragkraften</p><p>Vid konstant fart utan friktion balanserar dragkraften tyngdens komposant längs backen:</p><div class=\"facit-matte\">\\[F=mg\\sin20^\\circ=18\\cdot9{,}82\\sin20^\\circ\\approx60{,}455\\,\\text{N}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna dragkraftens arbete</p><p>Kraften verkar i förflyttningens riktning. Använd \\(W=Fs\\) och behåll det oavrundade kraftvärdet:</p><div class=\"facit-matte\">\\[W=18\\cdot9{,}82\\sin20^\\circ\\cdot26\\approx1571{,}84\\,\\text{J}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(1{,}6\\,\\text{kJ}\\).</p></div>",
-        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "fraga": "Hur stort arbete gör dragkraften utan friktion? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför en rak backe som lutar 20°. Dragkraften verkar längs backen. Bortse från friktion. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör dragkraften utan friktion? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften är F = 18 · 9,82 sin20° N. Kraften verkar längs de 26 m. Använd kraften utan avrundning.</p>\\[W=Fs=18\\cdot9{,}82\\sin20^\\circ\\cdot26\\approx1570\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Beräkna dragkraften och använd den utan avrundning.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm arbetet om friktionen är 40 N.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vagn (18 kg) dras med konstant fart 26 m uppför en backe som lutar 20°.</p><p>Bestäm arbetet om friktionen är 40 N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm den totala dragkraften</p><p>Dragkraften måste balansera både tyngdens komposant och friktionen:</p><div class=\"facit-matte\">\\[F=18\\cdot9{,}82\\sin20^\\circ+40\\approx100{,}455\\,\\text{N}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna arbetet</p><div class=\"facit-matte\">\\[W=Fs\\approx100{,}455\\cdot26\\approx2611{,}84\\,\\text{J}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(2{,}6\\,\\text{kJ}\\).</p></div>",
-        "ledtrad": "<p>Friktionen ska också övervinnas.</p>",
+        "fraga": "Hur stort arbete gör dragkraften om en konstant friktionskraft på 40 N bromsar nedför? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 18 kg dras med konstant fart 26 m uppför en rak backe som lutar 20°. Dragkraften verkar längs backen. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör dragkraften om en konstant friktionskraft på 40 N bromsar nedför? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften måste balansera både tyngdkraftens del längs backen och friktionen.</p>\\[F=18\\cdot9{,}82\\sin20^\\circ+40\\approx100{,}45548\\,\\mathrm N\\]<p>Använd kraften utan avrundning när arbetet beräknas.</p>\\[W=(18\\cdot9{,}82\\sin20^\\circ+40)\\cdot26\\approx2610\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Dragkraften ska även balansera friktionen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -170716,9 +170716,9 @@ window.BANK = [
     "omr": "arbete",
     "niva": "C",
     "typ": "låda glider nedför plan",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p><ol type=\"a\"><li>Hur stort arbete gör friktionen (storlek)?</li><li>Hur stort arbete gör tyngdkraften?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=0{,}25\\cdot15\\cdot9{,}82\\cos28^\\circ\\cdot1{,}20\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=15\\cdot9{,}82\\sin28^\\circ\\cdot1{,}20\\].</div></div><div class=\"facit-stycke\"><p>Större än friktionsarbetet, så farten ökar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83\\) J</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En låda på 15 kg glider 1,20 m nedför en rak ramp som lutar 28°. Glidfriktionstalet är 0,25. Bara tyngdkraft, normalkraft och friktion verkar. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket energi tar friktionen från rörelsen? Svara med ett positivt värde i J. Svara med tre värdesiffror.</li><li>Hur stort arbete gör tyngdkraften under denna förflyttning? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Normalkraften är N = mg cos28°. Friktionens arbete är negativt. Frågan gäller den energi som friktionen tar, alltså det positiva beloppet.</p>\\[E_\\text{förlust}=\\mu mgs\\cos28^\\circ\\]\\[\\begin{gathered}E_\\text{förlust}=0{,}25\\cdot15\\cdot9{,}82\\cdot1{,}20\\cos28^\\circ\\\\\\approx39{,}0\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Höjdminskningen är h = 1,20 sin28° m. Tyngdkraften gör positivt arbete när lådan rör sig nedåt.</p>\\[\\begin{gathered}W_g=mgh\\\\=15\\cdot9{,}82\\cdot1{,}20\\sin28^\\circ\\approx83{,}0\\,\\mathrm J\\end{gathered}\\]</div>",
     "id": "5.531",
     "miniräknare": true,
     "geogebra": false,
@@ -170729,8 +170729,8 @@ window.BANK = [
       82.98379343803406
     ],
     "tolerans": [
-      0.585,
-      1.24
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -170751,14 +170751,14 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p>",
+    "spelIntro": "<p>En låda på 15 kg glider 1,20 m nedför en rak ramp som lutar 28°. Glidfriktionstalet är 0,25. Bara tyngdkraft, normalkraft och friktion verkar. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör friktionen (storlek)?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p><p>Hur stort arbete gör friktionen (storlek)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=0{,}25\\cdot15\\cdot9{,}82\\cos28^\\circ\\cdot1{,}20\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39\\) J</p></div>",
-        "ledtrad": "<p>Normalkraften är \\(mg\\cos\\alpha\\).</p>",
+        "fraga": "Hur mycket energi tar friktionen från rörelsen? Svara med ett positivt värde i J. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 15 kg glider 1,20 m nedför en rak ramp som lutar 28°. Glidfriktionstalet är 0,25. Bara tyngdkraft, normalkraft och friktion verkar. Använd g = 9,82 m/s².</p><p>Hur mycket energi tar friktionen från rörelsen? Svara med ett positivt värde i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är N = mg cos28°. Friktionens arbete är negativt. Frågan gäller den energi som friktionen tar, alltså det positiva beloppet.</p>\\[E_\\text{förlust}=\\mu mgs\\cos28^\\circ\\]\\[\\begin{gathered}E_\\text{förlust}=0{,}25\\cdot15\\cdot9{,}82\\cdot1{,}20\\cos28^\\circ\\\\\\approx39{,}0\\,\\mathrm J\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Beräkna normalkraften och sedan friktionens energiförlust.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -170766,13 +170766,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort arbete gör tyngdkraften?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (15 kg) glider 1,20 m nedför ett plan som lutar 28°. Friktionstalet är 0,25.</p><p>Hur stort arbete gör tyngdkraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=15\\cdot9{,}82\\sin28^\\circ\\cdot1{,}20\\].</div></div><div class=\"facit-stycke\"><p>Större än friktionsarbetet, så farten ökar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83\\) J</p></div>",
-        "ledtrad": "<p>Komposanten längs planet.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Hur stort arbete gör tyngdkraften under denna förflyttning? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En låda på 15 kg glider 1,20 m nedför en rak ramp som lutar 28°. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör tyngdkraften under denna förflyttning? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdminskningen är h = 1,20 sin28° m. Tyngdkraften gör positivt arbete när lådan rör sig nedåt.</p>\\[\\begin{gathered}W_g=mgh\\\\=15\\cdot9{,}82\\cdot1{,}20\\sin28^\\circ\\approx83{,}0\\,\\mathrm J\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Tyngdkraftens arbete bestäms av höjdminskningen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -170788,8 +170788,8 @@ window.BANK = [
     "niva": "C",
     "typ": "ramp eller rakt lyft",
     "poang": "(3/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><ol type=\"a\"><li>Hur stort arbete krävs för det raka lyftet?</li><li>Vilken vinkel har rampen?</li><li>Hur stor kraft krävs längs rampen?</li><li>Hur stort arbete krävs längs rampen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=150\\cdot9{,}82\\cdot1{,}00\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,473\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{1{,}00}{5{,}00}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\) °</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=150\\cdot9{,}82\\cdot\\dfrac{1{,}00}{5{,}00}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(295\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=295\\cdot5{,}00\\), samma som det raka lyftet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,473\\) J</p></li></ol></div>",
+    "t": "<p>En låda på 150 kg ska höjas 1,00 m. Den kan lyftas rakt upp eller dras uppför en rak, 5,00 m lång ramp. Rörelsen sker med konstant fart. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm lyftkraftens arbete vid det raka lyftet i J. Svara med tre värdesiffror.</li><li>Bestäm rampens vinkel mot marken i grader. Svara med tre värdesiffror.</li><li>Bestäm dragkraften längs rampen i N. Svara med tre värdesiffror.</li><li>Bestäm dragkraftens arbete längs rampen i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart går arbetet till ökad lägesenergi.</p>\\[W=mgh=150\\cdot9{,}82\\cdot1{,}00=1473\\,\\mathrm J\\]<p>Med tre värdesiffror: 1470 J.</p><p><strong>b)</strong></p><p>Rampens höjd är motstående katet och rampens längd är hypotenusa.</p>\\[\\sin\\alpha=\\frac{1{,}00}{5{,}00}=0{,}20\\]\\[\\alpha=\\arcsin0{,}20\\approx11{,}5^\\circ\\]<p><strong>c)</strong></p><p>Dragkraften balanserar tyngdkraftens del längs rampen. Rampens höjd och längd ger sinα = 1,00/5,00.</p>\\[F=mg\\sin\\alpha=150\\cdot9{,}82\\cdot\\frac{1{,}00}{5{,}00}\\approx295\\,\\mathrm N\\]<p><strong>d)</strong></p><p>Utan friktion och vid konstant fart blir hela dragarbetet ökad lägesenergi. Använd höjden 1,00 m.</p>\\[W=mgh=150\\cdot9{,}82\\cdot1{,}00=1473\\,\\mathrm J\\]<p>Med tre värdesiffror: 1470 J. Rampen ger mindre kraft över längre sträcka, men samma arbete.</p></div>",
     "id": "5.532",
     "miniräknare": true,
     "geogebra": false,
@@ -170802,10 +170802,10 @@ window.BANK = [
       1473.0
     ],
     "tolerans": [
-      22.1,
-      0.173,
-      4.42,
-      22.1
+      5.0,
+      0.05,
+      0.5,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -170832,36 +170832,36 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p>",
+    "spelIntro": "<p>En låda på 150 kg ska höjas 1,00 m. Den kan lyftas rakt upp eller dras uppför en rak, 5,00 m lång ramp. Rörelsen sker med konstant fart. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör lyftkraften? Svara i J.",
-        "t": "<p>En låda på 150 kg lyfts rakt upp 1,00 m med konstant fart. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör lyftkraften? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=150\\cdot9{,}82\\cdot1{,}00\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,473\\) J</p></div>",
-        "ledtrad": "<p>\\(W=mgh\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken vinkel har rampen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Vilken vinkel har rampen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{1{,}00}{5{,}00}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\) °</p></div>",
-        "ledtrad": "<p>Trigonometri.</p>",
+        "fraga": "Bestäm lyftkraftens arbete i J med tre värdesiffror.",
+        "t": "<p>En låda på 150 kg lyfts rakt upp 1,00 m med konstant fart. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart går arbetet till ökad lägesenergi.</p>\\[W=mgh=150\\cdot9{,}82\\cdot1{,}00=1473\\,\\mathrm J\\]<p>Med tre värdesiffror: 1470 J.</p></div>",
+        "ledtrad": "<p>Konstant fart gör att lyftarbetet blir ökad lägesenergi.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm rampens vinkel mot marken i grader med tre värdesiffror.",
+        "t": "<p>En rak ramp är 5,00 m lång och 1,00 m hög.</p><p>Bestäm rampens vinkel mot marken i grader med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rampens höjd är motstående katet och rampens längd är hypotenusa.</p>\\[\\sin\\alpha=\\frac{1{,}00}{5{,}00}=0{,}20\\]\\[\\alpha=\\arcsin0{,}20\\approx11{,}5^\\circ\\]</div>",
+        "ledtrad": "<p>Höjden och rampens längd ger sinus för vinkeln.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor kraft krävs längs rampen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Hur stor kraft krävs längs rampen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=150\\cdot9{,}82\\cdot\\dfrac{1{,}00}{5{,}00}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(295\\) N</p></div>",
-        "ledtrad": "<p>Komposanten längs rampen.</p>",
+        "fraga": "Bestäm dragkraften längs rampen i N med tre värdesiffror.",
+        "t": "<p>En låda på 150 kg dras med konstant fart längs en rak, friktionsfri ramp, 5,00 m lång och 1,00 m hög. Kraften verkar längs rampen. Använd g = 9,82 m/s².</p><p>Bestäm dragkraften längs rampen i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften balanserar tyngdkraftens del längs rampen. Rampens höjd och längd ger sinα = 1,00/5,00.</p>\\[F=mg\\sin\\alpha=150\\cdot9{,}82\\cdot\\frac{1{,}00}{5{,}00}\\approx295\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Dragkraften balanserar tyngdkraftens del längs rampen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -170869,20 +170869,20 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hur stort arbete krävs längs rampen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (150 kg) ska upp på ett flak 1,00 m över marken, antingen med ett rakt lyft eller uppför en 5,00 m lång friktionsfri ramp.</p><p>Hur stort arbete krävs längs rampen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=295\\cdot5{,}00\\), samma som det raka lyftet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,473\\) J</p></div>",
-        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "fraga": "Bestäm dragkraftens arbete i J med tre värdesiffror.",
+        "t": "<p>En låda på 150 kg dras uppför en friktionsfri ramp till höjden 1,00 m med konstant fart. Använd g = 9,82 m/s².</p><p>Bestäm dragkraftens arbete i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan friktion och vid konstant fart blir hela dragarbetet ökad lägesenergi. Använd höjden 1,00 m.</p>\\[W=mgh=150\\cdot9{,}82\\cdot1{,}00=1473\\,\\mathrm J\\]<p>Med tre värdesiffror: 1470 J. Rampen ger mindre kraft över längre sträcka, men samma arbete.</p></div>",
+        "ledtrad": "<p>Vid konstant fart utan friktion blir arbetet ökad lägesenergi.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Det man vinner i kraft förlorar man i väg.</p>",
     "traningsniva": 3,
     "familjNyckel": "arbete__arbete_w_fs",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -170891,8 +170891,8 @@ window.BANK = [
     "niva": "C",
     "typ": "hockeypuck bromsas",
     "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><ol type=\"a\"><li>Bestäm friktionskraften.</li><li>Efter hur lång tid stannar pucken?</li><li>Hur stort arbete gör friktionen (storlek)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}030\\cdot0{,}25\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}074\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=0{,}030\\cdot9{,}82\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{25}{a}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(85\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{0{,}25\\cdot25^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(78\\) J</p></li></ol></div>",
+    "t": "<p>En puck på 0,25 kg glider på vågrät is med startfarten 25 m/s. Glidfriktionstalet är 0,030. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är friktionskraften? Svara i N. Svara med tre värdesiffror.</li><li>Hur lång tid tar det innan pucken stannar? Svara i s. Svara med tre värdesiffror.</li><li>Hur mycket energi tar friktionen från puckens rörelse tills den stannar? Svara med ett positivt värde i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vågrät is är normalkraften mg. Glidfriktionen är μ gånger normalkraften.</p>\\[\\begin{gathered}f=\\mu mg\\\\=0{,}030\\cdot0{,}25\\cdot9{,}82=0{,}07365\\,\\mathrm N\\end{gathered}\\]<p>Med tre värdesiffror: 0,0737 N.</p><p><strong>b)</strong></p><p>Friktionen ger en konstant retardation b = f/m = μg. Farten minskar från 25 till 0 m/s.</p>\\[b=0{,}030\\cdot9{,}82=0{,}2946\\,\\mathrm{m/s^2}\\]\\[t=\\frac{v_0}{b}=\\frac{25}{0{,}2946}\\approx84{,}9\\,\\mathrm s\\]<p><strong>c)</strong></p><p>Pucken slutar i vila. Hela startens rörelseenergi tas därför av friktionen.</p>\\[E_\\text{förlust}=\\frac{mv_0^2}{2}=\\frac{0{,}25\\cdot25^2}{2}\\approx78{,}1\\,\\mathrm J\\]</div>",
     "id": "5.533",
     "miniräknare": true,
     "geogebra": false,
@@ -170904,9 +170904,9 @@ window.BANK = [
       78.125
     ],
     "tolerans": [
-      0.0011,
-      1.27,
-      1.17
+      5e-05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -170929,25 +170929,25 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p>",
+    "spelIntro": "<p>En puck på 0,25 kg glider på vågrät is med startfarten 25 m/s. Glidfriktionstalet är 0,030. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är friktionskraften? Svara i N.",
-        "t": "<p>En puck på 0,25 kg glider på vågrät is. Glidfriktionstalet är 0,030. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}030\\cdot0{,}25\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}074\\) N</p></div>",
-        "ledtrad": "<p>\\(F=\\mu mg\\).</p>",
+        "fraga": "Hur stor är friktionskraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En puck på 0,25 kg glider på vågrät is. Glidfriktionstalet är 0,030. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrät is är normalkraften mg. Glidfriktionen är μ gånger normalkraften.</p>\\[\\begin{gathered}f=\\mu mg\\\\=0{,}030\\cdot0{,}25\\cdot9{,}82=0{,}07365\\,\\mathrm N\\end{gathered}\\]<p>Med tre värdesiffror: 0,0737 N.</p></div>",
+        "ledtrad": "<p>Friktionen är μ gånger normalkraften.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Efter hur lång tid stannar pucken?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><p>Efter hur lång tid stannar pucken?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=0{,}030\\cdot9{,}82\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{25}{a}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(85\\) s</p></div>",
-        "ledtrad": "<p>Bestäm retardationen.</p>",
+        "fraga": "Hur lång tid tar det innan pucken stannar? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En puck på 0,25 kg glider på vågrät is med startfarten 25 m/s. Glidfriktionstalet är 0,030. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur lång tid tar det innan pucken stannar? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen ger en konstant retardation b = f/m = μg. Farten minskar från 25 till 0 m/s.</p>\\[b=0{,}030\\cdot9{,}82=0{,}2946\\,\\mathrm{m/s^2}\\]\\[t=\\frac{v_0}{b}=\\frac{25}{0{,}2946}\\approx84{,}9\\,\\mathrm s\\]</div>",
+        "ledtrad": "<p>Beräkna den konstanta retardationen från friktionen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -170955,14 +170955,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort arbete gör friktionen (storlek)?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En puck (0,25 kg) glider med 25 m/s på isen. Friktionstalet är 0,030.</p><p>Hur stort arbete gör friktionen (storlek)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{0{,}25\\cdot25^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(78\\) J</p></div>",
-        "ledtrad": "<p>All rörelseenergi.</p>",
+        "fraga": "Hur mycket energi tar friktionen från puckens rörelse tills den stannar? Svara med ett positivt värde i J. Svara med tre värdesiffror.",
+        "t": "<p>En puck på 0,25 kg glider med 25 m/s på vågrät is och bromsas till vila enbart av friktion.</p><p>Hur mycket energi tar friktionen från puckens rörelse tills den stannar? Svara med ett positivt värde i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Pucken slutar i vila. Hela startens rörelseenergi tas därför av friktionen.</p>\\[E_\\text{förlust}=\\frac{mv_0^2}{2}=\\frac{0{,}25\\cdot25^2}{2}\\approx78{,}1\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Jämför rörelseenergin före och efter inbromsningen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Friktionen bromsar pucken.</p>",
@@ -170974,11 +170974,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "arbete",
-    "niva": "A",
+    "niva": "C",
     "typ": "sned dragkraft med friktion",
-    "poang": "(1/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p><ol type=\"a\"><li>Hur stort arbete gör snöret?</li><li>Hur stort arbete gör friktionen (storlek)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=40\\cos30^\\circ\\cdot4{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(156\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=5{,}0\\cdot9{,}82-40\\sin30^\\circ\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=0{,}25F_N\\cdot4{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33\\) J</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En kloss på 5,0 kg glider 4,5 m åt höger längs ett vågrätt golv. Ett snöre drar med 40 N i vinkeln 30° uppåt åt höger. Glidfriktionstalet är 0,25. Bortse från annat motstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm snörkraftens arbete i J. Svara med tre värdesiffror.</li><li>Hur mycket energi tar friktionen från rörelsen? Svara med ett positivt värde i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Bara snörkraftens vågräta del gör arbete.</p>\\[W=Fs\\cos\\theta=40\\cdot4{,}5\\cos30^\\circ\\approx156\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Snörets lodräta kraft minskar normalkraften. Ingen lodrät acceleration sker.</p>\\[\\begin{gathered}N=mg-F\\sin30^\\circ\\\\=5{,}0\\cdot9{,}82-40\\sin30^\\circ\\end{gathered}\\]\\[N=29{,}1\\,\\mathrm N\\]<p>Friktionens arbete är negativt. Den borttagna energin är dess positiva belopp.</p>\\[E_\\text{förlust}=\\mu Ns=0{,}25\\cdot29{,}1\\cdot4{,}5\\approx32{,}7\\,\\mathrm J\\]</div>",
     "id": "5.534",
     "miniräknare": true,
     "geogebra": false,
@@ -170989,8 +170989,8 @@ window.BANK = [
       32.737500000000004
     ],
     "tolerans": [
-      5.1,
-      0.51
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -171010,27 +171010,27 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p>",
+    "spelIntro": "<p>En kloss på 5,0 kg glider 4,5 m åt höger längs ett vågrätt golv. Ett snöre drar med 40 N i vinkeln 30° uppåt åt höger. Glidfriktionstalet är 0,25. Bortse från annat motstånd och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör snöret?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p><p>Hur stort arbete gör snöret?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=40\\cos30^\\circ\\cdot4{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(156\\) J</p></div>",
-        "ledtrad": "<p>\\(W=F\\cdot s\\) med kraften i förflyttningens riktning.</p>",
+        "fraga": "Bestäm snörkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>En kloss glider 4,5 m längs ett vågrätt golv. Snöret drar med 40 N i vinkeln 30° uppåt från rörelseriktningen.</p><p>Bestäm snörkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara snörkraftens vågräta del gör arbete.</p>\\[W=Fs\\cos\\theta=40\\cdot4{,}5\\cos30^\\circ\\approx156\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Bara snörkraftens vågräta del gör arbete.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort arbete gör friktionen (storlek)?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (5,0 kg) dras 4,5 m längs marken med ett snöre i vinkeln 30° uppåt. Spännkraften är 40 N och friktionstalet 0,25.</p><p>Hur stort arbete gör friktionen (storlek)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=5{,}0\\cdot9{,}82-40\\sin30^\\circ\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=0{,}25F_N\\cdot4{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33\\) J</p></div>",
-        "ledtrad": "<p>Snöret lyfter lite: normalkraften minskar.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Hur mycket energi tar friktionen från rörelsen? Svara med ett positivt värde i J. Svara med tre värdesiffror.",
+        "t": "<p>En kloss på 5,0 kg glider 4,5 m åt höger längs ett vågrätt golv. Ett snöre drar med 40 N i vinkeln 30° uppåt åt höger. Glidfriktionstalet är 0,25. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Hur mycket energi tar friktionen från rörelsen? Svara med ett positivt värde i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Snörets lodräta kraft minskar normalkraften. Ingen lodrät acceleration sker.</p>\\[\\begin{gathered}N=mg-F\\sin30^\\circ\\\\=5{,}0\\cdot9{,}82-40\\sin30^\\circ\\end{gathered}\\]\\[N=29{,}1\\,\\mathrm N\\]<p>Friktionens arbete är negativt. Den borttagna energin är dess positiva belopp.</p>\\[E_\\text{förlust}=\\mu Ns=0{,}25\\cdot29{,}1\\cdot4{,}5\\approx32{,}7\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Snörets lodräta kraft minskar normalkraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -171044,11 +171044,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "arbete",
-    "niva": "C",
+    "niva": "E",
     "typ": "arbete på fjäder",
-    "poang": "(1/2/0)",
-    "t": "<p>Fjäderenergi: \\(E_\\mathrm{fjäder}=\\dfrac{kx^2}{2}\\).</p><ol type=\"a\"><li>Hur stort arbete krävs för att förlänga en fjäder (32,0 N/m) 0,380 m?</li><li>En fjäder med fjäderkonstanten 150 N/m är redan förlängd 10 cm från sin naturliga längd. Den dras långsamt ut till en förlängning på 30 cm. Hur stort arbete krävs för denna ytterligare förlängning? Svara i J.</li><li>Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{32{,}0\\cdot0{,}380^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}31\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Arbetet är ökningen i fjäderenergi. Subtrahera energin vid 0,10 m från energin vid 0,30 m; använd inte bara skillnaden mellan förlängningarna.</p><div class=\"facit-matte\">\\[W=\\frac{k(x_2^2-x_1^2)}2=\\frac{150(0{,}30^2-0{,}10^2)}2=6{,}0\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\dfrac{2\\cdot13{,}4}{0{,}0237^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(47\\,713\\) N/m</p></div></div></div></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Fjädrarna dras ut eller trycks ihop långsamt. Bortse från energiförluster. Fjäderenergin är \\(E_f\\) = kx²/2, där x mäts från ospänd längd.</p><ol type=\"a\"><li>En fjäder med k = 32,0 N/m dras ut 0,380 m. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.</li><li>En fjäder med k = 150 N/m dras från förlängningen 10 cm till förlängningen 30 cm. Bestäm arbetet för den ytterligare förlängningen i J. Svara med tre värdesiffror.</li><li>Arbetet 13,4 J trycker ihop en fjäder 2,37 cm från ospänd längd. Bestäm fjäderkonstanten i N/m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Arbetet lagras som fjäderenergi. Använd den givna formeln.</p>\\[W=\\frac{kx^2}{2}=\\frac{32{,}0\\cdot0{,}380^2}{2}\\approx2{,}31\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Omvandla 10 cm till 0,10 m och 30 cm till 0,30 m. Arbetet är ökningen i fjäderenergi. Beräkna de två energierna innan du tar skillnaden.</p>\\[E_1=\\frac{150\\cdot0{,}10^2}{2}=0{,}75\\,\\mathrm J\\]\\[E_2=\\frac{150\\cdot0{,}30^2}{2}=6{,}75\\,\\mathrm J\\]\\[W=E_2-E_1=6{,}75-0{,}75=6{,}00\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Arbetet lagras som fjäderenergi. Omvandla 2,37 cm till 0,0237 m och lös W = kx²/2 för k.</p>\\[k=\\frac{2W}{x^2}=\\frac{2\\cdot13{,}4}{0{,}0237^2}\\approx47700\\,\\mathrm{N/m}\\]</div>",
     "id": "5.535",
     "miniräknare": true,
     "geogebra": false,
@@ -171056,13 +171056,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.3104,
-      6.0,
+      5.999999999999999,
       47713.15138243515
     ],
     "tolerans": [
-      0.0347,
-      0.09,
-      716.0
+      0.005,
+      0.005,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -171085,44 +171085,44 @@ window.BANK = [
       "N/m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p>",
+    "spelIntro": "<p>Fjädrarna dras ut eller trycks ihop långsamt. Bortse från energiförluster. Fjäderenergin är \\(E_f\\) = kx²/2, där x mäts från ospänd längd.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete krävs för att förlänga en fjäder (32,0 N/m) 0,380 m?",
-        "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><p>Hur stort arbete krävs för att förlänga en fjäder (32,0 N/m) 0,380 m?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{32{,}0\\cdot0{,}380^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}31\\) J</p></div>",
-        "ledtrad": "<p>Arean under \\(F\\)-\\(s\\)-grafen.</p>",
+        "fraga": "En fjäder med k = 32,0 N/m dras ut 0,380 m. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>Fjädrarna dras ut eller trycks ihop långsamt. Bortse från energiförluster. Fjäderenergin är \\(E_f\\) = kx²/2, där x mäts från ospänd längd.</p><p>En fjäder med k = 32,0 N/m dras ut 0,380 m. Bestäm dragkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet lagras som fjäderenergi. Använd den givna formeln.</p>\\[W=\\frac{kx^2}{2}=\\frac{32{,}0\\cdot0{,}380^2}{2}\\approx2{,}31\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Arbetet lagras som fjäderenergi.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort arbete krävs för denna ytterligare förlängning? Svara i J.",
-        "t": "<p>En fjäder med fjäderkonstanten 150 N/m är redan förlängd 10 cm från sin naturliga längd. Den dras långsamt ut till en förlängning på 30 cm.</p><p>Hur stort arbete krävs för denna ytterligare förlängning? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Arbetet är ökningen i fjäderenergi. Subtrahera energin vid 0,10 m från energin vid 0,30 m; använd inte bara skillnaden mellan förlängningarna.</p><div class=\"facit-matte\">\\[W=\\frac{k(x_2^2-x_1^2)}2=\\frac{150(0{,}30^2-0{,}10^2)}2=6{,}0\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 J.</p></div></div>",
-        "ledtrad": "<p>Beräkna skillnaden i fjäderenergi mellan de två förlängningarna.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "En fjäder med k = 150 N/m dras från förlängningen 10 cm till förlängningen 30 cm. Bestäm arbetet för den ytterligare förlängningen i J. Svara med tre värdesiffror.",
+        "t": "<p>Fjädrarna dras ut eller trycks ihop långsamt. Bortse från energiförluster. Fjäderenergin är \\(E_f\\) = kx²/2, där x mäts från ospänd längd.</p><p>En fjäder med k = 150 N/m dras från förlängningen 10 cm till förlängningen 30 cm. Bestäm arbetet för den ytterligare förlängningen i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 10 cm till 0,10 m och 30 cm till 0,30 m. Arbetet är ökningen i fjäderenergi. Beräkna de två energierna innan du tar skillnaden.</p>\\[E_1=\\frac{150\\cdot0{,}10^2}{2}=0{,}75\\,\\mathrm J\\]\\[E_2=\\frac{150\\cdot0{,}30^2}{2}=6{,}75\\,\\mathrm J\\]\\[W=E_2-E_1=6{,}75-0{,}75=6{,}00\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Beräkna fjäderenergin före och efter förlängningen och ta skillnaden.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.",
-        "t": "<p>Fjäderenergi: \\(W=\\dfrac{kx^2}{2}\\).</p><p>Ett arbete på 13,4 J trycker ihop en fjäder 2,37 cm. Bestäm fjäderkonstanten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\dfrac{2\\cdot13{,}4}{0{,}0237^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(47\\,713\\) N/m</p></div>",
-        "ledtrad": "<p>Lös ut \\(k\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Arbetet 13,4 J trycker ihop en fjäder 2,37 cm från ospänd längd. Bestäm fjäderkonstanten i N/m. Svara med tre värdesiffror.",
+        "t": "<p>Fjädrarna dras ut eller trycks ihop långsamt. Bortse från energiförluster. Fjäderenergin är \\(E_f\\) = kx²/2, där x mäts från ospänd längd.</p><p>Arbetet 13,4 J trycker ihop en fjäder 2,37 cm från ospänd längd. Bestäm fjäderkonstanten i N/m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet lagras som fjäderenergi. Omvandla 2,37 cm till 0,0237 m och lös W = kx²/2 för k.</p>\\[k=\\frac{2W}{x^2}=\\frac{2\\cdot13{,}4}{0{,}0237^2}\\approx47700\\,\\mathrm{N/m}\\]</div>",
+        "ledtrad": "<p>Omvandla hoptryckningen till meter och lös formeln för k.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(W=\\dfrac{kx^2}{2}\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "arbete__fjaderenergi",
     "arbetsinsats": 2,
     "spel": true

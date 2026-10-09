@@ -50439,11 +50439,11 @@ window.BANK = [
     "id": "5.2",
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "nettoarbete och fart",
-    "poang": "(1/1/0)",
+    "poang": "(2/0/0)",
     "t": "<p>En vagn med massan 3,0 kg startar från vila på ett vågrätt spår. En dragkraft uträttar arbetet 45 J på vagnen. Bortse från hjulens rotationsenergi.</p><ol style=\"display:grid;gap:0.85rem\"><li>Vilken fart får vagnen om motstånd saknas? Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Vilken fart får vagnen om motståndskrafterna i stället uträttar arbetet −12 J? Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nettoarbetet är 45 J.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">45 = 3v²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{30}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,48 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nettoarbetet är</p><div class=\"facit-matte\">\\[45-12=33\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">33 = 3v²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{22}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4,69 m/s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vagnen startar från vila. Dragkraftens arbete blir rörelseenergi.</p>\\[\\frac{mv^2}{2}=W\\quad\\Rightarrow\\quad v=\\sqrt{\\frac{2W}{m}}\\]\\[v=\\sqrt{\\frac{2\\cdot45}{3{,}0}}\\approx5{,}48\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Motståndets negativa arbete minskar det sammanlagda arbetet.</p>\\[W_\\text{netto}=45-12=33\\,\\mathrm J\\]<p>Nettoarbetet blir rörelseenergi eftersom vagnen startar från vila.</p>\\[v=\\sqrt{\\frac{2W_\\text{netto}}m}=\\sqrt{\\frac{2\\cdot33}{3{,}0}}\\approx4{,}69\\,\\mathrm{m/s}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -50452,16 +50452,16 @@ window.BANK = [
     "familjNyckel": "arbete__nettoarbete_och_fart",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.48,
-      4.69
+      5.477225575051661,
+      4.69041575982343
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Hur hänger nettoarbetet ihop med vagnens ändring i rörelseenergi?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -50486,10 +50486,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken fart får vagnen om motstånd saknas? Svara i m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En vagn med massan 3,0 kg startar från vila på ett vågrätt spår. En dragkraft uträttar arbetet 45 J på vagnen. Bortse från hjulens rotationsenergi.</p><p>Vilken fart får vagnen om motstånd saknas? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nettoarbetet är 45 J.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">45 = 3v²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{30}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,48 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vagnen startar från vila. Dragkraftens arbete blir rörelseenergi.</p>\\[\\frac{mv^2}{2}=W\\quad\\Rightarrow\\quad v=\\sqrt{\\frac{2W}{m}}\\]\\[v=\\sqrt{\\frac{2\\cdot45}{3{,}0}}\\approx5{,}48\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Hur hänger nettoarbetet ihop med vagnens ändring i rörelseenergi?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -50500,12 +50500,12 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vilken fart får vagnen om motståndskrafterna i stället uträttar arbetet −12 J? Svara i m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En vagn med massan 3,0 kg startar från vila på ett vågrätt spår. En dragkraft uträttar arbetet 45 J på vagnen. Bortse från hjulens rotationsenergi.</p><p>Vilken fart får vagnen om motståndskrafterna i stället uträttar arbetet −12 J? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nettoarbetet är</p><div class=\"facit-matte\">\\[45-12=33\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">33 = 3v²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{22}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4,69 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Motståndets negativa arbete minskar det sammanlagda arbetet.</p>\\[W_\\text{netto}=45-12=33\\,\\mathrm J\\]<p>Nettoarbetet blir rörelseenergi eftersom vagnen startar från vila.</p>\\[v=\\sqrt{\\frac{2W_\\text{netto}}m}=\\sqrt{\\frac{2\\cdot33}{3{,}0}}\\approx4{,}69\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vilka arbeten ska summeras innan slutfarten beräknas?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "modellering",
           "procedur"
@@ -50827,7 +50827,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>Ett barn sitter stilla i en gunga. Gungan höjs 0,60 m från sitt lägsta läge och släpps från vila. Bortse från friktion och luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten i det lägsta läget.</li><li>Visa om barnets massa påverkar svaret i modellen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lägesenergin minskar med mg · 0,60.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den blir rörelseenergi:</p><div class=\"facit-matte\">\\[m g\\cdot 0{,}60=\\frac{m v^{2}}{2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot 9{,}82\\cdot 0{,}60}\\approx 3{,}43\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Massan finns som faktor i båda leden och förkortas bort.</p></div><div class=\"facit-stycke\"><p>Samma höjdskillnad ger därför samma fart oavsett massa, med modellens antaganden.</p></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Höjdminskningen är 0,60 m. Lägesenergin blir rörelseenergi eftersom gungan startar från vila och inga förluster finns.</p>\\[mg\\cdot0{,}60=\\frac{mv^2}{2}\\]<p>Förkorta massan och ta den positiva roten.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot0{,}60}\\approx3{,}43\\,\\mathrm{m/s}\\]<p><strong>b)</strong> Massan finns som faktor i båda leden och förkortas bort. Farten beror därför på höjdskillnaden och tyngdaccelerationen. Barnets massa påverkar inte svaret med dessa antaganden.</p></div>",
     "familj": "Energiprincipen",
     "formaga": [
       "modellering",
@@ -50839,7 +50839,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Skriv samma energibalans för ett lätt och ett tungt barn.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "energibevarande och massa",
     "miniräknare": true,
     "geogebra": false,
@@ -51946,7 +51946,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(3/1/0)",
     "t": "<p>En pulka med barn har massan 40 kg och startar från vila 6,0 m över backens fot. Vid foten är farten 9,0 m/s. Välj backens fot som nollnivå och bortse från rotation. Förlusten av mekanisk energi antas bli inre energi genom friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"241\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.714 41.143 357.714 138.857\"><polygon points=\"50,50 250,160 370,160 370,172 50,172\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(90,72) rotate(28.8)\"><rect x=\"-18\" y=\"-16\" width=\"36\" height=\"16\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"50\" x2=\"345\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"160\" x2=\"345\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"349\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text><line x1=\"258\" y1=\"148\" x2=\"298\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,148 298,152.6 298,143.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">9,0 m/s</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin vid backens fot. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm ökningen i inre energi genom friktionen. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Vilken fart skulle pulkan ha fått helt utan friktion? Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=40\\cdot 9{,}82\\cdot 6{,}0=2356{,}8\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2356,8 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{40\\cdot 9{,}0^{2}}{2}=1620\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1620 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Startenergin är 2356,8 J och slutlig rörelseenergi 1620 J.</p></div><div class=\"facit-stycke\"><p>Skillnaden är 736,8 J.</p></div></div><p class=\"facit-svar\">Svar: 736,8 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Utan förluster gäller mgh = mv²/2, vilket ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2 g h}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 10,86 m/s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Backens fot är nollnivå. Vid starten ligger pulkan 6,0 m högre.</p>\\[E_p=mgh=40\\cdot9{,}82\\cdot6{,}0=2356{,}8\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Rörelseenergin beräknas från massan och farten i kvadrat.</p>\\[E_k=\\frac{mv^2}{2}=\\frac{40\\cdot9{,}0^2}{2}=1620\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Vid starten är farten noll. Vid foten är lägesenergin noll. Beräkna därför startens lägesenergi och slutets rörelseenergi.</p>\\[E_{p,\\text{start}}=40\\cdot9{,}82\\cdot6{,}0=2356{,}8\\,\\mathrm J\\]\\[E_{k,\\text{slut}}=\\frac{40\\cdot9{,}0^2}{2}=1620\\,\\mathrm J\\]<p>Skillnaden har blivit inre energi genom friktionen.</p>\\[\\Delta E_\\text{inre}=2356{,}8-1620=736{,}8\\,\\mathrm J\\]<p><strong>d)</strong></p><p>Utan friktion blir all startens lägesenergi rörelseenergi vid foten.</p>\\[mgh=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad v=\\sqrt{2gh}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot6{,}0}\\approx10{,}86\\,\\mathrm{m/s}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -51956,15 +51956,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       2356.8,
-      1620,
-      736.8,
-      10.86
+      1620.0,
+      736.8000000000002,
+      10.85541339608953
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken höjd mäts från den valda nollnivån?</p>",
@@ -51999,11 +51999,11 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En pulka med barn har massan 40 kg och befinner sig 6,0 m över backens fot. Använd backens fot som nollnivå och g = 9,82 m/s².</p><svg height=\"241\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.714 41.143 357.714 138.857\"><polygon points=\"50,50 250,160 370,160 370,172 50,172\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(90,72) rotate(28.8)\"><rect x=\"-18\" y=\"-16\" width=\"36\" height=\"16\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"50\" x2=\"345\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"160\" x2=\"345\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"349\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text><line x1=\"258\" y1=\"148\" x2=\"298\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,148 298,152.6 298,143.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">9,0 m/s</text></svg><p>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=40\\cdot 9{,}82\\cdot 6{,}0=2356{,}8\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2356,8 J.</p></div>",
+        "t": "<p>En pulka med barn har massan 40 kg och befinner sig 6,0 m över backens fot. Använd backens fot som nollnivå och g = 9,82 m/s². Använd \\(E_p=mgh\\).</p><svg height=\"241\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.714 41.143 357.714 138.857\"><polygon points=\"50,50 250,160 370,160 370,172 50,172\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(90,72) rotate(28.8)\"><rect x=\"-18\" y=\"-16\" width=\"36\" height=\"16\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"50\" x2=\"345\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"160\" x2=\"345\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"349\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text><line x1=\"258\" y1=\"148\" x2=\"298\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,148 298,152.6 298,143.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">9,0 m/s</text></svg><p>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Backens fot är nollnivå. Vid starten ligger pulkan 6,0 m högre.</p>\\[E_p=mgh=40\\cdot9{,}82\\cdot6{,}0=2356{,}8\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken höjd mäts från den valda nollnivån?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -52014,11 +52014,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm rörelseenergin vid backens fot. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En pulka med barn har massan 40 kg och farten 9,0 m/s. Bortse från rotation.</p><svg height=\"241\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.714 41.143 357.714 138.857\"><polygon points=\"50,50 250,160 370,160 370,172 50,172\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(90,72) rotate(28.8)\"><rect x=\"-18\" y=\"-16\" width=\"36\" height=\"16\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"50\" x2=\"345\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"160\" x2=\"345\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"349\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text><line x1=\"258\" y1=\"148\" x2=\"298\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,148 298,152.6 298,143.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">9,0 m/s</text></svg><p>Bestäm rörelseenergin vid backens fot. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{40\\cdot 9{,}0^{2}}{2}=1620\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1620 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rörelseenergin beräknas från massan och farten i kvadrat.</p>\\[E_k=\\frac{mv^2}{2}=\\frac{40\\cdot9{,}0^2}{2}=1620\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken fart gäller vid backens fot?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52028,7 +52028,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm ökningen i inre energi genom friktionen. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En pulka med barn har massan 40 kg och startar från vila 6,0 m över backens fot. Vid foten är farten 9,0 m/s. Välj backens fot som nollnivå och bortse från rotation. Förlusten av mekanisk energi antas bli inre energi genom friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"241\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.714 41.143 357.714 138.857\"><polygon points=\"50,50 250,160 370,160 370,172 50,172\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(90,72) rotate(28.8)\"><rect x=\"-18\" y=\"-16\" width=\"36\" height=\"16\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"50\" x2=\"345\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"160\" x2=\"345\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"349\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text><line x1=\"258\" y1=\"148\" x2=\"298\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,148 298,152.6 298,143.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">9,0 m/s</text></svg></span><p>Bestäm ökningen i inre energi genom friktionen. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Startenergin är 2356,8 J och slutlig rörelseenergi 1620 J.</p></div><div class=\"facit-stycke\"><p>Skillnaden är 736,8 J.</p></div></div><p class=\"facit-svar\">Svar: 736,8 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid starten är farten noll. Vid foten är lägesenergin noll. Beräkna därför startens lägesenergi och slutets rörelseenergi.</p>\\[E_{p,\\text{start}}=40\\cdot9{,}82\\cdot6{,}0=2356{,}8\\,\\mathrm J\\]\\[E_{k,\\text{slut}}=\\frac{40\\cdot9{,}0^2}{2}=1620\\,\\mathrm J\\]<p>Skillnaden har blivit inre energi genom friktionen.</p>\\[\\Delta E_\\text{inre}=2356{,}8-1620=736{,}8\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Jämför den mekaniska energin före och efter färden.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -52041,12 +52041,12 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Vilken fart skulle pulkan ha fått helt utan friktion? Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En pulka med barn har massan 40 kg och startar från vila 6,0 m över backens fot. Vid foten är farten 9,0 m/s. Välj backens fot som nollnivå och bortse från rotation. Förlusten av mekanisk energi antas bli inre energi genom friktion.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"241\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.714 41.143 357.714 138.857\"><polygon points=\"50,50 250,160 370,160 370,172 50,172\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(90,72) rotate(28.8)\"><rect x=\"-18\" y=\"-16\" width=\"36\" height=\"16\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"340\" y1=\"50\" x2=\"340\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"50\" x2=\"345\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"160\" x2=\"345\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"349\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 m</text><line x1=\"258\" y1=\"148\" x2=\"298\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,148 298,152.6 298,143.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">9,0 m/s</text></svg></span><p>Vilken fart skulle pulkan ha fått helt utan friktion? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Utan förluster gäller mgh = mv²/2, vilket ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2 g h}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 10,86 m/s.</p></div>",
+        "fraga": "Vilken fart får pulkan vid foten? Svara i m/s med två decimaler.",
+        "t": "<p>En pulka startar från vila 6,0 m över backens fot. Bortse från friktion, luftmotstånd och rotation. Använd g = 9,82 m/s².</p><p>Vilken fart får pulkan vid foten? Svara i m/s med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan friktion blir all startens lägesenergi rörelseenergi vid foten.</p>\\[mgh=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad v=\\sqrt{2gh}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot6{,}0}\\approx10{,}86\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vilken energiomvandling sker i fallet utan förluster?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -52668,7 +52668,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En vagn startar från vila i A och följer banan i figuren. Bortse från friktion, luftmotstånd och hjulens rotationsenergi. Vagnen hålls kvar på banan av en styrning som inte uträttar arbete.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"247\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"4.029 0.000 465.971 185.847\"><path d=\"M40 175 L40 175 L73.33333333333333 30 L173.33333333333331 146 L273.33333333333337 68.66666666666667 L373.33333333333337 126.66666666666667 L440 126.66666666666667 L440 175 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"25\" y1=\"175\" x2=\"455\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"73.33333333333333\" cy=\"30\" r=\"5.5\" fill=\"#B43123\"/><text x=\"73.33333333333333\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><line x1=\"73.33333333333333\" y1=\"30\" x2=\"73.33333333333333\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"95.33333333333333\" y=\"102.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30 m</text><circle cx=\"173.33333333333331\" cy=\"146\" r=\"5.5\" fill=\"#B43123\"/><text x=\"173.33333333333331\" y=\"134\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">B</text><line x1=\"173.33333333333331\" y1=\"146\" x2=\"173.33333333333331\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"195.33333333333331\" y=\"160.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6 m</text><circle cx=\"273.33333333333337\" cy=\"68.66666666666667\" r=\"5.5\" fill=\"#B43123\"/><text x=\"273.33333333333337\" y=\"56.66666666666667\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">C</text><line x1=\"273.33333333333337\" y1=\"68.66666666666667\" x2=\"273.33333333333337\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"295.33333333333337\" y=\"121.83333333333334\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">22 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten i B.</li><li>Bestäm farten i C.</li><li>Kan vagnen därefter passera en kulle på 32 m höjd utan energitillskott? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">A ligger 30 m och B 6 m över nollnivån.</p><div class=\"facit-matte\">\\[v_{\\mathrm{B}}=\\sqrt{2 g \\left(30-6\\right)}\\approx 21{,}71\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">C ligger 22 m över nollnivån.</p><div class=\"facit-matte\">\\[v_{\\mathrm{C}}=\\sqrt{2 g \\left(30-22\\right)}\\approx 12{,}53\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej.</p></div><div class=\"facit-stycke\"><p>Startenergin motsvarar som mest höjden 30 m vid noll fart.</p></div><div class=\"facit-stycke\"><p>En höjd på 32 m kräver mer energi än vagnen har.</p></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan förluster bevaras den mekaniska energin. Höjdminskningen från A blir rörelseenergi: \\(mg\\Delta h=mv^2/2\\). Massan förkortas bort.</p><p><strong>a)</strong> Höjdminskningen är \\(30-6=24\\) m.</p>\\[v_B=\\sqrt{2g\\Delta h}=\\sqrt{2\\cdot9{,}82\\cdot24}\\approx21{,}7\\,\\mathrm{m/s}\\]<p><strong>b)</strong> Höjdminskningen är \\(30-22=8\\) m.</p>\\[v_C=\\sqrt{2\\cdot9{,}82\\cdot8}\\approx12{,}5\\,\\mathrm{m/s}\\]<p><strong>c)</strong> Nej. När farten är noll motsvarar all energi åter lägesenergi vid högst 30 m. Kullen på 32 m ligger högre och kräver mer energi än vagnen har.</p></div>",
     "familj": "Energiprincipen",
     "formaga": [
       "modellering",
@@ -52730,7 +52730,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En liten pendelkula på 0,80 kg hänger i en lina. Den höjs 25 cm över sitt lägsta läge och släpps från vila. Bortse från luftmotstånd och friktion. Välj det lägsta läget som nollnivå.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Pendel med lika linlängd i båda lägena och höjdskillnaden 25 centimeter\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M85 35 H380\" stroke=\"#34383e\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"35\" r=\"4\"/><path d=\"M270 35 V255\" stroke=\"#34383e\" stroke-width=\"2.5\"/><path d=\"M270 35 L95 168.323\" stroke=\"#949ba5\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\"/><circle cx=\"270\" cy=\"255\" r=\"14\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"95\" cy=\"168.323\" r=\"14\" fill=\"white\" stroke=\"#949ba5\" stroke-width=\"2.5\"/><path d=\"M110 168.323 H395 M285 255 H395 M385 168.323 V255 M378 168.323 H392 M378 255 H392\" stroke=\"#949ba5\" fill=\"none\"/><text x=\"402\" y=\"216\">25 cm</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten i det lägsta läget. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Hur högt över det lägsta läget når kulan på andra sidan? Svara i cm. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 0{,}25=1{,}964\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,96 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">mgh = mv²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot 9{,}82\\cdot 0{,}25}\\]</div></div></div><div class=\"facit-stycke\"><p>Linspänningen är vinkelrät mot rörelsen och gör inget arbete.</p></div></div><p class=\"facit-svar\">Svar: 2,22 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid vändningen är farten åter noll.</p></div><div class=\"facit-stycke\"><p>Utan energiförlust återfår kulan sin ursprungliga lägesenergi och därmed samma höjd.</p></div></div><p class=\"facit-svar\">Svar: 25 cm.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla höjden: 25 cm = 0,25 m. Det lägsta läget är nollnivå.</p>\\[E_p=mgh=0{,}80\\cdot9{,}82\\cdot0{,}25=1{,}964\\,\\mathrm J\\]<p>Med två decimaler: 1,96 J.</p><p><strong>b)</strong></p><p>Kulan startar från vila och sjunker 0,25 m. Lägesenergin blir rörelseenergi. Linans kraft är vinkelrät mot rörelsen och utför inget arbete.</p>\\[mg\\cdot0{,}25=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot0{,}25}\\approx2{,}22\\,\\mathrm{m/s}\\]<p><strong>c)</strong></p><p>Vid vändningen är farten noll. Utan förluster återfår kulan sin ursprungliga lägesenergi och därmed samma höjd.</p>\\[h_\\text{andra sidan}=25\\,\\mathrm{cm}\\]</div>",
     "familj": "Energiprincipen",
     "formaga": [
       "procedur"
@@ -52738,18 +52738,18 @@ window.BANK = [
     "familjNyckel": "arbete__pendelns_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.96,
-      2.22,
+      1.9640000000000002,
+      2.215851980616034,
       25
     ],
     "tolerans": [
-      0,
-      0,
+      0.005,
+      0.005,
       0
     ],
     "självrättning": true,
     "ledtrad": "<p>Omvandla höjdskillnaden till meter.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "pendelns energi",
     "miniräknare": true,
     "geogebra": false,
@@ -52776,13 +52776,13 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En liten pendelkula på 0,80 kg hänger i en lina. Den höjs 25 cm över sitt lägsta läge och släpps från vila. Bortse från luftmotstånd och friktion. Välj det lägsta läget som nollnivå.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Pendel med lika linlängd i båda lägena och höjdskillnaden 25 centimeter\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M85 35 H380\" stroke=\"#34383e\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"35\" r=\"4\"/><path d=\"M270 35 V255\" stroke=\"#34383e\" stroke-width=\"2.5\"/><path d=\"M270 35 L95 168.323\" stroke=\"#949ba5\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\"/><circle cx=\"270\" cy=\"255\" r=\"14\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"95\" cy=\"168.323\" r=\"14\" fill=\"white\" stroke=\"#949ba5\" stroke-width=\"2.5\"/><path d=\"M110 168.323 H395 M285 255 H395 M385 168.323 V255 M378 168.323 H392 M378 255 H392\" stroke=\"#949ba5\" fill=\"none\"/><text x=\"402\" y=\"216\">25 cm</text></g></svg></span><p>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}80\\cdot 9{,}82\\cdot 0{,}25=1{,}964\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,96 J.</p></div>",
+        "fraga": "Bestäm lägesenergin i J med två decimaler.",
+        "t": "<p>En pendelkula på 0,80 kg befinner sig 25 cm över sitt lägsta läge. Använd det lägsta läget som nollnivå och g = 9,82 m/s².</p><p>Bestäm lägesenergin i J med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla höjden: 25 cm = 0,25 m. Det lägsta läget är nollnivå.</p>\\[E_p=mgh=0{,}80\\cdot9{,}82\\cdot0{,}25=1{,}964\\,\\mathrm J\\]<p>Med två decimaler: 1,96 J.</p></div>",
         "ledtrad": "<p>Omvandla höjdskillnaden till meter.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52790,12 +52790,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm farten i det lägsta läget. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En liten pendelkula på 0,80 kg hänger i en lina. Den höjs 25 cm över sitt lägsta läge och släpps från vila. Bortse från luftmotstånd och friktion. Välj det lägsta läget som nollnivå.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Pendel med lika linlängd i båda lägena och höjdskillnaden 25 centimeter\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M85 35 H380\" stroke=\"#34383e\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"35\" r=\"4\"/><path d=\"M270 35 V255\" stroke=\"#34383e\" stroke-width=\"2.5\"/><path d=\"M270 35 L95 168.323\" stroke=\"#949ba5\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\"/><circle cx=\"270\" cy=\"255\" r=\"14\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"95\" cy=\"168.323\" r=\"14\" fill=\"white\" stroke=\"#949ba5\" stroke-width=\"2.5\"/><path d=\"M110 168.323 H395 M285 255 H395 M385 168.323 V255 M378 168.323 H392 M378 255 H392\" stroke=\"#949ba5\" fill=\"none\"/><text x=\"402\" y=\"216\">25 cm</text></g></svg></span><p>Bestäm farten i det lägsta läget. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">mgh = mv²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot 9{,}82\\cdot 0{,}25}\\]</div></div></div><div class=\"facit-stycke\"><p>Linspänningen är vinkelrät mot rörelsen och gör inget arbete.</p></div></div><p class=\"facit-svar\">Svar: 2,22 m/s.</p></div>",
+        "fraga": "Bestäm farten i det lägsta läget i m/s med två decimaler.",
+        "t": "<p>En pendelkula höjs 25 cm över sitt lägsta läge och släpps från vila. Bortse från luftmotstånd och friktion. Använd g = 9,82 m/s².</p><p>Bestäm farten i det lägsta läget i m/s med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kulan startar från vila och sjunker 0,25 m. Lägesenergin blir rörelseenergi. Linans kraft är vinkelrät mot rörelsen och utför inget arbete.</p>\\[mg\\cdot0{,}25=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot0{,}25}\\approx2{,}22\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vilka energier ska jämföras i start- och bottenläget?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -52806,11 +52806,11 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Hur högt över det lägsta läget når kulan på andra sidan? Svara i cm. Svara med ett heltal.",
         "t": "<p>En liten pendelkula på 0,80 kg hänger i en lina. Den höjs 25 cm över sitt lägsta läge och släpps från vila. Bortse från luftmotstånd och friktion. Välj det lägsta läget som nollnivå.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Pendel med lika linlängd i båda lägena och höjdskillnaden 25 centimeter\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M85 35 H380\" stroke=\"#34383e\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"35\" r=\"4\"/><path d=\"M270 35 V255\" stroke=\"#34383e\" stroke-width=\"2.5\"/><path d=\"M270 35 L95 168.323\" stroke=\"#949ba5\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\"/><circle cx=\"270\" cy=\"255\" r=\"14\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"95\" cy=\"168.323\" r=\"14\" fill=\"white\" stroke=\"#949ba5\" stroke-width=\"2.5\"/><path d=\"M110 168.323 H395 M285 255 H395 M385 168.323 V255 M378 168.323 H392 M378 255 H392\" stroke=\"#949ba5\" fill=\"none\"/><text x=\"402\" y=\"216\">25 cm</text></g></svg></span><p>Hur högt över det lägsta läget når kulan på andra sidan? Svara i cm. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid vändningen är farten åter noll.</p></div><div class=\"facit-stycke\"><p>Utan energiförlust återfår kulan sin ursprungliga lägesenergi och därmed samma höjd.</p></div></div><p class=\"facit-svar\">Svar: 25 cm.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid vändningen är farten noll. Utan förluster återfår kulan sin ursprungliga lägesenergi och därmed samma höjd.</p>\\[h_\\text{andra sidan}=25\\,\\mathrm{cm}\\]</div>",
         "ledtrad": "<p>Hur stor mekanisk energi finns kvar vid den andra vändpunkten?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52829,7 +52829,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(4/0/0)",
     "t": "<p>En järnbit kastas lodrätt uppåt. Vid släppet är rörelseenergin 6,0 J och lägesenergin 2,5 J relativt en fast nollnivå. Bortse från luftmotståndet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur stor är rörelseenergin precis när den vänder i sitt högsta läge? Svara i J.</li><li>Bestäm lägesenergin i det högsta läget. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin när lägesenergin är 5,0 J. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin när järnbiten åter passerar släpphöjden. Svara i J. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>När järnbiten vänder är farten noll. Då är rörelseenergin också noll.</p><div class=\"facit-matte\">\\[E_k=\\frac{m\\cdot0^2}{2}=0\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mekaniska energin är</p><div class=\"facit-matte\">\\[6{,}0+2{,}5=8{,}5\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>I högsta läget är hela denna energi lägesenergi.</p></div></div><p class=\"facit-svar\">Svar: 8,5 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_k + E_p = 8,5 J, så</p><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=8{,}5-5{,}0=3{,}5\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,5 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På samma höjd är lägesenergin åter 2,5 J.</p></div><div class=\"facit-stycke\"><p>\\(E_{\\mathrm{k}}\\) = 8,5−2,5 = 6,0 J, fast rörelsen nu är nedåt.</p></div></div><p class=\"facit-svar\">Svar: 6 J.</p></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När järnbiten vänder är farten noll. Rörelseenergin blir därför noll.</p>\\[E_k=\\frac{m\\cdot0^2}{2}=0\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Utan luftmotstånd bevaras summan av rörelseenergi och lägesenergi.</p>\\[E_\\text{mek}=6{,}0+2{,}5=8{,}5\\,\\mathrm J\\]<p>I högsta läget är farten noll och hela energin lägesenergi.</p>\\[E_{p,\\text{högst}}=8{,}5\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Den sammanlagda mekaniska energin är \\(6{,}0+2{,}5=8{,}5\\) J. Dra bort lägesenergin i det efterfrågade läget.</p>\\[E_k=E_\\text{mek}-E_p=8{,}5-5{,}0=3{,}5\\,\\mathrm J\\]<p><strong>d)</strong></p><p>På släpphöjden är lägesenergin åter 2,5 J. Den mekaniska energin är fortfarande \\(6{,}0+2{,}5=8{,}5\\) J.</p>\\[E_k=8{,}5-2{,}5=6{,}0\\,\\mathrm J\\]<p>Farten är lika stor som vid släppet, men rörelsen är nu nedåt.</p></div>",
     "familj": "Energiprincipen",
     "formaga": [
       "procedur"
@@ -52844,8 +52844,8 @@ window.BANK = [
     ],
     "tolerans": [
       0,
-      0,
-      0,
+      0.005,
+      0.005,
       0
     ],
     "självrättning": true,
@@ -52882,7 +52882,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur stor är rörelseenergin precis när den vänder i sitt högsta läge? Svara i J.",
         "t": "<p>En järnbit kastas lodrätt uppåt.</p><p>Hur stor är rörelseenergin precis när den vänder i sitt högsta läge? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>När järnbiten vänder är farten noll. Då är rörelseenergin också noll.</p><div class=\"facit-matte\">\\[E_k=\\frac{m\\cdot0^2}{2}=0\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0 J.</p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När järnbiten vänder är farten noll. Rörelseenergin blir därför noll.</p>\\[E_k=\\frac{m\\cdot0^2}{2}=0\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Hur stor är farten i vändläget?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -52897,7 +52897,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm lägesenergin i det högsta läget. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En järnbit kastas lodrätt uppåt. Vid släppet är rörelseenergin 6,0 J och lägesenergin 2,5 J relativt en fast nollnivå. Bortse från luftmotståndet.</p><p>Bestäm lägesenergin i det högsta läget. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mekaniska energin är</p><div class=\"facit-matte\">\\[6{,}0+2{,}5=8{,}5\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>I högsta läget är hela denna energi lägesenergi.</p></div></div><p class=\"facit-svar\">Svar: 8,5 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan luftmotstånd bevaras summan av rörelseenergi och lägesenergi.</p>\\[E_\\text{mek}=6{,}0+2{,}5=8{,}5\\,\\mathrm J\\]<p>I högsta läget är farten noll och hela energin lägesenergi.</p>\\[E_{p,\\text{högst}}=8{,}5\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilka energiformer ingår i den bevarade summan?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -52912,7 +52912,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm rörelseenergin när lägesenergin är 5,0 J. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En järnbit kastas lodrätt uppåt. Vid släppet är rörelseenergin 6,0 J och lägesenergin 2,5 J relativt en fast nollnivå. Bortse från luftmotståndet.</p><p>Bestäm rörelseenergin när lägesenergin är 5,0 J. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_k + E_p = 8,5 J, så</p><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=8{,}5-5{,}0=3{,}5\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,5 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den sammanlagda mekaniska energin är \\(6{,}0+2{,}5=8{,}5\\) J. Dra bort lägesenergin i det efterfrågade läget.</p>\\[E_k=E_\\text{mek}-E_p=8{,}5-5{,}0=3{,}5\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vad återstår av den mekaniska energin?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -52927,7 +52927,7 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Bestäm rörelseenergin när järnbiten åter passerar släpphöjden. Svara i J. Svara med ett heltal.",
         "t": "<p>En järnbit kastas lodrätt uppåt. Vid släppet är rörelseenergin 6,0 J och lägesenergin 2,5 J relativt en fast nollnivå. Bortse från luftmotståndet.</p><p>Bestäm rörelseenergin när järnbiten åter passerar släpphöjden. Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På samma höjd är lägesenergin åter 2,5 J.</p></div><div class=\"facit-stycke\"><p>\\(E_{\\mathrm{k}}\\) = 8,5−2,5 = 6,0 J, fast rörelsen nu är nedåt.</p></div></div><p class=\"facit-svar\">Svar: 6 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På släpphöjden är lägesenergin åter 2,5 J. Den mekaniska energin är fortfarande \\(6{,}0+2{,}5=8{,}5\\) J.</p>\\[E_k=8{,}5-2{,}5=6{,}0\\,\\mathrm J\\]<p>Farten är lika stor som vid släppet, men rörelsen är nu nedåt.</p></div>",
         "ledtrad": "<p>Ändras lägesenergin när föremålet återvänder till samma höjd?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -53706,7 +53706,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En liten träkub kastas lodrätt uppåt med farten 5,0 m/s från 2,2 m över marken. Bortse från luftmotstånd och rotation.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten strax innan kuben träffar marken. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Bestäm största höjden över marken. Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Bevarad mekanisk energi ger</p><div class=\"facit-matte\">\\[\\frac{m v^{2}}{2}=\\frac{m\\cdot 5{,}0^{2}}{2}+m g\\cdot 2{,}2\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[v=\\sqrt{25+2\\cdot 9{,}82\\cdot 2{,}2}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8,26 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ökningen från kastpunkten är</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{5{,}0^{2}}{2 g}\\approx 1{,}27291\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>Lägg till kastpunktens höjd 2,2 m.</p></div></div><p class=\"facit-svar\">Svar: 3,47 m.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Välj marken som nollnivå. Både startens rörelseenergi och lägesenergi blir rörelseenergi strax före marken.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot5{,}0^2}{2}+mg\\cdot2{,}2\\]<p>Förkorta massan och lös för farten.</p>\\[v=\\sqrt{5{,}0^2+2\\cdot9{,}82\\cdot2{,}2}\\approx8{,}26\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>I högsta läget är farten noll. Startens rörelseenergi ger höjdökningen över kastpunkten.</p>\\[\\frac{m\\cdot5{,}0^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{5{,}0^2}{2\\cdot9{,}82}\\approx1{,}27291\\,\\mathrm m\\]<p>Lägg till kastpunktens höjd över marken.</p>\\[h_\\text{max}=2{,}2+1{,}27291\\ldots\\approx3{,}47\\,\\mathrm m\\]</div>",
     "familj": "Energiprincipen",
     "formaga": [
       "modellering",
@@ -53715,12 +53715,12 @@ window.BANK = [
     "familjNyckel": "arbete__kast_med_begynnelseenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      8.26,
-      3.47
+      8.258813474101471,
+      3.472912423625255
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilka två energiformer finns vid släppet?</p>",
@@ -53750,7 +53750,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm farten strax innan kuben träffar marken. Svara i m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En liten träkub kastas lodrätt uppåt med farten 5,0 m/s från 2,2 m över marken. Bortse från luftmotstånd och rotation.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten strax innan kuben träffar marken. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Bevarad mekanisk energi ger</p><div class=\"facit-matte\">\\[\\frac{m v^{2}}{2}=\\frac{m\\cdot 5{,}0^{2}}{2}+m g\\cdot 2{,}2\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[v=\\sqrt{25+2\\cdot 9{,}82\\cdot 2{,}2}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8,26 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj marken som nollnivå. Både startens rörelseenergi och lägesenergi blir rörelseenergi strax före marken.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot5{,}0^2}{2}+mg\\cdot2{,}2\\]<p>Förkorta massan och lös för farten.</p>\\[v=\\sqrt{5{,}0^2+2\\cdot9{,}82\\cdot2{,}2}\\approx8{,}26\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vilka två energiformer finns vid släppet?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -53765,7 +53765,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm största höjden över marken. Svara i m. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En liten träkub kastas lodrätt uppåt med farten 5,0 m/s från 2,2 m över marken. Bortse från luftmotstånd och rotation.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm största höjden över marken. Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ökningen från kastpunkten är</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{5{,}0^{2}}{2 g}\\approx 1{,}27291\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>Lägg till kastpunktens höjd 2,2 m.</p></div></div><p class=\"facit-svar\">Svar: 3,47 m.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I högsta läget är farten noll. Startens rörelseenergi ger höjdökningen över kastpunkten.</p>\\[\\frac{m\\cdot5{,}0^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{5{,}0^2}{2\\cdot9{,}82}\\approx1{,}27291\\,\\mathrm m\\]<p>Lägg till kastpunktens höjd över marken.</p>\\[h_\\text{max}=2{,}2+1{,}27291\\ldots\\approx3{,}47\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Från vilken höjd börjar kubens extra stigning?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -53788,8 +53788,8 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "A",
     "poang": "(0/2/2)",
-    "t": "<p>En liten kula släpps från vila och faller lodrätt en höjd H > 0. Farten strax före marken är v. Bortse från luftmotstånd.</p><ol style=\"display:grid;gap:0.85rem\"><li>Uttryck farten efter halva fallsträckan i slutfarten v.</li><li>Hur stor andel av hela sträckan har kulan fallit när farten är v/2?</li><li>Ta fram ett samband mellan andelen fallsträcka p och andelen slutfart q. Ange tillåtna värden och förklara varför sambandet inte gäller oförändrat om kulan får en begynnelsefart.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Efter halva fallsträckan har hälften av den slutliga rörelseenergin utvecklats.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför u²/v² = 1/2 och</p><div class=\"facit-matte\">\\[u=\\frac{v}{\\sqrt{2}}\\approx 0{,}707 v\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kvoten mellan energierna är</p><div class=\"facit-matte\">\\[\\frac{\\left(\\frac{v}{2}\\right)^{2}}{v^{2}}=\\frac{1}{4}\\]</div></div></div><div class=\"facit-stycke\"><p>Kulan har fallit en fjärdedel av hela fallsträckan.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Låt hela höjden vara H.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Från vila gäller u² = 2gpH och</p><div class=\"facit-matte\">\\[v^{2}=2 g H\\]</div></div></div><div class=\"facit-stycke\"><p>Därför q² = u²/v² = p, alltså q = √p och p = q², med 0 ≤ p ≤ 1 och 0 ≤ q ≤ 1.</p></div><div class=\"facit-stycke\"><p>Med begynnelsefarten u₀ blir kvoten i stället (u₀²+2gpH)/(u₀²+2gH).</p></div><div class=\"facit-stycke\"><p>Startenergin gör att q² inte längre är lika med p.</p></div></div></div></div></div>",
+    "t": "<p>En liten kula släpps från vila och faller lodrätt en höjd H > 0. Farten strax före marken är v. Bortse från luftmotstånd.</p><ol style=\"display:grid;gap:0.85rem\"><li>Uttryck farten efter halva fallsträckan i slutfarten v.</li><li>Hur stor andel av hela sträckan har kulan fallit när farten är v/2?</li><li>Ta fram ett samband mellan andelen fallsträcka p och andelen slutfart q. Ange tillåtna värden och förklara varför sambandet inte gäller oförändrat om kulan får en startfart.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Från vila ger energisambandet mv²/2 = mgH. Efter halva höjden är rörelseenergin hälften så stor.</p>\\[\\frac{u^2}{v^2}=\\frac12\\quad\\Rightarrow\\quad u=\\frac v{\\sqrt2}\\approx0{,}707v\\]<p><strong>b)</strong> Energin är proportionell mot fartens kvadrat. Halva slutfarten innebär därför en fjärdedel av slutenergin och en fjärdedel av hela fallsträckan.</p>\\[\\frac{h}{H}=\\frac{(v/2)^2}{v^2}=\\frac14\\]<p><strong>c)</strong> Låt kulan ha fallit pH och ha farten u = qv. Från vila gäller</p>\\[u^2=2gpH,\\qquad v^2=2gH\\]\\[q^2=\\frac{u^2}{v^2}=p\\]<p>Alltså p = q² och q = √p, där 0 ≤ p ≤ 1 och 0 ≤ q ≤ 1. Med en nedåtriktad startfart u₀ blir i stället</p>\\[q^2=\\frac{u_0^2+2gpH}{u_0^2+2gH}\\]<p>Den extra startenergin gör att sambandet p = q² inte gäller oförändrat.</p></div>",
     "familj": "Energiprincipen",
     "formaga": [
       "modellering",
@@ -53820,7 +53820,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><ol style=\"display:grid;gap:0.85rem\"><li>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{65\\cdot 8{,}0^{2}}{2}=2080 J=2{,}08\\, \\mathrm{kJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,08 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Farten är 70/3,6 m/s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{1400\\cdot \\left(\\frac{70}{3{,}6}\\right)^{2}}{2}\\approx 264660{,}49\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 264,66 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">m = 0,00050 kg och</p><div class=\"facit-matte\">\\[v=0{,}015\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{0{,}00050\\cdot 0{,}015^{2}}{2}=5{,}625\\cdot 10^{-8} J=56{,}25\\, \\mathrm{nJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 56,25 nJ.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna energin i J. Dividera sedan med 1000 för att få kJ.</p>\\[E_k=\\frac{65\\cdot8{,}0^2}{2}=2080\\,\\mathrm J=2{,}08\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Omvandla farten: \\(v=70/3{,}6\\) m/s. Behåll den oavrundade farten när den kvadreras.</p>\\[E_k=\\frac{1400(70/3{,}6)^2}{2}\\approx264660{,}49\\,\\mathrm J\\]<p>Dividera med 1000.</p>\\[E_k\\approx264{,}66\\,\\mathrm{kJ}\\]<p><strong>c)</strong></p><p>Omvandla båda storheterna till SI-enheter: 0,50 g = 0,00050 kg och 1,5 cm/s = 0,015 m/s.</p>\\[E_k=\\frac{0{,}00050\\cdot0{,}015^2}{2}=5{,}625\\cdot10^{-8}\\,\\mathrm J\\]<p>Dividera med \\(10^{-9}\\) J per nJ.</p>\\[E_k=56{,}25\\,\\mathrm{nJ}\\]</div>",
     "familj": "Rörelseenergi Ek = mv²/2",
     "formaga": [
       "procedur"
@@ -53829,13 +53829,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.08,
-      264.66,
-      56.25
+      264.66049382716045,
+      56.24999999999999
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken enhet får energin när kg och m/s används?</p>",
@@ -53867,8 +53867,8 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{65\\cdot 8{,}0^{2}}{2}=2080 J=2{,}08\\, \\mathrm{kJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,08 kJ.</p></div>",
+        "t": "<p>Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna energin i J. Dividera sedan med 1000 för att få kJ.</p>\\[E_k=\\frac{65\\cdot8{,}0^2}{2}=2080\\,\\mathrm J=2{,}08\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Vilken enhet får energin när kg och m/s används?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -53881,8 +53881,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Farten är 70/3,6 m/s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{1400\\cdot \\left(\\frac{70}{3{,}6}\\right)^{2}}{2}\\approx 264660{,}49\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 264,66 kJ.</p></div>",
+        "t": "<p>Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla farten: \\(v=70/3{,}6\\) m/s. Behåll den oavrundade farten när den kvadreras.</p>\\[E_k=\\frac{1400(70/3{,}6)^2}{2}\\approx264660{,}49\\,\\mathrm J\\]<p>Dividera med 1000.</p>\\[E_k\\approx264{,}66\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Omvandla farten innan du kvadrerar den.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -53895,8 +53895,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">m = 0,00050 kg och</p><div class=\"facit-matte\">\\[v=0{,}015\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{0{,}00050\\cdot 0{,}015^{2}}{2}=5{,}625\\cdot 10^{-8} J=56{,}25\\, \\mathrm{nJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 56,25 nJ.</p></div>",
+        "t": "<p>Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla båda storheterna till SI-enheter: 0,50 g = 0,00050 kg och 1,5 cm/s = 0,015 m/s.</p>\\[E_k=\\frac{0{,}00050\\cdot0{,}015^2}{2}=5{,}625\\cdot10^{-8}\\,\\mathrm J\\]<p>Dividera med \\(10^{-9}\\) J per nJ.</p>\\[E_k=56{,}25\\,\\mathrm{nJ}\\]</div>",
         "ledtrad": "<p>Både massan och farten måste omvandlas till SI-enheter.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -54047,8 +54047,8 @@ window.BANK = [
     "niva": "E",
     "typ": "rörelseenergins fartberoende",
     "poang": "(3/0/0)",
-    "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p><ol style=\"display:grid;gap:0.85rem\"><li>En pil har massan 25 g. Skriv massan i kilogram.</li><li>Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Ett kilogram är 1000 gram. Dividera därför med 1000.</p><div class=\"facit-matte\">\\[25\\,\\mathrm g=\\frac{25}{1000}\\,\\mathrm{kg}=0{,}025\\,\\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,025 kg.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{0{,}025\\cdot 62^{2}}{2}=48{,}05\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 48,05 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Farten kvadreras i \\(E_{\\mathrm{k}}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dubbla farten ger fyra gånger energin:</p><div class=\"facit-matte\">\\[4\\cdot 48{,}05=192{,}2\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 192,2 J.</p></div></div></div></div>",
+    "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p><ol style=\"display:grid;gap:0.85rem\"><li>Skriv pilens massa i kilogram.</li><li>Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Ett kilogram är 1000 gram. Dividera därför med 1000.</p>\\[m=\\frac{25}{1000}=0{,}025\\,\\mathrm{kg}\\]<p><strong>b)</strong></p><p>Omvandla massan: 25 g = 0,025 kg. Kvadrera farten i sambandet för rörelseenergi.</p>\\[E_k=\\frac{0{,}025\\cdot62^2}{2}=48{,}05\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Dubbla farten är 124 m/s. Massan är 0,025 kg.</p>\\[E_k=\\frac{0{,}025\\cdot124^2}{2}=192{,}2\\,\\mathrm J\\]<p>Farten kvadreras, så dubbla farten ger fyra gånger rörelseenergin.</p></div>",
     "familj": "Rörelseenergi Ek = mv²/2",
     "formaga": [
       "procedur"
@@ -54057,13 +54057,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.025,
-      48.05,
-      192.2
+      48.050000000000004,
+      192.20000000000002
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      5e-05,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Hur många gram är ett kilogram?</p>",
@@ -54095,7 +54095,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Skriv massan i kilogram.",
         "t": "<p>En pil har massan 25 g.</p><p>Skriv massan i kilogram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Ett kilogram är 1000 gram. Dividera därför med 1000.</p><div class=\"facit-matte\">\\[25\\,\\mathrm g=\\frac{25}{1000}\\,\\mathrm{kg}=0{,}025\\,\\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,025 kg.</p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ett kilogram är 1000 gram. Dividera därför med 1000.</p>\\[m=\\frac{25}{1000}=0{,}025\\,\\mathrm{kg}\\]</div>",
         "ledtrad": "<p>Hur många gram är ett kilogram?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -54109,7 +54109,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p><p>Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{0{,}025\\cdot 62^{2}}{2}=48{,}05\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 48,05 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 25 g = 0,025 kg. Kvadrera farten i sambandet för rörelseenergi.</p>\\[E_k=\\frac{0{,}025\\cdot62^2}{2}=48{,}05\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Använd massan i kilogram i energiuttrycket.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -54123,7 +54123,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p><p>Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Farten kvadreras i \\(E_{\\mathrm{k}}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Dubbla farten ger fyra gånger energin:</p><div class=\"facit-matte\">\\[4\\cdot 48{,}05=192{,}2\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 192,2 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dubbla farten är 124 m/s. Massan är 0,025 kg.</p>\\[E_k=\\frac{0{,}025\\cdot124^2}{2}=192{,}2\\,\\mathrm J\\]<p>Farten kvadreras, så dubbla farten ger fyra gånger rörelseenergin.</p></div>",
         "ledtrad": "<p>Hur påverkas en kvadrat av en fördubbling?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -54146,7 +54146,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En kula på 1,5 kg släpps från vila och faller minst 4,0 m. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm förändringen \\(\\Delta E_p=E_{p,\\text{slut}}-E_{p,\\text{start}}\\) efter 4,0 m fall. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm ökningen i rörelseenergi efter 4,0 m fall. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten efter 4,0 m fall. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjdändringen är −4,0 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=m g \\Delta h=-58{,}92\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -58,92 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Utan motstånd blir minskningen i lägesenergi en lika stor ökning i rörelseenergi:</p><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=58{,}92\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 58,92 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kulan startar från vila. mv²/2 = mg · 4,0 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2 g\\cdot 4{,}0}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8,86 m/s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Förändring är slutvärde minus startvärde. Höjdändringen är därför −4,0 m.</p>\\[\\begin{gathered}\\Delta E_p=mg\\Delta h\\\\=1{,}5\\cdot9{,}82\\cdot(-4{,}0)\\\\=-58{,}92\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Utan luftmotstånd blir minskningen i lägesenergi en lika stor ökning i rörelseenergi.</p>\\[\\Delta E_k=mgh=1{,}5\\cdot9{,}82\\cdot4{,}0=58{,}92\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Kulan startar från vila. Minskningen i lägesenergi blir rörelseenergi.</p>\\[mg\\cdot4{,}0=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot4{,}0}\\approx8{,}86\\,\\mathrm{m/s}\\]</div>",
     "familj": "Energiprincipen",
     "formaga": [
       "procedur"
@@ -54156,16 +54156,16 @@ window.BANK = [
     "rättSvar": [
       -58.92,
       58.92,
-      8.86
+      8.863407922464136
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Är sluthöjden högre eller lägre än starthöjden?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "energiändring med tecken",
     "miniräknare": true,
     "geogebra": false,
@@ -54194,11 +54194,11 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm förändringen \\(\\Delta E_p=E_{p,\\text{slut}}-E_{p,\\text{start}}\\) efter 4,0 m fall. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En kula på 1,5 kg släpps från vila och faller minst 4,0 m. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm förändringen \\(\\Delta E_p=E_{p,\\text{slut}}-E_{p,\\text{start}}\\) efter 4,0 m fall. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjdändringen är −4,0 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=m g \\Delta h=-58{,}92\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -58,92 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Förändring är slutvärde minus startvärde. Höjdändringen är därför −4,0 m.</p>\\[\\begin{gathered}\\Delta E_p=mg\\Delta h\\\\=1{,}5\\cdot9{,}82\\cdot(-4{,}0)\\\\=-58{,}92\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>Är sluthöjden högre eller lägre än starthöjden?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -54208,11 +54208,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm ökningen i rörelseenergi efter 4,0 m fall. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En kula på 1,5 kg släpps från vila och faller minst 4,0 m. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm ökningen i rörelseenergi efter 4,0 m fall. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Utan motstånd blir minskningen i lägesenergi en lika stor ökning i rörelseenergi:</p><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=58{,}92\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 58,92 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan luftmotstånd blir minskningen i lägesenergi en lika stor ökning i rörelseenergi.</p>\\[\\Delta E_k=mgh=1{,}5\\cdot9{,}82\\cdot4{,}0=58{,}92\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken energiform ökar när lägesenergin minskar?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -54222,10 +54222,10 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm farten efter 4,0 m fall. Svara i m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En kula på 1,5 kg släpps från vila och faller minst 4,0 m. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten efter 4,0 m fall. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kulan startar från vila. mv²/2 = mg · 4,0 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2 g\\cdot 4{,}0}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8,86 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kulan startar från vila. Minskningen i lägesenergi blir rörelseenergi.</p>\\[mg\\cdot4{,}0=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot4{,}0}\\approx8{,}86\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Hur kopplas rörelseenergin till den sökta farten?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -54356,7 +54356,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En person på 55 kg släpps från vila 2,4 m ovanför en obelastad studsmatta. Efter kontakten sjunker personen ytterligare 0,80 m innan farten blir noll. Bortse från luftmotstånd. Medelkraften är kraftens medelvärde längs sträckan där den sjunker ned.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm storleken av mattans uppåtriktade medelkraft. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Hur många gånger personens tyngdkraft är mattans medelkraft? Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften gör arbetet mg(2,4+0,80).</p></div><div class=\"facit-stycke\"><p>Mattans arbete är −\\(F_{\\mathrm{med}}\\) · 0,80.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Start och slut har noll rörelseenergi:</p><div class=\"facit-matte\">\\[F_{\\mathrm{med}}=\\frac{55\\cdot 9{,}82\\cdot 3{,}20}{0{,}80}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2160,4 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kvoten blir</p><div class=\"facit-matte\">\\[\\frac{F_{\\mathrm{med}}}{m g}=\\frac{\\left(2{,}4+0{,}80\\right)}{0{,}80}=4\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är mattans kraft, inte nettokraften.</p></div></div><p class=\"facit-svar\">Svar: 4.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Personen börjar och slutar i vila. Tyngdkraften verkar under hela höjdminskningen, även när mattan sjunker.</p>\\[\\Delta h=2{,}4+0{,}80=3{,}20\\,\\mathrm m\\]\\[W_g=55\\cdot9{,}82\\cdot3{,}20=1728{,}32\\,\\mathrm J\\]<p>Mattans negativa arbete tar bort lika mycket energi under sträckan 0,80 m.</p>\\[F_\\text{medel}=\\frac{1728{,}32}{0{,}80}=2160{,}4\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Start och slut är i vila. Tyngdkraftens arbete under hela höjdminskningen balanseras av mattans negativa arbete under 0,80 m.</p>\\[F_\\text{medel}\\cdot0{,}80=mg(2{,}4+0{,}80)\\]<p>Dividera med både stoppsträckan och tyngdkraften.</p>\\[\\frac{F_\\text{medel}}{mg}=\\frac{2{,}4+0{,}80}{0{,}80}=4\\]<p>Mattans kraft är fyra gånger personens tyngdkraft.</p></div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -54366,15 +54366,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       2160.4,
-      4
+      4.0
     ],
     "tolerans": [
-      0,
+      0.005,
       0
     ],
     "självrättning": true,
     "ledtrad": "<p>Verkar tyngdkraften även medan mattan sjunker?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "typ": "medelkraft vid inbromsning",
     "miniräknare": true,
     "geogebra": false,
@@ -54400,10 +54400,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm storleken av mattans uppåtriktade medelkraft. Svara i N. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En person på 55 kg släpps från vila 2,4 m ovanför en obelastad studsmatta. Efter kontakten sjunker personen ytterligare 0,80 m innan farten blir noll. Bortse från luftmotstånd. Medelkraften är kraftens medelvärde längs sträckan där den sjunker ned.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm storleken av mattans uppåtriktade medelkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften gör arbetet mg(2,4+0,80).</p></div><div class=\"facit-stycke\"><p>Mattans arbete är −\\(F_{\\mathrm{med}}\\) · 0,80.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Start och slut har noll rörelseenergi:</p><div class=\"facit-matte\">\\[F_{\\mathrm{med}}=\\frac{55\\cdot 9{,}82\\cdot 3{,}20}{0{,}80}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2160,4 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Personen börjar och slutar i vila. Tyngdkraften verkar under hela höjdminskningen, även när mattan sjunker.</p>\\[\\Delta h=2{,}4+0{,}80=3{,}20\\,\\mathrm m\\]\\[W_g=55\\cdot9{,}82\\cdot3{,}20=1728{,}32\\,\\mathrm J\\]<p>Mattans negativa arbete tar bort lika mycket energi under sträckan 0,80 m.</p>\\[F_\\text{medel}=\\frac{1728{,}32}{0{,}80}=2160{,}4\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Verkar tyngdkraften även medan mattan sjunker?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -54415,7 +54415,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Hur många gånger personens tyngdkraft är mattans medelkraft? Svara med ett heltal.",
         "t": "<p>En person på 55 kg släpps från vila 2,4 m ovanför en obelastad studsmatta. Efter kontakten sjunker personen ytterligare 0,80 m innan farten blir noll. Bortse från luftmotstånd. Medelkraften är kraftens medelvärde längs sträckan där den sjunker ned.</p><p>Använd g = 9,82 m/s².</p><p>Hur många gånger personens tyngdkraft är mattans medelkraft? Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kvoten blir</p><div class=\"facit-matte\">\\[\\frac{F_{\\mathrm{med}}}{m g}=\\frac{\\left(2{,}4+0{,}80\\right)}{0{,}80}=4\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är mattans kraft, inte nettokraften.</p></div></div><p class=\"facit-svar\">Svar: 4.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Start och slut är i vila. Tyngdkraftens arbete under hela höjdminskningen balanseras av mattans negativa arbete under 0,80 m.</p>\\[F_\\text{medel}\\cdot0{,}80=mg(2{,}4+0{,}80)\\]<p>Dividera med både stoppsträckan och tyngdkraften.</p>\\[\\frac{F_\\text{medel}}{mg}=\\frac{2{,}4+0{,}80}{0{,}80}=4\\]<p>Mattans kraft är fyra gånger personens tyngdkraft.</p></div>",
         "ledtrad": "<p>Vilken kraft ska jämförelsen göras med?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -54437,9 +54437,9 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "niva": "C",
-    "poang": "(0/3/0)",
+    "poang": "(1/2/0)",
     "t": "<p>En skidåkare med utrustning har massan 70 kg. Hon startar från vila 24 m över backens fot och har där farten 18 m/s. På följande vågräta sträcka stannar hon efter 60 m. Där antas endast en konstant glidfriktion bromsa henne.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"303\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.000 29.428 373.800 182.572\"><polygon points=\"50,40 250,150 390,150 390,165 50,165\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(70,61) rotate(28.8)\"><rect x=\"-16\" y=\"-14\" width=\"32\" height=\"14\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"40\" x2=\"350\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"350\" y1=\"40\" x2=\"350\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"40\" x2=\"355\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"150\" x2=\"355\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"359\" y=\"99\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24 m</text><line x1=\"258\" y1=\"138\" x2=\"298\" y2=\"138\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,138 298,142.6 298,133.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">18 m/s</text><line x1=\"250\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"180\" x2=\"250\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"180\" x2=\"390\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"320\" y=\"203\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Hur många procent av startens lägesenergi finns som rörelseenergi vid backens fot? Svara i %. Avrunda vid behov till 2 decimaler.</li><li>Bestäm friktionskraftens storlek på den vågräta sträckan. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm glidfriktionstalet på den vågräta sträckan. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_p = 70 · 9,82 · 24 = 16 497,6 J och</p><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{70\\cdot 18^{2}}{2}=11\\,340\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Andelen är 100E_k/\\(E_{\\mathrm{p}}\\).</p></div></div><p class=\"facit-svar\">Svar: 68,74 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionsarbetet är −11 340 J.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}=\\frac{11\\,340}{60}=189\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 189 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Stoppet kräver</p><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}=\\frac{\\left(\\frac{70\\cdot 18^{2}}{2}\\right)}{60}=189\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg = 687,4 N.</p><div class=\"facit-matte\">\\[\\mu=\\frac{189}{687{,}4}\\approx 0{,}27495\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,275.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Åkaren startar från vila. Beräkna startens lägesenergi och rörelseenergin vid backens fot.</p>\\[E_{p,\\text{start}}=70\\cdot9{,}82\\cdot24=16497{,}6\\,\\mathrm J\\]\\[E_{k,\\text{fot}}=\\frac{70\\cdot18^2}{2}=11340\\,\\mathrm J\\]<p>Dividera slutets rörelseenergi med startens lägesenergi och omvandla till procent.</p>\\[\\text{andel}=\\frac{11340}{16497{,}6}\\cdot100\\,\\%\\approx68{,}74\\,\\%\\]<p><strong>b)</strong></p><p>På den vågräta sträckan blir rörelseenergin noll. Friktionen tar hela rörelseenergin vid starten av denna sträcka.</p>\\[E_k=\\frac{70\\cdot18^2}{2}=11340\\,\\mathrm J\\]\\[-F_\\text{fr}\\cdot60=-11340\\]<p>Frågan gäller kraftens positiva storlek.</p>\\[F_\\text{fr}=\\frac{11340}{60}=189\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Beräkna rörelseenergin som friktionen tar och dividera med stoppsträckan för att få kraften.</p>\\[E_k=\\frac{70\\cdot18^2}{2}=11340\\,\\mathrm J\\]\\[F_\\text{fr}=\\frac{11340}{60}=189\\,\\mathrm N\\]<p>På vågrät mark är normalkraften lika stor som tyngdkraften. Använd \\(F_\\text{fr}=\\mu N\\).</p>\\[N=70\\cdot9{,}82=687{,}4\\,\\mathrm N\\]\\[\\mu=\\frac{189}{687{,}4}\\approx0{,}275\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -54448,14 +54448,14 @@ window.BANK = [
     "familjNyckel": "arbete__energiforlust_och_stoppstracka",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      68.74,
-      189,
-      0.275
+      68.73727087576376,
+      189.0,
+      0.27494908350305497
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Jämför energierna innan du räknar om kvoten till procent.</p>",
@@ -54488,7 +54488,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur många procent av startens lägesenergi finns som rörelseenergi vid backens fot? Svara i %. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En skidåkare med utrustning har massan 70 kg. Hon startar från vila 24 m över backens fot och har där farten 18 m/s. På följande vågräta sträcka stannar hon efter 60 m. Där antas endast en konstant glidfriktion bromsa henne.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"303\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.000 29.428 373.800 182.572\"><polygon points=\"50,40 250,150 390,150 390,165 50,165\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(70,61) rotate(28.8)\"><rect x=\"-16\" y=\"-14\" width=\"32\" height=\"14\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"40\" x2=\"350\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"350\" y1=\"40\" x2=\"350\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"40\" x2=\"355\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"150\" x2=\"355\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"359\" y=\"99\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24 m</text><line x1=\"258\" y1=\"138\" x2=\"298\" y2=\"138\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,138 298,142.6 298,133.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">18 m/s</text><line x1=\"250\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"180\" x2=\"250\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"180\" x2=\"390\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"320\" y=\"203\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60 m</text></svg></span><p>Hur många procent av startens lägesenergi finns som rörelseenergi vid backens fot? Svara i %. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_p = 70 · 9,82 · 24 = 16 497,6 J och</p><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{70\\cdot 18^{2}}{2}=11\\,340\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Andelen är 100E_k/\\(E_{\\mathrm{p}}\\).</p></div></div><p class=\"facit-svar\">Svar: 68,74 %.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Åkaren startar från vila. Beräkna startens lägesenergi och rörelseenergin vid backens fot.</p>\\[E_{p,\\text{start}}=70\\cdot9{,}82\\cdot24=16497{,}6\\,\\mathrm J\\]\\[E_{k,\\text{fot}}=\\frac{70\\cdot18^2}{2}=11340\\,\\mathrm J\\]<p>Dividera slutets rörelseenergi med startens lägesenergi och omvandla till procent.</p>\\[\\text{andel}=\\frac{11340}{16497{,}6}\\cdot100\\,\\%\\approx68{,}74\\,\\%\\]</div>",
         "ledtrad": "<p>Jämför energierna innan du räknar om kvoten till procent.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -54501,14 +54501,14 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionskraftens storlek på den vågräta sträckan. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En skidåkare med utrustning har massan 70 kg. Hon startar från vila 24 m över backens fot och har där farten 18 m/s. På följande vågräta sträcka stannar hon efter 60 m. Där antas endast en konstant glidfriktion bromsa henne.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"303\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.000 29.428 373.800 182.572\"><polygon points=\"50,40 250,150 390,150 390,165 50,165\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(70,61) rotate(28.8)\"><rect x=\"-16\" y=\"-14\" width=\"32\" height=\"14\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"40\" x2=\"350\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"350\" y1=\"40\" x2=\"350\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"40\" x2=\"355\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"150\" x2=\"355\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"359\" y=\"99\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24 m</text><line x1=\"258\" y1=\"138\" x2=\"298\" y2=\"138\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,138 298,142.6 298,133.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">18 m/s</text><line x1=\"250\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"180\" x2=\"250\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"180\" x2=\"390\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"320\" y=\"203\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60 m</text></svg></span><p>Bestäm friktionskraftens storlek på den vågräta sträckan. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionsarbetet är −11 340 J.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}=\\frac{11\\,340}{60}=189\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 189 N.</p></div>",
+        "fraga": "Bestäm friktionskraftens storlek i N med två decimaler.",
+        "t": "<p>En skidåkare med utrustning har massan 70 kg och farten 18 m/s. På en vågrät sträcka stannar hon efter 60 m. Bara en konstant glidfriktion bromsar rörelsen.</p><p>Bestäm friktionskraftens storlek i N med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På den vågräta sträckan blir rörelseenergin noll. Friktionen tar hela rörelseenergin vid starten av denna sträcka.</p>\\[E_k=\\frac{70\\cdot18^2}{2}=11340\\,\\mathrm J\\]\\[-F_\\text{fr}\\cdot60=-11340\\]<p>Frågan gäller kraftens positiva storlek.</p>\\[F_\\text{fr}=\\frac{11340}{60}=189\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Hur stort bromsarbete krävs för att få slutfarten noll?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "modellering",
           "procedur"
@@ -54516,9 +54516,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm glidfriktionstalet på den vågräta sträckan. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En skidåkare med utrustning har massan 70 kg. Hon startar från vila 24 m över backens fot och har där farten 18 m/s. På följande vågräta sträcka stannar hon efter 60 m. Där antas endast en konstant glidfriktion bromsa henne.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"303\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"33.000 29.428 373.800 182.572\"><polygon points=\"50,40 250,150 390,150 390,165 50,165\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(70,61) rotate(28.8)\"><rect x=\"-16\" y=\"-14\" width=\"32\" height=\"14\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"40\" x2=\"350\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"350\" y1=\"40\" x2=\"350\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"40\" x2=\"355\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"345\" y1=\"150\" x2=\"355\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"359\" y=\"99\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24 m</text><line x1=\"258\" y1=\"138\" x2=\"298\" y2=\"138\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"308,138 298,142.6 298,133.4\" fill=\"#2A5D9E\"/><text x=\"283\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">18 m/s</text><line x1=\"250\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"180\" x2=\"250\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"180\" x2=\"390\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"320\" y=\"203\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60 m</text></svg></span><p>Bestäm glidfriktionstalet på den vågräta sträckan. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Stoppet kräver</p><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}=\\frac{\\left(\\frac{70\\cdot 18^{2}}{2}\\right)}{60}=189\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">N = mg = 687,4 N.</p><div class=\"facit-matte\">\\[\\mu=\\frac{189}{687{,}4}\\approx 0{,}27495\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,275.</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med tre decimaler.",
+        "t": "<p>En skidåkare med utrustning har massan 70 kg och farten 18 m/s. På en vågrät sträcka stannar hon efter 60 m. Bara glidfriktion bromsar rörelsen. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna rörelseenergin som friktionen tar och dividera med stoppsträckan för att få kraften.</p>\\[E_k=\\frac{70\\cdot18^2}{2}=11340\\,\\mathrm J\\]\\[F_\\text{fr}=\\frac{11340}{60}=189\\,\\mathrm N\\]<p>På vågrät mark är normalkraften lika stor som tyngdkraften. Använd \\(F_\\text{fr}=\\mu N\\).</p>\\[N=70\\cdot9{,}82=687{,}4\\,\\mathrm N\\]\\[\\mu=\\frac{189}{687{,}4}\\approx0{,}275\\]</div>",
         "ledtrad": "<p>Hur hänger friktionskraften ihop med normalkraften?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -54671,9 +54671,9 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "niva": "E",
-    "poang": "(3/0/0)",
-    "t": "<p>En liten vagn startar från vila i A och följer banan i figuren. Bortse från friktion, luftmotstånd och hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"247\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"4.029 0.000 465.971 185.847\"><path d=\"M40 175 L40 175 L73.33333333333333 30 L140 30 L206.66666666666669 131.5 L306.66666666666663 131.5 L373.33333333333337 80.75 L440 80.75 L440 175 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"25\" y1=\"175\" x2=\"455\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"73.33333333333333\" cy=\"30\" r=\"5.5\" fill=\"#B43123\"/><text x=\"73.33333333333333\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><line x1=\"73.33333333333333\" y1=\"30\" x2=\"73.33333333333333\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"95.33333333333333\" y=\"102.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><circle cx=\"256.66666666666663\" cy=\"131.5\" r=\"5.5\" fill=\"#B43123\"/><text x=\"256.66666666666663\" y=\"119.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">B</text><line x1=\"256.66666666666663\" y1=\"131.5\" x2=\"256.66666666666663\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"278.66666666666663\" y=\"153.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,2 m</text><circle cx=\"406.66666666666663\" cy=\"80.75\" r=\"5.5\" fill=\"#B43123\"/><text x=\"406.66666666666663\" y=\"68.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">C</text><line x1=\"406.66666666666663\" y1=\"80.75\" x2=\"406.66666666666663\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"400\" y=\"127.875\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,6 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>I vilken av de markerade punkterna A, B och C är farten störst? Motivera.</li><li>Bestäm farten i B.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>B ligger lägst av de tre punkterna.</p></div><div class=\"facit-stycke\"><p>Där har mest lägesenergi omvandlats till rörelseenergi och farten är störst.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Höjdskillnaden är 4,0−1,2 = 2,8 m. mgh = mv²/2 ger</p><div class=\"facit-matte\">\\[v_{\\mathrm{B}}=\\sqrt{2\\cdot 9{,}82\\cdot 2{,}8}\\approx 7{,}42\\, \\mathrm{m/s}\\]</div></div></div></div></div></div></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En liten vagn startar från vila i A och följer banan i figuren. Bortse från friktion, luftmotstånd och hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"247\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"4.029 0.000 465.971 185.847\"><path d=\"M40 175 L40 175 L73.33333333333333 30 L140 30 L206.66666666666669 131.5 L306.66666666666663 131.5 L373.33333333333337 80.75 L440 80.75 L440 175 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"25\" y1=\"175\" x2=\"455\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"73.33333333333333\" cy=\"30\" r=\"5.5\" fill=\"#B43123\"/><text x=\"73.33333333333333\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><line x1=\"73.33333333333333\" y1=\"30\" x2=\"73.33333333333333\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"95.33333333333333\" y=\"102.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><circle cx=\"256.66666666666663\" cy=\"131.5\" r=\"5.5\" fill=\"#B43123\"/><text x=\"256.66666666666663\" y=\"119.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">B</text><line x1=\"256.66666666666663\" y1=\"131.5\" x2=\"256.66666666666663\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"278.66666666666663\" y=\"153.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,2 m</text><circle cx=\"406.66666666666663\" cy=\"80.75\" r=\"5.5\" fill=\"#B43123\"/><text x=\"406.66666666666663\" y=\"68.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">C</text><line x1=\"406.66666666666663\" y1=\"80.75\" x2=\"406.66666666666663\" y2=\"175\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"400\" y=\"127.875\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,6 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>I vilken av de markerade punkterna A, B och C är farten störst? Motivera.</li><li>Bestäm farten i B.</li></ol><p>Svara med tre värdesiffror i numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> B är lägst av de markerade punkterna. Där har mest lägesenergi blivit rörelseenergi och farten är störst.</p><p><strong>b)</strong> Höjdminskningen från A till B är 4,0 − 1,2 = 2,8 m. Vagnen startar från vila.</p>\\[mg\\cdot2{,}8=\\frac{mv_B^2}{2}\\]<p>Förkorta massan och lös för farten.</p>\\[v_B=\\sqrt{2\\cdot9{,}82\\cdot2{,}8}\\approx7{,}42\\,\\mathrm{m/s}\\]</div>",
     "familj": "Energiprincipen",
     "formaga": [
       "begrepp",
@@ -54685,7 +54685,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Var är lägesenergin minst?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "fart ur banans höjd",
     "miniräknare": true,
     "geogebra": false,
@@ -54704,7 +54704,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En hiss med last har massan 1200 kg och släpps från vila. Den faller fritt 3,0 m innan en broms griper. Därefter stoppas den under ytterligare 1,5 m. Bortse från annat motstånd. Medelkraften gäller under bromssträckan.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur mycket mekanisk energi tar bromsen upp? Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>Bestäm storleken av bromsens uppåtriktade medelkraft. Svara i kN. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften verkar under hela fallet 4,5 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom start- och slutfarten är noll tar bromsen upp</p><div class=\"facit-matte\">\\[m g\\cdot 4{,}5=53\\,028\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 53,03 kJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Hela lägesenergiförlusten är</p><div class=\"facit-matte\">\\[1200\\cdot 9{,}82\\cdot \\left(3{,}0+1{,}5\\right)=53\\,028\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Bromsens arbete har detta belopp under 1,5 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{med}}=\\frac{53\\,028}{1{,}5}=35\\,352\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 35,35 kN.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hissen börjar och slutar i vila. Bromsen tar därför den energi som tyngdkraften tillför under hela fallet.</p>\\[\\Delta h=3{,}0+1{,}5=4{,}5\\,\\mathrm m\\]\\[E_\\text{broms}=1200\\cdot9{,}82\\cdot4{,}5=53028\\,\\mathrm J\\]<p>Dividera med 1000 för att få kJ.</p>\\[E_\\text{broms}=53{,}028\\,\\mathrm{kJ}\\approx53{,}03\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Bromsen måste ta energin från både fritt fall och stoppsträcka.</p>\\[E_\\text{broms}=1200\\cdot9{,}82(3{,}0+1{,}5)=53028\\,\\mathrm J\\]<p>Bromskraften verkar under 1,5 m. Dividera energin med denna sträcka, inte hela fallsträckan.</p>\\[F_\\text{medel}=\\frac{53028}{1{,}5}=35352\\,\\mathrm N\\]<p>Dividera med 1000 för att få kN.</p>\\[F_\\text{medel}=35{,}352\\,\\mathrm{kN}\\approx35{,}35\\,\\mathrm{kN}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -54713,16 +54713,16 @@ window.BANK = [
     "familjNyckel": "arbete__bromsarbete_under_fortsatt_fall",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      53.03,
-      35.35
+      53.028,
+      35.352
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken sammanlagd höjd förlorar hissen?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "typ": "bromsarbete under fortsatt fall",
     "miniräknare": true,
     "geogebra": false,
@@ -54748,10 +54748,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur mycket mekanisk energi tar bromsen upp? Svara i kJ. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En hiss med last har massan 1200 kg och släpps från vila. Den faller fritt 3,0 m innan en broms griper. Därefter stoppas den under ytterligare 1,5 m. Bortse från annat motstånd. Medelkraften gäller under bromssträckan.</p><p>Använd g = 9,82 m/s².</p><p>Hur mycket mekanisk energi tar bromsen upp? Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften verkar under hela fallet 4,5 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom start- och slutfarten är noll tar bromsen upp</p><div class=\"facit-matte\">\\[m g\\cdot 4{,}5=53\\,028\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 53,03 kJ.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hissen börjar och slutar i vila. Bromsen tar därför den energi som tyngdkraften tillför under hela fallet.</p>\\[\\Delta h=3{,}0+1{,}5=4{,}5\\,\\mathrm m\\]\\[E_\\text{broms}=1200\\cdot9{,}82\\cdot4{,}5=53028\\,\\mathrm J\\]<p>Dividera med 1000 för att få kJ.</p>\\[E_\\text{broms}=53{,}028\\,\\mathrm{kJ}\\approx53{,}03\\,\\mathrm{kJ}\\]</div>",
         "ledtrad": "<p>Vilken sammanlagd höjd förlorar hissen?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -54763,10 +54763,10 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm storleken av bromsens uppåtriktade medelkraft. Svara i kN. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En hiss med last har massan 1200 kg och släpps från vila. Den faller fritt 3,0 m innan en broms griper. Därefter stoppas den under ytterligare 1,5 m. Bortse från annat motstånd. Medelkraften gäller under bromssträckan.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm storleken av bromsens uppåtriktade medelkraft. Svara i kN. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Hela lägesenergiförlusten är</p><div class=\"facit-matte\">\\[1200\\cdot 9{,}82\\cdot \\left(3{,}0+1{,}5\\right)=53\\,028\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Bromsens arbete har detta belopp under 1,5 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{med}}=\\frac{53\\,028}{1{,}5}=35\\,352\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 35,35 kN.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bromsen måste ta energin från både fritt fall och stoppsträcka.</p>\\[E_\\text{broms}=1200\\cdot9{,}82(3{,}0+1{,}5)=53028\\,\\mathrm J\\]<p>Bromskraften verkar under 1,5 m. Dividera energin med denna sträcka, inte hela fallsträckan.</p>\\[F_\\text{medel}=\\frac{53028}{1{,}5}=35352\\,\\mathrm N\\]<p>Dividera med 1000 för att få kN.</p>\\[F_\\text{medel}=35{,}352\\,\\mathrm{kN}\\approx35{,}35\\,\\mathrm{kN}\\]</div>",
         "ledtrad": "<p>Under hur lång sträcka verkar själva bromsen?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -55049,7 +55049,7 @@ window.BANK = [
     "typ": "välja energimetod på ramp",
     "poang": "(0/2/0)",
     "t": "<p>En låda på 40 kg dras med konstant fart 5,0 m uppför ett plan som lutar 20°. Dragkraften är parallell med planet och glidfriktionstalet är 0,25. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm dragkraftens arbete. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dragkraften balanserar mg sin20° och μmg cos20°.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[W=m g\\cdot 5{,}0 \\left(\\sin 20^{\\circ}+0{,}25 \\cos 20^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><p>Samma resultat fås från ökad lägesenergi plus energiförlust genom friktion.</p></div></div><p class=\"facit-svar\">Svar: 1133,12 J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart betyder att dragkraften balanserar tyngdkraftens del längs planet och friktionen. Repet drar längs planet, så normalkraften är \\(N=mg\\cos20^\\circ\\).</p>\\[F_\\text{drag}=mg\\sin20^\\circ+\\mu mg\\cos20^\\circ\\]<p>Arbetet är dragkraft gånger sträckan längs planet.</p>\\[\\begin{gathered}W\\\\=40\\cdot9{,}82(\\sin20^\\circ+0{,}25\\cos20^\\circ)\\cdot5{,}0\\end{gathered}\\]\\[W\\approx1133{,}12\\,\\mathrm J\\]</div>",
     "familj": "Energiprincipen",
     "formaga": [
       "modellering",
@@ -55057,8 +55057,8 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__valja_energimetod_pa_ramp",
     "svarstyp": "numeriskt",
-    "rättSvar": 1133.12,
-    "tolerans": 0,
+    "rättSvar": 1133.1166382974945,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Vilka krafter måste dragkraften balansera längs planet?</p>",
     "traningsniva": 3,
@@ -55079,8 +55079,8 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En liten sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin strax före marken. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten strax före marken. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=2{,}5\\cdot 9{,}82\\cdot 8{,}0=196{,}4\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 196,4 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Hela minskningen i lägesenergi har blivit rörelseenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=196{,}4\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 196,4 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">mv²/2 = mgh ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot 9{,}82\\cdot 8{,}0}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 12,53 m/s.</p></div></div></div>",
+    "t": "<p>En sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin strax före marken. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten strax före marken. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Marken är nollnivå. Lägesenergin är massa gånger g gånger höjden över marken.</p>\\[E_p=2{,}5\\cdot9{,}82\\cdot8{,}0=196{,}4\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Stenen startar från vila. Utan luftmotstånd blir lägesenergin vid starten rörelseenergi strax före marken.</p>\\[E_k=mgh=2{,}5\\cdot9{,}82\\cdot8{,}0=196{,}4\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Lägesenergin blir rörelseenergi. Massan förkortas bort ur energisambandet.</p>\\[mgh=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad v=\\sqrt{2gh}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot8{,}0}\\approx12{,}53\\,\\mathrm{m/s}\\]</div>",
     "familj": "Energiprincipen",
     "formaga": [
       "procedur"
@@ -55090,16 +55090,16 @@ window.BANK = [
     "rättSvar": [
       196.4,
       196.4,
-      12.53
+      12.534751692793918
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken nollnivå används?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "från lägesenergi till fart",
     "miniräknare": true,
     "geogebra": false,
@@ -55127,11 +55127,11 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En liten sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><p>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=2{,}5\\cdot 9{,}82\\cdot 8{,}0=196{,}4\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 196,4 J.</p></div>",
+        "t": "<p>En sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd. Använd \\(E_p=mgh\\).</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><p>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Marken är nollnivå. Lägesenergin är massa gånger g gånger höjden över marken.</p>\\[E_p=2{,}5\\cdot9{,}82\\cdot8{,}0=196{,}4\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken nollnivå används?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -55141,12 +55141,12 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm rörelseenergin strax före marken. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En liten sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><p>Bestäm rörelseenergin strax före marken. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Hela minskningen i lägesenergi har blivit rörelseenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=196{,}4\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 196,4 J.</p></div>",
+        "t": "<p>En sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><p>Bestäm rörelseenergin strax före marken. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stenen startar från vila. Utan luftmotstånd blir lägesenergin vid starten rörelseenergi strax före marken.</p>\\[E_k=mgh=2{,}5\\cdot9{,}82\\cdot8{,}0=196{,}4\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vart tar lägesenergin vägen när inget motstånd finns?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -55155,11 +55155,11 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm farten strax före marken. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En liten sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><p>Bestäm farten strax före marken. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">mv²/2 = mgh ger</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot 9{,}82\\cdot 8{,}0}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 12,53 m/s.</p></div>",
+        "t": "<p>En sten på 2,5 kg släpps från vila 8,0 m över marken. Välj marken som nollnivå och bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"374\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.057 18.187 219.886 216.390\"><rect x=\"30\" y=\"200\" width=\"200\" height=\"9\" fill=\"#DCEAF6\"/><line x1=\"30\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"40\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"90\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><circle cx=\"90\" cy=\"188\" r=\"10\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"40\" x2=\"155\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"145\" y1=\"200\" x2=\"155\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"159\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8,0 m</text><text x=\"90\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg></span><p>Bestäm farten strax före marken. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin blir rörelseenergi. Massan förkortas bort ur energisambandet.</p>\\[mgh=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad v=\\sqrt{2gh}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot8{,}0}\\approx12{,}53\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vilken fart motsvarar rörelseenergin?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -59448,8 +59448,8 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Henrik kastar en liten sten snett nedåt med farten 5,0 m/s från 10 m över marken. Bortse från luftmotstånd och rotation.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten strax före marken.</li><li>Skulle samma begynnelsefart i en annan riktning ge samma slutfart? Motivera och ange ett villkor.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energibalansen mv₀²/2 + mgh = mv²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{5{,}0^{2}+2\\cdot 9{,}82\\cdot 10}\\approx 14{,}88\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ja, om stenen når samma marknivå utan att träffa något på vägen och luftmotståndet försummas.</p></div><div class=\"facit-stycke\"><p>Startenergin är densamma vid samma fart och höjd, oavsett riktning.</p></div><div class=\"facit-stycke\"><p>Bana, flygtid och sluthastighetens riktning kan däremot ändras.</p></div></div></div></div></div>",
+    "t": "<p>Henrik kastar en liten sten snett nedåt med farten 5,0 m/s från 10 m över marken. Bortse från luftmotstånd och rotation.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm farten strax före marken.</li><li>Skulle samma startfart i en annan riktning ge samma slutfart? Motivera och ange ett villkor.</li></ol><p>Svara med tre värdesiffror i numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Startens rörelseenergi och lägesenergin blir rörelseenergi strax före marken.</p>\\[\\frac{mv_0^2}{2}+mgh=\\frac{mv^2}{2}\\]<p>Förkorta massan och lös för v.</p>\\[v^2=v_0^2+2gh\\]\\[v=\\sqrt{5{,}0^2+2\\cdot9{,}82\\cdot10}\\approx14{,}9\\,\\mathrm{m/s}\\]<p><strong>b)</strong> Ja, om stenen når samma marknivå utan att träffa något på vägen. Vid samma startfart och höjd är energin lika stor oavsett kastriktning. Utan luftmotstånd blir därför slutfarten densamma. Flygtiden, banan och hastighetens riktning kan ändras.</p></div>",
     "familj": "Energiprincipen",
     "formaga": [
       "modellering",
@@ -59509,8 +59509,8 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>I en förenklad modell börjar en kula på 7,26 kg i vila. Fram till släppet höjs dess masscentrum 2,0 m och farten ökar till 13,5 m/s. Bortse från rotation och luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i rörelseenergi.</li><li>Bestäm ökningen i lägesenergi.</li><li>Vilken energiökning är störst och hur många gånger så stor är den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=\\frac{7{,}26\\cdot 13{,}5^{2}}{2}=661{,}5675 J\\approx 662\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=7{,}26\\cdot 9{,}82\\cdot 2{,}0=142{,}5864 J\\approx 143\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ökningen i rörelseenergi är störst.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kvoten är</p><div class=\"facit-matte\">\\[\\frac{661{,}5675}{142{,}5864}\\approx 4{,}64\\]</div></div></div><div class=\"facit-stycke\"><p>Jämförelsen gäller arbetet på kulan, inte idrottarens hela energiförbrukning.</p></div></div></div></div></div>",
+    "t": "<p>I en förenklad modell börjar en kula på 7,26 kg i vila. Fram till släppet höjs dess tyngdpunkt 2,0 m och farten ökar till 13,5 m/s. Bortse från rotation och luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i rörelseenergi.</li><li>Bestäm ökningen i lägesenergi.</li><li>Vilken energiökning är störst och hur många gånger så stor är den?</li></ol><p>Svara med tre värdesiffror i numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Kulan börjar i vila, så ökningen är hela rörelseenergin vid släppet.</p>\\[\\Delta E_k=\\frac{7{,}26\\cdot13{,}5^2}{2}=661{,}5675\\,\\mathrm J\\approx662\\,\\mathrm J\\]<p><strong>b)</strong> Tyngdpunkten höjs 2,0 m.</p>\\[\\begin{gathered}\\Delta E_p=mgh\\\\=7{,}26\\cdot9{,}82\\cdot2{,}0\\\\=142{,}5864\\,\\mathrm J\\\\\\approx143\\,\\mathrm J\\end{gathered}\\]<p><strong>c)</strong> Rörelseenergin ökar mest. Jämför de oavrundade energiökningarna.</p>\\[\\frac{\\Delta E_k}{\\Delta E_p}=\\frac{661{,}5675}{142{,}5864}\\approx4{,}64\\]<p>Ökningen i rörelseenergi är 4,64 gånger så stor. Beräkningen gäller kulan, inte idrottarens hela energiförbrukning.</p></div>",
     "familj": "Rörelseenergi Ek = mv²/2",
     "formaga": [
       "begrepp",
@@ -59522,7 +59522,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Beräkna de två energiändringarna var för sig innan du jämför.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "jämföra rörelseenergi och lyftarbete",
     "miniräknare": true,
     "geogebra": false,
@@ -59540,8 +59540,8 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>En liten boll på 120 g släpps från vila och studsar lodrätt mot golvet. Masscentrum ligger först 1,80 m och i första studsens högsta läge 1,25 m över sitt läge vid golvkontakten. Den nivån används som nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm lägesenergin vid första studsens högsta läge. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid första studsen? Svara i %. Avrunda vid behov till 2 decimaler.</li><li>Anta att samma andel mekanisk energi återstår efter varje studs. Bestäm nästa maximala höjd över nollnivån. Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}120\\cdot 9{,}82\\cdot 1{,}80=2{,}12112\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,12 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}120\\cdot 9{,}82\\cdot 1{,}25=1{,}473\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,47 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kvoten mellan energierna är 1,25/1,80.</p></div><div class=\"facit-stycke\"><p>Andelen som omvandlas är 100(1−1,25/1,80) %.</p></div><div class=\"facit-stycke\"><p>Energin försvinner inte; den blir bland annat inre energi och ljud.</p></div></div><p class=\"facit-svar\">Svar: 30,56 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjden är proportionell mot lägesenergin.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nästa höjd blir</p><div class=\"facit-matte\">\\[1{,}25\\cdot \\left(\\frac{1{,}25}{1{,}80}\\right)\\approx 0{,}86806\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 m.</p></div></div></div>",
+    "t": "<p>En liten boll på 120 g släpps från vila och studsar lodrätt mot golvet. Tyngdpunkten ligger först 1,80 m och i första studsens högsta läge 1,25 m över sitt läge vid golvkontakten. Den nivån används som nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm lägesenergin vid första studsens högsta läge. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid första studsen? Svara i %. Avrunda vid behov till 2 decimaler.</li><li>Anta att samma andel mekanisk energi återstår efter varje studs. Bestäm nästa maximala höjd över nollnivån. Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan: 120 g = 0,120 kg. Startens höjd är 1,80 m över den valda nollnivån.</p>\\[E_p=0{,}120\\cdot9{,}82\\cdot1{,}80=2{,}12112\\,\\mathrm J\\]<p>Med två decimaler: 2,12 J.</p><p><strong>b)</strong></p><p>Massan är 0,120 kg och höjden 1,25 m över nollnivån.</p>\\[E_p=0{,}120\\cdot9{,}82\\cdot1{,}25=1{,}473\\,\\mathrm J\\]<p>Med två decimaler: 1,47 J.</p><p><strong>c)</strong></p><p>I de högsta lägena är farten noll. Jämför därför lägesenergierna. Massan och g förkortas bort.</p>\\[\\text{andel kvar}=\\frac{mg\\cdot1{,}25}{mg\\cdot1{,}80}=\\frac{1{,}25}{1{,}80}\\]\\[\\text{andel omvandlad}=\\left(1-\\frac{1{,}25}{1{,}80}\\right)\\cdot100\\,\\%\\]\\[\\text{andel omvandlad}\\approx30{,}56\\,\\%\\]<p>Energin blir bland annat inre energi och ljud.</p><p><strong>d)</strong></p><p>Första studsen lämnar andelen \\(1{,}25/1{,}80\\) av den mekaniska energin kvar. Samma andel av höjden återstår efter nästa studs, eftersom lägesenergin är mgh.</p>\\[h_2=1{,}25\\cdot\\frac{1{,}25}{1{,}80}\\approx0{,}87\\,\\mathrm m\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -59550,16 +59550,16 @@ window.BANK = [
     "familjNyckel": "arbete__energi_vid_upprepade_studsar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.12,
-      1.47,
-      30.56,
-      0.87
+      2.12112,
+      1.4729999999999999,
+      30.555555555555557,
+      0.8680555555555556
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Använd massan i kilogram.</p>",
@@ -59595,7 +59595,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En boll på 120 g befinner sig 1,80 m över sin nollnivå för lägesenergi. Använd g = 9,82 m/s².</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg><p>Bestäm lägesenergin vid starten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}120\\cdot 9{,}82\\cdot 1{,}80=2{,}12112\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,12 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 120 g = 0,120 kg. Startens höjd är 1,80 m över den valda nollnivån.</p>\\[E_p=0{,}120\\cdot9{,}82\\cdot1{,}80=2{,}12112\\,\\mathrm J\\]<p>Med två decimaler: 2,12 J.</p></div>",
         "ledtrad": "<p>Använd massan i kilogram.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -59609,7 +59609,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm lägesenergin vid första studsens högsta läge. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En boll på 120 g befinner sig 1,25 m över sin nollnivå för lägesenergi. Använd g = 9,82 m/s².</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg><p>Bestäm lägesenergin vid första studsens högsta läge. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{p}}=0{,}120\\cdot 9{,}82\\cdot 1{,}25=1{,}473\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,47 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,120 kg och höjden 1,25 m över nollnivån.</p>\\[E_p=0{,}120\\cdot9{,}82\\cdot1{,}25=1{,}473\\,\\mathrm J\\]<p>Med två decimaler: 1,47 J.</p></div>",
         "ledtrad": "<p>Vilken höjd gäller efter studsen?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -59621,9 +59621,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid första studsen? Svara i %. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En liten boll på 120 g släpps från vila och studsar lodrätt mot golvet. Masscentrum ligger först 1,80 m och i första studsens högsta läge 1,25 m över sitt läge vid golvkontakten. Den nivån används som nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg></span><p>Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid första studsen? Svara i %. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kvoten mellan energierna är 1,25/1,80.</p></div><div class=\"facit-stycke\"><p>Andelen som omvandlas är 100(1−1,25/1,80) %.</p></div><div class=\"facit-stycke\"><p>Energin försvinner inte; den blir bland annat inre energi och ljud.</p></div></div><p class=\"facit-svar\">Svar: 30,56 %.</p></div>",
+        "fraga": "Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid studsen? Svara med två decimaler.",
+        "t": "<p>En boll släpps från vila. Bollens tyngdpunkt faller 1,80 m till golvkontakten. Efter studsen når den 1,25 m över samma läge. Bortse från luftmotståndet.</p><p>Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid studsen? Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I de högsta lägena är farten noll. Jämför därför lägesenergierna. Massan och g förkortas bort.</p>\\[\\text{andel kvar}=\\frac{mg\\cdot1{,}25}{mg\\cdot1{,}80}=\\frac{1{,}25}{1{,}80}\\]\\[\\text{andel omvandlad}=\\left(1-\\frac{1{,}25}{1{,}80}\\right)\\cdot100\\,\\%\\]\\[\\text{andel omvandlad}\\approx30{,}56\\,\\%\\]<p>Energin blir bland annat inre energi och ljud.</p></div>",
         "ledtrad": "<p>Skilj på andelen som återstår och andelen som omvandlas.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -59636,9 +59636,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Anta att samma andel mekanisk energi återstår efter varje studs. Bestäm nästa maximala höjd över nollnivån. Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En liten boll på 120 g släpps från vila och studsar lodrätt mot golvet. Masscentrum ligger först 1,80 m och i första studsens högsta läge 1,25 m över sitt läge vid golvkontakten. Den nivån används som nollnivå. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg></span><p>Anta att samma andel mekanisk energi återstår efter varje studs. Bestäm nästa maximala höjd över nollnivån. Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjden är proportionell mot lägesenergin.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nästa höjd blir</p><div class=\"facit-matte\">\\[1{,}25\\cdot \\left(\\frac{1{,}25}{1{,}80}\\right)\\approx 0{,}86806\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 m.</p></div>",
+        "fraga": "Hur högt över nollnivån når bollen efter nästa studs? Svara i m med två decimaler.",
+        "t": "<p>En boll släpps från vila 1,80 m över den valda nollnivån vid golvkontakten. Första studsen når 1,25 m över samma nivå. Bortse från luftmotståndet och anta att samma andel mekanisk energi återstår efter varje studs.</p><p>Hur högt över nollnivån når bollen efter nästa studs? Svara i m med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Första studsen lämnar andelen \\(1{,}25/1{,}80\\) av den mekaniska energin kvar. Samma andel av höjden återstår efter nästa studs, eftersom lägesenergin är mgh.</p>\\[h_2=1{,}25\\cdot\\frac{1{,}25}{1{,}80}\\approx0{,}87\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Ska du dra bort samma höjd eller behålla samma andel?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -59794,8 +59794,8 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Diagrammet visar den resulterande kraftens komponent i rörelseriktningen på en vagn. Vagnen har massan 5,0 kg, startar från vila och rör sig i positiv s-riktning. Bortse från hjulens rotationsenergi.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">s (m)</text><polyline points=\"54,26 226.8,26 226.8,136 486,136\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm nettoarbetet under de första 4,0 m.</li><li>Bestäm nettoarbetet under hela sträckan 10 m.</li><li>Bestäm farten vid 10 m.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W₀₋₄ =</p><div class=\"facit-matte\">\\[20\\cdot 4{,}0=80\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{tot}}=80+10\\cdot 6{,}0=140\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W_{\\mathrm{tot}}\\) = Δ\\(E_{\\mathrm{k}}\\) och vagnen startar från vila.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2\\cdot 140}{5{,}0}}\\approx 7{,}48\\, \\mathrm{m/s}\\]</div></div></div></div></div></div></div>",
+    "t": "<p>Diagrammet visar den sammanlagda kraften i rörelseriktningen på en vagn. Vagnen har massan 5,0 kg, startar från vila och rör sig i positiv s-riktning. Bortse från hjulens rotationsenergi.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">s (m)</text><polyline points=\"54,26 226.8,26 226.8,136 486,136\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det sammanlagda arbetet under de första 4,0 m.</li><li>Bestäm det sammanlagda arbetet under hela sträckan 10 m.</li><li>Bestäm farten vid 10 m.</li></ol><p>Svara med tre värdesiffror i numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Arbetet är arean under kraftkurvan. Under de första 4,0 m är kraften 20 N.</p>\\[W_{0\\text{–}4}=20\\cdot4{,}0=80\\,\\mathrm J\\]<p><strong>b)</strong> Under de följande 10 − 4 = 6 m är kraften 10 N. Lägg ihop de två rektanglarnas areor.</p>\\[W_\\text{tot}=20\\cdot4+10\\cdot6=140\\,\\mathrm J\\]<p><strong>c)</strong> Vagnen startar från vila. Det sammanlagda arbetet blir rörelseenergi.</p>\\[\\frac{mv^2}{2}=140\\]\\[v=\\sqrt{\\frac{2\\cdot140}{5{,}0}}\\approx7{,}48\\,\\mathrm{m/s}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -59825,7 +59825,7 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "A",
     "poang": "(0/2/2)",
-    "t": "<p>En kloss med massa m > 0 skjuts nedför en friktionsfri backe med begynnelsefarten v > 0. Backens höjdskillnad är h ≥ 0. Övergången till vågrät mark är mjuk och utan energiförlust. På den vågräta marken bromsas klossen bara av glidfriktion med μ > 0. Tyngdaccelerationen är g > 0.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram stoppsträckan s på den vågräta ytan.</li><li>Undersök hur s påverkas om massan fördubblas respektive om begynnelsefarten fördubblas.</li><li>En elev säger att dubbla begynnelsefarten alltid ger fyra gånger stoppsträckan. Bedöm påståendet.</li></ol>",
+    "t": "<p>En kloss med massa m > 0 skjuts nedför en friktionsfri backe med startfarten v > 0. Backens höjdskillnad är h ≥ 0. Övergången till vågrät mark är mjuk och utan energiförlust. På den vågräta marken bromsas klossen bara av glidfriktion med μ > 0. Tyngdaccelerationen är g > 0.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram stoppsträckan s på den vågräta ytan.</li><li>Undersök hur s påverkas om massan fördubblas respektive om startfarten fördubblas.</li><li>En elev säger att dubbla startfarten alltid ger fyra gånger stoppsträckan. Bedöm påståendet.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid backens fot är rörelseenergin mv²/2+mgh.</p></div><div class=\"facit-stycke\"><p>Friktionen på den vågräta ytan har beloppet μmg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför μmgs = mv²/2+mgh och</p><div class=\"facit-matte\">\\[s=\\frac{\\left(v^{2}+2 g h\\right)}{2 \\mu g}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Massan förkortas bort och påverkar inte s i modellen.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid dubbla v blir</p><div class=\"facit-matte\">\\[s_{2}=\\frac{\\left(4 v^{2}+2 g h\\right)}{2 \\mu g}\\]</div></div></div><div class=\"facit-stycke\"><p>Höjdbidraget ändras inte.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Påståendet är fel när h &gt; 0.</p></div><div class=\"facit-stycke\"><p>Kvoten s₂/s = (4v²+2gh)/(v²+2gh) ligger mellan 1 och 4 för v &gt; 0 och h &gt; 0.</p></div><div class=\"facit-stycke\"><p>Kvoten är exakt 4 när h = 0 och v &gt; 0.</p></div></div></div></div></div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
@@ -119517,7 +119517,7 @@ window.BANK = [
     "typ": "sträcka ur friktionsarbete",
     "poang": "(0/2/0)",
     "t": "<p>En traktor drar en stock på 800 kg längs vågrät mark med konstant fart. Dragkraften är vågrät, glidfriktionstalet är 0,61. Bortse från annat motstånd. Dragkraften uträttar 1,2 MJ.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm sträckan. Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart ger</p><div class=\"facit-matte\">\\[F_{\\mathrm{drag}}=\\mu m g=0{,}61\\cdot 800\\cdot 9{,}82=4792{,}16\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">W = Fs ger</p><div class=\"facit-matte\">\\[s=\\frac{1\\,200\\,000}{4792{,}16}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 250,41 m.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att dragkraften balanserar friktionen. Kraften är vågrät, så normalkraften är mg.</p>\\[F=\\mu mg=0{,}61\\cdot800\\cdot9{,}82=4792{,}16\\,\\mathrm N\\]<p>Omvandla arbetet: 1,2 MJ = 1 200 000 J. Lös W = Fs för sträckan.</p>\\[s=\\frac WF=\\frac{1200000}{4792{,}16}\\approx250{,}41\\,\\mathrm m\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -119525,13 +119525,13 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__stracka_ur_friktionsarbete",
     "svarstyp": "numeriskt",
-    "rättSvar": 250.41,
-    "tolerans": 0,
+    "rättSvar": 250.40900136890255,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken kraft måste dragkraften balansera?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "m",
@@ -119677,7 +119677,7 @@ window.BANK = [
     "typ": "bromsarbete ur energi",
     "poang": "(2/0/0)",
     "t": "<p>En cyklist med cykel har massan 113 kg och bromsar på vågrät mark från 15 m/s till vila. Alla bromsande krafter räknas tillsammans. Bortse från hjulens rotationsenergi.</p><p>Bestäm de bromsande krafternas sammanlagda arbete. Ange tecken. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{netto}}=\\Delta E_{\\mathrm{k}}=0-\\frac{113\\cdot 15^{2}}{2}=-12\\,712{,}5\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Tiden behövs inte när start- och slutfarten är kända.</p></div></div><p class=\"facit-svar\">Svar: -12,71 kJ.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>De bromsande krafternas sammanlagda arbete är slutets rörelseenergi minus startens. Slutfarten är noll.</p>\\[E_{k,\\text{start}}=\\frac{113\\cdot15^2}{2}=12712{,}5\\,\\mathrm J\\]\\[W=0-12712{,}5=-12712{,}5\\,\\mathrm J\\]<p>Dividera med 1000 för att få kJ. Minustecknet visar att krafterna tar energi från rörelsen.</p>\\[W=-12{,}7125\\,\\mathrm{kJ}\\approx-12{,}71\\,\\mathrm{kJ}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "begrepp",
@@ -119685,13 +119685,13 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__bromsarbete_ur_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": -12.71,
-    "tolerans": 0,
+    "rättSvar": -12.7125,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Kan energiskillnaden bestämmas utan att först beräkna bromskraften?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kJ",
@@ -119709,7 +119709,7 @@ window.BANK = [
     "typ": "bromskraft ur stoppsträcka",
     "poang": "(0/2/0)",
     "t": "<p>En bil på 1,3 ton bromsar från 21,5 m/s till vila under 125 m på vågrät väg. Den sammanlagda bromskraften antas konstant. Bortse från hjulens rotationsenergi.</p><p>Bestäm bromskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den förlorade rörelseenergin är</p><div class=\"facit-matte\">\\[\\frac{1300\\cdot 21{,}5^{2}}{2}=300\\,462{,}5\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">F · 125 = 300 462,5 ger</p><div class=\"facit-matte\">\\[F=2403{,}7\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2403,7 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 1,3 ton = 1300 kg. Bromsningen tar bort hela rörelseenergin.</p>\\[E_{k,\\text{start}}=\\frac{1300\\cdot21{,}5^2}{2}=300462{,}5\\,\\mathrm J\\]<p>Bromskraftens arbete är negativt. Frågan gäller kraftens positiva storlek, så dividera energin som tas bort med bromssträckan.</p>\\[F=\\frac{300462{,}5}{125}=2403{,}7\\,\\mathrm N\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -119718,12 +119718,12 @@ window.BANK = [
     "familjNyckel": "arbete__bromskraft_ur_stoppstracka",
     "svarstyp": "numeriskt",
     "rättSvar": 2403.7,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilket arbete måste bromskraften uträtta för att bilen ska stanna?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
@@ -120147,11 +120147,11 @@ window.BANK = [
     "id": "5.205",
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "nettoarbete och oförändrad fart",
-    "poang": "(2/2/0)",
-    "t": "<p>Stefan skjuter en låda på 50 kg över ett vågrätt golv med konstant fart. Han utövar en vågrät kraft på 250 N och flyttar lådan 7,5 m. Övriga krafter är tyngdkraft, normalkraft och glidfriktion.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm Stefans arbete på lådan.</li><li>Bestäm friktionskraften till storlek och riktning.</li><li>Bestäm friktionens arbete.</li><li>Förklara varför farten inte ökar trots att Stefan gör positivt arbete.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{S}}=250\\cdot 7{,}5=1875\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Konstant fart kräver noll resultant.</p></div><div class=\"facit-stycke\"><p>Friktionskraften är 250 N mot rörelsen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=-250\\cdot 7{,}5=-1875\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nettoarbetet är</p><div class=\"facit-matte\">\\[1875-1875=0\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Därför är Δ\\(E_{\\mathrm{k}}\\) = 0 och farten oförändrad.</p></div><div class=\"facit-stycke\"><p>Energin som Stefan tillför blir främst inre energi i lådan och golvet.</p></div></div></div></div></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Stefan skjuter en låda över ett vågrätt golv med konstant fart. Han utövar en vågrät kraft på 250 N och flyttar lådan 7,5 m. Övriga krafter är tyngdkraft, normalkraft och glidfriktion.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm Stefans arbete på lådan.</li><li>Bestäm friktionskraften till storlek och riktning.</li><li>Bestäm friktionens arbete.</li><li>Förklara varför farten inte ökar trots att Stefan gör positivt arbete.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Stefans kraft och förflyttningen har samma riktning.</p>\\[W_S=Fs=250\\cdot7{,}5=1875\\,\\mathrm J\\]<p><strong>b)</strong> Konstant fart betyder att den sammanlagda kraften är noll. Friktionen måste därför vara 250 N och riktad mot rörelsen.</p><p><strong>c)</strong> Friktionen verkar mot förflyttningen och gör negativt arbete.</p>\\[W_\\text{fr}=-Fs=-250\\cdot7{,}5=-1875\\,\\mathrm J\\]<p><strong>d)</strong> Stefans positiva arbete och friktionens negativa arbete tar ut varandra.</p>\\[W_\\text{tot}=1875-1875=0\\,\\mathrm J\\]<p>Rörelseenergin ökar därför inte. Den energi Stefan tillför omvandlas främst till inre energi i lådan och golvet.</p></div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120165,7 +120165,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Är det en enda krafts arbete eller summan av alla arbeten som ändrar rörelseenergin?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -120454,7 +120454,7 @@ window.BANK = [
     "typ": "fart efter glidning nedför plan",
     "poang": "(0/2/0)",
     "t": "<p>En kloss släpps från vila på ett rakt plan med lutningen 30°. Punkten B ligger 10,0 m längre ned längs planet än startpunkten A. Glidfriktionstalet är 0,250. Klossen börjar glida direkt. Bortse från annat motstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten i B. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjdskillnaden är 10,0 sin30° m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energibalansen ger</p><div class=\"facit-matte\">\\[\\frac{m v^{2}}{2}=m g\\cdot 10{,}0 \\sin 30^{\\circ}-0{,}250 m g \\cos 30^{\\circ}\\cdot 10{,}0\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan förkortas bort och</p><div class=\"facit-matte\">\\[v=\\sqrt{2 g\\cdot 10{,}0 \\left(\\sin 30^{\\circ}-0{,}250 \\cos 30^{\\circ}\\right)}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 7,46 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>De 10,0 m mäts längs planet. Beräkna först höjdminskningen.</p>\\[h=10{,}0\\sin30^\\circ=5{,}0\\,\\mathrm m\\]<p>Normalkraften är mg cos30°. Friktionens storlek är därför \\(F_\\text{fr}=0{,}250mg\\cos30^\\circ\\). Lägesenergin blir rörelseenergi och arbete mot friktionen.</p>\\[\\frac{mv^2}{2}=mg\\cdot5{,}0-0{,}250mg\\cos30^\\circ\\cdot10{,}0\\]<p>Förkorta massan och lös för farten.</p>\\[v=\\sqrt{2\\cdot9{,}82(5{,}0-0{,}250\\cos30^\\circ\\cdot10{,}0)}\\]\\[v\\approx7{,}46\\,\\mathrm{m/s}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120462,8 +120462,8 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__fart_efter_glidning_nedfor_plan",
     "svarstyp": "numeriskt",
-    "rättSvar": 7.46,
-    "tolerans": 0,
+    "rättSvar": 7.461779457621624,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -120484,9 +120484,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "friktionstal ur energiförlust",
-    "poang": "(0/2/0)",
+    "poang": "(1/1/0)",
     "t": "<p>En låda på 0,80 kg glider på en vågrät yta. Efter att lådan har glidit 20 m har farten minskat från 15 m/s till 10 m/s. Glidfriktion är den enda kraften längs rörelsen.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm friktionens arbete. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=\\Delta E_{\\mathrm{k}}=\\frac{0{,}80 \\left(10^{2}-15^{2}\\right)}{2}=-50\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -50 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beloppet av friktionsarbetet är μmg s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\mu=\\frac{50}{0{,}80\\cdot 9{,}82\\cdot 20}\\approx 0{,}31823\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,318.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Friktionens arbete är förändringen i rörelseenergi. Beräkna energierna före och efter.</p>\\[E_{k,\\text{start}}=\\frac{0{,}80\\cdot15^2}{2}=90\\,\\mathrm J\\]\\[E_{k,\\text{slut}}=\\frac{0{,}80\\cdot10^2}{2}=40\\,\\mathrm J\\]\\[W_\\text{fr}=40-90=-50\\,\\mathrm J\\]<p>Minustecknet visar att friktionen bromsar rörelsen.</p><p><strong>b)</strong></p><p>Friktionen tar bort rörelseenergi. Beräkna energiminskningen och dividera med sträckan.</p>\\[E_\\text{minskning}=\\frac{0{,}80(15^2-10^2)}2=50\\,\\mathrm J\\]\\[F_\\text{fr}=\\frac{50}{20}=2{,}5\\,\\mathrm N\\]<p>På vågrät yta är normalkraften mg.</p>\\[N=0{,}80\\cdot9{,}82=7{,}856\\,\\mathrm N\\]\\[\\mu=\\frac{F_\\text{fr}}N=\\frac{2{,}5}{7{,}856}\\approx0{,}318\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120495,12 +120495,12 @@ window.BANK = [
     "familjNyckel": "arbete__friktionstal_ur_energiforlust",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -50,
-      0.318
+      -50.0,
+      0.3182281059063136
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -120527,14 +120527,14 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm friktionens arbete. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En låda på 0,80 kg glider på en vågrät yta. Efter att lådan har glidit 20 m har farten minskat från 15 m/s till 10 m/s. Glidfriktion är den enda kraften längs rörelsen.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionens arbete. Ange tecken. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=\\Delta E_{\\mathrm{k}}=\\frac{0{,}80 \\left(10^{2}-15^{2}\\right)}{2}=-50\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -50 J.</p></div>",
+        "fraga": "Bestäm friktionens arbete i J. Ange tecken och svara med två decimaler.",
+        "t": "<p>En låda på 0,80 kg glider på en vågrät yta. Farten minskar från 15 till 10 m/s. Friktionen är den enda kraften som uträttar arbete.</p><p>Bestäm friktionens arbete i J. Ange tecken och svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionens arbete är förändringen i rörelseenergi. Beräkna energierna före och efter.</p>\\[E_{k,\\text{start}}=\\frac{0{,}80\\cdot15^2}{2}=90\\,\\mathrm J\\]\\[E_{k,\\text{slut}}=\\frac{0{,}80\\cdot10^2}{2}=40\\,\\mathrm J\\]\\[W_\\text{fr}=40-90=-50\\,\\mathrm J\\]<p>Minustecknet visar att friktionen bromsar rörelsen.</p></div>",
         "ledtrad": "<p>Skriv slutenergin minus startenergin.</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "modellering",
           "procedur"
@@ -120544,7 +120544,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.",
         "t": "<p>En låda på 0,80 kg glider på en vågrät yta. Efter att lådan har glidit 20 m har farten minskat från 15 m/s till 10 m/s. Glidfriktion är den enda kraften längs rörelsen.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beloppet av friktionsarbetet är μmg s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\mu=\\frac{50}{0{,}80\\cdot 9{,}82\\cdot 20}\\approx 0{,}31823\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,318.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen tar bort rörelseenergi. Beräkna energiminskningen och dividera med sträckan.</p>\\[E_\\text{minskning}=\\frac{0{,}80(15^2-10^2)}2=50\\,\\mathrm J\\]\\[F_\\text{fr}=\\frac{50}{20}=2{,}5\\,\\mathrm N\\]<p>På vågrät yta är normalkraften mg.</p>\\[N=0{,}80\\cdot9{,}82=7{,}856\\,\\mathrm N\\]\\[\\mu=\\frac{F_\\text{fr}}N=\\frac{2{,}5}{7{,}856}\\approx0{,}318\\]</div>",
         "ledtrad": "<p>Vilken kraft utför det beräknade arbetet under 20 m?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -120630,7 +120630,7 @@ window.BANK = [
     "typ": "energi med motstånd upp och ned",
     "poang": "(0/2/0)",
     "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. I modellen verkar en motståndskraft med konstant storlek F, alltid mot rörelsen. Samma storlek antas gälla under färden ned. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På vägen upp gäller</p><div class=\"facit-matte\">\\[\\frac{m v_{0}^{2}}{2}=m g h+F h\\]</div></div></div><div class=\"facit-stycke\"><p>Därför F = (400−294,6)/15 = 7,02666… N.</p></div></div><p class=\"facit-svar\">Svar: 7,03 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Uppfärden ger</p><div class=\"facit-matte\">\\[F h=\\frac{2{,}0\\cdot 20^{2}}{2}-2{,}0\\cdot 9{,}82\\cdot 15=105{,}4\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På vägen ned blir</p><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=m g h-F h=294{,}6-105{,}4=189{,}2\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Då v = √(2 · 189,2/2) ≈ 13,754999… m/s.</p></div><div class=\"facit-stycke\"><p>Motståndet tar energi även under färden ned.</p></div></div><p class=\"facit-svar\">Svar: 13,75 m/s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vägen upp går startens rörelseenergi till lägesenergi och arbete mot motståndet.</p>\\[E_{k,\\text{start}}=\\frac{2{,}0\\cdot20^2}{2}=400\\,\\mathrm J\\]\\[\\Delta E_p=2{,}0\\cdot9{,}82\\cdot15=294{,}6\\,\\mathrm J\\]<p>Motståndet tar skillnaden under 15 m.</p>\\[F=\\frac{400-294{,}6}{15}\\approx7{,}03\\,\\mathrm N\\]<p><strong>b)</strong></p><p>På vägen upp är startens rörelseenergi \\(2{,}0\\cdot20^2/2=400\\) J. Lägesenergin ökar med \\(2{,}0\\cdot9{,}82\\cdot15=294{,}6\\) J. Motståndet tar därför 105,4 J under 15 m.</p>\\[F\\cdot15=400-294{,}6=105{,}4\\,\\mathrm J\\]<p>På vägen ned minskar lägesenergin med 294,6 J. Motståndet tar åter 105,4 J, eftersom kraftens storlek och sträckan är samma.</p>\\[E_{k,\\text{mark}}=294{,}6-105{,}4=189{,}2\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot189{,}2}{2{,}0}}\\approx13{,}75\\,\\mathrm{m/s}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120639,18 +120639,18 @@ window.BANK = [
     "familjNyckel": "arbete__energi_med_motstand_upp_och_ned",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.03,
-      13.75
+      7.0266666666666655,
+      13.75499909123952
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilka två arbeten bromsar föremålet på vägen upp?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -120673,10 +120673,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. I modellen verkar en motståndskraft med konstant storlek F, alltid mot rörelsen. Samma storlek antas gälla under färden ned. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På vägen upp gäller</p><div class=\"facit-matte\">\\[\\frac{m v_{0}^{2}}{2}=m g h+F h\\]</div></div></div><div class=\"facit-stycke\"><p>Därför F = (400−294,6)/15 = 7,02666… N.</p></div></div><p class=\"facit-svar\">Svar: 7,03 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vägen upp går startens rörelseenergi till lägesenergi och arbete mot motståndet.</p>\\[E_{k,\\text{start}}=\\frac{2{,}0\\cdot20^2}{2}=400\\,\\mathrm J\\]\\[\\Delta E_p=2{,}0\\cdot9{,}82\\cdot15=294{,}6\\,\\mathrm J\\]<p>Motståndet tar skillnaden under 15 m.</p>\\[F=\\frac{400-294{,}6}{15}\\approx7{,}03\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka två arbeten bromsar föremålet på vägen upp?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -120688,10 +120688,10 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. I modellen verkar en motståndskraft med konstant storlek F, alltid mot rörelsen. Samma storlek antas gälla under färden ned. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Uppfärden ger</p><div class=\"facit-matte\">\\[F h=\\frac{2{,}0\\cdot 20^{2}}{2}-2{,}0\\cdot 9{,}82\\cdot 15=105{,}4\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På vägen ned blir</p><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=m g h-F h=294{,}6-105{,}4=189{,}2\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Då v = √(2 · 189,2/2) ≈ 13,754999… m/s.</p></div><div class=\"facit-stycke\"><p>Motståndet tar energi även under färden ned.</p></div></div><p class=\"facit-svar\">Svar: 13,75 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vägen upp är startens rörelseenergi \\(2{,}0\\cdot20^2/2=400\\) J. Lägesenergin ökar med \\(2{,}0\\cdot9{,}82\\cdot15=294{,}6\\) J. Motståndet tar därför 105,4 J under 15 m.</p>\\[F\\cdot15=400-294{,}6=105{,}4\\,\\mathrm J\\]<p>På vägen ned minskar lägesenergin med 294,6 J. Motståndet tar åter 105,4 J, eftersom kraftens storlek och sträckan är samma.</p>\\[E_{k,\\text{mark}}=294{,}6-105{,}4=189{,}2\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot189{,}2}{2{,}0}}\\approx13{,}75\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Byter motståndskraftens arbete tecken när rörelsen vänder?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -120711,9 +120711,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "friktionskraft ur nettoarbete",
-    "poang": "(0/2/0)",
+    "poang": "(0/1/0)",
     "t": "<p>En låda på 8,00 kg dras på vågrätt golv med en konstant repkraft på 50,0 N, riktad 53,0° uppåt från rörelseriktningen. Farten ökar från 10,0 m/s vid A till 12,0 m/s vid B, 20,0 m längre fram. En konstant glidfriktionskraft bromsar lådan. Bortse från övrigt motstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=\\frac{8{,}00 \\left(12{,}0^{2}-10{,}0^{2}\\right)}{2}=176\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Dragkraftens arbete är 50,0 cos53,0° · 20,0.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energibalansen (50,0 cos53,0°−F_fr) · 20,0 = 176 ger</p><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}\\approx 21{,}29075\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Kontroll: mg−50 sin53° ≈ 38,63 N &gt; 0, så lådan kan vara kvar på golvet.</p></div></div><p class=\"facit-svar\">Svar: 21,29 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Repkraftens vågräta del utför positivt arbete. Friktionen utför negativt arbete. Nettoarbetet ökar rörelseenergin.</p>\\[\\Delta E_k=\\frac{8{,}00(12{,}0^2-10{,}0^2)}2=176\\,\\mathrm J\\]\\[W_\\text{rep}=50{,}0\\cos53{,}0^\\circ\\cdot20{,}0\\approx601{,}815\\,\\mathrm J\\]<p>Friktionen tar repets arbete minus ökningen i rörelseenergi. Dividera med sträckan och använd oavrundat reparbete.</p>\\[F_\\text{fr}=\\frac{50{,}0\\cos53{,}0^\\circ\\cdot20{,}0-176}{20{,}0}\\]\\[F_\\text{fr}\\approx21{,}29\\,\\mathrm N\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120721,13 +120721,13 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__friktionskraft_ur_nettoarbete",
     "svarstyp": "numeriskt",
-    "rättSvar": 21.29,
-    "tolerans": 0,
+    "rättSvar": 21.29075115760242,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilket nettoarbete behövs för fartökningen?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
@@ -120743,9 +120743,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "energibalans över flera backar",
-    "poang": "(0/2/0)",
+    "poang": "(0/1/0)",
     "t": "<p>En cyklist med cykel har massan 80 kg. Vid A är höjden 40 m över en vald nollnivå och farten 10 m/s. Vid C är höjden 30 m och farten 12 m/s. Vägen mellan A och C är 600 m lång och en konstant motståndskraft på 25 N bromsar rörelsen. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm det mekaniska arbete som cyklisten tillför under färden. Svara i kJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=\\Delta E_{\\mathrm{k}}+\\Delta E_{\\mathrm{p}}+F_{\\mathrm{mot}} s\\]</div></div></div><div class=\"facit-stycke\"><p>Här är Δ\\(E_{\\mathrm{k}}\\) = 1760 J, Δ\\(E_{\\mathrm{p}}\\) = −7856 J och motståndsförlusten 15 000 J.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[W=1760-7856+15\\,000=8904\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 8,9 kJ.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna ändringarna i rörelseenergi och lägesenergi. Höjdändringen är \\(30-40=-10\\) m.</p>\\[\\Delta E_k=\\frac{80(12^2-10^2)}2=1760\\,\\mathrm J\\]\\[\\Delta E_p=80\\cdot9{,}82\\cdot(-10)=-7856\\,\\mathrm J\\]<p>Motståndet tar energi under hela vägen.</p>\\[E_\\text{motstånd}=25\\cdot600=15000\\,\\mathrm J\\]<p>Cyklistens arbete måste ge energiändringarna och ersätta energin som motståndet tar.</p>\\[W=1760-7856+15000=8904\\,\\mathrm J\\]<p>Dividera med 1000 för att få kJ.</p>\\[W=8{,}904\\,\\mathrm{kJ}\\approx8{,}90\\,\\mathrm{kJ}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120753,13 +120753,13 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__energibalans_over_flera_backar",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.9,
-    "tolerans": 0,
+    "rättSvar": 8.904,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Ta med att slutpunkten ligger lägre trots att slutfarten är högre.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kJ",
@@ -120777,7 +120777,7 @@ window.BANK = [
     "typ": "friktion under upp- och nedfärd",
     "poang": "(0/2/0)",
     "t": "<p>En kloss på 4,0 kg skjuts uppför ett plan med lutningen 37° och stannar efter 2,5 m. Den börjar därefter glida ned igen. Glidfriktionstalet är 2/7 i båda riktningarna. Bortse från annat motstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm startfarten uppför planet. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten när klossen åter passerar startpunkten. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På vägen upp bromsar både tyngdkraftskomponenten och friktionen.</p><div class=\"facit-matte\">\\[\\frac{m u^{2}}{2}=m g s \\left(\\sin 37^{\\circ}+\\left(\\frac{2}{7}\\right) \\cos 37^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[u=\\sqrt{2 g\\cdot 2{,}5 \\left(\\sin 37^{\\circ}+\\left(\\frac{2}{7}\\right) \\cos 37^{\\circ}\\right)}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,38 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nedför hjälper tyngdkraften rörelsen medan friktionen bromsar.</p><div class=\"facit-matte\">\\[\\frac{m v^{2}}{2}=m g s \\left(\\sin 37^{\\circ}-\\left(\\frac{2}{7}\\right) \\cos 37^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><p>Farten blir lägre än startfarten eftersom energi omvandlas på båda delsträckorna.</p></div></div><p class=\"facit-svar\">Svar: 4,28 m/s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vägen upp tar både tyngdkraften och friktionen energi från rörelsen. Normalkraften är mg cos37°, så friktionen är \\((2/7)mg\\cos37^\\circ\\).</p>\\[\\begin{gathered}\\frac{mu^2}{2}=mg\\cdot2{,}5\\sin37^\\circ\\\\{}+\\frac27mg\\cos37^\\circ\\cdot2{,}5\\end{gathered}\\]<p>Förkorta massan och lös för startfarten.</p>\\[u=\\sqrt{2\\cdot9{,}82\\cdot2{,}5(\\sin37^\\circ+\\frac27\\cos37^\\circ)}\\]\\[u\\approx6{,}38\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Klossen startar från vila vid vändpunkten. Nedför tillför tyngdkraften energi medan friktionen tar energi.</p>\\[\\begin{gathered}\\frac{mv^2}{2}=mg\\cdot2{,}5\\sin37^\\circ\\\\{}-\\frac27mg\\cos37^\\circ\\cdot2{,}5\\end{gathered}\\]<p>Förkorta massan och lös för farten.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot2{,}5(\\sin37^\\circ-\\frac27\\cos37^\\circ)}\\]\\[v\\approx4{,}28\\,\\mathrm{m/s}\\]<p>Farten är lägre än startfarten uppför. Friktionen tar energi i båda riktningarna.</p></div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120786,18 +120786,18 @@ window.BANK = [
     "familjNyckel": "arbete__friktion_under_upp_och_nedfard",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6.38,
-      4.28
+      6.383794556128635,
+      4.283153317203757
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilka krafter tar rörelseenergi på vägen upp?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -120820,10 +120820,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm startfarten uppför planet. Svara i m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En kloss på 4,0 kg skjuts uppför ett plan med lutningen 37° och stannar efter 2,5 m. Den börjar därefter glida ned igen. Glidfriktionstalet är 2/7 i båda riktningarna. Bortse från annat motstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm startfarten uppför planet. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">På vägen upp bromsar både tyngdkraftskomponenten och friktionen.</p><div class=\"facit-matte\">\\[\\frac{m u^{2}}{2}=m g s \\left(\\sin 37^{\\circ}+\\left(\\frac{2}{7}\\right) \\cos 37^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[u=\\sqrt{2 g\\cdot 2{,}5 \\left(\\sin 37^{\\circ}+\\left(\\frac{2}{7}\\right) \\cos 37^{\\circ}\\right)}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,38 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vägen upp tar både tyngdkraften och friktionen energi från rörelsen. Normalkraften är mg cos37°, så friktionen är \\((2/7)mg\\cos37^\\circ\\).</p>\\[\\begin{gathered}\\frac{mu^2}{2}=mg\\cdot2{,}5\\sin37^\\circ\\\\{}+\\frac27mg\\cos37^\\circ\\cdot2{,}5\\end{gathered}\\]<p>Förkorta massan och lös för startfarten.</p>\\[u=\\sqrt{2\\cdot9{,}82\\cdot2{,}5(\\sin37^\\circ+\\frac27\\cos37^\\circ)}\\]\\[u\\approx6{,}38\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vilka krafter tar rörelseenergi på vägen upp?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -120835,10 +120835,10 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm farten när klossen åter passerar startpunkten. Svara i m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En kloss på 4,0 kg skjuts uppför ett plan med lutningen 37° och stannar efter 2,5 m. Den börjar därefter glida ned igen. Glidfriktionstalet är 2/7 i båda riktningarna. Bortse från annat motstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten när klossen åter passerar startpunkten. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nedför hjälper tyngdkraften rörelsen medan friktionen bromsar.</p><div class=\"facit-matte\">\\[\\frac{m v^{2}}{2}=m g s \\left(\\sin 37^{\\circ}-\\left(\\frac{2}{7}\\right) \\cos 37^{\\circ}\\right)\\]</div></div></div><div class=\"facit-stycke\"><p>Farten blir lägre än startfarten eftersom energi omvandlas på båda delsträckorna.</p></div></div><p class=\"facit-svar\">Svar: 4,28 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen startar från vila vid vändpunkten. Nedför tillför tyngdkraften energi medan friktionen tar energi.</p>\\[\\begin{gathered}\\frac{mv^2}{2}=mg\\cdot2{,}5\\sin37^\\circ\\\\{}-\\frac27mg\\cos37^\\circ\\cdot2{,}5\\end{gathered}\\]<p>Förkorta massan och lös för farten.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot2{,}5(\\sin37^\\circ-\\frac27\\cos37^\\circ)}\\]\\[v\\approx4{,}28\\,\\mathrm{m/s}\\]<p>Farten är lägre än startfarten uppför. Friktionen tar energi i båda riktningarna.</p></div>",
         "ledtrad": "<p>Vilken av krafterna gör positivt arbete på vägen ned?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -120858,9 +120858,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "mekanisk energiförlust nedför plan",
-    "poang": "(0/2/0)",
-    "t": "<p>En kloss på 0,50 kg glider nedför ett plan med lutningen 30°. Vid A är farten 10 m/s och 12 m längre ned längs planet, vid B, är den 9,0 m/s. Endast tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hur mycket mekanisk energi som omvandlas till andra energiformer mellan A och B. Ange en positiv storlek. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Rörelseenergin minskar med</p><div class=\"facit-matte\">\\[\\frac{0{,}50 \\left(10^{2}-9{,}0^{2}\\right)}{2}=4{,}75\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lägesenergin minskar med</p><div class=\"facit-matte\">\\[0{,}50\\cdot 9{,}82\\cdot 12 \\sin 30^{\\circ}=29{,}46\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Den mekaniska energiförlusten är 34,21 J.</p></div></div><p class=\"facit-svar\">Svar: 34,21 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Förlusten är μmg cos30° · 12.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\mu=\\frac{34{,}21}{0{,}50\\cdot 9{,}82 \\cos 30^{\\circ}\\cdot 12}\\approx 0{,}67044\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,670.</p></div></div></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En kloss på 0,50 kg glider nedför ett plan med lutningen 30°. Vid A är farten 10 m/s och 12 m längre ned längs planet, vid B, är den 9,0 m/s. Endast tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hur mycket mekanisk energi som omvandlas till andra energiformer mellan A och B. Ange en positiv storlek. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Använd energiförlusten 34,21 J. Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna hur mycket både rörelseenergin och lägesenergin minskar. De 12 m mäts längs planet.</p>\\[E_{k,\\text{minskning}}=\\frac{0{,}50(10^2-9{,}0^2)}2=4{,}75\\,\\mathrm J\\]\\[h=12\\sin30^\\circ=6\\,\\mathrm m\\]\\[E_{p,\\text{minskning}}=0{,}50\\cdot9{,}82\\cdot6=29{,}46\\,\\mathrm J\\]<p>Summan är mekanisk energi som omvandlas till andra energiformer.</p>\\[E_\\text{förlust}=4{,}75+29{,}46=34{,}21\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Friktionen tar den givna energin 34,21 J under 12 m. Kraftens storlek är energin delad med sträckan.</p>\\[F_\\text{fr}=\\frac{34{,}21}{12}\\approx2{,}85083\\,\\mathrm N\\]<p>På planet är normalkraften mg cos30°.</p>\\[N=0{,}50\\cdot9{,}82\\cos30^\\circ\\approx4{,}25218\\,\\mathrm N\\]<p>Dividera den oavrundade friktionskraften med den oavrundade normalkraften.</p>\\[\\mu=\\frac{34{,}21/12}{0{,}50\\cdot9{,}82\\cos30^\\circ}\\approx0{,}670\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120869,18 +120869,18 @@ window.BANK = [
     "familjNyckel": "arbete__mekanisk_energiforlust_nedfor_plan",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      34.21,
-      0.67
+      34.209999999999994,
+      0.6704396710447077
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Ändras bara rörelseenergin eller även lägesenergin?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -120903,10 +120903,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm hur mycket mekanisk energi som omvandlas till andra energiformer mellan A och B. Ange en positiv storlek. Svara i J. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En kloss på 0,50 kg glider nedför ett plan med lutningen 30°. Vid A är farten 10 m/s och 12 m längre ned längs planet, vid B, är den 9,0 m/s. Endast tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm hur mycket mekanisk energi som omvandlas till andra energiformer mellan A och B. Ange en positiv storlek. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Rörelseenergin minskar med</p><div class=\"facit-matte\">\\[\\frac{0{,}50 \\left(10^{2}-9{,}0^{2}\\right)}{2}=4{,}75\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lägesenergin minskar med</p><div class=\"facit-matte\">\\[0{,}50\\cdot 9{,}82\\cdot 12 \\sin 30^{\\circ}=29{,}46\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Den mekaniska energiförlusten är 34,21 J.</p></div></div><p class=\"facit-svar\">Svar: 34,21 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna hur mycket både rörelseenergin och lägesenergin minskar. De 12 m mäts längs planet.</p>\\[E_{k,\\text{minskning}}=\\frac{0{,}50(10^2-9{,}0^2)}2=4{,}75\\,\\mathrm J\\]\\[h=12\\sin30^\\circ=6\\,\\mathrm m\\]\\[E_{p,\\text{minskning}}=0{,}50\\cdot9{,}82\\cdot6=29{,}46\\,\\mathrm J\\]<p>Summan är mekanisk energi som omvandlas till andra energiformer.</p>\\[E_\\text{förlust}=4{,}75+29{,}46=34{,}21\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Ändras bara rörelseenergin eller även lägesenergin?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -120916,14 +120916,14 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En kloss på 0,50 kg glider nedför ett plan med lutningen 30°. Vid A är farten 10 m/s och 12 m längre ned längs planet, vid B, är den 9,0 m/s. Endast tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Förlusten är μmg cos30° · 12.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\mu=\\frac{34{,}21}{0{,}50\\cdot 9{,}82 \\cos 30^{\\circ}\\cdot 12}\\approx 0{,}67044\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,670.</p></div>",
+        "fraga": "Bestäm glidfriktionstalet med tre decimaler.",
+        "t": "<p>En kloss på 0,50 kg glider 12 m nedför ett plan som lutar 30°. Friktionen omvandlar 34,21 J mekanisk energi till andra energiformer. Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen tar den givna energin 34,21 J under 12 m. Kraftens storlek är energin delad med sträckan.</p>\\[F_\\text{fr}=\\frac{34{,}21}{12}\\approx2{,}85083\\,\\mathrm N\\]<p>På planet är normalkraften mg cos30°.</p>\\[N=0{,}50\\cdot9{,}82\\cos30^\\circ\\approx4{,}25218\\,\\mathrm N\\]<p>Dividera den oavrundade friktionskraften med den oavrundade normalkraften.</p>\\[\\mu=\\frac{34{,}21/12}{0{,}50\\cdot9{,}82\\cos30^\\circ}\\approx0{,}670\\]</div>",
         "ledtrad": "<p>Vilken normalkraft gäller på planet?</p>",
-        "niva": "C",
-        "traningsniva": 4,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "modellering",
           "procedur"
@@ -120941,9 +120941,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "geometri och energibalans",
-    "poang": "(0/2/0)",
+    "poang": "(0/1/0)",
     "t": "<p>En kloss släpps från vila och börjar glida direkt nedför ett rakt plan. Efter 10 m längs planet är farten 7,0 m/s. Planets vinkel α ligger mellan 0° och 90° och tanα = 4/3. Endast tyngdkraft, normalkraft och glidfriktion verkar.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm glidfriktionstalet. Avrunda vid behov till 3 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">En rätvinklig 3–4–5-triangel ger sinα = 4/5 och</p><div class=\"facit-matte\">\\[\\cos \\alpha=\\frac{3}{5}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energibalansen ger</p><div class=\"facit-matte\">\\[\\frac{v^{2}}{2 g s}=\\sin \\alpha-\\mu \\cos \\alpha\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\mu=\\frac{\\left(\\frac{4}{5}-\\frac{49}{2\\cdot 9{,}82\\cdot 10}\\right)}{\\frac{3}{5}}\\approx 0{,}917515\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,918.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vinkeln är spetsig och tanα = 4/3. En rätvinklig triangel med kateterna 4 och 3 har hypotenusan 5.</p>\\[\\sin\\alpha=\\frac45=0{,}8\\quad\\text{och}\\quad\\cos\\alpha=\\frac35=0{,}6\\]<p>Klossen startar från vila. Tyngdkraftens arbete blir rörelseenergi och arbete mot friktionen.</p>\\[mgs\\sin\\alpha=\\frac{mv^2}{2}+\\mu mgs\\cos\\alpha\\]<p>Förkorta massan och lös för friktionstalet.</p>\\[\\mu=\\frac{\\sin\\alpha-v^2/(2gs)}{\\cos\\alpha}\\]\\[\\mu=\\frac{0{,}8-7{,}0^2/(2\\cdot9{,}82\\cdot10)}{0{,}6}\\approx0{,}918\\]</div>",
     "familj": "Energiprincipen",
     "formaga": [
       "modellering",
@@ -120951,14 +120951,14 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__geometri_och_energibalans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.918,
-    "tolerans": 0,
+    "rättSvar": 0.9175152749490836,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hur kan sinus och cosinus bestämmas ur den givna tangenskvoten?</p>",
     "traningsniva": 4,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "svarEnhet": null,
     "svarFormat": "numeriskt",
@@ -120974,8 +120974,8 @@ window.BANK = [
     "niva": "C",
     "typ": "jämföra två motståndsmodeller",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan med lutningen 20° och stannar efter 2,0 m. I modellen verkar en konstant bromsande kraft F längs planet.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>I ett nytt försök är lutningen 40° och startfarten 8,0 m/s. Motståndskraftens storlek hålls oförändrat enligt modellen. Hur långt upp längs planet kommer klossen? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Startenergin är</p><div class=\"facit-matte\">\\[\\frac{0{,}50\\cdot 5{,}0^{2}}{2}=6{,}25\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">6,25 = (mg sin20°+F) · 2,0 ger</p><div class=\"facit-matte\">\\[F\\approx 1{,}44568\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,45 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Första försöket ger</p><div class=\"facit-matte\">\\[F=\\frac{\\left(\\frac{0{,}50\\cdot 5{,}0^{2}}{2}\\right)}{2{,}0}-0{,}50\\cdot 9{,}82 \\sin 20^{\\circ}\\approx 1{,}44568\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Den nya startenergin är 0,50 · 8,0²/2 = 16 J. s = 16/(0,50 · 9,82 sin40°+1,44568…) ≈ 3,47692 m.</p></div><div class=\"facit-stycke\"><p>Oförändrad motståndskraft ska här inte förväxlas med oförändrat glidfriktionstal.</p></div></div><p class=\"facit-svar\">Svar: 3,48 m.</p></div></div></div>",
+    "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan med lutningen 20° och stannar efter 2,0 m. Utöver tyngdkraften verkar en konstant bromskraft F nedför längs planet.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>I ett nytt försök är lutningen 40° och startfarten 8,0 m/s. Använd motståndskraften 1,45 N i det nya försöket. Hur långt upp längs planet kommer klossen? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Startens rörelseenergi går till ökad lägesenergi och arbete mot motståndet.</p>\\[E_k=\\frac{0{,}50\\cdot5{,}0^2}{2}=6{,}25\\,\\mathrm J\\]\\[h=2{,}0\\sin20^\\circ\\]<p>Motståndet tar den energi som återstår efter höjdökningen, under sträckan 2,0 m.</p>\\[F=\\frac{6{,}25}{2{,}0}-0{,}50\\cdot9{,}82\\sin20^\\circ\\approx1{,}45\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Använd motståndskraften 1,45 N som ges för det nya försöket. Startens rörelseenergi är</p>\\[E_k=\\frac{0{,}50\\cdot8{,}0^2}{2}=16\\,\\mathrm J\\]<p>Både tyngdkraftens del längs planet och motståndet bromsar.</p>\\[(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)s=16\\]\\[s=\\frac{16}{0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45}\\approx3{,}47\\,\\mathrm m\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -120984,18 +120984,18 @@ window.BANK = [
     "familjNyckel": "arbete__jamfora_tva_motstandsmodeller",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.45,
-      3.48
+      1.4456810962709665,
+      3.4736641821668446
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken del av startenergin blir lägesenergi?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -121017,11 +121017,11 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan med lutningen 20° och stannar efter 2,0 m. I modellen verkar en konstant bromsande kraft F längs planet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Startenergin är</p><div class=\"facit-matte\">\\[\\frac{0{,}50\\cdot 5{,}0^{2}}{2}=6{,}25\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">6,25 = (mg sin20°+F) · 2,0 ger</p><div class=\"facit-matte\">\\[F\\approx 1{,}44568\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,45 N.</p></div>",
+        "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan med lutningen 20° och stannar efter 2,0 m. Utöver tyngdkraften verkar en konstant bromskraft F nedför längs planet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startens rörelseenergi går till ökad lägesenergi och arbete mot motståndet.</p>\\[E_k=\\frac{0{,}50\\cdot5{,}0^2}{2}=6{,}25\\,\\mathrm J\\]\\[h=2{,}0\\sin20^\\circ\\]<p>Motståndet tar den energi som återstår efter höjdökningen, under sträckan 2,0 m.</p>\\[F=\\frac{6{,}25}{2{,}0}-0{,}50\\cdot9{,}82\\sin20^\\circ\\approx1{,}45\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilken del av startenergin blir lägesenergi?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -121031,12 +121031,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "I ett nytt försök är lutningen 40° och startfarten 8,0 m/s. Motståndskraftens storlek hålls oförändrat enligt modellen. Hur långt upp längs planet kommer klossen? Svara i m. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan med lutningen 20° och stannar efter 2,0 m. I modellen verkar en konstant bromsande kraft F längs planet.</p><p>Använd g = 9,82 m/s².</p><p>I ett nytt försök är lutningen 40° och startfarten 8,0 m/s. Motståndskraftens storlek hålls oförändrat enligt modellen. Hur långt upp längs planet kommer klossen? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Första försöket ger</p><div class=\"facit-matte\">\\[F=\\frac{\\left(\\frac{0{,}50\\cdot 5{,}0^{2}}{2}\\right)}{2{,}0}-0{,}50\\cdot 9{,}82 \\sin 20^{\\circ}\\approx 1{,}44568\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Den nya startenergin är 0,50 · 8,0²/2 = 16 J. s = 16/(0,50 · 9,82 sin40°+1,44568…) ≈ 3,47692 m.</p></div><div class=\"facit-stycke\"><p>Oförändrad motståndskraft ska här inte förväxlas med oförändrat glidfriktionstal.</p></div></div><p class=\"facit-svar\">Svar: 3,48 m.</p></div>",
+        "fraga": "Hur långt längs planet glider klossen innan den stannar? Svara i m med två decimaler.",
+        "t": "<p>En kloss på 0,50 kg skjuts med startfarten 8,0 m/s uppför ett plan som lutar 40°. En konstant motståndskraft på 1,45 N verkar nedför längs planet. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Hur långt längs planet glider klossen innan den stannar? Svara i m med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd motståndskraften 1,45 N som ges för det nya försöket. Startens rörelseenergi är</p>\\[E_k=\\frac{0{,}50\\cdot8{,}0^2}{2}=16\\,\\mathrm J\\]<p>Både tyngdkraftens del längs planet och motståndet bromsar.</p>\\[(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)s=16\\]\\[s=\\frac{16}{0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45}\\approx3{,}47\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Vad anges vara oförändrat när lutningen ändras?</p>",
         "niva": "C",
-        "traningsniva": 4,
+        "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -130747,7 +130747,7 @@ window.BANK = [
     "typ": "sned kraft och nettoarbete",
     "poang": "(2/0/0)",
     "t": "<p>En kvast förs 5,0 m vågrätt över golvet. Kraften på kvasten är 30 N längs skaftet, riktad snett nedåt och framåt, 60° mot rörelseriktningen. Kvasten behåller kontakten med golvet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm arbetet av kraften på 30 N. Svara i J. Svara med ett heltal.</li><li>En konstant friktionskraft på 5,0 N bromsar också kvasten. Bestäm nettoarbetet om tyngdkraft och normalkraft är övriga krafter. Svara i J. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraftkomponenten längs rörelsen är</p><div class=\"facit-matte\">\\[30 \\cos 60^{\\circ}=15\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=15\\cdot 5{,}0=75\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 75 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen gör</p><div class=\"facit-matte\">\\[-5{,}0\\cdot 5{,}0=-25\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Tyngdkraft och normalkraft gör noll arbete vid vågrät förflyttning.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nettoarbetet är</p><div class=\"facit-matte\">\\[75-25=50\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 50 J.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Bara kraftens del i rörelseriktningen utför arbete.</p>\\[F_\\text{framåt}=30\\cos60^\\circ=15\\,\\mathrm N\\]\\[W=F_\\text{framåt}s=15\\cdot5{,}0=75\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Beräkna dragkraftens positiva arbete och friktionens negativa arbete var för sig.</p>\\[W_\\text{drag}=30\\cos60^\\circ\\cdot5{,}0=75\\,\\mathrm J\\]\\[W_\\text{fr}=-5{,}0\\cdot5{,}0=-25\\,\\mathrm J\\]<p>Tyngdkraft och normalkraft utför inget arbete under den vågräta förflyttningen. Summera arbetena.</p>\\[W_\\text{netto}=75-25=50\\,\\mathrm J\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "procedur"
@@ -130755,8 +130755,8 @@ window.BANK = [
     "familjNyckel": "arbete__sned_kraft_och_nettoarbete",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      75,
-      50
+      75.00000000000001,
+      50.000000000000014
     ],
     "tolerans": [
       0,
@@ -130766,7 +130766,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken komponent bidrar till arbetet?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -130789,11 +130789,11 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm arbetet av kraften på 30 N. Svara i J. Svara med ett heltal.",
         "t": "<p>En kvast förs 5,0 m vågrätt över golvet. Kraften på kvasten är 30 N längs skaftet, riktad snett nedåt och framåt, 60° mot rörelseriktningen. Kvasten behåller kontakten med golvet.</p><p>Bestäm arbetet av kraften på 30 N. Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraftkomponenten längs rörelsen är</p><div class=\"facit-matte\">\\[30 \\cos 60^{\\circ}=15\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=15\\cdot 5{,}0=75\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 75 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara kraftens del i rörelseriktningen utför arbete.</p>\\[F_\\text{framåt}=30\\cos60^\\circ=15\\,\\mathrm N\\]\\[W=F_\\text{framåt}s=15\\cdot5{,}0=75\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken komponent bidrar till arbetet?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -130803,10 +130803,10 @@ window.BANK = [
         "etikett": "b",
         "fraga": "En konstant friktionskraft på 5,0 N bromsar också kvasten. Bestäm nettoarbetet om tyngdkraft och normalkraft är övriga krafter. Svara i J. Svara med ett heltal.",
         "t": "<p>En kvast förs 5,0 m vågrätt över golvet. Kraften på kvasten är 30 N längs skaftet, riktad snett nedåt och framåt, 60° mot rörelseriktningen. Kvasten behåller kontakten med golvet.</p><p>En konstant friktionskraft på 5,0 N bromsar också kvasten. Bestäm nettoarbetet om tyngdkraft och normalkraft är övriga krafter. Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Friktionen gör</p><div class=\"facit-matte\">\\[-5{,}0\\cdot 5{,}0=-25\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Tyngdkraft och normalkraft gör noll arbete vid vågrät förflyttning.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nettoarbetet är</p><div class=\"facit-matte\">\\[75-25=50\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 50 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna dragkraftens positiva arbete och friktionens negativa arbete var för sig.</p>\\[W_\\text{drag}=30\\cos60^\\circ\\cdot5{,}0=75\\,\\mathrm J\\]\\[W_\\text{fr}=-5{,}0\\cdot5{,}0=-25\\,\\mathrm J\\]<p>Tyngdkraft och normalkraft utför inget arbete under den vågräta förflyttningen. Summera arbetena.</p>\\[W_\\text{netto}=75-25=50\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Summera alla arbeten med rätt tecken.</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -130857,7 +130857,7 @@ window.BANK = [
     "typ": "koppla kraft, rörelse och energi",
     "poang": "(3/1/0)",
     "t": "<p>En hockeypuck på 0,25 kg glider med farten 25 m/s på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Välj den ursprungliga rörelseriktningen som positiv.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm friktionskraftens storlek. Svara i N. Avrunda vid behov till 4 decimaler.</li><li>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till 4 decimaler.</li><li>Bestäm tiden tills pucken stannar. Svara i s. Avrunda vid behov till 2 decimaler.</li><li>Bestäm friktionens arbete fram till stoppet. Svara i J. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}=\\mu m g=0{,}030\\cdot 0{,}25\\cdot 9{,}82=0{,}07365\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,0737 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[a=\\frac{-F_{\\mathrm{fr}}}{m}=-\\mu g=-0{,}2946\\, \\mathrm{m/s^2}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -0,2946 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[a=-\\mu g=-0{,}2946\\, \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">0 = v₀+at ger</p><div class=\"facit-matte\">\\[t=\\frac{25}{0{,}2946}\\approx 84{,}86083\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 84,86 s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=\\Delta E_{\\mathrm{k}}=0-\\frac{0{,}25\\cdot 25^{2}}{2}=-78{,}125\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -78,125 J.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vågrät is är normalkraften mg. Friktionen har storleken μmg.</p>\\[F_\\text{fr}=0{,}030\\cdot0{,}25\\cdot9{,}82=0{,}07365\\,\\mathrm N\\]<p>Med fyra decimaler: 0,0737 N.</p><p><strong>b)</strong></p><p>Friktionen verkar mot rörelsen. Newtons andra lag ger negativ acceleration i den valda positiva riktningen.</p>\\[ma=-\\mu mg\\quad\\Rightarrow\\quad a=-\\mu g\\]\\[a=-0{,}030\\cdot9{,}82=-0{,}2946\\,\\mathrm{m/s^2}\\]<p><strong>c)</strong></p><p>Glidfriktionen ger konstant acceleration.</p>\\[a=-\\mu g=-0{,}030\\cdot9{,}82=-0{,}2946\\,\\mathrm{m/s^2}\\]<p>Slutfarten är noll. Använd v = v₀ + at och lös för tiden.</p>\\[0=25-0{,}2946t\\]\\[t=\\frac{25}{0{,}2946}\\approx84{,}86\\,\\mathrm s\\]<p><strong>d)</strong></p><p>Pucken stannar, så rörelseenergin blir noll. Friktionens arbete är slutets energi minus startens.</p>\\[E_{k,\\text{start}}=\\frac{0{,}25\\cdot25^2}{2}=78{,}125\\,\\mathrm J\\]\\[W_\\text{fr}=0-78{,}125=-78{,}125\\,\\mathrm J\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -130866,16 +130866,16 @@ window.BANK = [
     "familjNyckel": "arbete__koppla_kraft_rorelse_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.0737,
+      0.07365,
       -0.2946,
-      84.86,
+      84.86082824168365,
       -78.125
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      5e-05,
+      5e-05,
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "miniräknare": true,
@@ -130910,11 +130910,11 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur stor är friktionskraften? Svara i N. Avrunda vid behov till 4 decimaler.",
         "t": "<p>En puck på 0,25 kg glider på vågrät is. Glidfriktionstalet är 0,030. Använd g = 9,82 m/s².</p><p>Hur stor är friktionskraften? Svara i N. Avrunda vid behov till 4 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}=\\mu m g=0{,}030\\cdot 0{,}25\\cdot 9{,}82=0{,}07365\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,0737 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrät is är normalkraften mg. Friktionen har storleken μmg.</p>\\[F_\\text{fr}=0{,}030\\cdot0{,}25\\cdot9{,}82=0{,}07365\\,\\mathrm N\\]<p>Med fyra decimaler: 0,0737 N.</p></div>",
         "ledtrad": "<p>Hur stor är normalkraften på vågrät is?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -130924,11 +130924,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vilken acceleration har pucken? Ange tecken och svara i m/s². Avrunda vid behov till 4 decimaler.",
         "t": "<p>En puck glider på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Rörelseriktningen är positiv. Använd g = 9,82 m/s².</p><p>Vilken acceleration har pucken? Ange tecken och svara i m/s². Avrunda vid behov till 4 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[a=\\frac{-F_{\\mathrm{fr}}}{m}=-\\mu g=-0{,}2946\\, \\mathrm{m/s^2}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -0,2946 m/s².</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen verkar mot rörelsen. Newtons andra lag ger negativ acceleration i den valda positiva riktningen.</p>\\[ma=-\\mu mg\\quad\\Rightarrow\\quad a=-\\mu g\\]\\[a=-0{,}030\\cdot9{,}82=-0{,}2946\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Vilken riktning har nettokraften?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -130936,28 +130936,28 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm tiden tills pucken stannar. Svara i s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En hockeypuck på 0,25 kg glider med farten 25 m/s på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Välj den ursprungliga rörelseriktningen som positiv.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tiden tills pucken stannar. Svara i s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[a=-\\mu g=-0{,}2946\\, \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">0 = v₀+at ger</p><div class=\"facit-matte\">\\[t=\\frac{25}{0{,}2946}\\approx 84{,}86083\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 84,86 s.</p></div>",
+        "fraga": "Hur lång tid tar det innan pucken stannar? Svara i s med två decimaler.",
+        "t": "<p>En puck glider med farten 25 m/s på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Använd g = 9,82 m/s².</p><p>Hur lång tid tar det innan pucken stannar? Svara i s med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Glidfriktionen ger konstant acceleration.</p>\\[a=-\\mu g=-0{,}030\\cdot9{,}82=-0{,}2946\\,\\mathrm{m/s^2}\\]<p>Slutfarten är noll. Använd v = v₀ + at och lös för tiden.</p>\\[0=25-0{,}2946t\\]\\[t=\\frac{25}{0{,}2946}\\approx84{,}86\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Vilken slutfart gäller vid stopp?</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm friktionens arbete fram till stoppet. Svara i J. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En hockeypuck på 0,25 kg glider med farten 25 m/s på vågrät is. Glidfriktionstalet är 0,030 och friktionen är den enda vågräta kraften. Välj den ursprungliga rörelseriktningen som positiv.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm friktionens arbete fram till stoppet. Svara i J. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{fr}}=\\Delta E_{\\mathrm{k}}=0-\\frac{0{,}25\\cdot 25^{2}}{2}=-78{,}125\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -78,125 J.</p></div>",
+        "fraga": "Bestäm friktionens arbete i J. Ange tecken och svara med tre decimaler.",
+        "t": "<p>En puck på 0,25 kg glider med farten 25 m/s på vågrät is. Friktionen bromsar den till vila.</p><p>Bestäm friktionens arbete i J. Ange tecken och svara med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Pucken stannar, så rörelseenergin blir noll. Friktionens arbete är slutets energi minus startens.</p>\\[E_{k,\\text{start}}=\\frac{0{,}25\\cdot25^2}{2}=78{,}125\\,\\mathrm J\\]\\[W_\\text{fr}=0-78{,}125=-78{,}125\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Kan arbetet bestämmas direkt från energiskillnaden?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "modellering",
           "procedur"
@@ -137525,7 +137525,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En boll på 0,20 kg har farten 10 m/s. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>Bestäm rörelseenergin. Svara i J. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{0{,}20\\cdot 10^{2}}{2}=10\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 10 J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvadrera farten först. Multiplicera sedan med massan och dividera med två.</p>\\[E_k=\\frac{0{,}20\\cdot10^2}{2}=10\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelseenergi Ek = mv²/2",
@@ -137540,7 +137540,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
+    "rättSvar": 10.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "J",
@@ -137556,7 +137556,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En vagn på 4,0 kg har farten 3,0 m/s. Använd \\(E_k=\\dfrac{mv^2}{2}\\). Bortse från hjulens rotation.</p><p>Bestäm rörelseenergin. Svara i J. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{4{,}0\\cdot 3{,}0^{2}}{2}=18\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 18 J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rörelseenergin beror på massan och fartens kvadrat. Hjulens rotation ingår inte i beräkningen.</p>\\[E_k=\\frac{4{,}0\\cdot3{,}0^2}{2}=18\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelseenergi Ek = mv²/2",
@@ -137571,7 +137571,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 18,
+    "rättSvar": 18.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "J",
@@ -137647,7 +137647,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En kloss har rörelseenergin 15 J. De krafter som verkar på klossen uträttar tillsammans nettoarbetet +8,0 J.</p><p>Hur stor blir klossens rörelseenergi? Svara i J.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nettoarbetet ändrar rörelseenergin: \\(E_{k,\\text{slut}}=E_{k,\\text{start}}+W_\\text{netto}=15+8{,}0=23\\) J.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 23 J</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Positivt nettoarbete ökar rörelseenergin. Lägg till arbetet till startens rörelseenergi.</p>\\[E_{k,\\text{slut}}=15+8{,}0=23\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Nettoarbete och energiförluster",
@@ -137663,7 +137663,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 23,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137678,7 +137678,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En kloss har rörelseenergin 20 J. De krafter som verkar på klossen uträttar tillsammans nettoarbetet −6,0 J.</p><p>Hur stor blir klossens rörelseenergi? Svara i J.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nettoarbetet ändrar rörelseenergin: \\(E_{k,\\text{slut}}=E_{k,\\text{start}}+W_\\text{netto}=20+(-6{,}0)=14\\) J.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 14 J</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Negativt nettoarbete minskar rörelseenergin. Addera arbetet med dess minustecken.</p>\\[E_{k,\\text{slut}}=20+(-6{,}0)=14\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Nettoarbete och energiförluster",
@@ -137694,7 +137694,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 14,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137889,7 +137889,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En boll på 500 g rör sig med farten 4,0 m/s.</p><p>Bestäm rörelseenergin. Svara i J. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[500 g=0{,}500\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{0{,}500\\cdot 4{,}0^{2}}{2}=4{,}0\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4 J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 500 g = 0,500 kg. Använd kg och m/s för att få energin i J.</p>\\[E_k=\\frac{0{,}500\\cdot4{,}0^2}{2}=4{,}0\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Rörelseenergi Ek = mv²/2",
@@ -137904,8 +137904,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 4.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -137920,7 +137920,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En kloss på 2,0 kg har rörelseenergin 25 J.</p><p>Bestäm farten. Svara i m/s. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_k = mv²/2 ger</p><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2 E_{\\mathrm{k}}}{m}}=\\sqrt{\\frac{2\\cdot 25}{2{,}0}}=5{,}0\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös sambandet för rörelseenergi för farten. Ta den positiva roten eftersom frågan gäller fart.</p>\\[E_k=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad v=\\sqrt{\\frac{2E_k}{m}}\\]\\[v=\\sqrt{\\frac{2\\cdot25}{2{,}0}}=5{,}0\\,\\mathrm{m/s}\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Rörelseenergi Ek = mv²/2",
@@ -137935,8 +137935,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 5.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "m/s",
     "svarFormat": "numeriskt",
@@ -137950,8 +137950,8 @@ window.BANK = [
     "id": "5.352",
     "kap": 5,
     "omr": "rorelseenergi",
-    "t": "<p>En kropp rör sig med farten 4,0 m/s och har rörelseenergin 24 J.</p><p>Bestäm kroppens massa. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">E_k = mv²/2 ger</p><div class=\"facit-matte\">\\[m=\\frac{2 E_{\\mathrm{k}}}{v^{2}}=\\frac{2\\cdot 24}{4{,}0^{2}}=3{,}0\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3 kg.</p></div>",
+    "t": "<p>Ett föremål rör sig med farten 4,0 m/s och har rörelseenergin 24 J.</p><p>Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös sambandet för rörelseenergi för massan. Farten ska kvadreras innan divisionen.</p>\\[E_k=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad m=\\frac{2E_k}{v^2}\\]\\[m=\\frac{2\\cdot24}{4{,}0^2}=3{,}0\\,\\mathrm{kg}\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Rörelseenergi Ek = mv²/2",
@@ -137966,8 +137966,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0,
+    "rättSvar": 3.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "kg",
     "svarFormat": "numeriskt",
@@ -138072,7 +138072,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En kloss glider 5,0 m vågrätt. En dragkraft på 18 N verkar framåt och glidfriktionen är 6,0 N. Båda krafterna är konstanta.</p><p>Bestäm nettoarbetet. Svara i J. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{netto}}=\\left(18-6{,}0\\right)\\cdot 5{,}0=60\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Tyngdkraft och normalkraft utför inget arbete vid den horisontella förflyttningen.</p></div></div><p class=\"facit-svar\">Svar: 60 J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraften utför positivt arbete och friktionen negativt arbete. Tyngdkraft och normalkraft utför inget arbete under den vågräta förflyttningen.</p>\\[W_\\text{drag}=18\\cdot5{,}0=90\\,\\mathrm J\\]\\[W_\\text{fr}=-6{,}0\\cdot5{,}0=-30\\,\\mathrm J\\]<p>Summera arbetena.</p>\\[W_\\text{netto}=90-30=60\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Nettoarbete och energiförluster",
@@ -138103,7 +138103,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelseenergi",
     "t": "<p>En boll på 0,50 kg faller från vila 2,0 m. Bortse från luftmotstånd.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm rörelseenergin efter fallet. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den förlorade lägesenergin blir rörelseenergi:</p><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=m g h=0{,}50\\cdot 9{,}82\\cdot 2{,}0=9{,}82\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 9,82 J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bollen startar från vila. Utan luftmotstånd blir minskningen i lägesenergi en lika stor ökning i rörelseenergi.</p>\\[E_k=mgh=0{,}50\\cdot9{,}82\\cdot2{,}0=9{,}82\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Energiprincipen",
@@ -138119,7 +138119,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 9.82,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "J",
     "svarFormat": "numeriskt",
@@ -138134,9 +138134,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "mekanisk energi",
-    "poang": "(2/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En fallskärmshoppare (95 kg) faller med 8,0 m/s på 4,5 m höjd. Bestäm den mekaniska energin relativt marken.</li><li>En pil (0,140 kg) är 45,0 m över marken och har rörelseenergin 250 J. Bestäm den mekaniska energin.</li><li>Ett föremål med farten 29,2 m/s har den mekaniska energin 563 J och lägesenergin 175 J. Bestäm massan.</li><li>En boll med farten 7,5 m/s på 15 m höjd har den mekaniska energin 50 J. Bestäm massan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=95\\cdot9{,}82\\cdot4{,}5+\\dfrac{95\\cdot8{,}0^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,238\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}140\\cdot9{,}82\\cdot45{,}0+250\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(312\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E_k=388\\) J, \\(m=\\dfrac{2\\cdot388}{29{,}2^2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}910\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{50}{\\tfrac12\\cdot7{,}5^2+9{,}82\\cdot15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}29\\) kg</p></li></ol></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>Mekanisk energi är summan av lägesenergi och rörelseenergi. Använd g = 9,82 m/s². Där en höjd över marken anges är marken nollnivå.</p><ol type=\"a\"><li>En fallskärmshoppare på 95 kg är 4,5 m över marken och har farten 8,0 m/s. Bestäm den mekaniska energin i J. Svara med tre värdesiffror.</li><li>En pil på 0,140 kg är 45,0 m över marken och har rörelseenergin 250 J. Bestäm den mekaniska energin i J. Svara med tre värdesiffror.</li><li>Ett föremål har farten 29,2 m/s, mekaniska energin 563 J och lägesenergin 175 J. Bestäm massan i kg. Svara med tre värdesiffror.</li><li>En boll har farten 7,5 m/s på 15 m höjd över marken. Den mekaniska energin är 50 J. Bestäm massan i kg. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna lägesenergin och rörelseenergin var för sig. Addera dem sedan.</p>\\[E_p=95\\cdot9{,}82\\cdot4{,}5=4198{,}05\\,\\mathrm J\\]\\[E_k=\\frac{95\\cdot8{,}0^2}{2}=3040\\,\\mathrm J\\]\\[E_\\text{mek}=4198{,}05+3040=7238{,}05\\,\\mathrm J\\]<p>Med tre värdesiffror: 7240 J.</p><p><strong>b)</strong></p><p>Lägesenergin är mgh. Lägg till den givna rörelseenergin.</p>\\[E_p=0{,}140\\cdot9{,}82\\cdot45{,}0=61{,}866\\,\\mathrm J\\]\\[E_\\text{mek}=61{,}866+250=311{,}866\\,\\mathrm J\\]<p>Med tre värdesiffror: 312 J.</p><p><strong>c)</strong></p><p>Subtrahera lägesenergin från den mekaniska energin för att få rörelseenergin.</p>\\[E_k=563-175=388\\,\\mathrm J\\]<p>Lös Eₖ = mv²/2 för massan.</p>\\[m=\\frac{2E_k}{v^2}=\\frac{2\\cdot388}{29{,}2^2}\\approx0{,}910\\,\\mathrm{kg}\\]<p><strong>d)</strong></p><p>Massan finns i båda delarna av den mekaniska energin. Bryt ut den.</p>\\[E_\\text{mek}=mgh+\\frac{mv^2}{2}=m\\left(gh+\\frac{v^2}{2}\\right)\\]<p>Dividera med parentesen för att få massan.</p>\\[m=\\frac{50}{9{,}82\\cdot15+7{,}5^2/2}\\approx0{,}285\\,\\mathrm{kg}\\]</div>",
     "id": "5.473",
     "miniräknare": true,
     "geogebra": false,
@@ -138149,10 +138149,10 @@ window.BANK = [
       0.2850220892119139
     ],
     "tolerans": [
-      109.0,
-      4.68,
-      0.0137,
-      0.0051
+      5.0,
+      0.5,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -138178,46 +138178,46 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Mekanisk energi är summan av lägesenergi och rörelseenergi. Använd g = 9,82 m/s². Där en höjd över marken anges är marken nollnivå.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En fallskärmshoppare (95 kg) faller med 8,0 m/s på 4,5 m höjd. Bestäm den mekaniska energin relativt marken.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En fallskärmshoppare (95 kg) faller med 8,0 m/s på 4,5 m höjd. Bestäm den mekaniska energin relativt marken.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=95\\cdot9{,}82\\cdot4{,}5+\\dfrac{95\\cdot8{,}0^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,238\\) J</p></div>",
+        "fraga": "Bestäm den mekaniska energin i J med tre värdesiffror.",
+        "t": "<p>En fallskärmshoppare på 95 kg är 4,5 m över marken och har farten 8,0 m/s. Marken är nollnivå. Använd g = 9,82 m/s².</p><p>Bestäm den mekaniska energin i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lägesenergin och rörelseenergin var för sig. Addera dem sedan.</p>\\[E_p=95\\cdot9{,}82\\cdot4{,}5=4198{,}05\\,\\mathrm J\\]\\[E_k=\\frac{95\\cdot8{,}0^2}{2}=3040\\,\\mathrm J\\]\\[E_\\text{mek}=4198{,}05+3040=7238{,}05\\,\\mathrm J\\]<p>Med tre värdesiffror: 7240 J.</p></div>",
         "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En pil (0,140 kg) är 45,0 m över marken och har rörelseenergin 250 J. Bestäm den mekaniska energin.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pil (0,140 kg) är 45,0 m över marken och har rörelseenergin 250 J. Bestäm den mekaniska energin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}140\\cdot9{,}82\\cdot45{,}0+250\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(312\\) J</p></div>",
+        "fraga": "Bestäm den mekaniska energin i J med tre värdesiffror.",
+        "t": "<p>En pil på 0,140 kg är 45,0 m över marken och har rörelseenergin 250 J. Marken är nollnivå. Använd g = 9,82 m/s².</p><p>Bestäm den mekaniska energin i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin är mgh. Lägg till den givna rörelseenergin.</p>\\[E_p=0{,}140\\cdot9{,}82\\cdot45{,}0=61{,}866\\,\\mathrm J\\]\\[E_\\text{mek}=61{,}866+250=311{,}866\\,\\mathrm J\\]<p>Med tre värdesiffror: 312 J.</p></div>",
         "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Ett föremål med farten 29,2 m/s har den mekaniska energin 563 J och lägesenergin 175 J. Bestäm massan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett föremål med farten 29,2 m/s har den mekaniska energin 563 J och lägesenergin 175 J. Bestäm massan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E_k=388\\) J, \\(m=\\dfrac{2\\cdot388}{29{,}2^2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}910\\) kg</p></div>",
+        "fraga": "Bestäm massan i kg med tre värdesiffror.",
+        "t": "<p>Ett föremål har farten 29,2 m/s, mekaniska energin 563 J och lägesenergin 175 J.</p><p>Bestäm massan i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Subtrahera lägesenergin från den mekaniska energin för att få rörelseenergin.</p>\\[E_k=563-175=388\\,\\mathrm J\\]<p>Lös Eₖ = mv²/2 för massan.</p>\\[m=\\frac{2E_k}{v^2}=\\frac{2\\cdot388}{29{,}2^2}\\approx0{,}910\\,\\mathrm{kg}\\]</div>",
         "ledtrad": "<p>Bestäm rörelseenergin först.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En boll med farten 7,5 m/s på 15 m höjd har den mekaniska energin 50 J. Bestäm massan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En boll med farten 7,5 m/s på 15 m höjd har den mekaniska energin 50 J. Bestäm massan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{50}{\\tfrac12\\cdot7{,}5^2+9{,}82\\cdot15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}29\\) kg</p></div>",
+        "fraga": "Bestäm massan i kg med tre värdesiffror.",
+        "t": "<p>En boll har farten 7,5 m/s på 15 m höjd över marken. Den mekaniska energin är 50 J, med marken som nollnivå. Använd g = 9,82 m/s².</p><p>Bestäm massan i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan finns i båda delarna av den mekaniska energin. Bryt ut den.</p>\\[E_\\text{mek}=mgh+\\frac{mv^2}{2}=m\\left(gh+\\frac{v^2}{2}\\right)\\]<p>Dividera med parentesen för att få massan.</p>\\[m=\\frac{50}{9{,}82\\cdot15+7{,}5^2/2}\\approx0{,}285\\,\\mathrm{kg}\\]</div>",
         "ledtrad": "<p>Bryt ut \\(m\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -138228,7 +138228,7 @@ window.BANK = [
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__energiprincipen",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -138236,9 +138236,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "golfboll",
-    "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><ol type=\"a\"><li>Bestäm bollens mekaniska energi relativt marken.</li><li>Hur högt skulle bollen som mest kunna komma med denna energi?</li><li>Med vilken fart slår bollen i marken?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}0459\\left(\\dfrac{23{,}4^2}{2}+9{,}82\\cdot15{,}0\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}3\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{E}{mg}=\\dfrac{421{,}1}{9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}9\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot421{,}1}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29{,}0\\) m/s</p></li></ol></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>En golfboll på 45,9 g rör sig med farten 23,4 m/s på 15,0 m höjd över marken. Marken är nollnivå. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm bollens mekaniska energi i J. Svara med tre värdesiffror.</li><li>Vilken höjd över marken skulle all denna energi motsvara om bollen stannade helt? Svara i m. Svara med tre värdesiffror.</li><li>Vilken fart har bollen strax före marken? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan till 0,0459 kg. Beräkna rörelseenergin och lägesenergin var för sig.</p>\\[E_k=\\frac{0{,}0459\\cdot23{,}4^2}{2}=12{,}566502\\,\\mathrm J\\]\\[E_p=0{,}0459\\cdot9{,}82\\cdot15{,}0=6{,}76107\\,\\mathrm J\\]\\[\\begin{gathered}E_\\text{mek}=12{,}566502+6{,}76107\\\\=19{,}327572\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 19,3 J.</p><p><strong>b)</strong></p><p>Om bollen stannade helt skulle all mekanisk energi vara lägesenergi. Sätt startens rörelseenergi plus lägesenergi lika med mgh.</p>\\[\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0=mgh\\]<p>Förkorta massan och lös för höjden.</p>\\[h=15{,}0+\\frac{23{,}4^2}{2\\cdot9{,}82}\\approx42{,}9\\,\\mathrm m\\]<p>Detta är den största höjd energin räcker till. En snett kastad boll har kvar vågrät fart vid sin högsta punkt och når därför inte denna höjd.</p><p><strong>c)</strong></p><p>Vid marken har startens lägesenergi blivit mer rörelseenergi. Startens rörelseenergi finns också kvar.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{23{,}4^2+2\\cdot9{,}82\\cdot15{,}0}\\approx29{,}0\\,\\mathrm{m/s}\\]</div>",
     "id": "5.474",
     "miniräknare": true,
     "geogebra": false,
@@ -138246,13 +138246,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       19.327572,
-      42.87983706720977,
+      42.87983706720978,
       29.01999310820042
     ],
     "tolerans": [
-      0.29,
-      0.643,
-      0.435
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -138276,24 +138276,24 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p>",
+    "spelIntro": "<p>En golfboll på 45,9 g rör sig med farten 23,4 m/s på 15,0 m höjd över marken. Marken är nollnivå. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm bollens mekaniska energi relativt marken.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><p>Bestäm bollens mekaniska energi relativt marken.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}0459\\left(\\dfrac{23{,}4^2}{2}+9{,}82\\cdot15{,}0\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}3\\) J</p></div>",
+        "fraga": "Bestäm den mekaniska energin i J med tre värdesiffror.",
+        "t": "<p>En golfboll på 45,9 g har farten 23,4 m/s på 15,0 m höjd över marken. Marken är nollnivå. Använd g = 9,82 m/s².</p><p>Bestäm den mekaniska energin i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan till 0,0459 kg. Beräkna rörelseenergin och lägesenergin var för sig.</p>\\[E_k=\\frac{0{,}0459\\cdot23{,}4^2}{2}=12{,}566502\\,\\mathrm J\\]\\[E_p=0{,}0459\\cdot9{,}82\\cdot15{,}0=6{,}76107\\,\\mathrm J\\]\\[\\begin{gathered}E_\\text{mek}=12{,}566502+6{,}76107\\\\=19{,}327572\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 19,3 J.</p></div>",
         "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur högt skulle bollen som mest kunna komma med denna energi?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><p>Hur högt skulle bollen som mest kunna komma med denna energi?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{E}{mg}=\\dfrac{421{,}1}{9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}9\\) m</p></div>",
+        "fraga": "Vilken höjd över marken skulle all denna energi motsvara om bollen stannade helt? Svara i m med tre värdesiffror.",
+        "t": "<p>En golfboll har farten 23,4 m/s på 15,0 m höjd över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken höjd över marken skulle all denna energi motsvara om bollen stannade helt? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Om bollen stannade helt skulle all mekanisk energi vara lägesenergi. Sätt startens rörelseenergi plus lägesenergi lika med mgh.</p>\\[\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0=mgh\\]<p>Förkorta massan och lös för höjden.</p>\\[h=15{,}0+\\frac{23{,}4^2}{2\\cdot9{,}82}\\approx42{,}9\\,\\mathrm m\\]<p>Detta är den största höjd energin räcker till. En snett kastad boll har kvar vågrät fart vid sin högsta punkt och når därför inte denna höjd.</p></div>",
         "ledtrad": "<p>All energi som lägesenergi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -138302,13 +138302,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Med vilken fart slår bollen i marken?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En golfboll (45,9 g) har farten 23,4 m/s på 15,0 m höjd.</p><p>Med vilken fart slår bollen i marken?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot421{,}1}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29{,}0\\) m/s</p></div>",
+        "fraga": "Vilken fart har bollen strax före marken? Svara i m/s med tre värdesiffror.",
+        "t": "<p>En golfboll har farten 23,4 m/s på 15,0 m höjd över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken fart har bollen strax före marken? Svara i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid marken har startens lägesenergi blivit mer rörelseenergi. Startens rörelseenergi finns också kvar.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{23{,}4^2+2\\cdot9{,}82\\cdot15{,}0}\\approx29{,}0\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>All energi som rörelseenergi.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -138321,11 +138321,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "sten som släpps",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><ol type=\"a\"><li>Bestäm lägesenergin från början.</li><li>Med vilken fart slår stenen i marken?</li><li>Vilken fart har stenen 1,0 m över marken?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_p=5{,}4\\cdot9{,}82\\cdot3{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(159\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}7\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) m/s</p></li></ol></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>En sten på 5,4 kg släpps från vila 3,0 m över marken. Marken är nollnivå. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm lägesenergin vid starten i J. Svara med tre värdesiffror.</li><li>Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</li><li>Bestäm farten när stenen är 1,0 m över marken i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Marken är nollnivå, så höjden i mgh är 3,0 m.</p>\\[E_p=5{,}4\\cdot9{,}82\\cdot3{,}0=159{,}084\\,\\mathrm J\\]<p>Med tre värdesiffror: 159 J.</p><p><strong>b)</strong></p><p>Stenen startar från vila. Utan luftmotstånd blir lägesenergin rörelseenergi vid marken.</p>\\[mg\\cdot3{,}0=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot3{,}0}\\approx7{,}68\\,\\mathrm{m/s}\\]<p><strong>c)</strong></p><p>Stenen har fallit \\(3{,}0-1{,}0=2{,}0\\) m. Det är höjdminskningen som bestämmer ökningen i rörelseenergi.</p>\\[mg\\cdot2{,}0=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot2{,}0}\\approx6{,}27\\,\\mathrm{m/s}\\]</div>",
     "id": "5.475",
     "miniräknare": true,
     "geogebra": false,
@@ -138337,9 +138337,9 @@ window.BANK = [
       6.267375846396959
     ],
     "tolerans": [
-      5.1,
-      0.115,
-      0.094
+      0.5,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -138362,13 +138362,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p>",
+    "spelIntro": "<p>En sten på 5,4 kg släpps från vila 3,0 m över marken. Marken är nollnivå. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lägesenergin från början.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><p>Bestäm lägesenergin från början.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_p=5{,}4\\cdot9{,}82\\cdot3{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(159\\) J</p></div>",
+        "fraga": "Bestäm lägesenergin i J med tre värdesiffror.",
+        "t": "<p>En sten på 5,4 kg är 3,0 m över marken. Marken är nollnivå. Använd g = 9,82 m/s² och \\(E_p=mgh\\).</p><p>Bestäm lägesenergin i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Marken är nollnivå, så höjden i mgh är 3,0 m.</p>\\[E_p=5{,}4\\cdot9{,}82\\cdot3{,}0=159{,}084\\,\\mathrm J\\]<p>Med tre värdesiffror: 159 J.</p></div>",
         "ledtrad": "<p>\\(E_p=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -138377,29 +138377,29 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Med vilken fart slår stenen i marken?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><p>Med vilken fart slår stenen i marken?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}7\\) m/s</p></div>",
+        "fraga": "Bestäm farten strax före marken i m/s med tre värdesiffror.",
+        "t": "<p>En sten släpps från vila 3,0 m över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten strax före marken i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stenen startar från vila. Utan luftmotstånd blir lägesenergin rörelseenergi vid marken.</p>\\[mg\\cdot3{,}0=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot3{,}0}\\approx7{,}68\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(mgh=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Vilken fart har stenen 1,0 m över marken?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten (5,4 kg) släpps 3,0 m över marken.</p><p>Vilken fart har stenen 1,0 m över marken?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) m/s</p></div>",
+        "fraga": "Bestäm farten när stenen är 1,0 m över marken i m/s med tre värdesiffror.",
+        "t": "<p>En sten släpps från vila 3,0 m över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten när stenen är 1,0 m över marken i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stenen har fallit \\(3{,}0-1{,}0=2{,}0\\) m. Det är höjdminskningen som bestämmer ökningen i rörelseenergi.</p>\\[mg\\cdot2{,}0=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot2{,}0}\\approx6{,}27\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Hur långt har den fallit?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "rorelseenergi__energiprincipen",
     "arbetsinsats": 2,
     "spel": true
@@ -138410,8 +138410,8 @@ window.BANK = [
     "niva": "C",
     "typ": "raket och boll rakt upp",
     "poang": "(3/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En raket (140 g) skjuts rakt upp med 22 m/s. Bestäm rörelseenergin vid starten.</li><li>Hur högt kommer raketen?</li><li>En boll kastas rakt upp och vänder 10 m upp. Med vilken fart kastades den?</li><li>Hur högt är bollen när farten är halva utgångsfarten?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla massan: 140 g = 0,140 kg. Rörelseenergin beror på massan och på farten i kvadrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\frac{mv^2}{2}=\\frac{0{,}140\\cdot22^2}{2}=33{,}88\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 34 J.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{22^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) m</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot10}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kvar finns \\(\\tfrac14\\) av rörelseenergin: \\(h=\\tfrac34\\cdot10\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) m</p></div></div></div>",
+    "t": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En modellraket på 140 g har farten 22 m/s rakt upp när motorn slutar driva. Bestäm rörelseenergin då i J. Svara med tre värdesiffror.</li><li>Hur mycket högre än denna punkt når raketen utan fortsatt drivkraft? Svara i m. Svara med tre värdesiffror.</li><li>En boll kastas lodrätt uppåt och stiger 10 m över kastpunkten. Bestäm startfarten i m/s. Svara med tre värdesiffror.</li><li>Bollen stiger som högst 10 m över kastpunkten. På vilken höjd över kastpunkten är farten halva startfarten? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan: 140 g = 0,140 kg. Beräkna rörelseenergin med farten i kvadrat.</p>\\[E_k=\\frac{0{,}140\\cdot22^2}{2}=33{,}88\\,\\mathrm J\\]<p>Med tre värdesiffror: 33,9 J.</p><p><strong>b)</strong></p><p>Utan fortsatt drivkraft blir raketens rörelseenergi ökad lägesenergi. I högsta läget är farten noll.</p>\\[\\frac{m\\cdot22^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{22^2}{2\\cdot9{,}82}\\approx24{,}6\\,\\mathrm m\\]<p><strong>c)</strong></p><p>I högsta läget är farten noll. Startens rörelseenergi måste räcka till höjdökningen 10 m.</p>\\[\\frac{mv_0^2}{2}=mg\\cdot10\\]\\[v_0=\\sqrt{2\\cdot9{,}82\\cdot10}\\approx14{,}0\\,\\mathrm{m/s}\\]<p><strong>d)</strong></p><p>Halva farten ger en fjärdedel av startens rörelseenergi. De återstående tre fjärdedelarna har blivit ökad lägesenergi.</p>\\[mg h=\\left(1-\\frac14\\right)mg\\cdot10\\]\\[h=\\frac34\\cdot10=7{,}50\\,\\mathrm m\\]</div>",
     "id": "5.476",
     "miniräknare": true,
     "geogebra": false,
@@ -138424,10 +138424,10 @@ window.BANK = [
       7.5
     ],
     "tolerans": [
-      0.51,
-      0.51,
-      0.51,
-      0.112
+      0.05,
+      0.05,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -138454,46 +138454,46 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är raketens rörelseenergi då? Svara i J.",
-        "t": "<p>En modellraket på 140 g har farten 22 m/s när den lämnar avskjutningsrampen.</p><p>Hur stor är raketens rörelseenergi då? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla massan: 140 g = 0,140 kg. Rörelseenergin beror på massan och på farten i kvadrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\frac{mv^2}{2}=\\frac{0{,}140\\cdot22^2}{2}=33{,}88\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 34 J.</p></div></div>",
+        "fraga": "Bestäm rörelseenergin i J med tre värdesiffror.",
+        "t": "<p>En modellraket på 140 g har farten 22 m/s när motorn slutar driva.</p><p>Bestäm rörelseenergin i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 140 g = 0,140 kg. Beräkna rörelseenergin med farten i kvadrat.</p>\\[E_k=\\frac{0{,}140\\cdot22^2}{2}=33{,}88\\,\\mathrm J\\]<p>Med tre värdesiffror: 33,9 J.</p></div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En raket skjuts rakt upp med 22 m/s. Hur högt kommer den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En raket skjuts rakt upp med 22 m/s. Hur högt kommer den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{22^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) m</p></div>",
+        "fraga": "Hur mycket högre når raketen utan fortsatt drivkraft? Svara i m med tre värdesiffror.",
+        "t": "<p>En modellraket har farten 22 m/s rakt upp när motorn slutar driva. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur mycket högre når raketen utan fortsatt drivkraft? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan fortsatt drivkraft blir raketens rörelseenergi ökad lägesenergi. I högsta läget är farten noll.</p>\\[\\frac{m\\cdot22^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{22^2}{2\\cdot9{,}82}\\approx24{,}6\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(\\dfrac{mv^2}{2}=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En boll kastas rakt upp och vänder 10 m upp. Med vilken fart kastades den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En boll kastas rakt upp och vänder 10 m upp. Med vilken fart kastades den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot10}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) m/s</p></div>",
+        "fraga": "Bestäm startfarten i m/s med tre värdesiffror.",
+        "t": "<p>En boll kastas lodrätt uppåt och stiger 10 m över kastpunkten. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm startfarten i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I högsta läget är farten noll. Startens rörelseenergi måste räcka till höjdökningen 10 m.</p>\\[\\frac{mv_0^2}{2}=mg\\cdot10\\]\\[v_0=\\sqrt{2\\cdot9{,}82\\cdot10}\\approx14{,}0\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(\\dfrac{mv^2}{2}=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En boll kastas rakt upp och vänder 10 m upp. Hur högt är bollen när farten är halva utgångsfarten?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En boll kastas rakt upp och vänder 10 m upp. Hur högt är bollen när farten är halva utgångsfarten?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kvar finns \\(\\tfrac14\\) av rörelseenergin: \\(h=\\tfrac34\\cdot10\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) m</p></div>",
+        "fraga": "På vilken höjd över kastpunkten är farten halva startfarten? Svara i m med tre värdesiffror.",
+        "t": "<p>En boll kastas lodrätt uppåt och stiger 10 m över kastpunkten. Bortse från luftmotståndet.</p><p>På vilken höjd över kastpunkten är farten halva startfarten? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Halva farten ger en fjärdedel av startens rörelseenergi. De återstående tre fjärdedelarna har blivit ökad lägesenergi.</p>\\[mg h=\\left(1-\\frac14\\right)mg\\cdot10\\]\\[h=\\frac34\\cdot10=7{,}50\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Halva farten ger en fjärdedel av rörelseenergin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -138504,17 +138504,17 @@ window.BANK = [
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__energiprincipen",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "fall och lodrätt kast",
-    "poang": "(3/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En hammare faller 5,6 m. Bestäm farten vid marken.</li><li>En pil skjuts rakt upp med 40 m/s. Hur högt kommer den?</li><li>En loppa hoppar 10 mm högt. Bestäm utgångsfarten.</li><li>En boll kastas ut från ett fönster 5,6 m upp med farten 12 m/s. Bestäm farten vid marken.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{40^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}44\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{12^2+2\\cdot9{,}82\\cdot5{,}6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\) m/s</p></li></ol></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En hammare släpps från vila 5,6 m över marken. Vilken fart har den strax före marken? Svara i m/s. Svara med tre värdesiffror.</li><li>En pil skjuts lodrätt uppåt med startfarten 40 m/s. Hur mycket stiger den över startpunkten? Svara i m. Svara med tre värdesiffror.</li><li>I en modell hoppar en loppa lodrätt uppåt och når 10 mm över startpunkten. Bestäm startfarten i m/s. Svara med tre värdesiffror.</li><li>En boll kastas från 5,6 m över marken med startfarten 12 m/s. Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hammaren startar från vila. Lägesenergin blir rörelseenergi vid marken.</p>\\[mg\\cdot5{,}6=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\approx10{,}5\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>I högsta läget är pilens fart noll. Startens rörelseenergi blir ökad lägesenergi.</p>\\[\\frac{m\\cdot40^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{40^2}{2\\cdot9{,}82}\\approx81{,}5\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Omvandla höjdökningen: 10 mm = 0,010 m. Startens rörelseenergi ger denna ökning i lägesenergi.</p>\\[\\frac{mv_0^2}{2}=mg\\cdot0{,}010\\]\\[v_0=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\approx0{,}443\\,\\mathrm{m/s}\\]<p><strong>d)</strong></p><p>Vid marken har både startens rörelseenergi och lägesenergi blivit rörelseenergi.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot12^2}{2}+mg\\cdot5{,}6\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{12^2+2\\cdot9{,}82\\cdot5{,}6}\\approx15{,}9\\,\\mathrm{m/s}\\]</div>",
     "id": "5.477",
     "miniräknare": true,
     "geogebra": false,
@@ -138527,10 +138527,10 @@ window.BANK = [
       15.936875477959912
     ],
     "tolerans": [
-      0.51,
-      1.22,
-      0.00665,
-      0.51
+      0.05,
+      0.05,
+      0.0005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -138556,74 +138556,74 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har hammaren precis innan den träffar marken? Svara i m/s.",
-        "t": "<p>En hammare släpps från vila 5,6 m över marken. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har hammaren precis innan den träffar marken? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\) m/s</p></div>",
+        "fraga": "Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En hammare släpps från vila 5,6 m över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hammaren startar från vila. Lägesenergin blir rörelseenergi vid marken.</p>\\[mg\\cdot5{,}6=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\approx10{,}5\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En pil skjuts rakt upp med 40 m/s. Hur högt kommer den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pil skjuts rakt upp med 40 m/s. Hur högt kommer den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{40^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\) m</p></div>",
+        "fraga": "Hur mycket stiger pilen över startpunkten? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En pil skjuts lodrätt uppåt med startfarten 40 m/s. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur mycket stiger pilen över startpunkten? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I högsta läget är pilens fart noll. Startens rörelseenergi blir ökad lägesenergi.</p>\\[\\frac{m\\cdot40^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{40^2}{2\\cdot9{,}82}\\approx81{,}5\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(h=\\dfrac{v^2}{2g}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En loppa hoppar 10 mm högt. Bestäm utgångsfarten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En loppa hoppar 10 mm högt. Bestäm utgångsfarten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}44\\) m/s</p></div>",
+        "fraga": "Bestäm loppans startfart i m/s. Svara med tre värdesiffror.",
+        "t": "<p>I en modell hoppar en loppa lodrätt uppåt och når 10 mm över startpunkten. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm loppans startfart i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla höjdökningen: 10 mm = 0,010 m. Startens rörelseenergi ger denna ökning i lägesenergi.</p>\\[\\frac{mv_0^2}{2}=mg\\cdot0{,}010\\]\\[v_0=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\approx0{,}443\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En boll kastas ut från ett fönster 5,6 m upp med farten 12 m/s. Bestäm farten vid marken.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En boll kastas ut från ett fönster 5,6 m upp med farten 12 m/s. Bestäm farten vid marken.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{12^2+2\\cdot9{,}82\\cdot5{,}6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\) m/s</p></div>",
+        "fraga": "Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En boll kastas från 5,6 m över marken med startfarten 12 m/s. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid marken har både startens rörelseenergi och lägesenergi blivit rörelseenergi.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot12^2}{2}+mg\\cdot5{,}6\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{12^2+2\\cdot9{,}82\\cdot5{,}6}\\approx15{,}9\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Riktningen spelar ingen roll för energin.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__energiprincipen",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "fönstrets höjd",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten faller förbi ett fönster. Vid överkanten är farten 15,2 m/s och vid underkanten 16,6 m/s. Hur högt är fönstret?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{16{,}6^2-15{,}2^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}27\\) m</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En sten faller förbi ett fönster. Vid överkanten är farten 15,2 m/s och vid underkanten 16,6 m/s. Bortse från luftmotståndet och använd g = 9,82 m/s². Hur högt är fönstret? Svara i m.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stenens förlorade lägesenergi blir ökad rörelseenergi under passagen.</p>\\[mgh=\\frac{m(16{,}6^2-15{,}2^2)}2\\]<p>Förkorta massan och dividera med g.</p>\\[h=\\frac{16{,}6^2-15{,}2^2}{2\\cdot9{,}82}\\approx2{,}27\\,\\mathrm m\\]</div>",
     "id": "5.478",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energiprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 2.266802443991857,
-    "tolerans": 0.034,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -138631,7 +138631,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Ändringen i rörelseenergi.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "rorelseenergi__energiprincipen",
     "arbetsinsats": 2,
@@ -138640,18 +138640,18 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "pulka uppför backe",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pulka åker med 22,5 m/s uppför en isig backe vars topp är 11,0 m högre. Bortse från friktion. Bestäm farten på toppen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{22{,}5^2-2\\cdot9{,}82\\cdot11{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}0\\) m/s</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En pulka har startfarten 22,5 m/s vid foten av en backe. Backens topp ligger 11,0 m högre. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s². Vilken fart har pulkan på toppen? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>En del av startens rörelseenergi blir lägesenergi under stigningen. Resten är rörelseenergi på toppen.</p>\\[\\frac{m\\cdot22{,}5^2}{2}=mg\\cdot11{,}0+\\frac{mv^2}{2}\\]<p>Förkorta massan och lös för farten.</p>\\[v=\\sqrt{22{,}5^2-2\\cdot9{,}82\\cdot11{,}0}\\approx17{,}0\\,\\mathrm{m/s}\\]</div>",
     "id": "5.479",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energiprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 17.03555106241063,
-    "tolerans": 0.256,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -138659,7 +138659,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelseenergi__energiprincipen",
     "arbetsinsats": 2,
@@ -138668,11 +138668,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "simhopp från tio meter",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><ol type=\"a\"><li>Vilken fart har hen 5,00 m över vattnet, utan sats?</li><li>Med vilken fart når hen vattnet, utan sats?</li><li>Med vilken fart når hen vattnet efter ett hopp snett uppåt med 3,00 m/s?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}00}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot10{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}0\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{3{,}00^2+2\\cdot9{,}82\\cdot10{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}3\\) m/s</p></li></ol></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>En simhoppare lämnar en plattform 10,0 m över vattenytan. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Simhopparen börjar falla från vila. Bestäm farten 5,00 m över vattenytan i m/s. Svara med tre värdesiffror.</li><li>Simhopparen börjar falla från vila. Bestäm farten strax före vattenytan i m/s. Svara med tre värdesiffror.</li><li>I ett nytt hopp är startfarten 3,00 m/s snett uppåt. Bestäm farten strax före vattenytan i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Höjdminskningen är \\(10{,}0-5{,}00=5{,}00\\) m. Simhopparen startar från vila, så lägesenergin blir rörelseenergi.</p>\\[\\begin{gathered}v=\\sqrt{2g\\Delta h}\\\\=\\sqrt{2\\cdot9{,}82\\cdot5{,}00}\\\\\\approx9{,}91\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>b)</strong></p><p>Simhopparen startar från vila och faller 10,0 m. Lägesenergin blir rörelseenergi.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot10{,}0}\\approx14{,}0\\,\\mathrm{m/s}\\]<p><strong>c)</strong></p><p>Simhopparen har rörelseenergi redan vid starten. Vid vattenytan har lägesenergin från 10,0 m också blivit rörelseenergi.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot3{,}00^2}{2}+mg\\cdot10{,}0\\]\\[v=\\sqrt{3{,}00^2+2\\cdot9{,}82\\cdot10{,}0}\\approx14{,}3\\,\\mathrm{m/s}\\]<p>Startfartens riktning påverkar banan, men inte denna energiberäkning.</p></div>",
     "id": "5.480",
     "miniräknare": true,
     "geogebra": false,
@@ -138684,9 +138684,9 @@ window.BANK = [
       14.331782861877304
     ],
     "tolerans": [
-      0.149,
-      0.21,
-      0.215
+      0.005,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -138710,39 +138710,39 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p>",
+    "spelIntro": "<p>En simhoppare lämnar en plattform 10,0 m över vattenytan. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har simhopparen 5,00 m över vattenytan? Svara i m/s.",
-        "t": "<p>En simhoppare släpper taget från 10,0 m höjd och börjar falla från vila. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har simhopparen 5,00 m över vattenytan? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}00}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\) m/s</p></div>",
+        "fraga": "Bestäm farten 5,00 m över vattenytan i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En simhoppare börjar falla från vila 10,0 m över vattenytan. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten 5,00 m över vattenytan i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdminskningen är \\(10{,}0-5{,}00=5{,}00\\) m. Simhopparen startar från vila, så lägesenergin blir rörelseenergi.</p>\\[\\begin{gathered}v=\\sqrt{2g\\Delta h}\\\\=\\sqrt{2\\cdot9{,}82\\cdot5{,}00}\\\\\\approx9{,}91\\,\\mathrm{m/s}\\end{gathered}\\]</div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har simhopparen precis innan hen når vattnet? Svara i m/s.",
-        "t": "<p>En simhoppare börjar falla från vila 10,0 m över vattenytan. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har simhopparen precis innan hen når vattnet? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot10{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}0\\) m/s</p></div>",
+        "fraga": "Bestäm farten strax före vattenytan i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En simhoppare börjar falla från vila 10,0 m över vattenytan. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten strax före vattenytan i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Simhopparen startar från vila och faller 10,0 m. Lägesenergin blir rörelseenergi.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot10{,}0}\\approx14{,}0\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Med vilken fart når hen vattnet efter ett hopp snett uppåt med 3,00 m/s?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En simhoppare hoppar från 10,0 m.</p><p>Med vilken fart når hen vattnet efter ett hopp snett uppåt med 3,00 m/s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{3{,}00^2+2\\cdot9{,}82\\cdot10{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}3\\) m/s</p></div>",
+        "fraga": "Bestäm farten strax före vattenytan i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En simhoppare lämnar en plattform 10,0 m över vattenytan med farten 3,00 m/s snett uppåt. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten strax före vattenytan i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Simhopparen har rörelseenergi redan vid starten. Vid vattenytan har lägesenergin från 10,0 m också blivit rörelseenergi.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot3{,}00^2}{2}+mg\\cdot10{,}0\\]\\[v=\\sqrt{3{,}00^2+2\\cdot9{,}82\\cdot10{,}0}\\approx14{,}3\\,\\mathrm{m/s}\\]<p>Startfartens riktning påverkar banan, men inte denna energiberäkning.</p></div>",
         "ledtrad": "<p>Riktningen spelar ingen roll.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -138757,9 +138757,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "energi utan friktion",
-    "poang": "(1/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>Greta åker från toppen av en backe med farten 12 m/s. Toppen är 2,7 m över en gemensam marknivå. Hon åker ned och sedan upp på en kulle vars topp är 1,0 m över samma marknivå. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s². Vilken fart har hon på kullens topp? Svara i m/s.</li><li>En vikt skjuts uppåt med 8,0 m/s längs en pelare. Hur högt når den?</li><li>En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Hur högt över havet kommer den?</li><li>Med vilken fart når samma sten havet?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Höjden minskar med 1,7 m. Den förlorade lägesenergin ökar rörelseenergin. Massan förkortas bort ur energisambandet.</p><div class=\"facit-matte\">\\[v=\\sqrt{12^2+2\\cdot9{,}82(2{,}7-1{,}0)}\\approx13{,}3\\,\\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 13,3 m/s.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{8{,}0^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}3\\) m</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=75+\\dfrac{15{,}5^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(87\\) m</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{15{,}5^2+2\\cdot9{,}82\\cdot75}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) m/s</p></div></div></div></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Greta åker med 12 m/s från en topp 2,7 m över marknivån. Hon åker ned och sedan upp till en topp 1,0 m över samma marknivå. Bestäm farten på den andra toppen i m/s. Svara med tre värdesiffror.</li><li>En vikt kastas lodrätt uppåt med startfarten 8,0 m/s. Hur mycket stiger den över kastpunkten? Svara i m. Svara med tre värdesiffror.</li><li>En sten kastas lodrätt uppåt med 15,5 m/s från 75 m över havet. Bestäm största höjden över havet i m. Svara med tre värdesiffror.</li><li>Bestäm stenens fart strax före havsytan i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Greta har sjunkit \\(2{,}7-1{,}0=1{,}7\\) m mellan topparna. Höjdminskningen ökar rörelseenergin.</p>\\[v=\\sqrt{12^2+2\\cdot9{,}82\\cdot1{,}7}\\approx13{,}3\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>I högsta läget är farten noll. Startens rörelseenergi blir ökad lägesenergi.</p>\\[\\frac{m\\cdot8{,}0^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{8{,}0^2}{2\\cdot9{,}82}\\approx3{,}26\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Beräkna först hur mycket stenen stiger över kastpunkten.</p>\\[\\Delta h=\\frac{15{,}5^2}{2\\cdot9{,}82}\\approx12{,}2327\\,\\mathrm m\\]<p>Lägg till kastpunktens höjd över havet och behåll den oavrundade stigningen.</p>\\[h_\\text{max}=75+12{,}2327\\ldots\\approx87{,}2\\,\\mathrm m\\]<p><strong>d)</strong></p><p>Startens rörelseenergi finns kvar, och lägesenergin från höjden 75 m blir ytterligare rörelseenergi vid havsytan.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot15{,}5^2}{2}+mg\\cdot75\\]\\[v=\\sqrt{15{,}5^2+2\\cdot9{,}82\\cdot75}\\approx41{,}4\\,\\mathrm{m/s}\\]</div>",
     "id": "5.481",
     "miniräknare": true,
     "geogebra": false,
@@ -138772,10 +138772,10 @@ window.BANK = [
       41.391424232562954
     ],
     "tolerans": [
-      0.51,
-      0.051,
-      1.31,
-      0.621
+      0.05,
+      0.005,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -138802,35 +138802,35 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har hon på kullens topp? Svara i m/s.",
-        "t": "<p>Greta åker från toppen av en backe med farten 12 m/s. Toppen är 2,7 m över en gemensam marknivå. Hon åker ned och sedan upp på en kulle vars topp är 1,0 m över samma marknivå. Bortse från friktion och luftmotstånd. Använd g = 9,82 m/s².</p><p>Vilken fart har hon på kullens topp? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Höjden minskar med 1,7 m. Den förlorade lägesenergin ökar rörelseenergin. Massan förkortas bort ur energisambandet.</p><div class=\"facit-matte\">\\[v=\\sqrt{12^2+2\\cdot9{,}82(2{,}7-1{,}0)}\\approx13{,}3\\,\\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 13,3 m/s.</p></div></div>",
+        "fraga": "Bestäm farten på den andra toppen i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Greta åker med 12 m/s från en topp 2,7 m över marknivån. Hon åker ned och sedan upp till en topp 1,0 m över samma marknivå. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm farten på den andra toppen i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Greta har sjunkit \\(2{,}7-1{,}0=1{,}7\\) m mellan topparna. Höjdminskningen ökar rörelseenergin.</p>\\[v=\\sqrt{12^2+2\\cdot9{,}82\\cdot1{,}7}\\approx13{,}3\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Höjdskillnaden är 1,7 m.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En vikt skjuts uppåt med 8,0 m/s längs en pelare. Hur högt når den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En vikt skjuts uppåt med 8,0 m/s längs en pelare. Hur högt når den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{8{,}0^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}3\\) m</p></div>",
+        "fraga": "Hur mycket stiger vikten över kastpunkten? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En vikt kastas lodrätt uppåt med startfarten 8,0 m/s. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur mycket stiger vikten över kastpunkten? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I högsta läget är farten noll. Startens rörelseenergi blir ökad lägesenergi.</p>\\[\\frac{m\\cdot8{,}0^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{8{,}0^2}{2\\cdot9{,}82}\\approx3{,}26\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(h=\\dfrac{v^2}{2g}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Hur högt över havet kommer den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Hur högt över havet kommer den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=75+\\dfrac{15{,}5^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(87\\) m</p></div>",
+        "fraga": "Bestäm största höjden över havet i m. Svara med tre värdesiffror.",
+        "t": "<p>En sten kastas lodrätt uppåt med 15,5 m/s från 75 m över havet. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm största höjden över havet i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först hur mycket stenen stiger över kastpunkten.</p>\\[\\Delta h=\\frac{15{,}5^2}{2\\cdot9{,}82}\\approx12{,}2327\\,\\mathrm m\\]<p>Lägg till kastpunktens höjd över havet och behåll den oavrundade stigningen.</p>\\[h_\\text{max}=75+12{,}2327\\ldots\\approx87{,}2\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Lägg till stigningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -138839,20 +138839,20 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Med vilken fart når den havet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten kastas rakt upp med 15,5 m/s från en klippa 75 m över havet. Med vilken fart når den havet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{15{,}5^2+2\\cdot9{,}82\\cdot75}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) m/s</p></div>",
+        "fraga": "Bestäm farten strax före havsytan i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En sten kastas lodrätt uppåt med 15,5 m/s från 75 m över havet. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten strax före havsytan i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startens rörelseenergi finns kvar, och lägesenergin från höjden 75 m blir ytterligare rörelseenergi vid havsytan.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot15{,}5^2}{2}+mg\\cdot75\\]\\[v=\\sqrt{15{,}5^2+2\\cdot9{,}82\\cdot75}\\approx41{,}4\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Energin från utkastet plus fallet.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__energiprincipen",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -138860,9 +138860,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "längdhopp",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p><ol type=\"a\"><li>I högsta punkten är farten 9,61 m/s. Hur högt är tyngdpunkten där?</li><li>Med vilken fart landar hen om tyngdpunkten då är 0,460 m över marken?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=0{,}920+\\dfrac{10{,}2^2-9{,}61^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}52\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{10{,}2^2+2\\cdot9{,}82\\cdot0{,}460}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}6\\) m/s</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En längdhoppares tyngdpunkt är 0,920 m över marken vid avstampet. Startfarten är 10,2 m/s. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>I högsta läget är farten 9,61 m/s. Bestäm tyngdpunktens höjd över marken i m. Svara med tre värdesiffror.</li><li>Vid landningen är tyngdpunkten 0,460 m över marken. Bestäm farten precis före landningen i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Minskningen i rörelseenergi blir ökad lägesenergi. Farten är fortfarande 9,61 m/s i högsta läget, eftersom hopparen också rör sig framåt.</p>\\[mg\\Delta h=\\frac{m(10{,}2^2-9{,}61^2)}2\\]\\[\\Delta h=\\frac{10{,}2^2-9{,}61^2}{2\\cdot9{,}82}\\approx0{,}595107\\,\\mathrm m\\]<p>Lägg till starthöjden.</p>\\[h=0{,}920+0{,}595107\\ldots\\approx1{,}52\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Tyngdpunkten sjunker \\(0{,}920-0{,}460=0{,}460\\) m mellan start och landning. Höjdminskningen ökar rörelseenergin.</p>\\[v=\\sqrt{10{,}2^2+2\\cdot9{,}82\\cdot0{,}460}\\approx10{,}6\\,\\mathrm{m/s}\\]</div>",
     "id": "5.482",
     "miniräknare": true,
     "geogebra": false,
@@ -138873,8 +138873,8 @@ window.BANK = [
       10.633644718533716
     ],
     "tolerans": [
-      0.0227,
-      0.16
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -138894,13 +138894,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p>",
+    "spelIntro": "<p>En längdhoppares tyngdpunkt är 0,920 m över marken vid avstampet. Startfarten är 10,2 m/s. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "I högsta punkten är farten 9,61 m/s. Hur högt är tyngdpunkten där?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p><p>I högsta punkten är farten 9,61 m/s. Hur högt är tyngdpunkten där?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=0{,}920+\\dfrac{10{,}2^2-9{,}61^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}52\\) m</p></div>",
+        "fraga": "Bestäm tyngdpunktens höjd över marken i högsta läget. Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En längdhoppares tyngdpunkt är 0,920 m över marken vid avstampet. Startfarten är 10,2 m/s och farten i högsta läget 9,61 m/s. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm tyngdpunktens höjd över marken i högsta läget. Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Minskningen i rörelseenergi blir ökad lägesenergi. Farten är fortfarande 9,61 m/s i högsta läget, eftersom hopparen också rör sig framåt.</p>\\[mg\\Delta h=\\frac{m(10{,}2^2-9{,}61^2)}2\\]\\[\\Delta h=\\frac{10{,}2^2-9{,}61^2}{2\\cdot9{,}82}\\approx0{,}595107\\,\\mathrm m\\]<p>Lägg till starthöjden.</p>\\[h=0{,}920+0{,}595107\\ldots\\approx1{,}52\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -138909,13 +138909,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Med vilken fart landar hen om tyngdpunkten då är 0,460 m över marken?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En längdhoppare lämnar plankan med 10,2 m/s när tyngdpunkten är 0,920 m över marken.</p><p>Med vilken fart landar hen om tyngdpunkten då är 0,460 m över marken?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{10{,}2^2+2\\cdot9{,}82\\cdot0{,}460}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}6\\) m/s</p></div>",
+        "fraga": "Bestäm farten precis före landningen i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En längdhoppares tyngdpunkt är 0,920 m över marken vid avstampet. Startfarten är 10,2 m/s. Vid landningen är tyngdpunkten 0,460 m över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm farten precis före landningen i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdpunkten sjunker \\(0{,}920-0{,}460=0{,}460\\) m mellan start och landning. Höjdminskningen ökar rörelseenergin.</p>\\[v=\\sqrt{10{,}2^2+2\\cdot9{,}82\\cdot0{,}460}\\approx10{,}6\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -138930,9 +138930,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "andel lägesenergi",
-    "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En flicka på 35 kg lämnar en studsmatta med rörelseenergin 440 J. Senare under hoppet är rörelseenergin 210 J. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur högt över sitt läge när hon lämnade mattan är hon då? Svara i m.</li><li>En sten har farten 22 m/s på 8,0 m höjd. Hur högt är den när lägesenergin är 80 % av den mekaniska energin?</li><li>En motorcykel lämnar en ramp med 35,0 m/s och har 33,0 m/s i högsta punkten. Hur högt över rampen kommer den?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Rörelseenergin har minskat med 230 J. Den energin har blivit ökad lägesenergi.</p><div class=\"facit-matte\">\\[\\begin{gathered}mg\\Delta h=440-210\\\\\\Rightarrow\\ \\Delta h=\\frac{230}{35\\cdot9{,}82}\\approx0{,}669\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,669 m.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[gh=0{,}80\\left(\\dfrac{22^2}{2}+9{,}82\\cdot8{,}0\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\) m</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{35{,}0^2-33{,}0^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}92\\) m</p></div></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En flicka på 35 kg lämnar en studsmatta med rörelseenergin 440 J. Senare under hoppet är rörelseenergin 210 J. Hur högt över läget där hon lämnade mattan är hon då? Svara i m. Svara med tre värdesiffror.</li><li>En sten har farten 22 m/s på 8,0 m höjd över marken. Marken är nollnivå. Bestäm höjden över marken när lägesenergin är 80 % av den mekaniska energin. Svara i m. Svara med tre värdesiffror.</li><li>En motorcykel lämnar en ramp med farten 35,0 m/s och har 33,0 m/s i hoppets högsta läge. Bestäm höjdökningen från rampen i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Rörelseenergin minskar med \\(440-210=230\\) J. Denna energi har blivit ökad lägesenergi.</p>\\[mg\\Delta h=230\\]\\[\\Delta h=\\frac{230}{35\\cdot9{,}82}\\approx0{,}669\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Den mekaniska energin är summan av lägesenergi och rörelseenergi vid starten. I det efterfrågade läget är lägesenergin 80 % av summan.</p>\\[mgh=0{,}80\\left(mg\\cdot8{,}0+\\frac{m\\cdot22^2}{2}\\right)\\]<p>Förkorta massan och dividera med g.</p>\\[h=0{,}80\\left(8{,}0+\\frac{22^2}{2\\cdot9{,}82}\\right)\\approx26{,}1\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Motorcykeln har kvar framåtriktad fart i högsta läget. Minskningen i rörelseenergi blir ökad lägesenergi.</p>\\[mg\\Delta h=\\frac{m(35{,}0^2-33{,}0^2)}2\\]\\[\\Delta h=\\frac{35{,}0^2-33{,}0^2}{2\\cdot9{,}82}\\approx6{,}92\\,\\mathrm m\\]</div>",
     "id": "5.483",
     "miniräknare": true,
     "geogebra": false,
@@ -138940,13 +138940,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.6691882455629911,
-      26.114867617107947,
+      26.11486761710794,
       6.924643584521385
     ],
     "tolerans": [
-      0.01,
-      0.51,
-      0.104
+      0.0005,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -138970,24 +138970,24 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur högt över sitt läge när hon lämnade mattan är hon då? Svara i m.",
-        "t": "<p>En flicka på 35 kg lämnar en studsmatta med rörelseenergin 440 J. Senare under hoppet är rörelseenergin 210 J. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur högt över sitt läge när hon lämnade mattan är hon då? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Rörelseenergin har minskat med 230 J. Den energin har blivit ökad lägesenergi.</p><div class=\"facit-matte\">\\[\\begin{gathered}mg\\Delta h=440-210\\\\\\Rightarrow\\ \\Delta h=\\frac{230}{35\\cdot9{,}82}\\approx0{,}669\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,669 m.</p></div></div>",
+        "fraga": "Hur högt över läget där hon lämnade mattan är flickan då? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En flicka på 35 kg lämnar en studsmatta med rörelseenergin 440 J. Senare under hoppet är rörelseenergin 210 J. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur högt över läget där hon lämnade mattan är flickan då? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rörelseenergin minskar med \\(440-210=230\\) J. Denna energi har blivit ökad lägesenergi.</p>\\[mg\\Delta h=230\\]\\[\\Delta h=\\frac{230}{35\\cdot9{,}82}\\approx0{,}669\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Minskningen blev lägesenergi.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En sten har farten 22 m/s på 8,0 m höjd. Hur högt är den när lägesenergin är 80 % av den mekaniska energin?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En sten har farten 22 m/s på 8,0 m höjd. Hur högt är den när lägesenergin är 80 % av den mekaniska energin?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[gh=0{,}80\\left(\\dfrac{22^2}{2}+9{,}82\\cdot8{,}0\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\) m</p></div>",
+        "fraga": "Bestäm höjden över marken när lägesenergin är 80 % av den mekaniska energin. Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En sten har farten 22 m/s på 8,0 m höjd över marken. Marken är nollnivå. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm höjden över marken när lägesenergin är 80 % av den mekaniska energin. Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den mekaniska energin är summan av lägesenergi och rörelseenergi vid starten. I det efterfrågade läget är lägesenergin 80 % av summan.</p>\\[mgh=0{,}80\\left(mg\\cdot8{,}0+\\frac{m\\cdot22^2}{2}\\right)\\]<p>Förkorta massan och dividera med g.</p>\\[h=0{,}80\\left(8{,}0+\\frac{22^2}{2\\cdot9{,}82}\\right)\\approx26{,}1\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Räkna per kilogram.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -138996,13 +138996,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En motorcykel lämnar en ramp med 35,0 m/s och har 33,0 m/s i högsta punkten. Hur högt över rampen kommer den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En motorcykel lämnar en ramp med 35,0 m/s och har 33,0 m/s i högsta punkten. Hur högt över rampen kommer den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{35{,}0^2-33{,}0^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}92\\) m</p></div>",
+        "fraga": "Bestäm höjdökningen från rampen i m. Svara med tre värdesiffror.",
+        "t": "<p>En motorcykel lämnar en ramp med farten 35,0 m/s och har 33,0 m/s i hoppets högsta läge. Under hoppet verkar bara tyngdkraften. Använd g = 9,82 m/s².</p><p>Bestäm höjdökningen från rampen i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Motorcykeln har kvar framåtriktad fart i högsta läget. Minskningen i rörelseenergi blir ökad lägesenergi.</p>\\[mg\\Delta h=\\frac{m(35{,}0^2-33{,}0^2)}2\\]\\[\\Delta h=\\frac{35{,}0^2-33{,}0^2}{2\\cdot9{,}82}\\approx6{,}92\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -139015,11 +139015,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "pendel som släpps vågrätt",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p><ol type=\"a\"><li>Bestäm farten i jämviktsläget.</li><li>Bestäm pendelns längd.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{3{,}0^2+2\\cdot9{,}82\\cdot0{,}60}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}6\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kulan släpptes på höjden \\(l\\): \\(l=\\dfrac{v^2}{2g}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) m</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En pendelkula hänger i en lina. Linan hålls vågrät och kulan släpps från vila. När kulan är 0,60 m över sitt lägsta läge är farten 3,0 m/s. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm farten i det lägsta läget i m/s. Svara med tre värdesiffror.</li><li>Bestäm linans längd i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kulan sjunker 0,60 m från det angivna läget till botten. Där har både den givna rörelseenergin och lägesenergin från 0,60 m blivit rörelseenergi.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot3{,}0^2}{2}+mg\\cdot0{,}60\\]\\[v=\\sqrt{3{,}0^2+2\\cdot9{,}82\\cdot0{,}60}\\approx4{,}56\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>När linan hålls vågrät ligger kulan en linlängd L över sitt lägsta läge. Den släpps från vila. Startens energi är därför mgL.</p>\\[mgL=mg\\cdot0{,}60+\\frac{m\\cdot3{,}0^2}{2}\\]<p>Förkorta massan och dividera med g.</p>\\[L=0{,}60+\\frac{3{,}0^2}{2\\cdot9{,}82}\\approx1{,}06\\,\\mathrm m\\]</div>",
     "id": "5.484",
     "miniräknare": true,
     "geogebra": false,
@@ -139030,8 +139030,8 @@ window.BANK = [
       1.0582484725050916
     ],
     "tolerans": [
-      0.0684,
-      0.051
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -139051,27 +139051,27 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p>",
+    "spelIntro": "<p>En pendelkula hänger i en lina. Linan hålls vågrät och kulan släpps från vila. När kulan är 0,60 m över sitt lägsta läge är farten 3,0 m/s. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm farten i jämviktsläget.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p><p>Bestäm farten i jämviktsläget.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{3{,}0^2+2\\cdot9{,}82\\cdot0{,}60}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}6\\) m/s</p></div>",
+        "fraga": "Bestäm farten i det lägsta läget i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En pendelkula har farten 3,0 m/s när den är 0,60 m över sitt lägsta läge. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm farten i det lägsta läget i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kulan sjunker 0,60 m från det angivna läget till botten. Där har både den givna rörelseenergin och lägesenergin från 0,60 m blivit rörelseenergi.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot3{,}0^2}{2}+mg\\cdot0{,}60\\]\\[v=\\sqrt{3{,}0^2+2\\cdot9{,}82\\cdot0{,}60}\\approx4{,}56\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm pendelns längd.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendelkula (0,50 kg) dras ut vågrätt och släpps. På 0,60 m höjd över jämviktsläget har den farten 3,0 m/s.</p><p>Bestäm pendelns längd.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kulan släpptes på höjden \\(l\\): \\(l=\\dfrac{v^2}{2g}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) m</p></div>",
+        "fraga": "Bestäm linans längd i m. Svara med tre värdesiffror.",
+        "t": "<p>En pendelkulas lina hålls vågrät och kulan släpps från vila. När kulan är 0,60 m över sitt lägsta läge är farten 3,0 m/s. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm linans längd i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När linan hålls vågrät ligger kulan en linlängd L över sitt lägsta läge. Den släpps från vila. Startens energi är därför mgL.</p>\\[mgL=mg\\cdot0{,}60+\\frac{m\\cdot3{,}0^2}{2}\\]<p>Förkorta massan och dividera med g.</p>\\[L=0{,}60+\\frac{3{,}0^2}{2\\cdot9{,}82}\\approx1{,}06\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Från vågrätt läge faller kulan en pendellängd.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -139085,11 +139085,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "vattenstråle rakt upp",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Jenny håller en vattenslang rakt upp 1,80 m över marken. Vattnet lämnar slangen med farten \\(v\\) och når marken med farten \\(v+1{,}20\\) m/s.</p><ol type=\"a\"><li>Bestäm \\(v\\).</li><li>Hur högt över marken når vattnet? Svara i m.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(v+1{,}20)^2=v^2+2\\cdot9{,}82\\cdot1{,}80\\iff2{,}40v=35{,}35-1{,}44\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}1\\) m/s</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Vid högsta läget har rörelseenergin blivit lägesenergi. Beräkna höjdökningen från slangen och lägg till slangens höjd över marken.</p><div class=\"facit-matte\">\\[h=1{,}80+\\frac{14{,}1^2}{2\\cdot9{,}82}\\approx11{,}92\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11,9 m.</p></div></div></div></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Vatten lämnar en slang lodrätt uppåt. Slangen är 1,80 m över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Farten vid slangen är \\(v\\) och farten strax före marken är \\(v+1{,}20\\) m/s. Bestäm v i m/s. Svara med tre värdesiffror.</li><li>I en annan beräkning används startfarten 14,1 m/s vid slangen. Hur högt över marken når vattnet? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På marknivå har lägesenergin från höjden 1,80 m blivit rörelseenergi. Massan förkortas bort.</p>\\[(v+1{,}20)^2=v^2+2\\cdot9{,}82\\cdot1{,}80\\]<p>Utveckla kvadraten. Termerna v² tar ut varandra.</p>\\[2{,}40v+1{,}44=35{,}352\\]\\[v=\\frac{35{,}352-1{,}44}{2{,}40}=14{,}13\\,\\mathrm{m/s}\\]<p>Med tre värdesiffror: 14,1 m/s.</p><p><strong>b)</strong></p><p>Använd den givna startfarten 14,1 m/s. I högsta läget är farten noll, så rörelseenergin ger höjdökningen från slangen.</p>\\[\\Delta h=\\frac{14{,}1^2}{2\\cdot9{,}82}\\approx10{,}1227\\,\\mathrm m\\]<p>Lägg till slangens höjd över marken.</p>\\[h=1{,}80+10{,}1227\\ldots\\approx11{,}9\\,\\mathrm m\\]</div>",
     "id": "5.485",
     "miniräknare": true,
     "geogebra": false,
@@ -139100,8 +139100,8 @@ window.BANK = [
       11.922708757637475
     ],
     "tolerans": [
-      0.212,
-      0.179
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -139121,33 +139121,33 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Jenny håller en vattenslang rakt upp 1,80 m över marken. Vattnet lämnar slangen med farten \\(v\\) och når marken med farten \\(v+1{,}20\\) m/s.</p>",
+    "spelIntro": "<p>Vatten lämnar en slang lodrätt uppåt. Slangen är 1,80 m över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm \\(v\\).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Jenny håller en vattenslang rakt upp 1,80 m över marken. Vattnet lämnar slangen med farten \\(v\\) och når marken med farten \\(v+1{,}20\\) m/s.</p><p>Bestäm \\(v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(v+1{,}20)^2=v^2+2\\cdot9{,}82\\cdot1{,}80\\iff2{,}40v=35{,}35-1{,}44\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}1\\) m/s</p></div>",
+        "fraga": "Bestäm startfarten v i m/s med tre värdesiffror.",
+        "t": "<p>Vatten lämnar en slang lodrätt uppåt från 1,80 m över marken. Startfarten är \\(v\\) och farten strax före marken är \\(v+1{,}20\\) m/s. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm startfarten v i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På marknivå har lägesenergin från höjden 1,80 m blivit rörelseenergi. Massan förkortas bort.</p>\\[(v+1{,}20)^2=v^2+2\\cdot9{,}82\\cdot1{,}80\\]<p>Utveckla kvadraten. Termerna v² tar ut varandra.</p>\\[2{,}40v+1{,}44=35{,}352\\]\\[v=\\frac{35{,}352-1{,}44}{2{,}40}=14{,}13\\,\\mathrm{m/s}\\]<p>Med tre värdesiffror: 14,1 m/s.</p></div>",
         "ledtrad": "<p>Ställ upp energiekvationen.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
-        "arbetsinsats": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur högt över marken når vattnet? Svara i m.",
-        "t": "<p>Vatten lämnar en slang lodrätt uppåt med farten 14,1 m/s. Slangen hålls 1,80 m över marken. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur högt över marken når vattnet? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Vid högsta läget har rörelseenergin blivit lägesenergi. Beräkna höjdökningen från slangen och lägg till slangens höjd över marken.</p><div class=\"facit-matte\">\\[h=1{,}80+\\frac{14{,}1^2}{2\\cdot9{,}82}\\approx11{,}92\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11,9 m.</p></div></div>",
-        "ledtrad": "<p>Lägg till slangens höjd.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur högt över marken når vattnet? Svara i m med tre värdesiffror.",
+        "t": "<p>Vatten lämnar en slang lodrätt uppåt med farten 14,1 m/s. Slangen är 1,80 m över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur högt över marken når vattnet? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd den givna startfarten 14,1 m/s. I högsta läget är farten noll, så rörelseenergin ger höjdökningen från slangen.</p>\\[\\Delta h=\\frac{14{,}1^2}{2\\cdot9{,}82}\\approx10{,}1227\\,\\mathrm m\\]<p>Lägg till slangens höjd över marken.</p>\\[h=1{,}80+10{,}1227\\ldots\\approx11{,}9\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Lägg till slangens höjd.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjNyckel": "rorelseenergi__energiprincipen",
     "arbetsinsats": 2,
     "spel": true
@@ -139158,8 +139158,8 @@ window.BANK = [
     "niva": "C",
     "typ": "vikter över trissa",
     "poang": "(0/4/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa. Vikterna startar från vila. Bortse från repets och trissans massa samt friktion i trissan.</p><ol type=\"a\"><li>En vikt på 4,00 kg släpps från 5,00 m höjd medan en vikt på 2,00 kg står på bordet. Vilken fart har vikterna när den tyngre slår i bordet?</li><li>En vikt på 3,0 kg är 0,80 m över bordet och en på 1,20 kg är 0,30 m över bordet. Vilken fart har de när den tyngre slår i bordet?</li><li>Vikterna 5,0 kg och 15 kg hänger på samma höjd, 0,65 m över bordet. Vilken fart har de när den tyngre slår i bordet?</li><li>En vikt (3,0 kg) på ett friktionsfritt bord är förbunden med en hängande vikt (0,80 kg). Vilken fart har de efter 1,3 m?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(4{,}00-2{,}00)\\cdot9{,}82\\cdot5{,}00=\\dfrac{6{,}00v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}72\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(3{,}0-1{,}20)\\cdot9{,}82\\cdot0{,}80=\\dfrac{4{,}2v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}6\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[10\\cdot9{,}82\\cdot0{,}65=\\dfrac{20v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}80\\cdot9{,}82\\cdot1{,}3=\\dfrac{3{,}8v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\) m/s</p></li></ol></div>",
+    "t": "<p>Snörena är spända och töjs inte. Bortse från snörenas och trissornas massa samt friktion i trissorna. Alla vikter startar från vila. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Två vikter på 4,00 kg och 2,00 kg hänger i var sin ände av ett snöre över en trissa. Den tyngre vikten är 5,00 m över ett bord. Den lättare står på bordet och lyfts direkt när den tyngre börjar falla. Bestäm farten strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.</li><li>Två vikter på 3,0 kg och 1,20 kg hänger på var sin sida av en trissa, 0,80 m respektive 0,30 m över ett bord. Bestäm farten strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.</li><li>Två vikter på 15 kg och 5,0 kg hänger på var sin sida av en trissa, båda 0,65 m över ett bord. Bestäm farten strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.</li><li>En vikt på 3,0 kg ligger på ett friktionsfritt vågrätt bord. Snöret går vågrätt till en trissa vid bordskanten och är kopplat till en hängande vikt på 0,80 kg. Den hängande vikten faller 1,3 m utan att nå golvet. Bestäm vikternas fart i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den tyngre vikten sjunker 5,00 m och den lättare stiger lika långt. Beräkna systemets minskning i lägesenergi.</p>\\[\\begin{gathered}E_\\text{minskning}\\\\=(4{,}00-2{,}00)\\cdot9{,}82\\cdot5{,}00\\\\=98{,}2\\,\\mathrm J\\end{gathered}\\]<p>Båda får samma fart. Deras sammanlagda massa är 6,00 kg.</p>\\[\\frac{6{,}00v^2}{2}=98{,}2\\]\\[v=\\sqrt{\\frac{2\\cdot98{,}2}{6{,}00}}\\approx5{,}72\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Den tyngre sjunker 0,80 m och den lättare stiger 0,80 m. Systemets lägesenergi minskar med</p>\\[\\begin{gathered}E_\\text{minskning}\\\\=(3{,}0-1{,}20)\\cdot9{,}82\\cdot0{,}80\\\\=14{,}1408\\,\\mathrm J\\end{gathered}\\]<p>Båda får samma fart. Den sammanlagda massan är 4,20 kg.</p>\\[v=\\sqrt{\\frac{2\\cdot14{,}1408}{4{,}20}}\\approx2{,}59\\,\\mathrm{m/s}\\]<p><strong>c)</strong></p><p>Den ena vikten sjunker 0,65 m och den andra stiger lika långt. Lägesenergins minskning blir rörelseenergi hos båda.</p>\\[\\begin{gathered}E_\\text{minskning}\\\\=(15-5{,}0)\\cdot9{,}82\\cdot0{,}65\\\\=63{,}83\\,\\mathrm J\\end{gathered}\\]\\[m_\\text{tot}=15+5{,}0=20\\,\\mathrm{kg}\\]\\[v=\\sqrt{\\frac{2\\cdot63{,}83}{20}}\\approx2{,}53\\,\\mathrm{m/s}\\]<p><strong>d)</strong></p><p>Bara den hängande vikten förlorar lägesenergi. Båda får rörelseenergi med samma fart.</p>\\[E_\\text{minskning}=0{,}80\\cdot9{,}82\\cdot1{,}3=10{,}2128\\,\\mathrm J\\]\\[m_\\text{tot}=3{,}0+0{,}80=3{,}80\\,\\mathrm{kg}\\]\\[v=\\sqrt{\\frac{2\\cdot10{,}2128}{3{,}80}}\\approx2{,}32\\,\\mathrm{m/s}\\]</div>",
     "id": "5.486",
     "miniräknare": true,
     "geogebra": false,
@@ -139172,10 +139172,10 @@ window.BANK = [
       2.3184386760785465
     ],
     "tolerans": [
-      0.0858,
-      0.051,
-      0.051,
-      0.051
+      0.005,
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -139202,13 +139202,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa.</p>",
+    "spelIntro": "<p>Snörena är spända och töjs inte. Bortse från snörenas och trissornas massa samt friktion i trissorna. Alla vikter startar från vila. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En vikt på 4,00 kg släpps från 5,00 m höjd medan en vikt på 2,00 kg står på bordet. Vilken fart har vikterna när den tyngre slår i bordet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa. Vikterna startar från vila. Bortse från repets och trissans massa samt friktion i trissan.</p><p>En vikt på 4,00 kg släpps från 5,00 m höjd medan en vikt på 2,00 kg står på bordet. Vilken fart har vikterna när den tyngre slår i bordet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(4{,}00-2{,}00)\\cdot9{,}82\\cdot5{,}00=\\dfrac{6{,}00v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}72\\) m/s</p></div>",
+        "fraga": "Bestäm vikternas fart strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Två vikter på 4,00 kg och 2,00 kg hänger i var sin ände av ett snöre över en trissa. Den tyngre är 5,00 m över ett bord och den lättare står på bordet. De startar från vila och den lättare lyfts direkt. Snöret är spänt och töjs inte. Bortse från snörets och trissans massa samt friktion i trissan. Använd g = 9,82 m/s².</p><p>Bestäm vikternas fart strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den tyngre vikten sjunker 5,00 m och den lättare stiger lika långt. Beräkna systemets minskning i lägesenergi.</p>\\[\\begin{gathered}E_\\text{minskning}\\\\=(4{,}00-2{,}00)\\cdot9{,}82\\cdot5{,}00\\\\=98{,}2\\,\\mathrm J\\end{gathered}\\]<p>Båda får samma fart. Deras sammanlagda massa är 6,00 kg.</p>\\[\\frac{6{,}00v^2}{2}=98{,}2\\]\\[v=\\sqrt{\\frac{2\\cdot98{,}2}{6{,}00}}\\approx5{,}72\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Systemets lägesenergi minskar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -139217,9 +139217,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En vikt på 3,0 kg är 0,80 m över bordet och en på 1,20 kg är 0,30 m över bordet. Vilken fart har de när den tyngre slår i bordet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa. Vikterna startar från vila. Bortse från repets och trissans massa samt friktion i trissan.</p><p>En vikt på 3,0 kg är 0,80 m över bordet och en på 1,20 kg är 0,30 m över bordet. Vilken fart har de när den tyngre slår i bordet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(3{,}0-1{,}20)\\cdot9{,}82\\cdot0{,}80=\\dfrac{4{,}2v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}6\\) m/s</p></div>",
+        "fraga": "Bestäm vikternas fart strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Två vikter på 3,0 kg och 1,20 kg hänger på var sin sida av en trissa, 0,80 m respektive 0,30 m över ett bord. De startar från vila. Snöret är spänt och töjs inte. Bortse från snörets och trissans massa samt friktion i trissan. Använd g = 9,82 m/s².</p><p>Bestäm vikternas fart strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den tyngre sjunker 0,80 m och den lättare stiger 0,80 m. Systemets lägesenergi minskar med</p>\\[\\begin{gathered}E_\\text{minskning}\\\\=(3{,}0-1{,}20)\\cdot9{,}82\\cdot0{,}80\\\\=14{,}1408\\,\\mathrm J\\end{gathered}\\]<p>Båda får samma fart. Den sammanlagda massan är 4,20 kg.</p>\\[v=\\sqrt{\\frac{2\\cdot14{,}1408}{4{,}20}}\\approx2{,}59\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Båda flyttas 0,80 m.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -139228,9 +139228,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vikterna 5,0 kg och 15 kg hänger på samma höjd, 0,65 m över bordet. Vilken fart har de när den tyngre slår i bordet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa. Vikterna startar från vila. Bortse från repets och trissans massa samt friktion i trissan.</p><p>Vikterna 5,0 kg och 15 kg hänger på samma höjd, 0,65 m över bordet. Vilken fart har de när den tyngre slår i bordet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[10\\cdot9{,}82\\cdot0{,}65=\\dfrac{20v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m/s</p></div>",
+        "fraga": "Bestäm vikternas fart strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Två vikter på 15 kg och 5,0 kg hänger på var sin sida av en trissa, båda 0,65 m över ett bord. De startar från vila. Snöret är spänt och töjs inte. Bortse från snörets och trissans massa samt friktion i trissan. Använd g = 9,82 m/s².</p><p>Bestäm vikternas fart strax innan den tyngre når bordet i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den ena vikten sjunker 0,65 m och den andra stiger lika långt. Lägesenergins minskning blir rörelseenergi hos båda.</p>\\[\\begin{gathered}E_\\text{minskning}\\\\=(15-5{,}0)\\cdot9{,}82\\cdot0{,}65\\\\=63{,}83\\,\\mathrm J\\end{gathered}\\]\\[m_\\text{tot}=15+5{,}0=20\\,\\mathrm{kg}\\]\\[v=\\sqrt{\\frac{2\\cdot63{,}83}{20}}\\approx2{,}53\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Systemets lägesenergi minskar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -139239,9 +139239,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En vikt (3,0 kg) på ett friktionsfritt bord är förbunden med en hängande vikt (0,80 kg). Vilken fart har de efter 1,3 m?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Två vikter hänger i ett snöre över en lättrörlig trissa. Vikterna startar från vila. Bortse från repets och trissans massa samt friktion i trissan.</p><p>En vikt (3,0 kg) på ett friktionsfritt bord är förbunden med en hängande vikt (0,80 kg). Vilken fart har de efter 1,3 m?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}80\\cdot9{,}82\\cdot1{,}3=\\dfrac{3{,}8v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\) m/s</p></div>",
+        "fraga": "Den hängande vikten faller 1,3 m utan att nå golvet. Bestäm vikternas fart i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En vikt på 3,0 kg ligger på ett friktionsfritt vågrätt bord. Ett snöre går vågrätt till en trissa vid bordskanten och är kopplat till en hängande vikt på 0,80 kg. De startar från vila. Snöret är spänt och töjs inte. Bortse från snörets och trissans massa samt friktion i trissan. Använd g = 9,82 m/s².</p><p>Den hängande vikten faller 1,3 m utan att nå golvet. Bestäm vikternas fart i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara den hängande vikten förlorar lägesenergi. Båda får rörelseenergi med samma fart.</p>\\[E_\\text{minskning}=0{,}80\\cdot9{,}82\\cdot1{,}3=10{,}2128\\,\\mathrm J\\]\\[m_\\text{tot}=3{,}0+0{,}80=3{,}80\\,\\mathrm{kg}\\]\\[v=\\sqrt{\\frac{2\\cdot10{,}2128}{3{,}80}}\\approx2{,}32\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Bara den hängande vikten förlorar lägesenergi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -139252,17 +139252,17 @@ window.BANK = [
     "ledtrad": "<p>Lägesenergin blir rörelseenergi hos båda vikterna.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__energiprincipen",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "pendel och lian",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En pendel (1,00 m) släpps när snöret bildar 30° med lodlinjen. Bestäm farten i jämviktsläget.</li><li>Oskar springer med 6,0 m/s, tar tag i ett 10,0 m långt rep och svingar ut. Vilken vinkel med lodlinjen har repet när han stannar?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=1{,}00(1-\\cos30^\\circ)\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2gh}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{6{,}0^2}{2\\cdot9{,}82}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\cos\\theta=1-\\dfrac{h}{10{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) °</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En pendelkula släpps från vila. Linan är 1,00 m lång och bildar vinkeln 30° med lodlinjen vid starten. Bestäm farten i det lägsta läget i m/s. Svara med tre värdesiffror.</li><li>Oskar springer vågrätt med 6,0 m/s och tar tag i ett 10,0 m långt rep som hänger lodrätt. Han svingar uppåt. Anta att farten inte ändras när han tar tag och att repet hålls spänt. Vilken vinkel mot lodlinjen har repet när han vänder? Svara i grader. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den lodräta sträckan från fästet till kulan är L cos30°. Höjdskillnaden till botten blir därför L − L cos30°.</p>\\[h=1{,}00(1-\\cos30^\\circ)\\approx0{,}133975\\,\\mathrm m\\]<p>Lägesenergin blir rörelseenergi. Använd den oavrundade höjdskillnaden.</p>\\[v=\\sqrt{2\\cdot9{,}82(1-\\cos30^\\circ)}\\approx1{,}62\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Oskars rörelseenergi blir ökad lägesenergi. Vid vändningen är farten noll.</p>\\[h=\\frac{6{,}0^2}{2\\cdot9{,}82}\\approx1{,}83299\\,\\mathrm m\\]<p>För ett 10,0 m långt rep är höjdökningen \\(h=10{,}0(1-\\cos\\theta)\\). Lös för vinkeln och använd oavrundat h.</p>\\[\\cos\\theta=1-\\frac{h}{10{,}0}\\]\\[\\theta=\\arccos\\left(1-\\frac{6{,}0^2}{2\\cdot9{,}82\\cdot10{,}0}\\right)\\approx35{,}2^\\circ\\]</div>",
     "id": "5.487",
     "miniräknare": true,
     "geogebra": false,
@@ -139273,8 +139273,8 @@ window.BANK = [
       35.244136839003914
     ],
     "tolerans": [
-      0.051,
-      0.529
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -139294,13 +139294,13 @@ window.BANK = [
       "°"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En pendel (1,00 m) släpps när snöret bildar 30° med lodlinjen. Bestäm farten i jämviktsläget.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En pendel (1,00 m) släpps när snöret bildar 30° med lodlinjen. Bestäm farten i jämviktsläget.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=1{,}00(1-\\cos30^\\circ)\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2gh}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\) m/s</p></div>",
+        "fraga": "Bestäm farten i det lägsta läget i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En pendelkula släpps från vila med en 1,00 m lång lina som bildar vinkeln 30° med lodlinjen. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm farten i det lägsta läget i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den lodräta sträckan från fästet till kulan är L cos30°. Höjdskillnaden till botten blir därför L − L cos30°.</p>\\[h=1{,}00(1-\\cos30^\\circ)\\approx0{,}133975\\,\\mathrm m\\]<p>Lägesenergin blir rörelseenergi. Använd den oavrundade höjdskillnaden.</p>\\[v=\\sqrt{2\\cdot9{,}82(1-\\cos30^\\circ)}\\approx1{,}62\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Bestäm höjdskillnaden.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -139309,18 +139309,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Oskar springer med 6,0 m/s, tar tag i ett 10,0 m långt rep och svingar ut. Vilken vinkel med lodlinjen har repet när han stannar?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Oskar springer med 6,0 m/s, tar tag i ett 10,0 m långt rep och svingar ut. Vilken vinkel med lodlinjen har repet när han stannar?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{6{,}0^2}{2\\cdot9{,}82}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\cos\\theta=1-\\dfrac{h}{10{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) °</p></div>",
+        "fraga": "Vilken vinkel mot lodlinjen har repet när Oskar vänder? Svara i grader. Svara med tre värdesiffror.",
+        "t": "<p>Oskar springer vågrätt med 6,0 m/s och tar tag i ett 10,0 m långt rep som hänger lodrätt. Han svingar uppåt. Anta att farten inte ändras när han tar tag och att repet hålls spänt. Bortse från friktion och luftmotstånd och använd g = 9,82 m/s².</p><p>Vilken vinkel mot lodlinjen har repet när Oskar vänder? Svara i grader. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Oskars rörelseenergi blir ökad lägesenergi. Vid vändningen är farten noll.</p>\\[h=\\frac{6{,}0^2}{2\\cdot9{,}82}\\approx1{,}83299\\,\\mathrm m\\]<p>För ett 10,0 m långt rep är höjdökningen \\(h=10{,}0(1-\\cos\\theta)\\). Lös för vinkeln och använd oavrundat h.</p>\\[\\cos\\theta=1-\\frac{h}{10{,}0}\\]\\[\\theta=\\arccos\\left(1-\\frac{6{,}0^2}{2\\cdot9{,}82\\cdot10{,}0}\\right)\\approx35{,}2^\\circ\\]</div>",
         "ledtrad": "<p>Bestäm höjden först.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_\\text{mek}=mgh+\\dfrac{mv^2}{2}\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjNyckel": "rorelseenergi__energiprincipen",
     "arbetsinsats": 2,
     "spel": true
@@ -139331,8 +139331,8 @@ window.BANK = [
     "niva": "C",
     "typ": "inbromsning efter fall",
     "poang": "(0/4/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En person på 62 kg släpps från vila 18,0 m ovanför ett räddningssegel. Seglet sjunker ytterligare 1,00 m innan personen stannar. Bortse från luftmotståndet. Hur stor är seglets uppåtriktade medelkraft under stoppsträckan? Svara i N.</li><li>En person på 80,0 kg släpps från vila 60,0 cm ovanför golvet. Vid landningen rör sig kroppen ytterligare 1,5 cm nedåt innan den stannar. Bortse från luftmotståndet. Hur stor är golvets uppåtriktade medelkraft under stoppsträckan? Svara i N.</li><li>En person på 80,0 kg släpps från vila 60,0 cm ovanför golvet. Personen böjer knäna vid landningen, så kroppen rör sig ytterligare 30,0 cm nedåt innan den stannar. Bortse från luftmotståndet. Hur stor är golvets uppåtriktade medelkraft under stoppsträckan? Svara i N.</li><li>En hjälm med huvudmodell har massan 5,0 kg. Den släpps från vila 2,0 m ovanför golvet. Hjälmens material trycks ihop 3,0 cm innan modellen stannar. Bortse från luftmotståndet. Hur stor är materialets uppåtriktade medelkraft under stoppsträckan? Svara i N.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Tyngdkraften verkar under både fallet och stoppsträckan. Seglets arbete tar bort hela den energin. Medelkraften beräknas över stoppsträckan.</p><div class=\"facit-matte\">\\[\\begin{gathered}F_\\mathrm{medel}\\cdot1{,}00=62\\cdot9{,}82(18{,}0+1{,}00)\\\\\\Rightarrow\\  F_\\mathrm{medel}=11567{,}96\\,\\mathrm N\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11 600 N.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Golvet ska stoppa fallet, medan tyngdkraften fortsätter att tillföra energi under stoppsträckan. Omvandla båda sträckorna till meter.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{80{,}0\\cdot9{,}82(0{,}600+0{,}015)}{0{,}015}=32209{,}6\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 32 200 N.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Golvet tar bort den energi som tyngdkraften tillför under hela rörelsen. Den längre stoppsträckan ger en mindre medelkraft.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{80{,}0\\cdot9{,}82(0{,}600+0{,}300)}{0{,}300}=2356{,}8\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2360 N.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Materialet ska ta bort energin från fallet och tyngdkraftens arbete under ihoptryckningen. Dividera den sammanlagda energin med stoppsträckan 0,030 m.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{5{,}0\\cdot9{,}82(2{,}0+0{,}030)}{0{,}030}\\approx3322\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3320 N.</p></div></div></div></div></div>",
+    "t": "<p>Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En person på 62 kg faller från vila 18,0 m och stoppas sedan av ett räddningssegel under ytterligare 1,00 m nedåt. Hur stor är seglets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En person på 80,0 kg faller från vila 60,0 cm. Vid landningen sjunker tyngdpunkten ytterligare 1,5 cm tills personen står stilla. Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En person på 80,0 kg faller från vila 60,0 cm. Personen böjer knäna vid landningen. Tyngdpunkten sjunker ytterligare 30,0 cm tills personen står stilla. Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En huvudmodell på 5,0 kg med en hjälm vars massa är försumbar faller från vila 2,0 m. Hjälmen trycks ihop och huvudmodellens tyngdpunkt sjunker ytterligare 3,0 cm tills den stannar. Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Farten före stoppet fås från fallet. Beräkna först fartens kvadrat och sedan retardationens storlek b.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot18{,}0=353{,}52\\]\\[b=\\frac{v^2}{2s}=\\frac{353{,}52}{2\\cdot1{,}00}=176{,}76\\,\\mathrm{m/s^2}\\]<p>Seglets kraft F verkar uppåt och tyngdkraften mg nedåt. Därför är F − mg = mb.</p>\\[\\begin{gathered}F=m(g+b)=62(9{,}82+176{,}76)\\\\\\approx11600\\,\\mathrm N\\end{gathered}\\]<p><strong>b)</strong></p><p>Omvandla sträckorna: 60,0 cm = 0,600 m och 1,5 cm = 0,015 m.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot0{,}600=11{,}784\\]\\[b=\\frac{v^2}{2s}=\\frac{11{,}784}{2\\cdot0{,}015}=392{,}8\\,\\mathrm{m/s^2}\\]<p>Golvets uppåtriktade kraft måste både motverka tyngdkraften och bromsa rörelsen: F − mg = mb.</p>\\[F=80{,}0(9{,}82+392{,}8)\\approx32200\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Fallet är 0,600 m och stoppsträckan 0,300 m.</p>\\[v^2=2\\cdot9{,}82\\cdot0{,}600=11{,}784\\]\\[b=\\frac{11{,}784}{2\\cdot0{,}300}=19{,}64\\,\\mathrm{m/s^2}\\]<p>Golvets kraft F uppfyller F − mg = mb. Den längre stoppsträckan ger mindre retardation och mindre kraft.</p>\\[F=80{,}0(9{,}82+19{,}64)\\approx2360\\,\\mathrm N\\]<p><strong>d)</strong></p><p>Stoppsträckan är 3,0 cm = 0,030 m.</p>\\[v^2=2\\cdot9{,}82\\cdot2{,}0=39{,}28\\]\\[b=\\frac{39{,}28}{2\\cdot0{,}030}\\approx654{,}6667\\,\\mathrm{m/s^2}\\]<p>Hjälmens material ger den uppåtriktade kraften F. Kraftbalansen är F − mg = mb. Använd oavrundat b.</p>\\[F=5{,}0\\left(9{,}82+\\frac{39{,}28}{0{,}060}\\right)\\approx3320\\,\\mathrm N\\]</div>",
     "id": "5.488",
     "miniräknare": true,
     "geogebra": false,
@@ -139345,10 +139345,10 @@ window.BANK = [
       3322.433333333333
     ],
     "tolerans": [
-      510.0,
-      510.0,
-      51.0,
-      51.0
+      50.0,
+      50.0,
+      5.0,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -139375,14 +139375,14 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är seglets uppåtriktade medelkraft under stoppsträckan? Svara i N.",
-        "t": "<p>En person på 62 kg släpps från vila 18,0 m ovanför ett räddningssegel. Seglet sjunker ytterligare 1,00 m innan personen stannar. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är seglets uppåtriktade medelkraft under stoppsträckan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Tyngdkraften verkar under både fallet och stoppsträckan. Seglets arbete tar bort hela den energin. Medelkraften beräknas över stoppsträckan.</p><div class=\"facit-matte\">\\[\\begin{gathered}F_\\mathrm{medel}\\cdot1{,}00=62\\cdot9{,}82(18{,}0+1{,}00)\\\\\\Rightarrow\\  F_\\mathrm{medel}=11567{,}96\\,\\mathrm N\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11 600 N.</p></div></div>",
-        "ledtrad": "<p>Hela fallhöjden är 19,0 m.</p>",
+        "fraga": "Hur stor är seglets uppåtriktade kraft i N? Svara med tre värdesiffror.",
+        "t": "<p>En person på 62 kg faller från vila 18,0 m och stoppas sedan av ett räddningssegel under ytterligare 1,00 m nedåt. Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är seglets uppåtriktade kraft i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten före stoppet fås från fallet. Beräkna först fartens kvadrat och sedan retardationens storlek b.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot18{,}0=353{,}52\\]\\[b=\\frac{v^2}{2s}=\\frac{353{,}52}{2\\cdot1{,}00}=176{,}76\\,\\mathrm{m/s^2}\\]<p>Seglets kraft F verkar uppåt och tyngdkraften mg nedåt. Därför är F − mg = mb.</p>\\[\\begin{gathered}F=m(g+b)=62(9{,}82+176{,}76)\\\\\\approx11600\\,\\mathrm N\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Beräkna först farten före kontakten och retardationen under stoppet. Kontaktkraften är m(g + b).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -139390,10 +139390,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är golvets uppåtriktade medelkraft under stoppsträckan? Svara i N.",
-        "t": "<p>En person på 80,0 kg släpps från vila 60,0 cm ovanför golvet. Vid landningen rör sig kroppen ytterligare 1,5 cm nedåt innan den stannar. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är golvets uppåtriktade medelkraft under stoppsträckan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Golvet ska stoppa fallet, medan tyngdkraften fortsätter att tillföra energi under stoppsträckan. Omvandla båda sträckorna till meter.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{80{,}0\\cdot9{,}82(0{,}600+0{,}015)}{0{,}015}=32209{,}6\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 32 200 N.</p></div></div>",
-        "ledtrad": "<p>Hela fallhöjden är 0,615 m.</p>",
+        "fraga": "Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.",
+        "t": "<p>En person på 80,0 kg faller från vila 60,0 cm. Vid landningen sjunker tyngdpunkten ytterligare 1,5 cm tills personen står stilla. Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla sträckorna: 60,0 cm = 0,600 m och 1,5 cm = 0,015 m.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot0{,}600=11{,}784\\]\\[b=\\frac{v^2}{2s}=\\frac{11{,}784}{2\\cdot0{,}015}=392{,}8\\,\\mathrm{m/s^2}\\]<p>Golvets uppåtriktade kraft måste både motverka tyngdkraften och bromsa rörelsen: F − mg = mb.</p>\\[F=80{,}0(9{,}82+392{,}8)\\approx32200\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Beräkna först farten före kontakten och retardationen under stoppet. Kontaktkraften är m(g + b).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -139401,10 +139401,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är golvets uppåtriktade medelkraft under stoppsträckan? Svara i N.",
-        "t": "<p>En person på 80,0 kg släpps från vila 60,0 cm ovanför golvet. Personen böjer knäna vid landningen, så kroppen rör sig ytterligare 30,0 cm nedåt innan den stannar. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är golvets uppåtriktade medelkraft under stoppsträckan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Golvet tar bort den energi som tyngdkraften tillför under hela rörelsen. Den längre stoppsträckan ger en mindre medelkraft.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{80{,}0\\cdot9{,}82(0{,}600+0{,}300)}{0{,}300}=2356{,}8\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2360 N.</p></div></div>",
-        "ledtrad": "<p>Hela fallhöjden är 0,900 m.</p>",
+        "fraga": "Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.",
+        "t": "<p>En person på 80,0 kg faller från vila 60,0 cm. Personen böjer knäna vid landningen. Tyngdpunkten sjunker ytterligare 30,0 cm tills personen står stilla. Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fallet är 0,600 m och stoppsträckan 0,300 m.</p>\\[v^2=2\\cdot9{,}82\\cdot0{,}600=11{,}784\\]\\[b=\\frac{11{,}784}{2\\cdot0{,}300}=19{,}64\\,\\mathrm{m/s^2}\\]<p>Golvets kraft F uppfyller F − mg = mb. Den längre stoppsträckan ger mindre retardation och mindre kraft.</p>\\[F=80{,}0(9{,}82+19{,}64)\\approx2360\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Beräkna först farten före kontakten och retardationen under stoppet. Kontaktkraften är m(g + b).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -139412,30 +139412,30 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor är materialets uppåtriktade medelkraft under stoppsträckan? Svara i N.",
-        "t": "<p>En hjälm med huvudmodell har massan 5,0 kg. Den släpps från vila 2,0 m ovanför golvet. Hjälmens material trycks ihop 3,0 cm innan modellen stannar. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är materialets uppåtriktade medelkraft under stoppsträckan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Materialet ska ta bort energin från fallet och tyngdkraftens arbete under ihoptryckningen. Dividera den sammanlagda energin med stoppsträckan 0,030 m.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{5{,}0\\cdot9{,}82(2{,}0+0{,}030)}{0{,}030}\\approx3322\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3320 N.</p></div></div>",
-        "ledtrad": "<p>Hela fallhöjden är 2,03 m.</p>",
+        "fraga": "Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.",
+        "t": "<p>En huvudmodell på 5,0 kg med en hjälm vars massa är försumbar faller från vila 2,0 m. Hjälmen trycks ihop och huvudmodellens tyngdpunkt sjunker ytterligare 3,0 cm tills den stannar. Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stoppsträckan är 3,0 cm = 0,030 m.</p>\\[v^2=2\\cdot9{,}82\\cdot2{,}0=39{,}28\\]\\[b=\\frac{39{,}28}{2\\cdot0{,}030}\\approx654{,}6667\\,\\mathrm{m/s^2}\\]<p>Hjälmens material ger den uppåtriktade kraften F. Kraftbalansen är F − mg = mb. Använd oavrundat b.</p>\\[F=5{,}0\\left(9{,}82+\\frac{39{,}28}{0{,}060}\\right)\\approx3320\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Beräkna först farten före kontakten och retardationen under stoppet. Kontaktkraften är m(g + b).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Bromskraftens arbete = minskningen i lägesenergi under hela förloppet.</p>",
+    "ledtrad": "<p>Beräkna farten före stoppet från fallet och sedan retardationen. Kontaktkraften uppåt är m(g + b), där b är retardationens storlek.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "kloss bromsas av friktion",
-    "poang": "(0/2/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En kloss med 6,0 m/s glider friktionsfritt upp 1,1 m och sedan på en vågrät sträcka med friktionstalet 0,60. Hur långt glider den där?</li><li>En kloss med 7,0 m/s på 6,0 m höjd glider friktionsfritt ner till 2,0 m och sedan på vågrätt underlag med friktionstalet 0,70. Hur långt glider den där?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{6{,}0^2}{2}-9{,}82\\cdot1{,}1=0{,}60\\cdot9{,}82\\cdot d\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{7{,}0^2}{2}+9{,}82\\cdot4{,}0=0{,}70\\cdot9{,}82\\cdot s\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}3\\) m</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Övergången till vågrät mark är mjuk och utan energiförlust. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En kloss har startfarten 6,0 m/s och glider utan friktion upp till 1,1 m högre höjd. Där fortsätter den på en vågrät yta med glidfriktionstalet 0,60. Hur långt glider den på den vågräta ytan innan den stannar? Svara i m. Svara med tre värdesiffror.</li><li>En kloss har startfarten 7,0 m/s på 6,0 m höjd och glider utan friktion ned till 2,0 m höjd. Där fortsätter den på en vågrät yta med glidfriktionstalet 0,70. Hur långt glider den på den vågräta ytan innan den stannar? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Under stigningen blir en del av startens rörelseenergi lägesenergi. Friktionen på den vågräta ytan tar sedan den rörelseenergi som återstår.</p>\\[\\mu mg s=\\frac{m\\cdot6{,}0^2}{2}-mg\\cdot1{,}1\\]<p>Förkorta massan och lös för sträckan på den vågräta ytan.</p>\\[s=\\frac{6{,}0^2/2-9{,}82\\cdot1{,}1}{0{,}60\\cdot9{,}82}\\approx1{,}22\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Klossen sjunker \\(6{,}0-2{,}0=4{,}0\\) m. Höjdminskningen ökar rörelseenergin. Friktionen på den vågräta ytan tar hela den nya rörelseenergin.</p>\\[\\mu mg s=\\frac{m\\cdot7{,}0^2}{2}+mg\\cdot4{,}0\\]\\[s=\\frac{7{,}0^2/2+9{,}82\\cdot4{,}0}{0{,}70\\cdot9{,}82}\\approx9{,}28\\,\\mathrm m\\]</div>",
     "id": "5.489",
     "miniräknare": true,
     "geogebra": false,
@@ -139446,8 +139446,8 @@ window.BANK = [
       9.278440500436428
     ],
     "tolerans": [
-      0.051,
-      0.139
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -139468,33 +139468,33 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Övergången till vågrät mark är mjuk och utan energiförlust. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kloss med 6,0 m/s glider friktionsfritt upp 1,1 m och sedan på en vågrät sträcka med friktionstalet 0,60. Hur långt glider den där?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss med 6,0 m/s glider friktionsfritt upp 1,1 m och sedan på en vågrät sträcka med friktionstalet 0,60. Hur långt glider den där?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{6{,}0^2}{2}-9{,}82\\cdot1{,}1=0{,}60\\cdot9{,}82\\cdot d\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) m</p></div>",
+        "fraga": "Hur långt glider klossen på den vågräta ytan innan den stannar? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En kloss har startfarten 6,0 m/s och glider utan friktion upp till 1,1 m högre höjd. Där fortsätter den på en vågrät yta med glidfriktionstalet 0,60. Övergången är mjuk och utan energiförlust. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur långt glider klossen på den vågräta ytan innan den stannar? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Under stigningen blir en del av startens rörelseenergi lägesenergi. Friktionen på den vågräta ytan tar sedan den rörelseenergi som återstår.</p>\\[\\mu mg s=\\frac{m\\cdot6{,}0^2}{2}-mg\\cdot1{,}1\\]<p>Förkorta massan och lös för sträckan på den vågräta ytan.</p>\\[s=\\frac{6{,}0^2/2-9{,}82\\cdot1{,}1}{0{,}60\\cdot9{,}82}\\approx1{,}22\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Räkna per kilogram.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En kloss med 7,0 m/s på 6,0 m höjd glider friktionsfritt ner till 2,0 m och sedan på vågrätt underlag med friktionstalet 0,70. Hur långt glider den där?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss med 7,0 m/s på 6,0 m höjd glider friktionsfritt ner till 2,0 m och sedan på vågrätt underlag med friktionstalet 0,70. Hur långt glider den där?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{7{,}0^2}{2}+9{,}82\\cdot4{,}0=0{,}70\\cdot9{,}82\\cdot s\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}3\\) m</p></div>",
+        "fraga": "Hur långt glider klossen på den vågräta ytan innan den stannar? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En kloss har startfarten 7,0 m/s på 6,0 m höjd och glider utan friktion ned till 2,0 m höjd. Där fortsätter den på en vågrät yta med glidfriktionstalet 0,70. Övergången är mjuk och utan energiförlust. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Hur långt glider klossen på den vågräta ytan innan den stannar? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossen sjunker \\(6{,}0-2{,}0=4{,}0\\) m. Höjdminskningen ökar rörelseenergin. Friktionen på den vågräta ytan tar hela den nya rörelseenergin.</p>\\[\\mu mg s=\\frac{m\\cdot7{,}0^2}{2}+mg\\cdot4{,}0\\]\\[s=\\frac{7{,}0^2/2+9{,}82\\cdot4{,}0}{0{,}70\\cdot9{,}82}\\approx9{,}28\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Räkna per kilogram.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Friktionsarbete \\(=\\mu mgs\\).</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Friktionen tar bort energin μmgs på den vågräta ytan.</p>",
+    "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
     "spel": true
@@ -139502,25 +139502,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "kula i sand från olika höjd",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En stålkula släpps från 25 cm höjd och gör en 1,5 cm djup grop i sand. Hur djup blir gropen om kulan släpps från 75 cm med samma bromsande kraft?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cdot0{,}015=mg\\cdot0{,}265\\iff F=17{,}7mg\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[17{,}7mg\\cdot d=mg(0{,}75+d)\\iff d=\\dfrac{0{,}75}{16{,}7}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En stålkula släpps från vila 25 cm över sanden och gör en 1,5 cm djup grop. Sandens uppåtriktade bromskraft antas ha konstant storlek. Bortse från luftmotståndet. Hur djup blir gropen om samma kula släpps från vila 75 cm över sanden med samma bromskraft? Svara i m.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Start och slut är i vila. Sandens negativa arbete tar den energi som tyngdkraften tillför under både fallet och inträngningen.</p>\\[F\\cdot0{,}015=mg(0{,}25+0{,}015)\\]\\[\\frac F{mg}=\\frac{0{,}265}{0{,}015}=\\frac{53}{3}\\]<p>I det nya försöket verkar tyngdkraften under sträckan 0,75 + d, medan sandens kraft verkar under d.</p>\\[Fd=mg(0{,}75+d)\\]<p>Dividera med mg och lös för d.</p>\\[\\frac{53}{3}d=0{,}75+d\\]\\[d=\\frac{0{,}75}{53/3-1}=0{,}0450\\,\\mathrm m\\]</div>",
     "id": "5.490",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 0.045,
-    "tolerans": 0.000675,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm bromskraften ur första fallet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -139532,8 +139532,8 @@ window.BANK = [
     "niva": "C",
     "typ": "hopp ner i barnpool",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p><ol type=\"a\"><li>Bestäm den genomsnittliga bromskraften.</li><li>Bestäm retardationen uttryckt i antal \\(g\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cdot0{,}305=75{,}0\\cdot9{,}82\\cdot11{,}105\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,816\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{F-mg}{m}\\), dela med 9,82.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\)</p></li></ol></div>",
+    "t": "<p>En pålhammare på 75,0 kg släpps från vila 10,8 m ovanför en påle. När den träffar pålen rör den sig ytterligare 0,305 m nedåt innan den stannar. Pålen ger en konstant uppåtriktad bromskraft. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stor är pålens bromskraft i N? Svara med tre värdesiffror.</li><li>Hur stor är retardationen under stoppet? Svara som antal g. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hammaren börjar och slutar i vila. Tyngdkraften tillför energi under både fallet och stoppsträckan.</p>\\[\\begin{gathered}W_g=75{,}0\\cdot9{,}82(10{,}8+0{,}305)\\\\=8178{,}8325\\,\\mathrm J\\end{gathered}\\]<p>Bromskraftens negativa arbete har samma storlek, över sträckan 0,305 m.</p>\\[F=\\frac{8178{,}8325}{0{,}305}\\approx26800\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Hammaren faller 10,8 m från vila. Beräkna fartens kvadrat vid kontakten och använd stoppsträckan för att få retardationens storlek.</p>\\[\\begin{gathered}v^2=2gh=2\\cdot9{,}82\\cdot10{,}8\\\\=212{,}112\\,\\mathrm{m^2/s^2}\\end{gathered}\\]\\[b=\\frac{v^2}{2s}=\\frac{212{,}112}{2\\cdot0{,}305}\\approx347{,}7246\\,\\mathrm{m/s^2}\\]<p>Dividera med g för att få antal g.</p>\\[\\frac bg=\\frac{347{,}7246\\ldots}{9{,}82}\\approx35{,}4\\]</div>",
     "id": "5.491",
     "miniräknare": true,
     "geogebra": false,
@@ -139544,8 +139544,8 @@ window.BANK = [
       35.40983606557377
     ],
     "tolerans": [
-      402.0,
-      0.531
+      50.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -139566,14 +139566,14 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p>",
+    "spelIntro": "<p>En pålhammare på 75,0 kg släpps från vila 10,8 m ovanför en påle. När den träffar pålen rör den sig ytterligare 0,305 m nedåt innan den stannar. Pålen ger en konstant uppåtriktad bromskraft. Bortse från luftmotstånd och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den genomsnittliga bromskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p><p>Bestäm den genomsnittliga bromskraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\cdot0{,}305=75{,}0\\cdot9{,}82\\cdot11{,}105\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,816\\) N</p></div>",
-        "ledtrad": "<p>Hela fallhöjden.</p>",
+        "fraga": "Hur stor är pålens bromskraft i N? Svara med tre värdesiffror.",
+        "t": "<p>En pålhammare på 75,0 kg släpps från vila 10,8 m ovanför en påle. Efter kontakten rör den sig ytterligare 0,305 m nedåt innan den stannar. Pålen ger en konstant uppåtriktad bromskraft. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><p>Hur stor är pålens bromskraft i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hammaren börjar och slutar i vila. Tyngdkraften tillför energi under både fallet och stoppsträckan.</p>\\[\\begin{gathered}W_g=75{,}0\\cdot9{,}82(10{,}8+0{,}305)\\\\=8178{,}8325\\,\\mathrm J\\end{gathered}\\]<p>Bromskraftens negativa arbete har samma storlek, över sträckan 0,305 m.</p>\\[F=\\frac{8178{,}8325}{0{,}305}\\approx26800\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Bromsens arbete tar bort energin från hela höjdminskningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -139581,17 +139581,17 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm retardationen uttryckt i antal \\(g\\).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En person (75,0 kg) hoppar från 10,8 m ner i en barnpool med 0,305 m vatten, som bromsar hela rörelsen.</p>Bromskraften är 26,8 kN.<p>Bestäm retardationen uttryckt i antal \\(g\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{F-mg}{m}\\), dela med 9,82.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\)</p></div>",
-        "ledtrad": "<p>Den resulterande kraften är bromskraft minus tyngd.</p>",
+        "fraga": "Hur stor är retardationen under stoppet? Svara som antal g. Svara med tre värdesiffror.",
+        "t": "<p>En pålhammare släpps från vila 10,8 m ovanför en påle. Efter kontakten stannar den under 0,305 m med konstant retardation. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><p>Hur stor är retardationen under stoppet? Svara som antal g. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hammaren faller 10,8 m från vila. Beräkna fartens kvadrat vid kontakten och använd stoppsträckan för att få retardationens storlek.</p>\\[\\begin{gathered}v^2=2gh=2\\cdot9{,}82\\cdot10{,}8\\\\=212{,}112\\,\\mathrm{m^2/s^2}\\end{gathered}\\]\\[b=\\frac{v^2}{2s}=\\frac{212{,}112}{2\\cdot0{,}305}\\approx347{,}7246\\,\\mathrm{m/s^2}\\]<p>Dividera med g för att få antal g.</p>\\[\\frac bg=\\frac{347{,}7246\\ldots}{9{,}82}\\approx35{,}4\\]</div>",
+        "ledtrad": "<p>Beräkna v² = 2gh före stöten. Använd v² = 2bs under stoppet och dividera b med g.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Bromskraftens arbete = minskningen i lägesenergi.</p>",
+    "ledtrad": "<p>Bromskraften verkar under stoppsträckan. Tyngdkraften verkar även under stoppet.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -139603,22 +139603,22 @@ window.BANK = [
     "niva": "C",
     "typ": "energiförluster",
     "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En studsboll (45 g) släpps från 2,0 m och studsar upp till 1,6 m. Hur mycket energi blev värme?</li><li>En tennisboll (57 g) kastas rakt upp med 8,8 m/s och når 3,7 m. Hur mycket energi förlorades till luftmotståndet?</li><li>Pelle (80 kg) åker från vila nedför en 150 m hög backe och har 12 m/s längst ner. Hur mycket energi blev värme?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}045\\cdot9{,}82\\cdot0{,}4\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}18\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\dfrac{0{,}057\\cdot8{,}8^2}{2}-0{,}057\\cdot9{,}82\\cdot3{,}7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}14\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=80\\cdot9{,}82\\cdot150-\\dfrac{80\\cdot12^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) J</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En studsboll på 45 g släpps från vila 2,0 m över golvet och studsar upp till 1,6 m. Bortse från luftmotståndet. Hur mycket mekanisk energi omvandlas till andra energiformer vid studsen? Svara i J. Svara med tre värdesiffror.</li><li>En tennisboll på 57 g kastas rakt upp med 8,8 m/s. Den stiger 3,7 m över kastpunkten innan den vänder. Hur mycket mekanisk energi förlorar bollen genom luftmotståndet? Svara i J. Svara med tre värdesiffror.</li><li>Pelle på 80 kg åker från vila nedför en backe med höjdskillnaden 150 m och har farten 12 m/s längst ner. Han skjuter inte ifrån under färden. Hur mycket mekanisk energi förlorar han genom friktion och luftmotstånd? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>I båda högsta lägena är farten noll. Skillnaden i lägesenergi har omvandlats till exempelvis inre energi och ljud. Massan är 0,045 kg.</p>\\[\\begin{gathered}E_\\text{förlust}=mg(h_1-h_2)\\\\=0{,}045\\cdot9{,}82(2{,}0-1{,}6)\\\\\\approx0{,}177\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Massan är 0,057 kg. Startens rörelseenergi blir dels lägesenergi, dels energi som överförs till luften.</p>\\[E_{k,1}=\\frac{0{,}057\\cdot8{,}8^2}{2}=2{,}20704\\,\\mathrm J\\]\\[\\Delta E_p=0{,}057\\cdot9{,}82\\cdot3{,}7=2{,}071038\\,\\mathrm J\\]\\[E_\\text{förlust}=2{,}20704-2{,}071038\\approx0{,}136\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Höjdminskningen frigör lägesenergi. En del blir rörelseenergi och resten överförs till omgivningen.</p>\\[E_p=80\\cdot9{,}82\\cdot150=117840\\,\\mathrm J\\]\\[E_k=\\frac{80\\cdot12^2}{2}=5760\\,\\mathrm J\\]\\[E_\\text{förlust}=117840-5760\\approx112000\\,\\mathrm J\\]</div>",
     "id": "5.492",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.17676000000000003,
-      0.13600200000000015,
+      0.17675999999999997,
+      0.1360020000000004,
       112080.0
     ],
     "tolerans": [
-      0.0051,
-      0.0051,
-      5100.0
+      0.0005,
+      0.0005,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -139642,25 +139642,25 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En studsboll (45 g) släpps från 2,0 m och studsar upp till 1,6 m. Hur mycket energi blev värme?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En studsboll (45 g) släpps från 2,0 m och studsar upp till 1,6 m. Hur mycket energi blev värme?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}045\\cdot9{,}82\\cdot0{,}4\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}18\\) J</p></div>",
-        "ledtrad": "<p>Skillnaden i lägesenergi.</p>",
+        "fraga": "Hur mycket mekanisk energi omvandlas till andra energiformer vid studsen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En studsboll på 45 g släpps från vila 2,0 m över golvet och studsar upp till 1,6 m. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur mycket mekanisk energi omvandlas till andra energiformer vid studsen? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I båda högsta lägena är farten noll. Skillnaden i lägesenergi har omvandlats till exempelvis inre energi och ljud. Massan är 0,045 kg.</p>\\[\\begin{gathered}E_\\text{förlust}=mg(h_1-h_2)\\\\=0{,}045\\cdot9{,}82(2{,}0-1{,}6)\\\\\\approx0{,}177\\,\\mathrm J\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Jämför lägesenergin i de två högsta lägena.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En tennisboll (57 g) kastas rakt upp med 8,8 m/s och når 3,7 m. Hur mycket energi förlorades till luftmotståndet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En tennisboll (57 g) kastas rakt upp med 8,8 m/s och når 3,7 m. Hur mycket energi förlorades till luftmotståndet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\dfrac{0{,}057\\cdot8{,}8^2}{2}-0{,}057\\cdot9{,}82\\cdot3{,}7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}14\\) J</p></div>",
-        "ledtrad": "<p>Start-energi minus slutenergi.</p>",
+        "fraga": "Hur mycket mekanisk energi förlorar bollen genom luftmotståndet? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En tennisboll på 57 g kastas rakt upp med 8,8 m/s. Den stiger 3,7 m över kastpunkten innan den vänder. Använd g = 9,82 m/s².</p><p>Hur mycket mekanisk energi förlorar bollen genom luftmotståndet? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,057 kg. Startens rörelseenergi blir dels lägesenergi, dels energi som överförs till luften.</p>\\[E_{k,1}=\\frac{0{,}057\\cdot8{,}8^2}{2}=2{,}20704\\,\\mathrm J\\]\\[\\Delta E_p=0{,}057\\cdot9{,}82\\cdot3{,}7=2{,}071038\\,\\mathrm J\\]\\[E_\\text{förlust}=2{,}20704-2{,}071038\\approx0{,}136\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Jämför startens rörelseenergi med ökningen i lägesenergi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -139668,17 +139668,17 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Pelle (80 kg) åker från vila nedför en 150 m hög backe och har 12 m/s längst ner. Hur mycket energi blev värme?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Pelle (80 kg) åker från vila nedför en 150 m hög backe och har 12 m/s längst ner. Hur mycket energi blev värme?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=80\\cdot9{,}82\\cdot150-\\dfrac{80\\cdot12^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) J</p></div>",
-        "ledtrad": "<p>Start-energi minus slutenergi.</p>",
+        "fraga": "Hur mycket mekanisk energi förlorar Pelle genom friktion och luftmotstånd? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Pelle på 80 kg åker från vila nedför en backe med höjdskillnaden 150 m och har farten 12 m/s längst ner. Han skjuter inte ifrån under färden. Använd g = 9,82 m/s².</p><p>Hur mycket mekanisk energi förlorar Pelle genom friktion och luftmotstånd? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdminskningen frigör lägesenergi. En del blir rörelseenergi och resten överförs till omgivningen.</p>\\[E_p=80\\cdot9{,}82\\cdot150=117840\\,\\mathrm J\\]\\[E_k=\\frac{80\\cdot12^2}{2}=5760\\,\\mathrm J\\]\\[E_\\text{förlust}=117840-5760\\approx112000\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Dra slutets rörelseenergi från den lägesenergi som frigörs.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Förlorad mekanisk energi blir värme.</p>",
+    "ledtrad": "<p>Jämför den mekaniska energin före och efter.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -139690,8 +139690,8 @@ window.BANK = [
     "niva": "C",
     "typ": "friktionsarbete i backar",
     "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En skateboardåkare på 55 kg åker uppför en backe. Farten minskar från 20 m/s till 12 m/s medan höjden ökar med 5,0 m. Bortse från luftmotståndet. Vilket arbete gör friktionen på åkaren? Ange tecken och svara i J.</li><li>Åke på 100 kg startar från vila och åker nedför en 100 m hög backe. Friktionen tar bort 30,0 kJ mekanisk energi. Bortse från luftmotståndet. Vilken fart har Åke längst ner? Svara i m/s.</li><li>En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Friktionens arbete är ändringen i den mekaniska energin. Det blir negativt eftersom friktionen tar energi från rörelsen.</p><div class=\"facit-matte\">\\[W_\\mathrm{fr}=\\frac{55(12^2-20^2)}2+55\\cdot9{,}82\\cdot5{,}0=-4339{,}5\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> −4340 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Lägesenergin blir rörelseenergi, men 30 000 J går förlorade genom friktionen.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{100v^2}{2}=100\\cdot9{,}82\\cdot100-30000\\\\\\Rightarrow\\  v\\approx36{,}9\\,\\mathrm{m/s}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 36,9 m/s.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{75v^2}{2}=\\dfrac{75\\cdot8{,}0^2}{2}-75\\cdot9{,}82\\cdot1{,}8-80\\cdot8{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\) m/s</p></div></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>En skateboardåkare på 55 kg åker uppför en backe. Farten minskar från 20 m/s till 12 m/s medan höjden ökar med 5,0 m. Bortse från luftmotståndet. Vilket arbete gör friktionen på åkaren? Ange tecken och svara i J.</li><li>Åke på 100 kg startar från vila och åker nedför en 100 m hög backe. Friktionen tar bort 30,0 kJ mekanisk energi. Bortse från luftmotståndet. Vilken fart har Åke längst ner? Svara i m/s.</li><li>En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.</li></ol><p>Svara med tre värdesiffror i alla deluppgifter.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Rörelseenergin minskar samtidigt som lägesenergin ökar.</p>\\[\\begin{gathered}E_{k,1}=\\frac{55\\cdot20^2}{2}=11000\\,\\mathrm J\\\\E_{k,2}=\\frac{55\\cdot12^2}{2}=3960\\,\\mathrm J\\end{gathered}\\]\\[\\Delta E_p=55\\cdot9{,}82\\cdot5{,}0=2700{,}5\\,\\mathrm J\\]<p>Friktionens arbete är ändringen i den sammanlagda mekaniska energin.</p>\\[W_\\text{fr}=3960+2700{,}5-11000\\approx-4340\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Beräkna lägesenergin som frigörs och dra bort energiförlusten 30,0 kJ = 30 000 J.</p>\\[E_p=100\\cdot9{,}82\\cdot100=98200\\,\\mathrm J\\]\\[E_k=98200-30000=68200\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot68200}{100}}\\approx36{,}9\\,\\mathrm{m/s}\\]<p><strong>c)</strong></p><p>Startens rörelseenergi är</p>\\[E_{k,1}=\\frac{75\\cdot8{,}0^2}{2}=2400\\,\\mathrm J\\]<p>Under färden ökar lägesenergin och friktionen tar energi från rörelsen.</p>\\[\\Delta E_p=75\\cdot9{,}82\\cdot1{,}8=1325{,}7\\,\\mathrm J\\]\\[E_\\text{fr}=80\\cdot8{,}0=640\\,\\mathrm J\\]\\[E_{k,2}=2400-1325{,}7-640=434{,}3\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot434{,}3}{75}}\\approx3{,}40\\,\\mathrm{m/s}\\]</div>",
     "id": "5.493",
     "miniräknare": true,
     "geogebra": false,
@@ -139703,9 +139703,9 @@ window.BANK = [
       3.403135808828871
     ],
     "tolerans": [
-      65.1,
-      0.554,
-      0.051
+      5.0,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -139733,10 +139733,10 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilket arbete gör friktionen på åkaren? Ange tecken och svara i J.",
-        "t": "<p>En skateboardåkare på 55 kg åker uppför en backe. Farten minskar från 20 m/s till 12 m/s medan höjden ökar med 5,0 m. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilket arbete gör friktionen på åkaren? Ange tecken och svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Friktionens arbete är ändringen i den mekaniska energin. Det blir negativt eftersom friktionen tar energi från rörelsen.</p><div class=\"facit-matte\">\\[W_\\mathrm{fr}=\\frac{55(12^2-20^2)}2+55\\cdot9{,}82\\cdot5{,}0=-4339{,}5\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> −4340 J.</p></div></div>",
-        "ledtrad": "<p>Jämför summan av rörelseenergi och lägesenergi före och efter färden.</p>",
+        "fraga": "Vilket arbete gör friktionen på åkaren? Ange tecken och svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En skateboardåkare på 55 kg åker uppför en backe. Farten minskar från 20 m/s till 12 m/s medan höjden ökar med 5,0 m. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilket arbete gör friktionen på åkaren? Ange tecken och svara i J.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rörelseenergin minskar samtidigt som lägesenergin ökar.</p>\\[\\begin{gathered}E_{k,1}=\\frac{55\\cdot20^2}{2}=11000\\,\\mathrm J\\\\E_{k,2}=\\frac{55\\cdot12^2}{2}=3960\\,\\mathrm J\\end{gathered}\\]\\[\\Delta E_p=55\\cdot9{,}82\\cdot5{,}0=2700{,}5\\,\\mathrm J\\]<p>Friktionens arbete är ändringen i den sammanlagda mekaniska energin.</p>\\[W_\\text{fr}=3960+2700{,}5-11000\\approx-4340\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Jämför den mekaniska energin före och efter.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -139744,10 +139744,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har Åke längst ner? Svara i m/s.",
-        "t": "<p>Åke på 100 kg startar från vila och åker nedför en 100 m hög backe. Friktionen tar bort 30,0 kJ mekanisk energi. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har Åke längst ner? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Lägesenergin blir rörelseenergi, men 30 000 J går förlorade genom friktionen.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{100v^2}{2}=100\\cdot9{,}82\\cdot100-30000\\\\\\Rightarrow\\  v\\approx36{,}9\\,\\mathrm{m/s}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 36,9 m/s.</p></div></div>",
-        "ledtrad": "<p>Lägesenergi minus friktionsarbete.</p>",
+        "fraga": "Vilken fart har Åke längst ner? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Åke på 100 kg startar från vila och åker nedför en 100 m hög backe. Friktionen tar bort 30,0 kJ mekanisk energi. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har Åke längst ner? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lägesenergin som frigörs och dra bort energiförlusten 30,0 kJ = 30 000 J.</p>\\[E_p=100\\cdot9{,}82\\cdot100=98200\\,\\mathrm J\\]\\[E_k=98200-30000=68200\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot68200}{100}}\\approx36{,}9\\,\\mathrm{m/s}\\]</div>",
+        "ledtrad": "<p>Dra bort friktionens energiförlust från lägesenergin som frigörs.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -139755,17 +139755,17 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{75v^2}{2}=\\dfrac{75\\cdot8{,}0^2}{2}-75\\cdot9{,}82\\cdot1{,}8-80\\cdot8{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\) m/s</p></div>",
-        "ledtrad": "<p>Både lägesenergi och friktion.</p>",
+        "fraga": "En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen. Svara med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotståndet.</p><p>En skidåkare (75 kg) har 8,0 m/s vid foten av en 8,0 m lång och 1,8 m hög backe. Friktionen är 80 N. Bestäm farten på toppen.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startens rörelseenergi är</p>\\[E_{k,1}=\\frac{75\\cdot8{,}0^2}{2}=2400\\,\\mathrm J\\]<p>Under färden ökar lägesenergin och friktionen tar energi från rörelsen.</p>\\[\\Delta E_p=75\\cdot9{,}82\\cdot1{,}8=1325{,}7\\,\\mathrm J\\]\\[E_\\text{fr}=80\\cdot8{,}0=640\\,\\mathrm J\\]\\[E_{k,2}=2400-1325{,}7-640=434{,}3\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot434{,}3}{75}}\\approx3{,}40\\,\\mathrm{m/s}\\]</div>",
+        "ledtrad": "<p>Dra bort höjdökningens energi och friktionens energiförlust från startenergin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(E_\\text{start}=E_\\text{slut}+W_\\text{friktion}\\).</p>",
+    "ledtrad": "<p>Friktionens arbete är \\(W_\\text{fr}=E_\\text{mek,slut}-E_\\text{mek,start}\\). Lägesenergi och rörelseenergi ingår i summan.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -139777,15 +139777,15 @@ window.BANK = [
     "niva": "C",
     "typ": "brännboll och luftmotstånd",
     "poang": "(0/1/0)",
-    "t": "<p>En boll på 75 g slås iväg från 1,2 m höjd med farten 40 m/s. Vid 20 m höjd har den farten 30 m/s. Använd g = 9,82 m/s².</p><p>Vilket arbete gör luftmotståndet på bollen under färden? Ange tecken och svara i J.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Luftmotståndets arbete är ändringen i bollens mekaniska energi. Använd massan 0,075 kg och höjdökningen 18,8 m.</p><div class=\"facit-matte\">\\[W_\\mathrm{luft}=\\frac{0{,}075(30^2-40^2)}2+0{,}075\\cdot9{,}82\\cdot18{,}8=-12{,}4038\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> −12,4 J.</p></div></div>",
+    "t": "<p>En boll på 75 g slås iväg från 1,2 m höjd med farten 40 m/s. Vid 20 m höjd har den farten 30 m/s. Använd g = 9,82 m/s².</p><p>Vilket arbete gör luftmotståndet på bollen under färden? Ange tecken och svara i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,075 kg. Beräkna rörelseenergin före och efter samt höjdökningen.</p>\\[E_{k,1}=\\frac{0{,}075\\cdot40^2}{2}=60\\,\\mathrm J\\]\\[E_{k,2}=\\frac{0{,}075\\cdot30^2}{2}=33{,}75\\,\\mathrm J\\]\\[\\Delta h=20-1{,}2=18{,}8\\,\\mathrm m\\]\\[\\Delta E_p=0{,}075\\cdot9{,}82\\cdot18{,}8=13{,}8462\\,\\mathrm J\\]<p>Luftmotståndets arbete är ändringen i den sammanlagda mekaniska energin.</p>\\[W_\\text{luft}=33{,}75+13{,}8462-60\\approx-12{,}4\\,\\mathrm J\\]</div>",
     "id": "5.494",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": -12.403799999999999,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -139804,9 +139804,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "bil rullar uppför backe",
-    "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p><ol type=\"a\"><li>Hur mycket energi blev värme?</li><li>Hur långt uppför backen kom bilen?</li><li>Räkna med energiförlusten 300 000 J och sträckan 500 m. Hur stor är friktionskraften i genomsnitt över sträckan? Svara i N.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\dfrac{1\\,200\\cdot30{,}6^2}{2}-1\\,200\\cdot9{,}82\\cdot22{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{22{,}0}{\\sin2{,}5^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(504\\) m</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Energin som friktionen tar bort är kraftens belopp gånger sträckan.</p><div class=\"facit-matte\">\\[F=\\frac{E_\\mathrm{förlust}}s=\\frac{300000}{500}=600\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 600 N.</p></div></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En bil på 1,2 ton kör med 110 km/h vid foten av en backe som lutar 2,5° mot horisontalplanet. Motorn stängs av och bilen stannar 22,0 m högre upp. Bortse från luftmotståndet. Hur mycket mekanisk energi förlorar bilen genom friktionen? Svara i J. Svara med tre värdesiffror.</li><li>En rak backe lutar 2,5° mot horisontalplanet. En bil stiger 22,0 m i höjd. Hur långt färdas den längs backen? Svara i m. Svara med tre värdesiffror.</li><li>Friktionen tar bort 300 000 J mekanisk energi när en bil färdas 500 m. Beräkna friktionskraftens medelvärde med F = E/s. Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Massan är 1200 kg och farten 110/3,6 m/s. Beräkna startens rörelseenergi och ökningen i lägesenergi.</p>\\[E_{k,1}=\\frac{1200(110/3{,}6)^2}{2}\\approx560185{,}185\\,\\mathrm J\\]\\[\\Delta E_p=1200\\cdot9{,}82\\cdot22{,}0=259248\\,\\mathrm J\\]<p>Bilen stannar, så slutets rörelseenergi är noll. Använd oavrundad startenergi.</p>\\[\\begin{gathered}E_\\text{förlust}\\\\=\\frac{1200(110/3{,}6)^2}{2}-259248\\\\\\approx301000\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Höjdskillnaden h är den lodräta sidan och vägsträckan s är hypotenusan.</p>\\[\\sin2{,}5^\\circ=\\frac{22{,}0}{s}\\]\\[s=\\frac{22{,}0}{\\sin2{,}5^\\circ}\\approx504\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Dela energiförlusten med sträckan.</p>\\[F=\\frac Es=\\frac{300000}{500}=600\\,\\mathrm N\\]</div>",
     "id": "5.495",
     "miniräknare": true,
     "geogebra": false,
@@ -139815,12 +139815,12 @@ window.BANK = [
     "rättSvar": [
       300937.18518518505,
       504.3628837731736,
-      600
+      600.0
     ],
     "tolerans": [
-      5100.0,
-      7.57,
-      8.95
+      500.0,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -139844,13 +139844,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi blev värme?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p><p>Hur mycket energi blev värme?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\dfrac{1\\,200\\cdot30{,}6^2}{2}-1\\,200\\cdot9{,}82\\cdot22{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^{5}\\) J</p></div>",
+        "fraga": "Hur mycket mekanisk energi förlorar bilen genom friktionen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1,2 ton kör med 110 km/h vid foten av en backe som lutar 2,5° mot horisontalplanet. Motorn stängs av och bilen stannar 22,0 m högre upp. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur mycket mekanisk energi förlorar bilen genom friktionen? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1200 kg och farten 110/3,6 m/s. Beräkna startens rörelseenergi och ökningen i lägesenergi.</p>\\[E_{k,1}=\\frac{1200(110/3{,}6)^2}{2}\\approx560185{,}185\\,\\mathrm J\\]\\[\\Delta E_p=1200\\cdot9{,}82\\cdot22{,}0=259248\\,\\mathrm J\\]<p>Bilen stannar, så slutets rörelseenergi är noll. Använd oavrundad startenergi.</p>\\[\\begin{gathered}E_\\text{förlust}\\\\=\\frac{1200(110/3{,}6)^2}{2}-259248\\\\\\approx301000\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>Rörelseenergi minus lägesenergi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -139859,25 +139859,25 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt uppför backen kom bilen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1,2 ton) med 110 km/h stänger av motorn i början av en backe med lutningen 2,5° och stannar 22,0 m högre upp.</p><p>Hur långt uppför backen kom bilen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{22{,}0}{\\sin2{,}5^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(504\\) m</p></div>",
+        "fraga": "Hur långt färdas bilen längs backen? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En rak backe lutar 2,5° mot horisontalplanet. En bil stiger 22,0 m i höjd.</p><p>Hur långt färdas bilen längs backen? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdskillnaden h är den lodräta sidan och vägsträckan s är hypotenusan.</p>\\[\\sin2{,}5^\\circ=\\frac{22{,}0}{s}\\]\\[s=\\frac{22{,}0}{\\sin2{,}5^\\circ}\\approx504\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Trigonometri.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är friktionskraften i genomsnitt över sträckan? Svara i N.",
-        "t": "<p>En bil färdas 500 m uppför en backe. Friktionen omvandlar 300 000 J av bilens mekaniska energi till inre energi.</p><p>Hur stor är friktionskraften i genomsnitt över sträckan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Energin som friktionen tar bort är kraftens belopp gånger sträckan.</p><div class=\"facit-matte\">\\[F=\\frac{E_\\mathrm{förlust}}s=\\frac{300000}{500}=600\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 600 N.</p></div></div>",
+        "fraga": "Beräkna friktionskraftens medelvärde med F = E/s. Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Friktionen tar bort 300 000 J mekanisk energi när en bil färdas 500 m.</p><p>Beräkna friktionskraftens medelvärde med F = E/s. Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dela energiförlusten med sträckan.</p>\\[F=\\frac Es=\\frac{300000}{500}=600\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>\\(Q=Fs\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 2
+        "arbetsinsats": 1
       }
     ],
     "ledtrad": "<p>Energiförlusten är friktionsarbete.</p>",
@@ -139889,25 +139889,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "skidåkare uppför brant backe",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En skidåkare (60,0 kg) glider med 12,0 m/s upp för en 2,5 m hög backe med lutningen 35° och friktionstalet 0,80. Bestäm farten på toppen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{2{,}5}{\\sin35^\\circ}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W_f=0{,}80\\cdot60{,}0\\cdot9{,}82\\cos35^\\circ\\cdot s\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{60{,}0v^2}{2}=\\dfrac{60{,}0\\cdot12{,}0^2}{2}-60{,}0\\cdot9{,}82\\cdot2{,}5-W_f\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En skidåkare på 60,0 kg glider uppför en backe med startfarten 12,0 m/s. Backens höjdskillnad är 2,5 m och lutningen 35° mot horisontalplanet. Glidfriktionstalet är 0,80. Bortse från luftmotståndet och använd g = 9,82 m/s². Bestäm farten på toppen i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna startenergin, höjdökningen och backens längd.</p>\\[E_{k,1}=\\frac{60{,}0\\cdot12{,}0^2}{2}=4320\\,\\mathrm J\\]\\[\\Delta E_p=60{,}0\\cdot9{,}82\\cdot2{,}5=1473\\,\\mathrm J\\]\\[s=\\frac{2{,}5}{\\sin35^\\circ}\\approx4{,}35862\\,\\mathrm m\\]<p>Använd oavrundad sträcka i fortsättningen. Normalkraften är mg cos35°. Friktionens negativa arbete minskar rörelseenergin ytterligare.</p>\\[\\begin{gathered}E_\\text{fr}=0{,}80\\cdot60{,}0\\cdot9{,}82\\cos35^\\circ\\cdot\\frac{2{,}5}{\\sin35^\\circ}\\\\\\approx1682{,}92961\\,\\mathrm J\\end{gathered}\\]\\[E_{k,2}=4320-1473-E_\\text{fr}\\approx1164{,}07039\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2(4320-1473-E_\\text{fr})}{60{,}0}}\\approx6{,}23\\,\\mathrm{m/s}\\]</div>",
     "id": "5.496",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.229152935606072,
-    "tolerans": 0.0934,
+    "rättSvar": 6.229152935606071,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Normalkraften är \\(mg\\cos\\alpha\\).</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 3,
@@ -139919,24 +139919,24 @@ window.BANK = [
     "niva": "E",
     "typ": "rörelseenergi i vardagen",
     "poang": "(4/0/0)",
-    "t": "<p>Bestäm rörelseenergin.</p><ol type=\"a\"><li>En gepard (72 kg) med 32 m/s.</li><li>En bil på 1,2 ton kör med farten 80 km/h. Hur stor är bilens rörelseenergi? Svara i J.</li><li>En meteor (5,0 kg) med 48 km/s.</li><li>En astronaut (80,0 kg) med 27 500 km/h.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\dfrac{72\\cdot32^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\,864\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Använd massan i kg och farten i m/s. Kvadrera farten först efter omvandlingen.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=1200\\,\\mathrm{kg},\\quad v=\\frac{80}{3{,}6}\\,\\mathrm{m/s}\\\\ E_k=\\frac{1200(80/3{,}6)^2}{2}\\approx296300\\,\\mathrm J\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 296 000 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\dfrac{5{,}0\\cdot48\\,000^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\cdot10^{9}\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\dfrac{80{,}0\\cdot7\\,639^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\cdot10^{9}\\) J</p></div></div></div></div>",
+    "t": "<p>Beräkna rörelseenergin i de fyra fallen.</p><ol type=\"a\"><li>En gepard på 72 kg springer med 32 m/s. Bestäm rörelseenergin med Eₖ = mv²/2. Svara i J. Svara med tre värdesiffror.</li><li>En bil på 1,2 ton kör med 80 km/h. Bestäm rörelseenergin i J. Svara med tre värdesiffror.</li><li>En meteor på 5,0 kg har farten 48 km/s. Bestäm rörelseenergin i J. Svara med tre värdesiffror.</li><li>En astronaut på 80,0 kg har farten 27 500 km/h. Bestäm rörelseenergin i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Sätt in massan i kg och farten i m/s. Farten ska kvadreras.</p>\\[E_k=\\frac{72\\cdot32^2}{2}\\approx36900\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Omvandla först: 1,2 ton = 1200 kg och 80 km/h = 80/3,6 m/s.</p>\\[E_k=\\frac{1200(80/3{,}6)^2}{2}\\approx296000\\,\\mathrm J\\]<p><strong>c)</strong></p><p>48 km/s = 48 000 m/s. Använd farten i m/s.</p>\\[E_k=\\frac{5{,}0\\cdot48000^2}{2}=5{,}76\\cdot10^9\\,\\mathrm J\\]<p><strong>d)</strong></p><p>Omvandla farten utan att avrunda: v = 27 500/3,6 m/s.</p>\\[E_k=\\frac{80{,}0(27500/3{,}6)^2}{2}\\approx2{,}33\\cdot10^9\\,\\mathrm J\\]</div>",
     "id": "5.503",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Rörelseenergi Ek = mv²/2",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      36864,
+      36864.0,
       296296.2962962963,
       5760000000.0,
       2334104938.2716045
     ],
     "tolerans": [
-      553.0,
-      5100.0,
-      86400000.0,
-      51000000.0
+      50.0,
+      500.0,
+      5000000.0,
+      5000000.0
     ],
     "självrättning": true,
     "formaga": [
@@ -139962,13 +139962,13 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm rörelseenergin.</p>",
+    "spelIntro": "<p>Beräkna rörelseenergin i de fyra fallen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En gepard (72 kg) med 32 m/s.",
-        "t": "<p>Bestäm rörelseenergin.</p><p>En gepard (72 kg) med 32 m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\dfrac{72\\cdot32^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\,864\\) J</p></div>",
+        "fraga": "En gepard på 72 kg springer med 32 m/s. Bestäm rörelseenergin med Eₖ = mv²/2. Svara i J. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En gepard på 72 kg springer med 32 m/s. Bestäm rörelseenergin med Eₖ = mv²/2. Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sätt in massan i kg och farten i m/s. Farten ska kvadreras.</p>\\[E_k=\\frac{72\\cdot32^2}{2}\\approx36900\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -139977,42 +139977,42 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är bilens rörelseenergi? Svara i J.",
-        "t": "<p>En bil på 1,2 ton kör med farten 80 km/h.</p><p>Hur stor är bilens rörelseenergi? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Använd massan i kg och farten i m/s. Kvadrera farten först efter omvandlingen.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=1200\\,\\mathrm{kg},\\quad v=\\frac{80}{3{,}6}\\,\\mathrm{m/s}\\\\ E_k=\\frac{1200(80/3{,}6)^2}{2}\\approx296300\\,\\mathrm J\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 296 000 J.</p></div></div>",
+        "fraga": "En bil på 1,2 ton kör med 80 km/h. Bestäm rörelseenergin i J. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En bil på 1,2 ton kör med 80 km/h. Bestäm rörelseenergin i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla först: 1,2 ton = 1200 kg och 80 km/h = 80/3,6 m/s.</p>\\[E_k=\\frac{1200(80/3{,}6)^2}{2}\\approx296000\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Gör om till m/s.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En meteor (5,0 kg) med 48 km/s.",
-        "t": "<p>Bestäm rörelseenergin.</p><p>En meteor (5,0 kg) med 48 km/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\dfrac{5{,}0\\cdot48\\,000^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\cdot10^{9}\\) J</p></div>",
+        "fraga": "En meteor på 5,0 kg har farten 48 km/s. Bestäm rörelseenergin i J. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En meteor på 5,0 kg har farten 48 km/s. Bestäm rörelseenergin i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>48 km/s = 48 000 m/s. Använd farten i m/s.</p>\\[E_k=\\frac{5{,}0\\cdot48000^2}{2}=5{,}76\\cdot10^9\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En astronaut (80,0 kg) med 27 500 km/h.",
-        "t": "<p>Bestäm rörelseenergin.</p><p>En astronaut (80,0 kg) med 27 500 km/h.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\dfrac{80{,}0\\cdot7\\,639^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\cdot10^{9}\\) J</p></div>",
+        "fraga": "En astronaut på 80,0 kg har farten 27 500 km/h. Bestäm rörelseenergin i J. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En astronaut på 80,0 kg har farten 27 500 km/h. Bestäm rörelseenergin i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla farten utan att avrunda: v = 27 500/3,6 m/s.</p>\\[E_k=\\frac{80{,}0(27500/3{,}6)^2}{2}\\approx2{,}33\\cdot10^9\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Gör om till m/s.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -140020,9 +140020,9 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "fart ur rörelseenergi",
-    "poang": "(2/2/0)",
-    "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><ol type=\"a\"><li>En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten.</li><li>En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten.</li><li>Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.</li><li>Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot2{,}0}{0{,}00050}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(89\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot6{,}07\\cdot10^{-21}}{4{,}65\\cdot10^{-26}}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(511\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=25\\sqrt{20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(112\\) km/h</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=10{,}0\\sqrt{\\dfrac{65{,}0}{3\\,000}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m/s</p></li></ol></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><ol type=\"a\"><li>En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten i m/s.</li><li>En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten i m/s.</li><li>Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.</li><li>Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s? Svara i m/s.</li></ol><p>Svara med tre värdesiffror i alla numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan: 0,50 g = 0,00050 kg. Lös Eₖ = mv²/2 för farten.</p>\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot2{,}0}{0{,}00050}}\\approx89{,}4\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Lös rörelseenergins formel för farten och sätt in massan i kg och energin i J.</p>\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot6{,}07\\cdot10^{-21}}{4{,}65\\cdot10^{-26}}}\\approx511\\,\\mathrm{m/s}\\]<p><strong>c)</strong></p><p>Lastbilens massa är 20 000 kg. Lika rörelseenergi ger mᵦvᵦ² = mₗvₗ². Fartkvoten är densamma i km/h och m/s.</p>\\[v_b=v_l\\sqrt{\\frac{m_l}{m_b}}=25\\sqrt{\\frac{20000}{1000}}\\approx112\\,\\mathrm{km/h}\\]<p><strong>d)</strong></p><p>Elefantens massa är 3000 kg. Löparens rörelseenergi är</p>\\[E_k=\\frac{65{,}0\\cdot10{,}0^2}{2}=3250\\,\\mathrm J\\]<p>Sätt elefantens rörelseenergi lika med detta.</p>\\[v=\\sqrt{\\frac{2\\cdot3250}{3000}}\\approx1{,}47\\,\\mathrm{m/s}\\]</div>",
     "id": "5.504",
     "miniräknare": true,
     "geogebra": false,
@@ -140035,10 +140035,10 @@ window.BANK = [
       1.4719601443879746
     ],
     "tolerans": [
-      1.34,
-      7.66,
-      5.1,
-      0.051
+      0.05,
+      0.5,
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -140068,31 +140068,31 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten.",
-        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot2{,}0}{0{,}00050}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(89\\) m/s</p></div>",
+        "fraga": "En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten i m/s. Svara med tre värdesiffror.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En blykula (0,50 g) har rörelseenergin 2,0 J. Bestäm farten i m/s.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 0,50 g = 0,00050 kg. Lös Eₖ = mv²/2 för farten.</p>\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot2{,}0}{0{,}00050}}\\approx89{,}4\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten.",
-        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot6{,}07\\cdot10^{-21}}{4{,}65\\cdot10^{-26}}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(511\\) m/s</p></div>",
+        "fraga": "En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten i m/s. Svara med tre värdesiffror.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En kvävemolekyl (\\(4{,}65\\cdot10^{-26}\\) kg) har rörelseenergin \\(6{,}07\\cdot10^{-21}\\) J. Bestäm farten i m/s.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös rörelseenergins formel för farten och sätt in massan i kg och energin i J.</p>\\[v=\\sqrt{\\frac{2E_k}{m}}=\\sqrt{\\frac{2\\cdot6{,}07\\cdot10^{-21}}{4{,}65\\cdot10^{-26}}}\\approx511\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v=\\sqrt{\\dfrac{2E_k}{m}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.",
-        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=25\\sqrt{20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(112\\) km/h</p></div>",
+        "fraga": "Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h. Svara med tre värdesiffror.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>Vid vilken fart har en bil (1 000 kg) samma rörelseenergi som en lastbil (20 ton) med 25 km/h? Svara i km/h.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lastbilens massa är 20 000 kg. Lika rörelseenergi ger mᵦvᵦ² = mₗvₗ². Fartkvoten är densamma i km/h och m/s.</p>\\[v_b=v_l\\sqrt{\\frac{m_l}{m_b}}=25\\sqrt{\\frac{20000}{1000}}\\approx112\\,\\mathrm{km/h}\\]</div>",
         "ledtrad": "<p>\\(v\\propto\\dfrac{1}{\\sqrt m}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -140101,30 +140101,30 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s?",
-        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=10{,}0\\sqrt{\\dfrac{65{,}0}{3\\,000}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m/s</p></div>",
+        "fraga": "Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s? Svara med tre värdesiffror.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>Hur fort måste en elefant (3,0 ton) springa för att ha samma rörelseenergi som en löpare (65,0 kg) med 10,0 m/s?</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Elefantens massa är 3000 kg. Löparens rörelseenergi är</p>\\[E_k=\\frac{65{,}0\\cdot10{,}0^2}{2}=3250\\,\\mathrm J\\]<p>Sätt elefantens rörelseenergi lika med detta.</p>\\[v=\\sqrt{\\frac{2\\cdot3250}{3000}}\\approx1{,}47\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Sätt rörelseenergierna lika.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "rörelseenergi och fart",
-    "poang": "(3/1/0)",
-    "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><ol type=\"a\"><li>Bestäm massan.</li><li>Hur stor blir rörelseenergin om farten fördubblas? Svara i J.</li><li>Hur stor blir rörelseenergin om farten halveras? Svara i J.</li><li>En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{2\\cdot305}{12{,}4^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}97\\) kg</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Rörelseenergin är proportionell mot fartens kvadrat. Dubbla farten ger därför fyra gånger så stor energi.</p><div class=\"facit-matte\">\\[E_{k,2}=2^2E_{k,1}=4\\cdot305=1220\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1220 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Halva farten ger en fjärdedel av rörelseenergin, eftersom farten kvadreras.</p><div class=\"facit-matte\">\\[E_{k,2}=\\left(\\frac12\\right)^2E_{k,1}=\\frac{305}{4}=76{,}25\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 76,25 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin är proportionell mot fartens kvadrat. För att dubbla energin multipliceras farten med roten ur två.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{mv_2^2}{2}=2\\cdot\\frac{mv_1^2}{2}\\quad\\Rightarrow\\quad v_2=\\sqrt2\\,v_1=10\\sqrt2\\approx14{,}1\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 m/s.</p></div></div></div></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><ol type=\"a\"><li>Bestäm massan.</li><li>Hur stor blir rörelseenergin om farten fördubblas? Svara i J.</li><li>Hur stor blir rörelseenergin om farten halveras? Svara i J.</li><li>En bil har farten 10 m/s. Vilken fart ger dubbla rörelseenergin?</li></ol><p>Svara med tre värdesiffror i alla numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lös rörelseenergins formel för massan.</p>\\[E_k=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad m=\\frac{2E_k}{v^2}\\]\\[m=\\frac{2\\cdot305}{12{,}4^2}\\approx3{,}97\\,\\mathrm{kg}\\]<p><strong>b)</strong></p><p>Farten kvadreras i Eₖ = mv²/2. Dubbla farten ger fyra gånger så stor energi.</p>\\[E_{k,2}=2^2\\cdot305=1220\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Halva farten ger en fjärdedel av rörelseenergin.</p>\\[E_{k,2}=\\left(\\frac12\\right)^2\\cdot305=76{,}25\\,\\mathrm J\\]\\[E_{k,2}\\approx76{,}3\\,\\mathrm J\\]<p><strong>d)</strong></p><p>Samma massa och dubbel energi ger v₂² = 2v₁². Ta den positiva kvadratroten.</p>\\[v_2=\\sqrt2\\,v_1=10\\sqrt2\\approx14{,}1\\,\\mathrm{m/s}\\]</div>",
     "id": "5.505",
     "miniräknare": true,
     "geogebra": false,
@@ -140137,10 +140137,10 @@ window.BANK = [
       14.142135623730951
     ],
     "tolerans": [
-      0.0595,
-      18.3,
-      1.14,
-      0.51
+      0.005,
+      5.0,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -140171,53 +140171,53 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm massan.",
-        "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><p>Bestäm massan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{2\\cdot305}{12{,}4^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}97\\) kg</p></div>",
+        "fraga": "Bestäm massan. Svara med tre värdesiffror.",
+        "t": "<p>En sten har farten 12,4 m/s och rörelseenergin 305 J.</p><p>Bestäm massan.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös rörelseenergins formel för massan.</p>\\[E_k=\\frac{mv^2}{2}\\quad\\Rightarrow\\quad m=\\frac{2E_k}{v^2}\\]\\[m=\\frac{2\\cdot305}{12{,}4^2}\\approx3{,}97\\,\\mathrm{kg}\\]</div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor blir rörelseenergin om farten fördubblas? Svara i J.",
-        "t": "<p>En sten har rörelseenergin 305 J. Dess massa ändras inte.</p><p>Hur stor blir rörelseenergin om farten fördubblas? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Rörelseenergin är proportionell mot fartens kvadrat. Dubbla farten ger därför fyra gånger så stor energi.</p><div class=\"facit-matte\">\\[E_{k,2}=2^2E_{k,1}=4\\cdot305=1220\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1220 J.</p></div></div>",
+        "fraga": "Hur stor blir rörelseenergin om farten fördubblas? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En sten har rörelseenergin 305 J. Dess massa ändras inte.</p><p>Hur stor blir rörelseenergin om farten fördubblas? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten kvadreras i Eₖ = mv²/2. Dubbla farten ger fyra gånger så stor energi.</p>\\[E_{k,2}=2^2\\cdot305=1220\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(E_k\\propto v^2\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor blir rörelseenergin om farten halveras? Svara i J.",
-        "t": "<p>En sten har rörelseenergin 305 J. Dess massa ändras inte.</p><p>Hur stor blir rörelseenergin om farten halveras? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Halva farten ger en fjärdedel av rörelseenergin, eftersom farten kvadreras.</p><div class=\"facit-matte\">\\[E_{k,2}=\\left(\\frac12\\right)^2E_{k,1}=\\frac{305}{4}=76{,}25\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 76,25 J.</p></div></div>",
+        "fraga": "Hur stor blir rörelseenergin om farten halveras? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En sten har rörelseenergin 305 J. Dess massa ändras inte.</p><p>Hur stor blir rörelseenergin om farten halveras? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Halva farten ger en fjärdedel av rörelseenergin.</p>\\[E_{k,2}=\\left(\\frac12\\right)^2\\cdot305=76{,}25\\,\\mathrm J\\]\\[E_{k,2}\\approx76{,}3\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(E_k\\propto v^2\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Vilken fart ger dubbelt så stor rörelseenergi? Svara i m/s.",
-        "t": "<p>En bil har farten 10 m/s. Bilens massa är oförändrad.</p><p>Vilken fart ger dubbelt så stor rörelseenergi? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin är proportionell mot fartens kvadrat. För att dubbla energin multipliceras farten med roten ur två.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{mv_2^2}{2}=2\\cdot\\frac{mv_1^2}{2}\\quad\\Rightarrow\\quad v_2=\\sqrt2\\,v_1=10\\sqrt2\\approx14{,}1\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 m/s.</p></div></div>",
+        "fraga": "Vilken fart ger dubbelt så stor rörelseenergi? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En bil har farten 10 m/s. Bilens massa är oförändrad.</p><p>Vilken fart ger dubbelt så stor rörelseenergi? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Samma massa och dubbel energi ger v₂² = 2v₁². Ta den positiva kvadratroten.</p>\\[v_2=\\sqrt2\\,v_1=10\\sqrt2\\approx14{,}1\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Hur ändras fartens kvadrat när energin fördubblas?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -140226,15 +140226,15 @@ window.BANK = [
     "niva": "C",
     "typ": "månens rörelseenergi",
     "poang": "(0/1/0)",
-    "t": "<p>Månen (\\(7{,}36\\cdot10^{22}\\) kg) går i en cirkelbana med radien \\(3{,}84\\cdot10^8\\) m runt jorden med omloppstiden 27,3 dygn. Bestäm månens rörelseenergi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(v=\\dfrac{2\\pi\\cdot3{,}84\\cdot10^8}{27{,}3\\cdot86\\,400}=1\\,023\\) m/s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=\\dfrac{7{,}36\\cdot10^{22}\\cdot v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}9\\cdot10^{28}\\) J</p></div>",
+    "t": "<p>Månen har massan \\(7{,}36\\cdot10^{22}\\) kg. Anta en cirkelbana med radien \\(3{,}84\\cdot10^8\\) m och omloppstiden 27,3 dygn. Bestäm månens rörelseenergi i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla omloppstiden till sekunder. Ett dygn är 86 400 s.</p>\\[T=27{,}3\\cdot86400=2358720\\,\\mathrm s\\]<p>Farten är banans omkrets delad med omloppstiden.</p>\\[v=\\frac{2\\pi r}{T}=\\frac{2\\pi\\cdot3{,}84\\cdot10^8}{2358720}\\]<p>Sätt in den oavrundade farten i rörelseenergin.</p>\\[\\begin{gathered}E_k\\\\=\\frac{7{,}36\\cdot10^{22}}2\\left(\\frac{2\\pi\\cdot3{,}84\\cdot10^8}{2358720}\\right)^2\\\\\\approx3{,}85\\cdot10^{28}\\,\\mathrm J\\end{gathered}\\]</div>",
     "id": "5.506",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Rörelseenergi Ek = mv²/2",
     "svarstyp": "numeriskt",
     "rättSvar": 3.8505008631896638e+28,
-    "tolerans": 5.78e+26,
+    "tolerans": 5e+25,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -140254,15 +140254,15 @@ window.BANK = [
     "niva": "C",
     "typ": "kvot mellan farter",
     "poang": "(0/1/0)",
-    "t": "<p>Ett föremål (5,0 kg) har tre gånger så stor rörelseenergi som ett annat föremål (8,0 kg). Bestäm kvoten mellan det lättare och det tyngre föremålets fart.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{5{,}0v_1^2}{2}=3\\cdot\\dfrac{8{,}0v_2^2}{2}\\iff\\dfrac{v_1}{v_2}=\\sqrt{\\dfrac{24}{5{,}0}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}2\\) </p></div>",
+    "t": "<p>Ett föremål på 5,0 kg har tre gånger så stor rörelseenergi som ett föremål på 8,0 kg. Låt v₁ vara det lättare föremålets fart och v₂ det tyngres. Beräkna kvoten v₁/v₂.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv att det lättare föremålets energi är tre gånger det tyngres.</p>\\[\\frac{5{,}0v_1^2}{2}=3\\frac{8{,}0v_2^2}{2}\\]<p>Förkorta faktorn 1/2 och dela med 5,0v₂². Ta den positiva kvadratroten eftersom farterna är positiva.</p>\\[\\left(\\frac{v_1}{v_2}\\right)^2=\\frac{24}{5{,}0}\\]\\[\\frac{v_1}{v_2}=\\sqrt{\\frac{24}{5{,}0}}\\approx2{,}19\\]</div>",
     "id": "5.507",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Rörelseenergi Ek = mv²/2",
     "svarstyp": "numeriskt",
     "rättSvar": 2.1908902300206643,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -140277,23 +140277,23 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "två bilar med olika massa",
-    "poang": "(0/1/3)",
-    "t": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p><ol type=\"a\"><li>Bestäm bil A:s fart från början.</li><li>Bestäm bil B:s fart från början.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2m\\dfrac{v_A^2}{2}=\\tfrac12m\\dfrac{v_B^2}{2}\\iff v_B=2v_A\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2(v_A+8)^2=(2v_A+8)^2\\iff v_A=\\dfrac{8(\\sqrt2-1)}{2-\\sqrt2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}7\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_B=2v_A\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) m/s</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Bil A har dubbelt så stor massa som bil B men halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p><ol type=\"a\"><li>Bestäm bil A:s startfart i m/s. Svara med tre värdesiffror.</li><li>Använd 5,66 m/s som startfart för A. Bestäm bil B:s startfart i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Låt B:s massa vara m. Sambandet mellan startenergierna ger</p>\\[\\frac{2mv_A^2}{2}=\\frac12\\cdot\\frac{mv_B^2}{2}\\quad\\Rightarrow\\quad v_B=2v_A\\]<p>Efter fartökningen är energierna lika.</p>\\[2(v_A+8)^2=(2v_A+8)^2\\]<p>Farterna är positiva, så ta den positiva kvadratroten.</p>\\[\\sqrt2(v_A+8)=2v_A+8\\]\\[v_A=\\frac{8(\\sqrt2-1)}{2-\\sqrt2}\\approx5{,}66\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>A har dubbla massan men halva rörelseenergin. Använd den givna startfarten 5,66 m/s.</p>\\[\\frac{2m\\cdot5{,}66^2}{2}=\\frac12\\cdot\\frac{mv_B^2}{2}\\]\\[v_B=2\\cdot5{,}66=11{,}32\\,\\mathrm{m/s}\\]<p>Med tre värdesiffror: 11,3 m/s.</p></div>",
     "id": "5.508",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Rörelseenergi Ek = mv²/2",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.656854249492382,
-      11.313708498984765
+      5.656854249492381,
+      11.32
     ],
     "tolerans": [
-      0.0849,
-      0.51
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -140313,33 +140313,33 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p>",
+    "spelIntro": "<p>Bil A har dubbelt så stor massa som bil B men halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm bil A:s fart från början.",
-        "t": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p><p>Bestäm bil A:s fart från början.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2m\\dfrac{v_A^2}{2}=\\tfrac12m\\dfrac{v_B^2}{2}\\iff v_B=2v_A\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2(v_A+8)^2=(2v_A+8)^2\\iff v_A=\\dfrac{8(\\sqrt2-1)}{2-\\sqrt2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}7\\) m/s</p></div>",
+        "fraga": "Bestäm bil A:s startfart i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Bil A har dubbelt så stor massa som bil B men halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p><p>Bestäm bil A:s startfart i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt B:s massa vara m. Sambandet mellan startenergierna ger</p>\\[\\frac{2mv_A^2}{2}=\\frac12\\cdot\\frac{mv_B^2}{2}\\quad\\Rightarrow\\quad v_B=2v_A\\]<p>Efter fartökningen är energierna lika.</p>\\[2(v_A+8)^2=(2v_A+8)^2\\]<p>Farterna är positiva, så ta den positiva kvadratroten.</p>\\[\\sqrt2(v_A+8)=2v_A+8\\]\\[v_A=\\frac{8(\\sqrt2-1)}{2-\\sqrt2}\\approx5{,}66\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Uttryck \\(v_B\\) i \\(v_A\\).</p>",
-        "niva": "A",
-        "poang": "(0/1/2)",
-        "traningsniva": 5,
-        "arbetsinsats": 2
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm bil B:s fart från början.",
-        "t": "<p>Bil A har dubbelt så stor massa som bil B men bara halva rörelseenergin. När båda ökar farten med 8,0 m/s får de lika stor rörelseenergi.</p>Bil A har 5,7 m/s från början.<p>Bestäm bil B:s fart från början.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_B=2v_A\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) m/s</p></div>",
+        "fraga": "Bestäm bil B:s startfart i m/s med tre värdesiffror.",
+        "t": "<p>Bil A har dubbelt så stor massa som bil B men halva rörelseenergin. A:s startfart är 5,66 m/s.</p><p>Bestäm bil B:s startfart i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>A har dubbla massan men halva rörelseenergin. Använd den givna startfarten 5,66 m/s.</p>\\[\\frac{2m\\cdot5{,}66^2}{2}=\\frac12\\cdot\\frac{mv_B^2}{2}\\]\\[v_B=2\\cdot5{,}66=11{,}32\\,\\mathrm{m/s}\\]<p>Med tre värdesiffror: 11,3 m/s.</p></div>",
         "ledtrad": "<p>Uttryck \\(v_B\\) i \\(v_A\\).</p>",
-        "niva": "A",
-        "poang": "(0/0/1)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "familjNyckel": "rorelseenergi__rorelseenergi_ek_mv2_2",
     "arbetsinsats": 3,
     "spel": true
@@ -140347,11 +140347,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "ändring i rörelseenergi",
-    "poang": "(2/2/0)",
-    "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><ol type=\"a\"><li>En bil på 925 kg bromsar från 95 km/h till stillastående på en vågrät väg. Hur mycket rörelseenergi förlorar bilen? Svara i J.</li><li>En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?</li><li>En curlingsten på 18,0 kg glider med farten 12,0 m/s på vågrät is. En konstant friktionskraft bromsar stenen till vila på 45,0 m. Bortse från luftmotståndet. Hur stor är friktionskraften? Svara i N.</li><li>En målbur på 22,0 kg står stilla på ett vågrätt golv. En konstant kraft på 4,0 N skjuter den i rörelseriktningen. Bortse från friktion. Hur långt behöver buren flyttas för att få farten 0,40 m/s? Svara i m.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>När bilen stannar blir rörelseenergin noll. Förlusten är därför hela rörelseenergin före bromsningen. Omvandla först farten till m/s.</p><div class=\"facit-matte\">\\[E_\\mathrm{förlust}=\\frac{925(95/3{,}6)^2}{2}\\approx322073\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 322 000 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{57(7{,}0^2-6{,}0^2)}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(370\\) J</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Friktionen tar bort hela rörelseenergin. Dividera den energin med bromssträckan.</p><div class=\"facit-matte\">\\[\\begin{gathered}Fs=\\frac{mv^2}{2}\\\\\\Rightarrow\\  F=\\frac{18{,}0\\cdot12{,}0^2}{2\\cdot45{,}0}=28{,}8\\,\\mathrm N\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 28,8 N.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Kraftens arbete blir burens rörelseenergi eftersom inget arbete förloras till friktion.</p><div class=\"facit-matte\">\\[\\begin{gathered}Fs=\\frac{mv^2}{2}\\\\\\Rightarrow\\  s=\\frac{22{,}0\\cdot0{,}40^2}{2\\cdot4{,}0}=0{,}44\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,44 m.</p></div></div></div></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><ol type=\"a\"><li>En bil på 925 kg bromsar från 95 km/h till stillastående på en vågrät väg. Hur mycket rörelseenergi förlorar bilen? Svara i J.</li><li>En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?</li><li>En curlingsten på 18,0 kg glider med farten 12,0 m/s på vågrät is. En konstant friktionskraft bromsar stenen till vila på 45,0 m. Bortse från luftmotståndet. Hur stor är friktionskraften? Svara i N.</li><li>En målbur på 22,0 kg står stilla på ett vågrätt golv. En konstant kraft på 4,0 N skjuter den i rörelseriktningen. Bortse från friktion. Hur långt behöver buren flyttas för att få farten 0,40 m/s? Svara i m.</li></ol><p>Svara med tre värdesiffror i alla numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>När bilen stannar blir rörelseenergin noll. Förlusten är därför hela rörelseenergin före bromsningen. Omvandla först farten till m/s.</p><div class=\"facit-matte\">\\[E_\\mathrm{förlust}=\\frac{925(95/3{,}6)^2}{2}\\approx322073\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 322 000 J.</p></div><p><strong>b)</strong></p><p>Beräkna rörelseenergin före och efter fartökningen.</p>\\[E_{k,1}=\\frac{57\\cdot6{,}0^2}{2}=1026\\,\\mathrm J\\]\\[E_{k,2}=\\frac{57\\cdot7{,}0^2}{2}=1396{,}5\\,\\mathrm J\\]<p>Det sammanlagda arbetet är ökningen i rörelseenergi.</p>\\[W=1396{,}5-1026\\approx371\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Stenen stannar. Hela startenergin omvandlas genom friktion.</p>\\[E_{k,1}=\\frac{18{,}0\\cdot12{,}0^2}{2}=1296\\,\\mathrm J\\]<p>Friktionens arbete är −Fs. Dess storlek fås genom att dela energiförlusten med sträckan.</p>\\[F=\\frac{1296}{45{,}0}=28{,}8\\,\\mathrm N\\]<p><strong>d)</strong></p><p>Buren startar från vila. Kraftens arbete blir rörelseenergi.</p>\\[E_k=\\frac{22{,}0\\cdot0{,}40^2}{2}=1{,}76\\,\\mathrm J\\]\\[Fs=E_k\\quad\\Rightarrow\\quad s=\\frac{1{,}76}{4{,}0}=0{,}440\\,\\mathrm m\\]</div>",
     "id": "5.509",
     "miniräknare": true,
     "geogebra": false,
@@ -140361,13 +140361,13 @@ window.BANK = [
       322072.7237654321,
       370.5,
       28.8,
-      0.44
+      0.44000000000000006
     ],
     "tolerans": [
-      5100.0,
-      5.56,
-      0.432,
-      0.0066
+      500.0,
+      0.5,
+      0.05,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -140398,63 +140398,63 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket rörelseenergi förlorar bilen? Svara i J.",
-        "t": "<p>En bil på 925 kg bromsar från 95 km/h till stillastående på en vågrät väg.</p><p>Hur mycket rörelseenergi förlorar bilen? Svara i J.</p>",
+        "fraga": "Hur mycket rörelseenergi förlorar bilen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 925 kg bromsar från 95 km/h till stillastående på en vågrät väg.</p><p>Hur mycket rörelseenergi förlorar bilen? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>När bilen stannar blir rörelseenergin noll. Förlusten är därför hela rörelseenergin före bromsningen. Omvandla först farten till m/s.</p><div class=\"facit-matte\">\\[E_\\mathrm{förlust}=\\frac{925(95/3{,}6)^2}{2}\\approx322073\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 322 000 J.</p></div></div>",
-        "ledtrad": "<p>Arbetet = ändringen i rörelseenergi.</p>",
+        "ledtrad": "<p>Energiförlusten är rörelseenergin före stoppet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?",
-        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{57(7{,}0^2-6{,}0^2)}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(370\\) J</p></div>",
-        "ledtrad": "<p>Arbetet = ändringen i rörelseenergi.</p>",
+        "fraga": "En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet? Svara med tre värdesiffror.",
+        "t": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En löpare (57 kg) ökar farten från 6,0 m/s till 7,0 m/s. Hur stort är accelerationsarbetet?</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna rörelseenergin före och efter fartökningen.</p>\\[E_{k,1}=\\frac{57\\cdot6{,}0^2}{2}=1026\\,\\mathrm J\\]\\[E_{k,2}=\\frac{57\\cdot7{,}0^2}{2}=1396{,}5\\,\\mathrm J\\]<p>Det sammanlagda arbetet är ökningen i rörelseenergi.</p>\\[W=1396{,}5-1026\\approx371\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Nettoarbetet är rörelseenergin efter minus rörelseenergin före.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är friktionskraften? Svara i N.",
-        "t": "<p>En curlingsten på 18,0 kg glider med farten 12,0 m/s på vågrät is. En konstant friktionskraft bromsar stenen till vila på 45,0 m. Bortse från luftmotståndet.</p><p>Hur stor är friktionskraften? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Friktionen tar bort hela rörelseenergin. Dividera den energin med bromssträckan.</p><div class=\"facit-matte\">\\[\\begin{gathered}Fs=\\frac{mv^2}{2}\\\\\\Rightarrow\\  F=\\frac{18{,}0\\cdot12{,}0^2}{2\\cdot45{,}0}=28{,}8\\,\\mathrm N\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 28,8 N.</p></div></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur stor är friktionskraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En curlingsten på 18,0 kg glider med farten 12,0 m/s på vågrät is. En konstant friktionskraft bromsar stenen till vila på 45,0 m. Bortse från luftmotståndet.</p><p>Hur stor är friktionskraften? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stenen stannar. Hela startenergin omvandlas genom friktion.</p>\\[E_{k,1}=\\frac{18{,}0\\cdot12{,}0^2}{2}=1296\\,\\mathrm J\\]<p>Friktionens arbete är −Fs. Dess storlek fås genom att dela energiförlusten med sträckan.</p>\\[F=\\frac{1296}{45{,}0}=28{,}8\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Kraftens storlek gånger stoppsträckan är rörelseenergin som tas bort.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Hur långt behöver buren flyttas för att få farten 0,40 m/s? Svara i m.",
-        "t": "<p>En målbur på 22,0 kg står stilla på ett vågrätt golv. En konstant kraft på 4,0 N skjuter den i rörelseriktningen. Bortse från friktion.</p><p>Hur långt behöver buren flyttas för att få farten 0,40 m/s? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Kraftens arbete blir burens rörelseenergi eftersom inget arbete förloras till friktion.</p><div class=\"facit-matte\">\\[\\begin{gathered}Fs=\\frac{mv^2}{2}\\\\\\Rightarrow\\  s=\\frac{22{,}0\\cdot0{,}40^2}{2\\cdot4{,}0}=0{,}44\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,44 m.</p></div></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur långt behöver buren flyttas för att få farten 0,40 m/s? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En målbur på 22,0 kg står stilla på ett vågrätt golv. En konstant kraft på 4,0 N skjuter den i rörelseriktningen. Bortse från friktion.</p><p>Hur långt behöver buren flyttas för att få farten 0,40 m/s? Svara i m.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Buren startar från vila. Kraftens arbete blir rörelseenergi.</p>\\[E_k=\\frac{22{,}0\\cdot0{,}40^2}{2}=1{,}76\\,\\mathrm J\\]\\[Fs=E_k\\quad\\Rightarrow\\quad s=\\frac{1{,}76}{4{,}0}=0{,}440\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Kraftens positiva arbete ger ökningen i rörelseenergi.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Arbete = ändring i rörelseenergi.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "basebollar",
-    "poang": "(0/2/0)",
-    "t": "<p>En baseboll har massan 145 g. Bortse från ändringar i lägesenergi. Beräkna medelkrafterna över de angivna sträckorna.</p><ol type=\"a\"><li>Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.</li><li>Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145\\cdot32{,}0^2}{2\\cdot0{,}250}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(297\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145(39{,}0^2-36{,}2^2)}{2\\cdot18{,}4}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}830\\) N</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En baseboll har massan 145 g. Bortse från ändringar i lägesenergi. Beräkna medelkrafterna över de angivna sträckorna.</p><ol type=\"a\"><li>Bollen har 32,0 m/s och fångas i en handske som förflyttas 25,0 cm. Bestäm den genomsnittliga kraften.</li><li>Bollen saktar in från 39,0 m/s till 36,2 m/s på 18,4 m. Bestäm luftmotståndets medelkraft.</li></ol><p>Svara med tre värdesiffror i alla numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan till 0,145 kg och sträckan till 0,250 m. Bollen stannar, så energiförlusten är hela startenergin.</p>\\[E_k=\\frac{0{,}145\\cdot32{,}0^2}{2}=74{,}24\\,\\mathrm J\\]<p>Bromskraftens arbete är negativt. Dess storlek är energiförlusten delad med stoppsträckan.</p>\\[F=\\frac{74{,}24}{0{,}250}\\approx297\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Massan är 0,145 kg. Beräkna energin före och efter.</p>\\[E_{k,1}=\\frac{0{,}145\\cdot39{,}0^2}{2}=110{,}2725\\,\\mathrm J\\]\\[E_{k,2}=\\frac{0{,}145\\cdot36{,}2^2}{2}=95{,}0069\\,\\mathrm J\\]<p>Luftmotståndets storlek fås från energiförlusten per meter.</p>\\[F=\\frac{110{,}2725-95{,}0069}{18{,}4}\\approx0{,}830\\,\\mathrm N\\]</div>",
     "id": "5.510",
     "miniräknare": true,
     "geogebra": false,
@@ -140465,8 +140465,8 @@ window.BANK = [
       0.8296521739130424
     ],
     "tolerans": [
-      4.45,
-      0.0124
+      0.5,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -140491,29 +140491,29 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är handskens bromskraft i genomsnitt över sträckan? Svara i N.",
-        "t": "<p>En baseboll på 145 g fångas med en handske. Farten minskar från 32,0 m/s till noll medan handsken förflyttas 25,0 cm i bollens rörelseriktning. Bortse från ändringen i lägesenergi.</p><p>Hur stor är handskens bromskraft i genomsnitt över sträckan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145\\cdot32{,}0^2}{2\\cdot0{,}250}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(297\\) N</p></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Hur stor är handskens bromskraft i genomsnitt över sträckan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En baseboll på 145 g fångas med en handske. Farten minskar från 32,0 m/s till noll medan handsken förflyttas 25,0 cm i bollens rörelseriktning. Bortse från ändringen i lägesenergi.</p><p>Hur stor är handskens bromskraft i genomsnitt över sträckan? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan till 0,145 kg och sträckan till 0,250 m. Bollen stannar, så energiförlusten är hela startenergin.</p>\\[E_k=\\frac{0{,}145\\cdot32{,}0^2}{2}=74{,}24\\,\\mathrm J\\]<p>Bromskraftens arbete är negativt. Dess storlek är energiförlusten delad med stoppsträckan.</p>\\[F=\\frac{74{,}24}{0{,}250}\\approx297\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Bromskraften tar rörelseenergi. Använd kraftens storlek gånger stoppsträckan = energin före bromsningen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är luftmotståndskraften i genomsnitt över sträckan? Svara i N.",
-        "t": "<p>En baseboll på 145 g minskar farten från 39,0 m/s till 36,2 m/s under en sträcka på 18,4 m. Bortse från ändringen i lägesenergi.</p><p>Hur stor är luftmotståndskraften i genomsnitt över sträckan? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}145(39{,}0^2-36{,}2^2)}{2\\cdot18{,}4}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}830\\) N</p></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Hur stor är luftmotståndskraften i genomsnitt över sträckan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En baseboll på 145 g minskar farten från 39,0 m/s till 36,2 m/s under en sträcka på 18,4 m. Bortse från ändringen i lägesenergi.</p><p>Hur stor är luftmotståndskraften i genomsnitt över sträckan? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,145 kg. Beräkna energin före och efter.</p>\\[E_{k,1}=\\frac{0{,}145\\cdot39{,}0^2}{2}=110{,}2725\\,\\mathrm J\\]\\[E_{k,2}=\\frac{0{,}145\\cdot36{,}2^2}{2}=95{,}0069\\,\\mathrm J\\]<p>Luftmotståndets storlek fås från energiförlusten per meter.</p>\\[F=\\frac{110{,}2725-95{,}0069}{18{,}4}\\approx0{,}830\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Beräkna energin före minus energin efter. Dividera med sträckan för att få kraftens storlek.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Arbete = ändring i rörelseenergi.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
     "spel": true
@@ -140521,11 +140521,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "flygplan startar",
-    "poang": "(2/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><ol type=\"a\"><li>Hur stort accelerationsarbete krävs?</li><li>Räkna med arbetet 164 MJ. Hur stor är den sammanlagda framåtriktade kraften i genomsnitt över sträckan? Svara i N.</li><li>Ett flygplan behöver 164 MJ rörelseenergi för att lyfta. Två motorer ger en konstant framåtriktad kraft på 117 kN vardera. Bortse från motstånd. Hur lång startsträcka behövs? Svara i m.</li><li>Hur stort lyftarbete krävs till marschhöjden 10,5 km?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{68\\,000\\cdot69{,}4^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}64\\cdot10^{8}\\) J \\(=164\\) MJ</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Den sammanlagda kraftens arbete är ökningen i rörelseenergi. Omvandla MJ till J och km till m.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac Ws=\\frac{164\\cdot10^6}{1200}\\approx136667\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 137 000 N.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Motorernas krafter adderas. Deras sammanlagda arbete måste ge flygplanet 164 MJ rörelseenergi.</p><div class=\"facit-matte\">\\[s=\\frac WF=\\frac{164\\cdot10^6}{2\\cdot117\\cdot10^3}\\approx701\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 701 m.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid oförändrad fart går lyftarbetet till ökad lägesenergi. Höjdskillnaden är 10,5 km = 10 500 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh=68000\\cdot9{,}82\\cdot10500=7011480000\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7,0 miljarder J.</p></div></div></div></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><ol type=\"a\"><li>Hur stort accelerationsarbete krävs?</li><li>Räkna med arbetet 164 MJ. Hur stor är den sammanlagda framåtriktade kraften i genomsnitt över sträckan? Svara i N.</li><li>Ett flygplan startar från vila och behöver 164 MJ rörelseenergi för att lyfta. Två motorer ger en konstant framåtriktad kraft på 117 kN vardera. Bortse från motstånd. Hur lång startsträcka behövs? Svara i m.</li><li>Ett flygplan på 68 000 kg stiger 10,5 km med oförändrad fart. Bortse från motstånd. Hur stort arbete går till ökad lägesenergi? Svara i J.</li></ol><p>Svara med tre värdesiffror i alla numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Startenergin är noll. Omvandla farten utan att avrunda: v = 250/3,6 m/s.</p>\\[\\begin{gathered}W=\\Delta E_k\\\\=\\frac{68000(250/3{,}6)^2}{2}\\\\\\approx1{,}64\\cdot10^8\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den sammanlagda kraftens arbete är ökningen i rörelseenergi. Omvandla MJ till J och km till m.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac Ws=\\frac{164\\cdot10^6}{1200}\\approx136667\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 137 000 N.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Motorernas krafter adderas. Deras sammanlagda arbete måste ge flygplanet 164 MJ rörelseenergi.</p><div class=\"facit-matte\">\\[s=\\frac WF=\\frac{164\\cdot10^6}{2\\cdot117\\cdot10^3}\\approx701\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 701 m.</p></div><p><strong>d)</strong></p><p>Oförändrad fart innebär att rörelseenergin inte ändras. Arbetet går till lägesenergin. Höjdökningen är 10,5 km = 10 500 m.</p>\\[\\begin{gathered}W=mgh=68000\\cdot9{,}82\\cdot10500\\\\\\approx7{,}01\\cdot10^9\\,\\mathrm J\\end{gathered}\\]</div>",
     "id": "5.511",
     "miniräknare": true,
     "geogebra": false,
@@ -140538,10 +140538,10 @@ window.BANK = [
       7011480000.0
     ],
     "tolerans": [
-      2460000.0,
-      2050.0,
-      10.5,
-      105000000.0
+      500000.0,
+      500.0,
+      0.5,
+      5000000.0
     ],
     "självrättning": true,
     "formaga": [
@@ -140572,53 +140572,53 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort accelerationsarbete krävs?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Ett flygplan (68 000 kg) accelererar från 0 till 250 km/h på 1,20 km.</p><p>Hur stort accelerationsarbete krävs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{68\\,000\\cdot69{,}4^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}64\\cdot10^{8}\\) J \\(=164\\) MJ</p></div>",
+        "fraga": "Hur stort sammanlagt arbete krävs för fartökningen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Ett flygplan på 68 000 kg accelererar från vila till 250 km/h.</p><p>Hur stort sammanlagt arbete krävs för fartökningen? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startenergin är noll. Omvandla farten utan att avrunda: v = 250/3,6 m/s.</p>\\[\\begin{gathered}W=\\Delta E_k\\\\=\\frac{68000(250/3{,}6)^2}{2}\\\\\\approx1{,}64\\cdot10^8\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är den sammanlagda framåtriktade kraften i genomsnitt över sträckan? Svara i N.",
-        "t": "<p>Ett flygplan får 164 MJ rörelseenergi under en startsträcka på 1,20 km.</p><p>Hur stor är den sammanlagda framåtriktade kraften i genomsnitt över sträckan? Svara i N.</p>",
+        "fraga": "Hur stor är den sammanlagda framåtriktade kraften i genomsnitt över sträckan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Ett flygplan får 164 MJ rörelseenergi under en startsträcka på 1,20 km.</p><p>Hur stor är den sammanlagda framåtriktade kraften i genomsnitt över sträckan? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Den sammanlagda kraftens arbete är ökningen i rörelseenergi. Omvandla MJ till J och km till m.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac Ws=\\frac{164\\cdot10^6}{1200}\\approx136667\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 137 000 N.</p></div></div>",
         "ledtrad": "<p>\\(W=Fs\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång startsträcka behövs? Svara i m.",
-        "t": "<p>Ett flygplan behöver 164 MJ rörelseenergi för att lyfta. Två motorer ger en konstant framåtriktad kraft på 117 kN vardera. Bortse från motstånd.</p><p>Hur lång startsträcka behövs? Svara i m.</p>",
+        "fraga": "Hur lång startsträcka behövs? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Ett flygplan startar från vila och behöver 164 MJ rörelseenergi för att lyfta. Två motorer ger en konstant framåtriktad kraft på 117 kN vardera. Bortse från motstånd.</p><p>Hur lång startsträcka behövs? Svara i m.</p><p>Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Motorernas krafter adderas. Deras sammanlagda arbete måste ge flygplanet 164 MJ rörelseenergi.</p><div class=\"facit-matte\">\\[s=\\frac WF=\\frac{164\\cdot10^6}{2\\cdot117\\cdot10^3}\\approx701\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 701 m.</p></div></div>",
         "ledtrad": "<p>\\(W=Fs\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Hur stort arbete krävs för ökningen i lägesenergi? Svara i J.",
-        "t": "<p>Ett flygplan på 68 000 kg stiger 10,5 km med oförändrad fart. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stort arbete krävs för ökningen i lägesenergi? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid oförändrad fart går lyftarbetet till ökad lägesenergi. Höjdskillnaden är 10,5 km = 10 500 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh=68000\\cdot9{,}82\\cdot10500=7011480000\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7,0 miljarder J.</p></div></div>",
+        "fraga": "Hur stort arbete krävs för ökningen i lägesenergi? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Ett flygplan på 68 000 kg stiger 10,5 km med oförändrad fart. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stort arbete krävs för ökningen i lägesenergi? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Oförändrad fart innebär att rörelseenergin inte ändras. Arbetet går till lägesenergin. Höjdökningen är 10,5 km = 10 500 m.</p>\\[\\begin{gathered}W=mgh=68000\\cdot9{,}82\\cdot10500\\\\\\approx7{,}01\\cdot10^9\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Arbete = ändring i energi.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -140627,15 +140627,15 @@ window.BANK = [
     "niva": "E",
     "typ": "bob skjuts igång",
     "poang": "(1/0/0)",
-    "t": "<p>En bob (390 kg) puttas från vila med den resulterande kraften 270 N under 50 m. Bestäm farten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[270\\cdot50=\\dfrac{390v^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}3\\) m/s</p></div>",
+    "t": "<p>En bob på 390 kg startar från vila. Den sammanlagda kraften är konstant 270 N i rörelseriktningen under 50 m. Vilken fart får boben i m/s?</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det sammanlagda arbetet ökar rörelseenergin.</p>\\[W=Fs=270\\cdot50=13500\\,\\mathrm J\\]<p>Startenergin är noll. Lös rörelseenergins formel för farten.</p>\\[v=\\sqrt{\\frac{2W}{m}}=\\sqrt{\\frac{2\\cdot13500}{390}}\\approx8{,}32\\,\\mathrm{m/s}\\]</div>",
     "id": "5.512",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 8.320502943378436,
-    "tolerans": 0.125,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -140646,7 +140646,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -140655,20 +140655,20 @@ window.BANK = [
     "niva": "E",
     "typ": "ökning i rörelseenergi",
     "poang": "(2/0/0)",
-    "t": "<p>En bil (1 000 kg) ökar farten med 5,0 m/s.</p><ol type=\"a\"><li>En bil på 1000 kg ökar farten från 5,0 m/s till 10,0 m/s. Hur mycket ökar bilens rörelseenergi? Svara i J.</li><li>En bil på 1000 kg ökar farten från 10,0 m/s till 15,0 m/s. Hur mycket ökar bilens rörelseenergi? Svara i J.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Beräkna skillnaden mellan rörelseenergin efter och före fartökningen. Kvadrera de två farterna var för sig.</p><div class=\"facit-matte\">\\[\\Delta E_k=\\frac{m(v_2^2-v_1^2)}2=\\frac{1000(10{,}0^2-5{,}0^2)}2=37500\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 37 500 J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Beräkna skillnaden mellan rörelseenergin efter och före fartökningen. Samma fartökning kan kräva olika stor energi beroende på startfarten.</p><div class=\"facit-matte\">\\[\\Delta E_k=\\frac{1000(15{,}0^2-10{,}0^2)}2=62500\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 62 500 J.</p></div></div></div></div></div>",
+    "t": "<p>Jämför två fartökningar för en bil på 1000 kg.</p><ol type=\"a\"><li>En bil på 1000 kg ökar farten från 5,0 m/s till 10,0 m/s. Hur mycket ökar bilens rörelseenergi? Svara i J.</li><li>En bil på 1000 kg ökar farten från 10,0 m/s till 15,0 m/s. Hur mycket ökar bilens rörelseenergi? Svara i J.</li></ol><p>Svara med tre värdesiffror i alla numeriska svar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna rörelseenergin före och efter.</p>\\[E_{k,1}=\\frac{1000\\cdot5{,}0^2}{2}=12500\\,\\mathrm J\\]\\[E_{k,2}=\\frac{1000\\cdot10{,}0^2}{2}=50000\\,\\mathrm J\\]\\[\\Delta E_k=50000-12500=37500\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Beräkna rörelseenergin före och efter. Samma fartökning kräver mer energi när startfarten är högre.</p>\\[E_{k,1}=\\frac{1000\\cdot10{,}0^2}{2}=50000\\,\\mathrm J\\]\\[E_{k,2}=\\frac{1000\\cdot15{,}0^2}{2}=112500\\,\\mathrm J\\]\\[\\Delta E_k=112500-50000=62500\\,\\mathrm J\\]</div>",
     "id": "5.513",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      37500,
-      62500
+      37500.0,
+      62500.0
     ],
     "tolerans": [
-      562.0,
-      938.0
+      50.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -140693,25 +140693,25 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket ökar bilens rörelseenergi? Svara i J.",
-        "t": "<p>En bil på 1000 kg ökar farten från 5,0 m/s till 10,0 m/s.</p><p>Hur mycket ökar bilens rörelseenergi? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Beräkna skillnaden mellan rörelseenergin efter och före fartökningen. Kvadrera de två farterna var för sig.</p><div class=\"facit-matte\">\\[\\Delta E_k=\\frac{m(v_2^2-v_1^2)}2=\\frac{1000(10{,}0^2-5{,}0^2)}2=37500\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 37 500 J.</p></div></div>",
+        "fraga": "Hur mycket ökar bilens rörelseenergi? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1000 kg ökar farten från 5,0 m/s till 10,0 m/s.</p><p>Hur mycket ökar bilens rörelseenergi? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna rörelseenergin före och efter.</p>\\[E_{k,1}=\\frac{1000\\cdot5{,}0^2}{2}=12500\\,\\mathrm J\\]\\[E_{k,2}=\\frac{1000\\cdot10{,}0^2}{2}=50000\\,\\mathrm J\\]\\[\\Delta E_k=50000-12500=37500\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket ökar bilens rörelseenergi? Svara i J.",
-        "t": "<p>En bil på 1000 kg ökar farten från 10,0 m/s till 15,0 m/s.</p><p>Hur mycket ökar bilens rörelseenergi? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Beräkna skillnaden mellan rörelseenergin efter och före fartökningen. Samma fartökning kan kräva olika stor energi beroende på startfarten.</p><div class=\"facit-matte\">\\[\\Delta E_k=\\frac{1000(15{,}0^2-10{,}0^2)}2=62500\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 62 500 J.</p></div></div>",
+        "fraga": "Hur mycket ökar bilens rörelseenergi? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1000 kg ökar farten från 10,0 m/s till 15,0 m/s.</p><p>Hur mycket ökar bilens rörelseenergi? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna rörelseenergin före och efter. Samma fartökning kräver mer energi när startfarten är högre.</p>\\[E_{k,1}=\\frac{1000\\cdot10{,}0^2}{2}=50000\\,\\mathrm J\\]\\[E_{k,2}=\\frac{1000\\cdot15{,}0^2}{2}=112500\\,\\mathrm J\\]\\[\\Delta E_k=112500-50000=62500\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Samma fartökning ger olika energiökning.</p>",
@@ -140723,11 +140723,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "C",
+    "niva": "E",
     "typ": "bromskraft ur bromssträcka",
-    "poang": "(0/4/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En bil (1 250 kg) bromsar från 21 m/s till stillastående på 65 m. Bestäm friktionskraften.</li><li>Bestäm friktionstalet.</li><li>Bromsspår är 78 m långa och friktionstalet 0,30. Bestäm farten före inbromsningen.</li><li>En gevärskula (15 g, 310 m/s) går in 15 cm i ett träd. Bestäm den genomsnittliga bromskraften.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{1\\,250\\cdot21^2}{2\\cdot65}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,240\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På en vågrät väg är normalkraften lika stor som tyngdkraften. Dela friktionskraften med normalkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\frac{F_\\mathrm{fr}}{mg}=\\frac{4240}{1250\\cdot9{,}82}\\approx0{,}345\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,35.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) m/s</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}015\\cdot310^2}{2\\cdot0{,}15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,805\\) N</p></div></div></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En bil på 1250 kg bromsar från 21 m/s till vila på 65 m på en vågrät väg. Friktionen är den enda bromsande kraften. Hur stor är friktionskraftens medelvärde i N? Svara med tre värdesiffror.</li><li>En bil på 1250 kg bromsas av friktion på en vågrät väg. Friktionskraften är 4,24 kN. Hur stort är friktionstalet? Svara med tre värdesiffror.</li><li>En bil bromsar till vila på en vågrät väg och lämnar 78 m långa bromsspår. Glidfriktionstalet är 0,30. Bortse från annat motstånd. Vilken fart hade bilen före bromsningen? Svara i m/s. Svara med tre värdesiffror.</li><li>En gevärskula på 15 g har farten 310 m/s och stannar efter att ha trängt 15 cm in i ett träd. Bortse från ändringen i lägesenergi. Hur stor är bromskraftens medelvärde i N? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Bilen stannar, så friktionen tar bort hela rörelseenergin.</p>\\[E_k=\\frac{1250\\cdot21^2}{2}=275625\\,\\mathrm J\\]\\[F=\\frac{E_k}{s}=\\frac{275625}{65}\\approx4240\\,\\mathrm N\\]<p><strong>b)</strong></p><p>4,24 kN = 4240 N. På vågrät väg är normalkraften N = mg.</p>\\[N=1250\\cdot9{,}82=12275\\,\\mathrm N\\]\\[\\mu=\\frac{F_\\text{fr}}N=\\frac{4240}{12275}\\approx0{,}345\\]<p><strong>c)</strong></p><p>Friktionen tar bort hela rörelseenergin: μmgs = mv²/2. Förkorta massan och lös för farten.</p>\\[\\begin{gathered}v=\\sqrt{2\\mu gs}\\\\=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\\\\\approx21{,}4\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>d)</strong></p><p>Massan är 0,015 kg och stoppsträckan 0,15 m.</p>\\[E_k=\\frac{0{,}015\\cdot310^2}{2}=720{,}75\\,\\mathrm J\\]<p>Bromskraftens medelvärde är energiförlusten delad med stoppsträckan.</p>\\[F=\\frac{720{,}75}{0{,}15}\\approx4810\\,\\mathrm N\\]</div>",
     "id": "5.514",
     "miniräknare": true,
     "geogebra": false,
@@ -140735,15 +140735,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       4240.384615384615,
-      0.3454488485038383,
+      0.34541751527494907,
       21.43772375976517,
       4805.0
     ],
     "tolerans": [
-      63.6,
-      0.00518,
-      0.51,
-      72.1
+      5.0,
+      0.0005,
+      0.05,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -140770,57 +140770,57 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bil (1 250 kg) bromsar från 21 m/s till stillastående på 65 m. Bestäm friktionskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En bil (1 250 kg) bromsar från 21 m/s till stillastående på 65 m. Bestäm friktionskraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{1\\,250\\cdot21^2}{2\\cdot65}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,240\\) N</p></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Hur stor är friktionskraftens medelvärde i N? Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1250 kg bromsar från 21 m/s till vila på 65 m på en vågrät väg. Friktionen är den enda bromsande kraften.</p><p>Hur stor är friktionskraftens medelvärde i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bilen stannar, så friktionen tar bort hela rörelseenergin.</p>\\[E_k=\\frac{1250\\cdot21^2}{2}=275625\\,\\mathrm J\\]\\[F=\\frac{E_k}{s}=\\frac{275625}{65}\\approx4240\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Beräkna rörelseenergin som förloras och dividera med bromssträckan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort är friktionstalet?",
-        "t": "<p>En bil på 1250 kg bromsas av friktion på en vågrät väg. Friktionskraften är 4,24 kN. Använd g = 9,82 m/s².</p><p>Hur stort är friktionstalet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På en vågrät väg är normalkraften lika stor som tyngdkraften. Dela friktionskraften med normalkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\frac{F_\\mathrm{fr}}{mg}=\\frac{4240}{1250\\cdot9{,}82}\\approx0{,}345\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,35.</p></div></div>",
-        "ledtrad": "<p>Använd bilens massa för att beräkna normalkraften.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur stort är friktionstalet? Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1250 kg bromsas av friktion på en vågrät väg. Friktionskraften är 4,24 kN. Använd g = 9,82 m/s².</p><p>Hur stort är friktionstalet? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>4,24 kN = 4240 N. På vågrät väg är normalkraften N = mg.</p>\\[N=1250\\cdot9{,}82=12275\\,\\mathrm N\\]\\[\\mu=\\frac{F_\\text{fr}}N=\\frac{4240}{12275}\\approx0{,}345\\]</div>",
+        "ledtrad": "<p>På vågrät väg är normalkraften mg.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Bromsspår är 78 m långa och friktionstalet 0,30. Bestäm farten före inbromsningen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>Bromsspår är 78 m långa och friktionstalet 0,30. Bestäm farten före inbromsningen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) m/s</p></div>",
-        "ledtrad": "<p>Massan tar ut sig.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Vilken fart hade bilen före bromsningen? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En bil bromsar till vila på en vågrät väg och lämnar 78 m långa bromsspår. Glidfriktionstalet är 0,30. Bortse från annat motstånd. Använd g = 9,82 m/s².</p><p>Vilken fart hade bilen före bromsningen? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen tar bort hela rörelseenergin: μmgs = mv²/2. Förkorta massan och lös för farten.</p>\\[\\begin{gathered}v=\\sqrt{2\\mu gs}\\\\=\\sqrt{2\\cdot0{,}30\\cdot9{,}82\\cdot78}\\\\\\approx21{,}4\\,\\mathrm{m/s}\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Utan annat motstånd gäller v² = 2μgs före stoppet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En gevärskula (15 g, 310 m/s) går in 15 cm i ett träd. Bestäm den genomsnittliga bromskraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En gevärskula (15 g, 310 m/s) går in 15 cm i ett träd. Bestäm den genomsnittliga bromskraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}015\\cdot310^2}{2\\cdot0{,}15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,805\\) N</p></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Hur stor är bromskraftens medelvärde i N? Svara med tre värdesiffror.",
+        "t": "<p>En gevärskula på 15 g har farten 310 m/s och stannar efter att ha trängt 15 cm in i ett träd. Bortse från ändringen i lägesenergi.</p><p>Hur stor är bromskraftens medelvärde i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,015 kg och stoppsträckan 0,15 m.</p>\\[E_k=\\frac{0{,}015\\cdot310^2}{2}=720{,}75\\,\\mathrm J\\]<p>Bromskraftens medelvärde är energiförlusten delad med stoppsträckan.</p>\\[F=\\frac{720{,}75}{0{,}15}\\approx4810\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Beräkna kulans rörelseenergi och dividera med stoppsträckan.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Bromsarbete = rörelseenergi.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -140829,8 +140829,8 @@ window.BANK = [
     "niva": "E",
     "typ": "krock och boxning",
     "poang": "(4/0/0)",
-    "t": "<p>Bestäm den genomsnittliga bromskraften.</p><ol type=\"a\"><li>En bil (950 kg) med 90,0 km/h stannar mjukt på 120 m.</li><li>Samma bil krockar med ett räcke och stannar på 2,0 m.</li><li>En boxhandske med hand (7,0 kg) med 10,0 m/s stannar på 7,50 cm.</li><li>Utan handske stannar handen på 2,00 cm.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot120}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,474\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0750}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,667\\) N</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Handens rörelseenergi försvinner under inbromsningen. Dividera den med bromssträckan, som är 0,0200 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{mv^2}{2s}=\\frac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}=17500\\,\\mathrm{N}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 17 500 N.</p></div></div></div>",
+    "t": "<p>Bortse från ändringar i lägesenergi.</p><ol type=\"a\"><li>En bil på 950 kg kör med 90,0 km/h på en vågrät väg och bromsar till vila på 120 m. Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</li><li>En bil på 950 kg kör med 90,0 km/h på en vågrät väg och stannar på 2,0 m när den krockar med ett räcke. Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</li><li>I en förenklad modell bromsas en massa på 7,0 kg från 10,0 m/s till vila på 7,50 cm. Modellen används för ett slag med en boxhandske. Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</li><li>I en förenklad modell bromsas en massa på 7,0 kg från 10,0 m/s till vila på 2,00 cm. Modellen används för ett slag utan boxhandske. Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>90,0 km/h = 25,0 m/s. Bilen stannar, så energiförlusten är</p>\\[E_k=\\frac{950\\cdot25{,}0^2}{2}=296875\\,\\mathrm J\\]\\[F=\\frac{296875}{120}\\approx2470\\,\\mathrm N\\]<p><strong>b)</strong></p><p>90,0 km/h = 25,0 m/s. Startens rörelseenergi omvandlas under stoppet.</p>\\[E_k=\\frac{950\\cdot25{,}0^2}{2}=296875\\,\\mathrm J\\]\\[F=\\frac{296875}{2{,}0}\\approx148000\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Stoppsträckan är 7,50 cm = 0,0750 m.</p>\\[E_k=\\frac{7{,}0\\cdot10{,}0^2}{2}=350\\,\\mathrm J\\]\\[F=\\frac{350}{0{,}0750}\\approx4670\\,\\mathrm N\\]<p><strong>d)</strong></p><p>Stoppsträckan är 2,00 cm = 0,0200 m. Rörelseenergin omvandlas under stoppet.</p>\\[E_k=\\frac{7{,}0\\cdot10{,}0^2}{2}=350\\,\\mathrm J\\]\\[F=\\frac{350}{0{,}0200}=17500\\,\\mathrm N\\]</div>",
     "id": "5.515",
     "miniräknare": true,
     "geogebra": false,
@@ -140843,10 +140843,10 @@ window.BANK = [
       17500.0
     ],
     "tolerans": [
-      51.0,
-      5100.0,
-      70.0,
-      510.0
+      5.0,
+      500.0,
+      5.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -140873,74 +140873,74 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm den genomsnittliga bromskraften.</p>",
+    "spelIntro": "<p>Bortse från ändringar i lägesenergi.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bil (950 kg) med 90,0 km/h stannar mjukt på 120 m.",
-        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>En bil (950 kg) med 90,0 km/h stannar mjukt på 120 m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot120}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,474\\) N</p></div>",
-        "ledtrad": "<p>Gör om till m/s.</p>",
+        "fraga": "Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 950 kg kör med 90,0 km/h på en vågrät väg och bromsar till vila på 120 m. Bortse från ändringar i lägesenergi.</p><p>Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>90,0 km/h = 25,0 m/s. Bilen stannar, så energiförlusten är</p>\\[E_k=\\frac{950\\cdot25{,}0^2}{2}=296875\\,\\mathrm J\\]\\[F=\\frac{296875}{120}\\approx2470\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Omvandla farten till m/s. Dela startens rörelseenergi med stoppsträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En bil (950 kg) med 90,0 km/h krockar med ett räcke och stannar på 2,0 m.",
-        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>En bil (950 kg) med 90,0 km/h krockar med ett räcke och stannar på 2,0 m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{950\\cdot25{,}0^2}{2\\cdot2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "fraga": "Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 950 kg kör med 90,0 km/h på en vågrät väg och stannar på 2,0 m när den krockar med ett räcke. Bortse från ändringar i lägesenergi.</p><p>Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>90,0 km/h = 25,0 m/s. Startens rörelseenergi omvandlas under stoppet.</p>\\[E_k=\\frac{950\\cdot25{,}0^2}{2}=296875\\,\\mathrm J\\]\\[F=\\frac{296875}{2{,}0}\\approx148000\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Kraftens storlek gånger stoppsträckan är energin som förloras.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En boxhandske med hand (7,0 kg) med 10,0 m/s stannar på 7,50 cm.",
-        "t": "<p>Bestäm den genomsnittliga bromskraften.</p><p>En boxhandske med hand (7,0 kg) med 10,0 m/s stannar på 7,50 cm.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0750}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,667\\) N</p></div>",
-        "ledtrad": "<p>\\(Fs=\\Delta E_k\\).</p>",
+        "fraga": "Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>I en förenklad modell bromsas en massa på 7,0 kg från 10,0 m/s till vila på 7,50 cm. Modellen används för ett slag med en boxhandske. Bortse från ändringar i lägesenergi.</p><p>Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stoppsträckan är 7,50 cm = 0,0750 m.</p>\\[E_k=\\frac{7{,}0\\cdot10{,}0^2}{2}=350\\,\\mathrm J\\]\\[F=\\frac{350}{0{,}0750}\\approx4670\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Omvandla sträckan till meter och dela startenergin med sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor är den genomsnittliga bromskraften? Svara i N.",
-        "t": "<p>En hand utan boxhandske har massan 7,0 kg och farten 10,0 m/s. Den bromsas till vila på 2,00 cm.</p><p>Hur stor är den genomsnittliga bromskraften? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Handens rörelseenergi försvinner under inbromsningen. Dividera den med bromssträckan, som är 0,0200 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{mv^2}{2s}=\\frac{7{,}0\\cdot10{,}0^2}{2\\cdot0{,}0200}=17500\\,\\mathrm{N}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 17 500 N.</p></div></div>",
-        "ledtrad": "<p>Beräkna rörelseenergin och jämför den med bromskraftens arbete.</p>",
+        "fraga": "Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>I en förenklad modell bromsas en massa på 7,0 kg från 10,0 m/s till vila på 2,00 cm. Modellen används för ett slag utan boxhandske. Bortse från ändringar i lägesenergi.</p><p>Hur stor är bromskraftens medelvärde över stoppsträckan? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stoppsträckan är 2,00 cm = 0,0200 m. Rörelseenergin omvandlas under stoppet.</p>\\[E_k=\\frac{7{,}0\\cdot10{,}0^2}{2}=350\\,\\mathrm J\\]\\[F=\\frac{350}{0{,}0200}=17500\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Omvandla sträckan till meter och dela startenergin med sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Längre bromssträcka ger mindre kraft.</p>",
     "traningsniva": 2,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "kula genom träskivor",
-    "poang": "(0/1/1)",
-    "t": "<p>En kula med 335 m/s stoppas av precis 8 lika träskivor. Med vilken fart lämnar en likadan kula en enda skiva? Anta samma bromskraft.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Varje skiva tar \\(\\tfrac18\\) av rörelseenergin: \\(v=335\\sqrt{\\tfrac78}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(313\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En kula med startfarten 335 m/s stannar precis vid baksidan av den åttonde träskivan. Alla åtta skivor är lika tjocka och bromskraften är lika stor i varje skiva. Vilken fart har en likadan kula efter en skiva om startfarten är 335 m/s? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Åtta lika skivor tar bort hela startenergin. En skiva tar därför bort 1/8, så 7/8 återstår.</p>\\[\\frac{mv^2}{2}=\\frac78\\frac{m\\cdot335^2}{2}\\]<p>Förkorta massan och ta kvadratroten.</p>\\[v=335\\sqrt{\\frac78}\\approx313\\,\\mathrm{m/s}\\]</div>",
     "id": "5.516",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 313.36380614231757,
-    "tolerans": 4.7,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -140959,8 +140959,8 @@ window.BANK = [
     "niva": "C",
     "typ": "dragkraft och friktion",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><ol type=\"a\"><li>En låda på 3,9 kg glider med farten 8,0 m/s på ett vågrätt golv. Den dras 12 m av en konstant vågrät kraft på 15 N i rörelseriktningen. Glidfriktionstalet är 0,25. Vilken fart har lådan efter 12 m? Svara i m/s.</li><li>En släde (16 kg) dras från vila 8,0 m med 24 N och får farten 2,0 m/s. Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Dragkraften tillför energi medan friktionen tar bort energi. Skillnaden mellan deras arbeten ökar rörelseenergin.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{3{,}9v^2}{2}=\\frac{3{,}9\\cdot8{,}0^2}{2}+(15-0{,}25\\cdot3{,}9\\cdot9{,}82)\\cdot12\\\\\\Rightarrow\\  v\\approx9{,}87\\,\\mathrm{m/s}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9,87 m/s.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[24\\cdot8{,}0=\\dfrac{16\\cdot2{,}0^2}{2}+\\mu\\cdot16\\cdot9{,}82\\cdot8{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}13\\)</p></div></div></div></div>",
+    "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>En låda på 3,9 kg glider med 8,0 m/s på ett vågrätt golv. En konstant vågrät kraft på 15 N drar lådan framåt under 12 m. Glidfriktionstalet är 0,25. Vilken fart har lådan efter 12 m? Svara i m/s. Svara med tre värdesiffror.</li><li>En släde på 16 kg dras från vila 8,0 m på vågrät mark med en konstant vågrät kraft på 24 N. Slutfarten är 2,0 m/s. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna startenergin och friktionskraften. Normalkraften är mg.</p>\\[E_{k,1}=\\frac{3{,}9\\cdot8{,}0^2}{2}=124{,}8\\,\\mathrm J\\]\\[F_\\text{fr}=0{,}25\\cdot3{,}9\\cdot9{,}82=9{,}5745\\,\\mathrm N\\]<p>Dragkraften gör positivt arbete och friktionen negativt arbete.</p>\\[\\begin{gathered}E_{k,2}=124{,}8+(15-9{,}5745)\\cdot12\\\\=189{,}906\\,\\mathrm J\\end{gathered}\\]\\[v=\\sqrt{\\frac{2\\cdot189{,}906}{3{,}9}}\\approx9{,}87\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Dragkraftens arbete blir dels rörelseenergi, dels energi som friktionen tar bort.</p>\\[W_\\text{drag}=24\\cdot8{,}0=192\\,\\mathrm J\\]\\[E_k=\\frac{16\\cdot2{,}0^2}{2}=32\\,\\mathrm J\\]\\[E_\\text{fr}=192-32=160\\,\\mathrm J\\]<p>Friktionens kraft är 160/8,0 = 20 N och normalkraften är mg.</p>\\[\\mu=\\frac{20}{16\\cdot9{,}82}\\approx0{,}127\\]</div>",
     "id": "5.517",
     "miniräknare": true,
     "geogebra": false,
@@ -140971,8 +140971,8 @@ window.BANK = [
       0.12729124236252545
     ],
     "tolerans": [
-      0.148,
-      0.0051
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -140993,13 +140993,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har lådan efter 12 m? Svara i m/s.",
-        "t": "<p>En låda på 3,9 kg glider med farten 8,0 m/s på ett vågrätt golv. Den dras 12 m av en konstant vågrät kraft på 15 N i rörelseriktningen. Glidfriktionstalet är 0,25. Använd g = 9,82 m/s².</p><p>Vilken fart har lådan efter 12 m? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Dragkraften tillför energi medan friktionen tar bort energi. Skillnaden mellan deras arbeten ökar rörelseenergin.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{3{,}9v^2}{2}=\\frac{3{,}9\\cdot8{,}0^2}{2}+(15-0{,}25\\cdot3{,}9\\cdot9{,}82)\\cdot12\\\\\\Rightarrow\\  v\\approx9{,}87\\,\\mathrm{m/s}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9,87 m/s.</p></div></div>",
+        "fraga": "En låda på 3,9 kg glider med 8,0 m/s på ett vågrätt golv. En konstant vågrät kraft på 15 N drar lådan framåt under 12 m. Glidfriktionstalet är 0,25. Vilken fart har lådan efter 12 m? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En låda på 3,9 kg glider med 8,0 m/s på ett vågrätt golv. En konstant vågrät kraft på 15 N drar lådan framåt under 12 m. Glidfriktionstalet är 0,25. Vilken fart har lådan efter 12 m? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna startenergin och friktionskraften. Normalkraften är mg.</p>\\[E_{k,1}=\\frac{3{,}9\\cdot8{,}0^2}{2}=124{,}8\\,\\mathrm J\\]\\[F_\\text{fr}=0{,}25\\cdot3{,}9\\cdot9{,}82=9{,}5745\\,\\mathrm N\\]<p>Dragkraften gör positivt arbete och friktionen negativt arbete.</p>\\[\\begin{gathered}E_{k,2}=124{,}8+(15-9{,}5745)\\cdot12\\\\=189{,}906\\,\\mathrm J\\end{gathered}\\]\\[v=\\sqrt{\\frac{2\\cdot189{,}906}{3{,}9}}\\approx9{,}87\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Nettoarbetet ändrar rörelseenergin.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141008,9 +141008,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En släde (16 kg) dras från vila 8,0 m med 24 N och får farten 2,0 m/s. Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En släde (16 kg) dras från vila 8,0 m med 24 N och får farten 2,0 m/s. Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[24\\cdot8{,}0=\\dfrac{16\\cdot2{,}0^2}{2}+\\mu\\cdot16\\cdot9{,}82\\cdot8{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}13\\)</p></div>",
+        "fraga": "En släde på 16 kg dras från vila 8,0 m på vågrät mark med en konstant vågrät kraft på 24 N. Slutfarten är 2,0 m/s. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En släde på 16 kg dras från vila 8,0 m på vågrät mark med en konstant vågrät kraft på 24 N. Slutfarten är 2,0 m/s. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens arbete blir dels rörelseenergi, dels energi som friktionen tar bort.</p>\\[W_\\text{drag}=24\\cdot8{,}0=192\\,\\mathrm J\\]\\[E_k=\\frac{16\\cdot2{,}0^2}{2}=32\\,\\mathrm J\\]\\[E_\\text{fr}=192-32=160\\,\\mathrm J\\]<p>Friktionens kraft är 160/8,0 = 20 N och normalkraften är mg.</p>\\[\\mu=\\frac{20}{16\\cdot9{,}82}\\approx0{,}127\\]</div>",
         "ledtrad": "<p>Arbetet går till rörelseenergi och friktion.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141027,11 +141027,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "kloss uppför lutande plan",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p><ol type=\"a\"><li>Hur långt glider den utan friktion?</li><li>Hur långt glider den med friktionstalet 0,20?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{5{,}0^2}{2\\cdot9{,}82\\sin35^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}2\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{5{,}0^2}{2\\cdot9{,}82(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) m</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>En kloss glider uppför ett plan med startfarten 5,0 m/s. Planet lutar 35° mot horisontalplanet. Hur långt längs planet glider klossen innan den stannar om friktionen är noll? Svara i m. Svara med tre värdesiffror.</li><li>En kloss glider uppför ett plan med startfarten 5,0 m/s. Planet lutar 35° mot horisontalplanet och glidfriktionstalet är 0,20. Hur långt längs planet glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Höjdökningen är s sin35°. Klossen stannar, så startens rörelseenergi blir lägesenergi.</p>\\[\\frac{m\\cdot5{,}0^2}{2}=mgs\\sin35^\\circ\\]<p>Förkorta massan och lös för sträckan längs planet.</p>\\[s=\\frac{5{,}0^2}{2\\cdot9{,}82\\sin35^\\circ}\\approx2{,}22\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Höjdökningen är s sin35° och normalkraften är mg cos35°. Startenergin går till lägesenergi och energi som friktionen tar bort.</p>\\[\\begin{gathered}\\frac{m\\cdot5{,}0^2}{2}\\\\=mgs\\sin35^\\circ+0{,}20mg\\cos35^\\circ\\,s\\end{gathered}\\]<p>Förkorta massan och lös för s.</p>\\[\\begin{gathered}s\\\\=\\frac{5{,}0^2}{2\\cdot9{,}82(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\\\\\approx1{,}73\\,\\mathrm m\\end{gathered}\\]</div>",
     "id": "5.518",
     "miniräknare": true,
     "geogebra": false,
@@ -141042,8 +141042,8 @@ window.BANK = [
       1.726200986464598
     ],
     "tolerans": [
-      0.051,
-      0.051
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -141063,14 +141063,14 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur långt glider den utan friktion?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p><p>Hur långt glider den utan friktion?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{5{,}0^2}{2\\cdot9{,}82\\sin35^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}2\\) m</p></div>",
-        "ledtrad": "<p>Tyngdkomposanten bromsar.</p>",
+        "fraga": "En kloss glider uppför ett plan med startfarten 5,0 m/s. Planet lutar 35° mot horisontalplanet. Hur långt längs planet glider klossen innan den stannar om friktionen är noll? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En kloss glider uppför ett plan med startfarten 5,0 m/s. Planet lutar 35° mot horisontalplanet. Hur långt längs planet glider klossen innan den stannar om friktionen är noll? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdökningen är s sin35°. Klossen stannar, så startens rörelseenergi blir lägesenergi.</p>\\[\\frac{m\\cdot5{,}0^2}{2}=mgs\\sin35^\\circ\\]<p>Förkorta massan och lös för sträckan längs planet.</p>\\[s=\\frac{5{,}0^2}{2\\cdot9{,}82\\sin35^\\circ}\\approx2{,}22\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Startens rörelseenergi blir ökad lägesenergi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -141078,20 +141078,20 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt glider den med friktionstalet 0,20?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En kloss (3,0 kg) skjuts uppför ett plan med lutningen 35° med farten 5,0 m/s.</p><p>Hur långt glider den med friktionstalet 0,20?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{5{,}0^2}{2\\cdot9{,}82(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) m</p></div>",
-        "ledtrad": "<p>Både tyngdkomposant och friktion bromsar.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "En kloss glider uppför ett plan med startfarten 5,0 m/s. Planet lutar 35° mot horisontalplanet och glidfriktionstalet är 0,20. Hur långt längs planet glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En kloss glider uppför ett plan med startfarten 5,0 m/s. Planet lutar 35° mot horisontalplanet och glidfriktionstalet är 0,20. Hur långt längs planet glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdökningen är s sin35° och normalkraften är mg cos35°. Startenergin går till lägesenergi och energi som friktionen tar bort.</p>\\[\\begin{gathered}\\frac{m\\cdot5{,}0^2}{2}\\\\=mgs\\sin35^\\circ+0{,}20mg\\cos35^\\circ\\,s\\end{gathered}\\]<p>Förkorta massan och lös för s.</p>\\[\\begin{gathered}s\\\\=\\frac{5{,}0^2}{2\\cdot9{,}82(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\\\\\approx1{,}73\\,\\mathrm m\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Både höjdökningen och friktionen tar energi från rörelsen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Bromsarbete = rörelseenergi.</p>",
     "traningsniva": 4,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -141100,15 +141100,15 @@ window.BANK = [
     "niva": "C",
     "typ": "snowboard med friktion",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Bortse från luftmotstånd om inget annat sägs.</p><p>En snowboardåkare (80 kg) åker från vila nedför en sluttning med lutningen 20° från 45 m höjd. Friktionen är 50 N. Bestäm farten längst ner.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\dfrac{45}{\\sin20^\\circ}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{80v^2}{2}=80\\cdot9{,}82\\cdot45-50s\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) m/s</p></div>",
+    "t": "<p>En snowboardåkare på 80 kg startar från vila och åker nedför en rak backe som lutar 20° mot horisontalplanet. Höjdminskningen är 45 m. En konstant friktionskraft på 50 N bromsar åkaren. Vilken fart får åkaren längst ner? Svara i m/s. Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skilj på höjdminskningen och sträckan längs backen.</p>\\[s=\\frac{45}{\\sin20^\\circ}\\]<p>Lägesenergin blir rörelseenergi, men friktionen tar bort energin 50s.</p>\\[E_p=80\\cdot9{,}82\\cdot45=35352\\,\\mathrm J\\]\\[E_k=35352-50\\frac{45}{\\sin20^\\circ}\\]\\[v=\\sqrt{\\frac{2E_k}{80}}\\approx26{,}8\\,\\mathrm{m/s}\\]</div>",
     "id": "5.519",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 26.82044001299804,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -141127,23 +141127,23 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "typ": "friktionstal ur energiförlust",
-    "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda glider 8,0 m från vila nedför ett plan som lutar 35° med friktionstalet 0,220. Bestäm farten (tre värdesiffror).</li><li>En låda (1,2 kg) bromsas från 16 m/s till 9,0 m/s på 22 m vågrätt. Bestäm friktionstalet.</li><li>En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=2\\cdot9{,}82\\cdot8{,}0(\\sin35^\\circ-0{,}220\\cos35^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}86\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=\\dfrac{1{,}2(16^2-9{,}0^2)}{2}=105\\) J, \\(\\mu=\\dfrac{105}{1{,}2\\cdot9{,}82\\cdot22}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}41\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{64}{2{,}0\\cdot9{,}82\\cdot12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}27\\)</p></li></ol></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>En låda startar från vila och glider 8,0 m nedför ett plan som lutar 35° mot horisontalplanet. Glidfriktionstalet är 0,220. Bestäm slutfarten i m/s. Svara med tre värdesiffror.</li><li>En låda på 1,2 kg glider på ett vågrätt golv. Farten minskar från 16 till 9,0 m/s under 22 m. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li><li>En sten glider med 8,0 m/s på en vågrät yta och stannar efter 12 m. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Höjdminskningen är 8,0 sin35° och normalkraften är mg cos35°. Lägesenergin blir rörelseenergi, med en förlust genom friktion.</p>\\[\\begin{gathered}\\frac{mv^2}{2}=mg\\cdot8{,}0\\sin35^\\circ\\\\{}-0{,}220mg\\cos35^\\circ\\cdot8{,}0\\end{gathered}\\]<p>Förkorta massan och lös för v.</p>\\[\\begin{gathered}v^2=2gs(\\sin\\theta-\\mu\\cos\\theta)\\\\=157{,}12(\\sin35^\\circ-0{,}220\\cos35^\\circ)\\end{gathered}\\]\\[v^2\\approx61{,}80519246\\,\\mathrm{m^2/s^2}\\]<p>Ta den positiva kvadratroten och använd det oavrundade värdet.</p>\\[v=\\sqrt{61{,}80519246\\ldots}\\approx7{,}86\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>Friktionen tar bort skillnaden i rörelseenergi.</p>\\[E_{k,1}=\\frac{1{,}2\\cdot16^2}{2}=153{,}6\\,\\mathrm J\\]\\[E_{k,2}=\\frac{1{,}2\\cdot9{,}0^2}{2}=48{,}6\\,\\mathrm J\\]\\[E_\\text{fr}=153{,}6-48{,}6=105\\,\\mathrm J\\]<p>På vågrätt golv är Ffr = μmg. Friktionens arbete har storleken μmgs.</p>\\[\\mu=\\frac{105}{1{,}2\\cdot9{,}82\\cdot22}\\approx0{,}405\\]<p><strong>c)</strong></p><p>Stenen stannar, så friktionen tar bort hela startenergin: μmgs = mv²/2. Massan förkortas bort.</p>\\[\\mu=\\frac{v^2}{2gs}=\\frac{8{,}0^2}{2\\cdot9{,}82\\cdot12}\\approx0{,}272\\]</div>",
     "id": "5.536",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.86162785025,
-      0.405017589335,
+      7.861627850246115,
+      0.40501758933530824,
       0.27155465037338766
     ],
     "tolerans": [
-      0.118,
-      0.00649,
-      0.0051
+      0.005,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -141167,13 +141167,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En låda glider 8,0 m från vila nedför ett plan som lutar 35° med friktionstalet 0,220. Bestäm farten (tre värdesiffror).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda glider 8,0 m från vila nedför ett plan som lutar 35° med friktionstalet 0,220. Bestäm farten (tre värdesiffror).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=2\\cdot9{,}82\\cdot8{,}0(\\sin35^\\circ-0{,}220\\cos35^\\circ)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}86\\) m/s</p></div>",
+        "fraga": "En låda startar från vila och glider 8,0 m nedför ett plan som lutar 35° mot horisontalplanet. Glidfriktionstalet är 0,220. Bestäm slutfarten i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En låda startar från vila och glider 8,0 m nedför ett plan som lutar 35° mot horisontalplanet. Glidfriktionstalet är 0,220. Bestäm slutfarten i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdminskningen är 8,0 sin35° och normalkraften är mg cos35°. Lägesenergin blir rörelseenergi, med en förlust genom friktion.</p>\\[\\begin{gathered}\\frac{mv^2}{2}=mg\\cdot8{,}0\\sin35^\\circ\\\\{}-0{,}220mg\\cos35^\\circ\\cdot8{,}0\\end{gathered}\\]<p>Förkorta massan och lös för v.</p>\\[\\begin{gathered}v^2=2gs(\\sin\\theta-\\mu\\cos\\theta)\\\\=157{,}12(\\sin35^\\circ-0{,}220\\cos35^\\circ)\\end{gathered}\\]\\[v^2\\approx61{,}80519246\\,\\mathrm{m^2/s^2}\\]<p>Ta den positiva kvadratroten och använd det oavrundade värdet.</p>\\[v=\\sqrt{61{,}80519246\\ldots}\\approx7{,}86\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Räkna per kilogram.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141182,9 +141182,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En låda (1,2 kg) bromsas från 16 m/s till 9,0 m/s på 22 m vågrätt. Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (1,2 kg) bromsas från 16 m/s till 9,0 m/s på 22 m vågrätt. Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=\\dfrac{1{,}2(16^2-9{,}0^2)}{2}=105\\) J, \\(\\mu=\\dfrac{105}{1{,}2\\cdot9{,}82\\cdot22}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}41\\)</p></div>",
+        "fraga": "En låda på 1,2 kg glider på ett vågrätt golv. Farten minskar från 16 till 9,0 m/s under 22 m. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En låda på 1,2 kg glider på ett vågrätt golv. Farten minskar från 16 till 9,0 m/s under 22 m. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionen tar bort skillnaden i rörelseenergi.</p>\\[E_{k,1}=\\frac{1{,}2\\cdot16^2}{2}=153{,}6\\,\\mathrm J\\]\\[E_{k,2}=\\frac{1{,}2\\cdot9{,}0^2}{2}=48{,}6\\,\\mathrm J\\]\\[E_\\text{fr}=153{,}6-48{,}6=105\\,\\mathrm J\\]<p>På vågrätt golv är Ffr = μmg. Friktionens arbete har storleken μmgs.</p>\\[\\mu=\\frac{105}{1{,}2\\cdot9{,}82\\cdot22}\\approx0{,}405\\]</div>",
         "ledtrad": "<p>Friktionsarbetet först.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141193,17 +141193,17 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En sten (2,0 kg) med 8,0 m/s stannar efter 12 m. Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{64}{2{,}0\\cdot9{,}82\\cdot12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}27\\)</p></div>",
+        "fraga": "En sten glider med 8,0 m/s på en vågrät yta och stannar efter 12 m. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En sten glider med 8,0 m/s på en vågrät yta och stannar efter 12 m. Friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stenen stannar, så friktionen tar bort hela startenergin: μmgs = mv²/2. Massan förkortas bort.</p>\\[\\mu=\\frac{v^2}{2gs}=\\frac{8{,}0^2}{2\\cdot9{,}82\\cdot12}\\approx0{,}272\\]</div>",
         "ledtrad": "<p>Rörelseenergin går åt till friktion.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Friktionsarbete \\(=\\mu F_N s\\).</p>",
+    "ledtrad": "<p>Friktionen tar bort energin μNs, där N är normalkraften.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -141215,20 +141215,20 @@ window.BANK = [
     "niva": "C",
     "typ": "luftmotstånd vid lodrätt kast",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><ol type=\"a\"><li>Bestäm \\(F\\).</li><li>Med vilken fart landar det om samma kraft verkar på vägen ner?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1{,}5\\cdot18^2}{2}=1{,}5\\cdot9{,}82\\cdot13+F\\cdot13\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}96\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1{,}5v^2}{2}=1{,}5\\cdot9{,}82\\cdot13-3{,}96\\cdot13\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}7\\) m/s</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>Ett föremål på 1,5 kg skjuts rakt upp med 18 m/s. Det stiger 13 m innan det vänder. Utöver tyngdkraften verkar en konstant nedåtriktad bromskraft. Bestäm bromskraftens storlek i N. Svara med tre värdesiffror.</li><li>Ett föremål på 1,5 kg faller från vila 13 m till marken. Utöver tyngdkraften verkar en konstant kraft på 3,96 N uppåt. Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Startens rörelseenergi blir ökad lägesenergi och energi som bromskraften tar bort.</p>\\[E_k=\\frac{1{,}5\\cdot18^2}{2}=243\\,\\mathrm J\\]\\[\\Delta E_p=1{,}5\\cdot9{,}82\\cdot13=191{,}49\\,\\mathrm J\\]\\[F\\cdot13=243-191{,}49\\]\\[F=\\frac{51{,}51}{13}\\approx3{,}96\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Tyngdkraften tillför energi och den uppåtriktade kraften gör negativt arbete.</p>\\[E_p=1{,}5\\cdot9{,}82\\cdot13=191{,}49\\,\\mathrm J\\]\\[E_\\text{broms}=3{,}96\\cdot13=51{,}48\\,\\mathrm J\\]\\[E_k=191{,}49-51{,}48=140{,}01\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot140{,}01}{1{,}5}}\\approx13{,}7\\,\\mathrm{m/s}\\]</div>",
     "id": "5.537",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.96230769231,
-      13.6616250864
+      3.9623076923076916,
+      13.663088962602858
     ],
     "tolerans": [
-      0.0592,
-      0.507
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -141249,14 +141249,14 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm \\(F\\).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p><p>Bestäm \\(F\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1{,}5\\cdot18^2}{2}=1{,}5\\cdot9{,}82\\cdot13+F\\cdot13\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}96\\) N</p></div>",
-        "ledtrad": "<p>Rörelseenergin blir lägesenergi och friktionsarbete.</p>",
+        "fraga": "Ett föremål på 1,5 kg skjuts rakt upp med 18 m/s. Det stiger 13 m innan det vänder. Utöver tyngdkraften verkar en konstant nedåtriktad bromskraft. Bestäm bromskraftens storlek i N. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>Ett föremål på 1,5 kg skjuts rakt upp med 18 m/s. Det stiger 13 m innan det vänder. Utöver tyngdkraften verkar en konstant nedåtriktad bromskraft. Bestäm bromskraftens storlek i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startens rörelseenergi blir ökad lägesenergi och energi som bromskraften tar bort.</p>\\[E_k=\\frac{1{,}5\\cdot18^2}{2}=243\\,\\mathrm J\\]\\[\\Delta E_p=1{,}5\\cdot9{,}82\\cdot13=191{,}49\\,\\mathrm J\\]\\[F\\cdot13=243-191{,}49\\]\\[F=\\frac{51{,}51}{13}\\approx3{,}96\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Startenergin blir lägesenergi och energi som bromskraften tar bort.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -141264,10 +141264,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Med vilken fart landar det om samma kraft verkar på vägen ner?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (1,5 kg) skjuts rakt upp med 18 m/s och vänder på 13 m höjd. En konstant bromsande kraft \\(F\\) verkar.</p>\\(F=3{,}96\\) N.<p>Med vilken fart landar det om samma kraft verkar på vägen ner?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1{,}5v^2}{2}=1{,}5\\cdot9{,}82\\cdot13-3{,}96\\cdot13\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}7\\) m/s</p></div>",
-        "ledtrad": "<p>Nu motverkar \\(F\\) fallet.</p>",
+        "fraga": "Ett föremål på 1,5 kg faller från vila 13 m till marken. Utöver tyngdkraften verkar en konstant kraft på 3,96 N uppåt. Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>Ett föremål på 1,5 kg faller från vila 13 m till marken. Utöver tyngdkraften verkar en konstant kraft på 3,96 N uppåt. Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraften tillför energi och den uppåtriktade kraften gör negativt arbete.</p>\\[E_p=1{,}5\\cdot9{,}82\\cdot13=191{,}49\\,\\mathrm J\\]\\[E_\\text{broms}=3{,}96\\cdot13=51{,}48\\,\\mathrm J\\]\\[E_k=191{,}49-51{,}48=140{,}01\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot140{,}01}{1{,}5}}\\approx13{,}7\\,\\mathrm{m/s}\\]</div>",
+        "ledtrad": "<p>Dra bromskraftens energiförlust från den lägesenergi som frigörs.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -141286,15 +141286,15 @@ window.BANK = [
     "niva": "C",
     "typ": "friktionskraft med sned dragkraft",
     "poang": "(0/1/0)",
-    "t": "<p>En låda (4,00 kg) dras med 50,0 N i ett snöre i vinkeln 53,0° mot marken. Farten ökar från 10,0 m/s till 12,0 m/s på 20,0 m. Bestäm den konstanta bromsande kraften.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[50{,}0\\cos53{,}0^\\circ\\cdot20{,}0-F\\cdot20{,}0=\\dfrac{4{,}00(12{,}0^2-10{,}0^2)}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25{,}7\\) N</p></div>",
+    "t": "<p>En låda på 5,00 kg dras över ett vågrätt golv med en konstant repkraft på 50,0 N. Repet drar framåt och uppåt, 53,0° över golvet. Farten ökar från 10,0 till 12,0 m/s under 20,0 m. En konstant friktionskraft bromsar lådan. Bortse från annat motstånd. Bestäm friktionskraftens storlek i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens vågräta del uträttar arbete. Friktionen gör negativt arbete. Deras sammanlagda arbete ökar rörelseenergin.</p>\\[\\Delta E_k=\\frac{5{,}00(12{,}0^2-10{,}0^2)}2=110\\,\\mathrm J\\]\\[(50{,}0\\cos53{,}0^\\circ-F_\\text{fr})\\cdot20{,}0=110\\]<p>Lös för friktionskraften.</p>\\[F_\\text{fr}=50{,}0\\cos53{,}0^\\circ-\\frac{110}{20{,}0}\\]\\[F_\\text{fr}\\approx24{,}6\\,\\mathrm N\\]</div>",
     "id": "5.538",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
-    "rättSvar": 25.69075115760242,
-    "tolerans": 0.385,
+    "rättSvar": 24.59075115760242,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -141311,26 +141311,26 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "cyklistens arbete",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (80 kg med cykel) startar med 10 m/s, åker ner för en 40 m hög backe och upp för en 30 m hög backe, totalt 600 m. Farten vid slutet är 12 m/s. Friktionen är 25 N. Hur stort arbete gör cyklisten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=\\dfrac{80(12^2-10^2)}{2}-80\\cdot9{,}82\\cdot10+25\\cdot600\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,904\\) J</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En cyklist med cykel har massan 80 kg. Under en 600 m lång färd minskar höjden med 10 m och farten ökar från 10 till 12 m/s. Motståndskraften är konstant 25 N. Bortse från hjulens rotation och använd g = 9,82 m/s². I en modell blir 20 % av kroppens använda kemiska energi mekaniskt arbete på cykeln. Hur mycket kemisk energi använder kroppen under färden? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna ändringarna i rörelseenergi och lägesenergi samt energin som motståndet tar.</p>\\[\\Delta E_k=\\frac{80(12^2-10^2)}2=1760\\,\\mathrm J\\]\\[\\Delta E_p=80\\cdot9{,}82\\cdot(-10)=-7856\\,\\mathrm J\\]\\[E_\\text{motstånd}=25\\cdot600=15000\\,\\mathrm J\\]<p>Det mekaniska arbete cyklisten tillför är summan. Höjdminskningen hjälper rörelsen.</p>\\[W=1760-7856+15000=8904\\,\\mathrm J\\]<p>Arbetet är 20 % av kroppens använda kemiska energi.</p>\\[E_\\text{kemisk}=\\frac{8904}{0{,}20}=44520\\,\\mathrm J\\]<p>Med tre värdesiffror: 44 500 J.</p></div>",
     "id": "5.539",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
-    "rättSvar": 8904.0,
-    "tolerans": 134.0,
+    "rättSvar": 44520.0,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Slutet ligger 10 m lägre än starten.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Beräkna det mekaniska arbetet från båda energiändringarna och motståndets arbete. Dividera sedan med 0,20.</p>",
+    "traningsniva": 3,
     "svarEnhet": "J",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -141339,18 +141339,18 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "backens höjd ur motoreffekt",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe i 1,0 min med motoreffekten 13 kW, och farten ökar från 7,0 m/s till 24 m/s. Friktion och luftmotstånd kräver 80 kJ. Hur hög är backen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[13\\,000\\cdot60=\\dfrac{1\\,500(24^2-7{,}0^2)}{2}+1\\,500\\cdot9{,}82h+80\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 1,5 ton kör uppför en backe under 1,0 min. Motorns mekaniska medeleffekt under färden är 13 kW. Farten ökar från 7,0 till 24 m/s. Friktion och luftmotstånd tar bort 80 kJ mekanisk energi. Hur mycket ökar bilens höjd? Svara i m. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1500 kg, tiden 60 s och effekten 13 000 W. Motorns arbete är</p>\\[W=Pt=13000\\cdot60=780000\\,\\mathrm J\\]<p>En del ökar rörelseenergin och 80 kJ = 80 000 J överförs till omgivningen.</p>\\[\\Delta E_k=\\frac{1500(24^2-7{,}0^2)}2=395250\\,\\mathrm J\\]\\[\\begin{gathered}\\Delta E_p=780000-395250-80000\\\\=304750\\,\\mathrm J\\end{gathered}\\]\\[h=\\frac{\\Delta E_p}{mg}=\\frac{304750}{1500\\cdot9{,}82}\\approx20{,}7\\,\\mathrm m\\]</div>",
     "id": "5.540",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 20.68906992532247,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -141358,7 +141358,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Motorns arbete fördelas på tre poster.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -141370,20 +141370,20 @@ window.BANK = [
     "niva": "C",
     "typ": "upp och ner längs plan med friktion",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p><ol type=\"a\"><li>Bestäm farten i A på vägen upp.</li><li>Bestäm farten i A på vägen ner.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{u^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ+0{,}20\\cos35^\\circ\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}6\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{v^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ-0{,}20\\cos35^\\circ\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}9\\) m/s</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>Ett föremål glider uppför ett plan som lutar 35° mot horisontalplanet. Från A till vändpunkten B är sträckan längs planet 3,0 m. Glidfriktionstalet är 0,20. Vilken fart har föremålet i A på vägen upp? Svara i m/s. Svara med tre värdesiffror.</li><li>Ett föremål startar från vila i B och glider 3,0 m nedför ett plan till A. Planet lutar 35° mot horisontalplanet och glidfriktionstalet är 0,20. Vilken fart har föremålet när det når A? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Höjdökningen är 3,0 sin35°. Startenergin används till lägesenergi och till friktion. Normalkraften är mg cos35°.</p>\\[\\begin{gathered}\\frac{mu^2}{2}=mg\\cdot3{,}0\\sin35^\\circ\\\\{}+0{,}20mg\\cos35^\\circ\\cdot3{,}0\\end{gathered}\\]<p>Förkorta massan och lös för startfarten.</p>\\[\\begin{gathered}u\\\\=\\sqrt{2\\cdot9{,}82\\cdot3{,}0(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\\\\\approx6{,}59\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>b)</strong></p><p>Lägesenergin minskar och blir rörelseenergi, men friktionen tar bort energi även på vägen ned.</p>\\[\\begin{gathered}\\frac{mv^2}{2}=mg\\cdot3{,}0\\sin35^\\circ\\\\{}-0{,}20mg\\cos35^\\circ\\cdot3{,}0\\end{gathered}\\]<p>Förkorta massan och lös för slutfarten.</p>\\[\\begin{gathered}v\\\\=\\sqrt{2\\cdot9{,}82\\cdot3{,}0(\\sin35^\\circ-0{,}20\\cos35^\\circ)}\\\\\\approx4{,}91\\,\\mathrm{m/s}\\end{gathered}\\]</div>",
     "id": "5.541",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6.59151054916,
-      4.91347493531
+      6.591510549161331,
+      4.913474935308224
     ],
     "tolerans": [
-      0.0989,
-      0.0736
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -141403,13 +141403,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm farten i A på vägen upp.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p><p>Bestäm farten i A på vägen upp.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{u^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ+0{,}20\\cos35^\\circ\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}6\\) m/s</p></div>",
+        "fraga": "Ett föremål glider uppför ett plan som lutar 35° mot horisontalplanet. Från A till vändpunkten B är sträckan längs planet 3,0 m. Glidfriktionstalet är 0,20. Vilken fart har föremålet i A på vägen upp? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>Ett föremål glider uppför ett plan som lutar 35° mot horisontalplanet. Från A till vändpunkten B är sträckan längs planet 3,0 m. Glidfriktionstalet är 0,20. Vilken fart har föremålet i A på vägen upp? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdökningen är 3,0 sin35°. Startenergin används till lägesenergi och till friktion. Normalkraften är mg cos35°.</p>\\[\\begin{gathered}\\frac{mu^2}{2}=mg\\cdot3{,}0\\sin35^\\circ\\\\{}+0{,}20mg\\cos35^\\circ\\cdot3{,}0\\end{gathered}\\]<p>Förkorta massan och lös för startfarten.</p>\\[\\begin{gathered}u\\\\=\\sqrt{2\\cdot9{,}82\\cdot3{,}0(\\sin35^\\circ+0{,}20\\cos35^\\circ)}\\\\\\approx6{,}59\\,\\mathrm{m/s}\\end{gathered}\\]</div>",
         "ledtrad": "<p>Räkna per kilogram.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141418,9 +141418,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm farten i A på vägen ner.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål skjuts från A uppför ett plan som lutar 35° och vänder i B, 3,0 m längre upp. Friktionstalet är 0,20.</p><p>Bestäm farten i A på vägen ner.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{v^2}{2}=9{,}82\\cdot3{,}0\\left(\\sin35^\\circ-0{,}20\\cos35^\\circ\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}9\\) m/s</p></div>",
+        "fraga": "Ett föremål startar från vila i B och glider 3,0 m nedför ett plan till A. Planet lutar 35° mot horisontalplanet och glidfriktionstalet är 0,20. Vilken fart har föremålet när det når A? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>Ett föremål startar från vila i B och glider 3,0 m nedför ett plan till A. Planet lutar 35° mot horisontalplanet och glidfriktionstalet är 0,20. Vilken fart har föremålet när det når A? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin minskar och blir rörelseenergi, men friktionen tar bort energi även på vägen ned.</p>\\[\\begin{gathered}\\frac{mv^2}{2}=mg\\cdot3{,}0\\sin35^\\circ\\\\{}-0{,}20mg\\cos35^\\circ\\cdot3{,}0\\end{gathered}\\]<p>Förkorta massan och lös för slutfarten.</p>\\[\\begin{gathered}v\\\\=\\sqrt{2\\cdot9{,}82\\cdot3{,}0(\\sin35^\\circ-0{,}20\\cos35^\\circ)}\\\\\\approx4{,}91\\,\\mathrm{m/s}\\end{gathered}\\]</div>",
         "ledtrad": "<p>Nu motverkar friktionen fallet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141428,7 +141428,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Friktionsarbete \\(=\\mu mg\\cos\\alpha\\cdot s\\).</p>",
+    "ledtrad": "<p>Friktionen tar bort energin μmg cosα · s i båda rörelseriktningarna.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -141437,25 +141437,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "friktionstal ur fart på plan",
-    "poang": "(0/3/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Hur mycket mekanisk energi förloras?</li><li>Bestäm friktionstalet.</li><li>Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E=\\dfrac{0{,}60(8{,}0^2-7{,}0^2)}{2}+0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41{,}9\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{41{,}9}{0{,}60\\cdot9{,}82\\cos25^\\circ\\cdot15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}52\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=0{,}8\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\cos\\alpha=0{,}6\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{7{,}0^2}{2}=9{,}82\\cdot10(0{,}8-0{,}6\\mu)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}92\\)</p></li></ol></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>En låda på 0,60 kg glider 15 m nedför ett plan som lutar 25° mot horisontalplanet. Farten minskar från 8,0 till 7,0 m/s. Friktionen är det enda motståndet. Hur mycket mekanisk energi förloras? Svara i J. Svara med tre värdesiffror.</li><li>En låda på 0,60 kg glider 15 m nedför ett plan som lutar 25° mot horisontalplanet. Friktionen tar bort 41,9 J mekanisk energi. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li><li>Ett föremål startar från vila och glider 10 m nedför ett plan. Lutningsvinkeln α uppfyller tanα = 4/3. Slutfarten är 7,0 m/s och friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Både lägesenergin och rörelseenergin minskar.</p>\\[E_{k,1}-E_{k,2}=\\frac{0{,}60(8{,}0^2-7{,}0^2)}2=4{,}5\\,\\mathrm J\\]\\[E_{p,1}-E_{p,2}=0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\]<p>Den sammanlagda minskningen är energiförlusten.</p>\\[\\begin{gathered}E_\\text{förlust}\\\\=4{,}5+0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\\\\\approx41{,}9\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Normalkraften är mg cos25° och friktionskraften är μN. Energiförlusten är μNs.</p>\\[\\mu=\\frac{E_\\text{förlust}}{mg\\cos25^\\circ\\,s}\\]\\[\\mu=\\frac{41{,}9}{0{,}60\\cdot9{,}82\\cos25^\\circ\\cdot15}\\approx0{,}523\\]<p><strong>c)</strong></p><p>tanα = 4/3 ger en rätvinklig triangel med sidorna 3, 4 och 5. Därför är sinα = 4/5 = 0,8 och cosα = 3/5 = 0,6.</p><p>Lägesenergin blir rörelseenergi, med en förlust genom friktion.</p>\\[mg\\cdot10\\cdot0{,}8=\\frac{m\\cdot7{,}0^2}{2}+\\mu mg\\cdot0{,}6\\cdot10\\]<p>Förkorta massan och lös för μ.</p>\\[\\mu=\\frac{9{,}82\\cdot10\\cdot0{,}8-7{,}0^2/2}{9{,}82\\cdot10\\cdot0{,}6}\\approx0{,}918\\]</div>",
     "id": "5.542",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      41.8510019726,
-      0.522487796595,
+      41.85100197264302,
+      0.5230995112528671,
       0.9175152749490836
     ],
     "tolerans": [
-      0.628,
-      0.00787,
-      0.0138
+      0.05,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -141478,13 +141478,13 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Hur mycket mekanisk energi förloras?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Hur mycket mekanisk energi förloras?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E=\\dfrac{0{,}60(8{,}0^2-7{,}0^2)}{2}+0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41{,}9\\) J</p></div>",
+        "fraga": "En låda på 0,60 kg glider 15 m nedför ett plan som lutar 25° mot horisontalplanet. Farten minskar från 8,0 till 7,0 m/s. Friktionen är det enda motståndet. Hur mycket mekanisk energi förloras? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En låda på 0,60 kg glider 15 m nedför ett plan som lutar 25° mot horisontalplanet. Farten minskar från 8,0 till 7,0 m/s. Friktionen är det enda motståndet. Hur mycket mekanisk energi förloras? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Både lägesenergin och rörelseenergin minskar.</p>\\[E_{k,1}-E_{k,2}=\\frac{0{,}60(8{,}0^2-7{,}0^2)}2=4{,}5\\,\\mathrm J\\]\\[E_{p,1}-E_{p,2}=0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\]<p>Den sammanlagda minskningen är energiförlusten.</p>\\[\\begin{gathered}E_\\text{förlust}\\\\=4{,}5+0{,}60\\cdot9{,}82\\cdot15\\sin25^\\circ\\\\\\approx41{,}9\\,\\mathrm J\\end{gathered}\\]</div>",
         "ledtrad": "<p>Både rörelse- och lägesenergi minskar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141493,31 +141493,31 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (0,60 kg) glider nedför ett plan som lutar 25°. Farten är 8,0 m/s i A och 7,0 m/s i B, 15 m längre ner. Under glidningen förloras 41,9 J mekanisk energi.</p><p>Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\dfrac{41{,}9}{0{,}60\\cdot9{,}82\\cos25^\\circ\\cdot15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}52\\)</p></div>",
+        "fraga": "En låda på 0,60 kg glider 15 m nedför ett plan som lutar 25° mot horisontalplanet. Friktionen tar bort 41,9 J mekanisk energi. Bestäm glidfriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En låda på 0,60 kg glider 15 m nedför ett plan som lutar 25° mot horisontalplanet. Friktionen tar bort 41,9 J mekanisk energi. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Normalkraften är mg cos25° och friktionskraften är μN. Energiförlusten är μNs.</p>\\[\\mu=\\frac{E_\\text{förlust}}{mg\\cos25^\\circ\\,s}\\]\\[\\mu=\\frac{41{,}9}{0{,}60\\cdot9{,}82\\cos25^\\circ\\cdot15}\\approx0{,}523\\]</div>",
         "ledtrad": "<p>Energiförlusten är friktionsarbete.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål glider från vila 10 m nedför ett plan med \\(\\tan\\alpha=\\tfrac43\\) och får farten 7,0 m/s. Bestäm friktionstalet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=0{,}8\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\cos\\alpha=0{,}6\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{7{,}0^2}{2}=9{,}82\\cdot10(0{,}8-0{,}6\\mu)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}92\\)</p></div>",
+        "fraga": "Ett föremål startar från vila och glider 10 m nedför ett plan. Lutningsvinkeln α uppfyller tanα = 4/3. Slutfarten är 7,0 m/s och friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>Ett föremål startar från vila och glider 10 m nedför ett plan. Lutningsvinkeln α uppfyller tanα = 4/3. Slutfarten är 7,0 m/s och friktionen är det enda motståndet. Bestäm glidfriktionstalet. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>tanα = 4/3 ger en rätvinklig triangel med sidorna 3, 4 och 5. Därför är sinα = 4/5 = 0,8 och cosα = 3/5 = 0,6.</p><p>Lägesenergin blir rörelseenergi, med en förlust genom friktion.</p>\\[mg\\cdot10\\cdot0{,}8=\\frac{m\\cdot7{,}0^2}{2}+\\mu mg\\cdot0{,}6\\cdot10\\]<p>Förkorta massan och lös för μ.</p>\\[\\mu=\\frac{9{,}82\\cdot10\\cdot0{,}8-7{,}0^2/2}{9{,}82\\cdot10\\cdot0{,}6}\\approx0{,}918\\]</div>",
         "ledtrad": "<p>Bestäm sin och cos ur tan.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
-    "ledtrad": "<p>Friktionsarbete \\(=\\mu mg\\cos\\alpha\\cdot s\\).</p>",
+    "ledtrad": "<p>Friktionens energiförlust är μmg cosα · s.</p>",
     "traningsniva": 4,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -141526,20 +141526,20 @@ window.BANK = [
     "niva": "C",
     "typ": "bromsande kraft vid olika lutning",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Lutningen ökas till 35° och klossen skjuts med 7,0 m/s. Hur långt kommer den med samma bromsande kraft?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{0{,}40\\cdot6{,}0^2}{2}=0{,}40\\cdot9{,}82\\sin25^\\circ\\cdot2{,}5+F\\cdot2{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[9{,}8=d(0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\) m</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>En kloss på 0,40 kg skjuts uppför ett plan med startfarten 6,0 m/s. Planet lutar 25° mot horisontalplanet och klossen stannar efter 2,5 m längs planet. Utöver tyngdkraften verkar en konstant kraft som bromsar rörelsen. Bestäm bromskraftens storlek i N. Svara med tre värdesiffror.</li><li>En kloss på 0,40 kg skjuts uppför ett plan med startfarten 7,0 m/s. Planet lutar 35° mot horisontalplanet. Utöver tyngdkraften verkar en konstant bromskraft på 1,22 N längs planet. Hur långt glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Startenergin blir ökad lägesenergi och energi som bromskraften tar bort.</p>\\[E_k=\\frac{0{,}40\\cdot6{,}0^2}{2}=7{,}2\\,\\mathrm J\\]\\[\\Delta E_p=0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ\\]\\[\\begin{gathered}F\\\\=\\frac{7{,}2-0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ}{2{,}5}\\\\\\approx1{,}22\\,\\mathrm N\\end{gathered}\\]<p><strong>b)</strong></p><p>Startenergin är</p>\\[E_k=\\frac{0{,}40\\cdot7{,}0^2}{2}=9{,}8\\,\\mathrm J\\]<p>Höjdökningen är s sin35°. Klossen stannar när lägesenergin och bromskraftens energiförlust tillsammans motsvarar startenergin.</p>\\[9{,}8=0{,}40\\cdot9{,}82\\,s\\sin35^\\circ+1{,}22s\\]\\[s=\\frac{9{,}8}{0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22}\\approx2{,}82\\,\\mathrm m\\]</div>",
     "id": "5.543",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.21995546788,
-      2.82179740956
+      1.2199554678825324,
+      2.821761227492342
     ],
     "tolerans": [
-      0.043,
-      0.0424
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -141559,14 +141559,14 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den bromsande kraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p><p>Bestäm den bromsande kraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{0{,}40\\cdot6{,}0^2}{2}=0{,}40\\cdot9{,}82\\sin25^\\circ\\cdot2{,}5+F\\cdot2{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) N</p></div>",
-        "ledtrad": "<p>Rörelseenergin blir lägesenergi och friktionsarbete.</p>",
+        "fraga": "En kloss på 0,40 kg skjuts uppför ett plan med startfarten 6,0 m/s. Planet lutar 25° mot horisontalplanet och klossen stannar efter 2,5 m längs planet. Utöver tyngdkraften verkar en konstant kraft som bromsar rörelsen. Bestäm bromskraftens storlek i N. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En kloss på 0,40 kg skjuts uppför ett plan med startfarten 6,0 m/s. Planet lutar 25° mot horisontalplanet och klossen stannar efter 2,5 m längs planet. Utöver tyngdkraften verkar en konstant kraft som bromsar rörelsen. Bestäm bromskraftens storlek i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startenergin blir ökad lägesenergi och energi som bromskraften tar bort.</p>\\[E_k=\\frac{0{,}40\\cdot6{,}0^2}{2}=7{,}2\\,\\mathrm J\\]\\[\\Delta E_p=0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ\\]\\[\\begin{gathered}F\\\\=\\frac{7{,}2-0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ}{2{,}5}\\\\\\approx1{,}22\\,\\mathrm N\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Startenergin räcker till höjdökningen och bromskraftens energiförlust.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -141574,17 +141574,17 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Lutningen ökas till 35° och klossen skjuts med 7,0 m/s. Hur långt kommer den med samma bromsande kraft?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kloss (0,40 kg) skjuts med 6,0 m/s uppför ett plan som lutar 25° och vänder efter 2,5 m. En konstant bromsande kraft verkar.</p>Den bromsande kraften är 1,22 N.<p>Lutningen ökas till 35° och klossen skjuts med 7,0 m/s. Hur långt kommer den med samma bromsande kraft?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[9{,}8=d(0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\) m</p></div>",
-        "ledtrad": "<p>Samma metod.</p>",
+        "fraga": "En kloss på 0,40 kg skjuts uppför ett plan med startfarten 7,0 m/s. Planet lutar 35° mot horisontalplanet. Utöver tyngdkraften verkar en konstant bromskraft på 1,22 N längs planet. Hur långt glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En kloss på 0,40 kg skjuts uppför ett plan med startfarten 7,0 m/s. Planet lutar 35° mot horisontalplanet. Utöver tyngdkraften verkar en konstant bromskraft på 1,22 N längs planet. Hur långt glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startenergin är</p>\\[E_k=\\frac{0{,}40\\cdot7{,}0^2}{2}=9{,}8\\,\\mathrm J\\]<p>Höjdökningen är s sin35°. Klossen stannar när lägesenergin och bromskraftens energiförlust tillsammans motsvarar startenergin.</p>\\[9{,}8=0{,}40\\cdot9{,}82\\,s\\sin35^\\circ+1{,}22s\\]\\[s=\\frac{9{,}8}{0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22}\\approx2{,}82\\,\\mathrm m\\]</div>",
+        "ledtrad": "<p>Sätt startenergin lika med lägesenergins ökning plus 1,22 gånger sträckan.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Energiprincipen med friktion.</p>",
+    "ledtrad": "<p>Startens rörelseenergi räcker till höjdökningen och bromskraftens energiförlust.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -141596,8 +141596,8 @@ window.BANK = [
     "niva": "C",
     "typ": "cykling i backe",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p><ol type=\"a\"><li>Vilken effekt krävs uppför backen med konstant fart 5,0 m/s?</li><li>Hon rullar fritt nedför 180 m från 5,0 m/s. Bestäm farten därefter.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\left(72\\cdot9{,}82\\cdot\\tfrac{2}{21}+25\\right)\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(462\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{72(u^2-5{,}0^2)}{2}=72\\cdot9{,}82\\cdot\\tfrac{2}{21}\\cdot180-25\\cdot180\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Petra och hennes cykel har sammanlagt massan 72 kg. Backen stiger 2 m i höjd per 21 m längs vägen. Motståndskraften är konstant 25 N. Vilken mekanisk effekt behövs för att cykla uppför med konstant fart 5,0 m/s? Svara i W. Svara med tre värdesiffror.</li><li>Petra och hennes cykel har sammanlagt massan 72 kg. Backen sjunker 2 m i höjd per 21 m längs vägen. Hon börjar rulla nedför med 5,0 m/s och rullar 180 m utan att trampa. Motståndskraften är konstant 25 N. Bortse från hjulens rotation. Vilken fart får hon? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraftens del längs backen är mg sinθ. Höjdökningen per meter väg ger sinθ = 2/21. Vid konstant fart måste drivkraften balansera både tyngdkraftens del och motståndet.</p>\\[F=72\\cdot9{,}82\\cdot\\frac2{21}+25\\]<p>Den mekaniska effekten är kraft gånger fart.</p>\\[\\begin{gathered}P=Fv\\\\=\\left(72\\cdot9{,}82\\cdot\\frac2{21}+25\\right)5{,}0\\\\\\approx462\\,\\mathrm W\\end{gathered}\\]<p><strong>b)</strong></p><p>Beräkna startenergin, höjdminskningen och motståndets energiförlust.</p>\\[E_{k,1}=\\frac{72\\cdot5{,}0^2}{2}=900\\,\\mathrm J\\]\\[h=180\\cdot\\frac2{21}\\]\\[E_\\text{motstånd}=25\\cdot180=4500\\,\\mathrm J\\]<p>Lägesenergin som frigörs ökar rörelseenergin. Dra bort förlusten.</p>\\[E_{k,2}=900+72\\cdot9{,}82\\cdot180\\frac2{21}-4500\\]\\[v=\\sqrt{\\frac{2E_{k,2}}{72}}\\approx15{,}4\\,\\mathrm{m/s}\\]</div>",
     "id": "5.544",
     "miniräknare": true,
     "geogebra": false,
@@ -141608,8 +141608,8 @@ window.BANK = [
       15.384593406577707
     ],
     "tolerans": [
-      6.93,
-      0.51
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -141630,13 +141630,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken effekt krävs uppför backen med konstant fart 5,0 m/s?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p><p>Vilken effekt krävs uppför backen med konstant fart 5,0 m/s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\left(72\\cdot9{,}82\\cdot\\tfrac{2}{21}+25\\right)\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(462\\) W</p></div>",
+        "fraga": "Petra och hennes cykel har sammanlagt massan 72 kg. Backen stiger 2 m i höjd per 21 m längs vägen. Motståndskraften är konstant 25 N. Vilken mekanisk effekt behövs för att cykla uppför med konstant fart 5,0 m/s? Svara i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>Petra och hennes cykel har sammanlagt massan 72 kg. Backen stiger 2 m i höjd per 21 m längs vägen. Motståndskraften är konstant 25 N. Vilken mekanisk effekt behövs för att cykla uppför med konstant fart 5,0 m/s? Svara i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraftens del längs backen är mg sinθ. Höjdökningen per meter väg ger sinθ = 2/21. Vid konstant fart måste drivkraften balansera både tyngdkraftens del och motståndet.</p>\\[F=72\\cdot9{,}82\\cdot\\frac2{21}+25\\]<p>Den mekaniska effekten är kraft gånger fart.</p>\\[\\begin{gathered}P=Fv\\\\=\\left(72\\cdot9{,}82\\cdot\\frac2{21}+25\\right)5{,}0\\\\\\approx462\\,\\mathrm W\\end{gathered}\\]</div>",
         "ledtrad": "<p>\\(P=Fv\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141645,9 +141645,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hon rullar fritt nedför 180 m från 5,0 m/s. Bestäm farten därefter.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Petra och cykeln väger 72 kg. Backen har \\(\\sin\\theta=\\tfrac{2}{21}\\) och friktionen är 25 N.</p><p>Hon rullar fritt nedför 180 m från 5,0 m/s. Bestäm farten därefter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{72(u^2-5{,}0^2)}{2}=72\\cdot9{,}82\\cdot\\tfrac{2}{21}\\cdot180-25\\cdot180\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></div>",
+        "fraga": "Petra och hennes cykel har sammanlagt massan 72 kg. Backen sjunker 2 m i höjd per 21 m längs vägen. Hon börjar rulla nedför med 5,0 m/s och rullar 180 m utan att trampa. Motståndskraften är konstant 25 N. Bortse från hjulens rotation. Vilken fart får hon? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>Petra och hennes cykel har sammanlagt massan 72 kg. Backen sjunker 2 m i höjd per 21 m längs vägen. Hon börjar rulla nedför med 5,0 m/s och rullar 180 m utan att trampa. Motståndskraften är konstant 25 N. Bortse från hjulens rotation. Vilken fart får hon? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna startenergin, höjdminskningen och motståndets energiförlust.</p>\\[E_{k,1}=\\frac{72\\cdot5{,}0^2}{2}=900\\,\\mathrm J\\]\\[h=180\\cdot\\frac2{21}\\]\\[E_\\text{motstånd}=25\\cdot180=4500\\,\\mathrm J\\]<p>Lägesenergin som frigörs ökar rörelseenergin. Dra bort förlusten.</p>\\[E_{k,2}=900+72\\cdot9{,}82\\cdot180\\frac2{21}-4500\\]\\[v=\\sqrt{\\frac{2E_{k,2}}{72}}\\approx15{,}4\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Energiprincipen med friktion.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141655,7 +141655,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Tyngdens komposant längs backen.</p>",
+    "ledtrad": "<p>Beräkna tyngdkraftens del längs backen från höjdändringen per meter väg.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -141664,18 +141664,18 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "låda dras uppför plan",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (2,0 kg) dras med 49 N längs ett plan som lutar 30° (friktionstal 0,50). I A är farten 10 m/s. Bestäm farten 4,0 m längre upp.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{2{,}0v^2}{2}=\\dfrac{2{,}0\\cdot10^2}{2}+49\\cdot4{,}0-2{,}0\\cdot9{,}82\\cdot2{,}0-0{,}50\\cdot2{,}0\\cdot9{,}82\\cos30^\\circ\\cdot4{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda på 2,0 kg dras uppför ett plan med en konstant kraft på 49 N parallellt med planet. Planet lutar 30° mot horisontalplanet och glidfriktionstalet är 0,50. Startfarten är 10 m/s. Bestäm farten efter 4,0 m längs planet i m/s. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startenergin och dragkraftens arbete är</p>\\[E_{k,1}=\\frac{2{,}0\\cdot10^2}{2}=100\\,\\mathrm J\\]\\[W_\\text{drag}=49\\cdot4{,}0=196\\,\\mathrm J\\]<p>Höjdökningen är 4,0 sin30° = 2,0 m. Normalkraften är mg cos30°.</p>\\[\\Delta E_p=2{,}0\\cdot9{,}82\\cdot2{,}0=39{,}28\\,\\mathrm J\\]\\[E_\\text{fr}=0{,}50\\cdot2{,}0\\cdot9{,}82\\cos30^\\circ\\cdot4{,}0\\]<p>Dragkraften tillför energi. Höjdökningen och friktionen minskar den rörelseenergi som återstår.</p>\\[E_{k,2}=100+196-39{,}28-E_\\text{fr}\\]\\[v=\\sqrt{\\frac{2E_{k,2}}{2{,}0}}\\approx14{,}9\\,\\mathrm{m/s}\\]</div>",
     "id": "5.545",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 14.923220903657068,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -141685,17 +141685,17 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "bilmotorns arbete i backe",
-    "poang": "(1/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p><ol type=\"a\"><li>Hur stort arbete gör motorn minst?</li><li>Bestäm motorns medeleffekt.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm höjdskillnaden</p><p>Backens längd är 615 m. Från \\(\\tan\\theta=0{,}225\\) fås</p><div class=\"facit-matte\">\\[\\sin\\theta=\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}\\approx0{,}21951.\\]</div><div class=\"facit-matte\">\\[h=615\\sin\\theta\\approx135{,}00\\,\\text{m}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Summera de tre energibidragen</p><p>Motorn ökar både lägesenergin och rörelseenergin, och utför arbete mot den bromsande kraften:</p><div class=\"facit-matte\">\\[W=mgh+\\frac{m(v_2^2-v_1^2)}2+F_\\mathrm{broms}s.\\]</div><div class=\"facit-matte\">\\[W=1230\\cdot9{,}82\\cdot615\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}+\\frac{1230(20^2-6{,}0^2)}2+400\\cdot615.\\]</div><div class=\"facit-matte\">\\[W\\approx2{,}10047\\cdot10^6\\,\\text{J}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(2{,}1\\,\\text{MJ}\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm höjdskillnaden</p><p>Backens längd är 615 m. Från \\(\\tan\\theta=0{,}225\\) fås</p><div class=\"facit-matte\">\\[\\sin\\theta=\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}\\approx0{,}21951.\\]</div><div class=\"facit-matte\">\\[h=615\\sin\\theta\\approx135{,}00\\,\\text{m}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Summera de tre energibidragen</p><p>Motorn ökar både lägesenergin och rörelseenergin, och utför arbete mot den bromsande kraften:</p><div class=\"facit-matte\">\\[W=mgh+\\frac{m(v_2^2-v_1^2)}2+F_\\mathrm{broms}s.\\]</div><div class=\"facit-matte\">\\[W=1230\\cdot9{,}82\\cdot615\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}+\\frac{1230(20^2-6{,}0^2)}2+400\\cdot615.\\]</div><div class=\"facit-matte\">\\[W\\approx2{,}10047\\cdot10^6\\,\\text{J}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Dividera arbetet med tiden</p><p>Medeleffekt är arbete per tidsenhet, inte effekten i ett enskilt ögonblick:</p><div class=\"facit-matte\">\\[P_\\mathrm{medel}=\\frac Wt\\approx\\frac{2{,}10047\\cdot10^6}{50}=4{,}20094\\cdot10^4\\,\\text{W}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(42\\,\\text{kW}\\).</p></div></div></div></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En bil på 1230 kg kör 615 m uppför en backe vars lutningsvinkel θ uppfyller tanθ = 0,225. Farten ökar från 6,0 till 20 m/s. Motståndskraften är konstant 400 N. Bortse från hjulens rotation. Hur stort mekaniskt arbete utför motorn? Svara i J. Svara med tre värdesiffror.</li><li>En bilmotor utför det mekaniska arbetet 2,1 MJ under 50 s. Använd P = W/t och bestäm motorns mekaniska medeleffekt i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Backens längd är inte höjdskillnaden. Från den givna tangenten får vi</p>\\[\\begin{gathered}\\sin\\theta=\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}\\\\h=615\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}=135\\,\\mathrm m\\end{gathered}\\]<p>Motorn ökar rörelseenergin och lägesenergin samt utför arbete mot motståndet.</p>\\[\\Delta E_k=\\frac{1230(20^2-6{,}0^2)}2=223860\\,\\mathrm J\\]\\[\\Delta E_p=1230\\cdot9{,}82\\cdot135=1630611\\,\\mathrm J\\]\\[E_\\text{motstånd}=400\\cdot615=246000\\,\\mathrm J\\]\\[\\begin{gathered}W=223860+1630611+246000\\\\\\approx2{,}10\\cdot10^6\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Omvandla arbetet till joule: 2,1 MJ = 2 100 000 J. Medeleffekt är arbete delat med tid.</p>\\[P_\\text{medel}=\\frac Wt=\\frac{2100000}{50}=42000\\,\\mathrm W\\]</div>",
     "id": "5.546",
     "miniräknare": true,
     "geogebra": false,
@@ -141703,11 +141703,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       2100471.0,
-      42009.42
+      42000.0
     ],
     "tolerans": [
-      51000.0,
-      630.0
+      5000.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -141728,52 +141728,52 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör motorn minst?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 230 kg) kör 615 m uppför en backe med \\(\\tan\\theta=0{,}225\\). Farten ökar från 6,0 m/s till 20 m/s på 50 s. Den bromsande kraften är 400 N.</p><p>Hur stort arbete gör motorn minst?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm höjdskillnaden</p><p>Backens längd är 615 m. Från \\(\\tan\\theta=0{,}225\\) fås</p><div class=\"facit-matte\">\\[\\sin\\theta=\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}\\approx0{,}21951.\\]</div><div class=\"facit-matte\">\\[h=615\\sin\\theta\\approx135{,}00\\,\\text{m}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Summera de tre energibidragen</p><p>Motorn ökar både lägesenergin och rörelseenergin, och utför arbete mot den bromsande kraften:</p><div class=\"facit-matte\">\\[W=mgh+\\frac{m(v_2^2-v_1^2)}2+F_\\mathrm{broms}s.\\]</div><div class=\"facit-matte\">\\[W=1230\\cdot9{,}82\\cdot615\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}+\\frac{1230(20^2-6{,}0^2)}2+400\\cdot615.\\]</div><div class=\"facit-matte\">\\[W\\approx2{,}10047\\cdot10^6\\,\\text{J}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(2{,}1\\,\\text{MJ}\\).</p></div>",
-        "ledtrad": "<p>Tre poster.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "En bil på 1230 kg kör 615 m uppför en backe vars lutningsvinkel θ uppfyller tanθ = 0,225. Farten ökar från 6,0 till 20 m/s. Motståndskraften är konstant 400 N. Bortse från hjulens rotation. Hur stort mekaniskt arbete utför motorn? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En bil på 1230 kg kör 615 m uppför en backe vars lutningsvinkel θ uppfyller tanθ = 0,225. Farten ökar från 6,0 till 20 m/s. Motståndskraften är konstant 400 N. Bortse från hjulens rotation. Hur stort mekaniskt arbete utför motorn? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Backens längd är inte höjdskillnaden. Från den givna tangenten får vi</p>\\[\\begin{gathered}\\sin\\theta=\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}\\\\h=615\\frac{0{,}225}{\\sqrt{1+0{,}225^2}}=135\\,\\mathrm m\\end{gathered}\\]<p>Motorn ökar rörelseenergin och lägesenergin samt utför arbete mot motståndet.</p>\\[\\Delta E_k=\\frac{1230(20^2-6{,}0^2)}2=223860\\,\\mathrm J\\]\\[\\Delta E_p=1230\\cdot9{,}82\\cdot135=1630611\\,\\mathrm J\\]\\[E_\\text{motstånd}=400\\cdot615=246000\\,\\mathrm J\\]\\[\\begin{gathered}W=223860+1630611+246000\\\\\\approx2{,}10\\cdot10^6\\,\\mathrm J\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Summera ökningen i lägesenergi, ökningen i rörelseenergi och motståndets energiförlust.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är motorns medeleffekt? Svara i W.",
-        "t": "<p>En bilmotor utför arbetet 2,1 MJ under 50 s.</p><p>Hur stor är motorns medeleffekt? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Använd arbetet som ges på kortet</p><p>Motorns arbete är \\(W=2{,}1\\,\\text{MJ}=2{,}1\\cdot10^6\\,\\text{J}\\) och tiden är \\(t=50\\,\\text{s}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna medeleffekten</p><p>Medeleffekt är arbete dividerat med tid:</p><div class=\"facit-matte\">\\[P_\\mathrm{medel}=\\frac Wt=\\frac{2{,}1\\cdot10^6}{50}=42000\\,\\text{W}=42\\,\\text{kW}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42\\,\\text{kW}\\).</p></div>",
-        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "fraga": "En bilmotor utför det mekaniska arbetet 2,1 MJ under 50 s. Använd P = W/t och bestäm motorns mekaniska medeleffekt i W. Svara med tre värdesiffror.",
+        "t": "<p>En bilmotor utför det mekaniska arbetet 2,1 MJ under 50 s. Använd P = W/t och bestäm motorns mekaniska medeleffekt i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla arbetet till joule: 2,1 MJ = 2 100 000 J. Medeleffekt är arbete delat med tid.</p>\\[P_\\text{medel}=\\frac Wt=\\frac{2100000}{50}=42000\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Omvandla MJ till J och dela arbetet med tiden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Energiprincipen med arbete.</p>",
     "traningsniva": 4,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "fyrdubblad fart",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett föremål (5,0 kg) dras 7,0 m med 47 N på ett vågrätt underlag med friktionstalet 0,50. Farten i slutet är fyra gånger farten i början. Bestäm startfarten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[47\\cdot7{,}0-0{,}50\\cdot5{,}0\\cdot9{,}82\\cdot7{,}0=\\dfrac{5{,}0(16-1)v_A^2}{2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett föremål på 5,0 kg dras 7,0 m på ett vågrätt underlag av en konstant vågrät kraft på 47 N. Glidfriktionstalet är 0,50. Slutfarten är fyra gånger startfarten. Bestäm startfarten i m/s. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrätt underlag är normalkraften mg. Beräkna friktionskraften och det sammanlagda arbetet.</p>\\[F_\\text{fr}=0{,}50\\cdot5{,}0\\cdot9{,}82=24{,}55\\,\\mathrm N\\]\\[W_\\text{netto}=(47-24{,}55)\\cdot7{,}0=157{,}15\\,\\mathrm J\\]<p>Sätt startfarten till u. Slutfarten är 4u, så ökningen i rörelseenergi är</p>\\[\\Delta E_k=\\frac{5{,}0((4u)^2-u^2)}2=37{,}5u^2\\]\\[37{,}5u^2=157{,}15\\]\\[u=\\sqrt{\\frac{157{,}15}{37{,}5}}\\approx2{,}05\\,\\mathrm{m/s}\\]</div>",
     "id": "5.547",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 2.047111786558484,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -141783,17 +141783,17 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "bil med konstant effekt i backe",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt är 30 kW när farten är 10 m/s. Motorns nyttiga medeleffekt under de följande 10 s är också 30 kW. Farten ökar från 10 m/s till 15 m/s på 10 s.</p><ol type=\"a\"><li>Hur stor är accelerationen när farten är 10 m/s? Svara i m/s².</li><li>Hur lång sträcka kör bilen under dessa 10 s? Svara i m.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Effekten ger drivkraften P/v. Dra bort motståndskraften och tyngdkraftens del längs backen. Den kraft som återstår ger accelerationen.</p><div class=\"facit-matte\">\\[\\begin{gathered}F_\\mathrm{driv}=\\frac{30000}{10}=3000\\,\\mathrm N\\\\ a=\\frac{3000-400-1300\\cdot9{,}82\\cdot0{,}10}{1300}\\approx1{,}018\\,\\mathrm{m/s^2}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1,02 m/s².</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Motorns arbete ökar rörelseenergin och lägesenergin samt övervinner motståndet. Höjdökningen är sträckan gånger backens sinus.</p><div class=\"facit-matte\">\\[\\begin{gathered}30000\\cdot10=\\frac{1300(15^2-10^2)}2+(1300\\cdot9{,}82\\cdot0{,}10+400)s\\\\\\Rightarrow\\  s\\approx130{,}5\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 130 m.</p></div></div></div></div></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. När farten är 10 m/s är motorns mekaniska effekt 30 kW. Hur stor är accelerationen i det ögonblicket? Svara i m/s². Svara med tre värdesiffror.</li><li>En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. Farten ökar från 10 till 15 m/s på 10 s. Motorns mekaniska medeleffekt under dessa 10 s är 30 kW. Hur långt kör bilen under dessa 10 s? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Massan är 1300 kg och effekten 30 000 W. Den momentana effekten ger drivkraften.</p>\\[F_\\text{driv}=\\frac Pv=\\frac{30000}{10}=3000\\,\\mathrm N\\]<p>Tyngdkraftens del längs backen och motståndet verkar bakåt.</p>\\[F_g=1300\\cdot9{,}82\\cdot0{,}10=1276{,}6\\,\\mathrm N\\]\\[F_\\text{netto}=3000-1276{,}6-400=1323{,}4\\,\\mathrm N\\]\\[a=\\frac{1323{,}4}{1300}\\approx1{,}02\\,\\mathrm{m/s^2}\\]<p><strong>b)</strong></p><p>Motorns arbete är medeleffekten gånger tiden. Beräkna även ökningen i rörelseenergi.</p>\\[W=30000\\cdot10=300000\\,\\mathrm J\\]\\[\\Delta E_k=\\frac{1300(15^2-10^2)}2=81250\\,\\mathrm J\\]<p>Återstående arbete ökar lägesenergin och övervinner motståndet. Höjdökningen är 0,10s.</p>\\[\\begin{gathered}300000-81250\\\\=(1300\\cdot9{,}82\\cdot0{,}10+400)s\\end{gathered}\\]\\[s=\\frac{218750}{1676{,}6}\\approx130\\,\\mathrm m\\]</div>",
     "id": "5.548",
     "miniräknare": true,
     "geogebra": false,
@@ -141804,8 +141804,8 @@ window.BANK = [
       130.47238458785637
     ],
     "tolerans": [
-      0.051,
-      2.0
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -141826,24 +141826,24 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,3 ton) kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Den bromsande kraften är 400 N och motorns nyttiga effekt är 30 kW när farten är 10 m/s. Motorns nyttiga medeleffekt under de följande 10 s är också 30 kW. Farten ökar från 10 m/s till 15 m/s på 10 s.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är accelerationen i det ögonblicket? Svara i m/s².",
-        "t": "<p>En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. När farten är 10 m/s är motorns nyttiga effekt 30 kW. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen i det ögonblicket? Svara i m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Effekten ger drivkraften P/v. Dra bort motståndskraften och tyngdkraftens del längs backen. Den kraft som återstår ger accelerationen.</p><div class=\"facit-matte\">\\[\\begin{gathered}F_\\mathrm{driv}=\\frac{30000}{10}=3000\\,\\mathrm N\\\\ a=\\frac{3000-400-1300\\cdot9{,}82\\cdot0{,}10}{1300}\\approx1{,}018\\,\\mathrm{m/s^2}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1,02 m/s².</p></div></div>",
+        "fraga": "En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. När farten är 10 m/s är motorns mekaniska effekt 30 kW. Hur stor är accelerationen i det ögonblicket? Svara i m/s². Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. När farten är 10 m/s är motorns mekaniska effekt 30 kW. Hur stor är accelerationen i det ögonblicket? Svara i m/s². Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1300 kg och effekten 30 000 W. Den momentana effekten ger drivkraften.</p>\\[F_\\text{driv}=\\frac Pv=\\frac{30000}{10}=3000\\,\\mathrm N\\]<p>Tyngdkraftens del längs backen och motståndet verkar bakåt.</p>\\[F_g=1300\\cdot9{,}82\\cdot0{,}10=1276{,}6\\,\\mathrm N\\]\\[F_\\text{netto}=3000-1276{,}6-400=1323{,}4\\,\\mathrm N\\]\\[a=\\frac{1323{,}4}{1300}\\approx1{,}02\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>\\(P=Fv\\).</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång sträcka kör bilen under dessa 10 s? Svara i m.",
-        "t": "<p>En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. Farten ökar från 10 till 15 m/s på 10 s. Motorns nyttiga medeleffekt under dessa 10 s är 30 kW. Använd g = 9,82 m/s².</p><p>Hur lång sträcka kör bilen under dessa 10 s? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Motorns arbete ökar rörelseenergin och lägesenergin samt övervinner motståndet. Höjdökningen är sträckan gånger backens sinus.</p><div class=\"facit-matte\">\\[\\begin{gathered}30000\\cdot10=\\frac{1300(15^2-10^2)}2+(1300\\cdot9{,}82\\cdot0{,}10+400)s\\\\\\Rightarrow\\  s\\approx130{,}5\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 130 m.</p></div></div>",
+        "fraga": "En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. Farten ökar från 10 till 15 m/s på 10 s. Motorns mekaniska medeleffekt under dessa 10 s är 30 kW. Hur långt kör bilen under dessa 10 s? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En bil på 1,3 ton kör uppför en backe med \\(\\sin\\theta=0{,}10\\). Friktion och luftmotstånd bromsar med sammanlagt 400 N. Farten ökar från 10 till 15 m/s på 10 s. Motorns mekaniska medeleffekt under dessa 10 s är 30 kW. Hur långt kör bilen under dessa 10 s? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Motorns arbete är medeleffekten gånger tiden. Beräkna även ökningen i rörelseenergi.</p>\\[W=30000\\cdot10=300000\\,\\mathrm J\\]\\[\\Delta E_k=\\frac{1300(15^2-10^2)}2=81250\\,\\mathrm J\\]<p>Återstående arbete ökar lägesenergin och övervinner motståndet. Höjdökningen är 0,10s.</p>\\[\\begin{gathered}300000-81250\\\\=(1300\\cdot9{,}82\\cdot0{,}10+400)s\\end{gathered}\\]\\[s=\\frac{218750}{1676{,}6}\\approx130\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Motorns arbete fördelas.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -141852,7 +141852,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>\\(P=Fv\\) och energiprincipen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
     "spel": true
@@ -141860,25 +141860,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "bromsande kraft ur effekt",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (2,0 ton) kör 80 m uppför en backe som lutar 5,7° på 10 s, och farten ökar likformigt från 7,0 m/s till 9,0 m/s. Motorns nyttiga medeleffekt under dessa 10 s är 24 kW. Bestäm den bromsande kraften.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelfarten är \\(\\dfrac{7{,}0+9{,}0}{2}=8{,}0\\) m/s, vilket stämmer med 80 m på 10 s.</p></div><div class=\"facit-stycke\"><p>Motorns arbete går till rörelseenergi, lägesenergi och arbete mot den bromsande kraften:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[24\\,000\\cdot10=\\dfrac{2\\,000(9{,}0^2-7{,}0^2)}{2}+2\\,000\\cdot9{,}82\\cdot80\\sin5{,}7^\\circ+80F\\]</div></div><div class=\"facit-stycke\"><p>\\(240\\,000=32\\,000+156\\,050+80F\\), alltså \\(F\\approx649\\) N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(649\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 2,0 ton kör 80 m uppför en backe som lutar 5,7° mot horisontalplanet. Farten ökar från 7,0 till 9,0 m/s under 10 s. Motorns mekaniska medeleffekt under tiden är 24 kW. Bortse från hjulens rotation. Bestäm den konstanta motståndskraftens storlek i N. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 2000 kg och effekten 24 000 W. Motorns arbete är</p>\\[W=24000\\cdot10=240000\\,\\mathrm J\\]<p>Beräkna ökningen i rörelseenergi och lägesenergi. Höjdökningen är 80 sin5,7°.</p>\\[\\Delta E_k=\\frac{2000(9{,}0^2-7{,}0^2)}2=32000\\,\\mathrm J\\]\\[\\begin{gathered}\\Delta E_p=2000\\cdot9{,}82\\cdot80\\sin5{,}7^\\circ\\\\\\approx156051{,}1908\\,\\mathrm J\\end{gathered}\\]<p>Det arbete som återstår går till motståndet. Dela med sträckan 80 m och använd oavrundad lägesenergi.</p>\\[F=\\frac{240000-32000-\\Delta E_p}{80}\\approx649\\,\\mathrm N\\]</div>",
     "id": "5.549",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 649.3601150349299,
-    "tolerans": 9.7,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Motorns arbete fördelas.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarEnhet": "N",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 2,
@@ -141887,25 +141887,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelseenergi",
-    "niva": "A",
+    "niva": "C",
     "typ": "låda med vajer i vinkel",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En låda (120 kg) dras uppför ett plan med \\(\\tan\\alpha=\\tfrac34\\) av en vajer med kraften 1,5 kN, som bildar vinkeln \\(\\alpha\\) med planet. Friktionen är 180 N. I A är farten 5,0 m/s. Bestäm farten 10 m längre upp.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=0{,}6\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\cos\\alpha=0{,}8\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{120(v^2-25)}{2}=1\\,500\\cdot0{,}8\\cdot10-120\\cdot9{,}82\\cdot0{,}6\\cdot10-180\\cdot10\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda på 120 kg dras uppför ett plan. Planets lutningsvinkel α uppfyller tanα = 3/4. Vajern drar med 1,5 kN framåt och uppåt, med vinkeln α över planet. Friktionskraften är konstant 180 N. Startfarten är 5,0 m/s. Bestäm farten efter 10 m längs planet i m/s. Använd g = 9,82 m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>tanα = 3/4 ger en triangel med sidorna 3, 4 och 5. Därför är sinα = 0,6 och cosα = 0,8. Vajerns kraft är 1500 N.</p><p>Beräkna startenergin och arbetet av vajerns del längs planet.</p>\\[E_{k,1}=\\frac{120\\cdot5{,}0^2}{2}=1500\\,\\mathrm J\\]\\[W_\\text{vajer}=1500\\cdot0{,}8\\cdot10=12000\\,\\mathrm J\\]<p>Höjdökningen är 10 · 0,6 = 6 m. Dra bort ökningen i lägesenergi och friktionens energiförlust.</p>\\[\\Delta E_p=120\\cdot9{,}82\\cdot6=7070{,}4\\,\\mathrm J\\]\\[E_\\text{fr}=180\\cdot10=1800\\,\\mathrm J\\]\\[\\begin{gathered}E_{k,2}=1500+12000-7070{,}4-1800\\\\=4629{,}6\\,\\mathrm J\\end{gathered}\\]\\[v=\\sqrt{\\frac{2\\cdot4629{,}6}{120}}\\approx8{,}78\\,\\mathrm{m/s}\\]</div>",
     "id": "5.550",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Nettoarbete och energiförluster",
     "svarstyp": "numeriskt",
     "rättSvar": 8.784076502399099,
-    "tolerans": 0.132,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bara vajerns komposant längs planet gör arbete.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Bara vajerkraftens del längs planet utför arbete.</p>",
+    "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelseenergi__nettoarbete_och_energiforluster",
     "arbetsinsats": 3,
@@ -175736,7 +175736,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "typ": "rörelseenergi vid dubblerad massa",
-    "t": "<p>Vagn A har massan 2 kg och vagn B massan 4 kg. Båda kör i 5 m/s. Hur många gånger så stor rörelseenergi har B som A?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B med angivna massor och farter.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"110\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 5 m/s</text><line x1=\"60\" y1=\"92\" x2=\"160\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"160,92 150,87 150,97\" fill=\"#2563eb\"/><rect x=\"50\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"73\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"147\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"23\" y1=\"192\" x2=\"197\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"110\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 2 kg</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"345\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 5 m/s</text><line x1=\"295\" y1=\"92\" x2=\"395\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"395,92 385,87 385,97\" fill=\"#2563eb\"/><rect x=\"285\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"308\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"382\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"258\" y1=\"192\" x2=\"432\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 4 kg</text></g></svg></div>",
+    "t": "<p>Vagn A har massan 2 kg och vagn B massan 4 kg. Båda kör i 5 m/s. Vid samma fart ger dubbla massan dubbla rörelseenergin. Hur många gånger så stor rörelseenergi har B som A?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Två vagnar A och B med angivna massor och farter.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"110\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"110\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 5 m/s</text><line x1=\"60\" y1=\"92\" x2=\"160\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"160,92 150,87 150,97\" fill=\"#2563eb\"/><rect x=\"50\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"73\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"147\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"23\" y1=\"192\" x2=\"197\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"110\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 2 kg</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"345\" y=\"65\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">v = 5 m/s</text><line x1=\"295\" y1=\"92\" x2=\"395\" y2=\"92\" stroke=\"#2563eb\" stroke-width=\"3\"/><polygon points=\"395,92 385,87 385,97\" fill=\"#2563eb\"/><rect x=\"285\" y=\"125\" width=\"120\" height=\"42\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><circle cx=\"308\" cy=\"178\" r=\"11\" fill=\"#475569\"/><circle cx=\"382\" cy=\"178\" r=\"11\" fill=\"#475569\"/><line x1=\"258\" y1=\"192\" x2=\"432\" y2=\"192\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"345\" y=\"232\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">m = 4 kg</text></g></svg></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Vid samma fart ger dubblerad massa dubblerad rörelseenergi. B har dubbelt så stor massa som A.</p><div class=\"facit-matte\">\\[\\frac{E_B}{E_A}=\\frac{4}{2}=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 gånger så stor.</p></div></div>",
     "ledtrad": "<p>Vilken storhet ändras i sambandet Eₖ = mv²/2?</p>",
     "traningsniva": 1,
@@ -175750,7 +175750,7 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "rättSvar": 2.0,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "familjNyckel": "rorelseenergi__rorelseenergi"
@@ -175777,7 +175777,7 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "rättSvar": 4.0,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "familjNyckel": "rorelseenergi__rorelseenergi"
@@ -175916,7 +175916,7 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
+    "rättSvar": 9.0,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "svarEnhet": "J",
@@ -175972,7 +175972,7 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "rättSvar": 4.0,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s",

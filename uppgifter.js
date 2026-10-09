@@ -10140,7 +10140,7 @@ window.BANK = [
     "omr": "vt_diagram",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>Daniel springer längs en rak bana. Först springer han framåt med hastigheten 4,0 m/s i 12 sekunder. Sedan står han stilla i 4,0 sekunder innan han springer tillbaka med hastigheten 6,0 m/s i 6,0 sekunder. Anta att accelerationerna sker momentant.</p>\n<ol type=\"a\"><li>Rita ett v-t-diagram som visar Daniels rörelse.</li>\n<li>Hur långt från utgångsläget befinner sig Daniel efter 22 sekunder?</li>\n<li>Vilken medelhastighet hade han under hela rörelsen?</li></ol>",
+    "t": "<p>Daniel springer längs en rak bana. Först springer han framåt med hastigheten 4,0 m/s i 12 sekunder. Sedan står han stilla i 4,0 sekunder innan han springer tillbaka med hastigheten 6,0 m/s i 6,0 sekunder. Räkna med att farten ändras direkt när han startar och stannar.</p>\n<ol type=\"a\"><li>Rita ett v-t-diagram som visar Daniels rörelse.</li>\n<li>Hur långt från utgångsläget befinner sig Daniel efter 22 sekunder?</li>\n<li>Vilken medelhastighet hade han under hela rörelsen?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"106.36\" y1=\"45\" x2=\"106.36\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"147.73\" y1=\"45\" x2=\"147.73\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"189.09\" y1=\"45\" x2=\"189.09\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"230.45\" y1=\"45\" x2=\"230.45\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"271.82\" y1=\"45\" x2=\"271.82\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"313.18\" y1=\"45\" x2=\"313.18\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"354.55\" y1=\"45\" x2=\"354.55\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"395.91\" y1=\"45\" x2=\"395.91\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"437.27\" y1=\"45\" x2=\"437.27\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"478.64\" y1=\"45\" x2=\"478.64\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"234.00\" x2=\"520\" y2=\"234.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"213.00\" x2=\"520\" y2=\"213.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"192.00\" x2=\"520\" y2=\"192.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"171.00\" x2=\"520\" y2=\"171.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"129.00\" x2=\"520\" y2=\"129.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"108.00\" x2=\"520\" y2=\"108.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"87.00\" x2=\"520\" y2=\"87.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"66.00\" x2=\"520\" y2=\"66.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 129.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,45.0 313.18181818181813,45.0 313.18181818181813,129.0 395.90909090909093,129.0 395.90909090909093,255.0 520.0,255.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"271.82\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"478.64\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−6</text><text x=\"57\" y=\"238.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−5</text><text x=\"57\" y=\"217.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−4</text><text x=\"57\" y=\"196.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−3</text><text x=\"57\" y=\"175.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−2</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−1</text><text x=\"57\" y=\"133.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"112.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1</text><text x=\"57\" y=\"91.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"57\" y=\"70.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">3</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text></svg></span><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Framåt är positivt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Stillastående ger noll och tillbaka ger negativ hastighet.</p></div><div class=\"facit-stycke\"><p>Grafen visas ovan.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förskjutningen är den tecknade arean.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta x=4{,}0\\cdot12-6{,}0\\cdot6{,}0=12\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Medelhastigheten använder förskjutningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{12}{22}=0{,}545\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Medelfarten skulle i stället bli</p><div class=\"facit-matte\">\\[\\frac{84}{22}=3{,}82\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Daniel slutar \\(12\\ \\mathrm m\\) framför utgångsläget. Medelhastigheten är cirka \\(+0{,}55\\ \\mathrm{m/s}\\).</p></div></div>",
     "familj": "Tolka och rita v-t-diagram",
     "formaga": [
@@ -13089,7 +13089,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna medelhastighet över en mycket lång sträcka och tid, ur text, sökt tid och hastighet",
     "poang": "(3/0/0)",
-    "t": "<p>En silvertärnas sammanlagda flygsträcka under en flyttning är 70 000 km. Hela flyttningen, inklusive pauser, tar 8 månader. Räkna med 30 dygn per månad.</p><ol type=\"a\"><li>Hur många sekunder är 8 månader i modellen?</li><li>Bestäm medelfarten för hela flyttningen i m/s med två decimaler.</li><li>Bestäm samma medelfart i km/h med en decimal.</li></ol>",
+    "t": "<p>En silvertärnas sammanlagda flygsträcka under en flyttning är 70 000 km. Hela flyttningen, inklusive pauser, tar 8 månader. Räkna med 30 dygn per månad.</p><ol type=\"a\"><li>Hur många sekunder är 8 månader?</li><li>Bestäm medelfarten för hela flyttningen i m/s med två decimaler.</li><li>Bestäm samma medelfart i km/h med en decimal.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[8\\cdot 30\\cdot 24\\cdot 3600=20\\,736\\,000\\, \\mathrm{s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{70\\,000\\,000}{20\\,736\\,000}\\approx 3{,}38\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><p>Pauser ingår i denna medelfart.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{70\\,000}{8\\cdot 30\\cdot 24}\\approx 12{,}2\\, \\mathrm{km/h}\\]</div></div></div><div class=\"facit-stycke\"><p>Det är inte farten enbart under flygning.</p></div></div></div></div></div>",
     "familj": "Medelhastighet och medelfart",
     "formaga": [
@@ -13133,8 +13133,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många sekunder är 8 månader i modellen?",
-        "t": "<p>En silvertärnas sammanlagda flygsträcka under en flyttning är 70 000 km. Hela flyttningen, inklusive pauser, tar 8 månader. Räkna med 30 dygn per månad.</p><p>Hur många sekunder är 8 månader i modellen?</p>",
+        "fraga": "Hur många sekunder är 8 månader?",
+        "t": "<p>En silvertärnas sammanlagda flygsträcka under en flyttning är 70 000 km. Hela flyttningen, inklusive pauser, tar 8 månader. Räkna med 30 dygn per månad.</p><p>Hur många sekunder är 8 månader?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[8\\cdot 30\\cdot 24\\cdot 3600=20\\,736\\,000\\, \\mathrm{s}\\]</div></div></div></div></div>",
         "ledtrad": "<p>Även pauserna ingår i hela flyttningens tid.</p>",
         "niva": "E",
@@ -13791,7 +13791,7 @@ window.BANK = [
     "omr": "st_diagram",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En person rör sig längs en rak korridor. Lägena mäts varannan sekund.</p>\n<table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr>\n<tr><td>0</td><td>0</td></tr><tr><td>2</td><td>3,0</td></tr><tr><td>4</td><td>6,0</td></tr>\n<tr><td>6</td><td>6,0</td></tr><tr><td>8</td><td>6,0</td></tr><tr><td>10</td><td>2,0</td></tr></table>\n<ol type=\"a\"><li>Rita ett s-t-diagram.</li><li>Beskriv rörelsen i ord.</li><li>Rita motsvarande v-t-diagram.</li></ol><p>Anta konstant hastighet mellan intilliggande mättillfällen och momentana ändringar vid brytpunkterna. Låt s beteckna läge, med rörelsen från start mot 6 m som positiv riktning.</p>",
+    "t": "<p>En person rör sig längs en rak korridor. Lägena mäts varannan sekund.</p>\n<table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr>\n<tr><td>0</td><td>0</td></tr><tr><td>2</td><td>3,0</td></tr><tr><td>4</td><td>6,0</td></tr>\n<tr><td>6</td><td>6,0</td></tr><tr><td>8</td><td>6,0</td></tr><tr><td>10</td><td>2,0</td></tr></table>\n<ol type=\"a\"><li>Rita ett s-t-diagram.</li><li>Beskriv rörelsen i ord.</li><li>Rita motsvarande v-t-diagram.</li></ol><p>Räkna med konstant hastighet mellan mätningarna och att hastigheten ändras direkt vid varje ny mätning. Låt s beteckna läge, med rörelsen från start mot 6 m som positiv riktning.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"110.50\" y1=\"45\" x2=\"110.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"156.00\" y1=\"45\" x2=\"156.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"201.50\" y1=\"45\" x2=\"201.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"247.00\" y1=\"45\" x2=\"247.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"292.50\" y1=\"45\" x2=\"292.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"338.00\" y1=\"45\" x2=\"338.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"383.50\" y1=\"45\" x2=\"383.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"429.00\" y1=\"45\" x2=\"429.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"474.50\" y1=\"45\" x2=\"474.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"237.50\" x2=\"520\" y2=\"237.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"220.00\" x2=\"520\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"202.50\" x2=\"520\" y2=\"202.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"185.00\" x2=\"520\" y2=\"185.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"167.50\" x2=\"520\" y2=\"167.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"132.50\" x2=\"520\" y2=\"132.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"115.00\" x2=\"520\" y2=\"115.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"97.50\" x2=\"520\" y2=\"97.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"80.00\" x2=\"520\" y2=\"80.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"62.50\" x2=\"520\" y2=\"62.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">s (m)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,255.0 247.0,45.0 429.0,45.0 520.0,185.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"110.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1</text><text x=\"156.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"201.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">3</text><text x=\"247.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"292.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">5</text><text x=\"338.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">6</text><text x=\"383.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">7</text><text x=\"429.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text><text x=\"474.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">9</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"224.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1</text><text x=\"57\" y=\"189.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">3</text><text x=\"57\" y=\"119.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"57\" y=\"84.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">5</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">6</text></svg></span><span class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"110.50\" y1=\"45\" x2=\"110.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"156.00\" y1=\"45\" x2=\"156.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"201.50\" y1=\"45\" x2=\"201.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"247.00\" y1=\"45\" x2=\"247.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"292.50\" y1=\"45\" x2=\"292.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"338.00\" y1=\"45\" x2=\"338.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"383.50\" y1=\"45\" x2=\"383.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"429.00\" y1=\"45\" x2=\"429.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"474.50\" y1=\"45\" x2=\"474.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"240.00\" x2=\"520\" y2=\"240.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"225.00\" x2=\"520\" y2=\"225.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"210.00\" x2=\"520\" y2=\"210.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"195.00\" x2=\"520\" y2=\"195.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"180.00\" x2=\"520\" y2=\"180.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"165.00\" x2=\"520\" y2=\"165.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"135.00\" x2=\"520\" y2=\"135.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"120.00\" x2=\"520\" y2=\"120.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"105.00\" x2=\"520\" y2=\"105.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"90.00\" x2=\"520\" y2=\"90.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"75.00\" x2=\"520\" y2=\"75.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"60.00\" x2=\"520\" y2=\"60.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 135.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,45.0 247.0,45.0 247.0,135.0 429.0,135.0 429.0,255.0 520.0,255.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"110.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1</text><text x=\"156.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"201.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">3</text><text x=\"247.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"292.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">5</text><text x=\"338.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">6</text><text x=\"383.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">7</text><text x=\"429.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text><text x=\"474.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">9</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−2</text><text x=\"57\" y=\"229.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−1,5</text><text x=\"57\" y=\"199.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−1</text><text x=\"57\" y=\"169.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">−0,5</text><text x=\"57\" y=\"139.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"109.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0,5</text><text x=\"57\" y=\"79.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1,5</text></svg></span><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Placera tabellpunkterna i ett läge–tid-diagram och dra räta linjer mellan dem.</p></div><div class=\"facit-stycke\"><p>Grafen visas ovan.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lutningen ger hastigheten i varje fas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_{0-4}=\\frac{6-0}{4}=1{,}5\\ \\mathrm{m/s}\\]\\[v_{4-8}=0\\]\\[v_{8-10}=\\frac{2-6}{2}=-2{,}0\\ \\mathrm{m/s}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Översätt de tre lutningarna till ett hastighet–tid-diagram.</p></div><div class=\"facit-stycke\"><p>Personen går framåt i 4 s, står stilla i 4 s och går därefter tillbaka i 2 s.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hastigheterna är \\(+1{,}5\\), \\(0\\) och \\(-2{,}0\\ \\mathrm{m/s}\\). Personen slutar 2,0 m från startpunkten.</p></div></div>",
     "familj": "Tolka och rita s-t-diagram",
     "formaga": [
@@ -20538,7 +20538,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma reaktionstid ur en fallsträcka, ur text, sökt tid",
     "poang": "(2/2/0)",
-    "t": "<p>Använd g = 9,82 m/s².</p><p>Reaktionstiden går att mäta med en linjal. En kamrat håller linjalen lodrätt mellan dina fingrar och släpper den utan förvarning, och du griper den så fort du kan.</p>\n<ol type=\"a\"><li>Linjalen faller 18 cm innan du griper den. Vilken reaktionstid har du?</li>\n<li>En annan person griper först efter 25 cm. Hur mycket längre är den reaktionstiden?</li>\n<li>På en linjal med tidsskala i stället för centimeterskala ligger markeringarna för 0,10 s, 0,20 s och 0,30 s inte lika långt från varandra. Förklara varför.</li></ol><p>Bortse från luftmotståndet.</p><p>Modellera greppet som momentant: tiden fram till greppet används som en uppskattning av reaktionstiden.</p>",
+    "t": "<p>Använd g = 9,82 m/s².</p><p>Reaktionstiden går att mäta med en linjal. En kamrat håller linjalen lodrätt mellan dina fingrar och släpper den utan förvarning, och du griper den så fort du kan.</p>\n<ol type=\"a\"><li>Linjalen faller 18 cm innan du griper den. Vilken reaktionstid har du?</li>\n<li>En annan person griper först efter 25 cm. Hur mycket längre är den reaktionstiden?</li>\n<li>På en linjal med tidsskala i stället för centimeterskala ligger markeringarna för 0,10 s, 0,20 s och 0,30 s inte lika långt från varandra. Förklara varför.</li></ol><p>Bortse från luftmotståndet.</p><p>Räkna tiden tills du griper linjalen som din reaktionstid.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Linjalens fall börjar från vila.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t_1=\\sqrt{\\frac{2s}{g}}=\\sqrt{\\frac{2\\cdot0{,}18}{9{,}82}}\\approx0{,}191\\ \\mathrm s\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gör samma beräkning för 25 cm.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t_2=\\sqrt{\\frac{2\\cdot0{,}25}{9{,}82}}\\approx0{,}226\\ \\mathrm s\\]\\[\\Delta t=\\sqrt{2\\cdot0{,}25/9{,}82}-\\sqrt{2\\cdot0{,}18/9{,}82}\\approx0{,}034\\ \\mathrm s\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fallsträckan är proportionell mot tidens kvadrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s(0{,}10)=4{,}91\\ \\mathrm{cm}\\]\\[s(0{,}20)\\approx19{,}6\\ \\mathrm{cm}\\]\\[s(0{,}30)\\approx44{,}2\\ \\mathrm{cm}\\]</div></div><div class=\"facit-stycke\"><p>Markeringarna måste därför ligga allt glesare ju längre ned på linjalen man kommer.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Reaktionstiderna är cirka \\(0{,}191\\ \\mathrm s\\) och \\(0{,}226\\ \\mathrm s\\), en skillnad på \\(0{,}034\\ \\mathrm s\\).</p></div>",
     "familj": "Reaktions- och bromssträcka",
     "formaga": [
@@ -20672,7 +20672,7 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>En bil kör i 70 km/h. I en modell är den konstanta retardationen på torr asfalt vid en fullbromsning 7,0 m/s², på isig väg bara 1,5 m/s².</p>\n<ol type=\"a\"><li>Beräkna bromssträckan i båda fallen.</li><li>Hur många gånger längre blir den på is?</li>\n<li>Hur förhåller sig kvoten till kvoten mellan retardationerna?</li></ol>",
+    "t": "<p>En bil kör i 70 km/h. När bilen bromsar är retardationen konstant: 7,0 m/s² på torr asfalt och 1,5 m/s² på is.</p>\n<ol type=\"a\"><li>Beräkna bromssträckan i båda fallen.</li><li>Hur många gånger längre blir den på is?</li>\n<li>Hur förhåller sig kvoten till kvoten mellan retardationerna?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla startfarten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_0=\\frac{70}{3{,}6}=19{,}444\\ldots\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid stopp gäller noll slutfart i sambandet utan tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{v_0^2}{2a}\\]\\[s_{\\mathrm{torr}}=\\frac{(70/3{,}6)^2}{2\\cdot7{,}0}\\approx27{,}0\\ \\mathrm m\\]\\[s_{\\mathrm{is}}=\\frac{(70/3{,}6)^2}{2\\cdot1{,}5}\\approx126\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför sträckorna och retardationerna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{s_{\\mathrm{is}}}{s_{\\mathrm{torr}}}=\\frac{7{,}0}{1{,}5}\\approx4{,}67\\]\\[\\frac{a_{\\mathrm{torr}}}{a_{\\mathrm{is}}}=\\frac{7{,}0}{1{,}5}\\approx4{,}67\\]</div></div><div class=\"facit-stycke\"><p>Bromssträckan är omvänt proportionell mot retardationens storlek när startfarten är densamma.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bromssträckan är cirka \\(27\\ \\mathrm m\\) på torr asfalt och \\(126\\ \\mathrm m\\) på is, alltså \\(4{,}7\\) gånger längre på is.</p></div>",
     "familj": "Reaktions- och bromssträcka",
     "formaga": [
@@ -21880,7 +21880,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna gravitationskraft mellan två massor",
     "poang": "(2/0/0)",
-    "t": "<p>Två homogena klot har massorna 50 kg och 80 kg. Centrumavståndet är 1,5 m och kloten berör inte varandra. Använd F = Gm₁m₂/r² och G = 6,674 · 10⁻¹¹ N m²/kg².</p><p>Bestäm gravitationskraftens storlek i nanonewton (1 nN = 10⁻⁹ N). Svara i nN. Avrunda vid behov till två decimaler.</p>",
+    "t": "<p>Två klot har massorna 50 kg och 80 kg. Massan är jämnt fördelad i kloten. Avståndet mellan deras mittpunkter är 1,5 m och kloten berör inte varandra. Använd F = Gm₁m₂/r² och G = 6,674 · 10⁻¹¹ N m²/kg².</p><p>Bestäm gravitationskraftens storlek i nanonewton (1 nN = 10⁻⁹ N). Svara i nN. Avrunda vid behov till två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{6{,}674\\cdot 10^{-11}\\cdot 50\\cdot 80}{1{,}5^{2}}\\approx 1{,}186489\\cdot 10^{-7}\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Dividera med 10⁻⁹ för nN: cirka 118,6489 nN.</p></div></div><p class=\"facit-svar\">Svaret är 118,65 nN.</p></div>",
     "familj": "Gravitationslagen",
     "formaga": [
@@ -23839,7 +23839,7 @@ window.BANK = [
     "niva": "C",
     "typ": "kombinera densitet med gravitationsfält",
     "poang": "(0/2/0)",
-    "t": "<p>En modellasteroid är en homogen sfär med radien 240 km och densiteten 3200 kg/m³. Bortse från rotation. Använd G = 6,674 · 10⁻¹¹ N m²/kg².</p><p>Bestäm tyngdaccelerationen vid ytan. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+    "t": "<p>En klotformad asteroid har radien 240 km och densiteten 3200 kg/m³. Densiteten är densamma i hela asteroiden. Bortse från rotation. Använd G = 6,674 · 10⁻¹¹ N m²/kg².</p><p>Bestäm tyngdaccelerationen vid ytan. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[R=240\\,000\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan är</p><div class=\"facit-matte\">\\[M=\\frac{\\rho\\cdot 4 \\pi R^{3}}{3}\\approx 1{,}853\\cdot 10^{20}\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Gravitationen ger</p><div class=\"facit-matte\">\\[g=\\frac{G M}{R^{2}}\\approx 0{,}2147\\, \\mathrm{m/s^2}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 0,21 m/s².</p></div>",
     "familj": "Tyngdacceleration på olika höjd och himlakroppar",
     "formaga": [
@@ -26337,7 +26337,7 @@ window.BANK = [
     "niva": "A",
     "typ": "kombinera densitet med gravitationsfält",
     "poang": "(0/2/2)",
-    "t": "<p>Två homogena sfäriska modellplaneter har samma densitet ρ. Planet B har dubbelt så stor radie som planet A. Bortse från rotation.</p><p>a) Ta fram g vid ytan uttryckt med G, ρ och radien R.</p><p>b) Jämför planeternas massor och tyngdaccelerationer.</p><p>c) En elev säger: ”Större radie måste ge mindre g eftersom avståndet står i nämnaren.” Förklara varför slutsatsen inte gäller här.</p><p>d) Hur skulle g i stället ändras om radien fördubblades men planetens massa hölls konstant?</p>",
+    "t": "<p>Två klotformade planeter har densiteten ρ överallt. Planet B har dubbelt så stor radie som planet A. Bortse från rotation.</p><p>a) Ta fram g vid ytan uttryckt med G, ρ och radien R.</p><p>b) Jämför planeternas massor och tyngdaccelerationer.</p><p>c) En elev säger: ”Större radie måste ge mindre g eftersom avståndet står i nämnaren.” Förklara varför slutsatsen inte gäller här.</p><p>d) Hur skulle g i stället ändras om radien fördubblades men planetens massa hölls konstant?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[M=\\rho V=\\frac{\\rho\\cdot 4 \\pi R^{3}}{3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Insatt i g = GM/R² ger detta</p><div class=\"facit-matte\">\\[g=\\frac{4 \\pi G \\rho R}{3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dubblerad radie vid samma densitet ger 2³ = 8 gånger massan.</p></div><div class=\"facit-stycke\"><p>Gravitationen vid ytan blir dubbelt så stor eftersom g är proportionell mot R vid fast ρ.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Eleven ändrar avståndet men glömmer att massan samtidigt ändras.</p></div><div class=\"facit-stycke\"><p>Massfaktorn 8 divideras med avståndsfaktorn 4, så nettofaktorn är 2.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid oförändrad massa ger dubblerad radie däremot en fjärdedel så stort g.</p></div><div class=\"facit-stycke\"><p>Slutsatsen beror alltså på vilken storhet som hålls konstant.</p></div></div></div></div></div>",
     "familj": "Tyngdacceleration på olika höjd och himlakroppar",
     "formaga": [
@@ -33431,7 +33431,7 @@ window.BANK = [
     "niva": "C",
     "typ": "kombinera densitet med gravitationsfält",
     "poang": "(0/2/0)",
-    "t": "<p>En homogen sfärisk modellasteroid har radien 220 km och tyngdaccelerationen 0,21 m/s² vid ytan. Bortse från rotation. Använd G = 6,674 · 10⁻¹¹ N m²/kg².</p><p>Bestäm asteroidens densitet. Svara i kg/m³. Avrunda vid behov till två decimaler.</p>",
+    "t": "<p>En klotformad asteroid har radien 220 km och tyngdaccelerationen 0,21 m/s² vid ytan. Densiteten är densamma i hela asteroiden. Bortse från rotation. Använd G = 6,674 · 10⁻¹¹ N m²/kg².</p><p>Bestäm asteroidens densitet. Svara i kg/m³. Avrunda vid behov till två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med M = ρ · 4πR³/3 i g = GM/R² fås</p><div class=\"facit-matte\">\\[g=\\frac{4 \\pi G \\rho R}{3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför ρ = 3g/(4πGR), med</p><div class=\"facit-matte\">\\[R=220\\,000\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 3414,46 kg/m³.</p></div>",
     "familj": "Tyngdacceleration på olika höjd och himlakroppar",
     "formaga": [
@@ -33524,7 +33524,7 @@ window.BANK = [
     "niva": "C",
     "typ": "densitet och gravitation",
     "poang": "(0/2/0)",
-    "t": "<p>En asteroid modelleras som ett homogent klot med radien 280 km och densiteten 4000 kg/m³. Bestäm tyngdaccelerationen vid ytan. Bortse från rotation och använd G = 6,674 · 10⁻¹¹ N m²/kg². Svara i m/s² och avrunda till två decimaler.</p>",
+    "t": "<p>En klotformad asteroid har radien 280 km och densiteten 4000 kg/m³. Densiteten är densamma i hela asteroiden. Bestäm tyngdaccelerationen vid ytan. Bortse från rotation och använd G = 6,674 · 10⁻¹¹ N m²/kg². Svara i m/s² och avrunda till två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Radien är</p><div class=\"facit-matte\">\\[R=280\\,000\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan blir</p><div class=\"facit-matte\">\\[M=\\rho V=\\frac{4000\\cdot 4 \\pi R^{3}}{3}\\approx 3{,}67809\\cdot 10^{20}\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Gravitationslagen ger</p><div class=\"facit-matte\">\\[g=\\frac{G M}{R^{2}}\\approx 0{,}313107\\, \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-stycke\"><p>Den låga tyngdaccelerationen är förenlig med asteroidens lilla radie.</p></div></div><p class=\"facit-svar\">Svaret är 0,31 m/s².</p></div>",
     "familj": "Tyngdacceleration på olika höjd och himlakroppar",
     "formaga": [
@@ -50939,7 +50939,7 @@ window.BANK = [
     "niva": "E",
     "typ": "nyttig effekt och energibevarande",
     "poang": "(3/0/0)",
-    "t": "<p>En elmotor tar emot 750 W elektrisk effekt och lämnar 600 W nyttig mekanisk effekt. Den arbetar med konstant temperatur.</p><ol type=\"a\"><li>Bestäm verkningsgraden.</li><li>Bestäm förlusteffekten.</li><li>Vad betyder energiförlust i detta fall? Vart tar energin vägen?</li></ol>",
+    "t": "<p>En elmotor använder 750 W elektrisk effekt och ger 600 W till en maskin. Den arbetar med konstant temperatur.</p><ol type=\"a\"><li>Bestäm verkningsgraden.</li><li>Bestäm förlusteffekten.</li><li>Vad betyder energiförlust i detta fall? Vart tar energin vägen?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Verkningsgraden är nyttig effekt delad med tillförd effekt.</p>\\[\\eta=\\frac{600}{750}=0{,}80=80\\,\\%\\]<p><strong>b)</strong> Subtrahera den nyttiga effekten från den tillförda.</p>\\[P_\\text{förlust}=750-600=150\\,\\mathrm W\\]<p><strong>c)</strong> 150 J varje sekund blir annat än nyttigt mekaniskt arbete, främst värme till omgivningen och även ljud. Energin bevaras. Eftersom temperaturen är konstant samlas förlustenergin inte som en fortsatt uppvärmning av motorn.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
@@ -61957,10 +61957,10 @@ window.BANK = [
     "id": "6.2",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "minsta bärande area",
-    "poang": "(1/2/0)",
-    "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett medeltryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Bestäm personens tyngdkraft. Svara i N med en decimal.</li><li>Bestäm den minsta sammanlagda kontaktytan mot snön. Svara i cm² med två decimaler.</li><li>Bestäm den minsta kontaktytan per skida. Svara i cm² med två decimaler.</li></ol>",
+    "poang": "(3/0/0)",
+    "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett tryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Bestäm personens tyngdkraft. Svara i N med en decimal.</li><li>Bestäm den minsta sammanlagda kontaktytan mot snön. Svara i cm² med två decimaler.</li><li>Bestäm den minsta kontaktytan per skida. Svara i cm² med två decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Tyngdkraften är massan gånger tyngdaccelerationen.\\[F_\\mathrm{g}=mg=65\\cdot9{,}82=638{,}3\\,\\mathrm N\\]</p><p><strong>Svar:</strong> 638,3 N.</p><p><strong>b)</strong></p><p>Trycket får vara högst 2,0 kPa = 2000 Pa. Använd hela personens tyngdkraft när du beräknar den sammanlagda arean.\\[F=65\\cdot9{,}82=638{,}3\\,\\mathrm N\\]\\[A_\\mathrm{min}=\\frac{F}{p_\\mathrm{max}}=\\frac{638{,}3}{2000}=0{,}31915\\,\\mathrm{m^2}\\]En kvadratmeter är 10 000 cm², så arean blir 0,31915 · 10 000 = 3191,5 cm².</p><p><strong>Svar:</strong> 3191,50 cm².</p><p><strong>c)</strong></p><p>Varje skida bär halva personens tyngd. Tryckgränsen är 2000 Pa.\\[F_\\mathrm{skida}=\\frac{65\\cdot9{,}82}{2}=319{,}15\\,\\mathrm N\\]\\[A_\\mathrm{skida}=\\frac{319{,}15}{2000}=0{,}159575\\,\\mathrm{m^2}\\]Omvandla till cm²: 0,159575 · 10 000 = 1595,75.</p><p><strong>Svar:</strong> 1595,75 cm².</p></div>",
     "familj": "Tryck i vardag och teknik",
     "formaga": [
@@ -61980,7 +61980,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -62002,7 +62002,7 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett medeltryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
+    "spelIntro": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett tryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -62021,11 +62021,11 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm den minsta sammanlagda kontaktytan mot snön. Svara i cm² med två decimaler.",
-        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett medeltryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm den minsta sammanlagda kontaktytan mot snön. Svara i cm² med två decimaler.</p>",
+        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett tryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm den minsta sammanlagda kontaktytan mot snön. Svara i cm² med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Trycket får vara högst 2,0 kPa = 2000 Pa. Använd hela personens tyngdkraft när du beräknar den sammanlagda arean.\\[F=65\\cdot9{,}82=638{,}3\\,\\mathrm N\\]\\[A_\\mathrm{min}=\\frac{F}{p_\\mathrm{max}}=\\frac{638{,}3}{2000}=0{,}31915\\,\\mathrm{m^2}\\]En kvadratmeter är 10 000 cm², så arean blir 0,31915 · 10 000 = 3191,5 cm².</p><p><strong>Svar:</strong> 3191,50 cm².</p></div>",
         "ledtrad": "<p>Ett högsta tillåtet tryck ger en minsta area.</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -62035,11 +62035,11 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm den minsta kontaktytan per skida. Svara i cm² med två decimaler.",
-        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett medeltryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm den minsta kontaktytan per skida. Svara i cm² med två decimaler.</p>",
+        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön tål ett tryck på högst 2,0 kPa. Bortse från skidornas massa. Personen belastar skidorna lika mycket. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm den minsta kontaktytan per skida. Svara i cm² med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje skida bär halva personens tyngd. Tryckgränsen är 2000 Pa.\\[F_\\mathrm{skida}=\\frac{65\\cdot9{,}82}{2}=319{,}15\\,\\mathrm N\\]\\[A_\\mathrm{skida}=\\frac{319{,}15}{2000}=0{,}159575\\,\\mathrm{m^2}\\]Omvandla till cm²: 0,159575 · 10 000 = 1595,75.</p><p><strong>Svar:</strong> 1595,75 cm².</p></div>",
         "ledtrad": "<p>Hur fördelas tyngden mellan de två skidorna?</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -62453,8 +62453,8 @@ window.BANK = [
     "omr": "tryck",
     "niva": "C",
     "poang": "(0/3/0)",
-    "t": "<p>En person med massan 70 kg ligger på en bräda med 2000 spikar. Varje spets har kontaktytan 1,0 mm². Anta att alla spetsar bär lika mycket av personens tyngd. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Beräkna medeltrycket över alla spikspetsar. Svara i kPa.</li><li>Beräkna trycket om hela personens tyngd i stället bärs av en enda spets. Svara i MPa.</li><li>Kan tryckberäkningen ensam avgöra om huden skadas? Förklara.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Börja med tyngdkraften och den sammanlagda kontaktytan. 1 mm² = 0,000001 m².\\[F=70\\cdot9{,}82=687{,}4\\,\\mathrm N\\]\\[A=2000\\cdot10^{-6}=0{,}0020\\,\\mathrm{m^2}\\]\\[p=\\frac{687{,}4}{0{,}0020}=343700\\,\\mathrm{Pa}=343{,}7\\,\\mathrm{kPa}\\]</p><p><strong>Svar:</strong> 343,7 kPa.</p><p><strong>b)</strong></p><p>Nu verkar samma kraft på bara 1 mm².\\[p=\\frac{687{,}4}{10^{-6}}=687400000\\,\\mathrm{Pa}=687{,}4\\,\\mathrm{MPa}\\]</p><p><strong>Svar:</strong> 687,4 MPa, alltså 2000 gånger så stort tryck.</p><p><strong>c)</strong></p><p>Nej. Beräkningen visar hur kontaktytan påverkar medeltrycket. Den säger inte hur huden eller spikarna ändrar form, eller om vissa spetsar bär mer än andra. Vi har inte heller någon tryckgräns för när huden skadas.</p></div>",
+    "t": "<p>En person med massan 70 kg ligger på en bräda med 2000 spikar. Varje spets har kontaktytan 1,0 mm². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Beräkna trycket över alla spikspetsar. Svara i kPa.</li><li>Beräkna trycket om hela personens tyngd i stället bärs av en enda spets. Svara i MPa.</li><li>Kan tryckberäkningen ensam avgöra om huden skadas? Förklara.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Börja med tyngdkraften och den sammanlagda kontaktytan. 1 mm² = 0,000001 m².\\[F=70\\cdot9{,}82=687{,}4\\,\\mathrm N\\]\\[A=2000\\cdot10^{-6}=0{,}0020\\,\\mathrm{m^2}\\]\\[p=\\frac{687{,}4}{0{,}0020}=343700\\,\\mathrm{Pa}=343{,}7\\,\\mathrm{kPa}\\]</p><p><strong>Svar:</strong> 343,7 kPa.</p><p><strong>b)</strong></p><p>Nu verkar samma kraft på bara 1 mm².\\[p=\\frac{687{,}4}{10^{-6}}=687400000\\,\\mathrm{Pa}=687{,}4\\,\\mathrm{MPa}\\]</p><p><strong>Svar:</strong> 687,4 MPa, alltså 2000 gånger så stort tryck.</p><p><strong>c)</strong></p><p>Nej. Beräkningen visar hur kontaktytan påverkar trycket. Den säger inte hur huden eller spikarna ändrar form, eller om vissa spetsar bär mer än andra. Vi har inte heller någon tryckgräns för när huden skadas.</p></div>",
     "familj": "Tryck i vardag och teknik",
     "formaga": [
       "modellering",
@@ -63002,7 +63002,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på 500 N fördelas jämnt över 0,030 m².</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En kraft på 500 N verkar på en yta på 0,030 m².</p><p>Bestäm trycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först trycket i pascal. Dela sedan med 1000 för att få kPa.\\[p=\\frac{500}{0{,}030}=16666{,}666\\ldots\\,\\mathrm{Pa}\\]\\[p=16{,}666\\ldots\\,\\mathrm{kPa}\\]</p><p><strong>Svar:</strong> \\(16{,}67\\,\\mathrm{kPa}\\).</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -63151,7 +63151,7 @@ window.BANK = [
     "niva": "C",
     "typ": "hålrum och medeldensitet",
     "poang": "(1/2/0)",
-    "t": "<p>Ett slutet järnföremål har massan 2,0 kg och ett tomt hålrum. Det håller sig stilla helt under vatten utan stöd. Järnets densitet är 7870 kg/m³ och vattnets är 998 kg/m³. Räkna med att luften i hålrummet har försumbar massa.</p><p><strong>a)</strong> Hur stor är föremålets hela volym, inklusive hålrummet? Svara i liter med tre decimaler.</p><p><strong>b)</strong> Hur stor volym har järnet? Svara i liter med tre decimaler.</p><p><strong>c)</strong> Hur stor är hålrummets volym? Svara i liter med tre decimaler.</p>",
+    "t": "<p>Ett slutet järnföremål har massan 2,0 kg och ett tomt hålrum. Det håller sig stilla helt under vatten utan stöd. Järnets densitet är 7870 kg/m³ och vattnets är 998 kg/m³. Bortse från luftens massa i hålrummet.</p><p><strong>a)</strong> Hur stor är föremålets hela volym, inklusive hålrummet? Svara i liter med tre decimaler.</p><p><strong>b)</strong> Hur stor volym har järnet? Svara i liter med tre decimaler.</p><p><strong>c)</strong> Hur stor är hålrummets volym? Svara i liter med tre decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[V_{\\mathrm{hela}}=\\frac{2{,}0}{998}\\approx0{,}002004008\\,\\mathrm{m^3}.\\]<p>Omvandla m³ till liter genom att multiplicera med 1000.</p><p><strong>Svar:</strong> \\(2{,}004\\,\\mathrm{liter}\\).</p><p><strong>b)</strong></p><p>Järnets volym är massan delad med järnets densitet.</p>\\[V_{\\mathrm{järn}}=\\frac{2{,}0}{7870}\\approx0{,}000254130\\,\\mathrm{m^3}.\\]<p>Det motsvarar cirka 0,254130 liter.</p><p><strong>Svar:</strong> \\(0{,}254\\,\\mathrm{liter}\\).</p><p><strong>c)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Detta ger hela föremålets volym. Beräkna även järnets volym och ta skillnaden.</p>\\[V_{\\mathrm{hela}}=\\frac{2{,}0}{998}\\approx0{,}002004008\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{järn}}=\\frac{2{,}0}{7870}\\approx0{,}000254130\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{hål}}=V_{\\mathrm{hela}}-V_{\\mathrm{järn}}\\approx0{,}001749878\\,\\mathrm{m^3}.\\]<p>Det motsvarar cirka 1,749878 liter.</p><p><strong>Svar:</strong> \\(1{,}750\\,\\mathrm{liter}\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -63228,7 +63228,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur stor är hålrummets volym? Svara i liter med tre decimaler.",
-        "t": "<p>Ett slutet järnföremål har massan 2,0 kg och ett tomt hålrum. Det håller sig stilla helt under vatten utan stöd. Järnets densitet är 7870 kg/m³ och vattnets är 998 kg/m³. Räkna med att luften i hålrummet har försumbar massa.</p><p>Hur stor är hålrummets volym? Svara i liter med tre decimaler.</p>",
+        "t": "<p>Ett slutet järnföremål har massan 2,0 kg och ett tomt hålrum. Det håller sig stilla helt under vatten utan stöd. Järnets densitet är 7870 kg/m³ och vattnets är 998 kg/m³. Bortse från luftens massa i hålrummet.</p><p>Hur stor är hålrummets volym? Svara i liter med tre decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Detta ger hela föremålets volym. Beräkna även järnets volym och ta skillnaden.</p>\\[V_{\\mathrm{hela}}=\\frac{2{,}0}{998}\\approx0{,}002004008\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{järn}}=\\frac{2{,}0}{7870}\\approx0{,}000254130\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{hål}}=V_{\\mathrm{hela}}-V_{\\mathrm{järn}}\\approx0{,}001749878\\,\\mathrm{m^3}.\\]<p>Det motsvarar cirka 1,749878 liter.</p><p><strong>Svar:</strong> \\(1{,}750\\,\\mathrm{liter}\\).</p></div>",
         "ledtrad": "<p>Skilj mellan yttre volym och materialvolym.</p>",
         "niva": "C",
@@ -63251,7 +63251,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Räkna med att höljet och upphängningen har försumbar massa.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div><p><strong>a)</strong> Bestäm massan av den undanträngda luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p><p><strong>b)</strong> Bestäm massan av den varma luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p><p><strong>c)</strong> Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Bortse från höljets och upphängningens massa.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div><p><strong>a)</strong> Bestäm massan av den undanträngda luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p><p><strong>b)</strong> Bestäm massan av den varma luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p><p><strong>c)</strong> Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{ut}}=1{,}29\\cdot 3{,}0=3{,}87\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,87 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{in}}=1{,}00\\cdot 3{,}0=3{,}00\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften ska balansera varm luft och last:</p><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{last}}&=1{,}29\\cdot 3{,}0-1{,}00\\cdot 3{,}0\\\\ &=0{,}87\\, \\mathrm{kg}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 kg.</p></div></div></div>",
     "familj": "Ballonger och lastförmåga",
     "formaga": [
@@ -63327,7 +63327,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Räkna med att höljet och upphängningen har försumbar massa.</p><p>Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Bortse från höljets och upphängningens massa.</p><p>Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften ska balansera varm luft och last:</p><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{last}}&=1{,}29\\cdot 3{,}0-1{,}00\\cdot 3{,}0\\\\ &=0{,}87\\, \\mathrm{kg}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 kg.</p></div>",
         "ledtrad": "<p>Den varma luften har också tyngd.</p>",
         "niva": "C",
@@ -63887,9 +63887,9 @@ window.BANK = [
     "id": "6.24",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "poang": "(0/1/0)",
-    "t": "<p>Ett bord med massan 18 kg står stilla på fyra ben. Varje ben har kontaktytan 3,0 cm² mot golvet. Bestäm medeltrycket över benens sammanlagda kontaktyta. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i kPa med en decimal.</p>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett bord med massan 18 kg står stilla på fyra ben. Varje ben har kontaktytan 3,0 cm² mot golvet. Bestäm trycket över benens sammanlagda kontaktyta. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i kPa med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg ihop de fyra kontaktytorna. 1 cm² = 0,0001 m².\\[A=4\\cdot3{,}0\\cdot10^{-4}=0{,}0012\\,\\mathrm{m^2}\\]\\[F=mg=18\\cdot9{,}82=176{,}76\\,\\mathrm N\\]\\[p=\\frac{176{,}76}{0{,}0012}=147300\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 147,3 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -63901,7 +63901,7 @@ window.BANK = [
     "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Summera benens kontaktytor.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "kontakttryck från tyngd",
     "miniräknare": true,
     "geogebra": false,
@@ -63920,7 +63920,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på 600 N ska fördelas över en yta så att medeltrycket är 15 kPa.</p><p>Bestäm arean. Svara i m². Avrunda vid behov till 3 decimaler.</p>",
+    "t": "<p>En kraft på 600 N ska fördelas över en yta så att trycket är 15 kPa.</p><p>Bestäm arean. Svara i m². Avrunda vid behov till 3 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\">\\[A=\\frac{F}{p}=\\frac{600}{15\\,000}=0{,}040\\, \\mathrm{m^2}\\]<p class=\"facit-svar\">Svar: 0,04 m².</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -63980,7 +63980,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på 650 N fördelas jämnt över 450 cm².</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En kraft på 650 N verkar på en yta på 450 cm².</p><p>Bestäm trycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla kontaktytan: 450 cm² = 450/10 000 = 0,0450 m².\\[p=\\frac{650}{0{,}0450}=14444{,}444\\ldots\\,\\mathrm{Pa}\\]Dela med 1000 för kPa: 14,444444… kPa.</p><p><strong>Svar:</strong> \\(14{,}44\\,\\mathrm{kPa}\\).</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -64228,8 +64228,8 @@ window.BANK = [
     "omr": "tryck",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En vattensäng har totalmassan 400 kg och vilar på hela sin bottenyta, 2,0 m × 1,6 m. En person med massan 70 kg står stilla med kontaktytan 0,040 m² mot golvet. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Beräkna medeltrycket mot golvet från sängen och från personen. Svara i kPa.</li><li>En elev säger: ”Den som ger lägst medeltryck belastar alltid golvet med minst total kraft.” Stämmer det? Visa med krafterna i dessa två fall.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Sängens area är 2,0 · 1,6 = 3,2 m². Beräkna först de två tyngdkrafterna.\\[F_\\mathrm{säng}=400\\cdot9{,}82=3928\\,\\mathrm N\\]\\[F_\\mathrm{person}=70\\cdot9{,}82=687{,}4\\,\\mathrm N\\]\\[p_\\mathrm{säng}=\\frac{3928}{3{,}2}=1227{,}5\\,\\mathrm{Pa}\\]\\[p_\\mathrm{person}=\\frac{687{,}4}{0{,}040}=17185\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> cirka 1,23 kPa från sängen och 17,2 kPa från personen.</p><p><strong>b)</strong></p><p>Nej. Sängen trycker med 3928 N mot golvet, jämfört med personens 687,4 N. Sängen ger alltså större total kraft trots lägre medeltryck. Det beror på att kraften fördelas över en mycket större area.</p></div>",
+    "t": "<p>En vattensäng har totalmassan 400 kg och vilar på hela sin bottenyta, 2,0 m × 1,6 m. En person med massan 70 kg står stilla med kontaktytan 0,040 m² mot golvet. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Beräkna trycket mot golvet från sängen och från personen. Svara i kPa.</li><li>En elev säger: ”Den som ger lägst tryck belastar alltid golvet med minst total kraft.” Stämmer det? Visa med krafterna i dessa två fall.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Sängens area är 2,0 · 1,6 = 3,2 m². Beräkna först de två tyngdkrafterna.\\[F_\\mathrm{säng}=400\\cdot9{,}82=3928\\,\\mathrm N\\]\\[F_\\mathrm{person}=70\\cdot9{,}82=687{,}4\\,\\mathrm N\\]\\[p_\\mathrm{säng}=\\frac{3928}{3{,}2}=1227{,}5\\,\\mathrm{Pa}\\]\\[p_\\mathrm{person}=\\frac{687{,}4}{0{,}040}=17185\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> cirka 1,23 kPa från sängen och 17,2 kPa från personen.</p><p><strong>b)</strong></p><p>Nej. Sängen trycker med 3928 N mot golvet, jämfört med personens 687,4 N. Sängen ger alltså större total kraft trots lägre tryck. Det beror på att kraften fördelas över en mycket större area.</p></div>",
     "familj": "Tryck i vardag och teknik",
     "formaga": [
       "modellering",
@@ -65167,7 +65167,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft fördelas över en rektangel som är 20 cm lång och 15 cm bred. Kraften vinkelrätt mot ytan är 450 N.</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "t": "<p>En kraft fördelas över en rektangel som är 20 cm lång och 15 cm bred. Kraften vinkelrätt mot ytan är 450 N.</p><p>Bestäm trycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna om längderna: 20 cm = 0,20 m och 15 cm = 0,15 m.\\[A=0{,}20\\cdot0{,}15=0{,}030\\,\\mathrm{m^2}\\]\\[p=\\frac{450}{0{,}030}=15000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 15,0 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -65604,7 +65604,7 @@ window.BANK = [
     "omr": "tryck",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En person med massan 70 kg står stilla i snö. Med skor är kontaktytan 0,040 m². Med skidor är den 0,30 m². Båda areorna gäller paret tillsammans. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Beräkna medeltrycket med skor och med skidor. Svara i kPa.</li><li>Varför kan skidor göra att personen sjunker ner mindre i snön?</li><li>Kan du med dessa uppgifter säkert säga att personen inte sjunker alls med skidor? Motivera.</li></ol>",
+    "t": "<p>En person med massan 70 kg står stilla i snö. Med skor är kontaktytan 0,040 m². Med skidor är den 0,30 m². Båda areorna gäller paret tillsammans. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Beräkna trycket med skor och med skidor. Svara i kPa.</li><li>Varför kan skidor göra att personen sjunker ner mindre i snön?</li><li>Kan du med dessa uppgifter säkert säga att personen inte sjunker alls med skidor? Motivera.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>I båda fallen bär snön samma tyngdkraft.\\[F=70\\cdot9{,}82=687{,}4\\,\\mathrm N\\]\\[p_\\mathrm{skor}=\\frac{687{,}4}{0{,}040}=17185\\,\\mathrm{Pa}\\]\\[p_\\mathrm{skidor}=\\frac{687{,}4}{0{,}30}\\approx2291{,}333\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> cirka 17,2 kPa med skor och 2,29 kPa med skidor.</p><p><strong>b)</strong></p><p>Skidorna fördelar samma kraft över en större yta. Trycket blir lägre, vilket kan göra att snön trycks ihop mindre.</p><p><strong>c)</strong></p><p>Nej. Vi behöver veta vilket tryck snön klarar. Den större kontaktytan minskar trycket, men säger inte att snön säkert bär personen utan att tryckas ihop.</p></div>",
     "familj": "Tryck i vardag och teknik",
     "formaga": [
@@ -65635,7 +65635,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En platta belastas med kraften 500 N. Först är den belastade arean 0,035 m², sedan fördubblas den medan kraften är oförändrad.</p><p>Bestäm det nya medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En platta belastas med kraften 500 N. Först är den belastade arean 0,035 m², sedan fördubblas den medan kraften är oförändrad.</p><p>Bestäm det nya trycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Först dubbleras arean: 2 · 0,035 = 0,070 m². Kraften är fortfarande 500 N.\\[p=\\frac{500}{0{,}070}=7142{,}857\\ldots\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 7,14 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -65695,7 +65695,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på 550 N fördelas över 0,040 m². Kraften ökas sedan med 20 %, medan arean är oförändrad.</p><p>Bestäm det nya medeltrycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "t": "<p>En kraft på 550 N fördelas över 0,040 m². Kraften ökas sedan med 20 %, medan arean är oförändrad.</p><p>Bestäm det nya trycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>En ökning med 20 % betyder att kraften blir 120 % av den ursprungliga.\\[F_\\mathrm{ny}=1{,}20\\cdot550=660\\,\\mathrm N\\]\\[p=\\frac{660}{0{,}040}=16500\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 16,5 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -65885,7 +65885,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En yta på 0,045 m² belastas med en vinkelrät kraft på 600 N.</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En yta på 0,045 m² belastas med en vinkelrät kraft på 600 N.</p><p>Bestäm trycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna trycket i Pa och omvandla sedan till kPa.\\[p=\\frac{600}{0{,}045}=13333{,}333\\ldots\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 13,33 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -65972,7 +65972,7 @@ window.BANK = [
     "id": "6.295",
     "kap": 6,
     "omr": "tryck",
-    "t": "<p>En maskinfot belastas med 360 N och har kontaktytan 120 cm².</p><p>Bestäm medeltrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "t": "<p>En maskinfot belastas med 360 N och har kontaktytan 120 cm².</p><p>Bestäm trycket. Svara i kPa. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla kontaktytan: 120 cm² = 120/10 000 = 0,0120 m².\\[p=\\frac{360}{0{,}0120}=30000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 30 kPa.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -66326,10 +66326,10 @@ window.BANK = [
     "id": "6.55",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "kontakttryck från tyngd",
-    "poang": "(2/1/0)",
-    "t": "<p>En elefant med massan 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Hur stor är elefantens tyngdkraft? Svara i kN med två decimaler.</li><li>Hur stor är fötternas sammanlagda kontaktyta? Svara i m² med två decimaler.</li><li>Bestäm medeltrycket över fötternas sammanlagda kontaktyta. Svara i kPa med två decimaler.</li></ol>",
+    "poang": "(3/0/0)",
+    "t": "<p>En elefant med massan 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Hur stor är elefantens tyngdkraft? Svara i kN med två decimaler.</li><li>Hur stor är fötternas sammanlagda kontaktyta? Svara i m² med två decimaler.</li><li>Bestäm trycket över fötternas sammanlagda kontaktyta. Svara i kPa med två decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Multiplicera massan med g. Dela kraften i N med 1000 för att få kN.\\[F=4500\\cdot9{,}82=44190\\,\\mathrm N=44{,}19\\,\\mathrm{kN}\\]</p><p><strong>Svar:</strong> 44,19 kN.</p><p><strong>b)</strong></p><p>Lägg ihop de fyra lika stora kontaktytorna.\\[A=4\\cdot0{,}12=0{,}48\\,\\mathrm{m^2}\\]</p><p><strong>Svar:</strong> 0,48 m².</p><p><strong>c)</strong></p><p>Beräkna både hela tyngdkraften och hela kontaktytan.\\[F=4500\\cdot9{,}82=44190\\,\\mathrm N\\]\\[A=4\\cdot0{,}12=0{,}48\\,\\mathrm{m^2}\\]\\[p=\\frac{44190}{0{,}48}=92062{,}5\\,\\mathrm{Pa}=92{,}0625\\,\\mathrm{kPa}\\]</p><p><strong>Svar:</strong> 92,06 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -66349,7 +66349,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Kilonewton är tusen newton.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -66403,12 +66403,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm medeltrycket över fötternas sammanlagda kontaktyta. Svara i kPa med två decimaler.",
-        "t": "<p>En elefant med massan 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm medeltrycket över fötternas sammanlagda kontaktyta. Svara i kPa med två decimaler.</p>",
+        "fraga": "Bestäm trycket över fötternas sammanlagda kontaktyta. Svara i kPa med två decimaler.",
+        "t": "<p>En elefant med massan 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm trycket över fötternas sammanlagda kontaktyta. Svara i kPa med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna både hela tyngdkraften och hela kontaktytan.\\[F=4500\\cdot9{,}82=44190\\,\\mathrm N\\]\\[A=4\\cdot0{,}12=0{,}48\\,\\mathrm{m^2}\\]\\[p=\\frac{44190}{0{,}48}=92062{,}5\\,\\mathrm{Pa}=92{,}0625\\,\\mathrm{kPa}\\]</p><p><strong>Svar:</strong> 92,06 kPa.</p></div>",
         "ledtrad": "<p>Dela tyngdkraften med hela kontaktytan.</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -66485,10 +66485,10 @@ window.BANK = [
     "id": "6.235",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "kontakttryck från tyngd",
-    "poang": "(0/1/0)",
-    "t": "<p>En person på 80 kg står stilla på ett ben. Skons kontaktyta är 220 cm².</p><p>Använd g = 9,82 m/s². Bestäm medeltrycket mot golvet. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En person på 80 kg står stilla på ett ben. Skons kontaktyta är 220 cm².</p><p>Använd g = 9,82 m/s². Bestäm trycket mot golvet. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Omvandla kontaktytan</p><p>En kvadratcentimeter är \\(10^{-4}\\) kvadratmeter:</p>\\[A=220\\cdot10^{-4}=0{,}0220\\,\\text{m}^2.\\]<p class=\"facit-rubrik\">Beräkna tyngdkraft och tryck</p>\\[F=mg=80\\cdot9{,}82=785{,}6\\,\\text{N}.\\]\\[p=\\frac FA=\\frac{785{,}6}{0{,}0220}\\approx35709{,}09\\,\\text{Pa}.\\]<p class=\"facit-rubrik\">Omvandla till kilopascal</p>\\[p\\approx35{,}70909\\,\\text{kPa}\\approx35{,}71\\,\\text{kPa}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(35{,}71\\,\\text{kPa}\\).</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -66502,7 +66502,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Uttryck kontaktytan i m².</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kPa",
@@ -66608,10 +66608,10 @@ window.BANK = [
     "id": "6.237",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "kontakttryck från tyngd",
-    "poang": "(0/1/0)",
-    "t": "<p>En person med massan 65 kg står stilla på två fötter. Varje sko har kontaktytan 160 cm². Bestäm medeltrycket över den sammanlagda kontaktytan. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i kPa med två decimaler.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En person med massan 65 kg står stilla på två fötter. Varje sko har kontaktytan 160 cm². Bestäm trycket över den sammanlagda kontaktytan. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i kPa med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg ihop skornas areor och omvandla till m².\\[A=2\\cdot160\\cdot10^{-4}=0{,}0320\\,\\mathrm{m^2}\\]\\[F=65\\cdot9{,}82=638{,}3\\,\\mathrm N\\]\\[p=\\frac{638{,}3}{0{,}0320}=19946{,}875\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 19,95 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -66625,7 +66625,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Båda fötternas kontaktytor ska räknas med.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kPa",
@@ -66780,10 +66780,10 @@ window.BANK = [
     "id": "6.239",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "area från kontakttryck",
-    "poang": "(0/1/0)",
-    "t": "<p>En person med massan 75 kg står stilla på ett ben. Medeltrycket mot golvet är 36,825 kPa. Bestäm skons kontaktyta. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i cm² med ett heltal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En person med massan 75 kg står stilla på ett ben. Trycket mot golvet är 36,825 kPa. Bestäm skons kontaktyta. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i cm² med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla trycket till 36 825 Pa och beräkna tyngdkraften.\\[F=75\\cdot9{,}82=736{,}5\\,\\mathrm N\\]\\[A=\\frac{736{,}5}{36825}=0{,}0200\\,\\mathrm{m^2}\\]Omvandla till cm²: 0,0200 · 10 000 = 200.</p><p><strong>Svar:</strong> 200 cm².</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -66797,7 +66797,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Bestäm först arean i m².</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "cm²",
@@ -69215,10 +69215,10 @@ window.BANK = [
     "id": "6.241",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "massa från kontakttryck",
-    "poang": "(0/1/0)",
-    "t": "<p>En last står stilla på en vågrät yta med kontaktytan 240 cm². Medeltrycket är 19,64 kPa. Bestäm lastens massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i kg med en decimal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En last står stilla på en vågrät yta med kontaktytan 240 cm². Trycket är 19,64 kPa. Bestäm lastens massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i kg med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla arean till 0,0240 m² och trycket till 19 640 Pa. Tryckkraften motsvarar lastens tyngdkraft.\\[F=pA=19640\\cdot0{,}0240=471{,}36\\,\\mathrm N\\]\\[m=\\frac{F}{g}=\\frac{471{,}36}{9{,}82}=48\\,\\mathrm{kg}\\]</p><p><strong>Svar:</strong> 48,0 kg.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -69232,7 +69232,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Trycket och arean ger tyngdkraften.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kg",
@@ -69335,10 +69335,10 @@ window.BANK = [
     "id": "6.94",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "jämföra kontakttryck",
-    "poang": "(0/1/0)",
-    "t": "<p>Ett bandfordon med förare har massan 280 kg och står stilla. Vardera av dess två band har kontaktytan 0,38 m × 1,2 m. En person med massan 70 kg står stilla med sammanlagd kontaktyta 0,040 m². Bestäm kvoten personens medeltryck delat med fordonets medeltryck. Svara med två decimaler.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett bandfordon med förare har massan 280 kg och står stilla. Vardera av dess två band har kontaktytan 0,38 m × 1,2 m. En person på 70 kg står med båda skorna på marken. Skornas sammanlagda kontaktyta är 0,040 m².</p><p>Hur många gånger större är trycket från personen än trycket från fordonet? Svara med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fordonets två kontaktytor måste läggas ihop.\\[A_\\mathrm{fordon}=2\\cdot0{,}38\\cdot1{,}2=0{,}912\\,\\mathrm{m^2}\\]I båda fallen är trycket mg/A. Samma g finns i täljaren och nämnaren och förkortas bort.\\[\\begin{gathered}\\frac{p_\\mathrm{person}}{p_\\mathrm{fordon}}=\\frac{70g/0{,}040}{280g/0{,}912}\\\\\\frac{p_\\mathrm{person}}{p_\\mathrm{fordon}}=\\frac{70\\cdot0{,}912}{280\\cdot0{,}040}=5{,}70\\end{gathered}\\]</p><p><strong>Svar:</strong> 5,70.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -69368,7 +69368,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tryck från uppmätt kraft",
     "poang": "(1/0/0)",
-    "t": "<p>En maskins stödfot trycker med 687,4 N mot golvet. Kontaktytan är 180 cm². Bestäm medeltrycket mot golvet. Svara i kPa med två decimaler.</p>",
+    "t": "<p>En maskins stödfot trycker med 687,4 N mot golvet. Kontaktytan är 180 cm². Bestäm trycket mot golvet. Svara i kPa med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontaktytan är 180/10 000 = 0,0180 m².\\[p=\\frac{687{,}4}{0{,}0180}=38188{,}888\\ldots\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 38,19 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -69395,9 +69395,9 @@ window.BANK = [
     "id": "6.95",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En smal klack med kontaktytan 1,0 cm² bär hela tyngden av en person med massan 55 kg. En elefant med massan 4000 kg står stilla med den sammanlagda kontaktytan 800 cm². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Bestäm trycket under klacken. Svara i MPa med tre decimaler.</li><li>Bestäm medeltrycket under elefantens fötter. Svara i kPa med ett heltal.</li><li>Trycket under klacken är 5,401 MPa och under elefanten 491 kPa. Bestäm kvoten klackens tryck delat med elefantens. Svara med ett heltal.</li></ol>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En smal klack med kontaktytan 1,0 cm² bär hela tyngden av en person med massan 55 kg. En elefant med massan 4000 kg står stilla med den sammanlagda kontaktytan 800 cm². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Bestäm trycket under klacken. Svara i MPa med tre decimaler.</li><li>Bestäm trycket under elefantens fötter. Svara i kPa med ett heltal.</li><li>Hur många gånger större är trycket under klacken än under elefantens fötter? Svara med ett heltal.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla arean: 1,0 cm² = 0,0001 m². Beräkna hela tyngdkraften som klacken bär.\\[F=55\\cdot9{,}82=540{,}1\\,\\mathrm N\\]\\[p=\\frac{540{,}1}{0{,}0001}=5401000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 5,401 MPa.</p><p><strong>b)</strong></p><p>Kontaktytan gäller alla fötter tillsammans: 800 cm² = 0,0800 m².\\[F=4000\\cdot9{,}82=39280\\,\\mathrm N\\]\\[p=\\frac{39280}{0{,}0800}=491000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 491 kPa.</p><p><strong>c)</strong></p><p>Skriv trycken i samma enhet. 5,401 MPa = 5401 kPa.\\[\\frac{p_\\mathrm{klack}}{p_\\mathrm{elefant}}=\\frac{5401}{491}=11\\]</p><p><strong>Svar:</strong> 11.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -69417,7 +69417,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Omvandla kvadratcentimeter till kvadratmeter.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "jämföra kontakttryck",
     "miniräknare": true,
     "geogebra": false,
@@ -69448,8 +69448,8 @@ window.BANK = [
         "t": "<p>En smal klack med kontaktytan 1,0 cm² bär hela tyngden av en person med massan 55 kg. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm trycket under klacken. Svara i MPa med tre decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla arean: 1,0 cm² = 0,0001 m². Beräkna hela tyngdkraften som klacken bär.\\[F=55\\cdot9{,}82=540{,}1\\,\\mathrm N\\]\\[p=\\frac{540{,}1}{0{,}0001}=5401000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 5,401 MPa.</p></div>",
         "ledtrad": "<p>Omvandla kvadratcentimeter till kvadratmeter.</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -69458,12 +69458,12 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm medeltrycket under elefantens fötter. Svara i kPa med ett heltal.",
-        "t": "<p>En elefant med massan 4000 kg står stilla med sammanlagd kontaktyta 800 cm². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm medeltrycket under elefantens fötter. Svara i kPa med ett heltal.</p>",
+        "fraga": "Bestäm trycket under elefantens fötter. Svara i kPa med ett heltal.",
+        "t": "<p>En elefant med massan 4000 kg står stilla med sammanlagd kontaktyta 800 cm². Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm trycket under elefantens fötter. Svara i kPa med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontaktytan gäller alla fötter tillsammans: 800 cm² = 0,0800 m².\\[F=4000\\cdot9{,}82=39280\\,\\mathrm N\\]\\[p=\\frac{39280}{0{,}0800}=491000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 491 kPa.</p></div>",
         "ledtrad": "<p>Den givna arean är redan den sammanlagda.</p>",
-        "niva": "C",
-        "traningsniva": 3,
+        "niva": "E",
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -69472,8 +69472,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Trycket under klacken är 5,401 MPa och under elefanten 491 kPa. Bestäm kvoten klackens tryck delat med elefantens. Svara med ett heltal.",
-        "t": "<p>Trycket under en smal klack ska jämföras med trycket under en elefants fötter.</p><p>Trycket under klacken är 5,401 MPa och under elefanten 491 kPa. Bestäm kvoten klackens tryck delat med elefantens. Svara med ett heltal.</p>",
+        "fraga": "Trycket under klacken är 5,401 MPa och under elefanten 491 kPa. Hur många gånger större är trycket under klacken än under elefantens fötter? Svara med ett heltal.",
+        "t": "<p>Trycket under en klack är 5,401 MPa. Under en elefants fötter är trycket 491 kPa.</p><p>Hur många gånger större är trycket under klacken än under elefantens fötter? Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv trycken i samma enhet. 5,401 MPa = 5401 kPa.\\[\\frac{p_\\mathrm{klack}}{p_\\mathrm{elefant}}=\\frac{5401}{491}=11\\]</p><p><strong>Svar:</strong> 11.</p></div>",
         "ledtrad": "<p>Jämför i samma tryckenhet.</p>",
         "niva": "E",
@@ -69493,9 +69493,9 @@ window.BANK = [
     "id": "6.96",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "poang": "(0/1/0)",
-    "t": "<p>En kub med massan 9,2 kg står stilla med en hel sida mot ett vågrätt golv. Sidlängden är 25 cm. Bestäm medeltrycket mot golvet. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i kPa med tre decimaler.</p>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kub på 9,2 kg står på ett plant golv. Sidlängden är 25 cm. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stort är trycket mot golvet? Svara i kPa med tre decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sidlängden är 0,25 m. Kontaktytan är en kvadrat.\\[A=0{,}25^2=0{,}0625\\,\\mathrm{m^2}\\]\\[F=9{,}2\\cdot9{,}82=90{,}344\\,\\mathrm N\\]\\[p=\\frac{90{,}344}{0{,}0625}=1445{,}504\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 1,446 kPa.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -69507,7 +69507,7 @@ window.BANK = [
     "tolerans": 0.0005,
     "självrättning": true,
     "ledtrad": "<p>Bottenytan är en kvadrat.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "kontakttryck från tyngd",
     "miniräknare": true,
     "geogebra": false,
@@ -69556,7 +69556,7 @@ window.BANK = [
     "niva": "E",
     "typ": "övertryck i en spruta",
     "poang": "(1/0/0)",
-    "t": "<p>En sprutas utlopp är stängt. Kolven har arean 1,80 cm² och hålls stilla med en kraft på 22 N inåt. Kolvens utsida utsätts för lufttrycket. Bortse från friktion. Bestäm vätskans övertryck, alltså hur mycket högre trycket är än lufttrycket utanför. Svara i kPa med två decimaler.</p>",
+    "t": "<p>En sprutas utlopp är stängt. Kolven har arean 1,80 cm² och hålls stilla med en kraft på 22 N inåt. Bortse från friktion.</p><p>Hur mycket högre är vätskans tryck än lufttrycket utanför? Svara i kPa med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kolven är stilla. Den extra tryckkraften från vätskan balanserar kraften 22 N. Kontaktytan är 1,80/10 000 = 0,000180 m².\\[\\Delta p A=22\\,\\mathrm N\\]\\[\\Delta p=\\frac{22}{0{,}000180}=122222{,}222\\ldots\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 122,22 kPa över lufttrycket.</p></div>",
     "familj": "Övertryck och sugkoppar",
     "formaga": [
@@ -69586,7 +69586,7 @@ window.BANK = [
     "niva": "C",
     "typ": "välja dimension under tryckvillkor",
     "poang": "(0/1/0)",
-    "t": "<p>En cirkulär stödfot belastas med 950 N. Medeltrycket får vara högst 85 kPa. Stödfoten kan väljas i hela millimeter i diameter.</p><p>Bestäm den minsta tillåtna diametern i hela millimeter. Svara i mm. Svara med ett heltal.</p>",
+    "t": "<p>En cirkulär stödfot belastas med 950 N. Trycket får vara högst 85 kPa. Stödfoten kan väljas i hela millimeter i diameter.</p><p>Bestäm den minsta tillåtna diametern i hela millimeter. Svara i mm. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tryckgränsen är 85 000 Pa. Beräkna den minsta arean från p = F/A.\\[A_\\mathrm{min}=\\frac{950}{85000}\\approx0{,}0111765\\,\\mathrm{m^2}\\]För en cirkel är A = π(d/2)². Lös ut diametern.\\[\\begin{gathered}d_\\mathrm{min}=2\\sqrt{\\frac{A_\\mathrm{min}}{\\pi}}\\approx0{,}119291\\,\\mathrm m\\\\d_\\mathrm{min}\\approx119{,}291\\,\\mathrm{mm}\\end{gathered}\\]Diametern måste vara minst detta värde. Avrunda därför uppåt till nästa hela millimeter. 119 mm är för litet.</p><p><strong>Svar:</strong> 120 mm.</p></div>",
     "familj": "Tryck i vardag och teknik",
     "formaga": [
@@ -69616,7 +69616,7 @@ window.BANK = [
     "omr": "tryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En kubisk låda står stilla på ett vågrätt bord med en hel sida mot bordet. Sidlängden är 10 cm och medeltrycket mot bordet är 2,4 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Bestäm kraften från lådan på bordet. Svara i N med ett heltal.</li><li>Lådan trycker med 24 N mot bordet. Bestäm lådans massa med m = F/g. Svara i kg med två decimaler.</li></ol>",
+    "t": "<p>En kubisk låda står stilla på ett vågrätt bord med en hel sida mot bordet. Sidlängden är 10 cm och trycket mot bordet är 2,4 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Bestäm kraften från lådan på bordet. Svara i N med ett heltal.</li><li>Lådan trycker med 24 N mot bordet. Bestäm lådans massa med m = F/g. Svara i kg med två decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla sidlängden till 0,10 m och trycket till 2400 Pa.\\[A=0{,}10^2=0{,}010\\,\\mathrm{m^2}\\]\\[F=pA=2400\\cdot0{,}010=24\\,\\mathrm N\\]</p><p><strong>Svar:</strong> 24 N.</p><p><strong>b)</strong></p><p>När lådan är stilla motsvarar kraften på bordet lådans tyngdkraft. Använd det givna värdet 24 N.\\[m=\\frac{F}{g}=\\frac{24}{9{,}82}\\approx2{,}44399185\\,\\mathrm{kg}\\]</p><p><strong>Svar:</strong> 2,44 kg.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -69654,12 +69654,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kubisk låda står stilla på ett vågrätt bord med en hel sida mot bordet. Sidlängden är 10 cm och medeltrycket mot bordet är 2,4 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
+    "spelIntro": "<p>En kubisk låda står stilla på ett vågrätt bord med en hel sida mot bordet. Sidlängden är 10 cm och trycket mot bordet är 2,4 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm kraften från lådan på bordet. Svara i N med ett heltal.",
-        "t": "<p>En kubisk låda står stilla på ett vågrätt bord med en hel sida mot bordet. Sidlängden är 10 cm och medeltrycket mot bordet är 2,4 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm kraften från lådan på bordet. Svara i N med ett heltal.</p>",
+        "t": "<p>En kubisk låda står stilla på ett vågrätt bord med en hel sida mot bordet. Sidlängden är 10 cm och trycket mot bordet är 2,4 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm kraften från lådan på bordet. Svara i N med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla sidlängden till 0,10 m och trycket till 2400 Pa.\\[A=0{,}10^2=0{,}010\\,\\mathrm{m^2}\\]\\[F=pA=2400\\cdot0{,}010=24\\,\\mathrm N\\]</p><p><strong>Svar:</strong> 24 N.</p></div>",
         "ledtrad": "<p>Räkna om sidlängden till meter och trycket till Pa.</p>",
         "niva": "E",
@@ -69815,10 +69815,10 @@ window.BANK = [
     "id": "6.248",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "största last under tryckvillkor",
-    "poang": "(0/1/0)",
-    "t": "<p>En rund stödfot har diametern 12,0 cm. Medeltrycket får vara högst 80 kPa. Vilken är den största kraft som får belasta stödfoten? Svara i N med en decimal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En rund stödfot har diametern 12,0 cm. Trycket får vara högst 80 kPa. Vilken är den största kraft som får belasta stödfoten? Svara i N med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Radien är 12,0/2 = 6,0 cm = 0,060 m. Tryckgränsen är 80 000 Pa.\\[A=\\pi\\cdot0{,}060^2\\approx0{,}011309734\\,\\mathrm{m^2}\\]\\[\\begin{gathered}F_\\mathrm{max}=p_\\mathrm{max}A=80000\\pi\\cdot0{,}060^2\\\\F_\\mathrm{max}\\approx904{,}778684\\,\\mathrm N\\end{gathered}\\]</p><p><strong>Svar:</strong> 904,8 N.</p></div>",
     "familj": "Tryck i vardag och teknik",
     "formaga": [
@@ -69832,7 +69832,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Bestäm cirkelarean innan du använder tryckgränsen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
@@ -72789,9 +72789,9 @@ window.BANK = [
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett hus behöver 15 000 kWh värme per år. En värmepump har värmefaktorn (COP) 3,5. Det betyder att den levererar 3,5 gånger så mycket värme som den elenergi den använder.</p><ol><li>Bestäm värmepumpens årliga elanvändning.</li><li>Bestäm den årliga kostnadsbesparingen jämfört med direktverkande el om elpriset är 2,50 kr/kWh.</li><li>Förklara varför värmefaktorn kan vara större än 1 utan att energiprincipen bryts.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Värmefaktorn är \\(\\mathrm{COP}=Q_{\\mathrm{värme}}/E_{\\mathrm{el}}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{el}}=\\frac{15000}{3{,}5}=4286\\ \\mathrm{kWh/år}\\]</div></div><div class=\"facit-stycke\"><p>Direktverkande el skulle använda 15 000 kWh.</p></div><div class=\"facit-stycke\"><p>Besparingen blir därför</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(15000-4286)\\cdot2{,}50\\approx26786\\ \\mathrm{kr/år}.\\]</div></div><div class=\"facit-stycke\"><p>Värmepumpen skapar inte energi.</p></div><div class=\"facit-stycke\"><p>Den använder elenergi för att transportera värme från omgivningen: \\(Q_{\\mathrm{inne}}=E_{\\mathrm{el}}+Q_{\\mathrm{ute}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(4300\\ \\mathrm{kWh/år}\\) och \\(27000\\ \\mathrm{kr/år}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett hus behöver 15 000 kWh värme per år. En värmepump levererar 3,5 gånger så mycket värmeenergi som den elenergi den använder. Elpriset är 2,50 kr/kWh.</p><p><strong>a)</strong> Hur mycket el använder värmepumpen per år?</p><p><strong>b)</strong> Hur mycket pengar sparas per år jämfört med elvärme som ger 1 kWh värme för varje kWh el?</p><p><strong>c)</strong> Förklara varifrån värmepumpen får den extra värmeenergin.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Dividera värmebehovet med värmefaktorn.</p>\\[E_{\\mathrm{el}}=15000/3{,}5\\approx4285{,}71\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> Cirka 4290 kWh per år.</p><p><strong>b)</strong> </p><p>Vanlig elvärme använder 15 000 kWh. Beräkna den sparade elen med det oavrundade värdet från a).</p>\\[\\begin{aligned}&E_{\\mathrm{spar}}\\\\ &=15000-15000/3{,}5\\\\ &\\approx10714{,}29\\,\\mathrm{kWh}\\end{aligned}\\]\\[\\begin{aligned}&\\text{besparing}\\\\ &=E_{\\mathrm{spar}}\\cdot2{,}50\\approx26785{,}71\\,\\mathrm{kr}\\end{aligned}\\]<p><strong>Svar:</strong> Cirka 26 800 kr per år.</p><p><strong>c)</strong> </p><p>Pumpen flyttar värme från omgivningen till huset. Huset får både denna värme och den tillförda elenergin. Energi skapas inte: värme till huset = elenergi + värme från omgivningen.</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -72800,7 +72800,7 @@ window.BANK = [
       "modellering"
     ],
     "ledtrad": "<p>Skilj mellan den elenergi pumpen använder och den värme som hämtas från omgivningen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -72811,7 +72811,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.64",
@@ -72819,8 +72820,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi krävs för att värma \\(0{,}40\\ \\mathrm{kg}\\) vatten så att temperaturen ökar \\(15\\ \\mathrm K\\)? Vattnets specifika värmekapacitet är \\(4180\\ \\mathrm{J/(kg\\,K)}\\). Svara i kJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Välj samband</p><p>Vattnet värms utan att byta aggregationstillstånd. Energin beräknas med</p><div class=\"facit-matte\">\\[Q=mc\\Delta T.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[Q=0{,}40\\cdot4180\\cdot15\\ \\mathrm J=25080\\ \\mathrm J.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Omvandla till kilojoule</p><p>Eftersom 1 kJ är 1 000 J dividerar vi med 1 000:</p><div class=\"facit-matte\">\\[Q=25{,}08\\ \\mathrm{kJ}\\approx25{,}1\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25{,}1\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,40 kg vatten värms från 15 °C till 30 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen ökar med 30 − 15 = 15 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=0{,}40\\cdot4180\\cdot15=25080\\,\\mathrm J\\end{aligned}\\]<p>Dela med 1000 för att få kJ.</p><p><strong>Svar:</strong> \\(25{,}1\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -72833,20 +72834,21 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – direkt beräkning",
     "svarstyp": "numeriskt",
-    "rättSvar": 25.1,
-    "tolerans": 0.3765,
+    "rättSvar": 25.08,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kJ"
+    "svarEnhet": "kJ",
+    "arbetsinsats": 2
   },
   {
     "id": "7.2",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/3/1)",
-    "t": "<p>Ett hus har 95 m² yttervägg med U-värdet 0,25 W/(m²·K) och 18 m² fönster med U-värdet 1,2 W/(m²·K). Under 210 dygn är det i genomsnitt 20 °C inne och 2 °C ute. Anta att temperaturskillnaden är konstant.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"300\" viewBox=\"0 0 620 300\" role=\"img\" aria-label=\"Hus med väggar och fönster\"><rect width=\"620\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M120 145 L310 55 L500 145 V250 H120 Z\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"270\" y=\"172\" width=\"80\" height=\"78\" fill=\"#c9d6df\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"158\" y=\"160\" width=\"75\" height=\"55\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"387\" y=\"160\" width=\"75\" height=\"55\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">väggar: 95 m²</text><text x=\"310\" y=\"282\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">fönster: 18 m²</text><text x=\"78\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2b6f92\">ute 2 °C</text><text x=\"520\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">inne 20 °C</text></svg></span><ol><li>Bestäm värmeeffekten genom väggarna respektive fönstren.</li><li>Bestäm den sammanlagda energiförlusten under perioden.</li><li>Fönstren utgör 16 % av ytan. Hur stor andel av den beräknade värmeförlusten står de för?</li><li>Fönstren byts till U-värdet 0,9 W/(m²·K). Bestäm besparingen i kronor om elpriset är 2,50 kr/kWh och diskutera en begränsning i modellen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Temperaturskillnaden är \\(18\\ \\mathrm K\\).</p></div><div class=\"facit-stycke\"><p>För varje byggnadsdel används \\(P=UA\\Delta T\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{vägg}}=0{,}25\\cdot95\\cdot18=427{,}5\\ \\mathrm W\\]\\[P_{\\mathrm{fönster}}=1{,}2\\cdot18\\cdot18=388{,}8\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Tiden är \\(210\\cdot24=5040\\ \\mathrm h\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=(0{,}4275+0{,}3888)\\cdot5040=4114\\ \\mathrm{kWh}.\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{fönsterandel}=\\frac{388{,}8}{427{,}5+388{,}8}=47{,}6\\,\\%.\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta P=(1{,}2-0{,}9)\\cdot18\\cdot18=97{,}2\\ \\mathrm W\\]\\[\\Delta C=0{,}0972\\cdot5040\\cdot2{,}50\\approx1225\\ \\mathrm{kr}.\\]</div></div><div class=\"facit-stycke\"><p>Modellen antar bland annat en konstant temperaturskillnad och räknar inte med ventilation, solinstrålning eller andra värmeflöden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(428\\ \\mathrm W\\), \\(389\\ \\mathrm W\\), \\(4{,}11\\ \\mathrm{MWh}\\), \\(47{,}6\\,\\%\\) och cirka \\(1225\\ \\mathrm{kr}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett hus har 95 m² vägg med U-värdet 0,25 W/(m²·K) och 18 m² fönster med U-värdet 1,2 W/(m²·K). U-värdet anger värmeeffekten per m² och grad temperaturskillnad. Använd P = UAΔT. Under 210 dygn är det konstant 20 °C inne och 2 °C ute.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"300\" viewBox=\"0 0 620 300\" role=\"img\" aria-label=\"Hus med väggar och fönster\"><rect width=\"620\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M120 145 L310 55 L500 145 V250 H120 Z\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"270\" y=\"172\" width=\"80\" height=\"78\" fill=\"#c9d6df\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"158\" y=\"160\" width=\"75\" height=\"55\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"387\" y=\"160\" width=\"75\" height=\"55\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">väggar: 95 m²</text><text x=\"310\" y=\"282\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">fönster: 18 m²</text><text x=\"78\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2b6f92\">ute 2 °C</text><text x=\"520\" y=\"55\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">inne 20 °C</text></svg><p><strong>a)</strong> Beräkna värmeeffekten genom väggarna och genom fönstren.</p><p><strong>b)</strong> Hur mycket energi går genom väggarna och fönstren tillsammans under perioden? Svara i kWh.</p><p><strong>c)</strong> Hur många procent av denna energi går genom fönstren?</p><p><strong>d)</strong> Fönstren byts till U-värdet 0,9 W/(m²·K). Hur mycket pengar sparas under perioden om elpriset är 2,50 kr/kWh? Nämn också något som modellen inte tar hänsyn till.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturskillnaden är 20 − 2 = 18 K.</p>\\[P_{\\mathrm{vagg}}=0{,}25\\cdot95\\cdot18=427{,}5\\,\\mathrm W\\]\\[P_{\\mathrm{fonster}}=1{,}2\\cdot18\\cdot18=388{,}8\\,\\mathrm W\\]<p><strong>b)</strong> </p><p>Tiden är 210 · 24 = 5040 timmar. Sammanlagd effekt är 427,5 + 388,8 = 816,3 W = 0,8163 kW.</p>\\[\\begin{aligned}&E=Pt\\\\ &=0{,}8163\\cdot5040=4114{,}152\\,\\mathrm{kWh}\\end{aligned}\\]<p><strong>Svar:</strong> Cirka 4110 kWh.</p><p><strong>c)</strong> </p><p>Båda effekterna verkar under samma tid, så energiernas andel kan beräknas från effekterna.</p>\\[\\text{andel}=\\frac{388{,}8}{816{,}3}\\cdot100\\approx47{,}6\\,\\%\\]<p><strong>d)</strong> </p><p>Effekten genom fönstren minskar med</p>\\[\\Delta P=(1{,}2-0{,}9)\\cdot18\\cdot18=97{,}2\\,\\mathrm W\\]\\[\\Delta E=0{,}0972\\cdot5040=489{,}888\\,\\mathrm{kWh}\\]\\[\\begin{aligned}&\\text{besparing}\\\\ &=489{,}888\\cdot2{,}50=1224{,}72\\,\\mathrm{kr}\\end{aligned}\\]<p><strong>Svar:</strong> Cirka 1225 kr. Modellen räknar med konstant temperaturskillnad och tar exempelvis inte med ventilation eller solvärme.</p></div>",
     "familj": "Värmeledning och strålning",
     "familjNyckel": "varme__varmeflode_genom_byggnader",
     "formaga": [
@@ -72866,16 +72868,17 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Värmeflöde genom byggnader"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "7.3",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En doppvärmare med effekten 400 W placeras i 4,0 liter vatten som från början håller 12 °C. Värmaren är på i 8,0 minuter. Räkna först med att all energi från värmaren går till vattnet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"310\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Doppvärmare i vatten\"><rect width=\"520\" height=\"310\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M130 72 L155 260 H365 L390 72\" fill=\"#e8edf1\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M151 146 L166 248 H354 L369 146 Z\" fill=\"#bfe2f2\"/><line x1=\"151\" y1=\"146\" x2=\"369\" y2=\"146\" stroke=\"#2b779f\" stroke-width=\"3\"/><path d=\"M270 35 V188 q0 26 26 26 q26 0 26-26 V90\" fill=\"none\" stroke=\"#ba5b38\" stroke-width=\"8\"/><text x=\"210\" y=\"120\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">4,0 L vatten</text><text x=\"210\" y=\"177\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">12 °C</text><text x=\"337\" y=\"54\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">400 W</text></svg></span><ol><li>Bestäm den energi som värmaren avger.</li><li>Bestäm vattnets sluttemperatur enligt modellen.</li><li>Förklara varför den verkliga sluttemperaturen blir lägre.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Pt=400\\cdot(8{,}0\\cdot60)=192000\\ \\mathrm J.\\]</div></div><div class=\"facit-stycke\"><p>Fyra liter vatten har massan cirka 4,0 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{192000}{4{,}0\\cdot4180}=11{,}5\\ \\mathrm K\\]\\[T_{\\mathrm{slut}}=12+11{,}5=23{,}5\\,{}^\\circ\\mathrm C.\\]</div></div><div class=\"facit-stycke\"><p>I verkligheten värms även hinken och doppvärmaren, samtidigt som energi överförs till omgivningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(192\\ \\mathrm{kJ}\\) och idealt \\(23{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En doppvärmare på 400 W värmer 4,0 liter vatten från 12 °C i 8 minuter. Rummet har temperaturen 12 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att 1 liter vatten har massan 1 kg. Räkna först med att all energi från värmaren går till vattnet.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"310\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Doppvärmare i vatten\"><rect width=\"520\" height=\"310\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M130 72 L155 260 H365 L390 72\" fill=\"#e8edf1\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M151 146 L166 248 H354 L369 146 Z\" fill=\"#bfe2f2\"/><line x1=\"151\" y1=\"146\" x2=\"369\" y2=\"146\" stroke=\"#2b779f\" stroke-width=\"3\"/><path d=\"M270 35 V188 q0 26 26 26 q26 0 26-26 V90\" fill=\"none\" stroke=\"#ba5b38\" stroke-width=\"8\"/><text x=\"210\" y=\"120\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">4,0 L vatten</text><text x=\"210\" y=\"177\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">12 °C</text><text x=\"337\" y=\"54\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">400 W</text></svg><p><strong>a)</strong> Hur mycket energi avger värmaren?</p><p><strong>b)</strong> Vilken sluttemperatur får vattnet enligt modellen?</p><p><strong>c)</strong> Varför blir sluttemperaturen lägre i verkligheten?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>8 minuter = 480 s.</p>\\[E=Pt=400\\cdot480=192000\\,\\mathrm J\\]<p><strong>Svar:</strong> 192 kJ.</p><p><strong>b)</strong> </p><p>Vattenmassan är 4,0 kg.</p>\\[\\Delta T=\\frac{192000}{4{,}0\\cdot4180}\\approx11{,}483\\,\\mathrm K\\]\\[T_{\\mathrm{slut}}=12+11{,}4833\\approx23{,}5\\,{}^\\circ\\mathrm C\\]<p><strong>c)</strong> </p><p>En del av energin värmer kärlet och själva värmaren. När vattnet blir varmare än rummet går också värme till omgivningen. Vattnet får därför mindre än 192 kJ och dess temperatur ökar mindre.</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__effekt_vid_uppvarmning",
     "formaga": [
@@ -72884,7 +72887,7 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Omvandla först tiden till sekunder och beräkna den tillförda energin.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -72895,7 +72898,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Effekt vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.65",
@@ -72903,8 +72907,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En aluminiumbit med massan \\(0{,}50\\ \\mathrm{kg}\\) värms \\(20\\ \\mathrm K\\). Aluminiumets specifika värmekapacitet är \\(900\\ \\mathrm{J/(kg\\,K)}\\). Hur mycket energi tar aluminiumet upp? Svara i kJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}50\\cdot900\\cdot20=9000\\ \\mathrm J=9{,}0\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,50 kg aluminium värms 20 K. Aluminiumets specifika värmekapacitet är 900 J/(kg·K).</p><p>Hur mycket energi tar aluminiumet upp? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=0{,}50\\cdot900\\cdot20=9000\\,\\mathrm J\\end{aligned}\\]<p>9000 J = 9,0 kJ.</p><p><strong>Svar:</strong> \\(9{,}0\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -72917,11 +72921,12 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – direkt beräkning",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0.135,
+    "rättSvar": 9.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kJ"
+    "svarEnhet": "kJ",
+    "arbetsinsats": 2
   },
   {
     "id": "7.4",
@@ -72929,8 +72934,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En järnbit med massan \\(2{,}5\\ \\mathrm{kg}\\) värms så att temperaturen ökar \\(60\\ \\mathrm K\\). Järnets specifika värmekapacitet är \\(460\\ \\mathrm{J/(kg\\,K)}\\). Bestäm den tillförda energin i kJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Utan fasövergång används \\(Q=mc\\Delta T\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=2{,}5\\cdot460\\cdot60=69000\\ \\mathrm J=69\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(69\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>2,5 kg järn värms 60 K. Järnets specifika värmekapacitet är 460 J/(kg·K).</p><p>Hur mycket energi tar järnet upp? Svara i kJ. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=2{,}5\\cdot460\\cdot60=69000\\,\\mathrm J\\end{aligned}\\]<p>69 000 J = 69 kJ.</p><p><strong>Svar:</strong> \\(69\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -72943,11 +72948,12 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – direkt beräkning",
     "svarstyp": "numeriskt",
-    "rättSvar": 69,
-    "tolerans": 1.035,
+    "rättSvar": 69.0,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kJ"
+    "svarEnhet": "kJ",
+    "arbetsinsats": 2
   },
   {
     "id": "7.5",
@@ -73219,9 +73225,9 @@ window.BANK = [
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/2/1)",
-    "t": "<p>I en bastu är både luften och en hink med vatten \\(90\\,{}^\\circ\\mathrm C\\). Jämför \\(1{,}0\\) liter luft med \\(1{,}0\\) liter vatten när båda kyls \\(70\\ \\mathrm K\\). Materialdata: \\(\\rho_{\\mathrm{luft}}=1{,}0\\ \\mathrm{kg/m^3}\\), \\(c_{\\mathrm{luft}}=1005\\ \\mathrm{J/(kg\\,K)}\\) och \\(c_{\\mathrm{vatten}}=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"En liter luft och en liter vatten\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"100\" y=\"55\" width=\"150\" height=\"150\" rx=\"8\" fill=\"#eef4f7\" stroke=\"#344454\" stroke-width=\"3\"/><circle cx=\"145\" cy=\"100\" r=\"4\" fill=\"#7b9daf\"/><circle cx=\"205\" cy=\"145\" r=\"4\" fill=\"#7b9daf\"/><circle cx=\"165\" cy=\"170\" r=\"4\" fill=\"#7b9daf\"/><rect x=\"370\" y=\"55\" width=\"150\" height=\"150\" rx=\"8\" fill=\"#bfe2f2\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"175\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">1,0 L luft</text><text x=\"445\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">1,0 L vatten</text><text x=\"175\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">90 °C</text><text x=\"445\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">90 °C</text></svg></span><ol><li>Bestäm hur mycket energi en liter luft respektive en liter vatten avger.</li><li>Förklara varför det går att vistas i den heta luften men varför vattnet skulle ge svåra brännskador.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En liter luft är \\(10^{-3}\\ \\mathrm{m^3}\\) och har massan \\(1{,}0\\cdot10^{-3}\\ \\mathrm{kg}\\).</p></div><div class=\"facit-stycke\"><p>En liter vatten har massan cirka \\(1{,}0\\ \\mathrm{kg}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{luft}}=0{,}0010\\cdot1005\\cdot70\\approx70\\ \\mathrm J\\]\\[Q_{\\mathrm{vatten}}=1{,}0\\cdot4180\\cdot70\\approx293000\\ \\mathrm J.\\]</div></div><div class=\"facit-stycke\"><p>Vattnet kan avge drygt 4000 gånger mer energi per liter.</p></div><div class=\"facit-stycke\"><p>Dessutom överför vatten energi till huden mycket snabbare än luft.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(70\\ \\mathrm J\\) respektive \\(293\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>I en bastu är både luften och en hink med vatten \\(90\\,{}^\\circ\\mathrm C\\). Jämför \\(1{,}0\\) liter luft med \\(1{,}0\\) liter vatten när båda kyls \\(70\\ \\mathrm K\\). Materialdata: \\(\\rho_{\\mathrm{luft}}=1{,}0\\ \\mathrm{kg/m^3}\\), \\(c_{\\mathrm{luft}}=1005\\ \\mathrm{J/(kg\\,K)}\\) och \\(c_{\\mathrm{vatten}}=4180\\ \\mathrm{J/(kg\\,K)}\\). Räkna med att 1 liter vatten har massan 1 kg.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"En liter luft och en liter vatten\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"100\" y=\"55\" width=\"150\" height=\"150\" rx=\"8\" fill=\"#eef4f7\" stroke=\"#344454\" stroke-width=\"3\"/><circle cx=\"145\" cy=\"100\" r=\"4\" fill=\"#7b9daf\"/><circle cx=\"205\" cy=\"145\" r=\"4\" fill=\"#7b9daf\"/><circle cx=\"165\" cy=\"170\" r=\"4\" fill=\"#7b9daf\"/><rect x=\"370\" y=\"55\" width=\"150\" height=\"150\" rx=\"8\" fill=\"#bfe2f2\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"175\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">1,0 L luft</text><text x=\"445\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">1,0 L vatten</text><text x=\"175\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">90 °C</text><text x=\"445\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">90 °C</text></svg></span><p><strong>a)</strong> Bestäm hur mycket energi en liter luft respektive en liter vatten avger.</p><p><strong>b)</strong> Förklara varför det går att vistas i den heta luften men varför vattnet skulle ge svåra brännskador.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> En liter luft är 0,001 m³ och har massan 1,0 · 0,001 = 0,001 kg. En liter vatten har massan 1,0 kg.</p>\\[Q_{\\mathrm{luft}}=0{,}001\\cdot1005\\cdot70=70{,}35\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=1{,}0\\cdot4180\\cdot70=292600\\,\\mathrm J\\]<p><strong>Svar:</strong> Cirka 70 J från luften och 293 kJ från vattnet.</p><p><strong>b)</strong> Vattnet kan avge över 4000 gånger mer energi per liter. Det överför också värme till huden snabbare än luften. Därför ger vatten vid 90 °C svåra brännskador, medan man kan vistas en kortare tid i torr bastuluft vid denna temperatur.</p></div>",
     "familj": "Värmeledning och strålning",
     "familjNyckel": "varme__varmeledning_och_temperaturkansla",
     "formaga": [
@@ -73230,7 +73236,7 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför först massan hos en liter av varje ämne och använd sedan samma temperaturändring.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -73241,7 +73247,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Värmeledning och temperaturkänsla"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.66",
@@ -73249,8 +73256,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En järnbit med massan \\(0{,}60\\ \\mathrm{kg}\\) värms \\(25\\ \\mathrm K\\). Järnets specifika värmekapacitet är \\(450\\ \\mathrm{J/(kg\\,K)}\\). Hur mycket energi tar järnet upp? Svara i kJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}60\\cdot450\\cdot25=6750\\ \\mathrm J=6{,}75\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}75\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,60 kg järn värms 25 K. Järnets specifika värmekapacitet är 450 J/(kg·K).</p><p>Hur mycket energi tar järnet upp? Svara i kJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=0{,}60\\cdot450\\cdot25=6750\\,\\mathrm J\\end{aligned}\\]<p>6750 J = 6,75 kJ.</p><p><strong>Svar:</strong> \\(6{,}75\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -73264,19 +73271,20 @@ window.BANK = [
     "typ": "specifik värmekapacitet – direkt beräkning",
     "svarstyp": "numeriskt",
     "rättSvar": 6.75,
-    "tolerans": 0.10125,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kJ"
+    "svarEnhet": "kJ",
+    "arbetsinsats": 2
   },
   {
     "id": "7.9",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Diagrammet visar hur en kopp kaffe svalnar i ett rum som håller 20 °C.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"221.55555555555554\" x2=\"486\" y2=\"221.55555555555554\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"225.55555555555554\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"197.11111111111111\" x2=\"486\" y2=\"197.11111111111111\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"201.11111111111111\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"148.22222222222223\" x2=\"486\" y2=\"148.22222222222223\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"152.22222222222223\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"123.77777777777777\" x2=\"486\" y2=\"123.77777777777777\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"127.77777777777777\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"74.88888888888889\" x2=\"486\" y2=\"74.88888888888889\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"78.88888888888889\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"50.44444444444446\" x2=\"486\" y2=\"50.44444444444446\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"54.44444444444446\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">T (°C)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (min)</text><polyline points=\"54,38.22222222222223 126,89.55555555555554 198,123.77777777777777 270,145.77777777777777 342,162.88888888888889 414,175.1111111111111 486,182.44444444444446\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"38.22222222222223\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"126\" cy=\"89.55555555555554\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"198\" cy=\"123.77777777777777\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270\" cy=\"145.77777777777777\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"342\" cy=\"162.88888888888889\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"414\" cy=\"175.1111111111111\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"182.44444444444446\" r=\"3.3\" fill=\"#B43123\"/></svg></span><ol><li>Bestäm temperaturminskningen under de första 10 minuterna.</li><li>Bestäm temperaturminskningen mellan 50 och 60 minuter.</li><li>Förklara varför avsvalningen går långsammare med tiden.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Av diagrammet avläses ungefär \\(85\\,{}^\\circ\\mathrm C\\) vid start, \\(64\\,{}^\\circ\\mathrm C\\) efter 10 minuter, \\(29\\,{}^\\circ\\mathrm C\\) efter 50 minuter och \\(26\\,{}^\\circ\\mathrm C\\) efter 60 minuter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T_{0-10}=85-64=21\\,{}^\\circ\\mathrm C\\]\\[\\Delta T_{50-60}=29-26=3\\,{}^\\circ\\mathrm C.\\]</div></div><div class=\"facit-stycke\"><p>När kaffets temperatur närmar sig rummets minskar temperaturskillnaden.</p></div><div class=\"facit-stycke\"><p>Då minskar värmeflödet till omgivningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(21\\,{}^\\circ\\mathrm C\\) och \\(3\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Diagrammet visar hur en kopp kaffe svalnar i ett rum som håller 20 °C.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"221.55555555555554\" x2=\"486\" y2=\"221.55555555555554\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"225.55555555555554\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"197.11111111111111\" x2=\"486\" y2=\"197.11111111111111\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"201.11111111111111\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"148.22222222222223\" x2=\"486\" y2=\"148.22222222222223\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"152.22222222222223\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"123.77777777777777\" x2=\"486\" y2=\"123.77777777777777\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"127.77777777777777\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"74.88888888888889\" x2=\"486\" y2=\"74.88888888888889\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"78.88888888888889\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"50.44444444444446\" x2=\"486\" y2=\"50.44444444444446\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"54.44444444444446\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">T (°C)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (min)</text><polyline points=\"54,38.22222222222223 126,89.55555555555554 198,123.77777777777777 270,145.77777777777777 342,162.88888888888889 414,175.1111111111111 486,182.44444444444446\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"38.22222222222223\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"126\" cy=\"89.55555555555554\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"198\" cy=\"123.77777777777777\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270\" cy=\"145.77777777777777\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"342\" cy=\"162.88888888888889\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"414\" cy=\"175.1111111111111\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"182.44444444444446\" r=\"3.3\" fill=\"#B43123\"/></svg></span><p><strong>a)</strong> Bestäm temperaturminskningen under de första 10 minuterna.</p><p><strong>b)</strong> Bestäm temperaturminskningen mellan 50 och 60 minuter.</p><p><strong>c)</strong> Förklara varför avsvalningen går långsammare med tiden.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Avläs temperaturen vid 0 och 10 minuter: ungefär 85 °C och 64 °C.</p>\\[\\Delta T=85-64=21\\,\\mathrm K\\]<p><strong>b)</strong> Vid 50 och 60 minuter är temperaturen ungefär 29 °C och 26 °C.</p>\\[\\Delta T=29-26=3\\,\\mathrm K\\]<p><strong>c)</strong> Kaffet närmar sig rummets temperatur, 20 °C. Då minskar temperaturskillnaden och mindre energi överförs per sekund till rummet. Kaffet svalnar därför långsammare.</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__avsvalning_och_termisk_jamvikt",
     "formaga": [
@@ -73285,7 +73293,7 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför temperaturerna vid ändpunkterna för vart och ett av tidsintervallen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -73296,16 +73304,17 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Avsvalning och termisk jämvikt"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.10",
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
-    "poang": "(0/2/2)",
-    "t": "<p>Vatten har \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\) och densiteten \\(1000\\ \\mathrm{kg/m^3}\\). Luft har \\(c=1005\\ \\mathrm{J/(kg\\,K)}\\) och densiteten \\(1{,}29\\ \\mathrm{kg/m^3}\\).</p><ol><li>En luftpelare har basytan 1,0 m². Bestäm hur hög den måste vara för att ha samma värmekapacitet som 1,0 m³ vatten.</li><li>Använd resultatet för att förklara varför kustklimat ofta har mindre temperaturvariationer än inlandsklimat.</li><li>Diskutera två skäl till att jämförelsen inte ensam räcker som fullständig klimatmodell.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Värmekapaciteten är massan multiplicerad med den specifika värmekapaciteten.</p></div><div class=\"facit-stycke\"><p>Luftpelarens massa är \\(\\rho Ah\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1000\\cdot4180=1{,}29\\cdot1{,}0\\cdot h\\cdot1005\\]\\[h\\approx3224\\ \\mathrm m=3{,}22\\ \\mathrm{km}.\\]</div></div><div class=\"facit-stycke\"><p>Havet kan alltså lagra mycket energi med liten temperaturändring och värms och kyls långsamt.</p></div><div class=\"facit-stycke\"><p>Det dämpar temperaturvariationerna nära kusten.</p></div><div class=\"facit-stycke\"><p>En fullständig klimatmodell måste även behandla exempelvis solinstrålning, avdunstning och kondensation, havsströmmar, vindar, blandningsdjup och värmeutbyte med marken.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> luftpelaren behöver vara cirka \\(3{,}2\\ \\mathrm{km}\\) hög.</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Vatten har \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\) och densiteten \\(1000\\ \\mathrm{kg/m^3}\\). Luft har \\(c=1005\\ \\mathrm{J/(kg\\,K)}\\) och densiteten \\(1{,}29\\ \\mathrm{kg/m^3}\\).</p><p><strong>a)</strong> En luftpelare har basytan 1,0 m². Bestäm hur hög den måste vara för att ha samma värmekapacitet som 1,0 m³ vatten.</p><p><strong>b)</strong> Använd resultatet för att förklara varför kustklimat ofta har mindre temperaturvariationer än inlandsklimat.</p><p><strong>c)</strong> Diskutera två skäl till att jämförelsen inte ensam räcker som fullständig klimatmodell.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vattnets massa är 1000 · 1,0 = 1000 kg. Dess värmekapacitet är</p>\\[\\begin{aligned}&C_{\\mathrm{vatten}}=mc\\\\ &=1000\\cdot4180=4180000\\,\\mathrm{J/K}\\end{aligned}\\]<p>En luftpelare med basytan 1,0 m² och höjden h har volymen 1,0h m³ och massan 1,29h kg. Sätt värmekapaciteterna lika.</p>\\[1{,}29h\\cdot1005=4180000\\]\\[h=\\frac{4180000}{1{,}29\\cdot1005}\\approx3224\\,\\mathrm m\\]<p><strong>Svar:</strong> Cirka 3,22 km.</p><p><strong>b)</strong> En stor vattenmängd kan ta upp eller avge mycket energi utan att temperaturen ändras så mycket. Havet värms långsamt under sommaren och svalnar långsamt under vintern. Detta minskar temperaturvariationerna nära kusten.</p><p><strong>c)</strong> Två exempel: vindar och havsströmmar transporterar energi mellan platser; avdunstning tar upp energi och kondensation avger energi. Jämförelsen tar inte hänsyn till dessa processer.</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__temperatur_och_termisk_energi",
     "formaga": [
@@ -73314,7 +73323,7 @@ window.BANK = [
       "problemlösning"
     ],
     "ledtrad": "<p>Jämför den totala värmekapaciteten \\(mc\\), inte bara ämnenas tabellvärden för \\(c\\).</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -73325,7 +73334,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Temperatur och termisk energi"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "7.67",
@@ -73333,8 +73343,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kopparbit med massan \\(0{,}70\\ \\mathrm{kg}\\) värms \\(30\\ \\mathrm K\\). Koppars specifika värmekapacitet är \\(385\\ \\mathrm{J/(kg\\,K)}\\). Bestäm energiökningen i kJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}70\\cdot385\\cdot30=8085\\ \\mathrm J=8{,}085\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}09\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,70 kg koppar värms 30 K. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p><p>Hur mycket energi tar kopparn upp? Svara i kJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=0{,}70\\cdot385\\cdot30=8085\\,\\mathrm J\\end{aligned}\\]<p>8085 J = 8,085 kJ.</p><p><strong>Svar:</strong> \\(8{,}09\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -73347,20 +73357,21 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – direkt beräkning",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.09,
-    "tolerans": 0.12135,
+    "rättSvar": 8.085,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kJ"
+    "svarEnhet": "kJ",
+    "arbetsinsats": 2
   },
   {
     "id": "7.11",
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En träplatta och en järnplatta har legat länge i samma frys. De tas ut samtidigt och läggs på ett bord. Vilket påstående är mest korrekt?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Järn leder energi från handen betydligt snabbare än trä och känns därför kallare trots samma temperatur.</p></div><div class=\"facit-stycke\"><p>Vilken hel platta som når rumstemperatur först kan inte avgöras utan uppgifter om bland annat massa, form, värmekapacitet och värmeöverföring till luften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> det första alternativet.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En träplatta och en järnplatta har legat länge i samma kalla frys. När du tar på dem känns järnet kallare. Varför?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Plattorna har samma temperatur i frysen. Järn leder värme från handen snabbare än trä, och därför känns järnet kallare. Känslan visar hur snabbt handen avger värme.</p><p><strong>Svar:</strong> Järn leder värme från handen snabbare.</p></div>",
     "familj": "Värmeledning och strålning",
     "familjNyckel": "varme__varmeledning_och_temperaturkansla",
     "formaga": [
@@ -73368,9 +73379,9 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Skilj mellan ett föremåls temperatur, värmeflödet från handen och tiden tills hela föremålet har värmts.</p>",
-    "traningsniva": 4,
+    "traningsniva": 1,
     "spel": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
     "typ": "värmeledning och temperaturkänsla",
     "svarstyp": "alternativ",
@@ -73379,38 +73390,35 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Järn känns kallare eftersom det leder energi från handen snabbare; tiden för hela plattan att nå rumstemperatur kräver fler uppgifter.",
+        "txt": "Järn leder värme från handen snabbare än trä.",
         "ratt": true,
-        "kommentar": "Köldkänslan beror på värmeflödet. Uppvärmningstiden beror också på bland annat massa, geometri och värmekapacitet."
+        "kommentar": "Detta stämmer."
       },
       {
-        "txt": "Järn känns kallare eftersom järnets temperatur är lägre; järnplattan når rumstemperatur först eftersom metall alltid värms snabbast.",
+        "txt": "Järnet har lägre temperatur än träet.",
         "ratt": false,
-        "kommentar": "Plattorna har samma starttemperatur. Värmeledningsförmågan avgör inte ensam hela plattans uppvärmningstid."
+        "kommentar": "Jämför med förklaringen i facit."
       },
       {
-        "txt": "Trä känns kallare eftersom träet innehåller mindre energi; träplattan når rumstemperatur först eftersom trä vanligtvis har lägre densitet.",
+        "txt": "Trä leder värme från handen snabbare än järn.",
         "ratt": false,
-        "kommentar": "Trä känns normalt varmare eftersom det leder bort energi från handen långsammare. Densiteten ensam bestämmer inte tiden."
-      },
-      {
-        "txt": "Plattorna känns lika kalla eftersom de har samma temperatur; de når också rumstemperatur samtidigt eftersom de startar lika kalla.",
-        "ratt": false,
-        "kommentar": "Samma temperatur innebär inte samma värmeflöde till eller från handen, och inte heller samma uppvärmningstid."
+        "kommentar": "Jämför med förklaringen i facit."
       }
     ],
     "familjTidigare": [
       "Värmeledning och temperaturkänsla"
-    ]
+    ],
+    "svarFormat": "alternativ",
+    "arbetsinsats": 1
   },
   {
     "id": "7.12",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En solfångare har arean 4,0 m². Solinstrålningen är 700 W/m² och 45 % av den infallande effekten tas upp av vattnet. Solfångaren ska värma 150 liter vatten med 10 °C.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"280\" viewBox=\"0 0 620 280\" role=\"img\" aria-label=\"Energiflöde till solfångare\"><rect width=\"620\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><circle cx=\"100\" cy=\"75\" r=\"35\" fill=\"#f2c14e\" stroke=\"#a46b16\" stroke-width=\"3\"/><line x1=\"145\" y1=\"95\" x2=\"250\" y2=\"145\" stroke=\"#d98e26\" stroke-width=\"6\"/><polygon points=\"250,145 230,128 225,155\" fill=\"#d98e26\"/><rect x=\"265\" y=\"105\" width=\"150\" height=\"100\" rx=\"8\" fill=\"#416f8a\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M285 185 L395 125 M305 195 L415 135\" stroke=\"#bfe2f2\" stroke-width=\"5\"/><line x1=\"420\" y1=\"155\" x2=\"525\" y2=\"155\" stroke=\"#2c8765\" stroke-width=\"6\"/><polygon points=\"525,155 503,142 503,168\" fill=\"#2c8765\"/><text x=\"190\" y=\"78\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">700 W/m²</text><text x=\"340\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">4,0 m²</text><text x=\"480\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2c6f56\">45 % till vattnet</text></svg></span><ol><li>Bestäm den effekt som tas upp av vattnet.</li><li>Bestäm uppvärmningstiden om all energi går till uppvärmningen.</li><li>Förklara varför uppvärmningen tar längre tid i verkligheten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{vatten}}=4{,}0\\cdot700\\cdot0{,}45=1260\\ \\mathrm W.\\]</div></div><div class=\"facit-stycke\"><p>Vattenmassan är cirka 150 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=150\\cdot4180\\cdot10=6{,}27\\cdot10^6\\ \\mathrm J\\]\\[t=\\frac{Q}{P}=\\frac{6{,}27\\cdot10^6}{1260}=4976\\ \\mathrm s\\approx83\\ \\mathrm{min}.\\]</div></div><div class=\"facit-stycke\"><p>I verkligheten varierar solinstrålningen och värme förloras från solfångare, rör och tank under uppvärmningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}26\\ \\mathrm{kW}\\) och idealt cirka \\(83\\ \\mathrm{min}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En solfångare har arean 4,0 m². Solljuset ger 700 W per m² och 45 % av den effekten överförs till vattnet. Solfångaren ska värma 150 liter vatten med 10 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att 1 liter vatten har massan 1 kg.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"280\" viewBox=\"0 0 620 280\" role=\"img\" aria-label=\"Energiflöde till solfångare\"><rect width=\"620\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><circle cx=\"100\" cy=\"75\" r=\"35\" fill=\"#f2c14e\" stroke=\"#a46b16\" stroke-width=\"3\"/><line x1=\"145\" y1=\"95\" x2=\"250\" y2=\"145\" stroke=\"#d98e26\" stroke-width=\"6\"/><polygon points=\"250,145 230,128 225,155\" fill=\"#d98e26\"/><rect x=\"265\" y=\"105\" width=\"150\" height=\"100\" rx=\"8\" fill=\"#416f8a\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M285 185 L395 125 M305 195 L415 135\" stroke=\"#bfe2f2\" stroke-width=\"5\"/><line x1=\"420\" y1=\"155\" x2=\"525\" y2=\"155\" stroke=\"#2c8765\" stroke-width=\"6\"/><polygon points=\"525,155 503,142 503,168\" fill=\"#2c8765\"/><text x=\"190\" y=\"78\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">700 W/m²</text><text x=\"340\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">4,0 m²</text><text x=\"480\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2c6f56\">45 % till vattnet</text></svg><p><strong>a)</strong> Vilken effekt överförs till vattnet?</p><p><strong>b)</strong> Hur lång tid tar uppvärmningen om solljuset är konstant och ingen värme lämnar vattnet? Svara i minuter.</p><p><strong>c)</strong> Ge en anledning till att uppvärmningen kan ta längre tid i verkligheten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p>\\[P_{\\mathrm{vatten}}=4{,}0\\cdot700\\cdot0{,}45=1260\\,\\mathrm W\\]<p><strong>Svar:</strong> 1,26 kW.</p><p><strong>b)</strong> </p><p>Vattenmassan är 150 kg.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=150\\cdot4180\\cdot10=6270000\\,\\mathrm J\\end{aligned}\\]\\[\\begin{aligned}&t=Q/P\\\\ &=6270000/1260\\approx4976{,}19\\,\\mathrm s\\end{aligned}\\]<p>Dela med 60 för att få minuter: 4976,19/60 ≈ 82,94 min.</p><p><strong>Svar:</strong> Cirka 83 minuter.</p><p><strong>c)</strong> </p><p>Till exempel kan moln minska effekten från solljuset. Värme kan också lämna vattnet genom tanken och rören. Då återstår mindre effekt till temperaturökningen.</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__effekt_vid_uppvarmning",
     "formaga": [
@@ -73419,7 +73427,7 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Beräkna först hur stor del av den infallande effekten som går till vattnet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -73430,7 +73438,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Effekt vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.68",
@@ -73438,25 +73447,26 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett värmeelement överför \\(84{,}0\\ \\mathrm{kJ}\\) till vatten och höjer temperaturen \\(20{,}0\\ \\mathrm K\\). Bestäm vattenmassan. Materialdata: \\(c=4200\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{c\\Delta T}=\\frac{84000}{4200\\cdot20{,}0}=1{,}00\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}00\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>Vatten värms 20 K och tar upp 84 000 J. Vattnets specifika värmekapacitet är 4200 J/(kg·K).</p><p>Hur stor massa har vattnet? Svara i kg. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös ut massan ur Q = mcΔT.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{84000}{4200\\cdot20}=1\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(1\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
       "procedur"
     ],
     "ledtrad": "<p>Lös ut massan ur sambandet för värmeenergi.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "specifik värmekapacitet – annan obekant",
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0.015,
+    "rättSvar": 1.0,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kg"
+    "svarEnhet": "kg",
+    "arbetsinsats": 1
   },
   {
     "id": "7.13",
@@ -73464,8 +73474,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En dusch använder 12 liter vatten per minut och pågår i 8,0 minuter. Vattnet värms från 10 °C till 40 °C. Anta att 1,0 liter vatten har massan 1,0 kg och att all beräknad energi köps som el för 2,50 kr/kWh.</p><ol><li>Bestäm energin som tillförs vattnet i kWh.</li><li>Bestäm kostnaden för duschen.</li><li>Duschtiden minskas från 8,0 till 5,0 minuter varje dag. Bestäm besparingen under 365 dagar enligt modellen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Åtta minuter ger \\(96\\ \\mathrm{kg}\\) vatten och temperaturökningen är \\(30\\ \\mathrm K\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=96\\cdot4180\\cdot30=12{,}04\\ \\mathrm{MJ}=3{,}34\\ \\mathrm{kWh}\\]\\[C=3{,}34\\cdot2{,}50=8{,}36\\ \\mathrm{kr}\\]\\[C_{\\mathrm{spar}}=8{,}36\\cdot\\frac38\\cdot365\\approx1144\\ \\mathrm{kr}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}34\\ \\mathrm{kWh}\\), \\(8{,}36\\ \\mathrm{kr}\\) och cirka \\(1140\\ \\mathrm{kr/år}\\).</p></div>",
+    "t": "<p>En dusch ger 12 liter vatten per minut och pågår i 8 minuter. Vattnet värms från 10 °C till 40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att 1 liter vatten har massan 1 kg. Elpriset är 2,50 kr/kWh. Räkna med att all elenergi värmer vattnet.</p><p><strong>a)</strong> Hur mycket energi tar vattnet upp? Svara i kWh. Avrunda till 2 decimaler.</p><p><strong>b)</strong> Vad kostar elen till duschen? Svara i kr. Avrunda till 2 decimaler.</p><p><strong>c)</strong> Duschtiden minskas från 8 till 5 minuter varje dag. Hur mycket sparas på 365 dagar? Svara i kr. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Vattenmassan är 12 · 8 = 96 kg.</p><p>Temperaturökningen är 30 K.</p>\\[Q=96\\cdot4180\\cdot30=12038400\\,\\mathrm J\\]<p>1 kWh = 3 600 000 J.</p>\\[Q=\\frac{12038400}{3600000}=3{,}344\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> \\(3{,}34\\,\\mathrm{kWh}\\).</p><p><strong>b)</strong> </p>\\[\\text{kostnad}=3{,}344\\cdot2{,}50=8{,}36\\,\\mathrm{kr}\\]<p><strong>Svar:</strong> \\(8{,}36\\,\\mathrm{kr}\\).</p><p><strong>c)</strong> </p><p>Tre minuter sparas per dag. Det motsvarar 12 · 3 = 36 kg vatten.</p>\\[Q_{\\mathrm{spar}}=36\\cdot4180\\cdot30=4514400\\,\\mathrm J\\]\\[\\begin{aligned}&Q_{\\mathrm{spar}}\\\\ &=4514400/3600000=1{,}254\\,\\mathrm{kWh}\\end{aligned}\\]\\[\\begin{aligned}&\\text{besparing}\\\\ &=1{,}254\\cdot2{,}50\\cdot365\\\\ &=1144{,}275\\,\\mathrm{kr}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1144\\,\\mathrm{kr}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__varmeenergi_i_vardagen",
     "formaga": [
@@ -73480,14 +73490,14 @@ window.BANK = [
     "typ": "värmeenergi och energikostnad",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.34,
+      3.344,
       8.36,
-      1144
+      1144.2749999999999
     ],
     "tolerans": [
-      0.0501,
-      0.1254,
-      17.16
+      0.005,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "svarFormat": [
@@ -73507,39 +73517,46 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En dusch använder 12 liter vatten per minut och pågår i 8,0 minuter. Vattnet värms från 10 °C till 40 °C. Anta att 1,0 liter vatten har massan 1,0 kg och att all beräknad energi köps som el för 2,50 kr/kWh.</p>",
+    "spelIntro": "<p>En dusch ger 12 liter vatten per minut och pågår i 8 minuter. Vattnet värms från 10 °C till 40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att 1 liter vatten har massan 1 kg. Elpriset är 2,50 kr/kWh. Räkna med att all elenergi värmer vattnet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin som tillförs vattnet i kWh.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=12\\cdot8=96\\ \\mathrm{kg}\\]\\[Q=96\\cdot4180\\cdot30=12{,}04\\ \\mathrm{MJ}=3{,}34\\ \\mathrm{kWh}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}34\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>Beräkna först vattenmassan och använd sedan Q = mcΔT.</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i kWh. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 30 K.</p>\\[Q=96\\cdot4180\\cdot30=12038400\\,\\mathrm J\\]<p>1 kWh = 3 600 000 J.</p>\\[Q=\\frac{12038400}{3600000}=3{,}344\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> \\(3{,}34\\,\\mathrm{kWh}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>96 kg duschvatten värms från 10 °C till 40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i kWh. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm kostnaden för duschen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[C=3{,}344\\cdot2{,}50=8{,}36\\ \\mathrm{kr}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}36\\ \\mathrm{kr}\\).</p></div>",
-        "ledtrad": "<p>Multiplicera energin i kWh med elpriset.</p>",
+        "fraga": "Vad kostar elen till duschen? Svara i kr. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\text{kostnad}=3{,}344\\cdot2{,}50=8{,}36\\,\\mathrm{kr}\\]<p><strong>Svar:</strong> \\(8{,}36\\,\\mathrm{kr}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 2,
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>En dusch använder 3,344 kWh el. Elpriset är 2,50 kr/kWh.</p><p>Vad kostar elen till duschen? Svara i kr. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Duschtiden minskas från 8,0 till 5,0 minuter varje dag. Bestäm besparingen under 365 dagar enligt modellen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[C_{\\mathrm{år}}=8{,}36\\cdot\\frac{3}{8}\\cdot365\\approx1144\\ \\mathrm{kr}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(1140\\ \\mathrm{kr}\\).</p></div>",
-        "ledtrad": "<p>Tre av de ursprungliga åtta minuterna sparas varje dag.</p>",
+        "fraga": "Hur mycket sparas på 365 dagar? Svara i kr. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det sparas 8 − 5 = 3 minuter varje dag.</p>\\[\\begin{aligned}&\\text{besparing}\\\\ &=3\\cdot1{,}045\\cdot365=1144{,}275\\,\\mathrm{kr}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1144\\,\\mathrm{kr}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Vattnet till en dusch kostar 1,045 kr per minut att värma. Duschtiden minskas från 8 till 5 minuter varje dag.</p><p>Hur mycket sparas på 365 dagar? Svara i kr. Svara med ett heltal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Värmeenergi i vardagen"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.14",
@@ -73877,8 +73894,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Solinstrålningen vinkelrätt mot jordbanan är i genomsnitt \\(1361\\ \\mathrm{W/m^2}\\). Jorden tar emot strålning över tvärsnittsarean \\(\\pi R^2\\), medan medelvärdet fördelas över klotytan \\(4\\pi R^2\\). Jordens albedo är 0,30.</p><ol><li>Bestäm den genomsnittliga infallande effekten per kvadratmeter jordyta.</li><li>Bestäm den genomsnittliga effekt per kvadratmeter som absorberas.</li><li>Förklara hur ett ökat albedo påverkar jordens temperatur och ge ett exempel på en återkoppling som berör albedot.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{med}}=\\frac{1361}{4}=340{,}25\\ \\mathrm{W/m^2}.\\]</div></div><div class=\"facit-stycke\"><p>Andelen som absorberas är \\(1-0{,}30=0{,}70\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{abs}}=0{,}70\\cdot340{,}25=238{,}2\\ \\mathrm{W/m^2}.\\]</div></div><div class=\"facit-stycke\"><p>Ett högre albedo innebär att mer strålning reflekteras och att mindre energi absorberas.</p></div><div class=\"facit-stycke\"><p>Mer snö eller is kan därför bidra till avkylning, medan minskad isyta kan sänka albedot och förstärka en uppvärmning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(340\\ \\mathrm{W/m^2}\\) infaller i medel och cirka \\(238\\ \\mathrm{W/m^2}\\) absorberas.</p></div>",
+    "t": "<p>Solinstrålningen på en yta vinkelrätt mot solstrålarna är i genomsnitt \\(1361\\ \\mathrm{W/m^2}\\). Jorden tar emot strålning över tvärsnittsarean \\(\\pi R^2\\), medan medelvärdet fördelas över klotytan \\(4\\pi R^2\\). Jorden reflekterar 30 % av den infallande strålningen. Denna andel kallas albedo.</p><p><strong>a)</strong> Bestäm den genomsnittliga infallande effekten per kvadratmeter jordyta.</p><p><strong>b)</strong> Bestäm den genomsnittliga effekt per kvadratmeter som absorberas.</p><p><strong>c)</strong> Förklara hur ett ökat albedo påverkar jordens temperatur och ge ett exempel på en återkoppling som berör albedot.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Jordens klotyta är fyra gånger större än den area som fångar upp solljuset.</p>\\[I_{\\mathrm{med}}=1361/4=340{,}25\\,\\mathrm{W/m^2}\\]<p><strong>b)</strong> 30 % reflekteras, så 70 % tas upp.</p>\\[\\begin{aligned}&I_{\\mathrm{upptagen}}\\\\ &=0{,}70\\cdot340{,}25=238{,}175\\,\\mathrm{W/m^2}\\end{aligned}\\]<p><strong>Svar:</strong> Cirka 238 W/m².</p><p><strong>c)</strong> Om mer strålning reflekteras får jorden mindre energi och kan svalna. Mer snö och is kan reflektera mer ljus och förstärka avkylningen. Om is i stället smälter reflekteras mindre ljus, vilket kan förstärka uppvärmningen.</p></div>",
     "familj": "Värmeledning och strålning",
     "familjNyckel": "varme__stralningsbalans_och_albedo",
     "formaga": [
@@ -73906,8 +73923,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett aluminiumstycke med massan \\(0{,}80\\ \\mathrm{kg}\\) tillförs \\(24{,}0\\ \\mathrm{kJ}\\). Bestäm temperaturökningen. Materialdata: \\(c=900\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{Q}{mc}=\\frac{24000}{0{,}80\\cdot900}=33{,}3\\ \\mathrm K.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33{,}3\\ \\mathrm K\\).</p></div>",
+    "t": "<p>0,80 kg aluminium tar upp 24 kJ. Aluminiumets specifika värmekapacitet är 900 J/(kg·K).</p><p>Hur mycket ökar temperaturen? Svara i K. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>24 kJ = 24 000 J.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{24000}{0{,}80\\cdot900}\\approx33{,}33\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(33{,}3\\,\\mathrm{K}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -73920,11 +73937,12 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – annan obekant",
     "svarstyp": "numeriskt",
-    "rättSvar": 33.3,
-    "tolerans": 0.4995,
+    "rättSvar": 33.333333333333336,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "svarEnhet": "K",
+    "arbetsinsats": 2
   },
   {
     "id": "7.18",
@@ -73932,8 +73950,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Ett fönster har arean \\(2{,}4\\ \\mathrm{m^2}\\) och U-värdet \\(1{,}2\\ \\mathrm{W/(m^2\\,K)}\\). Värmeeffekten genom fönstret modelleras med \\(P=UA\\Delta T\\). Det är \\(20\\,{}^\\circ\\mathrm C\\) inne och \\(-2\\,{}^\\circ\\mathrm C\\) ute.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"280\" viewBox=\"0 0 520 280\" role=\"img\" aria-label=\"Värmeflöde genom ett fönster\"><rect width=\"520\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"205\" y=\"45\" width=\"110\" height=\"190\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"5\"/><line x1=\"260\" y1=\"45\" x2=\"260\" y2=\"235\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"205\" y1=\"140\" x2=\"315\" y2=\"140\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"430\" y1=\"140\" x2=\"120\" y2=\"140\" stroke=\"#b75432\" stroke-width=\"7\"/><polygon points=\"120,140 142,127 142,153\" fill=\"#b75432\"/><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#2b6f92\">ute −2 °C</text><text x=\"430\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#a1492d\">inne 20 °C</text><text x=\"260\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">area 2,4 m²</text></svg></span><ol><li>Bestäm värmeeffekten genom fönstret.</li><li>Bestäm energiförlusten under 2000 timmar. Svara i kWh.</li><li>Fönstret byts till ett med U-värdet 0,8 W/(m²·K). Bestäm energibesparingen under samma tid.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UA\\Delta T=63{,}36\\ \\mathrm W\\]\\[E=0{,}06336\\cdot2000=126{,}72\\ \\mathrm{kWh}\\]\\[\\Delta E=(1{,}2-0{,}8)\\cdot2{,}4\\cdot22\\cdot2=42{,}24\\ \\mathrm{kWh}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63{,}4\\ \\mathrm W\\), \\(126{,}7\\ \\mathrm{kWh}\\) och \\(42{,}2\\ \\mathrm{kWh}\\).</p></div>",
+    "t": "<p>Ett fönster har arean 2,4 m² och U-värdet 1,2 W/(m²·K). Inne är det 20 °C och ute −2 °C under 2000 timmar. U-värdet anger värmeeffekten per m² och grad temperaturskillnad. Använd P = UAΔT.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"280\" viewBox=\"0 0 520 280\" role=\"img\" aria-label=\"Värmeflöde genom ett fönster\"><rect width=\"520\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"205\" y=\"45\" width=\"110\" height=\"190\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"5\"/><line x1=\"260\" y1=\"45\" x2=\"260\" y2=\"235\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"205\" y1=\"140\" x2=\"315\" y2=\"140\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"430\" y1=\"140\" x2=\"120\" y2=\"140\" stroke=\"#b75432\" stroke-width=\"7\"/><polygon points=\"120,140 142,127 142,153\" fill=\"#b75432\"/><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#2b6f92\">ute −2 °C</text><text x=\"430\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#a1492d\">inne 20 °C</text><text x=\"260\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">area 2,4 m²</text></svg><p><strong>a)</strong> Vilken värmeeffekt går genom fönstret? Svara i W. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket energi går genom fönstret? Svara i kWh. Avrunda till 1 decimal.</p><p><strong>c)</strong> Fönstret byts till U-värdet 0,8 W/(m²·K). Hur mycket mindre energi går genom det nya fönstret under 2000 timmar? Svara i kWh. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturskillnaden är 20 − (−2) = 22 K.</p>\\[\\begin{aligned}&P=UA\\Delta T\\\\ &=1{,}2\\cdot2{,}4\\cdot22=63{,}36\\,\\mathrm W\\end{aligned}\\]<p><strong>Svar:</strong> \\(63{,}4\\,\\mathrm{W}\\).</p><p><strong>b)</strong> </p><p>63,36 W = 0,06336 kW. Med tid i timmar och effekt i kW blir energin i kWh.</p>\\[\\begin{aligned}&E=Pt\\\\ &=0{,}06336\\cdot2000=126{,}72\\,\\mathrm{kWh}\\end{aligned}\\]<p><strong>Svar:</strong> \\(126{,}7\\,\\mathrm{kWh}\\).</p><p><strong>c)</strong> </p><p>Minskningen i U-värde är 1,2 − 0,8 = 0,4 W/(m²·K).</p>\\[\\Delta P=0{,}4\\cdot2{,}4\\cdot22=21{,}12\\,\\mathrm W\\]\\[\\Delta E=0{,}02112\\cdot2000=42{,}24\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> \\(42{,}2\\,\\mathrm{kWh}\\).</p></div>",
     "familj": "Värmeledning och strålning",
     "familjNyckel": "varme__varmeflode_genom_byggnader",
     "formaga": [
@@ -73948,14 +73966,14 @@ window.BANK = [
     "typ": "värmeflöde genom byggnader",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      63.4,
-      126.7,
-      42.2
+      63.36,
+      126.72,
+      42.239999999999995
     ],
     "tolerans": [
-      0.951,
-      1.9005,
-      0.633
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -73975,48 +73993,55 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett fönster har arean \\(2{,}4\\ \\mathrm{m^2}\\) och U-värdet \\(1{,}2\\ \\mathrm{W/(m^2\\,K)}\\). Värmeeffekten genom fönstret modelleras med \\(P=UA\\Delta T\\). Det är \\(20\\,{}^\\circ\\mathrm C\\) inne och \\(-2\\,{}^\\circ\\mathrm C\\) ute.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"280\" viewBox=\"0 0 520 280\" role=\"img\" aria-label=\"Värmeflöde genom ett fönster\"><rect width=\"520\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"205\" y=\"45\" width=\"110\" height=\"190\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"5\"/><line x1=\"260\" y1=\"45\" x2=\"260\" y2=\"235\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"205\" y1=\"140\" x2=\"315\" y2=\"140\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"430\" y1=\"140\" x2=\"120\" y2=\"140\" stroke=\"#b75432\" stroke-width=\"7\"/><polygon points=\"120,140 142,127 142,153\" fill=\"#b75432\"/><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#2b6f92\">ute −2 °C</text><text x=\"430\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#a1492d\">inne 20 °C</text><text x=\"260\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">area 2,4 m²</text></svg></span>",
+    "spelIntro": "<p>Ett fönster har arean 2,4 m² och U-värdet 1,2 W/(m²·K). Inne är det 20 °C och ute −2 °C under 2000 timmar. U-värdet anger värmeeffekten per m² och grad temperaturskillnad. Använd P = UAΔT.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"280\" viewBox=\"0 0 520 280\" role=\"img\" aria-label=\"Värmeflöde genom ett fönster\"><rect width=\"520\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"205\" y=\"45\" width=\"110\" height=\"190\" fill=\"#cdeaf6\" stroke=\"#344454\" stroke-width=\"5\"/><line x1=\"260\" y1=\"45\" x2=\"260\" y2=\"235\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"205\" y1=\"140\" x2=\"315\" y2=\"140\" stroke=\"#344454\" stroke-width=\"3\"/><line x1=\"430\" y1=\"140\" x2=\"120\" y2=\"140\" stroke=\"#b75432\" stroke-width=\"7\"/><polygon points=\"120,140 142,127 142,153\" fill=\"#b75432\"/><text x=\"80\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#2b6f92\">ute −2 °C</text><text x=\"430\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#a1492d\">inne 20 °C</text><text x=\"260\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">area 2,4 m²</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm värmeeffekten genom fönstret.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1{,}2\\cdot2{,}4\\cdot22=63{,}36\\ \\mathrm W.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63{,}4\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Temperaturskillnaden är 22 K.</p>",
+        "fraga": "Vilken värmeeffekt går genom fönstret? Svara i W. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturskillnaden är 20 − (−2) = 22 K.</p>\\[\\begin{aligned}&P=UA\\Delta T\\\\ &=1{,}2\\cdot2{,}4\\cdot22=63{,}36\\,\\mathrm W\\end{aligned}\\]<p><strong>Svar:</strong> \\(63{,}4\\,\\mathrm{W}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>Ett fönster har arean 2,4 m² och U-värdet 1,2 W/(m²·K). Inne är det 20 °C och ute −2 °C. U-värdet anger effekten per m² och grad temperaturskillnad. Använd P = UAΔT.</p><p>Vilken värmeeffekt går genom fönstret? Svara i W. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm energiförlusten under 2000 timmar. Svara i kWh.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}06336\\cdot2000=126{,}72\\ \\mathrm{kWh}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(126{,}7\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>Multiplicera effekten i kilowatt med tiden i timmar.</p>",
+        "fraga": "Hur mycket energi går genom fönstret? Svara i kWh. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>63,36 W = 0,06336 kW. Med tid i timmar och effekt i kW blir energin i kWh.</p>\\[\\begin{aligned}&E=Pt\\\\ &=0{,}06336\\cdot2000=126{,}72\\,\\mathrm{kWh}\\end{aligned}\\]<p><strong>Svar:</strong> \\(126{,}7\\,\\mathrm{kWh}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Genom ett fönster går värmeeffekten 63,36 W under 2000 timmar.</p><p>Hur mycket energi går genom fönstret? Svara i kWh. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Fönstret byts till ett med U-värdet 0,8 W/(m²·K). Bestäm energibesparingen under samma tid.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E=(1{,}2-0{,}8)\\cdot2{,}4\\cdot22\\cdot\\frac{2000}{1000}=42{,}24\\ \\mathrm{kWh}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}2\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>Beräkna skillnaden mellan de två värmeeffekterna.</p>",
+        "fraga": "Hur mycket mindre energi går genom det nya fönstret under den tiden? Svara i kWh. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Minskningen i U-värde är 1,2 − 0,8 = 0,4 W/(m²·K).</p>\\[\\Delta P=0{,}4\\cdot2{,}4\\cdot22=21{,}12\\,\\mathrm W\\]\\[\\Delta E=0{,}02112\\cdot2000=42{,}24\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> \\(42{,}2\\,\\mathrm{kWh}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 3,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>Ett fönster på 2,4 m² byts från U-värdet 1,2 till 0,8 W/(m²·K). Temperaturskillnaden är 22 K under 2000 timmar. Använd P = UAΔT.</p><p>Hur mycket mindre energi går genom det nya fönstret under den tiden? Svara i kWh. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Värmeflöde genom byggnader"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.19",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(1/2/1)",
-    "t": "<p>Du har \\(200\\ \\mathrm g\\) kaffe vid \\(90\\,{}^\\circ\\mathrm C\\) och \\(30\\ \\mathrm g\\) mjölk vid \\(5\\,{}^\\circ\\mathrm C\\). Kaffe och mjölk kan behandlas som vatten. Du vill att drycken ska vara så varm som möjligt efter tio minuter i ett rum.</p><ol><li>Bestäm temperaturen direkt efter att mjölken har blandats med kaffet. Bortse från värmeförluster under själva blandningen.</li><li>Blir drycken varmast efter tio minuter om mjölken hälls i direkt eller strax före servering? Motivera utifrån temperaturskillnaden mot rummet.</li><li>Nämn ett antagande som gör jämförelsen osäker i praktiken.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Eftersom båda vätskorna behandlas som vatten kan den specifika värmekapaciteten förkortas bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=\\frac{200\\cdot90+30\\cdot5}{230}=78{,}9\\,{}^\\circ\\mathrm C.\\]</div></div><div class=\"facit-stycke\"><p>Om mjölken hälls i direkt sänks temperaturen tidigt.</p></div><div class=\"facit-stycke\"><p>Då blir temperaturskillnaden mot rummet mindre under väntetiden och värmeförlusten minskar.</p></div><div class=\"facit-stycke\"><p>I den förenklade modellen blir drycken därför varmast om mjölken hälls i direkt.</p></div><div class=\"facit-stycke\"><p>Slutsatsen påverkas bland annat av avdunstning, koppens värmekapacitet, omrörning och att värmeöverföringen inte behöver följa exakt samma modell hela tiden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> blandningstemperaturen är cirka \\(78{,}9\\,{}^\\circ\\mathrm C\\); i modellen bör mjölken hällas i direkt.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Du har 200 g kaffe vid 90 °C och 30 g mjölk vid 5 °C. Båda behandlas som vatten. Rummet håller 20 °C. Mjölken hålls vid 5 °C tills den hälls i. I en förenklad modell är värmeförlusten per sekund proportionell mot dryckens temperaturskillnad mot rummet, med samma proportionalitetskonstant före och efter blandningen. Räkna inte med koppen eller avdunstning.</p><p><strong>a)</strong> Vilken temperatur får drycken direkt efter blandningen? Ingen energi går till omgivningen under själva blandningen.</p><p><strong>b)</strong> Blir drycken varmast efter tio minuter om mjölken hälls i direkt eller precis före serveringen? Förklara enligt modellen.</p><p><strong>c)</strong> Nämn ett antagande som kan vara osäkert i praktiken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Kaffe och mjölk har samma specifika värmekapacitet. Den förkortas bort ur energibalansen.</p>\\[200(90-T)=30(T-5)\\]\\[230T=18150\\]\\[T=18150/230\\approx78{,}9\\,{}^\\circ\\mathrm C\\]<p><strong>b)</strong> </p><p>Häll i mjölken direkt. Då blir drycken svalare under väntetiden och temperaturskillnaden mot rummet blir mindre. Enligt modellen lämnar mindre energi drycken per sekund. Med mjölken i koppen finns också mer vätska som delar på värmeförlusten, så temperaturen minskar långsammare.</p><p><strong>c)</strong> </p><p>Exempelvis kan avdunstning bidra till avkylningen, koppen kan ta upp värme och värmeöverföringen kan ändras när mängden vätska ökar. Resultatet gäller den angivna modellen.</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__avsvalning_och_termisk_jamvikt",
     "formaga": [
@@ -74036,7 +74061,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Avsvalning och termisk jämvikt"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "7.70",
@@ -74044,8 +74070,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En metallbit med massan \\(0{,}50\\ \\mathrm{kg}\\) tillförs \\(13{,}8\\ \\mathrm{kJ}\\), vilket höjer temperaturen \\(60\\ \\mathrm K\\). Bestäm metallens specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\frac{Q}{m\\Delta T}=\\frac{13800}{0{,}50\\cdot60}=460\\ \\mathrm{J/(kg\\,K)}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(460\\ \\mathrm{J/(kg\\,K)}\\).</p></div>",
+    "t": "<p>0,50 kg metall tar upp 13,8 kJ när temperaturen ökar med 60 K.</p><p>Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>13,8 kJ = 13 800 J.</p>\\[\\begin{aligned}&c=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{13800}{0{,}50\\cdot60}=460\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(460\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -74058,20 +74084,21 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – annan obekant",
     "svarstyp": "numeriskt",
-    "rättSvar": 460,
-    "tolerans": 6.9,
+    "rättSvar": 460.0,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "J/(kg K)"
+    "svarEnhet": "J/(kg·K)",
+    "arbetsinsats": 2
   },
   {
     "id": "7.20",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En blandning består av 25 volymprocent metanol och 75 volymprocent vatten. Anta att volymerna kan adderas. För metanol gäller \\(\\rho=0{,}79\\ \\mathrm{kg/L}\\) och \\(c=2{,}53\\ \\mathrm{kJ/(kg\\,K)}\\). För vatten gäller \\(\\rho=1{,}00\\ \\mathrm{kg/L}\\) och \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\). Bestäm blandningens specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Utgå från 1,00 liter blandning.</p></div><div class=\"facit-stycke\"><p>Då är metanolmassan 0,1975 kg och vattenmassan 0,750 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c_{\\mathrm{bl}}=\\frac{m_mc_m+m_vc_v}{m_m+m_v}\\]\\[c_{\\mathrm{bl}}=\\frac{0{,}1975\\cdot2{,}53+0{,}750\\cdot4{,}18}{0{,}9475}=3{,}837\\ \\mathrm{kJ/(kg\\,K)}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}84\\ \\mathrm{kJ/(kg\\,K)}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En blandning innehåller 0,25 liter metanol och 0,75 liter vatten. Metanolens densitet är 0,79 kg/liter och dess specifika värmekapacitet 2,53 kJ/(kg·K). Vattnets värden är 1,0 kg/liter och 4,18 kJ/(kg·K).</p><p>Bestäm blandningens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna är 0,25 · 0,79 = 0,1975 kg metanol och 0,75 kg vatten. För att värma hela blandningen 1 K krävs summan av ämnenas energier.</p>\\[\\begin{aligned}&Q_{1\\,\\mathrm K}\\\\ &=0{,}1975\\cdot2530+0{,}75\\cdot4180\\\\ &=3634{,}675\\,\\mathrm J\\end{aligned}\\]<p>Dela med blandningens massa, 0,9475 kg.</p>\\[c=\\frac{3634{,}675}{0{,}9475}\\approx3836{,}07\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(3836\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -74080,17 +74107,18 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Välj en total volym, bestäm varje vätskas massa och jämför blandningens totala värmekapacitet med totalmassan.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "effektiv specifik värmekapacitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.84,
-    "tolerans": 0.0576,
+    "rättSvar": 3836.068601583114,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kJ/(kg K)"
+    "svarEnhet": "J/(kg·K)",
+    "arbetsinsats": 2
   },
   {
     "id": "7.71",
@@ -74098,8 +74126,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två lika stora massor av koppar och vatten tillförs lika mycket energi. För koppar är \\(c=385\\ \\mathrm{J/(kg\\,K)}\\) och för vatten \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\). Hur många gånger större blir kopparns temperaturökning?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För samma energi och massa gäller \\(\\Delta T=Q/(mc)\\).</p></div><div class=\"facit-stycke\"><p>Temperaturökningen är därför omvänt proportionell mot \\(c\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{\\Delta T_{\\mathrm{koppar}}}{\\Delta T_{\\mathrm{vatten}}}=\\frac{c_{\\mathrm{vatten}}}{c_{\\mathrm{koppar}}}=\\frac{4180}{385}=10{,}86.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 10,9 gånger.</p></div>",
+    "t": "<p>Lika stora massor av koppar och vatten tar upp lika mycket energi. Kopparns specifika värmekapacitet är 385 J/(kg·K) och vattnets 4180 J/(kg·K).</p><p>Hur många gånger större blir kopparns temperaturökning än vattnets? Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid samma massa och energi gäller ΔT = Q/(mc). Mindre c ger därför större temperaturökning. Massan och energin tar ut varandra i jämförelsen.</p>\\[\\frac{\\Delta T_{\\mathrm{koppar}}}{\\Delta T_{\\mathrm{vatten}}}=\\frac{4180}{385}\\approx10{,}86\\]<p><strong>Svar:</strong> \\(10{,}9\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -74107,17 +74135,18 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Vilken av storheterna i Q = mcΔT varierar när energi och massa är lika?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "jämföra specifik värmekapacitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 10.9,
-    "tolerans": 0.1635,
+    "rättSvar": 10.857142857142858,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "gånger"
+    "svarEnhet": "",
+    "arbetsinsats": 2
   },
   {
     "id": "7.21",
@@ -74744,9 +74773,9 @@ window.BANK = [
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/2/1)",
-    "t": "<p>En elev säger: ”Om ett föremål har högre temperatur innehåller det alltid mer termisk energi än ett kallare föremål.”</p><ol><li>Förklara varför påståendet inte alltid stämmer.</li><li>Ge ett konkret motexempel där det kallare föremålet kan avge mer energi än det varmare.</li><li>Förklara skillnaden mellan temperatur och den energi som kan överföras när ett föremål svalnar.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Temperaturen beskriver ett systems termiska tillstånd, men den totala energin beror också på mängden material, ämnets egenskaper och vilken temperaturförändring som är aktuell.</p></div><div class=\"facit-stycke\"><p>En stor tank med ljummet vatten kan exempelvis avge betydligt mer energi än en liten kopp hett vatten när båda får svalna till omgivningens temperatur.</p></div><div class=\"facit-stycke\"><p>I en enkel modell beräknas den överförbara energin med \\(Q=mc\\Delta T\\).</p></div><div class=\"facit-stycke\"><p>Ett högre startvärde på \\(T\\) räcker alltså inte; även \\(m\\),</p></div><div class=\"facit-stycke\"><p>\\(c\\) och sluttemperaturen behövs.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> påståendet är inte generellt giltigt.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En elev säger: ”Ett varmare föremål kan alltid avge mer energi än ett kallare föremål när båda svalnar till rumstemperatur.”</p><p><strong>a)</strong> Förklara varför detta inte alltid stämmer.</p><p><strong>b)</strong> Ge ett exempel där det kallare föremålet kan avge mer energi.</p><p><strong>c)</strong> Vad är skillnaden mellan temperatur och den energi som avges när ett föremål svalnar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Energin som avges beror både på massan, ämnet och temperaturminskningen. Temperaturen ensam räcker inte.</p><p><strong>b)</strong> </p><p>En stor tank med ljummet vatten kan avge mer energi än en liten kopp hett vatten när båda svalnar till samma rumstemperatur. Den stora vattenmassan kan väga upp den mindre temperaturskillnaden.</p><p><strong>c)</strong> </p><p>Temperaturen beskriver hur varmt eller kallt föremålet är. Energin som avges under en temperatursänkning beräknas med Q = mcΔT. Där behövs också massan och ämnets specifika värmekapacitet.</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__temperatur_och_termisk_energi",
     "formaga": [
@@ -74754,7 +74783,7 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför två föremål med mycket olika massa eller olika specifik värmekapacitet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -74765,36 +74794,38 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Temperatur och termisk energi"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.28",
     "kap": 7,
     "omr": "varme",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En vattenkokare har eleffekten \\(2000\\ \\mathrm W\\) och verkningsgraden 90 %. Den innehåller \\(1{,}7\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\). Bestäm tiden tills vattnet når \\(100\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}7\\cdot4180\\cdot80=568480\\ \\mathrm J\\]\\[P_{\\mathrm{nyttig}}=0{,}90\\cdot2000=1800\\ \\mathrm W\\]\\[t=\\frac{568480}{1800}=316\\ \\mathrm s=5{,}26\\ \\mathrm{min}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}3\\ \\mathrm{min}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En vattenkokare överför effekten 1800 W till 1,7 kg vatten. Vattnet värms från 20 °C till 100 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet tar upp energin Q = mcΔT.</p>\\[Q=1{,}7\\cdot4180\\cdot80=568480\\,\\mathrm J\\]<p>Dela energin med effekten som överförs till vattnet.</p>\\[t=\\frac{Q}{P}=\\frac{568480}{1800}\\approx315{,}822\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(316\\,\\mathrm{s}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
       "procedur"
     ],
     "ledtrad": "<p>Beräkna vattnets energibehov och jämför det med den nyttiga effekten.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "uppvärmning med effekt och verkningsgrad",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.3,
-    "tolerans": 0.0795,
+    "rättSvar": 315.8222222222222,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "min",
+    "svarEnhet": "s",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.72",
@@ -74802,8 +74833,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}25\\ \\mathrm{kg}\\) vatten vid \\(80\\,{}^\\circ\\mathrm C\\) blandas med \\(0{,}35\\ \\mathrm{kg}\\) vatten vid \\(15\\,{}^\\circ\\mathrm C\\). Bortse från värmeförluster och kärlets värmekapacitet. Bestäm sluttemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Eftersom båda mängderna är vatten kan sluttemperaturen beräknas som ett massvägt medelvärde.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_f=\\frac{0{,}25\\cdot80+0{,}35\\cdot15}{0{,}60}=42{,}08\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "t": "<p>0,25 kg vatten vid 80 °C blandas med 0,35 kg vatten vid 15 °C. Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT. Vattnets specifika värmekapacitet är samma på båda sidor och förkortas bort:</p>\\[0{,}25(80-T)=0{,}35(T-15)\\]<p>Multiplicera in och samla termerna med T:</p>\\[0{,}6T=25{,}25\\]\\[T=\\frac{25{,}25}{0{,}6}\\approx42{,}083\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(42{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_vattenmangder",
     "formaga": [
@@ -74816,14 +74847,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "värmebalans mellan vattenmängder",
     "svarstyp": "numeriskt",
-    "rättSvar": 42.1,
-    "tolerans": 0.6315,
+    "rättSvar": 42.083333333333336,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Värmebalans mellan vattenmängder"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.29",
@@ -74917,10 +74949,10 @@ window.BANK = [
     "id": "7.30",
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>I en värmeväxlare passerar \\(0{,}80\\ \\mathrm{kg}\\) vatten per sekund. Vattnets temperatur ökar \\(12\\ \\mathrm K\\). Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"260\" viewBox=\"0 0 620 260\" role=\"img\" aria-label=\"Vatten genom en värmeväxlare\"><rect width=\"620\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><line x1=\"60\" y1=\"130\" x2=\"215\" y2=\"130\" stroke=\"#2f83aa\" stroke-width=\"16\"/><polygon points=\"215,130 188,112 188,148\" fill=\"#2f83aa\"/><rect x=\"220\" y=\"65\" width=\"180\" height=\"130\" rx=\"12\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M250 105 h120 M250 135 h120 M250 165 h120\" stroke=\"#b75432\" stroke-width=\"8\"/><line x1=\"405\" y1=\"130\" x2=\"560\" y2=\"130\" stroke=\"#b75432\" stroke-width=\"16\"/><polygon points=\"560,130 533,112 533,148\" fill=\"#b75432\"/><text x=\"135\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">0,80 kg/s</text><text x=\"485\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">12 °C varmare</text><text x=\"310\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">värmeväxlare</text></svg></span><ol><li>Bestäm den effekt som överförs till vattnet.</li><li>Bestäm den överförda energin under en timme.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dot m c\\Delta T=40{,}128\\ \\mathrm{kW}\\]\\[E=P\\cdot1{,}0\\ \\mathrm h=40{,}128\\ \\mathrm{kWh}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}1\\ \\mathrm{kW}\\) och \\(40{,}1\\ \\mathrm{kWh}\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>0,80 kg vatten passerar en värmare varje sekund. Vattnets temperatur ökar med 12 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"260\" viewBox=\"0 0 620 260\" role=\"img\" aria-label=\"Vatten genom en värmeväxlare\"><rect width=\"620\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><line x1=\"60\" y1=\"130\" x2=\"215\" y2=\"130\" stroke=\"#2f83aa\" stroke-width=\"16\"/><polygon points=\"215,130 188,112 188,148\" fill=\"#2f83aa\"/><rect x=\"220\" y=\"65\" width=\"180\" height=\"130\" rx=\"12\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M250 105 h120 M250 135 h120 M250 165 h120\" stroke=\"#b75432\" stroke-width=\"8\"/><line x1=\"405\" y1=\"130\" x2=\"560\" y2=\"130\" stroke=\"#b75432\" stroke-width=\"16\"/><polygon points=\"560,130 533,112 533,148\" fill=\"#b75432\"/><text x=\"135\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">0,80 kg/s</text><text x=\"485\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">12 °C varmare</text><text x=\"310\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">värmeväxlare</text></svg><p><strong>a)</strong> Vilken värmeeffekt behövs? Svara i kW. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket energi tar vattnet upp på en timme? Svara i kWh. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Beräkna energin för den mängd vatten som passerar på en sekund.</p>\\[Q=0{,}80\\cdot4180\\cdot12=40128\\,\\mathrm J\\]<p>40 128 J varje sekund motsvarar 40 128 W = 40,128 kW.</p><p><strong>Svar:</strong> \\(40{,}1\\,\\mathrm{kW}\\).</p><p><strong>b)</strong> </p>\\[E=Pt=40{,}128\\cdot1=40{,}128\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> \\(40{,}1\\,\\mathrm{kWh}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__effekt_vid_uppvarmning",
     "formaga": [
@@ -74928,19 +74960,19 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Tolka massflödet som hur stor vattenmassa som värms varje sekund.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "effekt vid kontinuerligt massflöde",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      40.1,
-      40.1
+      40.128,
+      40.128
     ],
     "tolerans": [
-      0.6015,
-      0.6015
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -74957,30 +74989,35 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en värmeväxlare passerar \\(0{,}80\\ \\mathrm{kg}\\) vatten per sekund. Vattnets temperatur ökar \\(12\\ \\mathrm K\\). Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"260\" viewBox=\"0 0 620 260\" role=\"img\" aria-label=\"Vatten genom en värmeväxlare\"><rect width=\"620\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><line x1=\"60\" y1=\"130\" x2=\"215\" y2=\"130\" stroke=\"#2f83aa\" stroke-width=\"16\"/><polygon points=\"215,130 188,112 188,148\" fill=\"#2f83aa\"/><rect x=\"220\" y=\"65\" width=\"180\" height=\"130\" rx=\"12\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M250 105 h120 M250 135 h120 M250 165 h120\" stroke=\"#b75432\" stroke-width=\"8\"/><line x1=\"405\" y1=\"130\" x2=\"560\" y2=\"130\" stroke=\"#b75432\" stroke-width=\"16\"/><polygon points=\"560,130 533,112 533,148\" fill=\"#b75432\"/><text x=\"135\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">0,80 kg/s</text><text x=\"485\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">12 °C varmare</text><text x=\"310\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">värmeväxlare</text></svg></span>",
+    "spelIntro": "<p>0,80 kg vatten passerar en värmare varje sekund. Vattnets temperatur ökar med 12 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"260\" viewBox=\"0 0 620 260\" role=\"img\" aria-label=\"Vatten genom en värmeväxlare\"><rect width=\"620\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><line x1=\"60\" y1=\"130\" x2=\"215\" y2=\"130\" stroke=\"#2f83aa\" stroke-width=\"16\"/><polygon points=\"215,130 188,112 188,148\" fill=\"#2f83aa\"/><rect x=\"220\" y=\"65\" width=\"180\" height=\"130\" rx=\"12\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M250 105 h120 M250 135 h120 M250 165 h120\" stroke=\"#b75432\" stroke-width=\"8\"/><line x1=\"405\" y1=\"130\" x2=\"560\" y2=\"130\" stroke=\"#b75432\" stroke-width=\"16\"/><polygon points=\"560,130 533,112 533,148\" fill=\"#b75432\"/><text x=\"135\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">0,80 kg/s</text><text x=\"485\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">12 °C varmare</text><text x=\"310\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#344454\">värmeväxlare</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den effekt som överförs till vattnet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dot m c\\Delta T=0{,}80\\cdot4180\\cdot12=40128\\ \\mathrm W.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}1\\ \\mathrm{kW}\\).</p></div>",
-        "ledtrad": "<p>Beräkna energin som varje sekunds vattenflöde tar upp.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "fraga": "Vilken värmeeffekt behövs? Svara i kW. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna energin för den mängd vatten som passerar på en sekund.</p>\\[Q=0{,}80\\cdot4180\\cdot12=40128\\,\\mathrm J\\]<p>40 128 J varje sekund motsvarar 40 128 W = 40,128 kW.</p><p><strong>Svar:</strong> \\(40{,}1\\,\\mathrm{kW}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Varje sekund värms 0,80 kg vatten med 12 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Vilken värmeeffekt behövs? Svara i kW. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den överförda energin under en timme.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=40{,}128\\ \\mathrm{kW}\\cdot1{,}0\\ \\mathrm h=40{,}128\\ \\mathrm{kWh}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}1\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>En effekt i kW som verkar under en timme ger samma tal i kWh.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i kWh. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[E=Pt=40{,}128\\cdot1=40{,}128\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> \\(40{,}1\\,\\mathrm{kWh}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>En värmare överför effekten 40,128 kW till vatten i 1 timme.</p><p>Hur mycket energi tar vattnet upp? Svara i kWh. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 1
       }
     ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.31",
@@ -74988,8 +75025,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Omvandla temperaturerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) \\(210\\,{}^\\circ\\mathrm C\\) till kelvin.</div><div>b) \\(450\\ \\mathrm K\\) till grader Celsius.</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[210+273{,}15=483{,}15\\ \\mathrm K\\]\\[450-273{,}15=176{,}85\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(483{,}15\\ \\mathrm K\\) och \\(176{,}85\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "t": "<p>Omvandla temperaturerna.</p><p><strong>a)</strong> Hur många kelvin motsvarar 210 °C? Svara i K. Avrunda till 2 decimaler.</p><p><strong>b)</strong> Hur många grader Celsius motsvarar 450 K? Svara i °C. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>För att gå från Celsius till kelvin lägger man till 273,15.</p>\\[T=210+273{,}15=483{,}15\\,\\mathrm K\\]<p>Med avrundningen 273 får du 483 K, vilket också godkänns.</p><p><strong>Svar:</strong> \\(483{,}15\\,\\mathrm{K}\\).</p><p><strong>b)</strong> </p><p>För att gå från kelvin till Celsius drar man bort 273,15.</p>\\[t=450-273{,}15=176{,}85\\,{}^\\circ\\mathrm C\\]<p>Med avrundningen 273 får du 177 °C, vilket också godkänns.</p><p><strong>Svar:</strong> \\(176{,}85\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__temperatur_och_termisk_energi",
     "formaga": [
@@ -75008,8 +75045,8 @@ window.BANK = [
       176.85
     ],
     "tolerans": [
-      7.24725,
-      2.65275
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -75026,29 +75063,38 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Omvandla mellan Celsius- och kelvinskalan. Använd sambandet \\(T=t+273{,}15\\), där \\(T\\) anges i kelvin och \\(t\\) i grader Celsius.</p>",
+    "spelIntro": "<p>Omvandla temperaturerna.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många kelvin motsvarar 210 °C?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=210+273{,}15=483{,}15\\ \\mathrm K.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(483{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Lägg 273,15 till temperaturen i grader Celsius.</p>",
+        "fraga": "Hur många kelvin motsvarar 210 °C? Svara i K. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>För att gå från Celsius till kelvin lägger man till 273,15.</p>\\[T=210+273{,}15=483{,}15\\,\\mathrm K\\]<p>Med avrundningen 273 får du 483 K, vilket också godkänns.</p><p><strong>Svar:</strong> \\(483{,}15\\,\\mathrm{K}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 1,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>Temperaturen är 210 °C.</p><p>Hur många kelvin motsvarar temperaturen? Svara i K. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur många grader Celsius motsvarar 450 K?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=450-273{,}15=176{,}85\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}85\\,{}^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Subtrahera 273,15 från temperaturen i kelvin.</p>",
+        "fraga": "Hur många grader Celsius motsvarar 450 K? Svara i °C. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>För att gå från kelvin till Celsius drar man bort 273,15.</p>\\[t=450-273{,}15=176{,}85\\,{}^\\circ\\mathrm C\\]<p>Med avrundningen 273 får du 177 °C, vilket också godkänns.</p><p><strong>Svar:</strong> \\(176{,}85\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 1,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>Temperaturen är 450 K.</p><p>Hur många grader Celsius motsvarar temperaturen? Svara i °C. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 1
       }
     ],
     "familjTidigare": [
       "Temperatur och termisk energi"
+    ],
+    "arbetsinsats": 1,
+    "rättSvar273": [
+      483,
+      177
     ]
   },
   {
@@ -75057,8 +75103,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}80\\ \\mathrm{kg}\\) vatten värms från \\(20\\,{}^\\circ\\mathrm C\\) till \\(80\\,{}^\\circ\\mathrm C\\) på \\(180\\ \\mathrm s\\). Bestäm den genomsnittliga värmeeffekt som vattnet tar upp. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}80\\cdot4180\\cdot60=200640\\ \\mathrm J\\]\\[P=\\frac{Q}{t}=\\frac{200640}{180}=1115\\ \\mathrm W.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(1115\\ \\mathrm W\\).</p></div>",
+    "t": "<p>0,80 kg vatten värms från 20 °C till 80 °C på 180 s. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Vilken medeleffekt överförs till vattnet? Svara i W. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen ökar med 60 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=0{,}80\\cdot4180\\cdot60=200640\\,\\mathrm J\\end{aligned}\\]<p>Effekt är energi per sekund.</p>\\[P=\\frac{Q}{t}=\\frac{200640}{180}\\approx1114{,}67\\,\\mathrm W\\]<p><strong>Svar:</strong> \\(1115\\,\\mathrm{W}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__effekt_vid_uppvarmning",
     "formaga": [
@@ -75071,14 +75117,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "effekt vid uppvärmning",
     "svarstyp": "numeriskt",
-    "rättSvar": 1115,
-    "tolerans": 16.725,
+    "rättSvar": 1114.6666666666667,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
     "familjTidigare": [
       "Effekt vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.32",
@@ -75144,8 +75191,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Daniel värmer \\(4{,}0\\ \\mathrm{dl}\\) vatten från \\(18\\,{}^\\circ\\mathrm C\\) till \\(90\\,{}^\\circ\\mathrm C\\). Anta att \\(4{,}0\\ \\mathrm{dl}\\) vatten har massan \\(0{,}40\\ \\mathrm{kg}\\) och använd \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><ol><li>Bestäm energin som vattnet behöver.</li><li>Hur lång tid tar uppvärmningen med en vattenkokare som överför 2,0 kW till vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}40\\cdot4180\\cdot72=120384\\ \\mathrm J\\]\\[t=\\frac{Q}{P}=60{,}2\\ \\mathrm s.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\mathrm{kJ}\\) och \\(60\\ \\mathrm s\\).</p></div>",
+    "t": "<p>0,40 kg vatten värms från 18 °C till 90 °C. Värmaren överför effekten 2,0 kW till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p><strong>a)</strong> Hur mycket energi tar vattnet upp? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur lång tid tar det? Svara i s. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturökningen är 90 − 18 = 72 K.</p>\\[Q=0{,}40\\cdot4180\\cdot72=120384\\,\\mathrm J\\]<p>Dela med 1000 för att få kJ.</p><p><strong>Svar:</strong> \\(120{,}4\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong> </p><p>2,0 kW = 2000 W.</p>\\[t=\\frac{Q}{P}=\\frac{120384}{2000}=60{,}192\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(60{,}2\\,\\mathrm{s}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__effekt_vid_uppvarmning",
     "formaga": [
@@ -75159,12 +75206,12 @@ window.BANK = [
     "typ": "energi och effekt vid uppvärmning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      120,
-      60
+      120.384,
+      60.192
     ],
     "tolerans": [
-      1.8,
-      0.9
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -75181,39 +75228,44 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Daniel värmer \\(4{,}0\\ \\mathrm{dl}\\) vatten från \\(18\\,{}^\\circ\\mathrm C\\) till \\(90\\,{}^\\circ\\mathrm C\\). Anta att \\(4{,}0\\ \\mathrm{dl}\\) vatten har massan \\(0{,}40\\ \\mathrm{kg}\\) och använd \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
+    "spelIntro": "<p>0,40 kg vatten värms från 18 °C till 90 °C. Värmaren överför effekten 2,0 kW till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin som vattnet behöver.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}40\\cdot4180\\cdot72=120384\\ \\mathrm J.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(120\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Temperaturökningen är 72 K.</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 90 − 18 = 72 K.</p>\\[Q=0{,}40\\cdot4180\\cdot72=120384\\,\\mathrm J\\]<p>Dela med 1000 för att få kJ.</p><p><strong>Svar:</strong> \\(120{,}4\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>0,40 kg vatten värms från 18 °C till 90 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar uppvärmningen med en vattenkokare som överför 2,0 kW till vattnet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{120384}{2000}=60{,}2\\ \\mathrm s.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(60\\ \\mathrm s\\).</p></div>",
-        "ledtrad": "<p>Använd energi dividerad med effekt.</p>",
+        "fraga": "Hur lång tid tar det? Svara i s. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>2,0 kW = 2000 W.</p>\\[t=\\frac{Q}{P}=\\frac{120384}{2000}=60{,}192\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(60{,}2\\,\\mathrm{s}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>En värmare överför effekten 2,0 kW till vatten som ska ta upp 120 384 J.</p><p>Hur lång tid tar det? Svara i s. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.34",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>\\(0{,}250\\ \\mathrm{kg}\\) järn vid \\(95\\,{}^\\circ\\mathrm C\\) läggs i \\(0{,}400\\ \\mathrm{kg}\\) vatten vid \\(15\\,{}^\\circ\\mathrm C\\). Systemet är välisolerat. Materialdata: \\(c_{\\mathrm{järn}}=449\\ \\mathrm{J/(kg\\,K)}\\) och \\(c_{\\mathrm{vatten}}=4180\\ \\mathrm{J/(kg\\,K)}\\). Bestäm sluttemperaturen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"300\" viewBox=\"0 0 520 300\" role=\"img\" aria-label=\"Varm järnbit läggs i kallt vatten\"><rect width=\"520\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"75\" y=\"95\" width=\"95\" height=\"90\" fill=\"#c8d3db\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"122\" y=\"70\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">järn 95 °C</text><path d=\"M305 65 V230 H445 V65\" fill=\"none\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"307\" y=\"135\" width=\"136\" height=\"93\" fill=\"#bfe2f2\"/><line x1=\"307\" y1=\"135\" x2=\"443\" y2=\"135\" stroke=\"#2b779f\" stroke-width=\"3\"/><text x=\"375\" y=\"110\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">vatten 15 °C</text><path d=\"M185 140 C220 105 255 105 290 140\" fill=\"none\" stroke=\"#b75432\" stroke-width=\"5\"/><polygon points=\"290,140 268,128 270,153\" fill=\"#b75432\"/><text x=\"260\" y=\"265\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">sluttemperatur ?</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Järnets avgivna energi sätts lika med vattnets upptagna energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}250\\cdot449(95-T)=0{,}400\\cdot4180(T-15)\\]\\[T=20{,}00\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,250 kg järn vid 95 °C läggs i 0,400 kg vatten vid 15 °C. Järnets specifika värmekapacitet är 449 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"300\" viewBox=\"0 0 520 300\" role=\"img\" aria-label=\"Varm järnbit läggs i kallt vatten\"><rect width=\"520\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"75\" y=\"95\" width=\"95\" height=\"90\" fill=\"#c8d3db\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"122\" y=\"70\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">järn 95 °C</text><path d=\"M305 65 V230 H445 V65\" fill=\"none\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"307\" y=\"135\" width=\"136\" height=\"93\" fill=\"#bfe2f2\"/><line x1=\"307\" y1=\"135\" x2=\"443\" y2=\"135\" stroke=\"#2b779f\" stroke-width=\"3\"/><text x=\"375\" y=\"110\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">vatten 15 °C</text><path d=\"M185 140 C220 105 255 105 290 140\" fill=\"none\" stroke=\"#b75432\" stroke-width=\"5\"/><polygon points=\"290,140 268,128 270,153\" fill=\"#b75432\"/><text x=\"260\" y=\"265\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">sluttemperatur ?</text></svg><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T.</p><p>Järnet avger lika mycket energi som vattnet tar upp. Använd Q = mcΔT:</p>\\[\\begin{aligned}&0{,}25\\cdot449(95-T)\\\\ &=0{,}4\\cdot4180(T-15)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1784{,}25T=35743{,}75\\]\\[T=\\frac{35743{,}75}{1784{,}25}\\approx20{,}033\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(20{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_olika_material",
     "formaga": [
@@ -75227,23 +75279,24 @@ window.BANK = [
     "geogebra": false,
     "typ": "värmebalans mellan olika material",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0.3,
+    "rättSvar": 20.032927000140116,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Värmebalans mellan olika material"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.74",
     "kap": 7,
     "omr": "varme",
-    "niva": "E",
-    "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}35\\ \\mathrm{kg}\\) varmt vatten blandas med \\(0{,}45\\ \\mathrm{kg}\\) vatten vid \\(19\\,{}^\\circ\\mathrm C\\). Sluttemperaturen blir \\(40\\,{}^\\circ\\mathrm C\\). Bortse från värmeförluster och kärlets värmekapacitet. Bestäm det varma vattnets starttemperatur.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}35(T_{\\mathrm{varm}}-40)=0{,}45(40-19)\\]\\[T_{\\mathrm{varm}}=40+\\frac{0{,}45\\cdot21}{0{,}35}=67{,}0\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(67{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>0,35 kg varmt vatten blandas med 0,45 kg vatten vid 19 °C. Sluttemperaturen blir 40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken temperatur hade det varma vattnet från början? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet värms med 21 K.</p>\\[Q=0{,}45\\cdot4180\\cdot21=39501\\,\\mathrm J\\]<p>Den varma kroppen avger lika mycket energi som vattnet tar upp. Beräkna hur mycket dess temperatur sjunker och lägg sedan denna temperatursänkning till sluttemperaturen.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{39501}{0{,}35\\cdot4180}\\approx27\\,\\mathrm K\\]\\[T_{\\mathrm{start}}=40+27\\approx67\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(67{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_vattenmangder",
     "formaga": [
@@ -75257,14 +75310,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "värmebalans mellan vattenmängder",
     "svarstyp": "numeriskt",
-    "rättSvar": 67,
-    "tolerans": 1.005,
+    "rättSvar": 67.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Värmebalans mellan vattenmängder"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.35",
@@ -75273,7 +75327,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En metallbit med massan \\(0{,}600\\ \\mathrm{kg}\\) tillförs \\(32{,}0\\ \\mathrm{kJ}\\), vilket höjer temperaturen \\(120\\ \\mathrm K\\). Vilket material stämmer bäst med mätningen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\frac{Q}{m\\Delta T}=\\frac{32000}{0{,}600\\cdot120}=444\\ \\mathrm{J/(kg\\,K)}.\\]</div></div><div class=\"facit-stycke\"><p>Värdet ligger närmast järns eller ståls specifika värmekapacitet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> järn.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>32,0 kJ = 32 000 J. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{32000}{0{,}600\\cdot120}\\approx444\\,\\mathrm{J/(kg\\cdot K)}\\]<p>444 ligger närmast 450. <strong>Svar:</strong> Järn.</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -75281,7 +75335,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Beräkna först c = Q/(mΔT) och jämför sedan med alternativen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -75292,26 +75346,27 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Aluminium, \\(c\\approx900\\ \\mathrm{J/(kg\\,K)}\\), eftersom \\(Q/(m\\Delta T)\\) blir nära 900.",
+        "txt": "Aluminium: 900 J/(kg·K)",
         "ratt": false,
-        "kommentar": "Beräkningen ger ungefär \\(444\\ \\mathrm{J/(kg\\,K)}\\), inte 900."
+        "kommentar": "Jämför detta värde med det beräknade värdet 444 J/(kg·K)."
       },
       {
-        "txt": "Järn, \\(c\\approx450\\ \\mathrm{J/(kg\\,K)}\\), eftersom \\(Q/(m\\Delta T)\\) blir nära 450.",
+        "txt": "Järn: 450 J/(kg·K)",
         "ratt": true,
-        "kommentar": "\\(32000/(0{,}600\\cdot120)\\approx444\\ \\mathrm{J/(kg\\,K)}\\), vilket ligger nära järn."
+        "kommentar": "Värdet 444 J/(kg·K) ligger närmast järnets 450."
       },
       {
-        "txt": "Koppar, \\(c\\approx385\\ \\mathrm{J/(kg\\,K)}\\), eftersom \\(m\\Delta T/Q\\) blir nära 385.",
+        "txt": "Koppar: 385 J/(kg·K)",
         "ratt": false,
-        "kommentar": "Uttrycket är vänt åt fel håll och det beräknade värdet ligger närmare järn."
+        "kommentar": "Jämför detta värde med det beräknade värdet 444 J/(kg·K)."
       },
       {
-        "txt": "Bly, \\(c\\approx130\\ \\mathrm{J/(kg\\,K)}\\), eftersom den stora temperaturökningen visar att \\(c\\) är nära 130.",
+        "txt": "Bly: 130 J/(kg·K)",
         "ratt": false,
-        "kommentar": "Temperaturökningen måste bedömas tillsammans med både energi och massa."
+        "kommentar": "Jämför detta värde med det beräknade värdet 444 J/(kg·K)."
       }
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.36",
@@ -75319,8 +75374,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En bastu rymmer \\(12\\ \\mathrm{m^3}\\) luft. Luften ska värmas \\(60\\ \\mathrm K\\). Luftens densitet är \\(1{,}2\\ \\mathrm{kg/m^3}\\), dess specifika värmekapacitet \\(1005\\ \\mathrm{J/(kg\\,K)}\\) och aggregatets effekt \\(6{,}0\\ \\mathrm{kW}\\). Beräkna först bara uppvärmningen av luften.</p><ol><li>Bestäm luftmassan.</li><li>Bestäm energin som luften behöver.</li><li>Bestäm uppvärmningstiden om all energi går till uppvärmningen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=14{,}4\\ \\mathrm{kg}\\]\\[Q=868\\ \\mathrm{kJ}\\]\\[t=145\\ \\mathrm s=2{,}4\\ \\mathrm{min}.\\]</div></div><div class=\"facit-stycke\"><p>En verklig bastu tar mycket längre tid att värma eftersom väggar, lavar och stenar också ska värmas och värme hela tiden läcker ut.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}4\\ \\mathrm{kg}\\), \\(868\\ \\mathrm{kJ}\\) och \\(2{,}4\\ \\mathrm{min}\\).</p></div>",
+    "t": "<p>En bastu rymmer 12 m³ luft med densiteten 1,2 kg/m³. Luften värms 60 K. Luftens specifika värmekapacitet är 1005 J/(kg·K). Räkna med att effekten 6,0 kW bara värmer luften och att ingen luft byts ut.</p><p><strong>a)</strong> Hur stor massa har luften? Svara i kg. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket energi tar luften upp? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>c)</strong> Hur lång tid tar uppvärmningen? Svara i min. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p>\\[m=\\rho V=1{,}2\\cdot12=14{,}4\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(14{,}4\\,\\mathrm{kg}\\).</p><p><strong>b)</strong> </p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=14{,}4\\cdot1005\\cdot60=868320\\,\\mathrm J\\end{aligned}\\]<p>Dela med 1000 för att få kJ.</p><p><strong>Svar:</strong> \\(868{,}3\\,\\mathrm{kJ}\\).</p><p><strong>c)</strong> </p><p>6,0 kW = 6000 W.</p>\\[t=\\frac{Q}{P}=\\frac{868320}{6000}=144{,}72\\,\\mathrm s\\]<p>Dela antalet sekunder med 60 för att få minuter.</p>\\[t=144{,}72/60=2{,}412\\,\\mathrm{min}\\]<p><strong>Svar:</strong> \\(2{,}41\\,\\mathrm{min}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__effekt_vid_uppvarmning",
     "formaga": [
@@ -75335,14 +75390,14 @@ window.BANK = [
     "typ": "energi och effekt vid uppvärmning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      14.4,
-      868,
-      2.4
+      14.399999999999999,
+      868.32,
+      2.412
     ],
     "tolerans": [
-      0.216,
-      13.02,
-      0.05
+      0.05,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -75362,42 +75417,46 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bastu rymmer \\(12\\ \\mathrm{m^3}\\) luft. Luften ska värmas \\(60\\ \\mathrm K\\). Luftens densitet är \\(1{,}2\\ \\mathrm{kg/m^3}\\), dess specifika värmekapacitet \\(1005\\ \\mathrm{J/(kg\\,K)}\\) och aggregatets effekt \\(6{,}0\\ \\mathrm{kW}\\). Beräkna först bara uppvärmningen av luften.</p>",
+    "spelIntro": "<p>En bastu rymmer 12 m³ luft med densiteten 1,2 kg/m³. Luften värms 60 K. Luftens specifika värmekapacitet är 1005 J/(kg·K). Räkna med att effekten 6,0 kW bara värmer luften och att ingen luft byts ut.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm luftens massa. Svara i kg.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\rho V=1{,}2\\cdot12=14{,}4\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}4\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Använd massan lika med densiteten gånger volymen.</p>",
+        "fraga": "Hur stor massa har luften? Svara i kg. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[m=\\rho V=1{,}2\\cdot12=14{,}4\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(14{,}4\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 2,
-        "poang": "1/0/0",
-        "t": "<p>En bastu innehåller 12 m³ luft med densiteten 1,2 kg/m³.</p><p>Bestäm luftens massa. Svara i kg.</p>"
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>En bastu rymmer 12 m³ luft. Luftens densitet är 1,2 kg/m³.</p><p>Hur stor massa har luften? Svara i kg. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi behöver luften? Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=14{,}4\\cdot1005\\cdot60=868320\\ \\mathrm J.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(868\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Använd luftmassan i sambandet för värmeenergi.</p>",
+        "fraga": "Hur mycket energi tar luften upp? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=14{,}4\\cdot1005\\cdot60=868320\\,\\mathrm J\\end{aligned}\\]<p>Dela med 1000 för att få kJ.</p><p><strong>Svar:</strong> \\(868{,}3\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "1/0/0",
-        "t": "<p>12 m³ luft med densiteten 1,2 kg/m³ ska värmas 60 K. Luftens specifika värmekapacitet är 1005 J/(kg·K).</p><p>Hur mycket energi behöver luften? Svara i kJ.</p>"
+        "poang": "(1/0/0)",
+        "t": "<p>14,4 kg luft värms 60 K. Luftens specifika värmekapacitet är 1005 J/(kg·K).</p><p>Hur mycket energi tar luften upp? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång tid tar uppvärmningen? Svara i min.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla kW till W. Dividera energin med effekten för att få tiden i sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac EP=\\frac{868\\,320}{6000}=144{,}72\\,\\mathrm s=2{,}412\\,\\mathrm{min}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 2,4 min.</p></div>",
-        "ledtrad": "<p>Dividera energin med aggregatets effekt.</p>",
+        "fraga": "Hur lång tid tar uppvärmningen? Svara i min. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>6,0 kW = 6000 W.</p>\\[t=\\frac{Q}{P}=\\frac{868320}{6000}=144{,}72\\,\\mathrm s\\]<p>Dela antalet sekunder med 60 för att få minuter.</p>\\[t=144{,}72/60=2{,}412\\,\\mathrm{min}\\]<p><strong>Svar:</strong> \\(2{,}41\\,\\mathrm{min}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0",
-        "t": "<p>Ett bastuaggregat har effekten 6,0 kW. Luften behöver tillföras 868 320 J. Anta att all effekt värmer luften.</p><p>Hur lång tid tar uppvärmningen? Svara i min.</p>"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>En värmare överför effekten 6,0 kW till luft som ska ta upp 868 320 J.</p><p>Hur lång tid tar uppvärmningen? Svara i min. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.75",
@@ -75405,8 +75464,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En vattenkokare värmer \\(1{,}10\\ \\mathrm{kg}\\) vatten \\(65\\ \\mathrm K\\). Verkningsgraden är 84 %. Bestäm hur mycket energi som överförs till omgivningen under uppvärmningen. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{vatten}}=1{,}10\\cdot4180\\cdot65=298870\\ \\mathrm J\\]\\[E_{\\mathrm{tillförd}}=\\frac{298870}{0{,}84}=355798\\ \\mathrm J\\]\\[E_{\\mathrm{förlust}}=355798-298870=56928\\ \\mathrm J.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(56{,}9\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>En vattenkokare värmer 1,10 kg vatten med 65 K. 84 % av elenergin värmer vattnet och resten går till omgivningen. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi går till omgivningen? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[Q_{\\mathrm{vatten}}=1{,}10\\cdot4180\\cdot65=298870\\,\\mathrm J\\]<p>Detta är 84 % av hela elenergin.</p>\\[E_{\\mathrm{el}}=\\frac{298870}{0{,}84}\\approx355797{,}62\\,\\mathrm J\\]<p>Skillnaden går till omgivningen.</p>\\[\\begin{aligned}&E_{\\mathrm{omgivning}}=E_{\\mathrm{el}}-Q_{\\mathrm{vatten}}\\\\ &\\approx56927{,}62\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(56{,}9\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -75419,23 +75478,24 @@ window.BANK = [
     "geogebra": false,
     "typ": "verkningsgrad och energiförlust",
     "svarstyp": "numeriskt",
-    "rättSvar": 56.9,
-    "tolerans": 0.8535,
+    "rättSvar": 56.92761904761905,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.37",
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
-    "poang": "(0/3/0)",
-    "t": "<p>En bilmotor ger 40 kW nyttig mekanisk effekt och har verkningsgraden 30 %. Kylsystemet ska kunna föra bort 60 kW med kylvatten som får öka temperaturen 8,0 K. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"Energiflöden i en bilmotor\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"235\" y=\"75\" width=\"150\" height=\"120\" rx=\"16\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">motor</text><line x1=\"55\" y1=\"135\" x2=\"225\" y2=\"135\" stroke=\"#d98e26\" stroke-width=\"9\"/><polygon points=\"225,135 199,119 199,151\" fill=\"#d98e26\"/><line x1=\"395\" y1=\"110\" x2=\"565\" y2=\"110\" stroke=\"#2c8765\" stroke-width=\"9\"/><polygon points=\"565,110 539,94 539,126\" fill=\"#2c8765\"/><line x1=\"395\" y1=\"170\" x2=\"565\" y2=\"170\" stroke=\"#b75432\" stroke-width=\"9\"/><polygon points=\"565,170 539,154 539,186\" fill=\"#b75432\"/><text x=\"135\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8c5c12\">bränsle</text><text x=\"485\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2c6f56\">40 kW nyttig</text><text x=\"485\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">spillvärme</text></svg></span><ol><li>Bestäm den tillförda effekten från bränslet.</li><li>Bestäm motorns totala spillvärmeeffekt i denna energibalans.</li><li>Bestäm det massflöde kylvatten som krävs för att föra bort 60 kW.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=133\\ \\mathrm{kW}\\]\\[P_{\\mathrm{spill}}=93{,}3\\ \\mathrm{kW}\\]\\[\\dot m=1{,}79\\ \\mathrm{kg/s}.\\]</div></div><div class=\"facit-stycke\"><p>Att kylsystemet dimensioneras för 60 kW betyder inte att all spillvärme måste lämna just genom kylvattnet; en del kan exempelvis följa med avgaserna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(133\\ \\mathrm{kW}\\), \\(93{,}3\\ \\mathrm{kW}\\) och \\(1{,}79\\ \\mathrm{kg/s}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En motor ger 40 kW nyttig effekt och har verkningsgraden 30 %. Av värmeeffekten går 60 kW till kylvatten som värms 8,0 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"Energiflöden i en bilmotor\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"235\" y=\"75\" width=\"150\" height=\"120\" rx=\"16\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">motor</text><line x1=\"55\" y1=\"135\" x2=\"225\" y2=\"135\" stroke=\"#d98e26\" stroke-width=\"9\"/><polygon points=\"225,135 199,119 199,151\" fill=\"#d98e26\"/><line x1=\"395\" y1=\"110\" x2=\"565\" y2=\"110\" stroke=\"#2c8765\" stroke-width=\"9\"/><polygon points=\"565,110 539,94 539,126\" fill=\"#2c8765\"/><line x1=\"395\" y1=\"170\" x2=\"565\" y2=\"170\" stroke=\"#b75432\" stroke-width=\"9\"/><polygon points=\"565,170 539,154 539,186\" fill=\"#b75432\"/><text x=\"135\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8c5c12\">bränsle</text><text x=\"485\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2c6f56\">40 kW nyttig</text><text x=\"485\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">spillvärme</text></svg><p><strong>a)</strong> Vilken effekt tillförs motorn? Svara i kW. Avrunda till 1 decimal.</p><p><strong>b)</strong> Vilken effekt blir värme? Svara i kW. Avrunda till 1 decimal.</p><p><strong>c)</strong> Hur många kilogram vatten måste passera varje sekund? Svara i kg/s. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Dividera den nyttiga effekten med andelen som blir nyttig.</p>\\[P_{\\mathrm{in}}=40/0{,}30\\approx133{,}333\\,\\mathrm{kW}\\]<p><strong>Svar:</strong> \\(133{,}3\\,\\mathrm{kW}\\).</p><p><strong>b)</strong> </p><p>Värmeeffekten är skillnaden mellan tillförd och nyttig effekt.</p>\\[P_{\\mathrm{varme}}=133{,}333-40=93{,}333\\,\\mathrm{kW}\\]<p><strong>Svar:</strong> \\(93{,}3\\,\\mathrm{kW}\\).</p><p><strong>c)</strong> </p><p>60 kW betyder 60 000 J varje sekund. Ett kilogram vatten behöver 4180 · 8,0 = 33 440 J för att värmas 8,0 K.</p>\\[\\begin{aligned}&\\text{massa per sekund}\\\\ &=\\frac{60000}{4180\\cdot8{,}0}\\\\ &\\approx1{,}794\\,\\mathrm{kg/s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}79\\,\\mathrm{kg/s}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -75444,21 +75504,21 @@ window.BANK = [
       "problemlösning"
     ],
     "ledtrad": "<p>Rita gärna ett energiflöde med en tillförd effekt och två utgående delar.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "motorns energibalans och kylning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      133,
-      93.3,
-      1.79
+      133.33333333333334,
+      93.33333333333334,
+      1.7942583732057416
     ],
     "tolerans": [
-      1.995,
-      1.3995,
-      0.02685
+      0.05,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -75478,48 +75538,55 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bilmotor ger 40 kW nyttig mekanisk effekt och har verkningsgraden 30 %. Kylsystemet ska kunna föra bort 60 kW med kylvatten som får öka temperaturen 8,0 K. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"Energiflöden i en bilmotor\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"235\" y=\"75\" width=\"150\" height=\"120\" rx=\"16\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">motor</text><line x1=\"55\" y1=\"135\" x2=\"225\" y2=\"135\" stroke=\"#d98e26\" stroke-width=\"9\"/><polygon points=\"225,135 199,119 199,151\" fill=\"#d98e26\"/><line x1=\"395\" y1=\"110\" x2=\"565\" y2=\"110\" stroke=\"#2c8765\" stroke-width=\"9\"/><polygon points=\"565,110 539,94 539,126\" fill=\"#2c8765\"/><line x1=\"395\" y1=\"170\" x2=\"565\" y2=\"170\" stroke=\"#b75432\" stroke-width=\"9\"/><polygon points=\"565,170 539,154 539,186\" fill=\"#b75432\"/><text x=\"135\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8c5c12\">bränsle</text><text x=\"485\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2c6f56\">40 kW nyttig</text><text x=\"485\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">spillvärme</text></svg></span>",
+    "spelIntro": "<p>En motor ger 40 kW nyttig effekt och har verkningsgraden 30 %. Av värmeeffekten går 60 kW till kylvatten som värms 8,0 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"Energiflöden i en bilmotor\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"235\" y=\"75\" width=\"150\" height=\"120\" rx=\"16\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">motor</text><line x1=\"55\" y1=\"135\" x2=\"225\" y2=\"135\" stroke=\"#d98e26\" stroke-width=\"9\"/><polygon points=\"225,135 199,119 199,151\" fill=\"#d98e26\"/><line x1=\"395\" y1=\"110\" x2=\"565\" y2=\"110\" stroke=\"#2c8765\" stroke-width=\"9\"/><polygon points=\"565,110 539,94 539,126\" fill=\"#2c8765\"/><line x1=\"395\" y1=\"170\" x2=\"565\" y2=\"170\" stroke=\"#b75432\" stroke-width=\"9\"/><polygon points=\"565,170 539,154 539,186\" fill=\"#b75432\"/><text x=\"135\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8c5c12\">bränsle</text><text x=\"485\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2c6f56\">40 kW nyttig</text><text x=\"485\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">spillvärme</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den tillförda effekten från bränslet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=\\frac{40}{0{,}30}=133{,}3\\ \\mathrm{kW}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(133\\ \\mathrm{kW}\\).</p></div>",
-        "ledtrad": "<p>Verkningsgraden är nyttig effekt dividerad med tillförd effekt.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "fraga": "Vilken effekt tillförs motorn? Svara i kW. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera den nyttiga effekten med andelen som blir nyttig.</p>\\[P_{\\mathrm{in}}=40/0{,}30\\approx133{,}333\\,\\mathrm{kW}\\]<p><strong>Svar:</strong> \\(133{,}3\\,\\mathrm{kW}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>En motor ger den nyttiga effekten 40 kW. Den nyttiga effekten är 30 % av den tillförda effekten.</p><p>Vilken effekt tillförs motorn? Svara i kW. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm motorns totala spillvärmeeffekt i denna energibalans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{spill}}=133{,}3-40=93{,}3\\ \\mathrm{kW}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(93{,}3\\ \\mathrm{kW}\\).</p></div>",
-        "ledtrad": "<p>Tillförd effekt delas här upp i nyttig effekt och spillvärme.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "fraga": "Vilken effekt blir värme? Svara i kW. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Värmeeffekten är skillnaden mellan tillförd och nyttig effekt.</p>\\[P_{\\mathrm{varme}}=133{,}333-40=93{,}333\\,\\mathrm{kW}\\]<p><strong>Svar:</strong> \\(93{,}3\\,\\mathrm{kW}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>En motor tillförs effekten 133,333 kW och ger den nyttiga effekten 40 kW. Resten blir värme.</p><p>Vilken effekt blir värme? Svara i kW. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm det massflöde kylvatten som krävs för att föra bort 60 kW.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot m=\\frac{P}{c\\Delta T}=\\frac{60000}{4180\\cdot8{,}0}=1{,}794\\ \\mathrm{kg/s}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}79\\ \\mathrm{kg/s}\\).</p></div>",
-        "ledtrad": "<p>Varje kilogram kylvatten tar upp energin cΔT.</p>",
-        "niva": "C",
-        "traningsniva": 4,
-        "poang": "1/0/0"
+        "fraga": "Hur många kilogram vatten måste passera varje sekund? Svara i kg/s. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>60 kW betyder 60 000 J varje sekund. Ett kilogram vatten behöver 4180 · 8,0 = 33 440 J för att värmas 8,0 K.</p>\\[\\begin{aligned}&\\text{massa per sekund}\\\\ &=\\frac{60000}{4180\\cdot8{,}0}\\\\ &\\approx1{,}794\\,\\mathrm{kg/s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}79\\,\\mathrm{kg/s}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "poang": "(1/0/0)",
+        "t": "<p>Kylvatten ska ta upp effekten 60 kW och värmas 8,0 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur många kilogram vatten måste passera varje sekund? Svara i kg/s. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.38",
     "kap": 7,
     "omr": "varme",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En termos innehåller \\(0{,}50\\ \\mathrm{kg}\\) kaffe vid \\(85\\,{}^\\circ\\mathrm C\\). Efter några timmar är temperaturen \\(62\\,{}^\\circ\\mathrm C\\). Kaffet kan behandlas som vatten med \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><ol><li>Bestäm hur mycket energi kaffet har avgett.</li><li>Beskriv vart energin har tagit vägen och förklara vad termosen gör.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}50\\cdot4180\\cdot(85-62)=48070\\ \\mathrm J\\approx48{,}1\\ \\mathrm{kJ}.\\]</div></div><div class=\"facit-stycke\"><p>Energin har överförts till termosens delar och vidare till omgivningen genom värmeledning, konvektion och strålning.</p></div><div class=\"facit-stycke\"><p>Termosen minskar dessa värmeflöden men kan inte göra dem exakt noll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> kaffet har avgett cirka \\(48\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En termos innehåller 0,50 kg kaffe som svalnar från 85 °C till 62 °C. Räkna med att kaffets specifika värmekapacitet är 4180 J/(kg·K).</p><p><strong>a)</strong> Hur mycket energi avger kaffet?</p><p><strong>b)</strong> Vart tar energin vägen, och hur hjälper termosen till att hålla kaffet varmt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturen minskar med 85 − 62 = 23 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=0{,}50\\cdot4180\\cdot23=48070\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> Cirka 48,1 kJ.</p><p><strong>b)</strong> </p><p>Energin överförs till termosens delar och vidare till omgivningen. En termos bromsar värmeöverföringen genom isolerade väggar, reflekterande ytor och ett tätt lock. Därmed minskas värmeledning, strålning och överföring med strömmande luft och ånga.</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__avsvalning_och_termisk_jamvikt",
     "formaga": [
@@ -75527,7 +75594,7 @@ window.BANK = [
       "begrepp"
     ],
     "ledtrad": "<p>Beräkna temperaturminskningen och skilj mellan att bromsa ett värmeflöde och att stoppa det helt.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -75538,16 +75605,17 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Avsvalning och termisk jämvikt"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.76",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett aluminiumblock med massan \\(0{,}20\\ \\mathrm{kg}\\) läggs i \\(0{,}50\\ \\mathrm{kg}\\) vatten vid \\(20{,}0\\,{}^\\circ\\mathrm C\\). Sluttemperaturen blir \\(32{,}7\\,{}^\\circ\\mathrm C\\). Bestäm aluminiumblockets starttemperatur. Materialdata: \\(c_{\\mathrm{Al}}=900\\) och \\(c_{\\mathrm v}=4180\\ \\mathrm{J/(kg\\,K)}\\). Bortse från värmeförluster och kärlets värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}20\\cdot900(T_{\\mathrm{Al}}-32{,}7)=0{,}50\\cdot4180(32{,}7-20{,}0)\\]\\[T_{\\mathrm{Al}}=180{,}16\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(180\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,20 kg aluminium läggs i 0,50 kg vatten vid 20 °C. Sluttemperaturen blir 32,7 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken temperatur hade aluminiumet från början? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet värms med 12,7 K.</p>\\[Q=0{,}5\\cdot4180\\cdot12{,}7=26543\\,\\mathrm J\\]<p>Den varma kroppen avger lika mycket energi som vattnet tar upp. Beräkna hur mycket dess temperatur sjunker och lägg sedan denna temperatursänkning till sluttemperaturen.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{26543}{0{,}2\\cdot900}\\approx147{,}461\\,\\mathrm K\\]\\[\\begin{aligned}&T_{\\mathrm{start}}\\\\ &=32{,}7+147{,}4611111\\approx180{,}161\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(180{,}2\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_olika_material",
     "formaga": [
@@ -75555,20 +75623,21 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Sätt aluminiumets avgivna energi lika med vattnets upptagna energi.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "värmebalans mellan olika material",
     "svarstyp": "numeriskt",
-    "rättSvar": 180,
-    "tolerans": 2.7,
+    "rättSvar": 180.16111111111115,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Värmebalans mellan olika material"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.39",
@@ -75576,8 +75645,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "C",
     "poang": "(1/2/1)",
-    "t": "<p>En metallcylinder med massan \\(250\\ \\mathrm g\\) värms till \\(100\\,{}^\\circ\\mathrm C\\) och läggs snabbt i \\(400\\ \\mathrm g\\) vatten vid \\(18{,}0\\,{}^\\circ\\mathrm C\\). Sluttemperaturen blir \\(22{,}5\\,{}^\\circ\\mathrm C\\). Vattnets specifika värmekapacitet är \\(4180\\ \\mathrm{J/(kg\\,K)}\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Metall och vatten före blandningen\"><title>Metall och vatten före blandningen</title><path d=\"M295 85 V227 H445 V85\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"297\" y=\"147\" width=\"146\" height=\"78\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"297\" y1=\"147\" x2=\"443\" y2=\"147\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><rect x=\"83\" y=\"105\" width=\"72\" height=\"75\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"119\" y=\"76\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">100 °C</text><text x=\"119\" y=\"212\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">250 g</text><text x=\"370\" y=\"117\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">18,0 °C</text><text x=\"370\" y=\"265\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">400 g vatten</text><text x=\"119\" y=\"242\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">metall</text></svg></span><table class=\"data\"><tr><th>Metall</th><th>c i J/(kg·K)</th></tr><tr><td>aluminium</td><td>900</td></tr><tr><td>järn</td><td>460</td></tr><tr><td>koppar</td><td>385</td></tr><tr><td>silver</td><td>235</td></tr><tr><td>bly</td><td>128</td></tr></table><ol><li>Bestäm den energi som vattnet tar upp.</li><li>Bestäm metallens specifika värmekapacitet.</li><li>Använd tabellen för att identifiera metallen.</li><li>Kärlet tar i verkligheten upp en del energi. Avgör om det beräknade värdet på metallens specifika värmekapacitet då blir för högt eller för lågt.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm v}=0{,}400\\cdot4180\\cdot(22{,}5-18{,}0)=7524\\ \\mathrm J\\]\\[c_{\\mathrm m}=\\frac{7524}{0{,}250(100-22{,}5)}=388\\ \\mathrm{J/(kg\\,K)}.\\]</div></div><div class=\"facit-stycke\"><p>Värdet ligger närmast koppars 385 J/(kg·K).</p></div><div class=\"facit-stycke\"><p>Om kärlet också värms har metallen avgett mer energi än den mängd som räknades till vattnet.</p></div><div class=\"facit-stycke\"><p>När denna energi utelämnas blir det beräknade värdet på \\(c\\) för lågt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}52\\ \\mathrm{kJ}\\), \\(388\\ \\mathrm{J/(kg\\,K)}\\), koppar och ett för lågt beräknat värde.</p></div>",
+    "t": "<p>En metallcylinder med massan \\(250\\ \\mathrm g\\) värms till \\(100\\,{}^\\circ\\mathrm C\\) och läggs snabbt i \\(400\\ \\mathrm g\\) vatten vid \\(18{,}0\\,{}^\\circ\\mathrm C\\). Sluttemperaturen blir \\(22{,}5\\,{}^\\circ\\mathrm C\\). Vattnets specifika värmekapacitet är \\(4180\\ \\mathrm{J/(kg\\,K)}\\). Räkna i a)–c) med att ingen energi går till kärlet eller omgivningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Metall och vatten före blandningen\"><title>Metall och vatten före blandningen</title><path d=\"M295 85 V227 H445 V85\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"297\" y=\"147\" width=\"146\" height=\"78\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"297\" y1=\"147\" x2=\"443\" y2=\"147\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><rect x=\"83\" y=\"105\" width=\"72\" height=\"75\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"119\" y=\"76\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">100 °C</text><text x=\"119\" y=\"212\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">250 g</text><text x=\"370\" y=\"117\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">18,0 °C</text><text x=\"370\" y=\"265\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">400 g vatten</text><text x=\"119\" y=\"242\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">metall</text></svg></span><table class=\"data\"><tr><th>Metall</th><th>c i J/(kg·K)</th></tr><tr><td>aluminium</td><td>900</td></tr><tr><td>järn</td><td>460</td></tr><tr><td>koppar</td><td>385</td></tr><tr><td>silver</td><td>235</td></tr><tr><td>bly</td><td>128</td></tr></table><p><strong>a)</strong> Bestäm den energi som vattnet tar upp.</p><p><strong>b)</strong> Bestäm metallens specifika värmekapacitet.</p><p><strong>c)</strong> Använd tabellen för att identifiera metallen.</p><p><strong>d)</strong> Kärlet tar i verkligheten upp en del energi. Avgör om det beräknade värdet på metallens specifika värmekapacitet då blir för högt eller för lågt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vattenmassan är 0,400 kg och temperaturökningen 22,5 − 18,0 = 4,5 K.</p>\\[Q_{\\mathrm{vatten}}=0{,}400\\cdot4180\\cdot4{,}5=7524\\,\\mathrm J\\]<p><strong>Svar:</strong> 7,52 kJ.</p><p><strong>b)</strong> Metallmassan är 0,250 kg. Metallen svalnar 100 − 22,5 = 77,5 K och avger samma energi som vattnet tar upp.</p>\\[\\begin{aligned}&c=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{7524}{0{,}250\\cdot77{,}5}\\approx388\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>c)</strong> 388 ligger närmast koppars 385 J/(kg·K). Metallen är troligen koppar.</p><p><strong>d)</strong> Värdet blir för lågt. Om kärlet också värms måste metallen ha avgett mer energi än bara 7524 J. Beräkningen använder då för liten energi i täljaren och ger för litet c.</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_olika_material",
     "formaga": [
@@ -75605,8 +75674,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En skål med vatten vid \\(50\\,{}^\\circ\\mathrm C\\) ställs utomhus där temperaturen är \\(12\\,{}^\\circ\\mathrm C\\). Vattnet står kvar tills termisk jämvikt har nåtts. Under avsvalningen avger vattnet \\(120\\ \\mathrm{kJ}\\). Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p><ol><li>Bestäm vattnets sluttemperatur.</li><li>Bestäm vattenmassan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_f=12\\,{}^\\circ\\mathrm C\\]\\[m=\\frac{120000}{4180(50-12)}=0{,}756\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,{}^\\circ\\mathrm C\\) och \\(0{,}76\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>Vatten vid 50 °C står i ett rum som håller 12 °C. När vattnet har fått samma temperatur som rummet har det avgett 120 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p><strong>a)</strong> Vilken temperatur får vattnet till slut? Svara i °C. Svara med ett heltal.</p><p><strong>b)</strong> Hur stor massa har vattnet? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Värmen överförs tills vattnet har samma temperatur som rummet.</p><p><strong>Svar:</strong> \\(12\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong> </p><p>Temperaturminskningen är 50 − 12 = 38 K och 120 kJ = 120 000 J.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{120000}{4180\\cdot38}\\approx0{,}7555\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}755\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__avsvalning_och_termisk_jamvikt",
     "formaga": [
@@ -75614,7 +75683,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Börja med vad termisk jämvikt innebär för temperaturen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -75622,11 +75691,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
-      0.76
+      0.7554772097708385
     ],
     "tolerans": [
-      0.5,
-      0.0114
+      0,
+      0.0005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -75643,31 +75712,35 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En skål med vatten vid \\(50\\,{}^\\circ\\mathrm C\\) ställs utomhus där temperaturen är \\(12\\,{}^\\circ\\mathrm C\\). Vattnet står kvar tills termisk jämvikt har nåtts. Under avsvalningen avger vattnet \\(120\\ \\mathrm{kJ}\\). Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
+    "spelIntro": "<p>Vatten vid 50 °C står i ett rum som håller 12 °C. När vattnet har fått samma temperatur som rummet har det avgett 120 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken sluttemperatur får vattnet? Svara i °C.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid termisk jämvikt är vattnets temperatur lika med utetemperaturen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,{}^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Vid termisk jämvikt har vattnet och omgivningen samma temperatur.</p>",
+        "fraga": "Vilken temperatur får vattnet till slut? Svara i °C. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Värmen överförs tills vattnet har samma temperatur som rummet.</p><p><strong>Svar:</strong> \\(12\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 1,
-        "poang": "1/0/0",
-        "t": "<p>En skål med vatten vid 50 °C ställs där temperaturen är 12 °C. Den står kvar tills vattnet har samma temperatur som omgivningen.</p><p>Vilken sluttemperatur får vattnet? Svara i °C.</p>"
+        "poang": "(1/0/0)",
+        "t": "<p>En skål med vatten står länge i ett rum som håller 12 °C.</p><p>Vilken temperatur får vattnet till slut? Svara i °C. Svara med ett heltal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm vattenmassan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{c\\Delta T}=\\frac{120000}{4180\\cdot38}=0{,}756\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}76\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Temperaturminskningen är 38 K.</p>",
+        "fraga": "Hur stor massa har vattnet? Svara i kg. Avrunda till 3 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturminskningen är 50 − 12 = 38 K och 120 kJ = 120 000 J.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{120000}{4180\\cdot38}\\approx0{,}7555\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}755\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Vatten svalnar från 50 °C till 12 °C och avger 120 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur stor massa har vattnet? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Avsvalning och termisk jämvikt"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.77",
@@ -75675,8 +75748,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En doppvärmare med eleffekten \\(1{,}50\\ \\mathrm{kW}\\) värmer \\(1{,}20\\ \\mathrm{kg}\\) vatten från \\(18\\,{}^\\circ\\mathrm C\\) till \\(80\\,{}^\\circ\\mathrm C\\). Verkningsgraden är 82 %. Bestäm uppvärmningstiden. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}20\\cdot4180\\cdot62=310992\\ \\mathrm J\\]\\[t=\\frac{Q}{\\eta P}=\\frac{310992}{0{,}82\\cdot1500}=252{,}8\\ \\mathrm s.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(253\\ \\mathrm s\\).</p></div>",
+    "t": "<p>En vattenkokare har eleffekten 1500 W. 82 % av effekten värmer 1,2 kg vatten från 18 °C till 80 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen ökar med 80 − 18 = 62 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=1{,}2\\cdot4180\\cdot62=310992\\,\\mathrm J\\end{aligned}\\]<p>Bara 82 % av eleffekten värmer vattnet.</p>\\[P_{\\mathrm{vatten}}=0{,}82\\cdot1500=1230\\,\\mathrm W\\]\\[t=\\frac{Q}{P_{\\mathrm{vatten}}}=\\frac{310992}{1230}\\approx252{,}839\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(253\\,\\mathrm{s}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -75689,14 +75762,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "uppvärmning med effekt och verkningsgrad",
     "svarstyp": "numeriskt",
-    "rättSvar": 253,
-    "tolerans": 3.795,
+    "rättSvar": 252.8390243902439,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "s",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.41",
@@ -75704,15 +75778,15 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En stålbit med massan \\(15\\ \\mathrm{kg}\\) svalnar \\(35\\ \\mathrm K\\) på \\(10\\ \\mathrm{min}\\). Stålets specifika värmekapacitet är \\(0{,}46\\ \\mathrm{kJ/(kg\\,K)}\\).</p><ol><li>Bestäm den energi som stålbiten avger.</li><li>Bestäm den genomsnittliga värmeeffekten till omgivningen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=241{,}5\\ \\mathrm{kJ}\\]\\[P=402{,}5\\ \\mathrm W.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(241{,}5\\ \\mathrm{kJ}\\) och \\(403\\ \\mathrm W\\).</p></div>",
+    "t": "<p>15 kg stål svalnar 35 K på 10 minuter. Stålets specifika värmekapacitet är 0,46 kJ/(kg·K).</p><p><strong>a)</strong> Hur mycket energi avger stålet? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Vilken medeleffekt avges? Svara i W. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Alla enheter passar för ett svar direkt i kJ.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=15\\cdot0{,}46\\cdot35=241{,}5\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(241{,}5\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong> </p><p>10 minuter = 600 s.</p>\\[P=\\frac{Q}{t}=\\frac{241500}{600}=402{,}5\\,\\mathrm W\\]<p><strong>Svar:</strong> \\(403\\,\\mathrm{W}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__effekt_vid_uppvarmning",
     "formaga": [
       "procedur"
     ],
     "ledtrad": "<p>Beräkna energin först och använd därefter effekt som energi per tid.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -75720,11 +75794,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       241.5,
-      402
+      402.5
     ],
     "tolerans": [
-      3.6225,
-      6.03
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "svarFormat": [
@@ -75741,30 +75815,35 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En stålbit med massan \\(15\\ \\mathrm{kg}\\) svalnar \\(35\\ \\mathrm K\\) på \\(10\\ \\mathrm{min}\\). Stålets specifika värmekapacitet är \\(0{,}46\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
+    "spelIntro": "<p>15 kg stål svalnar 35 K på 10 minuter. Stålets specifika värmekapacitet är 0,46 kJ/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den energi som stålbiten avger.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=15\\cdot0{,}46\\cdot35=241{,}5\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(241{,}5\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>När c anges i kJ/(kg·K) erhålls energin direkt i kJ.</p>",
+        "fraga": "Hur mycket energi avger stålet? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Alla enheter passar för ett svar direkt i kJ.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=15\\cdot0{,}46\\cdot35=241{,}5\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(241{,}5\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 2,
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>15 kg stål svalnar 35 K. Stålets specifika värmekapacitet är 0,46 kJ/(kg·K).</p><p>Hur mycket energi avger stålet? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den genomsnittliga värmeeffekten till omgivningen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{241500}{600}=402{,}5\\ \\mathrm W.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(403\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Tio minuter är 600 sekunder.</p>",
+        "fraga": "Vilken medeleffekt avges? Svara i W. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>10 minuter = 600 s.</p>\\[P=\\frac{Q}{t}=\\frac{241500}{600}=402{,}5\\,\\mathrm W\\]<p><strong>Svar:</strong> \\(403\\,\\mathrm{W}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Stål avger 241 500 J på 10 minuter.</p><p>Vilken medeleffekt avges? Svara i W. Svara med ett heltal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.78",
@@ -75772,8 +75851,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett isolerat kärl innehåller \\(0{,}60\\ \\mathrm{kg}\\) vatten. Vattnet tillförs \\(100\\ \\mathrm{kJ}\\). Bestäm temperaturökningen. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{100000}{0{,}60\\cdot4180}=39{,}87\\ \\mathrm K.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39{,}9\\ \\mathrm K\\).</p></div>",
+    "t": "<p>0,60 kg vatten tar upp 100 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket ökar temperaturen? Svara i K. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>100 kJ = 100 000 J.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{100000}{0{,}60\\cdot4180}\\approx39{,}87\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(39{,}9\\,\\mathrm{K}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -75786,20 +75865,21 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – annan obekant",
     "svarstyp": "numeriskt",
-    "rättSvar": 39.9,
-    "tolerans": 0.5985,
+    "rättSvar": 39.87240829346093,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "svarEnhet": "K",
+    "arbetsinsats": 2
   },
   {
     "id": "7.42",
     "kap": 7,
     "omr": "varme",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>\\(4{,}0\\ \\mathrm{kg}\\) vatten värms från \\(15\\,{}^\\circ\\mathrm C\\) till \\(75\\,{}^\\circ\\mathrm C\\). Jämför energin med lägesenergin hos en sten med massan \\(1{,}2\\) ton. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\) och \\(g=9{,}82\\ \\mathrm{m/s^2}\\).</p><ol><li>Bestäm energin som vattnet behöver.</li><li>Hur högt kan stenen lyftas om samma energimängd omvandlas helt till lägesenergi?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}0032\\ \\mathrm{MJ}\\]\\[h=85{,}1\\ \\mathrm m.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}00\\ \\mathrm{MJ}\\) och \\(85{,}1\\ \\mathrm m\\).</p></div>",
+    "niva": "C",
+    "poang": "(1/1/0)",
+    "t": "<p>4,0 kg vatten värms från 15 °C till 75 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Samma energimängd används sedan för att lyfta en sten med massan 1200 kg. Använd g = 9,82 m/s².</p><p><strong>a)</strong> Hur mycket energi tar vattnet upp? Svara i MJ. Avrunda till 2 decimaler.</p><p><strong>b)</strong> Hur högt lyfts stenen? Svara i m. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturökningen är 60 K.</p>\\[Q=4{,}0\\cdot4180\\cdot60=1003200\\,\\mathrm J\\]<p>1 MJ = 1 000 000 J.</p><p><strong>Svar:</strong> \\(1{,}00\\,\\mathrm{MJ}\\).</p><p><strong>b)</strong> </p><p>Lös ut höjden ur E = mgh.</p>\\[h=\\frac{E}{mg}=\\frac{1003200}{1200\\cdot9{,}82}\\approx85{,}13\\,\\mathrm m\\]<p><strong>Svar:</strong> \\(85{,}1\\,\\mathrm{m}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__varmeenergi_i_vardagen",
     "formaga": [
@@ -75814,12 +75894,12 @@ window.BANK = [
     "typ": "jämföra värmeenergi med mekanisk energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1,
-      85.1
+      1.0032,
+      85.13238289205702
     ],
     "tolerans": [
-      0.015,
-      1.2765
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -75836,31 +75916,35 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(4{,}0\\ \\mathrm{kg}\\) vatten värms från \\(15\\,{}^\\circ\\mathrm C\\) till \\(75\\,{}^\\circ\\mathrm C\\). Jämför energin med lägesenergin hos en sten med massan \\(1{,}2\\) ton. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\) och \\(g=9{,}82\\ \\mathrm{m/s^2}\\).</p>",
+    "spelIntro": "<p>4,0 kg vatten värms från 15 °C till 75 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Samma energimängd används sedan för att lyfta en sten med massan 1200 kg. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi behöver vattnet? Svara i MJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=4{,}0\\cdot4180\\cdot60=1{,}0032\\cdot10^6\\ \\mathrm J.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}00\\ \\mathrm{MJ}\\).</p></div>",
-        "ledtrad": "<p>Temperaturökningen är 60 K.</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i MJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 60 K.</p>\\[Q=4{,}0\\cdot4180\\cdot60=1003200\\,\\mathrm J\\]<p>1 MJ = 1 000 000 J.</p><p><strong>Svar:</strong> \\(1{,}00\\,\\mathrm{MJ}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "1/0/0",
-        "t": "<p>4,0 kg vatten värms från 15 °C till 75 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi behöver vattnet? Svara i MJ.</p>"
+        "poang": "(1/0/0)",
+        "t": "<p>4,0 kg vatten värms från 15 °C till 75 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i MJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur högt kan stenen lyftas om samma energimängd omvandlas helt till lägesenergi?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\frac{1{,}0032\\cdot10^6}{1200\\cdot9{,}82}=85{,}1\\ \\mathrm m.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(85{,}1\\ \\mathrm m\\).</p></div>",
-        "ledtrad": "<p>Sätt värmeenergin lika med mgh.</p>",
+        "fraga": "Hur högt lyfts stenen? Svara i m. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lös ut höjden ur E = mgh.</p>\\[h=\\frac{E}{mg}=\\frac{1003200}{1200\\cdot9{,}82}\\approx85{,}13\\,\\mathrm m\\]<p><strong>Svar:</strong> \\(85{,}1\\,\\mathrm{m}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>En sten har massan 1200 kg. Den lyfts med energin 1 003 200 J. All energi ökar stenens lägesenergi. Använd g = 9,82 m/s².</p><p>Hur högt lyfts stenen? Svara i m. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Värmeenergi i vardagen"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.43",
@@ -75868,8 +75952,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Samma energimängd, \\(69{,}3\\ \\mathrm{kJ}\\), tillförs \\(3{,}0\\ \\mathrm{kg}\\) koppar respektive \\(3{,}0\\ \\mathrm{kg}\\) vatten. Bestäm vattnets temperaturökning. Materialdata: \\(c_{\\mathrm{vatten}}=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T_{\\mathrm{vatten}}=\\frac{69300}{3{,}0\\cdot4180}=5{,}526\\ \\mathrm K.\\]</div></div><div class=\"facit-stycke\"><p>Samma energi skulle höja kopparns temperatur betydligt mer eftersom koppar har lägre specifik värmekapacitet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}53\\ \\mathrm K\\).</p></div>",
+    "t": "<p>3,0 kg vatten tar upp 69,3 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket ökar vattnets temperatur? Svara i K. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>69,3 kJ = 69 300 J.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{69300}{3{,}0\\cdot4180}\\approx5{,}526\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(5{,}53\\,\\mathrm{K}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -75883,20 +75967,21 @@ window.BANK = [
     "geogebra": false,
     "typ": "jämföra specifik värmekapacitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.53,
-    "tolerans": 0.08295,
+    "rättSvar": 5.526315789473684,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "svarEnhet": "K",
+    "arbetsinsats": 2
   },
   {
     "id": "7.79",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Vattenmassan \\(0{,}300\\ \\mathrm{kg}\\) ska värmas från \\(20\\,{}^\\circ\\mathrm C\\) till \\(25\\,{}^\\circ\\mathrm C\\) genom att en kopparbit vid \\(100\\,{}^\\circ\\mathrm C\\) läggs i vattnet. Bestäm kopparbitens massa. Materialdata: \\(c_{\\mathrm{Cu}}=385\\) och \\(c_{\\mathrm v}=4180\\ \\mathrm{J/(kg\\,K)}\\). Bortse från värmeförluster och kärlets värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{Cu}}\\cdot385(100-25)=0{,}300\\cdot4180(25-20)\\]\\[m_{\\mathrm{Cu}}=0{,}2171\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}217\\ \\mathrm{kg}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Vatten med massan 0,30 kg ska värmas från 20 °C till 25 °C med en kopparbit vid 100 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Hur stor massa måste kopparbiten ha? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det ämne vars massa är känd ändrar temperaturen med 5 K.</p>\\[Q=0{,}3\\cdot4180\\cdot5=6270\\,\\mathrm J\\]<p>Samma energi överförs till eller från ämnet med okänd massa. Dess temperatur ändras med 75 K.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{6270}{385\\cdot75}\\approx0{,}2171\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}217\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_olika_material",
     "formaga": [
@@ -75904,29 +75989,30 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Den varma kopparns energiavgivning ska vara lika stor som vattnets energiupptag.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "värmebalans med okänd massa",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.217,
-    "tolerans": 0.003255,
+    "rättSvar": 0.21714285714285714,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Värmebalans mellan olika material"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.44",
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En stillasittande person avger ungefär 100 W värme. Ett klassrum förlorar 2,0 kW värme till omgivningen.</p><ol><li>Bestäm den energi en person avger under ett dygn.</li><li>Bestäm hur många personer som tillsammans avger 2,0 kW.</li><li>Förklara varför ett fullsatt klassrum ändå behöver ventilation även om personernas värme täcker värmeförlusten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Pt=100\\cdot86400=8{,}64\\cdot10^6\\ \\mathrm J=8{,}64\\ \\mathrm{MJ}\\]\\[N=\\frac{2000}{100}=20.\\]</div></div><div class=\"facit-stycke\"><p>Personer avger även koldioxid, vattenånga och luktämnen.</p></div><div class=\"facit-stycke\"><p>En temperaturbalans innebär därför inte god luftkvalitet.</p></div><div class=\"facit-stycke\"><p>Ventilation behövs men ökar samtidigt ofta värmeförlusten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}64\\ \\mathrm{MJ}\\), 20 personer och fortsatt behov av ventilation.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En stillasittande person avger ungefär 100 W värme. Ett klassrum förlorar 2,0 kW värme till omgivningen.</p><p><strong>a)</strong> Bestäm den energi en person avger under ett dygn.</p><p><strong>b)</strong> Bestäm hur många personer som tillsammans avger 2,0 kW.</p><p><strong>c)</strong> Förklara varför ett fullsatt klassrum ändå behöver ventilation även om personernas värme täcker värmeförlusten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Ett dygn är 24 · 60 · 60 = 86 400 s.</p>\\[E=Pt=100\\cdot86400=8640000\\,\\mathrm J\\]<p><strong>Svar:</strong> 8,64 MJ.</p><p><strong>b)</strong> 2,0 kW = 2000 W. Antalet personer blir</p>\\[N=2000/100=20\\]<p><strong>c)</strong> Människor avger koldioxid och vattenånga. Luften måste bytas ut även om temperaturen är lagom. Att värmen räcker innebär alltså inte att luftkvaliteten är bra.</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__varmeenergi_i_vardagen",
     "formaga": [
@@ -75935,7 +76021,7 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Håll isär rummets värmebalans och rummets luftkvalitet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -75946,7 +76032,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Värmeenergi i vardagen"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.45",
@@ -87598,7 +87685,7 @@ window.BANK = [
     "niva": "A",
     "typ": "rörelse av elektron i homogent elektriskt fält",
     "poang": "(0/1/2)",
-    "t": "<p>En elektron släpps från vila i ett homogent elektriskt fält med styrkan \\(2\\cdot10^{4}\\,\\mathrm{N/C}\\). Bestäm elektronens accelerationsbelopp.</p>",
+    "t": "<p>En elektron släpps från vila i ett homogent elektriskt fält med styrkan \\(2\\cdot10^{4}\\,\\mathrm{N/C}\\). Hur stor är elektronens acceleration?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet ger kraften \\(F=eE\\) i belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger sedan accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{eE}{m_e}=3{,}517\\cdot10^{15}\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}517\\cdot10^{15}\\ \\mathrm{m/s^2}\\).</p></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
@@ -88105,7 +88192,7 @@ window.BANK = [
     "niva": "A",
     "typ": "rörelse av elektron i homogent elektriskt fält",
     "poang": "(0/1/2)",
-    "t": "<p>En elektron släpps från vila i ett homogent elektriskt fält med styrkan \\(2{,}6\\cdot10^{4}\\,\\mathrm{N/C}\\). Bestäm elektronens accelerationsbelopp.</p>",
+    "t": "<p>En elektron släpps från vila i ett homogent elektriskt fält med styrkan \\(2{,}6\\cdot10^{4}\\,\\mathrm{N/C}\\). Hur stor är elektronens acceleration?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet ger kraften \\(F=eE\\) i belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger sedan accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{eE}{m_e}=4{,}573\\cdot10^{15}\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}573\\cdot10^{15}\\ \\mathrm{m/s^2}\\).</p></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
@@ -93492,7 +93579,7 @@ window.BANK = [
     "niva": "A",
     "typ": "rörelse av elektron i homogent elektriskt fält",
     "poang": "(0/1/2)",
-    "t": "<p>En elektron lämnar en glödtråd med nästan ingen fart och hamnar i ett homogent fält med styrkan \\(2{,}2\\cdot10^{4}\\,\\mathrm{N/C}\\). Bestäm elektronens accelerationsbelopp.</p>",
+    "t": "<p>En elektron lämnar en glödtråd med nästan ingen fart och hamnar i ett homogent fält med styrkan \\(2{,}2\\cdot10^{4}\\,\\mathrm{N/C}\\). Hur stor är elektronens acceleration?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet ger kraften \\(F=eE\\) i belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger sedan accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{eE}{m_e}=3{,}869\\cdot10^{15}\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}869\\cdot10^{15}\\ \\mathrm{m/s^2}\\).</p></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
@@ -104383,8 +104470,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}200\\ \\mathrm{kg}\\) vatten vid \\(80\\,{}^\\circ\\mathrm C\\) blandas med \\(0{,}300\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\). Bortse från värmeförluster och kärlets värmekapacitet. Bestäm sluttemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Eftersom båda mängderna är vatten kan samma specifika värmekapacitet förkortas bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_f=\\frac{0{,}200\\cdot80+0{,}300\\cdot20}{0{,}500}=44\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "t": "<p>0,20 kg vatten vid 80 °C blandas med kallt vatten. Sluttemperaturen blir 44 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi avger det varma vattnet? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det varma vattnet svalnar med 80 − 44 = 36 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=0{,}20\\cdot4180\\cdot36=30096\\,\\mathrm J\\end{aligned}\\]<p>Omvandla till kJ genom att dela med 1000.</p><p><strong>Svar:</strong> 30,1 kJ.</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_vattenmangder",
     "formaga": [
@@ -104397,14 +104484,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "värmebalans mellan vattenmängder",
     "svarstyp": "numeriskt",
-    "rättSvar": 44,
-    "tolerans": 0.66,
+    "rättSvar": 30.096,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°C",
+    "svarEnhet": "kJ",
     "familjTidigare": [
       "Värmebalans mellan vattenmängder"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.80",
@@ -104412,8 +104500,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En aluminiumdel med massan \\(0{,}60\\ \\mathrm{kg}\\) ska värmas \\(60\\ \\mathrm K\\). Under processen går 20 % av den tillförda energin till omgivningen. Bestäm den energi som måste tillföras. Materialdata: \\(c=900\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{nyttig}}=0{,}60\\cdot900\\cdot60=32400\\ \\mathrm J\\]\\[E_{\\mathrm{in}}=\\frac{32400}{0{,}80}=40500\\ \\mathrm J.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}5\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,60 kg aluminium värms 60 K. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). 80 % av den tillförda energin värmer aluminiumet.</p><p>Hur mycket energi måste tillföras? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\mathrm{Al}}=mc\\Delta T\\\\ &=0{,}60\\cdot900\\cdot60=32400\\,\\mathrm J\\end{aligned}\\]<p>Energin i aluminiumet är 80 % av den tillförda energin.</p>\\[E=\\frac{32400}{0{,}80}=40500\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(40{,}5\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -104427,22 +104515,23 @@ window.BANK = [
     "typ": "verkningsgrad och energiförlust",
     "svarstyp": "numeriskt",
     "rättSvar": 40.5,
-    "tolerans": 0.6075,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.56",
     "kap": 7,
     "omr": "varme",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En aluminiumklump med massan \\(0{,}50\\ \\mathrm{kg}\\) och temperaturen \\(100\\,{}^\\circ\\mathrm C\\) läggs i \\(1{,}0\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c_{\\mathrm{Al}}=900\\) och \\(c_{\\mathrm v}=4180\\ \\mathrm{J/(kg\\,K)}\\). Bortse från värmeförluster och kärlets värmekapacitet. Bestäm sluttemperaturen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Metall och vatten före blandningen\"><title>Metall och vatten före blandningen</title><path d=\"M295 85 V227 H445 V85\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"297\" y=\"147\" width=\"146\" height=\"78\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"297\" y1=\"147\" x2=\"443\" y2=\"147\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><rect x=\"83\" y=\"105\" width=\"72\" height=\"75\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"119\" y=\"76\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">100 °C</text><text x=\"119\" y=\"212\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">0,50 kg</text><text x=\"370\" y=\"117\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">20 °C</text><text x=\"370\" y=\"265\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">1,0 kg vatten</text><text x=\"119\" y=\"242\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">metall</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}50\\cdot900(100-T)=1{,}0\\cdot4180(T-20)\\]\\[T=27{,}78\\,{}^\\circ\\mathrm C.\\]</div></div><div class=\"facit-stycke\"><p>Sluttemperaturen ligger närmare vattnets starttemperatur eftersom vattnet har mycket större total värmekapacitet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>0,50 kg aluminium vid 100 °C läggs i 1,0 kg vatten vid 20 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Metall och vatten före blandningen\"><title>Metall och vatten före blandningen</title><path d=\"M295 85 V227 H445 V85\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"297\" y=\"147\" width=\"146\" height=\"78\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"297\" y1=\"147\" x2=\"443\" y2=\"147\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><rect x=\"83\" y=\"105\" width=\"72\" height=\"75\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"119\" y=\"76\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">100 °C</text><text x=\"119\" y=\"212\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">0,50 kg</text><text x=\"370\" y=\"117\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">20 °C</text><text x=\"370\" y=\"265\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">1,0 kg vatten</text><text x=\"119\" y=\"242\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">metall</text></svg><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T.</p><p>Aluminiumet avger lika mycket energi som vattnet tar upp. Använd Q = mcΔT:</p>\\[0{,}5\\cdot900(100-T)=1\\cdot4180(T-20)\\]<p>Multiplicera in och samla termerna med T:</p>\\[4630T=128600\\]\\[T=\\frac{128600}{4630}\\approx27{,}775\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(27{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_olika_material",
     "formaga": [
@@ -104456,14 +104545,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "värmebalans mellan olika material",
     "svarstyp": "numeriskt",
-    "rättSvar": 27.8,
-    "tolerans": 0.417,
+    "rättSvar": 27.77537796976242,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Värmebalans mellan olika material"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.57",
@@ -104471,8 +104561,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}100\\ \\mathrm{kg}\\) vatten vid \\(90\\,{}^\\circ\\mathrm C\\) blandas med \\(0{,}100\\ \\mathrm{kg}\\) vatten vid \\(10\\,{}^\\circ\\mathrm C\\) i ett välisolerat kärl. Bestäm sluttemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Massorna är lika och båda mängderna är vatten.</p></div><div class=\"facit-stycke\"><p>Sluttemperaturen ligger därför mitt emellan starttemperaturerna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_f=\\frac{90+10}{2}=50\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "t": "<p>Två lika stora mängder vatten blandas. Den ena har temperaturen 90 °C och den andra 10 °C. Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken blir sluttemperaturen? Svara i °C. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När mängderna är lika stora och båda består av vatten blir sluttemperaturen medelvärdet.</p>\\[T=\\frac{90+10}{2}=50\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(50\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_vattenmangder",
     "formaga": [
@@ -104485,14 +104575,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "värmebalans mellan vattenmängder",
     "svarstyp": "numeriskt",
-    "rättSvar": 50,
-    "tolerans": 0.75,
+    "rättSvar": 50.0,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Värmebalans mellan vattenmängder"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.81",
@@ -104500,8 +104591,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En okänd massa vatten tillförs \\(90{,}0\\ \\mathrm{kJ}\\), vilket höjer temperaturen \\(30{,}0\\ \\mathrm K\\). Bestäm vattenmassan. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{c\\Delta T}=\\frac{90000}{4180\\cdot30{,}0}=0{,}7177\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}718\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>Vatten tar upp 90 kJ när temperaturen ökar med 30 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur stor massa har vattnet? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>90 kJ = 90 000 J.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{90000}{4180\\cdot30}\\approx0{,}7177\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}718\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "formaga": [
@@ -104514,20 +104605,21 @@ window.BANK = [
     "geogebra": false,
     "typ": "specifik värmekapacitet – annan obekant",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.718,
-    "tolerans": 0.01077,
+    "rättSvar": 0.7177033492822966,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kg"
+    "svarEnhet": "kg",
+    "arbetsinsats": 2
   },
   {
     "id": "7.58",
     "kap": 7,
     "omr": "varme",
-    "niva": "E",
-    "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}40\\ \\mathrm{kg}\\) vatten vid \\(15\\,{}^\\circ\\mathrm C\\) ska blandas med vatten vid \\(75\\,{}^\\circ\\mathrm C\\) så att sluttemperaturen blir \\(30\\,{}^\\circ\\mathrm C\\). Bortse från värmeförluster och kärlets värmekapacitet. Bestäm massan varmt vatten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m(75-30)=0{,}40(30-15)\\]\\[m=\\frac{0{,}40\\cdot15}{45}=0{,}1333\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}133\\ \\mathrm{kg}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>0,40 kg vatten vid 15 °C ska värmas till 30 °C genom att man häller i vatten vid 75 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Hur stor massa måste det varma vattnet ha? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det ämne vars massa är känd ändrar temperaturen med 15 K.</p>\\[Q=0{,}4\\cdot4180\\cdot15=25080\\,\\mathrm J\\]<p>Samma energi överförs till eller från ämnet med okänd massa. Dess temperatur ändras med 45 K.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{25080}{4180\\cdot45}\\approx0{,}1333\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}133\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_vattenmangder",
     "formaga": [
@@ -104541,14 +104633,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "värmebalans med okänd massa",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.133,
-    "tolerans": 0.001995,
+    "rättSvar": 0.13333333333333333,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Värmebalans mellan vattenmängder"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "6.145",
@@ -105507,7 +105600,7 @@ window.BANK = [
     "niva": "A",
     "typ": "resistansskalning när en tråd dras ut med konstant volym",
     "poang": "(0/1/2)",
-    "t": "<p>En homogen metalltråd dras ut så att dess längd blir dubbelt så stor, medan materialets volym är oförändrad. Anta oförändrad resistivitet. Med vilken faktor ändras trådens resistans?</p>",
+    "t": "<p>En metalltråd med samma tjocklek överallt dras ut så att dess längd blir dubbelt så stor, medan materialets volym är oförändrad. Materialets resistivitet ändras inte. Med vilken faktor ändras trådens resistans?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När längden dubblas vid konstant volym måste tvärsnittsarean halveras.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd sedan \\(R=\\rho L/A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{R_2}{R_1}=\\frac{(2L)/(A/2)}{L/A}=4\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resistansen blir \\(4\\) gånger så stor.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
@@ -109067,7 +109160,7 @@ window.BANK = [
     "niva": "E",
     "typ": "hjärtat pumpar blod",
     "poang": "(1/0/0)",
-    "t": "<p>I en modell av ett hjärtslag ökar farten hos 80 g blod från vila till 1,0 m/s på 0,17 s. Hur stor är den sammanlagda medelkraften i rörelseriktningen? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "t": "<p>Under ett hjärtslag ökar farten hos 80 g blod från vila till 1,0 m/s på 0,17 s. Hur stor är den sammanlagda medelkraften i rörelseriktningen? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 80 g = 0,080 kg. Kraften ska ge blodet rörelsemängden mv.</p>\\[F_\\text{medel}=\\frac{m\\Delta v}{\\Delta t}=\\frac{0{,}080\\cdot1{,}0}{0{,}17}\\approx0{,}471\\,\\mathrm{N}\\]<p><strong>Svar: 0,471 N.</strong></p></div>",
     "id": "5.378",
     "miniräknare": true,
@@ -110347,8 +110440,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En värmare med eleffekten \\(1800\\ \\mathrm W\\) värmer \\(1{,}5\\ \\mathrm{kg}\\) vatten \\(55\\ \\mathrm K\\). Verkningsgraden är 82 %. Bestäm uppvärmningstiden. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{mc\\Delta T}{\\eta P}=\\frac{1{,}5\\cdot4180\\cdot55}{0{,}82\\cdot1800}=233{,}6\\ \\mathrm s.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(234\\ \\mathrm s\\).</p></div>",
+    "t": "<p>En värmare överför effekten 1476 W till 1,5 kg vatten som värms 55 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet tar upp energin Q = mcΔT.</p>\\[Q=1{,}5\\cdot4180\\cdot55=344850\\,\\mathrm J\\]<p>Dela energin med effekten som överförs till vattnet.</p>\\[t=\\frac{Q}{P}=\\frac{344850}{1476}\\approx233{,}638\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(234\\,\\mathrm{s}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -110361,23 +110454,24 @@ window.BANK = [
     "geogebra": false,
     "typ": "uppvärmning med effekt och verkningsgrad",
     "svarstyp": "numeriskt",
-    "rättSvar": 234,
-    "tolerans": 3.51,
+    "rättSvar": 233.6382113821138,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "s",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.82",
     "kap": 7,
     "omr": "varme",
     "niva": "C",
-    "poang": "(0/3/0)",
-    "t": "<p>Två metallbitar har vardera massan \\(0{,}250\\ \\mathrm{kg}\\) och temperaturen \\(100\\,{}^\\circ\\mathrm C\\). Den ena är koppar med \\(c=385\\ \\mathrm{J/(kg\\,K)}\\), den andra aluminium med \\(c=900\\ \\mathrm{J/(kg\\,K)}\\). Varje bit läggs i ett eget kärl med \\(0{,}400\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\). Bortse från värmeförluster och kärlens värmekapacitet.</p><ol><li>Bestäm sluttemperaturen i försöket med koppar.</li><li>Bestäm sluttemperaturen i försöket med aluminium.</li><li>Hur mycket högre blir sluttemperaturen med aluminium än med koppar?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{\\mathrm{Cu}}=24{,}36\\,{}^\\circ\\mathrm C\\]\\[T_{\\mathrm{Al}}=29{,}49\\,{}^\\circ\\mathrm C\\]\\[\\Delta T=5{,}13\\,{}^\\circ\\mathrm C.\\]</div></div><div class=\"facit-stycke\"><p>Aluminium har högre specifik värmekapacitet och överför därför mer energi till vattnet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24{,}4\\,{}^\\circ\\mathrm C\\), \\(29{,}5\\,{}^\\circ\\mathrm C\\) och \\(5{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>I två försök läggs en metallbit på 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p><strong>a)</strong> Vilken sluttemperatur blir det med koppar? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong> Vilken sluttemperatur blir det med aluminium? Svara i °C. Avrunda till 1 decimal.</p><p><strong>c)</strong> Hur mycket högre blir sluttemperaturen i aluminiumförsöket? Svara i K. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Låt sluttemperaturen vara T. Kopparn har massan 0,25 kg, vattnet har massan 0,4 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}25\\cdot385(100-T)\\\\ &=0{,}4\\cdot4180(T-20)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1768{,}25T=43065\\]\\[T=\\frac{43065}{1768{,}25}\\approx24{,}355\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(24{,}4\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong> </p><p>Låt sluttemperaturen vara T. Aluminiumet har massan 0,25 kg, vattnet har massan 0,4 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}25\\cdot900(100-T)\\\\ &=0{,}4\\cdot4180(T-20)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1897T=55940\\]\\[T=\\frac{55940}{1897}\\approx29{,}489\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(29{,}5\\,{}^\\circ\\mathrm C\\).</p><p><strong>c)</strong> </p>\\[\\Delta T=29{,}489-24{,}355=5{,}134\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(5{,}1\\,\\mathrm{K}\\).</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "familjNyckel": "varme__varmebalans_mellan_olika_material",
     "formaga": [
@@ -110386,21 +110480,21 @@ window.BANK = [
       "begrepp"
     ],
     "ledtrad": "<p>Använd samma energibalans i båda försöken och jämför sedan resultaten.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "jämföra värmebalanser mellan material",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      24.4,
-      29.5,
-      5.1
+      24.354587869362366,
+      29.488666315234582,
+      5.134078445872216
     ],
     "tolerans": [
-      0.366,
-      0.4425,
-      0.0765
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -110411,7 +110505,7 @@ window.BANK = [
     "svarEnhet": [
       "°C",
       "°C",
-      "°C"
+      "K"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -110420,39 +110514,46 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två metallbitar har vardera massan \\(0{,}250\\ \\mathrm{kg}\\) och temperaturen \\(100\\,{}^\\circ\\mathrm C\\). Den ena är koppar med \\(c=385\\ \\mathrm{J/(kg\\,K)}\\), den andra aluminium med \\(c=900\\ \\mathrm{J/(kg\\,K)}\\). Varje bit läggs i ett eget kärl med \\(0{,}400\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\). Bortse från värmeförluster och kärlens värmekapacitet.</p>",
+    "spelIntro": "<p>I två försök läggs en metallbit på 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm sluttemperaturen i försöket med koppar.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}250\\cdot385(100-T)=0{,}400\\cdot4180(T-20)\\]\\[T=24{,}36\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24{,}4\\,{}^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Sätt kopparns energiavgivning lika med vattnets energiupptag.</p>",
+        "fraga": "Vilken sluttemperatur blir det med koppar? Svara i °C. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Kopparn har massan 0,25 kg, vattnet har massan 0,4 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}25\\cdot385(100-T)\\\\ &=0{,}4\\cdot4180(T-20)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1768{,}25T=43065\\]\\[T=\\frac{43065}{1768{,}25}\\approx24{,}355\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(24{,}4\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
-        "traningsniva": 4,
-        "poang": "1/0/0"
+        "traningsniva": 3,
+        "poang": "(0/1/0)",
+        "t": "<p>0,25 kg koppar vid 100 °C läggs i 0,40 kg vatten vid 20 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur blir det med koppar? Svara i °C. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm sluttemperaturen i försöket med aluminium.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}250\\cdot900(100-T)=0{,}400\\cdot4180(T-20)\\]\\[T=29{,}49\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Använd samma värmebalans men aluminiumets specifika värmekapacitet.</p>",
+        "fraga": "Vilken sluttemperatur blir det med aluminium? Svara i °C. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Aluminiumet har massan 0,25 kg, vattnet har massan 0,4 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}25\\cdot900(100-T)\\\\ &=0{,}4\\cdot4180(T-20)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1897T=55940\\]\\[T=\\frac{55940}{1897}\\approx29{,}489\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(29{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
-        "traningsniva": 4,
-        "poang": "1/0/0"
+        "traningsniva": 3,
+        "poang": "(0/1/0)",
+        "t": "<p>0,25 kg aluminium vid 100 °C läggs i 0,40 kg vatten vid 20 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur blir det med aluminium? Svara i °C. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket högre blir sluttemperaturen med aluminium än med koppar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=29{,}49-24{,}36=5{,}13\\,{}^\\circ\\mathrm C.\\]</div></div><div class=\"facit-stycke\"><p>Aluminiumbiten har större värmekapacitet och kan därför avge mer energi under samma temperaturminskning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Jämför de båda beräknade sluttemperaturerna.</p>",
-        "niva": "C",
-        "traningsniva": 4,
-        "poang": "1/0/0"
+        "fraga": "Hur mycket högre blir sluttemperaturen i aluminiumförsöket? Svara i K. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\Delta T=29{,}489-24{,}355=5{,}134\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(5{,}1\\,\\mathrm{K}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>I ett försök med koppar får vattnet sluttemperaturen 24,355 °C. I ett försök med aluminium blir sluttemperaturen 29,489 °C.</p><p>Hur mycket högre blir sluttemperaturen i aluminiumförsöket? Svara i K. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 1
       }
     ],
     "familjTidigare": [
       "Värmebalans mellan olika material"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.60",
@@ -110460,8 +110561,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(2{,}2\\ \\mathrm{kg}\\) vatten värms \\(70\\ \\mathrm K\\) på \\(390\\ \\mathrm s\\). Värmarens verkningsgrad är 75 %. Bestäm värmarens eleffekt. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{mc\\Delta T}{\\eta t}=\\frac{2{,}2\\cdot4180\\cdot70}{0{,}75\\cdot390}=2201\\ \\mathrm W.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(2200\\ \\mathrm W\\).</p></div>",
+    "t": "<p>2,2 kg vatten ska värmas 70 K på 390 s. 75 % av värmarens eleffekt går till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Vilken eleffekt behövs? Svara i W. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=2{,}2\\cdot4180\\cdot70=643720\\,\\mathrm J\\end{aligned}\\]\\[P_{\\mathrm{vatten}}=\\frac{643720}{390}\\approx1650{,}564\\,\\mathrm W\\]<p>Vattnet får 75 % av eleffekten. Därför måste eleffekten vara större.</p>\\[P_{\\mathrm{el}}=\\frac{P_{\\mathrm{vatten}}}{0{,}75}\\approx2200{,}75\\,\\mathrm W\\]<p><strong>Svar:</strong> \\(2201\\,\\mathrm{W}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -110474,14 +110575,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "uppvärmning med effekt och verkningsgrad",
     "svarstyp": "numeriskt",
-    "rättSvar": 2201,
-    "tolerans": 33.015,
+    "rättSvar": 2200.7521367521367,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.61",
@@ -110489,8 +110591,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En värmare med eleffekten \\(1200\\ \\mathrm W\\) och verkningsgraden 68 % värmer en okänd massa vatten \\(45\\ \\mathrm K\\) på \\(184\\ \\mathrm s\\). Bestäm vattenmassan. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{\\eta Pt}{c\\Delta T}=\\frac{0{,}68\\cdot1200\\cdot184}{4180\\cdot45}=0{,}798\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}80\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>En värmare har eleffekten 1200 W och är på i 184 s. 68 % av elenergin värmer vatten som då ökar 45 K i temperatur. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur stor massa vatten värms? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först energin som når vattnet.</p>\\[\\begin{aligned}&Q\\\\ &=0{,}68Pt\\\\ &=0{,}68\\cdot1200\\cdot184\\\\ &=150144\\,\\mathrm J\\end{aligned}\\]<p>Lös sedan ut massan ur Q = mcΔT.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{150144}{4180\\cdot45}\\approx0{,}7982\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}798\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -110503,14 +110605,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "uppvärmning med effekt och verkningsgrad",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.8,
-    "tolerans": 0.012,
+    "rättSvar": 0.7982137161084532,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.83",
@@ -110518,8 +110621,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En aluminiumdel med massan \\(0{,}90\\ \\mathrm{kg}\\) värms \\(60\\ \\mathrm K\\). Under processen går 20 % av den tillförda energin till omgivningen. Materialdata: \\(c=900\\ \\mathrm{J/(kg\\,K)}\\).</p><ol><li>Bestäm aluminiumdelens energiökning.</li><li>Bestäm den energi som måste tillföras.</li><li>Bestäm energin som går till omgivningen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{Al}}=48{,}6\\ \\mathrm{kJ}\\]\\[E_{\\mathrm{in}}=60{,}75\\ \\mathrm{kJ}\\]\\[E_{\\mathrm{förlust}}=12{,}15\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48{,}6\\ \\mathrm{kJ}\\), \\(60{,}75\\ \\mathrm{kJ}\\) och \\(12{,}15\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,90 kg aluminium värms 60 K. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Av den tillförda energin går 80 % till aluminiumet och 20 % till omgivningen.</p><p><strong>a)</strong> Hur mycket energi tar aluminiumet upp? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket energi tillförs? Svara i kJ. Avrunda till 2 decimaler.</p><p><strong>c)</strong> Hur mycket energi går till omgivningen? Svara i kJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p>\\[Q=0{,}90\\cdot900\\cdot60=48600\\,\\mathrm J\\]<p>48 600 J = 48,6 kJ.</p><p><strong>Svar:</strong> \\(48{,}6\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong> </p>\\[E=48{,}6/0{,}80=60{,}75\\,\\mathrm{kJ}\\]<p><strong>Svar:</strong> \\(60{,}75\\,\\mathrm{kJ}\\).</p><p><strong>c)</strong> </p>\\[E_{\\mathrm{omgivning}}=0{,}20\\cdot60{,}75=12{,}15\\,\\mathrm{kJ}\\]<p><strong>Svar:</strong> \\(12{,}15\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -110527,7 +110630,7 @@ window.BANK = [
       "begrepp"
     ],
     "ledtrad": "<p>Rita gärna en energikedja med tillförd energi, nyttig energi och förlust.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -110539,9 +110642,9 @@ window.BANK = [
       12.15
     ],
     "tolerans": [
-      0.729,
-      0.91125,
-      0.18225
+      0.05,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -110561,39 +110664,46 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En aluminiumdel med massan \\(0{,}90\\ \\mathrm{kg}\\) värms \\(60\\ \\mathrm K\\). Under processen går 20 % av den tillförda energin till omgivningen. Materialdata: \\(c=900\\ \\mathrm{J/(kg\\,K)}\\).</p>",
+    "spelIntro": "<p>0,90 kg aluminium värms 60 K. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Av den tillförda energin går 80 % till aluminiumet och 20 % till omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm aluminiumdelens energiökning.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}90\\cdot900\\cdot60=48600\\ \\mathrm J.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48{,}6\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Beräkna först den nyttiga energin med Q = mcΔT.</p>",
+        "fraga": "Hur mycket energi tar aluminiumet upp? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[Q=0{,}90\\cdot900\\cdot60=48600\\,\\mathrm J\\]<p>48 600 J = 48,6 kJ.</p><p><strong>Svar:</strong> \\(48{,}6\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "t": "<p>0,90 kg aluminium värms 60 K. Aluminiumets specifika värmekapacitet är 900 J/(kg·K).</p><p>Hur mycket energi tar aluminiumet upp? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den energi som måste tillföras.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{in}}=\\frac{48{,}6}{0{,}80}=60{,}75\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60{,}75\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Aluminiumet tar emot 80 % av den tillförda energin.</p>",
+        "fraga": "Hur mycket energi tillförs? Svara i kJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[E=48{,}6/0{,}80=60{,}75\\,\\mathrm{kJ}\\]<p><strong>Svar:</strong> \\(60{,}75\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Aluminium tar upp 48,6 kJ. Detta är 80 % av den tillförda energin.</p><p>Hur mycket energi tillförs? Svara i kJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm energin som går till omgivningen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{förlust}}=60{,}75-48{,}60=12{,}15\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}15\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Ta skillnaden mellan tillförd och nyttig energi.</p>",
+        "fraga": "Hur mycket energi går till omgivningen? Svara i kJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[E_{\\mathrm{omgivning}}=0{,}20\\cdot60{,}75=12{,}15\\,\\mathrm{kJ}\\]<p><strong>Svar:</strong> \\(12{,}15\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Totalt tillförs 60,75 kJ. Av denna energi går 20 % till omgivningen.</p><p>Hur mycket energi går till omgivningen? Svara i kJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.62",
@@ -110601,8 +110711,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En värmare med eleffekten \\(1500\\ \\mathrm W\\) höjer temperaturen hos \\(1{,}0\\ \\mathrm{kg}\\) vatten med \\(60\\ \\mathrm K\\) på \\(210\\ \\mathrm s\\). Bestäm verkningsgraden. Materialdata: \\(c=4180\\ \\mathrm{J/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{mc\\Delta T}{Pt}=\\frac{1{,}0\\cdot4180\\cdot60}{1500\\cdot210}=0{,}796.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(79{,}6\\,\\%\\).</p></div>",
+    "t": "<p>En vattenkokare har eleffekten 1500 W. På 210 s värmer den 1,0 kg vatten med 60 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur många procent av elenergin värmer vattnet? Svara i %. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[Q_{\\mathrm{vatten}}=1{,}0\\cdot4180\\cdot60=250800\\,\\mathrm J\\]\\[E_{\\mathrm{el}}=Pt=1500\\cdot210=315000\\,\\mathrm J\\]<p>Dividera nyttig energi med tillförd energi och multiplicera med 100 för att få procent.</p>\\[\\eta=\\frac{250800}{315000}\\cdot100\\approx79{,}619\\,\\%\\]<p><strong>Svar:</strong> \\(79{,}6\\,\\%\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -110615,14 +110725,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "bestämma verkningsgrad",
     "svarstyp": "numeriskt",
-    "rättSvar": 79.6,
-    "tolerans": 1.194,
+    "rättSvar": 79.61904761904762,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.63",
@@ -110630,8 +110741,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "A",
     "poang": "(0/2/2)",
-    "t": "<p>En elev undersöker en elektrisk värmare. \\(2{,}00\\ \\mathrm{kg}\\) vatten värms med en värmare märkt \\(2000\\ \\mathrm W\\). Vattnets specifika värmekapacitet är \\(4180\\ \\mathrm{J/(kg\\,K)}\\). Temperaturen mäts under försöket.</p><table class=\"data\"><tr><th>Tid (s)</th><th>Temperatur (°C)</th></tr><tr><td>0</td><td>20</td></tr><tr><td>60</td><td>33</td></tr><tr><td>120</td><td>45</td></tr><tr><td>180</td><td>56</td></tr></table><ol><li>Bestäm den genomsnittliga verkningsgraden under de första 180 sekunderna.</li><li>Temperaturen ökar 13 °C, 12 °C och 11 °C under de tre enminutsintervallen. Förklara varför ökningen kan minska trots konstant eleffekt.</li><li>Bedöm om en enda konstant verkningsgrad beskriver hela försöket väl.</li><li>Föreslå en ytterligare mätning som skulle göra det lättare att skilja värmarens egna förluster från värmeöverföringen från vattnet till omgivningen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Under 180 s ökar temperaturen från \\(20\\,{}^\\circ\\mathrm C\\) till \\(56\\,{}^\\circ\\mathrm C\\), alltså \\(36\\ \\mathrm K\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{vatten}}=2{,}00\\cdot4180\\cdot36=300960\\ \\mathrm J\\]\\[E_{\\mathrm{el}}=2000\\cdot180=360000\\ \\mathrm J\\]\\[\\eta_{\\mathrm{med}}=\\frac{300960}{360000}=0{,}836=83{,}6\\,\\%.\\]</div></div><div class=\"facit-stycke\"><p>När vattnet blir varmare ökar temperaturskillnaden mot rummet.</p></div><div class=\"facit-stycke\"><p>Då ökar normalt värmeförlusten från kärl och vatten, så en mindre andel av eleffekten höjer vattnets temperatur.</p></div><div class=\"facit-stycke\"><p>En enda konstant verkningsgrad ger ett användbart medelvärde men beskriver inte intervalldata särskilt väl, eftersom den momentana värmeförlusten ändras med temperaturen.</p></div><div class=\"facit-stycke\"><p>Man kan exempelvis stänga av värmaren vid flera temperaturer och mäta avsvalningshastigheten.</p></div><div class=\"facit-stycke\"><p>Det ger ett mått på värmeförlusten till omgivningen vid olika temperaturskillnader.</p></div><div class=\"facit-stycke\"><p>Även kärlets värmekapacitet bör bestämmas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> medelverkningsgraden är \\(83{,}6\\,\\%\\), men den konstanta modellen döljer en ökande värmeförlust.</p></div>",
+    "t": "<p>En elev undersöker en elektrisk värmare. \\(2{,}00\\ \\mathrm{kg}\\) vatten värms med en värmare märkt \\(2000\\ \\mathrm W\\). Vattnets specifika värmekapacitet är \\(4180\\ \\mathrm{J/(kg\\,K)}\\). Rummet håller 20 °C. Använd märkeffekten 2000 W i beräkningen. Temperaturen mäts under försöket.</p><table class=\"data\"><tr><th>Tid (s)</th><th>Temperatur (°C)</th></tr><tr><td>0</td><td>20</td></tr><tr><td>60</td><td>33</td></tr><tr><td>120</td><td>45</td></tr><tr><td>180</td><td>56</td></tr></table><p><strong>a)</strong> Bestäm den genomsnittliga verkningsgraden under de första 180 sekunderna.</p><p><strong>b)</strong> Temperaturen ökar 13 °C, 12 °C och 11 °C under de tre enminutsintervallen. Förklara varför ökningen kan minska trots konstant eleffekt.</p><p><strong>c)</strong> Bedöm om en enda konstant verkningsgrad beskriver hela försöket väl.</p><p><strong>d)</strong> Föreslå en ytterligare mätning som skulle göra det lättare att skilja värmarens egna förluster från värmeöverföringen från vattnet till omgivningen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Temperaturökningen är 56 − 20 = 36 K.</p>\\[Q_{\\mathrm{vatten}}=2{,}00\\cdot4180\\cdot36=300960\\,\\mathrm J\\]\\[E_{\\mathrm{el}}=Pt=2000\\cdot180=360000\\,\\mathrm J\\]\\[\\eta=\\frac{300960}{360000}\\cdot100=83{,}6\\,\\%\\]<p>Detta är en uppskattning utifrån värmarens märkning.</p><p><strong>b)</strong> När vattnet blir varmare ökar temperaturskillnaden mot rummet. Då kan mer värme gå till omgivningen, så mindre av eleffekten ökar vattnets temperatur.</p><p><strong>c)</strong> Medelvärdet beskriver hela periodens energiutbyte, men temperaturökningarna 13, 12 och 11 K tyder på att andelen som värmer vattnet minskar. För varje minut blir den uppskattade verkningsgraden 90,6 %, 83,6 % respektive 76,6 %. Mätosäkerhet måste också vägas in; värdena bevisar inte ensamma exakt hur förlusterna ändras.</p><p><strong>d)</strong> Stäng av värmaren och mät hur snabbt vattnet svalnar vid olika temperaturer. Då kan värmeförlusten till rummet uppskattas. Mät också den verkliga eleffekten och kärlets värmekapacitet för att kunna skilja förlusterna åt.</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "familjNyckel": "varme__verkningsgrad_vid_uppvarmning",
     "formaga": [
@@ -110659,8 +110770,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett metallblock tillförs \\(45{,}0\\ \\mathrm{kJ}\\). Temperaturen ökar \\(100\\ \\mathrm K\\). Bestäm blockets värmekapacitet \\(C\\), alltså hur mycket energi hela blocket behöver per kelvin.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Värmekapaciteten för hela föremålet är \\(C=Q/\\Delta T\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[C=\\frac{45000}{100}=450\\ \\mathrm{J/K}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\ \\mathrm{J/K}\\).</p></div>",
+    "t": "<p>Ett föremål tar upp 45 kJ och värms 100 K.</p><p>Bestäm föremålets värmekapacitet. Svara i J/K. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Värmekapaciteten anger hur mycket energi hela föremålet behöver för att värmas 1 K. Här är 45 kJ = 45 000 J.</p>\\[C=\\frac{Q}{\\Delta T}=\\frac{45000}{100}=450\\,\\mathrm{J/K}\\]<p><strong>Svar:</strong> \\(450\\,\\mathrm{J/K}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "familjNyckel": "varme__temperatur_och_termisk_energi",
     "formaga": [
@@ -110674,14 +110785,15 @@ window.BANK = [
     "geogebra": false,
     "typ": "temperatur och termisk energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 450,
-    "tolerans": 6.75,
+    "rättSvar": 450.0,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "J/K",
     "familjTidigare": [
       "Temperatur och termisk energi"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.121",
@@ -110689,8 +110801,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vatten värms från \\(18\\,{}^\\circ\\mathrm C\\) till \\(43\\,{}^\\circ\\mathrm C\\). Hur stor är temperaturökningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Temperaturökningen är \\(43-18=25\\ ^\\circ\\mathrm C\\).</p></div><div class=\"facit-stycke\"><p>En temperaturändring på \\(25\\ ^\\circ\\mathrm C\\) är också \\(25\\ \\mathrm K\\).</p></div></div></div>",
+    "t": "<p>Vatten värms från 18 °C till 43 °C.</p><p>Hur mycket ökar temperaturen? Svara i K. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>En temperaturökning på 1 °C är lika stor som 1 K.</p>\\[\\Delta T=43-18=25\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(25\\,\\mathrm{K}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "formaga": [
       "procedur"
@@ -110718,8 +110830,8 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En metallbit kyls från \\(75\\,{}^\\circ\\mathrm C\\) till \\(30\\,{}^\\circ\\mathrm C\\). Hur stor är temperaturminskningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Temperaturen minskar med \\(75-30=45\\ ^\\circ\\mathrm C\\), alltså \\(45\\ \\mathrm K\\).</p></div></div></div>",
+    "t": "<p>En metallbit svalnar från 75 °C till 30 °C.</p><p>Hur mycket minskar temperaturen? Svara i K. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>En temperaturminskning på 1 °C är lika stor som 1 K.</p>\\[\\Delta T=75-30=45\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(45\\,\\mathrm{K}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "formaga": [
       "procedur"
@@ -110747,15 +110859,15 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En värmare har effekten \\(500\\ \\mathrm W\\) och är på i \\(20\\ \\mathrm s\\). Hur mycket energi avger den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Energin är effekt gånger tid: \\(E=500\\cdot20=10\\,000\\ \\mathrm J=10\\ \\mathrm{kJ}\\).</p></div></div></div>",
+    "t": "<p>En värmare överför effekten 500 W till vatten i 20 s.</p><p>Hur mycket energi tar vattnet upp? Svara i J. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>500 W betyder 500 J varje sekund.</p>\\[Q=Pt=500\\cdot20=10000\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(10000\\,\\mathrm{J}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "varme__effekt_och_energi_vid_uppvarmning",
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
+    "rättSvar": 10000,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
@@ -110764,7 +110876,7 @@ window.BANK = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarEnhet": "kJ",
+    "svarEnhet": "J",
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Effekt och energi vid uppvärmning"
@@ -110776,22 +110888,22 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En värmare överför \\(36\\ \\mathrm{kJ}\\) på \\(60\\ \\mathrm s\\). Bestäm den genomsnittliga effekten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[36\\ \\mathrm{kJ}=36\\,000\\ \\mathrm J\\].</div></div><div class=\"facit-stycke\"><p>Effekten blir \\(P=E/t=36\\,000/60=600\\ \\mathrm W\\).</p></div></div></div>",
+    "t": "<p>En värmare överför 36 kJ till vatten på 60 s.</p><p>Vilken effekt överförs till vattnet? Svara i W. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>36 kJ = 36 000 J. Effekt är energi per sekund.</p>\\[P=\\frac{Q}{t}=\\frac{36000}{60}=600\\,\\mathrm W\\]<p><strong>Svar:</strong> \\(600\\,\\mathrm{W}\\).</p></div>",
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "varme__effekt_och_energi_vid_uppvarmning",
     "svarstyp": "numeriskt",
-    "rättSvar": 600,
+    "rättSvar": 600.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "W",
     "svarFormat": "numeriskt",
@@ -110805,26 +110917,43 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två lika stora massor av vatten och aluminium får samma mängd energi. Vatten har större specifik värmekapacitet. Vilket ämne får störst temperaturökning?</p><p>Svara <strong>1</strong> för vatten eller <strong>2</strong> för aluminium.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Aluminium får störst temperaturökning eftersom mindre energi krävs per kilogram och kelvin.</p></div></div></div>",
+    "t": "<p>Lika stora massor av vatten och aluminium tar upp lika mycket energi. Vatten har större specifik värmekapacitet än aluminium. Vilket ämne får störst temperaturökning?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Aluminium behöver mindre energi per kilogram för att värmas en grad. Därför ökar aluminiumets temperatur mer när samma massa får samma energi.</p><p><strong>Svar:</strong> Aluminium.</p></div>",
     "familj": "Specifik värmekapacitet",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "varme__specifik_varmekapacitet_begrepp",
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
     "ledtrad": "<p>Större specifik värmekapacitet betyder mindre temperaturändring för samma massa och energi.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "alternativ",
     "familjTidigare": [
       "Specifik värmekapacitet – begrepp"
+    ],
+    "alternativ": [
+      {
+        "txt": "Vatten",
+        "ratt": false,
+        "kommentar": "Jämför med förklaringen i facit."
+      },
+      {
+        "txt": "Aluminium",
+        "ratt": true,
+        "kommentar": "Detta stämmer."
+      },
+      {
+        "txt": "Båda får lika stor temperaturökning",
+        "ratt": false,
+        "kommentar": "Jämför med förklaringen i facit."
+      }
     ]
   },
   {
@@ -110833,26 +110962,43 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En varm metallbit läggs i kallt vatten i ett isolerat kärl. Efter en stund har båda samma temperatur. Vad kallas detta tillstånd?</p><p>Svara <strong>1</strong> för termisk jämvikt, <strong>2</strong> för kokpunkt eller <strong>3</strong> för smältpunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När kropparna har samma temperatur och inget nettovärmeflöde sker mellan dem råder termisk jämvikt.</p></div></div></div>",
+    "t": "<p>En varm metallbit ligger i kallt vatten. Efter en stund har metallen och vattnet samma temperatur. Vad kallas detta?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Termisk jämvikt innebär att ämnena har samma temperatur. Då överförs ingen värme mellan dem på grund av temperaturskillnad.</p><p><strong>Svar:</strong> Termisk jämvikt.</p></div>",
     "familj": "Värmebalans och termisk jämvikt",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "varme__termisk_jamvikt",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
     "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "alternativ",
     "familjTidigare": [
       "Termisk jämvikt"
+    ],
+    "alternativ": [
+      {
+        "txt": "Termisk jämvikt",
+        "ratt": true,
+        "kommentar": "Detta stämmer."
+      },
+      {
+        "txt": "Kokpunkt",
+        "ratt": false,
+        "kommentar": "Jämför med förklaringen i facit."
+      },
+      {
+        "txt": "Smältpunkt",
+        "ratt": false,
+        "kommentar": "Jämför med förklaringen i facit."
+      }
     ]
   },
   {
@@ -110861,22 +111007,22 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En metallbit med massan \\(0{,}50\\ \\mathrm{kg}\\) tar upp \\(10\\ \\mathrm{kJ}\\) när temperaturen ökar \\(40\\ \\mathrm K\\). Bestäm metallens specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[10\\ \\mathrm{kJ}=10\\,000\\ \\mathrm J\\].</div></div><div class=\"facit-stycke\"><p>Då blir \\(c=Q/(m\\Delta T)=10\\,000/(0{,}50\\cdot40)=500\\ \\mathrm{J/(kg\\,K)}\\).</p></div></div></div>",
+    "t": "<p>0,50 kg metall tar upp 10 kJ när temperaturen ökar med 40 K.</p><p>Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>10 kJ = 10 000 J.</p>\\[\\begin{aligned}&c=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{10000}{0{,}50\\cdot40}=500\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(500\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "familj": "Specifik värmekapacitet",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "varme__specifik_varmekapacitet_direkt_berakning",
     "svarstyp": "numeriskt",
-    "rättSvar": 500,
+    "rättSvar": 500.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "J/(kg·K)",
     "svarFormat": "numeriskt",
@@ -110890,26 +111036,43 @@ window.BANK = [
     "omr": "varme",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Solen värmer jorden genom tomrummet mellan solen och jorden. Vilken värmeöverföring dominerar?</p><p>Svara <strong>1</strong> för värmeledning, <strong>2</strong> för strålning eller <strong>3</strong> för konvektion.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Strålning kan överföra energi genom vakuum.</p></div><div class=\"facit-stycke\"><p>Rätt svar är 2.</p></div></div></div>",
+    "t": "<p>Solen värmer jorden genom tomrummet i rymden. Hur överförs energin?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Strålning kan överföra energi genom ett tomrum. Värmeledning och strömmande luft behöver materia.</p><p><strong>Svar:</strong> Genom strålning.</p></div>",
     "familj": "Värmeledning och strålning",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "varme__varmeoverforing",
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
     "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "alternativ",
     "familjTidigare": [
       "Värmeöverföring"
+    ],
+    "alternativ": [
+      {
+        "txt": "Genom värmeledning",
+        "ratt": false,
+        "kommentar": "Jämför med förklaringen i facit."
+      },
+      {
+        "txt": "Genom strålning",
+        "ratt": true,
+        "kommentar": "Detta stämmer."
+      },
+      {
+        "txt": "Genom strömmande luft",
+        "ratt": false,
+        "kommentar": "Jämför med förklaringen i facit."
+      }
     ]
   },
   {
@@ -110918,8 +111081,8 @@ window.BANK = [
     "niva": "E",
     "typ": "energi och temperaturändring för vatten",
     "poang": "(3/0/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><ol type=\"a\"><li>Hur mycket energi krävs för att värma 34,0 kg vatten från 15 °C till 95 °C?</li><li>Hur många kelvin stiger temperaturen i 3,0 kg vatten om det tillförs 8,2 kJ?</li><li>Ett kylsystem innehåller 18,0 liter vatten som värms från 15 °C till 95 °C. Hur mycket energi tas upp?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=34{,}0\\cdot4\\,180\\cdot80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{7}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{8\\,200}{3{,}0\\cdot4\\,180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}65\\) K</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=18{,}0\\cdot4\\,180\\cdot80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^{6}\\) J</p></li></ol></div>",
+    "t": "<p>Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att 1 liter vatten har massan 1 kg.</p><p><strong>a)</strong> 34,0 kg vatten värms från 15 °C till 95 °C.  Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.</p><p><strong>b)</strong> 3,0 kg vatten tar upp 8,2 kJ.  Hur mycket ökar temperaturen? Svara i K. Avrunda till 2 decimaler.</p><p><strong>c)</strong> 18,0 liter vatten värms från 15 °C till 95 °C. Räkna med att 1 liter vatten har massan 1 kg.  Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturökningen är 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=34\\cdot4180\\cdot80=11369600\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(11400000\\,\\mathrm{J}\\).</p><p><strong>b)</strong> </p><p>8,2 kJ = 8200 J.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{8200}{3{,}0\\cdot4180}\\approx0{,}6539\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(0{,}65\\,\\mathrm{K}\\).</p><p><strong>c)</strong> </p><p>Vattenmassan är 18,0 kg.</p><p>Temperaturökningen är 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=18\\cdot4180\\cdot80=6019200\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(6020000\\,\\mathrm{J}\\).</p></div>",
     "id": "7.137",
     "miniräknare": true,
     "geogebra": false,
@@ -110931,9 +111094,9 @@ window.BANK = [
       6019200
     ],
     "tolerans": [
-      510000.0,
-      0.00981,
-      90300.0
+      50000.0,
+      0.005,
+      5000.0
     ],
     "självrättning": true,
     "formaga": [
@@ -110956,40 +111119,40 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p>",
+    "spelIntro": "<p>Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att 1 liter vatten har massan 1 kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi krävs för att värma 34,0 kg vatten från 15 °C till 95 °C?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Hur mycket energi krävs för att värma 34,0 kg vatten från 15 °C till 95 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=34{,}0\\cdot4\\,180\\cdot80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{7}\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.",
+        "t": "<p>34,0 kg vatten värms från 15 °C till 95 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=34\\cdot4180\\cdot80=11369600\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(11400000\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur många kelvin stiger temperaturen i 3,0 kg vatten om det tillförs 8,2 kJ?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Hur många kelvin stiger temperaturen i 3,0 kg vatten om det tillförs 8,2 kJ?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{8\\,200}{3{,}0\\cdot4\\,180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}65\\) K</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket ökar temperaturen? Svara i K. Avrunda till 2 decimaler.",
+        "t": "<p>3,0 kg vatten tar upp 8,2 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket ökar temperaturen? Svara i K. Avrunda till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>8,2 kJ = 8200 J.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{8200}{3{,}0\\cdot4180}\\approx0{,}6539\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(0{,}65\\,\\mathrm{K}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket energi tar vattnet upp? Svara i J.",
-        "t": "<p>18,0 liter vatten värms från 15 °C till 95 °C. Räkna med att 1,0 liter vatten har massan 1,0 kg. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=18{,}0\\cdot4\\,180\\cdot80\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^{6}\\) J</p></div>",
-        "ledtrad": "<p>1 liter vatten har massan 1 kg.</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.",
+        "t": "<p>18,0 liter vatten värms från 15 °C till 95 °C. Räkna med att 1 liter vatten har massan 1 kg. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattenmassan är 18,0 kg.</p><p>Temperaturökningen är 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=18\\cdot4180\\cdot80=6019200\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(6020000\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -111004,8 +111167,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kopparcylinder värms och kyls",
     "poang": "(2/0/0)",
-    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p><ol type=\"a\"><li>tillför 1 200 J?</li><li>bortför 1 200 J?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta T=\\dfrac{1\\,200}{0{,}0500\\cdot385}=62{,}3\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(87{,}3\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(25{,}0-62{,}3\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-37{,}3\\) °C</p></li></ol></div>",
+    "t": "<p>50,0 g koppar har temperaturen 25,0 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p><p><strong>a)</strong> Vilken blir temperaturen när kopparn tar upp 1200 J? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong> Vilken blir temperaturen när kopparn avger 1200 J? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>50,0 g = 0,0500 kg. Beräkna temperaturändringens storlek.</p>\\[\\Delta T=\\frac{1200}{0{,}0500\\cdot385}\\approx62{,}338\\,\\mathrm K\\]<p>Temperaturen ökar när energi tillförs.</p>\\[T=25+62{,}33766\\approx87{,}338\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(87{,}3\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong> </p><p>50,0 g = 0,0500 kg. Beräkna temperaturändringens storlek.</p>\\[\\Delta T=\\frac{1200}{0{,}0500\\cdot385}\\approx62{,}338\\,\\mathrm K\\]<p>Temperaturen minskar när energi avges.</p>\\[T=25-62{,}33766\\approx-37{,}338\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(-37{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.138",
     "miniräknare": true,
     "geogebra": false,
@@ -111016,8 +111179,8 @@ window.BANK = [
       -37.33766233766234
     ],
     "tolerans": [
-      1.31,
-      0.56
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -111037,29 +111200,29 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p>",
+    "spelIntro": "<p>50,0 g koppar har temperaturen 25,0 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "tillför 1 200 J?",
-        "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p><p>tillför 1 200 J?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta T=\\dfrac{1\\,200}{0{,}0500\\cdot385}=62{,}3\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(87{,}3\\) °C</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Vilken blir temperaturen när kopparn tar upp 1200 J? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>50,0 g koppar har temperaturen 25,0 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p><p>Vilken blir temperaturen när kopparn tar upp 1200 J? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>50,0 g = 0,0500 kg. Beräkna temperaturändringens storlek.</p>\\[\\Delta T=\\frac{1200}{0{,}0500\\cdot385}\\approx62{,}338\\,\\mathrm K\\]<p>Temperaturen ökar när energi tillförs.</p>\\[T=25+62{,}33766\\approx87{,}338\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(87{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "bortför 1 200 J?",
-        "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (50,0 g) har temperaturen 25,0 °C. Vilken sluttemperatur får den om man</p><p>bortför 1 200 J?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(25{,}0-62{,}3\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-37{,}3\\) °C</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Vilken blir temperaturen när kopparn avger 1200 J? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>50,0 g koppar har temperaturen 25,0 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p><p>Vilken blir temperaturen när kopparn avger 1200 J? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>50,0 g = 0,0500 kg. Beräkna temperaturändringens storlek.</p>\\[\\Delta T=\\frac{1200}{0{,}0500\\cdot385}\\approx62{,}338\\,\\mathrm K\\]<p>Temperaturen minskar när energi avges.</p>\\[T=25-62{,}33766\\approx-37{,}338\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(-37{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -111074,22 +111237,22 @@ window.BANK = [
     "niva": "E",
     "typ": "specifik värmekapacitet ur mätning",
     "poang": "(3/0/0)",
-    "t": "<p>Bestäm den specifika värmekapaciteten.</p><ol type=\"a\"><li>En metallbit på 4,1 kg värms från 18,0 °C till 37,2 °C med 135 kJ.</li><li>En silverkub på 525 g värms 10 K av 1,23 kJ.</li><li>350 g bly värms från 0 °C till 20,0 °C med 880 J.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\dfrac{135\\cdot10^3}{4{,}1\\cdot19{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,715\\) J/(kg·K)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\dfrac{1\\,230}{0{,}525\\cdot10}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(234\\) J/(kg·K)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\dfrac{880}{0{,}350\\cdot20{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(126\\) J/(kg·K)</p></li></ol></div>",
+    "t": "<p>Bestäm den specifika värmekapaciteten i varje fall.</p><p><strong>a)</strong> 4,1 kg metall värms från 18,0 °C till 37,2 °C och tar upp 135 kJ. Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p><p><strong>b)</strong> 525 g silver värms 10 K och tar upp 1,23 kJ. Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p><p><strong>c)</strong> 350 g bly värms från 0 °C till 20,0 °C och tar upp 880 J. Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Använd massa i kg och energi i J: m = 4,1 kg, Q = 135000 J. Temperaturökningen är 19,2 K.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{135000}{4{,}1\\cdot19{,}2}\\\\ &\\approx1714{,}939\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1715\\,\\mathrm{J/(kg\\cdot K)}\\).</p><p><strong>b)</strong> </p><p>Använd massa i kg och energi i J: m = 0,525 kg, Q = 1230 J. Temperaturökningen är 10 K.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{1230}{0{,}525\\cdot10}\\\\ &\\approx234{,}286\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(234\\,\\mathrm{J/(kg\\cdot K)}\\).</p><p><strong>c)</strong> </p><p>Använd massa i kg och energi i J: m = 0,35 kg, Q = 880 J. Temperaturökningen är 20 K.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{880}{0{,}35\\cdot20}\\\\ &\\approx125{,}714\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(126\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.139",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1714.9390243902442,
+      1714.939024390244,
       234.28571428571428,
       125.71428571428571
     ],
     "tolerans": [
-      51.0,
-      5.1,
-      5.1
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -111112,40 +111275,40 @@ window.BANK = [
       "J/(kg·K)"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm den specifika värmekapaciteten.</p>",
+    "spelIntro": "<p>Bestäm den specifika värmekapaciteten i varje fall.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En metallbit på 4,1 kg värms från 18,0 °C till 37,2 °C med 135 kJ.",
-        "t": "<p>Bestäm den specifika värmekapaciteten.</p><p>En metallbit på 4,1 kg värms från 18,0 °C till 37,2 °C med 135 kJ.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\dfrac{135\\cdot10^3}{4{,}1\\cdot19{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,715\\) J/(kg·K)</p></div>",
-        "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
+        "fraga": "Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.",
+        "t": "<p>4,1 kg metall värms från 18,0 °C till 37,2 °C och tar upp 135 kJ.</p><p>Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd massa i kg och energi i J: m = 4,1 kg, Q = 135000 J. Temperaturökningen är 19,2 K.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{135000}{4{,}1\\cdot19{,}2}\\\\ &\\approx1714{,}939\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1715\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En silverkub på 525 g värms 10 K av 1,23 kJ.",
-        "t": "<p>Bestäm den specifika värmekapaciteten.</p><p>En silverkub på 525 g värms 10 K av 1,23 kJ.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\dfrac{1\\,230}{0{,}525\\cdot10}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(234\\) J/(kg·K)</p></div>",
-        "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
+        "fraga": "Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.",
+        "t": "<p>525 g silver värms 10 K och tar upp 1,23 kJ.</p><p>Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd massa i kg och energi i J: m = 0,525 kg, Q = 1230 J. Temperaturökningen är 10 K.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{1230}{0{,}525\\cdot10}\\\\ &\\approx234{,}286\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(234\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "350 g bly värms från 0 °C till 20,0 °C med 880 J.",
-        "t": "<p>Bestäm den specifika värmekapaciteten.</p><p>350 g bly värms från 0 °C till 20,0 °C med 880 J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c=\\dfrac{880}{0{,}350\\cdot20{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(126\\) J/(kg·K)</p></div>",
-        "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
+        "fraga": "Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.",
+        "t": "<p>350 g bly värms från 0 °C till 20,0 °C och tar upp 880 J.</p><p>Bestäm ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd massa i kg och energi i J: m = 0,35 kg, Q = 880 J. Temperaturökningen är 20 K.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{Q}{m\\Delta T}\\\\ &=\\frac{880}{0{,}35\\cdot20}\\\\ &\\approx125{,}714\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(126\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(c=\\dfrac{Q}{m\\Delta T}\\).</p>",
@@ -111160,8 +111323,8 @@ window.BANK = [
     "niva": "E",
     "typ": "is, kvicksilver och zink",
     "poang": "(3/0/0)",
-    "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><ol type=\"a\"><li>Hur mycket energi måste bortföras för att kyla 200 g is från 0 °C till −30 °C?</li><li>Hur mycket energi krävs för att värma 20 g kvicksilver från 20 °C till kokpunkten 357 °C?</li><li>En zinkkula tillförs 5,2 kJ och temperaturen stiger 45 K. Bestäm massan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}200\\cdot2\\,200\\cdot30\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,200\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}020\\cdot140\\cdot337\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(944\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{5\\,200}{390\\cdot45}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\) kg</p></li></ol></div>",
+    "t": "<p>Beräkna följande. Använd värdena som anges för varje ämne.</p><p><strong>a)</strong> 200 g is kyls från 0 °C till −30 °C. Isens specifika värmekapacitet är 2200 J/(kg·K). Hur mycket energi avger isen? Svara i J. Svara med ett heltal.</p><p><strong>b)</strong> 20 g flytande kvicksilver värms från 20 °C till 357 °C utan att förångas. Den specifika värmekapaciteten är 140 J/(kg·K). Hur mycket energi tar kvicksilvret upp? Svara i J. Svara med ett heltal.</p><p><strong>c)</strong> Zink tar upp 5,2 kJ och värms 45 K. Zinkens specifika värmekapacitet är 390 J/(kg·K). Hur stor massa har zinken? Svara i kg. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>200 g = 0,200 kg. Temperaturminskningen är 30 K.</p>\\[Q=0{,}200\\cdot2200\\cdot30=13200\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(13200\\,\\mathrm{J}\\).</p><p><strong>b)</strong> </p><p>20 g = 0,020 kg. Temperaturökningen är 357 − 20 = 337 K.</p>\\[Q=0{,}020\\cdot140\\cdot337=943{,}6\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(944\\,\\mathrm{J}\\).</p><p><strong>c)</strong> </p><p>5,2 kJ = 5200 J.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{5200}{390\\cdot45}\\approx0{,}2963\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}30\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.140",
     "miniräknare": true,
     "geogebra": false,
@@ -111173,9 +111336,9 @@ window.BANK = [
       0.2962962962962963
     ],
     "tolerans": [
-      510.0,
-      14.2,
-      0.0051
+      0,
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -111198,40 +111361,40 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p>",
+    "spelIntro": "<p>Beräkna följande. Använd värdena som anges för varje ämne.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi avger isen? Svara i J.",
-        "t": "<p>200 g is kyls från 0 °C till −30 °C. Isens specifika värmekapacitet är 2,2 kJ/(kg·K).</p><p>Hur mycket energi avger isen? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}200\\cdot2\\,200\\cdot30\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,200\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket energi avger isen? Svara i J. Svara med ett heltal.",
+        "t": "<p>200 g is kyls från 0 °C till −30 °C. Isens specifika värmekapacitet är 2200 J/(kg·K).</p><p>Hur mycket energi avger isen? Svara i J. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>200 g = 0,200 kg. Temperaturminskningen är 30 K.</p>\\[Q=0{,}200\\cdot2200\\cdot30=13200\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(13200\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi krävs för att värma 20 g kvicksilver från 20 °C till kokpunkten 357 °C?",
-        "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><p>Hur mycket energi krävs för att värma 20 g kvicksilver från 20 °C till kokpunkten 357 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}020\\cdot140\\cdot337\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(944\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket energi tar kvicksilvret upp? Svara i J. Svara med ett heltal.",
+        "t": "<p>20 g flytande kvicksilver värms från 20 °C till 357 °C utan att förångas. Den specifika värmekapaciteten är 140 J/(kg·K).</p><p>Hur mycket energi tar kvicksilvret upp? Svara i J. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 g = 0,020 kg. Temperaturökningen är 357 − 20 = 337 K.</p>\\[Q=0{,}020\\cdot140\\cdot337=943{,}6\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(944\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En zinkkula tillförs 5,2 kJ och temperaturen stiger 45 K. Bestäm massan.",
-        "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K), zink 0,39 kJ/(kg·K).</p><p>En zinkkula tillförs 5,2 kJ och temperaturen stiger 45 K. Bestäm massan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{5\\,200}{390\\cdot45}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\) kg</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur stor massa har zinken? Svara i kg. Avrunda till 2 decimaler.",
+        "t": "<p>Zink tar upp 5,2 kJ och värms 45 K. Zinkens specifika värmekapacitet är 390 J/(kg·K).</p><p>Hur stor massa har zinken? Svara i kg. Avrunda till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>5,2 kJ = 5200 J.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{5200}{390\\cdot45}\\approx0{,}2963\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}30\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -111246,15 +111409,15 @@ window.BANK = [
     "niva": "C",
     "typ": "koppar och vatten med samma temperaturökning",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>En kopparbit (massa \\(m\\)) och vatten (massa \\(M\\)) tillförs lika mycket energi och får lika stor temperaturökning. Bestäm \\(\\dfrac{M}{m}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mc_{Cu}\\Delta T=Mc_v\\Delta T\\iff\\dfrac Mm=\\dfrac{385}{4\\,180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}092\\) </p></div>",
+    "t": "<p>En kopparbit med massan m och vatten med massan M tar upp lika mycket energi och får lika stor temperaturökning. Specifik värmekapacitet: koppar 385 och vatten 4180 J/(kg·K).</p><p>Bestäm förhållandet M/m. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sätt energierna lika. Temperaturökningen är samma och kan förkortas bort.</p>\\[m\\cdot385\\cdot\\Delta T=M\\cdot4180\\cdot\\Delta T\\]\\[m\\cdot385=M\\cdot4180\\]\\[\\frac{M}{m}=\\frac{385}{4180}\\approx0{,}0921\\]<p><strong>Svar:</strong> \\(0{,}092\\).</p></div>",
     "id": "7.141",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 0.09210526315789473,
-    "tolerans": 0.00138,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -111265,23 +111428,24 @@ window.BANK = [
     "traningsniva": 3,
     "familjNyckel": "varme__specifik_varmekapacitet",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": ""
   },
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
+    "niva": "E",
     "typ": "badkar som svalnar",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett badkar med 0,20 m³ vatten svalnar från 35 °C till 22 °C på 35 minuter. Hur stor är den genomsnittliga värmeeffekten som avges?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=200\\cdot4\\,180\\cdot13\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{Q}{35\\cdot60}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,175\\) W</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett badkar innehåller 0,20 m³ vatten som svalnar från 35 °C till 22 °C på 35 minuter. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vattnets densitet är 1000 kg/m³.</p><p>Vilken medeleffekt avger vattnet? Svara i W. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattenmassan är 1000 · 0,20 = 200 kg. Temperaturen minskar 13 K och tiden är 35 · 60 = 2100 s.</p>\\[Q=200\\cdot4180\\cdot13=10868000\\,\\mathrm J\\]\\[P=\\frac{Q}{t}=\\frac{10868000}{2100}\\approx5175{,}24\\,\\mathrm W\\]<p><strong>Svar:</strong> \\(5175\\,\\mathrm{W}\\).</p></div>",
     "id": "7.142",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 5175.238095238095,
-    "tolerans": 77.6,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111298,18 +111462,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
+    "niva": "E",
     "typ": "läskburk i snön",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: aluminium 0,90 kJ/(kg·K).</p><p>En tom aluminiumburk (6,2 g) ligger i snön och har till slut temperaturen −12 °C. Den har då avgett 0,15 kJ. Vilken temperatur hade den från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta T=\\dfrac{150}{0{,}0062\\cdot900}=26{,}9\\) K.</p></div><div class=\"facit-stycke\"><p>Starttemperatur: \\(-12+26{,}9\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) °C</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En aluminiumburk har massan 6,2 g. Den avger 0,15 kJ när den svalnar till −12 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K).</p><p>Vilken temperatur hade burken från början? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>6,2 g = 0,0062 kg och 0,15 kJ = 150 J.</p>\\[\\Delta T=\\frac{150}{0{,}0062\\cdot900}\\approx26{,}882\\,\\mathrm K\\]<p>Starttemperaturen var denna temperaturminskning högre än sluttemperaturen.</p>\\[T_{\\mathrm{start}}=-12+26{,}88172\\approx14{,}882\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(14{,}9\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.143",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 14.881720430107528,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111317,7 +111481,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "svarEnhet": "°C",
     "familjNyckel": "varme__specifik_varmekapacitet",
     "arbetsinsats": 2,
@@ -111329,8 +111493,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kvicksilver jämfört med vatten",
     "poang": "(2/0/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p><ol type=\"a\"><li>Hur många kelvin stiger temperaturen hos 20 g kvicksilver om det tillförs 100 J?</li><li>Hur mycket energi krävs för samma temperaturökning hos 20 g vatten?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{100}{0{,}020\\cdot140}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\) K</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}020\\cdot4\\,180\\cdot35{,}7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,986\\) J</p></li></ol></div>",
+    "t": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p><strong>a)</strong> Hur mycket ökar temperaturen? Svara i K. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket energi tar 20 g vatten upp för att få samma temperaturökning som kvicksilvret? Svara i J. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>20 g = 0,020 kg.</p>\\[\\Delta T=\\frac{100}{0{,}020\\cdot140}\\approx35{,}714\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(35{,}7\\,\\mathrm{K}\\).</p><p><strong>b)</strong> </p><p>20 g = 0,020 kg.</p>\\[\\begin{aligned}&Q\\\\ &=0{,}020\\cdot4180\\cdot35{,}7143\\approx2985{,}72\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(2986\\,\\mathrm{J}\\).</p></div>",
     "id": "7.144",
     "miniräknare": true,
     "geogebra": false,
@@ -111341,8 +111505,8 @@ window.BANK = [
       2985.7142857142853
     ],
     "tolerans": [
-      0.536,
-      51.0
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -111363,29 +111527,29 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p>",
+    "spelIntro": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket stiger temperaturen? Svara i K.",
-        "t": "<p>20 g kvicksilver tar emot energin 100 J. Kvicksilvrets specifika värmekapacitet är 0,14 kJ/(kg·K).</p><p>Hur mycket stiger temperaturen? Svara i K.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{100}{0{,}020\\cdot140}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\) K</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket ökar temperaturen? Svara i K. Avrunda till 1 decimal.",
+        "t": "<p>20 g kvicksilver tar upp 100 J. Kvicksilvrets specifika värmekapacitet är 140 J/(kg·K).</p><p>Hur mycket ökar temperaturen? Svara i K. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 g = 0,020 kg.</p>\\[\\Delta T=\\frac{100}{0{,}020\\cdot140}\\approx35{,}714\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(35{,}7\\,\\mathrm{K}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi krävs för samma temperaturökning hos 20 g vatten?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), kvicksilver 0,14 kJ/(kg·K).</p>Temperaturen stiger 35,7 K.<p>Hur mycket energi krävs för samma temperaturökning hos 20 g vatten?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}020\\cdot4\\,180\\cdot35{,}7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,986\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i J. Svara med ett heltal.",
+        "t": "<p>20 g vatten värms 35,7143 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i J. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 g = 0,020 kg.</p>\\[\\begin{aligned}&Q\\\\ &=0{,}020\\cdot4180\\cdot35{,}7143\\approx2985{,}72\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(2986\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -111397,18 +111561,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
+    "niva": "E",
     "typ": "varmvattenberedare med genomflöde",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare (8,8 kW) värmer vatten från 12 °C till 42 °C när det passerar. Hur många kilogram vatten kan den värma per timme?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{8\\,800\\cdot3\\,600}{4\\,180\\cdot30}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(253\\) kg</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En värmare överför 8,8 kW till vatten som värms från 12 °C till 42 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur många kilogram vatten kan värmas på en timme? Svara i kg. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>8,8 kW = 8800 W och en timme = 3600 s. Temperaturökningen är 30 K.</p>\\[Q=Pt=8800\\cdot3600=31680000\\,\\mathrm J\\]\\[m=\\frac{Q}{c\\Delta T}=\\frac{31680000}{4180\\cdot30}\\approx252{,}63\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(253\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.145",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 252.6315789473684,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111428,15 +111592,15 @@ window.BANK = [
     "niva": "C",
     "typ": "vattenfall värmer vattnet",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett vattenfall har fallhöjden 95 m. Hur många kelvin stiger vattnets temperatur om all lägesenergi blir värme i vattnet? Använd \\(g=9{,}82\\) m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mgh=mc\\Delta T\\iff\\Delta T=\\dfrac{9{,}82\\cdot95}{4\\,180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}22\\) K</p></div>",
+    "t": "<p>Vatten faller 95 m. Räkna med att all förlorad lägesenergi värmer vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Använd g = 9,82 m/s².</p><p>Hur mycket ökar vattnets temperatur? Svara i K. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Förlorad lägesenergi mgh blir värmeenergi mcΔT. Massan är densamma och tar ut sig.</p>\\[mgh=mc\\Delta T\\]\\[\\Delta T=\\frac{gh}{c}=\\frac{9{,}82\\cdot95}{4180}\\approx0{,}2232\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(0{,}22\\,\\mathrm{K}\\).</p></div>",
     "id": "7.146",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 0.22318181818181818,
-    "tolerans": 0.0051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -111455,15 +111619,15 @@ window.BANK = [
     "niva": "C",
     "typ": "kol för att koka vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En järnkastrull (350 g) med 6,5 liter vatten har temperaturen 8,0 °C. Hur mycket kol (30 MJ/kg) måste minst förbrännas för att vattnet ska börja koka?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}350\\cdot450+6{,}5\\cdot4\\,180)\\cdot92\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q}{30\\cdot10^6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}084\\) kg</p></div>",
+    "t": "<p>En järnkastrull har massan 0,350 kg och innehåller 6,5 kg vatten. Båda ska värmas från 8 °C till 100 °C. Specifik värmekapacitet: järn 450 och vatten 4180 J/(kg·K). Kol avger 30 MJ per kg när det brinner. Räkna med att all energi från kolet värmer kastrullen och vattnet.</p><p>Hur stor massa kol behövs? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Båda värms 92 K. Beräkna energin för kastrullen och vattnet var för sig.</p>\\[Q_{\\mathrm{jarn}}=0{,}350\\cdot450\\cdot92=14490\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=6{,}5\\cdot4180\\cdot92=2499640\\,\\mathrm J\\]<p>Totalt behövs 2 514 130 J. Ett kg kol avger 30 000 000 J.</p>\\[m=\\frac{2514130}{30000000}\\approx0{,}0838\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}084\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.147",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 0.08380433333333333,
-    "tolerans": 0.00126,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111483,8 +111647,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kastrull och vatten",
     "poang": "(2/0/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p><ol type=\"a\"><li>Hur mycket energi går åt?</li><li>Hur många procent av energin gick till vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}50\\cdot900+0{,}25\\cdot4\\,180)\\cdot60\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(89\\,700\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{0{,}25\\cdot4\\,180\\cdot60}{89\\,700}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) %</p></li></ol></div>",
+    "t": "<p>En kastrull av 0,50 kg aluminium innehåller 0,25 kg vatten. Båda värms från 20 °C till 80 °C. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K).</p><p><strong>a)</strong> Hur mycket energi tar kastrullen och vattnet upp tillsammans? Svara i J. Svara med ett heltal.</p><p><strong>b)</strong> Hur många procent av energin går till vattnet? Svara i %. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturökningen är 60 K för båda.</p>\\[Q_{\\mathrm{Al}}=0{,}50\\cdot900\\cdot60=27000\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=0{,}25\\cdot4180\\cdot60=62700\\,\\mathrm J\\]\\[Q_{\\mathrm{totalt}}=27000+62700=89700\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(89700\\,\\mathrm{J}\\).</p><p><strong>b)</strong> </p><p>Totala energin är 62 700 + 27 000 = 89 700 J.</p>\\[\\begin{aligned}&\\text{andel vatten}\\\\ &=\\frac{62700}{89700}\\cdot100\\approx69{,}90\\,\\%\\end{aligned}\\]<p><strong>Svar:</strong> \\(70\\,\\%\\).</p></div>",
     "id": "7.148",
     "miniräknare": true,
     "geogebra": false,
@@ -111495,8 +111659,8 @@ window.BANK = [
       69.89966555183946
     ],
     "tolerans": [
-      1350.0,
-      1.05
+      0,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -111516,29 +111680,29 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p>",
+    "spelIntro": "<p>En kastrull av 0,50 kg aluminium innehåller 0,25 kg vatten. Båda värms från 20 °C till 80 °C. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi går åt?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p><p>Hur mycket energi går åt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}50\\cdot900+0{,}25\\cdot4\\,180)\\cdot60\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(89\\,700\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket energi tar kastrullen och vattnet upp tillsammans? Svara i J. Svara med ett heltal.",
+        "t": "<p>En kastrull av 0,50 kg aluminium innehåller 0,25 kg vatten. Båda värms från 20 °C till 80 °C. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K).</p><p>Hur mycket energi tar kastrullen och vattnet upp tillsammans? Svara i J. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 60 K för båda.</p>\\[Q_{\\mathrm{Al}}=0{,}50\\cdot900\\cdot60=27000\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=0{,}25\\cdot4180\\cdot60=62700\\,\\mathrm J\\]\\[Q_{\\mathrm{totalt}}=27000+62700=89700\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(89700\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur många procent av energin gick till vattnet?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (0,50 kg) innehåller 0,25 liter vatten. Båda värms från 20 °C till 80 °C.</p>Totalt går det åt 89,7 kJ.<p>Hur många procent av energin gick till vattnet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{0{,}25\\cdot4\\,180\\cdot60}{89\\,700}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) %</p></div>",
-        "ledtrad": "<p>Vattnets del av energin.</p>",
+        "fraga": "Hur många procent av energin går till vattnet? Svara i %. Svara med ett heltal.",
+        "t": "<p>Vid en uppvärmning tar vattnet upp 62 700 J och kastrullen 27 000 J.</p><p>Hur många procent av energin går till vattnet? Svara i %. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Totala energin är 62 700 + 27 000 = 89 700 J.</p>\\[\\begin{aligned}&\\text{andel vatten}\\\\ &=\\frac{62700}{89700}\\cdot100\\approx69{,}90\\,\\%\\end{aligned}\\]<p><strong>Svar:</strong> \\(70\\,\\%\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -111550,18 +111714,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
+    "niva": "E",
     "typ": "kroppen svalnar",
-    "poang": "(0/1/0)",
-    "t": "<p>En kropp (65 kg, specifik värmekapacitet 3,5 kJ/(kg·K)) avger värmeeffekten 200 W. Hur många minuter tar det innan temperaturen sjunkit från 37,2 °C till 35,6 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=65\\cdot3\\,500\\cdot1{,}6\\],</div></div><div class=\"facit-stycke\"><p>\\(t=\\dfrac{Q}{200}\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\) min</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>I en förenklad modell avger en kropp på 65 kg effekten 200 W och bildar ingen ny värme. Den specifika värmekapaciteten är 3500 J/(kg·K). Temperaturen sjunker från 37,2 °C till 35,6 °C.</p><p>Hur lång tid tar temperatursänkningen enligt modellen? Svara i min. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen minskar med 1,6 K.</p>\\[Q=65\\cdot3500\\cdot1{,}6=364000\\,\\mathrm J\\]\\[t=\\frac{Q}{P}=\\frac{364000}{200}=1820\\,\\mathrm s\\]<p>Dela antalet sekunder med 60 för att få minuter.</p>\\[t=1820/60\\approx30{,}333\\,\\mathrm{min}\\]<p><strong>Svar:</strong> \\(30{,}3\\,\\mathrm{min}\\).</p></div>",
     "id": "7.149",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
-    "rättSvar": 30.333333333333332,
-    "tolerans": 0.51,
+    "rättSvar": 30.333333333333364,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111581,8 +111745,8 @@ window.BANK = [
     "niva": "E",
     "typ": "varmvattenberedare fylls på",
     "poang": "(2/0/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p><ol type=\"a\"><li>Hur mycket energi krävs för att värma vattnet till 45 °C?</li><li>Hur många minuter tar det med effekten 9,5 kW?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=245\\cdot4\\,180\\cdot35\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\cdot10^{7}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{35{,}8\\cdot10^6}{9\\,500}\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\) min</p></li></ol></div>",
+    "t": "<p>245 liter vatten värms från 10 °C till 45 °C. Värmaren överför effekten 9,5 kW till vattnet. Räkna med att 1 liter vatten har massan 1 kg. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p><strong>a)</strong> Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.</p><p><strong>b)</strong> Hur lång tid tar uppvärmningen? Svara i min. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Massan är 245 kg och temperaturökningen 35 K.</p>\\[Q=245\\cdot4180\\cdot35=35843500\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(35800000\\,\\mathrm{J}\\).</p><p><strong>b)</strong> </p><p>9,5 kW = 9500 W.</p>\\[t=\\frac{35843500}{9500}\\approx3773\\,\\mathrm s\\]<p>Dela med 60 för att få minuter.</p>\\[t=\\frac{35843500}{9500\\cdot60}\\approx62{,}883\\,\\mathrm{min}\\]<p><strong>Svar:</strong> \\(62{,}9\\,\\mathrm{min}\\).</p></div>",
     "id": "7.150",
     "miniräknare": true,
     "geogebra": false,
@@ -111593,8 +111757,8 @@ window.BANK = [
       62.88333333333333
     ],
     "tolerans": [
-      538000.0,
-      0.943
+      50000.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -111614,29 +111778,29 @@ window.BANK = [
       "min"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p>",
+    "spelIntro": "<p>245 liter vatten värms från 10 °C till 45 °C. Värmaren överför effekten 9,5 kW till vattnet. Räkna med att 1 liter vatten har massan 1 kg. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi krävs för att värma vattnet till 45 °C?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p><p>Hur mycket energi krävs för att värma vattnet till 45 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=245\\cdot4\\,180\\cdot35\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\cdot10^{7}\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.",
+        "t": "<p>245 liter vatten värms från 10 °C till 45 °C. Räkna med att 1 liter vatten har massan 1 kg. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp? Svara i J. Avrunda till 3 värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 245 kg och temperaturökningen 35 K.</p>\\[Q=245\\cdot4180\\cdot35=35843500\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(35800000\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur många minuter tar det med effekten 9,5 kW?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare rymmer 245 liter vatten med temperaturen 10,0 °C.</p>Det krävs 35,8 MJ.<p>Hur många minuter tar det med effekten 9,5 kW?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{35{,}8\\cdot10^6}{9\\,500}\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\) min</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac{Q}{P}\\).</p>",
+        "fraga": "Hur lång tid tar uppvärmningen? Svara i min. Avrunda till 1 decimal.",
+        "t": "<p>En värmare överför 9,5 kW till vatten som ska ta upp 35 843 500 J.</p><p>Hur lång tid tar uppvärmningen? Svara i min. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>9,5 kW = 9500 W.</p>\\[t=\\frac{35843500}{9500}\\approx3773\\,\\mathrm s\\]<p>Dela med 60 för att få minuter.</p>\\[t=\\frac{35843500}{9500\\cdot60}\\approx62{,}883\\,\\mathrm{min}\\]<p><strong>Svar:</strong> \\(62{,}9\\,\\mathrm{min}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -111651,15 +111815,15 @@ window.BANK = [
     "niva": "C",
     "typ": "kopparföremål värms av friktion",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>Ett kopparföremål (2,4 kg) glider 29 m på ett vågrätt underlag med friktionstalet 0,25 och stannar. 30 % av friktionsvärmen värmer föremålet. Hur många kelvin stiger temperaturen? Använd \\(g=9{,}82\\) m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}30\\cdot0{,}25\\cdot2{,}4\\cdot9{,}82\\cdot29\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{Q}{2{,}4\\cdot385}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}055\\) K</p></div>",
+    "t": "<p>Ett kopparföremål på 2,4 kg glider 29 m på ett vågrätt underlag. Friktionstalet är 0,25. Av arbetet mot friktionen blir 30 % värme i kopparn. Kopparns specifika värmekapacitet är 385 J/(kg·K). Använd g = 9,82 m/s².</p><p>Hur mycket ökar kopparns temperatur? Svara i K. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&F_f=\\mu mg\\\\ &=0{,}25\\cdot2{,}4\\cdot9{,}82=5{,}892\\,\\mathrm N\\end{aligned}\\]\\[W=F_fs=5{,}892\\cdot29=170{,}868\\,\\mathrm J\\]<p>Kopparn tar upp 30 % av denna energi.</p>\\[Q=0{,}30\\cdot170{,}868=51{,}2604\\,\\mathrm J\\]\\[\\Delta T=\\frac{51{,}2604}{2{,}4\\cdot385}\\approx0{,}0555\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(0{,}055\\,\\mathrm{K}\\).</p></div>",
     "id": "7.151",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05547662337662338,
-    "tolerans": 0.000832,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -111676,18 +111840,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
+    "niva": "E",
     "typ": "kostnad för en dusch",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Håkan duschar 8,0 minuter. Duschen ger 12 liter vatten per minut, och vattnet värms från 10 °C till 40 °C. Vad kostar duschen om 1 kWh kostar 0,86 kr?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(Q=96\\cdot4\\,180\\cdot30\\) J \\(=3{,}34\\) kWh.</p></div><div class=\"facit-stycke\"><p>Pris: \\(3{,}34\\cdot0{,}86\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) kr</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En dusch ger 12 liter vatten per minut i 8 minuter. Vattnet värms från 10 °C till 40 °C. Elpriset är 0,86 kr/kWh. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att 1 liter vatten har massan 1 kg. Räkna med att all elenergi värmer vattnet.</p><p>Vad kostar elen för duschen? Svara i kr. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 12 · 8 = 96 kg och temperaturökningen 30 K.</p>\\[Q=96\\cdot4180\\cdot30=12038400\\,\\mathrm J\\]\\[E=12038400/3600000=3{,}344\\,\\mathrm{kWh}\\]\\[\\text{kostnad}=3{,}344\\cdot0{,}86=2{,}87584\\,\\mathrm{kr}\\]<p><strong>Svar:</strong> \\(2{,}88\\,\\mathrm{kr}\\).</p></div>",
     "id": "7.152",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 2.8758399999999997,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -111707,15 +111871,15 @@ window.BANK = [
     "niva": "C",
     "typ": "rymdkapsel bromsas i atmosfären",
     "poang": "(0/1/0)",
-    "t": "<p>En rymdkapsel (1,8 ton, specifik värmekapacitet 0,40 kJ/(kg·K)) bromsas från 400 m/s till 50,0 m/s. Hur många kelvin stiger temperaturen om all förlorad rörelseenergi värmer kapseln?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{400^2-50{,}0^2}{2\\cdot400}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(197\\) K</p></div>",
+    "t": "<p>En rymdkapsel bromsas från 400 m/s till 50 m/s. Kapselns specifika värmekapacitet är 400 J/(kg·K). Räkna med att all förlorad rörelseenergi värmer kapseln.</p><p>Hur mycket ökar kapselns temperatur? Svara i K. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sätt minskningen i rörelseenergi lika med värmeenergin. Massan m är samma i båda uttrycken och tar ut sig.</p>\\[\\frac{m(v_1^2-v_2^2)}{2}=mc\\Delta T\\]\\[\\begin{aligned}&\\Delta T\\\\ &=\\frac{v_1^2-v_2^2}{2c}\\\\ &=\\frac{400^2-50^2}{2\\cdot400}=196{,}875\\,\\mathrm K\\end{aligned}\\]<p><strong>Svar:</strong> \\(197\\,\\mathrm{K}\\).</p></div>",
     "id": "7.153",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 196.875,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -111731,18 +111895,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
+    "niva": "E",
     "typ": "doppvärmare i vatten",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En doppvärmare (250 W) värmer 5,0 dl vatten i 3,0 minuter. Hur många kelvin stiger temperaturen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=250\\cdot180\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{Q}{0{,}50\\cdot4\\,180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) K</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En doppvärmare överför 250 W till 0,50 kg vatten i 3 minuter. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket ökar vattnets temperatur? Svara i K. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>3 minuter = 180 s.</p>\\[Q=Pt=250\\cdot180=45000\\,\\mathrm J\\]\\[\\Delta T=\\frac{Q}{mc}=\\frac{45000}{0{,}50\\cdot4180}\\approx21{,}531\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(21{,}5\\,\\mathrm{K}\\).</p></div>",
     "id": "7.154",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 21.5311004784689,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111750,7 +111914,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(Q=Pt\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "svarEnhet": "K",
     "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
     "arbetsinsats": 2,
@@ -111762,15 +111926,15 @@ window.BANK = [
     "niva": "C",
     "typ": "värmespiral i aluminiumkärl",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En värmespiral (4,5 W) värmer ett aluminiumkärl (52,0 g) med 20,0 g vatten i 15 minuter. Hur många kelvin stiger temperaturen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{4{,}5\\cdot900}{0{,}0520\\cdot900+0{,}0200\\cdot4\\,180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(31\\) K</p></div>",
+    "t": "<p>En värmare överför effekten 4,5 W till ett aluminiumkärl på 52 g och 20 g vatten i 15 minuter. Kärlet och vattnet har hela tiden samma temperatur. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K).</p><p>Hur mycket ökar temperaturen? Svara i K. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna är 0,052 kg och 0,020 kg. Tiden är 900 s.</p>\\[Q=Pt=4{,}5\\cdot900=4050\\,\\mathrm J\\]<p>Kärlet och vattnet värms tillsammans. Energin för en grads ökning är summan av deras värmekapaciteter.</p>\\[\\begin{aligned}&C\\\\ &=0{,}052\\cdot900+0{,}020\\cdot4180\\\\ &=130{,}4\\,\\mathrm{J/K}\\end{aligned}\\]\\[\\Delta T=4050/130{,}4\\approx31{,}058\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(31{,}1\\,\\mathrm{K}\\).</p></div>",
     "id": "7.155",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 31.058282208588956,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111790,15 +111954,15 @@ window.BANK = [
     "niva": "C",
     "typ": "minsta effekt för att koka vatten i mugg",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En mugg (0,35 kg, 0,90 kJ/(kg·K)) med 2,5 dl vatten har temperaturen 15 °C. En värmespiral värmer muggen och vattnet till 100 °C på 3,0 minuter. Vilken är den minsta effekt spiralen kan ha?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}35\\cdot900+0{,}25\\cdot4\\,180)\\cdot85\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{Q}{180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(642\\) W</p></div>",
+    "t": "<p>En mugg på 0,35 kg innehåller 0,25 kg vatten. Båda värms från 15 °C till 100 °C på 3 minuter. Muggens specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Vilken är den minsta effekt som behövs? Svara i W. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Minsta effekten fås om all energi värmer muggen och vattnet. Temperaturökningen är 85 K och tiden 180 s.</p>\\[Q_{\\mathrm{mugg}}=0{,}35\\cdot900\\cdot85=26775\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=0{,}25\\cdot4180\\cdot85=88825\\,\\mathrm J\\]\\[P=\\frac{26775+88825}{180}\\approx642{,}22\\,\\mathrm W\\]<p><strong>Svar:</strong> \\(642\\,\\mathrm{W}\\).</p></div>",
     "id": "7.156",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 642.2222222222222,
-    "tolerans": 9.63,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111815,18 +111979,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
+    "niva": "C",
     "typ": "spik dras ur planka",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K).</p><p>En järnspik (25 g, 12 cm lång) dras upp ur en planka med medelkraften 45 N. Hur många kelvin kan spikens temperatur som mest stiga? Ta hänsyn till att spiken också får lägesenergi. Använd \\(g=9{,}82\\) m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=45\\cdot0{,}12=5{,}4\\) J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_p=0{,}025\\cdot9{,}82\\cdot0{,}12\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{W-E_p}{0{,}025\\cdot450}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}48\\) K</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En järnspik på 25 g dras rakt upp 12 cm med medelkraften 45 N. Spiken börjar och slutar i vila. Järnets specifika värmekapacitet är 450 J/(kg·K). Använd g = 9,82 m/s².</p><p>Hur mycket kan spikens temperatur som mest öka? Ta hänsyn till ökningen av lägesenergin. Svara i K. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,025 kg och sträckan 0,12 m. Kraften utför arbetet</p>\\[W=Fs=45\\cdot0{,}12=5{,}4\\,\\mathrm J\\]<p>En del av arbetet ökar spikens lägesenergi.</p>\\[\\begin{aligned}&\\Delta E_p\\\\ &=mgh\\\\ &=0{,}025\\cdot9{,}82\\cdot0{,}12\\\\ &=0{,}02946\\,\\mathrm J\\end{aligned}\\]<p>Som mest blir hela resten värme i spiken.</p>\\[Q_{\\mathrm{max}}=5{,}4-0{,}02946=5{,}37054\\,\\mathrm J\\]\\[\\Delta T_{\\mathrm{max}}=\\frac{5{,}37054}{0{,}025\\cdot450}\\approx0{,}4774\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(0{,}48\\,\\mathrm{K}\\).</p></div>",
     "id": "7.157",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.4773813333333333,
-    "tolerans": 0.00716,
+    "rättSvar": 0.47738133333333327,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -111837,7 +112001,7 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "K",
     "familjNyckel": "varme__specifik_varmekapacitet",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -111846,15 +112010,15 @@ window.BANK = [
     "niva": "E",
     "typ": "vattenkokare av aluminium",
     "poang": "(1/0/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En vattenkokare av aluminium (0,400 kg) innehåller 2,00 kg vatten. Hur mycket energi krävs för att värma båda från 15,0 °C till 100,0 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}400\\cdot900+2{,}00\\cdot4\\,180)\\cdot85{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\) J</p></div>",
+    "t": "<p>En vattenkokare av 0,400 kg aluminium innehåller 2,00 kg vatten. Båda värms från 15 °C till 100 °C. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K).</p><p>Hur mycket energi tar vattenkokaren och vattnet upp tillsammans? Svara i J. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 85 K för båda.</p>\\[Q_{\\mathrm{Al}}=0{,}400\\cdot900\\cdot85=30600\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=2{,}00\\cdot4180\\cdot85=710600\\,\\mathrm J\\]\\[Q_{\\mathrm{totalt}}=30600+710600=741200\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(741200\\,\\mathrm{J}\\).</p></div>",
     "id": "7.158",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 741200.0,
-    "tolerans": 11100.0,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -111865,7 +112029,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "J",
     "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -111874,8 +112038,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kastrull på spisplatta",
     "poang": "(2/0/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p><ol type=\"a\"><li>Vilken temperatur har vattnet efter 2,0 minuter?</li><li>Efter hur många sekunder börjar vattnet koka?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta T=\\dfrac{1\\,000\\cdot120}{0{,}700\\cdot4\\,180}=41{,}0\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(49\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{0{,}700\\cdot4\\,180\\cdot92}{1\\,000}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(269\\) s</p></li></ol></div>",
+    "t": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vattnets kokpunkt är 100 °C.</p><p><strong>a)</strong> Vilken temperatur får vattnet efter 2 minuter? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>2 minuter = 120 s.</p>\\[Q=Pt=1000\\cdot120=120000\\,\\mathrm J\\]\\[\\Delta T=\\frac{120000}{0{,}700\\cdot4180}\\approx41{,}012\\,\\mathrm K\\]\\[T=8+41{,}01162\\approx49{,}012\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(49{,}0\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong> </p><p>Temperaturökningen är 92 K.</p>\\[Q=0{,}700\\cdot4180\\cdot92=269192\\,\\mathrm J\\]\\[t=Q/P=269192/1000=269{,}192\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(269\\,\\mathrm{s}\\).</p></div>",
     "id": "7.159",
     "miniräknare": true,
     "geogebra": false,
@@ -111886,8 +112050,8 @@ window.BANK = [
       269.192
     ],
     "tolerans": [
-      0.735,
-      5.1
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -111907,29 +112071,29 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p>",
+    "spelIntro": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vattnets kokpunkt är 100 °C.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken temperatur har vattnet efter 2,0 minuter?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p><p>Vilken temperatur har vattnet efter 2,0 minuter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta T=\\dfrac{1\\,000\\cdot120}{0{,}700\\cdot4\\,180}=41{,}0\\) K.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(49\\) °C</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
+        "fraga": "Vilken temperatur får vattnet? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>0,700 kg vatten har temperaturen 8 °C. En värmare överför 1000 W till vattnet i 2 minuter. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Vilken temperatur får vattnet? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>2 minuter = 120 s.</p>\\[Q=Pt=1000\\cdot120=120000\\,\\mathrm J\\]\\[\\Delta T=\\frac{120000}{0{,}700\\cdot4180}\\approx41{,}012\\,\\mathrm K\\]\\[T=8+41{,}01162\\approx49{,}012\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(49{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Efter hur många sekunder börjar vattnet koka?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En kastrull med 700 g vatten (8,0 °C) står på en spisplatta på 1 000 W. Anta att all värme går till vattnet.</p><p>Efter hur många sekunder börjar vattnet koka?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{0{,}700\\cdot4\\,180\\cdot92}{1\\,000}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(269\\) s</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac{Q}{P}\\).</p>",
+        "fraga": "Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.",
+        "t": "<p>0,700 kg vatten ska värmas från 8 °C till kokpunkten 100 °C. En värmare överför 1000 W till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 92 K.</p>\\[Q=0{,}700\\cdot4180\\cdot92=269192\\,\\mathrm J\\]\\[t=Q/P=269192/1000=269{,}192\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(269\\,\\mathrm{s}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -111941,11 +112105,11 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "C",
+    "niva": "E",
     "typ": "verkningsgrad vid uppvärmning",
-    "poang": "(0/2/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><ol type=\"a\"><li>Hur många sekunder tar det att värma 250 g soppa (som vatten) från 15 °C till 75 °C på en spisplatta (375 W) med verkningsgraden 80 %?</li><li>En mikrovågsugn (800 W) värmer 240 g vatten från 12 °C till 85 °C på 1 min 52 s. Bestäm verkningsgraden i procent.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{0{,}250\\cdot4\\,180\\cdot60}{0{,}80\\cdot375}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(209\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\dfrac{0{,}240\\cdot4\\,180\\cdot73}{800\\cdot112}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(82\\) %</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Beräkna tiden och verkningsgraden i följande fall.</p><p><strong>a)</strong> 0,250 kg soppa ska värmas från 15 °C till 75 °C. Räkna med att soppans specifika värmekapacitet är 4180 J/(kg·K). Spisplattan har eleffekten 375 W och 80 % går till soppan. Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p><p><strong>b)</strong> En mikrovågsugn har eleffekten 800 W och värmer 0,240 kg vatten från 12 °C till 85 °C på 1 minut och 52 sekunder. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Hur många procent av elenergin går till vattnet? Svara i %. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Temperaturökningen är 60 K.</p>\\[Q=0{,}250\\cdot4180\\cdot60=62700\\,\\mathrm J\\]\\[P_{\\mathrm{soppa}}=0{,}80\\cdot375=300\\,\\mathrm W\\]\\[t=Q/P_{\\mathrm{soppa}}=62700/300=209\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(209\\,\\mathrm{s}\\).</p><p><strong>b)</strong> </p><p>Tiden är 60 + 52 = 112 s och temperaturökningen 73 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatten}}\\\\ &=0{,}240\\cdot4180\\cdot73=73233{,}6\\,\\mathrm J\\end{aligned}\\]\\[E_{\\mathrm{el}}=Pt=800\\cdot112=89600\\,\\mathrm J\\]\\[\\eta=\\frac{73233{,}6}{89600}\\cdot100\\approx81{,}734\\,\\%\\]<p><strong>Svar:</strong> \\(81{,}7\\,\\%\\).</p></div>",
     "id": "7.160",
     "miniräknare": true,
     "geogebra": false,
@@ -111953,11 +112117,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       209.0,
-      81.73392857142858
+      81.73392857142856
     ],
     "tolerans": [
-      5.1,
-      1.23
+      0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -111978,27 +112142,27 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p>",
+    "spelIntro": "<p>Beräkna tiden och verkningsgraden i följande fall.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många sekunder tar det att värma 250 g soppa (som vatten) från 15 °C till 75 °C på en spisplatta (375 W) med verkningsgraden 80 %?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Hur många sekunder tar det att värma 250 g soppa (som vatten) från 15 °C till 75 °C på en spisplatta (375 W) med verkningsgraden 80 %?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{0{,}250\\cdot4\\,180\\cdot60}{0{,}80\\cdot375}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(209\\) s</p></div>",
-        "ledtrad": "<p>Nyttig effekt \\(=\\eta P\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.",
+        "t": "<p>0,250 kg soppa ska värmas från 15 °C till 75 °C. Räkna med att soppans specifika värmekapacitet är 4180 J/(kg·K). Spisplattan har eleffekten 375 W och 80 % går till soppan.</p><p>Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 60 K.</p>\\[Q=0{,}250\\cdot4180\\cdot60=62700\\,\\mathrm J\\]\\[P_{\\mathrm{soppa}}=0{,}80\\cdot375=300\\,\\mathrm W\\]\\[t=Q/P_{\\mathrm{soppa}}=62700/300=209\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(209\\,\\mathrm{s}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En mikrovågsugn (800 W) värmer 240 g vatten från 12 °C till 85 °C på 1 min 52 s. Bestäm verkningsgraden i procent.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En mikrovågsugn (800 W) värmer 240 g vatten från 12 °C till 85 °C på 1 min 52 s. Bestäm verkningsgraden i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\dfrac{0{,}240\\cdot4\\,180\\cdot73}{800\\cdot112}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(82\\) %</p></div>",
-        "ledtrad": "<p>Nyttig energi delat med tillförd energi.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur många procent av elenergin går till vattnet? Svara i %. Avrunda till 1 decimal.",
+        "t": "<p>En mikrovågsugn har eleffekten 800 W och värmer 0,240 kg vatten från 12 °C till 85 °C på 1 minut och 52 sekunder. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur många procent av elenergin går till vattnet? Svara i %. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiden är 60 + 52 = 112 s och temperaturökningen 73 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatten}}\\\\ &=0{,}240\\cdot4180\\cdot73=73233{,}6\\,\\mathrm J\\end{aligned}\\]\\[E_{\\mathrm{el}}=Pt=800\\cdot112=89600\\,\\mathrm J\\]\\[\\eta=\\frac{73233{,}6}{89600}\\cdot100\\approx81{,}734\\,\\%\\]<p><strong>Svar:</strong> \\(81{,}7\\,\\%\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -112015,15 +112179,15 @@ window.BANK = [
     "niva": "C",
     "typ": "vattenkokare med kokare och vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En vattenkokare (750 W) av aluminium (280 g) innehåller 750 ml vatten vid 11,0 °C. Efter hur många sekunder kokar vattnet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{(0{,}750\\cdot4\\,180+0{,}280\\cdot900)\\cdot89{,}0}{750}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(402\\) s</p></div>",
+    "t": "<p>En vattenkokare av 0,280 kg aluminium innehåller 0,750 kg vatten. Båda har temperaturen 11 °C och ska värmas till 100 °C. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K). Räkna med att effekten 750 W bara värmer vattenkokaren och vattnet.</p><p>Hur lång tid tar uppvärmningen? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 89 K.</p>\\[Q_{\\mathrm{Al}}=0{,}280\\cdot900\\cdot89=22428\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=0{,}750\\cdot4180\\cdot89=279015\\,\\mathrm J\\]\\[t=\\frac{22428+279015}{750}=401{,}924\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(402\\,\\mathrm{s}\\).</p></div>",
     "id": "7.161",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 401.924,
-    "tolerans": 6.03,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112043,15 +112207,15 @@ window.BANK = [
     "niva": "C",
     "typ": "blykula värms vid nedslag",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula släpps från 55 m höjd. 65 % av energin som frigörs vid nedslaget värmer kulan. Hur många kelvin stiger temperaturen? Använd \\(g=9{,}82\\) m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{0{,}65\\cdot9{,}82\\cdot55}{130}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\) K</p></div>",
+    "t": "<p>En blykula faller 55 m. Vid nedslaget blir 65 % av den förlorade lägesenergin värme i kulan. Blyets specifika värmekapacitet är 130 J/(kg·K). Använd g = 9,82 m/s².</p><p>Hur mycket ökar kulans temperatur? Svara i K. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kulans värmeenergi är Q = 0,65mgh. Sätt detta lika med mcΔT. Kulans massa tar ut sig.</p>\\[0{,}65mgh=mc\\Delta T\\]\\[\\begin{aligned}&\\Delta T\\\\ &=\\frac{0{,}65gh}{c}\\\\ &=\\frac{0{,}65\\cdot9{,}82\\cdot55}{130}\\\\ &=2{,}7005\\,\\mathrm K\\end{aligned}\\]<p><strong>Svar:</strong> \\(2{,}70\\,\\mathrm{K}\\).</p></div>",
     "id": "7.162",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 2.7005,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -112070,15 +112234,15 @@ window.BANK = [
     "niva": "C",
     "typ": "solpanel värmer vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En solpanel (6,00 m², verkningsgrad 75 %) träffas av solljus med intensiteten 550 W/m². Hur många timmar tar det att värma 1,00 m³ vatten från 20,0 °C till 60,0 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=0{,}75\\cdot550\\cdot6{,}00\\],</div></div><div class=\"facit-stycke\"><p>\\(t=\\dfrac{1\\,000\\cdot4\\,180\\cdot40{,}0}{P}\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}8\\) h</p></div>",
+    "t": "<p>En solfångare har arean 6,00 m². Solljuset ger 550 W per m² och 75 % av effekten värmer 1000 kg vatten från 20 °C till 60 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att solljuset är konstant under uppvärmningen.</p><p>Hur lång tid tar uppvärmningen? Svara i h. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[P_{\\mathrm{vatten}}=0{,}75\\cdot550\\cdot6{,}00=2475\\,\\mathrm W\\]<p>Temperaturökningen är 40 K.</p>\\[Q=1000\\cdot4180\\cdot40=167200000\\,\\mathrm J\\]\\[t=\\frac{Q}{P}=\\frac{167200000}{2475}\\approx67555{,}56\\,\\mathrm s\\]<p>Dela med 3600 för att få timmar.</p>\\[\\begin{aligned}&t\\\\ &=167200000/(2475\\cdot3600)\\\\ &\\approx18{,}765\\,\\mathrm h\\end{aligned}\\]<p><strong>Svar:</strong> \\(18{,}8\\,\\mathrm{h}\\).</p></div>",
     "id": "7.163",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och verkningsgrad vid uppvärmning",
     "svarstyp": "numeriskt",
     "rättSvar": 18.765432098765434,
-    "tolerans": 0.281,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112098,15 +112262,15 @@ window.BANK = [
     "niva": "C",
     "typ": "squashboll värms",
     "poang": "(0/1/0)",
-    "t": "<p>En squashboll (specifik värmekapacitet 1,2 kJ/(kg·K)) träffar väggen med 22 m/s och studsar tillbaka med 18 m/s. Hur många kelvin stiger temperaturen om all förlorad rörelseenergi värmer bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{22^2-18^2}{2\\cdot1\\,200}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}067\\) K</p></div>",
+    "t": "<p>En squashboll träffar en vägg med farten 22 m/s och studsar tillbaka med farten 18 m/s. Bollens specifika värmekapacitet är 1200 J/(kg·K). Räkna med att all förlorad rörelseenergi värmer bollen.</p><p>Hur mycket ökar bollens temperatur? Svara i K. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rörelseenergin beror på farten, inte riktningen. Sätt förlorad rörelseenergi lika med värmeenergi. Massan tar ut sig.</p>\\[\\frac{m(22^2-18^2)}2=mc\\Delta T\\]\\[\\Delta T=\\frac{22^2-18^2}{2\\cdot1200}\\approx0{,}0667\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(0{,}067\\,\\mathrm{K}\\).</p></div>",
     "id": "7.164",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 0.06666666666666667,
-    "tolerans": 0.001,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -112126,15 +112290,15 @@ window.BANK = [
     "niva": "C",
     "typ": "spik värms av hammarslag",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K).</p><p>Ett hammarhuvud (1,20 kg) träffar en järnspik (14 g) med farten 7,5 m/s och stannar. 30 % av energin värmer spiken. Hur många kelvin stiger spikens temperatur efter 8 slag?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=8\\cdot0{,}30\\cdot\\tfrac12\\cdot1{,}20\\cdot7{,}5^2\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{Q}{0{,}014\\cdot450}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\) K</p></div>",
+    "t": "<p>Ett hammarhuvud på 1,20 kg träffar en järnspik på 14 g med farten 7,5 m/s och stannar vid varje slag. 30 % av hammarhuvudets rörelseenergi värmer spiken. Järnets specifika värmekapacitet är 450 J/(kg·K). Spiken avger ingen värme mellan slagen.</p><p>Hur mycket ökar spikens temperatur efter 8 slag? Svara i K. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hammarhuvudets rörelseenergi före ett slag är</p>\\[E_k=\\frac{mv^2}{2}=\\frac{1{,}20\\cdot7{,}5^2}{2}=33{,}75\\,\\mathrm J\\]<p>Spiken tar upp 30 % av denna energi vid vart och ett av åtta slag.</p>\\[Q=8\\cdot0{,}30\\cdot33{,}75=81\\,\\mathrm J\\]<p>Spikens massa är 0,014 kg.</p>\\[\\Delta T=\\frac{81}{0{,}014\\cdot450}\\approx12{,}857\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(12{,}9\\,\\mathrm{K}\\).</p></div>",
     "id": "7.165",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Specifik värmekapacitet",
     "svarstyp": "numeriskt",
     "rättSvar": 12.857142857142858,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -112154,8 +112318,8 @@ window.BANK = [
     "niva": "C",
     "typ": "jämviktstemperatur vid blandning",
     "poang": "(1/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p><ol type=\"a\"><li>2,0 liter vatten (62,5 °C) och 1,2 liter vatten (17,2 °C).</li><li>1,5 liter vatten (51 °C) och 0,80 liter etanol (15 °C).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=\\dfrac{2{,}0\\cdot62{,}5+1{,}2\\cdot17{,}2}{3{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(46\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}5\\cdot4\\,180(51-T)=0{,}632\\cdot2\\,400(T-15)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\) °C</p></li></ol></div>",
+    "t": "<p>Bestäm sluttemperaturen i varje blandning. Räkna med att ingen energi går till kärlet eller omgivningen.</p><p><strong>a)</strong> 2,0 kg vatten vid 62,5 °C blandas med 1,2 kg vatten vid 17,2 °C.  Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong> 1,5 kg vatten vid 51 °C blandas med 0,80 liter etanol vid 15 °C. Etanolens densitet är 0,79 kg/liter och dess specifika värmekapacitet 2400 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Låt sluttemperaturen vara T. Det varma vattnet har massan 2 kg, det kalla vattnet har massan 1,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[2(62{,}5-T)=1{,}2(T-17{,}2)\\]<p>Multiplicera in och samla termerna med T:</p>\\[3{,}2T=145{,}64\\]\\[T=\\frac{145{,}64}{3{,}2}\\approx45{,}513\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(45{,}5\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong> </p><p>Etanolens massa är 0,80 · 0,79 = 0,632 kg.</p><p>Låt sluttemperaturen vara T. Vattnet har massan 1,5 kg, etanolen har massan 0,632 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&1{,}5\\cdot4180(51-T)\\\\ &=0{,}632\\cdot2400(T-15)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[7786{,}8T=342522\\]\\[T=\\frac{342522}{7786{,}8}\\approx43{,}988\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(44{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.166",
     "miniräknare": true,
     "geogebra": false,
@@ -112166,8 +112330,8 @@ window.BANK = [
       43.987517337031896
     ],
     "tolerans": [
-      0.683,
-      0.66
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -112188,25 +112352,25 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p>",
+    "spelIntro": "<p>Bestäm sluttemperaturen i varje blandning. Räkna med att ingen energi går till kärlet eller omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "2,0 liter vatten (62,5 °C) och 1,2 liter vatten (17,2 °C).",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p><p>2,0 liter vatten (62,5 °C) och 1,2 liter vatten (17,2 °C).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=\\dfrac{2{,}0\\cdot62{,}5+1{,}2\\cdot17{,}2}{3{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(46\\) °C</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>2,0 kg vatten vid 62,5 °C blandas med 1,2 kg vatten vid 17,2 °C. Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Det varma vattnet har massan 2 kg, det kalla vattnet har massan 1,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT. Vattnets specifika värmekapacitet är samma på båda sidor och förkortas bort:</p>\\[2(62{,}5-T)=1{,}2(T-17{,}2)\\]<p>Multiplicera in och samla termerna med T:</p>\\[3{,}2T=145{,}64\\]\\[T=\\frac{145{,}64}{3{,}2}\\approx45{,}513\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(45{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "1,5 liter vatten (51 °C) och 0,80 liter etanol (15 °C).",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>Bestäm jämviktstemperaturen i en termos när man blandar</p><p>1,5 liter vatten (51 °C) och 0,80 liter etanol (15 °C).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}5\\cdot4\\,180(51-T)=0{,}632\\cdot2\\,400(T-15)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\) °C</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>1,5 kg vatten vid 51 °C blandas med 0,80 liter etanol vid 15 °C. Etanolens densitet är 0,79 kg/liter och dess specifika värmekapacitet 2400 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Etanolens massa är 0,80 · 0,79 = 0,632 kg.</p><p>Låt sluttemperaturen vara T. Vattnet har massan 1,5 kg, etanolen har massan 0,632 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&1{,}5\\cdot4180(51-T)\\\\ &=0{,}632\\cdot2400(T-15)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[7786{,}8T=342522\\]\\[T=\\frac{342522}{7786{,}8}\\approx43{,}988\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(44{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112225,8 +112389,8 @@ window.BANK = [
     "niva": "C",
     "typ": "het metall i vatten",
     "poang": "(0/2/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p><ol type=\"a\"><li>En kopparspik (30 g, 300 °C) läggs i 100 ml vatten (20 °C).</li><li>En järnkula (75,0 g, 200 °C) läggs i 200 ml vatten (12 °C).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}030\\cdot385(300-T)=0{,}100\\cdot4\\,180(T-20)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0750\\cdot450(200-T)=0{,}200\\cdot4\\,180(T-12)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\) °C</p></li></ol></div>",
+    "t": "<p>Bestäm sluttemperaturen i varje försök. Räkna med att ingen energi går till kärlet eller omgivningen.</p><p><strong>a)</strong> 0,030 kg koppar vid 300 °C läggs i 0,100 kg vatten vid 20 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong> 0,075 kg järn vid 200 °C läggs i 0,200 kg vatten vid 12 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Låt sluttemperaturen vara T. Kopparn har massan 0,03 kg, vattnet har massan 0,1 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}03\\cdot385(300-T)\\\\ &=0{,}1\\cdot4180(T-20)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[429{,}55T=11825\\]\\[T=\\frac{11825}{429{,}55}\\approx27{,}529\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(27{,}5\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong> </p><p>Låt sluttemperaturen vara T. Järnet har massan 0,075 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}075\\cdot450(200-T)\\\\ &=0{,}2\\cdot4180(T-12)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[869{,}75T=16782\\]\\[T=\\frac{16782}{869{,}75}\\approx19{,}295\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(19{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.167",
     "miniräknare": true,
     "geogebra": false,
@@ -112237,8 +112401,8 @@ window.BANK = [
       19.295199770048864
     ],
     "tolerans": [
-      0.51,
-      0.51
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -112259,14 +112423,14 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p>",
+    "spelIntro": "<p>Bestäm sluttemperaturen i varje försök. Räkna med att ingen energi går till kärlet eller omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kopparspik (30 g, 300 °C) läggs i 100 ml vatten (20 °C).",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p><p>En kopparspik (30 g, 300 °C) läggs i 100 ml vatten (20 °C).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}030\\cdot385(300-T)=0{,}100\\cdot4\\,180(T-20)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\) °C</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>0,030 kg koppar vid 300 °C läggs i 0,100 kg vatten vid 20 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Kopparn har massan 0,03 kg, vattnet har massan 0,1 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}03\\cdot385(300-T)\\\\ &=0{,}1\\cdot4180(T-20)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[429{,}55T=11825\\]\\[T=\\frac{11825}{429{,}55}\\approx27{,}529\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(27{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112274,10 +112438,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En järnkula (75,0 g, 200 °C) läggs i 200 ml vatten (12 °C).",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Bestäm jämviktstemperaturen.</p><p>En järnkula (75,0 g, 200 °C) läggs i 200 ml vatten (12 °C).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0750\\cdot450(200-T)=0{,}200\\cdot4\\,180(T-12)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\) °C</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>0,075 kg järn vid 200 °C läggs i 0,200 kg vatten vid 12 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Järnet har massan 0,075 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}075\\cdot450(200-T)\\\\ &=0{,}2\\cdot4180(T-12)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[869{,}75T=16782\\]\\[T=\\frac{16782}{869{,}75}\\approx19{,}295\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(19{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112296,15 +112460,15 @@ window.BANK = [
     "niva": "C",
     "typ": "massa hos kopparcylinder",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (300 °C) läggs i 100 ml vatten (20,0 °C). Jämviktstemperaturen blir 25,5 °C. Bestäm cylinderns massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot385\\cdot274{,}5=0{,}100\\cdot4\\,180\\cdot5{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0218\\) kg</p></div>",
+    "t": "<p>En kopparbit vid 300 °C läggs i 0,100 kg vatten vid 20,0 °C. Sluttemperaturen blir 25,5 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Hur stor massa måste kopparbiten ha? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det ämne vars massa är känd ändrar temperaturen med 5,5 K.</p>\\[Q=0{,}1\\cdot4180\\cdot5{,}5=2299\\,\\mathrm J\\]<p>Samma energi överförs till eller från ämnet med okänd massa. Dess temperatur ändras med 274,5 K.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{2299}{385\\cdot274{,}5}\\approx0{,}0218\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}022\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.168",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 0.021753838147280772,
-    "tolerans": 0.000326,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112324,15 +112488,15 @@ window.BANK = [
     "niva": "C",
     "typ": "aluminiumkastrullens starttemperatur",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En aluminiumkastrull (750 g) läggs direkt från spisen i 10,0 kg vatten (20,0 °C). Vattnets temperatur stiger till 24,0 °C. Vilken temperatur hade kastrullen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}750\\cdot900(T-24{,}0)=10{,}0\\cdot4\\,180\\cdot4{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(272\\) °C</p></div>",
+    "t": "<p>0,750 kg aluminium läggs i 10,0 kg vatten vid 20,0 °C. Sluttemperaturen blir 24,0 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken temperatur hade aluminiumet från början? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet värms med 4 K.</p>\\[Q=10\\cdot4180\\cdot4=167200\\,\\mathrm J\\]<p>Den varma kroppen avger lika mycket energi som vattnet tar upp. Beräkna hur mycket dess temperatur sjunker och lägg sedan denna temperatursänkning till sluttemperaturen.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{167200}{0{,}75\\cdot900}\\approx247{,}704\\,\\mathrm K\\]\\[\\begin{aligned}&T_{\\mathrm{start}}\\\\ &=24+247{,}7037037\\approx271{,}704\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(271{,}7\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.169",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 271.7037037037037,
-    "tolerans": 4.08,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112352,15 +112516,15 @@ window.BANK = [
     "niva": "C",
     "typ": "metall i kvicksilver",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: kvicksilver 0,14 kJ/(kg·K).</p><p>En metallsfär (500 g, 300 °C) läggs i 4,08 kg kvicksilver (20,0 °C). Jämviktstemperaturen blir 99,0 °C. Bestäm metallens specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}500\\cdot c\\cdot201=4{,}08\\cdot140\\cdot79{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(449\\) J/(kg·K)</p></div>",
+    "t": "<p>0,500 kg metall vid 300 °C läggs i 4,08 kg kvicksilver vid 20 °C. Sluttemperaturen blir 99 °C. Kvicksilvrets specifika värmekapacitet är 140 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 79 K och metallen svalnar 201 K.</p>\\[Q_{\\mathrm{vatska}}=4{,}08\\cdot140\\cdot79=45124{,}8\\,\\mathrm J\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{45124{,}8}{0{,}5\\cdot201}\\approx449{,}003\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(449\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.170",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 449.0029850746269,
-    "tolerans": 6.74,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112380,15 +112544,15 @@ window.BANK = [
     "niva": "C",
     "typ": "bål med läsk och melon",
     "poang": "(0/1/0)",
-    "t": "<p>12 flaskor läsk (0,35 kg var, 5,0 °C, 3,8 kJ/(kg·K)) blandas med en melon (6,5 kg, 27 °C, 4,18 kJ/(kg·K)). Bestäm jämviktstemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4{,}2\\cdot3\\,800(T-5{,}0)=6{,}5\\cdot4\\,180(27-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\) °C</p></div>",
+    "t": "<p>En isolerad kylväska innehåller 12 flaskor läsk och en melon. Varje flaska innehåller 0,35 kg läsk vid 5 °C. Melonen har massan 6,5 kg och temperaturen 27 °C. Specifik värmekapacitet: läsk 3800 och melon 4180 J/(kg·K). Räkna inte med flaskornas eller väskans värmekapacitet. Ingen energi överförs till omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T.</p><p>Melonen avger lika mycket energi som läsken tar upp. Använd Q = mcΔT:</p>\\[\\begin{aligned}&6{,}5\\cdot4180(27-T)\\\\ &=4{,}2\\cdot3800(T-5)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[43130T=813390\\]\\[T=\\frac{813390}{43130}\\approx18{,}859\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(18{,}9\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.171",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 18.859030837004404,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112408,15 +112572,15 @@ window.BANK = [
     "niva": "C",
     "typ": "vätska över glasstav",
     "poang": "(0/1/0)",
-    "t": "<p>En glasstav (83,0 °C, 840 J/(kg·K)) täcks av lika stor massa av en okänd vätska (43,0 °C). Jämviktstemperaturen blir 53,0 °C. Bestäm vätskans specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot840\\cdot30{,}0=m\\cdot c\\cdot10{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,520\\) J/(kg·K)</p></div>",
+    "t": "<p>En glasstav vid 83 °C läggs i en lika stor massa vätska vid 43 °C. Sluttemperaturen blir 53 °C. Glasets specifika värmekapacitet är 840 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Bestäm vätskans specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Glaset svalnar 30 K och vätskan värms 10 K. Massorna är lika och förkortas bort i energibalansen.</p>\\[m\\cdot840\\cdot30=m\\cdot c\\cdot10\\]\\[c=840\\cdot30/10=2520\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(2520\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.172",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 2520,
-    "tolerans": 51.0,
+    "rättSvar": 2520.0,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112436,15 +112600,15 @@ window.BANK = [
     "niva": "C",
     "typ": "blykulans starttemperatur",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), bly 0,13 kJ/(kg·K).</p><p>En blykula (2,30 kg) läggs i en termos med 2,50 liter vatten (20,0 °C). Jämviktstemperaturen blir 32,0 °C. Vilken temperatur hade kulan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2{,}30\\cdot130(T-32{,}0)=2{,}50\\cdot4\\,180\\cdot12{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(451\\) °C</p></div>",
+    "t": "<p>2,30 kg bly läggs i 1,00 kg vatten vid 20,0 °C. Sluttemperaturen blir 32,0 °C. Blyets specifika värmekapacitet är 130 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken temperatur hade blyet från början? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet värms med 12 K.</p>\\[Q=1\\cdot4180\\cdot12=50160\\,\\mathrm J\\]<p>Den varma kroppen avger lika mycket energi som vattnet tar upp. Beräkna hur mycket dess temperatur sjunker och lägg sedan denna temperatursänkning till sluttemperaturen.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{50160}{2{,}3\\cdot130}\\approx167{,}759\\,\\mathrm K\\]\\[\\begin{aligned}&T_{\\mathrm{start}}\\\\ &=32+167{,}7591973\\approx199{,}759\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(199{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.173",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 451.39799331103677,
-    "tolerans": 6.77,
+    "rättSvar": 199.7591973244147,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112464,15 +112628,15 @@ window.BANK = [
     "niva": "C",
     "typ": "granitkuber som kyler vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Tre granitkuber (sida 2,0 cm, densitet 2,8 g/cm³, 0,79 kJ/(kg·K)) med temperaturen −18 °C läggs i 2 dl vatten (22 °C). Bestäm sluttemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Granitens massa: \\(3\\cdot8{,}0\\cdot2{,}8=67\\) g.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0672\\cdot790(T+18)=0{,}20\\cdot4\\,180(22-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) °C</p></div>",
+    "t": "<p>Tre granitkuber vid −18 °C läggs i 0,20 kg vatten vid 22 °C. Varje kub har sidlängden 2,0 cm. Granitens densitet är 2,8 g/cm³ och dess specifika värmekapacitet 790 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>En kub har volymen 2,0³ = 8,0 cm³. Granitens totala massa är 3 · 8,0 · 2,8 = 67,2 g = 0,0672 kg.</p><p>Låt sluttemperaturen vara T. Graniten har massan 0,0672 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}2\\cdot4180(22-T)\\\\ &=0{,}0672\\cdot790(T+18)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[889{,}088T=17436{,}416\\]\\[T=\\frac{17436{,}416}{889{,}088}\\approx19{,}612\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(19{,}6\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.174",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 19.61157500719839,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112489,18 +112653,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
+    "niva": "C",
     "typ": "termometer i varmt vatten",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), glas 0,84 kJ/(kg·K).</p><p>En glastermometer (31,5 g) visar 23,6 °C och placeras i 135 ml vatten. Den visar sedan 41,8 °C. Vilken temperatur hade vattnet från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0315\\cdot840\\cdot18{,}2=0{,}135\\cdot4\\,180(T-41{,}8)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}7\\) °C</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En glastermometer med massan 31,5 g har temperaturen 23,6 °C. Den läggs i 0,135 kg vatten. Båda får till slut temperaturen 41,8 °C. Glasets specifika värmekapacitet är 840 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken temperatur hade vattnet innan termometern lades i? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Glastermometern värms med 18,2 K.</p>\\[Q=0{,}0315\\cdot840\\cdot18{,}2=481{,}572\\,\\mathrm J\\]<p>Denna energi överförs mellan ämnena. Den okända starttemperaturen fås från det andra ämnets temperaturändring.</p>\\[\\begin{aligned}&\\Delta T=\\frac{Q}{mc}\\\\ &=\\frac{481{,}572}{0{,}135\\cdot4180}\\approx0{,}8534\\,\\mathrm K\\end{aligned}\\]\\[\\begin{aligned}&T_{\\mathrm{start}}\\\\ &=41{,}8+0{,}8533971292\\approx42{,}653\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(42{,}7\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.175",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 42.6533971291866,
-    "tolerans": 0.64,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112520,22 +112684,22 @@ window.BANK = [
     "niva": "C",
     "typ": "specifik värmekapacitet ur blandning",
     "poang": "(0/3/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><ol type=\"a\"><li>Aluminium (22,0 g, 100,0 °C) läggs i 67,0 g vatten (15,1 °C). Blandningstemperaturen blir 20,6 °C. Bestäm aluminiums specifika värmekapacitet.</li><li>Koppar (100 g, 90 °C) läggs i 200 g vatten (15 °C). Sluttemperaturen blir 18 °C. Bestäm kopparns specifika värmekapacitet.</li><li>En okänd metall (54 g, 100,7 °C) läggs i 46,30 g vatten (25,00 °C). Temperaturen stiger till 32,40 °C. Bestäm metallens specifika värmekapacitet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0220\\cdot c\\cdot79{,}4=0{,}0670\\cdot4\\,180\\cdot5{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(882\\) J/(kg·K)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}100\\cdot c\\cdot72=0{,}200\\cdot4\\,180\\cdot3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(348\\) J/(kg·K)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}054\\cdot c\\cdot68{,}3=0{,}04630\\cdot4\\,180\\cdot7{,}40\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(388\\) J/(kg·K)</p></li></ol></div>",
+    "t": "<p>Bestäm den specifika värmekapaciteten i varje försök. Räkna med att ingen energi går till kärlet eller omgivningen.</p><p><strong>a)</strong> 22,0 g aluminium vid 100,0 °C läggs i 67,0 g vatten vid 15,1 °C. Sluttemperaturen blir 20,6 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p><p><strong>b)</strong> 100 g koppar vid 90 °C läggs i 200 g vatten vid 15 °C. Sluttemperaturen blir 18 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p><p><strong>c)</strong> 54 g metall vid 100,7 °C läggs i 46,30 g vatten vid 25,00 °C. Sluttemperaturen blir 32,40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Massorna i beräkningen anges i kg. Vätskan värms 5,5 K och metallen svalnar 79,4 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatska}}\\\\ &=0{,}067\\cdot4180\\cdot5{,}5=1540{,}33\\,\\mathrm J\\end{aligned}\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{1540{,}33}{0{,}022\\cdot79{,}4}\\approx881{,}801\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(882\\,\\mathrm{J/(kg\\cdot K)}\\).</p><p><strong>b)</strong> </p><p>Massorna i beräkningen anges i kg. Vätskan värms 3 K och metallen svalnar 72 K.</p>\\[Q_{\\mathrm{vatska}}=0{,}2\\cdot4180\\cdot3=2508\\,\\mathrm J\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{2508}{0{,}1\\cdot72}\\approx348{,}333\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(348\\,\\mathrm{J/(kg\\cdot K)}\\).</p><p><strong>c)</strong> </p><p>Massorna i beräkningen anges i kg. Vätskan värms 7,4 K och metallen svalnar 68,3 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatska}}\\\\ &=0{,}0463\\cdot4180\\cdot7{,}4\\\\ &=1432{,}1516\\,\\mathrm J\\end{aligned}\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{1432{,}1516}{0{,}054\\cdot68{,}3}\\approx388{,}306\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(388\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.176",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      881.8010075566749,
+      881.8010075566754,
       348.3333333333333,
-      388.30638251721706
+      388.30638251721695
     ],
     "tolerans": [
-      13.2,
-      5.22,
-      5.82
+      0.5,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -112559,14 +112723,14 @@ window.BANK = [
       "J/(kg·K)"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p>",
+    "spelIntro": "<p>Bestäm den specifika värmekapaciteten i varje försök. Räkna med att ingen energi går till kärlet eller omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Aluminium (22,0 g, 100,0 °C) läggs i 67,0 g vatten (15,1 °C). Blandningstemperaturen blir 20,6 °C. Bestäm aluminiums specifika värmekapacitet.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Aluminium (22,0 g, 100,0 °C) läggs i 67,0 g vatten (15,1 °C). Blandningstemperaturen blir 20,6 °C. Bestäm aluminiums specifika värmekapacitet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0220\\cdot c\\cdot79{,}4=0{,}0670\\cdot4\\,180\\cdot5{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(882\\) J/(kg·K)</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.",
+        "t": "<p>22,0 g aluminium vid 100,0 °C läggs i 67,0 g vatten vid 15,1 °C. Sluttemperaturen blir 20,6 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 5,5 K och metallen svalnar 79,4 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatska}}\\\\ &=0{,}067\\cdot4180\\cdot5{,}5=1540{,}33\\,\\mathrm J\\end{aligned}\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{1540{,}33}{0{,}022\\cdot79{,}4}\\approx881{,}801\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(882\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112574,10 +112738,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Koppar (100 g, 90 °C) läggs i 200 g vatten (15 °C). Sluttemperaturen blir 18 °C. Bestäm kopparns specifika värmekapacitet.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Koppar (100 g, 90 °C) läggs i 200 g vatten (15 °C). Sluttemperaturen blir 18 °C. Bestäm kopparns specifika värmekapacitet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}100\\cdot c\\cdot72=0{,}200\\cdot4\\,180\\cdot3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(348\\) J/(kg·K)</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.",
+        "t": "<p>100 g koppar vid 90 °C läggs i 200 g vatten vid 15 °C. Sluttemperaturen blir 18 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 3 K och metallen svalnar 72 K.</p>\\[Q_{\\mathrm{vatska}}=0{,}2\\cdot4180\\cdot3=2508\\,\\mathrm J\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{2508}{0{,}1\\cdot72}\\approx348{,}333\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(348\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112585,10 +112749,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En okänd metall (54 g, 100,7 °C) läggs i 46,30 g vatten (25,00 °C). Temperaturen stiger till 32,40 °C. Bestäm metallens specifika värmekapacitet.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En okänd metall (54 g, 100,7 °C) läggs i 46,30 g vatten (25,00 °C). Temperaturen stiger till 32,40 °C. Bestäm metallens specifika värmekapacitet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}054\\cdot c\\cdot68{,}3=0{,}04630\\cdot4\\,180\\cdot7{,}40\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(388\\) J/(kg·K)</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.",
+        "t": "<p>54 g metall vid 100,7 °C läggs i 46,30 g vatten vid 25,00 °C. Sluttemperaturen blir 32,40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 7,4 K och metallen svalnar 68,3 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatska}}\\\\ &=0{,}0463\\cdot4180\\cdot7{,}4\\\\ &=1432{,}1516\\,\\mathrm J\\end{aligned}\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{1432{,}1516}{0{,}054\\cdot68{,}3}\\approx388{,}306\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(388\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112607,8 +112771,8 @@ window.BANK = [
     "niva": "C",
     "typ": "jämvikt med kall och varm metall",
     "poang": "(0/3/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><ol type=\"a\"><li>Aluminium (80 g, 100 °C) läggs i 200 g vatten (21 °C). Bestäm jämviktstemperaturen.</li><li>En kopparcylinder (75 g, −18 °C) läggs i 300 g vatten (65 °C). Bestäm jämviktstemperaturen.</li><li>En järnspik (18,0 g, 7,6 °C) läggs i 200,0 g vatten (75,0 °C). Bestäm jämviktstemperaturen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}080\\cdot900(100-T)=0{,}200\\cdot4\\,180(T-21)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}075\\cdot385(T+18)=0{,}300\\cdot4\\,180(65-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0180\\cdot450(T-7{,}6)=0{,}2000\\cdot4\\,180(75{,}0-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}4\\) °C</p></li></ol></div>",
+    "t": "<p>Bestäm sluttemperaturen i varje försök. Räkna med att ingen energi går till kärlet eller omgivningen.</p><p><strong>a)</strong> 0,080 kg aluminium vid 100 °C läggs i 0,200 kg vatten vid 21 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong> 0,075 kg koppar vid −18 °C läggs i 0,300 kg vatten vid 65 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p><p><strong>c)</strong> 0,018 kg järn vid 7,6 °C läggs i 0,200 kg vatten vid 75 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).  Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>Låt sluttemperaturen vara T. Aluminiumet har massan 0,08 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}08\\cdot900(100-T)\\\\ &=0{,}2\\cdot4180(T-21)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[908T=24756\\]\\[T=\\frac{24756}{908}\\approx27{,}264\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(27{,}3\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong> </p><p>Låt sluttemperaturen vara T. Kopparn har massan 0,075 kg, vattnet har massan 0,3 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}3\\cdot4180(65-T)\\\\ &=0{,}075\\cdot385(T+18)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1282{,}875T=80990{,}25\\]\\[T=\\frac{80990{,}25}{1282{,}875}\\approx63{,}132\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(63{,}1\\,{}^\\circ\\mathrm C\\).</p><p><strong>c)</strong> </p><p>Låt sluttemperaturen vara T. Järnet har massan 0,018 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}2\\cdot4180(75-T)\\\\ &=0{,}018\\cdot450(T-7{,}6)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[844{,}1T=62761{,}56\\]\\[T=\\frac{62761{,}56}{844{,}1}\\approx74{,}353\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(74{,}4\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.177",
     "miniräknare": true,
     "geogebra": false,
@@ -112620,9 +112784,9 @@ window.BANK = [
       74.35322829048691
     ],
     "tolerans": [
-      0.51,
-      0.947,
-      1.12
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -112646,14 +112810,14 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p>",
+    "spelIntro": "<p>Bestäm sluttemperaturen i varje försök. Räkna med att ingen energi går till kärlet eller omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Aluminium (80 g, 100 °C) läggs i 200 g vatten (21 °C). Bestäm jämviktstemperaturen.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Aluminium (80 g, 100 °C) läggs i 200 g vatten (21 °C). Bestäm jämviktstemperaturen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}080\\cdot900(100-T)=0{,}200\\cdot4\\,180(T-21)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) °C</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>0,080 kg aluminium vid 100 °C läggs i 0,200 kg vatten vid 21 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Aluminiumet har massan 0,08 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}08\\cdot900(100-T)\\\\ &=0{,}2\\cdot4180(T-21)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[908T=24756\\]\\[T=\\frac{24756}{908}\\approx27{,}264\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(27{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112661,10 +112825,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En kopparcylinder (75 g, −18 °C) läggs i 300 g vatten (65 °C). Bestäm jämviktstemperaturen.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En kopparcylinder (75 g, −18 °C) läggs i 300 g vatten (65 °C). Bestäm jämviktstemperaturen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}075\\cdot385(T+18)=0{,}300\\cdot4\\,180(65-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\) °C</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>0,075 kg koppar vid −18 °C läggs i 0,300 kg vatten vid 65 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Kopparn har massan 0,075 kg, vattnet har massan 0,3 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}3\\cdot4180(65-T)\\\\ &=0{,}075\\cdot385(T+18)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1282{,}875T=80990{,}25\\]\\[T=\\frac{80990{,}25}{1282{,}875}\\approx63{,}132\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(63{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112672,10 +112836,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En järnspik (18,0 g, 7,6 °C) läggs i 200,0 g vatten (75,0 °C). Bestäm jämviktstemperaturen.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En järnspik (18,0 g, 7,6 °C) läggs i 200,0 g vatten (75,0 °C). Bestäm jämviktstemperaturen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0180\\cdot450(T-7{,}6)=0{,}2000\\cdot4\\,180(75{,}0-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}4\\) °C</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>0,018 kg järn vid 7,6 °C läggs i 0,200 kg vatten vid 75 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Järnet har massan 0,018 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}2\\cdot4180(75-T)\\\\ &=0{,}018\\cdot450(T-7{,}6)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[844{,}1T=62761{,}56\\]\\[T=\\frac{62761{,}56}{844{,}1}\\approx74{,}353\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(74{,}4\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -112694,15 +112858,15 @@ window.BANK = [
     "niva": "C",
     "typ": "vatten tillsätts etanol",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), etanol 2,4 kJ/(kg·K). Etanol har densiteten 0,79 kg/liter.</p><p>En bägare innehåller 3,0 dl etanol (20 °C). Hur mycket vatten (55 °C) måste tillsättas för att sluttemperaturen ska bli 32 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot4\\,180\\cdot23=0{,}237\\cdot2\\,400\\cdot12\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}071\\) kg</p></div>",
+    "t": "<p>0,30 liter etanol vid 20 °C ska värmas till 32 °C genom att man häller i vatten vid 55 °C. Etanolens densitet är 0,79 kg/liter och dess specifika värmekapacitet 2400 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Hur stor massa måste vattnet ha? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Etanolens massa är 0,30 · 0,79 = 0,237 kg.</p><p>Det ämne vars massa är känd ändrar temperaturen med 12 K.</p>\\[Q=0{,}237\\cdot2400\\cdot12=6825{,}6\\,\\mathrm J\\]<p>Samma energi överförs till eller från ämnet med okänd massa. Dess temperatur ändras med 23 K.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{6825{,}6}{4180\\cdot23}\\approx0{,}0710\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}071\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.178",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 0.07099646349074266,
-    "tolerans": 0.00106,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112719,18 +112883,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
+    "niva": "C",
     "typ": "kopparkärl med vatten",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ett kopparkärl (150 g) innehåller 150 ml vatten, båda 21,5 °C. Man häller i 100 ml vatten (35,5 °C), och jämviktstemperaturen blir 26,8 °C. Bestäm kopparns specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}100\\cdot4\\,180\\cdot8{,}7=(0{,}150\\cdot4\\,180+0{,}150c)\\cdot5{,}3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(394\\) J/(kg·K)</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett kopparkärl på 0,150 kg innehåller 0,150 kg vatten. Båda har temperaturen 21,5 °C. Man häller i 0,100 kg vatten vid 35,5 °C. Sluttemperaturen blir 26,8 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Ingen energi överförs till omgivningen.</p><p>Bestäm kopparns specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det varma vattnet svalnar 8,7 K och avger</p>\\[Q_{\\mathrm{varmt}}=0{,}100\\cdot4180\\cdot8{,}7=3636{,}6\\,\\mathrm J\\]<p>Det kalla vattnet värms 5,3 K och tar upp</p>\\[Q_{\\mathrm{kallt}}=0{,}150\\cdot4180\\cdot5{,}3=3323{,}1\\,\\mathrm J\\]<p>Resten, 3636,6 − 3323,1 = 313,5 J, värmer kopparkärlet 5,3 K.</p>\\[c=\\frac{313{,}5}{0{,}150\\cdot5{,}3}\\approx394{,}34\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(394\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.179",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 394.3396226415095,
-    "tolerans": 5.92,
+    "rättSvar": 394.33962264150887,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112741,31 +112905,31 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "J/(kg·K)",
     "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
+    "niva": "C",
     "typ": "silver och guld i termos",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>I en termos läggs 100 g silver och 20 g guld. Guldet är 10 K varmare än silvret. Sluttemperaturen blir 191 °C. Vilken temperatur hade guldet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Silvret har \\(T\\), guldet \\(T+10\\): \\(0{,}020\\cdot130(T+10-191)=0{,}100\\cdot235(191-T)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\) °C</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,100 kg silver och 0,020 kg guld får tillsammans sluttemperaturen 191 °C. Guldet var 10 K varmare än silvret från början. Specifik värmekapacitet: silver 235 och guld 130 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken temperatur hade guldet från början? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt guldet ha starttemperaturen T. Silvrets starttemperatur är då T − 10. Guldet avger lika mycket energi som silvret tar upp.</p>\\[\\begin{aligned}&0{,}020\\cdot130(T-191)\\\\ &=0{,}100\\cdot235(191-(T-10))\\end{aligned}\\]<p>Förenkla parenteserna och samla termerna med T.</p>\\[2{,}6T-496{,}6=4723{,}5-23{,}5T\\]\\[26{,}1T=5220{,}1\\]\\[T=5220{,}1/26{,}1\\approx200{,}004\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(200{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.180",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 200.00383141762453,
-    "tolerans": 3.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarEnhet": "°C",
     "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
     "arbetsinsats": 2,
@@ -112774,18 +112938,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
+    "niva": "C",
     "typ": "järn i två bad",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), järn 0,45 kJ/(kg·K), etanol 2,4 kJ/(kg·K).</p><p>En järnbit (300 g, 100 °C) läggs i 500 g vatten (30 °C). Vid jämvikt flyttas den till 200 g etanol (30 °C). Bestäm etanolens sluttemperatur.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vattenbad: \\(T_1=\\dfrac{0{,}300\\cdot450\\cdot100+0{,}500\\cdot4\\,180\\cdot30}{0{,}300\\cdot450+0{,}500\\cdot4\\,180}=34{,}3\\) °C.</p></div><div class=\"facit-stycke\"><p>Etanolbad: \\(0{,}300\\cdot450(34{,}3-T)=0{,}200\\cdot2\\,400(T-30)\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30{,}9\\) °C</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,300 kg järn vid 100 °C läggs i 0,500 kg vatten vid 30 °C. När de fått samma temperatur flyttas järnet till 0,200 kg etanol vid 30 °C. Specifik värmekapacitet: järn 450, vatten 4180 och etanol 2400 J/(kg·K). Räkna med att bara ämnena överför energi till varandra, även under flytten.</p><p>Vilken blir etanolens sluttemperatur? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Först avger järnet energi till vattnet. Låt deras gemensamma temperatur vara T₁.</p>\\[\\begin{aligned}&0{,}300\\cdot450(100-T_1)\\\\ &=0{,}500\\cdot4180(T_1-30)\\end{aligned}\\]\\[2225T_1=76200\\]\\[T_1=76200/2225\\approx34{,}247\\,{}^\\circ\\mathrm C\\]<p>I det andra badet är järnets starttemperatur T₁. Låt sluttemperaturen vara T₂.</p>\\[\\begin{aligned}&0{,}300\\cdot450(T_1-T_2)\\\\ &=0{,}200\\cdot2400(T_2-30)\\end{aligned}\\]\\[615T_2=135T_1+14400\\]<p>Använd det oavrundade värdet på T₁.</p>\\[\\begin{aligned}&T_2\\\\ &=\\frac{135(76200/2225)+14400}{615}\\\\ &\\approx30{,}932\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(30{,}9\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.181",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 30.932310221978625,
-    "tolerans": 0.464,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112796,7 +112960,7 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "°C",
     "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -112805,15 +112969,15 @@ window.BANK = [
     "niva": "C",
     "typ": "specifik värmekapacitet för bly",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>En blybit (14,2 g, 92,5 °C) läggs i 165 g vatten (20,00 °C). Jämviktstemperaturen blir 20,20 °C. Bestäm blyets specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0142\\cdot c\\cdot72{,}3=0{,}165\\cdot4\\,180\\cdot0{,}20\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(134\\) J/(kg·K)</p></div>",
+    "t": "<p>14,2 g bly vid 92,5 °C läggs i 165 g vatten vid 20,00 °C. Sluttemperaturen blir 20,20 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Bestäm metallens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 0,2 K och metallen svalnar 72,3 K.</p>\\[Q_{\\mathrm{vatska}}=0{,}165\\cdot4180\\cdot0{,}2=137{,}94\\,\\mathrm J\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{137{,}94}{0{,}0142\\cdot72{,}3}\\\\ &\\approx134{,}358\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(134\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.182",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 134.35801531178774,
-    "tolerans": 5.1,
+    "rättSvar": 134.35801531178726,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112833,15 +112997,15 @@ window.BANK = [
     "niva": "C",
     "typ": "terpentin",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>En kopparcylinder (76,8 g, 86,5 °C) läggs i 68,7 g terpentin (19,5 °C). Sluttemperaturen blir 31,9 °C. Bestäm terpentinets specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0768\\cdot385\\cdot54{,}6=0{,}0687\\cdot c\\cdot12{,}4\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,895\\) J/(kg·K)</p></div>",
+    "t": "<p>76,8 g koppar vid 86,5 °C läggs i 68,7 g terpentin vid 19,5 °C. Sluttemperaturen blir 31,9 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Bestäm terpentinens specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna är 0,0768 och 0,0687 kg. Kopparn svalnar 54,6 K medan terpentinen värms 12,4 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{koppar}}\\\\ &=0{,}0768\\cdot385\\cdot54{,}6\\\\ &=1614{,}4128\\,\\mathrm J\\end{aligned}\\]<p>Terpentinen tar upp denna energi.</p>\\[\\begin{aligned}&c\\\\ &=\\frac{1614{,}4128}{0{,}0687\\cdot12{,}4}\\\\ &\\approx1895{,}118\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1895\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.183",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 1895.1176222003098,
-    "tolerans": 28.4,
+    "rättSvar": 1895.11762220031,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112861,15 +113025,15 @@ window.BANK = [
     "niva": "C",
     "typ": "mjölk i kaffe",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>25 g mjölk (10 °C, 3,8 kJ/(kg·K)) hälls i 1,5 dl kaffe (70 °C, som vatten) i en isolerad mugg. Bestäm sluttemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}025\\cdot3\\,800(T-10)=0{,}150\\cdot4\\,180(70-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(62\\) °C</p></div>",
+    "t": "<p>0,025 kg mjölk vid 10 °C hälls i 0,150 kg kaffe vid 70 °C. Mjölkens specifika värmekapacitet är 3800 J/(kg·K). Räkna med att kaffets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Mjölken har massan 0,025 kg, kaffet har massan 0,15 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}15\\cdot4180(70-T)\\\\ &=0{,}025\\cdot3800(T-10)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[722T=44840\\]\\[T=\\frac{44840}{722}\\approx62{,}105\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(62{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.184",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 62.10526315789474,
-    "tolerans": 0.932,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112889,15 +113053,15 @@ window.BANK = [
     "niva": "C",
     "typ": "koppar i aluminiumbehållare med vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>En aluminiumbehållare (145 g) innehåller 825 g vatten (12,0 °C). En kopparbit (265 g, 245 °C) läggs i. Bestäm jämviktstemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(0{,}145\\cdot900+0{,}825\\cdot4\\,180)(T-12{,}0)=0{,}265\\cdot385(245-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}5\\) °C</p></div>",
+    "t": "<p>Ett aluminiumkärl på 0,145 kg innehåller 0,825 kg vatten. Båda har temperaturen 12 °C. En kopparbit på 0,265 kg vid 245 °C läggs i vattnet. Specifik värmekapacitet: aluminium 900, vatten 4180 och koppar 385 J/(kg·K). Ingen energi överförs till omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T.</p><p>Kopparn avger lika mycket energi som vattnet och aluminiumkärlet tar upp tillsammans. Använd Q = mcΔT:</p><p>Vattnets och kärlets gemensamma värmekapacitet är 0,145 · 900 + 0,825 · 4180 = 3579 J/K. Kopparns är 0,265 · 385 = 102,025 J/K.</p>\\[102{,}025(245-T)=3579(T-12)\\]<p>Multiplicera in och samla termerna med T:</p>\\[3681{,}025T=67944{,}125\\]\\[T=\\frac{67944{,}125}{3681{,}025}\\approx18{,}458\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(18{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.185",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 18.45793630850103,
-    "tolerans": 0.277,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112917,15 +113081,15 @@ window.BANK = [
     "niva": "C",
     "typ": "hästsko i vattenbad",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>En smed lägger en järnhästsko (0,40 kg) i 1,25 liter vatten (20,0 °C). Jämviktstemperaturen blir 25,0 °C. Vilken temperatur hade hästskon? Bortse från förångning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}40\\cdot450(T-25{,}0)=1{,}25\\cdot4\\,180\\cdot5{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(170\\) °C</p></div>",
+    "t": "<p>0,40 kg järn läggs i 1,25 kg vatten vid 20,0 °C. Sluttemperaturen blir 25,0 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken temperatur hade järnet från början? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet värms med 5 K.</p>\\[Q=1{,}25\\cdot4180\\cdot5=26125\\,\\mathrm J\\]<p>Den varma kroppen avger lika mycket energi som vattnet tar upp. Beräkna hur mycket dess temperatur sjunker och lägg sedan denna temperatursänkning till sluttemperaturen.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{26125}{0{,}4\\cdot450}\\approx145{,}139\\,\\mathrm K\\]\\[\\begin{aligned}&T_{\\mathrm{start}}\\\\ &=25+145{,}1388889\\approx170{,}139\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(170{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.186",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 170.13888888888889,
-    "tolerans": 5.1,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112942,18 +113106,18 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
+    "niva": "C",
     "typ": "glycerinets specifika värmekapacitet",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K), aluminium 0,90 kJ/(kg·K).</p><p>En järnbit (290 g, 180 °C) läggs i en aluminiumbehållare (95 g) med 250 g glycerin. Behållaren och glycerinet värms från 10,0 °C till 38,0 °C. Bestäm glycerinets specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}290\\cdot450\\cdot142=(0{,}095\\cdot900+0{,}250c)\\cdot28{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,305\\) J/(kg·K)</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,290 kg järn vid 180 °C läggs i ett aluminiumkärl på 0,095 kg med 0,250 kg glycerin. Kärlet och glycerinet har temperaturen 10 °C. Sluttemperaturen blir 38 °C. Specifik värmekapacitet: järn 450 och aluminium 900 J/(kg·K). Ingen energi överförs till omgivningen.</p><p>Bestäm glycerinets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Järnet svalnar 142 K och avger</p>\\[Q_{\\mathrm{jarn}}=0{,}290\\cdot450\\cdot142=18531\\,\\mathrm J\\]<p>Kärlet värms 28 K och tar upp</p>\\[Q_{\\mathrm{karl}}=0{,}095\\cdot900\\cdot28=2394\\,\\mathrm J\\]<p>Glycerinet tar upp resten: 18 531 − 2394 = 16 137 J, och värms också 28 K.</p>\\[c=\\frac{16137}{0{,}250\\cdot28}\\approx2305{,}29\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(2305\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.187",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 2305.285714285714,
-    "tolerans": 51.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112964,24 +113128,24 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "J/(kg·K)",
     "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 7,
     "omr": "varme",
-    "niva": "A",
+    "niva": "C",
     "typ": "okänt prov i kalorimeter med termometer",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), aluminium 0,90 kJ/(kg·K), glas 0,84 kJ/(kg·K).</p><p>Ett prov (215 g, 330 °C) läggs i en aluminiumbehållare (105 g) med 185 g vatten och en glastermometer (17 g), alla vid 10,5 °C. Jämviktstemperaturen blir 35,0 °C. Bestäm provets specifika värmekapacitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}215\\cdot c\\cdot295=(0{,}105\\cdot900+0{,}185\\cdot4\\,180+0{,}017\\cdot840)\\cdot24{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(341\\) J/(kg·K)</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,215 kg av ett ämne vid 330 °C läggs i ett aluminiumkärl på 0,105 kg. Kärlet innehåller 0,185 kg vatten och en glastermometer på 0,017 kg. Kärlet, vattnet och termometern har temperaturen 10,5 °C. Sluttemperaturen blir 35,0 °C. Specifik värmekapacitet: aluminium 900, vatten 4180 och glas 840 J/(kg·K). Ingen energi överförs till omgivningen.</p><p>Bestäm det varma ämnets specifika värmekapacitet. Svara i J/(kg·K). Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kärlet, vattnet och termometern värms 24,5 K. Det varma ämnet svalnar 295 K.</p>\\[Q_{\\mathrm{karl}}=0{,}105\\cdot900\\cdot24{,}5=2315{,}25\\,\\mathrm J\\]\\[\\begin{aligned}&Q_{\\mathrm{vatten}}\\\\ &=0{,}185\\cdot4180\\cdot24{,}5=18945{,}85\\,\\mathrm J\\end{aligned}\\]\\[Q_{\\mathrm{glas}}=0{,}017\\cdot840\\cdot24{,}5=349{,}86\\,\\mathrm J\\]<p>Totalt tas 21 610,96 J upp. Det varma ämnet avger samma energi.</p>\\[c=\\frac{21610{,}96}{0{,}215\\cdot295}\\approx340{,}733\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(341\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
     "id": "7.188",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 340.7325187229011,
-    "tolerans": 5.11,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -112992,7 +113156,7 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "J/(kg·K)",
     "familjNyckel": "varme__varmebalans_och_termisk_jamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -113001,15 +113165,15 @@ window.BANK = [
     "niva": "C",
     "typ": "två metaller i vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), bly 0,13 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>En blybit (125 g, 85,0 °C) och en silverbit (320 g, 34,0 °C) läggs i 0,500 kg vatten (22,0 °C). Bestäm sluttemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=\\dfrac{\\sum mcT}{\\sum mc}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22{,}9\\) °C</p></div>",
+    "t": "<p>0,125 kg bly vid 85 °C och 0,320 kg silver vid 34 °C läggs i 0,500 kg vatten vid 22 °C. Specifik värmekapacitet: bly 130, silver 235 och vatten 4180 J/(kg·K). Räkna med att ingen energi går till kärlet eller omgivningen.</p><p>Vilken sluttemperatur får ämnena? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T.</p><p>Blyet och silvret avger tillsammans lika mycket energi som vattnet tar upp. Använd Q = mcΔT:</p><p>Värmekapaciteterna mc är 16,25 J/K för blyet, 75,2 J/K för silvret och 2090 J/K för vattnet.</p>\\[\\begin{aligned}&16{,}25(85-T)+75{,}2(34-T)\\\\ &=2090(T-22)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[2181{,}45T=49918{,}05\\]\\[T=\\frac{49918{,}05}{2181{,}45}\\approx22{,}883\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(22{,}9\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.189",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Värmebalans och termisk jämvikt",
     "svarstyp": "numeriskt",
     "rättSvar": 22.882967750807953,
-    "tolerans": 0.343,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -120726,7 +120890,7 @@ window.BANK = [
     "niva": "C",
     "typ": "energi med motstånd upp och ned",
     "poang": "(0/2/0)",
-    "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. I modellen verkar en motståndskraft med konstant storlek F, alltid mot rörelsen. Samma storlek antas gälla under färden ned. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. En motståndskraft F verkar mot rörelsen och är lika stor på vägen upp och ner. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vägen upp går startens rörelseenergi till lägesenergi och arbete mot motståndet.</p>\\[E_{k,\\text{start}}=\\frac{2{,}0\\cdot20^2}{2}=400\\,\\mathrm J\\]\\[\\Delta E_p=2{,}0\\cdot9{,}82\\cdot15=294{,}6\\,\\mathrm J\\]<p>Motståndet tar skillnaden under 15 m.</p>\\[F=\\frac{400-294{,}6}{15}\\approx7{,}03\\,\\mathrm N\\]<p><strong>b)</strong></p><p>På vägen upp är startens rörelseenergi \\(2{,}0\\cdot20^2/2=400\\) J. Lägesenergin ökar med \\(2{,}0\\cdot9{,}82\\cdot15=294{,}6\\) J. Motståndet tar därför 105,4 J under 15 m.</p>\\[F\\cdot15=400-294{,}6=105{,}4\\,\\mathrm J\\]<p>På vägen ned minskar lägesenergin med 294,6 J. Motståndet tar åter 105,4 J, eftersom kraftens storlek och sträckan är samma.</p>\\[E_{k,\\text{mark}}=294{,}6-105{,}4=189{,}2\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot189{,}2}{2{,}0}}\\approx13{,}75\\,\\mathrm{m/s}\\]</div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
@@ -120764,12 +120928,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. I modellen verkar en motståndskraft med konstant storlek F, alltid mot rörelsen. Samma storlek antas gälla under färden ned. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. En motståndskraft F verkar mot rörelsen och är lika stor på vägen upp och ner. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. I modellen verkar en motståndskraft med konstant storlek F, alltid mot rörelsen. Samma storlek antas gälla under färden ned. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. En motståndskraft F verkar mot rörelsen och är lika stor på vägen upp och ner. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm motståndskraftens storlek. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vägen upp går startens rörelseenergi till lägesenergi och arbete mot motståndet.</p>\\[E_{k,\\text{start}}=\\frac{2{,}0\\cdot20^2}{2}=400\\,\\mathrm J\\]\\[\\Delta E_p=2{,}0\\cdot9{,}82\\cdot15=294{,}6\\,\\mathrm J\\]<p>Motståndet tar skillnaden under 15 m.</p>\\[F=\\frac{400-294{,}6}{15}\\approx7{,}03\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vilka två arbeten bromsar föremålet på vägen upp?</p>",
         "niva": "C",
@@ -120784,7 +120948,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. I modellen verkar en motståndskraft med konstant storlek F, alltid mot rörelsen. Samma storlek antas gälla under färden ned. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Ett föremål på 2,0 kg skjuts lodrätt uppåt från marknivå med farten 20 m/s och når 15 m höjd. En motståndskraft F verkar mot rörelsen och är lika stor på vägen upp och ner. Bortse från andra krafter än motståndet och tyngdkraften.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm farten strax före återkomsten till marknivån. Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vägen upp är startens rörelseenergi \\(2{,}0\\cdot20^2/2=400\\) J. Lägesenergin ökar med \\(2{,}0\\cdot9{,}82\\cdot15=294{,}6\\) J. Motståndet tar därför 105,4 J under 15 m.</p>\\[F\\cdot15=400-294{,}6=105{,}4\\,\\mathrm J\\]<p>På vägen ned minskar lägesenergin med 294,6 J. Motståndet tar åter 105,4 J, eftersom kraftens storlek och sträckan är samma.</p>\\[E_{k,\\text{mark}}=294{,}6-105{,}4=189{,}2\\,\\mathrm J\\]\\[v=\\sqrt{\\frac{2\\cdot189{,}2}{2{,}0}}\\approx13{,}75\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Byter motståndskraftens arbete tecken när rörelsen vänder?</p>",
         "niva": "C",
@@ -121184,7 +121348,7 @@ window.BANK = [
     "niva": "C",
     "typ": "uppförseffekt och fri nedfärd",
     "poang": "(0/2/0)",
-    "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backen stiger 2 m i höjd för varje 21 m längs backen. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken nyttig mekanisk effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.</li><li>Petra rullar nedför utan att trampa. Startfarten är 5,0 m/s. Bestäm farten efter 180 m längs backen. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backen stiger 2 m i höjd för varje 21 m längs backen. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.</li><li>Petra rullar nedför utan att trampa. Startfarten är 5,0 m/s. Bestäm farten efter 180 m längs backen. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Höjdökningen per meter längs backen är 2/21. Vid konstant fart balanserar drivkraften både tyngdkraftens komponent och motståndet.</p>\\[\\begin{gathered}F_d=72\\cdot9{,}82\\cdot\\frac{2}{21}+25\\approx92{,}3371\\,\\mathrm N\\\\P=F_d v\\approx92{,}3371\\cdot5{,}0\\approx461{,}686\\,\\mathrm W\\\\\\approx0{,}462\\,\\mathrm{kW}\\end{gathered}\\]<p><strong>Svar: 0,462 kW.</strong> Beräkna med oavrundad kraft.</p><p><strong>b)</strong></p><p>Tyngdkraften ökar rörelseenergin, men motståndet tar bort en del av energin.</p>\\[\\begin{gathered}h=180\\cdot\\frac{2}{21}\\approx17{,}1429\\,\\mathrm m\\\\E_\\text{start}=\\frac{72\\cdot5{,}0^2}{2}=900\\,\\mathrm J\\\\W_g=72\\cdot9{,}82h\\approx12\\,120{,}686\\,\\mathrm J\\\\W_\\text{mot}=-25\\cdot180=-4500\\,\\mathrm J\\\\E_\\text{slut}=900+W_g-4500\\approx8520{,}686\\,\\mathrm J\\\\v=\\sqrt{\\frac{2E_\\text{slut}}{72}}\\approx15{,}38\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 15,38 m/s.</strong> Använd oavrundad höjd och energi.</p></div>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -121226,8 +121390,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken nyttig mekanisk effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backen stiger 2 m i höjd för varje 21 m längs backen. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.</p>",
+        "fraga": "Vilken effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backen stiger 2 m i höjd för varje 21 m längs backen. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><p>Använd g = 9,82 m/s².</p><p>Vilken effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? Svara i kW. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdökningen per meter längs backen är 2/21. Vid konstant fart balanserar drivkraften både tyngdkraftens komponent och motståndet.</p>\\[\\begin{gathered}F_d=72\\cdot9{,}82\\cdot\\frac{2}{21}+25\\approx92{,}3371\\,\\mathrm N\\\\P=F_d v\\approx92{,}3371\\cdot5{,}0\\approx461{,}686\\,\\mathrm W\\\\\\approx0{,}462\\,\\mathrm{kW}\\end{gathered}\\]<p><strong>Svar: 0,462 kW.</strong> Beräkna med oavrundad kraft.</p></div>",
         "ledtrad": "<p>Vilka krafter måste drivkraften balansera uppför?</p>",
         "niva": "C",
@@ -134522,7 +134686,7 @@ window.BANK = [
     "niva": "C",
     "typ": "luftmotstånd för medeldistanslöpare",
     "poang": "(0/1/0)",
-    "t": "<p>En löpare springer 1500 m på 3 min 26 s med konstant fart. Den nyttiga mekaniska effekten är 350 W. I en modell är luftmotståndet \\(F=A\\rho v^2\\), med A = 0,6 m², ρ = 1,29 kg/m³ och v i m/s. Hur stor procent av den mekaniska effekten går till att övervinna luftmotståndet? Svara i procent.</p><p>Svara med tre värdesiffror.</p>",
+    "t": "<p>En löpare springer 1500 m på 3 min 26 s med konstant fart. Löparens mekaniska effekt är 350 W. Luftmotståndet är \\(F=A\\rho v^2\\), med A = 0,6 m², ρ = 1,29 kg/m³ och v i m/s. Hur stor procent av den mekaniska effekten går till att övervinna luftmotståndet? Svara i procent.</p><p>Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla tiden till sekunder och beräkna farten.</p>\\[t=3\\cdot60+26=206\\,\\mathrm s\\]\\[v=\\frac{1500}{206}\\approx7{,}28155\\,\\mathrm{m/s}\\]<p>Vid konstant fart behöver löparen en framåtriktad kraft som balanserar luftmotståndet. Effekt = kraft gånger fart. Använd oavrundad fart.</p>\\[F=0{,}6\\cdot1{,}29\\cdot(1500/206)^2\\approx41{,}0372\\,\\mathrm N\\]\\[\\begin{gathered}P_\\text{luft}=Fv\\\\=0{,}6\\cdot1{,}29\\cdot(1500/206)^3\\approx298{,}822\\,\\mathrm W\\end{gathered}\\]\\[\\text{andel}=\\frac{P_\\text{luft}}{350}\\cdot100\\,\\%\\approx85{,}4\\,\\%\\]</div>",
     "id": "5.554",
     "miniräknare": true,
@@ -134912,7 +135076,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tid för lyft med given effekt",
     "poang": "(3/1/0)",
-    "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt och bortse från energiförluster.</p><ol type=\"a\"><li>En motor lämnar 2750 W och lyfter ett piano på 385 kg rakt upp 16,0 m med konstant fart. Hur lång tid tar det? Svara i s. Svara med tre värdesiffror.</li><li>Lars på 82,4 kg går uppför en trappa med höjden 12,0 m. Den effekt som ökar lägesenergin är 1,0 hk. 1 hk = 735,5 W. Hur lång tid tar det? Svara i s. Svara med tre värdesiffror.</li><li>En pump höjer 27,0 kg vatten varje minut med 3,50 m. Vilken är minsta nyttiga medeleffekt? Svara i W. Svara med tre värdesiffror.</li><li>Skidliftar höjer 47 000 skidåkare per timme med 200 m. Varje skidåkare har massan 75 kg. Vilken är minsta sammanlagda nyttiga medeleffekt? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En motor lämnar 2750 W och lyfter ett piano på 385 kg rakt upp 16,0 m med konstant fart. Hur lång tid tar det? Svara i s. Svara med tre värdesiffror.</li><li>Lars på 82,4 kg går uppför en trappa med höjden 12,0 m. Den effekt som ökar lägesenergin är 1,0 hk. 1 hk = 735,5 W. Hur lång tid tar det? Svara i s. Svara med tre värdesiffror.</li><li>En pump höjer 27,0 kg vatten varje minut med 3,50 m. Vilken effekt krävs minst? Svara i W. Svara med tre värdesiffror.</li><li>Skidliftar höjer 47 000 skidåkare per timme med 200 m. Varje skidåkare har massan 75 kg. Vilken sammanlagd effekt krävs minst? Svara i W. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart går motorarbetet till ökad lägesenergi. Beräkna arbetet och dividera med effekten.</p>\\[W=385\\cdot9{,}82\\cdot16{,}0=60491{,}2\\,\\mathrm J\\]\\[t=\\frac{60491{,}2}{2750}\\approx22{,}0\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Beräkna ökningen i lägesenergi. Omvandla 1,0 hk till 735,5 W och dividera energin med effekten.</p>\\[\\Delta E_p=82{,}4\\cdot9{,}82\\cdot12{,}0=9710{,}016\\,\\mathrm J\\]\\[t=\\frac{9710{,}016}{735{,}5}\\approx13{,}2\\,\\mathrm s\\]<p><strong>c)</strong></p><p>Beräkna det arbete som höjer en minuts vatten. Dividera med 60 s.</p>\\[W=27{,}0\\cdot9{,}82\\cdot3{,}50=927{,}99\\,\\mathrm J\\]\\[P=\\frac{927{,}99}{60}\\approx15{,}5\\,\\mathrm W\\]<p><strong>d)</strong></p><p>En timme är 3600 s. Summera skidåkarnas massa och beräkna den sammanlagda lägesenergiökningen under timmen.</p>\\[m=47000\\cdot75=3525000\\,\\mathrm{kg}\\]\\[\\begin{gathered}\\Delta E_p=3525000\\cdot9{,}82\\cdot200\\\\=6923100000\\,\\mathrm J\\end{gathered}\\]\\[P=\\frac{6923100000}{3600}\\approx1{,}92\\cdot10^6\\,\\mathrm W\\]<p>Detta är minsta nyttiga effekt för skidåkarna. Liftens egen massa och förluster kan kräva mer.</p></div>",
     "id": "5.559",
     "miniräknare": true,
@@ -134956,12 +135120,12 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt och bortse från energiförluster.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur lång tid tar lyftet? Svara i s med tre värdesiffror.",
-        "t": "<p>En motor lämnar 2750 W och lyfter ett piano på 385 kg rakt upp 16,0 m med konstant fart. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Hur lång tid tar lyftet? Svara i s med tre värdesiffror.</p>",
+        "t": "<p>En motor lämnar 2750 W och lyfter ett piano på 385 kg rakt upp 16,0 m med konstant fart. Använd g = 9,82 m/s².</p><p>Hur lång tid tar lyftet? Svara i s med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart går motorarbetet till ökad lägesenergi. Beräkna arbetet och dividera med effekten.</p>\\[W=385\\cdot9{,}82\\cdot16{,}0=60491{,}2\\,\\mathrm J\\]\\[t=\\frac{60491{,}2}{2750}\\approx22{,}0\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
         "niva": "E",
@@ -134971,8 +135135,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar trappan? Svara i s med tre värdesiffror.",
-        "t": "<p>Lars på 82,4 kg går uppför en trappa med höjden 12,0 m. Effekten som ökar hans lägesenergi är 1,0 hk. 1 hk = 735,5 W. Använd g = 9,82 m/s².</p><p>Hur lång tid tar trappan? Svara i s med tre värdesiffror.</p>",
+        "fraga": "Hur lång tid tar det att gå uppför trappan? Svara i s med tre värdesiffror.",
+        "t": "<p>Lars på 82,4 kg går uppför en trappa med höjden 12,0 m. Effekten som ökar hans lägesenergi är 1,0 hk. 1 hk = 735,5 W. Använd g = 9,82 m/s².</p><p>Hur lång tid tar det att gå uppför trappan? Svara i s med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna ökningen i lägesenergi. Omvandla 1,0 hk till 735,5 W och dividera energin med effekten.</p>\\[\\Delta E_p=82{,}4\\cdot9{,}82\\cdot12{,}0=9710{,}016\\,\\mathrm J\\]\\[t=\\frac{9710{,}016}{735{,}5}\\approx13{,}2\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
         "niva": "E",
@@ -134982,8 +135146,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken är minsta nyttiga medeleffekt? Svara i W med tre värdesiffror.",
-        "t": "<p>En pump höjer 27,0 kg vatten varje minut med 3,50 m. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Vilken är minsta nyttiga medeleffekt? Svara i W med tre värdesiffror.</p>",
+        "fraga": "Vilken effekt krävs minst? Svara i W med tre värdesiffror.",
+        "t": "<p>En pump höjer 27,0 kg vatten varje minut med 3,50 m. Använd g = 9,82 m/s².</p><p>Vilken effekt krävs minst? Svara i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna det arbete som höjer en minuts vatten. Dividera med 60 s.</p>\\[W=27{,}0\\cdot9{,}82\\cdot3{,}50=927{,}99\\,\\mathrm J\\]\\[P=\\frac{927{,}99}{60}\\approx15{,}5\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
         "niva": "E",
@@ -134993,8 +135157,8 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Vilken är minsta sammanlagda nyttiga medeleffekt som höjer skidåkarna? Svara i W med tre värdesiffror.",
-        "t": "<p>Skidliftar höjer 47 000 skidåkare per timme med 200 m. Varje skidåkare har massan 75 kg. Använd g = 9,82 m/s².</p><p>Vilken är minsta sammanlagda nyttiga medeleffekt som höjer skidåkarna? Svara i W med tre värdesiffror.</p>",
+        "fraga": "Vilken sammanlagd effekt krävs minst för att höja skidåkarna? Svara i W med tre värdesiffror.",
+        "t": "<p>Skidliftar höjer 47 000 skidåkare per timme med 200 m. Varje skidåkare har massan 75 kg. Använd g = 9,82 m/s².</p><p>Vilken sammanlagd effekt krävs minst för att höja skidåkarna? Svara i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>En timme är 3600 s. Summera skidåkarnas massa och beräkna den sammanlagda lägesenergiökningen under timmen.</p>\\[m=47000\\cdot75=3525000\\,\\mathrm{kg}\\]\\[\\begin{gathered}\\Delta E_p=3525000\\cdot9{,}82\\cdot200\\\\=6923100000\\,\\mathrm J\\end{gathered}\\]\\[P=\\frac{6923100000}{3600}\\approx1{,}92\\cdot10^6\\,\\mathrm W\\]<p>Detta är minsta nyttiga effekt för skidåkarna. Liftens egen massa och förluster kan kräva mer.</p></div>",
         "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
         "niva": "C",
@@ -135071,7 +135235,7 @@ window.BANK = [
     "niva": "C",
     "typ": "effekt och fart",
     "poang": "(3/1/0)",
-    "t": "<p>Räkna på nyttig mekanisk effekt i rörelseriktningen. 1 hk = 735,5 W.</p><ol type=\"a\"><li>En bil håller konstant fart 180 km/h med effekten 100 kW. Hur stor är drivkraften? Svara i N. Svara med tre värdesiffror.</li><li>En bil håller konstant fart 95 km/h med effekten 18 hk. Hur stor är den sammanlagda motståndskraften? Svara i N. Svara med tre värdesiffror.</li><li>En flygmotor ger drivkraften 120 kN vid farten 234 m/s. Bestäm den nyttiga effekten i W. Svara med tre värdesiffror.</li><li>En cyklist håller konstant fart med den nyttiga effekten 120 W. Motståndskraften är 16 N. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>1 hk = 735,5 W.</p><ol type=\"a\"><li>En bil håller konstant fart 180 km/h med effekten 100 kW. Hur stor är drivkraften? Svara i N. Svara med tre värdesiffror.</li><li>En bil håller konstant fart 95 km/h med effekten 18 hk. Hur stor är den sammanlagda motståndskraften? Svara i N. Svara med tre värdesiffror.</li><li>En flygmotor ger drivkraften 120 kN vid farten 234 m/s. Bestäm effekten i W. Svara med tre värdesiffror.</li><li>En cyklist håller konstant fart med effekten 120 W. Motståndskraften är 16 N. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla effekten och farten: 100 kW = 100 000 W och 180/3,6 = 50 m/s. Lös P = Fv för kraften.</p>\\[F=\\frac Pv=\\frac{100000}{50}=2000\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Omvandla effekten till W och farten till m/s. Konstant fart betyder att drivkraften balanserar motståndet.</p>\\[P=18\\cdot735{,}5=13239\\,\\mathrm W\\]\\[v=\\frac{95}{3{,}6}\\,\\mathrm{m/s}\\]\\[F_\\text{mot}=\\frac Pv=\\frac{13239}{95/3{,}6}\\approx502\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Omvandla 120 kN till 120 000 N. Kraften är i rörelseriktningen.</p>\\[P=Fv=120000\\cdot234=28080000\\,\\mathrm W\\]<p>Med tre värdesiffror: 2,81 · 10⁷ W.</p><p><strong>d)</strong></p><p>Vid konstant fart är drivkraften lika stor som motståndskraften, 16 N. Lös P = Fv för farten.</p>\\[v=\\frac PF=\\frac{120}{16}=7{,}50\\,\\mathrm{m/s}\\]</div>",
     "id": "5.562",
     "miniräknare": true,
@@ -135114,12 +135278,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna på nyttig mekanisk effekt i rörelseriktningen. 1 hk = 735,5 W.</p>",
+    "spelIntro": "<p>1 hk = 735,5 W.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är bilens drivkraft? Svara i N med tre värdesiffror.",
-        "t": "<p>En bil håller konstant fart 180 km/h med nyttig mekanisk effekt 100 kW.</p><p>Hur stor är bilens drivkraft? Svara i N med tre värdesiffror.</p>",
+        "t": "<p>En bil håller konstant fart 180 km/h med effekten 100 kW.</p><p>Hur stor är bilens drivkraft? Svara i N med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten och farten: 100 kW = 100 000 W och 180/3,6 = 50 m/s. Lös P = Fv för kraften.</p>\\[F=\\frac Pv=\\frac{100000}{50}=2000\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Omvandla farten till m/s och använd F = P/v.</p>",
         "niva": "E",
@@ -135130,7 +135294,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur stor är den sammanlagda motståndskraften? Svara i N med tre värdesiffror.",
-        "t": "<p>En bil håller konstant fart 95 km/h med nyttig mekanisk effekt 18 hk. 1 hk = 735,5 W.</p><p>Hur stor är den sammanlagda motståndskraften? Svara i N med tre värdesiffror.</p>",
+        "t": "<p>En bil håller konstant fart 95 km/h med effekten 18 hk. 1 hk = 735,5 W.</p><p>Hur stor är den sammanlagda motståndskraften? Svara i N med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten till W och farten till m/s. Konstant fart betyder att drivkraften balanserar motståndet.</p>\\[P=18\\cdot735{,}5=13239\\,\\mathrm W\\]\\[v=\\frac{95}{3{,}6}\\,\\mathrm{m/s}\\]\\[F_\\text{mot}=\\frac Pv=\\frac{13239}{95/3{,}6}\\approx502\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Vid konstant fart är drivkraften och motståndet lika stora.</p>",
         "niva": "C",
@@ -135140,8 +135304,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den nyttiga effekten i W med tre värdesiffror.",
-        "t": "<p>En flygmotor ger drivkraften 120 kN i rörelseriktningen vid farten 234 m/s.</p><p>Bestäm den nyttiga effekten i W med tre värdesiffror.</p>",
+        "fraga": "Bestäm effekten i W med tre värdesiffror.",
+        "t": "<p>En flygmotor ger drivkraften 120 kN i rörelseriktningen vid farten 234 m/s.</p><p>Bestäm effekten i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 120 kN till 120 000 N. Kraften är i rörelseriktningen.</p>\\[P=Fv=120000\\cdot234=28080000\\,\\mathrm W\\]<p>Med tre värdesiffror: 2,81 · 10⁷ W.</p></div>",
         "ledtrad": "<p>Omvandla kN till N.</p>",
         "niva": "E",
@@ -135152,7 +135316,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Bestäm farten i m/s med tre värdesiffror.",
-        "t": "<p>En cyklist håller konstant fart med nyttig mekanisk effekt 120 W. Motståndskraften är 16 N. Använd v = P/F.</p><p>Bestäm farten i m/s med tre värdesiffror.</p>",
+        "t": "<p>En cyklist håller konstant fart med effekten 120 W. Motståndskraften är 16 N. Använd v = P/F.</p><p>Bestäm farten i m/s med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är drivkraften lika stor som motståndskraften, 16 N. Lös P = Fv för farten.</p>\\[v=\\frac PF=\\frac{120}{16}=7{,}50\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Vid konstant fart balanserar drivkraften motståndet.</p>",
         "niva": "E",
@@ -135328,10 +135492,10 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "niva": "C",
-    "typ": "tid för acceleration med konstant effekt",
+    "typ": "tid för fartökning med given medeleffekt",
     "poang": "(0/2/0)",
-    "t": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s. Motorns nyttiga mekaniska medeleffekt under fartökningen är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur lång tid tar fartökningen på en vågrät väg? Svara i s. Svara med tre värdesiffror.</li><li>Hur lång tid tar fartökningen om bilen samtidigt stiger 3,00 m? Svara i s. Svara med tre värdesiffror.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla medeleffekten: 40,0 hk = 40,0 · 735,5 = 29 420 W. På en vågrät väg ökar bara rörelseenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[t=\\frac{95625}{29420}\\approx3{,}25\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Omvandla medeleffekten till 29 420 W. Arbetet ökar både rörelseenergin och lägesenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[\\Delta E_p=850\\cdot9{,}82\\cdot3{,}00=25041\\,\\mathrm J\\]\\[W=95625+25041=120666\\,\\mathrm J\\]\\[t=\\frac{120666}{29420}\\approx4{,}10\\,\\mathrm s\\]</div>",
+    "t": "<p>En bil med massan 850 kg ökar farten från 0 till 15,0 m/s. Motorns medeleffekt är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd. Använd g = 9,82 m/s².</p><p><strong>a)</strong> Hur lång tid tar det att nå 15,0 m/s på en vågrät väg? Svara i s med tre värdesiffror.</p><p><strong>b)</strong> Bilen kör uppför en backe och kommer 3,00 m högre upp under fartökningen. Hur lång tid tar det att nå 15,0 m/s? Svara i s med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla medeleffekten: 40,0 hk = 40,0 · 735,5 = 29 420 W. På en vågrät väg ökar bara rörelseenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[t=\\frac{95625}{29420}\\approx3{,}25\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Omvandla medeleffekten till 29 420 W. Bilen får både större fart och större höjd. Motorns arbete måste därför öka både rörelseenergin och lägesenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[\\Delta E_p=850\\cdot9{,}82\\cdot3{,}00=25041\\,\\mathrm J\\]\\[W=95625+25041=120666\\,\\mathrm J\\]\\[t=\\frac{120666}{29420}\\approx4{,}10\\,\\mathrm s\\]</div>",
     "id": "5.565",
     "miniräknare": true,
     "geogebra": false,
@@ -135364,12 +135528,12 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s. Motorns nyttiga mekaniska medeleffekt under fartökningen är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En bil med massan 850 kg ökar farten från 0 till 15,0 m/s. Motorn överför i genomsnitt effekten 40,0 hk till bilen. 1 hk = 735,5 W. Räkna med att motorns arbete bara ökar bilens rörelseenergi och lägesenergi. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång tid tar fartökningen? Svara i s. Svara med tre värdesiffror.",
-        "t": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s på en vågrät väg. Den nyttiga mekaniska medeleffekten är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation.</p><p>Hur lång tid tar fartökningen? Svara i s. Svara med tre värdesiffror.</p>",
+        "fraga": "Hur lång tid tar det att nå 15,0 m/s på en vågrät väg? Svara i s med tre värdesiffror.",
+        "t": "<p>En bil med massan 850 kg ökar farten från 0 till 15,0 m/s. Motorns medeleffekt är 40,0 hk. 1 hk = 735,5 W. Bilen kör på en vågrät väg. Räkna med att motorns arbete bara ökar bilens rörelseenergi.</p><p>Hur lång tid tar det att nå 15,0 m/s på en vågrät väg? Svara i s med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla medeleffekten: 40,0 hk = 40,0 · 735,5 = 29 420 W. På en vågrät väg ökar bara rörelseenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[t=\\frac{95625}{29420}\\approx3{,}25\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Ökningen i rörelseenergi delad med medeleffekten ger tiden.</p>",
         "niva": "C",
@@ -135379,9 +135543,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar fartökningen? Svara i s med tre värdesiffror.",
-        "t": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s och stiger samtidigt 3,00 m. Den nyttiga mekaniska medeleffekten är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation. Använd g = 9,82 m/s².</p><p>Hur lång tid tar fartökningen? Svara i s med tre värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla medeleffekten till 29 420 W. Arbetet ökar både rörelseenergin och lägesenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[\\Delta E_p=850\\cdot9{,}82\\cdot3{,}00=25041\\,\\mathrm J\\]\\[W=95625+25041=120666\\,\\mathrm J\\]\\[t=\\frac{120666}{29420}\\approx4{,}10\\,\\mathrm s\\]</div>",
+        "fraga": "Hur lång tid tar det att nå 15,0 m/s? Svara i s med tre värdesiffror.",
+        "t": "<p>En bil med massan 850 kg kör uppför en backe och ökar farten från 0 till 15,0 m/s. Under fartökningen kommer bilen 3,00 m högre upp. Motorns medeleffekt är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd. Använd g = 9,82 m/s².</p><p>Hur lång tid tar det att nå 15,0 m/s? Svara i s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla medeleffekten till 29 420 W. Bilen får både större fart och större höjd. Motorns arbete måste därför öka både rörelseenergin och lägesenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[\\Delta E_p=850\\cdot9{,}82\\cdot3{,}00=25041\\,\\mathrm J\\]\\[W=95625+25041=120666\\,\\mathrm J\\]\\[t=\\frac{120666}{29420}\\approx4{,}10\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Beräkna båda energiökningarna innan du summerar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135401,7 +135565,7 @@ window.BANK = [
     "niva": "C",
     "typ": "extra effekt i uppförsbacke",
     "poang": "(0/3/0)",
-    "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><ol type=\"a\"><li>En bil på 1200 kg håller 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt avstånd. Vilken extra effekt går till höjdökningen jämfört med en vågrät väg? Svara i W. Svara med tre värdesiffror.</li><li>En bil på 710 kg håller 23,0 m/s uppför en backe som lutar 2,0°. Motståndskraften utöver tyngdkraften är 500 N. Vilken motoreffekt behövs? Svara i W. Svara med tre värdesiffror.</li><li>En bil på 950 kg håller 30,0 m/s uppför en backe som lutar 5,0°. Motståndskraften utöver tyngdkraften är 600 N. Vilken motoreffekt behövs? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En bil på 1200 kg håller 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt avstånd. Vilken extra effekt går till höjdökningen jämfört med en vågrät väg? Svara i W. Svara med tre värdesiffror.</li><li>En bil på 710 kg håller 23,0 m/s uppför en backe som lutar 2,0°. Motståndskraften utöver tyngdkraften är 500 N. Vilken motoreffekt behövs? Svara i W. Svara med tre värdesiffror.</li><li>En bil på 950 kg håller 30,0 m/s uppför en backe som lutar 5,0°. Motståndskraften utöver tyngdkraften är 600 N. Vilken motoreffekt behövs? Svara i W. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>90 km/h = 25 m/s. Bestäm höjdökningen som andel av sträckan längs backen. De 100 m är vågrät sträcka.</p>\\[\\sin\\theta=\\frac{15}{\\sqrt{100^2+15^2}}\\]<p>Den extra effekten är mg gånger den lodräta farten.</p>\\[P_\\text{extra}=mgv\\sin\\theta\\]\\[P_\\text{extra}=1200\\cdot9{,}82\\cdot25\\cdot\\frac{15}{\\sqrt{100^2+15^2}}\\]\\[P_\\text{extra}\\approx43700\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Konstant fart innebär att drivkraften balanserar både tyngdkraftens del längs backen och motståndet.</p>\\[F=mg\\sin2{,}0^\\circ+500\\]\\[\\begin{gathered}F=710\\cdot9{,}82\\sin2{,}0^\\circ+500\\\\\\approx743{,}326\\,\\mathrm N\\end{gathered}\\]<p>Använd oavrundad kraft i P = Fv.</p>\\[\\begin{gathered}P=(710\\cdot9{,}82\\sin2{,}0^\\circ+500)\\cdot23{,}0\\\\\\approx17100\\,\\mathrm W\\end{gathered}\\]<p><strong>c)</strong></p><p>Drivkraften balanserar både motståndet och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=950\\cdot9{,}82\\sin5{,}0^\\circ+600\\\\\\approx1413{,}076\\,\\mathrm N\\end{gathered}\\]<p>Multiplicera den oavrundade kraften med farten.</p>\\[\\begin{gathered}P=(950\\cdot9{,}82\\sin5{,}0^\\circ+600)\\cdot30{,}0\\\\\\approx42400\\,\\mathrm W\\end{gathered}\\]</div>",
     "id": "5.566",
     "miniräknare": true,
@@ -135440,12 +135604,12 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken extra nyttig mekanisk effekt går till höjdökningen? Svara i W med tre värdesiffror.",
-        "t": "<p>En bil på 1200 kg håller 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt avstånd. Använd g = 9,82 m/s².</p><p>Vilken extra nyttig mekanisk effekt går till höjdökningen? Svara i W med tre värdesiffror.</p>",
+        "fraga": "Vilken extra effekt går till höjdökningen? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 1200 kg håller 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt avstånd. Använd g = 9,82 m/s².</p><p>Vilken extra effekt går till höjdökningen? Svara i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>90 km/h = 25 m/s. Bestäm höjdökningen som andel av sträckan längs backen. De 100 m är vågrät sträcka.</p>\\[\\sin\\theta=\\frac{15}{\\sqrt{100^2+15^2}}\\]<p>Den extra effekten är mg gånger den lodräta farten.</p>\\[P_\\text{extra}=mgv\\sin\\theta\\]\\[P_\\text{extra}=1200\\cdot9{,}82\\cdot25\\cdot\\frac{15}{\\sqrt{100^2+15^2}}\\]\\[P_\\text{extra}\\approx43700\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Beräkna höjdökningens andel av sträckan längs backen.</p>",
         "niva": "C",
@@ -135455,8 +135619,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.",
-        "t": "<p>En bil på 710 kg håller 23,0 m/s uppför en backe som lutar 2,0°. Motståndskraften utöver tyngdkraften är 500 N. Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.</p>",
+        "fraga": "Vilken motoreffekt behövs? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 710 kg håller 23,0 m/s uppför en backe som lutar 2,0°. Motståndskraften utöver tyngdkraften är 500 N. Använd g = 9,82 m/s².</p><p>Vilken motoreffekt behövs? Svara i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att drivkraften balanserar både tyngdkraftens del längs backen och motståndet.</p>\\[F=mg\\sin2{,}0^\\circ+500\\]\\[\\begin{gathered}F=710\\cdot9{,}82\\sin2{,}0^\\circ+500\\\\\\approx743{,}326\\,\\mathrm N\\end{gathered}\\]<p>Använd oavrundad kraft i P = Fv.</p>\\[\\begin{gathered}P=(710\\cdot9{,}82\\sin2{,}0^\\circ+500)\\cdot23{,}0\\\\\\approx17100\\,\\mathrm W\\end{gathered}\\]</div>",
         "ledtrad": "<p>Vilka två krafter måste drivkraften balansera?</p>",
         "niva": "C",
@@ -135466,8 +135630,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.",
-        "t": "<p>En bil på 950 kg håller 30,0 m/s uppför en backe som lutar 5,0°. Motståndskraften utöver tyngdkraften är 600 N. Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.</p>",
+        "fraga": "Vilken motoreffekt behövs? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 950 kg håller 30,0 m/s uppför en backe som lutar 5,0°. Motståndskraften utöver tyngdkraften är 600 N. Använd g = 9,82 m/s².</p><p>Vilken motoreffekt behövs? Svara i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Drivkraften balanserar både motståndet och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=950\\cdot9{,}82\\sin5{,}0^\\circ+600\\\\\\approx1413{,}076\\,\\mathrm N\\end{gathered}\\]<p>Multiplicera den oavrundade kraften med farten.</p>\\[\\begin{gathered}P=(950\\cdot9{,}82\\sin5{,}0^\\circ+600)\\cdot30{,}0\\\\\\approx42400\\,\\mathrm W\\end{gathered}\\]</div>",
         "ledtrad": "<p>Vilka två krafter måste drivkraften balansera?</p>",
         "niva": "C",
@@ -135488,7 +135652,7 @@ window.BANK = [
     "niva": "C",
     "typ": "cyklist uppför backe",
     "poang": "(0/2/0)",
-    "t": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg håller cyklisten 6,0 m/s med nyttig mekanisk effekt 200 W. Backen lutar 10°. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken nyttig effekt behövs för att hålla 6,0 m/s uppför backen? Anta samma motståndskraft som på vågrät väg. Svara i W. Svara med tre värdesiffror.</li><li>I ett annat fall är motståndskraften 30 N utöver tyngdkraften. Vilken konstant fart kan cyklisten hålla uppför backen med 200 W nyttig effekt? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg håller cyklisten 6,0 m/s med effekten 200 W. Backen lutar 10°. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken effekt behövs för att hålla 6,0 m/s uppför backen? Anta samma motståndskraft som på vågrät väg. Svara i W. Svara med tre värdesiffror.</li><li>I ett annat fall är motståndskraften 30 N utöver tyngdkraften. Vilken konstant fart kan cyklisten hålla uppför backen med 200 W? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vågrät väg balanserar drivkraften motståndet. Bestäm motståndet från P = Fv.</p>\\[F_\\text{mot}=\\frac{200}{6{,}0}=\\frac{100}{3}\\,\\mathrm N\\]<p>Uppför backen tillkommer tyngdkraftens del längs backen.</p>\\[F_g=90\\cdot9{,}82\\sin10^\\circ\\approx153{,}470\\,\\mathrm N\\]\\[P=\\left(\\frac{200}{6{,}0}+90\\cdot9{,}82\\sin10^\\circ\\right)\\cdot6{,}0\\]\\[P\\approx1120\\,\\mathrm W\\]<p><strong>b)</strong></p><p>I detta fall är motståndskraften given som 30 N. Drivkraften måste också balansera tyngdkraftens del längs backen.</p>\\[F=30+90\\cdot9{,}82\\sin10^\\circ\\approx183{,}470\\,\\mathrm N\\]<p>Lös P = Fv för farten. Använd oavrundad kraft.</p>\\[v=\\frac{200}{30+90\\cdot9{,}82\\sin10^\\circ}\\approx1{,}09\\,\\mathrm{m/s}\\]</div>",
     "id": "5.567",
     "miniräknare": true,
@@ -135522,12 +135686,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg håller cyklisten 6,0 m/s med nyttig mekanisk effekt 200 W. Backen lutar 10°. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg håller cyklisten 6,0 m/s med effekt 200 W. Backen lutar 10°. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken nyttig effekt behövs för att hålla 6,0 m/s uppför backen? Svara i W. Svara med tre värdesiffror.",
-        "t": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg hålls 6,0 m/s med nyttig mekanisk effekt 200 W. Anta att motståndskraften är samma i en backe som lutar 10°. Använd g = 9,82 m/s².</p><p>Vilken nyttig effekt behövs för att hålla 6,0 m/s uppför backen? Svara i W. Svara med tre värdesiffror.</p>",
+        "fraga": "Vilken effekt behövs för att hålla 6,0 m/s uppför backen? Svara i W. Svara med tre värdesiffror.",
+        "t": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg hålls 6,0 m/s med effekten 200 W. Anta att motståndskraften är samma i en backe som lutar 10°. Använd g = 9,82 m/s².</p><p>Vilken effekt behövs för att hålla 6,0 m/s uppför backen? Svara i W. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrät väg balanserar drivkraften motståndet. Bestäm motståndet från P = Fv.</p>\\[F_\\text{mot}=\\frac{200}{6{,}0}=\\frac{100}{3}\\,\\mathrm N\\]<p>Uppför backen tillkommer tyngdkraftens del längs backen.</p>\\[F_g=90\\cdot9{,}82\\sin10^\\circ\\approx153{,}470\\,\\mathrm N\\]\\[P=\\left(\\frac{200}{6{,}0}+90\\cdot9{,}82\\sin10^\\circ\\right)\\cdot6{,}0\\]\\[P\\approx1120\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Bestäm motståndet på vågrät väg innan du lägger till backens påverkan.</p>",
         "niva": "C",
@@ -135538,7 +135702,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Vilken konstant fart kan cyklisten hålla uppför backen? Svara i m/s med tre värdesiffror.",
-        "t": "<p>En cyklist med cykel har massan 90 kg. Backen lutar 10° och motståndskraften utöver tyngdkraften är 30 N. Den nyttiga mekaniska effekten är 200 W. Använd g = 9,82 m/s².</p><p>Vilken konstant fart kan cyklisten hålla uppför backen? Svara i m/s med tre värdesiffror.</p>",
+        "t": "<p>En cyklist med cykel har massan 90 kg. Backen lutar 10° och motståndskraften utöver tyngdkraften är 30 N. Den effekten är 200 W. Använd g = 9,82 m/s².</p><p>Vilken konstant fart kan cyklisten hålla uppför backen? Svara i m/s med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>I detta fall är motståndskraften given som 30 N. Drivkraften måste också balansera tyngdkraftens del längs backen.</p>\\[F=30+90\\cdot9{,}82\\sin10^\\circ\\approx183{,}470\\,\\mathrm N\\]<p>Lös P = Fv för farten. Använd oavrundad kraft.</p>\\[v=\\frac{200}{30+90\\cdot9{,}82\\sin10^\\circ}\\approx1{,}09\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Motståndet är givet. Lägg till tyngdkraftens del längs backen.</p>",
         "niva": "C",
@@ -135559,7 +135723,7 @@ window.BANK = [
     "niva": "C",
     "typ": "största lutning för given effekt",
     "poang": "(0/1/0)",
-    "t": "<p>En bil på 1000 kg kan lämna högst 45 hk nyttig mekanisk effekt. Motståndskraften utöver tyngdkraften är 300 N. 1 hk = 735,5 W. Använd g = 9,82 m/s². Vilken är den största vinkel en uppförsbacke kan ha om bilen ska hålla 50 km/h? Svara i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "t": "<p>En bil på 1000 kg har motoreffekten 45 hk. Motståndskraften utöver tyngdkraften är 300 N. 1 hk = 735,5 W. Använd g = 9,82 m/s². Vilken är den största vinkel en uppförsbacke kan ha om bilen ska hålla 50 km/h? Svara i grader.</p><p>Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten och farten. Vid denna fart ger effektgränsen den största drivkraften.</p>\\[P=45\\cdot735{,}5=33097{,}5\\,\\mathrm W\\]\\[v=\\frac{50}{3{,}6}\\,\\mathrm{m/s}\\]\\[F=\\frac Pv=\\frac{33097{,}5}{50/3{,}6}=2383{,}02\\,\\mathrm N\\]<p>Drivkraften måste balansera både motståndet och tyngdkraftens del längs backen.</p>\\[mg\\sin\\alpha=2383{,}02-300=2083{,}02\\,\\mathrm N\\]\\[\\alpha=\\arcsin\\left(\\frac{2083{,}02}{1000\\cdot9{,}82}\\right)\\approx12{,}2^\\circ\\]</div>",
     "id": "5.568",
     "miniräknare": true,
@@ -135586,7 +135750,7 @@ window.BANK = [
     "niva": "C",
     "typ": "acceleration med konstant effekt",
     "poang": "(0/3/0)",
-    "t": "<p>Använd g = 9,82 m/s². Alla effekter avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen är i rörelseriktningen.</p><ol type=\"a\"><li>En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.</li><li>En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</li><li>En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Använd g = 9,82 m/s². Bilarna ökar farten.</p><ol type=\"a\"><li>En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.</li><li>En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</li><li>En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan till 6000 kg, effekten till 42 000 W och motståndet till 2800 N. Bestäm drivkraften med P = Fv.</p>\\[F=\\frac{42000}{6{,}0}=7000\\,\\mathrm N\\]<p>Kraftsumman är drivkraft minus motstånd.</p>\\[a=\\frac{7000-2800}{6000}=0{,}700\\,\\mathrm{m/s^2}\\]<p><strong>b)</strong></p><p>Massan är 5000 kg. Drivkraften behöver både accelerera bilen och övervinna motståndet och tyngdkraftens del längs backen.</p>\\[F=ma+F_\\text{mot}+mg\\sin10{,}0^\\circ\\]\\[F_g=5000\\cdot9{,}82\\sin10{,}0^\\circ\\]\\[F_g\\approx8526{,}126\\,\\mathrm N\\]\\[F=1000+600+F_g\\]\\[F\\approx10126{,}126\\,\\mathrm N\\]\\[P=Fv\\approx10126{,}126\\ldots\\cdot6{,}0\\approx60800\\,\\mathrm W\\]<p><strong>c)</strong></p><p>Massan är 1600 kg. Välj nedför som positiv riktning. Tyngdkraftens del längs backen hjälper drivkraften.</p>\\[F+mg\\sin2{,}0^\\circ-260=ma\\]\\[\\begin{gathered}F\\\\=1600\\cdot0{,}75+260-1600\\cdot9{,}82\\sin2{,}0^\\circ\\end{gathered}\\]\\[F\\approx911{,}659\\,\\mathrm N\\]<p>Motoreffekten är 10 800 W. Lös P = Fv och använd oavrundad kraft.</p>\\[v=\\frac{10800}{911{,}659\\ldots}\\]\\[v\\approx11{,}8\\,\\mathrm{m/s}\\]</div>",
     "id": "5.569",
     "miniräknare": true,
@@ -135625,12 +135789,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd g = 9,82 m/s². Alla effekter avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen är i rörelseriktningen.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Bilarna ökar farten.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.",
-        "t": "<p>Effekten avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen räknas positiv i rörelseriktningen.</p><p>En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.</p>",
+        "t": "<p>Farten ökar.</p><p>En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan till 6000 kg, effekten till 42 000 W och motståndet till 2800 N. Bestäm drivkraften med P = Fv.</p>\\[F=\\frac{42000}{6{,}0}=7000\\,\\mathrm N\\]<p>Kraftsumman är drivkraft minus motstånd.</p>\\[a=\\frac{7000-2800}{6000}=0{,}700\\,\\mathrm{m/s^2}\\]</div>",
         "ledtrad": "<p>Bestäm drivkraften från effekt och fart. Dra sedan bort motståndet.</p>",
         "niva": "C",
@@ -135641,7 +135805,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.",
-        "t": "<p>Använd g = 9,82 m/s². Effekten avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen räknas positiv i rörelseriktningen.</p><p>En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</p>",
+        "t": "<p>Använd g = 9,82 m/s². Farten ökar.</p><p>En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 5000 kg. Drivkraften behöver både accelerera bilen och övervinna motståndet och tyngdkraftens del längs backen.</p>\\[F=ma+F_\\text{mot}+mg\\sin10{,}0^\\circ\\]\\[F_g=5000\\cdot9{,}82\\sin10{,}0^\\circ\\]\\[F_g\\approx8526{,}126\\,\\mathrm N\\]\\[F=1000+600+F_g\\]\\[F\\approx10126{,}126\\,\\mathrm N\\]\\[P=Fv\\approx10126{,}126\\ldots\\cdot6{,}0\\approx60800\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Drivkraften måste både öka farten och övervinna de två bromsande krafterna.</p>",
         "niva": "C",
@@ -135652,7 +135816,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.",
-        "t": "<p>Använd g = 9,82 m/s². Effekten avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen räknas positiv i rörelseriktningen.</p><p>En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.</p>",
+        "t": "<p>Använd g = 9,82 m/s². Farten ökar.</p><p>En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1600 kg. Välj nedför som positiv riktning. Tyngdkraftens del längs backen hjälper drivkraften.</p>\\[F+mg\\sin2{,}0^\\circ-260=ma\\]\\[\\begin{gathered}F\\\\=1600\\cdot0{,}75+260-1600\\cdot9{,}82\\sin2{,}0^\\circ\\end{gathered}\\]\\[F\\approx911{,}659\\,\\mathrm N\\]<p>Motoreffekten är 10 800 W. Lös P = Fv och använd oavrundad kraft.</p>\\[v=\\frac{10800}{911{,}659\\ldots}\\]\\[v\\approx11{,}8\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Nedför hjälper tyngdkraften drivkraften.</p>",
         "niva": "C",
@@ -135673,7 +135837,7 @@ window.BANK = [
     "niva": "C",
     "typ": "konstant fart i backe",
     "poang": "(0/3/0)",
-    "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><ol type=\"a\"><li>En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</li><li>En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.</li><li>En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</li><li>En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.</li><li>En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Massan är 1000 kg. Konstant fart kräver att drivkraften balanserar motstånd och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=1000\\cdot9{,}82\\sin6{,}0^\\circ+250\\\\\\approx1276{,}470\\,\\mathrm N\\end{gathered}\\]\\[\\begin{gathered}P=(1000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\\\\\approx15300\\,\\mathrm W\\end{gathered}\\]<p><strong>b)</strong></p><p>Omvandla farten: 90 km/h = 25 m/s. Effekten ger drivkraften.</p>\\[F=\\frac Pv=\\frac{31000}{25}=1240\\,\\mathrm N\\]<p>En del av drivkraften balanserar tyngdkraftens del längs backen. Resten balanserar motståndet.</p>\\[\\begin{gathered}F_\\text{mot}=1240-1200\\cdot9{,}82\\sin4{,}0^\\circ\\\\\\approx418\\,\\mathrm N\\end{gathered}\\]<p><strong>c)</strong></p><p>Massan är 5000 kg, farten är 54/3,6 = 15 m/s och motståndet är 2500 N. Konstant fart kräver att bromsar och motstånd tillsammans balanserar tyngdkraftens del nedför backen.</p>\\[F_\\text{broms}=5000\\cdot9{,}82\\sin6{,}0^\\circ-2500\\]\\[F_\\text{broms}\\approx2632{,}348\\,\\mathrm N\\]<p>Bromskraftens arbete är negativt. Den effekt som bromsarna tar är dess positiva belopp.</p>\\[P_\\text{broms}=(5000\\cdot9{,}82\\sin6{,}0^\\circ-2500)\\cdot15\\]\\[P_\\text{broms}\\approx39500\\,\\mathrm W\\]</div>",
     "id": "5.570",
     "miniräknare": true,
@@ -135712,12 +135876,12 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.",
-        "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><p>En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</p>",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1000 kg. Konstant fart kräver att drivkraften balanserar motstånd och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=1000\\cdot9{,}82\\sin6{,}0^\\circ+250\\\\\\approx1276{,}470\\,\\mathrm N\\end{gathered}\\]\\[\\begin{gathered}P=(1000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\\\\\approx15300\\,\\mathrm W\\end{gathered}\\]</div>",
         "ledtrad": "<p>Drivkraften måste balansera både motstånd och tyngdkraft längs backen.</p>",
         "niva": "C",
@@ -135728,7 +135892,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.",
-        "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><p>En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla farten: 90 km/h = 25 m/s. Effekten ger drivkraften.</p>\\[F=\\frac Pv=\\frac{31000}{25}=1240\\,\\mathrm N\\]<p>En del av drivkraften balanserar tyngdkraftens del längs backen. Resten balanserar motståndet.</p>\\[\\begin{gathered}F_\\text{mot}=1240-1200\\cdot9{,}82\\sin4{,}0^\\circ\\\\\\approx418\\,\\mathrm N\\end{gathered}\\]</div>",
         "ledtrad": "<p>Effekten ger drivkraften. Vilken del återstår till motståndet?</p>",
         "niva": "C",
@@ -135739,7 +135903,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.",
-        "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><p>En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.</p>",
+        "t": "<p>Använd g = 9,82 m/s².</p><p>En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 5000 kg, farten är 54/3,6 = 15 m/s och motståndet är 2500 N. Konstant fart kräver att bromsar och motstånd tillsammans balanserar tyngdkraftens del nedför backen.</p>\\[F_\\text{broms}=5000\\cdot9{,}82\\sin6{,}0^\\circ-2500\\]\\[F_\\text{broms}\\approx2632{,}348\\,\\mathrm N\\]<p>Bromskraftens arbete är negativt. Den effekt som bromsarna tar är dess positiva belopp.</p>\\[P_\\text{broms}=(5000\\cdot9{,}82\\sin6{,}0^\\circ-2500)\\cdot15\\]\\[P_\\text{broms}\\approx39500\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Tyngdkraften drar nedför. Vilken bromskraft behövs utöver motståndet för kraftsumma noll?</p>",
         "niva": "C",
@@ -135928,7 +136092,7 @@ window.BANK = [
     "niva": "C",
     "typ": "luftmotstånd som beror på farten",
     "poang": "(0/2/0)",
-    "t": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\), där v är farten i m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Cyklisten rullar utan att trampa nedför en backe som lutar 3,0°, med konstant fart 3,5 m/s. Bestäm k i kg/m. Svara med tre värdesiffror.</li><li>I en annan beräkning används k = 3,4 kg/m. Vilken nyttig mekanisk effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\), där v är farten i m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Cyklisten rullar utan att trampa nedför en backe som lutar 3,0°, med konstant fart 3,5 m/s. Bestäm k i kg/m. Svara med tre värdesiffror.</li><li>I en annan beräkning används k = 3,4 kg/m. Vilken effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär att luftmotståndet balanserar tyngdkraftens del längs backen.</p>\\[kv^2=mg\\sin3{,}0^\\circ\\]\\[k=\\frac{80\\cdot9{,}82\\sin3{,}0^\\circ}{3{,}5^2}\\approx3{,}36\\,\\mathrm{kg/m}\\]<p><strong>b)</strong></p><p>Använd det givna värdet k = 3,4 kg/m. Drivkraften måste balansera luftmotståndet och tyngdkraftens del längs backen.</p>\\[F_\\text{luft}=3{,}4\\cdot2{,}0^2=13{,}6\\,\\mathrm N\\]\\[F=13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ\\approx34{,}1647\\,\\mathrm N\\]\\[\\begin{gathered}P=(13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ)\\cdot2{,}0\\\\\\approx68{,}3\\,\\mathrm W\\end{gathered}\\]</div>",
     "id": "5.574",
     "miniräknare": true,
@@ -135977,8 +136141,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken nyttig mekanisk effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W med tre värdesiffror.",
-        "t": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\), med k = 3,4 kg/m och v i m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W med tre värdesiffror.</p>",
+        "fraga": "Vilken effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W med tre värdesiffror.",
+        "t": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\), med k = 3,4 kg/m och v i m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Vilken effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd det givna värdet k = 3,4 kg/m. Drivkraften måste balansera luftmotståndet och tyngdkraftens del längs backen.</p>\\[F_\\text{luft}=3{,}4\\cdot2{,}0^2=13{,}6\\,\\mathrm N\\]\\[F=13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ\\approx34{,}1647\\,\\mathrm N\\]\\[\\begin{gathered}P=(13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ)\\cdot2{,}0\\\\\\approx68{,}3\\,\\mathrm W\\end{gathered}\\]</div>",
         "ledtrad": "<p>Använd det givna k-värdet i luftmotståndet.</p>",
         "niva": "C",
@@ -136210,7 +136374,7 @@ window.BANK = [
     "niva": "C",
     "typ": "motorcykel med fartberoende motstånd",
     "poang": "(0/1/0)",
-    "t": "<p>En motorcykel på 300 kg kan lämna nyttig mekanisk effekt 54 kW. Motståndskraften är \\(F_\\text{mot}=c+kv\\), där v är farten i m/s och c och k är konstanta. Med 54 kW är största konstanta fart 60 m/s på vågrät väg och 50 m/s uppför en backe som lutar 5,0°. Använd g = 9,82 m/s². Vilken acceleration får motorcykeln på vågrät väg vid 30 m/s med 54 kW? Svara i m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "t": "<p>En motorcykel på 300 kg har motoreffekten 54 kW. Motståndskraften är \\(F_\\text{mot}=c+kv\\), där v är farten i m/s och c och k är konstanta. Med 54 kW är största konstanta fart 60 m/s på vågrät väg och 50 m/s uppför en backe som lutar 5,0°. Använd g = 9,82 m/s². Vilken acceleration får motorcykeln på vågrät väg vid 30 m/s med 54 kW? Svara i m/s².</p><p>Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid de största konstanta farterna är accelerationen noll. Drivkraften P/v balanserar motstånd och eventuell tyngdkraft längs backen.</p>\\[c+60k=\\frac{54000}{60}=900\\]\\[\\begin{gathered}c+50k+300\\cdot9{,}82\\sin5{,}0^\\circ=\\frac{54000}{50}\\\\=1080\\end{gathered}\\]<p>Subtrahera första ekvationen från den andra.</p>\\[-10k+300\\cdot9{,}82\\sin5{,}0^\\circ=180\\]\\[\\begin{gathered}k=\\frac{300\\cdot9{,}82\\sin5{,}0^\\circ-180}{10}\\\\\\approx7{,}67608\\,\\mathrm{kg/s}\\end{gathered}\\]\\[c=900-60k\\approx439{,}435\\,\\mathrm N\\]<p>Vid 30 m/s är drivkraften 54 000/30 = 1800 N. Använd oavrundade c och k.</p>\\[F_\\text{mot}=c+30k\\approx669{,}718\\,\\mathrm N\\]\\[a=\\frac{1800-F_\\text{mot}}{300}\\approx3{,}77\\,\\mathrm{m/s^2}\\]</div>",
     "id": "5.579",
     "miniräknare": true,
@@ -136292,7 +136456,7 @@ window.BANK = [
     "niva": "C",
     "typ": "cyklist med fartberoende motstånd",
     "poang": "(1/1/0)",
-    "t": "<p>Använd g = 9,82 m/s² i backuppgiften. Effekten är nyttig mekanisk effekt.</p><ol type=\"a\"><li>John håller 3,20 m/s på vågrät väg med effekten 560 W. Hur stor är motståndskraften? Svara i N. Svara med tre värdesiffror.</li><li>I ett annat fall har John och cykeln massan 90,0 kg. Han håller konstant fart nedför en backe som lutar 5,50° med effekten 144 W. Motståndskraften är 8v N, där v är farten i m/s. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Använd g = 9,82 m/s² i backuppgiften.</p><ol type=\"a\"><li>John cyklar med konstant fart 3,20 m/s på vågrät väg med effekten 560 W. Hur stor är motståndskraften? Svara i N. Svara med tre värdesiffror.</li><li>I ett annat fall har John och cykeln massan 90,0 kg. Han håller konstant fart nedför en backe som lutar 5,50° med effekten 144 W. Motståndskraften är 8v N, där v är farten i m/s. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart betyder att drivkraften balanserar motståndet. Använd F = P/v.</p>\\[F_\\text{mot}=\\frac{560}{3{,}20}=175\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Välj nedför som positiv riktning. Vid konstant fart balanserar drivkraften och tyngdkraftens del längs backen motståndet. Drivkraften är P/v.</p>\\[\\frac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\]<p>Multiplicera med v. Skriv B = 90,0 · 9,82 sin5,50° ≈ 84,708476 N.</p>\\[8v^2-Bv-144=0\\]<p>Lös andragradsekvationen med det oavrundade B.</p>\\[v=\\frac{B\\pm\\sqrt{B^2+4\\cdot8\\cdot144}}{16}\\]<p>Rötterna är cirka 12,0788 och −1,49022 m/s. Fart ska vara positiv, så den negativa roten väljs bort.</p>\\[v\\approx12{,}1\\,\\mathrm{m/s}\\]</div>",
     "id": "5.582",
     "miniräknare": true,
@@ -136325,12 +136489,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd g = 9,82 m/s² i backuppgiften. Effekten är nyttig mekanisk effekt.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s² i backuppgiften.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är motståndskraften? Svara i N med tre värdesiffror.",
-        "t": "<p>John håller konstant fart 3,20 m/s på vågrät väg med nyttig mekanisk effekt 560 W. Använd F = P/v.</p><p>Hur stor är motståndskraften? Svara i N med tre värdesiffror.</p>",
+        "t": "<p>John cyklar med konstant fart 3,20 m/s på vågrät väg med effekten 560 W. Använd F = P/v.</p><p>Hur stor är motståndskraften? Svara i N med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart betyder att drivkraften balanserar motståndet. Använd F = P/v.</p>\\[F_\\text{mot}=\\frac{560}{3{,}20}=175\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Dividera effekten med farten.</p>",
         "niva": "E",
@@ -136341,7 +136505,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm farten i m/s med tre värdesiffror.",
-        "t": "<p>John och cykeln har massan 90,0 kg. Han håller konstant fart nedför en backe som lutar 5,50° med nyttig mekanisk effekt 144 W. Motståndskraften är 8v N, där v är farten i m/s. Använd g = 9,82 m/s².</p><p>Bestäm farten i m/s med tre värdesiffror.</p>",
+        "t": "<p>John och cykeln har massan 90,0 kg. Han håller konstant fart nedför en backe som lutar 5,50° med effekten 144 W. Motståndskraften är 8v N, där v är farten i m/s. Använd g = 9,82 m/s².</p><p>Bestäm farten i m/s med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj nedför som positiv riktning. Vid konstant fart balanserar drivkraften och tyngdkraftens del längs backen motståndet. Drivkraften är P/v.</p>\\[\\frac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\]<p>Multiplicera med v. Skriv B = 90,0 · 9,82 sin5,50° ≈ 84,708476 N.</p>\\[8v^2-Bv-144=0\\]<p>Lös andragradsekvationen med det oavrundade B.</p>\\[v=\\frac{B\\pm\\sqrt{B^2+4\\cdot8\\cdot144}}{16}\\]<p>Rötterna är cirka 12,0788 och −1,49022 m/s. Fart ska vara positiv, så den negativa roten väljs bort.</p>\\[v\\approx12{,}1\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>Skriv kraftbalansen. Multiplicera med v för att få en andragradsekvation.</p>",
         "niva": "C",
@@ -136503,7 +136667,7 @@ window.BANK = [
     "niva": "C",
     "typ": "löpare i medvind uppför backe",
     "poang": "(0/1/0)",
-    "t": "<p>Lina på 80 kg håller farten 3,0 m/s uppför en backe som lutar 5,0°. Medvinden ger kraften 7,0 N framåt längs backen. Bortse från annat motstånd och använd g = 9,82 m/s². Vilken nyttig mekanisk effekt behöver Lina själv ge för att hålla farten? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+    "t": "<p>Lina på 80 kg håller farten 3,0 m/s uppför en backe som lutar 5,0°. Medvinden ger kraften 7,0 N framåt längs backen. Bortse från annat motstånd och använd g = 9,82 m/s². Vilken effekt behöver Lina själv ge för att hålla farten? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar Linas kraft och medvindens kraft tyngdkraftens del längs backen.</p>\\[F_\\text{Lina}+7{,}0=80\\cdot9{,}82\\sin5{,}0^\\circ\\]\\[\\begin{gathered}F_\\text{Lina}=80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0\\\\\\approx61{,}4696\\,\\mathrm N\\end{gathered}\\]<p>Effekt är kraft gånger fart. Använd oavrundad kraft.</p>\\[\\begin{gathered}P=(80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0)\\cdot3{,}0\\\\\\approx184\\,\\mathrm W\\end{gathered}\\]</div>",
     "id": "5.586",
     "miniräknare": true,
@@ -136531,7 +136695,7 @@ window.BANK = [
     "niva": "C",
     "typ": "lutning ur effektskillnad",
     "poang": "(0/1/0)",
-    "t": "<p>En bil på 1900 kg håller 100 km/h uppför och nedför samma backe. Motståndskraften är lika stor i båda fallen. Uppför behövs 47 hk större nyttig mekanisk effekt än nedför. 1 hk = 735,5 W. Använd g = 9,82 m/s². Bestäm backens vinkel mot marken i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "t": "<p>En bil på 1900 kg håller 100 km/h uppför och nedför samma backe. Motståndskraften är lika stor i båda fallen. Uppför behövs 47 hk större effekt än nedför. 1 hk = 735,5 W. Använd g = 9,82 m/s². Bestäm backens vinkel mot marken i grader.</p><p>Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effektskillnaden och farten.</p>\\[\\Delta P=47\\cdot735{,}5=34568{,}5\\,\\mathrm W\\]\\[v=\\frac{100}{3{,}6}\\,\\mathrm{m/s}\\]<p>Uppför krävs drivkraften R + mg sinα och nedför R − mg sinα. Skillnaden är 2mg sinα. Med P = Fv blir</p>\\[\\Delta P=2mg\\sin\\alpha\\cdot v\\]\\[\\alpha=\\arcsin\\left(\\frac{34568{,}5}{2\\cdot1900\\cdot9{,}82\\cdot(100/3{,}6)}\\right)\\]\\[\\alpha\\approx1{,}91^\\circ\\]</div>",
     "id": "5.587",
     "miniräknare": true,
@@ -136774,7 +136938,7 @@ window.BANK = [
     "niva": "C",
     "typ": "vindkraft mot kärnkraft",
     "poang": "(1/1/0)",
-    "t": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><ol type=\"a\"><li>Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.</li><li>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.</li></ol>",
+    "t": "<p>Varje vindkraftverk ger 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><ol type=\"a\"><li>Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.</li><li>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 3,0 MW till 3000 kW. Beräkna drifttiden och multiplicera med effekten.</p>\\[t=0{,}90\\cdot8760=7884\\,\\mathrm h\\]\\[E=Pt=3000\\cdot7884=23652000\\,\\mathrm{kWh}\\]<p>Med tre värdesiffror: 2,37 · 10⁷ kWh.</p><p><strong>b)</strong></p><p>Varje verk ger 3000 · 0,90 · 8760 = 23 652 000 kWh per år. Omvandla 63 TWh till 63 · 10⁹ kWh.</p>\\[N=\\frac{63\\cdot10^9}{23652000}\\approx2663{,}62\\]<p>Avrunda uppåt eftersom ett verk färre inte räcker: \\(N_\\text{min}=2664\\) verk.</p></div>",
     "id": "5.591",
     "miniräknare": true,
@@ -136807,12 +136971,12 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p>",
+    "spelIntro": "<p>Varje vindkraftverk ger 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.",
-        "t": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.</p>",
+        "t": "<p>Varje vindkraftverk ger 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 3,0 MW till 3000 kW. Beräkna drifttiden och multiplicera med effekten.</p>\\[t=0{,}90\\cdot8760=7884\\,\\mathrm h\\]\\[E=Pt=3000\\cdot7884=23652000\\,\\mathrm{kWh}\\]<p>Med tre värdesiffror: 2,37 · 10⁷ kWh.</p></div>",
         "ledtrad": "<p>\\(E=Pt\\).</p>",
         "niva": "E",
@@ -136823,7 +136987,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.",
-        "t": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.</p>",
+        "t": "<p>Varje vindkraftverk ger 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje verk ger 3000 · 0,90 · 8760 = 23 652 000 kWh per år. Omvandla 63 TWh till 63 · 10⁹ kWh.</p>\\[N=\\frac{63\\cdot10^9}{23652000}\\approx2663{,}62\\]<p>Avrunda uppåt eftersom ett verk färre inte räcker: \\(N_\\text{min}=2664\\) verk.</p></div>",
         "ledtrad": "<p>Dela total energi med ett verks energi.</p>",
         "niva": "C",
@@ -137366,7 +137530,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bil som rullar i backe",
     "poang": "(0/2/0)",
-    "t": "<p>Använd g = 9,82 m/s² i första deluppgiften.</p><ol type=\"a\"><li>En bil på 1,2 ton rullar utan drivkraft nedför en backe som lutar 3,0°. Farten är konstant 80 km/h. Anta samma motståndskraft på vågrät väg vid denna fart. Vilken nyttig mekanisk motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W. Svara med tre värdesiffror.</li><li>En annan bil håller 80 km/h på vågrät väg med nyttig motoreffekt 13,7 kW. Den använder 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/L och den ger 32 MJ per kg. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Använd g = 9,82 m/s² i första deluppgiften.</p><ol type=\"a\"><li>En bil på 1,2 ton rullar utan drivkraft nedför en backe som lutar 3,0°. Farten är konstant 80 km/h. Anta samma motståndskraft på vågrät väg vid denna fart. Vilken motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W. Svara med tre värdesiffror.</li><li>En annan bil håller 80 km/h på vågrät väg med nyttig motoreffekt 13,7 kW. Den använder 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/L och den ger 32 MJ per kg. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Massan är 1200 kg. När bilen rullar nedför med konstant fart balanserar motståndet tyngdkraftens del längs backen.</p>\\[F_\\text{mot}=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}727\\,\\mathrm N\\]<p>På vågrät väg måste motorn ge samma kraft. Omvandla farten till m/s och använd oavrundad kraft.</p>\\[P=1200\\cdot9{,}82\\sin3{,}0^\\circ\\cdot\\frac{80}{3{,}6}\\approx13700\\,\\mathrm W\\]<p><strong>b)</strong></p><p>På en timme kör bilen 80 km = 8 mil och använder 8 · 0,75 = 6,0 liter bensin. Beräkna bensinens massa och energi.</p>\\[m=6{,}0\\cdot0{,}80=4{,}8\\,\\mathrm{kg}\\]\\[E_\\text{bensin}=4{,}8\\cdot32=153{,}6\\,\\mathrm{MJ}\\]<p>Motorn lämnar arbetet 13,7 kWh under samma timme. Omvandla till MJ och jämför energierna.</p>\\[W=13{,}7\\cdot3{,}6=49{,}32\\,\\mathrm{MJ}\\]\\[\\eta=\\frac{49{,}32}{153{,}6}\\cdot100\\,\\%\\approx32{,}1\\,\\%\\]</div>",
     "id": "5.599",
     "miniräknare": true,
@@ -137404,8 +137568,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken nyttig mekanisk motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W med tre värdesiffror.",
-        "t": "<p>En bil på 1,2 ton rullar utan drivkraft nedför en backe som lutar 3,0° med konstant fart 80 km/h. Anta samma motståndskraft på vågrät väg vid denna fart. Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W med tre värdesiffror.</p>",
+        "fraga": "Vilken motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 1,2 ton rullar utan drivkraft nedför en backe som lutar 3,0° med konstant fart 80 km/h. Anta samma motståndskraft på vågrät väg vid denna fart. Använd g = 9,82 m/s².</p><p>Vilken motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1200 kg. När bilen rullar nedför med konstant fart balanserar motståndet tyngdkraftens del längs backen.</p>\\[F_\\text{mot}=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}727\\,\\mathrm N\\]<p>På vågrät väg måste motorn ge samma kraft. Omvandla farten till m/s och använd oavrundad kraft.</p>\\[P=1200\\cdot9{,}82\\sin3{,}0^\\circ\\cdot\\frac{80}{3{,}6}\\approx13700\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Bestäm först den bromsande kraften från rörelsen nedför backen.</p>",
         "niva": "C",
@@ -138647,7 +138811,7 @@ window.BANK = [
     "niva": "E",
     "typ": "fall och lodrätt kast",
     "poang": "(4/0/0)",
-    "t": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En hammare släpps från vila 5,6 m över marken. Vilken fart har den strax före marken? Svara i m/s. Svara med tre värdesiffror.</li><li>En pil skjuts lodrätt uppåt med startfarten 40 m/s. Hur mycket stiger den över startpunkten? Svara i m. Svara med tre värdesiffror.</li><li>I en modell hoppar en loppa lodrätt uppåt och når 10 mm över startpunkten. Bestäm startfarten i m/s. Svara med tre värdesiffror.</li><li>En boll kastas från 5,6 m över marken med startfarten 12 m/s. Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En hammare släpps från vila 5,6 m över marken. Vilken fart har den strax före marken? Svara i m/s. Svara med tre värdesiffror.</li><li>En pil skjuts lodrätt uppåt med startfarten 40 m/s. Hur mycket stiger den över startpunkten? Svara i m. Svara med tre värdesiffror.</li><li>En loppa hoppar lodrätt uppåt och når 10 mm över startpunkten. Bestäm startfarten i m/s. Svara med tre värdesiffror.</li><li>En boll kastas från 5,6 m över marken med startfarten 12 m/s. Bestäm farten strax före marken i m/s. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hammaren startar från vila. Lägesenergin blir rörelseenergi vid marken.</p>\\[mg\\cdot5{,}6=\\frac{mv^2}{2}\\]\\[v=\\sqrt{2\\cdot9{,}82\\cdot5{,}6}\\approx10{,}5\\,\\mathrm{m/s}\\]<p><strong>b)</strong></p><p>I högsta läget är pilens fart noll. Startens rörelseenergi blir ökad lägesenergi.</p>\\[\\frac{m\\cdot40^2}{2}=mg\\Delta h\\]\\[\\Delta h=\\frac{40^2}{2\\cdot9{,}82}\\approx81{,}5\\,\\mathrm m\\]<p><strong>c)</strong></p><p>Omvandla höjdökningen: 10 mm = 0,010 m. Startens rörelseenergi ger denna ökning i lägesenergi.</p>\\[\\frac{mv_0^2}{2}=mg\\cdot0{,}010\\]\\[v_0=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\approx0{,}443\\,\\mathrm{m/s}\\]<p><strong>d)</strong></p><p>Vid marken har både startens rörelseenergi och lägesenergi blivit rörelseenergi.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot12^2}{2}+mg\\cdot5{,}6\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{12^2+2\\cdot9{,}82\\cdot5{,}6}\\approx15{,}9\\,\\mathrm{m/s}\\]</div>",
     "id": "5.477",
     "miniräknare": true,
@@ -138717,7 +138881,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm loppans startfart i m/s. Svara med tre värdesiffror.",
-        "t": "<p>I en modell hoppar en loppa lodrätt uppåt och når 10 mm över startpunkten. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm loppans startfart i m/s. Svara med tre värdesiffror.</p>",
+        "t": "<p>En loppa hoppar lodrätt uppåt och når 10 mm över startpunkten. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm loppans startfart i m/s. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla höjdökningen: 10 mm = 0,010 m. Startens rörelseenergi ger denna ökning i lägesenergi.</p>\\[\\frac{mv_0^2}{2}=mg\\cdot0{,}010\\]\\[v_0=\\sqrt{2\\cdot9{,}82\\cdot0{,}010}\\approx0{,}443\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(v=\\sqrt{2gh}\\).</p>",
         "niva": "E",
@@ -139465,7 +139629,7 @@ window.BANK = [
     "niva": "C",
     "typ": "inbromsning efter fall",
     "poang": "(0/4/0)",
-    "t": "<p>Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En person på 62 kg faller från vila 18,0 m och stoppas sedan av ett räddningssegel under ytterligare 1,00 m nedåt. Hur stor är seglets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En person på 80,0 kg faller från vila 60,0 cm. Vid landningen sjunker tyngdpunkten ytterligare 1,5 cm tills personen står stilla. Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En person på 80,0 kg faller från vila 60,0 cm. Personen böjer knäna vid landningen. Tyngdpunkten sjunker ytterligare 30,0 cm tills personen står stilla. Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En huvudmodell på 5,0 kg med en hjälm vars massa är försumbar faller från vila 2,0 m. Hjälmen trycks ihop och huvudmodellens tyngdpunkt sjunker ytterligare 3,0 cm tills den stannar. Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En person på 62 kg faller från vila 18,0 m och stoppas sedan av ett räddningssegel under ytterligare 1,00 m nedåt. Hur stor är seglets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En person på 80,0 kg faller från vila 60,0 cm. Vid landningen sjunker tyngdpunkten ytterligare 1,5 cm tills personen står stilla. Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En person på 80,0 kg faller från vila 60,0 cm. Personen böjer knäna vid landningen. Tyngdpunkten sjunker ytterligare 30,0 cm tills personen står stilla. Hur stor är golvets uppåtriktade kraft i N? Svara med tre värdesiffror.</li><li>En huvudmodell på 5,0 kg med en hjälm faller från vila 2,0 m. Hjälmen trycks ihop och huvudmodellens tyngdpunkt sjunker ytterligare 3,0 cm tills den stannar. Bortse från hjälmens massa. Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Farten före stoppet fås från fallet. Beräkna först fartens kvadrat och sedan retardationens storlek b.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot18{,}0=353{,}52\\]\\[b=\\frac{v^2}{2s}=\\frac{353{,}52}{2\\cdot1{,}00}=176{,}76\\,\\mathrm{m/s^2}\\]<p>Seglets kraft F verkar uppåt och tyngdkraften mg nedåt. Därför är F − mg = mb.</p>\\[\\begin{gathered}F=m(g+b)=62(9{,}82+176{,}76)\\\\\\approx11600\\,\\mathrm N\\end{gathered}\\]<p><strong>b)</strong></p><p>Omvandla sträckorna: 60,0 cm = 0,600 m och 1,5 cm = 0,015 m.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot0{,}600=11{,}784\\]\\[b=\\frac{v^2}{2s}=\\frac{11{,}784}{2\\cdot0{,}015}=392{,}8\\,\\mathrm{m/s^2}\\]<p>Golvets uppåtriktade kraft måste både motverka tyngdkraften och bromsa rörelsen: F − mg = mb.</p>\\[F=80{,}0(9{,}82+392{,}8)\\approx32200\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Fallet är 0,600 m och stoppsträckan 0,300 m.</p>\\[v^2=2\\cdot9{,}82\\cdot0{,}600=11{,}784\\]\\[b=\\frac{11{,}784}{2\\cdot0{,}300}=19{,}64\\,\\mathrm{m/s^2}\\]<p>Golvets kraft F uppfyller F − mg = mb. Den längre stoppsträckan ger mindre retardation och mindre kraft.</p>\\[F=80{,}0(9{,}82+19{,}64)\\approx2360\\,\\mathrm N\\]<p><strong>d)</strong></p><p>Stoppsträckan är 3,0 cm = 0,030 m.</p>\\[v^2=2\\cdot9{,}82\\cdot2{,}0=39{,}28\\]\\[b=\\frac{39{,}28}{2\\cdot0{,}030}\\approx654{,}6667\\,\\mathrm{m/s^2}\\]<p>Hjälmens material ger den uppåtriktade kraften F. Kraftbalansen är F − mg = mb. Använd oavrundat b.</p>\\[F=5{,}0\\left(9{,}82+\\frac{39{,}28}{0{,}060}\\right)\\approx3320\\,\\mathrm N\\]</div>",
     "id": "5.488",
     "miniräknare": true,
@@ -139547,7 +139711,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.",
-        "t": "<p>En huvudmodell på 5,0 kg med en hjälm vars massa är försumbar faller från vila 2,0 m. Hjälmen trycks ihop och huvudmodellens tyngdpunkt sjunker ytterligare 3,0 cm tills den stannar. Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.</p>",
+        "t": "<p>En huvudmodell på 5,0 kg med en hjälm faller från vila 2,0 m. Hjälmen trycks ihop och huvudmodellens tyngdpunkt sjunker ytterligare 3,0 cm tills den stannar. Räkna på tyngdpunktens rörelse. Anta konstant retardation under stoppet och bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Bortse från hjälmens massa. Hur stor är materialets uppåtriktade kraft på huvudmodellen i N? Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stoppsträckan är 3,0 cm = 0,030 m.</p>\\[v^2=2\\cdot9{,}82\\cdot2{,}0=39{,}28\\]\\[b=\\frac{39{,}28}{2\\cdot0{,}030}\\approx654{,}6667\\,\\mathrm{m/s^2}\\]<p>Hjälmens material ger den uppåtriktade kraften F. Kraftbalansen är F − mg = mb. Använd oavrundat b.</p>\\[F=5{,}0\\left(9{,}82+\\frac{39{,}28}{0{,}060}\\right)\\approx3320\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>Beräkna först farten före kontakten och retardationen under stoppet. Kontaktkraften är m(g + b).</p>",
         "niva": "C",
@@ -141448,7 +141612,7 @@ window.BANK = [
     "niva": "C",
     "typ": "cyklistens arbete",
     "poang": "(0/1/0)",
-    "t": "<p>En cyklist med cykel har massan 80 kg. Under en 600 m lång färd minskar höjden med 10 m och farten ökar från 10 till 12 m/s. Motståndskraften är konstant 25 N. Bortse från hjulens rotation och använd g = 9,82 m/s². I en modell blir 20 % av kroppens använda kemiska energi mekaniskt arbete på cykeln. Hur mycket kemisk energi använder kroppen under färden? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
+    "t": "<p>En cyklist med cykel har massan 80 kg. Under en 600 m lång färd minskar höjden med 10 m och farten ökar från 10 till 12 m/s. Motståndskraften är konstant 25 N. Bortse från hjulens rotation och använd g = 9,82 m/s². Cyklisten har verkningsgraden 20 %. Hur mycket kemisk energi använder kroppen under färden? Svara i J.</p><p>Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna ändringarna i rörelseenergi och lägesenergi samt energin som motståndet tar.</p>\\[\\Delta E_k=\\frac{80(12^2-10^2)}2=1760\\,\\mathrm J\\]\\[\\Delta E_p=80\\cdot9{,}82\\cdot(-10)=-7856\\,\\mathrm J\\]\\[E_\\text{motstånd}=25\\cdot600=15000\\,\\mathrm J\\]<p>Det mekaniska arbete cyklisten tillför är summan. Höjdminskningen hjälper rörelsen.</p>\\[W=1760-7856+15000=8904\\,\\mathrm J\\]<p>Arbetet är 20 % av kroppens använda kemiska energi.</p>\\[E_\\text{kemisk}=\\frac{8904}{0{,}20}=44520\\,\\mathrm J\\]<p>Med tre värdesiffror: 44 500 J.</p></div>",
     "id": "5.539",
     "miniräknare": true,
@@ -148501,7 +148665,7 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft från tryck och area",
     "poang": "(1/0/0)",
-    "t": "<p>Ett jämnt tryck på 3,0 kPa verkar över arean 0,20 m².</p><p>Bestäm kraften i N.</p>",
+    "t": "<p>Ett tryck på 3,0 kPa verkar över arean 0,20 m².</p><p>Bestäm kraften i N.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>3,0 kPa = 3000 Pa.</p>\\[F=pA=3000\\cdot0{,}20=600\\ \\mathrm N\\].<p class=\"facit-svar\"><strong>Svar:</strong> 600 N.</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
@@ -148742,7 +148906,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tryck i vardagen",
     "poang": "(2/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>En hammare trycker med 400 N mot en yta på 2,0 cm². Bestäm medeltrycket i Pa. Svara med tre värdesiffror.</li><li>En person med massan 90 kg står stilla med sammanlagd kontaktyta 0,020 m². Bestäm medeltrycket mot golvet i Pa. Svara med tre värdesiffror.</li><li>En person med massan 56 kg står stilla. En smal klack med kontaktytan 0,45 cm² bär hela tyngden. Bestäm medeltrycket under klacken i Pa. Svara med tre värdesiffror.</li><li>En person med massan 56 kg står stilla. En bred klack med kontaktytan 16 cm² bär hela tyngden. Bestäm medeltrycket under klacken i Pa. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>En hammare trycker med 400 N mot en yta på 2,0 cm². Bestäm trycket i Pa. Svara med tre värdesiffror.</li><li>En person med massan 90 kg står stilla med sammanlagd kontaktyta 0,020 m². Bestäm trycket mot golvet i Pa. Svara med tre värdesiffror.</li><li>En person med massan 56 kg står stilla. En smal klack med kontaktytan 0,45 cm² bär hela tyngden. Bestäm trycket under klacken i Pa. Svara med tre värdesiffror.</li><li>En person med massan 56 kg står stilla. En bred klack med kontaktytan 16 cm² bär hela tyngden. Bestäm trycket under klacken i Pa. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 2,0 cm² till 0,00020 m².\\[p=\\frac{400}{0{,}00020}=2000000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(2{,}00\\cdot10^{6}\\,\\mathrm{Pa}\\).</p><p><strong>b)</strong></p><p>Golvets kraft balanserar tyngdkraften.\\[F=90\\cdot9{,}82=883{,}8\\,\\mathrm N\\]\\[p=\\frac{883{,}8}{0{,}020}=44190\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(4{,}42\\cdot10^{4}\\,\\mathrm{Pa}\\).</p><p><strong>c)</strong></p><p>Hela tyngdkraften bärs av klacken. Omvandla cm² till m².\\[F=56\\cdot9{,}82=549{,}92\\,\\mathrm N\\]\\[A=0{,}000045\\,\\mathrm{m^2}\\]\\[p=\\frac{549{,}92}{0{,}000045}\\approx12220444{,}444444\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(1{,}22\\cdot10^{7}\\,\\mathrm{Pa}\\).</p><p><strong>d)</strong></p><p>Hela tyngdkraften bärs av klacken. Omvandla cm² till m².\\[F=56\\cdot9{,}82=549{,}92\\,\\mathrm N\\]\\[A=0{,}0016\\,\\mathrm{m^2}\\]\\[p=\\frac{549{,}92}{0{,}0016}\\approx343700\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(3{,}44\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
     "id": "6.419",
     "miniräknare": true,
@@ -148789,8 +148953,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En hammare trycker med 400 N mot en yta på 2,0 cm². Bestäm medeltrycket i Pa. Svara med tre värdesiffror.",
-        "t": "<p>En hammare trycker med 400 N mot en yta på 2,0 cm². Bestäm medeltrycket i Pa. Svara med tre värdesiffror.</p>",
+        "fraga": "En hammare trycker med 400 N mot en yta på 2,0 cm². Bestäm trycket i Pa. Svara med tre värdesiffror.",
+        "t": "<p>En hammare trycker med 400 N mot en yta på 2,0 cm². Bestäm trycket i Pa. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 2,0 cm² till 0,00020 m².\\[p=\\frac{400}{0{,}00020}=2000000\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(2{,}00\\cdot10^{6}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
@@ -148800,8 +148964,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En person med massan 90 kg står stilla med sammanlagd kontaktyta 0,020 m². Bestäm medeltrycket mot golvet i Pa. Svara med tre värdesiffror.",
-        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En person med massan 90 kg står stilla med sammanlagd kontaktyta 0,020 m². Bestäm medeltrycket mot golvet i Pa. Svara med tre värdesiffror.</p>",
+        "fraga": "En person med massan 90 kg står stilla med sammanlagd kontaktyta 0,020 m². Bestäm trycket mot golvet i Pa. Svara med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En person med massan 90 kg står stilla med sammanlagd kontaktyta 0,020 m². Bestäm trycket mot golvet i Pa. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Golvets kraft balanserar tyngdkraften.\\[F=90\\cdot9{,}82=883{,}8\\,\\mathrm N\\]\\[p=\\frac{883{,}8}{0{,}020}=44190\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(4{,}42\\cdot10^{4}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "E",
@@ -148811,8 +148975,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En person med massan 56 kg står stilla. En smal klack med kontaktytan 0,45 cm² bär hela tyngden. Bestäm medeltrycket under klacken i Pa. Svara med tre värdesiffror.",
-        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En person med massan 56 kg står stilla. En smal klack med kontaktytan 0,45 cm² bär hela tyngden. Bestäm medeltrycket under klacken i Pa. Svara med tre värdesiffror.</p>",
+        "fraga": "En person med massan 56 kg står stilla. En smal klack med kontaktytan 0,45 cm² bär hela tyngden. Bestäm trycket under klacken i Pa. Svara med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En person med massan 56 kg står stilla. En smal klack med kontaktytan 0,45 cm² bär hela tyngden. Bestäm trycket under klacken i Pa. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela tyngdkraften bärs av klacken. Omvandla cm² till m².\\[F=56\\cdot9{,}82=549{,}92\\,\\mathrm N\\]\\[A=0{,}000045\\,\\mathrm{m^2}\\]\\[p=\\frac{549{,}92}{0{,}000045}\\approx12220444{,}444444\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(1{,}22\\cdot10^{7}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>1 cm² = \\(10^{-4}\\) m².</p>",
         "niva": "C",
@@ -148822,8 +148986,8 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En person med massan 56 kg står stilla. En bred klack med kontaktytan 16 cm² bär hela tyngden. Bestäm medeltrycket under klacken i Pa. Svara med tre värdesiffror.",
-        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En person med massan 56 kg står stilla. En bred klack med kontaktytan 16 cm² bär hela tyngden. Bestäm medeltrycket under klacken i Pa. Svara med tre värdesiffror.</p>",
+        "fraga": "En person med massan 56 kg står stilla. En bred klack med kontaktytan 16 cm² bär hela tyngden. Bestäm trycket under klacken i Pa. Svara med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En person med massan 56 kg står stilla. En bred klack med kontaktytan 16 cm² bär hela tyngden. Bestäm trycket under klacken i Pa. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela tyngdkraften bärs av klacken. Omvandla cm² till m².\\[F=56\\cdot9{,}82=549{,}92\\,\\mathrm N\\]\\[A=0{,}0016\\,\\mathrm{m^2}\\]\\[p=\\frac{549{,}92}{0{,}0016}\\approx343700\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(3{,}44\\cdot10^{5}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "C",
@@ -148841,10 +149005,10 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "elefantens tryck mot marken",
-    "poang": "(0/1/0)",
-    "t": "<p>En elefant med massan 5,0 ton står stilla på fyra fötter. Varje kontaktyta är en cirkel med omkretsen 1,4 m. Bestäm medeltrycket över den sammanlagda kontaktytan. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i Pa. Svara med tre värdesiffror.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En elefant med massan 5,0 ton står stilla på fyra fötter. Varje kontaktyta är en cirkel med omkretsen 1,4 m. Bestäm trycket över den sammanlagda kontaktytan. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\). Svara i Pa. Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 5000 kg. Omkretsen är 2πr, så radien fås genom att dela omkretsen med 2π.\\[r=\\frac{1{,}4}{2\\pi}\\approx0{,}22281692\\,\\mathrm m\\]\\[A=4\\pi r^2\\approx0{,}623887377\\,\\mathrm{m^2}\\]\\[F=5000\\cdot9{,}82=49100\\,\\mathrm N\\]\\[p=\\frac{49100}{A}\\approx78700{,}101679\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(7{,}87\\cdot10^{4}\\,\\mathrm{Pa}\\).</p></div>",
     "id": "6.420",
     "miniräknare": true,
@@ -149085,7 +149249,7 @@ window.BANK = [
     "niva": "C",
     "typ": "vakuum och undertryck",
     "poang": "(1/1/0)",
-    "t": "<p>Anta jämnt tryck över respektive yta.</p><ol type=\"a\"><li>En låda har ett vågrätt lock med måtten 40 cm × 30 cm. Trycket inuti är 0 Pa och lufttrycket utanför är 101,3 kPa. Bortse från lockets tyngd och andra krafter. Vilken kraft uppåt krävs för att lyfta hela locket rakt upp? Svara i N. Svara med tre värdesiffror.</li><li>En kylskåpsdörr har måtten 0,55 m × 1,75 m. Lufttrycket utanför är 101,3 kPa och trycket inuti är 5,0 % lägre. Bestäm storleken på den sammanlagda kraften från trycken på dörrens båda sidor. Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "t": "<ol type=\"a\"><li>En låda har ett vågrätt lock med måtten 40 cm × 30 cm. Trycket inuti är 0 Pa och lufttrycket utanför är 101,3 kPa. Bortse från lockets tyngd och andra krafter. Vilken kraft uppåt krävs för att lyfta hela locket rakt upp? Svara i N. Svara med tre värdesiffror.</li><li>En kylskåpsdörr har måtten 0,55 m × 1,75 m. Lufttrycket utanför är 101,3 kPa och trycket inuti är 5,0 % lägre. Hur stor kraft trycker dörren inåt? Svara i N. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lockets area är 0,40 · 0,30 = 0,12 m². Tryckskillnaden är 101 300 Pa. Kraften uppåt måste minst balansera tryckkraften nedåt.\\[F=101300\\cdot0{,}12=12156\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(1{,}22\\cdot10^{4}\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Tryckskillnaden är 5,0 % av lufttrycket utanför.\\[\\Delta p=0{,}050\\cdot101300=5065\\,\\mathrm{Pa}\\]\\[A=0{,}55\\cdot1{,}75=0{,}9625\\,\\mathrm{m^2}\\]\\[F=5065\\cdot0{,}9625=4875{,}0625\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(4{,}88\\cdot10^{3}\\,\\mathrm{N}\\).</p></div>",
     "id": "6.424",
     "miniräknare": true,
@@ -149119,12 +149283,12 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Anta jämnt tryck över respektive yta.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "En låda har ett vågrätt lock med måtten 40 cm × 30 cm. Trycket inuti är 0 Pa och lufttrycket utanför är 101,3 kPa. Bortse från lockets tyngd och andra krafter. Vilken kraft uppåt krävs för att lyfta hela locket rakt upp? Svara i N. Svara med tre värdesiffror.",
-        "t": "<p>Anta jämnt tryck över respektive yta.</p><p>En låda har ett vågrätt lock med måtten 40 cm × 30 cm. Trycket inuti är 0 Pa och lufttrycket utanför är 101,3 kPa. Bortse från lockets tyngd och andra krafter. Vilken kraft uppåt krävs för att lyfta hela locket rakt upp? Svara i N. Svara med tre värdesiffror.</p>",
+        "t": "<p>En låda har ett vågrätt lock med måtten 40 cm × 30 cm. Trycket inuti är 0 Pa och lufttrycket utanför är 101,3 kPa. Bortse från lockets tyngd och andra krafter. Vilken kraft uppåt krävs för att lyfta hela locket rakt upp? Svara i N. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lockets area är 0,40 · 0,30 = 0,12 m². Tryckskillnaden är 101 300 Pa. Kraften uppåt måste minst balansera tryckkraften nedåt.\\[F=101300\\cdot0{,}12=12156\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(1{,}22\\cdot10^{4}\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Trycket inuti är noll.</p>",
         "niva": "E",
@@ -149134,8 +149298,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En kylskåpsdörr har måtten 0,55 m × 1,75 m. Lufttrycket utanför är 101,3 kPa och trycket inuti är 5,0 % lägre. Bestäm storleken på den sammanlagda kraften från trycken på dörrens båda sidor. Svara i N. Svara med tre värdesiffror.",
-        "t": "<p>Anta jämnt tryck över respektive yta.</p><p>En kylskåpsdörr har måtten 0,55 m × 1,75 m. Lufttrycket utanför är 101,3 kPa och trycket inuti är 5,0 % lägre. Bestäm storleken på den sammanlagda kraften från trycken på dörrens båda sidor. Svara i N. Svara med tre värdesiffror.</p>",
+        "fraga": "En kylskåpsdörr har måtten 0,55 m × 1,75 m. Lufttrycket utanför är 101,3 kPa och trycket inuti är 5,0 % lägre. Hur stor kraft trycker dörren inåt? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En kylskåpsdörr har måtten 0,55 m × 1,75 m. Lufttrycket utanför är 101,3 kPa och trycket inuti är 5,0 % lägre. Hur stor kraft trycker dörren inåt? Svara i N. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tryckskillnaden är 5,0 % av lufttrycket utanför.\\[\\Delta p=0{,}050\\cdot101300=5065\\,\\mathrm{Pa}\\]\\[A=0{,}55\\cdot1{,}75=0{,}9625\\,\\mathrm{m^2}\\]\\[F=5065\\cdot0{,}9625=4875{,}0625\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(4{,}88\\cdot10^{3}\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Det är tryckskillnaden som ger kraften.</p>",
         "niva": "C",
@@ -149156,7 +149320,7 @@ window.BANK = [
     "niva": "C",
     "typ": "pall och stol med samma tryck",
     "poang": "(0/1/0)",
-    "t": "<p>Ett barn med massan 10 kg sitter stilla på en stol med tre runda ben. Varje bens diameter är 2,0 cm. En kvinna sitter stilla på en stol med fyra runda ben med diametern 4,0 cm. Stolarna saknar massa i modellen och varje ben har hela sin ändyta mot golvet. De två stolarna ger samma medeltryck över sin sammanlagda kontaktyta. Bestäm kvinnans massa i kg. Svara med tre värdesiffror.</p>",
+    "t": "<p>Ett barn med massan 10 kg sitter stilla på en stol med tre runda ben. Varje bens diameter är 2,0 cm. En kvinna sitter stilla på en stol med fyra runda ben med diametern 4,0 cm. Bortse från stolarnas massa. Stolarna ger lika stort tryck mot golvet. Bestäm kvinnans massa i kg. Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Radierna är 1,0 cm för barnets stol och 2,0 cm för kvinnans. Förhållandet mellan de sammanlagda areorna är\\[\\frac{A_\\mathrm{kvinna}}{A_\\mathrm{barn}}=\\frac{4\\pi\\cdot2{,}0^2}{3\\pi\\cdot1{,}0^2}=\\frac{16}{3}\\]Samma tryck betyder 10g/A_barn = mg/A_kvinna. g förkortas bort, så massorna har samma förhållande som areorna.\\[m=10\\cdot\\frac{16}{3}=53{,}333\\ldots\\,\\mathrm{kg}\\]</p><p><strong>Svar:</strong> 53,3 kg.</p></div>",
     "id": "6.425",
     "miniräknare": true,
@@ -149211,7 +149375,7 @@ window.BANK = [
     "niva": "E",
     "typ": "fonografens nål",
     "poang": "(1/0/0)",
-    "t": "<p>En nål i en skivspelare trycker med 20 mN mot skivan. Anta att kontaktytan är en cirkel med radien 0,10 mm. Bestäm medeltrycket mot skivan. Svara i Pa. Svara med tre värdesiffror.</p>",
+    "t": "<p>En nål i en skivspelare trycker med 20 mN mot skivan. Anta att kontaktytan är en cirkel med radien 0,10 mm. Bestäm trycket mot skivan. Svara i Pa. Svara med tre värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla kraften och radien: 20 mN = 0,020 N och 0,10 mm = 0,00010 m.\\[A=\\pi\\cdot0{,}00010^2\\approx3{,}14159265\\cdot10^{-8}\\,\\mathrm{m^2}\\]\\[p=\\frac{0{,}020}{\\pi\\cdot0{,}00010^2}\\approx636619{,}772368\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> 637 000 Pa.</p></div>",
     "id": "6.427",
     "miniräknare": true,
@@ -149266,7 +149430,7 @@ window.BANK = [
     "niva": "C",
     "typ": "stapel av klossar",
     "poang": "(0/1/0)",
-    "t": "<p>Likadana klossar staplas ovanpå varandra. Varje kloss har tyngdkraften 169 N. Den nedersta står med sidan 0,20 m × 0,10 m mot golvet. Hur många klossar behövs minst för att medeltrycket från stapeln ska vara minst 101,3 kPa?</p>",
+    "t": "<p>Likadana klossar staplas ovanpå varandra. Varje kloss har tyngdkraften 169 N. Den nedersta står med sidan 0,20 m × 0,10 m mot golvet. Hur många klossar behövs minst för att trycket från stapeln ska vara minst 101,3 kPa?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontaktytan är 0,20 · 0,10 = 0,020 m² och tryckgränsen är 101 300 Pa. n klossar ger kraften n · 169 N.\\[\\frac{n\\cdot169}{0{,}020}\\ge101300\\]\\[n\\ge\\frac{101300\\cdot0{,}020}{169}\\approx11{,}9882\\]Antalet måste vara ett heltal som når gränsen, så vi avrundar uppåt. Med 11 klossar blir trycket 92 950 Pa; med 12 blir det 101 400 Pa.</p><p><strong>Svar:</strong> 12 klossar.</p></div>",
     "id": "6.429",
     "miniräknare": true,
@@ -149292,7 +149456,7 @@ window.BANK = [
     "niva": "C",
     "typ": "skidåkare",
     "poang": "(0/3/0)",
-    "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Skidåkaren står stilla på två skidor på vågrät mark. Bestäm medeltrycket i Pa. Svara med tre värdesiffror.</li><li>Skidåkaren står stilla på en skida på vågrät mark. Bestäm medeltrycket i Pa. Svara med tre värdesiffror.</li><li>Skidåkaren står stilla på två skidor i en backe som lutar 25° mot vågrätt. Skidorna ligger plant mot backen och friktionen håller personen stilla. Bestäm medeltrycket mot backen i Pa. Svara med tre värdesiffror.</li></ol>",
+    "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><ol type=\"a\"><li>Skidåkaren står stilla på två skidor på vågrät mark. Bestäm trycket i Pa. Svara med tre värdesiffror.</li><li>Skidåkaren står stilla på en skida på vågrät mark. Bestäm trycket i Pa. Svara med tre värdesiffror.</li><li>Skidåkaren står stilla på två skidor i en backe som lutar 25° mot vågrätt. Skidorna ligger plant mot backen och friktionen håller personen stilla. Bestäm trycket mot backen i Pa. Svara med tre värdesiffror.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Bredden är 0,055 m. Lägg ihop båda skidornas areor.\\[A=2\\cdot0{,}055\\cdot2{,}15=0{,}2365\\,\\mathrm{m^2}\\]På vågrät mark balanserar normalkraften hela tyngden.\\[F_N=85\\cdot9{,}82=834{,}7\\,\\mathrm N\\]\\[p=\\frac{F_N}{A}\\approx3529{,}386892\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(3{,}53\\cdot10^{3}\\,\\mathrm{Pa}\\).</p><p><strong>b)</strong></p><p>Bredden är 0,055 m. Bara en skida har kontakt med marken.\\[A=0{,}055\\cdot2{,}15=0{,}11825\\,\\mathrm{m^2}\\]På vågrät mark balanserar normalkraften hela tyngden.\\[F_N=85\\cdot9{,}82=834{,}7\\,\\mathrm N\\]\\[p=\\frac{F_N}{A}\\approx7058{,}773784\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(7{,}06\\cdot10^{3}\\,\\mathrm{Pa}\\).</p><p><strong>c)</strong></p><p>Bredden är 0,055 m. Lägg ihop båda skidornas areor.\\[A=2\\cdot0{,}055\\cdot2{,}15=0{,}2365\\,\\mathrm{m^2}\\]Normalkraften balanserar den del av tyngdkraften som är vinkelrät mot backen.\\[\\begin{gathered}F_N=mg\\cos25^\\circ\\\\F_N=85\\cdot9{,}82\\cos25^\\circ\\approx756{,}49511\\,\\mathrm N\\end{gathered}\\]\\[p=\\frac{F_N}{A}\\approx3198{,}710824\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(3{,}20\\cdot10^{3}\\,\\mathrm{Pa}\\).</p></div>",
     "id": "6.430",
     "miniräknare": true,
@@ -149335,8 +149499,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skidåkaren står stilla på två skidor på vågrät mark. Bestäm medeltrycket i Pa. Svara med tre värdesiffror.",
-        "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Skidåkaren står stilla på två skidor på vågrät mark. Bestäm medeltrycket i Pa. Svara med tre värdesiffror.</p>",
+        "fraga": "Skidåkaren står stilla på två skidor på vågrät mark. Bestäm trycket i Pa. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Skidåkaren står stilla på två skidor på vågrät mark. Bestäm trycket i Pa. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bredden är 0,055 m. Lägg ihop båda skidornas areor.\\[A=2\\cdot0{,}055\\cdot2{,}15=0{,}2365\\,\\mathrm{m^2}\\]På vågrät mark balanserar normalkraften hela tyngden.\\[F_N=85\\cdot9{,}82=834{,}7\\,\\mathrm N\\]\\[p=\\frac{F_N}{A}\\approx3529{,}386892\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(3{,}53\\cdot10^{3}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "C",
@@ -149346,8 +149510,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Skidåkaren står stilla på en skida på vågrät mark. Bestäm medeltrycket i Pa. Svara med tre värdesiffror.",
-        "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Skidåkaren står stilla på en skida på vågrät mark. Bestäm medeltrycket i Pa. Svara med tre värdesiffror.</p>",
+        "fraga": "Skidåkaren står stilla på en skida på vågrät mark. Bestäm trycket i Pa. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Skidåkaren står stilla på en skida på vågrät mark. Bestäm trycket i Pa. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bredden är 0,055 m. Bara en skida har kontakt med marken.\\[A=0{,}055\\cdot2{,}15=0{,}11825\\,\\mathrm{m^2}\\]På vågrät mark balanserar normalkraften hela tyngden.\\[F_N=85\\cdot9{,}82=834{,}7\\,\\mathrm N\\]\\[p=\\frac{F_N}{A}\\approx7058{,}773784\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(7{,}06\\cdot10^{3}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac{F}{A}\\).</p>",
         "niva": "C",
@@ -149357,8 +149521,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Skidåkaren står stilla på två skidor i en backe som lutar 25° mot vågrätt. Skidorna ligger plant mot backen och friktionen håller personen stilla. Bestäm medeltrycket mot backen i Pa. Svara med tre värdesiffror.",
-        "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Skidåkaren står stilla på två skidor i en backe som lutar 25° mot vågrätt. Skidorna ligger plant mot backen och friktionen håller personen stilla. Bestäm medeltrycket mot backen i Pa. Svara med tre värdesiffror.</p>",
+        "fraga": "Skidåkaren står stilla på två skidor i en backe som lutar 25° mot vågrätt. Skidorna ligger plant mot backen och friktionen håller personen stilla. Bestäm trycket mot backen i Pa. Svara med tre värdesiffror.",
+        "t": "<p>En skidåkare har massan 85 kg. Varje skida är 5,5 cm bred och 2,15 m lång. Hela skidans undersida har kontakt med underlaget. Bortse från skidornas massa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Skidåkaren står stilla på två skidor i en backe som lutar 25° mot vågrätt. Skidorna ligger plant mot backen och friktionen håller personen stilla. Bestäm trycket mot backen i Pa. Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bredden är 0,055 m. Lägg ihop båda skidornas areor.\\[A=2\\cdot0{,}055\\cdot2{,}15=0{,}2365\\,\\mathrm{m^2}\\]Normalkraften balanserar den del av tyngdkraften som är vinkelrät mot backen.\\[\\begin{gathered}F_N=mg\\cos25^\\circ\\\\F_N=85\\cdot9{,}82\\cos25^\\circ\\approx756{,}49511\\,\\mathrm N\\end{gathered}\\]\\[p=\\frac{F_N}{A}\\approx3198{,}710824\\,\\mathrm{Pa}\\]</p><p><strong>Svar:</strong> \\(3{,}20\\cdot10^{3}\\,\\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>Vilken kraft är vinkelrät mot snön?</p>",
         "niva": "C",

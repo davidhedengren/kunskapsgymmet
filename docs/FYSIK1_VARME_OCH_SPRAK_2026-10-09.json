@@ -1,0 +1,3592 @@
+{
+  "date": "2026-10-09",
+  "scope": {
+    "mainBank": 3715,
+    "changed": 194,
+    "heatManuallyReviewed": 121,
+    "languageOutsideHeat": 73,
+    "languageIds": [
+      "3.12",
+      "3.49",
+      "3.56",
+      "3.162",
+      "3.164",
+      "4.346",
+      "4.363",
+      "4.369",
+      "4.372",
+      "4.375",
+      "5.12",
+      "6.2",
+      "6.7",
+      "6.224",
+      "6.15",
+      "6.16",
+      "6.24",
+      "6.226",
+      "6.227",
+      "6.29",
+      "6.230",
+      "6.47",
+      "6.231",
+      "6.232",
+      "6.233",
+      "6.295",
+      "6.55",
+      "6.235",
+      "6.237",
+      "6.239",
+      "6.241",
+      "6.94",
+      "6.243",
+      "6.95",
+      "6.96",
+      "6.97",
+      "6.245",
+      "6.98",
+      "6.248",
+      "8.349",
+      "8.352",
+      "8.358",
+      "8.204",
+      "5.378",
+      "5.216",
+      "5.225",
+      "5.554",
+      "5.559",
+      "5.562",
+      "5.565",
+      "5.566",
+      "5.567",
+      "5.568",
+      "5.569",
+      "5.570",
+      "5.574",
+      "5.579",
+      "5.582",
+      "5.586",
+      "5.587",
+      "5.591",
+      "5.599",
+      "5.477",
+      "5.488",
+      "5.539",
+      "6.351",
+      "6.419",
+      "6.420",
+      "6.424",
+      "6.425",
+      "6.427",
+      "6.429",
+      "6.430"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "3.12",
+      "omr": "vt_diagram",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "3.49",
+      "omr": "medelhastighet",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "3.56",
+      "omr": "st_diagram",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "3.162",
+      "omr": "konstacc",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "3.164",
+      "omr": "konstacc",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "4.346",
+      "omr": "gravitation",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "4.363",
+      "omr": "gravitation",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "4.369",
+      "omr": "gravitation",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        5,
+        "A"
+      ],
+      "afterLevel": [
+        5,
+        "A"
+      ]
+    },
+    {
+      "id": "4.372",
+      "omr": "gravitation",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "4.375",
+      "omr": "gravitation",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.12",
+      "omr": "effekt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.2",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.7",
+      "omr": "tryck",
+      "fields": [
+        "t",
+        "s"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "6.224",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.15",
+      "omr": "arkimedes",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "6.16",
+      "omr": "arkimedes",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.24",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.226",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.227",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.29",
+      "omr": "tryck",
+      "fields": [
+        "t",
+        "s"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.230",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.47",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.231",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.232",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.233",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.295",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.55",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.235",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.237",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.239",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.241",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.94",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "6.243",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.95",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.96",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.97",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.245",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.98",
+      "omr": "tryck",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.248",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.1",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.64",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.2",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.3",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.65",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.4",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.8",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.66",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.9",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.10",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        5,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.67",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.11",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "miniräknare",
+        "alternativ",
+        "svarFormat",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.12",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.68",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "traningsniva",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.13",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.17",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.69",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.18",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.19",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.70",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "svarEnhet",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.20",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "svarEnhet",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.71",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "svarEnhet",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.27",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.28",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "svarEnhet",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.72",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.30",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.31",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats",
+        "rättSvar273"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.73",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.33",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.34",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.74",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.35",
+      "omr": "varme",
+      "fields": [
+        "s",
+        "traningsniva",
+        "alternativ",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.36",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.75",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.37",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.38",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.76",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.39",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.40",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.77",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.41",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.78",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.42",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.43",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.79",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.44",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "8.349",
+      "omr": "falt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "A"
+      ]
+    },
+    {
+      "id": "8.352",
+      "omr": "falt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "A"
+      ]
+    },
+    {
+      "id": "8.358",
+      "omr": "falt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "A"
+      ]
+    },
+    {
+      "id": "7.55",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "svarEnhet",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.80",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.56",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.57",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.81",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.58",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "8.204",
+      "omr": "kretsar",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "A"
+      ]
+    },
+    {
+      "id": "5.378",
+      "omr": "rorelsemangd",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.59",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.82",
+      "omr": "varme",
+      "fields": [
+        "poang",
+        "t",
+        "s",
+        "traningsniva",
+        "rättSvar",
+        "tolerans",
+        "svarEnhet",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.60",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.61",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.83",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "traningsniva",
+        "tolerans",
+        "spelIntro",
+        "spelDelar",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.62",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.63",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s"
+      ],
+      "beforeLevel": [
+        5,
+        "A"
+      ],
+      "afterLevel": [
+        5,
+        "A"
+      ]
+    },
+    {
+      "id": "7.84",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.121",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.122",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.123",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "svarEnhet"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.124",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.125",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "svarstyp",
+        "rättSvar",
+        "tolerans",
+        "miniräknare",
+        "svarFormat",
+        "alternativ"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.126",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "svarstyp",
+        "rättSvar",
+        "tolerans",
+        "miniräknare",
+        "svarFormat",
+        "alternativ"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.127",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.128",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "svarstyp",
+        "rättSvar",
+        "tolerans",
+        "miniräknare",
+        "svarFormat",
+        "alternativ"
+      ],
+      "beforeLevel": [
+        1,
+        "E"
+      ],
+      "afterLevel": [
+        1,
+        "E"
+      ]
+    },
+    {
+      "id": "7.137",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.138",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.139",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.140",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.141",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "svarEnhet"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.142",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.143",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.144",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.145",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.146",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.147",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.148",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.149",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.150",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.151",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.152",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.153",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.154",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.155",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.156",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.157",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.158",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.159",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "7.160",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "7.161",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.162",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.163",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.164",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.165",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.166",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.167",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.168",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.169",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.170",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.171",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.172",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.173",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.174",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.175",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "A"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.176",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.177",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.178",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.179",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.180",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans",
+        "traningsniva"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.181",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.182",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.183",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "rättSvar",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.184",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.185",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.186",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "7.187",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.188",
+      "omr": "varme",
+      "fields": [
+        "niva",
+        "poang",
+        "t",
+        "s",
+        "tolerans",
+        "arbetsinsats"
+      ],
+      "beforeLevel": [
+        4,
+        "A"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "7.189",
+      "omr": "varme",
+      "fields": [
+        "t",
+        "s",
+        "tolerans"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.216",
+      "omr": "rorelseenergi",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.225",
+      "omr": "blandat_energi",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.554",
+      "omr": "effekt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.559",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.562",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.565",
+      "omr": "effekt",
+      "fields": [
+        "typ",
+        "t",
+        "s",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.566",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.567",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.568",
+      "omr": "effekt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "5.569",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "5.570",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.574",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.579",
+      "omr": "effekt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "5.582",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "5.586",
+      "omr": "effekt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.587",
+      "omr": "effekt",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    },
+    {
+      "id": "5.591",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.599",
+      "omr": "effekt",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.477",
+      "omr": "rorelseenergi",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "E"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "5.488",
+      "omr": "rorelseenergi",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "5.539",
+      "omr": "rorelseenergi",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.351",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.419",
+      "omr": "tryck",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.420",
+      "omr": "tryck",
+      "fields": [
+        "niva",
+        "poang",
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "E"
+      ]
+    },
+    {
+      "id": "6.424",
+      "omr": "tryck",
+      "fields": [
+        "t",
+        "spelIntro",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.425",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.427",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        2,
+        "E"
+      ],
+      "afterLevel": [
+        2,
+        "E"
+      ]
+    },
+    {
+      "id": "6.429",
+      "omr": "tryck",
+      "fields": [
+        "t"
+      ],
+      "beforeLevel": [
+        3,
+        "C"
+      ],
+      "afterLevel": [
+        3,
+        "C"
+      ]
+    },
+    {
+      "id": "6.430",
+      "omr": "tryck",
+      "fields": [
+        "t",
+        "spelDelar"
+      ],
+      "beforeLevel": [
+        4,
+        "C"
+      ],
+      "afterLevel": [
+        4,
+        "C"
+      ]
+    }
+  ],
+  "reports": {
+    "ma2 3.222": "Toppvinkeln 52 grader är korrekt. Text, figuren och facit har förtydligats; 52, 52° och 52 grader verifierade.",
+    "fy1 5.565b": "Medeleffekt, höjdökning och frågan om tiden är nu tydliga. Lösningen visar både ökningen av rörelseenergi och lägesenergi. 4,10 s och 4.1 godtas.",
+    "fy2 1.3b": "Önskemål om passnavigation åtgärdat i separat commit 6725244 i Kunskapsgymmet."
+  },
+  "validation": {
+    "masterUnitTests": 169,
+    "svgTests": 47,
+    "consumerUnitTests": 80,
+    "fullBankGameCards": 4985,
+    "fullBankGradingChecks": 32781,
+    "fullBankGradingFailures": 0,
+    "fullBankKaTeXErrors": 0,
+    "heatNumericChecks": 705,
+    "heatChoiceChecks": 16,
+    "heatNumericModels": 102,
+    "heatNumericAnswerFields": 138,
+    "heatManualTasks": 14,
+    "heatFiguresVisuallyReviewed": 11,
+    "heatMobileRenderedTasksAndCards": 264,
+    "heatMobileOverflowIssues": 0
+  },
+  "limits": [
+    "Hela Fysik 1-banken har sökts systematiskt efter de aktuella språkmönstren och kontrollerats tekniskt. Detta är inte en ny manuell genomräkning av samtliga 3715 uppgifter.",
+    "Denna omgång omfattar värme. Fasändringar och senare kapitel behöver fortsatt manuell genomgång.",
+    "Validatorns åtta fysikvarningar kvarstår som observationsfynd; noll ERROR i Fysik 1. Matematik 2 har fyra befintliga metadatafel i 2.636/2.637 utanför denna revidering."
+  ]
+}

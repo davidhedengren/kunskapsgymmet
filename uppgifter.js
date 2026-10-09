@@ -72962,7 +72962,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En blandning innehåller både is och flytande vatten vid normalt lufttryck. Blandningen tillförs energi, men det finns fortfarande is kvar. Vad händer med temperaturen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När is och vatten finns samtidigt vid normalt tryck är temperaturen nära 0 °C.</p></div><div class=\"facit-stycke\"><p>Den tillförda energin bryter bindningar och smälter is i stället för att höja temperaturen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> temperaturen är ungefär 0 °C tills all is har smält.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid smältpunkten används den tillförda energin till att smälta is. Temperaturen är ungefär 0 °C så länge det finns både is och vatten kvar.</p><p><strong>Svar:</strong> Temperaturen är ungefär 0 °C.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__fasovergang_och_temperatur",
     "formaga": [
@@ -73010,14 +73010,14 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi behövs för att smälta \\(0{,}100\\ \\mathrm{kg}\\) is som redan håller \\(0\\,{}^\\circ\\mathrm C\\)? Isens smältvärme är \\(334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_f=0{,}100\\cdot334=33{,}4\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33{,}4\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,100 kg is vid 0 °C ska smälta. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=0{,}1\\cdot334\\\\ &=33{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(33{,}4\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Isen är redan vid smältpunkten, så endast smältenergin behövs.</p>",
+    "ledtrad": "<p>Använd Q = mL_f. Isen är redan vid smältpunkten.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -73025,13 +73025,14 @@ window.BANK = [
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
     "rättSvar": 33.4,
-    "tolerans": 0.501,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.86",
@@ -73039,28 +73040,29 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vid \\(0\\,{}^\\circ\\mathrm C\\) används \\(50{,}1\\ \\mathrm{kJ}\\) för att smälta is. Bestäm isens massa. Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{L_f}=\\frac{50{,}1}{334}=0{,}150\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}150\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>Is vid 0 °C smälter när den tar upp 50,1 kJ. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket is smälter? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&m=\\frac{Q}{L_f}=\\frac{50{,}1}{334}\\\\ &=0{,}15\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}150\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__bestamma_massa_eller_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Lös ut massan ur sambandet mellan energi, massa och smältentalpi.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Lös ut massan ur Q = mL_f.</p>",
+    "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "bestämma massa eller latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 0.15,
-    "tolerans": 0.00225,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Bestämma massa eller latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.6",
@@ -73068,8 +73070,8 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>I en kastrull finns \\(1{,}8\\ \\mathrm{kg}\\) vatten med temperaturen \\(18\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p><ol><li>Bestäm energin som krävs för att värma vattnet till 100 °C. Svara i kJ.</li><li>Bestäm den ytterligare energi som krävs för att förånga allt vatten vid 100 °C. Svara i MJ.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=617\\ \\mathrm{kJ},\\qquad Q_2=4{,}07\\ \\mathrm{MJ}.\\]</div></div><div class=\"facit-stycke\"><p>Förångningen kräver drygt 6,5 gånger så mycket energi som uppvärmningen till kokpunkten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(617\\ \\mathrm{kJ}\\) och \\(4{,}07\\ \\mathrm{MJ}\\).</p></div>",
+    "t": "<p>1,8 kg vatten vid 18 °C ska värmas till 100 °C och sedan förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p><strong>a)</strong> Hur mycket energi behövs för uppvärmningen? Svara i kJ. Svara med ett heltal.</p><p><strong>b)</strong> Hur mycket energi behövs för förångningen? Svara i MJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturökningen är 100 − 18 = 82 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=1{,}8\\cdot4{,}18\\cdot82\\\\ &=616{,}968\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(617\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q=mL_v=1{,}8\\cdot2260\\\\ &=4068\\,\\mathrm{kJ}\\end{aligned}\\]<p>4068 kJ = 4,068 MJ.</p><p><strong>Svar:</strong> \\(4{,}07\\,\\mathrm{MJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
@@ -73084,12 +73086,12 @@ window.BANK = [
     "typ": "uppvärmning och fasövergång",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      617,
-      4.07
+      616.968,
+      4.068
     ],
     "tolerans": [
-      9.255,
-      0.06105
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -73106,32 +73108,35 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en kastrull finns \\(1{,}8\\ \\mathrm{kg}\\) vatten med temperaturen \\(18\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
+    "spelIntro": "<p>1,8 kg vatten vid 18 °C ska värmas till 100 °C och sedan förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin som krävs för att värma vattnet till 100 °C. Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=mc\\Delta T=1{,}8\\cdot4{,}18\\cdot82=617\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(617\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Temperaturen ökar 82 K.</p>",
+        "fraga": "Hur mycket energi behövs för uppvärmningen? Svara i kJ. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 100 − 18 = 82 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=1{,}8\\cdot4{,}18\\cdot82\\\\ &=616{,}968\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(617\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Beräkna temperaturökningen innan du använder Q = mcΔT.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>1,8 kg vatten ska värmas från 18 °C till 100 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Bestäm energin som krävs för att värma vattnet till 100 °C. Svara i kJ.</p>"
+        "t": "<p>1,8 kg vatten värms från 18 °C till 100 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen? Svara i kJ. Svara med ett heltal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den ytterligare energi som krävs för att förånga allt vatten vid 100 °C. Svara i MJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_2=mL_v=1{,}8\\cdot2260=4068\\ \\mathrm{kJ}=4{,}068\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}07\\ \\mathrm{MJ}\\).</p></div>",
-        "ledtrad": "<p>Under kokningen används Q = mLᵥ.</p>",
+        "fraga": "Hur mycket energi behövs för förångningen? Svara i MJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=1{,}8\\cdot2260\\\\ &=4068\\,\\mathrm{kJ}\\end{aligned}\\]<p>4068 kJ = 4,068 MJ.</p><p><strong>Svar:</strong> \\(4{,}07\\,\\mathrm{MJ}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mL_v och omvandla kJ till MJ.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>1,8 kg vatten vid 100 °C ska förångas. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Bestäm den ytterligare energi som krävs för att förånga allt vatten vid 100 °C. Svara i MJ.</p>"
+        "t": "<p>1,8 kg vatten vid 100 °C ska förångas. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behövs för förångningen? Svara i MJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.87",
@@ -73139,37 +73144,38 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}420\\ \\mathrm{kg}\\) vatten vid \\(0\\,{}^\\circ\\mathrm C\\) fryser till is. Hur mycket energi avges? Vattnets smältvärme är \\(334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_f=0{,}420\\cdot334=140{,}28\\ \\mathrm{kJ}.\\]</div></div><div class=\"facit-stycke\"><p>Samma energimängd krävs för att smälta isen igen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(140{,}3\\ \\mathrm{kJ}\\) avges.</p></div>",
+    "t": "<p>0,420 kg vatten vid 0 °C fryser till is. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=0{,}42\\cdot334\\\\ &=140{,}28\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(140{,}3\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Frysning avger lika mycket energi som smältning av samma massa kräver.</p>",
+    "ledtrad": "<p>Frysning avger samma energi som smältning av samma mängd is kräver.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 140.3,
-    "tolerans": 2.1045,
+    "rättSvar": 140.28,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.7",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Diagrammet visar hur \\(0{,}500\\ \\mathrm{kg}\\) is värms från \\(-20\\,{}^\\circ\\mathrm C\\). Den tillförda energin visas på den vågräta axeln.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-20</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">T (°C)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q (kJ)</text><polyline points=\"54,246 84.24000000000001,191 324.72,191 475.92,53.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol><li>Bestäm hur mycket energi som tillförs innan isen börjar smälta.</li><li>Bestäm energin som går åt under smältningen.</li><li>Använd diagrammet för att bestämma isens smältentalpi.</li><li>Förklara varför grafen är vågrät under smältningen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Isen når 0 °C vid ungefär 21 kJ.</p></div><div class=\"facit-stycke\"><p>Smältplatån slutar vid ungefär 188 kJ, så smältningen kräver \\(188-21=167\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L_f=\\frac{Q}{m}=\\frac{167}{0{,}500}=334\\ \\mathrm{kJ/kg}.\\]</div></div><div class=\"facit-stycke\"><p>Under platån används energin till att ändra fas.</p></div><div class=\"facit-stycke\"><p>Temperaturen är därför konstant tills all is har smält.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\ \\mathrm{kJ}\\), \\(167\\ \\mathrm{kJ}\\) och \\(L_f\\approx334\\ \\mathrm{kJ/kg}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Diagrammet visar hur \\(0{,}500\\ \\mathrm{kg}\\) is värms från \\(-20\\,{}^\\circ\\mathrm C\\). Den tillförda energin visas på den vågräta axeln.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-20</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">T (°C)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q (kJ)</text><polyline points=\"54,246 84.24000000000001,191 324.72,191 475.92,53.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><p><strong>a)</strong> Bestäm hur mycket energi som tillförs innan isen börjar smälta.</p><p><strong>b)</strong> Bestäm energin som går åt under smältningen.</p><p><strong>c)</strong> Använd diagrammet för att bestämma isens smältvärme.</p><p><strong>d)</strong> Förklara varför grafen är vågrät under smältningen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Isen når 0 °C vid ungefär 21 kJ. Läs av där grafen först blir vågrät.</p><p><strong>b)</strong> Den vågräta delen börjar vid ungefär 21 kJ och slutar vid 188 kJ. Smältningen kräver därför ungefär 188 − 21 = 167 kJ.</p><p><strong>c)</strong> Dividera smältenergin med isens massa:</p>\\[\\begin{aligned}&L_f=\\frac{Q}{m}=\\frac{167}{0{,}5}\\\\ &=334\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>d)</strong> Energin används till att smälta isen. Temperaturen stiger först när all is har smält.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__varmekurvor_och_experiment",
     "formaga": [
@@ -73178,7 +73184,7 @@ window.BANK = [
       "resonemang"
     ],
     "ledtrad": "<p>Läs av var 0 °C-platån börjar och slutar. Skillnaden i energi hör till smältningen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -73189,7 +73195,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Värmekurvor och experiment"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.88",
@@ -73197,14 +73204,14 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi krävs för att förånga \\(0{,}075\\ \\mathrm{kg}\\) vatten som redan håller \\(100\\,{}^\\circ\\mathrm C\\)? Vattnets ångbildningsvärme är \\(2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_v=0{,}075\\cdot2260=169{,}5\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(169{,}5\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,075 kg vatten vid 100 °C ska förångas. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behövs? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=0{,}075\\cdot2260\\\\ &=169{,}5\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(169{,}5\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vattnet är redan vid kokpunkten, så ingen uppvärmningsterm behövs.</p>",
+    "ledtrad": "<p>Använd Q = mL_v. Vattnet är redan vid kokpunkten.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -73212,13 +73219,14 @@ window.BANK = [
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
     "rättSvar": 169.5,
-    "tolerans": 2.5425,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.8",
@@ -73563,16 +73571,16 @@ window.BANK = [
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Hur mycket energi krävs för att smälta \\(0{,}250\\ \\mathrm{kg}\\) is vid \\(0\\,{}^\\circ\\mathrm C\\) och därefter värma smältvattnet till \\(20\\,{}^\\circ\\mathrm C\\)? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}250\\cdot334+0{,}250\\cdot4{,}18\\cdot20=83{,}5+20{,}9=104{,}4\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(104{,}4\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>0,250 kg is vid 0 °C ska smälta. Vattnet värms sedan till 20 °C. Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi behövs totalt? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen tar upp energi när den smälter och vattnet tar upp energi när det värms.</p>\\[\\begin{aligned}&Q_{\\rm smält}=mL_f=0{,}25\\cdot334\\\\ &=83{,}5\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm vatten}=mc\\Delta T=0{,}25\\cdot4{,}18\\cdot20\\\\ &=20{,}9\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=83{,}5+20{,}9\\\\ &=104{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(104{,}4\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Summera energin för smältningen och energin för att värma vattnet.</p>",
+    "ledtrad": "<p>Lägg ihop energin för smältningen och uppvärmningen.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
@@ -73580,13 +73588,14 @@ window.BANK = [
     "typ": "uppvärmning och fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 104.4,
-    "tolerans": 1.566,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.89",
@@ -73594,14 +73603,14 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}120\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar till vatten med samma temperatur. Hur mycket energi avges? Vattnets ångbildningsvärme är \\(2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_v=0{,}120\\cdot2260=271{,}2\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(271{,}2\\ \\mathrm{kJ}\\) avges.</p></div>",
+    "t": "<p>0,120 kg vattenånga vid 100 °C blir vatten med samma temperatur. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=0{,}12\\cdot2260\\\\ &=271{,}2\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(271{,}2\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Kondensation avger samma energimängd som förångning av samma massa kräver.</p>",
+    "ledtrad": "<p>När ånga blir vatten avges energi. Använd Q = mL_v.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -73609,13 +73618,14 @@ window.BANK = [
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
     "rättSvar": 271.2,
-    "tolerans": 4.068,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.90",
@@ -73623,58 +73633,60 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Det krävs \\(4{,}0\\ \\mathrm{MJ}\\) för att förånga \\(5{,}0\\ \\mathrm{kg}\\) av en vätska vid dess kokpunkt. Bestäm vätskans ångbildningsentalpi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L_v=\\frac{Q}{m}=\\frac{4000}{5{,}0}=800\\ \\mathrm{kJ/kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(800\\ \\mathrm{kJ/kg}\\).</p></div>",
+    "t": "<p>5,0 kg vätska förångas vid sin kokpunkt och tar upp 4,0 MJ.</p><p>Vilket ångbildningsvärme har vätskan? Svara i kJ/kg. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>4,0 MJ = 4000 kJ. Ångbildningsvärmet är energin per kilogram.</p>\\[\\begin{aligned}&L_v=\\frac{Q}{m}=\\frac{4000}{5}\\\\ &=800\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(800\\,\\mathrm{kJ/kg}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__bestamma_massa_eller_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först energin i kJ och beräkna energin per kilogram.</p>",
+    "ledtrad": "<p>Omvandla MJ till kJ och dividera med massan.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "bestämma massa eller latent värme",
     "svarstyp": "numeriskt",
-    "rättSvar": 800,
-    "tolerans": 12,
+    "rättSvar": 800.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ/kg",
     "familjTidigare": [
       "Bestämma massa eller latent värme"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.15",
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Hur mycket energi krävs för att omvandla \\(0{,}80\\ \\mathrm{kg}\\) is vid \\(-10\\,{}^\\circ\\mathrm C\\) till vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\)? Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\), \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Processen består av fyra energibidrag: värma is, smälta is, värma vatten och förånga vatten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}80(2{,}10\\cdot10+334+4{,}18\\cdot100+2260)=2426\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}43\\ \\mathrm{MJ}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>0,80 kg is vid −10 °C ska omvandlas till vattenånga vid 100 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behövs totalt? Svara i MJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen värms till 0 °C och smälter. Vattnet värms till 100 °C och förångas.</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}8\\cdot2{,}1\\cdot10\\\\ &=16{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}8\\cdot334\\\\ &=267{,}2\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}8\\cdot4{,}18\\cdot100\\\\ &=334{,}4\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm ånga}=0{,}8\\cdot2260\\\\ &=1808\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=16{,}8+267{,}2+334{,}4+1808\\\\ &=2426{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p>2426,4 kJ = 2,4264 MJ.</p><p><strong>Svar:</strong> \\(2{,}43\\,\\mathrm{MJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
       "procedur",
-      "problemlösning"
+      "begrepp"
     ],
-    "ledtrad": "<p>Skriv en energiterm för varje temperaturintervall och varje fasövergång.</p>",
+    "ledtrad": "<p>Dela vid 0 °C och 100 °C. Temperaturen ändras inte under själva smältningen eller kokningen.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "energikedjor med flera faser",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.43,
-    "tolerans": 0.03645,
+    "rättSvar": 2.4264,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MJ",
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.91",
@@ -73683,7 +73695,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Vilket påstående beskriver skillnaden mellan avdunstning och kokning bäst?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Avdunstning sker från vätskans yta och kan ske under kokpunkten.</p></div><div class=\"facit-stycke\"><p>Vid kokning bildas ånga i hela vätskan när dess ångtryck motsvarar omgivningens tryck.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> avdunstning sker vid ytan, medan kokning sker i hela vätskan.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avdunstning sker från vätskans yta och kan ske under kokpunkten. Vid kokning bildas ångbubblor inne i vätskan.</p><p><strong>Svar:</strong> Avdunstning sker vid ytan. Kokning sker också inne i vätskan.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__fasovergang_och_temperatur",
     "formaga": [
@@ -73731,28 +73743,29 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Is vid \\(0\\,{}^\\circ\\mathrm C\\) tillförs \\(42{,}62\\ \\mathrm{kJ}\\). Hur stor massa is smälter? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{L_f}=\\frac{42{,}62}{334}=0{,}1276\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}128\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>Is vid 0 °C tillförs 42,62 kJ. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket is smälter? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&m=\\frac{Q}{L_f}=\\frac{42{,}62}{334}\\\\ &\\approx0{,}128\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}128\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__delvis_fasovergang_och_slutfas",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Så länge is finns kvar används energin till att smälta en viss massa.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Dividera energin med smältvärmet.</p>",
+    "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "delvis fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.128,
-    "tolerans": 0.00192,
+    "rättSvar": 0.12760479041916167,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Delvis fasövergång och slutfas"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.16",
@@ -73760,8 +73773,8 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En värmare med effekten \\(150\\ \\mathrm W\\) värmer \\(0{,}080\\ \\mathrm{kg}\\) is från \\(-6{,}0\\,{}^\\circ\\mathrm C\\) tills all is har smält. Anta att all effekt når isen. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8f472f\">150 W tillförs</text></svg></span><ol><li>Bestäm energin som krävs för att värma isen till 0 °C.</li><li>Bestäm energin som krävs för att smälta isen.</li><li>Bestäm tiden från start tills all is har smält. Svara i minuter.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=1{,}01\\ \\mathrm{kJ},\\quad Q_2=26{,}7\\ \\mathrm{kJ},\\quad t=3{,}08\\ \\mathrm{min}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}01\\ \\mathrm{kJ}\\), \\(26{,}7\\ \\mathrm{kJ}\\) och \\(3{,}08\\ \\mathrm{min}\\).</p></div>",
+    "t": "<p>En värmare överför 150 W till 0,080 kg is vid −6,0 °C tills all is har smält. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8f472f\">150 W tillförs</text></svg><p><strong>a)</strong> Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 2 decimaler.</p><p><strong>b)</strong> Hur mycket energi behövs för smältningen? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>c)</strong> Hur lång tid tar uppvärmningen och smältningen tillsammans? Svara i min. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Isen värms 6 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}08\\cdot2{,}1\\cdot6\\\\ &=1{,}008\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}01\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q=mL_f=0{,}08\\cdot334\\\\ &=26{,}72\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(26{,}7\\,\\mathrm{kJ}\\).</p><p><strong>c)</strong></p>\\[\\begin{aligned}&Q_{\\rm tot}=1{,}008+26{,}72\\\\ &=27{,}728\\,\\mathrm{kJ}\\end{aligned}\\]<p>27,728 kJ = 27 728 J.</p>\\[\\begin{aligned}&t=\\frac{Q}{P}=\\frac{27728}{150}\\\\ &\\approx185\\,\\mathrm{s}\\end{aligned}\\]<p>Dividera tiden i sekunder med 60.</p>\\[\\begin{aligned}&t=\\frac{\\frac{27728}{150}}{60}\\\\ &\\approx3{,}08\\,\\mathrm{min}\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}08\\,\\mathrm{min}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__effekt_och_verkningsgrad_vid_fasovergang",
     "formaga": [
@@ -73776,14 +73789,14 @@ window.BANK = [
     "typ": "effekt och tid vid fasövergång",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.01,
-      26.7,
-      3.08
+      1.008,
+      26.72,
+      3.080888888888888
     ],
     "tolerans": [
-      0.01515,
-      0.4005,
-      0.0462
+      0.005,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -73803,41 +73816,46 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En värmare med effekten \\(150\\ \\mathrm W\\) värmer \\(0{,}080\\ \\mathrm{kg}\\) is från \\(-6{,}0\\,{}^\\circ\\mathrm C\\) tills all is har smält. Anta att all effekt når isen. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8f472f\">150 W tillförs</text></svg></span>",
+    "spelIntro": "<p>En värmare överför 150 W till 0,080 kg is vid −6,0 °C tills all is har smält. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8f472f\">150 W tillförs</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi behövs? Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=0{,}080\\cdot2{,}10\\cdot6{,}0=1{,}008\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}01\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Använd Q = mcΔT för isen.</p>",
+        "fraga": "Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen värms 6 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}08\\cdot2{,}1\\cdot6\\\\ &=1{,}008\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}01\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mcΔT för temperaturökningen på 6 K.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>0,080 kg is värms från −6,0 °C till 0 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8f472f\">150 W tillförs</text></svg><p>Hur mycket energi behövs? Svara i kJ.</p>"
+        "t": "<p>0,080 kg is värms från −6,0 °C till 0 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi behövs? Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_2=0{,}080\\cdot334=26{,}72\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}7\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Vid 0 °C används Q = mL_f.</p>",
+        "fraga": "Hur mycket energi behövs för smältningen? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=0{,}08\\cdot334\\\\ &=26{,}72\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(26{,}7\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mL_f.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "poang": "(1/0/0)",
-        "t": "<p>0,080 kg is vid 0 °C ska smälta. Isens smältvärme är 334 kJ/kg.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#8f472f\">150 W tillförs</text></svg><p>Hur mycket energi behövs? Svara i kJ.</p>"
+        "t": "<p>0,080 kg is vid 0 °C ska smälta. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs för smältningen? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm tiden från start tills all is har smält. Svara i minuter.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{(1{,}008+26{,}72)\\cdot1000}{150}=184{,}9\\ \\mathrm s=3{,}08\\ \\mathrm{min}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}08\\ \\mathrm{min}\\).</p></div>",
-        "ledtrad": "<p>Summera energierna och använd t = Q/P.</p>",
+        "fraga": "Hur lång tid tar uppvärmningen och smältningen tillsammans? Svara i min. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm tot}=1{,}008+26{,}72\\\\ &=27{,}728\\,\\mathrm{kJ}\\end{aligned}\\]<p>27,728 kJ = 27 728 J.</p>\\[\\begin{aligned}&t=\\frac{Q}{P}=\\frac{27728}{150}\\\\ &\\approx185\\,\\mathrm{s}\\end{aligned}\\]<p>Dividera tiden i sekunder med 60.</p>\\[\\begin{aligned}&t=\\frac{\\frac{27728}{150}}{60}\\\\ &\\approx3{,}08\\,\\mathrm{min}\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}08\\,\\mathrm{min}\\).</p></div>",
+        "ledtrad": "<p>Summera energierna och omvandla till J. Använd sedan t = Q/P.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Det behövs 1,008 kJ för att värma en isbit till 0 °C och 26,72 kJ för att smälta den. Värmaren överför 150 W till isen.</p><p>Hur lång tid tar uppvärmningen och smältningen tillsammans? Svara i min. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.93",
@@ -73845,8 +73863,8 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två lika stora prov har temperaturen \\(0\\,{}^\\circ\\mathrm C\\). Det ena är flytande vatten och det andra är is. Båda får samma lilla energimängd. Energin räcker inte för att smälta all is. Vilket påstående är korrekt?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det flytande vattnet använder energin till temperaturökning.</p></div><div class=\"facit-stycke\"><p>I isprovet används energin till att smälta en del av isen, och temperaturen ligger nära 0 °C så länge is och vatten finns samtidigt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> vattnet blir varmare medan is–vattenblandningen är kvar nära 0 °C.</p></div>",
+    "t": "<p>Två prov har temperaturen \\(0\\,{}^\\circ\\mathrm C\\). Det ena är flytande vatten och det andra är is. Båda får samma lilla energimängd. Energin räcker inte för att smälta all is. Vilket påstående är korrekt?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet blir varmare av energin. I isen används energin till smältning, så temperaturen stannar vid ungefär 0 °C tills all is har smält.</p><p><strong>Svar:</strong> Vattnet blir varmare, men is och smältvatten är kvar vid ungefär 0 °C.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__fasovergang_och_temperatur",
     "formaga": [
@@ -74153,30 +74171,31 @@ window.BANK = [
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En frys ska omvandla \\(1{,}00\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\) till is vid \\(-18\\,{}^\\circ\\mathrm C\\). Bestäm energin som måste transporteras bort. Materialdata: \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Energi förs bort när vattnet kyls, när det fryser och när isen kyls vidare.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}00(4{,}18\\cdot20+334+2{,}10\\cdot18)=455{,}4\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(455{,}4\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>1,00 kg vatten vid 20 °C ska kylas till is vid −18 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi behöver föras bort? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet svalnar till 0 °C, fryser och isen svalnar till −18 °C.</p>\\[\\begin{aligned}&Q_{\\rm vatten}=1\\cdot4{,}18\\cdot20\\\\ &=83{,}6\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm frys}=1\\cdot334\\\\ &=334\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is}=1\\cdot2{,}1\\cdot18\\\\ &=37{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=83{,}6+334+37{,}8\\\\ &=455{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(455{,}4\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
       "procedur",
-      "problemlösning"
+      "begrepp"
     ],
-    "ledtrad": "<p>Dela kylningen i tre steg med gränsen vid 0 °C.</p>",
+    "ledtrad": "<p>Använd mcΔT för avsvalning och mL_f för frysning.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "energikedjor med flera faser",
     "svarstyp": "numeriskt",
-    "rättSvar": 455.4,
-    "tolerans": 6.831,
+    "rättSvar": 455.40000000000003,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.94",
@@ -74184,37 +74203,38 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}250\\ \\mathrm{kg}\\) vatten vid \\(0\\,{}^\\circ\\mathrm C\\) fryser. Hur mycket energi avges under frysningen? Smältvärme: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_f=0{,}250\\cdot334=83{,}5\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83{,}5\\ \\mathrm{kJ}\\) avges.</p></div>",
+    "t": "<p>Vatten vid 0 °C fryser till is och avger 83,5 kJ.</p><p>Hur mycket energi behöver isen ta upp för att smälta igen vid 0 °C? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Frysning och smältning är motsatta förändringar. Samma mängd is behöver ta upp lika mycket energi för att smälta som den avgav när den frös.</p><p><strong>Svar:</strong> \\(83{,}5\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Massan är redan i kilogram och temperaturen är fryspunkten.</p>",
+    "ledtrad": "<p>Jämför energin för frysning och smältning av samma mängd vatten.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
-    "typ": "enkel fasövergång – energi",
+    "typ": "jämföra energi vid frysning och smältning",
     "svarstyp": "numeriskt",
     "rättSvar": 83.5,
-    "tolerans": 1.2525,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.22",
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>På utsidan av ett kallt glas kondenserar \\(5{,}0\\ \\mathrm g\\) vattenånga. Anta att all frigjord energi tas upp av \\(0{,}200\\ \\mathrm{kg}\\) dryck i glaset. Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\) och \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p><ol><li>Bestäm energin som avges när vattenångan kondenserar.</li><li>Bestäm dryckens temperaturökning enligt modellen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=11{,}3\\ \\mathrm{kJ},\\qquad \\Delta T=13{,}5\\ \\mathrm K.\\]</div></div><div class=\"facit-stycke\"><p>I verkligheten går en del av energin till glaset och omgivningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}3\\ \\mathrm{kJ}\\) och \\(13{,}5\\ \\mathrm K\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>5,0 g vattenånga kondenserar på ett glas. All energi från kondensationen tas upp av 0,200 kg dryck. Vattnets ångbildningsvärme är 2260 kJ/kg. Dryckens specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p><strong>a)</strong> Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket ökar dryckens temperatur? Svara i K. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>5,0 g = 0,0050 kg.</p>\\[\\begin{aligned}&Q=mL_v=0{,}005\\cdot2260\\\\ &=11{,}3\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(11{,}3\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong></p><p>Drycken tar upp energin från ångan. Lös ut temperaturökningen ur Q = mcΔT:</p>\\[\\begin{aligned}&\\Delta T=\\frac{Q}{mc}=\\frac{11{,}3}{0{,}2\\cdot4{,}18}\\\\ &\\approx13{,}5\\,\\mathrm{K}\\end{aligned}\\]<p><strong>Svar:</strong> \\(13{,}5\\,\\mathrm{K}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__kondensation_och_energioverforing",
     "formaga": [
@@ -74222,7 +74242,7 @@ window.BANK = [
       "modellering"
     ],
     "ledtrad": "<p>Låt först ångans avgivna energi bli känd. Använd sedan den energin för drycken.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -74230,11 +74250,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       11.3,
-      13.5
+      13.516746411483256
     ],
     "tolerans": [
-      0.1695,
-      0.2025
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -74251,31 +74271,35 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>På utsidan av ett kallt glas kondenserar \\(5{,}0\\ \\mathrm g\\) vattenånga. Anta att all frigjord energi tas upp av \\(0{,}200\\ \\mathrm{kg}\\) dryck i glaset. Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\) och \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
+    "spelIntro": "<p>5,0 g vattenånga kondenserar på ett glas. All energi från kondensationen tas upp av 0,200 kg dryck. Vattnets ångbildningsvärme är 2260 kJ/kg. Dryckens specifika värmekapacitet är 4,18 kJ/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin som avges när vattenångan kondenserar.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}0050\\cdot2260=11{,}3\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}3\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Skriv 5,0 g som kilogram och använd Q = mLᵥ.</p>",
-        "niva": "C",
+        "fraga": "Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>5,0 g = 0,0050 kg.</p>\\[\\begin{aligned}&Q=mL_v=0{,}005\\cdot2260\\\\ &=11{,}3\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(11{,}3\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Omvandla gram till kilogram och använd Q = mL_v.</p>",
+        "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>5,0 g vattenånga kondenserar till vatten vid samma temperatur. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Bestäm energin som avges när vattenångan kondenserar.</p>"
+        "t": "<p>5,0 g vattenånga blir vatten med samma temperatur. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm dryckens temperaturökning enligt modellen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{11{,}3}{0{,}200\\cdot4{,}18}=13{,}5\\ \\mathrm K.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}5\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Sätt kondensationsenergin lika med dryckens mcΔT.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "fraga": "Hur mycket ökar dryckens temperatur? Svara i K. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Drycken tar upp energin från ångan. Lös ut temperaturökningen ur Q = mcΔT:</p>\\[\\begin{aligned}&\\Delta T=\\frac{Q}{mc}=\\frac{11{,}3}{0{,}2\\cdot4{,}18}\\\\ &\\approx13{,}5\\,\\mathrm{K}\\end{aligned}\\]<p><strong>Svar:</strong> \\(13{,}5\\,\\mathrm{K}\\).</p></div>",
+        "ledtrad": "<p>Lös ut ΔT ur Q = mcΔT.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>0,200 kg dryck tar upp 11,3 kJ. Dess specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket ökar dryckens temperatur? Svara i K. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Kondensation och energiöverföring"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.95",
@@ -74283,28 +74307,29 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett aluminiumstycke med massan \\(0{,}180\\ \\mathrm{kg}\\) är vid sin smältpunkt. Hur mycket energi krävs för att smälta det? Smältvärme: \\(L_f=397\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_f=0{,}180\\cdot397=71{,}46\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(71{,}5\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,180 kg aluminium ska smälta. Det är redan vid smältpunkten. Aluminiumets smältvärme är 397 kJ/kg.</p><p>Hur mycket energi behövs? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=0{,}18\\cdot397\\\\ &=71{,}46\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(71{,}5\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Metallen är redan vid smältpunkten, så endast smältenergin behövs.</p>",
+    "ledtrad": "<p>Aluminiumet behöver inte värmas först. Använd Q = mL_f.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 71.5,
-    "tolerans": 1.0725,
+    "rättSvar": 71.46,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.96",
@@ -74312,58 +74337,60 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vid \\(100\\,{}^\\circ\\mathrm C\\) används \\(271{,}2\\ \\mathrm{kJ}\\) för att förånga vatten. Hur stor vattenmassa förångas? Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{L_v}=\\frac{271{,}2}{2260}=0{,}120\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}120\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>Vatten vid 100 °C tillförs 271,2 kJ. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten förångas? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&m=\\frac{Q}{L_v}=\\frac{271{,}2}{2260}\\\\ &=0{,}12\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}120\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__bestamma_massa_eller_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Lös ut massan ur Q = mLᵥ.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Lös ut massan ur Q = mL_v.</p>",
+    "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "bestämma massa eller latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 0.12,
-    "tolerans": 0.0018,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Bestämma massa eller latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.23",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En iskub har sidan \\(3{,}0\\ \\mathrm{cm}\\) och temperaturen \\(-15\\,{}^\\circ\\mathrm C\\). Isens densitet är \\(0{,}917\\ \\mathrm{g/cm^3}\\). Bestäm energin som krävs för att värma kuben till \\(0\\,{}^\\circ\\mathrm C\\) och smälta den. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"280\" viewBox=\"0 0 420 280\" role=\"img\" aria-label=\"Iskub med sidan tre centimeter\"><rect width=\"420\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M130 92 L235 58 L307 103 L202 139 Z\" fill=\"#d9eff8\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M130 92 L202 139 L202 230 L130 182 Z\" fill=\"#bee1ef\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M202 139 L307 103 L307 194 L202 230 Z\" fill=\"#a9d4e7\" stroke=\"#35505f\" stroke-width=\"3\"/><line x1=\"132\" y1=\"244\" x2=\"201\" y2=\"244\" stroke=\"#b85735\" stroke-width=\"3\"/><path d=\"M132 244 l12 -7 v14 z M201 244 l-12 -7 v14 z\" fill=\"#b85735\"/><text x=\"166\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">3,0 cm</text><text x=\"305\" y=\"55\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">−15 °C</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är \\(3{,}0^3=27{,}0\\ \\mathrm{cm^3}\\), vilket ger massan \\(27{,}0\\cdot0{,}917=24{,}8\\ \\mathrm g=0{,}0248\\ \\mathrm{kg}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=m(c_{is}\\Delta T+L_f)=0{,}0248(2{,}10\\cdot15+334)=9{,}05\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}05\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En iskub har sidan 3,0 cm och temperaturen −15 °C. Isens densitet är 0,917 g/cm³. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"280\" viewBox=\"0 0 420 280\" role=\"img\" aria-label=\"Iskub med sidan tre centimeter\"><rect width=\"420\" height=\"280\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M130 92 L235 58 L307 103 L202 139 Z\" fill=\"#d9eff8\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M130 92 L202 139 L202 230 L130 182 Z\" fill=\"#bee1ef\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M202 139 L307 103 L307 194 L202 230 Z\" fill=\"#a9d4e7\" stroke=\"#35505f\" stroke-width=\"3\"/><line x1=\"132\" y1=\"244\" x2=\"201\" y2=\"244\" stroke=\"#b85735\" stroke-width=\"3\"/><path d=\"M132 244 l12 -7 v14 z M201 244 l-12 -7 v14 z\" fill=\"#b85735\"/><text x=\"166\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#304657\">3,0 cm</text><text x=\"305\" y=\"55\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">−15 °C</text></svg><p>Hur mycket energi behövs för att värma kuben till 0 °C och smälta den? Svara i kJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kubens volym och massa är:</p>\\[\\begin{aligned}&V=3^{3}\\\\ &=27\\,\\mathrm{cm^3}\\end{aligned}\\]\\[\\begin{aligned}&m=\\rho V=27\\cdot0{,}917\\\\ &=24{,}759\\,\\mathrm{g}\\end{aligned}\\]<p>24,759 g = 0,024759 kg. Använd den oavrundade massan för båda energibidragen.</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}024759\\cdot2{,}1\\cdot15\\\\ &\\approx0{,}78\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}024759\\cdot334\\\\ &=8{,}269506\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=0{,}024759\\cdot(2{,}1\\cdot15+334)\\\\ &\\approx9{,}05\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(9{,}05\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
       "problemlösning",
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först kubens volym och massa. Energin har sedan två delar.</p>",
+    "ledtrad": "<p>Beräkna kubens volym och massa. Isen behöver både värmas och smälta.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "energikedjor med flera faser",
     "svarstyp": "numeriskt",
-    "rättSvar": 9.05,
-    "tolerans": 0.13575,
+    "rättSvar": 9.0494145,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.97",
@@ -74371,14 +74398,14 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}060\\ \\mathrm{kg}\\) etanol är vid sin kokpunkt. Hur mycket energi krävs för att förånga all etanol? Ångbildningsvärme: \\(L_v=840\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_v=0{,}060\\cdot840=50{,}4\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50{,}4\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,060 kg etanol ska förångas vid sin kokpunkt. Etanolens ångbildningsvärme är 840 kJ/kg.</p><p>Hur mycket energi behövs? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=0{,}06\\cdot840\\\\ &=50{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(50{,}4\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Etanolen är redan vid kokpunkten.</p>",
+    "ledtrad": "<p>Använd Q = mL_v för förångningen.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -74386,13 +74413,14 @@ window.BANK = [
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
     "rättSvar": 50.4,
-    "tolerans": 0.756,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.98",
@@ -74400,15 +74428,15 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Torris är fast koldioxid som kan övergå direkt till gas. För denna övergång krävs 571 kJ/kg. Torrisen har redan den temperatur där övergången sker.</p><p>Hur mycket energi krävs för att omvandla 0,200 kg torris till gas? Svara i kJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_s=0{,}200\\cdot571=114{,}2\\ \\mathrm{kJ}.\\]</div></div><div class=\"facit-stycke\"><p>Sublimering är en fasövergång direkt från fast form till gas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(114{,}2\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>Torris är fast koldioxid som kan bli gas direkt. För att omvandla 1 kg torris till gas vid −78,5 °C behövs 571 kJ.</p><p>Hur mycket energi behövs för 0,200 kg torris vid −78,5 °C? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_s=0{,}2\\cdot571\\\\ &=114{,}2\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(114{,}2\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Samma samband Q = mL gäller även när ett ämne sublimerar.</p>",
+    "ledtrad": "<p>Multiplicera massan med energin per kilogram.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
@@ -74416,73 +74444,76 @@ window.BANK = [
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
     "rättSvar": 114.2,
-    "tolerans": 1.713,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.24",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>En dryck med massan \\(0{,}250\\ \\mathrm{kg}\\) ska kylas från \\(25\\,{}^\\circ\\mathrm C\\) till \\(5\\,{}^\\circ\\mathrm C\\) med is vid \\(0\\,{}^\\circ\\mathrm C\\). Anta att drycken har samma specifika värmekapacitet som vatten och att all is smälter och sedan värms till \\(5\\,{}^\\circ\\mathrm C\\). Hur mycket is behövs? Materialdata: \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Drycken avger \\(Q=0{,}250\\cdot4{,}18\\cdot20=20{,}9\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><p>Varje kilogram is tar upp \\(334+4{,}18\\cdot5=354{,}9\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{20{,}9}{354{,}9}=0{,}0589\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(59\\ \\mathrm g\\) is.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,250 kg dryck vid 25 °C ska kylas till 5 °C med is vid 0 °C. All is smälter och vattnet får också temperaturen 5 °C. Dryckens specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket is behövs? Svara i g. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Drycken avger energi när den svalnar 20 K:</p>\\[\\begin{aligned}&Q_{\\rm dryck}=0{,}25\\cdot4{,}18\\cdot20\\\\ &=20{,}9\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram is behöver 334 kJ för att smälta och sedan 4,18 · 5 kJ för att bli 5 °C. Det blir 354,9 kJ/kg.</p>\\[\\begin{aligned}&m_{\\rm is}=\\frac{20{,}9}{354{,}9}\\cdot1000\\\\ &\\approx59\\,\\mathrm{g}\\end{aligned}\\]<p><strong>Svar:</strong> \\(59\\,\\mathrm{g}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__varmebalans_med_is",
     "formaga": [
       "problemlösning",
       "modellering"
     ],
-    "ledtrad": "<p>Isen tar först upp smältenergi och därefter energi när smältvattnet värms.</p>",
+    "ledtrad": "<p>Isen tar upp energi både när den smälter och när smältvattnet värms till 5 °C.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "kylning med is",
     "svarstyp": "numeriskt",
-    "rättSvar": 59,
-    "tolerans": 0.885,
+    "rättSvar": 58.88982812059735,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "g",
     "familjTidigare": [
       "Värmebalans med is"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.99",
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>\\(0{,}230\\ \\mathrm{kg}\\) is vid \\(-14\\,{}^\\circ\\mathrm C\\) värms tills allt har smält och vattnet når \\(30\\,{}^\\circ\\mathrm C\\). Bestäm energin. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}230(2{,}10\\cdot14+334+4{,}18\\cdot30)=112{,}4\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(112{,}4\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>0,230 kg is vid −14 °C ska smälta. Vattnet värms sedan till 30 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi behövs totalt? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen värms till 0 °C och smälter. Sedan värms allt vatten till 30 °C.</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}23\\cdot2{,}1\\cdot14\\\\ &=6{,}762\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}23\\cdot334\\\\ &=76{,}82\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}23\\cdot4{,}18\\cdot30\\\\ &=28{,}842\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=6{,}762+76{,}82+28{,}842\\\\ &=112{,}424\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(112{,}4\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
       "procedur",
-      "problemlösning"
+      "begrepp"
     ],
-    "ledtrad": "<p>Processen har tre energidelar: varm is, smältning och varmt vatten.</p>",
+    "ledtrad": "<p>Räkna energin för uppvärmning av is, smältning och uppvärmning av vatten.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "energikedjor med flera faser",
     "svarstyp": "numeriskt",
-    "rättSvar": 112.4,
-    "tolerans": 1.686,
+    "rättSvar": 112.42399999999999,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.25",
@@ -74490,8 +74521,8 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>I en gjuteriugn ska \\(2{,}0\\ \\mathrm{kg}\\) aluminium värmas från \\(20\\,{}^\\circ\\mathrm C\\) till smältpunkten \\(660\\,{}^\\circ\\mathrm C\\) och sedan smältas. Materialdata: \\(c=0{,}900\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=397\\ \\mathrm{kJ/kg}\\).</p><ol><li>Bestäm energin för att värma aluminiumet till smältpunkten. Svara i MJ.</li><li>Bestäm energin för själva smältningen. Svara i MJ.</li><li>Bestäm den totala energin. Svara i MJ.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=1{,}15\\ \\mathrm{MJ},\\quad Q_2=0{,}794\\ \\mathrm{MJ},\\quad Q_{\\mathrm{tot}}=1{,}95\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}15\\ \\mathrm{MJ}\\), \\(0{,}794\\ \\mathrm{MJ}\\) och \\(1{,}95\\ \\mathrm{MJ}\\).</p></div>",
+    "t": "<p>2,0 kg aluminium värms från 20 °C till smältpunkten 660 °C och smälter. Aluminiumets specifika värmekapacitet är 0,900 kJ/(kg·K) och smältvärmet är 397 kJ/kg.</p><p><strong>a)</strong> Hur mycket energi behövs för uppvärmningen? Svara i MJ. Avrunda till 2 decimaler.</p><p><strong>b)</strong> Hur mycket energi behövs för smältningen? Svara i MJ. Avrunda till 3 decimaler.</p><p><strong>c)</strong> Hur mycket energi tar det upp totalt? Svara i MJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturökningen är 660 − 20 = 640 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=2\\cdot0{,}9\\cdot640\\\\ &=1152\\,\\mathrm{kJ}\\end{aligned}\\]<p>1152 kJ = 1,152 MJ.</p><p><strong>Svar:</strong> \\(1{,}15\\,\\mathrm{MJ}\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q=mL_f=2\\cdot397\\\\ &=794\\,\\mathrm{kJ}\\end{aligned}\\]<p>794 kJ = 0,794 MJ.</p><p><strong>Svar:</strong> \\(0{,}794\\,\\mathrm{MJ}\\).</p><p><strong>c)</strong></p><p>Lägg ihop uppvärmningsenergin och smältenergin.</p>\\[\\begin{aligned}&Q_{\\rm tot}=1{,}152+0{,}794\\\\ &=1{,}946\\,\\mathrm{MJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}95\\,\\mathrm{MJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
@@ -74506,14 +74537,14 @@ window.BANK = [
     "typ": "metaller: uppvärmning och smältning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.15,
+      1.152,
       0.794,
-      1.95
+      1.946
     ],
     "tolerans": [
-      0.01725,
-      0.01191,
-      0.02925
+      0.005,
+      0.0005,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -74533,41 +74564,46 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en gjuteriugn ska \\(2{,}0\\ \\mathrm{kg}\\) aluminium värmas från \\(20\\,{}^\\circ\\mathrm C\\) till smältpunkten \\(660\\,{}^\\circ\\mathrm C\\) och sedan smältas. Materialdata: \\(c=0{,}900\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=397\\ \\mathrm{kJ/kg}\\).</p>",
+    "spelIntro": "<p>2,0 kg aluminium värms från 20 °C till smältpunkten 660 °C och smälter. Aluminiumets specifika värmekapacitet är 0,900 kJ/(kg·K) och smältvärmet är 397 kJ/kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin för att värma aluminiumet till smältpunkten. Svara i MJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=2{,}0\\cdot0{,}900\\cdot640=1152\\ \\mathrm{kJ}=1{,}152\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}15\\ \\mathrm{MJ}\\).</p></div>",
-        "ledtrad": "<p>Temperaturen ökar 640 K.</p>",
+        "fraga": "Hur mycket energi behövs för uppvärmningen? Svara i MJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 660 − 20 = 640 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=2\\cdot0{,}9\\cdot640\\\\ &=1152\\,\\mathrm{kJ}\\end{aligned}\\]<p>1152 kJ = 1,152 MJ.</p><p><strong>Svar:</strong> \\(1{,}15\\,\\mathrm{MJ}\\).</p></div>",
+        "ledtrad": "<p>Beräkna temperaturökningen och använd Q = mcΔT.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>2,0 kg aluminium värms från 20 °C till 660 °C. Dess specifika värmekapacitet är 0,900 kJ/(kg·K).</p><p>Bestäm energin för att värma aluminiumet till smältpunkten. Svara i MJ.</p>"
+        "t": "<p>2,0 kg aluminium värms från 20 °C till 660 °C. Dess specifika värmekapacitet är 0,900 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen? Svara i MJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm energin för själva smältningen. Svara i MJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_2=2{,}0\\cdot397=794\\ \\mathrm{kJ}=0{,}794\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}794\\ \\mathrm{MJ}\\).</p></div>",
-        "ledtrad": "<p>Vid smältpunkten används Q = mL_f.</p>",
+        "fraga": "Hur mycket energi behövs för smältningen? Svara i MJ. Avrunda till 3 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=2\\cdot397\\\\ &=794\\,\\mathrm{kJ}\\end{aligned}\\]<p>794 kJ = 0,794 MJ.</p><p><strong>Svar:</strong> \\(0{,}794\\,\\mathrm{MJ}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mL_f och omvandla kJ till MJ.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>2,0 kg aluminium vid smältpunkten 660 °C ska smälta. Aluminiumets smältvärme är 397 kJ/kg.</p><p>Bestäm energin för själva smältningen. Svara i MJ.</p>"
+        "t": "<p>2,0 kg aluminium vid 660 °C ska smälta. Aluminiumets smältvärme är 397 kJ/kg.</p><p>Hur mycket energi behövs för smältningen? Svara i MJ. Avrunda till 3 decimaler.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den totala energin. Svara i MJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{tot}}=1{,}152+0{,}794=1{,}946\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}95\\ \\mathrm{MJ}\\).</p></div>",
-        "ledtrad": "<p>Summera uppvärmnings- och smältenergin.</p>",
+        "fraga": "Hur mycket energi tar det upp totalt? Svara i MJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg ihop uppvärmningsenergin och smältenergin.</p>\\[\\begin{aligned}&Q_{\\rm tot}=1{,}152+0{,}794\\\\ &=1{,}946\\,\\mathrm{MJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}95\\,\\mathrm{MJ}\\).</p></div>",
+        "ledtrad": "<p>Addera de två energimängderna.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>Aluminium tar upp 1,152 MJ under uppvärmningen och 0,794 MJ när det smälter.</p><p>Hur mycket energi tar det upp totalt? Svara i MJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 1
       }
     ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.100",
@@ -74575,28 +74611,29 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}400\\ \\mathrm{kg}\\) is vid \\(0\\,{}^\\circ\\mathrm C\\) tillförs \\(100\\ \\mathrm{kJ}\\). Hur stor andel av isen smälter? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\). Svara i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{hela}}=0{,}400\\cdot334=133{,}6\\ \\mathrm{kJ}\\]\\[\\text{andel}=\\frac{100}{133{,}6}=0{,}7485.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}9\\,\\%\\).</p></div>",
+    "t": "<p>0,400 kg is vid 0 °C tillförs 100 kJ. Isens smältvärme är 334 kJ/kg.</p><p>Hur många procent av isen smälter? Svara i %. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>För att smälta all is behövs:</p>\\[\\begin{aligned}&Q_{\\rm all}=0{,}4\\cdot334\\\\ &=133{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p>Andelen energi är också andelen is som smälter.</p>\\[\\begin{aligned}&\\text{andel}=\\frac{100}{133{,}6}\\cdot100\\\\ &\\approx74{,}9\\,\\%\\end{aligned}\\]<p><strong>Svar:</strong> \\(74{,}9\\,\\%\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__delvis_fasovergang_och_slutfas",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Jämför den tillförda energin med energin för att smälta hela ismassan.</p>",
+    "ledtrad": "<p>Jämför 100 kJ med energin som behövs för att smälta all is.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "delvis fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 74.9,
-    "tolerans": 1.1235,
+    "rättSvar": 74.8502994011976,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "familjTidigare": [
       "Delvis fasövergång och slutfas"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.26",
@@ -74604,8 +74641,8 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett silversmycke med massan \\(80\\ \\mathrm g\\) ska värmas från \\(20\\,{}^\\circ\\mathrm C\\) till silvrets smältpunkt \\(962\\,{}^\\circ\\mathrm C\\) och sedan smältas. Materialdata: \\(c=0{,}235\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=105\\ \\mathrm{kJ/kg}\\).</p><ol><li>Bestäm energin för att värma silvret till smältpunkten.</li><li>Bestäm den totala energin för uppvärmning och smältning.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=17{,}7\\ \\mathrm{kJ},\\qquad Q_{\\mathrm{tot}}=26{,}1\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}7\\ \\mathrm{kJ}\\) och \\(26{,}1\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>80 g silver värms från 20 °C till smältpunkten 962 °C och smälter. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg.</p><p><strong>a)</strong> Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket energi behövs totalt för uppvärmning och smältning? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>80 g = 0,080 kg. Temperaturen ökar 962 − 20 = 942 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}08\\cdot0{,}235\\cdot942\\\\ &=17{,}7096\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(17{,}7\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}08\\cdot105\\\\ &=8{,}4\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=17{,}7096+8{,}4\\\\ &=26{,}1096\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(26{,}1\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
@@ -74620,12 +74657,12 @@ window.BANK = [
     "typ": "metaller: uppvärmning och smältning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      17.7,
-      26.1
+      17.709600000000002,
+      26.1096
     ],
     "tolerans": [
-      0.2655,
-      0.3915
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -74642,47 +74679,51 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett silversmycke med massan \\(80\\ \\mathrm g\\) ska värmas från \\(20\\,{}^\\circ\\mathrm C\\) till silvrets smältpunkt \\(962\\,{}^\\circ\\mathrm C\\) och sedan smältas. Materialdata: \\(c=0{,}235\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=105\\ \\mathrm{kJ/kg}\\).</p>",
+    "spelIntro": "<p>80 g silver värms från 20 °C till smältpunkten 962 °C och smälter. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi krävs för uppvärmningen? Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=0{,}080\\cdot0{,}235\\cdot942=17{,}7\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}7\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Skriv massan i kilogram och bestäm temperaturökningen.</p>",
+        "fraga": "Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>80 g = 0,080 kg. Temperaturen ökar 962 − 20 = 942 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}08\\cdot0{,}235\\cdot942\\\\ &=17{,}7096\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(17{,}7\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Omvandla massan till kilogram och beräkna temperaturökningen.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>Ett silversmycke på 80 g värms från 20 °C till smältpunkten 962 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K).</p><p>Hur mycket energi krävs för uppvärmningen? Svara i kJ.</p>"
+        "t": "<p>80 g silver värms från 20 °C till 962 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den totala energin för uppvärmning och smältning.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{tot}}=17{,}7+0{,}080\\cdot105=26{,}1\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}1\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Lägg till smältenergin mL_f.</p>",
+        "fraga": "Hur mycket energi behövs totalt för uppvärmning och smältning? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm smält}=0{,}08\\cdot105\\\\ &=8{,}4\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=17{,}7096+8{,}4\\\\ &=26{,}1096\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(26{,}1\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Lägg smältenergin till uppvärmningsenergin.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>80 g silver tar upp 17,7096 kJ för att nå smältpunkten. Silvrets smältvärme är 105 kJ/kg.</p><p>Hur mycket energi behövs totalt för uppvärmning och smältning? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.101",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>\\(0{,}200\\ \\mathrm{kg}\\) is med okänd starttemperatur värms tills allt har smält och vattnet når \\(20\\,{}^\\circ\\mathrm C\\). Totalt tillförs \\(87{,}72\\ \\mathrm{kJ}\\). Bestäm isens starttemperatur. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Smältningen och uppvärmningen av vattnet kräver \\(0{,}200(334+4{,}18\\cdot20)=83{,}52\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><p>Till isens uppvärmning återstår \\(4{,}20\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{4{,}20}{0{,}200\\cdot2{,}10}=10\\ \\mathrm K.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> starttemperaturen var \\(-10\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,200 kg is med okänd temperatur tar upp 87,72 kJ. All is smälter och vattnet får temperaturen 20 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Vilken temperatur hade isen från början? Svara i °C. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först energin för smältningen och uppvärmningen av vattnet:</p>\\[\\begin{aligned}&Q_{\\rm smält+vatten}=0{,}2\\cdot(334+4{,}18\\cdot20)\\\\ &=83{,}52\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is}=87{,}72-83{,}52\\\\ &=4{,}2\\,\\mathrm{kJ}\\end{aligned}\\]<p>Isen värms alltså med:</p>\\[\\begin{aligned}&\\Delta T=\\frac{Q_{\\rm is}}{mc}=\\frac{4{,}2}{0{,}2\\cdot2{,}1}\\\\ &=10\\,\\mathrm{K}\\end{aligned}\\]<p>Den värms 10 K till 0 °C och började därför vid −10 °C.</p><p><strong>Svar:</strong> \\(-10\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
       "problemlösning",
       "procedur"
     ],
-    "ledtrad": "<p>Räkna baklänges: ta först bort energin för smältning och för det varma vattnet.</p>",
+    "ledtrad": "<p>Ta bort energin för smältning och uppvärmning av vattnet.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
@@ -74696,16 +74737,17 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.102",
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>\\(0{,}100\\ \\mathrm{kg}\\) vatten värms från \\(20\\,{}^\\circ\\mathrm C\\) till \\(100\\,{}^\\circ\\mathrm C\\) och förångas sedan. Materialdata: \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p><ol><li>Bestäm energin för att värma vattnet till kokpunkten.</li><li>Hur många gånger större är förångningsenergin än uppvärmningsenergin?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=33{,}4\\ \\mathrm{kJ},\\qquad \\frac{Q_2}{Q_1}=6{,}76.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33{,}4\\ \\mathrm{kJ}\\) och faktorn \\(6{,}76\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p><strong>a)</strong> Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur många gånger större är energin för förångningen än energin för uppvärmningen? Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Temperaturen ökar 100 − 20 = 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}1\\cdot4{,}18\\cdot80\\\\ &=33{,}44\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(33{,}4\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q_{\\rm förånga}=0{,}1\\cdot2260\\\\ &=226\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&\\frac{Q_{\\rm förånga}}{Q_{\\rm värm}}=\\frac{226}{33{,}44}\\\\ &\\approx6{,}76\\end{aligned}\\]<p><strong>Svar:</strong> \\(6{,}76\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
@@ -74713,19 +74755,19 @@ window.BANK = [
       "begrepp"
     ],
     "ledtrad": "<p>Jämför energin för temperaturökningen med energin för fasövergången.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "jämföra energibidrag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      33.4,
-      6.76
+      33.44,
+      6.758373205741627
     ],
     "tolerans": [
-      0.501,
-      0.1014
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -74734,7 +74776,7 @@ window.BANK = [
     ],
     "svarEnhet": [
       "kJ",
-      null
+      ""
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -74742,31 +74784,35 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(0{,}100\\ \\mathrm{kg}\\) vatten värms från \\(20\\,{}^\\circ\\mathrm C\\) till \\(100\\,{}^\\circ\\mathrm C\\) och förångas sedan. Materialdata: \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
+    "spelIntro": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin för att värma vattnet till kokpunkten.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=0{,}100\\cdot4{,}18\\cdot80=33{,}44\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33{,}4\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Temperaturen ökar 80 K.</p>",
-        "niva": "C",
+        "fraga": "Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen ökar 100 − 20 = 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}1\\cdot4{,}18\\cdot80\\\\ &=33{,}44\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(33{,}4\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Beräkna temperaturökningen och använd Q = mcΔT.</p>",
+        "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>0,100 kg vatten värms från 20 °C till 100 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Bestäm energin för att värma vattnet till kokpunkten.</p>"
+        "t": "<p>0,100 kg vatten värms från 20 °C till 100 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur många gånger större är förångningsenergin än uppvärmningsenergin?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{Q_2}{Q_1}=\\frac{0{,}100\\cdot2260}{33{,}44}=6{,}76.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> förångningen kräver \\(6{,}76\\) gånger mer energi.</p></div>",
-        "ledtrad": "<p>Beräkna mLᵥ och bilda kvoten Q_förångning/Q_uppvärmning.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "fraga": "Hur många gånger större är energin för förångningen än energin för uppvärmningen? Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm förånga}=0{,}1\\cdot2260\\\\ &=226\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&\\frac{Q_{\\rm förånga}}{Q_{\\rm värm}}=\\frac{226}{33{,}44}\\\\ &\\approx6{,}76\\end{aligned}\\]<p><strong>Svar:</strong> \\(6{,}76\\).</p></div>",
+        "ledtrad": "<p>Beräkna förångningsenergin och dividera med 33,44 kJ.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>0,100 kg vatten behöver 33,44 kJ för att värmas från 20 °C till 100 °C. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur många gånger större är energin för förångningen än energin för uppvärmningen? Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.27",
@@ -74862,9 +74908,9 @@ window.BANK = [
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/3/0)",
-    "t": "<p>I ett välisolerat kärl finns \\(1{,}0\\ \\mathrm{kg}\\) vatten vid \\(25\\,{}^\\circ\\mathrm C\\). Man lägger i \\(0{,}40\\ \\mathrm{kg}\\) is vid \\(-8{,}0\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"640\" height=\"260\" viewBox=\"0 0 640 260\" role=\"img\" aria-label=\"Varmt vatten och kall is i ett isolerat kärl\"><rect width=\"640\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M225 45 L245 220 H435 L455 45\" fill=\"#edf1f4\" stroke=\"#344454\" stroke-width=\"4\"/><path d=\"M242 130 L252 210 H428 L438 130 Z\" fill=\"#bfe2f2\"/><rect x=\"292\" y=\"111\" width=\"46\" height=\"40\" rx=\"6\" fill=\"#dff3fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"355\" y=\"96\" width=\"54\" height=\"46\" rx=\"6\" fill=\"#dff3fb\" stroke=\"#39708c\" stroke-width=\"2\"/><text x=\"100\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#2b6f92\">0,40 kg is</text><text x=\"100\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">−8 °C</text><text x=\"535\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#a1492d\">1,0 kg vatten</text><text x=\"535\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">25 °C</text><text x=\"340\" y=\"245\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">välisolerat kärl</text></svg></span><ol><li>Bestäm energin som krävs för att värma isen till 0 °C.</li><li>Avgör om allt is kan smälta.</li><li>Bestäm sluttemperaturen och mängden is som finns kvar.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För att värma isen till 0 °C krävs \\(Q_1=0{,}40\\cdot2{,}10\\cdot8{,}0=6{,}72\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><p>Vattnet kan avge \\(1{,}0\\cdot4{,}18\\cdot25=104{,}5\\ \\mathrm{kJ}\\) innan det når 0 °C.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{smält}}=104{,}5-6{,}72=97{,}78\\ \\mathrm{kJ}\\]\\[m_{\\mathrm{smält}}=\\frac{97{,}78}{334}=0{,}293\\ \\mathrm{kg}.\\]</div></div><div class=\"facit-stycke\"><p>Det fanns \\(0{,}400\\ \\mathrm{kg}\\) is, så \\(0{,}107\\ \\mathrm{kg}\\) blir kvar.</p></div><div class=\"facit-stycke\"><p>När både is och vatten finns kvar är sluttemperaturen 0 °C.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> sluttemperaturen är \\(0\\,{}^\\circ\\mathrm C\\) och cirka \\(0{,}107\\ \\mathrm{kg}\\) is finns kvar.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>I ett välisolerat kärl finns \\(1{,}0\\ \\mathrm{kg}\\) vatten vid \\(25\\,{}^\\circ\\mathrm C\\). Man lägger i \\(0{,}40\\ \\mathrm{kg}\\) is vid \\(-8{,}0\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\). Bortse från energi som går till kärlet och omgivningen.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"640\" height=\"260\" viewBox=\"0 0 640 260\" role=\"img\" aria-label=\"Varmt vatten och kall is i ett isolerat kärl\"><rect width=\"640\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M225 45 L245 220 H435 L455 45\" fill=\"#edf1f4\" stroke=\"#344454\" stroke-width=\"4\"/><path d=\"M242 130 L252 210 H428 L438 130 Z\" fill=\"#bfe2f2\"/><rect x=\"292\" y=\"111\" width=\"46\" height=\"40\" rx=\"6\" fill=\"#dff3fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"355\" y=\"96\" width=\"54\" height=\"46\" rx=\"6\" fill=\"#dff3fb\" stroke=\"#39708c\" stroke-width=\"2\"/><text x=\"100\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#2b6f92\">0,40 kg is</text><text x=\"100\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">−8 °C</text><text x=\"535\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"19\" fill=\"#a1492d\">1,0 kg vatten</text><text x=\"535\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">25 °C</text><text x=\"340\" y=\"245\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">välisolerat kärl</text></svg></span><p><strong>a)</strong> Bestäm energin som krävs för att värma isen till 0 °C.</p><p><strong>b)</strong> Avgör om all is kan smälta.</p><p><strong>c)</strong> Bestäm sluttemperaturen och mängden is som finns kvar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Isen värms 8 K till 0 °C:</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}4\\cdot2{,}1\\cdot8\\\\ &=6{,}72\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>b)</strong> Vattnet kan avge följande energi innan det svalnat till 0 °C:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=1\\cdot4{,}18\\cdot25\\\\ &=104{,}5\\,\\mathrm{kJ}\\end{aligned}\\]<p>För att värma och smälta all is behövs 6,72 + 0,40 · 334 = 140,32 kJ. Det är mer än vattnets 104,5 kJ, så all is smälter inte.</p><p><strong>c)</strong> Energin som är kvar efter uppvärmningen smälter en del av isen:</p>\\[\\begin{aligned}&Q_{\\rm smält}=104{,}5-6{,}72\\\\ &=97{,}78\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm smält}=\\frac{97{,}78}{334}\\\\ &\\approx0{,}293\\,\\mathrm{kg}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm kvar}=0{,}4-\\frac{97{,}78}{334}\\\\ &\\approx0{,}107\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> Temperaturen blir 0 °C och cirka 0,107 kg is finns kvar.</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__varmebalans_med_is",
     "formaga": [
@@ -74884,37 +74930,39 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Värmebalans med is"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "7.103",
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett ämne med massan \\(0{,}300\\ \\mathrm{kg}\\) smälter vid konstant temperatur. Under smältplatån tillför en värmare effekten \\(500\\ \\mathrm W\\) i \\(4{,}0\\ \\mathrm{min}\\). Anta att all energi når ämnet. Bestäm ämnets smältentalpi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=Pt=500\\cdot240=120000\\ \\mathrm J\\]\\[L_f=\\frac{Q}{m}=\\frac{120000}{0{,}300}=400000\\ \\mathrm{J/kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\mathrm{kJ/kg}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>0,300 kg av ett ämne smälter helt. Under smältningen överför en värmare 500 W till ämnet i 4,0 minuter.</p><p>Vilket smältvärme har ämnet? Svara i kJ/kg. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>4,0 min = 240 s. Energin som överförs är:</p>\\[\\begin{aligned}&Q=Pt=500\\cdot240\\\\ &=120000\\,\\mathrm{J}\\end{aligned}\\]<p>120 000 J = 120 kJ. Dividera med massan:</p>\\[\\begin{aligned}&L_f=\\frac{Q}{m}=\\frac{120}{0{,}3}\\\\ &=400\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(400\\,\\mathrm{kJ/kg}\\).</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__varmekurvor_och_experiment",
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Använd platåns tid för att bestämma energin och dividera sedan med massan.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna energin med Q = Pt och dividera sedan med massan.</p>",
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "effekt och tid vid fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 400,
-    "tolerans": 6,
+    "rättSvar": 400.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ/kg",
     "familjTidigare": [
       "Värmekurvor och experiment"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.104",
@@ -74922,28 +74970,29 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vatten vid \\(100\\,{}^\\circ\\mathrm C\\) tillförs \\(339\\ \\mathrm{kJ}\\). Hur stor vattenmassa förångas? Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{L_v}=\\frac{339}{2260}=0{,}150\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}150\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>0,400 kg vatten vid 100 °C tillförs 339 kJ. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket flytande vatten finns kvar? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Energin förångar en del av vattnet:</p>\\[m_{\\rm ånga}=\\frac{339}{2260}=0{,}150\\,\\mathrm{kg}\\]<p>Subtrahera den förångade massan från den ursprungliga massan:</p>\\[m_{\\rm kvar}=0{,}400-0{,}150=0{,}250\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}250\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__bestamma_massa_eller_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vattnet är redan vid kokpunkten; lös ut massan ur Q = mLᵥ.</p>",
+    "ledtrad": "<p>Beräkna den förångade massan och subtrahera den från 0,400 kg.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
-    "typ": "bestämma massa eller latent värme",
+    "typ": "vattenmassa kvar efter förångning",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.15,
-    "tolerans": 0.00225,
+    "rättSvar": 0.25,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Bestämma massa eller latent värme"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.30",
@@ -75132,9 +75181,9 @@ window.BANK = [
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Fruktodlare kan spruta vatten på blommande träd inför en frostnatt. Anta att \\(1{,}0\\ \\mathrm{kg}\\) vatten fryser på ett träd och att omgivningen samtidigt för bort energi med den konstanta effekten \\(40\\ \\mathrm W\\). Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p><ol><li>Bestäm energin som avges när vattnet fryser.</li><li>Bestäm hur länge denna energi motsvarar en bortförd effekt på 40 W.</li><li>Förklara varför frysningen kan skydda knopparna och ange en begränsning i modellen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_f=1{,}0\\cdot334=334\\ \\mathrm{kJ}\\]\\[t=\\frac{334000}{40}=8350\\ \\mathrm s=2{,}32\\ \\mathrm h.\\]</div></div><div class=\"facit-stycke\"><p>När vattnet fryser avges energi och temperaturen hålls nära 0 °C så länge frysningen pågår.</p></div><div class=\"facit-stycke\"><p>Det kan bromsa fortsatt nedkylning av knopparna.</p></div><div class=\"facit-stycke\"><p>I verkligheten varierar värmeförlusten med vind, temperatur och avdunstning, så tiden är bara en idealiserad uppskattning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(334\\ \\mathrm{kJ}\\), motsvarande \\(2{,}32\\ \\mathrm h\\) i modellen.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Fruktodlare kan spruta vatten på blommande träd inför en frostnatt. Anta att \\(1{,}0\\ \\mathrm{kg}\\) vatten fryser på ett träd och att omgivningen samtidigt för bort energi med den konstanta effekten \\(40\\ \\mathrm W\\). Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p><p><strong>a)</strong> Bestäm energin som avges när vattnet fryser.</p><p><strong>b)</strong> Bestäm hur länge denna energi motsvarar en bortförd effekt på 40 W.</p><p><strong>c)</strong> Förklara varför frysningen kan skydda knopparna och ange en begränsning i modellen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vattnet avger energi när det fryser:</p>\\[\\begin{aligned}&Q=mL_f=1\\cdot334\\\\ &=334\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>b)</strong> 334 kJ = 334 000 J. Tiden blir:</p>\\[\\begin{aligned}&t=\\frac{Q}{P}=\\frac{334000}{40}\\\\ &=8350\\,\\mathrm{s}\\end{aligned}\\]<p>8350 s / 3600 ≈ 2,32 h.</p><p><strong>c)</strong> När vatten fryser avges energi. Det kan hålla knopparna nära 0 °C medan frysningen pågår. När vattnet har frusit färdigt upphör detta skydd. Vind, avdunstning och ändrad utetemperatur kan också påverka hur snabbt knopparna kyls.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__fasovergangar_i_natur_och_teknik",
     "formaga": [
@@ -75143,7 +75192,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Koppla den avgivna fasenergin till effekt med t = Q/P.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -75154,7 +75203,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Fasövergångar i natur och teknik"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.105",
@@ -75162,14 +75212,14 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En snökanon fryser \\(250\\ \\mathrm{kg}\\) vattendroppar som redan håller \\(0\\,{}^\\circ\\mathrm C\\). Hur mycket energi måste avges när vattnet fryser? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\). Svara i MJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_f=250\\cdot334=83500\\ \\mathrm{kJ}=83{,}5\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83{,}5\\ \\mathrm{MJ}\\).</p></div>",
+    "t": "<p>En snökanon fryser 250 kg vatten vid 0 °C. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi avges? Svara i MJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=250\\cdot334\\\\ &=83500\\,\\mathrm{kJ}\\end{aligned}\\]<p>83 500 kJ = 83,5 MJ.</p><p><strong>Svar:</strong> \\(83{,}5\\,\\mathrm{MJ}\\).</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__fasovergangar_i_natur_och_teknik",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Beräkna först energin i kJ och omvandla sedan till MJ.</p>",
+    "ledtrad": "<p>Beräkna energin med Q = mL_f och omvandla kJ till MJ.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
@@ -75177,13 +75227,14 @@ window.BANK = [
     "typ": "fasövergångar i natur och teknik",
     "svarstyp": "numeriskt",
     "rättSvar": 83.5,
-    "tolerans": 1.2525,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MJ",
     "familjTidigare": [
       "Fasövergångar i natur och teknik"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.33",
@@ -76040,9 +76091,9 @@ window.BANK = [
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(3/0/0)",
-    "t": "<p>En hink innehåller \\(3{,}0\\ \\mathrm{kg}\\) vatten vid \\(5{,}0\\,{}^\\circ\\mathrm C\\). Vattnet kyls, fryser och isen kyls vidare till \\(-3{,}0\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\).</p><ol><li>Bestäm energin som avges när vattnet kyls till 0 °C.</li><li>Bestäm energin som avges under frysningen.</li><li>Bestäm energin som avges när isen kyls till −3,0 °C.</li><li>Bestäm den totalt avgivna energin. Svara i MJ.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=62{,}7,\\quad Q_2=1002,\\quad Q_3=18{,}9\\ \\mathrm{kJ}\\]\\[Q_{\\mathrm{tot}}=1{,}08\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\ \\mathrm{MJ}\\) totalt.</p></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p><strong>a)</strong> Hur mycket energi avges när vattnet svalnar från 5,0 °C till 0 °C? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket energi avges när vattnet fryser vid 0 °C? Svara i kJ. Svara med ett heltal.</p><p><strong>c)</strong> Hur mycket energi avges när isen svalnar från 0 °C till −3,0 °C? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>d)</strong> Hur mycket energi avges totalt? Svara i MJ. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[\\begin{aligned}&Q_{\\rm kyl}=3\\cdot4{,}18\\cdot5\\\\ &=62{,}7\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(62{,}7\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q_{\\rm frys}=3\\cdot334\\\\ &=1002\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1002\\,\\mathrm{kJ}\\).</p><p><strong>c)</strong></p>\\[\\begin{aligned}&Q_{\\rm is}=3\\cdot2{,}1\\cdot3\\\\ &=18{,}9\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(18{,}9\\,\\mathrm{kJ}\\).</p><p><strong>d)</strong></p>\\[\\begin{aligned}&Q_{\\rm tot}=62{,}7+1002+18{,}9\\\\ &=1083{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p>1083,6 kJ = 1,0836 MJ.</p><p><strong>Svar:</strong> \\(1{,}08\\,\\mathrm{MJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
@@ -76057,16 +76108,16 @@ window.BANK = [
     "typ": "energikedjor med flera faser",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      62.7,
+      62.699999999999996,
       1002,
-      18.9,
-      1.08
+      18.900000000000002,
+      1.0836000000000001
     ],
     "tolerans": [
-      0.9405,
-      15.03,
-      0.2835,
-      0.0162
+      0.05,
+      0.5,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "svarFormat": [
@@ -76089,51 +76140,57 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En hink innehåller \\(3{,}0\\ \\mathrm{kg}\\) vatten vid \\(5{,}0\\,{}^\\circ\\mathrm C\\). Vattnet kyls, fryser och isen kyls vidare till \\(-3{,}0\\,{}^\\circ\\mathrm C\\). Materialdata: \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
+    "spelIntro": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi avges? Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_1=3{,}0\\cdot4{,}18\\cdot5{,}0=62{,}7\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(62{,}7\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Använd Q = mcΔT för vattnet.</p>",
+        "fraga": "Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm kyl}=3\\cdot4{,}18\\cdot5\\\\ &=62{,}7\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(62{,}7\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mcΔT.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>3,0 kg vatten kyls från 5,0 °C till 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi avges? Svara i kJ.</p>"
+        "t": "<p>3,0 kg vatten svalnar från 5,0 °C till 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi avges? Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_2=3{,}0\\cdot334=1002\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1002\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Vid 0 °C används Q = mL_f.</p>",
+        "fraga": "Hur mycket energi avges? Svara i kJ. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm frys}=3\\cdot334\\\\ &=1002\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1002\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mL_f.</p>",
         "niva": "E",
         "traningsniva": 1,
         "poang": "(1/0/0)",
-        "t": "<p>3,0 kg vatten vid 0 °C fryser till is vid samma temperatur. Vattnets smältvärme är 334 kJ/kg.</p><p>Hur mycket energi avges? Svara i kJ.</p>"
+        "t": "<p>3,0 kg vatten vid 0 °C fryser. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi avges? Svara i kJ. Svara med ett heltal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket energi avges? Svara i kJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_3=3{,}0\\cdot2{,}10\\cdot3{,}0=18{,}9\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}9\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Använd isens specifika värmekapacitet.</p>",
+        "fraga": "Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm is}=3\\cdot2{,}1\\cdot3\\\\ &=18{,}9\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(18{,}9\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Temperaturen minskar 3 K. Använd Q = mcΔT.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>3,0 kg is kyls från 0 °C till −3,0 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi avges? Svara i kJ.</p>"
+        "t": "<p>3,0 kg is svalnar från 0 °C till −3,0 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi avges? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm den totalt avgivna energin. Svara i MJ.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{tot}}=62{,}7+1002+18{,}9=1083{,}6\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\ \\mathrm{MJ}\\).</p></div>",
-        "ledtrad": "<p>Summera de tre energibidragen och omvandla kJ till MJ.</p>",
+        "fraga": "Hur mycket energi avges totalt? Svara i MJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm tot}=62{,}7+1002+18{,}9\\\\ &=1083{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p>1083,6 kJ = 1,0836 MJ.</p><p><strong>Svar:</strong> \\(1{,}08\\,\\mathrm{MJ}\\).</p></div>",
+        "ledtrad": "<p>Addera energierna och omvandla kJ till MJ.</p>",
         "niva": "E",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Vatten och is avger 62,7 kJ, 1002 kJ och 18,9 kJ under tre delar av en nedkylning.</p><p>Hur mycket energi avges totalt? Svara i MJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.106",
@@ -76141,37 +76198,38 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>När vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar avges \\(452\\ \\mathrm{kJ}\\). Bestäm ångans massa. Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{Q}{L_v}=\\frac{452}{2260}=0{,}200\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}200\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>Vattenånga vid 100 °C blir vatten med samma temperatur och avger 452 kJ. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur stor massa har vattenångan? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&m=\\frac{Q}{L_v}=\\frac{452}{2260}\\\\ &=0{,}2\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}200\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__bestamma_massa_eller_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Lös ut massan ur Q = mLᵥ.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Dividera den avgivna energin med ångbildningsvärmet.</p>",
+    "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "bestämma massa eller latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 0.2,
-    "tolerans": 0.003,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjTidigare": [
       "Bestämma massa eller latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.46",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En skål innehåller \\(0{,}250\\ \\mathrm{kg}\\) vatten och \\(0{,}120\\ \\mathrm{kg}\\) is, båda vid \\(0\\,{}^\\circ\\mathrm C\\). Efter \\(3{,}5\\ \\mathrm{min}\\) i en mikrovågsugn med eleffekten \\(800\\ \\mathrm W\\) har all is smält och vattnet håller \\(18\\,{}^\\circ\\mathrm C\\). Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Skål med vatten och is i mikrovågsugn\"><rect width=\"500\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"65\" y=\"45\" width=\"370\" height=\"210\" rx=\"18\" fill=\"#e9edf0\" stroke=\"#344454\" stroke-width=\"4\"/><rect x=\"95\" y=\"78\" width=\"245\" height=\"145\" rx=\"8\" fill=\"#283b49\"/><path d=\"M135 155 Q217 210 300 155 L285 210 H150 Z\" fill=\"#bfe2f2\" stroke=\"#dce9ef\" stroke-width=\"3\"/><rect x=\"185\" y=\"137\" width=\"38\" height=\"35\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"235\" y=\"128\" width=\"43\" height=\"40\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><circle cx=\"387\" cy=\"100\" r=\"24\" fill=\"#cbd4da\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"387\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">800 W</text><text x=\"387\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">3,5 min</text><text x=\"217\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">vatten + is vid 0 °C</text></svg></span><ol><li>Bestäm energin som blandningen tar upp.</li><li>Bestäm mikrovågsugnens verkningsgrad i försöket.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=67{,}9\\ \\mathrm{kJ},\\qquad \\eta=40{,}4\\,\\%.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(67{,}9\\ \\mathrm{kJ}\\) och \\(40{,}4\\,\\%\\).</p></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>0,250 kg vatten och 0,120 kg is är vid 0 °C. En mikrovågsugn på 800 W värmer blandningen i 3,5 minuter. All is smälter och vattnet får temperaturen 18 °C. Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Skål med vatten och is i mikrovågsugn\"><rect width=\"500\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"65\" y=\"45\" width=\"370\" height=\"210\" rx=\"18\" fill=\"#e9edf0\" stroke=\"#344454\" stroke-width=\"4\"/><rect x=\"95\" y=\"78\" width=\"245\" height=\"145\" rx=\"8\" fill=\"#283b49\"/><path d=\"M135 155 Q217 210 300 155 L285 210 H150 Z\" fill=\"#bfe2f2\" stroke=\"#dce9ef\" stroke-width=\"3\"/><rect x=\"185\" y=\"137\" width=\"38\" height=\"35\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"235\" y=\"128\" width=\"43\" height=\"40\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><circle cx=\"387\" cy=\"100\" r=\"24\" fill=\"#cbd4da\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"387\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">800 W</text><text x=\"387\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">3,5 min</text><text x=\"217\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">vatten + is vid 0 °C</text></svg><p><strong>a)</strong> Hur mycket energi tar blandningen upp? Svara i kJ. Avrunda till 1 decimal.</p><p><strong>b)</strong> Vilken är verkningsgraden? Svara i %. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Isen smälter först. Därefter värms hela vattenmassan, 0,250 + 0,120 = 0,370 kg.</p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}12\\cdot334\\\\ &=40{,}08\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm värm}=0{,}37\\cdot4{,}18\\cdot18\\\\ &=27{,}8388\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=40{,}08+27{,}8388\\\\ &=67{,}9188\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(67{,}9\\,\\mathrm{kJ}\\).</p><p><strong>b)</strong></p><p>3,5 min = 210 s. Ugnen använder:</p>\\[\\begin{aligned}&E_{\\rm el}=\\frac{800\\cdot210}{1000}\\\\ &=168\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&\\eta=\\frac{67{,}9188}{168}\\cdot100\\\\ &\\approx40{,}4\\,\\%\\end{aligned}\\]<p><strong>Svar:</strong> \\(40{,}4\\,\\%\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__effekt_och_verkningsgrad_vid_fasovergang",
     "formaga": [
@@ -76180,19 +76238,19 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Skilj på energin som blandningen tar upp och den elektriska energin som ugnen använder.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "effekt och verkningsgrad vid fasövergång",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      67.9,
-      40.4
+      67.9188,
+      40.42785714285714
     ],
     "tolerans": [
-      1.0185,
-      0.606
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -76209,99 +76267,106 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En skål innehåller \\(0{,}250\\ \\mathrm{kg}\\) vatten och \\(0{,}120\\ \\mathrm{kg}\\) is, båda vid \\(0\\,{}^\\circ\\mathrm C\\). Efter \\(3{,}5\\ \\mathrm{min}\\) i en mikrovågsugn med eleffekten \\(800\\ \\mathrm W\\) har all is smält och vattnet håller \\(18\\,{}^\\circ\\mathrm C\\). Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Skål med vatten och is i mikrovågsugn\"><rect width=\"500\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"65\" y=\"45\" width=\"370\" height=\"210\" rx=\"18\" fill=\"#e9edf0\" stroke=\"#344454\" stroke-width=\"4\"/><rect x=\"95\" y=\"78\" width=\"245\" height=\"145\" rx=\"8\" fill=\"#283b49\"/><path d=\"M135 155 Q217 210 300 155 L285 210 H150 Z\" fill=\"#bfe2f2\" stroke=\"#dce9ef\" stroke-width=\"3\"/><rect x=\"185\" y=\"137\" width=\"38\" height=\"35\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"235\" y=\"128\" width=\"43\" height=\"40\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><circle cx=\"387\" cy=\"100\" r=\"24\" fill=\"#cbd4da\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"387\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">800 W</text><text x=\"387\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">3,5 min</text><text x=\"217\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">vatten + is vid 0 °C</text></svg></span>",
+    "spelIntro": "<p>0,250 kg vatten och 0,120 kg is är vid 0 °C. En mikrovågsugn på 800 W värmer blandningen i 3,5 minuter. All is smälter och vattnet får temperaturen 18 °C. Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Skål med vatten och is i mikrovågsugn\"><rect width=\"500\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"65\" y=\"45\" width=\"370\" height=\"210\" rx=\"18\" fill=\"#e9edf0\" stroke=\"#344454\" stroke-width=\"4\"/><rect x=\"95\" y=\"78\" width=\"245\" height=\"145\" rx=\"8\" fill=\"#283b49\"/><path d=\"M135 155 Q217 210 300 155 L285 210 H150 Z\" fill=\"#bfe2f2\" stroke=\"#dce9ef\" stroke-width=\"3\"/><rect x=\"185\" y=\"137\" width=\"38\" height=\"35\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"235\" y=\"128\" width=\"43\" height=\"40\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><circle cx=\"387\" cy=\"100\" r=\"24\" fill=\"#cbd4da\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"387\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">800 W</text><text x=\"387\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">3,5 min</text><text x=\"217\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">vatten + is vid 0 °C</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin som blandningen tar upp.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}120\\cdot334+0{,}370\\cdot4{,}18\\cdot18=67{,}9\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(67{,}9\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Smält isen och värm därefter hela vattenmassan.</p>",
+        "fraga": "Hur mycket energi tar blandningen upp? Svara i kJ. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen smälter först. Därefter värms hela vattenmassan, 0,250 + 0,120 = 0,370 kg.</p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}12\\cdot334\\\\ &=40{,}08\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm värm}=0{,}37\\cdot4{,}18\\cdot18\\\\ &=27{,}8388\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=40{,}08+27{,}8388\\\\ &=67{,}9188\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(67{,}9\\,\\mathrm{kJ}\\).</p></div>",
+        "ledtrad": "<p>Värm hela vattenmassan efter att isen har smält.</p>",
         "niva": "C",
         "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "poang": "(0/1/0)",
+        "t": "<p>0,250 kg vatten och 0,120 kg is är vid 0 °C. All is smälter och vattnet värms till 18 °C. Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi tar blandningen upp? Svara i kJ. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm mikrovågsugnens verkningsgrad i försöket.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{67900}{800\\cdot210}=0{,}404.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}4\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Jämför blandningens energiökning med 800 W under 210 s.</p>",
-        "niva": "C",
-        "traningsniva": 4,
-        "poang": "(1/0/0)"
+        "fraga": "Vilken är verkningsgraden? Svara i %. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>3,5 min = 210 s. Ugnen använder:</p>\\[\\begin{aligned}&E_{\\rm el}=\\frac{800\\cdot210}{1000}\\\\ &=168\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&\\eta=\\frac{67{,}9188}{168}\\cdot100\\\\ &\\approx40{,}4\\,\\%\\end{aligned}\\]<p><strong>Svar:</strong> \\(40{,}4\\,\\%\\).</p></div>",
+        "ledtrad": "<p>Dividera blandningens upptagna energi med ugnens elektriska energi.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>En mikrovågsugn på 800 W värmer en blandning i 3,5 minuter. Blandningen tar upp 67,9188 kJ.</p><p>Vilken är verkningsgraden? Svara i %. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.107",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>\\(0{,}200\\ \\mathrm{kg}\\) is vid \\(-10\\,{}^\\circ\\mathrm C\\) tillförs \\(50{,}0\\ \\mathrm{kJ}\\). Bestäm hur mycket is som finns kvar när jämvikt har uppnåtts. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\). Svara i gram.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Först krävs \\(0{,}200\\cdot2{,}10\\cdot10=4{,}20\\ \\mathrm{kJ}\\) för att nå 0 °C.</p></div><div class=\"facit-stycke\"><p>Till smältning återstår \\(45{,}8\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{smält}}=\\frac{45{,}8}{334}=0{,}1371\\ \\mathrm{kg}\\]\\[m_{\\mathrm{kvar}}=0{,}200-0{,}1371=0{,}0629\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(62{,}9\\ \\mathrm g\\) is finns kvar.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,200 kg is vid −10 °C tillförs 50,0 kJ. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket is finns kvar? Svara i g. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen behöver först värmas till 0 °C:</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}2\\cdot2{,}1\\cdot10\\\\ &=4{,}2\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=50-4{,}2\\\\ &=45{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm smält}=\\frac{45{,}8}{334}\\\\ &\\approx0{,}137\\,\\mathrm{kg}\\end{aligned}\\]<p>All is smälter inte. Subtrahera den smälta massan och omvandla till gram, utan att avrunda mellanresultatet.</p>\\[\\begin{aligned}&m_{\\rm kvar}=(0{,}2-\\frac{45{,}8}{334})\\cdot1000\\\\ &\\approx62{,}9\\,\\mathrm{g}\\end{aligned}\\]<p><strong>Svar:</strong> \\(62{,}9\\,\\mathrm{g}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__delvis_fasovergang_och_slutfas",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera först hur mycket energi som återstår efter att isen har nått 0 °C.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Börja med energin som behövs för att värma isen till 0 °C.</p>",
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "avgöra slutfas",
     "svarstyp": "numeriskt",
-    "rättSvar": 62.9,
-    "tolerans": 0.9435,
+    "rättSvar": 62.874251497006014,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "g",
     "familjTidigare": [
       "Delvis fasövergång och slutfas"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.108",
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>\\(0{,}100\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar och det bildade vattnet kyls till \\(40\\,{}^\\circ\\mathrm C\\). Hur mycket energi avges totalt? Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\) och \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}100\\cdot2260+0{,}100\\cdot4{,}18\\cdot60=251{,}1\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(251{,}1\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>0,100 kg vattenånga vid 100 °C blir vatten som sedan svalnar till 40 °C. Vattnets ångbildningsvärme är 2260 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi avges totalt? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ångan avger energi när den blir vatten. Vattnet avger sedan energi när det svalnar 60 K.</p>\\[\\begin{aligned}&Q_{\\rm kond}=mL_v=0{,}1\\cdot2260\\\\ &=226\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=mc\\Delta T=0{,}1\\cdot4{,}18\\cdot60\\\\ &=25{,}08\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=226+25{,}08\\\\ &=251{,}08\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(251{,}1\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__kondensation_och_energioverforing",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Ångan avger energi både när den kondenserar och när vattnet därefter kyls.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Räkna på både kondensationen och vattnets avsvalning.</p>",
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "kondensation och energiöverföring",
     "svarstyp": "numeriskt",
-    "rättSvar": 251.1,
-    "tolerans": 3.7665,
+    "rättSvar": 251.07999999999998,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Kondensation och energiöverföring"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.47",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett värmelager jämför två material. \\(1{,}0\\ \\mathrm{kg}\\) av ett salt tar upp \\(200\\ \\mathrm{kJ}\\) när det smälter vid \\(32\\,{}^\\circ\\mathrm C\\). Som jämförelse värms \\(1{,}0\\ \\mathrm{kg}\\) vatten \\(20\\ \\mathrm K\\). Materialdata: \\(c_{vatten}=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"250\" viewBox=\"0 0 620 250\" role=\"img\" aria-label=\"Jämförelse mellan salt som smälter och vatten som värms\"><rect width=\"620\" height=\"250\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"75\" y=\"70\" width=\"180\" height=\"115\" rx=\"12\" fill=\"#e9dfc9\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"365\" y=\"70\" width=\"180\" height=\"115\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"165\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">1,0 kg salt</text><text x=\"165\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">smälter vid 32 °C</text><text x=\"165\" y=\"164\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">200 kJ tas upp</text><text x=\"455\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">1,0 kg vatten</text><text x=\"455\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">värms 20 °C</text><text x=\"455\" y=\"164\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">c = 4,18 kJ/(kg K)</text></svg></span><ol><li>Bestäm energin som vattnet lagrar.</li><li>Jämför de två energimängderna.</li><li>Förklara en fördel och en begränsning med saltet som värmelager.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{vatten}}=mc\\Delta T=1{,}0\\cdot4{,}18\\cdot20=83{,}6\\ \\mathrm{kJ}\\]\\[\\frac{200}{83{,}6}=2{,}39.\\]</div></div><div class=\"facit-stycke\"><p>Saltet lagrar ungefär 2,4 gånger så mycket energi per kilogram i den jämförda processen och gör det nära en bestämd temperatur.</p></div><div class=\"facit-stycke\"><p>En begränsning är att fördelen bara kan utnyttjas när temperaturen passerar saltets smältpunkt.</p></div><div class=\"facit-stycke\"><p>Kostnad, värmeledning och livslängd kan också spela roll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> vattnet lagrar \\(83{,}6\\ \\mathrm{kJ}\\); saltets fasövergång lagrar \\(2{,}39\\) gånger mer.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett värmelager jämför två material. \\(1{,}0\\ \\mathrm{kg}\\) av ett salt tar upp \\(200\\ \\mathrm{kJ}\\) när det smälter vid \\(32\\,{}^\\circ\\mathrm C\\). Som jämförelse värms \\(1{,}0\\ \\mathrm{kg}\\) vatten \\(20\\ \\mathrm K\\). Materialdata: \\(c_{vatten}=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"250\" viewBox=\"0 0 620 250\" role=\"img\" aria-label=\"Jämförelse mellan salt som smälter och vatten som värms\"><rect width=\"620\" height=\"250\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"75\" y=\"70\" width=\"180\" height=\"115\" rx=\"12\" fill=\"#e9dfc9\" stroke=\"#344454\" stroke-width=\"3\"/><rect x=\"365\" y=\"70\" width=\"180\" height=\"115\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"165\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">1,0 kg salt</text><text x=\"165\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#a1492d\">smälter vid 32 °C</text><text x=\"165\" y=\"164\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">200 kJ tas upp</text><text x=\"455\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\" fill=\"#344454\">1,0 kg vatten</text><text x=\"455\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#2b6f92\">värms 20 °C</text><text x=\"455\" y=\"164\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">c = 4,18 kJ/(kg K)</text></svg></span><p><strong>a)</strong> Bestäm energin som vattnet lagrar.</p><p><strong>b)</strong> Jämför de två energimängderna.</p><p><strong>c)</strong> Förklara en fördel och en begränsning med saltet som värmelager.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vattnets energi blir:</p>\\[\\begin{aligned}&Q=mc\\Delta T=1\\cdot4{,}18\\cdot20\\\\ &=83{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>b)</strong> Jämför saltets 200 kJ med vattnets 83,6 kJ:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm salt}}{Q_{\\rm vatten}}=\\frac{200}{83{,}6}\\\\ &\\approx2{,}39\\end{aligned}\\]<p>Saltet tar alltså upp cirka 2,39 gånger så mycket energi i de två processer som jämförs.</p><p><strong>c)</strong> Saltet kan ta upp och avge mycket energi nära 32 °C. För att använda smältenergin behöver det växla mellan fast och flytande form. Om temperaturen inte når smältpunkten kan denna energi inte utnyttjas.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__fasovergangar_i_natur_och_teknik",
     "formaga": [
@@ -76310,7 +76375,7 @@ window.BANK = [
       "begrepp"
     ],
     "ledtrad": "<p>Beräkna först vattnets energi med mcΔT och jämför sedan användningsområdet för materialen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -76321,37 +76386,39 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Fasövergångar i natur och teknik"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.109",
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>\\(0{,}500\\ \\mathrm{kg}\\) is värms från \\(-10\\,{}^\\circ\\mathrm C\\) tills allt har smält och vattnet når \\(20\\,{}^\\circ\\mathrm C\\). Hur stor andel av den totala energin används till själva smältningen? Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\). Svara i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Massan finns i alla energitermer och förkortas därför bort i kvoten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{andel}=\\frac{L_f}{c_{is}\\cdot10+L_f+c_v\\cdot20}=\\frac{334}{21+334+83{,}6}=0{,}7615.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(76{,}2\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>0,500 kg is vid −10 °C ska smälta. Vattnet värms sedan till 20 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur många procent av den totala energin går till själva smältningen? Svara i %. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm is}=0{,}5\\cdot2{,}1\\cdot10\\\\ &=10{,}5\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}5\\cdot334\\\\ &=167\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}5\\cdot4{,}18\\cdot20\\\\ &=41{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=10{,}5+167+41{,}8\\\\ &=219{,}3\\,\\mathrm{kJ}\\end{aligned}\\]<p>Dividera smältenergin med den totala energin:</p>\\[\\begin{aligned}&\\text{andel}=\\frac{167}{219{,}3}\\cdot100\\\\ &\\approx76{,}2\\,\\%\\end{aligned}\\]<p><strong>Svar:</strong> \\(76{,}2\\,\\%\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
-      "problemlösning",
+      "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Bilda kvoten mellan smältenergin och summan av alla tre energibidrag.</p>",
+    "ledtrad": "<p>Beräkna smältenergin och jämför med summan av de tre energibidragen.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "jämföra energibidrag",
     "svarstyp": "numeriskt",
-    "rättSvar": 76.2,
-    "tolerans": 1.143,
+    "rättSvar": 76.15139078887368,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "familjTidigare": [
       "Energikedjor med fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.110",
@@ -76359,14 +76426,14 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett kilogram is vid \\(-10\\,{}^\\circ\\mathrm C\\) värms till vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\). Vilket steg kräver mest energi?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För \\(1{,}0\\ \\mathrm{kg}\\) är bidragen ungefär 21 kJ, 334 kJ, 418 kJ och 2260 kJ.</p></div><div class=\"facit-stycke\"><p>Förångningen kräver därför mest energi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> förångningen vid 100 °C kräver mest energi.</p></div>",
+    "t": "<p>1,0 kg is vid −10 °C värms till vattenånga vid 100 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Vilken del kräver mest energi? Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna energin för varje del:</p>\\[\\begin{aligned}&Q_{\\rm is}=1\\cdot2{,}1\\cdot10\\\\ &=21\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=1\\cdot334\\\\ &=334\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm vatten}=1\\cdot4{,}18\\cdot100\\\\ &=418\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm förånga}=1\\cdot2260\\\\ &=2260\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> Förångningen vid 100 °C kräver mest energi.</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__energikedjor_med_fasovergang",
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Jämför storleksordningen hos mcΔT och mL för de fyra stegen.</p>",
+    "ledtrad": "<p>Använd mcΔT för uppvärmning och mL för smältning och förångning. Jämför energierna.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
@@ -76378,22 +76445,22 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Att värma isen från −10 °C till 0 °C, eftersom isens temperatur först måste höjas.",
+        "txt": "Att värma isen till 0 °C",
         "ratt": false,
         "kommentar": "Det steget kräver cirka 21 kJ, vilket är minst av de fyra bidragen."
       },
       {
-        "txt": "Att smälta isen vid 0 °C, eftersom temperaturen står stilla under hela smältningen.",
+        "txt": "Att smälta isen vid 0 °C",
         "ratt": false,
         "kommentar": "Smältningen kräver cirka 334 kJ, men förångningen kräver betydligt mer."
       },
       {
-        "txt": "Att värma vattnet från 0 °C till 100 °C, eftersom temperaturintervallet är störst.",
+        "txt": "Att värma vattnet till 100 °C",
         "ratt": false,
         "kommentar": "Uppvärmningen kräver cirka 418 kJ, mindre än ångbildningsenergin."
       },
       {
-        "txt": "Att förånga vattnet vid 100 °C, eftersom ångbildningsentalpin är cirka 2260 kJ/kg.",
+        "txt": "Att förånga vattnet vid 100 °C",
         "ratt": true,
         "kommentar": "Förångningen står för det klart största energibidraget i processen."
       }
@@ -76406,10 +76473,10 @@ window.BANK = [
     "id": "7.48",
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
-    "poang": "(1/1/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>För att förånga \\(5{,}0\\ \\mathrm{kg}\\) av en vätska vid dess kokpunkt krävs \\(4{,}0\\ \\mathrm{MJ}\\). Vilken vätska stämmer bäst med mätningen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L_v=\\frac{Q}{m}=\\frac{4000}{5{,}0}=800\\ \\mathrm{kJ/kg}.\\]</div></div><div class=\"facit-stycke\"><p>Det ligger närmast etanols tabellvärde 840 kJ/kg.</p></div><div class=\"facit-stycke\"><p>Skillnaden kan bero på mätosäkerhet eller värmeförlust.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> etanol stämmer bäst.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>4,0 MJ = 4000 kJ. Ångbildningsvärmet blir:</p>\\[\\begin{aligned}&L_v=\\frac{Q}{m}=\\frac{4000}{5}\\\\ &=800\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p>800 kJ/kg ligger närmast etanols tabellvärde, 840 kJ/kg. Skillnaden kan bero på osäkerhet i mätningen.</p><p><strong>Svar:</strong> Etanol stämmer bäst.</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__bestamma_massa_eller_latent_varme",
     "formaga": [
@@ -76417,7 +76484,7 @@ window.BANK = [
       "begrepp"
     ],
     "ledtrad": "<p>Bestäm först energin per kilogram och jämför med tabellvärdena.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -76428,59 +76495,61 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Etanol, som har ångbildningsentalpin nära 840 kJ/kg.",
+        "txt": "Etanol, som har ångbildningsvärmet nära 840 kJ/kg.",
         "ratt": true,
         "kommentar": "Mätningen ger 4000/5,0 = 800 kJ/kg, vilket ligger närmast etanol."
       },
       {
-        "txt": "Vatten, som har ångbildningsentalpin cirka 2260 kJ/kg.",
+        "txt": "Vatten, som har ångbildningsvärmet cirka 2260 kJ/kg.",
         "ratt": false,
         "kommentar": "Vattnets tabellvärde är nästan tre gånger större än mätvärdet."
       },
       {
-        "txt": "Ammoniak, som har ångbildningsentalpin cirka 1370 kJ/kg.",
+        "txt": "Ammoniak, som har ångbildningsvärmet cirka 1370 kJ/kg.",
         "ratt": false,
         "kommentar": "Ammoniaks tabellvärde är tydligt högre än mätvärdet 800 kJ/kg."
       },
       {
-        "txt": "Flytande kväve, som har ångbildningsentalpin cirka 200 kJ/kg.",
+        "txt": "Flytande kväve, som har ångbildningsvärmet cirka 200 kJ/kg.",
         "ratt": false,
         "kommentar": "Kvävets tabellvärde är betydligt lägre än mätvärdet 800 kJ/kg."
       }
     ],
     "familjTidigare": [
       "Bestämma massa eller latent värme"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.111",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>\\(0{,}200\\ \\mathrm{kg}\\) is vid \\(-10\\,{}^\\circ\\mathrm C\\) tillförs \\(80{,}0\\ \\mathrm{kJ}\\). Bestäm sluttemperaturen. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Att värma isen till 0 °C och smälta den kräver \\(0{,}200(2{,}10\\cdot10+334)=71{,}0\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><p>All is smälter, och \\(9{,}0\\ \\mathrm{kJ}\\) återstår.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{9{,}0}{0{,}200\\cdot4{,}18}=10{,}77\\ \\mathrm K.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,200 kg is vid −10 °C tillförs 80,0 kJ. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>För att värma isen till 0 °C och smälta den behövs:</p>\\[\\begin{aligned}&Q_{\\rm till\\ vatten}=0{,}2\\cdot(2{,}1\\cdot10+334)\\\\ &=71\\,\\mathrm{kJ}\\end{aligned}\\]<p>80,0 kJ är mer än 71,0 kJ. All is smälter. Resten värmer vattnet.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=80-71\\\\ &=9\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&\\Delta T=\\frac{Q_{\\rm kvar}}{mc}=\\frac{9}{0{,}2\\cdot4{,}18}\\\\ &\\approx10{,}8\\,\\mathrm{K}\\end{aligned}\\]<p>Vattnet börjar vid 0 °C, så sluttemperaturen blir cirka 10,8 °C.</p><p><strong>Svar:</strong> \\(10{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__delvis_fasovergang_och_slutfas",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera först om energin räcker både till att värma och smälta all is.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Kontrollera om energin räcker för att smälta all is.</p>",
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "avgöra slutfas",
     "svarstyp": "numeriskt",
-    "rättSvar": 10.8,
-    "tolerans": 0.162,
+    "rättSvar": 10.76555023923445,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Delvis fasövergång och slutfas"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.49",
@@ -76488,8 +76557,8 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>\\(1{,}5\\ \\mathrm{kg}\\) vatten kokar på en platta med eleffekten \\(1800\\ \\mathrm W\\). \\(75\\,\\%\\) av effekten når vattnet. Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p><ol><li>Bestäm energin som krävs för att förånga allt vatten.</li><li>Bestäm hur lång tid det tar att förånga allt vatten enligt modellen. Svara i minuter.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=3{,}39\\ \\mathrm{MJ},\\qquad t=41{,}9\\ \\mathrm{min}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}39\\ \\mathrm{MJ}\\) och \\(41{,}9\\ \\mathrm{min}\\).</p></div>",
+    "t": "<p>1,5 kg vatten vid 100 °C förångas med en värmare på 1800 W. Verkningsgraden är 75 %. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p><strong>a)</strong> Hur mycket energi behöver vattnet ta upp? Svara i MJ. Avrunda till 2 decimaler.</p><p><strong>b)</strong> Hur lång tid tar förångningen? Svara i min. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[\\begin{aligned}&Q=mL_v=1{,}5\\cdot2260\\\\ &=3390\\,\\mathrm{kJ}\\end{aligned}\\]<p>3390 kJ = 3,39 MJ.</p><p><strong>Svar:</strong> \\(3{,}39\\,\\mathrm{MJ}\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&P_{\\rm vatten}=0{,}75\\cdot1800\\\\ &=1350\\,\\mathrm{W}\\end{aligned}\\]<p>3,39 MJ = 3 390 000 J. Använd t = Q/P och dividera sekunderna med 60.</p>\\[\\begin{aligned}&t=\\frac{\\frac{3390000}{1350}}{60}\\\\ &\\approx41{,}9\\,\\mathrm{min}\\end{aligned}\\]<p><strong>Svar:</strong> \\(41{,}9\\,\\mathrm{min}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__effekt_och_verkningsgrad_vid_fasovergang",
     "formaga": [
@@ -76505,11 +76574,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.39,
-      41.9
+      41.851851851851855
     ],
     "tolerans": [
-      0.05085,
-      0.6285
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "svarFormat": [
@@ -76526,39 +76595,44 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1{,}5\\ \\mathrm{kg}\\) vatten kokar på en platta med eleffekten \\(1800\\ \\mathrm W\\). \\(75\\,\\%\\) av effekten når vattnet. Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
+    "spelIntro": "<p>1,5 kg vatten vid 100 °C förångas med en värmare på 1800 W. Verkningsgraden är 75 %. Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm energin som krävs för att förånga allt vatten.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}5\\cdot2260=3390\\ \\mathrm{kJ}=3{,}39\\ \\mathrm{MJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}39\\ \\mathrm{MJ}\\).</p></div>",
-        "ledtrad": "<p>Vattnet är redan vid kokpunkten.</p>",
+        "fraga": "Hur mycket energi behöver vattnet ta upp? Svara i MJ. Avrunda till 2 decimaler.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=1{,}5\\cdot2260\\\\ &=3390\\,\\mathrm{kJ}\\end{aligned}\\]<p>3390 kJ = 3,39 MJ.</p><p><strong>Svar:</strong> \\(3{,}39\\,\\mathrm{MJ}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mL_v och omvandla kJ till MJ.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "t": "<p>1,5 kg vatten vid 100 °C ska förångas. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behöver vattnet ta upp? Svara i MJ. Avrunda till 2 decimaler.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm hur lång tid det tar att förånga allt vatten enligt modellen. Svara i minuter.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{3{,}390\\cdot10^6}{0{,}75\\cdot1800}=2511\\ \\mathrm s=41{,}9\\ \\mathrm{min}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41{,}9\\ \\mathrm{min}\\).</p></div>",
-        "ledtrad": "<p>Den nyttiga effekten är 75 % av 1800 W.</p>",
+        "fraga": "Hur lång tid tar förångningen? Svara i min. Avrunda till 1 decimal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&P_{\\rm vatten}=0{,}75\\cdot1800\\\\ &=1350\\,\\mathrm{W}\\end{aligned}\\]<p>3,39 MJ = 3 390 000 J. Använd t = Q/P och dividera sekunderna med 60.</p>\\[\\begin{aligned}&t=\\frac{\\frac{3390000}{1350}}{60}\\\\ &\\approx41{,}9\\,\\mathrm{min}\\end{aligned}\\]<p><strong>Svar:</strong> \\(41{,}9\\,\\mathrm{min}\\).</p></div>",
+        "ledtrad": "<p>Beräkna effekten som når vattnet och använd t = Q/P.</p>",
         "niva": "E",
         "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "t": "<p>Det behövs 3,39 MJ för att förånga en mängd vatten. Värmaren använder 1800 W och har verkningsgraden 75 %.</p><p>Hur lång tid tar förångningen? Svara i min. Avrunda till 1 decimal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.112",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>I ett välisolerat kärl läggs \\(0{,}130\\ \\mathrm{kg}\\) is vid \\(-15\\,{}^\\circ\\mathrm C\\) i \\(0{,}410\\ \\mathrm{kg}\\) vatten vid \\(35\\,{}^\\circ\\mathrm C\\). Bestäm sluttemperaturen. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"290\" viewBox=\"0 0 500 290\" role=\"img\" aria-label=\"Is läggs i varmt vatten i ett isolerat kärl\"><rect width=\"500\" height=\"290\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M125 50 L145 235 H355 L375 50\" fill=\"#edf1f4\" stroke=\"#344454\" stroke-width=\"4\"/><path d=\"M143 132 L153 225 H347 L357 132 Z\" fill=\"#bfe2f2\"/><rect x=\"200\" y=\"113\" width=\"54\" height=\"47\" rx=\"6\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"270\" y=\"101\" width=\"61\" height=\"52\" rx=\"6\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><text x=\"250\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">välisolerat kärl</text><text x=\"69\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2b6f92\">is</text><text x=\"69\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2b6f92\">−15 °C</text><text x=\"425\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">vatten</text><text x=\"425\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">35 °C</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vattnet kan avge \\(0{,}410\\cdot4{,}18\\cdot35=59{,}98\\ \\mathrm{kJ}\\) när det kyls till 0 °C.</p></div><div class=\"facit-stycke\"><p>Isen behöver \\(0{,}130(2{,}10\\cdot15+334)=47{,}52\\ \\mathrm{kJ}\\), så all is smälter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=\\frac{59{,}98-47{,}52}{(0{,}410+0{,}130)\\cdot4{,}18}=5{,}52\\,{}^\\circ\\mathrm C.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,130 kg is vid −15 °C läggs i 0,410 kg vatten vid 35 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Bortse från energi som går till kärlet och omgivningen.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"290\" viewBox=\"0 0 500 290\" role=\"img\" aria-label=\"Is läggs i varmt vatten i ett isolerat kärl\"><rect width=\"500\" height=\"290\" rx=\"18\" fill=\"#f5f7fa\"/><path d=\"M125 50 L145 235 H355 L375 50\" fill=\"#edf1f4\" stroke=\"#344454\" stroke-width=\"4\"/><path d=\"M143 132 L153 225 H347 L357 132 Z\" fill=\"#bfe2f2\"/><rect x=\"200\" y=\"113\" width=\"54\" height=\"47\" rx=\"6\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"270\" y=\"101\" width=\"61\" height=\"52\" rx=\"6\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><text x=\"250\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#344454\">välisolerat kärl</text><text x=\"69\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2b6f92\">is</text><text x=\"69\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#2b6f92\">−15 °C</text><text x=\"425\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">vatten</text><text x=\"425\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#a1492d\">35 °C</text></svg><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}41\\cdot4{,}18\\cdot35\\\\ &=59{,}983\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}13\\cdot(2{,}1\\cdot15+334)\\\\ &=47{,}515\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,54 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=59{,}983-47{,}515\\\\ &=12{,}468\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{12{,}468}{0{,}540\\cdot4{,}18}\\approx5{,}5\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(5{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__varmebalans_med_is",
     "formaga": [
@@ -76566,30 +76640,31 @@ window.BANK = [
       "resonemang",
       "procedur"
     ],
-    "ledtrad": "<p>Jämför först vattnets energi ned till 0 °C med isens behov för uppvärmning och smältning.</p>",
+    "ledtrad": "<p>Jämför vattnets energi vid kylning till 0 °C med energin för att värma och smälta all is.</p>",
     "traningsniva": 4,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "värmebalans med is",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.5,
-    "tolerans": 0.0825,
+    "rättSvar": 5.523657628920782,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°C",
     "familjTidigare": [
       "Värmebalans med is"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "7.50",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett kylskåp ska omvandla \\(1{,}5\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\) till is vid \\(-18\\,{}^\\circ\\mathrm C\\). Kylskåpet flyttar bort värme från vattnet och isen med den genomsnittliga effekten \\(90\\ \\mathrm W\\). Materialdata: \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\).</p><ol><li>Bestäm den totala energi som måste transporteras bort.</li><li>Bestäm tiden enligt modellen.</li><li>Förklara när temperaturen är konstant och varför verklig infrysningstid kan avvika.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}5(4{,}18\\cdot20+334+2{,}10\\cdot18)=683{,}1\\ \\mathrm{kJ}\\]\\[t=\\frac{683100}{90}=7590\\ \\mathrm s=2{,}11\\ \\mathrm h.\\]</div></div><div class=\"facit-stycke\"><p>Temperaturen är ungefär 0 °C under själva frysningen eftersom energin då går till fasövergången.</p></div><div class=\"facit-stycke\"><p>I verkligheten kyls också behållare och luft, dörren kan öppnas och kyleffekten varierar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(683\\ \\mathrm{kJ}\\) och \\(2{,}11\\ \\mathrm h\\) i idealmodellen.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett kylskåp ska omvandla \\(1{,}5\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\) till is vid \\(-18\\,{}^\\circ\\mathrm C\\). Kylskåpet flyttar bort värme från vattnet och isen med den genomsnittliga effekten \\(90\\ \\mathrm W\\). Materialdata: \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\), \\(L_f=334\\ \\mathrm{kJ/kg}\\) och \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\).</p><p><strong>a)</strong> Bestäm den totala energi som måste transporteras bort.</p><p><strong>b)</strong> Bestäm tiden enligt modellen.</p><p><strong>c)</strong> Förklara när temperaturen är konstant och varför verklig infrysningstid kan avvika.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Vattnet svalnar till 0 °C, fryser och isen svalnar till −18 °C:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=1{,}5\\cdot4{,}18\\cdot20\\\\ &=125{,}4\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm frys}=1{,}5\\cdot334\\\\ &=501\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is}=1{,}5\\cdot2{,}1\\cdot18\\\\ &=56{,}7\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=125{,}4+501+56{,}7\\\\ &=683{,}1\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>b)</strong> 683,1 kJ = 683 100 J.</p>\\[\\begin{aligned}&t=\\frac{Q}{P}=\\frac{683100}{90}\\\\ &=7590\\,\\mathrm{s}\\end{aligned}\\]<p>7590 s / 3600 ≈ 2,11 h.</p><p><strong>c)</strong> Temperaturen är ungefär 0 °C medan vattnet fryser. Energi förs bort även om temperaturen står stilla. Tiden förutsätter att 90 W hela tiden förs bort från vattnet och isen. Kärlet, luften och en varierande effekt kan påverka tiden.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__fasovergangar_i_natur_och_teknik",
     "formaga": [
@@ -76598,7 +76673,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Dela processen i nedkylning av vatten, frysning och nedkylning av is.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -76609,37 +76684,39 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Fasövergångar i natur och teknik"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.113",
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En ånggenerator med eleffekten \\(1500\\ \\mathrm W\\) har verkningsgraden \\(78\\,\\%\\). Hur lång tid tar det att förånga \\(0{,}300\\ \\mathrm{kg}\\) vatten som redan håller \\(100\\,{}^\\circ\\mathrm C\\)? Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\). Svara i minuter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{mL_v}{\\eta P}=\\frac{0{,}300\\cdot2260\\cdot1000}{0{,}78\\cdot1500}=579{,}5\\ \\mathrm s.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}66\\ \\mathrm{min}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>0,300 kg vatten vid 100 °C förångas med en värmare på 1500 W. Verkningsgraden är 78 %. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur lång tid tar det? Svara i min. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=0{,}3\\cdot2260\\\\ &=678\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&P_{\\rm vatten}=0{,}78\\cdot1500\\\\ &=1170\\,\\mathrm{W}\\end{aligned}\\]<p>Omvandla energin till J och dividera med effekten som når vattnet. Dela sedan med 60 för att få minuter.</p>\\[\\begin{aligned}&t=\\frac{Q}{P_{\\rm vatten}}=\\frac{\\frac{678000}{1170}}{60}\\\\ &\\approx9{,}66\\,\\mathrm{min}\\end{aligned}\\]<p><strong>Svar:</strong> \\(9{,}66\\,\\mathrm{min}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__effekt_och_verkningsgrad_vid_fasovergang",
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Använd den nyttiga effekten ηP, inte hela eleffekten.</p>",
+    "ledtrad": "<p>Bara 78 % av effekten når vattnet. Använd t = Q/P.</p>",
     "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "effekt och verkningsgrad vid fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 9.66,
-    "tolerans": 0.1449,
+    "rättSvar": 9.658119658119658,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "min",
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.114",
@@ -76647,28 +76724,29 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}220\\ \\mathrm{kg}\\) is vid \\(0\\,{}^\\circ\\mathrm C\\) tillförs \\(42{,}62\\ \\mathrm{kJ}\\). Hur mycket is finns kvar? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\). Svara i gram.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{smält}}=\\frac{42{,}62}{334}=0{,}1276\\ \\mathrm{kg}\\]\\[m_{\\mathrm{kvar}}=0{,}220-0{,}1276=0{,}0924\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(92{,}4\\ \\mathrm g\\) is finns kvar.</p></div>",
+    "t": "<p>0,220 kg is vid 0 °C tillförs 42,62 kJ. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket is finns kvar? Svara i g. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&m_{\\rm smält}=\\frac{Q}{L_f}=\\frac{42{,}62}{334}\\\\ &\\approx0{,}128\\,\\mathrm{kg}\\end{aligned}\\]<p>Subtrahera den smälta massan från 0,220 kg och omvandla till gram. Behåll de oavrundade värdena i beräkningen.</p>\\[\\begin{aligned}&m_{\\rm kvar}=(0{,}22-\\frac{42{,}62}{334})\\cdot1000\\\\ &\\approx92{,}4\\,\\mathrm{g}\\end{aligned}\\]<p><strong>Svar:</strong> \\(92{,}4\\,\\mathrm{g}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__delvis_fasovergang_och_slutfas",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först massan som smälter och subtrahera den från startmassan.</p>",
+    "ledtrad": "<p>Beräkna hur mycket is som smälter och subtrahera från den ursprungliga massan.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "delvis fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 92.4,
-    "tolerans": 1.386,
+    "rättSvar": 92.39520958083833,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "g",
     "familjTidigare": [
       "Delvis fasövergång och slutfas"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.51",
@@ -76676,105 +76754,108 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi krävs för att smälta \\(800\\ \\mathrm g\\) is vid \\(0\\,{}^\\circ\\mathrm C\\)? Smältvärme: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=800\\ \\mathrm g=0{,}800\\ \\mathrm{kg}\\]\\[Q=mL_f=0{,}800\\cdot334=267{,}2\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(267\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>800 g is vid 0 °C ska smälta. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>800 g = 0,800 kg.</p>\\[\\begin{aligned}&Q=mL_f=0{,}8\\cdot334\\\\ &=267{,}2\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(267{,}2\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Omvandla först gram till kilogram.</p>",
+    "ledtrad": "<p>Omvandla massan till kilogram före Q = mL_f.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 267,
-    "tolerans": 4.005,
+    "rättSvar": 267.2,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.115",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>I ett välisolerat kärl läggs \\(0{,}200\\ \\mathrm{kg}\\) is vid \\(-10\\,{}^\\circ\\mathrm C\\) i \\(0{,}200\\ \\mathrm{kg}\\) vatten vid \\(20\\,{}^\\circ\\mathrm C\\). Bestäm hur mycket is som finns kvar vid jämvikt. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\). Svara i gram.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vattnet avger \\(0{,}200\\cdot4{,}18\\cdot20=16{,}72\\ \\mathrm{kJ}\\).</p></div><div class=\"facit-stycke\"><p>Isen behöver \\(4{,}20\\ \\mathrm{kJ}\\) för att nå 0 °C.</p></div><div class=\"facit-stycke\"><p>Resterande \\(12{,}52\\ \\mathrm{kJ}\\) smälter is.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{smält}}=\\frac{12{,}52}{334}=0{,}0375\\ \\mathrm{kg}\\]\\[m_{\\mathrm{kvar}}=0{,}200-0{,}0375=0{,}1625\\ \\mathrm{kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(162{,}5\\ \\mathrm g\\) is finns kvar vid \\(0\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>0,200 kg is vid −10 °C blandas med 0,200 kg vatten vid 20 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket is finns kvar när blandningen har fått samma temperatur? Svara i g. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet kan avge energi genom att svalna till 0 °C:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}2\\cdot4{,}18\\cdot20\\\\ &=16{,}72\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm värma\\ is}=0{,}2\\cdot2{,}1\\cdot10\\\\ &=4{,}2\\,\\mathrm{kJ}\\end{aligned}\\]<p>Resten går till smältning. Det räcker inte för att smälta all is, så sluttemperaturen är 0 °C.</p>\\[\\begin{aligned}&Q_{\\rm smält}=16{,}72-4{,}2\\\\ &=12{,}52\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm smält}=\\frac{12{,}52}{334}\\\\ &\\approx0{,}0375\\,\\mathrm{kg}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm kvar}=(0{,}2-\\frac{12{,}52}{334})\\cdot1000\\\\ &\\approx162{,}5\\,\\mathrm{g}\\end{aligned}\\]<p><strong>Svar:</strong> \\(162{,}5\\,\\mathrm{g}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__varmebalans_med_is",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera om vattnets energi räcker till både uppvärmning och fullständig smältning av isen.</p>",
+    "ledtrad": "<p>Beräkna energin som vattnet kan avge till isen vid 0 °C.</p>",
     "traningsniva": 4,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "värmebalans med is",
     "svarstyp": "numeriskt",
-    "rättSvar": 162.5,
-    "tolerans": 2.4375,
+    "rättSvar": 162.51497005988026,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "g",
     "familjTidigare": [
       "Värmebalans med is"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "7.116",
     "kap": 7,
     "omr": "fasandring",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En ånggenerator använder eleffekten \\(1800\\ \\mathrm W\\). Den förångar \\(0{,}360\\ \\mathrm{kg}\\) vatten vid \\(100\\,{}^\\circ\\mathrm C\\) på \\(9{,}0\\ \\mathrm{min}\\). Bestäm verkningsgraden. Materialdata: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{mL_v}{Pt}=\\frac{0{,}360\\cdot2260\\cdot1000}{1800\\cdot540}=0{,}837.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83{,}7\\,\\%\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>0,360 kg vatten vid 100 °C förångas på 9,0 minuter. Värmaren använder 1800 W. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Vilken är verkningsgraden? Svara i %. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}36\\cdot2260\\\\ &=813{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p>9,0 min = 540 s. Den elektriska energin är:</p>\\[\\begin{aligned}&E_{\\rm el}=\\frac{1800\\cdot540}{1000}\\\\ &=972\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&\\eta=\\frac{813{,}6}{972}\\cdot100\\\\ &\\approx83{,}7\\,\\%\\end{aligned}\\]<p><strong>Svar:</strong> \\(83{,}7\\,\\%\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__effekt_och_verkningsgrad_vid_fasovergang",
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Jämför vattnets förångningsenergi med den elektriska energin Pt.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Dividera vattnets energibehov med den elektriska energin.</p>",
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "effekt och verkningsgrad vid fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 83.7,
-    "tolerans": 1.2555,
+    "rättSvar": 83.7037037037037,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.52",
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
-    "poang": "(1/3/0)",
-    "t": "<p>Diagrammet visar temperaturen hos \\(0{,}200\\ \\mathrm{kg}\\) av ett ämne när energi tillförs. Läs av diagrammet.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"214.57142857142858\" x2=\"486\" y2=\"214.57142857142858\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"218.57142857142858\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"183.14285714285714\" x2=\"486\" y2=\"183.14285714285714\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"187.14285714285714\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"155.71428571428572\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"54\" y1=\"120.28571428571429\" x2=\"486\" y2=\"120.28571428571429\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"124.28571428571429\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"54\" y1=\"88.85714285714286\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"92.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"57.428571428571445\" x2=\"486\" y2=\"57.428571428571445\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"61.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">240</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">280</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">T (°C)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q (kJ)</text><polyline points=\"54,230.28571428571428 97.2,183.14285714285714 212.39999999999998,183.14285714285714 313.2,81 428.40000000000003,81 486,41.714285714285694\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol><li>Bestäm ämnets smältpunkt.</li><li>Bestäm ämnets kokpunkt.</li><li>Bestäm ämnets smältentalpi.</li><li>Bestäm ämnets ångbildningsentalpi.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Platåerna ligger vid 80 °C och 210 °C.</p></div><div class=\"facit-stycke\"><p>Båda omfattar 40 kJ för massan 0,200 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L=\\frac{40}{0{,}200}=200\\ \\mathrm{kJ/kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> smältpunkt \\(80\\,{}^\\circ\\mathrm C\\), kokpunkt \\(210\\,{}^\\circ\\mathrm C\\), \\(L_f=L_v=200\\ \\mathrm{kJ/kg}\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Diagrammet visar hur temperaturen ändras när 0,200 kg av ett ämne tar upp energi.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"372\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Temperatur som funktion av tillförd energi, med platåer vid 80 och 210 grader\"><rect width=\"520\" height=\"310\" fill=\"white\"/><line x1=\"54.0\" x2=\"54.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"54.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">0</text><line x1=\"97.19999999999999\" x2=\"97.19999999999999\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"97.19999999999999\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">15</text><line x1=\"212.4\" x2=\"212.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"212.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">55</text><line x1=\"313.2\" x2=\"313.2\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"313.2\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">90</text><line x1=\"428.4\" x2=\"428.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"428.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">130</text><line x1=\"486.0\" x2=\"486.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"486.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">150</text><line x1=\"54\" x2=\"486\" y1=\"246.0\" y2=\"246.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"251.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">0</text><line x1=\"54\" x2=\"486\" y1=\"183.14285714285714\" y2=\"183.14285714285714\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"188.14285714285714\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">80</text><line x1=\"54\" x2=\"486\" y1=\"120.28571428571429\" y2=\"120.28571428571429\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"125.28571428571429\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">160</text><line x1=\"54\" x2=\"486\" y1=\"81.0\" y2=\"81.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"86.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">210</text><line x1=\"54\" x2=\"486\" y1=\"26.0\" y2=\"26.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"31.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">280</text><path d=\"M54 26V246H486\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"54\" y=\"17\" font-size=\"15\" font-family=\"Arial\">T (°C)</text><text x=\"486\" y=\"295\" text-anchor=\"end\" font-size=\"15\" font-family=\"Arial\">Q (kJ)</text><polyline points=\"54,230.285714 97.2,183.142857 212.4,183.142857 313.2,81 428.4,81 486,41.714286\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg><p><strong>a)</strong> Vilken är ämnets smältpunkt? Svara i °C. Svara med ett heltal.</p><p><strong>b)</strong> Vilken är ämnets kokpunkt? Svara i °C. Svara med ett heltal.</p><p><strong>c)</strong> Vilket smältvärme har ämnet? Svara i kJ/kg. Svara med ett heltal.</p><p><strong>d)</strong> Vilket ångbildningsvärme har ämnet? Svara i kJ/kg. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den första vågräta delen visar smältningen. Läs av temperaturen på den lodräta axeln: 80 °C.</p><p><strong>Svar:</strong> \\(80\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong></p><p>Den andra vågräta delen visar kokningen. Temperaturen är 210 °C.</p><p><strong>Svar:</strong> \\(210\\,{}^\\circ\\mathrm C\\).</p><p><strong>c)</strong></p><p>Smältningen pågår från 15 kJ till 55 kJ. Energin för själva smältningen är 55 − 15 = 40 kJ.</p>\\[\\begin{aligned}&L_f=\\frac{Q}{m}=\\frac{40}{0{,}2}\\\\ &=200\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(200\\,\\mathrm{kJ/kg}\\).</p><p><strong>d)</strong></p><p>Kokningen pågår från 90 kJ till 130 kJ. Energin för förångningen är 130 − 90 = 40 kJ.</p>\\[\\begin{aligned}&L_v=\\frac{Q}{m}=\\frac{40}{0{,}2}\\\\ &=200\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(200\\,\\mathrm{kJ/kg}\\).</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__varmekurvor_och_experiment",
     "formaga": [
       "begrepp",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Vågräta delar ger fasövergångens temperatur; platåns bredd ger fasenergin.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
@@ -76783,14 +76864,14 @@ window.BANK = [
     "rättSvar": [
       80,
       210,
-      200,
-      200
+      200.0,
+      200.0
     ],
     "tolerans": [
-      1.2,
-      3.15,
-      3,
-      3
+      0,
+      0,
+      0,
+      0
     ],
     "självrättning": true,
     "svarFormat": [
@@ -76813,48 +76894,57 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Diagrammet visar temperaturen hos \\(0{,}200\\ \\mathrm{kg}\\) av ett ämne när energi tillförs. Läs av diagrammet.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"214.57142857142858\" x2=\"486\" y2=\"214.57142857142858\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"218.57142857142858\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"183.14285714285714\" x2=\"486\" y2=\"183.14285714285714\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"187.14285714285714\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"155.71428571428572\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"54\" y1=\"120.28571428571429\" x2=\"486\" y2=\"120.28571428571429\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"124.28571428571429\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"54\" y1=\"88.85714285714286\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"92.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"57.428571428571445\" x2=\"486\" y2=\"57.428571428571445\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"61.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">240</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">280</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">T (°C)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q (kJ)</text><polyline points=\"54,230.28571428571428 97.2,183.14285714285714 212.39999999999998,183.14285714285714 313.2,81 428.40000000000003,81 486,41.714285714285694\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span>",
+    "spelIntro": "<p>Diagrammet visar hur temperaturen ändras när 0,200 kg av ett ämne tar upp energi.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"372\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Temperatur som funktion av tillförd energi, med platåer vid 80 och 210 grader\"><rect width=\"520\" height=\"310\" fill=\"white\"/><line x1=\"54.0\" x2=\"54.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"54.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">0</text><line x1=\"97.19999999999999\" x2=\"97.19999999999999\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"97.19999999999999\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">15</text><line x1=\"212.4\" x2=\"212.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"212.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">55</text><line x1=\"313.2\" x2=\"313.2\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"313.2\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">90</text><line x1=\"428.4\" x2=\"428.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"428.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">130</text><line x1=\"486.0\" x2=\"486.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"486.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">150</text><line x1=\"54\" x2=\"486\" y1=\"246.0\" y2=\"246.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"251.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">0</text><line x1=\"54\" x2=\"486\" y1=\"183.14285714285714\" y2=\"183.14285714285714\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"188.14285714285714\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">80</text><line x1=\"54\" x2=\"486\" y1=\"120.28571428571429\" y2=\"120.28571428571429\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"125.28571428571429\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">160</text><line x1=\"54\" x2=\"486\" y1=\"81.0\" y2=\"81.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"86.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">210</text><line x1=\"54\" x2=\"486\" y1=\"26.0\" y2=\"26.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"31.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">280</text><path d=\"M54 26V246H486\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"54\" y=\"17\" font-size=\"15\" font-family=\"Arial\">T (°C)</text><text x=\"486\" y=\"295\" text-anchor=\"end\" font-size=\"15\" font-family=\"Arial\">Q (kJ)</text><polyline points=\"54,230.285714 97.2,183.142857 212.4,183.142857 313.2,81 428.4,81 486,41.714286\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ämnets smältpunkt.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den första platån ligger vid 80 °C.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\,{}^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Den första vågräta delen visar smältningen.</p>",
-        "niva": "C",
-        "traningsniva": 2,
-        "poang": "(1/0/0)"
+        "fraga": "Vilken är ämnets smältpunkt? Svara i °C. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den första vågräta delen visar smältningen. Läs av temperaturen på den lodräta axeln: 80 °C.</p><p><strong>Svar:</strong> \\(80\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Läs av temperaturen vid den första vågräta delen.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>Diagrammet visar hur temperaturen ändras när 0,200 kg av ett ämne tar upp energi.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"372\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Temperatur som funktion av tillförd energi, med platåer vid 80 och 210 grader\"><rect width=\"520\" height=\"310\" fill=\"white\"/><line x1=\"54.0\" x2=\"54.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"54.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">0</text><line x1=\"97.19999999999999\" x2=\"97.19999999999999\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"97.19999999999999\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">15</text><line x1=\"212.4\" x2=\"212.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"212.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">55</text><line x1=\"313.2\" x2=\"313.2\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"313.2\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">90</text><line x1=\"428.4\" x2=\"428.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"428.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">130</text><line x1=\"486.0\" x2=\"486.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"486.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">150</text><line x1=\"54\" x2=\"486\" y1=\"246.0\" y2=\"246.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"251.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">0</text><line x1=\"54\" x2=\"486\" y1=\"183.14285714285714\" y2=\"183.14285714285714\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"188.14285714285714\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">80</text><line x1=\"54\" x2=\"486\" y1=\"120.28571428571429\" y2=\"120.28571428571429\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"125.28571428571429\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">160</text><line x1=\"54\" x2=\"486\" y1=\"81.0\" y2=\"81.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"86.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">210</text><line x1=\"54\" x2=\"486\" y1=\"26.0\" y2=\"26.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"31.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">280</text><path d=\"M54 26V246H486\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"54\" y=\"17\" font-size=\"15\" font-family=\"Arial\">T (°C)</text><text x=\"486\" y=\"295\" text-anchor=\"end\" font-size=\"15\" font-family=\"Arial\">Q (kJ)</text><polyline points=\"54,230.285714 97.2,183.142857 212.4,183.142857 313.2,81 428.4,81 486,41.714286\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg><p>Vilken är ämnets smältpunkt? Svara i °C. Svara med ett heltal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm ämnets kokpunkt.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den andra platån ligger vid 210 °C.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(210\\,{}^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Den andra vågräta delen visar kokningen.</p>",
-        "niva": "C",
-        "traningsniva": 2,
-        "poang": "(1/0/0)"
+        "fraga": "Vilken är ämnets kokpunkt? Svara i °C. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den andra vågräta delen visar kokningen. Temperaturen är 210 °C.</p><p><strong>Svar:</strong> \\(210\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Läs av temperaturen vid den andra vågräta delen.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "(1/0/0)",
+        "t": "<p>Diagrammet visar hur temperaturen ändras när 0,200 kg av ett ämne tar upp energi.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"372\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Temperatur som funktion av tillförd energi, med platåer vid 80 och 210 grader\"><rect width=\"520\" height=\"310\" fill=\"white\"/><line x1=\"54.0\" x2=\"54.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"54.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">0</text><line x1=\"97.19999999999999\" x2=\"97.19999999999999\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"97.19999999999999\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">15</text><line x1=\"212.4\" x2=\"212.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"212.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">55</text><line x1=\"313.2\" x2=\"313.2\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"313.2\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">90</text><line x1=\"428.4\" x2=\"428.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"428.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">130</text><line x1=\"486.0\" x2=\"486.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"486.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">150</text><line x1=\"54\" x2=\"486\" y1=\"246.0\" y2=\"246.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"251.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">0</text><line x1=\"54\" x2=\"486\" y1=\"183.14285714285714\" y2=\"183.14285714285714\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"188.14285714285714\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">80</text><line x1=\"54\" x2=\"486\" y1=\"120.28571428571429\" y2=\"120.28571428571429\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"125.28571428571429\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">160</text><line x1=\"54\" x2=\"486\" y1=\"81.0\" y2=\"81.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"86.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">210</text><line x1=\"54\" x2=\"486\" y1=\"26.0\" y2=\"26.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"31.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">280</text><path d=\"M54 26V246H486\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"54\" y=\"17\" font-size=\"15\" font-family=\"Arial\">T (°C)</text><text x=\"486\" y=\"295\" text-anchor=\"end\" font-size=\"15\" font-family=\"Arial\">Q (kJ)</text><polyline points=\"54,230.285714 97.2,183.142857 212.4,183.142857 313.2,81 428.4,81 486,41.714286\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg><p>Vilken är ämnets kokpunkt? Svara i °C. Svara med ett heltal.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm ämnets smältentalpi.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L_f=\\frac{40\\ \\mathrm{kJ}}{0{,}200\\ \\mathrm{kg}}=200\\ \\mathrm{kJ/kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{kJ/kg}\\).</p></div>",
-        "ledtrad": "<p>Läs av energibredden hos den första platån och dividera med massan.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "fraga": "Vilket smältvärme har ämnet? Svara i kJ/kg. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Smältningen pågår från 15 kJ till 55 kJ. Energin för själva smältningen är 55 − 15 = 40 kJ.</p>\\[\\begin{aligned}&L_f=\\frac{Q}{m}=\\frac{40}{0{,}2}\\\\ &=200\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(200\\,\\mathrm{kJ/kg}\\).</p></div>",
+        "ledtrad": "<p>Ta skillnaden mellan energierna där den första platån slutar och börjar. Dividera med massan.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Diagrammet visar hur temperaturen ändras när 0,200 kg av ett ämne tar upp energi.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"372\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Temperatur som funktion av tillförd energi, med platåer vid 80 och 210 grader\"><rect width=\"520\" height=\"310\" fill=\"white\"/><line x1=\"54.0\" x2=\"54.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"54.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">0</text><line x1=\"97.19999999999999\" x2=\"97.19999999999999\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"97.19999999999999\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">15</text><line x1=\"212.4\" x2=\"212.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"212.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">55</text><line x1=\"313.2\" x2=\"313.2\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"313.2\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">90</text><line x1=\"428.4\" x2=\"428.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"428.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">130</text><line x1=\"486.0\" x2=\"486.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"486.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">150</text><line x1=\"54\" x2=\"486\" y1=\"246.0\" y2=\"246.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"251.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">0</text><line x1=\"54\" x2=\"486\" y1=\"183.14285714285714\" y2=\"183.14285714285714\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"188.14285714285714\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">80</text><line x1=\"54\" x2=\"486\" y1=\"120.28571428571429\" y2=\"120.28571428571429\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"125.28571428571429\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">160</text><line x1=\"54\" x2=\"486\" y1=\"81.0\" y2=\"81.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"86.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">210</text><line x1=\"54\" x2=\"486\" y1=\"26.0\" y2=\"26.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"31.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">280</text><path d=\"M54 26V246H486\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"54\" y=\"17\" font-size=\"15\" font-family=\"Arial\">T (°C)</text><text x=\"486\" y=\"295\" text-anchor=\"end\" font-size=\"15\" font-family=\"Arial\">Q (kJ)</text><polyline points=\"54,230.285714 97.2,183.142857 212.4,183.142857 313.2,81 428.4,81 486,41.714286\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg><p>Vilket smältvärme har ämnet? Svara i kJ/kg. Svara med ett heltal.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm ämnets ångbildningsentalpi.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L_v=\\frac{40\\ \\mathrm{kJ}}{0{,}200\\ \\mathrm{kg}}=200\\ \\mathrm{kJ/kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{kJ/kg}\\).</p></div>",
-        "ledtrad": "<p>Läs av energibredden hos den andra platån och dividera med massan.</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "poang": "(1/0/0)"
+        "fraga": "Vilket ångbildningsvärme har ämnet? Svara i kJ/kg. Svara med ett heltal.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kokningen pågår från 90 kJ till 130 kJ. Energin för förångningen är 130 − 90 = 40 kJ.</p>\\[\\begin{aligned}&L_v=\\frac{Q}{m}=\\frac{40}{0{,}2}\\\\ &=200\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(200\\,\\mathrm{kJ/kg}\\).</p></div>",
+        "ledtrad": "<p>Använd energiskillnaden över den andra platån och dividera med massan.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "t": "<p>Diagrammet visar hur temperaturen ändras när 0,200 kg av ett ämne tar upp energi.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"372\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Temperatur som funktion av tillförd energi, med platåer vid 80 och 210 grader\"><rect width=\"520\" height=\"310\" fill=\"white\"/><line x1=\"54.0\" x2=\"54.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"54.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">0</text><line x1=\"97.19999999999999\" x2=\"97.19999999999999\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"97.19999999999999\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">15</text><line x1=\"212.4\" x2=\"212.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"212.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">55</text><line x1=\"313.2\" x2=\"313.2\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"313.2\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">90</text><line x1=\"428.4\" x2=\"428.4\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"428.4\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">130</text><line x1=\"486.0\" x2=\"486.0\" y1=\"26\" y2=\"246\" stroke=\"#e4e3e6\"/><text x=\"486.0\" y=\"270\" font-size=\"20\" text-anchor=\"middle\" font-family=\"Arial\">150</text><line x1=\"54\" x2=\"486\" y1=\"246.0\" y2=\"246.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"251.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">0</text><line x1=\"54\" x2=\"486\" y1=\"183.14285714285714\" y2=\"183.14285714285714\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"188.14285714285714\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">80</text><line x1=\"54\" x2=\"486\" y1=\"120.28571428571429\" y2=\"120.28571428571429\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"125.28571428571429\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">160</text><line x1=\"54\" x2=\"486\" y1=\"81.0\" y2=\"81.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"86.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">210</text><line x1=\"54\" x2=\"486\" y1=\"26.0\" y2=\"26.0\" stroke=\"#e4e3e6\"/><text x=\"46\" y=\"31.0\" font-size=\"20\" text-anchor=\"end\" font-family=\"Arial\">280</text><path d=\"M54 26V246H486\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"54\" y=\"17\" font-size=\"15\" font-family=\"Arial\">T (°C)</text><text x=\"486\" y=\"295\" text-anchor=\"end\" font-size=\"15\" font-family=\"Arial\">Q (kJ)</text><polyline points=\"54,230.285714 97.2,183.142857 212.4,183.142857 313.2,81 428.4,81 486,41.714286\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg><p>Vilket ångbildningsvärme har ämnet? Svara i kJ/kg. Svara med ett heltal.</p>",
+        "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Värmekurvor och experiment"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.117",
@@ -76862,37 +76952,38 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(65\\,\\%\\) av \\(0{,}200\\ \\mathrm{kg}\\) is vid \\(0\\,{}^\\circ\\mathrm C\\) ska smälta. Hur mycket energi behövs? Materialdata: \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{smält}}=0{,}65\\cdot0{,}200=0{,}130\\ \\mathrm{kg}\\]\\[Q=0{,}130\\cdot334=43{,}42\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(43{,}4\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,200 kg is vid 0 °C har smält till 65 %. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi har isen tagit upp? Svara i kJ. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den smälta massan är 65 % av 0,200 kg.</p>\\[\\begin{aligned}&m_{\\rm smält}=0{,}65\\cdot0{,}2\\\\ &=0{,}13\\,\\mathrm{kg}\\end{aligned}\\]\\[\\begin{aligned}&Q=m_{\\rm smält}L_f=0{,}13\\cdot334\\\\ &=43{,}42\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(43{,}4\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__delvis_fasovergang_och_slutfas",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först hur stor massa som motsvarar 65 %.</p>",
+    "ledtrad": "<p>Beräkna den smälta massan innan du använder Q = mL_f.</p>",
     "traningsniva": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "delvis fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 43.4,
-    "tolerans": 0.651,
+    "rättSvar": 43.42,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Delvis fasövergång och slutfas"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.53",
     "kap": 7,
     "omr": "fasandring",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Jämför två olyckor: \\(0{,}100\\ \\mathrm{kg}\\) kokande vatten respektive \\(0{,}100\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) hamnar på hud och når \\(37\\,{}^\\circ\\mathrm C\\). Anta att all avgiven energi går till huden. Materialdata: \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p><ol><li>Bestäm energin som det kokande vattnet avger.</li><li>Bestäm energin som ångan avger när den kondenserar och det bildade vattnet kyls.</li><li>Förklara varför ånga kan ge svårare brännskador och kommentera modellens begränsning.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{vatten}}=0{,}100\\cdot4{,}18\\cdot63=26{,}3\\ \\mathrm{kJ}\\]\\[Q_{\\mathrm{ånga}}=0{,}100\\cdot2260+26{,}3=252{,}3\\ \\mathrm{kJ}.\\]</div></div><div class=\"facit-stycke\"><p>Ångan avger nästan tio gånger mer energi eftersom den först kondenserar.</p></div><div class=\"facit-stycke\"><p>I verkligheten når inte all ånga huden, en del energi överförs till luft och kläder och hudens temperatur är inte konstant.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> vattnet avger \\(26{,}3\\ \\mathrm{kJ}\\) och ångan cirka \\(252\\ \\mathrm{kJ}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Jämför två olyckor: \\(0{,}100\\ \\mathrm{kg}\\) kokande vatten respektive \\(0{,}100\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) hamnar på hud och når \\(37\\,{}^\\circ\\mathrm C\\). Anta att all avgiven energi går till huden. Materialdata: \\(c=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p><p><strong>a)</strong> Bestäm energin som det kokande vattnet avger.</p><p><strong>b)</strong> Bestäm energin som ångan avger när den kondenserar och det bildade vattnet kyls.</p><p><strong>c)</strong> Förklara varför ånga kan ge svårare brännskador och kommentera modellens begränsning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> 0,100 kg vatten vid 100 °C avger energi när det svalnar till 37 °C:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}1\\cdot4{,}18\\cdot(100-37)\\\\ &=26{,}334\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>b)</strong> Ångan avger dessutom energi när den blir vatten:</p>\\[\\begin{aligned}&Q_{\\rm kond}=0{,}1\\cdot2260\\\\ &=226\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm ånga\\ totalt}=226+26{,}334\\\\ &=252{,}334\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>c)</strong> Jämför de två energimängderna:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm ånga}}{Q_{\\rm vatten}}=\\frac{252{,}334}{26{,}334}\\\\ &\\approx9{,}58\\end{aligned}\\]<p>Samma massa ånga avger alltså cirka 9,58 gånger så mycket energi. Därför kan ånga ge en allvarligare brännskada än vatten vid samma temperatur. Här jämförs bara energin, inte hur snabbt huden tar upp den.</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__kondensation_och_energioverforing",
     "formaga": [
@@ -76901,7 +76992,7 @@ window.BANK = [
       "procedur"
     ],
     "ledtrad": "<p>Ångan genomgår först en fasövergång och det bildade vattnet kyls sedan.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "spel": false,
     "miniräknare": true,
     "geogebra": false,
@@ -76912,16 +77003,17 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Kondensation och energiöverföring"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.118",
     "kap": 7,
     "omr": "fasandring",
     "niva": "A",
-    "poang": "(0/2/2)",
-    "t": "<p>Ett välisolerat kärl innehåller \\(0{,}500\\ \\mathrm{kg}\\) vatten vid \\(30\\,{}^\\circ\\mathrm C\\). En variabel massa is vid \\(-10\\,{}^\\circ\\mathrm C\\) läggs i. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\).</p><ol><li>Ta fram ett uttryck för den största ismassa som precis kan värmas till 0 °C och smälta helt.</li><li>Beräkna denna massa.</li><li>Beskriv slutläget om mer is än gränsmassan läggs i.</li><li>Förklara hur gränsmassan förändras om vattnets starttemperatur ökar.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid gränsfallet kyls vattnet till 0 °C samtidigt som isen värms till 0 °C och smälter.</p></div><div class=\"facit-stycke\"><p>Energibalansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_vc_vT_v=m_i(c_{is}|T_i|+L_f)\\]\\[m_{i,\\max}=\\frac{m_vc_vT_v}{c_{is}|T_i|+L_f}.\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{i,\\max}=\\frac{0{,}500\\cdot4{,}18\\cdot30}{2{,}10\\cdot10+334}=0{,}1766\\ \\mathrm{kg}.\\]</div></div><div class=\"facit-stycke\"><p>Om mer is tillsätts blir sluttemperaturen 0 °C och en del is finns kvar.</p></div><div class=\"facit-stycke\"><p>En högre starttemperatur hos vattnet ökar den tillgängliga energin proportionellt och ger därför en större gränsmassa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> gränsmassan är cirka \\(0{,}177\\ \\mathrm{kg}\\).</p></div>",
+    "poang": "(0/0/1)",
+    "t": "<p>Ett välisolerat kärl innehåller \\(0{,}500\\ \\mathrm{kg}\\) vatten vid \\(30\\,{}^\\circ\\mathrm C\\). En okänd mängd is vid −10 °C läggs i. Materialdata: \\(c_{is}=2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\), \\(c_v=4{,}18\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=334\\ \\mathrm{kJ/kg}\\). Bortse från energi som går till kärlet och omgivningen.</p><p><strong>a)</strong> Ta fram ett uttryck för den största ismassa som precis kan värmas till 0 °C och smälta helt.</p><p><strong>b)</strong> Beräkna denna massa.</p><p><strong>c)</strong> Beskriv vad som kan hända om mer is läggs i. Ta även med fallet med mycket stora mängder is.</p><p><strong>d)</strong> Förklara hur gränsmassan förändras om vattnets starttemperatur ökar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> För största möjliga ismassa svalnar vattnet till 0 °C. Isen värms till 0 °C och smälter precis helt. Låt mᵥ och mᵢ vara vattnets och isens massor, cᵥ och cᵢ deras specifika värmekapaciteter samt Tᵥ och Tᵢ deras starttemperaturer i °C. Sätt energierna lika:</p>\\[m_vc_vT_v=m_i(c_i|T_i|+L_f)\\]<p>Lös ut isens massa:</p>\\[m_{i,\\max}=\\frac{m_vc_vT_v}{c_i|T_i|+L_f}\\]<p><strong>b)</strong> Sätt in de givna värdena:</p>\\[\\begin{aligned}&m_{i,\\max}=\\frac{0{,}5\\cdot4{,}18\\cdot30}{2{,}1\\cdot10+334}\\\\ &\\approx0{,}177\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>c)</strong> Om lite mer is läggs i finns is kvar vid 0 °C. Vid större mängder kan även en del av vattnet frysa, eftersom energi behövs för att värma den kalla isen. Vid mycket stora ismängder fryser allt vatten och sluttemperaturen kan bli lägre än 0 °C. Det är alltså inte alltid en blandning av is och vatten vid 0 °C.</p><p>Gränsen för att allt vatten fryser vid 0 °C fås av vattnets energi från avsvalning och frysning:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}5\\cdot(4{,}18\\cdot30+334)\\\\ &=229{,}7\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm is,gräns}=\\frac{229{,}7}{2{,}1\\cdot10}\\\\ &\\approx10{,}94\\,\\mathrm{kg}\\end{aligned}\\]<p>Med mer än cirka 10,94 kg is blir allt is med en temperatur under 0 °C.</p><p><strong>d)</strong> I uttrycket i a) står vattnets starttemperatur i täljaren. Om den fördubblas, fördubblas också den största ismassa som kan smälta helt.</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
     "familjNyckel": "fasandring__varmebalans_med_is",
     "formaga": [
@@ -76941,7 +77033,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Värmebalans med is"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "7.54",
@@ -76949,37 +77042,38 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur mycket energi krävs för att förånga \\(0{,}400\\ \\mathrm{kg}\\) vatten som redan håller \\(100\\,{}^\\circ\\mathrm C\\)? Ångbildningsvärme: \\(L_v=2260\\ \\mathrm{kJ/kg}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL_v=0{,}400\\cdot2260=904\\ \\mathrm{kJ}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(904\\ \\mathrm{kJ}\\).</p></div>",
+    "t": "<p>0,400 kg vattenånga vid 100 °C blir vatten med samma temperatur. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi avges? Svara i kJ. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=0{,}4\\cdot2260\\\\ &=904\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(904\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "familjNyckel": "fasandring__direkt_latent_varme",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vattnet är redan vid kokpunkten.</p>",
+    "ledtrad": "<p>Använd Q = mL_v för kondensationen.</p>",
     "traningsniva": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "enkel fasövergång – energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 904,
-    "tolerans": 13.56,
+    "rättSvar": 904.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
     "familjTidigare": [
       "Direkt latent värme"
-    ]
+    ],
+    "arbetsinsats": 1
   },
   {
     "id": "7.119",
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>I ett försök kokar vatten med en värmare på \\(1000\\ \\mathrm W\\). Värmarens verkningsgrad är \\(80\\,\\%\\). Under \\(4{,}0\\ \\mathrm{min}\\) minskar vattenmassan från \\(0{,}800\\ \\mathrm{kg}\\) till \\(0{,}715\\ \\mathrm{kg}\\). Bestäm vattnets ångbildningsentalpi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den förångade massan är \\(0{,}800-0{,}715=0{,}085\\ \\mathrm{kg}\\).</p></div><div class=\"facit-stycke\"><p>Nyttig energi är \\(0{,}80\\cdot1000\\cdot240=192000\\ \\mathrm J\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L_v=\\frac{192000}{0{,}085}=2{,}259\\cdot10^6\\ \\mathrm{J/kg}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2260\\ \\mathrm{kJ/kg}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Vatten kokar i 4,0 minuter med en värmare på 1000 W. Verkningsgraden är 80 %. Vattnets massa minskar från 0,800 kg till 0,715 kg.</p><p>Beräkna vattnets ångbildningsvärme. Svara i kJ/kg. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>4,0 min = 240 s. Energin som når vattnet är:</p>\\[\\begin{aligned}&Q=\\frac{0{,}8\\cdot1000\\cdot240}{1000}\\\\ &=192\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm ånga}=0{,}8-0{,}715\\\\ &=0{,}085\\,\\mathrm{kg}\\end{aligned}\\]\\[\\begin{aligned}&L_v=\\frac{Q}{m_{\\rm ånga}}=\\frac{192}{0{,}085}\\\\ &\\approx2260\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(2260\\,\\mathrm{kJ/kg}\\).</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__varmekurvor_och_experiment",
     "formaga": [
@@ -76987,30 +77081,31 @@ window.BANK = [
       "problemlösning",
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm både den nyttiga energin och hur mycket vatten som försvinner.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Beräkna energin som når vattnet och massan som har förångats.</p>",
+    "traningsniva": 3,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "typ": "experimentell latent värme",
     "svarstyp": "numeriskt",
-    "rättSvar": 2260,
-    "tolerans": 33.9,
+    "rättSvar": 2258.8235294117626,
+    "tolerans": 5.0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ/kg",
     "familjTidigare": [
       "Värmekurvor och experiment"
-    ]
+    ],
+    "arbetsinsats": 2
   },
   {
     "id": "7.120",
     "kap": 7,
     "omr": "fasandring",
     "niva": "A",
-    "poang": "(0/2/2)",
-    "t": "<p>I ett försök värms \\(0{,}200\\ \\mathrm{kg}\\) is med en värmare märkt \\(500\\ \\mathrm W\\). Grafen bygger på mätpunkterna \\((0\\ \\mathrm s,-10\\,{}^\\circ\\mathrm C)\\), \\((10\\ \\mathrm s,0\\,{}^\\circ\\mathrm C)\\), \\((150\\ \\mathrm s,0\\,{}^\\circ\\mathrm C)\\) och \\((190\\ \\mathrm s,20\\,{}^\\circ\\mathrm C)\\). En elev antar att hela eleffekten når provet.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"330\" viewBox=\"0 0 650 330\" role=\"img\" aria-label=\"Temperatur som funktion av tid vid uppvärmning av is\"><rect width=\"650\" height=\"330\" rx=\"18\" fill=\"#fff\"/><line x1=\"75\" y1=\"280\" x2=\"610\" y2=\"280\" stroke=\"#263746\" stroke-width=\"3\"/><line x1=\"75\" y1=\"280\" x2=\"75\" y2=\"40\" stroke=\"#263746\" stroke-width=\"3\"/><g stroke=\"#d9dee3\" stroke-width=\"1\"><line x1=\"75\" y1=\"220\" x2=\"610\" y2=\"220\"/><line x1=\"75\" y1=\"160\" x2=\"610\" y2=\"160\"/><line x1=\"75\" y1=\"100\" x2=\"610\" y2=\"100\"/><line x1=\"195\" y1=\"40\" x2=\"195\" y2=\"280\"/><line x1=\"355\" y1=\"40\" x2=\"355\" y2=\"280\"/><line x1=\"515\" y1=\"40\" x2=\"515\" y2=\"280\"/></g><polyline points=\"75,250 102,160 555,160 610,100\" fill=\"none\" stroke=\"#c1392b\" stroke-width=\"5\"/><g fill=\"#c1392b\"><circle cx=\"75\" cy=\"250\" r=\"6\"/><circle cx=\"102\" cy=\"160\" r=\"6\"/><circle cx=\"555\" cy=\"160\" r=\"6\"/><circle cx=\"610\" cy=\"100\" r=\"6\"/></g><text x=\"620\" y=\"326\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"17\" fill=\"#263746\">t (s)</text><text x=\"26\" y=\"45\" font-family=\"Arial\" font-size=\"17\" fill=\"#263746\">T (°C)</text><text x=\"57\" y=\"255\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">−10</text><text x=\"57\" y=\"165\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">0</text><text x=\"57\" y=\"105\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">20</text><text x=\"102\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">10</text><text x=\"555\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">150</text><text x=\"610\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">190</text></svg></span><ol><li>Bestäm det värde på isens specifika värmekapacitet som elevens modell ger.</li><li>Bestäm det värde på isens smältentalpi som modellen ger.</li><li>Jämför med tabellvärdena \\(2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(334\\ \\mathrm{kJ/kg}\\). Bedöm antagandet att hela effekten når provet.</li><li>Föreslå hur försöket eller modellen kan förbättras.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[c_{is}=\\frac{Pt}{m\\Delta T}=\\frac{500\\cdot10}{0{,}200\\cdot10}=2500\\ \\mathrm{J/(kg\\,K)}\\]\\[L_f=\\frac{P(150-10)}{m}=\\frac{500\\cdot140}{0{,}200}=350\\ \\mathrm{kJ/kg}.\\]</div></div><div class=\"facit-stycke\"><p>Båda skattningarna är högre än tabellvärdena.</p></div><div class=\"facit-stycke\"><p>Om all elektrisk energi felaktigt räknas som energi till isen överskattas materialkonstanterna.</p></div><div class=\"facit-stycke\"><p>Skillnaderna är dessutom olika stora, så en enda konstant verkningsgrad förklarar inte nödvändigtvis hela avvikelsen.</p></div><div class=\"facit-stycke\"><p>Försöket kan förbättras genom bättre isolering, mätning av kärlets värmekapacitet, fler temperaturmätningar och en separat bestämning av värmeförlusten vid olika temperaturer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> modellen ger \\(c_{is}=2{,}50\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(L_f=350\\ \\mathrm{kJ/kg}\\), men antagandet om fullständig energiöverföring är inte rimligt.</p></div>",
+    "poang": "(0/0/1)",
+    "t": "<p>I ett försök värms \\(0{,}200\\ \\mathrm{kg}\\) is med en värmare märkt \\(500\\ \\mathrm W\\). Grafen bygger på mätpunkterna \\((0\\ \\mathrm s,-10\\,{}^\\circ\\mathrm C)\\), \\((10\\ \\mathrm s,0\\,{}^\\circ\\mathrm C)\\), \\((150\\ \\mathrm s,0\\,{}^\\circ\\mathrm C)\\) och \\((190\\ \\mathrm s,20\\,{}^\\circ\\mathrm C)\\). En elev antar att hela eleffekten når provet.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"330\" viewBox=\"0 0 650 330\" role=\"img\" aria-label=\"Temperatur som funktion av tid vid uppvärmning av is\"><rect width=\"650\" height=\"330\" rx=\"18\" fill=\"#fff\"/><line x1=\"75\" y1=\"280\" x2=\"610\" y2=\"280\" stroke=\"#263746\" stroke-width=\"3\"/><line x1=\"75\" y1=\"280\" x2=\"75\" y2=\"40\" stroke=\"#263746\" stroke-width=\"3\"/><g stroke=\"#d9dee3\" stroke-width=\"1\"><line x1=\"75\" y1=\"220\" x2=\"610\" y2=\"220\"/><line x1=\"75\" y1=\"160\" x2=\"610\" y2=\"160\"/><line x1=\"75\" y1=\"100\" x2=\"610\" y2=\"100\"/><line x1=\"195\" y1=\"40\" x2=\"195\" y2=\"280\"/><line x1=\"355\" y1=\"40\" x2=\"355\" y2=\"280\"/><line x1=\"515\" y1=\"40\" x2=\"515\" y2=\"280\"/></g><polyline points=\"75,250 102,160 555,160 610,100\" fill=\"none\" stroke=\"#c1392b\" stroke-width=\"5\"/><g fill=\"#c1392b\"><circle cx=\"75\" cy=\"250\" r=\"6\"/><circle cx=\"102\" cy=\"160\" r=\"6\"/><circle cx=\"555\" cy=\"160\" r=\"6\"/><circle cx=\"610\" cy=\"100\" r=\"6\"/></g><text x=\"620\" y=\"326\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"17\" fill=\"#263746\">t (s)</text><text x=\"26\" y=\"45\" font-family=\"Arial\" font-size=\"17\" fill=\"#263746\">T (°C)</text><text x=\"57\" y=\"255\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">−10</text><text x=\"57\" y=\"165\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">0</text><text x=\"57\" y=\"105\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">20</text><text x=\"102\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">10</text><text x=\"555\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">150</text><text x=\"610\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#263746\">190</text></svg></span><p><strong>a)</strong> Bestäm det värde på isens specifika värmekapacitet som elevens modell ger.</p><p><strong>b)</strong> Bestäm det värde på isens smältvärme som modellen ger.</p><p><strong>c)</strong> Jämför med tabellvärdena \\(2{,}10\\ \\mathrm{kJ/(kg\\,K)}\\) och \\(334\\ \\mathrm{kJ/kg}\\). Bedöm antagandet att hela effekten når provet.</p><p><strong>d)</strong> Föreslå hur försöket eller modellen kan förbättras.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Isen värms 10 K på 10 s. Om hela eleffekten går till isen ger modellen:</p>\\[\\begin{aligned}&c_{\\rm is}=\\frac{Pt}{m\\Delta T}=\\frac{500\\cdot10}{0{,}2\\cdot10}\\\\ &=2500\\,\\mathrm{J/(kg\\cdot K)}\\end{aligned}\\]<p>2500 J/(kg·K) = 2,50 kJ/(kg·K).</p><p><strong>b)</strong> Smältningen pågår från 10 s till 150 s, alltså i 140 s:</p>\\[\\begin{aligned}&L_f=\\frac{Pt}{m}=\\frac{\\frac{500\\cdot140}{0{,}2}}{1000}\\\\ &=350\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p><strong>c)</strong> 2,50 är cirka 19 % högre än tabellvärdet 2,10. 350 är cirka 4,8 % högre än 334. Skillnaderna stödjer inte antagandet att all den angivna eleffekten når isen. Energi till kärlet och omgivningen kan göra de beräknade värdena för höga. Även osäkerhet i effekt, massa, temperatur och avlästa tider kan påverka resultatet. De olika avvikelserna förklaras därför inte säkert av en enda konstant verkningsgrad.</p><p><strong>d)</strong> Mät den faktiska eleffekten, isolera kärlet bättre och mät temperaturen oftare. Ta även hänsyn till energi som värmer kärlet. Upprepa försöket för att se hur mycket resultaten varierar.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "familjNyckel": "fasandring__varmekurvor_och_experiment",
     "formaga": [
@@ -77018,7 +77113,7 @@ window.BANK = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Använd lutningsdelen för c och platåns tidslängd för L. Jämför sedan relativa avvikelser.</p>",
+    "ledtrad": "<p>Använd tiden för uppvärmningen för att beräkna c och tiden för smältningen för att beräkna L_f. Jämför med tabellvärdena.</p>",
     "traningsniva": 5,
     "spel": false,
     "miniräknare": true,
@@ -77030,7 +77125,8 @@ window.BANK = [
     "självrättning": false,
     "familjTidigare": [
       "Värmekurvor och experiment"
-    ]
+    ],
+    "arbetsinsats": 3
   },
   {
     "id": "8.1",
@@ -113193,26 +113289,42 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vattenånga blir flytande vatten. Vilken fasövergång är det?</p><p>Svara <strong>1</strong> för smältning, <strong>2</strong> för kondensation eller <strong>3</strong> för sublimering.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Gas som övergår till vätska kondenserar.</p></div><div class=\"facit-stycke\"><p>Rätt svar är 2.</p></div></div></div>",
+    "t": "<p>Vattenånga blir flytande vatten. Vad kallas förändringen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När gas blir vätska kallas det kondensation.</p><p><strong>Svar:</strong> Kondensation.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "fasandring__fasovergangar_begrepp",
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
+    "ledtrad": "<p>Vilket begrepp används när gas blir vätska?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "familjTidigare": [
       "Fasövergångar – begrepp"
+    ],
+    "alternativ": [
+      {
+        "txt": "Smältning",
+        "ratt": false,
+        "kommentar": "Smältning är när fast form blir vätska."
+      },
+      {
+        "txt": "Kondensation",
+        "ratt": true,
+        "kommentar": "När vattenånga blir vatten kondenserar den."
+      },
+      {
+        "txt": "Sublimering",
+        "ratt": false,
+        "kommentar": "Sublimering är när fast form blir gas direkt."
+      }
     ]
   },
   {
@@ -113221,26 +113333,42 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Flytande vatten blir is. Vilken fasövergång är det?</p><p>Svara <strong>1</strong> för frysning, <strong>2</strong> för förångning eller <strong>3</strong> för kondensation.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vätska som övergår till fast form fryser.</p></div><div class=\"facit-stycke\"><p>Rätt svar är 1.</p></div></div></div>",
+    "t": "<p>Flytande vatten blir is. Vad kallas förändringen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När flytande vatten blir is fryser det.</p><p><strong>Svar:</strong> Frysning.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "fasandring__fasovergangar_begrepp",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
+    "ledtrad": "<p>Vilket begrepp används när vätska blir fast?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "familjTidigare": [
       "Fasövergångar – begrepp"
+    ],
+    "alternativ": [
+      {
+        "txt": "Frysning",
+        "ratt": true,
+        "kommentar": "Vatten som blir is fryser."
+      },
+      {
+        "txt": "Förångning",
+        "ratt": false,
+        "kommentar": "Förångning är när vätska blir gas."
+      },
+      {
+        "txt": "Kondensation",
+        "ratt": false,
+        "kommentar": "Kondensation är när gas blir vätska."
+      }
     ]
   },
   {
@@ -113249,8 +113377,8 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Is vid \\(0\\,{}^\\circ\\mathrm C\\) smälter vid normalt lufttryck. Temperaturen mäts medan både is och vatten finns kvar. Vilken temperatur visar termometern?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Under smältningen går den tillförda energin till fasövergången.</p></div><div class=\"facit-stycke\"><p>Temperaturen är därför kvar vid \\(0\\,{}^\\circ\\mathrm C\\).</p></div></div></div>",
+    "t": "<p>En blandning av is och vatten värms i ett öppet kärl. Det finns fortfarande is kvar.</p><p>Vilken temperatur har blandningen? Svara i °C. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Energin används till att smälta isen. Så länge både is och vatten finns kvar är temperaturen ungefär 0 °C.</p><p><strong>Svar:</strong> \\(0\\,{}^\\circ\\mathrm C\\).</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "formaga": [
       "begrepp"
@@ -113262,7 +113390,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
+    "ledtrad": "<p>Tänk på isens smältpunkt.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -113278,20 +113406,20 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}050\\ \\mathrm{kg}\\) is vid \\(0\\,{}^\\circ\\mathrm C\\) smälter. Isens smältvärme är \\(334\\ \\mathrm{kJ/kg}\\). Hur mycket energi behövs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL=0{,}050\\cdot334=16{,}7\\ \\mathrm{kJ}\\].</div></div></div></div>",
+    "t": "<p>0,050 kg is vid 0 °C smälter och tar upp 16,7 kJ.</p><p>Hur mycket energi behövs för att smälta 1 kg av samma is? Svara i kJ. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera energin med massan för att få energin per kilogram:</p>\\[L_f=\\frac{Q}{m}=\\frac{16{,}7}{0{,}050}=334\\,\\mathrm{kJ/kg}\\]<p>Det behövs alltså 334 kJ för att smälta 1 kg is.</p><p><strong>Svar:</strong> \\(334\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "fasandring__latent_varme_direkt_berakning",
     "svarstyp": "numeriskt",
-    "rättSvar": 16.7,
-    "tolerans": 0.05,
+    "rättSvar": 333.99999999999994,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
+    "ledtrad": "<p>Beräkna energin per kilogram genom att dividera med 0,050 kg.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -113299,7 +113427,8 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Latent värme – direkt beräkning"
-    ]
+    ],
+    "typ": "energi per kilogram vid smältning"
   },
   {
     "id": "7.133",
@@ -113307,28 +113436,29 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(66{,}8\\ \\mathrm{kJ}\\) används för att smälta is vid \\(0\\,{}^\\circ\\mathrm C\\). Isens smältentalpi är \\(334\\ \\mathrm{kJ/kg}\\). Bestäm isens massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=Q/L=66{,}8/334=0{,}200\\ \\mathrm{kg}\\].</div></div></div></div>",
+    "t": "<p>Isbitar väger 100 g vardera och har temperaturen 0 °C. Isens smältvärme är 334 kJ/kg.</p><p>Hur många hela isbitar kan smältas med 66,8 kJ? Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>100 g = 0,100 kg. För att smälta en isbit behövs:</p>\\[Q_{\\rm en\\ isbit}=0{,}100\\cdot334=33{,}4\\,\\mathrm{kJ}\\]<p>Dividera den tillgängliga energin med energin för en isbit:</p>\\[\\text{antal}=\\frac{66{,}8}{33{,}4}=2\\]<p><strong>Svar:</strong> \\(2\\) isbitar.</p></div>",
     "familj": "Latent värme",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "fasandring__latent_varme_direkt_berakning",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.2,
-    "tolerans": 0.001,
+    "rättSvar": 2.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
+    "ledtrad": "<p>Beräkna energin för en isbit. Hur många sådana energimängder ryms i 66,8 kJ?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
-    "svarEnhet": "kg",
+    "svarEnhet": "",
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Latent värme – direkt beräkning"
-    ]
+    ],
+    "typ": "antal isbitar som smälter"
   },
   {
     "id": "7.134",
@@ -113336,20 +113466,20 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>\\(0{,}050\\ \\mathrm{kg}\\) vattenånga vid \\(100\\,{}^\\circ\\mathrm C\\) kondenserar. Vattnets ångbildningsvärme är \\(2260\\ \\mathrm{kJ/kg}\\). Hur mycket energi avges?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=mL=0{,}050\\cdot2260=113\\ \\mathrm{kJ}\\].</div></div></div></div>",
+    "t": "<p>0,050 kg vatten ska förångas vid 100 °C. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behövs? Svara i kJ. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=0{,}05\\cdot2260\\\\ &=113\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(113\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Latent värme",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "fasandring__latent_varme_direkt_berakning",
     "svarstyp": "numeriskt",
-    "rättSvar": 113,
-    "tolerans": 0.1,
+    "rättSvar": 113.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
+    "ledtrad": "<p>Använd Q = mL_v.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -113365,26 +113495,42 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vatten kokar vid konstant tryck. Energi tillförs medan både vätska och vattenånga finns kvar. Vad händer med temperaturen?</p><p>Svara <strong>1</strong> om den är ungefär konstant, <strong>2</strong> om den ökar snabbt eller <strong>3</strong> om den sjunker.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Under kokningen används energin till fasövergången, så temperaturen är ungefär konstant.</p></div><div class=\"facit-stycke\"><p>Rätt svar är 1.</p></div></div></div>",
+    "t": "<p>Vatten kokar i en öppen kastrull. Värme tillförs och det finns fortfarande vatten kvar. Vad händer med temperaturen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Energin används till att omvandla vatten till ånga. Temperaturen är därför ungefär konstant under kokningen.</p><p><strong>Svar:</strong> Den är ungefär konstant.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "fasandring__fasovergang_och_temperatur",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
+    "ledtrad": "<p>Används energin till temperaturökning eller till att bilda ånga?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "familjTidigare": [
       "Fasövergång och temperatur"
+    ],
+    "alternativ": [
+      {
+        "txt": "Den är ungefär konstant",
+        "ratt": true,
+        "kommentar": "Energin bildar ånga medan temperaturen är ungefär konstant."
+      },
+      {
+        "txt": "Den ökar snabbt",
+        "ratt": false,
+        "kommentar": "Under kokningen används energin till att bilda ånga."
+      },
+      {
+        "txt": "Den sjunker",
+        "ratt": false,
+        "kommentar": "Tillförd energi bildar ånga och gör inte vattnet kallare."
+      }
     ]
   },
   {
@@ -113393,26 +113539,42 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Samma massa vatten fryser vid \\(0\\,{}^\\circ\\mathrm C\\) som tidigare smälte vid \\(0\\,{}^\\circ\\mathrm C\\). Jämför energimängdernas storlek.</p><p>Svara <strong>1</strong> om frysningen avger lika mycket energi som smältningen krävde, <strong>2</strong> om den avger mindre eller <strong>3</strong> om den avger mer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Smältning och frysning är motsatta processer med samma latenta värme per kilogram.</p></div><div class=\"facit-stycke\"><p>Beloppen är lika.</p></div><div class=\"facit-stycke\"><p>Rätt svar är 1.</p></div></div></div>",
+    "t": "<p>En isbit vid 0 °C smälter. Vattnet fryser sedan till is vid 0 °C. Jämför energin som behövs vid smältningen med energin som avges vid frysningen.</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Samma massa is smälter som sedan fryser. Smältning tar upp energin mL_f och frysning avger lika mycket energi.</p><p><strong>Svar:</strong> Energimängderna är lika stora.</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "fasandring__fasovergangar_begrepp",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera först vilken fysikalisk storhet som efterfrågas.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Jämför energin för samma massa vid smältning och frysning.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "familjTidigare": [
       "Fasövergångar – begrepp"
+    ],
+    "alternativ": [
+      {
+        "txt": "Energimängderna är lika stora",
+        "ratt": true,
+        "kommentar": "Samma massa tar upp och avger lika mycket energi."
+      },
+      {
+        "txt": "Frysningen avger mindre energi",
+        "ratt": false,
+        "kommentar": "Båda energimängderna är mL_f."
+      },
+      {
+        "txt": "Frysningen avger mer energi",
+        "ratt": false,
+        "kommentar": "Båda energimängderna är mL_f."
+      }
     ]
   },
   {
@@ -113421,8 +113583,8 @@ window.BANK = [
     "niva": "E",
     "typ": "smältning och kondensation",
     "poang": "(2/0/0)",
-    "t": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p><ol type=\"a\"><li>Hur mycket energi krävs för att smälta 1,2 kg aluminium vid smältpunkten?</li><li>Hur mycket energi frigörs när 25 g etanolånga kondenserar vid kokpunkten?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}2\\cdot397\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\cdot10^{5}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}025\\cdot840\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\,000\\) J</p></li></ol></div>",
+    "t": "<p>Beräkna följande storheter.</p><p><strong>a)</strong></p><p>1,2 kg aluminium vid smältpunkten ska smälta. Aluminiumets smältvärme är 397 kJ/kg.</p><p>Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.</p><p><strong>b)</strong></p><p>25 g etanolånga blir vätska med samma temperatur. Etanolens ångbildningsvärme är 840 kJ/kg.</p><p>Hur mycket energi avges? Svara i J. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[\\begin{aligned}&Q=mL_f=1{,}2\\cdot397\\\\ &=476{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p>Omvandla kJ till J.</p><p><strong>Svar:</strong> \\(476000\\,\\mathrm{J}\\).</p><p><strong>b)</strong></p><p>25 g = 0,025 kg.</p>\\[\\begin{aligned}&Q=mL_v=0{,}025\\cdot840\\\\ &=21\\,\\mathrm{kJ}\\end{aligned}\\]<p>21 kJ = 21 000 J.</p><p><strong>Svar:</strong> \\(21000\\,\\mathrm{J}\\).</p></div>",
     "id": "7.190",
     "miniräknare": true,
     "geogebra": false,
@@ -113433,8 +113595,8 @@ window.BANK = [
       21000.0
     ],
     "tolerans": [
-      7150.0,
-      510.0
+      500.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -113454,29 +113616,29 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Smältvärme för aluminium 397 kJ/kg. Ångbildningsvärme för etanol 840 kJ/kg.</p>",
+    "spelIntro": "<p>Beräkna energin för följande fasändringar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi krävs för att smälta aluminiumet? Svara i J.",
-        "t": "<p>1,2 kg aluminium är vid sin smältpunkt. För att smälta aluminium krävs 397 kJ/kg.</p><p>Hur mycket energi krävs för att smälta aluminiumet? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=1{,}2\\cdot397\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\cdot10^{5}\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=ml\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur mycket energi avges? Svara i J.",
-        "t": "<p>25 g etanolånga övergår till vätska vid kokpunkten. Då avges 840 kJ per kg etanol.</p><p>Hur mycket energi avges? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}025\\cdot840\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\,000\\) J</p></div>",
-        "ledtrad": "<p>\\(Q=ml\\).</p>",
+        "fraga": "Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.",
+        "t": "<p>1,2 kg aluminium vid smältpunkten ska smälta. Aluminiumets smältvärme är 397 kJ/kg.</p><p>Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=1{,}2\\cdot397\\\\ &=476{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p>Omvandla kJ till J.</p><p><strong>Svar:</strong> \\(476000\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Använd Q = mL_f och omvandla kJ till J.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket energi avges? Svara i J. Avrunda till tre värdesiffror.",
+        "t": "<p>25 g etanolånga blir vätska med samma temperatur. Etanolens ångbildningsvärme är 840 kJ/kg.</p><p>Hur mycket energi avges? Svara i J. Avrunda till tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>25 g = 0,025 kg.</p>\\[\\begin{aligned}&Q=mL_v=0{,}025\\cdot840\\\\ &=21\\,\\mathrm{kJ}\\end{aligned}\\]<p>21 kJ = 21 000 J.</p><p><strong>Svar:</strong> \\(21000\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Omvandla gram till kilogram och använd Q = mL_v.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(Q=ml\\).</p>",
@@ -113488,11 +113650,11 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "värma och smälta",
-    "poang": "(0/3/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><ol type=\"a\"><li>Hur mycket energi krävs för att smälta 55 g järn som har temperaturen 25 °C?</li><li>Hur mycket energi krävs för att smälta en isbit (18 g, −18 °C)?</li><li>Vatten (21 °C) värms och kokar bort helt med 0,10 MJ. Vilken massa hade vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}055(450\\cdot1\\,513+276\\cdot10^3)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\,627\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}018(2\\,200\\cdot18+334\\cdot10^3)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,725\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{0{,}10\\cdot10^6}{4\\,180\\cdot79+2\\,260\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}039\\) kg</p></li></ol></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Beräkna följande storheter.</p><p><strong>a)</strong></p><p>55 g järn värms från 25 °C till 1538 °C och smälter. Järnets specifika värmekapacitet är 0,45 kJ/(kg·K) och smältvärmet är 276 kJ/kg.</p><p>Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.</p><p><strong>b)</strong></p><p>18 g is vid −18 °C ska värmas till 0 °C och smälta. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.</p><p><strong>c)</strong></p><p>Vatten vid 21 °C tillförs 0,10 MJ. Det värms till 100 °C och förångas helt. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten kan omvandlas till ånga? Svara i kg. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>55 g = 0,055 kg. Temperaturökningen är 1538 − 25 = 1513 K.</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}055\\cdot0{,}45\\cdot1513\\\\ &=37{,}44675\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}055\\cdot276\\\\ &=15{,}18\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=(37{,}44675+15{,}18)\\cdot1000\\\\ &=52626{,}75\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(52600\\,\\mathrm{J}\\).</p><p><strong>b)</strong></p><p>18 g = 0,018 kg. Isen värms 18 K och smälter.</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}018\\cdot2{,}2\\cdot18\\\\ &=0{,}7128\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}018\\cdot334\\\\ &=6{,}012\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=(0{,}7128+6{,}012)\\cdot1000\\\\ &=6724{,}8\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(6720\\,\\mathrm{J}\\).</p><p><strong>c)</strong></p><p>0,10 MJ = 100 kJ. Varje kilogram behöver energi för att värmas 79 K och förångas:</p>\\[\\begin{aligned}&\\frac{Q}{m}=4{,}18\\cdot79+2260\\\\ &=2590{,}22\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{100}{2590{,}22}\\\\ &\\approx0{,}0386\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0386\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.191",
     "miniräknare": true,
     "geogebra": false,
@@ -113501,12 +113663,12 @@ window.BANK = [
     "rättSvar": [
       52626.75,
       6724.799999999999,
-      0.03860675927141324
+      0.038606759271413243
     ],
     "tolerans": [
-      789.0,
-      101.0,
-      0.000579
+      50.0,
+      5.0,
+      5e-05
     ],
     "självrättning": true,
     "formaga": [
@@ -113529,38 +113691,38 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p>",
+    "spelIntro": "<p>Räkna på uppvärmning och fasändring.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi krävs för att smälta 55 g järn som har temperaturen 25 °C?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><p>Hur mycket energi krävs för att smälta 55 g järn som har temperaturen 25 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}055(450\\cdot1\\,513+276\\cdot10^3)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\,627\\) J</p></div>",
-        "ledtrad": "<p>Först uppvärmning, sedan smältning.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.",
+        "t": "<p>55 g järn värms från 25 °C till 1538 °C och smälter. Järnets specifika värmekapacitet är 0,45 kJ/(kg·K) och smältvärmet är 276 kJ/kg.</p><p>Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>55 g = 0,055 kg. Temperaturökningen är 1538 − 25 = 1513 K.</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}055\\cdot0{,}45\\cdot1513\\\\ &=37{,}44675\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}055\\cdot276\\\\ &=15{,}18\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=(37{,}44675+15{,}18)\\cdot1000\\\\ &=52626{,}75\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(52600\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Lägg ihop energin för att värma järnet till smältpunkten och energin för smältningen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi krävs för att smälta en isbit (18 g, −18 °C)?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><p>Hur mycket energi krävs för att smälta en isbit (18 g, −18 °C)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}018(2\\,200\\cdot18+334\\cdot10^3)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,725\\) J</p></div>",
-        "ledtrad": "<p>Först uppvärmning till 0 °C.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.",
+        "t": "<p>18 g is vid −18 °C ska värmas till 0 °C och smälta. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs? Svara i J. Avrunda till tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>18 g = 0,018 kg. Isen värms 18 K och smälter.</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}018\\cdot2{,}2\\cdot18\\\\ &=0{,}7128\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}018\\cdot334\\\\ &=6{,}012\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=(0{,}7128+6{,}012)\\cdot1000\\\\ &=6724{,}8\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(6720\\,\\mathrm{J}\\).</p></div>",
+        "ledtrad": "<p>Isen behöver först värmas till 0 °C och sedan smälta.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Vatten (21 °C) värms och kokar bort helt med 0,10 MJ. Vilken massa hade vattnet?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K), järn 0,45 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Järn smälter vid 1 538 °C med smältvärmet 276 kJ/kg.</p><p>Vatten (21 °C) värms och kokar bort helt med 0,10 MJ. Vilken massa hade vattnet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{0{,}10\\cdot10^6}{4\\,180\\cdot79+2\\,260\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}039\\) kg</p></div>",
-        "ledtrad": "<p>Energi per kilogram först.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur mycket vatten kan omvandlas till ånga? Svara i kg. Avrunda till tre värdesiffror.",
+        "t": "<p>Vatten vid 21 °C tillförs 0,10 MJ. Det värms till 100 °C och förångas helt. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten kan omvandlas till ånga? Svara i kg. Avrunda till tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>0,10 MJ = 100 kJ. Varje kilogram behöver energi för att värmas 79 K och förångas:</p>\\[\\begin{aligned}&\\frac{Q}{m}=4{,}18\\cdot79+2260\\\\ &=2590{,}22\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{100}{2590{,}22}\\\\ &\\approx0{,}0386\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0386\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Beräkna energibehovet per kilogram och dividera den tillförda energin med det.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -113574,25 +113736,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "is till överhettad ånga",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K). Vattenånga 2,08 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg. Hur mycket energi krävs för att omvandla 40,0 g is (−10,0 °C) till vattenånga (110 °C)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}0400(2\\,200\\cdot10+334\\cdot10^3+4\\,180\\cdot100+2\\,260\\cdot10^3+2\\,080\\cdot10)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}22\\cdot10^{5}\\) J</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>40,0 g is vid −10 °C ska omvandlas till vattenånga vid 110 °C. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Ångans specifika värmekapacitet är 2,08 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behövs totalt? Svara i J. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>40,0 g = 0,0400 kg. Isen värms och smälter. Vattnet värms och förångas. Till sist värms ångan ytterligare 10 K.</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}04\\cdot2{,}2\\cdot10\\\\ &=0{,}88\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}04\\cdot334\\\\ &=13{,}36\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}04\\cdot4{,}18\\cdot100\\\\ &=16{,}72\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm förånga}=0{,}04\\cdot2260\\\\ &=90{,}4\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm ånga}=0{,}04\\cdot2{,}08\\cdot10\\\\ &=0{,}832\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=0{,}88+13{,}36+16{,}72\\\\ &\\quad+90{,}4+0{,}832=122{,}192\\,\\mathrm{kJ}\\end{aligned}\\]<p>122,192 kJ = 122 192 J.</p><p><strong>Svar:</strong> \\(122000\\,\\mathrm{J}\\).</p></div>",
     "id": "7.192",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 122192.0,
-    "tolerans": 1830.0,
+    "tolerans": 500.0,
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fem steg.</p>",
+    "ledtrad": "<p>Räkna på varje temperaturändring och fasändring. Ångan behöver också värmas från 100 °C till 110 °C.</p>",
     "traningsniva": 3,
     "svarEnhet": "J",
     "familjNyckel": "fasandring__latent_varme",
@@ -113605,52 +113767,52 @@ window.BANK = [
     "niva": "E",
     "typ": "flytande syre förångas",
     "poang": "(1/0/0)",
-    "t": "<p>Flytande syre vid kokpunkten (−183 °C) tillförs 0,340 MJ. Ångbildningsvärmet är 213 kJ/kg. Hur mycket syre förångas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{0{,}340\\cdot10^6}{213\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}60\\) kg</p></div>",
+    "t": "<p>Flytande syre vid kokpunkten tillförs 0,340 MJ. Syrets ångbildningsvärme är 213 kJ/kg.</p><p>Hur mycket syre förångas? Svara i kg. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>0,340 MJ = 340 kJ.</p>\\[\\begin{aligned}&m=\\frac{Q}{L_v}=\\frac{340}{213}\\\\ &\\approx1{,}60\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}60\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.193",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 1.596244131455399,
-    "tolerans": 0.0239,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(Q=ml\\).</p>",
+    "ledtrad": "<p>Omvandla energin till kJ och dividera med ångbildningsvärmet.</p>",
     "traningsniva": 2,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__latent_varme",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "smälta silver och guld",
-    "poang": "(0/2/0)",
-    "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p><ol type=\"a\"><li>Silver.</li><li>Guld.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{100\\cdot10^3}{235\\cdot947+105\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}31\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{100\\cdot10^3}{130\\cdot1\\,049+64\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) kg</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Metall vid 15 °C tillförs 100 kJ och smälter helt. Silver smälter vid 962 °C och har specifika värmekapaciteten 0,235 kJ/(kg·K) och smältvärmet 105 kJ/kg. Guld smälter vid 1064 °C och har motsvarande värden 0,13 kJ/(kg·K) och 64 kJ/kg.</p><p><strong>a)</strong> Hur mycket silver kan smältas? Svara i kg. Avrunda till 3 decimaler.</p><p><strong>b)</strong> Hur mycket guld kan smältas? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Silvret värms 962 − 15 = 947 K. Energibehovet per kilogram är:</p>\\[\\begin{aligned}&\\frac{Q}{m}=0{,}235\\cdot947+105\\\\ &=327{,}545\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{100}{327{,}545}\\\\ &\\approx0{,}305\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}305\\,\\mathrm{kg}\\).</p><p><strong>b)</strong></p><p>Guldet värms 1064 − 15 = 1049 K. Energibehovet per kilogram är:</p>\\[\\begin{aligned}&\\frac{Q}{m}=0{,}13\\cdot1049+64\\\\ &=200{,}37\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{100}{200{,}37}\\\\ &\\approx0{,}499\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}499\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.194",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.30530156161748767,
-      0.49907670809003346
+      0.3053015616174877,
+      0.4990767080900334
     ],
     "tolerans": [
-      0.0051,
-      0.00749
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": [
       "numeriskt",
@@ -113666,27 +113828,27 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p>",
+    "spelIntro": "<p>Metall vid 15 °C tillförs 100 kJ och smälter helt. Silver smälter vid 962 °C och har specifika värmekapaciteten 0,235 kJ/(kg·K) och smältvärmet 105 kJ/kg. Guld smälter vid 1064 °C och har motsvarande värden 0,13 kJ/(kg·K) och 64 kJ/kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Silver.",
-        "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p><p>Silver.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{100\\cdot10^3}{235\\cdot947+105\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}31\\) kg</p></div>",
-        "ledtrad": "<p>Energi per kilogram först.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur mycket silver kan smältas? Svara i kg. Avrunda till 3 decimaler.",
+        "t": "<p>Silver vid 15 °C tillförs 100 kJ och smälter helt. Silver smälter vid 962 °C. Dess specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg.</p><p>Hur mycket silver kan smältas? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Silvret värms 962 − 15 = 947 K. Energibehovet per kilogram är:</p>\\[\\begin{aligned}&\\frac{Q}{m}=0{,}235\\cdot947+105\\\\ &=327{,}545\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{100}{327{,}545}\\\\ &\\approx0{,}305\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}305\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Beräkna energin som behövs för att värma och smälta ett kilogram silver.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Guld.",
-        "t": "<p>Specifik värmekapacitet: silver 0,235 kJ/(kg·K), guld 0,13 kJ/(kg·K).</p><p>Silver smälter vid 962 °C (smältvärme 105 kJ/kg) och guld vid 1 064 °C (smältvärme 64 kJ/kg). Hur stor massa kan helt smältas med 100 kJ om metallen från början har temperaturen 15 °C?</p><p>Guld.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{100\\cdot10^3}{130\\cdot1\\,049+64\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) kg</p></div>",
-        "ledtrad": "<p>Energi per kilogram först.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur mycket guld kan smältas? Svara i kg. Avrunda till 3 decimaler.",
+        "t": "<p>Guld vid 15 °C tillförs 100 kJ och smälter helt. Guld smälter vid 1064 °C. Dess specifika värmekapacitet är 0,13 kJ/(kg·K) och smältvärmet är 64 kJ/kg.</p><p>Hur mycket guld kan smältas? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Guldet värms 1064 − 15 = 1049 K. Energibehovet per kilogram är:</p>\\[\\begin{aligned}&\\frac{Q}{m}=0{,}13\\cdot1049+64\\\\ &=200{,}37\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{100}{200{,}37}\\\\ &\\approx0{,}499\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}499\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Beräkna energin som behövs för att värma och smälta ett kilogram guld.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -113700,25 +113862,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "vatten som delvis förångas",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En bägare innehåller 450 g vatten (80 °C) som tillförs 0,27 MJ. Hur mycket vatten förångas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Uppvärmning: \\(0{,}450\\cdot4\\,180\\cdot20=37{,}6\\) kJ.</p></div><div class=\"facit-stycke\"><p>\\(m=\\dfrac{270-37{,}6}{2\\,260}\\) kg.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}10\\) kg</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>450 g vatten vid 80 °C tillförs 270 kJ. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten förångas? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet behöver först värmas 20 K till 100 °C:</p>\\[\\begin{aligned}&Q_{\\rm värm}=mc\\Delta T=0{,}45\\cdot4{,}18\\cdot20\\\\ &=37{,}62\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm förånga}=270-37{,}62\\\\ &=232{,}38\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{Q_{\\rm förånga}}{L_v}=\\frac{232{,}38}{2260}\\\\ &\\approx0{,}103\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}103\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.195",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.10282300884955753,
-    "tolerans": 0.0051,
+    "rättSvar": 0.10282300884955752,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Först till kokpunkten.</p>",
+    "ledtrad": "<p>Värm först vattnet till 100 °C. Resten av energin förångar en del av vattnet.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__latent_varme",
@@ -113728,29 +113890,29 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "A",
+    "niva": "C",
     "typ": "järnmeteorit smälter",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: järn 0,45 kJ/(kg·K).</p><p>En järnmeteorit (−105 °C) värms i atmosfären så att den helt smälter (smältpunkt 1 538 °C, smältvärme 276 kJ/kg). Vilken är den minsta fart den kan ha haft?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tfrac12v^2=450\\cdot1\\,643+276\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,425\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En järnmeteorit vid −105 °C bromsas och smälter helt. Räkna med att all dess rörelseenergi värmer och smälter järnet. Järnets specifika värmekapacitet är 0,45 kJ/(kg·K), smältpunkten 1538 °C och smältvärmet 276 kJ/kg.</p><p>Vilken fart behöver meteoriten minst ha från början? Svara i m/s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 1538 − (−105) = 1643 K. För varje kilogram behövs:</p>\\[\\begin{aligned}&\\frac{Q}{m}=450\\cdot1643+276000\\\\ &=1015350\\,\\mathrm{J/kg}\\end{aligned}\\]<p>Sätt rörelseenergin mv²/2 lika med energibehovet. Massan förkortas bort, så v²/2 = 1 015 350 J/kg.</p>\\[\\begin{aligned}&v=\\sqrt{2\\cdot1015350}\\\\ &\\approx1425\\,\\mathrm{m/s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1425\\,\\mathrm{m/s}\\).</p></div>",
     "id": "7.196",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 1425.0263155464884,
-    "tolerans": 51.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rörelseenergi per kilogram.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Sätt rörelseenergin lika med energin för uppvärmning och smältning. Massan kan förkortas bort.</p>",
+    "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -113759,8 +113921,8 @@ window.BANK = [
     "niva": "C",
     "typ": "blykula genom vägg",
     "poang": "(1/1/0)",
-    "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) går genom en vägg och farten minskar från 220 m/s till 160 m/s. Kulan tar upp 50 % av friktionsvärmen. Bly smälter vid 327 °C.</p><ol type=\"a\"><li>Hur många kelvin stiger kulans temperatur?</li><li>Vilken temperatur får kulan? (Den smälter alltså inte.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{0{,}50\\cdot\\tfrac12(220^2-160^2)}{130}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\) K</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(20+43{,}8\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(64\\) °C</p></li></ol></div>",
+    "t": "<p>En blykula vid 20 °C passerar en vägg. Farten minskar från 220 m/s till 160 m/s. Kulan tar upp hälften av den förlorade rörelseenergin som värme. Blyets specifika värmekapacitet är 0,13 kJ/(kg·K).</p><p><strong>a)</strong> Hur mycket ökar kulans temperatur? Svara i K. Svara med ett heltal.</p><p><strong>b)</strong> Vilken blir kulans temperatur? Svara i °C. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna den förlorade rörelseenergin per kilogram:</p>\\[\\begin{aligned}&\\frac{\\Delta E_k}{m}=\\frac{220^{2}-160^{2}}{2}\\\\ &=11400\\,\\mathrm{J/kg}\\end{aligned}\\]<p>Kulan tar upp hälften, 5700 J per kilogram. Blyets specifika värmekapacitet är 130 J/(kg·K).</p>\\[\\begin{aligned}&\\Delta T=\\frac{5700}{130}\\\\ &\\approx44\\,\\mathrm{K}\\end{aligned}\\]<p><strong>Svar:</strong> \\(44\\,\\mathrm{K}\\).</p><p><strong>b)</strong></p><p>En temperaturökning i kelvin är lika stor i °C. Lägg den oavrundade ökningen från a) till 20 °C.</p>\\[\\begin{aligned}&T_{\\rm slut}=20+\\frac{5700}{130}\\\\ &\\approx64\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(64\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.197",
     "miniräknare": true,
     "geogebra": false,
@@ -113771,8 +113933,8 @@ window.BANK = [
       63.84615384615385
     ],
     "tolerans": [
-      0.658,
-      0.958
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -113792,14 +113954,14 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) går genom en vägg och farten minskar från 220 m/s till 160 m/s. Kulan tar upp 50 % av friktionsvärmen. Bly smälter vid 327 °C.</p>",
+    "spelIntro": "<p>En blykula vid 20 °C passerar en vägg. Farten minskar från 220 m/s till 160 m/s. Kulan tar upp hälften av den förlorade rörelseenergin som värme. Blyets specifika värmekapacitet är 0,13 kJ/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många kelvin stiger kulans temperatur?",
-        "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) går genom en vägg och farten minskar från 220 m/s till 160 m/s. Kulan tar upp 50 % av friktionsvärmen. Bly smälter vid 327 °C.</p><p>Hur många kelvin stiger kulans temperatur?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{0{,}50\\cdot\\tfrac12(220^2-160^2)}{130}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\) K</p></div>",
-        "ledtrad": "<p>Räkna per kilogram.</p>",
+        "fraga": "Hur mycket ökar kulans temperatur? Svara i K. Svara med ett heltal.",
+        "t": "<p>En blykula passerar en vägg. Farten minskar från 220 m/s till 160 m/s. Kulan tar upp hälften av den förlorade rörelseenergin. Blyets specifika värmekapacitet är 0,13 kJ/(kg·K).</p><p>Hur mycket ökar kulans temperatur? Svara i K. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna den förlorade rörelseenergin per kilogram:</p>\\[\\begin{aligned}&\\frac{\\Delta E_k}{m}=\\frac{220^{2}-160^{2}}{2}\\\\ &=11400\\,\\mathrm{J/kg}\\end{aligned}\\]<p>Kulan tar upp hälften, 5700 J per kilogram. Blyets specifika värmekapacitet är 130 J/(kg·K).</p>\\[\\begin{aligned}&\\Delta T=\\frac{5700}{130}\\\\ &\\approx44\\,\\mathrm{K}\\end{aligned}\\]<p><strong>Svar:</strong> \\(44\\,\\mathrm{K}\\).</p></div>",
+        "ledtrad": "<p>Jämför den förlorade rörelseenergin med mcΔT och förkorta bort massan.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -113807,10 +113969,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken temperatur får kulan? Svara i °C.",
-        "t": "<p>En blykula har temperaturen 20 °C. När den passerar en vägg stiger temperaturen med 43,8 K.</p><p>Vilken temperatur får kulan? Svara i °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En temperaturökning på 43,8 K är lika stor som en ökning på 43,8 °C.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_\\mathrm{slut}=20+43{,}8=63{,}8\\,{}^\\circ\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 64 °C.</p></div>",
-        "ledtrad": "<p>Jämför med smältpunkten.</p>",
+        "fraga": "Vilken blir kulans temperatur? Svara i °C. Svara med ett heltal.",
+        "t": "<p>En blykula har temperaturen 20 °C. Temperaturen ökar med 43,8 K.</p><p>Vilken blir kulans temperatur? Svara i °C. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En ökning med 43,8 K är lika stor i °C.</p>\\[\\begin{aligned}&T_{\\rm slut}=20+43{,}8\\\\ &=63{,}8\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(64\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Lägg temperaturökningen till starttemperaturen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -113829,8 +113991,8 @@ window.BANK = [
     "niva": "C",
     "typ": "mikrovågsugn kokar vatten",
     "poang": "(1/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p><ol type=\"a\"><li>Vilken effekt har ugnen?</li><li>Ett nytt glas med 250 g vatten (20 °C) värms i 2 minuter. Hur mycket vatten kokar bort?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{0{,}250\\cdot4\\,180\\cdot80}{105}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(796\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=796\\cdot120\\].</div></div><div class=\"facit-stycke\"><p>Uppvärmning: 83,6 kJ.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q-83\\,600}{2\\,260\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0053\\) kg</p></li></ol></div>",
+    "t": "<p>250 g vatten värms från 20 °C till 100 °C på 1 min 45 s i en mikrovågsugn. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p><strong>a)</strong> Vilken effekt överförs till vattnet? Svara i W. Svara med ett heltal.</p><p><strong>b)</strong> Hur mycket vatten har förångats 2,0 minuter efter start? Svara i kg. Avrunda till 4 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>1 min 45 s = 105 s och 250 g = 0,250 kg.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}25\\cdot4{,}18\\cdot80\\\\ &=83{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p>83,6 kJ = 83 600 J.</p>\\[\\begin{aligned}&P=\\frac{Q}{t}=\\frac{83600}{105}\\\\ &\\approx796\\,\\mathrm{W}\\end{aligned}\\]<p><strong>Svar:</strong> \\(796\\,\\mathrm{W}\\).</p><p><strong>b)</strong> Kokningen börjar efter 105 s. Av totalt 120 s återstår 120 − 105 = 15 s för förångningen. Använd den oavrundade effekten från a):</p>\\[Q_{\\rm förånga}=\\frac{83600}{105}\\cdot15\\approx11900\\,\\mathrm J\\]<p>Dividera energin för förångningen med ångbildningsvärmet (2 260 000 J/kg):</p>\\[m_{\\rm ånga}=\\frac{83600\\cdot15}{105\\cdot2260000}\\approx0{,}0053\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}0053\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.198",
     "miniräknare": true,
     "geogebra": false,
@@ -113841,8 +114003,8 @@ window.BANK = [
       0.00528445006321112
     ],
     "tolerans": [
-      11.9,
-      7.93e-05
+      0.5,
+      5e-05
     ],
     "självrättning": true,
     "formaga": [
@@ -113863,32 +114025,32 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p>",
+    "spelIntro": "<p>250 g vatten värms från 20 °C till 100 °C på 1 min 45 s i en mikrovågsugn. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken effekt har ugnen?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p><p>Vilken effekt har ugnen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{0{,}250\\cdot4\\,180\\cdot80}{105}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(796\\) W</p></div>",
-        "ledtrad": "<p>\\(P=\\dfrac{Q}{t}\\).</p>",
+        "fraga": "Vilken effekt överförs till vattnet? Svara i W. Svara med ett heltal.",
+        "t": "<p>250 g vatten värms från 20 °C till 100 °C på 1 min 45 s. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Vilken effekt överförs till vattnet? Svara i W. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 min 45 s = 105 s och 250 g = 0,250 kg.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}25\\cdot4{,}18\\cdot80\\\\ &=83{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p>83,6 kJ = 83 600 J.</p>\\[\\begin{aligned}&P=\\frac{Q}{t}=\\frac{83600}{105}\\\\ &\\approx796\\,\\mathrm{W}\\end{aligned}\\]<p><strong>Svar:</strong> \\(796\\,\\mathrm{W}\\).</p></div>",
+        "ledtrad": "<p>Beräkna energin som vattnet tar upp och dividera med tiden i sekunder.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Ett nytt glas med 250 g vatten (20 °C) värms i 2 minuter. Hur mycket vatten kokar bort?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En mikrovågsugn värmer 250 g vatten från 20 °C till 100 °C på 1 min 45 s.</p>Ugnens effekt är 796 W.<p>Ett nytt glas med 250 g vatten (20 °C) värms i 2 minuter. Hur mycket vatten kokar bort?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=796\\cdot120\\].</div></div><div class=\"facit-stycke\"><p>Uppvärmning: 83,6 kJ.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q-83\\,600}{2\\,260\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0053\\) kg</p></div>",
-        "ledtrad": "<p>Först uppvärmning till 100 °C.</p>",
+        "fraga": "Hur mycket vatten förångas? Svara i kg. Avrunda till 4 decimaler.",
+        "t": "<p>250 g vatten vid 20 °C värms i en mikrovågsugn. Det tar 1 min 45 s att nå 100 °C. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten har förångats 2,0 minuter efter start? Svara i kg. Avrunda till 4 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter 105 s börjar vattnet koka. Återstående tid är 120 − 105 = 15 s. Effekten som når vattnet fås från uppvärmningen:</p>\\[\\begin{aligned}&P=\\frac{0{,}25\\cdot4180\\cdot80}{105}\\\\ &\\approx796\\,\\mathrm{W}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm förånga}=\\frac{83600}{105}\\cdot15\\\\ &\\approx1{,}19\\cdot10^{4}\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{\\frac{83600}{105}\\cdot15}{2260000}\\\\ &\\approx0{,}0053\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0053\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Ta bort energin för uppvärmningen till 100 °C innan du räknar förångningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Samma effekt i båda försöken.</p>",
+    "ledtrad": "<p>Beräkna effekten under uppvärmningen. Vid 100 °C går energin till förångningen.</p>",
     "traningsniva": 3,
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
     "arbetsinsats": 2,
@@ -113900,49 +114062,49 @@ window.BANK = [
     "niva": "E",
     "typ": "is till varmt vatten",
     "poang": "(1/0/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Hur mycket energi krävs för att omvandla 5,0 kg is (0,0 °C) till vatten med temperaturen 30,0 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=5{,}0(334\\cdot10^3+4\\,180\\cdot30{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\cdot10^{6}\\) J</p></div>",
+    "t": "<p>5,0 kg is vid 0 °C ska smälta. Vattnet värms sedan till 30 °C. Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi behövs totalt? Svara i J. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm smält}=5\\cdot334\\\\ &=1670\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm vatten}=5\\cdot4{,}18\\cdot30\\\\ &=627\\,\\mathrm{kJ}\\end{aligned}\\]<p>Summera energierna och omvandla kJ till J.</p>\\[\\begin{aligned}&Q_{\\rm tot}=(1670+627)\\cdot1000\\\\ &=2297000\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(2300000\\,\\mathrm{J}\\).</p></div>",
     "id": "7.199",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 2297000.0,
-    "tolerans": 51000.0,
+    "tolerans": 5000.0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Smältning plus uppvärmning.</p>",
+    "ledtrad": "<p>Smält isen först och värm sedan vattnet.</p>",
     "traningsniva": 2,
     "svarEnhet": "J",
     "familjNyckel": "fasandring__latent_varme",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "vatten fryser delvis",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Man bortför 0,10 MJ från 0,60 kg vatten (20 °C). Hur mycket vatten fryser?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kylning till 0 °C: \\(0{,}60\\cdot4\\,180\\cdot20=50{,}2\\) kJ.</p></div><div class=\"facit-stycke\"><p>\\(m=\\dfrac{100-50{,}2}{334}\\) kg.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}15\\) kg</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>0,600 kg vatten vid 20 °C kyls genom att 100 kJ förs bort. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket vatten fryser? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet behöver först svalna till 0 °C:</p>\\[\\begin{aligned}&Q_{\\rm kyl}=mc\\Delta T=0{,}6\\cdot4{,}18\\cdot20\\\\ &=50{,}16\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm frys}=100-50{,}16\\\\ &=49{,}84\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm is}=\\frac{Q_{\\rm frys}}{L_f}=\\frac{49{,}84}{334}\\\\ &\\approx0{,}149\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}149\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.200",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.14922155688622754,
-    "tolerans": 0.0051,
+    "rättSvar": 0.14922155688622757,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Först kylning till 0 °C.</p>",
+    "ledtrad": "<p>Bara den energi som förs bort efter att vattnet nått 0 °C kan orsaka frysning.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__latent_varme",
@@ -113955,21 +114117,21 @@ window.BANK = [
     "niva": "C",
     "typ": "skridskoåkare smälter is",
     "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. Pelle (64 kg) glider på skridskor med farten 7,5 m/s och stannar av friktion. 50 % av friktionsvärmen smälter is vid 0 °C. Hur mycket is smälter?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{0{,}50\\cdot\\tfrac12\\cdot64\\cdot7{,}5^2}{334\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0027\\) kg</p></div>",
+    "t": "<p>En skridskoåkare på 64 kg glider med farten 7,5 m/s och stannar. Hälften av rörelseenergin smälter is vid 0 °C. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket is smälter? Svara i kg. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&E_k=\\frac{mv^2}{2}=\\frac{64\\cdot7{,}5^{2}}{2}\\\\ &=1800\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&Q=0{,}5\\cdot1800\\\\ &=900\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm is}=\\frac{Q}{L_f}=\\frac{900}{334000}\\\\ &\\approx0{,}00269\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}00269\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.201",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 0.002694610778443114,
-    "tolerans": 5.1e-05,
+    "tolerans": 5e-06,
     "självrättning": true,
     "formaga": [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rörelseenergin blir värme.</p>",
+    "ledtrad": "<p>Beräkna rörelseenergin. Hälften av den går till att smälta is.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -113982,22 +114144,22 @@ window.BANK = [
     "niva": "C",
     "typ": "solljus smälter isskiva",
     "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. En isskiva (0 °C) har arean 56 cm², tjockleken 2,0 mm och densiteten 917 kg/m³. Solljus med intensiteten 700 W/m² träffar ytan. Efter hur många sekunder har isen smält?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=56\\cdot10^{-4}\\cdot2{,}0\\cdot10^{-3}\\cdot917\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=700\\cdot56\\cdot10^{-4}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{m\\cdot334\\cdot10^3}{P}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(875\\) s</p></div>",
+    "t": "<p>En isskiva vid 0 °C har arean 56 cm² och tjockleken 2,0 mm. Isens densitet är 917 kg/m³. Isen tar upp solenergi med effekten 700 W per kvadratmeter. Isens smältvärme är 334 kJ/kg.</p><p>Hur lång tid tar det för hela isskivan att smälta? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>56 cm² = 0,0056 m² och 2,0 mm = 0,0020 m. Volymen och massan är:</p>\\[\\begin{aligned}&V=0{,}0056\\cdot0{,}002\\\\ &=1{,}12\\cdot10^{-5}\\,\\mathrm{m^3}\\end{aligned}\\]\\[\\begin{aligned}&m=\\rho V=0{,}0056\\cdot0{,}002\\cdot917\\\\ &=0{,}0102704\\,\\mathrm{kg}\\end{aligned}\\]\\[\\begin{aligned}&Q=mL_f=0{,}0102704\\cdot334000\\\\ &=3430{,}3136\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&P=700\\cdot0{,}0056\\\\ &=3{,}92\\,\\mathrm{W}\\end{aligned}\\]\\[\\begin{aligned}&t=\\frac{Q}{P}=\\frac{3430{,}3136}{3{,}92}\\\\ &=875{,}08\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(875\\,\\mathrm{s}\\).</p></div>",
     "id": "7.202",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 875.0799999999999,
-    "tolerans": 13.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Massa och effekt först.</p>",
+    "ledtrad": "<p>Bestäm isens massa från volymen och effekten från arean.</p>",
     "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114007,25 +114169,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "vattenkar skyddar bananer",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. En jordkällare förlorar värme med effekten 1,2 kW. Ett kar med 50 kg vatten (10 °C) ställs in. Hur många timmar längre dröjer det innan källaren kyls under 0 °C, om vattnet först måste svalna och frysa helt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=50(4\\,180\\cdot10+334\\cdot10^3)\\],</div></div><div class=\"facit-stycke\"><p>\\(t=\\dfrac{Q}{1\\,200}\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\) h</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>50 kg vatten vid 10 °C avger energi med effekten 1,2 kW när det svalnar och fryser i en jordkällare. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur lång tid tar det tills allt vatten är is vid 0 °C? Svara i h. Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet avger energi när det svalnar till 0 °C och när det fryser:</p>\\[\\begin{aligned}&Q_{\\rm kyl}=50\\cdot4{,}18\\cdot10\\\\ &=2090\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm frys}=50\\cdot334\\\\ &=16700\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=2090+16700\\\\ &=18790\\,\\mathrm{kJ}\\end{aligned}\\]<p>18 790 kJ = 18 790 000 J och 1,2 kW = 1200 W. Dividera tiden i sekunder med 3600 för att få timmar.</p>\\[\\begin{aligned}&t=\\frac{\\frac{18790000}{1200}}{3600}\\\\ &\\approx4{,}35\\,\\mathrm{h}\\end{aligned}\\]<p><strong>Svar:</strong> \\(4{,}35\\,\\mathrm{h}\\).</p></div>",
     "id": "7.203",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 4.349537037037037,
-    "tolerans": 0.0652,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "modellering",
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vattnet avger värme när det svalnar och fryser.</p>",
+    "ledtrad": "<p>Lägg ihop energin från avsvalningen och frysningen. Använd t = Q/P.</p>",
     "traningsniva": 3,
     "svarEnhet": "h",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114035,25 +114197,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "is kyler feberpatient",
-    "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. Hur mycket is (0 °C) smälter när kroppstemperaturen hos en patient (60 kg, 3,5 kJ/(kg·K)) sänks från 40 °C till 39 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{60\\cdot3\\,500\\cdot1}{334\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}63\\) kg</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En person på 60 kg kyls från 40 °C till 39 °C med is vid 0 °C. Räkna med att all energi som kroppen avger smälter is. Kroppens specifika värmekapacitet är 3,5 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket is smälter? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen sänks 1 K. Kroppen avger:</p>\\[\\begin{aligned}&Q=mc\\Delta T=60\\cdot3{,}5\\cdot1\\\\ &=210\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm is}=\\frac{Q}{L_f}=\\frac{210}{334}\\\\ &\\approx0{,}629\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}629\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.204",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 0.6287425149700598,
-    "tolerans": 0.00943,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "ledtrad": "<p>Beräkna energin från kroppens nedkylning och använd den för smältningen.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114066,21 +114228,21 @@ window.BANK = [
     "niva": "C",
     "typ": "blykula i isblock",
     "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. En blykula (55 g) skjuts med farten 250 m/s in i ett isblock (0 °C) och fastnar. Hur mycket is smälter om kulans temperatur inte ändras?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{\\tfrac12\\cdot0{,}055\\cdot250^2}{334\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0051\\) kg</p></div>",
+    "t": "<p>En kula på 55 g träffar ett isblock vid 0 °C med farten 250 m/s och fastnar. All rörelseenergi går till att smälta is. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket is smälter? Svara i kg. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>55 g = 0,055 kg.</p>\\[\\begin{aligned}&Q=E_k=\\frac{0{,}055\\cdot250^{2}}{2}\\\\ &=1718{,}75\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm is}=\\frac{Q}{L_f}=\\frac{1718{,}75}{334000}\\\\ &\\approx0{,}00515\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}00515\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.205",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 0.005145958083832335,
-    "tolerans": 7.72e-05,
+    "tolerans": 5e-06,
     "självrättning": true,
     "formaga": [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rörelseenergin smälter isen.</p>",
+    "ledtrad": "<p>Använd rörelseenergin som smältenergi.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114093,26 +114255,26 @@ window.BANK = [
     "niva": "C",
     "typ": "smält blykula",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: bly 0,13 kJ/(kg·K).</p><p>En blykula (20 °C) har helt smält när den träffar en dörrkarm. Bly smälter vid 327 °C med smältvärmet 23 kJ/kg. Vilken fart hade kulan minst, om all rörelseenergi blev värme i kulan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tfrac12v^2=130\\cdot307+23\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(355\\) m/s</p></div>",
+    "t": "<p>En blykula vid 20 °C träffar en dörrkarm och smälter helt. All rörelseenergi går till att värma och smälta kulan. Blyets specifika värmekapacitet är 0,13 kJ/(kg·K), smältpunkten 327 °C och smältvärmet 23 kJ/kg.</p><p>Vilken fart hade kulan minst? Svara i m/s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kulan värms 327 − 20 = 307 K. Energin per kilogram är:</p>\\[\\begin{aligned}&\\frac{Q}{m}=130\\cdot307+23000\\\\ &=62910\\,\\mathrm{J/kg}\\end{aligned}\\]<p>Rörelseenergin är mv²/2. Massan förkortas bort, så v²/2 = 62 910 J/kg.</p>\\[\\begin{aligned}&v=\\sqrt{2\\cdot62910}\\\\ &\\approx355\\,\\mathrm{m/s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(355\\,\\mathrm{m/s}\\).</p></div>",
     "id": "7.206",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 354.71115009257886,
-    "tolerans": 5.32,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "modellering",
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna per kilogram.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Jämför rörelseenergin med energin för både uppvärmning och smältning.</p>",
+    "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -114121,21 +114283,21 @@ window.BANK = [
     "niva": "C",
     "typ": "isbit som smälter vid nedslag",
     "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. Från vilken höjd måste en isbit (0 °C) släppas för att den ska smälta helt vid nedslaget, om all lägesenergi blir värme i isbiten? Använd \\(g=9{,}82\\) m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[gh=334\\cdot10^3\\iff h=\\dfrac{334\\cdot10^3}{9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\,012\\) m</p></div>",
+    "t": "<p>En isbit vid 0 °C släpps från en höjd. All lägesenergi går till att smälta isbiten vid nedslaget. Isens smältvärme är 334 kJ/kg. Använd g = 9,82 m/s².</p><p>Från vilken höjd behöver den släppas för att smälta helt? Svara i m. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin mgh behöver vara lika stor som smältenergin mL_f. Förkorta bort m:</p>\\[gh=L_f\\]<p>334 kJ/kg = 334 000 J/kg.</p>\\[\\begin{aligned}&h=\\frac{L_f}{g}=\\frac{334000}{9{,}82}\\\\ &\\approx34000\\,\\mathrm{m}\\end{aligned}\\]<p><strong>Svar:</strong> \\(34000\\,\\mathrm{m}\\).</p></div>",
     "id": "7.207",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 34012.219959266804,
-    "tolerans": 510.0,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna per kilogram.</p>",
+    "ledtrad": "<p>Sätt mgh = mL_f och förkorta bort massan.</p>",
     "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114145,24 +114307,24 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "A",
+    "niva": "C",
     "typ": "tid för att koka bort vatten",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. Vatten (0 °C) börjar koka efter 2,0 min på en spisplatta. Hur lång tid tar det därefter att koka bort allt vatten? Anta konstant effekt och bortse från kastrullen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{t}{120}=\\dfrac{2\\,260\\cdot10^3}{4\\,180\\cdot100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(649\\) s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Vatten vid 0 °C börjar koka efter 2,0 minuter på en spisplatta. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur lång tid tar det därefter att koka bort allt vatten? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Att värma 1 kg vatten 100 K kräver 4,18 · 100 = 418 kJ. Att förånga 1 kg kräver 2260 kJ. Med samma effekt är tiderna i samma förhållande som energierna. Massan behöver inte vara känd:</p>\\[\\frac{t_{\\rm förånga}}{t_{\\rm värm}}=\\frac{2260}{418}\\]<p>Uppvärmningstiden är 2,0 min = 120 s.</p>\\[\\begin{aligned}&t_{\\rm förånga}=\\frac{120\\cdot2260}{418}\\\\ &\\approx649\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(649\\,\\mathrm{s}\\).</p></div>",
     "id": "7.208",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 648.8038277511962,
-    "tolerans": 9.73,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför energierna per kilogram.</p>",
+    "ledtrad": "<p>Vid samma effekt är tiden proportionell mot energibehovet. Jämför energierna per kilogram.</p>",
     "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114172,11 +114334,11 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "vatten fryser i kylskåp",
-    "poang": "(0/2/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p><ol type=\"a\"><li>Hur många sekunder tar det innan allt vatten blivit is vid 0 °C (plastmugg, bortse från muggen)?</li><li>Vattnet står i stället i ett kopparkärl (0,2 kg). Hur många sekunder tar det nu?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{0{,}2(4\\,180\\cdot16+334\\cdot10^3)}{100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(802\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lägg till \\(0{,}2\\cdot385\\cdot16\\) J.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(814\\) s</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>0,200 kg vatten vid 16 °C kyls med effekten 0,100 kW tills allt vatten är is vid 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Kopparns specifika värmekapacitet är 0,385 kJ/(kg·K).</p><p><strong>a)</strong> Hur lång tid tar det? Bortse från kärlet. Svara i s. Svara med ett heltal.</p><p><strong>b)</strong> Vattnet står i stället i ett kopparkärl på 0,200 kg vid 16 °C. Hur lång tid tar kylningen och frysningen? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}2\\cdot4{,}18\\cdot16\\\\ &=13{,}376\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm frys}=0{,}2\\cdot334\\\\ &=66{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=13{,}376+66{,}8\\\\ &=80{,}176\\,\\mathrm{kJ}\\end{aligned}\\]<p>Kylskåpet för bort 0,1 kW = 100 W.</p>\\[\\begin{aligned}&t=\\frac{80176}{100}\\\\ &=801{,}76\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(802\\,\\mathrm{s}\\).</p><p><strong>b)</strong></p><p>Vattnet avger samma energi som i a).</p>\\[\\begin{aligned}&Q_{\\rm koppar}=0{,}2\\cdot0{,}385\\cdot16\\\\ &=1{,}232\\,\\mathrm{kJ}\\end{aligned}\\]<p>Kopparkärlet börjar också vid 16 °C och behöver svalna till 0 °C. Lägg dess energi till vattnets 80,176 kJ.</p>\\[\\begin{aligned}&Q_{\\rm tot}=80{,}176+1{,}232\\\\ &=81{,}408\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&t=\\frac{81408}{100}\\\\ &=814{,}08\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(814\\,\\mathrm{s}\\).</p></div>",
     "id": "7.209",
     "miniräknare": true,
     "geogebra": false,
@@ -114187,8 +114349,8 @@ window.BANK = [
       814.08
     ],
     "tolerans": [
-      12.0,
-      12.2
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -114209,27 +114371,27 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p>",
+    "spelIntro": "<p>0,200 kg vatten vid 16 °C kyls med effekten 0,100 kW tills allt vatten är is vid 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Kopparns specifika värmekapacitet är 0,385 kJ/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många sekunder tar det innan allt vatten blivit is vid 0 °C (plastmugg, bortse från muggen)?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p><p>Hur många sekunder tar det innan allt vatten blivit is vid 0 °C (plastmugg, bortse från muggen)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{0{,}2(4\\,180\\cdot16+334\\cdot10^3)}{100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(802\\) s</p></div>",
-        "ledtrad": "<p>Kylning och frysning.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur lång tid tar det? Bortse från kärlet. Svara i s. Svara med ett heltal.",
+        "t": "<p>0,200 kg vatten vid 16 °C kyls med effekten 0,100 kW tills allt vatten är is vid 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur lång tid tar det? Bortse från kärlet. Svara i s. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}2\\cdot4{,}18\\cdot16\\\\ &=13{,}376\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm frys}=0{,}2\\cdot334\\\\ &=66{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=13{,}376+66{,}8\\\\ &=80{,}176\\,\\mathrm{kJ}\\end{aligned}\\]<p>Kylskåpet för bort 0,1 kW = 100 W.</p>\\[\\begin{aligned}&t=\\frac{80176}{100}\\\\ &=801{,}76\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(802\\,\\mathrm{s}\\).</p></div>",
+        "ledtrad": "<p>Vattnet behöver både svalna och frysa. Använd sedan t = Q/P.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vattnet står i stället i ett kopparkärl (0,2 kg). Hur många sekunder tar det nu?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 0,2 kg vatten (16 °C) står i ett kylskåp som bortför värme med 0,1 kW.</p>Utan kärl tar det 802 s.<p>Vattnet står i stället i ett kopparkärl (0,2 kg). Hur många sekunder tar det nu?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lägg till \\(0{,}2\\cdot385\\cdot16\\) J.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(814\\) s</p></div>",
-        "ledtrad": "<p>Kärlet måste också kylas.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur lång tid tar kylningen och frysningen? Svara i s. Svara med ett heltal.",
+        "t": "<p>0,200 kg vatten vid 16 °C finns i ett kopparkärl på 0,200 kg vid samma temperatur. Vattnet ska bli is vid 0 °C. För detta avger vattnet 80,176 kJ. Kopparns specifika värmekapacitet är 0,385 kJ/(kg·K). Kylskåpet för bort 0,100 kW.</p><p>Hur lång tid tar kylningen och frysningen? Svara i s. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm koppar}=0{,}2\\cdot0{,}385\\cdot16\\\\ &=1{,}232\\,\\mathrm{kJ}\\end{aligned}\\]<p>Kopparkärlet börjar också vid 16 °C och behöver svalna till 0 °C. Lägg dess energi till vattnets 80,176 kJ.</p>\\[\\begin{aligned}&Q_{\\rm tot}=80{,}176+1{,}232\\\\ &=81{,}408\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&t=\\frac{81408}{100}\\\\ &=814{,}08\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(814\\,\\mathrm{s}\\).</p></div>",
+        "ledtrad": "<p>Kopparkärlet avger också energi när det svalnar till 0 °C.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -114243,25 +114405,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "doppvärmare kokar bort vatten",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. 2,0 liter vatten (20 °C) tillförs 1,0 MJ. Hur mycket vatten förångas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Uppvärmning: \\(2{,}0\\cdot4\\,180\\cdot80=0{,}669\\) MJ.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{1{,}0\\cdot10^6-0{,}669\\cdot10^6}{2\\,260\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}15\\) kg</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>2,0 liter vatten vid 20 °C tillförs 1,0 MJ. Räkna med att 1 liter vatten har massan 1 kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten förångas? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet behöver först värmas 80 K till 100 °C:</p>\\[\\begin{aligned}&Q_{\\rm värm}=mc\\Delta T=2\\cdot4{,}18\\cdot80\\\\ &=668{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm förånga}=1000-668{,}8\\\\ &=331{,}2\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{Q_{\\rm förånga}}{L_v}=\\frac{331{,}2}{2260}\\\\ &\\approx0{,}147\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}147\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.210",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 0.1465486725663717,
-    "tolerans": 0.0051,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Först till kokpunkten.</p>",
+    "ledtrad": "<p>Värm först vattnet till 100 °C. Resten av energin förångar en del av vattnet.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__latent_varme",
@@ -114271,25 +114433,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "is på en sjö",
-    "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. En sjö (2,2 km²) har is som i snitt är 12 cm tjock. Isens densitet är 917 kg/m³. Hur mycket energi krävs för att smälta isen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=2{,}2\\cdot10^6\\cdot0{,}12\\cdot917\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=m\\cdot334\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}1\\cdot10^{13}\\) J</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En sjö med arean 2,2 km² täcks av 12 cm tjock is vid 0 °C. Isens densitet är 917 kg/m³. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs för att smälta isen? Svara i J. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>2,2 km² = 2 200 000 m² och 12 cm = 0,12 m.</p>\\[\\begin{aligned}&V=2200000\\cdot0{,}12\\\\ &=264000\\,\\mathrm{m^3}\\end{aligned}\\]\\[\\begin{aligned}&m=\\rho V=264000\\cdot917\\\\ &=242088000\\,\\mathrm{kg}\\end{aligned}\\]\\[\\begin{aligned}&Q=mL_f=242088000\\cdot334000\\\\ &=8{,}0857392\\cdot10^{13}\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(8{,}09\\cdot10^{13}\\,\\mathrm{J}\\).</p></div>",
     "id": "7.211",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Latent värme",
     "svarstyp": "numeriskt",
     "rättSvar": 80857392000000.0,
-    "tolerans": 1210000000000.0,
+    "tolerans": 50000000000.0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm isens massa.</p>",
+    "ledtrad": "<p>Beräkna isens volym och massa innan du räknar smältenergin.</p>",
     "traningsniva": 3,
     "svarEnhet": "J",
     "familjNyckel": "fasandring__latent_varme",
@@ -114299,26 +114461,26 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "A",
+    "niva": "C",
     "typ": "bortglömd kastrull",
-    "poang": "(0/1/2)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En kastrull med 1,2 kg vatten (15 °C) står på en spisplatta. Efter 2,0 minuter är vattnet 30 °C. Efter totalt 20 minuter kommer Kalle tillbaka. Hur mycket vatten finns kvar? Anta konstant nyttig effekt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nyttig effekt: \\(\\dfrac{1{,}2\\cdot4\\,180\\cdot15}{120}=627\\) W.</p></div><div class=\"facit-stycke\"><p>Energi på 20 min: \\(627\\cdot1\\,200\\).</p></div><div class=\"facit-stycke\"><p>Uppvärmning till 100 °C: \\(1{,}2\\cdot4\\,180\\cdot85\\).</p></div><div class=\"facit-stycke\"><p>Resten förångar vatten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) kg</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En kastrull innehåller 1,2 kg vatten vid 15 °C. Efter 2,0 minuter är vattnet 30 °C. Vattnet tar upp energi med samma effekt under hela uppvärmningen och kokningen. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten finns kvar 20 minuter efter start? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturen ökar 15 K på 120 s. Effekten som når vattnet är:</p>\\[\\begin{aligned}&P=\\frac{1{,}2\\cdot4180\\cdot15}{120}\\\\ &=627\\,\\mathrm{W}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tillförd}=627\\cdot1200\\\\ &=752400\\,\\mathrm{J}\\end{aligned}\\]<p>752 400 J = 752,4 kJ.</p>\\[\\begin{aligned}&Q_{\\rm till\\ 100}=1{,}2\\cdot4{,}18\\cdot85\\\\ &=426{,}36\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm förånga}=752{,}4-426{,}36\\\\ &=326{,}04\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{326{,}04}{2260}\\\\ &\\approx0{,}144\\,\\mathrm{kg}\\end{aligned}\\]<p>Subtrahera den förångade massan från 1,2 kg utan att avrunda mellanresultatet.</p>\\[\\begin{aligned}&m_{\\rm kvar}=1{,}2-\\frac{326{,}04}{2260}\\\\ &\\approx1{,}056\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}056\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.212",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.0557345132743363,
-    "tolerans": 0.051,
+    "rättSvar": 1.055734513274336,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm den nyttiga effekten först.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Bestäm effekten från de första två minuterna. Dra sedan bort energin för uppvärmningen till 100 °C.</p>",
+    "traningsniva": 4,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
     "arbetsinsats": 3,
@@ -114327,25 +114489,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "tina bär i mikrovågsugn",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Frysta bär (750 g, −15 °C, som is) tinas i en mikrovågsugn med effekten 400 W och verkningsgraden 80 %. Hur många sekunder tar det att precis tina bären?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}750(2\\,200\\cdot15+334\\cdot10^3)\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{Q}{0{,}80\\cdot400}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(860\\) s</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>750 g frysta bär vid −15 °C tinas i en mikrovågsugn på 400 W med verkningsgraden 80 %. Räkna bären som is. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur lång tid tar det att precis tina bären? Svara i s. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>750 g = 0,750 kg. Bären värms till 0 °C och smälter:</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}75\\cdot2{,}2\\cdot15\\\\ &=24{,}75\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}75\\cdot334\\\\ &=250{,}5\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=24{,}75+250{,}5\\\\ &=275{,}25\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&P_{\\rm bär}=0{,}8\\cdot400\\\\ &=320\\,\\mathrm{W}\\end{aligned}\\]\\[\\begin{aligned}&t=\\frac{Q_{\\rm tot}}{P_{\\rm bär}}=\\frac{275250}{320}\\\\ &=860{,}15625\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(860\\,\\mathrm{s}\\).</p></div>",
     "id": "7.213",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 860.15625,
-    "tolerans": 12.9,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Uppvärmning till 0 °C och smältning.</p>",
+    "ledtrad": "<p>Värm bären till 0 °C och tina dem. Använd sedan t = Q/P med effekten som når bären.</p>",
     "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114358,21 +114520,21 @@ window.BANK = [
     "niva": "C",
     "typ": "isblock dras över grus",
     "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. Ett isblock (3,0 kg, 0 °C) dras 15 m över ett vågrätt underlag med friktionstalet 0,55. Hur mycket is smälter om all friktionsvärme går till isen? Använd \\(g=9{,}82\\) m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}55\\cdot3{,}0\\cdot9{,}82\\cdot15\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q}{334\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00073\\) kg</p></div>",
+    "t": "<p>Ett isblock på 3,0 kg vid 0 °C dras 15 m över ett vågrätt underlag. Friktionstalet är 0,55. All friktionsvärme går till att smälta is. Isens smältvärme är 334 kJ/kg. Använd g = 9,82 m/s².</p><p>Hur mycket is smälter? Svara i kg. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Friktionskraften är μmg. Arbetet längs 15 m blir värme:</p>\\[\\begin{aligned}&Q=\\mu mgs=0{,}55\\cdot3\\cdot9{,}82\\cdot15\\\\ &=243{,}045\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm smält}=\\frac{Q}{L_f}=\\frac{243{,}045}{334000}\\\\ &\\approx0{,}000728\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}000728\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.214",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 0.000727679640718563,
-    "tolerans": 1.09e-05,
+    "tolerans": 5e-07,
     "självrättning": true,
     "formaga": [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Friktionsarbete \\(=\\mu mgs\\).</p>",
+    "ledtrad": "<p>Beräkna friktionsarbetet och använd det som smältenergi.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114385,22 +114547,22 @@ window.BANK = [
     "niva": "C",
     "typ": "vårsol smälter sjöis",
     "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. Snöfri sjöis (0 °C, densitet 917 kg/m³) får nettoinstrålningen 300 W/m² i 6 h. Hur tjockt lager smälter?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Per m²: \\(Q=300\\cdot6\\cdot3\\,600\\).</p></div><div class=\"facit-stycke\"><p>Tjocklek: \\(\\dfrac{Q}{334\\cdot10^3\\cdot917}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}021\\) m</p></div>",
+    "t": "<p>Sjöis vid 0 °C tar upp solenergi med effekten 300 W per kvadratmeter i 6,0 timmar. Isens densitet är 917 kg/m³. Isens smältvärme är 334 kJ/kg.</p><p>Hur tjockt islager smälter? Svara i m. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna på 1 m² is. 6,0 h = 21 600 s. Energin som tas upp är:</p>\\[\\begin{aligned}&Q=Pt=300\\cdot21600\\\\ &=6480000\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{Q}{L_f}=\\frac{6480000}{334000}\\\\ &\\approx19{,}4\\,\\mathrm{kg}\\end{aligned}\\]<p>För 1 m² är volymen V = h · 1 m². Sambandet m = ρV ger tjockleken:</p>\\[\\begin{aligned}&h=\\frac{m}{\\rho\\cdot1\\,\\mathrm{m^2}}=\\frac{\\frac{6480000}{334000}}{917}\\\\ &\\approx0{,}021\\,\\mathrm{m}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}021\\,\\mathrm{m}\\).</p></div>",
     "id": "7.215",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 0.02115724929639086,
-    "tolerans": 0.00051,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "modellering",
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna per kvadratmeter.</p>",
+    "ledtrad": "<p>Välj 1 m² is. Beräkna energin, den smälta massan och sedan tjockleken.</p>",
     "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114410,25 +114572,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "C",
+    "niva": "E",
     "typ": "aluminiumkulor i isblock",
-    "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: aluminium 0,90 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. 400 g aluminiumkulor (30 °C) läggs i ett hål i ett stort isblock (0 °C). Hur mycket is smälter?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{0{,}400\\cdot900\\cdot30}{334\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}032\\) kg</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>400 g aluminiumkulor vid 30 °C läggs i ett stort isblock vid 0 °C. Aluminiumets specifika värmekapacitet är 0,90 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. All energi som kulorna avger smälter is.</p><p>Hur mycket is smälter? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>400 g = 0,400 kg. Kulorna svalnar till 0 °C:</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}4\\cdot0{,}9\\cdot30\\\\ &=10{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm is}=\\frac{Q}{L_f}=\\frac{10{,}8}{334}\\\\ &\\approx0{,}032\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}032\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.216",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 0.032335329341317366,
-    "tolerans": 0.00051,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "ledtrad": "<p>Aluminiumet avger energi när det svalnar till 0 °C.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114441,21 +114603,21 @@ window.BANK = [
     "niva": "C",
     "typ": "tennisboll studsar på is",
     "poang": "(0/1/0)",
-    "t": "<p>Smältvärme för is 334 kJ/kg. En tennisboll (60 g) släpps från 2,0 m mot is (0 °C) och studsar upp till 1,8 m. Hur mycket is smälter om all förlorad energi smälter is? Använd \\(g=9{,}82\\) m/s².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}060\\cdot9{,}82\\cdot0{,}2\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q}{334\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\cdot10^{-7}\\) kg</p></div>",
+    "t": "<p>En tennisboll på 60 g släpps från 2,0 m mot is vid 0 °C och studsar upp till 1,8 m. All förlorad energi går till att smälta is. Isens smältvärme är 334 kJ/kg. Använd g = 9,82 m/s².</p><p>Hur mycket is smälter? Svara i kg. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>60 g = 0,060 kg. Skillnaden i höjd är 2,0 − 1,8 = 0,2 m. Den förlorade lägesenergin blir:</p>\\[\\begin{aligned}&Q=mg\\Delta h=0{,}06\\cdot9{,}82\\cdot0{,}2\\\\ &=0{,}11784\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm is}=\\frac{Q}{L_f}=\\frac{0{,}11784}{334000}\\\\ &\\approx3{,}53\\cdot10^{-7}\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}53\\cdot10^{-7}\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.217",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.52814371257485e-07,
-    "tolerans": 5.29e-09,
+    "rättSvar": 3.528143712574849e-07,
+    "tolerans": 5e-10,
     "självrättning": true,
     "formaga": [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Förlorad lägesenergi.</p>",
+    "ledtrad": "<p>Det är skillnaden mellan lägesenergin före och efter studsen som smälter is.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114465,25 +114627,25 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "A",
+    "niva": "C",
     "typ": "is i vatten",
-    "poang": "(0/3/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><ol type=\"a\"><li>En isbit (100 g, 0 °C) läggs i 664 g vatten (20 °C). Bestäm jämviktstemperaturen.</li><li>Hur mycket vatten (10 °C) krävs för att precis smälta 40 g is (0 °C)?</li><li>200 g vatten (20 °C) och 100 g is (0 °C) blandas. Hur mycket is smälter?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}100\\cdot334\\cdot10^3+0{,}100\\cdot4\\,180\\,T=0{,}664\\cdot4\\,180(20-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}9\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot4\\,180\\cdot10=0{,}040\\cdot334\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}32\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vattnet kan avge \\(0{,}200\\cdot4\\,180\\cdot20=16{,}7\\) kJ, vilket smälter \\(\\dfrac{16{,}7}{334}\\) kg.</p></div><div class=\"facit-stycke\"><p>Sluttemperaturen blir 0 °C.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}050\\) kg</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>Räkna på följande blandningar. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p><strong>a)</strong></p><p>100 g is vid 0 °C läggs i 664 g vatten vid 20 °C. </p><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong></p><p>40 g is vid 0 °C ska precis smältas av vatten vid 10 °C. </p><p>Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.</p><p><strong>c)</strong></p><p>200 g vatten vid 20 °C blandas med 100 g is vid 0 °C. </p><p>Hur mycket is smälter? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}664\\cdot4{,}18\\cdot20\\\\ &=55{,}5104\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}1\\cdot334\\\\ &=33{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,764 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=55{,}5104-33{,}4\\\\ &=22{,}1104\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{22{,}1104}{0{,}764\\cdot4{,}18}\\approx6{,}9\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(6{,}9\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong></p><p>40 g = 0,040 kg. Isen behöver:</p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}04\\cdot334\\\\ &=13{,}36\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet svalnar 10 K till 0 °C. Dess massa fås ur mcΔT = Q:</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{13{,}36}{4{,}18\\cdot10}\\\\ &\\approx0{,}320\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}320\\,\\mathrm{kg}\\).</p><p><strong>c)</strong></p><p>Vattnet kan avge:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}2\\cdot4{,}18\\cdot20\\\\ &=16{,}72\\,\\mathrm{kJ}\\end{aligned}\\]<p>Det räcker inte för att smälta alla 100 g is (33,4 kJ). Sluttemperaturen blir därför 0 °C.</p>\\[\\begin{aligned}&m_{\\rm smält}=\\frac{16{,}72}{334}\\\\ &\\approx0{,}050\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}050\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.218",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6.923520128259726,
+      6.923520128259725,
       0.3196172248803828,
-      0.05005988023952096
+      0.05005988023952095
     ],
     "tolerans": [
-      0.104,
-      0.0051,
-      0.000751
+      0.05,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -114507,14 +114669,14 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p>",
+    "spelIntro": "<p>Använd vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En isbit (100 g, 0 °C) läggs i 664 g vatten (20 °C). Bestäm jämviktstemperaturen.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><p>En isbit (100 g, 0 °C) läggs i 664 g vatten (20 °C). Bestäm jämviktstemperaturen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}100\\cdot334\\cdot10^3+0{,}100\\cdot4\\,180\\,T=0{,}664\\cdot4\\,180(20-T)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}9\\) °C</p></div>",
-        "ledtrad": "<p>Isen smälter och det smälta vattnet värms.</p>",
+        "fraga": "Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>100 g is vid 0 °C läggs i 664 g vatten vid 20 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}664\\cdot4{,}18\\cdot20\\\\ &=55{,}5104\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}1\\cdot334\\\\ &=33{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,764 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=55{,}5104-33{,}4\\\\ &=22{,}1104\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{22{,}1104}{0{,}764\\cdot4{,}18}\\approx6{,}9\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(6{,}9\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Jämför vattnets energi vid kylning till 0 °C med energin för att värma och smälta all is.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -114522,10 +114684,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket vatten (10 °C) krävs för att precis smälta 40 g is (0 °C)?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><p>Hur mycket vatten (10 °C) krävs för att precis smälta 40 g is (0 °C)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot4\\,180\\cdot10=0{,}040\\cdot334\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}32\\) kg</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.",
+        "t": "<p>40 g is vid 0 °C ska precis smältas av vatten vid 10 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>40 g = 0,040 kg. Isen behöver:</p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}04\\cdot334\\\\ &=13{,}36\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet svalnar 10 K till 0 °C. Dess massa fås ur mcΔT = Q:</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{13{,}36}{4{,}18\\cdot10}\\\\ &\\approx0{,}320\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}320\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Vattnet svalnar till 0 °C och avger smältenergin som isen tar upp.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -114533,12 +114695,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "200 g vatten (20 °C) och 100 g is (0 °C) blandas. Hur mycket is smälter?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg.</p><p>200 g vatten (20 °C) och 100 g is (0 °C) blandas. Hur mycket is smälter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vattnet kan avge \\(0{,}200\\cdot4\\,180\\cdot20=16{,}7\\) kJ, vilket smälter \\(\\dfrac{16{,}7}{334}\\) kg.</p></div><div class=\"facit-stycke\"><p>Sluttemperaturen blir 0 °C.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}050\\) kg</p></div>",
-        "ledtrad": "<p>Räcker vattnets värme till all is?</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Hur mycket is smälter? Svara i kg. Avrunda till 3 decimaler.",
+        "t": "<p>200 g vatten vid 20 °C blandas med 100 g is vid 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket is smälter? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet kan avge:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}2\\cdot4{,}18\\cdot20\\\\ &=16{,}72\\,\\mathrm{kJ}\\end{aligned}\\]<p>Det räcker inte för att smälta alla 100 g is (33,4 kJ). Sluttemperaturen blir därför 0 °C.</p>\\[\\begin{aligned}&m_{\\rm smält}=\\frac{16{,}72}{334}\\\\ &\\approx0{,}050\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}050\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Beräkna energin som vattnet kan avge när det svalnar till 0 °C.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -114555,22 +114717,22 @@ window.BANK = [
     "niva": "C",
     "typ": "kall kopparstav fryser vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: koppar 0,385 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. En kopparstav (250 g, −130 °C) läggs i en blandning av is och vatten vid 0 °C. Hur mycket is bildas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot334\\cdot10^3=0{,}250\\cdot385\\cdot130\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}037\\) kg</p></div>",
+    "t": "<p>En kopparstav på 250 g vid −130 °C läggs i en stor blandning av is och vatten vid 0 °C. Kopparns specifika värmekapacitet är 0,385 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket vatten fryser till is? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>250 g = 0,250 kg. Kopparstaven tar upp energi när den värms 130 K till 0 °C.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}25\\cdot0{,}385\\cdot130\\\\ &=12{,}5125\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet avger denna energi genom att frysa. Därför bildas mer is:</p>\\[\\begin{aligned}&m_{\\rm ny\\ is}=\\frac{Q}{L_f}=\\frac{12{,}5125}{334}\\\\ &\\approx0{,}037\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}037\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.219",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0374625748502994,
-    "tolerans": 0.000562,
+    "rättSvar": 0.037462574850299406,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "ledtrad": "<p>Vatten som fryser avger energin som värmer kopparstaven.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114580,38 +114742,38 @@ window.BANK = [
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "A",
+    "niva": "C",
     "typ": "isbitar i glas med vatten",
-    "poang": "(0/1/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Fyra isbitar (10 g var, −18 °C) läggs i 2,5 dl vatten (18 °C). Bestäm sluttemperaturen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Isen behöver \\(0{,}040(2\\,200\\cdot18+334\\cdot10^3)=14{,}9\\) kJ för att smälta.</p></div><div class=\"facit-stycke\"><p>Sedan: \\(0{,}25\\cdot4\\,180(18-T)=14\\,944+0{,}040\\cdot4\\,180\\,T\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\) °C</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Fyra isbitar på 10 g vardera vid −18 °C läggs i 2,5 dl vatten vid 18 °C. Räkna med att 1 dl vatten har massan 0,100 kg. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Bortse från energi som går till kärlet och omgivningen.</p><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}25\\cdot4{,}18\\cdot18\\\\ &=18{,}81\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}04\\cdot(2{,}2\\cdot18+334)\\\\ &=14{,}944\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,29 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=18{,}81-14{,}944\\\\ &=3{,}866\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{3{,}866}{0{,}290\\cdot4{,}18}\\approx3{,}2\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(3{,}2\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.220",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.189242699224551,
-    "tolerans": 0.051,
+    "rättSvar": 3.1892426992245486,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Smälter all is?</p>",
+    "ledtrad": "<p>Jämför vattnets energi vid kylning till 0 °C med energin för att värma och smälta all is.</p>",
     "traningsniva": 4,
     "svarEnhet": "°C",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 7,
     "omr": "fasandring",
-    "niva": "A",
+    "niva": "C",
     "typ": "vattenånga kondenserar",
-    "poang": "(0/3/1)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><ol type=\"a\"><li>50 g vattenånga (100 °C) leds ner i 5,0 liter vatten (11 °C). Bestäm sluttemperaturen.</li><li>Hur mycket vattenånga (100 °C) krävs för att smälta 0,50 kg is (0 °C)? Allt hamnar på 0 °C.</li><li>Is (0 °C) och ånga (100 °C) blandas och sluttemperaturen blir 50 °C. Bestäm kvoten \\(\\dfrac{m_\\text{is}}{m_\\text{ånga}}\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}050(2\\,260\\cdot10^3+4\\,180(100-T))=5{,}0\\cdot4\\,180(T-11)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m(2\\,260\\cdot10^3+4\\,180\\cdot100)=0{,}50\\cdot334\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}062\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_i(334\\cdot10^3+4\\,180\\cdot50)=m_å(2\\,260\\cdot10^3+4\\,180\\cdot50)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\)</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>Räkna på följande blandningar. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p><strong>a)</strong></p><p>50 g vattenånga vid 100 °C blandas med 5,0 liter vatten vid 11 °C. Räkna med att 1 liter vatten har massan 1 kg. </p><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong></p><p>0,50 kg is vid 0 °C smälts av vattenånga vid 100 °C. Allt får sluttemperaturen 0 °C. </p><p>Hur mycket vattenånga behövs? Svara i kg. Avrunda till 3 decimaler.</p><p><strong>c)</strong></p><p>Is vid 0 °C och vattenånga vid 100 °C blandas. Sluttemperaturen blir 50 °C. </p><p>Hur många gånger större är isens massa än ångans massa? Avrunda till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>50 g ånga = 0,050 kg. 5,0 liter vatten har massan 5,0 kg. Låt sluttemperaturen vara T. Ångan avger energi när den blir vatten och när detta vatten svalnar från 100 °C till T. Det kalla vattnet tar upp samma energi:</p>\\[\\begin{aligned}&0{,}050[2260+4{,}18(100-T)]\\\\ &=5{,}0\\cdot4{,}18(T-11)\\end{aligned}\\]<p>Multiplicera in, samla termerna med T och lös ekvationen:</p>\\[\\begin{aligned}&133{,}9-0{,}209T=20{,}9T-229{,}9\\\\ &21{,}109T=363{,}8\\end{aligned}\\]\\[\\begin{aligned}&T=\\frac{363{,}8}{21{,}109}\\\\ &\\approx17{,}2\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(17{,}2\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}5\\cdot334\\\\ &=167\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram ånga avger 2260 kJ vid kondensation och 4,18 · 100 = 418 kJ när vattnet svalnar till 0 °C. Totalt blir det 2678 kJ/kg.</p>\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{167}{2678}\\\\ &\\approx0{,}062\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}062\\,\\mathrm{kg}\\).</p><p><strong>c)</strong></p><p>Låt massorna av is och ånga vara mᵢ och mₐ. Varje kilogram is tar upp smältenergi och värms sedan till 50 °C. Varje kilogram ånga avger kondensationsenergi och svalnar sedan till 50 °C:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm is}}{m_i}=334+4{,}18\\cdot50\\\\ &=543\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&\\frac{Q_{\\rm ånga}}{m_a}=2260+4{,}18\\cdot50\\\\ &=2469\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p>Energin som avges och tas upp är lika stor: 543mᵢ = 2469mₐ. Dividera med 543mₐ:</p>\\[\\begin{aligned}&\\frac{m_i}{m_a}=\\frac{2469}{543}\\\\ &\\approx4{,}55\\end{aligned}\\]<p><strong>Svar:</strong> \\(4{,}55\\).</p></div>",
     "id": "7.221",
     "miniräknare": true,
     "geogebra": false,
@@ -114623,9 +114785,9 @@ window.BANK = [
       4.54696132596685
     ],
     "tolerans": [
-      0.51,
-      0.000935,
-      0.0682
+      0.05,
+      0.0005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -114646,28 +114808,28 @@ window.BANK = [
     "svarEnhet": [
       "°C",
       "kg",
-      null
+      ""
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p>",
+    "spelIntro": "<p>Räkna med att 1 liter vatten har massan 1 kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "50 g vattenånga (100 °C) leds ner i 5,0 liter vatten (11 °C). Bestäm sluttemperaturen.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><p>50 g vattenånga (100 °C) leds ner i 5,0 liter vatten (11 °C). Bestäm sluttemperaturen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}050(2\\,260\\cdot10^3+4\\,180(100-T))=5{,}0\\cdot4\\,180(T-11)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) °C</p></div>",
-        "ledtrad": "<p>Ångan kondenserar och det bildade vattnet svalnar.</p>",
+        "fraga": "Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>50 g vattenånga vid 100 °C blandas med 5,0 liter vatten vid 11 °C. Räkna med att 1 liter vatten har massan 1 kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>50 g ånga = 0,050 kg. 5,0 liter vatten har massan 5,0 kg. Låt sluttemperaturen vara T. Ångan avger energi när den blir vatten och när detta vatten svalnar från 100 °C till T. Det kalla vattnet tar upp samma energi:</p>\\[\\begin{aligned}&0{,}050[2260+4{,}18(100-T)]\\\\ &=5{,}0\\cdot4{,}18(T-11)\\end{aligned}\\]<p>Multiplicera in, samla termerna med T och lös ekvationen:</p>\\[\\begin{aligned}&133{,}9-0{,}209T=20{,}9T-229{,}9\\\\ &21{,}109T=363{,}8\\end{aligned}\\]\\[\\begin{aligned}&T=\\frac{363{,}8}{21{,}109}\\\\ &\\approx17{,}2\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(17{,}2\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Ångan blir vatten och svalnar. Det kalla vattnet tar upp denna energi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket vattenånga (100 °C) krävs för att smälta 0,50 kg is (0 °C)? Allt hamnar på 0 °C.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><p>Hur mycket vattenånga (100 °C) krävs för att smälta 0,50 kg is (0 °C)? Allt hamnar på 0 °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m(2\\,260\\cdot10^3+4\\,180\\cdot100)=0{,}50\\cdot334\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}062\\) kg</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Hur mycket vattenånga behövs? Svara i kg. Avrunda till 3 decimaler.",
+        "t": "<p>0,50 kg is vid 0 °C smälts av vattenånga vid 100 °C. Allt får sluttemperaturen 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket vattenånga behövs? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm smält}=0{,}5\\cdot334\\\\ &=167\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram ånga avger 2260 kJ vid kondensation och 4,18 · 100 = 418 kJ när vattnet svalnar till 0 °C. Totalt blir det 2678 kJ/kg.</p>\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{167}{2678}\\\\ &\\approx0{,}062\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}062\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Ångan avger energi vid både kondensationen och avsvalningen till 0 °C.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -114675,20 +114837,20 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Is (0 °C) och ånga (100 °C) blandas och sluttemperaturen blir 50 °C. Bestäm kvoten \\(\\dfrac{m_\\text{is}}{m_\\text{ånga}}\\).",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Ångbildningsvärme för vatten 2 260 kJ/kg.</p><p>Is (0 °C) och ånga (100 °C) blandas och sluttemperaturen blir 50 °C. Bestäm kvoten \\(\\dfrac{m_\\text{is}}{m_\\text{ånga}}\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_i(334\\cdot10^3+4\\,180\\cdot50)=m_å(2\\,260\\cdot10^3+4\\,180\\cdot50)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\)</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Hur många gånger större är isens massa än ångans massa? Avrunda till 2 decimaler.",
+        "t": "<p>Is vid 0 °C och vattenånga vid 100 °C blandas. Sluttemperaturen blir 50 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur många gånger större är isens massa än ångans massa? Avrunda till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt massorna av is och ånga vara mᵢ och mₐ. Varje kilogram is tar upp smältenergi och värms sedan till 50 °C. Varje kilogram ånga avger kondensationsenergi och svalnar sedan till 50 °C:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm is}}{m_i}=334+4{,}18\\cdot50\\\\ &=543\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&\\frac{Q_{\\rm ånga}}{m_a}=2260+4{,}18\\cdot50\\\\ &=2469\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p>Energin som avges och tas upp är lika stor: 543mᵢ = 2469mₐ. Dividera med 543mₐ:</p>\\[\\begin{aligned}&\\frac{m_i}{m_a}=\\frac{2469}{543}\\\\ &\\approx4{,}55\\end{aligned}\\]<p><strong>Svar:</strong> \\(4{,}55\\).</p></div>",
+        "ledtrad": "<p>Jämför energin som varje kilogram is tar upp med energin som varje kilogram ånga avger.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -114697,22 +114859,22 @@ window.BANK = [
     "niva": "C",
     "typ": "kylvatten i kondensor",
     "poang": "(0/1/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. 8,0 kg vattenånga (100 °C) per timme kondenseras i en kylare och lämnar den vid 50 °C. Kylvattnet värms från 10 °C till 45 °C. Hur mycket kylvatten krävs per timme?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot4\\,180\\cdot35=8{,}0(2\\,260\\cdot10^3+4\\,180\\cdot50)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(135\\) kg</p></div>",
+    "t": "<p>I en kylare blir 8,0 kg vattenånga vid 100 °C per timme vatten vid 50 °C. Kylvattnet värms från 10 °C till 45 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. All energi från ångan tas upp av kylvattnet.</p><p>Hur mycket kylvatten behövs per timme? Svara i kg. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ångan avger energi vid kondensationen och när vattnet sedan svalnar 50 K:</p>\\[\\begin{aligned}&Q_{\\rm kond}=8\\cdot2260\\\\ &=18080\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=8\\cdot4{,}18\\cdot50\\\\ &=1672\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=18080+1672\\\\ &=19752\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram kylvatten värms 45 − 10 = 35 K och tar upp 4,18 · 35 = 146,3 kJ.</p>\\[\\begin{aligned}&m_{\\rm kylvatten}=\\frac{19752}{146{,}3}\\\\ &\\approx135\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(135\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.222",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "numeriskt",
     "rättSvar": 135.01025290498976,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+    "ledtrad": "<p>Beräkna energin från kondensationen och avsvalningen. Den värmer kylvattnet 35 K.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -114725,20 +114887,20 @@ window.BANK = [
     "niva": "C",
     "typ": "isbitar i termos",
     "poang": "(0/2/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p><ol type=\"a\"><li>Termosen innehåller 200 g vatten (35 °C). Bestäm sluttemperaturen.</li><li>Hur mycket vatten (35 °C) skulle precis smälta isbitarna?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Isen behöver \\(0{,}065(2\\,200\\cdot8+334\\cdot10^3)=22{,}9\\) kJ.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}200\\cdot4\\,180(35-T)=22\\,854+0{,}065\\cdot4\\,180\\,T\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\) °C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot4\\,180\\cdot35=22\\,854\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}16\\) kg</p></li></ol></div>",
+    "t": "<p>65 g is vid −8,0 °C läggs i en termos. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p><strong>a)</strong> Termosen innehåller 200 g vatten vid 35 °C. Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p><p><strong>b)</strong> Hur mycket vatten vid 35 °C behövs för att precis smälta isbitarna? Svara i kg. Avrunda till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}2\\cdot4{,}18\\cdot35\\\\ &=29{,}26\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}065\\cdot(2{,}2\\cdot8+334)\\\\ &=22{,}854\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,265 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=29{,}26-22{,}854\\\\ &=6{,}406\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{6{,}406}{0{,}265\\cdot4{,}18}\\approx5{,}8\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(5{,}8\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong></p><p>65 g = 0,065 kg. Isen behöver både värmas till 0 °C och smälta:</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}065\\cdot(2{,}2\\cdot8+334)\\\\ &=22{,}854\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet svalnar 35 K till 0 °C och avger samma energi.</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{22{,}854}{4{,}18\\cdot35}\\\\ &\\approx0{,}156\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}156\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.223",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energikedjor och värmebalans med fasövergång",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.783154283650807,
-      0.15621326042378675
+      5.783154283650804,
+      0.15621326042378678
     ],
     "tolerans": [
-      0.0867,
-      0.0051
+      0.05,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -114758,25 +114920,25 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p>",
+    "spelIntro": "<p>65 g is vid −8,0 °C läggs i en termos. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Termosen innehåller 200 g vatten (35 °C). Bestäm sluttemperaturen.",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p><p>Termosen innehåller 200 g vatten (35 °C). Bestäm sluttemperaturen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Isen behöver \\(0{,}065(2\\,200\\cdot8+334\\cdot10^3)=22{,}9\\) kJ.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}200\\cdot4\\,180(35-T)=22\\,854+0{,}065\\cdot4\\,180\\,T\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\) °C</p></div>",
-        "ledtrad": "<p>Smälter all is?</p>",
+        "fraga": "Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.",
+        "t": "<p>65 g is vid −8,0 °C blandas med 200 g vatten vid 35 °C. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Vilken blir sluttemperaturen? Svara i °C. Avrunda till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}2\\cdot4{,}18\\cdot35\\\\ &=29{,}26\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}065\\cdot(2{,}2\\cdot8+334)\\\\ &=22{,}854\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,265 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=29{,}26-22{,}854\\\\ &=6{,}406\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{6{,}406}{0{,}265\\cdot4{,}18}\\approx5{,}8\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(5{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "ledtrad": "<p>Jämför vattnets energi vid kylning till 0 °C med energin för att värma och smälta all is.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket vatten (35 °C) skulle precis smälta isbitarna?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), is 2,2 kJ/(kg·K).</p><p>Smältvärme för is 334 kJ/kg. Isbitar (totalt 65 g, −8,0 °C) läggs i en termos.</p><p>Hur mycket vatten (35 °C) skulle precis smälta isbitarna?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\cdot4\\,180\\cdot35=22\\,854\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}16\\) kg</p></div>",
-        "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
+        "fraga": "Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.",
+        "t": "<p>65 g is vid −8,0 °C ska precis smältas av vatten vid 35 °C. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>65 g = 0,065 kg. Isen behöver både värmas till 0 °C och smälta:</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}065\\cdot(2{,}2\\cdot8+334)\\\\ &=22{,}854\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet svalnar 35 K till 0 °C och avger samma energi.</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{22{,}854}{4{,}18\\cdot35}\\\\ &\\approx0{,}156\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}156\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Vattnet svalnar till 0 °C och värmer och smälter isen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -114784,9 +114946,9 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -114795,8 +114957,8 @@ window.BANK = [
     "niva": "C",
     "typ": "smält silver kyls",
     "poang": "(0/2/0)",
-    "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p><ol type=\"a\"><li>Silvret läggs i en balja med vatten som når 20 °C. Hur mycket vatten krävs?</li><li>Vatten sprayas i stället på silvret och förångas vid 100 °C. Hur mycket vatten krävs?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}056(105\\cdot10^3+235\\cdot942)\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q}{4\\,180\\cdot10}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}44\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q}{4\\,180\\cdot90+2\\,260\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0069\\) kg</p></li></ol></div>",
+    "t": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p><strong>a)</strong> Silvret läggs i vatten och svalnar till 20 °C. Vattnet får också temperaturen 20 °C. Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.</p><p><strong>b)</strong> I ett annat försök kyls silvret till 100 °C genom att vatten vid 10 °C värms och förångas vid 100 °C. Hur mycket vatten behöver förångas? Svara i kg. Avrunda till 4 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>56 g = 0,056 kg. Silvret avger energi när det stelnar och svalnar från 962 °C till 20 °C:</p>\\[\\begin{aligned}&Q_{\\rm stelna}=0{,}056\\cdot105\\\\ &=5{,}88\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}056\\cdot0{,}235\\cdot(962-20)\\\\ &=12{,}39672\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=5{,}88+12{,}39672\\\\ &=18{,}27672\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram vatten tar upp 4,18 · (20 − 10) = 41,8 kJ. Vattenmassan blir:</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{18{,}27672}{41{,}8}\\\\ &\\approx0{,}437\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}437\\,\\mathrm{kg}\\).</p><p><strong>b)</strong></p><p>56 g = 0,056 kg. I detta försök svalnar silvret till 100 °C. Det avger energi vid stelningen och avsvalningen:</p>\\[\\begin{aligned}&Q_{\\rm stelna}=0{,}056\\cdot105\\\\ &=5{,}88\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}056\\cdot0{,}235\\cdot(962-100)\\\\ &=11{,}34392\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=5{,}88+11{,}34392\\\\ &=17{,}22392\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram vatten behöver värmas från 10 °C till 100 °C och förångas:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm vatten}}{m}=4{,}18\\cdot90+2260\\\\ &=2636{,}2\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{17{,}22392}{2636{,}2}\\\\ &\\approx0{,}0065\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0065\\,\\mathrm{kg}\\).</p></div>",
     "id": "7.224",
     "miniräknare": true,
     "geogebra": false,
@@ -114804,11 +114966,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.43724210526315793,
-      0.006932979288369623
+      0.006533616569304302
     ],
     "tolerans": [
-      0.00656,
-      0.000104
+      0.0005,
+      5e-05
     ],
     "självrättning": true,
     "formaga": [
@@ -114829,14 +114991,14 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p>",
+    "spelIntro": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Silvret läggs i en balja med vatten som når 20 °C. Hur mycket vatten krävs?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p><p>Silvret läggs i en balja med vatten som når 20 °C. Hur mycket vatten krävs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}056(105\\cdot10^3+235\\cdot942)\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q}{4\\,180\\cdot10}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}44\\) kg</p></div>",
-        "ledtrad": "<p>Stelning plus avsvalning.</p>",
+        "fraga": "Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.",
+        "t": "<p>56 g flytande silver vid 962 °C kyls till 20 °C i vatten som från början är 10 °C. Vattnet får också temperaturen 20 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket vatten behövs? Svara i kg. Avrunda till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>56 g = 0,056 kg. Silvret avger energi när det stelnar och svalnar från 962 °C till 20 °C:</p>\\[\\begin{aligned}&Q_{\\rm stelna}=0{,}056\\cdot105\\\\ &=5{,}88\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}056\\cdot0{,}235\\cdot(962-20)\\\\ &=12{,}39672\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=5{,}88+12{,}39672\\\\ &=18{,}27672\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram vatten tar upp 4,18 · (20 − 10) = 41,8 kJ. Vattenmassan blir:</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{18{,}27672}{41{,}8}\\\\ &\\approx0{,}437\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}437\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Silvret avger energi när det stelnar och svalnar. Den energin värmer vattnet 10 K.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -114844,20 +115006,20 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vatten sprayas i stället på silvret och förångas vid 100 °C. Hur mycket vatten krävs?",
-        "t": "<p>Specifik värmekapacitet: vatten 4,18 kJ/(kg·K), silver 0,235 kJ/(kg·K).</p><p>Ångbildningsvärme för vatten 2 260 kJ/kg. En guldsmed kyler 56 g smält silver från 962 °C (smältpunkten, smältvärme 105 kJ/kg) till 20 °C med vatten (10 °C).</p><p>Vatten sprayas i stället på silvret och förångas vid 100 °C. Hur mycket vatten krävs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{Q}{4\\,180\\cdot90+2\\,260\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0069\\) kg</p></div>",
-        "ledtrad": "<p>Vattnet värms och förångas.</p>",
+        "fraga": "Hur mycket vatten behöver förångas? Svara i kg. Avrunda till 4 decimaler.",
+        "t": "<p>56 g flytande silver vid 962 °C kyls till 100 °C genom att vatten vid 10 °C värms och förångas vid 100 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket vatten behöver förångas? Svara i kg. Avrunda till 4 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>56 g = 0,056 kg. I detta försök svalnar silvret till 100 °C. Det avger energi vid stelningen och avsvalningen:</p>\\[\\begin{aligned}&Q_{\\rm stelna}=0{,}056\\cdot105\\\\ &=5{,}88\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}056\\cdot0{,}235\\cdot(962-100)\\\\ &=11{,}34392\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=5{,}88+11{,}34392\\\\ &=17{,}22392\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram vatten behöver värmas från 10 °C till 100 °C och förångas:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm vatten}}{m}=4{,}18\\cdot90+2260\\\\ &=2636{,}2\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{17{,}22392}{2636{,}2}\\\\ &\\approx0{,}0065\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0065\\,\\mathrm{kg}\\).</p></div>",
+        "ledtrad": "<p>Jämför silvrets avgivna energi med energibehovet per kilogram vatten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {

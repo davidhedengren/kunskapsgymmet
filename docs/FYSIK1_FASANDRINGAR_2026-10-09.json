@@ -1,0 +1,2168 @@
+{
+  "scope": "Fysik 1, kapitel 7, fasandring",
+  "mainTasksReviewed": 103,
+  "passes": 2,
+  "gameCardsReviewed": 124,
+  "level1CardsBefore": 19,
+  "level1CardsAfter": 27,
+  "level2CardsBefore": 35,
+  "level2CardsAfter": 41,
+  "mainLevelChanges": 27,
+  "cardLevelChanges": 18,
+  "numericModels": 86,
+  "numericAnswerFields": 115,
+  "changes": [
+    {
+      "id": "7.5",
+      "fields": [
+        "s"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.85",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.86",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.6",
+      "fields": [
+        "arbetsinsats",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 2,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.87",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.7",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "s",
+        "t",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.88",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.14",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.89",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.90",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.15",
+      "fields": [
+        "arbetsinsats",
+        "formaga",
+        "ledtrad",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.91",
+      "fields": [
+        "s"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.92",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.16",
+      "fields": [
+        "arbetsinsats",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 2,
+          "levelAfter": 1
+        },
+        {
+          "part": "c",
+          "levelBefore": 3,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.93",
+      "fields": [
+        "s",
+        "t"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.21",
+      "fields": [
+        "arbetsinsats",
+        "formaga",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.94",
+      "fields": [
+        "arbetsinsats",
+        "formaga",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans",
+        "typ"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.22",
+      "fields": [
+        "arbetsinsats",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 2,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.95",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.96",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.23",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.97",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.98",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.24",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.99",
+      "fields": [
+        "arbetsinsats",
+        "formaga",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.25",
+      "fields": [
+        "arbetsinsats",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "c",
+          "levelBefore": 3,
+          "levelAfter": 1
+        }
+      ]
+    },
+    {
+      "id": "7.100",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.26",
+      "fields": [
+        "arbetsinsats",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.101",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "s",
+        "t"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.102",
+      "fields": [
+        "arbetsinsats",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "svarEnhet",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 2,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.29",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "s",
+        "t"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 4,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.103",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.104",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "typ"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.32",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "s",
+        "t",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.105",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.45",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 1,
+          "levelAfter": 1
+        },
+        {
+          "part": "c",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "d",
+          "levelBefore": 3,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.106",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.46",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "b",
+          "levelBefore": 4,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.107",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.108",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.47",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "s",
+        "t",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.109",
+      "fields": [
+        "arbetsinsats",
+        "formaga",
+        "ledtrad",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.110",
+      "fields": [
+        "alternativ",
+        "ledtrad",
+        "s",
+        "t"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.48",
+      "fields": [
+        "alternativ",
+        "arbetsinsats",
+        "niva",
+        "poang",
+        "s",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 2,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.111",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.49",
+      "fields": [
+        "arbetsinsats",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 3
+        }
+      ]
+    },
+    {
+      "id": "7.112",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 4,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.50",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "s",
+        "t",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.113",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.114",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.51",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.115",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 4,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.116",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.52",
+      "fields": [
+        "arbetsinsats",
+        "formaga",
+        "niva",
+        "poang",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 2,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 1
+        },
+        {
+          "part": "b",
+          "levelBefore": 2,
+          "levelAfter": 1
+        },
+        {
+          "part": "c",
+          "levelBefore": 3,
+          "levelAfter": 2
+        },
+        {
+          "part": "d",
+          "levelBefore": 3,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.117",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.53",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "s",
+        "t",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.118",
+      "fields": [
+        "arbetsinsats",
+        "poang",
+        "s",
+        "t"
+      ],
+      "levelBefore": 5,
+      "levelAfter": 5,
+      "gradeBefore": "A",
+      "gradeAfter": "A",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.54",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.119",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.120",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "poang",
+        "s",
+        "t"
+      ],
+      "levelBefore": 5,
+      "levelAfter": 5,
+      "gradeBefore": "A",
+      "gradeAfter": "A",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.129",
+      "fields": [
+        "alternativ",
+        "ledtrad",
+        "miniräknare",
+        "rättSvar",
+        "s",
+        "svarFormat",
+        "svarstyp",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.130",
+      "fields": [
+        "alternativ",
+        "ledtrad",
+        "miniräknare",
+        "rättSvar",
+        "s",
+        "svarFormat",
+        "svarstyp",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.131",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.132",
+      "fields": [
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "typ"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.133",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "svarEnhet",
+        "t",
+        "tolerans",
+        "typ"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.134",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.135",
+      "fields": [
+        "alternativ",
+        "ledtrad",
+        "miniräknare",
+        "rättSvar",
+        "s",
+        "svarFormat",
+        "svarstyp",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 1,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.136",
+      "fields": [
+        "alternativ",
+        "ledtrad",
+        "miniräknare",
+        "rättSvar",
+        "s",
+        "svarFormat",
+        "svarstyp",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 1,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.190",
+      "fields": [
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 1,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 2,
+          "levelAfter": 2
+        }
+      ]
+    },
+    {
+      "id": "7.191",
+      "fields": [
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 2
+        },
+        {
+          "part": "c",
+          "levelBefore": 3,
+          "levelAfter": 3
+        }
+      ]
+    },
+    {
+      "id": "7.192",
+      "fields": [
+        "formaga",
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.193",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.194",
+      "fields": [
+        "formaga",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 3
+        }
+      ]
+    },
+    {
+      "id": "7.195",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.196",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 4,
+      "gradeBefore": "A",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.197",
+      "fields": [
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "b",
+          "levelBefore": 1,
+          "levelAfter": 1
+        }
+      ]
+    },
+    {
+      "id": "7.198",
+      "fields": [
+        "ledtrad",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 2,
+          "levelAfter": 2
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 3
+        }
+      ]
+    },
+    {
+      "id": "7.199",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "gradeBefore": "E",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.200",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.201",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.202",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.203",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.204",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.205",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.206",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 4,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.207",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.208",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "A",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.209",
+      "fields": [
+        "niva",
+        "poang",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 3
+        }
+      ]
+    },
+    {
+      "id": "7.210",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.211",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.212",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 5,
+      "levelAfter": 4,
+      "gradeBefore": "A",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.213",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.214",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.215",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.216",
+      "fields": [
+        "ledtrad",
+        "niva",
+        "poang",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "E",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.217",
+      "fields": [
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.218",
+      "fields": [
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "A",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "c",
+          "levelBefore": 3,
+          "levelAfter": 3
+        }
+      ]
+    },
+    {
+      "id": "7.219",
+      "fields": [
+        "ledtrad",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.220",
+      "fields": [
+        "arbetsinsats",
+        "ledtrad",
+        "niva",
+        "poang",
+        "rättSvar",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 4,
+      "levelAfter": 4,
+      "gradeBefore": "A",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.221",
+      "fields": [
+        "arbetsinsats",
+        "niva",
+        "poang",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "svarEnhet",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 4,
+      "gradeBefore": "A",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 4
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "c",
+          "levelBefore": 3,
+          "levelAfter": 4
+        }
+      ]
+    },
+    {
+      "id": "7.222",
+      "fields": [
+        "ledtrad",
+        "s",
+        "t",
+        "tolerans"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 3,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": []
+    },
+    {
+      "id": "7.223",
+      "fields": [
+        "arbetsinsats",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 4,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 4
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 3
+        }
+      ]
+    },
+    {
+      "id": "7.224",
+      "fields": [
+        "arbetsinsats",
+        "rättSvar",
+        "s",
+        "spelDelar",
+        "spelIntro",
+        "t",
+        "tolerans",
+        "traningsniva"
+      ],
+      "levelBefore": 3,
+      "levelAfter": 4,
+      "gradeBefore": "C",
+      "gradeAfter": "C",
+      "answerBefore": null,
+      "answerAfter": null,
+      "cards": [
+        {
+          "part": "a",
+          "levelBefore": 3,
+          "levelAfter": 3
+        },
+        {
+          "part": "b",
+          "levelBefore": 3,
+          "levelAfter": 4
+        }
+      ]
+    }
+  ]
+}

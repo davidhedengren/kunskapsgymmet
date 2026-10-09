@@ -50349,8 +50349,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>En elbil på 1600 kg bromsar från 90 km/h till vila på plan väg. Batteriets energikapacitet är 60 kWh. Anta att 70 % av bilens förlorade rörelseenergi lagras i batteriet och att batteriet kan ta emot energin. Bortse från hjulens rotationsenergi.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm bilens rörelseenergi före inbromsningen.</li><li>Hur många kWh lagras i batteriet?</li><li>Hur stor procent av batteriets energikapacitet motsvarar det? En elev menar att en så liten andel visar att återvinning är meningslös. Granska slutsatsen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{90 k m}{h}=25\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{k}}=\\frac{1600\\cdot 25^{2}}{2}=500\\,000 J=500\\, \\mathrm{kJ}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{åter}}=0{,}70\\cdot 500\\,000=350\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Eftersom 1 kWh = 3 600 000 J blir det cirka 0,0972 kWh.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{100\\cdot \\left(\\frac{350\\,000}{3\\,600\\,000}\\right)}{60}\\approx 0{,}162\\, \\%\\]</div></div></div><div class=\"facit-stycke\"><p>Andelen per inbromsning är liten, men 70 % av just denna rörelseenergi återvinns.</p></div><div class=\"facit-stycke\"><p>Upprepade inbromsningar kan tillsammans återvinna mer energi.</p></div><div class=\"facit-stycke\"><p>Den verkliga besparingen kan inte bestämmas utan uppgifter om körningen och övrig energianvändning.</p></div></div></div></div></div>",
+    "t": "<p>En elbil på 1600 kg bromsar från 90 km/h till vila på en vågrät väg. Batteriet kan lagra 60 kWh. Under bromsningen lagras 70 % av bilens förlorade rörelseenergi i batteriet. Bortse från hjulens rotation.</p><ol type=\"a\"><li>Bestäm bilens rörelseenergi före bromsningen.</li><li>Hur många kWh lagras i batteriet vid bromsningen?</li><li>Hur stor procent av batteriets energikapacitet motsvarar detta?</li><li>En elev säger att den lilla andelen visar att energiåtervinning är meningslös. Bedöm slutsatsen.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Omvandla farten till m/s och beräkna rörelseenergin.</p>\\[v=\\frac{90}{3{,}6}=25\\,\\mathrm{m/s}\\]\\[E_k=\\frac{mv^2}{2}=\\frac{1600\\cdot25^2}{2}=500000\\,\\mathrm J\\]<p><strong>b)</strong> Ta 70 % av rörelseenergin. Dividera med 3 600 000 J/kWh för att få kWh.</p>\\[E_\\text{lagrad}=0{,}70\\cdot500000=350000\\,\\mathrm J\\]\\[E_\\text{lagrad}=\\frac{350000}{3600000}\\approx0{,}0972\\,\\mathrm{kWh}\\]<p><strong>c)</strong> Jämför energin från bromsningen med batteriets kapacitet, 60 kWh. Använd oavrundad energi.</p>\\[\\begin{gathered}\\text{andel}=\\frac{350000/3600000}{60}\\cdot100\\,\\%\\\\\\approx0{,}162\\,\\%\\end{gathered}\\]<p><strong>d)</strong> Slutsatsen följer inte av den lilla andelen. Batteriet är stort i förhållande till energin från en enda bromsning. Bilen återvinner ändå 70 % av rörelseenergin, och många bromsningar kan tillsammans ge en större besparing. Den verkliga besparingen beror på körningen och bilens övriga energianvändning.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "modellering",
@@ -50367,7 +50367,7 @@ window.BANK = [
     ],
     "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid",
     "ledtrad": "<p>Jämför återvunnen energi med både bilens rörelseenergi och batteriets energikapacitet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "typ": "återvinning vid bromsning",
     "miniräknare": true,
     "geogebra": false,
@@ -50410,7 +50410,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En motor utför arbetet 2400 J på 12 s. Använd P = W/t.</p><p>Bestäm medeleffekten. Svara i W. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{2400}{12}=200\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 200 W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Medeleffekt är arbete dividerat med tid.</p>\\[P=\\frac Wt=\\frac{2400}{12}=200\\,\\mathrm W\\]<p>Motorn utför i genomsnitt 200 J arbete varje sekund.</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Effekt P = W/t",
@@ -50524,8 +50524,8 @@ window.BANK = [
     "niva": "C",
     "typ": "verkningsgrad i en kedja",
     "poang": "(1/3/0)",
-    "t": "<p>Figuren visar en förenklad energikedja från bränsle till synligt ljus. Verkningsgraderna är 38 %, 92 % och 40 %. Driftförhållandena är konstanta och förlusterna antas avges som värme.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 31.983 515.543 115.289\"><text x=\"8\" y=\"68\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">bränsle</text><line x1=\"64\" y1=\"64\" x2=\"81\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"90,64 81,68.6 81,59.4\" fill=\"#2B2527\"/><rect x=\"92\" y=\"40\" width=\"104\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"144\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">kraftverk</text><text x=\"144\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">38 %</text><line x1=\"144\" y1=\"88\" x2=\"144\" y2=\"111\" stroke=\"#B43123\" stroke-width=\"2.1\"/><polygon points=\"144,120 139.4,111 148.6,111\" fill=\"#B43123\"/><rect x=\"226\" y=\"40\" width=\"104\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"278\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">elnät</text><text x=\"278\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">92 %</text><line x1=\"278\" y1=\"88\" x2=\"278\" y2=\"111\" stroke=\"#B43123\" stroke-width=\"2.1\"/><polygon points=\"278,120 273.4,111 282.6,111\" fill=\"#B43123\"/><rect x=\"360\" y=\"40\" width=\"104\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"412\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">lampa</text><text x=\"412\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">40 %</text><line x1=\"412\" y1=\"88\" x2=\"412\" y2=\"111\" stroke=\"#B43123\" stroke-width=\"2.1\"/><polygon points=\"412,120 407.4,111 416.6,111\" fill=\"#B43123\"/><line x1=\"196\" y1=\"64\" x2=\"215\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"224,64 215,68.6 215,59.4\" fill=\"#2B2527\"/><line x1=\"330\" y1=\"64\" x2=\"349\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"358,64 349,68.6 349,59.4\" fill=\"#2B2527\"/><line x1=\"464\" y1=\"64\" x2=\"485\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"494,64 485,68.6 485,59.4\" fill=\"#2B2527\"/><text x=\"480\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">ljus</text><text x=\"278\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">förluster som värme</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kedjans totala verkningsgrad.</li><li>Lampan avger 25 W synligt ljus. Vilken bränsleeffekt behövs?</li><li>Bestäm förlusteffekten i varje led och ange var den är störst. Förklara varför energin ändå är bevarad.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\eta=0{,}38\\cdot 0{,}92\\cdot 0{,}40=0{,}13984\\approx 14{,}0\\, \\%\\]</div></div></div><div class=\"facit-stycke\"><p>Varje procentsats avser effekten in i just det ledet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lampan behöver</p><div class=\"facit-matte\">\\[\\frac{25}{0{,}40}=62{,}5\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Kraftverket måste leverera 62,5/0,92 ≈ 67,9348 W och ta emot 25/0,13984 ≈ 178,776 W från bränslet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraftverket:</p><div class=\"facit-matte\">\\[178{,}7757-67{,}9348\\approx 110{,}84\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Elnätet:</p><div class=\"facit-matte\">\\[67{,}9348-62{,}5\\approx 5{,}43\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lampan:</p><div class=\"facit-matte\">\\[62{,}5-25=37{,}5\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Störst förlusteffekt finns i kraftverket.</p></div><div class=\"facit-stycke\"><p>Summan av förlusteffekterna och ljuseffekten är bränsleeffekten.</p></div><div class=\"facit-stycke\"><p>Energi försvinner inte; förlusterna blir här värme till omgivningen.</p></div></div></div></div></div>",
+    "t": "<p>Figuren visar hur energi omvandlas från bränsle till synligt ljus. Verkningsgraden är 38 % i kraftverket, 92 % i elnätet och 40 % i lampan. Effekterna är konstanta. All energi som inte går vidare i kedjan blir värme.</p><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 31.983 515.543 115.289\"><text x=\"8\" y=\"68\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">bränsle</text><line x1=\"64\" y1=\"64\" x2=\"81\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"90,64 81,68.6 81,59.4\" fill=\"#2B2527\"/><rect x=\"92\" y=\"40\" width=\"104\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"144\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">kraftverk</text><text x=\"144\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">38 %</text><line x1=\"144\" y1=\"88\" x2=\"144\" y2=\"111\" stroke=\"#B43123\" stroke-width=\"2.1\"/><polygon points=\"144,120 139.4,111 148.6,111\" fill=\"#B43123\"/><rect x=\"226\" y=\"40\" width=\"104\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"278\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">elnät</text><text x=\"278\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">92 %</text><line x1=\"278\" y1=\"88\" x2=\"278\" y2=\"111\" stroke=\"#B43123\" stroke-width=\"2.1\"/><polygon points=\"278,120 273.4,111 282.6,111\" fill=\"#B43123\"/><rect x=\"360\" y=\"40\" width=\"104\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"412\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">lampa</text><text x=\"412\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">40 %</text><line x1=\"412\" y1=\"88\" x2=\"412\" y2=\"111\" stroke=\"#B43123\" stroke-width=\"2.1\"/><polygon points=\"412,120 407.4,111 416.6,111\" fill=\"#B43123\"/><line x1=\"196\" y1=\"64\" x2=\"215\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"224,64 215,68.6 215,59.4\" fill=\"#2B2527\"/><line x1=\"330\" y1=\"64\" x2=\"349\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"358,64 349,68.6 349,59.4\" fill=\"#2B2527\"/><line x1=\"464\" y1=\"64\" x2=\"485\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"494,64 485,68.6 485,59.4\" fill=\"#2B2527\"/><text x=\"480\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">ljus</text><text x=\"278\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">förluster som värme</text></svg><ol type=\"a\"><li>Bestäm kedjans totala verkningsgrad.</li><li>Lampan avger 25 W synligt ljus. Vilken effekt behövs från bränslet?</li><li>Bestäm förlusteffekten i varje led. Var är den störst?</li><li>Förklara varför energin är bevarad trots förlusterna.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Varje led behåller en andel av den effekt som kommer in i just det ledet. Multiplicera andelarna.</p>\\[\\eta=0{,}38\\cdot0{,}92\\cdot0{,}40=0{,}13984\\approx14{,}0\\,\\%\\]<p><strong>b)</strong> Räkna bakåt från ljuset. Dividera med verkningsgraden i varje led.</p>\\[P_\\text{lampa,in}=\\frac{25}{0{,}40}=62{,}5\\,\\mathrm W\\]\\[P_\\text{kraftverk,ut}=\\frac{62{,}5}{0{,}92}\\approx67{,}9348\\,\\mathrm W\\]\\[P_\\text{bränsle}=\\frac{62{,}5/0{,}92}{0{,}38}\\approx179\\,\\mathrm W\\]<p><strong>c)</strong> Förlusteffekten är skillnaden mellan in- och uteffekt. Använd de oavrundade effekterna.</p>\\[\\begin{gathered}P_\\text{förlust,kraftverk}=\\frac{62{,}5}{0{,}92\\cdot0{,}38}-\\frac{62{,}5}{0{,}92}\\\\\\approx111\\,\\mathrm W\\end{gathered}\\]\\[P_\\text{förlust,elnät}=\\frac{62{,}5}{0{,}92}-62{,}5\\approx5{,}43\\,\\mathrm W\\]\\[P_\\text{förlust,lampa}=62{,}5-25=37{,}5\\,\\mathrm W\\]<p>Kraftverket har störst förlusteffekt.</p><p><strong>d)</strong> Förlustenergin försvinner inte utan blir värme. Ljus och värme tillsammans motsvarar bränslets energi. De oavrundade förlusteffekterna plus 25 W ljus ger hela bränsleeffekten.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "modellering",
@@ -50540,7 +50540,7 @@ window.BANK = [
     "traningsniva": 4,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -50682,11 +50682,11 @@ window.BANK = [
     "id": "5.7",
     "kap": 5,
     "omr": "effekt",
-    "niva": "C",
+    "niva": "E",
     "typ": "från energi per sträcka till effekt",
-    "poang": "(0/2/0)",
-    "t": "<p>En elbil använder 18 kWh från batteriet per 100 km när den kör med konstant fart 90 km/h.</p><p>Vilken medeleffekt tas ut ur batteriet under färden? Svara i kW. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>100 km tar 100/90 h.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{18}{\\frac{100}{90}}=16{,}2\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Alternativt används 0,18 kWh/km under 90 km på en timme.</p></div></div><p class=\"facit-svar\">Svar: 16,2 kW.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En elbil använder 18 kWh från batteriet när den kör 100 km med konstant fart 90 km/h. Vilken medeleffekt tas ut ur batteriet? Svara i kW.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Körtiden är sträckan delad med farten. Använd kWh och timmar för att få kW.</p>\\[t=\\frac{100}{90}\\,\\mathrm h\\]\\[P=\\frac Et=\\frac{18}{100/90}=16{,}2\\,\\mathrm{kW}\\]</div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -50695,10 +50695,10 @@ window.BANK = [
     "familjNyckel": "effekt__fran_energi_per_stracka_till_effekt",
     "svarstyp": "numeriskt",
     "rättSvar": 16.2,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Välj en körsträcka eller en körtid och bestäm energin under samma intervall.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -50746,8 +50746,8 @@ window.BANK = [
     "niva": "E",
     "typ": "lyftarbete per tid",
     "poang": "(2/0/0)",
-    "t": "<p>En hink med vatten väger totalt 12 kg och lyfts 8,0 m på 25 s. Hinken börjar och slutar i vila. Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraftens arbete på hinken och vattnet. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm lyftkraftens medeleffekt. Svara i W. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin är oförändrad mellan start och slut.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=12\\cdot 9{,}82\\cdot 8=942{,}72\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 942,72 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet är</p><div class=\"facit-matte\">\\[12\\cdot 9{,}82\\cdot 8=942{,}72\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{W}{t}=\\frac{942{,}72}{25}=37{,}7088\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 37,71 W.</p></div></div></div>",
+    "t": "<p>En hink med vatten har den sammanlagda massan 12 kg. Den lyfts 8,0 m på 25 s, från vila till vila. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.</li><li>Bestäm lyftkraftens medeleffekt i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hinken börjar och slutar i vila. Lyftkraftens arbete ökar därför lägesenergin.</p>\\[W=mgh=12\\cdot9{,}82\\cdot8{,}0=942{,}72\\,\\mathrm J\\]<p>Med tre värdesiffror: 943 J.</p><p><strong>b)</strong></p><p>Lyftarbetet är 12 · 9,82 · 8,0 = 942,72 J. Medeleffekt är arbete dividerat med tid.</p>\\[P=\\frac Wt=\\frac{942{,}72}{25}\\approx37{,}7\\,\\mathrm W\\]</div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "procedur"
@@ -50756,11 +50756,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       942.72,
-      37.71
+      37.708800000000004
     ],
     "tolerans": [
-      0,
-      0
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "familjTidigare": [
@@ -50772,7 +50772,7 @@ window.BANK = [
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "J",
@@ -50788,17 +50788,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En hink med vatten väger totalt 12 kg och lyfts 8,0 m på 25 s. Hinken börjar och slutar i vila. Bortse från luftmotstånd. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En hink med vatten har den sammanlagda massan 12 kg. Den lyfts 8,0 m på 25 s, från vila till vila. Bortse från luftmotståndet och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraftens arbete. Svara i J med två decimaler.",
-        "t": "<p>En hink med vatten väger totalt 12 kg och lyfts 8,0 m från vila till vila. Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete. Svara i J med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelseenergin är oförändrad mellan start och slut.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=m g \\Delta h=12\\cdot 9{,}82\\cdot 8=942{,}72\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 942,72 J.</p></div>",
+        "fraga": "Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.",
+        "t": "<p>En hink med vatten har massan 12 kg och lyfts 8,0 m från vila till vila. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Bestäm lyftkraftens arbete i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hinken börjar och slutar i vila. Lyftkraftens arbete ökar därför lägesenergin.</p>\\[W=mgh=12\\cdot9{,}82\\cdot8{,}0=942{,}72\\,\\mathrm J\\]<p>Med tre värdesiffror: 943 J.</p></div>",
         "ledtrad": "<p>Vilken energiändring återstår när start- och slutfarten är lika?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -50806,13 +50806,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm lyftkraftens medeleffekt. Svara i W med två decimaler.",
-        "t": "<p>En hink lyfts på 25 s. Lyftkraftens arbete är 942,72 J.</p><p>Bestäm lyftkraftens medeleffekt. Svara i W med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medeleffekt är arbete dividerat med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\mathrm{medel}=\\frac Wt=\\frac{942{,}72}{25}=37{,}7088\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 37,71 W.</p></div>",
+        "fraga": "Bestäm lyftkraftens medeleffekt i W. Svara med tre värdesiffror.",
+        "t": "<p>En hink lyfts på 25 s. Lyftkraftens arbete är 942,72 J. Använd P = W/t.</p><p>Bestäm lyftkraftens medeleffekt i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Medeleffekt är arbete dividerat med tid. Använd det givna arbetet.</p>\\[P=\\frac Wt=\\frac{942{,}72}{25}\\approx37{,}7\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Vilket arbete utförs under de 25 sekunderna?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -50939,8 +50939,8 @@ window.BANK = [
     "niva": "E",
     "typ": "nyttig effekt och energibevarande",
     "poang": "(3/0/0)",
-    "t": "<p>En elmotor tar emot 750 W elektrisk effekt och lämnar 600 W nyttig mekanisk effekt. Motorns temperatur är konstant.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm verkningsgraden.</li><li>Bestäm förlusteffekten.</li><li>Vad menas med energiförlust här? Förklara vart energin tar vägen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\eta=\\frac{600}{750}=0{,}80=80\\, \\%\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{förlust}}=750-600=150\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>150 J per sekund blir inte nyttigt mekaniskt arbete.</p></div><div class=\"facit-stycke\"><p>Energin överförs främst som värme till omgivningen och delvis som ljud.</p></div><div class=\"facit-stycke\"><p>Den totala energin bevaras.</p></div></div></div></div></div>",
+    "t": "<p>En elmotor tar emot 750 W elektrisk effekt och lämnar 600 W nyttig mekanisk effekt. Den arbetar med konstant temperatur.</p><ol type=\"a\"><li>Bestäm verkningsgraden.</li><li>Bestäm förlusteffekten.</li><li>Vad betyder energiförlust i detta fall? Vart tar energin vägen?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Verkningsgraden är nyttig effekt delad med tillförd effekt.</p>\\[\\eta=\\frac{600}{750}=0{,}80=80\\,\\%\\]<p><strong>b)</strong> Subtrahera den nyttiga effekten från den tillförda.</p>\\[P_\\text{förlust}=750-600=150\\,\\mathrm W\\]<p><strong>c)</strong> 150 J varje sekund blir annat än nyttigt mekaniskt arbete, främst värme till omgivningen och även ljud. Energin bevaras. Eftersom temperaturen är konstant samlas förlustenergin inte som en fortsatt uppvärmning av motorn.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "begrepp",
@@ -50955,7 +50955,7 @@ window.BANK = [
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -50969,8 +50969,8 @@ window.BANK = [
     "niva": "C",
     "typ": "medeleffekt vid olika drifttider",
     "poang": "(2/1/0)",
-    "t": "<p>En maskin lämnar konstant mekanisk effekt 500 W under de första 10 s och 1000 W under de följande 30 s.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm arbetet under hela körningen.</li><li>Bestäm medeleffekten.</li><li>En elev tar medelvärdet av 500 W och 1000 W och får 750 W. Förklara varför metoden inte fungerar här.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=500\\cdot 10+1000\\cdot 30=35\\,000\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{35\\,000}{10+30}=875\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1000 W används tre gånger så länge som 500 W.</p></div><div class=\"facit-stycke\"><p>Effekterna måste därför viktas med tiderna.</p></div><div class=\"facit-stycke\"><p>Det vanliga medelvärdet fungerar bara om de två drifttiderna är lika långa.</p></div></div></div></div></div>",
+    "t": "<p>En maskin lämnar mekanisk effekt 500 W i 10 s och sedan 1000 W i 30 s.</p><ol type=\"a\"><li>Bestäm det sammanlagda arbetet.</li><li>Bestäm medeleffekten under hela körningen.</li><li>En elev tar medelvärdet av 500 W och 1000 W och får 750 W. Förklara varför detta blir fel.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Arbete är effekt gånger tid. Räkna varje del för sig och summera.</p>\\[W_1=500\\cdot10=5000\\,\\mathrm J\\]\\[W_2=1000\\cdot30=30000\\,\\mathrm J\\]\\[W=5000+30000=35000\\,\\mathrm J\\]<p><strong>b)</strong> Dividera hela arbetet med hela tiden.</p>\\[P_\\text{medel}=\\frac{35000}{10+30}=875\\,\\mathrm W\\]<p><strong>c)</strong> Maskinen arbetar med 1000 W tre gånger så länge som med 500 W. Den högre effekten påverkar därför medeleffekten mer. Det vanliga medelvärdet av de två effekterna fungerar när tiderna är lika långa.</p></div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "modellering",
@@ -51770,7 +51770,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur stor är medeleffekten? Svara i W. Svara med ett heltal.",
-        "t": "<p>En maskin utför arbetet 9000 J på 15 s.</p><p>Hur stor är medeleffekten? Svara i W. Svara med ett heltal.</p>",
+        "t": "<p>En maskin utför arbetet 9000 J på 15 s. Använd P = W/t.</p><p>Hur stor är medeleffekten? Svara i W. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{W}{t}=\\frac{9000}{15}=600\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 600 W.</p></div>",
         "ledtrad": "<p>Vilken storhet beskriver arbete per sekund?</p>",
         "niva": "E",
@@ -51784,7 +51784,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur stort arbete utför maskinen? Svara i J. Svara med ett heltal.",
-        "t": "<p>En maskin ger effekten 250 W under 40 s.</p><p>Hur stort arbete utför maskinen? Svara i J. Svara med ett heltal.</p>",
+        "t": "<p>En maskin ger effekten 250 W under 40 s. Använd W = Pt.</p><p>Hur stort arbete utför maskinen? Svara i J. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=P t=250\\cdot 40=10\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 10000 J.</p></div>",
         "ledtrad": "<p>Hur mycket arbete utförs under varje sekund?</p>",
         "niva": "E",
@@ -51798,7 +51798,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur lång tid tar det att utföra arbetet 72 000 J? Svara i s. Svara med ett heltal.",
-        "t": "<p>En maskin ger effekten 400 W.</p><p>Hur lång tid tar det att utföra arbetet 72 000 J? Svara i s. Svara med ett heltal.</p>",
+        "t": "<p>En maskin ger effekten 400 W. Använd t = W/P.</p><p>Hur lång tid tar det att utföra arbetet 72 000 J? Svara i s. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=\\frac{W}{P}=\\frac{72\\,000}{400}=180\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 180 s.</p></div>",
         "ledtrad": "<p>Vilken storhet ska lösas ut ur sambandet mellan arbete, effekt och tid?</p>",
         "niva": "E",
@@ -51817,8 +51817,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Ett vindkraftverk har rotordiametern 90 m. I en förenklad modell är \\(P_\\text{vind}=\\dfrac{\\rho Av^3}{2}\\), där ρ = 1,29 kg/m³, A är den svepta cirkelarean och v är vindhastigheten. Verket omvandlar 45 % av denna effekt till el.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm effekten i vinden vid 8,0 m/s.</li><li>Bestäm verkets eleffekt vid denna vindhastighet.</li><li>Hur ändras eleffekten om vindhastigheten fördubblas enligt modellen? Ange ett skäl till att ett verkligt verk inte behöver följa detta samband vid alla vindhastigheter.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=\\pi\\cdot 45^{2}\\approx 6361{,}73\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{vind}}=0{,}5\\cdot 1{,}29\\cdot \\pi\\cdot 45^{2}\\cdot 8^{3}\\approx 2{,}101\\, \\mathrm{MW}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=0{,}45 P_{\\mathrm{vind}}\\approx 0{,}9454\\, \\mathrm{MW}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid oförändrade ρ, A och η gäller</p><div class=\"facit-matte\">\\[\\frac{P_{\\mathrm{el}} \\left(2 v\\right)}{P_{\\mathrm{el}}} \\left(v\\right)=2^{3}=8\\]</div></div></div><div class=\"facit-stycke\"><p>I modellen blir eleffekten cirka 7,56 MW.</p></div><div class=\"facit-stycke\"><p>Ett verkligt verk kan begränsa uteffekten eller stängas av vid stark vind; även verkningsgraden kan ändras.</p></div><div class=\"facit-stycke\"><p>Sambandet förutsätter här konstant verkningsgrad utan effektbegränsning.</p></div></div></div></div></div>",
+    "t": "<p>Ett vindkraftverk har rotordiametern 90 m. I en förenklad modell är effekten i vinden \\(P_\\text{vind}=\\rho Av^3/2\\). Här är ρ = 1,29 kg/m³, A cirkelarean som rotorbladen sveper och v vindens fart i m/s. Verket omvandlar 45 % av denna effekt till el.</p><ol type=\"a\"><li>Bestäm effekten i vinden när vindens fart är 8,0 m/s.</li><li>Bestäm kraftverkets eleffekt vid denna vindfart.</li><li>Med vilken faktor ändras eleffekten när vindfarten fördubblas enligt modellen?</li><li>Ge ett skäl till att ett verkligt kraftverk kan avvika från modellen vid stark vind.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Radien är halva diametern: 45 m. Beräkna cirkelarean och sätt in den i den givna formeln.</p>\\[A=\\pi r^2=\\pi\\cdot45^2\\approx6361{,}73\\,\\mathrm{m^2}\\]\\[P_\\text{vind}=\\frac{1{,}29\\cdot\\pi\\cdot45^2\\cdot8{,}0^3}{2}\\approx2100896\\,\\mathrm W\\]\\[P_\\text{vind}\\approx2{,}10\\,\\mathrm{MW}\\]<p><strong>b)</strong> Ta 45 % av vindens effekt utan att avrunda mellanresultatet.</p>\\[\\begin{gathered}P_\\text{el}=0{,}45\\cdot\\frac{1{,}29\\cdot\\pi\\cdot45^2\\cdot8{,}0^3}{2}\\\\\\approx945403\\,\\mathrm W\\end{gathered}\\]\\[P_\\text{el}\\approx0{,}945\\,\\mathrm{MW}\\]<p><strong>c)</strong> Alla faktorer utom vindfarten är oförändrade. Vindfarten ingår i tredje potens.</p>\\[\\frac{P_\\text{el}(2v)}{P_\\text{el}(v)}=\\frac{(2v)^3}{v^3}=2^3=8\\]<p>Eleffekten blir åtta gånger så stor enligt modellen.</p><p><strong>d)</strong> Ett verkligt verk kan begränsa sin effekt eller stängas av vid stark vind. Även verkningsgraden kan ändras. Modellen antar att verkningsgraden är oförändrad.</p></div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -51834,7 +51834,7 @@ window.BANK = [
     "typ": "vindens effekt och modellens gränser",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -52095,8 +52095,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>En villa har solceller med toppeffekten 6,0 kW. Anta att årets produktion motsvarar 900 timmar med toppeffekten. Huset använder 15 000 kWh per år och har ingen annan egen elproduktion.</p><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna solelens årsproduktion.</li><li>Vilken procent av husets årsbehov motsvarar produktionen?</li><li>Kan man därmed säga att lika stor andel av husets el verkligen kommer direkt från solcellerna? Kan ett batteri ensamt göra huset självförsörjande under upprepade år? Motivera båda svaren.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>E = 6,0 · 900 = 5400 kWh per år.</p></div><div class=\"facit-stycke\"><p>Fullasttimmarna är ett sätt att beskriva årsenergin, inte antalet timmar med dagsljus.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{100\\cdot 5400}{15\\,000}=36\\, \\%\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej, 36 % är en jämförelse mellan årsenergier.</p></div><div class=\"facit-stycke\"><p>Direkt egenanvändning beror på hur produktion och behov sammanfaller i tiden; överskott kan behöva exporteras eller lagras.</p></div><div class=\"facit-stycke\"><p>Inte heller ett idealiskt batteri kan kompensera det årliga underskottet 15 000−5400 = 9600 kWh under upprepade år.</p></div><div class=\"facit-stycke\"><p>Det krävs ytterligare energitillförsel, exempelvis från elnätet.</p></div></div></div></div></div>",
+    "t": "<p>En villa har solceller som kan ge 6,0 kW. Årets produktion motsvarar 900 timmar med denna effekt. Huset använder 15 000 kWh per år och har ingen annan egen elproduktion.</p><ol type=\"a\"><li>Hur mycket elenergi producerar solcellerna under ett år?</li><li>Hur stor procent av husets årsbehov motsvarar produktionen?</li><li>Kan man säga att lika stor andel av husets el kommer direkt från solcellerna? Förklara.</li><li>Kan ett batteri ensamt göra huset självförsörjande år efter år? Motivera.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Energi är effekt gånger tid. kW och timmar ger kWh.</p>\\[E=Pt=6{,}0\\cdot900=5400\\,\\mathrm{kWh}\\]<p><strong>b)</strong> Jämför produktionen med årsbehovet.</p>\\[\\text{andel}=\\frac{5400}{15000}\\cdot100\\,\\%=36\\,\\%\\]<p><strong>c)</strong> Nej, 36 % jämför två årsenergier. För direkt användning måste solcellerna producera el när huset behöver den. Överskott kan säljas eller lagras, och el kan behöva köpas när produktionen är låg.</p><p><strong>d)</strong> Nej. Huset saknar 15 000 − 5400 = 9600 kWh varje år. Ett batteri kan lagra energi, men inte skapa den energi som saknas. Huset behöver mer elproduktion eller mindre elanvändning.</p></div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "modellering",
@@ -52113,7 +52113,7 @@ window.BANK = [
     ],
     "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid",
     "ledtrad": "<p>Skilj mellan årsenergi och energi som finns tillgänglig när huset behöver den.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "typ": "årsenergi och egenanvändning",
     "miniräknare": true,
     "geogebra": false,
@@ -52126,9 +52126,9 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En hisskorg på 350 kg lyfter Johannes, som har massan 80 kg. Hissen saknar motvikt. Hela drivsystemets verkningsgrad från el till ökningen i lägesenergi är 85 % vid jämn uppåtrörelse. Den elektriska effekten får högst vara 2,5 kW.</p><p>Använd g = 9,82 m/s².</p><p>Vilken är den största konstanta lyftfarten enligt modellen? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid jämn lyftrörelse ändras inte rörelseenergin.</p></div><div class=\"facit-stycke\"><p>Lyftens arbete fås av lägesenergin, \\(W=mg\\Delta h\\).</p></div><div class=\"facit-stycke\"><p>Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p></div></div>\\[P=\\frac{W}{t}=mg\\frac{\\Delta h}{t}=mgv.\\]<div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid gränsen blir nyttig effekt</p><div class=\"facit-matte\">\\[0{,}85\\cdot 2500=2125\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid konstant fart gäller</p><div class=\"facit-matte\">\\[P_{\\mathrm{nyttig}}=\\left(350+80\\right) g v\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[v=\\frac{2125}{430\\cdot 9{,}82}\\approx 0{,}503254\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,5 m/s.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En hiss utan motvikt lyfter en hisskorg på 350 kg och en person på 80 kg med konstant fart. Den största elektriska effekten är 2,5 kW. Av den blir 85 % nyttig effekt som höjer hiss och person. Använd g = 9,82 m/s². Vilken är den största lyftfarten? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Summera massorna. Den nyttiga effekten är 85 % av den elektriska effekten.</p>\\[m=350+80=430\\,\\mathrm{kg}\\]\\[P_\\text{nyttig}=0{,}85\\cdot2500=2125\\,\\mathrm W\\]<p>Vid konstant fart är lyftkraften mg. Lös P = mgv för farten.</p>\\[v=\\frac{P_\\text{nyttig}}{mg}=\\frac{2125}{430\\cdot9{,}82}\\approx0{,}503\\,\\mathrm{m/s}\\]</div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -52136,8 +52136,8 @@ window.BANK = [
     ],
     "familjNyckel": "effekt__effektgrans_vid_lyft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
-    "tolerans": 0,
+    "rättSvar": 0.5032444465495192,
+    "tolerans": 0.0005,
     "självrättning": true,
     "ledtrad": "<p>Hur stor massa höjs och vilken del av eleffekten kan öka lägesenergin?</p>",
     "traningsniva": 3,
@@ -52158,9 +52158,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "E",
     "typ": "effekt och tidskrav",
-    "poang": "(2/0/0)",
-    "t": "<p>En maskin behöver utföra arbetet 45 kJ på högst 20 s. Den kan ställas in på en konstant mekanisk effekt.</p><p>Bestäm den minsta effekt som gör att tidskravet uppfylls. Svara i kW. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45 k J=45\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{min}}=\\frac{45\\,000}{20}=2250 W=2{,}25\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Mindre effekt skulle ge längre tid än 20 s.</p></div></div><p class=\"facit-svar\">Svar: 2,25 kW.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En maskin ska utföra arbetet 45 kJ på högst 20 s. Vilken är den minsta konstanta mekaniska effekt som klarar det? Svara i kW.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Minsta effekten använder hela den tillåtna tiden, 20 s. Använd kJ och sekunder för att få kW.</p>\\[P_\\text{min}=\\frac Wt=\\frac{45\\,\\mathrm{kJ}}{20\\,\\mathrm s}=2{,}25\\,\\mathrm{kW}\\]<p>Mindre effekt skulle kräva längre tid än 20 s.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "procedur"
@@ -52168,13 +52168,13 @@ window.BANK = [
     "familjNyckel": "effekt__effekt_och_tidskrav",
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken tid ger den lägsta effekt som fortfarande är tillåten?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kW",
     "svarFormat": "numeriskt",
@@ -52188,8 +52188,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Tobias har massan 75 kg. Under varje armhävnings uppåtfas höjs hans masscentrum 18 cm. Han gör 35 hela repetitioner på 60 s och återgår till samma höjd efter varje repetition. Beräkningarna ska bara avse masscentrums lägesenergi.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i lägesenergi under en uppåtfas.</li><li>Summera ökningarna under en minut och dividera med minutens längd. Vilken effekt får du?</li><li>Efter en hel repetition är masscentrum tillbaka på samma höjd. Förklara varför detta inte betyder att kroppen har använt noll energi.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=75\\cdot 9{,}82\\cdot 0{,}18=132{,}57\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{35\\cdot 132{,}57}{60}=77{,}3325 W\\approx 77{,}3\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Det är uppåtfasernas sammanlagda ökning i lägesenergi fördelad över hela minuten, inte medeleffekten enbart under uppåtfaserna.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lägesenergins nettoändring är noll över hela repetitioner, men positiva och negativa ändringar har skett.</p></div><div class=\"facit-stycke\"><p>Kroppen omsätter kemisk energi, bland annat till inre energi.</p></div><div class=\"facit-stycke\"><p>Den kemiska energianvändningen kan inte bestämmas av höjdändringen ensam.</p></div></div></div></div></div>",
+    "t": "<p>Tobias har massan 75 kg. När han pressar sig upp i en armhävning höjs hans tyngdpunkt 18 cm. Han gör 35 armhävningar på 60 s och återgår till samma höjd efter varje gång. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket ökar lägesenergin under en uppåtrörelse?</li><li>Summera lägesenergins ökningar under alla 35 uppåtrörelserna och dividera med 60 s. Vilken effekt får du?</li><li>Efter en hel armhävning är tyngdpunkten tillbaka på samma höjd. Varför betyder det inte att kroppen har använt noll energi?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Omvandla 18 cm till 0,18 m. Beräkna lägesenergins ökning.</p>\\[\\Delta E_p=mgh=75\\cdot9{,}82\\cdot0{,}18=132{,}57\\,\\mathrm J\\]<p>Det är cirka 133 J per uppåtrörelse.</p><p><strong>b)</strong> Summera de positiva ökningarna och dividera med hela minuten.</p>\\[E_\\text{upp}=35\\cdot132{,}57=4639{,}95\\,\\mathrm J\\]\\[P=\\frac{4639{,}95}{60}\\approx77{,}3\\,\\mathrm W\\]<p>Detta fördelar uppåtrörelsernas energi över hela minuten. Det är inte medeleffekten bara under tiden då han rör sig uppåt.</p><p><strong>c)</strong> Lägesenergin har samma värde efter varje hel armhävning, men kroppen har ändå arbetat under rörelsen. Kroppen använder kemisk energi och en del blir värme. Den totala energianvändningen kan inte beräknas enbart från höjdändringen.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -52205,7 +52205,7 @@ window.BANK = [
       "Effekt som energi per tid"
     ],
     "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid",
-    "ledtrad": "<p>Skilj på uppåtfasen, en hel repetition och energi som kroppen omsätter.</p>",
+    "ledtrad": "<p>Skilj mellan uppåtrörelserna, hela armhävningen och kroppens energianvändning.</p>",
     "traningsniva": 3,
     "typ": "positivt arbete under armhävningar",
     "miniräknare": true,
@@ -52221,8 +52221,8 @@ window.BANK = [
     "niva": "E",
     "typ": "samma arbete på olika tid",
     "poang": "(3/0/0)",
-    "t": "<p>En motor lyfter 300 kg lodrätt 8,0 m med konstant fart på 12 s. Bortse från förluster.</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur stort arbete gör motorn på lasten? Svara i kJ med två decimaler.</li><li>Bestäm den mekaniska effekten under lyftet. Svara i kW. Avrunda vid behov till 2 decimaler.</li><li>Vilken mekanisk effekt krävs för samma lyft med konstant fart på 6,0 s? Svara i kW. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Arbetet ökar lastens lägesenergi. Resultatet i J divideras med 1000 för att få kJ.</p><div class=\"facit-matte\">\\[W=300\\cdot9{,}82\\cdot8{,}0=23568\\,\\mathrm J=23{,}568\\,\\mathrm{kJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 23,57 kJ.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dividera arbetet med tiden. Omvandla sedan W till kW.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{23\\,568}{12}=1964\\,\\mathrm W=1{,}964\\,\\mathrm{kW}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,96 kW.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Arbetet är fortfarande 23 568 J.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{23\\,568}{6}=3928 W=3{,}928\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Halverad tid ger dubbla effekten.</p></div></div><p class=\"facit-svar\">Svar: 3,93 kW.</p></div></div></div></div>",
+    "t": "<p>En motor lyfter 300 kg rakt upp 8,0 m med konstant fart på 12 s. Bortse från energiförluster och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur stort arbete gör motorn på lasten? Svara i kJ. Svara med tre värdesiffror.</li><li>Bestäm motorns mekaniska effekt under lyftet i kW. Svara med tre värdesiffror.</li><li>Vilken mekanisk effekt krävs för samma lyft med konstant fart på 6,0 s? Svara i kW. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Arbetet ökar lastens lägesenergi. Dividera resultatet i J med 1000 för att få kJ.</p>\\[W=mgh=300\\cdot9{,}82\\cdot8{,}0=23568\\,\\mathrm J\\]\\[W=23{,}568\\,\\mathrm{kJ}\\approx23{,}6\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Lyftarbetet är 300 · 9,82 · 8,0 = 23 568 J. Dividera det med tiden och omvandla W till kW.</p>\\[P=\\frac{23568}{12}=1964\\,\\mathrm W=1{,}964\\,\\mathrm{kW}\\]<p>Med tre värdesiffror: 1,96 kW.</p><p><strong>c)</strong></p><p>Samma last höjs lika långt. Arbetet är därför 300 · 9,82 · 8,0 = 23 568 J.</p>\\[P=\\frac{23568}{6{,}0}=3928\\,\\mathrm W=3{,}928\\,\\mathrm{kW}\\]<p>Med tre värdesiffror: 3,93 kW. Halverad tid kräver dubbla effekten.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "procedur"
@@ -52230,21 +52230,21 @@ window.BANK = [
     "familjNyckel": "effekt__samma_arbete_pa_olika_tid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      23.57,
-      1.96,
-      3.93
+      23.568,
+      1.964,
+      3.928
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.05,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Hur ändras lastens lägesenergi?</p>",
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "kJ",
@@ -52263,17 +52263,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En motor lyfter 300 kg lodrätt 8,0 m med konstant fart på 12 s. Bortse från förluster. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En motor lyfter 300 kg rakt upp 8,0 m med konstant fart på 12 s. Bortse från energiförluster och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort arbete gör motorn på lasten? Svara i kJ med två decimaler.",
-        "t": "<p>En motor lyfter 300 kg lodrätt 8,0 m med konstant fart. Bortse från energiförluster. Använd g = 9,82 m/s².</p><p>Hur stort arbete gör motorn på lasten? Svara i kJ med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Arbetet ökar lastens lägesenergi. Resultatet i J divideras med 1000 för att få kJ.</p><div class=\"facit-matte\">\\[W=300\\cdot9{,}82\\cdot8{,}0=23568\\,\\mathrm J=23{,}568\\,\\mathrm{kJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 23,57 kJ.</p></div></div>",
-        "ledtrad": "<p>Hur ändras lastens lägesenergi?</p>",
+        "fraga": "Hur stort arbete gör motorn på lasten? Svara i kJ. Svara med tre värdesiffror.",
+        "t": "<p>En motor lyfter 300 kg rakt upp 8,0 m med konstant fart. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Hur stort arbete gör motorn på lasten? Svara i kJ. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Arbetet ökar lastens lägesenergi. Dividera resultatet i J med 1000 för att få kJ.</p>\\[W=mgh=300\\cdot9{,}82\\cdot8{,}0=23568\\,\\mathrm J\\]\\[W=23{,}568\\,\\mathrm{kJ}\\approx23{,}6\\,\\mathrm{kJ}\\]</div>",
+        "ledtrad": "<p>Hur mycket ökar lastens lägesenergi?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52281,13 +52281,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm motorns mekaniska medeleffekt. Svara i kW med två decimaler.",
-        "t": "<p>En motor gör arbetet 23 568 J under ett lyft på 12 s.</p><p>Bestäm motorns mekaniska medeleffekt. Svara i kW med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dividera arbetet med tiden. Omvandla sedan W till kW.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{23\\,568}{12}=1964\\,\\mathrm W=1{,}964\\,\\mathrm{kW}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,96 kW.</p></div>",
-        "ledtrad": "<p>Vilket arbete ska fördelas över lyfttiden?</p>",
+        "fraga": "Bestäm motorns mekaniska medeleffekt under lyftet i kW. Svara med tre värdesiffror.",
+        "t": "<p>En motor utför arbetet 23 568 J under ett lyft på 12 s. Använd P = W/t.</p><p>Bestäm motorns mekaniska medeleffekt under lyftet i kW. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera det givna arbetet med tiden. Omvandla W till kW.</p>\\[P=\\frac{23568}{12}=1964\\,\\mathrm W=1{,}964\\,\\mathrm{kW}\\]<p>Med tre värdesiffror: 1,96 kW.</p></div>",
+        "ledtrad": "<p>Dividera det givna arbetet med lyfttiden. Vilken enhetsomvandling behövs för kW?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52295,13 +52295,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm motorns mekaniska medeleffekt. Svara i kW med två decimaler.",
-        "t": "<p>En motor gör arbetet 23 568 J under ett lyft på 6,0 s.</p><p>Bestäm motorns mekaniska medeleffekt. Svara i kW med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Arbetet är fortfarande 23 568 J.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{23\\,568}{6}=3928 W=3{,}928\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Halverad tid ger dubbla effekten.</p></div></div><p class=\"facit-svar\">Svar: 3,93 kW.</p></div>",
-        "ledtrad": "<p>Vad ändras och vad är oförändrat när lyftet går snabbare?</p>",
+        "fraga": "Bestäm motorns mekaniska medeleffekt i kW med tre värdesiffror.",
+        "t": "<p>En motor utför arbetet 23 568 J under ett lyft på 6,0 s. Använd P = W/t.</p><p>Bestäm motorns mekaniska medeleffekt i kW med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera det givna arbetet med tiden. Omvandla W till kW.</p>\\[P=\\frac{23568}{6}=3928\\,\\mathrm W=3{,}928\\,\\mathrm{kW}\\]<p>Med tre värdesiffror: 3,93 kW.</p></div>",
+        "ledtrad": "<p>Dividera det givna arbetet med tiden.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -53162,8 +53162,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En varuhiss utan motvikt lyfter totalt 450 kg med konstant fart 18 m på 25 s. Verkningsgraden är 78 %. Använd g = 9,82 m/s².</p><span class=\"fig smal\"><svg height=\"312\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.429 9.863 244.714 201.124\"><rect x=\"60\" y=\"20\" width=\"180\" height=\"9\" fill=\"#E8DCC6\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"60\" y1=\"29\" x2=\"240\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"29\" width=\"60\" height=\"30\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"49\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">motor</text><line x1=\"150\" y1=\"59\" x2=\"150\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"115\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"210,120 214.6,130 205.4,130\" fill=\"#2A5D9E\"/><line x1=\"150\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"185\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"259\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i lägesenergi. Svara i J. Svara med ett heltal.</li><li>Bestäm den nyttiga effekten. Svara i W. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den elektriska effekten. Svara i W. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=450\\cdot 9{,}82\\cdot 18=79\\,542\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 79542 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{nyttig}}=\\frac{450\\cdot 9{,}82\\cdot 18}{25}=3181{,}68\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3181,68 W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=\\frac{\\left(\\frac{450\\cdot 9{,}82\\cdot 18}{25}\\right)}{0{,}78}\\approx 4079{,}0769\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Den tillförda effekten är större än den nyttiga.</p></div></div><p class=\"facit-svar\">Svar: 4079,08 W.</p></div></div></div>",
+    "t": "<p>En hiss utan motvikt lyfter totalt 450 kg med konstant fart 18 m på 25 s. Av den elektriska effekten blir 78 % nyttig effekt som höjer hissen. Använd g = 9,82 m/s².</p><svg height=\"312\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.429 9.863 244.714 201.124\"><rect x=\"60\" y=\"20\" width=\"180\" height=\"9\" fill=\"#E8DCC6\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"60\" y1=\"29\" x2=\"240\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"29\" width=\"60\" height=\"30\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"49\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">motor</text><line x1=\"150\" y1=\"59\" x2=\"150\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"115\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"210,120 214.6,130 205.4,130\" fill=\"#2A5D9E\"/><line x1=\"150\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"185\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"259\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg><ol type=\"a\"><li>Bestäm ökningen i lägesenergi i J. Svara med tre värdesiffror.</li><li>Bestäm den nyttiga effekten i W. Svara med tre värdesiffror.</li><li>Bestäm den elektriska effekten i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hela massan höjs 18 m.</p>\\[\\Delta E_p=mgh=450\\cdot9{,}82\\cdot18=79542\\,\\mathrm J\\]<p>Med tre värdesiffror: 79 500 J.</p><p><strong>b)</strong></p><p>Lägesenergin ökar med 450 · 9,82 · 18 = 79 542 J. Dividera med lyfttiden.</p>\\[P_\\text{nyttig}=\\frac{79542}{25}=3181{,}68\\,\\mathrm W\\]<p>Med tre värdesiffror: 3180 W.</p><p><strong>c)</strong></p><p>Den nyttiga effekten är 450 · 9,82 · 18/25 = 3181,68 W. Den är 78 % av eleffekten.</p>\\[P_\\text{el}=\\frac{P_\\text{nyttig}}\\eta=\\frac{3181{,}68}{0{,}78}\\approx4080\\,\\mathrm W\\]</div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "procedur"
@@ -53171,14 +53171,14 @@ window.BANK = [
     "familjNyckel": "effekt__elektrisk_effekt_vid_hissdrift",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      79542,
+      79542.0,
       3181.68,
-      4079.08
+      4079.076923076923
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      50.0,
+      5.0,
+      5.0
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken massa och höjdskillnad ingår i lägesenergin?</p>",
@@ -53205,17 +53205,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En varuhiss utan motvikt lyfter totalt 450 kg med konstant fart 18 m på 25 s. Verkningsgraden är 78 %. Använd g = 9,82 m/s².</p><span class=\"fig smal\"><svg height=\"312\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.429 9.863 244.714 201.124\"><rect x=\"60\" y=\"20\" width=\"180\" height=\"9\" fill=\"#E8DCC6\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"60\" y1=\"29\" x2=\"240\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"29\" width=\"60\" height=\"30\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"49\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">motor</text><line x1=\"150\" y1=\"59\" x2=\"150\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"115\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"210,120 214.6,130 205.4,130\" fill=\"#2A5D9E\"/><line x1=\"150\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"185\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"259\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg></span>",
+    "spelIntro": "<p>En hiss utan motvikt lyfter totalt 450 kg med konstant fart 18 m på 25 s. Av den elektriska effekten blir 78 % nyttig effekt som höjer hissen. Använd g = 9,82 m/s².</p><svg height=\"312\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.429 9.863 244.714 201.124\"><rect x=\"60\" y=\"20\" width=\"180\" height=\"9\" fill=\"#E8DCC6\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"60\" y1=\"29\" x2=\"240\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"29\" width=\"60\" height=\"30\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"49\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">motor</text><line x1=\"150\" y1=\"59\" x2=\"150\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"115\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"210,120 214.6,130 205.4,130\" fill=\"#2A5D9E\"/><line x1=\"150\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"185\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"259\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket ökar lägesenergin? Svara i J.",
-        "t": "<p>En hiss lyfter totalt 450 kg med 18 m. Använd g = 9,82 m/s².</p><p>Hur mycket ökar lägesenergin? Svara i J.</p><svg height=\"312\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.429 9.863 244.714 201.124\"><rect x=\"60\" y=\"20\" width=\"180\" height=\"9\" fill=\"#E8DCC6\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"60\" y1=\"29\" x2=\"240\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"29\" width=\"60\" height=\"30\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"49\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">motor</text><line x1=\"150\" y1=\"59\" x2=\"150\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"115\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"210,120 214.6,130 205.4,130\" fill=\"#2A5D9E\"/><line x1=\"150\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"185\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"259\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=450\\cdot 9{,}82\\cdot 18=79\\,542\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 79542 J.</p></div>",
+        "fraga": "Bestäm ökningen i lägesenergi i J. Svara med tre värdesiffror.",
+        "t": "<p>En hiss höjer sammanlagt 450 kg med 18 m. Använd g = 9,82 m/s².</p><p>Bestäm ökningen i lägesenergi i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela massan höjs 18 m.</p>\\[\\Delta E_p=mgh=450\\cdot9{,}82\\cdot18=79542\\,\\mathrm J\\]<p>Med tre värdesiffror: 79 500 J.</p></div>",
         "ledtrad": "<p>Vilken massa och höjdskillnad ingår i lägesenergin?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -53223,13 +53223,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den nyttiga medeleffekten. Svara i W med två decimaler.",
-        "t": "<p>En hiss ökar lastens lägesenergi med 79 542 J på 25 s.</p><svg height=\"312\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.429 9.863 244.714 201.124\"><rect x=\"60\" y=\"20\" width=\"180\" height=\"9\" fill=\"#E8DCC6\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"60\" y1=\"29\" x2=\"240\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"29\" width=\"60\" height=\"30\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"49\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">motor</text><line x1=\"150\" y1=\"59\" x2=\"150\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"115\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"210,120 214.6,130 205.4,130\" fill=\"#2A5D9E\"/><line x1=\"150\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"185\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"259\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg><p>Bestäm den nyttiga medeleffekten. Svara i W med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den nyttiga effekten är energiökningen dividerad med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\mathrm{nyttig}=\\frac{79\\,542}{25}=3181{,}68\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3181,68 W.</p></div>",
+        "fraga": "Bestäm den nyttiga medeleffekten i W. Svara med tre värdesiffror.",
+        "t": "<p>En hiss ökar lägesenergin med 79 542 J på 25 s. Använd P = E/t.</p><p>Bestäm den nyttiga medeleffekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera den givna energiökningen med tiden.</p>\\[P_\\text{nyttig}=\\frac{79542}{25}=3181{,}68\\,\\mathrm W\\]<p>Med tre värdesiffror: 3180 W.</p></div>",
         "ledtrad": "<p>Hur stor lägesenergi tillkommer per sekund?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -53237,9 +53237,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den elektriska effekten. Svara i W med två decimaler.",
-        "t": "<p>En hiss har nyttiga effekten 3181,68 W och verkningsgraden 78 %.</p><svg height=\"312\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.429 9.863 244.714 201.124\"><rect x=\"60\" y=\"20\" width=\"180\" height=\"9\" fill=\"#E8DCC6\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"60\" y1=\"29\" x2=\"240\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"29\" width=\"60\" height=\"30\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"49\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">motor</text><line x1=\"150\" y1=\"59\" x2=\"150\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"115\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"210,120 214.6,130 205.4,130\" fill=\"#2A5D9E\"/><line x1=\"150\" y1=\"90\" x2=\"250\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"185\" y1=\"200\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"90\" x2=\"255\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"259\" y=\"149\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg><p>Bestäm den elektriska effekten. Svara i W med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Verkningsgraden är nyttig effekt dividerad med tillförd effekt. Den elektriska effekten måste därför vara större.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\mathrm{el}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{3181{,}68}{0{,}78}\\approx4079{,}08\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4079,08 W.</p></div>",
+        "fraga": "Bestäm den elektriska effekten i W. Svara med tre värdesiffror.",
+        "t": "<p>En hiss har den nyttiga effekten 3181,68 W och verkningsgraden 78 %.</p><p>Bestäm den elektriska effekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nyttiga effekten är 78 % av eleffekten. Dividera med 0,78.</p>\\[P_\\text{el}=\\frac{3181{,}68}{0{,}78}\\approx4080\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Vilken effekt står i nämnaren när verkningsgraden beräknas?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -53260,8 +53260,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>En bil på 1000 kg accelererar från vila till 100 km/h på 6,0 s på plan väg. Bortse från luft- och rullmotstånd samt hjulens rotationsenergi.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den nyttiga medeleffekt som krävs.</li><li>Bestäm medeleffekten från bränslet om verkningsgraden är 35 %.</li><li>En elev säger att första svaret räcker för att välja motorns maximala mekaniska effekt. Visa med antagandet konstant acceleration varför slutsatsen inte håller.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{100}{3{,}6}\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{k}}=\\frac{1000 \\left(\\frac{100}{3{,}6}\\right)^{2}}{2}\\approx 385\\,802\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{\\Delta E_{\\mathrm{k}}}{6}\\approx 64{,}3\\, \\mathrm{kW}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">P_bränsle,medel =</p><div class=\"facit-matte\">\\[\\frac{64{,}3004}{0{,}35}\\approx 183{,}7\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är tillförd effekt från bränslet, inte motorns mekaniska uteffekt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant acceleration är F = mΔv/t konstant och P = Fv växer linjärt från noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I slutet blir</p><div class=\"facit-matte\">\\[P=m \\left(\\frac{v}{t}\\right) v=\\frac{2 \\Delta E_{\\mathrm{k}}}{t}\\approx 128{,}6\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Motorn måste då kunna lämna mer än medeleffekten.</p></div><div class=\"facit-stycke\"><p>Utan uppgift om accelerationsförloppet kan den nödvändiga toppeffekten inte bestämmas från medeleffekten ensam.</p></div></div></div></div></div>",
+    "t": "<p>En bil på 1000 kg ökar farten från vila till 100 km/h på 6,0 s på en vågrät väg. Bortse från luftmotstånd, rullmotstånd och hjulens rotation.</p><ol type=\"a\"><li>Bestäm den nyttiga mekaniska medeleffekten under fartökningen.</li><li>Bestäm medeleffekten från bränslet om verkningsgraden är 35 %.</li><li>En elev menar att medeleffekten i a räcker för att välja motorns största mekaniska effekt. Visa med antagandet konstant acceleration varför slutsatsen inte håller.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Omvandla slutfarten. Ökningen i rörelseenergi är bilens rörelseenergi vid slutet, eftersom den startar från vila.</p>\\[v=\\frac{100}{3{,}6}\\approx27{,}7778\\,\\mathrm{m/s}\\]\\[\\Delta E_k=\\frac{1000\\cdot(100/3{,}6)^2}{2}\\approx385802{,}47\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{\\Delta E_k}{6{,}0}\\approx64300{,}4\\,\\mathrm W\\]\\[P_\\text{medel}\\approx64{,}3\\,\\mathrm{kW}\\]<p><strong>b)</strong> Den nyttiga effekten är 35 % av bränslets effekt. Använd oavrundad medeleffekt.</p>\\[\\begin{gathered}P_\\text{bränsle,medel}=\\frac{1000\\cdot(100/3{,}6)^2}{2\\cdot6{,}0\\cdot0{,}35}\\\\\\approx183715\\,\\mathrm W\\end{gathered}\\]\\[P_\\text{bränsle,medel}\\approx184\\,\\mathrm{kW}\\]<p><strong>c)</strong> Konstant acceleration ger konstant drivkraft. Effekten i ett visst ögonblick är P = Fv och ökar när farten ökar.</p>\\[a=\\frac{100/3{,}6}{6{,}0}\\approx4{,}62963\\,\\mathrm{m/s^2}\\]\\[F=ma\\approx4629{,}63\\,\\mathrm N\\]\\[\\begin{gathered}P_\\text{slut}=Fv\\\\=\\frac{1000\\cdot(100/3{,}6)^2}{6{,}0}\\approx128601\\,\\mathrm W\\end{gathered}\\]\\[P_\\text{slut}\\approx129\\,\\mathrm{kW}\\]<p>Sluteffekten är dubbla medeleffekten i detta fall. Motorn måste alltså kunna ge mer än medeleffekten. Om accelerationens förlopp inte är känt går den största nödvändiga effekten inte att bestämma enbart från medeleffekten.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "modellering",
@@ -53277,7 +53277,7 @@ window.BANK = [
     "typ": "medeleffekt och motorns märkeffekt",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -53519,8 +53519,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>Ett tak har vågrät uppsamlingsarea 120 m². Under två timmar faller 18 mm regn. Allt vatten samlas upp och kan sänkas 6,0 m. Vattnets densitet är 1000 kg/m³. Bortse från skillnaden i rörelseenergi mellan start och slut.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den lägesenergi som högst kan omvandlas.</li><li>Bestäm motsvarande medeleffekt under regnet.</li><li>Anta att en generator återvinner 40 % och att elen värderas till 2,00 kr/kWh. Beräkna värdet av elen från detta regn. Räcker uppgifterna för att avgöra investeringens lönsamhet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = 120 · 0,018 = 2,16 m³,</p><div class=\"facit-matte\">\\[m=2160\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=m g h=2160\\cdot 9{,}82\\cdot 6=127\\,267{,}2 J\\approx 127\\, \\mathrm{kJ}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Två timmar är 7200 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{127\\,267{,}2}{7200}=17{,}676 W\\approx 17{,}7\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E_{\\mathrm{el}}\\) = 0,40 · 127 267,2/3 600 000 = 0,0141408 kWh.</p></div><div class=\"facit-stycke\"><p>Värdet är 0,0282816 kr, cirka 2,8 öre.</p></div><div class=\"facit-stycke\"><p>Utbytet från detta regn är litet, men en lönsamhetsberäkning kräver även årsnederbörd, kostnader och livslängd.</p></div><div class=\"facit-stycke\"><p>Enbart medeleffekten räcker inte.</p></div></div></div></div></div>",
+    "t": "<p>Ett tak är 120 m² sett uppifrån. Under två timmar faller 18 mm regn. Allt vatten samlas upp och kan sänkas 6,0 m. Vattnets densitet är 1000 kg/m³. Bortse från skillnaden i rörelseenergi före och efter sänkningen. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket lägesenergi kan som mest omvandlas när vattnet sänks?</li><li>Vilken medeleffekt motsvarar detta om energin fördelas över regnets två timmar?</li><li>En generator omvandlar 40 % av energin till el. Elen värderas till 2,00 kr/kWh. Vad är elen från regnet värd?</li><li>Räcker dessa uppgifter för att avgöra om en sådan anläggning är lönsam?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Omvandla regndjupet: 18 mm = 0,018 m. Beräkna volym, massa och lägesenergi.</p>\\[V=120\\cdot0{,}018=2{,}16\\,\\mathrm{m^3}\\]\\[m=1000\\cdot2{,}16=2160\\,\\mathrm{kg}\\]\\[E=mgh=2160\\cdot9{,}82\\cdot6{,}0=127267{,}2\\,\\mathrm J\\]<p>Det är cirka 127 kJ.</p><p><strong>b)</strong> Två timmar är 7200 s.</p>\\[P_\\text{medel}=\\frac{127267{,}2}{7200}\\approx17{,}7\\,\\mathrm W\\]<p><strong>c)</strong> Ta 40 % av energin och omvandla till kWh innan priset beräknas.</p>\\[E_\\text{el}=0{,}40\\cdot127267{,}2=50906{,}88\\,\\mathrm J\\]\\[E_\\text{el}=\\frac{50906{,}88}{3600000}=0{,}0141408\\,\\mathrm{kWh}\\]\\[\\text{värde}=0{,}0141408\\cdot2{,}00\\approx0{,}0283\\,\\mathrm{kr}\\]<p>Det motsvarar cirka 2,83 öre.</p><p><strong>d)</strong> Nej. Vi behöver också veta bland annat hur mycket regn som kan användas under ett år, anläggningens kostnad, underhåll och livslängd. Utbytet från ett enda regn räcker inte för att avgöra lönsamheten.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -53541,7 +53541,7 @@ window.BANK = [
     "typ": "energiutbyte från regnvatten",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true
   },
@@ -53553,7 +53553,7 @@ window.BANK = [
     "typ": "kraft gånger fart",
     "poang": "(1/0/0)",
     "t": "<p>En vinsch drar en last med konstant fart 2,0 m/s. Dragkraften är 600 N i rörelseriktningen. Använd P = Fv.</p><p>Bestäm dragkraftens mekaniska effekt. Svara i W. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) vinschens dragkraft, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=600\\cdot 2{,}0=1200\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1200 W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraften är i rörelseriktningen. Effekt är kraft gånger fart.</p>\\[P=Fv=600\\cdot2{,}0=1200\\,\\mathrm W\\]</div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "procedur"
@@ -54016,8 +54016,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Vid ett roddpass är den nyttiga mekaniska effekten konstant 180 W. I denna modell är verkningsgraden 22 %, definierad som mekaniskt arbete dividerat med kroppens totala kemiska energiomsättning under passet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kroppens kemiska energiomsättning per sekund enligt modellen.</li><li>Bestäm den kemiska energi som omsätts under 30 min.</li><li>Vart tar energin vägen som inte blir mekaniskt arbete?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{kemisk}}=\\frac{180}{0{,}22}\\approx 818\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{kemisk}}=\\left(\\frac{180}{0{,}22}\\right)\\cdot 1800\\approx 1{,}47\\, \\mathrm{MJ}\\]</div></div></div><div class=\"facit-stycke\"><p>Mellanresultatet avrundas inte.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Skillnaden \\(P_{\\mathrm{kemisk}}\\)−180 ≈ 638 W blir främst inre energi i kroppen och avges till omgivningen.</p></div><div class=\"facit-stycke\"><p>Energin bevaras.</p></div><div class=\"facit-stycke\"><p>Modellen innehåller redan all kemisk energiomsättning enligt den givna definitionen; något extra vilobehov ska inte läggas till.</p></div></div></div></div></div>",
+    "t": "<p>Under ett roddpass är den nyttiga mekaniska effekten 180 W. I en förenklad modell blir 22 % av kroppens använda kemiska energi mekaniskt arbete.</p><ol type=\"a\"><li>Hur mycket kemisk energi använder kroppen per sekund enligt modellen?</li><li>Hur mycket kemisk energi används under 30 minuter?</li><li>Vart tar den energi vägen som inte blir mekaniskt arbete?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Den nyttiga effekten är 22 % av kroppens kemiska effekt.</p>\\[P_\\text{kemisk}=\\frac{180}{0{,}22}\\approx818\\,\\mathrm W\\]<p>Det motsvarar cirka 818 J kemisk energi per sekund.</p><p><strong>b)</strong> 30 min = 1800 s. Multiplicera tiden med den oavrundade effekten.</p>\\[E_\\text{kemisk}=\\frac{180}{0{,}22}\\cdot1800\\approx1472727\\,\\mathrm J\\]\\[E_\\text{kemisk}\\approx1{,}47\\,\\mathrm{MJ}\\]<p><strong>c)</strong> Skillnaden mellan kemisk effekt och nyttig effekt är 180/0,22 − 180 ≈ 638 W. Energin blir främst värme i kroppen och överförs till omgivningen. Energin försvinner inte. Modellen avser kroppens hela kemiska energianvändning enligt den givna andelen.</p></div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "begrepp",
@@ -55424,8 +55424,8 @@ window.BANK = [
     "niva": "E",
     "typ": "framdrivning vid konstant fart",
     "poang": "(3/0/0)",
-    "t": "<p>En båt går rakt fram med konstant fart 6,0 m/s. Propellerns framåtriktade kraft på båten är 1800 N. Vattenmotståndet är den enda andra vågräta kraften.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den effekt propellerkraften överför till båtens framåtrörelse.</li><li>Bestäm vattenmotståndets storlek och riktning. Motivera.</li><li>Varför ökar inte båtens rörelseenergi trots att propellerkraften överför energi?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) propellerns framåtriktade kraft på båten, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=F v=1800\\cdot 6{,}0=10\\,800 W=10{,}8\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Det är nyttig framdrivningseffekt, inte propelleraxelns totala effekt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Resultanten är noll när hastigheten är konstant.</p></div><div class=\"facit-stycke\"><p>Vattenmotståndet är därför 1800 N bakåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Motståndskraftens effekt på båten är −10,8 kW.</p></div><div class=\"facit-stycke\"><p>Nettoeffekten på båtens rörelse är noll; energi överförs i stället till vatten och omgivning.</p></div></div></div></div></div>",
+    "t": "<p>En båt går rakt fram med konstant fart 6,0 m/s. Propellern ger båten kraften 1800 N framåt. Vattenmotståndet är den enda andra vågräta kraften.</p><ol type=\"a\"><li>Vilken effekt överför propellerkraften till båtens framåtrörelse?</li><li>Hur stort är vattenmotståndet och vilken riktning har det? Motivera.</li><li>Varför ökar inte båtens rörelseenergi trots att propellern överför energi?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Kraften verkar i rörelseriktningen, så effekt = kraft gånger fart.</p>\\[\\begin{gathered}P=Fv\\\\=1800\\cdot6{,}0=10800\\,\\mathrm W=10{,}8\\,\\mathrm{kW}\\end{gathered}\\]<p>Detta är effekten som driver båten framåt. Propelleraxelns totala effekt kan vara större.</p><p><strong>b)</strong> Konstant hastighet ger kraftsumman noll. Vattenmotståndet är därför 1800 N bakåt.</p><p><strong>c)</strong> Vattenmotståndets arbete på båten är negativt. Dess effekt är −1800 · 6,0 = −10,8 kW. De två krafternas effekter tar ut varandra, så rörelseenergin är oförändrad. Energin från propellern överförs i stället till vatten och omgivning.</p></div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "begrepp",
@@ -55440,7 +55440,7 @@ window.BANK = [
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -55455,7 +55455,7 @@ window.BANK = [
     "typ": "från tillförd till nyttig effekt",
     "poang": "(1/0/0)",
     "t": "<p>En motor tar emot 1700 W elektrisk effekt. Verkningsgraden är 75 %. Använd \\(P_\\text{nyttig}=\\eta P_\\text{in}\\), med η i decimalform.</p><p>Bestäm den nyttiga effekten. Svara i W. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>75 % = 0,75.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{nyttig}}=0{,}75\\cdot 1700=1275\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1275 W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv 75 % som 0,75. Den nyttiga effekten är denna andel av den tillförda effekten.</p>\\[P_\\text{nyttig}=0{,}75\\cdot1700=1275\\,\\mathrm W\\]</div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "procedur"
@@ -55482,7 +55482,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En motor tar emot 800 W och har verkningsgraden 0,75. Använd \\(P_\\text{nyttig}=\\eta P_\\text{in}\\).</p><p>Bestäm den nyttiga effekten. Svara i W. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{nyttig}}=0{,}75\\cdot 800=600\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 600 W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera tillförd effekt med den givna verkningsgraden.</p>\\[P_\\text{nyttig}=0{,}75\\cdot800=600\\,\\mathrm W\\]</div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Verkningsgrad",
@@ -55527,7 +55527,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 1200,
+    "rättSvar": 1200.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "W",
@@ -55543,9 +55543,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "typ": "vattenflöde och pumpeffekt",
-    "poang": "(0/2/0)",
-    "t": "<p>En pump för över 8,0 liter vatten per sekund mellan två öppna behållare. Vattenytorna skiljer 25 m i höjd. Densiteten är 1000 kg/m³. Pumpanläggningens verkningsgrad från el till ökad lägesenergi är 65 %. Bortse från förändring av vattnets rörelseenergi.</p><p>Använd g = 9,82 m/s².</p><p>Vilken elektrisk effekt behövs? Svara i kW. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>8,0 L/s = 0,0080 m³/s, så massflödet är 8,0 kg/s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{nyttig}}=8{,}0\\cdot 9{,}82\\cdot 25=1964\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=\\frac{1964}{0{,}65}\\approx 3021{,}538 W=3{,}021538\\, \\mathrm{kW}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,02 kW.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En pump flyttar 8,0 liter vatten varje sekund mellan två öppna behållare. Den övre vattenytan ligger 25 m högre. Vattnets densitet är 1,0 kg/L. Av den elektriska effekten blir 65 % nyttig effekt som höjer vattnet. Bortse från ändring i rörelseenergin och använd g = 9,82 m/s². Vilken elektrisk effekt behövs? Svara i kW.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje sekund höjs massan 8,0 · 1,0 = 8,0 kg. Beräkna ökningen i lägesenergi för detta vatten.</p>\\[\\Delta E_p=8{,}0\\cdot9{,}82\\cdot25=1964\\,\\mathrm J\\]<p>1964 J per sekund ger den nyttiga effekten 1964 W. Dividera med verkningsgraden för att få eleffekten.</p>\\[P_\\text{el}=\\frac{1964}{0{,}65}\\approx3022\\,\\mathrm W\\]\\[P_\\text{el}\\approx3{,}02\\,\\mathrm{kW}\\]</div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -55553,8 +55553,8 @@ window.BANK = [
     ],
     "familjNyckel": "effekt__vattenflode_och_pumpeffekt",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.02,
-    "tolerans": 0,
+    "rättSvar": 3.0215384615384613,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Hur stor vattenmassa måste höjas under varje sekund?</p>",
     "traningsniva": 3,
@@ -55574,9 +55574,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "typ": "jämföra framdrivningseffekt",
-    "poang": "(0/2/0)",
-    "t": "<p>En cyklist håller konstant fart på plan väg. Vid 7,5 m/s är den nyttiga framdrivningseffekten 210 W. Vid 9,0 m/s är den sammanlagda motståndskraften 40 N. Jämför den nyttiga effekten i de två fallen.</p><p>Med hur många procent måste effekten öka vid den högre farten? Svara i %. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid den högre konstanta farten är drivkraften 40 N, så</p><div class=\"facit-matte\">\\[P_{2}=40\\cdot 9{,}0=360\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ökningen relativt 210 W är</p><div class=\"facit-matte\">\\[\\frac{\\left(360-210\\right)}{210}\\cdot 100\\approx 71{,}4286\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 71,4 %.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En cyklist håller konstant fart på plan väg. Vid 7,5 m/s är den nyttiga framdrivningseffekten 210 W. Vid 9,0 m/s är motståndskraften 40 N. Med hur många procent måste den nyttiga effekten öka? Svara i procent.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid den högre konstanta farten måste drivkraften balansera motståndet, 40 N.</p>\\[P_2=Fv=40\\cdot9{,}0=360\\,\\mathrm W\\]<p>Jämför ökningen med den ursprungliga effekten, 210 W.</p>\\[\\text{ökning}=\\frac{360-210}{210}\\cdot100\\,\\%\\approx71{,}4\\,\\%\\]</div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -55584,8 +55584,8 @@ window.BANK = [
     ],
     "familjNyckel": "effekt__jamfora_framdrivningseffekt",
     "svarstyp": "numeriskt",
-    "rättSvar": 71.4,
-    "tolerans": 0,
+    "rättSvar": 71.42857142857143,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Vilken effekt krävs för att balansera motståndet vid den högre farten?</p>",
     "traningsniva": 3,
@@ -55683,24 +55683,24 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>8,0 liter vatten lyfts 12 m ur en brunn på 20 s, från vila till vila. Vattnets densitet är 1,0 kg/L. Bortse från hinkens och linans massa samt förluster.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm medeleffekten som går till vattnets ökade lägesenergi. Svara i W. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vattnets massa är 8,0 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{m g h}{t}=\\frac{8{,}0\\cdot 9{,}82\\cdot 12}{20}=47{,}136\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 47,14 W.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>8,0 liter vatten lyfts 12 m ur en brunn på 20 s, från vila till vila. Vattnets densitet är 1,0 kg/L. Bortse från hinkens och linans massa samt energiförluster. Använd g = 9,82 m/s². Vilken medeleffekt går till vattnets ökade lägesenergi? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnets massa är 8,0 · 1,0 = 8,0 kg. Beräkna lägesenergins ökning och dividera med lyfttiden.</p>\\[\\Delta E_p=8{,}0\\cdot9{,}82\\cdot12=942{,}72\\,\\mathrm J\\]\\[P=\\frac{942{,}72}{20}\\approx47{,}1\\,\\mathrm W\\]</div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "effekt__volym_till_lyfteffekt",
     "svarstyp": "numeriskt",
-    "rättSvar": 47.14,
-    "tolerans": 0,
+    "rättSvar": 47.136,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Hur omvandlas vattenvolymen till massa?</p>",
     "traningsniva": 2,
     "typ": "volym till lyfteffekt",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "W",
     "svarFormat": "numeriskt",
@@ -55716,7 +55716,7 @@ window.BANK = [
     "typ": "joule och kilowattimmar",
     "poang": "(3/0/0)",
     "t": "<p>En dammsugare tar emot konstant elektrisk effekt 1200 W och används i 25 minuter.</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur många sekunder används den? Svara i s. Svara med ett heltal.</li><li>Hur mycket elektrisk energi tar den emot? Svara i J. Svara med ett heltal.</li><li>Hur mycket elektrisk energi tar den emot? Svara i kWh. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[25\\cdot 60=1500\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1500 s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=P t=1200\\cdot \\left(25\\cdot 60\\right)=1\\,800\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1800000 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1200 W = 1,2 kW och tiden är 25/60 h.</p></div><div class=\"facit-stycke\"><p>E = 1,2 · 25/60 = 0,5 kWh.</p></div></div><p class=\"facit-svar\">Svar: 0,5 kWh.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>En minut är 60 sekunder.</p>\\[t=25\\cdot60=1500\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Omvandla tiden till sekunder. Konstant effekt gånger tid ger energin.</p>\\[t=25\\cdot60=1500\\,\\mathrm s\\]\\[E=Pt=1200\\cdot1500=1800000\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Omvandla 1200 W till 1,2 kW och 25 minuter till 25/60 timmar. kW gånger timmar ger kWh.</p>\\[E=1{,}2\\cdot\\frac{25}{60}=0{,}50\\,\\mathrm{kWh}\\]</div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "procedur"
@@ -55768,7 +55768,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur många sekunder är det? Svara med ett heltal.",
         "t": "<p>En dammsugare används i 25 minuter.</p><p>Hur många sekunder är det? Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[25\\cdot 60=1500\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1500 s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En minut är 60 sekunder.</p>\\[t=25\\cdot60=1500\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Hur många sekunder går det på en minut?</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -55782,7 +55782,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Hur mycket elektrisk energi tar den emot? Svara i J. Svara med ett heltal.",
         "t": "<p>En dammsugare tar emot konstant elektrisk effekt 1200 W och används i 25 minuter.</p><p>Hur mycket elektrisk energi tar den emot? Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=P t=1200\\cdot \\left(25\\cdot 60\\right)=1\\,800\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1800000 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla tiden till sekunder. Konstant effekt gånger tid ger energin.</p>\\[t=25\\cdot60=1500\\,\\mathrm s\\]\\[E=Pt=1200\\cdot1500=1800000\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken tidsenhet hör ihop med watt och joule?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -55796,7 +55796,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Hur mycket elektrisk energi tar den emot? Svara i kWh. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En dammsugare tar emot konstant elektrisk effekt 1200 W och används i 25 minuter.</p><p>Hur mycket elektrisk energi tar den emot? Svara i kWh. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1200 W = 1,2 kW och tiden är 25/60 h.</p></div><div class=\"facit-stycke\"><p>E = 1,2 · 25/60 = 0,5 kWh.</p></div></div><p class=\"facit-svar\">Svar: 0,5 kWh.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 1200 W till 1,2 kW och 25 minuter till 25/60 timmar. kW gånger timmar ger kWh.</p>\\[E=1{,}2\\cdot\\frac{25}{60}=0{,}50\\,\\mathrm{kWh}\\]</div>",
         "ledtrad": "<p>Vilka enheter ska effekt och tid ha för att produkten ska bli kWh?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -55814,8 +55814,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>En hisskorg på 800 kg med last på 400 kg är förbunden med en motvikt på 700 kg via en lina över ett motordrivet hjul. Linan glider inte mot hjulet. Hiss och motvikt rör sig med samma fart åt motsatta håll. Bortse från förluster och räkna på en tid när farten är konstant.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm motorns mekaniska effekt när hissen går upp med 2,0 m/s.</li><li>Bestäm motsvarande effekt utan motvikt.</li><li>En elev säger att linan på hissidan bara behöver dra med skillnaden i tyngd mellan hiss och motvikt. Granska påståendet och bestäm linspänningen på vardera sidan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid jämn lyftrörelse ändras inte rörelseenergin.</p></div><div class=\"facit-stycke\"><p>Motvikten sänks lika mycket som hissen höjs.</p></div><div class=\"facit-stycke\"><p>Arbetet är därför \\(W=(m_{\\mathrm{hiss}}-m_{\\mathrm{motvikt}})g\\Delta h\\).</p></div><div class=\"facit-stycke\"><p>Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p></div></div>\\[P=\\frac{W}{t}=(m_{\\mathrm{hiss}}-m_{\\mathrm{motvikt}})g\\frac{\\Delta h}{t}= (m_{\\mathrm{hiss}}-m_{\\mathrm{motvikt}})gv.\\]<div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Hisskorg med last har massan 1200 kg.</p></div><div class=\"facit-stycke\"><p>Motvikten sänks lika snabbt som hissen höjs.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\left(1200-700\\right) g\\cdot 2{,}0=9820 W=9{,}82\\, \\mathrm{kW}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Utan motvikt:</p><div class=\"facit-matte\">\\[P=1200\\cdot 9{,}82\\cdot 2{,}0=23\\,568 W\\approx 23{,}6\\, \\mathrm{kW}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Påståendet är fel.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant fart ger T_hiss = 1200g = 11 784 N och</p><div class=\"facit-matte\">\\[T_{\\mathrm{motvikt}}=700 g=6874\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Skillnaden 4910 N bestämmer motorns drivmoment via drivhjulets radie; den är inte linspänningen på hissidan.</p></div></div></div></div></div>",
+    "t": "<p>En hisskorg på 800 kg med last på 400 kg är förbunden med en motvikt på 700 kg. Hiss och motvikt rör sig via en lina över ett motordrivet hjul, lika snabbt åt motsatta håll. Linan glider inte mot hjulet. Bortse från energiförluster och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm motorns mekaniska effekt när hissen går upp med konstant fart 2,0 m/s.</li><li>Vilken effekt skulle krävas vid samma lyft utan motvikt?</li><li>En elev säger att linans kraft på hissen bara behöver vara skillnaden i tyngd mellan hiss och motvikt. Stämmer det? Bestäm linans kraft på vardera sidan av hjulet.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Hiss och last har massan 800 + 400 = 1200 kg. På en sekund höjs hissen 2,0 m och motvikten sänks 2,0 m. Beräkna deras lägesenergiändringar.</p>\\[\\Delta E_\\text{hiss}=1200\\cdot9{,}82\\cdot2{,}0=23568\\,\\mathrm J\\]\\[\\Delta E_\\text{motvikt}=-700\\cdot9{,}82\\cdot2{,}0=-13748\\,\\mathrm J\\]\\[\\begin{gathered}P_\\text{motor}=23568-13748\\\\=9820\\,\\mathrm W=9{,}82\\,\\mathrm{kW}\\end{gathered}\\]<p>Motorn behöver ge skillnaden, eftersom motviktens lägesenergi minskar.</p><p><strong>b)</strong> Utan motvikt måste motorn ge hela hissens energiökning per sekund.</p>\\[P=1200\\cdot9{,}82\\cdot2{,}0=23568\\,\\mathrm W\\]<p>Det är cirka 23,6 kW.</p><p><strong>c)</strong> Nej. Konstant fart betyder att linans kraft balanserar tyngdkraften för varje kropp för sig.</p>\\[T_\\text{hiss}=1200\\cdot9{,}82=11784\\,\\mathrm N\\]\\[T_\\text{motvikt}=700\\cdot9{,}82=6874\\,\\mathrm N\\]<p>Skillnaden är 11 784 − 6874 = 4910 N. Den bestämmer hur motorn behöver driva hjulet; den är inte linans kraft på hissen.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -55831,7 +55831,7 @@ window.BANK = [
     "typ": "motviktens betydelse",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -55845,7 +55845,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Under en förenklad uppvärmningsfas tar en tvättmaskin emot konstant elektrisk effekt 2,0 kW.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm energin under 45 min. Svara i J. Svara med ett heltal.</li><li>Bestäm energin under 45 min. Svara i kWh. Avrunda vid behov till 2 decimaler.</li><li>Hur lång tid tar det att ta emot 1,0 MJ? Svara i s. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>45 min = 2700 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=2000\\cdot 2700=5\\,400\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5400000 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>45 min = 0,75 h.</p></div><div class=\"facit-stycke\"><p>E = 2,0 · 0,75 = 1,5 kWh.</p></div></div><p class=\"facit-svar\">Svar: 1,5 kWh.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">1,0 MJ = 1 000 000 J.</p><div class=\"facit-matte\">\\[t=\\frac{E}{P}=\\frac{1\\,000\\,000}{2000}=500\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 500 s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 2,0 kW till 2000 W och 45 min till 2700 s. Effekt gånger tid ger energin.</p>\\[E=Pt=2000\\cdot2700=5400000\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Omvandla 45 min till 45/60 = 0,75 h. kW gånger timmar ger kWh.</p>\\[E=Pt=2{,}0\\cdot0{,}75=1{,}50\\,\\mathrm{kWh}\\]<p><strong>c)</strong></p><p>Omvandla 1,0 MJ till 1 000 000 J och 2,0 kW till 2000 W. Dividera energin med effekten.</p>\\[t=\\frac EP=\\frac{1000000}{2000}=500\\,\\mathrm s\\]</div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "procedur"
@@ -55898,7 +55898,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm energin under 45 min. Svara i J. Svara med ett heltal.",
         "t": "<p>Under en förenklad uppvärmningsfas tar en tvättmaskin emot konstant elektrisk effekt 2,0 kW.</p><p>Bestäm energin under 45 min. Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>45 min = 2700 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=2000\\cdot 2700=5\\,400\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5400000 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 2,0 kW till 2000 W och 45 min till 2700 s. Effekt gånger tid ger energin.</p>\\[E=Pt=2000\\cdot2700=5400000\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken tid ska användas när effekten anges i watt?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -55912,7 +55912,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm energin under 45 min. Svara i kWh. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Under en förenklad uppvärmningsfas tar en tvättmaskin emot konstant elektrisk effekt 2,0 kW.</p><p>Bestäm energin under 45 min. Svara i kWh. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>45 min = 0,75 h.</p></div><div class=\"facit-stycke\"><p>E = 2,0 · 0,75 = 1,5 kWh.</p></div></div><p class=\"facit-svar\">Svar: 1,5 kWh.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 45 min till 45/60 = 0,75 h. kW gånger timmar ger kWh.</p>\\[E=Pt=2{,}0\\cdot0{,}75=1{,}50\\,\\mathrm{kWh}\\]</div>",
         "ledtrad": "<p>Hur stor del av en timme är 45 minuter?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -55926,7 +55926,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Hur lång tid tar det att ta emot 1,0 MJ? Svara i s. Svara med ett heltal.",
         "t": "<p>Under en förenklad uppvärmningsfas tar en tvättmaskin emot konstant elektrisk effekt 2,0 kW.</p><p>Hur lång tid tar det att ta emot 1,0 MJ? Svara i s. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">1,0 MJ = 1 000 000 J.</p><div class=\"facit-matte\">\\[t=\\frac{E}{P}=\\frac{1\\,000\\,000}{2000}=500\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 500 s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 1,0 MJ till 1 000 000 J och 2,0 kW till 2000 W. Dividera energin med effekten.</p>\\[t=\\frac EP=\\frac{1000000}{2000}=500\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>Vilken storhet behöver lösas ut ur E = Pt?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -55944,9 +55944,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "E",
     "typ": "välja fart vid given effekt",
-    "poang": "(2/0/0)",
-    "t": "<p>En vinsch kan lämna högst 1,44 kW mekanisk effekt. Den ska dra med kraften 600 N i rörelseriktningen under jämn rörelse. Bortse från övriga begränsningar.</p><p>Vilken är den största konstanta farten som effektgränsen tillåter? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) vinschens dragkraft, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">P = Fv ger</p><div class=\"facit-matte\">\\[v_{\\mathrm{max}}=\\frac{1440}{600}=2{,}4\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><p>Högre fart med samma kraft kräver mer än 1,44 kW.</p></div></div><p class=\"facit-svar\">Svar: 2,4 m/s.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En vinsch kan lämna högst 1,44 kW mekanisk effekt. Den drar med kraften 600 N i rörelseriktningen. Vilken är den största konstanta fart som effektgränsen tillåter? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 1,44 kW till 1440 W. Lös P = Fv för farten.</p>\\[v_\\text{max}=\\frac PF=\\frac{1440}{600}=2{,}40\\,\\mathrm{m/s}\\]<p>Högre fart med samma kraft kräver mer än 1,44 kW.</p></div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "procedur"
@@ -55954,13 +55954,13 @@ window.BANK = [
     "familjNyckel": "effekt__valja_fart_vid_given_effekt",
     "svarstyp": "numeriskt",
     "rättSvar": 2.4,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hur hänger kraft, fart och mekanisk effekt ihop?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "m/s",
     "svarFormat": "numeriskt",
@@ -59661,8 +59661,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En person på 65 kg går uppför trappsteg som är 0,18 m höga. I en förenklad energimodell finns 1200 kJ kemisk energi tillgänglig. Bortse från andra energibehov än dem som anges.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm ökningen i lägesenergi per steg. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Hur många hela steg räcker energin högst till om all energi blir lägesenergi? Svara med ett heltal.</li><li>Hur många hela steg räcker energin högst till om 20 % blir lägesenergi enligt modellen? Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{steg}}=m g h=65\\cdot 9{,}82\\cdot 0{,}18=114{,}894\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 114,89 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1200 k J=1\\,200\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kvoten</p><div class=\"facit-matte\">\\[\\frac{1\\,200\\,000}{114{,}894}\\approx 10444{,}41\\]</div></div></div><div class=\"facit-stycke\"><p>Antalet fullständiga steg är därför 10 444.</p></div></div><p class=\"facit-svar\">Svar: 10444.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Till lägesenergi går</p><div class=\"facit-matte\">\\[0{,}20\\cdot 1\\,200\\,000=240\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>240 000/114,894 ≈ 2088,88, alltså högst 2088 hela steg.</p></div></div><p class=\"facit-svar\">Svar: 2088.</p></div></div></div>",
+    "t": "<p>En person på 65 kg går uppför trappsteg som är 0,18 m höga. I en förenklad modell finns 1200 kJ kemisk energi tillgänglig. Räkna bara på energi till höjdökningen. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket ökar lägesenergin per steg? Svara i J. Svara med tre värdesiffror.</li><li>Hur många hela steg räcker energin högst till om all energi blir lägesenergi? Svara med ett heltal.</li><li>Hur många hela steg räcker energin högst till om 20 % blir lägesenergi? Svara med ett heltal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Använd höjdökningen för ett steg.</p>\\[E_\\text{steg}=mgh=65\\cdot9{,}82\\cdot0{,}18=114{,}894\\,\\mathrm J\\]<p>Med tre värdesiffror: 115 J.</p><p><strong>b)</strong></p><p>Omvandla energin: 1200 kJ = 1 200 000 J. Varje steg ökar lägesenergin med 65 · 9,82 · 0,18 = 114,894 J.</p>\\[N=\\frac{1200000}{114{,}894}\\approx10444{,}41\\]<p>Avrunda nedåt eftersom energin måste räcka till hela steget: \\(N_\\text{max}=10444\\) steg.</p><p><strong>c)</strong></p><p>20 % av den kemiska energin blir lägesenergi. Varje steg kräver 65 · 9,82 · 0,18 = 114,894 J.</p>\\[E_\\text{nyttig}=0{,}20\\cdot1200000=240000\\,\\mathrm J\\]\\[N=\\frac{240000}{114{,}894}\\approx2088{,}88\\]<p>Avrunda nedåt: \\(N_\\text{max}=2088\\) hela steg.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "modellering",
@@ -59671,12 +59671,12 @@ window.BANK = [
     "familjNyckel": "arbete__verkningsgrad_och_hela_antal",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      114.89,
+      114.894,
       10444,
       2088
     ],
     "tolerans": [
-      0,
+      0.5,
       0,
       0
     ],
@@ -59705,17 +59705,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En person på 65 kg går uppför trappsteg som är 0,18 m höga. I en förenklad energimodell finns 1200 kJ kemisk energi tillgänglig. Bortse från andra energibehov än dem som anges.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En person på 65 kg går uppför trappsteg som är 0,18 m höga. I en förenklad modell finns 1200 kJ kemisk energi tillgänglig. Räkna bara på energi till höjdökningen. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket ökar personens lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En person på 65 kg går uppför ett trappsteg som är 0,18 m högt. Använd g = 9,82 m/s².</p><p>Hur mycket ökar personens lägesenergi? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E_{\\mathrm{steg}}=m g h=65\\cdot 9{,}82\\cdot 0{,}18=114{,}894\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 114,89 J.</p></div>",
+        "fraga": "Hur mycket ökar lägesenergin per steg? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En person på 65 kg går uppför ett trappsteg som är 0,18 m högt. Använd g = 9,82 m/s².</p><p>Hur mycket ökar lägesenergin per steg? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd höjdökningen för ett steg.</p>\\[E_\\text{steg}=mgh=65\\cdot9{,}82\\cdot0{,}18=114{,}894\\,\\mathrm J\\]<p>Med tre värdesiffror: 115 J.</p></div>",
         "ledtrad": "<p>Hur mycket höjs personen per steg?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -59723,9 +59723,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur många hela steg räcker energin högst till om all energi blir lägesenergi? Svara med ett heltal.",
-        "t": "<p>En person på 65 kg går uppför trappsteg som är 0,18 m höga. I en förenklad energimodell finns 1200 kJ kemisk energi tillgänglig. Bortse från andra energibehov än dem som anges.</p><p>Använd g = 9,82 m/s².</p><p>Hur många hela steg räcker energin högst till om all energi blir lägesenergi? Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1200 k J=1\\,200\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kvoten</p><div class=\"facit-matte\">\\[\\frac{1\\,200\\,000}{114{,}894}\\approx 10444{,}41\\]</div></div></div><div class=\"facit-stycke\"><p>Antalet fullständiga steg är därför 10 444.</p></div></div><p class=\"facit-svar\">Svar: 10444.</p></div>",
+        "fraga": "Hur många hela steg räcker energin högst till? Svara med ett heltal.",
+        "t": "<p>En person på 65 kg har 1200 kJ energi tillgänglig för att gå uppför trappsteg som är 0,18 m höga. Anta att all energi blir lägesenergi. Använd g = 9,82 m/s².</p><p>Hur många hela steg räcker energin högst till? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla energin: 1200 kJ = 1 200 000 J. Varje steg ökar lägesenergin med 65 · 9,82 · 0,18 = 114,894 J.</p>\\[N=\\frac{1200000}{114{,}894}\\approx10444{,}41\\]<p>Avrunda nedåt eftersom energin måste räcka till hela steget: \\(N_\\text{max}=10444\\) steg.</p></div>",
         "ledtrad": "<p>Avrunda åt det håll som inte kräver mer energi än vad som finns.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -59738,9 +59738,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur många hela steg räcker energin högst till om 20 % blir lägesenergi enligt modellen? Svara med ett heltal.",
-        "t": "<p>En person på 65 kg går uppför trappsteg som är 0,18 m höga. I en förenklad energimodell finns 1200 kJ kemisk energi tillgänglig. Bortse från andra energibehov än dem som anges.</p><p>Använd g = 9,82 m/s².</p><p>Hur många hela steg räcker energin högst till om 20 % blir lägesenergi enligt modellen? Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Till lägesenergi går</p><div class=\"facit-matte\">\\[0{,}20\\cdot 1\\,200\\,000=240\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>240 000/114,894 ≈ 2088,88, alltså högst 2088 hela steg.</p></div></div><p class=\"facit-svar\">Svar: 2088.</p></div>",
+        "fraga": "Hur många hela steg räcker energin högst till? Svara med ett heltal.",
+        "t": "<p>En person på 65 kg har 1200 kJ kemisk energi tillgänglig för att gå uppför trappsteg som är 0,18 m höga. Av den blir 20 % lägesenergi. Använd g = 9,82 m/s².</p><p>Hur många hela steg räcker energin högst till? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 % av den kemiska energin blir lägesenergi. Varje steg kräver 65 · 9,82 · 0,18 = 114,894 J.</p>\\[E_\\text{nyttig}=0{,}20\\cdot1200000=240000\\,\\mathrm J\\]\\[N=\\frac{240000}{114{,}894}\\approx2088{,}88\\]<p>Avrunda nedåt: \\(N_\\text{max}=2088\\) hela steg.</p></div>",
         "ledtrad": "<p>Beräkna först den del av energin som blir lägesenergi.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -59854,10 +59854,10 @@ window.BANK = [
     "id": "5.145",
     "kap": 5,
     "omr": "effekt",
-    "niva": "E",
-    "poang": "(3/0/0)",
-    "t": "<p>En pump flyttar 5,0 L vatten per sekund till en öppen behållare vars vattenyta ligger 30 m över den lägre vattenytan. Densiteten är 1,0 kg/L. Verkningsgraden från el till ökad lägesenergi är 65 %. Flödet och nivåskillnaden är konstanta. Elpriset antas vara 2,50 kr/kWh.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den nyttiga effekten. Svara i W. Svara med ett heltal.</li><li>Bestäm den elektriska effekten. Svara i kW. Avrunda vid behov till 2 decimaler.</li><li>Vad kostar elen under ett dygns oavbruten drift? Svara i kr. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Massflödet är 5,0 kg/s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{nyttig}}=5{,}0\\cdot 9{,}82\\cdot 30=1473\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1473 W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=\\frac{\\left(5{,}0\\cdot 9{,}82\\cdot 30\\right)}{0{,}65}\\approx 2266{,}1538 W=2{,}2661538\\, \\mathrm{kW}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,27 kW.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=\\frac{\\left(5{,}0\\cdot 9{,}82\\cdot 30\\right)}{0{,}65}\\approx 2266{,}1538\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kostnaden är</p><div class=\"facit-matte\">\\[\\left(\\frac{P_{\\mathrm{el}}}{1000}\\right)\\cdot 24\\cdot 2{,}50\\approx 135{,}9692 k r\\]</div></div></div><div class=\"facit-stycke\"><p>Använd oavrundad effekt.</p></div></div><p class=\"facit-svar\">Svar: 135,97 kr.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En pump flyttar 5,0 liter vatten varje sekund till en öppen behållare. Den övre vattenytan ligger 30 m högre. Vattnets densitet är 1,0 kg/L. Av den elektriska effekten blir 65 % nyttig effekt som höjer vattnet. Flödet och höjden är konstanta. Elpriset är 2,50 kr/kWh. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm den nyttiga effekten i W. Svara med tre värdesiffror.</li><li>Bestäm den elektriska effekten i kW. Svara med tre värdesiffror.</li><li>Vad kostar elen under ett dygns oavbruten drift? Svara i kr. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Varje sekund höjs 5,0 · 1,0 = 5,0 kg vatten. Effekten är lägesenergiökningen per sekund.</p>\\[P_\\text{nyttig}=5{,}0\\cdot9{,}82\\cdot30=1473\\,\\mathrm W\\]<p>Med tre värdesiffror: 1470 W.</p><p><strong>b)</strong></p><p>Varje sekund höjs 5,0 kg vatten. Beräkna nyttig effekt och dividera med verkningsgraden.</p>\\[P_\\text{nyttig}=5{,}0\\cdot9{,}82\\cdot30=1473\\,\\mathrm W\\]\\[P_\\text{el}=\\frac{1473}{0{,}65}\\approx2266{,}15\\,\\mathrm W\\]\\[P_\\text{el}\\approx2{,}27\\,\\mathrm{kW}\\]<p><strong>c)</strong></p><p>Varje sekund höjs 5,0 kg vatten. Beräkna nyttig effekt. Ett dygn är 24 timmar.</p>\\[P_\\text{nyttig}=5{,}0\\cdot9{,}82\\cdot30=1473\\,\\mathrm W\\]<p>Dividera med verkningsgraden och med 1000 för att få eleffekten i kW. Multiplicera med 24 timmar och använd oavrundad effekt.</p>\\[E_\\text{el}=\\frac{1473}{0{,}65\\cdot1000}\\cdot24\\approx54{,}3877\\,\\mathrm{kWh}\\]\\[\\text{kostnad}=E_\\text{el}\\cdot2{,}50\\approx136\\,\\mathrm{kr}\\]</div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "procedur"
@@ -59865,14 +59865,14 @@ window.BANK = [
     "familjNyckel": "effekt__pumpeffekt_och_energikostnad",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1473,
-      2.27,
-      135.97
+      1473.0,
+      2.266153846153846,
+      135.96923076923076
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      5.0,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken lägesenergi tillkommer varje sekund?</p>",
@@ -59899,16 +59899,16 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En pump flyttar 5,0 L vatten per sekund till en öppen behållare vars vattenyta ligger 30 m över den lägre vattenytan. Densiteten är 1,0 kg/L. Verkningsgraden från el till ökad lägesenergi är 65 %. Flödet och nivåskillnaden är konstanta. Elpriset antas vara 2,50 kr/kWh.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En pump flyttar 5,0 liter vatten varje sekund till en öppen behållare. Den övre vattenytan ligger 30 m högre. Vattnets densitet är 1,0 kg/L. Av den elektriska effekten blir 65 % nyttig effekt som höjer vattnet. Flödet och höjden är konstanta. Elpriset är 2,50 kr/kWh. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den nyttiga effekten. Svara i W. Svara med ett heltal.",
-        "t": "<p>En pump flyttar 5,0 L vatten per sekund till en öppen behållare vars vattenyta ligger 30 m över den lägre vattenytan. Densiteten är 1,0 kg/L. Verkningsgraden från el till ökad lägesenergi är 65 %. Flödet och nivåskillnaden är konstanta. Elpriset antas vara 2,50 kr/kWh.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den nyttiga effekten. Svara i W. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Massflödet är 5,0 kg/s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{nyttig}}=5{,}0\\cdot 9{,}82\\cdot 30=1473\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1473 W.</p></div>",
+        "fraga": "Bestäm den nyttiga effekten i W. Svara med tre värdesiffror.",
+        "t": "<p>En pump höjer 5,0 liter vatten varje sekund med 30 m. Vattnets densitet är 1,0 kg/L. Använd g = 9,82 m/s².</p><p>Bestäm den nyttiga effekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje sekund höjs 5,0 · 1,0 = 5,0 kg vatten. Effekten är lägesenergiökningen per sekund.</p>\\[P_\\text{nyttig}=5{,}0\\cdot9{,}82\\cdot30=1473\\,\\mathrm W\\]<p>Med tre värdesiffror: 1470 W.</p></div>",
         "ledtrad": "<p>Vilken lägesenergi tillkommer varje sekund?</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -59917,28 +59917,28 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den elektriska effekten. Svara i kW. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En pump flyttar 5,0 L vatten per sekund till en öppen behållare vars vattenyta ligger 30 m över den lägre vattenytan. Densiteten är 1,0 kg/L. Verkningsgraden från el till ökad lägesenergi är 65 %. Flödet och nivåskillnaden är konstanta. Elpriset antas vara 2,50 kr/kWh.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den elektriska effekten. Svara i kW. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=\\frac{\\left(5{,}0\\cdot 9{,}82\\cdot 30\\right)}{0{,}65}\\approx 2266{,}1538 W=2{,}2661538\\, \\mathrm{kW}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,27 kW.</p></div>",
+        "fraga": "Bestäm den elektriska effekten i kW. Svara med tre värdesiffror.",
+        "t": "<p>En pump flyttar 5,0 liter vatten varje sekund till en behållare 30 m högre. Vattnets densitet är 1,0 kg/L. Av eleffekten blir 65 % nyttig effekt som höjer vattnet. Använd g = 9,82 m/s².</p><p>Bestäm den elektriska effekten i kW. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje sekund höjs 5,0 kg vatten. Beräkna nyttig effekt och dividera med verkningsgraden.</p>\\[P_\\text{nyttig}=5{,}0\\cdot9{,}82\\cdot30=1473\\,\\mathrm W\\]\\[P_\\text{el}=\\frac{1473}{0{,}65}\\approx2266{,}15\\,\\mathrm W\\]\\[P_\\text{el}\\approx2{,}27\\,\\mathrm{kW}\\]</div>",
         "ledtrad": "<p>Vilken av effekterna är störst när verkningsgraden är mindre än 100 %?</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
       },
       {
         "etikett": "c",
-        "fraga": "Vad kostar elen under ett dygns oavbruten drift? Svara i kr. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En pump flyttar 5,0 L vatten per sekund till en öppen behållare vars vattenyta ligger 30 m över den lägre vattenytan. Densiteten är 1,0 kg/L. Verkningsgraden från el till ökad lägesenergi är 65 %. Flödet och nivåskillnaden är konstanta. Elpriset antas vara 2,50 kr/kWh.</p><p>Använd g = 9,82 m/s².</p><p>Vad kostar elen under ett dygns oavbruten drift? Svara i kr. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=\\frac{\\left(5{,}0\\cdot 9{,}82\\cdot 30\\right)}{0{,}65}\\approx 2266{,}1538\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kostnaden är</p><div class=\"facit-matte\">\\[\\left(\\frac{P_{\\mathrm{el}}}{1000}\\right)\\cdot 24\\cdot 2{,}50\\approx 135{,}9692 k r\\]</div></div></div><div class=\"facit-stycke\"><p>Använd oavrundad effekt.</p></div></div><p class=\"facit-svar\">Svar: 135,97 kr.</p></div>",
+        "fraga": "Vad kostar elen under ett dygns oavbruten drift? Svara i kr. Svara med tre värdesiffror.",
+        "t": "<p>En pump flyttar 5,0 liter vatten varje sekund till en behållare 30 m högre. Vattnets densitet är 1,0 kg/L. Av eleffekten blir 65 % nyttig effekt som höjer vattnet. Elpriset är 2,50 kr/kWh. Använd g = 9,82 m/s².</p><p>Vad kostar elen under ett dygns oavbruten drift? Svara i kr. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje sekund höjs 5,0 kg vatten. Beräkna nyttig effekt. Ett dygn är 24 timmar.</p>\\[P_\\text{nyttig}=5{,}0\\cdot9{,}82\\cdot30=1473\\,\\mathrm W\\]<p>Dividera med verkningsgraden och med 1000 för att få eleffekten i kW. Multiplicera med 24 timmar och använd oavrundad effekt.</p>\\[E_\\text{el}=\\frac{1473}{0{,}65\\cdot1000}\\cdot24\\approx54{,}3877\\,\\mathrm{kWh}\\]\\[\\text{kostnad}=E_\\text{el}\\cdot2{,}50\\approx136\\,\\mathrm{kr}\\]</div>",
         "ledtrad": "<p>Vilken energi köps under 24 timmar?</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
@@ -59954,8 +59954,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>I båda mätningarna antas motorn arbeta stationärt. Den tillförda eleffekten är dess enda energikälla och ingen lagrad energi minskar.</p><ol style=\"display:grid;gap:0.85rem\"><li>En motor tar emot 45 kW och lämnar 15 kW mekanisk effekt. Bestäm verkningsgrad och förlusteffekt.</li><li>Vid en ny mätning står tillförd effekt 15 kW och mekanisk uteffekt 45 kW. En elev hävdar att motorn fått verkningsgraden 300 %. Bedöm tolkningen under angivna villkor och föreslå två saker att kontrollera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\eta=\\frac{15}{45}=\\frac{1}{3}\\approx 33{,}3\\, \\%\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{förlust}}=45-15=30\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Energin överförs till omgivningen, främst som värme.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>300 % är oförenligt med stationär drift utan annan energitillförsel eller minskning av lagrad energi.</p></div><div class=\"facit-stycke\"><p>Mätningen visar därför inte en sådan verkningsgrad.</p></div><div class=\"facit-stycke\"><p>Kontrollera exempelvis om in- och utvärden har förväxlats, om enheterna stämmer eller om instrumenten faktiskt mäter samma typ av effekt vid samma drift.</p></div></div></div></div></div>",
+    "t": "<p>En motor arbetar med konstant effekt. Eleffekten är dess enda energikälla och motorn använder ingen tidigare lagrad energi.</p><ol type=\"a\"><li>Motorn tar emot 45 kW och lämnar 15 kW mekanisk effekt. Bestäm verkningsgrad och förlusteffekt.</li><li>I en ny mätning anges 15 kW in och 45 kW mekanisk effekt ut. En elev säger att verkningsgraden då är 300 %. Kan detta stämma under de givna villkoren? Föreslå två saker att kontrollera.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Dividera uteffekten med ineffekten. Förlusteffekten är skillnaden mellan dem.</p>\\[\\eta=\\frac{15}{45}=\\frac13\\approx33{,}3\\,\\%\\]\\[P_\\text{förlust}=45-15=30\\,\\mathrm{kW}\\]<p>Förlustenergin blir främst värme till omgivningen.</p><p><strong>b)</strong> Nej. Kvoten 45/15 ger 3, men motorn kan inte ge tre gånger mer energi än den tar emot när ingen annan energikälla eller lagrad energi finns. Kontrollera exempelvis om in- och utvärdena har förväxlats och om enheterna stämmer. Man kan också kontrollera att effekterna mäts vid samma drift och att instrumenten mäter rätt typ av effekt.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "modellering",
@@ -59967,7 +59967,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Kontrollera först mätarnas enheter och vilken effekt som är tillförd.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "typ": "mätvärden och verkningsgrad",
     "miniräknare": true,
     "geogebra": false,
@@ -60005,7 +60005,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Fördela den använda energin över körsträckan.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -60032,9 +60032,9 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur mycket batterienergi används per kilometer? Svara i Wh/km.",
-        "t": "<p>En elscooter använder 280 Wh från batteriet under 40 km körning.</p><p>Hur mycket batterienergi används per kilometer? Svara i Wh/km.</p>",
+        "t": "<p>En elscooter använder 280 Wh från batteriet under 40 km körning. Använd energi per kilometer = energi/sträcka.</p><p>Hur mycket batterienergi används per kilometer? Svara i Wh/km.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dela batterienergin med körsträckan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E}{s}=\\frac{280\\,\\mathrm{Wh}}{40\\,\\mathrm{km}}=7\\,\\mathrm{Wh/km}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7 Wh/km.</p></div>",
-        "ledtrad": "<p>Fördela den använda energin över körsträckan.</p>",
+        "ledtrad": "<p>Dividera energin med sträckan.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -60046,11 +60046,11 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar körningen? Svara i h. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En elscooter kör 40 km med konstant fart 25 km/h.</p><p>Hur lång tid tar körningen? Svara i h. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>En elscooter kör 40 km med konstant fart 25 km/h. Använd t = s/v.</p><p>Hur lång tid tar körningen? Svara i h. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Körtiden är sträckan delad med farten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{s}{v}=\\frac{40}{25}=1{,}6\\,\\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,6 h.</p></div>",
-        "ledtrad": "<p>Vilken körtid motsvarar räckvidden?</p>",
+        "ledtrad": "<p>Dividera den givna sträckan med farten.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -60060,12 +60060,12 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm batteriets medeleffekt. Svara i W.",
-        "t": "<p>En elscooter använder 280 Wh från batteriet under 1,6 timmars körning.</p><p>Bestäm batteriets medeleffekt. Svara i W.</p>",
+        "t": "<p>En elscooter använder 280 Wh från batteriet under 1,6 timmars körning. Använd P = E/t.</p><p>Bestäm batteriets medeleffekt. Svara i W.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medeleffekten är batterienergin delad med körtiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{E}{t}=\\frac{280\\,\\mathrm{Wh}}{1{,}6\\,\\mathrm h}=175\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 175 W från batteriet.</p></div>",
-        "ledtrad": "<p>Vilken tid och vilken energi hör till samma körning?</p>",
+        "ledtrad": "<p>Dividera den givna energin med körtiden i timmar.</p>",
         "niva": "E",
         "traningsniva": 1,
-        "arbetsinsats": 2,
+        "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -60083,8 +60083,8 @@ window.BANK = [
     "niva": "A",
     "typ": "momentan effekt och generalisering",
     "poang": "(2/2/3)",
-    "t": "<p>En bil på 1200 kg accelererar jämnt från vila till 25 m/s på 10 s på plan väg. Bortse från motstånd och hjulens rotationsenergi.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm drivkraften.</li><li>Bestäm den momentana mekaniska effekten vid 2,0 s, 6,0 s och precis före 10 s.</li><li>Bestäm medeleffekten och förklara dess relation till sluteffekten.</li><li>Generalisera: en massa m accelererar jämnt från v₀ ≥ 0 till v₁ > v₀ under tiden T. Ta fram kvoten mellan medeleffekt och sluteffekt. När är kvoten 1/2?</li><li>Kan samma konstanta acceleration åstadkommas med konstant mekanisk effekt? Kan motorn ge samma positiva effekt hela tiden ända från start, när drivkraften är begränsad? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">a = 25/10 = 2,5 m/s²,</p><div class=\"facit-matte\">\\[F=1200\\cdot 2{,}5=3000\\, \\mathrm{N}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">v = 2,5t ger</p><div class=\"facit-matte\">\\[P=F v=7500 t W\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">P(2) = 15 kW, P(6) = 45 kW och</p><div class=\"facit-matte\">\\[P \\left(10\\right)=75\\, \\mathrm{kW}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{\\left(\\frac{1200\\cdot 25^{2}}{2}\\right)}{10}=37{,}5\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Effekten växer linjärt från noll till 75 kW, så tidsmedelvärdet är hälften av sluteffekten.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F=\\frac{m \\left(v_{1}-v_{0}\\right)}{T}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">P_slut = m(v₁−v₀)v₁/T och</p><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{m \\left(v_{1}^{2}-v_{0}^{2}\\right)}{2 T}\\]</div></div></div><div class=\"facit-stycke\"><p>Kvoten blir (v₁+v₀)/(2v₁).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den är 1/2 just när</p><div class=\"facit-matte\">\\[v_{0}=0\\]</div></div></div><div class=\"facit-stycke\"><p>För 0 &lt; v₀ &lt; v₁ ligger kvoten mellan 1/2 och 1.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej.</p></div><div class=\"facit-stycke\"><p>Konstant acceleration kräver konstant kraft och därmed växande effekt när farten ökar.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Konstant positiv effekt skulle i stället ge F = P/v och</p><div class=\"facit-matte\">\\[a=\\frac{P}{m v}\\]</div></div></div><div class=\"facit-stycke\"><p>Kraften skulle växa utan gräns när v närmar sig noll.</p></div><div class=\"facit-stycke\"><p>Modellen fungerar därför inte ända från vila om drivkraften är begränsad; starten måste beskrivas på annat sätt.</p></div></div></div></div></div>",
+    "t": "<p>En bil på 1200 kg ökar farten från vila till 25 m/s på 10 s med konstant acceleration på en vågrät väg. Bortse från motstånd och hjulens rotation.</p><ol type=\"a\"><li>Bestäm drivkraften.</li><li>Bestäm den mekaniska effekten vid 2,0 s, 6,0 s och precis före 10 s.</li><li>Bestäm medeleffekten. Förklara hur den förhåller sig till effekten precis före 10 s.</li><li>En massa m ökar farten med konstant acceleration från \\(v_0\\) ≥ 0 till \\(v_1\\) &gt; \\(v_0\\) under tiden T. Härled kvoten mellan medeleffekten och sluteffekten. När är kvoten 1/2?</li><li>Kan samma konstanta acceleration fås med konstant mekanisk effekt? Kan motorn ge en konstant positiv effekt ända från vila om drivkraften är begränsad? Motivera.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Beräkna accelerationen och använd F = ma.</p>\\[a=\\frac{25-0}{10}=2{,}5\\,\\mathrm{m/s^2}\\]\\[F=1200\\cdot2{,}5=3000\\,\\mathrm N\\]<p><strong>b)</strong> Farten är v = at. Effekten vid varje tid är P = Fv.</p>\\[v(2)=2{,}5\\cdot2=5\\,\\mathrm{m/s}\\]\\[P(2)=3000\\cdot5=15000\\,\\mathrm W\\]\\[P(2)=15\\,\\mathrm{kW}\\]\\[v(6)=2{,}5\\cdot6=15\\,\\mathrm{m/s}\\]\\[P(6)=3000\\cdot15=45000\\,\\mathrm W\\]\\[P(6)=45\\,\\mathrm{kW}\\]\\[v(10)=25\\,\\mathrm{m/s}\\]\\[P(10)=3000\\cdot25=75000\\,\\mathrm W\\]\\[P(10)=75\\,\\mathrm{kW}\\]<p><strong>c)</strong> Dividera rörelseenergins ökning med tiden.</p>\\[\\Delta E_k=\\frac{1200\\cdot25^2}{2}=375000\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{375000}{10}=37500\\,\\mathrm W=37{,}5\\,\\mathrm{kW}\\]<p>Effekten ökar linjärt från 0 till 75 kW. Medelvärdet är därför hälften av sluteffekten.</p><p><strong>d)</strong> Konstant acceleration ger \\(F=m(v_1-v_0)/T\\). Sluteffekt och medeleffekt blir</p>\\[P_\\text{slut}=\\frac{m(v_1-v_0)v_1}{T}\\]\\[P_\\text{medel}=\\frac{m(v_1^2-v_0^2)}{2T}\\]<p>Faktorisera \\(v_1^2-v_0^2=(v_1-v_0)(v_1+v_0)\\) och förkorta gemensamma faktorer.</p>\\[\\frac{P_\\text{medel}}{P_\\text{slut}}=\\frac{v_1+v_0}{2v_1}\\]<p>Kvoten är 1/2 när \\(v_0\\) = 0. För 0 &lt; \\(v_0\\) &lt; \\(v_1\\) är den mellan 1/2 och 1.</p><p><strong>e)</strong> Nej. Konstant acceleration kräver konstant kraft, så P = Fv ökar när farten ökar. Vid konstant positiv effekt skulle F = P/v. Kraften skulle då växa utan gräns när farten närmar sig noll. Med begränsad drivkraft kan sådan konstant effekt därför inte gälla ända från vila.</p></div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -60099,7 +60099,7 @@ window.BANK = [
     "traningsniva": 5,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -60112,23 +60112,23 @@ window.BANK = [
     "omr": "effekt",
     "niva": "E",
     "typ": "energi under återkommande drift",
-    "poang": "(2/0/0)",
-    "t": "<p>En apparat tar emot konstant effekt 260 W när den används. Den används 2,25 timmar varje dag i 30 dagar och är helt avstängd övrig tid.</p><p>Hur mycket elektrisk energi används under de 30 dagarna? Svara i kWh. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den sammanlagda tiden är</p><div class=\"facit-matte\">\\[2{,}25\\cdot 30=67{,}5\\, \\mathrm{h}\\]</div></div></div><div class=\"facit-stycke\"><p>Effekten är 0,260 kW, så E = 0,260 · 67,5 = 17,55 kWh.</p></div></div><p class=\"facit-svar\">Svar: 17,55 kWh.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En apparat tar emot 260 W under 2,25 timmar varje dag i 30 dagar. Den är avstängd övrig tid. Hur mycket elektrisk energi används under dessa 30 dagar? Svara i kWh.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Summera användningstiden och omvandla effekten till kW.</p>\\[t=2{,}25\\cdot30=67{,}5\\,\\mathrm h\\]<p>260 W = 0,260 kW. Energi är effekt gånger tid.</p>\\[E=Pt=0{,}260\\cdot67{,}5=17{,}55\\,\\mathrm{kWh}\\]<p>Med tre värdesiffror: 17,6 kWh.</p></div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "effekt__energi_under_aterkommande_drift",
     "svarstyp": "numeriskt",
-    "rättSvar": 17.55,
-    "tolerans": 0,
+    "rättSvar": 17.549999999999997,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken sammanlagd tid är apparaten påslagen?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kWh",
     "svarFormat": "numeriskt",
@@ -60143,7 +60143,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En glödlampa tar emot konstant elektrisk effekt 40 W. Av detta blir 1,6 W synligt ljus, vilket räknas som nyttig effekt.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den elektriska energin under 15 min. Svara i J. Svara med ett heltal.</li><li>Bestäm den elektriska energin under 6,0 h. Svara i kWh. Avrunda vid behov till 2 decimaler.</li><li>Bestäm verkningsgraden för omvandling till synligt ljus. Svara i %. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=40\\cdot \\left(15\\cdot 60\\right)=36\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 36000 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[40 W=0{,}040\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>E = 0,040 · 6,0 = 0,24 kWh.</p></div></div><p class=\"facit-svar\">Svar: 0,24 kWh.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\eta=\\frac{1{,}6}{40}=0{,}040=4\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4 %.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 15 min till 15 · 60 = 900 s. Konstant effekt gånger tid ger energin.</p>\\[E=Pt=40\\cdot900=36000\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Omvandla 40 W till 0,040 kW. kW gånger timmar ger kWh.</p>\\[E=0{,}040\\cdot6{,}0=0{,}24\\,\\mathrm{kWh}\\]<p><strong>c)</strong></p><p>Den nyttiga effekten är synligt ljus. Dividera den med den tillförda eleffekten.</p>\\[\\eta=\\frac{1{,}6}{40}=0{,}040=4\\,\\%\\]</div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "procedur"
@@ -60191,7 +60191,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur mycket elektrisk energi tar lampan emot? Svara i J. Svara med ett heltal.",
         "t": "<p>En lampa tar emot den elektriska effekten 40 W under 15 minuter.</p><p>Hur mycket elektrisk energi tar lampan emot? Svara i J. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=40\\cdot \\left(15\\cdot 60\\right)=36\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 36000 J.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 15 min till 15 · 60 = 900 s. Konstant effekt gånger tid ger energin.</p>\\[E=Pt=40\\cdot900=36000\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Vilken tidsenhet behövs tillsammans med watt?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -60205,7 +60205,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Hur mycket elektrisk energi tar lampan emot? Svara i kWh. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En lampa tar emot den elektriska effekten 40 W under 6,0 timmar.</p><p>Hur mycket elektrisk energi tar lampan emot? Svara i kWh. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[40 W=0{,}040\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>E = 0,040 · 6,0 = 0,24 kWh.</p></div></div><p class=\"facit-svar\">Svar: 0,24 kWh.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 40 W till 0,040 kW. kW gånger timmar ger kWh.</p>\\[E=0{,}040\\cdot6{,}0=0{,}24\\,\\mathrm{kWh}\\]</div>",
         "ledtrad": "<p>Utgå från den elektriska effekten, inte ljuseffekten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -60219,7 +60219,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm verkningsgraden för omvandling till synligt ljus. Svara i %. Svara med ett heltal.",
         "t": "<p>En glödlampa tar emot konstant elektrisk effekt 40 W. Av detta blir 1,6 W synligt ljus, vilket räknas som nyttig effekt.</p><p>Bestäm verkningsgraden för omvandling till synligt ljus. Svara i %. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\eta=\\frac{1{,}6}{40}=0{,}040=4\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 4 %.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nyttiga effekten är synligt ljus. Dividera den med den tillförda eleffekten.</p>\\[\\eta=\\frac{1{,}6}{40}=0{,}040=4\\,\\%\\]</div>",
         "ledtrad": "<p>Vilken effekt räknas som nyttig här?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -60240,9 +60240,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "typ": "effekt av en sned kraft",
-    "poang": "(0/2/0)",
-    "t": "<p>En bogserlina drar en båt med kraften 650 N. Båtens fart är 1,2 m/s. Vinkeln mellan kraften och båtens hastighet är 35°.</p><p>Bestäm effekten som dragkraften överför till båten. Svara i W. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För en kraft som bildar vinkeln \\(\\theta\\) med rörelsen är arbetet \\(W=Fs\\cos\\theta\\).</p></div><div class=\"facit-stycke\"><p>Dividera med tiden och använd \\(s/t=v\\):</p></div></div>\\[P=\\frac{W}{t}=F\\frac{s}{t}\\cos\\theta=Fv\\cos\\theta.\\]<div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftkomponenten längs hastigheten är 650 cos35°.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=F v \\cos 35^{\\circ}=650\\cdot 1{,}2\\cdot \\cos 35^{\\circ}\\approx 638{,}9386\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Den vinkelräta komponenten bidrar inte till effekten.</p></div></div><p class=\"facit-svar\">Svar: 638,9 W.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bogserlina drar en båt med kraften 650 N. Båtens fart är 1,2 m/s. Vinkeln mellan kraften och rörelseriktningen är 35°. Vilken effekt överför dragkraften till båten? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara kraftens del i rörelseriktningen bidrar. Arbetet per tid ger P = Fv cosθ.</p>\\[P=650\\cdot1{,}2\\cos35^\\circ\\approx639\\,\\mathrm W\\]</div>",
     "familj": "Effekt och fart (P = F·v)",
     "formaga": [
       "modellering",
@@ -60250,8 +60250,8 @@ window.BANK = [
     ],
     "familjNyckel": "effekt__effekt_av_en_sned_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 638.9,
-    "tolerans": 0,
+    "rättSvar": 638.9385945454136,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -60271,8 +60271,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En cyklist med cykel har massan 85 kg och håller farten 5,0 m/s längs en rak uppförsbacke. Lutningen är 6,0 %, vilket betyder 6,0 m höjdökning per 100 m vågrätt avstånd.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den effekt som går till ökad lägesenergi.</li><li>En elev använder sinθ = 0,060 direkt. Bedöm approximationen.</li><li>Varför måste cyklisten i verkligheten utveckla större mekanisk effekt i pedalerna vid konstant fart?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lutningen ger tanθ = 0,060.</p><div class=\"facit-matte\">\\[\\sin \\theta=\\frac{0{,}060}{\\sqrt{1+0{,}060^{2}}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">P = mgv</p><div class=\"facit-matte\">\\[\\sin \\theta=\\frac{85\\cdot 9{,}82\\cdot 5{,}0\\cdot 0{,}060}{\\sqrt{1+0{,}060^{2}}}\\approx 249{,}96 W\\approx 250\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med sinθ ≈ tanθ blir</p><div class=\"facit-matte\">\\[P=250{,}41\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Avvikelsen är cirka 0,18 %, så approximationen är god här, men sinθ och tanθ är inte exakt lika.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Luftmotstånd, rullmotstånd och förluster i drivlinan kräver ytterligare effekt.</p></div><div class=\"facit-stycke\"><p>Beräkningen i a avser bara ökningen i lägesenergi.</p></div><div class=\"facit-stycke\"><p>Kroppens kemiska energiomsättning är ytterligare en annan storhet.</p></div></div></div></div></div>",
+    "t": "<p>En cyklist med cykel har massan 85 kg och håller farten 5,0 m/s uppför en rak backe. Backen stiger 6,0 m per 100 m vågrätt avstånd. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken effekt går till ökad lägesenergi?</li><li>En elev använder sinθ = 0,060, där θ är backens vinkel mot marken. Är det exakt eller en approximation? Bedöm hur bra den är här.</li><li>Varför behöver cyklisten i verkligheten ge större mekanisk effekt i pedalerna än svaret i a?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Det givna förhållandet är tanθ = 6,0/100 = 0,060. I en triangel med vågrät sida 100 m och höjd 6,0 m är backens längd √(100² + 6,0²) m.</p>\\[\\sin\\theta=\\frac{6{,}0}{\\sqrt{100^2+6{,}0^2}}\\]<p>Den lodräta farten är v sinθ. Lägesenergin ökar med mg gånger höjdökningen.</p>\\[\\begin{gathered}P=mgv\\sin\\theta\\\\=85\\cdot9{,}82\\cdot5{,}0\\cdot\\frac{6{,}0}{\\sqrt{100^2+6{,}0^2}}\\end{gathered}\\]\\[P\\approx249{,}960\\,\\mathrm W\\approx250\\,\\mathrm W\\]<p><strong>b)</strong> 0,060 är exakt värdet på tanθ, inte sinθ. Om man ändå använder sinθ ≈ 0,060 fås</p>\\[\\begin{gathered}P_\\text{approx}=85\\cdot9{,}82\\cdot5{,}0\\cdot0{,}060\\\\=250{,}41\\,\\mathrm W\\end{gathered}\\]\\[\\begin{gathered}\\text{avvikelse}=\\frac{250{,}41-249{,}960\\ldots}{249{,}960\\ldots}\\cdot100\\,\\%\\\\\\approx0{,}180\\,\\%\\end{gathered}\\]<p>Approximationen är alltså mycket bra vid denna lilla lutning.</p><p><strong>c)</strong> Cyklisten behöver också övervinna luftmotstånd, rullmotstånd och förluster i cykelns drivning. Svaret i a gäller bara ökningen i lägesenergi.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -60288,7 +60288,7 @@ window.BANK = [
     "typ": "väglutning och lyfteffekt",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -60300,24 +60300,24 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En person på 60 kg springer uppför en trappa och kommer 4,2 m högre på 12 s. Använd g = 9,82 m/s².</p><p>Vilken medeleffekt motsvarar ökningen i lägesenergi? Svara i W.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Beräkna ökningen i lägesenergi och dividera med tiden. Det är effekten som går till höjdökningen; kroppens totala energianvändning är större.</p><div class=\"facit-matte\">\\[P=\\frac{mgh}{t}=\\frac{60\\cdot9{,}82\\cdot4{,}2}{12}=206{,}22\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 206,22 W.</p></div></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En person på 60 kg springer uppför en trappa och kommer 4,2 m högre på 12 s. Använd g = 9,82 m/s². Vilken medeleffekt motsvarar ökningen i lägesenergi? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lägesenergins ökning och dividera med tiden.</p>\\[\\Delta E_p=mgh=60\\cdot9{,}82\\cdot4{,}2=2474{,}64\\,\\mathrm J\\]\\[P=\\frac{2474{,}64}{12}\\approx206\\,\\mathrm W\\]<p>Detta avser höjdökningen. Kroppens totala energianvändning är större.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "effekt__trappgangens_lyfteffekt",
     "svarstyp": "numeriskt",
-    "rättSvar": 206.22,
-    "tolerans": 0,
+    "rättSvar": 206.22000000000003,
+    "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Vilken energiökning ska fördelas över tiden?</p>",
     "traningsniva": 2,
     "typ": "trappgångens lyfteffekt",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "W",
     "svarFormat": "numeriskt",
@@ -60331,9 +60331,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "typ": "effektgräns och nyttolast",
-    "poang": "(0/2/0)",
-    "t": "<p>En lyftanordning utan motvikt har största tillåtna elektriska effekt 5,2 kW. Verkningsgraden från el till ökningen i lägesenergi är 73 % vid konstant fart. En plattform på 150 kg ska tillsammans med lasten höjas 14 m på 20 s med konstant fart. Bortse från andra begränsningar.</p><p>Använd g = 9,82 m/s².</p><p>Hur stor lastmassa tillåter effektgränsen som mest? Ange heltalsdelen i kg så att gränsen inte överskrids. Svara i kg. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den totala massan måste uppfylla \\(m_{\\mathrm{tot}}\\) · 9,82 · 14/20 ≤ 0,73 · 5200.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är m_last ≤</p><div class=\"facit-matte\">\\[\\frac{0{,}73\\cdot 5200\\cdot 20}{9{,}82\\cdot 14}-150\\approx 402{,}226\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Heltalsdelen är 402 kg; plattformens massa måste räknas bort.</p></div></div><p class=\"facit-svar\">Svar: 402 kg.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En lyftanordning utan motvikt får ta emot högst 5,2 kW elektrisk effekt. Av den blir 73 % nyttig effekt som höjer plattform och last. Plattformen har massan 150 kg och höjs 14 m på 20 s med konstant fart. Använd g = 9,82 m/s². Hur stor lastmassa klarar anordningen som mest? Svara i hela kg så att effektgränsen inte överskrids.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna största nyttiga effekt och den konstanta lyftfarten.</p>\\[P_\\text{nyttig}=0{,}73\\cdot5200=3796\\,\\mathrm W\\]\\[v=\\frac{14}{20}=0{,}70\\,\\mathrm{m/s}\\]<p>Vid konstant fart gäller P = mgv. Beräkna först den sammanlagda massan och dra sedan bort plattformens massa.</p>\\[m_\\text{tot}=\\frac{3796}{9{,}82\\cdot0{,}70}\\approx552{,}226\\,\\mathrm{kg}\\]\\[m_\\text{last}\\le552{,}226-150=402{,}226\\,\\mathrm{kg}\\]<p>Avrunda nedåt så att gränsen inte överskrids. Största lastmassan i hela kg är \\(m_\\text{last,max}=402\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -60347,7 +60347,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken total massa kan den nyttiga effekten höja, och hur mycket av den är själva plattformen?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kg",
@@ -60362,8 +60362,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Vatten faller 1,8 m genom ett modellkraftverk. Flödet är konstant 2,5 L/s och densiteten 1,0 kg/L. Verkningsgraden från förlorad lägesenergi till el är 78 %.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur mycket lägesenergi förlorar det vatten som passerar under 1,0 s? Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Vilken effekt motsvarar vattnets minskning i lägesenergi? Svara i W. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den elektriska effekten. Svara i W. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På 1,0 s passerar 2,5 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Minskningen i lägesenergi är</p><div class=\"facit-matte\">\\[m g h=2{,}5\\cdot 9{,}82\\cdot 1{,}8=44{,}19\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 44,19 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Varje sekund förloras 2,5 · 9,82 · 1,8 = 44,19 J lägesenergi.</p></div><div class=\"facit-stycke\"><p>Effekten är därför 44,19 W.</p></div></div><p class=\"facit-svar\">Svar: 44,19 W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=0{,}78\\cdot \\left(2{,}5\\cdot 9{,}82\\cdot 1{,}8\\right)=34{,}4682\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 34,47 W.</p></div></div></div>",
+    "t": "<p>Vatten faller 1,8 m genom ett modellkraftverk. Varje sekund passerar 2,5 liter. Vattnets densitet är 1,0 kg/L. Av lägesenergin blir 78 % elektrisk energi. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur mycket lägesenergi förlorar det vatten som passerar under 1,0 s? Svara i J. Svara med tre värdesiffror.</li><li>Vilken effekt motsvarar vattnets minskning i lägesenergi? Svara i W. Svara med tre värdesiffror.</li><li>Bestäm den elektriska effekten i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Under 1,0 s passerar 2,5 · 1,0 = 2,5 kg vatten. Beräkna minskningen i lägesenergi.</p>\\[\\begin{gathered}E_\\text{minskning}=mgh\\\\=2{,}5\\cdot9{,}82\\cdot1{,}8=44{,}19\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 44,2 J.</p><p><strong>b)</strong></p><p>Varje sekund passerar 2,5 kg vatten. Lägesenergin minskar med 2,5 · 9,82 · 1,8 = 44,19 J per sekund.</p>\\[P_\\text{vatten}=44{,}19\\,\\mathrm{J/s}\\approx44{,}2\\,\\mathrm W\\]<p><strong>c)</strong></p><p>Lägesenergin minskar med 2,5 · 9,82 · 1,8 = 44,19 J varje sekund. Den motsvarande effekten är 44,19 W. 78 % blir elektrisk effekt.</p>\\[P_\\text{el}=0{,}78\\cdot44{,}19\\approx34{,}5\\,\\mathrm W\\]</div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "procedur"
@@ -60371,14 +60371,14 @@ window.BANK = [
     "familjNyckel": "effekt__vattenkraftens_energi_per_sekund",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      44.19,
-      44.19,
-      34.47
+      44.190000000000005,
+      44.190000000000005,
+      34.4682
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken vattenmassa passerar på en sekund?</p>",
@@ -60386,7 +60386,7 @@ window.BANK = [
     "typ": "vattenkraftens energi per sekund",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "J",
@@ -60405,17 +60405,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vatten faller 1,8 m genom ett modellkraftverk. Flödet är konstant 2,5 L/s och densiteten 1,0 kg/L. Verkningsgraden från förlorad lägesenergi till el är 78 %.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Vatten faller 1,8 m genom ett modellkraftverk. Varje sekund passerar 2,5 liter. Vattnets densitet är 1,0 kg/L. Av lägesenergin blir 78 % elektrisk energi. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket lägesenergi förlorar det vatten som passerar under 1,0 s? Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Vatten faller 1,8 m genom ett modellkraftverk. Flödet är konstant 2,5 L/s och densiteten 1,0 kg/L. Verkningsgraden från förlorad lägesenergi till el är 78 %.</p><p>Använd g = 9,82 m/s².</p><p>Hur mycket lägesenergi förlorar det vatten som passerar under 1,0 s? Svara i J. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På 1,0 s passerar 2,5 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Minskningen i lägesenergi är</p><div class=\"facit-matte\">\\[m g h=2{,}5\\cdot 9{,}82\\cdot 1{,}8=44{,}19\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 44,19 J.</p></div>",
-        "ledtrad": "<p>Vilken vattenmassa passerar på en sekund?</p>",
+        "fraga": "Hur mycket lägesenergi förlorar vattnet? Svara i J med tre värdesiffror.",
+        "t": "<p>2,5 liter vatten faller 1,8 m. Vattnets densitet är 1,0 kg/L. Använd g = 9,82 m/s².</p><p>Hur mycket lägesenergi förlorar vattnet? Svara i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är volym gånger densitet: 2,5 · 1,0 = 2,5 kg. Beräkna minskningen i lägesenergi.</p>\\[\\begin{gathered}E_\\text{minskning}=mgh\\\\=2{,}5\\cdot9{,}82\\cdot1{,}8=44{,}19\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 44,2 J.</p></div>",
+        "ledtrad": "<p>Vilken massa har 2,5 liter vatten?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -60423,13 +60423,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken effekt motsvarar vattnets minskning i lägesenergi? Svara i W. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Vatten faller 1,8 m genom ett modellkraftverk. Flödet är konstant 2,5 L/s och densiteten 1,0 kg/L. Verkningsgraden från förlorad lägesenergi till el är 78 %.</p><p>Använd g = 9,82 m/s².</p><p>Vilken effekt motsvarar vattnets minskning i lägesenergi? Svara i W. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Varje sekund förloras 2,5 · 9,82 · 1,8 = 44,19 J lägesenergi.</p></div><div class=\"facit-stycke\"><p>Effekten är därför 44,19 W.</p></div></div><p class=\"facit-svar\">Svar: 44,19 W.</p></div>",
-        "ledtrad": "<p>Hur skiljer sig enheterna joule och watt?</p>",
+        "fraga": "Vilken effekt motsvarar vattnets minskning i lägesenergi? Svara i W. Svara med tre värdesiffror.",
+        "t": "<p>Varje sekund faller 2,5 liter vatten 1,8 m genom ett modellkraftverk. Vattnets densitet är 1,0 kg/L. Använd g = 9,82 m/s².</p><p>Vilken effekt motsvarar vattnets minskning i lägesenergi? Svara i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje sekund passerar 2,5 kg vatten. Lägesenergin minskar med 2,5 · 9,82 · 1,8 = 44,19 J per sekund.</p>\\[P_\\text{vatten}=44{,}19\\,\\mathrm{J/s}\\approx44{,}2\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Beräkna lägesenergin som vattnet förlorar under en sekund.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -60437,13 +60437,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den elektriska effekten. Svara i W. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Vatten faller 1,8 m genom ett modellkraftverk. Flödet är konstant 2,5 L/s och densiteten 1,0 kg/L. Verkningsgraden från förlorad lägesenergi till el är 78 %.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den elektriska effekten. Svara i W. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=0{,}78\\cdot \\left(2{,}5\\cdot 9{,}82\\cdot 1{,}8\\right)=34{,}4682\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 34,47 W.</p></div>",
-        "ledtrad": "<p>Vilken del av vatteneffekten omvandlas till el?</p>",
+        "fraga": "Bestäm den elektriska effekten i W. Svara med tre värdesiffror.",
+        "t": "<p>I ett modellkraftverk minskar vattnets lägesenergi med 44,19 J varje sekund. Av den energin blir 78 % elektrisk energi.</p><p>Bestäm den elektriska effekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>44,19 J per sekund motsvarar effekten 44,19 W. Ta 78 % av den för att få eleffekten.</p>\\[P_\\text{el}=0{,}78\\cdot44{,}19\\approx34{,}5\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Energi per sekund är effekt. Vilken andel blir el?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -60461,8 +60461,8 @@ window.BANK = [
     "niva": "C",
     "typ": "mätosäkerhet vid ett trapptest",
     "poang": "(1/2/0)",
-    "t": "<p>En person på 68 kg höjer sitt masscentrum 4,5 m i ett trapptest. Tiden mäts till 6,0 s, men den verkliga tiden ligger mellan 5,8 s och 6,2 s. Behandla massan och höjden som exakta i modellen. Räkna endast på lägesenergins ökning.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den beräknade medeleffekten med tiden 6,0 s.</li><li>Bestäm det intervall av effekter som tidsosäkerheten ger.</li><li>En annan person har den säkert bestämda effekten 510 W i samma typ av test. Kan du säkert rangordna personerna med dessa uppgifter? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta E_{\\mathrm{p}}=68\\cdot 9{,}82\\cdot 4{,}5=3004{,}92\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{3004{,}92}{6{,}0}=500{,}82\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Minsta effekt ges av längsta tid:</p><div class=\"facit-matte\">\\[\\frac{3004{,}92}{6{,}2}\\approx 484{,}7\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Största effekt ges av kortaste tid:</p><div class=\"facit-matte\">\\[\\frac{3004{,}92}{5{,}8}\\approx 518{,}1\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Intervallet är alltså ungefär 485–518 W.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej.</p></div><div class=\"facit-stycke\"><p>510 W ligger inom intervallet.</p></div><div class=\"facit-stycke\"><p>Den första personens effekt kan vara både mindre och större än 510 W.</p></div><div class=\"facit-stycke\"><p>Ett centralvärde på 500,82 W räcker därför inte för en säker rangordning.</p></div></div></div></div></div>",
+    "t": "<p>En person på 68 kg kommer 4,5 m högre i ett trapptest. Den uppmätta tiden är 6,0 s, men den verkliga tiden är mellan 5,8 och 6,2 s. Behandla massa och höjd som exakta. Räkna bara på ökningen i lägesenergi. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm medeleffekten med tiden 6,0 s.</li><li>Bestäm den minsta och största effekt som de möjliga tiderna ger.</li><li>En annan persons effekt är säkert bestämd till 510 W i samma sorts test. Kan du säkert avgöra vem som har störst effekt? Motivera.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Beräkna lägesenergin och dividera med den uppmätta tiden.</p>\\[\\Delta E_p=68\\cdot9{,}82\\cdot4{,}5=3004{,}92\\,\\mathrm J\\]\\[P=\\frac{3004{,}92}{6{,}0}=500{,}82\\,\\mathrm W\\]<p>Det är cirka 501 W.</p><p><strong>b)</strong> Energin är densamma. Längst tid ger minst effekt; kortast tid ger störst effekt.</p>\\[P_\\text{min}=\\frac{3004{,}92}{6{,}2}\\approx485\\,\\mathrm W\\]\\[P_\\text{max}=\\frac{3004{,}92}{5{,}8}\\approx518\\,\\mathrm W\\]<p><strong>c)</strong> Nej. 510 W ligger mellan cirka 485 och 518 W. Den första personens effekt kan därför vara både mindre och större än den andras. Värdet 501 W beräknat med den uppmätta tiden räcker inte för att säkert avgöra ordningen.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -60477,7 +60477,7 @@ window.BANK = [
     "traningsniva": 4,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -60490,8 +60490,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Clara lyfter en låda på 12 kg så att dess masscentrum höjs 1,2 m på 0,90 s. Sedan sänker hon den samma sträcka på 1,80 s. Lådan är i vila vid början och slutet av varje del. Bara tyngdkraften och Claras kraft verkar på lådan.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm Claras arbete och medeleffekt på lådan under lyftet.</li><li>Bestäm hennes arbete och medeleffekt på lådan under sänkningen.</li><li>Bestäm hennes nettoarbete över hela förloppet. Visar nettoarbetet hur mycket kemisk energi hennes kropp har omsatt? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W_{\\mathrm{upp}}=m g \\Delta h=12\\cdot 9{,}82\\cdot 1{,}2=141{,}408\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{upp}}=\\frac{141{,}408}{0{,}90}=157{,}12\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W_{\\mathrm{ned}}\\) = −141,408 J, eftersom Claras huvudsakligen uppåtriktade kraft motverkar den nedåtriktade rörelsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{ned}}=\\frac{-141{,}408}{1{,}80}=-78{,}56\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Nettoarbetet är</p><div class=\"facit-matte\">\\[141{,}408-141{,}408=0\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><p>Det beskriver nettot av energiöverföringen genom hennes kraft på lådan, inte kroppens kemiska energiomsättning.</p></div><div class=\"facit-stycke\"><p>Den senare kan inte bestämmas av nettoarbetet.</p></div></div></div></div></div>",
+    "t": "<p>Clara lyfter en låda på 12 kg rakt upp 1,2 m på 0,90 s och sänker den sedan lika långt på 1,80 s. Lådan är i vila före och efter varje del. Bara tyngdkraften och Claras kraft verkar. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm Claras arbete och medeleffekt på lådan under lyftet.</li><li>Bestäm hennes arbete och medeleffekt på lådan under sänkningen, med tecken.</li><li>Bestäm hennes sammanlagda arbete under lyft och sänkning. Visar detta hur mycket kemisk energi kroppen har använt? Motivera.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Rörelseenergin är oförändrad mellan start och slut. Claras arbete ökar därför lägesenergin.</p>\\[\\begin{gathered}W_\\text{upp}=mg\\Delta h\\\\=12\\cdot9{,}82\\cdot1{,}2=141{,}408\\,\\mathrm J\\end{gathered}\\]\\[P_\\text{upp}=\\frac{141{,}408}{0{,}90}=157{,}12\\,\\mathrm W\\]<p>Arbetet är cirka 141 J och medeleffekten cirka 157 W.</p><p><strong>b)</strong> Även sänkningen börjar och slutar i vila. Höjdändringen är −1,2 m, så Claras arbete är negativt.</p>\\[W_\\text{ned}=12\\cdot9{,}82\\cdot(-1{,}2)=-141{,}408\\,\\mathrm J\\]\\[P_\\text{ned}=\\frac{-141{,}408}{1{,}80}=-78{,}56\\,\\mathrm W\\]<p>Arbetet är cirka −141 J och medeleffekten cirka −78,6 W.</p><p><strong>c)</strong> Summera arbetena med tecken.</p>\\[W_\\text{tot}=141{,}408-141{,}408=0\\,\\mathrm J\\]<p>Detta säger att Claras kraft sammanlagt har överfört noll nettoenergi till lådan. Kroppen kan ändå ha använt kemisk energi som bland annat blir värme. Kroppens energianvändning går inte att bestämma av nettoarbetet på lådan.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -104747,9 +104747,9 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En värmare avger konstant värmeeffekt 1,5 kW under 20 minuter.</p><p>Hur mycket energi avges? Svara i MJ. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>20 min = 1200 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[E=P t=1500\\cdot 1200=1\\,800\\,000 J=1{,}8\\, \\mathrm{MJ}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,8 MJ.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En värmare avger värme med den konstanta effekten 1,5 kW under 20 minuter. Hur mycket energi avges? Svara i MJ.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla tiden till sekunder och effekten till W: 20 min = 1200 s och 1,5 kW = 1500 W.</p>\\[E=Pt=1500\\cdot1200=1800000\\,\\mathrm J\\]<p>Dividera med 10⁶ för att få MJ.</p>\\[E=\\frac{1800000}{10^6}=1{,}80\\,\\mathrm{MJ}\\]</div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "procedur"
@@ -104757,7 +104757,7 @@ window.BANK = [
     "familjNyckel": "effekt__varmeeffekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 1.8,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -104769,7 +104769,7 @@ window.BANK = [
     "ledtrad": "<p>Vilka enheter behövs för att först få energin i joule?</p>",
     "traningsniva": 2,
     "typ": "värmeeffekt och energi",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "MJ",
     "svarFormat": "numeriskt"
@@ -104780,8 +104780,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En bygglift höjer en last på 250 kg med 6,0 m på 12 s, från vila till vila. En hel arbetscykel tar 60 s. Under resten av cykeln står lasten stilla. Bortse från förluster. Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den nyttiga medeleffekten under själva lyftet.</li><li>Bestäm den nyttiga medeleffekten räknad över hela cykeln.</li><li>En elev anger värdet i b som motorbehov under lyftet. Förklara varför det blir fel.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftarbetet är</p><div class=\"facit-matte\">\\[250\\cdot 9{,}82\\cdot 6=14\\,730\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{lyft}}=\\frac{14\\,730}{12}=1227{,}5\\, \\mathrm{W}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{cykel}}=\\frac{14\\,730}{60}=245{,}5\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Här räknas bara den nyttiga energi som höjer lasten, fördelad över hela cykeln.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Under lyftet måste samma 14 730 J överföras på 12 s, inte på 60 s.</p></div><div class=\"facit-stycke\"><p>Cykelmedelvärdet är därför för lågt för den nyttiga medeleffekten under lyftet.</p></div><div class=\"facit-stycke\"><p>Motorval behöver dessutom ta hänsyn till verkningsgrad och eventuell toppeffekt.</p></div></div></div></div></div>",
+    "t": "<p>En bygglift höjer 250 kg rakt upp 6,0 m på 12 s, från vila till vila. Därefter står lasten stilla. Lyft och väntan tar tillsammans 60 s. Bortse från energiförluster och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm den nyttiga medeleffekten under lyftets 12 s.</li><li>Bestäm den nyttiga medeleffekten räknad över hela tiden, 60 s.</li><li>En elev använder svaret i b som den effekt motorn behöver ge under lyftet. Förklara varför det blir fel.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Lyft från vila till vila ökar lägesenergin. Dividera lyftarbetet med lyfttiden.</p>\\[W=mgh=250\\cdot9{,}82\\cdot6{,}0=14730\\,\\mathrm J\\]\\[P_\\text{lyft}=\\frac{14730}{12}=1227{,}5\\,\\mathrm W\\]<p>Det är cirka 1,23 kW.</p><p><strong>b)</strong> Under väntan ökar inte lägesenergin. Samma nyttiga energi fördelas nu över 60 s.</p>\\[P_\\text{hela tiden}=\\frac{14730}{60}=245{,}5\\,\\mathrm W\\]<p>Det är cirka 246 W.</p><p><strong>c)</strong> Motorn måste överföra 14 730 J under de 12 s då lasten lyfts. Den kan inte fördela detta lyftarbete över väntetiden. Svaret i b är därför för litet för medeleffekten under lyftet. Vid val av motor behöver man också ta hänsyn till största effekt och energiförluster.</p></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
       "modellering",
@@ -104811,7 +104811,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En maskin lämnar konstant mekanisk effekt 300 W under 8,0 s. Använd W = Pt.</p><p>Bestäm arbetet. Svara i J. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[W=300\\cdot 8{,}0=2400\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2400 J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant effekt gånger tid ger arbetet.</p>\\[W=Pt=300\\cdot8{,}0=2400\\,\\mathrm J\\]</div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Effekt P = W/t",
@@ -104841,7 +104841,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En maskin ska utföra arbetet 3600 J med konstant effekt 600 W. Använd t = W/P.</p><p>Bestäm tiden. Svara i s. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[t=\\frac{3600}{600}=6{,}0\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera det arbete som ska utföras med effekten.</p>\\[t=\\frac WP=\\frac{3600}{600}=6\\,\\mathrm s\\]</div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Effekt P = W/t",
@@ -104871,7 +104871,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En motor lämnar 400 W nyttig effekt med verkningsgraden 0,80. Använd \\(P_\\text{in}=\\dfrac{P_\\text{nyttig}}{\\eta}\\).</p><p>Bestäm den tillförda effekten. Svara i W. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=\\frac{400}{0{,}80}=500\\, \\mathrm{W}\\]</div></div></div><div class=\"facit-stycke\"><p>Den är större än den nyttiga effekten.</p></div></div><p class=\"facit-svar\">Svar: 500 W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den nyttiga effekten är 80 % av tillförd effekt. Dividera med 0,80 för att få tillförd effekt.</p>\\[P_\\text{in}=\\frac{400}{0{,}80}=500\\,\\mathrm W\\]<p>Den tillförda effekten är större än den nyttiga.</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Verkningsgrad",
@@ -104901,7 +104901,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En motor tar emot 500 W och lämnar 350 W nyttig effekt. Använd \\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{in}}\\).</p><p>Bestäm verkningsgraden i decimalform. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\eta=\\frac{350}{500}=0{,}70\\]</div></div></div><div class=\"facit-stycke\"><p>Det motsvarar 70 %, men här efterfrågas decimalformen.</p></div></div><p class=\"facit-svar\">Svar: 0,7.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera nyttig effekt med tillförd effekt.</p>\\[\\eta=\\frac{350}{500}=0{,}70\\]<p>Det motsvarar 70 %, men frågan gäller decimalform.</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Verkningsgrad",
@@ -104931,7 +104931,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En maskin utför arbetet 18 kJ på 30 s.</p><p>Bestäm medeleffekten. Svara i W. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[18 k J=18\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{18\\,000}{30}=600\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 600 W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[18\\,\\mathrm{kJ}=18\\,000\\, \\mathrm{J}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[P=\\frac{18\\,000}{30}=600\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 600 W.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Effekt P = W/t",
@@ -104946,7 +104946,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 600,
+    "rättSvar": 600.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "W",
@@ -105006,7 +105006,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 30,
+    "rättSvar": 30.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "s",
@@ -105036,7 +105036,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 1200,
+    "rättSvar": 1200.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "W",
@@ -105051,7 +105051,7 @@ window.BANK = [
     "kap": 5,
     "omr": "effekt",
     "t": "<p>En motor tar emot 1,2 kW och lämnar 900 W nyttig effekt.</p><p>Bestäm verkningsgraden. Svara i %. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">P_in = 1200 W.</p><div class=\"facit-matte\">\\[\\eta=\\frac{900}{1200}=0{,}75=75\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 75 %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Omvandla 1,2 kW till 1200 W.</p><div class=\"facit-matte\">\\[\\eta=\\frac{900}{1200}=0{,}75=75\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 75 %.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Verkningsgrad",
@@ -105066,7 +105066,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 75,
+    "rättSvar": 75.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "%",
@@ -134066,7 +134066,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett vattenkraftverk tar emot 250 MJ lägesenergi och levererar 225 MJ elektrisk energi. Använd \\(\\eta=\\dfrac{E_\\text{nyttig}}{E_\\text{tillförd}}\\).</p><p>Bestäm verkningsgraden i procent. Svara i %. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\eta=\\frac{225}{250}=0{,}90=90\\, \\%\\]</div></div></div><div class=\"facit-stycke\"><p>Resterande 10 % överförs till andra energiformer, främst inre energi.</p></div></div><p class=\"facit-svar\">Svar: 90 %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Jämför nyttig elenergi med tillförd lägesenergi. Båda energierna anges i MJ.</p>\\[\\eta=\\frac{225}{250}=0{,}90=90\\,\\%\\]<p>De återstående 10 % överförs till andra energiformer, främst värme.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "procedur"
@@ -134093,8 +134093,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Två kraftverk har märkeffekten 100 MW vardera. Under ett visst år är A:s medeleffekt 90 % och B:s medeleffekt 30 % av respektive märkeffekt.</p><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna båda kraftverkens energileverans under ett år med 8760 timmar.</li><li>Jämför resultaten och förklara varför märkeffekten ensam inte räcker för jämförelsen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medeleffekten är 90 MW för A och 30 MW för B.</p></div><div class=\"facit-stycke\"><p>\\(E_{\\mathrm{A}}\\) = 90 · 8760 = 788 400 MWh = 788,4 GWh.</p></div><div class=\"facit-stycke\"><p>\\(E_{\\mathrm{B}}\\) = 30 · 8760 = 262 800 MWh = 262,8 GWh.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>A levererar tre gånger så mycket energi.</p></div><div class=\"facit-stycke\"><p>Märkeffekten beskriver effekten vid full drift, medan årsenergin också beror på hur effekten varierar över tiden.</p></div><div class=\"facit-stycke\"><p>De angivna genomsnitten innebär inte nödvändigtvis att verken växlar mellan full effekt och noll.</p></div></div></div></div></div>",
+    "t": "<p>Två kraftverk kan ge högst 100 MW vardera. Under ett år är A:s medeleffekt 90 % och B:s medeleffekt 30 % av denna effekt. Året har 8760 timmar.</p><ol type=\"a\"><li>Hur mycket elenergi levererar vart och ett av kraftverken under året?</li><li>Jämför energileveranserna. Varför räcker uppgiften om högsta effekt inte för jämförelsen?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Beräkna medeleffekterna. Effekt i MW gånger tid i timmar ger energi i MWh.</p>\\[P_A=0{,}90\\cdot100=90\\,\\mathrm{MW}\\]\\[ P_B=0{,}30\\cdot100=30\\,\\mathrm{MW}\\]\\[\\begin{gathered}E_A=90\\cdot8760\\\\=788400\\,\\mathrm{MWh}=788{,}4\\,\\mathrm{GWh}\\end{gathered}\\]\\[\\begin{gathered}E_B=30\\cdot8760\\\\=262800\\,\\mathrm{MWh}=262{,}8\\,\\mathrm{GWh}\\end{gathered}\\]<p><strong>b)</strong> A levererar tre gånger så mycket energi som B. Högsta effekt säger vad verket kan ge vid full drift. Årsenergin beror också på hur mycket effekt som faktiskt ges över tiden. En viss medeleffekt behöver inte betyda att verket bara växlar mellan full effekt och noll.</p></div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
       "modellering",
@@ -134106,7 +134106,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilken medeleffekt motsvarar andelen av märkeffekten?</p>",
+    "ledtrad": "<p>Beräkna medeleffekten för varje verk innan du multiplicerar med årets timmar.</p>",
     "traningsniva": 3,
     "typ": "effekt och årlig energi",
     "arbetsinsats": 2,
@@ -134124,8 +134124,8 @@ window.BANK = [
     "omr": "effekt",
     "niva": "A",
     "poang": "(0/1/2)",
-    "t": "<p>Kommunen jämför två energisystem för samma elanvändning. X har låga utsläpp under drift men kräver mycket material vid byggandet. Y har högre utsläpp under drift men kan ändra sin effekt snabbt. Några andra data finns ännu inte.</p><ol style=\"display:grid;gap:0.85rem\"><li>En utredare väljer X enbart för dess låga utsläpp under drift. Granska slutsatsen.</li><li>Beskriv hur en rättvis jämförelse kan göras och ange minst tre ytterligare uppgifter som behövs.</li><li>Förklara hur olika antaganden kan påverka vilket system som bedöms bäst.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Slutsatsen är otillräckligt underbyggd.</p></div><div class=\"facit-stycke\"><p>Låga driftutsläpp säger inte ensamt något om utsläppen under byggande och avveckling eller om systemet levererar el när den behövs.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämför samma levererade energimängd och förmåga att täcka behovet över tiden.</p></div><div class=\"facit-stycke\"><p>Ta med hela livscykeln och ange systemgräns.</p></div><div class=\"facit-stycke\"><p>Relevanta uppgifter är exempelvis livslängd, årlig energileverans, utsläpp vid byggande och drift, materialbehov, effekt när efterfrågan är hög samt behov av lagring eller reservkraft.</p></div><div class=\"facit-stycke\"><p>Utsläpp per levererad kWh är ett användbart mått men behöver kompletteras med leveransförmåga.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En lång livslängd och stor energileverans kan fördela X:s byggutsläpp över fler kWh.</p></div><div class=\"facit-stycke\"><p>Om X däremot kräver omfattande lagring eller reservkraft kan jämförelsen ändras.</p></div><div class=\"facit-stycke\"><p>Y:s reglerbarhet kan vara värdefull vid varierande behov men undanröjer inte dess driftutsläpp.</p></div><div class=\"facit-stycke\"><p>Utan kompletterande data går det inte att entydigt rangordna systemen.</p></div><div class=\"facit-stycke\"><p>Redovisa därför antaganden och hur slutsatsen ändras när de varieras.</p></div></div></div></div></div>",
+    "t": "<p>En kommun jämför två system som ska ge el till samma behov. System X ger små utsläpp under drift men kräver mycket material för att byggas. System Y ger större utsläpp under drift men kan snabbt ändra sin effekt. Kommunen har ännu inga fler data.</p><ol type=\"a\"><li>En utredare väljer X enbart för dess små utsläpp under drift. Bedöm slutsatsen.</li><li>Hur kan en rättvis jämförelse göras? Ange minst tre ytterligare uppgifter som behövs.</li><li>Ge exempel på hur olika antaganden kan ändra vilket system som bedöms bäst.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Underlaget räcker inte. Små utsläpp under drift säger inte hur stora utsläppen blir när systemet byggs eller tas bort. Det säger inte heller om systemet kan ge el när den behövs.</p><p><strong>b)</strong> Jämför systemen för samma levererade energimängd och samma behov över tiden. Ta med byggande, drift och avveckling. Uppgifter som behövs är exempelvis livslängd, årsproduktion, utsläpp vid byggande och drift, materialbehov, kostnader och behov av batterier eller annan reserv. Utsläpp per levererad kWh hjälper jämförelsen, men även förmågan att ge el vid rätt tid behövs.</p><p><strong>c)</strong> Lång livslängd och stor årsproduktion fördelar X:s byggutsläpp över fler kWh. Om X kräver stora batterier eller mycket reservkraft kan fördelen minska. Y:s möjlighet att snabbt ändra effekten kan hjälpa när behovet varierar, men dess driftutsläpp måste fortfarande räknas med. Redovisa därför antagandena och undersök hur slutsatsen ändras när de ändras. Utan fler data går systemen inte att rangordna säkert.</p></div>",
     "familj": "Verkningsgrad",
     "formaga": [
       "modellering",
@@ -134140,7 +134140,7 @@ window.BANK = [
     "ledtrad": "<p>Vilken gemensam funktion ska systemen fylla och vilka uppgifter saknas?</p>",
     "traningsniva": 5,
     "typ": "granska en jämförelse av energisystem",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "familjNyckel": "arbete__granska_en_jamforelse_av_energisystem",
     "spel": false,
     "manuellKomplettering": true,
@@ -134155,8 +134155,8 @@ window.BANK = [
     "niva": "E",
     "typ": "effekt och energi",
     "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En brandman (95 kg) klättrar 8,0 m upp på 28,0 s. Bestäm effekten.</li><li>En maskin avger 72 kJ på 5,0 min. Bestäm effekten.</li><li>En vattenkokare (2,0 kW) är på i 83 s. Hur mycket energi avger den?</li><li>Johan utvecklar 0,35 kW och förbränner 607 kJ. Hur många minuter springer han?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{95\\cdot9{,}82\\cdot8{,}0}{28{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(267\\) W</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medeleffekt är energi delat med tid. Omvandla 72 kJ = 72 000 J och 5,0 minuter = 300 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac Et=\\frac{72000}{300}=240\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 240 W.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Energin är effekt gånger tid. Omvandla effekten: 2,0 kW = 2000 W.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Pt=2000\\cdot83=166000\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 170 000 J.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{607\\,000}{350}\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) min</p></div></div></div>",
+    "t": "<p>Använd g = 9,82 m/s² i uppgiften om höjdökning.</p><ol type=\"a\"><li>En brandman på 95 kg klättrar 8,0 m uppåt på 28,0 s. Vilken medeleffekt motsvarar ökningen i lägesenergi? Svara i W. Svara med tre värdesiffror.</li><li>En maskin avger 72 kJ energi på 5,0 minuter. Bestäm medeleffekten i W. Svara med tre värdesiffror.</li><li>En vattenkokare avger värme med effekten 2,0 kW i 83 s. Hur mycket värme avges? Svara i J. Svara med tre värdesiffror.</li><li>Under en löprunda använder Johan kemisk energi med medeleffekten 0,35 kW. Hur många minuter tar det att använda 607 kJ? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna lägesenergins ökning och dividera med tiden.</p>\\[\\Delta E_p=95\\cdot9{,}82\\cdot8{,}0=7463{,}2\\,\\mathrm J\\]\\[P=\\frac{7463{,}2}{28{,}0}\\approx267\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Omvandla 72 kJ till 72 000 J och 5,0 min till 300 s. Medeleffekt är energi per tid.</p>\\[P=\\frac Et=\\frac{72000}{300}=240\\,\\mathrm W\\]<p><strong>c)</strong></p><p>Omvandla 2,0 kW till 2000 W. Energi är effekt gånger tid.</p>\\[E=Pt=2000\\cdot83=166000\\,\\mathrm J\\]<p><strong>d)</strong></p><p>Använd kJ och kW för att få sekunder: 0,35 kW = 0,35 kJ/s. Dividera sedan med 60 för att få minuter.</p>\\[t=\\frac EP=\\frac{607}{0{,}35}\\approx1734{,}286\\,\\mathrm s\\]\\[t=\\frac{607/0{,}35}{60}\\approx28{,}9\\,\\mathrm{min}\\]</div>",
     "id": "5.551",
     "miniräknare": true,
     "geogebra": false,
@@ -134164,15 +134164,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       266.54285714285714,
-      240,
+      240.0,
       166000,
       28.904761904761905
     ],
     "tolerans": [
-      5.1,
-      5.1,
-      5100.0,
-      0.51
+      0.5,
+      0.5,
+      500.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -134198,67 +134198,67 @@ window.BANK = [
       "min"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s² i uppgiften om höjdökning.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En brandman (95 kg) klättrar 8,0 m upp på 28,0 s. Bestäm effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En brandman (95 kg) klättrar 8,0 m upp på 28,0 s. Bestäm effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{95\\cdot9{,}82\\cdot8{,}0}{28{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(267\\) W</p></div>",
-        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "fraga": "Vilken medeleffekt motsvarar höjdökningen? Svara i W med tre värdesiffror.",
+        "t": "<p>En brandman på 95 kg klättrar 8,0 m uppåt på 28,0 s. Använd g = 9,82 m/s².</p><p>Vilken medeleffekt motsvarar höjdökningen? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lägesenergins ökning och dividera med tiden.</p>\\[\\Delta E_p=95\\cdot9{,}82\\cdot8{,}0=7463{,}2\\,\\mathrm J\\]\\[P=\\frac{7463{,}2}{28{,}0}\\approx267\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Beräkna höjdökningens energi och dividera med tiden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är maskinens medeleffekt? Svara i W.",
-        "t": "<p>En maskin avger energin 72 kJ under 5,0 minuter.</p><p>Hur stor är maskinens medeleffekt? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medeleffekt är energi delat med tid. Omvandla 72 kJ = 72 000 J och 5,0 minuter = 300 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac Et=\\frac{72000}{300}=240\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 240 W.</p></div></div>",
-        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "fraga": "Bestäm medeleffekten i W med tre värdesiffror.",
+        "t": "<p>En maskin avger 72 kJ energi under 5,0 minuter.</p><p>Bestäm medeleffekten i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 72 kJ till 72 000 J och 5,0 min till 300 s. Medeleffekt är energi per tid.</p>\\[P=\\frac Et=\\frac{72000}{300}=240\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Omvandla kJ till J och minuter till sekunder.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket värme avger vattenkokaren? Svara i J.",
-        "t": "<p>En vattenkokare avger värme med effekten 2,0 kW under 83 s.</p><p>Hur mycket värme avger vattenkokaren? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Energin är effekt gånger tid. Omvandla effekten: 2,0 kW = 2000 W.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Pt=2000\\cdot83=166000\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 170 000 J.</p></div></div>",
-        "ledtrad": "<p>\\(E=Pt\\).</p>",
+        "fraga": "Hur mycket värme avges? Svara i J med tre värdesiffror.",
+        "t": "<p>En vattenkokare avger värme med effekten 2,0 kW under 83 s.</p><p>Hur mycket värme avges? Svara i J med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 2,0 kW till 2000 W. Energi är effekt gånger tid.</p>\\[E=Pt=2000\\cdot83=166000\\,\\mathrm J\\]</div>",
+        "ledtrad": "<p>Effekt gånger tid ger energi.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Johan utvecklar 0,35 kW och förbränner 607 kJ. Hur många minuter springer han?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Johan utvecklar 0,35 kW och förbränner 607 kJ. Hur många minuter springer han?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{607\\,000}{350}\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) min</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac EP\\).</p>",
+        "fraga": "Hur många minuter tar det att använda 607 kJ? Svara med tre värdesiffror.",
+        "t": "<p>Johan använder kemisk energi med medeleffekten 0,35 kW under en löprunda.</p><p>Hur många minuter tar det att använda 607 kJ? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd kJ och kW för att få sekunder: 0,35 kW = 0,35 kJ/s. Dividera sedan med 60 för att få minuter.</p>\\[t=\\frac EP=\\frac{607}{0{,}35}\\approx1734{,}286\\,\\mathrm s\\]\\[t=\\frac{607/0{,}35}{60}\\approx28{,}9\\,\\mathrm{min}\\]</div>",
+        "ledtrad": "<p>Dividera energin med effekten och omvandla sekunder till minuter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "effekt__effekt_p_w_t",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "effekt vid lyft",
-    "poang": "(2/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En man (75 kg) springer upp för 1 600 trappsteg (20 cm vardera) på 10 min 59 s. Bestäm medeleffekten.</li><li>En vinsch (550 W) hissar en korg (50 kg) 10 m med konstant fart. Hur lång tid tar det?</li><li>Samma vinsch hissar korgen med en person (65 kg). Hur lång tid tar det?</li><li>En hissmotor (42 kW) lyfter en hisskorg (900 kg) 25 m på 12 s. Hur många personer à 75 kg kan den högst lyfta?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{75\\cdot9{,}82\\cdot320}{659}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(358\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{50\\cdot9{,}82\\cdot10}{550}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}9\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{115\\cdot9{,}82\\cdot10}{550}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m=\\dfrac{42\\,000\\cdot12}{9{,}82\\cdot25}=2\\,053\\) kg.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{2\\,053-900}{75}=15{,}4\\): 15 personer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></li></ol></div>",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd g = 9,82 m/s². Lyftmotorerna saknar motvikt och deras angivna effekt går till lyftet. Bortse från energiförluster.</p><ol type=\"a\"><li>En person på 75 kg springer uppför 1600 trappsteg som är 20 cm höga. Tiden är 10 min 59 s. Bestäm medeleffekten som motsvarar ökningen i lägesenergi i W. Svara med tre värdesiffror.</li><li>En vinsch lämnar mekanisk effekt 550 W och lyfter en korg på 50 kg rakt upp 10 m med konstant fart. Hur lång tid tar lyftet? Svara i s. Svara med tre värdesiffror.</li><li>Vinschen lyfter korgen på 50 kg med en person på 65 kg rakt upp 10 m med konstant fart. Hur lång tid tar det med 550 W? Svara i s. Svara med tre värdesiffror.</li><li>En hissmotor lämnar 42 kW för att lyfta en hisskorg på 900 kg 25 m på 12 s med konstant fart. Hur många personer på 75 kg var kan den högst lyfta? Svara med ett heltal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna den sammanlagda höjdökningen och tiden i sekunder.</p>\\[h=1600\\cdot0{,}20=320\\,\\mathrm m\\]\\[t=10\\cdot60+59=659\\,\\mathrm s\\]\\[\\Delta E_p=75\\cdot9{,}82\\cdot320=235680\\,\\mathrm J\\]\\[P=\\frac{235680}{659}\\approx358\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Vid konstant fart ökar lyftarbetet lägesenergin. Dividera arbetet med den mekaniska effekten.</p>\\[W=mgh=50\\cdot9{,}82\\cdot10=4910\\,\\mathrm J\\]\\[t=\\frac WP=\\frac{4910}{550}\\approx8{,}93\\,\\mathrm s\\]<p><strong>c)</strong></p><p>Summera massorna innan lyftarbetet beräknas.</p>\\[m=50+65=115\\,\\mathrm{kg}\\]\\[W=115\\cdot9{,}82\\cdot10=11293\\,\\mathrm J\\]\\[t=\\frac{11293}{550}\\approx20{,}5\\,\\mathrm s\\]<p><strong>d)</strong></p><p>Motorn kan ge arbetet 42 000 · 12 = 504 000 J under lyftet. Beräkna största sammanlagda massa, dra bort korgen och dividera med en persons massa.</p>\\[m_\\text{tot}=\\frac{504000}{9{,}82\\cdot25}\\approx2052{,}953\\,\\mathrm{kg}\\]\\[N\\le\\frac{2052{,}953-900}{75}\\approx15{,}373\\]<p>Avrunda nedåt: \\(N_\\text{max}=15\\) personer. En sextonde person skulle överskrida effektgränsen.</p></div>",
     "id": "5.552",
     "miniräknare": true,
     "geogebra": false,
@@ -134271,10 +134271,10 @@ window.BANK = [
       15
     ],
     "tolerans": [
-      5.36,
-      0.134,
-      0.51,
-      0.51
+      0.5,
+      0.005,
+      0.05,
+      0
     ],
     "självrättning": true,
     "formaga": [
@@ -134301,14 +134301,14 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Lyftmotorerna saknar motvikt och deras angivna effekt går till lyftet. Bortse från energiförluster.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En man (75 kg) springer upp för 1 600 trappsteg (20 cm vardera) på 10 min 59 s. Bestäm medeleffekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En man (75 kg) springer upp för 1 600 trappsteg (20 cm vardera) på 10 min 59 s. Bestäm medeleffekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{75\\cdot9{,}82\\cdot320}{659}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(358\\) W</p></div>",
-        "ledtrad": "<p>Total höjd 320 m.</p>",
+        "fraga": "Vilken medeleffekt motsvarar ökningen i lägesenergi? Svara i W med tre värdesiffror.",
+        "t": "<p>En person på 75 kg springer uppför 1600 trappsteg som är 20 cm höga på 10 min 59 s. Använd g = 9,82 m/s².</p><p>Vilken medeleffekt motsvarar ökningen i lägesenergi? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna den sammanlagda höjdökningen och tiden i sekunder.</p>\\[h=1600\\cdot0{,}20=320\\,\\mathrm m\\]\\[t=10\\cdot60+59=659\\,\\mathrm s\\]\\[\\Delta E_p=75\\cdot9{,}82\\cdot320=235680\\,\\mathrm J\\]\\[P=\\frac{235680}{659}\\approx358\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Multiplicera antal steg med steghöjden. Omvandla också tiden till sekunder.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -134316,34 +134316,34 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En vinsch (550 W) hissar en korg (50 kg) 10 m med konstant fart. Hur lång tid tar det?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vinsch (550 W) hissar en korg (50 kg) 10 m med konstant fart. Hur lång tid tar det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{50\\cdot9{,}82\\cdot10}{550}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}9\\) s</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "fraga": "Hur lång tid tar lyftet? Svara i s med tre värdesiffror.",
+        "t": "<p>En vinsch lyfter en korg på 50 kg rakt upp 10 m med konstant fart. Den lämnar mekanisk effekt 550 W. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Hur lång tid tar lyftet? Svara i s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart ökar lyftarbetet lägesenergin. Dividera arbetet med den mekaniska effekten.</p>\\[W=mgh=50\\cdot9{,}82\\cdot10=4910\\,\\mathrm J\\]\\[t=\\frac WP=\\frac{4910}{550}\\approx8{,}93\\,\\mathrm s\\]</div>",
+        "ledtrad": "<p>Beräkna lyftarbetet och dividera med effekten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En vinsch (550 W) hissar en korg (50 kg) med en person (65 kg) 10 m med konstant fart. Hur lång tid tar det?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En vinsch (550 W) hissar en korg (50 kg) med en person (65 kg) 10 m med konstant fart. Hur lång tid tar det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{115\\cdot9{,}82\\cdot10}{550}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) s</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "fraga": "Hur lång tid tar lyftet? Svara i s med tre värdesiffror.",
+        "t": "<p>En vinsch lyfter en korg på 50 kg med en person på 65 kg rakt upp 10 m med konstant fart. Den lämnar mekanisk effekt 550 W. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Hur lång tid tar lyftet? Svara i s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Summera massorna innan lyftarbetet beräknas.</p>\\[m=50+65=115\\,\\mathrm{kg}\\]\\[W=115\\cdot9{,}82\\cdot10=11293\\,\\mathrm J\\]\\[t=\\frac{11293}{550}\\approx20{,}5\\,\\mathrm s\\]</div>",
+        "ledtrad": "<p>Summera korgens och personens massor.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En hissmotor (42 kW) lyfter en hisskorg (900 kg) 25 m på 12 s. Hur många personer à 75 kg kan den högst lyfta?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hissmotor (42 kW) lyfter en hisskorg (900 kg) 25 m på 12 s. Hur många personer à 75 kg kan den högst lyfta?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m=\\dfrac{42\\,000\\cdot12}{9{,}82\\cdot25}=2\\,053\\) kg.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{2\\,053-900}{75}=15{,}4\\): 15 personer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
-        "ledtrad": "<p>Total massa först.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Hur många personer på 75 kg var kan hissen högst lyfta? Svara med ett heltal.",
+        "t": "<p>En hiss utan motvikt har en korg på 900 kg. Motorn kan lämna högst 42 kW mekanisk effekt. Hissen ska höjas 25 m på 12 s med konstant fart. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Hur många personer på 75 kg var kan hissen högst lyfta? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Motorn kan ge arbetet 42 000 · 12 = 504 000 J under lyftet. Beräkna största sammanlagda massa, dra bort korgen och dividera med en persons massa.</p>\\[m_\\text{tot}=\\frac{504000}{9{,}82\\cdot25}\\approx2052{,}953\\,\\mathrm{kg}\\]\\[N\\le\\frac{2052{,}953-900}{75}\\approx15{,}373\\]<p>Avrunda nedåt: \\(N_\\text{max}=15\\) personer. En sextonde person skulle överskrida effektgränsen.</p></div>",
+        "ledtrad": "<p>Beräkna största sammanlagda massa. Dra bort korgen och avrunda antalet personer nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -134351,7 +134351,7 @@ window.BANK = [
     "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_p_w_t",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -134360,51 +134360,51 @@ window.BANK = [
     "niva": "E",
     "typ": "jogga bort socker",
     "poang": "(1/0/0)",
-    "t": "<p>100 g socker ger 1 700 kJ. Hur många sekunder måste man jogga med effekten 300 W för att förbränna 1 g socker?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1 g ger 17 kJ.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{17\\,000}{300}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(57\\) s</p></div>",
+    "t": "<p>100 g socker innehåller 1700 kJ kemisk energi. Under en löprunda använder kroppen kemisk energi med medeleffekten 300 W. Hur många sekunder motsvarar energin i 1,0 g socker? Svara i s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera energin med 100 för att få energin i 1,0 g socker. Omvandla kJ till J.</p>\\[E=\\frac{1700}{100}=17\\,\\mathrm{kJ}=17000\\,\\mathrm J\\]<p>Tid är energi delad med effekt.</p>\\[t=\\frac EP=\\frac{17000}{300}\\approx56{,}7\\,\\mathrm s\\]</div>",
     "id": "5.553",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt P = W/t",
     "svarstyp": "numeriskt",
     "rättSvar": 56.666666666666664,
-    "tolerans": 0.85,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+    "ledtrad": "<p>Beräkna energin i ett gram innan du dividerar med effekten.</p>",
     "traningsniva": 2,
     "svarEnhet": "s",
     "familjNyckel": "effekt__effekt_p_w_t",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "luftmotstånd för medeldistanslöpare",
-    "poang": "(0/1/1)",
-    "t": "<p>En löpare springer 1 500 m på 3 min 26 s med konstant fart och utvecklar 350 W. Luftmotståndet är \\(F=A\\rho v^2\\) med \\(A=0{,}6\\) m² och \\(\\rho=1{,}29\\) kg/m³. Hur många procent av effekten går till luftmotståndet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Här är \\(F\\) den framåtriktade kraft som balanserar luftmotståndet, i rörelseriktningen.</p></div><div class=\"facit-stycke\"><p>Vid konstant fart gäller arbetet \\(W=Fs\\), effekten \\(P=W/t\\) och farten \\(v=s/t\\).</p></div><div class=\"facit-stycke\"><p>Därför blir</p></div></div>\\[P=\\frac{W}{t}=F\\frac{s}{t}=Fv.\\]<div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Detta är effekten som löparen behöver för att övervinna luftmotståndet.</p></div><div class=\"facit-stycke\"><p>Luftmotståndets eget arbete på löparen är negativt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\dfrac{1\\,500}{206}\\],</div></div><div class=\"facit-stycke\"><p>\\(P=Fv=A\\rho v^3\\), andel \\(=\\dfrac{P}{350}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(85\\) %</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En löpare springer 1500 m på 3 min 26 s med konstant fart. Den nyttiga mekaniska effekten är 350 W. I en modell är luftmotståndet \\(F=A\\rho v^2\\), med A = 0,6 m², ρ = 1,29 kg/m³ och v i m/s. Hur stor procent av den mekaniska effekten går till att övervinna luftmotståndet? Svara i procent.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla tiden till sekunder och beräkna farten.</p>\\[t=3\\cdot60+26=206\\,\\mathrm s\\]\\[v=\\frac{1500}{206}\\approx7{,}28155\\,\\mathrm{m/s}\\]<p>Vid konstant fart behöver löparen en framåtriktad kraft som balanserar luftmotståndet. Effekt = kraft gånger fart. Använd oavrundad fart.</p>\\[F=0{,}6\\cdot1{,}29\\cdot(1500/206)^2\\approx41{,}0372\\,\\mathrm N\\]\\[\\begin{gathered}P_\\text{luft}=Fv\\\\=0{,}6\\cdot1{,}29\\cdot(1500/206)^3\\approx298{,}822\\,\\mathrm W\\end{gathered}\\]\\[\\text{andel}=\\frac{P_\\text{luft}}{350}\\cdot100\\,\\%\\approx85{,}4\\,\\%\\]</div>",
     "id": "5.554",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 85.37781427304614,
-    "tolerans": 1.28,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Beräkna farten. Luftmotstånd gånger fart ger effekten som behövs mot luften.</p>",
+    "traningsniva": 3,
     "svarEnhet": "%",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -134416,8 +134416,8 @@ window.BANK = [
     "niva": "C",
     "typ": "energienheter och hästkrafter",
     "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><ol type=\"a\"><li>En vikt (5,0 kg) lyfts 90 cm på 1,2 s. Bestäm effekten i hk.</li><li>En bil (900 kg) accelererar från 0 till 100 km/h på 4,2 s. Bestäm medeleffekten i hk.</li><li>Hur stort arbete gör en motor på 2,0 hk på 4,0 h? Svara i kWh.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(P=\\dfrac{5{,}0\\cdot9{,}82\\cdot0{,}90}{1{,}2}\\), dela med 735,5.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}050\\) hk</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(P=\\dfrac{900\\cdot27{,}8^2}{2\\cdot4{,}2}\\), dela med 735,5.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(112\\) hk</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=2{,}0\\cdot0{,}7355\\cdot4{,}0\\) kWh.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}9\\) kWh</p></li></ol></div>",
+    "t": "<p>1 hk = 735,5 W. Använd g = 9,82 m/s² i lyftuppgiften och bortse från energiförluster.</p><ol type=\"a\"><li>En vikt på 5,0 kg lyfts 90 cm på 1,2 s, från vila till vila. Bestäm lyftkraftens medeleffekt i hk. Svara med tre värdesiffror.</li><li>En bil på 900 kg ökar farten från vila till 100 km/h på 4,2 s på en vågrät väg. Bortse från motstånd och hjulens rotation. Bestäm den nyttiga mekaniska medeleffekten i hk. Svara med tre värdesiffror.</li><li>En motor lämnar mekanisk effekt 2,0 hk under 4,0 h. Hur stort arbete utför den? Svara i kWh. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 90 cm till 0,90 m. Beräkna lyftarbetet, dividera med tiden och omvandla W till hk.</p>\\[W=5{,}0\\cdot9{,}82\\cdot0{,}90=44{,}19\\,\\mathrm J\\]\\[P=\\frac{44{,}19}{1{,}2}=36{,}825\\,\\mathrm W\\]\\[P=\\frac{36{,}825}{735{,}5}\\approx0{,}0501\\,\\mathrm{hk}\\]<p><strong>b)</strong></p><p>Omvandla farten utan att avrunda före energiberäkningen: v = 100/3,6 m/s. Bilens rörelseenergi ökar från noll.</p>\\[\\Delta E_k=\\frac{900\\cdot(100/3{,}6)^2}{2}\\approx347222{,}222\\,\\mathrm J\\]\\[P=\\frac{\\Delta E_k}{4{,}2}\\approx82671{,}958\\,\\mathrm W\\]\\[P=\\frac{900\\cdot(100/3{,}6)^2}{2\\cdot4{,}2\\cdot735{,}5}\\approx112\\,\\mathrm{hk}\\]<p><strong>c)</strong></p><p>Omvandla hk till kW. Effekt i kW gånger tid i timmar ger arbete i kWh.</p>\\[P=2{,}0\\cdot735{,}5=1471\\,\\mathrm W=1{,}471\\,\\mathrm{kW}\\]\\[W=1{,}471\\cdot4{,}0=5{,}884\\,\\mathrm{kWh}\\]<p>Med tre värdesiffror: 5,88 kWh.</p></div>",
     "id": "5.555",
     "miniräknare": true,
     "geogebra": false,
@@ -134429,9 +134429,9 @@ window.BANK = [
       5.884
     ],
     "tolerans": [
-      0.000751,
-      5.1,
-      0.0883
+      5e-05,
+      0.5,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -134454,14 +134454,14 @@ window.BANK = [
       "kWh"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p>",
+    "spelIntro": "<p>1 hk = 735,5 W. Använd g = 9,82 m/s² i lyftuppgiften och bortse från energiförluster.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En vikt (5,0 kg) lyfts 90 cm på 1,2 s. Bestäm effekten i hk.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><p>En vikt (5,0 kg) lyfts 90 cm på 1,2 s. Bestäm effekten i hk.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(P=\\dfrac{5{,}0\\cdot9{,}82\\cdot0{,}90}{1{,}2}\\), dela med 735,5.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}050\\) hk</p></div>",
-        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "fraga": "Bestäm lyftkraftens medeleffekt i hk med tre värdesiffror.",
+        "t": "<p>En vikt på 5,0 kg lyfts 90 cm på 1,2 s, från vila till vila. Bortse från luftmotståndet. Använd g = 9,82 m/s² och 1 hk = 735,5 W.</p><p>Bestäm lyftkraftens medeleffekt i hk med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 90 cm till 0,90 m. Beräkna lyftarbetet, dividera med tiden och omvandla W till hk.</p>\\[W=5{,}0\\cdot9{,}82\\cdot0{,}90=44{,}19\\,\\mathrm J\\]\\[P=\\frac{44{,}19}{1{,}2}=36{,}825\\,\\mathrm W\\]\\[P=\\frac{36{,}825}{735{,}5}\\approx0{,}0501\\,\\mathrm{hk}\\]</div>",
+        "ledtrad": "<p>Omvandla höjden till m. Beräkna effekten i W innan du omvandlar till hk.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -134469,10 +134469,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En bil (900 kg) accelererar från 0 till 100 km/h på 4,2 s. Bestäm medeleffekten i hk.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><p>En bil (900 kg) accelererar från 0 till 100 km/h på 4,2 s. Bestäm medeleffekten i hk.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(P=\\dfrac{900\\cdot27{,}8^2}{2\\cdot4{,}2}\\), dela med 735,5.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(112\\) hk</p></div>",
-        "ledtrad": "<p>Ökningen i rörelseenergi delat med tiden.</p>",
+        "fraga": "Bestäm den nyttiga mekaniska medeleffekten i hk med tre värdesiffror.",
+        "t": "<p>En bil på 900 kg ökar farten från vila till 100 km/h på 4,2 s på en vågrät väg. Bortse från motstånd och hjulens rotation. 1 hk = 735,5 W.</p><p>Bestäm den nyttiga mekaniska medeleffekten i hk med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla farten utan att avrunda före energiberäkningen: v = 100/3,6 m/s. Bilens rörelseenergi ökar från noll.</p>\\[\\Delta E_k=\\frac{900\\cdot(100/3{,}6)^2}{2}\\approx347222{,}222\\,\\mathrm J\\]\\[P=\\frac{\\Delta E_k}{4{,}2}\\approx82671{,}958\\,\\mathrm W\\]\\[P=\\frac{900\\cdot(100/3{,}6)^2}{2\\cdot4{,}2\\cdot735{,}5}\\approx112\\,\\mathrm{hk}\\]</div>",
+        "ledtrad": "<p>Omvandla farten till m/s utan att avrunda.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -134480,14 +134480,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort arbete gör en motor på 2,0 hk på 4,0 h? Svara i kWh.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>1 kWh = 3,6 MJ.</p><p>Hur stort arbete gör en motor på 2,0 hk på 4,0 h? Svara i kWh.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(W=2{,}0\\cdot0{,}7355\\cdot4{,}0\\) kWh.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}9\\) kWh</p></div>",
-        "ledtrad": "<p>\\(W=Pt\\).</p>",
+        "fraga": "Hur stort arbete utför motorn? Svara i kWh med tre värdesiffror.",
+        "t": "<p>En motor lämnar mekanisk effekt 2,0 hk under 4,0 h. 1 hk = 735,5 W.</p><p>Hur stort arbete utför motorn? Svara i kWh med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla hk till kW. Effekt i kW gånger tid i timmar ger arbete i kWh.</p>\\[P=2{,}0\\cdot735{,}5=1471\\,\\mathrm W=1{,}471\\,\\mathrm{kW}\\]\\[W=1{,}471\\cdot4{,}0=5{,}884\\,\\mathrm{kWh}\\]<p>Med tre värdesiffror: 5,88 kWh.</p></div>",
+        "ledtrad": "<p>Omvandla hk till kW och använd timmar.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
@@ -134502,24 +134502,24 @@ window.BANK = [
     "niva": "C",
     "typ": "vad räcker en kilowattimme till",
     "poang": "(3/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><ol type=\"a\"><li>Hur många timmar kan en lampa på 40 W lysa?</li><li>Hur många datorer på 400 W kan vara igång en hel lektion på 40 minuter?</li><li>Hur högt kan en person (95 kg) lyftas?</li><li>Vilken fart får en lastbil (10 ton)?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Använd kW och timmar när energin anges i kWh. Lampans effekt är 40 W = 0,040 kW.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac EP=\\frac{1{,}0}{0{,}040}=25\\,\\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 25 timmar.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En dator använder \\(0{,}400\\cdot\\tfrac{40}{60}=0{,}267\\) kWh.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{1}{0{,}267}=3{,}75\\): tre datorer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\)</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,859\\) m</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot3{,}6\\cdot10^6}{10\\,000}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) m/s</p></div></div></div>",
+    "t": "<p>Varje deluppgift använder 1,0 kWh energi för sitt eget fall. 1,0 kWh = 3,6 MJ. Bortse från energiförluster och använd g = 9,82 m/s² i lyftuppgiften.</p><ol type=\"a\"><li>En lampa tar emot 40 W. Hur många timmar räcker energin? Svara med tre värdesiffror.</li><li>Datorer tar emot 400 W var. Hur många hela datorer kan vara igång under en lektion på 40 minuter? Svara med ett heltal.</li><li>En person på 95 kg lyfts från vila till vila. All energi blir lägesenergi. Hur stor blir höjdökningen? Svara i m. Svara med tre värdesiffror.</li><li>En lastbil på 10 ton börjar i vila. All energi blir rörelseenergi. Vilken fart får lastbilen? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 40 W till 0,040 kW. Energi i kWh delad med effekt i kW ger timmar.</p>\\[t=\\frac EP=\\frac{1{,}0}{0{,}040}=25{,}0\\,\\mathrm h\\]<p><strong>b)</strong></p><p>40 min = 40/60 h. Varje dator använder 0,400 kW.</p>\\[E_\\text{dator}=0{,}400\\cdot\\frac{40}{60}=\\frac4{15}\\,\\mathrm{kWh}\\]\\[N=\\frac{1{,}0}{4/15}=3{,}75\\]<p>Energimängden räcker till tre hela datorer. Avrunda nedåt: \\(N_\\text{max}=3\\) datorer.</p><p><strong>c)</strong></p><p>Omvandla energin till J. Lyft från vila till vila gör att hela arbetet ökar lägesenergin.</p>\\[E=3{,}6\\cdot10^6\\,\\mathrm J\\]\\[h=\\frac E{mg}=\\frac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\approx3860\\,\\mathrm m\\]<p><strong>d)</strong></p><p>Omvandla massan: 10 ton = 10 000 kg. Energin är 3,6 · 10⁶ J. Lös E = mv²/2 för farten.</p>\\[v=\\sqrt{\\frac{2E}{m}}=\\sqrt{\\frac{2\\cdot3{,}6\\cdot10^6}{10000}}\\approx26{,}8\\,\\mathrm{m/s}\\]</div>",
     "id": "5.556",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energi i kWh och vardagen",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      25,
+      25.0,
       3,
       3858.934505306035,
       26.832815729997478
     ],
     "tolerans": [
-      0.51,
-      0.051,
-      57.9,
-      0.51
+      0.05,
+      0,
+      5.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -134546,24 +134546,24 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p>",
+    "spelIntro": "<p>Varje deluppgift använder 1,0 kWh energi för sitt eget fall. 1,0 kWh = 3,6 MJ. Bortse från energiförluster och använd g = 9,82 m/s² i lyftuppgiften.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många timmar kan lampan lysa?",
-        "t": "<p>En lampa tar emot effekten 40 W. Du kan tillföra 1,0 kWh elektrisk energi.</p><p>Hur många timmar kan lampan lysa?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Använd kW och timmar när energin anges i kWh. Lampans effekt är 40 W = 0,040 kW.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac EP=\\frac{1{,}0}{0{,}040}=25\\,\\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 25 timmar.</p></div></div>",
+        "fraga": "Hur många timmar kan lampan lysa? Svara med tre värdesiffror.",
+        "t": "<p>En lampa tar emot 40 W. Du kan tillföra 1,0 kWh elektrisk energi.</p><p>Hur många timmar kan lampan lysa? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 40 W till 0,040 kW. Energi i kWh delad med effekt i kW ger timmar.</p>\\[t=\\frac EP=\\frac{1{,}0}{0{,}040}=25{,}0\\,\\mathrm h\\]</div>",
         "ledtrad": "<p>\\(t=\\dfrac EP\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur många datorer på 400 W kan vara igång en hel lektion på 40 minuter?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Hur många datorer på 400 W kan vara igång en hel lektion på 40 minuter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En dator använder \\(0{,}400\\cdot\\tfrac{40}{60}=0{,}267\\) kWh.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{1}{0{,}267}=3{,}75\\): tre datorer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\)</p></div>",
+        "fraga": "Hur många hela datorer kan vara igång under en lektion på 40 minuter? Svara med ett heltal.",
+        "t": "<p>Du har 1,0 kWh elektrisk energi tillgänglig. Varje dator tar emot effekten 400 W.</p><p>Hur många hela datorer kan vara igång under en lektion på 40 minuter? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>40 min = 40/60 h. Varje dator använder 0,400 kW.</p>\\[E_\\text{dator}=0{,}400\\cdot\\frac{40}{60}=\\frac4{15}\\,\\mathrm{kWh}\\]\\[N=\\frac{1{,}0}{4/15}=3{,}75\\]<p>Energimängden räcker till tre hela datorer. Avrunda nedåt: \\(N_\\text{max}=3\\) datorer.</p></div>",
         "ledtrad": "<p>Bara hela datorer räknas.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -134572,41 +134572,41 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur högt kan en person (95 kg) lyftas?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Hur högt kan en person (95 kg) lyftas?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,859\\) m</p></div>",
+        "fraga": "Hur stor blir höjdökningen? Svara i m med tre värdesiffror.",
+        "t": "<p>En person på 95 kg lyfts från vila till vila. Energin 1,0 kWh används helt för att öka lägesenergin. 1 kWh = 3,6 MJ. Använd g = 9,82 m/s².</p><p>Hur stor blir höjdökningen? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla energin till J. Lyft från vila till vila gör att hela arbetet ökar lägesenergin.</p>\\[E=3{,}6\\cdot10^6\\,\\mathrm J\\]\\[h=\\frac E{mg}=\\frac{3{,}6\\cdot10^6}{95\\cdot9{,}82}\\approx3860\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(W=mgh\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Vilken fart får en lastbil (10 ton)?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Du har energin 1 kWh (3,6 MJ).</p><p>Vilken fart får en lastbil (10 ton)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2\\cdot3{,}6\\cdot10^6}{10\\,000}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27\\) m/s</p></div>",
+        "fraga": "Vilken fart får lastbilen? Svara i m/s med tre värdesiffror.",
+        "t": "<p>En lastbil på 10 ton startar från vila. Energin 1,0 kWh blir helt rörelseenergi. 1 kWh = 3,6 MJ.</p><p>Vilken fart får lastbilen? Svara i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 10 ton = 10 000 kg. Energin är 3,6 · 10⁶ J. Lös E = mv²/2 för farten.</p>\\[v=\\sqrt{\\frac{2E}{m}}=\\sqrt{\\frac{2\\cdot3{,}6\\cdot10^6}{10000}}\\approx26{,}8\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>1 kWh = 3,6 MJ.</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__energi_i_kwh_och_vardagen",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "elkostnader",
-    "poang": "(1/2/1)",
-    "t": "<p>Energipriset är 1,10 kr/kWh.</p><ol type=\"a\"><li>Vad kostar det att ha en lampa på 60 W tänd i 14 h?</li><li>Uppvärmningen av en villa kostar 22 500 kr per år. Bestäm medeleffekten i kW (ett år = 8 760 h).</li><li>En glödlampa (60,0 W, 750 h, 5,90 kr) jämförs med en lågenergilampa (11,0 W, 10 000 h, 39 kr). Hur mycket sparar man på 10 000 h?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}060\\cdot14\\cdot1{,}10\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}92\\) kr</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=\\dfrac{22\\,500}{1{,}10}\\) kWh, \\(P=\\dfrac{E}{8\\,760}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\) kW</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Glödlampor: \\(\\tfrac{10\\,000}{750}\\cdot5{,}90+0{,}060\\cdot10\\,000\\cdot1{,}10\\).</p></div><div class=\"facit-stycke\"><p>Lågenergi: \\(39+0{,}011\\cdot10\\,000\\cdot1{,}10\\).</p></div><div class=\"facit-stycke\"><p>Skillnaden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(579\\) kr</p></li></ol></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Elpriset är 1,10 kr/kWh i alla deluppgifter.</p><ol type=\"a\"><li>En lampa tar emot 60 W och lyser i 14 timmar. Vad kostar elen? Svara i kr. Svara med tre värdesiffror.</li><li>En villa betalar 22 500 kr för uppvärmningens el under ett år med 8760 timmar. Bestäm uppvärmningens medeleffekt i kW. Svara med tre värdesiffror.</li><li>Två lampor ger lika mycket ljus. Glödlampan tar emot 60,0 W, håller i 750 h och kostar 5,90 kr. Den andra lampan tar emot 11,0 W, håller i 10 000 h och kostar 39 kr. Hur mycket lägre blir kostnaden för el och inköp med den andra lampan under 10 000 timmar? Köp minsta antal hela lampor som räcker till tiden. Svara i kr. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 60 W till 0,060 kW. Beräkna energin i kWh och multiplicera med elpriset.</p>\\[E=0{,}060\\cdot14=0{,}840\\,\\mathrm{kWh}\\]\\[\\text{kostnad}=0{,}840\\cdot1{,}10=0{,}924\\,\\mathrm{kr}\\]<p><strong>b)</strong></p><p>Dividera elkostnaden med priset per kWh för att få energin. Dividera sedan med årets timmar.</p>\\[E=\\frac{22500}{1{,}10}\\approx20454{,}545\\,\\mathrm{kWh}\\]\\[P_\\text{medel}=\\frac{22500/1{,}10}{8760}\\approx2{,}33\\,\\mathrm{kW}\\]<p><strong>c)</strong></p><p>10 000/750 ≈ 13,33. Det behövs därför 14 hela glödlampor och en av den andra lampan.</p>\\[C_\\text{glöd}=14\\cdot5{,}90+0{,}060\\cdot10000\\cdot1{,}10\\]\\[C_\\text{glöd}=82{,}60+660=742{,}60\\,\\mathrm{kr}\\]\\[\\begin{gathered}C_\\text{andra}=39+0{,}011\\cdot10000\\cdot1{,}10\\\\=160\\,\\mathrm{kr}\\end{gathered}\\]\\[\\text{besparing}=742{,}60-160=582{,}60\\,\\mathrm{kr}\\]<p>Med tre värdesiffror: 583 kr.</p></div>",
     "id": "5.557",
     "miniräknare": true,
     "geogebra": false,
@@ -134615,12 +134615,12 @@ window.BANK = [
     "rättSvar": [
       0.924,
       2.3349937733499373,
-      578.6666666666666
+      582.6
     ],
     "tolerans": [
-      0.0139,
-      0.051,
-      8.68
+      0.0005,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -134643,25 +134643,25 @@ window.BANK = [
       "kr"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Energipriset är 1,10 kr/kWh.</p>",
+    "spelIntro": "<p>Elpriset är 1,10 kr/kWh i alla deluppgifter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad kostar det att ha en lampa på 60 W tänd i 14 h?",
-        "t": "<p>Energipriset är 1,10 kr/kWh.</p><p>Vad kostar det att ha en lampa på 60 W tänd i 14 h?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}060\\cdot14\\cdot1{,}10\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}92\\) kr</p></div>",
-        "ledtrad": "<p>Energi i kWh gånger pris.</p>",
+        "fraga": "Vad kostar lampans el? Svara i kr med tre värdesiffror.",
+        "t": "<p>Elpriset är 1,10 kr/kWh. En lampa tar emot 60 W och lyser i 14 timmar.</p><p>Vad kostar lampans el? Svara i kr med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 60 W till 0,060 kW. Beräkna energin i kWh och multiplicera med elpriset.</p>\\[E=0{,}060\\cdot14=0{,}840\\,\\mathrm{kWh}\\]\\[\\text{kostnad}=0{,}840\\cdot1{,}10=0{,}924\\,\\mathrm{kr}\\]</div>",
+        "ledtrad": "<p>Energi i kWh gånger elpris ger kostnaden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Uppvärmningen av en villa kostar 22 500 kr per år. Bestäm medeleffekten i kW (ett år = 8 760 h).",
-        "t": "<p>Energipriset är 1,10 kr/kWh.</p><p>Uppvärmningen av en villa kostar 22 500 kr per år. Bestäm medeleffekten i kW (ett år = 8 760 h).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=\\dfrac{22\\,500}{1{,}10}\\) kWh, \\(P=\\dfrac{E}{8\\,760}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\) kW</p></div>",
-        "ledtrad": "<p>Energi delat med tid.</p>",
+        "fraga": "Bestäm uppvärmningens medeleffekt i kW med tre värdesiffror.",
+        "t": "<p>En villas uppvärmning kostar 22 500 kr i el under ett år med 8760 timmar. Elpriset är 1,10 kr/kWh.</p><p>Bestäm uppvärmningens medeleffekt i kW med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera elkostnaden med priset per kWh för att få energin. Dividera sedan med årets timmar.</p>\\[E=\\frac{22500}{1{,}10}\\approx20454{,}545\\,\\mathrm{kWh}\\]\\[P_\\text{medel}=\\frac{22500/1{,}10}{8760}\\approx2{,}33\\,\\mathrm{kW}\\]</div>",
+        "ledtrad": "<p>Kostnaden ger energin. Dividera sedan med årets timmar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -134669,30 +134669,30 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En glödlampa (60,0 W, 750 h, 5,90 kr) jämförs med en lågenergilampa (11,0 W, 10 000 h, 39 kr). Hur mycket sparar man på 10 000 h?",
-        "t": "<p>Energipriset är 1,10 kr/kWh.</p><p>En glödlampa (60,0 W, 750 h, 5,90 kr) jämförs med en lågenergilampa (11,0 W, 10 000 h, 39 kr). Hur mycket sparar man på 10 000 h?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Glödlampor: \\(\\tfrac{10\\,000}{750}\\cdot5{,}90+0{,}060\\cdot10\\,000\\cdot1{,}10\\).</p></div><div class=\"facit-stycke\"><p>Lågenergi: \\(39+0{,}011\\cdot10\\,000\\cdot1{,}10\\).</p></div><div class=\"facit-stycke\"><p>Skillnaden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(579\\) kr</p></div>",
-        "ledtrad": "<p>Räkna både inköp och energi.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Hur mycket lägre blir kostnaden för el och inköp med den andra lampan under 10 000 timmar? Köp minsta antal hela lampor som räcker till tiden. Svara i kr med tre värdesiffror.",
+        "t": "<p>Elpriset är 1,10 kr/kWh. Två lampor ger lika mycket ljus. En glödlampa tar emot 60,0 W, håller i 750 h och kostar 5,90 kr. Den andra lampan tar emot 11,0 W, håller i 10 000 h och kostar 39 kr.</p><p>Hur mycket lägre blir kostnaden för el och inköp med den andra lampan under 10 000 timmar? Köp minsta antal hela lampor som räcker till tiden. Svara i kr med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>10 000/750 ≈ 13,33. Det behövs därför 14 hela glödlampor och en av den andra lampan.</p>\\[C_\\text{glöd}=14\\cdot5{,}90+0{,}060\\cdot10000\\cdot1{,}10\\]\\[C_\\text{glöd}=82{,}60+660=742{,}60\\,\\mathrm{kr}\\]\\[\\begin{gathered}C_\\text{andra}=39+0{,}011\\cdot10000\\cdot1{,}10\\\\=160\\,\\mathrm{kr}\\end{gathered}\\]\\[\\text{besparing}=742{,}60-160=582{,}60\\,\\mathrm{kr}\\]<p>Med tre värdesiffror: 583 kr.</p></div>",
+        "ledtrad": "<p>Hur många hela lampor måste köpas? Räkna också elen för båda alternativen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Kostnad = energi · pris.</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__energi_i_kwh_och_vardagen",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "effekt vid acceleration",
-    "poang": "(2/1/1)",
-    "t": "<p>Bestäm effekten.</p><ol type=\"a\"><li>En sprinter (70,0 kg) accelererar från 0 till 10 m/s på 3,0 s.</li><li>En vinthund (30 kg) accelererar från 0 till 20 m/s på 3,0 s.</li><li>En löpare (50,0 kg) springer 50 m på 7,0 s med konstant acceleration från vila. Bestäm medeleffekten under de sista 2,0 s.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{70{,}0\\cdot10^2}{2\\cdot3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,167\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{30\\cdot20^2}{2\\cdot3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,000\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{2\\cdot50}{7{,}0^2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_5=5a\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_7=7a\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{50{,}0(v_7^2-v_5^2)}{2\\cdot2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,249\\) W</p></li></ol></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Räkna på den mekaniska medeleffekt som ökar rörelseenergin. Bortse från energiförluster.</p><ol type=\"a\"><li>En sprinter på 70,0 kg ökar farten från vila till 10 m/s på 3,0 s. Bestäm medeleffekten i W. Svara med tre värdesiffror.</li><li>En vinthund på 30 kg ökar farten från vila till 20 m/s på 3,0 s. Bestäm medeleffekten i W. Svara med tre värdesiffror.</li><li>En löpare på 50,0 kg springer 50 m på 7,0 s med konstant acceleration från vila. Bestäm medeleffekten under de sista 2,0 s i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Sprintern startar från vila. Beräkna rörelseenergins ökning och dividera med tiden.</p>\\[\\Delta E_k=\\frac{70{,}0\\cdot10^2}{2}=3500\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{3500}{3{,}0}\\approx1170\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Vinthunden startar från vila.</p>\\[\\Delta E_k=\\frac{30\\cdot20^2}{2}=6000\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{6000}{3{,}0}=2000\\,\\mathrm W\\]<p><strong>c)</strong></p><p>Konstant acceleration från vila ger s = at²/2. De sista två sekunderna går från t = 5 s till t = 7 s.</p>\\[a=\\frac{2s}{t^2}=\\frac{2\\cdot50}{7{,}0^2}=\\frac{100}{49}\\,\\mathrm{m/s^2}\\]\\[v_5=5a=\\frac{500}{49}\\,\\mathrm{m/s}\\]\\[ v_7=7a=\\frac{700}{49}\\,\\mathrm{m/s}\\]<p>Beräkna rörelseenergierna vid båda tiderna innan skillnaden tas. Behåll de oavrundade värdena.</p>\\[E_5=\\frac{50{,}0\\cdot(500/49)^2}{2}\\approx2603{,}08\\,\\mathrm J\\]\\[E_7=\\frac{50{,}0\\cdot(700/49)^2}{2}\\approx5102{,}04\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{E_7-E_5}{2{,}0}\\approx1250\\,\\mathrm W\\]</div>",
     "id": "5.558",
     "miniräknare": true,
     "geogebra": false,
@@ -134704,9 +134704,9 @@ window.BANK = [
       1249.479383590171
     ],
     "tolerans": [
-      51.0,
-      51.0,
-      51.0
+      5.0,
+      5.0,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -134730,46 +134730,46 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm effekten.</p>",
+    "spelIntro": "<p>Räkna på den mekaniska medeleffekt som ökar rörelseenergin. Bortse från energiförluster.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En sprinter (70,0 kg) accelererar från 0 till 10 m/s på 3,0 s.",
-        "t": "<p>Bestäm effekten.</p><p>En sprinter (70,0 kg) accelererar från 0 till 10 m/s på 3,0 s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{70{,}0\\cdot10^2}{2\\cdot3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,167\\) W</p></div>",
-        "ledtrad": "<p>Rörelseenergi delat med tid.</p>",
+        "fraga": "Bestäm den mekaniska medeleffekt som ökar rörelseenergin i W med tre värdesiffror.",
+        "t": "<p>En sprinter på 70,0 kg ökar farten från vila till 10 m/s på 3,0 s. Bortse från energiförluster.</p><p>Bestäm den mekaniska medeleffekt som ökar rörelseenergin i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sprintern startar från vila. Beräkna rörelseenergins ökning och dividera med tiden.</p>\\[\\Delta E_k=\\frac{70{,}0\\cdot10^2}{2}=3500\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{3500}{3{,}0}\\approx1170\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Beräkna ökningen i rörelseenergi och dividera med tiden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En vinthund (30 kg) accelererar från 0 till 20 m/s på 3,0 s.",
-        "t": "<p>Bestäm effekten.</p><p>En vinthund (30 kg) accelererar från 0 till 20 m/s på 3,0 s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{30\\cdot20^2}{2\\cdot3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,000\\) W</p></div>",
-        "ledtrad": "<p>Rörelseenergi delat med tid.</p>",
+        "fraga": "Bestäm den mekaniska medeleffekt som ökar rörelseenergin i W med tre värdesiffror.",
+        "t": "<p>En vinthund på 30 kg ökar farten från vila till 20 m/s på 3,0 s. Bortse från energiförluster.</p><p>Bestäm den mekaniska medeleffekt som ökar rörelseenergin i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vinthunden startar från vila.</p>\\[\\Delta E_k=\\frac{30\\cdot20^2}{2}=6000\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{6000}{3{,}0}=2000\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Beräkna ökningen i rörelseenergi och dividera med tiden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En löpare (50,0 kg) springer 50 m på 7,0 s med konstant acceleration från vila. Bestäm medeleffekten under de sista 2,0 s.",
-        "t": "<p>Bestäm effekten.</p><p>En löpare (50,0 kg) springer 50 m på 7,0 s med konstant acceleration från vila. Bestäm medeleffekten under de sista 2,0 s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{2\\cdot50}{7{,}0^2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_5=5a\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_7=7a\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{50{,}0(v_7^2-v_5^2)}{2\\cdot2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,249\\) W</p></div>",
-        "ledtrad": "<p>Ändringen i rörelseenergi.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Bestäm den mekaniska medeleffekt som ökar rörelseenergin under de sista 2,0 s i W med tre värdesiffror.",
+        "t": "<p>En löpare på 50,0 kg springer 50 m på 7,0 s med konstant acceleration från vila. Bortse från energiförluster.</p><p>Bestäm den mekaniska medeleffekt som ökar rörelseenergin under de sista 2,0 s i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant acceleration från vila ger s = at²/2. De sista två sekunderna går från t = 5 s till t = 7 s.</p>\\[a=\\frac{2s}{t^2}=\\frac{2\\cdot50}{7{,}0^2}=\\frac{100}{49}\\,\\mathrm{m/s^2}\\]\\[v_5=5a=\\frac{500}{49}\\,\\mathrm{m/s}\\]\\[ v_7=7a=\\frac{700}{49}\\,\\mathrm{m/s}\\]<p>Beräkna rörelseenergierna vid båda tiderna innan skillnaden tas. Behåll de oavrundade värdena.</p>\\[E_5=\\frac{50{,}0\\cdot(500/49)^2}{2}\\approx2603{,}08\\,\\mathrm J\\]\\[E_7=\\frac{50{,}0\\cdot(700/49)^2}{2}\\approx5102{,}04\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{E_7-E_5}{2{,}0}\\approx1250\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Vid vilka två tider börjar och slutar de sista två sekunderna? Beräkna energin vid båda tiderna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_p_w_t",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -134778,8 +134778,8 @@ window.BANK = [
     "niva": "C",
     "typ": "tid för lyft med given effekt",
     "poang": "(3/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><ol type=\"a\"><li>Ett piano (385 kg) vinschas 16,0 m med en motor på 2 750 W. Hur lång tid tar det?</li><li>Lars (82,4 kg) utvecklar 1,0 hk. Hur lång tid tar en trappa med höjden 12,0 m?</li><li>En pump lyfter varje minut 27,0 kg vatten till en nivå 3,50 m högre upp. Vilken effekt måste pumpen minst ha?</li><li>Skidliftar lyfter 47 000 skidåkare (75 kg) per timme 200 m. Bestäm den minsta totala effekten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{385\\cdot9{,}82\\cdot16{,}0}{2\\,750}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22{,}0\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{82{,}4\\cdot9{,}82\\cdot12{,}0}{735{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{27{,}0\\cdot9{,}82\\cdot3{,}50}{60}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}5\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{47\\,000\\cdot75\\cdot9{,}82\\cdot200}{3\\,600}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) W</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt och bortse från energiförluster.</p><ol type=\"a\"><li>En motor lämnar 2750 W och lyfter ett piano på 385 kg rakt upp 16,0 m med konstant fart. Hur lång tid tar det? Svara i s. Svara med tre värdesiffror.</li><li>Lars på 82,4 kg går uppför en trappa med höjden 12,0 m. Den effekt som ökar lägesenergin är 1,0 hk. 1 hk = 735,5 W. Hur lång tid tar det? Svara i s. Svara med tre värdesiffror.</li><li>En pump höjer 27,0 kg vatten varje minut med 3,50 m. Vilken är minsta nyttiga medeleffekt? Svara i W. Svara med tre värdesiffror.</li><li>Skidliftar höjer 47 000 skidåkare per timme med 200 m. Varje skidåkare har massan 75 kg. Vilken är minsta sammanlagda nyttiga medeleffekt? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart går motorarbetet till ökad lägesenergi. Beräkna arbetet och dividera med effekten.</p>\\[W=385\\cdot9{,}82\\cdot16{,}0=60491{,}2\\,\\mathrm J\\]\\[t=\\frac{60491{,}2}{2750}\\approx22{,}0\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Beräkna ökningen i lägesenergi. Omvandla 1,0 hk till 735,5 W och dividera energin med effekten.</p>\\[\\Delta E_p=82{,}4\\cdot9{,}82\\cdot12{,}0=9710{,}016\\,\\mathrm J\\]\\[t=\\frac{9710{,}016}{735{,}5}\\approx13{,}2\\,\\mathrm s\\]<p><strong>c)</strong></p><p>Beräkna det arbete som höjer en minuts vatten. Dividera med 60 s.</p>\\[W=27{,}0\\cdot9{,}82\\cdot3{,}50=927{,}99\\,\\mathrm J\\]\\[P=\\frac{927{,}99}{60}\\approx15{,}5\\,\\mathrm W\\]<p><strong>d)</strong></p><p>En timme är 3600 s. Summera skidåkarnas massa och beräkna den sammanlagda lägesenergiökningen under timmen.</p>\\[m=47000\\cdot75=3525000\\,\\mathrm{kg}\\]\\[\\begin{gathered}\\Delta E_p=3525000\\cdot9{,}82\\cdot200\\\\=6923100000\\,\\mathrm J\\end{gathered}\\]\\[P=\\frac{6923100000}{3600}\\approx1{,}92\\cdot10^6\\,\\mathrm W\\]<p>Detta är minsta nyttiga effekt för skidåkarna. Liftens egen massa och förluster kan kräva mer.</p></div>",
     "id": "5.559",
     "miniräknare": true,
     "geogebra": false,
@@ -134792,10 +134792,10 @@ window.BANK = [
       1923083.3333333333
     ],
     "tolerans": [
-      0.33,
-      0.51,
-      0.232,
-      51000.0
+      0.05,
+      0.05,
+      0.05,
+      5000.0
     ],
     "självrättning": true,
     "formaga": [
@@ -134822,46 +134822,46 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt och bortse från energiförluster.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett piano (385 kg) vinschas 16,0 m med en motor på 2 750 W. Hur lång tid tar det?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>Ett piano (385 kg) vinschas 16,0 m med en motor på 2 750 W. Hur lång tid tar det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{385\\cdot9{,}82\\cdot16{,}0}{2\\,750}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22{,}0\\) s</p></div>",
+        "fraga": "Hur lång tid tar lyftet? Svara i s med tre värdesiffror.",
+        "t": "<p>En motor lämnar 2750 W och lyfter ett piano på 385 kg rakt upp 16,0 m med konstant fart. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Hur lång tid tar lyftet? Svara i s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart går motorarbetet till ökad lägesenergi. Beräkna arbetet och dividera med effekten.</p>\\[W=385\\cdot9{,}82\\cdot16{,}0=60491{,}2\\,\\mathrm J\\]\\[t=\\frac{60491{,}2}{2750}\\approx22{,}0\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Lars (82,4 kg) utvecklar 1,0 hk. Hur lång tid tar en trappa med höjden 12,0 m?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>Lars (82,4 kg) utvecklar 1,0 hk. Hur lång tid tar en trappa med höjden 12,0 m?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{82{,}4\\cdot9{,}82\\cdot12{,}0}{735{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\) s</p></div>",
+        "fraga": "Hur lång tid tar trappan? Svara i s med tre värdesiffror.",
+        "t": "<p>Lars på 82,4 kg går uppför en trappa med höjden 12,0 m. Effekten som ökar hans lägesenergi är 1,0 hk. 1 hk = 735,5 W. Använd g = 9,82 m/s².</p><p>Hur lång tid tar trappan? Svara i s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna ökningen i lägesenergi. Omvandla 1,0 hk till 735,5 W och dividera energin med effekten.</p>\\[\\Delta E_p=82{,}4\\cdot9{,}82\\cdot12{,}0=9710{,}016\\,\\mathrm J\\]\\[t=\\frac{9710{,}016}{735{,}5}\\approx13{,}2\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En pump lyfter varje minut 27,0 kg vatten till en nivå 3,50 m högre upp. Vilken effekt måste pumpen minst ha?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En pump lyfter varje minut 27,0 kg vatten till en nivå 3,50 m högre upp. Vilken effekt måste pumpen minst ha?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{27{,}0\\cdot9{,}82\\cdot3{,}50}{60}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}5\\) W</p></div>",
+        "fraga": "Vilken är minsta nyttiga medeleffekt? Svara i W med tre värdesiffror.",
+        "t": "<p>En pump höjer 27,0 kg vatten varje minut med 3,50 m. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Vilken är minsta nyttiga medeleffekt? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna det arbete som höjer en minuts vatten. Dividera med 60 s.</p>\\[W=27{,}0\\cdot9{,}82\\cdot3{,}50=927{,}99\\,\\mathrm J\\]\\[P=\\frac{927{,}99}{60}\\approx15{,}5\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Skidliftar lyfter 47 000 skidåkare (75 kg) per timme 200 m. Bestäm den minsta totala effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>Skidliftar lyfter 47 000 skidåkare (75 kg) per timme 200 m. Bestäm den minsta totala effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{47\\,000\\cdot75\\cdot9{,}82\\cdot200}{3\\,600}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{6}\\) W</p></div>",
+        "fraga": "Vilken är minsta sammanlagda nyttiga medeleffekt som höjer skidåkarna? Svara i W med tre värdesiffror.",
+        "t": "<p>Skidliftar höjer 47 000 skidåkare per timme med 200 m. Varje skidåkare har massan 75 kg. Använd g = 9,82 m/s².</p><p>Vilken är minsta sammanlagda nyttiga medeleffekt som höjer skidåkarna? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En timme är 3600 s. Summera skidåkarnas massa och beräkna den sammanlagda lägesenergiökningen under timmen.</p>\\[m=47000\\cdot75=3525000\\,\\mathrm{kg}\\]\\[\\begin{gathered}\\Delta E_p=3525000\\cdot9{,}82\\cdot200\\\\=6923100000\\,\\mathrm J\\end{gathered}\\]\\[P=\\frac{6923100000}{3600}\\approx1{,}92\\cdot10^6\\,\\mathrm W\\]<p>Detta är minsta nyttiga effekt för skidåkarna. Liftens egen massa och förluster kan kräva mer.</p></div>",
         "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -134872,7 +134872,7 @@ window.BANK = [
     "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_p_w_t",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -134881,15 +134881,15 @@ window.BANK = [
     "niva": "C",
     "typ": "dragracingbil",
     "poang": "(0/1/0)",
-    "t": "<p>En dragracingbil (1,1 ton) har den konstanta nyttiga effekten 2,3 MW och kör från vila i 4,2 s. Bestäm sluthastigheten. Bortse från förluster.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1\\,100v^2}{2}=2{,}3\\cdot10^6\\cdot4{,}2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(133\\) m/s</p></div>",
+    "t": "<p>En dragracingbil på 1,1 ton har startfarten 10 m/s. Under de följande 4,2 s är den nyttiga mekaniska effekten konstant 2,3 MW. Bortse från motstånd och hjulens rotation. Vilken fart har bilen efter dessa 4,2 s? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan till 1100 kg och effekten till 2,3 · 10⁶ W. Motorns arbete ökar rörelseenergin.</p>\\[W=Pt=2{,}3\\cdot10^6\\cdot4{,}2=9660000\\,\\mathrm J\\]\\[\\frac{mv^2}{2}-\\frac{mv_0^2}{2}=W\\]<p>Lös för slutfarten och använd startfarten 10 m/s.</p>\\[v=\\sqrt{v_0^2+\\frac{2W}{m}}=\\sqrt{10^2+\\frac{2\\cdot9660000}{1100}}\\]\\[v\\approx133\\,\\mathrm{m/s}\\]</div>",
     "id": "5.560",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt P = W/t",
     "svarstyp": "numeriskt",
-    "rättSvar": 132.52787013921397,
-    "tolerans": 5.1,
+    "rättSvar": 132.90461377859071,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -134909,15 +134909,15 @@ window.BANK = [
     "niva": "E",
     "typ": "människans värmeeffekt",
     "poang": "(1/0/0)",
-    "t": "<p>En människa som sitter still behöver 2 000 kcal per dygn (1 kcal = 4,186 kJ). Bestäm medeleffekten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{2\\,000\\cdot4\\,186}{86\\,400}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(97\\) W</p></div>",
+    "t": "<p>En person använder 2000 kcal kemisk energi under ett dygn. 1 kcal = 4,186 kJ. Vilken medeleffekt motsvarar energianvändningen? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla energin till J och tiden till sekunder. Ett dygn är 24 · 60 · 60 = 86 400 s.</p>\\[E=2000\\cdot4186=8372000\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{8372000}{86400}\\approx96{,}9\\,\\mathrm W\\]</div>",
     "id": "5.561",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Energi i kWh och vardagen",
     "svarstyp": "numeriskt",
     "rättSvar": 96.89814814814815,
-    "tolerans": 1.45,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -134928,7 +134928,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "W",
     "familjNyckel": "effekt__energi_i_kwh_och_vardagen",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -134937,24 +134937,24 @@ window.BANK = [
     "niva": "C",
     "typ": "effekt och fart",
     "poang": "(3/1/0)",
-    "t": "<p>1 hk = 735,5 W.</p><ol type=\"a\"><li>En bil har toppfarten 180 km/h med motoreffekten 100 kW. Bestäm den drivande kraften.</li><li>En bil kör med 95 km/h och motorn avger 18 hk. Bestäm de bromsande krafterna.</li><li>En flygmotor ger 120 kN vid 234 m/s. Bestäm effekten.</li><li>En cyklist utvecklar 120 W och bromsas av 16 N. Bestäm farten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) den drivande kraften, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{100\\cdot10^3}{50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,000\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(502\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=120\\cdot10^3\\cdot234\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\dfrac{120}{16}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) m/s</p></li></ol></div>",
+    "t": "<p>Räkna på nyttig mekanisk effekt i rörelseriktningen. 1 hk = 735,5 W.</p><ol type=\"a\"><li>En bil håller konstant fart 180 km/h med effekten 100 kW. Hur stor är drivkraften? Svara i N. Svara med tre värdesiffror.</li><li>En bil håller konstant fart 95 km/h med effekten 18 hk. Hur stor är den sammanlagda motståndskraften? Svara i N. Svara med tre värdesiffror.</li><li>En flygmotor ger drivkraften 120 kN vid farten 234 m/s. Bestäm den nyttiga effekten i W. Svara med tre värdesiffror.</li><li>En cyklist håller konstant fart med den nyttiga effekten 120 W. Motståndskraften är 16 N. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla effekten och farten: 100 kW = 100 000 W och 180/3,6 = 50 m/s. Lös P = Fv för kraften.</p>\\[F=\\frac Pv=\\frac{100000}{50}=2000\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Omvandla effekten till W och farten till m/s. Konstant fart betyder att drivkraften balanserar motståndet.</p>\\[P=18\\cdot735{,}5=13239\\,\\mathrm W\\]\\[v=\\frac{95}{3{,}6}\\,\\mathrm{m/s}\\]\\[F_\\text{mot}=\\frac Pv=\\frac{13239}{95/3{,}6}\\approx502\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Omvandla 120 kN till 120 000 N. Kraften är i rörelseriktningen.</p>\\[P=Fv=120000\\cdot234=28080000\\,\\mathrm W\\]<p>Med tre värdesiffror: 2,81 · 10⁷ W.</p><p><strong>d)</strong></p><p>Vid konstant fart är drivkraften lika stor som motståndskraften, 16 N. Lös P = Fv för farten.</p>\\[v=\\frac PF=\\frac{120}{16}=7{,}50\\,\\mathrm{m/s}\\]</div>",
     "id": "5.562",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2000,
+      2000.0,
       501.68842105263155,
-      28080000.0,
+      28080000,
       7.5
     ],
     "tolerans": [
-      51.0,
-      7.53,
-      510000.0,
-      0.112
+      5.0,
+      0.5,
+      50000.0,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -134980,25 +134980,25 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>1 hk = 735,5 W.</p>",
+    "spelIntro": "<p>Räkna på nyttig mekanisk effekt i rörelseriktningen. 1 hk = 735,5 W.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är bilens drivkraft? Svara i N.",
-        "t": "<p>En bil håller sin toppfart 180 km/h med den nyttiga motoreffekten 100 kW.</p><p>Hur stor är bilens drivkraft? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) den drivande kraften, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{100\\cdot10^3}{50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,000\\) N</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Hur stor är bilens drivkraft? Svara i N med tre värdesiffror.",
+        "t": "<p>En bil håller konstant fart 180 km/h med nyttig mekanisk effekt 100 kW.</p><p>Hur stor är bilens drivkraft? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten och farten: 100 kW = 100 000 W och 180/3,6 = 50 m/s. Lös P = Fv för kraften.</p>\\[F=\\frac Pv=\\frac{100000}{50}=2000\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Omvandla farten till m/s och använd F = P/v.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är den sammanlagda motståndskraften? Svara i N.",
-        "t": "<p>En bil kör med konstant fart 95 km/h. Motorns nyttiga effekt är 18 hk. 1 hk = 735,5 W.</p><p>Hur stor är den sammanlagda motståndskraften? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) den drivande kraften, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{18\\cdot735{,}5}{95/3{,}6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(502\\) N</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Hur stor är den sammanlagda motståndskraften? Svara i N med tre värdesiffror.",
+        "t": "<p>En bil håller konstant fart 95 km/h med nyttig mekanisk effekt 18 hk. 1 hk = 735,5 W.</p><p>Hur stor är den sammanlagda motståndskraften? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten till W och farten till m/s. Konstant fart betyder att drivkraften balanserar motståndet.</p>\\[P=18\\cdot735{,}5=13239\\,\\mathrm W\\]\\[v=\\frac{95}{3{,}6}\\,\\mathrm{m/s}\\]\\[F_\\text{mot}=\\frac Pv=\\frac{13239}{95/3{,}6}\\approx502\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Vid konstant fart är drivkraften och motståndet lika stora.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135006,21 +135006,21 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm motorns nyttiga effekt. Svara i W.",
-        "t": "<p>En flygmotor ger drivkraften 120 kN i rörelseriktningen vid farten 234 m/s.</p><p>Bestäm motorns nyttiga effekt. Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) den drivande kraften, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=120\\cdot10^3\\cdot234\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\cdot10^{7}\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Bestäm den nyttiga effekten i W med tre värdesiffror.",
+        "t": "<p>En flygmotor ger drivkraften 120 kN i rörelseriktningen vid farten 234 m/s.</p><p>Bestäm den nyttiga effekten i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 120 kN till 120 000 N. Kraften är i rörelseriktningen.</p>\\[P=Fv=120000\\cdot234=28080000\\,\\mathrm W\\]<p>Med tre värdesiffror: 2,81 · 10⁷ W.</p></div>",
+        "ledtrad": "<p>Omvandla kN till N.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm farten. Svara i m/s.",
-        "t": "<p>En cyklist håller konstant fart med den nyttiga effekten 120 W. Motståndskraften är 16 N.</p><p>Bestäm farten. Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) den drivande kraften, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\dfrac{120}{16}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) m/s</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Bestäm farten i m/s med tre värdesiffror.",
+        "t": "<p>En cyklist håller konstant fart med nyttig mekanisk effekt 120 W. Motståndskraften är 16 N. Använd v = P/F.</p><p>Bestäm farten i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är drivkraften lika stor som motståndskraften, 16 N. Lös P = Fv för farten.</p>\\[v=\\frac PF=\\frac{120}{16}=7{,}50\\,\\mathrm{m/s}\\]</div>",
+        "ledtrad": "<p>Vid konstant fart balanserar drivkraften motståndet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -135030,7 +135030,7 @@ window.BANK = [
     "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -135038,9 +135038,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "typ": "bilens bromsande krafter",
-    "poang": "(0/2/0)",
-    "t": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p><ol type=\"a\"><li>Bestäm den genomsnittliga bromsande kraften.</li><li>Vilken effekt krävs för konstant 80 km/h med samma bromsande kraft?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft vid den konstanta farten, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{(95-65)/3{,}6}{7{,}0}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,080a\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,286\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=F\\cdot\\dfrac{80}{3{,}6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\,571\\) W</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Räkna på en bils kraft och nyttiga mekaniska effekt på vågrät väg.</p><ol type=\"a\"><li>En bil på 1080 kg saktar in från 95 km/h till 65 km/h på 7,0 s utan drivkraft från motorn. Bestäm den genomsnittliga bromsande kraftens storlek i N. Svara med tre värdesiffror.</li><li>En bil håller konstant fart 80 km/h. Motståndskraften är 1300 N. Vilken nyttig motoreffekt behövs? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla fartminskningen till m/s. Dividera med tiden för att få retardationens storlek.</p>\\[b=\\frac{(95-65)/3{,}6}{7{,}0}\\approx1{,}19048\\,\\mathrm{m/s^2}\\]\\[F=mb=1080\\cdot\\frac{(95-65)/3{,}6}{7{,}0}\\approx1290\\,\\mathrm N\\]<p>Kraften är riktad bakåt; frågan gäller dess storlek.</p><p><strong>b)</strong></p><p>Vid konstant fart balanserar drivkraften motståndet, 1300 N. Omvandla farten till m/s och använd P = Fv.</p>\\[v=\\frac{80}{3{,}6}\\,\\mathrm{m/s}\\]\\[P=1300\\cdot\\frac{80}{3{,}6}\\approx28900\\,\\mathrm W\\]</div>",
     "id": "5.563",
     "miniräknare": true,
     "geogebra": false,
@@ -135048,11 +135048,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1285.7142857142858,
-      28571.428571428572
+      28888.888888888887
     ],
     "tolerans": [
-      51.0,
-      510.0
+      5.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -135072,14 +135072,14 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p>",
+    "spelIntro": "<p>Räkna på en bils kraft och nyttiga mekaniska effekt på vågrät väg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den genomsnittliga bromsande kraften.",
-        "t": "<p>En bil (1 080 kg) saktar in från 95 km/h till 65 km/h på 7,0 s på plan väg utan gas.</p><p>Bestäm den genomsnittliga bromsande kraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{(95-65)/3{,}6}{7{,}0}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,080a\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,286\\) N</p></div>",
-        "ledtrad": "<p>\\(F=ma\\).</p>",
+        "fraga": "Bestäm den genomsnittliga bromsande kraftens storlek i N med tre värdesiffror.",
+        "t": "<p>En bil på 1080 kg saktar in från 95 km/h till 65 km/h på 7,0 s på en vågrät väg. Motorn ger ingen drivkraft.</p><p>Bestäm den genomsnittliga bromsande kraftens storlek i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla fartminskningen till m/s. Dividera med tiden för att få retardationens storlek.</p>\\[b=\\frac{(95-65)/3{,}6}{7{,}0}\\approx1{,}19048\\,\\mathrm{m/s^2}\\]\\[F=mb=1080\\cdot\\frac{(95-65)/3{,}6}{7{,}0}\\approx1290\\,\\mathrm N\\]<p>Kraften är riktad bakåt; frågan gäller dess storlek.</p></div>",
+        "ledtrad": "<p>Fartminskning per tid ger retardationen. Multiplicera med massan.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135087,17 +135087,17 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken nyttig motoreffekt behövs? Svara i W.",
-        "t": "<p>En bil kör med konstant fart 80 km/h. Den sammanlagda motståndskraften är 1,286 kN.</p><p>Vilken nyttig motoreffekt behövs? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart balanserar drivkraften motståndet. Omvandla farten till m/s och använd P = Fv.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1286\\cdot\\frac{80}{3{,}6}\\approx28\\,578\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 28,6 kW.</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Vilken nyttig motoreffekt behövs? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil håller konstant fart 80 km/h på en vågrät väg. Motståndskraften är 1300 N.</p><p>Vilken nyttig motoreffekt behövs? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar drivkraften motståndet, 1300 N. Omvandla farten till m/s och använd P = Fv.</p>\\[v=\\frac{80}{3{,}6}\\,\\mathrm{m/s}\\]\\[P=1300\\cdot\\frac{80}{3{,}6}\\approx28900\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Vid konstant fart är drivkraften lika stor som det givna motståndet.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+    "ledtrad": "<p>Räkna först på fartminskningen. I andra fallet är motståndskraften given.</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135106,11 +135106,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "hissens effekt",
-    "poang": "(2/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En hiss (650 kg) accelererar från vila till 1,75 m/s på 3,0 s. Bestäm medeleffekten under accelerationen.</li><li>Bestäm effekten när hissen sedan rör sig med konstant fart.</li><li>En hiss (3,0 ton) åker 21 m uppåt på 23 s med konstant fart. Bestäm den minsta effekten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid jämn lyftrörelse ändras inte rörelseenergin.</p></div><div class=\"facit-stycke\"><p>Lyftens arbete fås av lägesenergin, \\(W=mg\\Delta h\\).</p></div><div class=\"facit-stycke\"><p>Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p></div></div>\\[P=\\frac{W}{t}=mg\\frac{\\Delta h}{t}=mgv.\\]<ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjd: \\(\\tfrac12\\cdot1{,}75\\cdot3{,}0\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{650\\cdot9{,}82\\cdot2{,}625+\\tfrac12\\cdot650\\cdot1{,}75^2}{3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,917\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=650\\cdot9{,}82\\cdot1{,}75\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,170\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{3\\,000\\cdot9{,}82\\cdot21}{23}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,898\\) W</p></li></ol></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Hissarna saknar motvikt. Bortse från energiförluster och använd g = 9,82 m/s².</p><ol type=\"a\"><li>En hiss på 650 kg ökar farten med konstant acceleration från vila till 1,75 m/s rakt upp på 3,0 s. Bestäm motorns mekaniska medeleffekt under denna tid i W. Svara med tre värdesiffror.</li><li>Hissen på 650 kg går sedan upp med konstant fart 1,75 m/s. Bestäm den mekaniska effekten i W. Svara med tre värdesiffror.</li><li>En hiss på 3,0 ton höjs 21 m på 23 s med konstant fart. Bestäm minsta mekaniska effekt i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant acceleration från vila ger medelfarten v/2. Beräkna höjden och båda energiökningarna.</p>\\[h=\\frac{1{,}75}{2}\\cdot3{,}0=2{,}625\\,\\mathrm m\\]\\[\\Delta E_p=650\\cdot9{,}82\\cdot2{,}625=16755{,}375\\,\\mathrm J\\]\\[\\Delta E_k=\\frac{650\\cdot1{,}75^2}{2}=995{,}3125\\,\\mathrm J\\]<p>Motorn ökar både lägesenergin och rörelseenergin.</p>\\[\\begin{gathered}W=16755{,}375+995{,}3125\\\\=17750{,}6875\\,\\mathrm J\\end{gathered}\\]\\[P_\\text{medel}=\\frac{17750{,}6875}{3{,}0}\\approx5920\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Vid konstant fart balanserar lyftkraften tyngdkraften. Effekten är kraft gånger fart.</p>\\[F=mg=650\\cdot9{,}82=6383\\,\\mathrm N\\]\\[P=Fv=6383\\cdot1{,}75=11170{,}25\\,\\mathrm W\\]<p>Med tre värdesiffror: 11 200 W.</p><p><strong>c)</strong></p><p>Omvandla 3,0 ton till 3000 kg. Beräkna lyftarbetet och dividera med tiden.</p>\\[W=mgh=3000\\cdot9{,}82\\cdot21=618660\\,\\mathrm J\\]\\[P=\\frac{618660}{23}\\approx26900\\,\\mathrm W\\]</div>",
     "id": "5.564",
     "miniräknare": true,
     "geogebra": false,
@@ -135122,9 +135122,9 @@ window.BANK = [
       26898.260869565216
     ],
     "tolerans": [
-      88.8,
-      510.0,
-      510.0
+      5.0,
+      50.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -135148,46 +135148,46 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Hissarna saknar motvikt. Bortse från energiförluster och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En hiss (650 kg) accelererar från vila till 1,75 m/s på 3,0 s. Bestäm medeleffekten under accelerationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (650 kg) accelererar från vila till 1,75 m/s på 3,0 s. Bestäm medeleffekten under accelerationen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Höjd: \\(\\tfrac12\\cdot1{,}75\\cdot3{,}0\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{650\\cdot9{,}82\\cdot2{,}625+\\tfrac12\\cdot650\\cdot1{,}75^2}{3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,917\\) W</p></div>",
-        "ledtrad": "<p>Både läges- och rörelseenergi.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Bestäm motorns mekaniska medeleffekt under accelerationen i W med tre värdesiffror.",
+        "t": "<p>En hiss på 650 kg ökar farten med konstant acceleration från vila till 1,75 m/s rakt upp på 3,0 s. Hissen saknar motvikt. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Bestäm motorns mekaniska medeleffekt under accelerationen i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant acceleration från vila ger medelfarten v/2. Beräkna höjden och båda energiökningarna.</p>\\[h=\\frac{1{,}75}{2}\\cdot3{,}0=2{,}625\\,\\mathrm m\\]\\[\\Delta E_p=650\\cdot9{,}82\\cdot2{,}625=16755{,}375\\,\\mathrm J\\]\\[\\Delta E_k=\\frac{650\\cdot1{,}75^2}{2}=995{,}3125\\,\\mathrm J\\]<p>Motorn ökar både lägesenergin och rörelseenergin.</p>\\[\\begin{gathered}W=16755{,}375+995{,}3125\\\\=17750{,}6875\\,\\mathrm J\\end{gathered}\\]\\[P_\\text{medel}=\\frac{17750{,}6875}{3{,}0}\\approx5920\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Beräkna både lägesenergins och rörelseenergins ökning.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "En hiss (650 kg) rör sig uppåt med den konstanta farten 1,75 m/s. Bestäm motorns effekt.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (650 kg) rör sig uppåt med den konstanta farten 1,75 m/s. Bestäm motorns effekt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid jämn lyftrörelse ändras inte rörelseenergin.</p></div><div class=\"facit-stycke\"><p>Lyftens arbete fås av lägesenergin, \\(W=mg\\Delta h\\).</p></div><div class=\"facit-stycke\"><p>Effekten är arbete per tid och lyftfarten är \\(v=\\Delta h/t\\):</p></div></div>\\[P=\\frac{W}{t}=mg\\frac{\\Delta h}{t}=mgv.\\]<div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=650\\cdot9{,}82\\cdot1{,}75\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,170\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Bestäm motorns mekaniska effekt i W med tre värdesiffror.",
+        "t": "<p>En hiss på 650 kg går rakt upp med konstant fart 1,75 m/s. Hissen saknar motvikt. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Bestäm motorns mekaniska effekt i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar lyftkraften tyngdkraften. Effekten är kraft gånger fart.</p>\\[F=mg=650\\cdot9{,}82=6383\\,\\mathrm N\\]\\[P=Fv=6383\\cdot1{,}75=11170{,}25\\,\\mathrm W\\]<p>Med tre värdesiffror: 11 200 W.</p></div>",
+        "ledtrad": "<p>Vid konstant fart är lyftkraften mg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En hiss (3,0 ton) åker 21 m uppåt på 23 s med konstant fart. Bestäm den minsta effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En hiss (3,0 ton) åker 21 m uppåt på 23 s med konstant fart. Bestäm den minsta effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{3\\,000\\cdot9{,}82\\cdot21}{23}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,898\\) W</p></div>",
-        "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
+        "fraga": "Bestäm minsta mekaniska effekt i W med tre värdesiffror.",
+        "t": "<p>En hiss på 3,0 ton höjs 21 m på 23 s med konstant fart. Hissen saknar motvikt. Bortse från energiförluster och använd g = 9,82 m/s².</p><p>Bestäm minsta mekaniska effekt i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 3,0 ton till 3000 kg. Beräkna lyftarbetet och dividera med tiden.</p>\\[W=mgh=3000\\cdot9{,}82\\cdot21=618660\\,\\mathrm J\\]\\[P=\\frac{618660}{23}\\approx26900\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Omvandla ton till kg och beräkna lyftarbetet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(P=\\dfrac{W}{t}\\).</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_p_w_t",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -135196,8 +135196,8 @@ window.BANK = [
     "niva": "C",
     "typ": "tid för acceleration med konstant effekt",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p><ol type=\"a\"><li>Hur lång tid tar det från 0 till 15,0 m/s på plan väg?</li><li>Hur lång tid tar det om bilen samtidigt kör upp 3,00 m?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{850\\cdot15{,}0^2/2}{40{,}0\\cdot735{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}25\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{850\\cdot15{,}0^2/2+850\\cdot9{,}82\\cdot3{,}00}{40{,}0\\cdot735{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}10\\) s</p></li></ol></div>",
+    "t": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s. Motorns nyttiga mekaniska medeleffekt under fartökningen är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Hur lång tid tar fartökningen på en vågrät väg? Svara i s. Svara med tre värdesiffror.</li><li>Hur lång tid tar fartökningen om bilen samtidigt stiger 3,00 m? Svara i s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla medeleffekten: 40,0 hk = 40,0 · 735,5 = 29 420 W. På en vågrät väg ökar bara rörelseenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[t=\\frac{95625}{29420}\\approx3{,}25\\,\\mathrm s\\]<p><strong>b)</strong></p><p>Omvandla medeleffekten till 29 420 W. Arbetet ökar både rörelseenergin och lägesenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[\\Delta E_p=850\\cdot9{,}82\\cdot3{,}00=25041\\,\\mathrm J\\]\\[W=95625+25041=120666\\,\\mathrm J\\]\\[t=\\frac{120666}{29420}\\approx4{,}10\\,\\mathrm s\\]</div>",
     "id": "5.565",
     "miniräknare": true,
     "geogebra": false,
@@ -135208,8 +135208,8 @@ window.BANK = [
       4.101495581237254
     ],
     "tolerans": [
-      0.0488,
-      0.0615
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -135230,14 +135230,14 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p>",
+    "spelIntro": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s. Motorns nyttiga mekaniska medeleffekt under fartökningen är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång tid tar det från 0 till 15,0 m/s på plan väg?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p><p>Hur lång tid tar det från 0 till 15,0 m/s på plan väg?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{850\\cdot15{,}0^2/2}{40{,}0\\cdot735{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}25\\) s</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac WP\\).</p>",
+        "fraga": "Hur lång tid tar fartökningen? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s på en vågrät väg. Den nyttiga mekaniska medeleffekten är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation.</p><p>Hur lång tid tar fartökningen? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla medeleffekten: 40,0 hk = 40,0 · 735,5 = 29 420 W. På en vågrät väg ökar bara rörelseenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[t=\\frac{95625}{29420}\\approx3{,}25\\,\\mathrm s\\]</div>",
+        "ledtrad": "<p>Ökningen i rörelseenergi delad med medeleffekten ger tiden.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135245,10 +135245,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det om bilen samtidigt kör upp 3,00 m?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (850 kg) har motoreffekten 40,0 hk. Bortse från förluster.</p><p>Hur lång tid tar det om bilen samtidigt kör upp 3,00 m?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{850\\cdot15{,}0^2/2+850\\cdot9{,}82\\cdot3{,}00}{40{,}0\\cdot735{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}10\\) s</p></div>",
-        "ledtrad": "<p>Lägg till lägesenergin.</p>",
+        "fraga": "Hur lång tid tar fartökningen? Svara i s med tre värdesiffror.",
+        "t": "<p>En bil på 850 kg ökar farten från vila till 15,0 m/s och stiger samtidigt 3,00 m. Den nyttiga mekaniska medeleffekten är 40,0 hk. 1 hk = 735,5 W. Bortse från motstånd och hjulens rotation. Använd g = 9,82 m/s².</p><p>Hur lång tid tar fartökningen? Svara i s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla medeleffekten till 29 420 W. Arbetet ökar både rörelseenergin och lägesenergin.</p>\\[\\Delta E_k=\\frac{850\\cdot15{,}0^2}{2}=95625\\,\\mathrm J\\]\\[\\Delta E_p=850\\cdot9{,}82\\cdot3{,}00=25041\\,\\mathrm J\\]\\[W=95625+25041=120666\\,\\mathrm J\\]\\[t=\\frac{120666}{29420}\\approx4{,}10\\,\\mathrm s\\]</div>",
+        "ledtrad": "<p>Beräkna båda energiökningarna innan du summerar.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135267,8 +135267,8 @@ window.BANK = [
     "niva": "C",
     "typ": "extra effekt i uppförsbacke",
     "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?</li><li>En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.</li><li>En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(43\\,701\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\,097\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42\\,392\\) W</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><ol type=\"a\"><li>En bil på 1200 kg håller 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt avstånd. Vilken extra effekt går till höjdökningen jämfört med en vågrät väg? Svara i W. Svara med tre värdesiffror.</li><li>En bil på 710 kg håller 23,0 m/s uppför en backe som lutar 2,0°. Motståndskraften utöver tyngdkraften är 500 N. Vilken motoreffekt behövs? Svara i W. Svara med tre värdesiffror.</li><li>En bil på 950 kg håller 30,0 m/s uppför en backe som lutar 5,0°. Motståndskraften utöver tyngdkraften är 600 N. Vilken motoreffekt behövs? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>90 km/h = 25 m/s. Bestäm höjdökningen som andel av sträckan längs backen. De 100 m är vågrät sträcka.</p>\\[\\sin\\theta=\\frac{15}{\\sqrt{100^2+15^2}}\\]<p>Den extra effekten är mg gånger den lodräta farten.</p>\\[P_\\text{extra}=mgv\\sin\\theta\\]\\[P_\\text{extra}=1200\\cdot9{,}82\\cdot25\\cdot\\frac{15}{\\sqrt{100^2+15^2}}\\]\\[P_\\text{extra}\\approx43700\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Konstant fart innebär att drivkraften balanserar både tyngdkraftens del längs backen och motståndet.</p>\\[F=mg\\sin2{,}0^\\circ+500\\]\\[\\begin{gathered}F=710\\cdot9{,}82\\sin2{,}0^\\circ+500\\\\\\approx743{,}326\\,\\mathrm N\\end{gathered}\\]<p>Använd oavrundad kraft i P = Fv.</p>\\[\\begin{gathered}P=(710\\cdot9{,}82\\sin2{,}0^\\circ+500)\\cdot23{,}0\\\\\\approx17100\\,\\mathrm W\\end{gathered}\\]<p><strong>c)</strong></p><p>Drivkraften balanserar både motståndet och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=950\\cdot9{,}82\\sin5{,}0^\\circ+600\\\\\\approx1413{,}076\\,\\mathrm N\\end{gathered}\\]<p>Multiplicera den oavrundade kraften med farten.</p>\\[\\begin{gathered}P=(950\\cdot9{,}82\\sin5{,}0^\\circ+600)\\cdot30{,}0\\\\\\approx42400\\,\\mathrm W\\end{gathered}\\]</div>",
     "id": "5.566",
     "miniräknare": true,
     "geogebra": false,
@@ -135280,9 +135280,9 @@ window.BANK = [
       42392.27772278709
     ],
     "tolerans": [
-      656.0,
-      256.0,
-      636.0
+      50.0,
+      50.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -135306,14 +135306,14 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Hur stor extra effekt krävs för en bil (1 200 kg) med konstant 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\theta=\\dfrac{15}{\\sqrt{100^2+15^2}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1\\,200\\cdot9{,}82\\sin\\theta\\cdot25\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(43\\,701\\) W</p></div>",
-        "ledtrad": "<p>Tyngdens komposant längs backen gånger farten.</p>",
+        "fraga": "Vilken extra nyttig mekanisk effekt går till höjdökningen? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 1200 kg håller 90 km/h uppför en backe som stiger 15 m per 100 m vågrätt avstånd. Använd g = 9,82 m/s².</p><p>Vilken extra nyttig mekanisk effekt går till höjdökningen? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>90 km/h = 25 m/s. Bestäm höjdökningen som andel av sträckan längs backen. De 100 m är vågrät sträcka.</p>\\[\\sin\\theta=\\frac{15}{\\sqrt{100^2+15^2}}\\]<p>Den extra effekten är mg gånger den lodräta farten.</p>\\[P_\\text{extra}=mgv\\sin\\theta\\]\\[P_\\text{extra}=1200\\cdot9{,}82\\cdot25\\cdot\\frac{15}{\\sqrt{100^2+15^2}}\\]\\[P_\\text{extra}\\approx43700\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Beräkna höjdökningens andel av sträckan längs backen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135321,10 +135321,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (710 kg) kör med 23,0 m/s mot den bromsande kraften 500 N uppför en backe som lutar 2,0°. Bestäm motoreffekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(500+710\\cdot9{,}82\\sin2{,}0^\\circ)\\cdot23{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\,097\\) W</p></div>",
-        "ledtrad": "<p>Summan av krafterna gånger farten.</p>",
+        "fraga": "Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 710 kg håller 23,0 m/s uppför en backe som lutar 2,0°. Motståndskraften utöver tyngdkraften är 500 N. Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att drivkraften balanserar både tyngdkraftens del längs backen och motståndet.</p>\\[F=mg\\sin2{,}0^\\circ+500\\]\\[\\begin{gathered}F=710\\cdot9{,}82\\sin2{,}0^\\circ+500\\\\\\approx743{,}326\\,\\mathrm N\\end{gathered}\\]<p>Använd oavrundad kraft i P = Fv.</p>\\[\\begin{gathered}P=(710\\cdot9{,}82\\sin2{,}0^\\circ+500)\\cdot23{,}0\\\\\\approx17100\\,\\mathrm W\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Vilka två krafter måste drivkraften balansera?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135332,10 +135332,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (950 kg) ska hålla 30,0 m/s uppför en backe som lutar 5,0° mot den bromsande kraften 600 N. Bestäm den minsta effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(600+950\\cdot9{,}82\\sin5{,}0^\\circ)\\cdot30{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42\\,392\\) W</p></div>",
-        "ledtrad": "<p>Summan av krafterna gånger farten.</p>",
+        "fraga": "Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 950 kg håller 30,0 m/s uppför en backe som lutar 5,0°. Motståndskraften utöver tyngdkraften är 600 N. Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk motoreffekt behövs? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Drivkraften balanserar både motståndet och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=950\\cdot9{,}82\\sin5{,}0^\\circ+600\\\\\\approx1413{,}076\\,\\mathrm N\\end{gathered}\\]<p>Multiplicera den oavrundade kraften med farten.</p>\\[\\begin{gathered}P=(950\\cdot9{,}82\\sin5{,}0^\\circ+600)\\cdot30{,}0\\\\\\approx42400\\,\\mathrm W\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Vilka två krafter måste drivkraften balansera?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135354,8 +135354,8 @@ window.BANK = [
     "niva": "C",
     "typ": "cyklist uppför backe",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><ol type=\"a\"><li>Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?</li><li>Vilken fart får han uppför backen med 200 W?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_b=\\dfrac{200}{6{,}0}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,121\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\dfrac{200}{F_b+90\\cdot9{,}82\\sin10^\\circ}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) m/s</p></li></ol></div>",
+    "t": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg håller cyklisten 6,0 m/s med nyttig mekanisk effekt 200 W. Backen lutar 10°. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken nyttig effekt behövs för att hålla 6,0 m/s uppför backen? Anta samma motståndskraft som på vågrät väg. Svara i W. Svara med tre värdesiffror.</li><li>I ett annat fall är motståndskraften 30 N utöver tyngdkraften. Vilken konstant fart kan cyklisten hålla uppför backen med 200 W nyttig effekt? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>På vågrät väg balanserar drivkraften motståndet. Bestäm motståndet från P = Fv.</p>\\[F_\\text{mot}=\\frac{200}{6{,}0}=\\frac{100}{3}\\,\\mathrm N\\]<p>Uppför backen tillkommer tyngdkraftens del längs backen.</p>\\[F_g=90\\cdot9{,}82\\sin10^\\circ\\approx153{,}470\\,\\mathrm N\\]\\[P=\\left(\\frac{200}{6{,}0}+90\\cdot9{,}82\\sin10^\\circ\\right)\\cdot6{,}0\\]\\[P\\approx1120\\,\\mathrm W\\]<p><strong>b)</strong></p><p>I detta fall är motståndskraften given som 30 N. Drivkraften måste också balansera tyngdkraftens del längs backen.</p>\\[F=30+90\\cdot9{,}82\\sin10^\\circ\\approx183{,}470\\,\\mathrm N\\]<p>Lös P = Fv för farten. Använd oavrundad kraft.</p>\\[v=\\frac{200}{30+90\\cdot9{,}82\\sin10^\\circ}\\approx1{,}09\\,\\mathrm{m/s}\\]</div>",
     "id": "5.567",
     "miniräknare": true,
     "geogebra": false,
@@ -135363,11 +135363,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1120.8215565321984,
-      1.070643219704641
+      1.0900949321706899
     ],
     "tolerans": [
-      51.0,
-      0.051
+      5.0,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -135388,14 +135388,14 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p>",
+    "spelIntro": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg håller cyklisten 6,0 m/s med nyttig mekanisk effekt 200 W. Backen lutar 10°. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En cyklist (90 kg med cykel) utvecklar 200 W på plan väg med 6,0 m/s. Anta samma bromsande kraft i backen.</p><p>Vilken effekt krävs för 6,0 m/s uppför en backe som lutar 10°?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_b=\\dfrac{200}{6{,}0}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(F_b+90\\cdot9{,}82\\sin10^\\circ)\\cdot6{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,121\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Vilken nyttig effekt behövs för att hålla 6,0 m/s uppför backen? Svara i W. Svara med tre värdesiffror.",
+        "t": "<p>En cyklist med cykel har massan 90 kg. På vågrät väg hålls 6,0 m/s med nyttig mekanisk effekt 200 W. Anta att motståndskraften är samma i en backe som lutar 10°. Använd g = 9,82 m/s².</p><p>Vilken nyttig effekt behövs för att hålla 6,0 m/s uppför backen? Svara i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrät väg balanserar drivkraften motståndet. Bestäm motståndet från P = Fv.</p>\\[F_\\text{mot}=\\frac{200}{6{,}0}=\\frac{100}{3}\\,\\mathrm N\\]<p>Uppför backen tillkommer tyngdkraftens del längs backen.</p>\\[F_g=90\\cdot9{,}82\\sin10^\\circ\\approx153{,}470\\,\\mathrm N\\]\\[P=\\left(\\frac{200}{6{,}0}+90\\cdot9{,}82\\sin10^\\circ\\right)\\cdot6{,}0\\]\\[P\\approx1120\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Bestäm motståndet på vågrät väg innan du lägger till backens påverkan.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135403,10 +135403,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken konstant fart kan cyklisten hålla uppför backen? Svara i m/s.",
-        "t": "<p>En cyklist med cykel väger totalt 90 kg. Backen lutar 10°. Motståndskraften är 33,33 N oberoende av farten. Cyklistens nyttiga effekt är 200 W. Använd g = 9,82 m/s².</p><p>Vilken konstant fart kan cyklisten hålla uppför backen? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant fart måste drivkraften övervinna både motståndet och tyngdkraftens del längs backen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{P}{F_\\mathrm{mot}+mg\\sin10^\\circ}=\\frac{200}{33{,}33+90\\cdot9{,}82\\sin10^\\circ}\\approx1{,}07\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1,1 m/s.</p></div>",
-        "ledtrad": "<p>\\(v=\\dfrac PF\\).</p>",
+        "fraga": "Vilken konstant fart kan cyklisten hålla uppför backen? Svara i m/s med tre värdesiffror.",
+        "t": "<p>En cyklist med cykel har massan 90 kg. Backen lutar 10° och motståndskraften utöver tyngdkraften är 30 N. Den nyttiga mekaniska effekten är 200 W. Använd g = 9,82 m/s².</p><p>Vilken konstant fart kan cyklisten hålla uppför backen? Svara i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>I detta fall är motståndskraften given som 30 N. Drivkraften måste också balansera tyngdkraftens del längs backen.</p>\\[F=30+90\\cdot9{,}82\\sin10^\\circ\\approx183{,}470\\,\\mathrm N\\]<p>Lös P = Fv för farten. Använd oavrundad kraft.</p>\\[v=\\frac{200}{30+90\\cdot9{,}82\\sin10^\\circ}\\approx1{,}09\\,\\mathrm{m/s}\\]</div>",
+        "ledtrad": "<p>Motståndet är givet. Lägg till tyngdkraftens del längs backen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135422,38 +135422,38 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "största lutning för given effekt",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (1 000 kg) har den nyttiga effekten 45 hk. Den bromsande kraften är 300 N. Vilken är den största lutningen bilen klarar med konstant 50 km/h?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{45\\cdot735{,}5}{13{,}9}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{F-300}{1\\,000\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) °</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 1000 kg kan lämna högst 45 hk nyttig mekanisk effekt. Motståndskraften utöver tyngdkraften är 300 N. 1 hk = 735,5 W. Använd g = 9,82 m/s². Vilken är den största vinkel en uppförsbacke kan ha om bilen ska hålla 50 km/h? Svara i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten och farten. Vid denna fart ger effektgränsen den största drivkraften.</p>\\[P=45\\cdot735{,}5=33097{,}5\\,\\mathrm W\\]\\[v=\\frac{50}{3{,}6}\\,\\mathrm{m/s}\\]\\[F=\\frac Pv=\\frac{33097{,}5}{50/3{,}6}=2383{,}02\\,\\mathrm N\\]<p>Drivkraften måste balansera både motståndet och tyngdkraftens del längs backen.</p>\\[mg\\sin\\alpha=2383{,}02-300=2083{,}02\\,\\mathrm N\\]\\[\\alpha=\\arcsin\\left(\\frac{2083{,}02}{1000\\cdot9{,}82}\\right)\\approx12{,}2^\\circ\\]</div>",
     "id": "5.568",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 12.246628213400143,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+    "ledtrad": "<p>Effekt och fart ger största drivkraften. Hur mycket kraft återstår till backen?</p>",
     "traningsniva": 4,
     "svarEnhet": "°",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "acceleration med konstant effekt",
-    "poang": "(0/3/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.</li><li>En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.</li><li>En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{42\\,000}{6{,}0}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=6{,}0F\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\,757\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) m/s</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd g = 9,82 m/s². Alla effekter avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen är i rörelseriktningen.</p><ol type=\"a\"><li>En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.</li><li>En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</li><li>En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan till 6000 kg, effekten till 42 000 W och motståndet till 2800 N. Bestäm drivkraften med P = Fv.</p>\\[F=\\frac{42000}{6{,}0}=7000\\,\\mathrm N\\]<p>Kraftsumman är drivkraft minus motstånd.</p>\\[a=\\frac{7000-2800}{6000}=0{,}700\\,\\mathrm{m/s^2}\\]<p><strong>b)</strong></p><p>Massan är 5000 kg. Drivkraften behöver både accelerera bilen och övervinna motståndet och tyngdkraftens del längs backen.</p>\\[F=ma+F_\\text{mot}+mg\\sin10{,}0^\\circ\\]\\[F_g=5000\\cdot9{,}82\\sin10{,}0^\\circ\\]\\[F_g\\approx8526{,}126\\,\\mathrm N\\]\\[F=1000+600+F_g\\]\\[F\\approx10126{,}126\\,\\mathrm N\\]\\[P=Fv\\approx10126{,}126\\ldots\\cdot6{,}0\\approx60800\\,\\mathrm W\\]<p><strong>c)</strong></p><p>Massan är 1600 kg. Välj nedför som positiv riktning. Tyngdkraftens del längs backen hjälper drivkraften.</p>\\[F+mg\\sin2{,}0^\\circ-260=ma\\]\\[\\begin{gathered}F\\\\=1600\\cdot0{,}75+260-1600\\cdot9{,}82\\sin2{,}0^\\circ\\end{gathered}\\]\\[F\\approx911{,}659\\,\\mathrm N\\]<p>Motoreffekten är 10 800 W. Lös P = Fv och använd oavrundad kraft.</p>\\[v=\\frac{10800}{911{,}659\\ldots}\\]\\[v\\approx11{,}8\\,\\mathrm{m/s}\\]</div>",
     "id": "5.569",
     "miniräknare": true,
     "geogebra": false,
@@ -135465,9 +135465,9 @@ window.BANK = [
       11.846533323119315
     ],
     "tolerans": [
-      0.0105,
-      911.0,
-      0.51
+      0.0005,
+      50.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -135491,14 +135491,14 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Alla effekter avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen är i rörelseriktningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (6,0 ton) på plan väg har motoreffekten 42 kW och den bromsande kraften 2,8 kN. Bestäm accelerationen vid 6,0 m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{42\\,000}{6{,}0}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{7\\,000-2\\,800}{6\\,000}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) m/s²</p></div>",
-        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+        "fraga": "En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.",
+        "t": "<p>Effekten avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen räknas positiv i rörelseriktningen.</p><p>En lastbil på 6,0 ton kör på vågrät väg. Motoreffekten är 42 kW och motståndskraften 2,8 kN. Bestäm accelerationen när farten är 6,0 m/s. Svara i m/s². Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan till 6000 kg, effekten till 42 000 W och motståndet till 2800 N. Bestäm drivkraften med P = Fv.</p>\\[F=\\frac{42000}{6{,}0}=7000\\,\\mathrm N\\]<p>Kraftsumman är drivkraft minus motstånd.</p>\\[a=\\frac{7000-2800}{6000}=0{,}700\\,\\mathrm{m/s^2}\\]</div>",
+        "ledtrad": "<p>Bestäm drivkraften från effekt och fart. Dra sedan bort motståndet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135506,10 +135506,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (5,0 ton) kör uppför en backe som lutar 10,0° med 6,0 m/s och accelererar med 0,20 m/s². Den bromsande kraften är 600 N. Bestäm effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=5\\,000\\cdot9{,}82\\sin10{,}0^\\circ+600+5\\,000\\cdot0{,}20\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=6{,}0F\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\,757\\) W</p></div>",
-        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+        "fraga": "En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Effekten avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen räknas positiv i rörelseriktningen.</p><p>En lastbil på 5,0 ton kör uppför en backe som lutar 10,0°. Vid farten 6,0 m/s är accelerationen 0,20 m/s². Motståndskraften utöver tyngdkraften är 600 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 5000 kg. Drivkraften behöver både accelerera bilen och övervinna motståndet och tyngdkraftens del längs backen.</p>\\[F=ma+F_\\text{mot}+mg\\sin10{,}0^\\circ\\]\\[F_g=5000\\cdot9{,}82\\sin10{,}0^\\circ\\]\\[F_g\\approx8526{,}126\\,\\mathrm N\\]\\[F=1000+600+F_g\\]\\[F\\approx10126{,}126\\,\\mathrm N\\]\\[P=Fv\\approx10126{,}126\\ldots\\cdot6{,}0\\approx60800\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Drivkraften måste både öka farten och övervinna de två bromsande krafterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135517,20 +135517,20 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,60 ton) kör nedför en backe som lutar 2,0° med accelerationen 0,75 m/s². Den bromsande kraften är 260 N och effekten 10,8 kW. Bestäm farten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><p>\\(F+1\\,600\\cdot9{,}82\\sin2{,}0^\\circ-260=1\\,600\\cdot0{,}75\\iff F=912\\) N, \\(v=\\dfrac{10\\,800}{F}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) m/s</p></div>",
-        "ledtrad": "<p>Nedför hjälper tyngden till.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Effekten avser nyttig mekanisk effekt vid det angivna ögonblicket. Accelerationen räknas positiv i rörelseriktningen.</p><p>En bil på 1,60 ton kör nedför en backe som lutar 2,0°. Accelerationen är 0,75 m/s², motståndskraften 260 N och motoreffekten 10,8 kW. Bestäm farten i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1600 kg. Välj nedför som positiv riktning. Tyngdkraftens del längs backen hjälper drivkraften.</p>\\[F+mg\\sin2{,}0^\\circ-260=ma\\]\\[\\begin{gathered}F\\\\=1600\\cdot0{,}75+260-1600\\cdot9{,}82\\sin2{,}0^\\circ\\end{gathered}\\]\\[F\\approx911{,}659\\,\\mathrm N\\]<p>Motoreffekten är 10 800 W. Lös P = Fv och använd oavrundad kraft.</p>\\[v=\\frac{10800}{911{,}659\\ldots}\\]\\[v\\approx11{,}8\\,\\mathrm{m/s}\\]</div>",
+        "ledtrad": "<p>Nedför hjälper tyngdkraften drivkraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
-    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "ledtrad": "<p>Bestäm drivkraften från P = Fv och skriv kraftsumman i rörelseriktningen.</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -135539,8 +135539,8 @@ window.BANK = [
     "niva": "C",
     "typ": "konstant fart i backe",
     "poang": "(0/3/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.</li><li>En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.</li><li>En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,318\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(418\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p></li></ol></div>",
+    "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><ol type=\"a\"><li>En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</li><li>En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.</li><li>En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Massan är 1000 kg. Konstant fart kräver att drivkraften balanserar motstånd och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=1000\\cdot9{,}82\\sin6{,}0^\\circ+250\\\\\\approx1276{,}470\\,\\mathrm N\\end{gathered}\\]\\[\\begin{gathered}P=(1000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\\\\\approx15300\\,\\mathrm W\\end{gathered}\\]<p><strong>b)</strong></p><p>Omvandla farten: 90 km/h = 25 m/s. Effekten ger drivkraften.</p>\\[F=\\frac Pv=\\frac{31000}{25}=1240\\,\\mathrm N\\]<p>En del av drivkraften balanserar tyngdkraftens del längs backen. Resten balanserar motståndet.</p>\\[\\begin{gathered}F_\\text{mot}=1240-1200\\cdot9{,}82\\sin4{,}0^\\circ\\\\\\approx418\\,\\mathrm N\\end{gathered}\\]<p><strong>c)</strong></p><p>Massan är 5000 kg, farten är 54/3,6 = 15 m/s och motståndet är 2500 N. Konstant fart kräver att bromsar och motstånd tillsammans balanserar tyngdkraftens del nedför backen.</p>\\[F_\\text{broms}=5000\\cdot9{,}82\\sin6{,}0^\\circ-2500\\]\\[F_\\text{broms}\\approx2632{,}348\\,\\mathrm N\\]<p>Bromskraftens arbete är negativt. Den effekt som bromsarna tar är dess positiva belopp.</p>\\[P_\\text{broms}=(5000\\cdot9{,}82\\sin6{,}0^\\circ-2500)\\cdot15\\]\\[P_\\text{broms}\\approx39500\\,\\mathrm W\\]</div>",
     "id": "5.570",
     "miniräknare": true,
     "geogebra": false,
@@ -135549,12 +135549,12 @@ window.BANK = [
     "rättSvar": [
       15317.634111460286,
       417.9897133992274,
-      114485.21319662678
+      39485.21319662678
     ],
     "tolerans": [
-      510.0,
-      6.27,
-      5100.0
+      50.0,
+      0.5,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -135578,14 +135578,14 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,0 ton) kör med konstant 12 m/s uppför en backe som lutar 6,0°. Den bromsande kraften är 250 N. Bestäm effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(1\\,000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,318\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><p>En bil på 1,0 ton håller 12 m/s uppför en backe som lutar 6,0°. Motståndskraften utöver tyngdkraften är 250 N. Bestäm motoreffekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1000 kg. Konstant fart kräver att drivkraften balanserar motstånd och tyngdkraftens del längs backen.</p>\\[\\begin{gathered}F=1000\\cdot9{,}82\\sin6{,}0^\\circ+250\\\\\\approx1276{,}470\\,\\mathrm N\\end{gathered}\\]\\[\\begin{gathered}P=(1000\\cdot9{,}82\\sin6{,}0^\\circ+250)\\cdot12\\\\\\approx15300\\,\\mathrm W\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Drivkraften måste balansera både motstånd och tyngdkraft längs backen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135593,10 +135593,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 200 kg) kör med konstant 90 km/h uppför en backe som lutar 4,0° med effekten 31 kW. Bestäm den bromsande kraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_b=\\dfrac{31\\,000}{25}-1\\,200\\cdot9{,}82\\sin4{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(418\\) N</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><p>En bil på 1200 kg håller 90 km/h uppför en backe som lutar 4,0°. Motoreffekten är 31 kW. Hur stor är motståndskraften utöver tyngdkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla farten: 90 km/h = 25 m/s. Effekten ger drivkraften.</p>\\[F=\\frac Pv=\\frac{31000}{25}=1240\\,\\mathrm N\\]<p>En del av drivkraften balanserar tyngdkraftens del längs backen. Resten balanserar motståndet.</p>\\[\\begin{gathered}F_\\text{mot}=1240-1200\\cdot9{,}82\\sin4{,}0^\\circ\\\\\\approx418\\,\\mathrm N\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Effekten ger drivkraften. Vilken del återstår till motståndet?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135604,17 +135604,17 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (5,0 ton) kör med konstant 54 km/h uppför en backe som lutar 6,0°. Den bromsande kraften är 2,5 kN. Bestäm effekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) fordonets drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(5\\,000\\cdot9{,}82\\sin6{,}0^\\circ+2\\,500)\\cdot15\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{5}\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Räkna på nyttig mekanisk effekt.</p><p>En lastbil på 5,0 ton håller 54 km/h nedför en backe som lutar 6,0°. Motståndskraften utöver bromsarna är 2,5 kN. Motorn ger ingen drivkraft. Vilken effekt måste bromsarna ta från rörelsen för att hålla farten konstant? Svara med ett positivt värde i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 5000 kg, farten är 54/3,6 = 15 m/s och motståndet är 2500 N. Konstant fart kräver att bromsar och motstånd tillsammans balanserar tyngdkraftens del nedför backen.</p>\\[F_\\text{broms}=5000\\cdot9{,}82\\sin6{,}0^\\circ-2500\\]\\[F_\\text{broms}\\approx2632{,}348\\,\\mathrm N\\]<p>Bromskraftens arbete är negativt. Den effekt som bromsarna tar är dess positiva belopp.</p>\\[P_\\text{broms}=(5000\\cdot9{,}82\\sin6{,}0^\\circ-2500)\\cdot15\\]\\[P_\\text{broms}\\approx39500\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Tyngdkraften drar nedför. Vilken bromskraft behövs utöver motståndet för kraftsumma noll?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+    "ledtrad": "<p>Vid konstant fart är kraftsumman noll. Skilj på uppförs- och nedförsfallet.</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135623,11 +135623,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "acceleration uppför och nedför",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><ol type=\"a\"><li>nedför backen.</li><li>uppför backen (negativt om den saktar in).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}37\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En bil på 1250 kg har farten 72 km/h och den nyttiga motoreffekten 10,0 kW. Motståndskraften utöver tyngdkraften är 275 N. Backen lutar 1,1°. Använd g = 9,82 m/s². Räkna accelerationen positiv i rörelseriktningen.</p><ol type=\"a\"><li>Bestäm accelerationen när bilen kör nedför backen. Svara i m/s² med tecken. Svara med tre värdesiffror.</li><li>Bestäm accelerationen när bilen kör uppför backen. Svara i m/s² med tecken. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Farten är 72/3,6 = 20 m/s och effekten 10 000 W. Bestäm drivkraften.</p>\\[F=\\frac Pv=\\frac{10000}{20}=500\\,\\mathrm N\\]<p>Nedför hjälper tyngdkraften drivkraften. Motståndet verkar bakåt.</p>\\[a=\\frac{500+1250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1250}\\]\\[a\\approx0{,}369\\,\\mathrm{m/s^2}\\]<p><strong>b)</strong></p><p>Farten är 20 m/s, så drivkraften är 10 000/20 = 500 N. Uppför motverkar både tyngdkraftens del längs backen och motståndet rörelsen.</p>\\[a=\\frac{500-1250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1250}\\]\\[a\\approx-0{,}00852\\,\\mathrm{m/s^2}\\]<p>Minustecknet betyder att bilen saktar in.</p></div>",
     "id": "5.571",
     "miniräknare": true,
     "geogebra": false,
@@ -135638,8 +135638,8 @@ window.BANK = [
       -0.008518884364952555
     ],
     "tolerans": [
-      0.00553,
-      0.000128
+      0.0005,
+      5e-06
     ],
     "självrättning": true,
     "formaga": [
@@ -135659,14 +135659,14 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p>",
+    "spelIntro": "<p>En bil på 1250 kg har farten 72 km/h och den nyttiga motoreffekten 10,0 kW. Motståndskraften utöver tyngdkraften är 275 N. Backen lutar 1,1°. Använd g = 9,82 m/s². Räkna accelerationen positiv i rörelseriktningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "nedför backen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><p>nedför backen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{500+1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}37\\) m/s²</p></div>",
-        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+        "fraga": "Bestäm accelerationen när bilen kör nedför backen. Svara i m/s² med tecken. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1250 kg har farten 72 km/h och den nyttiga motoreffekten 10,0 kW. Motståndskraften utöver tyngdkraften är 275 N. Backen lutar 1,1°. Använd g = 9,82 m/s². Räkna accelerationen positiv i rörelseriktningen.</p><p>Bestäm accelerationen när bilen kör nedför backen. Svara i m/s² med tecken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten är 72/3,6 = 20 m/s och effekten 10 000 W. Bestäm drivkraften.</p>\\[F=\\frac Pv=\\frac{10000}{20}=500\\,\\mathrm N\\]<p>Nedför hjälper tyngdkraften drivkraften. Motståndet verkar bakåt.</p>\\[a=\\frac{500+1250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1250}\\]\\[a\\approx0{,}369\\,\\mathrm{m/s^2}\\]</div>",
+        "ledtrad": "<p>Nedför hjälper tyngdkraften drivkraften. Välj rörelseriktningen som positiv.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135674,17 +135674,17 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "uppför backen (negativt om den saktar in).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 250 kg) har farten 72 km/h och motoreffekten 10,0 kW. Den bromsande kraften är 275 N och backen lutar 1,1°. Bestäm accelerationen när bilen kör</p><p>uppför backen (negativt om den saktar in).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{500-1\\,250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1\\,250}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}0085\\) m/s²</p></div>",
-        "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Bestäm accelerationen när bilen kör uppför backen. Svara i m/s² med tecken. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1250 kg har farten 72 km/h och den nyttiga motoreffekten 10,0 kW. Motståndskraften utöver tyngdkraften är 275 N. Backen lutar 1,1°. Använd g = 9,82 m/s². Räkna accelerationen positiv i rörelseriktningen.</p><p>Bestäm accelerationen när bilen kör uppför backen. Svara i m/s² med tecken. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten är 20 m/s, så drivkraften är 10 000/20 = 500 N. Uppför motverkar både tyngdkraftens del längs backen och motståndet rörelsen.</p>\\[a=\\frac{500-1250\\cdot9{,}82\\sin1{,}1^\\circ-275}{1250}\\]\\[a\\approx-0{,}00852\\,\\mathrm{m/s^2}\\]<p>Minustecknet betyder att bilen saktar in.</p></div>",
+        "ledtrad": "<p>Uppför motverkar tyngdkraften drivkraften.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "ledtrad": "<p>Tyngdkraftens del längs backen hjälper nedför men motverkar uppför.</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135693,28 +135693,28 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "backens lutning ur effekt",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe med 72 km/h och accelererar med 0,25 m/s². Motoreffekten är 65,1 kW och den bromsande kraften 360 N. Bestäm backens lutning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{65\\,100}{20}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{F-360-1\\,500\\cdot0{,}25}{1\\,500\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\) °</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 1,5 ton kör uppför en backe. Vid farten 72 km/h ökar farten med accelerationen 0,25 m/s². Den nyttiga motoreffekten är 65,1 kW och motståndskraften utöver tyngdkraften är 360 N. Använd g = 9,82 m/s². Bestäm backens vinkel mot marken i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1500 kg, farten 20 m/s och effekten 65 100 W. Beräkna drivkraften med P = Fv.</p>\\[F=\\frac{65100}{20}=3255\\,\\mathrm N\\]<p>Av drivkraften behövs ma för acceleration och 360 N för motstånd. Resten balanserar tyngdkraftens del längs backen.</p>\\[\\begin{gathered}mg\\sin\\alpha=3255-1500\\cdot0{,}25-360\\\\=2520\\,\\mathrm N\\end{gathered}\\]\\[\\alpha=\\arcsin\\left(\\frac{2520}{1500\\cdot9{,}82}\\right)\\approx9{,}85^\\circ\\]</div>",
     "id": "5.572",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 9.85058530328354,
-    "tolerans": 0.148,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "ledtrad": "<p>Drivkraften behöver både ge acceleration och övervinna motstånd och backe.</p>",
     "traningsniva": 4,
     "svarEnhet": "°",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -135723,20 +135723,20 @@ window.BANK = [
     "niva": "C",
     "typ": "bil med släp och effekt",
     "poang": "(1/1/0)",
-    "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><ol type=\"a\"><li>Bestäm kraften i kopplingen.</li><li>Bestäm bilens nyttiga effekt.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Släpet: \\(F_S-200=500\\cdot0{,}500\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,600\\cdot0{,}500+500\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=F\\cdot15{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\,500\\) W</p></li></ol></div>",
+    "t": "<p>En bil på 1100 kg drar ett släp på 500 kg på en vågrät väg. Motståndet är 300 N på bilen och 200 N på släpet. Vid farten 54,0 km/h är bådas acceleration 0,500 m/s² framåt.</p><ol type=\"a\"><li>Hur stor är kraften från bilens koppling på släpet? Svara i N. Svara med tre värdesiffror.</li><li>Bestäm bilens nyttiga mekaniska motoreffekt i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Räkna endast på släpet. Kopplingen drar framåt och motståndet 200 N verkar bakåt.</p>\\[F_\\text{koppling}-200=500\\cdot0{,}500\\]\\[F_\\text{koppling}=250+200=450\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Räkna på bil och släp tillsammans. Summera massor och motstånd.</p>\\[m=1100+500=1600\\,\\mathrm{kg}\\]\\[ F_\\text{mot}=300+200=500\\,\\mathrm N\\]\\[\\begin{gathered}F=ma+F_\\text{mot}\\\\=1600\\cdot0{,}500+500=1300\\,\\mathrm N\\end{gathered}\\]<p>Farten är 54,0/3,6 = 15,0 m/s. Motoreffekten är drivkraft gånger fart.</p>\\[P=1300\\cdot15{,}0=19500\\,\\mathrm W\\]</div>",
     "id": "5.573",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      450,
-      19500
+      450.0,
+      19500.0
     ],
     "tolerans": [
-      6.75,
-      292.0
+      0.5,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -135757,32 +135757,32 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p>",
+    "spelIntro": "<p>En bil på 1100 kg drar ett släp på 500 kg på en vågrät väg. Motståndet är 300 N på bilen och 200 N på släpet. Vid farten 54,0 km/h är bådas acceleration 0,500 m/s² framåt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är kraften från bilens koppling på släpet? Svara i N.",
-        "t": "<p>En bil drar ett släp på 500 kg. Släpets acceleration är 0,500 m/s² framåt och motståndskraften på släpet är 200 N bakåt.</p><p>Hur stor är kraften från bilens koppling på släpet? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Släpet: \\(F_S-200=500\\cdot0{,}500\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\) N</p></div>",
-        "ledtrad": "<p>Frilägg släpet.</p>",
+        "fraga": "Hur stor är kraften från bilens koppling på släpet? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En bil drar ett släp på 500 kg. Släpets acceleration är 0,500 m/s² framåt och motståndskraften på släpet är 200 N bakåt.</p><p>Hur stor är kraften från bilens koppling på släpet? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna endast på släpet. Kopplingen drar framåt och motståndet 200 N verkar bakåt.</p>\\[F_\\text{koppling}-200=500\\cdot0{,}500\\]\\[F_\\text{koppling}=250+200=450\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Räkna bara på släpet: kopplingens kraft framåt, motståndet bakåt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm bilens nyttiga effekt.",
-        "t": "<p>En bil (1 100 kg) drar ett släp (500 kg) på plan väg. Bromsande krafter: 300 N på bilen och 200 N på släpet. Vid 54,0 km/h är accelerationen 0,500 m/s².</p><p>Bestäm bilens nyttiga effekt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,600\\cdot0{,}500+500\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=F\\cdot15{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\,500\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Använd ett mycket kort tidsintervall för effekten i ett visst ögonblick.</p>",
+        "fraga": "Bestäm bilens nyttiga mekaniska motoreffekt i W. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1100 kg drar ett släp på 500 kg på en vågrät väg. Motståndet är 300 N på bilen och 200 N på släpet. Vid farten 54,0 km/h är accelerationen 0,500 m/s² framåt.</p><p>Bestäm bilens nyttiga mekaniska motoreffekt i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna på bil och släp tillsammans. Summera massor och motstånd.</p>\\[m=1100+500=1600\\,\\mathrm{kg}\\]\\[ F_\\text{mot}=300+200=500\\,\\mathrm N\\]\\[\\begin{gathered}F=ma+F_\\text{mot}\\\\=1600\\cdot0{,}500+500=1300\\,\\mathrm N\\end{gathered}\\]<p>Farten är 54,0/3,6 = 15,0 m/s. Motoreffekten är drivkraft gånger fart.</p>\\[P=1300\\cdot15{,}0=19500\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Summera massorna och motstånden för bil och släp.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "ledtrad": "<p>Räkna på släpet för kopplingskraften och på hela ekipaget för motoreffekten.</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 2,
@@ -135794,8 +135794,8 @@ window.BANK = [
     "niva": "C",
     "typ": "luftmotstånd som beror på farten",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p><ol type=\"a\"><li>Bestäm \\(k\\) (i kg/m).</li><li>Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft uppför backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k\\cdot3{,}5^2=80\\cdot9{,}82\\sin3{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\) kg/m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(68\\) W</p></li></ol></div>",
+    "t": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\), där v är farten i m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Cyklisten rullar utan att trampa nedför en backe som lutar 3,0°, med konstant fart 3,5 m/s. Bestäm k i kg/m. Svara med tre värdesiffror.</li><li>I en annan beräkning används k = 3,4 kg/m. Vilken nyttig mekanisk effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart innebär att luftmotståndet balanserar tyngdkraftens del längs backen.</p>\\[kv^2=mg\\sin3{,}0^\\circ\\]\\[k=\\frac{80\\cdot9{,}82\\sin3{,}0^\\circ}{3{,}5^2}\\approx3{,}36\\,\\mathrm{kg/m}\\]<p><strong>b)</strong></p><p>Använd det givna värdet k = 3,4 kg/m. Drivkraften måste balansera luftmotståndet och tyngdkraftens del längs backen.</p>\\[F_\\text{luft}=3{,}4\\cdot2{,}0^2=13{,}6\\,\\mathrm N\\]\\[F=13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ\\approx34{,}1647\\,\\mathrm N\\]\\[\\begin{gathered}P=(13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ)\\cdot2{,}0\\\\\\approx68{,}3\\,\\mathrm W\\end{gathered}\\]</div>",
     "id": "5.574",
     "miniräknare": true,
     "geogebra": false,
@@ -135803,11 +135803,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.356336916282178,
-      67.97991651158773
+      68.3292211813303
     ],
     "tolerans": [
-      0.051,
-      1.02
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -135828,14 +135828,14 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p>",
+    "spelIntro": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\), där v är farten i m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm \\(k\\) (i kg/m).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Luftmotståndet på en cyklist (80 kg med cykel) är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° med konstant 3,5 m/s. Bortse från annan friktion.</p><p>Bestäm \\(k\\) (i kg/m).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k\\cdot3{,}5^2=80\\cdot9{,}82\\sin3{,}0^\\circ\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\) kg/m</p></div>",
-        "ledtrad": "<p>Jämvikt längs backen.</p>",
+        "fraga": "Bestäm k i kg/m med tre värdesiffror.",
+        "t": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\). Cyklisten rullar utan att trampa nedför en backe som lutar 3,0°, med konstant fart 3,5 m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Bestäm k i kg/m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart innebär att luftmotståndet balanserar tyngdkraftens del längs backen.</p>\\[kv^2=mg\\sin3{,}0^\\circ\\]\\[k=\\frac{80\\cdot9{,}82\\sin3{,}0^\\circ}{3{,}5^2}\\approx3{,}36\\,\\mathrm{kg/m}\\]</div>",
+        "ledtrad": "<p>Konstant fart ger kraftsumma noll längs backen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135843,10 +135843,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?",
-        "t": "<p>En cyklist med cykel väger totalt 80 kg. Luftmotståndet är \\(F=kv^2\\), där k = 3,4 kg/m. Bortse från annan friktion. Använd g = 9,82 m/s².</p><p>Vilken effekt krävs uppför en backe som lutar 1,5° med konstant 2,0 m/s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft uppför backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(80\\cdot9{,}82\\sin1{,}5^\\circ+k\\cdot2{,}0^2)\\cdot2{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(68\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Vilken nyttig mekanisk effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W med tre värdesiffror.",
+        "t": "<p>En cyklist med cykel har massan 80 kg. Luftmotståndet är \\(F=kv^2\\), med k = 3,4 kg/m och v i m/s. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk effekt behövs för konstant fart 2,0 m/s uppför en backe som lutar 1,5°? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd det givna värdet k = 3,4 kg/m. Drivkraften måste balansera luftmotståndet och tyngdkraftens del längs backen.</p>\\[F_\\text{luft}=3{,}4\\cdot2{,}0^2=13{,}6\\,\\mathrm N\\]\\[F=13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ\\approx34{,}1647\\,\\mathrm N\\]\\[\\begin{gathered}P=(13{,}6+80\\cdot9{,}82\\sin1{,}5^\\circ)\\cdot2{,}0\\\\\\approx68{,}3\\,\\mathrm W\\end{gathered}\\]</div>",
+        "ledtrad": "<p>Använd det givna k-värdet i luftmotståndet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -135862,25 +135862,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "cykeldatorn",
-    "poang": "(1/2/1)",
-    "t": "<p>Leif och cykeln har sammanlagda massan 60 kg. På plan väg håller han farten 4,0 m/s med den nyttiga effekten 120 W. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Hur stor är motståndskraften från luft och däck?</li><li>Vilken nyttig effekt behövs vid konstant fart 3,0 m/s uppför en backe med lutningen 4,0°? Anta att motståndskraften är lika stor som på plan väg.</li><li>Anta i stället att motståndskraften är \\(F=kv^2\\). Bestäm den nyttiga effekten vid konstant fart 3,0 m/s uppför en backe med lutningen 4,0°.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Farten är konstant, så Leifs drivkraft balanserar motståndet.</p></div><div class=\"facit-stycke\"><p>Med \\(P=Fv\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{120}{4{,}0}=30\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 30 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Leif måste övervinna både motståndet och tyngdkraftens del längs backen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg\\sin4{,}0^\\circ=60\\cdot9{,}82\\sin4{,}0^\\circ\\approx41{,}10\\,\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Drivkraften är därför \\(30+41{,}10\\) N. Effekten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\approx213\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 213 W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid 4,0 m/s är motståndskraften 30 N. Bestäm först \\(k\\):</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\frac{30}{4{,}0^2}=1{,}875\\,\\mathrm{kg/m}\\]</div></div><div class=\"facit-stycke\"><p>Vid 3,0 m/s blir motståndet mindre:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\text{mot}=1{,}875\\cdot3{,}0^2=16{,}875\\,\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Lägg till tyngdkraftens del längs backen och använd effekt = drivkraft gånger fart.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(16{,}875+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\approx174\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 174 W.</p></div></div></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Leif och cykeln har sammanlagda massan 60 kg. På plan väg håller han farten 4,0 m/s med den nyttiga effekten 120 W. Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>Hur stor är motståndskraften från luft och däck?</li><li>Vilken nyttig effekt behövs vid konstant fart 3,0 m/s uppför en backe med lutningen 4,0°? Anta att motståndskraften är lika stor som på plan väg.</li><li>Anta i stället att motståndskraften är \\(F=kv^2\\). Bestäm den nyttiga effekten vid konstant fart 3,0 m/s uppför en backe med lutningen 4,0°.</li></ol><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Farten är konstant, så Leifs drivkraft balanserar motståndet.</p></div><div class=\"facit-stycke\"><p>Med \\(P=Fv\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{120}{4{,}0}=30\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 30 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Leif måste övervinna både motståndet och tyngdkraftens del längs backen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}F_g=mg\\sin4{,}0^\\circ\\\\=60\\cdot9{,}82\\sin4{,}0^\\circ\\approx41{,}10\\,\\mathrm N\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p>Drivkraften är därför \\(30+41{,}10\\) N. Effekten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\\\\\approx213\\,\\mathrm W\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 213 W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid 4,0 m/s är motståndskraften 30 N. Bestäm först \\(k\\):</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\frac{30}{4{,}0^2}=1{,}875\\,\\mathrm{kg/m}\\]</div></div><div class=\"facit-stycke\"><p>Vid 3,0 m/s blir motståndet mindre:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\text{mot}=1{,}875\\cdot3{,}0^2=16{,}875\\,\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Lägg till tyngdkraftens del längs backen och använd effekt = drivkraft gånger fart.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}P=(16{,}875+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\\\\\approx174\\,\\mathrm W\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 174 W.</p></div></div></div>",
     "id": "5.575",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      30,
+      30.0,
       213.3015429901159,
       173.92654299011588
     ],
     "tolerans": [
-      0.51,
-      5.1,
-      5.1
+      0.05,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -135909,7 +135909,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur stor är motståndskraften från luft och däck? Svara i N.",
-        "t": "<p>Leif cyklar på plan väg med konstant fart 4,0 m/s. Hans nyttiga effekt är 120 W.</p><p>Hur stor är motståndskraften från luft och däck? Svara i N.</p>",
+        "t": "<p>Leif cyklar på plan väg med konstant fart 4,0 m/s. Hans nyttiga effekt är 120 W. Använd F = P/v.</p><p>Hur stor är motståndskraften från luft och däck? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Farten är konstant, så Leifs drivkraft balanserar motståndet.</p></div><div class=\"facit-stycke\"><p>Med \\(P=Fv\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{120}{4{,}0}=30\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 30 N.</p></div>",
         "ledtrad": "<p>Vid konstant fart är drivkraften och motståndskraften lika stora.</p>",
         "niva": "E",
@@ -135920,8 +135920,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Vilken nyttig effekt behövs för att cykla uppför med konstant fart 3,0 m/s? Svara i W.",
-        "t": "<p>Leif och cykeln har sammanlagda massan 60 kg. Motståndskraften är 30 N. Backen lutar 4,0°. Använd \\(g=9{,}82\\) m/s².</p><p>Vilken nyttig effekt behövs för att cykla uppför med konstant fart 3,0 m/s? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Leif måste övervinna både motståndet och tyngdkraftens del längs backen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg\\sin4{,}0^\\circ=60\\cdot9{,}82\\sin4{,}0^\\circ\\approx41{,}10\\,\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Drivkraften är därför \\(30+41{,}10\\) N. Effekten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\approx213\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 213 W.</p></div>",
+        "t": "<p>Leif och cykeln har sammanlagda massan 60 kg. Motståndskraften är 30 N. Backen lutar 4,0°. Använd \\(g=9{,}82\\) m/s².</p><p>Vilken nyttig effekt behövs för att cykla uppför med konstant fart 3,0 m/s? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Leif måste övervinna både motståndet och tyngdkraftens del längs backen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}F_g=mg\\sin4{,}0^\\circ\\\\=60\\cdot9{,}82\\sin4{,}0^\\circ\\approx41{,}10\\,\\mathrm N\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p>Drivkraften är därför \\(30+41{,}10\\) N. Effekten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}P=(30+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\\\\\approx213\\,\\mathrm W\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 213 W.</p></div>",
         "ledtrad": "<p>Vilka två krafter måste Leifs drivkraft balansera uppför backen?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -135931,43 +135931,43 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Vilken nyttig effekt behövs vid konstant fart 3,0 m/s uppför en backe med lutningen 4,0°? Svara i W.",
-        "t": "<p>Leif och cykeln har sammanlagda massan 60 kg. Motståndskraften är \\(F=kv^2\\) och är 30 N vid 4,0 m/s. Använd \\(g=9{,}82\\) m/s².</p><p>Vilken nyttig effekt behövs vid konstant fart 3,0 m/s uppför en backe med lutningen 4,0°? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid 4,0 m/s är motståndskraften 30 N. Bestäm först \\(k\\):</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\frac{30}{4{,}0^2}=1{,}875\\,\\mathrm{kg/m}\\]</div></div><div class=\"facit-stycke\"><p>Vid 3,0 m/s blir motståndet mindre:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\text{mot}=1{,}875\\cdot3{,}0^2=16{,}875\\,\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Lägg till tyngdkraftens del längs backen och använd effekt = drivkraft gånger fart.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(16{,}875+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\approx174\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 174 W.</p></div>",
+        "t": "<p>Leif och cykeln har sammanlagda massan 60 kg. Motståndskraften är \\(F=kv^2\\) och är 30 N vid 4,0 m/s. Använd \\(g=9{,}82\\) m/s².</p><p>Vilken nyttig effekt behövs vid konstant fart 3,0 m/s uppför en backe med lutningen 4,0°? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid 4,0 m/s är motståndskraften 30 N. Bestäm först \\(k\\):</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\frac{30}{4{,}0^2}=1{,}875\\,\\mathrm{kg/m}\\]</div></div><div class=\"facit-stycke\"><p>Vid 3,0 m/s blir motståndet mindre:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\text{mot}=1{,}875\\cdot3{,}0^2=16{,}875\\,\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Lägg till tyngdkraftens del längs backen och använd effekt = drivkraft gånger fart.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}P=(16{,}875+60\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot3{,}0\\\\\\approx174\\,\\mathrm W\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 174 W.</p></div>",
         "ledtrad": "<p>Bestäm först k från den givna motståndskraften. Lägg sedan till tyngdkraftens del längs backen.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "högsta fart uppför backe",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (4 000 kg) kör uppför en backe som lutar 3,5° med motoreffekten 90 kW och en konstant bromsande kraft. Vid 14,4 m/s är accelerationen 0,20 m/s². Bestäm högsta farten uppför backen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) lastbilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_b=\\dfrac{90\\,000}{14{,}4}-4\\,000\\cdot9{,}82\\sin3{,}5^\\circ-800\\].</div></div><div class=\"facit-stycke\"><p>Högsta fart när \\(a=0\\): \\(v=\\dfrac{90\\,000}{F_b+4\\,000\\cdot9{,}82\\sin3{,}5^\\circ}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En lastbil på 4000 kg kör på vågrät väg med konstant nyttig motoreffekt 90 kW och konstant motståndskraft. Vid farten 14,4 m/s ökar farten med accelerationen 0,20 m/s². Vilken är den största konstanta fart som lastbilen kan hålla enligt modellen? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bestäm drivkraften vid 14,4 m/s från P = Fv. Kraftsumman ger motståndskraften.</p>\\[F=\\frac{90000}{14{,}4}=6250\\,\\mathrm N\\]\\[\\begin{gathered}F_\\text{mot}=F-ma\\\\=6250-4000\\cdot0{,}20=5450\\,\\mathrm N\\end{gathered}\\]<p>Vid största konstanta fart är accelerationen noll och drivkraften lika stor som motståndet.</p>\\[v_\\text{max}=\\frac{P}{F_\\text{mot}}=\\frac{90000}{5450}\\approx16{,}5\\,\\mathrm{m/s}\\]</div>",
     "id": "5.576",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 16.513761467889907,
-    "tolerans": 0.51,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm den bromsande kraften först.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -135976,25 +135976,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "effekt ur högsta fart",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1,5 ton) kör uppför en backe som lutar 2,3° med konstant effekt och konstant bromsande kraft. Vid 16 m/s är accelerationen 0,30 m/s², och högsta farten är 23,2 m/s. Bestäm effekten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{P}{16}-\\dfrac{P}{23{,}2}=1\\,500\\cdot0{,}30\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\,200\\) W</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 1500 kg kör på vågrät väg med konstant nyttig motoreffekt och konstant motståndskraft. Vid 16 m/s ökar farten med accelerationen 0,30 m/s². Den största konstanta farten är 23,2 m/s. Bestäm motoreffekten i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Drivkraften är P/v. Vid högsta konstanta fart balanserar den motståndet. Vid 16 m/s är kraftöverskottet ma.</p>\\[\\frac P{23{,}2}=F_\\text{mot}\\]\\[\\frac P{16}-F_\\text{mot}=1500\\cdot0{,}30=450\\,\\mathrm N\\]<p>Sätt in första sambandet i det andra och lös för P.</p>\\[P\\left(\\frac1{16}-\\frac1{23{,}2}\\right)=450\\]\\[P=\\frac{450}{1/16-1/23{,}2}=23200\\,\\mathrm W\\]</div>",
     "id": "5.577",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 23200.000000000004,
-    "tolerans": 348.0,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Ställ upp ekvationer för båda tillfällena.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "svarEnhet": "W",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -136003,11 +136003,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "bromsande kraft och lutning ur två körningar",
-    "poang": "(0/2/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Bestäm backens lutning.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\).</p></div><div class=\"facit-stycke\"><p>Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\).</p></div><div class=\"facit-stycke\"><p>Addera: \\(7\\,800-2F_b=750\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,525\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin\\alpha=4\\,800-3\\,525-300\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) °</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En bil på 1500 kg kör uppför och nedför samma backe. I båda fallen är farten 72 km/h och motståndskraften lika stor. Uppför är den nyttiga motoreffekten 96 kW och accelerationen 0,20 m/s² framåt. Nedför är effekten 60 kW och accelerationen 0,30 m/s² framåt. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm motståndskraftens storlek i N. Svara med tre värdesiffror.</li><li>Bestäm backens vinkel mot marken i grader. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Farten är 72/3,6 = 20 m/s. Bestäm de två drivkrafterna.</p>\\[F_\\text{upp}=\\frac{96000}{20}=4800\\,\\mathrm N\\]\\[ F_\\text{ned}=\\frac{60000}{20}=3000\\,\\mathrm N\\]<p>Skriv kraftsumman i rörelseriktningen. Uppför motverkar tyngdkraften rörelsen; nedför hjälper den.</p>\\[\\begin{gathered}4800-F_\\text{mot}-mg\\sin\\alpha=1500\\cdot0{,}20\\\\=300\\end{gathered}\\]\\[\\begin{gathered}3000-F_\\text{mot}+mg\\sin\\alpha=1500\\cdot0{,}30\\\\=450\\end{gathered}\\]<p>Addera ekvationerna så att tyngdkraftens delar tar ut varandra.</p>\\[7800-2F_\\text{mot}=750\\]\\[F_\\text{mot}=\\frac{7800-750}{2}=3525\\,\\mathrm N\\]<p>Med tre värdesiffror: 3530 N.</p><p><strong>b)</strong> Från a är den oavrundade motståndskraften 3525 N.</p><p>Uppför är drivkraften 96 000/(72/3,6) = 4800 N. Motståndskraften är 3525 N. Kraften för accelerationen är ma = 1500 · 0,20 = 300 N.</p>\\[mg\\sin\\alpha=4800-3525-300=975\\,\\mathrm N\\]\\[\\alpha=\\arcsin\\left(\\frac{975}{1500\\cdot9{,}82}\\right)\\approx3{,}80^\\circ\\]</div>",
     "id": "5.578",
     "miniräknare": true,
     "geogebra": false,
@@ -136018,8 +136018,8 @@ window.BANK = [
       3.79526531611836
     ],
     "tolerans": [
-      52.9,
-      0.0569
+      5.0,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -136039,59 +136039,59 @@ window.BANK = [
       "°"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p>",
+    "spelIntro": "<p>En bil på 1500 kg kör uppför och nedför samma backe. I båda fallen är farten 72 km/h och motståndskraften lika stor. Uppför är den nyttiga motoreffekten 96 kW och accelerationen 0,20 m/s² framåt. Nedför är effekten 60 kW och accelerationen 0,30 m/s² framåt. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den bromsande kraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><p>Bestäm den bromsande kraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><p>Upp: \\(4\\,800-F_b-mg\\sin\\alpha=300\\).</p></div><div class=\"facit-stycke\"><p>Ner: \\(3\\,000-F_b+mg\\sin\\alpha=450\\).</p></div><div class=\"facit-stycke\"><p>Addera: \\(7\\,800-2F_b=750\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,525\\) N</p></div>",
-        "ledtrad": "<p>Två ekvationer.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Bestäm motståndskraftens storlek i N. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1500 kg kör uppför och nedför samma backe med farten 72 km/h. Uppför är nyttig motoreffekt 96 kW och accelerationen 0,20 m/s² framåt. Nedför är effekten 60 kW och accelerationen 0,30 m/s² framåt. Motståndskraften är lika stor i båda fallen. Använd g = 9,82 m/s².</p><p>Bestäm motståndskraftens storlek i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten är 72/3,6 = 20 m/s. Bestäm de två drivkrafterna.</p>\\[F_\\text{upp}=\\frac{96000}{20}=4800\\,\\mathrm N\\]\\[ F_\\text{ned}=\\frac{60000}{20}=3000\\,\\mathrm N\\]<p>Skriv kraftsumman i rörelseriktningen. Uppför motverkar tyngdkraften rörelsen; nedför hjälper den.</p>\\[\\begin{gathered}4800-F_\\text{mot}-mg\\sin\\alpha=1500\\cdot0{,}20\\\\=300\\end{gathered}\\]\\[\\begin{gathered}3000-F_\\text{mot}+mg\\sin\\alpha=1500\\cdot0{,}30\\\\=450\\end{gathered}\\]<p>Addera ekvationerna så att tyngdkraftens delar tar ut varandra.</p>\\[7800-2F_\\text{mot}=750\\]\\[F_\\text{mot}=\\frac{7800-750}{2}=3525\\,\\mathrm N\\]<p>Med tre värdesiffror: 3530 N.</p></div>",
+        "ledtrad": "<p>Skriv kraftsumman för varje fall. Vad försvinner när ekvationerna adderas?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm backens lutning.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 500 kg) har farten 72 km/h. Uppför backen är effekten 96 kW och accelerationen 0,20 m/s². Nedför samma backe är effekten 60 kW och accelerationen 0,30 m/s². Den bromsande kraften är densamma.</p><p>Den bromsande kraften är 3 525 N.</p><p>Bestäm backens lutning.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg\\sin\\alpha=4\\,800-3\\,525-300\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) °</p></div>",
-        "ledtrad": "<p>Sätt in i en av ekvationerna.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Bestäm backens vinkel mot marken i grader. Svara med tre värdesiffror.",
+        "t": "<p>En bil på 1500 kg kör uppför en backe. Vid farten 72 km/h är den nyttiga motoreffekten 96 kW och accelerationen 0,20 m/s² framåt. Motståndskraften utöver tyngdkraften är 3525 N. Använd g = 9,82 m/s².</p><p>Bestäm backens vinkel mot marken i grader. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Uppför är drivkraften 96 000/(72/3,6) = 4800 N. Motståndskraften är 3525 N. Kraften för accelerationen är ma = 1500 · 0,20 = 300 N.</p>\\[mg\\sin\\alpha=4800-3525-300=975\\,\\mathrm N\\]\\[\\alpha=\\arcsin\\left(\\frac{975}{1500\\cdot9{,}82}\\right)\\approx3{,}80^\\circ\\]</div>",
+        "ledtrad": "<p>Motståndet är givet. Bestäm drivkraften och kraften för accelerationen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(F_\\text{driv}-F_\\text{broms}-mg\\sin\\alpha=ma\\) med \\(F_\\text{driv}=\\dfrac Pv\\).</p>",
+    "ledtrad": "<p>Skriv kraftbalansen uppför och nedför. I andra kortet är motståndet redan givet.</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "motorcykel med fartberoende motstånd",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En motorcykel (300 kg) har största effekten 54 kW och den bromsande kraften \\(a+bv\\). Högsta farten är 60 m/s på plan väg och 50 m/s uppför en backe som lutar 5,0°. Bestäm accelerationen på plan väg vid 30 m/s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) motorcykelns drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><p>\\(900=a+60b\\) och \\(1\\,080=a+50b+300\\cdot9{,}82\\sin5{,}0^\\circ\\) ger \\(b=7{,}68\\),</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=439\\].</div></div><div class=\"facit-stycke\"><p>Vid 30 m/s: \\(\\dfrac{54\\,000/30-(a+30b)}{300}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) m/s²</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En motorcykel på 300 kg kan lämna nyttig mekanisk effekt 54 kW. Motståndskraften är \\(F_\\text{mot}=c+kv\\), där v är farten i m/s och c och k är konstanta. Med 54 kW är största konstanta fart 60 m/s på vågrät väg och 50 m/s uppför en backe som lutar 5,0°. Använd g = 9,82 m/s². Vilken acceleration får motorcykeln på vågrät väg vid 30 m/s med 54 kW? Svara i m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid de största konstanta farterna är accelerationen noll. Drivkraften P/v balanserar motstånd och eventuell tyngdkraft längs backen.</p>\\[c+60k=\\frac{54000}{60}=900\\]\\[\\begin{gathered}c+50k+300\\cdot9{,}82\\sin5{,}0^\\circ=\\frac{54000}{50}\\\\=1080\\end{gathered}\\]<p>Subtrahera första ekvationen från den andra.</p>\\[-10k+300\\cdot9{,}82\\sin5{,}0^\\circ=180\\]\\[\\begin{gathered}k=\\frac{300\\cdot9{,}82\\sin5{,}0^\\circ-180}{10}\\\\\\approx7{,}67608\\,\\mathrm{kg/s}\\end{gathered}\\]\\[c=900-60k\\approx439{,}435\\,\\mathrm N\\]<p>Vid 30 m/s är drivkraften 54 000/30 = 1800 N. Använd oavrundade c och k.</p>\\[F_\\text{mot}=c+30k\\approx669{,}718\\,\\mathrm N\\]\\[a=\\frac{1800-F_\\text{mot}}{300}\\approx3{,}77\\,\\mathrm{m/s^2}\\]</div>",
     "id": "5.579",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 3.7676081813460103,
-    "tolerans": 0.0565,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Två ekvationer för \\(a\\) och \\(b\\).</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Använd de två största konstanta farterna för att bestämma c och k.</p>",
+    "traningsniva": 4,
     "svarEnhet": "m/s²",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -136100,25 +136100,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "acceleration ur högsta farter",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 000 kg) har konstant effekt och konstant bromsande kraft. Uppför en backe som lutar 4,0° är högsta farten 15 m/s, nedför samma backe 21 m/s. Bestäm accelerationen på plan väg vid 14 m/s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac P{15}=F_b+mg\\sin4^\\circ\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac P{21}=F_b-mg\\sin4^\\circ\\].</div></div><div class=\"facit-stycke\"><p>Ger \\(P\\) och \\(F_b\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{P/14-F_b}{1\\,000}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\) m/s²</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 1000 kg kör med samma konstanta nyttiga motoreffekt och samma konstanta motståndskraft uppför och nedför en backe som lutar 4,0°. Den största konstanta farten är 15 m/s uppför och 21 m/s nedför. Använd g = 9,82 m/s². Vilken acceleration får bilen på vågrät väg vid 14 m/s med denna motoreffekt? Svara i m/s².</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt P vara motoreffekten och R motståndskraften. Vid största konstanta fart är kraftsumman noll.</p>\\[\\frac P{15}=R+1000\\cdot9{,}82\\sin4{,}0^\\circ\\]\\[\\frac P{21}=R-1000\\cdot9{,}82\\sin4{,}0^\\circ\\]<p>Subtrahera den andra ekvationen från den första så att R försvinner.</p>\\[P\\left(\\frac1{15}-\\frac1{21}\\right)=2\\cdot1000\\cdot9{,}82\\sin4{,}0^\\circ\\]\\[P\\approx71925{,}900\\,\\mathrm W\\]<p>Sätt tillbaka den oavrundade effekten i uppförsfallet för att bestämma R.</p>\\[\\begin{gathered}R=\\frac P{15}-1000\\cdot9{,}82\\sin4{,}0^\\circ\\\\\\approx4110{,}051\\,\\mathrm N\\end{gathered}\\]<p>På vågrät väg är drivkraften P/14. Använd oavrundade P och R.</p>\\[a=\\frac{P/14-R}{1000}\\approx1{,}03\\,\\mathrm{m/s^2}\\]</div>",
     "id": "5.580",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 1.027512858250966,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Två ekvationer.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Skriv kraftbalansen vid de två största konstanta farterna.</p>",
+    "traningsniva": 4,
     "svarEnhet": "m/s²",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -136130,15 +136130,15 @@ window.BANK = [
     "niva": "C",
     "typ": "helikopter lyfter",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En helikopter (810 kg) går från vila till 11,0 m/s rakt upp på 3,5 s och stiger då 8,5 m. Bestäm medeleffekten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{\\tfrac12\\cdot810\\cdot11{,}0^2+810\\cdot9{,}82\\cdot8{,}5}{3{,}5}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33\\,319\\) W</p></div>",
+    "t": "<p>En helikopter på 810 kg rör sig från vila till 11,0 m/s rakt upp på 3,5 s. Under tiden stiger den 8,5 m. Bortse från luftmotståndet och använd g = 9,82 m/s². Bestäm medeleffekten som lyftkraften överför till helikoptern i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraftens arbete ökar både rörelseenergin och lägesenergin. Beräkna dem var för sig.</p>\\[\\Delta E_k=\\frac{810\\cdot11{,}0^2}{2}=49005\\,\\mathrm J\\]\\[\\Delta E_p=810\\cdot9{,}82\\cdot8{,}5=67610{,}7\\,\\mathrm J\\]\\[W=49005+67610{,}7=116615{,}7\\,\\mathrm J\\]\\[P_\\text{medel}=\\frac{116615{,}7}{3{,}5}\\approx33300\\,\\mathrm W\\]<p>Detta gäller energin som lyftkraften ger själva helikoptern. Rotor och motor kan behöva större effekt för att också sätta luft i rörelse.</p></div>",
     "id": "5.581",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt P = W/t",
     "svarstyp": "numeriskt",
     "rättSvar": 33318.771428571425,
-    "tolerans": 510.0,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -136155,23 +136155,23 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "cyklist med fartberoende motstånd",
-    "poang": "(1/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p><ol type=\"a\"><li>Bestäm den bromsande kraften.</li><li>Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{560}{3{,}20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(175\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}1\\) m/s</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Använd g = 9,82 m/s² i backuppgiften. Effekten är nyttig mekanisk effekt.</p><ol type=\"a\"><li>John håller 3,20 m/s på vågrät väg med effekten 560 W. Hur stor är motståndskraften? Svara i N. Svara med tre värdesiffror.</li><li>I ett annat fall har John och cykeln massan 90,0 kg. Han håller konstant fart nedför en backe som lutar 5,50° med effekten 144 W. Motståndskraften är 8v N, där v är farten i m/s. Bestäm farten i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Konstant fart betyder att drivkraften balanserar motståndet. Använd F = P/v.</p>\\[F_\\text{mot}=\\frac{560}{3{,}20}=175\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Välj nedför som positiv riktning. Vid konstant fart balanserar drivkraften och tyngdkraftens del längs backen motståndet. Drivkraften är P/v.</p>\\[\\frac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\]<p>Multiplicera med v. Skriv B = 90,0 · 9,82 sin5,50° ≈ 84,708476 N.</p>\\[8v^2-Bv-144=0\\]<p>Lös andragradsekvationen med det oavrundade B.</p>\\[v=\\frac{B\\pm\\sqrt{B^2+4\\cdot8\\cdot144}}{16}\\]<p>Rötterna är cirka 12,0788 och −1,49022 m/s. Fart ska vara positiv, så den negativa roten väljs bort.</p>\\[v\\approx12{,}1\\,\\mathrm{m/s}\\]</div>",
     "id": "5.582",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      175,
+      175.0,
       12.078776650145427
     ],
     "tolerans": [
-      2.62,
-      0.181
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -136191,14 +136191,14 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>John och cykeln väger 90,0 kg. På plan väg med konstant 3,20 m/s utvecklar han 560 W.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s² i backuppgiften. Effekten är nyttig mekanisk effekt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den bromsande kraften.",
-        "t": "<p>John cyklar på plan väg med konstant fart 3,20 m/s. Hans nyttiga effekt är 560 W.</p><p>Bestäm den bromsande kraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{560}{3{,}20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(175\\) N</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Hur stor är motståndskraften? Svara i N med tre värdesiffror.",
+        "t": "<p>John håller konstant fart 3,20 m/s på vågrät väg med nyttig mekanisk effekt 560 W. Använd F = P/v.</p><p>Hur stor är motståndskraften? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Konstant fart betyder att drivkraften balanserar motståndet. Använd F = P/v.</p>\\[F_\\text{mot}=\\frac{560}{3{,}20}=175\\,\\mathrm N\\]</div>",
+        "ledtrad": "<p>Dividera effekten med farten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
@@ -136206,18 +136206,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).",
-        "t": "<p>John och cykeln väger totalt 90,0 kg. Han cyklar nedför en backe med lutningen 5,50° och nyttiga effekten 144 W. Motståndskraften är \\(8v\\) N, där v är farten i m/s. Använd g = 9,82 m/s².</p><p>Nedför en backe som lutar 5,50° utvecklar han 144 W med konstant fart \\(v\\). Den bromsande kraften är \\(8v\\) N. Bestäm \\(v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) cyklistens drivkraft, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\iff8v^2-84{,}7v-144=0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}1\\) m/s</p></div>",
-        "ledtrad": "<p>Andragradsekvation.</p>",
-        "niva": "A",
-        "poang": "(0/1/2)",
-        "traningsniva": 5,
-        "arbetsinsats": 2
+        "fraga": "Bestäm farten i m/s med tre värdesiffror.",
+        "t": "<p>John och cykeln har massan 90,0 kg. Han håller konstant fart nedför en backe som lutar 5,50° med nyttig mekanisk effekt 144 W. Motståndskraften är 8v N, där v är farten i m/s. Använd g = 9,82 m/s².</p><p>Bestäm farten i m/s med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj nedför som positiv riktning. Vid konstant fart balanserar drivkraften och tyngdkraftens del längs backen motståndet. Drivkraften är P/v.</p>\\[\\frac{144}{v}+90{,}0\\cdot9{,}82\\sin5{,}50^\\circ=8v\\]<p>Multiplicera med v. Skriv B = 90,0 · 9,82 sin5,50° ≈ 84,708476 N.</p>\\[8v^2-Bv-144=0\\]<p>Lös andragradsekvationen med det oavrundade B.</p>\\[v=\\frac{B\\pm\\sqrt{B^2+4\\cdot8\\cdot144}}{16}\\]<p>Rötterna är cirka 12,0788 och −1,49022 m/s. Fart ska vara positiv, så den negativa roten väljs bort.</p>\\[v\\approx12{,}1\\,\\mathrm{m/s}\\]</div>",
+        "ledtrad": "<p>Skriv kraftbalansen. Multiplicera med v för att få en andragradsekvation.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
     "spel": true
@@ -136225,25 +136225,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "kolvagn dras uppför",
-    "poang": "(0/3/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelererar jämnt från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><ol type=\"a\"><li>Vilken effekt krävs vid konstant fart?</li><li>Vilken är den största effekten under färden?</li><li>Hur stort arbete gör motorn minst under hela färden?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) dragkraften på kolvagnen längs rälsen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div></div><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,262\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,645\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=950\\cdot9{,}82\\cdot625+\\tfrac12\\cdot950\\cdot2{,}20^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\cdot10^{6}\\) J</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>En vagn på 950 kg dras uppför en rak räls som lutar 30°. Den ökar farten med konstant acceleration från vila till 2,20 m/s på 12,0 s. Sedan håller den denna fart tills den nått slutet av den 1250 m långa rälsen. Dragkraften verkar längs rälsen. Bortse från friktion och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken mekanisk effekt behövs vid konstant fart? Svara i W. Svara med tre värdesiffror.</li><li>Vilken är den största mekaniska effekten under färden? Svara i W. Svara med tre värdesiffror.</li><li>Hur stort arbete gör dragkraften under hela färden? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid konstant fart balanserar dragkraften tyngdkraftens del längs rälsen.</p>\\[\\begin{gathered}F=mg\\sin30^\\circ\\\\=950\\cdot9{,}82\\sin30^\\circ=4664{,}5\\,\\mathrm N\\end{gathered}\\]\\[P=Fv=4664{,}5\\cdot2{,}20\\approx10300\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Under accelerationen behövs större dragkraft än vid konstant fart.</p>\\[a=\\frac{2{,}20}{12{,}0}\\,\\mathrm{m/s^2}\\]\\[F=mg\\sin30^\\circ+ma\\]\\[F=4664{,}5+950\\cdot\\frac{2{,}20}{12{,}0}\\approx4838{,}667\\,\\mathrm N\\]<p>Kraften är konstant under accelerationen. Effekten Fv är störst precis när farten når 2,20 m/s, innan accelerationen upphör.</p>\\[P_\\text{max}=\\left(4664{,}5+950\\cdot\\frac{2{,}20}{12{,}0}\\right)\\cdot2{,}20\\]\\[P_\\text{max}\\approx10600\\,\\mathrm W\\]<p><strong>c)</strong></p><p>Vagnen har farten 2,20 m/s vid slutet. Arbetet ökar både lägesenergin och rörelseenergin. Bestäm först höjdökningen.</p>\\[h=1250\\sin30^\\circ=625\\,\\mathrm m\\]\\[\\Delta E_p=950\\cdot9{,}82\\cdot625=5830625\\,\\mathrm J\\]\\[\\Delta E_k=\\frac{950\\cdot2{,}20^2}{2}=2299\\,\\mathrm J\\]\\[W=5830625+2299=5832924\\,\\mathrm J\\]<p>Med tre värdesiffror: 5,83 · 10⁶ J.</p></div>",
     "id": "5.583",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10261.900000000001,
-      10645.066666666668,
-      5832924.0
+      10261.9,
+      10645.066666666666,
+      5832923.999999999
     ],
     "tolerans": [
-      154.0,
-      160.0,
-      87500.0
+      50.0,
+      50.0,
+      5000.0
     ],
     "självrättning": true,
     "formaga": [
@@ -136267,14 +136267,14 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelereras från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p>",
+    "spelIntro": "<p>En vagn på 950 kg dras uppför en rak räls som lutar 30°. Den ökar farten med konstant acceleration från vila till 2,20 m/s på 12,0 s. Sedan håller den denna fart tills den nått slutet av den 1250 m långa rälsen. Dragkraften verkar längs rälsen. Bortse från friktion och använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken effekt krävs vid konstant fart?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelererar jämnt från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Vilken effekt krävs vid konstant fart?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) dragkraften på kolvagnen längs rälsen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=950\\cdot9{,}82\\sin30^\\circ\\cdot2{,}20\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,262\\) W</p></div>",
-        "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+        "fraga": "Vilken mekanisk effekt behövs vid konstant fart? Svara i W. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 950 kg dras med konstant fart 2,20 m/s uppför en räls som lutar 30°. Dragkraften är längs rälsen. Bortse från friktion och använd g = 9,82 m/s².</p><p>Vilken mekanisk effekt behövs vid konstant fart? Svara i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar dragkraften tyngdkraftens del längs rälsen.</p>\\[\\begin{gathered}F=mg\\sin30^\\circ\\\\=950\\cdot9{,}82\\sin30^\\circ=4664{,}5\\,\\mathrm N\\end{gathered}\\]\\[P=Fv=4664{,}5\\cdot2{,}20\\approx10300\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Vid konstant fart balanserar dragkraften tyngdkraftens del längs rälsen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -136282,21 +136282,21 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken är den största effekten under färden?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelererar jämnt från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Vilken är den största effekten under färden?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) dragkraften på kolvagnen längs rälsen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><p>Under accelerationen: \\(F=mg\\sin30^\\circ+m\\cdot\\dfrac{2{,}20}{12{,}0}\\), störst effekt vid 2,20 m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,645\\) W</p></div>",
-        "ledtrad": "<p>Kraften är störst under accelerationen.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Vilken är den största mekaniska effekten under färden? Svara i W. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 950 kg dras uppför en räls som lutar 30°. Den ökar farten med konstant acceleration från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Dragkraften är längs rälsen. Bortse från friktion och använd g = 9,82 m/s².</p><p>Vilken är den största mekaniska effekten under färden? Svara i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Under accelerationen behövs större dragkraft än vid konstant fart.</p>\\[a=\\frac{2{,}20}{12{,}0}\\,\\mathrm{m/s^2}\\]\\[F=mg\\sin30^\\circ+ma\\]\\[F=4664{,}5+950\\cdot\\frac{2{,}20}{12{,}0}\\approx4838{,}667\\,\\mathrm N\\]<p>Kraften är konstant under accelerationen. Effekten Fv är störst precis när farten når 2,20 m/s, innan accelerationen upphör.</p>\\[P_\\text{max}=\\left(4664{,}5+950\\cdot\\frac{2{,}20}{12{,}0}\\right)\\cdot2{,}20\\]\\[P_\\text{max}\\approx10600\\,\\mathrm W\\]</div>",
+        "ledtrad": "<p>Under accelerationen är kraften konstant. Vid vilken fart är Fv störst?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort arbete gör motorn minst under hela färden?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En kolvagn (950 kg) dras uppför en räls som lutar 30°. Den accelererar jämnt från vila till 2,20 m/s på 12,0 s och fortsätter sedan med konstant fart. Rälsen är 1 250 m lång. Bortse från friktion.</p><p>Hur stort arbete gör motorn minst under hela färden?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=950\\cdot9{,}82\\cdot625+\\tfrac12\\cdot950\\cdot2{,}20^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\cdot10^{6}\\) J</p></div>",
-        "ledtrad": "<p>Läges- och rörelseenergi.</p>",
+        "fraga": "Hur stort arbete gör dragkraften under hela färden? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En vagn på 950 kg dras 1250 m uppför en rak räls som lutar 30°. Startfarten är noll och slutfarten 2,20 m/s. Dragkraften är längs rälsen. Bortse från friktion och använd g = 9,82 m/s².</p><p>Hur stort arbete gör dragkraften under hela färden? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vagnen har farten 2,20 m/s vid slutet. Arbetet ökar både lägesenergin och rörelseenergin. Bestäm först höjdökningen.</p>\\[h=1250\\sin30^\\circ=625\\,\\mathrm m\\]\\[\\Delta E_p=950\\cdot9{,}82\\cdot625=5830625\\,\\mathrm J\\]\\[\\Delta E_k=\\frac{950\\cdot2{,}20^2}{2}=2299\\,\\mathrm J\\]\\[W=5830625+2299=5832924\\,\\mathrm J\\]<p>Med tre värdesiffror: 5,83 · 10⁶ J.</p></div>",
+        "ledtrad": "<p>Beräkna höjdökningen och rörelseenergin vid slutet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -136306,31 +136306,31 @@ window.BANK = [
     "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Använd ett mycket kort tidsintervall för effekten i ett visst ögonblick.</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "effekt med luftmotstånd kv²",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En lastbil (6,0 ton) har den bromsande kraften \\(kv^2\\). Med effekten \\(P\\) håller den 20 m/s på plan väg och 10 m/s uppför en backe som lutar 4,0°. Bestäm \\(P\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) lastbilens drivkraft, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><p>Plan väg: drivkraften är lika med motståndet, så \\(P=k\\cdot20^2\\cdot20=8\\,000k\\).</p></div><div class=\"facit-stycke\"><p>Uppför backen: \\(P=(k\\cdot10^2+6\\,000\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot10=1\\,000k+41\\,101\\).</p></div><div class=\"facit-stycke\"><p>Samma effekt ger \\(8\\,000k=1\\,000k+41\\,101\\), alltså \\(7\\,000k=41\\,101\\) och \\(k\\approx5{,}87\\) kg/m.</p></div><div class=\"facit-stycke\"><p>\\(P=8\\,000\\cdot5{,}87\\approx4{,}7\\cdot10^{4}\\) W</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}7\\cdot10^{4}\\) W \\(=47\\) kW</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En lastbil på 6,0 ton kör med samma nyttiga motoreffekt P på vågrät väg och i en uppförsbacke som lutar 4,0°. Den håller konstant fart 20 m/s på vågrät väg och 10 m/s uppför backen. Motståndskraften är \\(kv^2\\), där k är konstant och v är farten i m/s. Använd g = 9,82 m/s². Bestäm P i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 6000 kg. Vid konstant fart balanserar drivkraften motstånd och eventuell tyngdkraft längs backen. Använd P = Fv.</p>\\[P=k\\cdot20^2\\cdot20=8000k\\]\\[P=(k\\cdot10^2+6000\\cdot9{,}82\\sin4{,}0^\\circ)\\cdot10\\]<p>Effekten är samma i båda fallen. Sätt uttrycken lika och lös för k.</p>\\[8000k=1000k+60000\\cdot9{,}82\\sin4{,}0^\\circ\\]\\[k=\\frac{60000\\cdot9{,}82\\sin4{,}0^\\circ}{7000}\\approx5{,}87150\\,\\mathrm{kg/m}\\]<p>Använd oavrundat k när effekten beräknas.</p>\\[\\begin{gathered}P=8000\\cdot\\frac{60000\\cdot9{,}82\\sin4{,}0^\\circ}{7000}\\\\\\approx47000\\,\\mathrm W\\end{gathered}\\]</div>",
     "id": "5.584",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 46972.016377187014,
-    "tolerans": 700.0,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Två ekvationer.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Skriv effekten som kraft gånger fart i båda fallen.</p>",
+    "traningsniva": 4,
     "svarEnhet": "W",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -136339,25 +136339,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "fart ur effekt och fartberoende motstånd",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil (1 200 kg) kör uppför en backe som lutar 4,00°. Effekten är 21,6 kW och accelerationen 0,500 m/s². Den bromsande kraften är \\(30v\\) N. Bestäm \\(v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekten i ett visst ögonblick är \\(P=Fv\\). Medeleffekten beräknas i stället med energi delad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{21\\,600}{v}-30v-1\\,200\\cdot9{,}82\\sin4{,}00^\\circ=600\\iff30v^2+1\\,422v-21\\,600=0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}1\\) m/s</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 1200 kg kör uppför en backe som lutar 4,00°. Vid ett ögonblick är den nyttiga motoreffekten 21,6 kW och accelerationen 0,500 m/s² framåt. Motståndskraften är 30v N, där v är farten i m/s. Använd g = 9,82 m/s². Bestäm farten i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Drivkraften är P/v. Uppför motverkar både tyngdkraftens del längs backen och motståndet rörelsen.</p>\\[\\begin{gathered}\\frac{21600}{v}-30v-1200\\cdot9{,}82\\sin4{,}00^\\circ\\\\=1200\\cdot0{,}500\\end{gathered}\\]<p>Multiplicera med v. Sätt B = 600 + 1200 · 9,82 sin4,00° ≈ 1422,010287 N.</p>\\[30v^2+Bv-21600=0\\]\\[v=\\frac{-B\\pm\\sqrt{B^2+4\\cdot30\\cdot21600}}{60}\\]<p>Använd oavrundat B. Rötterna är cirka 12,1006 och −59,5010 m/s. Välj den positiva roten eftersom frågan gäller fart.</p>\\[v\\approx12{,}1\\,\\mathrm{m/s}\\]</div>",
     "id": "5.585",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 12.100640369292943,
-    "tolerans": 0.182,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Andragradsekvation.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Drivkraften är P/v. Skriv kraftsumman och multiplicera ekvationen med v.</p>",
+    "traningsniva": 4,
     "svarEnhet": "m/s",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
     "arbetsinsats": 3,
@@ -136369,22 +136369,22 @@ window.BANK = [
     "niva": "C",
     "typ": "löpare i medvind uppför backe",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Lina (80 kg) springer med konstant 3,0 m/s uppför en backe som lutar 5,0°. Medvinden ger en konstant kraft på 7,0 N framåt. Bestäm hennes effekt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) Linas framåtdrivande kraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=(80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0)\\cdot3{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(184\\) W</p></div>",
+    "t": "<p>Lina på 80 kg håller farten 3,0 m/s uppför en backe som lutar 5,0°. Medvinden ger kraften 7,0 N framåt längs backen. Bortse från annat motstånd och använd g = 9,82 m/s². Vilken nyttig mekanisk effekt behöver Lina själv ge för att hålla farten? Svara i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart balanserar Linas kraft och medvindens kraft tyngdkraftens del längs backen.</p>\\[F_\\text{Lina}+7{,}0=80\\cdot9{,}82\\sin5{,}0^\\circ\\]\\[\\begin{gathered}F_\\text{Lina}=80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0\\\\\\approx61{,}4696\\,\\mathrm N\\end{gathered}\\]<p>Effekt är kraft gånger fart. Använd oavrundad kraft.</p>\\[\\begin{gathered}P=(80\\cdot9{,}82\\sin5{,}0^\\circ-7{,}0)\\cdot3{,}0\\\\\\approx184\\,\\mathrm W\\end{gathered}\\]</div>",
     "id": "5.586",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
     "rättSvar": 184.40865450768075,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utgå från arbete = kraft gånger sträcka och effekt = arbete per tid. Hur kan sträcka delat med tid skrivas med hjälp av farten?</p>",
+    "ledtrad": "<p>Hur stor del av kraften längs backen ger medvinden?</p>",
     "traningsniva": 3,
     "svarEnhet": "W",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
@@ -136394,28 +136394,28 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "lutning ur effektskillnad",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>1 hk = 735,5 W.</p><p>En bil (1 900 kg) kör med konstant 100 km/h uppför och nedför samma backe med samma bromsande kraft. Uppför krävs 47 hk mer än nedför. Bestäm backens lutning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F\\) bilens drivkraft längs backen, i rörelseriktningen. Effekt, kraft och fart hänger ihop genom \\(P=Fv\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\text{upp}-P_\\text{ner}=2mg\\sin\\alpha\\cdot v\\iff\\sin\\alpha=\\dfrac{47\\cdot735{,}5}{2\\cdot1\\,900\\cdot9{,}82\\cdot27{,}8}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\) °</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bil på 1900 kg håller 100 km/h uppför och nedför samma backe. Motståndskraften är lika stor i båda fallen. Uppför behövs 47 hk större nyttig mekanisk effekt än nedför. 1 hk = 735,5 W. Använd g = 9,82 m/s². Bestäm backens vinkel mot marken i grader.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effektskillnaden och farten.</p>\\[\\Delta P=47\\cdot735{,}5=34568{,}5\\,\\mathrm W\\]\\[v=\\frac{100}{3{,}6}\\,\\mathrm{m/s}\\]<p>Uppför krävs drivkraften R + mg sinα och nedför R − mg sinα. Skillnaden är 2mg sinα. Med P = Fv blir</p>\\[\\Delta P=2mg\\sin\\alpha\\cdot v\\]\\[\\alpha=\\arcsin\\left(\\frac{34568{,}5}{2\\cdot1900\\cdot9{,}82\\cdot(100/3{,}6)}\\right)\\]\\[\\alpha\\approx1{,}91^\\circ\\]</div>",
     "id": "5.587",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.9111339127597606,
-    "tolerans": 0.051,
+    "rättSvar": 1.9111339127597602,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Subtrahera ekvationerna.</p>",
+    "ledtrad": "<p>Hur skiljer sig tyngdkraftens påverkan uppför och nedför?</p>",
     "traningsniva": 4,
     "svarEnhet": "°",
     "familjNyckel": "effekt__effekt_och_fart_p_fv",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -136424,8 +136424,8 @@ window.BANK = [
     "niva": "E",
     "typ": "verkningsgrad grunder",
     "poang": "(4/0/0)",
-    "t": "<p>1 hk = 735,5 W.</p><ol type=\"a\"><li>En bilmotor avger 44 hk med verkningsgraden 29 %. Bestäm den tillförda effekten i hk.</li><li>En reaktor ger värmeeffekten 3 900 MW och den elektriska effekten 1 400 MW. Bestäm verkningsgraden.</li><li>En pump med verkningsgraden 75 % ger 1 200 W nyttig effekt. Bestäm den tillförda effekten.</li><li>En glödlampa (60 W, verkningsgrad 5,0 %) ersätts av en lågenergilampa (25 %) med samma ljus. Bestäm lågenergilampans effekt.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Verkningsgraden är nyttig effekt delad med tillförd effekt. Skriv 29 % som 0,29. Ingen omvandling av hk behövs när samma enhet används för båda effekterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{44}{0{,}29}\\approx151{,}7\\,\\mathrm{hk}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 152 hk.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Verkningsgraden är den elektriska effekten delad med värmeeffekten. Båda anges i MW, så enheterna tar ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{1400}{3900}\\approx0{,}359\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,36 i decimalform, alltså 36 %.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Skriv verkningsgraden 75 % som 0,75. Den tillförda effekten måste vara större än den nyttiga effekten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{1200}{0{,}75}=1600\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1600 W.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{0{,}050\\cdot60}{0{,}25}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) W</p></div></div></div>",
+    "t": "<p>Verkningsgrad är nyttig energi eller effekt delad med tillförd energi eller effekt.</p><ol type=\"a\"><li>En bilmotor lämnar 44 hk nyttig effekt med verkningsgraden 29 %. Bestäm tillförd effekt i hk. Svara med tre värdesiffror.</li><li>En reaktor ger 3900 MW värmeeffekt, som används för att ge 1400 MW elektrisk effekt. Bestäm verkningsgraden i decimalform. Svara med tre värdesiffror.</li><li>En pump lämnar 1200 W nyttig effekt med verkningsgraden 75 %. Bestäm tillförd effekt i W. Svara med tre värdesiffror.</li><li>En glödlampa tar emot 60 W och omvandlar 5,0 % till ljus. En annan lampa omvandlar 25 % till ljus. Vilken tillförd effekt behöver den andra lampan för att ge samma ljuseffekt? Svara i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Skriv 29 % som 0,29. Dividera den nyttiga effekten med verkningsgraden. Båda effekterna kan anges i hk.</p>\\[P_\\text{in}=\\frac{P_\\text{nyttig}}\\eta=\\frac{44}{0{,}29}\\approx152\\,\\mathrm{hk}\\]<p><strong>b)</strong></p><p>Båda effekterna anges i MW. Dividera eleffekten med den tillförda värmeeffekten.</p>\\[\\eta=\\frac{1400}{3900}\\approx0{,}359\\]<p>Frågan gäller decimalform. Detta motsvarar cirka 35,9 %.</p><p><strong>c)</strong></p><p>75 % = 0,75. Dividera den nyttiga effekten med verkningsgraden.</p>\\[P_\\text{in}=\\frac{1200}{0{,}75}=1600\\,\\mathrm W\\]<p><strong>d)</strong></p><p>Beräkna först glödlampans ljuseffekt. Den andra lampan ska ge lika mycket ljus.</p>\\[P_\\text{ljus}=0{,}050\\cdot60=3{,}0\\,\\mathrm W\\]<p>3,0 W är 25 % av den andra lampans tillförda effekt.</p>\\[P_\\text{in}=\\frac{3{,}0}{0{,}25}=12{,}0\\,\\mathrm W\\]</div>",
     "id": "5.588",
     "miniräknare": true,
     "geogebra": false,
@@ -136434,14 +136434,14 @@ window.BANK = [
     "rättSvar": [
       151.7241379310345,
       0.358974358974359,
-      1600,
-      12
+      1600.0,
+      12.0
     ],
     "tolerans": [
-      5.1,
-      0.00538,
-      51.0,
-      0.51
+      0.5,
+      0.0005,
+      5.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -136467,57 +136467,57 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>1 hk = 735,5 W.</p>",
+    "spelIntro": "<p>Verkningsgrad är nyttig energi eller effekt delad med tillförd energi eller effekt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är den tillförda effekten? Svara i hk.",
-        "t": "<p>En bilmotor ger den nyttiga effekten 44 hk. Verkningsgraden är 29 %.</p><p>Hur stor är den tillförda effekten? Svara i hk.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Verkningsgraden är nyttig effekt delad med tillförd effekt. Skriv 29 % som 0,29. Ingen omvandling av hk behövs när samma enhet används för båda effekterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{44}{0{,}29}\\approx151{,}7\\,\\mathrm{hk}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 152 hk.</p></div></div>",
+        "fraga": "Bestäm tillförd effekt i hk med tre värdesiffror.",
+        "t": "<p>En bilmotor lämnar 44 hk nyttig effekt och har verkningsgraden 29 %.</p><p>Bestäm tillförd effekt i hk med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv 29 % som 0,29. Dividera den nyttiga effekten med verkningsgraden. Båda effekterna kan anges i hk.</p>\\[P_\\text{in}=\\frac{P_\\text{nyttig}}\\eta=\\frac{44}{0{,}29}\\approx152\\,\\mathrm{hk}\\]</div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vilken är verkningsgraden? Svara i decimalform.",
-        "t": "<p>En reaktor ger värmeeffekten 3900 MW. Av detta blir 1400 MW elektrisk effekt.</p><p>Vilken är verkningsgraden? Svara i decimalform.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Verkningsgraden är den elektriska effekten delad med värmeeffekten. Båda anges i MW, så enheterna tar ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{1400}{3900}\\approx0{,}359\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,36 i decimalform, alltså 36 %.</p></div></div>",
+        "fraga": "Bestäm verkningsgraden i decimalform med tre värdesiffror.",
+        "t": "<p>En reaktor ger 3900 MW värmeeffekt, som används för att ge 1400 MW elektrisk effekt.</p><p>Bestäm verkningsgraden i decimalform med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Båda effekterna anges i MW. Dividera eleffekten med den tillförda värmeeffekten.</p>\\[\\eta=\\frac{1400}{3900}\\approx0{,}359\\]<p>Frågan gäller decimalform. Detta motsvarar cirka 35,9 %.</p></div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är den tillförda effekten? Svara i W.",
-        "t": "<p>En pump ger den nyttiga effekten 1200 W. Verkningsgraden är 75 %.</p><p>Hur stor är den tillförda effekten? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Skriv verkningsgraden 75 % som 0,75. Den tillförda effekten måste vara större än den nyttiga effekten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{P_\\mathrm{nyttig}}\\eta=\\frac{1200}{0{,}75}=1600\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1600 W.</p></div></div>",
+        "fraga": "Bestäm tillförd effekt i W med tre värdesiffror.",
+        "t": "<p>En pump lämnar 1200 W nyttig effekt och har verkningsgraden 75 %.</p><p>Bestäm tillförd effekt i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>75 % = 0,75. Dividera den nyttiga effekten med verkningsgraden.</p>\\[P_\\text{in}=\\frac{1200}{0{,}75}=1600\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Vilken tillförd effekt behöver den andra lampan för att ge samma ljuseffekt? Svara i W.",
-        "t": "<p>En glödlampa tar emot 60 W och omvandlar 5,0 % till ljus. En annan lampa omvandlar 25 % av sin tillförda effekt till ljus.</p><p>Vilken tillförd effekt behöver den andra lampan för att ge samma ljuseffekt? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{0{,}050\\cdot60}{0{,}25}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) W</p></div>",
+        "fraga": "Vilken tillförd effekt behöver den andra lampan för att ge samma ljuseffekt? Svara i W med tre värdesiffror.",
+        "t": "<p>En glödlampa tar emot 60 W och omvandlar 5,0 % till ljus. En annan lampa omvandlar 25 % av sin tillförda effekt till ljus.</p><p>Vilken tillförd effekt behöver den andra lampan för att ge samma ljuseffekt? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först glödlampans ljuseffekt. Den andra lampan ska ge lika mycket ljus.</p>\\[P_\\text{ljus}=0{,}050\\cdot60=3{,}0\\,\\mathrm W\\]<p>3,0 W är 25 % av den andra lampans tillförda effekt.</p>\\[P_\\text{in}=\\frac{3{,}0}{0{,}25}=12{,}0\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Samma nyttiga effekt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "effekt__verkningsgrad",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -136526,8 +136526,8 @@ window.BANK = [
     "niva": "C",
     "typ": "chokladbitar för kroppsarbete",
     "poang": "(0/1/0)",
-    "t": "<p>Kalle utför ett arbete på 5,0 kJ med kroppens verkningsgrad 20 %. Varje chokladbit innehåller 320 J, varav kroppen tar upp 60 %. Hur många hela bitar behövs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Energi som behövs: \\(\\dfrac{5{,}0}{0{,}20}=25\\) kJ.</p></div><div class=\"facit-stycke\"><p>Per bit: \\(0{,}60\\cdot320=192\\) J.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{25\\,000}{192}=130{,}2\\): 131 bitar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(131\\) </p></div>",
+    "t": "<p>Kalle utför 5,0 kJ mekaniskt arbete. I en energimodell blir 20 % av kroppens använda kemiska energi mekaniskt arbete. Varje liten chokladbit innehåller 320 J, och kroppen kan använda 60 % av detta. Hur många hela bitar behövs minst?</p><p>Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det mekaniska arbetet är 5000 J. Dividera med kroppens verkningsgrad för att få den kemiska energi som behövs.</p>\\[E_\\text{behov}=\\frac{5000}{0{,}20}=25000\\,\\mathrm J\\]<p>Kroppen kan använda 60 % av energin i varje bit.</p>\\[E_\\text{bit}=0{,}60\\cdot320=192\\,\\mathrm J\\]\\[N=\\frac{25000}{192}\\approx130{,}208\\]<p>130 bitar räcker inte. Avrunda uppåt: \\(N_\\text{min}=131\\) hela bitar.</p></div>",
     "id": "5.589",
     "miniräknare": true,
     "geogebra": false,
@@ -136553,8 +136553,8 @@ window.BANK = [
     "niva": "C",
     "typ": "el i vardagen",
     "poang": "(2/1/0)",
-    "t": "<p>Bestäm.</p><ol type=\"a\"><li>En solcell är 32 cm lång och 15 cm bred. Solstrålningen ger 0,95 kW per m² av solcellens yta. Solcellen omvandlar 14 % av denna effekt till el. Hur stor elektrisk effekt ger solcellen? Svara i W.</li><li>En laddare ger 4,8 W till ett batteri under 5,0 timmar. Verkningsgraden är 80 %. Elpriset är 0,98 kr/kWh. Vad kostar laddningen? Svara i öre.</li><li>En spisplatta tar 1,2 kW från elnätet under 28 minuter. Av energin går 90 % till att värma kastrullen och dess innehåll. Hur mycket energi går förlorad till omgivningen? Svara i J.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Beräkna ytan i m². Den elektriska effekten är 14 % av den effekt som träffar hela ytan.</p><div class=\"facit-matte\">\\[P_\\mathrm{el}=0{,}14\\cdot950\\cdot0{,}32\\cdot0{,}15=6{,}384\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6,4 W.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Betala för den energi laddaren tar från elnätet, som är större än energin till batteriet. Omvandla Wh till kWh och kronor till öre.</p><div class=\"facit-matte\">\\[\\begin{gathered}E_\\mathrm{in}=\\frac{4{,}8\\cdot5{,}0}{0{,}80}=30\\,\\mathrm{Wh}=0{,}030\\,\\mathrm{kWh}\\\\ \\text{kostnad}=0{,}030\\cdot98=2{,}94\\,\\text{öre}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2,94 öre.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Förlusten är de återstående 10 % av den tillförda energin. Använd W och sekunder för att få J.</p><div class=\"facit-matte\">\\[E_\\mathrm{förlust}=0{,}10\\cdot1200\\cdot(28\\cdot60)=201600\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 202 000 J.</p></div></div></div></div></div>",
+    "t": "<p>Räkna på energin eller effekten i varje fall.</p><ol type=\"a\"><li>En solcell är 32 cm lång och 15 cm bred. Solstrålningen ger 0,95 kW per m² av ytan. Solcellen omvandlar 14 % till el. Bestäm eleffekten i W. Svara med tre värdesiffror.</li><li>En laddare ger 4,8 W till ett batteri under 5,0 timmar. Verkningsgraden är 80 % och elpriset 0,98 kr/kWh. Vad kostar elen till laddaren? Svara i öre. Svara med tre värdesiffror.</li><li>En spisplatta tar emot 1,2 kW från elnätet under 28 minuter. 90 % av energin värmer kastrullen och dess innehåll. Hur mycket energi går till omgivningen? Svara i J. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla längderna till m och strålningseffekten till W/m². Beräkna ytan och den effekt som träffar solcellen.</p>\\[A=0{,}32\\cdot0{,}15=0{,}048\\,\\mathrm{m^2}\\]\\[P_\\text{in}=950\\cdot0{,}048=45{,}6\\,\\mathrm W\\]\\[P_\\text{el}=0{,}14\\cdot45{,}6=6{,}384\\,\\mathrm W\\]<p>Med tre värdesiffror: 6,38 W.</p><p><strong>b)</strong></p><p>Batteriet får effekten gånger tiden i Wh. Laddaren tar mer energi från elnätet eftersom verkningsgraden är 80 %.</p>\\[E_\\text{batteri}=4{,}8\\cdot5{,}0=24\\,\\mathrm{Wh}\\]\\[E_\\text{in}=\\frac{24}{0{,}80}=30\\,\\mathrm{Wh}=0{,}030\\,\\mathrm{kWh}\\]<p>Elpriset är 0,98 kr/kWh = 98 öre/kWh.</p>\\[\\text{kostnad}=0{,}030\\cdot98=2{,}94\\,\\text{öre}\\]<p><strong>c)</strong></p><p>Omvandla effekten till 1200 W och tiden till 28 · 60 = 1680 s. De återstående 10 % går till omgivningen.</p>\\[E_\\text{in}=1200\\cdot1680=2016000\\,\\mathrm J\\]\\[E_\\text{omgivning}=0{,}10\\cdot2016000=201600\\,\\mathrm J\\]<p>Med tre värdesiffror: 202 000 J.</p></div>",
     "id": "5.590",
     "miniräknare": true,
     "geogebra": false,
@@ -136566,9 +136566,9 @@ window.BANK = [
       201600.0
     ],
     "tolerans": [
-      0.0958,
-      0.051,
-      5100.0
+      0.005,
+      0.005,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -136592,24 +136592,24 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm.</p>",
+    "spelIntro": "<p>Räkna på energin eller effekten i varje fall.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor elektrisk effekt ger solcellen? Svara i W.",
-        "t": "<p>En solcell är 32 cm lång och 15 cm bred. Solstrålningen ger 0,95 kW per m² av solcellens yta. Solcellen omvandlar 14 % av denna effekt till el.</p><p>Hur stor elektrisk effekt ger solcellen? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Beräkna ytan i m². Den elektriska effekten är 14 % av den effekt som träffar hela ytan.</p><div class=\"facit-matte\">\\[P_\\mathrm{el}=0{,}14\\cdot950\\cdot0{,}32\\cdot0{,}15=6{,}384\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6,4 W.</p></div></div>",
+        "fraga": "En solcell är 32 cm lång och 15 cm bred. Solstrålningen ger 0,95 kW per m² av ytan. Solcellen omvandlar 14 % till el. Bestäm eleffekten i W. Svara med tre värdesiffror.",
+        "t": "<p>En solcell är 32 cm lång och 15 cm bred. Solstrålningen ger 0,95 kW per m² av ytan. Solcellen omvandlar 14 % till el. Bestäm eleffekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla längderna till m och strålningseffekten till W/m². Beräkna ytan och den effekt som träffar solcellen.</p>\\[A=0{,}32\\cdot0{,}15=0{,}048\\,\\mathrm{m^2}\\]\\[P_\\text{in}=950\\cdot0{,}048=45{,}6\\,\\mathrm W\\]\\[P_\\text{el}=0{,}14\\cdot45{,}6=6{,}384\\,\\mathrm W\\]<p>Med tre värdesiffror: 6,38 W.</p></div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vad kostar laddningen? Svara i öre.",
-        "t": "<p>En laddare ger 4,8 W till ett batteri under 5,0 timmar. Verkningsgraden är 80 %. Elpriset är 0,98 kr/kWh.</p><p>Vad kostar laddningen? Svara i öre.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Betala för den energi laddaren tar från elnätet, som är större än energin till batteriet. Omvandla Wh till kWh och kronor till öre.</p><div class=\"facit-matte\">\\[\\begin{gathered}E_\\mathrm{in}=\\frac{4{,}8\\cdot5{,}0}{0{,}80}=30\\,\\mathrm{Wh}=0{,}030\\,\\mathrm{kWh}\\\\ \\text{kostnad}=0{,}030\\cdot98=2{,}94\\,\\text{öre}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2,94 öre.</p></div></div>",
+        "fraga": "En laddare ger 4,8 W till ett batteri under 5,0 timmar. Verkningsgraden är 80 % och elpriset 0,98 kr/kWh. Vad kostar elen till laddaren? Svara i öre. Svara med tre värdesiffror.",
+        "t": "<p>En laddare ger 4,8 W till ett batteri under 5,0 timmar. Verkningsgraden är 80 % och elpriset 0,98 kr/kWh. Vad kostar elen till laddaren? Svara i öre. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Batteriet får effekten gånger tiden i Wh. Laddaren tar mer energi från elnätet eftersom verkningsgraden är 80 %.</p>\\[E_\\text{batteri}=4{,}8\\cdot5{,}0=24\\,\\mathrm{Wh}\\]\\[E_\\text{in}=\\frac{24}{0{,}80}=30\\,\\mathrm{Wh}=0{,}030\\,\\mathrm{kWh}\\]<p>Elpriset är 0,98 kr/kWh = 98 öre/kWh.</p>\\[\\text{kostnad}=0{,}030\\cdot98=2{,}94\\,\\text{öre}\\]</div>",
         "ledtrad": "<p>Tillförd energi i kWh.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136618,14 +136618,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket energi går förlorad till omgivningen? Svara i J.",
-        "t": "<p>En spisplatta tar 1,2 kW från elnätet under 28 minuter. Av energin går 90 % till att värma kastrullen och dess innehåll.</p><p>Hur mycket energi går förlorad till omgivningen? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Förlusten är de återstående 10 % av den tillförda energin. Använd W och sekunder för att få J.</p><div class=\"facit-matte\">\\[E_\\mathrm{förlust}=0{,}10\\cdot1200\\cdot(28\\cdot60)=201600\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 202 000 J.</p></div></div>",
+        "fraga": "En spisplatta tar emot 1,2 kW från elnätet under 28 minuter. 90 % av energin värmer kastrullen och dess innehåll. Hur mycket energi går till omgivningen? Svara i J. Svara med tre värdesiffror.",
+        "t": "<p>En spisplatta tar emot 1,2 kW från elnätet under 28 minuter. 90 % av energin värmer kastrullen och dess innehåll. Hur mycket energi går till omgivningen? Svara i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten till 1200 W och tiden till 28 · 60 = 1680 s. De återstående 10 % går till omgivningen.</p>\\[E_\\text{in}=1200\\cdot1680=2016000\\,\\mathrm J\\]\\[E_\\text{omgivning}=0{,}10\\cdot2016000=201600\\,\\mathrm J\\]<p>Med tre värdesiffror: 202 000 J.</p></div>",
         "ledtrad": "<p>Förlusten är 10 %.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
@@ -136640,8 +136640,8 @@ window.BANK = [
     "niva": "C",
     "typ": "vindkraft mot kärnkraft",
     "poang": "(1/1/0)",
-    "t": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift, vilket det är 90 % av året (8 760 h).</p><ol type=\"a\"><li>Hur mycket energi ger verket per år? Svara i kWh.</li><li>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Energi är effekt gånger drifttid. Använd kW och timmar för att få kWh.</p><div class=\"facit-matte\">\\[E=3000\\cdot(0{,}90\\cdot8760)=23652000\\,\\mathrm{kWh}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 23 652 000 kWh, ungefär 24 miljoner kWh.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Ett verk ger 23 652 000 kWh per år. Dividera den önskade energin med detta. Avrunda uppåt, eftersom ett verk färre inte räcker.</p><div class=\"facit-matte\">\\[\\begin{gathered}N=\\frac{63\\cdot10^9}{3000\\cdot0{,}90\\cdot8760}\\approx2663{,}62\\\\\\Rightarrow\\  N_\\mathrm{min}=2664\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2664 vindkraftverk.</p></div></div></div></div></div>",
+    "t": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><ol type=\"a\"><li>Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.</li><li>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 3,0 MW till 3000 kW. Beräkna drifttiden och multiplicera med effekten.</p>\\[t=0{,}90\\cdot8760=7884\\,\\mathrm h\\]\\[E=Pt=3000\\cdot7884=23652000\\,\\mathrm{kWh}\\]<p>Med tre värdesiffror: 2,37 · 10⁷ kWh.</p><p><strong>b)</strong></p><p>Varje verk ger 3000 · 0,90 · 8760 = 23 652 000 kWh per år. Omvandla 63 TWh till 63 · 10⁹ kWh.</p>\\[N=\\frac{63\\cdot10^9}{23652000}\\approx2663{,}62\\]<p>Avrunda uppåt eftersom ett verk färre inte räcker: \\(N_\\text{min}=2664\\) verk.</p></div>",
     "id": "5.591",
     "miniräknare": true,
     "geogebra": false,
@@ -136652,7 +136652,7 @@ window.BANK = [
       2664
     ],
     "tolerans": [
-      510000.0,
+      50000.0,
       0
     ],
     "självrättning": true,
@@ -136673,24 +136673,24 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift, vilket det är 90 % av året (8 760 h).</p>",
+    "spelIntro": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi ger verket per år? Svara i kWh.",
-        "t": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur mycket energi ger verket per år? Svara i kWh.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Energi är effekt gånger drifttid. Använd kW och timmar för att få kWh.</p><div class=\"facit-matte\">\\[E=3000\\cdot(0{,}90\\cdot8760)=23652000\\,\\mathrm{kWh}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 23 652 000 kWh, ungefär 24 miljoner kWh.</p></div></div>",
+        "fraga": "Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.",
+        "t": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur mycket energi ger ett verk per år? Svara i kWh. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 3,0 MW till 3000 kW. Beräkna drifttiden och multiplicera med effekten.</p>\\[t=0{,}90\\cdot8760=7884\\,\\mathrm h\\]\\[E=Pt=3000\\cdot7884=23652000\\,\\mathrm{kWh}\\]<p>Med tre värdesiffror: 2,37 · 10⁷ kWh.</p></div>",
         "ledtrad": "<p>\\(E=Pt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år?",
-        "t": "<p>Ett vindkraftverk ger 3,0 MW när det är i drift. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Ett verk ger 23 652 000 kWh per år. Dividera den önskade energin med detta. Avrunda uppåt, eftersom ett verk färre inte räcker.</p><div class=\"facit-matte\">\\[\\begin{gathered}N=\\frac{63\\cdot10^9}{3000\\cdot0{,}90\\cdot8760}\\approx2663{,}62\\\\\\Rightarrow\\  N_\\mathrm{min}=2664\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2664 vindkraftverk.</p></div></div>",
+        "fraga": "Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.",
+        "t": "<p>I en modell ger varje vindkraftverk 3,0 MW när det är i drift och ingen energi övrig tid. Det är i drift 90 % av ett år med 8760 timmar.</p><p>Hur många hela verk behövs minst för att ge sammanlagt 63 TWh per år? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje verk ger 3000 · 0,90 · 8760 = 23 652 000 kWh per år. Omvandla 63 TWh till 63 · 10⁹ kWh.</p>\\[N=\\frac{63\\cdot10^9}{23652000}\\approx2663{,}62\\]<p>Avrunda uppåt eftersom ett verk färre inte räcker: \\(N_\\text{min}=2664\\) verk.</p></div>",
         "ledtrad": "<p>Dela total energi med ett verks energi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136710,24 +136710,24 @@ window.BANK = [
     "niva": "C",
     "typ": "lyft med verkningsgrad",
     "poang": "(0/4/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><ol type=\"a\"><li>En hiss på 600 kg lyfts 10 m på 12 s. Hissen är stilla före och efter lyftet. Verkningsgraden är 83 %. Hur stor tillförd medeleffekt behövs? Svara i W.</li><li>En brandman på 89 kg klättrar 12,0 m på 8,0 s. Kroppen omvandlar 20 % av den använda energin till ökad lägesenergi. Hur stor är kroppens totala energianvändning per sekund i genomsnitt? Svara i W.</li><li>En lyftkrans motor tar emot effekten 25 kW. Av den går 85 % till lyftet. Kranen lyfter 600 kg lodrätt 20 m med konstant fart. Hur lång tid tar lyftet? Svara i s.</li><li>En krans motor tar emot effekten 7350 W. Av den går 60 % till att lyfta en last på 1,5 ton med konstant fart. Med vilken fart lyfts lasten? Svara i m/s.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Den nyttiga energin är ökningen i lägesenergi. Dividera med verkningsgraden för att få tillförd energi, och sedan med tiden.</p><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{mgh}{\\eta t}=\\frac{600\\cdot9{,}82\\cdot10}{0{,}83\\cdot12}\\approx5916\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5920 W.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Lägesenergin är bara 20 % av kroppens energianvändning. Dividera lägesenergin med tiden och med 0,20.</p><div class=\"facit-matte\">\\[P_\\mathrm{tot}=\\frac{89\\cdot9{,}82\\cdot12{,}0}{8{,}0\\cdot0{,}20}=6554{,}85\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6550 W.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Den nyttiga effekten är 85 % av 25 kW. Tiden är lyftarbetet delat med den nyttiga effekten.</p><div class=\"facit-matte\">\\[t=\\frac{mgh}{P_\\mathrm{nyttig}}=\\frac{600\\cdot9{,}82\\cdot20}{0{,}85\\cdot25000}\\approx5{,}55\\,\\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5,55 s.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Vid konstant fart är lyftkraften mg. Sambandet P = Fv ger farten. Omvandla först 1,5 ton till 1500 kg.</p><div class=\"facit-matte\">\\[v=\\frac{P_\\mathrm{nyttig}}{mg}=\\frac{0{,}60\\cdot7350}{1500\\cdot9{,}82}\\approx0{,}299\\,\\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,30 m/s.</p></div></div></div></div></div>",
+    "t": "<p>Använd g = 9,82 m/s². Den angivna verkningsgraden är andelen tillförd energi som blir lägesenergi.</p><ol type=\"a\"><li>En hiss på 600 kg utan motvikt lyfts 10 m på 12 s, från vila till vila. Verkningsgraden är 83 %. Bestäm tillförd medeleffekt i W. Svara med tre värdesiffror.</li><li>En brandman på 89 kg klättrar 12,0 m på 8,0 s. Av kroppens använda energi blir 20 % lägesenergi. Bestäm kroppens kemiska medeleffekt i W. Svara med tre värdesiffror.</li><li>En kranmotor tar emot 25 kW. Av detta blir 85 % nyttig effekt som lyfter en last på 600 kg. Lasten höjs rakt upp 20 m med konstant fart. Hur lång tid tar lyftet? Svara i s. Svara med tre värdesiffror.</li><li>En kranmotor tar emot 7350 W. Av detta blir 60 % nyttig effekt som lyfter en last på 1,5 ton med konstant fart. Bestäm lyftfarten i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hissen börjar och slutar i vila. Den nyttiga energin är lägesenergins ökning. Dividera med verkningsgraden för att få tillförd energi.</p>\\[\\Delta E_p=600\\cdot9{,}82\\cdot10=58920\\,\\mathrm J\\]\\[E_\\text{in}=\\frac{58920}{0{,}83}\\,\\mathrm J\\]\\[P_\\text{in}=\\frac{58920/0{,}83}{12}\\approx5920\\,\\mathrm W\\]<p><strong>b)</strong></p><p>Beräkna först effekten som går till ökad lägesenergi. Den utgör 20 % av kroppens kemiska effekt.</p>\\[\\Delta E_p=89\\cdot9{,}82\\cdot12{,}0=10487{,}76\\,\\mathrm J\\]\\[P_\\text{nyttig}=\\frac{10487{,}76}{8{,}0}=1310{,}97\\,\\mathrm W\\]\\[P_\\text{kemisk}=\\frac{1310{,}97}{0{,}20}\\approx6550\\,\\mathrm W\\]<p><strong>c)</strong></p><p>Omvandla 25 kW till 25 000 W. Beräkna nyttig effekt och lyftarbete.</p>\\[P_\\text{nyttig}=0{,}85\\cdot25000=21250\\,\\mathrm W\\]\\[W=600\\cdot9{,}82\\cdot20=117840\\,\\mathrm J\\]\\[t=\\frac W{P_\\text{nyttig}}=\\frac{117840}{21250}\\approx5{,}55\\,\\mathrm s\\]<p><strong>d)</strong></p><p>Massan är 1500 kg. Beräkna nyttig effekt och kraften som lyfter lasten med konstant fart.</p>\\[P_\\text{nyttig}=0{,}60\\cdot7350=4410\\,\\mathrm W\\]\\[F=mg=1500\\cdot9{,}82=14730\\,\\mathrm N\\]<p>Lös P = Fv för farten.</p>\\[v=\\frac{4410}{14730}\\approx0{,}299\\,\\mathrm{m/s}\\]</div>",
     "id": "5.592",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Verkningsgrad",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5915.6626506024095,
+      5915.66265060241,
       6554.849999999999,
       5.545411764705882,
       0.29938900203665986
     ],
     "tolerans": [
-      88.7,
-      98.3,
-      0.0832,
-      0.0051
+      5.0,
+      5.0,
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -136754,13 +136754,13 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Den angivna verkningsgraden är andelen tillförd energi som blir lägesenergi.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor tillförd medeleffekt behövs? Svara i W.",
-        "t": "<p>En hiss på 600 kg lyfts 10 m på 12 s. Hissen är stilla före och efter lyftet. Verkningsgraden är 83 %. Använd g = 9,82 m/s².</p><p>Hur stor tillförd medeleffekt behövs? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Den nyttiga energin är ökningen i lägesenergi. Dividera med verkningsgraden för att få tillförd energi, och sedan med tiden.</p><div class=\"facit-matte\">\\[P_\\mathrm{in}=\\frac{mgh}{\\eta t}=\\frac{600\\cdot9{,}82\\cdot10}{0{,}83\\cdot12}\\approx5916\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5920 W.</p></div></div>",
+        "fraga": "En hiss på 600 kg utan motvikt lyfts 10 m på 12 s, från vila till vila. Verkningsgraden är 83 %. Bestäm tillförd medeleffekt i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². </p><p>En hiss på 600 kg utan motvikt lyfts 10 m på 12 s, från vila till vila. Verkningsgraden är 83 %. Bestäm tillförd medeleffekt i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hissen börjar och slutar i vila. Den nyttiga energin är lägesenergins ökning. Dividera med verkningsgraden för att få tillförd energi.</p>\\[\\Delta E_p=600\\cdot9{,}82\\cdot10=58920\\,\\mathrm J\\]\\[E_\\text{in}=\\frac{58920}{0{,}83}\\,\\mathrm J\\]\\[P_\\text{in}=\\frac{58920/0{,}83}{12}\\approx5920\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136769,9 +136769,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är kroppens totala energianvändning per sekund i genomsnitt? Svara i W.",
-        "t": "<p>En brandman på 89 kg klättrar 12,0 m på 8,0 s. Kroppen omvandlar 20 % av den använda energin till ökad lägesenergi. Använd g = 9,82 m/s².</p><p>Hur stor är kroppens totala energianvändning per sekund i genomsnitt? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Lägesenergin är bara 20 % av kroppens energianvändning. Dividera lägesenergin med tiden och med 0,20.</p><div class=\"facit-matte\">\\[P_\\mathrm{tot}=\\frac{89\\cdot9{,}82\\cdot12{,}0}{8{,}0\\cdot0{,}20}=6554{,}85\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6550 W.</p></div></div>",
+        "fraga": "En brandman på 89 kg klättrar 12,0 m på 8,0 s. Av kroppens använda energi blir 20 % lägesenergi. Bestäm kroppens kemiska medeleffekt i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². </p><p>En brandman på 89 kg klättrar 12,0 m på 8,0 s. Av kroppens använda energi blir 20 % lägesenergi. Bestäm kroppens kemiska medeleffekt i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först effekten som går till ökad lägesenergi. Den utgör 20 % av kroppens kemiska effekt.</p>\\[\\Delta E_p=89\\cdot9{,}82\\cdot12{,}0=10487{,}76\\,\\mathrm J\\]\\[P_\\text{nyttig}=\\frac{10487{,}76}{8{,}0}=1310{,}97\\,\\mathrm W\\]\\[P_\\text{kemisk}=\\frac{1310{,}97}{0{,}20}\\approx6550\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136780,9 +136780,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång tid tar lyftet? Svara i s.",
-        "t": "<p>En lyftkrans motor tar emot effekten 25 kW. Av den går 85 % till lyftet. Kranen lyfter 600 kg lodrätt 20 m med konstant fart. Använd g = 9,82 m/s².</p><p>Hur lång tid tar lyftet? Svara i s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Den nyttiga effekten är 85 % av 25 kW. Tiden är lyftarbetet delat med den nyttiga effekten.</p><div class=\"facit-matte\">\\[t=\\frac{mgh}{P_\\mathrm{nyttig}}=\\frac{600\\cdot9{,}82\\cdot20}{0{,}85\\cdot25000}\\approx5{,}55\\,\\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5,55 s.</p></div></div>",
+        "fraga": "En kranmotor tar emot 25 kW. Av detta blir 85 % nyttig effekt som lyfter en last på 600 kg. Lasten höjs rakt upp 20 m med konstant fart. Hur lång tid tar lyftet? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². </p><p>En kranmotor tar emot 25 kW. Av detta blir 85 % nyttig effekt som lyfter en last på 600 kg. Lasten höjs rakt upp 20 m med konstant fart. Hur lång tid tar lyftet? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 25 kW till 25 000 W. Beräkna nyttig effekt och lyftarbete.</p>\\[P_\\text{nyttig}=0{,}85\\cdot25000=21250\\,\\mathrm W\\]\\[W=600\\cdot9{,}82\\cdot20=117840\\,\\mathrm J\\]\\[t=\\frac W{P_\\text{nyttig}}=\\frac{117840}{21250}\\approx5{,}55\\,\\mathrm s\\]</div>",
         "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136791,9 +136791,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Med vilken fart lyfts lasten? Svara i m/s.",
-        "t": "<p>En krans motor tar emot effekten 7350 W. Av den går 60 % till att lyfta en last på 1,5 ton med konstant fart. Använd g = 9,82 m/s².</p><p>Med vilken fart lyfts lasten? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Vid konstant fart är lyftkraften mg. Sambandet P = Fv ger farten. Omvandla först 1,5 ton till 1500 kg.</p><div class=\"facit-matte\">\\[v=\\frac{P_\\mathrm{nyttig}}{mg}=\\frac{0{,}60\\cdot7350}{1500\\cdot9{,}82}\\approx0{,}299\\,\\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,30 m/s.</p></div></div>",
+        "fraga": "En kranmotor tar emot 7350 W. Av detta blir 60 % nyttig effekt som lyfter en last på 1,5 ton med konstant fart. Bestäm lyftfarten i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². </p><p>En kranmotor tar emot 7350 W. Av detta blir 60 % nyttig effekt som lyfter en last på 1,5 ton med konstant fart. Bestäm lyftfarten i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1500 kg. Beräkna nyttig effekt och kraften som lyfter lasten med konstant fart.</p>\\[P_\\text{nyttig}=0{,}60\\cdot7350=4410\\,\\mathrm W\\]\\[F=mg=1500\\cdot9{,}82=14730\\,\\mathrm N\\]<p>Lös P = Fv för farten.</p>\\[v=\\frac{4410}{14730}\\approx0{,}299\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>\\(P=Fv\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136804,7 +136804,7 @@ window.BANK = [
     "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__verkningsgrad",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -136813,8 +136813,8 @@ window.BANK = [
     "niva": "C",
     "typ": "batteri till vinsch",
     "poang": "(0/1/0)",
-    "t": "<p>Ett batteri innehåller 0,50 kWh energi. En vinsch använder batteriet för att lyfta en last på 55 kg lodrätt 15 m, från vila till vila. Av batteriets energi går 60 % till att lyfta lasten. Använd g = 9,82 m/s². Hur många hela lyft räcker energin till?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Räkna om batteriets energi till joule och ta 60 % av den. Varje lyft kräver arbetet mgh. Avrunda antalet nedåt, eftersom energin måste räcka till hela lyftet.</p><div class=\"facit-matte\">\\[\\begin{gathered}E_\\mathrm{nyttig}=0{,}60\\cdot0{,}50\\cdot3{,}6\\cdot10^6=1080000\\,\\mathrm J\\\\N=\\frac{1080000}{55\\cdot9{,}82\\cdot15}\\approx133{,}3\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 133 hela lyft.</p></div></div>",
+    "t": "<p>Ett batteri lagrar 0,50 kWh. En vinsch använder batteriet för att lyfta en last på 55 kg rakt upp 15 m, från vila till vila. Av batteriets energi blir 60 % lägesenergi. Använd g = 9,82 m/s². Hur många hela lyft räcker energin högst till?</p><p>Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla batteriets energi till J och ta 60 % av den.</p>\\[E_\\text{batteri}=0{,}50\\cdot3{,}6\\cdot10^6=1800000\\,\\mathrm J\\]\\[E_\\text{nyttig}=0{,}60\\cdot1800000=1080000\\,\\mathrm J\\]<p>Varje helt lyft kräver arbetet mgh.</p>\\[W_\\text{lyft}=55\\cdot9{,}82\\cdot15=8101{,}5\\,\\mathrm J\\]\\[N=\\frac{1080000}{8101{,}5}\\approx133{,}309\\]<p>Avrunda nedåt eftersom energin måste räcka till hela lyftet: \\(N_\\text{max}=133\\) hela lyft.</p></div>",
     "id": "5.593",
     "miniräknare": true,
     "geogebra": false,
@@ -136840,24 +136840,24 @@ window.BANK = [
     "niva": "C",
     "typ": "pumpar och vatten",
     "poang": "(0/4/0)",
-    "t": "<ol type=\"a\"><li><p>En pump lyfter 5,0 m³ vatten 20 m och tar emot 1,3 MJ elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm verkningsgraden, det vill säga andelen tillförd energi som blir ökad lägesenergi. Svara i procent.</p></li><li><p>En pump ska tömma en bassäng med 75 m³ vatten. Vattnet lyfts i genomsnitt 2,4 m. Pumpen tar emot 1,0 kW elektrisk effekt, och 80 % går till lyftet. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur lång tid tar tömningen? Svara i minuter.</p></li><li><p>En pump tar emot 2,5 kW elektrisk effekt. Av den går 60 % till att lyfta vatten 30 m. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Vilken volym vatten kan pumpen lyfta på en timme? Svara i m³.</p></li><li><p>En pump lyfter 1890 m³ avloppsvatten 5,49 m under ett dygn. Avloppsvattnets densitet är 1050 kg/m³. Pumpen tar emot en konstant elektrisk effekt på 5,90 kW. Använd g = 9,82 m/s². Bestäm verkningsgraden. Svara i procent.</p></li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Vattnets massa är densitet gånger volym. Den nyttiga energin är ökningen i lägesenergi. Dividera den med den tillförda energin.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=1000\\cdot5{,}0=5000\\,\\mathrm{kg}\\\\\\eta=\\frac{5000\\cdot9{,}82\\cdot20}{1{,}3\\cdot10^6}\\approx0{,}755\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 76 %.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>75 m³ vatten har massan 75 000 kg. Den nyttiga effekten är 800 W. Dela lyftarbetet med den nyttiga effekten och räkna om sekunder till minuter.</p><div class=\"facit-matte\">\\[t=\\frac{75000\\cdot9{,}82\\cdot2{,}4}{800\\cdot60}=36{,}825\\,\\mathrm{min}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 37 min.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Under en timme går den nyttiga energin till vattnets lägesenergi. En kubikmeter har massan 1000 kg, så arbetet per kubikmeter är 1000gh.</p><div class=\"facit-matte\">\\[V=\\frac{0{,}60\\cdot2500\\cdot3600}{1000\\cdot9{,}82\\cdot30}\\approx18{,}33\\,\\mathrm{m^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 18 m³.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><p>Använd avloppsvattnets densitet för att få massan. Den nyttiga energin är mgh, och den tillförda energin är effekt gånger tid. Ett dygn är 86 400 s.</p><div class=\"facit-matte\">\\[\\eta=\\frac{1890\\cdot1050\\cdot9{,}82\\cdot5{,}49}{5900\\cdot86400}\\approx0{,}210\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 21 %.</p></div></div></div></div>",
+    "t": "<p>Använd g = 9,82 m/s². Vattnets ändring i lägesenergi är den nyttiga energin i pumpningen.</p><ol type=\"a\"><li>En pump höjer 5,0 m³ vatten 20 m och tar emot 1,3 MJ elektrisk energi. Densiteten är 1000 kg/m³. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li><li>En pump tömmer 75 m³ vatten från en bassäng. Vattnet höjs i genomsnitt 2,4 m. Pumpen tar emot 1,0 kW elektrisk effekt och 80 % går till lyftet. Densiteten är 1000 kg/m³. Hur lång tid tar tömningen? Svara i minuter. Svara med tre värdesiffror.</li><li>En pump tar emot 2,5 kW elektrisk effekt. Av detta går 60 % till att höja vatten 30 m. Densiteten är 1000 kg/m³. Vilken volym vatten kan höjas på en timme? Svara i m³. Svara med tre värdesiffror.</li><li>En pump höjer 1890 m³ avloppsvatten 5,49 m under ett dygn. Densiteten är 1050 kg/m³. Pumpen tar emot 5,90 kW elektrisk effekt hela dygnet. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna massan och lägesenergin. Den tillförda energin är 1,3 · 10⁶ J.</p>\\[m=1000\\cdot5{,}0=5000\\,\\mathrm{kg}\\]\\[E_\\text{nyttig}=5000\\cdot9{,}82\\cdot20=982000\\,\\mathrm J\\]\\[\\eta=\\frac{982000}{1{,}3\\cdot10^6}\\cdot100\\,\\%\\approx75{,}5\\,\\%\\]<p><strong>b)</strong></p><p>Beräkna massan, arbetet som höjer vattnet och den nyttiga effekten.</p>\\[m=1000\\cdot75=75000\\,\\mathrm{kg}\\]\\[W=75000\\cdot9{,}82\\cdot2{,}4=1767600\\,\\mathrm J\\]\\[P_\\text{nyttig}=0{,}80\\cdot1000=800\\,\\mathrm W\\]\\[t=\\frac{1767600}{800}=2209{,}5\\,\\mathrm s\\]<p>Dividera med 60 för att få minuter.</p>\\[t=\\frac{2209{,}5}{60}\\approx36{,}8\\,\\mathrm{min}\\]<p><strong>c)</strong></p><p>En timme är 3600 s. Beräkna nyttig effekt och energin som höjer vattnet.</p>\\[P_\\text{nyttig}=0{,}60\\cdot2500=1500\\,\\mathrm W\\]\\[E_\\text{nyttig}=1500\\cdot3600=5400000\\,\\mathrm J\\]<p>Energin ger först den möjliga massan. Dividera sedan med densiteten för att få volymen.</p>\\[m=\\frac{5400000}{9{,}82\\cdot30}\\approx18329{,}939\\,\\mathrm{kg}\\]\\[V=\\frac{m}{1000}\\approx18{,}3\\,\\mathrm{m^3}\\]<p><strong>d)</strong></p><p>Ett dygn är 86 400 s. Beräkna avloppsvattnets massa, nyttig energi och tillförd energi.</p>\\[m=1890\\cdot1050=1984500\\,\\mathrm{kg}\\]\\[\\begin{gathered}E_\\text{nyttig}=1984500\\cdot9{,}82\\cdot5{,}49\\\\=106991961{,}9\\,\\mathrm J\\end{gathered}\\]\\[E_\\text{in}=5900\\cdot86400=509760000\\,\\mathrm J\\]\\[\\eta=\\frac{106991961{,}9}{509760000}\\cdot100\\,\\%\\approx21{,}0\\,\\%\\]</div>",
     "id": "5.594",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Verkningsgrad",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      75.53846153846153,
+      75.53846153846155,
       36.825,
       18.329938900203665,
       20.987909427966102
     ],
     "tolerans": [
-      1.13,
-      0.552,
-      0.51,
-      0.51
+      0.05,
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -136884,13 +136884,13 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "",
+    "spelIntro": "<p>Använd g = 9,82 m/s². Vattnets ändring i lägesenergi är den nyttiga energin i pumpningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En pump lyfter 5,0 m³ vatten 20 m och tar emot 1,3 MJ elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm verkningsgraden, det vill säga andelen tillförd energi som blir ökad lägesenergi. Svara i procent.",
-        "t": "<p>En pump lyfter 5,0 m³ vatten 20 m och tar emot 1,3 MJ elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm verkningsgraden, det vill säga andelen tillförd energi som blir ökad lägesenergi. Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Vattnets massa är densitet gånger volym. Den nyttiga energin är ökningen i lägesenergi. Dividera den med den tillförda energin.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=1000\\cdot5{,}0=5000\\,\\mathrm{kg}\\\\\\eta=\\frac{5000\\cdot9{,}82\\cdot20}{1{,}3\\cdot10^6}\\approx0{,}755\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 76 %.</p></div></div>",
+        "fraga": "En pump höjer 5,0 m³ vatten 20 m och tar emot 1,3 MJ elektrisk energi. Densiteten är 1000 kg/m³. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Vattnets ändring i lägesenergi är den nyttiga energin i pumpningen.</p><p>En pump höjer 5,0 m³ vatten 20 m och tar emot 1,3 MJ elektrisk energi. Densiteten är 1000 kg/m³. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna massan och lägesenergin. Den tillförda energin är 1,3 · 10⁶ J.</p>\\[m=1000\\cdot5{,}0=5000\\,\\mathrm{kg}\\]\\[E_\\text{nyttig}=5000\\cdot9{,}82\\cdot20=982000\\,\\mathrm J\\]\\[\\eta=\\frac{982000}{1{,}3\\cdot10^6}\\cdot100\\,\\%\\approx75{,}5\\,\\%\\]</div>",
         "ledtrad": "<p>Använd nyttig energi dividerad med tillförd energi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136899,9 +136899,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En pump ska tömma en bassäng med 75 m³ vatten. Vattnet lyfts i genomsnitt 2,4 m. Pumpen tar emot 1,0 kW elektrisk effekt, och 80 % går till lyftet. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur lång tid tar tömningen? Svara i minuter.",
-        "t": "<p>En pump ska tömma en bassäng med 75 m³ vatten. Vattnet lyfts i genomsnitt 2,4 m. Pumpen tar emot 1,0 kW elektrisk effekt, och 80 % går till lyftet. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur lång tid tar tömningen? Svara i minuter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>75 m³ vatten har massan 75 000 kg. Den nyttiga effekten är 800 W. Dela lyftarbetet med den nyttiga effekten och räkna om sekunder till minuter.</p><div class=\"facit-matte\">\\[t=\\frac{75000\\cdot9{,}82\\cdot2{,}4}{800\\cdot60}=36{,}825\\,\\mathrm{min}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 37 min.</p></div></div>",
+        "fraga": "En pump tömmer 75 m³ vatten från en bassäng. Vattnet höjs i genomsnitt 2,4 m. Pumpen tar emot 1,0 kW elektrisk effekt och 80 % går till lyftet. Densiteten är 1000 kg/m³. Hur lång tid tar tömningen? Svara i minuter. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Vattnets ändring i lägesenergi är den nyttiga energin i pumpningen.</p><p>En pump tömmer 75 m³ vatten från en bassäng. Vattnet höjs i genomsnitt 2,4 m. Pumpen tar emot 1,0 kW elektrisk effekt och 80 % går till lyftet. Densiteten är 1000 kg/m³. Hur lång tid tar tömningen? Svara i minuter. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna massan, arbetet som höjer vattnet och den nyttiga effekten.</p>\\[m=1000\\cdot75=75000\\,\\mathrm{kg}\\]\\[W=75000\\cdot9{,}82\\cdot2{,}4=1767600\\,\\mathrm J\\]\\[P_\\text{nyttig}=0{,}80\\cdot1000=800\\,\\mathrm W\\]\\[t=\\frac{1767600}{800}=2209{,}5\\,\\mathrm s\\]<p>Dividera med 60 för att få minuter.</p>\\[t=\\frac{2209{,}5}{60}\\approx36{,}8\\,\\mathrm{min}\\]</div>",
         "ledtrad": "<p>Bestäm lyftarbetet och den effekt som går till lyftet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136910,9 +136910,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En pump tar emot 2,5 kW elektrisk effekt. Av den går 60 % till att lyfta vatten 30 m. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Vilken volym vatten kan pumpen lyfta på en timme? Svara i m³.",
-        "t": "<p>En pump tar emot 2,5 kW elektrisk effekt. Av den går 60 % till att lyfta vatten 30 m. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Vilken volym vatten kan pumpen lyfta på en timme? Svara i m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Under en timme går den nyttiga energin till vattnets lägesenergi. En kubikmeter har massan 1000 kg, så arbetet per kubikmeter är 1000gh.</p><div class=\"facit-matte\">\\[V=\\frac{0{,}60\\cdot2500\\cdot3600}{1000\\cdot9{,}82\\cdot30}\\approx18{,}33\\,\\mathrm{m^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 18 m³.</p></div></div>",
+        "fraga": "En pump tar emot 2,5 kW elektrisk effekt. Av detta går 60 % till att höja vatten 30 m. Densiteten är 1000 kg/m³. Vilken volym vatten kan höjas på en timme? Svara i m³. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Vattnets ändring i lägesenergi är den nyttiga energin i pumpningen.</p><p>En pump tar emot 2,5 kW elektrisk effekt. Av detta går 60 % till att höja vatten 30 m. Densiteten är 1000 kg/m³. Vilken volym vatten kan höjas på en timme? Svara i m³. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En timme är 3600 s. Beräkna nyttig effekt och energin som höjer vattnet.</p>\\[P_\\text{nyttig}=0{,}60\\cdot2500=1500\\,\\mathrm W\\]\\[E_\\text{nyttig}=1500\\cdot3600=5400000\\,\\mathrm J\\]<p>Energin ger först den möjliga massan. Dividera sedan med densiteten för att få volymen.</p>\\[m=\\frac{5400000}{9{,}82\\cdot30}\\approx18329{,}939\\,\\mathrm{kg}\\]\\[V=\\frac{m}{1000}\\approx18{,}3\\,\\mathrm{m^3}\\]</div>",
         "ledtrad": "<p>Beräkna den nyttiga energin under en timme. Dela med arbetet per kubikmeter.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136921,9 +136921,9 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En pump lyfter 1890 m³ avloppsvatten 5,49 m under ett dygn. Avloppsvattnets densitet är 1050 kg/m³. Pumpen tar emot en konstant elektrisk effekt på 5,90 kW. Använd g = 9,82 m/s². Bestäm verkningsgraden. Svara i procent.",
-        "t": "<p>En pump lyfter 1890 m³ avloppsvatten 5,49 m under ett dygn. Avloppsvattnets densitet är 1050 kg/m³. Pumpen tar emot en konstant elektrisk effekt på 5,90 kW. Använd g = 9,82 m/s². Bestäm verkningsgraden. Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Använd avloppsvattnets densitet för att få massan. Den nyttiga energin är mgh, och den tillförda energin är effekt gånger tid. Ett dygn är 86 400 s.</p><div class=\"facit-matte\">\\[\\eta=\\frac{1890\\cdot1050\\cdot9{,}82\\cdot5{,}49}{5900\\cdot86400}\\approx0{,}210\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 21 %.</p></div></div>",
+        "fraga": "En pump höjer 1890 m³ avloppsvatten 5,49 m under ett dygn. Densiteten är 1050 kg/m³. Pumpen tar emot 5,90 kW elektrisk effekt hela dygnet. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s². Vattnets ändring i lägesenergi är den nyttiga energin i pumpningen.</p><p>En pump höjer 1890 m³ avloppsvatten 5,49 m under ett dygn. Densiteten är 1050 kg/m³. Pumpen tar emot 5,90 kW elektrisk effekt hela dygnet. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ett dygn är 86 400 s. Beräkna avloppsvattnets massa, nyttig energi och tillförd energi.</p>\\[m=1890\\cdot1050=1984500\\,\\mathrm{kg}\\]\\[\\begin{gathered}E_\\text{nyttig}=1984500\\cdot9{,}82\\cdot5{,}49\\\\=106991961{,}9\\,\\mathrm J\\end{gathered}\\]\\[E_\\text{in}=5900\\cdot86400=509760000\\,\\mathrm J\\]\\[\\eta=\\frac{106991961{,}9}{509760000}\\cdot100\\,\\%\\approx21{,}0\\,\\%\\]</div>",
         "ledtrad": "<p>Jämför vattnets ökade lägesenergi med den elektriska energin under ett dygn.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -136934,17 +136934,17 @@ window.BANK = [
     "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__verkningsgrad",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "vattenkraft",
-    "poang": "(1/3/1)",
-    "t": "<ol type=\"a\"><li><p>I ett vattenkraftverk faller 450 m³ vatten per sekund en höjd på 75 m. Av vattnets minskade lägesenergi blir 90 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur stor elektrisk effekt ger kraftverket? Svara i W.</p></li><li><p>Ett vattenkraftverk ska ge 500 kW elektrisk effekt. Fallhöjden är 3,0 m. Av vattnets minskade lägesenergi blir 65 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur många m³ vatten måste passera per sekund? Svara i m³/s.</p></li><li><p>Ett vattenmagasin har ytan 2,0 km². Vattenytan sjunker 5,0 cm på ett dygn när vatten släpps genom ett kraftverk. Räkna med konstant fallhöjd 20 m. Av vattnets minskade lägesenergi blir 75 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm kraftverkets elektriska medeleffekt under dygnet. Svara i W.</p></li><li><p>En sjö med ytan 500 km² ger vatten till ett kraftverk. Verket ger konstant 120 MW elektrisk effekt. Fallhöjden är 18,5 m och verkningsgraden 75 %. Räkna med konstant fallhöjd och inget tillflöde till sjön. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur mycket sjunker vattenytan på ett dygn? Svara i m.</p></li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Varje sekund faller 450 000 kg vatten. Beräkna dess minskning i lägesenergi och ta 90 % av den. Energi per sekund är effekt.</p><div class=\"facit-matte\">\\[P_\\mathrm{el}=0{,}90\\cdot450000\\cdot9{,}82\\cdot75=298282500\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,0 · 10⁸ W.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Varje kubikmeter kan ge den elektriska energin 0,65 · 1000gh. Dela den önskade energin per sekund med energin per kubikmeter.</p><div class=\"facit-matte\">\\[Q=\\frac{500000}{0{,}65\\cdot1000\\cdot9{,}82\\cdot3{,}0}\\approx26{,}11\\,\\mathrm{m^3/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 26 m³/s.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Ytan gånger sänkningen ger vattenvolymen: 100 000 m³. Beräkna vattnets massa och nyttiga energi. Medeleffekten är denna energi dividerad med 86 400 s.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=2{,}0\\cdot10^6\\cdot0{,}050\\cdot1000=10^8\\,\\mathrm{kg}\\\\P_\\mathrm{medel}=\\frac{0{,}75\\cdot10^8\\cdot9{,}82\\cdot20}{86400}\\approx170486\\,\\mathrm W\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,7 · 10⁵ W.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><p>Beräkna hur mycket elektrisk energi verket ger på ett dygn. Dividera med 0,75gh för att få vattenmassan. Volymen är massan delad med densiteten; sänkningen är volymen delad med sjöns yta.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=\\frac{120\\cdot10^6\\cdot86400}{0{,}75\\cdot9{,}82\\cdot18{,}5}\\\\\\Delta h=\\frac{m}{1000\\cdot500\\cdot10^6}\\approx0{,}152\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,15 m.</p></div></div></div></div>",
+    "poang": "(0/4/0)",
+    "t": "<p>Använd g = 9,82 m/s² och vattnets densitet 1000 kg/m³. Den angivna verkningsgraden är andelen av vattnets minskade lägesenergi som blir el.</p><ol type=\"a\"><li>I ett vattenkraftverk faller 450 m³ vatten per sekund 75 m. Verkningsgraden är 90 %. Bestäm eleffekten i W. Svara med tre värdesiffror.</li><li>Ett vattenkraftverk ska ge 500 kW eleffekt. Fallhöjden är 3,0 m och verkningsgraden 65 %. Hur många m³ vatten måste passera per sekund? Svara i m³/s. Svara med tre värdesiffror.</li><li>Ett vattenmagasin har ytan 2,0 km². Vattenytan sjunker 5,0 cm på ett dygn när vatten släpps genom ett kraftverk. Räkna med konstant fallhöjd 20 m och verkningsgrad 75 %. Bestäm medeleffekten i W. Svara med tre värdesiffror.</li><li>En sjö med ytan 500 km² ger vatten till ett kraftverk. Eleffekten är konstant 120 MW, fallhöjden 18,5 m och verkningsgraden 75 %. Räkna med konstant fallhöjd och att inget annat vatten tillkommer eller försvinner. Hur mycket sjunker sjöns vattenyta under ett dygn? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Varje sekund passerar massan 450 · 1000 = 450 000 kg. Beräkna lägesenergins minskning för en sekunds vatten.</p>\\[\\begin{gathered}E_\\text{vatten}=450000\\cdot9{,}82\\cdot75\\\\=331425000\\,\\mathrm J\\end{gathered}\\]<p>90 % blir el. Energi per sekund är effekt.</p>\\[P_\\text{el}=0{,}90\\cdot331425000=298282500\\,\\mathrm W\\]<p>Med tre värdesiffror: 2,98 · 10⁸ W.</p><p><strong>b)</strong></p><p>Varje kubikmeter har massan 1000 kg. Beräkna den elenergi en kubikmeter ger.</p>\\[\\begin{gathered}E_\\text{el,per m³}=0{,}65\\cdot1000\\cdot9{,}82\\cdot3{,}0\\\\=19149\\,\\mathrm J\\end{gathered}\\]<p>500 kW betyder 500 000 J elenergi varje sekund. Dividera detta med energin från en kubikmeter.</p>\\[Q=\\frac{500000}{19149}\\approx26{,}1\\,\\mathrm{m^3/s}\\]<p><strong>c)</strong></p><p>Omvandla ytan och sänkningen: 2,0 km² = 2,0 · 10⁶ m² och 5,0 cm = 0,050 m. Yta gånger sänkning ger vattenvolymen.</p>\\[V=2{,}0\\cdot10^6\\cdot0{,}050=100000\\,\\mathrm{m^3}\\]\\[m=1000\\cdot100000=10^8\\,\\mathrm{kg}\\]\\[\\begin{gathered}E_\\text{el}=0{,}75\\cdot10^8\\cdot9{,}82\\cdot20\\\\=14730000000\\,\\mathrm J\\end{gathered}\\]<p>Ett dygn är 86 400 s. Dividera energin med tiden.</p>\\[P_\\text{medel}=\\frac{14730000000}{86400}\\approx170000\\,\\mathrm W\\]<p><strong>d)</strong></p><p>Omvandla effekten och tiden: 120 MW = 120 · 10⁶ W och ett dygn är 86 400 s. Beräkna elenergin.</p>\\[E_\\text{el}=120\\cdot10^6\\cdot86400=1{,}0368\\cdot10^{13}\\,\\mathrm J\\]<p>Varje kilogram vatten ger elenergin 0,75gh. Dividera elenergin med detta för att få vattenmassan. Volymen är massan delad med densiteten.</p>\\[m=\\frac{1{,}0368\\cdot10^{13}}{0{,}75\\cdot9{,}82\\cdot18{,}5}\\,\\mathrm{kg}\\]\\[V=\\frac{m}{1000}\\,\\mathrm{m^3}\\]<p>Sjöns yta är 500 km² = 500 · 10⁶ m². Volym delad med yta ger sänkningen.</p>\\[\\Delta h=\\frac{1{,}0368\\cdot10^{13}}{0{,}75\\cdot9{,}82\\cdot18{,}5\\cdot1000\\cdot500\\cdot10^6}\\]\\[\\Delta h\\approx0{,}152\\,\\mathrm m\\]</div>",
     "id": "5.595",
     "miniräknare": true,
     "geogebra": false,
@@ -136957,10 +136957,10 @@ window.BANK = [
       0.15218803324709637
     ],
     "tolerans": [
-      5100000.0,
-      0.51,
-      5100.0,
-      0.0051
+      500000.0,
+      0.05,
+      500.0,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -136987,24 +136987,24 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "",
+    "spelIntro": "<p>Använd g = 9,82 m/s² och vattnets densitet 1000 kg/m³. Den angivna verkningsgraden är andelen av vattnets minskade lägesenergi som blir el.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "I ett vattenkraftverk faller 450 m³ vatten per sekund en höjd på 75 m. Av vattnets minskade lägesenergi blir 90 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur stor elektrisk effekt ger kraftverket? Svara i W.",
-        "t": "<p>I ett vattenkraftverk faller 450 m³ vatten per sekund en höjd på 75 m. Av vattnets minskade lägesenergi blir 90 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur stor elektrisk effekt ger kraftverket? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Varje sekund faller 450 000 kg vatten. Beräkna dess minskning i lägesenergi och ta 90 % av den. Energi per sekund är effekt.</p><div class=\"facit-matte\">\\[P_\\mathrm{el}=0{,}90\\cdot450000\\cdot9{,}82\\cdot75=298282500\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,0 · 10⁸ W.</p></div></div>",
+        "fraga": "I ett vattenkraftverk faller 450 m³ vatten per sekund 75 m. Verkningsgraden är 90 %. Bestäm eleffekten i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och vattnets densitet 1000 kg/m³. Den angivna verkningsgraden är andelen av vattnets minskade lägesenergi som blir el.</p><p>I ett vattenkraftverk faller 450 m³ vatten per sekund 75 m. Verkningsgraden är 90 %. Bestäm eleffekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje sekund passerar massan 450 · 1000 = 450 000 kg. Beräkna lägesenergins minskning för en sekunds vatten.</p>\\[\\begin{gathered}E_\\text{vatten}=450000\\cdot9{,}82\\cdot75\\\\=331425000\\,\\mathrm J\\end{gathered}\\]<p>90 % blir el. Energi per sekund är effekt.</p>\\[P_\\text{el}=0{,}90\\cdot331425000=298282500\\,\\mathrm W\\]<p>Med tre värdesiffror: 2,98 · 10⁸ W.</p></div>",
         "ledtrad": "<p>Beräkna hur mycket lägesenergi vattnet förlorar varje sekund.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Ett vattenkraftverk ska ge 500 kW elektrisk effekt. Fallhöjden är 3,0 m. Av vattnets minskade lägesenergi blir 65 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur många m³ vatten måste passera per sekund? Svara i m³/s.",
-        "t": "<p>Ett vattenkraftverk ska ge 500 kW elektrisk effekt. Fallhöjden är 3,0 m. Av vattnets minskade lägesenergi blir 65 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur många m³ vatten måste passera per sekund? Svara i m³/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Varje kubikmeter kan ge den elektriska energin 0,65 · 1000gh. Dela den önskade energin per sekund med energin per kubikmeter.</p><div class=\"facit-matte\">\\[Q=\\frac{500000}{0{,}65\\cdot1000\\cdot9{,}82\\cdot3{,}0}\\approx26{,}11\\,\\mathrm{m^3/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 26 m³/s.</p></div></div>",
+        "fraga": "Ett vattenkraftverk ska ge 500 kW eleffekt. Fallhöjden är 3,0 m och verkningsgraden 65 %. Hur många m³ vatten måste passera per sekund? Svara i m³/s. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och vattnets densitet 1000 kg/m³. Den angivna verkningsgraden är andelen av vattnets minskade lägesenergi som blir el.</p><p>Ett vattenkraftverk ska ge 500 kW eleffekt. Fallhöjden är 3,0 m och verkningsgraden 65 %. Hur många m³ vatten måste passera per sekund? Svara i m³/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje kubikmeter har massan 1000 kg. Beräkna den elenergi en kubikmeter ger.</p>\\[\\begin{gathered}E_\\text{el,per m³}=0{,}65\\cdot1000\\cdot9{,}82\\cdot3{,}0\\\\=19149\\,\\mathrm J\\end{gathered}\\]<p>500 kW betyder 500 000 J elenergi varje sekund. Dividera detta med energin från en kubikmeter.</p>\\[Q=\\frac{500000}{19149}\\approx26{,}1\\,\\mathrm{m^3/s}\\]</div>",
         "ledtrad": "<p>Hur mycket elektrisk energi kan en kubikmeter vatten ge?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137013,9 +137013,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Ett vattenmagasin har ytan 2,0 km². Vattenytan sjunker 5,0 cm på ett dygn när vatten släpps genom ett kraftverk. Räkna med konstant fallhöjd 20 m. Av vattnets minskade lägesenergi blir 75 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm kraftverkets elektriska medeleffekt under dygnet. Svara i W.",
-        "t": "<p>Ett vattenmagasin har ytan 2,0 km². Vattenytan sjunker 5,0 cm på ett dygn när vatten släpps genom ett kraftverk. Räkna med konstant fallhöjd 20 m. Av vattnets minskade lägesenergi blir 75 % elektrisk energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm kraftverkets elektriska medeleffekt under dygnet. Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Ytan gånger sänkningen ger vattenvolymen: 100 000 m³. Beräkna vattnets massa och nyttiga energi. Medeleffekten är denna energi dividerad med 86 400 s.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=2{,}0\\cdot10^6\\cdot0{,}050\\cdot1000=10^8\\,\\mathrm{kg}\\\\P_\\mathrm{medel}=\\frac{0{,}75\\cdot10^8\\cdot9{,}82\\cdot20}{86400}\\approx170486\\,\\mathrm W\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,7 · 10⁵ W.</p></div></div>",
+        "fraga": "Ett vattenmagasin har ytan 2,0 km². Vattenytan sjunker 5,0 cm på ett dygn när vatten släpps genom ett kraftverk. Räkna med konstant fallhöjd 20 m och verkningsgrad 75 %. Bestäm medeleffekten i W. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och vattnets densitet 1000 kg/m³. Den angivna verkningsgraden är andelen av vattnets minskade lägesenergi som blir el.</p><p>Ett vattenmagasin har ytan 2,0 km². Vattenytan sjunker 5,0 cm på ett dygn när vatten släpps genom ett kraftverk. Räkna med konstant fallhöjd 20 m och verkningsgrad 75 %. Bestäm medeleffekten i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla ytan och sänkningen: 2,0 km² = 2,0 · 10⁶ m² och 5,0 cm = 0,050 m. Yta gånger sänkning ger vattenvolymen.</p>\\[V=2{,}0\\cdot10^6\\cdot0{,}050=100000\\,\\mathrm{m^3}\\]\\[m=1000\\cdot100000=10^8\\,\\mathrm{kg}\\]\\[\\begin{gathered}E_\\text{el}=0{,}75\\cdot10^8\\cdot9{,}82\\cdot20\\\\=14730000000\\,\\mathrm J\\end{gathered}\\]<p>Ett dygn är 86 400 s. Dividera energin med tiden.</p>\\[P_\\text{medel}=\\frac{14730000000}{86400}\\approx170000\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Börja med volymen som lämnar magasinet under ett dygn.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137024,14 +137024,14 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En sjö med ytan 500 km² ger vatten till ett kraftverk. Verket ger konstant 120 MW elektrisk effekt. Fallhöjden är 18,5 m och verkningsgraden 75 %. Räkna med konstant fallhöjd och inget tillflöde till sjön. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur mycket sjunker vattenytan på ett dygn? Svara i m.",
-        "t": "<p>En sjö med ytan 500 km² ger vatten till ett kraftverk. Verket ger konstant 120 MW elektrisk effekt. Fallhöjden är 18,5 m och verkningsgraden 75 %. Räkna med konstant fallhöjd och inget tillflöde till sjön. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Hur mycket sjunker vattenytan på ett dygn? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Beräkna hur mycket elektrisk energi verket ger på ett dygn. Dividera med 0,75gh för att få vattenmassan. Volymen är massan delad med densiteten; sänkningen är volymen delad med sjöns yta.</p><div class=\"facit-matte\">\\[\\begin{gathered}m=\\frac{120\\cdot10^6\\cdot86400}{0{,}75\\cdot9{,}82\\cdot18{,}5}\\\\\\Delta h=\\frac{m}{1000\\cdot500\\cdot10^6}\\approx0{,}152\\,\\mathrm m\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,15 m.</p></div></div>",
+        "fraga": "En sjö med ytan 500 km² ger vatten till ett kraftverk. Eleffekten är konstant 120 MW, fallhöjden 18,5 m och verkningsgraden 75 %. Räkna med konstant fallhöjd och att inget annat vatten tillkommer eller försvinner. Hur mycket sjunker sjöns vattenyta under ett dygn? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Använd g = 9,82 m/s² och vattnets densitet 1000 kg/m³. Den angivna verkningsgraden är andelen av vattnets minskade lägesenergi som blir el.</p><p>En sjö med ytan 500 km² ger vatten till ett kraftverk. Eleffekten är konstant 120 MW, fallhöjden 18,5 m och verkningsgraden 75 %. Räkna med konstant fallhöjd och att inget annat vatten tillkommer eller försvinner. Hur mycket sjunker sjöns vattenyta under ett dygn? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla effekten och tiden: 120 MW = 120 · 10⁶ W och ett dygn är 86 400 s. Beräkna elenergin.</p>\\[E_\\text{el}=120\\cdot10^6\\cdot86400=1{,}0368\\cdot10^{13}\\,\\mathrm J\\]<p>Varje kilogram vatten ger elenergin 0,75gh. Dividera elenergin med detta för att få vattenmassan. Volymen är massan delad med densiteten.</p>\\[m=\\frac{1{,}0368\\cdot10^{13}}{0{,}75\\cdot9{,}82\\cdot18{,}5}\\,\\mathrm{kg}\\]\\[V=\\frac{m}{1000}\\,\\mathrm{m^3}\\]<p>Sjöns yta är 500 km² = 500 · 10⁶ m². Volym delad med yta ger sänkningen.</p>\\[\\Delta h=\\frac{1{,}0368\\cdot10^{13}}{0{,}75\\cdot9{,}82\\cdot18{,}5\\cdot1000\\cdot500\\cdot10^6}\\]\\[\\Delta h\\approx0{,}152\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Hur mycket vatten måste lämna sjön för att ge ett dygns elektriska energi?</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
@@ -137043,18 +137043,18 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "turbin med restfart",
-    "poang": "(0/1/1)",
-    "t": "<p>Vatten strömmar från en öppen behållare genom en turbin. Vattenytan ligger 15 m över turbinens utlopp. Flödet är 300 m³/min och farten i utloppet är 2,0 m/s. Utloppet har lufttryck. Bortse från vattnets fart vid ytan och energiförluster före turbinen. Av den energi som turbinen tar ur vattnet blir 80 % nyttig energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm turbinens nyttiga effekt. Svara i W.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Varje sekund passerar 5000 kg vatten. En del av lägesenergin finns kvar som rörelseenergi i utloppet. Dra bort den delen innan du tar 80 % för turbinens nyttiga effekt.</p><div class=\"facit-matte\">\\[P_\\mathrm{nyttig}=0{,}80\\cdot5000\\left(9{,}82\\cdot15-\\frac{2{,}0^2}{2}\\right)=581200\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5,8 · 10⁵ W.</p></div></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Vatten strömmar från en öppen behållare genom en turbin. Vattenytan är 15 m över utloppet. Flödet är 300 m³/min och vattnets fart i utloppet 2,0 m/s. Utloppet har lufttryck. Bortse från vattnets fart vid ytan och förluster före turbinen. Av den energi turbinen tar ur vattnet blir 80 % nyttig energi. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s². Bestäm turbinens nyttiga effekt i W.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla flödet till volym per sekund och beräkna massan som passerar varje sekund.</p>\\[Q=\\frac{300}{60}=5{,}0\\,\\mathrm{m^3/s}\\]\\[m_\\text{per sekund}=5{,}0\\cdot1000=5000\\,\\mathrm{kg}\\]<p>Beräkna lägesenergin som förloras och rörelseenergin som finns kvar i utloppet, för en sekunds vatten.</p>\\[E_p=5000\\cdot9{,}82\\cdot15=736500\\,\\mathrm J\\]\\[E_k=\\frac{5000\\cdot2{,}0^2}{2}=10000\\,\\mathrm J\\]<p>Turbinen kan ta skillnaden. 80 % av den blir nyttig energi varje sekund.</p>\\[\\begin{gathered}P_\\text{nyttig}=0{,}80\\cdot(736500-10000)\\\\=581200\\,\\mathrm W\\end{gathered}\\]<p>Med tre värdesiffror: 581 000 W.</p></div>",
     "id": "5.596",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Verkningsgrad",
     "svarstyp": "numeriskt",
     "rättSvar": 581200.0,
-    "tolerans": 8720.0,
+    "tolerans": 500.0,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -137065,17 +137065,17 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "W",
     "familjNyckel": "effekt__verkningsgrad",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "vindkraftverkets effekt",
-    "poang": "(0/2/1)",
-    "t": "<ol type=\"a\"><li><p>Luften i en tänkt cylinder rör sig med vinden i 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Luftens densitet är 1,29 kg/m³. Bestäm luftens rörelseenergi. Svara i J.</p></li><li><p>Vinden blåser vinkelrätt genom en cirkelyta med diametern 40 m. Vindens fart är 8,0 m/s och luftens densitet 1,29 kg/m³. Ett vindkraftverk kan använda 59 % av den rörelseenergi som vinden för genom denna yta varje sekund. Bestäm kraftverkets nyttiga effekt. Svara i W.</p></li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Cylinderns volym är πr²l. Multiplicera med densiteten för att få massan och använd sedan rörelseenergin mv²/2.</p><div class=\"facit-matte\">\\[E_\\mathrm{k}=\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\cdot8{,}0^2}{2}\\approx5{,}19\\cdot10^6\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5,2 · 10⁶ J.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>På en sekund passerar en luftvolym Av genom ytan, där A är cirkelns area. Massan per sekund blir ρAv. Multiplicera med rörelseenergin per kilogram, v²/2, och med 0,59.</p><div class=\"facit-matte\">\\[P_\\mathrm{nyttig}=0{,}59\\cdot\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot8{,}0^3}{2}\\approx244845\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,4 · 10⁵ W.</p></div></div></div></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Räkna på rörelseenergin i luft som rör sig med vinden.</p><ol type=\"a\"><li>Luften i en tänkt cylinder rör sig med 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Densiteten är 1,29 kg/m³. Bestäm luftens rörelseenergi i J. Svara med tre värdesiffror.</li><li>Vind med farten 8,0 m/s blåser vinkelrätt genom en cirkelyta med diametern 40 m. Luftens densitet är 1,29 kg/m³. Ett vindkraftverk kan använda 59 % av den rörelseenergi som passerar ytan varje sekund. Bestäm nyttig effekt i W. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna cylinderns volym och luftens massa. Använd sedan rörelseenergin mv²/2.</p>\\[V=\\pi\\cdot20^2\\cdot100\\,\\mathrm{m^3}\\]\\[m=1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\,\\mathrm{kg}\\]\\[E_k=\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\cdot8{,}0^2}{2}\\]\\[E_k\\approx5{,}19\\cdot10^6\\,\\mathrm J\\]<p><strong>b)</strong></p><p>Radien är 20 m. På en sekund passerar en luftcylinder med längden 8,0 m genom ytan. Beräkna volym och massa.</p>\\[V_\\text{en sekund}=\\pi\\cdot20^2\\cdot8{,}0\\,\\mathrm{m^3}\\]\\[m_\\text{en sekund}=1{,}29\\cdot\\pi\\cdot20^2\\cdot8{,}0\\,\\mathrm{kg}\\]<p>Beräkna rörelseenergin i denna luftmassa och ta 59 %. Energi per sekund ger effekt.</p>\\[P_\\text{nyttig}=0{,}59\\cdot\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot8{,}0^3}{2}\\]\\[P_\\text{nyttig}\\approx245000\\,\\mathrm W\\]</div>",
     "id": "5.597",
     "miniräknare": true,
     "geogebra": false,
@@ -137086,8 +137086,8 @@ window.BANK = [
       244845.17566947243
     ],
     "tolerans": [
-      77800.0,
-      5100.0
+      5000.0,
+      500.0
     ],
     "självrättning": true,
     "formaga": [
@@ -137108,13 +137108,13 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "",
+    "spelIntro": "<p>Räkna på rörelseenergin i luft som rör sig med vinden.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Luften i en tänkt cylinder rör sig med vinden i 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Luftens densitet är 1,29 kg/m³. Bestäm luftens rörelseenergi. Svara i J.",
-        "t": "<p>Luften i en tänkt cylinder rör sig med vinden i 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Luftens densitet är 1,29 kg/m³. Bestäm luftens rörelseenergi. Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Cylinderns volym är πr²l. Multiplicera med densiteten för att få massan och använd sedan rörelseenergin mv²/2.</p><div class=\"facit-matte\">\\[E_\\mathrm{k}=\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\cdot8{,}0^2}{2}\\approx5{,}19\\cdot10^6\\,\\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5,2 · 10⁶ J.</p></div></div>",
+        "fraga": "Luften i en tänkt cylinder rör sig med 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Densiteten är 1,29 kg/m³. Bestäm luftens rörelseenergi i J. Svara med tre värdesiffror.",
+        "t": "<p>Luften i en tänkt cylinder rör sig med 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Densiteten är 1,29 kg/m³. Bestäm luftens rörelseenergi i J. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna cylinderns volym och luftens massa. Använd sedan rörelseenergin mv²/2.</p>\\[V=\\pi\\cdot20^2\\cdot100\\,\\mathrm{m^3}\\]\\[m=1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\,\\mathrm{kg}\\]\\[E_k=\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\cdot8{,}0^2}{2}\\]\\[E_k\\approx5{,}19\\cdot10^6\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Bestäm först luftens massa från cylinderns volym.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137123,20 +137123,20 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vinden blåser vinkelrätt genom en cirkelyta med diametern 40 m. Vindens fart är 8,0 m/s och luftens densitet 1,29 kg/m³. Ett vindkraftverk kan använda 59 % av den rörelseenergi som vinden för genom denna yta varje sekund. Bestäm kraftverkets nyttiga effekt. Svara i W.",
-        "t": "<p>Vinden blåser vinkelrätt genom en cirkelyta med diametern 40 m. Vindens fart är 8,0 m/s och luftens densitet 1,29 kg/m³. Ett vindkraftverk kan använda 59 % av den rörelseenergi som vinden för genom denna yta varje sekund. Bestäm kraftverkets nyttiga effekt. Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>På en sekund passerar en luftvolym Av genom ytan, där A är cirkelns area. Massan per sekund blir ρAv. Multiplicera med rörelseenergin per kilogram, v²/2, och med 0,59.</p><div class=\"facit-matte\">\\[P_\\mathrm{nyttig}=0{,}59\\cdot\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot8{,}0^3}{2}\\approx244845\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,4 · 10⁵ W.</p></div></div>",
+        "fraga": "Vind med farten 8,0 m/s blåser vinkelrätt genom en cirkelyta med diametern 40 m. Luftens densitet är 1,29 kg/m³. Ett vindkraftverk kan använda 59 % av den rörelseenergi som passerar ytan varje sekund. Bestäm nyttig effekt i W. Svara med tre värdesiffror.",
+        "t": "<p>Vind med farten 8,0 m/s blåser vinkelrätt genom en cirkelyta med diametern 40 m. Luftens densitet är 1,29 kg/m³. Ett vindkraftverk kan använda 59 % av den rörelseenergi som passerar ytan varje sekund. Bestäm nyttig effekt i W. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Radien är 20 m. På en sekund passerar en luftcylinder med längden 8,0 m genom ytan. Beräkna volym och massa.</p>\\[V_\\text{en sekund}=\\pi\\cdot20^2\\cdot8{,}0\\,\\mathrm{m^3}\\]\\[m_\\text{en sekund}=1{,}29\\cdot\\pi\\cdot20^2\\cdot8{,}0\\,\\mathrm{kg}\\]<p>Beräkna rörelseenergin i denna luftmassa och ta 59 %. Energi per sekund ger effekt.</p>\\[P_\\text{nyttig}=0{,}59\\cdot\\frac{1{,}29\\cdot\\pi\\cdot20^2\\cdot8{,}0^3}{2}\\]\\[P_\\text{nyttig}\\approx245000\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Hur stor luftmassa för vinden genom cirkelytan varje sekund?</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
-    "ledtrad": "<p>\\(P=\\tfrac12\\rho Av^3\\) gånger verkningsgraden.</p>",
+    "ledtrad": "<p>Beräkna luftens massa. För kraftverket behövs massan som passerar under en sekund.</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__verkningsgrad",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -137145,8 +137145,8 @@ window.BANK = [
     "niva": "C",
     "typ": "bensin och bilar",
     "poang": "(1/2/0)",
-    "t": "<p>1 liter bensin ger 40 MJ.</p><ol type=\"a\"><li>Hur långt kan bilen köra med detta arbete? Svara i m.</li><li>En bil använder 0,80 liter bensin per mil (10 000 m). Bensinen ger 40 MJ per liter. Av energin blir 20 % mekaniskt arbete. Hur stor är motorns drivande kraft i genomsnitt över en mil? Svara i N.</li><li>En bil på 1000 kg ökar farten från vila till 40 m/s på en vågrät väg. Bensinen ger 40 MJ per liter. Motorn omvandlar 22 % till rörelseenergi. Bortse från motstånd och hjulens rotation. Hur många milliliter bensin behövs för fartökningen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Det mekaniska arbetet är 35 % av bensinens energi. Med konstant kraft gäller W = Fs. Dividera arbetet med kraften.</p><div class=\"facit-matte\">\\[s=\\frac{0{,}35\\cdot40\\cdot10^6}{2500}=5600\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5600 m.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Beräkna det mekaniska arbetet från bensinen. Medelkraften är arbetet delat med körsträckan.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{0{,}20\\cdot0{,}80\\cdot40\\cdot10^6}{10000}=640\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 640 N.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2\"><p>Ökningen i rörelseenergi är den nyttiga energin. Dividera med 0,22 för att få bensinenergin och sedan med energin per liter. Omvandla liter till milliliter.</p><div class=\"facit-matte\">\\[V=\\frac{1000\\cdot40^2/2}{0{,}22\\cdot40\\cdot10^6}\\approx0{,}0909\\,\\mathrm L=90{,}9\\,\\mathrm{ml}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 91 ml.</p></div></div></div></div></div>",
+    "t": "<p>Bensinen ger 40 MJ per liter i alla deluppgifter.</p><ol type=\"a\"><li>En bil använder 1,0 liter bensin. Av energin blir 35 % mekaniskt arbete. Motorns dragkraft är konstant 2,5 kN i rörelseriktningen. Hur långt kan bilen köra med detta arbete? Svara i m. Svara med tre värdesiffror.</li><li>En bil använder 0,80 liter bensin per mil (10 000 m). Av energin blir 20 % mekaniskt arbete. Bestäm motorns genomsnittliga drivkraft över sträckan i N. Svara med tre värdesiffror.</li><li>En bil på 1000 kg ökar farten från vila till 40 m/s på en vågrät väg. Motorn omvandlar 22 % av bensinenergin till rörelseenergi. Bortse från motstånd och hjulens rotation. Hur många milliliter bensin behövs? Svara i ml. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna det mekaniska arbetet. Omvandla dragkraften till 2500 N och lös W = Fs för sträckan.</p>\\[W=0{,}35\\cdot40\\cdot10^6=14000000\\,\\mathrm J\\]\\[s=\\frac WF=\\frac{14000000}{2500}=5600\\,\\mathrm m\\]<p><strong>b)</strong></p><p>Beräkna bensinens energi och den andel som blir mekaniskt arbete. Genomsnittlig kraft över sträckan är arbetet delat med sträckan.</p>\\[E_\\text{bensin}=0{,}80\\cdot40\\cdot10^6=32000000\\,\\mathrm J\\]\\[W=0{,}20\\cdot32000000=6400000\\,\\mathrm J\\]\\[F_\\text{medel}=\\frac{6400000}{10000}=640\\,\\mathrm N\\]<p><strong>c)</strong></p><p>Startfarten är noll. Beräkna rörelseenergins ökning och dividera med 0,22 för att få bensinenergin.</p>\\[\\Delta E_k=\\frac{1000\\cdot40^2}{2}=800000\\,\\mathrm J\\]\\[E_\\text{bensin}=\\frac{800000}{0{,}22}\\,\\mathrm J\\]<p>Dividera med 40 · 10⁶ J per liter och omvandla liter till ml.</p>\\[V=\\frac{800000/0{,}22}{40\\cdot10^6}\\approx0{,}0909091\\,\\mathrm L\\]\\[V\\approx90{,}9\\,\\mathrm{ml}\\]</div>",
     "id": "5.598",
     "miniräknare": true,
     "geogebra": false,
@@ -137158,9 +137158,9 @@ window.BANK = [
       90.9090909090909
     ],
     "tolerans": [
-      84.0,
-      9.6,
-      1.36
+      5.0,
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -137184,24 +137184,24 @@ window.BANK = [
       "ml"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>1 liter bensin ger 40 MJ.</p>",
+    "spelIntro": "<p>Bensinen ger 40 MJ per liter i alla deluppgifter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur långt kan bilen köra med detta arbete? Svara i m.",
-        "t": "<p>En bils motor använder 1,0 liter bensin, som ger 40 MJ energi. Av energin blir 35 % mekaniskt arbete. Motorns dragkraft är konstant 2,5 kN i rörelseriktningen.</p><p>Hur långt kan bilen köra med detta arbete? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Det mekaniska arbetet är 35 % av bensinens energi. Med konstant kraft gäller W = Fs. Dividera arbetet med kraften.</p><div class=\"facit-matte\">\\[s=\\frac{0{,}35\\cdot40\\cdot10^6}{2500}=5600\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5600 m.</p></div></div>",
+        "fraga": "En bil använder 1,0 liter bensin. Av energin blir 35 % mekaniskt arbete. Motorns dragkraft är konstant 2,5 kN i rörelseriktningen. Hur långt kan bilen köra med detta arbete? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Bensinen ger 40 MJ per liter.</p><p>En bil använder 1,0 liter bensin. Av energin blir 35 % mekaniskt arbete. Motorns dragkraft är konstant 2,5 kN i rörelseriktningen. Hur långt kan bilen köra med detta arbete? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna det mekaniska arbetet. Omvandla dragkraften till 2500 N och lös W = Fs för sträckan.</p>\\[W=0{,}35\\cdot40\\cdot10^6=14000000\\,\\mathrm J\\]\\[s=\\frac WF=\\frac{14000000}{2500}=5600\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>\\(W=Fs\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är motorns drivande kraft i genomsnitt över en mil? Svara i N.",
-        "t": "<p>En bil använder 0,80 liter bensin per mil (10 000 m). Bensinen ger 40 MJ per liter. Av energin blir 20 % mekaniskt arbete.</p><p>Hur stor är motorns drivande kraft i genomsnitt över en mil? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Beräkna det mekaniska arbetet från bensinen. Medelkraften är arbetet delat med körsträckan.</p><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{0{,}20\\cdot0{,}80\\cdot40\\cdot10^6}{10000}=640\\,\\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 640 N.</p></div></div>",
+        "fraga": "En bil använder 0,80 liter bensin per mil (10 000 m). Av energin blir 20 % mekaniskt arbete. Bestäm motorns genomsnittliga drivkraft över sträckan i N. Svara med tre värdesiffror.",
+        "t": "<p>Bensinen ger 40 MJ per liter.</p><p>En bil använder 0,80 liter bensin per mil (10 000 m). Av energin blir 20 % mekaniskt arbete. Bestäm motorns genomsnittliga drivkraft över sträckan i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna bensinens energi och den andel som blir mekaniskt arbete. Genomsnittlig kraft över sträckan är arbetet delat med sträckan.</p>\\[E_\\text{bensin}=0{,}80\\cdot40\\cdot10^6=32000000\\,\\mathrm J\\]\\[W=0{,}20\\cdot32000000=6400000\\,\\mathrm J\\]\\[F_\\text{medel}=\\frac{6400000}{10000}=640\\,\\mathrm N\\]</div>",
         "ledtrad": "<p>1 mil = 10 km.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137210,9 +137210,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur många milliliter bensin behövs för fartökningen?",
-        "t": "<p>En bil på 1000 kg ökar farten från vila till 40 m/s på en vågrät väg. Bensinen ger 40 MJ per liter. Motorn omvandlar 22 % till rörelseenergi. Bortse från motstånd och hjulens rotation.</p><p>Hur många milliliter bensin behövs för fartökningen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Ökningen i rörelseenergi är den nyttiga energin. Dividera med 0,22 för att få bensinenergin och sedan med energin per liter. Omvandla liter till milliliter.</p><div class=\"facit-matte\">\\[V=\\frac{1000\\cdot40^2/2}{0{,}22\\cdot40\\cdot10^6}\\approx0{,}0909\\,\\mathrm L=90{,}9\\,\\mathrm{ml}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 91 ml.</p></div></div>",
+        "fraga": "En bil på 1000 kg ökar farten från vila till 40 m/s på en vågrät väg. Motorn omvandlar 22 % av bensinenergin till rörelseenergi. Bortse från motstånd och hjulens rotation. Hur många milliliter bensin behövs? Svara i ml. Svara med tre värdesiffror.",
+        "t": "<p>Bensinen ger 40 MJ per liter.</p><p>En bil på 1000 kg ökar farten från vila till 40 m/s på en vågrät väg. Motorn omvandlar 22 % av bensinenergin till rörelseenergi. Bortse från motstånd och hjulens rotation. Hur många milliliter bensin behövs? Svara i ml. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startfarten är noll. Beräkna rörelseenergins ökning och dividera med 0,22 för att få bensinenergin.</p>\\[\\Delta E_k=\\frac{1000\\cdot40^2}{2}=800000\\,\\mathrm J\\]\\[E_\\text{bensin}=\\frac{800000}{0{,}22}\\,\\mathrm J\\]<p>Dividera med 40 · 10⁶ J per liter och omvandla liter till ml.</p>\\[V=\\frac{800000/0{,}22}{40\\cdot10^6}\\approx0{,}0909091\\,\\mathrm L\\]\\[V\\approx90{,}9\\,\\mathrm{ml}\\]</div>",
         "ledtrad": "<p>Tillförd energi delat med 40 MJ.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137220,7 +137220,7 @@ window.BANK = [
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
+    "ledtrad": "<p>Beräkna mekanisk energi från bensinen innan du kopplar till rörelsen.</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__verkningsgrad",
     "arbetsinsats": 2,
@@ -137229,11 +137229,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "effekt",
-    "niva": "A",
+    "niva": "C",
     "typ": "bil som rullar i backe",
-    "poang": "(0/2/1)",
-    "t": "<ol type=\"a\"><li><p>En bil på 1,2 ton rullar utan motor nedför en backe som lutar 3,0°. Farten är konstant 80 km/h. Anta att den sammanlagda bromsande kraften är lika stor på plan väg vid samma fart. Använd g = 9,82 m/s². Vilken mekanisk effekt måste motorn ge för att hålla 80 km/h på plan väg? Svara i W.</p></li><li><p>En bil kör i 80 km/h på plan väg. Motorn ger den mekaniska effekten 13,7 kW. Bilen använder 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/liter och den ger 32 MJ per kg. Bestäm motorns verkningsgrad. Svara i procent.</p></li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>När bilen rullar med konstant fart balanserar tyngdkraftens komponent längs backen den bromsande kraften. På plan väg måste motorn ge samma kraft. Använd effekten Fv med farten i m/s.</p><div class=\"facit-matte\">\\[\\begin{gathered}F=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}3\\,\\mathrm N\\\\P=F\\cdot\\frac{80}{3{,}6}\\approx13719\\,\\mathrm W\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13 700 W.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>På en timme kör bilen 8 mil och använder därför 6,0 liter bensin. Jämför det mekaniska arbetet under en timme med bensinens energi under samma tid.</p><div class=\"facit-matte\">\\[\\eta=\\frac{13700\\cdot3600}{6{,}0\\cdot0{,}80\\cdot32\\cdot10^6}\\approx0{,}321\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 32 %.</p></div></div></div></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd g = 9,82 m/s² i första deluppgiften.</p><ol type=\"a\"><li>En bil på 1,2 ton rullar utan drivkraft nedför en backe som lutar 3,0°. Farten är konstant 80 km/h. Anta samma motståndskraft på vågrät väg vid denna fart. Vilken nyttig mekanisk motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W. Svara med tre värdesiffror.</li><li>En annan bil håller 80 km/h på vågrät väg med nyttig motoreffekt 13,7 kW. Den använder 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/L och den ger 32 MJ per kg. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Massan är 1200 kg. När bilen rullar nedför med konstant fart balanserar motståndet tyngdkraftens del längs backen.</p>\\[F_\\text{mot}=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}727\\,\\mathrm N\\]<p>På vågrät väg måste motorn ge samma kraft. Omvandla farten till m/s och använd oavrundad kraft.</p>\\[P=1200\\cdot9{,}82\\sin3{,}0^\\circ\\cdot\\frac{80}{3{,}6}\\approx13700\\,\\mathrm W\\]<p><strong>b)</strong></p><p>På en timme kör bilen 80 km = 8 mil och använder 8 · 0,75 = 6,0 liter bensin. Beräkna bensinens massa och energi.</p>\\[m=6{,}0\\cdot0{,}80=4{,}8\\,\\mathrm{kg}\\]\\[E_\\text{bensin}=4{,}8\\cdot32=153{,}6\\,\\mathrm{MJ}\\]<p>Motorn lämnar arbetet 13,7 kWh under samma timme. Omvandla till MJ och jämför energierna.</p>\\[W=13{,}7\\cdot3{,}6=49{,}32\\,\\mathrm{MJ}\\]\\[\\eta=\\frac{49{,}32}{153{,}6}\\cdot100\\,\\%\\approx32{,}1\\,\\%\\]</div>",
     "id": "5.599",
     "miniräknare": true,
     "geogebra": false,
@@ -137244,8 +137244,8 @@ window.BANK = [
       32.10937499999999
     ],
     "tolerans": [
-      510.0,
-      0.51
+      50.0,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -137266,13 +137266,13 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "",
+    "spelIntro": "<p>Använd g = 9,82 m/s² i första deluppgiften.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bil på 1,2 ton rullar utan motor nedför en backe som lutar 3,0°. Farten är konstant 80 km/h. Anta att den sammanlagda bromsande kraften är lika stor på plan väg vid samma fart. Använd g = 9,82 m/s². Vilken mekanisk effekt måste motorn ge för att hålla 80 km/h på plan väg? Svara i W.",
-        "t": "<p>En bil på 1,2 ton rullar utan motor nedför en backe som lutar 3,0°. Farten är konstant 80 km/h. Anta att den sammanlagda bromsande kraften är lika stor på plan väg vid samma fart. Använd g = 9,82 m/s². Vilken mekanisk effekt måste motorn ge för att hålla 80 km/h på plan väg? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>När bilen rullar med konstant fart balanserar tyngdkraftens komponent längs backen den bromsande kraften. På plan väg måste motorn ge samma kraft. Använd effekten Fv med farten i m/s.</p><div class=\"facit-matte\">\\[\\begin{gathered}F=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}3\\,\\mathrm N\\\\P=F\\cdot\\frac{80}{3{,}6}\\approx13719\\,\\mathrm W\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13 700 W.</p></div></div>",
+        "fraga": "Vilken nyttig mekanisk motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W med tre värdesiffror.",
+        "t": "<p>En bil på 1,2 ton rullar utan drivkraft nedför en backe som lutar 3,0° med konstant fart 80 km/h. Anta samma motståndskraft på vågrät väg vid denna fart. Använd g = 9,82 m/s².</p><p>Vilken nyttig mekanisk motoreffekt behövs för att hålla 80 km/h på vågrät väg? Svara i W med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 1200 kg. När bilen rullar nedför med konstant fart balanserar motståndet tyngdkraftens del längs backen.</p>\\[F_\\text{mot}=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}727\\,\\mathrm N\\]<p>På vågrät väg måste motorn ge samma kraft. Omvandla farten till m/s och använd oavrundad kraft.</p>\\[P=1200\\cdot9{,}82\\sin3{,}0^\\circ\\cdot\\frac{80}{3{,}6}\\approx13700\\,\\mathrm W\\]</div>",
         "ledtrad": "<p>Bestäm först den bromsande kraften från rörelsen nedför backen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137281,18 +137281,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En bil kör i 80 km/h på plan väg. Motorn ger den mekaniska effekten 13,7 kW. Bilen använder 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/liter och den ger 32 MJ per kg. Bestäm motorns verkningsgrad. Svara i procent.",
-        "t": "<p>En bil kör i 80 km/h på plan väg. Motorn ger den mekaniska effekten 13,7 kW. Bilen använder 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/liter och den ger 32 MJ per kg. Bestäm motorns verkningsgrad. Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>På en timme kör bilen 8 mil och använder därför 6,0 liter bensin. Jämför det mekaniska arbetet under en timme med bensinens energi under samma tid.</p><div class=\"facit-matte\">\\[\\eta=\\frac{13700\\cdot3600}{6{,}0\\cdot0{,}80\\cdot32\\cdot10^6}\\approx0{,}321\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 32 %.</p></div></div>",
+        "fraga": "Bestäm motorns verkningsgrad i procent med tre värdesiffror.",
+        "t": "<p>En bil håller 80 km/h på vågrät väg med nyttig motoreffekt 13,7 kW. Den använder 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/L och den ger 32 MJ per kg.</p><p>Bestäm motorns verkningsgrad i procent med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På en timme kör bilen 80 km = 8 mil och använder 8 · 0,75 = 6,0 liter bensin. Beräkna bensinens massa och energi.</p>\\[m=6{,}0\\cdot0{,}80=4{,}8\\,\\mathrm{kg}\\]\\[E_\\text{bensin}=4{,}8\\cdot32=153{,}6\\,\\mathrm{MJ}\\]<p>Motorn lämnar arbetet 13,7 kWh under samma timme. Omvandla till MJ och jämför energierna.</p>\\[W=13{,}7\\cdot3{,}6=49{,}32\\,\\mathrm{MJ}\\]\\[\\eta=\\frac{49{,}32}{153{,}6}\\cdot100\\,\\%\\approx32{,}1\\,\\%\\]</div>",
         "ledtrad": "<p>Jämför nyttig och tillförd energi under en timme.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Första fallet använder kraftbalans. Andra fallet jämför energier under samma tid.</p>",
+    "traningsniva": 3,
     "familjNyckel": "effekt__verkningsgrad",
     "arbetsinsats": 2,
     "spel": true
@@ -137302,9 +137302,9 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "typ": "elverk och solceller",
-    "poang": "(0/4/0)",
-    "t": "<ol type=\"a\"><li><p>En motor använder 300 g bensin för att ge 1,0 kWh mekaniskt arbete. Bensinen ger 32 MJ per kg. Bestäm motorns verkningsgrad. Svara i procent.</p></li><li><p>Ett elverk använder 2,3 liter bensin per timme och ger konstant 3,4 kW elektrisk effekt. Bensinen ger 40 MJ per liter. Bestäm elverkets verkningsgrad. Svara i procent.</p></li><li><p>Solpaneler har ytan 17 m². Den solstrålning som träffar dem ger i genomsnitt 0,12 kW per m² under ett helt år. Panelerna ger 2600 kWh elektrisk energi per år. Räkna med 8760 timmar per år. Bestäm verkningsgraden. Svara i procent.</p></li><li><p>Ett solpanelspaket kostar 64 000 kr och producerar 2600 kWh per år. All denna el ersätter köpt el för 0,95 kr/kWh. Räkna med oförändrad produktion och elpris. Bortse från ränta och underhåll.</p><p>Efter hur många år motsvarar besparingen inköpspriset? Svara i år.</p></li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>300 g är 0,300 kg och 1,0 kWh är 3,6 MJ. Verkningsgraden är det mekaniska arbetet delat med bensinens energi.</p><div class=\"facit-matte\">\\[\\eta=\\frac{3{,}6}{0{,}300\\cdot32}=0{,}375\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 37,5 %.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>På en timme ger elverket 3,4 kWh elektrisk energi. Räkna om den till MJ och jämför med energin i 2,3 liter bensin.</p><div class=\"facit-matte\">\\[\\eta=\\frac{3{,}4\\cdot3{,}6}{2{,}3\\cdot40}\\approx0{,}133\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13 %.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Den tillförda effekten är 0,12 · 17 kW. Multiplicera med årets timmar för att få tillförd energi i kWh. Jämför panelernas elektriska energi med den tillförda solenergin.</p><div class=\"facit-matte\">\\[\\eta=\\frac{2600}{0{,}12\\cdot17\\cdot8760}\\approx0{,}145\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 15 %.</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först besparingen för ett år. Dela sedan inköpspriset med denna årsbesparing.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{årsbesparing}=2600\\cdot0{,}95=2470\\,\\mathrm{kr/år}\\qquad t=\\frac{64000}{2470}\\approx25{,}9\\,\\mathrm{år}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 26 år.</p></div></div></div></div>",
+    "poang": "(1/3/0)",
+    "t": "<p>Jämför nyttig och tillförd energi i de tre första deluppgifterna.</p><ol type=\"a\"><li>En motor använder 300 g bensin för att ge 1,0 kWh mekaniskt arbete. Bensinen ger 32 MJ per kg. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li><li>Ett elverk använder 2,3 liter bensin per timme och ger 3,4 kW eleffekt. Bensinen ger 40 MJ per liter. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li><li>Solpaneler med ytan 17 m² tar i genomsnitt emot 0,12 kW solstrålning per m² under hela året. De ger 2600 kWh el per år. Räkna med 8760 timmar per år. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</li><li>Ett solpanelspaket kostar 64 000 kr och producerar 2600 kWh per år. All el ersätter köpt el för 0,95 kr/kWh. Anta oförändrad produktion och elpris. Bortse från ränta och underhåll. Efter hur många år motsvarar besparingen inköpspriset? Svara i år. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla 300 g till 0,300 kg och 1,0 kWh till 3,6 MJ. Beräkna bensinenergin och jämför med arbetet.</p>\\[E_\\text{bensin}=0{,}300\\cdot32=9{,}6\\,\\mathrm{MJ}\\]\\[\\eta=\\frac{3{,}6}{9{,}6}\\cdot100\\,\\%=37{,}5\\,\\%\\]<p><strong>b)</strong></p><p>På en timme ger elverket 3,4 kWh el och använder 2,3 liter bensin. Jämför dessa energier i MJ.</p>\\[E_\\text{el}=3{,}4\\cdot3{,}6=12{,}24\\,\\mathrm{MJ}\\]\\[E_\\text{bensin}=2{,}3\\cdot40=92\\,\\mathrm{MJ}\\]\\[\\eta=\\frac{12{,}24}{92}\\cdot100\\,\\%\\approx13{,}3\\,\\%\\]<p><strong>c)</strong></p><p>Beräkna den tillförda medeleffekten för hela ytan och multiplicera med årets timmar.</p>\\[P_\\text{in}=0{,}12\\cdot17=2{,}04\\,\\mathrm{kW}\\]\\[E_\\text{in}=2{,}04\\cdot8760=17870{,}4\\,\\mathrm{kWh}\\]\\[\\eta=\\frac{2600}{17870{,}4}\\cdot100\\,\\%\\approx14{,}5\\,\\%\\]<p><strong>d)</strong></p><p>Beräkna besparingen under ett år. Dividera inköpspriset med årsbesparingen.</p>\\[\\text{årsbesparing}=2600\\cdot0{,}95=2470\\,\\mathrm{kr/år}\\]\\[t=\\frac{64000}{2470}\\approx25{,}9\\,\\mathrm{år}\\]</div>",
     "id": "5.600",
     "miniräknare": true,
     "geogebra": false,
@@ -137313,14 +137313,14 @@ window.BANK = [
     "rättSvar": [
       37.5,
       13.304347826086957,
-      14.54919867490375,
+      14.549198674903751,
       25.910931174089068
     ],
     "tolerans": [
-      0.562,
-      0.51,
-      0.51,
-      0.51
+      0.05,
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -137347,13 +137347,13 @@ window.BANK = [
       "år"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "",
+    "spelIntro": "<p>Jämför nyttig och tillförd energi i de tre första deluppgifterna.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En motor använder 300 g bensin för att ge 1,0 kWh mekaniskt arbete. Bensinen ger 32 MJ per kg. Bestäm motorns verkningsgrad. Svara i procent.",
-        "t": "<p>En motor använder 300 g bensin för att ge 1,0 kWh mekaniskt arbete. Bensinen ger 32 MJ per kg. Bestäm motorns verkningsgrad. Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>300 g är 0,300 kg och 1,0 kWh är 3,6 MJ. Verkningsgraden är det mekaniska arbetet delat med bensinens energi.</p><div class=\"facit-matte\">\\[\\eta=\\frac{3{,}6}{0{,}300\\cdot32}=0{,}375\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 37,5 %.</p></div></div>",
+        "fraga": "En motor använder 300 g bensin för att ge 1,0 kWh mekaniskt arbete. Bensinen ger 32 MJ per kg. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.",
+        "t": "<p>En motor använder 300 g bensin för att ge 1,0 kWh mekaniskt arbete. Bensinen ger 32 MJ per kg. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla 300 g till 0,300 kg och 1,0 kWh till 3,6 MJ. Beräkna bensinenergin och jämför med arbetet.</p>\\[E_\\text{bensin}=0{,}300\\cdot32=9{,}6\\,\\mathrm{MJ}\\]\\[\\eta=\\frac{3{,}6}{9{,}6}\\cdot100\\,\\%=37{,}5\\,\\%\\]</div>",
         "ledtrad": "<p>Räkna både mekaniskt arbete och bensinenergi i MJ.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137362,9 +137362,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett elverk använder 2,3 liter bensin per timme och ger konstant 3,4 kW elektrisk effekt. Bensinen ger 40 MJ per liter. Bestäm elverkets verkningsgrad. Svara i procent.",
-        "t": "<p>Ett elverk använder 2,3 liter bensin per timme och ger konstant 3,4 kW elektrisk effekt. Bensinen ger 40 MJ per liter. Bestäm elverkets verkningsgrad. Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>På en timme ger elverket 3,4 kWh elektrisk energi. Räkna om den till MJ och jämför med energin i 2,3 liter bensin.</p><div class=\"facit-matte\">\\[\\eta=\\frac{3{,}4\\cdot3{,}6}{2{,}3\\cdot40}\\approx0{,}133\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13 %.</p></div></div>",
+        "fraga": "Ett elverk använder 2,3 liter bensin per timme och ger 3,4 kW eleffekt. Bensinen ger 40 MJ per liter. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.",
+        "t": "<p>Ett elverk använder 2,3 liter bensin per timme och ger 3,4 kW eleffekt. Bensinen ger 40 MJ per liter. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På en timme ger elverket 3,4 kWh el och använder 2,3 liter bensin. Jämför dessa energier i MJ.</p>\\[E_\\text{el}=3{,}4\\cdot3{,}6=12{,}24\\,\\mathrm{MJ}\\]\\[E_\\text{bensin}=2{,}3\\cdot40=92\\,\\mathrm{MJ}\\]\\[\\eta=\\frac{12{,}24}{92}\\cdot100\\,\\%\\approx13{,}3\\,\\%\\]</div>",
         "ledtrad": "<p>Jämför den elektriska energin med bensinens energi under samma timme.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137373,9 +137373,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Solpaneler har ytan 17 m². Den solstrålning som träffar dem ger i genomsnitt 0,12 kW per m² under ett helt år. Panelerna ger 2600 kWh elektrisk energi per år. Räkna med 8760 timmar per år. Bestäm verkningsgraden. Svara i procent.",
-        "t": "<p>Solpaneler har ytan 17 m². Den solstrålning som träffar dem ger i genomsnitt 0,12 kW per m² under ett helt år. Panelerna ger 2600 kWh elektrisk energi per år. Räkna med 8760 timmar per år. Bestäm verkningsgraden. Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Den tillförda effekten är 0,12 · 17 kW. Multiplicera med årets timmar för att få tillförd energi i kWh. Jämför panelernas elektriska energi med den tillförda solenergin.</p><div class=\"facit-matte\">\\[\\eta=\\frac{2600}{0{,}12\\cdot17\\cdot8760}\\approx0{,}145\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 15 %.</p></div></div>",
+        "fraga": "Solpaneler med ytan 17 m² tar i genomsnitt emot 0,12 kW solstrålning per m² under hela året. De ger 2600 kWh el per år. Räkna med 8760 timmar per år. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.",
+        "t": "<p>Solpaneler med ytan 17 m² tar i genomsnitt emot 0,12 kW solstrålning per m² under hela året. De ger 2600 kWh el per år. Räkna med 8760 timmar per år. Bestäm verkningsgraden i procent. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna den tillförda medeleffekten för hela ytan och multiplicera med årets timmar.</p>\\[P_\\text{in}=0{,}12\\cdot17=2{,}04\\,\\mathrm{kW}\\]\\[E_\\text{in}=2{,}04\\cdot8760=17870{,}4\\,\\mathrm{kWh}\\]\\[\\eta=\\frac{2600}{17870{,}4}\\cdot100\\,\\%\\approx14{,}5\\,\\%\\]</div>",
         "ledtrad": "<p>Beräkna först den solenergi som träffar hela panelernas yta under året.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -137384,12 +137384,12 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Efter hur många år motsvarar besparingen inköpspriset? Svara i år.",
-        "t": "<p>Ett solpanelspaket kostar 64 000 kr och producerar 2600 kWh per år. All denna el ersätter köpt el för 0,95 kr/kWh. Räkna med oförändrad produktion och elpris. Bortse från ränta och underhåll.</p><p>Efter hur många år motsvarar besparingen inköpspriset? Svara i år.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först besparingen för ett år. Dela sedan inköpspriset med denna årsbesparing.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{årsbesparing}=2600\\cdot0{,}95=2470\\,\\mathrm{kr/år}\\qquad t=\\frac{64000}{2470}\\approx25{,}9\\,\\mathrm{år}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 26 år.</p></div></div>",
+        "fraga": "Ett solpanelspaket kostar 64 000 kr och producerar 2600 kWh per år. All el ersätter köpt el för 0,95 kr/kWh. Anta oförändrad produktion och elpris. Bortse från ränta och underhåll. Efter hur många år motsvarar besparingen inköpspriset? Svara i år. Svara med tre värdesiffror.",
+        "t": "<p>Ett solpanelspaket kostar 64 000 kr och producerar 2600 kWh per år. All el ersätter köpt el för 0,95 kr/kWh. Anta oförändrad produktion och elpris. Bortse från ränta och underhåll. Efter hur många år motsvarar besparingen inköpspriset? Svara i år. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna besparingen under ett år. Dividera inköpspriset med årsbesparingen.</p>\\[\\text{årsbesparing}=2600\\cdot0{,}95=2470\\,\\mathrm{kr/år}\\]\\[t=\\frac{64000}{2470}\\approx25{,}9\\,\\mathrm{år}\\]</div>",
         "ledtrad": "<p>Hur mycket pengar sparar den producerade elen på ett år?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
@@ -137397,7 +137397,7 @@ window.BANK = [
     "ledtrad": "<p>\\(\\eta=\\dfrac{P_\\text{nyttig}}{P_\\text{tillförd}}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "effekt__verkningsgrad",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {

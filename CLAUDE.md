@@ -19,3 +19,9 @@ Regelverket för detta repo finns i Uppgiftslabbet. Läs det **innan** du ändra
 ## Felrapporter, kursmappning och pågående arbete
 
 Rutinen för att åtgärda felrapporter, formuleringar att undvika, kursmappning (mato1 = Ma3c osv.), planeringarnas plats och moment/delmoment-omstruktureringen står i `C:\Users\Hedav\code\Uppgiftslabbet\CLAUDE.md` (avsnitten "Felrapporter från Kunskapsgymmet", "Kurser och planeringar", "Pågående omstrukturering"). Läs dem först.
+
+## Tidigare beslut
+
+Läs även `AGENTS.md` och Uppgiftslabbets `agent/FELMONSTER_OCH_BESLUT.md`.
+Sök berörda uppgifts-ID:n i tidigare granskningar och kör deras regressionstester.
+En ändring av ett tidigare beslut ska ha en ny dokumenterad motivering.

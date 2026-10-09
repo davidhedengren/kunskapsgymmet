@@ -3857,7 +3857,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-09-modellgranskning-ma2";
+const BANK_VERSION="2026-10-09-kvadratkomplettering";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9584,6 +9584,37 @@ function sammaForenkladePolynom(a,b){
   return true;
 }
 
+/* Kvadratkomplettering kräver en kvadrat av ett linjärt uttryck.
+   Ekvivalens ensam skulle godkänna att eleven skriver av frågan. */
+function kvadratkompletteratSvarRatt(anv,facit){
+  if(typeof nerdamer==="undefined" || algebraisktLika(hogerled(anv),hogerled(facit))!==true) return false;
+  try{
+    const raw=tillNerdamer(normalizeMathInput(hogerled(anv))).replace(/\s+/g,"");
+    if(raw.length>400 || nerdamer(raw).variables().some(v=>v!=="x")) return false;
+    for(let start=0;start<raw.length;start++){
+      if(raw[start]!=="(") continue;
+      let depth=1,end=start+1;
+      for(;end<raw.length && depth;end++){
+        if(raw[end]==="(") depth++; else if(raw[end]===")") depth--;
+      }
+      if(depth) continue;
+      const power=raw.slice(end).match(/^\^(?:2(?![\d.])|\(2\))/);
+      if(!power) continue;
+      const base=raw.slice(start+1,end-1);
+      if(nerdamer(base).variables().some(v=>v!=="x")) continue;
+      const slope=nerdamer.diff(base,"x").evaluate().text();
+      if(slope!=="1" && slope!=="-1") continue;
+      // Efter att kvadraten ersatts med z ska bara en konstant gånger z + konstant återstå.
+      const rest=raw.slice(0,start)+"z"+raw.slice(end+power[0].length);
+      if(nerdamer(rest).variables().some(v=>v!=="z")) continue;
+      const coefficient=nerdamer.diff(rest,"z");
+      if(coefficient.variables().length || coefficient.evaluate().text()==="0") continue;
+      return true;
+    }
+  }catch(_){ return false; }
+  return false;
+}
+
 function faktoriseratSvarRatt(anv,facit){
   if(algebraisktLika(anv,facit)!==true || typeof nerdamer==="undefined") return false;
   const uttryck=s=>tillNerdamer(normalizeMathInput(hogerled(s))).replace(/\s+/g,"");
@@ -9829,6 +9860,8 @@ function formatRatt(anv,facit,meta){
       }
       return textNyckel(a)===textNyckel(f);
     }
+    case "kvadratkompletterat":
+      return kvadratkompletteratSvarRatt(a,f);
     case "faktoriserat":
       return faktoriseratSvarRatt(a,f);
     case "funktionsuttryck":
@@ -10090,7 +10123,7 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   }
   /* Decimalform kräver den angivna representationen och målenheten.
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
-  if(["decimalform","faktoriserat","funktionsuttryck","primitiv","primitiva"].includes(format))
+  if(["decimalform","faktoriserat","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
   /* Med svarsenheten % lagras facit i procent. Ett uttryckligt %-tecken
      får inte tas bort och därefter skalas igen av den generella talrättningen. */

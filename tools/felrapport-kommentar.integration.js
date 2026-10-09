@@ -11,6 +11,22 @@ const root=path.join(__dirname,'..'),id=n=>'00000000-0000-0000-0000-'+String(n).
  try{
   await db.exec(fs.readFileSync(path.join(__dirname,'fixtures/felrapport-kommentar.sql'),'utf8'));
   const migration=fs.readFileSync(path.join(root,'sql/2026-10-09-felrapport-kommentar.sql'),'utf8');await db.exec(migration);await db.exec(migration);
+  const fix=fs.readFileSync(path.join(root,'sql/2026-10-09-felrapport-sparfix.sql'),'utf8');
+  const functionBody=s=>s.match(/create or replace function public\.kg_felrapport_granska\([\s\S]*?\n\$\$;/)[0];
+  check(functionBody(fix),functionBody(migration));
+  // Återskapa den tidigare funktionen mot tabellens verkliga kommentar-kolumn.
+  const old=functionBody(migration).replace(/\bv_kommentar\b/g,'kommentar')
+    .replace("nullif(btrim(coalesce(p_kommentar,'')),'')","btrim(coalesce(p_kommentar,''))")
+    .replace('char_length(kommentar)>1000','char_length(kommentar) not between 1 and 1000');
+  await db.exec(old);
+  await db.query("insert into kg_felrapport(kurs,uppgift,kommentar) values('mato1','sparfix','Rapportörens ursprungliga text')");
+  await uid(1);
+  check((await rpc('kg_felrapport_granska',['mato1','sparfix','atgardad',null])).code,'kommentar');
+  await assert.rejects(rpc('kg_felrapport_granska',['mato1','sparfix','atgardad','Granskarens svar']),e=>e.code==='42702');checks++;
+  await db.exec(fix);await db.exec(fix);
+  check((await rpc('kg_felrapport_granska',['mato1','sparfix','atgardad','Granskarens svar'])).ok,true);
+  check((await rows("select kommentar,granskningskommentar from kg_felrapport where uppgift='sparfix'"))[0],{kommentar:'Rapportörens ursprungliga text',granskningskommentar:'Granskarens svar'});
+  await db.exec("delete from kg_felrapport where uppgift='sparfix';delete from kg_private.audit;");
   for(const user of [3,4])await db.query('insert into kg_felrapport(kurs,uppgift,anvandare) values($1,$2,$3)',['fy1','6.338',id(user)]);
   await db.query('insert into kg_felrapport(kurs,uppgift,anvandare,atgardad,ignorerad) values($1,$2,$3,true,true)',['fy1','6.338',id(3)]);
   await db.query('insert into kg_felrapport(kurs,uppgift,anvandare) values($1,$2,$3)',['fy1','5.55',id(3)]);
@@ -55,6 +71,13 @@ const root=path.join(__dirname,'..'),id=n=>'00000000-0000-0000-0000-'+String(n).
   check((await rows("select granskningskommentar,atgardad,ignorerad from kg_felrapport where uppgift='utan-kommentar'"))[0],{granskningskommentar:null,atgardad:true,ignorerad:true});
   check((await rpc('kg_felrapport_granska',['fy1','5.55','atgardad',null,true])).ok,true);
   check((await rows("select granskningskommentar from kg_felrapport where uppgift='5.55'"))[0].granskningskommentar,null);
+  // Båda statusknapparna måste fungera med null, tom sträng och blanksteg.
+  for(const status of ['atgardad','ignorerad'])for(const comment of [null,'','   ']){
+    await db.query("insert into kg_felrapport(kurs,uppgift,kommentar) values('mato1','tomt','Originalrapport')");
+    check((await rpc('kg_felrapport_granska',['mato1','tomt',status,comment])).ok,true);
+    check((await rows("select atgardad,ignorerad,kommentar,granskningskommentar from kg_felrapport where uppgift='tomt'"))[0],{atgardad:true,ignorerad:status==='ignorerad',kommentar:'Originalrapport',granskningskommentar:null});
+    await db.exec("delete from kg_felrapport where uppgift='tomt';");
+  }
   await uid(4);
   // Verifiera funktionen med faktiska databasroller, inte enbart huvudrollen.
   await db.exec('grant usage on schema public,auth to authenticated;set role authenticated;');

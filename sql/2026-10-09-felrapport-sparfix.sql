@@ -1,12 +1,7 @@
--- Sparad återkoppling på felrapporter. Kör hela filen i Supabase SQL Editor.
--- Kräver befintlig public.kg_felrapport, kg_ar_admin() och godkända lärarkonton.
--- Inga befintliga rapporter bedöms automatiskt. Filen kan köras om.
+-- FIX för sparfel 42702 och tomma granskningskommentarer.
+-- Kör HELA denna fil i Supabase SQL Editor efter felrapport-kommentar.sql.
+-- Ersätter sparfunktionen. Befintliga rapporter, kommentarer och XP bevaras.
 begin;
-
-alter table public.kg_felrapport
-  add column if not exists granskningskommentar text,
-  add column if not exists granskad_tid timestamptz,
-  add column if not exists granskad_av uuid;
 
 create or replace function public.kg_felrapport_granska(
   p_kurs text, p_uppgift text, p_status text, p_kommentar text, p_redigera boolean default false
@@ -57,47 +52,7 @@ begin
 end;
 $$;
 
-create or replace function public.kg_mina_felrapporter()
-returns jsonb language sql stable security definer set search_path = '' as $$
-  select coalesce(jsonb_agg(x.rad order by x.granskad desc nulls last), '[]'::jsonb)
-  from (
-    select r.granskad_tid as granskad, jsonb_build_object(
-      'kurs',r.kurs,'uppgift',r.uppgift,'deluppgift',to_jsonb(r)->>'deluppgift',
-      'status',case when r.ignorerad is true then 'ignorerad'
-                    when r.atgardad is true then 'atgardad' else 'oppen' end,
-      'kommentar',r.granskningskommentar,'granskad',r.granskad_tid,
-      'rapporterad',coalesce(to_jsonb(r)->>'tid',to_jsonb(r)->>'skapad')
-    ) as rad
-    from public.kg_felrapport r
-    where auth.uid() is not null and r.anvandare=auth.uid()
-    order by r.granskad_tid desc nulls last limit 200
-  ) x
-$$;
-
-create or replace function public.kg_felrapport_granskningssvar()
-returns jsonb language plpgsql stable security definer set search_path = '' as $$
-begin
-  if auth.uid() is null or not (coalesce(public.kg_ar_admin(),false)
-    or coalesce(kg_private.ar_larare(auth.uid()),false)) then
-    return jsonb_build_object('ok',false,'code','larare_kravs');
-  end if;
-  return jsonb_build_object('ok',true,'lista',coalesce((
-    select jsonb_agg(jsonb_build_object('kurs',x.kurs,'uppgift',x.uppgift,
-      'status',case when x.ignorerad is true then 'ignorerad' else 'atgardad' end,
-      'kommentar',x.granskningskommentar,'granskad',x.granskad_tid))
-    from (select distinct on (r.kurs,r.uppgift) r.* from public.kg_felrapport r
-      where r.granskad_tid is not null and r.atgardad is true
-      order by r.kurs,r.uppgift,r.granskad_tid desc) x
-  ),'[]'::jsonb));
-end;
-$$;
-
 revoke all on function public.kg_felrapport_granska(text,text,text,text,boolean) from public, anon;
-revoke all on function public.kg_mina_felrapporter() from public, anon;
-revoke all on function public.kg_felrapport_granskningssvar() from public, anon;
 grant execute on function public.kg_felrapport_granska(text,text,text,text,boolean) to authenticated;
-grant execute on function public.kg_mina_felrapporter() to authenticated;
-grant execute on function public.kg_felrapport_granskningssvar() to authenticated;
-
 notify pgrst, 'reload schema';
 commit;

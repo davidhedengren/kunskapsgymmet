@@ -5,7 +5,7 @@ create schema kg_private;
 create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;
 create function public.kg_ar_admin() returns boolean language sql stable as $$select auth.uid()='00000000-0000-0000-0000-000000000001'::uuid$$;
 create function kg_private.ar_larare(uuid) returns boolean language sql stable as $$select $1='00000000-0000-0000-0000-000000000002'::uuid$$;
-create table public.kg_felrapport(id bigint generated always as identity primary key,kurs text,uppgift text,deluppgift text,anvandare uuid,enhet text,atgardad boolean default false,ignorerad boolean default false,tid timestamptz default now());
+create table public.kg_felrapport(id bigint generated always as identity primary key,kurs text,uppgift text,deluppgift text,anvandare uuid,enhet text,kommentar text,atgardad boolean default false,ignorerad boolean default false,tid timestamptz default now());
 alter table public.kg_felrapport enable row level security;
 create table kg_private.audit(kurs text,uppgift text,status text);
 create function public.kg_synka_felstatus(p_kurs text,p_uppgift text,p_status text) returns void language sql security definer as $$insert into kg_private.audit values(p_kurs,p_uppgift,p_status)$$;

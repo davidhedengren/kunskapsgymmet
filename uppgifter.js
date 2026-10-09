@@ -30304,8 +30304,8 @@ window.BANK = [
     "niva": "E",
     "typ": "Lyftkraft vid vila",
     "poang": "(1/0/0)",
-    "t": "<p>En varmluftsballong svävar stilla. Bortse från luftmotståndet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"ballong\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><ellipse cx=\"210\" cy=\"85\" rx=\"58\" ry=\"66\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"190\" y1=\"145\" x2=\"200\" y2=\"175\" stroke=\"#374151\"/><line x1=\"230\" y1=\"145\" x2=\"220\" y2=\"175\" stroke=\"#374151\"/><rect x=\"195\" y=\"175\" width=\"30\" height=\"22\" fill=\"#fef3c7\" stroke=\"#374151\"/></svg></span><p>Rita ett friläggningsdiagram och namnge alla yttre krafter på föremålet.</p><p>Frilägg ballong, innehållen luft, korg och personer som ett gemensamt system. Ingen förankringslina finns. Bortse från eventuell reaktionskraft från brännaren.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det gemensamma systemet påverkas av tyngdkraft nedåt och luftens lyftkraft uppåt.</p></div><div class=\"facit-stycke\"><p>När ballongen svävar stilla är krafterna lika stora.</p></div><div class=\"facit-stycke\"><p>Krafter i linorna mellan korg och ballong är interna i det valda systemet.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Friläggning – punktmodell\"><title>Friläggning – punktmodell</title><defs><marker id=\"a8_409\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Friläggning – punktmodell</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_409)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">FA</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_409)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></span></div>",
+    "t": "<p>En varmluftsballong svävar stilla. Det finns ingen lina till marken. Räkna ballongen, luften i den, korgen och personerna som en enda kropp.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"ballong\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><ellipse cx=\"210\" cy=\"85\" rx=\"58\" ry=\"66\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"190\" y1=\"145\" x2=\"200\" y2=\"175\" stroke=\"#374151\"/><line x1=\"230\" y1=\"145\" x2=\"220\" y2=\"175\" stroke=\"#374151\"/><rect x=\"195\" y=\"175\" width=\"30\" height=\"22\" fill=\"#fef3c7\" stroke=\"#374151\"/></svg><p>Rita pilar som visar krafterna på denna kropp. Skriv vad varje kraft heter.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Jorden ger en tyngdkraft nedåt. Luften runt ballongen ger en lyftkraft uppåt. Eftersom ballongen svävar stilla är dessa krafter lika stora.</p><p>Linornas krafter mellan ballongen och korgen räknas inte som yttre krafter, eftersom båda ingår i den kropp vi ritar krafterna på.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Krafter på ballongen\"><title>Krafter på ballongen</title><defs><marker id=\"a8_409\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#b43123\"/></marker></defs><rect width=\"420\" height=\"320\" fill=\"white\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#333\">Krafter på ballongen</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"75\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_409)\"/><text x=\"222\" y=\"65\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">FA</text><line x1=\"210\" y1=\"155\" x2=\"210\" y2=\"235\" stroke=\"#b43123\" stroke-width=\"2.2\" marker-end=\"url(#a8_409)\"/><text x=\"222\" y=\"254\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#8f271c\">Fg</text><circle cx=\"210\" cy=\"155\" r=\"5\" fill=\"#283c49\"/></svg></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
       "begrepp",
@@ -30320,7 +30320,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Vilket omgivande medium kan ge en lyftkraft?</p>",
     "spel": false,
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "manuellKomplettering": true,
     "omrTidigare": "ritakrafter",
@@ -38413,7 +38413,7 @@ window.BANK = [
     "niva": "C",
     "typ": "frilägga föremål och identifiera yttre krafter",
     "poang": "(1/2/0)",
-    "t": "<p>Ett block hålls i vila helt nedsänkt i vatten av ett spänt, lodrätt snöre som är fäst i botten. Blocket har ingen kontakt med botten eller väggarna. Rita ett friläggningsdiagram och jämför lyftkraften med tyngdkraften. Ange resultanten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"vatten\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"80\" y=\"80\" width=\"260\" height=\"110\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"80\" y1=\"80\" x2=\"340\" y2=\"80\" stroke=\"#2563eb\" stroke-width=\"2\"/><rect x=\"165\" y=\"105\" width=\"90\" height=\"55\" fill=\"#fef3c7\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"210\" y1=\"160\" x2=\"210\" y2=\"190\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span>",
+    "t": "<p>Ett block hålls i vila helt nedsänkt i vatten av ett spänt, lodrätt snöre som är fäst i botten. Blocket har ingen kontakt med botten eller väggarna. Rita pilar som visar krafterna och jämför lyftkraften med tyngdkraften. Ange den sammanlagda kraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"vatten\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"80\" y=\"80\" width=\"260\" height=\"110\" fill=\"#dbeafe\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"80\" y1=\"80\" x2=\"340\" y2=\"80\" stroke=\"#2563eb\" stroke-width=\"2\"/><rect x=\"165\" y=\"105\" width=\"90\" height=\"55\" fill=\"#fef3c7\" stroke=\"#374151\" stroke-width=\"2\"/><line x1=\"210\" y1=\"160\" x2=\"210\" y2=\"190\" stroke=\"#374151\" stroke-width=\"2\"/></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftkraften \\(F_{\\mathrm{A}}\\) är uppåt.</p></div><div class=\"facit-stycke\"><p>Tyngdkraften mg och snörkraften S är nedåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger F_A − mg − S = 0, alltså</p><div class=\"facit-matte\">\\[F_{\\mathrm{A}}=m g+S\\]</div></div></div><div class=\"facit-stycke\"><p>Lyftkraften är större än tyngdkraften eftersom snöret är spänt.</p></div><div class=\"facit-stycke\"><p>Resultanten är noll.</p></div><div class=\"facit-stycke\"><p>Det finns ingen normalkraft från botten eftersom blocket inte har kontakt med den.</p></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Kraftdiagram\"><rect width=\"440\" height=\"300\" fill=\"white\"/><rect x=\"180\" y=\"110\" width=\"80\" height=\"40\" rx=\"4\" fill=\"#eef2f6\" stroke=\"#333\"/><line x1=\"220\" y1=\"110\" x2=\"220.0\" y2=\"45.0\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"220,35 224.0,45.0 216.0,45.0\" fill=\"#245c9b\"/><text x=\"220.0\" y=\"20.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">F_A</text><line x1=\"198\" y1=\"150\" x2=\"198.0\" y2=\"177.5\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"198,187.5 194.0,177.5 202.0,177.5\" fill=\"#245c9b\"/><text x=\"198.0\" y=\"202.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">mg</text><line x1=\"242\" y1=\"150\" x2=\"242.0\" y2=\"177.5\" stroke=\"#245c9b\" stroke-width=\"2.5\"/><polygon points=\"242,187.5 238.0,177.5 246.0,177.5\" fill=\"#245c9b\"/><text x=\"242.0\" y=\"202.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"17\">S</text></svg></span><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraftpilarna visar riktningarna schematiskt.</p></div><div class=\"facit-stycke\"><p>Beloppsjämförelserna framgår av lösningen.</p></div></div></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -62295,7 +62295,7 @@ window.BANK = [
     "niva": "C",
     "typ": "flytande kropp och volymandel",
     "poang": "(2/2/0)",
-    "t": "<p>Fyra homogena kroppar flyter stilla i vatten med densiteten 998 kg/m³. Materialdensiteterna är kork 240, tall 520, ek 750 och is 917 kg/m³. Bortse från luftens lyftkraft och ytspänning.</p><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna nedsänkt volymandel för kork, tall, ek och is.</li><li>Ta fram sambandet mellan nedsänkt volymandel och de två densiteterna. Förklara varför formen inte ingår.</li></ol>",
+    "t": "<p>Fyra föremål flyter stilla i vatten med densiteten 998 kg/m³. Materialdensiteterna är kork 240, tall 520, ek 750 och is 917 kg/m³. </p><p><strong>a)</strong> Hur många procent av volymen ligger under ytan för kork, tall, ek och is?</p><p><strong>b)</strong> Ta fram en formel för andelen under ytan utifrån föremålets och vattnets densitet. Förklara varför föremålets form inte ingår.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelarna är 240/998 ≈ 24,0 %, 520/998 ≈ 52,1 %, 750/998 ≈ 75,2 % och</p><div class=\"facit-matte\">\\[\\frac{917}{998}\\approx 91{,}9\\, \\%\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{v}} g V_{\\mathrm{ned}}=\\rho_{\\mathrm{k}} g V_{\\mathrm{tot}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\frac{V_{\\mathrm{ned}}}{V_{\\mathrm{tot}}}=\\frac{\\rho_{\\mathrm{k}}}{\\rho_{\\mathrm{v}}}\\]</div></div></div><div class=\"facit-stycke\"><p>Formen kan påverka orientering och stabilitet, men inte den undanträngda volym som krävs för att balansera samma tyngd i denna modell.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -62326,8 +62326,8 @@ window.BANK = [
     "niva": "E",
     "typ": "arkimedes princip och undanträngd volym",
     "poang": "(3/0/0)",
-    "t": "<p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla föremålets volym till m³. Svara i m³. Avrunda vid behov till 5 decimaler.</li><li>Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.</li><li>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">1 cm³ = 10⁻⁶ m³, så</p><div class=\"facit-matte\">\\[250 c m^{3}=0{,}000250\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,00025 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = 250 · 10⁻⁶ m³.</p><div class=\"facit-matte\">\\[m_{\\mathrm{v}}=998 V=0{,}2495\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,2495 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = ρ_v g V = 998 · 9,82 · 250 · 10⁻⁶ = 2,45009 N.</p></div></div><p class=\"facit-svar\">Svar: 2,45 N.</p></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p><strong>a)</strong> Omvandla föremålets volym till m³. Svara i m³. Avrunda vid behov till 5 decimaler.</p><p><strong>b)</strong> Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.</p><p><strong>c)</strong> Bestäm lyftkraften. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>En kubikcentimeter är \\(10^{-6}\\) m³.</p>\\[V=250\\cdot10^{-6}=0{,}00025\\,\\mathrm{m^3}.\\]<p><strong>Svar:</strong> \\(0{,}00025\\,\\mathrm{m^3}\\).</p><p><strong>b)</strong></p><p>Volymen är \\(250\\,\\mathrm{cm^3}=0{,}000250\\,\\mathrm{m^3}\\). Vattnets massa är dess densitet gånger volymen.</p>\\[m=998\\cdot0{,}000250=0{,}2495\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(0{,}2495\\,\\mathrm{kg}\\).</p><p><strong>c)</strong></p><p>Hela föremålet tränger undan vatten. Volymen är \\(250\\,\\mathrm{cm^3}=0{,}000250\\,\\mathrm{m^3}\\).</p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=998\\cdot9{,}82\\cdot0{,}000250=2{,}45009\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(2{,}450\\,\\mathrm{N}\\).</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
@@ -62337,19 +62337,19 @@ window.BANK = [
     "rättSvar": [
       0.00025,
       0.2495,
-      2.45
+      2.45009
     ],
     "tolerans": [
       0,
-      0,
-      0
+      5e-05,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Volymenheter ändras i tre dimensioner.</p>",
     "traningsniva": 2,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "m³",
@@ -62368,17 +62368,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Omvandla volymen till m³. Svara med fem decimaler.",
         "t": "<p>Ett föremål har volymen 250 cm³.</p><p>Omvandla volymen till m³. Svara med fem decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">1 cm³ = 10⁻⁶ m³, så</p><div class=\"facit-matte\">\\[250 c m^{3}=0{,}000250\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,00025 m³.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En kubikcentimeter är \\(10^{-6}\\) m³.</p>\\[V=250\\cdot10^{-6}=0{,}00025\\,\\mathrm{m^3}.\\]<p><strong>Svar:</strong> \\(0{,}00025\\,\\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Volymenheter ändras i tre dimensioner.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -62388,11 +62388,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.",
         "t": "<p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p>Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = 250 · 10⁻⁶ m³.</p><div class=\"facit-matte\">\\[m_{\\mathrm{v}}=998 V=0{,}2495\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,2495 kg.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen är \\(250\\,\\mathrm{cm^3}=0{,}000250\\,\\mathrm{m^3}\\). Vattnets massa är dess densitet gånger volymen.</p>\\[m=998\\cdot0{,}000250=0{,}2495\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(0{,}2495\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Använd vattnets densitet och den undanträngda volymen.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -62401,12 +62401,12 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm lyftkraften. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = ρ_v g V = 998 · 9,82 · 250 · 10⁻⁶ = 2,45009 N.</p></div></div><p class=\"facit-svar\">Svar: 2,45 N.</p></div>",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål med volymen 250 cm³ hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela föremålet tränger undan vatten. Volymen är \\(250\\,\\mathrm{cm^3}=0{,}000250\\,\\mathrm{m^3}\\).</p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=998\\cdot9{,}82\\cdot0{,}000250=2{,}45009\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(2{,}450\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Lyftkraften är tyngden av det undanträngda vattnet.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -62423,9 +62423,9 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "lyftkraft från volym",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett helt nedsänkt föremål undantränger 1,5 liter vatten med densiteten 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1,5 liter = 0,0015 m³.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 1000 · 9,82 · 0,0015 = 14,73 N.</p></div></div><p class=\"facit-svar\">Svar: 14,73 N.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett helt nedsänkt föremål undantränger 1,5 liter vatten med densiteten 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p><p>Den undanträngda volymen är \\(0{,}0015\\,\\mathrm{m^3}\\).</p>\\[F_L=1000\\cdot9{,}82\\cdot0{,}0015=14{,}73\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(14{,}73\\,\\mathrm{N}\\).</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
@@ -62433,13 +62433,13 @@ window.BANK = [
     "familjNyckel": "arkimedes__lyftkraft_fran_volym",
     "svarstyp": "numeriskt",
     "rättSvar": 14.73,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Omvandla volymen till m³.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -63056,9 +63056,9 @@ window.BANK = [
     "id": "6.13",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
-    "poang": "(4/0/0)",
-    "t": "<p>En homogen kloss med densiteten 650 kg/m³ läggs i tur och ordning i bensin (740 kg/m³), vatten (998 kg/m³) och kvicksilver (13 600 kg/m³). Bortse från luftens lyftkraft och ytspänning.</p><ol style=\"display:grid;gap:0.85rem\"><li>I vilka av vätskorna flyter klossen? Motivera.</li><li>Bestäm nedsänkt volymandel i bensin och kvicksilver.</li><li>Har klossen större lyftkraft när den flyter i kvicksilver än när den flyter i bensin? Förklara.</li></ol>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En kloss med densiteten 650 kg/m³ läggs i tur och ordning i bensin (740 kg/m³), vatten (998 kg/m³) och kvicksilver (13 600 kg/m³). Bortse från luftens lyftkraft och ytspänning.</p><p><strong>a)</strong> I vilka av vätskorna flyter klossen? Motivera.</p><p><strong>b)</strong> Bestäm nedsänkt volymandel i bensin och kvicksilver.</p><p><strong>c)</strong> Har klossen större lyftkraft när den flyter i kvicksilver än när den flyter i bensin? Förklara.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Klossen flyter i alla tre eftersom 650 kg/m³ är lägre än alla tre vätskedensiteterna.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid flytjämvikt är andelen ρ_k/ρ_v.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I bensin:</p><div class=\"facit-matte\">\\[\\frac{650}{740}\\approx 87{,}8\\, \\%\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I kvicksilver:</p><div class=\"facit-matte\">\\[\\frac{650}{13\\,600}\\approx 4{,}78\\, \\%\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej.</p></div><div class=\"facit-stycke\"><p>När samma kloss flyter stilla är lyftkraften lika stor som dess oförändrade tyngdkraft.</p></div><div class=\"facit-stycke\"><p>Den tätare vätskan ger denna kraft med mindre undanträngd volym.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -63090,8 +63090,8 @@ window.BANK = [
     "niva": "C",
     "typ": "last på ett fritt isflak",
     "poang": "(1/3/0)",
-    "t": "<p>Ett fritt, stelt isflak har arean 3,0 m² och tjockleken 12 cm. Isens densitet är 917 kg/m³ och vattnets 998 kg/m³. Flaket hålls vågrätt och lasten ligger ovanför vattnet. Bortse från vågor, deformation och risken att isen går sönder.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Last på ett nästan helt nedsänkt isflak\"><title>Last på ett nästan helt nedsänkt isflak</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M20 135 H480 V280 H20Z\" fill=\"#e2eef5\"/><line x1=\"20\" y1=\"135\" x2=\"480\" y2=\"135\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"115\" y=\"130\" width=\"265\" height=\"80\" fill=\"#f2f6f8\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"53\" r=\"10\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><path d=\"M250 63 V98 L235 130 M250 98 L265 130 M230 78 L250 70 L270 78\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"420\" y1=\"130\" x2=\"420\" y2=\"210\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"415\" y1=\"130\" x2=\"425\" y2=\"130\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"415\" y1=\"210\" x2=\"425\" y2=\"210\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"455\" y=\"175.0\" text-anchor=\"middle\">12 cm</text><text x=\"250\" y=\"175\" text-anchor=\"middle\">is</text><text x=\"60\" y=\"240\" text-anchor=\"middle\">vatten</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften när flaket precis är helt nedsänkt.</li><li>Bestäm gränsmassan för en last ovanpå flaket vid detta läge.</li><li>Ta fram vilken tjocklek som krävs för lasten 85 kg vid samma area. Vad måste ändras om överytan ska ligga strikt ovanför vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=3{,}0\\cdot 0{,}12=0{,}36\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,36 = 3528,1296 N ≈ 3,53 kN.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid gränsen:</p><div class=\"facit-matte\">\\[m_{\\mathrm{last}}=\\left(998-917\\right)\\cdot 0{,}36=29{,}16\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[\\left(\\rho_{\\mathrm{v}}-\\rho_{\\mathrm{is}}\\right) A h=m_{\\mathrm{last}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[h=\\frac{85}{\\left(998-917\\right)\\cdot 3{,}0}\\approx 0{,}34979\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p>För att överytan ska ligga strikt ovanför vattnet behövs större tjocklek än detta gränsvärde.</p></div><div class=\"facit-stycke\"><p>Modellen beskriver flytjämvikt, inte isens brotthållfasthet eller verklig säker bärighet.</p></div></div></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett fritt, stelt isflak har arean 3,0 m² och tjockleken 12 cm. Isens densitet är 917 kg/m³ och vattnets 998 kg/m³. Flaket hålls vågrätt och lasten ligger ovanför vattnet. Bortse från vågor, deformation och risken att isen går sönder.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Last på ett nästan helt nedsänkt isflak\"><title>Last på ett nästan helt nedsänkt isflak</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M20 135 H480 V280 H20Z\" fill=\"#e2eef5\"/><line x1=\"20\" y1=\"135\" x2=\"480\" y2=\"135\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"115\" y=\"130\" width=\"265\" height=\"80\" fill=\"#f2f6f8\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"53\" r=\"10\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><path d=\"M250 63 V98 L235 130 M250 98 L265 130 M230 78 L250 70 L270 78\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"420\" y1=\"130\" x2=\"420\" y2=\"210\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"415\" y1=\"130\" x2=\"425\" y2=\"130\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"415\" y1=\"210\" x2=\"425\" y2=\"210\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"455\" y=\"175.0\" text-anchor=\"middle\">12 cm</text><text x=\"250\" y=\"175\" text-anchor=\"middle\">is</text><text x=\"60\" y=\"240\" text-anchor=\"middle\">vatten</text></g></svg></span><p><strong>a)</strong> Bestäm lyftkraften när flaket precis är helt nedsänkt.</p><p><strong>b)</strong> Bestäm största massan för en last ovanpå flaket vid detta läge.</p><p><strong>c)</strong> Ta fram vilken tjocklek som krävs för lasten 85 kg vid samma area. Vad måste ändras om ovansidan ska ligga strikt ovanför vattnet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Hela isflakets volym är bottenarean gånger höjden.</p>\\[V=3{,}0\\cdot0{,}12=0{,}36\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[\\begin{aligned}F_L&=998\\cdot0{,}36\\cdot9{,}82\\\\ &\\approx3528{,}13\\,\\mathrm N\\\\ &\\approx3{,}53\\,\\mathrm{kN}.\\end{aligned}\\]<p><strong>b)</strong> Vid gränsen ligger isens ovansida vid vattenytan. Is och last väger tillsammans lika mycket som hela den undanträngda vattenmassan.</p>\\[m_{\\mathrm{vatten}}=998\\cdot0{,}36=359{,}28\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{is}}=917\\cdot0{,}36=330{,}12\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{last}}=359{,}28-330{,}12=29{,}16\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> En last på 29,2 kg gör att ovansidan ligger vid vattenytan. Lasten måste vara mindre för att ovansidan ska ligga över ytan.</p><p><strong>c)</strong> För att bära 85 kg måste skillnaden mellan undanträngd vattenmassa och isens egen massa vara minst 85 kg.</p>\\[(998-917)\\cdot3{,}0\\cdot h=85.\\]\\[h=\\frac{85}{81\\cdot3{,}0}\\approx0{,}3498\\,\\mathrm m=35{,}0\\,\\mathrm{cm}.\\]<p>Höjden måste vara större än detta om isens ovansida ska ligga över vattenytan.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -63120,23 +63120,23 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "lyftkraft i olika vätskor",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett föremål hålls helt nedsänkt i olja med densiteten 800 kg/m³. Dess volym är 1,75 liter.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}00175\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 800 · 9,82 · 0,00175 = 13,748 N.</p></div></div><p class=\"facit-svar\">Svar: 13,75 N.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål hålls helt nedsänkt i olja med densiteten 800 kg/m³. Dess volym är 1,75 liter.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på den undanträngda oljan.</p><p>Den undanträngda volymen är \\(0{,}00175\\,\\mathrm{m^3}\\).</p>\\[F_L=800\\cdot9{,}82\\cdot0{,}00175=13{,}748\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(13{,}75\\,\\mathrm{N}\\).</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arkimedes__lyftkraft_i_olika_vatskor",
     "svarstyp": "numeriskt",
-    "rättSvar": 13.75,
-    "tolerans": 0,
+    "rättSvar": 13.748,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken densitet ska användas i Arkimedes princip?</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -63151,8 +63151,8 @@ window.BANK = [
     "niva": "C",
     "typ": "hålrum och medeldensitet",
     "poang": "(1/2/0)",
-    "t": "<p>Ett stelt, slutet järnföremål har massan 2,0 kg och ett förseglat hålrum. Det svävar i jämvikt helt under vattenytan utan stöd. Järnets densitet är 7870 kg/m³ och vattnets 998 kg/m³. Bortse från gasmassan i hålrummet och luftens lyftkraft.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm föremålets yttre volym. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm järnmaterialets volym. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm hålrummets volym. Svara i liter. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt:</p><div class=\"facit-matte\">\\[998 g V_{\\mathrm{tot}}=2{,}0 g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{tot}}=\\frac{2{,}0}{998}\\approx 0{,}002004008 m^{3}=2{,}004008\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,004 liter.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{järn}}=\\frac{m}{\\rho_{\\mathrm{järn}}}=\\frac{2{,}0}{7870}\\approx 0{,}000254130 m^{3}=0{,}254130\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,254 liter.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{hål}}=V_{\\mathrm{tot}}-V_{\\mathrm{järn}}=\\frac{2{,}0}{998}-\\frac{2{,}0}{7870}\\approx 0{,}001749878 m^{3}=1{,}749878\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,75 liter.</p></div></div></div>",
+    "t": "<p>Ett slutet järnföremål har massan 2,0 kg och ett tomt hålrum. Det håller sig stilla helt under vatten utan stöd. Järnets densitet är 7870 kg/m³ och vattnets är 998 kg/m³. Räkna med att luften i hålrummet har försumbar massa.</p><p><strong>a)</strong> Hur stor är föremålets hela volym, inklusive hålrummet? Svara i liter med tre decimaler.</p><p><strong>b)</strong> Hur stor volym har järnet? Svara i liter med tre decimaler.</p><p><strong>c)</strong> Hur stor är hålrummets volym? Svara i liter med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[V_{\\mathrm{hela}}=\\frac{2{,}0}{998}\\approx0{,}002004008\\,\\mathrm{m^3}.\\]<p>Omvandla m³ till liter genom att multiplicera med 1000.</p><p><strong>Svar:</strong> \\(2{,}004\\,\\mathrm{liter}\\).</p><p><strong>b)</strong></p><p>Järnets volym är massan delad med järnets densitet.</p>\\[V_{\\mathrm{järn}}=\\frac{2{,}0}{7870}\\approx0{,}000254130\\,\\mathrm{m^3}.\\]<p>Det motsvarar cirka 0,254130 liter.</p><p><strong>Svar:</strong> \\(0{,}254\\,\\mathrm{liter}\\).</p><p><strong>c)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Detta ger hela föremålets volym. Beräkna även järnets volym och ta skillnaden.</p>\\[V_{\\mathrm{hela}}=\\frac{2{,}0}{998}\\approx0{,}002004008\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{järn}}=\\frac{2{,}0}{7870}\\approx0{,}000254130\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{hål}}=V_{\\mathrm{hela}}-V_{\\mathrm{järn}}\\approx0{,}001749878\\,\\mathrm{m^3}.\\]<p>Det motsvarar cirka 1,749878 liter.</p><p><strong>Svar:</strong> \\(1{,}750\\,\\mathrm{liter}\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -63161,21 +63161,21 @@ window.BANK = [
     "familjNyckel": "arkimedes__halrum_och_medeldensitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.004,
-      0.254,
-      1.75
+      2.00400801603206,
+      0.254129606099111,
+      1.74987840993295
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.0005,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Hur stor vattenvolym måste undanträngas för jämvikt?</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "svarEnhet": [
       "liter",
@@ -63194,13 +63194,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett stelt, slutet järnföremål har massan 2,0 kg och ett förseglat hålrum. Det svävar i jämvikt helt under vattenytan utan stöd. Järnets densitet är 7870 kg/m³ och vattnets 998 kg/m³. Bortse från gasmassan i hålrummet och luftens lyftkraft.</p>",
+    "spelIntro": "<p>Ett slutet järnföremål har massan 2,0 kg och ett tomt hålrum. Det håller sig stilla helt under vatten utan stöd. Järnets densitet är 7870 kg/m³ och vattnets är 998 kg/m³. Räkna med att luften i hålrummet har försumbar massa.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm föremålets yttre volym. Svara i liter. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett stelt, slutet järnföremål har massan 2,0 kg och ett förseglat hålrum. Det svävar i jämvikt helt under vattenytan utan stöd. Järnets densitet är 7870 kg/m³ och vattnets 998 kg/m³. Bortse från gasmassan i hålrummet och luftens lyftkraft.</p><p>Bestäm föremålets yttre volym. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt:</p><div class=\"facit-matte\">\\[998 g V_{\\mathrm{tot}}=2{,}0 g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{tot}}=\\frac{2{,}0}{998}\\approx 0{,}002004008 m^{3}=2{,}004008\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,004 liter.</p></div>",
+        "fraga": "Hur stor är föremålets hela volym, inklusive hålrummet? Svara i liter med tre decimaler.",
+        "t": "<p>Ett slutet föremål med massan 2,0 kg håller sig stilla helt under vatten utan stöd. Vattnets densitet är 998 kg/m³.</p><p>Hur stor är föremålets hela volym, inklusive hålrummet? Svara i liter med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[V_{\\mathrm{hela}}=\\frac{2{,}0}{998}\\approx0{,}002004008\\,\\mathrm{m^3}.\\]<p>Omvandla m³ till liter genom att multiplicera med 1000.</p><p><strong>Svar:</strong> \\(2{,}004\\,\\mathrm{liter}\\).</p></div>",
         "ledtrad": "<p>Hur stor vattenvolym måste undanträngas för jämvikt?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -63213,13 +63213,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor volym har järnet? Svara i liter. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett järnföremål innehåller 2,0 kg järn. Järnets densitet är 7870 kg/m³.</p><p>Hur stor volym har järnet? Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{järn}}=\\frac{m}{\\rho_{\\mathrm{järn}}}=\\frac{2{,}0}{7870}\\approx 0{,}000254130 m^{3}=0{,}254130\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,254 liter.</p></div>",
+        "fraga": "Hur stor volym har järnet? Svara i liter med tre decimaler.",
+        "t": "<p>Ett föremål innehåller 2,0 kg järn. Järnets densitet är 7870 kg/m³.</p><p>Hur stor volym har järnet? Svara i liter med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Järnets volym är massan delad med järnets densitet.</p>\\[V_{\\mathrm{järn}}=\\frac{2{,}0}{7870}\\approx0{,}000254130\\,\\mathrm{m^3}.\\]<p>Det motsvarar cirka 0,254130 liter.</p><p><strong>Svar:</strong> \\(0{,}254\\,\\mathrm{liter}\\).</p></div>",
         "ledtrad": "<p>Järnets massa och densitet är kända.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -63227,13 +63227,13 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm hålrummets volym. Svara i liter. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett stelt, slutet järnföremål har massan 2,0 kg och ett förseglat hålrum. Det svävar i jämvikt helt under vattenytan utan stöd. Järnets densitet är 7870 kg/m³ och vattnets 998 kg/m³. Bortse från gasmassan i hålrummet och luftens lyftkraft.</p><p>Bestäm hålrummets volym. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{hål}}=V_{\\mathrm{tot}}-V_{\\mathrm{järn}}=\\frac{2{,}0}{998}-\\frac{2{,}0}{7870}\\approx 0{,}001749878 m^{3}=1{,}749878\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 1,75 liter.</p></div>",
+        "fraga": "Hur stor är hålrummets volym? Svara i liter med tre decimaler.",
+        "t": "<p>Ett slutet järnföremål har massan 2,0 kg och ett tomt hålrum. Det håller sig stilla helt under vatten utan stöd. Järnets densitet är 7870 kg/m³ och vattnets är 998 kg/m³. Räkna med att luften i hålrummet har försumbar massa.</p><p>Hur stor är hålrummets volym? Svara i liter med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Detta ger hela föremålets volym. Beräkna även järnets volym och ta skillnaden.</p>\\[V_{\\mathrm{hela}}=\\frac{2{,}0}{998}\\approx0{,}002004008\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{järn}}=\\frac{2{,}0}{7870}\\approx0{,}000254130\\,\\mathrm{m^3}.\\]\\[V_{\\mathrm{hål}}=V_{\\mathrm{hela}}-V_{\\mathrm{järn}}\\approx0{,}001749878\\,\\mathrm{m^3}.\\]<p>Det motsvarar cirka 1,749878 liter.</p><p><strong>Svar:</strong> \\(1{,}750\\,\\mathrm{liter}\\).</p></div>",
         "ledtrad": "<p>Skilj mellan yttre volym och materialvolym.</p>",
         "niva": "C",
-        "traningsniva": 3,
-        "arbetsinsats": 2,
+        "traningsniva": 4,
+        "arbetsinsats": 3,
         "poang": "(0/1/0)",
         "formaga": [
           "modellering",
@@ -63249,10 +63249,10 @@ window.BANK = [
     "id": "6.16",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
-    "poang": "(3/0/0)",
-    "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Bortse från hölje och upphängning.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm massan av den undanträngda luften. Svara i kg. Avrunda vid behov till 2 decimaler.</li><li>Bestäm massan av den varma luften. Svara i kg. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{ut}}=1{,}29\\cdot 3{,}0=3{,}87\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,87 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{in}}=1{,}00\\cdot 3{,}0=3{,}00\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften ska balansera varm luft och last:</p><div class=\"facit-matte\">\\[m_{\\mathrm{last}}=1{,}29\\cdot 3{,}0-1{,}00\\cdot 3{,}0=0{,}87\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 kg.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Räkna med att höljet och upphängningen har försumbar massa.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div><p><strong>a)</strong> Bestäm massan av den undanträngda luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p><p><strong>b)</strong> Bestäm massan av den varma luften. Svara i kg. Avrunda vid behov till 2 decimaler.</p><p><strong>c)</strong> Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{ut}}=1{,}29\\cdot 3{,}0=3{,}87\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,87 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{in}}=1{,}00\\cdot 3{,}0=3{,}00\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften ska balansera varm luft och last:</p><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{last}}&=1{,}29\\cdot 3{,}0-1{,}00\\cdot 3{,}0\\\\ &=0{,}87\\, \\mathrm{kg}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 kg.</p></div></div></div>",
     "familj": "Ballonger och lastförmåga",
     "formaga": [
       "procedur"
@@ -63261,13 +63261,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.87,
-      3,
+      3.0,
       0.87
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Använd omgivningens densitet.</p>",
@@ -63294,7 +63294,7 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Bortse från hölje och upphängning.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div>",
+    "spelIntro": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Räkna med att höljet och upphängningen har försumbar massa.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">varm luft</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 3,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -63327,13 +63327,13 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Bortse från hölje och upphängning.</p><p>Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften ska balansera varm luft och last:</p><div class=\"facit-matte\">\\[m_{\\mathrm{last}}=1{,}29\\cdot 3{,}0-1{,}00\\cdot 3{,}0=0{,}87\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 kg.</p></div>",
+        "t": "<p>En ballong innehåller 3,0 m³ varm luft med densiteten 1,00 kg/m³. Omgivande luft har densiteten 1,29 kg/m³. Räkna med att höljet och upphängningen har försumbar massa.</p><p>Bestäm den extra lastmassa som ger jämvikt. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften ska balansera varm luft och last:</p><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{last}}&=1{,}29\\cdot 3{,}0-1{,}00\\cdot 3{,}0\\\\ &=0{,}87\\, \\mathrm{kg}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,87 kg.</p></div>",
         "ledtrad": "<p>Den varma luften har också tyngd.</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
@@ -63347,9 +63347,9 @@ window.BANK = [
     "id": "6.17",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
-    "poang": "(3/0/0)",
-    "t": "<p>Använd g = 9,82 m/s². En stel boll med volymen 1,5 liter och massan 0,20 kg hålls helt nedsänkt i vatten med densiteten 998 kg/m³. Den släpps från vila. I modellen verkar därefter bara hydrostatisk lyftkraft och tyngdkraft; bortse från andra krafter från vattnets rörelse.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften i släppögonblicket. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den sammanlagda kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm modellens startacceleration med uppåt som positiv riktning. Svara i m/s². Avrunda vid behov till 2 decimaler.</li></ol>",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd g = 9,82 m/s². En stel boll med volymen 1,5 liter och massan 0,20 kg hålls helt nedsänkt i vatten med densiteten 998 kg/m³. Den släpps från vila. Räkna bara med vattnets lyftkraft och bollens tyngdkraft.</p><p><strong>a)</strong> Bestäm lyftkraften i släppögonblicket. Svara i N. Avrunda vid behov till 2 decimaler.</p><p><strong>b)</strong> Bestäm den sammanlagda kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.</p><p><strong>c)</strong> Bestäm modellens startacceleration med uppåt som positiv riktning. Svara i m/s². Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,0015 = 14,70054 N.</p></div></div><p class=\"facit-svar\">Svar: 14,7 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F_{\\mathrm{res}}\\) = F<sub>L</sub>−mg = 998 · 9,82 · 0,0015−0,20 · 9,82 = 12,73654 N.</p></div></div><p class=\"facit-svar\">Svar: 12,74 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>a = (F<sub>L</sub>−mg)/m = [998 · 9,82 · 0,0015−0,20 · 9,82]/0,20 = 63,6827 m/s².</p></div></div><p class=\"facit-svar\">Svar: 63,68 m/s².</p></div></div></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -63358,9 +63358,9 @@ window.BANK = [
     "familjNyckel": "arkimedes__lyftkraft_och_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      14.7,
-      12.74,
-      63.68
+      14.70054,
+      12.73654,
+      63.6827
     ],
     "tolerans": [
       0.005,
@@ -63392,17 +63392,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd g = 9,82 m/s². En stel boll med volymen 1,5 liter och massan 0,20 kg hålls helt nedsänkt i vatten med densiteten 998 kg/m³. Den släpps från vila. I modellen verkar därefter bara hydrostatisk lyftkraft och tyngdkraft; bortse från andra krafter från vattnets rörelse.</p>",
+    "spelIntro": "<p>Använd g = 9,82 m/s². En stel boll med volymen 1,5 liter och massan 0,20 kg hålls helt nedsänkt i vatten med densiteten 998 kg/m³. Den släpps från vila. Räkna bara med vattnets lyftkraft och bollens tyngdkraft.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraften i släppögonblicket. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En boll med volymen 1,5 liter är helt nedsänkt i vatten. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>Bestäm lyftkraften i släppögonblicket. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+        "fraga": "Hur stor är vattnets lyftkraft på bollen? Svara i N med två decimaler.",
+        "t": "<p>En boll med volymen 1,5 liter är helt nedsänkt i vatten. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på bollen? Svara i N med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,0015 = 14,70054 N.</p></div></div><p class=\"facit-svar\">Svar: 14,7 N.</p></div>",
         "ledtrad": "<p>Använd vattnets densitet.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -63412,11 +63412,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm den sammanlagda kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En boll på 0,20 kg påverkas av lyftkraften 14,70054 N uppåt och tyngdkraften nedåt. Använd g = 9,82 m/s².</p><p>Bestäm den sammanlagda kraften med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Med uppåt som positiv riktning dras tyngdkraften bort från lyftkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{res}=14{,}70054-0{,}20\\cdot9{,}82=12{,}73654\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12,74 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Med uppåt som positiv riktning dras tyngdkraften bort från lyftkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}F_\\mathrm{res}&=14{,}70054-0{,}20\\cdot9{,}82\\\\ &=12{,}73654\\,\\mathrm N\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12,74 N.</p></div>",
         "ledtrad": "<p>Vilka två krafter återstår när handen släpper?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -63429,7 +63429,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Acceleration är sammanlagd kraft dividerad med massa. Uppåt är positiv riktning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{12{,}73654}{0{,}20}=63{,}6827\\,\\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 63,68 m/s².</p></div>",
         "ledtrad": "<p>Newtons andra lag använder resultantkraften.</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -63447,8 +63447,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "volym från lyftkraft",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett föremål är helt nedsänkt i vatten med densiteten 1000 kg/m³. Lyftkraften är 19,64 N.</p><p>Bestäm den undanträngda volymen. Svara i liter. Avrunda vid behov till 1 decimal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål är helt nedsänkt i vatten med densiteten 1000 kg/m³. Lyftkraften är 19,64 N.</p><p>Bestäm den undanträngda volymen. Svara i liter. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V = F<sub>L</sub>/(ρg) = 19,64/(1000 · 9,82) = 0,0020 m³ = 2,0 liter.</p></div></div><p class=\"facit-svar\">Svar: 2 liter.</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
@@ -63456,14 +63456,14 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__volym_fran_lyftkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Lös ut volymen ur Arkimedes princip.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "liter",
     "svarFormat": "numeriskt",
@@ -63475,7 +63475,7 @@ window.BANK = [
     "id": "6.321",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>En kropp är helt nedsänkt i vatten med densiteten 1000 kg/m³. Lyftkraften är 4,91 N.</p><p>Bestäm kroppens volym. Svara i cm³. Svara med ett heltal.</p>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En kropp är helt nedsänkt i vatten med densiteten 1000 kg/m³. Lyftkraften är 4,91 N.</p><p>Bestäm kroppens volym. Svara i cm³. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{4{,}91}{1000\\cdot 9{,}82}=0{,}0005 m^{3}=500\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 500 cm³.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -63484,19 +63484,19 @@ window.BANK = [
     "ledtrad": "<p>Lös först ut volymen i m³.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__volym_fran_lyftkraft",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 500,
+    "rättSvar": 500.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "cm³",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Volym från lyftkraft"
     ]
@@ -63507,8 +63507,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>Helena står stilla på ett vågrätt underlag. Hennes massa är 70 kg och volymen 0,068 m³. Luftens densitet är 1,29 kg/m³. Modellera luftens lyftkraft med Arkimedes princip.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram ett uttryck för normalkraften N från underlaget.</li><li>Beräkna N och dess procentuella minskning jämfört med mg.</li><li>Visa att den procentuella minskningen inte beror på g om massa, volym och luftdensitet hålls konstanta.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I jämvikt gäller</p><div class=\"facit-matte\">\\[N+\\rho_{\\mathrm{luft}} g V=m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[N=m g-\\rho_{\\mathrm{luft}} g V\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[N=70\\cdot 9{,}82-1{,}29\\cdot 9{,}82\\cdot 0{,}068=686{,}5385896 N\\approx 686{,}54\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Minskningen är</p><div class=\"facit-matte\">\\[\\frac{100\\cdot 1{,}29\\cdot 0{,}068}{70}\\approx 0{,}1253\\, \\%\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den relativa minskningen är (mg−N)/(mg) = ρ_luft gV/(mg) = ρ_luft V/m. g förkortas bort.</p></div></div></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Helena står stilla på ett vågrätt underlag. Hennes massa är 70 kg och volymen 0,068 m³. Luftens densitet är 1,29 kg/m³. Modellera luftens lyftkraft med Arkimedes princip.</p><p><strong>a)</strong> Ta fram ett uttryck för kraften N från underlaget.</p><p><strong>b)</strong> Beräkna N och dess procentuella minskning jämfört med mg.</p><p><strong>c)</strong> Visa att den procentuella minskningen inte beror på g om massa, volym och luftdensitet hålls konstanta.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I jämvikt gäller</p><div class=\"facit-matte\">\\[N+\\rho_{\\mathrm{luft}} g V=m g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[N=m g-\\rho_{\\mathrm{luft}} g V\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}N&=70\\cdot 9{,}82-1{,}29\\cdot 9{,}82\\cdot 0{,}068\\\\ &=686{,}5385896 N\\\\ &\\approx 686{,}54\\, \\mathrm{N}\\end{aligned}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Minskningen är</p><div class=\"facit-matte\">\\[\\frac{100\\cdot 1{,}29\\cdot 0{,}068}{70}\\approx 0{,}1253\\, \\%\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den relativa minskningen är (mg−N)/(mg) = ρ_luft gV/(mg) = ρ_luft V/m. g förkortas bort.</p></div></div></div></div></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "modellering",
@@ -64607,9 +64607,9 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "flöte och sänkets lyftkraft",
-    "poang": "(0/2/0)",
+    "poang": "(0/1/0)",
     "t": "<p>Ett stelt metflöte har volymen 9,0 cm³ och massan 1,8 g. Exakt 20 % av volymen ska vara ovanför ytan. Blysänken med densiteten 11 340 kg/m³ hänger helt nedsänkta under flötet. Vattnets densitet är 998 kg/m³. Bortse från linans massa och volym.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"360\" viewBox=\"0 0 500 360\" role=\"img\" aria-label=\"Flöte med nedsänkt sänke och angiven volymandel\"><title>Flöte med nedsänkt sänke och angiven volymandel</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M20 120 H480 V340 H20Z\" fill=\"#e2eef5\"/><line x1=\"20\" y1=\"120\" x2=\"480\" y2=\"120\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"225\" y=\"100\" width=\"40\" height=\"100\" rx=\"0\" fill=\"#fff\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"245\" y1=\"78\" x2=\"245\" y2=\"100\" stroke=\"#b6372c\" stroke-width=\"1.5\"/><line x1=\"245\" y1=\"200\" x2=\"245\" y2=\"265\" stroke=\"#293747\" stroke-width=\"1.5\"/><ellipse cx=\"245\" cy=\"270\" rx=\"8\" ry=\"12\" fill=\"#a4a1a7\" stroke=\"#293747\"/><text x=\"335\" y=\"275\" text-anchor=\"middle\">blysänken</text><text x=\"115\" y=\"80\" text-anchor=\"middle\">20 % ovanför ytan</text><line x1=\"180\" y1=\"85\" x2=\"225\" y2=\"105\" stroke=\"#788a99\" stroke-width=\"1.5\"/></g></svg></span><p>Bestäm sänkenas sammanlagda massa. Svara i g. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flötets nedsänkta volym är</p><div class=\"facit-matte\">\\[0{,}80\\cdot 9{,}0=7{,}2\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt för flöte och sänken:</p><div class=\"facit-matte\">\\[998 g \\left(7{,}2\\cdot 10^{-6}+\\frac{m}{11\\,340}\\right)=\\left(0{,}0018+m\\right) g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[m=\\frac{\\left(998\\cdot 7{,}2\\cdot 10^{-6}-0{,}0018\\right)}{1-\\frac{998}{11\\,340}}\\approx 0{,}00590531 k g=5{,}90531\\, \\mathrm{g}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,91 g.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flötets nedsänkta volym är</p><div class=\"facit-matte\">\\[0{,}80\\cdot 9{,}0=7{,}2\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Låt m vara sänkenas sammanlagda massa i kg. De har volymen m/11340 m³. Vattnets lyftkraft på flötet och sänkena tillsammans ska balansera deras sammanlagda tyngdkraft:</p><div class=\"facit-matte\">\\[\\begin{gathered}998g\\left(7{,}2\\cdot10^{-6}+\\frac{m}{11340}\\right)\\\\ =\\left(0{,}0018+m\\right)g\\end{gathered}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=\\frac{\\left(998\\cdot 7{,}2\\cdot 10^{-6}-0{,}0018\\right)}{1-\\frac{998}{11\\,340}}\\\\ &\\approx 0{,}00590531 \\,\\mathrm{kg}\\\\ &=5{,}90531\\, \\mathrm{g}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5,91 g.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -64617,14 +64617,14 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__flote_och_sankets_lyftkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.91,
-    "tolerans": 0,
+    "rättSvar": 5.90530883774899,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Även sänkena tränger undan vatten.</p>",
     "traningsniva": 4,
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "svarEnhet": "g",
     "svarFormat": "numeriskt",
@@ -64638,23 +64638,23 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "delvis nedsänkt kropp",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett föremål med volymen 3,0 liter hålls delvis nedsänkt. Exakt 75 % av volymen ligger i vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"97.5\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"187.5\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">75 %</text></svg></div><p>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(V_{\\mathrm{ned}}\\) = 0,75 · 3,0 = 2,25 liter = 0,00225 m³.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 1000 · 9,82 · 0,00225 = 22,095 N.</p></div></div><p class=\"facit-svar\">Svar: 22,1 N.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål med volymen 3,0 liter hålls delvis nedsänkt. Exakt 75 % av volymen ligger i vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"97.5\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"187.5\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">75 %</text></svg></div><p>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bara den del av föremålet som ligger under ytan tränger undan vatten.</p>\\[V_{\\mathrm{under}}=0{,}75\\cdot3{,}0=2{,}25\\,\\mathrm{liter}.\\]<p>Det motsvarar 0,00225 m³.</p>\\[F_L=1000\\cdot9{,}82\\cdot0{,}00225=22{,}095\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(22{,}10\\,\\mathrm{N}\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arkimedes__delvis_nedsankt_kropp",
     "svarstyp": "numeriskt",
-    "rättSvar": 22.1,
-    "tolerans": 0,
+    "rättSvar": 22.095,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Bara den nedsänkta volymen tränger undan vatten.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -64666,7 +64666,7 @@ window.BANK = [
     "id": "6.327",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>En stel kropp har den totala volymen 4,0 liter. Hälften av volymen är nedsänkt i olja med densiteten 800 kg/m³. Bortse från luftens lyftkraft.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#f6e7b0\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"75.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">olja</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"165.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"319\" y=\"148\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">hälften</text></svg></div><p>Bestäm oljans lyftkraft. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En stel kropp har den totala volymen 4,0 liter. Hälften av volymen är nedsänkt i olja med densiteten 800 kg/m³. Bortse från luftens lyftkraft.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#f6e7b0\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"75.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">olja</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"165.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"319\" y=\"148\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">hälften</text></svg></div><p>Bestäm oljans lyftkraft. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(V_{\\mathrm{ned}}\\) = 0,50 · 4,0 liter = 0,0020 m³.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 800 · 9,82 · 0,0020 = 15,712 N.</p></div></div><p class=\"facit-svar\">Svar: 15,712 N.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -64675,7 +64675,7 @@ window.BANK = [
     "ledtrad": "<p>Vilken volym tränger undan olja?</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__delvis_nedsankt_kropp",
     "formaga": [
       "procedur"
@@ -64683,11 +64683,11 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15.712,
-    "tolerans": 0,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Delvis nedsänkt kropp"
     ]
@@ -64699,8 +64699,8 @@ window.BANK = [
     "niva": "A",
     "typ": "flöte och modellens förenklingar",
     "poang": "(0/2/3)",
-    "t": "<p>Ett metflöte med volymen 15 cm³ och massan 3,0 g ska ha exakt en tredjedel av sin volym ovanför vattenytan. Betet har massan 1,2 g och densiteten 1050 kg/m³. Blysänkets densitet är 11 340 kg/m³ och vattnets 998 kg/m³. Sänke och bete är helt nedsänkta. Bortse från linans och krokens massa och volym.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"360\" viewBox=\"0 0 500 360\" role=\"img\" aria-label=\"Flöte med nedsänkt sänke och angiven volymandel\"><title>Flöte med nedsänkt sänke och angiven volymandel</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M20 120 H480 V340 H20Z\" fill=\"#e2eef5\"/><line x1=\"20\" y1=\"120\" x2=\"480\" y2=\"120\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"225\" y=\"90\" width=\"40\" height=\"90\" rx=\"0\" fill=\"#fff\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"245\" y1=\"68\" x2=\"245\" y2=\"90\" stroke=\"#b6372c\" stroke-width=\"1.5\"/><line x1=\"245\" y1=\"180\" x2=\"245\" y2=\"265\" stroke=\"#293747\" stroke-width=\"1.5\"/><ellipse cx=\"245\" cy=\"270\" rx=\"8\" ry=\"12\" fill=\"#a4a1a7\" stroke=\"#293747\"/><text x=\"335\" y=\"275\" text-anchor=\"middle\">blysänke</text><path d=\"M245 282 V309 Q245 327 233 324 Q225 321 230 311 L234 316\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><ellipse cx=\"226\" cy=\"322\" rx=\"8\" ry=\"5\" fill=\"#c98970\" stroke=\"#293747\"/><text x=\"327\" y=\"325\" text-anchor=\"middle\">bete</text><text x=\"115\" y=\"80\" text-anchor=\"middle\">1/3 ovanför ytan</text><line x1=\"180\" y1=\"85\" x2=\"225\" y2=\"95\" stroke=\"#788a99\" stroke-width=\"1.5\"/></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm sänkets massa för den önskade flytnivån.</li><li>Bestäm hur mycket sänkets beräknade massa ändras om man bortser från betet. Är förenklingen rimlig om högst 1 % relativt fel accepteras?</li><li>Ta fram ett uttryck för sänkets massa med flötets nedsänkta volym \\(V_f\\), flötets massa \\(m_f\\), betets massa \\(m_b\\) och densitet \\(\\rho_b\\) samt sänkets densitet \\(\\rho_s\\). Vilket villkor krävs för en positiv sänkesmassa när \\(\\rho_s\\) är större än vattnets densitet \\(\\rho_v\\)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V_{\\mathrm{f}}=10\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Betets skenbara tyngd är</p><div class=\"facit-matte\">\\[0{,}0012\\cdot 9{,}82 \\left(1-\\frac{998}{1050}\\right)\\approx 0{,}000583589\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kraftbalans ger</p><div class=\"facit-matte\">\\[m_{\\mathrm{s}}=\\frac{\\left(998\\cdot 10^{-5}-0{,}0030-0{,}0012 \\left(1-\\frac{998}{1050}\\right)\\right)}{1-\\frac{998}{11\\,340}}\\approx 0{,}00758840 k g=7{,}58840\\, \\mathrm{g}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Utan betet blir</p><div class=\"facit-matte\">\\[m_{\\mathrm{s}}\\approx 7{,}65357\\, \\mathrm{g}\\]</div></div></div><div class=\"facit-stycke\"><p>Skillnaden är cirka 0,06516 g.</p></div><div class=\"facit-stycke\"><p>Relativt det fullständiga värdet är felet cirka 0,859 %, vilket är mindre än 1 %.</p></div><div class=\"facit-stycke\"><p>Förenklingen uppfyller alltså det givna kriteriet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{v}} g V_{\\mathrm{f}}+\\frac{m_{\\mathrm{s}} g \\rho_{\\mathrm{v}}}{\\rho_{\\mathrm{s}}}+\\frac{m_{\\mathrm{b}} g \\rho_{\\mathrm{v}}}{\\rho_{\\mathrm{b}}}=\\left(m_{\\mathrm{f}}+m_{\\mathrm{s}}+m_{\\mathrm{b}}\\right) g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[m_{\\mathrm{s}}=\\frac{\\left(\\rho_{\\mathrm{v}} V_{\\mathrm{f}}-m_{\\mathrm{f}}-m_{\\mathrm{b}} \\left(1-\\frac{\\rho_{\\mathrm{v}}}{\\rho_{\\mathrm{b}}}\\right)\\right)}{1-\\frac{\\rho_{\\mathrm{v}}}{\\rho_{\\mathrm{s}}}}\\]</div></div></div><div class=\"facit-stycke\"><p>Nämnaren är positiv när ρ_s &gt; ρ_v.</p></div><div class=\"facit-stycke\"><p>Positiv sänkesmassa kräver då att täljaren är positiv: flötets återstående bärkraft måste vara större än betets skenbara tyngd.</p></div></div></div></div></div>",
+    "t": "<p>Ett metflöte med volymen 15 cm³ och massan 3,0 g ska ha exakt en tredjedel av sin volym ovanför vattenytan. Betet har massan 1,2 g och densiteten 1050 kg/m³. Blysänkets densitet är 11 340 kg/m³ och vattnets 998 kg/m³. Sänke och bete är helt nedsänkta. Bortse från linans och krokens massa och volym.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"360\" viewBox=\"0 0 500 360\" role=\"img\" aria-label=\"Flöte med nedsänkt sänke och angiven volymandel\"><title>Flöte med nedsänkt sänke och angiven volymandel</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M20 120 H480 V340 H20Z\" fill=\"#e2eef5\"/><line x1=\"20\" y1=\"120\" x2=\"480\" y2=\"120\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"225\" y=\"90\" width=\"40\" height=\"90\" rx=\"0\" fill=\"#fff\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"245\" y1=\"68\" x2=\"245\" y2=\"90\" stroke=\"#b6372c\" stroke-width=\"1.5\"/><line x1=\"245\" y1=\"180\" x2=\"245\" y2=\"265\" stroke=\"#293747\" stroke-width=\"1.5\"/><ellipse cx=\"245\" cy=\"270\" rx=\"8\" ry=\"12\" fill=\"#a4a1a7\" stroke=\"#293747\"/><text x=\"335\" y=\"275\" text-anchor=\"middle\">blysänke</text><path d=\"M245 282 V309 Q245 327 233 324 Q225 321 230 311 L234 316\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><ellipse cx=\"226\" cy=\"322\" rx=\"8\" ry=\"5\" fill=\"#c98970\" stroke=\"#293747\"/><text x=\"327\" y=\"325\" text-anchor=\"middle\">bete</text><text x=\"115\" y=\"80\" text-anchor=\"middle\">1/3 ovanför ytan</text><line x1=\"180\" y1=\"85\" x2=\"225\" y2=\"95\" stroke=\"#788a99\" stroke-width=\"1.5\"/></g></svg></span><p><strong>a)</strong> Bestäm sänkets massa för den önskade flytnivån.</p><p><strong>b)</strong> Bestäm hur mycket sänkets beräknade massa ändras om man bortser från betet. Är förenklingen rimlig om högst 1 % relativt fel accepteras?</p><p><strong>c)</strong> Ta fram ett uttryck för sänkets massa med flötets nedsänkta volym \\(V_f\\), flötets massa \\(m_f\\), betets massa \\(m_b\\) och densitet \\(\\rho_b\\) samt sänkets densitet \\(\\rho_s\\). Vilket villkor krävs för en positiv sänkesmassa när \\(\\rho_s\\) är större än vattnets densitet \\(\\rho_v\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> En tredjedel av flötet ligger över ytan, så två tredjedelar ligger under.</p>\\[V_f=\\frac23\\cdot15=10\\,\\mathrm{cm^3}=10^{-5}\\,\\mathrm{m^3}.\\]<p>Flötet, sänket och betet får varsin lyftkraft. Tillsammans är dessa krafter lika stora som deras sammanlagda tyngdkraft. Sänkets och betets volymer är deras massor delade med respektive densitet. Dela kraftbalansen med g:</p>\\[\\rho_v V_f+\\rho_v\\frac{m_s}{\\rho_s}+\\rho_v\\frac{m_b}{\\rho_b}=m_f+m_s+m_b.\\]<p>Samla termerna med sänkets massa på vänster sida:</p>\\[m_s\\left(1-\\frac{\\rho_v}{\\rho_s}\\right)=\\rho_vV_f-m_f-m_b\\left(1-\\frac{\\rho_v}{\\rho_b}\\right).\\]<p>Betets massa minus den undanträngda vattenmassan är:</p>\\[\\begin{aligned}b&=0{,}0012(1-998/1050)\\\\ &\\approx0{,}0000594286\\,\\mathrm{kg}.\\end{aligned}\\]<p>Samla de kända värdena i täljaren:</p>\\[\\begin{aligned}L&=998\\cdot10^{-5}-0{,}0030-b\\\\ &\\approx0{,}006920571\\,\\mathrm{kg}.\\end{aligned}\\]\\[m_s=\\frac{L}{1-998/11340}\\approx0{,}00758840\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> Sänket ska ha massan cirka 7,59 g.</p><p><strong>b)</strong> Utan betet tas termen med betets massa bort:</p>\\[\\begin{aligned}m_{s,\\mathrm{utan}}&=\\frac{998\\cdot10^{-5}-0{,}0030}{1-998/11340}\\\\ &\\approx0{,}00765357\\,\\mathrm{kg}.\\end{aligned}\\]<p>Utan betet blir massan cirka 7,65357 g, jämfört med 7,58840 g när betet räknas med.</p>\\[\\Delta m=7{,}65357-7{,}58840\\approx0{,}0652\\,\\mathrm g.\\]\\[\\frac{\\Delta m}{7{,}58840}\\cdot100\\approx0{,}859\\,\\%.\\]<p><strong>Svar:</strong> Förenklingen ger ett cirka 0,0652 g för tungt sänke. Felet är mindre än 1 %, så förenklingen uppfyller kravet.</p><p><strong>c)</strong> Lös den allmänna kraftbalansen ovan med avseende på sänkets massa:</p>\\[m_s=\\frac{\\rho_vV_f-m_f-m_b(1-\\rho_v/\\rho_b)}{1-\\rho_v/\\rho_s}.\\]<p>När \\(\\rho_s\\gt\\rho_v\\) är nämnaren positiv. För att sänkets massa ska vara positiv måste också täljaren vara positiv:</p>\\[\\rho_vV_f\\gt m_f+m_b(1-\\rho_v/\\rho_b).\\]<p>Flötets lyftkraft måste alltså räcka till både flötets egen tyngd och den del av betets tyngd som vattnet inte bär.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -64729,7 +64729,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "ballongens lastförmåga",
-    "poang": "(0/2/0)",
+    "poang": "(0/1/0)",
     "t": "<p>En heliumballong har volymen 8,0 m³. Heliumets densitet är 0,179 kg/m³ och luftens 1,29 kg/m³. Höljet har massan 1,2 kg. Bortse från andra delar.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">helium</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 8,0 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"280\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">utrustning</text></svg></div><p>Vilken mätutrustningsmassa ger jämvikt? Svara i kg. Avrunda vid behov till 3 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Undanträngd luftmassa är</p><div class=\"facit-matte\">\\[1{,}29\\cdot 8{,}0=10{,}32\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Heliumets massa är 0,179 · 8,0 = 1,432 kg.</p><div class=\"facit-matte\">\\[m_{\\mathrm{utr}}=10{,}32-1{,}432-1{,}2=7{,}688\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 7,688 kg.</p></div>",
     "familj": "Ballonger och lastförmåga",
@@ -64740,7 +64740,7 @@ window.BANK = [
     "familjNyckel": "arkimedes__ballongens_lastformaga",
     "svarstyp": "numeriskt",
     "rättSvar": 7.688,
-    "tolerans": 0,
+    "tolerans": 0.0005,
     "självrättning": true,
     "ledtrad": "<p>Vad måste lyftkraften bära utöver utrustningen?</p>",
     "traningsniva": 3,
@@ -64761,8 +64761,8 @@ window.BANK = [
     "niva": "C",
     "typ": "densitetsbestämning med dynamometer",
     "poang": "(2/2/0)",
-    "t": "<p>En krona hänger stilla i en dynamometer. I luft visar den 2,45 N och helt nedsänkt i vatten 2,28 N. Vattnets densitet är 998 kg/m³. Kronan rör inte kärlet. Bortse från luftens lyftkraft och vattnets inverkan på upphängningstråden.</p><span class=\"fig\"><svg height=\"321\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"41.486 12.560 367.086 235.507\"><rect x=\"58\" y=\"26\" width=\"54\" height=\"34\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"85\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,45 N</text><line x1=\"85\" y1=\"60\" x2=\"85\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><polygon points=\"61,148 61,120 73,132 85,112 97,132 109,120 109,148\" fill=\"#F6E7C8\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"85\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">i luft</text><path d=\"M232 96 L232 212 L392 212 L392 96\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"234\" y=\"128\" width=\"156\" height=\"82\" fill=\"#DCE6F2\"/><line x1=\"234\" y1=\"128\" x2=\"390\" y2=\"128\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"285\" y=\"26\" width=\"54\" height=\"34\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"312\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,28 N</text><line x1=\"312\" y1=\"60\" x2=\"312\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><polygon points=\"288,186 288,158 300,170 312,150 324,170 336,158 336,186\" fill=\"#F6E7C8\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"312\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">i vatten</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften och kronans yttre volym.</li><li>Bestäm kronans medeldensitet.</li><li>Räcker resultatet för att avgöra om kronan är av rent guld? Guld har densiteten 19 300 kg/m³. Diskutera betydelsen av ett förseglat hålrum.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 2,45−2,28 = 0,17 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{0{,}17}{998\\cdot 9{,}82}\\approx 1{,}73463\\cdot 10^{-5} m^{3}=17{,}3463\\, \\mathrm{cm^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{2{,}45}{9{,}82}\\approx 0{,}249491\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho_{\\mathrm{med}}=\\frac{998\\cdot 2{,}45}{2{,}45-2{,}28}\\approx 14\\,382{,}94\\, \\mathrm{kg/m^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Utan hålrum eller luftbubblor är medeldensiteten materialdensiteten, som är lägre än guldets.</p></div><div class=\"facit-stycke\"><p>Då är kronan inte rent guld.</p></div><div class=\"facit-stycke\"><p>Ett förseglat hålrum kan däremot sänka medeldensiteten även om metallen är rent guld.</p></div><div class=\"facit-stycke\"><p>Mätningen ensam utesluter inte detta.</p></div></div></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En krona hänger stilla i en kraftmätare. I luft visar den 2,45 N och helt nedsänkt i vatten 2,28 N. Vattnets densitet är 998 kg/m³. Kronan rör inte kärlet. Bortse från luftens lyftkraft och vattnets inverkan på upphängningstråden.</p><span class=\"fig\"><svg height=\"321\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"41.486 12.560 367.086 235.507\"><rect x=\"58\" y=\"26\" width=\"54\" height=\"34\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"85\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,45 N</text><line x1=\"85\" y1=\"60\" x2=\"85\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><polygon points=\"61,148 61,120 73,132 85,112 97,132 109,120 109,148\" fill=\"#F6E7C8\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"85\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">i luft</text><path d=\"M232 96 L232 212 L392 212 L392 96\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"234\" y=\"128\" width=\"156\" height=\"82\" fill=\"#DCE6F2\"/><line x1=\"234\" y1=\"128\" x2=\"390\" y2=\"128\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"285\" y=\"26\" width=\"54\" height=\"34\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"312\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,28 N</text><line x1=\"312\" y1=\"60\" x2=\"312\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><polygon points=\"288,186 288,158 300,170 312,150 324,170 336,158 336,186\" fill=\"#F6E7C8\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"312\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">i vatten</text></svg></span><p><strong>a)</strong> Bestäm lyftkraften och kronans yttre volym.</p><p><strong>b)</strong> Bestäm kronans medeldensitet.</p><p><strong>c)</strong> Räcker resultatet för att avgöra om kronan är av rent guld? Guld har densiteten 19 300 kg/m³. Diskutera betydelsen av ett förseglat hålrum.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 2,45−2,28 = 0,17 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}V&=\\frac{0{,}17}{998\\cdot 9{,}82}\\\\ &\\approx 1{,}73463\\cdot 10^{-5} m^{3}\\\\ &=17{,}3463\\, \\mathrm{cm^3}\\end{aligned}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{2{,}45}{9{,}82}\\approx 0{,}249491\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}\\rho_{\\mathrm{med}}&=\\frac{998\\cdot 2{,}45}{2{,}45-2{,}28}\\\\ &\\approx 14\\,382{,}94\\, \\mathrm{kg/m^3}\\end{aligned}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Utan hålrum eller luftbubblor är medeldensiteten materialdensiteten, som är lägre än guldets.</p></div><div class=\"facit-stycke\"><p>Då är kronan inte rent guld.</p></div><div class=\"facit-stycke\"><p>Ett förseglat hålrum kan däremot sänka medeldensiteten även om metallen är rent guld.</p></div><div class=\"facit-stycke\"><p>Mätningen ensam utesluter inte detta.</p></div></div></div></div></div>",
     "familj": "Vägning i vätska",
     "formaga": [
       "modellering",
@@ -64791,8 +64791,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "förändrad lyftkraft",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett helt nedsänkt föremål med volymen 2,5 liter flyttas från vatten med densiteten 1000 kg/m³ till saltvatten med densiteten 1040 kg/m³.</p><p>Hur mycket ökar lyftkraften? Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett helt nedsänkt föremål med volymen 2,5 liter flyttas från vatten med densiteten 1000 kg/m³ till saltvatten med densiteten 1040 kg/m³.</p><p>Hur mycket ökar lyftkraften? Svara i N. Avrunda vid behov till 3 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>ΔF<sub>L</sub> = (1040−1000) · 9,82 · 0,0025 = 0,982 N.</p></div></div><p class=\"facit-svar\">Svar: 0,982 N.</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
@@ -64801,13 +64801,13 @@ window.BANK = [
     "familjNyckel": "arkimedes__forandrad_lyftkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 0.982,
-    "tolerans": 0,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Volymen är oförändrad; jämför vätskornas densiteter.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -64828,19 +64828,19 @@ window.BANK = [
     "ledtrad": "<p>Vilka storheter är oförändrade i Arkimedes princip?</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__forandrad_lyftkraft",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
+    "rättSvar": 15.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Förändrad lyftkraft"
     ]
@@ -65424,8 +65424,8 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En silverkub med sidan 2,0 cm hålls helt nedsänkt i etanol med densiteten 789 kg/m³. Vätskan omger kuben på alla sidor och kuben rör inte kärlet.</p><p>Bestäm lyftkraften. Svara i mN. Avrunda vid behov till 1 decimal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En silverkub med sidan 2,0 cm hålls helt nedsänkt i etanol med densiteten 789 kg/m³. Vätskan omger kuben på alla sidor och kuben rör inte kärlet.</p><p>Bestäm lyftkraften. Svara i mN. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}020^{3}=8{,}0\\cdot 10^{-6}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 789 · 9,82 · 8,0 · 10⁻⁶ = 0,06198384 N = 61,98384 mN.</p></div></div><p class=\"facit-svar\">Svar: 62 mN.</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
@@ -65433,15 +65433,15 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__lyftkraft_fran_geometrisk_volym",
     "svarstyp": "numeriskt",
-    "rättSvar": 62,
-    "tolerans": 0,
+    "rättSvar": 61.98384,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först kubens volym i m³.</p>",
     "traningsniva": 2,
     "typ": "lyftkraft från geometrisk volym",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "mN",
     "svarFormat": "numeriskt",
@@ -65454,9 +65454,9 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "C",
-    "poang": "(3/1/0)",
-    "t": "<p>Ett homogent föremål hänger stilla i en dynamometer. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 3 decimaler.</li><li>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</li><li>Bestäm föremålets volym. Svara i dm³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{5{,}6}{9{,}82}\\approx 0{,}570265\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,57 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 5,6−3,4 = 2,2 N.</p></div></div><p class=\"facit-svar\">Svar: 2,2 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{\\left(5{,}6-3{,}4\\right)}{998\\cdot 9{,}82}\\approx 0{,}000224482 m^{3}=0{,}224482 d m^{3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,224 dm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">m = 5,6/g och</p><div class=\"facit-matte\">\\[V=\\frac{\\left(5{,}6-3{,}4\\right)}{998 g}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\rho=\\frac{998\\cdot 5{,}6}{2{,}2}\\approx 2540{,}36\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2540 kg/m³.</p></div></div></div>",
+    "poang": "(2/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål hänger stilla i en kraftmätare. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p><strong>a)</strong> Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 3 decimaler.</p><p><strong>b)</strong> Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p><p><strong>c)</strong> Bestäm föremålets volym. Svara i dm³. Avrunda vid behov till 3 decimaler.</p><p><strong>d)</strong> Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kraftmätaren visar föremålets tyngdkraft i luft. Dela kraften med g för att få massan.</p>\\[m=\\frac{5{,}6}{9{,}82}\\approx0{,}570265\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(0{,}570\\,\\mathrm{kg}\\).</p><p><strong>b)</strong></p><p>Vattnet bär den del av tyngden som försvinner från kraftmätarens avläsning.</p>\\[F_L=5{,}6-3{,}4=2{,}2\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(2{,}2\\,\\mathrm{N}\\).</p><p><strong>c)</strong></p><p>Skillnaden mellan avläsningarna är lyftkraften.</p>\\[F_L=5{,}6-3{,}4=2{,}2\\,\\mathrm N.\\]\\[V=\\frac{2{,}2}{998\\cdot9{,}82}\\approx0{,}000224482\\,\\mathrm{m^3}.\\]<p>Multiplicera med 1000 för att få dm³.</p><p><strong>Svar:</strong> \\(0{,}224\\,\\mathrm{dm^3}\\).</p><p><strong>d)</strong></p><p>Avläsningen i luft ger massan. Skillnaden mellan avläsningarna ger volymen via Arkimedes princip.</p>\\[m=\\frac{5{,}6}{9{,}82}\\approx0{,}570265\\,\\mathrm{kg}.\\]\\[F_L=5{,}6-3{,}4=2{,}2\\,\\mathrm N.\\]\\[V=\\frac{2{,}2}{998\\cdot9{,}82}\\approx0{,}000224482\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{m}{V}=\\frac{998\\cdot5{,}6}{2{,}2}\\approx2540{,}36\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(2540\\,\\mathrm{kg/m^3}\\).</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
       "modellering",
@@ -65465,16 +65465,16 @@ window.BANK = [
     "familjNyckel": "arkimedes__densitet_fran_vagning_i_vatska",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.57,
+      0.570264765784114,
       2.2,
-      0.224,
-      2540
+      0.224481549657359,
+      2540.36363636364
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.0005,
+      0.05,
+      0.0005,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>I luft motsvarar avläsningen tyngden.</p>",
@@ -65504,13 +65504,13 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett homogent föremål hänger stilla i en dynamometer. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål hänger stilla i en kraftmätare. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett föremål hänger stilla i en dynamometer som visar 5,6 N i luft. Bortse från luftens lyftkraft. Använd g = 9,82 m/s².</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{5{,}6}{9{,}82}\\approx 0{,}570265\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,57 kg.</p></div>",
+        "t": "<p>Ett föremål hänger stilla i en kraftmätare som visar 5,6 N i luft. Bortse från luftens lyftkraft. Använd g = 9,82 m/s².</p><p>Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraftmätaren visar föremålets tyngdkraft i luft. Dela kraften med g för att få massan.</p>\\[m=\\frac{5{,}6}{9{,}82}\\approx0{,}570265\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(0{,}570\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>I luft motsvarar avläsningen tyngden.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -65523,9 +65523,9 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En dynamometer visar 5,6 N för ett föremål i luft och 3,4 N när det är helt nedsänkt i vatten. Föremålet hänger stilla utan att röra kärlet. Bortse från luftens lyftkraft.</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 5,6−3,4 = 2,2 N.</p></div></div><p class=\"facit-svar\">Svar: 2,2 N.</p></div>",
-        "ledtrad": "<p>Vilken kraft avlastar dynamometern?</p>",
+        "t": "<p>En kraftmätare visar 5,6 N för ett föremål i luft och 3,4 N när det är helt nedsänkt i vatten. Föremålet hänger stilla utan att röra kärlet. Bortse från luftens lyftkraft.</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet bär den del av tyngden som försvinner från kraftmätarens avläsning.</p>\\[F_L=5{,}6-3{,}4=2{,}2\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(2{,}2\\,\\mathrm{N}\\).</p></div>",
+        "ledtrad": "<p>Vilken kraft avlastar kraftmätaren?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -65537,13 +65537,13 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm föremålets volym. Svara i dm³. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett homogent föremål hänger stilla i en dynamometer. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm föremålets volym. Svara i dm³. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{\\left(5{,}6-3{,}4\\right)}{998\\cdot 9{,}82}\\approx 0{,}000224482 m^{3}=0{,}224482 d m^{3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,224 dm³.</p></div>",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>Ett föremål hänger stilla i en kraftmätare. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm föremålets volym. Svara i dm³. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skillnaden mellan avläsningarna är lyftkraften.</p>\\[F_L=5{,}6-3{,}4=2{,}2\\,\\mathrm N.\\]\\[V=\\frac{2{,}2}{998\\cdot9{,}82}\\approx0{,}000224482\\,\\mathrm{m^3}.\\]<p>Multiplicera med 1000 för att få dm³.</p><p><strong>Svar:</strong> \\(0{,}224\\,\\mathrm{dm^3}\\).</p></div>",
         "ledtrad": "<p>Använd utslagsminskningen i Arkimedes princip.</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
@@ -65551,8 +65551,8 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.",
-        "t": "<p>Ett homogent föremål hänger stilla i en dynamometer. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">m = 5,6/g och</p><div class=\"facit-matte\">\\[V=\\frac{\\left(5{,}6-3{,}4\\right)}{998 g}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\rho=\\frac{998\\cdot 5{,}6}{2{,}2}\\approx 2540{,}36\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2540 kg/m³.</p></div>",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,6 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">3,4 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>Ett föremål hänger stilla i en kraftmätare. Den visar 5,6 N i luft och 3,4 N när föremålet är helt nedsänkt i vatten med densiteten 998 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avläsningen i luft ger massan. Skillnaden mellan avläsningarna ger volymen via Arkimedes princip.</p>\\[m=\\frac{5{,}6}{9{,}82}\\approx0{,}570265\\,\\mathrm{kg}.\\]\\[F_L=5{,}6-3{,}4=2{,}2\\,\\mathrm N.\\]\\[V=\\frac{2{,}2}{998\\cdot9{,}82}\\approx0{,}000224482\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{m}{V}=\\frac{998\\cdot5{,}6}{2{,}2}\\approx2540{,}36\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(2540\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Bestäm massan och den volym som tränger undan vatten.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -65574,8 +65574,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "vätskans densitet från lyftkraft",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett föremål med volymen 2,75 liter är helt nedsänkt i en okänd vätska. Lyftkraften är 21,604 N.</p><p>Bestäm vätskans densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål med volymen 2,75 liter är helt nedsänkt i en okänd vätska. Lyftkraften är 21,604 N.</p><p>Bestäm vätskans densitet. Svara i kg/m³. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}00275\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>ρ = F<sub>L</sub>/(gV) = 21,604/(9,82 · 0,00275) = 800 kg/m³.</p></div></div><p class=\"facit-svar\">Svar: 800 kg/m³.</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
@@ -65583,14 +65583,14 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__vatskans_densitet_fran_lyftkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 800,
+    "rättSvar": 800.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Lös ut vätskans densitet ur Arkimedes princip.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "kg/m³",
     "svarFormat": "numeriskt",
@@ -65724,7 +65724,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>En ballong innehåller 520 m³ helium. Hölje, korg, utrustning, passagerare och sandbarlast har tillsammans massan 600 kg. Luftens densitet är 1,29 kg/m³ och heliumets 0,178 kg/m³. Volym och densiteter antas konstanta under starten. Det finns tillräckligt med sand att kasta.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">helium</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 520 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"289\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">korg och last</text></svg></div><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den undanträngda luftmassan och hur stor övrig massa ballongen kan bära i jämvikt.</li><li>Hur mycket sand måste kastas för jämvikt? Vilket villkor gäller för att ballongen ska börja stiga?</li><li>Sanden kan bara kastas i hela kilogram. Vilken är den minsta heltalsmassan som ger en uppåtriktad resultant?</li></ol>",
+    "t": "<p>En ballong innehåller 520 m³ helium. Hölje, korg, utrustning, passagerare och sand har tillsammans massan 600 kg. Luftens densitet är 1,29 kg/m³ och heliumets 0,178 kg/m³. Volym och densiteter antas konstanta under starten. Det finns tillräckligt med sand att kasta.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">helium</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 520 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"289\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">korg och last</text></svg></div><p><strong>a)</strong> Bestäm den undanträngda luftmassan och hur stor övrig massa ballongen kan bära i jämvikt.</p><p><strong>b)</strong> Hur mycket sand måste kastas för jämvikt? Vilket villkor gäller för att ballongen ska börja stiga?</p><p><strong>c)</strong> Sanden kan bara kastas i hela kilogram. Vilken är den minsta heltalsmassan som ger en uppåtriktad resultant?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">m_luft = 1,29 · 520 = 670,8 kg.</p><div class=\"facit-matte\">\\[m_{\\mathrm{He}}=0{,}178\\cdot 520=92{,}56\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Övrig massa i jämvikt:</p><div class=\"facit-matte\">\\[670{,}8-92{,}56=578{,}24\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För jämvikt måste 600−578,24 = 21,76 kg kastas.</p></div><div class=\"facit-stycke\"><p>För att börja accelerera uppåt måste mer än 21,76 kg kastas, eftersom exakt detta värde ger noll resultant.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Minsta heltalsmassan över 21,76 kg är 22 kg.</p></div></div></div></div></div>",
     "familj": "Ballonger och lastförmåga",
     "formaga": [
@@ -66132,7 +66132,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En kub med sidan 8,0 cm hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kubens volym. Svara i cm³. Svara med ett heltal.</li><li>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En kub med sidan 8,0 cm hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p><strong>a)</strong> Bestäm kubens volym. Svara i cm³. Svara med ett heltal.</p><p><strong>b)</strong> Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=8{,}0^{3}=512\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 512 cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}080^{3}=0{,}000512\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,000512 = 5,01778432 N.</p></div></div><p class=\"facit-svar\">Svar: 5,02 N.</p></div></div></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
@@ -66141,12 +66141,12 @@ window.BANK = [
     "familjNyckel": "arkimedes__lyftkraft_fran_geometrisk_volym",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      512,
-      5.02
+      512.0,
+      5.01778432
     ],
     "tolerans": [
       0,
-      0
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Volymen av en kub är sidan upphöjd till tre.</p>",
@@ -66154,7 +66154,7 @@ window.BANK = [
     "typ": "lyftkraft från geometrisk volym",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "cm³",
@@ -66170,16 +66170,16 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kub med sidan 8,0 cm hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En kub med sidan 8,0 cm hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm kubens volym. Svara i cm³. Svara med ett heltal.",
-        "t": "<p>En kub med sidan 8,0 cm hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p>Bestäm kubens volym. Svara i cm³. Svara med ett heltal.</p>",
+        "t": "<p>En kub har sidan 8,0 cm.</p><p>Bestäm kubens volym. Svara i cm³. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=8{,}0^{3}=512\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 512 cm³.</p></div>",
         "ledtrad": "<p>Volymen av en kub är sidan upphöjd till tre.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
@@ -66189,12 +66189,12 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En kub med sidan 8,0 cm hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En kub med sidan 8,0 cm hålls helt nedsänkt i vatten med densiteten 998 kg/m³ utan kontakt med kärlet.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}080^{3}=0{,}000512\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,000512 = 5,01778432 N.</p></div></div><p class=\"facit-svar\">Svar: 5,02 N.</p></div>",
         "ledtrad": "<p>Omvandla sidlängden till meter innan du beräknar volymen.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -67507,7 +67507,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "poang": "(1/1/0)",
-    "t": "<p>En homogen kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan. Bortse från luftens lyftkraft och ytspänning.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"183.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">70 %</text></svg></div><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.</li><li>Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Hur många procent av dess volym ligger då under ytan? Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
+    "t": "<p>En kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"183.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">70 %</text></svg></div><p><strong>a)</strong> Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.</p><p><strong>b)</strong> Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Hur många procent av dess volym ligger då under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}} V g=998\\cdot 0{,}70 V g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}}=698{,}6\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 698,6 kg/m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Klossens densitet är</p><div class=\"facit-matte\">\\[0{,}70\\cdot 998=698{,}6\\, \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>I havsvatten blir andelen 698,6/1025, alltså cirka 68,1561 %.</p></div></div><p class=\"facit-svar\">Svar: 68,2 %.</p></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -67518,11 +67518,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       698.6,
-      68.2
+      68.1560975609756
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Lyftkraften balanserar tyngden.</p>",
@@ -67546,12 +67546,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En homogen kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan. Bortse från luftens lyftkraft och ytspänning.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"183.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">70 %</text></svg></div>",
+    "spelIntro": "<p>En kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"183.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">70 %</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En homogen kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan. Bortse från luftens lyftkraft och ytspänning.</p><p>Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.</p>",
+        "t": "<p>En kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan.</p><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"183.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">70 %</text></svg><p>Bestäm klossens densitet. Svara i kg/m³. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}} V g=998\\cdot 0{,}70 V g\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}}=698{,}6\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 698,6 kg/m³.</p></div>",
         "ledtrad": "<p>Lyftkraften balanserar tyngden.</p>",
         "niva": "E",
@@ -67565,7 +67565,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Hur många procent av dess volym ligger då under ytan? Svara i %. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En homogen kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan. Bortse från luftens lyftkraft och ytspänning.</p><p>Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Hur många procent av dess volym ligger då under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
+        "t": "<p>En kloss flyter stilla i sötvatten med densiteten 998 kg/m³. Där ligger 70 % av volymen under ytan.</p><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"183.0\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">70 %</text></svg><p>Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Hur många procent av dess volym ligger då under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Klossens densitet är</p><div class=\"facit-matte\">\\[0{,}70\\cdot 998=698{,}6\\, \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>I havsvatten blir andelen 698,6/1025, alltså cirka 68,1561 %.</p></div></div><p class=\"facit-svar\">Svar: 68,2 %.</p></div>",
         "ledtrad": "<p>Klossens massa och volym ändras inte.</p>",
         "niva": "C",
@@ -67588,23 +67588,23 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "lyftkraft i olika vätskor",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett föremål är helt nedsänkt i etanol med densiteten 790 kg/m³ och undantränger 2,3 liter.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>2,3 liter = 0,0023 m³.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 790 · 9,82 · 0,0023 = 17,84294 N.</p></div></div><p class=\"facit-svar\">Svar: 17,84 N.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål är helt nedsänkt i etanol med densiteten 790 kg/m³ och undantränger 2,3 liter.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på den undanträngda etanolen.</p><p>Den undanträngda volymen är \\(0{,}0023\\,\\mathrm{m^3}\\).</p>\\[F_L=790\\cdot9{,}82\\cdot0{,}0023=17{,}84294\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(17{,}84\\,\\mathrm{N}\\).</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "arkimedes__lyftkraft_i_olika_vatskor",
     "svarstyp": "numeriskt",
-    "rättSvar": 17.84,
-    "tolerans": 0,
+    "rättSvar": 17.84294,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Använd etanolens densitet.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -67618,9 +67618,9 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "densitet från vägning i vätska",
-    "poang": "(2/1/0)",
-    "t": "<p>En sten hänger stilla i en dynamometer. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">7,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 1 decimal.</li><li>Bestäm stenens volym. Svara i cm³. Svara med ett heltal.</li><li>Bestäm stenens medeldensitet. Svara i kg/m³. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 12,0−7,5 = 4,5 N.</p></div></div><p class=\"facit-svar\">Svar: 4,5 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{\\left(12{,}0-7{,}5\\right)}{998\\cdot 9{,}82}\\approx 0{,}000459167 m^{3}=459{,}167\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 459 cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{\\left(\\frac{12{,}0}{g}\\right)}{\\frac{4{,}5}{998 g}}=\\frac{998\\cdot 12{,}0}{4{,}5}\\approx 2661{,}33\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2661 kg/m³.</p></div></div></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En sten hänger stilla i en kraftmätare. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">7,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p><strong>a)</strong> Bestäm lyftkraften. Svara i N. Avrunda vid behov till 1 decimal.</p><p><strong>b)</strong> Bestäm stenens volym. Svara i cm³. Svara med ett heltal.</p><p><strong>c)</strong> Bestäm stenens medeldensitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vattnets lyftkraft minskar kraftmätarens avläsning.</p>\\[F_L=12{,}0-7{,}5=4{,}5\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(4{,}5\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Skillnaden mellan avläsningarna ger lyftkraften.</p>\\[F_L=12{,}0-7{,}5=4{,}5\\,\\mathrm N.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V=\\frac{F_L}{\\rho g}=\\frac{4{,}5}{998\\cdot9{,}82}\\approx0{,}000459167\\,\\mathrm{m^3}.\\]<p>Multiplicera med \\(10^6\\) för att få cm³.</p><p><strong>Svar:</strong> \\(459\\,\\mathrm{cm^3}\\).</p><p><strong>c)</strong></p><p>Avläsningen i luft ger massan. Skillnaden mellan avläsningarna ger lyftkraften och därmed volymen.</p>\\[m=\\frac{12{,}0}{9{,}82}\\approx1{,}221996\\,\\mathrm{kg}.\\]\\[F_L=12{,}0-7{,}5=4{,}5\\,\\mathrm N.\\]\\[V=\\frac{4{,}5}{998\\cdot9{,}82}\\approx0{,}000459167\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{m}{V}=\\frac{998\\cdot12{,}0}{4{,}5}\\approx2661{,}33\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(2661\\,\\mathrm{kg/m^3}\\).</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
       "modellering",
@@ -67630,13 +67630,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.5,
-      459,
-      2661
+      459.166806117326,
+      2661.33333333333
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.05,
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "ledtrad": "<p>Jämför avläsningarna.</p>",
@@ -67662,13 +67662,13 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sten hänger stilla i en dynamometer. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">7,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En sten hänger stilla i en kraftmätare. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">7,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm lyftkraften. Svara i N. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En sten hänger stilla i en dynamometer. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 12,0−7,5 = 4,5 N.</p></div></div><p class=\"facit-svar\">Svar: 4,5 N.</p></div>",
+        "t": "<p>En sten hänger stilla i en kraftmätare. Mätaren visar 12,0 N i luft och 7,5 N när stenen är helt under vatten.</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">7,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnets lyftkraft minskar kraftmätarens avläsning.</p>\\[F_L=12{,}0-7{,}5=4{,}5\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(4{,}5\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Jämför avläsningarna.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -67681,13 +67681,13 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm stenens volym. Svara i cm³. Svara med ett heltal.",
-        "t": "<p>En sten hänger stilla i en dynamometer. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm stenens volym. Svara i cm³. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{\\left(12{,}0-7{,}5\\right)}{998\\cdot 9{,}82}\\approx 0{,}000459167 m^{3}=459{,}167\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 459 cm³.</p></div>",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">7,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>En sten hänger stilla i en kraftmätare. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm stenens volym. Svara i cm³. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skillnaden mellan avläsningarna ger lyftkraften.</p>\\[F_L=12{,}0-7{,}5=4{,}5\\,\\mathrm N.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V=\\frac{F_L}{\\rho g}=\\frac{4{,}5}{998\\cdot9{,}82}\\approx0{,}000459167\\,\\mathrm{m^3}.\\]<p>Multiplicera med \\(10^6\\) för att få cm³.</p><p><strong>Svar:</strong> \\(459\\,\\mathrm{cm^3}\\).</p></div>",
         "ledtrad": "<p>Vilken vattenvolym har tyngden som motsvarar utslagsminskningen?</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
@@ -67695,8 +67695,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm stenens medeldensitet. Svara i kg/m³. Svara med ett heltal.",
-        "t": "<p>En sten hänger stilla i en dynamometer. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm stenens medeldensitet. Svara i kg/m³. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{\\left(\\frac{12{,}0}{g}\\right)}{\\frac{4{,}5}{998 g}}=\\frac{998\\cdot 12{,}0}{4{,}5}\\approx 2661{,}33\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2661 kg/m³.</p></div>",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">7,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg><p>En sten hänger stilla i en kraftmätare. Den visar 12,0 N i luft och 7,5 N när stenen är helt nedsänkt i vatten med densiteten 998 kg/m³. Stenen rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm stenens medeldensitet. Svara i kg/m³. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avläsningen i luft ger massan. Skillnaden mellan avläsningarna ger lyftkraften och därmed volymen.</p>\\[m=\\frac{12{,}0}{9{,}82}\\approx1{,}221996\\,\\mathrm{kg}.\\]\\[F_L=12{,}0-7{,}5=4{,}5\\,\\mathrm N.\\]\\[V=\\frac{4{,}5}{998\\cdot9{,}82}\\approx0{,}000459167\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{m}{V}=\\frac{998\\cdot12{,}0}{4{,}5}\\approx2661{,}33\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(2661\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Avläsningen i luft ger massan, skillnaden ger volymen.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -67719,7 +67719,7 @@ window.BANK = [
     "niva": "C",
     "typ": "flytdjup och densitet",
     "poang": "(2/1/0)",
-    "t": "<p>En kloss med raka, lodräta sidor flyter stilla i vatten. Klossen är gjord av samma material rakt igenom. Vattnets densitet är 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><ol type=\"a\"><li>Hur hög är den del av klossen som ligger under vattenytan? Svara i cm med ett heltal.</li><li>Hur många procent av klossens volym ligger under vattenytan? Svara i % med ett heltal.</li><li>Bestäm klossens densitet. Svara i kg/m³ med en decimal.</li></ol>",
+    "t": "<p>En kloss med raka, lodräta sidor flyter stilla i vatten. Klossen är gjord av samma material rakt igenom. Vattnets densitet är 998 kg/m³. Klossen är 20 cm hög och 8,0 cm sticker upp ovanför vattenytan.</p><svg height=\"212\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 62.857 481.429 165.000\"><rect x=\"20\" y=\"120\" width=\"440\" height=\"100\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"120\" x2=\"460\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"72\" width=\"140\" height=\"120\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"340\" y1=\"72\" x2=\"340\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"72\" x2=\"345\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">8,0 cm</text><line x1=\"410\" y1=\"72\" x2=\"410\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"72\" x2=\"415\" y2=\"72\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"405\" y1=\"192\" x2=\"415\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"418\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">20 cm</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p><strong>a)</strong> Hur hög är den del av klossen som ligger under vattenytan? Svara i cm med ett heltal.</p><p><strong>b)</strong> Hur många procent av klossens volym ligger under vattenytan? Svara i % med ett heltal.</p><p><strong>c)</strong> Bestäm klossens densitet. Svara i kg/m³ med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Dra bort höjden ovanför ytan från klossens hela höjd.</p>\\[h=20-8{,}0=12\\,\\mathrm{cm}.\\]<p><strong>Svar:</strong> 12 cm.</p><p><strong>b)</strong></p><p>Under ytan ligger \\(20-8{,}0=12\\) cm av klossens höjd. De raka, lodräta sidorna gör att samma andel av volymen ligger under ytan.</p>\\[\\frac{12}{20}\\cdot100=60\\,\\%.\\]<p><strong>Svar:</strong> 60 %.</p><p><strong>c)</strong></p><p>Klossen flyter stilla. Vattnets lyftkraft är därför lika stor som klossens tyngdkraft. Enligt Arkimedes princip väger klossen lika mycket som det vatten den tränger undan.</p><p>Under ytan ligger \\(20-8{,}0=12\\) cm. Det är \\(12/20=0{,}60\\) av klossens volym. Klossens densitet är därför 0,60 gånger vattnets densitet.</p>\\[\\rho_{\\mathrm{kloss}}=0{,}60\\cdot998=598{,}8\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> 598,8 kg/m³.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -67728,8 +67728,8 @@ window.BANK = [
     "familjNyckel": "arkimedes__flytdjup_och_densitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      12,
-      60,
+      12.0,
+      60.0,
       598.8
     ],
     "tolerans": [
@@ -67816,8 +67816,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "densitet från vägning i vätska",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett homogent föremål hänger stilla i en dynamometer. Den visar 9,82 N i luft och 6,285 N när föremålet är helt nedsänkt i vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft och trådens volym; föremålet rör inte kärlet.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">9,82 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"376\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">6,285 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett föremål hänger stilla i en kraftmätare. Den visar 9,82 N i luft och 6,285 N när föremålet är helt nedsänkt i vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft och trådens volym; föremålet rör inte kärlet.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"172\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">9,82 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"376\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">6,285 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften är 9,82−6,285 = 3,535 N. m = 9,82/g och</p><div class=\"facit-matte\">\\[V=\\frac{3{,}535}{1000 g}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\rho=\\frac{1000\\cdot 9{,}82}{3{,}535}\\approx 2777{,}93\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2778 kg/m³.</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
@@ -67826,8 +67826,8 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__densitet_fran_vagning_i_vatska",
     "svarstyp": "numeriskt",
-    "rättSvar": 2778,
-    "tolerans": 0,
+    "rättSvar": 2777.93493635078,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -67848,8 +67848,8 @@ window.BANK = [
     "niva": "C",
     "typ": "flytande flottars lastförmåga",
     "poang": "(2/1/0)",
-    "t": "<p>En stel frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Vattnets densitet är 998 kg/m³. Lasten hålls ovanför vattnet och fördelas så att flotten ligger vågrätt. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"130\" width=\"500\" height=\"90\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften när flotten precis är helt nedsänkt. Svara i kN. Avrunda vid behov till 3 decimaler.</li><li>Bestäm flottens egen tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.</li><li>Bestäm gränsmassan för lasten när flottens överyta ligger vid vattenytan. Svara i kg. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,80 = 7840,288 N = 7,840288 kN.</p></div></div><p class=\"facit-svar\">Svar: 7,84 kN.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{f}}=25\\cdot 0{,}80=20\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=20\\cdot 9{,}82=196{,}4\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 196,4 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">ρ_v gV = (ρ_f V+m_last)g.</p><div class=\"facit-matte\">\\[m_{\\mathrm{last}}=\\left(998-25\\right)\\cdot 0{,}80=778{,}4\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 778,4 kg.</p></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En stel frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Vattnets densitet är 998 kg/m³. Lasten hålls ovanför vattnet och fördelas så att flotten ligger vågrätt. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"106\" width=\"500\" height=\"114\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"106\" x2=\"520\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><p><strong>a)</strong> Bestäm lyftkraften när flotten precis är helt nedsänkt. Svara i kN. Avrunda vid behov till 3 decimaler.</p><p><strong>b)</strong> Bestäm flottens egen tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.</p><p><strong>c)</strong> Bestäm den största lastmassan när flottens överyta ligger vid vattenytan. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=998\\cdot0{,}80\\cdot9{,}82=7840{,}288\\,\\mathrm N.\\]<p>Dela med 1000 för att få kN.</p><p><strong>Svar:</strong> \\(7{,}840\\,\\mathrm{kN}\\).</p><p><strong>b)</strong></p><p>Flottens egen massa är densiteten gånger volymen.</p>\\[m=25\\cdot0{,}80=20\\,\\mathrm{kg}.\\]\\[F_g=20\\cdot9{,}82=196{,}4\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(196{,}4\\,\\mathrm{N}\\).</p><p><strong>c)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Vid gränsen ligger ovansidan vid vattenytan, så hela flottens volym tränger undan vatten.</p>\\[m_{\\mathrm{vatten}}=998\\cdot0{,}80=798{,}4\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{flotte}}=25\\cdot0{,}80=20\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{last}}=798{,}4-20=778{,}4\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(778{,}4\\,\\mathrm{kg}\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -67858,14 +67858,14 @@ window.BANK = [
     "familjNyckel": "arkimedes__flytande_flottars_lastformaga",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.84,
+      7.840288,
       196.4,
       778.4
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.0005,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken volym vatten trängs undan vid gränsen?</p>",
@@ -67891,17 +67891,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En stel frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Vattnets densitet är 998 kg/m³. Lasten hålls ovanför vattnet och fördelas så att flotten ligger vågrätt. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"130\" width=\"500\" height=\"90\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En stel frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Vattnets densitet är 998 kg/m³. Lasten hålls ovanför vattnet och fördelas så att flotten ligger vågrätt. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"106\" width=\"500\" height=\"114\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"106\" x2=\"520\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är vattnets lyftkraft på flotten? Svara i kN. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En flotte med volymen 0,80 m³ är helt under vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"130\" width=\"500\" height=\"90\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Hur stor är vattnets lyftkraft på flotten? Svara i kN. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,80 = 7840,288 N = 7,840288 kN.</p></div></div><p class=\"facit-svar\">Svar: 7,84 kN.</p></div>",
+        "t": "<p>En flotte med volymen 0,80 m³ är helt under vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"106\" width=\"500\" height=\"114\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"106\" x2=\"520\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Hur stor är vattnets lyftkraft på flotten? Svara i kN. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=998\\cdot0{,}80\\cdot9{,}82=7840{,}288\\,\\mathrm N.\\]<p>Dela med 1000 för att få kN.</p><p><strong>Svar:</strong> \\(7{,}840\\,\\mathrm{kN}\\).</p></div>",
         "ledtrad": "<p>Vilken volym vatten trängs undan vid gränsen?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -67910,12 +67910,12 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm flottens egen tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"130\" width=\"500\" height=\"90\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Bestäm flottens egen tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{f}}=25\\cdot 0{,}80=20\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=20\\cdot 9{,}82=196{,}4\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 196,4 N.</p></div>",
+        "t": "<p>En frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Använd g = 9,82 m/s².</p><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"106\" width=\"500\" height=\"114\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"106\" x2=\"520\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg><p>Bestäm flottens egen tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Flottens egen massa är densiteten gånger volymen.</p>\\[m=25\\cdot0{,}80=20\\,\\mathrm{kg}.\\]\\[F_g=20\\cdot9{,}82=196{,}4\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(196{,}4\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Beräkna först flottens massa.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -67923,9 +67923,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm gränsmassan för lasten när flottens överyta ligger vid vattenytan. Svara i kg. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En stel frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Vattnets densitet är 998 kg/m³. Lasten hålls ovanför vattnet och fördelas så att flotten ligger vågrätt. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"130\" width=\"500\" height=\"90\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><p>Bestäm gränsmassan för lasten när flottens överyta ligger vid vattenytan. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">ρ_v gV = (ρ_f V+m_last)g.</p><div class=\"facit-matte\">\\[m_{\\mathrm{last}}=\\left(998-25\\right)\\cdot 0{,}80=778{,}4\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 778,4 kg.</p></div>",
+        "fraga": "Bestäm den största lastmassan när flottens överyta ligger vid vattenytan. Svara i kg. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En stel frigolitflotte har volymen 0,80 m³ och densiteten 25 kg/m³. Vattnets densitet är 998 kg/m³. Lasten hålls ovanför vattnet och fördelas så att flotten ligger vågrätt. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg height=\"222\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 35.503 540.000 193.725\"><rect x=\"20\" y=\"106\" width=\"500\" height=\"114\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"106\" x2=\"520\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"106\" width=\"240\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"140\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit, V = 0,80 m³</text><rect x=\"230\" y=\"46\" width=\"80\" height=\"60\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"270\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><p>Bestäm den största lastmassan när flottens överyta ligger vid vattenytan. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Vid gränsen ligger ovansidan vid vattenytan, så hela flottens volym tränger undan vatten.</p>\\[m_{\\mathrm{vatten}}=998\\cdot0{,}80=798{,}4\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{flotte}}=25\\cdot0{,}80=20\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{last}}=798{,}4-20=778{,}4\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(778{,}4\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Räkna bort flottens egen tyngd från lyftkraften.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -67946,9 +67946,9 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>En pråm med lodräta sidor har vattenlinjearean 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Anta vågrätt flytläge och oförändrad vattenlinjearea.</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur mycket ökar den undanträngda vattenvolymen? Svara i m³. Avrunda vid behov till 3 decimaler.</li><li>Hur mycket ökar pråmens djupgående? Svara i cm. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ökningen av lyftkraften ska vara 3000g.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\Delta V=\\frac{3000}{998}\\approx 3{,}006012\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,006 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta V=\\frac{3000}{998}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=12\\cdot 4{,}0=48\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta h=\\frac{\\Delta V}{A}\\approx 0{,}0626253 m=6{,}26253\\, \\mathrm{cm}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,26 cm.</p></div></div></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En pråm med lodräta sidor har en yta vid vattenytan på 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Pråmen ligger vågrätt även när gruset lastas på.</p><p><strong>a)</strong> Hur mycket ökar den undanträngda vattenvolymen? Svara i m³. Avrunda vid behov till 3 decimaler.</p><p><strong>b)</strong> Hur mycket ökar pråmens höjd under vattenytan? Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ökningen av lyftkraften ska vara 3000g.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\Delta V=\\frac{3000}{998}\\approx 3{,}006012\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,006 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta V=\\frac{3000}{998}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=12\\cdot 4{,}0=48\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta h&=\\frac{\\Delta V}{A}\\\\ &\\approx 0{,}0626253 m\\\\ &=6{,}26253\\, \\mathrm{cm}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,26 cm.</p></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -67957,12 +67957,12 @@ window.BANK = [
     "familjNyckel": "arkimedes__last_och_andrat_djupgaende",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.006,
-      6.26
+      3.0060120240481,
+      6.2625250501002
     ],
     "tolerans": [
-      0,
-      0
+      0.0005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vad måste den extra lyftkraften balansera?</p>",
@@ -67986,28 +67986,28 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En pråm med lodräta sidor har vattenlinjearean 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Anta vågrätt flytläge och oförändrad vattenlinjearea.</p>",
+    "spelIntro": "<p>En pråm med lodräta sidor har en yta vid vattenytan på 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Pråmen ligger vågrätt även när gruset lastas på.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur mycket ökar den undanträngda vattenvolymen? Svara i m³. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En pråm med lodräta sidor har vattenlinjearean 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Anta vågrätt flytläge och oförändrad vattenlinjearea.</p><p>Hur mycket ökar den undanträngda vattenvolymen? Svara i m³. Avrunda vid behov till 3 decimaler.</p>",
+        "t": "<p>En pråm med lodräta sidor har en yta vid vattenytan på 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Pråmen ligger vågrätt även när gruset lastas på.</p><p>Hur mycket ökar den undanträngda vattenvolymen? Svara i m³. Avrunda vid behov till 3 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ökningen av lyftkraften ska vara 3000g.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[\\Delta V=\\frac{3000}{998}\\approx 3{,}006012\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3,006 m³.</p></div>",
         "ledtrad": "<p>Vad måste den extra lyftkraften balansera?</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket ökar pråmens djupgående? Svara i cm. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En pråm med lodräta sidor har vattenlinjearean 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Anta vågrätt flytläge och oförändrad vattenlinjearea.</p><p>Hur mycket ökar pråmens djupgående? Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta V=\\frac{3000}{998}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=12\\cdot 4{,}0=48\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta h=\\frac{\\Delta V}{A}\\approx 0{,}0626253 m=6{,}26253\\, \\mathrm{cm}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,26 cm.</p></div>",
-        "ledtrad": "<p>Ökad undanträngd volym är vattenlinjearea gånger ökat djup.</p>",
+        "fraga": "Hur mycket ökar pråmens höjd under vattenytan? Svara i cm. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En pråm med lodräta sidor har en yta vid vattenytan på 12 m × 4,0 m. Den lastas med 3000 kg grus som ligger ovanför vattnet. Vattnets densitet är 998 kg/m³. Pråmen ligger vågrätt även när gruset lastas på.</p><p>Hur mycket ökar pråmens höjd under vattenytan? Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta V=\\frac{3000}{998}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[A=12\\cdot 4{,}0=48\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta h&=\\frac{\\Delta V}{A}\\\\ &\\approx 0{,}0626253 m\\\\ &=6{,}26253\\, \\mathrm{cm}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,26 cm.</p></div>",
+        "ledtrad": "<p>Ökad undanträngd volym är area vid vattenytan gånger ökat djup.</p>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
@@ -68026,11 +68026,11 @@ window.BANK = [
     "id": "6.76",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "lyftkraft och skenbar tyngd",
-    "poang": "(5/0/0)",
-    "t": "<p>Två linor är vardera 27 m långa och 1,4 mm i diameter. Den ena har densiteten 850 kg/m³ och den andra 1200 kg/m³. Vattnets densitet är 998 kg/m³. Varje lina är en homogen cylinder med volymen V = πr²l. Bortse från ytspänning, luftens lyftkraft och vattenupptag.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm volymen av en lina. Svara i cm³. Avrunda vid behov till 1 decimal.</li><li>Bestäm den mindre täta linans massa. Svara i g. Avrunda vid behov till 1 decimal.</li><li>Bestäm den tätare linans massa. Svara i g. Avrunda vid behov till 1 decimal.</li><li>Hur många procent av flytlinans volym är under ytan när den flyter stilla? Svara i %. Avrunda vid behov till 1 decimal.</li><li>Den tätare linan hålls stilla helt under ytan. Bestäm den uppåtriktade stödkraft som behövs. Svara i N. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[r=0{,}00070\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\pi\\cdot 0{,}00070^{2}\\cdot 27\\approx 0{,}0000415633 m^{3}=41{,}5633\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 41,6 cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=850 \\pi\\cdot 0{,}00070^{2}\\cdot 27\\approx 0{,}0353288 k g=35{,}3288\\, \\mathrm{g}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 35,3 g.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=1200 \\pi\\cdot 0{,}00070^{2}\\cdot 27\\approx 0{,}0498759 k g=49{,}8759\\, \\mathrm{g}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 49,9 g.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger volymandelen 850/998 ≈ 0,851703, alltså cirka 85,1703 %.</p></div></div><p class=\"facit-svar\">Svar: 85,2 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F_{\\mathrm{stöd}}\\) = mg−F<sub>L</sub> = (1200−998)π · 0,00070² · 27 · 9,82 ≈ 0,0824466 N.</p></div></div><p class=\"facit-svar\">Svar: 0,082 N.</p></div></div></div>",
+    "poang": "(4/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Två linor är vardera 27 m långa och 1,4 mm i diameter. Den ena har densiteten 850 kg/m³ och den andra 1200 kg/m³. Vattnets densitet är 998 kg/m³. Räkna varje lina som en cylinder med volymen \\(V=\\pi r^2l\\). Linorna suger inte upp vatten.</p><p><strong>a)</strong> Bestäm volymen av en lina. Svara i cm³. Avrunda vid behov till 1 decimal.</p><p><strong>b)</strong> Bestäm den mindre täta linans massa. Svara i g. Avrunda vid behov till 1 decimal.</p><p><strong>c)</strong> Bestäm den tätare linans massa. Svara i g. Avrunda vid behov till 1 decimal.</p><p><strong>d)</strong> Hur många procent av flytlinans volym är under ytan när den flyter stilla? Svara i %. Avrunda vid behov till 1 decimal.</p><p><strong>e)</strong> Den tätare linan hålls stilla helt under ytan. Bestäm den uppåtriktade stödkraft som behövs. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Radien är hälften av diametern: \\(r=0{,}70\\,\\mathrm{mm}=0{,}00070\\,\\mathrm m\\).</p>\\[\\begin{aligned}V&=\\pi r^2l\\\\ &=\\pi\\cdot0{,}00070^2\\cdot27\\\\ &\\approx0{,}0000415633\\,\\mathrm{m^3}.\\end{aligned}\\]<p>Multiplicera med \\(10^6\\) för att få cm³.</p><p><strong>Svar:</strong> \\(41{,}6\\,\\mathrm{cm^3}\\).</p><p><strong>b)</strong></p><p>Volymen är \\(41{,}5633\\,\\mathrm{cm^3}=41{,}5633\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p>\\[\\begin{aligned}m&=850\\cdot41{,}5633\\cdot10^{-6}\\\\ &=0{,}035328805\\,\\mathrm{kg}.\\end{aligned}\\]<p>Omvandla till gram genom att multiplicera med 1000.</p><p><strong>Svar:</strong> \\(35{,}3\\,\\mathrm{g}\\).</p><p><strong>c)</strong></p><p>Volymen är \\(41{,}5633\\,\\mathrm{cm^3}=41{,}5633\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p>\\[\\begin{aligned}m&=1200\\cdot41{,}5633\\cdot10^{-6}\\\\ &=0{,}04987596\\,\\mathrm{kg}.\\end{aligned}\\]<p>Omvandla till gram genom att multiplicera med 1000.</p><p><strong>Svar:</strong> \\(49{,}9\\,\\mathrm{g}\\).</p><p><strong>d)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är linans densitet delad med vattnets densitet.</p>\\[\\frac{850}{998}\\cdot100\\approx85{,}1703\\,\\%.\\]<p><strong>Svar:</strong> \\(85{,}2\\,\\%\\).</p><p><strong>e)</strong></p><p>Linan hålls stilla. Stödkraften och vattnets lyftkraft balanserar tillsammans linans tyngdkraft.</p><p>Linans radie är \\(0{,}00070\\,\\mathrm m\\), så \\(V=\\pi\\cdot0{,}00070^2\\cdot27\\approx41{,}5633\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p>\\[F_g=1200\\cdot V\\cdot9{,}82\\approx0{,}489782\\,\\mathrm N.\\]\\[F_L=998\\cdot V\\cdot9{,}82\\approx0{,}407335\\,\\mathrm N.\\]\\[F_{\\mathrm{stöd}}=F_g-F_L\\approx0{,}0824466\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}082\\,\\mathrm{N}\\).</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
       "procedur"
@@ -68038,18 +68038,18 @@ window.BANK = [
     "familjNyckel": "arkimedes__lyftkraft_och_skenbar_tyngd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      41.6,
-      35.3,
-      49.9,
-      85.2,
-      0.082
+      41.563270806993,
+      35.328780185944,
+      49.8759249683916,
+      85.1703406813627,
+      0.0824465665035835
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0,
-      0
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Diametern är dubbla radien.</p>",
@@ -68081,17 +68081,17 @@ window.BANK = [
       "e"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två linor är vardera 27 m långa och 1,4 mm i diameter. Den ena har densiteten 850 kg/m³ och den andra 1200 kg/m³. Vattnets densitet är 998 kg/m³. Varje lina är en homogen cylinder med volymen V = πr²l. Bortse från ytspänning, luftens lyftkraft och vattenupptag.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Två linor är vardera 27 m långa och 1,4 mm i diameter. Den ena har densiteten 850 kg/m³ och den andra 1200 kg/m³. Vattnets densitet är 998 kg/m³. Räkna varje lina som en cylinder med volymen \\(V=\\pi r^2l\\). Linorna suger inte upp vatten.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm volymen av en lina. Svara i cm³. Avrunda vid behov till 1 decimal.",
         "t": "<p>En lina är 27 m lång och har diametern 1,4 mm. Räkna linan som en cylinder med volymen \\(V=\\pi r^2l\\).</p><p>Bestäm volymen av en lina. Svara i cm³. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[r=0{,}00070\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\pi\\cdot 0{,}00070^{2}\\cdot 27\\approx 0{,}0000415633 m^{3}=41{,}5633\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 41,6 cm³.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Radien är hälften av diametern: \\(r=0{,}70\\,\\mathrm{mm}=0{,}00070\\,\\mathrm m\\).</p>\\[\\begin{aligned}V&=\\pi r^2l\\\\ &=\\pi\\cdot0{,}00070^2\\cdot27\\\\ &\\approx0{,}0000415633\\,\\mathrm{m^3}.\\end{aligned}\\]<p>Multiplicera med \\(10^6\\) för att få cm³.</p><p><strong>Svar:</strong> \\(41{,}6\\,\\mathrm{cm^3}\\).</p></div>",
         "ledtrad": "<p>Diametern är dubbla radien.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -68101,11 +68101,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.",
         "t": "<p>En lina har volymen 41,5633 cm³ och densiteten 850 kg/m³.</p><p>Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla volymen till m³. Massa är densitet gånger volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=850\\cdot41{,}5633\\cdot10^{-6}\\,\\mathrm{kg}\\approx35{,}3\\,\\mathrm{g}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 35,3 g.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen är \\(41{,}5633\\,\\mathrm{cm^3}=41{,}5633\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p>\\[\\begin{aligned}m&=850\\cdot41{,}5633\\cdot10^{-6}\\\\ &=0{,}035328805\\,\\mathrm{kg}.\\end{aligned}\\]<p>Omvandla till gram genom att multiplicera med 1000.</p><p><strong>Svar:</strong> \\(35{,}3\\,\\mathrm{g}\\).</p></div>",
         "ledtrad": "<p>Använd materialets densitet.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -68115,11 +68115,11 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.",
         "t": "<p>En lina har volymen 41,5633 cm³ och densiteten 1200 kg/m³.</p><p>Hur stor är linans massa? Svara i g. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla volymen till m³. Massa är densitet gånger volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=1200\\cdot41{,}5633\\cdot10^{-6}\\,\\mathrm{kg}\\approx49{,}9\\,\\mathrm{g}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 49,9 g.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen är \\(41{,}5633\\,\\mathrm{cm^3}=41{,}5633\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p>\\[\\begin{aligned}m&=1200\\cdot41{,}5633\\cdot10^{-6}\\\\ &=0{,}04987596\\,\\mathrm{kg}.\\end{aligned}\\]<p>Omvandla till gram genom att multiplicera med 1000.</p><p><strong>Svar:</strong> \\(49{,}9\\,\\mathrm{g}\\).</p></div>",
         "ledtrad": "<p>Samma volym gäller för båda linorna.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -68128,11 +68128,11 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Hur många procent av flytlinans volym är under ytan när den flyter stilla? Svara i %. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En lina med densiteten 850 kg/m³ flyter stilla i vatten med densiteten 998 kg/m³. Bortse från ytspänning, luftens lyftkraft och vattenupptag.</p><p>Hur många procent av flytlinans volym är under ytan när den flyter stilla? Svara i %. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger volymandelen 850/998 ≈ 0,851703, alltså cirka 85,1703 %.</p></div></div><p class=\"facit-svar\">Svar: 85,2 %.</p></div>",
+        "t": "<p>En lina med densiteten 850 kg/m³ flyter stilla i vatten med densiteten 998 kg/m³. Linan suger inte upp vatten.</p><p>Hur många procent av flytlinans volym är under ytan när den flyter stilla? Svara i %. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är linans densitet delad med vattnets densitet.</p>\\[\\frac{850}{998}\\cdot100\\approx85{,}1703\\,\\%.\\]<p><strong>Svar:</strong> \\(85{,}2\\,\\%\\).</p></div>",
         "ledtrad": "<p>Jämför tyngd och lyftkraft.</p>",
         "niva": "E",
-        "traningsniva": 3,
+        "traningsniva": 2,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
@@ -68141,14 +68141,14 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "fraga": "Den tätare linan hålls stilla helt under ytan. Bestäm den uppåtriktade stödkraft som behövs. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Två linor är vardera 27 m långa och 1,4 mm i diameter. Den ena har densiteten 850 kg/m³ och den andra 1200 kg/m³. Vattnets densitet är 998 kg/m³. Varje lina är en homogen cylinder med volymen V = πr²l. Bortse från ytspänning, luftens lyftkraft och vattenupptag.</p><p>Den tätare linan hålls stilla helt under ytan. Bestäm den uppåtriktade stödkraft som behövs. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F_{\\mathrm{stöd}}\\) = mg−F<sub>L</sub> = (1200−998)π · 0,00070² · 27 · 9,82 ≈ 0,0824466 N.</p></div></div><p class=\"facit-svar\">Svar: 0,082 N.</p></div>",
+        "fraga": "Hur stor uppåtriktad kraft behövs för att hålla linan stilla? Svara i N med tre decimaler.",
+        "t": "<p>En lina med densiteten 1200 kg/m³ och volymen 41,5633 cm³ hålls stilla helt under vatten. Vattnets densitet är 998 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor uppåtriktad kraft behövs för att hålla linan stilla? Svara i N med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Linan hålls stilla. Stödkraften och vattnets lyftkraft balanserar tillsammans linans tyngdkraft.</p><p>Volymen är \\(41{,}5633\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p>\\[F_g=1200\\cdot V\\cdot9{,}82\\approx0{,}489782\\,\\mathrm N.\\]\\[F_L=998\\cdot V\\cdot9{,}82\\approx0{,}407335\\,\\mathrm N.\\]\\[F_{\\mathrm{stöd}}=F_g-F_L\\approx0{,}0824466\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}082\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Vattnet bär en del av linans tyngd.</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
@@ -68164,8 +68164,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "flytande kropp och volymandel",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett homogent föremål med densiteten 680 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Hur många procent av volymen är nedsänkt? Svara i %. Svara med ett heltal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett föremål med densiteten 680 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av volymen ligger under vattenytan? Svara i %. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[1000 g V_{\\mathrm{ned}}=680 g V_{\\mathrm{tot}}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelen blir</p><div class=\"facit-matte\">\\[\\frac{680}{1000}=0{,}68=68\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 68 %.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -68173,14 +68173,14 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__flytande_kropp_och_volymandel",
     "svarstyp": "numeriskt",
-    "rättSvar": 68,
+    "rättSvar": 68.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Tyngdkraft och lyftkraft är lika stora.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "%",
     "svarFormat": "numeriskt",
@@ -68194,8 +68194,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En sten med volymen 350 cm³ hålls helt under vattenytan utan kontakt med kärlet. Vattnets densitet är 998 kg/m³.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften på stenen. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}000350\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,000350 = 3,430126 N.</p></div></div><p class=\"facit-svar\">Svar: 3,43 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{v}}=\\rho_{\\mathrm{v}} V=998\\cdot 0{,}000350=0{,}3493\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är vattenmassan, inte stenens massa.</p></div></div><p class=\"facit-svar\">Svar: 0,3493 kg.</p></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En sten med volymen 350 cm³ hålls helt under vattenytan utan kontakt med kärlet. Vattnets densitet är 998 kg/m³.</p><p><strong>a)</strong> Bestäm lyftkraften på stenen. Svara i N. Avrunda vid behov till 2 decimaler.</p><p><strong>b)</strong> Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}000350\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,000350 = 3,430126 N.</p></div></div><p class=\"facit-svar\">Svar: 3,43 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{v}}&=\\rho_{\\mathrm{v}} V\\\\ &=998\\cdot 0{,}000350\\\\ &=0{,}3493\\, \\mathrm{kg}\\end{aligned}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är vattenmassan, inte stenens massa.</p></div></div><p class=\"facit-svar\">Svar: 0,3493 kg.</p></div></div></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
@@ -68203,12 +68203,12 @@ window.BANK = [
     "familjNyckel": "arkimedes__lyftkraft_och_undantrangd_massa",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.43,
+      3.430126,
       0.3493
     ],
     "tolerans": [
-      0,
-      0
+      0.005,
+      5e-05
     ],
     "självrättning": true,
     "ledtrad": "<p>Använd den undanträngda vattenvolymen.</p>",
@@ -68216,7 +68216,7 @@ window.BANK = [
     "typ": "lyftkraft och undanträngd massa",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "N",
@@ -68232,17 +68232,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sten med volymen 350 cm³ hålls helt under vattenytan utan kontakt med kärlet. Vattnets densitet är 998 kg/m³.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En sten med volymen 350 cm³ hålls helt under vattenytan utan kontakt med kärlet. Vattnets densitet är 998 kg/m³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm lyftkraften på stenen. Svara i N. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En sten med volymen 350 cm³ hålls helt under vattenytan utan kontakt med kärlet. Vattnets densitet är 998 kg/m³.</p><p>Bestäm lyftkraften på stenen. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En sten med volymen 350 cm³ hålls helt under vattenytan utan kontakt med kärlet. Vattnets densitet är 998 kg/m³.</p><p>Bestäm lyftkraften på stenen. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=0{,}000350\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 0,000350 = 3,430126 N.</p></div></div><p class=\"facit-svar\">Svar: 3,43 N.</p></div>",
         "ledtrad": "<p>Använd den undanträngda vattenvolymen.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -68252,11 +68252,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.",
         "t": "<p>En sten med volymen 350 cm³ hålls helt under vattenytan utan kontakt med kärlet. Vattnets densitet är 998 kg/m³.</p><p>Bestäm massan av det undanträngda vattnet. Svara i kg. Avrunda vid behov till 4 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{v}}=\\rho_{\\mathrm{v}} V=998\\cdot 0{,}000350=0{,}3493\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är vattenmassan, inte stenens massa.</p></div></div><p class=\"facit-svar\">Svar: 0,3493 kg.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{v}}&=\\rho_{\\mathrm{v}} V\\\\ &=998\\cdot 0{,}000350\\\\ &=0{,}3493\\, \\mathrm{kg}\\end{aligned}\\]</div></div></div><div class=\"facit-stycke\"><p>Detta är vattenmassan, inte stenens massa.</p></div></div><p class=\"facit-svar\">Svar: 0,3493 kg.</p></div>",
         "ledtrad": "<p>Vilken massa beskriver Arkimedes princip?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -68272,9 +68272,9 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En sfärisk heliumballong har radien 20 cm. Luftens densitet är 1,29 kg/m³ och heliumets 0,18 kg/m³. Höljet har massan 4,0 g. Bortse från snörets massa.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">helium</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 20 cm</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div><p>Vilken extra lastmassa ger jämvikt? Svara i g. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">V = 4π · 0,20³/3 ≈ 0,0335103 m³.</p><div class=\"facit-matte\">\\[m_{\\mathrm{last}}=\\left(1{,}29-0{,}18\\right) V-0{,}0040\\approx 0{,}0331965 k g=33{,}1965\\, \\mathrm{g}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 33,2 g.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En klotformad heliumballong har radien 20 cm. Luftens densitet är 1,29 kg/m³ och heliumets 0,18 kg/m³. Höljet har massan 4,0 g. Bortse från snörets massa.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">helium</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 20 cm</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div><p>Vilken extra lastmassa ger jämvikt? Svara i g. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När ballongen hänger stilla är luftens lyftkraft lika stor som den sammanlagda tyngdkraften av heliumet, höljet och lasten. Dividera kraftbalansen med g för att jämföra massorna.</p>\\[V=\\frac43\\pi\\cdot0{,}20^3\\approx0{,}0335103\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{last}}=(1{,}29-0{,}18)V-0{,}0040.\\]<p>Luftens undanträngda massa minskas med heliumets massa och höljets massa.</p>\\[m_{\\mathrm{last}}\\approx0{,}0331965\\,\\mathrm{kg}=33{,}1965\\,\\mathrm g.\\]<p><strong>Svar:</strong> \\(33{,}2\\,\\mathrm{g}\\).</p></div>",
     "familj": "Ballonger och lastförmåga",
     "formaga": [
       "modellering",
@@ -68282,15 +68282,15 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__ballongens_lastformaga",
     "svarstyp": "numeriskt",
-    "rättSvar": 33.2,
-    "tolerans": 0,
+    "rättSvar": 33.1964570185032,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Lyftkraften ska bära både gas, hölje och last.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "typ": "ballongens lastförmåga",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "svarEnhet": "g",
     "svarFormat": "numeriskt",
@@ -68305,7 +68305,7 @@ window.BANK = [
     "niva": "C",
     "typ": "flötets bärkraft och sänkets massa",
     "poang": "(1/3/0)",
-    "t": "<p>Ett stelt metflöte har volymen 12 cm³ och massan 2,4 g. Vattnets densitet är 998 kg/m³. Ett sänke hänger helt under vatten i en lina från flötet. Bortse från linans massa och volym.</p><span class=\"fig\"><svg height=\"336\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 260\"><rect x=\"15\" y=\"70\" width=\"450\" height=\"180\" fill=\"#DCE6F2\"/><polyline points=\"15,66 37,74 59,66 81,74 103,66 125,74 147,66 169,74 191,66 213,74 235,66 257,74 279,66 301,74 323,66 345,74 367,66 389,74 411,66 433,74 455,66\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><line x1=\"240\" y1=\"96\" x2=\"240\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"74\" rx=\"13\" ry=\"25\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 227 74 A 13 25 0 0 1 253 74 Z\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"240\" y1=\"49\" x2=\"240\" y2=\"27\" stroke=\"#B43123\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><ellipse cx=\"240\" cy=\"208\" rx=\"8\" ry=\"10\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"266\" y=\"212\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">sänke</text><text x=\"196\" y=\"48\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">flöte</text><text x=\"60\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den största nedåtriktade linkraft som flötet kan balansera när det precis är helt nedsänkt.</li><li>En elev dividerar linkraften med g och säger att detta är sänkets massa. Granska påståendet när sänket hänger under vatten.</li><li>Beräkna massan om sänket är av bly med densiteten 11 340 kg/m³.</li></ol>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett stelt metflöte har volymen 12 cm³ och massan 2,4 g. Vattnets densitet är 998 kg/m³. Ett sänke hänger helt under vatten i en lina från flötet. Bortse från linans massa och volym.</p><span class=\"fig\"><svg height=\"336\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 260\"><rect x=\"15\" y=\"70\" width=\"450\" height=\"180\" fill=\"#DCE6F2\"/><polyline points=\"15,66 37,74 59,66 81,74 103,66 125,74 147,66 169,74 191,66 213,74 235,66 257,74 279,66 301,74 323,66 345,74 367,66 389,74 411,66 433,74 455,66\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><line x1=\"240\" y1=\"96\" x2=\"240\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"74\" rx=\"13\" ry=\"25\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 227 74 A 13 25 0 0 1 253 74 Z\" fill=\"#B43123\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"240\" y1=\"49\" x2=\"240\" y2=\"27\" stroke=\"#B43123\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><ellipse cx=\"240\" cy=\"208\" rx=\"8\" ry=\"10\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"266\" y=\"212\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">sänke</text><text x=\"196\" y=\"48\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">flöte</text><text x=\"60\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">vatten</text></svg></span><p><strong>a)</strong> Bestäm den största nedåtriktade linkraft som flötet kan balansera när det precis är helt nedsänkt.</p><p><strong>b)</strong> En elev dividerar linkraften med g och säger att detta är sänkets massa. Granska påståendet när sänket hänger under vatten.</p><p><strong>c)</strong> Beräkna massan om sänket är av bly med densiteten 11 340 kg/m³.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 12 · 10⁻⁶ = 0,11760432 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flötets tyngd är</p><div class=\"facit-matte\">\\[0{,}0024\\cdot 9{,}82=0{,}023568\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Linkraften är 0,09403632 N.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>lina</sub>/g = 0,009576 kg = 9,576 g är massan vars tyngd motsvarar linkraften.</p></div><div class=\"facit-stycke\"><p>Ett nedsänkt sänke får egen lyftkraft, så linkraften är mindre än sänkets tyngd.</p></div><div class=\"facit-stycke\"><p>Sänkets verkliga massa är därför större.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>lina</sub> = \\(m_{\\mathrm{s}}\\) g(1−998/11 340). \\(m_{\\mathrm{s}}\\) = 0,09403632/[9,82(1−998/11 340)] ≈ 0,01050008 kg = 10,50008 g.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -68335,8 +68335,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "densitet från vägning i vätska",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett homogent föremål hänger stilla i en dynamometer. Den visar 11,78 N i luft och 6,835 N helt nedsänkt i vatten med densiteten 1000 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"176\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">11,78 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"376\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">6,835 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett föremål hänger stilla i en kraftmätare. Den visar 11,78 N i luft och 6,835 N helt nedsänkt i vatten med densiteten 1000 kg/m³. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"176\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">11,78 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"376\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">6,835 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm föremålets densitet. Svara i kg/m³. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lyftkraften är</p><div class=\"facit-matte\">\\[11{,}78-6{,}835=4{,}945\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>Massan är 11,78/g och volymen 4,945/(1000g).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\rho=\\frac{1000\\cdot 11{,}78}{4{,}945}\\approx 2382{,}20\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2382 kg/m³.</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
@@ -68345,8 +68345,8 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__densitet_fran_vagning_i_vatska",
     "svarstyp": "numeriskt",
-    "rättSvar": 2382,
-    "tolerans": 0,
+    "rättSvar": 2382.20424671385,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -68366,7 +68366,7 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "A",
     "poang": "(0/2/3)",
-    "t": "<p>En hydrometer består av en nedre kropp och en smal, lodrät stam. Kroppen är helt nedsänkt och har yttre volymen V₀ = 20 cm³. Stammen har konstant tvärsnittsarea A = 1,0 cm². Längden x mäts från kroppens överkant till vätskeytan. Hydrometerns massa m är konstant. Bortse från luftens lyftkraft och ytspänning.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram ett samband mellan densiteten ρ och den nedsänkta stamlängden x.</li><li>I vatten med densiteten 998 kg/m³ är x = 8,0 cm. Bestäm x i havsvatten med densiteten 1030 kg/m³.</li><li>En elev använder x₂ = x₁ρ₁/ρ₂. Förklara felet. Blir en skala med jämna densitetssteg jämnt graderad längs stammen?</li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Hydrometer med kropp och stam\"><title>Hydrometer med kropp och stam</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M50 110 H420 V275 H50Z\" fill=\"#e2eef5\"/><line x1=\"50\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><path d=\"M228 35 H252 V175 H280 V240 Q280 260 250 260 H230 Q200 260 200 240 V175 H228Z\" fill=\"#fcfcfc\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"240\" y=\"220\" text-anchor=\"middle\">V₀</text><text x=\"140\" y=\"52\" text-anchor=\"middle\">A = 1,0 cm²</text><line x1=\"183\" y1=\"55\" x2=\"228\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"252\" y1=\"175\" x2=\"345\" y2=\"175\" stroke=\"#788a99\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/><line x1=\"330\" y1=\"110\" x2=\"330\" y2=\"175\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"325\" y1=\"110\" x2=\"335\" y2=\"110\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"325\" y1=\"175\" x2=\"335\" y2=\"175\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"365\" y=\"147.5\" text-anchor=\"middle\">x</text><text x=\"110\" y=\"150\" text-anchor=\"middle\">vätska</text></g></svg></span>",
+    "t": "<p>En densitetsmätare består av en nedre kropp och en smal, lodrät sticka. Kroppen är helt nedsänkt och har yttre volymen V₀ = 20 cm³. Stickan har konstant tvärsnittsarea A = 1,0 cm². Längden x mäts från kroppens överkant till vätskeytan. Mätarens massa m är konstant. Bortse från luftens lyftkraft och ytspänning.</p><p><strong>a)</strong> Ta fram ett samband mellan densiteten ρ och den nedsänkta längden av stickan under ytan x.</p><p><strong>b)</strong> I vatten med densiteten 998 kg/m³ är x = 8,0 cm. Bestäm x i havsvatten med densiteten 1030 kg/m³.</p><p><strong>c)</strong> En elev använder x₂ = x₁ρ₁/ρ₂. Förklara felet. Blir en skala med jämna densitetssteg jämnt graderad längs stickan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Hydrometer med kropp och sticka\"><title>Hydrometer med kropp och sticka</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M50 110 H420 V275 H50Z\" fill=\"#e2eef5\"/><line x1=\"50\" y1=\"110\" x2=\"420\" y2=\"110\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><path d=\"M228 35 H252 V175 H280 V240 Q280 260 250 260 H230 Q200 260 200 240 V175 H228Z\" fill=\"#fcfcfc\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"240\" y=\"220\" text-anchor=\"middle\">V₀</text><text x=\"140\" y=\"52\" text-anchor=\"middle\">A = 1,0 cm²</text><line x1=\"183\" y1=\"55\" x2=\"228\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"252\" y1=\"175\" x2=\"345\" y2=\"175\" stroke=\"#788a99\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/><line x1=\"330\" y1=\"110\" x2=\"330\" y2=\"175\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"325\" y1=\"110\" x2=\"335\" y2=\"110\" stroke=\"#788a99\" stroke-width=\"1.5\"/><line x1=\"325\" y1=\"175\" x2=\"335\" y2=\"175\" stroke=\"#788a99\" stroke-width=\"1.5\"/><text x=\"365\" y=\"147.5\" text-anchor=\"middle\">x</text><text x=\"110\" y=\"150\" text-anchor=\"middle\">vätska</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flytjämvikt ger</p><div class=\"facit-matte\">\\[m g=\\rho g \\left(V_{0}+A x\\right)\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför ρ = m/(V₀+Ax), eller</p><div class=\"facit-matte\">\\[x=\\frac{\\left(\\frac{m}{\\rho}-V_{0}\\right)}{A}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Använd g/cm³ och cm: ρ₁ = 0,998 och</p><div class=\"facit-matte\">\\[\\rho_{2}=1{,}030\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan är m = 0,998(20+1,0 · 8,0) = 27,944 g.</p><div class=\"facit-matte\">\\[x_{2}=\\frac{\\left(\\frac{27{,}944}{1{,}030}-20\\right)}{1{,}0}\\approx 7{,}13010\\, \\mathrm{cm}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Elevens samband bortser från den undanträngda volymen V₀ hos den helt nedsänkta kroppen.</p></div><div class=\"facit-stycke\"><p>Sambandet skulle gälla för en ren cylinder med V₀ = 0 och x mätt från dess botten.</p></div><div class=\"facit-stycke\"><p>Densiteten är här m/(V₀+Ax), så skalan är inte linjär i x.</p></div><div class=\"facit-stycke\"><p>För lika stora ökningar av densiteten blir skillnaden i x mindre vid högre densiteter.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -68379,7 +68379,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Den undanträngda volymen består av både kroppens volym och en del av stammen.</p>",
+    "ledtrad": "<p>Den undanträngda volymen består av både kroppens volym och en del av stickan.</p>",
     "traningsniva": 5,
     "typ": "hydrometerns geometri och skala",
     "miniräknare": true,
@@ -69037,8 +69037,8 @@ window.BANK = [
     "niva": "C",
     "typ": "neutral flytkraft och sjunkvillkor",
     "poang": "(1/3/0)",
-    "t": "<p>En modell av en ubåt har konstant yttre undanträngd volym 2000 m³ när den är helt nedsänkt. Utan intaget barlastvatten är massan 1,80 · 10⁶ kg. Havsvattnets densitet är 1025 kg/m³. Vatten kan tas in i inre tankar utan att den yttre volymen ändras. Bortse från andra lodräta krafter.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hur stor vattenmassa som ska tas in för neutral flytkraft.</li><li>Förklara vad som krävs för att ubåten ska börja accelerera nedåt.</li><li>Hur ändras gränsmassan för intaget vatten om ubåten i stället befinner sig i sötvatten med densiteten 1000 kg/m³?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid neutral flytkraft ska totalmassan vara</p><div class=\"facit-matte\">\\[1025\\cdot 2000=2\\,050\\,000\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Intaget vatten:</p><div class=\"facit-matte\">\\[2\\,050\\,000-1\\,800\\,000=250\\,000\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>I den stillastående modellen krävs mer än 250 000 kg intaget vatten för att tyngden ska bli större än lyftkraften.</p></div><div class=\"facit-stycke\"><p>Vid exakt gränsvärdet är resultanten noll.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>I sötvatten är gränsen 1000 · 2000−1 800 000 = 200 000 kg, alltså 50 000 kg mindre.</p></div><div class=\"facit-stycke\"><p>Den yttre undanträngda volymen antas oförändrad.</p></div></div></div></div></div>",
+    "t": "<p>En modell av en ubåt har konstant yttre undanträngd volym 2000 m³ när den är helt nedsänkt. Utan intaget vatten i tankarna är massan 1,80 · 10⁶ kg. Havsvattnets densitet är 1025 kg/m³. Vatten kan tas in i inre tankar utan att den yttre volymen ändras. Bortse från andra lodräta krafter.</p><p><strong>a)</strong> Bestäm hur stor vattenmassa som ska tas in för balans mellan lyftkraft och tyngdkraft.</p><p><strong>b)</strong> Förklara vad som krävs för att ubåten ska börja accelerera nedåt.</p><p><strong>c)</strong> Hur ändras gränsmassan för intaget vatten om ubåten i stället befinner sig i sötvatten med densiteten 1000 kg/m³?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid balans mellan lyftkraft och tyngdkraft ska totalmassan vara</p><div class=\"facit-matte\">\\[1025\\cdot 2000=2\\,050\\,000\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Intaget vatten:</p><div class=\"facit-matte\">\\[2\\,050\\,000-1\\,800\\,000=250\\,000\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>I den stillastående modellen krävs mer än 250 000 kg intaget vatten för att tyngden ska bli större än lyftkraften.</p></div><div class=\"facit-stycke\"><p>Vid exakt gränsvärdet är resultanten noll.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>I sötvatten är gränsen 1000 · 2000−1 800 000 = 200 000 kg, alltså 50 000 kg mindre.</p></div><div class=\"facit-stycke\"><p>Den yttre undanträngda volymen antas oförändrad.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -69067,8 +69067,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "typ": "flytande kropp och volymandel",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett homogent föremål med densiteten 760 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Hur många procent av volymen ligger ovanför ytan? Svara i %. Svara med ett heltal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett föremål med densiteten 760 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av volymen ligger ovanför ytan? Svara i %. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelen under ytan är</p><div class=\"facit-matte\">\\[\\frac{760}{1000}=0{,}76\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelen ovanför är</p><div class=\"facit-matte\">\\[1-0{,}76=0{,}24=24\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 24 %.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -69076,14 +69076,14 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__flytande_kropp_och_volymandel",
     "svarstyp": "numeriskt",
-    "rättSvar": 24,
+    "rättSvar": 24.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Beräkna först andelen under ytan.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "%",
     "svarFormat": "numeriskt",
@@ -70618,10 +70618,10 @@ window.BANK = [
     "id": "6.111",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
-    "poang": "(4/0/0)",
-    "t": "<p>En träplanka med massan 2,4 kg flyter stilla i vatten med densiteten 998 kg/m³. Bortse från luftens lyftkraft och ytspänning.</p><ol style=\"display:grid;gap:0.85rem\"><li>Rita och namnge krafterna på plankan.</li><li>Bestäm kraftresultanten och lyftkraften.</li><li>Bestäm den nedsänkta volymen.</li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Planka som flyter stilla\"><title>Planka som flyter stilla</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M30 140 H470 V260 H30Z\" fill=\"#e2eef5\"/><line x1=\"30\" y1=\"140\" x2=\"470\" y2=\"140\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"120\" width=\"200\" height=\"50\" fill=\"#fcfcfc\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"151\" text-anchor=\"middle\">2,4 kg</text></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften verkar nedåt och vattnets lyftkraft uppåt.</p></div><div class=\"facit-stycke\"><p>Pilarna ska vara lika långa i ett kraftdiagram eftersom plankan är i jämvikt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Resultanten är noll.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = mg = 2,4 · 9,82 = 23,568 N ≈ 23,6 N.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">ρ_v gV_ned = mg ger</p><div class=\"facit-matte\">\\[V_{\\mathrm{ned}}=\\frac{2{,}4}{998}\\approx 0{,}00240481 m^{3}=2{,}40481\\, \\mathrm{liter}\\]</div></div></div></div></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Kraftdiagram för planka i jämvikt\"><title>Kraftdiagram för planka i jämvikt</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M30 140 H470 V260 H30Z\" fill=\"#e2eef5\"/><line x1=\"30\" y1=\"140\" x2=\"470\" y2=\"140\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"120\" width=\"200\" height=\"50\" fill=\"#fcfcfc\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"151\" text-anchor=\"middle\">2,4 kg</text><path d=\"M250 120 V45 M244 55 L250 45 L256 55 M250 170 V245 M244 235 L250 245 L256 235\" fill=\"none\" stroke=\"#b6372c\" stroke-width=\"2\"/><text x=\"330\" y=\"62\" text-anchor=\"middle\">Fₐ</text><text x=\"330\" y=\"236\" text-anchor=\"middle\">mg</text></g></svg></span></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En träplanka med massan 2,4 kg flyter stilla i vatten med densiteten 998 kg/m³. Bortse från luftens lyftkraft och ytspänning.</p><p><strong>a)</strong> Rita och namnge krafterna på plankan.</p><p><strong>b)</strong> Bestäm kraftresultanten och lyftkraften.</p><p><strong>c)</strong> Bestäm den nedsänkta volymen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Planka som flyter stilla\"><title>Planka som flyter stilla</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M30 140 H470 V260 H30Z\" fill=\"#e2eef5\"/><line x1=\"30\" y1=\"140\" x2=\"470\" y2=\"140\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"120\" width=\"200\" height=\"50\" fill=\"#fcfcfc\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"151\" text-anchor=\"middle\">2,4 kg</text></g></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften verkar nedåt och vattnets lyftkraft uppåt.</p></div><div class=\"facit-stycke\"><p>Pilarna ska vara lika långa i ett kraftdiagram eftersom plankan är i jämvikt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Resultanten är noll.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = mg = 2,4 · 9,82 = 23,568 N ≈ 23,6 N.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">ρ_v gV_ned = mg ger</p><div class=\"facit-matte\">\\[\\begin{aligned}V_{\\mathrm{ned}}&=\\frac{2{,}4}{998}\\\\ &\\approx 0{,}00240481 m^{3}\\\\ &=2{,}40481\\, \\mathrm{liter}\\end{aligned}\\]</div></div></div></div></div></div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Kraftdiagram för planka i jämvikt\"><title>Kraftdiagram för planka i jämvikt</title><g font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" fill=\"#293747\"><path d=\"M30 140 H470 V260 H30Z\" fill=\"#e2eef5\"/><line x1=\"30\" y1=\"140\" x2=\"470\" y2=\"140\" stroke=\"#467ba3\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"120\" width=\"200\" height=\"50\" fill=\"#fcfcfc\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"151\" text-anchor=\"middle\">2,4 kg</text><path d=\"M250 120 V45 M244 55 L250 45 L256 55 M250 170 V245 M244 235 L250 245 L256 235\" fill=\"none\" stroke=\"#b6372c\" stroke-width=\"2\"/><text x=\"330\" y=\"62\" text-anchor=\"middle\">Fₐ</text><text x=\"330\" y=\"236\" text-anchor=\"middle\">mg</text></g></svg></span></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "begrepp",
@@ -70650,7 +70650,7 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "E",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>En järnkula med volymen 3,0 cm³ hålls helt under vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på kulan? Svara i mN. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=3{,}0\\cdot 10^{-6}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 998 · 9,82 · 3,0 · 10⁻⁶ = 0,02940108 N = 29,40108 mN.</p></div><div class=\"facit-stycke\"><p>Järnets densitet behövs inte när den undanträngda volymen är känd.</p></div></div><p class=\"facit-svar\">Svar: 29,4 mN.</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
@@ -70659,15 +70659,15 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__lyftkraft_och_val_av_densitet",
     "svarstyp": "numeriskt",
-    "rättSvar": 29.4,
-    "tolerans": 0,
+    "rättSvar": 29.40108,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Vilken densitet ingår i Arkimedes princip?</p>",
     "traningsniva": 2,
     "typ": "lyftkraft och val av densitet",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "mN",
     "svarFormat": "numeriskt",
@@ -70679,10 +70679,10 @@ window.BANK = [
     "id": "6.113",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
-    "poang": "(3/0/0)",
-    "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en dynamometer helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg></div><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm järnbitens volym. Svara i cm³. Avrunda vid behov till 2 decimaler.</li><li>Bestäm vattnets lyftkraft på järnbiten. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm dynamometerns visning. Svara i N. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{90{,}0}{7{,}87}\\approx 11{,}4358\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 11,44 cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är cirka</p><div class=\"facit-matte\">\\[11{,}4358 c m^{3}=11{,}4358\\cdot 10^{-6}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = ρ<sub>v</sub>gV ≈ 0,11208 N.</p></div></div><p class=\"facit-svar\">Svar: 0,112 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger F<sub>D</sub>+F<sub>L</sub>=mg.</p></div><div class=\"facit-stycke\"><p>Alltså F<sub>D</sub>=0,0900·9,82−0,11208 ≈ 0,77172 N.</p></div></div><p class=\"facit-svar\">Svar: 0,772 N.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En järnbit med massan 90 g hänger stilla i en kraftmätare. Den sänks helt under vattenytan. Järnets densitet är 7,87 g/cm³ och vattnets är 998 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en kraftmätare helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg><p><strong>a)</strong> Hur stor volym har järnbiten? Svara i cm³ med två decimaler.</p><p><strong>b)</strong> Hur stor är vattnets lyftkraft på järnbiten? Svara i N med tre decimaler.</p><p><strong>c)</strong> Vad visar kraftmätaren när järnbiten är helt under vatten? Svara i N med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Densiteten anger massan per volym. Dela massan med densiteten.</p>\\[V=\\frac{m}{\\rho}=\\frac{90}{7{,}87}\\approx11{,}436\\,\\mathrm{cm^3}.\\]<p><strong>Svar:</strong> \\(11{,}44\\,\\mathrm{cm^3}\\).</p><p><strong>b)</strong></p><p>Räkna först ut järnbitens volym och omvandla den till m³.</p>\\[V=\\frac{90}{7{,}87}\\,\\mathrm{cm^3}\\approx11{,}436\\cdot10^{-6}\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[\\begin{aligned}F_L&=998\\cdot9{,}82\\cdot\\frac{90}{7{,}87}\\cdot10^{-6}\\\\ &\\approx0{,}11208\\,\\mathrm N.\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}112\\,\\mathrm{N}\\).</p><p><strong>c)</strong></p><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p><p>Järnbitens volym behövs för att beräkna lyftkraften.</p>\\[V=\\frac{90}{7{,}87}\\,\\mathrm{cm^3}\\approx11{,}436\\cdot10^{-6}\\,\\mathrm{m^3}.\\]\\[\\begin{aligned}F_L&=998\\cdot9{,}82\\cdot\\frac{90}{7{,}87}\\cdot10^{-6}\\\\ &\\approx0{,}11208\\,\\mathrm N.\\end{aligned}\\]\\[F_g=0{,}090\\cdot9{,}82=0{,}8838\\,\\mathrm N.\\]\\[\\begin{aligned}F_{\\mathrm{mätare}}&=F_g-F_L\\\\ &\\approx0{,}8838-0{,}11208\\\\ &=0{,}77172\\,\\mathrm N.\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}772\\,\\mathrm{N}\\).</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
       "procedur"
@@ -70690,14 +70690,14 @@ window.BANK = [
     "familjNyckel": "arkimedes__densitet_fran_vagning_i_vatska",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      11.44,
-      0.112,
-      0.772
+      11.43583227446,
+      0.112075273189327,
+      0.771724726810674
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.005,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Använd järnets densitet tillsammans med massan i gram.</p>",
@@ -70724,17 +70724,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en dynamometer helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg></div>",
+    "spelIntro": "<p>En järnbit med massan 90 g hänger stilla i en kraftmätare. Den sänks helt under vattenytan. Järnets densitet är 7,87 g/cm³ och vattnets är 998 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en kraftmätare helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är järnbitens volym? Svara i cm³. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En järnbit har massan 90,0 g. Järnets densitet är 7,87 g/cm³.</p><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en dynamometer helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg><p>Hur stor är järnbitens volym? Svara i cm³. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{90{,}0}{7{,}87}\\approx 11{,}4358\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 11,44 cm³.</p></div>",
+        "fraga": "Hur stor volym har järnbiten? Svara i cm³ med två decimaler.",
+        "t": "<p>En järnbit har massan 90 g och densiteten 7,87 g/cm³.</p><p>Hur stor volym har järnbiten? Svara i cm³ med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Densiteten anger massan per volym. Dela massan med densiteten.</p>\\[V=\\frac{m}{\\rho}=\\frac{90}{7{,}87}\\approx11{,}436\\,\\mathrm{cm^3}.\\]<p><strong>Svar:</strong> \\(11{,}44\\,\\mathrm{cm^3}\\).</p></div>",
         "ledtrad": "<p>Använd järnets densitet tillsammans med massan i gram.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -70744,14 +70744,14 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm vattnets lyftkraft på järnbiten. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm vattnets lyftkraft på järnbiten. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är cirka</p><div class=\"facit-matte\">\\[11{,}4358 c m^{3}=11{,}4358\\cdot 10^{-6}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = ρ<sub>v</sub>gV ≈ 0,11208 N.</p></div></div><p class=\"facit-svar\">Svar: 0,112 N.</p></div>",
+        "fraga": "Hur stor är vattnets lyftkraft på järnbiten? Svara i N med tre decimaler.",
+        "t": "<p>En järnbit med massan 90 g och densiteten 7,87 g/cm³ hålls helt under vatten. Vattnets densitet är 998 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en kraftmätare helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg><p>Hur stor är vattnets lyftkraft på järnbiten? Svara i N med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut järnbitens volym och omvandla den till m³.</p>\\[V=\\frac{90}{7{,}87}\\,\\mathrm{cm^3}\\approx11{,}436\\cdot10^{-6}\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[\\begin{aligned}F_L&=998\\cdot9{,}82\\cdot\\frac{90}{7{,}87}\\cdot10^{-6}\\\\ &\\approx0{,}11208\\,\\mathrm N.\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}112\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Omvandla volymen från cm³ till m³ innan du använder Arkimedes princip.</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ],
@@ -70760,14 +70760,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm dynamometerns visning. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Bortse från luftens lyftkraft och trådens volym.</p><p>Bestäm dynamometerns visning. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger F<sub>D</sub>+F<sub>L</sub>=mg.</p></div><div class=\"facit-stycke\"><p>Alltså F<sub>D</sub>=0,0900·9,82−0,11208 ≈ 0,77172 N.</p></div></div><p class=\"facit-svar\">Svar: 0,772 N.</p></div>",
-        "ledtrad": "<p>Dynamometern behöver bara bära den del av tyngden som lyftkraften inte bär.</p>",
-        "niva": "E",
+        "fraga": "Vad visar kraftmätaren när järnbiten är helt under vatten? Svara i N med tre decimaler.",
+        "t": "<p>En järnbit med massan 90 g och densiteten 7,87 g/cm³ hänger stilla i en kraftmätare, helt under vatten. Vattnets densitet är 998 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en kraftmätare helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"190\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg><p>Vad visar kraftmätaren när järnbiten är helt under vatten? Svara i N med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p><p>Järnbitens volym behövs för att beräkna lyftkraften.</p>\\[V=\\frac{90}{7{,}87}\\,\\mathrm{cm^3}\\approx11{,}436\\cdot10^{-6}\\,\\mathrm{m^3}.\\]\\[\\begin{aligned}F_L&=998\\cdot9{,}82\\cdot\\frac{90}{7{,}87}\\cdot10^{-6}\\\\ &\\approx0{,}11208\\,\\mathrm N.\\end{aligned}\\]\\[F_g=0{,}090\\cdot9{,}82=0{,}8838\\,\\mathrm N.\\]\\[\\begin{aligned}F_{\\mathrm{mätare}}&=F_g-F_L\\\\ &\\approx0{,}8838-0{,}11208\\\\ &=0{,}77172\\,\\mathrm N.\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}772\\,\\mathrm{N}\\).</p></div>",
+        "ledtrad": "<p>Kraftmätaren behöver bara bära den del av tyngden som lyftkraften inte bär.</p>",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ],
@@ -70783,10 +70783,10 @@ window.BANK = [
     "id": "6.280",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "kraftjämvikt med lyftkraft",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett föremål med volymen 3,5 liter och densiteten 1500 kg/m³ hålls stilla helt nedsänkt i vatten med densiteten 1000 kg/m³. Ett snöre är fäst ovanför föremålet.</p><div class=\"fig smal\"><svg width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp hänger i ett snöre helt under vattenytan\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"80\" y1=\"18\" x2=\"300\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"80\" y1=\"18\" x2=\"88\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"92\" y1=\"18\" x2=\"100\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"104\" y1=\"18\" x2=\"112\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"116\" y1=\"18\" x2=\"124\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"128\" y1=\"18\" x2=\"136\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"140\" y1=\"18\" x2=\"148\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"152\" y1=\"18\" x2=\"160\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"18\" x2=\"172\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"176\" y1=\"18\" x2=\"184\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"188\" y1=\"18\" x2=\"196\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"200\" y1=\"18\" x2=\"208\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"212\" y1=\"18\" x2=\"220\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"224\" y1=\"18\" x2=\"232\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"236\" y1=\"18\" x2=\"244\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"248\" y1=\"18\" x2=\"256\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"260\" y1=\"18\" x2=\"268\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"272\" y1=\"18\" x2=\"280\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"284\" y1=\"18\" x2=\"292\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"296\" y1=\"18\" x2=\"304\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><rect x=\"60\" y=\"100\" width=\"260\" height=\"190\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 60 L60 290 L320 290 L320 60\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"190\" y1=\"18\" x2=\"190\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"150\" y=\"150\" width=\"80\" height=\"70\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"227\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">snöre</text></svg></div><p>Bestäm snörets spännkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål med volymen 3,5 liter och densiteten 1500 kg/m³ hålls stilla helt nedsänkt i vatten med densiteten 1000 kg/m³. Ett snöre är fäst ovanför föremålet.</p><div class=\"fig smal\"><svg width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp hänger i ett snöre helt under vattenytan\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"80\" y1=\"18\" x2=\"300\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"80\" y1=\"18\" x2=\"88\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"92\" y1=\"18\" x2=\"100\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"104\" y1=\"18\" x2=\"112\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"116\" y1=\"18\" x2=\"124\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"128\" y1=\"18\" x2=\"136\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"140\" y1=\"18\" x2=\"148\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"152\" y1=\"18\" x2=\"160\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"18\" x2=\"172\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"176\" y1=\"18\" x2=\"184\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"188\" y1=\"18\" x2=\"196\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"200\" y1=\"18\" x2=\"208\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"212\" y1=\"18\" x2=\"220\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"224\" y1=\"18\" x2=\"232\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"236\" y1=\"18\" x2=\"244\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"248\" y1=\"18\" x2=\"256\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"260\" y1=\"18\" x2=\"268\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"272\" y1=\"18\" x2=\"280\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"284\" y1=\"18\" x2=\"292\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"296\" y1=\"18\" x2=\"304\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><rect x=\"60\" y=\"100\" width=\"260\" height=\"190\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 60 L60 290 L320 290 L320 60\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"190\" y1=\"18\" x2=\"190\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"150\" y=\"150\" width=\"80\" height=\"70\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"227\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">snöre</text></svg></div><p>Bestäm snörets spännkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngden är ρ<sub>f</sub>Vg och lyftkraften ρ<sub>v</sub>Vg.</p></div><div class=\"facit-stycke\"><p>Jämvikt ger T=(ρ<sub>f</sub>−ρ<sub>v</sub>)Vg=(1500−1000)·0,0035·9,82=17,185 N.</p></div></div><p class=\"facit-svar\">Svar: 17,19 N.</p></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -70794,8 +70794,8 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__kraftjamvikt_med_lyftkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 17.19,
-    "tolerans": 0,
+    "rättSvar": 17.185,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -70815,8 +70815,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Bortse från luftens lyftkraft och ytspänning.</p><ol style=\"display:grid;gap:0.85rem\"><li>Vilken är kroppens största möjliga medeldensitet för att den inte ska sjunka till botten? Svara i g/cm³. Avrunda vid behov till 3 decimaler.</li><li>En träbit har densiteten 0,600 g/cm³ och flyter stilla. Hur många procent av volymen ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid gränsen är kroppens densitet lika med etanolens.</p></div><div class=\"facit-stycke\"><p>Då är den neutralt flytande helt i vätskan.</p></div></div><p class=\"facit-svar\">Svar: 0,789 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>trä</sub>/ρ<sub>etanol</sub> = 0,600/0,789 ≈ 0,76046.</p></div></div><p class=\"facit-svar\">Svar: 76,0 %.</p></div></div></div>",
+    "t": "<p>En kropp placeras i etanol med densiteten 0,789 g/cm³. </p><p><strong>a)</strong> Vilken är den högsta densitet ett föremål kan ha utan att sjunka i etanol? Svara i g/cm³ med tre decimaler.</p><p><strong>b)</strong> En träbit har densiteten 0,600 g/cm³ och flyter stilla. Hur många procent av volymen ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Ett föremål med samma densitet som etanolen kan hålla sig stilla helt under ytan. Med högre densitet sjunker det. Gränsen är därför etanolens densitet.</p><p><strong>Svar:</strong> \\(0{,}789\\,\\mathrm{g/cm^3}\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det etanol det tränger undan.</p><p>Volymandelen under ytan är träets densitet delad med etanolens densitet.</p>\\[\\frac{0{,}600}{0{,}789}\\cdot100\\approx76{,}0456\\,\\%.\\]<p><strong>Svar:</strong> \\(76{,}0\\,\\%\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "procedur"
@@ -70825,15 +70825,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.789,
-      76
+      76.0456273764259
     ],
     "tolerans": [
-      0,
-      0
+      0.0005,
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Jämför kroppens medeldensitet med etanolens densitet.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "typ": "flytvillkor och densitet",
     "miniräknare": true,
     "geogebra": false,
@@ -70853,13 +70853,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Bortse från luftens lyftkraft och ytspänning.</p>",
+    "spelIntro": "<p>En kropp placeras i etanol med densiteten 0,789 g/cm³. </p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken är kroppens största möjliga medeldensitet för att den inte ska sjunka till botten? Svara i g/cm³. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Bortse från luftens lyftkraft och ytspänning.</p><p>Vilken är kroppens största möjliga medeldensitet för att den inte ska sjunka till botten? Svara i g/cm³. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid gränsen är kroppens densitet lika med etanolens.</p></div><div class=\"facit-stycke\"><p>Då är den neutralt flytande helt i vätskan.</p></div></div><p class=\"facit-svar\">Svar: 0,789 g/cm³.</p></div>",
+        "fraga": "Vilken är den högsta densitet ett föremål kan ha utan att sjunka i etanol? Svara i g/cm³ med tre decimaler.",
+        "t": "<p>Etanol har densiteten 0,789 g/cm³.</p><p>Vilken är den högsta densitet ett föremål kan ha utan att sjunka i etanol? Svara i g/cm³ med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ett föremål med samma densitet som etanolen kan hålla sig stilla helt under ytan. Med högre densitet sjunker det. Gränsen är därför etanolens densitet.</p><p><strong>Svar:</strong> \\(0{,}789\\,\\mathrm{g/cm^3}\\).</p></div>",
         "ledtrad": "<p>Jämför kroppens medeldensitet med etanolens densitet.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -70873,9 +70873,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En träbit har densiteten 0,600 g/cm³ och flyter stilla. Hur många procent av volymen ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Bortse från luftens lyftkraft och ytspänning.</p><p>En träbit har densiteten 0,600 g/cm³ och flyter stilla. Hur många procent av volymen ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>trä</sub>/ρ<sub>etanol</sub> = 0,600/0,789 ≈ 0,76046.</p></div></div><p class=\"facit-svar\">Svar: 76,0 %.</p></div>",
+        "fraga": "Hur många procent av träbitens volym ligger under ytan? Svara i % med en decimal.",
+        "t": "<p>En träbit med densiteten 0,600 g/cm³ flyter stilla i etanol med densiteten 0,789 g/cm³.</p><p>Hur många procent av träbitens volym ligger under ytan? Svara i % med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det etanol det tränger undan.</p><p>Volymandelen under ytan är träets densitet delad med etanolens densitet.</p>\\[\\frac{0{,}600}{0{,}789}\\cdot100\\approx76{,}0456\\,\\%.\\]<p><strong>Svar:</strong> \\(76{,}0\\,\\%\\).</p></div>",
         "ledtrad": "<p>För en flytande kropp är den nedsänkta volymandelen en densitetskvot.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -70896,10 +70896,10 @@ window.BANK = [
     "id": "6.115",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</li><li>Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>k</sub>/ρ<sub>v</sub> = 600/1000 = 0,60.</p></div></div><p class=\"facit-svar\">Svar: 60 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För ett rätblock är höjdandelen samma som volymandelen.</p></div><div class=\"facit-stycke\"><p>Ovanför ytan ligger 40 % av 12,0 cm, alltså 4,8 cm.</p></div></div><p class=\"facit-svar\">Svar: 4,8 cm.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(1/1/0)",
+    "t": "<p>En träkloss med raka, lodräta sidor är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><p><strong>a)</strong> Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</p><p><strong>b)</strong> Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är klossens densitet delad med vattnets densitet.</p>\\[\\frac{V_{\\mathrm{under}}}{V}=\\frac{600}{1000}=0{,}60.\\]<p><strong>Svar:</strong> \\(60\\,\\%\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Densitetsförhållandet anger andelen av volymen under ytan. Klossens raka, lodräta sidor gör att samma andel av höjden ligger under ytan.</p>\\[\\frac{600}{1000}=0{,}60.\\]<p>Andelen ovanför ytan är \\(1-0{,}60=0{,}40\\).</p>\\[h_{\\mathrm{ovan}}=0{,}40\\cdot12=4{,}8\\,\\mathrm{cm}.\\]<p><strong>Svar:</strong> \\(4{,}8\\,\\mathrm{cm}\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "procedur"
@@ -70907,20 +70907,20 @@ window.BANK = [
     "familjNyckel": "arkimedes__flytdjup_och_densitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      60,
+      60.0,
       4.8
     ],
     "tolerans": [
       0,
-      0
+      0.05
     ],
     "självrättning": true,
     "ledtrad": "<p>Jämför klossens densitet med vattnets.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "typ": "flytdjup och densitet",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "%",
@@ -70936,17 +70936,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p>",
+    "spelIntro": "<p>En träkloss med raka, lodräta sidor är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.",
-        "t": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>k</sub>/ρ<sub>v</sub> = 600/1000 = 0,60.</p></div></div><p class=\"facit-svar\">Svar: 60 %.</p></div>",
+        "t": "<p>En träkloss med densiteten 600 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är klossens densitet delad med vattnets densitet.</p>\\[\\frac{V_{\\mathrm{under}}}{V}=\\frac{600}{1000}=0{,}60.\\]<p><strong>Svar:</strong> \\(60\\,\\%\\).</p></div>",
         "ledtrad": "<p>Jämför klossens densitet med vattnets.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -70957,13 +70957,13 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.",
-        "t": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><p>Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För ett rätblock är höjdandelen samma som volymandelen.</p></div><div class=\"facit-stycke\"><p>Ovanför ytan ligger 40 % av 12,0 cm, alltså 4,8 cm.</p></div></div><p class=\"facit-svar\">Svar: 4,8 cm.</p></div>",
+        "t": "<p>En träkloss med raka, lodräta sidor är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><p>Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Densitetsförhållandet anger andelen av volymen under ytan. Klossens raka, lodräta sidor gör att samma andel av höjden ligger under ytan.</p>\\[\\frac{600}{1000}=0{,}60.\\]<p>Andelen ovanför ytan är \\(1-0{,}60=0{,}40\\).</p>\\[h_{\\mathrm{ovan}}=0{,}40\\cdot12=4{,}8\\,\\mathrm{cm}.\\]<p><strong>Svar:</strong> \\(4{,}8\\,\\mathrm{cm}\\).</p></div>",
         "ledtrad": "<p>Vilken andel av höjden ligger ovanför vattnet?</p>",
-        "niva": "E",
-        "traningsniva": 2,
-        "arbetsinsats": 1,
-        "poang": "(1/0/0)",
+        "niva": "C",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ],
@@ -70979,10 +70979,10 @@ window.BANK = [
     "id": "6.281",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "flytande flottars lastförmåga",
-    "poang": "(2/0/0)",
-    "t": "<p>En homogen flotte har volymen 1,00 m³ och medeldensiteten 800 kg/m³. Den flyter i vatten med densiteten 1000 kg/m³. Lasten placeras ovanpå flotten. Bortse från lastens volym.</p><p>Bestäm den största extra lastmassan innan flottens ovansida når vattenytan. Svara i kg. Svara med ett heltal.</p>",
+    "poang": "(0/1/0)",
+    "t": "<p>En flotte har volymen 1,00 m³ och medeldensiteten 800 kg/m³. Den flyter i vatten med densiteten 1000 kg/m³. Lasten placeras ovanpå flotten. Bortse från lastens volym.</p><p>Bestäm den största extra lastmassan innan flottens ovansida når vattenytan. Svara i kg. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid gränsen är hela flotten nedsänkt.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den undanträngda vattenmassan är 1000·1,00=1000 kg och flottens massa</p><div class=\"facit-matte\">\\[800\\cdot 1{,}00=800\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Lasten får därför vara 200 kg.</p></div></div><p class=\"facit-svar\">Svar: 200 kg.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -70990,7 +70990,7 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__flytande_flottars_lastformaga",
     "svarstyp": "numeriskt",
-    "rättSvar": 200,
+    "rättSvar": 200.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
@@ -71011,8 +71011,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>En båt har lodräta skrovsidor nära vattenlinjen och vattenlinjearean 6,0 m². Den flyter först stilla i vatten med densiteten 998 kg/m³. Därefter lastas den med 450 kg, och vattenlinjearean kan antas vara oförändrad.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den extra vattenvolym som båten måste tränga undan.</li><li>Bestäm hur mycket djupgåendet ökar.</li><li>Förklara varför båtens egen massa inte behövs för att bestämma ökningen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den extra lyftkraften ska balansera lastens tyngd.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är den extra undanträngda vattenmassan 450 kg och</p><div class=\"facit-matte\">\\[\\Delta V=\\frac{450}{998}\\approx 0{,}45090\\, \\mathrm{m^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med lodräta sidor är</p><div class=\"facit-matte\">\\[\\Delta V=A \\Delta h\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{0{,}45090}{6{,}0}\\approx 0{,}07515 m=7{,}52\\, \\mathrm{cm}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Före lastningen balanseras båtens egen tyngd redan av den ursprungliga lyftkraften.</p></div><div class=\"facit-stycke\"><p>När de två jämviktslägena jämförs återstår bara lastens extra tyngd och den extra undanträngningen.</p></div></div></div></div></div>",
+    "t": "<p>En båt har lodräta skrovsidor nära vattenlinjen och arean vid vattenytan 6,0 m². Den flyter först stilla i vatten med densiteten 998 kg/m³. Därefter lastas den med 450 kg, och arean vid vattenytan kan antas vara oförändrad.</p><p><strong>a)</strong> Bestäm den extra vattenvolym som båten måste tränga undan.</p><p><strong>b)</strong> Bestäm hur mycket höjden under vattenytan ökar.</p><p><strong>c)</strong> Förklara varför båtens egen massa inte behövs för att bestämma ökningen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den extra lyftkraften ska balansera lastens tyngd.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är den extra undanträngda vattenmassan 450 kg och</p><div class=\"facit-matte\">\\[\\Delta V=\\frac{450}{998}\\approx 0{,}45090\\, \\mathrm{m^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med lodräta sidor är</p><div class=\"facit-matte\">\\[\\Delta V=A \\Delta h\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alltså</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta h&=\\frac{0{,}45090}{6{,}0}\\\\ &\\approx 0{,}07515 m\\\\ &=7{,}52\\, \\mathrm{cm}\\end{aligned}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Före lastningen balanseras båtens egen tyngd redan av den ursprungliga lyftkraften.</p></div><div class=\"facit-stycke\"><p>När de två jämviktslägena jämförs återstår bara lastens extra tyngd och den extra undanträngningen.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -71040,10 +71040,10 @@ window.BANK = [
     "id": "6.117",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><ol style=\"display:grid;gap:0.85rem\"><li>Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</li><li>Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom tvärsnittsarean är konstant är volymandelen</p><div class=\"facit-matte\">\\[\\frac{13{,}0}{20{,}0}=0{,}650=65{,}0\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 65,0 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger ρ<sub>k</sub>/ρ<sub>v</sub>=V<sub>ned</sub>/V.</p></div><div class=\"facit-stycke\"><p>Därför ρ<sub>k</sub>=0,650·1000=650 kg/m³.</p></div></div><p class=\"facit-svar\">Svar: 650 kg/m³.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(1/1/0)",
+    "t": "<p>Figuren visar en kloss med raka, lodräta sidor som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><p><strong>a)</strong> Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p><p><strong>b)</strong> Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>De raka, lodräta sidorna gör att samma andel av volymen som av höjden ligger under ytan.</p>\\[\\frac{13}{20}\\cdot100=65{,}0\\,\\%.\\]<p><strong>Svar:</strong> \\(65{,}0\\,\\%\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Andelen under ytan är \\(13/20=0{,}65\\). Föremålets densitet är därför 0,65 gånger vattnets.</p>\\[\\rho=0{,}65\\cdot1000=650\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(650\\,\\mathrm{kg/m^3}\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "procedur"
@@ -71051,15 +71051,15 @@ window.BANK = [
     "familjNyckel": "arkimedes__tolka_figur_om_flytdjup",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      65,
-      650
+      65.0,
+      650.0
     ],
     "tolerans": [
-      0,
+      0.05,
       0
     ],
     "självrättning": true,
-    "ledtrad": "<p>För ett rätblock kan du jämföra de två höjderna.</p>",
+    "ledtrad": "<p>Jämför höjden under ytan med hela klossens höjd.</p>",
     "traningsniva": 3,
     "typ": "tolka figur om flytdjup",
     "miniräknare": true,
@@ -71080,17 +71080,17 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p>",
+    "spelIntro": "<p>Figuren visar en kloss med raka, lodräta sidor som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.",
-        "t": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><p>Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom tvärsnittsarean är konstant är volymandelen</p><div class=\"facit-matte\">\\[\\frac{13{,}0}{20{,}0}=0{,}650=65{,}0\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 65,0 %.</p></div>",
-        "ledtrad": "<p>För ett rätblock kan du jämföra de två höjderna.</p>",
+        "t": "<p>En kloss med raka, lodräta sidor är 20,0 cm hög och flyter med 13,0 cm av höjden under vattenytan.</p><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg><p>Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>De raka, lodräta sidorna gör att samma andel av volymen som av höjden ligger under ytan.</p>\\[\\frac{13}{20}\\cdot100=65{,}0\\,\\%.\\]<p><strong>Svar:</strong> \\(65{,}0\\,\\%\\).</p></div>",
+        "ledtrad": "<p>Jämför höjden under ytan med hela klossens höjd.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -71101,13 +71101,13 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.",
-        "t": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><p>Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger ρ<sub>k</sub>/ρ<sub>v</sub>=V<sub>ned</sub>/V.</p></div><div class=\"facit-stycke\"><p>Därför ρ<sub>k</sub>=0,650·1000=650 kg/m³.</p></div></div><p class=\"facit-svar\">Svar: 650 kg/m³.</p></div>",
+        "t": "<p>Figuren visar en kloss med raka, lodräta sidor som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"109\" width=\"330\" height=\"131\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"109\" x2=\"375\" y2=\"109\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"109\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"109\" x2=\"142\" y2=\"109\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"164\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><p>Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Andelen under ytan är \\(13/20=0{,}65\\). Föremålets densitet är därför 0,65 gånger vattnets.</p>\\[\\rho=0{,}65\\cdot1000=650\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(650\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Lyftkraften och tyngdkraften är lika stora när klossen flyter stilla.</p>",
-        "niva": "E",
-        "traningsniva": 2,
+        "niva": "C",
+        "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ],
@@ -71123,11 +71123,11 @@ window.BANK = [
     "id": "6.118",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "lyftkraft och kraftresultant",
-    "poang": "(3/0/0)",
-    "t": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotstånd i släppögonblicket.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften när flaskan är helt nedsänkt. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm flaskans tyngdkraft. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm kraftresultanten med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 3 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flaskan undantränger 25,0·10⁻⁶ m³.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub>=1000·9,82·25,0·10⁻⁶=0,2455 N.</p></div></div><p class=\"facit-svar\">Svar: 0,246 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>g</sub>=mg=0,0180·9,82=0,17676 N.</p></div></div><p class=\"facit-svar\">Svar: 0,177 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>res</sub>=F<sub>L</sub>−F<sub>g</sub>=0,2455−0,17676=0,06874 N.</p></div><div class=\"facit-stycke\"><p>Det positiva tecknet visar att flaskan börjar accelerera uppåt.</p></div></div><p class=\"facit-svar\">Svar: 0,069 N.</p></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>En stängd, tom flaska har massan 18 g och volymen 25 cm³. Den hålls helt under vatten med densiteten 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p><strong>a)</strong> Hur stor är vattnets lyftkraft på flaskan? Svara i N med tre decimaler.</p><p><strong>b)</strong> Hur stor är flaskans tyngdkraft? Svara i N med tre decimaler.</p><p><strong>c)</strong> Flaskan släpps. Hur stor är den sammanlagda kraften uppåt om bara lyftkraften och tyngdkraften räknas? Svara i N med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hela flaskan tränger undan vatten. Volymen är \\(25\\,\\mathrm{cm^3}=25\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1000\\cdot9{,}82\\cdot25\\cdot10^{-6}=0{,}2455\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}246\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Massan är \\(18\\,\\mathrm g=0{,}018\\,\\mathrm{kg}\\).</p>\\[F_g=mg=0{,}018\\cdot9{,}82=0{,}17676\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}177\\,\\mathrm{N}\\).</p><p><strong>c)</strong></p><p>Lyftkraften verkar uppåt och tyngdkraften nedåt. Beräkna båda krafterna innan du tar skillnaden.</p>\\[F_L=1000\\cdot9{,}82\\cdot25\\cdot10^{-6}=0{,}2455\\,\\mathrm N.\\]\\[F_g=0{,}018\\cdot9{,}82=0{,}17676\\,\\mathrm N.\\]\\[F_{\\mathrm{summa}}=0{,}2455-0{,}17676=0{,}06874\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}069\\,\\mathrm{N}\\).</p></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
       "procedur"
@@ -71135,14 +71135,14 @@ window.BANK = [
     "familjNyckel": "arkimedes__lyftkraft_och_kraftresultant",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.246,
-      0.177,
-      0.069
+      0.2455,
+      0.17676,
+      0.06874
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      0.0005,
+      0.0005,
+      0.0005
     ],
     "självrättning": true,
     "ledtrad": "<p>Använd flaskans yttre volym som undanträngd volym.</p>",
@@ -71168,17 +71168,17 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotstånd i släppögonblicket.</p>",
+    "spelIntro": "<p>En stängd, tom flaska har massan 18 g och volymen 25 cm³. Den hålls helt under vatten med densiteten 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraften när flaskan är helt nedsänkt. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En tillsluten flaska med yttre volymen 25,0 cm³ är helt nedsänkt i vatten. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Bestäm lyftkraften när flaskan är helt nedsänkt. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flaskan undantränger 25,0·10⁻⁶ m³.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub>=1000·9,82·25,0·10⁻⁶=0,2455 N.</p></div></div><p class=\"facit-svar\">Svar: 0,246 N.</p></div>",
+        "fraga": "Hur stor är vattnets lyftkraft på flaskan? Svara i N med tre decimaler.",
+        "t": "<p>En stängd flaska med volymen 25 cm³ hålls helt under vatten. Vattnets densitet är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är vattnets lyftkraft på flaskan? Svara i N med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela flaskan tränger undan vatten. Volymen är \\(25\\,\\mathrm{cm^3}=25\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1000\\cdot9{,}82\\cdot25\\cdot10^{-6}=0{,}2455\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}246\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Använd flaskans yttre volym som undanträngd volym.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -71188,13 +71188,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm flaskans tyngdkraft. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En flaska har massan 18,0 g. Använd g = 9,82 m/s².</p><p>Bestäm flaskans tyngdkraft. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>g</sub>=mg=0,0180·9,82=0,17676 N.</p></div></div><p class=\"facit-svar\">Svar: 0,177 N.</p></div>",
+        "fraga": "Hur stor är flaskans tyngdkraft? Svara i N med tre decimaler.",
+        "t": "<p>En flaska har massan 18 g. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är flaskans tyngdkraft? Svara i N med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är \\(18\\,\\mathrm g=0{,}018\\,\\mathrm{kg}\\).</p>\\[F_g=mg=0{,}018\\cdot9{,}82=0{,}17676\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}177\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Omvandla massan till kilogram.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -71204,14 +71204,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm kraftresultanten med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotstånd i släppögonblicket.</p><p>Bestäm kraftresultanten med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>res</sub>=F<sub>L</sub>−F<sub>g</sub>=0,2455−0,17676=0,06874 N.</p></div><div class=\"facit-stycke\"><p>Det positiva tecknet visar att flaskan börjar accelerera uppåt.</p></div></div><p class=\"facit-svar\">Svar: 0,069 N.</p></div>",
+        "fraga": "Flaskan släpps. Hur stor är den sammanlagda kraften uppåt om bara lyftkraften och tyngdkraften räknas? Svara i N med tre decimaler.",
+        "t": "<p>En stängd, tom flaska med massan 18 g och volymen 25 cm³ släpps helt under vatten. Vattnets densitet är 1000 kg/m³. Räkna bara med lyftkraften och tyngdkraften. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är den sammanlagda kraften uppåt om bara lyftkraften och tyngdkraften räknas? Svara i N med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften verkar uppåt och tyngdkraften nedåt. Beräkna båda krafterna innan du tar skillnaden.</p>\\[F_L=1000\\cdot9{,}82\\cdot25\\cdot10^{-6}=0{,}2455\\,\\mathrm N.\\]\\[F_g=0{,}018\\cdot9{,}82=0{,}17676\\,\\mathrm N.\\]\\[F_{\\mathrm{summa}}=0{,}2455-0{,}17676=0{,}06874\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}069\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Subtrahera den nedåtriktade kraften från den uppåtriktade.</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ],
@@ -71227,11 +71227,11 @@ window.BANK = [
     "id": "6.282",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "gasballongens lastförmåga",
-    "poang": "(2/0/0)",
+    "poang": "(0/1/0)",
     "t": "<p>En ballong har volymen 0,030 m³ och fylls med en gas vars densitet är 0,23 kg/m³. Luftens densitet är 1,20 kg/m³ och ballonghöljet har massan 12 g. Bortse från lastens volym.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">gas</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = 0,030 m³</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"262\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last</text></svg></div><p>Bestäm den största extra lastmassan som ballongen kan bära i jämvikt. Svara i g. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den undanträngda luften kan bära massan</p><div class=\"facit-matte\">\\[1{,}20\\cdot 0{,}030=0{,}0360\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Gasen väger</p><div class=\"facit-matte\">\\[0{,}23\\cdot 0{,}030=0{,}0069\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">När även höljets 0,012 kg räknas bort återstår</p><div class=\"facit-matte\">\\[0{,}0171 k g=17{,}1\\, \\mathrm{g}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 17,1 g.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ballongen tränger undan luft med samma volym som ballongen. Från luftens massa måste både gasens och höljets massa dras bort.</p>\\[m_{\\mathrm{luft}}=1{,}20\\cdot0{,}030=0{,}0360\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{gas}}=0{,}23\\cdot0{,}030=0{,}00690\\,\\mathrm{kg}.\\]\\[\\begin{aligned}m_{\\mathrm{last}}&=0{,}0360-0{,}00690-0{,}0120\\\\ &=0{,}0171\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(17{,}1\\,\\mathrm{g}\\).</p></div>",
     "familj": "Ballonger och lastförmåga",
     "formaga": [
       "procedur"
@@ -71239,7 +71239,7 @@ window.BANK = [
     "familjNyckel": "arkimedes__gasballongens_lastformaga",
     "svarstyp": "numeriskt",
     "rättSvar": 17.1,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -71257,11 +71257,11 @@ window.BANK = [
     "id": "6.119",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "densitet och skenbar tyngd",
-    "poang": "(4/0/0)",
-    "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Bortse från trådarnas volym och luftens lyftkraft.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm blysänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm volframsänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm dynamometerns visning för blysänket. Svara i mN. Avrunda vid behov till 2 decimaler.</li><li>Bestäm dynamometerns visning för volframsänket. Svara i mN. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V<sub>Pb</sub>=m/ρ=0,00800/11340 m³≈0,70547 cm³.</p></div></div><p class=\"facit-svar\">Svar: 0,705 cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V<sub>W</sub>=0,00800/19300 m³≈0,41451 cm³.</p></div></div><p class=\"facit-svar\">Svar: 0,415 cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>D</sub>=mg−ρ<sub>v</sub>gV=0,00800·9,82−998·9,82·0,00800/11340≈71,646 mN.</p></div></div><p class=\"facit-svar\">Svar: 71,65 mN.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>D</sub>=0,00800·9,82−998·9,82·0,00800/19300≈74,498 mN.</p></div><div class=\"facit-stycke\"><p>Volframsänket får mindre lyftkraft och känns därför tyngre i vattnet.</p></div></div><p class=\"facit-svar\">Svar: 74,50 mN.</p></div></div></div>",
+    "poang": "(2/2/0)",
+    "t": "<p>Två fiskevikter av bly och volfram har massan 8,0 g vardera. Blyets densitet är 11340 kg/m³, volframets 19300 kg/m³ och vattnets 1000 kg/m³. Varje vikt hänger stilla i en kraftmätare när den sänks helt under vatten. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p><strong>a)</strong> Hur stor volym har blyvikten? Svara i cm³ med tre decimaler.</p><p><strong>b)</strong> Hur stor volym har volframvikten? Svara i cm³ med tre decimaler.</p><p><strong>c)</strong> Vad visar kraftmätaren för blyvikten under vatten? Svara i mN med två decimaler.</p><p><strong>d)</strong> Vad visar kraftmätaren för volframvikten under vatten? Svara i mN med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Massan är \\(8{,}0\\,\\mathrm g=0{,}0080\\,\\mathrm{kg}\\).</p>\\[V=\\frac{0{,}0080}{11340}\\approx7{,}054674\\cdot10^{-7}\\,\\mathrm{m^3}.\\]<p>Omvandla till cm³: \\(1\\,\\mathrm{m^3}=10^6\\,\\mathrm{cm^3}\\).</p>\\[V=0{,}7054674\\,\\mathrm{cm^3}.\\]<p><strong>Svar:</strong> \\(0{,}705\\,\\mathrm{cm^3}\\).</p><p><strong>b)</strong></p><p>Massan är \\(8{,}0\\,\\mathrm g=0{,}0080\\,\\mathrm{kg}\\).</p>\\[V=\\frac{0{,}0080}{19300}\\approx4{,}145078\\cdot10^{-7}\\,\\mathrm{m^3}.\\]<p>Omvandla till cm³: \\(1\\,\\mathrm{m^3}=10^6\\,\\mathrm{cm^3}\\).</p>\\[V=0{,}4145078\\,\\mathrm{cm^3}.\\]<p><strong>Svar:</strong> \\(0{,}415\\,\\mathrm{cm^3}\\).</p><p><strong>c)</strong></p><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p>\\[V=\\frac{0{,}0080}{11340}\\approx7{,}054674\\cdot10^{-7}\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot9{,}82\\cdot V\\approx0{,}00692769\\,\\mathrm N.\\]\\[F_g=0{,}0080\\cdot9{,}82=0{,}07856\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=F_g-F_L\\approx0{,}07163231\\,\\mathrm N.\\]<p>Omvandla till mN: \\(1\\,\\mathrm N=1000\\,\\mathrm{mN}\\).</p>\\[F_{\\mathrm{mätare}}\\approx71{,}63231\\,\\mathrm{mN}.\\]<p><strong>Svar:</strong> \\(71{,}63\\,\\mathrm{mN}\\).</p><p><strong>d)</strong></p><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p>\\[V=\\frac{0{,}0080}{19300}\\approx4{,}145078\\cdot10^{-7}\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot9{,}82\\cdot V\\approx0{,}004070466\\,\\mathrm N.\\]\\[F_g=0{,}0080\\cdot9{,}82=0{,}07856\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=F_g-F_L\\approx0{,}07448953\\,\\mathrm N.\\]<p>Omvandla till mN: \\(1\\,\\mathrm N=1000\\,\\mathrm{mN}\\).</p>\\[F_{\\mathrm{mätare}}\\approx74{,}48953\\,\\mathrm{mN}.\\]<p><strong>Svar:</strong> \\(74{,}49\\,\\mathrm{mN}\\).</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
       "procedur"
@@ -71269,16 +71269,16 @@ window.BANK = [
     "familjNyckel": "arkimedes__densitet_och_skenbar_tyngd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.705,
-      0.415,
-      71.65,
-      74.5
+      0.705467372134039,
+      0.414507772020725,
+      71.6323104056438,
+      74.4895336787565
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.0005,
+      0.0005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Samma massa men olika densitet innebär olika volym.</p>",
@@ -71307,17 +71307,17 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Bortse från trådarnas volym och luftens lyftkraft.</p>",
+    "spelIntro": "<p>Två fiskevikter av bly och volfram har massan 8,0 g vardera. Blyets densitet är 11340 kg/m³, volframets 19300 kg/m³ och vattnets 1000 kg/m³. Varje vikt hänger stilla i en kraftmätare när den sänks helt under vatten. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm blysänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett blysänke har massan 8,00 g. Blyets densitet är 11 340 kg/m³.</p><p>Bestäm blysänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V<sub>Pb</sub>=m/ρ=0,00800/11340 m³≈0,70547 cm³.</p></div></div><p class=\"facit-svar\">Svar: 0,705 cm³.</p></div>",
+        "fraga": "Hur stor volym har blyvikten? Svara i cm³ med tre decimaler.",
+        "t": "<p>En vikt av bly har massan 8,0 g. Materialets densitet är 11340 kg/m³.</p><p>Hur stor volym har blyvikten? Svara i cm³ med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är \\(8{,}0\\,\\mathrm g=0{,}0080\\,\\mathrm{kg}\\).</p>\\[V=\\frac{0{,}0080}{11340}\\approx7{,}054674\\cdot10^{-7}\\,\\mathrm{m^3}.\\]<p>Omvandla till cm³: \\(1\\,\\mathrm{m^3}=10^6\\,\\mathrm{cm^3}\\).</p>\\[V=0{,}7054674\\,\\mathrm{cm^3}.\\]<p><strong>Svar:</strong> \\(0{,}705\\,\\mathrm{cm^3}\\).</p></div>",
         "ledtrad": "<p>Samma massa men olika densitet innebär olika volym.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -71327,13 +71327,13 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm volframsänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.",
-        "t": "<p>Ett volframsänke har massan 8,00 g. Volframs densitet är 19 300 kg/m³.</p><p>Bestäm volframsänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V<sub>W</sub>=0,00800/19300 m³≈0,41451 cm³.</p></div></div><p class=\"facit-svar\">Svar: 0,415 cm³.</p></div>",
+        "fraga": "Hur stor volym har volframvikten? Svara i cm³ med tre decimaler.",
+        "t": "<p>En vikt av volfram har massan 8,0 g. Materialets densitet är 19300 kg/m³.</p><p>Hur stor volym har volframvikten? Svara i cm³ med tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är \\(8{,}0\\,\\mathrm g=0{,}0080\\,\\mathrm{kg}\\).</p>\\[V=\\frac{0{,}0080}{19300}\\approx4{,}145078\\cdot10^{-7}\\,\\mathrm{m^3}.\\]<p>Omvandla till cm³: \\(1\\,\\mathrm{m^3}=10^6\\,\\mathrm{cm^3}\\).</p>\\[V=0{,}4145078\\,\\mathrm{cm^3}.\\]<p><strong>Svar:</strong> \\(0{,}415\\,\\mathrm{cm^3}\\).</p></div>",
         "ledtrad": "<p>Volfram har högre densitet och får därför mindre volym.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -71343,14 +71343,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm dynamometerns visning för blysänket. Svara i mN. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Bortse från trådarnas volym och luftens lyftkraft.</p><p>Bestäm dynamometerns visning för blysänket. Svara i mN. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>D</sub>=mg−ρ<sub>v</sub>gV=0,00800·9,82−998·9,82·0,00800/11340≈71,646 mN.</p></div></div><p class=\"facit-svar\">Svar: 71,65 mN.</p></div>",
-        "ledtrad": "<p>Dynamometern visar tyngden minskad med vattnets lyftkraft.</p>",
-        "niva": "E",
+        "fraga": "Vad visar kraftmätaren för blyvikten under vatten? Svara i mN med två decimaler.",
+        "t": "<p>En vikt av bly med massan 8,0 g hänger stilla i en kraftmätare, helt under vatten. Materialets densitet är 11340 kg/m³ och vattnets är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vad visar kraftmätaren för blyvikten under vatten? Svara i mN med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p>\\[V=\\frac{0{,}0080}{11340}\\approx7{,}054674\\cdot10^{-7}\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot9{,}82\\cdot V\\approx0{,}00692769\\,\\mathrm N.\\]\\[F_g=0{,}0080\\cdot9{,}82=0{,}07856\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=F_g-F_L\\approx0{,}07163231\\,\\mathrm N.\\]<p>Omvandla till mN: \\(1\\,\\mathrm N=1000\\,\\mathrm{mN}\\).</p>\\[F_{\\mathrm{mätare}}\\approx71{,}63231\\,\\mathrm{mN}.\\]<p><strong>Svar:</strong> \\(71{,}63\\,\\mathrm{mN}\\).</p></div>",
+        "ledtrad": "<p>Kraftmätaren visar tyngden minskad med vattnets lyftkraft.</p>",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ],
@@ -71359,14 +71359,14 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm dynamometerns visning för volframsänket. Svara i mN. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Bortse från trådarnas volym och luftens lyftkraft.</p><p>Bestäm dynamometerns visning för volframsänket. Svara i mN. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>D</sub>=0,00800·9,82−998·9,82·0,00800/19300≈74,498 mN.</p></div><div class=\"facit-stycke\"><p>Volframsänket får mindre lyftkraft och känns därför tyngre i vattnet.</p></div></div><p class=\"facit-svar\">Svar: 74,50 mN.</p></div>",
-        "ledtrad": "<p>Jämför den undanträngda vattenvolymen med blysänkets.</p>",
-        "niva": "E",
+        "fraga": "Vad visar kraftmätaren för volframvikten under vatten? Svara i mN med två decimaler.",
+        "t": "<p>En vikt av volfram med massan 8,0 g hänger stilla i en kraftmätare, helt under vatten. Materialets densitet är 19300 kg/m³ och vattnets är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vad visar kraftmätaren för volframvikten under vatten? Svara i mN med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p>\\[V=\\frac{0{,}0080}{19300}\\approx4{,}145078\\cdot10^{-7}\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot9{,}82\\cdot V\\approx0{,}004070466\\,\\mathrm N.\\]\\[F_g=0{,}0080\\cdot9{,}82=0{,}07856\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=F_g-F_L\\approx0{,}07448953\\,\\mathrm N.\\]<p>Omvandla till mN: \\(1\\,\\mathrm N=1000\\,\\mathrm{mN}\\).</p>\\[F_{\\mathrm{mätare}}\\approx74{,}48953\\,\\mathrm{mN}.\\]<p><strong>Svar:</strong> \\(74{,}49\\,\\mathrm{mN}\\).</p></div>",
+        "ledtrad": "<p>Kraftmätaren bär den del av tyngdkraften som vattnets lyftkraft inte bär.</p>",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ],
@@ -71384,8 +71384,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "A",
     "poang": "(0/2/3)",
-    "t": "<p>En isbit flyter i ett glas med sötvatten. Vattenytan står precis vid glasets kant. Anta samma densitet för smältvattnet och vattnet i glaset.</p><ol style=\"display:grid;gap:0.85rem\"><li>Rinner vattnet över när en ren isbit smälter? Motivera med Arkimedes princip.</li><li>Isbiten innehåller en instängd luftbubbla. Bortse först från luftens massa. Spelar bubblans volym någon roll för slutsatsen?</li><li>Isbiten innehåller i stället en liten sten med högre densitet än vatten. Stenen sjunker efter att isen smält. Hur förändras vattennivån? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej.</p></div><div class=\"facit-stycke\"><p>Den flytande isen undantränger en vattenmassa som är lika stor som isens massa.</p></div><div class=\"facit-stycke\"><p>Efter smältningen blir isen samma massa vatten och upptar därför exakt den tidigare undanträngda volymen i modellen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej, inte när luftens massa försummas.</p></div><div class=\"facit-stycke\"><p>Hålrummets volym påverkar isbitens form och medeldensitet men den flytande kroppens undanträngning bestäms av dess tyngd.</p></div><div class=\"facit-stycke\"><p>Om luftens lilla massa inte försummades och luften lämnade glaset skulle nivån sjunka ytterst lite.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nivån sjunker.</p></div><div class=\"facit-stycke\"><p>När stenen sitter i den flytande isen kräver dess massa undanträngningen m<sub>s</sub>/ρ<sub>v</sub>.</p></div><div class=\"facit-stycke\"><p>Efter smältningen tränger den sjunkna stenen bara undan sin egen volym m<sub>s</sub>/ρ<sub>s</sub>.</p></div><div class=\"facit-stycke\"><p>Eftersom ρ<sub>s</sub>&gt;ρ<sub>v</sub> är den senare volymen mindre.</p></div></div></div></div></div>",
+    "t": "<p>En isbit flyter i ett glas med sötvatten. Vattenytan står precis vid glasets kant. Anta samma densitet för smältvattnet och vattnet i glaset.</p><p><strong>a)</strong> Rinner vattnet över när en ren isbit smälter? Motivera med Arkimedes princip.</p><p><strong>b)</strong> Isbiten innehåller en instängd luftbubbla. Bortse från luftens massa. Spelar bubblans volym någon roll för slutsatsen?</p><p><strong>c)</strong> Isbiten innehåller i stället en liten sten med högre densitet än vatten. Stenen sjunker efter att isen smält. Hur förändras vattennivån? Motivera.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej.</p></div><div class=\"facit-stycke\"><p>Den flytande isen undantränger en vattenmassa som är lika stor som isens massa.</p></div><div class=\"facit-stycke\"><p>Efter smältningen blir isen samma massa vatten och upptar därför exakt den tidigare undanträngda volymen i modellen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nej, inte när luftens massa försummas.</p></div><div class=\"facit-stycke\"><p>Hålrummets volym påverkar isbitens form och medeldensitet men den flytande kroppens undanträngning bestäms av dess tyngd.</p></div><div class=\"facit-stycke\"><p></p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nivån sjunker.</p></div><div class=\"facit-stycke\"><p>När stenen sitter i den flytande isen kräver dess massa undanträngningen m<sub>s</sub>/ρ<sub>v</sub>.</p></div><div class=\"facit-stycke\"><p>Efter smältningen tränger den sjunkna stenen bara undan sin egen volym m<sub>s</sub>/ρ<sub>s</sub>.</p></div><div class=\"facit-stycke\"><p>Eftersom ρ<sub>s</sub>&gt;ρ<sub>v</sub> är den senare volymen mindre.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "begrepp",
@@ -71412,10 +71412,10 @@ window.BANK = [
     "id": "6.283",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "kraftjämvikt med lyftkraft",
-    "poang": "(2/0/0)",
-    "t": "<p>En homogen kropp har volymen 3,0 liter och densiteten 600 kg/m³. Den hålls stilla helt under vattenytan med ett snöre som är fäst i botten. Vattnets densitet är 1000 kg/m³.</p><div class=\"fig smal\"><svg width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp hålls under vattenytan av ett snöre som är fäst i botten\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"260\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"320\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L320 290 L320 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"150\" y=\"110\" width=\"80\" height=\"70\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"190\" y1=\"180\" x2=\"190\" y2=\"290\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"227\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">snöre</text></svg></div><p>Bestäm snörets spännkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En kropp har volymen 3,0 liter och densiteten 600 kg/m³. Den hålls stilla helt under vattenytan med ett snöre som är fäst i botten. Vattnets densitet är 1000 kg/m³.</p><div class=\"fig smal\"><svg width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp hålls under vattenytan av ett snöre som är fäst i botten\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"260\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"320\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L320 290 L320 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"150\" y=\"110\" width=\"80\" height=\"70\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"190\" y1=\"180\" x2=\"190\" y2=\"290\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"227\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">snöre</text></svg></div><p>Bestäm snörets spännkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kroppen är mindre tät än vattnet, så snöret drar nedåt.</p></div><div class=\"facit-stycke\"><p>Jämvikt ger T=F<sub>L</sub>−F<sub>g</sub>=(1000−600)·0,0030·9,82=11,784 N.</p></div></div><p class=\"facit-svar\">Svar: 11,78 N.</p></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -71423,8 +71423,8 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__kraftjamvikt_med_lyftkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 11.78,
-    "tolerans": 0,
+    "rättSvar": 11.784,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -72190,8 +72190,8 @@ window.BANK = [
     "niva": "A",
     "typ": "modellgranskning av startacceleration",
     "poang": "(0/2/3)",
-    "t": "<p>En frigolitkloss med volymen 0,020 m³ och densiteten 30 kg/m³ hålls helt under vattenytan och släpps. Vattnets densitet är 998 kg/m³. En första modell tar bara med tyngdkraft och lyftkraft.</p><span class=\"fig\"><svg height=\"274\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.857 481.429 212.857\"><rect x=\"20\" y=\"40\" width=\"440\" height=\"190\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"40\" x2=\"460\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"180\" y=\"130\" width=\"120\" height=\"70\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"170\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit</text><text x=\"240\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">V = 0,020 m³</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften och tyngdkraften i den första modellen.</li><li>Bestäm klossens acceleration i släppögonblicket enligt modellen.</li><li>Resultatet är mycket stort. Förklara varför modellen inte ger en realistisk startacceleration och nämn minst en viktig effekt som saknas.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub>=998·9,82·0,020≈196,01 N.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan är 30·0,020=0,600 kg och tyngdkraften</p><div class=\"facit-matte\">\\[0{,}600\\cdot 9{,}82=5{,}892\\, \\mathrm{N}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>res</sub>=196,01−5,892≈190,12 N uppåt.</p></div><div class=\"facit-stycke\"><p>Modellen ger a=F<sub>res</sub>/m≈190,12/0,600≈316,9 m/s² uppåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Klossen måste sätta omgivande vatten i rörelse.</p></div><div class=\"facit-stycke\"><p>Denna så kallade tillagda massa gör den effektiva trögheten mycket större än klossens egen massa.</p></div><div class=\"facit-stycke\"><p>Dessutom uppstår strömningsmotstånd så snart hastigheten ökar.</p></div><div class=\"facit-stycke\"><p>Modellen med bara två krafter och endast klossens massa är därför otillräcklig för verklig rörelse.</p></div></div></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En frigolitkloss med volymen 0,020 m³ och densiteten 30 kg/m³ hålls helt under vattenytan och släpps. Vattnets densitet är 998 kg/m³. En första modell tar bara med tyngdkraft och lyftkraft.</p><span class=\"fig\"><svg height=\"274\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.857 481.429 212.857\"><rect x=\"20\" y=\"40\" width=\"440\" height=\"190\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"40\" x2=\"460\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"180\" y=\"130\" width=\"120\" height=\"70\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"170\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit</text><text x=\"240\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">V = 0,020 m³</text></svg></span><p><strong>a)</strong> Bestäm lyftkraften och tyngdkraften i den första modellen.</p><p><strong>b)</strong> Bestäm klossens acceleration i släppögonblicket enligt modellen.</p><p><strong>c)</strong> Resultatet är mycket stort. Förklara varför modellen inte ger en realistisk startacceleration och nämn minst en viktig effekt som saknas.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Lyftkraften fås från hela klossens volym. Klossens egen massa fås från densiteten.</p>\\[F_L=998\\cdot0{,}020\\cdot9{,}82=196{,}0072\\,\\mathrm N.\\]\\[m=30\\cdot0{,}020=0{,}60\\,\\mathrm{kg}.\\]\\[F_g=0{,}60\\cdot9{,}82=5{,}892\\,\\mathrm N.\\]<p><strong>b)</strong> I modellen är den sammanlagda kraften uppåt skillnaden mellan dessa krafter.</p>\\[F_{\\mathrm{summa}}=196{,}0072-5{,}892=190{,}1152\\,\\mathrm N.\\]\\[a=\\frac{F_{\\mathrm{summa}}}{m}=\\frac{190{,}1152}{0{,}60}\\approx316{,}9\\,\\mathrm{m/s^2}.\\]<p><strong>c)</strong> Modellen ger en mycket stor acceleration. I verkligheten måste klossen också sätta vatten i rörelse och möter vattenmotstånd. Den verkliga accelerationen blir därför mindre. När klossen når ytan minskar dessutom den volym som ligger under vatten, och därmed lyftkraften.</p></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
       "modellering",
@@ -72219,9 +72219,9 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En stålmutter hänger stilla i en dynamometer och är helt nedsänkt i vatten utan kontakt med kärlet. Dynamometern visar 0,550 N. Stålets densitet är 7850 kg/m³ och vattnets densitet 998 kg/m³. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en dynamometer helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"216\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">0,550 N</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg></div><p>Bestäm mutterns massa. Svara i g. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Med V=m/ρ<sub>s</sub> blir dynamometerns kraft F<sub>D</sub>=mg−ρ<sub>v</sub>gV=mg(1−ρ<sub>v</sub>/ρ<sub>s</sub>).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[m=\\frac{0{,}550}{9{,}82 \\left(1-\\frac{998}{7850}\\right)}\\approx 0{,}064166\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 64,17 g.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En stålmutter hänger stilla i en kraftmätare och är helt nedsänkt i vatten utan kontakt med kärlet. Kraftmätaren visar 0,550 N. Stålets densitet är 7850 kg/m³ och vattnets densitet 998 kg/m³. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"320\" height=\"320\" viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål hänger i en kraftmätare helt nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"60\" y1=\"18\" x2=\"260\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"60\" y1=\"18\" x2=\"68\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"72\" y1=\"18\" x2=\"80\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"84\" y1=\"18\" x2=\"92\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"96\" y1=\"18\" x2=\"104\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"108\" y1=\"18\" x2=\"116\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"128\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"132\" y1=\"18\" x2=\"140\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"144\" y1=\"18\" x2=\"152\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"156\" y1=\"18\" x2=\"164\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"168\" y1=\"18\" x2=\"176\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"180\" y1=\"18\" x2=\"188\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"192\" y1=\"18\" x2=\"200\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"204\" y1=\"18\" x2=\"212\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"216\" y1=\"18\" x2=\"224\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"228\" y1=\"18\" x2=\"236\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"240\" y1=\"18\" x2=\"248\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"252\" y1=\"18\" x2=\"260\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"146\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"164\" y1=\"48.7\" x2=\"172\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"65.3\" x2=\"172\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"82.0\" x2=\"172\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"98.7\" x2=\"172\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"164\" y1=\"115.3\" x2=\"172\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"132\" x2=\"160\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"216\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">0,550 N</text><rect x=\"100\" y=\"140\" width=\"120\" height=\"140\" fill=\"#cfe8f7\"/><line x1=\"100\" y1=\"140\" x2=\"220\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M100 120 L100 280 L220 280 L220 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"140\" y=\"155\" width=\"40\" height=\"40\" fill=\"#b0b7c3\" stroke=\"#24262b\" stroke-width=\"2\"/></svg></div><p>Bestäm mutterns massa. Svara i g. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Med V=m/ρ<sub>s</sub> blir kraftmätarens kraft F<sub>D</sub>=mg−ρ<sub>v</sub>gV=mg(1−ρ<sub>v</sub>/ρ<sub>s</sub>).</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför</p><div class=\"facit-matte\">\\[m=\\frac{0{,}550}{9{,}82 \\left(1-\\frac{998}{7850}\\right)}\\approx 0{,}064166\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 64,17 g.</p></div>",
     "familj": "Vägning i vätska",
     "formaga": [
       "problemlösning",
@@ -72229,15 +72229,15 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__densitet_fran_vagning_i_vatska",
     "svarstyp": "numeriskt",
-    "rättSvar": 64.17,
-    "tolerans": 0,
+    "rättSvar": 64.1657838762643,
+    "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Skriv mutterns volym som m/ρ<sub>s</sub> och använd kraftjämvikt.</p>",
     "traningsniva": 4,
     "typ": "densitet från vägning i vätska",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "svarEnhet": "g",
     "svarFormat": "numeriskt",
@@ -72444,7 +72444,7 @@ window.BANK = [
     "niva": "C",
     "typ": "kraftdiagram för flytande kropp",
     "poang": "(1/3/0)",
-    "t": "<p>En träkloss flyter stilla i vatten. Rita ett kraftdiagram för klossen.</p><span class=\"fig\"><svg height=\"238\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.686 30.978 286.629 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"78.4\" width=\"256\" height=\"119.6\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"78.4\" x2=\"318\" y2=\"78.4\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"56.800000000000004\" width=\"80\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"87.80000000000001\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">kloss</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Vilka krafter verkar på klossen innan någon rör den, och hur förhåller sig deras storlekar?</li><li>En hand trycker långsamt ned klossen och håller den stilla i ett lägre läge. Hur har lyftkraften förändrats, och vilken ytterligare kraft finns i diagrammet?</li><li>Handen släpper. Förklara riktningen på kraftresultanten direkt efter släppet.</li></ol>",
+    "t": "<p>En träkloss flyter stilla i vatten. Rita ett kraftdiagram för klossen.</p><span class=\"fig\"><svg height=\"238\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.686 30.978 286.629 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"78.4\" width=\"256\" height=\"119.6\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"78.4\" x2=\"318\" y2=\"78.4\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"56.800000000000004\" width=\"80\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"87.80000000000001\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">kloss</text></svg></span><p><strong>a)</strong> Vilka krafter verkar på klossen innan någon rör den, och hur förhåller sig deras storlekar?</p><p><strong>b)</strong> En hand trycker långsamt ned klossen och håller den stilla i ett lägre läge. Hur har lyftkraften förändrats, och vilken ytterligare kraft finns i diagrammet?</p><p><strong>c)</strong> Handen släpper. Förklara riktningen på kraftresultanten direkt efter släppet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tyngdkraften verkar nedåt och vattnets lyftkraft uppåt.</p></div><div class=\"facit-stycke\"><p>Eftersom klossen är i vila är krafterna lika stora: F<sub>L</sub>=F<sub>g</sub>.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En större volym är nedsänkt, så lyftkraften har ökat.</p></div><div class=\"facit-stycke\"><p>Handens kraft verkar nedåt.</p></div><div class=\"facit-stycke\"><p>I det hållna läget gäller F<sub>L</sub>=F<sub>g</sub>+F<sub>hand</sub>.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Precis efter släppet har läget och därmed lyftkraften ännu inte hunnit ändras, men handkraften har försvunnit.</p></div><div class=\"facit-stycke\"><p>Då är F<sub>L</sub>&gt;F<sub>g</sub> och resultanten är uppåt.</p></div></div></div></div><span class=\"fig\"><svg height=\"326\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"18.514 13.893 319.886 208.389\" role=\"img\" aria-label=\"Friläggning av en flytande kloss med lyftkraft uppåt och tyngdkraft nedåt\"><rect x=\"120\" y=\"82\" width=\"120\" height=\"72\" rx=\"4\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"32\" y1=\"118\" x2=\"328\" y2=\"118\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-dasharray=\"8 7\"/><line x1=\"180\" y1=\"104\" x2=\"180\" y2=\"38\" stroke=\"#2A5D9E\" stroke-width=\"4\"/><polygon points=\"180,24 171,42 189,42\" fill=\"#2A5D9E\"/><text x=\"194\" y=\"48\" font-family=\"IBM Plex Mono\" font-size=\"18\" fill=\"#2A5D9E\">F<tspan baseline-shift=\"sub\" font-size=\"12.96\">A</tspan></text><line x1=\"180\" y1=\"134\" x2=\"180\" y2=\"198\" stroke=\"#B43123\" stroke-width=\"4\"/><polygon points=\"180,212 171,194 189,194\" fill=\"#B43123\"/><text x=\"194\" y=\"198\" font-family=\"IBM Plex Mono\" font-size=\"18\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"12.96\">g</tspan></text></svg></span></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
@@ -72471,10 +72471,10 @@ window.BANK = [
     "id": "6.284",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "fribord och lastförmåga",
-    "poang": "(2/0/0)",
-    "t": "<p>En flotte har lodräta sidor och vattenlinjearean 5,20 m². Före lastning ligger ovansidan 5,5 cm över vattenytan. Vattnets densitet är 1000 kg/m³ och flotten antas förbli vågrät.</p><p>Bestäm den största extra lastmassan innan vattenytan når flottens ovansida. Svara i kg. Svara med ett heltal.</p>",
+    "poang": "(0/1/0)",
+    "t": "<p>En flotte har lodräta sidor och arean vid vattenytan 5,20 m². Före lastning ligger ovansidan 5,5 cm över vattenytan. Vattnets densitet är 1000 kg/m³ och flotten antas förbli vågrät.</p><p>Bestäm den största extra lastmassan innan vattenytan når flottens ovansida. Svara i kg. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flotten kan sjunka 0,055 m och då ökar undanträngningen med</p><div class=\"facit-matte\">\\[\\Delta V=A \\Delta h=5{,}20\\cdot 0{,}055=0{,}286\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Den extra vattenmassan, och därmed lastmassan, är</p><div class=\"facit-matte\">\\[1000\\cdot 0{,}286=286\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 286 kg.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -72482,7 +72482,7 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__fribord_och_lastformaga",
     "svarstyp": "numeriskt",
-    "rättSvar": 286,
+    "rättSvar": 286.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
@@ -72534,9 +72534,9 @@ window.BANK = [
     "id": "6.137",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "poang": "(0/2/3)",
-    "t": "<p>En ballong med volymen V innehåller en gas med densiteten ρ<sub>gas</sub> och omges av luft med densiteten ρ<sub>luft</sub>. Ballonghöljets massa är m<sub>h</sub>. Bortse från lastens volym.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ta fram ett uttryck för den största lastmassan som kan bäras i svävande jämvikt.</li><li>Ange villkoret för att ballongen alls ska kunna lyfta sitt hölje.</li><li>Förklara hur uttrycket förenklas om man bortser från höljets massa.</li></ol>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En ballong med volymen V innehåller en gas med densiteten ρ<sub>gas</sub> och omges av luft med densiteten ρ<sub>luft</sub>. Ballonghöljets massa är m<sub>h</sub>. Bortse från lastens volym.</p><p><strong>a)</strong> Ta fram ett uttryck för den största lastmassan som kan bäras i vila i luften.</p><p><strong>b)</strong> Ange villkoret för att ballongen alls ska kunna lyfta sitt hölje.</p><p><strong>c)</strong> Förklara hur uttrycket förenklas om man bortser från höljets massa.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftkraften är ρ<sub>luft</sub>gV.</p></div><div class=\"facit-stycke\"><p>Tyngden är (ρ<sub>gas</sub>V+m<sub>h</sub>+m<sub>last</sub>)g.</p></div><div class=\"facit-stycke\"><p>Jämvikt ger m<sub>last</sub>=(ρ<sub>luft</sub>−ρ<sub>gas</sub>)V−m<sub>h</sub>.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den maximala lastmassan måste vara positiv.</p></div><div class=\"facit-stycke\"><p>Därför krävs (ρ<sub>luft</sub>−ρ<sub>gas</sub>)V&gt;m<sub>h</sub>.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När m<sub>h</sub>=0 återstår m<sub>last,max</sub>=V(ρ<sub>luft</sub>−ρ<sub>gas</sub>), vilket är masskillnaden mellan undanträngd luft och ballonggas.</p></div></div></div></div></div>",
     "familj": "Ballonger och lastförmåga",
     "formaga": [
@@ -72550,11 +72550,11 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Börja med ett kraftdiagram för ballong, gas och last som ett enda system.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "typ": "härledning av gasballongens lastförmåga",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -72696,10 +72696,10 @@ window.BANK = [
     "id": "6.139",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "flyta i olika vätskor",
-    "poang": "(2/0/0)",
-    "t": "<p>En homogen kloss flyter i sötvatten med densiteten 998 kg/m³. Då ligger 75,0 % av volymen under ytan. Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Bortse från luftens lyftkraft.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"97.5\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">sötvatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"187.5\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"315\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">75,0 %</text></svg></div><p>Bestäm hur många procent av klossens volym som ligger under ytan i havsvattnet. Svara i %. Avrunda vid behov till 1 decimal.</p>",
+    "poang": "(0/1/0)",
+    "t": "<p>En kloss flyter i sötvatten med densiteten 998 kg/m³. Då ligger 75,0 % av volymen under ytan. Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Bortse från luftens lyftkraft.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"97.5\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">sötvatten</text><line x1=\"282\" y1=\"120\" x2=\"282\" y2=\"187.5\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"315\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">75,0 %</text></svg></div><p>Bestäm hur många procent av klossens volym som ligger under ytan i havsvattnet. Svara i %. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I sötvatten är klossens densitet</p><div class=\"facit-matte\">\\[0{,}750\\cdot 998=748{,}5\\, \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I havsvatten blir den nedsänkta andelen</p><div class=\"facit-matte\">\\[\\frac{748{,}5}{1025}\\approx 0{,}73024\\]</div></div></div></div><p class=\"facit-svar\">Svar: 73,0 %.</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
@@ -72707,8 +72707,8 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__flyta_i_olika_vatskor",
     "svarstyp": "numeriskt",
-    "rättSvar": 73,
-    "tolerans": 0,
+    "rättSvar": 73.0243902439024,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först klossens densitet med hjälp av läget i sötvatten.</p>",
     "traningsniva": 3,
@@ -72728,9 +72728,9 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "gasballongens volym",
-    "poang": "(0/2/0)",
-    "t": "<p>En heliumballong ska bära en last på 20,0 g och ett hölje med massan 4,0 g. Luftens densitet är 1,20 kg/m³ och heliumets densitet 0,18 kg/m³. Bortse från lastens och höljets volymer.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">helium</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = ?</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"283\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last 20,0 g</text></svg></div><p>Bestäm ballongens minsta volym för svävande jämvikt. Svara i liter. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger (ρ<sub>luft</sub>−ρ<sub>He</sub>)V=m<sub>h</sub>+m<sub>last</sub>.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{0{,}0240}{1{,}20-0{,}18}\\approx 0{,}023529 m^{3}=23{,}529\\, \\mathrm{liter}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 23,5 liter.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En heliumballong ska bära en last på 20,0 g och ett hölje med massan 4,0 g. Luftens densitet är 1,20 kg/m³ och heliumets densitet 0,18 kg/m³. Bortse från lastens och höljets volymer.</p><div class=\"fig smal\"><svg width=\"360\" height=\"320\" viewBox=\"0 0 360 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En ballong som bär en last\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><ellipse cx=\"180\" cy=\"110\" rx=\"90\" ry=\"95\" fill=\"#fde3c4\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"180\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">helium</text><text x=\"180\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V = ?</text><line x1=\"140\" y1=\"190\" x2=\"165\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"190\" x2=\"195\" y2=\"250\" stroke=\"#24262b\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"250\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#d6b07a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"283\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">last 20,0 g</text></svg></div><p>Bestäm ballongens minsta volym för att kunna bära lasten och hålla sig stilla i luften. Svara i liter. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Jämvikt ger (ρ<sub>luft</sub>−ρ<sub>He</sub>)V=m<sub>h</sub>+m<sub>last</sub>.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{aligned}V&=\\frac{0{,}0240}{1{,}20-0{,}18}\\\\ &\\approx 0{,}023529 m^{3}\\\\ &=23{,}529\\, \\mathrm{liter}\\end{aligned}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 23,5 liter.</p></div>",
     "familj": "Ballonger och lastförmåga",
     "formaga": [
       "modellering",
@@ -72738,13 +72738,13 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__gasballongens_volym",
     "svarstyp": "numeriskt",
-    "rättSvar": 23.5,
-    "tolerans": 0,
+    "rättSvar": 23.5294117647059,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Densitetsskillnaden anger hur stor massa en kubikmeter kan bära utöver heliumet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "liter",
@@ -72759,8 +72759,8 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "A",
     "poang": "(1/2/3)",
-    "t": "<p>Havsis har densiteten 917 kg/m³ och havsvatten 1025 kg/m³. I den enkla havsnivåmodellen antas smältvattnet blandas in utan att havsvattnets effektiva densitet ändras. Bortse från att vattnet utvidgas när det värms och från effekter av salthalten.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hur stor andel av ett flytande isberg som ligger under vattenytan.</li><li>Förklara varför det flytande isberget inte höjer havsnivån när det smälter i den angivna modellen.</li><li>Förklara varför smältande inlandsis på land däremot höjer havsnivån.</li><li>Vilket antagande gör att slutsatsen i b inte ska tolkas som en exakt beskrivning av verkliga hav?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger ρ<sub>hav</sub>V<sub>under</sub>=ρ<sub>is</sub>V.</p></div><div class=\"facit-stycke\"><p>Andelen blir V<sub>under</sub>/V=917/1025≈0,8946, alltså cirka 89,5 %.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Före smältningen tränger isen undan en havsvattenmassa lika stor som isens massa.</p></div><div class=\"facit-stycke\"><p>Efter smältningen tillförs samma massa vatten.</p></div><div class=\"facit-stycke\"><p>Med modellens oförändrade effektiva densitet upptar massan samma volym som isen tidigare trängde undan, så nivån ändras inte.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Landisen tränger inte undan havsvatten innan den smälter.</p></div><div class=\"facit-stycke\"><p>Smältvattnet tillför därför ny massa och volym till havet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Modellen bortser bland annat från att smält sötvatten ändrar salthalt och densitet och från temperaturberoende volymförändringar.</p></div><div class=\"facit-stycke\"><p>Den visar den centrala Arkimedes-effekten men inte alla små verkliga korrigeringar.</p></div></div></div></div></div>",
+    "t": "<p>Ett isberg flyter i havsvatten. Isens densitet är 917 kg/m³ och havsvattnets är 1025 kg/m³. I denna förenklade modell räknas smältvattnet ha samma densitet som havsvattnet. Vattnets temperatur ändras inte.</p><p><strong>a)</strong> Bestäm hur stor andel av ett flytande isberg som ligger under vattenytan.</p><p><strong>b)</strong> Förklara varför det flytande isberget inte höjer havsnivån när det smälter i den angivna modellen.</p><p><strong>c)</strong> Förklara varför smältande inlandsis på land däremot höjer havsnivån.</p><p><strong>d)</strong> Vilket antagande gör att slutsatsen i b inte ska tolkas som en exakt beskrivning av verkliga hav?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flytjämvikt ger ρ<sub>hav</sub>V<sub>under</sub>=ρ<sub>is</sub>V.</p></div><div class=\"facit-stycke\"><p>Andelen blir V<sub>under</sub>/V=917/1025≈0,8946, alltså cirka 89,5 %.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Före smältningen tränger isen undan en havsvattenmassa lika stor som isens massa.</p></div><div class=\"facit-stycke\"><p>Efter smältningen tillförs samma massa vatten.</p></div><div class=\"facit-stycke\"><p>Med modellens antagande om samma densitet upptar massan samma volym som isen tidigare trängde undan, så nivån ändras inte.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Landisen tränger inte undan havsvatten innan den smälter.</p></div><div class=\"facit-stycke\"><p>Smältvattnet tillför därför ny massa och volym till havet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Modellen bortser bland annat från att smält sötvatten ändrar salthalt och densitet och från temperaturberoende volymförändringar.</p></div><div class=\"facit-stycke\"><p>I verkligheten är smältvattnet mindre tätt än havsvattnet. Samma massa smältvatten tar då större plats än det undanträngda havsvattnet. Flytande is kan därför ge en liten nivåökning i saltvatten.</p></div></div></div></div></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "modellering",
@@ -147498,7 +147498,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": -13,
+    "rättSvar": -13.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "N",
@@ -147512,8 +147512,8 @@ window.BANK = [
     "id": "6.310",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>Ett föremål är helt nedsänkt och tränger undan 0,0020 m³ vatten. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>F<sub>L</sub> = 1000 · 9,82 · 0,0020 = 19,64 N.</p></div></div><p class=\"facit-svar\">Svar: 19,64 N.</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål är helt nedsänkt och tränger undan 0,0020 m³ vatten. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p><p>Den undanträngda volymen är \\(0{,}002\\,\\mathrm{m^3}\\).</p>\\[F_L=1000\\cdot9{,}82\\cdot0{,}002=19{,}64\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(19{,}6\\,\\mathrm{N}\\).</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Lyftkraft och undanträngd volym",
@@ -147529,7 +147529,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 19.64,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -147543,7 +147543,7 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "t": "<p>En kropp är helt nedsänkt och tränger undan 0,0030 m³ olja. Oljans densitet är 800 kg/m³.</p><p>Bestäm lyftkraften. Använd g = 9,82 m/s². Svara i N och avrunda till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Använd Arkimedes princip</p><p>Lyftkraften är tyngden av den undanträngda oljan:</p><div class=\"facit-matte\">\\[F_L=\\rho gV=800\\cdot9{,}82\\cdot0{,}0030=23{,}568\\,\\text{N}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Avrunda till två decimaler</p><div class=\"facit-matte\">\\[F_L\\approx23{,}57\\,\\text{N}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(23{,}57\\,\\text{N}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på den undanträngda oljan.</p><p>Den undanträngda volymen är \\(0{,}003\\,\\mathrm{m^3}\\).</p>\\[F_L=800\\cdot9{,}82\\cdot0{,}003=23{,}568\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(23{,}57\\,\\mathrm{N}\\).</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Lyftkraft och undanträngd volym",
@@ -147572,8 +147572,8 @@ window.BANK = [
     "id": "6.320",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>Ett föremål med volymen 0,75 liter hålls helt under vattenytan. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>0,75 liter = 0,00075 m³.</p></div><div class=\"facit-stycke\"><p>F<sub>L</sub> = 1000 · 9,82 · 0,00075 = 7,365 N.</p></div></div><p class=\"facit-svar\">Svar: 7,365 N.</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål med volymen 0,75 liter hålls helt under vattenytan. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p><p>Den undanträngda volymen är \\(0{,}00075\\,\\mathrm{m^3}\\).</p>\\[F_L=1000\\cdot9{,}82\\cdot0{,}00075=7{,}365\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(7{,}365\\,\\mathrm{N}\\).</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Lyftkraft och undanträngd volym",
@@ -147581,7 +147581,7 @@ window.BANK = [
     "ledtrad": "<p>Volymen behöver uttryckas i m³.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__lyftkraft_fran_volym",
     "formaga": [
       "procedur"
@@ -147589,11 +147589,11 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7.365,
-    "tolerans": 0,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Lyftkraft från volym"
     ]
@@ -147602,8 +147602,8 @@ window.BANK = [
     "id": "6.313",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>En kropp flyter stilla och lyftkraften är 49,1 N.</p><p>Bestäm kroppens massa. Svara i kg.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{49{,}1}{9{,}82}=5{,}0\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 5 kg.</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En kropp flyter stilla och lyftkraften är 49,1 N.</p><p>Bestäm kroppens massa. Svara i kg.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Lyftkraften 49,1 N är därför också föremålets tyngdkraft.</p>\\[m=\\frac{F_g}{g}=\\frac{49{,}1}{9{,}82}=5{,}0\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(5{,}00\\,\\mathrm{kg}\\).</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Flytande kroppar",
@@ -147618,7 +147618,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
+    "rättSvar": 5.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "kg",
@@ -147632,8 +147632,8 @@ window.BANK = [
     "id": "6.322",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>Ett föremål flyter stilla och tränger undan 2,5 liter vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Jämvikt ger</p><div class=\"facit-matte\">\\[m=\\rho_{\\mathrm{v}} V_{\\mathrm{ned}}=1000\\cdot 0{,}0025=2{,}5\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2,5 kg.</p></div>",
+    "t": "<p>Ett föremål flyter stilla och tränger undan 2,5 liter vatten med densiteten 1000 kg/m³.</p><p>Bestäm föremålets massa. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymen är \\(2{,}5\\,\\mathrm{liter}=0{,}0025\\,\\mathrm{m^3}\\).</p>\\[m=1000\\cdot0{,}0025=2{,}5\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(2{,}5\\,\\mathrm{kg}\\).</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Flytande kroppar",
@@ -147641,7 +147641,7 @@ window.BANK = [
     "ledtrad": "<p>Föremålets tyngd är lika stor som det undanträngda vattnets tyngd.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__massa_vid_flytjamvikt",
     "formaga": [
       "procedur"
@@ -147649,11 +147649,11 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "kg",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Massa vid flytjämvikt"
     ]
@@ -147663,7 +147663,7 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "t": "<p>En sten hålls stilla under vatten med en tråd. Tyngdkraften är 20 N och lyftkraften 7 N.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"122.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 111.0 L206.0 122.0 L194.0 122.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"152\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 7 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 20 N</text><line x1=\"255.0\" y1=\"138.0\" x2=\"255.0\" y2=\"98.0\" stroke=\"#2e7d52\" stroke-width=\"3\"/>\n<path d=\"M255.0 87.0 L261.0 98.0 L249.0 98.0 Z\" fill=\"#2e7d52\"/>\n<text x=\"290\" y=\"118\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">T = ?</text></svg></div><p>Bestäm trådens dragkraft. Svara i N.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{tråd}}=20-7=13\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 13 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Stenen är stilla. Tråden och vattnet bär tillsammans tyngdkraften, så tråden bär det som återstår när lyftkraften dras bort.</p>\\[F_{\\mathrm{tråd}}=20-7=13\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(13\\,\\mathrm{N}\\).</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Vägning i vätska",
@@ -147678,7 +147678,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 13,
+    "rättSvar": 13.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "N",
@@ -147692,8 +147692,8 @@ window.BANK = [
     "id": "6.324",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>En kropp med massan 2,0 kg hålls stilla i en tråd helt under vatten. Lyftkraften är 7,0 N.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"121.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 110.0 L206.0 121.0 L194.0 121.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"144\" y=\"129\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 7,0 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"242\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg</text><line x1=\"255.0\" y1=\"138.0\" x2=\"255.0\" y2=\"99.0\" stroke=\"#2e7d52\" stroke-width=\"3\"/>\n<path d=\"M255.0 88.0 L261.0 99.0 L249.0 99.0 Z\" fill=\"#2e7d52\"/>\n<text x=\"290\" y=\"118\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">T = ?</text></svg></div><p>Bestäm trådens dragkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{g}}=2{,}0\\cdot 9{,}82=19{,}64\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{tråd}}=19{,}64-7{,}0=12{,}64\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 12,64 N.</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En kropp med massan 2,0 kg hålls stilla i en tråd helt under vatten. Lyftkraften är 7,0 N.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"121.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 110.0 L206.0 121.0 L194.0 121.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"144\" y=\"129\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 7,0 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"242\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg</text><line x1=\"255.0\" y1=\"138.0\" x2=\"255.0\" y2=\"99.0\" stroke=\"#2e7d52\" stroke-width=\"3\"/>\n<path d=\"M255.0 88.0 L261.0 99.0 L249.0 99.0 Z\" fill=\"#2e7d52\"/>\n<text x=\"290\" y=\"118\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">T = ?</text></svg></div><p>Bestäm trådens dragkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraften måste balanseras av tråden och lyftkraften tillsammans.</p>\\[F_g=2{,}0\\cdot9{,}82=19{,}64\\,\\mathrm N.\\]\\[F_{\\mathrm{tråd}}=19{,}64-7{,}0=12{,}64\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(12{,}64\\,\\mathrm{N}\\).</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Vägning i vätska",
@@ -147701,7 +147701,7 @@ window.BANK = [
     "ledtrad": "<p>Vilka uppåtriktade krafter balanserar tyngden?</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__lyftkraft_och_skenbar_tyngd",
     "formaga": [
       "procedur"
@@ -147709,11 +147709,11 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 12.64,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Lyftkraft och skenbar tyngd"
     ]
@@ -147731,14 +147731,14 @@ window.BANK = [
     "ledtrad": "<p>Kroppens densitet står i täljaren.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__flytande_kropp_och_nedsankt_andel",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 60,
+    "rättSvar": 60.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "%",
@@ -147752,7 +147752,7 @@ window.BANK = [
     "id": "6.325",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>En homogen kloss med densiteten 750 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Hur många procent av volymen ligger ovanför ytan? Svara i %. Svara med ett heltal.</p>",
+    "t": "<p>En kloss med densiteten 750 kg/m³ flyter stilla i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av volymen ligger ovanför ytan? Svara i %. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Under ytan finns andelen</p><div class=\"facit-matte\">\\[\\frac{750}{1000}=0{,}75\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ovanför finns</p><div class=\"facit-matte\">\\[1-0{,}75=0{,}25=25\\, \\%\\]</div></div></div></div><p class=\"facit-svar\">Svar: 25 %.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -147761,19 +147761,19 @@ window.BANK = [
     "ledtrad": "<p>Börja med andelen under ytan.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__flytande_kropp_och_volymandel",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 25,
+    "rättSvar": 25.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "%",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Flytande kropp och nedsänkt andel"
     ]
@@ -147791,14 +147791,14 @@ window.BANK = [
     "ledtrad": "<p>Hur stor del av föremålet tränger undan vatten när det flyter?</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__densitet_for_flytande_kropp",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 400,
+    "rättSvar": 400.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "kg/m³",
@@ -147812,7 +147812,7 @@ window.BANK = [
     "id": "6.326",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>En homogen kloss flyter stilla med 30 % av sin volym ovanför vattenytan. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"93.0\" x2=\"282\" y2=\"120\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">30 %</text></svg></div><p>Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "t": "<p>En kloss flyter stilla med 30 % av sin volym ovanför vattenytan. Vattnets densitet är 1000 kg/m³.</p><div class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kloss som flyter i en vätska\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"120\" width=\"280\" height=\"120\" fill=\"#cfe8f7\"/><line x1=\"70\" y1=\"120\" x2=\"350\" y2=\"120\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M70 30 L70 240 L350 240 L350 30\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"93.0\" width=\"100\" height=\"90\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"310\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">vatten</text><line x1=\"282\" y1=\"93.0\" x2=\"282\" y2=\"120\" stroke=\"#6b7280\" stroke-width=\"1.3\"/><text x=\"307\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">30 %</text></svg></div><p>Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Andelen under ytan är</p><div class=\"facit-matte\">\\[1-0{,}30=0{,}70\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho_{\\mathrm{k}}=0{,}70\\cdot 1000=700\\, \\mathrm{kg/m^3}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 700 kg/m³.</p></div>",
     "niva": "E",
     "traningsniva": 2,
@@ -147821,19 +147821,19 @@ window.BANK = [
     "ledtrad": "<p>Vilken volymandel tränger undan vatten?</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "arkimedes__densitet_fran_flytandel",
     "formaga": [
       "procedur"
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 700,
+    "rättSvar": 700.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "kg/m³",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Densitet för flytande kropp"
     ]
@@ -147843,7 +147843,7 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "t": "<p>Ett föremål med massan 2,0 kg flyter stilla.</p><p>Bestäm lyftkraften. Använd g = 9,82 m/s². Svara i N och avrunda till två värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Använd jämvikt när föremålet flyter stilla</p><p>Lyftkraften uppåt balanserar tyngdkraften nedåt:</p><div class=\"facit-matte\">\\[F_\\mathrm{L}=mg=2{,}0\\cdot9{,}82=19{,}64\\,\\mathrm{N}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Avrunda till två värdesiffror</p><div class=\"facit-matte\">\\[F_\\mathrm{L}\\approx20\\,\\mathrm{N}.\\]</div><p>20 N avser här två värdesiffror, vilket även kan skrivas \\(2{,}0\\cdot10^1\\,\\mathrm{N}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\,\\mathrm{N}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[F_L=mg=2\\cdot9{,}82=19{,}64\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(20\\,\\mathrm{N}\\).</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Flytande kroppar",
@@ -147858,8 +147858,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0,
+    "rättSvar": 19.64,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -147888,8 +147888,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 4.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "kg",
     "svarFormat": "numeriskt",
@@ -147902,8 +147902,8 @@ window.BANK = [
     "id": "6.323",
     "kap": 6,
     "omr": "arkimedes",
-    "t": "<p>Ett föremål hänger stilla i en dynamometer. I luft visar den 8,0 N och helt under vatten 5,5 N. Föremålet rör inte kärlet. Bortse från luftens lyftkraft och trådens volym.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med dynamometer i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">8,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftkraften avlastar dynamometern: F<sub>L</sub> = 8,0−5,5 = 2,5 N.</p></div></div><p class=\"facit-svar\">Svar: 2,5 N.</p></div>",
+    "t": "<p>Ett föremål hänger stilla i en kraftmätare. I luft visar den 8,0 N och helt under vatten 5,5 N. </p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">8,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm vattnets lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftkraften avlastar kraftmätaren: F<sub>L</sub> = 8,0−5,5 = 2,5 N.</p></div></div><p class=\"facit-svar\">Svar: 2,5 N.</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Vägning i vätska",
@@ -147919,11 +147919,11 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Lyftkraft från dynamometer"
     ]
@@ -147948,12 +147948,12 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0,
+    "rättSvar": 5.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Kraftjämvikt under vatten"
     ]
@@ -151301,8 +151301,8 @@ window.BANK = [
     "niva": "E",
     "typ": "lyftkraft från undanträngd volym",
     "poang": "(1/0/0)",
-    "t": "<p>Ett föremål är helt nedsänkt i vatten och tränger undan 1,0 liter vatten. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1,0 liter = 0,0010 m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{L}=\\rho gV=1000\\cdot9{,}82\\cdot0{,}0010=9{,}82\\ \\mathrm N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 9,82 N.</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Ett föremål är helt nedsänkt i vatten och tränger undan 1,0 liter vatten. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm lyftkraften. Svara i N.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p><p>Den undanträngda volymen är \\(0{,}001\\,\\mathrm{m^3}\\).</p>\\[F_L=1000\\cdot9{,}82\\cdot0{,}001=9{,}82\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(9{,}82\\,\\mathrm{N}\\).</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
@@ -151314,7 +151314,7 @@ window.BANK = [
     "självrättning": true,
     "ledtrad": "<p>Omvandla liter till kubikmeter och bestäm lyftkraften från den undanträngda vätskan.</p>",
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
@@ -151332,7 +151332,7 @@ window.BANK = [
     "typ": "lyftkraft vid flytjämvikt",
     "poang": "(1/0/0)",
     "t": "<p>En kropp med massan 3,0 kg flyter stilla i vatten.</p><p>Bestäm lyftkraften. Använd g = 9,82 m/s². Svara i N och avrunda till två värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Använd jämvikt när föremålet flyter stilla</p><p>Lyftkraften uppåt balanserar tyngdkraften nedåt:</p><div class=\"facit-matte\">\\[F_\\mathrm{L}=mg=3{,}0\\cdot9{,}82=29{,}46\\,\\mathrm{N}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Avrunda till två värdesiffror</p><div class=\"facit-matte\">\\[F_\\mathrm{L}\\approx29\\,\\mathrm{N}.\\]</div><p>I 29,46 är de två första värdesiffrorna 2 och 9. Nästa siffra är 4, så avrundningen blir 29 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\,\\mathrm{N}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[F_L=mg=3\\cdot9{,}82=29{,}46\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(29\\,\\mathrm{N}\\).</p></div>",
     "familj": "Flytande kroppar",
     "formaga": [
       "begrepp",
@@ -151340,8 +151340,8 @@ window.BANK = [
     ],
     "familjNyckel": "arkimedes__lyftkraft_vid_flytjamvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 29,
-    "tolerans": 0,
+    "rättSvar": 29.46,
+    "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Vilka två krafter balanserar varandra när kroppen flyter stilla?</p>",
     "traningsniva": 1,
@@ -151360,30 +151360,45 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "E",
-    "typ": "nedsänkt andel för flytande kropp",
+    "typ": "lyftkraft på olika djup",
     "poang": "(1/0/0)",
-    "t": "<p>En homogen träbit har densiteten 600 kg/m³ och flyter i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av träbitens volym är under vattenytan? Svara i %.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För en flytande homogen kropp är den nedsänkta andelen lika med kvoten mellan kroppens och vätskans densitet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[600/1000=0{,}60=60\\,\\%\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 60 %.</p></div>",
-    "familj": "Flytande kroppar",
+    "t": "<p>En sten hålls helt under vatten. Den sänks sedan längre ned och är fortfarande helt under vatten. Vattnets densitet är oförändrad.</p><p>Hur ändras lyftkraften på stenen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela stenen tränger undan lika mycket vatten på båda djupen. Vattnets densitet är också oförändrad. Därför är lyftkraften lika stor.</p>\\[F_L=\\rho gV.\\]<p><strong>Svar:</strong> Lyftkraften ändras inte.</p></div>",
+    "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "begrepp"
     ],
-    "familjNyckel": "arkimedes__flytande_kropp_och_nedsankt_andel",
-    "svarstyp": "numeriskt",
-    "rättSvar": 60,
-    "tolerans": 0,
+    "familjNyckel": "arkimedes__lyftkraft_olika_djup",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför träbitens densitet med vattnets.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Vad beror lyftkraften på enligt Arkimedes princip?</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarEnhet": "%",
-    "svarFormat": "numeriskt",
+    "svarFormat": "alternativ",
     "miniräknare": true,
     "geogebra": false,
     "familjTidigare": [
       "Flytande kropp och nedsänkt andel"
+    ],
+    "alternativ": [
+      {
+        "txt": "Den ökar.",
+        "ratt": false,
+        "kommentar": "Trycket ökar, men hela stenen tränger fortfarande undan samma vattenvolym."
+      },
+      {
+        "txt": "Den minskar.",
+        "ratt": false,
+        "kommentar": "Varken vattnets densitet eller stenens volym minskar."
+      },
+      {
+        "txt": "Den ändras inte.",
+        "ratt": true,
+        "kommentar": "Lyftkraften beror på densiteten och den undanträngda volymen, som är oförändrade."
+      }
     ]
   },
   {
@@ -151401,41 +151416,59 @@ window.BANK = [
       "procedur"
     ],
     "familjNyckel": "arkimedes__lyftkraft_och_resultant",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      "nedåt eller neråt eller ned eller ner"
+    ],
+    "tolerans": [
+      0,
+      null
+    ],
+    "självrättning": true,
     "ledtrad": "<p>Vilken av de två motriktade krafterna är störst?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "familjTidigare": [
       "Lyftkraft och resultant"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarEnhet": [
+      "N",
+      null
+    ],
+    "svarEtiketter": [
+      "Storlek",
+      "Riktning"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
+    "niva": "E",
     "typ": "lyftkraft på olika föremål",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><ol type=\"a\"><li>En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften.</li><li>En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftkraften beror på volymen av vattnet som kuben tränger undan. Sidan är 5,0 cm = 0,050 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=(0{,}050)^3=0{,}000125\\,\\mathrm{m^3}\\qquad F_L=\\rho Vg=1000\\cdot0{,}000125\\cdot9{,}82=1{,}2275\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,2 N uppåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flyter: \\(F=mg=917\\cdot100\\cdot10^{-6}\\cdot9{,}82\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}90\\) N</p></div></div></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p><strong>a)</strong> En kopparkub med sidan 5,0 cm är helt under vatten. Bestäm lyftkraften. Svara i N med tre värdesiffror.</p><p><strong>b)</strong> En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften. Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p><p>Sidan är \\(5{,}0\\,\\mathrm{cm}=0{,}050\\,\\mathrm m\\).</p>\\[V=0{,}050^3=0{,}000125\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot0{,}000125\\cdot9{,}82=1{,}2275\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(1{,}23\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Isbitens mått i meter är \\(0{,}10\\), \\(0{,}050\\) och \\(0{,}020\\).</p>\\[V=0{,}10\\cdot0{,}050\\cdot0{,}020=0{,}000100\\,\\mathrm{m^3}.\\]\\[m=917\\cdot V=0{,}0917\\,\\mathrm{kg}.\\]\\[F_L=mg=0{,}0917\\cdot9{,}82=0{,}900494\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}900\\,\\mathrm{N}\\).</p></div>",
     "id": "6.466",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och undanträngd volym",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.2275000000000003,
+      1.2275,
       0.900494
     ],
     "tolerans": [
-      0.051,
-      0.0135
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -151460,29 +151493,29 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är lyftkraften på kuben? Svara i N.",
-        "t": "<p>En kopparkub med sidan 5,0 cm hålls helt under vattenytan. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på kuben? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftkraften beror på volymen av vattnet som kuben tränger undan. Sidan är 5,0 cm = 0,050 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=(0{,}050)^3=0{,}000125\\,\\mathrm{m^3}\\qquad F_L=\\rho Vg=1000\\cdot0{,}000125\\cdot9{,}82=1{,}2275\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,2 N uppåt.</p></div></div>",
+        "fraga": "Hur stor är lyftkraften på kuben? Svara i N med tre värdesiffror.",
+        "t": "<p>En kopparkub med sidan 5,0 cm hålls helt under vattenytan. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på kuben? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p><p>Sidan är \\(5{,}0\\,\\mathrm{cm}=0{,}050\\,\\mathrm m\\).</p>\\[V=0{,}050^3=0{,}000125\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot0{,}000125\\cdot9{,}82=1{,}2275\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(1{,}23\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Flyter: \\(F=mg=917\\cdot100\\cdot10^{-6}\\cdot9{,}82\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}90\\) N</p></div>",
+        "fraga": "En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften. Svara i N med tre värdesiffror.",
+        "t": "<p>En isbit med måtten 10 cm × 5,0 cm × 2,0 cm flyter stilla i vatten. Isens densitet är 917 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En isbit (10 cm × 5,0 cm × 2,0 cm) flyter. Bestäm lyftkraften. Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Isbitens mått i meter är \\(0{,}10\\), \\(0{,}050\\) och \\(0{,}020\\).</p>\\[V=0{,}10\\cdot0{,}050\\cdot0{,}020=0{,}000100\\,\\mathrm{m^3}.\\]\\[m=917\\cdot V=0{,}0917\\,\\mathrm{kg}.\\]\\[F_L=mg=0{,}0917\\cdot9{,}82=0{,}900494\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}900\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Ett flytande föremål har lyftkraft lika med tyngden.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "arkimedes__lyftkraft_och_undantrangd_volym",
     "arbetsinsats": 2,
     "spel": true
@@ -151490,29 +151523,29 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "klot som precis flyter",
-    "poang": "(1/0/0)",
-    "t": "<p>Ett klot med radien 3,00 cm och massan 89,3 g svävar helt under ytan i en vätska. Bestäm vätskans densitet. Svara i kg/m³.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\rho=\\dfrac{89{,}3}{\\tfrac43\\pi\\cdot3{,}00^3}\\) g/cm³.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(790\\) kg/m³</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett klot med radien 3,00 cm och massan 89,3 g ligger stilla helt under ytan i en vätska, utan stöd.</p><p>Vilken densitet har vätskan? Svara i kg/m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som den vätska det tränger undan.</p><p>När klotet är helt under ytan tränger det undan vätska med samma volym som klotet. Vätskans densitet blir därför klotets massa delad med hela klotets volym.</p>\\[V=\\frac43\\pi\\cdot0{,}0300^3\\approx0{,}000113097\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{0{,}0893}{\\frac43\\pi\\cdot0{,}0300^3}\\approx789{,}585\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(790\\,\\mathrm{kg/m^3}\\).</p></div>",
     "id": "6.467",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Flytande kroppar",
     "svarstyp": "numeriskt",
-    "rättSvar": 789.5853565614586,
-    "tolerans": 11.8,
+    "rättSvar": 789.585356561459,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Svävar: samma densitet som vätskan.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Vilka krafter måste vara lika stora när klotet är stilla utan stöd?</p>",
+    "traningsniva": 3,
     "svarEnhet": "kg/m³",
     "familjNyckel": "arkimedes__flytande_kroppar",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -151521,20 +151554,20 @@ window.BANK = [
     "niva": "C",
     "typ": "järnkula i dynamometer",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p><ol type=\"a\"><li>Vad visar dynamometern i luft?</li><li>Vad visar den när kulan är helt under vatten?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=7\\,870\\cdot\\tfrac43\\pi\\cdot0{,}030^3\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}7\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}74-1\\,000\\cdot V\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}6\\) N</p></li></ol></div>",
+    "t": "<p>En järnkula med radien 3,0 cm hänger stilla i en kraftmätare. Järnets densitet är 7870 kg/m³ och vattnets är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p><strong>a)</strong> Vad visar kraftmätaren i luft? Svara i N med tre värdesiffror.</p><p><strong>b)</strong> Vad visar kraftmätaren när kulan är helt under vatten? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Mätaren visar kulans tyngdkraft. Radien är \\(3{,}0\\,\\mathrm{cm}=0{,}030\\,\\mathrm m\\).</p>\\[V=\\frac43\\pi\\cdot0{,}030^3\\approx0{,}000113097\\,\\mathrm{m^3}.\\]\\[m=7870\\cdot V\\approx0{,}890076\\,\\mathrm{kg}.\\]\\[F_g=mg\\approx8{,}74055\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(8{,}74\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p>\\[V=\\frac43\\pi\\cdot0{,}030^3\\approx0{,}000113097\\,\\mathrm{m^3}.\\]\\[F_g=7870\\cdot V\\cdot9{,}82\\approx8{,}74055\\,\\mathrm N.\\]\\[F_L=1000\\cdot V\\cdot9{,}82\\approx1{,}11062\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=F_g-F_L\\approx7{,}62993\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(7{,}63\\,\\mathrm{N}\\).</p></div>",
     "id": "6.468",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vägning i vätska",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      8.740546620639888,
-      7.629930785742825
+      8.74054662063989,
+      7.62993078574283
     ],
     "tolerans": [
-      0.131,
-      0.114
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -151554,24 +151587,24 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p>",
+    "spelIntro": "<p>En järnkula med radien 3,0 cm hänger stilla i en kraftmätare. Järnets densitet är 7870 kg/m³ och vattnets är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad visar dynamometern i luft?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p><p>Vad visar dynamometern i luft?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=7\\,870\\cdot\\tfrac43\\pi\\cdot0{,}030^3\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}7\\) N</p></div>",
+        "fraga": "Vad visar kraftmätaren i luft? Svara i N med tre värdesiffror.",
+        "t": "<p>En järnkula med radien 3,0 cm och densiteten 7870 kg/m³ hänger stilla i en kraftmätare i luft. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vad visar kraftmätaren i luft? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Mätaren visar kulans tyngdkraft. Radien är \\(3{,}0\\,\\mathrm{cm}=0{,}030\\,\\mathrm m\\).</p>\\[V=\\frac43\\pi\\cdot0{,}030^3\\approx0{,}000113097\\,\\mathrm{m^3}.\\]\\[m=7870\\cdot V\\approx0{,}890076\\,\\mathrm{kg}.\\]\\[F_g=mg\\approx8{,}74055\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(8{,}74\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(m=\\rho V\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vad visar den när kulan är helt under vatten?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En järnkula med radien 3,0 cm hänger i en dynamometer.</p>I luft visar den 8,74 N.<p>Vad visar den när kulan är helt under vatten?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}74-1\\,000\\cdot V\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}6\\) N</p></div>",
+        "fraga": "Vad visar kraftmätaren när kulan är helt under vatten? Svara i N med tre värdesiffror.",
+        "t": "<p>En järnkula med radien 3,0 cm och densiteten 7870 kg/m³ hänger stilla i en kraftmätare, helt under vatten. Vattnets densitet är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vad visar kraftmätaren när kulan är helt under vatten? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p>\\[V=\\frac43\\pi\\cdot0{,}030^3\\approx0{,}000113097\\,\\mathrm{m^3}.\\]\\[F_g=7870\\cdot V\\cdot9{,}82\\approx8{,}74055\\,\\mathrm N.\\]\\[F_L=1000\\cdot V\\cdot9{,}82\\approx1{,}11062\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=F_g-F_L\\approx7{,}62993\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(7{,}63\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -151591,8 +151624,8 @@ window.BANK = [
     "niva": "C",
     "typ": "densitet ur vägning i vatten",
     "poang": "(0/3/0)",
-    "t": "<p>Bestäm densiteten. Föremålen hänger i en kraftmätare och hålls helt under ytan vid mätning i vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><ol type=\"a\"><li>En metall väger 0,624 N i luft och 0,544 N helt under vatten.</li><li>En månsten väger 91,1 N i luft och 60,1 N under vatten.</li><li>En krona väger 144 N i luft och 132 N under vatten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{0{,}624}{0{,}624-0{,}544}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,800\\) kg/m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{91{,}1}{31{,}0}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,939\\) kg/m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\rho=\\dfrac{144}{12}\\cdot1\\,000\\), mindre än guldets 19 300 kg/m³.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\) kg/m³</p></li></ol></div>",
+    "t": "<p>Bestäm densiteten. Föremålen hänger i en kraftmätare och hålls helt under ytan vid mätning i vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p><strong>a)</strong> En metall väger 0,624 N i luft och 0,544 N helt under vatten. Svara i kg/m³ med tre värdesiffror.</p><p><strong>b)</strong> En månsten väger 91,1 N i luft och 60,1 N under vatten. Svara i kg/m³ med tre värdesiffror.</p><p><strong>c)</strong> En krona väger 144 N i luft och 132 N under vatten. Svara i kg/m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Kraftmätaren visar tyngdkraften i luft. Under vatten minskar avläsningen med lyftkraften.</p>\\[F_L=0{,}624-0{,}544=0{,}08\\,\\mathrm N.\\]<p>Densiteten är \\(m/V\\). Med \\(m=F_g/g\\) och \\(V=F_L/(\\rho_{\\mathrm{vatten}}g)\\) får vi:</p>\\[\\rho=\\rho_{\\mathrm{vatten}}\\frac{F_g}{F_L}=1000\\frac{0{,}624}{0{,}08}\\approx7800\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(7{,}80\\cdot10^{3}\\,\\mathrm{kg/m^3}\\).</p><p><strong>b)</strong></p><p>Kraftmätaren visar tyngdkraften i luft. Under vatten minskar avläsningen med lyftkraften.</p>\\[F_L=91{,}1-60{,}1=31\\,\\mathrm N.\\]<p>Densiteten är \\(m/V\\). Med \\(m=F_g/g\\) och \\(V=F_L/(\\rho_{\\mathrm{vatten}}g)\\) får vi:</p>\\[\\begin{aligned}\\rho&=\\rho_{\\mathrm{vatten}}\\frac{F_g}{F_L}\\\\ &=1000\\frac{91{,}1}{31}\\\\ &\\approx2938{,}709677\\,\\mathrm{kg/m^3}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(2{,}94\\cdot10^{3}\\,\\mathrm{kg/m^3}\\).</p><p><strong>c)</strong></p><p>Kraftmätaren visar tyngdkraften i luft. Under vatten minskar avläsningen med lyftkraften.</p>\\[F_L=144-132=12\\,\\mathrm N.\\]<p>Densiteten är \\(m/V\\). Med \\(m=F_g/g\\) och \\(V=F_L/(\\rho_{\\mathrm{vatten}}g)\\) får vi:</p>\\[\\rho=\\rho_{\\mathrm{vatten}}\\frac{F_g}{F_L}=1000\\frac{144}{12}\\approx12000\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(1{,}20\\cdot10^{4}\\,\\mathrm{kg/m^3}\\).</p></div>",
     "id": "6.469",
     "miniräknare": true,
     "geogebra": false,
@@ -151600,13 +151633,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       7800.0,
-      2938.7096774193546,
-      12000
+      2938.70967741936,
+      12000.0
     ],
     "tolerans": [
-      117.0,
-      44.1,
-      510.0
+      5.0,
+      5.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -151634,9 +151667,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken densitet har föremålet? Svara i kg/m³.",
-        "t": "<p>En metallbit hänger i en kraftmätare. Mätaren visar 0,624 N i luft och 0,544 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{0{,}624}{0{,}624-0{,}544}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,800\\) kg/m³</p></div>",
+        "fraga": "Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.",
+        "t": "<p>En metallbit hänger i en kraftmätare. Mätaren visar 0,624 N i luft och 0,544 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraftmätaren visar tyngdkraften i luft. Under vatten minskar avläsningen med lyftkraften.</p>\\[F_L=0{,}624-0{,}544=0{,}08\\,\\mathrm N.\\]<p>Densiteten är \\(m/V\\). Med \\(m=F_g/g\\) och \\(V=F_L/(\\rho_{\\mathrm{vatten}}g)\\) får vi:</p>\\[\\rho=\\rho_{\\mathrm{vatten}}\\frac{F_g}{F_L}=1000\\frac{0{,}624}{0{,}08}\\approx7800\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(7{,}80\\cdot10^{3}\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Lyftkraften ger volymen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -151645,9 +151678,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken densitet har föremålet? Svara i kg/m³.",
-        "t": "<p>En månsten hänger i en kraftmätare. Mätaren visar 91,1 N i luft och 60,1 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{91{,}1}{31{,}0}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,939\\) kg/m³</p></div>",
+        "fraga": "Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.",
+        "t": "<p>En månsten hänger i en kraftmätare. Mätaren visar 91,1 N i luft och 60,1 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraftmätaren visar tyngdkraften i luft. Under vatten minskar avläsningen med lyftkraften.</p>\\[F_L=91{,}1-60{,}1=31\\,\\mathrm N.\\]<p>Densiteten är \\(m/V\\). Med \\(m=F_g/g\\) och \\(V=F_L/(\\rho_{\\mathrm{vatten}}g)\\) får vi:</p>\\[\\begin{aligned}\\rho&=\\rho_{\\mathrm{vatten}}\\frac{F_g}{F_L}\\\\ &=1000\\frac{91{,}1}{31}\\\\ &\\approx2938{,}709677\\,\\mathrm{kg/m^3}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(2{,}94\\cdot10^{3}\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Lyftkraften ger volymen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -151656,9 +151689,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Vilken densitet har föremålet? Svara i kg/m³.",
-        "t": "<p>En krona hänger i en kraftmätare. Mätaren visar 144 N i luft och 132 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\rho=\\dfrac{144}{12}\\cdot1\\,000\\), mindre än guldets 19 300 kg/m³.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\) kg/m³</p></div>",
+        "fraga": "Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.",
+        "t": "<p>En krona hänger i en kraftmätare. Mätaren visar 144 N i luft och 132 N när föremålet är helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från luftens lyftkraft.</p><p>Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kraftmätaren visar tyngdkraften i luft. Under vatten minskar avläsningen med lyftkraften.</p>\\[F_L=144-132=12\\,\\mathrm N.\\]<p>Densiteten är \\(m/V\\). Med \\(m=F_g/g\\) och \\(V=F_L/(\\rho_{\\mathrm{vatten}}g)\\) får vi:</p>\\[\\rho=\\rho_{\\mathrm{vatten}}\\frac{F_g}{F_L}=1000\\frac{144}{12}\\approx12000\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(1{,}20\\cdot10^{4}\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Lyftkraften ger volymen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -151678,22 +151711,22 @@ window.BANK = [
     "niva": "C",
     "typ": "bärgning med kran",
     "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><ol type=\"a\"><li>Ett stålfartyg (18 ton) lyfts med konstant fart under vattnet. Bestäm spännkraften i vajern.</li><li>En staty (70 kg, 30 liter) lyfts under vattnet. Bestäm spännkraften.</li><li>Vilken spännkraft krävs när statyn är ovanför vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=18\\,000\\cdot9{,}82\\left(1-\\dfrac{1\\,000}{7\\,850}\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vajern och vattnets lyftkraft håller tillsammans uppe statyn. Volymen är 30 liter = 0,030 m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{vajer}=mg-\\rho Vg=70\\cdot9{,}82-1000\\cdot0{,}030\\cdot9{,}82=392{,}8\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 393 N uppåt.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=70\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(687\\) N</p></div></div></div>",
+    "t": "<p>Ett stålblock och en staty lyfts med konstant fart. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotståndet. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p><strong>a)</strong> Stålblocket har massan 18 ton och densiteten 7850 kg/m³. Det är helt under vatten. Hur stor är kraften från vajern? Svara i N med två värdesiffror.</p><p><strong>b)</strong> Statyn har massan 70 kg och volymen 30 liter. Den är helt under vatten. Hur stor är kraften från vajern? Svara i N med två värdesiffror.</p><p><strong>c)</strong> Statyn med massan 70 kg är nu ovanför vattenytan. Hur stor är kraften från vajern? Svara i N med två värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p><p>Massan är \\(18\\,\\mathrm{ton}=18000\\,\\mathrm{kg}\\). Volymen fås från stålets densitet.</p>\\[V=\\frac{18000}{7850}\\approx2{,}29299\\,\\mathrm{m^3}.\\]\\[F_g=18000\\cdot9{,}82=176760\\,\\mathrm N.\\]\\[F_L=1000V\\cdot9{,}82\\approx22517{,}2\\,\\mathrm N.\\]\\[F_{\\mathrm{vajer}}=F_g-F_L\\approx154243\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Vid konstant fart är den sammanlagda kraften noll. Vattnets lyftkraft och vajerns kraft balanserar tyngdkraften. Volymen är 30 liter = 0,030 m³.</p>\\[F_g=70\\cdot9{,}82=687{,}4\\,\\mathrm N.\\]\\[F_L=1000\\cdot0{,}030\\cdot9{,}82=294{,}6\\,\\mathrm N.\\]\\[F_{\\mathrm{vajer}}=687{,}4-294{,}6=392{,}8\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(3{,}9\\cdot10^{2}\\,\\mathrm{N}\\).</p><p><strong>c)</strong></p><p>Ovanför vattenytan balanserar vajerns kraft statyns tyngdkraft.</p>\\[F_{\\mathrm{vajer}}=mg=70\\cdot9{,}82=687{,}4\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(6{,}9\\cdot10^{2}\\,\\mathrm{N}\\).</p></div>",
     "id": "6.470",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      154242.8025477707,
+      154242.802547771,
       392.8,
       687.4
     ],
     "tolerans": [
-      5100.0,
-      5.89,
-      10.3
+      5000.0,
+      5.0,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -151717,13 +151750,13 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p>",
+    "spelIntro": "<p>Ett stålblock och en staty lyfts med konstant fart. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotståndet. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett stålfartyg (18 ton) lyfts med konstant fart under vattnet. Bestäm spännkraften i vajern.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, stål 7 850 kg/m³.</p><p>Ett stålfartyg (18 ton) lyfts med konstant fart under vattnet. Bestäm spännkraften i vajern.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=18\\,000\\cdot9{,}82\\left(1-\\dfrac{1\\,000}{7\\,850}\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\) N</p></div>",
+        "fraga": "Hur stor är kraften från vajern? Svara i N med två värdesiffror.",
+        "t": "<p>Ett stålblock med massan 18 ton och densiteten 7850 kg/m³ lyfts med konstant fart helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotståndet. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är kraften från vajern? Svara i N med två värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Föremålet hålls stilla. Kraften från tråden och vattnets lyftkraft balanserar tillsammans tyngdkraften.</p><p>Massan är \\(18\\,\\mathrm{ton}=18000\\,\\mathrm{kg}\\). Volymen fås från stålets densitet.</p>\\[V=\\frac{18000}{7850}\\approx2{,}29299\\,\\mathrm{m^3}.\\]\\[F_g=18000\\cdot9{,}82=176760\\,\\mathrm N.\\]\\[F_L=1000V\\cdot9{,}82\\approx22517{,}2\\,\\mathrm N.\\]\\[F_{\\mathrm{vajer}}=F_g-F_L\\approx154243\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(1{,}5\\cdot10^{5}\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -151732,20 +151765,20 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är kraften från lyftvajern på statyn? Svara i N.",
-        "t": "<p>En staty med massan 70 kg och volymen 30 liter lyfts med konstant fart helt under vattenytan. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotståndet. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från lyftvajern på statyn? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vajern och vattnets lyftkraft håller tillsammans uppe statyn. Volymen är 30 liter = 0,030 m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{vajer}=mg-\\rho Vg=70\\cdot9{,}82-1000\\cdot0{,}030\\cdot9{,}82=392{,}8\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 393 N uppåt.</p></div></div>",
+        "fraga": "Hur stor är kraften från vajern? Svara i N med två värdesiffror.",
+        "t": "<p>En staty med massan 70 kg och volymen 30 liter lyfts med konstant fart helt under vatten. Vattnets densitet är 1000 kg/m³. Bortse från vattenmotståndet. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är kraften från vajern? Svara i N med två värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant fart är den sammanlagda kraften noll. Vattnets lyftkraft och vajerns kraft balanserar tyngdkraften. Volymen är 30 liter = 0,030 m³.</p>\\[F_g=70\\cdot9{,}82=687{,}4\\,\\mathrm N.\\]\\[F_L=1000\\cdot0{,}030\\cdot9{,}82=294{,}6\\,\\mathrm N.\\]\\[F_{\\mathrm{vajer}}=687{,}4-294{,}6=392{,}8\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(3{,}9\\cdot10^{2}\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är kraften från lyftvajern på statyn? Svara i N.",
-        "t": "<p>En staty på 70 kg lyfts med konstant fart i luft. Bortse från luftmotstånd och luftens lyftkraft. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från lyftvajern på statyn? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=70\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(687\\) N</p></div>",
+        "fraga": "Hur stor är kraften från vajern? Svara i N med två värdesiffror.",
+        "t": "<p>En staty med massan 70 kg hänger stilla i en vajer ovanför vattenytan. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är kraften från vajern? Svara i N med två värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ovanför vattenytan balanserar vajerns kraft statyns tyngdkraft.</p>\\[F_{\\mathrm{vajer}}=mg=70\\cdot9{,}82=687{,}4\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(6{,}9\\cdot10^{2}\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Ingen lyftkraft.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -151765,15 +151798,15 @@ window.BANK = [
     "niva": "E",
     "typ": "dykare sjunker eller flyter",
     "poang": "(1/0/0)",
-    "t": "<p>En dykare med utrustning har volymen 69,6 liter och är helt under havsytan. Havsvattnets densitet är 1025 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på dykaren? Svara i N.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,025\\cdot0{,}0696\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(701\\) N</p></div>",
+    "t": "<p>En dykare med utrustning är helt under havsytan. Tillsammans har de volymen 69,6 liter. Havsvattnets densitet är 1025 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är havsvattnets lyftkraft på dykaren med utrustningen? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen är \\(69{,}6\\,\\mathrm{liter}=0{,}0696\\,\\mathrm{m^3}\\).</p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1025\\cdot0{,}0696\\cdot9{,}82=700{,}5588\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(701\\,\\mathrm{N}\\).</p></div>",
     "id": "6.471",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 700.5587999999999,
-    "tolerans": 10.5,
+    "rättSvar": 700.5588,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -151784,7 +151817,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -151793,15 +151826,15 @@ window.BANK = [
     "niva": "C",
     "typ": "okänd vätska ur vägning",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: aluminium 2 700 kg/m³.</p><p>En aluminiumboll har tyngden 37,3 N och visar 20,6 N när den hänger helt nedsänkt i en vätska. Bestäm vätskans densitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{37{,}3}{2\\,700\\cdot9{,}82}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{16{,}7}{9{,}82V}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,209\\) kg/m³</p></div>",
+    "t": "<p>En massiv aluminiumboll hänger stilla i en kraftmätare. Mätaren visar 37,3 N i luft och 20,6 N helt under ytan i en vätska. Aluminiumets densitet är 2700 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vilken densitet har vätskan? Svara i kg/m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skillnaden mellan avläsningarna är vätskans lyftkraft.</p>\\[F_L=37{,}3-20{,}6=16{,}7\\,\\mathrm N.\\]<p>Massan fås från tyngdkraften och volymen från massan och aluminiumets densitet.</p>\\[m=\\frac{37{,}3}{9{,}82}\\approx3{,}79837\\,\\mathrm{kg}.\\]\\[V=\\frac{m}{2700}\\approx0{,}00140680\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{F_L}{gV}=\\frac{2700\\cdot16{,}7}{37{,}3}\\approx1208{,}85\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(1{,}21\\cdot10^{3}\\,\\mathrm{kg/m^3}\\).</p></div>",
     "id": "6.472",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vägning i vätska",
     "svarstyp": "numeriskt",
-    "rättSvar": 1208.8471849865953,
-    "tolerans": 18.1,
+    "rättSvar": 1208.84718498659,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -151821,15 +151854,15 @@ window.BANK = [
     "niva": "C",
     "typ": "aluminium i olja",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: aluminium 2 700 kg/m³.</p><p>Ett aluminiumrätblock (2,0 cm × 3,0 cm × 5,0 cm) hänger i en dynamometer, helt nedsänkt i olja (850 kg/m³). Vad visar dynamometern?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=(2\\,700-850)\\cdot30\\cdot10^{-6}\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}55\\) N</p></div>",
+    "t": "<p>En aluminiumkloss är 2,0 cm lång, 3,0 cm bred och 5,0 cm hög. Den hänger stilla i en kraftmätare, helt under olja. Aluminiumets densitet är 2700 kg/m³ och oljans är 850 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vad visar kraftmätaren? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossens volym är \\(2{,}0\\cdot3{,}0\\cdot5{,}0=30\\,\\mathrm{cm^3}=30\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p><p>Föremålet hålls stilla. Kraften från tråden och oljans lyftkraft balanserar tillsammans tyngdkraften.</p>\\[F_g=2700\\cdot30\\cdot10^{-6}\\cdot9{,}82=0{,}79542\\,\\mathrm N.\\]\\[F_L=850\\cdot30\\cdot10^{-6}\\cdot9{,}82=0{,}25041\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=0{,}79542-0{,}25041=0{,}54501\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}545\\,\\mathrm{N}\\).</p></div>",
     "id": "6.473",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vägning i vätska",
     "svarstyp": "numeriskt",
     "rättSvar": 0.54501,
-    "tolerans": 0.00818,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -151846,23 +151879,23 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "acceleration när föremål släpps under vatten",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³. Föremålen släpps från vila helt under ytan. Räkna bara med tyngdkraft och lyftkraft.</p><ol type=\"a\"><li>En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen.</li><li>En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=g\\left(1-\\dfrac{1\\,000}{5\\,000}\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}86\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=g\\left(\\dfrac{1\\,000}{160}-1\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\) m/s²</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³. Föremålen släpps från vila helt under ytan. Räkna bara med tyngdkraft och lyftkraft.</p><p><strong>a)</strong> En metallbit (5,00 g/cm³) släpps under vatten. Bestäm accelerationen. Svara i m/s² med tre värdesiffror.</p><p><strong>b)</strong> En bit balsaträ (0,16 g/cm³) släpps under vatten. Bestäm accelerationen (uppåt). Svara i m/s² med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Densiteten i SI-enheter är 5000 kg/m³. Låt volymen vara \\(V\\). Då är massan \\(m=5000V\\).</p><p>Den sammanlagda kraften nedåt är tyngdkraften minus lyftkraften.</p>\\[F_{\\mathrm{summa}}=(5000-1000)Vg.\\]<p>Dividera med massan. Volymen förkortas bort.</p>\\[a=(1-1000/5000)\\cdot9{,}82=7{,}856\\,\\mathrm{m/s^2}.\\]<p><strong>Svar:</strong> \\(7{,}86\\,\\mathrm{m/s^2}\\).</p><p><strong>b)</strong></p><p>Densiteten i SI-enheter är 160 kg/m³. Låt volymen vara \\(V\\). Då är massan \\(m=160V\\).</p><p>Den sammanlagda kraften uppåt är lyftkraften minus tyngdkraften.</p>\\[F_{\\mathrm{summa}}=(1000-160)Vg.\\]<p>Dividera med massan. Volymen förkortas bort.</p>\\[a=(1000/160-1)\\cdot9{,}82=51{,}555\\,\\mathrm{m/s^2}.\\]<p><strong>Svar:</strong> \\(51{,}6\\,\\mathrm{m/s^2}\\).</p></div>",
     "id": "6.474",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.856000000000001,
+      7.856,
       51.555
     ],
     "tolerans": [
-      0.118,
-      0.773
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -151887,9 +151920,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är accelerationen nedåt i denna modell? Svara i m/s².",
-        "t": "<p>En metallbit med densiteten 5,00 g/cm³ släpps från vila helt under vattenytan. Vattnets densitet är 1000 kg/m³. Räkna bara med tyngdkraften och lyftkraften. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen nedåt i denna modell? Svara i m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=g\\left(1-\\dfrac{1\\,000}{5\\,000}\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}86\\) m/s²</p></div>",
+        "fraga": "Hur stor är accelerationen nedåt i denna modell? Svara i m/s². Avrunda till tre värdesiffror.",
+        "t": "<p>En metallbit med densiteten 5,00 g/cm³ släpps från vila helt under vattenytan. Vattnets densitet är 1000 kg/m³. Räkna bara med tyngdkraften och lyftkraften. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen nedåt i denna modell? Svara i m/s². Avrunda till tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Densiteten i SI-enheter är 5000 kg/m³. Låt volymen vara \\(V\\). Då är massan \\(m=5000V\\).</p><p>Den sammanlagda kraften nedåt är tyngdkraften minus lyftkraften.</p>\\[F_{\\mathrm{summa}}=(5000-1000)Vg.\\]<p>Dividera med massan. Volymen förkortas bort.</p>\\[a=(1-1000/5000)\\cdot9{,}82=7{,}856\\,\\mathrm{m/s^2}.\\]<p><strong>Svar:</strong> \\(7{,}86\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>\\(F_R=mg-F_\\text{lyft}\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -151898,17 +151931,17 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är accelerationen uppåt i denna modell? Svara i m/s².",
-        "t": "<p>En bit balsaträ med densiteten 0,16 g/cm³ släpps från vila helt under vattenytan. Vattnets densitet är 1000 kg/m³. Räkna bara med tyngdkraften och lyftkraften. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen uppåt i denna modell? Svara i m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=g\\left(\\dfrac{1\\,000}{160}-1\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\) m/s²</p></div>",
+        "fraga": "Hur stor är accelerationen uppåt i denna modell? Svara i m/s². Avrunda till tre värdesiffror.",
+        "t": "<p>En bit balsaträ med densiteten 0,16 g/cm³ släpps från vila helt under vattenytan. Vattnets densitet är 1000 kg/m³. Räkna bara med tyngdkraften och lyftkraften. Använd g = 9,82 m/s².</p><p>Hur stor är accelerationen uppåt i denna modell? Svara i m/s². Avrunda till tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Densiteten i SI-enheter är 160 kg/m³. Låt volymen vara \\(V\\). Då är massan \\(m=160V\\).</p><p>Den sammanlagda kraften uppåt är lyftkraften minus tyngdkraften.</p>\\[F_{\\mathrm{summa}}=(1000-160)Vg.\\]<p>Dividera med massan. Volymen förkortas bort.</p>\\[a=(1000/160-1)\\cdot9{,}82=51{,}555\\,\\mathrm{m/s^2}.\\]<p><strong>Svar:</strong> \\(51{,}6\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Bortse från vattnets motstånd.</p>",
+    "ledtrad": "<p>Beräkna skillnaden mellan tyngdkraft och lyftkraft. Dividera sedan med massan.</p>",
     "traningsniva": 3,
     "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
     "arbetsinsats": 2,
@@ -151920,15 +151953,15 @@ window.BANK = [
     "niva": "C",
     "typ": "bensinfat som flyter",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett fat innehåller 210 liter bensin (750 kg/m³). Hur stor massa stål kan fatet högst ha för att det fyllda fatet ska flyta? Bortse från stålets egen volym.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m+157{,}5=1\\,000\\cdot0{,}210\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\) kg</p></div>",
+    "t": "<p>Ett slutet fat rymmer 210 liter och är fyllt med bensin med densiteten 750 kg/m³. Det ligger i vatten med densiteten 1000 kg/m³. Räkna med tunna väggar så att fatets yttre volym också är 210 liter.</p><p>Hur stor massa kan det tomma fatet högst ha för att det fyllda fatet ska kunna flyta? Svara i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Vid gränsen tränger hela fatet undan vatten. Volymen är 0,210 m³.</p>\\[m_{\\mathrm{vatten}}=1000\\cdot0{,}210=210\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{bensin}}=750\\cdot0{,}210=157{,}5\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{fat}}=210-157{,}5=52{,}5\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(52{,}5\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.475",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Flytande kroppar",
     "svarstyp": "numeriskt",
     "rättSvar": 52.5,
-    "tolerans": 0.787,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -151947,21 +151980,21 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "förankrat undervattenslaboratorium",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p><ol type=\"a\"><li>Bestäm lyftkraften.</li><li>Bestäm spännkraften i kedjan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,025\\cdot\\tfrac43\\pi\\cdot2{,}60^3\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_S=F_\\text{lyft}-74\\,400\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,436\\) N</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Ett klotformat laboratorium hålls stilla helt under havsytan av en kedja till botten. Diametern är 5,20 m och massan 74,4 ton. Havsvattnets densitet är 1025 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p><strong>a)</strong> Hur stor är havsvattnets lyftkraft på laboratoriet? Svara i N med tre värdesiffror.</p><p><strong>b)</strong> Hur stor är kraften från kedjan på laboratoriet? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Radien är \\(5{,}20/2=2{,}60\\,\\mathrm m\\). Hela klotets volym tränger undan havsvatten.</p>\\[V=\\frac43\\pi\\cdot2{,}60^3\\approx73{,}622\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1025\\cdot V\\cdot9{,}82\\approx741044\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Lyftkraften verkar uppåt. Tyngdkraften och kedjans kraft verkar nedåt. Eftersom laboratoriet är stilla gäller \\(F_L=F_g+F_S\\).</p>\\[F_g=74400\\cdot9{,}82=730608\\,\\mathrm N.\\]\\[F_S=741044-730608\\approx10436\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(1{,}04\\cdot10^{4}\\,\\mathrm{N}\\).</p></div>",
     "id": "6.476",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      741044.0189631319,
-      10436.018963131937
+      741044.018963132,
+      10436.0189631321
     ],
     "tolerans": [
-      11100.0,
-      510.0
+      500.0,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -151982,28 +152015,28 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p>",
+    "spelIntro": "<p>Ett klotformat laboratorium hålls stilla helt under havsytan av en kedja till botten. Diametern är 5,20 m och massan 74,4 ton. Havsvattnets densitet är 1025 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm lyftkraften.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p><p>Bestäm lyftkraften.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,025\\cdot\\tfrac43\\pi\\cdot2{,}60^3\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\) N</p></div>",
+        "fraga": "Hur stor är havsvattnets lyftkraft på laboratoriet? Svara i N med tre värdesiffror.",
+        "t": "<p>Ett klotformat laboratorium med diametern 5,20 m ligger helt under havsytan. Havsvattnets densitet är 1025 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är havsvattnets lyftkraft på laboratoriet? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Radien är \\(5{,}20/2=2{,}60\\,\\mathrm m\\). Hela klotets volym tränger undan havsvatten.</p>\\[V=\\frac43\\pi\\cdot2{,}60^3\\approx73{,}622\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1025\\cdot V\\cdot9{,}82\\approx741044\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(7{,}41\\cdot10^{5}\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm spännkraften i kedjan.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>Ett sfäriskt laboratorium (diameter 5,20 m, massa 74,4 ton) är förankrat med en kedja i havsbotten.</p>Lyftkraften är 741 kN.<p>Bestäm spännkraften i kedjan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_S=F_\\text{lyft}-74\\,400\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,436\\) N</p></div>",
-        "ledtrad": "<p>Jämvikt.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "fraga": "Hur stor är kraften från kedjan på laboratoriet? Svara i N med tre värdesiffror.",
+        "t": "<p>Ett laboratorium med massan 74,4 ton hålls stilla under vatten av en kedja till botten. Vattnets lyftkraft är 741,044 kN uppåt. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är kraften från kedjan på laboratoriet? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften verkar uppåt. Tyngdkraften och kedjans kraft verkar nedåt. Eftersom laboratoriet är stilla gäller \\(F_L=F_g+F_S\\).</p>\\[F_g=74400\\cdot9{,}82=730608\\,\\mathrm N.\\]\\[F_S=741044-730608\\approx10436\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(1{,}04\\cdot10^{4}\\,\\mathrm{N}\\).</p></div>",
+        "ledtrad": "<p>Tyngdkraften och kedjans kraft verkar nedåt. Lyftkraften verkar uppåt.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
@@ -152019,15 +152052,15 @@ window.BANK = [
     "niva": "C",
     "typ": "träbit som sjunker i etanol",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: etanol 790 kg/m³.</p><p>En träbit (480 g) sjunker i etanol, och den resulterande kraften är 0,46 N nedåt. Bestäm träets densitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\text{lyft}=0{,}480\\cdot9{,}82-0{,}46\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\dfrac{F_\\text{lyft}}{790\\cdot9{,}82}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{0{,}480}{V}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(875\\) kg/m³</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: etanol 790 kg/m³.</p><p>En träbit (480 g) sjunker i etanol, och den sammanlagda kraften är 0,46 N nedåt. Bestäm träets densitet. Räkna bara med tyngdkraften och lyftkraften.</p><p>Svara i kg/m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna med tyngdkraften nedåt och lyftkraften uppåt. Deras skillnad är den givna kraften 0,46 N nedåt.</p>\\[F_L=0{,}480\\cdot9{,}82-0{,}46=4{,}2536\\,\\mathrm N.\\]\\[V=\\frac{F_L}{790\\cdot9{,}82}\\approx0{,}000548300\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{0{,}480}{V}\\approx875{,}434\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(875\\,\\mathrm{kg/m^3}\\).</p></div>",
     "id": "6.477",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vägning i vätska",
     "svarstyp": "numeriskt",
-    "rättSvar": 875.4335151401167,
-    "tolerans": 13.1,
+    "rättSvar": 875.433515140117,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152044,18 +152077,18 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "aluminium i etanol",
-    "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: aluminium 2 700 kg/m³, etanol 790 kg/m³.</p><p>Ett aluminiumblock (100 cm³) hänger i ett snöre helt nedsänkt i etanol. Bestäm spännkraften.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=(2\\,700-790)\\cdot100\\cdot10^{-6}\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}88\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett aluminiumblock med volymen 100 cm³ hänger stilla i ett snöre, helt under etanol. Aluminiumets densitet är 2700 kg/m³ och etanolens är 790 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är kraften från snöret på blocket? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Volymen är \\(100\\,\\mathrm{cm^3}=0{,}000100\\,\\mathrm{m^3}\\).</p><p>Föremålet hålls stilla. Kraften från tråden och etanolens lyftkraft balanserar tillsammans tyngdkraften.</p>\\[F_g=2700\\cdot0{,}000100\\cdot9{,}82=2{,}6514\\,\\mathrm N.\\]\\[F_L=790\\cdot0{,}000100\\cdot9{,}82=0{,}77578\\,\\mathrm N.\\]\\[F_{\\mathrm{snöre}}=F_g-F_L=1{,}87562\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(1{,}88\\,\\mathrm{N}\\).</p></div>",
     "id": "6.478",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vägning i vätska",
     "svarstyp": "numeriskt",
     "rättSvar": 1.87562,
-    "tolerans": 0.0281,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152063,10 +152096,10 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "N",
     "familjNyckel": "arkimedes__vagning_i_vatska",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -152075,15 +152108,15 @@ window.BANK = [
     "niva": "C",
     "typ": "kub fäst i fjäder under vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kub (sida 4,00 cm, 800 kg/m³) är fäst i en fjäder i botten av en bägare. När kuben är helt under vatten är fjädern sträckt 1,00 cm. Bestäm fjäderkonstanten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[kx=(1\\,000-800)\\cdot0{,}0400^3\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}6\\) N/m</p></div>",
+    "t": "<p>En träkub med sidan 4,00 cm och densiteten 800 kg/m³ hålls stilla helt under vatten av en fjäder fäst i kärlets botten. Fjädern är sträckt 1,00 cm. Vattnets densitet är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm fjäderkonstanten. Svara i N/m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnets lyftkraft är större än tyngdkraften. Fjädern drar nedåt och balanserar skillnaden.</p>\\[V=0{,}0400^3=0{,}0000640\\,\\mathrm{m^3}.\\]\\[F_L=1000Vg=0{,}62848\\,\\mathrm N.\\]\\[F_g=800Vg=0{,}502784\\,\\mathrm N.\\]\\[F_{\\mathrm{fjäder}}=F_L-F_g=0{,}125696\\,\\mathrm N.\\]<p>Fjäderns förlängning är \\(x=0{,}0100\\,\\mathrm m\\), och \\(F=kx\\).</p>\\[k=\\frac{0{,}125696}{0{,}0100}=12{,}5696\\,\\mathrm{N/m}.\\]<p><strong>Svar:</strong> \\(12{,}6\\,\\mathrm{N/m}\\).</p></div>",
     "id": "6.479",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 12.569600000000003,
-    "tolerans": 0.189,
+    "rättSvar": 12.5696,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152091,20 +152124,20 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fjädern tar upp skillnaden mellan lyftkraft och tyngd.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "svarEnhet": "N/m",
     "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "E",
+    "niva": "C",
     "typ": "flytdjup",
-    "poang": "(4/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><ol type=\"a\"><li>En träkub (sida 10,0 cm, 700 kg/m³) flyter i sötvatten. Hur djupt?</li><li>Samma kub i saltvatten (1 030 kg/m³).</li><li>En pråm (20 m × 10 m) lastas med 300 ton kol. Hur mycket djupare flyter den?</li><li>En cylinderformad kloss (höjd 6,0 cm) flyter med 4,0 cm under ytan. Bestäm densiteten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(d=\\dfrac{700}{1\\,000}\\cdot10{,}0\\) cm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0700\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(d=\\dfrac{700}{1\\,030}\\cdot10{,}0\\) cm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0680\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta d=\\dfrac{300\\,000}{1\\,000\\cdot200}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{4{,}0}{6{,}0}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(667\\) kg/m³</p></li></ol></div>",
+    "poang": "(0/4/0)",
+    "t": "<p>Fyra föremål flyter stilla i vatten.</p><p><strong>a)</strong> En träkub (sida 10,0 cm, densitet 700 kg/m³) flyter i sötvatten (1000 kg/m³). Hur mycket av kubens höjd ligger under ytan? Svara i m med tre värdesiffror.</p><p><strong>b)</strong> Samma träkub flyter i saltvatten (1030 kg/m³). Hur mycket av höjden ligger under ytan? Svara i m med tre värdesiffror.</p><p><strong>c)</strong> En båt med raka, lodräta sidor har arean 20 m × 10 m vid vattenytan. Den lastas med 300 ton kol. Vattnets densitet är 1000 kg/m³. Hur mycket längre ned sjunker båten? Svara i m med tre värdesiffror.</p><p><strong>d)</strong> En cylinderformad kloss (höjd 6,0 cm) står lodrätt och flyter med 4,0 cm under ytan. Vattnets densitet är 1000 kg/m³. Vilken densitet har klossen? Svara i kg/m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är densitetsförhållandet 700/1000. Kuben har raka, lodräta sidor, så samma andel av höjden ligger under ytan.</p>\\[h=\\frac{700}{1000}\\cdot0{,}100=0{,}0700\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0700\\,\\mathrm{m}\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är densitetsförhållandet 700/1030. Samma andel av kubens höjd ligger under ytan.</p>\\[h=\\frac{700}{1030}\\cdot0{,}100\\approx0{,}0679612\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0680\\,\\mathrm{m}\\).</p><p><strong>c)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Lasten är 300000 kg. Båten måste tränga undan lika mycket extra vattenmassa.</p>\\[\\Delta V=\\frac{300000}{1000}=300\\,\\mathrm{m^3}.\\]\\[A=20\\cdot10=200\\,\\mathrm{m^2}.\\]\\[\\Delta h=\\frac{\\Delta V}{A}=\\frac{300}{200}=1{,}50\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(1{,}50\\,\\mathrm{m}\\).</p><p><strong>d)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Andelen av klossens volym under ytan är samma som höjdandelen \\(4{,}0/6{,}0\\). Klossens densitet är samma andel av vattnets densitet.</p>\\[\\rho=1000\\frac{4{,}0}{6{,}0}\\approx666{,}667\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(667\\,\\mathrm{kg/m^3}\\).</p></div>",
     "id": "6.480",
     "miniräknare": true,
     "geogebra": false,
@@ -152112,15 +152145,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.07,
-      0.06796116504854369,
+      0.0679611650485437,
       1.5,
-      666.6666666666666
+      666.666666666667
     ],
     "tolerans": [
-      0.00105,
-      0.00102,
-      0.051,
-      10.0
+      5e-05,
+      5e-05,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -152147,57 +152180,57 @@ window.BANK = [
       "kg/m³"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>",
+    "spelIntro": "<p>Fyra föremål flyter stilla i vatten.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En träkub (sida 10,0 cm, 700 kg/m³) flyter i sötvatten. Hur djupt?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En träkub (sida 10,0 cm, 700 kg/m³) flyter i sötvatten. Hur djupt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(d=\\dfrac{700}{1\\,000}\\cdot10{,}0\\) cm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0700\\) m</p></div>",
+        "fraga": "Hur mycket av kubens höjd ligger under ytan? Svara i m med tre värdesiffror.",
+        "t": "<p>En träkub med sidan 10,0 cm och densiteten 700 kg/m³ flyter i sötvatten med densiteten 1000 kg/m³.</p><p>Hur mycket av kubens höjd ligger under ytan? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är densitetsförhållandet 700/1000. Kuben har raka, lodräta sidor, så samma andel av höjden ligger under ytan.</p>\\[h=\\frac{700}{1000}\\cdot0{,}100=0{,}0700\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0700\\,\\mathrm{m}\\).</p></div>",
         "ledtrad": "<p>Andelen under ytan = densitetskvoten.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En träkub (sida 10,0 cm, 700 kg/m³) flyter i saltvatten (1 030 kg/m³). Hur djupt?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En träkub (sida 10,0 cm, 700 kg/m³) flyter i saltvatten (1 030 kg/m³). Hur djupt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(d=\\dfrac{700}{1\\,030}\\cdot10{,}0\\) cm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0680\\) m</p></div>",
+        "fraga": "Hur mycket av kubens höjd ligger under ytan? Svara i m med tre värdesiffror.",
+        "t": "<p>En träkub med sidan 10,0 cm och densiteten 700 kg/m³ flyter i saltvatten med densiteten 1030 kg/m³.</p><p>Hur mycket av kubens höjd ligger under ytan? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är densitetsförhållandet 700/1030. Samma andel av kubens höjd ligger under ytan.</p>\\[h=\\frac{700}{1030}\\cdot0{,}100\\approx0{,}0679612\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0680\\,\\mathrm{m}\\).</p></div>",
         "ledtrad": "<p>Andelen under ytan = densitetskvoten.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "En pråm (20 m × 10 m) lastas med 300 ton kol. Hur mycket djupare flyter den?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En pråm (20 m × 10 m) lastas med 300 ton kol. Hur mycket djupare flyter den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta d=\\dfrac{300\\,000}{1\\,000\\cdot200}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m</p></div>",
+        "fraga": "Hur mycket längre ned sjunker båten? Svara i m med tre värdesiffror.",
+        "t": "<p>En båt har raka, lodräta sidor. Arean vid vattenytan är 20 m × 10 m. Den lastas med 300 ton kol och flyter i vatten med densiteten 1000 kg/m³.</p><p>Hur mycket längre ned sjunker båten? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Lasten är 300000 kg. Båten måste tränga undan lika mycket extra vattenmassa.</p>\\[\\Delta V=\\frac{300000}{1000}=300\\,\\mathrm{m^3}.\\]\\[A=20\\cdot10=200\\,\\mathrm{m^2}.\\]\\[\\Delta h=\\frac{\\Delta V}{A}=\\frac{300}{200}=1{,}50\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(1{,}50\\,\\mathrm{m}\\).</p></div>",
         "ledtrad": "<p>Undanträngd vattenmassa = lastens massa.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "En cylinderformad kloss (höjd 6,0 cm) flyter med 4,0 cm under ytan. Bestäm densiteten.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En cylinderformad kloss (höjd 6,0 cm) flyter med 4,0 cm under ytan. Bestäm densiteten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{4{,}0}{6{,}0}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(667\\) kg/m³</p></div>",
+        "fraga": "Vilken densitet har klossen? Svara i kg/m³ med tre värdesiffror.",
+        "t": "<p>En cylinderformad kloss är 6,0 cm hög och flyter med 4,0 cm av höjden under ytan. Cylindern står lodrätt. Vattnets densitet är 1000 kg/m³.</p><p>Vilken densitet har klossen? Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Andelen av klossens volym under ytan är samma som höjdandelen \\(4{,}0/6{,}0\\). Klossens densitet är samma andel av vattnets densitet.</p>\\[\\rho=1000\\frac{4{,}0}{6{,}0}\\approx666{,}667\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(667\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Andelen under ytan = densitetskvoten.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Flytande föremål: \\(\\dfrac{V_\\text{under}}{V}=\\dfrac{\\rho}{\\rho_\\text{vätska}}\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "arkimedes__flytande_kroppar",
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -152206,15 +152239,15 @@ window.BANK = [
     "niva": "C",
     "typ": "dykartub full och tom",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En dykartub (14,0 kg, yttre volym 15,7 liter) fylls med 3,0 kg luft. Bestäm den resulterande kraften när den fulla tuben är under vattnet (positiv nedåt).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_R=17{,}0\\cdot9{,}82-1\\,025\\cdot0{,}0157\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}9\\) N</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En dykartub (14,0 kg, yttre volym 15,7 liter) fylls med 3,0 kg luft. Bestäm den resulterande kraften när den fulla tuben är under vattnet (positiv nedåt).</p><p>Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den fulla tubens massa är \\(14{,}0+3{,}0=17{,}0\\,\\mathrm{kg}\\). Volymen är \\(15{,}7\\,\\mathrm{liter}=0{,}0157\\,\\mathrm{m^3}\\).</p>\\[F_g=17{,}0\\cdot9{,}82=166{,}94\\,\\mathrm N.\\]\\[F_L=1025\\cdot0{,}0157\\cdot9{,}82=158{,}02835\\,\\mathrm N.\\]<p>Nedåt är positiv riktning, så lyftkraften dras från tyngdkraften.</p>\\[\\begin{aligned}F_{\\mathrm{summa}}&=166{,}94-158{,}02835\\\\ &=8{,}91165\\,\\mathrm N.\\end{aligned}\\]<p><strong>Svar:</strong> \\(8{,}91\\,\\mathrm{N}\\).</p></div>",
     "id": "6.481",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.911650000000009,
-    "tolerans": 0.134,
+    "rättSvar": 8.91165000000002,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152233,23 +152266,23 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "C",
     "typ": "andel under ytan",
-    "poang": "(1/2/0)",
-    "t": "<p>Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><ol type=\"a\"><li>Ett isberg (917 kg/m³) flyter i havsvatten (1 025 kg/m³). Hur många procent av isbergets volym ligger under havsytan?</li><li>Hur många procent av en järnbit ligger ovanför ytan när den flyter i kvicksilver?</li><li>Ett föremål har 14 % av volymen under vattenytan. Hur många procent är under ytan i etanol?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När isberget flyter är lyftkraften lika stor som tyngdkraften. Den nedsänkta volymandelen är isens densitet delad med vattnets densitet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{V_\\mathrm{under}}{V_\\mathrm{hela}}=\\frac{917}{1025}\\approx0{,}8946\\quad\\Rightarrow\\quad89{,}46\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 89 %.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1-\\dfrac{7\\,870}{13\\,600}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}1\\) %</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\rho=140\\) kg/m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{140}{790}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\) %</p></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Tre föremål flyter stilla i olika vätskor.</p><p><strong>a)</strong> Ett isberg (917 kg/m³) flyter i havsvatten (1025 kg/m³). Hur många procent av volymen ligger under ytan? Svara i % med tre värdesiffror.</p><p><strong>b)</strong> En järnbit (7870 kg/m³) flyter i kvicksilver (13600 kg/m³). Hur många procent av volymen ligger ovanför ytan? Svara i % med tre värdesiffror.</p><p><strong>c)</strong> Ett föremål flyter med 14 % av volymen under vattenytan (vattnets densitet är 1000 kg/m³). Det flyttas till etanol (790 kg/m³). Hur många procent ligger då under ytan? Svara i % med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[\\frac{V_{\\mathrm{under}}}{V}=\\frac{917}{1025}\\approx0{,}894634.\\]<p>Multiplicera med 100 för att få procent.</p><p><strong>Svar:</strong> \\(89{,}5\\,\\%\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det kvicksilver det tränger undan.</p><p>Densitetsförhållandet anger andelen under ytan. Dra den från 1 för att få andelen ovanför.</p>\\[\\left(1-\\frac{7870}{13600}\\right)\\cdot100\\approx42{,}1324\\,\\%.\\]<p><strong>Svar:</strong> \\(42{,}1\\,\\%\\).</p><p><strong>c)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Läget i vatten ger föremålets densitet.</p>\\[\\rho=0{,}14\\cdot1000=140\\,\\mathrm{kg/m^3}.\\]<p>I etanol är andelen under ytan 140/790.</p>\\[\\frac{140}{790}\\cdot100\\approx17{,}7215\\,\\%.\\]<p><strong>Svar:</strong> \\(17{,}7\\,\\%\\).</p></div>",
     "id": "6.482",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Flytande kroppar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      89.46341463414635,
-      42.132352941176464,
-      17.72151898734177
+      89.4634146341463,
+      42.1323529411765,
+      17.7215189873418
     ],
     "tolerans": [
-      1.34,
-      0.632,
-      0.51
+      0.05,
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -152273,35 +152306,35 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p>",
+    "spelIntro": "<p>Tre föremål flyter stilla i olika vätskor.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många procent av isbergets volym ligger under havsytan? Svara i %.",
-        "t": "<p>Ett isberg med densiteten 917 kg/m³ flyter i havsvatten med densiteten 1025 kg/m³.</p><p>Hur många procent av isbergets volym ligger under havsytan? Svara i %.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När isberget flyter är lyftkraften lika stor som tyngdkraften. Den nedsänkta volymandelen är isens densitet delad med vattnets densitet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{V_\\mathrm{under}}{V_\\mathrm{hela}}=\\frac{917}{1025}\\approx0{,}8946\\quad\\Rightarrow\\quad89{,}46\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 89 %.</p></div></div>",
+        "fraga": "Hur många procent av volymen ligger under ytan? Svara i % med tre värdesiffror.",
+        "t": "<p>Ett isberg med densiteten 917 kg/m³ flyter i havsvatten med densiteten 1025 kg/m³.</p><p>Hur många procent av volymen ligger under ytan? Svara i % med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[\\frac{V_{\\mathrm{under}}}{V}=\\frac{917}{1025}\\approx0{,}894634.\\]<p>Multiplicera med 100 för att få procent.</p><p><strong>Svar:</strong> \\(89{,}5\\,\\%\\).</p></div>",
         "ledtrad": "<p>Densitetskvoten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur många procent av en järnbit ligger ovanför ytan när den flyter i kvicksilver?",
-        "t": "<p>Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Hur många procent av en järnbit ligger ovanför ytan när den flyter i kvicksilver?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1-\\dfrac{7\\,870}{13\\,600}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(42{,}1\\) %</p></div>",
+        "fraga": "Hur många procent av volymen ligger ovanför ytan? Svara i % med tre värdesiffror.",
+        "t": "<p>En järnbit med densiteten 7870 kg/m³ flyter i kvicksilver med densiteten 13600 kg/m³.</p><p>Hur många procent av volymen ligger ovanför ytan? Svara i % med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det kvicksilver det tränger undan.</p><p>Densitetsförhållandet anger andelen under ytan. Dra den från 1 för att få andelen ovanför.</p>\\[\\left(1-\\frac{7870}{13600}\\right)\\cdot100\\approx42{,}1324\\,\\%.\\]<p><strong>Svar:</strong> \\(42{,}1\\,\\%\\).</p></div>",
         "ledtrad": "<p>Densitetskvoten ger delen under ytan.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Ett föremål har 14 % av volymen under vattenytan. Hur många procent är under ytan i etanol?",
-        "t": "<p>Densitet: vatten 1 000 kg/m³, etanol 790 kg/m³, järn 7 870 kg/m³, kvicksilver 13 600 kg/m³.</p><p>Ett föremål har 14 % av volymen under vattenytan. Hur många procent är under ytan i etanol?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\rho=140\\) kg/m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{140}{790}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\) %</p></div>",
+        "fraga": "Hur många procent ligger då under ytan? Svara i % med tre värdesiffror.",
+        "t": "<p>Ett föremål flyter stilla med 14 % av volymen under ytan i vatten med densiteten 1000 kg/m³. Det flyttas till etanol med densiteten 790 kg/m³.</p><p>Hur många procent ligger då under ytan? Svara i % med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Läget i vatten ger föremålets densitet.</p>\\[\\rho=0{,}14\\cdot1000=140\\,\\mathrm{kg/m^3}.\\]<p>I etanol är andelen under ytan 140/790.</p>\\[\\frac{140}{790}\\cdot100\\approx17{,}7215\\,\\%.\\]<p><strong>Svar:</strong> \\(17{,}7\\,\\%\\).</p></div>",
         "ledtrad": "<p>Bestäm föremålets densitet först.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152318,23 +152351,23 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
+    "niva": "E",
     "typ": "is flyter eller trycks ner",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><ol type=\"a\"><li>Bestäm lyftkraften på 0,90 kg is som flyter fritt.</li><li>Bestäm lyftkraften när isen trycks ned helt under ytan.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=mg=0{,}90\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) N</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Använd isens massa och densitet för att beräkna volymen. Hela denna volym tränger undan vatten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho_\\mathrm{is}}=\\frac{0{,}90}{917}\\,\\mathrm{m^3}\\qquad F_L=\\rho_\\mathrm{vatten}Vg=1000\\cdot\\frac{0{,}90}{917}\\cdot9{,}82\\approx9{,}64\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,6 N.</p></div></div></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p><strong>a)</strong> Bestäm lyftkraften på 0,90 kg is som flyter fritt. Svara i N med tre värdesiffror.</p><p><strong>b)</strong> Bestäm lyftkraften när isen trycks ned helt under ytan. Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[F_L=mg=0{,}90\\cdot9{,}82=8{,}838\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(8{,}84\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V=\\frac{0{,}90}{917}\\approx0{,}000981461\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot V\\cdot9{,}82\\approx9{,}63795\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(9{,}64\\,\\mathrm{N}\\).</p></div>",
     "id": "6.483",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och undanträngd volym",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      8.838000000000001,
+      8.838,
       9.63794983642312
     ],
     "tolerans": [
-      0.133,
-      0.145
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -152359,9 +152392,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är lyftkraften på isbiten? Svara i N.",
-        "t": "<p>En isbit med massan 0,90 kg flyter stilla i vatten. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på isbiten? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=mg=0{,}90\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\) N</p></div>",
+        "fraga": "Hur stor är lyftkraften på isbiten? Svara i N med tre värdesiffror.",
+        "t": "<p>En isbit med massan 0,90 kg flyter stilla i vatten. Använd g = 9,82 m/s².</p><p>Hur stor är lyftkraften på isbiten? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[F_L=mg=0{,}90\\cdot9{,}82=8{,}838\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(8{,}84\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Flyter: lyftkraft = tyngd.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -152370,18 +152403,18 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är vattnets lyftkraft på isbiten? Svara i N.",
-        "t": "<p>En isbit på 0,90 kg hålls helt under vattenytan. Isens densitet är 917 kg/m³ och vattnets är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på isbiten? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Använd isens massa och densitet för att beräkna volymen. Hela denna volym tränger undan vatten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho_\\mathrm{is}}=\\frac{0{,}90}{917}\\,\\mathrm{m^3}\\qquad F_L=\\rho_\\mathrm{vatten}Vg=1000\\cdot\\frac{0{,}90}{917}\\cdot9{,}82\\approx9{,}64\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,6 N.</p></div></div>",
+        "fraga": "Hur stor är vattnets lyftkraft på isbiten? Svara i N med tre värdesiffror.",
+        "t": "<p>En isbit på 0,90 kg hålls helt under vattenytan. Isens densitet är 917 kg/m³ och vattnets är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på isbiten? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V=\\frac{0{,}90}{917}\\approx0{,}000981461\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot V\\cdot9{,}82\\approx9{,}63795\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(9{,}64\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Hela isbiten är under ytan. Lyftkraften beräknas från den undanträngda vattenvolymen.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "familjNyckel": "arkimedes__lyftkraft_och_undantrangd_volym",
     "arbetsinsats": 2,
     "spel": true
@@ -152392,20 +152425,20 @@ window.BANK = [
     "niva": "C",
     "typ": "kanot som halvcylinder",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><ol type=\"a\"><li>Hur många procent av kanotens volym är under vatten?</li><li>Hur mycket last kan kanoten bära innan den sjunker?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(V=\\tfrac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\), andel \\(=\\dfrac{0{,}0850}{V}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}43\\) %</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=1\\,000V-85{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,060\\) kg</p></li></ol></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) har tunna väggar och är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><p><strong>a)</strong> Hur många procent av volymen under kanotens kant är under vatten? Svara i % med tre värdesiffror.</p><p><strong>b)</strong> Hur mycket last kan kanoten bära innan vattenytan når kanten? Svara i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Räkna kanotens utrymme under kanten som en halv cylinder.</p>\\[V=\\frac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\approx1{,}144747\\,\\mathrm{m^3}.\\]<p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[V_{\\mathrm{under}}=\\frac{85{,}0}{1000}=0{,}0850\\,\\mathrm{m^3}.\\]\\[\\frac{V_{\\mathrm{under}}}{V}\\cdot100\\approx7{,}42522\\,\\%.\\]<p><strong>Svar:</strong> \\(7{,}43\\,\\%\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>När vattenytan når kanten tränger kanoten undan vatten motsvarande hela utrymmet under kanten.</p>\\[V=\\frac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\approx1{,}144747\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{vatten}}=1000V\\approx1144{,}747\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{last}}=m_{\\mathrm{vatten}}-85{,}0\\approx1059{,}747\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(1{,}06\\cdot10^{3}\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.484",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.425219680624947,
-      1059.7472755829083
+      7.42521968062495,
+      1059.74727558291
     ],
     "tolerans": [
-      0.111,
-      15.9
+      0.005,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -152426,13 +152459,13 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) har tunna väggar och är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många procent av kanotens volym är under vatten?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><p>Hur många procent av kanotens volym är under vatten?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(V=\\tfrac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\), andel \\(=\\dfrac{0{,}0850}{V}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}43\\) %</p></div>",
+        "fraga": "Hur många procent av volymen under kanotens kant är under vatten? Svara i % med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) har tunna väggar och är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><p>Hur många procent av volymen under kanotens kant är under vatten? Svara i % med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna kanotens utrymme under kanten som en halv cylinder.</p>\\[V=\\frac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\approx1{,}144747\\,\\mathrm{m^3}.\\]<p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[V_{\\mathrm{under}}=\\frac{85{,}0}{1000}=0{,}0850\\,\\mathrm{m^3}.\\]\\[\\frac{V_{\\mathrm{under}}}{V}\\cdot100\\approx7{,}42522\\,\\%.\\]<p><strong>Svar:</strong> \\(7{,}43\\,\\%\\).</p></div>",
         "ledtrad": "<p>Undanträngd volym = massan delat med vattnets densitet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152441,9 +152474,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket last kan kanoten bära innan den sjunker?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><p>Hur mycket last kan kanoten bära innan den sjunker?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=1\\,000V-85{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,060\\) kg</p></div>",
+        "fraga": "Hur mycket last kan kanoten bära innan vattenytan når kanten? Svara i kg med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En aluminiumkanot (85,0 kg) har tunna väggar och är formad som en halv cylinder med radien 0,475 m och längden 3,23 m.</p><p>Hur mycket last kan kanoten bära innan vattenytan når kanten? Svara i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>När vattenytan når kanten tränger kanoten undan vatten motsvarande hela utrymmet under kanten.</p>\\[V=\\frac12\\pi\\cdot0{,}475^2\\cdot3{,}23\\approx1{,}144747\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{vatten}}=1000V\\approx1144{,}747\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{last}}=m_{\\mathrm{vatten}}-85{,}0\\approx1059{,}747\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(1{,}06\\cdot10^{3}\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Hela volymen under ytan.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152460,25 +152493,25 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "frigolitboll med nyckel",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En boll av frigolit (300 kg/m³, diameter 5,0 cm) har en järnnyckel hängande under sig i vattnet. Hur stor massa kan nyckeln högst ha?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\((65{,}4+V)\\cdot1{,}00=19{,}6+7{,}87V\\), där \\(V\\) är nyckelns volym i cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=7{,}87V\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\) g</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En boll av frigolit (300 kg/m³, diameter 5,0 cm) har en järnnyckel hängande under sig i vattnet. Hur stor massa kan nyckeln högst ha?</p><p>Svara i g med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid största möjliga nyckelmassa ligger hela frigolitbollen under ytan. Både bollen och nyckeln får då lyftkraft.</p>\\[r=0{,}050/2=0{,}025\\,\\mathrm m.\\]\\[V_b=\\frac43\\pi r^3\\approx0{,}0000654498\\,\\mathrm{m^3}.\\]<p>Låt nyckelns massa vara \\(m\\). Dess volym är \\(m/7870\\). Kraftbalansen, efter division med \\(g\\), är:</p>\\[1000\\left(V_b+\\frac{m}{7870}\\right)=300V_b+m.\\]\\[m\\left(1-\\frac{1000}{7870}\\right)=(1000-300)V_b.\\]\\[m=\\frac{700V_b}{1-1000/7870}\\approx0{,}0524837\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(52{,}5\\,\\mathrm{g}\\).</p></div>",
     "id": "6.485",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
-    "rättSvar": 52.48372734299542,
-    "tolerans": 0.787,
+    "rättSvar": 52.4837273429954,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Glöm inte lyftkraften på nyckeln.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "svarEnhet": "g",
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
     "arbetsinsats": 3,
@@ -152491,7 +152524,7 @@ window.BANK = [
     "typ": "pråm från hav till flod",
     "poang": "(0/1/0)",
     "t": "<p>En pråm flyter i havsvatten med densiteten 1025 kg/m³. Den del som ligger under ytan är 0,80 m hög. Pråmen har lodräta sidor och konstant tvärsnittsarea. Massan är oförändrad när pråmen flyttas till sötvatten med densiteten 1000 kg/m³.</p><p>Hur stor del av pråmens höjd ligger nu under vattenytan? Svara i m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Pråmen behöver tränga undan samma vattenmassa i båda fallen. Med lodräta sidor är volymen tvärsnittsarean gånger höjden under ytan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho_1Ah_1=\\rho_2Ah_2\\quad\\Rightarrow\\quad h_2=\\frac{1025\\cdot0{,}80}{1000}=0{,}82\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,82 m.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Pråmen behöver tränga undan samma vattenmassa i båda fallen. Med lodräta sidor är volymen tvärsnittsarean gånger höjden under ytan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}\\rho_1Ah_1&=\\rho_2Ah_2\\\\ \\Rightarrow  h_2\\\\ &=\\frac{1025\\cdot0{,}80}{1000}\\\\ &=0{,}82\\,\\mathrm m\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,82 m.</p></div></div>",
     "id": "6.486",
     "miniräknare": true,
     "geogebra": false,
@@ -152506,7 +152539,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sötvatten har lägre densitet, så en större volym måste trängas undan.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "arkimedes__flytande_kroppar",
     "arbetsinsats": 2,
@@ -152515,25 +152548,25 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "träkloss lastad med bly",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><ol type=\"a\"><li>Hur djupt flyter klossen?</li><li>Hur mycket bly kan läggas ovanpå innan klossen sjunker?</li><li>Hur mycket bly kan fästas under klossen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När klossen flyter undantränger den vatten med samma massa som klossen. Bottenarean är 0,60 · 0,20 = 0,12 m².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V_\\mathrm{under}=\\frac{3{,}65}{1000}=0{,}00365\\,\\mathrm{m^3}\\qquad h=\\frac{V_\\mathrm{under}}{A}=\\frac{0{,}00365}{0{,}12}\\approx0{,}0304\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,030 m, alltså 3,0 cm.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Hela klossen under: \\(1\\,000\\cdot0{,}00730-3{,}65\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\) kg</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\left(1-\\dfrac{1\\,000}{11\\,340}\\right)=3{,}65\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\) kg</p></div></div></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><p><strong>a)</strong> Hur djupt flyter klossen? Svara i m med tre värdesiffror.</p><p><strong>b)</strong> Hur mycket bly kan läggas ovanpå innan klossen sjunker? Svara i kg med tre värdesiffror.</p><p><strong>c)</strong> Hur mycket bly kan fästas under klossen, helt under vatten? Svara i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[V_{\\mathrm{under}}=\\frac{3{,}65}{1000}=0{,}00365\\,\\mathrm{m^3}.\\]\\[A=0{,}60\\cdot0{,}20=0{,}12\\,\\mathrm{m^2}.\\]\\[h=\\frac{0{,}00365}{0{,}12}\\approx0{,}0304167\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0304\\,\\mathrm{m}\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>När klossens ovansida ligger vid vattenytan tränger hela klossen undan vatten. Blyet ligger ovanför ytan.</p>\\[V=\\frac{3{,}65}{500}=0{,}00730\\,\\mathrm{m^3}.\\]\\[\\begin{aligned}m_{\\mathrm{bly}}&=1000V-3{,}65\\\\ &=7{,}30-3{,}65\\\\ &=3{,}65\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}65\\,\\mathrm{kg}\\).</p><p><strong>c)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Beräkna först klossens volym. Den nedsänkta blymassan \\(m\\) tränger dessutom undan \\(m/11340\\) m³ vatten.</p>\\[V=\\frac{3{,}65}{500}=0{,}00730\\,\\mathrm{m^3}.\\]\\[1000\\left(V+\\frac{m}{11340}\\right)=3{,}65+m.\\]\\[m\\left(1-\\frac{1000}{11340}\\right)=7{,}30-3{,}65=3{,}65.\\]\\[m=\\frac{3{,}65}{1-1000/11340}\\approx4{,}00300\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(4{,}00\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.487",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.030416666666666665,
+      0.0304166666666667,
       3.65,
-      4.002998065764023
+      4.00299806576402
     ],
     "tolerans": [
-      0.00051,
-      0.0548,
-      0.06
+      5e-05,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -152561,20 +152594,20 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket av klossens höjd ligger under vattenytan? Svara i m.",
-        "t": "<p>En träkloss på 3,65 kg flyter i vatten med densiteten 1000 kg/m³. Klossen är 60 cm lång och 20 cm bred, med lodräta sidor.</p><p>Hur mycket av klossens höjd ligger under vattenytan? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>När klossen flyter undantränger den vatten med samma massa som klossen. Bottenarean är 0,60 · 0,20 = 0,12 m².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V_\\mathrm{under}=\\frac{3{,}65}{1000}=0{,}00365\\,\\mathrm{m^3}\\qquad h=\\frac{V_\\mathrm{under}}{A}=\\frac{0{,}00365}{0{,}12}\\approx0{,}0304\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,030 m, alltså 3,0 cm.</p></div></div>",
+        "fraga": "Hur mycket av klossens höjd ligger under vattenytan? Svara i m med tre värdesiffror.",
+        "t": "<p>En träkloss på 3,65 kg flyter i vatten med densiteten 1000 kg/m³. Klossen är 60 cm lång och 20 cm bred, med lodräta sidor.</p><p>Hur mycket av klossens höjd ligger under vattenytan? Svara i m med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p>\\[V_{\\mathrm{under}}=\\frac{3{,}65}{1000}=0{,}00365\\,\\mathrm{m^3}.\\]\\[A=0{,}60\\cdot0{,}20=0{,}12\\,\\mathrm{m^2}.\\]\\[h=\\frac{0{,}00365}{0{,}12}\\approx0{,}0304167\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0304\\,\\mathrm{m}\\).</p></div>",
         "ledtrad": "<p>Undanträngd volym.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket bly kan läggas ovanpå innan klossen sjunker?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><p>Hur mycket bly kan läggas ovanpå innan klossen sjunker?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Hela klossen under: \\(1\\,000\\cdot0{,}00730-3{,}65\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\) kg</p></div>",
+        "fraga": "Hur mycket bly kan läggas ovanpå innan klossen sjunker? Svara i kg med tre värdesiffror.",
+        "t": "<p>En träkloss med massan 3,65 kg och densiteten 500 kg/m³ flyter i vatten med densiteten 1000 kg/m³.</p><p>Hur mycket bly kan läggas ovanpå innan klossen sjunker? Svara i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>När klossens ovansida ligger vid vattenytan tränger hela klossen undan vatten. Blyet ligger ovanför ytan.</p>\\[V=\\frac{3{,}65}{500}=0{,}00730\\,\\mathrm{m^3}.\\]\\[\\begin{aligned}m_{\\mathrm{bly}}&=1000V-3{,}65\\\\ &=7{,}30-3{,}65\\\\ &=3{,}65\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}65\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Klossens volym är 7,30 dm³.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152583,20 +152616,20 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket bly kan fästas under klossen?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, bly 11 340 kg/m³.</p><p>En träkloss (3,65 kg, 500 kg/m³) är 60 cm lång och 20 cm bred.</p><p>Hur mycket bly kan fästas under klossen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m\\left(1-\\dfrac{1\\,000}{11\\,340}\\right)=3{,}65\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\) kg</p></div>",
+        "fraga": "Hur mycket bly kan fästas under klossen, helt under vatten? Svara i kg med tre värdesiffror.",
+        "t": "<p>En träkloss med massan 3,65 kg och densiteten 500 kg/m³ flyter i vatten med densiteten 1000 kg/m³. Blyets densitet är 11340 kg/m³.</p><p>Hur mycket bly kan fästas under klossen, helt under vatten? Svara i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Beräkna först klossens volym. Den nedsänkta blymassan \\(m\\) tränger dessutom undan \\(m/11340\\) m³ vatten.</p>\\[V=\\frac{3{,}65}{500}=0{,}00730\\,\\mathrm{m^3}.\\]\\[1000\\left(V+\\frac{m}{11340}\\right)=3{,}65+m.\\]\\[m\\left(1-\\frac{1000}{11340}\\right)=7{,}30-3{,}65=3{,}65.\\]\\[m=\\frac{3{,}65}{1-1000/11340}\\approx4{,}00300\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(4{,}00\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Blyet får också lyftkraft.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -152605,15 +152638,15 @@ window.BANK = [
     "niva": "C",
     "typ": "boll hålls under vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En gummiboll (diameter 25,0 cm, massa 0,540 kg) hålls helt under vatten. Hur stor kraft krävs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,000\\cdot\\tfrac43\\pi\\cdot0{,}125^3\\cdot9{,}82-0{,}540\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75{,}0\\) N</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En gummiboll (diameter 25,0 cm, massa 0,540 kg) hålls helt under vatten. Hur stor nedåtriktad kraft behövs för att hålla bollen stilla?</p><p>Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bollens radie är hälften av diametern. Handen måste dra nedåt för att balansera skillnaden mellan lyftkraft och tyngdkraft.</p>\\[r=0{,}250/2=0{,}125\\,\\mathrm m.\\]\\[V=\\frac43\\pi\\cdot0{,}125^3\\approx0{,}00818123\\,\\mathrm{m^3}.\\]\\[F_L=1000V\\cdot9{,}82\\approx80{,}3397\\,\\mathrm N.\\]\\[F_g=0{,}540\\cdot9{,}82=5{,}3028\\,\\mathrm N.\\]\\[F_{\\mathrm{hand}}=F_L-F_g\\approx75{,}0369\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(75{,}0\\,\\mathrm{N}\\).</p></div>",
     "id": "6.488",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 75.03688713086399,
-    "tolerans": 1.13,
+    "rättSvar": 75.036887130864,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152633,15 +152666,15 @@ window.BANK = [
     "niva": "E",
     "typ": "lastbil på färja",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En färja (6,00 m × 4,00 m) sjunker 4,00 cm när en lastbil kör på. Bestäm lastbilens massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=1\\,000\\cdot6{,}00\\cdot4{,}00\\cdot0{,}0400\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(960\\) kg</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En färja med raka, lodräta sidor och arean 6,00 m × 4,00 m vid vattenytan sjunker 4,00 cm när en lastbil kör på. Bestäm lastbilens massa.</p><p>Svara i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Färjan måste tränga undan lika mycket extra vattenmassa som lastbilens massa. Den extra vattenvolymen är arean gånger höjdökningen.</p>\\[\\Delta V=6{,}00\\cdot4{,}00\\cdot0{,}0400=0{,}960\\,\\mathrm{m^3}.\\]\\[m=1000\\cdot0{,}960=960\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(960\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.489",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Flytande kroppar",
     "svarstyp": "numeriskt",
-    "rättSvar": 960,
-    "tolerans": 14.4,
+    "rättSvar": 960.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152652,31 +152685,31 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "kg",
     "familjNyckel": "arkimedes__flytande_kroppar",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "skeppsbruten på frigolit",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><ol type=\"a\"><li>Bestäm lyftkraften.</li><li>Bestäm frigolitens densitet.</li><li>Hur många personer till (62,0 kg var) kan blocket bära?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,025\\cdot2{,}00\\cdot2{,}00\\cdot0{,}024\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(966\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m=1\\,025\\cdot0{,}096-62{,}0=36{,}4\\) kg, \\(\\rho=\\dfrac{36{,}4}{0{,}360}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(101\\) kg/m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Maximal last: \\(1\\,025\\cdot0{,}360-36{,}4=332\\) kg, alltså 5 personer totalt, 4 till.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\)</p></li></ol></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p><strong>a)</strong> Bestäm lyftkraften. Svara i N med tre värdesiffror.</p><p><strong>b)</strong> Bestäm frigolitens densitet. Svara i kg/m³ med tre värdesiffror.</p><p><strong>c)</strong> Hur många personer till (62,0 kg var) kan blocket bära? Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V_{\\mathrm{under}}=2{,}00\\cdot2{,}00\\cdot0{,}024=0{,}096\\,\\mathrm{m^3}.\\]\\[F_L=1025\\cdot0{,}096\\cdot9{,}82=966{,}288\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(966\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Mannen och blocket väger tillsammans lika mycket som det undanträngda havsvattnet.</p>\\[V_{\\mathrm{under}}=2{,}00\\cdot2{,}00\\cdot0{,}024=0{,}096\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{block}}=1025\\cdot0{,}096-62{,}0=36{,}4\\,\\mathrm{kg}.\\]\\[V_{\\mathrm{hela}}=2{,}00\\cdot2{,}00\\cdot0{,}0900=0{,}360\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{36{,}4}{0{,}360}\\approx101{,}111\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(101\\,\\mathrm{kg/m^3}\\).</p><p><strong>c)</strong></p><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Vid gränsen ligger blockets ovansida vid ytan. Hela volymen 0,360 m³ tränger då undan havsvatten.</p>\\[m_{\\mathrm{vatten}}=1025\\cdot0{,}360=369\\,\\mathrm{kg}.\\]<p>Blockets massa fås också från det ursprungliga flytläget: \\(1025\\cdot2{,}00\\cdot2{,}00\\cdot0{,}024-62{,}0=36{,}4\\,\\mathrm{kg}\\).</p>\\[m_{\\mathrm{personer}}=369-36{,}4=332{,}6\\,\\mathrm{kg}.\\]\\[\\frac{332{,}6}{62{,}0}\\approx5{,}36.\\]<p><strong>Svar:</strong> Blocket bär högst fem personer totalt, alltså fyra personer till.</p></div>",
     "id": "6.490",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      966.2880000000001,
-      101.11111111111113,
-      4
+      966.288,
+      101.111111111111,
+      4.0
     ],
     "tolerans": [
-      14.5,
-      5.1,
-      0.06
+      0.5,
+      0.5,
+      0
     ],
     "självrättning": true,
     "formaga": [
@@ -152704,20 +152737,20 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är vattnets lyftkraft på blocket? Svara i N.",
-        "t": "<p>Ett frigolitblock flyter i havsvatten med densiteten 1025 kg/m³. Blockets botten är 2,00 m × 2,00 m och 0,024 m av höjden ligger under ytan. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på blocket? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,025\\cdot2{,}00\\cdot2{,}00\\cdot0{,}024\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(966\\) N</p></div>",
+        "fraga": "Hur stor är vattnets lyftkraft på blocket? Svara i N med tre värdesiffror.",
+        "t": "<p>Ett frigolitblock flyter i havsvatten med densiteten 1025 kg/m³. Blockets botten är 2,00 m × 2,00 m och 0,024 m av höjden ligger under ytan. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på blocket? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V_{\\mathrm{under}}=2{,}00\\cdot2{,}00\\cdot0{,}024=0{,}096\\,\\mathrm{m^3}.\\]\\[F_L=1025\\cdot0{,}096\\cdot9{,}82=966{,}288\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(966\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm frigolitens densitet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Bestäm frigolitens densitet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m=1\\,025\\cdot0{,}096-62{,}0=36{,}4\\) kg, \\(\\rho=\\dfrac{36{,}4}{0{,}360}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(101\\) kg/m³</p></div>",
+        "fraga": "Bestäm frigolitens densitet. Svara i kg/m³ med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Bestäm frigolitens densitet. Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Mannen och blocket väger tillsammans lika mycket som det undanträngda havsvattnet.</p>\\[V_{\\mathrm{under}}=2{,}00\\cdot2{,}00\\cdot0{,}024=0{,}096\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{block}}=1025\\cdot0{,}096-62{,}0=36{,}4\\,\\mathrm{kg}.\\]\\[V_{\\mathrm{hela}}=2{,}00\\cdot2{,}00\\cdot0{,}0900=0{,}360\\,\\mathrm{m^3}.\\]\\[\\rho=\\frac{36{,}4}{0{,}360}\\approx101{,}111\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(101\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Bestäm frigolitens massa först.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152726,20 +152759,20 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur många personer till (62,0 kg var) kan blocket bära?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Hur många personer till (62,0 kg var) kan blocket bära?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Maximal last: \\(1\\,025\\cdot0{,}360-36{,}4=332\\) kg, alltså 5 personer totalt, 4 till.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\)</p></div>",
+        "fraga": "Hur många personer till (62,0 kg var) kan blocket bära? Svara med ett heltal.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: havsvatten 1 025 kg/m³.</p><p>En man (62,0 kg) ligger på ett frigolitblock (2,00 m × 2,00 m × 0,0900 m). 0,024 m av höjden är under vattnet.</p><p>Hur många personer till (62,0 kg var) kan blocket bära? Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Vid gränsen ligger blockets ovansida vid ytan. Hela volymen 0,360 m³ tränger då undan havsvatten.</p>\\[m_{\\mathrm{vatten}}=1025\\cdot0{,}360=369\\,\\mathrm{kg}.\\]<p>Blockets massa fås också från det ursprungliga flytläget: \\(1025\\cdot2{,}00\\cdot2{,}00\\cdot0{,}024-62{,}0=36{,}4\\,\\mathrm{kg}\\).</p>\\[m_{\\mathrm{personer}}=369-36{,}4=332{,}6\\,\\mathrm{kg}.\\]\\[\\frac{332{,}6}{62{,}0}\\approx5{,}36.\\]<p><strong>Svar:</strong> Blocket bär högst fem personer totalt, alltså fyra personer till.</p></div>",
         "ledtrad": "<p>Hela blocket under ytan.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -152748,15 +152781,15 @@ window.BANK = [
     "niva": "C",
     "typ": "träblock med stålboll",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett träblock (0,524 dm³) flyter med en stålboll (0,310 kg) ovanpå, precis i nivå med vattenytan. Bestäm träets densitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m_\\text{trä}=0{,}524-0{,}310\\) kg, \\(\\rho=\\dfrac{0{,}214}{0{,}524\\cdot10^{-3}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(408\\) kg/m³</p></div>",
+    "t": "<p>Ett träblock med volymen 0,524 dm³ flyter i vatten med densiteten 1000 kg/m³. En stålboll med massan 0,310 kg ligger ovanpå blocket. Träblockets ovansida ligger precis vid vattenytan.</p><p>Vilken densitet har träblocket? Svara i kg/m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Hela träblockets volym tränger undan vatten; bollen ligger ovanför ytan.</p>\\[m_{\\mathrm{vatten}}=1000\\cdot0{,}000524=0{,}524\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{trä}}=0{,}524-0{,}310=0{,}214\\,\\mathrm{kg}.\\]\\[\\rho_{\\mathrm{trä}}=\\frac{0{,}214}{0{,}000524}\\approx408{,}397\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(408\\,\\mathrm{kg/m^3}\\).</p></div>",
     "id": "6.491",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
-    "rättSvar": 408.3969465648855,
-    "tolerans": 6.13,
+    "rättSvar": 408.396946564886,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152776,15 +152809,15 @@ window.BANK = [
     "niva": "C",
     "typ": "fjäder när block sänks i vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett block (10,0 kg, 12,0 cm × 10,0 cm × 10,0 cm) hänger i en fjäder (450 N/m). Hur mycket minskar förlängningen när blocket sänks helt ned i vatten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta x=\\dfrac{1\\,000\\cdot1{,}20\\cdot10^{-3}\\cdot9{,}82}{450}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}026\\) m</p></div>",
+    "t": "<p>En kloss är 12,0 cm lång, 10,0 cm bred och 10,0 cm hög. Den hänger stilla i en fjäder med fjäderkonstanten 450 N/m. Klossen sänks helt under vatten med densiteten 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur mycket minskar fjäderns förlängning? Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnets lyftkraft minskar kraften som fjädern behöver bära. Minskningen av fjäderkraften är därför lika stor som lyftkraften.</p>\\[V=0{,}120\\cdot0{,}100\\cdot0{,}100=0{,}00120\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot0{,}00120\\cdot9{,}82=11{,}784\\,\\mathrm N.\\]<p>Med \\(F=kx\\) blir ändringen i förlängning:</p>\\[\\Delta x=\\frac{F_L}{k}=\\frac{11{,}784}{450}\\approx0{,}0261867\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0262\\,\\mathrm{m}\\).</p></div>",
     "id": "6.492",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.026186666666666667,
-    "tolerans": 0.00051,
+    "rättSvar": 0.0261866666666667,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152801,29 +152834,29 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "batysfär sjunker med konstant fart",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En batysfär (radie 1,50 m, 12 ton) i havet (1 030 kg/m³) bromsas av en friktionskraft på 1 100 N. Hur mycket vatten måste fyllas i tankarna för att den ska sjunka med konstant fart?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(12\\,000+m)\\cdot9{,}82=1\\,030\\cdot\\tfrac43\\pi\\cdot1{,}50^3\\cdot9{,}82+1\\,100\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,673\\) kg</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². </p><p>En klotformad dykarkapsel har radien 1,50 m och massan 12 ton. Den sjunker helt under havsytan. Havsvattnets densitet är 1030 kg/m³ och motståndskraften från vattnet är 1100 N uppåt. Vatten kan fyllas i tankarna utan att kapselns yttre volym ändras. Hur mycket vatten måste fyllas i tankarna för att den ska sjunka med konstant fart?</p><p>Svara i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kapseln sjunker med konstant fart. Därför är tyngdkraften lika stor som summan av lyftkraften och vattenmotståndet uppåt.</p>\\[V=\\frac43\\pi\\cdot1{,}50^3\\approx14{,}1372\\,\\mathrm{m^3}.\\]<p>Låt \\(m\\) vara massan av vattnet som fylls på. Den ursprungliga massan är \\(12000\\,\\mathrm{kg}\\).</p>\\[(12000+m)g=1030Vg+1100.\\]\\[\\begin{aligned}m&=1030V+\\frac{1100}{9{,}82}-12000\\\\ &\\approx2673{,}30\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(2{,}67\\cdot10^{3}\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.493",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 2673.2982426677117,
-    "tolerans": 51.0,
+    "rättSvar": 2673.29824266771,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämvikt: tyngd = lyftkraft + friktion.</p>",
+    "ledtrad": "<p>Vid konstant fart balanserar tyngdkraften lyftkraften och vattnets motståndskraft.</p>",
     "traningsniva": 4,
     "svarEnhet": "kg",
     "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -152832,15 +152865,15 @@ window.BANK = [
     "niva": "C",
     "typ": "träkloss i fjäder under vatten",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En träkloss (5,0 kg, 650 kg/m³) är fäst i en fjäder (160 N/m) i botten av en bägare och täcks helt av vatten. Hur mycket är fjädern sträckt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=5{,}0\\cdot9{,}82\\left(\\dfrac{1\\,000}{650}-1\\right)\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=\\dfrac{F}{160}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}17\\) m</p></div>",
+    "t": "<p>En träkloss med massan 5,0 kg och densiteten 650 kg/m³ hålls stilla helt under vatten av en fjäder fäst i kärlets botten. Fjäderkonstanten är 160 N/m och vattnets densitet är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är fjäderns förlängning? Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fjädern drar nedåt och balanserar den del av lyftkraften som är större än tyngdkraften.</p>\\[V=\\frac{5{,}0}{650}\\approx0{,}00769231\\,\\mathrm{m^3}.\\]\\[F_L=1000V\\cdot9{,}82\\approx75{,}5385\\,\\mathrm N.\\]\\[F_g=5{,}0\\cdot9{,}82=49{,}1\\,\\mathrm N.\\]\\[F_{\\mathrm{fjäder}}=F_L-F_g\\approx26{,}4385\\,\\mathrm N.\\]\\[x=\\frac{F_{\\mathrm{fjäder}}}{160}\\approx0{,}165240\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}165\\,\\mathrm{m}\\).</p></div>",
     "id": "6.494",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.16524038461538465,
-    "tolerans": 0.0051,
+    "rättSvar": 0.165240384615385,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -152848,10 +152881,10 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fjädern tar upp lyftkraft minus tyngd.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "svarEnhet": "m",
     "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -152859,16 +152892,16 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "A",
     "typ": "cylinder i vatten med olja ovanpå",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En cylinder (radie 0,150 m, höjd 0,120 m, massa 7,00 kg) flyter i vatten. Olja (725 kg/m³) hälls på tills cylindern är helt täckt. Hur lång del av cylinderns höjd ligger i oljeskiktet? Svara i m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Per area: \\(725h+1\\,000(0{,}120-h)=\\dfrac{7{,}00}{\\pi\\cdot0{,}150^2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0763\\) m</p></div>",
+    "poang": "(0/0/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En cylinder (radie 0,150 m, höjd 0,120 m, massa 7,00 kg) flyter med sin axel lodrätt i vatten. Olja (725 kg/m³) hälls på tills cylindern är helt täckt. Hur lång del av cylinderns höjd ligger i oljeskiktet? Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Cylindern får lyftkraft från både oljan och vattnet. Låt \\(h\\) vara höjden i olja. Höjden i vatten är då \\(0{,}120-h\\).</p>\\[A=\\pi\\cdot0{,}150^2\\approx0{,}0706858\\,\\mathrm{m^2}.\\]<p>Lyftkrafterna tillsammans balanserar cylinderns tyngdkraft. Dividera med \\(Ag\\):</p>\\[725Ahg+1000A(0{,}120-h)g=7{,}00g.\\]\\[725h+1000(0{,}120-h)=\\frac{7{,}00}{A}.\\]\\[h=\\frac{120-7{,}00/A}{1000-725}\\approx0{,}0762555\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0763\\,\\mathrm{m}\\).</p></div>",
     "id": "6.495",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Flytande kroppar",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.07625548229712571,
-    "tolerans": 0.00114,
+    "rättSvar": 0.0762554822971257,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -152884,25 +152917,25 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "densiteter ur dynamometer",
-    "poang": "(0/3/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><ol type=\"a\"><li>Ett föremål visar 300 N i luft och 200 N i alkohol (700 kg/m³). Bestäm föremålets densitet.</li><li>En kloss visar 300 N i luft, 265 N i vatten och 275 N i olja. Bestäm oljans densitet.</li><li>En kula visar 15,2 N i etanol (790 kg/m³) och 13,7 N i vatten. Bestäm kulans volym.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{300}{100}\\cdot700\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,100\\) kg/m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{25}{35}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(714\\) kg/m³</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(1\\,000-790)\\cdot9{,}82\\,V=1{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000727\\) m³</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>Tre föremål undersöks med en kraftmätare. De hänger stilla och är helt under vätskeytan vid mätningarna. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p><strong>a)</strong> Ett föremål ger avläsningen 300 N i luft och 200 N i alkohol med densiteten 700 kg/m³. Bestäm föremålets densitet i kg/m³ med tre värdesiffror.</p><p><strong>b)</strong> En kloss ger avläsningarna 300 N i luft, 265 N i vatten och 275 N i olja. Vattnets densitet är 1000 kg/m³. Bestäm oljans densitet i kg/m³ med tre värdesiffror.</p><p><strong>c)</strong> En kula ger avläsningen 15,2 N i etanol med densiteten 790 kg/m³ och 13,7 N i vatten med densiteten 1000 kg/m³. Bestäm kulans volym i m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Alkoholens lyftkraft är minskningen i avläsningen.</p>\\[F_L=300-200=100\\,\\mathrm N.\\]<p>Med \\(m=300/g\\) och \\(V=100/(700g)\\) blir densiteten:</p>\\[\\rho=\\frac{m}{V}=\\frac{300\\cdot700}{100}=2100\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(2{,}10\\cdot10^{3}\\,\\mathrm{kg/m^3}\\).</p><p><strong>b)</strong></p><p>Beräkna lyftkraften i båda vätskorna.</p>\\[F_{\\mathrm{vatten}}=300-265=35\\,\\mathrm N.\\]\\[F_{\\mathrm{olja}}=300-275=25\\,\\mathrm N.\\]<p>Samma kloss tränger undan samma volym i båda vätskorna. Lyftkrafterna är därför proportionella mot vätskornas densiteter.</p>\\[\\rho_{\\mathrm{olja}}=1000\\frac{25}{35}\\approx714{,}286\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(714\\,\\mathrm{kg/m^3}\\).</p><p><strong>c)</strong></p><p>Avläsningen är mindre i vatten, eftersom vattnets lyftkraft är större. Skillnaden är \\(15{,}2-13{,}7=1{,}5\\,\\mathrm N\\).</p>\\[(1000-790)Vg=1{,}5.\\]\\[V=\\frac{1{,}5}{210\\cdot9{,}82}\\approx0{,}000727379\\,\\mathrm{m^3}.\\]<p><strong>Svar:</strong> \\(7{,}27\\cdot10^{-4}\\,\\mathrm{m^3}\\).</p></div>",
     "id": "6.496",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Vägning i vätska",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2100,
-      714.2857142857143,
-      0.0007273785277858597
+      2100.0,
+      714.285714285714,
+      0.00072737852778586
     ],
     "tolerans": [
-      51.0,
-      10.7,
-      1.09e-05
+      5.0,
+      0.5,
+      5e-07
     ],
     "självrättning": true,
     "formaga": [
@@ -152926,13 +152959,13 @@ window.BANK = [
       "m³"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p>",
+    "spelIntro": "<p>Tre föremål undersöks med en kraftmätare. De hänger stilla och är helt under vätskeytan vid mätningarna. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett föremål visar 300 N i luft och 200 N i alkohol (700 kg/m³). Bestäm föremålets densitet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Ett föremål visar 300 N i luft och 200 N i alkohol (700 kg/m³). Bestäm föremålets densitet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{300}{100}\\cdot700\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,100\\) kg/m³</p></div>",
+        "fraga": "Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.",
+        "t": "<p>Ett föremål hänger stilla i en kraftmätare. Mätaren visar 300 N i luft och 200 N när föremålet är helt under alkohol med densiteten 700 kg/m³.</p><p>Vilken densitet har föremålet? Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Alkoholens lyftkraft är minskningen i avläsningen.</p>\\[F_L=300-200=100\\,\\mathrm N.\\]<p>Med \\(m=300/g\\) och \\(V=100/(700g)\\) blir densiteten:</p>\\[\\rho=\\frac{m}{V}=\\frac{300\\cdot700}{100}=2100\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(2{,}10\\cdot10^{3}\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Lyftkraften ger volymen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152941,9 +152974,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En kloss visar 300 N i luft, 265 N i vatten och 275 N i olja. Bestäm oljans densitet.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kloss visar 300 N i luft, 265 N i vatten och 275 N i olja. Bestäm oljans densitet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{25}{35}\\cdot1\\,000\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(714\\) kg/m³</p></div>",
+        "fraga": "Vilken densitet har oljan? Svara i kg/m³ med tre värdesiffror.",
+        "t": "<p>En kloss hänger stilla i en kraftmätare. Mätaren visar 300 N i luft, 265 N när klossen är helt under vatten och 275 N helt under olja. Vattnets densitet är 1000 kg/m³.</p><p>Vilken densitet har oljan? Svara i kg/m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lyftkraften i båda vätskorna.</p>\\[F_{\\mathrm{vatten}}=300-265=35\\,\\mathrm N.\\]\\[F_{\\mathrm{olja}}=300-275=25\\,\\mathrm N.\\]<p>Samma kloss tränger undan samma volym i båda vätskorna. Lyftkrafterna är därför proportionella mot vätskornas densiteter.</p>\\[\\rho_{\\mathrm{olja}}=1000\\frac{25}{35}\\approx714{,}286\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(714\\,\\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Lyftkrafterna förhåller sig som densiteterna.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152952,12 +152985,12 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En kula visar 15,2 N i etanol (790 kg/m³) och 13,7 N i vatten. Bestäm kulans volym.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kula visar 15,2 N i etanol (790 kg/m³) och 13,7 N i vatten. Bestäm kulans volym.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(1\\,000-790)\\cdot9{,}82\\,V=1{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000727\\) m³</p></div>",
+        "fraga": "Hur stor volym har kulan? Svara i m³ med tre värdesiffror.",
+        "t": "<p>En kula hänger stilla i en kraftmätare. Mätaren visar 15,2 N när kulan är helt under etanol och 13,7 N helt under vatten. Etanolens densitet är 790 kg/m³ och vattnets är 1000 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor volym har kulan? Svara i m³ med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avläsningen är mindre i vatten, eftersom vattnets lyftkraft är större. Skillnaden är \\(15{,}2-13{,}7=1{,}5\\,\\mathrm N\\).</p>\\[(1000-790)Vg=1{,}5.\\]\\[V=\\frac{1{,}5}{210\\cdot9{,}82}\\approx0{,}000727379\\,\\mathrm{m^3}.\\]<p><strong>Svar:</strong> \\(7{,}27\\cdot10^{-4}\\,\\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Skillnaden i lyftkraft.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -152971,17 +153004,17 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "flotte av stockar",
-    "poang": "(0/1/1)",
+    "poang": "(0/1/0)",
     "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Hur många stockar (längd 3,00 m, radie 0,0800 m, 725 kg/m³) krävs minst i en flotte som ska bära fyra personer på 80 kg?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Varje stock bär \\((1\\,000-725)\\cdot\\pi\\cdot0{,}0800^2\\cdot3{,}00=16{,}6\\) kg.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{320}{16{,}6}=19{,}3\\): 20 stockar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) </p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>En stock måste först bära sin egen massa. Vid största last är hela stockens volym under ytan.</p>\\[V=\\pi\\cdot0{,}0800^2\\cdot3{,}00\\approx0{,}0603186\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{last,stock}}=(1000-725)V\\approx16{,}5876\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{personer}}=4\\cdot80=320\\,\\mathrm{kg}.\\]\\[\\frac{320}{16{,}5876}\\approx19{,}29.\\]<p>Antalet måste avrundas uppåt för att flotten ska bära alla fyra.</p><p><strong>Svar:</strong> Minst 20 stockar.</p></div>",
     "id": "6.497",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
+    "rättSvar": 20.0,
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
@@ -152991,24 +153024,24 @@ window.BANK = [
     "ledtrad": "<p>Hur mycket kan en stock bära?</p>",
     "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "flytväst",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En person (81,0 kg) flyter i en sjö med flytväst. Västen (31 dm³) är helt under ytan, och 62 dm³ av personen är under ytan. Bestäm västens densitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(81{,}0+m=1\\,000\\cdot0{,}093\\iff m=12\\) kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{12}{0{,}031}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(387\\) kg/m³</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En person (81,0 kg) flyter i en sjö med flytväst. Västen (20 dm³) är helt under ytan, och 62 dm³ av personen är under ytan. Bestäm västens densitet.</p><p>Svara i kg/m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Personen och västen tränger tillsammans undan \\(62+20=82\\,\\mathrm{dm^3}=0{,}082\\,\\mathrm{m^3}\\) vatten.</p>\\[m_{\\mathrm{person}}+m_{\\mathrm{väst}}=1000\\cdot0{,}082=82\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{väst}}=82-81{,}0=1{,}0\\,\\mathrm{kg}.\\]\\[\\rho_{\\mathrm{väst}}=\\frac{1{,}0}{0{,}020}=50\\,\\mathrm{kg/m^3}.\\]<p><strong>Svar:</strong> \\(50{,}0\\,\\mathrm{kg/m^3}\\).</p></div>",
     "id": "6.498",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
-    "rättSvar": 387.0967741935484,
-    "tolerans": 5.81,
+    "rättSvar": 50.0,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -153018,24 +153051,24 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "kg/m³",
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "isflak som bär en bil",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>Ett isflak (30 cm tjockt) i en sjö ska bära en bil (1 100 kg). Hur stor area måste flaket minst ha?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(1\\,000-917)\\cdot0{,}30\\cdot A=1\\,100\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\) m²</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, is 917 kg/m³.</p><p>Ett isflak (30 cm tjockt) i en sjö ska bära en bil (1 100 kg). Hur stor area måste flaket minst ha?</p><p>Svara i m² med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid gränsen är hela isflaket under ytan. Isen och bilen väger tillsammans lika mycket som det undanträngda vattnet.</p><p>Låt arean vara \\(A\\). Flakets tjocklek är \\(0{,}30\\,\\mathrm m\\), så volymen är \\(0{,}30A\\).</p>\\[1000\\cdot0{,}30A=917\\cdot0{,}30A+1100.\\]\\[A=\\frac{1100}{(1000-917)\\cdot0{,}30}\\approx44{,}1767\\,\\mathrm{m^2}.\\]<p><strong>Svar:</strong> \\(44{,}2\\,\\mathrm{m^2}\\).</p></div>",
     "id": "6.499",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
-    "rättSvar": 44.17670682730924,
-    "tolerans": 0.663,
+    "rättSvar": 44.1767068273092,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -153045,24 +153078,24 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "m²",
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "låda som fylls med vatten",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kubisk låda utan lock (sida 0,30 m, tunna väggar) flyter med en tredjedel av höjden under ytan. Den fylls med vatten. Hur högt står vattnet i lådan när kanten når vattenytan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lådans massa: \\(1\\,000\\cdot0{,}30^2\\cdot0{,}10=9{,}0\\) kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[9{,}0+1\\,000\\cdot0{,}090\\,x=1\\,000\\cdot0{,}090\\cdot0{,}30\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En kubisk låda utan lock (sida 0,30 m, tunna väggar) flyter med en tredjedel av höjden under ytan. Den fylls med vatten. Hur högt står vattnet i lådan när kanten når vattenytan?</p><p>Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Från början ligger \\(0{,}30/3=0{,}10\\,\\mathrm m\\) av lådans höjd under ytan. Det ger lådans egen massa.</p>\\[A=0{,}30^2=0{,}090\\,\\mathrm{m^2}.\\]\\[m_{\\mathrm{låda}}=1000\\cdot0{,}090\\cdot0{,}10=9{,}0\\,\\mathrm{kg}.\\]<p>När kanten når vattenytan tränger lådan undan \\(0{,}090\\cdot0{,}30\\) m³ vatten. Låt vattenhöjden i lådan vara \\(h\\).</p>\\[\\begin{aligned}9{,}0+1000\\cdot0{,}090h&=1000\\cdot0{,}090\\cdot0{,}30\\\\ &=27{,}0.\\end{aligned}\\]\\[h=\\frac{27{,}0-9{,}0}{1000\\cdot0{,}090}=0{,}200\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}200\\,\\mathrm{m}\\).</p></div>",
     "id": "6.500",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
     "rättSvar": 0.2,
-    "tolerans": 0.0051,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -153072,7 +153105,7 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "m",
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -153081,42 +153114,42 @@ window.BANK = [
     "niva": "C",
     "typ": "mynt sjunker i bassäng",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, koppar 8 960 kg/m³.</p><p>Ett kopparmynt släpps vid ytan av en 3,0 m djup bassäng. Hur lång tid tar det att nå botten? Bortse från vattnets motstånd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\left(1-\\dfrac{1\\,000}{8\\,960}\\right)\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\sqrt{\\dfrac{2\\cdot3{,}0}{a}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}83\\) s</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, koppar 8 960 kg/m³.</p><p>Ett kopparmynt släpps från vila precis under ytan av en 3,0 m djup bassäng. Hur lång tid tar det att nå botten? Räkna bara med tyngdkraften och vattnets lyftkraft.</p><p>Svara i s med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraften verkar nedåt och lyftkraften uppåt. Myntets massa är \\(m=\\rho_{\\mathrm{koppar}}V\\).</p>\\[F_{\\mathrm{summa}}=(\\rho_{\\mathrm{koppar}}-\\rho_{\\mathrm{vatten}})Vg.\\]<p>Dividera med myntets massa. Volymen förkortas bort.</p>\\[a=g\\left(1-\\frac{1000}{8960}\\right)\\approx8{,}72402\\,\\mathrm{m/s^2}.\\]<p>Myntet börjar från vila. Med \\(s=at^2/2\\) får vi:</p>\\[t=\\sqrt{\\frac{2s}{a}}=\\sqrt{\\frac{2\\cdot3{,}0}{a}}\\approx0{,}829311\\,\\mathrm s.\\]<p><strong>Svar:</strong> \\(0{,}829\\,\\mathrm{s}\\).</p></div>",
     "id": "6.501",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.8293108593574413,
-    "tolerans": 0.0124,
+    "rättSvar": 0.829310859357441,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm accelerationen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "svarEnhet": "s",
     "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "boll som skjuts upp ur vattnet",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En ihålig boll (1,0 kg, ytterradie 0,10 m) släpps från vila på 2,0 m djup. Hur högt över ytan kommer den? Bortse från friktion och från övergången genom ytan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{1\\,000\\cdot\\tfrac43\\pi\\cdot0{,}10^3\\cdot9{,}82-9{,}82}{1{,}0}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v^2=2a\\cdot2{,}0\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}4\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>En ihålig boll (1,0 kg, ytterradie 0,10 m) släpps från vila med mittpunkten 2,0 m under vattenytan. Hur högt över ytan kommer bollens mittpunkt? Räkna med konstant lyftkraft tills mittpunkten når ytan. Därefter verkar bara tyngdkraften. Bortse från motstånd.</p><p>Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna lyftkraften på bollens hela volym. Under vattnet är den sammanlagda kraften uppåt lyftkraften minus tyngdkraften.</p>\\[V=\\frac43\\pi\\cdot0{,}10^3\\approx0{,}00418879\\,\\mathrm{m^3}.\\]\\[F_L=1000Vg\\approx41{,}1339\\,\\mathrm N.\\]\\[F_g=1{,}0g=9{,}82\\,\\mathrm N.\\]\\[a=\\frac{F_L-F_g}{1{,}0}\\approx31{,}3139\\,\\mathrm{m/s^2}.\\]<p>Bollen accelererar uppåt under 2,0 m. Därefter omvandlas rörelseenergin till lägesenergi.</p>\\[v^2=2a\\cdot2{,}0.\\]\\[\\begin{aligned}h&=\\frac{v^2}{2g}=\\frac{2a\\cdot2{,}0}{2g}\\\\ &\\approx6{,}37758\\,\\mathrm m.\\end{aligned}\\]<p><strong>Svar:</strong> \\(6{,}38\\,\\mathrm{m}\\).</p></div>",
     "id": "6.502",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och kraftjämvikt",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.377580409572783,
-    "tolerans": 0.0957,
+    "rättSvar": 6.37758040957278,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -153127,7 +153160,7 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "m",
     "familjNyckel": "arkimedes__lyftkraft_och_kraftjamvikt",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -153135,16 +153168,16 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "A",
     "typ": "träbit mellan olja och vatten",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Olja (930 kg/m³) ligger ovanpå vatten. En träbit (höjd 4,0 cm, 960 kg/m³) flyter i gränsskiktet, helt täckt av olja. Hur långt ner i vattnet når träbiten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Per area: \\(930(0{,}040-h)+1\\,000h=960\\cdot0{,}040\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}017\\) m</p></div>",
+    "poang": "(0/0/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³.</p><p>Olja (930 kg/m³) ligger ovanpå vatten. En träkloss med raka, lodräta sidor (höjd 4,0 cm, densitet 960 kg/m³) flyter med en del i oljan och en del i vattnet, helt täckt av olja. Hur långt ner i vattnet når träbiten?</p><p>Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt klossens bottenarea vara \\(A\\) och höjden i vatten vara \\(h\\). Höjden i olja är \\(0{,}040-h\\).</p><p>Lyftkraften från oljan och vattnet balanserar tillsammans klossens tyngdkraft.</p>\\[\\begin{gathered}930A(0{,}040-h)g+1000Ahg\\\\ =960A\\cdot0{,}040g.\\end{gathered}\\]<p>Dividera med \\(Ag\\) och samla termerna med \\(h\\).</p>\\[\\begin{gathered}930\\cdot0{,}040+(1000-930)h\\\\ =960\\cdot0{,}040.\\end{gathered}\\]\\[h=\\frac{(960-930)\\cdot0{,}040}{1000-930}\\approx0{,}0171429\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0171\\,\\mathrm{m}\\).</p></div>",
     "id": "6.503",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Flytande kroppar",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.017142857142857144,
-    "tolerans": 0.00051,
+    "rättSvar": 0.0171428571428571,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -153162,16 +153195,16 @@ window.BANK = [
     "omr": "arkimedes",
     "niva": "A",
     "typ": "ihålig järnboll",
-    "poang": "(0/1/2)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En ihålig järnboll (ytterradie 60,0 cm) flyter precis helt under ytan. Bestäm innerradien. Bortse från luftens massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[7\\,870(V_y-V_i)=1\\,000V_y\\iff V_i=V_y\\left(1-\\dfrac{1\\,000}{7\\,870}\\right)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r_i=60{,}0\\sqrt[3]{0{,}8729}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}573\\) m</p></div>",
+    "poang": "(0/0/1)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, järn 7 870 kg/m³.</p><p>En stängd, ihålig järnboll (ytterradie 60,0 cm) flyter precis helt under ytan. Bestäm innerradien. Bortse från luftens massa.</p><p>Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Låt hela bollens volym vara \\(V_y\\) och hålrummets volym \\(V_i\\). Järnets volym är skillnaden. Eftersom hela bollen ligger under ytan får vi:</p>\\[7870(V_y-V_i)=1000V_y.\\]\\[V_i=V_y\\left(1-\\frac{1000}{7870}\\right).\\]<p>För klot är volymen proportionell mot radien i kubik, \\(V=4\\pi r^3/3\\). Därför gäller:</p>\\[r_i^3=r_y^3\\left(1-\\frac{1000}{7870}\\right).\\]\\[r_i=0{,}600\\sqrt[3]{1-\\frac{1000}{7870}}\\approx0{,}573428\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}573\\,\\mathrm{m}\\).</p></div>",
     "id": "6.504",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Flytande kroppar",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5734275905894868,
-    "tolerans": 0.0086,
+    "rättSvar": 0.573427590589487,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -153190,20 +153223,20 @@ window.BANK = [
     "niva": "C",
     "typ": "luftens lyftkraft",
     "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><ol type=\"a\"><li>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum. Svara med fyra decimaler.</li><li>Bestäm luftens lyftkraft på en klotformad ballong med radien 1,00 m. Svara i N; ballongens egen tyngd ska inte dras bort.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{4{,}0000}{1-1{,}29/2\\,700}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0019\\) kg</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm den undanträngda luftens volym</p><p>En klotformad ballong tränger undan lika mycket luft som sin volym:</p><div class=\"facit-matte\">\\[V=\\frac43\\pi r^3=\\frac43\\pi\\cdot1{,}00^3\\approx4{,}189\\,\\text{m}^3.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Använd luftens densitet</p><p>Materialet aluminium hör till den andra deluppgiften och behövs inte här. Arkimedes princip ger</p><div class=\"facit-matte\">\\[F_L=\\rho_\\mathrm{luft}Vg=1{,}29\\cdot\\frac43\\pi\\cdot1{,}00^3\\cdot9{,}82\\approx53{,}06\\,\\text{N}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(53{,}1\\,\\text{N}\\) uppåt.</p></div></div></div></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><p><strong>a)</strong> En aluminiumkloss vägs i luft. Vågen visar 4,0000 kg och räknar massan som kraften på vågen delad med g. Hur stor är klossens verkliga massa? Svara med fyra decimaler.</p><p><strong>b)</strong> Bestäm luftens lyftkraft på en klotformad ballong med radien 1,00 m. Svara i N; ballongens egen tyngd ska inte dras bort. Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Luften bär en liten del av klossens tyngd. Därför visar vågen ett något för lågt värde.</p>\\[mg-\\rho_{\\mathrm{luft}}Vg=4{,}0000g.\\]<p>Med \\(V=m/2700\\) och efter division med \\(g\\) får vi:</p>\\[m-\\frac{1{,}29m}{2700}=4{,}0000.\\]\\[m=\\frac{4{,}0000}{1-1{,}29/2700}\\approx4{,}001912\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(4{,}0019\\,\\mathrm{kg}\\).</p><p><strong>b)</strong></p><p>Den klotformade ballongen tränger undan lika mycket luft som sin volym.</p>\\[V=\\frac43\\pi\\cdot1{,}00^3\\approx4{,}18879\\,\\mathrm{m^3}.\\]<p>Luftens lyftkraft beräknas med luftens densitet.</p>\\[F_L=1{,}29\\cdot V\\cdot9{,}82\\approx53{,}0628\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(53{,}1\\,\\mathrm{N}\\).</p></div>",
     "id": "6.505",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4.001912024633992,
-      53.06275655619304
+      4.00191202463399,
+      53.062756556193
     ],
     "tolerans": [
-      0.00011,
-      0.796
+      5e-05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -153228,31 +153261,31 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum. Svara med fyra decimaler.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><p>En aluminiumkloss har massan 4,0000 kg vid vägning i luft. Bestäm massan i vakuum. Svara med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{4{,}0000}{1-1{,}29/2\\,700}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0019\\) kg</p></div>",
+        "fraga": "En aluminiumkloss vägs i luft. Vågen visar 4,0000 kg och räknar massan som kraften på vågen delad med g. Hur stor är klossens verkliga massa? Svara med fyra decimaler.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, aluminium 2 700 kg/m³.</p><p>En aluminiumkloss vägs i luft. Vågen visar 4,0000 kg och räknar massan som kraften på vågen delad med g. Hur stor är klossens verkliga massa? Svara med fyra decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Luften bär en liten del av klossens tyngd. Därför visar vågen ett något för lågt värde.</p>\\[mg-\\rho_{\\mathrm{luft}}Vg=4{,}0000g.\\]<p>Med \\(V=m/2700\\) och efter division med \\(g\\) får vi:</p>\\[m-\\frac{1{,}29m}{2700}=4{,}0000.\\]\\[m=\\frac{4{,}0000}{1-1{,}29/2700}\\approx4{,}001912\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(4{,}0019\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Luftens lyftkraft minskar vägningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm luftens lyftkraft på en klotformad ballong med radien 1,00 m. Svara i N.",
-        "t": "<p>Använd g = 9,82 m/s². Luftens densitet är 1,29 kg/m³.</p><p>En klotformad ballong har radien 1,00 m. Bestäm luftens lyftkraft på ballongen. Svara i N. Du ska inte beräkna nettokraften efter att ballongens tyngd dragits bort.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm den undanträngda luftens volym</p><p>En klotformad ballong tränger undan lika mycket luft som sin volym:</p><div class=\"facit-matte\">\\[V=\\frac43\\pi r^3=\\frac43\\pi\\cdot1{,}00^3\\approx4{,}189\\,\\text{m}^3.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Använd luftens densitet</p><p>Arkimedes princip ger</p><div class=\"facit-matte\">\\[F_L=\\rho_\\mathrm{luft}Vg=1{,}29\\cdot\\frac43\\pi\\cdot1{,}00^3\\cdot9{,}82\\approx53{,}06\\,\\text{N}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(53{,}1\\,\\text{N}\\) uppåt.</p></div>",
-        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "fraga": "Hur stor är luftens lyftkraft på ballongen? Svara i N med tre värdesiffror.",
+        "t": "<p>En klotformad ballong har radien 1,00 m. Luftens densitet är 1,29 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är luftens lyftkraft på ballongen? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den klotformade ballongen tränger undan lika mycket luft som sin volym.</p>\\[V=\\frac43\\pi\\cdot1{,}00^3\\approx4{,}18879\\,\\mathrm{m^3}.\\]<p>Luftens lyftkraft beräknas med luftens densitet.</p>\\[F_L=1{,}29\\cdot V\\cdot9{,}82\\approx53{,}0628\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(53{,}1\\,\\mathrm{N}\\).</p></div>",
+        "ledtrad": "<p>Använd \\(F_L=\\rho_{\\mathrm{luft}}Vg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -153261,8 +153294,8 @@ window.BANK = [
     "niva": "C",
     "typ": "ballongvolym för last",
     "poang": "(0/4/0)",
-    "t": "<p>Densiteter: luft 1,29 kg/m³, helium 0,179 kg/m³ och vätgas 0,090 kg/m³. Räkna med klotformade ballonger.</p><ol type=\"a\"><li>Vilken volym behövs för att en heliumballong precis ska kunna bära 180 kg last och ett hölje på 10 kg?</li><li>Bestäm volymen för en vätgasballong med samma last och hölje.</li><li>En heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära?</li><li>En heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}179}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 171 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}090}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 158 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först den klotformade ballongens volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{4\\pi r^3}{3}=\\frac{4\\pi\\cdot7{,}15^3}{3}\\approx1531\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>Skillnaden mellan undanträngd luftmassa och heliummassa ger bärförmågan. Dra sedan bort höljet och nätet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_\\text{last}=(1{,}29-0{,}179)\\frac{4\\pi\\cdot7{,}15^3}{3}-930\\approx771\\,\\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 771 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Last och ballongens utrustning väger tillsammans</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=7700+196=7896\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>En kubikmeter helium ger en bärförmåga på 1,29 − 0,179 = 1,111 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{7896}{1{,}111}\\approx7107\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>En klotformad ballong har \\(V=4\\pi r^3/3\\). Lös ut radien:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}\\approx11{,}9\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 11,9 m.</p></div></div></div>",
+    "t": "<p>Densiteter: luft 1,29 kg/m³, helium 0,179 kg/m³ och vätgas 0,090 kg/m³. Räkna med klotformade ballonger.</p><p><strong>a)</strong> Vilken volym behövs för att en heliumballong precis ska kunna bära 180 kg last och ett hölje på 10 kg? Svara i m³ med tre värdesiffror.</p><p><strong>b)</strong> Bestäm volymen för en vätgasballong med samma last och hölje. Svara i m³ med tre värdesiffror.</p><p><strong>c)</strong> En heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära? Svara i kg med tre värdesiffror.</p><p><strong>d)</strong> En heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs? Svara i m med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}179}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 171 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}090}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 158 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först den klotformade ballongens volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{4\\pi r^3}{3}=\\frac{4\\pi\\cdot7{,}15^3}{3}\\approx1531\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>Skillnaden mellan undanträngd luftmassa och heliummassa ger bärförmågan. Dra sedan bort höljet och nätet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}m_\\text{last}&=(1{,}29-0{,}179)\\frac{4\\pi\\cdot7{,}15^3}{3}-930\\\\ &\\approx771\\,\\mathrm{kg}\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 771 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Last och ballongens utrustning väger tillsammans</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=7700+196=7896\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>En kubikmeter helium ger en bärförmåga på 1,29 − 0,179 = 1,111 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{7896}{1{,}111}\\approx7107\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>En klotformad ballong har \\(V=4\\pi r^3/3\\). Lös ut radien:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}\\approx11{,}9\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 11,9 m.</p></div></div></div>",
     "id": "6.506",
     "miniräknare": true,
     "geogebra": false,
@@ -153270,15 +153303,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       171.017101710171,
-      158.33333333333334,
+      158.333333333333,
       771.064548528328,
-      11.927098991986444
+      11.9270989919864
     ],
     "tolerans": [
-      5.1,
-      5.1,
-      11.6,
-      0.179
+      0.5,
+      0.5,
+      0.5,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -153309,8 +153342,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En heliumballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³.",
-        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för helium är 0,179 kg/m³.</p><p>En heliumballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³.</p>",
+        "fraga": "En heliumballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³ med tre värdesiffror.",
+        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för helium är 0,179 kg/m³.</p><p>En heliumballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³ med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}179}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 171 m³.</p></div>",
         "ledtrad": "<p>Skillnaden mellan luftens och gasens densitet avgör hur mycket varje kubikmeter kan bära.</p>",
         "niva": "C",
@@ -153320,8 +153353,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En vätgasballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³.",
-        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för vätgas är 0,090 kg/m³.</p><p>En vätgasballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³.</p>",
+        "fraga": "En vätgasballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³ med tre värdesiffror.",
+        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för vätgas är 0,090 kg/m³.</p><p>En vätgasballong ska precis kunna bära 180 kg last och ett hölje på 10 kg. Vilken volym behövs? Svara i m³ med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}090}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 158 m³.</p></div>",
         "ledtrad": "<p>Skillnaden mellan luftens och gasens densitet avgör hur mycket varje kubikmeter kan bära.</p>",
         "niva": "C",
@@ -153331,29 +153364,29 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära? Svara i kg.",
-        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för helium är 0,179 kg/m³.</p><p>En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först den klotformade ballongens volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{4\\pi r^3}{3}=\\frac{4\\pi\\cdot7{,}15^3}{3}\\approx1531\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>Skillnaden mellan undanträngd luftmassa och heliummassa ger bärförmågan. Dra sedan bort höljet och nätet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_\\text{last}=(1{,}29-0{,}179)\\frac{4\\pi\\cdot7{,}15^3}{3}-930\\approx771\\,\\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 771 kg.</p></div>",
+        "fraga": "En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära? Svara i kg med tre värdesiffror.",
+        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för helium är 0,179 kg/m³.</p><p>En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära? Svara i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först den klotformade ballongens volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{4\\pi r^3}{3}=\\frac{4\\pi\\cdot7{,}15^3}{3}\\approx1531\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>Skillnaden mellan undanträngd luftmassa och heliummassa ger bärförmågan. Dra sedan bort höljet och nätet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}m_\\text{last}&=(1{,}29-0{,}179)\\frac{4\\pi\\cdot7{,}15^3}{3}-930\\\\ &\\approx771\\,\\mathrm{kg}\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 771 kg.</p></div>",
         "ledtrad": "<p>Skillnaden mellan luftens och gasens densitet avgör hur mycket varje kubikmeter kan bära.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 3
       },
       {
         "etikett": "d",
-        "fraga": "En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs? Svara i m.",
-        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för helium är 0,179 kg/m³.</p><p>En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs? Svara i m.</p>",
+        "fraga": "En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs? Svara i m med tre värdesiffror.",
+        "t": "<p>Luftens densitet är 1,29 kg/m³ och densiteten för helium är 0,179 kg/m³.</p><p>En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs? Svara i m med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Last och ballongens utrustning väger tillsammans</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=7700+196=7896\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>En kubikmeter helium ger en bärförmåga på 1,29 − 0,179 = 1,111 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{7896}{1{,}111}\\approx7107\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>En klotformad ballong har \\(V=4\\pi r^3/3\\). Lös ut radien:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}\\approx11{,}9\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 11,9 m.</p></div>",
         "ledtrad": "<p>Bestäm volymen som kan bära lasten och utrustningen. Vilket samband kopplar ihop ett klots volym och radie?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Nettolyft per kubikmeter: \\(\\rho_\\text{luft}-\\rho_\\text{gas}\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
     "arbetsinsats": 3,
     "spel": true
@@ -153361,25 +153394,25 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "ballongers acceleration",
-    "poang": "(0/3/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><ol type=\"a\"><li>En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.</li><li>Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.</li><li>En bubbla (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm bubblans massa.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{1{,}29\\cdot0{,}12\\cdot9{,}82-0{,}12\\cdot9{,}82}{0{,}12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\left(\\dfrac{1{,}29}{0{,}93}-1\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\text{lyft}=1\\,000\\cdot\\tfrac43\\pi(0{,}500\\cdot10^{-3})^3\\cdot9{,}82\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{F_\\text{lyft}}{9{,}82+0{,}225}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}1\\cdot10^{-7}\\) kg</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³. Räkna bara med tyngdkraften och lyftkraften.</p><p><strong>a)</strong> En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps. Svara i m/s² med tre värdesiffror.</p><p><strong>b)</strong> Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas. Svara i m/s² med tre värdesiffror.</p><p><strong>c)</strong> En liten kula (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm kulans massa. Svara i kg med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Ballongens totalmassa är given, inklusive gasen. Lyftkraften verkar uppåt och tyngdkraften nedåt.</p>\\[F_L=1{,}29\\cdot0{,}12\\cdot9{,}82=1{,}520184\\,\\mathrm N.\\]\\[F_g=0{,}12\\cdot9{,}82=1{,}1784\\,\\mathrm N.\\]\\[a=\\frac{1{,}520184-1{,}1784}{0{,}12}=2{,}8478\\,\\mathrm{m/s^2}.\\]<p><strong>Svar:</strong> \\(2{,}85\\,\\mathrm{m/s^2}\\).</p><p><strong>b)</strong></p><p>Låt varmluftens volym vara \\(V\\). Massan är \\(0{,}93V\\). Lyftkraften bestäms av den kalla luftens densitet.</p>\\[F_L=1{,}29Vg,\\qquad F_g=0{,}93Vg.\\]<p>Dividera skillnaden mellan krafterna med varmluftens massa.</p>\\[\\begin{aligned}a&=\\frac{(1{,}29-0{,}93)Vg}{0{,}93V}\\\\ &=\\frac{0{,}36\\cdot9{,}82}{0{,}93}\\\\ &\\approx3{,}80129\\,\\mathrm{m/s^2}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}80\\,\\mathrm{m/s^2}\\).</p><p><strong>c)</strong></p><p>Radien är \\(0{,}500\\,\\mathrm{mm}=0{,}000500\\,\\mathrm m\\). Beräkna först kulans volym och lyftkraft.</p>\\[\\begin{aligned}V&=\\frac43\\pi\\cdot0{,}000500^3\\\\ &\\approx5{,}23599\\cdot10^{-10}\\,\\mathrm{m^3}.\\end{aligned}\\]\\[F_L=1000V\\cdot9{,}82\\approx5{,}14174\\cdot10^{-6}\\,\\mathrm N.\\]<p>Newtons andra lag ger \\(F_L-mg=ma\\). Lös ut massan:</p>\\[\\begin{aligned}m&=\\frac{F_L}{g+a}\\\\ &=\\frac{F_L}{9{,}82+0{,}225}\\\\ &\\approx5{,}11871\\cdot10^{-7}\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(5{,}12\\cdot10^{-7}\\,\\mathrm{kg}\\).</p></div>",
     "id": "6.507",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.8478000000000003,
-      3.8012903225806443,
-      5.118705800274062e-07
+      2.8478,
+      3.80129032258064,
+      5.11870580027406e-07
     ],
     "tolerans": [
-      0.051,
-      0.057,
-      7.68e-09
+      0.005,
+      0.005,
+      5e-10
     ],
     "självrättning": true,
     "formaga": [
@@ -153403,13 +153436,13 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³. Räkna bara med tyngdkraften och lyftkraften.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><p>En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{1{,}29\\cdot0{,}12\\cdot9{,}82-0{,}12\\cdot9{,}82}{0{,}12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\) m/s²</p></div>",
+        "fraga": "En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps. Svara i m/s² med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³. Räkna bara med tyngdkraften och lyftkraften.</p><p>En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps. Svara i m/s² med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ballongens totalmassa är given, inklusive gasen. Lyftkraften verkar uppåt och tyngdkraften nedåt.</p>\\[F_L=1{,}29\\cdot0{,}12\\cdot9{,}82=1{,}520184\\,\\mathrm N.\\]\\[F_g=0{,}12\\cdot9{,}82=1{,}1784\\,\\mathrm N.\\]\\[a=\\frac{1{,}520184-1{,}1784}{0{,}12}=2{,}8478\\,\\mathrm{m/s^2}.\\]<p><strong>Svar:</strong> \\(2{,}85\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -153418,9 +153451,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><p>Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=9{,}82\\left(\\dfrac{1{,}29}{0{,}93}-1\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\) m/s²</p></div>",
+        "fraga": "Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas. Svara i m/s² med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³. Räkna bara med tyngdkraften och lyftkraften.</p><p>Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas. Svara i m/s² med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt varmluftens volym vara \\(V\\). Massan är \\(0{,}93V\\). Lyftkraften bestäms av den kalla luftens densitet.</p>\\[F_L=1{,}29Vg,\\qquad F_g=0{,}93Vg.\\]<p>Dividera skillnaden mellan krafterna med varmluftens massa.</p>\\[\\begin{aligned}a&=\\frac{(1{,}29-0{,}93)Vg}{0{,}93V}\\\\ &=\\frac{0{,}36\\cdot9{,}82}{0{,}93}\\\\ &\\approx3{,}80129\\,\\mathrm{m/s^2}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}80\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -153429,44 +153462,44 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En bubbla (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm bubblans massa.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³.</p><p>En bubbla (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm bubblans massa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\text{lyft}=1\\,000\\cdot\\tfrac43\\pi(0{,}500\\cdot10^{-3})^3\\cdot9{,}82\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{F_\\text{lyft}}{9{,}82+0{,}225}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}1\\cdot10^{-7}\\) kg</p></div>",
+        "fraga": "En liten kula (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm kulans massa. Svara i kg med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Räkna bara med tyngdkraften och lyftkraften.</p><p>En liten kula (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm kulans massa. Svara i kg med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Radien är \\(0{,}500\\,\\mathrm{mm}=0{,}000500\\,\\mathrm m\\). Beräkna först kulans volym och lyftkraft.</p>\\[\\begin{aligned}V&=\\frac43\\pi\\cdot0{,}000500^3\\\\ &\\approx5{,}23599\\cdot10^{-10}\\,\\mathrm{m^3}.\\end{aligned}\\]\\[F_L=1000V\\cdot9{,}82\\approx5{,}14174\\cdot10^{-6}\\,\\mathrm N.\\]<p>Newtons andra lag ger \\(F_L-mg=ma\\). Lös ut massan:</p>\\[\\begin{aligned}m&=\\frac{F_L}{g+a}\\\\ &=\\frac{F_L}{9{,}82+0{,}225}\\\\ &\\approx5{,}11871\\cdot10^{-7}\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(5{,}12\\cdot10^{-7}\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}-mg=ma\\).</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Lyftkraft minus tyngd ger accelerationen.</p>",
     "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "ballong pressas ihop under vatten",
-    "poang": "(2/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><ol type=\"a\"><li>Bestäm lyftkraften i luft.</li><li>Bestäm lyftkraften när ballongen precis är under vattenytan.</li><li>Bestäm lyftkraften på 20 m djup (konstant temperatur).</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ luft. Lyftkraften är tyngdkraften på den undanträngda luften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_L=\\rho Vg=1{,}29\\cdot0{,}0020\\cdot9{,}82=0{,}0253356\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,025 N uppåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ vatten. Lyftkraften är tyngdkraften på det undanträngda vattnet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_L=\\rho Vg=1000\\cdot0{,}0020\\cdot9{,}82=19{,}64\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 20 N uppåt.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p=101{,}3+196{,}4=297{,}7\\) kPa.</p></div><div class=\"facit-stycke\"><p>\\(V=2{,}0\\cdot\\dfrac{101{,}3}{297{,}7}\\) liter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,000\\cdot V\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p><strong>a)</strong> Bestäm lyftkraften i luft. Svara i N med tre värdesiffror.</p><p><strong>b)</strong> Bestäm lyftkraften när ballongen precis är under vattenytan. Svara i N med tre värdesiffror.</p><p><strong>c)</strong> Bestäm lyftkraften på 20 m djup (konstant temperatur). Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lyftkraften är lika stor som tyngdkraften på den undanträngda luften.</p>\\[V=2{,}0\\,\\mathrm{liter}=0{,}0020\\,\\mathrm{m^3}.\\]\\[F_L=1{,}29\\cdot0{,}0020\\cdot9{,}82=0{,}0253356\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}0253\\,\\mathrm{N}\\).</p><p><strong>b)</strong></p><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V=2{,}0\\,\\mathrm{liter}=0{,}0020\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot0{,}0020\\cdot9{,}82=19{,}64\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(19{,}6\\,\\mathrm{N}\\).</p><p><strong>c)</strong></p><p>På 20 m djup ökar trycket. Använd det totala trycket när du beräknar ballongens nya volym.</p>\\[\\begin{aligned}p_2&=p_0+\\rho gh\\\\ &=101300+1000\\cdot9{,}82\\cdot20\\\\ &=297700\\,\\mathrm{Pa}.\\end{aligned}\\]<p>Temperaturen är oförändrad, så \\(p_1V_1=p_2V_2\\).</p>\\[V_2=0{,}0020\\frac{101300}{297700}\\approx0{,}000680551\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1000\\cdot9{,}82\\cdot V_2\\approx6{,}68301\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(6{,}68\\,\\mathrm{N}\\).</p></div>",
     "id": "6.508",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lyftkraft och undanträngd volym",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.025335600000000003,
+      0.0253356,
       19.64,
-      6.683009741350353
+      6.68300974135035
     ],
     "tolerans": [
-      0.00051,
-      0.51,
-      0.1
+      5e-05,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -153490,46 +153523,46 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är luftens lyftkraft på ballongen? Svara i N.",
-        "t": "<p>En ballong med volymen 2,0 liter finns i luft. Luftens densitet är 1,29 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är luftens lyftkraft på ballongen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ luft. Lyftkraften är tyngdkraften på den undanträngda luften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_L=\\rho Vg=1{,}29\\cdot0{,}0020\\cdot9{,}82=0{,}0253356\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,025 N uppåt.</p></div></div>",
-        "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
+        "fraga": "Hur stor är luftens lyftkraft på ballongen? Svara i N med tre värdesiffror.",
+        "t": "<p>En ballong med volymen 2,0 liter finns i luft. Luftens densitet är 1,29 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är luftens lyftkraft på ballongen? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på den undanträngda luften.</p>\\[V=2{,}0\\,\\mathrm{liter}=0{,}0020\\,\\mathrm{m^3}.\\]\\[F_L=1{,}29\\cdot0{,}0020\\cdot9{,}82=0{,}0253356\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}0253\\,\\mathrm{N}\\).</p></div>",
+        "ledtrad": "<p>Använd \\(F_L=\\rho_{\\mathrm{luft}}Vg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är vattnets lyftkraft på ballongen? Svara i N.",
-        "t": "<p>En ballong med volymen 2,0 liter hålls precis under vattenytan. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på ballongen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen tränger undan 2,0 liter = 0,0020 m³ vatten. Lyftkraften är tyngdkraften på det undanträngda vattnet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_L=\\rho Vg=1000\\cdot0{,}0020\\cdot9{,}82=19{,}64\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 20 N uppåt.</p></div></div>",
+        "fraga": "Hur stor är vattnets lyftkraft på ballongen? Svara i N med tre värdesiffror.",
+        "t": "<p>En ballong med volymen 2,0 liter hålls precis under vattenytan. Vattnets densitet är 1000 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stor är vattnets lyftkraft på ballongen? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V=2{,}0\\,\\mathrm{liter}=0{,}0020\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot0{,}0020\\cdot9{,}82=19{,}64\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(19{,}6\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm lyftkraften på 20 m djup (konstant temperatur).",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa.</p><p>Bestäm lyftkraften på 20 m djup (konstant temperatur).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p=101{,}3+196{,}4=297{,}7\\) kPa.</p></div><div class=\"facit-stycke\"><p>\\(V=2{,}0\\cdot\\dfrac{101{,}3}{297{,}7}\\) liter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1\\,000\\cdot V\\cdot9{,}82\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></div>",
+        "fraga": "Bestäm lyftkraften på 20 m djup (konstant temperatur). Svara i N med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³.</p><p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p>Bestäm lyftkraften på 20 m djup (konstant temperatur). Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På 20 m djup ökar trycket. Använd det totala trycket när du beräknar ballongens nya volym.</p>\\[\\begin{aligned}p_2&=p_0+\\rho gh\\\\ &=101300+1000\\cdot9{,}82\\cdot20\\\\ &=297700\\,\\mathrm{Pa}.\\end{aligned}\\]<p>Temperaturen är oförändrad, så \\(p_1V_1=p_2V_2\\).</p>\\[V_2=0{,}0020\\frac{101300}{297700}\\approx0{,}000680551\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1000\\cdot9{,}82\\cdot V_2\\approx6{,}68301\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(6{,}68\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
     "traningsniva": 4,
     "familjNyckel": "arkimedes__lyftkraft_och_undantrangd_volym",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -153538,15 +153571,15 @@ window.BANK = [
     "niva": "C",
     "typ": "mutter håller ballong",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³.</p><p>En ballong (4,0 g) fylls med 11,0 liter helium. Hur tung mutter krävs minst för att hålla den kvar? Bortse från mutterns volym.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(m=1{,}29\\cdot11{,}0-0{,}179\\cdot11{,}0-4{,}0\\) g.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\) g</p></div>",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³.</p><p>En ballong (4,0 g) fylls med 11,0 liter helium. Hur tung mutter krävs minst för att hålla den kvar? Bortse från mutterns volym.</p><p>Svara i g med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den undanträngda luftens massa måste bära gasen, ballonghöljet och muttern. Volymen är 11,0 liter = 0,0110 m³.</p>\\[m_{\\mathrm{luft}}=1{,}29\\cdot0{,}0110=0{,}01419\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{helium}}=0{,}179\\cdot0{,}0110=0{,}001969\\,\\mathrm{kg}.\\]\\[\\begin{aligned}m_{\\mathrm{mutter}}&=0{,}01419-0{,}001969-0{,}0040\\\\ &=0{,}008221\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(8{,}22\\,\\mathrm{g}\\).</p></div>",
     "id": "6.509",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
     "rättSvar": 8.221,
-    "tolerans": 0.123,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -153563,18 +153596,18 @@ window.BANK = [
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "guldtacka lyfts med ballong",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³, helium 0,179 kg/m³, guld 19 300 kg/m³.</p><p>En guldtacka (25 cm × 6,0 cm × 4,0 cm) ligger på botten av en sjö. Den är fäst med ett snöre i en heliumballong (hölje 750 g) vid ytan. Hur stor volym helium krävs för att tackan ska lyftas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tackan: \\(m=19\\,300\\cdot0{,}00060=11{,}58\\) kg, lyftkraft i vatten motsvarar 0,60 kg.</p></div><div class=\"facit-stycke\"><p>Ballongen ska bära \\(11{,}58-0{,}60+0{,}75\\) kg: \\(V=\\dfrac{11{,}73}{1{,}29-0{,}179}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) m³</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: vatten 1 000 kg/m³, luft 1,29 kg/m³, helium 0,179 kg/m³, guld 19 300 kg/m³.</p><p>En guldtacka (25 cm × 6,0 cm × 4,0 cm) är helt under vatten i en sjö. Den är fäst med ett snöre i en heliumballong i luften ovanför vattenytan. Ballonghöljet har massan 750 g. Vilken volym behöver heliumballongen för att hålla tackan stilla helt under vatten?</p><p>Svara i m³ med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet bär en del av guldtackans tyngd. Ballongen måste bära resten samt sitt hölje och gasen.</p>\\[\\begin{aligned}V_{\\mathrm{guld}}&=0{,}25\\cdot0{,}060\\cdot0{,}040\\\\ &=0{,}000600\\,\\mathrm{m^3}.\\end{aligned}\\]\\[m_{\\mathrm{guld}}=19300\\cdot0{,}000600=11{,}58\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{vatten}}=1000\\cdot0{,}000600=0{,}600\\,\\mathrm{kg}.\\]<p>Tackan belastar därför ballongen med en kraft som motsvarar \\(11{,}58-0{,}600=10{,}98\\,\\mathrm{kg}\\). Med höljet blir det \\(10{,}98+0{,}750=11{,}73\\,\\mathrm{kg}\\).</p><p>Varje kubikmeter helium tränger undan 1,29 kg luft men väger själv 0,179 kg.</p>\\[V=\\frac{11{,}73}{1{,}29-0{,}179}\\approx10{,}5581\\,\\mathrm{m^3}.\\]<p><strong>Svar:</strong> \\(10{,}6\\,\\mathrm{m^3}\\).</p></div>",
     "id": "6.510",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
-    "rättSvar": 10.558055805580558,
-    "tolerans": 0.51,
+    "rättSvar": 10.5580558055806,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning"
@@ -153584,24 +153617,24 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "m³",
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "helium- och vätgasballong",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (3,0 g var, 35 liter) fylls med helium respektive vätgas och släpps samtidigt. Hur långt ifrån varandra är de efter 1,0 s? Bortse från luftmotstånd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(a=\\dfrac{F_\\text{lyft}-mg}{m}\\) för var och en.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta s=\\tfrac12(a_{H_2}-a_{He})\\cdot1{,}0^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Räkna bara med tyngdkraften och lyftkraften.</p><p>Två ballonger har volymen 35 liter vardera. Varje hölje har massan 3,0 g. Den ena ballongen fylls med helium och den andra med vätgas och släpps samtidigt från vila på samma höjd. Hur stor är skillnaden i deras höjd efter 1,0 s?</p> Svara i m med tre värdesiffror.",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gasens massa måste räknas med. Båda ballongernas volym är \\(35\\,\\mathrm{liter}=0{,}035\\,\\mathrm{m^3}\\).</p>\\[F_L=1{,}29\\cdot0{,}035\\cdot9{,}82=0{,}443373\\,\\mathrm N.\\]\\[\\begin{aligned}m_{\\mathrm{He}}&=0{,}0030+0{,}179\\cdot0{,}035\\\\ &=0{,}009265\\,\\mathrm{kg}.\\end{aligned}\\]\\[\\begin{aligned}m_{\\mathrm{H}}&=0{,}0030+0{,}090\\cdot0{,}035\\\\ &=0{,}006150\\,\\mathrm{kg}.\\end{aligned}\\]<p>För varje ballong är \\(a=F_L/m-g\\). Den lättare vätgasballongen får större acceleration.</p>\\[a_{\\mathrm{He}}\\approx38{,}0346\\,\\mathrm{m/s^2}.\\]\\[a_{\\mathrm H}\\approx62{,}2732\\,\\mathrm{m/s^2}.\\]<p>Båda börjar från vila, så \\(s=at^2/2\\). Höjdskillnaden blir:</p>\\[\\Delta h=\\frac{(a_{\\mathrm H}-a_{\\mathrm{He}})\\cdot1{,}0^2}{2}\\approx12{,}1193\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(12{,}1\\,\\mathrm{m}\\).</p></div>",
     "id": "6.511",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "numeriskt",
-    "rättSvar": 12.119278296236821,
-    "tolerans": 0.51,
+    "rättSvar": 12.1192782962368,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -153612,29 +153645,29 @@ window.BANK = [
     "traningsniva": 4,
     "svarEnhet": "m",
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
+    "niva": "C",
     "typ": "två sammanbundna ballonger",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><ol type=\"a\"><li>Bestäm accelerationen.</li><li>Bestäm spännkraften i snöret.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{2F_\\text{lyft}-(m_1+m_2)g}{m_1+m_2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}28\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Övre ballongen: \\(F_\\text{lyft}-m_1g-F_S=m_1a\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}329\\) N</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Räkna bara med tyngdkraften, lyftkraften och eventuell kraft från snöret.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><p><strong>a)</strong> Bestäm accelerationen. Svara i m/s² med tre värdesiffror.</p><p><strong>b)</strong> Hur stor är kraften i snöret? Svara i N med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Varje ballongs massa består av höljet och gasen. Båda ballongerna har samma volym och lika stor lyftkraft.</p>\\[V=\\frac43\\pi\\cdot0{,}500^3\\approx0{,}523599\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{vätgas}}=0{,}400+0{,}090V\\approx0{,}447124\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{helium}}=0{,}400+0{,}179V\\approx0{,}493724\\,\\mathrm{kg}.\\]\\[F_L=1{,}29V\\cdot9{,}82\\approx6{,}63284\\,\\mathrm N.\\]<p>När båda ballongerna räknas tillsammans tar snörets krafter ut varandra.</p>\\[\\begin{aligned}a&=\\frac{2F_L-(m_{\\mathrm{vätgas}}+m_{\\mathrm{helium}})g}{m_{\\mathrm{vätgas}}+m_{\\mathrm{helium}}}\\\\ &\\approx4{,}27971\\,\\mathrm{m/s^2}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(4{,}28\\,\\mathrm{m/s^2}\\).</p><p><strong>b)</strong></p><p>På den övre ballongen verkar lyftkraften uppåt samt tyngdkraften och snörets kraft nedåt.</p>\\[V=\\frac43\\pi\\cdot0{,}500^3\\approx0{,}523599\\,\\mathrm{m^3}.\\]\\[m=0{,}400+0{,}090V\\approx0{,}447124\\,\\mathrm{kg}.\\]\\[F_L=1{,}29V\\cdot9{,}82\\approx6{,}63284\\,\\mathrm N.\\]<p>Newtons andra lag ger \\(F_L-mg-F_S=ma\\). Använd den beräknade accelerationen \\(a\\approx4{,}27971445\\,\\mathrm{m/s^2}\\).</p>\\[F_S=F_L-m(g+a)\\approx0{,}328525\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}329\\,\\mathrm{N}\\).</p></div>",
     "id": "6.512",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ballonger och lastförmåga",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4.279714452389378,
-      0.32852539844827344
+      4.27971445238938,
+      0.328525398448273
     ],
     "tolerans": [
-      0.0642,
-      0.00493
+      0.005,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -153655,35 +153688,35 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>",
+    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Räkna bara med tyngdkraften, lyftkraften och eventuell kraft från snöret.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm accelerationen.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><p>Bestäm accelerationen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{2F_\\text{lyft}-(m_1+m_2)g}{m_1+m_2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}28\\) m/s²</p></div>",
+        "fraga": "Bestäm accelerationen. Svara i m/s² med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Räkna bara med tyngdkraften, lyftkraften och eventuell kraft från snöret.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><p>Bestäm accelerationen. Svara i m/s² med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje ballongs massa består av höljet och gasen. Båda ballongerna har samma volym och lika stor lyftkraft.</p>\\[V=\\frac43\\pi\\cdot0{,}500^3\\approx0{,}523599\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{vätgas}}=0{,}400+0{,}090V\\approx0{,}447124\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{helium}}=0{,}400+0{,}179V\\approx0{,}493724\\,\\mathrm{kg}.\\]\\[F_L=1{,}29V\\cdot9{,}82\\approx6{,}63284\\,\\mathrm N.\\]<p>När båda ballongerna räknas tillsammans tar snörets krafter ut varandra.</p>\\[\\begin{aligned}a&=\\frac{2F_L-(m_{\\mathrm{vätgas}}+m_{\\mathrm{helium}})g}{m_{\\mathrm{vätgas}}+m_{\\mathrm{helium}}}\\\\ &\\approx4{,}27971\\,\\mathrm{m/s^2}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(4{,}28\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>Se ballongerna som ett system.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "traningsniva": 4,
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm spännkraften i snöret.",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>Accelerationen är 4,28 m/s².<p>Bestäm spännkraften i snöret.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Övre ballongen: \\(F_\\text{lyft}-m_1g-F_S=m_1a\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}329\\) N</p></div>",
-        "ledtrad": "<p>Frilägg den övre ballongen.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Hur stor är kraften i snöret? Svara i N med tre värdesiffror.",
+        "t": "<p>Använd \\(g=9{,}82\\) m/s². Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Räkna bara med tyngdkraften, lyftkraften och eventuell kraft från snöret.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>Accelerationen uppåt är 4,2797 m/s².<p>Hur stor är kraften i snöret? Svara i N med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>På den övre ballongen verkar lyftkraften uppåt samt tyngdkraften och snörets kraft nedåt.</p>\\[V=\\frac43\\pi\\cdot0{,}500^3\\approx0{,}523599\\,\\mathrm{m^3}.\\]\\[m=0{,}400+0{,}090V\\approx0{,}447124\\,\\mathrm{kg}.\\]\\[F_L=1{,}29V\\cdot9{,}82\\approx6{,}63284\\,\\mathrm N.\\]<p>Newtons andra lag ger \\(F_L-mg-F_S=ma\\). Använd kortets givna acceleration \\(a=4{,}2797\\,\\mathrm{m/s^2}\\).</p>\\[F_S=F_L-m(g+a)\\approx0{,}328532\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}329\\,\\mathrm{N}\\).</p></div>",
+        "ledtrad": "<p>Vilka krafter verkar på den övre ballongen? Snöret drar den nedåt.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 3
       }
     ],
     "ledtrad": "<p>Samma acceleration för båda.</p>",
     "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {

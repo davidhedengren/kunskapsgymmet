@@ -236,12 +236,12 @@ test('Batterikortet och handens bromskort innehåller givna data från sina egna
 });
 test('Rekylkort anger samma hastighetsreferens som rörelsemängdsberäkningen',()=>{
   const [pistol,boat]=cxtPhysicsCards('5.412');
-  assert.match(pistol.t,/relativt marken/);
-  assert.match(boat.t,/relativt vattnet/);
+  assert.match(pistol.t,/mätt från marken/);
+  assert.match(boat.t,/mätt från bryggan/);
   assert.ok(Math.abs(pistol.rättSvar-.03*175/3)<1e-10);
   assert.ok(Math.abs(boat.rättSvar-5.3*10/59)<1e-10);
   const astronaut=cxtPhysicsCards('5.423')[0];
-  assert.match(astronaut.t,/8,00 m\/s relativt skeppet/);
+  assert.match(astronaut.t,/8,00 m\/s mätt från skeppet/);
   assert.ok(Math.abs(astronaut.rättSvar-12*8/75)<1e-10);
 });
 test('Friktion, nedsänkt is och solpanelernas återbetalning kan lösas från egna delkort',()=>{

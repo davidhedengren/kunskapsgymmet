@@ -65,7 +65,8 @@ window.OMRMA2 = {
     "bevis_likformighet": "Bevis med likformighet",
     "kordasatsen_biskarningssatsen": "Kordasatsen och bisektrissatsen",
     "avstandsformeln_mittpunktsformeln": "Avståndsformeln och mittpunktsformeln",
-    "koordinatgeometri_problemlosning": "Koordinatgeometri – problemlösning"
+    "koordinatgeometri_problemlosning": "Koordinatgeometri – problemlösning",
+    "geometri_problemlosning": "Problemlösning"
   },
   "4": {
     "lagesmatt": "Medelvärde, median och typvärde",
@@ -314,6 +315,10 @@ window.SPARMA2 = {
       "2a",
       "2b",
       "2c"
+    ],
+    "geometri_problemlosning": [
+      "2b",
+      "2c"
     ]
   },
   "4": {
@@ -503,6 +508,11 @@ window.GRUPPMA2 = {
         "avstandsformeln_mittpunktsformeln",
         "koordinatgeometri_problemlosning"
       ]
+    },
+    {
+      "id": "geometri_problemlosning",
+      "namn": "Problemlösning",
+      "omr": ["geometri_problemlosning"]
     }
   ],
   "4": [
@@ -534,6 +544,3 @@ window.GRUPPMA2 = {
     }
   ]
 };
-
-/* Visa kursens pedagogiska underområden som egna träningskort. */
-window.GRUPPMA2 = {};

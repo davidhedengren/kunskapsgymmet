@@ -19,6 +19,16 @@ const ma3=bank('uppgiftermato1.js'),ma5=bank('uppgiftermatf1.js');
 const cards=id=>c.expandGameTask(ma3.find(q=>q.id===id));
 const plain=x=>JSON.parse(JSON.stringify(x));
 
+test('Ma2 3.158 har två namngivna numeriska vinkelfält utan LaTeX-krav',()=>{
+  const q=bank('uppgifterma2.js').find(q=>q.id==='3.158');
+  const layout=c.answerLayout(q);
+  assert.equal(layout.n,2);assert.equal(layout.ordnad,true);
+  assert.deepEqual(plain(q.rättSvar),[90,180-34-90]);
+  assert.deepEqual(plain(q.svarEtiketter),['Vinkel ACB','Vinkel ABC']);
+  assert.deepEqual(plain(q.svarEnhet),['°','°']);
+  assert.deepEqual(plain(q.svarFormat),['numeriskt','numeriskt']);
+});
+
 test('Grafuppgiften 2.374 har tre självständiga kort utan gemensamt facit',()=>{
   const parts=cards('2.374');
   assert.equal(parts.length,3);

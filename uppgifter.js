@@ -54047,7 +54047,7 @@ window.BANK = [
     "niva": "E",
     "typ": "rörelseenergins fartberoende",
     "poang": "(3/0/0)",
-    "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p><ol style=\"display:grid;gap:0.85rem\"><li>Skriv pilens massa i kilogram.</li><li>Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s.</p><p>a) Hur många kilogram är 25 g?</p><p>b) Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.</p><p>c) Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Ett kilogram är 1000 gram. Dividera därför med 1000.</p>\\[m=\\frac{25}{1000}=0{,}025\\,\\mathrm{kg}\\]<p><strong>b)</strong></p><p>Omvandla massan: 25 g = 0,025 kg. Kvadrera farten i sambandet för rörelseenergi.</p>\\[E_k=\\frac{0{,}025\\cdot62^2}{2}=48{,}05\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Dubbla farten är 124 m/s. Massan är 0,025 kg.</p>\\[E_k=\\frac{0{,}025\\cdot124^2}{2}=192{,}2\\,\\mathrm J\\]<p>Farten kvadreras, så dubbla farten ger fyra gånger rörelseenergin.</p></div>",
     "familj": "Rörelseenergi Ek = mv²/2",
     "formaga": [
@@ -54089,12 +54089,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p>",
+    "spelIntro": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv massan i kilogram.",
-        "t": "<p>En pil har massan 25 g.</p><p>Skriv massan i kilogram.</p>",
+        "fraga": "Hur många kilogram är 25 g?",
+        "t": "<p>En pil har massan 25 g. Hur många kilogram är det?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ett kilogram är 1000 gram. Dividera därför med 1000.</p>\\[m=\\frac{25}{1000}=0{,}025\\,\\mathrm{kg}\\]</div>",
         "ledtrad": "<p>Hur många gram är ett kilogram?</p>",
         "niva": "E",
@@ -54108,7 +54108,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p><p>Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s.</p><p>Bestäm pilens rörelseenergi. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 25 g = 0,025 kg. Kvadrera farten i sambandet för rörelseenergi.</p>\\[E_k=\\frac{0{,}025\\cdot62^2}{2}=48{,}05\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Använd massan i kilogram i energiuttrycket.</p>",
         "niva": "E",
@@ -54122,7 +54122,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s. Bortse från rotation.</p><p>Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>En pil med massan 25 g lämnar en båge med farten 62 m/s.</p><p>Bestäm rörelseenergin om samma pil i stället får dubbla farten. Svara i J. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dubbla farten är 124 m/s. Massan är 0,025 kg.</p>\\[E_k=\\frac{0{,}025\\cdot124^2}{2}=192{,}2\\,\\mathrm J\\]<p>Farten kvadreras, så dubbla farten ger fyra gånger rörelseenergin.</p></div>",
         "ledtrad": "<p>Hur påverkas en kvadrat av en fördubbling?</p>",
         "niva": "E",
@@ -62007,7 +62007,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm personens tyngdkraft. Svara i N med en decimal.",
-        "t": "<p>En person har massan 65 kg. Tyngdkraften beräknas med F = mg. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm personens tyngdkraft. Svara i N med en decimal.</p>",
+        "t": "<p>En person har massan 65 kg. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Bestäm personens tyngdkraft. Svara i N med en decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tyngdkraften är massan gånger tyngdaccelerationen.\\[F_\\mathrm{g}=mg=65\\cdot9{,}82=638{,}3\\,\\mathrm N\\]</p><p><strong>Svar:</strong> 638,3 N.</p></div>",
         "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
         "niva": "E",
@@ -62027,7 +62027,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "procedur"
         ]
@@ -62041,7 +62041,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 2,
-        "poang": "(0/1/0)",
+        "poang": "(1/0/0)",
         "formaga": [
           "procedur"
         ]

@@ -51039,7 +51039,7 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__rorelsemangdens_belopp",
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -51103,7 +51103,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
+    "rättSvar": 9.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "kg·m/s",
@@ -51289,11 +51289,11 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__rorelsemangd_med_enhetsbyte",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilken massenhet behövs i svaret?</p>",
+    "ledtrad": "<p>Omvandla massan från gram till kg innan du multiplicerar med farten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -51310,7 +51310,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Använd p = mv. Rörelsemängderna nedan är storlekar, utan tecken.</p><ol style=\"display:grid;gap:0.85rem\"><li>Ett föremål på 30 kg har rörelsemängden 420 kg·m/s. Bestäm farten. Svara i m/s. Svara med ett heltal.</li><li>En proton har massan 1,673 · 10⁻²⁷ kg och farten 2,0 · 10⁶ m/s. Skriv rörelsemängden som a · 10⁻²¹ kg·m/s och ange enbart talet a. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{420}{30}=14\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 14 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=\\left(1{,}673\\cdot 10^{-27}\\right) \\left(2{,}0\\cdot 10^{6}\\right)=3{,}346\\cdot 10^{-21}\\, \\mathrm{kg\\,m/s}\\]</div></div></div><div class=\"facit-stycke\"><p>Koefficienten a är 3,346, som avrundas till 3,35.</p></div></div><p class=\"facit-svar\">Svar: 3,35.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{420}{30}=14\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 14 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}p=1{,}673\\cdot2{,}0\\cdot10^{-27+6}\\\\=3{,}346\\cdot10^{-21}\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]</div></div></div><div class=\"facit-stycke\"><p>Koefficienten a är 3,346, som avrundas till 3,35.</p></div></div><p class=\"facit-svar\">Svar: 3,35.</p></div></div></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
       "procedur"
@@ -51318,12 +51318,12 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__rorelsemangd_och_tiopotenser",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      14,
-      3.35
+      14.0,
+      3.346
     ],
     "tolerans": [
       0,
-      0
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken storhet ska lösas ut ur p = mv?</p>",
@@ -51352,7 +51352,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Ett föremål på 30 kg har rörelsemängden 420 kg·m/s. Bestäm farten. Svara i m/s. Svara med ett heltal.",
-        "t": "<p>Använd p = mv. Rörelsemängderna nedan är storlekar, utan tecken.</p><p>Ett föremål på 30 kg har rörelsemängden 420 kg·m/s. Bestäm farten. Svara i m/s. Svara med ett heltal.</p>",
+        "t": "<p>Använd v = p/m. Räkna på rörelsemängdens storlek.</p><p>Ett föremål på 30 kg har rörelsemängden 420 kg·m/s. Bestäm farten. Svara i m/s. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{420}{30}=14\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 14 m/s.</p></div>",
         "ledtrad": "<p>Vilken storhet ska lösas ut ur p = mv?</p>",
         "niva": "E",
@@ -51366,8 +51366,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En proton har massan 1,673 · 10⁻²⁷ kg och farten 2,0 · 10⁶ m/s. Skriv rörelsemängden som a · 10⁻²¹ kg·m/s och ange enbart talet a. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Använd p = mv. Rörelsemängderna nedan är storlekar, utan tecken.</p><p>En proton har massan 1,673 · 10⁻²⁷ kg och farten 2,0 · 10⁶ m/s. Skriv rörelsemängden som a · 10⁻²¹ kg·m/s och ange enbart talet a. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=\\left(1{,}673\\cdot 10^{-27}\\right) \\left(2{,}0\\cdot 10^{6}\\right)=3{,}346\\cdot 10^{-21}\\, \\mathrm{kg\\,m/s}\\]</div></div></div><div class=\"facit-stycke\"><p>Koefficienten a är 3,346, som avrundas till 3,35.</p></div></div><p class=\"facit-svar\">Svar: 3,35.</p></div>",
+        "t": "<p>Använd p = mv. Räkna på rörelsemängdens storlek.</p><p>En proton har massan 1,673 · 10⁻²⁷ kg och farten 2,0 · 10⁶ m/s. Skriv rörelsemängden som a · 10⁻²¹ kg·m/s och ange enbart talet a. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}p=1{,}673\\cdot2{,}0\\cdot10^{-27+6}\\\\=3{,}346\\cdot10^{-21}\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]</div></div></div><div class=\"facit-stycke\"><p>Koefficienten a är 3,346, som avrundas till 3,35.</p></div></div><p class=\"facit-svar\">Svar: 3,35.</p></div>",
         "ledtrad": "<p>Multiplicera faktorerna framför tiopotenserna och addera exponenterna.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -51518,8 +51518,8 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "typ": "fart från rörelsemängd",
-    "poang": "(2/0/0)",
-    "t": "<p>En boll på 0,30 kg har rörelsemängdens storlek 3,6 kg·m/s.</p><p>Bestäm bollens fart. Svara i m/s. Svara med ett heltal.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En boll på 0,30 kg har rörelsemängdens storlek 3,6 kg·m/s.</p><p>Använd v = p/m. Bestäm bollens fart. Svara i m/s. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{3{,}6}{0{,}30}=12\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 12 m/s.</p></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
@@ -51527,7 +51527,7 @@ window.BANK = [
     ],
     "familjNyckel": "rorelsemangd__fart_fran_rorelsemangd",
     "svarstyp": "numeriskt",
-    "rättSvar": 12,
+    "rättSvar": 12.0,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
@@ -51562,7 +51562,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "rättSvar": 4.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "m/s",
@@ -51576,7 +51576,7 @@ window.BANK = [
     "id": "5.312",
     "kap": 5,
     "omr": "rorelsemangd",
-    "t": "<p>En boll på 0,20 kg har rörelsemängdens storlek 3,0 kg·m/s.</p><p>Bestäm farten. Svara i m/s. Svara med ett heltal.</p>",
+    "t": "<p>En boll på 0,20 kg har rörelsemängdens storlek 3,0 kg·m/s.</p><p>Använd v = p/m. Bestäm farten. Svara i m/s. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">p = mv ger</p><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{3{,}0}{0{,}20}=15\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 15 m/s.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -51592,12 +51592,12 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
+    "rättSvar": 15.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "m/s",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Fart från rörelsemängd"
     ]
@@ -52319,8 +52319,8 @@ window.BANK = [
     "niva": "C",
     "typ": "impuls ur kraftdiagram",
     "poang": "(1/2/0)",
-    "t": "<p>Grafen visar den vågräta resulterande kraften på en boll på 0,43 kg under en spark. Bollen startar från vila. Räkna bara på den vågräta rörelsen.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">600</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">800</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (ms)</text><polyline points=\"54,246 234,26 486,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm impulsen under sparken.</li><li>Bestäm bollens slutfart.</li><li>Bestäm medelkraften under kontakttiden och förklara varför den är halva toppkraften trots att toppen inte ligger mitt i tidsintervallet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Impulsen är triangelarean:</p><div class=\"facit-matte\">\\[I=\\frac{0{,}012\\cdot 800}{2}=4{,}8 N s\\]</div></div></div><div class=\"facit-stycke\"><p>Millisekunder omvandlas till sekunder.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Bollen startar från vila.</p><div class=\"facit-matte\">\\[v=\\frac{I}{m}=\\frac{4{,}8}{0{,}43}\\approx 11{,}16\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{4{,}8}{0{,}012}=400\\, \\mathrm{N}\\]</div></div></div><div class=\"facit-stycke\"><p>En triangel med basen Δt och höjden \\(F_{\\mathrm{max}}\\) har arean Δt · \\(F_{\\mathrm{max}}\\)/2 oavsett toppens läge över basen.</p></div><div class=\"facit-stycke\"><p>Medelkraften är arean dividerad med basen.</p></div></div></div></div></div>",
+    "t": "<p>Grafen visar den vågräta sammanlagda kraften på en boll på 0,43 kg under en spark. Bollen startar från vila. Räkna bara på den vågräta rörelsen.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">600</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">800</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (ms)</text><polyline points=\"54,246 234,26 486,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm impulsen under sparken. Svara med tre värdesiffror.</li><li>Bestäm bollens slutfart. Svara med tre värdesiffror.</li><li>Bestäm medelkraften under kontakttiden och förklara varför den är halva toppkraften trots att toppen inte ligger mitt i tidsintervallet.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Impulsen är arean under kraft–tid-grafen. Omvandla först tiden: 12 ms = 0,012 s.</p>\\[I=\\frac{0{,}012\\cdot800}{2}=4{,}80\\,\\mathrm{N\\,s}\\]<p><strong>Svar: 4,80 Ns.</strong></p><p><strong>b)</strong> Bollen startar från vila. Impulsen blir därför bollens rörelsemängd.</p>\\[v=\\frac{I}{m}=\\frac{4{,}80}{0{,}43}\\approx11{,}2\\,\\mathrm{m/s}\\]<p><strong>Svar: 11,2 m/s.</strong></p><p><strong>c)</strong> Medelkraften är impulsen delad med hela kontakttiden.</p>\\[F_\\text{medel}=\\frac{4{,}80}{0{,}012}=400\\,\\mathrm{N}\\]<p><strong>Svar: 400 N.</strong> Triangelns area är bas · höjd / 2 även när toppen ligger vid sidan av mitten. Dividerar vi arean med basen får vi halva höjden, alltså halva toppkraften.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "modellering",
@@ -52346,11 +52346,11 @@ window.BANK = [
     "id": "5.32",
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "E",
+    "niva": "C",
     "typ": "återstuds med tecken",
-    "poang": "(4/0/0)",
+    "poang": "(3/1/0)",
     "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s och återvänder efter en stöt åt vänster med 25 m/s. Kontakttiden är 8,0 ms. Höger är positiv riktning. Frågorna gäller vågräta storheter.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm rörelsemängden före stöten. Svara i kg·m/s. Avrunda vid behov till 2 decimaler.</li><li>Bestäm rörelsemängden efter stöten. Svara i kg·m/s. Avrunda vid behov till 2 decimaler.</li><li>Bestäm impulsen på bollen, med tecken. Svara i Ns. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den resulterande medelkraften under stöten. Svara i N. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{före}}=0{,}15\\cdot 20=+3{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{efter}}=0{,}15\\cdot \\left(-25\\right)=-3{,}75\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -3,75 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=p_{\\mathrm{efter}}-p_{\\mathrm{före}}=0{,}15 \\left(-25-20\\right)=-6{,}75 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: -6,75 Ns.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I = 0,15(−25−20) = −6,75 Ns och</p><div class=\"facit-matte\">\\[\\Delta t=0{,}008\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{-6{,}75}{0{,}008}=-843{,}75\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -843,75 N.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Höger är positiv riktning. Använd rörelsemängd = massa · hastighet.</p>\\[p_\\text{före}=0{,}15\\cdot20=+3{,}00\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: +3,00 kg·m/s.</strong></p><p><strong>b)</strong></p><p>Bollen går åt vänster, så hastigheten är −25 m/s.</p>\\[p_\\text{efter}=0{,}15\\cdot(-25)=-3{,}75\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: −3,75 kg·m/s.</strong></p><p><strong>c)</strong></p><p>Impulsen är rörelsemängden efter stöten minus rörelsemängden före.</p>\\[\\begin{gathered}p_\\text{före}=0{,}15\\cdot20=+3{,}00\\,\\mathrm{kg\\,m/s}\\\\p_\\text{efter}=0{,}15\\cdot(-25)=-3{,}75\\,\\mathrm{kg\\,m/s}\\\\I=-3{,}75-3{,}00=-6{,}75\\,\\mathrm{N\\,s}\\end{gathered}\\]<p><strong>Svar: −6,75 Ns.</strong> Minustecknet betyder att impulsen är riktad åt vänster.</p><p><strong>d)</strong></p><p>Beräkna först ändringen i rörelsemängd. Höger är positiv riktning.</p>\\[\\begin{gathered}p_\\text{före}=0{,}15\\cdot20=+3{,}00\\,\\mathrm{kg\\,m/s}\\\\p_\\text{efter}=0{,}15\\cdot(-25)=-3{,}75\\,\\mathrm{kg\\,m/s}\\\\I=-3{,}75-3{,}00=-6{,}75\\,\\mathrm{N\\,s}\\end{gathered}\\]<p>Kontakttiden 8,0 ms är 0,0080 s. Dela impulsen med tiden.</p>\\[F_\\text{medel}=\\frac{-6{,}75}{0{,}0080}=-843{,}75\\,\\mathrm{N}\\]<p><strong>Svar: −843,75 N.</strong> Kraften är riktad åt vänster.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "procedur"
@@ -52358,16 +52358,16 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__aterstuds_med_tecken",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3,
+      3.0,
       -3.75,
       -6.75,
       -843.75
     ],
     "tolerans": [
-      0,
-      0,
-      0,
-      0
+      0.005,
+      0.005,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilket tecken har hastigheten före stöten?</p>",
@@ -52402,11 +52402,11 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken rörelsemängd har bollen? Svara i kg·m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s. Höger är positiv riktning.</p><p>Vilken rörelsemängd har bollen? Svara i kg·m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{före}}=0{,}15\\cdot 20=+3{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 3 kg·m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höger är positiv riktning. Använd rörelsemängd = massa · hastighet.</p>\\[p_\\text{före}=0{,}15\\cdot20=+3{,}00\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: +3,00 kg·m/s.</strong></p></div>",
         "ledtrad": "<p>Vilket tecken har hastigheten före stöten?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52416,11 +52416,11 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Vilken rörelsemängd har bollen? Ange tecken och svara i kg·m/s. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En boll på 0,15 kg rör sig vågrätt åt vänster med 25 m/s. Höger är positiv riktning.</p><p>Vilken rörelsemängd har bollen? Ange tecken och svara i kg·m/s. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{efter}}=0{,}15\\cdot \\left(-25\\right)=-3{,}75\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -3,75 kg·m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bollen går åt vänster, så hastigheten är −25 m/s.</p>\\[p_\\text{efter}=0{,}15\\cdot(-25)=-3{,}75\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: −3,75 kg·m/s.</strong></p></div>",
         "ledtrad": "<p>Vänster är den negativa riktningen.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52429,12 +52429,12 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm impulsen på bollen, med tecken. Svara i Ns. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s och återvänder efter en stöt åt vänster med 25 m/s. Kontakttiden är 8,0 ms. Höger är positiv riktning. Frågorna gäller vågräta storheter.</p><p>Bestäm impulsen på bollen, med tecken. Svara i Ns. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=p_{\\mathrm{efter}}-p_{\\mathrm{före}}=0{,}15 \\left(-25-20\\right)=-6{,}75 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: -6,75 Ns.</p></div>",
+        "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s och återvänder efter en stöt åt vänster med 25 m/s. Höger är positiv riktning. Frågorna gäller vågräta storheter.</p><p>Bestäm impulsen på bollen, med tecken. Svara i Ns. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Impulsen är rörelsemängden efter stöten minus rörelsemängden före.</p>\\[\\begin{gathered}p_\\text{före}=0{,}15\\cdot20=+3{,}00\\,\\mathrm{kg\\,m/s}\\\\p_\\text{efter}=0{,}15\\cdot(-25)=-3{,}75\\,\\mathrm{kg\\,m/s}\\\\I=-3{,}75-3{,}00=-6{,}75\\,\\mathrm{N\\,s}\\end{gathered}\\]<p><strong>Svar: −6,75 Ns.</strong> Minustecknet betyder att impulsen är riktad åt vänster.</p></div>",
         "ledtrad": "<p>Ta slutvärdet minus startvärdet; behåll båda tecknen.</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -52444,12 +52444,12 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Bestäm den resulterande medelkraften under stöten. Svara i N. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En boll på 0,15 kg rör sig vågrätt åt höger med 20 m/s och återvänder efter en stöt åt vänster med 25 m/s. Kontakttiden är 8,0 ms. Höger är positiv riktning. Frågorna gäller vågräta storheter.</p><p>Bestäm den resulterande medelkraften under stöten. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">I = 0,15(−25−20) = −6,75 Ns och</p><div class=\"facit-matte\">\\[\\Delta t=0{,}008\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{-6{,}75}{0{,}008}=-843{,}75\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -843,75 N.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först ändringen i rörelsemängd. Höger är positiv riktning.</p>\\[\\begin{gathered}p_\\text{före}=0{,}15\\cdot20=+3{,}00\\,\\mathrm{kg\\,m/s}\\\\p_\\text{efter}=0{,}15\\cdot(-25)=-3{,}75\\,\\mathrm{kg\\,m/s}\\\\I=-3{,}75-3{,}00=-6{,}75\\,\\mathrm{N\\,s}\\end{gathered}\\]<p>Kontakttiden 8,0 ms är 0,0080 s. Dela impulsen med tiden.</p>\\[F_\\text{medel}=\\frac{-6{,}75}{0{,}0080}=-843{,}75\\,\\mathrm{N}\\]<p><strong>Svar: −843,75 N.</strong> Kraften är riktad åt vänster.</p></div>",
         "ledtrad": "<p>Vilken tidsenhet behövs i impulssambandet?</p>",
-        "niva": "E",
+        "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "poang": "(1/0/0)",
+        "poang": "(0/1/0)",
         "formaga": [
           "procedur"
         ]
@@ -52465,8 +52465,8 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "typ": "massa från rörelsemängd",
-    "poang": "(2/0/0)",
-    "t": "<p>En boll har farten 14 m/s och rörelsemängdens storlek 4,9 kg·m/s.</p><p>Bestäm bollens massa. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En boll har farten 14 m/s och rörelsemängdens storlek 4,9 kg·m/s.</p><p>Använd m = p/v. Bestäm bollens massa. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{p}{v}=\\frac{4{,}9}{14}=0{,}35\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,35 kg.</p></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
@@ -52474,8 +52474,8 @@ window.BANK = [
     ],
     "familjNyckel": "rorelsemangd__massa_fran_rorelsemangd",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.35,
-    "tolerans": 0,
+    "rättSvar": 0.35000000000000003,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -52509,7 +52509,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
+    "rättSvar": 3.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "kg",
@@ -52526,13 +52526,13 @@ window.BANK = [
     "t": "<p>En vagn har hastigheten −4,0 m/s och rörelsemängden −12 kg·m/s.</p><p>Bestäm massan. Svara i kg. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{p}{v}=\\frac{\\left(-12\\right)}{-4{,}0}=3{,}0\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Massan är positiv; minustecknen beskriver riktningen.</p></div></div><p class=\"facit-svar\">Svar: 3 kg.</p></div>",
     "niva": "E",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familj": "Rörelsemängd p = mv",
     "typ": "massa från rörelsemängd",
     "ledtrad": "<p>Rörelsemängden och hastigheten har samma riktning.</p>",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "familjNyckel": "rorelsemangd__massa_fran_rorelsemangd",
     "formaga": [
       "begrepp",
@@ -52540,12 +52540,12 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
+    "rättSvar": 3.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "kg",
     "svarFormat": "numeriskt",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "familjTidigare": [
       "Massa från rörelsemängd"
     ]
@@ -53019,7 +53019,7 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__rorelsemangdens_riktning",
     "svarstyp": "numeriskt",
     "rättSvar": -6.4,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -53039,8 +53039,8 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En stationär vattenstråle träffar en fast lodrät vägg vågrätt. Flödet är 2,5 kg/s och farten före träffen 12 m/s. Vattnet rinner sedan ned utan vågrät hastighet. Jämför med om hela strålen skulle ledas tillbaka utan förluster. Bortse från övriga vågräta krafter på vattnet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm storleken av den vågräta rörelsemängd som förs fram till väggen på en sekund.</li><li>Bestäm vattnets vågräta kraft på väggen.</li><li>Bestäm kraften om samma vattenflöde i stället leds rakt tillbaka med oförändrad fart. Förklara skillnaden.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På en sekund kommer 2,5 kg vatten med rörelsemängden 2,5 · 12 = 30 kg·m/s mot väggen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vattnets horisontella hastighet ändras från 12 till 0 m/s.</p></div><div class=\"facit-stycke\"><p>Väggen ger vattnet kraften −30 N, så vattnet ger väggen +30 N, i strålens ursprungliga riktning.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Återledning från +12 till −12 m/s ger ändringen 2,5(−12−12) = −60 kg·m/s per sekund.</p></div><div class=\"facit-stycke\"><p>Kraften på väggen blir +60 N.</p></div><div class=\"facit-stycke\"><p>Att vända flödet kräver dubbelt så stor rörelsemängdsändring som att bara stoppa den horisontella rörelsen.</p></div></div></div></div></div>",
+    "t": "<p>En vattenstråle med jämnt flöde träffar en fast skärm vågrätt. Varje sekund träffar 2,5 kg vatten skärmen med 12 m/s. Vattnet rinner sedan ned utan vågrät hastighet. Bortse från övriga vågräta krafter på vattnet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm storleken av den vågräta rörelsemängd som förs fram till skärmen på en sekund.</li><li>Bestäm vattnets vågräta kraft på skärmen.</li><li>Skärmen görs nu böjd så att hela vattenflödet leds rakt tillbaka med oförändrad fart. Bestäm vattnets kraft på skärmen. Förklara skillnaden.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> På en sekund träffar 2,5 kg vatten skärmen. Rörelsemängdens storlek är massa gånger fart.</p>\\[p=2{,}5\\cdot12=30\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: 30 kg·m/s.</strong></p><p><strong>b)</strong> Välj strålens riktning mot skärmen som positiv. Vattnets vågräta hastighet ändras från +12 till 0 m/s.</p>\\[\\begin{gathered}\\Delta p=2{,}5(0-12)=-30\\,\\mathrm{kg\\,m/s}\\\\F_\\text{på vatten}=\\frac{\\Delta p}{\\Delta t}=\\frac{-30}{1}=-30\\,\\mathrm{N}\\end{gathered}\\]<p>Enligt Newtons tredje lag ger vattnet skärmen en lika stor kraft åt motsatt håll.</p><p><strong>Svar: 30 N, i strålens ursprungliga riktning.</strong></p><p><strong>c)</strong> Nu ändras vattnets hastighet från +12 till −12 m/s.</p>\\[\\begin{gathered}\\Delta p=2{,}5(-12-12)=-60\\,\\mathrm{kg\\,m/s}\\\\F_\\text{på vatten}=\\frac{-60}{1}=-60\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: Skärmen påverkas av 60 N i strålens ursprungliga riktning.</strong> Att vända vattnet ger dubbelt så stor ändring i rörelsemängd som att bara stoppa dess vågräta rörelse.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "modellering",
@@ -53052,7 +53052,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Betrakta vattenmängden som träffar väggen under en sekund.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "typ": "kraft från en vattenström",
     "miniräknare": true,
     "geogebra": false,
@@ -53102,7 +53102,7 @@ window.BANK = [
     "typ": "impuls när ett föremål stannar",
     "poang": "(2/0/0)",
     "t": "<p>En boll på 0,45 kg rör sig åt höger med 18 m/s och bromsas till vila. Höger är positiv riktning.</p><p>Bestäm impulsen på bollen under inbromsningen. Svara i Ns. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=m \\left(v_{\\mathrm{efter}}-v_{\\mathrm{före}}\\right)=0{,}45 \\left(0-18\\right)=-8{,}1 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: -8,1 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}I=m(v_\\text{efter}-v_\\text{före})\\\\=0{,}45(0-18)=-8{,}1\\,\\mathrm{N\\,s}\\end{gathered}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -8,1 Ns.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "begrepp",
@@ -53111,7 +53111,7 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__impuls_nar_ett_foremal_stannar",
     "svarstyp": "numeriskt",
     "rättSvar": -8.1,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -53130,7 +53130,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En vagn på 0,50 kg rör sig med +6,0 m/s och bromsas till vila.</p><p>Bestäm impulsen med tecken. Svara i Ns. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=0{,}50 \\left(0-6{,}0\\right)=-3{,}0 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: -3 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=0{,}50 \\left(0-6{,}0\\right)=-3{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -3 Ns.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Impuls och medelkraft",
@@ -53146,7 +53146,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": -3,
+    "rättSvar": -3.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "Ns",
@@ -53290,8 +53290,8 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En cyklist med cykel har massan 80 kg och farten 7,0 m/s. En bil på 1200 kg kör i 25 m/s. En kula på 10 g rör sig med 400 m/s. Studera varje kropps stopp längs dess ursprungliga rörelseriktning.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm rörelsemängdens storlek för varje kropp.</li><li>Vilken kräver störst impulsbelopp för att stoppas? Vilken kräver störst medelkraft om alla stoppas på lika lång tid?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Cyklist med cykel:</p><div class=\"facit-matte\">\\[80\\cdot 7{,}0=560\\, \\mathrm{kg\\,m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Bil:</p><div class=\"facit-matte\">\\[1200\\cdot 25=30\\,000\\, \\mathrm{kg\\,m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kula:</p><div class=\"facit-matte\">\\[0{,}010\\cdot 400=4{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Bilen kräver störst impulsbelopp, 30 000 Ns.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid samma stopptid kräver den också störst medelkraft eftersom</p><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{I}{\\Delta t}\\]</div></div></div><div class=\"facit-stycke\"><p>Utan angiven eller gemensam stopptid räcker rörelsemängden inte för att jämföra krafterna.</p></div></div></div></div></div>",
+    "t": "<p>En cyklist med cykel har massan 80 kg och farten 7,0 m/s. En bil på 1200 kg kör i 25 m/s. En kula på 10 g rör sig med 400 m/s. Studera varje kropps stopp längs dess ursprungliga rörelseriktning.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm rörelsemängdens storlek för varje kropp.</li><li>Vilken kräver störst impuls för att stoppas? Vilken kräver störst medelkraft i storlek om alla stoppas på lika lång tid?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Cyklist med cykel:</p><div class=\"facit-matte\">\\[80\\cdot 7{,}0=560\\, \\mathrm{kg\\,m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Bil:</p><div class=\"facit-matte\">\\[1200\\cdot 25=30\\,000\\, \\mathrm{kg\\,m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kula:</p><div class=\"facit-matte\">\\[0{,}010\\cdot 400=4{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Bilen kräver störst impuls, 30 000 Ns.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid samma stopptid kräver den också störst medelkraft eftersom</p><div class=\"facit-matte\">\\[|F_{\\mathrm{medel}}|=\\frac{|I|}{\\Delta t}\\]</div></div></div><div class=\"facit-stycke\"><p>Utan angiven eller gemensam stopptid räcker rörelsemängden inte för att jämföra krafterna.</p></div></div></div></div></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "begrepp",
@@ -53582,8 +53582,8 @@ window.BANK = [
     "niva": "C",
     "typ": "fart ur kraft–tid-graf",
     "poang": "(0/2/0)",
-    "t": "<p>Diagrammet visar den vågräta resulterande kraften på en vagn på 4,5 kg under 0,20 s. Vagnen är från början i vila. Grafen är triangelformad med toppvärdet 300 N.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,00</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,05</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,10</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,15</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54.00,246.00 270.00,26.00 486.00,246.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/></svg></span><p>Bestäm vagnens slutfart. Svara i m/s. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Impulsen är triangelarean</p><div class=\"facit-matte\">\\[I=\\frac{0{,}20\\cdot 300}{2}=30 N s\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom vagnen startar från vila är</p><div class=\"facit-matte\">\\[v=\\frac{I}{m}=\\frac{30}{4{,}5}\\approx 6{,}6667\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,7 m/s.</p></div>",
+    "t": "<p>Diagrammet visar den vågräta sammanlagda kraften på en vagn på 4,5 kg under 0,20 s. Vagnen är från början i vila. Grafen är triangelformad med toppvärdet 300 N.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,00</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,05</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,10</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,15</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54.00,246.00 270.00,26.00 486.00,246.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/></svg></span><p>Bestäm vagnens slutfart. Svara i m/s. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Impulsen är triangelarean</p><div class=\"facit-matte\">\\[I=\\frac{0{,}20\\cdot 300}{2}=30\\,\\mathrm{N\\,s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom vagnen startar från vila är</p><div class=\"facit-matte\">\\[v=\\frac{I}{m}=\\frac{30}{4{,}5}\\approx 6{,}6667\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6,7 m/s.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "modellering",
@@ -53591,8 +53591,8 @@ window.BANK = [
     ],
     "familjNyckel": "rorelsemangd__fart_ur_krafttid_graf",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.7,
-    "tolerans": 0,
+    "rättSvar": 6.666666666666667,
+    "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Vilken storhet fås ur arean, och hur hänger den ihop med vagnens fart?</p>",
     "traningsniva": 3,
@@ -53653,8 +53653,8 @@ window.BANK = [
     ],
     "familjNyckel": "rorelsemangd__rorelsemangd_efter_en_impuls",
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 0,
+    "rättSvar": 1.0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -56135,7 +56135,7 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En vagn på 12 kg startar från vila. En konstant kraft på +220 N verkar längs spåret i 0,40 s.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm impulsen. Använd I = FΔt. Svara i Ns. Svara med ett heltal.</li><li>Bestäm ändringen i rörelsemängd. Svara i kg·m/s. Svara med ett heltal.</li><li>Bestäm sluthastigheten. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>En vagn på 12 kg startar från vila. En konstant sammanlagd kraft på +220 N verkar längs spåret i 0,40 s.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm impulsen. Använd I = FΔt. Svara i Ns. Svara med ett heltal.</li><li>Bestäm ändringen i rörelsemängd. Svara i kg·m/s. Svara med ett heltal.</li><li>Bestäm sluthastigheten. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För en konstant kraft är impulsen kraft gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=F\\Delta t=220\\cdot0{,}40=+88\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +88 Ns.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen är lika med ändringen i rörelsemängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=I=+88\\,\\mathrm{kg\\,m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +88 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vagnen startar från vila. Hela impulsen blir dess rörelsemängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mv=I\\quad\\Rightarrow\\quad v=\\frac{88}{12}\\approx+7{,}33\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +7,33 m/s.</p></div></div></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
@@ -56144,14 +56144,14 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__impuls_och_sluthastighet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      88,
-      88,
-      7.33
+      88.0,
+      88.0,
+      7.333333333333333
     ],
     "tolerans": [
       0,
       0,
-      0
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Hur länge verkar kraften?</p>",
@@ -56159,7 +56159,7 @@ window.BANK = [
     "typ": "impuls och sluthastighet",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "Ns",
@@ -56182,8 +56182,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm impulsen. Svara i Ns.",
-        "t": "<p>En konstant kraft på +220 N verkar på en vagn i 0,40 s.</p><p>Bestäm impulsen. Svara i Ns.</p>",
+        "fraga": "Bestäm impulsen. Svara i Ns. Svara med ett heltal.",
+        "t": "<p>En konstant sammanlagd kraft på +220 N verkar på en vagn i 0,40 s.</p><p>Använd I = FΔt. Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För en konstant kraft är impulsen kraft gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=F\\Delta t=220\\cdot0{,}40=+88\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +88 Ns.</p></div>",
         "ledtrad": "<p>Hur länge verkar kraften?</p>",
         "niva": "E",
@@ -56196,8 +56196,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket ändras rörelsemängden? Svara i kg·m/s.",
-        "t": "<p>En vagn får impulsen +88 Ns.</p><p>Hur mycket ändras rörelsemängden? Svara i kg·m/s.</p>",
+        "fraga": "Hur mycket ändras rörelsemängden? Svara i kg·m/s. Svara med ett heltal.",
+        "t": "<p>En vagn får impulsen +88 Ns.</p><p>Använd Δp = I. Hur mycket ändras rörelsemängden? Svara i kg·m/s. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen är lika med ändringen i rörelsemängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=I=+88\\,\\mathrm{kg\\,m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +88 kg·m/s.</p></div>",
         "ledtrad": "<p>Vad innebär sambandet I = Δp?</p>",
         "niva": "E",
@@ -56216,7 +56216,7 @@ window.BANK = [
         "ledtrad": "<p>Vilken rörelsemängd har vagnen från början?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -56342,9 +56342,9 @@ window.BANK = [
     "id": "5.285",
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "E",
+    "niva": "C",
     "typ": "medelkraft vid återstuds",
-    "poang": "(2/0/0)",
+    "poang": "(0/1/0)",
     "t": "<p>En boll på 0,22 kg rör sig vågrätt med +12 m/s och får efter en stöt hastigheten −12 m/s. Kontakttiden är 25 ms.</p><p>Bestäm den resulterande vågräta medelkraften med tecken. Svara i N. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta p=0{,}22 \\left(-12-12\\right)=-5{,}28\\, \\mathrm{kg\\,m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Δt = 0,025 s, så</p><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{-5{,}28}{0{,}025}=-211{,}2\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -211,2 N.</p></div>",
     "familj": "Impuls och medelkraft",
@@ -56354,7 +56354,7 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__medelkraft_vid_aterstuds",
     "svarstyp": "numeriskt",
     "rättSvar": -211.2,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -56659,11 +56659,11 @@ window.BANK = [
     "id": "5.287",
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "E",
+    "niva": "C",
     "typ": "kontakttid ur en återstuds",
-    "poang": "(2/0/0)",
+    "poang": "(0/1/0)",
     "t": "<p>En boll på 0,16 kg ändrar sin vågräta hastighet från +16 m/s till −10 m/s under en stöt. Den resulterande vågräta medelkraften är −128 N.</p><p>Bestäm kontakttiden. Svara i ms. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=0{,}16 \\left(-10-16\\right)=-4{,}16 N s\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta t=\\frac{I}{F_{\\mathrm{medel}}}=\\frac{\\left(-4{,}16\\right)}{-128}=0{,}0325 s=32{,}5\\, \\mathrm{ms}\\]</div></div></div><div class=\"facit-stycke\"><p>Tiden är positiv.</p></div></div><p class=\"facit-svar\">Svar: 32,5 ms.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=0{,}16 \\left(-10-16\\right)=-4{,}16\\,\\mathrm{N\\,s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta t=\\frac{I}{F_\\text{medel}}=\\frac{-4{,}16}{-128}\\\\=0{,}0325\\,\\mathrm{s}=32{,}5\\,\\mathrm{ms}\\end{gathered}\\]</div></div></div><div class=\"facit-stycke\"><p>Tiden är positiv.</p></div></div><p class=\"facit-svar\">Svar: 32,5 ms.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "procedur"
@@ -56671,7 +56671,7 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__kontakttid_ur_en_aterstuds",
     "svarstyp": "numeriskt",
     "rättSvar": 32.5,
-    "tolerans": 0,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -60583,7 +60583,7 @@ window.BANK = [
     "niva": "E",
     "typ": "välja massa eller fart",
     "poang": "(2/0/0)",
-    "t": "<p>Rörelsemängdens storlek är 90 kg·m/s för vart och ett av två föremål.</p><ol style=\"display:grid;gap:0.85rem\"><li>Det första föremålets massa är 12 kg. Bestäm dess fart. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Det andra föremålets fart är 3,0 m/s. Bestäm dess massa. Svara i kg. Svara med ett heltal.</li></ol>",
+    "t": "<p>Rörelsemängdens storlek är 90 kg·m/s för vart och ett av två föremål.</p><ol style=\"display:grid;gap:0.85rem\"><li>Det första föremålets massa är 12 kg. Använd v = p/m. Bestäm dess fart. Svara i m/s. Avrunda vid behov till 2 decimaler.</li><li>Det andra föremålets fart är 3,0 m/s. Använd m = p/v. Bestäm dess massa. Svara i kg. Svara med ett heltal.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{90}{12}=7{,}5\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 7,5 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{p}{v}=\\frac{90}{3{,}0}=30\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 30 kg.</p></div></div></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
@@ -60593,15 +60593,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       7.5,
-      30
+      30.0
     ],
     "tolerans": [
-      0,
+      0.005,
       0
     ],
     "självrättning": true,
     "ledtrad": "<p>Lös ut den okända storheten ur p = mv.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -60625,7 +60625,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Vilken fart har föremålet? Svara i m/s. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Ett föremål på 12 kg har rörelsemängdens storlek 90 kg·m/s.</p><p>Vilken fart har föremålet? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
+        "t": "<p>Ett föremål på 12 kg har rörelsemängdens storlek 90 kg·m/s.</p><p>Använd v = p/m. Vilken fart har föremålet? Svara i m/s. Avrunda vid behov till 2 decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{90}{12}=7{,}5\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 7,5 m/s.</p></div>",
         "ledtrad": "<p>Lös ut den okända storheten ur p = mv.</p>",
         "niva": "E",
@@ -60639,7 +60639,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur stor är föremålets massa? Svara i kg. Svara med ett heltal.",
-        "t": "<p>Ett föremål har farten 3,0 m/s och rörelsemängdens storlek 90 kg·m/s.</p><p>Hur stor är föremålets massa? Svara i kg. Svara med ett heltal.</p>",
+        "t": "<p>Ett föremål har farten 3,0 m/s och rörelsemängdens storlek 90 kg·m/s.</p><p>Använd m = p/v. Hur stor är föremålets massa? Svara i kg. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{p}{v}=\\frac{90}{3{,}0}=30\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 30 kg.</p></div>",
         "ledtrad": "<p>Vilken massa ger den angivna rörelsemängden vid farten 3,0 m/s?</p>",
         "niva": "E",
@@ -60663,7 +60663,7 @@ window.BANK = [
     "typ": "impuls vid riktningsbyte",
     "poang": "(2/0/0)",
     "t": "<p>En puck på 0,16 kg ändrar hastighet från +26 m/s till −14 m/s längs en rak linje.</p><p>Bestäm impulsen med tecken. Svara i Ns. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=m \\left(v_{\\mathrm{efter}}-v_{\\mathrm{före}}\\right)=0{,}16 \\left(-14-26\\right)=-6{,}4 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: -6,4 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}I=m(v_\\text{efter}-v_\\text{före})\\\\=0{,}16(-14-26)=-6{,}4\\,\\mathrm{N\\,s}\\end{gathered}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -6,4 Ns.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "begrepp",
@@ -60672,7 +60672,7 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__impuls_vid_riktningsbyte",
     "svarstyp": "numeriskt",
     "rättSvar": -6.4,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -60693,7 +60693,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Beräkna rörelsemängdernas storlek med p = mv.</p><ol style=\"display:grid;gap:0.85rem\"><li>En person på 78 kg springer med 5,5 m/s. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.</li><li>En bil på 1100 kg kör i 80 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Avrunda vid behov till 1 decimal.</li><li>Ett flygplan på 280 ton flyger i 900 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=78\\cdot 5{,}5=429\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 429 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">v = 80/3,6 m/s.</p><div class=\"facit-matte\">\\[p=1100\\cdot \\left(\\frac{80}{3{,}6}\\right)\\approx 24\\,444{,}444\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 24444,4 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">280 ton = 280 000 kg och 900 km/h = 250 m/s.</p><div class=\"facit-matte\">\\[p=280\\,000\\cdot 250=70\\,000\\,000\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 70000000 kg·m/s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=78\\cdot 5{,}5=429\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 429 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">v = 80/3,6 m/s.</p><div class=\"facit-matte\">\\[p=1100\\cdot \\left(\\frac{80}{3{,}6}\\right)\\approx 24\\,444{,}444\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 24444,4 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">280 ton = 280 000 kg och 900 km/h = 250 m/s.</p><div class=\"facit-matte\">\\[\\begin{gathered}p=280\\,000\\cdot250\\\\=70\\,000\\,000\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 70000000 kg·m/s.</p></div></div></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
       "procedur"
@@ -60701,13 +60701,13 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__rorelsemangd_med_enhetsbyte",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      429,
-      24444.4,
-      70000000
+      429.0,
+      24444.444444444445,
+      70000000.0
     ],
     "tolerans": [
       0,
-      0,
+      0.05,
       0
     ],
     "självrättning": true,
@@ -60740,7 +60740,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En person på 78 kg springer med 5,5 m/s. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.",
-        "t": "<p>Beräkna rörelsemängdernas storlek med p = mv.</p><p>En person på 78 kg springer med 5,5 m/s. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.</p>",
+        "t": "<p>Beräkna rörelsemängdens storlek med p = mv.</p><p>En person på 78 kg springer med 5,5 m/s. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=78\\cdot 5{,}5=429\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 429 kg·m/s.</p></div>",
         "ledtrad": "<p>Använd massan och farten för samma person.</p>",
         "niva": "E",
@@ -60754,7 +60754,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En bil på 1100 kg kör i 80 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Avrunda vid behov till 1 decimal.",
-        "t": "<p>Beräkna rörelsemängdernas storlek med p = mv.</p><p>En bil på 1100 kg kör i 80 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Avrunda vid behov till 1 decimal.</p>",
+        "t": "<p>Beräkna rörelsemängdens storlek med p = mv.</p><p>En bil på 1100 kg kör i 80 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Avrunda vid behov till 1 decimal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">v = 80/3,6 m/s.</p><div class=\"facit-matte\">\\[p=1100\\cdot \\left(\\frac{80}{3{,}6}\\right)\\approx 24\\,444{,}444\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 24444,4 kg·m/s.</p></div>",
         "ledtrad": "<p>Omvandla farten till m/s utan att avrunda mellanledet.</p>",
         "niva": "E",
@@ -60768,8 +60768,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Ett flygplan på 280 ton flyger i 900 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.",
-        "t": "<p>Beräkna rörelsemängdernas storlek med p = mv.</p><p>Ett flygplan på 280 ton flyger i 900 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">280 ton = 280 000 kg och 900 km/h = 250 m/s.</p><div class=\"facit-matte\">\\[p=280\\,000\\cdot 250=70\\,000\\,000\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 70000000 kg·m/s.</p></div>",
+        "t": "<p>Beräkna rörelsemängdens storlek med p = mv.</p><p>Ett flygplan på 280 ton flyger i 900 km/h. Bestäm rörelsemängden. Svara i kg·m/s. Svara med ett heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">280 ton = 280 000 kg och 900 km/h = 250 m/s.</p><div class=\"facit-matte\">\\[\\begin{gathered}p=280\\,000\\cdot250\\\\=70\\,000\\,000\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 70000000 kg·m/s.</p></div>",
         "ledtrad": "<p>Både massan och farten behöver passande enheter.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -60804,8 +60804,8 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 1.8,
-    "tolerans": 0,
+    "rättSvar": 1.7999999999999998,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "kg·m/s",
     "svarFormat": "numeriskt",
@@ -60834,7 +60834,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 10000,
+    "rättSvar": 10000.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "kg·m/s",
@@ -61031,7 +61031,7 @@ window.BANK = [
     "niva": "E",
     "typ": "impuls och hastighetsändring",
     "poang": "(3/0/0)",
-    "t": "<p>Den sammanlagda kraften längs ett rakt spår är +80 N under 0,25 s. Kroppen har massan 4,0 kg.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm impulsen. Svara i Ns. Svara med ett heltal.</li><li>Bestäm ändringen i rörelsemängd. Svara i kg·m/s. Svara med ett heltal.</li><li>Bestäm hastighetsändringen Δv med tecken. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>Den konstanta sammanlagda kraften längs ett rakt spår är +80 N under 0,25 s. Kroppen har massan 4,0 kg.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm impulsen. Svara i Ns. Svara med ett heltal.</li><li>Bestäm ändringen i rörelsemängd. Svara i kg·m/s. Svara med ett heltal.</li><li>Bestäm hastighetsändringen Δv med tecken. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För en konstant kraft är impulsen kraft gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=F\\Delta t=80\\cdot0{,}25=+20\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +20 Ns.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen är lika med ändringen i rörelsemängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=I=+20\\,\\mathrm{kg\\,m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +20 kg·m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen ändrar hastigheten. Dela därför impulsen med massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta v=\\frac{I}{m}=\\frac{20}{4{,}0}=+5{,}0\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hastigheten ökar med 5,0 m/s.</p></div></div></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
@@ -61040,18 +61040,18 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__impuls_och_hastighetsandring",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      20,
-      20,
-      5
+      20.0,
+      20.0,
+      5.0
     ],
     "tolerans": [
       0,
       0,
-      0
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken tid verkar kraften under?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 1,
@@ -61077,8 +61077,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm impulsen. Svara i Ns.",
-        "t": "<p>En konstant kraft på +80 N verkar på en kropp i 0,25 s.</p><p>Bestäm impulsen. Svara i Ns.</p>",
+        "fraga": "Bestäm impulsen. Svara i Ns. Svara med ett heltal.",
+        "t": "<p>En konstant sammanlagd kraft på +80 N verkar på en kropp i 0,25 s.</p><p>Använd I = FΔt. Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För en konstant kraft är impulsen kraft gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=F\\Delta t=80\\cdot0{,}25=+20\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +20 Ns.</p></div>",
         "ledtrad": "<p>Vilken tid verkar kraften under?</p>",
         "niva": "E",
@@ -61091,8 +61091,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket ändras rörelsemängden? Svara i kg·m/s.",
-        "t": "<p>En kropp får impulsen +20 Ns.</p><p>Hur mycket ändras rörelsemängden? Svara i kg·m/s.</p>",
+        "fraga": "Hur mycket ändras rörelsemängden? Svara i kg·m/s. Svara med ett heltal.",
+        "t": "<p>En kropp får impulsen +20 Ns.</p><p>Använd Δp = I. Hur mycket ändras rörelsemängden? Svara i kg·m/s. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen är lika med ändringen i rörelsemängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=I=+20\\,\\mathrm{kg\\,m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +20 kg·m/s.</p></div>",
         "ledtrad": "<p>Impuls och ändring i rörelsemängd beskriver samma överföring.</p>",
         "niva": "E",
@@ -61106,7 +61106,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm hastighetsändringen med tecken. Svara i m/s.",
-        "t": "<p>En kropp på 4,0 kg får impulsen +20 Ns.</p><p>Bestäm hastighetsändringen med tecken. Svara i m/s.</p>",
+        "t": "<p>En kropp på 4,0 kg får impulsen +20 Ns.</p><p>Använd Δv = I/m. Bestäm hastighetsändringen med tecken. Svara i m/s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen ändrar hastigheten. Dela därför impulsen med massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta v=\\frac{I}{m}=\\frac{20}{4{,}0}=+5{,}0\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hastigheten ökar med 5,0 m/s.</p></div>",
         "ledtrad": "<p>Vilken skillnad finns mellan hastighetsändring och sluthastighet?</p>",
         "niva": "E",
@@ -61128,7 +61128,7 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En boll på 0,60 kg startar från vila. Under 0,040 s är den genomsnittliga vågräta kraften på bollen +250 N.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den vågräta impulsen. Svara i Ns. Svara med ett heltal.</li><li>Bestäm den vågräta sluthastigheten. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "t": "<p>En boll på 0,60 kg startar från vila. Under 0,040 s är den genomsnittliga sammanlagda vågräta kraften på bollen +250 N.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den vågräta impulsen. Svara i Ns. Svara med ett heltal.</li><li>Bestäm den vågräta sluthastigheten. Svara i m/s. Avrunda vid behov till 2 decimaler.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelkraft gånger kontakttid ger impulsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=F_\\text{medel}\\Delta t=250\\cdot0{,}040=+10\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +10 Ns.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Bollen startar från vila, så mv = I.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{I}{m}=\\frac{10}{0{,}60}\\approx+16{,}67\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +16,67 m/s.</p></div></div></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
@@ -61137,12 +61137,12 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__impuls_fran_en_medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10,
-      16.67
+      10.0,
+      16.666666666666668
     ],
     "tolerans": [
       0,
-      0
+      0.005
     ],
     "självrättning": true,
     "ledtrad": "<p>Även medelkraft kan användas tillsammans med hela kontakttiden.</p>",
@@ -61150,7 +61150,7 @@ window.BANK = [
     "typ": "impuls från en medelkraft",
     "miniräknare": true,
     "geogebra": false,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
       "Ns",
@@ -61170,8 +61170,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm impulsen. Svara i Ns.",
-        "t": "<p>Under 0,040 s är den genomsnittliga vågräta kraften på en boll +250 N.</p><p>Bestäm impulsen. Svara i Ns.</p>",
+        "fraga": "Bestäm impulsen. Svara i Ns. Svara med ett heltal.",
+        "t": "<p>Under 0,040 s är den genomsnittliga sammanlagda vågräta kraften på en boll +250 N.</p><p>Använd \\(I=F_\\text{medel}\\Delta t\\). Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelkraft gånger kontakttid ger impulsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=F_\\text{medel}\\Delta t=250\\cdot0{,}040=+10\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +10 Ns.</p></div>",
         "ledtrad": "<p>Även medelkraft kan användas tillsammans med hela kontakttiden.</p>",
         "niva": "E",
@@ -61190,7 +61190,7 @@ window.BANK = [
         "ledtrad": "<p>Vilken rörelsemängd har bollen från början?</p>",
         "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1,
+        "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
@@ -61287,8 +61287,8 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>En personbil på 1400 kg och en lastbil på 16 000 kg möts frontalt, båda med farten 50 km/h. De fastnar i varandra. Välj lastbilens ursprungliga riktning som positiv.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm fordonens gemensamma hastighet.</li><li>Bestäm hastighetsändringen för vart och ett med tecken.</li><li>Vilket fordon påverkas av störst kontaktkraft från det andra? Förklara samtidigt varför hastighetsändringarna blir olika.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lastbilens riktning är positiv. u = 50/3,6 m/s. (16 000−1400)u = 17 400v ger</p><div class=\"facit-matte\">\\[v\\approx +11{,}65390\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Personbil:</p><div class=\"facit-matte\">\\[\\Delta v=v-\\left(\\frac{-50}{3{,}6}\\right)\\approx +25{,}54278\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lastbil:</p><div class=\"facit-matte\">\\[\\Delta v=v-\\frac{50}{3{,}6}\\approx -2{,}23499\\, \\mathrm{m/s}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kontaktkrafterna är lika stora och motriktade i varje ögonblick enligt Newtons tredje lag.</p></div><div class=\"facit-stycke\"><p>Impulserna är därför lika stora och motriktade.</p></div><div class=\"facit-stycke\"><p>Eftersom Δv = I/m får personbilen mycket större hastighetsändring på grund av sin mindre massa.</p></div></div></div></div></div>",
+    "t": "<p>En personbil på 1400 kg och en lastbil på 16 000 kg möts frontalt, båda med farten 50 km/h. De fastnar i varandra. Bortse från andra krafters impuls under kollisionen. Välj lastbilens ursprungliga riktning som positiv.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm fordonens gemensamma hastighet. Svara med tre värdesiffror.</li><li>Bestäm hastighetsändringen för vart och ett med tecken. Svara med tre värdesiffror.</li><li>Vilket fordon påverkas av störst kontaktkraft från det andra? Förklara samtidigt varför hastighetsändringarna blir olika.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Omvandla farten: 50 km/h = 50/3,6 m/s. Lastbilens hastighet är positiv och personbilens negativ. Den sammanlagda rörelsemängden bevaras.</p>\\[\\begin{gathered}16\\,000\\cdot\\frac{50}{3{,}6}-1400\\cdot\\frac{50}{3{,}6}\\\\=(16\\,000+1400)v\\\\v\\approx+11{,}6539\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: +11,7 m/s, i lastbilens ursprungliga riktning.</strong></p><p><strong>b)</strong> Hastighetsändring är sluthastighet minus starthastighet. Använd det oavrundade värdet på v.</p>\\[\\begin{gathered}\\Delta v_\\text{personbil}=v-(-50/3{,}6)\\\\\\approx+25{,}5\\,\\mathrm{m/s}\\\\\\Delta v_\\text{lastbil}=v-50/3{,}6\\\\\\approx-2{,}23\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: Personbilen +25,5 m/s och lastbilen −2,23 m/s.</strong></p><p><strong>c)</strong> Kontaktkrafterna är lika stora och motriktade i varje ögonblick enligt Newtons tredje lag. De verkar lika länge, så impulserna är också lika stora och motriktade. Eftersom Δv = I/m får den lättare personbilen större hastighetsändring.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "modellering",
@@ -61350,7 +61350,7 @@ window.BANK = [
     "typ": "impuls utan riktningsbyte",
     "poang": "(2/0/0)",
     "t": "<p>En puck på 0,19 kg bromsas längs en rak linje från +24 m/s till +14 m/s utan att byta riktning.</p><p>Bestäm impulsen med tecken. Svara i Ns. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=0{,}19 \\left(14-24\\right)=-1{,}9 N s\\]</div></div></div><div class=\"facit-stycke\"><p>Negativ impuls behöver inte betyda att pucken vänder; den går fortfarande i positiv riktning.</p></div></div><p class=\"facit-svar\">Svar: -1,9 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=0{,}19 \\left(14-24\\right)=-1{,}9\\,\\mathrm{N\\,s}\\]</div></div></div><div class=\"facit-stycke\"><p>Negativ impuls behöver inte betyda att pucken vänder; den går fortfarande i positiv riktning.</p></div></div><p class=\"facit-svar\">Svar: -1,9 Ns.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "begrepp",
@@ -61359,7 +61359,7 @@ window.BANK = [
     "familjNyckel": "rorelsemangd__impuls_utan_riktningsbyte",
     "svarstyp": "numeriskt",
     "rättSvar": -1.9,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -108003,8 +108003,8 @@ window.BANK = [
     "id": "5.303",
     "kap": 5,
     "omr": "rorelsemangd",
-    "t": "<p>En konstant resulterande kraft på +12 N verkar på en vagn under 0,50 s. Använd I = FΔt.</p><p>Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=12\\cdot 0{,}50=+6{,}0 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
+    "t": "<p>En konstant sammanlagda kraft på +12 N verkar på en vagn under 0,50 s. Använd I = FΔt.</p><p>Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=12\\cdot 0{,}50=+6{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -108019,7 +108019,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "rättSvar": 6.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "Ns",
@@ -108034,7 +108034,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En boll påverkas vågrätt av medelkraften +100 N under 0,020 s. Använd \\(I=F_\\text{medel}\\Delta t\\).</p><p>Bestäm den vågräta impulsen. Svara i Ns. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=100\\cdot 0{,}020=+2{,}0 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=100\\cdot 0{,}020=+2{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2 Ns.</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -108049,7 +108049,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "rättSvar": 2.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "Ns",
@@ -108063,7 +108063,7 @@ window.BANK = [
     "id": "5.305",
     "kap": 5,
     "omr": "rorelsemangd",
-    "t": "<p>En vagn får impulsen +15 Ns under 0,30 s. Använd \\(F_\\text{medel}=\\dfrac{I}{\\Delta t}\\).</p><p>Bestäm den resulterande medelkraften. Svara i N. Svara med ett heltal.</p>",
+    "t": "<p>En vagn får impulsen +15 Ns under 0,30 s. Använd \\(F_\\text{medel}=\\dfrac{I}{\\Delta t}\\).</p><p>Bestäm den sammanlagda medelkraften. Svara i N. Svara med ett heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{15}{0{,}30}=+50\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 50 N.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -108079,7 +108079,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 50,
+    "rättSvar": 50.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "N",
@@ -108093,7 +108093,7 @@ window.BANK = [
     "id": "5.306",
     "kap": 5,
     "omr": "rorelsemangd",
-    "t": "<p>En konstant resulterande kraft på +20 N ska ge impulsen +8,0 Ns. Använd Δt = I/F.</p><p>Hur länge ska kraften verka? Svara i s. Avrunda vid behov till 2 decimaler.</p>",
+    "t": "<p>En konstant sammanlagda kraft på +20 N ska ge impulsen +8,0 Ns. Använd Δt = I/F.</p><p>Hur länge ska kraften verka? Svara i s. Avrunda vid behov till 2 decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta t=\\frac{8{,}0}{20}=0{,}40\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 0,4 s.</p></div>",
     "niva": "E",
     "traningsniva": 1,
@@ -108110,7 +108110,7 @@ window.BANK = [
     "spel": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarEnhet": "s",
     "svarFormat": "numeriskt",
@@ -108124,7 +108124,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En kropp på 2,0 kg får hastighetsändringen +3,0 m/s. Använd I = mΔv.</p><p>Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=2{,}0\\cdot 3{,}0=+6{,}0 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=2{,}0\\cdot 3{,}0=+6{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -108170,7 +108170,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": -2,
+    "rättSvar": -2.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "m/s",
@@ -108184,8 +108184,8 @@ window.BANK = [
     "id": "5.314",
     "kap": 5,
     "omr": "rorelsemangd",
-    "t": "<p>En konstant resulterande kraft på +40 N verkar under 150 ms.</p><p>Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[150 m s=0{,}150\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=40\\cdot 0{,}150=+6{,}0 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
+    "t": "<p>En konstant sammanlagda kraft på +40 N verkar under 150 ms.</p><p>Bestäm impulsen. Svara i Ns. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[150\\,\\mathrm{ms}=0{,}150\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=40\\cdot 0{,}150=+6{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Impuls och medelkraft",
@@ -108200,7 +108200,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "rättSvar": 6.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "Ns",
@@ -108214,8 +108214,8 @@ window.BANK = [
     "id": "5.315",
     "kap": 5,
     "omr": "rorelsemangd",
-    "t": "<p>Under 80 ms får en vagn impulsen −4,0 Ns.</p><p>Bestäm den resulterande medelkraften. Svara i N. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[80 m s=0{,}080\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{-4{,}0}{0{,}080}=-50\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -50 N.</p></div>",
+    "t": "<p>Under 80 ms får en vagn impulsen −4,0 Ns.</p><p>Bestäm den sammanlagda medelkraften med tecken. Svara i N. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[80\\,\\mathrm{ms}=0{,}080\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{-4{,}0}{0{,}080}=-50\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\">Svar: -50 N.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Impuls och medelkraft",
@@ -108230,7 +108230,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": -50,
+    "rättSvar": -50.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "N",
@@ -108244,8 +108244,8 @@ window.BANK = [
     "id": "5.316",
     "kap": 5,
     "omr": "rorelsemangd",
-    "t": "<p>En konstant resulterande kraft på −30 N verkar tills rörelsemängden ändrats med −1,5 kg·m/s.</p><p>Bestäm kraftens verkningstid. Svara i ms. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=\\Delta p=-1{,}5 N s\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta t=\\frac{\\left(-1{,}5\\right)}{-30}=0{,}050 s=50\\, \\mathrm{ms}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 50 ms.</p></div>",
+    "t": "<p>En konstant sammanlagda kraft på −30 N verkar tills rörelsemängden ändrats med −1,5 kg·m/s.</p><p>Hur länge verkar kraften? Svara i ms. Svara med ett heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=\\Delta p=-1{,}5\\,\\mathrm{N\\,s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta t=\\frac{\\left(-1{,}5\\right)}{-30}=0{,}050 s=50\\, \\mathrm{ms}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 50 ms.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Impuls och medelkraft",
@@ -108260,7 +108260,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 50,
+    "rättSvar": 50.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "ms",
@@ -108275,7 +108275,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En vagn på 2,0 kg ökar hastigheten från +1,0 m/s till +4,0 m/s.</p><p>Bestäm impulsen på vagnen. Svara i Ns. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=m \\left(v_{\\mathrm{efter}}-v_{\\mathrm{före}}\\right)=2{,}0 \\left(4{,}0-1{,}0\\right)=+6{,}0 N s\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}I=m(v_\\text{efter}-v_\\text{före})\\\\=2{,}0(4{,}0-1{,}0)=+6{,}0\\,\\mathrm{N\\,s}\\end{gathered}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 6 Ns.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Impuls och medelkraft",
@@ -108320,7 +108320,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
+    "rättSvar": 5.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "m/s",
@@ -108351,7 +108351,7 @@ window.BANK = [
     ],
     "spel": true,
     "svarstyp": "numeriskt",
-    "rättSvar": -1,
+    "rättSvar": -1.0,
     "tolerans": 0,
     "självrättning": true,
     "svarEnhet": "m/s",
@@ -108366,7 +108366,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>Två vagnar rör sig på ett rakt spår. Den ena har massan 2,0 kg och hastigheten +3,0 m/s. Den andra har massan 1,0 kg och hastigheten −4,0 m/s.</p><p>Bestäm deras totala rörelsemängd. Svara i kg·m/s. Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{total}}=2{,}0\\cdot 3{,}0+1{,}0\\cdot \\left(-4{,}0\\right)=+2{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}p_\\text{total}=2{,}0\\cdot3{,}0+1{,}0\\cdot(-4{,}0)\\\\=+2{,}0\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]</div></div></div></div><p class=\"facit-svar\">Svar: 2 kg·m/s.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Rörelsemängd p = mv",
@@ -108396,10 +108396,10 @@ window.BANK = [
     "id": "5.365",
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En fotboll med massan 0,45 kg kommer mot en spelare med farten 8,0 m/s. Spelaren sparkar tillbaka den i motsatt riktning med farten 20 m/s. Kontakttiden är 12 ms.</p><p><strong>a)</strong> Hur stor är medelkraften på bollen?</p><p><strong>b)</strong> Hur många gånger större är kraften än om bollen bara hade stoppats på samma tid?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Välj positiv riktning bort från spelaren.</p></div><div class=\"facit-stycke\"><p>Före: \\(v_1=-8{,}0\\) m/s.</p></div><div class=\"facit-stycke\"><p>Efter: \\(v_2=+20\\) m/s.</p></div><div class=\"facit-stycke\"><p><strong>a)</strong> \\(\\Delta p=0{,}45\\cdot(20-(-8{,}0))=12{,}6\\) Ns.</p></div><div class=\"facit-stycke\"><p>\\(F=\\frac{\\Delta p}{\\Delta t}=\\frac{12{,}6}{0{,}012}=1\\,050\\) N.</p></div><div class=\"facit-stycke\"><p><strong>b)</strong> Att bara stoppa bollen kräver \\(\\Delta p=0{,}45\\cdot8{,}0=3{,}6\\) Ns, alltså \\(F=300\\) N.</p></div><div class=\"facit-stycke\"><p>Kvoten är \\(\\frac{1\\,050}{300}=3{,}5\\).</p></div><div class=\"facit-stycke\"><p>Riktningsbytet gör att hastighetsändringen blir \\(8+20=28\\) m/s, inte \\(20-8=12\\) m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) cirka 1 050 N &nbsp; b) 3,5 gånger</p></div>",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>En fotboll på 0,45 kg kommer mot en spelare med 8,0 m/s och sparkas rakt tillbaka med 20 m/s. Kontakttiden är 12 ms. Bortse från andra krafters impuls under sparken.</p><ol type=\"a\"><li>Hur stor är medelkraften från foten på bollen, i N? Svara med tre värdesiffror.</li><li>Jämför sparken med att bara stoppa samma boll på 12 ms. Hur många gånger så stor är medelkraften när bollen sparkas tillbaka? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Välj positiv riktning bort från spelaren. Hastigheten ändras från −8,0 till +20 m/s. Omvandla kontakttiden: 12 ms = 0,012 s.</p>\\[\\begin{gathered}I=0{,}45\\bigl(20-(-8{,}0)\\bigr)=12{,}6\\,\\mathrm{N\\,s}\\\\F_\\text{medel}=\\frac{12{,}6}{0{,}012}=1050\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 1,05 · 10³ N.</strong> När bollen vänder ska hastigheternas storlekar adderas.</p><p><strong>b)</strong></p><p>Välj positiv riktning bort från spelaren. Att sparka tillbaka bollen ger större hastighetsändring än att bara stoppa den.</p>\\[\\begin{gathered}\\Delta v_\\text{spark}=20-(-8{,}0)=28\\,\\mathrm{m/s}\\\\\\Delta v_\\text{stopp}=0-(-8{,}0)=8{,}0\\,\\mathrm{m/s}\\end{gathered}\\]<p>Medelkraften är mΔv/Δt. Massa och kontakttid är samma, så de tar ut varandra i kvoten.</p>\\[\\frac{F_\\text{spark}}{F_\\text{stopp}}=\\frac{28}{8{,}0}=3{,}50\\]<p><strong>Svar: 3,50 gånger så stor.</strong></p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "problemlösning",
@@ -108410,36 +108410,72 @@ window.BANK = [
     "självrättning": true,
     "ledtrad": "<p>Hastighet har riktning. Vad blir hastighetsändringen när bollen byter riktning?</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1050,
+      1050.0,
       3.5
     ],
     "tolerans": [
-      10,
-      0.05
+      5.0,
+      0.005
     ],
     "svarEtiketter": [
-      "a) Medelkraft",
-      "b) Kvot"
+      "a",
+      "b"
     ],
     "svarsstruktur": "ordnad",
     "typ": "medelkraft vid riktningsbyte",
     "svarEnhet": [
       "N",
       null
-    ]
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är medelkraften från foten på bollen, i N? Svara med tre värdesiffror.",
+        "t": "<p>En fotboll på 0,45 kg kommer mot en spelare med 8,0 m/s och sparkas rakt tillbaka med 20 m/s. Kontakttiden är 12 ms. Bortse från andra krafters impuls under sparken.</p><p>Hur stor är medelkraften från foten på bollen, i N? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj positiv riktning bort från spelaren. Hastigheten ändras från −8,0 till +20 m/s. Omvandla kontakttiden: 12 ms = 0,012 s.</p>\\[\\begin{gathered}I=0{,}45\\bigl(20-(-8{,}0)\\bigr)=12{,}6\\,\\mathrm{N\\,s}\\\\F_\\text{medel}=\\frac{12{,}6}{0{,}012}=1050\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 1,05 · 10³ N.</strong> När bollen vänder ska hastigheternas storlekar adderas.</p></div>",
+        "ledtrad": "<p>Välj en positiv riktning. Bollen byter riktning, så hastigheten byter tecken. Omvandla även ms till s.</p>",
+        "niva": "C",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "procedur"
+        ]
+      },
+      {
+        "etikett": "b",
+        "fraga": "Jämför sparken med att bara stoppa samma boll på 12 ms. Hur många gånger så stor är medelkraften när bollen sparkas tillbaka? Svara med tre värdesiffror.",
+        "t": "<p>En fotboll på 0,45 kg kommer mot en spelare med 8,0 m/s och sparkas rakt tillbaka med 20 m/s. Kontakttiden är 12 ms. Bortse från andra krafters impuls under sparken.</p><p>Jämför sparken med att bara stoppa samma boll på 12 ms. Hur många gånger så stor är medelkraften när bollen sparkas tillbaka? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj positiv riktning bort från spelaren. Att sparka tillbaka bollen ger större hastighetsändring än att bara stoppa den.</p>\\[\\begin{gathered}\\Delta v_\\text{spark}=20-(-8{,}0)=28\\,\\mathrm{m/s}\\\\\\Delta v_\\text{stopp}=0-(-8{,}0)=8{,}0\\,\\mathrm{m/s}\\end{gathered}\\]<p>Medelkraften är mΔv/Δt. Massa och kontakttid är samma, så de tar ut varandra i kvoten.</p>\\[\\frac{F_\\text{spark}}{F_\\text{stopp}}=\\frac{28}{8{,}0}=3{,}50\\]<p><strong>Svar: 3,50 gånger så stor.</strong></p></div>",
+        "ledtrad": "<p>Jämför hastighetsändringarna. Massa och kontakttid är samma i båda fallen.</p>",
+        "niva": "C",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "procedur"
+        ]
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelIntro": "<p>En fotboll på 0,45 kg kommer mot en spelare med 8,0 m/s och sparkas rakt tillbaka med 20 m/s. Kontakttiden är 12 ms. Bortse från andra krafters impuls under sparken.</p>"
   },
   {
     "id": "5.366",
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "A",
-    "poang": "(0/1/3)",
-    "t": "<p>En tennisboll med massan 60 g ligger still och träffas av ett racket. Kraften på bollen ökar jämnt från 0 till 600 N under 2,0 ms och minskar sedan jämnt till 0 under ytterligare 3,0 ms.</p><p>Vilken fart får bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen är arean under kraft–tid-grafen.</p></div><div class=\"facit-stycke\"><p>Grafen är en triangel med basen 5,0 ms och höjden 600 N:</p></div><div class=\"facit-stycke\"><p>\\[I=\\frac{0{,}0050\\cdot600}{2}=1{,}5\\text{ Ns}.\\]</p></div><div class=\"facit-stycke\"><p>Impulsen är lika med ändringen i rörelsemängd: \\(1{,}5=0{,}060\\cdot v\\), alltså \\(v=25\\) m/s.</p></div><div class=\"facit-stycke\"><p>Det spelar ingen roll hur triangeln är fördelad i tid.</p></div><div class=\"facit-stycke\"><p>Bara arean räknas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 25 m/s</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En tennisboll på 60 g ligger stilla. Den sammanlagda vågräta kraften ökar jämnt från 0 till 600 N under 2,0 ms och minskar sedan jämnt till 0 under 3,0 ms. Vilken vågrät fart får bollen? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 60 g = 0,060 kg. Kraft–tid-grafen är en triangel. Hela kontakttiden är 2,0 + 3,0 = 5,0 ms = 0,0050 s.</p>\\[I=\\frac{0{,}0050\\cdot600}{2}=1{,}50\\,\\mathrm{N\\,s}\\]<p>Bollen startar från vila, så impulsen blir dess rörelsemängd.</p>\\[v=\\frac{I}{m}=\\frac{1{,}50}{0{,}060}=25{,}0\\,\\mathrm{m/s}\\]<p><strong>Svar: 25,0 m/s.</strong> Toppen behöver inte ligga mitt i tidsintervallet; det är triangelns area som bestämmer impulsen.</p></div>",
     "familj": "Impuls och medelkraft",
     "formaga": [
       "problemlösning",
@@ -108450,11 +108486,11 @@ window.BANK = [
     "självrättning": true,
     "ledtrad": "<p>Rita kraften som funktion av tiden. Vad betyder arean under grafen?</p>",
     "spel": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "svarstyp": "numeriskt",
-    "rättSvar": 25,
-    "tolerans": 0.1,
+    "rättSvar": 25.0,
+    "tolerans": 0.05,
     "svarEnhet": "m/s",
     "typ": "impuls ur triangelformad kraftpuls"
   },
@@ -108464,8 +108500,8 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En boll med massan 0,50 kg rör sig med farten 12 m/s. Hur stor rörelsemängd har den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(p=mv=0{,}50\\cdot12=6{,}0\\) kg·m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 kg·m/s</p></div>",
+    "t": "<p>En boll på 0,50 kg har farten 12 m/s. Använd p = mv. Hur stor är rörelsemängden? Svara i kg·m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera massan med farten.</p>\\[p=mv=0{,}50\\cdot12=6{,}00\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: 6,00 kg·m/s.</strong></p></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
       "procedur"
@@ -108479,7 +108515,7 @@ window.BANK = [
     "arbetsinsats": 1,
     "svarstyp": "numeriskt",
     "rättSvar": 6.0,
-    "tolerans": 0.01,
+    "tolerans": 0.005,
     "svarEnhet": "kg·m/s",
     "typ": "rörelsemängd ur massa och fart"
   },
@@ -108489,8 +108525,8 @@ window.BANK = [
     "niva": "E",
     "typ": "impuls ur kraft och tid",
     "poang": "(3/0/0)",
-    "t": "<ol type=\"a\"><li>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</li><li>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</li><li>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=4{,}0\\cdot0{,}75\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) Ns</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{20}{3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=mg\\Delta t=3{,}0\\cdot9{,}82\\cdot8{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(236\\) Ns</p></li></ol></div>",
+    "t": "<p>Räkna på tre olika krafter.</p><ol type=\"a\"><li>En konstant kraft på 4,0 N verkar på en boll i 0,75 s. Använd I = FΔt. Hur stor impuls ger kraften? Svara i Ns. Svara med tre värdesiffror.</li><li>En raketmotor ger impulsen 20 Ns under 3,0 s. Använd \\(F_\\text{medel}=I/\\Delta t\\). Hur stor är motorns medelkraft? Svara i N. Svara med tre värdesiffror.</li><li>Tyngdkraften verkar på en sten på 3,0 kg i 8,0 s. Använd g = 9,82 m/s². Hur stor impuls ger tyngdkraften? Svara i Ns. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>För en konstant kraft är impulsen kraft gånger tid.</p>\\[I=4{,}0\\cdot0{,}75=3{,}00\\,\\mathrm{N\\,s}\\]<p><strong>Svar: 3,00 Ns.</strong></p><p><strong>b)</strong></p><p>Medelkraften är impulsen delad med tiden.</p>\\[F_\\text{medel}=\\frac{20}{3{,}0}\\approx6{,}67\\,\\mathrm{N}\\]<p><strong>Svar: 6,67 N.</strong></p><p><strong>c)</strong></p><p>Beräkna först tyngdkraften. Den är konstant under tiden.</p>\\[\\begin{gathered}F_g=mg=3{,}0\\cdot9{,}82=29{,}46\\,\\mathrm{N}\\\\I=F_g\\Delta t=29{,}46\\cdot8{,}0\\\\=235{,}68\\,\\mathrm{N\\,s}\\end{gathered}\\]<p><strong>Svar: 236 Ns, nedåt.</strong></p></div>",
     "id": "5.368",
     "miniräknare": true,
     "geogebra": false,
@@ -108502,9 +108538,9 @@ window.BANK = [
       235.68
     ],
     "tolerans": [
-      0.051,
-      0.1,
-      5.1
+      0.005,
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -108527,13 +108563,13 @@ window.BANK = [
       "Ns"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "",
+    "spelIntro": "<p>Räkna på tre olika krafter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?",
-        "t": "<p>En boll påverkas av kraften 4,0 N under 0,75 s. Hur stor impuls får den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=4{,}0\\cdot0{,}75\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) Ns</p></div>",
+        "fraga": "En konstant kraft på 4,0 N verkar på en boll i 0,75 s. Använd I = FΔt. Hur stor impuls ger kraften? Svara i Ns. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En konstant kraft på 4,0 N verkar på en boll i 0,75 s. Använd I = FΔt. Hur stor impuls ger kraften? Svara i Ns. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>För en konstant kraft är impulsen kraft gånger tid.</p>\\[I=4{,}0\\cdot0{,}75=3{,}00\\,\\mathrm{N\\,s}\\]<p><strong>Svar: 3,00 Ns.</strong></p></div>",
         "ledtrad": "<p>\\(I=F\\Delta t\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -108542,9 +108578,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?",
-        "t": "<p>En raketmotor ger impulsen 20 Ns under 3,0 s. Hur stor är medelkraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{20}{3{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) N</p></div>",
+        "fraga": "En raketmotor ger impulsen 20 Ns under 3,0 s. Använd \\(F_\\text{medel}=I/\\Delta t\\). Hur stor är motorns medelkraft? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En raketmotor ger impulsen 20 Ns under 3,0 s. Använd \\(F_\\text{medel}=I/\\Delta t\\). Hur stor är motorns medelkraft? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Medelkraften är impulsen delad med tiden.</p>\\[F_\\text{medel}=\\frac{20}{3{,}0}\\approx6{,}67\\,\\mathrm{N}\\]<p><strong>Svar: 6,67 N.</strong></p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -108553,14 +108589,14 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².",
-        "t": "<p>En sten (3,0 kg) faller fritt i 8,0 s. Hur stor impuls har tyngdkraften gett den? Använd \\(g=9{,}82\\) m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=mg\\Delta t=3{,}0\\cdot9{,}82\\cdot8{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(236\\) Ns</p></div>",
+        "fraga": "Tyngdkraften verkar på en sten på 3,0 kg i 8,0 s. Använd g = 9,82 m/s². Hur stor impuls ger tyngdkraften? Svara i Ns. Svara med tre värdesiffror.",
+        "t": "<p></p><p>Tyngdkraften verkar på en sten på 3,0 kg i 8,0 s. Använd g = 9,82 m/s². Hur stor impuls ger tyngdkraften? Svara i Ns. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först tyngdkraften. Den är konstant under tiden.</p>\\[\\begin{gathered}F_g=mg=3{,}0\\cdot9{,}82=29{,}46\\,\\mathrm{N}\\\\I=F_g\\Delta t=29{,}46\\cdot8{,}0\\\\=235{,}68\\,\\mathrm{N\\,s}\\end{gathered}\\]<p><strong>Svar: 236 Ns, nedåt.</strong></p></div>",
         "ledtrad": "<p>Kraften är tyngden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(I=F\\Delta t\\).</p>",
@@ -108575,26 +108611,26 @@ window.BANK = [
     "niva": "E",
     "typ": "putta bil av vägen",
     "poang": "(1/0/0)",
-    "t": "<p>En bil (1 100 kg) puttas från vila med den resulterande kraften 350 N i 10 s. Vilken fart får den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\dfrac{F\\Delta t}{m}=\\dfrac{350\\cdot10}{1\\,100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\) m/s</p></div>",
+    "t": "<p>En bil på 1100 kg står stilla. Den sammanlagda kraften framåt är konstant 350 N i 10 s. Vilken fart får bilen? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den konstanta kraften ger impulsen FΔt. Bilen startar från vila, så impulsen blir dess rörelsemängd.</p>\\[\\begin{gathered}I=350\\cdot10=3500\\,\\mathrm{N\\,s}\\\\v=\\frac{I}{m}=\\frac{3500}{1100}\\approx3{,}18\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 3,18 m/s.</strong></p></div>",
     "id": "5.369",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 3.1818181818181817,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Impulslagen.</p>",
+    "ledtrad": "<p>Beräkna impulsen med I = FΔt. Från vila gäller mv = I.</p>",
     "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -108603,8 +108639,8 @@ window.BANK = [
     "niva": "E",
     "typ": "dragsterbil",
     "poang": "(2/0/0)",
-    "t": "<p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><ol type=\"a\"><li>Vilken fart har den efter 3,0 s?</li><li>Hur långt har den kört då?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\dfrac{5\\,500\\cdot3{,}0}{400}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) m/s</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{v_0+v}{2}t=\\frac{0+41{,}25}{2}\\cdot3{,}0=61{,}875\\,\\mathrm{m}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 62 m.</p></div></div></div>",
+    "t": "<p>Räkna på en bil som ökar farten.</p><ol type=\"a\"><li>En bil på 400 kg startar från vila. Den sammanlagda kraften framåt är konstant 5,5 kN i 3,0 s. Vilken fart får bilen? Svara i m/s. Svara med tre värdesiffror.</li><li>En bil ökar farten från vila till 41,25 m/s på 3,0 s. Accelerationen är konstant. Hur långt kör bilen? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla kraften: 5,5 kN = 5500 N. Impulsen blir bilens rörelsemängd eftersom bilen startar från vila.</p>\\[\\begin{gathered}I=5500\\cdot3{,}0=16\\,500\\,\\mathrm{N\\,s}\\\\v=\\frac{16\\,500}{400}=41{,}25\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 41,3 m/s.</strong></p><p><strong>b)</strong></p><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten.</p>\\[\\begin{gathered}v_\\text{medel}=\\frac{0+41{,}25}{2}=20{,}625\\,\\mathrm{m/s}\\\\s=v_\\text{medel}t=20{,}625\\cdot3{,}0\\\\=61{,}875\\,\\mathrm{m}\\end{gathered}\\]<p><strong>Svar: 61,9 m.</strong></p></div>",
     "id": "5.370",
     "miniräknare": true,
     "geogebra": false,
@@ -108615,8 +108651,8 @@ window.BANK = [
       61.875
     ],
     "tolerans": [
-      0.619,
-      0.928
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -108636,29 +108672,29 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p>",
+    "spelIntro": "<p>Räkna på en bil som ökar farten.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har den efter 3,0 s?",
-        "t": "<p>En dragsterbil (400 kg) startar från vila. Den resulterande kraften är 5,5 kN.</p><p>Vilken fart har den efter 3,0 s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\dfrac{5\\,500\\cdot3{,}0}{400}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) m/s</p></div>",
+        "fraga": "En bil på 400 kg startar från vila. Den sammanlagda kraften framåt är konstant 5,5 kN i 3,0 s. Vilken fart får bilen? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En bil på 400 kg startar från vila. Den sammanlagda kraften framåt är konstant 5,5 kN i 3,0 s. Vilken fart får bilen? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla kraften: 5,5 kN = 5500 N. Impulsen blir bilens rörelsemängd eftersom bilen startar från vila.</p>\\[\\begin{gathered}I=5500\\cdot3{,}0=16\\,500\\,\\mathrm{N\\,s}\\\\v=\\frac{16\\,500}{400}=41{,}25\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 41,3 m/s.</strong></p></div>",
         "ledtrad": "<p>Impulslagen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur långt kör bilen under denna tid? Svara i m.",
-        "t": "<p>En dragsterbil ökar farten från vila till 41,25 m/s på 3,0 s. Accelerationen är konstant.</p><p>Hur långt kör bilen under denna tid? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{v_0+v}{2}t=\\frac{0+41{,}25}{2}\\cdot3{,}0=61{,}875\\,\\mathrm{m}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 62 m.</p></div></div>",
+        "fraga": "En bil ökar farten från vila till 41,25 m/s på 3,0 s. Accelerationen är konstant. Hur långt kör bilen? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En bil ökar farten från vila till 41,25 m/s på 3,0 s. Accelerationen är konstant. Hur långt kör bilen? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten.</p>\\[\\begin{gathered}v_\\text{medel}=\\frac{0+41{,}25}{2}=20{,}625\\,\\mathrm{m/s}\\\\s=v_\\text{medel}t=20{,}625\\cdot3{,}0\\\\=61{,}875\\,\\mathrm{m}\\end{gathered}\\]<p><strong>Svar: 61,9 m.</strong></p></div>",
         "ledtrad": "<p>Använd medelfarten under de tre sekunderna.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(F\\Delta t=mv\\).</p>",
@@ -108670,11 +108706,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "E",
+    "niva": "C",
     "typ": "pråm som bromsas",
-    "poang": "(3/0/0)",
-    "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><ol type=\"a\"><li>Vilken fart har pråmen efter 10 s?</li><li>Hur lång tid tar det innan pråmen står still?</li><li>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta v=\\dfrac{12\\,000\\cdot10}{1{,}5\\cdot10^6}=0{,}080\\) m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{12\\,000}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{60}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,000\\) N</p></li></ol></div>",
+    "poang": "(0/3/0)",
+    "t": "<p>En lastbåt på 1500 ton rör sig med 3,0 m/s. En annan båt drar bakåt med en konstant kraft på 12 kN. Bortse från andra vågräta krafter.</p><ol type=\"a\"><li>Vilken fart har lastbåten efter 10 s? Svara i m/s med tre värdesiffror.</li><li>Hur lång tid tar det att stoppa båten? Svara i s med tre värdesiffror.</li><li>I ett nytt försök ska båten stoppas från 3,0 m/s på 1,0 minut. Hur stor måste den sammanlagda medelkraften bakåt vara? Svara i N med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla enheterna: 1500 ton = 1 500 000 kg och 12 kN = 12 000 N. Välj båtens rörelseriktning som positiv.</p>\\[\\begin{gathered}I=-12\\,000\\cdot10=-120\\,000\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{I}{m}=-0{,}0800\\,\\mathrm{m/s}\\\\v=3{,}0-0{,}0800=2{,}92\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 2,92 m/s.</strong></p><p><strong>b)</strong></p><p>Omvandla enheterna: 1500 ton = 1 500 000 kg och 12 kN = 12 000 N. För att stoppa båten måste hela rörelsemängden tas bort.</p>\\[\\begin{gathered}|I|=mv=1\\,500\\,000\\cdot3{,}0\\\\=4\\,500\\,000\\,\\mathrm{N\\,s}\\\\t=\\frac{|I|}{F}=\\frac{4\\,500\\,000}{12\\,000}=375\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 375 s.</strong></p><p><strong>c)</strong></p><p>1500 ton = 1 500 000 kg och 1,0 minut = 60 s. Kraften måste ta bort båtens hela rörelsemängd.</p>\\[F_\\text{medel}=\\frac{mv}{t}=\\frac{1\\,500\\,000\\cdot3{,}0}{60}=75\\,000\\,\\mathrm{N}\\]<p><strong>Svar: 7,50 · 10⁴ N bakåt.</strong></p></div>",
     "id": "5.371",
     "miniräknare": true,
     "geogebra": false,
@@ -108686,9 +108722,9 @@ window.BANK = [
       75000.0
     ],
     "tolerans": [
-      0.051,
-      5.62,
-      1120.0
+      0.005,
+      0.5,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -108711,44 +108747,44 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p>",
+    "spelIntro": "<p>Räkna på hur en lastbåt bromsas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har pråmen efter 10 s?",
-        "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Vilken fart har pråmen efter 10 s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta v=\\dfrac{12\\,000\\cdot10}{1{,}5\\cdot10^6}=0{,}080\\) m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m/s</p></div>",
+        "fraga": "En lastbåt på 1500 ton rör sig med 3,0 m/s. En annan båt drar bakåt med en konstant kraft på 12 kN. Bortse från andra vågräta krafter. Vilken fart har lastbåten efter 10 s? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En lastbåt på 1500 ton rör sig med 3,0 m/s. En annan båt drar bakåt med en konstant kraft på 12 kN. Bortse från andra vågräta krafter. Vilken fart har lastbåten efter 10 s? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla enheterna: 1500 ton = 1 500 000 kg och 12 kN = 12 000 N. Välj båtens rörelseriktning som positiv.</p>\\[\\begin{gathered}I=-12\\,000\\cdot10=-120\\,000\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{I}{m}=-0{,}0800\\,\\mathrm{m/s}\\\\v=3{,}0-0{,}0800=2{,}92\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 2,92 m/s.</strong></p></div>",
         "ledtrad": "<p>Impulslagen ger hastighetsändringen.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det innan pråmen står still?",
-        "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur lång tid tar det innan pråmen står still?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{12\\,000}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\) s</p></div>",
+        "fraga": "En lastbåt på 1500 ton rör sig med 3,0 m/s. En annan båt drar bakåt med en konstant kraft på 12 kN. Bortse från andra vågräta krafter. Hur lång tid tar det att stoppa lastbåten? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En lastbåt på 1500 ton rör sig med 3,0 m/s. En annan båt drar bakåt med en konstant kraft på 12 kN. Bortse från andra vågräta krafter. Hur lång tid tar det att stoppa lastbåten? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla enheterna: 1500 ton = 1 500 000 kg och 12 kN = 12 000 N. För att stoppa båten måste hela rörelsemängden tas bort.</p>\\[\\begin{gathered}|I|=mv=1\\,500\\,000\\cdot3{,}0\\\\=4\\,500\\,000\\,\\mathrm{N\\,s}\\\\t=\\frac{|I|}{F}=\\frac{4\\,500\\,000}{12\\,000}=375\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 375 s.</strong></p></div>",
         "ledtrad": "<p>Hela rörelsemängden ska bort.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?",
-        "t": "<p>En pråm med massan 1 500 ton glider med 3,0 m/s. En bogserbåt bromsar den med kraften 12 kN.</p><p>Hur stor kraft krävs för att stoppa pråmen på 1,0 minut?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{1{,}5\\cdot10^6\\cdot3{,}0}{60}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,000\\) N</p></div>",
+        "fraga": "En lastbåt på 1500 ton ska bromsas från 3,0 m/s till vila på 1,0 minut. Hur stor måste den sammanlagda medelkraften bakåt vara? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En lastbåt på 1500 ton ska bromsas från 3,0 m/s till vila på 1,0 minut. Hur stor måste den sammanlagda medelkraften bakåt vara? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>1500 ton = 1 500 000 kg och 1,0 minut = 60 s. Kraften måste ta bort båtens hela rörelsemängd.</p>\\[F_\\text{medel}=\\frac{mv}{t}=\\frac{1\\,500\\,000\\cdot3{,}0}{60}=75\\,000\\,\\mathrm{N}\\]<p><strong>Svar: 7,50 · 10⁴ N bakåt.</strong></p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(F\\Delta t=\\Delta p\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 2,
     "spel": true
@@ -108759,15 +108795,15 @@ window.BANK = [
     "niva": "E",
     "typ": "flygplan som landar",
     "poang": "(1/0/0)",
-    "t": "<p>Ett flygplan (480 ton) bromsar från 29,5 m/s till 24,3 m/s på 12,0 s. Hur stor är bromskraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{480\\cdot10^3(29{,}5-24{,}3)}{12{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}08\\cdot10^{5}\\) N</p></div>",
+    "t": "<p>Ett flygplan på 480 ton bromsas från 29,5 till 24,3 m/s på 12,0 s. Hur stor är den sammanlagda bromskraftens medelvärde? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 480 ton = 480 000 kg. Välj rörelseriktningen som positiv.</p>\\[\\begin{gathered}\\Delta p=480\\,000(24{,}3-29{,}5)\\\\=-2\\,496\\,000\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]<p>Dela ändringen i rörelsemängd med tiden. Svaret ska vara kraftens storlek.</p>\\[|F_\\text{medel}|=\\frac{2\\,496\\,000}{12{,}0}=208\\,000\\,\\mathrm{N}\\]<p><strong>Svar: 2,08 · 10⁵ N, mot rörelsen.</strong></p></div>",
     "id": "5.372",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 208000.0,
-    "tolerans": 3120.0,
+    "rättSvar": 207999.99999999997,
+    "tolerans": 500.0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -108778,17 +108814,17 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "E",
+    "niva": "C",
     "typ": "bromsning med friktion",
-    "poang": "(2/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><ol type=\"a\"><li>Hur lång tid tar det innan bilen står still?</li><li>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionskraften \\(\\mu mg\\) ger \\(t=\\dfrac{v}{\\mu g}=\\dfrac{25}{0{,}60\\cdot9{,}82}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{25}{0{,}12\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) s</p></li></ol></div>",
+    "poang": "(0/2/0)",
+    "t": "<p>En bil kör i 90 km/h på vågrät väg och bromsar med låsta hjul. Bara glidfriktionen bromsar bilen. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Friktionstalet är 0,60. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.</li><li>På en snöig väg är friktionstalet 0,12. Hur lång tid tar stoppet från 90 km/h? Svara i s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla farten: 90 km/h = 25 m/s. På vågrät väg är friktionskraften μmg. Newtons andra lag ger bromsningens storlek b = μg; massan tar ut sig.</p>\\[t=\\frac{v_0}{b}=\\frac{25}{0{,}60\\cdot9{,}82}\\approx4{,}24\\,\\mathrm{s}\\]<p><strong>Svar: 4,24 s.</strong></p><p><strong>b)</strong></p><p>Omvandla farten: 90 km/h = 25 m/s. På vågrät väg är friktionskraften μmg. Newtons andra lag ger bromsningens storlek b = μg; massan tar ut sig.</p>\\[t=\\frac{v_0}{b}=\\frac{25}{0{,}12\\cdot9{,}82}\\approx21{,}2\\,\\mathrm{s}\\]<p><strong>Svar: 21,2 s.</strong></p></div>",
     "id": "5.373",
     "miniräknare": true,
     "geogebra": false,
@@ -108799,8 +108835,8 @@ window.BANK = [
       21.215207060420912
     ],
     "tolerans": [
-      0.0636,
-      0.51
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -108821,33 +108857,61 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p>",
+    "spelIntro": "<p>En bil kör i 90 km/h på vågrät väg och bromsar med låsta hjul. Bara glidfriktionen bromsar bilen. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång tid tar det innan bilen står still?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det innan bilen står still?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Friktionskraften \\(\\mu mg\\) ger \\(t=\\dfrac{v}{\\mu g}=\\dfrac{25}{0{,}60\\cdot9{,}82}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\) s</p></div>",
-        "ledtrad": "<p>Impulslagen med friktionskraften.</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "fraga": "Friktionstalet är 0,60. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En bil kör i 90 km/h på vågrät väg och bromsar med låsta hjul. Bara glidfriktionen bromsar bilen. Använd g = 9,82 m/s².</p><p>Friktionstalet är 0,60. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla farten: 90 km/h = 25 m/s. På vågrät väg är friktionskraften μmg. Newtons andra lag ger bromsningens storlek b = μg; massan tar ut sig.</p>\\[t=\\frac{v_0}{b}=\\frac{25}{0{,}60\\cdot9{,}82}\\approx4{,}24\\,\\mathrm{s}\\]<p><strong>Svar: 4,24 s.</strong></p></div>",
+        "ledtrad": "<p>På vågrät väg gäller F = μmg. Använd F = mb för att bestämma bromsningens storlek.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det på snöig väg med friktionstalet 0,12?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En bil kör i 90 km/h på plan väg och tvärnitar. Friktionstalet är 0,60.</p><p>Hur lång tid tar det på snöig väg med friktionstalet 0,12?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{25}{0{,}12\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\) s</p></div>",
-        "ledtrad": "<p>Tiden är omvänt proportionell mot \\(\\mu\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "fraga": "På en snöig väg är friktionstalet 0,12. Hur lång tid tar stoppet från 90 km/h? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En bil kör i 90 km/h på vågrät väg och bromsar med låsta hjul. Bara glidfriktionen bromsar bilen. Använd g = 9,82 m/s².</p><p>På en snöig väg är friktionstalet 0,12. Hur lång tid tar stoppet från 90 km/h? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla farten: 90 km/h = 25 m/s. På vågrät väg är friktionskraften μmg. Newtons andra lag ger bromsningens storlek b = μg; massan tar ut sig.</p>\\[t=\\frac{v_0}{b}=\\frac{25}{0{,}12\\cdot9{,}82}\\approx21{,}2\\,\\mathrm{s}\\]<p><strong>Svar: 21,2 s.</strong></p></div>",
+        "ledtrad": "<p>Bestäm bromsningen med friktionstalet 0,12. Stopptiden fås genom att dela starthastigheten med bromsningens storlek.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Massan tar ut sig.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
+    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "typ": "motorcykel som frikopplas",
+    "poang": "(0/1/0)",
+    "t": "<p>En släde glider på vågrät mark med 42 m/s. Glidfriktionstalet är 0,28 och bara glidfriktionen bromsar släden. Använd g = 9,82 m/s². Vilken fart har släden efter 3,5 s? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>På vågrät mark är friktionskraften μmg. Newtons andra lag ger bromsningens storlek b = μg.</p>\\[b=0{,}28\\cdot9{,}82=2{,}7496\\,\\mathrm{m/s^2}\\]<p>Farten minskar med b gånger tiden.</p>\\[v=42-2{,}7496\\cdot3{,}5=32{,}3764\\,\\mathrm{m/s}\\]<p><strong>Svar: 32,4 m/s.</strong></p></div>",
+    "id": "5.374",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Impuls och medelkraft",
+    "svarstyp": "numeriskt",
+    "rättSvar": 32.3764,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Glidfriktionen ger bromsningens storlek b = μg. Hur mycket minskar farten på 3,5 s?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m/s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 2,
     "spel": true
@@ -108856,45 +108920,17 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "niva": "E",
-    "typ": "motorcykel som frikopplas",
-    "poang": "(1/0/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En motorcyklist har farten 42 m/s och frikopplar. Friktionstalet är 0,28. Vilken fart har motorcykeln 3,5 s senare? Bortse från luftmotståndet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=42-\\mu g\\Delta t=42-0{,}28\\cdot9{,}82\\cdot3{,}5\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\) m/s</p></div>",
-    "id": "5.374",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Impuls och medelkraft",
-    "svarstyp": "numeriskt",
-    "rättSvar": 32.3764,
-    "tolerans": 0.51,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Impulslagen med friktionskraften.</p>",
-    "traningsniva": 2,
-    "svarEnhet": "m/s",
-    "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
-    "spel": true
-  },
-  {
-    "kap": 5,
-    "omr": "rorelsemangd",
-    "niva": "E",
     "typ": "golfslag",
     "poang": "(1/0/0)",
-    "t": "<p>En golfboll (45 g) får farten 25,0 m/s från vila. Kontakttiden med klubban är 2,00 ms. Hur stor är medelkraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla massan och tiden: 45 g = 0,045 kg och 2,00 ms = 0,00200 s. Bollen startar från vila, så ändringen i rörelsemängd är mv.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{\\Delta p}{\\Delta t}=\\frac{0{,}045\\cdot25{,}0}{0{,}00200}=562{,}5\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 563 N.</p></div></div>",
+    "t": "<p>En golfboll på 45 g ökar farten från vila till 25,0 m/s på 2,00 ms. Hur stor är den sammanlagda medelkraften på bollen? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan och tiden: 45 g = 0,045 kg och 2,00 ms = 0,00200 s. Bollen startar från vila.</p>\\[\\begin{gathered}\\Delta p=0{,}045\\cdot25{,}0=1{,}125\\,\\mathrm{kg\\,m/s}\\\\F_\\text{medel}=\\frac{\\Delta p}{\\Delta t}=\\frac{1{,}125}{0{,}00200}=562{,}5\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 563 N.</strong></p></div>",
     "id": "5.375",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 562.5,
-    "tolerans": 8.44,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -108905,7 +108941,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -108914,26 +108950,26 @@ window.BANK = [
     "niva": "E",
     "typ": "biljardstöt",
     "poang": "(1/0/0)",
-    "t": "<p>En biljardboll (200 g) i vila påverkas av medelkraften 50 N under 10 ms. Vilken fart får den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Impulsen ändrar bollens rörelsemängd. Omvandla först 200 g = 0,200 kg och 10 ms = 0,010 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=F\\Delta t=50\\cdot0{,}010=0{,}50\\,\\mathrm{Ns}\\qquad v=\\frac Im=\\frac{0{,}50}{0{,}200}=2{,}5\\,\\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 m/s.</p></div></div>",
+    "t": "<p>En biljardboll på 200 g står stilla. Den sammanlagda vågräta medelkraften på bollen är 50 N under 10 ms. Vilken fart får bollen? Svara i m/s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla enheterna: 200 g = 0,200 kg och 10 ms = 0,010 s. Impulsen blir bollens rörelsemängd.</p>\\[\\begin{gathered}I=50\\cdot0{,}010=0{,}500\\,\\mathrm{N\\,s}\\\\v=\\frac{I}{m}=\\frac{0{,}500}{0{,}200}=2{,}50\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 2,50 m/s.</strong></p></div>",
     "id": "5.376",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Impulslagen.</p>",
+    "ledtrad": "<p>Omvandla gram till kg och ms till s. Impulsen blir bollens rörelsemängd eftersom bollen startar från vila.</p>",
     "traningsniva": 2,
     "svarEnhet": "m/s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -108942,15 +108978,15 @@ window.BANK = [
     "niva": "E",
     "typ": "kulstötning",
     "poang": "(1/0/0)",
-    "t": "<p>En kula (7,26 kg) stöts från vila till 13 m/s. Den resulterande medelkraften är 220 N. Hur lång tid tar stöten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{7{,}26\\cdot13}{220}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}43\\) s</p></div>",
+    "t": "<p>En kula på 7,26 kg stöts från vila till 13 m/s. Den sammanlagda medelkraften är 220 N i rörelseriktningen. Hur länge verkar kraften? Svara i s.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Från vila är ändringen i rörelsemängd mv. Medelkraft gånger tid ska ge samma impuls.</p>\\[\\begin{gathered}I=7{,}26\\cdot13=94{,}38\\,\\mathrm{N\\,s}\\\\\\Delta t=\\frac{I}{F_\\text{medel}}=\\frac{94{,}38}{220}=0{,}429\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 0,429 s.</strong></p></div>",
     "id": "5.377",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 0.429,
-    "tolerans": 0.00643,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -108961,7 +108997,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -108970,15 +109006,15 @@ window.BANK = [
     "niva": "E",
     "typ": "hjärtat pumpar blod",
     "poang": "(1/0/0)",
-    "t": "<p>Vid ett hjärtslag pumpas 80 g blod från vila till 1,0 m/s på 0,17 s. Hur stor medelkraft verkar på blodet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}080\\cdot1{,}0}{0{,}17}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}47\\) N</p></div>",
+    "t": "<p>I en modell av ett hjärtslag ökar farten hos 80 g blod från vila till 1,0 m/s på 0,17 s. Hur stor är den sammanlagda medelkraften i rörelseriktningen? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla massan: 80 g = 0,080 kg. Kraften ska ge blodet rörelsemängden mv.</p>\\[F_\\text{medel}=\\frac{m\\Delta v}{\\Delta t}=\\frac{0{,}080\\cdot1{,}0}{0{,}17}\\approx0{,}471\\,\\mathrm{N}\\]<p><strong>Svar: 0,471 N.</strong></p></div>",
     "id": "5.378",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 0.47058823529411764,
-    "tolerans": 0.00706,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -108989,7 +109025,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -108998,15 +109034,15 @@ window.BANK = [
     "niva": "E",
     "typ": "krocktest",
     "poang": "(1/0/0)",
-    "t": "<p>En skåpbil (2 300 kg) kör med 15 m/s in i ett brofundament och står still efter 0,56 s. Hur stor är medelkraften på bilen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F=\\dfrac{2\\,300\\cdot15}{0{,}56}\\), riktad mot rörelsen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(61\\,607\\) N</p></div>",
+    "t": "<p>En skåpbil på 2300 kg kör med 15 m/s in i en betongvägg och stannar på 0,56 s. Hur stor är den sammanlagda vågräta medelkraften på bilen? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj rörelseriktningen som positiv. Bilens rörelsemängd minskar till noll.</p>\\[\\Delta p=2300(0-15)=-34\\,500\\,\\mathrm{kg\\,m/s}\\]<p>Medelkraften är ändringen i rörelsemängd delad med tiden.</p>\\[F_\\text{medel}=\\frac{-34\\,500}{0{,}56}\\approx-61\\,607\\,\\mathrm{N}\\]<p><strong>Svar: 6,16 · 10⁴ N, mot rörelsen.</strong></p></div>",
     "id": "5.379",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 61607.14285714285,
-    "tolerans": 924.0,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -109017,17 +109053,17 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "puck som får en stöt",
-    "poang": "(1/1/0)",
-    "t": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><ol type=\"a\"><li>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</li><li>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=3{,}00+\\dfrac{25{,}0\\cdot0{,}050}{0{,}160}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}8\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=3{,}00-\\dfrac{12{,}0\\cdot0{,}050}{0{,}160}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}75\\) m/s</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En puck på 160 g glider med 3,00 m/s åt höger. Höger är positiv riktning. Bortse från friktion. Räkna på två separata försök med samma starthastighet.</p><ol type=\"a\"><li>En konstant kraft på +25,0 N verkar i 0,050 s. Bestäm sluthastigheten med tecken. Svara i m/s. Svara med tre värdesiffror.</li><li>En konstant kraft på −12,0 N verkar i 0,050 s. Bestäm sluthastigheten med tecken. Svara i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>160 g = 0,160 kg. Impulsen ger en hastighetsändring som adderas till starthastigheten.</p>\\[\\begin{gathered}I=25{,}0\\cdot0{,}050=1{,}25\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{1{,}25}{0{,}160}=7{,}8125\\,\\mathrm{m/s}\\\\v=3{,}00+7{,}8125=10{,}8125\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: +10,8 m/s, åt höger.</strong></p><p><strong>b)</strong></p><p>160 g = 0,160 kg. Kraften ger en negativ impuls.</p>\\[\\begin{gathered}I=-12{,}0\\cdot0{,}050=-0{,}600\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{-0{,}600}{0{,}160}=-3{,}75\\,\\mathrm{m/s}\\\\v=3{,}00-3{,}75=-0{,}750\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: −0,750 m/s.</strong> Pucken har vänt och går åt vänster.</p></div>",
     "id": "5.380",
     "miniräknare": true,
     "geogebra": false,
@@ -109038,8 +109074,8 @@ window.BANK = [
       -0.7500000000000004
     ],
     "tolerans": [
-      0.162,
-      0.0113
+      0.05,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -109060,29 +109096,29 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p>",
+    "spelIntro": "<p>En puck på 160 g glider med 3,00 m/s åt höger. Höger är positiv riktning. Bortse från friktion. Räkna på två separata försök med samma starthastighet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.",
-        "t": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 25,0 N riktad åt höger har verkat i 0,050 s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=3{,}00+\\dfrac{25{,}0\\cdot0{,}050}{0{,}160}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}8\\) m/s</p></div>",
+        "fraga": "En konstant kraft på +25,0 N verkar i 0,050 s. Bestäm sluthastigheten med tecken. Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En puck på 160 g glider med 3,00 m/s åt höger. Höger är positiv riktning. Bortse från friktion. Räkna på två separata försök med samma starthastighet.</p><p>En konstant kraft på +25,0 N verkar i 0,050 s. Bestäm sluthastigheten med tecken. Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>160 g = 0,160 kg. Impulsen ger en hastighetsändring som adderas till starthastigheten.</p>\\[\\begin{gathered}I=25{,}0\\cdot0{,}050=1{,}25\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{1{,}25}{0{,}160}=7{,}8125\\,\\mathrm{m/s}\\\\v=3{,}00+7{,}8125=10{,}8125\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: +10,8 m/s, åt höger.</strong></p></div>",
         "ledtrad": "<p>Impulsen ökar rörelsemängden.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.",
-        "t": "<p>En puck (160 g) glider med 3,00 m/s åt höger. Friktionen är så liten att du kan bortse från den. Bestäm hastigheten (positiv åt höger) efter att</p><p>en kraft på 12,0 N riktad åt vänster har verkat i 0,050 s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=3{,}00-\\dfrac{12{,}0\\cdot0{,}050}{0{,}160}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}75\\) m/s</p></div>",
+        "fraga": "En konstant kraft på −12,0 N verkar i 0,050 s. Bestäm sluthastigheten med tecken. Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En puck på 160 g glider med 3,00 m/s åt höger. Höger är positiv riktning. Bortse från friktion. Räkna på två separata försök med samma starthastighet.</p><p>En konstant kraft på −12,0 N verkar i 0,050 s. Bestäm sluthastigheten med tecken. Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>160 g = 0,160 kg. Kraften ger en negativ impuls.</p>\\[\\begin{gathered}I=-12{,}0\\cdot0{,}050=-0{,}600\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{-0{,}600}{0{,}160}=-3{,}75\\,\\mathrm{m/s}\\\\v=3{,}00-3{,}75=-0{,}750\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: −0,750 m/s.</strong> Pucken har vänt och går åt vänster.</p></div>",
         "ledtrad": "<p>Tänk på riktningen.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Rörelsemängd och impuls har riktning.</p>",
@@ -109094,11 +109130,11 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "boll som studsar mot vägg",
-    "poang": "(0/2/0)",
-    "t": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><ol type=\"a\"><li>Beräkna bollens ändring i rörelsemängd.</li><li>Hur stor är medelkraften från väggen på bollen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=0{,}35(-3{,}1-5{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}8\\) kg·m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{-2{,}8}{0{,}055}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-52\\) N</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Räkna på en boll som studsar mot en vägg.</p><ol type=\"a\"><li>En boll på 0,35 kg går mot väggen med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Välj riktningen mot väggen som positiv. Bestäm ändringen i rörelsemängd med tecken. Svara i kg·m/s. Svara med tre värdesiffror.</li><li>En boll får ändringen i vågrät rörelsemängd −2,84 kg·m/s under 55 ms. Bestäm den sammanlagda vågräta medelkraften med tecken. Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Hastigheten är +5,0 m/s före studsen och −3,1 m/s efter. Slutvärde minus startvärde ger ändringen.</p>\\[\\begin{gathered}\\Delta p=m(v_2-v_1)=0{,}35(-3{,}1-5{,}0)\\\\=-2{,}835\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]<p><strong>Svar: −2,84 kg·m/s.</strong></p><p><strong>b)</strong></p><p>Impulsen är ändringen i rörelsemängd. Omvandla tiden: 55 ms = 0,055 s.</p>\\[F_\\text{medel}=\\frac{\\Delta p}{\\Delta t}=\\frac{-2{,}84}{0{,}055}\\approx-51{,}6\\,\\mathrm{N}\\]<p><strong>Svar: −51,6 N.</strong> Kraften är riktad bort från väggen.</p></div>",
     "id": "5.381",
     "miniräknare": true,
     "geogebra": false,
@@ -109106,11 +109142,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       -2.8349999999999995,
-      -51.54545454545454
+      -51.63636363636363
     ],
     "tolerans": [
-      0.051,
-      0.773
+      0.005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -109131,29 +109167,29 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>",
+    "spelIntro": "<p>Räkna på en boll som studsar mot en vägg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna bollens ändring i rörelsemängd.",
-        "t": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p><p>Beräkna bollens ändring i rörelsemängd.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=0{,}35(-3{,}1-5{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}8\\) kg·m/s</p></div>",
+        "fraga": "En boll på 0,35 kg går mot väggen med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Välj riktningen mot väggen som positiv. Bestäm ändringen i rörelsemängd med tecken. Svara i kg·m/s. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En boll på 0,35 kg går mot väggen med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Välj riktningen mot väggen som positiv. Bestäm ändringen i rörelsemängd med tecken. Svara i kg·m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hastigheten är +5,0 m/s före studsen och −3,1 m/s efter. Slutvärde minus startvärde ger ändringen.</p>\\[\\begin{gathered}\\Delta p=m(v_2-v_1)=0{,}35(-3{,}1-5{,}0)\\\\=-2{,}835\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]<p><strong>Svar: −2,84 kg·m/s.</strong></p></div>",
         "ledtrad": "<p>Hastigheten efter är negativ.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är medelkraften från väggen på bollen?",
-        "t": "<p>En boll (0,35 kg) kastas mot en vägg med 5,0 m/s och studsar rakt tillbaka med 3,1 m/s. Kontakttiden är 55 ms. Välj positiv riktning mot väggen.</p>Ändringen i rörelsemängd är −2,8 kg·m/s.<p>Hur stor är medelkraften från väggen på bollen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{-2{,}8}{0{,}055}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-52\\) N</p></div>",
+        "fraga": "En boll får ändringen i vågrät rörelsemängd −2,84 kg·m/s under 55 ms. Bestäm den sammanlagda vågräta medelkraften med tecken. Svara i N. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En boll får ändringen i vågrät rörelsemängd −2,84 kg·m/s under 55 ms. Bestäm den sammanlagda vågräta medelkraften med tecken. Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Impulsen är ändringen i rörelsemängd. Omvandla tiden: 55 ms = 0,055 s.</p>\\[F_\\text{medel}=\\frac{\\Delta p}{\\Delta t}=\\frac{-2{,}84}{0{,}055}\\approx-51{,}6\\,\\mathrm{N}\\]<p><strong>Svar: −51,6 N.</strong> Kraften är riktad bort från väggen.</p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{\\Delta p}{\\Delta t}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Hastigheten byter tecken vid studsen.</p>",
@@ -109168,8 +109204,8 @@ window.BANK = [
     "niva": "C",
     "typ": "fotbollsspark",
     "poang": "(1/1/0)",
-    "t": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><ol type=\"a\"><li>ligger stilla från början?</li><li>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420\\cdot18}{650}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\) s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420(18+13)}{650}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}020\\) s</p></li></ol></div>",
+    "t": "<p>En fotboll på 420 g sparkas iväg med 18 m/s. Den sammanlagda vågräta medelkraften under sparken är 650 N i bollens nya riktning.</p><ol type=\"a\"><li>Bollen ligger stilla före sparken. Hur lång är kontakttiden? Svara i s. Svara med tre värdesiffror.</li><li>Bollen kommer mot foten med 13 m/s och sparkas rakt tillbaka med 18 m/s. Hur lång är kontakttiden? Svara i s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>420 g = 0,420 kg. Från vila är impulsen lika med bollens slutliga rörelsemängd.</p>\\[\\begin{gathered}I=0{,}420\\cdot18=7{,}56\\,\\mathrm{N\\,s}\\\\\\Delta t=\\frac{I}{F_\\text{medel}}=\\frac{7{,}56}{650}\\approx0{,}0116\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 0,0116 s.</strong></p><p><strong>b)</strong></p><p>420 g = 0,420 kg. Välj bollens nya riktning som positiv. Hastigheten ändras från −13 till +18 m/s.</p>\\[\\begin{gathered}I=0{,}420\\bigl(18-(-13)\\bigr)=13{,}02\\,\\mathrm{N\\,s}\\\\\\Delta t=\\frac{13{,}02}{650}\\approx0{,}0200\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 0,0200 s.</strong></p></div>",
     "id": "5.382",
     "miniräknare": true,
     "geogebra": false,
@@ -109180,8 +109216,8 @@ window.BANK = [
       0.02003076923076923
     ],
     "tolerans": [
-      0.00051,
-      0.00051
+      5e-05,
+      5e-05
     ],
     "självrättning": true,
     "formaga": [
@@ -109202,24 +109238,24 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p>",
+    "spelIntro": "<p>En fotboll på 420 g sparkas iväg med 18 m/s. Den sammanlagda vågräta medelkraften under sparken är 650 N i bollens nya riktning.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "ligger stilla från början?",
-        "t": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>ligger stilla från början?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420\\cdot18}{650}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\) s</p></div>",
+        "fraga": "Bollen ligger stilla före sparken. Hur lång är kontakttiden? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En fotboll på 420 g sparkas iväg med 18 m/s. Den sammanlagda vågräta medelkraften under sparken är 650 N i bollens nya riktning.</p><p>Bollen ligger stilla före sparken. Hur lång är kontakttiden? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>420 g = 0,420 kg. Från vila är impulsen lika med bollens slutliga rörelsemängd.</p>\\[\\begin{gathered}I=0{,}420\\cdot18=7{,}56\\,\\mathrm{N\\,s}\\\\\\Delta t=\\frac{I}{F_\\text{medel}}=\\frac{7{,}56}{650}\\approx0{,}0116\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 0,0116 s.</strong></p></div>",
         "ledtrad": "<p>\\(\\Delta t=\\dfrac{\\Delta p}{F}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "kommer rakt mot foten med 13 m/s och sparkas tillbaka?",
-        "t": "<p>En fotboll (420 g) sparkas med kraften 650 N och far iväg med 18 m/s. Hur länge är foten i kontakt med bollen om bollen</p><p>kommer rakt mot foten med 13 m/s och sparkas tillbaka?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{0{,}420(18+13)}{650}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}020\\) s</p></div>",
+        "fraga": "Bollen kommer mot foten med 13 m/s och sparkas rakt tillbaka med 18 m/s. Hur lång är kontakttiden? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En fotboll på 420 g sparkas iväg med 18 m/s. Den sammanlagda vågräta medelkraften under sparken är 650 N i bollens nya riktning.</p><p>Bollen kommer mot foten med 13 m/s och sparkas rakt tillbaka med 18 m/s. Hur lång är kontakttiden? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>420 g = 0,420 kg. Välj bollens nya riktning som positiv. Hastigheten ändras från −13 till +18 m/s.</p>\\[\\begin{gathered}I=0{,}420\\bigl(18-(-13)\\bigr)=13{,}02\\,\\mathrm{N\\,s}\\\\\\Delta t=\\frac{13{,}02}{650}\\approx0{,}0200\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 0,0200 s.</strong></p></div>",
         "ledtrad": "<p>Hastighetsändringen blir större.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -109239,15 +109275,15 @@ window.BANK = [
     "niva": "C",
     "typ": "bilbälte vid krock",
     "poang": "(0/1/0)",
-    "t": "<p>En bil kör in i en vägg med 15 m/s och studsar tillbaka med 2,60 m/s. Krocken varar 0,15 s. Hur stor medelkraft påverkar bilbältet en passagerare på 75 kg med?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{75(15+2{,}60)}{0{,}15}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,800\\) N</p></div>",
+    "t": "<p>En bil krockar med en vägg och studsar tillbaka. En passagerare på 75 kg följer bilens rörelse: från 15 m/s framåt till 2,60 m/s bakåt på 0,15 s. Bilbältet ger den enda vågräta kraften på passageraren. Hur stor är bältets medelkraft? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj framåt som positiv riktning. Passagerarens hastighet ändras från +15 till −2,60 m/s.</p>\\[\\begin{gathered}\\Delta p=75(-2{,}60-15)=-1320\\,\\mathrm{kg\\,m/s}\\\\F_\\text{medel}=\\frac{-1320}{0{,}15}=-8800\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 8,80 · 10³ N, bakåt.</strong></p></div>",
     "id": "5.383",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 8800.0,
-    "tolerans": 132.0,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -109266,9 +109302,9 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "typ": "baseboll slås tillbaka",
-    "poang": "(2/1/0)",
-    "t": "<p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><ol type=\"a\"><li>Hur stor impuls får bollen?</li><li>Hur stor är medelkraften om kontakttiden är 2,0 ms?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=0{,}145(55{,}0+45{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}5\\) Ns</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelkraften är impulsen delad med tiden. Omvandla 2,0 ms till 0,0020 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac I{\\Delta t}=\\frac{14{,}5}{0{,}0020}=7250\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7250 N.</p></div></div></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Räkna på en baseboll som slås tillbaka.</p><ol type=\"a\"><li>En baseboll på 145 g kommer med 45,0 m/s och slås rakt tillbaka med 55,0 m/s. Hur stor är bollens sammanlagda impuls? Svara i Ns. Svara med tre värdesiffror.</li><li>En boll får en sammanlagd impuls på 14,5 Ns under 2,0 ms. Hur stor är den sammanlagda medelkraften på bollen? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>145 g = 0,145 kg. Välj bollens nya riktning som positiv. Hastigheten ändras från −45,0 till +55,0 m/s.</p>\\[I=0{,}145\\bigl(55{,}0-(-45{,}0)\\bigr)=14{,}5\\,\\mathrm{N\\,s}\\]<p><strong>Svar: 14,5 Ns.</strong></p><p><strong>b)</strong></p><p>Omvandla kontakttiden: 2,0 ms = 0,0020 s. Medelkraften är impulsen delad med tiden.</p>\\[F_\\text{medel}=\\frac{14{,}5}{0{,}0020}=7250\\,\\mathrm{N}\\]<p><strong>Svar: 7,25 · 10³ N.</strong></p></div>",
     "id": "5.384",
     "miniräknare": true,
     "geogebra": false,
@@ -109279,8 +109315,8 @@ window.BANK = [
       7250.0
     ],
     "tolerans": [
-      0.217,
-      109.0
+      0.05,
+      5.0
     ],
     "självrättning": true,
     "formaga": [
@@ -109300,29 +109336,29 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p>",
+    "spelIntro": "<p>Räkna på en baseboll som slås tillbaka.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor impuls får bollen?",
-        "t": "<p>En baseboll (145 g) kommer med 45,0 m/s och slås tillbaka med 55,0 m/s.</p><p>Hur stor impuls får bollen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=0{,}145(55{,}0+45{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}5\\) Ns</p></div>",
+        "fraga": "En baseboll på 145 g kommer med 45,0 m/s och slås rakt tillbaka med 55,0 m/s. Hur stor är bollens sammanlagda impuls? Svara i Ns. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En baseboll på 145 g kommer med 45,0 m/s och slås rakt tillbaka med 55,0 m/s. Hur stor är bollens sammanlagda impuls? Svara i Ns. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>145 g = 0,145 kg. Välj bollens nya riktning som positiv. Hastigheten ändras från −45,0 till +55,0 m/s.</p>\\[I=0{,}145\\bigl(55{,}0-(-45{,}0)\\bigr)=14{,}5\\,\\mathrm{N\\,s}\\]<p><strong>Svar: 14,5 Ns.</strong></p></div>",
         "ledtrad": "<p>Hastighetsändringen är 100 m/s.</p>",
         "niva": "E",
-        "poang": "(1/1/0)",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är medelkraften på bollen? Svara i N.",
-        "t": "<p>En boll får impulsen 14,5 Ns under 2,0 ms.</p><p>Hur stor är medelkraften på bollen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelkraften är impulsen delad med tiden. Omvandla 2,0 ms till 0,0020 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac I{\\Delta t}=\\frac{14{,}5}{0{,}0020}=7250\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7250 N.</p></div></div>",
+        "fraga": "En boll får en sammanlagd impuls på 14,5 Ns under 2,0 ms. Hur stor är den sammanlagda medelkraften på bollen? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En boll får en sammanlagd impuls på 14,5 Ns under 2,0 ms. Hur stor är den sammanlagda medelkraften på bollen? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla kontakttiden: 2,0 ms = 0,0020 s. Medelkraften är impulsen delad med tiden.</p>\\[F_\\text{medel}=\\frac{14{,}5}{0{,}0020}=7250\\,\\mathrm{N}\\]<p><strong>Svar: 7,25 · 10³ N.</strong></p></div>",
         "ledtrad": "<p>\\(F=\\dfrac{I}{\\Delta t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Tänk på riktningen.</p>",
@@ -109334,18 +109370,18 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "tennissmash",
-    "poang": "(0/1/0)",
-    "t": "<p>En tennisboll (60 g) kommer med 40 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 30 ms. Hur stor är medelkraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}060(50+40)}{0{,}030}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\) N</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En tennisboll på 60 g kommer vågrätt med 40 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 30 ms. Bortse från andra vågräta krafter än racketens. Hur stor är racketens vågräta medelkraft? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>60 g = 0,060 kg och 30 ms = 0,030 s. Välj bollens nya riktning som positiv. När bollen vänder blir hastighetsändringen 50 − (−40) = 90 m/s.</p>\\[\\begin{gathered}I=0{,}060\\cdot90=5{,}40\\,\\mathrm{N\\,s}\\\\F_\\text{medel}=\\frac{5{,}40}{0{,}030}=180\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 180 N, i bollens nya riktning.</strong></p></div>",
     "id": "5.385",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 180.0,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -109356,17 +109392,17 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "E",
+    "niva": "C",
     "typ": "boll som studsar i golvet",
-    "poang": "(2/1/0)",
-    "t": "<p>En boll på 1,2 kg träffar golvet med farten 5,2 m/s nedåt och studsar med farten 2,1 m/s uppåt. Golvkontakten varar 20,0 ms. Använd g = 9,82 m/s².</p><div class=\"deluppgifter\"><div>a) Hur stor impuls ger golvet bollen?</div><div>b) Hur stor är golvets medelkraft på bollen?</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Välj uppåt som positiv riktning. Rörelsemängden ökar med 1,2 · (2,1 − (−5,2)) = 8,76 Ns. Tyngdkraften ger samtidigt en impuls nedåt. Golvets impuls måste därför vara större än 8,76 Ns.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_\\mathrm{golv}=\\Delta p+mg\\Delta t=8{,}76+1{,}2\\cdot9{,}82\\cdot0{,}0200=8{,}99568\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,0 Ns uppåt.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Golvets medelkraft är golvets impuls dividerad med kontakttiden. 20,0 ms = 0,0200 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{golv,medel}=\\frac{I_\\mathrm{golv}}{\\Delta t}\\approx\\frac{9{,}0}{0{,}0200}=450\\,\\mathrm{N}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 450 N uppåt.</p></div></div></div></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Räkna på golvets påverkan på en boll.</p><ol type=\"a\"><li>En boll på 1,2 kg träffar golvet med 5,2 m/s nedåt och studsar med 2,1 m/s uppåt. Kontakten tar 20,0 ms. Bara golvets kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Hur stor impuls ger golvet bollen? Svara i Ns. Svara med tre värdesiffror.</li><li>Golvet ger en boll impulsen 9,00 Ns uppåt under 20,0 ms. Hur stor är golvets medelkraft på bollen? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Välj uppåt som positiv riktning. 20,0 ms = 0,0200 s. Beräkna ändringen i rörelsemängd och tyngdkraftens impuls.</p>\\[\\begin{gathered}\\Delta p=1{,}2\\bigl(2{,}1-(-5{,}2)\\bigr)=8{,}76\\,\\mathrm{kg\\,m/s}\\\\I_g=-mg\\Delta t\\\\=-1{,}2\\cdot9{,}82\\cdot0{,}0200\\\\=-0{,}23568\\,\\mathrm{N\\,s}\\end{gathered}\\]<p>Golvets och tyngdkraftens impulser ska tillsammans ge ändringen i rörelsemängd.</p>\\[\\begin{gathered}I_\\text{golv}+I_g=\\Delta p\\\\I_\\text{golv}=8{,}76-(-0{,}23568)\\\\=8{,}99568\\,\\mathrm{N\\,s}\\end{gathered}\\]<p><strong>Svar: 9,00 Ns, uppåt.</strong></p><p><strong>b)</strong></p><p>Omvandla tiden: 20,0 ms = 0,0200 s. Här är golvets egen impuls given, så den delas direkt med tiden.</p>\\[F_\\text{golv,medel}=\\frac{9{,}00}{0{,}0200}=450\\,\\mathrm{N}\\]<p><strong>Svar: 450 N, uppåt.</strong></p></div>",
     "id": "5.386",
     "miniräknare": true,
     "geogebra": false,
@@ -109374,11 +109410,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       8.99568,
-      449.784
+      450.0
     ],
     "tolerans": [
-      0.131,
-      6.57
+      0.005,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -109398,33 +109434,33 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll på 1,2 kg träffar golvet med farten 5,2 m/s nedåt och studsar med farten 2,1 m/s uppåt. Golvkontakten varar 20,0 ms. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Räkna på golvets påverkan på en boll.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor impuls ger golvet bollen? Svara i Ns.",
-        "t": "<p>En boll på 1,2 kg träffar golvet med farten 5,2 m/s nedåt och studsar med farten 2,1 m/s uppåt. Golvkontakten varar 20,0 ms. Använd g = 9,82 m/s².</p><p>Hur stor impuls ger golvet bollen? Svara i Ns.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Välj uppåt som positiv riktning. Rörelsemängden ökar med 1,2 · (2,1 − (−5,2)) = 8,76 Ns. Tyngdkraften ger samtidigt en impuls nedåt. Golvets impuls måste därför vara större än 8,76 Ns.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_\\mathrm{golv}=\\Delta p+mg\\Delta t=8{,}76+1{,}2\\cdot9{,}82\\cdot0{,}0200=8{,}99568\\,\\mathrm{Ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,0 Ns uppåt.</p></div></div>",
+        "fraga": "En boll på 1,2 kg träffar golvet med 5,2 m/s nedåt och studsar med 2,1 m/s uppåt. Kontakten tar 20,0 ms. Bara golvets kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Hur stor impuls ger golvet bollen? Svara i Ns. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En boll på 1,2 kg träffar golvet med 5,2 m/s nedåt och studsar med 2,1 m/s uppåt. Kontakten tar 20,0 ms. Bara golvets kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Hur stor impuls ger golvet bollen? Svara i Ns. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj uppåt som positiv riktning. 20,0 ms = 0,0200 s. Beräkna ändringen i rörelsemängd och tyngdkraftens impuls.</p>\\[\\begin{gathered}\\Delta p=1{,}2\\bigl(2{,}1-(-5{,}2)\\bigr)=8{,}76\\,\\mathrm{kg\\,m/s}\\\\I_g=-mg\\Delta t\\\\=-1{,}2\\cdot9{,}82\\cdot0{,}0200\\\\=-0{,}23568\\,\\mathrm{N\\,s}\\end{gathered}\\]<p>Golvets och tyngdkraftens impulser ska tillsammans ge ändringen i rörelsemängd.</p>\\[\\begin{gathered}I_\\text{golv}+I_g=\\Delta p\\\\I_\\text{golv}=8{,}76-(-0{,}23568)\\\\=8{,}99568\\,\\mathrm{N\\,s}\\end{gathered}\\]<p><strong>Svar: 9,00 Ns, uppåt.</strong></p></div>",
         "ledtrad": "<p>Vilka två krafter verkar på bollen under studsen?</p>",
-        "niva": "E",
-        "poang": "(1/1/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är golvets medelkraft på bollen? Svara i N.",
-        "t": "<p>Golvet ger en boll impulsen 9,0 Ns uppåt under 20,0 ms.</p><p>Hur stor är golvets medelkraft på bollen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Golvets medelkraft är golvets impuls dividerad med kontakttiden. 20,0 ms = 0,0200 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{golv,medel}=\\frac{I_\\mathrm{golv}}{\\Delta t}\\approx\\frac{9{,}0}{0{,}0200}=450\\,\\mathrm{N}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 450 N uppåt.</p></div></div>",
+        "fraga": "Golvet ger en boll impulsen 9,00 Ns uppåt under 20,0 ms. Hur stor är golvets medelkraft på bollen? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p></p><p>Golvet ger en boll impulsen 9,00 Ns uppåt under 20,0 ms. Hur stor är golvets medelkraft på bollen? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla tiden: 20,0 ms = 0,0200 s. Här är golvets egen impuls given, så den delas direkt med tiden.</p>\\[F_\\text{golv,medel}=\\frac{9{,}00}{0{,}0200}=450\\,\\mathrm{N}\\]<p><strong>Svar: 450 N, uppåt.</strong></p></div>",
         "ledtrad": "<p>Dividera impulsen med kontakttiden i sekunder.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Golvet får lika stor impuls åt andra hållet.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Golvets och tyngdkraftens impulser ska tillsammans ge ändringen i rörelsemängd.</p>",
+    "traningsniva": 3,
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 2,
     "spel": true
@@ -109432,23 +109468,23 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "stålkula och kraft",
-    "poang": "(1/1/0)",
-    "t": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><ol type=\"a\"><li>riktad mot rörelsen.</li><li>riktad åt samma håll som rörelsen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta v=\\dfrac{1\\,200\\cdot0{,}027}{0{,}40}=81\\) m/s.</p></div><div class=\"facit-stycke\"><p>\\(v=14-81\\), alltså 67 m/s åt motsatt håll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(67\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=14+81\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(95\\) m/s</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En stålkula på 0,40 kg rör sig åt höger med 14 m/s. En konstant sammanlagd kraft på 1,2 kN verkar i 27 ms. Höger är positiv riktning. Kraftens riktning är oförändrad under hela tiden.</p><ol type=\"a\"><li>Kraften verkar åt vänster. Bestäm kulans fart efteråt, i m/s. Svara med tre värdesiffror.</li><li>Kraften verkar åt höger. Bestäm kulans fart efteråt, i m/s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>1,2 kN = 1200 N och 27 ms = 0,027 s. Kraften åt vänster ger en negativ impuls.</p>\\[\\begin{gathered}I=-1200\\cdot0{,}027=-32{,}4\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{-32{,}4}{0{,}40}=-81\\,\\mathrm{m/s}\\\\v=14-81=-67\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: Farten är 67,0 m/s.</strong> Minustecknet i hastigheten visar att kulan har vänt och går åt vänster. Fart är hastighetens storlek.</p><p><strong>b)</strong></p><p>1,2 kN = 1200 N och 27 ms = 0,027 s. Kraften åt höger ger en positiv impuls.</p>\\[\\begin{gathered}I=1200\\cdot0{,}027=32{,}4\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{32{,}4}{0{,}40}=81\\,\\mathrm{m/s}\\\\v=14+81=95\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 95,0 m/s, åt höger.</strong></p></div>",
     "id": "5.387",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      67,
-      95
+      66.99999999999999,
+      94.99999999999999
     ],
     "tolerans": [
-      1.0,
-      1.43
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -109468,29 +109504,29 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p>",
+    "spelIntro": "<p>En stålkula på 0,40 kg rör sig åt höger med 14 m/s. En konstant sammanlagd kraft på 1,2 kN verkar i 27 ms. Höger är positiv riktning. Kraftens riktning är oförändrad under hela tiden.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "riktad mot rörelsen.",
-        "t": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad mot rörelsen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta v=\\dfrac{1\\,200\\cdot0{,}027}{0{,}40}=81\\) m/s.</p></div><div class=\"facit-stycke\"><p>\\(v=14-81\\), alltså 67 m/s åt motsatt håll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(67\\) m/s</p></div>",
-        "ledtrad": "<p>Bestäm hastighetsändringen.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "riktad åt samma håll som rörelsen.",
-        "t": "<p>En stålkula (0,40 kg) rör sig med 14 m/s. En kraft på 1,2 kN verkar på den i 27 ms. Bestäm farten efteråt om kraften är</p><p>riktad åt samma håll som rörelsen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=14+81\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(95\\) m/s</p></div>",
+        "fraga": "Kraften verkar åt vänster. Bestäm kulans fart efteråt, i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En stålkula på 0,40 kg rör sig åt höger med 14 m/s. En konstant sammanlagd kraft på 1,2 kN verkar i 27 ms. Höger är positiv riktning. Kraftens riktning är oförändrad under hela tiden.</p><p>Kraften verkar åt vänster. Bestäm kulans fart efteråt, i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>1,2 kN = 1200 N och 27 ms = 0,027 s. Kraften åt vänster ger en negativ impuls.</p>\\[\\begin{gathered}I=-1200\\cdot0{,}027=-32{,}4\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{-32{,}4}{0{,}40}=-81\\,\\mathrm{m/s}\\\\v=14-81=-67\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: Farten är 67,0 m/s.</strong> Minustecknet i hastigheten visar att kulan har vänt och går åt vänster. Fart är hastighetens storlek.</p></div>",
         "ledtrad": "<p>Bestäm hastighetsändringen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kraften verkar åt höger. Bestäm kulans fart efteråt, i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En stålkula på 0,40 kg rör sig åt höger med 14 m/s. En konstant sammanlagd kraft på 1,2 kN verkar i 27 ms. Höger är positiv riktning. Kraftens riktning är oförändrad under hela tiden.</p><p>Kraften verkar åt höger. Bestäm kulans fart efteråt, i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>1,2 kN = 1200 N och 27 ms = 0,027 s. Kraften åt höger ger en positiv impuls.</p>\\[\\begin{gathered}I=1200\\cdot0{,}027=32{,}4\\,\\mathrm{N\\,s}\\\\\\Delta v=\\frac{32{,}4}{0{,}40}=81\\,\\mathrm{m/s}\\\\v=14+81=95\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 95,0 m/s, åt höger.</strong></p></div>",
+        "ledtrad": "<p>Bestäm hastighetsändringen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(\\Delta v=\\dfrac{F\\Delta t}{m}\\).</p>",
@@ -109502,25 +109538,25 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "raketsegment separeras",
-    "poang": "(2/1/0)",
-    "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><ol type=\"a\"><li>Vilken fart får den främre delen?</li><li>Vilken fart får den bakre delen?</li><li>Hur långt från varandra är delarna efter 2 minuter?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=50+\\dfrac{3\\,600}{1\\,200}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(53\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=50-\\dfrac{3\\,600}{1\\,800}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta s=(53-48)\\cdot120\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) m</p></li></ol></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Räkna på en raket i rymden utan yttre krafter. Motorerna är avstängda.</p><ol type=\"a\"><li>Raketen rör sig med 50 m/s. Vid en explosion får den främre delen på 1200 kg impulsen 3,6 kNs framåt. Vilken fart får delen? Svara i m/s. Svara med tre värdesiffror.</li><li>Raketen rör sig med 50 m/s. Vid en explosion får den bakre delen på 1800 kg impulsen 3,6 kNs bakåt. Vilken fart får delen? Svara i m/s. Svara med tre värdesiffror.</li><li>Efter explosionen rör sig delarna åt samma håll med konstanta farterna 53 respektive 48 m/s. Räkna att de är på samma plats vid explosionen. Hur långt från varandra är de efter 2,0 minuter? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>3,6 kNs = 3600 Ns. Den framåtriktade impulsen ökar hastigheten.</p>\\[\\begin{gathered}\\Delta v=\\frac{I}{m}=\\frac{3600}{1200}=3{,}00\\,\\mathrm{m/s}\\\\v=50+3{,}00=53{,}0\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 53,0 m/s.</strong></p><p><strong>b)</strong></p><p>3,6 kNs = 3600 Ns. Välj framåt som positiv riktning. Impulsen bakåt är då negativ.</p>\\[\\begin{gathered}\\Delta v=\\frac{-3600}{1800}=-2{,}00\\,\\mathrm{m/s}\\\\v=50-2{,}00=48{,}0\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 48,0 m/s.</strong> Delen går fortfarande framåt.</p><p><strong>c)</strong></p><p>2,0 minuter = 120 s. Avståndet mellan delarna växer med skillnaden i fart.</p>\\[\\Delta s=(53-48)\\cdot120=600\\,\\mathrm{m}\\]<p><strong>Svar: 600 m.</strong></p></div>",
     "id": "5.388",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      53,
-      48,
+      53.0,
+      48.0,
       600
     ],
     "tolerans": [
-      0.795,
-      0.72,
-      9.0
+      0.05,
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -109544,40 +109580,40 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p>",
+    "spelIntro": "<p>Räkna på en raket i rymden utan yttre krafter. Motorerna är avstängda.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart får den främre delen?",
-        "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den främre delen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=50+\\dfrac{3\\,600}{1\\,200}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(53\\) m/s</p></div>",
-        "ledtrad": "<p>\\(\\Delta v=\\dfrac{I}{m}\\).</p>",
+        "fraga": "Raketen rör sig med 50 m/s. Vid en explosion får den främre delen på 1200 kg impulsen 3,6 kNs framåt. Vilken fart får delen? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Räkna på en raket i rymden utan yttre krafter. Motorerna är avstängda.</p><p>Raketen rör sig med 50 m/s. Vid en explosion får den främre delen på 1200 kg impulsen 3,6 kNs framåt. Vilken fart får delen? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>3,6 kNs = 3600 Ns. Den framåtriktade impulsen ökar hastigheten.</p>\\[\\begin{gathered}\\Delta v=\\frac{I}{m}=\\frac{3600}{1200}=3{,}00\\,\\mathrm{m/s}\\\\v=50+3{,}00=53{,}0\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 53,0 m/s.</strong></p></div>",
+        "ledtrad": "<p>Dela den framåtriktade impulsen med massan och lägg hastighetsändringen till starthastigheten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart får den bakre delen?",
-        "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Vilken fart får den bakre delen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=50-\\dfrac{3\\,600}{1\\,800}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\) m/s</p></div>",
-        "ledtrad": "<p>Impulsen är riktad bakåt.</p>",
+        "fraga": "Raketen rör sig med 50 m/s. Vid en explosion får den bakre delen på 1800 kg impulsen 3,6 kNs bakåt. Vilken fart får delen? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>Räkna på en raket i rymden utan yttre krafter. Motorerna är avstängda.</p><p>Raketen rör sig med 50 m/s. Vid en explosion får den bakre delen på 1800 kg impulsen 3,6 kNs bakåt. Vilken fart får delen? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>3,6 kNs = 3600 Ns. Välj framåt som positiv riktning. Impulsen bakåt är då negativ.</p>\\[\\begin{gathered}\\Delta v=\\frac{-3600}{1800}=-2{,}00\\,\\mathrm{m/s}\\\\v=50-2{,}00=48{,}0\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 48,0 m/s.</strong> Delen går fortfarande framåt.</p></div>",
+        "ledtrad": "<p>Impulsen är riktad bakåt. Hastighetsändringen blir därför negativ.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur långt från varandra är delarna efter 2 minuter?",
-        "t": "<p>En raket med farten 50 m/s delas av en sprängladdning. Den främre delen (1 200 kg) får impulsen 3,6 kNs framåt och den bakre (1 800 kg) impulsen 3,6 kNs bakåt.</p><p>Hur långt från varandra är delarna efter 2 minuter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta s=(53-48)\\cdot120\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) m</p></div>",
-        "ledtrad": "<p>Använd den relativa farten.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Efter explosionen rör sig delarna åt samma håll med konstanta farterna 53 respektive 48 m/s. Räkna att de är på samma plats vid explosionen. Hur långt från varandra är de efter 2,0 minuter? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>Räkna på en raket i rymden utan yttre krafter. Motorerna är avstängda.</p><p>Efter explosionen rör sig delarna åt samma håll med konstanta farterna 53 respektive 48 m/s. Räkna att de är på samma plats vid explosionen. Hur långt från varandra är de efter 2,0 minuter? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>2,0 minuter = 120 s. Avståndet mellan delarna växer med skillnaden i fart.</p>\\[\\Delta s=(53-48)\\cdot120=600\\,\\mathrm{m}\\]<p><strong>Svar: 600 m.</strong></p></div>",
+        "ledtrad": "<p>Avståndet växer med skillnaden mellan delarnas farter. Omvandla minuter till sekunder.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>\\(\\Delta v=\\dfrac{I}{m}\\).</p>",
@@ -109592,15 +109628,15 @@ window.BANK = [
     "niva": "E",
     "typ": "stoppa en pulka",
     "poang": "(1/0/0)",
-    "t": "<p>Ett barn i en pulka (sammanlagt 35 kg) åker med 1,5 m/s. Med vilken medelkraft måste du bromsa för att stoppa pulkan på 0,50 s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För att stanna måste pulkans hela rörelsemängd försvinna. Dividera rörelsemängdens storlek med stopptiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{mv}{\\Delta t}=\\frac{35\\cdot1{,}5}{0{,}50}=105\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 105 N mot rörelsen.</p></div></div>",
+    "t": "<p>Ett barn med pulka har sammanlagda massan 35 kg och farten 1,5 m/s. Pulkan stannar på 0,50 s. Hur stor är den sammanlagda bromskraftens medelvärde? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hela rörelsemängden ska tas bort. Bromskraftens storlek är rörelsemängdens minskning delad med stopptiden.</p>\\[\\begin{gathered}|\\Delta p|=35\\cdot1{,}5=52{,}5\\,\\mathrm{kg\\,m/s}\\\\|F_\\text{medel}|=\\frac{52{,}5}{0{,}50}=105\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 105 N, mot rörelsen.</strong></p></div>",
     "id": "5.389",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 105.0,
-    "tolerans": 5.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -109611,24 +109647,24 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "puckens massa",
-    "poang": "(0/1/0)",
-    "t": "<p>En puck glider med 12 m/s. En klubba ger den impulsen 4,0 Ns så att den far tillbaka med samma fart. Vilken massa har pucken?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=m\\cdot24=4{,}0\\iff m=\\dfrac{4{,}0}{24}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}17\\) kg</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En puck glider med 12 m/s. En impuls på 4,0 Ns vänder pucken så att den går rakt tillbaka med samma fart. Hur stor är puckens massa? Svara i kg.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj puckens ursprungliga riktning som positiv. Hastigheten ändras från +12 till −12 m/s.</p>\\[\\Delta v=-12-12=-24\\,\\mathrm{m/s}\\]<p>Impulsen är också negativ. Sambandet I = mΔv ger massan.</p>\\[m=\\frac{-4{,}0}{-24}\\approx0{,}167\\,\\mathrm{kg}\\]<p><strong>Svar: 0,167 kg.</strong> Massan är positiv trots minustecknen som beskriver riktning.</p></div>",
     "id": "5.390",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 0.16666666666666666,
-    "tolerans": 0.0051,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -109639,7 +109675,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "kg",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -109648,15 +109684,15 @@ window.BANK = [
     "niva": "E",
     "typ": "bowlingklot mot vägg",
     "poang": "(1/0/0)",
-    "t": "<p>Ett bowlingklot (5,9 kg) rullar med 8,9 m/s mot en vägg och stannar på 0,018 s. Hur stor är medelkraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Klotets rörelsemängd minskar från mv till noll. Medelkraftens storlek fås genom att dividera minskningen med kontakttiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{medel}=\\frac{mv}{\\Delta t}=\\frac{5{,}9\\cdot8{,}9}{0{,}018}\\approx2917\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2900 N mot rörelsen.</p></div></div>",
+    "t": "<p>Ett bowlingklot på 5,9 kg rullar med 8,9 m/s mot en vägg och stannar på 0,018 s. Hur stor är den sammanlagda vågräta medelkraften på klotet? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klotets rörelsemängd minskar till noll. Medelkraftens storlek är minskningen delad med tiden.</p>\\[|F_\\text{medel}|=\\frac{mv}{\\Delta t}=\\frac{5{,}9\\cdot8{,}9}{0{,}018}\\approx2917\\,\\mathrm{N}\\]<p><strong>Svar: 2,92 · 10³ N, mot rörelsen.</strong></p></div>",
     "id": "5.391",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 2917.2222222222226,
-    "tolerans": 51.0,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -109667,7 +109703,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -109676,8 +109712,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bromsa ett tåg",
     "poang": "(2/0/0)",
-    "t": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><ol type=\"a\"><li>Hur stor kraft krävs för att stoppa tåget på 25 s?</li><li>Hur lång tid tar det med bromskraften 0,10 MN?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Halva tiden kräver dubbla kraften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Halva kraften kräver dubbla tiden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\) s</p></li></ol></div>",
+    "t": "<p>En konstant sammanlagd bromskraft på 0,20 MN stoppar ett tåg på 50 s. I varje försök har tåget samma massa och starthastighet. Kraft · stopptid måste därför vara samma.</p><ol type=\"a\"><li>Hur stor konstant bromskraft krävs för ett stopp på 25 s? Svara i N. Svara med tre värdesiffror.</li><li>Hur lång tid tar stoppet med en konstant bromskraft på 0,10 MN? Svara i s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Samma ändring i rörelsemängd kräver samma impuls. 0,20 MN = 200 000 N. Med halva stopptiden behövs dubbla kraften.</p>\\[F=\\frac{200\\,000\\cdot50}{25}=400\\,000\\,\\mathrm{N}\\]<p><strong>Svar: 4,00 · 10⁵ N.</strong></p><p><strong>b)</strong></p><p>Samma kraft gånger tid ska ge samma impuls i båda försöken. Vi kan använda MN på båda sidor eftersom enheterna då tar ut varandra.</p>\\[t=\\frac{0{,}20\\cdot50}{0{,}10}=100\\,\\mathrm{s}\\]<p><strong>Svar: 100 s.</strong> Halva kraften ger dubbla stopptiden.</p></div>",
     "id": "5.392",
     "miniräknare": true,
     "geogebra": false,
@@ -109685,11 +109721,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       400000.0,
-      100
+      100.0
     ],
     "tolerans": [
-      6000.0,
-      5.1
+      500.0,
+      0.5
     ],
     "självrättning": true,
     "formaga": [
@@ -109710,24 +109746,24 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p>",
+    "spelIntro": "<p>En konstant sammanlagd bromskraft på 0,20 MN stoppar ett tåg på 50 s. I varje försök har tåget samma massa och starthastighet. Kraft · stopptid måste därför vara samma.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor kraft krävs för att stoppa tåget på 25 s?",
-        "t": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur stor kraft krävs för att stoppa tåget på 25 s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Halva tiden kräver dubbla kraften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{5}\\) N</p></div>",
+        "fraga": "Hur stor konstant bromskraft krävs för ett stopp på 25 s? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En konstant sammanlagd bromskraft på 0,20 MN stoppar ett tåg på 50 s. I varje försök har tåget samma massa och starthastighet. Kraft · stopptid måste därför vara samma.</p><p>Hur stor konstant bromskraft krävs för ett stopp på 25 s? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Samma ändring i rörelsemängd kräver samma impuls. 0,20 MN = 200 000 N. Med halva stopptiden behövs dubbla kraften.</p>\\[F=\\frac{200\\,000\\cdot50}{25}=400\\,000\\,\\mathrm{N}\\]<p><strong>Svar: 4,00 · 10⁵ N.</strong></p></div>",
         "ledtrad": "<p>\\(F\\Delta t\\) är konstant.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det med bromskraften 0,10 MN?",
-        "t": "<p>För att stoppa ett tåg på 50 s krävs bromskraften 0,20 MN.</p><p>Hur lång tid tar det med bromskraften 0,10 MN?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Halva kraften kräver dubbla tiden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\) s</p></div>",
+        "fraga": "Hur lång tid tar stoppet med en konstant bromskraft på 0,10 MN? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En konstant sammanlagd bromskraft på 0,20 MN stoppar ett tåg på 50 s. I varje försök har tåget samma massa och starthastighet. Kraft · stopptid måste därför vara samma.</p><p>Hur lång tid tar stoppet med en konstant bromskraft på 0,10 MN? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Samma kraft gånger tid ska ge samma impuls i båda försöken. Vi kan använda MN på båda sidor eftersom enheterna då tar ut varandra.</p>\\[t=\\frac{0{,}20\\cdot50}{0{,}10}=100\\,\\mathrm{s}\\]<p><strong>Svar: 100 s.</strong> Halva kraften ger dubbla stopptiden.</p></div>",
         "ledtrad": "<p>\\(F\\Delta t\\) är konstant.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -109736,7 +109772,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Samma rörelsemängd ska bort.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 2,
     "spel": true
@@ -109744,18 +109780,18 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "tennisboll slås tillbaka",
-    "poang": "(0/1/0)",
-    "t": "<p>En tennisboll (60 g) kommer med 20 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 50 ms. Hur stor är medelkraften från racketen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{0{,}060(50+20)}{0{,}050}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(84\\) N</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En tennisboll på 60 g kommer vågrätt med 20 m/s och slås rakt tillbaka med 50 m/s. Kontakttiden är 50 ms. Bortse från andra vågräta krafter än racketens. Hur stor är racketens vågräta medelkraft? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>60 g = 0,060 kg och 50 ms = 0,050 s. Välj bollens nya riktning som positiv. Hastighetsändringen är 50 − (−20) = 70 m/s.</p>\\[\\begin{gathered}I=0{,}060\\cdot70=4{,}20\\,\\mathrm{N\\,s}\\\\F_\\text{medel}=\\frac{4{,}20}{0{,}050}=84{,}0\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 84,0 N, i bollens nya riktning.</strong></p></div>",
     "id": "5.393",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 84.0,
-    "tolerans": 1.26,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -109766,7 +109802,7 @@ window.BANK = [
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -109774,16 +109810,16 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "C",
     "typ": "studs ur höjder",
-    "poang": "(0/2/0)",
-    "t": "<p>En boll på 150 g släpps från vila. Tyngdpunkten faller 1,25 m före golvkontakten och stiger sedan 0,960 m efter studsen. Bortse från luftmotståndet och från tyngdkraften under den korta golvkontakten. Använd g = 9,82 m/s².</p><p>Hur stor impuls ger golvet bollen? Svara i Ns.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_1=\\sqrt{2g\\cdot1{,}25}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_2=\\sqrt{2g\\cdot0{,}960}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=0{,}150(v_1+v_2)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) Ns</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En boll på 150 g släpps från vila. Tyngdpunkten faller 1,25 m före golvkontakten och stiger sedan 0,960 m efter studsen. Bortse från luftmotståndet och från tyngdkraftens impuls under den korta golvkontakten. Använd g = 9,82 m/s². Hur stor impuls ger golvet bollen? Svara i Ns.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>150 g = 0,150 kg. Energisambandet mgh = mv²/2 ger farterna före och efter studsen.</p>\\[\\begin{gathered}v_1=\\sqrt{2\\cdot9{,}82\\cdot1{,}25}\\approx4{,}9548\\,\\mathrm{m/s}\\\\v_2=\\sqrt{2\\cdot9{,}82\\cdot0{,}960}\\approx4{,}3422\\,\\mathrm{m/s}\\end{gathered}\\]<p>Välj uppåt som positiv riktning. Bollen går nedåt före och uppåt efter kontakten. Använd de oavrundade farterna.</p>\\[I=m\\bigl(v_2-(-v_1)\\bigr)\\approx1{,}39\\,\\mathrm{N\\,s}\\]<p><strong>Svar: 1,39 Ns, uppåt.</strong></p></div>",
     "id": "5.394",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 1.3945441522756212,
-    "tolerans": 0.051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -109803,8 +109839,8 @@ window.BANK = [
     "niva": "C",
     "typ": "ägg som faller",
     "poang": "(1/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><ol type=\"a\"><li>Vilken fart har ägget före nedslaget?</li><li>Hur stor är medelkraften från golvet?</li><li>Hur mycket trycks ägget ihop?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}4\\) m/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F=\\dfrac{0{,}050\\cdot4{,}4}{0{,}010}\\), plus tyngden 0,49 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelfarten under inbromsningen är \\(\\dfrac{4{,}4}{2}\\): \\(s=\\dfrac{4{,}4\\cdot0{,}010}{2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}022\\) m</p></li></ol></div>",
+    "t": "<p>En testboll på 50 g släpps från vila. Tyngdpunkten faller 1,0 m innan bollen träffar golvet. Bortse från luftmotståndet. Under golvkontakten bromsas tyngdpunkten till vila med konstant acceleration på 10 ms. Bollen studsar inte. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken fart har bollen strax före golvkontakten? Svara i m/s. Svara med tre värdesiffror.</li><li>Hur stor är golvets medelkraft på bollen? Bara golvets kraft och tyngdkraften verkar under kontakten. Svara i N. Svara med tre värdesiffror.</li><li>Hur långt rör sig tyngdpunkten nedåt under golvkontakten? Svara i m. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Bollen släpps från vila. Lägesenergin blir rörelseenergi.</p>\\[\\begin{gathered}mgh=\\frac{mv^2}{2}\\\\v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\approx4{,}43\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 4,43 m/s.</strong></p><p><strong>b)</strong></p><p>50 g = 0,050 kg och 10 ms = 0,010 s. Beräkna farten efter fallet från vila.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\approx4{,}4317\\,\\mathrm{m/s}\\]<p>Välj uppåt som positiv riktning. Golvet måste både stoppa rörelsen nedåt och motverka tyngdkraften.</p>\\[\\begin{gathered}F_\\text{golv}-mg=\\frac{m\\bigl(0-(-v)\\bigr)}{\\Delta t}\\\\F_\\text{golv}=\\frac{0{,}050v}{0{,}010}+0{,}050\\cdot9{,}82\\\\\\approx22{,}6\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 22,6 N, uppåt.</strong></p><p><strong>c)</strong></p><p>Farten före kontakten bestäms av fallet från vila.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\approx4{,}4317\\,\\mathrm{m/s}\\]<p>Vid konstant acceleration till vila är medelfarten v/2. 10 ms = 0,010 s.</p>\\[s=\\frac{v+0}{2}\\cdot0{,}010\\approx0{,}0222\\,\\mathrm{m}\\]<p><strong>Svar: 0,0222 m.</strong> Det är tyngdpunktens sträcka under stoppet.</p></div>",
     "id": "5.395",
     "miniräknare": true,
     "geogebra": false,
@@ -109812,13 +109848,13 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.431703961232068,
-      22.649519806160338,
+      22.64951980616034,
       0.02215851980616034
     ],
     "tolerans": [
-      0.0665,
-      0.51,
-      0.00051
+      0.005,
+      0.05,
+      5e-05
     ],
     "självrättning": true,
     "formaga": [
@@ -109842,25 +109878,25 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>",
+    "spelIntro": "<p>En testboll på 50 g släpps från vila. Tyngdpunkten faller 1,0 m innan bollen träffar golvet. Bortse från luftmotståndet. Under golvkontakten bromsas tyngdpunkten till vila med konstant acceleration på 10 ms. Bollen studsar inte. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har ägget före nedslaget?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p><p>Vilken fart har ägget före nedslaget?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}4\\) m/s</p></div>",
-        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "fraga": "Vilken fart har bollen strax före golvkontakten? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En testboll släpps från vila. Tyngdpunkten faller 1,0 m innan bollen träffar golvet. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har bollen strax före golvkontakten? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Bollen släpps från vila. Lägesenergin blir rörelseenergi.</p>\\[\\begin{gathered}mgh=\\frac{mv^2}{2}\\\\v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\approx4{,}43\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 4,43 m/s.</strong></p></div>",
+        "ledtrad": "<p>Från vila gäller v² = 2gh.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är medelkraften från golvet?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur stor är medelkraften från golvet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F=\\dfrac{0{,}050\\cdot4{,}4}{0{,}010}\\), plus tyngden 0,49 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\) N</p></div>",
-        "ledtrad": "<p>Impulslagen.</p>",
+        "fraga": "Hur stor är golvets medelkraft på bollen? Bara golvets kraft och tyngdkraften verkar under kontakten. Svara i N. Svara med tre värdesiffror.",
+        "t": "<p>En testboll på 50 g släpps från vila. Tyngdpunkten faller 1,0 m före golvkontakten. Bortse från luftmotståndet. Bollen bromsas till vila på 10 ms utan att studsa. Använd g = 9,82 m/s².</p><p>Hur stor är golvets medelkraft på bollen? Bara golvets kraft och tyngdkraften verkar under kontakten. Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>50 g = 0,050 kg och 10 ms = 0,010 s. Beräkna farten efter fallet från vila.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\approx4{,}4317\\,\\mathrm{m/s}\\]<p>Välj uppåt som positiv riktning. Golvet måste både stoppa rörelsen nedåt och motverka tyngdkraften.</p>\\[\\begin{gathered}F_\\text{golv}-mg=\\frac{m\\bigl(0-(-v)\\bigr)}{\\Delta t}\\\\F_\\text{golv}=\\frac{0{,}050v}{0{,}010}+0{,}050\\cdot9{,}82\\\\\\approx22{,}6\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 22,6 N, uppåt.</strong></p></div>",
+        "ledtrad": "<p>Beräkna först farten före kontakten. Golvets kraft ska både bromsa bollen och motverka tyngdkraften.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -109868,10 +109904,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket trycks ägget ihop?",
-        "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett ägg (50 g) faller 1,0 m och slår i golvet. Kollisionen tar ungefär 10 ms.</p>Farten före nedslaget är 4,4 m/s.<p>Hur mycket trycks ägget ihop?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelfarten under inbromsningen är \\(\\dfrac{4{,}4}{2}\\): \\(s=\\dfrac{4{,}4\\cdot0{,}010}{2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}022\\) m</p></div>",
-        "ledtrad": "<p>Konstant retardation.</p>",
+        "fraga": "Hur långt rör sig tyngdpunkten nedåt under golvkontakten? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p>En testboll släpps från vila. Tyngdpunkten faller 1,0 m före golvkontakten. Bortse från luftmotståndet. Under kontakten bromsas tyngdpunkten till vila med konstant acceleration på 10 ms. Bollen studsar inte. Använd g = 9,82 m/s².</p><p>Hur långt rör sig tyngdpunkten nedåt under golvkontakten? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten före kontakten bestäms av fallet från vila.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot1{,}0}\\approx4{,}4317\\,\\mathrm{m/s}\\]<p>Vid konstant acceleration till vila är medelfarten v/2. 10 ms = 0,010 s.</p>\\[s=\\frac{v+0}{2}\\cdot0{,}010\\approx0{,}0222\\,\\mathrm{m}\\]<p><strong>Svar: 0,0222 m.</strong> Det är tyngdpunktens sträcka under stoppet.</p></div>",
+        "ledtrad": "<p>Vid konstant acceleration till vila är medelfarten halva startfarten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
@@ -109889,23 +109925,23 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "C",
     "typ": "äpple i gräsmatta",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>Ett äpple (0,10 kg) faller 2,0 m och stannar efter att ha sjunkit 0,060 m ned i gräsmattan. Det blir brunt om kraften överstiger 8,0 N. Hur stor är medelkraften från marken?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Energi: \\(F\\cdot0{,}060=mg(2{,}0+0{,}060)\\iff F=\\dfrac{0{,}10\\cdot9{,}82\\cdot2{,}06}{0{,}060}\\).</p></div><div class=\"facit-stycke\"><p>Äpplet skadas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\) N</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett äpple på 0,10 kg släpps från vila. Tyngdpunkten faller 2,0 m innan äpplet träffar marken och rör sig sedan 0,060 m nedåt tills äpplet stannar. Räkna med konstant acceleration under stoppet. Bara markens kraft och tyngdkraften verkar under stoppet. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur stor är markens kraft på äpplet? Svara i N.</p><p>Svara med tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten vid markkontakten bestäms av fallet från vila.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot2{,}0=39{,}28\\,\\mathrm{m^2/s^2}\\]<p>Konstant acceleration under bromssträckan ger bromsningens storlek b.</p>\\[b=\\frac{v^2}{2s}=\\frac{39{,}28}{2\\cdot0{,}060}\\approx327{,}33\\,\\mathrm{m/s^2}\\]<p>Markens kraft verkar uppåt och tyngdkraften nedåt. Använd det oavrundade värdet på b.</p>\\[\\begin{gathered}F_\\text{mark}-mg=mb\\\\F_\\text{mark}=0{,}10(b+9{,}82)\\approx33{,}7\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 33,7 N, uppåt.</strong></p></div>",
     "id": "5.396",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 33.715333333333334,
-    "tolerans": 0.51,
+    "rättSvar": 33.71533333333334,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bromskraftens arbete tar bort hela lägesenergin.</p>",
+    "ledtrad": "<p>Beräkna farten vid markkontakten och sedan bromsningens storlek. Markens kraft ska också motverka tyngdkraften.</p>",
     "traningsniva": 3,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
@@ -109917,9 +109953,9 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "C",
     "typ": "hopp ned i brandsegel",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p><p>Personen börjar falla från vila. Bortse från luftmotståndet under fallet och räkna med konstant acceleration under inbromsningen.</p><ol type=\"a\"><li>Från vilken höjd hoppade personen?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från seglet?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2g}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) m</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelfarten är 12 m/s: \\(t=\\dfrac{1{,}0}{12}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}083\\) s</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Seglet måste både bromsa personen och motverka tyngdkraften. Välj uppåt som positiv riktning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{segel}-mg=\\frac{m\\Delta v}{\\Delta t}\\quad\\Rightarrow\\quad F_\\mathrm{segel}=\\frac{75\\cdot24}{0{,}0833}+75\\cdot9{,}82\\approx22345\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 22 000 N uppåt.</p></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Räkna på ett räddningssegel som bromsar en fallande person.</p><ol type=\"a\"><li>En person börjar falla från vila och når 24 m/s före träffen med seglet. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur långt har personen fallit? Svara i m. Svara med tre värdesiffror.</li><li>En person träffar seglet med 24 m/s nedåt och bromsas till vila på 1,0 m. Accelerationen är konstant. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.</li><li>En person på 75 kg bromsas från 24 m/s nedåt till vila på 0,0833 s. Bara seglets kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Hur stor är seglets medelkraft på personen? Svara i N. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Från vila ger v² = 2gh fallsträckan.</p>\\[h=\\frac{v^2}{2g}=\\frac{24^2}{2\\cdot9{,}82}\\approx29{,}3\\,\\mathrm{m}\\]<p><strong>Svar: 29,3 m.</strong></p><p><strong>b)</strong></p><p>Vid konstant acceleration från 24 m/s till vila är medelfarten (24 + 0)/2 = 12 m/s.</p>\\[t=\\frac{s}{v_\\text{medel}}=\\frac{1{,}0}{12}\\approx0{,}0833\\,\\mathrm{s}\\]<p><strong>Svar: 0,0833 s.</strong></p><p><strong>c)</strong></p><p>Välj uppåt som positiv riktning. Hastighetsändringen är 0 − (−24) = +24 m/s. Seglet måste också motverka tyngdkraften.</p>\\[\\begin{gathered}F_\\text{segel}-mg=\\frac{m\\Delta v}{\\Delta t}\\\\F_\\text{segel}=\\frac{75\\cdot24}{0{,}0833}+75\\cdot9{,}82\\\\\\approx22\\,345\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 2,23 · 10⁴ N, uppåt.</strong></p></div>",
     "id": "5.397",
     "miniräknare": true,
     "geogebra": false,
@@ -109928,12 +109964,12 @@ window.BANK = [
     "rättSvar": [
       29.327902240325866,
       0.08333333333333333,
-      22336.5
+      22345.143457382954
     ],
     "tolerans": [
-      0.51,
-      0.00125,
-      510.0
+      0.05,
+      5e-05,
+      50.0
     ],
     "självrättning": true,
     "formaga": [
@@ -109957,38 +109993,38 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En person (75 kg) hoppar ut genom ett fönster och träffar ett brandsegel med 24 m/s. Bromssträckan är 1,0 m.</p>",
+    "spelIntro": "<p>Räkna på ett räddningssegel som bromsar en fallande person.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur långt har personen fallit? Svara i m.",
-        "t": "<p>En person börjar falla från vila och når farten 24 m/s innan hen träffar ett räddningssegel. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur långt har personen fallit? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{v^2}{2g}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) m</p></div>",
-        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "fraga": "En person börjar falla från vila och når 24 m/s före träffen med seglet. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur långt har personen fallit? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En person börjar falla från vila och når 24 m/s före träffen med seglet. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur långt har personen fallit? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Från vila ger v² = 2gh fallsträckan.</p>\\[h=\\frac{v^2}{2g}=\\frac{24^2}{2\\cdot9{,}82}\\approx29{,}3\\,\\mathrm{m}\\]<p><strong>Svar: 29,3 m.</strong></p></div>",
+        "ledtrad": "<p>Från vila gäller v² = 2gh.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
-        "t": "<p>En person träffar ett räddningssegel med farten 24 m/s nedåt och bromsas till vila på 1,0 m. Räkna med konstant acceleration under inbromsningen.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Medelfarten är 12 m/s: \\(t=\\dfrac{1{,}0}{12}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}083\\) s</p></div>",
-        "ledtrad": "<p>Konstant retardation.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "En person träffar seglet med 24 m/s nedåt och bromsas till vila på 1,0 m. Accelerationen är konstant. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En person träffar seglet med 24 m/s nedåt och bromsas till vila på 1,0 m. Accelerationen är konstant. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant acceleration från 24 m/s till vila är medelfarten (24 + 0)/2 = 12 m/s.</p>\\[t=\\frac{s}{v_\\text{medel}}=\\frac{1{,}0}{12}\\approx0{,}0833\\,\\mathrm{s}\\]<p><strong>Svar: 0,0833 s.</strong></p></div>",
+        "ledtrad": "<p>Vid konstant acceleration till vila är medelfarten halva startfarten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är medelkraften från seglet på personen? Svara i N.",
-        "t": "<p>En person på 75 kg bromsas från 24 m/s nedåt till vila i ett räddningssegel. Inbromsningen tar 0,0833 s. Använd g = 9,82 m/s².</p><p>Hur stor är medelkraften från seglet på personen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Seglet måste både bromsa personen och motverka tyngdkraften. Välj uppåt som positiv riktning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_\\mathrm{segel}-mg=\\frac{m\\Delta v}{\\Delta t}\\quad\\Rightarrow\\quad F_\\mathrm{segel}=\\frac{75\\cdot24}{0{,}0833}+75\\cdot9{,}82\\approx22345\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 22 000 N uppåt.</p></div></div>",
-        "ledtrad": "<p>Vilka två krafter verkar på personen under inbromsningen?</p>",
+        "fraga": "En person på 75 kg bromsas från 24 m/s nedåt till vila på 0,0833 s. Bara seglets kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Hur stor är seglets medelkraft på personen? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En person på 75 kg bromsas från 24 m/s nedåt till vila på 0,0833 s. Bara seglets kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Hur stor är seglets medelkraft på personen? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj uppåt som positiv riktning. Hastighetsändringen är 0 − (−24) = +24 m/s. Seglet måste också motverka tyngdkraften.</p>\\[\\begin{gathered}F_\\text{segel}-mg=\\frac{m\\Delta v}{\\Delta t}\\\\F_\\text{segel}=\\frac{75\\cdot24}{0{,}0833}+75\\cdot9{,}82\\\\\\approx22\\,345\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 2,23 · 10⁴ N, uppåt.</strong></p></div>",
+        "ledtrad": "<p>Seglets kraft ska både bromsa personen och motverka tyngdkraften.</p>",
         "niva": "C",
-        "poang": "(0/1/1)",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
@@ -110002,23 +110038,23 @@ window.BANK = [
   {
     "kap": 5,
     "omr": "rorelsemangd",
-    "niva": "C",
+    "niva": "E",
     "typ": "kindben och ratt",
-    "poang": "(1/1/0)",
-    "t": "<p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p><ol type=\"a\"><li>Hur stor är medelkraften?</li><li>Vilken är den kortaste kontakttid som undviker skador?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{150}{0{,}020}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,500\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{150}{900}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}17\\) s</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Räkna på en testdockas huvud som bromsas.</p><ol type=\"a\"><li>Huvudet får en bromsande impuls med storleken 150 Ns under 20 ms. Hur stor är den sammanlagda medelkraften? Svara i N. Svara med tre värdesiffror.</li><li>Huvudet ska få en bromsande impuls med storleken 150 Ns. Medelkraftens storlek får vara högst 900 N. Beräkna gränstiden för stoppet. Svara i s. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>20 ms = 0,020 s. Medelkraftens storlek är impulsens storlek delad med tiden.</p>\\[|F_\\text{medel}|=\\frac{150}{0{,}020}=7500\\,\\mathrm{N}\\]<p><strong>Svar: 7,50 · 10³ N.</strong></p><p><strong>b)</strong></p><p>Vid gränsen är medelkraften 900 N. Dela impulsen med denna kraft.</p>\\[t=\\frac{150}{900}\\approx0{,}167\\,\\mathrm{s}\\]<p><strong>Svar: 0,167 s.</strong> Ett längre stopp ger lägre medelkraft; ett kortare ger högre.</p></div>",
     "id": "5.398",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7500,
+      7500.0,
       0.16666666666666666
     ],
     "tolerans": [
-      112.0,
-      0.0051
+      5.0,
+      0.0005
     ],
     "självrättning": true,
     "formaga": [
@@ -110039,29 +110075,29 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En testdocka får impulsen 150 Ns mot kindbenen när huvudet slår i ratten. Kontakttiden är ungefär 20 ms. Kindbenen skadas om kraften överstiger 900 N.</p>",
+    "spelIntro": "<p>Räkna på en testdockas huvud som bromsas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är medelkraften på huvudet? Svara i N.",
-        "t": "<p>En testdockas huvud bromsas med impulsen 150 Ns under 20 ms.</p><p>Hur stor är medelkraften på huvudet? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\dfrac{150}{0{,}020}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,500\\) N</p></div>",
+        "fraga": "Huvudet får en bromsande impuls med storleken 150 Ns under 20 ms. Hur stor är den sammanlagda medelkraften? Svara i N. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En testdockas huvud får en bromsande impuls med storleken 150 Ns under 20 ms. Hur stor är den sammanlagda medelkraften? Svara i N. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 ms = 0,020 s. Medelkraftens storlek är impulsens storlek delad med tiden.</p>\\[|F_\\text{medel}|=\\frac{150}{0{,}020}=7500\\,\\mathrm{N}\\]<p><strong>Svar: 7,50 · 10³ N.</strong></p></div>",
         "ledtrad": "<p>\\(F=\\dfrac I{\\Delta t}\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång måste inbromsningen minst vara? Svara i s.",
-        "t": "<p>En testdockas huvud ska bromsas med impulsen 150 Ns. Medelkraften får vara högst 900 N.</p><p>Hur lång måste inbromsningen minst vara? Svara i s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta t=\\dfrac{150}{900}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}17\\) s</p></div>",
+        "fraga": "Huvudet ska få en bromsande impuls med storleken 150 Ns. Medelkraftens storlek får vara högst 900 N. Beräkna gränstiden för stoppet. Svara i s. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En testdockas huvud ska få en bromsande impuls med storleken 150 Ns. Medelkraftens storlek får vara högst 900 N. Beräkna gränstiden för stoppet. Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid gränsen är medelkraften 900 N. Dela impulsen med denna kraft.</p>\\[t=\\frac{150}{900}\\approx0{,}167\\,\\mathrm{s}\\]<p><strong>Svar: 0,167 s.</strong> Ett längre stopp ger lägre medelkraft; ett kortare ger högre.</p></div>",
         "ledtrad": "<p>Samma impuls, högst 900 N.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Längre kontakttid ger mindre kraft.</p>",
@@ -110075,9 +110111,9 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "C",
     "typ": "magplask i vattenbalja",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p><p>Personen börjar falla från vila. Bortse från luftmotståndet under fallet och räkna med konstant acceleration under inbromsningen.</p><ol type=\"a\"><li>Vilken fart har han vid vattenytan?</li><li>Hur lång tid tar inbromsningen?</li><li>Hur stor är medelkraften från vattnet?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten. Slutfarten är noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{s}{v_\\mathrm{medel}}=\\frac{0{,}30}{(15{,}35+0)/2}\\approx0{,}0390\\,\\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,039 s.</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först den uppåtriktade accelerationen under stoppet. Vattnets kraft måste också motverka tyngdkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{v^2}{2s}=\\frac{15{,}35^2}{2\\cdot0{,}30}\\qquad F_\\mathrm{vatten}=m(a+g)=78\\left(\\frac{15{,}35^2}{0{,}60}+9{,}82\\right)\\approx31397\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 31 400 N uppåt.</p></div></div></div>",
+    "poang": "(1/2/0)",
+    "t": "<p>En testvikt släpps från vila och faller 12 m före en broms. Tyngdpunkten bromsas sedan till vila på 0,30 m med konstant acceleration. Bortse från luftmotståndet. Under stoppet verkar bara bromsens kraft och tyngdkraften. Använd g = 9,82 m/s².</p><ol type=\"a\"><li>Vilken fart har vikten strax före bromsningen? Svara i m/s. Svara med tre värdesiffror.</li><li>Hur lång tid tar bromsningen? Svara i s. Svara med tre värdesiffror.</li><li>Hur många gånger så stor som tyngdkraften är bromsens kraft under stoppet? Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lägesenergin blir rörelseenergi när vikten faller från vila.</p>\\[v=\\sqrt{2gh}=\\sqrt{2\\cdot9{,}82\\cdot12}\\approx15{,}4\\,\\mathrm{m/s}\\]<p><strong>Svar: 15,4 m/s.</strong></p><p><strong>b)</strong></p><p>Beräkna först farten efter fallet från vila.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot12}\\approx15{,}3519\\,\\mathrm{m/s}\\]<p>Vid konstant acceleration till vila är medelfarten v/2. Använd den oavrundade farten.</p>\\[t=\\frac{s}{v/2}=\\frac{2\\cdot0{,}30}{v}\\approx0{,}0391\\,\\mathrm{s}\\]<p><strong>Svar: 0,0391 s.</strong></p><p><strong>c)</strong></p><p>Fallet ger v² = 2gh. Under stoppet ger v² = 2bs bromsningens storlek b.</p>\\[b=\\frac{v^2}{2s}=\\frac{2gh}{2s}=\\frac{gh}{s}\\]<p>Bromsens kraft verkar uppåt. Den ska både bromsa vikten och motverka tyngdkraften: F − mg = mb. Dividera med tyngdkraften mg.</p>\\[\\frac{F}{mg}=\\frac{b+g}{g}=\\frac{h}{s}+1=\\frac{12}{0{,}30}+1=41\\]<p><strong>Svar: 41,0 gånger så stor.</strong> Massan tar ut sig, så den behöver inte vara given.</p></div>",
     "id": "5.399",
     "miniräknare": true,
     "geogebra": false,
@@ -110086,12 +110122,12 @@ window.BANK = [
     "rättSvar": [
       15.351872849916392,
       0.03908317935314763,
-      31404.360000000004
+      41.0
     ],
     "tolerans": [
-      0.51,
-      0.000586,
-      510.0
+      0.05,
+      5e-05,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -110112,49 +110148,49 @@ window.BANK = [
     "svarEnhet": [
       "m/s",
       "s",
-      "N"
+      null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En luftakrobat (78 kg) faller 12 m och bromsas helt i 30 cm vatten.</p>",
+    "spelIntro": "<p>En testvikt släpps från vila och faller 12 m före en broms. Tyngdpunkten bromsas sedan till vila på 0,30 m med konstant acceleration. Bortse från luftmotståndet. Under stoppet verkar bara bromsens kraft och tyngdkraften. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fart har akrobaten vid vattenytan? Svara i m/s.",
-        "t": "<p>En akrobat börjar falla från vila och faller 12 m innan hen når vattenytan. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har akrobaten vid vattenytan? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) m/s</p></div>",
-        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "fraga": "Vilken fart har vikten strax före bromsningen? Svara i m/s. Svara med tre värdesiffror.",
+        "t": "<p>En testvikt släpps från vila och faller 12 m före en broms. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Vilken fart har vikten strax före bromsningen? Svara i m/s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägesenergin blir rörelseenergi när vikten faller från vila.</p>\\[v=\\sqrt{2gh}=\\sqrt{2\\cdot9{,}82\\cdot12}\\approx15{,}4\\,\\mathrm{m/s}\\]<p><strong>Svar: 15,4 m/s.</strong></p></div>",
+        "ledtrad": "<p>Från vila gäller v² = 2gh.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
-        "t": "<p>En akrobat träffar vattenytan med farten 15,35 m/s nedåt och bromsas till vila på 0,30 m. Räkna med konstant acceleration under inbromsningen.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid konstant acceleration är medelfarten medelvärdet av startfarten och slutfarten. Slutfarten är noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{s}{v_\\mathrm{medel}}=\\frac{0{,}30}{(15{,}35+0)/2}\\approx0{,}0390\\,\\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,039 s.</p></div></div>",
-        "ledtrad": "<p>Konstant retardation: medelfarten är \\(v/2\\).</p>",
+        "fraga": "Hur lång tid tar bromsningen? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p>En testvikt släpps från vila och faller 12 m före en broms. Tyngdpunkten bromsas sedan till vila på 0,30 m med konstant acceleration. Bortse från luftmotståndet. Under stoppet verkar bara bromsens kraft och tyngdkraften. Använd g = 9,82 m/s².</p><p>Hur lång tid tar bromsningen? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först farten efter fallet från vila.</p>\\[v=\\sqrt{2\\cdot9{,}82\\cdot12}\\approx15{,}3519\\,\\mathrm{m/s}\\]<p>Vid konstant acceleration till vila är medelfarten v/2. Använd den oavrundade farten.</p>\\[t=\\frac{s}{v/2}=\\frac{2\\cdot0{,}30}{v}\\approx0{,}0391\\,\\mathrm{s}\\]<p><strong>Svar: 0,0391 s.</strong></p></div>",
+        "ledtrad": "<p>Beräkna först farten efter fallet. Vid konstant acceleration till vila är medelfarten v/2.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 3,
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är kraften från vattnet på akrobaten? Svara i N.",
-        "t": "<p>En akrobat på 78 kg träffar vattenytan med farten 15,35 m/s nedåt och bromsas till vila på 0,30 m. Räkna med konstant acceleration under inbromsningen. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från vattnet på akrobaten? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först den uppåtriktade accelerationen under stoppet. Vattnets kraft måste också motverka tyngdkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{v^2}{2s}=\\frac{15{,}35^2}{2\\cdot0{,}30}\\qquad F_\\mathrm{vatten}=m(a+g)=78\\left(\\frac{15{,}35^2}{0{,}60}+9{,}82\\right)\\approx31397\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 31 400 N uppåt.</p></div></div>",
-        "ledtrad": "<p>Skilj vattnets kraft från summan av vattnets kraft och tyngdkraften.</p>",
+        "fraga": "Hur många gånger så stor som tyngdkraften är bromsens kraft under stoppet? Svara med tre värdesiffror.",
+        "t": "<p>En testvikt släpps från vila och faller 12 m före en broms. Tyngdpunkten bromsas sedan till vila på 0,30 m med konstant acceleration. Bortse från luftmotståndet. Under stoppet verkar bara bromsens kraft och tyngdkraften. Använd g = 9,82 m/s².</p><p>Hur många gånger så stor som tyngdkraften är bromsens kraft under stoppet? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fallet ger v² = 2gh. Under stoppet ger v² = 2bs bromsningens storlek b.</p>\\[b=\\frac{v^2}{2s}=\\frac{2gh}{2s}=\\frac{gh}{s}\\]<p>Bromsens kraft verkar uppåt. Den ska både bromsa vikten och motverka tyngdkraften: F − mg = mb. Dividera med tyngdkraften mg.</p>\\[\\frac{F}{mg}=\\frac{b+g}{g}=\\frac{h}{s}+1=\\frac{12}{0{,}30}+1=41\\]<p><strong>Svar: 41,0 gånger så stor.</strong> Massan tar ut sig, så den behöver inte vara given.</p></div>",
+        "ledtrad": "<p>Använd F − mg = mb och b = v²/(2s). Dividera kraften med mg för att få kvoten.</p>",
         "niva": "C",
-        "poang": "(0/1/1)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 3
       }
     ],
-    "ledtrad": "<p>Bromskraften tar bort hela lägesenergin.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Fallet bestämmer farten före stoppet. Under stoppet måste bromsen också motverka tyngdkraften.</p>",
+    "traningsniva": 4,
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true
   },
   {
@@ -110162,9 +110198,9 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "C",
     "typ": "stuntman i luftmadrass",
-    "poang": "(1/2/1)",
-    "t": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p><p>Personen börjar falla från vila. Bortse från luftmotståndet under fallet och räkna med konstant acceleration under inbromsningen.</p><ol type=\"a\"><li>Från vilken höjd föll han?</li><li>Hur lång tid tog inbromsningen?</li><li>Hur stor var medelkraften från madrassen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{36^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) m</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{2\\cdot4{,}0}{36}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}22\\) s</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den uppåtriktade accelerationen bestäms av fart och bromssträcka. Madrassens kraft ska både bromsa stuntmannen och motverka tyngdkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{36^2}{2\\cdot4{,}0}=162\\,\\mathrm{m/s^2}\\qquad F_\\mathrm{madrass}=m(a+g)=80(162+9{,}82)=13745{,}6\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 000 N uppåt.</p></div></div></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Räkna på en luftmadrass som bromsar en fallande testvikt.</p><ol type=\"a\"><li>En testvikt börjar falla från vila och når 36 m/s före madrassen. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur långt har vikten fallit? Svara i m. Svara med tre värdesiffror.</li><li>En testvikt träffar madrassen med 36 m/s nedåt och bromsas till vila på 4,0 m. Accelerationen är konstant. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.</li><li>Madrassen ska bromsa en testvikt från 36 m/s nedåt till vila på 4,0 m med konstant acceleration. Madrassens kraft får vara högst 10,0 kN. Bara madrassens kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Beräkna den största massa som kan bromsas i modellen. Svara i kg. Svara med tre värdesiffror.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Från vila ger v² = 2gh fallsträckan.</p>\\[h=\\frac{36^2}{2\\cdot9{,}82}\\approx66{,}0\\,\\mathrm{m}\\]<p><strong>Svar: 66,0 m.</strong></p><p><strong>b)</strong></p><p>Vid konstant acceleration till vila är medelfarten (36 + 0)/2 = 18 m/s.</p>\\[t=\\frac{4{,}0}{18}\\approx0{,}222\\,\\mathrm{s}\\]<p><strong>Svar: 0,222 s.</strong></p><p><strong>c)</strong></p><p>Beräkna bromsningens storlek b med v² = 2bs.</p>\\[b=\\frac{36^2}{2\\cdot4{,}0}=162\\,\\mathrm{m/s^2}\\]<p>Madrassens kraft måste också motverka tyngdkraften: F − mg = mb. Störst massa fås vid den största tillåtna kraften, 10,0 kN = 10 000 N.</p>\\[m=\\frac{F}{b+g}=\\frac{10\\,000}{162+9{,}82}\\approx58{,}2\\,\\mathrm{kg}\\]<p><strong>Svar: 58,2 kg.</strong></p></div>",
     "id": "5.400",
     "miniräknare": true,
     "geogebra": false,
@@ -110173,12 +110209,12 @@ window.BANK = [
     "rättSvar": [
       65.9877800407332,
       0.2222222222222222,
-      13745.6
+      58.200442323361656
     ],
     "tolerans": [
-      0.99,
-      0.0051,
-      510.0
+      0.05,
+      0.0005,
+      0.05
     ],
     "självrättning": true,
     "formaga": [
@@ -110199,46 +110235,46 @@ window.BANK = [
     "svarEnhet": [
       "m",
       "s",
-      "N"
+      "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(g=9{,}82\\) m/s².</p><p>En stuntman (80 kg) träffar en luftmadrass med 36 m/s. Madrassen trycks ihop 4,0 m vid inbromsningen.</p>",
+    "spelIntro": "<p>Räkna på en luftmadrass som bromsar en fallande testvikt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur långt har stuntmannen fallit? Svara i m.",
-        "t": "<p>En stuntman börjar falla från vila och når farten 36 m/s innan hen träffar en luftmadrass. Bortse från luftmotståndet. Använd g = 9,82 m/s².</p><p>Hur långt har stuntmannen fallit? Svara i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\dfrac{36^2}{2\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(66\\) m</p></div>",
-        "ledtrad": "<p>\\(v^2=2gh\\).</p>",
+        "fraga": "En testvikt börjar falla från vila och når 36 m/s före madrassen. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur långt har vikten fallit? Svara i m. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En testvikt börjar falla från vila och når 36 m/s före madrassen. Bortse från luftmotståndet. Använd g = 9,82 m/s². Hur långt har vikten fallit? Svara i m. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Från vila ger v² = 2gh fallsträckan.</p>\\[h=\\frac{36^2}{2\\cdot9{,}82}\\approx66{,}0\\,\\mathrm{m}\\]<p><strong>Svar: 66,0 m.</strong></p></div>",
+        "ledtrad": "<p>Från vila gäller v² = 2gh.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar inbromsningen? Svara i s.",
-        "t": "<p>En stuntman träffar en luftmadrass med farten 36 m/s nedåt och bromsas till vila på 4,0 m. Räkna med konstant acceleration under inbromsningen.</p><p>Hur lång tid tar inbromsningen? Svara i s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{2\\cdot4{,}0}{36}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}22\\) s</p></div>",
-        "ledtrad": "<p>Medelfarten är halva farten.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "En testvikt träffar madrassen med 36 m/s nedåt och bromsas till vila på 4,0 m. Accelerationen är konstant. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.",
+        "t": "<p></p><p>En testvikt träffar madrassen med 36 m/s nedåt och bromsas till vila på 4,0 m. Accelerationen är konstant. Hur lång tid tar stoppet? Svara i s. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid konstant acceleration till vila är medelfarten (36 + 0)/2 = 18 m/s.</p>\\[t=\\frac{4{,}0}{18}\\approx0{,}222\\,\\mathrm{s}\\]<p><strong>Svar: 0,222 s.</strong></p></div>",
+        "ledtrad": "<p>Vid konstant acceleration till vila är medelfarten halva startfarten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är kraften från madrassen på stuntmannen? Svara i N.",
-        "t": "<p>En stuntman på 80 kg träffar en luftmadrass med farten 36 m/s nedåt och bromsas till vila på 4,0 m. Räkna med konstant acceleration under inbromsningen. Använd g = 9,82 m/s².</p><p>Hur stor är kraften från madrassen på stuntmannen? Svara i N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den uppåtriktade accelerationen bestäms av fart och bromssträcka. Madrassens kraft ska både bromsa stuntmannen och motverka tyngdkraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{36^2}{2\\cdot4{,}0}=162\\,\\mathrm{m/s^2}\\qquad F_\\mathrm{madrass}=m(a+g)=80(162+9{,}82)=13745{,}6\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14 000 N uppåt.</p></div></div>",
-        "ledtrad": "<p>Beräkna den sammanlagda kraften som bromsar personen och lägg sedan till tyngdkraften.</p>",
+        "fraga": "Madrassen ska bromsa en testvikt från 36 m/s nedåt till vila på 4,0 m med konstant acceleration. Madrassens kraft får vara högst 10,0 kN. Bara madrassens kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Beräkna den största massa som kan bromsas i modellen. Svara i kg. Svara med tre värdesiffror.",
+        "t": "<p></p><p>Madrassen ska bromsa en testvikt från 36 m/s nedåt till vila på 4,0 m med konstant acceleration. Madrassens kraft får vara högst 10,0 kN. Bara madrassens kraft och tyngdkraften verkar. Använd g = 9,82 m/s². Beräkna den största massa som kan bromsas i modellen. Svara i kg. Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna bromsningens storlek b med v² = 2bs.</p>\\[b=\\frac{36^2}{2\\cdot4{,}0}=162\\,\\mathrm{m/s^2}\\]<p>Madrassens kraft måste också motverka tyngdkraften: F − mg = mb. Störst massa fås vid den största tillåtna kraften, 10,0 kN = 10 000 N.</p>\\[m=\\frac{F}{b+g}=\\frac{10\\,000}{162+9{,}82}\\approx58{,}2\\,\\mathrm{kg}\\]<p><strong>Svar: 58,2 kg.</strong></p></div>",
+        "ledtrad": "<p>Beräkna b = v²/(2s). Sambandet F = m(b + g) ger sedan massan vid den största tillåtna kraften.</p>",
         "niva": "C",
-        "poang": "(0/1/1)",
+        "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Bromskraften tar bort hela lägesenergin.</p>",
+    "ledtrad": "<p>Farten och bromssträckan bestämmer bromsningen. Madrassens kraft måste också motverka tyngdkraften.</p>",
     "traningsniva": 3,
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 2,
@@ -175488,8 +175524,8 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 6.0,
+    "tolerans": 0.005,
     "svarFormat": "numeriskt",
     "svarEnhet": "N·s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
@@ -175502,7 +175538,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "typ": "impuls från triangulär kontaktkraft",
-    "t": "<p>Grafen visar kraften från en hand på en boll under en knuff. Kraften verkar åt samma håll hela tiden. Bestäm impulsen på bollen. Svara i N·s.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Triangulär kraftpuls: 0–0,20 s med toppkraft 60 N.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"168.333\" x2=\"435\" y2=\"168.333\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"173.333\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"65\" y1=\"116.667\" x2=\"435\" y2=\"116.667\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"121.667\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">60</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"250\" y1=\"65\" x2=\"250\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"250\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,1</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,220 65,220 250,65 435,220 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,220 250,65 435,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
+    "t": "<p>Grafen visar kraften från en hand på en boll under en knuff. Kraften verkar åt samma håll hela tiden. Bestäm handens impuls på bollen. Svara i N·s.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Triangulär kraftpuls: 0–0,20 s med toppkraft 60 N.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"65\" y=\"28\" font-size=\"16\" text-anchor=\"start\" fill=\"#172033\">F (N)</text><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"225\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"168.333\" x2=\"435\" y2=\"168.333\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"173.333\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">20</text><line x1=\"65\" y1=\"116.667\" x2=\"435\" y2=\"116.667\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"121.667\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">40</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" font-size=\"14\" text-anchor=\"end\" fill=\"#172033\">60</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"250\" y1=\"65\" x2=\"250\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"250\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,1</text><line x1=\"435\" y1=\"65\" x2=\"435\" y2=\"220\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"435\" y=\"245\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172033\">0,2</text><line x1=\"65\" y1=\"65\" x2=\"65\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"220\" x2=\"435\" y2=\"220\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"435\" y=\"277\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">t (s)</text><polygon points=\"65,220 65,220 250,65 435,220 435,220\" fill=\"#2563eb\" fill-opacity=\"0.13\"/><polyline points=\"65,220 250,65 435,220\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"3\"/></g></svg></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Impulsen är triangelarean. Basen är kontakttiden och höjden är den största kraften.</p><div class=\"facit-matte\">\\[I=\\frac{0{,}20\\cdot60}{2}=6\\,\\mathrm{N\\,s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 N·s.</p></div></div>",
     "ledtrad": "<p>Använd triangelns bas och höjd.</p>",
     "traningsniva": 2,
@@ -175516,8 +175552,8 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0,
+    "rättSvar": 6.0,
+    "tolerans": 0.005,
     "svarFormat": "numeriskt",
     "svarEnhet": "N·s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
@@ -175591,8 +175627,8 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0,
+    "rättSvar": 4.0,
+    "tolerans": 0.005,
     "svarFormat": "numeriskt",
     "svarEnhet": "N·s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
@@ -175619,8 +175655,8 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 40,
-    "tolerans": 0,
+    "rättSvar": 40.0,
+    "tolerans": 0.05,
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft"
@@ -175647,7 +175683,7 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 0,
+    "rättSvar": 0.0,
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "svarEnhet": "N·s",
@@ -175675,8 +175711,8 @@ window.BANK = [
     "spel": true,
     "självrättning": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 0,
+    "rättSvar": 3.0,
+    "tolerans": 0.005,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft"

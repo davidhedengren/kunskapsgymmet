@@ -216,9 +216,10 @@ test('Bollstudsens golvimpuls inkluderar tyngdkraftens impuls under kontakten',(
   const change=1.2*(2.1-(-5.2));
   const floorImpulse=change+1.2*9.82*0.020;
   assert.ok(Math.abs(impulse.rättSvar-floorImpulse)<1e-10);
-  assert.ok(Math.abs(force.rättSvar-floorImpulse/0.020)<1e-10);
+  // Del b är ett fristående kort med den uttryckligen givna impulsen 9,00 Ns.
+  assert.ok(Math.abs(force.rättSvar-9.00/0.020)<1e-10);
   assert.ok(impulse.rättSvar>change);
-  assert.match(force.t,/9,0 Ns/);
+  assert.match(force.t,/9,00 Ns/);
   assert.match(force.t,/20,0 ms/);
   assert.equal(impulse.svarEnhet,'Ns');
   assert.equal(force.svarEnhet,'N');

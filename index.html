@@ -1951,6 +1951,9 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 @media(hover:none){.omr-punkt{opacity:.68}}
 
 .tshell{width:min(880px,calc(100% - 32px));margin:0 auto;padding-bottom:60px}
+.passnav{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:4px 0 14px;font-size:13px;color:var(--ink2)}
+.passnav small{flex-basis:100%;font-size:12px;color:var(--ink3)}
+.passnav .btn:disabled{opacity:.45;cursor:default}
 
 .ttop{
   position:sticky;top:0;z-index:30;
@@ -3848,12 +3851,17 @@ const PASS_LIVSTID=12*3600*1000;
 
 function sparaPagaendePass(){
   if(!state.currentTask || !state.course) return;
-
-  if(!state.sessionDone) return rensaPagaendePass();
+  const h=state.passHistory||[],live=state.passLive?.status;
+  const t=live?.currentTask || (state.passReview?h.at(-1)?.task:null) || state.currentTask;
+  const status=live||state;
   try{
     localStorage.setItem(PASS_KEY,JSON.stringify({
       at:Date.now(), owner:syncOwner, kurs:state.course, track:state.track,
-      uppgift:state.currentTask.id,
+      uppgift:t.id,
+      passHistorik:h.map(x=>({id:x.task.id,klar:!!x.completed})),
+      uppgiftStatus:{answered:live?!!live.answered:state.passReview?!!h.at(-1)?.completed:!!state.answered,
+        noXp:!!status.noXp,solutionShown:!!status.solutionShown,
+        hintUsed:!!status.hintUsed,hintVisible:!!status.hintVisible},
       done:state.sessionDone, target:state.sessionTarget,
       xp:state.sessionXp, ratt:state.sessionCorrect,
       passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
@@ -3894,6 +3902,18 @@ function aterupptaPass(d){
   state.hintUsed=false; state.hintVisible=false;
   state.altValda=new Set(); state.altMiss=null;
   state.altOrdning=null; state.altOrdningId=null;
+  const tasks=availableTasks(),lookup=new Map(tasks.map(x=>[x.id,x]));
+  const records=Array.isArray(d.passHistorik)&&d.passHistorik.length
+    ? d.passHistorik : (d.lastIds||[]).map((id,i)=>({id,klar:i<(d.done||0)}));
+  state.passHistory=records.filter(x=>lookup.has(x.id)).map(x=>({task:lookup.get(x.id),completed:!!x.klar}));
+  if(state.passHistory.at(-1)?.task.id!==t.id) state.passHistory.push({task:t,completed:!!d.uppgiftStatus?.answered});
+  state.passIndex=state.passHistory.length-1;
+  state.passCourse=state.course;state.passLive=null;state.passAvslutat=false;
+  state.passReview=!!state.passHistory.at(-1)?.completed || !!d.uppgiftStatus?.answered;
+  state.noXp=state.passReview || !!d.uppgiftStatus?.noXp;
+  state.solutionShown=!state.passReview && !!d.uppgiftStatus?.solutionShown;
+  state.hintUsed=!state.passReview && !!d.uppgiftStatus?.hintUsed;
+  state.hintVisible=!state.passReview && !!d.uppgiftStatus?.hintVisible;
   return true;
 }
 const app=document.getElementById("app");
@@ -3902,6 +3922,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
+  passHistory:[],passIndex:-1,passReview:false,passLive:null,passCourse:null,
   aktivRuta:0,
   focusOmr:null, focusNamn:null, focusNiva:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
@@ -8596,6 +8617,8 @@ function chooseTask(){
 }
 
 function beginSession(typ){
+  state.passHistory=[];state.passIndex=-1;state.passReview=false;state.passLive=null;
+  state.passCourse=state.course;
   if(typ!=="prov") state.prov=null;
   state.passTyp=PASS[typ]?typ:null;
   state.ptOppen=false;
@@ -8607,6 +8630,75 @@ function beginSession(typ){
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
   if(state.prov) state.sessionTarget=provPassLangd();
+}
+
+/* Tidigare frågor i samma pass är övning. Den pågående frågans DOM sparas
+   medan eleven går bakåt, så inmatning, delresultat och visat facit bevaras. */
+const PASS_SVAR_FALT=["currentTask","answered","solutionShown","partResults","partIndex",
+  "noXp","aktivRuta","hintUsed","hintVisible","altValda","altMiss","altOrdning",
+  "altOrdningId","ggForslag"];
+function passSvarStatus(){
+  return Object.fromEntries(PASS_SVAR_FALT.map(k=>[k,
+    state[k] instanceof Set ? new Set(state[k]) :
+    Array.isArray(state[k]) ? state[k].slice() : state[k]]));
+}
+function passNavigationHtml(){
+  const h=state.passHistory||[];
+  if(!h.length || state.passCourse!==state.course) return "";
+  const i=state.passIndex;
+  return `<nav class="passnav" aria-label="Uppgifter i detta pass">
+    <button class="btn sm" id="pass-back" onclick="passBakat()" ${i<=0?"disabled":""}>← Föregående</button>
+    <span>${state.passReview?`Öva igen · Uppgift ${i+1} av ${h.length}`:`Uppgift ${i+1}`}</span>
+    ${state.passReview?`<button class="btn sm" id="pass-forward" onclick="passFramat()">${i<h.length-1?"Framåt →":"Fortsätt passet →"}</button>`:""}
+    ${state.passReview?'<small>Övning utan XP. Passets resultat ändras inte.</small>':""}
+  </nav>`;
+}
+function passVisa(index){
+  const h=state.passHistory||[];
+  if(state.passCourse!==state.course || state.passAvslutat ||
+     index<0 || index>=h.length) return;
+  tchatStang();stangKalla();
+  if(index===h.length-1 && state.passLive){
+    const live=state.passLive;
+    Object.assign(state,live.status);
+    state.passIndex=index;state.passReview=false;state.passLive=null;
+    app.replaceChildren(...live.nodes);
+    state.view="training";
+    return;
+  }
+  if(!h[index].completed) return;
+  if(!state.passReview){
+    state.passLive={status:passSvarStatus(),nodes:[...app.childNodes]};
+  }
+  state.passIndex=index;state.passReview=true;state.currentTask=h[index].task;
+  state.answered=false;state.solutionShown=false;state.noXp=true;
+  state.partResults=[];state.partIndex=0;state.aktivRuta=0;
+  state.hintUsed=false;state.hintVisible=false;state.ggForslag=null;
+  state.altValda=new Set();state.altMiss=null;state.altOrdning=null;state.altOrdningId=null;
+  renderTraining();
+}
+function passBakat(){
+  if(state.passIndex>0) passVisa(state.passIndex-1);
+}
+function passFramat(){
+  if(!state.passReview) return;
+  if(state.passIndex<(state.passHistory||[]).length-1) return passVisa(state.passIndex+1);
+  state.passReview=false;state.passLive=null;
+  if(state.sessionDone>=state.sessionTarget) return renderSessionDone();
+  nextTask();
+}
+function finishPassReview(delar){
+  state.answered=true;state.noXp=true;
+  const ratt=delar.filter(Boolean).length;
+  const rubrik=ratt===delar.length?"Rätt!":ratt?`${ratt} av ${delar.length} rätt`:"Inte riktigt.";
+  const box=document.getElementById("answer-result");
+  if(box) box.innerHTML=`<div class="result ${ratt===delar.length?"good":"bad"}">
+    <div class="txt"><strong>${rubrik}</strong><small>Övning utan XP. Passets resultat ändras inte.</small></div>
+    <span class="xpchip" style="background:var(--surface3);color:var(--ink3)">0 XP</span>
+    </div><div class="aacts"><button class="btn" onclick="showSolution()">Visa lösning</button>
+    <button class="btn primary" id="pass-review-next" onclick="passFramat()">${state.passIndex<(state.passHistory||[]).length-1?"Framåt →":"Fortsätt passet →"}</button></div>`;
+  const kolla=document.getElementById("kollaknapp");
+  if(kolla){kolla.textContent="Framåt →";kolla.onclick=passFramat;}
 }
 
 function startPass(typ){
@@ -8818,6 +8910,7 @@ function startCardLevel(key,nivaer){
 }
 function continueSession(){ const niva=state.focusNiva; beginSession(state.prov?"prov":undefined); state.focusNiva=niva; navRecord("training",true); nextTask(); }
 function nextTask(){
+  if(state.passReview) return passFramat();
   tchatStang();
   const t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
@@ -8831,6 +8924,10 @@ function nextTask(){
   state.lastIds.push(t.id);
   if(state.lastIds.length>60) state.lastIds.shift();
   noteraSedd(t.id);
+  state.passHistory ||= [];
+  state.passHistory.push({task:t,completed:false});
+  state.passIndex=state.passHistory.length-1;state.passLive=null;
+  state.passCourse=state.course;
   sparaPagaendePass();
   renderTraining();
   /* Påminnelsen kommer när eleven har kommit in i passet, inte i vägen
@@ -11682,6 +11779,7 @@ function renderTraining(){
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
+      ${passNavigationHtml()}
       <article class="task">
         <div class="tmeta">${meta}${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}</div>
@@ -11713,6 +11811,7 @@ function renderTraining(){
     </div>`;
   afterRender();
   setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
+  if(state.solutionShown) showSolution();
 }
 
 /* =======================================================================
@@ -11920,6 +12019,7 @@ function renderAltTask(t){
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
+      ${passNavigationHtml()}
       <article class="task">
         <div class="tmeta">${levelChip(t)}${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}${kallRad(t)}</div>
@@ -11940,6 +12040,7 @@ function renderAltTask(t){
       </article>
     </div>`;
   afterRender();
+  if(state.solutionShown) showSolution();
 }
 
 function kollaAlt(){
@@ -12320,12 +12421,17 @@ function finishAttempt(resultat){
   if(state.answered) return;
   const t=state.currentTask;
   const delar=Array.isArray(resultat)?resultat.map(Boolean):[!!resultat];
+  if(state.passReview || state.passHistory?.[state.passIndex]?.completed){
+    state.passReview=true;
+    return finishPassReview(delar);
+  }
   const ratt=delar.filter(Boolean).length;
   const andel=ratt/delar.length;
   const correct=ratt===delar.length;
   state.answered=true; state.sessionDone++;
+  const passEntry=state.passHistory?.[state.passIndex];
+  if(passEntry) passEntry.completed=true;
   if(!correct){ (state.sessionFel ||= []).push(t); }
-  sparaPagaendePass();
 
   const xpBefore=profile.xp;
   const levelBefore=levelFromXP(profile.xp);
@@ -12413,6 +12519,7 @@ function finishAttempt(resultat){
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
   kgLoggaHandelse(t,{andel,correct,xp});
+  sparaPagaendePass();
 
   animeraXp(xpBefore,profile.xp);
   const HYLLNING=1500;
@@ -12485,12 +12592,13 @@ function vanligaMiss(gräns=25){
 function ledtradRuta(t){
 
   return `<div class="ledtrad"><b>Ledtråd</b><div class="ltxt">${t.ledtrad||""}</div>
-    <span class="lkost">Halv XP för den här uppgiften</span></div>`;
+    <span class="lkost">${state.passReview?"Övning utan XP":"Halv XP för den här uppgiften"}</span></div>`;
 }
 function visaLedtrad(){
   const t=state.currentTask;
   if(!t || !t.ledtrad || state.hintVisible) return;
   state.hintUsed=true; state.hintVisible=true;
+  sparaPagaendePass();
   const h=document.getElementById("ledtrad-holder");
   if(h){ h.innerHTML=ledtradRuta(t); renderMath(h); skrivFram(h.querySelector(".ltxt")); }
   document.getElementById("ledtradknapp")?.remove();
@@ -12502,6 +12610,7 @@ function showSolution(){
   state.solutionShown=true;
 
   if(auto && !state.answered) state.noXp=true;
+  sparaPagaendePass();
   /* Avslöjas svaret på en alternativuppgift låses knapparna direkt,
      annars skulle facit ligga kvar bredvid en klickbar fråga. */
   if(arAlt(t) && !state.answered){

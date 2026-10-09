@@ -194,7 +194,9 @@ test('Fysikrapport 5.133 a visar bara givna massor och hastighet',()=>{
   assert.doesNotMatch(a.t,/22 kW|60 m|broms/);
   assert.equal(a.rättSvar,(1500+800)*25);
   assert.equal(b.rättSvar,22000/25);
-  assert.equal(c.rättSvar,Math.round((1500+800)*25**2/2/60*100)/100);
+  assert.equal(c.rättSvar,(1500+800)*25**2/2/60);
+  assert.equal(c.tolerans,0.005);
+  assert.match(c.t,/två decimaler/);
 });
 test('Fysikrapport 5.575 får separata givna data och metoder för varje del',()=>{
   const [a,b,last]=cxtPhysicsCards('5.575');

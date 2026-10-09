@@ -3195,6 +3195,13 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 .hitta-lista>.lank{justify-self:start}
 #hitta-sok{width:100%;min-width:0}
 .aklass-elev.avstangd{opacity:.6}
+.admin-lararad .admin-lararnamn{flex:1;min-width:0}
+.admin-lararad .admin-lararknappar{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+@media(max-width:600px){
+  .admin-lararad{align-items:flex-start;flex-wrap:wrap}
+  .admin-lararad .admin-lararnamn{flex-basis:100%}
+  .admin-lararad .admin-lararknappar{justify-content:flex-start}
+}
 /* ===== Hjälpmedel: formelblad och miniräknare ===== */
 .hm-grupp{margin-left:auto;display:flex;gap:8px;align-items:center}
 .hm-grupp:empty{display:none}
@@ -3495,7 +3502,7 @@ async function loggaUt(){
   stangKunskap();
   arLarare=false; arAdmin=false; felOppnaAntal=null; provLista=null;
   larData={grupper:null,elever:{}}; state.larGrupp=null; state.larElev=null;
-  larProfil=null; arGruppLarare=false; larProfilHamtad=false; minSkola=undefined;
+  larProfil=null; arGruppLarare=false; larProfilHamtad=false; arElevRoll=false; minSkola=undefined;
   try{ localStorage.removeItem(GRUPPLARARE_KEY); }catch(_){}
   clearInterval(kgHeartbeatTimer); kgHeartbeatTimer=null;
   try{ localStorage.removeItem(LARARE_KEY); }catch(_){}
@@ -5503,6 +5510,7 @@ async function kgHeartbeat(){
   if(arAdmin) uppdateraFelAntal();
   try{
     if(!await giltigSession()) return;
+    if(arGruppLarare) await hamtaLarprofil();
     await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_heartbeat",{
       method:"POST",headers:sbHeaders(true),body:JSON.stringify({p_data:{
         namn:profile?.namn||null,
@@ -5637,7 +5645,7 @@ function kontoMeny(ev){
       <button class="btn sm wide" onclick="oppnaHittaLarare()" style="margin-top:6px">Hitta min lärare</button>
       <button class="btn sm wide" onclick="oppnaProvkod()" style="margin-top:6px">Gå med med kod</button>
       ${arNagonLarare()?"":`<button class="btn sm wide" onclick="oppnaMinSkola()" style="margin-top:6px">Min skola</button>
-      <button class="btn sm wide quiet" onclick="oppnaLararprofil()" style="margin-top:6px">Jag är lärare</button>`}
+      ${arElevRoll?"":`<button class="btn sm wide quiet" onclick="oppnaLararprofil()" style="margin-top:6px">Jag är lärare</button>`}`}
     </div>
 
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
@@ -14386,17 +14394,28 @@ async function kgAdminKlassTillGrupp(id,namn){
    godkänt lärarkonto (arLarare). Databasdelen finns i
    sql/2026-10-04-skolor-och-larare.sql. */
 const GRUPPLARARE_KEY="kunskapsgymmet-grupplarare";
-let larProfil=null, arGruppLarare=false, larProfilHamtad=false;
+let larProfil=null, arGruppLarare=false, larProfilHamtad=false, arElevRoll=false;
 
 function arNagonLarare(){ return arLarare || arGruppLarare; }
 async function hamtaLarprofil(){
-  if(!MOLN_PA() || !session){ larProfil=null; arGruppLarare=false; larProfilHamtad=false; return null; }
+  if(!MOLN_PA() || !session){ larProfil=null; arGruppLarare=false; larProfilHamtad=false; arElevRoll=false; return null; }
+  const uid=session.user?.id;
   const r=await klassRpc("kg_min_larprofil");
-  if(r && !r.saknas){
+  if(r && !r.saknas && session?.user?.id===uid){
     larProfil=r.profil||null;
     arGruppLarare=!!r.larare;
+    arElevRoll=!!r.elev;
     larProfilHamtad=true;
     try{ arGruppLarare?localStorage.setItem(GRUPPLARARE_KEY,"1"):localStorage.removeItem(GRUPPLARARE_KEY); }catch(_){}
+    if(arElevRoll){
+      arLarare=false;
+      try{ localStorage.removeItem(LARARE_KEY); }catch(_){}
+      larData={grupper:null,elever:{}};
+      if(profile.nyheter?.rollval!=="elev") markeraRollval("elev");
+      document.getElementById("kontomeny")?.remove();
+      document.getElementById("larprofilruta") && stangModal("larprofilruta");
+      if(state.view==="larare") goHome();
+    }
     uppdateraLararKnapp();
   }
   return r;
@@ -14449,6 +14468,7 @@ async function sparaLararprofil(franRollval){
   const r=await klassRpc("kg_bli_larare",{p_namn:namn,p_skola:skola});
   if(r?.saknas) return fel("Lärarprofiler är inte aktiverade i databasen än.");
   if(!r?.ok) return fel({namn:"Skriv ditt fullständiga namn, både för- och efternamn.",skola:"Skriv vilken skola du arbetar på.",
+    elev:"Kontot är registrerat som elev. Kontakta administratören om rollen behöver ändras.",
     avstangd:"Din lärarprofil är avstängd. Kontakta Kunskapsgymmet."}[r?.code]||"Kunde inte spara profilen.");
   larProfil=r.profil||null; arGruppLarare=!!r.larare; larProfilHamtad=true;
   try{ localStorage.setItem(GRUPPLARARE_KEY,"1"); }catch(_){}
@@ -14576,10 +14596,36 @@ async function kgAdminRitaLarare(host){
   const lista=r.larare||[];
   host.innerHTML=lista.length?`<p class="modal-text">Konton som har skapat en lärarprofil. De kan skapa grupper och träningspass.
       ”Godkänd” betyder att kontot även är godkänt som lärare på det vanliga sättet (felrapporter, Uppgiftslabbet).</p>
-    ${lista.map(l=>`<div class="aklass-elev${l.aktiv?"":" avstangd"}"><span><b>${esc(l.namn)}</b>
+    ${lista.map(l=>`<div class="aklass-elev admin-lararad${l.aktiv?"":" avstangd"}"><span class="admin-lararnamn"><b>${esc(l.namn)}</b>
         <small>${esc(l.skola||"Ingen skola")} · ${esc(l.epost||"")} · ${Number(l.grupper)||0} grupper · ${Number(l.elever)||0} elever${l.godkand?" · godkänd":""}</small></span>
-        <button class="btn sm ${l.aktiv?"quiet":"primary"}" onclick="kgAdminLarareAktiv('${esc(l.id)}',${l.aktiv?"false":"true"})">${l.aktiv?"Stäng av":"Aktivera"}</button></div>`).join("")}`
+        <div class="admin-lararknappar">
+          ${!l.godkand && l.id!==session?.user?.id?`<button class="btn sm" onclick="kgAdminLarareTillElev('${esc(l.id)}',this)">Gör till elev</button>`:""}
+          <button class="btn sm ${l.aktiv?"quiet":"primary"}" onclick="kgAdminLarareAktiv('${esc(l.id)}',${l.aktiv?"false":"true"})">${l.aktiv?"Stäng av":"Aktivera"}</button>
+        </div></div>`).join("")}`
     :'<p class="modal-text">Inga lärarprofiler än.</p>';
+}
+async function kgAdminLarareTillElev(id,knapp){
+  if(!arAdmin || knapp?.disabled) return;
+  if(knapp) knapp.disabled=true;
+  try{
+    const namn=knapp?.closest(".admin-lararad")?.querySelector("b")?.textContent||"Kontot";
+    const ja=await larBekrafta("Gör till elev",
+      `<b>${esc(namn)}</b> får ett elevkonto och behåller sina träningsresultat. Lärarbehörigheten och åtkomsten till elevers resultat tas bort.`,
+      "Gör till elev",false);
+    if(!ja) return;
+    const r=await klassRpc("kg_admin_larare_till_elev",{p_user:id});
+    if(r?.saknas){ toast("Rollbyte är inte aktiverat i databasen än. Kontakta administratören."); return; }
+    if(!r?.ok){
+      toast({admin_kravs:"Du saknar adminbehörighet.",eget_konto:"Du kan inte ändra ditt eget konto.",
+        godkand_larare:"Kontot är en godkänd lärare. Den här funktionen gäller självregistrerade lärarprofiler.",
+        okant_konto:"Lärarprofilen finns inte längre."}[r?.code]||"Kunde inte göra kontot till elev. Försök igen.");
+      return;
+    }
+    toast("Kontot är nu ett elevkonto. Träningsresultaten är kvar.");
+    const host=document.getElementById("adminlista");
+    if(host && kgAdminFlik==="larare") await kgAdminRitaLarare(host);
+    kgAdminKlassData=null;
+  }finally{ if(knapp) knapp.disabled=false; }
 }
 async function kgAdminLarareAktiv(id,aktiv){
   const r=await klassRpc("kg_admin_larare_aktiv",{p_user:id,p_aktiv:aktiv});

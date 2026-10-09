@@ -19,7 +19,7 @@ with sync_playwright() as p:
   assert not pg.evaluate('document.documentElement.scrollWidth>innerWidth')
   pg.screenshot(path=f'/tmp/felrapport-status-{width}.png',full_page=True)
  text=pg.evaluate('felloggText()');assert 'status: Granskad – inget fel' in text and 'status: Åtgärdad' in text and 'status: Avslutad' in text
- pg.evaluate("""()=>{window.calls=[];window.confirm=()=>true;window.fetch=async(url,opts)=>{calls.push({url,body:JSON.parse(opts.body)});return {ok:true};};}""")
- pg.get_by_role('button',name='Granskad – inget fel',exact=True).click();pg.wait_for_timeout(200)
- calls=pg.evaluate('calls');assert len(calls)==2 and calls[0]['url'].endswith('/kg_felrapport_ignorera') and calls[1]['body']['p_status']=='ignorerad',calls
+ pg.evaluate("""()=>{session={user:{id:'admin'},access_token:'test'};window.calls=[];window.fetch=async(url,opts)=>{calls.push({url,body:JSON.parse(opts.body)});return {ok:true,json:async()=>({ok:true})};};}""")
+ pg.get_by_role('button',name='Granskad – inget fel',exact=True).click();pg.locator('#felgranskningskommentar').fill('Uppgiften var korrekt.');pg.locator('#felgranskning-spara').click();pg.wait_for_timeout(200)
+ calls=pg.evaluate('calls');assert len(calls)==1 and calls[0]['url'].endswith('/kg_felrapport_granska') and calls[0]['body']['p_status']=='ignorerad',calls
  print(json.dumps({'views':2,'statusAndExport':True,'noRewardEndpoint':True}));browser.close()

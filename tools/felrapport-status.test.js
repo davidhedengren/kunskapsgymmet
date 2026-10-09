@@ -2,7 +2,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
 function setup(extra={}){
- const c=vm.createContext({arAdmin:true,session:{},MOLN_PA:()=>true,SUPABASE_URL:'https://example.test',sbHeaders:()=>({}),fetch:async()=>({ok:true,json:async()=>[{kurs:'fy1',uppgift:'5.91',atgardad:true}]}),kgAdminRpc:async()=>[],...extra});
+ const c=vm.createContext({arAdmin:true,session:{},MOLN_PA:()=>true,SUPABASE_URL:'https://example.test',sbHeaders:()=>({}),fetch:async()=>({ok:true,json:async()=>[{kurs:'fy1',uppgift:'5.91',atgardad:true}]}),kgAdminRpc:async()=>[],felKompletteraGranskningssvar:async x=>x,oppnaFelGranskning:()=>{},...extra});
  for(const name of ['kgAdminStatusText','felloggStatus','hamtaFelloggen','ignoreraFel']){
   const m=new RegExp(`(?:async )?function ${name}\\(`).exec(html);const end=html.indexOf('\n',m.index);const one=html.slice(m.index,end);
   vm.runInContext(one.endsWith('}')?one:html.slice(m.index,html.indexOf('\n}',m.index)+2),c);
@@ -27,10 +27,7 @@ test('Motstridiga eller saknade auditdata visas inte som rättat eller utan fel'
  c.kgAdminRpc=async()=>{throw Error('offline')};
  assert.equal(c.felloggStatus((await c.hamtaFelloggen(true))[0]),'avslutad');
 });
-test('Granskad utan fel använder befintlig avslutning utan belöningsanrop; avbryt gör inget',async()=>{
- const calls=[];let confirmation='';
- const c=setup({confirm:s=>(confirmation=s,true),fetch:async(url,options)=>{calls.push([url,JSON.parse(options.body)]);return {ok:true};},ritaFellogg:async()=>{},toast:()=>{}});
- await c.ignoreraFel('fy1','5.91');assert.match(confirmation,/korrekt och inte behövde rättas/);
- assert.equal(calls.length,2);assert.match(calls[0][0],/kg_felrapport_ignorera$/);assert.equal(calls[1][1].p_status,'ignorerad');
- c.confirm=()=>false;await c.ignoreraFel('fy1','5.91');assert.equal(calls.length,2);
+test('Granskad utan fel öppnar kommentarsformuläret och avslutar inte rapporten direkt',()=>{
+ const calls=[];const c=setup({oppnaFelGranskning:(...args)=>calls.push(args),fetch:()=>{throw Error('Ingen serverändring innan kommentaren sparas');}});
+ c.ignoreraFel('fy1','5.91');assert.deepEqual(calls,[['fy1','5.91','ignorerad']]);
 });

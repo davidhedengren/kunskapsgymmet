@@ -101066,10 +101066,10 @@ window.BANK = [
     "id": "9.8",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>När Al-26 sönderfaller med β⁺-sönderfall väger sönderfallsprodukterna totalt 0,002815 u mindre än vad Al-26 gör. 1 u motsvarar 931,5 MeV.</p>\n<ol><li>Vad händer med massan som försvinner?</li>\n<li>Hur mycket energi frigörs vid sönderfallet? Svara i MeV.</li>\n<li>Hur många joule motsvarar det?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen omvandlas till energi enligt mass–energisambandet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin fördelas mellan sönderfallsprodukterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\Delta mc^2\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med omvandlingsfaktorn för atommassenheten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}002815)(931{,}5)=2{,}622\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2{,}622)(1{,}602\\cdot10^{-13})=4{,}20\\cdot10^{-13}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs \\(2{,}62\\ \\mathrm{MeV}=4{,}2\\cdot10^{-13}\\ \\mathrm J\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet. 1 u motsvarar 931,5 MeV och 1 MeV = 1,602·10⁻¹³ J.</p><p>a) Vad motsvarar masskillnaden? Förklara.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Omvandla energin till J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den lägre vilomassan motsvarar frigjord energi enligt E = Δmc². Energin kan bli rörelseenergi hos produkterna och strålning.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=0{,}002815\\cdot931{,}5\\]</p><p>\\[E\\approx2{,}62\\ \\mathrm{MeV}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E=Q_{\\mathrm{MeV}}\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E\\approx4{,}2\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></div>",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
     "formaga": [
       "procedur"
@@ -101079,12 +101079,12 @@ window.BANK = [
     "rättSvar": [
       null,
       2.6221725,
-      4.200720345e-13
+      4.2007203449999996e-13
     ],
     "tolerans": [
       null,
-      0.08,
-      1.3e-14
+      0.0655543125,
+      1.04931e-14
     ],
     "självrättning": [
       false,
@@ -101108,39 +101108,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Massminskningen omvandlas till energi enligt mass–energisambandet. Energin fördelas mellan sönderfallsprodukterna.</p>",
+    "ledtrad": "<p>Tänk på E = mc².</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>När Al-26 sönderfaller med β⁺-sönderfall väger sönderfallsprodukterna totalt 0,002815 u mindre än vad Al-26 gör. 1 u motsvarar 931,5 MeV.</p>",
+    "spelIntro": "<p>Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet. 1 u motsvarar 931,5 MeV och 1 MeV = 1,602·10⁻¹³ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad händer med massan som försvinner?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen omvandlas till energi enligt mass–energisambandet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin fördelas mellan sönderfallsprodukterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\Delta mc^2\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\Delta mc^2\\).</p></div>",
-        "ledtrad": "<p>Massminskningen omvandlas till energi enligt mass–energisambandet. Energin fördelas mellan sönderfallsprodukterna.</p>",
+        "fraga": "Produkternas sammanlagda vilomassa är lägre efter ett sönderfall. Vad motsvarar masskillnaden?",
+        "s": "<div class=\"facit-v2\"><p>Den lägre vilomassan motsvarar frigjord energi enligt E = Δmc². Energin kan bli rörelseenergi hos produkterna och strålning.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Energi som frigörs vid sönderfallet.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Energi som frigörs vid sönderfallet.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Massa som försvinner utan att motsvara energi.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "En ökning av antalet protoner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på E = mc².</p>",
+        "t": "<p>Produkternas sammanlagda vilomassa är lägre efter ett sönderfall. Vad motsvarar masskillnaden?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi frigörs vid sönderfallet? Svara i MeV.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med omvandlingsfaktorn för atommassenheten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}002815)(931{,}5)=2{,}622\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}622\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Massminskningen omvandlas till energi enligt mass–energisambandet. Energin fördelas mellan sönderfallsprodukterna.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet. 1 u motsvarar 931,5 MeV. Hur mycket energi frigörs i MeV?",
+        "s": "<div class=\"facit-v2\"><p>\\[E=0{,}002815\\cdot931{,}5\\]</p><p>\\[E\\approx2{,}62\\ \\mathrm{MeV}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.6221725,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.0655543125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
+        "t": "<p>Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet. 1 u motsvarar 931,5 MeV. Hur mycket energi frigörs i MeV?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur många joule motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2{,}622)(1{,}602\\cdot10^{-13})=4{,}20\\cdot10^{-13}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}20\\cdot10^{-13}\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Massminskningen omvandlas till energi enligt mass–energisambandet. Energin fördelas mellan sönderfallsprodukterna.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett sönderfall frigör energin 2,62 MeV. Hur många J motsvarar det? Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=2{,}62\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E\\approx4{,}2\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.19724e-13,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 1.04931e-14,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera energin i MeV med omvandlingsfaktorn.</p>",
+        "t": "<p>Ett sönderfall frigör energin 2,62 MeV. Hur många J motsvarar det? Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "karnreaktioner",
@@ -103524,31 +103573,110 @@ window.BANK = [
     "kap": 9,
     "omr": "sonderfall",
     "niva": "C",
-    "typ": "beräkna frigjord energi vid elektroninfångning ur atommassorna, ur text, sökt energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Järn-55 sönderfaller genom elektroninfångning till mangan-55. Atommassorna är m(⁵⁵Fe) = 54,938292 u och m(⁵⁵Mn) = 54,938049 u. 1 u motsvarar 931,5 MeV.</p>\n<p>Hur mycket energi frigörs, och varför behövs ingen korrektion för elektronmassor här till skillnad från vid β⁺-sönderfall?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Elektroninfångningen kan skrivas</p><div class=\"facit-matte\">\\[{}^{55}_{26}\\mathrm{Fe}+e^-\\rightarrow{}^{55}_{25}\\mathrm{Mn}+\\nu_e\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Med neutrala atomers massor blir Q-värdet direkt masskillnaden.</p><div class=\"facit-matte\">\\[Q=(54{,}938292-54{,}938049)(931{,}5)=0{,}2264\\ \\mathrm{MeV}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Den infångade elektronen ingår redan i moderatomens atommassa, och dotteratomen har en elektron mindre.</p><p class=\"facit-metod\">Elektronantalet balanseras därför utan en korrektion på två elektronmassor.</p><p>Små skillnader i elektronernas bindningsenergi kan påverka en mer precis beräkning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs cirka \\(0{,}226\\ \\mathrm{MeV}=226\\ \\mathrm{keV}\\).</p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Järn-55 sönderfaller genom elektroninfångning till mangan-55. De neutrala atommassorna är 54,938292 u och 54,938049 u. 1 u motsvarar 931,5 MeV.</p><p>a) Bestäm frigjord energi i MeV.</p><p>b) Förklara varför två elektronmassor inte behöver dras bort här, till skillnad från vid beta-plus.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=54{,}938292-54{,}938049\\]</p><p>\\[\\Delta m=0{,}000243\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}000243\\cdot931{,}5\\]</p><p>\\[Q\\approx0{,}226\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den infångade elektronen ingår i moderatomens atommassa. Dotteratomen har en elektron mindre. Därför behövs ingen korrektion för två elektronmassor, till skillnad från beta-plus.</p></div></div>",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
     "formaga": [
       "procedur",
-      "resonemang"
+      "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2263544999977185,
+      null
+    ],
+    "tolerans": [
+      0.005658862499942963,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Kärnreaktioner, massa och energi"
+    ],
+    "spelIntro": "<p>Järn-55 sönderfaller genom elektroninfångning till mangan-55. De neutrala atommassorna är 54,938292 u och 54,938049 u. 1 u motsvarar 931,5 MeV.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Järn-55 blir mangan-55 genom elektroninfångning. De neutrala atommassorna är 54,938292 u och 54,938049 u. Bestäm frigjord energi i MeV. Vid elektroninfångning används skillnaden mellan atommassorna. 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=54{,}938292-54{,}938049\\]</p><p>\\[\\Delta m=0{,}000243\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}000243\\cdot931{,}5\\]</p><p>\\[Q\\approx0{,}226\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.2263544999977185,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.005658862499942963,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
+        "t": "<p>Järn-55 blir mangan-55 genom elektroninfångning. De neutrala atommassorna är 54,938292 u och 54,938049 u. Bestäm frigjord energi i MeV. Vid elektroninfångning används skillnaden mellan atommassorna. 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "Varför används neutrala atomers masskillnad direkt vid elektroninfångning?",
+        "s": "<div class=\"facit-v2\"><p>Den infångade elektronen ingår i moderatomens atommassa. Dotteratomen har en elektron mindre. Därför behövs ingen korrektion för två elektronmassor, till skillnad från beta-plus.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den infångade elektronen ingår redan i moderatomens massa.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den infångade elektronen ingår redan i moderatomens massa.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Elektroner har ingen massa.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "En positron bildas och dess massa måste läggas till.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilka elektroner ingår i de neutrala atomernas massor?</p>",
+        "t": "<p>Varför används neutrala atomers masskillnad direkt vid elektroninfångning?</p>",
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "MeV",
+      null
     ]
   },
   {
@@ -106819,33 +106947,33 @@ window.BANK = [
     "id": "9.45",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "C",
-    "typ": "beräkna frigjord energi vid beta-plus sönderfall med korrektion för två elektronmassor, ur text, sökt energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Natrium-22 sönderfaller med β⁺-sönderfall till neon-22. Atommassorna är m(²²Na) = 21,994437 u och m(²²Ne) = 21,991385 u. Elektronens massa är 0,000549 u och 1 u motsvarar 931,5 MeV.</p><p>Vid β⁺-sönderfall måste man dra bort <em>två</em> elektronmassor när man räknar med atommassor, eftersom dotteratomen har en elektron för mycket samtidigt som en positron bildas.</p>\n<p>Hur mycket energi frigörs vid sönderfallet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Reaktionen är beta-plus-sönderfall.</p><div class=\"facit-matte\">\\[{}^{22}_{11}\\mathrm{Na}\\rightarrow{}^{22}_{10}\\mathrm{Ne}+e^++\\nu_e\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">När atommassor används måste två elektronmassor dras bort.</p><div class=\"facit-matte\">\\[\\Delta m=21{,}994437-21{,}991385-2(0{,}000549)=0{,}001954\\ \\mathrm u\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Q-värdet blir</p><div class=\"facit-matte\">\\[Q=(0{,}001954)(931{,}5)=1{,}820\\ \\mathrm{MeV}\\]</div><p>Utan korrektionen skulle resultatet bli för högt, eftersom både positronmassan och skillnaden i atomernas elektronantal måste hanteras.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beta-plus-sönderfallet frigör cirka \\(1{,}82\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Natrium-22 beta-plus-sönderfaller till neon-22. De neutrala atommassorna är 21,994437 u och 21,991385 u. Elektronens massa är 0,000549 u. Dra bort två elektronmassor från atommasskillnaden. 1 u motsvarar 931,5 MeV. Hur mycket energi frigörs i MeV?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=21{,}994437-21{,}991385\\]</p><p>\\[\\Delta m=0{,}003052-2\\cdot0{,}000549\\]</p><p>\\[\\Delta m=0{,}001954\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}001954\\cdot931{,}5\\]</p><p>\\[Q\\approx1{,}82\\ \\mathrm{MeV}\\]</p></div></p><p>Två elektronmassor behövs när neutrala atommassor används: en för den bildade positronen och en för skillnaden i atomernas elektronantal.</p></div>",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.82,
-    "tolerans": 0.0273,
+    "rättSvar": 1.8201510000002576,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Reaktionen är beta-plus-sönderfall. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Beta-plus-sönderfall"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.46",
@@ -106930,31 +107058,208 @@ window.BANK = [
     "id": "9.47",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "C",
-    "typ": "avgöra vilken betasönderfallstyp som är trolig utifrån förhållandet mellan protoner och neutroner, ur tabell, sökt sönderfallstyp",
-    "poang": "(1/2/0)",
-    "t": "<p>Tabellen visar fyra instabila nuklider. Stabila lätta kärnor har ungefär lika många protoner som neutroner.</p><table class=\"data\"><tr><th>Nuklid</th><th>Protoner</th><th>Neutroner</th></tr><tr><td>¹¹₆C</td><td>6</td><td>5</td></tr><tr><td>¹⁴₆C</td><td>6</td><td>8</td></tr><tr><td>³²₁₅P</td><td>15</td><td>17</td></tr><tr><td>¹⁵₈O</td><td>8</td><td>7</td></tr></table>\n<p>Avgör för var och en om β⁻ eller β⁺ är den troliga sönderfallstypen, och skriv dotterkärnan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">En protonrik lätt kärna går mot stabilitet genom beta-plus eller elektroninfångning; en neutronrik kärna genom beta-minus.</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Kol-11 och syre-15 är protonrika.</p><div class=\"facit-matte\">\\[{}^{11}_{6}\\mathrm C\\xrightarrow{\\beta^+}{}^{11}_{5}\\mathrm B\\]\\[{}^{15}_{8}\\mathrm O\\xrightarrow{\\beta^+}{}^{15}_{7}\\mathrm N\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Kol-14 och fosfor-32 är neutronrika.</p><div class=\"facit-matte\">\\[{}^{14}_{6}\\mathrm C\\xrightarrow{\\beta^-}{}^{14}_{7}\\mathrm N\\]\\[{}^{32}_{15}\\mathrm P\\xrightarrow{\\beta^-}{}^{32}_{16}\\mathrm S\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> C-11 och O-15 sönderfaller sannolikt med \\(\\beta^+\\); C-14 och P-32 med \\(\\beta^-\\). Dotterkärnorna är B-11, N-15, N-14 och S-32.</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Stabila lätta kärnor har ungefär lika många protoner och neutroner. Jämför beta-minus och beta-plus.</p><p>a) Kol-11 har 6 protoner och 5 neutroner. Välj beta-minus eller beta-plus och ange dotterkärnan.</p><p>b) Kol-14 har 6 protoner och 8 neutroner. Välj beta-minus eller beta-plus och ange dotterkärnan.</p><p>c) Fosfor-32 har 15 protoner och 17 neutroner. Välj beta-minus eller beta-plus och ange dotterkärnan.</p><p>d) Syre-15 har 8 protoner och 7 neutroner. Välj beta-minus eller beta-plus och ange dotterkärnan.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Kol-11 är protonrik. Vid beta-plus minskar atomnumret med 1. Masstalet är 11. Dotterkärnan är bor-11, med atomnummer 5.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Kol-14 är neutronrik. Vid beta-minus ökar atomnumret med 1. Masstalet är 14. Dotterkärnan är kväve-14, med atomnummer 7.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Fosfor-32 är neutronrik. Vid beta-minus ökar atomnumret med 1. Masstalet är 32. Dotterkärnan är svavel-32, med atomnummer 16.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Syre-15 är protonrik. Vid beta-plus minskar atomnumret med 1. Masstalet är 15. Dotterkärnan är kväve-15, med atomnummer 7.</p></div></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      false,
+      false,
+      false
+    ],
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>En protonrik lätt kärna går mot stabilitet genom beta-plus eller elektroninfångning; en neutronrik kärna genom beta-minus.</p>",
+    "ledtrad": "<p>Vilken partikel behöver omvandlas för att närma sig lika många protoner och neutroner?</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Beta-plus-sönderfall"
+    ],
+    "spelIntro": "<p>Stabila lätta kärnor har ungefär lika många protoner och neutroner. Jämför beta-minus och beta-plus.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Kol-11 har 6 protoner och 5 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?",
+        "s": "<div class=\"facit-v2\"><p>Kol-11 är protonrik. Vid beta-plus minskar atomnumret med 1. Masstalet är 11. Dotterkärnan är bor-11, med atomnummer 5.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Beta-plus.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Beta-plus.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Beta-minus.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Gammasönderfall.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken partikel behöver omvandlas för att närma sig lika många protoner och neutroner?</p>",
+        "t": "<p>Kol-11 har 6 protoner och 5 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?</p>",
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kol-14 har 6 protoner och 8 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?",
+        "s": "<div class=\"facit-v2\"><p>Kol-14 är neutronrik. Vid beta-minus ökar atomnumret med 1. Masstalet är 14. Dotterkärnan är kväve-14, med atomnummer 7.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Beta-minus.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Beta-minus.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Beta-plus.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Gammasönderfall.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken partikel behöver omvandlas för att närma sig lika många protoner och neutroner?</p>",
+        "t": "<p>Kol-14 har 6 protoner och 8 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?</p>",
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "Fosfor-32 har 15 protoner och 17 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?",
+        "s": "<div class=\"facit-v2\"><p>Fosfor-32 är neutronrik. Vid beta-minus ökar atomnumret med 1. Masstalet är 32. Dotterkärnan är svavel-32, med atomnummer 16.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Beta-minus.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Beta-minus.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Beta-plus.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Gammasönderfall.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken partikel behöver omvandlas för att närma sig lika många protoner och neutroner?</p>",
+        "t": "<p>Fosfor-32 har 15 protoner och 17 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?</p>",
+        "miniräknare": true
+      },
+      {
+        "etikett": "d",
+        "fraga": "Syre-15 har 8 protoner och 7 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?",
+        "s": "<div class=\"facit-v2\"><p>Syre-15 är protonrik. Vid beta-plus minskar atomnumret med 1. Masstalet är 15. Dotterkärnan är kväve-15, med atomnummer 7.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Beta-plus.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Beta-plus.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Beta-minus.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Gammasönderfall.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken partikel behöver omvandlas för att närma sig lika många protoner och neutroner?</p>",
+        "t": "<p>Syre-15 har 8 protoner och 7 neutroner. Stabila lätta kärnor har ungefär lika många av båda. Vilket betasönderfall går mot den fördelningen?</p>",
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -109896,60 +110201,159 @@ window.BANK = [
     "id": "9.72",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "A",
-    "typ": "beräkna Q-värdet för tre konkurrerande sönderfallsvägar hos kalium-40, ur text, sökt energi och bedömning",
-    "poang": "(0/1/2)",
-    "t": "<p>Kalium-40 är ovanlig därför att den kan sönderfalla på tre olika sätt: med β⁻ till kalcium-40, med β⁺ till argon-40 och med elektroninfångning till argon-40. Atommassorna är m(⁴⁰K) = 39,963998 u, m(⁴⁰Ca) = 39,962591 u och m(⁴⁰Ar) = 39,962383 u. Elektronens massa är 0,000549 u och 1 u motsvarar 931,5 MeV.</p>\n<ol><li>Beräkna Q-värdet för β⁻-sönderfallet.</li>\n<li>Beräkna Q-värdet för β⁺-sönderfallet och för elektroninfångningen. Kom ihåg att β⁺ kräver att två elektronmassor dras bort.</li>\n<li>Alla tre är möjliga. Vad hade krävts för att β⁺ skulle vara omöjligt medan elektroninfångning ändå fungerade?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För beta-minus kan neutrala atommassor subtraheras direkt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\beta^-}=(39{,}963998-39{,}962591)(931{,}5)=1{,}311\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För elektroninfångning blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{EC}}=(39{,}963998-39{,}962383)(931{,}5)=1{,}504\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För beta-plus dras två elektronmassor bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\beta^+}=[0{,}001615-2(0{,}000549)](931{,}5)=0{,}482\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-plus kräver en atomär masskillnad större än två elektronmassor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta Mc^2&gt;2m_ec^2=1{,}022\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>Om masskillnaden låg mellan 0 och 1,022 MeV skulle elektroninfångning kunna ha positivt Q-värde medan beta-plus vore energetiskt omöjligt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(Q_{\\beta^-}=1{,}31\\ \\mathrm{MeV}\\), \\(Q_{\\mathrm{EC}}=1{,}50\\ \\mathrm{MeV}\\) och \\(Q_{\\beta^+}=0{,}48\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>Kalium-40 kan beta-minus-sönderfalla till kalcium-40 eller bli argon-40 genom beta-plus/elektroninfångning. De neutrala atommassorna är 39,963998 u, 39,962591 u och 39,962383 u. Elektronens massa är 0,000549 u. 1 u motsvarar 931,5 MeV.</p><p>a) Bestäm energin för beta-minus i MeV.</p><p>b) Bestäm energierna för beta-plus och elektroninfångning i MeV. Dra bort två elektronmassor för beta-plus.</p><p>c) När kan elektroninfångning vara möjlig men beta-plus omöjligt? Förklara med masskillnaden.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=39{,}963998-39{,}962591\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}001407\\cdot931{,}5\\]</p><p>\\[Q\\approx1{,}31\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m_{EC}=39{,}963998-39{,}962383\\]</p><p><div class=\"facit-v2\"><p>\\[Q_{EC}=0{,}001615\\cdot931{,}5\\]</p><p>\\[Q_{EC}\\approx1{,}5\\ \\mathrm{MeV}\\]</p></div></p><p>\\[\\Delta m_{\\beta^+}=0{,}001615-2\\cdot0{,}000549\\]</p><p><div class=\"facit-v2\"><p>\\[Q_{\\beta^+}=0{,}000517\\cdot931{,}5\\]</p><p>\\[Q_{\\beta^+}\\approx0{,}482\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Elektroninfångning kan frigöra energi redan vid en positiv atommasskillnad. Beta-plus kräver också energi för två elektronmassor. Om 0 < Δm < 2me kan elektroninfångning vara möjlig medan beta-plus inte är det.</p></div></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
-      "modellering",
+      "procedur",
       "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.3106204999937354,
+      [
+        0.48158549999434286,
+        1.5043724999943429
+      ],
+      null
+    ],
+    "tolerans": [
+      0.05,
+      [
+        0.012039637499858572,
+        0.05
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>För beta-minus kan neutrala atommassor subtraheras direkt.</p>",
+    "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Kalium-40 är ovanlig därför att den kan sönderfalla på tre olika sätt: med β⁻ till kalcium-40, med β⁺ till argon-40 och med elektroninfångning till argon-40. Atommassorna är m(⁴⁰K) = 39,963998 u, m(⁴⁰Ca) = 39,962591 u och m(⁴⁰Ar) = 39,962383 u. Elektronens massa är 0,000549 u och 1 u motsvarar 931,5 MeV.</p>",
+    "spelIntro": "<p>Kalium-40 kan beta-minus-sönderfalla till kalcium-40 eller bli argon-40 genom beta-plus/elektroninfångning. De neutrala atommassorna är 39,963998 u, 39,962591 u och 39,962383 u. Elektronens massa är 0,000549 u. 1 u motsvarar 931,5 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna Q-värdet för β⁻-sönderfallet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För beta-minus kan neutrala atommassor subtraheras direkt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\beta^-}=(39{,}963998-39{,}962591)(931{,}5)=1{,}311\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}311\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>För beta-minus kan neutrala atommassor subtraheras direkt.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Kalium-40 beta-minus-sönderfaller till kalcium-40. De neutrala atommassorna är 39,963998 u och 39,962591 u. Bestäm frigjord energi i MeV. Använd 1 u = 931,5 MeV/c².",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=39{,}963998-39{,}962591\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}001407\\cdot931{,}5\\]</p><p>\\[Q\\approx1{,}31\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.3106204999937354,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
+        "t": "<p>Kalium-40 beta-minus-sönderfaller till kalcium-40. De neutrala atommassorna är 39,963998 u och 39,962591 u. Bestäm frigjord energi i MeV. Använd 1 u = 931,5 MeV/c².</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna Q-värdet för β⁺-sönderfallet och för elektroninfångningen. Kom ihåg att β⁺ kräver att två elektronmassor dras bort.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För elektroninfångning blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{EC}}=(39{,}963998-39{,}962383)(931{,}5)=1{,}504\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För beta-plus dras två elektronmassor bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\beta^+}=[0{,}001615-2(0{,}000549)](931{,}5)=0{,}482\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}482\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>För beta-minus kan neutrala atommassor subtraheras direkt.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Kalium-40 kan bli argon-40 genom beta-plus eller elektroninfångning. De neutrala atommassorna är 39,963998 u och 39,962383 u. Elektronens massa är 0,000549 u. För beta-plus dras två elektronmassor bort; för elektroninfångning används atommasskillnaden direkt. 1 u motsvarar 931,5 MeV. Bestäm båda energierna i MeV, först beta-plus och sedan elektroninfångning.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta m_{EC}=39{,}963998-39{,}962383\\]</p><p><div class=\"facit-v2\"><p>\\[Q_{EC}=0{,}001615\\cdot931{,}5\\]</p><p>\\[Q_{EC}\\approx1{,}5\\ \\mathrm{MeV}\\]</p></div></p><p>\\[\\Delta m_{\\beta^+}=0{,}001615-2\\cdot0{,}000549\\]</p><p><div class=\"facit-v2\"><p>\\[Q_{\\beta^+}=0{,}000517\\cdot931{,}5\\]</p><p>\\[Q_{\\beta^+}\\approx0{,}482\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0.48158549999434286,
+          1.5043724999943429
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "MeV",
+          "MeV"
+        ],
+        "tolerans": [
+          0.012039637499858572,
+          0.05
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
+        "t": "<p>Kalium-40 kan bli argon-40 genom beta-plus eller elektroninfångning. De neutrala atommassorna är 39,963998 u och 39,962383 u. Elektronens massa är 0,000549 u. För beta-plus dras två elektronmassor bort; för elektroninfångning används atommasskillnaden direkt. 1 u motsvarar 931,5 MeV. Bestäm båda energierna i MeV, först beta-plus och sedan elektroninfångning.</p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Beta-plus",
+          "Elektroninfångning"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Alla tre är möjliga. Vad hade krävts för att β⁺ skulle vara omöjligt medan elektroninfångning ändå fungerade?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-plus kräver en atomär masskillnad större än två elektronmassor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta Mc^2&gt;2m_ec^2=1{,}022\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>Om masskillnaden låg mellan 0 och 1,022 MeV skulle elektroninfångning kunna ha positivt Q-värde medan beta-plus vore energetiskt omöjligt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}022\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>För beta-minus kan neutrala atommassor subtraheras direkt.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Den neutrala moderatomens massa är något större än dotteratomens. När kan elektroninfångning frigöra energi men beta-plus vara omöjligt?",
+        "s": "<div class=\"facit-v2\"><p>Elektroninfångning kan frigöra energi redan vid en positiv atommasskillnad. Beta-plus kräver också energi för två elektronmassor. Om 0 < Δm < 2me kan elektroninfångning vara möjlig medan beta-plus inte är det.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "När masskillnaden är mindre än två elektronmassor.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "När masskillnaden är mindre än två elektronmassor.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "När masskillnaden är större än två elektronmassor.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "När dotteratomen är tyngre än moderatomen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 3,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför hur elektronmassorna ingår i de två Q-värdena.</p>",
+        "t": "<p>Den neutrala moderatomens massa är något större än dotteratomens. När kan elektroninfångning frigöra energi men beta-plus vara omöjligt?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Beta-plus-sönderfall"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "MeV",
+      [
+        "MeV",
+        "MeV"
+      ],
+      null
     ]
   },
   {
@@ -110046,8 +110450,8 @@ window.BANK = [
     "id": "9.74",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "C",
-    "poang": "(1/2/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Nukliden ⁵⁵₂₆Fe genomgår elektroninfångning.</p>\n<ol><li>Beskriv vad som händer vid elektroninfångning.</li>\n<li>Skriv en reaktionsformel för sönderfallet.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En elektron från atomskalet fångas in av kärnan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En proton omvandlas då till en neutron och en elektronneutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p+e^-\\rightarrow n+\\nu_e\\]</div></div><div class=\"facit-stycke\"><p>Masstalet är oförändrat medan atomnumret minskar med 1.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För järn-55 blir reaktionen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{55}_{26}\\mathrm{Fe}+{}^0_{-1}e\\rightarrow{}^{55}_{25}\\mathrm{Mn}+\\nu_e\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Elektroninfångningen ger \\({}^{55}_{25}\\mathrm{Mn}\\) och en neutrino.</p></div>",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
@@ -110060,7 +110464,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__balansera_karnreaktioner",
-    "ledtrad": "<p>En elektron från atomskalet fångas in av kärnan. En proton omvandlas då till en neutron och en elektronneutrino.</p>",
+    "ledtrad": "<p>Jämför antalet protoner och neutroner före och efter omvandlingen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Nukliden ⁵⁵₂₆Fe genomgår elektroninfångning.</p>",
     "spelDelar": [
@@ -110069,19 +110473,25 @@ window.BANK = [
         "fraga": "Beskriv vad som händer vid elektroninfångning.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En elektron från atomskalet fångas in av kärnan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En proton omvandlas då till en neutron och en elektronneutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p+e^-\\rightarrow n+\\nu_e\\]</div></div><div class=\"facit-stycke\"><p>Masstalet är oförändrat medan atomnumret minskar med 1.</p></div></div></div></div></div>",
         "ledtrad": "<p>En elektron från atomskalet fångas in av kärnan. En proton omvandlas då till en neutron och en elektronneutrino.</p>",
-        "niva": "C"
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true
       },
       {
         "etikett": "b",
         "fraga": "Skriv en reaktionsformel för sönderfallet.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För järn-55 blir reaktionen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{55}_{26}\\mathrm{Fe}+{}^0_{-1}e\\rightarrow{}^{55}_{25}\\mathrm{Mn}+\\nu_e\\]</div></div></div></div></div></div>",
         "ledtrad": "<p>En elektron från atomskalet fångas in av kärnan. En proton omvandlas då till en neutron och en elektronneutrino.</p>",
-        "niva": "C"
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -110171,9 +110581,9 @@ window.BANK = [
     "id": "9.77",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "C",
+    "niva": "E",
     "typ": "förklara vad som händer på nukleonnivå vid beta-minus och beta-plus sönderfall, ur text, sökt resonemang",
-    "poang": "(2/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Vid betasönderfall omvandlas en nukleon till en annan inne i kärnan.</p>\n<ol><li>Skriv omvandlingen som sker inne i kärnan vid β⁻-sönderfall.</li>\n<li>Skriv omvandlingen som sker vid β⁺-sönderfall.</li>\n<li>Varför ändras inte masstalet vid något av dem?</li>\n<li>Fanns elektronen i kärnan innan β⁻-sönderfallet?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus omvandlas en neutron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus omvandlas en proton.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p\\rightarrow n+e^++\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet räknar nukleoner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En nukleon byter typ, men antalet protoner plus neutroner förblir detsamma.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronen fanns inte lagrad i kärnan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den skapas i beta-minus-processen tillsammans med antineutrinon.</p></div><div class=\"facit-stycke\"><p>Kärnans beståndsdelar beskrivs här som protoner och neutroner.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vid β⁻ blir en neutron en proton; vid β⁺ blir en proton en neutron. Masstalet ändras inte, och betaelektronen skapas i sönderfallet.</p></div>",
     "familj": "Beta-minus-sönderfall",
@@ -110187,7 +110597,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Vid beta-minus omvandlas en neutron. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Jämför antalet protoner och neutroner före och efter omvandlingen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Vid betasönderfall omvandlas en nukleon till en annan inne i kärnan.</p>",
     "spelDelar": [
@@ -110196,33 +110606,45 @@ window.BANK = [
         "fraga": "Skriv omvandlingen som sker inne i kärnan vid β⁻-sönderfall.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus omvandlas en neutron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</div></div></div></div></div></div>",
         "ledtrad": "<p>Vid beta-minus omvandlas en neutron. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true
       },
       {
         "etikett": "b",
         "fraga": "Skriv omvandlingen som sker vid β⁺-sönderfall.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus omvandlas en proton.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p\\rightarrow n+e^++\\nu_e\\]</div></div></div></div></div></div>",
         "ledtrad": "<p>Vid beta-minus omvandlas en neutron. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true
       },
       {
         "etikett": "c",
         "fraga": "Varför ändras inte masstalet vid något av dem?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet räknar nukleoner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En nukleon byter typ, men antalet protoner plus neutroner förblir detsamma.</p></div></div></div></div></div>",
         "ledtrad": "<p>Vid beta-minus omvandlas en neutron. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true
       },
       {
         "etikett": "d",
         "fraga": "Fanns elektronen i kärnan innan β⁻-sönderfallet?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronen fanns inte lagrad i kärnan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den skapas i beta-minus-processen tillsammans med antineutrinon.</p></div><div class=\"facit-stycke\"><p>Kärnans beståndsdelar beskrivs här som protoner och neutroner.</p></div></div></div></div></div>",
         "ledtrad": "<p>Vid beta-minus omvandlas en neutron. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -152934,12 +153356,12 @@ window.BANK = [
   {
     "id": "KG-FY1-BM-03",
     "familj": "Beta-minus-sönderfall",
-    "niva": "C",
-    "poang": "1/2/0",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "typ": "beta-minus på nukleonnivå",
     "t": "<p>Förklara varför atomnumret ökar men masstalet är oförändrat vid beta-minus-sönderfall. Skriv omvandlingen inne i kärnan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Z ökar med 1 men A är oförändrat.</p></div>",
-    "ledtrad": "<p>Jämför protonantalet före och efter \\(n\\rightarrow p\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[n\\to p+e^-+\\bar\\nu_e\\]</p><p>En neutron blir en proton. Protonantalet ökar med 1, men det totala antalet protoner och neutroner är oförändrat.</p></div>",
+    "ledtrad": "<p>Jämför antalet protoner och neutroner före och efter omvandlingen.</p>",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -152953,7 +153375,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -152962,12 +153384,12 @@ window.BANK = [
   {
     "id": "KG-FY1-BM-04",
     "familj": "Beta-minus-sönderfall",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "typ": "tvåstegs beta-minus-kedja",
     "t": "<p>Torium-234 sönderfaller först till protaktinium-234 och sedan till uran-234. Atomnumren är 90, 91 och 92. Skriv båda reaktionerna och motivera sönderfallstypen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{234}_{90}\\mathrm{Th}\\rightarrow{}^{234}_{91}\\mathrm{Pa}+{}^{0}_{-1}e+\\bar\\nu_e\\]\\[{}^{234}_{91}\\mathrm{Pa}\\rightarrow{}^{234}_{92}\\mathrm U+{}^{0}_{-1}e+\\bar\\nu_e\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda stegen är beta-minus-sönderfall.</p></div>",
-    "ledtrad": "<p>Oförändrat A och Z som ökar med 1 kännetecknar beta-minus.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{234}_{90}\\mathrm{Th}\\rightarrow{}^{234}_{91}\\mathrm{Pa}+{}^{0}_{-1}e+\\bar\\nu_e\\]\\[{}^{234}_{91}\\mathrm{Pa}\\rightarrow{}^{234}_{92}\\mathrm U+{}^{0}_{-1}e+\\bar\\nu_e\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda stegen är beta-minus-sönderfall.</p></div><p>I båda reaktionerna är masstalet 234 oförändrat och atomnumret ökar med 1. Det visar att båda är beta-minus-sönderfall.</p>",
+    "ledtrad": "<p>Jämför antalet protoner och neutroner före och efter omvandlingen.</p>",
     "formaga": [
       "resonemang",
       "procedur"
@@ -152981,7 +153403,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -153049,12 +153471,12 @@ window.BANK = [
   {
     "id": "KG-FY1-BP-03",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
-    "niva": "C",
-    "poang": "1/2/0",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "typ": "beta-plus på nukleonnivå",
     "t": "<p>Förklara varför atomnumret minskar men masstalet är oförändrat vid beta-plus-sönderfall. Skriv omvandlingen inne i kärnan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p\\rightarrow n+e^++\\nu_e\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Z minskar med 1 men A är oförändrat.</p></div>",
-    "ledtrad": "<p>Jämför protonantalet före och efter \\(p\\rightarrow n\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[p\\to n+e^++\\nu_e\\]</p><p>En proton blir en neutron. Protonantalet minskar med 1, men det totala antalet protoner och neutroner är oförändrat.</p></div>",
+    "ledtrad": "<p>Jämför antalet protoner och neutroner före och efter omvandlingen.</p>",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -153068,7 +153490,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -153080,34 +153502,112 @@ window.BANK = [
   {
     "id": "KG-FY1-BP-04",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
-    "niva": "A",
-    "poang": "0/1/2",
-    "typ": "beta-plus-energi med elektronmasskorrektion",
-    "t": "<p>Fluor-18 beta-plus-sönderfaller till syre-18. Atommassorna är 18,000938 u och 17,999160 u. Elektronmassan är 0,000549 u. Bestäm den frigjorda energin. Energiomvandlingen är 1 u·c² = 931,5 MeV. Förklara också korrektionen för elektronmassor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=18{,}000938-17{,}999160-2\\cdot0{,}000549=0{,}000680\\ \\mathrm u\\]\\[E=0{,}000680\\cdot931{,}5=0{,}633\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs cirka \\(0{,}633\\ \\mathrm{MeV}\\).</p></div>",
-    "ledtrad": "<p>Använd \\(\\Delta m=m_{moder}-m_{dotter}-2m_e\\).</p>",
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.6334,
-    "tolerans": 0.01,
+    "niva": "C",
+    "poang": "(2/0/0)",
+    "t": "<p>Fluor-18 beta-plus-sönderfaller till syre-18. De neutrala atommassorna är 18,000938 u och 17,999160 u. Elektronens massa är 0,000549 u. 1 u motsvarar 931,5 MeV.</p><p>a) Bestäm frigjord energi i MeV.</p><p>b) Förklara varför två elektronmassor behöver dras bort.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=18{,}000938-17{,}999160\\]</p><p>\\[\\Delta m=0{,}001778-2\\cdot0{,}000549\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}000680\\cdot931{,}5\\]</p><p>\\[Q\\approx0{,}633\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Vid beta-plus bildas en positron. Dessutom har den neutrala dotteratomen en elektron mindre än den neutrala moderatomen. Därför behöver två elektronmassor dras bort från atommasskillnaden.</p></div></div>",
+    "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6334200000015012,
+      null
+    ],
+    "tolerans": [
+      0.01583550000003753,
+      null
+    ],
     "miniräknare": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV",
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "MeV",
+      null
+    ],
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "kap": 9,
     "omr": "sonderfall",
     "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
-    "självrättning": true,
+    "självrättning": [
+      true,
+      false
+    ],
     "geogebra": false,
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Beta-plus-sönderfall"
-    ]
+    ],
+    "spelIntro": "<p>Fluor-18 beta-plus-sönderfaller till syre-18. De neutrala atommassorna är 18,000938 u och 17,999160 u. Elektronens massa är 0,000549 u. 1 u motsvarar 931,5 MeV.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Fluor-18 beta-plus-sönderfaller till syre-18. De neutrala atommassorna är 18,000938 u och 17,999160 u. Elektronens massa är 0,000549 u. Dra bort två elektronmassor från atommasskillnaden. 1 u motsvarar 931,5 MeV. Bestäm frigjord energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=18{,}000938-17{,}999160\\]</p><p>\\[\\Delta m=0{,}001778-2\\cdot0{,}000549\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}000680\\cdot931{,}5\\]</p><p>\\[Q\\approx0{,}633\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.6334200000015012,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.01583550000003753,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
+        "t": "<p>Fluor-18 beta-plus-sönderfaller till syre-18. De neutrala atommassorna är 18,000938 u och 17,999160 u. Elektronens massa är 0,000549 u. Dra bort två elektronmassor från atommasskillnaden. 1 u motsvarar 931,5 MeV. Bestäm frigjord energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "Varför dras två elektronmassor bort vid beta-plus när neutrala atommassor används?",
+        "s": "<div class=\"facit-v2\"><p>Vid beta-plus bildas en positron. Dessutom har den neutrala dotteratomen en elektron mindre än den neutrala moderatomen. Därför behöver två elektronmassor dras bort från atommasskillnaden.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "En positron bildas och atomernas elektronantal skiljer sig med ett.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "En positron bildas och atomernas elektronantal skiljer sig med ett.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Två positroner bildas alltid.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Elektronens massa är dubbelt så stor i dotteratomen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk både på positronen och de neutrala atomernas elektroner.</p>",
+        "t": "<p>Varför dras två elektronmassor bort vid beta-plus när neutrala atommassor används?</p>",
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "manuellKomplettering": true
   },
   {
     "id": "9.241",
@@ -154254,7 +154754,7 @@ window.BANK = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Vid beta-minus blir en neutron en proton. Atomnumret ökar med 1 och masstalet är oförändrat.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -154305,7 +154805,7 @@ window.BANK = [
         "kommentar": "Det gäller alfa."
       }
     ],
-    "ledtrad": "<p>Utgå från den grundläggande definitionen eller vad som bevaras.</p>",
+    "ledtrad": "<p>Ändras antalet protoner eller neutroner när kärnan avger en gammafoton?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -180547,7 +181047,7 @@ window.BANK = [
     "niva": "E",
     "typ": "atomnummer efter beta-minus",
     "poang": "(1/0/0)",
-    "t": "<p>Strontium-90 finns i nedfall från kärnvapenprov. Det har atomnumret 38 och sönderfaller med beta-minus-sönderfall.</p><p>Vilket atomnummer får dotterkärnan?</p>",
+    "t": "<p>Strontium-90 har atomnumret 38 och beta-minus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall blir en neutron en proton, så atomnumret ökar med 1.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 39 (yttrium).</p></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
@@ -180594,10 +181094,10 @@ window.BANK = [
     "id": "9.316",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "C",
+    "niva": "E",
     "typ": "neutronantal efter beta-minus",
-    "poang": "(0/1/0)",
-    "t": "<p>Fosfor-32 (atomnummer 15) används inom forskningen och sönderfaller med beta-minus-sönderfall.</p><p>Hur många neutroner har dotterkärnan?</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>Fosfor-32 har atomnumret 15 och beta-minus-sönderfaller. Hur många neutroner har dotterkärnan?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dotterkärnan har masstalet 32 och atomnumret 16.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=A-Z=32-16=16\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 16 neutroner.</p></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
@@ -180608,7 +181108,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först dotterkärnans masstal och atomnummer.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -180623,7 +181123,7 @@ window.BANK = [
     "typ": "antineutrino vid beta-minus",
     "poang": "(1/0/0)",
     "t": "<p>Vid beta-minus-sönderfall skickas en elektron ut ur kärnan.</p><p>Vilken ytterligare partikel skickas ut?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus omvandlas en neutron till en proton, en elektron och en antineutrino.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Leptontalet bevaras eftersom elektronen och antineutrinon tar ut varandra.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En antineutrino.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Vid beta-minus bildas en proton, en elektron och en antineutrino när en neutron omvandlas. Antineutrinon tar med sig en del av energin.</p></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
       "begrepp"
@@ -180655,7 +181155,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Det är en mycket lätt, oladdad partikel.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -180665,9 +181165,9 @@ window.BANK = [
     "id": "9.318",
     "kap": 9,
     "omr": "sonderfall",
-    "niva": "C",
+    "niva": "E",
     "typ": "beta-minus på nukleonnivå",
-    "poang": "(0/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Vad händer inne i kärnan vid beta-minus-sönderfall?</p><p>Markera det korrekta alternativet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronen som sänds ut fanns inte i kärnan från början.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den bildas när en neutron omvandlas till en proton.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En neutron blir en proton, en elektron och en antineutrino.</p></div>",
     "familj": "Beta-minus-sönderfall",
@@ -180701,7 +181201,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Var kommer elektronen ifrån? Den fanns inte i kärnan innan.</p>",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -180714,7 +181214,7 @@ window.BANK = [
     "niva": "E",
     "typ": "atomnummer efter beta-plus",
     "poang": "(1/0/0)",
-    "t": "<p>Kol-11 (atomnummer 6) används vid PET-undersökningar och sönderfaller med beta-plus-sönderfall.</p><p>Vilket atomnummer får dotterkärnan?</p>",
+    "t": "<p>Kol-11 har atomnumret 6 och beta-plus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus-sönderfall blir en proton en neutron, så atomnumret minskar med 1.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5 (bor).</p></div>",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
     "formaga": [
@@ -180725,7 +181225,7 @@ window.BANK = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Ökar eller minskar antalet protoner när en positron sänds ut?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,

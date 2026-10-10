@@ -79357,59 +79357,117 @@ window.BANK = [
     "id": "8.22",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>När man studerar små laddade partiklar brukar man inte räkna med gravitationen. Undersök hur väl det stämmer för två protoner som befinner sig 1,0 cm ifrån varandra. En proton har massan 1,673·10⁻²⁷ kg.</p>\n<ol><li>Bestäm den elektriska kraften som verkar på varje proton.</li>\n<li>Bestäm gravitationskraften som protonerna påverkar varandra med.</li>\n<li>Jämför krafterna.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska repulsionen mellan protonerna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=k\\frac{e^2}{r^2}=8{,}99\\cdot10^9\\frac{(1{,}602\\cdot10^{-19})^2}{(0{,}010)^2}=2{,}31\\cdot10^{-24}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationskraften är attraktiv.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=G\\frac{m_p^2}{r^2}=6{,}674\\cdot10^{-11}\\frac{(1{,}673\\cdot10^{-27})^2}{(0{,}010)^2}=1{,}87\\cdot10^{-60}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kvoten visar storleksordningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{F_e}{F_g}=\\frac{2{,}31\\cdot10^{-24}}{1{,}87\\cdot10^{-60}}=1{,}24\\cdot10^{36}\\]</div></div><div class=\"facit-stycke\"><p>Avståndet förkortas bort i kvoten, så samma jämförelse gäller vid alla avstånd där de klassiska lagarna används.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_e=2{,}3\\cdot10^{-24}\\ \\mathrm N\\) och \\(F_g=1{,}9\\cdot10^{-60}\\ \\mathrm N\\). Den elektriska kraften är cirka \\(1{,}2\\cdot10^{36}\\) gånger större.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två protoner ligger 1,0 cm från varandra. En proton har massan \\(1{,}673\\cdot10^{-27}\\,\\mathrm{kg}\\) och laddningen \\(+1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Gravitationslagen är \\(F_g=Gm_1m_2/r^2\\), där \\(G=6{,}674\\cdot10^{-11}\\,\\mathrm{Nm^2/kg^2}\\).</p><p>a) Hur stor är den elektriska kraften på varje proton?</p><p>b) Hur stor är gravitationskraften mellan protonerna?</p><p>c) Hur många gånger större är den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2{,}5664\\cdot10^{-38}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2{,}5664\\cdot10^{-38}}{0{,}01^2}\\]</p><p><strong>Svar:</strong> \\(2{,}3072e-24\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd gravitationslagen för två lika massor:</p><p>\\[F_g=G\\frac{m^2}{r^2}\\]</p><p>\\[F_g=6{,}674\\cdot10^{-11}\\frac{(1{,}673\\cdot10^{-27})^2}{0{,}010^2}\\]</p><p><strong>Svar:</strong> \\(1{,}86801\\cdot10^{-60}\\,\\mathrm N\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Dela den elektriska kraften med gravitationskraften:</p><p>\\[\\frac{F_e}{F_g}=\\frac{2{,}3072\\cdot10^{-24}}{1{,}86801\\cdot10^{-60}}\\]</p><p><strong>Svar:</strong> cirka \\(1{,}23511\\cdot10^{36}\\) gånger större.</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "problemlösning",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.307197196e-24,
+      1.8680052146e-60,
+      1.2351128240795864e+36
+    ],
+    "tolerans": [
+      5.76799299e-26,
+      4.6700130365e-62,
+      5e+34
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__elektrisk_laddning_och_kraft",
-    "ledtrad": "<p>Den elektriska repulsionen mellan protonerna är Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+    "ledtrad": "<p>Använd Coulombs lag. Båda protonerna har laddningen +e.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>När man studerar små laddade partiklar brukar man inte räkna med gravitationen. Undersök hur väl det stämmer för två protoner som befinner sig 1,0 cm ifrån varandra. En proton har massan 1,673·10⁻²⁷ kg.</p>",
+    "spelIntro": "<p>Två protoner ligger 1,0 cm från varandra. En proton har massan \\(1{,}673\\cdot10^{-27}\\,\\mathrm{kg}\\) och laddningen \\(+1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Gravitationslagen är \\(F_g=Gm_1m_2/r^2\\), där \\(G=6{,}674\\cdot10^{-11}\\,\\mathrm{Nm^2/kg^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den elektriska kraften som verkar på varje proton.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska repulsionen mellan protonerna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=k\\frac{e^2}{r^2}=8{,}99\\cdot10^9\\frac{(1{,}602\\cdot10^{-19})^2}{(0{,}010)^2}=2{,}31\\cdot10^{-24}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}31\\cdot10^{-24}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den elektriska repulsionen mellan protonerna är Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor är den elektriska kraften på varje proton?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2{,}5664\\cdot10^{-38}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2{,}5664\\cdot10^{-38}}{0{,}01^2}\\]</p><p><strong>Svar:</strong> \\(2{,}3072e-24\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.307197196e-24,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 5.76799299e-26,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Coulombs lag. Båda protonerna har laddningen +e.</p>",
+        "t": "<p>Två protoner ligger 1,0 cm från varandra. Deras laddningar är \\(+1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den elektriska kraften på varje proton?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm gravitationskraften som protonerna påverkar varandra med.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationskraften är attraktiv.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=G\\frac{m_p^2}{r^2}=6{,}674\\cdot10^{-11}\\frac{(1{,}673\\cdot10^{-27})^2}{(0{,}010)^2}=1{,}87\\cdot10^{-60}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}87\\cdot10^{-60}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den elektriska repulsionen mellan protonerna är Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Hur stor är gravitationskraften mellan protonerna?",
+        "s": "<div class=\"facit-v2\"><p>Använd gravitationslagen för två lika massor:</p><p>\\[F_g=G\\frac{m^2}{r^2}\\]</p><p>\\[F_g=6{,}674\\cdot10^{-11}\\frac{(1{,}673\\cdot10^{-27})^2}{0{,}010^2}\\]</p><p><strong>Svar:</strong> \\(1{,}86801\\cdot10^{-60}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.8680052146e-60,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 4.6700130365e-62,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massorna är lika. Sätt in båda massorna i den givna gravitationslagen.</p>",
+        "t": "<p>Två protoner ligger 1,0 cm från varandra. Varje proton har massan \\(1{,}673\\cdot10^{-27}\\,\\mathrm{kg}\\).</p><p>Använd \\(F_g=Gm_1m_2/r^2\\) med \\(G=6{,}674\\cdot10^{-11}\\,\\mathrm{Nm^2/kg^2}\\).</p><p>Hur stor är gravitationskraften mellan protonerna?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Jämför krafterna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kvoten visar storleksordningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{F_e}{F_g}=\\frac{2{,}31\\cdot10^{-24}}{1{,}87\\cdot10^{-60}}=1{,}24\\cdot10^{36}\\]</div></div><div class=\"facit-stycke\"><p>Avståndet förkortas bort i kvoten, så samma jämförelse gäller vid alla avstånd där de klassiska lagarna används.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}24\\cdot10^{36}\\).</p></div>",
-        "ledtrad": "<p>Den elektriska repulsionen mellan protonerna är Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Hur många gånger större är den elektriska kraften?",
+        "s": "<div class=\"facit-v2\"><p>Dela den elektriska kraften med gravitationskraften:</p><p>\\[\\frac{F_e}{F_g}=\\frac{2{,}3072\\cdot10^{-24}}{1{,}86801\\cdot10^{-60}}\\]</p><p><strong>Svar:</strong> cirka \\(1{,}23511\\cdot10^{36}\\) gånger större.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.2351128240795864e+36,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 5e+34,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela den större kraften med den mindre.</p>",
+        "t": "<p>Två protoner påverkar varandra med en elektrisk kraft på \\(2{,}3072\\cdot10^{-24}\\,\\mathrm N\\) och en gravitationskraft på \\(1{,}86801\\cdot10^{-60}\\,\\mathrm N\\).</p><p>Hur många gånger större är den elektriska kraften?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      null
     ]
   },
   {
@@ -79642,27 +79700,28 @@ window.BANK = [
     "id": "8.24",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "tillämpa Coulombs lag på två laddningar, ur diagram, sökt kraft",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två laddade kulor.</p><span class=\"fig bred\"><svg height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">7,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text></svg></span>\n<ol><li>Är kraften attraherande eller repellerande?</li><li>Hur stor är kraften på varje kula?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningarna är båda positiva, så de stöter bort varandra.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(r=0{,}060\\ \\mathrm m\\) ger Coulombs lag</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(7{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}060)^2}=8{,}74\\cdot10^{-5}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Krafterna är lika stora och motriktade enligt Newtons tredje lag.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är frånstötande och har storleken \\(87\\ \\mu\\mathrm N\\) på vardera kulan.</p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Två kulor har laddningarna +7,0 nC och +5,0 nC. Avståndet mellan deras mittpunkter är 6,0 cm.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+7,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+5,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">6,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Dras kulorna mot varandra eller stöter de bort varandra?</p><p>b) Hur stor är kraften på varje kula?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(3{,}5\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{3{,}5\\cdot10^{-17}}{0{,}06^2}\\]</p><p><strong>Svar:</strong> \\(8{,}74028e-05\\,\\mathrm{N}\\).</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      8.74e-05
+      "Kulorna stöter bort varandra.",
+      8.740277777777779e-05
     ],
     "tolerans": [
       null,
-      1.3e-06
+      2.1850694444444447e-06
     ],
     "självrättning": [
-      false,
+      true,
       true
     ],
     "svarFormat": [
@@ -79679,31 +79738,68 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Laddningarna är båda positiva, så de stöter bort varandra.</p>",
+    "ledtrad": "<p>Har laddningarna samma eller olika tecken?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två laddade kulor.</p><span class=\"fig bred\"><svg height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">7,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text></svg></span>",
+    "spelIntro": "<p>Två kulor har laddningarna +7,0 nC och +5,0 nC. Avståndet mellan deras mittpunkter är 6,0 cm.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+7,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+5,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">6,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Är kraften attraherande eller repellerande?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningarna är båda positiva, så de stöter bort varandra.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Laddningarna är båda positiva, så de stöter bort varandra.</p>",
-        "niva": "C"
+        "fraga": "Dras kulorna mot varandra eller stöter de bort varandra?",
+        "s": "<div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kulorna stöter bort varandra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kulorna stöter bort varandra.",
+            "ratt": true,
+            "kommentar": "Lika tecken ger bortstötning; olika tecken ger attraktion."
+          },
+          {
+            "txt": "Kulorna dras mot varandra.",
+            "ratt": false,
+            "kommentar": "Kontrollera laddningarnas tecken."
+          },
+          {
+            "txt": "Ingen kraft verkar mellan kulorna.",
+            "ratt": false,
+            "kommentar": "Laddade kulor påverkar varandra."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Har laddningarna samma eller olika tecken?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är kraften på varje kula?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(r=0{,}060\\ \\mathrm m\\) ger Coulombs lag</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(7{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}060)^2}=8{,}74\\cdot10^{-5}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Krafterna är lika stora och motriktade enligt Newtons tredje lag.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}74\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Laddningarna är båda positiva, så de stöter bort varandra.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(3{,}5\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{3{,}5\\cdot10^{-17}}{0{,}06^2}\\]</p><p><strong>Svar:</strong> \\(8{,}74028e-05\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.740277777777779e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 2.1850694444444447e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla nC till C och centimeter till meter innan du använder Coulombs lag.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
@@ -80576,104 +80672,248 @@ window.BANK = [
     "id": "8.32",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Två positiva laddningar sitter 10 cm från varandra: 9,0 nC i punkten A och 4,0 nC i punkten B.</p><div class=\"fig smal\"><svg width=\"460\" height=\"200\" viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">9,0 nC</text><text x=\"70\" y=\"66\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,0 nC</text><text x=\"390\" y=\"66\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">B</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><line x1=\"70.0\" y1=\"170\" x2=\"390.0\" y2=\"170\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"163\" x2=\"70.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"163\" x2=\"390.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">10 cm</text></svg></div>\n<ol><li>Var på linjen mellan dem kan en tredje laddning placeras utan att påverkas av någon resulterande kraft?</li>\n<li>Spelar den tredje laddningens storlek eller tecken någon roll?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan två positiva laddningar är fälten motriktade.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Låt punkten ligga \\(x\\) cm från A och \\(10-x\\) cm från B.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k\\frac{9{,}0}{x^2}=k\\frac{4{,}0}{(10-x)^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ta den positiva kvadratroten och lös.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac3x=\\frac2{10-x}\\Rightarrow30-3x=2x\\Rightarrow x=6{,}0\\ \\mathrm{cm}\\]</div></div><div class=\"facit-stycke\"><p>Punkten ligger alltså 4,0 cm från den svagare laddningen B.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den tredje laddningens storlek och tecken påverkar inte var nettokraften blir noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=qE_{\\mathrm{res}}=0\\quad\\text{när}\\quad E_{\\mathrm{res}}=0\\]</div></div><div class=\"facit-stycke\"><p>Tecknet ändrar krafternas riktningar samtidigt men inte nollpunkten.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Punkten ligger \\(6{,}0\\ \\mathrm{cm}\\) från A, alltså \\(4{,}0\\ \\mathrm{cm}\\) från B. Resultatet är oberoende av testladdningen.</p></div>",
+    "niva": "C",
+    "poang": "(1/1/0)",
+    "t": "<p>Två fasta positiva laddningar ligger 10 cm från varandra. Den vänstra har laddningen +9,0 nC och den högra +4,0 nC.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+9,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+4,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">10 cm</text></svg></div><p>a) Hur långt från den vänstra laddningen ligger punkten där det elektriska fältet är noll? Svara i cm.</p><p>b) Ändras nollpunktens läge om testladdningens storlek eller tecken ändras?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Mellan två positiva laddningar går fälten åt motsatta håll. De måste vara lika starka i nollpunkten. Låt x vara avståndet från den vänstra laddningen.</p><p>\\[\\frac{9}{x^2}=\\frac{4}{(10-x)^2}\\]</p><p>Ta den positiva kvadratroten på båda sidor:</p><p>\\[\\frac{1{,}5}{x}=\\frac{1}{10-x}\\]</p><p>\\[1{,}5(10-x)=x\\]</p><p>\\[x=6\\,\\mathrm{cm}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Testladdningen får inte vara noll. På en liten testladdning är kraften \\(F=qE\\). Där det sammanlagda fältet är noll blir kraften noll oavsett testladdningens storlek och tecken.</p></div></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.0,
+      "Nej, läget är oförändrat."
+    ],
+    "tolerans": [
+      0.15000000000000002,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__elektrisk_laddning_och_kraft",
-    "ledtrad": "<p>Mellan två positiva laddningar är fälten motriktade. Låt punkten ligga \\(x\\) cm från A och \\(10-x\\) cm från B.</p>",
+    "ledtrad": "<p>Skriv ett avstånd som x och det andra som hela avståndet minus x. Sätt fältstyrkorna lika.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två positiva laddningar sitter 10 cm från varandra: 9,0 nC i punkten A och 4,0 nC i punkten B.</p><div class=\"fig smal\"><svg width=\"460\" height=\"200\" viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">9,0 nC</text><text x=\"70\" y=\"66\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,0 nC</text><text x=\"390\" y=\"66\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">B</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><line x1=\"70.0\" y1=\"170\" x2=\"390.0\" y2=\"170\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"163\" x2=\"70.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"163\" x2=\"390.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">10 cm</text></svg></div>",
+    "spelIntro": "<p>Två fasta positiva laddningar ligger 10 cm från varandra. Den vänstra har laddningen +9,0 nC och den högra +4,0 nC.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+9,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+4,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">10 cm</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Var på linjen mellan dem kan en tredje laddning placeras utan att påverkas av någon resulterande kraft?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan två positiva laddningar är fälten motriktade.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Låt punkten ligga \\(x\\) cm från A och \\(10-x\\) cm från B.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k\\frac{9{,}0}{x^2}=k\\frac{4{,}0}{(10-x)^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ta den positiva kvadratroten och lös.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac3x=\\frac2{10-x}\\Rightarrow30-3x=2x\\Rightarrow x=6{,}0\\ \\mathrm{cm}\\]</div></div><div class=\"facit-stycke\"><p>Punkten ligger alltså 4,0 cm från den svagare laddningen B.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{cm}\\).</p></div>",
-        "ledtrad": "<p>Mellan två positiva laddningar är fälten motriktade. Låt punkten ligga \\(x\\) cm från A och \\(10-x\\) cm från B.</p>",
-        "niva": "A"
+        "fraga": "Hur långt från den vänstra laddningen ligger punkten där det elektriska fältet är noll? Svara i cm.",
+        "s": "<div class=\"facit-v2\"><p>Mellan två positiva laddningar går fälten åt motsatta håll. De måste vara lika starka i nollpunkten. Låt x vara avståndet från den vänstra laddningen.</p><p>\\[\\frac{9}{x^2}=\\frac{4}{(10-x)^2}\\]</p><p>Ta den positiva kvadratroten på båda sidor:</p><p>\\[\\frac{1{,}5}{x}=\\frac{1}{10-x}\\]</p><p>\\[1{,}5(10-x)=x\\]</p><p>\\[x=6\\,\\mathrm{cm}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "cm",
+        "tolerans": 0.15000000000000002,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv ett avstånd som x och det andra som hela avståndet minus x. Sätt fältstyrkorna lika.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Spelar den tredje laddningens storlek eller tecken någon roll?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den tredje laddningens storlek och tecken påverkar inte var nettokraften blir noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=qE_{\\mathrm{res}}=0\\quad\\text{när}\\quad E_{\\mathrm{res}}=0\\]</div></div><div class=\"facit-stycke\"><p>Tecknet ändrar krafternas riktningar samtidigt men inte nollpunkten.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\).</p></div>",
-        "ledtrad": "<p>Mellan två positiva laddningar är fälten motriktade. Låt punkten ligga \\(x\\) cm från A och \\(10-x\\) cm från B.</p>",
-        "niva": "A"
+        "fraga": "Ändras nollpunktens läge om testladdningens storlek eller tecken ändras?",
+        "s": "<div class=\"facit-v2\"><p>Testladdningen får inte vara noll. På en liten testladdning är kraften \\(F=qE\\). Där det sammanlagda fältet är noll blir kraften noll oavsett testladdningens storlek och tecken.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, läget är oförändrat.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Nej, läget är oförändrat.",
+            "ratt": true,
+            "kommentar": "Kraften är q gånger det sammanlagda fältet. Där E är noll är kraften noll för alla testladdningar."
+          },
+          {
+            "txt": "Ja, läget flyttas om testladdningen är negativ.",
+            "ratt": false,
+            "kommentar": "Båda krafterna vänder samtidigt; nollpunkten flyttas inte."
+          },
+          {
+            "txt": "Ja, större testladdning flyttar punkten.",
+            "ratt": false,
+            "kommentar": "Båda kraftbidragen ökar lika mycket."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad händer med båda kraftbidragen om testladdningen byter tecken?</p>",
+        "t": "<p>Två fasta positiva laddningar har en punkt mellan sig där det sammanlagda fältet är noll. En liten, laddad testpartikel placeras där.</p><p>Ändras nollpunktens läge om testladdningens storlek eller tecken ändras?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "cm",
+      null
     ]
   },
   {
     "id": "8.33",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "summera vinkelräta coulombkrafter till en resultant, ur diagram, sökt kraft",
-    "poang": "(0/2/2)",
-    "t": "<p>Tre positiva laddningar är placerade enligt figuren. Den övre högra kulan påverkas av de två andra.</p><span class=\"fig smal\"><svg height=\"306\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.857 22.119 266.400 214.506\"><line x1=\"250\" y1=\"70\" x2=\"250\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"70\" x2=\"250\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><circle cx=\"250\" cy=\"70\" r=\"19\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"250\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"250\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 nC</text><circle cx=\"80\" cy=\"70\" r=\"19\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"80\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"80\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><circle cx=\"250\" cy=\"190\" r=\"19\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"250\" y=\"196\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"250\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><text x=\"165\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><text x=\"272\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text></svg></span>\n<ol><li>Beräkna kraften från den vänstra kulan.</li><li>Beräkna kraften från den nedre kulan.</li>\n<li>Bestäm den resulterande kraftens storlek och riktning.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vänsterkulan stöter bort den övre högra kulan vågrätt åt höger.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med avståndet 4,0 cm blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=8{,}99\\cdot10^9\\frac{1{,}50\\cdot10^{-17}}{(0{,}040)^2}=8{,}43\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nedre kulan stöter bort den övre rakt uppåt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med avståndet 3,0 cm blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=8{,}99\\cdot10^9\\frac{1{,}50\\cdot10^{-17}}{(0{,}030)^2}=1{,}50\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bidragen är vinkelräta.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\sqrt{F_x^2+F_y^2}=1{,}72\\cdot10^{-4}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>\\[\\alpha=\\tan^{-1}\\!\\left(\\frac{F_y}{F_x}\\right)=60{,}6^\\circ\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(172\\ \\mu\\mathrm N\\), riktad cirka \\(61^\\circ\\) uppåt från vågräta planet åt höger.</p></div>",
+    "poang": "(2/2/0)",
+    "t": "<p>Tre laddningar är placerade enligt figuren. Bestäm krafterna på den övre högra kulan.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" width=\"480\" height=\"320\" role=\"img\" aria-label=\"Tre laddningar med vinkelräta avstånd, mätta mellan kulornas mittpunkter\"><circle cx=\"110\" cy=\"90\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"110\" y=\"97\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"110\" y=\"61\" text-anchor=\"middle\" font-size=\"19\">+5,0 nC</text><circle cx=\"350\" cy=\"90\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"350\" y=\"97\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"350\" y=\"61\" text-anchor=\"middle\" font-size=\"19\">+3,0 nC</text><circle cx=\"350\" cy=\"245\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"350\" y=\"252\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"350\" y=\"290\" text-anchor=\"middle\" font-size=\"19\">+5,0 nC</text><path d=\"M136 90 H324 M350 116 V219\" stroke=\"#8796a6\" stroke-dasharray=\"5 5\" fill=\"none\"/><path d=\"M110 26 V38 M350 26 V38 M110 32 H350\" stroke=\"#566f85\" fill=\"none\"/><text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"19\">4,0 cm</text><path d=\"M412 90 H424 M412 245 H424 M418 90 V245\" stroke=\"#566f85\" fill=\"none\"/><text x=\"452\" y=\"174\" text-anchor=\"middle\" transform=\"rotate(-90 452 174)\" font-size=\"19\">3,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är kraften från den vänstra kulan på den övre högra kulan?</p><p>b) Hur stor är kraften från den nedre kulan på den övre högra kulan?</p><p>c) Hur stor är den sammanlagda kraften på den övre högra kulan, och vilken vinkel har den över riktningen åt höger? Svara i µN och grader.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1{,}5\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1{,}5\\cdot10^{-17}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(8{,}42812e-05\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1{,}5\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1{,}5\\cdot10^{-17}}{0{,}03^2}\\]</p><p><strong>Svar:</strong> \\(0{,}000149833\\,\\mathrm{N}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Krafterna är vinkelräta. Använd de två beräknade krafterna, i µN:</p><p>\\[F=\\sqrt{84{,}2812^2+149{,}8333^2}\\]</p><p><strong>Kraftens storlek:</strong> cirka 172 µN.</p><p>Vinkeln räknas från riktningen åt höger:</p><p>\\[\\tan\\alpha=\\frac{F_y}{F_x}\\]</p><p><strong>Vinkel:</strong> cirka 61°.</p></div></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.428124999999999e-05,
+      0.00014983333333333333,
+      [
+        171.91089808194323,
+        60.642246457208735
+      ]
+    ],
+    "tolerans": [
+      2.10703125e-06,
+      3.7458333333333336e-06,
+      [
+        4.297772452048581,
+        1
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__elektrisk_laddning_och_kraft",
-    "ledtrad": "<p>Vänsterkulan stöter bort den övre högra kulan vågrätt åt höger. Med avståndet 4,0 cm blir</p>",
+    "ledtrad": "<p>Använd laddningarna för vänsterkulan och den kula som kraften verkar på.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tre positiva laddningar är placerade enligt figuren. Den övre högra kulan påverkas av de två andra.</p><span class=\"fig smal\"><svg height=\"306\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.857 22.119 266.400 214.506\"><line x1=\"250\" y1=\"70\" x2=\"250\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"70\" x2=\"250\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><circle cx=\"250\" cy=\"70\" r=\"19\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"250\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"250\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 nC</text><circle cx=\"80\" cy=\"70\" r=\"19\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"80\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"80\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><circle cx=\"250\" cy=\"190\" r=\"19\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"250\" y=\"196\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"250\" y=\"224\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><text x=\"165\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><text x=\"272\" y=\"132\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text></svg></span>",
+    "spelIntro": "<p>Tre laddningar är placerade enligt figuren. Bestäm krafterna på den övre högra kulan.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" width=\"480\" height=\"320\" role=\"img\" aria-label=\"Tre laddningar med vinkelräta avstånd, mätta mellan kulornas mittpunkter\"><circle cx=\"110\" cy=\"90\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"110\" y=\"97\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"110\" y=\"61\" text-anchor=\"middle\" font-size=\"19\">+5,0 nC</text><circle cx=\"350\" cy=\"90\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"350\" y=\"97\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"350\" y=\"61\" text-anchor=\"middle\" font-size=\"19\">+3,0 nC</text><circle cx=\"350\" cy=\"245\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"350\" y=\"252\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"350\" y=\"290\" text-anchor=\"middle\" font-size=\"19\">+5,0 nC</text><path d=\"M136 90 H324 M350 116 V219\" stroke=\"#8796a6\" stroke-dasharray=\"5 5\" fill=\"none\"/><path d=\"M110 26 V38 M350 26 V38 M110 32 H350\" stroke=\"#566f85\" fill=\"none\"/><text x=\"230\" y=\"20\" text-anchor=\"middle\" font-size=\"19\">4,0 cm</text><path d=\"M412 90 H424 M412 245 H424 M418 90 V245\" stroke=\"#566f85\" fill=\"none\"/><text x=\"452\" y=\"174\" text-anchor=\"middle\" transform=\"rotate(-90 452 174)\" font-size=\"19\">3,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna kraften från den vänstra kulan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vänsterkulan stöter bort den övre högra kulan vågrätt åt höger.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med avståndet 4,0 cm blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=8{,}99\\cdot10^9\\frac{1{,}50\\cdot10^{-17}}{(0{,}040)^2}=8{,}43\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}43\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Vänsterkulan stöter bort den övre högra kulan vågrätt åt höger. Med avståndet 4,0 cm blir</p>",
-        "niva": "A"
+        "fraga": "Hur stor är kraften från den vänstra kulan på den övre högra kulan?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1{,}5\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1{,}5\\cdot10^{-17}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(8{,}42812e-05\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.428124999999999e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 2.10703125e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd laddningarna för vänsterkulan och den kula som kraften verkar på.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna kraften från den nedre kulan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nedre kulan stöter bort den övre rakt uppåt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med avståndet 3,0 cm blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=8{,}99\\cdot10^9\\frac{1{,}50\\cdot10^{-17}}{(0{,}030)^2}=1{,}50\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}50\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Vänsterkulan stöter bort den övre högra kulan vågrätt åt höger. Med avståndet 4,0 cm blir</p>",
-        "niva": "A"
+        "fraga": "Hur stor är kraften från den nedre kulan på den övre högra kulan?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1{,}5\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1{,}5\\cdot10^{-17}}{0{,}03^2}\\]</p><p><strong>Svar:</strong> \\(0{,}000149833\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00014983333333333333,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 3.7458333333333336e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd laddningarna för det lodräta paret.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den resulterande kraftens storlek och riktning.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bidragen är vinkelräta.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\sqrt{F_x^2+F_y^2}=1{,}72\\cdot10^{-4}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>\\[\\alpha=\\tan^{-1}\\!\\left(\\frac{F_y}{F_x}\\right)=60{,}6^\\circ\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60{,}6^\\circ\\).</p></div>",
-        "ledtrad": "<p>Vänsterkulan stöter bort den övre högra kulan vågrätt åt höger. Med avståndet 4,0 cm blir</p>",
-        "niva": "A"
+        "fraga": "Hur stor är den sammanlagda kraften på den övre högra kulan, och vilken vinkel har den över riktningen åt höger? Svara i µN och grader.",
+        "s": "<div class=\"facit-v2\"><p>Krafterna är vinkelräta. Använd Pythagoras sats:</p><p>\\[F=\\sqrt{F_x^2+F_y^2}\\]</p><p>\\[F=\\sqrt{84{,}3^2+150^2}\\]</p><p><strong>Kraftens storlek:</strong> cirka 172 µN.</p><p>Vinkeln mäts från riktningen åt höger:</p><p>\\[\\tan\\alpha=\\frac{F_y}{F_x}=\\frac{150}{84{,}3}\\]</p><p><strong>Vinkel:</strong> cirka 61°.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          172.0653654864918,
+          60.664013301830884
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "µN",
+          "°"
+        ],
+        "tolerans": [
+          4.301634137162295,
+          1
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Rita kraftsumman som en diagonal och använd en rätvinklig triangel.</p>",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Kraftens storlek (µN)",
+          "Vinkel över riktningen åt höger (grader)"
+        ],
+        "t": "<p>En kula påverkas av kraften 84,3 µN åt höger och 150 µN rakt uppåt.</p><p>Hur stor är den sammanlagda kraften, och vilken vinkel har den över riktningen åt höger? Svara i µN och grader.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      [
+        "µN",
+        "°"
+      ]
     ]
   },
   {
@@ -80730,49 +80970,109 @@ window.BANK = [
     "id": "8.34",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Figuren visar två laddningar.</p><span class=\"fig bred\"><svg height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">8,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 nC</text></svg></span>\n<ol><li>Var mellan kulorna är det elektriska fältet noll?</li>\n<li>Varför ligger punkten inte mitt emellan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan de positiva laddningarna är fälten motriktade.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Låt \\(x\\) vara avståndet från 8,0-nC-laddningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k\\frac{8{,}0}{x^2}=k\\frac{2{,}0}{(12-x)^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ta den positiva kvadratroten och lös.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{\\sqrt8}{x}=\\frac{\\sqrt2}{12-x}\\Rightarrow\\frac2x=\\frac1{12-x}\\Rightarrow x=8{,}0\\ \\mathrm{cm}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Punkten ligger närmare 2,0-nC-laddningen eftersom dess svagare fält måste kompenseras med ett kortare avstånd.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältet är noll \\(8{,}0\\ \\mathrm{cm}\\) från 8,0-nC-laddningen, alltså \\(4{,}0\\ \\mathrm{cm}\\) från 2,0-nC-laddningen.</p></div>",
+    "niva": "C",
+    "poang": "(1/1/0)",
+    "t": "<p>Två fasta positiva laddningar ligger 12 cm från varandra. Den vänstra har laddningen +8,0 nC och den högra +2,0 nC.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+8,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+2,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">12 cm</text></svg></div><p>a) Hur långt från den vänstra laddningen ligger punkten där det elektriska fältet är noll? Svara i cm.</p><p>b) Varför ligger nollpunkten närmare den mindre laddningen?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Mellan två positiva laddningar går fälten åt motsatta håll. De måste vara lika starka i nollpunkten. Låt x vara avståndet från den vänstra laddningen.</p><p>\\[\\frac{8}{x^2}=\\frac{2}{(12-x)^2}\\]</p><p>Ta den positiva kvadratroten på båda sidor:</p><p>\\[\\frac{2}{x}=\\frac{1}{12-x}\\]</p><p>\\[2(12-x)=x\\]</p><p>\\[x=8\\,\\mathrm{cm}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Vid lika avstånd är fältet från den större laddningen starkare. Punkten måste därför ligga närmare den mindre laddningen så att dess fält blir lika starkt.</p></div></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
       "problemlösning",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.0,
+      "Den mindre laddningens svagare fält kompenseras av ett kortare avstånd."
+    ],
+    "tolerans": [
+      0.2,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Mellan de positiva laddningarna är fälten motriktade. Låt \\(x\\) vara avståndet från 8,0-nC-laddningen.</p>",
+    "ledtrad": "<p>Skriv ett avstånd som x och det andra som hela avståndet minus x. Sätt fältstyrkorna lika.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två laddningar.</p><span class=\"fig bred\"><svg height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">8,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 nC</text></svg></span>",
+    "spelIntro": "<p>Två fasta positiva laddningar ligger 12 cm från varandra. Den vänstra har laddningen +8,0 nC och den högra +2,0 nC.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+8,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+2,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">12 cm</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Var mellan kulorna är det elektriska fältet noll?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan de positiva laddningarna är fälten motriktade.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Låt \\(x\\) vara avståndet från 8,0-nC-laddningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k\\frac{8{,}0}{x^2}=k\\frac{2{,}0}{(12-x)^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ta den positiva kvadratroten och lös.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{\\sqrt8}{x}=\\frac{\\sqrt2}{12-x}\\Rightarrow\\frac2x=\\frac1{12-x}\\Rightarrow x=8{,}0\\ \\mathrm{cm}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\ \\mathrm{cm}\\).</p></div>",
-        "ledtrad": "<p>Mellan de positiva laddningarna är fälten motriktade. Låt \\(x\\) vara avståndet från 8,0-nC-laddningen.</p>",
-        "niva": "A"
+        "fraga": "Hur långt från den vänstra laddningen ligger punkten där det elektriska fältet är noll? Svara i cm.",
+        "s": "<div class=\"facit-v2\"><p>Mellan två positiva laddningar går fälten åt motsatta håll. De måste vara lika starka i nollpunkten. Låt x vara avståndet från den vänstra laddningen.</p><p>\\[\\frac{8}{x^2}=\\frac{2}{(12-x)^2}\\]</p><p>Ta den positiva kvadratroten på båda sidor:</p><p>\\[\\frac{2}{x}=\\frac{1}{12-x}\\]</p><p>\\[2(12-x)=x\\]</p><p>\\[x=8\\,\\mathrm{cm}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "cm",
+        "tolerans": 0.2,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv ett avstånd som x och det andra som hela avståndet minus x. Sätt fältstyrkorna lika.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Varför ligger punkten inte mitt emellan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Punkten ligger närmare 2,0-nC-laddningen eftersom dess svagare fält måste kompenseras med ett kortare avstånd.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Mellan de positiva laddningarna är fälten motriktade. Låt \\(x\\) vara avståndet från 8,0-nC-laddningen.</p>",
-        "niva": "A"
+        "fraga": "Varför ligger nollpunkten närmare den mindre laddningen?",
+        "s": "<div class=\"facit-v2\"><p>Vid lika avstånd är fältet från den större laddningen starkare. Punkten måste därför ligga närmare den mindre laddningen så att dess fält blir lika starkt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den mindre laddningens svagare fält kompenseras av ett kortare avstånd.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den mindre laddningens svagare fält kompenseras av ett kortare avstånd.",
+            "ratt": true,
+            "kommentar": "Fältstyrkan ökar när avståndet minskar."
+          },
+          {
+            "txt": "Den större laddningen påverkar inte punkten.",
+            "ratt": false,
+            "kommentar": "Båda laddningarna bidrar till fältet."
+          },
+          {
+            "txt": "De två laddningarna ger samma fältstyrka vid alla avstånd.",
+            "ratt": false,
+            "kommentar": "Fältstyrkan beror på både laddning och avstånd."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur kan avståndet kompensera för en mindre laddning?</p>",
+        "t": "<p>Två positiva laddningar, +8,0 nC och +2,0 nC, ligger på en rak linje. Mellan dem finns en punkt där det elektriska fältet är noll.</p><p>Varför ligger nollpunkten närmare den mindre laddningen?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "cm",
+      null
     ]
   },
   {
@@ -83373,28 +83673,29 @@ window.BANK = [
     "id": "8.58",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "lösa ut laddningen ur coulombkraften och räkna om till elementarladdningar, ur text, sökt laddning",
-    "poang": "(2/1/0)",
-    "t": "<p>Två små kulor har lika stora positiva laddningar och repellerar varandra med kraften 0,50 mN. Avståndet mellan dem är 6,0 cm. Coulombs konstant är 8,99·10⁹ Nm²/C² och elementarladdningen 1,602·10⁻¹⁹ C.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+Q</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+Q</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">6,0 cm</text></svg></div>\n<ol><li>Skriv Coulombs lag för det här fallet, där båda laddningarna kallas q.</li>\n<li>Lös ut q² ur uttrycket och sätt in värdena.</li>\n<li>Bestäm laddningen q.</li>\n<li>Hur många elementarladdningar motsvarar det?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När laddningarna är lika stora kan Coulombs lag skrivas</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=k\\frac{q^2}{r^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut \\(q^2\\) och sätt in SI-enheterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q^2=\\frac{Fr^2}{k}=\\frac{(5{,}0\\cdot10^{-4})(0{,}060)^2}{8{,}99\\cdot10^9}=2{,}00\\cdot10^{-16}\\ \\mathrm{C^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ta den positiva roten eftersom laddningarnas storlek söks.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\sqrt{2{,}00\\cdot10^{-16}}=1{,}415\\cdot10^{-8}\\ \\mathrm C=14{,}1\\ \\mathrm{nC}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet elementarladdningar är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac q e=\\frac{1{,}415\\cdot10^{-8}}{1{,}602\\cdot10^{-19}}=8{,}83\\cdot10^{10}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vardera kulan har laddningen cirka \\(+14\\ \\mathrm{nC}\\), motsvarande \\(8{,}8\\cdot10^{10}\\) elementarladdningar.</p></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Två små kulor har lika stora positiva laddningar och stöter bort varandra med kraften 0,50 mN. Avståndet är 6,0 cm.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+q</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+q</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">6,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Elementarladdningen är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>a) Skriv Coulombs lag när båda laddningarna är q.</p><p>b) Lös ut q² och sätt in värdena.</p><p>c) Bestäm laddningen q. Svara i nC.</p><p>d) Hur många elementarladdningar motsvarar laddningen?</p>",
+    "s": "<div class=\"facit-v2\"><p>a) Båda laddningarna är q:</p><p>\\[F=kq^2/r^2\\]</p><p>b) Kraften är 0,00050 N och avståndet 0,060 m:</p><p>\\[q^2=\\frac{Fr^2}{k}=\\frac{0{,}00050\\cdot0{,}060^2}{8{,}99\\cdot10^9}\\]</p><p>\\[q^2\\approx2{,}00\\cdot10^{-16}\\,\\mathrm{C^2}\\]</p><p>c) Ta den positiva kvadratroten:</p><p>\\[q=1{,}415\\cdot10^{-8}\\,\\mathrm C\\approx14\\,\\mathrm{nC}\\]</p><p>d) Dela laddningen med elementarladdningen:</p><p>\\[n=8{,}83271\\cdot10^{10}\\]</p><p>Kulan har alltså ett underskott på cirka \\(8{,}8\\cdot10^{10}\\) elektroner.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
       null,
-      14,
-      88000000000
+      14.149998919097346,
+      88327084388.87233
     ],
     "tolerans": [
       null,
       null,
-      0.21,
-      1320000000
+      0.35374997297743366,
+      2208177109.7218084
     ],
     "självrättning": [
       false,
@@ -83411,8 +83712,8 @@ window.BANK = [
     "svarEnhet": [
       null,
       null,
-      null,
-      null
+      "nC",
+      "elektroner"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -83422,45 +83723,51 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>När laddningarna är lika stora kan Coulombs lag skrivas Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+    "ledtrad": "<p>Ta kvadratroten och omvandla sedan coulomb till nanocoulomb.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två små kulor har lika stora positiva laddningar och repellerar varandra med kraften 0,50 mN. Avståndet mellan dem är 6,0 cm. Coulombs konstant är 8,99·10⁹ Nm²/C² och elementarladdningen 1,602·10⁻¹⁹ C.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+Q</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+Q</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">6,0 cm</text></svg></div>",
+    "spelIntro": "<p>Två små kulor har lika stora positiva laddningar och stöter bort varandra med kraften 0,50 mN. Avståndet är 6,0 cm.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+q</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+q</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">6,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Elementarladdningen är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
     "spelDelar": [
       {
-        "etikett": "a",
-        "fraga": "Skriv Coulombs lag för det här fallet, där båda laddningarna kallas q.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När laddningarna är lika stora kan Coulombs lag skrivas</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=k\\frac{q^2}{r^2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\frac{q^2}{r^2}\\).</p></div>",
-        "ledtrad": "<p>När laddningarna är lika stora kan Coulombs lag skrivas Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Lös ut q² ur uttrycket och sätt in värdena.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut \\(q^2\\) och sätt in SI-enheterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q^2=\\frac{Fr^2}{k}=\\frac{(5{,}0\\cdot10^{-4})(0{,}060)^2}{8{,}99\\cdot10^9}=2{,}00\\cdot10^{-16}\\ \\mathrm{C^2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}00\\cdot10^{-16}\\ \\mathrm{C^2}\\).</p></div>",
-        "ledtrad": "<p>När laddningarna är lika stora kan Coulombs lag skrivas Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "C"
-      },
-      {
         "etikett": "c",
-        "fraga": "Bestäm laddningen q.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ta den positiva roten eftersom laddningarnas storlek söks.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\sqrt{2{,}00\\cdot10^{-16}}=1{,}415\\cdot10^{-8}\\ \\mathrm C=14{,}1\\ \\mathrm{nC}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}1\\ \\mathrm{nC}\\).</p></div>",
-        "ledtrad": "<p>När laddningarna är lika stora kan Coulombs lag skrivas Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "C"
+        "fraga": "Hur stor är laddningen? Svara i nC.",
+        "s": "<div class=\"facit-v2\"><p>Laddningen är positiv. Ta därför den positiva kvadratroten:</p><p>\\[q=\\sqrt{2{,}00\\cdot10^{-16}}\\]</p><p>\\[q=1{,}414\\cdot10^{-8}\\,\\mathrm C\\]</p><p><strong>Svar:</strong> cirka 14 nC.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 14.142135623730951,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "nC",
+        "tolerans": 0.3535533905932738,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ta kvadratroten och omvandla sedan coulomb till nanocoulomb.</p>",
+        "t": "<p>En positiv laddning q uppfyller \\(q^2=2{,}00\\cdot10^{-16}\\,\\mathrm{C^2}\\).</p><p>Hur stor är laddningen? Svara i nC.</p>"
       },
       {
         "etikett": "d",
-        "fraga": "Hur många elementarladdningar motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet elementarladdningar är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac q e=\\frac{1{,}415\\cdot10^{-8}}{1{,}602\\cdot10^{-19}}=8{,}83\\cdot10^{10}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}83\\cdot10^{10}\\).</p></div>",
-        "ledtrad": "<p>När laddningarna är lika stora kan Coulombs lag skrivas Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "C"
+        "fraga": "Hur många elektroner saknas jämfört med en oladdad kula?",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddningen till coulomb. Dela sedan med elementarladdningen:</p><p>\\[n=\\frac{14\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\]</p><p><strong>Svar:</strong> cirka \\(8{,}7\\cdot10^{10}\\) saknade elektroner.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 87390761548.06491,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "elektroner",
+        "tolerans": 2184769038.701623,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur många laddningar av storleken e behövs för den givna laddningen?</p>",
+        "t": "<p>En kula har laddningen +14 nC. En elementarladdning är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Hur många elektroner saknas jämfört med en oladdad kula?</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
@@ -90449,59 +90756,104 @@ window.BANK = [
     "id": "8.119",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två kulor, den ena med laddningen 12 nC och den andra med laddningen −8,0 nC, förs ihop så att de nuddar varandra. Efter en stund förs de isär igen och placeras så att avståndet mellan dem är 4,0 cm.</p>\n<ol><li>Vilken laddning har varje kula efteråt?</li>\n<li>Bestäm den elektriska kraften som verkar på kulorna.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För två likadana ledande kulor bevaras totalladdningen och delas lika efter kontakten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{tot}}=12-8{,}0=4{,}0\\ \\mathrm{nC}\\]\n\\[Q'=\\frac{4{,}0}{2}=+2{,}0\\ \\mathrm{nC}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efteråt är båda kulorna positiva.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid \\(r=0{,}040\\ \\mathrm m\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(2{,}0\\cdot10^{-9})^2}{(0{,}040)^2}=2{,}25\\cdot10^{-5}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Kraften är frånstötande.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vardera kulan får \\(+2{,}0\\ \\mathrm{nC}\\). Kraften blir \\(22\\ \\mu\\mathrm N\\), frånstötande.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två likadana metallkulor har laddningarna +12 nC och −8,0 nC. De får nudda varandra och placeras sedan 4,0 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Vilken laddning får varje kula efter kontakten? Svara i nC.</p><p>b) Hur stor är kraften mellan kulorna?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den sammanlagda laddningen bevaras och delas lika mellan likadana metallkulor.</p><p>\\[Q=\\frac{12-8}{2}=2\\,\\mathrm{nC}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(4\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{4\\cdot10^{-18}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(2{,}2475e-05\\,\\mathrm{N}\\).</p></div></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2.2475e-05
+    ],
+    "tolerans": [
+      0.05,
+      5.61875e-07
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__elektrisk_laddning_och_kraft",
-    "ledtrad": "<p>För två likadana ledande kulor bevaras totalladdningen och delas lika efter kontakten.</p>",
+    "ledtrad": "<p>Lägg ihop laddningarna med deras tecken och dela summan på två.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två kulor, den ena med laddningen 12 nC och den andra med laddningen −8,0 nC, förs ihop så att de nuddar varandra. Efter en stund förs de isär igen och placeras så att avståndet mellan dem är 4,0 cm.</p>",
+    "spelIntro": "<p>Två likadana metallkulor har laddningarna +12 nC och −8,0 nC. De får nudda varandra och placeras sedan 4,0 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken laddning har varje kula efteråt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För två likadana ledande kulor bevaras totalladdningen och delas lika efter kontakten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{tot}}=12-8{,}0=4{,}0\\ \\mathrm{nC}\\]\n\\[Q'=\\frac{4{,}0}{2}=+2{,}0\\ \\mathrm{nC}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+2{,}0\\ \\mathrm{nC}\\).</p></div>",
-        "ledtrad": "<p>För två likadana ledande kulor bevaras totalladdningen och delas lika efter kontakten.</p>",
-        "niva": "C"
+        "fraga": "Vilken laddning får varje kula efter kontakten? Svara i nC.",
+        "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen bevaras och delas lika mellan likadana metallkulor.</p><p>\\[Q=\\frac{12-8}{2}=2\\,\\mathrm{nC}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "nC",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Lägg ihop laddningarna med deras tecken och dela summan på två.</p>",
+        "t": "<p>Två likadana metallkulor har laddningarna +12 nC och −8,0 nC. De får nudda varandra och förs sedan isär.</p><p>Vilken laddning får varje kula efter kontakten? Svara i nC.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den elektriska kraften som verkar på kulorna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efteråt är båda kulorna positiva.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid \\(r=0{,}040\\ \\mathrm m\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(2{,}0\\cdot10^{-9})^2}{(0{,}040)^2}=2{,}25\\cdot10^{-5}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Kraften är frånstötande.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>För två likadana ledande kulor bevaras totalladdningen och delas lika efter kontakten.</p>",
-        "niva": "C"
+        "fraga": "Hur stor är kraften mellan kulorna?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(4\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{4\\cdot10^{-18}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(2{,}2475e-05\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.2475e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 5.61875e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd de givna laddningarna efter kontakten och Coulombs lag.</p>",
+        "t": "<p>Två kulor har laddningen +2,0 nC vardera och ligger 4,0 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är kraften mellan kulorna?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "nC",
+      "N"
     ]
   },
   {
     "id": "8.311",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "bestämma avstånd ur Coulombs lag",
-    "poang": "(0/2/0)",
-    "t": "<p>Två lika positiva punktladdningar på \\(2{,}0\\,\\mu\\mathrm C\\) repellerar varandra med kraften \\(0{,}90\\,\\mathrm N\\). Bestäm avståndet mellan laddningarna.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+2,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+2,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">r = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut avståndet ur Coulombs lag innan du sätter in värden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt{\\frac{kq^2}{F}}=0{,}199867\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}199867\\,\\mathrm m\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två positiva laddningar på +2,0 µC vardera stöter bort varandra med kraften 0,90 N.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+2,0 µC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+2,0 µC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">r = ?</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur långt är det mellan laddningarna?</p>",
+    "s": "<div class=\"facit-v2\"><p>Avståndet är kvadrerat i Coulombs lag. Lös ut r och ta den positiva kvadratroten:</p><p>\\[r=\\sqrt{\\frac{kq^2}{F}}\\]</p><p>\\[r=\\sqrt{\\frac{8{,}99\\cdot10^9(2{,}0\\cdot10^{-6})^2}{0{,}90}}\\]</p><p><strong>Svar:</strong> cirka 0,20 m.</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "procedur",
@@ -90509,77 +90861,186 @@ window.BANK = [
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektriska_krafter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.19986662219256787,
-    "tolerans": 0.0035975991994662213,
+    "rättSvar": 0.19988885800753267,
+    "tolerans": 0.004997221450188317,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>I Coulombs lag står avståndet i kvadrat. Lös ut \\(r\\) med en kvadratrot.</p>",
+    "ledtrad": "<p>Lös ut r² ur Coulombs lag och ta sedan kvadratroten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.120",
     "kap": 8,
-    "omr": "coulomb",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En negativt laddad stav förs in i närheten av ett metallblock, utan att nudda det.</p>\n<ol><li>Vad händer med elektronerna i metallblocket när staven är nära?</li>\n<li>Vad händer med elektronerna om man sedan för staven långt bort igen?</li>\n<li>Vad hade hänt om blocket varit gjort av plast istället för metall?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa staven stöter bort metallens rörliga elektroner till blockets bortre ände.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den närmaste änden får elektronunderskott och blir positiv, medan blockets nettoladdning förblir noll.</p></div><div class=\"facit-stycke\"><p>Detta är influens.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När staven förs bort finns inget yttre fält som håller laddningarna åtskilda.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronerna fördelas jämnt igen och polariseringen försvinner.</p></div><div class=\"facit-stycke\"><p>En permanent nettoladdning skulle kräva till exempel jordning medan staven är kvar.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I plast kan laddningar inte röra sig fritt genom hela föremålet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Molekylerna kan däremot polariseras svagt, så en lokal laddningsförskjutning kan uppstå.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Metallen polariseras genom influens och återgår när staven tas bort. I plast blir effekten lokal eftersom materialet är en isolator.</p></div>",
-    "familj": "Ledare, influens och laddningsutjämning",
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En negativt laddad stav förs nära ett oladdat metallblock utan att röra det. Blocket är inte jordat.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" role=\"img\" aria-label=\"En laddad stav nära ett oladdat metallföremål utan beröring\"><rect x=\"50\" y=\"50\" width=\"50\" height=\"110\" rx=\"12\" fill=\"#f2e6c8\" stroke=\"#876532\"/><text x=\"75\" y=\"80\" font-size=\"25\" text-anchor=\"middle\">−</text><text x=\"75\" y=\"115\" font-size=\"25\" text-anchor=\"middle\">−</text><text x=\"75\" y=\"150\" font-size=\"25\" text-anchor=\"middle\">−</text><rect x=\"215\" y=\"55\" width=\"200\" height=\"100\" rx=\"14\" fill=\"#e3edf6\" stroke=\"#566f85\" stroke-width=\"2\"/><text x=\"315\" y=\"110\" text-anchor=\"middle\" font-size=\"22\">metall</text><text x=\"75\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">stav</text><text x=\"315\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">oladdat från början</text></svg></div><p>a) Vad händer med elektronerna i metallblocket när den negativa staven förs nära?</p><p>b) Vad händer när staven förs bort igen?</p><p>c) Vad är skillnaden om föremålet är av plast i stället för metall?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den negativa staven stöter bort metallens rörliga elektroner. De samlas på den bortre sidan. Blockets sammanlagda laddning är fortfarande noll.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>När staven försvinner upphör förskjutningen. Elektronerna fördelas jämnt igen; blocket är fortfarande oladdat.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Plast är en isolator. Elektroner kan inte röra sig fritt genom hela föremålet. Laddningar kan ändå förskjutas lite inom molekylerna; det kallas polarisering.</p></div></div>",
+    "familj": "Influens och polarisering",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "familjNyckel": "laddning__laddning_och_antal_elektroner",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\). Koppla total laddning till antal laddningar med \\(|Q|=Ne\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "De flyttas till sidan längst från staven.",
+      "Elektronerna fördelas jämnt igen.",
+      "Laddningar kan förskjutas lite inom molekylerna men rör sig inte fritt genom plasten."
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Elektroner är negativt laddade. Hur påverkas de av den negativa staven?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En negativt laddad stav förs in i närheten av ett metallblock, utan att nudda det.</p>",
+    "spelIntro": "<p>En negativt laddad stav förs nära ett oladdat metallblock utan att röra det. Blocket är inte jordat.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" role=\"img\" aria-label=\"En laddad stav nära ett oladdat metallföremål utan beröring\"><rect x=\"50\" y=\"50\" width=\"50\" height=\"110\" rx=\"12\" fill=\"#f2e6c8\" stroke=\"#876532\"/><text x=\"75\" y=\"80\" font-size=\"25\" text-anchor=\"middle\">−</text><text x=\"75\" y=\"115\" font-size=\"25\" text-anchor=\"middle\">−</text><text x=\"75\" y=\"150\" font-size=\"25\" text-anchor=\"middle\">−</text><rect x=\"215\" y=\"55\" width=\"200\" height=\"100\" rx=\"14\" fill=\"#e3edf6\" stroke=\"#566f85\" stroke-width=\"2\"/><text x=\"315\" y=\"110\" text-anchor=\"middle\" font-size=\"22\">metall</text><text x=\"75\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">stav</text><text x=\"315\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">oladdat från början</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad händer med elektronerna i metallblocket när staven är nära?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa staven stöter bort metallens rörliga elektroner till blockets bortre ände.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den närmaste änden får elektronunderskott och blir positiv, medan blockets nettoladdning förblir noll.</p></div><div class=\"facit-stycke\"><p>Detta är influens.</p></div></div></div></div></div>",
-        "ledtrad": "<p>En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\). Koppla total laddning till antal laddningar med \\(|Q|=Ne\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vad händer med elektronerna i metallblocket när den negativa staven förs nära?",
+        "s": "<div class=\"facit-v2\"><p>Den negativa staven stöter bort metallens rörliga elektroner. De samlas på den bortre sidan. Blockets sammanlagda laddning är fortfarande noll.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De flyttas till sidan längst från staven.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De flyttas till sidan längst från staven.",
+            "ratt": true,
+            "kommentar": "Den negativa staven stöter bort elektronerna."
+          },
+          {
+            "txt": "De flyttas till sidan närmast staven.",
+            "ratt": false,
+            "kommentar": "Elektronerna har samma laddningstecken som staven."
+          },
+          {
+            "txt": "De lämnar blocket och går till staven.",
+            "ratt": false,
+            "kommentar": "Staven rör inte blocket och ingen laddning överförs."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Elektroner är negativt laddade. Hur påverkas de av den negativa staven?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vad händer med elektronerna om man sedan för staven långt bort igen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När staven förs bort finns inget yttre fält som håller laddningarna åtskilda.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronerna fördelas jämnt igen och polariseringen försvinner.</p></div><div class=\"facit-stycke\"><p>En permanent nettoladdning skulle kräva till exempel jordning medan staven är kvar.</p></div></div></div></div></div>",
-        "ledtrad": "<p>En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\). Koppla total laddning till antal laddningar med \\(|Q|=Ne\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vad händer när staven förs bort igen?",
+        "s": "<div class=\"facit-v2\"><p>När staven försvinner upphör förskjutningen. Elektronerna fördelas jämnt igen; blocket är fortfarande oladdat.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Elektronerna fördelas jämnt igen.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Elektronerna fördelas jämnt igen.",
+            "ratt": true,
+            "kommentar": "Ingen laddning har tillförts eller lämnat blocket."
+          },
+          {
+            "txt": "Blocket är permanent negativt laddat.",
+            "ratt": false,
+            "kommentar": "Influens utan jordning ändrar inte nettoladdningen."
+          },
+          {
+            "txt": "Blocket är permanent positivt laddat.",
+            "ratt": false,
+            "kommentar": "Elektroner har inte lämnat blocket."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Har några elektroner tillförts eller lämnat blocket?</p>",
+        "t": "<p>En negativ stav hölls nära ett oladdat metallblock utan beröring eller jordning. Staven förs nu bort.</p><p>Vad händer när staven förs bort igen?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad hade hänt om blocket varit gjort av plast istället för metall?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I plast kan laddningar inte röra sig fritt genom hela föremålet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Molekylerna kan däremot polariseras svagt, så en lokal laddningsförskjutning kan uppstå.</p></div></div></div></div></div>",
-        "ledtrad": "<p>En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\). Koppla total laddning till antal laddningar med \\(|Q|=Ne\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Vad är skillnaden om föremålet är av plast i stället för metall?",
+        "s": "<div class=\"facit-v2\"><p>Plast är en isolator. Elektroner kan inte röra sig fritt genom hela föremålet. Laddningar kan ändå förskjutas lite inom molekylerna; det kallas polarisering.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Laddningar kan förskjutas lite inom molekylerna men rör sig inte fritt genom plasten.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Laddningar kan förskjutas lite inom molekylerna men rör sig inte fritt genom plasten.",
+            "ratt": true,
+            "kommentar": "Plast är en isolator; lokal förskjutning kallas polarisering."
+          },
+          {
+            "txt": "Elektronerna rör sig lika fritt genom plasten som genom metall.",
+            "ratt": false,
+            "kommentar": "Det är skillnaden mellan en isolator och en ledare."
+          },
+          {
+            "txt": "Protoner flyttar genom plasten och samlas vid staven.",
+            "ratt": false,
+            "kommentar": "Protonerna är bundna i atomkärnorna."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad skiljer en isolator från en ledare?</p>",
+        "t": "<p>En laddad stav förs nära ett oladdat föremål utan att röra det.</p><p>Vad är skillnaden om föremålet är av plast i stället för metall?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Laddning och antal elektroner"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
@@ -90588,31 +91049,32 @@ window.BANK = [
     "omr": "coulomb",
     "niva": "C",
     "typ": "resultant av Coulombkrafter längs en linje",
-    "poang": "(0/2/0)",
-    "t": "<p>Tre punktladdningar ligger på en rät linje. \\(+2{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}20\\,\\mathrm m\\) till vänster om \\(+1{,}0\\,\\mu\\mathrm C\\). En laddning \\(-3{,}0\\,\\mu\\mathrm C\\) ligger ytterligare \\(0{,}30\\,\\mathrm m\\) åt höger. Bestäm resultantkraftens storlek på den mittersta laddningen.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+2,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"223.0\" y1=\"92\" x2=\"237.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"230.0\" y1=\"85\" x2=\"230.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"230\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+1,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,20 m</text><line x1=\"230.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"310\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,30 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den vänstra positiva laddningen repellerar den mittersta åt höger.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den högra negativa laddningen attraherar den också åt höger, så beloppen adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{12}=0{,}4494\\,\\mathrm N,\\qquad F_{23}=0{,}2996\\,\\mathrm N\\]\\[F_R=0{,}749\\,\\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}749\\,\\mathrm N\\) åt höger.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Tre laddningar ligger på en rak linje: +2,0 µC till vänster, +1,0 µC i mitten och −3,0 µC till höger. Avstånden till mittladdningen är 0,20 m respektive 0,30 m.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+2,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"223.0\" y1=\"92\" x2=\"237.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"230.0\" y1=\"85\" x2=\"230.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"230\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+1,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,20 m</text><line x1=\"230.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"310\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,30 m</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den sammanlagda elektriska kraften på mittladdningen?</p>",
+    "s": "<div class=\"facit-v2\"><p>Vänsterladdningen stöter bort mittladdningen åt höger. Högerladdningen drar den åt höger.</p><p>\\[F_v=k\\frac{2{,}0\\cdot10^{-6}\\cdot1{,}0\\cdot10^{-6}}{0{,}20^2}\\]</p><p>\\[F_v\\approx0{,}4495\\,\\mathrm N\\]</p><p>\\[F_h=k\\frac{3{,}0\\cdot10^{-6}\\cdot1{,}0\\cdot10^{-6}}{0{,}30^2}\\]</p><p>\\[F_h\\approx0{,}2997\\,\\mathrm N\\]</p><p>Krafterna går åt samma håll:</p><p>\\[F\\approx0{,}4495+0{,}2997=0{,}7492\\,\\mathrm N\\]</p></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_superposition",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.7489999999999999,
-    "tolerans": 0.013481999999999997,
+    "rättSvar": 0.7491666666666665,
+    "tolerans": 0.018729166666666665,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm först riktningen på vardera kraften på den mittersta laddningen.</p>",
+    "ledtrad": "<p>Kontrollera riktningen på varje kraft innan du beräknar deras summa.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 3,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.121",
@@ -90620,38 +91082,45 @@ window.BANK = [
     "omr": "coulomb",
     "niva": "C",
     "typ": "summera krafter från två laddningar på en tredje, ur diagram, sökt kraft",
-    "poang": "(1/2/0)",
-    "t": "<p>Tre laddade kulor sitter på en rak linje.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text></svg></span>\n<ol><li>Åt vilket håll påverkas den mittersta kulan av vardera grannen?</li>\n<li>Beräkna de två krafterna.</li><li>Hur stor blir den resulterande kraften på mittkulan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa högerkulan drar mittkulan åt höger.</p></div><div class=\"facit-stycke\"><p>Båda bidragen har alltså samma riktning.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften från vänsterkulan blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_v=8{,}99\\cdot10^9\\frac{(5{,}0\\cdot10^{-9})(2{,}0\\cdot10^{-9})}{(0{,}030)^2}=99{,}9\\ \\mu\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften från högerkulan blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_h=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(2{,}0\\cdot10^{-9})}{(0{,}050)^2}=28{,}8\\ \\mu\\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Adderar man bidragen fås</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=99{,}9+28{,}8=128{,}7\\ \\mu\\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den resulterande kraften på mittkulan är \\(129\\ \\mu\\mathrm N\\) åt höger.</p></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>Tre laddade kulor ligger på en rak linje: +5,0 nC till vänster, +2,0 nC i mitten och −4,0 nC till höger. Avstånden är 3,0 cm respektive 5,0 cm.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text></svg></span><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Åt vilket håll verkar vardera kraften på mittkulan?</p><p>b) Hur stor är kraften från vänsterkulan och från högerkulan? Svara i µN.</p><p>c) Hur stor är den sammanlagda kraften på mittkulan? Svara i µN.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger. Den negativa högerkulan drar mittkulan åt höger.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1\\cdot10^{-17}}{0{,}03^2}\\]</p><p><strong>Svar:</strong> \\(99{,}8889\\,\\mathrm{\\mu N}\\).</p></div><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(8\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{8\\cdot10^{-18}}{0{,}05^2}\\]</p><p><strong>Svar:</strong> \\(28{,}768\\,\\mathrm{\\mu N}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Krafterna verkar åt samma håll och adderas:</p><p>\\[F=99{,}8889+28{,}768=128{,}657\\,\\mu\\mathrm N\\]</p><p><strong>Svar:</strong> cirka 129 µN åt höger.</p></div></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      128.7
+      "Båda verkar åt höger.",
+      [
+        99.88888888888891,
+        28.768
+      ],
+      128.65688888888891
     ],
     "tolerans": [
       null,
-      null,
-      1.9304999999999997
+      [
+        2.497222222222223,
+        0.7192000000000001
+      ],
+      3.216422222222223
     ],
     "självrättning": [
-      false,
-      false,
+      true,
+      true,
       true
     ],
     "svarFormat": [
       null,
-      null,
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
       null,
-      null,
+      "µN",
       "µN"
     ],
     "svarsstruktur": "ordnad",
@@ -90661,41 +91130,97 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger. Den negativa högerkulan drar mittkulan åt höger.</p>",
+    "ledtrad": "<p>Titta på vilket föremål varje kraft verkar på och jämför laddningarnas tecken.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tre laddade kulor sitter på en rak linje.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text></svg></span>",
+    "spelIntro": "<p>Tre laddade kulor ligger på en rak linje: +5,0 nC till vänster, +2,0 nC i mitten och −4,0 nC till höger. Avstånden är 3,0 cm respektive 5,0 cm.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text></svg></span><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Åt vilket håll påverkas den mittersta kulan av vardera grannen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa högerkulan drar mittkulan åt höger.</p></div><div class=\"facit-stycke\"><p>Båda bidragen har alltså samma riktning.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger. Den negativa högerkulan drar mittkulan åt höger.</p>",
+        "fraga": "Åt vilket håll verkar vardera kraften på mittkulan?",
+        "s": "<div class=\"facit-v2\"><p>Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger. Den negativa högerkulan drar mittkulan åt höger.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Båda verkar åt höger.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Båda verkar åt höger.",
+            "ratt": true,
+            "kommentar": "Vänsterkulan stöter bort mittkulan; högerkulan drar till sig den."
+          },
+          {
+            "txt": "Båda verkar åt vänster.",
+            "ratt": false,
+            "kommentar": "Kontrollera både tecknen och var kulorna ligger."
+          },
+          {
+            "txt": "De verkar åt motsatta håll.",
+            "ratt": false,
+            "kommentar": "Den högra laddningen är negativ och attraherar mittkulan."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Titta på vilket föremål varje kraft verkar på och jämför laddningarnas tecken.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna de två krafterna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften från vänsterkulan blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_v=8{,}99\\cdot10^9\\frac{(5{,}0\\cdot10^{-9})(2{,}0\\cdot10^{-9})}{(0{,}030)^2}=99{,}9\\ \\mu\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften från högerkulan blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_h=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(2{,}0\\cdot10^{-9})}{(0{,}050)^2}=28{,}8\\ \\mu\\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(28{,}8\\ \\mu\\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger. Den negativa högerkulan drar mittkulan åt höger.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor är kraften från vänsterkulan och från högerkulan? Svara i µN.",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1\\cdot10^{-17}}{0{,}03^2}\\]</p><p><strong>Svar:</strong> \\(99{,}8889\\,\\mathrm{\\mu N}\\).</p></div><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(8\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{8\\cdot10^{-18}}{0{,}05^2}\\]</p><p><strong>Svar:</strong> \\(28{,}768\\,\\mathrm{\\mu N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          99.88888888888891,
+          28.768
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µN",
+        "tolerans": [
+          2.497222222222223,
+          0.7192000000000001
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna en Coulombkraft för varje granne.</p>",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Från vänsterkulan",
+          "Från högerkulan"
+        ],
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor blir den resulterande kraften på mittkulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Adderar man bidragen fås</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=99{,}9+28{,}8=128{,}7\\ \\mu\\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(128{,}7\\ \\mu\\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den positiva vänsterkulan stöter bort den positiva mittkulan åt höger. Den negativa högerkulan drar mittkulan åt höger.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor är den sammanlagda kraften på mittkulan? Svara i µN.",
+        "s": "<div class=\"facit-v2\"><p>Krafterna verkar åt samma håll och adderas:</p><p>\\[F=99{,}8889+28{,}768=128{,}657\\,\\mu\\mathrm N\\]</p><p><strong>Svar:</strong> cirka 129 µN åt höger.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 128.65688888888891,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µN",
+        "tolerans": 3.216422222222223,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Krafterna går åt samma håll. Hur beräknas summan?</p>",
+        "t": "<p>En kula påverkas av två elektriska krafter åt höger: \\(99{,}8889\\,\\mu\\mathrm N\\) och \\(28{,}768\\,\\mu\\mathrm N\\).</p><p>Hur stor är den sammanlagda kraften på mittkulan? Svara i µN.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
@@ -90704,91 +91229,199 @@ window.BANK = [
   {
     "id": "8.122",
     "kap": 8,
-    "omr": "coulomb",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En negativt laddad stav förs nära ett oladdat metallklot utan att röra det. Klotets ena sida blir positiv och den andra negativ.</p>\n<ol><li>Vad kallas fenomenet?</li><li>Vilka partiklar är det som flyttar sig, och åt vilket håll?</li>\n<li>Vad händer med klotet när staven förs bort igen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fenomenet kallas influens, eller elektrostatisk induktion.</p></div><div class=\"facit-stycke\"><p>Klotets totala laddning är fortfarande noll.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Metallens rörliga ledningselektroner stöts bort av den negativa staven och samlas på klotets bortre sida.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Sidan närmast staven får elektronunderskott och blir positiv.</p></div><div class=\"facit-stycke\"><p>Protonerna är bundna i atomkärnorna och flyttar sig inte genom metallen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När staven tas bort försvinner den yttre påverkan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronerna sprids jämnt över klotet igen, som åter blir neutralt överallt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det är influens: elektronerna flyttas till bortre sidan och fördelas jämnt igen när staven tas bort.</p></div>",
-    "familj": "Ledare, influens och laddningsutjämning",
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En positivt laddad stav hålls nära ett oladdat metallklot utan att röra det. Klotet är inte jordat.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" role=\"img\" aria-label=\"En laddad stav nära ett oladdat metallföremål utan beröring\"><rect x=\"50\" y=\"50\" width=\"50\" height=\"110\" rx=\"12\" fill=\"#f2e6c8\" stroke=\"#876532\"/><text x=\"75\" y=\"80\" font-size=\"25\" text-anchor=\"middle\">+</text><text x=\"75\" y=\"115\" font-size=\"25\" text-anchor=\"middle\">+</text><text x=\"75\" y=\"150\" font-size=\"25\" text-anchor=\"middle\">+</text><circle cx=\"315\" cy=\"105\" r=\"65\" fill=\"#e3edf6\" stroke=\"#566f85\" stroke-width=\"2\"/><text x=\"315\" y=\"110\" text-anchor=\"middle\" font-size=\"22\">metall</text><text x=\"75\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">stav</text><text x=\"315\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">oladdat från början</text></svg></div><p>a) Vad kallas förskjutningen av laddningar i klotet?</p><p>b) Vilka partiklar flyttas, och åt vilket håll?</p><p>c) Vad händer med klotet när staven tas bort?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Det kallas influens. Elektronerna förskjuts i metallen, men klotets sammanlagda laddning är fortfarande noll.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Elektronerna är negativa och dras mot den positiva staven. Sidan närmast staven blir negativ och den bortre sidan får underskott på elektroner. Protonerna flyttar inte genom metallen.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Den yttre påverkan försvinner. Elektronerna fördelas jämnt igen. Klotet är fortfarande oladdat eftersom ingen laddning har överförts.</p></div></div>",
+    "familj": "Influens och polarisering",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "familjNyckel": "laddning__laddning_och_antal_elektroner",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Fenomenet kallas influens, eller elektrostatisk induktion.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Influens.",
+      "Elektronerna dras mot den positiva staven.",
+      "Elektronerna fördelas jämnt igen och klotet är fortfarande oladdat."
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Ingen laddning tillförs; laddningarna förskjuts inne i metallen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En negativt laddad stav förs nära ett oladdat metallklot utan att röra det. Klotets ena sida blir positiv och den andra negativ.</p>",
+    "spelIntro": "<p>En positivt laddad stav hålls nära ett oladdat metallklot utan att röra det. Klotet är inte jordat.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" role=\"img\" aria-label=\"En laddad stav nära ett oladdat metallföremål utan beröring\"><rect x=\"50\" y=\"50\" width=\"50\" height=\"110\" rx=\"12\" fill=\"#f2e6c8\" stroke=\"#876532\"/><text x=\"75\" y=\"80\" font-size=\"25\" text-anchor=\"middle\">+</text><text x=\"75\" y=\"115\" font-size=\"25\" text-anchor=\"middle\">+</text><text x=\"75\" y=\"150\" font-size=\"25\" text-anchor=\"middle\">+</text><circle cx=\"315\" cy=\"105\" r=\"65\" fill=\"#e3edf6\" stroke=\"#566f85\" stroke-width=\"2\"/><text x=\"315\" y=\"110\" text-anchor=\"middle\" font-size=\"22\">metall</text><text x=\"75\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">stav</text><text x=\"315\" y=\"194\" text-anchor=\"middle\" font-size=\"19\">oladdat från början</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad kallas fenomenet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fenomenet kallas influens, eller elektrostatisk induktion.</p></div><div class=\"facit-stycke\"><p>Klotets totala laddning är fortfarande noll.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fenomenet kallas influens, eller elektrostatisk induktion.</p>",
+        "fraga": "Vad kallas förskjutningen av laddningar i klotet?",
+        "s": "<div class=\"facit-v2\"><p>Det kallas influens. Elektronerna förskjuts i metallen, men klotets sammanlagda laddning är fortfarande noll.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Influens.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Influens.",
+            "ratt": true,
+            "kommentar": "En stav nära metallen förskjuter elektroner utan att överföra laddning."
+          },
+          {
+            "txt": "Jordning.",
+            "ratt": false,
+            "kommentar": "Klotet har ingen förbindelse med jorden."
+          },
+          {
+            "txt": "Kortslutning.",
+            "ratt": false,
+            "kommentar": "Här finns ingen elektrisk krets."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ingen laddning tillförs; laddningarna förskjuts inne i metallen.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilka partiklar är det som flyttar sig, och åt vilket håll?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Metallens rörliga ledningselektroner stöts bort av den negativa staven och samlas på klotets bortre sida.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Sidan närmast staven får elektronunderskott och blir positiv.</p></div><div class=\"facit-stycke\"><p>Protonerna är bundna i atomkärnorna och flyttar sig inte genom metallen.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fenomenet kallas influens, eller elektrostatisk induktion.</p>",
+        "fraga": "Vilka partiklar flyttas, och åt vilket håll?",
+        "s": "<div class=\"facit-v2\"><p>Elektronerna är negativa och dras mot den positiva staven. Sidan närmast staven blir negativ och den bortre sidan får underskott på elektroner. Protonerna flyttar inte genom metallen.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Elektronerna dras mot den positiva staven.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Elektronerna dras mot den positiva staven.",
+            "ratt": true,
+            "kommentar": "Olika tecken attraherar varandra."
+          },
+          {
+            "txt": "Elektronerna stöts bort från staven.",
+            "ratt": false,
+            "kommentar": "Det skulle gälla en negativ stav."
+          },
+          {
+            "txt": "Protonerna flyttar genom metallen bort från staven.",
+            "ratt": false,
+            "kommentar": "Protoner är bundna i atomkärnorna."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilka laddade partiklar är rörliga i en metall?</p>",
+        "t": "<p>En positiv stav hålls nära ett oladdat metallklot utan att röra det.</p><p>Vilka partiklar flyttas, och åt vilket håll?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad händer med klotet när staven förs bort igen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När staven tas bort försvinner den yttre påverkan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronerna sprids jämnt över klotet igen, som åter blir neutralt överallt.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fenomenet kallas influens, eller elektrostatisk induktion.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vad händer med klotet när staven tas bort?",
+        "s": "<div class=\"facit-v2\"><p>Den yttre påverkan försvinner. Elektronerna fördelas jämnt igen. Klotet är fortfarande oladdat eftersom ingen laddning har överförts.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Elektronerna fördelas jämnt igen och klotet är fortfarande oladdat.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Elektronerna fördelas jämnt igen och klotet är fortfarande oladdat.",
+            "ratt": true,
+            "kommentar": "Ingen laddning har överförts."
+          },
+          {
+            "txt": "Klotet behåller en positiv nettoladdning.",
+            "ratt": false,
+            "kommentar": "Influens utan jordning ändrar inte nettoladdningen."
+          },
+          {
+            "txt": "Klotet behåller en negativ nettoladdning.",
+            "ratt": false,
+            "kommentar": "Elektroner har inte tillförts klotet."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Har klotet fått eller förlorat elektroner?</p>",
+        "t": "<p>En positiv stav fördes nära ett oladdat metallklot utan beröring eller jordning. Staven tas sedan bort.</p><p>Vad händer med klotet när staven tas bort?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Laddning och antal elektroner"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
     "id": "8.313",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "E",
     "typ": "symmetri och kraftresultant mellan lika laddningar",
-    "poang": "(0/1/2)",
-    "t": "<p>Två lika positiva punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) sitter \\(0{,}68\\,\\mathrm m\\) från varandra. Bestäm den elektriska kraften på en liten positiv testladdning som placeras exakt mitt emellan dem.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">+q</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,68 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje källaddning ger lika stor men motsatt riktad kraft på testladdningen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De tar därför ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_R=F_1-F_2=0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\,\\mathrm N\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två lika stora positiva laddningar, +4,0 µC vardera, ligger 0,68 m från varandra. En liten positiv laddning placeras exakt mitt emellan dem.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">+q</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,68 m</text></svg></div><p>Hur stor är den sammanlagda elektriska kraften på den mittersta laddningen?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den mittersta laddningen stöts bort av båda grannarna. Avstånden och grannarnas laddningar är lika, så krafterna är lika stora och motsatt riktade.</p><p>\\[F_{\\mathrm{summa}}=F_1-F_2=0\\,\\mathrm N\\]</p></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "resonemang",
       "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
     "rättSvar": 0,
-    "tolerans": 1e-09,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför avstånd och laddningsstorlek till de två källaddningarna.</p>",
+    "ledtrad": "<p>Jämför både storlek och riktning för de två kraftbidragen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.123",
@@ -94640,146 +95273,305 @@ window.BANK = [
     "id": "8.159",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två laddade partiklar befinner sig 8,0 cm ifrån varandra. Den ena har laddningen 6,0 nC och den andra 5,0 nC.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+5,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">8,0 cm</text></svg></div>\n<ol><li>Bestäm storleken på den elektriska kraften som verkar på varje partikel.</li>\n<li>Vilken riktning har krafterna?</li>\n<li>Hur förändras kraften om avståndet fördubblas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv \\(r=0{,}080\\ \\mathrm m\\) och använd Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}080)^2}=4{,}21\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda laddningarna är positiva, så kraften är frånstötande.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje partikel påverkas bort från den andra med lika stor kraft.</p></div><div class=\"facit-stycke\"><p>Det följer av Newtons tredje lag.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När avståndet fördubblas blir kraften en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=\\frac F4=1{,}05\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje partikel påverkas av \\(42\\ \\mu\\mathrm N\\) bort från den andra. Vid dubbelt avstånd blir kraften cirka \\(11\\ \\mu\\mathrm N\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två partiklar har laddningarna +6,0 nC och +5,0 nC och ligger 8,0 cm från varandra.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+6,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+5,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">8,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är den elektriska kraften på varje partikel?</p><p>b) Dras kulorna mot varandra eller stöter de bort varandra?</p><p>c) Hur stor blir kraften när avståndet fördubblas?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(3\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{3\\cdot10^{-17}}{0{,}08^2}\\]</p><p><strong>Svar:</strong> \\(4{,}21406e-05\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Avståndet står i kvadrat i nämnaren. Dubbelt avstånd ger fyra gånger mindre kraft.</p><p>\\[F_{\\mathrm{ny}}=\\frac{4{,}21406e-05}{4}\\]</p><p><strong>Svar:</strong> \\(1{,}05352\\cdot10^{-5}\\,\\mathrm N\\).</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.2140624999999996e-05,
+      "Kulorna stöter bort varandra.",
+      1.0535156249999999e-05
+    ],
+    "tolerans": [
+      1.053515625e-06,
+      null,
+      5e-07
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\). Tecknen på laddningarna avgör om kraften är attraktiv eller repulsiv.</p>",
+    "ledtrad": "<p>Skriv avståndet i meter och använd Coulombs lag.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två laddade partiklar befinner sig 8,0 cm ifrån varandra. Den ena har laddningen 6,0 nC och den andra 5,0 nC.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+5,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">8,0 cm</text></svg></div>",
+    "spelIntro": "<p>Två partiklar har laddningarna +6,0 nC och +5,0 nC och ligger 8,0 cm från varandra.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+6,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+5,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">8,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm storleken på den elektriska kraften som verkar på varje partikel.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv \\(r=0{,}080\\ \\mathrm m\\) och använd Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}080)^2}=4{,}21\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}21\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\). Tecknen på laddningarna avgör om kraften är attraktiv eller repulsiv.</p>",
+        "fraga": "Hur stor är den elektriska kraften på varje partikel?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(3\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{3\\cdot10^{-17}}{0{,}08^2}\\]</p><p><strong>Svar:</strong> \\(4{,}21406e-05\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.2140624999999996e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 1.053515625e-06,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv avståndet i meter och använd Coulombs lag.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken riktning har krafterna?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda laddningarna är positiva, så kraften är frånstötande.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje partikel påverkas bort från den andra med lika stor kraft.</p></div><div class=\"facit-stycke\"><p>Det följer av Newtons tredje lag.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\). Tecknen på laddningarna avgör om kraften är attraktiv eller repulsiv.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Dras kulorna mot varandra eller stöter de bort varandra?",
+        "s": "<div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kulorna stöter bort varandra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kulorna stöter bort varandra.",
+            "ratt": true,
+            "kommentar": "Lika tecken ger bortstötning; olika tecken ger attraktion."
+          },
+          {
+            "txt": "Kulorna dras mot varandra.",
+            "ratt": false,
+            "kommentar": "Kontrollera laddningarnas tecken."
+          },
+          {
+            "txt": "Ingen kraft verkar mellan kulorna.",
+            "ratt": false,
+            "kommentar": "Laddade kulor påverkar varandra."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Har laddningarna samma tecken?</p>",
+        "t": "<p>Två partiklar har positiva laddningar, +6,0 nC och +5,0 nC.</p><p>Dras kulorna mot varandra eller stöter de bort varandra?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur förändras kraften om avståndet fördubblas?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När avståndet fördubblas blir kraften en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=\\frac F4=1{,}05\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}05\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\). Tecknen på laddningarna avgör om kraften är attraktiv eller repulsiv.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor blir kraften när avståndet fördubblas?",
+        "s": "<div class=\"facit-v2\"><p>Avståndet står i kvadrat i nämnaren. Dubbelt avstånd ger fyra gånger mindre kraft.</p><p>\\[F_{\\mathrm{ny}}=\\frac{4{,}21406e-05}{4}\\]</p><p><strong>Svar:</strong> \\(1{,}05352\\cdot10^{-5}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.0535156249999999e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 5e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur ändras avståndets kvadrat?</p>",
+        "t": "<p>Två laddade partiklar påverkar varandra med kraften \\(4{,}21406e-05\\,\\mathrm N\\). Avståndet mellan dem fördubblas.</p><p>Hur stor blir kraften när avståndet fördubblas?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "N",
+      null,
+      "N"
     ]
   },
   {
     "id": "8.314",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "nollpunkt mellan två Coulombfält",
-    "poang": "(0/1/2)",
-    "t": "<p>Två positiva punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) och \\(+1{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}75\\,\\mathrm m\\) från varandra. På linjen mellan dem finns en punkt där en positiv testladdning skulle få noll nettokraft. Bestäm avståndet från \\(+4{,}0\\,\\mu\\mathrm C\\)-laddningen till punkten.</p><div class=\"fig smal\"><svg width=\"460\" height=\"200\" viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+1,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">x</text><line x1=\"70.0\" y1=\"170\" x2=\"390.0\" y2=\"170\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"163\" x2=\"70.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"163\" x2=\"390.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,75 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I nollpunkten måste Coulombkrafterna ha samma belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Testladdningen och Coulombkonstanten förkortas bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{4}{x^2}=\\frac{1}{(d-x)^2}\\Rightarrow x=0,5\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}5\\ \\mathrm m\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två positiva laddningar, +4,0 µC till vänster och +1,0 µC till höger, ligger 0,75 m från varandra.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+4,0 µC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+1,0 µC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">0,75 m</text></svg></div><p>Hur långt från +4,0 µC-laddningen ligger punkten mellan dem där det elektriska fältet är noll?</p>",
+    "s": "<div class=\"facit-v2\"><p>Mellan två positiva laddningar går fälten åt motsatta håll. De måste vara lika starka i nollpunkten. Låt x vara avståndet från den vänstra laddningen.</p><p>\\[\\frac{4}{x^2}=\\frac{1}{(0{,}75-x)^2}\\]</p><p>Ta den positiva kvadratroten på båda sidor:</p><p>\\[\\frac{2}{x}=\\frac{1}{0{,}75-x}\\]</p><p>\\[2(0{,}75-x)=x\\]</p><p>\\[x=0{,}5\\,\\mathrm{m}\\]</p></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 0.009,
+    "tolerans": 0.0125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Sätt de två kraftbeloppen lika och ta kvadratroten innan du löser för läget.</p>",
+    "ledtrad": "<p>Sätt de två fältstyrkorna lika och använd att avstånden tillsammans är 0,75 m.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.160",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "sammansätta krafter från två laddningar i rät vinkel, ur diagram, sökt kraft",
-    "poang": "(0/2/2)",
-    "t": "<p>Figuren visar tre laddningar. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><span class=\"fig smal\"><svg height=\"357\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"153.000 30.023 227.400 213.764\"><line x1=\"204\" y1=\"190\" x2=\"260\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><line x1=\"280\" y1=\"82\" x2=\"280\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><circle cx=\"184\" cy=\"190\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"184\" y=\"195\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"184\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text><circle cx=\"280\" cy=\"62\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"280\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"250\" y=\"66\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">6,0 nC</text><circle cx=\"280\" cy=\"190\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"280\" y=\"195\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306\" y=\"196\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"204\" y1=\"232\" x2=\"260\" y2=\"232\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"232\" y=\"228\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"170\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"338\" y=\"130\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span>\n<ol><li>Hur stor kraft verkar den vänstra laddningen med på den nedre högra?</li>\n<li>Hur stor kraft verkar den övre laddningen med på den nedre högra?</li>\n<li>Bestäm den resulterande kraften på den nedre högra laddningen till storlek och riktning.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den vänstra positiva laddningen stöter bort 5,0-nC-laddningen åt höger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}030)^2}=2{,}00\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den övre negativa laddningen drar den nedre högra laddningen uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}040)^2}=1{,}69\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är vinkelräta.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=\\sqrt{F_x^2+F_y^2}=2{,}62\\cdot10^{-4}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>\\[\\alpha=\\tan^{-1}\\!\\left(\\frac{F_y}{F_x}\\right)=40{,}2^\\circ\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(2{,}6\\cdot10^{-4}\\ \\mathrm N\\), riktad cirka \\(40^\\circ\\) över vågräta planet åt höger.</p></div>",
+    "poang": "(2/2/0)",
+    "t": "<p>Tre laddningar är placerade enligt figuren. Bestäm krafterna på den nedre högra kulan.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" width=\"480\" height=\"350\" role=\"img\" aria-label=\"Tre laddningar med vinkelräta avstånd, mätta mellan kulornas mittpunkter\"><circle cx=\"110\" cy=\"245\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"110\" y=\"252\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"110\" y=\"209\" text-anchor=\"middle\" font-size=\"19\">+4,0 nC</text><circle cx=\"350\" cy=\"245\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"350\" y=\"252\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"350\" y=\"325\" text-anchor=\"middle\" font-size=\"19\">+5,0 nC</text><circle cx=\"350\" cy=\"90\" r=\"23\" fill=\"white\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"350\" y=\"97\" text-anchor=\"middle\" font-size=\"24\" fill=\"#2563a5\">−</text><text x=\"350\" y=\"61\" text-anchor=\"middle\" font-size=\"19\">−6,0 nC</text><path d=\"M136 245 H324 M350 116 V219\" stroke=\"#8796a6\" stroke-dasharray=\"5 5\" fill=\"none\"/><path d=\"M110 281 V293 M350 281 V293 M110 287 H350\" stroke=\"#566f85\" fill=\"none\"/><text x=\"230\" y=\"275\" text-anchor=\"middle\" font-size=\"19\">3,0 cm</text><path d=\"M412 245 H424 M412 90 H424 M418 245 V90\" stroke=\"#566f85\" fill=\"none\"/><text x=\"452\" y=\"174\" text-anchor=\"middle\" transform=\"rotate(-90 452 174)\" font-size=\"19\">4,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är kraften från den vänstra kulan på den nedre högra kulan?</p><p>b) Hur stor är kraften från den övre kulan på den nedre högra kulan?</p><p>c) Hur stor är den sammanlagda kraften på den nedre högra kulan, och vilken vinkel har den över riktningen åt höger? Svara i µN och grader.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2\\cdot10^{-17}}{0{,}03^2}\\]</p><p><strong>Svar:</strong> \\(0{,}000199778\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(3\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{3\\cdot10^{-17}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(0{,}000168562\\,\\mathrm{N}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Krafterna är vinkelräta. Använd de två beräknade krafterna, i µN:</p><p>\\[F=\\sqrt{199{,}7778^2+168{,}5625^2}\\]</p><p><strong>Kraftens storlek:</strong> cirka 261 µN.</p><p>Vinkeln räknas från riktningen åt höger:</p><p>\\[\\tan\\alpha=\\frac{F_y}{F_x}\\]</p><p><strong>Vinkel:</strong> cirka 40°.</p></div></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.0001997777777777778,
+      0.00016856249999999998,
+      [
+        261.38951184023654,
+        40.15599962491932
+      ]
+    ],
+    "tolerans": [
+      4.994444444444446e-06,
+      4.2140625e-06,
+      [
+        6.534737796005913,
+        1
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Den vänstra positiva laddningen stöter bort 5,0-nC-laddningen åt höger.</p>",
+    "ledtrad": "<p>Använd laddningarna för vänsterkulan och den kula som kraften verkar på.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar tre laddningar. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><span class=\"fig smal\"><svg height=\"357\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"153.000 30.023 227.400 213.764\"><line x1=\"204\" y1=\"190\" x2=\"260\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><line x1=\"280\" y1=\"82\" x2=\"280\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><circle cx=\"184\" cy=\"190\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"184\" y=\"195\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"184\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text><circle cx=\"280\" cy=\"62\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"280\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"250\" y=\"66\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">6,0 nC</text><circle cx=\"280\" cy=\"190\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"280\" y=\"195\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306\" y=\"196\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"204\" y1=\"232\" x2=\"260\" y2=\"232\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"232\" y=\"228\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 cm</text><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"170\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"338\" y=\"130\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span>",
+    "spelIntro": "<p>Tre laddningar är placerade enligt figuren. Bestäm krafterna på den nedre högra kulan.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" width=\"480\" height=\"350\" role=\"img\" aria-label=\"Tre laddningar med vinkelräta avstånd, mätta mellan kulornas mittpunkter\"><circle cx=\"110\" cy=\"245\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"110\" y=\"252\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"110\" y=\"209\" text-anchor=\"middle\" font-size=\"19\">+4,0 nC</text><circle cx=\"350\" cy=\"245\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"350\" y=\"252\" text-anchor=\"middle\" font-size=\"24\" fill=\"#bf2835\">+</text><text x=\"350\" y=\"325\" text-anchor=\"middle\" font-size=\"19\">+5,0 nC</text><circle cx=\"350\" cy=\"90\" r=\"23\" fill=\"white\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"350\" y=\"97\" text-anchor=\"middle\" font-size=\"24\" fill=\"#2563a5\">−</text><text x=\"350\" y=\"61\" text-anchor=\"middle\" font-size=\"19\">−6,0 nC</text><path d=\"M136 245 H324 M350 116 V219\" stroke=\"#8796a6\" stroke-dasharray=\"5 5\" fill=\"none\"/><path d=\"M110 281 V293 M350 281 V293 M110 287 H350\" stroke=\"#566f85\" fill=\"none\"/><text x=\"230\" y=\"275\" text-anchor=\"middle\" font-size=\"19\">3,0 cm</text><path d=\"M412 245 H424 M412 90 H424 M418 245 V90\" stroke=\"#566f85\" fill=\"none\"/><text x=\"452\" y=\"174\" text-anchor=\"middle\" transform=\"rotate(-90 452 174)\" font-size=\"19\">4,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor kraft verkar den vänstra laddningen med på den nedre högra?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den vänstra positiva laddningen stöter bort 5,0-nC-laddningen åt höger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}030)^2}=2{,}00\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}00\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den vänstra positiva laddningen stöter bort 5,0-nC-laddningen åt höger.</p>",
-        "niva": "A"
+        "fraga": "Hur stor är kraften från den vänstra kulan på den nedre högra kulan?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2\\cdot10^{-17}}{0{,}03^2}\\]</p><p><strong>Svar:</strong> \\(0{,}000199778\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0001997777777777778,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 4.994444444444446e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd laddningarna för vänsterkulan och den kula som kraften verkar på.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor kraft verkar den övre laddningen med på den nedre högra?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den övre negativa laddningen drar den nedre högra laddningen uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}040)^2}=1{,}69\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}69\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den vänstra positiva laddningen stöter bort 5,0-nC-laddningen åt höger.</p>",
-        "niva": "A"
+        "fraga": "Hur stor är kraften från den övre kulan på den nedre högra kulan?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(3\\cdot10^{-17}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{3\\cdot10^{-17}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(0{,}000168562\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00016856249999999998,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 4.2140625e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd laddningarna för det lodräta paret.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den resulterande kraften på den nedre högra laddningen till storlek och riktning.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är vinkelräta.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=\\sqrt{F_x^2+F_y^2}=2{,}62\\cdot10^{-4}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>\\[\\alpha=\\tan^{-1}\\!\\left(\\frac{F_y}{F_x}\\right)=40{,}2^\\circ\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}2^\\circ\\).</p></div>",
-        "ledtrad": "<p>Den vänstra positiva laddningen stöter bort 5,0-nC-laddningen åt höger.</p>",
-        "niva": "A"
+        "fraga": "Hur stor är den sammanlagda kraften på den nedre högra kulan, och vilken vinkel har den över riktningen åt höger? Svara i µN och grader.",
+        "s": "<div class=\"facit-v2\"><p>Krafterna är vinkelräta. Använd Pythagoras sats:</p><p>\\[F=\\sqrt{F_x^2+F_y^2}\\]</p><p>\\[F=\\sqrt{200^2+169^2}\\]</p><p><strong>Kraftens storlek:</strong> cirka 262 µN.</p><p>Vinkeln mäts från riktningen åt höger:</p><p>\\[\\tan\\alpha=\\frac{F_y}{F_x}=\\frac{169}{200}\\]</p><p><strong>Vinkel:</strong> cirka 40°.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          261.8415551435639,
+          40.19780990994572
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "µN",
+          "°"
+        ],
+        "tolerans": [
+          6.546038878589098,
+          1
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Rita kraftsumman som en diagonal och använd en rätvinklig triangel.</p>",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Kraftens storlek (µN)",
+          "Vinkel över riktningen åt höger (grader)"
+        ],
+        "t": "<p>En kula påverkas av kraften 200 µN åt höger och 169 µN rakt uppåt.</p><p>Hur stor är den sammanlagda kraften, och vilken vinkel har den över riktningen åt höger? Svara i µN och grader.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "N",
+      "N",
+      [
+        "µN",
+        "°"
+      ]
     ]
   },
   {
@@ -94818,60 +95610,117 @@ window.BANK = [
     "id": "8.161",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna kraft före och efter laddningsutjämning, ur text, sökt kraft",
-    "poang": "(1/2/0)",
-    "t": "<p>Två likadana metallkulor har laddningarna 8,0 µC och 2,0 µC och sitter 5,0 cm från varandra.</p>\n<ol><li>Hur stor är kraften mellan dem?</li><li>Kulorna förs ihop så att de nuddar varandra och placeras sedan tillbaka. Vilken laddning har de nu?</li>\n<li>Hur stor blir kraften efteråt? Förklara varför den ändras.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Före kontakten är \\(r=0{,}050\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_1=8{,}99\\cdot10^9\\frac{(8{,}0\\cdot10^{-6})(2{,}0\\cdot10^{-6})}{(0{,}050)^2}=57{,}5\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kulorna är likadana, så totalladdningen delas lika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q'=\\frac{8{,}0+2{,}0}{2}=5{,}0\\ \\mu\\mathrm C\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efteråt blir kraften</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_2=8{,}99\\cdot10^9\\frac{(5{,}0\\cdot10^{-6})^2}{(0{,}050)^2}=89{,}9\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalladdningen är oförändrad, men produkten av laddningarna ökar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(8{,}0)(2{,}0)=16&lt;25=(5{,}0)(5{,}0)\\]</div></div><div class=\"facit-stycke\"><p>Därför ökar Coulombkraften.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften ökar från cirka \\(58\\ \\mathrm N\\) till \\(90\\ \\mathrm N\\), och vardera kulan har efteråt \\(+5{,}0\\ \\mu\\mathrm C\\).</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Två likadana metallkulor har laddningarna +8,0 µC och +2,0 µC och ligger 5,0 cm från varandra. De får nudda varandra och flyttas sedan tillbaka till samma avstånd.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är kraften före kontakten?</p><p>b) Vilken laddning får varje kula efter kontakten? Svara i µC.</p><p>c) Hur stor är kraften efter kontakten? Förklara varför kraften ändras.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1{,}6\\cdot10^{-11}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1{,}6\\cdot10^{-11}}{0{,}05^2}\\]</p><p><strong>Svar:</strong> \\(57{,}536\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den sammanlagda laddningen bevaras och delas lika mellan likadana metallkulor.</p><p>\\[Q=\\frac{8+2}{2}=5\\,\\mathrm{\\mu C}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2{,}5\\cdot10^{-11}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2{,}5\\cdot10^{-11}}{0{,}05^2}\\]</p><p><strong>Svar:</strong> \\(89{,}9\\,\\mathrm{N}\\).</p></div></div><div class=\"facit-v2\"><p>Laddningen bevaras, men laddningsprodukten ökar från \\(8\\cdot2=16\\) till \\(5\\cdot5=25\\). Coulombkraften ökar därför.</p></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      57.53599999999999,
+      5,
+      89.89999999999999
+    ],
+    "tolerans": [
+      1.4383999999999997,
+      0.125,
+      2.2475
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Före kontakten är \\(r=0{,}050\\ \\mathrm m\\). Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+    "ledtrad": "<p>Använd laddningarna före kontakten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två likadana metallkulor har laddningarna 8,0 µC och 2,0 µC och sitter 5,0 cm från varandra.</p>",
+    "spelIntro": "<p>Två likadana metallkulor har laddningarna +8,0 µC och +2,0 µC och ligger 5,0 cm från varandra. De får nudda varandra och flyttas sedan tillbaka till samma avstånd.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är kraften mellan dem?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Före kontakten är \\(r=0{,}050\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_1=8{,}99\\cdot10^9\\frac{(8{,}0\\cdot10^{-6})(2{,}0\\cdot10^{-6})}{(0{,}050)^2}=57{,}5\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(57{,}5\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Före kontakten är \\(r=0{,}050\\ \\mathrm m\\). Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+        "fraga": "Hur stor är kraften före kontakten?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1{,}6\\cdot10^{-11}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1{,}6\\cdot10^{-11}}{0{,}05^2}\\]</p><p><strong>Svar:</strong> \\(57{,}536\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 57.53599999999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 1.4383999999999997,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd laddningarna före kontakten.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Kulorna förs ihop så att de nuddar varandra och placeras sedan tillbaka. Vilken laddning har de nu?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kulorna är likadana, så totalladdningen delas lika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q'=\\frac{8{,}0+2{,}0}{2}=5{,}0\\ \\mu\\mathrm C\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mu\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Före kontakten är \\(r=0{,}050\\ \\mathrm m\\). Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vilken laddning får varje kula efter kontakten? Svara i µC.",
+        "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen bevaras och delas lika mellan likadana metallkulor.</p><p>\\[Q=\\frac{8+2}{2}=5\\,\\mathrm{\\mu C}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µC",
+        "tolerans": 0.125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Laddningen bevaras och fördelas lika på likadana metallkulor.</p>",
+        "t": "<p>Två likadana metallkulor har laddningarna +8,0 µC och +2,0 µC. De får nudda varandra.</p><p>Vilken laddning får varje kula efter kontakten? Svara i µC.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor blir kraften efteråt? Förklara varför den ändras.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efteråt blir kraften</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_2=8{,}99\\cdot10^9\\frac{(5{,}0\\cdot10^{-6})^2}{(0{,}050)^2}=89{,}9\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalladdningen är oförändrad, men produkten av laddningarna ökar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(8{,}0)(2{,}0)=16&lt;25=(5{,}0)(5{,}0)\\]</div></div><div class=\"facit-stycke\"><p>Därför ökar Coulombkraften.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\((5{,}0)(5{,}0)\\).</p></div>",
-        "ledtrad": "<p>Före kontakten är \\(r=0{,}050\\ \\mathrm m\\). Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor är kraften efter kontakten?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2{,}5\\cdot10^{-11}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2{,}5\\cdot10^{-11}}{0{,}05^2}\\]</p><p><strong>Svar:</strong> \\(89{,}9\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 89.89999999999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 2.2475,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd de givna laddningarna efter kontakten.</p>",
+        "t": "<p>Efter kontakten har två kulor laddningen +5,0 µC vardera. De ligger 5,0 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är kraften efter kontakten?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "N",
+      "µC",
+      "N"
     ]
   },
   {
@@ -106074,33 +106923,34 @@ window.BANK = [
     "id": "8.316",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "symmetri och kraftresultant mellan lika laddningar",
-    "poang": "(0/1/2)",
-    "t": "<p>Två lika positiva punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) sitter \\(0{,}64\\,\\mathrm m\\) från varandra. Bestäm den elektriska kraften på en liten positiv testladdning som placeras exakt mitt emellan dem.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">+q</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,64 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje källaddning ger lika stor men motsatt riktad kraft på testladdningen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De tar därför ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_R=F_1-F_2=0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\,\\mathrm N\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En testladdning på +1,0 nC ligger mitt emellan två positiva laddningar. Den vänstra är +4,0 µC och den högra +8,0 µC. Avståndet mellan de två yttre laddningarna är 0,64 m.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Bestäm kraften på testladdningen med tecken. Riktningen åt höger är positiv.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 190\" width=\"520\" height=\"190\" role=\"img\" aria-label=\"Tre laddningar med markerade avstånd mellan mittpunkterna\"><circle cx=\"90\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"90\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#bf2835\">+</text><text x=\"90\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">+4,0 µC</text><circle cx=\"260\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"260\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#bf2835\">+</text><text x=\"260\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">+1,0 nC</text><circle cx=\"430\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"430\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#bf2835\">+</text><text x=\"430\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">+8,0 µC</text><path d=\"M90 34 V46 M260 34 V46 M90 40 H260\" stroke=\"#566f85\" fill=\"none\"/><text x=\"175.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\">0,32 m</text><path d=\"M260 34 V46 M430 34 V46 M260 40 H430\" stroke=\"#566f85\" fill=\"none\"/><text x=\"345.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\">0,32 m</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Testladdningen är 0,32 m från vardera grannen. Vänsterladdningen stöter den åt höger och högerladdningen åt vänster.</p><p>\\[F_v=k\\frac{4{,}0\\cdot10^{-6}\\cdot10^{-9}}{0{,}32^2}\\]</p><p>\\[F_h=k\\frac{8{,}0\\cdot10^{-6}\\cdot10^{-9}}{0{,}32^2}\\]</p><p>\\[F_x=0{,}00035117-0{,}00070234\\]</p><p><strong>Svar:</strong> \\(-3{,}5\\cdot10^{-4}\\,\\mathrm N\\), alltså åt vänster.</p></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "resonemang",
+      "problemlösning",
       "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0,
-    "tolerans": 1e-09,
+    "rättSvar": -0.000351171875,
+    "tolerans": 8.779296875e-06,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför avstånd och laddningsstorlek till de två källaddningarna.</p>",
+    "ledtrad": "<p>Bestäm riktningen på varje kraft innan du adderar med tecken.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.172",
@@ -106136,33 +106986,34 @@ window.BANK = [
     "id": "8.317",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "nollpunkt mellan två Coulombfält",
-    "poang": "(0/1/2)",
-    "t": "<p>Två positiva punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) och \\(+1{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}7\\,\\mathrm m\\) från varandra. På linjen mellan dem finns en punkt där en positiv testladdning skulle få noll nettokraft. Bestäm avståndet från \\(+4{,}0\\,\\mu\\mathrm C\\)-laddningen till punkten.</p><div class=\"fig smal\"><svg width=\"460\" height=\"200\" viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+1,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">x</text><line x1=\"70.0\" y1=\"170\" x2=\"390.0\" y2=\"170\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"163\" x2=\"70.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"163\" x2=\"390.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,7 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I nollpunkten måste Coulombkrafterna ha samma belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Testladdningen och Coulombkonstanten förkortas bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{4}{x^2}=\\frac{1}{(d-x)^2}\\Rightarrow x=0{,}4667\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}4667\\ \\mathrm m\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två positiva laddningar ligger 0,60 m från varandra. Den vänstra är +4,0 µC. Fältet är noll i P, 0,40 m från den vänstra och 0,20 m från den högra laddningen.</p><p>Vilken laddning har den högra kulan? Svara i µC.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 190\" width=\"520\" height=\"190\" role=\"img\" aria-label=\"Tre laddningar med markerade avstånd mellan mittpunkterna\"><circle cx=\"90\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"90\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#bf2835\">+</text><text x=\"90\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">+4,0 µC</text><circle cx=\"310\" cy=\"108\" r=\"4\" fill=\"#243747\"/><text x=\"310\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">P</text><circle cx=\"430\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"430\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#bf2835\">+</text><text x=\"430\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">+Q</text><path d=\"M90 34 V46 M310 34 V46 M90 40 H310\" stroke=\"#566f85\" fill=\"none\"/><text x=\"200.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\">0,40 m</text><path d=\"M310 34 V46 M430 34 V46 M310 40 H430\" stroke=\"#566f85\" fill=\"none\"/><text x=\"370.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\">0,20 m</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>I P är fältstyrkorna lika:</p><p>\\[k\\frac{4{,}0}{0{,}40^2}=k\\frac{Q}{0{,}20^2}\\]</p><p>Förkorta bort k och lös ut Q:</p><p>\\[Q=4{,}0\\frac{0{,}20^2}{0{,}40^2}=1{,}0\\,\\mu\\mathrm C\\]</p></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.466667,
-    "tolerans": 0.0084,
+    "rättSvar": 1,
+    "tolerans": 0.025,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Sätt de två kraftbeloppen lika och ta kvadratroten innan du löser för läget.</p>",
+    "ledtrad": "<p>Fälten ska vara lika starka i P. Hur kopplas laddningsstorlek och avstånd ihop?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "m",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "svarEnhet": "µC",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.173",
@@ -106197,11 +107048,11 @@ window.BANK = [
     "id": "8.318",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "E",
     "typ": "laddningsutjämning följd av Coulombkraft",
-    "poang": "(0/1/2)",
-    "t": "<p>Två identiska metallkulor har laddningarna \\(+8{,}0\\,\\mu\\mathrm C\\) respektive \\(-2{,}0\\,\\mu\\mathrm C\\). Kulorna förs i kontakt, separeras och placeras sedan \\(0{,}30\\,\\mathrm m\\) från varandra. Bestäm kraftens storlek mellan kulorna efter separationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När identiska ledande kulor berör varandra fördelas den totala laddningen lika mellan dem.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd sedan Coulombs lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\frac{8{,}0-2{,}0}{2}=3{,}0\\ \\mu\\mathrm C\\]\\[F=k\\frac{q^2}{r^2}=0{,}8988\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}8988\\,\\mathrm N\\), repulsiv.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två likadana metallkulor har laddningarna +8,0 µC och −2,0 µC. De får nudda varandra och placeras sedan 0,30 m från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den elektriska kraften mellan kulorna efter kontakten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen bevaras och delas lika mellan likadana metallkulor.</p><p>\\[Q=\\frac{8-2}{2}=3\\,\\mathrm{\\mu C}\\]</p></div><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(9\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{9\\cdot10^{-12}}{0{,}3^2}\\]</p><p><strong>Svar:</strong> \\(0{,}899\\,\\mathrm{N}\\).</p></div><div class=\"facit-v2\"><p>Båda laddningarna är positiva, så kulorna stöter bort varandra.</p></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
       "resonemang",
@@ -106209,52 +107060,54 @@ window.BANK = [
     ],
     "familjNyckel": "laddning__laddningsutjamning_och_coulombs_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.8988,
-    "tolerans": 0.0161784,
+    "rättSvar": 0.8990000000000001,
+    "tolerans": 0.022475000000000005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Börja med laddningsbevarande när kulorna är i kontakt. Coulombs lag används först efter separationen.</p>",
+    "ledtrad": "<p>Bestäm laddningen efter kontakten innan du använder Coulombs lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.174",
     "kap": 8,
-    "omr": "coulomb",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Vid kontakt mellan två isolerade metallkulor överförs \\(2{,}5\\cdot10^8\\) elektroner från kula A till kula B. Kulorna var från början neutrala.</p><p>Vilken laddning får kula B i pC?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">B tar emot elektroner och blir därför negativt laddad.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_B=-(2{,}5\\cdot10^8)(1{,}602\\cdot10^{-19})=-4{,}005\\cdot10^{-11}\\ \\mathrm C=-40{,}1\\ \\mathrm{pC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-40\\ \\mathrm{pC}\\).</p></div>",
-    "familj": "Ledare, influens och laddningsutjämning",
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Två metallkulor är från början oladdade. \\(2{,}5\\cdot10^8\\) elektroner flyttas från A till B. Varje elektron har laddningen \\(-1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Vilken laddning får kula B? Svara i pC.</p>",
+    "s": "<div class=\"facit-v2\"><p>B tar emot negativa elektroner och får därför negativ laddning.</p><p>\\[Q_B=-(2{,}5\\cdot10^8)(1{,}602\\cdot10^{-19})\\]</p><p>\\[Q_B=-4{,}005\\cdot10^{-11}\\,\\mathrm C\\]</p><p><strong>Svar:</strong> cirka −40 pC.</p></div>",
+    "familj": "Elementarladdning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "familjNyckel": "laddning__laddning_och_antal_elektroner",
     "svarstyp": "numeriskt",
-    "rättSvar": -40.1,
-    "tolerans": 0.7,
+    "rättSvar": -40.05,
+    "tolerans": 1.00125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "pC",
-    "ledtrad": "<p>B tar emot elektroner och blir därför negativt laddad. En elementarladdning har beloppet \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Multiplicera antalet elektroner med laddningen på en elektron. Behåll minustecknet.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Laddning och antal elektroner"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "4.309",
@@ -109284,32 +110137,50 @@ window.BANK = [
     "id": "8.319",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "E",
     "typ": "symmetri och kraftresultant mellan lika laddningar",
-    "poang": "(0/1/2)",
-    "t": "<p>Två lika positiva punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) sitter \\(0{,}6\\,\\mathrm m\\) från varandra. Bestäm den elektriska kraften på en liten positiv testladdning som placeras exakt mitt emellan dem.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">+q</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,6 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje källaddning ger lika stor men motsatt riktad kraft på testladdningen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De tar därför ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_R=F_1-F_2=0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\,\\mathrm N\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två lika stora positiva laddningar, +4,0 µC vardera, ligger 0,60 m från varandra. Mellan dem finns en liten negativ laddning som ligger 0,40 m från vänsterkulan och 0,20 m från högerkulan.</p><p>Åt vilket håll verkar den sammanlagda elektriska kraften på den negativa laddningen?</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 190\" width=\"520\" height=\"190\" role=\"img\" aria-label=\"Tre laddningar med markerade avstånd mellan mittpunkterna\"><circle cx=\"90\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"90\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#bf2835\">+</text><text x=\"90\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">+4,0 µC</text><circle cx=\"310\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"310\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#2563a5\">−</text><text x=\"310\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">−q</text><circle cx=\"430\" cy=\"108\" r=\"23\" fill=\"white\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"430\" y=\"116\" text-anchor=\"middle\" font-size=\"25\" fill=\"#bf2835\">+</text><text x=\"430\" y=\"164\" text-anchor=\"middle\" font-size=\"19\">+4,0 µC</text><path d=\"M90 34 V46 M310 34 V46 M90 40 H310\" stroke=\"#566f85\" fill=\"none\"/><text x=\"200.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\">0,40 m</text><path d=\"M310 34 V46 M430 34 V46 M310 40 H430\" stroke=\"#566f85\" fill=\"none\"/><text x=\"370.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\">0,20 m</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Den negativa laddningen dras mot båda positiva grannarna. Den högra grannen ligger hälften så långt bort och ger fyra gånger starkare kraft. Kraftsumman går därför åt höger.</p></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "numeriskt",
-    "rättSvar": 0,
-    "tolerans": 1e-09,
+    "svarstyp": "alternativ",
+    "rättSvar": "Åt höger.",
+    "tolerans": null,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför avstånd och laddningsstorlek till de två källaddningarna.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N",
-    "traningsniva": 4,
+    "ledtrad": "<p>Hur beror kraften på avståndet när grannarnas laddningar är lika?</p>",
+    "svarFormat": null,
+    "svarEnhet": null,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
+    ],
+    "manuellKomplettering": false,
+    "alternativ": [
+      {
+        "txt": "Åt höger.",
+        "ratt": true,
+        "kommentar": "Testladdningen dras mot båda grannarna, men den närmare grannen ger starkare kraft."
+      },
+      {
+        "txt": "Åt vänster.",
+        "ratt": false,
+        "kommentar": "Den vänstra grannen ligger längre bort och ger svagare attraktion."
+      },
+      {
+        "txt": "Kraften är noll.",
+        "ratt": false,
+        "kommentar": "Avstånden är olika, så krafterna är inte lika stora."
+      }
     ]
   },
   {
@@ -109346,33 +110217,34 @@ window.BANK = [
     "id": "8.320",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "nollpunkt mellan två Coulombfält",
-    "poang": "(0/1/2)",
-    "t": "<p>Två positiva punktladdningar \\(+4{,}0\\,\\mu\\mathrm C\\) och \\(+1{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}65\\,\\mathrm m\\) från varandra. På linjen mellan dem finns en punkt där en positiv testladdning skulle få noll nettokraft. Bestäm avståndet från \\(+4{,}0\\,\\mu\\mathrm C\\)-laddningen till punkten.</p><div class=\"fig smal\"><svg width=\"460\" height=\"200\" viewBox=\"0 0 460 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+1,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">x</text><line x1=\"70.0\" y1=\"170\" x2=\"390.0\" y2=\"170\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"163\" x2=\"70.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"163\" x2=\"390.0\" y2=\"177\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,65 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I nollpunkten måste Coulombkrafterna ha samma belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Testladdningen och Coulombkonstanten förkortas bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{4}{x^2}=\\frac{1}{(d-x)^2}\\Rightarrow x=0{,}4333\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}4333\\ \\mathrm m\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två positiva laddningar, +9,0 µC till vänster och +4,0 µC till höger, ligger 0,65 m från varandra.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+9,0 µC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+4,0 µC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">0,65 m</text></svg></div><p>Hur långt från +9,0 µC-laddningen ligger punkten mellan dem där det elektriska fältet är noll?</p>",
+    "s": "<div class=\"facit-v2\"><p>Mellan två positiva laddningar går fälten åt motsatta håll. De måste vara lika starka i nollpunkten. Låt x vara avståndet från den vänstra laddningen.</p><p>\\[\\frac{9}{x^2}=\\frac{4}{(0{,}65-x)^2}\\]</p><p>Ta den positiva kvadratroten på båda sidor:</p><p>\\[\\frac{1{,}5}{x}=\\frac{1}{0{,}65-x}\\]</p><p>\\[1{,}5(0{,}65-x)=x\\]</p><p>\\[x=0{,}39\\,\\mathrm{m}\\]</p></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.433333,
-    "tolerans": 0.0078,
+    "rättSvar": 0.39,
+    "tolerans": 0.009750000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Sätt de två kraftbeloppen lika och ta kvadratroten innan du löser för läget.</p>",
+    "ledtrad": "<p>Avstånden tillsammans är 0,65 m. Sätt fältstyrkorna lika och ta kvadratroten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "6.148",
@@ -177271,58 +178143,61 @@ window.BANK = [
   },
   {
     "kap": 8,
-    "omr": "coulomb",
-    "niva": "C",
+    "omr": "laddning",
+    "niva": "E",
     "typ": "fyra klot som nuddar varandra",
-    "poang": "(0/1/0)",
-    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Fyra identiska metallklot med laddningarna +1,6 µC, +6,2 µC, −4,8 µC och −9,4 µC får nudda varandra samtidigt och förs sedan isär. Hur många elektroner i överskott har varje klot efteråt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Total laddning −6,4 µC delas lika: −1,6 µC per klot.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{1{,}6\\cdot10^{-6}}{1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{13}\\) </p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Fyra likadana metallklot har laddningarna +1,6 µC, +6,2 µC, −4,8 µC och −9,4 µC. De får nudda varandra samtidigt och förs sedan isär. Elementarladdningen är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Hur många elektroner i överskott har varje klot efteråt?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen bevaras och delas lika mellan likadana metallkulor.</p><p>\\[Q=\\frac{1{,}6+6{,}2-4{,}8-9{,}4}{4}=-1{,}6\\,\\mathrm{\\mu C}\\]</p></div><div class=\"facit-v2\"><p>Negativ laddning betyder överskott på elektroner. Omvandla −1,6 µC till coulomb och dela laddningens storlek med e:</p><p>\\[n=\\frac{1{,}6\\cdot10^{-6}}{1{,}602\\cdot10^{-19}}\\]</p><p><strong>Svar:</strong> cirka \\(1{,}0\\cdot10^{13}\\) elektroner.</p></div>",
     "id": "8.476",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Ledare, influens och laddningsutjämning",
+    "familj": "Laddningens bevarande",
     "svarstyp": "numeriskt",
     "rättSvar": 9987515605493.133,
-    "tolerans": 150000000000.0,
+    "tolerans": 249687890137.32834,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Laddningen fördelas lika på identiska klot.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Summera med tecken, fördela laddningen lika och räkna sedan antalet extra elektroner.</p>",
+    "traningsniva": 2,
     "familjNyckel": "coulomb__ledare_influens_och_laddningsutjamning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "elektroner",
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "okänd laddning ur attraktiv kraft",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två laddade partiklar på avståndet 0,26 m attraherar varandra med 3,4 N. Den ena har laddningen +3,5 µC. Bestäm den andras laddning (med tecken).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[|Q|=\\dfrac{3{,}4\\cdot0{,}26^2}{8{,}99\\cdot10^9\\cdot3{,}5\\cdot10^{-6}}\\].</div></div><div class=\"facit-stycke\"><p>Attraktion ger negativ laddning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7{,}3\\cdot10^{-6}\\) C</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två laddningar ligger 0,26 m från varandra och dras mot varandra med kraften 3,4 N. Den ena laddningen är +3,5 µC.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Vilken laddning har den andra? Svara i µC och ta med tecknet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Attraktion innebär olika tecken. Den sökta laddningen är därför negativ. Lös ut dess storlek:</p><p>\\[|Q|=\\frac{Fr^2}{k|q|}\\]</p><p>\\[|Q|=\\frac{3{,}4\\cdot0{,}26^2}{8{,}99\\cdot10^9\\cdot3{,}5\\cdot10^{-6}}\\]</p><p><strong>Svar:</strong> cirka −7,3 µC.</p></div>",
     "id": "8.477",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "numeriskt",
-    "rättSvar": -7.304624185603051e-06,
-    "tolerans": 1.1e-07,
+    "rättSvar": -7.304624185603052,
+    "tolerans": 0.1826156046400763,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Attraktion betyder olika tecken.</p>",
-    "traningsniva": 3,
-    "svarEnhet": "C",
+    "ledtrad": "<p>Bestäm tecknet från attraktionen och lös sedan ut laddningens storlek.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "µC",
     "familjNyckel": "coulomb__coulombs_lag",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
@@ -177330,8 +178205,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft och avstånd mellan laddade klot",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><ol type=\"a\"><li>Två klot med −20,0 µC och +50,0 µC är 2,50 cm från varandra. Bestäm kraftens storlek.</li><li>Två klot med −15,0 µC och +30 µC attraherar varandra med 6,0 N. Hur stort är avståndet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{20{,}0\\cdot10^{-6}\\cdot50{,}0\\cdot10^{-6}}{0{,}0250^2}\\), attraktiv.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\,384\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt{\\dfrac{8{,}99\\cdot10^9\\cdot15{,}0\\cdot10^{-6}\\cdot30\\cdot10^{-6}}{6{,}0}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}82\\) m</p></li></ol></div>",
+    "t": "<p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Två klot med laddningarna −20,0 µC och +50,0 µC ligger 2,50 cm från varandra. Hur stor är kraften mellan kloten?</p><p>b) Två andra klot har laddningarna −15,0 µC och +30 µC och dras mot varandra med kraften 6,0 N. Hur långt är det mellan kloten?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1\\cdot10^{-9}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1\\cdot10^{-9}}{0{,}025^2}\\]</p><p><strong>Svar:</strong> \\(14384\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Lös ut avståndet ur Coulombs lag:</p><p>\\[r=\\sqrt{\\frac{k|q_1q_2|}{F}}\\]</p><p>\\[r=\\sqrt{\\frac{8{,}99\\cdot10^9\\cdot4{,}50\\cdot10^{-10}}{6{,}0}}\\]</p><p><strong>Svar:</strong> cirka 0,82 m.</p></div></div>",
     "id": "8.478",
     "miniräknare": true,
     "geogebra": false,
@@ -177342,11 +178217,104 @@ window.BANK = [
       0.821127273935046
     ],
     "tolerans": [
-      216.0,
-      0.0123
+      359.6,
+      0.020528181848376154
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är kraften mellan kloten?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1\\cdot10^{-9}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1\\cdot10^{-9}}{0{,}025^2}\\]</p><p><strong>Svar:</strong> \\(14384\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 14384.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 359.6,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv 2,50 cm i meter och µC i coulomb.</p>",
+        "t": "<p>Två klot med laddningarna −20,0 µC och +50,0 µC ligger 2,50 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är kraften mellan kloten?</p>",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur långt är det mellan kloten?",
+        "s": "<div class=\"facit-v2\"><p>Lös ut avståndet ur Coulombs lag:</p><p>\\[r=\\sqrt{\\frac{k|q_1q_2|}{F}}\\]</p><p>\\[r=\\sqrt{\\frac{8{,}99\\cdot10^9\\cdot4{,}50\\cdot10^{-10}}{6{,}0}}\\]</p><p><strong>Svar:</strong> cirka 0,82 m.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.821127273935046,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 0.020528181848376154,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Lös ut avståndets kvadrat och ta sedan den positiva kvadratroten.</p>",
+        "t": "<p>Två andra klot har laddningarna −15,0 µC och +30 µC. De dras mot varandra med kraften 6,0 N.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur långt är det mellan kloten?</p>",
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>Skriv 2,50 cm i meter och µC i coulomb.</p>",
+    "traningsniva": 2,
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "laddningarna Q och 10Q",
+    "poang": "(1/1/0)",
+    "t": "<p>Två positiva klot har laddningarna +Q och +10Q. Avståndet är 3,0 cm och kraften mellan dem 1,6 N.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+Q</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+10Q</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">3,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Bestäm laddningen Q. Svara i µC.</p><p>b) Bestäm laddningen 10Q. Svara i µC.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Laddningsprodukten är \\(Q\\cdot10Q=10Q^2\\).</p><p>\\[F=k\\frac{10Q^2}{r^2}\\]</p><p>\\[Q^2=\\frac{Fr^2}{10k}\\]</p><p>\\[Q^2=\\frac{1{,}6\\cdot0{,}030^2}{10\\cdot8{,}99\\cdot10^9}\\]</p><p>\\[Q^2\\approx1{,}6018\\cdot10^{-14}\\,\\mathrm{C^2}\\]</p><p>Ta den positiva kvadratroten:</p><p>\\[Q=1{,}26561\\cdot10^{-7}\\,\\mathrm C\\approx0{,}13\\,\\mu\\mathrm C\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den andra laddningen är tio gånger Q:</p><p>\\[10Q=10\\cdot0{,}126561\\approx1{,}3\\,\\mu\\mathrm C\\]</p></div></div>",
+    "id": "8.479",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.12656143785860086,
+      1.2656143785860086
+    ],
+    "tolerans": [
+      0.005,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": [
@@ -177359,65 +178327,139 @@ window.BANK = [
       "b"
     ],
     "svarEnhet": [
-      "N",
-      "m"
+      "µC",
+      "µC"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p>",
+    "spelIntro": "<p>Två positiva klot har laddningarna +Q och +10Q. Avståndet är 3,0 cm och kraften mellan dem 1,6 N.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+Q</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+10Q</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">3,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Två klot med −20,0 µC och +50,0 µC är 2,50 cm från varandra. Bestäm kraftens storlek.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med −20,0 µC och +50,0 µC är 2,50 cm från varandra. Bestäm kraftens storlek.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F=8{,}99\\cdot10^9\\cdot\\dfrac{20{,}0\\cdot10^{-6}\\cdot50{,}0\\cdot10^{-6}}{0{,}0250^2}\\), attraktiv.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\,384\\) N</p></div>",
-        "ledtrad": "<p>\\(F=k\\dfrac{|Q_1Q_2|}{r^2}\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "fraga": "Bestäm laddningen Q. Svara i µC.",
+        "s": "<div class=\"facit-v2\"><p>Laddningsprodukten är \\(Q\\cdot10Q=10Q^2\\).</p><p>\\[F=k\\frac{10Q^2}{r^2}\\]</p><p>\\[Q^2=\\frac{Fr^2}{10k}\\]</p><p>\\[Q^2=\\frac{1{,}6\\cdot0{,}030^2}{10\\cdot8{,}99\\cdot10^9}\\]</p><p>\\[Q^2\\approx1{,}6018\\cdot10^{-14}\\,\\mathrm{C^2}\\]</p><p>Ta den positiva kvadratroten:</p><p>\\[Q=1{,}26561\\cdot10^{-7}\\,\\mathrm C\\approx0{,}13\\,\\mu\\mathrm C\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.12656143785860086,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µC",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv laddningsprodukten med en enda obekant och lös ut dess kvadrat.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Två klot med −15,0 µC och +30 µC attraherar varandra med 6,0 N. Hur stort är avståndet?",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med −15,0 µC och +30 µC attraherar varandra med 6,0 N. Hur stort är avståndet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt{\\dfrac{8{,}99\\cdot10^9\\cdot15{,}0\\cdot10^{-6}\\cdot30\\cdot10^{-6}}{6{,}0}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}82\\) m</p></div>",
-        "ledtrad": "<p>Lös ut \\(r\\).</p>",
+        "fraga": "Bestäm laddningen 10Q. Svara i µC.",
+        "s": "<div class=\"facit-v2\"><p>Den andra laddningen är tio gånger Q:</p><p>\\[10Q=10\\cdot0{,}126561\\approx1{,}3\\,\\mu\\mathrm C\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.2656143785860086,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µC",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera den givna laddningen med 10.</p>",
+        "t": "<p>Laddningen Q är 0,126561 µC. En annan laddning är tio gånger så stor.</p><p>Bestäm laddningen 10Q. Svara i µC.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Coulombs lag.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Skriv laddningsprodukten med en enda obekant och lös ut dess kvadrat.</p>",
+    "traningsniva": 3,
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "elektron i litiumjon",
+    "poang": "(1/0/0)",
+    "t": "<p>En litiumkärna har laddningen +3e och en elektron laddningen −e. Avståndet mellan dem är 150 pm. Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den elektriska kraften mellan kärnan och elektronen?</p>",
+    "s": "<div class=\"facit-v2\"><p>Kraften är attraherande. Avståndet är \\(150\\,\\mathrm{pm}=1{,}50\\cdot10^{-10}\\,\\mathrm m\\). Laddningsproduktens storlek är 3e²:</p><p>\\[F=k\\frac{3e^2}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^9\\frac{3(1{,}602\\cdot10^{-19})^2}{(1{,}50\\cdot10^{-10})^2}\\]</p><p><strong>Svar:</strong> cirka \\(3{,}1\\cdot10^{-8}\\,\\mathrm N\\).</p></div>",
+    "id": "8.480",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.076262928e-08,
+    "tolerans": 7.690657320000001e-10,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv picometer i meter. Kärnans laddning är tre gånger så stor som elektronens.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
+  },
+  {
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "elektroner överförs mellan klot",
+    "poang": "(1/0/0)",
+    "t": "<p>Två oladdade metallklot ligger 5,0 cm från varandra. \\(1{,}3\\cdot10^9\\) elektroner flyttas från det ena klotet till det andra. Elementarladdningen är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den elektriska kraften mellan kloten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Det ena klotet förlorar elektroner och blir positivt. Det andra får lika stor negativ laddning. Laddningens storlek är:</p><p>\\[|Q|=Ne=(1{,}3\\cdot10^9)(1{,}602\\cdot10^{-19})\\]</p><p>\\[|Q|=2{,}0826\\cdot10^{-10}\\,\\mathrm C\\]</p><p>Använd Coulombs lag med avståndet 0,050 m:</p><p>\\[F=k\\frac{Q^2}{0{,}050^2}\\]</p><p><strong>Svar:</strong> cirka \\(1{,}6\\cdot10^{-7}\\,\\mathrm N\\). Kloten dras mot varandra.</p></div>",
+    "id": "8.481",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Coulombs lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5596653044959995e-07,
+    "tolerans": 5e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm laddningen från elektronantalet och använd sedan Coulombs lag.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "N",
+    "familjNyckel": "coulomb__coulombs_lag",
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
     "niva": "C",
-    "typ": "laddningarna Q och 10Q",
+    "typ": "laddad kula under hängande kula",
     "poang": "(0/2/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p><ol type=\"a\"><li>Bestäm \\(Q\\).</li><li>Bestäm laddningen \\(10Q\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[10Q^2=\\dfrac{1{,}6\\cdot0{,}030^2}{8{,}99\\cdot10^9}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{-7}\\) C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(10\\cdot0{,}126\\) µC.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{-6}\\) C</p></li></ol></div>",
-    "id": "8.479",
+    "t": "<p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Använd g=9,82 m/s².</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 350\" width=\"460\" height=\"350\" role=\"img\" aria-label=\"En positiv kula hänger i en tråd, med en negativ kula rakt under\"><path d=\"M140 30 H300 M220 30 V110\" stroke=\"#566f85\" stroke-width=\"2\" fill=\"none\"/><text x=\"270\" y=\"70\" font-size=\"19\">tråd</text><circle cx=\"220\" cy=\"135\" r=\"23\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"220\" y=\"144\" text-anchor=\"middle\" font-size=\"28\" fill=\"#bf2835\">+</text><text x=\"164\" y=\"144\" text-anchor=\"end\" font-size=\"19\">hängande kula</text><circle cx=\"220\" cy=\"265\" r=\"23\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"220\" y=\"274\" text-anchor=\"middle\" font-size=\"28\" fill=\"#2563a5\">−</text><path d=\"M327 135 H341 M327 265 H341 M334 135 V265\" stroke=\"#566f85\" fill=\"none\"/><text x=\"357\" y=\"205\" font-size=\"19\">avstånd</text></svg></div><p>a) En kula på 7,50 g med laddningen +32,0 nC hänger stilla i en tråd. En kula med −58,0 nC hålls rakt under den, med 2,00 cm mellan kulornas mittpunkter. Hur stor är spännkraften i tråden?</p><p>b) En annan kula på 4,50 g med laddningen +45,0 nC hänger stilla i en tråd som tål 0,15 N. En kula med −78,0 nC hålls under den. Hur litet får avståndet mellan kulornas mittpunkter vara utan att tråden går av?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den negativa kulan under drar den positiva kulan nedåt. Tråden måste bära både tyngden och den elektriska kraften:</p><p>\\[F_g=0{,}00750\\cdot9{,}82=0{,}07365\\,\\mathrm N\\]</p><p>\\[F_e=k\\frac{32{,}0\\cdot10^{-9}\\cdot58{,}0\\cdot10^{-9}}{0{,}0200^2}\\]</p><p>\\[F_e=0{,}0417136\\,\\mathrm N\\]</p><p>\\[T=F_g+F_e\\approx0{,}115\\,\\mathrm N\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Tråden balanserar tyngden och den elektriska kraften nedåt.</p><p>\\[F_g=0{,}00450\\cdot9{,}82=0{,}04419\\,\\mathrm N\\]</p><p>Vid gränsen är spännkraften 0,15 N. Den elektriska kraften får därför vara högst:</p><p>\\[F_{e,\\max}=0{,}15-0{,}04419=0{,}10581\\,\\mathrm N\\]</p><p>Mindre avstånd skulle ge större kraft. Lös ut gränsavståndet:</p><p>\\[d_{\\min}=\\sqrt{\\frac{k|q_1q_2|}{F_{e,\\max}}}\\]</p><p>\\[d_{\\min}=\\sqrt{\\frac{8{,}99\\cdot10^9\\cdot3{,}51\\cdot10^{-15}}{0{,}10581}}\\]</p><p><strong>Svar:</strong> cirka 0,017 m.</p></div></div>",
+    "id": "8.482",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.2656143785860086e-07,
-      1.2656143785860086e-06
+      0.11536359999999998,
+      0.01726911362022496
     ],
     "tolerans": [
-      5.1e-09,
-      5.1e-08
+      0.0028840899999999997,
+      0.00043172784050562405
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
       "problemlösning"
     ],
     "svarFormat": [
@@ -177430,176 +178472,64 @@ window.BANK = [
       "b"
     ],
     "svarEnhet": [
-      "C",
-      "C"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Bestäm \\(Q\\).",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p><p>Bestäm \\(Q\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[10Q^2=\\dfrac{1{,}6\\cdot0{,}030^2}{8{,}99\\cdot10^9}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{-7}\\) C</p></div>",
-        "ledtrad": "<p>\\(F=k\\dfrac{10Q^2}{r^2}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Bestäm laddningen \\(10Q\\).",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot med laddningarna \\(+Q\\) och \\(+10Q\\) är 3,0 cm från varandra och stöter bort varandra med 1,6 N.</p><p>Bestäm laddningen \\(10Q\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(10\\cdot0{,}126\\) µC.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{-6}\\) C</p></div>",
-        "ledtrad": "<p>\\(F=k\\dfrac{10Q^2}{r^2}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
-      }
-    ],
-    "ledtrad": "<p>Lös ut \\(Q^2\\).</p>",
-    "traningsniva": 3,
-    "familjNyckel": "coulomb__coulombs_lag",
-    "arbetsinsats": 2,
-    "spel": true
-  },
-  {
-    "kap": 8,
-    "omr": "coulomb",
-    "niva": "C",
-    "typ": "elektron i litiumjon",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>I jonen Li²⁺ (kärnladdning \\(+3e\\)) finns en elektron på avståndet 150 pm från kärnan. Bestäm den attraktiva kraften mellan kärnan och elektronen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\cdot\\dfrac{3e\\cdot e}{(150\\cdot10^{-12})^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1\\cdot10^{-8}\\) N</p></div>",
-    "id": "8.480",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Coulombs lag",
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.0762629279999995e-08,
-    "tolerans": 5.1e-10,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Litiumkärnan har tre protoner.</p>",
-    "traningsniva": 3,
-    "svarEnhet": "N",
-    "familjNyckel": "coulomb__coulombs_lag",
-    "arbetsinsats": 2,
-    "spel": true
-  },
-  {
-    "kap": 8,
-    "omr": "coulomb",
-    "niva": "C",
-    "typ": "elektroner överförs mellan klot",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>Två neutrala metallklot är 5,0 cm från varandra. Man flyttar \\(1{,}3\\cdot10^9\\) elektroner från det ena klotet till det andra. Bestäm kraftens storlek mellan kloten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kloten får \\(\\pm1{,}3\\cdot10^9e\\).</p></div><div class=\"facit-stycke\"><p>\\(F=k\\dfrac{q^2}{0{,}050^2}\\), attraktiv.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\cdot10^{-7}\\) N</p></div>",
-    "id": "8.481",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Coulombs lag",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.5596653044959995e-07,
-    "tolerans": 5.1e-09,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Kloten får lika stora laddningar med olika tecken.</p>",
-    "traningsniva": 3,
-    "svarEnhet": "N",
-    "familjNyckel": "coulomb__coulombs_lag",
-    "arbetsinsats": 2,
-    "spel": true
-  },
-  {
-    "kap": 8,
-    "omr": "coulomb",
-    "niva": "A",
-    "typ": "laddad kula under hängande kula",
-    "poang": "(0/2/1)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p><ol type=\"a\"><li>Den hängande kulan har massan 7,50 g och laddningen +32,0 nC. Kulan under har −58,0 nC och är 2,00 cm bort. Bestäm spännkraften i tråden.</li><li>Den hängande kulan har i stället massan 4,50 g och laddningen +45,0 nC, kulan under −78,0 nC. Tråden tål högst 0,15 N. Bestäm det minsta tillåtna avståndet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Attraktion nedåt: \\(F_S=mg+k\\dfrac{|q_1q_2|}{d^2}=0{,}0737+0{,}0418\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}115\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_E\\le0{,}15-0{,}0442\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=\\sqrt{\\dfrac{k\\cdot45{,}0\\cdot10^{-9}\\cdot78{,}0\\cdot10^{-9}}{0{,}1058}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}017\\) m</p></li></ol></div>",
-    "id": "8.482",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Coulombs lag",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      0.11536359999999998,
-      0.01726911362022496
-    ],
-    "tolerans": [
-      0.00173,
-      0.00051
-    ],
-    "självrättning": true,
-    "formaga": [
-      "problemlösning",
-      "modellering"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "svarEnhet": [
       "N",
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p>",
+    "spelIntro": "<p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Använd g=9,82 m/s².</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 350\" width=\"460\" height=\"350\" role=\"img\" aria-label=\"En positiv kula hänger i en tråd, med en negativ kula rakt under\"><path d=\"M140 30 H300 M220 30 V110\" stroke=\"#566f85\" stroke-width=\"2\" fill=\"none\"/><text x=\"270\" y=\"70\" font-size=\"19\">tråd</text><circle cx=\"220\" cy=\"135\" r=\"23\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"220\" y=\"144\" text-anchor=\"middle\" font-size=\"28\" fill=\"#bf2835\">+</text><text x=\"164\" y=\"144\" text-anchor=\"end\" font-size=\"19\">hängande kula</text><circle cx=\"220\" cy=\"265\" r=\"23\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"220\" y=\"274\" text-anchor=\"middle\" font-size=\"28\" fill=\"#2563a5\">−</text><path d=\"M327 135 H341 M327 265 H341 M334 135 V265\" stroke=\"#566f85\" fill=\"none\"/><text x=\"357\" y=\"205\" font-size=\"19\">avstånd</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Den hängande kulan har massan 7,50 g och laddningen +32,0 nC. Kulan under har −58,0 nC och är 2,00 cm bort. Bestäm spännkraften i tråden.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p><p>Den hängande kulan har massan 7,50 g och laddningen +32,0 nC. Kulan under har −58,0 nC och är 2,00 cm bort. Bestäm spännkraften i tråden.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Attraktion nedåt: \\(F_S=mg+k\\dfrac{|q_1q_2|}{d^2}=0{,}0737+0{,}0418\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}115\\) N</p></div>",
-        "ledtrad": "<p>Den elektriska kraften drar nedåt.</p>",
+        "fraga": "Hur stor är spännkraften i tråden?",
+        "s": "<div class=\"facit-v2\"><p>Den negativa kulan under drar den positiva kulan nedåt. Tråden måste bära både tyngden och den elektriska kraften:</p><p>\\[F_g=0{,}00750\\cdot9{,}82=0{,}07365\\,\\mathrm N\\]</p><p>\\[F_e=k\\frac{32{,}0\\cdot10^{-9}\\cdot58{,}0\\cdot10^{-9}}{0{,}0200^2}\\]</p><p>\\[F_e=0{,}0417136\\,\\mathrm N\\]</p><p>\\[T=F_g+F_e\\approx0{,}115\\,\\mathrm N\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.11536359999999998,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 0.0028840899999999997,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Rita krafterna på den hängande kulan. Vilka krafter måste tråden balansera?</p>",
+        "t": "<p>En stillastående kula på 7,50 g med laddningen +32,0 nC hänger i en tråd. En kula med laddningen −58,0 nC hålls rakt under den. Avståndet mellan mittpunkterna är 2,00 cm.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Använd g=9,82 m/s².</p><p>Hur stor är spännkraften i tråden?</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 350\" width=\"460\" height=\"350\" role=\"img\" aria-label=\"En positiv kula hänger i en tråd, med en negativ kula rakt under\"><path d=\"M140 30 H300 M220 30 V110\" stroke=\"#566f85\" stroke-width=\"2\" fill=\"none\"/><text x=\"270\" y=\"70\" font-size=\"19\">tråd</text><circle cx=\"220\" cy=\"135\" r=\"23\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"220\" y=\"144\" text-anchor=\"middle\" font-size=\"28\" fill=\"#bf2835\">+</text><text x=\"164\" y=\"144\" text-anchor=\"end\" font-size=\"19\">hängande kula</text><circle cx=\"220\" cy=\"265\" r=\"23\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"220\" y=\"274\" text-anchor=\"middle\" font-size=\"28\" fill=\"#2563a5\">−</text><path d=\"M327 135 H341 M327 265 H341 M334 135 V265\" stroke=\"#566f85\" fill=\"none\"/><text x=\"357\" y=\"205\" font-size=\"19\">avstånd</text></svg></div>",
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Den hängande kulan har i stället massan 4,50 g och laddningen +45,0 nC, kulan under −78,0 nC. Tråden tål högst 0,15 N. Bestäm det minsta tillåtna avståndet.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En liten kula hänger i en tunn tråd. En annan laddad kula placeras rakt under den.</p><p>Den hängande kulan har i stället massan 4,50 g och laddningen +45,0 nC, kulan under −78,0 nC. Tråden tål högst 0,15 N. Bestäm det minsta tillåtna avståndet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_E\\le0{,}15-0{,}0442\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=\\sqrt{\\dfrac{k\\cdot45{,}0\\cdot10^{-9}\\cdot78{,}0\\cdot10^{-9}}{0{,}1058}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}017\\) m</p></div>",
-        "ledtrad": "<p>Hur stor elektrisk kraft får det högst vara?</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Hur litet får avståndet mellan kulornas mittpunkter vara utan att tråden går av?",
+        "s": "<div class=\"facit-v2\"><p>Tråden balanserar tyngden och den elektriska kraften nedåt.</p><p>\\[F_g=0{,}00450\\cdot9{,}82=0{,}04419\\,\\mathrm N\\]</p><p>Vid gränsen är spännkraften 0,15 N. Den elektriska kraften får därför vara högst:</p><p>\\[F_{e,\\max}=0{,}15-0{,}04419=0{,}10581\\,\\mathrm N\\]</p><p>Mindre avstånd skulle ge större kraft. Lös ut gränsavståndet:</p><p>\\[d_{\\min}=\\sqrt{\\frac{k|q_1q_2|}{F_{e,\\max}}}\\]</p><p>\\[d_{\\min}=\\sqrt{\\frac{8{,}99\\cdot10^9\\cdot3{,}51\\cdot10^{-15}}{0{,}10581}}\\]</p><p><strong>Svar:</strong> cirka 0,017 m.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.01726911362022496,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 0.00043172784050562405,
+        "manuellKomplettering": false,
+        "niva": "C",
         "traningsniva": 4,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Hur stor elektrisk kraft kan tråden bära efter att tyngdkraften räknats bort?</p>",
+        "t": "<p>En stillastående kula på 4,50 g med laddningen +45,0 nC hänger i en tråd som tål högst 0,15 N. En kula med laddningen −78,0 nC hålls rakt under den.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Använd g=9,82 m/s².</p><p>Hur litet får avståndet mellan kulornas mittpunkter vara utan att tråden går av?</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 350\" width=\"460\" height=\"350\" role=\"img\" aria-label=\"En positiv kula hänger i en tråd, med en negativ kula rakt under\"><path d=\"M140 30 H300 M220 30 V110\" stroke=\"#566f85\" stroke-width=\"2\" fill=\"none\"/><text x=\"270\" y=\"70\" font-size=\"19\">tråd</text><circle cx=\"220\" cy=\"135\" r=\"23\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"220\" y=\"144\" text-anchor=\"middle\" font-size=\"28\" fill=\"#bf2835\">+</text><text x=\"164\" y=\"144\" text-anchor=\"end\" font-size=\"19\">hängande kula</text><circle cx=\"220\" cy=\"265\" r=\"23\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"220\" y=\"274\" text-anchor=\"middle\" font-size=\"28\" fill=\"#2563a5\">−</text><path d=\"M327 135 H341 M327 265 H341 M334 135 V265\" stroke=\"#566f85\" fill=\"none\"/><text x=\"357\" y=\"205\" font-size=\"19\">avstånd</text></svg></div>",
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Tråden bär tyngden och den elektriska kraften.</p>",
+    "ledtrad": "<p>Rita krafterna på den hängande kulan. Vilka krafter måste tråden balansera?</p>",
     "traningsniva": 4,
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
     "niva": "C",
     "typ": "fjäderkonstant ur elektrisk kraft",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p><ol type=\"a\"><li>En kula med +0,800 µC hänger i jämvikt i en lodrät fjäder. När en kula med −0,600 µC placeras under den förlängs fjädern ytterligare 3,50 cm, och kulorna hamnar 5,0 cm från varandra.</li><li>En laddning på 2,70 µC sitter i en fjäder på ett friktionsfritt bord. När en laddning −8,60 µC placeras i närheten förlängs fjädern 5,0 mm och laddningarna är då 9,00 cm från varandra.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F_E=k\\dfrac{0{,}800\\cdot10^{-6}\\cdot0{,}600\\cdot10^{-6}}{0{,}050^2}=1{,}73\\) N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k_f=\\dfrac{1{,}73}{0{,}0350}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(49\\) N/m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_E=k\\dfrac{2{,}70\\cdot10^{-6}\\cdot8{,}60\\cdot10^{-6}}{0{,}0900^2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k_f=\\dfrac{F_E}{0{,}0050}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,154\\) N/m</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) En kula med +0,800 µC hänger stilla i en lodrät fjäder. En kula med −0,600 µC hålls under den. I det nya jämviktsläget har fjädern förlängts ytterligare 3,50 cm, och kulorna är 5,0 cm från varandra. Vilken fjäderkonstant har den lodräta fjädern?</p><p>b) En kula med +2,70 µC sitter i en fjäder på ett friktionsfritt bord. Fjäderns andra ände är fast. En kula med −8,60 µC hålls nära. I jämvikt är fjäderns förlängning 5,0 mm och kulornas avstånd 9,00 cm. Vilken fjäderkonstant har den vågräta fjädern?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Tyngdkraften var redan balanserad före den andra kulan. Den extra fjäderkraften balanserar därför bara den elektriska kraften:</p><p>\\[F_e=k\\frac{0{,}800\\cdot10^{-6}\\cdot0{,}600\\cdot10^{-6}}{0{,}050^2}\\]</p><p>\\[F_e=1{,}72608\\,\\mathrm N\\]</p><p>Den extra förlängningen är 0,0350 m:</p><p>\\[k_f=\\frac{F_e}{\\Delta x}=\\frac{1{,}72608}{0{,}0350}\\]</p><p><strong>Svar:</strong> cirka 49 N/m.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I jämvikt balanserar fjäderkraften den elektriska kraften:</p><p>\\[F_e=k\\frac{2{,}70\\cdot10^{-6}\\cdot8{,}60\\cdot10^{-6}}{0{,}0900^2}\\]</p><p>\\[F_e\\approx25{,}7713\\,\\mathrm N\\]</p><p>Fjädern har förlängts 0,0050 m:</p><p>\\[k_f=\\frac{F_e}{x}=\\frac{25{,}7713}{0{,}0050}\\]</p><p><strong>Svar:</strong> cirka \\(5{,}2\\cdot10^3\\,\\mathrm{N/m}\\).</p></div></div>",
     "id": "8.483",
     "miniräknare": true,
     "geogebra": false,
@@ -177610,13 +178540,16 @@ window.BANK = [
       5154.266666666666
     ],
     "tolerans": [
-      0.74,
-      77.3
+      1.2329142857142854,
+      128.85666666666665
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -177632,63 +178565,80 @@ window.BANK = [
       "N/m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p>",
+    "spelIntro": "<p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kula med +0,800 µC hänger i jämvikt i en lodrät fjäder. När en kula med −0,600 µC placeras under den förlängs fjädern ytterligare 3,50 cm, och kulorna hamnar 5,0 cm från varandra.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p><p>En kula med +0,800 µC hänger i jämvikt i en lodrät fjäder. När en kula med −0,600 µC placeras under den förlängs fjädern ytterligare 3,50 cm, och kulorna hamnar 5,0 cm från varandra.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(F_E=k\\dfrac{0{,}800\\cdot10^{-6}\\cdot0{,}600\\cdot10^{-6}}{0{,}050^2}=1{,}73\\) N.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k_f=\\dfrac{1{,}73}{0{,}0350}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(49\\) N/m</p></div>",
-        "ledtrad": "<p>Den extra förlängningen beror bara på den elektriska kraften.</p>",
+        "fraga": "Vilken fjäderkonstant har den lodräta fjädern?",
+        "s": "<div class=\"facit-v2\"><p>Tyngdkraften var redan balanserad före den andra kulan. Den extra fjäderkraften balanserar därför bara den elektriska kraften:</p><p>\\[F_e=k\\frac{0{,}800\\cdot10^{-6}\\cdot0{,}600\\cdot10^{-6}}{0{,}050^2}\\]</p><p>\\[F_e=1{,}72608\\,\\mathrm N\\]</p><p>Den extra förlängningen är 0,0350 m:</p><p>\\[k_f=\\frac{F_e}{\\Delta x}=\\frac{1{,}72608}{0{,}0350}\\]</p><p><strong>Svar:</strong> cirka 49 N/m.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 49.316571428571415,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N/m",
+        "tolerans": 1.2329142857142854,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Jämför jämvikten före och efter att den andra kulan placeras under fjädern.</p>",
+        "t": "<p>En kula med laddningen +0,800 µC hänger stilla i en lodrät fjäder. När en kula med −0,600 µC hålls under den förlängs fjädern ytterligare 3,50 cm. Kulan stannar då i ett nytt jämviktsläge, 5,0 cm från den andra kulan.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Vilken fjäderkonstant har den lodräta fjädern?</p>",
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "En laddning på 2,70 µC sitter i en fjäder på ett friktionsfritt bord. När en laddning −8,60 µC placeras i närheten förlängs fjädern 5,0 mm och laddningarna är då 9,00 cm från varandra.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Bestäm fjäderkonstanten.</p><p>En laddning på 2,70 µC sitter i en fjäder på ett friktionsfritt bord. När en laddning −8,60 µC placeras i närheten förlängs fjädern 5,0 mm och laddningarna är då 9,00 cm från varandra.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_E=k\\dfrac{2{,}70\\cdot10^{-6}\\cdot8{,}60\\cdot10^{-6}}{0{,}0900^2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k_f=\\dfrac{F_E}{0{,}0050}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,154\\) N/m</p></div>",
-        "ledtrad": "<p>Fjäderkraften balanserar den elektriska kraften.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Vilken fjäderkonstant har den vågräta fjädern?",
+        "s": "<div class=\"facit-v2\"><p>I jämvikt balanserar fjäderkraften den elektriska kraften:</p><p>\\[F_e=k\\frac{2{,}70\\cdot10^{-6}\\cdot8{,}60\\cdot10^{-6}}{0{,}0900^2}\\]</p><p>\\[F_e\\approx25{,}7713\\,\\mathrm N\\]</p><p>Fjädern har förlängts 0,0050 m:</p><p>\\[k_f=\\frac{F_e}{x}=\\frac{25{,}7713}{0{,}0050}\\]</p><p><strong>Svar:</strong> cirka \\(5{,}2\\cdot10^3\\,\\mathrm{N/m}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5154.266666666666,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N/m",
+        "tolerans": 128.85666666666665,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Elektrisk kraft och fjäderkraft balanserar varandra.</p>",
+        "t": "<p>En kula med +2,70 µC sitter i ena änden av en fjäder på ett friktionsfritt bord. Fjäderns andra ände är fast. En kula med −8,60 µC hålls nära. I jämvikt har fjädern förlängts 5,0 mm och kulorna ligger 9,00 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Vilken fjäderkonstant har den vågräta fjädern?</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Jämvikt: \\(k_fx=F_E\\).</p>",
+    "ledtrad": "<p>Jämför jämvikten före och efter att den andra kulan placeras under fjädern.</p>",
     "traningsniva": 3,
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "jämviktsläge mellan 3q och q",
-    "poang": "(0/1/1)",
-    "t": "<p>Två kulor med laddningarna \\(+3q\\) och \\(+q\\) är 1,50 m från varandra. Var mellan dem kan en tredje laddning placeras så att den resulterande kraften på den blir noll? Ange avståndet från \\(+3q\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{3q}{x^2}=\\dfrac{q}{(1{,}50-x)^2}\\iff\\sqrt3(1{,}50-x)=x\\iff x=\\dfrac{1{,}50\\sqrt3}{1+\\sqrt3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}95\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två fasta positiva laddningar, +3q till vänster och +q till höger, ligger 1,50 m från varandra. Mellan dem ska en liten laddad testpartikel placeras så att den elektriska kraften på den blir noll.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+3q</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+q</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">1,50 m</text></svg></div><p>Hur långt från +3q-laddningen ska partikeln placeras?</p>",
+    "s": "<div class=\"facit-v2\"><p>Låt x vara avståndet från +3q. För att fälten ska ta ut varandra krävs:</p><p>\\[\\frac{3}{x^2}=\\frac{1}{(1{,}50-x)^2}\\]</p><p>Ta den positiva kvadratroten:</p><p>\\[\\sqrt3(1{,}50-x)=x\\]</p><p>\\[x=\\frac{1{,}50\\sqrt3}{1+\\sqrt3}\\approx0{,}95\\,\\mathrm m\\]</p></div>",
     "id": "8.484",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Kraftresultant från flera laddningar",
     "svarstyp": "numeriskt",
     "rättSvar": 0.9509618943233421,
-    "tolerans": 0.0143,
+    "tolerans": 0.023774047358083555,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt krafterna lika och dra roten ur.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Sätt de motriktade fältens styrkor lika. Summan av avstånden är 1,50 m.</p>",
+    "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "coulomb__kraftresultant_fran_flera_laddningar",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
@@ -177696,8 +178646,8 @@ window.BANK = [
     "niva": "E",
     "typ": "elektrisk kraft och acceleration",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två föremål (1,0 kg vardera) ligger 1,0 m från varandra på ett friktionsfritt underlag. Båda har laddningen +1,0 µC.</p><ol type=\"a\"><li>Hur stor är den elektriska kraften på vardera föremålet?</li><li>Vilken acceleration får vardera föremålet när de släpps?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\cdot\\dfrac{(1{,}0\\cdot10^{-6})^2}{1{,}0^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0090\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{F}{m}=\\dfrac{0{,}0090}{1{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0090\\) m/s²</p></li></ol></div>",
+    "t": "<p>Två föremål på 1,0 kg vardera ligger 1,0 m från varandra på ett friktionsfritt vågrätt bord. Båda har laddningen +1,0 µC.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är den elektriska kraften på varje föremål?</p><p>b) Hur stor acceleration får varje föremål just när de släpps?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1\\cdot10^{-12}}{1^2}\\]</p><p><strong>Svar:</strong> \\(0{,}00899\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd Newtons andra lag:</p><p>\\[a=\\frac{F}{m}=\\frac{0{,}0090}{1{,}0}=0{,}0090\\,\\mathrm{m/s^2}\\]</p></div></div>",
     "id": "8.485",
     "miniräknare": true,
     "geogebra": false,
@@ -177708,13 +178658,16 @@ window.BANK = [
       0.00899
     ],
     "tolerans": [
-      0.000135,
-      0.000135
+      0.00022475000000000001,
+      0.000225
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
     "svarFormat": [
       "numeriskt",
@@ -177730,45 +178683,60 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två föremål (1,0 kg vardera) ligger 1,0 m från varandra på ett friktionsfritt underlag. Båda har laddningen +1,0 µC.</p>",
+    "spelIntro": "<p>Två föremål på 1,0 kg vardera ligger 1,0 m från varandra på ett friktionsfritt vågrätt bord. Båda har laddningen +1,0 µC.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är den elektriska kraften på vardera föremålet?",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två föremål (1,0 kg vardera) ligger 1,0 m från varandra på ett friktionsfritt underlag. Båda har laddningen +1,0 µC.</p><p>Hur stor är den elektriska kraften på vardera föremålet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\cdot\\dfrac{(1{,}0\\cdot10^{-6})^2}{1{,}0^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0090\\) N</p></div>",
-        "ledtrad": "<p>\\(F=k\\dfrac{|Q_1Q_2|}{r^2}\\).</p>",
+        "fraga": "Hur stor är den elektriska kraften på varje föremål?",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(1\\cdot10^{-12}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{1\\cdot10^{-12}}{1^2}\\]</p><p><strong>Svar:</strong> \\(0{,}00899\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00899,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 0.00022475000000000001,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Coulombs lag med laddningarna i coulomb.</p>",
+        "t": "<p>Två positiva laddningar på +1,0 µC vardera ligger 1,0 m från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den elektriska kraften på varje föremål?</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får föremålet? Svara i m/s².",
-        "t": "<p>Ett föremål på 1,0 kg påverkas av en elektrisk kraft på 9,0 mN. Det ligger på ett friktionsfritt vågrätt underlag.</p><p>Vilken acceleration får föremålet? Svara i m/s².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{F}{m}=\\dfrac{0{,}0090}{1{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0090\\) m/s²</p></div>",
-        "ledtrad": "<p>\\(F=ma\\).</p>",
+        "fraga": "Hur stor acceleration ger den elektriska kraften?",
+        "s": "<div class=\"facit-v2\"><p>Använd Newtons andra lag:</p><p>\\[a=\\frac{F}{m}=\\frac{0{,}0090}{1{,}0}=0{,}0090\\,\\mathrm{m/s^2}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.009,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m/s²",
+        "tolerans": 0.000225,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela den givna kraften med massan.</p>",
+        "t": "<p>Ett föremål på 1,0 kg påverkas av den elektriska kraften 0,0090 N på ett friktionsfritt vågrätt bord.</p><p>Hur stor acceleration ger den elektriska kraften?</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Coulombs lag och Newtons andra lag.</p>",
+    "ledtrad": "<p>Använd Coulombs lag med laddningarna i coulomb.</p>",
     "traningsniva": 2,
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "elektrisk kraft jämfört med tyngd",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². Två plastkulor (2,0 g vardera) är 2,0 cm från varandra och har laddningen −50,0 nC vardera.</p><ol type=\"a\"><li>Hur stor är den elektriska kraften?</li><li>Hur många gånger större än tyngden är den elektriska kraften?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\cdot\\dfrac{(50{,}0\\cdot10^{-9})^2}{0{,}020^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}056\\) N</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{F_E}{mg}=\\dfrac{0{,}0562}{0{,}0020\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\)</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Två plastkulor på 2,0 g vardera har laddningen −50,0 nC och ligger 2,0 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Använd g=9,82 m/s².</p><p>a) Hur stor är den elektriska kraften?</p><p>b) Hur många gånger större är den elektriska kraften än tyngdkraften?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2{,}5\\cdot10^{-15}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2{,}5\\cdot10^{-15}}{0{,}02^2}\\]</p><p><strong>Svar:</strong> \\(0{,}0561875\\,\\mathrm{N}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Tyngdkraften är 0,01964 N. Jämför med den beräknade elektriska kraften:</p><p>\\[\\frac{F_e}{F_g}=\\frac{0{,}0561875}{0{,}01964}\\approx2{,}9\\]</p></div></div>",
     "id": "8.486",
     "miniräknare": true,
     "geogebra": false,
@@ -177779,10 +178747,13 @@ window.BANK = [
       2.860870672097759
     ],
     "tolerans": [
-      0.000843,
-      0.051
+      0.0014046874999999997,
+      0.07128309572301426
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp"
@@ -177801,36 +178772,51 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². Två plastkulor (2,0 g vardera) är 2,0 cm från varandra och har laddningen −50,0 nC vardera.</p>",
+    "spelIntro": "<p>Två plastkulor på 2,0 g vardera har laddningen −50,0 nC och ligger 2,0 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Använd g=9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är den elektriska kraften?",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². Två plastkulor (2,0 g vardera) är 2,0 cm från varandra och har laddningen −50,0 nC vardera.</p><p>Hur stor är den elektriska kraften?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\cdot\\dfrac{(50{,}0\\cdot10^{-9})^2}{0{,}020^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}056\\) N</p></div>",
-        "ledtrad": "<p>\\(F=k\\dfrac{|Q_1Q_2|}{r^2}\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2{,}5\\cdot10^{-15}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2{,}5\\cdot10^{-15}}{0{,}02^2}\\]</p><p><strong>Svar:</strong> \\(0{,}0561875\\,\\mathrm{N}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.05618749999999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 0.0014046874999999997,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Laddningarna är lika stora. Använd Coulombs lag.</p>",
+        "t": "<p>Två plastkulor har laddningen −50,0 nC vardera och ligger 2,0 cm från varandra.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den elektriska kraften?</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur många gånger större är den elektriska kraften än kulans tyngdkraft?",
-        "t": "<p>En plastkula på 2,0 g påverkas av en elektrisk kraft på 56 mN. Använd g = 9,82 m/s².</p><p>Hur många gånger större är den elektriska kraften än kulans tyngdkraft?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{F_E}{mg}=\\dfrac{0{,}0562}{0{,}0020\\cdot9{,}82}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\)</p></div>",
-        "ledtrad": "<p>\\(F_G=mg\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur många gånger större är den elektriska kraften än tyngdkraften?",
+        "s": "<div class=\"facit-v2\"><p>Massan är 0,0020 kg. Tyngdkraften är:</p><p>\\[F_g=mg=0{,}0020\\cdot9{,}82=0{,}01964\\,\\mathrm N\\]</p><p>Jämför den givna elektriska kraften med tyngdkraften:</p><p>\\[\\frac{F_e}{F_g}=\\frac{0{,}056}{0{,}01964}\\approx2{,}9\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.8513238289205702,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.07128309572301426,
+        "manuellKomplettering": false,
+        "niva": "E",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bestäm först tyngdkraften och dela sedan den elektriska kraften med den.</p>",
+        "t": "<p>En plastkula på 2,0 g påverkas av en elektrisk kraft på 0,056 N. Använd g=9,82 m/s².</p><p>Hur många gånger större är den elektriska kraften än tyngdkraften?</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Jämför krafterna.</p>",
+    "ledtrad": "<p>Laddningarna är lika stora. Använd Coulombs lag.</p>",
     "traningsniva": 2,
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
@@ -177838,50 +178824,54 @@ window.BANK = [
     "niva": "E",
     "typ": "avstånd mellan två negativa kulor",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två plastkulor med laddningarna −5,0 nC och −12 nC stöter bort varandra med \\(8{,}2\\cdot10^{-4}\\) N. Hur långt är det mellan dem?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt{\\dfrac{8{,}99\\cdot10^9\\cdot5{,}0\\cdot10^{-9}\\cdot12\\cdot10^{-9}}{8{,}2\\cdot10^{-4}}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}026\\) m</p></div>",
+    "t": "<p>Två plastkulor har laddningarna −5,0 nC och −12 nC. De stöter bort varandra med kraften \\(8{,}2\\cdot10^{-4}\\,\\mathrm N\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">−5,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">−12 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">r = ?</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur långt är det mellan kulorna?</p>",
+    "s": "<div class=\"facit-v2\"><p>Lös ut avståndet ur Coulombs lag:</p><p>\\[r^2=\\frac{k|q_1q_2|}{F}\\]</p><p>Ta den positiva kvadratroten:</p><p>\\[r=\\sqrt{\\frac{8{,}99\\cdot10^9\\cdot6{,}0\\cdot10^{-17}}{8{,}2\\cdot10^{-4}}}\\]</p><p><strong>Svar:</strong> cirka 0,026 m.</p></div>",
     "id": "8.487",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "numeriskt",
     "rättSvar": 0.025647707071954417,
-    "tolerans": 0.00051,
+    "tolerans": 0.0006411926767988605,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ut \\(r\\).</p>",
+    "ledtrad": "<p>Avståndet står i kvadrat. Vilken räkneoperation ger själva avståndet?</p>",
     "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
     "niva": "A",
     "typ": "laddning delas mellan olika stora kulor",
-    "poang": "(0/1/3)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p><ol type=\"a\"><li>Bestäm den större av de två laddningarna.</li><li>Bestäm den mindre av de två laddningarna.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(q_1+q_2=25\\) nC och \\(q_1q_2=\\dfrac{5{,}4\\cdot10^{-4}\\cdot0{,}050^2}{8{,}99\\cdot10^9}=1{,}50\\cdot10^{-16}\\) C².</p></div><div class=\"facit-stycke\"><p>Andragradsekvationen ger 15 nC och 10 nC.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{-8}\\) C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(25-15\\) nC.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-8}\\) C</p></li></ol></div>",
+    "poang": "(1/1/2)",
+    "t": "<p>En metallkula A har laddningen +25 nC. En oladdad metallkula B får nudda A, och laddningen delas mellan dem. Kulorna är olika stora. När de förs isär till 5,0 cm avstånd stöter de bort varandra med kraften \\(5{,}4\\cdot10^{-4}\\,\\mathrm N\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är den större laddningen? Svara i nC.</p><p>b) Hur stor är den mindre laddningen? Svara i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den sammanlagda laddningen är 25 nC. Kalla den större laddningen x nC; den andra är då(25−x) nC. Coulombs lag ger deras produkt:</p><p>\\[q_1q_2=\\frac{Fr^2}{k}\\]</p><p>\\[q_1q_2=\\frac{5{,}4\\cdot10^{-4}\\cdot0{,}050^2}{8{,}99\\cdot10^9}\\]</p><p>\\[q_1q_2\\approx1{,}50\\cdot10^{-16}\\,\\mathrm{C^2}\\]</p><p>I nC blir produkten cirka 150 nC²:</p><p>\\[x(25-x)\\approx150\\]</p><p>\\[x^2-25x+150\\approx0\\]</p><p>\\[x\\approx\\frac{25\\pm\\sqrt{25^2-4\\cdot150}}2\\]</p><p>Rötterna är cirka 15 och 10. Den större laddningen är därför cirka 15 nC.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den andra roten i andragradsekvationen ger den mindre laddningen, cirka 10 nC.</p></div></div>",
     "id": "8.488",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ledare, influens och laddningsutjämning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.5e-08,
-      1e-08
+      14.966403848147728,
+      10.033596151852272
     ],
     "tolerans": [
-      5.1e-10,
-      5.1e-10
+      0.3741600962036932,
+      0.25
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "problemlösning"
     ],
@@ -177895,68 +178885,83 @@ window.BANK = [
       "b"
     ],
     "svarEnhet": [
-      "C",
-      "C"
+      "nC",
+      "nC"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p>",
+    "spelIntro": "<p>En metallkula A har laddningen +25 nC. En oladdad metallkula B får nudda A, och laddningen delas mellan dem. Kulorna är olika stora. När de förs isär till 5,0 cm avstånd stöter de bort varandra med kraften \\(5{,}4\\cdot10^{-4}\\,\\mathrm N\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den större av de två laddningarna.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p><p>Bestäm den större av de två laddningarna.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(q_1+q_2=25\\) nC och \\(q_1q_2=\\dfrac{5{,}4\\cdot10^{-4}\\cdot0{,}050^2}{8{,}99\\cdot10^9}=1{,}50\\cdot10^{-16}\\) C².</p></div><div class=\"facit-stycke\"><p>Andragradsekvationen ger 15 nC och 10 nC.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{-8}\\) C</p></div>",
-        "ledtrad": "<p>Ställ upp summa och produkt av laddningarna.</p>",
+        "fraga": "Hur stor är den större laddningen? Svara i nC.",
+        "s": "<div class=\"facit-v2\"><p>Den sammanlagda laddningen är 25 nC. Kalla den större laddningen x nC; den andra är då(25−x) nC. Coulombs lag ger deras produkt:</p><p>\\[q_1q_2=\\frac{Fr^2}{k}\\]</p><p>\\[q_1q_2=\\frac{5{,}4\\cdot10^{-4}\\cdot0{,}050^2}{8{,}99\\cdot10^9}\\]</p><p>\\[q_1q_2\\approx1{,}50\\cdot10^{-16}\\,\\mathrm{C^2}\\]</p><p>I nC blir produkten cirka 150 nC²:</p><p>\\[x(25-x)\\approx150\\]</p><p>\\[x^2-25x+150\\approx0\\]</p><p>\\[x\\approx\\frac{25+\\sqrt{25^2-4\\cdot150}}2\\]</p><p>Den större roten använder plustecknet före kvadratroten. Den större laddningen är cirka 15 nC.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 14.966403848147728,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "nC",
+        "tolerans": 0.3741600962036932,
+        "manuellKomplettering": false,
         "niva": "A",
-        "poang": "(0/1/2)",
         "traningsniva": 5,
-        "arbetsinsats": 2
+        "poang": "0/1/2",
+        "ledtrad": "<p>Använd både att laddningen bevaras och att Coulombs lag ger produkten av laddningarna.</p>",
+        "arbetsinsats": 3
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den mindre av de två laddningarna.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En metallkula A har laddningen 25 nC. En oladdad metallkula B får nudda A, så att laddningen delas, men kulorna behöver inte vara lika stora. På 5,0 cm avstånd är kraften mellan dem \\(5{,}4\\cdot10^{-4}\\) N.</p><p>Bestäm den mindre av de två laddningarna.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(25-15\\) nC.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-8}\\) C</p></div>",
-        "ledtrad": "<p>Ställ upp summa och produkt av laddningarna.</p>",
-        "niva": "A",
-        "poang": "(0/0/1)",
-        "traningsniva": 4,
-        "arbetsinsats": 2
+        "fraga": "Hur stor är den mindre laddningen? Svara i nC.",
+        "s": "<div class=\"facit-v2\"><p>Dra den större laddningen från summan:</p><p>\\[q_{\\mathrm{mindre}}=25-15=10\\,\\mathrm{nC}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "nC",
+        "tolerans": 0.25,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>De två laddningarna ska tillsammans vara 25nC.</p>",
+        "t": "<p>Två kulor har tillsammans +25 nC. Den större av deras laddningar är +15 nC.</p><p>Hur stor är den mindre laddningen? Svara i nC.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Laddningen bevaras.</p>",
+    "ledtrad": "<p>Använd både att laddningen bevaras och att Coulombs lag ger produkten av laddningarna.</p>",
     "traningsniva": 5,
     "familjNyckel": "coulomb__ledare_influens_och_laddningsutjamning",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "laddning hos kula ovanför",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>En glaskula har laddningen +20 nC. När en laddad plastkula placeras 1,0 cm rakt ovanför glaskulan påverkas glaskulan av en elektrisk kraft på 0,018 N riktad nedåt. Bestäm plastkulans laddning (med tecken).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften är riktad bort från plastkulan, alltså repulsion och positiv laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\dfrac{0{,}018\\cdot0{,}010^2}{8{,}99\\cdot10^9\\cdot20\\cdot10^{-9}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-8}\\) C</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En glaskula har laddningen +20 nC. En plastkula hålls 1,0 cm rakt ovanför den. Den elektriska kraften på glaskulan är 0,018 N nedåt.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Vilken laddning har plastkulan? Svara i nC med tecken.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 340\" width=\"480\" height=\"340\" role=\"img\" aria-label=\"Plastkula ovanför positiv glaskula; elektrisk kraft på glaskulan riktad nedåt\"><circle cx=\"235\" cy=\"70\" r=\"23\" fill=\"#edf0f4\" stroke=\"#566f85\" stroke-width=\"2\"/><text x=\"235\" y=\"79\" text-anchor=\"middle\" font-size=\"27\">?</text><text x=\"170\" y=\"76\" text-anchor=\"end\" font-size=\"19\">plastkula</text><circle cx=\"235\" cy=\"200\" r=\"23\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"235\" y=\"209\" text-anchor=\"middle\" font-size=\"27\" fill=\"#bf2835\">+</text><text x=\"170\" y=\"196\" text-anchor=\"end\" font-size=\"19\">glaskula</text><text x=\"170\" y=\"222\" text-anchor=\"end\" font-size=\"19\">+20 nC</text><path d=\"M327 70 H341 M327 200 H341 M334 70 V200\" stroke=\"#566f85\" fill=\"none\"/><text x=\"370\" y=\"140\" font-size=\"19\">1,0 cm</text><path d=\"M235 229 V295 M228 287 L235 300 L242 287\" fill=\"none\" stroke=\"#263a4c\" stroke-width=\"2\"/><text x=\"262\" y=\"273\" font-size=\"19\">F = 0,018 N</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Kraften på glaskulan går bort från plastkulan. Kulorna stöter alltså bort varandra och har samma tecken. Plastkulans laddning är positiv.</p><p>\\[Q=\\frac{Fr^2}{kq}\\]</p><p>\\[Q=\\frac{0{,}018\\cdot0{,}010^2}{8{,}99\\cdot10^9\\cdot20\\cdot10^{-9}}\\]</p><p>\\[Q\\approx1{,}0\\cdot10^{-8}\\,\\mathrm C\\]</p><p><strong>Svar:</strong> cirka +10 nC.</p></div>",
     "id": "8.489",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.0011123470522803e-08,
-    "tolerans": 5.1e-10,
+    "rättSvar": 10.011123470522802,
+    "tolerans": 0.25027808676307006,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
+      "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Är kraften attraktiv eller repulsiv?</p>",
-    "traningsniva": 3,
-    "svarEnhet": "C",
+    "ledtrad": "<p>Är kraften riktad mot eller bort från plastkulan? Använd sedan Coulombs lag.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "nC",
     "familjNyckel": "coulomb__coulombs_lag",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
@@ -177964,53 +178969,57 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft mellan laddningar på y-axeln",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Föremål A (+10 nC) ligger i origo och föremål B (−20 nC) i punkten (0; 2,0 cm). Hur stor är kraften på vardera föremålet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\cdot\\dfrac{10\\cdot10^{-9}\\cdot20\\cdot10^{-9}}{0{,}020^2}\\].</div></div><div class=\"facit-stycke\"><p>Kraften på A är riktad mot B (uppåt) och kraften på B mot A (nedåt).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0045\\) N</p></div>",
+    "t": "<p>Två föremål har laddningarna +10 nC och −20 nC. Avståndet mellan dem är 2,0 cm.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+10 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">−20 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">2,0 cm</text></svg></div><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är den elektriska kraften på varje föremål?</p>",
+    "s": "<div class=\"facit-v2\"><p>Skriv laddningarna i coulomb och avståndet i meter.</p><p>Laddningarnas produkt är \\(2\\cdot10^{-16}\\,\\mathrm{C^2}\\).</p><p>\\[F=k\\frac{|q_1q_2|}{r^2}\\]</p><p>\\[F=8{,}99\\cdot10^{9}\\cdot\\frac{2\\cdot10^{-16}}{0{,}02^2}\\]</p><p><strong>Svar:</strong> \\(0{,}004495\\,\\mathrm{N}\\).</p></div><div class=\"facit-v2\"><p>Krafterna är lika stora och verkar mot varandra, på varsitt föremål. Det följer av Newtons tredje lag.</p></div>",
     "id": "8.490",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "numeriskt",
     "rättSvar": 0.004495,
-    "tolerans": 6.74e-05,
+    "tolerans": 0.00011237500000000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Kraft och motkraft är lika stora.</p>",
+    "ledtrad": "<p>Använd Coulombs lag med laddningarnas storlekar och avståndet i meter.</p>",
     "traningsniva": 2,
     "svarEnhet": "N",
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "elektron och proton nära laddad kula",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p><ol type=\"a\"><li>en elektron (\\(9{,}11\\cdot10^{-31}\\) kg).</li><li>en proton (\\(1{,}673\\cdot10^{-27}\\) kg).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot9{,}11\\cdot10^{-31}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\cdot10^{17}\\) m/s²</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot1{,}673\\cdot10^{-27}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\cdot10^{14}\\) m/s²</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En fast kula har laddningen +20 nC. En elektron och en proton befinner sig var för sig 1,0 cm från kulans mitt. Elektronens massa är \\(9{,}11\\cdot10^{-31}\\,\\mathrm{kg}\\) och protonens \\(1{,}673\\cdot10^{-27}\\,\\mathrm{kg}\\). Laddningarnas storlek är \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor acceleration ger den elektriska kraften på elektronen?</p><p>b) Hur stor acceleration ger den elektriska kraften på protonen?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Kraftens storlek följer av Coulombs lag:</p><p>\\[F=k\\frac{Qe}{r^2}\\]</p><p>\\[F=2{,}8804\\cdot10^{-13}\\,\\mathrm N\\]</p><p>Elektronens acceleration är kraften delad med massan:</p><p>\\[a=\\frac{2{,}8804\\cdot10^{-13}}{9{,}11\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> cirka \\(3{,}2\\cdot10^{17}\\,\\mathrm{m/s^2}\\). Accelerationen är riktad mot kulan.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Dela den givna kraften med protonens massa:</p><p>\\[a=\\frac{2{,}8804\\cdot10^{-13}}{1{,}673\\cdot10^{-27}}\\]</p><p><strong>Svar:</strong> cirka \\(1{,}7\\cdot10^{14}\\,\\mathrm{m/s^2}\\).</p></div></div>",
     "id": "8.491",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      316179582875960500,
+      3.161795828759605e+17,
       172169515839808.72
     ],
     "tolerans": [
-      5100000000000000.0,
-      5100000000000.0
+      7904489571899013.0,
+      4304237895995.2183
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
     "svarFormat": [
       "numeriskt",
@@ -178026,36 +179035,51 @@ window.BANK = [
       "m/s²"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p>",
+    "spelIntro": "<p>En fast kula har laddningen +20 nC. En elektron och en proton befinner sig var för sig 1,0 cm från kulans mitt. Elektronens massa är \\(9{,}11\\cdot10^{-31}\\,\\mathrm{kg}\\) och protonens \\(1{,}673\\cdot10^{-27}\\,\\mathrm{kg}\\). Laddningarnas storlek är \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "en elektron (\\(9{,}11\\cdot10^{-31}\\) kg).",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p><p>en elektron (\\(9{,}11\\cdot10^{-31}\\) kg).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot9{,}11\\cdot10^{-31}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\cdot10^{17}\\) m/s²</p></div>",
-        "ledtrad": "<p>Coulombs lag och \\(F=ma\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Hur stor acceleration ger den elektriska kraften på elektronen?",
+        "s": "<div class=\"facit-v2\"><p>Kraftens storlek följer av Coulombs lag:</p><p>\\[F=k\\frac{Qe}{r^2}\\]</p><p>\\[F=2{,}8804\\cdot10^{-13}\\,\\mathrm N\\]</p><p>Elektronens acceleration är kraften delad med massan:</p><p>\\[a=\\frac{2{,}8804\\cdot10^{-13}}{9{,}11\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> cirka \\(3{,}2\\cdot10^{17}\\,\\mathrm{m/s^2}\\). Accelerationen är riktad mot kulan.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.161795828759605e+17,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m/s²",
+        "tolerans": 7904489571899013.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bestäm först den elektriska kraften och använd sedan Newtons andra lag.</p>",
+        "t": "<p>En fast kula har laddningen +20 nC. En elektron finns 1,0 cm från kulans mitt. Elektronens massa är \\(9{,}11\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor acceleration ger den elektriska kraften på elektronen?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "en proton (\\(1{,}673\\cdot10^{-27}\\) kg).",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En fixerad glaskula har laddningen +20 nC. Bestäm accelerationen 1,0 cm från kulans centrum för</p><p>en proton (\\(1{,}673\\cdot10^{-27}\\) kg).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\dfrac{k\\cdot20\\cdot10^{-9}\\cdot e}{0{,}010^2\\cdot1{,}673\\cdot10^{-27}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\cdot10^{14}\\) m/s²</p></div>",
-        "ledtrad": "<p>Samma kraft, annan massa.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Hur stor acceleration ger den elektriska kraften på protonen?",
+        "s": "<div class=\"facit-v2\"><p>Dela den givna kraften med protonens massa:</p><p>\\[a=\\frac{2{,}8804\\cdot10^{-13}}{1{,}673\\cdot10^{-27}}\\]</p><p><strong>Svar:</strong> cirka \\(1{,}7\\cdot10^{14}\\,\\mathrm{m/s^2}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 172169754931261.2,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m/s²",
+        "tolerans": 4304237895995.2183,
+        "manuellKomplettering": false,
+        "niva": "E",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela den givna kraften med protonens massa.</p>",
+        "t": "<p>En proton har massan \\(1{,}673\\cdot10^{-27}\\,\\mathrm{kg}\\) och påverkas av den elektriska kraften \\(2{,}8804\\cdot10^{-13}\\,\\mathrm N\\).</p><p>Hur stor acceleration ger den elektriska kraften på protonen?</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Kraften är lika stor på elektronen och protonen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Bestäm först den elektriska kraften och använd sedan Newtons andra lag.</p>",
+    "traningsniva": 2,
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
@@ -178063,52 +179087,56 @@ window.BANK = [
     "niva": "C",
     "typ": "laddning ur acceleration",
     "poang": "(0/1/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två små klot (1,00 g vardera) har lika stora laddningar och sitter 2,00 cm från varandra. När de släpps får de accelerationen 225 m/s². Bestäm laddningens storlek på ett klot.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=0{,}00100\\cdot225\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\sqrt{\\dfrac{F\\cdot0{,}0200^2}{8{,}99\\cdot10^9}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-7}\\) C</p></div>",
+    "t": "<p>Två små klot på 1,00 g vardera har lika stora laddningar. De ligger 2,00 cm från varandra på ett friktionsfritt vågrätt bord. Just när de släpps får varje klot accelerationen 225 m/s².</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är laddningen på varje klot? Svara i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p>Massan är 0,00100 kg. Kraften som ger accelerationen är:</p><p>\\[F=ma=0{,}00100\\cdot225=0{,}225\\,\\mathrm N\\]</p><p>Båda laddningarnas storlek är q:</p><p>\\[F=k\\frac{q^2}{r^2}\\]</p><p>\\[q=\\sqrt{\\frac{Fr^2}{k}}\\]</p><p>\\[q=\\sqrt{\\frac{0{,}225\\cdot0{,}0200^2}{8{,}99\\cdot10^9}}\\]</p><p><strong>Svar:</strong> cirka 100 nC.</p></div>",
     "id": "8.492",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.0005560189476052e-07,
-    "tolerans": 5.1e-09,
+    "rättSvar": 100.05560189476051,
+    "tolerans": 2.501390047369013,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm kraften med \\(F=ma\\).</p>",
+    "ledtrad": "<p>Bestäm först kraften som ger accelerationen. Använd sedan att laddningarna är lika stora.</p>",
     "traningsniva": 3,
-    "svarEnhet": "C",
+    "svarEnhet": "nC",
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
     "niva": "C",
     "typ": "klot med dubbel laddning",
-    "poang": "(0/2/0)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p><ol type=\"a\"><li>Bestäm storleken på B:s laddning.</li><li>Bestäm storleken på A:s laddning.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}45=k\\dfrac{2q\\cdot q}{0{,}10^2}\\iff q=\\sqrt{\\dfrac{0{,}45\\cdot0{,}10^2}{2k}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\cdot10^{-7}\\) C</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q_A=2q_B\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-6}\\) C</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Två klot A och B ligger 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan kloten är 0,45 N.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är B:s laddning? Svara i µC.</p><p>b) Hur stor är A:s laddning? Svara i µC.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Kalla storleken på B:s laddning q. A har då storleken 2q. Laddningsprodukten blir 2q²:</p><p>\\[F=k\\frac{2q^2}{r^2}\\]</p><p>\\[q^2=\\frac{Fr^2}{2k}\\]</p><p>\\[q=\\sqrt{\\frac{0{,}45\\cdot0{,}10^2}{2\\cdot8{,}99\\cdot10^9}}\\]</p><p><strong>Svar:</strong> cirka 0,50 µC.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>A har dubbelt så stor laddning som B:</p><p>\\[|q_A|=2\\cdot0{,}50=1{,}0\\,\\mu\\mathrm C\\]</p></div></div>",
     "id": "8.493",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5.002780094738026e-07,
-      1.000556018947605e-06
+      0.5002780094738026,
+      1.0005560189476053
     ],
     "tolerans": [
-      7.5e-09,
-      5.1e-08
+      0.012506950236845067,
+      0.025
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -178120,68 +179148,83 @@ window.BANK = [
       "b"
     ],
     "svarEnhet": [
-      "C",
-      "C"
+      "µC",
+      "µC"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p>",
+    "spelIntro": "<p>Två klot A och B ligger 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan kloten är 0,45 N.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm storleken på B:s laddning.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p><p>Bestäm storleken på B:s laddning.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}45=k\\dfrac{2q\\cdot q}{0{,}10^2}\\iff q=\\sqrt{\\dfrac{0{,}45\\cdot0{,}10^2}{2k}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\cdot10^{-7}\\) C</p></div>",
-        "ledtrad": "<p>Sätt \\(q_A=2q_B\\).</p>",
+        "fraga": "Hur stor är B:s laddning? Svara i µC.",
+        "s": "<div class=\"facit-v2\"><p>Kalla storleken på B:s laddning q. A har då storleken 2q. Laddningsprodukten blir 2q²:</p><p>\\[F=k\\frac{2q^2}{r^2}\\]</p><p>\\[q^2=\\frac{Fr^2}{2k}\\]</p><p>\\[q=\\sqrt{\\frac{0{,}45\\cdot0{,}10^2}{2\\cdot8{,}99\\cdot10^9}}\\]</p><p><strong>Svar:</strong> cirka 0,50 µC.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5002780094738026,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µC",
+        "tolerans": 0.012506950236845067,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv båda laddningarna med en enda obekant innan du använder Coulombs lag.</p>",
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm storleken på A:s laddning.",
-        "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Två klot A och B är 10 cm från varandra. A har dubbelt så stor laddning som B. Kraften mellan dem är 0,45 N.</p><p>Bestäm storleken på A:s laddning.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q_A=2q_B\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-6}\\) C</p></div>",
-        "ledtrad": "<p>Sätt \\(q_A=2q_B\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Hur stor är A:s laddning? Svara i µC.",
+        "s": "<div class=\"facit-v2\"><p>A har dubbelt så stor laddning som B:</p><p>\\[|q_A|=2\\cdot0{,}50=1{,}0\\,\\mu\\mathrm C\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µC",
+        "tolerans": 0.025,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>A:s laddningsstorlek är dubbelt så stor som den givna laddningen.</p>",
+        "t": "<p>B:s laddning har storleken 0,50 µC. A:s laddning är dubbelt så stor.</p><p>Hur stor är A:s laddning? Svara i µC.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Uttryck båda laddningarna med samma obekanta.</p>",
+    "ledtrad": "<p>Skriv båda laddningarna med en enda obekant innan du använder Coulombs lag.</p>",
     "traningsniva": 3,
     "familjNyckel": "coulomb__coulombs_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "coulomb",
-    "niva": "A",
+    "niva": "C",
     "typ": "laddade kulor på en fjäder",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(k=8{,}99\\cdot10^9\\) N·m²/C².</p><p>Använd \\(g=9{,}82\\) m/s². En masslös fjäder är 4,0 cm lång och blir 5,0 cm lång när en vikt på 1,0 g hänger i den. Fjädern läggs på ett friktionsfritt isolerande bord med en liten kula i varje ände. Kulorna får lika stor laddning och fjädern blir 4,5 cm lång. Bestäm laddningens storlek på en kula.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(k_f=\\dfrac{0{,}0010\\cdot9{,}82}{0{,}010}=0{,}982\\) N/m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_E=k_f\\cdot0{,}0050\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=0{,}045\\sqrt{\\dfrac{F_E}{k}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}3\\cdot10^{-8}\\) C</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En fjäder är 4,0 cm lång när den hänger utan vikt. Med en vikt på 1,0 g blir den 5,0 cm lång. Fjädern läggs sedan på ett friktionsfritt vågrätt bord med en liten kula i varje ände. Kulorna får lika stora positiva laddningar. När de har stannat är fjädern 4,5 cm lång.</p><p>Coulombs konstant är \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Använd g=9,82 m/s². Hur stor är laddningen på varje kula? Svara i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vikten förlänger fjädern 1,0 cm, alltså 0,010 m. Det ger fjäderkonstanten:</p><p>\\[k_f=\\frac{mg}{x}=\\frac{0{,}0010\\cdot9{,}82}{0{,}010}\\]</p><p>\\[k_f=0{,}982\\,\\mathrm{N/m}\\]</p><p>På bordet är förlängningen 0,5 cm, alltså 0,0050 m. I jämvikt balanserar fjäderkraften den elektriska kraften:</p><p>\\[F_e=k_fx=0{,}982\\cdot0{,}0050\\]</p><p>\\[F_e=0{,}00491\\,\\mathrm N\\]</p><p>Laddningarnas avstånd är hela fjäderlängden 0,045 m, inte förlängningen. Lös ut q ur Coulombs lag:</p><p>\\[q=r\\sqrt{F_e/k}\\]</p><p>\\[q=0{,}045\\sqrt{\\frac{0{,}00491}{8{,}99\\cdot10^9}}\\]</p><p><strong>Svar:</strong> cirka 33 nC.</p></div>",
     "id": "8.494",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Coulombs lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.325626054453517e-08,
-    "tolerans": 5.1e-10,
+    "rättSvar": 33.256260544535166,
+    "tolerans": 0.8314065136133792,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm fjäderkonstanten först.</p>",
+    "ledtrad": "<p>Bestäm fjäderkonstanten från det första försöket. Skilj sedan på förlängning och avstånd mellan kulorna.</p>",
     "traningsniva": 4,
-    "svarEnhet": "C",
+    "svarEnhet": "nC",
     "familjNyckel": "coulomb__coulombs_lag",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.320",

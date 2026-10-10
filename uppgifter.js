@@ -100242,15 +100242,13 @@ window.BANK = [
     "id": "9.3",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "C",
-    "typ": "räkna med halveringstid vid medicinsk behandling, ur text, sökt aktivitet",
-    "poang": "(1/2/0)",
-    "t": "<p>Vid behandling av sköldkörteln används jod-131 med halveringstiden 8,0 dygn. En patient får en dos med aktiviteten 400 MBq.</p>\n<ol><li>Vilken aktivitet återstår efter 24 dygn?</li><li>Hur många halveringstider är det?</li>\n<li>Varför väljs en nuklid med just några dygns halveringstid?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">24 dygn motsvarar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{24}{8{,}0}=3\\ \\text{halveringstider}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten halveras tre gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=400\\cdot2^{-3}=50\\ \\mathrm{MBq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Nukliden behöver finnas kvar tillräckligt länge för att ge terapeutisk effekt i sköldkörteln, men inte så länge att patienten får onödig stråldos under lång tid.</p></div><div class=\"facit-stycke\"><p>Några dygn är en avvägning mellan behandlingstid och efterföljande strålskydd.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter tre halveringstider, alltså 24 dygn, återstår \\(50\\ \\mathrm{MBq}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett jod-131-preparat har startaktiviteten 400 MBq och halveringstiden 8,0 dygn. Räkna bara med radioaktivt sönderfall.</p><p>a) Bestäm aktiviteten efter 24 dygn i MBq.</p><p>b) Hur många halveringstider är 24 dygn?</p><p>c) Varför kan en halveringstid på några dygn vara användbar vid behandling?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=24/8{,}0=3\\]</p><p>\\[A=400\\cdot2^{-3}=50\\ \\mathrm{MBq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[n=24/8{,}0=3\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Halveringstiden behöver vara lång nog för att ämnet ska hinna ge behandlingseffekt, men inte så lång att det bestrålar patienten onödigt länge efteråt.</p></div></div>",
     "familj": "Strålning i medicin",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
@@ -100260,7 +100258,7 @@ window.BANK = [
       null
     ],
     "tolerans": [
-      0.75,
+      1.25,
       0,
       null
     ],
@@ -100286,48 +100284,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Hur många halveringstider ryms i 24 dygn?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vid behandling av sköldkörteln används jod-131 med halveringstiden 8,0 dygn. En patient får en dos med aktiviteten 400 MBq.</p>",
+    "spelIntro": "<p>Ett jod-131-preparat har startaktiviteten 400 MBq och halveringstiden 8,0 dygn. Räkna bara med radioaktivt sönderfall.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken aktivitet återstår efter 24 dygn?",
-        "t": "<p>Vid behandling av sköldkörteln används jod-131 med halveringstiden 8,0 dygn. En patient får en dos med aktiviteten 400 MBq.</p><p>Vilken aktivitet återstår efter 24 dygn?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten halveras tre gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=400\\cdot\\left(\\frac12\\right)^3=50\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{MBq}\\).</p></div>",
-        "ledtrad": "<p>Hur många halveringstider ryms i 24 dygn?</p>",
+        "fraga": "Ett jod-131-preparat har startaktiviteten 400 MBq och halveringstiden 8,0 dygn. Bestäm aktiviteten efter 24 dygn i MBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[n=24/8{,}0=3\\]</p><p>\\[A=400\\cdot2^{-3}=50\\ \\mathrm{MBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MBq",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur många halveringstider ryms i 24 dygn?</p>",
+        "t": "<p>Ett jod-131-preparat har startaktiviteten 400 MBq och halveringstiden 8,0 dygn. Bestäm aktiviteten efter 24 dygn i MBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många halveringstider är 24 dygn?",
-        "t": "<p>Vid behandling av sköldkörteln används jod-131 med halveringstiden 8,0 dygn. En patient får en dos med aktiviteten 400 MBq.</p><p>Hur många halveringstider är 24 dygn?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dividera tiden med halveringstiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{24}{8{,}0}=3\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3 halveringstider.</p></div>",
-        "ledtrad": "<p>Dividera 24 dygn med 8,0 dygn.</p>",
+        "fraga": "Jod-131 har halveringstiden 8,0 dygn. Hur många halveringstider ryms i 24 dygn?",
+        "s": "<div class=\"facit-v2\"><p>\\[n=24/8{,}0=3\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela tiden med halveringstiden.</p>",
+        "t": "<p>Jod-131 har halveringstiden 8,0 dygn. Hur många halveringstider ryms i 24 dygn?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Förklara varför aktiviteten fortsätter att minska även om patienten inte får någon mer jod-131.",
-        "t": "<p>Vid behandling av sköldkörteln används jod-131 med halveringstiden 8,0 dygn. En patient får en dos med aktiviteten 400 MBq.</p><p>Förklara varför aktiviteten fortsätter att minska även om patienten inte får någon mer jod-131.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jod-131-kärnorna i kroppen fortsätter att sönderfalla spontant.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När antalet radioaktiva kärnor minskar minskar också aktiviteten.</p></div></div></div>",
-        "ledtrad": "<p>Vad händer med de radioaktiva kärnorna med tiden?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 1
+        "fraga": "Ett preparat med jod-131 får inget mer jod. Varför fortsätter aktiviteten att minska?",
+        "s": "<div class=\"facit-v2\"><p>De radioaktiva kärnorna fortsätter att sönderfalla. När de blir färre minskar aktiviteten.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De radioaktiva kärnorna fortsätter att sönderfalla.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De radioaktiva kärnorna fortsätter att sönderfalla.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Strålning måste fyllas på för att aktiviteten ska vara kvar.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Alla kärnor slutar sönderfalla på samma gång.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad händer med kärnorna som redan finns i preparatet?</p>",
+        "t": "<p>Ett preparat med jod-131 får inget mer jod. Varför fortsätter aktiviteten att minska?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "aktivitet",
@@ -101477,58 +101515,134 @@ window.BANK = [
     "id": "9.12",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett röntgenrör drivs med spänningen 60 kV, som accelererar elektronerna.</p>\n<ol><li>Vilken är den högsta energi en enskild röntgenfoton kan få?</li><li>Vilken våglängd motsvarar det?</li>\n<li>Varför kan ingen foton få högre energi än så?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En elektron som accelereras genom 60 kV får som mest rörelseenergin</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\max}=eU=(1{,}602\\cdot10^{-19})(60\\cdot10^3)=9{,}61\\cdot10^{-15}\\ \\mathrm J\\]</div></div><div class=\"facit-stycke\"><p>Eftersom 1 eV är energin från 1 V blir detta \\(60\\ \\mathrm{keV}\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin och våglängden hänger ihop genom \\(E=hc/\\lambda\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda_{\\min}=\\frac{hc}{E_{\\max}}=\\frac{(6{,}626\\cdot10^{-34})(2{,}998\\cdot10^8)}{9{,}61\\cdot10^{-15}}=2{,}07\\cdot10^{-11}\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En foton kan inte få mer energi än den infallande elektronen kan avge.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Hela elektronens rörelseenergi ger därför den övre fotonenergin och den kortaste möjliga våglängden.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Maximal fotonenergi är \\(60\\ \\mathrm{keV}=9{,}6\\cdot10^{-15}\\ \\mathrm J\\), vilket motsvarar \\(\\lambda_{\\min}=21\\ \\mathrm{pm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett röntgenrör accelererar elektroner genom 60 kV. Använd h = 6,626·10⁻³⁴ Js, c = 2,998·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Bestäm maximal fotonenergi i keV.</p><p>b) Bestäm den kortaste våglängden i m.</p><p>c) Förklara varför ingen foton kan få mer energi än så.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En elektron som accelereras genom 1 V får energin 1 eV. Vid 60 kV får den 60 keV. En foton kan som mest få hela denna energi.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=60\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E\\approx9{,}61\\cdot10^{-15}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=hc/E\\]</p><p>\\[\\lambda\\approx2{,}07\\cdot10^{-11}\\ \\mathrm{m}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Elektronen kan högst avge hela sin rörelseenergi. En foton kan därför inte få mer energi än så.</p></div></div>",
     "familj": "Strålning i medicin",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>En elektron som accelereras genom 60 kV får som mest rörelseenergin</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      2.0666612567623803e-11,
+      null
+    ],
+    "tolerans": [
+      1.5,
+      5.166653141905951e-13,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "ledtrad": "<p>Vad betyder en elektronvolt?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett röntgenrör drivs med spänningen 60 kV, som accelererar elektronerna.</p>",
+    "spelIntro": "<p>Ett röntgenrör accelererar elektroner genom 60 kV. Använd h = 6,626·10⁻³⁴ Js, c = 2,998·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken är den högsta energi en enskild röntgenfoton kan få?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En elektron som accelereras genom 60 kV får som mest rörelseenergin</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\max}=eU=(1{,}602\\cdot10^{-19})(60\\cdot10^3)=9{,}61\\cdot10^{-15}\\ \\mathrm J\\]</div></div><div class=\"facit-stycke\"><p>Eftersom 1 eV är energin från 1 V blir detta \\(60\\ \\mathrm{keV}\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}61\\cdot10^{-15}\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>En elektron som accelereras genom 60 kV får som mest rörelseenergin</p>",
+        "fraga": "Elektroner accelereras genom spänningen 60 kV i ett röntgenrör. Vilken är den högsta energi en röntgenfoton kan få? Svara i keV.",
+        "s": "<div class=\"facit-v2\"><p>En elektron som accelereras genom 1 V får energin 1 eV. Vid 60 kV får den 60 keV. En foton kan som mest få hela denna energi.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 60,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "keV",
+        "tolerans": 1.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad betyder en elektronvolt?</p>",
+        "t": "<p>Elektroner accelereras genom spänningen 60 kV i ett röntgenrör. Vilken är den högsta energi en röntgenfoton kan få? Svara i keV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken våglängd motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin och våglängden hänger ihop genom \\(E=hc/\\lambda\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda_{\\min}=\\frac{hc}{E_{\\max}}=\\frac{(6{,}626\\cdot10^{-34})(2{,}998\\cdot10^8)}{9{,}61\\cdot10^{-15}}=2{,}07\\cdot10^{-11}\\ \\mathrm m\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}07\\cdot10^{-11}\\ \\mathrm m\\).</p></div>",
-        "ledtrad": "<p>En elektron som accelereras genom 60 kV får som mest rörelseenergin</p>",
+        "fraga": "En röntgenfoton har energin 60 keV. Bestäm våglängden i m. Använd h = 6,626·10⁻³⁴ Js, c = 2,998·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=60\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E\\approx9{,}61\\cdot10^{-15}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=hc/E\\]</p><p>\\[\\lambda\\approx2{,}07\\cdot10^{-11}\\ \\mathrm{m}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.0666612567623803e-11,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 5.166653141905951e-13,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd E = hc/λ och omvandla keV till J.</p>",
+        "t": "<p>En röntgenfoton har energin 60 keV. Bestäm våglängden i m. Använd h = 6,626·10⁻³⁴ Js, c = 2,998·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför kan ingen foton få högre energi än så?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En foton kan inte få mer energi än den infallande elektronen kan avge.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Hela elektronens rörelseenergi ger därför den övre fotonenergin och den kortaste möjliga våglängden.</p></div></div></div></div></div>",
-        "ledtrad": "<p>En elektron som accelereras genom 60 kV får som mest rörelseenergin</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Varför kan en röntgenfoton inte få mer energi än den infallande elektronens rörelseenergi?",
+        "s": "<div class=\"facit-v2\"><p>Elektronen kan högst avge hela sin rörelseenergi. En foton kan därför inte få mer energi än så.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Energin bevaras.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Energin bevaras.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Fotoner har alltid samma energi.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Elektronen kan skapa obegränsat med energi.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken bevarandelag gäller?</p>",
+        "t": "<p>Varför kan en röntgenfoton inte få mer energi än den infallande elektronens rörelseenergi?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "keV",
+      "m",
+      null
     ]
   },
   {
@@ -103564,30 +103678,29 @@ window.BANK = [
     "id": "9.28",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "A",
-    "typ": "kombinera fysikalisk och biologisk halveringstid till en effektiv halveringstid, ur text, sökt halveringstid och andel",
-    "poang": "(0/1/2)",
-    "t": "<p>Jod-131 som tagits upp i kroppen försvinner på två sätt samtidigt: dels genom radioaktivt sönderfall med den fysikaliska halveringstiden 8,0 dygn, dels genom att kroppen utsöndrar ämnet med den biologiska halveringstiden 80 dygn. Eftersom båda processerna pågår samtidigt adderas sönderfallskonstanterna.</p>\n<ol><li>Visa att den effektiva halveringstiden ges av 1/T<sub>eff</sub> = 1/T<sub>fys</sub> + 1/T<sub>bio</sub>, och beräkna den.</li>\n<li>Hur stor andel av den ursprungliga mängden finns kvar i kroppen efter 30 dygn?</li>\n<li>Varför är den effektiva halveringstiden alltid kortare än båda de andra?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De oberoende processernas bortförselhastigheter adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda_{\\mathrm{eff}}=\\lambda_{\\mathrm{fys}}+\\lambda_{\\mathrm{bio}}\\]</div></div><div class=\"facit-stycke\"><p>Med \\(\\lambda=\\ln2/T\\) fås \\[\\frac1{T_{\\mathrm{eff}}}=\\frac1{T_{\\mathrm{fys}}}+\\frac1{T_{\\mathrm{bio}}}\\]</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in halveringstiderna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac1{T_{\\mathrm{eff}}}=\\frac1{8{,}0}+\\frac1{80}=0{,}1375\\ \\mathrm{dygn^{-1}}\\]\\[T_{\\mathrm{eff}}=7{,}27\\ \\mathrm{dygn}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 30 dygn är andelen kvar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac N{N_0}=2^{-30/7{,}27}=0{,}0573=5{,}73\\,\\%\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summan av två positiva bortförselkonstanter är större än var och en separat.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför går den samlade processen snabbare och den effektiva halveringstiden blir kortare än båda delarnas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(T_{\\mathrm{eff}}=7{,}3\\ \\mathrm{dygn}\\), och efter 30 dygn återstår cirka \\(5{,}7\\,\\%\\).</p></div>",
+    "niva": "C",
+    "poang": "(3/0/0)",
+    "t": "<p>Jod-131 försvinner genom radioaktivt sönderfall (halveringstid 8,0 dygn) och genom att kroppen utsöndrar ämnet (halveringstid 80 dygn). De två bortförselkonstanterna adderas.</p><p>a) Visa sambandet 1/Teff = 1/Tfys + 1/Tbio och beräkna Teff i dygn.</p><p>b) Hur många procent finns kvar efter 30 dygn?</p><p>c) Förklara varför Teff är kortare än båda de andra halveringstiderna.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Både sönderfall och utsöndring minskar mängden. De två bortförselkonstanterna adderas.</p><p>\\[\\lambda_{eff}=\\lambda_{fys}+\\lambda_{bio}\\]</p><p>\\[\\lambda=\\ln2/T\\]</p><p>Dividera båda sidor med ln 2.</p><p>\\[1/T_{eff}=1/T_{fys}+1/T_{bio}\\]</p><p><div class=\"facit-v2\"><p>\\[T_{eff}=1/(1/8+1/80)\\]</p><p>\\[T_{eff}\\approx7{,}27\\ \\mathrm{dygn}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[p=100\\cdot2^{-30/T_{eff}}\\]</p><p>\\[p\\approx5{,}73\\ \\mathrm{\\%}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När två processer minskar mängden samtidigt går den totala minskningen snabbare. Därför halveras mängden snabbare än med någon av processerna ensam.</p></div></div>",
     "familj": "Strålning i medicin",
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.3,
-      5.7,
+      7.2727272727272725,
+      5.731275270029195,
       null
     ],
     "tolerans": [
-      0.1095,
-      0.08549999999999999,
+      0.18181818181818182,
+      0.14312827795251495,
       null
     ],
     "självrättning": [
-      true,
+      false,
       true,
       false
     ],
@@ -103597,7 +103710,7 @@ window.BANK = [
       null
     ],
     "svarEnhet": [
-      null,
+      "dygn",
       "%",
       null
     ],
@@ -103609,39 +103722,88 @@ window.BANK = [
     ],
     "manuellKomplettering": true,
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>De oberoende processernas bortförselhastigheter adderas. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Beräkna summan och ta sedan dess invers.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Jod-131 som tagits upp i kroppen försvinner på två sätt samtidigt: dels genom radioaktivt sönderfall med den fysikaliska halveringstiden 8,0 dygn, dels genom att kroppen utsöndrar ämnet med den biologiska halveringstiden 80 dygn. Eftersom båda processerna pågår samtidigt adderas sönderfallskonstanterna.</p>",
+    "spelIntro": "<p>Jod-131 försvinner genom radioaktivt sönderfall (halveringstid 8,0 dygn) och genom att kroppen utsöndrar ämnet (halveringstid 80 dygn). De två bortförselkonstanterna adderas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Visa att den effektiva halveringstiden ges av 1/T<sub>eff</sub> = 1/T<sub>fys</sub> + 1/T<sub>bio</sub>, och beräkna den.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De oberoende processernas bortförselhastigheter adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda_{\\mathrm{eff}}=\\lambda_{\\mathrm{fys}}+\\lambda_{\\mathrm{bio}}\\]</div></div><div class=\"facit-stycke\"><p>Med \\(\\lambda=\\ln2/T\\) fås \\[\\frac1{T_{\\mathrm{eff}}}=\\frac1{T_{\\mathrm{fys}}}+\\frac1{T_{\\mathrm{bio}}}\\]</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in halveringstiderna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac1{T_{\\mathrm{eff}}}=\\frac1{8{,}0}+\\frac1{80}=0{,}1375\\ \\mathrm{dygn^{-1}}\\]\\[T_{\\mathrm{eff}}=7{,}27\\ \\mathrm{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}27\\ \\mathrm{dygn}\\).</p></div>",
-        "ledtrad": "<p>De oberoende processernas bortförselhastigheter adderas. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Jod-131 försvinner genom sönderfall med halveringstiden 8,0 dygn och genom utsöndring med halveringstiden 80 dygn. Beräkna den effektiva halveringstiden i dygn med sambandet 1/T = 1/8,0 + 1/80.",
+        "s": "<div class=\"facit-v2\"><p>\\[T=1/(1/8+1/80)\\]</p><p>\\[T\\approx7{,}27\\ \\mathrm{dygn}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.2727272727272725,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "dygn",
+        "tolerans": 0.18181818181818182,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna summan och ta sedan dess invers.</p>",
+        "t": "<p>Jod-131 försvinner genom sönderfall med halveringstiden 8,0 dygn och genom utsöndring med halveringstiden 80 dygn. Beräkna den effektiva halveringstiden i dygn med sambandet 1/T = 1/8,0 + 1/80.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor andel av den ursprungliga mängden finns kvar i kroppen efter 30 dygn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 30 dygn är andelen kvar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac N{N_0}=2^{-30/7{,}27}=0{,}0573=5{,}73\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}73\\,\\%\\).</p></div>",
-        "ledtrad": "<p>De oberoende processernas bortförselhastigheter adderas. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Jod-131 i kroppen har den effektiva halveringstiden 7,27 dygn. Hur många procent av startmängden finns kvar efter 30 dygn?",
+        "s": "<div class=\"facit-v2\"><p>\\[p=100\\cdot2^{-30/7{,}27}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100\\cdot2^{-30/7{,}27}\\]</p><p>\\[p\\approx5{,}73\\ \\mathrm{\\%}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.725131118100598,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.14312827795251495,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd den effektiva halveringstiden för kvarvarande andel.</p>",
+        "t": "<p>Jod-131 i kroppen har den effektiva halveringstiden 7,27 dygn. Hur många procent av startmängden finns kvar efter 30 dygn?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför är den effektiva halveringstiden alltid kortare än båda de andra?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summan av två positiva bortförselkonstanter är större än var och en separat.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför går den samlade processen snabbare och den effektiva halveringstiden blir kortare än båda delarnas.</p></div></div></div></div></div>",
-        "ledtrad": "<p>De oberoende processernas bortförselhastigheter adderas. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Varför är den effektiva halveringstiden kortare när både radioaktivt sönderfall och utsöndring minskar mängden?",
+        "s": "<div class=\"facit-v2\"><p>När två processer minskar mängden samtidigt går den totala minskningen snabbare. Därför halveras mängden snabbare än med någon av processerna ensam.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Två processer minskar mängden samtidigt.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Två processer minskar mängden samtidigt.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Utsöndringen stoppar radioaktivt sönderfall.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Radioaktiva kärnor nybildas.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför två samtidiga bortförselprocesser med bara en.</p>",
+        "t": "<p>Varför är den effektiva halveringstiden kortare när både radioaktivt sönderfall och utsöndring minskar mängden?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
     "spel": true,
     "omrTidigare": "aktivitet",
     "familjTidigare": [
@@ -107338,56 +107500,151 @@ window.BANK = [
     "id": "9.56",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "A",
-    "poang": "(1/2/1)",
-    "t": "<p>Vid PET-undersökningar används fluor-18 med halveringstiden 110 minuter. En dos med aktiviteten 20 GBq framställs klockan 09:00.</p>\n<ol><li>Vilken aktivitet återstår klockan 12:30?</li><li>Varför måste F-18 tillverkas nära sjukhuset?</li>\n<li>Vore en halveringstid på 10 dygn bättre eller sämre? Motivera ur två perspektiv.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Från 09:00 till 12:30 går 210 minuter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=20\\cdot2^{-210/110}=5{,}33\\ \\mathrm{GBq}\\]</div></div><div class=\"facit-stycke\"><p>Det motsvarar 1,91 halveringstider.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter lång transport återstår för liten aktivitet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter ett dygn är andelen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2^{-1440/110}=1{,}15\\cdot10^{-4}=0{,}0115\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Fluor-18 behöver därför produceras nära den plats där det ska användas.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tio dygn vore logistiskt enklare men medicinskt sämre: radionukliden skulle bestråla patienten långt efter undersökningen.</p></div><div class=\"facit-stycke\"><p>En kort halveringstid ger hög aktivitet vid undersökningen men liten kvarvarande stråldos efteråt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Klockan 12:30 återstår cirka \\(5{,}3\\ \\mathrm{GBq}\\). Kort halveringstid kräver lokal produktion men minskar patientens långvariga stråldos.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Fluor-18 för PET-undersökningar har halveringstiden 110 minuter. Ett parti med aktiviteten 20 GBq framställs klockan 09:00.</p><p>a) Bestäm aktiviteten klockan 12:30 i GBq.</p><p>b) Förklara varför långa transporter kan vara ett problem.</p><p>c) Vilka för- och nackdelar kan en halveringstid på 10 dygn ge? Utgå från samma startaktivitet och i övrigt samma förhållanden.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Från 09:00 till 12:30 går 210 minuter.</p><p><div class=\"facit-v2\"><p>\\[A=20\\cdot2^{-210/110}\\]</p><p>\\[A\\approx5{,}33\\ \\mathrm{GBq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Aktiviteten minskar under transporten. Efter lång tid återstår mindre aktivitet för undersökningarna.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Aktiviteten minskar långsammare, vilket underlättar transporten. Med samma startaktivitet och i övrigt samma förhållanden innebär det också mer långvarig bestrålning efter undersökningen.</p></div></div>",
     "familj": "Strålning i medicin",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.325205447199814,
+      null,
+      null
+    ],
+    "tolerans": [
+      0.13313013617999533,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Från 09:00 till 12:30 går 210 minuter. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Räkna tiden i minuter och använd halveringsformeln.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vid PET-undersökningar används fluor-18 med halveringstiden 110 minuter. En dos med aktiviteten 20 GBq framställs klockan 09:00.</p>",
+    "spelIntro": "<p>Fluor-18 för PET-undersökningar har halveringstiden 110 minuter. Ett parti med aktiviteten 20 GBq framställs klockan 09:00.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken aktivitet återstår klockan 12:30?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Från 09:00 till 12:30 går 210 minuter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=20\\cdot2^{-210/110}=5{,}33\\ \\mathrm{GBq}\\]</div></div><div class=\"facit-stycke\"><p>Det motsvarar 1,91 halveringstider.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}33\\ \\mathrm{GBq}\\).</p></div>",
-        "ledtrad": "<p>Från 09:00 till 12:30 går 210 minuter. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A"
+        "fraga": "Ett fluor-18-parti har aktiviteten 20 GBq klockan 09:00 och halveringstiden 110 minuter. Vilken aktivitet återstår klockan 12:30? Svara i GBq.",
+        "s": "<div class=\"facit-v2\"><p>Från 09:00 till 12:30 går 210 minuter.</p><p><div class=\"facit-v2\"><p>\\[A=20\\cdot2^{-210/110}\\]</p><p>\\[A\\approx5{,}33\\ \\mathrm{GBq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.325205447199814,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "GBq",
+        "tolerans": 0.13313013617999533,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Räkna tiden i minuter och använd halveringsformeln.</p>",
+        "t": "<p>Ett fluor-18-parti har aktiviteten 20 GBq klockan 09:00 och halveringstiden 110 minuter. Vilken aktivitet återstår klockan 12:30? Svara i GBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Varför måste F-18 tillverkas nära sjukhuset?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter lång transport återstår för liten aktivitet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter ett dygn är andelen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2^{-1440/110}=1{,}15\\cdot10^{-4}=0{,}0115\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Fluor-18 behöver därför produceras nära den plats där det ska användas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0115\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Från 09:00 till 12:30 går 210 minuter. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A"
+        "fraga": "Fluor-18 har halveringstiden 110 minuter. Varför kan en lång transport till sjukhuset vara ett problem?",
+        "s": "<div class=\"facit-v2\"><p>Aktiviteten minskar under transporten. Efter lång tid återstår mindre aktivitet för undersökningarna.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Aktiviteten hinner minska mycket.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Aktiviteten hinner minska mycket.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Halveringstiden blir längre under transport.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Ämnet blir mer radioaktivt under transport.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad händer efter flera halveringstider?</p>",
+        "t": "<p>Fluor-18 har halveringstiden 110 minuter. Varför kan en lång transport till sjukhuset vara ett problem?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vore en halveringstid på 10 dygn bättre eller sämre? Motivera ur två perspektiv.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tio dygn vore logistiskt enklare men medicinskt sämre: radionukliden skulle bestråla patienten långt efter undersökningen.</p></div><div class=\"facit-stycke\"><p>En kort halveringstid ger hög aktivitet vid undersökningen men liten kvarvarande stråldos efteråt.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Från 09:00 till 12:30 går 210 minuter. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A"
+        "fraga": "Anta att ett liknande PET-ämne i stället har halveringstiden 10 dygn. Vad blir skillnaden om samma startaktivitet ges och allt annat är lika?",
+        "s": "<div class=\"facit-v2\"><p>Aktiviteten minskar långsammare, vilket underlättar transporten. Med samma startaktivitet och i övrigt samma förhållanden innebär det också mer långvarig bestrålning efter undersökningen.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Transporten blir enklare, men aktiviteten finns kvar längre i patienten.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Transporten blir enklare, men aktiviteten finns kvar längre i patienten.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Transporten blir svårare och aktiviteten minskar snabbare i patienten.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Halveringstiden påverkar varken transport eller aktivitet efteråt.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk både på transporten och tiden efter undersökningen.</p>",
+        "t": "<p>Anta att ett liknande PET-ämne i stället har halveringstiden 10 dygn. Vad blir skillnaden om samma startaktivitet ges och allt annat är lika?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "aktivitet",
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      "GBq",
+      null,
+      null
     ]
   },
   {
@@ -112043,25 +112300,24 @@ window.BANK = [
     "id": "9.92",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "A",
-    "poang": "(0/2/2)",
-    "t": "<p>Vid strålbehandling ska en tumör med massan 0,15 kg få den absorberade dosen 2,0 Gy per behandlingstillfälle. Behandlingen upprepas 30 gånger.</p>\n<ol><li>Hur mycket energi absorberas i tumören vid ett tillfälle?</li>\n<li>Hur mycket stiger tumörens temperatur vid ett behandlingstillfälle, om vävnaden har samma värmekapacitet som vatten?</li>\n<li>Den totala dosen blir 60 Gy, vilket är dödligt för en hel kropp. Förklara varför behandlingen ändå fungerar.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur definitionen av gray fås energin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Dm=(2{,}0\\ \\mathrm{J/kg})(0{,}15\\ \\mathrm{kg})=0{,}30\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om all energi antas bli värme blir temperaturökningen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{E}{mc}=\\frac{0{,}30}{(0{,}15)(4180)}=4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\]</div></div><div class=\"facit-stycke\"><p>Den biologiska effekten beror alltså inte på märkbar uppvärmning.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strålningen riktas mot tumören i stället för att fördelas över hela kroppen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fraktioneringen i 30 behandlingar låter frisk vävnad reparera en större del av skadorna mellan tillfällena.</p></div><div class=\"facit-stycke\"><p>Behandlingseffekten kommer främst från jonisation och DNA-skador, inte värme.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tumören absorberar \\(0{,}30\\ \\mathrm J\\) per behandling och värms bara \\(4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\). Behandlingen fungerar genom lokal, fraktionerad bestrålning.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En tumör med massan 0,15 kg får dosen 2,0 Gy per behandling vid 30 behandlingar. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Räkna med att absorberad energi blir värme.</p><p>a) Bestäm absorberad energi vid ett tillfälle i J.</p><p>b) Bestäm temperaturökningen vid ett tillfälle i K.</p><p>c) Varför innebär behandling av en tumör inte samma skada som om hela kroppen fick samma dos?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=Dm=2{,}0\\cdot0{,}15=0{,}30\\ \\mathrm J\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Dosen ger energi per kilogram. Temperaturökningen blir dosen delad med värmekapaciteten.</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2{,}0/4180\\]</p><p>\\[\\Delta T\\approx0{,}000478\\ \\mathrm{K}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Strålningen riktas mot tumören för att skada tumörcellerna. Den friska vävnaden får lägre dos och kan hinna reparera en del skador mellan behandlingarna. Effekten kommer främst från jonisation och DNA-skador, inte uppvärmning.</p></div></div>",
     "familj": "Strålning i medicin",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.3,
-      0.00048,
+      0.0004784688995215311,
       null
     ],
     "tolerans": [
-      0.01,
-      1.44e-05,
+      0.0075,
+      1.1961722488038278e-05,
       null
     ],
     "självrättning": [
@@ -112071,12 +112327,12 @@ window.BANK = [
     ],
     "svarFormat": [
       "numeriskt",
-      "numeriskt",
+      "temperaturandring",
       null
     ],
     "svarEnhet": [
       "J",
-      "°C",
+      "K",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -112085,36 +112341,88 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Ur definitionen av gray fås energin. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+    "ledtrad": "<p>En Gy är en J/kg.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vid strålbehandling ska en tumör med massan 0,15 kg få den absorberade dosen 2,0 Gy per behandlingstillfälle. Behandlingen upprepas 30 gånger.</p>",
+    "spelIntro": "<p>En tumör med massan 0,15 kg får dosen 2,0 Gy per behandling vid 30 behandlingar. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Räkna med att absorberad energi blir värme.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi absorberas i tumören vid ett tillfälle?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur definitionen av gray fås energin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Dm=(2{,}0\\ \\mathrm{J/kg})(0{,}15\\ \\mathrm{kg})=0{,}30\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Ur definitionen av gray fås energin. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "A"
+        "fraga": "En tumör har massan 0,15 kg och får den absorberade dosen 2,0 Gy. Hur mycket strålningsenergi absorberar tumören? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=Dm=2{,}0\\cdot0{,}15=0{,}30\\ \\mathrm J\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 0.0075,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>En Gy är en J/kg.</p>",
+        "t": "<p>En tumör har massan 0,15 kg och får den absorberade dosen 2,0 Gy. Hur mycket strålningsenergi absorberar tumören? Svara i J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket stiger tumörens temperatur vid ett behandlingstillfälle, om vävnaden har samma värmekapacitet som vatten?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om all energi antas bli värme blir temperaturökningen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{E}{mc}=\\frac{0{,}30}{(0{,}15)(4180)}=4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\]</div></div><div class=\"facit-stycke\"><p>Den biologiska effekten beror alltså inte på märkbar uppvärmning.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\cdot10^{-4}\\ ^\\circ\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Ur definitionen av gray fås energin. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "A"
+        "fraga": "En tumör får dosen 2,0 Gy. All absorberad energi blir värme. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Hur mycket stiger temperaturen? Svara i K.",
+        "s": "<div class=\"facit-v2\"><p>Dosen ger energi per kilogram. Temperaturökningen blir dosen delad med värmekapaciteten.</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2{,}0/4180\\]</p><p>\\[\\Delta T\\approx0{,}000478\\ \\mathrm{K}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0004784688995215311,
+        "självrättning": true,
+        "svarFormat": "temperaturandring",
+        "svarEnhet": "K",
+        "tolerans": 1.1961722488038278e-05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela energin per kg med värmekapaciteten per kg.</p>",
+        "t": "<p>En tumör får dosen 2,0 Gy. All absorberad energi blir värme. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Hur mycket stiger temperaturen? Svara i K.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Den totala dosen blir 60 Gy, vilket är dödligt för en hel kropp. Förklara varför behandlingen ändå fungerar.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strålningen riktas mot tumören i stället för att fördelas över hela kroppen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fraktioneringen i 30 behandlingar låter frisk vävnad reparera en större del av skadorna mellan tillfällena.</p></div><div class=\"facit-stycke\"><p>Behandlingseffekten kommer främst från jonisation och DNA-skador, inte värme.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Ur definitionen av gray fås energin. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "A"
+        "fraga": "En tumör bestrålas från olika håll under flera behandlingar. Varför kan frisk vävnad få mindre skada än tumören?",
+        "s": "<div class=\"facit-v2\"><p>Strålningen riktas mot tumören för att skada tumörcellerna. Den friska vävnaden får lägre dos och kan hinna reparera en del skador mellan behandlingarna. Effekten kommer främst från jonisation och DNA-skador, inte uppvärmning.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Strålningen koncentreras till tumören och frisk vävnad kan återhämta sig mellan behandlingarna.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Strålningen koncentreras till tumören och frisk vävnad kan återhämta sig mellan behandlingarna.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Strålningen kan inte jonisera frisk vävnad.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Tumören behandlas främst genom att värmas upp.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför var dosen koncentreras och vad pauserna möjliggör.</p>",
+        "t": "<p>En tumör bestrålas från olika håll under flera behandlingar. Varför kan frisk vävnad få mindre skada än tumören?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
@@ -144298,9 +144606,9 @@ window.BANK = [
     "kap": 9,
     "omr": "standardmodellen",
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "(1/0/0)",
     "t": "<p>Vilka av partiklarna protonen, elektronen och kvarken räknas som elementarpartiklar i standardmodellen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p><strong>Nyckelidé:</strong> En elementarpartikel har, så långt vi vet, ingen mindre inre struktur.</p></div><div class=\"facit-stycke\"><p>Elektronen är en lepton och betraktas som elementär.</p></div><div class=\"facit-stycke\"><p>Kvarkar är också elementarpartiklar.</p></div><div class=\"facit-stycke\"><p>Protonen består däremot av tre kvarkar och är därför inte elementär.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Elektronen och kvarken är elementarpartiklar. Protonen är sammansatt.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>En elementarpartikel har ingen känd inre uppbyggnad. Elektronen och kvarken räknas som elementarpartiklar. Protonen består av kvarkar och är därför sammansatt.</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
       "begrepp",
@@ -144313,7 +144621,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Fråga om partikeln består av mindre beståndsdelar enligt standardmodellen.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -144327,9 +144635,9 @@ window.BANK = [
     "kap": 9,
     "omr": "standardmodellen",
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "(1/0/0)",
     "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att deras sammanlagda laddning blir \\(+1e\\). Uppkvarken har laddningen \\(+\\frac23e\\) och nedkvarken \\(-\\frac13e\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p><strong>Steg 1:</strong> Skriv laddningen för varje kvark: \\(+\\frac23e,+\\frac23e,-\\frac13e\\).</p></div><div class=\"facit-stycke\"><p><strong>Steg 2:</strong> Addera med gemensam nämnare:</p></div><div class=\"facit-stycke\"><p>\\[\\frac23e+\\frac23e-\\frac13e=\\frac33e=+1e.\\]</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kvarkarnas laddningar ger protonens laddning \\(+e\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Lägg ihop de två uppkvarkarnas och nedkvarkens laddningar.</p><p>\\[Q=(2/3+2/3-1/3)e=+e\\]</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
       "begrepp",
@@ -144342,7 +144650,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Addera de tre kvarkarnas laddningar. Behåll enheten \\(e\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -144355,8 +144663,8 @@ window.BANK = [
     "id": "GY25-FY1-STD-03",
     "kap": 9,
     "omr": "standardmodellen",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>En neutron består av kvarkarna udd. Förklara varför neutronens laddning är noll och varför neutronen ändå inte är en elementarpartikel.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p><strong>Laddningen:</strong> En uppkvark har \\(+\\frac23e\\) och varje nedkvark \\(-\\frac13e\\).</p></div><div class=\"facit-stycke\"><p>Därför blir</p></div><div class=\"facit-stycke\"><p>\\[\\frac23e-\\frac13e-\\frac13e=0.\\]</p></div><div class=\"facit-stycke\"><p><strong>Partikeltypen:</strong> Neutronen har inre struktur eftersom den består av tre kvarkar.</p></div><div class=\"facit-stycke\"><p>Den är därför en sammansatt partikel, även om nettoladdningen är noll.</p></div><div class=\"facit-stycke\"><p><strong>Slutsats:</strong> Oladdad betyder inte samma sak som elementär.</p></div></div></div>",
     "familj": "Elementarpartiklar och kvarkar",
@@ -144371,7 +144679,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Beräkna först nettoladdningen. Resonera sedan om neutronen har inre beståndsdelar.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -144384,8 +144692,8 @@ window.BANK = [
     "id": "GY25-FY1-STD-04",
     "kap": 9,
     "omr": "standardmodellen",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Sortera partiklarna elektron, elektronneutrino, uppkvark och proton i grupperna <em>lepton</em>, <em>kvark</em> och <em>sammansatt partikel</em>. Motivera kort.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Elektronen och elektronneutrinon är leptoner.</p></div><div class=\"facit-stycke\"><p>Uppkvarken är en kvark.</p></div><div class=\"facit-stycke\"><p>Protonen består av kvarkar och är därför en sammansatt partikel, närmare bestämt en baryon.</p></div><div class=\"facit-stycke\"><p><strong>Kontroll:</strong> Leptoner och kvarkar är standardmodellens materiepartiklar.</p></div><div class=\"facit-stycke\"><p>Protoner och neutroner byggs av kvarkar.</p></div></div></div>",
     "familj": "Elementarpartiklar och kvarkar",
@@ -144400,7 +144708,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Börja med att skilja elementarpartiklar från partiklar som består av kvarkar.</p>",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -144413,8 +144721,8 @@ window.BANK = [
     "id": "GY25-FY1-STD-05",
     "kap": 9,
     "omr": "standardmodellen",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Vid beta-minus-sönderfall omvandlas en neutron till en proton samtidigt som en elektron och en antineutrino bildas. Kontrollera att elektrisk laddning bevaras.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p><strong>Före:</strong> Neutronens laddning är \\(0\\).</p></div><div class=\"facit-stycke\"><p><strong>Efter:</strong> Protonen har \\(+e\\), elektronen \\(-e\\) och antineutrinon \\(0\\).</p></div><div class=\"facit-stycke\"><p>Summan blir</p></div><div class=\"facit-stycke\"><p>\\[+e-e+0=0.\\]</p></div><div class=\"facit-stycke\"><p>Laddningen är alltså noll både före och efter sönderfallet.</p></div><div class=\"facit-stycke\"><p>Elektronen kommer inte från atomens elektronskal utan bildas i själva sönderfallet.</p></div><div class=\"facit-stycke\"><p><strong>Slutsats:</strong> Reaktionen är förenlig med laddningens bevarande.</p></div></div></div>",
     "familj": "Elementarpartiklar och kvarkar",
@@ -144429,7 +144737,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Skriv laddningen för varje partikel på varsin sida av reaktionen och jämför summorna.</p>",
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -177532,10 +177840,9 @@ window.BANK = [
     "kap": 9,
     "omr": "standardmodellen",
     "niva": "E",
-    "typ": "protonens laddning",
     "poang": "(1/0/0)",
-    "t": "<p>En uppkvark har laddningen \\(+\\tfrac{2}{3}e\\) och en nedkvark har laddningen \\(-\\tfrac{1}{3}e\\). En antikvark har motsatt laddning mot sin kvark.</p><p>Protonen består av två uppkvarkar och en nedkvark. Bestäm protonens laddning i enheten e.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summera kvarkarnas laddningar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tfrac{2}{3}+\\tfrac{2}{3}-\\tfrac{1}{3}=+1\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+1e\\).</p></div>",
+    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Bestäm protonens laddning i enheten e.</p>",
+    "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3+2/3-1/3=1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -177544,24 +177851,24 @@ window.BANK = [
     "rättSvar": 1,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Lägg ihop laddningarna för de tre kvarkarna.</p>",
+    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "e"
+    "svarEnhet": "e",
+    "manuellKomplettering": false
   },
   {
     "id": "9.262",
     "kap": 9,
     "omr": "standardmodellen",
     "niva": "E",
-    "typ": "neutronens laddning",
     "poang": "(1/0/0)",
-    "t": "<p>En uppkvark har laddningen \\(+\\tfrac{2}{3}e\\) och en nedkvark har laddningen \\(-\\tfrac{1}{3}e\\). En antikvark har motsatt laddning mot sin kvark.</p><p>Neutronen består av en uppkvark och två nedkvarkar. Bestäm neutronens laddning i enheten e.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summera kvarkarnas laddningar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tfrac{2}{3}-\\tfrac{1}{3}-\\tfrac{1}{3}=0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0. Neutronen är oladdad.</p></div>",
+    "t": "<p>En neutron består av en uppkvark och två nedkvarkar. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Bestäm neutronens laddning i enheten e.</p>",
+    "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3-1/3-1/3=0\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -177570,24 +177877,24 @@ window.BANK = [
     "rättSvar": 0,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>En uppkvark och två nedkvarkar. Lägg ihop laddningarna.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "e"
+    "svarEnhet": "e",
+    "manuellKomplettering": false
   },
   {
     "id": "9.263",
     "kap": 9,
     "omr": "standardmodellen",
     "niva": "E",
-    "typ": "laddning hos tre uppkvarkar",
     "poang": "(1/0/0)",
-    "t": "<p>En uppkvark har laddningen \\(+\\tfrac{2}{3}e\\) och en nedkvark har laddningen \\(-\\tfrac{1}{3}e\\). En antikvark har motsatt laddning mot sin kvark.</p><p>I partikelacceleratorer har man observerat en partikel som består av tre uppkvarkar. Bestäm dess laddning i enheten e.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre uppkvarkar ger tre gånger uppkvarkens laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[3\\cdot\\tfrac{2}{3}=+2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+2e\\).</p></div>",
+    "t": "<p>En partikel består av tre uppkvarkar. Varje uppkvark har laddningen +2/3 e. Bestäm partikelns laddning i enheten e.</p>",
+    "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=3\\cdot2/3=2\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -177596,24 +177903,24 @@ window.BANK = [
     "rättSvar": 2,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Hur många gånger uppkvarkens laddning blir det?</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "e"
+    "svarEnhet": "e",
+    "manuellKomplettering": false
   },
   {
     "id": "9.264",
     "kap": 9,
     "omr": "standardmodellen",
-    "niva": "C",
-    "typ": "antiprotonens laddning",
-    "poang": "(0/1/0)",
-    "t": "<p>En uppkvark har laddningen \\(+\\tfrac{2}{3}e\\) och en nedkvark har laddningen \\(-\\tfrac{1}{3}e\\). En antikvark har motsatt laddning mot sin kvark.</p><p>Antiprotonen består av två anti-uppkvarkar och en anti-nedkvark. Bestäm antiprotonens laddning i enheten e.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antikvarkarna har motsatt laddning mot kvarkarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[-\\tfrac{2}{3}-\\tfrac{2}{3}+\\tfrac{1}{3}=-1\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1e\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En antiproton består av två anti-uppkvarkar och en anti-nedkvark. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Antikvarkar har motsatt laddning. Bestäm antiprotonens laddning i enheten e.</p>",
+    "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=-2/3-2/3+1/3=-1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -177622,24 +177929,24 @@ window.BANK = [
     "rättSvar": -1,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Byt tecken på varje kvarks laddning innan du summerar.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "e"
+    "svarEnhet": "e",
+    "manuellKomplettering": false
   },
   {
     "id": "9.265",
     "kap": 9,
     "omr": "standardmodellen",
-    "niva": "C",
-    "typ": "pionens laddning",
-    "poang": "(0/1/0)",
-    "t": "<p>En uppkvark har laddningen \\(+\\tfrac{2}{3}e\\) och en nedkvark har laddningen \\(-\\tfrac{1}{3}e\\). En antikvark har motsatt laddning mot sin kvark.</p><p>En positiv pion består av en uppkvark och en anti-nedkvark. Bestäm pionens laddning i enheten e.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Anti-nedkvarken har laddningen +1/3 e.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tfrac{2}{3}+\\tfrac{1}{3}=+1\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+1e\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En positiv pion består av en uppkvark och en anti-nedkvark. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Antikvarkar har motsatt laddning. Bestäm pionens laddning i enheten e.</p>",
+    "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=2/3+1/3=1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -177648,14 +177955,15 @@ window.BANK = [
     "rättSvar": 1,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Vilken laddning har en anti-nedkvark?</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "e"
+    "svarEnhet": "e",
+    "manuellKomplettering": false
   },
   {
     "id": "9.266",
@@ -177789,7 +178097,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vad skiljer en partikel från dess antipartikel?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -177835,7 +178143,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Nukleoner är sammansatta partiklar. Av vad?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -177870,34 +178178,90 @@ window.BANK = [
     "id": "9.329",
     "kap": 9,
     "omr": "standardmodellen",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Baryoner består av tre kvarkar. En u-kvark har laddningen \\(+\\frac23e\\) och en d-kvark \\(-\\frac13e\\).</p><p><strong>a)</strong> En baryon som bara innehåller u- och d-kvarkar har laddningen \\(+2e\\). Hur många u-kvarkar har den?</p><p><strong>b)</strong> En annan sådan baryon har laddningen \\(-e\\). Hur många u-kvarkar har den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Med \\(n\\) u-kvarkar och \\(3-n\\) d-kvarkar blir laddningen \\(\\frac23n-\\frac13(3-n)=n-1\\) (i enheter av \\(e\\)).</p></div><div class=\"facit-stycke\"><p><strong>a)</strong> \\(n-1=2\\) ger \\(n=3\\): uuu, partikeln \\(\\Delta^{++}\\).</p></div><div class=\"facit-stycke\"><p><strong>b)</strong> \\(n-1=-1\\) ger \\(n=0\\): ddd, partikeln \\(\\Delta^{-}\\).</p></div><div class=\"facit-stycke\"><p>Formeln visar också varför protonen (uud, \\(n=2\\)) har laddningen \\(+1\\) och neutronen (udd, \\(n=1\\)) laddningen 0.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) 3 &nbsp; b) 0</p></div>",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>Baryoner består av tre kvarkar av typerna u och d. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e.</p><p>a) En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen +2 e. Hur många u-kvarkar har den?</p><p>b) En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen −1 e. Hur många u-kvarkar har den?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=2\\quad\\Rightarrow\\quad n=3\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=-1\\quad\\Rightarrow\\quad n=0\\]</p></div></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
-      "problemlösning",
-      "begrepp"
+      "procedur",
+      "problemlösning"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Skriv laddningen som en funktion av antalet u-kvarkar.</p>",
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt n vara antalet u-kvarkar. Då finns 3 − n d-kvarkar.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "svarstyp": "flera_delar",
     "rättSvar": [
       3,
       0
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0
+    ],
     "svarEtiketter": [
-      "a)",
-      "b)"
+      "a",
+      "b"
     ],
     "svarsstruktur": "ordnad",
-    "typ": "kvarkinnehåll ur laddning"
+    "spelIntro": "<p>Baryoner består av tre kvarkar av typerna u och d. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen +2 e. Hur många u-kvarkar har den?",
+        "s": "<div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=2\\quad\\Rightarrow\\quad n=3\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Låt n vara antalet u-kvarkar. Då finns 3 − n d-kvarkar.</p>",
+        "t": "<p>En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen +2 e. Hur många u-kvarkar har den?</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen −1 e. Hur många u-kvarkar har den?",
+        "s": "<div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=-1\\quad\\Rightarrow\\quad n=0\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Låt n vara antalet u-kvarkar. Då finns 3 − n d-kvarkar.</p>",
+        "t": "<p>En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen −1 e. Hur många u-kvarkar har den?</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
+      }
+    ],
+    "manuellKomplettering": false,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ]
   },
   {
     "id": "9.271",
@@ -177999,7 +178363,7 @@ window.BANK = [
     "typ": "kraften vid betasönderfall",
     "poang": "(1/0/0)",
     "t": "<p>Vid beta-minus-sönderfall omvandlas en neutron till en proton.</p><p>Vilken kraft är ansvarig för omvandlingen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall blir en nedkvark en uppkvark.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är den svaga kraften, förmedlad av W-bosonen, som gör det möjligt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den svaga kraften.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Den svaga kraften kan omvandla en neutron till en proton vid beta-minus-sönderfall. I kvarkmodellen blir en nedkvark då en uppkvark.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
       "begrepp"
@@ -178031,7 +178395,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vilken kraft kan få en kvark att byta typ?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178123,7 +178487,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Samma partikel som ljus består av.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178169,7 +178533,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Partikeln har fått sitt namn från ordet lim.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178179,11 +178543,11 @@ window.BANK = [
     "id": "9.277",
     "kap": 9,
     "omr": "fyra_krafterna",
-    "niva": "C",
+    "niva": "E",
     "typ": "krafternas räckvidd",
-    "poang": "(0/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Vilka av de fyra krafterna har obegränsad räckvidd?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationen och den elektromagnetiska kraften avtar med avståndet men har ingen gräns.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka och den svaga kraften verkar bara inom ungefär en atomkärnas storlek eller ännu kortare.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gravitationen och den elektromagnetiska kraften.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Gravitationen och den elektromagnetiska kraften kan verka på mycket stora avstånd. De blir svagare med avståndet, men har ingen bestämd gräns där de slutar verka. Kärnkrafterna har däremot mycket kort räckvidd.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
       "begrepp"
@@ -178215,7 +178579,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vilka krafter märks på avstånd som är mycket större än en atomkärna?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178225,9 +178589,9 @@ window.BANK = [
     "id": "9.278",
     "kap": 9,
     "omr": "fyra_krafterna",
-    "niva": "C",
+    "niva": "E",
     "typ": "varför gravitationen dominerar",
-    "poang": "(0/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Gravitationen är den svagaste av de fyra krafterna. Ändå är det gravitationen som styr planeternas banor.</p><p>Vad är den viktigaste förklaringen?</p><p>Markera det korrekta alternativet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alla massor attraherar varandra, så gravitationen från enorma mängder materia adderas.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Planeter innehåller lika mycket positiv som negativ laddning, så de elektriska krafterna tar i stort sett ut varandra.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gravitationen är alltid attraktiv och stora kroppar är nästan neutrala.</p></div>",
     "familj": "De fyra fundamentala krafterna",
@@ -178262,7 +178626,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Kan gravitationen vara repulsiv? Kan elektriska krafter ta ut varandra?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178308,7 +178672,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Kraftpartiklarna betecknas med bokstäver.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178318,9 +178682,9 @@ window.BANK = [
     "id": "9.280",
     "kap": 9,
     "omr": "fyra_krafterna",
-    "niva": "C",
+    "niva": "E",
     "typ": "neutronernas roll i kärnan",
-    "poang": "(0/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>En heliumkärna har två protoner och två neutroner. Neutronerna har ingen laddning.</p><p>Varför bidrar neutronerna ändå till att hålla ihop kärnan?</p><p>Markera det korrekta alternativet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kraften verkar mellan alla nukleoner oavsett laddning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronerna ger alltså extra attraktion utan att öka den elektriska repulsionen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De påverkas av den starka kraften och attraherar övriga nukleoner.</p></div>",
     "familj": "De fyra fundamentala krafterna",
@@ -178355,7 +178719,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vilken kraft verkar på en partikel utan laddning i kärnan?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178365,52 +178729,55 @@ window.BANK = [
     "id": "9.326",
     "kap": 9,
     "omr": "fyra_krafterna",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Jämför den elektriska kraften med gravitationskraften mellan två protoner på avståndet \\(r\\) från varandra.</p><p>Använd \\(F_e=k\\dfrac{e^2}{r^2}\\) och \\(F_g=G\\dfrac{m_p^2}{r^2}\\) med \\(k=8{,}99\\cdot10^9\\) Nm²/C², \\(e=1{,}602\\cdot10^{-19}\\) C, \\(G=6{,}67\\cdot10^{-11}\\) Nm²/kg² och \\(m_p=1{,}673\\cdot10^{-27}\\) kg.</p><p>Beräkna kvoten \\(F_e/F_g\\). Svara i grundpotensform med två värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Avståndet \\(r\\) tar ut sig självt, eftersom båda krafterna är proportionella mot \\(\\frac1{r^2}\\):</p></div><div class=\"facit-stycke\"><p>\\[\\frac{F_e}{F_g}=\\frac{ke^2}{Gm_p^2}=\\frac{8{,}99\\cdot10^9\\cdot(1{,}602\\cdot10^{-19})^2}{6{,}67\\cdot10^{-11}\\cdot(1{,}673\\cdot10^{-27})^2}\\approx1{,}2\\cdot10^{36}.\\]</p></div><div class=\"facit-stycke\"><p>Gravitationen är alltså helt försumbar mellan enskilda partiklar.</p></div><div class=\"facit-stycke\"><p>Den dominerar ändå för planeter och stjärnor, eftersom stora kroppar är nästan elektriskt neutrala medan massorna adderas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(1{,}2\\cdot10^{36}\\)</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Mellan två protoner gäller Fₑ = ke²/r² och Fg = Gmₚ²/r². Hur många gånger större är den elektriska kraften än gravitationskraften? Använd k = 8,99·10⁹ Nm²/C², e = 1,602·10⁻¹⁹ C, G = 6,67·10⁻¹¹ Nm²/kg² och mₚ = 1,673·10⁻²⁷ kg.</p>",
+    "s": "<div class=\"facit-v2\"><p>Faktorn 1/r² förkortas bort i kvoten.</p><p>\\[F_e/F_g=ke^2/(Gm_p^2)\\]</p><p><div class=\"facit-v2\"><p>\\[ke^2=8{,}99\\cdot10^9(1{,}602\\cdot10^{-19})^2\\]</p><p>\\[ke^2\\approx2{,}31\\cdot10^{-28}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[Gm_p^2=6{,}67\\cdot10^{-11}(1{,}673\\cdot10^{-27})^2\\]</p><p>\\[Gm_p^2\\approx1{,}87\\cdot10^{-64}\\]</p></div></p><p>\\[F_e/F_g=ke^2/(Gm_p^2)\\]\\[F_e/F_g\\approx1{,}24\\cdot10^{36}\\]</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "problemlösning",
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Ställ upp kvoten. Vad händer med \\(r^2\\)?</p>",
+    "ledtrad": "<p>Skriv kvoten mellan formlerna. Vilken faktor förkortas bort?</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 1.2358535214253614e+36,
-    "tolerans": 6e+34,
-    "typ": "jämför elektrisk kraft och gravitation"
+    "tolerans": 5e+34,
+    "svarEnhet": null,
+    "svarFormat": "numeriskt",
+    "manuellKomplettering": false
   },
   {
     "id": "9.328",
     "kap": 9,
     "omr": "fyra_krafterna",
-    "niva": "A",
-    "poang": "(0/1/3)",
-    "t": "<p>Tänk dig att jorden och månen hade lika stora laddningar av samma tecken. Hur stor skulle laddningen behöva vara för att den elektriska repulsionen skulle ta ut gravitationen mellan dem?</p><p>Använd \\(M_J=5{,}97\\cdot10^{24}\\) kg, \\(M_M=7{,}35\\cdot10^{22}\\) kg, \\(G=6{,}67\\cdot10^{-11}\\) Nm²/kg² och \\(k=8{,}99\\cdot10^9\\) Nm²/C². Svara i grundpotensform med två värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Båda krafterna är omvänt proportionella mot \\(r^2\\), så avståndet tar ut sig självt:</p></div><div class=\"facit-stycke\"><p>\\[k\\frac{Q^2}{r^2}=G\\frac{M_JM_M}{r^2}\\;\\Rightarrow\\;Q=\\sqrt{\\frac{GM_JM_M}{k}}\\approx5{,}7\\cdot10^{13}\\text{ C}.\\]</p></div><div class=\"facit-stycke\"><p>Det motsvarar cirka \\(3{,}6\\cdot10^{32}\\) elektroner.</p></div><div class=\"facit-stycke\"><p>Det är ändå en försumbar andel av jordens elektroner.</p></div><div class=\"facit-stycke\"><p>Att himlakroppar styrs av gravitationen beror alltså på att de är nästan exakt elektriskt neutrala, inte på att gravitationen är stark.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(5{,}7\\cdot10^{13}\\) C</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Tänk dig att jorden och månen har lika stora laddningar av samma tecken. Hur stor laddning på vardera kroppen skulle göra den elektriska kraften lika stor som gravitationskraften? Använd Mⱼ = 5,97·10²⁴ kg, Mₘ = 7,35·10²² kg, G = 6,67·10⁻¹¹ Nm²/kg² och k = 8,99·10⁹ Nm²/C². Svara i C.</p>",
+    "s": "<div class=\"facit-v2\"><p>Elektrisk bortstötning ska vara lika stor som gravitationens attraktion.</p><p>\\[kQ^2/r^2=GM_JM_M/r^2\\]</p><p>Faktorn 1/r² förkortas bort.</p><p>\\[Q^2=GM_JM_M/k\\]</p><p><div class=\"facit-v2\"><p><p>Multiplicera G med de båda massorna.</p></p><p>\\[GM_JM_M\\approx2{,}93\\cdot10^{37}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[Q^2=2{,}92676265\\cdot10^{37}/(8{,}99\\cdot10^9)\\]</p><p>\\[Q^2\\approx3{,}26\\cdot10^{27}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[Q=\\sqrt{3{,}25557580645\\cdot10^{27}}\\]</p><p>\\[Q\\approx5{,}71\\cdot10^{13}\\ \\mathrm{C}\\]</p></div></p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
       "problemlösning",
-      "resonemang"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Sätt den elektriska kraften lika med gravitationskraften. Vad händer med avståndet?</p>",
+    "ledtrad": "<p>Sätt kraftformlerna lika och förkorta bort r².</p>",
     "spel": true,
-    "traningsniva": 5,
+    "traningsniva": 4,
     "arbetsinsats": 3,
     "svarstyp": "numeriskt",
     "rättSvar": 57057653355633.305,
-    "tolerans": 600000000000.0,
+    "tolerans": 1426441333890.8328,
     "svarEnhet": "C",
-    "typ": "laddning som balanserar gravitationen"
+    "svarFormat": "numeriskt",
+    "manuellKomplettering": false
   },
   {
     "id": "9.281",
@@ -179529,7 +179896,7 @@ window.BANK = [
     "niva": "E",
     "typ": "aktivitet hos spårämne",
     "poang": "(1/0/0)",
-    "t": "<p>Teknetium-99m används som spårämne vid skelettundersökningar och har halveringstiden 6,0 h. En patient får en dos med aktiviteten 800 MBq.</p><p>Hur stor är aktiviteten efter ett dygn? Svara i MBq.</p>",
+    "t": "<p>Teknetium-99m används som spårämne vid skelettundersökningar och har halveringstiden 6,0 h. En patient får en dos med aktiviteten 800 MBq.</p><p>Hur stor är aktiviteten efter ett dygn? Svara i MBq.</p><p>Räkna bara med radioaktivt sönderfall.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett dygn är 24 h, alltså fyra halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=800\\cdot\\left(\\tfrac12\\right)^4=50\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{MBq}\\).</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -179537,7 +179904,7 @@ window.BANK = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 0,
+    "tolerans": 1.25,
     "självrättning": true,
     "ledtrad": "<p>Hur många halveringstider ryms på ett dygn?</p>",
     "traningsniva": 2,
@@ -179556,7 +179923,7 @@ window.BANK = [
     "typ": "varför gammastrålare som spårämne",
     "poang": "(1/0/0)",
     "t": "<p>Vid nuklearmedicinska undersökningar används ofta gammastrålande spårämnen.</p><p>Varför väljs gammastrålare?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spårämnet ska synas utifrån.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning har stor genomträngningsförmåga och kan registreras utanför kroppen, samtidigt som den ger relativt låg dos per sönderfall.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strålningen kan registreras utanför kroppen.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Gammastrålningen kan ta sig ut ur kroppen och registreras av en kamera. Då kan man se var spårämnet finns. Dos per sönderfall beror också på energin och hur mycket som absorberas.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
       "begrepp",
@@ -179570,7 +179937,7 @@ window.BANK = [
       {
         "txt": "Gammastrålningen tar sig ut ur kroppen och kan registreras av en kamera utanför.",
         "ratt": true,
-        "kommentar": "Alfa- och betastrålning stoppas i kroppen."
+        "kommentar": "En del av gammastrålningen når kameran utanför kroppen."
       },
       {
         "txt": "Gammastrålning joniserar inte alls.",
@@ -179589,7 +179956,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Strålningen ska mätas utanför patienten.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -179610,7 +179977,7 @@ window.BANK = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1022,
-    "tolerans": 0,
+    "tolerans": 50.0,
     "självrättning": true,
     "ledtrad": "<p>Hur många fotoner bildas?</p>",
     "traningsniva": 1,
@@ -179629,7 +179996,7 @@ window.BANK = [
     "typ": "kort halveringstid hos spårämnen",
     "poang": "(1/0/0)",
     "t": "<p>Spårämnen inom sjukvården har ofta halveringstider på några timmar.</p><p>Vad är fördelen med en kort halveringstid?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med kort halveringstid sjunker aktiviteten snabbt efter undersökningen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Patienten får då en lägre total dos.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kort bestrålningstid för patienten.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Kort halveringstid gör att aktiviteten minskar snabbt efter undersökningen. Med samma startaktivitet och i övrigt samma förhållanden minskar det den långvariga bestrålningen av patienten.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
       "begrepp"
@@ -179640,7 +180007,7 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Patienten bestrålas bara under kort tid efter undersökningen.",
+        "txt": "Aktiviteten minskar snabbt efter undersökningen.",
         "ratt": true,
         "kommentar": "Aktiviteten avtar snabbt."
       },
@@ -179661,7 +180028,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vad händer med aktiviteten efter några halveringstider?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -179671,9 +180038,9 @@ window.BANK = [
     "id": "9.300",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "C",
+    "niva": "E",
     "typ": "andel kvar efter transport",
-    "poang": "(0/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Fluor-18, som används vid PET, har halveringstiden 110 min. Dosen framställs på ett sjukhus och transporteras till ett annat. Transporten tar 330 min.</p><p>Hur stor andel av den ursprungliga aktiviteten finns kvar vid ankomsten? Svara i procent.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">330 min är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac12\\right)^3=\\tfrac18=12{,}5\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5\\,\\%\\).</p></div>",
     "familj": "Strålning i medicin",
@@ -179682,7 +180049,7 @@ window.BANK = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12.5,
-    "tolerans": 0.1,
+    "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Hur många halveringstider tar transporten?</p>",
     "traningsniva": 2,
@@ -179697,11 +180064,11 @@ window.BANK = [
     "id": "9.301",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "C",
+    "niva": "E",
     "typ": "strålbehandling från flera håll",
-    "poang": "(0/1/0)",
-    "t": "<p>Vid strålbehandling av en tumör riktas strålning in från flera olika håll mot samma punkt.</p><p>Varför gör man så?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje stråle passerar frisk vävnad på sin väg, men bara tumören träffas av alla strålar.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Där blir den sammanlagda dosen hög.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hög dos i tumören, lägre i omgivande vävnad.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid strålbehandling av en tumör riktas strålning in från flera olika håll mot samma punkt.</p><p>Varför gör man så?</p><p>Markera det korrekta alternativet.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Tre strålar från olika håll möts i tumören\"><title>Strålbehandling från olika håll</title><ellipse cx=\"250\" cy=\"145\" rx=\"145\" ry=\"105\" fill=\"#e9f0f4\" stroke=\"#5b7081\" stroke-width=\"2\"/><path d=\"M35 145H405 M250 15V270 M90 25L410 265\" stroke=\"#2197af\" stroke-width=\"14\" opacity=\"0.32\"/><circle cx=\"250\" cy=\"145\" r=\"20\" fill=\"#c75745\" stroke=\"#8b382d\" stroke-width=\"2\"/><path d=\"M268 155L405 225\" fill=\"none\" stroke=\"#334155\" stroke-width=\"1.5\"/><text x=\"415\" y=\"234\" font-family=\"Arial\" font-size=\"18\" fill=\"#334155\">tumör</text><text x=\"250\" y=\"294\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Flera strålar ger hög sammanlagd dos i tumören.</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Flera strålar möts i tumören, där deras dosbidrag ger en hög sammanlagd dos. Den friska vävnaden på vägen träffas normalt av färre strålar och får lägre dos.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
       "begrepp",
@@ -179715,7 +180082,7 @@ window.BANK = [
       {
         "txt": "Tumören får hög dos medan den friska vävnaden runt omkring får lägre dos.",
         "ratt": true,
-        "kommentar": "Doserna adderas bara där strålarna korsas."
+        "kommentar": "Tumören ligger där strålarna möts och får hög sammanlagd dos."
       },
       {
         "txt": "Strålningen blir mer genomträngande från flera håll.",
@@ -179734,7 +180101,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Var adderas doserna från de olika strålarna?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -179744,9 +180111,9 @@ window.BANK = [
     "id": "9.302",
     "kap": 9,
     "omr": "medicinska_metoder",
-    "niva": "C",
+    "niva": "E",
     "typ": "jod-131 vid behandling",
-    "poang": "(0/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Vid behandling av sköldkörteln får en patient jod-131 med aktiviteten 500 MBq. Halveringstiden är 8,0 dygn.</p><p>Hur stor aktivitet finns kvar efter 20 dygn? Bortse från att kroppen gör sig av med jod. Svara i MBq.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">20 dygn är 2,5 halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=500\\cdot\\left(\\tfrac12\\right)^{2{,}5}\\approx88\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(88\\ \\mathrm{MBq}\\).</p></div>",
     "familj": "Strålning i medicin",
@@ -179755,10 +180122,10 @@ window.BANK = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 88.3883476483,
-    "tolerans": 1.3,
+    "tolerans": 2.209708691207961,
     "självrättning": true,
     "ledtrad": "<p>Räkna ut antalet halveringstider först.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,

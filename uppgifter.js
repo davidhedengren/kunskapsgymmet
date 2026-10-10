@@ -107184,28 +107184,31 @@ window.BANK = [
     "id": "9.46",
     "kap": 9,
     "omr": "fusion",
-    "niva": "A",
-    "poang": "(0/1/3)",
-    "t": "<p>Solen strålar ut effekten 3,85·10²⁶ W. Solens massa är 1,989·10³⁰ kg.</p>\n<ol><li>Hur mycket massa omvandlas till energi varje sekund?</li><li>Hur mycket blir det på ett år?</li>\n<li>Solen har lyst i ungefär 4,6 miljarder år. Hur stor andel av sin massa har den förlorat på det sättet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekt är energi per sekund.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(E=mc^2\\) blir massomvandlingen per sekund</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{\\Delta m}{\\Delta t}=\\frac{P}{c^2}=\\frac{3{,}85\\cdot10^{26}}{(2{,}998\\cdot10^8)^2}=4{,}28\\cdot10^9\\ \\mathrm{kg/s}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett år är 3,156·10⁷ s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m_{\\mathrm{år}}=(4{,}28\\cdot10^9)(3{,}156\\cdot10^7)=1{,}35\\cdot10^{17}\\ \\mathrm{kg}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 4,6 miljarder år blir massan och andelen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=(1{,}35\\cdot10^{17})(4{,}6\\cdot10^9)=6{,}22\\cdot10^{26}\\ \\mathrm{kg}\\]\\[\\frac{\\Delta m}{M_\\odot}\\cdot100\\,\\%=0{,}0313\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Beräkningen antar att solens utstrålade effekt varit konstant på dagens nivå.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Solen omvandlar cirka \\(4{,}3\\cdot10^9\\ \\mathrm{kg/s}\\), eller \\(1{,}35\\cdot10^{17}\\ \\mathrm{kg/år}\\). På 4,6 miljarder år motsvarar det cirka \\(0{,}031\\,\\%\\) av solmassan.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Solen strålar ut 3,85·10²⁶ W och har massan 1,989·10³⁰ kg. Använd E = mc² och c = 2,998·10⁸ m/s. Ett år är 3,156·10⁷ s. Räkna i denna modell med samma effekt under 4,6 miljarder år.</p><p>a) Hur mycket massa omvandlas till energi per sekund? Svara i kg/s.</p><p>b) Hur mycket blir det på ett år? Svara i kg.</p><p>c) Hur många procent av solens massa omvandlas under 4,6 miljarder år?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Effekt är energi per sekund. Därför ger E = mc² massan per sekund.</p><p><div class=\"facit-v2\"><p>\\[\\dot m=P/c^2\\]</p><p>\\[\\dot m\\approx4280000000\\ \\mathrm{kg/s}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m=\\dot m\\cdot3{,}156\\cdot10^7\\]</p><p>\\[m\\approx1{,}35\\cdot10^{17}\\ \\mathrm{kg}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=m_{år}\\cdot4{,}6\\cdot10^9\\]</p><p>\\[m\\approx6{,}22\\cdot10^{26}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[andel=m/M\\cdot100\\]</p><p>\\[andel\\approx0{,}0313\\ \\%\\]</p></div></p></div></div>",
     "familj": "Fusion och energi",
     "formaga": [
-      "modellering",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4300000000,
-      135000000000000020,
-      0.031
+      4283487190.259372,
+      1.351868557245858e+17,
+      0.03126493395339843
     ],
     "tolerans": [
-      64500000,
-      2025000000000000.2,
-      0.0009299999999999999
+      107087179.75648431,
+      5000000000000000.0,
+      0.0007805429864253394
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -107223,41 +107226,78 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "karnreaktioner__fusion_och_massenergi",
-    "ledtrad": "<p>Effekt är energi per sekund. Med \\(E=mc^2\\) blir massomvandlingen per sekund</p>",
+    "ledtrad": "<p>Effekt är energi per sekund. Dela effekten med c².</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Solen strålar ut effekten 3,85·10²⁶ W. Solens massa är 1,989·10³⁰ kg.</p>",
+    "spelIntro": "<p>Solen strålar ut 3,85·10²⁶ W och har massan 1,989·10³⁰ kg. Använd E = mc² och c = 2,998·10⁸ m/s. Ett år är 3,156·10⁷ s. Räkna i denna modell med samma effekt under 4,6 miljarder år.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket massa omvandlas till energi varje sekund?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekt är energi per sekund.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(E=mc^2\\) blir massomvandlingen per sekund</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{\\Delta m}{\\Delta t}=\\frac{P}{c^2}=\\frac{3{,}85\\cdot10^{26}}{(2{,}998\\cdot10^8)^2}=4{,}28\\cdot10^9\\ \\mathrm{kg/s}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}28\\cdot10^9\\ \\mathrm{kg/s}\\).</p></div>",
-        "ledtrad": "<p>Effekt är energi per sekund. Med \\(E=mc^2\\) blir massomvandlingen per sekund</p>",
-        "niva": "A"
+        "fraga": "Solen strålar ut 3,85·10²⁶ W. Hur mycket massa omvandlas till energi per sekund? Svara i kg/s. Använd E = mc² och c = 2,998·10⁸ m/s.",
+        "s": "<div class=\"facit-v2\"><p>Effekt är energi per sekund. Därför ger E = mc² massan per sekund.</p><p><div class=\"facit-v2\"><p>\\[\\dot m=P/c^2\\]</p><p>\\[\\dot m\\approx4280000000\\ \\mathrm{kg/s}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4283487190.259372,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg/s",
+        "tolerans": 107087179.75648431,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt är energi per sekund. Dela effekten med c².</p>",
+        "t": "<p>Solen strålar ut 3,85·10²⁶ W. Hur mycket massa omvandlas till energi per sekund? Svara i kg/s. Använd E = mc² och c = 2,998·10⁸ m/s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket blir det på ett år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett år är 3,156·10⁷ s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m_{\\mathrm{år}}=(4{,}28\\cdot10^9)(3{,}156\\cdot10^7)=1{,}35\\cdot10^{17}\\ \\mathrm{kg}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}35\\cdot10^{17}\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Effekt är energi per sekund. Med \\(E=mc^2\\) blir massomvandlingen per sekund</p>",
-        "niva": "A"
+        "fraga": "Solen omvandlar 4,28·10⁹ kg till energi per sekund. Hur mycket blir det på ett år? Svara i kg. Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p>\\[m=4{,}28\\cdot10^9\\cdot3{,}156\\cdot10^7\\]</p><p>\\[m\\approx1{,}35\\cdot10^{17}\\ \\mathrm{kg}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.350768e+17,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 5000000000000000.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massan per sekund med antalet sekunder.</p>",
+        "t": "<p>Solen omvandlar 4,28·10⁹ kg till energi per sekund. Hur mycket blir det på ett år? Svara i kg. Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Solen har lyst i ungefär 4,6 miljarder år. Hur stor andel av sin massa har den förlorat på det sättet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 4,6 miljarder år blir massan och andelen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=(1{,}35\\cdot10^{17})(4{,}6\\cdot10^9)=6{,}22\\cdot10^{26}\\ \\mathrm{kg}\\]\\[\\frac{\\Delta m}{M_\\odot}\\cdot100\\,\\%=0{,}0313\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Beräkningen antar att solens utstrålade effekt varit konstant på dagens nivå.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0313\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Effekt är energi per sekund. Med \\(E=mc^2\\) blir massomvandlingen per sekund</p>",
-        "niva": "A"
+        "fraga": "I en modell omvandlar solen 1,35·10¹⁷ kg till energi varje år under 4,6 miljarder år. Solens massa är 1,989·10³⁰ kg. Hur många procent av massan omvandlas?",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=1{,}35\\cdot10^{17}\\cdot4{,}6\\cdot10^9\\]</p><p>\\[m\\approx6{,}21\\cdot10^{26}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[andel=m/M\\cdot100\\]</p><p>\\[andel\\approx0{,}0312\\ \\%\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.03122171945701357,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.0007805429864253394,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Räkna massan under hela tiden och dela med solens massa.</p>",
+        "t": "<p>I en modell omvandlar solen 1,35·10¹⁷ kg till energi varje år under 4,6 miljarder år. Solens massa är 1,989·10³⁰ kg. Hur många procent av massan omvandlas?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Kärnreaktioner, massa och energi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.47",
@@ -107752,10 +107792,10 @@ window.BANK = [
     "id": "9.53",
     "kap": 9,
     "omr": "fusion",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>I solen omvandlas fyra väteatomer till en heliumatom. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. 1 u motsvarar 931,5 MeV.</p>\n<ol><li>Hur stor är massdefekten?</li><li>Hur mycket energi frigörs per bildad heliumkärna?</li>\n<li>Hur stor andel av väteatomernas massa omvandlas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är skillnaden mellan fyra väteatomers massa och heliumatomens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=4(1{,}007825)-4{,}002603=0{,}028697\\ \\mathrm u\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin som motsvarar massdefekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}028697)(931{,}5)=26{,}73\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>En liten del förs bort av neutriner i proton–protonkedjan; resten värmer solen och strålas så småningom ut.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Andelen av utgångsmassan är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{0{,}028697}{4(1{,}007825)}\\cdot100\\,\\%=0{,}712\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massdefekten är \\(0{,}02870\\ \\mathrm u\\), energin \\(26{,}7\\ \\mathrm{MeV}\\), och cirka \\(0{,}71\\,\\%\\) av vätemassan omvandlas till energi.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Fyra väteatomer omvandlas till en heliumatom i solens fusionskedja. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. 1 u motsvarar 931,5 MeV.</p><p>a) Bestäm massminskningen i u.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Hur många procent av väteatomernas massa omvandlas till energi?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=4\\cdot1{,}007825=4{,}031300\\ \\mathrm u\\]</p><p>\\[\\Delta m=4{,}031300-4{,}002603\\]</p><p>\\[\\Delta m=0{,}028697\\ \\mathrm u\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[Q=0{,}028697\\cdot931{,}5\\]</p><p>\\[Q\\approx26{,}7\\ \\mathrm{MeV}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[andel=(0{,}028697/4{,}031300)\\cdot100\\]</p><p>\\[andel\\approx0{,}712\\ \\%\\]</p></div></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur"
@@ -107763,16 +107803,20 @@ window.BANK = [
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.0287,
-      26.7,
-      0.71
+      0.028697000000000195,
+      26.73125550000018,
+      0.7118547366854413
     ],
     "tolerans": [
-      0.000861,
-      0.40049999999999997,
-      0.01065
+      0.0007174250000000049,
+      0.6682813875000045,
+      0.017796368417136034
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -107793,40 +107837,75 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I solen omvandlas fyra väteatomer till en heliumatom. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. 1 u motsvarar 931,5 MeV.</p><div class=\"spel-en-del\">Hur stor är massdefekten?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är skillnaden mellan fyra väteatomers massa och heliumatomens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=4(1{,}007825)-4{,}002603=0{,}028697\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}028697\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>Massdefekten är skillnaden mellan fyra väteatomers massa och heliumatomens massa.</p>",
+        "fraga": "Fyra väteatomer omvandlas till en heliumatom. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. Bestäm massminskningen i u.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=4\\cdot1{,}007825=4{,}031300\\ \\mathrm u\\]</p><p>\\[\\Delta m=4{,}031300-4{,}002603\\]</p><p>\\[\\Delta m=0{,}028697\\ \\mathrm u\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.028697000000000195,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.0007174250000000049,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Fyra väteatomer omvandlas till en heliumatom. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. Bestäm massminskningen i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>I solen omvandlas fyra väteatomer till en heliumatom. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. 1 u motsvarar 931,5 MeV.</p><div class=\"spel-en-del\">Hur mycket energi frigörs per bildad heliumkärna?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin som motsvarar massdefekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}028697)(931{,}5)=26{,}73\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>En liten del förs bort av neutriner i proton–protonkedjan; resten värmer solen och strålas så småningom ut.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}73\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Energin som motsvarar massdefekten är Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "När fyra väteatomer bildar helium minskar massan med 0,028697 u. Hur mycket energi frigörs i MeV? 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[Q=0{,}028697\\cdot931{,}5\\]</p><p>\\[Q\\approx26{,}7\\ \\mathrm{MeV}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 26.73125550000018,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.6682813875000045,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massminskningen med energi per u.</p>",
+        "t": "<p>När fyra väteatomer bildar helium minskar massan med 0,028697 u. Hur mycket energi frigörs i MeV? 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "t": "<p>I solen omvandlas fyra väteatomer till en heliumatom. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. 1 u motsvarar 931,5 MeV.</p><div class=\"spel-en-del\">Hur stor andel av väteatomernas massa omvandlas?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Andelen av utgångsmassan är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{0{,}028697}{4(1{,}007825)}\\cdot100\\,\\%=0{,}712\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}712\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Fyra väteatomer har tillsammans massan 4,031300 u. Vid fusion till helium minskar massan med 0,028697 u. Hur många procent av den ursprungliga massan omvandlas till energi?",
+        "s": "<div class=\"facit-v2\"><p>\\[andel=(0{,}028697/4{,}031300)\\cdot100\\]</p><p>\\[andel\\approx0{,}712\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.7118547366854413,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.017796368417136034,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela minskningen med massan före reaktionen.</p>",
+        "t": "<p>Fyra väteatomer har tillsammans massan 4,031300 u. Vid fusion till helium minskar massan med 0,028697 u. Hur många procent av den ursprungliga massan omvandlas till energi?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "familjNyckelTidigare": "karnreaktioner__fusion_och_massenergi",
-    "ledtrad": "<p>Massdefekten är skillnaden mellan fyra väteatomers massa och heliumatomens massa.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Kärnreaktioner, massa och energi"
-    ]
+    ],
+    "spelIntro": "<p>Fyra väteatomer omvandlas till en heliumatom i solens fusionskedja. Väteatomens massa är 1,007825 u och heliumatomens 4,002603 u. 1 u motsvarar 931,5 MeV.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.54",
@@ -110350,56 +110429,142 @@ window.BANK = [
     "id": "9.71",
     "kap": 9,
     "omr": "fusion",
-    "niva": "A",
-    "typ": "beräkna energiutbytet per kilogram vid fusion, ur text, sökt energi",
-    "poang": "(0/2/2)",
-    "t": "<p>I en fusionsreaktor slås deuterium och tritium samman enligt ²₁H + ³₁H → ⁴₂He + n. Massorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u. 1 u motsvarar 931,5 MeV, 1 u = 1,66054·10⁻²⁷ kg och 1 MeV = 1,602·10⁻¹³ J.</p>\n<ol><li>Bestäm massdefekten och den energi som frigörs per reaktion.</li>\n<li>Hur mycket energi ger ett kilo bränsle?</li>\n<li>Ett gram U-235 ger 8,2·10¹⁰ J vid fission. Jämför de två energikällorna.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten i deuterium–tritium-reaktionen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=(2{,}014102+3{,}016049)-(4{,}002603+1{,}008665)=0{,}018883\\ \\mathrm u\\]</div></div><div class=\"facit-stycke\"><p>\\[Q=(0{,}018883)(931{,}5)=17{,}59\\ \\mathrm{MeV}\\]</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En reaktion förbrukar bränslemassan</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_r=(5{,}030151)(1{,}66054\\cdot10^{-27})=8{,}352\\cdot10^{-27}\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>\\[N=\\frac{1}{m_r}=1{,}197\\cdot10^{26}\\]</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin per reaktion är 2,818·10⁻¹² J.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För ett kilogram blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{1\\,\\mathrm{kg}}=(1{,}197\\cdot10^{26})(17{,}59)(1{,}602\\cdot10^{-13})=3{,}37\\cdot10^{14}\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fission av ett kilogram U-235 ger enligt uppgiften 8,2·10¹³ J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{3{,}37\\cdot10^{14}}{8{,}2\\cdot10^{13}}=4{,}11\\]</div></div><div class=\"facit-stycke\"><p>D–T-fusion ger alltså cirka fyra gånger mer energi per kilogram bränsle.</p></div><div class=\"facit-stycke\"><p>Den stora tekniska utmaningen är att skapa och kontrollera ett tillräckligt hett plasma.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\Delta m=0{,}018883\\ \\mathrm u\\), \\(Q=17{,}6\\ \\mathrm{MeV}\\) och cirka \\(3{,}4\\cdot10^{14}\\ \\mathrm{J/kg}\\), ungefär fyra gånger U-235-värdet i uppgiften.</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>D–T-fusion: ²H + ³H → ⁴He + n. Atommassorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u i samma ordning. 1 u motsvarar 931,5 MeV, 1 u = 1,66054·10⁻²⁷ kg och 1 MeV = 1,602·10⁻¹³ J. Bränslet innehåller lika många deuterium- och tritiumatomer. Allt bränsle reagerar.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"D–T-fusion: två protoner och tre neutroner före och efter reaktionen\" viewBox=\"0 0 600 250\" width=\"600\" height=\"250\"><rect width=\"600\" height=\"250\" rx=\"16\" fill=\"#f5f8fb\"/><defs><marker id=\"dtarrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0 0L10 5L0 10Z\" fill=\"#334155\"/></marker></defs><text x=\"55\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Deuterium</text><circle cx=\"55\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"55\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"55\" cy=\"127\" r=\"17\" fill=\"#28618a\"/><text x=\"55\" y=\"133\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"205\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Tritium</text><circle cx=\"188\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"188\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"222\" cy=\"93\" r=\"17\" fill=\"#28618a\"/><text x=\"222\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><circle cx=\"205\" cy=\"125\" r=\"17\" fill=\"#28618a\"/><text x=\"205\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"420\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Helium</text><circle cx=\"403\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"403\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"437\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"437\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"403\" cy=\"127\" r=\"17\" fill=\"#28618a\"/><text x=\"403\" y=\"133\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><circle cx=\"437\" cy=\"127\" r=\"17\" fill=\"#28618a\"/><text x=\"437\" y=\"133\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"550\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Neutron</text><circle cx=\"550\" cy=\"110\" r=\"17\" fill=\"#28618a\"/><text x=\"550\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"126\" y=\"113\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">+</text><text x=\"491\" y=\"113\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">+</text><line x1=\"267\" y1=\"110\" x2=\"354\" y2=\"110\" stroke=\"#334155\" stroke-width=\"3\" marker-end=\"url(#dtarrow)\"/><text x=\"311\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Energi frigörs</text><circle cx=\"157\" cy=\"219\" r=\"17\" fill=\"#a72e36\"/><text x=\"157\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><text x=\"213\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">proton</text><circle cx=\"342\" cy=\"219\" r=\"17\" fill=\"#28618a\"/><text x=\"342\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"407\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">neutron</text></svg></span><p>a) Bestäm massminskningen i u och frigjord energi i MeV.</p><p>b) Hur mycket energi ger 1,0 kg bränsle? Svara i J.</p><p>c) Ett gram uran-235 ger 8,2·10¹⁰ J. Hur många gånger större är energin per kg för D–T-bränslet?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=5{,}030151\\ \\mathrm u\\]</p><p>\\[m_{efter}=5{,}011268\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}018883\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=5{,}030151\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m_r\\approx8{,}35\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1/m_r\\]</p><p>\\[N\\approx1{,}2\\cdot10^{26}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=17{,}5895145\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx2{,}82\\cdot10^{-12}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_r\\]</p><p>\\[E\\approx3{,}37\\cdot10^{14}\\ \\mathrm{J}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E_{fission}=1000\\cdot8{,}2\\cdot10^{10}\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[kvot=E_{fusion}/E_{fission}\\]</p><p>\\[kvot\\approx4{,}11\\]</p></div></p><p>D–T-modellen ger ungefär fyra gånger så mycket energi per kg förbrukat bränsle.</p></div></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur",
-      "resonemang"
+      "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Massdefekten i deuterium–tritium-reaktionen är Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        0.01888300000000065,
+        17.589514500000604
+      ],
+      337354105845621.9,
+      4.114074461531974
+    ],
+    "tolerans": [
+      [
+        0.0005,
+        0.5
+      ],
+      8434085434569.961,
+      0.10274390243902438
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en fusionsreaktor slås deuterium och tritium samman enligt ²₁H + ³₁H → ⁴₂He + n. Massorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u. 1 u motsvarar 931,5 MeV, 1 u = 1,66054·10⁻²⁷ kg och 1 MeV = 1,602·10⁻¹³ J.</p>",
+    "spelIntro": "<p>D–T-fusion: ²H + ³H → ⁴He + n. Atommassorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u i samma ordning. 1 u motsvarar 931,5 MeV, 1 u = 1,66054·10⁻²⁷ kg och 1 MeV = 1,602·10⁻¹³ J. Bränslet innehåller lika många deuterium- och tritiumatomer. Allt bränsle reagerar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm massdefekten och den energi som frigörs per reaktion.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten i deuterium–tritium-reaktionen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=(2{,}014102+3{,}016049)-(4{,}002603+1{,}008665)=0{,}018883\\ \\mathrm u\\]</div></div><div class=\"facit-stycke\"><p>\\[Q=(0{,}018883)(931{,}5)=17{,}59\\ \\mathrm{MeV}\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}59\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Massdefekten i deuterium–tritium-reaktionen är Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "A"
+        "fraga": "D–T-fusion: ²H + ³H → ⁴He + n. Atommassorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u i samma ordning. 1 u motsvarar 931,5 MeV. Bestäm massminskningen i u och energin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=5{,}030151\\ \\mathrm u\\]</p><p>\\[m_{efter}=5{,}011268\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}018883\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0.01888300000000065,
+          17.589514500000604
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "u",
+          "MeV"
+        ],
+        "tolerans": [
+          0.0005,
+          0.5
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>D–T-fusion: ²H + ³H → ⁴He + n. Atommassorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u i samma ordning. 1 u motsvarar 931,5 MeV. Bestäm massminskningen i u och energin i MeV.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"D–T-fusion: två protoner och tre neutroner före och efter reaktionen\" viewBox=\"0 0 600 250\" width=\"600\" height=\"250\"><rect width=\"600\" height=\"250\" rx=\"16\" fill=\"#f5f8fb\"/><defs><marker id=\"dtarrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0 0L10 5L0 10Z\" fill=\"#334155\"/></marker></defs><text x=\"55\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Deuterium</text><circle cx=\"55\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"55\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"55\" cy=\"127\" r=\"17\" fill=\"#28618a\"/><text x=\"55\" y=\"133\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"205\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Tritium</text><circle cx=\"188\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"188\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"222\" cy=\"93\" r=\"17\" fill=\"#28618a\"/><text x=\"222\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><circle cx=\"205\" cy=\"125\" r=\"17\" fill=\"#28618a\"/><text x=\"205\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"420\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Helium</text><circle cx=\"403\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"403\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"437\" cy=\"93\" r=\"17\" fill=\"#a72e36\"/><text x=\"437\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><circle cx=\"403\" cy=\"127\" r=\"17\" fill=\"#28618a\"/><text x=\"403\" y=\"133\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><circle cx=\"437\" cy=\"127\" r=\"17\" fill=\"#28618a\"/><text x=\"437\" y=\"133\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"550\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">Neutron</text><circle cx=\"550\" cy=\"110\" r=\"17\" fill=\"#28618a\"/><text x=\"550\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"126\" y=\"113\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">+</text><text x=\"491\" y=\"113\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">+</text><line x1=\"267\" y1=\"110\" x2=\"354\" y2=\"110\" stroke=\"#334155\" stroke-width=\"3\" marker-end=\"url(#dtarrow)\"/><text x=\"311\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Energi frigörs</text><circle cx=\"157\" cy=\"219\" r=\"17\" fill=\"#a72e36\"/><text x=\"157\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">+</text><text x=\"213\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">proton</text><circle cx=\"342\" cy=\"219\" r=\"17\" fill=\"#28618a\"/><text x=\"342\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"white\">n</text><text x=\"407\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">neutron</text></svg></span>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Massminskning",
+          "Energi"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi ger ett kilo bränsle?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En reaktion förbrukar bränslemassan</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_r=(5{,}030151)(1{,}66054\\cdot10^{-27})=8{,}352\\cdot10^{-27}\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>\\[N=\\frac{1}{m_r}=1{,}197\\cdot10^{26}\\]</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin per reaktion är 2,818·10⁻¹² J.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För ett kilogram blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{1\\,\\mathrm{kg}}=(1{,}197\\cdot10^{26})(17{,}59)(1{,}602\\cdot10^{-13})=3{,}37\\cdot10^{14}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}37\\cdot10^{14}\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Massdefekten i deuterium–tritium-reaktionen är Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "A"
+        "fraga": "Ett kg fusionsbränsle innehåller lika många deuterium- och tritiumatomer och reagerar helt. Ett atompar väger 5,030151 u och frigör 17,59 MeV. Hur mycket energi frigörs i J? Använd 1 u = 1,66054·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=5{,}030151\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m_r\\approx8{,}35\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1/m_r\\]</p><p>\\[N\\approx1{,}2\\cdot10^{26}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=17{,}59\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx2{,}82\\cdot10^{-12}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_r\\]</p><p>\\[E\\approx3{,}37\\cdot10^{14}\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 337363417382798.44,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 8434085434569.961,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Räkna antalet atompar i ett kg och multiplicera med energin per par.</p>",
+        "t": "<p>Ett kg fusionsbränsle innehåller lika många deuterium- och tritiumatomer och reagerar helt. Ett atompar väger 5,030151 u och frigör 17,59 MeV. Hur mycket energi frigörs i J? Använd 1 u = 1,66054·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Ett gram U-235 ger 8,2·10¹⁰ J vid fission. Jämför de två energikällorna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fission av ett kilogram U-235 ger enligt uppgiften 8,2·10¹³ J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{3{,}37\\cdot10^{14}}{8{,}2\\cdot10^{13}}=4{,}11\\]</div></div><div class=\"facit-stycke\"><p>D–T-fusion ger alltså cirka fyra gånger mer energi per kilogram bränsle.</p></div><div class=\"facit-stycke\"><p>Den stora tekniska utmaningen är att skapa och kontrollera ett tillräckligt hett plasma.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}11\\).</p></div>",
-        "ledtrad": "<p>Massdefekten i deuterium–tritium-reaktionen är Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "A"
+        "fraga": "Ett kg D–T-bränsle ger 3,37·10¹⁴ J. Ett gram uran-235 ger 8,2·10¹⁰ J. Hur många gånger större är energin per kg för D–T-bränslet?",
+        "s": "<div class=\"facit-v2\"><p>\\[E_{U}=1000\\cdot8{,}2\\cdot10^{10}=8{,}2\\cdot10^{13}\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[kvot=3{,}37\\cdot10^{14}/(8{,}2\\cdot10^{13})\\]</p><p>\\[kvot\\approx4{,}11\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.109756097560975,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.10274390243902438,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla uranets energi till energi per kg före jämförelsen.</p>",
+        "t": "<p>Ett kg D–T-bränsle ger 3,37·10¹⁴ J. Ett gram uran-235 ger 8,2·10¹⁰ J. Hur många gånger större är energin per kg för D–T-bränslet?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "karnreaktioner",
     "familjTidigare": [
       "Fission och energiutvinning"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "u",
+        "MeV"
+      ],
+      "J",
+      null
     ]
   },
   {
@@ -179985,8 +180150,8 @@ window.BANK = [
     "niva": "E",
     "typ": "varför fusion kräver hög temperatur",
     "poang": "(1/0/0)",
-    "t": "<p>För att fusion ska ske måste bränslet ha en temperatur på över hundra miljoner kelvin.</p><p>Varför krävs så hög temperatur?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnorna är positiva och stöter bort varandra.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Bara mycket snabba kärnor kommer så nära att den starka kraften kan binda ihop dem.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kärnorna måste övervinna den elektriska repulsionen.</p></div>",
+    "t": "<p>Bränslet i en D–T-fusionsreaktor behöver vara mycket varmt. Varför hjälper hög temperatur kärnorna att reagera?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Kärnorna är positivt laddade och stöter bort varandra. Vid hög temperatur rör de sig snabbare. Då ökar chansen att de kommer tillräckligt nära för att fusion ska ske.</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "begrepp",
@@ -179998,9 +180163,9 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Kärnorna måste röra sig så snabbt att de kommer nära varandra trots den elektriska repulsionen.",
+        "txt": "Kärnorna rör sig snabbare och kan lättare komma nära varandra trots att de stöter bort varandra.",
         "ratt": true,
-        "kommentar": "Först på mycket korta avstånd tar den starka kraften över."
+        "kommentar": "Högre rörelseenergi ökar chansen för fusion."
       },
       {
         "txt": "Värmen behövs för att klyva kärnorna.",
@@ -180018,7 +180183,7 @@ window.BANK = [
         "kommentar": "Massan ändras inte av temperaturen på det sättet."
       }
     ],
-    "ledtrad": "<p>Vilken kraft försöker hålla kärnorna isär?</p>",
+    "ledtrad": "<p>Hur påverkar temperaturen kärnornas rörelse?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -180030,112 +180195,112 @@ window.BANK = [
     "kap": 9,
     "omr": "fusion",
     "niva": "E",
-    "typ": "energi från massminskning vid D-T-fusion",
     "poang": "(1/0/0)",
-    "t": "<p>I en fusionsreaktor reagerar deuterium och tritium: ²H + ³H → ⁴He + n. Den sammanlagda massan minskar med 0,018883 u. Använd sambandet 1 u motsvarar 931,5 MeV.</p><p>Hur stor energi frigörs per reaktion? Svara i MeV.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen omvandlas till energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}018883\\cdot931{,}5\\approx17{,}6\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}6\\ \\mathrm{MeV}\\).</p></div>",
+    "t": "<p>Vid D–T-fusion minskar massan med 0,018883 u per reaktion. Hur mycket energi frigörs i MeV? 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[E=0{,}018883\\cdot931{,}5\\]</p><p>\\[E\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 17.59,
-    "tolerans": 0.06,
+    "rättSvar": 17.5895145,
+    "tolerans": 0.5,
     "självrättning": true,
-    "ledtrad": "<p>Hur många MeV motsvarar en atommassenhet?</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Multiplicera massminskningen med energi per u.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "MeV"
+    "svarEnhet": "MeV",
+    "manuellKomplettering": false
   },
   {
     "id": "9.290",
     "kap": 9,
     "omr": "fusion",
-    "niva": "C",
-    "typ": "massminskning vid fusion",
-    "poang": "(0/1/0)",
-    "t": "<p>Reaktionen ²H + ³H → ⁴He + n används i fusionsexperiment. Massorna är m(²H) = 2,014102 u, m(³H) = 3,016049 u, m(⁴He) = 4,002603 u och m(n) = 1,008665 u.</p><p>Bestäm massminskningen i reaktionen. Svara i u med sex decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen är massan före minus massan efter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=(2{,}014102+3{,}016049)-(4{,}002603+1{,}008665)=0{,}018883\\ \\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}018883\\ \\mathrm u\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>D–T-fusion: ²H + ³H → ⁴He + n. Atommassorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u i samma ordning. Bestäm massminskningen i u med sex decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m_{före}=2{,}014102+3{,}016049\\]</p><p>\\[m_{före}=5{,}030151\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}002603+1{,}008665\\]</p><p>\\[m_{efter}=5{,}011268\\ \\mathrm u\\]</p><p>\\[\\Delta m=5{,}030151-5{,}011268\\]</p><p>\\[\\Delta m=0{,}018883\\ \\mathrm u\\]</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.018883,
-    "tolerans": 2e-06,
+    "rättSvar": 0.01888300000000065,
+    "tolerans": 5e-07,
     "självrättning": true,
-    "ledtrad": "<p>Summera massorna på varje sida av reaktionspilen och jämför.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "u"
+    "svarEnhet": "u",
+    "manuellKomplettering": false
   },
   {
     "id": "9.291",
     "kap": 9,
     "omr": "fusion",
-    "niva": "C",
-    "typ": "energi vid D-D-fusion",
-    "poang": "(0/1/0)",
-    "t": "<p>Två deuteriumkärnor kan fusionera: ²H + ²H → ³He + n. Massorna är m(²H) = 2,014102 u, m(³He) = 3,016029 u och m(n) = 1,008665 u. Använd sambandet 1 u motsvarar 931,5 MeV.</p><p>Bestäm den frigjorda energin i MeV.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm massminskningen och omvandla till energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=2\\cdot2{,}014102-(3{,}016029+1{,}008665)=0{,}003510\\ \\mathrm u\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}003510\\cdot931{,}5\\approx3{,}27\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}27\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Två deuteriumkärnor reagerar: ²H + ²H → ³He + n. Atommassorna är m(²H) = 2,014102 u, m(³He) = 3,016029 u och m(n) = 1,008665 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m_{före}=4{,}028204\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}024694\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00351\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx3{,}27\\ \\mathrm{MeV}\\]</p></div></p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 3.27,
-    "tolerans": 0.02,
+    "rättSvar": 3.269564999999495,
+    "tolerans": 0.08173912499998738,
     "självrättning": true,
-    "ledtrad": "<p>Börja med massminskningen. Två deuteriumkärnor reagerar.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "MeV"
+    "svarEnhet": "MeV",
+    "manuellKomplettering": false
   },
   {
     "id": "9.292",
     "kap": 9,
     "omr": "fusion",
-    "niva": "C",
-    "typ": "energi ur ett gram massa",
-    "poang": "(0/1/0)",
-    "t": "<p>I solens kärna omvandlas massa till energi genom fusion. Anta att massan minskar med 1,0 g. Ljusets hastighet är 3,0·10⁸ m/s.</p><p>Hur stor energi frigörs? Svara i terajoule (1 TJ = 10¹² J).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd E = mc² med massan i kilogram.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=1{,}0\\cdot10^{-3}\\cdot(3{,}0\\cdot10^8)^2=9{,}0\\cdot10^{13}\\ \\mathrm J=90\\ \\mathrm{TJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(90\\ \\mathrm{TJ}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid fusion omvandlas 1,0 g massa till energi. Hur mycket energi frigörs i TJ? Använd E = mc², c = 3,0·10⁸ m/s och 1 TJ = 10¹² J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m=0{,}0010\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[E=0{,}0010\\cdot(3{,}0\\cdot10^8)^2\\]</p><p>\\[E\\approx9\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p><p>\\[E=90\\ \\mathrm{TJ}\\]</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 90,
-    "tolerans": 0.5,
+    "tolerans": 2.25,
     "självrättning": true,
-    "ledtrad": "<p>Omvandla gram till kilogram och använd E = mc².</p>",
+    "ledtrad": "<p>Omvandla g till kg innan du använder E = mc².</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "TJ"
+    "svarEnhet": "TJ",
+    "manuellKomplettering": false
   },
   {
     "id": "9.293",
     "kap": 9,
     "omr": "fusion",
-    "niva": "C",
+    "niva": "E",
     "typ": "varför fusion frigör energi",
-    "poang": "(0/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Varför frigörs energi när två väteisotoper fusionerar till helium?</p><p>Markera det korrekta alternativet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin per nukleon ökar kraftigt från de lättaste kärnorna till helium.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När kärnorna binds hårdare minskar den totala massan, och massminskningen frigörs som energi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Heliumkärnan är hårdare bunden, alltså har högre bindningsenergi per nukleon.</p></div>",
     "familj": "Fusion och energi",
@@ -180170,7 +180335,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Jämför bindningsenergin per nukleon före och efter.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -180181,26 +180346,26 @@ window.BANK = [
     "kap": 9,
     "omr": "fusion",
     "niva": "E",
-    "typ": "energi i pikojoule",
     "poang": "(1/0/0)",
-    "t": "<p>En fusionsreaktion frigör 17,6 MeV. 1 eV motsvarar 1,602·10⁻¹⁹ J.</p><p>Hur stor är energin i pikojoule (1 pJ = 10⁻¹² J)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla MeV till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=17{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\approx2{,}82\\cdot10^{-12}\\ \\mathrm J=2{,}82\\ \\mathrm{pJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}82\\ \\mathrm{pJ}\\).</p></div>",
+    "t": "<p>En fusionsreaktion frigör 17,6 MeV. Hur stor är energin i pJ? Använd 1 eV = 1,602·10⁻¹⁹ J och 1 pJ = 10⁻¹² J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=17{,}6\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx2{,}82\\cdot10^{-12}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_J/10^{-12}\\]</p><p>\\[E\\approx2{,}82\\ \\mathrm{pJ}\\]</p></div></p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 2.82,
-    "tolerans": 0.02,
+    "rättSvar": 2.8195200000000002,
+    "tolerans": 0.07048800000000001,
     "självrättning": true,
-    "ledtrad": "<p>Skriv om MeV till eV och sedan till joule.</p>",
+    "ledtrad": "<p>Omvandla MeV till J, sedan till pJ.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "pJ"
+    "svarEnhet": "pJ",
+    "manuellKomplettering": false
   },
   {
     "id": "9.295",
@@ -180209,8 +180374,8 @@ window.BANK = [
     "niva": "E",
     "typ": "fusion jämfört med fission",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken fördel har fusion jämfört med fission som energikälla?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fusionsbränslet deuterium kan utvinnas ur vatten, och reaktionsprodukten helium är stabil.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det blir fortfarande en del radioaktivt material när neutroner träffar reaktorns väggar, men det är kortlivat jämfört med fissionsavfall.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Rikligt bränsle och mindre långlivat avfall.</p></div>",
+    "t": "<p>Vilken fördel har deuterium som fusionsbränsle?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Deuterium finns naturligt i vatten. Därför finns en stor tillgång på denna del av D–T-bränslet. Tritium, den andra delen, behöver däremot framställas.</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "begrepp"
@@ -180221,9 +180386,9 @@ window.BANK = [
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Bränslet finns rikligt och avfallet är mindre långlivat radioaktivt.",
+        "txt": "Deuterium kan utvinnas ur vatten och finns i stora mängder.",
         "ratt": true,
-        "kommentar": "Deuterium finns i havsvatten och heliumet är inte radioaktivt."
+        "kommentar": "Deuterium är en väteisotop som finns i vatten."
       },
       {
         "txt": "Fusion är redan i dag billigare än fission i kommersiella kraftverk.",
@@ -180241,8 +180406,8 @@ window.BANK = [
         "kommentar": "D-T-reaktionen ger snabba neutroner."
       }
     ],
-    "ledtrad": "<p>Tänk på bränslets tillgång och vad som blir kvar.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Tänk på var det finns väte.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -180252,10 +180417,9 @@ window.BANK = [
     "kap": 9,
     "omr": "fusion",
     "niva": "E",
-    "typ": "neutroninfångning i väte",
     "poang": "(2/0/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p><ol type=\"a\"><li>¹H + n → ²H + γ.</li><li>²H + n → ³H + γ.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(1{,}0078250+1{,}0086649-2{,}0141018)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}22\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(2{,}0141018+1{,}0086649-3{,}0160493)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}26\\) MeV</p></li></ol></div>",
+    "t": "<p>a) Reaktionen är ¹H + n → ²H + γ. Massorna på vänster sida är 1,007825 u och 1,0086649 u. Atommassan på höger sida är 2,0141018 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,49 MeV.</p><p>b) Reaktionen är ²H + n → ³H + γ. Massorna på vänster sida är 2,0141018 u och 1,0086649 u. Atommassan på höger sida är 3,0160493 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,49 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Gammafotonen har ingen vilomassa. Massminskningen blir frigjord energi.</p><p><div class=\"facit-v2\"><p>\\[m_{före}=2{,}0164899\\ \\mathrm u\\]</p><p>\\[m_{efter}=2{,}0141018\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0023881\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx2{,}22\\ \\mathrm{MeV}\\]</p></div></p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Gammafotonen har ingen vilomassa. Massminskningen blir frigjord energi.</p><p><div class=\"facit-v2\"><p>\\[m_{före}=3{,}0227667\\ \\mathrm u\\]</p><p>\\[m_{efter}=3{,}0160493\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0067174\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx6{,}26\\ \\mathrm{MeV}\\]</p></div></p></div></p></div></div>",
     "id": "9.414",
     "miniräknare": true,
     "geogebra": false,
@@ -180266,10 +180430,13 @@ window.BANK = [
       6.257190925999883
     ],
     "tolerans": [
-      0.0334,
-      0.0939
+      0.05561228172499234,
+      0.15642977314999706
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -180287,45 +180454,61 @@ window.BANK = [
       "MeV"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "¹H + n → ²H + γ.",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p><p>¹H + n → ²H + γ.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(1{,}0078250+1{,}0086649-2{,}0141018)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}22\\) MeV</p></div>",
-        "ledtrad": "<p>Fotonen har ingen massa.</p>",
+        "fraga": "Reaktionen är ¹H + n → ²H + γ. Massorna på vänster sida är 1,007825 u och 1,0086649 u. Atommassan på höger sida är 2,0141018 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,49 MeV.",
+        "s": "<div class=\"facit-v2\"><p>Gammafotonen har ingen vilomassa. Massminskningen blir frigjord energi.</p><p><div class=\"facit-v2\"><p>\\[m_{före}=2{,}0164899\\ \\mathrm u\\]</p><p>\\[m_{efter}=2{,}0141018\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0023881\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx2{,}22\\ \\mathrm{MeV}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.2244912689996936,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.05561228172499234,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Reaktionen är ¹H + n → ²H + γ. Massorna på vänster sida är 1,007825 u och 1,0086649 u. Atommassan på höger sida är 2,0141018 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,49 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "²H + n → ³H + γ.",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Atommassor: ¹H 1,0078250 u, ²H 2{,}0141018 u, ³H 3{,}0160493 u, neutron 1,0086649 u. Bestäm energin som frigörs vid</p><p>²H + n → ³H + γ.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(2{,}0141018+1{,}0086649-3{,}0160493)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}26\\) MeV</p></div>",
-        "ledtrad": "<p>Fotonen har ingen massa.</p>",
+        "fraga": "Reaktionen är ²H + n → ³H + γ. Massorna på vänster sida är 2,0141018 u och 1,0086649 u. Atommassan på höger sida är 3,0160493 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,49 MeV.",
+        "s": "<div class=\"facit-v2\"><p>Gammafotonen har ingen vilomassa. Massminskningen blir frigjord energi.</p><p><div class=\"facit-v2\"><p>\\[m_{före}=3{,}0227667\\ \\mathrm u\\]</p><p>\\[m_{efter}=3{,}0160493\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0067174\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx6{,}26\\ \\mathrm{MeV}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.257190925999883,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.15642977314999706,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Reaktionen är ²H + n → ³H + γ. Massorna på vänster sida är 2,0141018 u och 1,0086649 u. Atommassan på höger sida är 3,0160493 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,49 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(Q=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "traningsniva": 2,
     "familjNyckel": "fusion__fusion_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fusion",
     "niva": "E",
-    "typ": "väteatomer i solens inre",
     "poang": "(2/0/0)",
-    "t": "<p>Den genomsnittliga rörelseenergin hos en partikel i en gas är \\(E_k=\\tfrac32kT\\) med \\(k=1{,}3806\\cdot10^{-23}\\) J/K. I solens inre är \\(T=2\\cdot10^7\\) K.</p><ol type=\"a\"><li>Bestäm medelrörelseenergin hos en väteatom.</li><li>Vilken fart har en sådan väteatom (\\(1{,}6735\\cdot10^{-27}\\) kg)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\cdot10^{-16}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2E_k}{m}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{5}\\) m/s</p></li></ol></div>",
+    "t": "<p>I solens inre finns fria protoner. Temperaturen är 2,0·10⁷ K. Den genomsnittliga rörelseenergin är Eₖ = 1,5kT med k = 1,3806·10⁻²³ J/K. Protonens massa är 1,6735·10⁻²⁷ kg.</p><p>a) Bestäm den genomsnittliga rörelseenergin i J.</p><p>b) Vilken fart motsvarar denna rörelseenergi? Svara i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\]</p><p>\\[E_k\\approx4{,}14\\cdot10^{-16}\\ \\mathrm{J}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[v=\\sqrt{2E_k/m}\\]</p><p><div class=\"facit-v2\"><p>\\[v=\\sqrt{2E_k/m}\\]</p><p>\\[v\\approx704000\\ \\mathrm{m/s}\\]</p></div></p></div></div>",
     "id": "9.415",
     "miniräknare": true,
     "geogebra": false,
@@ -180336,13 +180519,15 @@ window.BANK = [
       703552.8090513118
     ],
     "tolerans": [
-      6.21e-18,
-      10600.0
+      1.03545e-17,
+      17499.839941220314
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -180358,66 +180543,87 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Den genomsnittliga rörelseenergin hos en partikel i en gas är \\(E_k=\\tfrac32kT\\) med \\(k=1{,}3806\\cdot10^{-23}\\) J/K. I solens inre är \\(T=2\\cdot10^7\\) K.</p>",
+    "spelIntro": "<p>I solens inre finns fria protoner. Temperaturen är 2,0·10⁷ K. Den genomsnittliga rörelseenergin är Eₖ = 1,5kT med k = 1,3806·10⁻²³ J/K. Protonens massa är 1,6735·10⁻²⁷ kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm medelrörelseenergin hos en väteatom.",
-        "t": "<p>Den genomsnittliga rörelseenergin hos en partikel i en gas är \\(E_k=\\tfrac32kT\\) med \\(k=1{,}3806\\cdot10^{-23}\\) J/K. I solens inre är \\(T=2\\cdot10^7\\) K.</p><p>Bestäm medelrörelseenergin hos en väteatom.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\cdot10^{-16}\\) J</p></div>",
-        "ledtrad": "<p>Sätt in i formeln.</p>",
+        "fraga": "En gas har temperaturen 2,0·10⁷ K. Den genomsnittliga rörelseenergin per partikel är Eₖ = 1,5kT, där k = 1,3806·10⁻²³ J/K. Bestäm energin i J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\]</p><p>\\[E_k\\approx4{,}14\\cdot10^{-16}\\ \\mathrm{J}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.1417999999999996e-16,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 1.03545e-17,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sätt temperaturen och k i den givna formeln.</p>",
+        "t": "<p>En gas har temperaturen 2,0·10⁷ K. Den genomsnittliga rörelseenergin per partikel är Eₖ = 1,5kT, där k = 1,3806·10⁻²³ J/K. Bestäm energin i J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken fart har atomen? Svara i m/s.",
-        "t": "<p>En väteatom har massan \\(1{,}6735\\cdot10^{-27}\\) kg och rörelseenergin \\(4{,}1\\cdot10^{-16}\\) J.</p><p>Vilken fart har atomen? Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2E_k}{m}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{5}\\) m/s</p></div>",
-        "ledtrad": "<p>\\(E_k=\\dfrac{mv^2}{2}\\).</p>",
+        "fraga": "En proton har rörelseenergin 4,1·10⁻¹⁶ J och massan 1,6735·10⁻²⁷ kg. Vilken fart har den? Svara i m/s.",
+        "s": "<div class=\"facit-v2\"><p>\\[E_k=mv^2/2\\]</p><p>\\[v=\\sqrt{2E_k/m}\\]</p><p><div class=\"facit-v2\"><p>\\[v=\\sqrt{2E_k/m}\\]</p><p>\\[v\\approx700000\\ \\mathrm{m/s}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 699993.5976488126,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m/s",
+        "tolerans": 17499.839941220314,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Lös ut v ur Eₖ = mv²/2.</p>",
+        "t": "<p>En proton har rörelseenergin 4,1·10⁻¹⁶ J och massan 1,6735·10⁻²⁷ kg. Vilken fart har den? Svara i m/s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Temperatur är ett mått på partiklarnas rörelseenergi.</p>",
+    "ledtrad": "<p>Sätt temperaturen och k i den givna formeln.</p>",
     "traningsniva": 2,
     "familjNyckel": "fusion__fusion_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fusion",
     "niva": "C",
-    "typ": "fusionskraft för ett hus",
-    "poang": "(1/3/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2,0141018 u, ³H 3,0160493 u, ⁴He 4,0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p><ol type=\"a\"><li>Hur stor energi frigörs vid en reaktion?</li><li>Hur många reaktioner krävs för husets årsbehov?</li><li>Vilken massa bränsle (²H + ³H) krävs?</li><li>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) skulle ge samma energi?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2{,}0141018+3{,}0160493-4{,}0026033-1{,}0086649)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}59\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{15\\,000\\cdot3{,}6\\cdot10^6}{17{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{22}\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot(2{,}0141018+3{,}0160493)\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00016\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{5{,}4\\cdot10^{10}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00066\\) kg</p></li></ol></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>Reaktionen är ²H + ³H → ⁴He + n. Atommassorna före är 2,0141018 u och 3,0160493 u. Atommassorna efter är 4,0026033 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Hur många reaktioner frigör samma energi som ett hus använder på ett år, 15 000 kWh?</p><p>c) Hur många kg D–T-bränsle förbrukas då?</p><p>d) En uran-235-atom väger 235,04 u och ger 200 MeV vid klyvning. Hur många kg uran-235 ger samma energi?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=5{,}0301511\\ \\mathrm u\\]</p><p>\\[m_{efter}=5{,}0112682\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0188829\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=15000\\cdot3{,}6\\cdot10^6\\]</p><p>\\[E\\approx54000000000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=17{,}589232521\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx2{,}82\\cdot10^{-12}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx1{,}92\\cdot10^{22}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=5{,}0301511\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx8{,}35\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_r\\]</p><p>\\[m\\approx0{,}00016\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=200\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx1{,}69\\cdot10^{21}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_r\\]</p><p>\\[m\\approx0{,}000658\\ \\mathrm{kg}\\]</p></div></p></div></p></div></div>",
     "id": "9.416",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fusion och energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      17.58923252100055,
-      1.91639203861192e+22,
-      0.00016006790795711817,
+      17.589232521000344,
+      1.9163920386119424e+22,
+      0.00016006790795711998,
       0.0006577818876404493
     ],
     "tolerans": [
-      0.264,
-      5.1e+20,
-      5.1e-06,
-      9.87e-06
+      0.5,
+      5e+20,
+      5e-06,
+      1.6444547191011232e-05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -180439,86 +180645,122 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2,0141018 u, ³H 3,0160493 u, ⁴He 4,0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p>",
+    "spelIntro": "<p>Reaktionen är ²H + ³H → ⁴He + n. Atommassorna före är 2,0141018 u och 3,0160493 u. Atommassorna efter är 4,0026033 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor energi frigörs vid en reaktion? Svara i MeV.",
-        "t": "<p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2,0141018 u, ³H 3,0160493 u, ⁴He 4,0026033 u, neutron 1,0086649 u. Använd att \\(1\\,\\mathrm u\\) motsvarar 931,49 MeV.</p><p>Hur stor energi frigörs vid en reaktion? Svara i MeV.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2{,}0141018+3{,}0160493-4{,}0026033-1{,}0086649)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}59\\) MeV</p></div>",
-        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "fraga": "Reaktionen är ²H + ³H → ⁴He + n. Atommassorna före är 2,0141018 u och 3,0160493 u. Atommassorna efter är 4,0026033 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=5{,}0301511\\ \\mathrm u\\]</p><p>\\[m_{efter}=5{,}0112682\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0188829\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 17.589232521000344,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Reaktionen är ²H + ³H → ⁴He + n. Atommassorna före är 2,0141018 u och 3,0160493 u. Atommassorna efter är 4,0026033 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många reaktioner krävs för husets årsbehov?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2,0141018 u, ³H 3,0160493 u, ⁴He 4,0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p>Varje reaktion ger 17,59 MeV.<p>Hur många reaktioner krävs för husets årsbehov?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{15\\,000\\cdot3{,}6\\cdot10^6}{17{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{22}\\)</p></div>",
-        "ledtrad": "<p>1 kWh = 3,6 MJ.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett hus behöver 15 000 kWh energi på ett år. En D–T-reaktion frigör 17,59 MeV. Hur många reaktioner frigör samma energi? 1 kWh = 3,6·10⁶ J. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=15000\\cdot3{,}6\\cdot10^6\\]</p><p>\\[E\\approx54000000000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=17{,}59\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx2{,}82\\cdot10^{-12}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx1{,}92\\cdot10^{22}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.91630842345306e+22,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 5e+20,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla båda energierna till J och dividera.</p>",
+        "t": "<p>Ett hus behöver 15 000 kWh energi på ett år. En D–T-reaktion frigör 17,59 MeV. Hur många reaktioner frigör samma energi? 1 kWh = 3,6·10⁶ J. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vilken massa bränsle (²H + ³H) krävs?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2,0141018 u, ³H 3,0160493 u, ⁴He 4,0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p>Det krävs \\(1{,}92\\cdot10^{22}\\) reaktioner.<p>Vilken massa bränsle (²H + ³H) krävs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot(2{,}0141018+3{,}0160493)\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00016\\) kg</p></div>",
-        "ledtrad": "<p>Varje reaktion förbrukar en deuteron och en triton.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Varje D–T-reaktion förbrukar en deuteriumatom på 2,0141018 u och en tritiumatom på 3,0160493 u. Hur många kg bränsle förbrukas vid 1,92·10²² reaktioner? Använd 1 u = 1,6605·10⁻²⁷ kg.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=5{,}0301511\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx8{,}35\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_r\\]</p><p>\\[m\\approx0{,}00016\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00016036926530976,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 5e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Räkna massan av ett atompar i kg, sedan hela bränslemassan.</p>",
+        "t": "<p>Varje D–T-reaktion förbrukar en deuteriumatom på 2,0141018 u och en tritiumatom på 3,0160493 u. Hur många kg bränsle förbrukas vid 1,92·10²² reaktioner? Använd 1 u = 1,6605·10⁻²⁷ kg.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) skulle ge samma energi?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-T-reaktionen: ²H + ³H → ⁴He + n. Atommassor: ²H 2,0141018 u, ³H 3,0160493 u, ⁴He 4,0026033 u, neutron 1,0086649 u. Ett hus använder 15 000 kWh el per år.</p><p>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) skulle ge samma energi?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{5{,}4\\cdot10^{10}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00066\\) kg</p></div>",
-        "ledtrad": "<p>Bestäm antalet klyvningar.</p>",
+        "fraga": "Varje klyvning av uran-235 ger 200 MeV. En uran-235-atom väger 235,04 u. Hur många kg uran-235 klyvs för att frigöra 5,4·10¹⁰ J? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=200\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx1{,}69\\cdot10^{21}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_r\\]</p><p>\\[m\\approx0{,}000658\\ \\mathrm{kg}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0006577818876404493,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 1.6444547191011232e-05,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Räkna antalet klyvningar, sedan atomernas sammanlagda massa.</p>",
+        "t": "<p>Varje klyvning av uran-235 ger 200 MeV. En uran-235-atom väger 235,04 u. Hur många kg uran-235 klyvs för att frigöra 5,4·10¹⁰ J? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(Q=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "traningsniva": 3,
     "familjNyckel": "fusion__fusion_och_energi",
-    "arbetsinsats": 3,
-    "spel": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fusion",
     "niva": "C",
-    "typ": "D-D-kraftverk jämfört med fission",
     "poang": "(1/2/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2,0141018 u, ³He 3,0160293 u, neutron 1,0086649 u.</p><ol type=\"a\"><li>Hur stor energi frigörs vid en reaktion?</li><li>Hur stor massa deuterium förbrukas per sekund?</li><li>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) förbrukar ett fissionsverk med samma effekt per sekund?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2\\cdot2{,}0141018-3{,}0160293-1{,}0086649)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}27\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(N=\\dfrac{1\\,500\\cdot10^6}{3{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\) per sekund, \\(m=N\\cdot2\\cdot2{,}0141018\\,\\text{u}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{-5}\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1\\,500\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\cdot10^{-5}\\) kg</p></li></ol></div>",
+    "t": "<p>Reaktionen är ²H + ²H → ³He + n. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160293 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Vilket massflöde deuterium krävs för värmeeffekten 1 500 MW? Svara i kg/s.</p><p>c) Uran-235 har atommassan 235,04 u och ger 200 MeV per klyvning. Vilket massflöde krävs för samma värmeeffekt? Svara i kg/s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0246942\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0035094\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx3{,}27\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=3{,}268971006\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx5{,}24\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot N=P/E_r\\]</p><p>\\[\\dot N\\approx2{,}86\\cdot10^{21}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_r=4{,}0282036\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx6{,}69\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot m=\\dot N m_r\\]</p><p>\\[\\dot m\\approx1{,}92\\cdot10^{-5}\\ \\mathrm{kg/s}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=200\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot N=P/E_r\\]</p><p>\\[\\dot N\\approx4{,}68\\cdot10^{19}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_r=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot m=\\dot N m_r\\]</p><p>\\[\\dot m\\approx1{,}83\\cdot10^{-5}\\ \\mathrm{kg/s}\\]</p></div></p></div></div>",
     "id": "9.417",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fusion och energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.268971006000203,
-      1.915878535542899e-05,
+      3.26897100600041,
+      1.9158785355427777e-05,
       1.8271719101123593e-05
     ],
     "tolerans": [
-      0.049,
-      5.1e-07,
-      5.1e-07
+      0.08172427515001025,
+      5e-07,
+      5e-07
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -180533,60 +180775,84 @@ window.BANK = [
     ],
     "svarEnhet": [
       "MeV",
-      "kg",
-      "kg"
+      "kg/s",
+      "kg/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2,0141018 u, ³He 3,0160293 u, neutron 1,0086649 u.</p>",
+    "spelIntro": "<p>Reaktionen är ²H + ²H → ³He + n. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160293 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor energi frigörs vid en reaktion? Svara i MeV.",
-        "t": "<p>D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2,0141018 u, ³He 3,0160293 u, neutron 1,0086649 u. Använd att \\(1\\,\\mathrm u\\) motsvarar 931,49 MeV.</p><p>Hur stor energi frigörs vid en reaktion? Svara i MeV.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2\\cdot2{,}0141018-3{,}0160293-1{,}0086649)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}27\\) MeV</p></div>",
-        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "fraga": "Reaktionen är ²H + ²H → ³He + n. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160293 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0246942\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0035094\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx3{,}27\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.26897100600041,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.08172427515001025,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Reaktionen är ²H + ²H → ³He + n. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160293 u och 1,0086649 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor massa deuterium förbrukas per sekund?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2,0141018 u, ³He 3,0160293 u, neutron 1,0086649 u.</p>Varje reaktion ger 3,27 MeV.<p>Hur stor massa deuterium förbrukas per sekund?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(N=\\dfrac{1\\,500\\cdot10^6}{3{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\) per sekund, \\(m=N\\cdot2\\cdot2{,}0141018\\,\\text{u}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{-5}\\) kg</p></div>",
-        "ledtrad": "<p>Två deuteroner per reaktion.</p>",
+        "fraga": "D–D-fusion ger värmeeffekten 1 500 MW. Varje reaktion förbrukar två deuteriumatomer, vardera 2,0141018 u, och ger 3,27 MeV. Hur många kg deuterium förbrukas per sekund? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=3{,}27\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx5{,}24\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot N=P/E_r\\]</p><p>\\[\\dot N\\approx2{,}86\\cdot10^{21}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_r=4{,}0282036\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx6{,}69\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot m=\\dot N m_r\\]</p><p>\\[\\dot m\\approx1{,}92\\cdot10^{-5}\\ \\mathrm{kg/s}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.915275652510051e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg/s",
+        "tolerans": 5e-07,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Dividera effekten med energi per reaktion. Multiplicera med massan som en reaktion förbrukar.</p>",
+        "t": "<p>D–D-fusion ger värmeeffekten 1 500 MW. Varje reaktion förbrukar två deuteriumatomer, vardera 2,0141018 u, och ger 3,27 MeV. Hur många kg deuterium förbrukas per sekund? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) förbrukar ett fissionsverk med samma effekt per sekund?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett kraftverk på 1 500 MW använder D-D-reaktionen ²H + ²H → ³He + n. Atommassor: ²H 2,0141018 u, ³He 3,0160293 u, neutron 1,0086649 u.</p><p>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) förbrukar ett fissionsverk med samma effekt per sekund?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1\\,500\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\cdot10^{-5}\\) kg</p></div>",
-        "ledtrad": "<p>Bestäm antalet klyvningar per sekund.</p>",
+        "fraga": "Uran-235-klyvning ger värmeeffekten 1 500 MW. Varje klyvning ger 200 MeV och förbrukar en atom på 235,04 u. Hur många kg uran-235 klyvs per sekund? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=200\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot N=P/E_r\\]</p><p>\\[\\dot N\\approx4{,}68\\cdot10^{19}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_r=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot m=\\dot N m_r\\]</p><p>\\[\\dot m\\approx1{,}83\\cdot10^{-5}\\ \\mathrm{kg/s}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.8271719101123593e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg/s",
+        "tolerans": 5e-07,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Räkna antalet klyvningar per sekund och deras sammanlagda massa.</p>",
+        "t": "<p>Uran-235-klyvning ger värmeeffekten 1 500 MW. Varje klyvning ger 200 MeV och förbrukar en atom på 235,04 u. Hur många kg uran-235 klyvs per sekund? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Räkna antal reaktioner per sekund.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "traningsniva": 3,
     "familjNyckel": "fusion__fusion_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fusion",
     "niva": "C",
-    "typ": "deuterium för Sveriges elbehov",
     "poang": "(1/2/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p><ol type=\"a\"><li>Hur mycket energi frigörs vid en reaktion?</li><li>Hur mycket energi frigörs om 1,0 kg deuterium fusioneras helt?</li><li>Hur mycket deuterium krävs för 140 TWh el med verkningsgraden 40 %?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2\\cdot2{,}0141018-3{,}0160493-1{,}0078250)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}03\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(N=\\dfrac{1{,}0}{2{,}0141018\\,\\text{u}}\\) deuteroner ger \\(\\dfrac N2\\) reaktioner.</p></div><div class=\"facit-stycke\"><p>\\(E=\\dfrac N2\\cdot4{,}03\\) MeV.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}7\\cdot10^{13}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\dfrac{140\\cdot10^{12}\\cdot3\\,600}{0{,}40}\\],</div></div><div class=\"facit-stycke\"><p>\\(m=\\dfrac{E}{9{,}66\\cdot10^{13}}\\) kg.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,046\\) kg</p></li></ol></div>",
+    "t": "<p>Reaktionen är ²H + ²H → ³H + ¹H. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160493 u och 1,007825 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt? Svara i J.</p><p>c) Hur många kg deuterium krävs för 140 TWh el med verkningsgraden 40 %? 1 TWh = 3,6·10¹⁵ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0238743\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0043293\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx4{,}03\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=4{,}0282036\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx6{,}69\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_r\\]</p><p>\\[N\\approx1{,}5\\cdot10^{26}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=4{,}032699657\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx6{,}46\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_r\\]</p><p>\\[E\\approx9{,}66\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{el}=140\\cdot3{,}6\\cdot10^{15}\\]</p><p>\\[E_{el}\\approx5{,}04\\cdot10^{17}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{el}/0{,}40\\]</p><p>\\[E\\approx1{,}26\\cdot10^{18}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/E_{per\\ kg}\\]</p><p>\\[m\\approx13000\\ \\mathrm{kg}\\]</p></div></p></div></div>",
     "id": "9.418",
     "miniräknare": true,
     "geogebra": false,
@@ -180594,18 +180860,22 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.0326996570001885,
-      96584646996238.61,
-      13045.551639786698
+      96584646996238.6,
+      13045.551639786701
     ],
     "tolerans": [
-      0.0605,
-      1450000000000.0,
-      510.0
+      0.10081749142500472,
+      2412999730336.869,
+      500.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -180624,56 +180894,80 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p>",
+    "spelIntro": "<p>Reaktionen är ²H + ²H → ³H + ¹H. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160493 u och 1,007825 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor energi frigörs vid en reaktion? Svara i MeV.",
-        "t": "<p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2,0141018 u, ³H 3,0160493 u, ¹H 1,0078250 u. Använd att \\(1\\,\\mathrm u\\) motsvarar 931,49 MeV.</p><p>Hur stor energi frigörs vid en reaktion? Svara i MeV.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(2\\cdot2{,}0141018-3{,}0160493-1{,}0078250)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}03\\) MeV</p></div>",
-        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "fraga": "Reaktionen är ²H + ²H → ³H + ¹H. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160493 u och 1,007825 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0238743\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0043293\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx4{,}03\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.0326996570001885,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.10081749142500472,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Reaktionen är ²H + ²H → ³H + ¹H. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160493 u och 1,007825 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi frigörs om 1,0 kg deuterium fusioneras helt?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p>Varje reaktion ger 4,03 MeV.<p>Hur mycket energi frigörs om 1,0 kg deuterium fusioneras helt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(N=\\dfrac{1{,}0}{2{,}0141018\\,\\text{u}}\\) deuteroner ger \\(\\dfrac N2\\) reaktioner.</p></div><div class=\"facit-stycke\"><p>\\(E=\\dfrac N2\\cdot4{,}03\\) MeV.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}7\\cdot10^{13}\\) J</p></div>",
-        "ledtrad": "<p>Två deuteroner per reaktion.</p>",
+        "fraga": "D–D-fusion förbrukar två deuteriumatomer per reaktion. Varje atom väger 2,0141018 u och varje reaktion ger 4,03 MeV. Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt? Svara i J. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=4{,}0282036\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx6{,}69\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_r\\]</p><p>\\[N\\approx1{,}5\\cdot10^{26}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=4{,}03\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx6{,}46\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_r\\]</p><p>\\[E\\approx9{,}65\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 96519989213474.77,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 2412999730336.869,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>En reaktion förbrukar två atomer. Dela bränslemassan med massan av ett atompar.</p>",
+        "t": "<p>D–D-fusion förbrukar två deuteriumatomer per reaktion. Varje atom väger 2,0141018 u och varje reaktion ger 4,03 MeV. Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt? Svara i J. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket deuterium krävs för 140 TWh el med verkningsgraden 40 %?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>D-D-reaktionen ²H + ²H → ³H + ¹H. Atommassor: ²H 2{,}0141018 u, ³H 3{,}0160493 u, ¹H 1,0078250 u.</p>1,0 kg deuterium ger \\(9{,}66\\cdot10^{13}\\) J.<p>Hur mycket deuterium krävs för 140 TWh el med verkningsgraden 40 %?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\dfrac{140\\cdot10^{12}\\cdot3\\,600}{0{,}40}\\],</div></div><div class=\"facit-stycke\"><p>\\(m=\\dfrac{E}{9{,}66\\cdot10^{13}}\\) kg.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,046\\) kg</p></div>",
-        "ledtrad": "<p>1 Wh = 3 600 J.</p>",
+        "fraga": "Ett kg deuterium ger 9,66·10¹³ J vid fusion. Hur många kg behövs för 140 TWh el om verkningsgraden är 40 %? 1 TWh = 3,6·10¹⁵ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{el}=140\\cdot3{,}6\\cdot10^{15}\\]</p><p>\\[E_{el}\\approx5{,}04\\cdot10^{17}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{el}/0{,}40\\]</p><p>\\[E\\approx1{,}26\\cdot10^{18}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/(9{,}66\\cdot10^{13})\\]</p><p>\\[m\\approx13000\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 13043.478260869566,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 500.0,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Beräkna all frigjord energi från verkningsgraden innan du räknar bränslemassan.</p>",
+        "t": "<p>Ett kg deuterium ger 9,66·10¹³ J vid fusion. Hur många kg behövs för 140 TWh el om verkningsgraden är 40 %? 1 TWh = 3,6·10¹⁵ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Två deuteroner per reaktion.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "traningsniva": 3,
     "familjNyckel": "fusion__fusion_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fusion",
     "niva": "C",
-    "typ": "litium-deuterium-fusion",
     "poang": "(2/1/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6,0151229 u, ²H 2,0141018 u, ⁴He 4,0026033 u.</p><ol type=\"a\"><li>Beräkna den frigjorda energin.</li><li>Hur mycket litium krävs för ett hushålls årsbehov på \\(3{,}8\\cdot10^{10}\\) J?</li><li>Olja ger \\(5\\cdot10^7\\) J/kg. Hur mycket olja motsvarar samma energi?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(6{,}0151229+2{,}0141018-2\\cdot4{,}0026033)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22{,}4\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{3{,}8\\cdot10^{10}}{22{,}4\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot6{,}0151229\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00011\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{3{,}8\\cdot10^{10}}{5\\cdot10^7}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(760\\) kg</p></li></ol></div>",
+    "t": "<p>Reaktionen är ⁶Li + ²H → 2 ⁴He. Atommassorna före är 6,0151229 u och 2,0141018 u. Atommassorna efter är 4,0026033 u och 4,0026033 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Hur många kg litium-6 behövs för att frigöra ett hushålls årsenergi, 3,8·10¹⁰ J?</p><p>c) Ett kg olja ger 5,0·10⁷ J. Hur många kg olja ger samma energi?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=8{,}0292247\\ \\mathrm u\\]</p><p>\\[m_{efter}=8{,}0052066\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0240181\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx22{,}4\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=22{,}372619969\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx3{,}58\\cdot10^{-12}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx1{,}06\\cdot10^{22}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=6{,}0151229\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx9{,}99\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_r\\]</p><p>\\[m\\approx0{,}000106\\ \\mathrm{kg}\\]</p></div></p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[m=3{,}8\\cdot10^{10}/(5{,}0\\cdot10^7)\\]</p><p>\\[m\\approx760\\ \\mathrm{kg}\\]</p></div></div>",
     "id": "9.419",
     "miniräknare": true,
     "geogebra": false,
@@ -180685,14 +180979,18 @@ window.BANK = [
       760
     ],
     "tolerans": [
-      0.336,
-      5.1e-06,
-      11.4
+      0.5593154992250242,
+      5e-06,
+      19.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -180711,73 +181009,99 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6,0151229 u, ²H 2,0141018 u, ⁴He 4,0026033 u.</p>",
+    "spelIntro": "<p>Reaktionen är ⁶Li + ²H → 2 ⁴He. Atommassorna före är 6,0151229 u och 2,0141018 u. Atommassorna efter är 4,0026033 u och 4,0026033 u. 1 u motsvarar 931,49 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor energi frigörs vid en reaktion? Svara i MeV.",
-        "t": "<p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6,0151229 u, ²H 2,0141018 u, ⁴He 4,0026033 u. Använd att \\(1\\,\\mathrm u\\) motsvarar 931,49 MeV.</p><p>Hur stor energi frigörs vid en reaktion? Svara i MeV.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(6{,}0151229+2{,}0141018-2\\cdot4{,}0026033)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22{,}4\\) MeV</p></div>",
-        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "fraga": "Reaktionen är ⁶Li + ²H → 2 ⁴He. Atommassorna före är 6,0151229 u och 2,0141018 u. Atommassorna efter är 4,0026033 u och 4,0026033 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=8{,}0292247\\ \\mathrm u\\]</p><p>\\[m_{efter}=8{,}0052066\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0240181\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx22{,}4\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 22.37261996900097,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.5593154992250242,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Reaktionen är ⁶Li + ²H → 2 ⁴He. Atommassorna före är 6,0151229 u och 2,0141018 u. Atommassorna efter är 4,0026033 u och 4,0026033 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket litium krävs för ett hushålls årsbehov på \\(3{,}8\\cdot10^{10}\\) J?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Reaktionen ⁶Li + ²H → 2 ⁴He. Atommassor: ⁶Li 6,0151229 u, ²H 2,0141018 u, ⁴He 4,0026033 u.</p>Varje reaktion ger 22,4 MeV.<p>Hur mycket litium krävs för ett hushålls årsbehov på \\(3{,}8\\cdot10^{10}\\) J?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{3{,}8\\cdot10^{10}}{22{,}4\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot6{,}0151229\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00011\\) kg</p></div>",
-        "ledtrad": "<p>En litiumatom per reaktion.</p>",
+        "fraga": "En litium-6-atom på 6,0151229 u reagerar med deuterium och frigör 22,4 MeV. Hur många kg litium-6 behövs för att frigöra 3,8·10¹⁰ J? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=22{,}4\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx3{,}59\\cdot10^{-12}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx1{,}06\\cdot10^{22}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=6{,}0151229\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx9{,}99\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_r\\]</p><p>\\[m\\approx0{,}000106\\ \\mathrm{kg}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00010576852591267054,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 5e-06,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Räkna antalet reaktioner och sedan massan av litiumatomerna.</p>",
+        "t": "<p>En litium-6-atom på 6,0151229 u reagerar med deuterium och frigör 22,4 MeV. Hur många kg litium-6 behövs för att frigöra 3,8·10¹⁰ J? Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket olja behövs för årsbehovet? Svara i kg.",
-        "t": "<p>Ett hushåll behöver \\(3{,}8\\cdot10^{10}\\) J på ett år. Olja ger \\(5\\cdot10^7\\) J/kg.</p><p>Hur mycket olja behövs för årsbehovet? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{3{,}8\\cdot10^{10}}{5\\cdot10^7}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(760\\) kg</p></div>",
-        "ledtrad": "<p>Energi delat med energi per kg.</p>",
+        "fraga": "Ett hushåll behöver 3,8·10¹⁰ J energi på ett år. Ett kg olja ger 5,0·10⁷ J. Hur många kg olja motsvarar årsbehovet?",
+        "s": "<div class=\"facit-v2\"><p>\\[m=3{,}8\\cdot10^{10}/(5{,}0\\cdot10^7)\\]</p><p>\\[m\\approx760\\ \\mathrm{kg}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 760,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 19.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela energibehovet med energin per kg.</p>",
+        "t": "<p>Ett hushåll behöver 3,8·10¹⁰ J energi på ett år. Ett kg olja ger 5,0·10⁷ J. Hur många kg olja motsvarar årsbehovet?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Jämför fusion med förbränning.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "traningsniva": 3,
     "familjNyckel": "fusion__fusion_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fusion",
     "niva": "E",
-    "typ": "solens massförlust",
     "poang": "(2/0/0)",
-    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Solen strålar ut effekten \\(4\\cdot10^{26}\\) W och har massan \\(2\\cdot10^{30}\\) kg. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><ol type=\"a\"><li>Hur mycket massa förlorar solen per år?</li><li>Hur stor andel av solens massa är det?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\dfrac{Pt}{c^2}=\\dfrac{4\\cdot10^{26}\\cdot3{,}156\\cdot10^7}{(3{,}00\\cdot10^8)^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\cdot10^{17}\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1{,}4\\cdot10^{17}}{2\\cdot10^{30}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{-14}\\)</p></li></ol></div>",
+    "t": "<p>Solen strålar ut 4,0·10²⁶ W och har massan 2,0·10³⁰ kg. Använd E = mc² och c = 3,00·10⁸ m/s. Ett år är 3,156·10⁷ s.</p><p>a) Hur mycket massa omvandlas till energi på ett år? Svara i kg.</p><p>b) Hur stor andel av solens massa är det? Svara som en kvot.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=4{,}0\\cdot10^{26}\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx1{,}26\\cdot10^{34}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/c^2\\]</p><p>\\[m\\approx1{,}4\\cdot10^{17}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[andel=m/M\\]</p><p>\\[andel\\approx7{,}01\\cdot10^{-14}\\]</p></div></div>",
     "id": "9.420",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fusion och energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.40256e+17,
-      7.0128e-14
+      1.4026666666666666e+17,
+      7.013333333333333e-14
     ],
     "tolerans": [
-      5100000000000000.0,
-      1.05e-15
+      5000000000000000.0,
+      1.7500000000000002e-15
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -180793,36 +181117,53 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Solen strålar ut effekten \\(4\\cdot10^{26}\\) W och har massan \\(2\\cdot10^{30}\\) kg. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p>",
+    "spelIntro": "<p>Solen strålar ut 4,0·10²⁶ W och har massan 2,0·10³⁰ kg. Använd E = mc² och c = 3,00·10⁸ m/s. Ett år är 3,156·10⁷ s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket massa förlorar solen per år?",
-        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Solen strålar ut effekten \\(4\\cdot10^{26}\\) W och har massan \\(2\\cdot10^{30}\\) kg. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><p>Hur mycket massa förlorar solen per år?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\dfrac{Pt}{c^2}=\\dfrac{4\\cdot10^{26}\\cdot3{,}156\\cdot10^7}{(3{,}00\\cdot10^8)^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\cdot10^{17}\\) kg</p></div>",
-        "ledtrad": "<p>\\(E=mc^2\\).</p>",
+        "fraga": "Solen strålar ut 4,0·10²⁶ W. Hur mycket massa omvandlas till energi på ett år? Svara i kg. Använd E = mc², c = 3,00·10⁸ m/s. Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=4{,}0\\cdot10^{26}\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx1{,}26\\cdot10^{34}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/c^2\\]</p><p>\\[m\\approx1{,}4\\cdot10^{17}\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.4026666666666666e+17,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 5000000000000000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna årsenergin, sedan massan med E = mc².</p>",
+        "t": "<p>Solen strålar ut 4,0·10²⁶ W. Hur mycket massa omvandlas till energi på ett år? Svara i kg. Använd E = mc², c = 3,00·10⁸ m/s. Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor andel av solens massa förloras per år? Svara som en kvot.",
-        "t": "<p>Solens massa är \\(2\\cdot10^{30}\\) kg. Den förlorar \\(1{,}4\\cdot10^{17}\\) kg per år.</p><p>Hur stor andel av solens massa förloras per år? Svara som en kvot.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1{,}4\\cdot10^{17}}{2\\cdot10^{30}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{-14}\\)</p></div>",
-        "ledtrad": "<p>Dela med solens massa.</p>",
+        "fraga": "Solens massa är 2,0·10³⁰ kg. Den omvandlar 1,4·10¹⁷ kg till energi på ett år. Hur stor andel är det? Svara som en kvot.",
+        "s": "<div class=\"facit-v2\"><p>\\[andel=1{,}4\\cdot10^{17}/(2{,}0\\cdot10^{30})\\]</p><p>\\[andel\\approx7\\cdot10^{-14}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7e-14,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 1.7500000000000002e-15,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela den omvandlade massan med hela massan.</p>",
+        "t": "<p>Solens massa är 2,0·10³⁰ kg. Den omvandlar 1,4·10¹⁷ kg till energi på ett år. Hur stor andel är det? Svara som en kvot.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(E=mc^2\\).</p>",
+    "ledtrad": "<p>Beräkna årsenergin, sedan massan med E = mc².</p>",
     "traningsniva": 2,
     "familjNyckel": "fusion__fusion_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.296",

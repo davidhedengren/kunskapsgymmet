@@ -101914,10 +101914,10 @@ window.BANK = [
     "id": "9.19",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett gram järn innehåller 1,08·10²² atomer. Järnets molmassa är 55,85 g/mol.</p>\n<ol><li>Visa hur antalet atomer räknas fram med Avogadros tal 6,022·10²³.</li>\n<li>Hur många atomer finns i en spik som väger 3,5 g?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Substansmängden i 1,0 g järn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{m}{M}=\\frac{1{,}0}{55{,}85}=1{,}7905\\cdot10^{-2}\\ \\mathrm{mol}\\]</div></div><div class=\"facit-stycke\"><p>\\[N=nN_A=(1{,}7905\\cdot10^{-2})(6{,}022\\cdot10^{23})=1{,}078\\cdot10^{22}\\]</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet är proportionellt mot massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_{3{,}5}=3{,}5(1{,}078\\cdot10^{22})=3{,}77\\cdot10^{22}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,0 g järn innehåller \\(1{,}08\\cdot10^{22}\\) atomer och en 3,5-g-spik cirka \\(3{,}8\\cdot10^{22}\\) atomer.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Järnets molmassa är 55,85 g/mol. Avogadros konstant är 6,022·10²³ mol⁻¹.</p><p>a) Beräkna antalet atomer i 1,0 g järn och visa hur Avogadros konstant används.</p><p>b) Beräkna antalet atomer i en järnspik med massan 3,5 g.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}n&=1{,}0/55{,}85\\\\&\\approx0{,}01791\\ \\mathrm{mol}\\end{aligned}\\]</p><p>\\[\\begin{aligned}N&=nN_A\\\\&\\approx1{,}078\\cdot10^{22}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}N&=3{,}5\\cdot N_{1g}\\\\&\\approx3{,}77\\cdot10^{22}\\end{aligned}\\]</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -101925,19 +101925,19 @@ window.BANK = [
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      3.77e+22
+      1.0782452999104745e+22,
+      3.773858549686661e+22
     ],
     "tolerans": [
-      null,
-      565499999999999930000
+      5e+20,
+      9.45e+20
     ],
     "självrättning": [
-      false,
+      true,
       true
     ],
     "svarFormat": [
-      null,
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
@@ -101950,28 +101950,52 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "nuklider__nuklider_och_isotoper",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Beräkna substansmängden och multiplicera med Avogadros konstant.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett gram järn innehåller 1,08·10²² atomer. Järnets molmassa är 55,85 g/mol.</p>",
+    "spelIntro": "<p>Järnets molmassa är 55,85 g/mol. Avogadros konstant är 6,022·10²³ mol⁻¹.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Visa hur antalet atomer räknas fram med Avogadros tal 6,022·10²³.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Substansmängden i 1,0 g järn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{m}{M}=\\frac{1{,}0}{55{,}85}=1{,}7905\\cdot10^{-2}\\ \\mathrm{mol}\\]</div></div><div class=\"facit-stycke\"><p>\\[N=nN_A=(1{,}7905\\cdot10^{-2})(6{,}022\\cdot10^{23})=1{,}078\\cdot10^{22}\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}078\\cdot10^{22}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "Järnets molmassa är 55,85 g/mol. Avogadros konstant är 6,022·10²³ mol⁻¹. Hur många atomer finns i 1,0 g järn?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}n&=m/M\\\\&=1{,}0/55{,}85\\\\&\\approx0{,}01791\\ \\mathrm{mol}\\end{aligned}\\]</p><p>\\[\\begin{aligned}N&=nN_A\\\\&\\approx1{,}078\\cdot10^{22}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.0782452999104745e+22,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 5e+20,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna substansmängden och multiplicera med Avogadros konstant.</p>",
+        "t": "<p>Järnets molmassa är 55,85 g/mol. Avogadros konstant är 6,022·10²³ mol⁻¹. Hur många atomer finns i 1,0 g järn?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många atomer finns i en spik som väger 3,5 g?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet är proportionellt mot massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_{3{,}5}=3{,}5(1{,}078\\cdot10^{22})=3{,}77\\cdot10^{22}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}77\\cdot10^{22}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "Ett gram järn innehåller 1,08·10²² atomer. Hur många atomer finns i en järnspik med massan 3,5 g?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}N&=3{,}5\\cdot1{,}08\\cdot10^{22}\\\\&=3{,}78\\cdot10^{22}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.78e+22,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 9.45e+20,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Antalet atomer är proportionellt mot massan.</p>",
+        "t": "<p>Ett gram järn innehåller 1,08·10²² atomer. Hur många atomer finns i en järnspik med massan 3,5 g?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "manuellKomplettering": true,
@@ -101999,7 +102023,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -102029,7 +102053,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -102043,30 +102067,93 @@ window.BANK = [
     "id": "9.20",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Bestäm massdefekten och bindningsenergin per nukleon för helium-4. Atommassan är 4,002603 u. Massdata: m(¹H) = 1,007825 u och m(n) = 1,008665 u. 1 u motsvarar 931,5 MeV.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Helium-4 har två protoner och två neutroner.</p><p class=\"facit-metod\">När atommassor används representeras varje proton tillsammans med en elektron av en väteatommassa.</p><div class=\"facit-matte\">\\[m_{\\mathrm{delar}}=2(1{,}007825)+2(1{,}008665)=4{,}032980\\ \\mathrm u\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Massdefekten är</p><div class=\"facit-matte\">\\[\\Delta m=4{,}032980-4{,}002603=0{,}030377\\ \\mathrm u\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Total bindningsenergi och bindningsenergi per nukleon blir</p><div class=\"facit-matte\">\\[E_b=(0{,}030377)(931{,}5)=28{,}30\\ \\mathrm{MeV}\\]\\[\\frac{E_b}{A}=\\frac{28{,}30}{4}=7{,}07\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massdefekten är \\(0{,}03038\\ \\mathrm u\\), total bindningsenergi \\(28{,}3\\ \\mathrm{MeV}\\), och \\(7{,}07\\ \\mathrm{MeV}\\) per nukleon.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>a) Bestäm massdefekten i u.</p><p>b) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=2\\cdot1{,}007825+2\\cdot1{,}008665\\\\&\\approx4{,}032980\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=4{,}03298-4{,}002603\\\\&\\approx0{,}030377\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}030377\\cdot931{,}5\\\\&\\approx28{,}296\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=28{,}296176/4\\\\&\\approx7{,}074\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.030377000000000542,
+      7.074043875000126
+    ],
+    "tolerans": [
+      0.0007594250000000136,
+      0.176851096875
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Helium-4 har två protoner och två neutroner. När atommassor används representeras varje proton tillsammans med en elektron av en väteatommassa.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "spelIntro": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=2\\cdot1{,}007825+2\\cdot1{,}008665\\\\&\\approx4{,}032980\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=4{,}03298-4{,}002603\\\\&\\approx0{,}030377\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.030377000000000542,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.0007594250000000136,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kärna har 4 nukleoner och massdefekten 0.030377 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}030377\\cdot931{,}5\\\\&\\approx28{,}296\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=28{,}296176/4\\\\&\\approx7{,}074\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.074043875,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.176851096875,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna total bindningsenergi och dela med antalet nukleoner.</p>",
+        "t": "<p>En kärna har 4 nukleoner och massdefekten 0.030377 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "energi_per_nukleon"
+    ],
+    "svarEnhet": [
+      "u",
+      "MeV"
     ]
   },
   {
@@ -102089,7 +102176,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -102119,7 +102206,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -102133,40 +102220,39 @@ window.BANK = [
     "id": "9.21",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En atom av syre-16 har 8 protoner. Den tappar två elektroner och blir en jon.</p>\n<ol><li>Hur många elektroner har jonen?</li><li>Vilken laddning har den?</li>\n<li>Har kärnan förändrats? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En neutral syreatom har åtta elektroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När två försvinner återstår</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_e=8-2=6\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Åtta protoner och sex elektroner ger nettoladdningen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(8-6)e=+2e=+3{,}204\\cdot10^{-19}\\ \\mathrm C\\]</div></div><div class=\"facit-stycke\"><p>Jonen skrivs \\(\\mathrm{O}^{2+}\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan har inte förändrats; endast atomens elektronskal har ändrats.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan har fortfarande åtta protoner och åtta neutroner och är fortfarande syre-16.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Jonen har 6 elektroner och laddningen \\(+2e\\); kärnan är oförändrad.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En neutral syre-16-atom har 8 protoner. Den förlorar två elektroner och blir en jon. Använd elementarladdningen e = 1,602·10⁻¹⁹ C.</p><p>a) Hur många elektroner har jonen?</p><p>b) Vilken laddning får jonen? Svara i C med rätt tecken.</p><p>c) Har kärnan förändrats? Motivera.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En neutral syreatom har lika många elektroner som protoner. Två elektroner lämnar: 8 − 2 = 6 elektroner återstår.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Varje förlorad elektron gör jonen en elementarladdning mer positiv.</p><p>\\[Q=+2e=+2\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm C\\]</p><p>\\[Q=+3{,}204\\cdot10^{-19}\\ \\mathrm C\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kärnan ändras inte när elektroner lämnar atomen. Den innehåller fortfarande 8 protoner och 8 neutroner. Atomen är fortfarande syre-16, men den är nu en positiv jon.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       6,
-      null,
+      3.204e-19,
       null
     ],
     "tolerans": [
-      0.18,
-      null,
+      0,
+      8e-21,
       null
     ],
     "självrättning": [
       true,
-      false,
+      true,
       false
     ],
     "svarFormat": [
       "numeriskt",
-      null,
+      "numeriskt",
       null
     ],
     "svarEnhet": [
-      "elektroner",
       null,
+      "C",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -102176,36 +102262,89 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>En neutral syreatom har åtta elektroner. När två försvinner återstår</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En atom av syre-16 har 8 protoner. Den tappar två elektroner och blir en jon.</p>",
+    "spelIntro": "<p>En neutral syre-16-atom har 8 protoner. Den förlorar två elektroner och blir en jon. Använd elementarladdningen e = 1,602·10⁻¹⁹ C.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många elektroner har jonen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En neutral syreatom har åtta elektroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När två försvinner återstår</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_e=8-2=6\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div>",
-        "ledtrad": "<p>En neutral syreatom har åtta elektroner. När två försvinner återstår</p>",
-        "niva": "C"
+        "fraga": "En neutral atom med 8 protoner förlorar två elektroner. Hur många elektroner finns kvar?",
+        "s": "<div class=\"facit-v2\"><p>En neutral syreatom har lika många elektroner som protoner. Två elektroner lämnar: 8 − 2 = 6 elektroner återstår.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En neutral atom med 8 protoner förlorar två elektroner. Hur många elektroner finns kvar?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken laddning har den?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Åtta protoner och sex elektroner ger nettoladdningen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(8-6)e=+2e=+3{,}204\\cdot10^{-19}\\ \\mathrm C\\]</div></div><div class=\"facit-stycke\"><p>Jonen skrivs \\(\\mathrm{O}^{2+}\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+3{,}204\\cdot10^{-19}\\ \\mathrm C\\).</p></div>",
-        "ledtrad": "<p>En neutral syreatom har åtta elektroner. När två försvinner återstår</p>",
-        "niva": "C"
+        "fraga": "En neutral atom förlorar två elektroner. Vilken laddning får jonen? Svara i C med rätt tecken. Använd e = 1,602·10⁻¹⁹ C.",
+        "s": "<div class=\"facit-v2\"><p>Varje förlorad elektron gör jonen en elementarladdning mer positiv.</p><p>\\[Q=+2e=+2\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm C\\]</p><p>\\[Q=+3{,}204\\cdot10^{-19}\\ \\mathrm C\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.204e-19,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "C",
+        "tolerans": 8e-21,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>En elektron har laddningen −e. Vad händer när två negativa laddningar tas bort?</p>",
+        "t": "<p>En neutral atom förlorar två elektroner. Vilken laddning får jonen? Svara i C med rätt tecken. Använd e = 1,602·10⁻¹⁹ C.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Har kärnan förändrats? Motivera.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan har inte förändrats; endast atomens elektronskal har ändrats.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan har fortfarande åtta protoner och åtta neutroner och är fortfarande syre-16.</p></div></div></div></div></div>",
-        "ledtrad": "<p>En neutral syreatom har åtta elektroner. När två försvinner återstår</p>",
-        "niva": "C"
+        "fraga": "En syre-16-atom förlorar två elektroner. Vad händer med atomkärnan?",
+        "s": "<div class=\"facit-v2\"><p>Kärnan ändras inte när elektroner lämnar atomen. Den innehåller fortfarande 8 protoner och 8 neutroner. Atomen är fortfarande syre-16, men den är nu en positiv jon.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den är oförändrad.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den är oförändrad.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Den förlorar två protoner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den förlorar två neutroner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Elektroner finns utanför kärnan.</p>",
+        "t": "<p>En syre-16-atom förlorar två elektroner. Vad händer med atomkärnan?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -102232,7 +102371,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -102262,10 +102401,10 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -102277,29 +102416,186 @@ window.BANK = [
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "räkna om mellan atommassenheter kilogram och megaelektronvolt, ur tabell, sökt massa och energi",
-    "poang": "(2/0/0)",
-    "t": "<p>En atommassenhet är 1 u = 1,66054·10⁻²⁷ kg och motsvarar energin 931,5 MeV.</p><table class=\"data\"><tr><th>Massa (u)</th><th>Massa (kg)</th><th>Energi (MeV)</th></tr><tr><td>1,000000</td><td>?</td><td>?</td></tr><tr><td>0,030000</td><td>?</td><td>?</td></tr><tr><td>4,002602</td><td>?</td><td>?</td></tr></table>\n<p>Fyll i tabellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(m_{\\mathrm{kg}}=m_{\\mathrm u}(1{,}66054\\cdot10^{-27})\\) och \\(E=m_{\\mathrm u}(931{,}5)\\).</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">De tre raderna blir</p><div class=\"facit-matte\">\\[\\begin{array}{c|c|c}m\\ (\\mathrm u)&amp;m\\ (\\mathrm{kg})&amp;E\\ (\\mathrm{MeV})\\\\\\hline1{,}000000&amp;1{,}66054\\cdot10^{-27}&amp;931{,}5\\\\0{,}030000&amp;4{,}98162\\cdot10^{-29}&amp;27{,}945\\\\4{,}002602&amp;6{,}64648\\cdot10^{-27}&amp;3728{,}42\\end{array}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tabellen ger 1,66054·10⁻²⁷ kg och 931,5 MeV; 4,98162·10⁻²⁹ kg och 27,945 MeV; 6,64648·10⁻²⁷ kg och 3728,42 MeV.</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>En atommassenhet är 1 u = 1,66054·10⁻²⁷ kg och motsvarar energin 931,5 MeV.</p><p>a) Omvandla 1,000000 u till kg och motsvarande energi i MeV.</p><p>b) Omvandla 0,030000 u till kg och motsvarande energi i MeV.</p><p>c) Omvandla 4,002602 u till kg och motsvarande energi i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=1\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx1{,}66054\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=1\\cdot931{,}5\\\\&\\approx931{,}50\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=0{,}03\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx4{,}98162\\cdot10^{-29}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}03\\cdot931{,}5\\\\&\\approx27{,}95\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4{,}002602\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx6{,}6464807\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=4{,}002602\\cdot931{,}5\\\\&\\approx3728{,}42\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        1.66054e-27,
+        931.5
+      ],
+      [
+        4.9816199999999995e-29,
+        27.945
+      ],
+      [
+        6.64648072508e-27,
+        3728.4237630000002
+      ]
+    ],
+    "tolerans": [
+      [
+        5e-29,
+        23.2875
+      ],
+      [
+        1.245405e-30,
+        0.698625
+      ],
+      [
+        1.6616201812700002e-28,
+        93.21059407500002
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "nuklider__nuklider_och_isotoper",
-    "ledtrad": "<p>Använd \\(m_{\\mathrm{kg}}=m_{\\mathrm u}(1{,}66054\\cdot10^{-27})\\) och \\(E=m_{\\mathrm u}(931{,}5)\\).</p>",
+    "ledtrad": "<p>Multiplicera massan i u med respektive omvandlingsfaktor.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 1,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "spelIntro": "<p>En atommassenhet är 1 u = 1,66054·10⁻²⁷ kg och motsvarar energin 931,5 MeV.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En massa är 1 u. Använd 1 u = 1,66054·10⁻²⁷ kg och att 1 u motsvarar 931,5 MeV. Bestäm massan i kg och motsvarande energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=1\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx1{,}66054\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=1\\cdot931{,}5\\\\&\\approx931{,}50\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          1.66054e-27,
+          931.5
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "kg",
+          "MeV"
+        ],
+        "tolerans": [
+          5e-29,
+          23.2875
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massan i u med respektive omvandlingsfaktor.</p>",
+        "t": "<p>En massa är 1 u. Använd 1 u = 1,66054·10⁻²⁷ kg och att 1 u motsvarar 931,5 MeV. Bestäm massan i kg och motsvarande energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Massa i kg",
+          "Energi i MeV"
+        ],
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En massa är 0,03 u. Använd 1 u = 1,66054·10⁻²⁷ kg och att 1 u motsvarar 931,5 MeV. Bestäm massan i kg och motsvarande energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=0{,}03\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx4{,}98162\\cdot10^{-29}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}03\\cdot931{,}5\\\\&\\approx27{,}95\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          4.9816199999999995e-29,
+          27.945
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "kg",
+          "MeV"
+        ],
+        "tolerans": [
+          1.245405e-30,
+          0.698625
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massan i u med respektive omvandlingsfaktor.</p>",
+        "t": "<p>En massa är 0,03 u. Använd 1 u = 1,66054·10⁻²⁷ kg och att 1 u motsvarar 931,5 MeV. Bestäm massan i kg och motsvarande energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Massa i kg",
+          "Energi i MeV"
+        ],
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "En massa är 4,002602 u. Använd 1 u = 1,66054·10⁻²⁷ kg och att 1 u motsvarar 931,5 MeV. Bestäm massan i kg och motsvarande energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4{,}002602\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx6{,}6464807\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=4{,}002602\\cdot931{,}5\\\\&\\approx3728{,}42\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          6.64648072508e-27,
+          3728.4237630000002
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "kg",
+          "MeV"
+        ],
+        "tolerans": [
+          1.6616201812700002e-28,
+          93.21059407500002
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massan i u med respektive omvandlingsfaktor.</p>",
+        "t": "<p>En massa är 4,002602 u. Använd 1 u = 1,66054·10⁻²⁷ kg och att 1 u motsvarar 931,5 MeV. Bestäm massan i kg och motsvarande energi i MeV.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Massa i kg",
+          "Energi i MeV"
+        ],
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "kg",
+        "MeV"
+      ],
+      [
+        "kg",
+        "MeV"
+      ],
+      [
+        "kg",
+        "MeV"
+      ]
     ]
   },
   {
@@ -102919,42 +103215,45 @@ window.BANK = [
     "id": "9.31",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "beräkna massdefekt och bindningsenergi för deuterium, ur text, sökt massdefekt och energi",
-    "poang": "(2/1/0)",
-    "t": "<p>Deuterium, ²₁H, har atommassan 2,014102 u. Kärnan består av en proton och en neutron.</p><p>Massdata: m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p>\n<ol><li>Hur stor är den sammanlagda massan hos beståndsdelarna?</li>\n<li>Bestäm massdefekten.</li>\n<li>Bestäm bindningsenergin.</li>\n<li>Hur stor är bindningsenergin per nukleon?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Väteatomens massa innehåller en proton och en elektron; detta passar deuteriumatomens massa, som också innehåller en elektron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{delar}}=m({}^1\\mathrm H)+m_n=1{,}007825+1{,}008665=2{,}016490\\ \\mathrm u\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=2{,}016490-2{,}014102=0{,}002388\\ \\mathrm u\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=(0{,}002388)(931{,}5)=2{,}224\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Deuteriumkärnan har två nukleoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{2{,}224}{2}=1{,}112\\ \\mathrm{MeV/nukleon}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beståndsdelarna väger \\(2{,}016490\\ \\mathrm u\\), massdefekten är \\(0{,}002388\\ \\mathrm u\\), bindningsenergin \\(2{,}224\\ \\mathrm{MeV}\\) och \\(1{,}11\\ \\mathrm{MeV}\\) per nukleon.</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>a) Vilken sammanlagd massa har en fri väteatom och en fri neutron? Svara i u.</p><p>b) Bestäm deuteriums massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p><p>d) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Väteatomen räknar både protonen och elektronen.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=1{,}007825+1{,}008665\\\\&=2{,}016490\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=2{,}016490-2{,}014102\\\\&=0{,}002388\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}002388\\cdot931{,}5\\\\&\\approx2{,}224\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=2{,}224422/2\\\\&\\approx1{,}112\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.01649,
-      0.002388,
-      2.224,
-      1.11
+      0.002388000000000279,
+      2.22442200000026,
+      1.11221100000013
     ],
     "tolerans": [
-      0.03024735,
-      7.164e-05,
-      0.03336,
-      0.01665
+      0.050412250000000006,
+      5.9700000000006974e-05,
+      0.0556105500000065,
+      0.05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
       "numeriskt",
-      "numeriskt"
+      "energi_per_nukleon"
     ],
     "svarEnhet": [
       "u",
       "u",
       "MeV",
-      "MeV/nukleon"
+      "MeV"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -102967,43 +103266,93 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Deuterium, ²₁H, har atommassan 2,014102 u. Kärnan består av en proton och en neutron.</p><p>Använd m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p><div class=\"spel-en-del\">Hur stor är den sammanlagda massan hos beståndsdelarna?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Väteatomens massa innehåller en proton och en elektron; detta passar deuteriumatomens massa, som också innehåller en elektron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{delar}}=m({}^1\\mathrm H)+m_n=1{,}007825+1{,}008665=2{,}016490\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}016490\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>Väteatomens massa innehåller en proton och en elektron; detta passar deuteriumatomens massa, som också innehåller en elektron.</p>",
-        "niva": "C"
+        "fraga": "En deuteriumatom består av en proton, en neutron och en elektron. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Vilken sammanlagd massa har en fri väteatom och en fri neutron? Svara i u.",
+        "s": "<div class=\"facit-v2\"><p>Väteatomen räknar både protonen och elektronen.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=1{,}007825+1{,}008665\\\\&=2{,}016490\\ \\mathrm u\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.01649,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.050412250000000006,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p>",
+        "t": "<p>En deuteriumatom består av en proton, en neutron och en elektron. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Vilken sammanlagd massa har en fri väteatom och en fri neutron? Svara i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Deuterium, ²₁H, har atommassan 2,014102 u. Kärnan består av en proton och en neutron.</p><p>Använd m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p><div class=\"spel-en-del\">Bestäm massdefekten.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=2{,}016490-2{,}014102=0{,}002388\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}002388\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "En fri väteatom och en fri neutron har tillsammans massan 2,016490 u. En deuteriumatom har massan 2,014102 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=2{,}016490-2{,}014102\\\\&=0{,}002388\\ \\mathrm u\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.002388000000000279,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 5.9700000000006974e-05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En fri väteatom och en fri neutron har tillsammans massan 2,016490 u. En deuteriumatom har massan 2,014102 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "t": "<p>Deuterium, ²₁H, har atommassan 2,014102 u. Kärnan består av en proton och en neutron.</p><p>Använd m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p><div class=\"spel-en-del\">Bestäm bindningsenergin.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=(0{,}002388)(931{,}5)=2{,}224\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}224\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "En deuteriumkärna har massdefekten 0,002388 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}002388\\cdot931{,}5\\\\&\\approx2{,}224\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.22442200000026,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.0556105500000065,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
+        "t": "<p>En deuteriumkärna har massdefekten 0,002388 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "t": "<p>Deuterium, ²₁H, har atommassan 2,014102 u. Kärnan består av en proton och en neutron.</p><p>Använd m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p><div class=\"spel-en-del\">Hur stor är bindningsenergin per nukleon?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Deuteriumkärnan har två nukleoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{2{,}224}{2}=1{,}112\\ \\mathrm{MeV/nukleon}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}112\\ \\mathrm{MeV/nukleon}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "En deuteriumkärna har 2 nukleoner och bindningsenergin 2,224 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=2{,}224/2\\\\&=1{,}112\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.112,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera energin med antalet nukleoner.</p>",
+        "t": "<p>En deuteriumkärna har 2 nukleoner och bindningsenergin 2,224 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Väteatomens massa innehåller en proton och en elektron; detta passar deuteriumatomens massa, som också innehåller en elektron.</p>",
+    "ledtrad": "<p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "spelIntro": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.209",
@@ -103025,7 +103374,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -103089,30 +103438,118 @@ window.BANK = [
     "id": "9.32",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bestämma massdefekt i u och kilogram ur en given bindningsenergi, ur text, sökt massa",
-    "poang": "(1/2/0)",
-    "t": "<p>Järn-56 har den totala bindningsenergin 492 MeV och består av 56 nukleoner. 1 u motsvarar 931,5 MeV och 1 u = 1,66054·10⁻²⁷ kg.</p>\n<p>Bestäm kärnans massdefekt i både u och kilogram, samt bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Massdefekten i atommassenheter är</p><div class=\"facit-matte\">\\[\\Delta m=\\frac{E_b}{931{,}5}=\\frac{492}{931{,}5}=0{,}52818\\ \\mathrm u\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla till kilogram.</p><div class=\"facit-matte\">\\[\\Delta m=(0{,}52818)(1{,}66054\\cdot10^{-27})=8{,}77\\cdot10^{-28}\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Bindningsenergin per nukleon är</p><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{492}{56}=8{,}79\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massdefekten är \\(0{,}528\\ \\mathrm u=8{,}77\\cdot10^{-28}\\ \\mathrm{kg}\\), och bindningsenergin \\(8{,}79\\ \\mathrm{MeV}\\) per nukleon.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Järn-56 har bindningsenergin 492 MeV och består av 56 nukleoner. En massdefekt på 1 u motsvarar 931,5 MeV och 1 u = 1,66054·10⁻²⁷ kg.</p><p>a) Bestäm massdefekten i u.</p><p>b) Bestäm massdefekten i kg.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=492/931{,}5\\\\&\\approx0{,}5282\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=0{,}52818035\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx8{,}7706461\\cdot10^{-28}\\ \\mathrm{kg}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=492/56\\\\&\\approx8{,}79\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5281803542673108,
+      8.770646054750403e-28,
+      8.785714285714286
+    ],
+    "tolerans": [
+      0.01320450885668277,
+      2.192660043e-29,
+      0.21964285714285717
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "nuklider__massdefekt_och_bindningsenergi",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "spelIntro": "<p>Järn-56 har bindningsenergin 492 MeV och består av 56 nukleoner. En massdefekt på 1 u motsvarar 931,5 MeV och 1 u = 1,66054·10⁻²⁷ kg.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En kärna har bindningsenergin 492 MeV. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=492/931{,}5\\\\&\\approx0{,}5282\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5281803542673108,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.01320450885668277,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
+        "t": "<p>En kärna har bindningsenergin 492 MeV. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En kärna har massdefekten 0,52818 u. Använd 1 u = 1,66054·10⁻²⁷ kg. Bestäm massdefekten i kg.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=0{,}52818\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx8{,}7706402\\cdot10^{-28}\\ \\mathrm{kg}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.770640172e-28,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 2.192660043e-29,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera med omvandlingsfaktorn.</p>",
+        "t": "<p>En kärna har massdefekten 0,52818 u. Använd 1 u = 1,66054·10⁻²⁷ kg. Bestäm massdefekten i kg.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "En kärna har 56 nukleoner och bindningsenergin 492 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=492/56\\\\&\\approx8{,}79\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.785714285714286,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.21964285714285717,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera den totala energin med antalet nukleoner.</p>",
+        "t": "<p>En kärna har 56 nukleoner och bindningsenergin 492 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "energi_per_nukleon"
+    ],
+    "svarEnhet": [
+      "u",
+      "kg",
+      "MeV"
     ]
   },
   {
@@ -103135,7 +103572,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -103165,7 +103602,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -103179,58 +103616,169 @@ window.BANK = [
     "id": "9.33",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Bindningsenergin per nukleon är låg för mycket lätta kärnor, stiger snabbt, når sitt högsta värde kring järn och sjunker sedan långsamt för tunga kärnor.</p>\n<ol><li>Vad innebär det att en kärna har hög bindningsenergi per nukleon?</li>\n<li>Varför frigörs energi när lätta kärnor slås ihop?</li>\n<li>Varför frigörs energi när tunga kärnor klyvs?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Hög bindningsenergi per nukleon betyder att nukleonerna i genomsnitt är hårt bundna och att mycket energi krävs för att helt skilja kärnan i fria protoner och neutroner.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När lätta kärnor fusionerar kan produkten få högre bindningsenergi per nukleon.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ökningen i total bindningsenergi frigörs.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När en mycket tung kärna fissionerar kan fragmenten också få högre bindningsenergi per nukleon, närmare kurvans maximum kring järn–nickel.</p></div><div class=\"facit-stycke\"><p>I båda fallen går systemet till lägre total vilomassa och lägre inre energi.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hög bindningsenergi per nukleon betyder stark bindning. Fusion av lätta kärnor och fission av tunga kärnor frigör energi när produkterna hamnar högre på bindningsenergikurvan.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Bindningsenergin per nukleon är störst för kärnor nära järn. Både mycket lätta och mycket tunga kärnor har lägre värden.</p><p>a) Vad innebär hög bindningsenergi per nukleon?</p><p>b) Förklara hur fusion av lätta kärnor kan frigöra energi.</p><p>c) Förklara hur fission av tunga kärnor kan frigöra energi.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Hög bindningsenergi per nukleon betyder att mycket energi behövs för att dela kärnan helt i fria protoner och neutroner.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om de nya kärnorna har större total bindningsenergi sitter partiklarna hårdare bundna. Skillnaden frigörs som energi.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Tunga kärnor kan ge mer hårt bundna mindre kärnor när de klyvs. Om produkterna har större total bindningsenergi frigörs energi.</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      null,
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      false,
+      false
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Hög bindningsenergi per nukleon betyder att nukleonerna i genomsnitt är hårt bundna och att mycket energi krävs för att helt skilja kärnan i fria protoner och neutroner.</p>",
+    "ledtrad": "<p>Bindningsenergi är energin som behövs för att skilja åt beståndsdelarna.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bindningsenergin per nukleon är låg för mycket lätta kärnor, stiger snabbt, når sitt högsta värde kring järn och sjunker sedan långsamt för tunga kärnor.</p>",
+    "spelIntro": "<p>Bindningsenergin per nukleon är störst för kärnor nära järn. Både mycket lätta och mycket tunga kärnor har lägre värden.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad innebär det att en kärna har hög bindningsenergi per nukleon?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Hög bindningsenergi per nukleon betyder att nukleonerna i genomsnitt är hårt bundna och att mycket energi krävs för att helt skilja kärnan i fria protoner och neutroner.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Hög bindningsenergi per nukleon betyder att nukleonerna i genomsnitt är hårt bundna och att mycket energi krävs för att helt skilja kärnan i fria protoner och neutroner.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vad betyder hög bindningsenergi per nukleon?",
+        "s": "<div class=\"facit-v2\"><p>Hög bindningsenergi per nukleon betyder att mycket energi behövs för att dela kärnan helt i fria protoner och neutroner.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Mycket energi krävs per partikel för att dela kärnan helt i fria protoner och neutroner.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Mycket energi krävs per partikel för att dela kärnan helt i fria protoner och neutroner.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Kärnan delar sig alltid utan energiöverföring.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Kärnan måste innehålla fler elektroner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bindningsenergi är energin som behövs för att skilja åt beståndsdelarna.</p>",
+        "t": "<p>Vad betyder hög bindningsenergi per nukleon?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Varför frigörs energi när lätta kärnor slås ihop?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När lätta kärnor fusionerar kan produkten få högre bindningsenergi per nukleon.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ökningen i total bindningsenergi frigörs.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Hög bindningsenergi per nukleon betyder att nukleonerna i genomsnitt är hårt bundna och att mycket energi krävs för att helt skilja kärnan i fria protoner och neutroner.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Två lätta kärnor slås ihop. Produkten har större total bindningsenergi än de två kärnorna tillsammans. Vad händer med energiskillnaden?",
+        "s": "<div class=\"facit-v2\"><p>Om de nya kärnorna har större total bindningsenergi sitter partiklarna hårdare bundna. Skillnaden frigörs som energi.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den frigörs.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den frigörs.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Den skapas ur ingenting.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den måste alltid tillföras.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hårdare bindning betyder lägre energi hos det bundna systemet.</p>",
+        "t": "<p>Två lätta kärnor slås ihop. Produkten har större total bindningsenergi än de två kärnorna tillsammans. Vad händer med energiskillnaden?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Varför frigörs energi när tunga kärnor klyvs?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När en mycket tung kärna fissionerar kan fragmenten också få högre bindningsenergi per nukleon, närmare kurvans maximum kring järn–nickel.</p></div><div class=\"facit-stycke\"><p>I båda fallen går systemet till lägre total vilomassa och lägre inre energi.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Hög bindningsenergi per nukleon betyder att nukleonerna i genomsnitt är hårt bundna och att mycket energi krävs för att helt skilja kärnan i fria protoner och neutroner.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En tung kärna klyvs. Produkterna har större total bindningsenergi än den ursprungliga kärnan. Vad händer med energiskillnaden?",
+        "s": "<div class=\"facit-v2\"><p>Tunga kärnor kan ge mer hårt bundna mindre kärnor när de klyvs. Om produkterna har större total bindningsenergi frigörs energi.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den frigörs.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den frigörs.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Den måste alltid tillföras.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den avgörs bara av antalet elektroner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför den totala bindningsenergin före och efter.</p>",
+        "t": "<p>En tung kärna klyvs. Produkterna har större total bindningsenergi än den ursprungliga kärnan. Vad händer med energiskillnaden?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
@@ -103303,7 +103851,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -103317,49 +103865,269 @@ window.BANK = [
     "id": "9.34",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bestämma antal protoner neutroner och elektroner ur nuklidbeteckningen, ur tabell, sökt antal partiklar",
-    "poang": "(2/1/0)",
-    "t": "<p>Tabellen visar fyra nuklider. Atomerna är oladdade.</p><table class=\"data\"><tr><th>Nuklid</th><th>Protoner</th><th>Neutroner</th><th>Elektroner</th></tr><tr><td>¹⁴₆C</td><td>?</td><td>?</td><td>?</td></tr><tr><td>²³₁₁Na</td><td>?</td><td>?</td><td>?</td></tr><tr><td>⁶⁰₂₇Co</td><td>?</td><td>?</td><td>?</td></tr><tr><td>²³⁵₉₂U</td><td>?</td><td>?</td><td>?</td></tr></table>\n<ol><li>Fyll i tabellen.</li>\n<li>Vilket av talen i nuklidbeteckningen anger antalet neutroner? Förklara.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en neutral atom gäller protoner = elektroner = Z och neutroner = A − Z.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}\\text{nuklid}&amp;p&amp;n&amp;e^-\\\\\\hline{}^{14}_{6}\\mathrm C&amp;6&amp;8&amp;6\\\\{}^{23}_{11}\\mathrm{Na}&amp;11&amp;12&amp;11\\\\{}^{60}_{27}\\mathrm{Co}&amp;27&amp;33&amp;27\\\\{}^{235}_{92}\\mathrm U&amp;92&amp;143&amp;92\\end{array}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Inget av talen anger neutronantalet direkt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det övre är masstalet A och det undre atomnumret Z.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_n=A-Z\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tabellen blir C-14: 6, 8, 6; Na-23: 11, 12, 11; Co-60: 27, 33, 27; U-235: 92, 143, 92. Neutronantalet räknas som A − Z.</p></div>",
+    "niva": "E",
+    "poang": "(5/0/0)",
+    "t": "<p>Atomerna i uppgiften är neutrala.</p><p>a) Bestäm antalet protoner, neutroner och elektroner för kol-14 (atomnummer 6, masstal 14).</p><p>b) Bestäm antalet protoner, neutroner och elektroner för natrium-23 (atomnummer 11, masstal 23).</p><p>c) Bestäm antalet protoner, neutroner och elektroner för kobolt-60 (atomnummer 27, masstal 60).</p><p>d) Bestäm antalet protoner, neutroner och elektroner för uran-235 (atomnummer 92, masstal 235).</p><p>e) Anger något av talen i nuklidbeteckningen neutronantalet direkt? Förklara.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Atomnumret ger 6 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=14-6=8\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Atomnumret ger 11 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=23-11=12\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Atomnumret ger 27 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=60-27=33\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Atomnumret ger 92 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=235-92=143\\]</p></div></div><p>e) Nej. Det övre talet är masstalet A och det undre atomnumret Z. Neutronantalet är skillnaden A − Z.</p>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        6,
+        8,
+        6
+      ],
+      [
+        11,
+        12,
+        11
+      ],
+      [
+        27,
+        33,
+        27
+      ],
+      [
+        92,
+        143,
+        92
+      ],
+      null
+    ],
+    "tolerans": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>För en neutral atom gäller protoner = elektroner = Z och neutroner = A − Z.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tabellen visar fyra nuklider. Atomerna är oladdade.</p><table class=\"data\"><tr><th>Nuklid</th><th>Protoner</th><th>Neutroner</th><th>Elektroner</th></tr><tr><td>¹⁴₆C</td><td>?</td><td>?</td><td>?</td></tr><tr><td>²³₁₁Na</td><td>?</td><td>?</td><td>?</td></tr><tr><td>⁶⁰₂₇Co</td><td>?</td><td>?</td><td>?</td></tr><tr><td>²³⁵₉₂U</td><td>?</td><td>?</td><td>?</td></tr></table>",
+    "spelIntro": "<p>Atomerna i uppgiften är neutrala.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Fyll i tabellen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en neutral atom gäller protoner = elektroner = Z och neutroner = A − Z.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}\\text{nuklid}&amp;p&amp;n&amp;e^-\\\\\\hline{}^{14}_{6}\\mathrm C&amp;6&amp;8&amp;6\\\\{}^{23}_{11}\\mathrm{Na}&amp;11&amp;12&amp;11\\\\{}^{60}_{27}\\mathrm{Co}&amp;27&amp;33&amp;27\\\\{}^{235}_{92}\\mathrm U&amp;92&amp;143&amp;92\\end{array}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>För en neutral atom gäller protoner = elektroner = Z och neutroner = A − Z.</p>",
-        "niva": "C"
+        "fraga": "En neutral atom av kol-14 har atomnumret 6 och masstalet 14. Hur många protoner, neutroner och elektroner har atomen?",
+        "s": "<div class=\"facit-v2\"><p>Atomnumret ger 6 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=14-6=8\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          6,
+          8,
+          6
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En neutral atom av kol-14 har atomnumret 6 och masstalet 14. Hur många protoner, neutroner och elektroner har atomen?</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Protoner",
+          "Neutroner",
+          "Elektroner"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilket av talen i nuklidbeteckningen anger antalet neutroner? Förklara.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Inget av talen anger neutronantalet direkt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det övre är masstalet A och det undre atomnumret Z.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_n=A-Z\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>För en neutral atom gäller protoner = elektroner = Z och neutroner = A − Z.</p>",
-        "niva": "C"
+        "fraga": "En neutral atom av natrium-23 har atomnumret 11 och masstalet 23. Hur många protoner, neutroner och elektroner har atomen?",
+        "s": "<div class=\"facit-v2\"><p>Atomnumret ger 11 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=23-11=12\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          11,
+          12,
+          11
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En neutral atom av natrium-23 har atomnumret 11 och masstalet 23. Hur många protoner, neutroner och elektroner har atomen?</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Protoner",
+          "Neutroner",
+          "Elektroner"
+        ],
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "En neutral atom av kobolt-60 har atomnumret 27 och masstalet 60. Hur många protoner, neutroner och elektroner har atomen?",
+        "s": "<div class=\"facit-v2\"><p>Atomnumret ger 27 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=60-27=33\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          27,
+          33,
+          27
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En neutral atom av kobolt-60 har atomnumret 27 och masstalet 60. Hur många protoner, neutroner och elektroner har atomen?</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Protoner",
+          "Neutroner",
+          "Elektroner"
+        ],
+        "miniräknare": true
+      },
+      {
+        "etikett": "d",
+        "fraga": "En neutral atom av uran-235 har atomnumret 92 och masstalet 235. Hur många protoner, neutroner och elektroner har atomen?",
+        "s": "<div class=\"facit-v2\"><p>Atomnumret ger 92 protoner. En neutral atom har lika många elektroner.</p><p>\\[N_n=235-92=143\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          92,
+          143,
+          92
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En neutral atom av uran-235 har atomnumret 92 och masstalet 235. Hur många protoner, neutroner och elektroner har atomen?</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Protoner",
+          "Neutroner",
+          "Elektroner"
+        ],
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 1,
+    "arbetsinsats": 4,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      null
     ]
   },
   {
@@ -103382,7 +104150,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -103446,31 +104214,93 @@ window.BANK = [
     "id": "9.35",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "jämföra bindningsenergi per nukleon mellan helium-4 och uran-238, ur text, sökt energi och jämförelse",
-    "poang": "(1/2/0)",
-    "t": "<p>Helium-4 har atommassan 4,002602 u och uran-238 har atommassan 238,050788 u.</p><p>Massdata: m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p>\n<p>Bestäm bindningsenergin per nukleon för båda nukliderna och avgör vilken kärna som är hårdast bunden per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">För helium-4 är massdefekten</p><div class=\"facit-matte\">\\[\\Delta m_{\\mathrm{He}}=2(1{,}007825)+2(1{,}008665)-4{,}002602=0{,}030378\\ \\mathrm u\\]</div><p>\\[\\frac{E_b}{A}=\\frac{(0{,}030378)(931{,}5)}4=7{,}07\\ \\mathrm{MeV/nukleon}\\]</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Uran-238 har 92 protoner och 146 neutroner.</p><div class=\"facit-matte\">\\[\\Delta m_{\\mathrm U}=92(1{,}007825)+146(1{,}008665)-238{,}050788=1{,}934202\\ \\mathrm u\\]</div><p>\\[\\frac{E_b}{A}=\\frac{(1{,}934202)(931{,}5)}{238}=7{,}57\\ \\mathrm{MeV/nukleon}\\]</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Uran-238 är något hårdare bundet per nukleon än helium-4, men båda ligger under maximum kring järn–nickel.</p><p>Bindningsenergin per nukleon ökar mot järn–nickelområdet.</p><p>Därför kan både fusion av lätta kärnor och fission av mycket tunga kärnor frigöra energi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Helium-4 har \\(7{,}07\\ \\mathrm{MeV/nukleon}\\) och U-238 \\(7{,}57\\ \\mathrm{MeV/nukleon}\\). U-238 är hårdare bundet per nukleon.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Helium-4 har atommassan 4,002602 u och uran-238 har 238,050788 u. Använd m(¹H) = 1,007825 u och m(n) = 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>a) Bestäm bindningsenergin per nukleon för helium-4 i MeV.</p><p>b) Bestäm bindningsenergin per nukleon för uran-238 i MeV. Jämför värdena: vilken kärna är hårdare bunden per nukleon?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}007825\\\\&\\quad+2\\cdot1{,}008665\\\\&\\quad-4{,}002602\\\\&\\approx0{,}030378\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=0{,}030378\\cdot931{,}5/4\\\\&\\approx7{,}07\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=92\\cdot1{,}007825\\\\&\\quad+146\\cdot1{,}008665\\\\&\\quad-238{,}050788\\\\&\\approx1{,}934202\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=1{,}934202\\cdot931{,}5/238\\\\&\\approx7{,}57\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p>Uran-238 är hårdare bundet per nukleon: cirka 7,57 MeV jämfört med heliums 7,07 MeV.</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.074276749999952,
+      7.570206567226776
+    ],
+    "tolerans": [
+      0.17685691874999881,
+      0.18925516418066943
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "spelIntro": "<p>Helium-4 har atommassan 4,002602 u och uran-238 har 238,050788 u. Använd m(¹H) = 1,007825 u och m(n) = 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En atom har 2 protoner, 2 neutroner och atommassan 4,002602 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}007825\\\\&\\quad+2\\cdot1{,}008665\\\\&\\quad-4{,}002602\\\\&\\approx0{,}030378\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=0{,}030378\\cdot931{,}5/4\\\\&\\approx7{,}07\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.074276749999952,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.17685691874999881,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom har 2 protoner, 2 neutroner och atommassan 4,002602 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En atom har 92 protoner, 146 neutroner och atommassan 238,050788 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=92\\cdot1{,}007825\\\\&\\quad+146\\cdot1{,}008665\\\\&\\quad-238{,}050788\\\\&\\approx1{,}934202\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=1{,}934202\\cdot931{,}5/238\\\\&\\approx7{,}57\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.570206567226776,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.18925516418066943,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom har 92 protoner, 146 neutroner och atommassan 238,050788 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "energi_per_nukleon",
+      "energi_per_nukleon"
+    ],
+    "svarEnhet": [
+      "MeV",
+      "MeV"
     ]
   },
   {
@@ -103493,7 +104323,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -103507,153 +104337,294 @@ window.BANK = [
     "id": "9.218",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi per nukleon",
-    "poang": "(0/2/0)",
-    "t": "<p>Bindningsenergin för \\(^{12}\\mathrm{C}\\) är \\(92{,}16\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon fås genom att dividera kärnans totala bindningsenergi med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{92{,}16}{12}=7{,}68\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}68\\ \\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna av kol-12 består av 12 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 92,16 MeV. Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=92{,}16/12\\approx7{,}68\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 7.68,
-    "tolerans": 0.13824,
+    "tolerans": 0.192,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Dela den totala bindningsenergin med antalet nukleoner.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "ledtrad": "<p>Dividera den totala bindningsenergin med antalet nukleoner.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.36",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "jämföra isotoper av samma grundämne med avseende på protoner neutroner och kemiska egenskaper, ur diagram, sökt antal och resonemang",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar kärnorna hos tre isotoper av syre.</p><span class=\"fig bred\"><svg height=\"239\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.571 47.143 402.857 155.000\"><circle cx=\"100\" cy=\"90\" r=\"34\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">¹⁶₈O</text><circle cx=\"250\" cy=\"90\" r=\"34\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">¹⁷₈O</text><circle cx=\"400\" cy=\"90\" r=\"34\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"100.0\" cy=\"72.3\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"106.8\" cy=\"73.6\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"112.5\" cy=\"77.5\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"116.4\" cy=\"83.2\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"117.7\" cy=\"90.0\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"116.4\" cy=\"96.8\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"112.5\" cy=\"102.5\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"106.8\" cy=\"106.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"100.0\" cy=\"107.7\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"93.2\" cy=\"106.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"87.5\" cy=\"102.5\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"83.6\" cy=\"96.8\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"82.3\" cy=\"90.0\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"83.6\" cy=\"83.2\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"87.5\" cy=\"77.5\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"93.2\" cy=\"73.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"250.0\" cy=\"72.3\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"256.4\" cy=\"73.5\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"261.9\" cy=\"76.9\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"265.8\" cy=\"82.1\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"267.6\" cy=\"88.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"267.0\" cy=\"94.8\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"264.1\" cy=\"100.7\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"259.3\" cy=\"105.0\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"253.3\" cy=\"107.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"246.7\" cy=\"107.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"240.7\" cy=\"105.0\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"235.9\" cy=\"100.7\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"233.0\" cy=\"94.8\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"232.4\" cy=\"88.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"234.2\" cy=\"82.1\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"238.1\" cy=\"76.9\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"243.6\" cy=\"73.5\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"400.0\" cy=\"72.3\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"406.1\" cy=\"73.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"411.4\" cy=\"76.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"415.3\" cy=\"81.2\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"417.4\" cy=\"86.9\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"417.4\" cy=\"93.1\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"415.3\" cy=\"98.8\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"411.4\" cy=\"103.6\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"406.1\" cy=\"106.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"400.0\" cy=\"107.7\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"393.9\" cy=\"106.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"388.6\" cy=\"103.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"384.7\" cy=\"98.8\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"382.6\" cy=\"93.1\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"382.6\" cy=\"86.9\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"384.7\" cy=\"81.2\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"388.6\" cy=\"76.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"393.9\" cy=\"73.4\" r=\"5.5\" fill=\"#2A5D9E\"/><text x=\"400\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">¹⁸₈O</text><circle cx=\"74\" cy=\"188\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"204\" cy=\"188\" r=\"5.5\" fill=\"#2A5D9E\"/><text x=\"84\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">proton</text><text x=\"214\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">neutron</text></svg></span>\n<ol><li>Hur många protoner och neutroner har varje isotop?</li>\n<li>Vad är det som är gemensamt för alla tre, och vad är det som skiljer?</li>\n<li>Varför har de samma kemiska egenskaper?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alla syreisotoper har</p><div class=\"facit-matte\">\\[Z=8\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{16}_{8}\\mathrm O:8p+8n,\\quad{}^{17}_{8}\\mathrm O:8p+9n,\\quad{}^{18}_{8}\\mathrm O:8p+10n\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gemensamt är åtta protoner, vilket gör dem till syre.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronantal och därmed masstal skiljer sig.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutrala atomer av alla tre isotoperna har åtta elektroner och nästan samma elektronstruktur, som styr kemin.</p></div><div class=\"facit-stycke\"><p>Isotopmassan kan ge små skillnader i till exempel reaktionshastighet, men grundläggande kemiska egenskaper är desamma.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> O-16, O-17 och O-18 har 8 protoner samt 8, 9 respektive 10 neutroner. Samma elektronstruktur ger nästan samma kemi.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Figuren visar tre isotoper av syre.</p><div class=\"fig bred\"><svg width=\"540\" height=\"255\" viewBox=\"0 0 540 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Syre-16, syre-17 och syre-18 med åtta röda protoner vardera och åtta, nio respektive tio blå neutroner\"><text x=\"90\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-16</text><circle cx=\"67.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"67.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"90.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"90.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"113.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"113.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"78.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"101.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"101.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"124.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"124.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"55.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"78.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"67.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-17</text><circle cx=\"247.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"247.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"270.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"293.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"293.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"258.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"281.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"281.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"304.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"304.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"235.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"258.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"247.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"270.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-18</text><circle cx=\"427.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"427.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"450.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"473.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"473.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"438.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"461.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"461.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"484.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"484.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"415.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"438.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"427.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"450.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"473.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"225\" r=\"9\" fill=\"#d45050\"/><text x=\"128\" y=\"231\" font-size=\"18\" fill=\"#243747\">proton</text><circle cx=\"300\" cy=\"225\" r=\"9\" fill=\"#4b83be\"/><text x=\"318\" y=\"231\" font-size=\"18\" fill=\"#243747\">neutron</text></svg></div><p>a) Bestäm antalet protoner och neutroner i varje kärna.</p><p>b) Vad är lika och vad skiljer isotoperna åt?</p><p>c) Varför har de nästan samma kemiska egenskaper?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Alla tre har 8 protoner. Neutronantalet är masstalet minus 8: 16 − 8 = 8, 17 − 8 = 9 och 18 − 8 = 10.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>De har samma protonantal och är därför samma grundämne, syre. Neutronantalet skiljer dem åt.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Neutrala atomer av alla tre isotoperna har 8 elektroner och samma fördelning av elektronerna. Elektronerna styr de flesta kemiska egenskaperna, så egenskaperna är nästan lika.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        8,
+        8,
+        8,
+        9,
+        8,
+        10
+      ],
+      null,
+      null
+    ],
+    "tolerans": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar kärnorna hos tre isotoper av syre.</p><span class=\"fig bred\"><svg height=\"239\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.571 47.143 402.857 155.000\"><circle cx=\"100\" cy=\"90\" r=\"34\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">¹⁶₈O</text><circle cx=\"250\" cy=\"90\" r=\"34\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">¹⁷₈O</text><circle cx=\"400\" cy=\"90\" r=\"34\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"100.0\" cy=\"72.3\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"106.8\" cy=\"73.6\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"112.5\" cy=\"77.5\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"116.4\" cy=\"83.2\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"117.7\" cy=\"90.0\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"116.4\" cy=\"96.8\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"112.5\" cy=\"102.5\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"106.8\" cy=\"106.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"100.0\" cy=\"107.7\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"93.2\" cy=\"106.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"87.5\" cy=\"102.5\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"83.6\" cy=\"96.8\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"82.3\" cy=\"90.0\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"83.6\" cy=\"83.2\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"87.5\" cy=\"77.5\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"93.2\" cy=\"73.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"250.0\" cy=\"72.3\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"256.4\" cy=\"73.5\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"261.9\" cy=\"76.9\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"265.8\" cy=\"82.1\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"267.6\" cy=\"88.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"267.0\" cy=\"94.8\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"264.1\" cy=\"100.7\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"259.3\" cy=\"105.0\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"253.3\" cy=\"107.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"246.7\" cy=\"107.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"240.7\" cy=\"105.0\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"235.9\" cy=\"100.7\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"233.0\" cy=\"94.8\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"232.4\" cy=\"88.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"234.2\" cy=\"82.1\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"238.1\" cy=\"76.9\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"243.6\" cy=\"73.5\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"400.0\" cy=\"72.3\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"406.1\" cy=\"73.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"411.4\" cy=\"76.4\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"415.3\" cy=\"81.2\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"417.4\" cy=\"86.9\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"417.4\" cy=\"93.1\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"415.3\" cy=\"98.8\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"411.4\" cy=\"103.6\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"406.1\" cy=\"106.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"400.0\" cy=\"107.7\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"393.9\" cy=\"106.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"388.6\" cy=\"103.6\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"384.7\" cy=\"98.8\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"382.6\" cy=\"93.1\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"382.6\" cy=\"86.9\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"384.7\" cy=\"81.2\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"388.6\" cy=\"76.4\" r=\"5.5\" fill=\"#2A5D9E\"/><circle cx=\"393.9\" cy=\"73.4\" r=\"5.5\" fill=\"#2A5D9E\"/><text x=\"400\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">¹⁸₈O</text><circle cx=\"74\" cy=\"188\" r=\"5.5\" fill=\"#B43123\"/><circle cx=\"204\" cy=\"188\" r=\"5.5\" fill=\"#2A5D9E\"/><text x=\"84\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">proton</text><text x=\"214\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">neutron</text></svg></span>",
+    "spelIntro": "<p>Figuren visar tre isotoper av syre.</p><div class=\"fig bred\"><svg width=\"540\" height=\"255\" viewBox=\"0 0 540 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Syre-16, syre-17 och syre-18 med åtta röda protoner vardera och åtta, nio respektive tio blå neutroner\"><text x=\"90\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-16</text><circle cx=\"67.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"67.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"90.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"90.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"113.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"113.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"78.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"101.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"101.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"124.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"124.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"55.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"78.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"67.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-17</text><circle cx=\"247.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"247.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"270.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"293.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"293.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"258.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"281.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"281.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"304.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"304.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"235.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"258.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"247.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"270.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-18</text><circle cx=\"427.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"427.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"450.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"473.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"473.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"438.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"461.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"461.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"484.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"484.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"415.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"438.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"427.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"450.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"473.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"225\" r=\"9\" fill=\"#d45050\"/><text x=\"128\" y=\"231\" font-size=\"18\" fill=\"#243747\">proton</text><circle cx=\"300\" cy=\"225\" r=\"9\" fill=\"#4b83be\"/><text x=\"318\" y=\"231\" font-size=\"18\" fill=\"#243747\">neutron</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många protoner och neutroner har varje isotop?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Alla syreisotoper har</p><div class=\"facit-matte\">\\[Z=8\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{16}_{8}\\mathrm O:8p+8n,\\quad{}^{17}_{8}\\mathrm O:8p+9n,\\quad{}^{18}_{8}\\mathrm O:8p+10n\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "Figuren visar tre syreisotopers kärnor. Bestäm antalet protoner och neutroner i varje kärna.<div class=\"fig bred\"><svg width=\"540\" height=\"255\" viewBox=\"0 0 540 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Syre-16, syre-17 och syre-18 med åtta röda protoner vardera och åtta, nio respektive tio blå neutroner\"><text x=\"90\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-16</text><circle cx=\"67.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"67.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"90.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"90.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"113.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"113.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"78.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"101.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"101.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"124.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"124.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"55.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"78.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"67.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-17</text><circle cx=\"247.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"247.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"270.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"293.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"293.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"258.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"281.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"281.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"304.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"304.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"235.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"258.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"247.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"270.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-18</text><circle cx=\"427.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"427.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"450.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"473.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"473.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"438.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"461.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"461.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"484.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"484.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"415.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"438.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"427.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"450.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"473.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"225\" r=\"9\" fill=\"#d45050\"/><text x=\"128\" y=\"231\" font-size=\"18\" fill=\"#243747\">proton</text><circle cx=\"300\" cy=\"225\" r=\"9\" fill=\"#4b83be\"/><text x=\"318\" y=\"231\" font-size=\"18\" fill=\"#243747\">neutron</text></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>Alla tre har 8 protoner. Neutronantalet är masstalet minus 8: 16 − 8 = 8, 17 − 8 = 9 och 18 − 8 = 10.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          8,
+          8,
+          8,
+          9,
+          8,
+          10
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Figuren visar tre syreisotopers kärnor. Bestäm antalet protoner och neutroner i varje kärna.<div class=\"fig bred\"><svg width=\"540\" height=\"255\" viewBox=\"0 0 540 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Syre-16, syre-17 och syre-18 med åtta röda protoner vardera och åtta, nio respektive tio blå neutroner\"><text x=\"90\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-16</text><circle cx=\"67.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"67.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"90.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"90.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"113.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"113.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"78.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"101.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"101.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"124.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"124.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"55.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"55.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"78.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"55.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"78.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"101.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"124.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"67.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-17</text><circle cx=\"247.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"247.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"270.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"270.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"293.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"293.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"258.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"281.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"281.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"304.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"304.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"235.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"235.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"258.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"235.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"258.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"281.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"304.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"247.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"270.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450\" y=\"31\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">Syre-18</text><circle cx=\"427.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"427.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"450.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"450.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"473.0\" cy=\"82\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"473.0\" y=\"87\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"438.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"461.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"461.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"484.5\" cy=\"106\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"484.5\" y=\"111\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"415.5\" cy=\"130\" r=\"10\" fill=\"#d45050\" stroke=\"#243747\" stroke-width=\"1\"/><text x=\"415.5\" y=\"135\" text-anchor=\"middle\" font-size=\"16\" fill=\"white\">+</text><circle cx=\"438.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"130\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"415.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"438.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"461.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"484.5\" cy=\"154\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"427.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"450.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"473.0\" cy=\"178\" r=\"10\" fill=\"#4b83be\" stroke=\"#243747\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"225\" r=\"9\" fill=\"#d45050\"/><text x=\"128\" y=\"231\" font-size=\"18\" fill=\"#243747\">proton</text><circle cx=\"300\" cy=\"225\" r=\"9\" fill=\"#4b83be\"/><text x=\"318\" y=\"231\" font-size=\"18\" fill=\"#243747\">neutron</text></svg></div></p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "O-16 protoner",
+          "O-16 neutroner",
+          "O-17 protoner",
+          "O-17 neutroner",
+          "O-18 protoner",
+          "O-18 neutroner"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vad är det som är gemensamt för alla tre, och vad är det som skiljer?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gemensamt är åtta protoner, vilket gör dem till syre.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronantal och därmed masstal skiljer sig.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "Syre-16, syre-17 och syre-18 är isotoper. Vad är lika och vad skiljer dem åt?",
+        "s": "<div class=\"facit-v2\"><p>De har samma protonantal och är därför samma grundämne, syre. Neutronantalet skiljer dem åt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De har samma protonantal men olika neutronantal.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De har samma protonantal men olika neutronantal.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "De har samma neutronantal men olika protonantal.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "De har samma masstal men olika grundämnen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Syre-16, syre-17 och syre-18 är isotoper. Vad är lika och vad skiljer dem åt?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Varför har de samma kemiska egenskaper?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutrala atomer av alla tre isotoperna har åtta elektroner och nästan samma elektronstruktur, som styr kemin.</p></div><div class=\"facit-stycke\"><p>Isotopmassan kan ge små skillnader i till exempel reaktionshastighet, men grundläggande kemiska egenskaper är desamma.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Varför har neutrala atomer av syre-16, syre-17 och syre-18 nästan samma kemiska egenskaper?",
+        "s": "<div class=\"facit-v2\"><p>Neutrala atomer av alla tre isotoperna har 8 elektroner och samma fördelning av elektronerna. Elektronerna styr de flesta kemiska egenskaperna, så egenskaperna är nästan lika.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De har samma antal och fördelning av elektroner.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De har samma antal och fördelning av elektroner.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "De har exakt samma massa.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "De har olika antal protoner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad styr en atoms kemiska egenskaper?</p>",
+        "t": "<p>Varför har neutrala atomer av syre-16, syre-17 och syre-18 nästan samma kemiska egenskaper?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      null,
+      null
     ]
   },
   {
     "id": "9.219",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi per nukleon",
-    "poang": "(0/2/0)",
-    "t": "<p>Bindningsenergin för \\(^{16}\\mathrm{O}\\) är \\(127{,}7\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon fås genom att dividera kärnans totala bindningsenergi med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{127{,}7}{16}=7{,}98\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}98\\ \\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En syre-16-kärna har 16 nukleoner och bindningsenergin 7,98 MeV per nukleon. Bestäm kärnans totala bindningsenergi i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Varje nukleon bidrar med den angivna genomsnittliga bindningsenergin.</p><p>\\[E_b=16\\cdot7{,}98\\approx127{,}7\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 7.98,
-    "tolerans": 0.14364,
+    "rättSvar": 127.68,
+    "tolerans": 5.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Dela den totala bindningsenergin med antalet nukleoner.</p>",
+    "ledtrad": "<p>Multiplicera energi per nukleon med antalet nukleoner.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.220",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi per nukleon",
-    "poang": "(0/2/0)",
-    "t": "<p>Bindningsenergin för \\(^{56}\\mathrm{Fe}\\) är \\(492{,}2\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon fås genom att dividera kärnans totala bindningsenergi med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{492{,}2}{56}=8{,}79\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}79\\ \\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna av järn-56 består av 56 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 492,2 MeV. Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=492{,}2/56\\approx8{,}79\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.79,
-    "tolerans": 0.15822,
+    "rättSvar": 8.789285714285715,
+    "tolerans": 0.21973214285714288,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Dela den totala bindningsenergin med antalet nukleoner.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "ledtrad": "<p>Dividera den totala bindningsenergin med antalet nukleoner.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.37",
@@ -103945,86 +104916,212 @@ window.BANK = [
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Väte finns i tre former: ¹H, ²H och ³H. Alla har en proton i kärnan.</p>\n<ol><li>Vad kallas sådana varianter av ett grundämne?</li><li>Hur många neutroner har var och en?</li>\n<li>Varför är de kemiskt nästan likadana?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varianter med samma atomnummer men olika masstal kallas isotoper.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Väte har en proton, så neutronantalet är A − 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^1\\mathrm H:0,\\qquad{}^2\\mathrm H:1,\\qquad{}^3\\mathrm H:2\\ \\text{neutroner}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutrala isotoper har samma antal elektroner och därmed nästan samma elektronstruktur, som styr kemiska reaktioner.</p></div><div class=\"facit-stycke\"><p>Masskillnaden kan ändå ge små isotopeffekter och påverkar kärnans stabilitet.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De är isotoper och har 0, 1 respektive 2 neutroner. Samma elektronstruktur ger nästan samma kemiska egenskaper.</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Väte finns som ¹H, ²H och ³H. Alla har en proton.</p><p>a) Vad kallas dessa varianter av väte?</p><p>b) Bestäm neutronantalet för ¹H, ²H och ³H.</p><p>c) Förklara varför de har nästan samma kemiska egenskaper.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Varianter av samma grundämne med olika neutronantal kallas isotoper.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Alla tre har en proton. Neutronantalen är därför 1 − 1 = 0, 2 − 1 = 1 och 3 − 1 = 2.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Neutrala väteatomer av alla tre isotoperna har en elektron. De har därför nästan samma kemiska egenskaper, även om massorna skiljer sig.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      [
+        0,
+        1,
+        2
+      ],
+      null
+    ],
+    "tolerans": [
+      null,
+      [
+        0,
+        0,
+        0
+      ],
+      null
+    ],
+    "självrättning": [
+      false,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Varianter med samma atomnummer men olika masstal kallas isotoper.</p>",
+    "ledtrad": "<p>Protonantalet är lika, men kärnornas massor skiljer sig.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Väte finns i tre former: ¹H, ²H och ³H. Alla har en proton i kärnan.</p>",
+    "spelIntro": "<p>Väte finns som ¹H, ²H och ³H. Alla har en proton.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad kallas sådana varianter av ett grundämne?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varianter med samma atomnummer men olika masstal kallas isotoper.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Varianter med samma atomnummer men olika masstal kallas isotoper.</p>",
-        "niva": "E"
+        "fraga": "Vad kallas varianter av samma grundämne som har olika neutronantal?",
+        "s": "<div class=\"facit-v2\"><p>Varianter av samma grundämne med olika neutronantal kallas isotoper.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Isotoper.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Isotoper.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Joner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Elektroner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Protonantalet är lika, men kärnornas massor skiljer sig.</p>",
+        "t": "<p>Vad kallas varianter av samma grundämne som har olika neutronantal?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur många neutroner har var och en?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Väte har en proton, så neutronantalet är A − 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^1\\mathrm H:0,\\qquad{}^2\\mathrm H:1,\\qquad{}^3\\mathrm H:2\\ \\text{neutroner}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Varianter med samma atomnummer men olika masstal kallas isotoper.</p>",
-        "niva": "E"
+        "fraga": "Väteisotoperna ¹H, ²H och ³H har en proton vardera. Bestäm neutronantalet för var och en.",
+        "s": "<div class=\"facit-v2\"><p>Alla tre har en proton. Neutronantalen är därför 1 − 1 = 0, 2 − 1 = 1 och 3 − 1 = 2.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0,
+          1,
+          2
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Väteisotoperna ¹H, ²H och ³H har en proton vardera. Bestäm neutronantalet för var och en.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "¹H",
+          "²H",
+          "³H"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför är de kemiskt nästan likadana?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutrala isotoper har samma antal elektroner och därmed nästan samma elektronstruktur, som styr kemiska reaktioner.</p></div><div class=\"facit-stycke\"><p>Masskillnaden kan ändå ge små isotopeffekter och påverkar kärnans stabilitet.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Varianter med samma atomnummer men olika masstal kallas isotoper.</p>",
-        "niva": "E"
+        "fraga": "Varför är neutrala väteatomer av ¹H, ²H och ³H kemiskt nästan lika?",
+        "s": "<div class=\"facit-v2\"><p>Neutrala väteatomer av alla tre isotoperna har en elektron. De har därför nästan samma kemiska egenskaper, även om massorna skiljer sig.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Alla har en elektron.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Alla har en elektron.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Alla har samma massa.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Alla har samma neutronantal.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på elektronerna.</p>",
+        "t": "<p>Varför är neutrala väteatomer av ¹H, ²H och ³H kemiskt nästan lika?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      [
+        null,
+        null,
+        null
+      ],
+      null
     ]
   },
   {
     "id": "9.221",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi per nukleon",
-    "poang": "(0/2/0)",
-    "t": "<p>Bindningsenergin för \\(^4He\\) är \\(28{,}28\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon fås genom att dividera kärnans totala bindningsenergi med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{28{,}28}{4}=7{,}07\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}07\\ \\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna av helium-4 består av 4 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 28,28 MeV. Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=28{,}28/4\\approx7{,}07\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 7.07,
-    "tolerans": 0.12726,
+    "tolerans": 0.17675000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Dela den totala bindningsenergin med antalet nukleoner.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "ledtrad": "<p>Dividera den totala bindningsenergin med antalet nukleoner.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.41",
@@ -105403,21 +106500,20 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Atommassor anges ofta i enheten u, där 1 u = 1,66054·10⁻²⁷ kg.</p>\n<ol><li>Hur många kilogram väger en kol-12-atom, som har massan 12,000 u?</li>\n<li>Varför använder man enheten u i stället för kilogram?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla 12,000 u till kilogram.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=(12{,}000)(1{,}66054\\cdot10^{-27})=1{,}99265\\cdot10^{-26}\\ \\mathrm{kg}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Atommassenheten ger hanterliga tal nära masstalet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I kilogram skulle atomernas massor skrivas med mycket små tiopotenser.</p></div><div class=\"facit-stycke\"><p>Dessutom definieras 1 u som en tolftedel av massan hos en neutral kol-12-atom i grundtillstånd.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En kol-12-atom har massan \\(1{,}99\\cdot10^{-26}\\ \\mathrm{kg}\\). Enheten u gör atomära massor lättare att jämföra och räkna med.</p></div>",
+    "t": "<p>En kol-12-atom har massan 12,000 u. En atommassenhet är 1 u = 1,66054·10⁻²⁷ kg.</p><p>a) Bestäm kolatomens massa i kg.</p><p>b) Förklara varför u ofta används för atommassor.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m=12\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m=1{,}992648\\cdot10^{-26}\\ \\mathrm{kg}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Atomers massor är mycket små i kilogram. Med enheten u får man tal nära 1, 12 eller 56, vilket gör massorna lättare att jämföra. 1 u är en tolftedel av massan hos en kol-12-atom.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.99e-26,
+      1.992648e-26,
       null
     ],
     "tolerans": [
-      5.97e-28,
+      5e-28,
       null
     ],
     "självrättning": [
@@ -105438,30 +106534,69 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Varje atommassenhet motsvarar den givna massan i kilogram. Behåll tiopotensen när du multiplicerar med atomens massa i u.</p>",
+    "ledtrad": "<p>Multiplicera massan i u med omvandlingsfaktorn.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassor anges ofta i enheten u, där 1 u = 1,66054·10⁻²⁷ kg.</p>",
+    "spelIntro": "<p>En kol-12-atom har massan 12,000 u. En atommassenhet är 1 u = 1,66054·10⁻²⁷ kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många kilogram väger en kol-12-atom, som har massan 12,000 u?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla 12,000 u till kilogram.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=(12{,}000)(1{,}66054\\cdot10^{-27})=1{,}99265\\cdot10^{-26}\\ \\mathrm{kg}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}99265\\cdot10^{-26}\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Varje atommassenhet motsvarar den givna massan i kilogram. Behåll tiopotensen när du multiplicerar med atomens massa i u.</p>",
+        "fraga": "En kol-12-atom har massan 12,000 u. Använd 1 u = 1,66054·10⁻²⁷ kg. Bestäm atomens massa i kg.",
+        "s": "<div class=\"facit-v2\"><p>\\[m=12\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m=1{,}992648\\cdot10^{-26}\\ \\mathrm{kg}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.992648e-26,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 5e-28,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massan i u med omvandlingsfaktorn.</p>",
+        "t": "<p>En kol-12-atom har massan 12,000 u. Använd 1 u = 1,66054·10⁻²⁷ kg. Bestäm atomens massa i kg.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Varför använder man enheten u i stället för kilogram?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Atommassenheten ger hanterliga tal nära masstalet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I kilogram skulle atomernas massor skrivas med mycket små tiopotenser.</p></div><div class=\"facit-stycke\"><p>Dessutom definieras 1 u som en tolftedel av massan hos en neutral kol-12-atom i grundtillstånd.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Varje atommassenhet motsvarar den givna massan i kilogram. Behåll tiopotensen när du multiplicerar med atomens massa i u.</p>",
+        "fraga": "Varför används enheten u ofta för atommassor?",
+        "s": "<div class=\"facit-v2\"><p>Atomers massor är mycket små i kilogram. Med enheten u får man tal nära 1, 12 eller 56, vilket gör massorna lättare att jämföra. 1 u är en tolftedel av massan hos en kol-12-atom.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den ger hanterliga tal som är lättare att jämföra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den ger hanterliga tal som är lättare att jämföra.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Den betyder att atomers massor ändras.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den betyder att alla atomer har samma massa.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför storleken på en atommassa i kg och i u.</p>",
+        "t": "<p>Varför används enheten u ofta för atommassor?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "manuellKomplettering": true,
@@ -105473,159 +106608,219 @@ window.BANK = [
     "id": "9.222",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
-    "t": "<p>Den totala bindningsenergin för kväve-14 är \\(104{,}7\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon är total bindningsenergi dividerad med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b/A=104{,}7/14=7{,}478571\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}478571\\,\\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna av kväve-14 består av 14 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 104,7 MeV. Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=104{,}7/14\\approx7{,}48\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 7.478571428571429,
-    "tolerans": 0.13461428571428571,
+    "tolerans": 0.18696428571428572,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "ledtrad": "<p>Dividera den totala bindningsenergin med antalet nukleoner.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.223",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
-    "t": "<p>Den totala bindningsenergin för natrium-23 är \\(180{,}5\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon är total bindningsenergi dividerad med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b/A=180{,}5/23=7{,}847826\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}847826\\,\\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En natrium-23-kärna har 23 nukleoner och bindningsenergin 7,85 MeV per nukleon. Bestäm kärnans totala bindningsenergi i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[E_b=23\\cdot7{,}85\\approx180{,}5\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 7.8478260869565215,
-    "tolerans": 0.14126086956521738,
+    "rättSvar": 180.54999999999998,
+    "tolerans": 5.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
+    "ledtrad": "<p>Fördela inte en energi som redan är per nukleon; multiplicera för att få totalen.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.60",
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Nukliden strontium-90 har atomnumret 38.</p>\n<ol><li>Hur många protoner har kärnan?</li><li>Hur många neutroner?</li>\n<li>Hur många elektroner har en neutral atom?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Atomnumret är antalet protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z=38\\Rightarrow N_p=38\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet är summan av protoner och neutroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_n=A-Z=90-38=52\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En neutral atom har lika många elektroner som protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_e=38\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strontium-90 har 38 protoner, 52 neutroner och, som neutral atom, 38 elektroner.</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Strontium-90 har atomnumret 38.</p><p>a) Hur många protoner har kärnan?</p><p>b) Hur många neutroner har kärnan?</p><p>c) Hur många elektroner har en neutral atom?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Atomnumret är antalet protoner: 38.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[N_n=90-38=52\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>En neutral atom har lika många elektroner som protoner: 38.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      38,
+      52,
+      38
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Nukliden strontium-90 har atomnumret 38.</p>",
+    "spelIntro": "<p>Strontium-90 har atomnumret 38.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många protoner har kärnan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Atomnumret är antalet protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z=38\\Rightarrow N_p=38\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(38\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "E"
+        "fraga": "Strontium-90 har atomnumret 38. Hur många protoner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>Atomnumret är antalet protoner: 38.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 38,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Strontium-90 har atomnumret 38. Hur många protoner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många neutroner?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet är summan av protoner och neutroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_n=A-Z=90-38=52\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "E"
+        "fraga": "Strontium-90 har masstalet 90 och atomnumret 38. Hur många neutroner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>\\[N_n=90-38=52\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 52,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Strontium-90 har masstalet 90 och atomnumret 38. Hur många neutroner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur många elektroner har en neutral atom?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En neutral atom har lika många elektroner som protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_e=38\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(38\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "E"
+        "fraga": "En neutral strontiumatom har 38 protoner. Hur många elektroner har den?",
+        "s": "<div class=\"facit-v2\"><p>En neutral atom har lika många elektroner som protoner: 38.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 38,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En neutral strontiumatom har 38 protoner. Hur många elektroner har den?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 1,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
     "id": "9.224",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
-    "t": "<p>En kärna av syre-16 har den totala bindningsenergin \\(127{,}6\\,\\mathrm{MeV}\\). Bestäm massdefekten i atommassenheter. Data: \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin motsvarar massdefekten via \\(E_b=\\Delta mc^2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\frac{127{,}6}{931{,}5}=0{,}136983\\ \\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}136983\\,\\mathrm{u}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har bindningsenergin 127,6 MeV. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm massdefekten i u.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=127{,}6/931{,}5\\approx0{,}1370\\ \\mathrm{u}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 0.13698336017176596,
-    "tolerans": 0.002465700483091787,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
+    "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "u",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.225",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
+    "niva": "E",
     "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Klor-35 och klor-37 är isotoper. Hur stor är skillnaden i neutronantal mellan kärnorna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Isotoper har samma atomnummer, så skillnaden i masstal är direkt skillnaden i neutronantal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_{37}-N_{35}=(37-17)-(35-17)=2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Isotoper har samma atomnummer, så skillnaden i masstal är direkt skillnaden i neutronantal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}N_{37}-N_{35}&=(37-17)-(35-17)\\\\&=2\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur",
@@ -105634,14 +106829,14 @@ window.BANK = [
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 0.036,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
+    "ledtrad": "<p>Isotoper av samma grundämne har samma antal protoner. Jämför deras masstal.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -105652,42 +106847,49 @@ window.BANK = [
     "id": "9.61",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "beräkna bindningsenergi och bindningsenergi per nukleon för litium-7, ur text, sökt massdefekt och energi",
-    "poang": "(2/1/0)",
-    "t": "<p>Litium-7, ⁷₃Li, har atommassan 7,016003 u.</p><p>Massdata: m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p>\n<ol><li>Hur många protoner och neutroner har kärnan?</li>\n<li>Bestäm massdefekten.</li>\n<li>Bestäm bindningsenergin per nukleon.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Litium-7 har Z = 3 och</p><div class=\"facit-matte\">\\[A=7\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_p=3,\\qquad N_n=7-3=4\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beståndsdelarnas atommassor och massdefekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{delar}}=3(1{,}007825)+4(1{,}008665)=7{,}058135\\ \\mathrm u\\]\\[\\Delta m=7{,}058135-7{,}016003=0{,}042132\\ \\mathrm u\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin per nukleon blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{(0{,}042132)(931{,}5)}{7}=5{,}61\\ \\mathrm{MeV/nukleon}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kärnan har 3 protoner och 4 neutroner. Massdefekten är \\(0{,}042132\\ \\mathrm u\\), och bindningsenergin \\(5{,}61\\ \\mathrm{MeV}\\) per nukleon.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>a) Hur många protoner och neutroner har kärnan?</p><p>b) Bestäm massdefekten i u.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}N_n&=7-3\\\\&=4\\end{aligned}\\]</p><p>Kärnan har 3 protoner och 4 neutroner.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=3\\cdot1{,}007825+4\\cdot1{,}008665\\\\&\\approx7{,}058135\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=7{,}058135-7{,}016003\\\\&\\approx0{,}042132\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}042132\\cdot931{,}5\\\\&\\approx39{,}246\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=39{,}245958/7\\\\&\\approx5{,}607\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      0.042132,
-      5.61
+      [
+        3,
+        4
+      ],
+      0.042131999999999614,
+      5.606565428571377
     ],
     "tolerans": [
-      null,
-      0.00126396,
-      0.08415
+      [
+        0,
+        0
+      ],
+      0.0010532999999999903,
+      0.14016413571428574
     ],
     "självrättning": [
-      false,
+      true,
       true,
       true
     ],
     "svarFormat": [
-      null,
       "numeriskt",
-      "numeriskt"
+      "numeriskt",
+      "energi_per_nukleon"
     ],
     "svarEnhet": [
-      null,
+      [
+        null,
+        null
+      ],
       "u",
-      "MeV/nukleon"
+      "MeV"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -105696,41 +106898,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Litium-7, ⁷₃Li, har atommassan 7,016003 u.</p><p>Använd m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p>",
+    "spelIntro": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många protoner och neutroner har kärnan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Litium-7 har Z = 3 och</p><div class=\"facit-matte\">\\[A=7\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_p=3,\\qquad N_n=7-3=4\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "En kärna av litium-7 har 3 protoner och masstalet 7. Hur många protoner och neutroner har den?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}N_n&=7-3\\\\&=4\\end{aligned}\\]</p><p>Kärnan har 3 protoner och 4 neutroner.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          3,
+          4
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En kärna av litium-7 har 3 protoner och masstalet 7. Hur många protoner och neutroner har den?</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Protoner",
+          "Neutroner"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm massdefekten.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beståndsdelarnas atommassor och massdefekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\mathrm{delar}}=3(1{,}007825)+4(1{,}008665)=7{,}058135\\ \\mathrm u\\]\\[\\Delta m=7{,}058135-7{,}016003=0{,}042132\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}042132\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=3\\cdot1{,}007825+4\\cdot1{,}008665\\\\&\\approx7{,}058135\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=7{,}058135-7{,}016003\\\\&\\approx0{,}042132\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.042131999999999614,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.0010532999999999903,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm bindningsenergin per nukleon.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin per nukleon blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{(0{,}042132)(931{,}5)}{7}=5{,}61\\ \\mathrm{MeV/nukleon}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}61\\ \\mathrm{MeV/nukleon}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En kärna har 7 nukleoner och massdefekten 0.042132 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}042132\\cdot931{,}5\\\\&\\approx39{,}246\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=39{,}245958/7\\\\&\\approx5{,}607\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.606565428571429,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.14016413571428574,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna total bindningsenergi och dela med antalet nukleoner.</p>",
+        "t": "<p>En kärna har 7 nukleoner och massdefekten 0.042132 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
     ]
@@ -105739,103 +106988,100 @@ window.BANK = [
     "id": "9.226",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
-    "t": "<p>Den totala bindningsenergin för svavel-32 är \\(236\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon är total bindningsenergi dividerad med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b/A=236/32=7{,}375\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}375\\,\\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har den totala bindningsenergin 236 MeV. Bindningsenergin per nukleon är 7,375 MeV. Hur många nukleoner har kärnan?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[A=236/7{,}375=32\\]</p><p>Kärnan innehåller 32 nukleoner.</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 7.375,
-    "tolerans": 0.13274999999999998,
+    "rättSvar": 32,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
+    "ledtrad": "<p>Hur många bidrag på 7,375 MeV ryms i den totala energin?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "svarEnhet": null,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.227",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
-    "t": "<p>Den totala bindningsenergin för kalcium-40 är \\(342\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergi per nukleon är total bindningsenergi dividerad med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b/A=342/40=8{,}55\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}55\\,\\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Kalcium-40 har bindningsenergin 8,55 MeV per nukleon och helium-4 har 7,07 MeV per nukleon. Hur mycket större är kalciums bindningsenergi per nukleon? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\Delta E=8{,}55-7{,}07\\approx1{,}48\\ \\mathrm{MeV}\\]</p><p>Det krävs mer energi per nukleon för att dela upp kalciumkärnan helt.</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.55,
-    "tolerans": 0.1539,
+    "rättSvar": 1.4800000000000004,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 3,
+    "ledtrad": "<p>Jämför de givna energierna per nukleon.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.62",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Järn-56 har atommassan 55,934 936 u och 26 protoner. Massdata: m(¹H) = 1,007 825 u, m(n) = 1,008 665 u och att 1 u motsvarar 931,5 MeV.</p>\n<ol><li>Hur många neutroner har kärnan?</li><li>Bestäm massdefekten.</li>\n<li>Bestäm bindningsenergin per nukleon.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Järn-56 har 26 protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_n=A-Z=56-26=30\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beståndsdelarnas atommassor ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=26(1{,}007825)+30(1{,}008665)-55{,}934936=0{,}528464\\ \\mathrm u\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=(0{,}528464)(931{,}5)=492{,}25\\ \\mathrm{MeV}\\]\\[\\frac{E_b}{A}=\\frac{492{,}25}{56}=8{,}79\\ \\mathrm{MeV/nukleon}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Järn-56 har 30 neutroner, massdefekten \\(0{,}5285\\ \\mathrm u\\), och bindningsenergin \\(8{,}79\\ \\mathrm{MeV}\\) per nukleon.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>a) Hur många neutroner har kärnan?</p><p>b) Bestäm massdefekten i u.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}N_n&=56-26\\\\&=30\\end{aligned}\\]</p><p>Kärnan har 26 protoner och 30 neutroner.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=26\\cdot1{,}007825+30\\cdot1{,}008665\\\\&\\approx56{,}463400\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=56{,}4634-55{,}934936\\\\&\\approx0{,}528464\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}528464\\cdot931{,}5\\\\&\\approx492{,}264\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=492{,}26422/56\\\\&\\approx8{,}790\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      0.528464,
-      8.79
+      30,
+      0.5284639999999925,
+      8.790432428571304
     ],
     "tolerans": [
-      null,
-      0.01,
-      0.13185
+      0,
+      0.013211599999999813,
+      0.21976081071428577
     ],
     "självrättning": [
-      false,
+      true,
       true,
       true
     ],
     "svarFormat": [
-      null,
       "numeriskt",
-      "numeriskt"
+      "numeriskt",
+      "energi_per_nukleon"
     ],
     "svarEnhet": [
       null,
       "u",
-      "MeV/nukleon"
+      "MeV"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -105844,41 +107090,74 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Järn-56 har atommassan 55,934 936 u och 26 protoner. Använd m(¹H) = 1,007 825 u, m(n) = 1,008 665 u och att 1 u motsvarar 931,5 MeV.</p>",
+    "spelIntro": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många neutroner har kärnan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Järn-56 har 26 protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_n=A-Z=56-26=30\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "En kärna av järn-56 har 26 protoner och masstalet 56. Hur många neutroner har den?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}N_n&=56-26\\\\&=30\\end{aligned}\\]</p><p>Kärnan har 26 protoner och 30 neutroner.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 30,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En kärna av järn-56 har 26 protoner och masstalet 56. Hur många neutroner har den?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm massdefekten.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beståndsdelarnas atommassor ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=26(1{,}007825)+30(1{,}008665)-55{,}934936=0{,}528464\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}528464\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=26\\cdot1{,}007825+30\\cdot1{,}008665\\\\&\\approx56{,}463400\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=56{,}4634-55{,}934936\\\\&\\approx0{,}528464\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5284639999999925,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.013211599999999813,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Använd väteatomens massa 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm bindningsenergin per nukleon.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=(0{,}528464)(931{,}5)=492{,}25\\ \\mathrm{MeV}\\]\\[\\frac{E_b}{A}=\\frac{492{,}25}{56}=8{,}79\\ \\mathrm{MeV/nukleon}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}79\\ \\mathrm{MeV/nukleon}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En kärna har 56 nukleoner och massdefekten 0.528464 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}528464\\cdot931{,}5\\\\&\\approx492{,}264\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=492{,}26422/56\\\\&\\approx8{,}790\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.79043242857143,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.21976081071428577,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna total bindningsenergi och dela med antalet nukleoner.</p>",
+        "t": "<p>En kärna har 56 nukleoner och massdefekten 0.528464 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
     ]
@@ -105887,40 +107166,39 @@ window.BANK = [
     "id": "9.228",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
-    "t": "<p>En kärna av järn-56 har den totala bindningsenergin \\(492{,}3\\,\\mathrm{MeV}\\). Bestäm massdefekten i atommassenheter. Data: \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin motsvarar massdefekten via \\(E_b=\\Delta mc^2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\frac{492{,}3}{931{,}5}=0{,}528502\\ \\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}528502\\,\\mathrm{u}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har bindningsenergin 492,3 MeV. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm massdefekten i u.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=492{,}3/931{,}5\\approx0{,}5285\\ \\mathrm{u}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5285024154589372,
-    "tolerans": 0.009513043478260869,
+    "tolerans": 0.01321256038647343,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
+    "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "u",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.229",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
+    "niva": "E",
     "typ": "bindningsenergi och isotopjämförelse",
-    "poang": "(0/2/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Kol-12 och kol-14 är isotoper. Hur stor är skillnaden i neutronantal mellan kärnorna?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda har atomnummer 6.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför därför \\(A-Z\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(14-6)-(12-6)=2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
@@ -105931,14 +107209,14 @@ window.BANK = [
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 0.036,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera om uppgiften kräver \\(A-Z\\), division med masstalet eller sambandet \\(E=\\Delta mc^2\\).</p>",
+    "ledtrad": "<p>Isotoper av samma grundämne har samma antal protoner. Jämför deras masstal.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -105950,92 +107228,189 @@ window.BANK = [
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "bestämma neutronantal ur masstal och atomnummer, ur tabell, sökt antal",
-    "poang": "(2/0/0)",
-    "t": "<p>Tabellen visar fyra radioaktiva nuklider.</p>\n<table class=\"data\"><tr><th>Nuklid</th><th>Atomnummer</th><th>Masstal</th></tr>\n<tr><td>kol-14</td><td>6</td><td>14</td></tr><tr><td>kalium-40</td><td>19</td><td>40</td></tr><tr><td>jod-131</td><td>53</td><td>131</td></tr><tr><td>cesium-137</td><td>55</td><td>137</td></tr></table>\n<ol><li>Hur många neutroner har varje nuklid?</li><li>Vilken har störst neutronöverskott jämfört med antalet protoner?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet neutroner är A − Z.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{14}\\mathrm C:8,\\quad{}^{40}\\mathrm K:21,\\quad{}^{131}\\mathrm I:78,\\quad{}^{137}\\mathrm{Cs}:82\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför neutronantalet med protonantalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N-Z:2,\\ 2,\\ 25,\\ 27\\]</div></div><div class=\"facit-stycke\"><p>Cesium-137 har det största neutronöverskottet.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Neutronantalen är 8, 21, 78 och 82. Cesium-137 har störst neutronöverskott: 27 fler neutroner än protoner.</p></div>",
+    "poang": "(5/0/0)",
+    "t": "<p>a) Kol-14 har masstalet 14 och atomnumret 6. Hur många neutroner har kärnan?</p><p>b) Kalium-40 har masstalet 40 och atomnumret 19. Hur många neutroner har kärnan?</p><p>c) Jod-131 har masstalet 131 och atomnumret 53. Hur många neutroner har kärnan?</p><p>d) Cesium-137 har masstalet 137 och atomnumret 55. Hur många neutroner har kärnan?</p><p>e) Vilken kärna har störst skillnad mellan antalet neutroner och antalet protoner? Motivera med antalen.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[N_n=14-6=8\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[N_n=40-19=21\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[N_n=131-53=78\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[N_n=137-55=82\\]</p></div></div><p>e) Skillnaderna neutroner minus protoner är 2, 2, 25 och 27. Cesium-137 har flest: 27 fler neutroner än protoner.</p>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      21,
+      78,
+      82,
+      null
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tabellen visar fyra radioaktiva nuklider.</p>\n<table class=\"data\"><tr><th>Nuklid</th><th>Atomnummer</th><th>Masstal</th></tr>\n<tr><td>kol-14</td><td>6</td><td>14</td></tr><tr><td>kalium-40</td><td>19</td><td>40</td></tr><tr><td>jod-131</td><td>53</td><td>131</td></tr><tr><td>cesium-137</td><td>55</td><td>137</td></tr></table>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många neutroner har varje nuklid?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet neutroner är A − Z.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{14}\\mathrm C:8,\\quad{}^{40}\\mathrm K:21,\\quad{}^{131}\\mathrm I:78,\\quad{}^{137}\\mathrm{Cs}:82\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "Kol-14 har masstalet 14 och atomnumret 6. Hur många neutroner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>\\[N_n=14-6=8\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Kol-14 har masstalet 14 och atomnumret 6. Hur många neutroner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken har störst neutronöverskott jämfört med antalet protoner?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför neutronantalet med protonantalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N-Z:2,\\ 2,\\ 25,\\ 27\\]</div></div><div class=\"facit-stycke\"><p>Cesium-137 har det största neutronöverskottet.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "Kalium-40 har masstalet 40 och atomnumret 19. Hur många neutroner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>\\[N_n=40-19=21\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 21,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Kalium-40 har masstalet 40 och atomnumret 19. Hur många neutroner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "Jod-131 har masstalet 131 och atomnumret 53. Hur många neutroner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>\\[N_n=131-53=78\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 78,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Jod-131 har masstalet 131 och atomnumret 53. Hur många neutroner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "d",
+        "fraga": "Cesium-137 har masstalet 137 och atomnumret 55. Hur många neutroner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>\\[N_n=137-55=82\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 82,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Cesium-137 har masstalet 137 och atomnumret 55. Hur många neutroner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 1,
+    "arbetsinsats": 4,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
     "id": "9.230",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "tolka bindningsenergi per nukleon som stabilitetsmått",
-    "poang": "(0/1/2)",
-    "t": "<p>Två kärnor har bindningsenergierna \\(7{,}65\\) respektive \\(8{,}55\\,\\mathrm{MeV/nukleon}\\). Hur mycket större är den högre bindningsenergin per nukleon än den lägre?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Högre bindningsenergi per nukleon betyder att mer energi krävs för att separera kärnan i fria nukleoner och är därför ett mått på starkare bindning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta(E_b/A)=8{,}55-7{,}65=0,9\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den andra kärnan är hårdare bunden med \\(0{,}9\\ \\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Två kärnor har bindningsenergin 7,65 respektive 8,55 MeV per nukleon. Hur mycket större är den högre energin per nukleon? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[8{,}55-7{,}65=0{,}90\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 0.9,
-    "tolerans": 0.0162,
+    "tolerans": 0.022500000000000003,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför energi per nukleon, inte den totala bindningsenergin.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 4,
+    "ledtrad": "<p>Subtrahera den lägre energin från den högre.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.231",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
+    "niva": "E",
     "typ": "isotoper: neutronantal och kemisk likhet",
-    "poang": "(0/1/2)",
+    "poang": "(1/0/0)",
     "t": "<p>Uran-235 och uran-238 är isotoper. Bestäm skillnaden i neutronantal mellan kärnorna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Isotoper har samma atomnummer och därmed samma antal protoner och, i neutrala atomer, samma elektronstruktur.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De skiljer sig i neutronantal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_{238}-N_{235}=(238-92)-(235-92)=3\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Skillnaden är \\(3\\) neutroner.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>\\[N_{238}=238-92=146\\]</p><p>\\[N_{235}=235-92=143\\]</p><p>\\[146-143=3\\]</p><p>Uran-238 har tre fler neutroner än uran-235.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "resonemang",
@@ -106044,14 +107419,14 @@ window.BANK = [
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.054,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför \\(A-Z\\) för kärnorna och fundera på vad som bestämmer en atoms elektronstruktur.</p>",
+    "ledtrad": "<p>Isotoper av samma grundämne har samma antal protoner. Jämför deras masstal.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "traningsniva": 4,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
@@ -106063,139 +107438,216 @@ window.BANK = [
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En nuklid skrivs ²⁰⁷₈₂Pb.</p>\n<ol><li>Vad betyder de två talen?</li><li>Hur många neutroner har kärnan?</li>\n<li>Vad heter en nuklid med samma atomnummer men 125 neutroner?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I nuklidbeteckningen är 207 masstalet A, antalet nukleoner, och 82 atomnumret Z, antalet protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{A}_{Z}X={} ^{207}_{82}\\mathrm{Pb}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet neutroner är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=A-Z=207-82=125\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma atomnummer 82 betyder fortfarande bly.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med 125 neutroner blir masstalet</p><div class=\"facit-matte\">\\[82+125=207\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{207}_{82}\\mathrm{Pb}=\\text{bly-207}\\]</div></div><div class=\"facit-stycke\"><p>Det är alltså samma nuklid som den som redan står i frågan.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 207 är masstalet och 82 atomnumret. Kärnan har 125 neutroner, och nukliden med Z = 82 och 125 neutroner är bly-207.</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>En nuklid skrivs ²⁰⁷₈₂Pb.</p><p>a) Förklara vad båda talen i beteckningen betyder.</p><p>b) Hur många neutroner har kärnan?</p><p>c) Vad heter en annan blynuklid med 82 protoner och 126 neutroner?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>207 är masstalet, alltså antalet protoner och neutroner tillsammans. 82 är atomnumret, alltså protonantalet.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[N_n=207-82=125\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>82 protoner betyder bly. Med 126 neutroner blir masstalet 82 + 126 = 208. Nukliden är bly-208.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      125,
+      null
+    ],
+    "tolerans": [
+      null,
+      0,
+      0
+    ],
+    "självrättning": [
+      false,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En nuklid skrivs ²⁰⁷₈₂Pb.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad betyder de två talen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I nuklidbeteckningen är 207 masstalet A, antalet nukleoner, och 82 atomnumret Z, antalet protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{A}_{Z}X={} ^{207}_{82}\\mathrm{Pb}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\({} ^{207}_{82}\\mathrm{Pb}\\).</p></div>",
-        "ledtrad": "<p>I nuklidbeteckningen är 207 masstalet A, antalet nukleoner, och 82 atomnumret Z, antalet protoner.</p>",
-        "niva": "E"
+        "fraga": "I beteckningen ²⁰⁷₈₂Pb, vad betyder det övre talet 207?",
+        "s": "<div class=\"facit-v2\"><p>207 är masstalet, alltså antalet protoner och neutroner tillsammans. 82 är atomnumret, alltså protonantalet.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Antalet protoner och neutroner tillsammans.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Antalet protoner och neutroner tillsammans.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Antalet elektroner och neutroner tillsammans.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Enbart antalet neutroner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>I beteckningen ²⁰⁷₈₂Pb, vad betyder det övre talet 207?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur många neutroner har kärnan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet neutroner är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=A-Z=207-82=125\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(125\\).</p></div>",
-        "ledtrad": "<p>I nuklidbeteckningen är 207 masstalet A, antalet nukleoner, och 82 atomnumret Z, antalet protoner.</p>",
-        "niva": "E"
+        "fraga": "Bly-207 har atomnumret 82. Hur många neutroner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>\\[N_n=207-82=125\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 125,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Bly-207 har atomnumret 82. Hur många neutroner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vad heter en nuklid med samma atomnummer men 125 neutroner?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma atomnummer 82 betyder fortfarande bly.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med 125 neutroner blir masstalet</p><div class=\"facit-matte\">\\[82+125=207\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{207}_{82}\\mathrm{Pb}=\\text{bly-207}\\]</div></div><div class=\"facit-stycke\"><p>Det är alltså samma nuklid som den som redan står i frågan.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\text{bly-207}\\).</p></div>",
-        "ledtrad": "<p>I nuklidbeteckningen är 207 masstalet A, antalet nukleoner, och 82 atomnumret Z, antalet protoner.</p>",
-        "niva": "E"
+        "fraga": "En annan blykärna har 82 protoner och 126 neutroner. Vilket masstal har den?",
+        "s": "<div class=\"facit-v2\"><p>\\[A=82+126=208\\]</p><p>Det är bly-208.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 208,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>En annan blykärna har 82 protoner och 126 neutroner. Vilket masstal har den?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 1,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
     "id": "9.232",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt från bindningsenergi per nukleon",
-    "poang": "(0/1/2)",
-    "t": "<p>Syre-16 har ungefär bindningsenergin \\(7{,}98\\,\\mathrm{MeV}\\) per nukleon. Bestäm kärnans massdefekt i atommassenheter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först den totala bindningsenergin och använd sedan \\(1\\,u c^2=931,5\\,\\mathrm{{MeV}}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=16\\cdot7{,}98=127,7\\ \\mathrm{MeV}\\]\\[\\Delta m=\\frac{E_b}{931{,}5}=0{,}1371\\ \\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}1371\\ \\mathrm u\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har 16 nukleoner och bindningsenergin 7,98 MeV per nukleon. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm kärnans massdefekt i u.</p>",
+    "s": "<div class=\"facit-v2\"><p>Beräkna först hela kärnans bindningsenergi.</p><p>\\[E_b=16\\cdot7{,}98\\approx127{,}68\\ \\mathrm{MeV}\\]</p><p>\\[\\Delta m=127{,}68/931{,}5\\approx0{,}1371\\ \\mathrm{u}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.137069,
-    "tolerans": 0.002467,
+    "rättSvar": 0.13706924315619967,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Gå från energi per nukleon till total bindningsenergi innan du omvandlar till massa.</p>",
+    "ledtrad": "<p>Från energi per nukleon går du först till total bindningsenergi.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "u",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.233",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>Deuteronkärnan består av en proton och en neutron. Kärnmassorna är \\(m_p=1{,}007276\\,u\\), \\(m_n=1{,}008665\\,u\\) och \\(m_D=2{,}013553\\,u\\). Bestäm deuteronens bindningsenergi i MeV. Data: \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna först massdefekten mellan fria nukleoner och den bundna kärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=0{,}002388\\,u\\]\\[E_b=0{,}002388\\cdot931{,}5=2{,}224422\\,\\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}224422\\,\\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har 1 protoner och 1 neutroner. Kärnans massa är 2,013553 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>Bestäm bindningsenergin. Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=1\\cdot1{,}007276\\\\&\\quad+1\\cdot1{,}008665\\\\&\\quad-2{,}013553\\\\&\\approx0{,}002388\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}002388\\cdot931{,}5\\\\&\\approx2{,}224\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 2.224421999999846,
-    "tolerans": 0.04003959599999723,
+    "tolerans": 0.05561054999999615,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.65",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "använda bindningsenergi per nukleon för att beräkna energiutbytet vid både fusion och fission, ur tabell, sökt energi",
-    "poang": "(0/1/2)",
-    "t": "<p>Tabellen visar bindningsenergin per nukleon för fyra nuklider.</p><table class=\"data\"><tr><th>Nuklid</th><th>MeV per nukleon</th></tr><tr><td>²₁H</td><td>1,11</td></tr><tr><td>⁴₂He</td><td>7,07</td></tr><tr><td>⁵⁶₂₆Fe</td><td>8,79</td></tr><tr><td>²³⁸₉₂U</td><td>7,57</td></tr></table>\n<ol><li>Två deuteriumkärnor slås samman till en heliumkärna. Hur mycket energi frigörs?</li>\n<li>En uran-238-kärna klyvs i två ungefär lika stora delar med bindningsenergin 8,5 MeV per nukleon. Hur mycket energi frigörs?</li>\n<li>Förklara varför både fusion och fission kan frigöra energi, trots att processerna går åt motsatt håll.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två deuteriumkärnor innehåller totalt fyra nukleoner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Skillnaden i total bindningsenergi är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=4(7{,}07)-4(1{,}11)=23{,}84\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fission ökar bindningsenergin per nukleon med 8,5 − 7,57 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=238(8{,}50-7{,}57)=221{,}3\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda processerna flyttar nukleoner mot bindningsenergikurvans maximum.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lätta kärnor når starkare bindning genom fusion och tunga genom fission.</p></div><div class=\"facit-stycke\"><p>Fusionen ger här mer energi per nukleon, medan fissionen omfattar fler nukleoner och därför ger större energi per enskild reaktion.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fusionen frigör cirka \\(23{,}8\\ \\mathrm{MeV}\\), och den idealiserade U-238-fissionen cirka \\(221\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>En deuteriumkärna har 2 nukleoner och bindningsenergin 1,11 MeV per nukleon. Helium-4 har 7,07 MeV per nukleon. Uran-238 har 7,57 MeV per nukleon.</p><p>a) Två deuteriumkärnor bildar helium-4. Beräkna den frigjorda energin i MeV.</p><p>b) I en förenklad fissionsmodell ger en uran-238-kärna produkter med 8,50 MeV per nukleon. Beräkna den frigjorda energin i MeV.</p><p>c) Förklara varför båda processerna kan frigöra energi.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[Q=4\\cdot7{,}07-4\\cdot1{,}11=23{,}84\\ \\mathrm{MeV}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[Q=238(8{,}50-7{,}57)=221{,}34\\ \\mathrm{MeV}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Både fusion och fission kan ge mer hårt bundna produkter. När total bindningsenergi ökar frigörs energiskillnaden. Processernas riktning ensam avgör inte om energi frigörs.</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "procedur",
-      "resonemang"
+      "problemlösning"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      23.8,
-      221,
+      23.84,
+      221.33999999999992,
       null
     ],
     "tolerans": [
-      0.357,
-      3.315,
+      0.596,
+      5.533499999999998,
       null
     ],
     "självrättning": [
@@ -106209,8 +107661,8 @@ window.BANK = [
       null
     ],
     "svarEnhet": [
-      null,
-      null,
+      "MeV",
+      "MeV",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -106220,39 +107672,89 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "nuklider__massdefekt_och_bindningsenergi",
-    "ledtrad": "<p>Två deuteriumkärnor innehåller totalt fyra nukleoner. Skillnaden i total bindningsenergi är</p>",
+    "ledtrad": "<p>Jämför den totala bindningsenergin för samma fyra nukleoner före och efter.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tabellen visar bindningsenergin per nukleon för fyra nuklider.</p><table class=\"data\"><tr><th>Nuklid</th><th>MeV per nukleon</th></tr><tr><td>²₁H</td><td>1,11</td></tr><tr><td>⁴₂He</td><td>7,07</td></tr><tr><td>⁵⁶₂₆Fe</td><td>8,79</td></tr><tr><td>²³⁸₉₂U</td><td>7,57</td></tr></table>",
+    "spelIntro": "<p>En deuteriumkärna har 2 nukleoner och bindningsenergin 1,11 MeV per nukleon. Helium-4 har 7,07 MeV per nukleon. Uran-238 har 7,57 MeV per nukleon.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Två deuteriumkärnor slås samman till en heliumkärna. Hur mycket energi frigörs?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två deuteriumkärnor innehåller totalt fyra nukleoner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Skillnaden i total bindningsenergi är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=4(7{,}07)-4(1{,}11)=23{,}84\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(23{,}84\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Två deuteriumkärnor innehåller totalt fyra nukleoner. Skillnaden i total bindningsenergi är</p>",
+        "fraga": "Två deuteriumkärnor, vardera med 2 nukleoner och 1,11 MeV bindningsenergi per nukleon, bildar helium-4 med 7,07 MeV per nukleon. Hur mycket energi frigörs? Svara i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[Q=4\\cdot7{,}07-4\\cdot1{,}11=23{,}84\\ \\mathrm{MeV}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 23.84,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.596,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Jämför den totala bindningsenergin för samma fyra nukleoner före och efter.</p>",
+        "t": "<p>Två deuteriumkärnor, vardera med 2 nukleoner och 1,11 MeV bindningsenergi per nukleon, bildar helium-4 med 7,07 MeV per nukleon. Hur mycket energi frigörs? Svara i MeV.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En uran-238-kärna klyvs i två ungefär lika stora delar med bindningsenergin 8,5 MeV per nukleon. Hur mycket energi frigörs?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fission ökar bindningsenergin per nukleon med 8,5 − 7,57 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=238(8{,}50-7{,}57)=221{,}3\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(221{,}3\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Två deuteriumkärnor innehåller totalt fyra nukleoner. Skillnaden i total bindningsenergi är</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs? Svara i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[Q=238(8{,}50-7{,}57)=221{,}34\\ \\mathrm{MeV}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 221.33999999999992,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 5.533499999999998,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera ökningen per nukleon med antalet nukleoner.</p>",
+        "t": "<p>En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs? Svara i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Förklara varför både fusion och fission kan frigöra energi, trots att processerna går åt motsatt håll.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda processerna flyttar nukleoner mot bindningsenergikurvans maximum.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lätta kärnor når starkare bindning genom fusion och tunga genom fission.</p></div><div class=\"facit-stycke\"><p>Fusionen ger här mer energi per nukleon, medan fissionen omfattar fler nukleoner och därför ger större energi per enskild reaktion.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Två deuteriumkärnor innehåller totalt fyra nukleoner. Skillnaden i total bindningsenergi är</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Hur kan både fusion och fission frigöra energi?",
+        "s": "<div class=\"facit-v2\"><p>Både fusion och fission kan ge mer hårt bundna produkter. När total bindningsenergi ökar frigörs energiskillnaden. Processernas riktning ensam avgör inte om energi frigörs.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Båda kan ge produkter med större total bindningsenergi.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Båda kan ge produkter med större total bindningsenergi.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Alla reaktioner frigör energi oavsett produkter.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Bindningsenergin beror bara på antalet elektroner.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Det är skillnaden i total bindningsenergi som avgör.</p>",
+        "t": "<p>Hur kan både fusion och fission frigöra energi?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -106263,346 +107765,540 @@ window.BANK = [
     "id": "9.234",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>I en förenklad kärnprocess ökar bindningsenergin per nukleon med \\(0{,}85\\,\\mathrm{MeV}\\) för kärnor med masstalet \\(56\\). Hur mycket energi frigörs om \\(1{,}00\\) mol sådana kärnor genomgår processen? Data: \\(N_A=6{,}022\\cdot10^{23}\\,\\mathrm{mol^{-1}}\\) och \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först energiökningen per kärna och multiplicera sedan med antalet kärnor i en mol.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_{kärna}=56\\cdot0{,}85=47,6\\,\\mathrm{MeV}\\]\\[E=4{,}5921\\cdot10^{12}\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5921\\cdot10^{12}\\,\\mathrm{J}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>I en modell ökar bindningsenergin med 0,85 MeV per nukleon. Varje kärna har 56 nukleoner. Hur mycket energi frigörs när 1,00 mol sådana kärnor genomgår processen? Svara i J. Använd Nₐ = 6,022·10²³ mol⁻¹ och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p>Energin per kärna är 56 · 0,85 = 47,6 MeV.</p><p>\\[E_{\\text{kärna}}=47{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{kärna}}=7{,}62552\\cdot10^{-12}\\ \\mathrm J\\]</p><p>En mol innehåller 6,022·10²³ kärnor.</p><p>\\[E=E_{\\text{kärna}}\\cdot N_A\\approx4{,}59\\cdot10^{12}\\ \\mathrm J\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 4592088144000,
-    "tolerans": 82657586592,
+    "rättSvar": 4592088144000.0,
+    "tolerans": 114802203600.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
+    "ledtrad": "<p>Håll isär energi per nukleon, per kärna och för hela mängden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "J",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
-    "spel": true
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.66",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "beräkna atomkärnans densitet ur radieformeln och jämföra med ett fast ämne, ur text, sökt volym och densitet",
-    "poang": "(0/1/2)",
-    "t": "<p>En atomkärnas radie kan uppskattas med \\(r=1{,}2\\cdot A^{1/3}\\) femtometer, där A är masstalet. En femtometer är 10⁻¹⁵ m. Järn-56 har atommassan 55,935 u och 1 u = 1,66054·10⁻²⁷ kg. Fast järn har densiteten 7870 kg/m³.</p>\n<ol><li>Bestäm kärnans radie och volym.</li>\n<li>Bestäm kärnans massa och densitet.</li>\n<li>Hur många gånger tätare är kärnan än fast järn? Vad säger det om atomen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnradien för A = 56 blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=(1{,}2)(56^{1/3})\\ \\mathrm{fm}=4{,}59\\ \\mathrm{fm}=4{,}59\\cdot10^{-15}\\ \\mathrm m\\]</div></div><div class=\"facit-stycke\"><p>\\[V=\\frac{4\\pi r^3}{3}=4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\]</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnans massa kan uppskattas med atommassan; elektronernas lilla massa försummas här.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=(55{,}935)(1{,}66054\\cdot10^{-27})=9{,}29\\cdot10^{-26}\\ \\mathrm{kg}\\]\\[\\rho=\\frac mV=2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämfört med fast järn är tätheten</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{2{,}29\\cdot10^{17}}{7870}=2{,}91\\cdot10^{13}\\]</div></div><div class=\"facit-stycke\"><p>Nästan all atommassa är koncentrerad i den mycket lilla kärnan, medan elektronmolnet upptar nästan hela atomens volym.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(r=4{,}59\\ \\mathrm{fm}\\), \\(V=4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\), \\(m=9{,}29\\cdot10^{-26}\\ \\mathrm{kg}\\), och \\(\\rho=2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\), cirka \\(2{,}9\\cdot10^{13}\\) gånger fast järn.</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm, där 1 fm = 10⁻¹⁵ m. Modellera kärnan som ett klot och uppskatta kärnmassan till atommassan 55,935 u. Använd 1 u = 1,66054·10⁻²⁷ kg. Fast järn har densiteten 7 870 kg/m³.</p><div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div><p>a) Bestäm kärnans radie i fm och volym i m³.</p><p>b) Bestäm kärnans massa i kg och densitet i kg/m³.</p><p>c) Hur många gånger större är kärnans densitet än det fasta järnets? Vad säger det om var atomens massa finns?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[r=1{,}2\\cdot56^{1/3}\\approx4{,}59\\ \\mathrm{fm}\\]</p><p>Radien i meter är cirka 4,59·10⁻¹⁵ m.</p><p>\\[V=4\\pi r^3/3\\approx4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m=55{,}935\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m\\approx9{,}29\\cdot10^{-26}\\ \\mathrm{kg}\\]</p><p>\\[\\rho=m/V\\approx2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\rho/7870\\approx2{,}91\\cdot10^{13}\\]</p><p>Nästan all atomens massa finns i den mycket lilla kärnan. Den större volymen utanför kärnan innehåller bara elektronernas lilla massa.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        4.591034838653734,
+        4.053408505367695e-43
+      ],
+      [
+        9.28823049e-26,
+        2.291461735894651e+17
+      ],
+      29116413416704.586
+    ],
+    "tolerans": [
+      [
+        0.11477587096634334,
+        1.0133521263419238e-44
+      ],
+      [
+        2.3220576225e-27,
+        5733475611111112.0
+      ],
+      727445997458.704
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Beräkna radien och skriv den i meter innan du räknar volymen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En atomkärnas radie kan uppskattas med \\(r=1{,}2\\cdot A^{1/3}\\) femtometer, där A är masstalet. En femtometer är 10⁻¹⁵ m. Järn-56 har atommassan 55,935 u och 1 u = 1,66054·10⁻²⁷ kg. Fast järn har densiteten 7870 kg/m³.</p>",
+    "spelIntro": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm, där 1 fm = 10⁻¹⁵ m. Modellera kärnan som ett klot och uppskatta kärnmassan till atommassan 55,935 u. Använd 1 u = 1,66054·10⁻²⁷ kg. Fast järn har densiteten 7 870 kg/m³.</p><div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm kärnans radie och volym.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnradien för A = 56 blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=(1{,}2)(56^{1/3})\\ \\mathrm{fm}=4{,}59\\ \\mathrm{fm}=4{,}59\\cdot10^{-15}\\ \\mathrm m\\]</div></div><div class=\"facit-stycke\"><p>\\[V=\\frac{4\\pi r^3}{3}=4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm, där A är masstalet och 1 fm = 10⁻¹⁵ m. Modellera kärnan som ett klot. Bestäm radien i fm och volymen i m³.<div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>\\[r=1{,}2\\cdot56^{1/3}\\approx4{,}59\\ \\mathrm{fm}\\]</p><p>Radien i meter är cirka 4,59·10⁻¹⁵ m.</p><p>\\[V=4\\pi r^3/3\\approx4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          4.591034838653734,
+          4.053408505367695e-43
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "fm",
+          "m³"
+        ],
+        "tolerans": [
+          0.11477587096634334,
+          1.0133521263419238e-44
+        ],
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Beräkna radien och skriv den i meter innan du räknar volymen.</p>",
+        "t": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm, där A är masstalet och 1 fm = 10⁻¹⁵ m. Modellera kärnan som ett klot. Bestäm radien i fm och volymen i m³.<div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div></p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Radie",
+          "Volym"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm kärnans massa och densitet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnans massa kan uppskattas med atommassan; elektronernas lilla massa försummas här.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=(55{,}935)(1{,}66054\\cdot10^{-27})=9{,}29\\cdot10^{-26}\\ \\mathrm{kg}\\]\\[\\rho=\\frac mV=2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En järnkärnas massa uppskattas till 55,935 u och volymen är 4,05·10⁻⁴³ m³. Använd 1 u = 1,66054·10⁻²⁷ kg. Bestäm massan i kg och densiteten i kg/m³.",
+        "s": "<div class=\"facit-v2\"><p>\\[m=55{,}935\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m\\approx9{,}29\\cdot10^{-26}\\ \\mathrm{kg}\\]</p><p>\\[\\rho=m/V\\approx2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          9.28823049e-26,
+          2.2933902444444448e+17
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "kg",
+          "kg/m³"
+        ],
+        "tolerans": [
+          2.3220576225e-27,
+          5733475611111112.0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla massan till kg och använd densitet = massa/volym.</p>",
+        "t": "<p>En järnkärnas massa uppskattas till 55,935 u och volymen är 4,05·10⁻⁴³ m³. Använd 1 u = 1,66054·10⁻²⁷ kg. Bestäm massan i kg och densiteten i kg/m³.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Massa",
+          "Densitet"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur många gånger tätare är kärnan än fast järn? Vad säger det om atomen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämfört med fast järn är tätheten</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{2{,}29\\cdot10^{17}}{7870}=2{,}91\\cdot10^{13}\\]</div></div><div class=\"facit-stycke\"><p>Nästan all atommassa är koncentrerad i den mycket lilla kärnan, medan elektronmolnet upptar nästan hela atomens volym.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}91\\cdot10^{13}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En järnkärna har densiteten 2,29·10¹⁷ kg/m³. Fast järn har densiteten 7 870 kg/m³. Hur många gånger större är kärnans densitet?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\rho_{\\text{kärna}}/\\rho_{\\text{järn}}=2{,}29\\cdot10^{17}/7870\\]</p><p>\\[\\rho_{\\text{kärna}}/\\rho_{\\text{järn}}\\approx2{,}91\\cdot10^{13}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 29097839898348.156,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 727445997458.704,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera kärnans densitet med det fasta järnets densitet.</p>",
+        "t": "<p>En järnkärna har densiteten 2,29·10¹⁷ kg/m³. Fast järn har densiteten 7 870 kg/m³. Hur många gånger större är kärnans densitet?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "fm",
+        "m³"
+      ],
+      [
+        "kg",
+        "kg/m³"
+      ],
+      null
     ]
   },
   {
     "id": "9.235",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>Anta att kol-12-kärnan har bindningsenergin \\(7{,}68\\,\\mathrm{MeV/nukleon}\\). Massdata: \\(m_p=1{,}007276\\,u\\), \\(m_n=1{,}008665\\,u\\) och \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\). Beräkna kärnans massa i \\(u\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin motsvarar den massa som saknas jämfört med fria protoner och neutroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\frac{12\\cdot7{,}68}{931{,}5}=0{,}098937\\,u\\]\\[m_{kärna}=6m_p+6m_n-\\Delta m=11{,}996709\\,u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}996709\\,\\mathrm{u}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En kol-12-kärna består av 6 protoner och 6 neutroner. Bindningsenergin är 7,68 MeV per nukleon. En fri proton har massan 1,007276 u och en fri neutron 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm kärnans massa i u.</p><p>Ange svaret med fem decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=12\\cdot7{,}68\\\\&=92{,}16\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=92{,}16/931{,}5\\\\&\\approx0{,}09894\\ \\mathrm u\\end{aligned}\\]</p><p>\\[\\begin{aligned}m&=6\\cdot1{,}007276\\\\&\\quad+6\\cdot1{,}008665\\\\&\\quad-\\Delta m\\end{aligned}\\]</p><p>\\[\\begin{aligned}m\\approx11{,}99671\\ \\mathrm u\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 11.996708801932368,
-    "tolerans": 0.2159407584347826,
+    "tolerans": 5e-06,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
+    "ledtrad": "<p>Den bundna kärnans massa är mindre än massan hos samma fria protoner och neutroner.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "u",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
-    "spel": true
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.236",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>En helium-4-kärna har kärnmassan \\(4{,}001506\\,u\\). Massdata: \\(m_p=1{,}007276\\,u\\), \\(m_n=1{,}008665\\,u\\) och \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm massdefekten för två protoner och två neutroner, omvandla till bindningsenergi och dividera med fyra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=2m_p+2m_n-m_{He}=0{,}030376\\,u\\]\\[E_b/A=\\frac{28{,}295244}{4}=7{,}073811\\,\\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}073811\\,\\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har 2 protoner och 2 neutroner. Kärnans massa är 4,001506 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>Bestäm bindningsenergin per nukleon. Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}007276\\\\&\\quad+2\\cdot1{,}008665\\\\&\\quad-4{,}001506\\\\&\\approx0{,}030376\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}030376\\cdot931{,}5\\\\&\\approx28{,}295\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=28{,}295244/4\\\\&\\approx7{,}074\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 7.073810999999887,
-    "tolerans": 0.12732859799999796,
+    "tolerans": 0.1768452749999972,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 4,
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.67",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Lätta stabila kärnor har ungefär lika många protoner som neutroner. Tunga stabila kärnor har fler neutroner än protoner. Bly-208 har till exempel 82 protoner och 126 neutroner.</p>\n<ol><li>Hur många fler neutroner än protoner har bly-208?</li>\n<li>Vilken kraft håller ihop kärnan, och vilken vill slita isär den?</li>\n<li>Förklara varför tunga kärnor behöver neutronöverskott.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronöverskottet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[126-82=44\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kärnkraften binder protoner och neutroner på mycket korta avstånd.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska Den elektriska frånstötningen mellan de positivt laddade protonerna verkar destabiliserande.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Extra neutroner bidrar till den starka bindningen utan att tillföra elektrisk repulsion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det hjälper stora kärnor att motverka den ökande frånstötningen mellan protonerna.</p></div><div class=\"facit-stycke\"><p>Den starka kärnkraften är kortverkande och mättas, medan varje proton stöts bort av många andra protoner.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bly-208 har 44 fler neutroner än protoner. Neutronöverskottet ökar kärnbindningen utan att öka den elektriska repulsionen.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Bly-208 har 82 protoner och 126 neutroner.</p><p>a) Hur många fler neutroner än protoner har bly-208?</p><p>b) Vilken kraft binder kärnans partiklar, och vad stöter protonerna från varandra?</p><p>c) Förklara varför extra neutroner kan hjälpa en tung kärna att hållas ihop.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[126-82=44\\]</p><p>Bly-208 har 44 fler neutroner än protoner.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den starka kärnkraften binder protoner och neutroner. Protonernas positiva laddningar stöter samtidigt bort varandra elektriskt.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Neutroner bidrar till kärnans bindning utan att öka den elektriska bortstötningen mellan protonerna. Därför kan extra neutroner hjälpa en tung kärna att hållas ihop.</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      44,
+      null,
+      null
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Den starka kärnkraften binder protoner och neutroner på mycket korta avstånd. Den elektriska Den elektriska frånstötningen mellan de positivt laddade protonerna verkar destabiliserande.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Lätta stabila kärnor har ungefär lika många protoner som neutroner. Tunga stabila kärnor har fler neutroner än protoner. Bly-208 har till exempel 82 protoner och 126 neutroner.</p>",
+    "spelIntro": "<p>Bly-208 har 82 protoner och 126 neutroner.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många fler neutroner än protoner har bly-208?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronöverskottet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[126-82=44\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\).</p></div>",
-        "ledtrad": "<p>Den starka kärnkraften binder protoner och neutroner på mycket korta avstånd. Den elektriska Den elektriska frånstötningen mellan de positivt laddade protonerna verkar destabiliserande.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bly-208 har 82 protoner och 126 neutroner. Hur många fler neutroner än protoner har kärnan?",
+        "s": "<div class=\"facit-v2\"><p>\\[126-82=44\\]</p><p>Bly-208 har 44 fler neutroner än protoner.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 44,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
+        "t": "<p>Bly-208 har 82 protoner och 126 neutroner. Hur många fler neutroner än protoner har kärnan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken kraft håller ihop kärnan, och vilken vill slita isär den?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kärnkraften binder protoner och neutroner på mycket korta avstånd.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska Den elektriska frånstötningen mellan de positivt laddade protonerna verkar destabiliserande.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den starka kärnkraften binder protoner och neutroner på mycket korta avstånd. Den elektriska Den elektriska frånstötningen mellan de positivt laddade protonerna verkar destabiliserande.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Vad binder samman kärnans protoner och neutroner, samtidigt som protonerna stöter bort varandra elektriskt?",
+        "s": "<div class=\"facit-v2\"><p>Den starka kärnkraften binder protoner och neutroner. Protonernas positiva laddningar stöter samtidigt bort varandra elektriskt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den starka kärnkraften.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den starka kärnkraften.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Enbart tyngdkraften.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Det är elektronernas friktion.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken kraft verkar mellan kärnans partiklar på mycket korta avstånd?</p>",
+        "t": "<p>Vad binder samman kärnans protoner och neutroner, samtidigt som protonerna stöter bort varandra elektriskt?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Förklara varför tunga kärnor behöver neutronöverskott.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Extra neutroner bidrar till den starka bindningen utan att tillföra elektrisk repulsion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det hjälper stora kärnor att motverka den ökande frånstötningen mellan protonerna.</p></div><div class=\"facit-stycke\"><p>Den starka kärnkraften är kortverkande och mättas, medan varje proton stöts bort av många andra protoner.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den starka kärnkraften binder protoner och neutroner på mycket korta avstånd. Den elektriska Den elektriska frånstötningen mellan de positivt laddade protonerna verkar destabiliserande.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Varför kan extra neutroner hjälpa en tung kärna att hållas ihop?",
+        "s": "<div class=\"facit-v2\"><p>Neutroner bidrar till kärnans bindning utan att öka den elektriska bortstötningen mellan protonerna. Därför kan extra neutroner hjälpa en tung kärna att hållas ihop.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De bidrar till bindningen utan att öka protonernas elektriska bortstötning.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De bidrar till bindningen utan att öka protonernas elektriska bortstötning.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Varje neutron tar bort en proton.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Neutronerna gör alla protoner elektriskt neutrala.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Neutronen är elektriskt neutral, men deltar i kärnans bindning.</p>",
+        "t": "<p>Varför kan extra neutroner hjälpa en tung kärna att hållas ihop?</p>",
+        "miniräknare": true,
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
     "id": "9.237",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>Kärna X har masstalet \\(20\\) och bindningsenergin \\(7{,}9\\,\\mathrm{MeV/nukleon}\\). Kärna Y har masstalet \\(56\\) och \\(8{,}7\\,\\mathrm{MeV/nukleon}\\). Hur mycket större är Y:s totala bindningsenergi än X:s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Total bindningsenergi är bindningsenergi per nukleon multiplicerad med masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_X=20\\cdot7{,}9=158\\,\\mathrm{MeV}\\]\\[E_Y=56\\cdot8{,}7=487,2\\,\\mathrm{MeV}\\]\\[\\Delta E=329,2\\,\\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(329{,}2\\,\\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Kärna X har 20 nukleoner och bindningsenergin 7,9 MeV per nukleon. Kärna Y har 56 nukleoner och 8,7 MeV per nukleon. Hur mycket större är Y:s totala bindningsenergi? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[E_X=20\\cdot7{,}9=158\\ \\mathrm{MeV}\\]</p><p>\\[E_Y=56\\cdot8{,}7=487{,}2\\ \\mathrm{MeV}\\]</p><p>\\[E_Y-E_X=487{,}2-158=329{,}2\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 329.19999999999993,
-    "tolerans": 5.925599999999998,
+    "tolerans": 8.229999999999999,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
+    "ledtrad": "<p>Beräkna total energi för varje kärna innan du jämför.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.238",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>För helium-4 är massan hos två fria protoner och två fria neutroner tillsammans \\(4{,}031882\\,u\\), medan kärnmassan är \\(4{,}001506\\,u\\). Hur stor procentandel av de fria nukleonernas massa motsvarar massdefekten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna massdefekten och jämför den med de fria nukleonernas sammanlagda massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=0{,}030376\\,u\\]\\[\\frac{\\Delta m}{m_{fri}}\\cdot100=0{,}753395\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}753395\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Massan hos två fria protoner och två fria neutroner är tillsammans 4,031882 u. En helium-4-kärna har massan 4,001506 u. Hur många procent av de fria partiklarnas massa motsvarar massdefekten?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=4{,}031882-4{,}001506\\\\&=0{,}030376\\ \\mathrm u\\end{aligned}\\]</p><p>\\[100\\cdot\\Delta m/4{,}031882\\approx0{,}7534\\ \\%\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.7533950646372964,
-    "tolerans": 0.013561111163471334,
+    "rättSvar": 0.7533950646373183,
+    "tolerans": 0.018834876615932958,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
+    "ledtrad": "<p>Dra bort kärnmassan och jämför skillnaden med de fria partiklarnas massa.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.68",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "beräkna bindningsenergi per nukleon för kol-12 utan delfrågor, ur text, sökt energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Kol-12 har per definition atommassan exakt 12,000000 u.</p><p>Massdata: m(¹H) = 1,007825 u, m(n) = 1,008665 u, m(e) = 0,000549 u och 1 u = 931,5 MeV/c².</p>\n<p>Bestäm bindningsenergin per nukleon för kol-12.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Kol-12 har sex protoner och sex neutroner.</p><p class=\"facit-metod\">Väteatommassan används för proton plus motsvarande elektron.</p><div class=\"facit-matte\">\\[m_{\\mathrm{delar}}=6(1{,}007825)+6(1{,}008665)=12{,}098940\\ \\mathrm u\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Massdefekten är</p><div class=\"facit-matte\">\\[\\Delta m=12{,}098940-12{,}000000=0{,}098940\\ \\mathrm u\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Bindningsenergin per nukleon blir</p><div class=\"facit-matte\">\\[\\frac{E_b}{A}=\\frac{(0{,}098940)(931{,}5)}{12}=7{,}680\\ \\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kol-12 har bindningsenergin \\(7{,}68\\ \\mathrm{MeV}\\) per nukleon.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En atom av kol-12 har 6 protoner, 6 neutroner och atommassan 12,0 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>Bestäm bindningsenergin per nukleon. Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}N_p&=6,\\quad N_n\\\\&=6\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=6\\cdot1{,}007825\\\\&\\quad+6\\cdot1{,}008665\\\\&\\quad-12\\\\&\\approx0{,}098940\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}09894\\cdot931{,}5\\\\&\\approx92{,}163\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=92{,}16261/12\\\\&\\approx7{,}680\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "nuklider__nuklider_isotoper_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 7.68,
-    "tolerans": 0.1152,
+    "rättSvar": 7.680217499999916,
+    "tolerans": 0.1920054374999979,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "energi_per_nukleon",
     "svarEnhet": "MeV",
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
-    "ledtrad": "<p>Kol-12 har sex protoner och sex neutroner. Väteatommassan används för proton plus motsvarande elektron.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.239",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>En uran-238-kärna har kärnmassan \\(238{,}00028\\,u\\). Massdata: \\(m_p=1{,}007276\\,u\\), \\(m_n=1{,}008665\\,u\\) och \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\). Bestäm bindningsenergin per nukleon.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Uran-238 innehåller 92 protoner och 146 neutroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför summan av deras fria massor med kärnmassan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=92m_p+146m_n-m_{U}=1{,}934202\\,u\\]\\[E_b/A=\\frac{1{,}934202\\cdot931{,}5}{238}=7{,}570\\,\\mathrm{MeV/nukleon}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}570\\,\\mathrm{MeV/nukleon}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har 92 protoner och 146 neutroner. Kärnans massa är 238,00028 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u. En massdefekt på 1 u motsvarar 931,5 MeV.</p><p>Bestäm bindningsenergin per nukleon. Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=92\\cdot1{,}007276\\\\&\\quad+146\\cdot1{,}008665\\\\&\\quad-238{,}00028\\\\&\\approx1{,}934202\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=1{,}934202\\cdot931{,}5\\\\&\\approx1801{,}709\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=1801{,}7092/238\\\\&\\approx7{,}570\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 7.57020656723,
-    "tolerans": 0.136,
+    "rättSvar": 7.570206567226887,
+    "tolerans": 0.18925516418067218,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV/nukleon",
-    "traningsniva": 4,
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+    "svarFormat": "energi_per_nukleon",
+    "svarEnhet": "MeV",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.240",
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "massdefekt och bindningsenergi",
-    "poang": "(0/1/2)",
-    "t": "<p>Uran-235 har ungefär bindningsenergin \\(7{,}59\\,\\mathrm{MeV/nukleon}\\). Bestäm kärnans totala massdefekt i atommassenheter. Data: \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera först med masstalet för att få total bindningsenergi och omvandla sedan energi till massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=235\\cdot7{,}59=1783{,}65\\,\\mathrm{MeV}\\]\\[\\Delta m=1783{,}65/931{,}5=1{,}914815\\,u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}914815\\,\\mathrm{u}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna har 235 nukleoner och bindningsenergin 7,59 MeV per nukleon. En massdefekt på 1 u motsvarar 931,5 MeV. Bestäm kärnans massdefekt i u.</p>",
+    "s": "<div class=\"facit-v2\"><p>Beräkna först hela kärnans bindningsenergi.</p><p>\\[E_b=235\\cdot7{,}59\\approx1783{,}65\\ \\mathrm{MeV}\\]</p><p>\\[\\Delta m=1783{,}65/931{,}5\\approx1{,}9148\\ \\mathrm{u}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 1.9148148148148147,
-    "tolerans": 0.034466666666666666,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Håll isär massa hos fria nukleoner, kärnmassa, massdefekt och bindningsenergi. Använd \\(1\\,u c^2=931,5\\,\\mathrm{MeV}\\) när det behövs.</p>",
+    "ledtrad": "<p>Från energi per nukleon går du först till total bindningsenergi.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "u",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.69",
@@ -149126,7 +150822,7 @@ window.BANK = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -149156,7 +150852,7 @@ window.BANK = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -149186,7 +150882,7 @@ window.BANK = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -149300,10 +150996,9 @@ window.BANK = [
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "massdefekt och bindningsenergi",
     "poang": "(2/0/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><ol type=\"a\"><li>En kärna har massdefekten 2,35 u. Bestäm bindningsenergin.</li><li>En kärna har bindningsenergin 225,0 MeV. Bestäm massdefekten.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=2{,}35\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,189\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\dfrac{225{,}0}{931{,}49}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}242\\) u</p></li></ol></div>",
+    "t": "<p>a) En kärna har massdefekten 2,35 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p><p>b) En kärna har bindningsenergin 225,0 MeV. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm massdefekten i u.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E_b=2{,}35\\cdot931{,}49\\approx2189{,}0\\ \\mathrm{MeV}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=225{,}0/931{,}49\\approx0{,}2415\\ \\mathrm{u}\\]</p></div></div>",
     "id": "9.388",
     "miniräknare": true,
     "geogebra": false,
@@ -149314,10 +151009,13 @@ window.BANK = [
       0.2415484868329236
     ],
     "tolerans": [
-      32.8,
-      0.00362
+      54.72503750000001,
+      0.00603871217082309
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -149335,45 +151033,61 @@ window.BANK = [
       "u"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kärna har massdefekten 2,35 u. Bestäm bindningsenergin.",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>En kärna har massdefekten 2,35 u. Bestäm bindningsenergin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=2{,}35\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,189\\) MeV</p></div>",
-        "ledtrad": "<p>1 u motsvarar 931,49 MeV.</p>",
+        "fraga": "En kärna har massdefekten 2,35 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[E_b=2{,}35\\cdot931{,}49\\approx2189{,}0\\ \\mathrm{MeV}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2189.0015000000003,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 54.72503750000001,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
+        "t": "<p>En kärna har massdefekten 2,35 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En kärna har bindningsenergin 225,0 MeV. Bestäm massdefekten.",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>En kärna har bindningsenergin 225,0 MeV. Bestäm massdefekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\dfrac{225{,}0}{931{,}49}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}242\\) u</p></div>",
-        "ledtrad": "<p>Dela med 931,49.</p>",
+        "fraga": "En kärna har bindningsenergin 225,0 MeV. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=225{,}0/931{,}49\\approx0{,}2415\\ \\mathrm{u}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.2415484868329236,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.00603871217082309,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
+        "t": "<p>En kärna har bindningsenergin 225,0 MeV. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
     "traningsniva": 1,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "beryllium-7 delas upp",
     "poang": "(3/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><ol type=\"a\"><li>Bestäm den sammanlagda massan av de fria partiklarna. Svara med fyra decimaler.</li><li>Bestäm massdefekten.</li><li>Bestäm bindningsenergin.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4\\cdot1{,}0078250+3\\cdot1{,}0086649\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}05729\\) u</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=7{,}0572947-7{,}0169287\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0404\\) u</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=0{,}040366\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(37{,}6\\) MeV</p></li></ol></div>",
+    "t": "<p>Beryllium-7 har 4 protoner, 3 neutroner och atommassan 7,0169287 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p><p>a) Bestäm den sammanlagda massan hos fyra fria väteatomer och tre fria neutroner. Svara i u med fyra decimaler.</p><p>b) Bestäm atomens massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4\\cdot1{,}0078250+3\\cdot1{,}0086649\\\\&\\approx7{,}0573\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=7{,}0572947-7{,}0169287\\\\&=0{,}0403660\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}040366\\cdot931{,}49\\\\&\\approx37{,}6\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "id": "9.389",
     "miniräknare": true,
     "geogebra": false,
@@ -149382,17 +151096,20 @@ window.BANK = [
     "rättSvar": [
       7.0572947,
       0.04036599999999968,
-      37.6005253399997
+      37.60052534
     ],
     "tolerans": [
       5e-05,
-      0.000605,
-      0.564
+      0.001009149999999992,
+      0.9400131334999999
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -149411,83 +151128,107 @@ window.BANK = [
       "MeV"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p>",
+    "spelIntro": "<p>Beryllium-7 har 4 protoner, 3 neutroner och atommassan 7,0169287 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den sammanlagda massan av de fria partiklarna. Svara med fyra decimaler.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p><p>Bestäm den sammanlagda massan av de fria partiklarna. Svara med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4\\cdot1{,}0078250+3\\cdot1{,}0086649\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}05729\\) u</p></div>",
-        "ledtrad": "<p>Fyra väteatomer och tre neutroner.</p>",
+        "fraga": "En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den sammanlagda massan hos fyra väteatomer och tre neutroner. Svara i u med fyra decimaler.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4\\cdot1{,}0078250+3\\cdot1{,}0086649\\\\&\\approx7{,}0573\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.0572947,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 5e-05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Addera de fria beståndsdelarnas massor.</p>",
+        "t": "<p>En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den sammanlagda massan hos fyra väteatomer och tre neutroner. Svara i u med fyra decimaler.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm massdefekten.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p>De fria partiklarna har massan 7,0572947 u.<p>Bestäm massdefekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=7{,}0572947-7{,}0169287\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0404\\) u</p></div>",
-        "ledtrad": "<p>Skillnaden mellan partiklarnas och atomens massa.</p>",
+        "fraga": "Fria beståndsdelar till en beryllium-7-atom har massan 7,0572947 u. Atomens massa är 7,0169287 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=7{,}0572947-7{,}0169287\\\\&=0{,}0403660\\ \\mathrm u\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.04036599999999968,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.001009149999999992,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>Fria beståndsdelar till en beryllium-7-atom har massan 7,0572947 u. Atomens massa är 7,0169287 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm bindningsenergin.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Be-7 (\\(Z=4\\)) har atommassan 7{,}0169287 u. Atomen delas upp i fyra väteatomer och tre neutroner.</p>Massdefekten är 0,040366 u.<p>Bestäm bindningsenergin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=0{,}040366\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(37{,}6\\) MeV</p></div>",
-        "ledtrad": "<p>1 u motsvarar 931,49 MeV.</p>",
+        "fraga": "En kärna har massdefekten 0,040366 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}040366\\cdot931{,}49\\\\&\\approx37{,}6\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 37.60052534,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.9400131334999999,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
+        "t": "<p>En kärna har massdefekten 0,040366 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Addera de fria beståndsdelarnas massor.</p>",
     "traningsniva": 2,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "bindningsenergi för bor-12",
     "poang": "(1/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>B-12 (\\(Z=5\\)) har atommassan 12{,}0143527 u. Bestäm bindningsenergin.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=5\\cdot1{,}0078250+7\\cdot1{,}0086649-12{,}0143527\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=\\Delta m\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(79{,}6\\) MeV</p></div>",
+    "t": "<p>En atom av bor-12 har 5 protoner, 7 neutroner och atommassan 12,0143527 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p><p>Bestäm bindningsenergin. Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=5\\cdot1{,}0078250\\\\&\\quad+7\\cdot1{,}0086649\\\\&\\quad-12{,}0143527\\\\&\\approx0{,}0854266\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}0854266\\cdot931{,}49\\\\&\\approx79{,}574\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "id": "9.390",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Massdefekt och bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 79.57402363400158,
-    "tolerans": 1.19,
+    "tolerans": 1.9893505908500395,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "traningsniva": 2,
     "svarEnhet": "MeV",
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "helium-3 och tritium",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p><ol type=\"a\"><li>He-3.</li><li>H-3.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2\\cdot1{,}0078250+1{,}0086649-3{,}0160293\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00829\\) u</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}0078250+2\\cdot1{,}0086649-3{,}0160493\\].</div></div><div class=\"facit-stycke\"><p>H-3 har störst massdefekt och kräver mest energi att dela upp.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00911\\) u</p></li></ol></div>",
+    "t": "<p>a) En atom av helium-3 har 2 protoner, 1 neutroner och atommassan 3,0160293 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.</p><p>b) En atom av väte-3 har 1 protoner, 2 neutroner och atommassan 3,0160493 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}0078250\\\\&\\quad+1\\cdot1{,}0086649\\\\&\\quad-3{,}0160293\\\\&\\approx0{,}0082856\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=1\\cdot1{,}0078250\\\\&\\quad+2\\cdot1{,}0086649\\\\&\\quad-3{,}0160493\\\\&\\approx0{,}0091055\\ \\mathrm{u}\\end{aligned}\\]</p></div></div>",
     "id": "9.391",
     "miniräknare": true,
     "geogebra": false,
@@ -149498,13 +151239,15 @@ window.BANK = [
       0.009105499999999989
     ],
     "tolerans": [
-      0.000124,
-      0.000137
+      0.00020714000000000566,
+      0.00022763749999999973
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -149520,72 +151263,88 @@ window.BANK = [
       "u"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "He-3.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p><p>He-3.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2\\cdot1{,}0078250+1{,}0086649-3{,}0160293\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00829\\) u</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En atom av helium-3 har 2 protoner, 1 neutroner och atommassan 3,0160293 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}0078250\\\\&\\quad+1\\cdot1{,}0086649\\\\&\\quad-3{,}0160293\\\\&\\approx0{,}0082856\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.008285600000000226,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.00020714000000000566,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av helium-3 har 2 protoner, 1 neutroner och atommassan 3,0160293 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "H-3.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>He-3 (\\(Z=2\\)) har atommassan 3{,}0160293 u och H-3 (\\(Z=1\\)) har 3{,}0160493 u. Bestäm massdefekten för</p><p>H-3.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}0078250+2\\cdot1{,}0086649-3{,}0160493\\].</div></div><div class=\"facit-stycke\"><p>H-3 har störst massdefekt och kräver mest energi att dela upp.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00911\\) u</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En atom av väte-3 har 1 protoner, 2 neutroner och atommassan 3,0160493 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=1\\cdot1{,}0078250\\\\&\\quad+2\\cdot1{,}0086649\\\\&\\quad-3{,}0160493\\\\&\\approx0{,}0091055\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.009105499999999989,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.00022763749999999973,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av väte-3 har 1 protoner, 2 neutroner och atommassan 3,0160493 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "traningsniva": 2,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "atommassa ur massdefekt",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>Na-21 (\\(Z=11\\)) har massdefekten 0,17507 u. Bestäm atommassan. Svara med fyra decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=11\\cdot1{,}0078250+10\\cdot1{,}0086649-0{,}17507\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20{,}99765\\) u</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Natrium-21 har 11 protoner och 10 neutroner. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. </p><p>Massdefekten är 0,17507 u. Bestäm atommassan i u med fyra decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m_{\\text{fria}}&=11\\cdot1{,}0078250\\\\&\\quad+10\\cdot1{,}0086649\\\\&\\approx21{,}1727240\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}m_{\\text{atom}}&=21{,}172724\\\\&\\quad-0{,}17507\\\\&\\approx20{,}9977\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
     "id": "9.392",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Massdefekt och bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 20.997654,
-    "tolerans": 0.0003,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Den bundna atomens massa är den fria massan minus massdefekten.</p>",
     "traningsniva": 2,
     "svarEnhet": "u",
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "syre-16",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p><ol type=\"a\"><li>Beräkna massdefekten.</li><li>Beräkna bindningsenergin.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm antalet nukleoner</p><p>Syre-16 har 8 protoner och \\(16-8=8\\) neutroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna massdefekten</p><p>Massdefekten är skillnaden mellan massan hos de fria beståndsdelarna och atomens massa. När väteatomens massa används tar elektronmassorna ut varandra:</p><div class=\"facit-matte\">\\[\\Delta m=8m({}^1\\mathrm H)+8m_n-m({}^{16}\\mathrm O)\\]\\[=8\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}9949146\\]\\[=0{,}1370046\\ \\mathrm u.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}137\\ \\mathrm u\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Koppla massdefekt till energi</p><p>Bindningsenergin ges av \\(E_b=\\Delta mc^2\\). En massdefekt på 1 u motsvarar 931,49 MeV.</p></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna bindningsenergin</p><div class=\"facit-matte\">\\[E_b=0{,}1370046\\cdot931{,}49\\ \\mathrm{MeV}\\approx127{,}618\\ \\mathrm{MeV}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(127{,}6\\ \\mathrm{MeV}\\).</p></div></div></div></div>",
+    "t": "<p>Syre-16 har 8 protoner, 8 neutroner och atommassan 15,9949146 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p><p>a) Bestäm massdefekten i u.</p><p>b) Bestäm bindningsenergin i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=8\\cdot1{,}0078250\\\\&\\quad+8\\cdot1{,}0086649\\\\&\\quad-15{,}9949146\\\\&\\approx0{,}1370046\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}1370046\\cdot931{,}49\\\\&\\approx127{,}6\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "id": "9.393",
     "miniräknare": true,
     "geogebra": false,
@@ -149596,10 +151355,13 @@ window.BANK = [
       127.6184148539992
     ],
     "tolerans": [
-      0.00206,
-      1.91
+      0.005,
+      5.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -149617,45 +151379,61 @@ window.BANK = [
       "MeV"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p>",
+    "spelIntro": "<p>Syre-16 har 8 protoner, 8 neutroner och atommassan 15,9949146 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna massdefekten.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p><p>Beräkna massdefekten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Bestäm antalet nukleoner</p><p>Syre-16 har 8 protoner och \\(16-8=8\\) neutroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna massdefekten</p><p>Massdefekten är skillnaden mellan massan hos de fria beståndsdelarna och atomens massa. När väteatomens massa används tar elektronmassorna ut varandra:</p><div class=\"facit-matte\">\\[\\Delta m=8m({}^1\\mathrm H)+8m_n-m({}^{16}\\mathrm O)\\]\\[=8\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}9949146\\]\\[=0{,}1370046\\ \\mathrm u.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}137\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En syre-16-atom har 8 protoner, 8 neutroner och atommassan 15,9949146 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=8\\cdot1{,}0078250\\\\&\\quad+8\\cdot1{,}0086649\\\\&\\quad-15{,}9949146\\\\&\\approx0{,}1370046\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.13700459999999914,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En syre-16-atom har 8 protoner, 8 neutroner och atommassan 15,9949146 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. Bestäm massdefekten i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna bindningsenergin.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>O-16 (\\(Z=8\\)) har atommassan 15{,}9949146 u.</p>Massdefekten är 0,137005 u.<p>Beräkna bindningsenergin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Koppla massdefekt till energi</p><p>Bindningsenergin ges av \\(E_b=\\Delta mc^2\\). En massdefekt på 1 u motsvarar 931,49 MeV.</p></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna bindningsenergin</p><div class=\"facit-matte\">\\[E_b=0{,}137005\\cdot931{,}49\\ \\mathrm{MeV}\\approx127{,}619\\ \\mathrm{MeV}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(127{,}6\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En syre-16-kärna har massdefekten 0,137005 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}137005\\cdot931{,}49\\\\&\\approx127{,}6\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 127.61878744999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bindningsenergin motsvarar massdefekten. 1 u motsvarar den angivna energin i MeV.</p>",
+        "t": "<p>En syre-16-kärna har massdefekten 0,137005 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "traningsniva": 2,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "bindningsenergi per nukleon för litium-6",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p><ol type=\"a\"><li>Beräkna bindningsenergin.</li><li>Beräkna bindningsenergin per nukleon i MeV.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=3\\cdot1{,}0078250+3\\cdot1{,}0086649-6{,}0151229\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=\\Delta m\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}0\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{32{,}0}{6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}33\\) MeV</p></li></ol></div>",
+    "t": "<p>Litium-6 har 3 protoner, 3 neutroner och atommassan 6,0151229 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p><p>a) Bestäm bindningsenergin i MeV.</p><p>b) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=3\\cdot1{,}0078250\\\\&\\quad+3\\cdot1{,}0086649\\\\&\\quad-6{,}0151229\\\\&\\approx0{,}0343468\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}0343468\\cdot931{,}49\\\\&\\approx31{,}99\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=31{,}993701/6\\\\&\\approx5{,}332\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "id": "9.394",
     "miniräknare": true,
     "geogebra": false,
@@ -149666,16 +151444,19 @@ window.BANK = [
       5.3322834553333
     ],
     "tolerans": [
-      0.48,
-      0.08
+      0.7998425182999951,
+      0.13333333333333333
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
     "svarFormat": [
       "numeriskt",
-      "numeriskt"
+      "energi_per_nukleon"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -149687,45 +151468,61 @@ window.BANK = [
       "MeV"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p>",
+    "spelIntro": "<p>Litium-6 har 3 protoner, 3 neutroner och atommassan 6,0151229 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna bindningsenergin.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Li-6 (\\(Z=3\\)) har atommassan 6{,}0151229 u.</p><p>Beräkna bindningsenergin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=3\\cdot1{,}0078250+3\\cdot1{,}0086649-6{,}0151229\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=\\Delta m\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}0\\) MeV</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En atom av litium-6 har 3 protoner, 3 neutroner och atommassan 6,0151229 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=3\\cdot1{,}0078250\\\\&\\quad+3\\cdot1{,}0086649\\\\&\\quad-6{,}0151229\\\\&\\approx0{,}0343468\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}0343468\\cdot931{,}49\\\\&\\approx31{,}99\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 31.9937007319998,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.7998425182999951,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av litium-6 har 3 protoner, 3 neutroner och atommassan 6,0151229 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är bindningsenergin per nukleon? Svara i MeV.",
-        "t": "<p>Kärnan hos litium-6 består av 6 nukleoner, alltså protoner och neutroner. Den sammanlagda bindningsenergin är 32,0 MeV.</p><p>Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{32{,}0}{6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}33\\) MeV</p></div>",
-        "ledtrad": "<p>Dela med masstalet.</p>",
+        "fraga": "En kärna har 6 nukleoner och den totala bindningsenergin 32 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=32/6\\\\&\\approx5{,}333\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.333333333333333,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.13333333333333333,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera totalenergin med antalet nukleoner.</p>",
+        "t": "<p>En kärna har 6 nukleoner och den totala bindningsenergin 32 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "traningsniva": 2,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "bly-206",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p><ol type=\"a\"><li>Beräkna bindningsenergin.</li><li>Beräkna bindningsenergin per nukleon i MeV.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=82\\cdot1{,}0078250+124\\cdot1{,}0086649-205{,}9744653\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=\\Delta m\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,622\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1\\,622}{206}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}88\\) MeV</p></li></ol></div>",
+    "t": "<p>Bly-206 har 82 protoner, 124 neutroner och atommassan 205,9744653 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p><p>a) Bestäm bindningsenergin i MeV.</p><p>b) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=82\\cdot1{,}0078250\\\\&\\quad+124\\cdot1{,}0086649\\\\&\\quad-205{,}9744653\\\\&\\approx1{,}7416323\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=1{,}7416323\\cdot931{,}49\\\\&\\approx1622{,}31\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=1622{,}3131/206\\\\&\\approx7{,}875\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "id": "9.395",
     "miniräknare": true,
     "geogebra": false,
@@ -149736,16 +151533,19 @@ window.BANK = [
       7.875306170519511
     ],
     "tolerans": [
-      24.3,
-      0.118
+      50.0,
+      0.19684466019417476
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
     "svarFormat": [
       "numeriskt",
-      "numeriskt"
+      "energi_per_nukleon"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -149757,99 +151557,116 @@ window.BANK = [
       "MeV"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p>",
+    "spelIntro": "<p>Bly-206 har 82 protoner, 124 neutroner och atommassan 205,9744653 u. Använd väteatomens massa 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna bindningsenergin.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Pb-206 (\\(Z=82\\)) har atommassan 205{,}9744653 u.</p><p>Beräkna bindningsenergin.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=82\\cdot1{,}0078250+124\\cdot1{,}0086649-205{,}9744653\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=\\Delta m\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,622\\) MeV</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En atom av bly-206 har 82 protoner, 124 neutroner och atommassan 205,9744653 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=82\\cdot1{,}0078250\\\\&\\quad+124\\cdot1{,}0086649\\\\&\\quad-205{,}9744653\\\\&\\approx1{,}7416323\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=1{,}7416323\\cdot931{,}49\\\\&\\approx1622{,}31\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1622.3130711270192,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 50.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av bly-206 har 82 protoner, 124 neutroner och atommassan 205,9744653 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är bindningsenergin per nukleon? Svara i MeV.",
-        "t": "<p>Kärnan hos bly-206 består av 206 nukleoner, alltså protoner och neutroner. Den sammanlagda bindningsenergin är 1622 MeV.</p><p>Hur stor är bindningsenergin per nukleon? Svara i MeV.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1\\,622}{206}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}88\\) MeV</p></div>",
-        "ledtrad": "<p>Dela med masstalet.</p>",
+        "fraga": "En kärna har 206 nukleoner och den totala bindningsenergin 1622 MeV. Bestäm bindningsenergin per nukleon i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=1622/206\\\\&\\approx7{,}874\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.87378640776699,
+        "självrättning": true,
+        "svarFormat": "energi_per_nukleon",
+        "svarEnhet": "MeV",
+        "tolerans": 0.19684466019417476,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera totalenergin med antalet nukleoner.</p>",
+        "t": "<p>En kärna har 206 nukleoner och den totala bindningsenergin 1622 MeV. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "traningsniva": 2,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
-    "niva": "C",
-    "typ": "järn-56 per nukleon",
-    "poang": "(0/1/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Fe-56 (\\(Z=26\\)) har atommassan 55{,}9349363 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=26\\cdot1{,}0078250+30\\cdot1{,}0086649-55{,}9349363\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{E_b}{A}=\\dfrac{\\Delta m\\cdot931{,}49}{56}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}790\\) MeV</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,9349363 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV.</p><p>Bestäm bindningsenergin per nukleon. Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=26\\cdot1{,}0078250\\\\&\\quad+30\\cdot1{,}0086649\\\\&\\quad-55{,}9349363\\\\&\\approx0{,}5284607\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}5284607\\cdot931{,}49\\\\&\\approx492{,}256\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=492{,}25586/56\\\\&\\approx8{,}790\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "id": "9.396",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Massdefekt och bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 8.790283168625061,
-    "tolerans": 0.132,
+    "tolerans": 0.21975707921562654,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
-    "traningsniva": 3,
+    "svarFormat": "energi_per_nukleon",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+    "traningsniva": 2,
     "svarEnhet": "MeV",
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
-    "niva": "A",
-    "typ": "atommassa ur bindningsenergi",
-    "poang": "(0/1/1)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Xe-133 (\\(Z=54\\)) har bindningsenergin 1,118 GeV. Bestäm atommassan. Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\Delta m=\\dfrac{1\\,118}{931{,}49}\\) u.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=54\\cdot1{,}0078250+79\\cdot1{,}0086649-\\Delta m\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(132{,}9068\\) u</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Xenon-133 har 54 protoner och 79 neutroner. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. </p><p>Bindningsenergin är 1,118 GeV. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm atommassan i u med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=1{,}118\\ \\mathrm{GeV}\\\\&=1118\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=1118/931{,}49\\\\&\\approx1{,}200228\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=54\\cdot1{,}0078250\\\\&\\quad+79\\cdot1{,}0086649\\\\&\\approx134{,}1070771\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}m_{\\text{atom}}&=134{,}10708\\\\&\\quad-1{,}2002276\\\\&\\approx132{,}907\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
     "id": "9.397",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Massdefekt och bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 132.906849507648,
-    "tolerans": 0.0006,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+    "ledtrad": "<p>Den bundna atomens massa är den fria massan minus massdefekten.</p>",
     "traningsniva": 3,
     "svarEnhet": "u",
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "C",
-    "typ": "separationsenergi för neutron och proton",
     "poang": "(0/2/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p><ol type=\"a\"><li>Hur mycket energi krävs för att slå loss en neutron ur N-14 (N-14 → N-13 + n)?</li><li>Hur mycket energi krävs för att slå loss en proton ur N-14 (N-14 → C-13 + ¹H)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(13{,}0057386+1{,}0086649-14{,}0030740)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}6\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(13{,}0033548+1{,}0078250-14{,}0030740)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}55\\) MeV</p></li></ol></div>",
+    "t": "<p>a) En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Hur mycket energi krävs för att slå loss en neutron ur kväve-14? Svara i MeV.</p><p>b) En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. En massdefekt på 1 u motsvarar 931,49 MeV. Hur mycket energi krävs för att slå loss en proton ur kväve-14? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0057386\\\\&\\quad+1{,}0086649\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0113295\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0113295\\cdot931{,}49\\\\&\\approx10{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0033548\\\\&\\quad+1{,}007825\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0081058\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0081058\\cdot931{,}49\\\\&\\approx7{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Väteatomens massa används för protonen så att elektronbidragen är lika många på båda sidor.</p></div></div>",
     "id": "9.398",
     "miniräknare": true,
     "geogebra": false,
@@ -149860,13 +151677,16 @@ window.BANK = [
       7.5504716420008755
     ],
     "tolerans": [
-      0.158,
-      0.113
+      0.5,
+      0.1887617910500219
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -149882,45 +151702,61 @@ window.BANK = [
       "MeV"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi krävs för att slå loss en neutron ur N-14 (N-14 → N-13 + n)?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p><p>Hur mycket energi krävs för att slå loss en neutron ur N-14 (N-14 → N-13 + n)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(13{,}0057386+1{,}0086649-14{,}0030740)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}6\\) MeV</p></div>",
-        "ledtrad": "<p>Jämför massan före och efter.</p>",
+        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Hur mycket energi krävs för att slå loss en neutron ur kväve-14? Svara i MeV.",
+        "s": "<div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0057386\\\\&\\quad+1{,}0086649\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0113295\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0113295\\cdot931{,}49\\\\&\\approx10{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 10.553315955000407,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Jämför slutprodukternas sammanlagda massa med startatomens massa.</p>",
+        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Hur mycket energi krävs för att slå loss en neutron ur kväve-14? Svara i MeV.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi krävs för att slå loss en proton ur N-14 (N-14 → C-13 + ¹H)?",
-        "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>N-14 har atommassan 14{,}003074 u, N-13 har 13{,}0057386 u och C-13 har 13{,}0033548 u.</p><p>Hur mycket energi krävs för att slå loss en proton ur N-14 (N-14 → C-13 + ¹H)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(13{,}0033548+1{,}0078250-14{,}0030740)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}55\\) MeV</p></div>",
-        "ledtrad": "<p>Räkna med väteatomens massa så att elektronerna tar ut varandra.</p>",
+        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. En massdefekt på 1 u motsvarar 931,49 MeV. Hur mycket energi krävs för att slå loss en proton ur kväve-14? Svara i MeV.",
+        "s": "<div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0033548\\\\&\\quad+1{,}007825\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0081058\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0081058\\cdot931{,}49\\\\&\\approx7{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Väteatomens massa används för protonen så att elektronbidragen är lika många på båda sidor.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.5504716420008755,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.1887617910500219,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Jämför slutprodukternas sammanlagda massa med startatomens massa.</p>",
+        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. En massdefekt på 1 u motsvarar 931,49 MeV. Hur mycket energi krävs för att slå loss en proton ur kväve-14? Svara i MeV.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Energin motsvarar massökningen.</p>",
+    "ledtrad": "<p>Jämför slutprodukternas sammanlagda massa med startatomens massa.</p>",
     "traningsniva": 3,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "E",
-    "typ": "spegelkärnor",
     "poang": "(2/0/0)",
-    "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p><ol type=\"a\"><li>Bestäm bindningsenergin för O-15.</li><li>Bestäm bindningsenergin för N-15.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=8\\cdot1{,}0078250+7\\cdot1{,}0086649-15{,}0030656\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(112{,}0\\) MeV</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=7\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}0001089\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(115{,}5\\) MeV</p></li></ol></div>",
+    "t": "<p>a) En atom av syre-15 har 8 protoner, 7 neutroner och atommassan 15,0030656 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p><p>b) En atom av kväve-15 har 7 protoner, 8 neutroner och atommassan 15,0001089 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=8\\cdot1{,}0078250\\\\&\\quad+7\\cdot1{,}0086649\\\\&\\quad-15{,}0030656\\\\&\\approx0{,}1201887\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}1201887\\cdot931{,}49\\\\&\\approx112{,}0\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=7\\cdot1{,}0078250\\\\&\\quad+8\\cdot1{,}0086649\\\\&\\quad-15{,}0001089\\\\&\\approx0{,}1239853\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}1239853\\cdot931{,}49\\\\&\\approx115{,}5\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "id": "9.399",
     "miniräknare": true,
     "geogebra": false,
@@ -149931,13 +151767,15 @@ window.BANK = [
       115.49106709699934
     ],
     "tolerans": [
-      1.68,
-      1.73
+      5.0,
+      5.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -149953,64 +151791,81 @@ window.BANK = [
       "MeV"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm bindningsenergin för O-15.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p><p>Bestäm bindningsenergin för O-15.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=8\\cdot1{,}0078250+7\\cdot1{,}0086649-15{,}0030656\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(112{,}0\\) MeV</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En atom av syre-15 har 8 protoner, 7 neutroner och atommassan 15,0030656 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=8\\cdot1{,}0078250\\\\&\\quad+7\\cdot1{,}0086649\\\\&\\quad-15{,}0030656\\\\&\\approx0{,}1201887\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}1201887\\cdot931{,}49\\\\&\\approx112{,}0\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 111.95457216299994,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av syre-15 har 8 protoner, 7 neutroner och atommassan 15,0030656 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm bindningsenergin för N-15.",
-        "t": "<p>Använd \\(m(^1\\text{H})=1{,}0078250\\) u och \\(m_n=1{,}0086649\\) u.</p><p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Spegelkärnorna O-15 (\\(Z=8\\), 15{,}0030656 u) och N-15 (\\(Z=7\\), 15{,}0001089 u).</p><p>Bestäm bindningsenergin för N-15.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=7\\cdot1{,}0078250+8\\cdot1{,}0086649-15{,}0001089\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(115{,}5\\) MeV</p></div>",
-        "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p>",
+        "fraga": "En atom av kväve-15 har 7 protoner, 8 neutroner och atommassan 15,0001089 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.",
+        "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=7\\cdot1{,}0078250\\\\&\\quad+8\\cdot1{,}0086649\\\\&\\quad-15{,}0001089\\\\&\\approx0{,}1239853\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}1239853\\cdot931{,}49\\\\&\\approx115{,}5\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 115.49106709699934,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
+        "t": "<p>En atom av kväve-15 har 7 protoner, 8 neutroner och atommassan 15,0001089 u. Väteatomens massa är 1,0078250 u och neutronens massa 1,0086649 u. En massdefekt på 1 u motsvarar 931,49 MeV. Bestäm bindningsenergin i MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\Delta m=Z\\,m(^1\\text{H})+(A-Z)\\,m_n-m_\\text{atom}\\) och \\(E_b=\\Delta m\\cdot931{,}49\\) MeV/u.</p><p>Skillnaden är bara drygt 3 %: den starka kraften beror inte på laddningen.</p>",
+    "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
     "traningsniva": 2,
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "nuklider",
     "niva": "C",
-    "typ": "klyva kol-14 i två delar",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Hur mycket energi krävs för att klyva C-14 (14{,}003242 u) i två Li-7 (7{,}0160034 u)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(2\\cdot7{,}0160034-14{,}0032420)\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}8\\) MeV</p></div>",
+    "t": "<p>En kol-14-atom har massan 14,0032420 u. En litium-7-atom har massan 7,0160034 u. En massdefekt på 1 u motsvarar 931,49 MeV. Hur mycket energi krävs för att dela kol-14 i två litium-7-kärnor? Svara i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Två litiumatomer har samma sammanlagda antal elektroner som kolatomen, så atommassorna kan jämföras.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot7{,}0160034-14{,}0032420\\\\&=0{,}0287648\\ \\mathrm u\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0287648\\cdot931{,}49\\\\&\\approx26{,}79\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Produkterna har större massa. Energin måste därför tillföras.</p></div>",
     "id": "9.400",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Massdefekt och bindningsenergi",
     "svarstyp": "numeriskt",
     "rättSvar": 26.794123551999412,
-    "tolerans": 0.402,
+    "tolerans": 0.6698530887999854,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför massan före och efter.</p>",
+    "ledtrad": "<p>Kontrollera om slutprodukternas sammanlagda massa är större eller mindre.</p>",
     "traningsniva": 3,
     "svarEnhet": "MeV",
     "familjNyckel": "nuklider__massdefekt_och_bindningsenergi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.246",

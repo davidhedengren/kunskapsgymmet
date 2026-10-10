@@ -3857,7 +3857,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-10-fy1-kopplingar";
+const BANK_VERSION="2026-10-10-fy1-nuklider";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9767,6 +9767,13 @@ function formatRatt(anv,facit,meta){
       if(svarsEnhet && (!unit || enhetNamn(svarsEnhet)!==enhetNamn(unit))) return false;
       return rentNumerisktSvar(match[1],f,meta);
     }
+    case "energi_per_nukleon": {
+      // Partikelantalet är dimensionslöst. Enheten kan skrivas MeV eller MeV/nukleon.
+      if(!["eV","keV","MeV","GeV","J"].includes(String(meta.enhet||""))) return false;
+      const raw=enhetMedOrd(hogerled(a)).replace(/\s*\/\s*nukleon(?:er)?\s*$/i,"");
+      const result=enhetsJamforelse(raw,facit,meta.enhet,tol);
+      return result===true;
+    }
     case "temperaturandring": {
       // En ändring på 1 °C är 1 K. Absoluta temperaturer berörs inte.
       if(!["K","°C"].includes(String(meta.enhet||""))) return false;
@@ -10137,7 +10144,7 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   }
   /* Decimalform kräver den angivna representationen och målenheten.
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
-  if(["decimalform","faktoriserat","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
+  if(["decimalform","energi_per_nukleon","faktoriserat","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
   /* Med svarsenheten % lagras facit i procent. Ett uttryckligt %-tecken
      får inte tas bort och därefter skalas igen av den generella talrättningen. */

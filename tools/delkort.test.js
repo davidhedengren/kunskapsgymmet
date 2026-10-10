@@ -374,3 +374,13 @@ test('Elastisk stöt definieras av rörelseenergin utan ett andra sant alternati
  assert.match(q.alternativ[3].txt,/Varje boll/);
  assert.match(q.alternativ[3].kommentar,/sammanlagda/);
 });
+
+test('Ett fristående korts uttryckliga metadata går före huvuduppgiftens',()=>{
+ const task={id:'prov',rättSvar:[100,200],självrättning:[true,false],tolerans:[1,2],svarEnhet:['N','N'],svarFormat:['numeriskt',null],manuellKomplettering:true,svarEtiketter:['a','b'],spelDelning:'deluppgifter',spelDelar:[
+  {etikett:'a',t:'Eget mellanresultat',rättSvar:101,tolerans:.1,svarEnhet:'µN',svarFormat:'numeriskt',självrättning:true,manuellKomplettering:false},
+  {etikett:'b',t:'Två egna värden',rättSvar:[3,4],tolerans:[.01,.02],svarEnhet:['V','A'],svarFormat:['numeriskt','numeriskt'],självrättning:true,svarsstruktur:'ordnad',svarEtiketter:['Spänning','Ström']}
+ ]};
+ const[a,b]=c.expandGameTask(task);assert.equal(a.rättSvar,101);assert.equal(a.tolerans,.1);assert.equal(a.svarEnhet,'µN');assert.equal(a.manuellKomplettering,false);
+ assert.deepEqual(plain(b.rättSvar),[3,4]);assert.equal(b.svarsstruktur,'ordnad');assert.equal(c.answerLayout(b).n,2);assert.equal(c.answerLayout(b).ordnad,true);assert.equal(b.självrättning,true);
+ assert.deepEqual(plain(task.rättSvar),[100,200]);
+});

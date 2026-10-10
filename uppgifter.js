@@ -77132,27 +77132,29 @@ window.BANK = [
     "id": "8.1",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Johan har en kopparkabel med resistiviteten 1,7·10⁻⁸ Ωm. Han vill köpa en guldkabel med resistiviteten 2,4·10⁻⁸ Ωm. Guldkabeln ska ha en åttondel av kopparkabelns resistans, samtidigt som den ska vara tre gånger så lång.</p>\n<p>Hur mycket tjockare än kopparkabeln måste guldkabeln vara?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">För respektive kabel gäller \\(R=\\rho L/A\\).</p><p class=\"facit-metod\">Bilda kvoten och använd \\(R_g=R_k/8\\),</p><div class=\"facit-matte\">\\[L_g=3L_k\\].</div><div class=\"facit-matte\">\\[\\frac{A_g}{A_k}=\\frac{\\rho_g}{\\rho_k}\\frac{L_g}{L_k}\\frac{R_k}{R_g}=\\frac{2{,}4}{1{,}7}\\cdot3\\cdot8=33{,}88\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Tvärsnittsarea är proportionell mot diameter i kvadrat.</p><div class=\"facit-matte\">\\[\\frac{d_g}{d_k}=\\sqrt{\\frac{A_g}{A_k}}=\\sqrt{33{,}88}=5{,}82\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Guldkabelns diameter måste vara cirka \\(5{,}8\\) gånger kopparkabelns.</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En rund koppartråd har resistiviteten 1,7·10⁻⁸ Ωm. En rund guldtråd med resistiviteten 2,4·10⁻⁸ Ωm ska vara tre gånger så lång men ha en åttondel så stor resistans.</p><p>Hur många gånger så stor behöver guldtrådens diameter vara som koppartrådens?</p>",
+    "s": "<div class=\"facit-v2\"><p>För båda trådarna gäller \\(R=\\rho L/A\\). Högre resistivitet och större längd kräver större area om resistansen ska minska.</p><p>\\[\\frac{A_g}{A_k}=\\frac{2{,}4}{1{,}7}\\cdot3\\cdot8\\approx33{,}88\\]</p><p>För en cirkel är arean proportionell mot diametern i kvadrat. Därför tar vi kvadratrot:</p><p>\\[\\frac{d_g}{d_k}=\\sqrt{33{,}88}\\approx5{,}82\\]</p><p>Guldtrådens diameter behöver vara cirka 5,8 gånger koppartrådens.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.8,
-    "tolerans": 0.087,
+    "rättSvar": 5.820855000871991,
+    "tolerans": 0.1455213750217998,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>För respektive kabel gäller \\(R=\\rho L/A\\). Bilda kvoten och använd \\(R_g=R_k/8\\), \\(L_g=3L_k\\).</p>",
+    "ledtrad": "<p>Jämför först areorna med \\(R=\\rho L/A\\). Hur beror cirkelns area på diametern?</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 4,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.2",
@@ -77306,12 +77308,12 @@ window.BANK = [
     ],
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.27659574468,
-    "tolerans": 0.0191,
+    "rättSvar": 1.276595744680851,
+    "tolerans": 0.03,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
     "traningsniva": 1,
@@ -77682,59 +77684,154 @@ window.BANK = [
     "id": "8.8",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En förlängningskabel är 25 m lång och har ledararean 1,5 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Genom kabeln går strömmen 10 A.</p>\n<ol><li>Vilken resistans har kabeln? Tänk på att strömmen går fram och tillbaka.</li>\n<li>Hur stort blir spänningsfallet?</li><li>Hur mycket effekt utvecklas som värme i kabeln?</li>\n<li>Varför blir en hoprullad kabel varmare än en utrullad?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen går genom 25 m kabel ut och 25 m tillbaka, alltså \\(L=50\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\rho\\frac LA=1{,}72\\cdot10^{-8}\\frac{50}{1{,}5\\cdot10^{-6}}=0{,}573\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningsfallet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta U=IR=10\\cdot0{,}573=5{,}73\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Värmeeffekten i kabeln blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=I^2R=10^2\\cdot0{,}573=57{,}3\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma elektriska effekt utvecklas oavsett om kabeln är rullad, men en hoprullad kabel avger värmen sämre och delar värme mellan tätt liggande varv.</p></div><div class=\"facit-stycke\"><p>Temperaturen kan därför bli så hög att isoleringen skadas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kabelresistansen är \\(0{,}573\\ \\Omega\\), spänningsfallet \\(5{,}73\\ \\mathrm V\\), och värmeeffekten \\(57\\ \\mathrm W\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>En 25 m lång förlängningskabel har två kopparledare. Varje ledare har arean 1,5 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Strömmen är 10 A.</p><p>a) Bestäm kabelns resistans. Strömmen går fram genom den ena ledaren och tillbaka genom den andra.</p><p>b) Hur stort är spänningsfallet över kabeln?</p><p>c) Vilken effekt blir värme i kabeln?</p><p>d) Förklara varför en hoprullad kabel kan bli varmare än en utrullad.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Strömmen går genom båda ledarna: \\(L=2\\cdot25=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><p>\\[R=\\rho\\frac LA=\\frac{1{,}72\\cdot10^{-8}\\cdot50}{1{,}5\\cdot10^{-6}}\\approx0{,}573\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Spänningsfallet är \\(U=RI\\).</p><p>\\[U=10\\cdot\\frac{1{,}72\\cdot10^{-8}\\cdot50}{1{,}5\\cdot10^{-6}}\\approx5{,}73\\ \\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Värmeeffekten är \\(P=I^2R\\).</p><p>\\[P=10^2\\cdot\\frac{1{,}72\\cdot10^{-8}\\cdot50}{1{,}5\\cdot10^{-6}}\\approx57{,}3\\ \\mathrm W\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>En hoprullad kabel avger värmen sämre. Värmen stannar lättare kvar mellan kabelvarven, så kabeln kan bli varmare.</p></div></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Strömmen går genom 25 m kabel ut och 25 m tillbaka, alltså \\(L=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5733333333333333,
+      5.7333333333333325,
+      57.33333333333333,
+      null
+    ],
+    "tolerans": [
+      0.014333333333333332,
+      0.14325,
+      1.4325,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En förlängningskabel är 25 m lång och har ledararean 1,5 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Genom kabeln går strömmen 10 A.</p>",
+    "spelIntro": "<p>En 25 m lång förlängningskabel har två kopparledare. Varje ledare har arean 1,5 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Strömmen är 10 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken resistans har kabeln? Tänk på att strömmen går fram och tillbaka.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen går genom 25 m kabel ut och 25 m tillbaka, alltså \\(L=50\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\rho\\frac LA=1{,}72\\cdot10^{-8}\\frac{50}{1{,}5\\cdot10^{-6}}=0{,}573\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}573\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Strömmen går genom 25 m kabel ut och 25 m tillbaka, alltså \\(L=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "A"
+        "fraga": "Bestäm kabelns resistans. Strömmen går fram genom den ena ledaren och tillbaka genom den andra. Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Strömmen går genom båda ledarna: \\(L=2\\cdot25=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><p>\\[R=\\rho\\frac LA=\\frac{1{,}72\\cdot10^{-8}\\cdot50}{1{,}5\\cdot10^{-6}}\\approx0{,}573\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5733333333333333,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.014333333333333332,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
+        "t": "<p>Bestäm kabelns resistans. Strömmen går fram genom den ena ledaren och tillbaka genom den andra. Svara i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort blir spänningsfallet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningsfallet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta U=IR=10\\cdot0{,}573=5{,}73\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}73\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Strömmen går genom 25 m kabel ut och 25 m tillbaka, alltså \\(L=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "A"
+        "fraga": "En kabel har resistansen 0,573 Ω och strömmen är 10 A. Hur stort är spänningsfallet över kabeln? Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Spänningsfallet över kabeln är \\(U=RI\\).</p><p>\\[U=0{,}573\\cdot10=5{,}73\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.7299999999999995,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.14325,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En kabel har resistansen 0,573 Ω och strömmen är 10 A. Hur stort är spänningsfallet över kabeln? Svara i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket effekt utvecklas som värme i kabeln?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Värmeeffekten i kabeln blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=I^2R=10^2\\cdot0{,}573=57{,}3\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(57{,}3\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Strömmen går genom 25 m kabel ut och 25 m tillbaka, alltså \\(L=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "A"
+        "fraga": "En kabel har resistansen 0,573 Ω och strömmen är 10 A. Vilken effekt blir värme i kabeln? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>Värmeeffekten i kabeln ges av \\(P=I^2R\\).</p><p>\\[P=10^2\\cdot0{,}573=57{,}3\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 57.3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 1.4325,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Värmeeffekten i en resistor ges av \\(P=I^2R\\).</p>",
+        "t": "<p>En kabel har resistansen 0,573 Ω och strömmen är 10 A. Vilken effekt blir värme i kabeln? Svara i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Varför blir en hoprullad kabel varmare än en utrullad?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma elektriska effekt utvecklas oavsett om kabeln är rullad, men en hoprullad kabel avger värmen sämre och delar värme mellan tätt liggande varv.</p></div><div class=\"facit-stycke\"><p>Temperaturen kan därför bli så hög att isoleringen skadas.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Strömmen går genom 25 m kabel ut och 25 m tillbaka, alltså \\(L=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "A"
+        "fraga": "Varför kan en hoprullad förlängningskabel bli varmare än en utrullad?",
+        "s": "<div class=\"facit-v2\"><p>En hoprullad kabel avger värmen sämre. Värmen stannar lättare kvar mellan kabelvarven, så kabeln kan bli varmare.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den hoprullade kabeln avger värmen sämre.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den hoprullade kabeln avger värmen sämre.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Strömmen slutar gå tillbaka till spänningskällan.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Kabelns material får lägre resistivitet när den rullas ihop.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur värmen kan lämna kabeln.</p>",
+        "t": "<p>Varför kan en hoprullad förlängningskabel bli varmare än en utrullad?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "traningsniva": 2,
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "Ω",
+      "V",
+      "W",
+      null
+    ]
   },
   {
     "id": "8.9",
@@ -80035,7 +80132,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "traningsniva": 1,
@@ -80128,11 +80225,10 @@ window.BANK = [
     "id": "8.28",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "beräkna resistans ur resistivitet och tråddimension, ur text, sökt resistans",
-    "poang": "(1/2/0)",
-    "t": "<p>En koppartråd är 8,0 m lång och har diametern 0,50 mm. Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>\n<ol><li>Bestäm trådens tvärsnittsarea.</li><li>Bestäm trådens resistans.</li>\n<li>Hur stort blir spänningsfallet när strömmen är 3,0 A?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Diametern 0,50 mm ger radien \\(2{,}50\\cdot10^{-4}\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi r^2=\\pi(2{,}50\\cdot10^{-4})^2=1{,}963\\cdot10^{-7}\\ \\mathrm{m^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Trådens resistans är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\rho\\frac LA=1{,}72\\cdot10^{-8}\\frac{8{,}0}{1{,}963\\cdot10^{-7}}=0{,}701\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 3,0 A blir spänningsfallet</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta U=IR=3{,}0\\cdot0{,}701=2{,}10\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Arean är \\(1{,}96\\cdot10^{-7}\\ \\mathrm{m^2}\\), resistansen \\(0{,}701\\ \\Omega\\), och spänningsfallet \\(2{,}10\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En rund koppartråd är 8,0 m lång och har diametern 0,50 mm. Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p><p>a) Bestäm trådens tvärsnittsarea i m².</p><p>b) Bestäm trådens resistans i Ω.</p><p>c) Hur stort blir spänningsfallet när strömmen är 3,0 A? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Radien är halva diametern: \\(r=0{,}25\\ \\mathrm{mm}=2{,}5\\cdot10^{-4}\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}A&=\\pi r^2\\\\&=\\pi(2{,}5\\cdot10^{-4})^2\\\\&\\approx1{,}96\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd arean från a), utan att avrunda mellanberäkningen.</p><p>\\[\\begin{aligned}R&=\\frac{1{,}72\\cdot10^{-8}\\cdot8{,}0}{\\pi(2{,}5\\cdot10^{-4})^2}\\\\&\\approx0{,}701\\ \\Omega\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Spänningsfallet fås med Ohms lag.</p><p>\\[\\begin{aligned}U&=RI\\\\&=0{,}701\\cdot3{,}0\\\\&\\approx2{,}10\\ \\mathrm V\\end{aligned}\\]</p></div></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "procedur"
@@ -80140,29 +80236,29 @@ window.BANK = [
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.963e-07,
-      0.701,
-      null
+      1.9634954084936206e-07,
+      0.7007910454222336,
+      2.1023731362667006
     ],
     "tolerans": [
-      5.889e-09,
-      0.010514999999999998,
-      null
+      4.908738521234052e-09,
+      0.017551020408163264,
+      0.052575
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "m²",
       "Ω",
-      null
+      "V"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -80170,41 +80266,71 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Diametern 0,50 mm ger radien \\(2{,}50\\cdot10^{-4}\\ \\mathrm m\\).</p>",
+    "ledtrad": "<p>Radien är halva diametern. Använd \\(A=\\pi r^2\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En koppartråd är 8,0 m lång och har diametern 0,50 mm. Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>",
+    "spelIntro": "<p>En rund koppartråd är 8,0 m lång och har diametern 0,50 mm. Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm trådens tvärsnittsarea.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Diametern 0,50 mm ger radien \\(2{,}50\\cdot10^{-4}\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi r^2=\\pi(2{,}50\\cdot10^{-4})^2=1{,}963\\cdot10^{-7}\\ \\mathrm{m^2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}963\\cdot10^{-7}\\ \\mathrm{m^2}\\).</p></div>",
-        "ledtrad": "<p>Diametern 0,50 mm ger radien \\(2{,}50\\cdot10^{-4}\\ \\mathrm m\\).</p>",
+        "fraga": "En rund tråd har diametern 0,50 mm. Bestäm tvärsnittsarean i m².",
+        "s": "<div class=\"facit-v2\"><p>Radien är halva diametern: \\(r=0{,}25\\ \\mathrm{mm}=2{,}5\\cdot10^{-4}\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}A&=\\pi r^2\\\\&=\\pi(2{,}5\\cdot10^{-4})^2\\\\&\\approx1{,}96\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.9634954084936206e-07,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m²",
+        "tolerans": 4.908738521234052e-09,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Radien är halva diametern. Använd \\(A=\\pi r^2\\).</p>",
+        "t": "<p>En rund tråd har diametern 0,50 mm. Bestäm tvärsnittsarean i m².</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm trådens resistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Trådens resistans är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\rho\\frac LA=1{,}72\\cdot10^{-8}\\frac{8{,}0}{1{,}963\\cdot10^{-7}}=0{,}701\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}701\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Diametern 0,50 mm ger radien \\(2{,}50\\cdot10^{-4}\\ \\mathrm m\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En koppartråd är 8,0 m lång och har arean 1,96·10⁻⁷ m². Resistiviteten är 1,72·10⁻⁸ Ωm. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Sätt längden i meter och arean i kvadratmeter i resistansformeln.</p><p>\\[\\begin{aligned}R&=\\rho\\frac LA\\\\&=\\frac{1{,}72\\cdot10^{-8}\\cdot8{,}0}{1{,}96\\cdot10^{-7}}\\\\&\\approx0{,}702\\ \\Omega\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.7020408163265305,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.017551020408163264,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
+        "t": "<p>En koppartråd är 8,0 m lång och har arean 1,96·10⁻⁷ m². Resistiviteten är 1,72·10⁻⁸ Ωm. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort blir spänningsfallet när strömmen är 3,0 A?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 3,0 A blir spänningsfallet</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta U=IR=3{,}0\\cdot0{,}701=2{,}10\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}10\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Diametern 0,50 mm ger radien \\(2{,}50\\cdot10^{-4}\\ \\mathrm m\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En tråd har resistansen 0,701 Ω. Hur stort blir spänningsfallet när strömmen är 3,0 A? Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Spänningsfallet fås med Ohms lag.</p><p>\\[\\begin{aligned}U&=RI\\\\&=0{,}701\\cdot3{,}0\\\\&\\approx2{,}10\\ \\mathrm V\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.1029999999999998,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.052575,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En tråd har resistansen 0,701 Ω. Hur stort blir spänningsfallet när strömmen är 3,0 A? Svara i V.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": false
   },
   {
     "id": "8.190",
@@ -80226,7 +80352,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
     "traningsniva": 1,
@@ -81410,10 +81536,10 @@ window.BANK = [
     "id": "8.38",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Ohms första lag beskriver sambandet mellan spänning, ström och resistans.</p>\n<ol><li>Helena kopplar in en resistor med resistansen 400 Ω till ett batteri med spänningen 1,5 V. Hur stor blir strömmen?</li>\n<li>I ett svenskt vägguttag är spänningen 230 V. Fanny vill att strömmen genom hennes produkt ska vara 0,50 A. Vilken resistans ska produkten ha?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac UR=\\frac{1{,}5}{400}=3{,}75\\cdot10^{-3}\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös i stället ut resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{230}{0{,}50}=460\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(3{,}8\\ \\mathrm{mA}\\), och den önskade resistansen \\(460\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>a) En resistor har resistansen 400 Ω och ansluts till 1,5 V. Hur stor blir strömmen? Svara i A.</p><p>b) En komponent ska ha strömmen 0,50 A vid spänningen 230 V. Vilken resistans behöver den ha? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Dividera spänningen med resistansen.</p><p>\\[I=U/R=1{,}5/400=0{,}00375\\ \\mathrm A\\]</p><p>Det är cirka 3,8 mA.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Lös ut resistansen i Ohms lag.</p><p>\\[R=U/I=230/0{,}50=460\\ \\Omega\\]</p></div></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
@@ -81422,13 +81548,16 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.00375,
-      460
+      460.0
     ],
     "tolerans": [
-      0.0001125,
-      6.8999999999999995
+      9.375e-05,
+      11.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -81442,30 +81571,53 @@ window.BANK = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ohms första lag beskriver sambandet mellan spänning, ström och resistans.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Helena kopplar in en resistor med resistansen 400 Ω till ett batteri med spänningen 1,5 V. Hur stor blir strömmen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac UR=\\frac{1{,}5}{400}=3{,}75\\cdot10^{-3}\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}75\\cdot10^{-3}\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C"
+        "fraga": "En resistor har resistansen 400 Ω och ansluts till 1,5 V. Hur stor blir strömmen? Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>Dividera spänningen med resistansen.</p><p>\\[I=U/R=1{,}5/400=0{,}00375\\ \\mathrm A\\]</p><p>Det är cirka 3,8 mA.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00375,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 9.375e-05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor har resistansen 400 Ω och ansluts till 1,5 V. Hur stor blir strömmen? Svara i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "I ett svenskt vägguttag är spänningen 230 V. Fanny vill att strömmen genom hennes produkt ska vara 0,50 A. Vilken resistans ska produkten ha?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös i stället ut resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{230}{0{,}50}=460\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(460\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C"
+        "fraga": "En komponent ska ha strömmen 0,50 A vid spänningen 230 V. Vilken resistans behöver den ha? Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Lös ut resistansen i Ohms lag.</p><p>\\[R=U/I=230/0{,}50=460\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 460.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 11.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En komponent ska ha strömmen 0,50 A vid spänningen 230 V. Vilken resistans behöver den ha? Svara i Ω.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.39",
@@ -81580,7 +81732,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
     "traningsniva": 1,
@@ -84157,10 +84309,10 @@ window.BANK = [
     "id": "8.61",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Anna har köpt en 2,5 meter lång koppartråd med radien 0,50 mm. Koppar har resistiviteten 1,7·10⁻⁸ Ωm.</p>\n<ol><li>Vilken resistans har tråden?</li>\n<li>Vilken spänning måste läggas över tråden för att strömmen ska bli 0,15 A?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi r^2=\\pi(5{,}0\\cdot10^{-4})^2=7{,}854\\cdot10^{-7}\\ \\mathrm{m^2}\\]\\[R=\\rho\\frac LA=1{,}7\\cdot10^{-8}\\frac{2{,}5}{7{,}854\\cdot10^{-7}}=0{,}0541\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen för 0,15 A blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI=0{,}0541\\cdot0{,}15=8{,}12\\cdot10^{-3}\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trådens resistans är \\(54\\ \\mathrm{m\\Omega}\\), och den nödvändiga spänningen \\(8{,}1\\ \\mathrm{mV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En rund koppartråd är 2,5 m lång och har radien 0,50 mm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>a) Bestäm trådens resistans i Ω.</p><p>b) Vilken spänning behövs för att strömmen ska bli 0,15 A? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}A&=\\pi(5{,}0\\cdot10^{-4})^2\\\\&\\approx7{,}85\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=\\frac{1{,}7\\cdot10^{-8}\\cdot2{,}5}{A}\\\\&\\approx0{,}0541\\ \\Omega\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Spänningen fås med Ohms lag.</p><p>\\[\\begin{aligned}U&=RI\\\\&=0{,}0541\\cdot0{,}15\\\\&=0{,}008115\\ \\mathrm V\\end{aligned}\\]</p><p>Det är cirka 8,1 mV.</p></div></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "procedur"
@@ -84168,23 +84320,23 @@ window.BANK = [
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      0.008119999999999999
+      0.05411268065124442,
+      0.008116902097686663
     ],
     "tolerans": [
-      null,
-      0.00024359999999999996
+      0.0013528170162811107,
+      0.00020287500000000004
     ],
     "självrättning": [
-      false,
+      true,
       true
     ],
     "svarFormat": [
-      null,
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
+      "Ω",
       "V"
     ],
     "svarsstruktur": "ordnad",
@@ -84192,31 +84344,53 @@ window.BANK = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p>",
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter. Beräkna arean med \\(A=\\pi r^2\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Anna har köpt en 2,5 meter lång koppartråd med radien 0,50 mm. Koppar har resistiviteten 1,7·10⁻⁸ Ωm.</p>",
+    "spelIntro": "<p>En rund koppartråd är 2,5 m lång och har radien 0,50 mm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken resistans har tråden?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi r^2=\\pi(5{,}0\\cdot10^{-4})^2=7{,}854\\cdot10^{-7}\\ \\mathrm{m^2}\\]\\[R=\\rho\\frac LA=1{,}7\\cdot10^{-8}\\frac{2{,}5}{7{,}854\\cdot10^{-7}}=0{,}0541\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0541\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p>",
-        "niva": "C"
+        "fraga": "En rund koppartråd är 2,5 m lång och har radien 0,50 mm. Resistiviteten är 1,7·10⁻⁸ Ωm. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}A&=\\pi(5{,}0\\cdot10^{-4})^2\\\\&\\approx7{,}85\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=\\frac{1{,}7\\cdot10^{-8}\\cdot2{,}5}{A}\\\\&\\approx0{,}0541\\ \\Omega\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.05411268065124442,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.0013528170162811107,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter. Beräkna arean med \\(A=\\pi r^2\\).</p>",
+        "t": "<p>En rund koppartråd är 2,5 m lång och har radien 0,50 mm. Resistiviteten är 1,7·10⁻⁸ Ωm. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken spänning måste läggas över tråden för att strömmen ska bli 0,15 A?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen för 0,15 A blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI=0{,}0541\\cdot0{,}15=8{,}12\\cdot10^{-3}\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}12\\cdot10^{-3}\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p>",
-        "niva": "C"
+        "fraga": "En tråd har resistansen 0,0541 Ω. Vilken spänning behövs för att strömmen ska bli 0,15 A? Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Spänningen fås med Ohms lag.</p><p>\\[\\begin{aligned}U&=RI\\\\&=0{,}0541\\cdot0{,}15\\\\&=0{,}008115\\ \\mathrm V\\end{aligned}\\]</p><p>Det är cirka 8,1 mV.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.008115,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.00020287500000000004,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En tråd har resistansen 0,0541 Ω. Vilken spänning behövs för att strömmen ska bli 0,15 A? Svara i V.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": false
   },
   {
     "id": "8.62",
@@ -85948,55 +86122,175 @@ window.BANK = [
     "id": "8.76",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Torr hud ger kroppen resistansen ungefär 100 kΩ, våt hud ungefär 1,0 kΩ. Nätspänningen är 230 V.</p>\n<ol><li>Vilken ström går genom kroppen i de två fallen?</li>\n<li>Ström över 100 mA genom hjärtat kan ge kammarflimmer. Bedöm de två fallen.</li>\n<li>Varför är badrum och kök särskilt reglerade utrymmen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(I=U/R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{torr}}=\\frac{230}{100000}\\approx0{,}0023\\ \\mathrm{A}=2{,}3\\ \\mathrm{mA}\\]\\[I_{\\mathrm{våt}}=\\frac{230}{1000}=0{,}230\\ \\mathrm A=230\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I den förenklade modellen ligger 2,3 mA långt under 100 mA, medan 230 mA ligger klart över.</p></div><div class=\"facit-stycke\"><p>Den verkliga risken beror starkt på strömväg, kontakttid, frekvens och individuell resistans; nätspänning ska alltid betraktas som farlig.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vatten och god jordkontakt kan sänka kroppens resistans kraftigt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför krävs bland annat jordfelsbrytare, skyddsutjämning och särskilda installationszoner i våtutrymmen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den beräknade strömmen är \\(2{,}3\\ \\mathrm{mA}\\) med torr hud och \\(230\\ \\mathrm{mA}\\) med våt hud; det senare är akut livsfarligt.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>I en förenklad modell har kroppen resistansen 100 kΩ med torr hud och 1,0 kΩ med våt hud. Spänningen är 230 V.</p><p>a) Beräkna strömmen i båda fallen. Svara i mA, först med torr hud och sedan med våt hud.</p><p>b) Vilket fall överstiger 100 mA?</p><p>c) Förklara varför våt hud kan ge större ström genom kroppen.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Omvandla först: 100 kΩ = 100 000 Ω och 1,0 kΩ = 1 000 Ω.</p><p>\\[\\begin{aligned}I_{\\text{torr}}&=230/100000\\\\&=0{,}0023\\ \\mathrm A\\\\&=2{,}3\\ \\mathrm{mA}\\end{aligned}\\]</p><p>\\[\\begin{aligned}I_{\\text{våt}}&=230/1000\\\\&=0{,}230\\ \\mathrm A\\\\&=230\\ \\mathrm{mA}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>2,3 mA är mindre än 100 mA. 230 mA är större än 100 mA. I modellen är det alltså fallet med våt hud som överstiger den angivna gränsen.</p><p>Det betyder inte att det andra fallet är ofarligt. Ström genom kroppen kan vara farlig även vid lägre strömstyrka.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Våt hud har lägre resistans. Vid samma spänning blir då strömmen genom kroppen större, eftersom \\(I=U/R\\).</p></div></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur",
       "resonemang"
     ],
     "familjNyckel": "kretsar__ohms_lag",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        2.3,
+        230
+      ],
+      null,
+      null
+    ],
+    "tolerans": [
+      [
+        0.06,
+        6
+      ],
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Torr hud ger kroppen resistansen ungefär 100 kΩ, våt hud ungefär 1,0 kΩ. Nätspänningen är 230 V.</p>",
+    "spelIntro": "<p>I en förenklad modell har kroppen resistansen 100 kΩ med torr hud och 1,0 kΩ med våt hud. Spänningen är 230 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken ström går genom kroppen i de två fallen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(I=U/R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{torr}}=\\frac{230}{100000}\\approx0{,}0023\\ \\mathrm{A}=2{,}3\\ \\mathrm{mA}\\]\\[I_{\\mathrm{våt}}=\\frac{230}{1000}=0{,}230\\ \\mathrm A=230\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(230\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vid 230 V är kroppens resistans 100 kΩ med torr hud och 1,0 kΩ med våt hud. Beräkna strömmen i båda fallen. Svara i mA, först med torr hud och sedan med våt hud.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla först: 100 kΩ = 100 000 Ω och 1,0 kΩ = 1 000 Ω.</p><p>\\[\\begin{aligned}I_{\\text{torr}}&=230/100000\\\\&=0{,}0023\\ \\mathrm A\\\\&=2{,}3\\ \\mathrm{mA}\\end{aligned}\\]</p><p>\\[\\begin{aligned}I_{\\text{våt}}&=230/1000\\\\&=0{,}230\\ \\mathrm A\\\\&=230\\ \\mathrm{mA}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          2.3,
+          230
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "mA",
+          "mA"
+        ],
+        "tolerans": [
+          0.06,
+          6
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Torr hud",
+          "Våt hud"
+        ],
+        "t": "<p>Vid 230 V är kroppens resistans 100 kΩ med torr hud och 1,0 kΩ med våt hud. Beräkna strömmen i båda fallen. Svara i mA, först med torr hud och sedan med våt hud.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Ström över 100 mA genom hjärtat kan ge kammarflimmer. Bedöm de två fallen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I den förenklade modellen ligger 2,3 mA långt under 100 mA, medan 230 mA ligger klart över.</p></div><div class=\"facit-stycke\"><p>Den verkliga risken beror starkt på strömväg, kontakttid, frekvens och individuell resistans; nätspänning ska alltid betraktas som farlig.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "I modellen blir strömmen 2,3 mA med torr hud och 230 mA med våt hud. Vilket fall överstiger 100 mA?",
+        "s": "<div class=\"facit-v2\"><p>2,3 mA är mindre än 100 mA. 230 mA är större än 100 mA. I modellen är det alltså fallet med våt hud som överstiger den angivna gränsen.</p><p>Det betyder inte att det andra fallet är ofarligt. Ström genom kroppen kan vara farlig även vid lägre strömstyrka.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Fallet med våt hud.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Fallet med våt hud.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Fallet med torr hud.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Båda fallen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Inget av fallen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför båda strömmarna med 100 mA.</p>",
+        "t": "<p>I modellen blir strömmen 2,3 mA med torr hud och 230 mA med våt hud. Vilket fall överstiger 100 mA?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Varför är badrum och kök särskilt reglerade utrymmen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vatten och god jordkontakt kan sänka kroppens resistans kraftigt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför krävs bland annat jordfelsbrytare, skyddsutjämning och särskilda installationszoner i våtutrymmen.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Varför kan strömmen genom kroppen bli större när huden är våt?",
+        "s": "<div class=\"facit-v2\"><p>Våt hud har lägre resistans. Vid samma spänning blir då strömmen genom kroppen större, eftersom \\(I=U/R\\).</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Våt hud har lägre resistans.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Våt hud har lägre resistans.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Våt hud har högre resistans.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Spänningen blir alltid högre när huden är våt.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad händer med \\(I=U/R\\) när resistansen minskar?</p>",
+        "t": "<p>Varför kan strömmen genom kroppen bli större när huden är våt?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      [
+        "mA",
+        "mA"
+      ],
+      null,
+      null
+    ]
   },
   {
     "id": "8.77",
@@ -86259,11 +86553,10 @@ window.BANK = [
     "id": "8.80",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "beräkna resistans ur resistivitet längd och area och undersöka hur den ändras, ur text, sökt resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>En koppartråd är 10 m lång och har tvärsnittsarean 1,0 mm². Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p>\n<ol><li>Skriv om arean i kvadratmeter.</li>\n<li>Bestäm trådens resistans.</li>\n<li>Vad blir resistansen om tråden i stället är 20 m lång?</li>\n<li>Vad blir resistansen om den ursprungliga tråden byts mot en lika lång med dubbelt så stor area?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\):</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}0\\ \\mathrm{mm^2}=1{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För den ursprungliga tråden:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=1{,}7\\cdot10^{-8}\\frac{10}{1{,}0\\cdot10^{-6}}=0{,}170\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbel längd ger dubbel resistans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{20}=0{,}340\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbel area ger halv resistans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{2A}=0{,}085\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Arean är \\(1{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\). Resistanserna blir \\(0{,}170\\ \\Omega\\), \\(0{,}340\\ \\Omega\\) och \\(0{,}085\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>En koppartråd är 10 m lång och har arean 1,0 mm². Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>a) Skriv arean i m².</p><p>b) Bestäm resistansen i Ω.</p><p>c) Hur stor blir resistansen om tråden i stället är 20 m lång?</p><p>d) Hur stor blir resistansen om den ursprungliga tråden ersätts av en lika lång tråd med dubbelt så stor area?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En millimeter är \\(10^{-3}\\) meter. När längden kvadreras blir faktorn \\(10^{-6}\\).</p><p>\\[1{,}0\\ \\mathrm{mm^2}=1{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd trådens längd och tvärsnittsarea.</p><p>\\[R=\\rho L/A=\\frac{1{,}7\\cdot10^{-8}\\cdot10}{1{,}0\\cdot10^{-6}}=0{,}17\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Med samma material och area är resistansen proportionell mot längden.</p><p>\\[R_{\\text{ny}}=2\\cdot0{,}17=0{,}34\\ \\Omega\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Med samma material och längd ger dubbel area halv resistans.</p><p>\\[R_{\\text{ny}}=0{,}17/2=0{,}085\\ \\Omega\\]</p></div></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "procedur"
@@ -86271,34 +86564,34 @@ window.BANK = [
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      1e-06,
       0.17,
-      null,
-      null
+      0.34,
+      0.085
     ],
     "tolerans": [
-      null,
-      0.0051,
-      null,
-      null
+      2.5e-08,
+      0.00425,
+      0.0085,
+      0.002125
     ],
     "självrättning": [
-      false,
       true,
-      false,
-      false
+      true,
+      true,
+      true
     ],
     "svarFormat": [
-      null,
       "numeriskt",
-      null,
-      null
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
-      null,
+      "m²",
       "Ω",
-      null,
-      null
+      "Ω",
+      "Ω"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -86307,45 +86600,89 @@ window.BANK = [
       "c",
       "d"
     ],
-    "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\): Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
+    "ledtrad": "<p>En millimeter är en tusendels meter. Kvadrera omvandlingsfaktorn för en area.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En koppartråd är 10 m lång och har tvärsnittsarean 1,0 mm². Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p>",
+    "spelIntro": "<p>En koppartråd är 10 m lång och har arean 1,0 mm². Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv om arean i kvadratmeter.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\):</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}0\\ \\mathrm{mm^2}=1{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p></div>",
-        "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\): Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
-        "niva": "C"
+        "fraga": "Skriv 1,0 mm² i m².",
+        "s": "<div class=\"facit-v2\"><p>En millimeter är \\(10^{-3}\\) meter. När längden kvadreras blir faktorn \\(10^{-6}\\).</p><p>\\[1{,}0\\ \\mathrm{mm^2}=1{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1e-06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m²",
+        "tolerans": 2.5e-08,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>En millimeter är en tusendels meter. Kvadrera omvandlingsfaktorn för en area.</p>",
+        "t": "<p>Skriv 1,0 mm² i m².</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm trådens resistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För den ursprungliga tråden:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=1{,}7\\cdot10^{-8}\\frac{10}{1{,}0\\cdot10^{-6}}=0{,}170\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}170\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\): Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
-        "niva": "C"
+        "fraga": "En koppartråd är 10 m lång och har arean 1,0·10⁻⁶ m². Resistiviteten är 1,7·10⁻⁸ Ωm. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Använd trådens längd och tvärsnittsarea.</p><p>\\[R=\\rho L/A=\\frac{1{,}7\\cdot10^{-8}\\cdot10}{1{,}0\\cdot10^{-6}}=0{,}17\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.17,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.00425,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
+        "t": "<p>En koppartråd är 10 m lång och har arean 1,0·10⁻⁶ m². Resistiviteten är 1,7·10⁻⁸ Ωm. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad blir resistansen om tråden i stället är 20 m lång?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbel längd ger dubbel resistans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{20}=0{,}340\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}340\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\): Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
-        "niva": "C"
+        "fraga": "En 10 m lång tråd har resistansen 0,17 Ω. Hur stor blir resistansen för en 20 m lång tråd av samma material och med samma area? Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Med samma material och area är resistansen proportionell mot längden.</p><p>\\[R_{\\text{ny}}=2\\cdot0{,}17=0{,}34\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.34,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.0085,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur beror resistansen på längden när material och area är samma?</p>",
+        "t": "<p>En 10 m lång tråd har resistansen 0,17 Ω. Hur stor blir resistansen för en 20 m lång tråd av samma material och med samma area? Svara i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vad blir resistansen om den ursprungliga tråden byts mot en lika lång med dubbelt så stor area?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbel area ger halv resistans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{2A}=0{,}085\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}085\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\): Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
-        "niva": "C"
+        "fraga": "En tråd har resistansen 0,17 Ω. Den ersätts av en lika lång tråd av samma material med dubbelt så stor area. Vad blir resistansen i Ω?",
+        "s": "<div class=\"facit-v2\"><p>Med samma material och längd ger dubbel area halv resistans.</p><p>\\[R_{\\text{ny}}=0{,}17/2=0{,}085\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.085,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.002125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur beror resistansen på arean när material och längd är samma?</p>",
+        "t": "<p>En tråd har resistansen 0,17 Ω. Den ersätts av en lika lång tråd av samma material med dubbelt så stor area. Vad blir resistansen i Ω?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": false
   },
   {
     "id": "8.195",
@@ -86367,7 +86704,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>I \\(R=\\rho L/A\\) står arean i nämnaren. Material och längd är oförändrade.</p>",
     "alternativ": [
       {
         "txt": "Den halveras.",
@@ -86390,7 +86727,7 @@ window.BANK = [
         "kommentar": "Tvärsnittsarean påverkar resistansen."
       }
     ],
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -86398,10 +86735,10 @@ window.BANK = [
     "id": "8.81",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Jakob vill undersöka resistansen för en resistor. Han kopplar in den till en spänningskub och mäter spänningen tillsammans med strömmen vid några olika tillfällen.</p>\n<table class=\"data\"><tr><th>Spänning (V)</th><th>Ström (mA)</th></tr>\n<tr><td>3,0</td><td>12</td></tr><tr><td>5,0</td><td>20</td></tr><tr><td>7,2</td><td>29</td></tr></table>\n<ol><li>Förklara hur Jakob kan bestämma resistansen genom att anpassa en rät linje till sina mätningar.</li>\n<li>Bestäm resistorns resistans.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rita \\(U\\) på y-axeln och \\(I\\) i ampere på x-axeln.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag \\(U=RI\\) visar att linjens lutning är resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{\\Delta U}{\\Delta I}\\]</div></div><div class=\"facit-stycke\"><p>En linjeanpassning använder alla mätpunkter och minskar inverkan av mätfel.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Punkterna ger nästan samma kvot.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{3{,}0}{0{,}012}=250\\ \\Omega,\\quad\\frac{5{,}0}{0{,}020}=250\\ \\Omega,\\quad\\frac{7{,}2}{0{,}029}=248\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p>En anpassning genom origo ger cirka 249 Ω.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Linjens lutning är resistansen, \\(R\\approx249\\ \\Omega\\), alltså ungefär \\(250\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Jakob mäter spänningen och strömmen för en resistor.</p><table class=\"data\"><tr><th>Spänning (V)</th><th>Ström (mA)</th></tr>\n<tr><td>3,0</td><td>12</td></tr><tr><td>5,0</td><td>20</td></tr><tr><td>7,2</td><td>29</td></tr></table><p>a) Förklara hur en rät linje genom origo kan användas för att bestämma resistansen.</p><p>b) Bestäm resistansen genom att anpassa en sådan linje till mätpunkterna.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Rita ett diagram med strömmen i ampere på x-axeln och spänningen i volt på y-axeln. Anpassa en rät linje genom origo till punkterna.</p><p>Ohms lag \\(U=RI\\) betyder att linjens lutning är resistansen: \\(R=\\Delta U/\\Delta I\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Strömmarna är 0,012 A, 0,020 A och 0,029 A. Punkterna ligger nära en linje genom origo. En linjeanpassning till alla tre punkterna ger en lutning på cirka 249 V/A.</p><p>Eftersom 1 V/A = 1 Ω är resistansen cirka 249 Ω, alltså ungefär 250 Ω. En grafisk avläsning kan ge ett närliggande värde.</p></div></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur",
@@ -86413,28 +86750,34 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "ledtrad": "<p>Rita \\(U\\) på y-axeln och \\(I\\) i ampere på x-axeln. Ohms lag \\(U=RI\\) visar att linjens lutning är resistansen.</p>",
+    "ledtrad": "<p>Rita U mot I och fundera på sambandet mellan lutning och resistans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Jakob vill undersöka resistansen för en resistor. Han kopplar in den till en spänningskub och mäter spänningen tillsammans med strömmen vid några olika tillfällen.</p>\n<table class=\"data\"><tr><th>Spänning (V)</th><th>Ström (mA)</th></tr>\n<tr><td>3,0</td><td>12</td></tr><tr><td>5,0</td><td>20</td></tr><tr><td>7,2</td><td>29</td></tr></table>",
+    "spelIntro": "<p>Jakob mäter spänningen och strömmen för en resistor.</p><table class=\"data\"><tr><th>Spänning (V)</th><th>Ström (mA)</th></tr>\n<tr><td>3,0</td><td>12</td></tr><tr><td>5,0</td><td>20</td></tr><tr><td>7,2</td><td>29</td></tr></table>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Förklara hur Jakob kan bestämma resistansen genom att anpassa en rät linje till sina mätningar.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rita \\(U\\) på y-axeln och \\(I\\) i ampere på x-axeln.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag \\(U=RI\\) visar att linjens lutning är resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{\\Delta U}{\\Delta I}\\]</div></div><div class=\"facit-stycke\"><p>En linjeanpassning använder alla mätpunkter och minskar inverkan av mätfel.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Rita \\(U\\) på y-axeln och \\(I\\) i ampere på x-axeln. Ohms lag \\(U=RI\\) visar att linjens lutning är resistansen.</p>",
-        "niva": "C"
+        "fraga": "Förklara hur en rät linje genom origo kan användas för att bestämma resistansen.",
+        "s": "<div class=\"facit-v2\"><p>Rita ett diagram med strömmen i ampere på x-axeln och spänningen i volt på y-axeln. Anpassa en rät linje genom origo till punkterna.</p><p>Ohms lag \\(U=RI\\) betyder att linjens lutning är resistansen: \\(R=\\Delta U/\\Delta I\\).</p></div>",
+        "ledtrad": "<p>Vilken storhet motsvarar linjens lutning i \\(U=RI\\)?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm resistorns resistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Punkterna ger nästan samma kvot.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{3{,}0}{0{,}012}=250\\ \\Omega,\\quad\\frac{5{,}0}{0{,}020}=250\\ \\Omega,\\quad\\frac{7{,}2}{0{,}029}=248\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p>En anpassning genom origo ger cirka 249 Ω.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(248\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Rita \\(U\\) på y-axeln och \\(I\\) i ampere på x-axeln. Ohms lag \\(U=RI\\) visar att linjens lutning är resistansen.</p>",
-        "niva": "C"
+        "fraga": "Bestäm resistansen genom att anpassa en sådan linje till mätpunkterna.",
+        "s": "<div class=\"facit-v2\"><p>Strömmarna är 0,012 A, 0,020 A och 0,029 A. Punkterna ligger nära en linje genom origo. En linjeanpassning till alla tre punkterna ger en lutning på cirka 249 V/A.</p><p>Eftersom 1 V/A = 1 Ω är resistansen cirka 249 Ω, alltså ungefär 250 Ω. En grafisk avläsning kan ge ett närliggande värde.</p></div>",
+        "ledtrad": "<p>Rita U i volt mot I i ampere. Läs av linjens lutning.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "manuellKomplettering": true
   },
@@ -86442,80 +86785,153 @@ window.BANK = [
     "id": "8.82",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En metalltråd har resistansen 12 Ω. Man byter till en tråd av samma material som är dubbelt så lång och har halva tvärsnittsarean.</p>\n<ol><li>Vilken resistans får den nya tråden?</li><li>Motivera med hjälp av sambandet R = ρL/A.</li>\n<li>Vad skulle krävas för att halvera resistansen istället?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nya längden är \\(2L\\) och arean \\(A/2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R'=\\rho\\frac{2L}{A/2}=4\\rho\\frac LA=4R=48\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbel längd ger faktorn 2 och halverad area ytterligare faktorn 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tillsammans blir resistansen fyra gånger större.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistansen kan halveras genom att halvera längden, dubbla arean eller välja ett material med halva resistiviteten, om övriga storheter hålls konstanta.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\rho\\frac LA\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den nya resistansen är \\(48\\ \\Omega\\). Halva resistansen fås till exempel med halva längden eller dubbla arean.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En tråd har resistansen 12 Ω. Den ersätts av en tråd av samma material med dubbelt så stor längd och hälften så stor area.</p><p>a) Bestäm den nya trådens resistans.</p><p>b) Förklara hur längden och arean påverkar resistansen i a).</p><p>c) Ge två olika sätt att halvera den ursprungliga trådens resistans. Ange vad som ska vara oförändrat.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Samma material betyder samma resistivitet. Dubbel längd ger faktorn 2 och halv area ger ytterligare faktorn 2.</p><p>\\[R_{\\text{ny}}=12\\cdot\\frac{2}{1/2}=48\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I \\(R=\\rho L/A\\) är längden i täljaren och arean i nämnaren. Därför multipliceras resistansen med 2 när längden dubblas och med 2 när arean halveras.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>För den ursprungliga tråden kan resistansen halveras genom att halvera längden eller dubbla arean. Ett material med halva resistiviteten ger också halv resistans, om längd och area är samma.</p></div></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "procedur",
       "resonemang"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Den nya längden är \\(2L\\) och arean \\(A/2\\). Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      48,
+      null,
+      null
+    ],
+    "tolerans": [
+      1.2,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En metalltråd har resistansen 12 Ω. Man byter till en tråd av samma material som är dubbelt så lång och har halva tvärsnittsarean.</p>",
+    "spelIntro": "<p>En tråd har resistansen 12 Ω. Den ersätts av en tråd av samma material med dubbelt så stor längd och hälften så stor area.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken resistans får den nya tråden?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nya längden är \\(2L\\) och arean \\(A/2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R'=\\rho\\frac{2L}{A/2}=4\\rho\\frac LA=4R=48\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Den nya längden är \\(2L\\) och arean \\(A/2\\). Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Motivera med hjälp av sambandet R = ρL/A.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbel längd ger faktorn 2 och halverad area ytterligare faktorn 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tillsammans blir resistansen fyra gånger större.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den nya längden är \\(2L\\) och arean \\(A/2\\). Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
-        "niva": "C"
+        "fraga": "En tråd har resistansen 12 Ω. En ny tråd av samma material har dubbelt så stor längd och hälften så stor area. Vad blir resistansen i Ω?",
+        "s": "<div class=\"facit-v2\"><p>Samma material betyder samma resistivitet. Dubbel längd ger faktorn 2 och halv area ger ytterligare faktorn 2.</p><p>\\[R_{\\text{ny}}=12\\cdot\\frac{2}{1/2}=48\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 48,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 1.2000000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
+        "t": "<p>En tråd har resistansen 12 Ω. En ny tråd av samma material har dubbelt så stor längd och hälften så stor area. Vad blir resistansen i Ω?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad skulle krävas för att halvera resistansen istället?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistansen kan halveras genom att halvera längden, dubbla arean eller välja ett material med halva resistiviteten, om övriga storheter hålls konstanta.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\rho\\frac LA\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Den nya längden är \\(2L\\) och arean \\(A/2\\). Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
-        "niva": "C"
+        "fraga": "En tråd har resistansen 12 Ω. Vilka ändringar kan var för sig ge 6 Ω? Markera alla korrekta alternativ. Övriga storheter är oförändrade.",
+        "s": "<div class=\"facit-v2\"><p>För den ursprungliga tråden kan resistansen halveras genom att halvera längden eller dubbla arean. Ett material med halva resistiviteten ger också halv resistans, om längd och area är samma.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": [
+          "Halvera längden.",
+          "Dubbla arean.",
+          "Välj ett material med halva resistiviteten."
+        ],
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Halvera längden.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Dubbla arean.",
+            "ratt": true,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Välj ett material med halva resistiviteten.",
+            "ratt": true,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Dubbla längden.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Halvera arean.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
+        "t": "<p>En tråd har resistansen 12 Ω. Vilka ändringar kan var för sig ge 6 Ω? Markera alla korrekta alternativ. Övriga storheter är oförändrade.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      "Ω",
+      null,
+      null
+    ]
   },
   {
     "id": "8.196",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "resistans hos ledare från resistivitet",
-    "poang": "(0/2/0)",
-    "t": "<p>En kopparledning är \\(16\\,\\mathrm m\\) lång och har tvärsnittsarean \\(0{,}8\\,\\mathrm{mm^2}\\). Bestäm resistansen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ledarens resistans ges av \\(R=\\rho l/A\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tvärsnittsarean måste skrivas i \\(\\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=0{,}8\\cdot10^{-6}\\ \\mathrm{m^2}\\]\\[R=\\rho\\frac{l}{A}=0{,}336\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}336\\,\\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En koppartråd är 16 m lång och har resistansen 0,336 Ω. Kopparns resistivitet är 1,68·10⁻⁸ Ωm.</p><p>Bestäm trådens tvärsnittsarea. Svara i mm².</p>",
+    "s": "<div class=\"facit-v2\"><p>Lös ut arean i \\(R=\\rho L/A\\).</p><p>\\[\\begin{aligned}A&=\\frac{\\rho L}{R}\\\\&=\\frac{1{,}68\\cdot10^{-8}\\cdot16}{0{,}336}\\\\&=8{,}0\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Eftersom 1 mm² = 10⁻⁶ m² blir arean 0,80 mm².</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.336,
-    "tolerans": 0.006048,
+    "rättSvar": 0.8,
+    "tolerans": 0.020000000000000004,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kom ihåg att \\(1\\,\\mathrm{mm^2}=10^{-6}\\,\\mathrm{m^2}\\).</p>",
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "Ω",
-    "traningsniva": 3,
+    "svarEnhet": "mm²",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.83",
@@ -86596,52 +87012,135 @@ window.BANK = [
     "id": "8.84",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "typ": "beräkna spänningsfall i tilledning, ur text, sökt spänning",
-    "poang": "(0/2/2)",
-    "t": "<p>En arbetslampa märkt 12 V och 24 W ansluts via en 15 m lång kabel med ledararean 1,0 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>\n<ol><li>Hur stor ström drar lampan?</li><li>Vilken resistans har kabeln? Tänk på att strömmen går fram och tillbaka.</li>\n<li>Hur stort blir spänningsfallet, och vilken spänning når lampan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Märkströmmen vid exakt 12 V är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{märkt}}=\\frac PU=\\frac{24}{12}=2{,}0\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen går 15 m ut och 15 m tillbaka.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_k=1{,}72\\cdot10^{-8}\\frac{30}{1{,}0\\cdot10^{-6}}=0{,}516\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en uppskattning som hänger ihop behandlas lampan som resistansen \\(R_l=U^2/P=6{,}0\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kabel och lampa ligger i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{6{,}0+0{,}516}=1{,}842\\ \\mathrm A\\]\\[\\Delta U_k=IR_k=0{,}950\\ \\mathrm V\\]\\[U_l=12-0{,}950=11{,}05\\ \\mathrm V\\]</div></div><div class=\"facit-stycke\"><p>Lampans verkliga resistans kan ändras med temperaturen, men denna modell är bättre än att samtidigt anta både 2,0 A och lägre lampspänning.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Märkströmmen är \\(2{,}0\\ \\mathrm A\\) och kabelresistansen \\(0{,}516\\ \\Omega\\). Med lampan modellerad som \\(6{,}0\\ \\Omega\\) blir strömmen \\(1{,}84\\ \\mathrm A\\), kabelns spänningsfall \\(0{,}95\\ \\mathrm V\\), och lampans spänning \\(11{,}05\\ \\mathrm V\\).</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>En lampa är märkt 12 V, 24 W. Den ska anslutas till en spänningskälla på 12 V med en 15 m lång kabel. Kabeln har två kopparledare, vardera med arean 1,0 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p><p>a) Vilken ström går genom lampan när spänningen över den är 12 V?</p><p>b) Bestäm kabelns sammanlagda resistans. Strömmen går genom båda ledarna.</p><p>c) Räkna med att lampans resistans är 6,0 Ω. Bestäm spänningen över kabeln och över lampan när de ansluts till spänningskällan. Svara i V, först kabeln och sedan lampan.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"260\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"En spänningskälla på 12 V seriekopplad med lampans 6,0 ohm och kabelns 0,516 ohm\"><rect width=\"500\" height=\"260\" fill=\"#fff\"/><path d=\"M90 110 V70 H188 M232 70 H400 V185 H320 M210 185 H90 V128 M65 110 H115 M75 128 H105\" fill=\"none\" stroke=\"#305777\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"70\" r=\"22\" fill=\"#fff3c3\" stroke=\"#305777\" stroke-width=\"2\"/><path d=\"M194 54 L226 86 M194 86 L226 54\" stroke=\"#305777\" stroke-width=\"2\"/><rect x=\"210\" y=\"172\" width=\"110\" height=\"26\" fill=\"#e6eff7\" stroke=\"#305777\" stroke-width=\"2\"/><text x=\"210\" y=\"26\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243747\">Lampa: 6,0 Ω</text><text x=\"265\" y=\"226\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243747\">Kabel: 0,516 Ω</text><text x=\"18\" y=\"125\" font-size=\"19\" fill=\"#243747\">12 V</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Märkströmmen gäller när spänningen över lampan är 12 V.</p><p>\\[I=P/U=24/12=2{,}0\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Strömmen går genom två ledare, vardera 15 m långa. Den totala ledarlängden är 30 m och arean är 10⁻⁶ m².</p><p>\\[R_{\\text{kabel}}=\\frac{1{,}72\\cdot10^{-8}\\cdot30}{10^{-6}}=0{,}516\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Lampan och kabeln är seriekopplade. Deras sammanlagda resistans är 6,0 + 0,516 = 6,516 Ω.</p><p>\\[I=12/6{,}516\\approx1{,}842\\ \\mathrm A\\]</p><p>\\[U_{\\text{kabel}}=I\\cdot0{,}516\\approx0{,}950\\ \\mathrm V\\]</p><p>\\[U_{\\text{lampa}}=12-0{,}950\\approx11{,}05\\ \\mathrm V\\]</p></div></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "problemlösning"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Ledarens resistans ges av \\(R=\\rho L/A\\). Var särskilt noga med att omvandla tvärsnittsarean till \\(\\mathrm{m^2}\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      0.5159999999999999,
+      [
+        0.9502762430939224,
+        11.049723756906078
+      ]
+    ],
+    "tolerans": [
+      0.05,
+      0.012899999999999998,
+      [
+        0.025,
+        0.28
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Använd \\(P=UI\\) för lampans märkdata.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En arbetslampa märkt 12 V och 24 W ansluts via en 15 m lång kabel med ledararean 1,0 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>",
+    "spelIntro": "<p>En lampa är märkt 12 V, 24 W. Den ska anslutas till en spänningskälla på 12 V med en 15 m lång kabel. Kabeln har två kopparledare, vardera med arean 1,0 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor ström drar lampan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Märkströmmen vid exakt 12 V är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{\\mathrm{märkt}}=\\frac PU=\\frac{24}{12}=2{,}0\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Ledarens resistans ges av \\(R=\\rho L/A\\). Var särskilt noga med att omvandla tvärsnittsarean till \\(\\mathrm{m^2}\\).</p>",
-        "niva": "A"
+        "fraga": "En lampa är märkt 12 V, 24 W. Vilken ström går genom lampan när spänningen över den är 12 V? Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>Märkströmmen gäller när spänningen över lampan är 12 V.</p><p>\\[I=P/U=24/12=2{,}0\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) för lampans märkdata.</p>",
+        "t": "<p>En lampa är märkt 12 V, 24 W. Vilken ström går genom lampan när spänningen över den är 12 V? Svara i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken resistans har kabeln? Tänk på att strömmen går fram och tillbaka.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen går 15 m ut och 15 m tillbaka.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_k=1{,}72\\cdot10^{-8}\\frac{30}{1{,}0\\cdot10^{-6}}=0{,}516\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}516\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Ledarens resistans ges av \\(R=\\rho L/A\\). Var särskilt noga med att omvandla tvärsnittsarean till \\(\\mathrm{m^2}\\).</p>",
-        "niva": "A"
+        "fraga": "En 15 m lång kabel har två kopparledare med arean 1,0 mm² vardera. Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Bestäm kabelns sammanlagda resistans i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Strömmen går genom två ledare, vardera 15 m långa. Den totala ledarlängden är 30 m och arean är 10⁻⁶ m².</p><p>\\[R_{\\text{kabel}}=\\frac{1{,}72\\cdot10^{-8}\\cdot30}{10^{-6}}=0{,}516\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5159999999999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.012899999999999998,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
+        "t": "<p>En 15 m lång kabel har två kopparledare med arean 1,0 mm² vardera. Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Bestäm kabelns sammanlagda resistans i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort blir spänningsfallet, och vilken spänning når lampan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en uppskattning som hänger ihop behandlas lampan som resistansen \\(R_l=U^2/P=6{,}0\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kabel och lampa ligger i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{6{,}0+0{,}516}=1{,}842\\ \\mathrm A\\]\\[\\Delta U_k=IR_k=0{,}950\\ \\mathrm V\\]\\[U_l=12-0{,}950=11{,}05\\ \\mathrm V\\]</div></div><div class=\"facit-stycke\"><p>Lampans verkliga resistans kan ändras med temperaturen, men denna modell är bättre än att samtidigt anta både 2,0 A och lägre lampspänning.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}05\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Ledarens resistans ges av \\(R=\\rho L/A\\). Var särskilt noga med att omvandla tvärsnittsarean till \\(\\mathrm{m^2}\\).</p>",
-        "niva": "A"
+        "fraga": "En lampa med resistansen 6,0 Ω är seriekopplad med en kabel som har resistansen 0,516 Ω. Spänningskällan ger 12 V. Bestäm spänningen över kabeln och över lampan. Svara i V, först kabeln och sedan lampan.",
+        "s": "<div class=\"facit-v2\"><p>Lampan och kabeln är seriekopplade. Deras sammanlagda resistans är 6,0 + 0,516 = 6,516 Ω.</p><p>\\[I=12/6{,}516\\approx1{,}842\\ \\mathrm A\\]</p><p>\\[U_{\\text{kabel}}=I\\cdot0{,}516\\approx0{,}950\\ \\mathrm V\\]</p><p>\\[U_{\\text{lampa}}=12-0{,}950\\approx11{,}05\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0.9502762430939224,
+          11.049723756906078
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "V",
+          "V"
+        ],
+        "tolerans": [
+          0.025,
+          0.28
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna först strömmen genom lampan och kabeln med deras sammanlagda resistans.</p>",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Kabeln",
+          "Lampan"
+        ],
+        "t": "<div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"260\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"En spänningskälla på 12 V seriekopplad med lampans 6,0 ohm och kabelns 0,516 ohm\"><rect width=\"500\" height=\"260\" fill=\"#fff\"/><path d=\"M90 110 V70 H188 M232 70 H400 V185 H320 M210 185 H90 V128 M65 110 H115 M75 128 H105\" fill=\"none\" stroke=\"#305777\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"70\" r=\"22\" fill=\"#fff3c3\" stroke=\"#305777\" stroke-width=\"2\"/><path d=\"M194 54 L226 86 M194 86 L226 54\" stroke=\"#305777\" stroke-width=\"2\"/><rect x=\"210\" y=\"172\" width=\"110\" height=\"26\" fill=\"#e6eff7\" stroke=\"#305777\" stroke-width=\"2\"/><text x=\"210\" y=\"26\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243747\">Lampa: 6,0 Ω</text><text x=\"265\" y=\"226\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243747\">Kabel: 0,516 Ω</text><text x=\"18\" y=\"125\" font-size=\"19\" fill=\"#243747\">12 V</text></svg></div><p>En lampa med resistansen 6,0 Ω är seriekopplad med en kabel som har resistansen 0,516 Ω. Spänningskällan ger 12 V. Bestäm spänningen över kabeln och över lampan. Svara i V, först kabeln och sedan lampan.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "spel": true,
+    "manuellKomplettering": false,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "A",
+      "Ω",
+      [
+        "V",
+        "V"
+      ]
+    ]
   },
   {
     "id": "8.197",
@@ -89592,11 +90091,11 @@ window.BANK = [
     "id": "8.108",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
+    "niva": "E",
     "typ": "bestämma resistans ur mätvärden med linjeanpassning, ur tabell, sökt resistans",
-    "poang": "(1/2/0)",
-    "t": "<p>Spänningen över en resistor mäts vid fyra strömmar.</p>\n<table class=\"data\"><tr><th>I (mA)</th><th>U (V)</th></tr>\n<tr><td>20</td><td>1,36</td></tr><tr><td>40</td><td>2,72</td></tr><tr><td>60</td><td>4,08</td></tr><tr><td>80</td><td>5,44</td></tr></table>\n<ol><li>Rita ett diagram med U på y-axeln och I på x-axeln.</li>\n<li>Vad motsvarar linjens lutning?</li><li>Bestäm resistansen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt ut mätpunkterna med ström i ampere på x-axeln och spänning på y-axeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\"><span class=\"fig bred\"><svg height=\"404\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 430 280\" role=\"img\" aria-label=\"Diagram över spänning som funktion av ström\"><line x1=\"68\" y1=\"232\" x2=\"390\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"3\"/><polygon points=\"402,232 386,224 386,240\" fill=\"#2B2527\"/><line x1=\"68\" y1=\"232\" x2=\"68\" y2=\"34\" stroke=\"#2B2527\" stroke-width=\"3\"/><polygon points=\"68,22 60,38 76,38\" fill=\"#2B2527\"/><text x=\"400\" y=\"274\" font-family=\"IBM Plex Mono\" font-size=\"16\" fill=\"#2B2527\" text-anchor=\"end\">I / mA</text><text x=\"10\" y=\"30\" font-family=\"IBM Plex Mono\" font-size=\"16\" fill=\"#2B2527\">U / V</text><line x1=\"68\" y1=\"232\" x2=\"362\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><g fill=\"#B43123\"><circle cx=\"142\" cy=\"186\" r=\"5\"/><circle cx=\"215\" cy=\"140\" r=\"5\"/><circle cx=\"289\" cy=\"94\" r=\"5\"/><circle cx=\"362\" cy=\"48\" r=\"5\"/></g><g font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#5C575E\"><text x=\"136\" y=\"250\">20</text><text x=\"209\" y=\"250\">40</text><text x=\"283\" y=\"250\">60</text><text x=\"356\" y=\"250\">80</text><text x=\"42\" y=\"190\">1,36</text><text x=\"42\" y=\"144\">2,72</text><text x=\"42\" y=\"98\">4,08</text><text x=\"42\" y=\"52\">5,44</text></g></svg></span></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag är \\(U=RI\\), så linjens lutning \\(\\Delta U/\\Delta I\\) är resistansen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd två väl separerade punkter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{5{,}44-1{,}36}{(80-20)\\cdot10^{-3}}=68{,}0\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Grafen är en rät linje genom origo. Lutningen, och därmed resistansen, är \\(68\\ \\Omega\\).</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Spänningen över en resistor mäts vid fyra strömmar.</p>\n<table class=\"data\"><tr><th>I (mA)</th><th>U (V)</th></tr>\n<tr><td>20</td><td>1,36</td></tr><tr><td>40</td><td>2,72</td></tr><tr><td>60</td><td>4,08</td></tr><tr><td>80</td><td>5,44</td></tr></table>\n<p>a) Rita ett diagram med U på y-axeln och I på x-axeln.</p><p>b) Vad motsvarar linjens lutning?</li><li>Bestäm resistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p>a) Rita strömmen i ampere på x-axeln och spänningen i volt på y-axeln. Punkterna ligger på en rät linje genom origo.</p><p>b) I \\(U=RI\\) motsvarar linjens lutning resistansen.</p><p>c) Använd två punkter på linjen:</p><p>\\[R=\\frac{\\Delta U}{\\Delta I}=\\frac{5{,}44-1{,}36}{0{,}080-0{,}020}=68\\ \\Omega\\]</p></div><span class=\"fig bred\"><svg height=\"404\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 430 280\" role=\"img\" aria-label=\"Diagram över spänning som funktion av ström\"><line x1=\"68\" y1=\"232\" x2=\"390\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"3\"/><polygon points=\"402,232 386,224 386,240\" fill=\"#2B2527\"/><line x1=\"68\" y1=\"232\" x2=\"68\" y2=\"34\" stroke=\"#2B2527\" stroke-width=\"3\"/><polygon points=\"68,22 60,38 76,38\" fill=\"#2B2527\"/><text x=\"400\" y=\"274\" font-family=\"IBM Plex Mono\" font-size=\"16\" fill=\"#2B2527\" text-anchor=\"end\">I / mA</text><text x=\"10\" y=\"30\" font-family=\"IBM Plex Mono\" font-size=\"16\" fill=\"#2B2527\">U / V</text><line x1=\"68\" y1=\"232\" x2=\"362\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><g fill=\"#B43123\"><circle cx=\"142\" cy=\"186\" r=\"5\"/><circle cx=\"215\" cy=\"140\" r=\"5\"/><circle cx=\"289\" cy=\"94\" r=\"5\"/><circle cx=\"362\" cy=\"48\" r=\"5\"/></g><g font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#5C575E\"><text x=\"136\" y=\"250\">20</text><text x=\"209\" y=\"250\">40</text><text x=\"283\" y=\"250\">60</text><text x=\"356\" y=\"250\">80</text><text x=\"42\" y=\"190\">1,36</text><text x=\"42\" y=\"144\">2,72</text><text x=\"42\" y=\"98\">4,08</text><text x=\"42\" y=\"52\">5,44</text></g></svg></span>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
@@ -89626,7 +90125,7 @@ window.BANK = [
     "svarEnhet": [
       null,
       null,
-      null
+      "Ω"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -89635,10 +90134,10 @@ window.BANK = [
       "c"
     ],
     "spel": false,
-    "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
+    "ledtrad": "<p>Linjens lutning i ett U–I-diagram är resistansen. Omvandla strömmen till ampere.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "manuellKomplettering": true
   },
@@ -89673,29 +90172,28 @@ window.BANK = [
     "id": "8.198",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "resistans hos ledare från resistivitet",
-    "poang": "(0/2/0)",
-    "t": "<p>En kopparledning är \\(10\\,\\mathrm m\\) lång och har tvärsnittsarean \\(0{,}5\\,\\mathrm{mm^2}\\). Bestäm resistansen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ledarens resistans ges av \\(R=\\rho l/A\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tvärsnittsarean måste skrivas i \\(\\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=0{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\]\\[R=\\rho\\frac{l}{A}=0{,}336\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}336\\,\\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En koppartråd har arean 0,50 mm² och resistansen 0,336 Ω. Kopparns resistivitet är 1,68·10⁻⁸ Ωm.</p><p>Hur lång är tråden? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>Arean är \\(0{,}50\\cdot10^{-6}\\ \\mathrm{m^2}\\). Lös ut längden.</p><p>\\[\\begin{aligned}L&=\\frac{RA}{\\rho}\\\\&=\\frac{0{,}336\\cdot0{,}50\\cdot10^{-6}}{1{,}68\\cdot10^{-8}}\\\\&=10\\ \\mathrm m\\end{aligned}\\]</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.336,
-    "tolerans": 0.006048,
+    "rättSvar": 10,
+    "tolerans": 0.25,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kom ihåg att \\(1\\,\\mathrm{mm^2}=10^{-6}\\,\\mathrm{m^2}\\).</p>",
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "Ω",
-    "traningsniva": 3,
+    "svarEnhet": "m",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.110",
@@ -89934,54 +90432,56 @@ window.BANK = [
     "id": "8.113",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Felix vill köpa en silvertråd som ska vara 25 cm lång och ha resistansen 8,0 mΩ. Silver har resistiviteten 1,6·10⁻⁸ Ωm.</p>\n<p>Vilken diameter ska tråden ha?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös först ut tvärsnittsarean ur \\(R=\\rho L/A\\).</p><div class=\"facit-matte\">\\[A=\\frac{\\rho L}{R}=\\frac{1{,}6\\cdot10^{-8}\\cdot0{,}25}{8{,}0\\cdot10^{-3}}=5{,}0\\cdot10^{-7}\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">För ett cirkulärt tvärsnitt är \\(A=\\pi r^2\\).</p><div class=\"facit-matte\">\\[r=\\sqrt{\\frac A\\pi}=3{,}99\\cdot10^{-4}\\ \\mathrm m\\]\\[d=2r=7{,}98\\cdot10^{-4}\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trådens diameter ska vara cirka \\(0{,}80\\ \\mathrm{mm}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En rund silvertråd är 0,25 m lång och har resistansen 0,0080 Ω. Silvrets resistivitet är 1,6·10⁻⁸ Ωm.</p><p>Bestäm trådens diameter. Svara i mm.</p>",
+    "s": "<div class=\"facit-v2\"><p>Lös först ut tvärsnittsarean.</p><p>\\[\\begin{aligned}A&=\\frac{\\rho L}{R}\\\\&=\\frac{1{,}6\\cdot10^{-8}\\cdot0{,}25}{0{,}0080}\\\\&=5{,}0\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>För en rund tråd gäller \\(A=\\pi(d/2)^2\\).</p><p>\\[\\begin{aligned}d&=2\\sqrt{A/\\pi}\\\\&\\approx7{,}98\\cdot10^{-4}\\ \\mathrm m\\\\&=0{,}798\\ \\mathrm{mm}\\end{aligned}\\]</p><p>Diametern är cirka 0,80 mm.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Lös först ut tvärsnittsarean ur \\(R=\\rho L/A\\). Ledarens resistans ges av \\(R=\\rho L/A\\).</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7978845608028653,
+    "tolerans": 0.019947114020071634,
+    "självrättning": true,
+    "ledtrad": "<p>Lös först ut arean ur resistansformeln. Omvandla sedan cirkelns area till diameter.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "spel": true,
+    "manuellKomplettering": false,
+    "svarEnhet": "mm",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "8.200",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "resistans hos ledare från resistivitet",
-    "poang": "(0/2/0)",
-    "t": "<p>En kopparledning är \\(14\\,\\mathrm m\\) lång och har tvärsnittsarean \\(0{,}7\\,\\mathrm{mm^2}\\). Bestäm resistansen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ledarens resistans ges av \\(R=\\rho l/A\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tvärsnittsarean måste skrivas i \\(\\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=0{,}7\\cdot10^{-6}\\ \\mathrm{m^2}\\]\\[R=\\rho\\frac{l}{A}=0{,}336\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}336\\,\\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En koppartråd är 14 m lång och har arean 0,70 mm². Kopparns resistivitet är 1,68·10⁻⁸ Ωm.</p><p>Bestäm resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla arean: \\(0{,}70\\ \\mathrm{mm^2}=0{,}70\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><p>\\[R=\\frac{\\rho L}{A}=\\frac{1{,}68\\cdot10^{-8}\\cdot14}{0{,}70\\cdot10^{-6}}=0{,}336\\ \\Omega\\]</p><p>Resistansen är cirka 0,34 Ω.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.336,
-    "tolerans": 0.006048,
+    "tolerans": 0.008400000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kom ihåg att \\(1\\,\\mathrm{mm^2}=10^{-6}\\,\\mathrm{m^2}\\).</p>",
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.114",
@@ -95133,141 +95633,274 @@ window.BANK = [
     "id": "8.157",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En glödlampas resistans växer när tråden blir varm. Kall mäts den till 30 Ω. När lampan lyser på 230 V går strömmen 0,26 A.</p>\n<ol><li>Vilken resistans har lampan när den lyser?</li>\n<li>Hur många gånger större är den än den kalla resistansen?</li>\n<li>Vad betyder det för strömmen i det ögonblick man tänder lampan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den varma resistansen fås av driftspänning och driftström.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{varm}}=\\frac{230}{0{,}26}=884{,}6\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför med den kalla resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{R_{\\mathrm{varm}}}{R_{\\mathrm{kall}}}=\\frac{884{,}6}{30}=29{,}5\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Precis vid tillslag är glödtråden kall.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den idealiska initialströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_0=\\frac{230}{30}=7{,}67\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p>I praktiken begränsas förloppet av ledningar och uppvärmningen sker snabbt, men strömstöten förklarar varför glödlampor ofta går sönder vid tändning.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den varma resistansen är cirka \\(885\\ \\Omega\\), ungefär 30 gånger den kalla. Startströmmen kan kortvarigt närma sig \\(7{,}7\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En glödlampa har resistansen 30 Ω när den är kall. När den lyser vid 230 V är strömmen 0,26 A.</p><p>a) Bestäm lampans resistans när den lyser.</p><p>b) Hur många gånger så stor är resistansen när lampan lyser som när den är kall?</p><p>c) Uppskatta startströmmen med spänningen 230 V. Förklara också varför strömmen minskar när lampan blir varm.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>När lampan lyser är resistansen</p><p>\\[R=U/I=230/0{,}26\\approx885\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Dividera resistansen för den varma lampan med resistansen för den kalla.</p><p>\\[885/30=29{,}5\\]</p><p>Resistansen är cirka 29 gånger så stor.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Med kall resistans blir den uppskattade startströmmen</p><p>\\[I=230/30\\approx7{,}7\\ \\mathrm A\\]</p><p>När tråden värms ökar resistansen, och strömmen minskar.</p></div></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "problemlösning"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Den varma resistansen fås av driftspänning och driftström.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      884.6153846153846,
+      29.48717948717949,
+      7.666666666666667
+    ],
+    "tolerans": [
+      22.115384615384617,
+      0.7375,
+      0.19166666666666668
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En glödlampas resistans växer när tråden blir varm. Kall mäts den till 30 Ω. När lampan lyser på 230 V går strömmen 0,26 A.</p>",
+    "spelIntro": "<p>En glödlampa har resistansen 30 Ω när den är kall. När den lyser vid 230 V är strömmen 0,26 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken resistans har lampan när den lyser?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den varma resistansen fås av driftspänning och driftström.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{varm}}=\\frac{230}{0{,}26}=884{,}6\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(884{,}6\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Den varma resistansen fås av driftspänning och driftström.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En lampa har spänningen 230 V och strömmen 0,26 A när den lyser. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>När lampan lyser är resistansen</p><p>\\[R=U/I=230/0{,}26\\approx885\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 884.6153846153846,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 22.115384615384617,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En lampa har spänningen 230 V och strömmen 0,26 A när den lyser. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur många gånger större är den än den kalla resistansen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför med den kalla resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{R_{\\mathrm{varm}}}{R_{\\mathrm{kall}}}=\\frac{884{,}6}{30}=29{,}5\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29{,}5\\).</p></div>",
-        "ledtrad": "<p>Den varma resistansen fås av driftspänning och driftström.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En lampa har resistansen 885 Ω när den lyser och 30 Ω när den är kall. Hur många gånger så stor är den varma resistansen?",
+        "s": "<div class=\"facit-v2\"><p>Dividera resistansen för den varma lampan med resistansen för den kalla.</p><p>\\[885/30=29{,}5\\]</p><p>Resistansen är cirka 29 gånger så stor.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 29.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.7375,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera den varma lampans resistans med den kalla lampans resistans.</p>",
+        "t": "<p>En lampa har resistansen 885 Ω när den lyser och 30 Ω när den är kall. Hur många gånger så stor är den varma resistansen?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad betyder det för strömmen i det ögonblick man tänder lampan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Precis vid tillslag är glödtråden kall.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den idealiska initialströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_0=\\frac{230}{30}=7{,}67\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p>I praktiken begränsas förloppet av ledningar och uppvärmningen sker snabbt, men strömstöten förklarar varför glödlampor ofta går sönder vid tändning.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}67\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Den varma resistansen fås av driftspänning och driftström.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En kall lampa har resistansen 30 Ω. Uppskatta startströmmen med spänningen 230 V. Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>Med kall resistans blir den uppskattade startströmmen</p><p>\\[I=230/30\\approx7{,}7\\ \\mathrm A\\]</p><p>När tråden värms ökar resistansen, och strömmen minskar.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.666666666666667,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.19166666666666668,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En kall lampa har resistansen 30 Ω. Uppskatta startströmmen med spänningen 230 V. Svara i A.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Ω",
+      null,
+      "A"
+    ]
   },
   {
     "id": "8.158",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "bestämma resistans ur lutningen i ett U-I-diagram, ur diagram, sökt spänning och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>Diagrammet visar spänningen över en resistor vid olika strömmar.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Vilken spänning ligger över resistorn när strömmen är 30 mA?</li>\n<li>Bestäm resistansen med hjälp av den avläsningen.</li>\n<li>Bestäm resistansen med hjälp av grafens lutning och jämför.</li>\n<li>Vad betyder det att grafen är en rät linje genom origo?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Av grafen avläses vid 30 mA</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=3{,}0\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med denna punkt fås</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{3{,}0}{0{,}030}=100\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grafens lutning kan tas mellan origo och punkten 60 mA, 6,0 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{\\Delta U}{\\Delta I}=\\frac{6{,}0}{0{,}060}=100\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En rät linje genom origo betyder att \\(U/I\\) är konstant.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistorn följer alltså Ohms lag med konstant resistans i mätområdet.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vid 30 mA är spänningen \\(3{,}0\\ \\mathrm V\\). Både kvoten och grafens lutning ger \\(R=100\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Diagrammet visar spänningen över en resistor vid olika strömmar.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Spänningen ökar linjärt från 0 V vid 0 mA till 6 V vid 60 mA\" height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 310\"><rect x=\"0\" y=\"0\" width=\"500\" height=\"310\" fill=\"#fff\"/><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"78\" y=\"17\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"301\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span><p>a) Vilken spänning ligger över resistorn när strömmen är 30 mA?</p><p>b) Bestäm resistansen med hjälp av den avläsningen.</p><p>c) Bestäm resistansen med hjälp av grafens lutning och jämför med b).</p><p>d) Vad betyder det att grafen är en rät linje genom origo?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Läs av linjen vid 30 mA: spänningen är 3,0 V.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>30 mA är 0,030 A.</p><p>\\[R=U/I=3{,}0/0{,}030=100\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Använd till exempel punkterna (0 mA, 0 V) och (60 mA, 6 V).</p><p>\\[R=\\Delta U/\\Delta I=6/0{,}060=100\\ \\Omega\\]</p><p>Det stämmer med resistansen från b).</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>En rät linje genom origo betyder att spänningen är proportionell mot strömmen. Kvoten \\(U/I\\) är konstant, alltså är resistansen konstant.</p></div></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur",
       "resonemang"
     ],
     "familjNyckel": "kretsar__ohms_lag",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      100,
+      null,
+      null
+    ],
+    "tolerans": [
+      0.075,
+      2.5,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "ledtrad": "<p>Hitta 30 mA på x-axeln och läs av linjens höjd.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Diagrammet visar spänningen över en resistor vid olika strömmar.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>",
+    "spelIntro": "<p>Diagrammet visar spänningen över en resistor vid olika strömmar.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Spänningen ökar linjärt från 0 V vid 0 mA till 6 V vid 60 mA\" height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 310\"><rect x=\"0\" y=\"0\" width=\"500\" height=\"310\" fill=\"#fff\"/><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"78\" y=\"17\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"301\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken spänning ligger över resistorn när strömmen är 30 mA?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Av grafen avläses vid 30 mA</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=3{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C"
+        "fraga": "<span class=\"fig bred\"><svg role=\"img\" aria-label=\"Spänningen ökar linjärt från 0 V vid 0 mA till 6 V vid 60 mA\" height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 310\"><rect x=\"0\" y=\"0\" width=\"500\" height=\"310\" fill=\"#fff\"/><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"78\" y=\"17\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"301\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>Vilken spänning ligger över resistorn när strömmen är 30 mA? Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Läs av linjen vid 30 mA: spänningen är 3,0 V.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.07500000000000001,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hitta 30 mA på x-axeln och läs av linjens höjd.</p>",
+        "t": "<p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Spänningen ökar linjärt från 0 V vid 0 mA till 6 V vid 60 mA\" height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 310\"><rect x=\"0\" y=\"0\" width=\"500\" height=\"310\" fill=\"#fff\"/><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"78\" y=\"17\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"301\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>Vilken spänning ligger över resistorn när strömmen är 30 mA? Svara i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm resistansen med hjälp av den avläsningen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med denna punkt fås</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{3{,}0}{0{,}030}=100\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Bestäm resistansen med hjälp av grafens lutning och jämför.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grafens lutning kan tas mellan origo och punkten 60 mA, 6,0 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{\\Delta U}{\\Delta I}=\\frac{6{,}0}{0{,}060}=100\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C"
+        "fraga": "Över en resistor ligger spänningen 3,0 V när strömmen är 30 mA. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>30 mA är 0,030 A.</p><p>\\[R=U/I=3{,}0/0{,}030=100\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 100,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 2.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Över en resistor ligger spänningen 3,0 V när strömmen är 30 mA. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vad betyder det att grafen är en rät linje genom origo?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En rät linje genom origo betyder att \\(U/I\\) är konstant.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistorn följer alltså Ohms lag med konstant resistans i mätområdet.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Använd \\(U=RI\\) och lös ut den storhet som efterfrågas. Om värdena ges i mA eller kΩ, gör en konsekvent enhetsomvandling innan du räknar.</p>",
-        "niva": "C"
+        "fraga": "<span class=\"fig bred\"><svg role=\"img\" aria-label=\"Spänningen ökar linjärt från 0 V vid 0 mA till 6 V vid 60 mA\" height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 310\"><rect x=\"0\" y=\"0\" width=\"500\" height=\"310\" fill=\"#fff\"/><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"78\" y=\"17\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"301\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>Vad visar en rät linje genom origo i ett diagram med U på y-axeln och I på x-axeln?",
+        "s": "<div class=\"facit-v2\"><p>En rät linje genom origo betyder att spänningen är proportionell mot strömmen. Kvoten \\(U/I\\) är konstant, alltså är resistansen konstant.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Resistansen är konstant.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Resistansen är konstant.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Resistansen blir större när strömmen ökar.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Resistansen är noll.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>En rät linje genom origo har samma kvot U/I längs hela linjen.</p>",
+        "t": "<p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Spänningen ökar linjärt från 0 V vid 0 mA till 6 V vid 60 mA\" height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 310\"><rect x=\"0\" y=\"0\" width=\"500\" height=\"310\" fill=\"#fff\"/><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.333\" x2=\"486\" y2=\"209.333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.667\" x2=\"486\" y2=\"172.667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"267\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"78\" y=\"17\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">U (V)</text><text x=\"486\" y=\"301\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">I (mA)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>Vad visar en rät linje genom origo i ett diagram med U på y-axeln och I på x-axeln?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      "V",
+      "Ω",
+      null,
+      null
+    ]
   },
   {
     "id": "8.201",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "typ": "skalning av ledarresistans",
-    "poang": "(0/1/2)",
-    "t": "<p>Två ledare är gjorda av samma material. Ledare B är \\(3\\) gånger så lång som ledare A och har \\(0{,}75\\) gånger så stor tvärsnittsarea. Bestäm kvoten \\(R_B/R_A\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För samma material gäller \\(R\\propto l/A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{R_B}{R_A}=\\frac{l_B/l_A}{A_B/A_A}=\\frac{3}{0{,}75}=4\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Två trådar är av samma material. Tråd B är tre gånger så lång som tråd A och har 75 % av A:s tvärsnittsarea.</p><p>Hur många gånger så stor är B:s resistans som A:s?</p>",
+    "s": "<div class=\"facit-v2\"><p>För samma material gäller \\(R\\propto L/A\\).</p><p>\\[\\frac{R_B}{R_A}=\\frac{3}{0{,}75}=4\\]</p><p>Tråd B har fyra gånger så stor resistans.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.072,
+    "tolerans": 0.1,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Resistansen ökar med längden men minskar med tvärsnittsarean.</p>",
+    "ledtrad": "<p>Jämför längderna och areorna var för sig i \\(R=\\rho L/A\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.159",
@@ -108414,7 +109047,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En resistor på 30 Ω kopplas till spänningen 12 V.</p><p>Hur stor ström går genom resistorn?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag är \\(U=RI\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom strömmen söks delar vi båda led med \\(R\\): \\(I=U/R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12\\ \\mathrm V}{30\\ \\Omega}=0{,}40\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-not\">Kontroll: \\(\\mathrm V/\\Omega=\\mathrm A\\), alltså får vi rätt enhet för ström.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm A\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Strömmen fås genom att dividera spänningen med resistansen.</p><p>\\[I=\\frac{U}{R}=\\frac{12}{30}=0{,}40\\ \\mathrm A\\]</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
@@ -108428,7 +109061,7 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "ledtrad": "<p>Ohms lag är \\(U=RI\\). Eftersom strömmen söks delar vi båda led med \\(R\\): \\(I=U/R\\).</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -108454,8 +109087,8 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "ledtrad": "<p>Ur Ohms lag \\(U=RI\\) får vi resistansen genom att dividera med strömmen: \\(R=U/I\\).</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -108492,27 +109125,28 @@ window.BANK = [
     "id": "8.177",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En kopparledning är 20 m lång och har tvärsnittsarean 2,5 mm². Kopparns resistivitet är \\(1{,}72\\cdot10^{-8}\\ \\Omega\\mathrm m\\).</p><p>Bestäm ledningens resistans.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en homogen ledare gäller \\(R=\\rho L/A\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Resistiviteten är given i SI-enheter, så tvärsnittsarean måste först skrivas i \\(\\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2{,}5\\ \\mathrm{mm^2}=2{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{1{,}72\\cdot10^{-8}\\cdot20}{2{,}5\\cdot10^{-6}}=0{,}1376\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-not\">Det viktiga enhetssteget är att \\(1\\ \\mathrm{mm^2}=10^{-6}\\ \\mathrm{m^2}\\), eftersom längdomvandlingen ska kvadreras.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(0{,}138\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En koppartråd är 20 m lång och har arean 2,5 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p><p>Bestäm trådens resistans i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Arean är \\(2{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><p>\\[\\begin{aligned}R&=\\frac{\\rho L}{A}\\\\&=\\frac{1{,}72\\cdot10^{-8}\\cdot20}{2{,}5\\cdot10^{-6}}\\\\&=0{,}1376\\ \\Omega\\end{aligned}\\]</p><p>Resistansen är cirka 0,14 Ω.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.138,
-    "tolerans": 0.003,
+    "rättSvar": 0.13759999999999997,
+    "tolerans": 0.0034399999999999995,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "ledtrad": "<p>För en homogen ledare gäller \\(R=\\rho L/A\\). Resistiviteten är given i SI-enheter, så tvärsnittsarean måste först skrivas i \\(\\mathrm{m^2}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.178",
@@ -108524,7 +109158,6 @@ window.BANK = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(R=\\rho L/A\\) ger dubbla längden faktorn 2 och halva arean ytterligare faktorn 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{R_2}{R_1}=2\\cdot2=4\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resistansen blir 4 gånger så stor.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
@@ -108535,7 +109168,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Eftersom \\(R=\\rho L/A\\) ger dubbla längden faktorn 2 och halva arean ytterligare faktorn 2.</p>",
+    "ledtrad": "<p>I \\(R=\\rho L/A\\) står längden i täljaren och arean i nämnaren. Jämför deras förändringar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -108662,37 +109295,37 @@ window.BANK = [
     "id": "8.179",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En resistor kopplas till 6,0 V och då går strömmen 0,20 A. Spänningen ökas till 9,0 V och resistorns temperatur antas oförändrad.</p><p>Hur stor blir strömmen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först resistansen med Ohms lag.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma resistor har samma resistans när temperaturen antas oförändrad.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{6{,}0}{0{,}20}=30\\ \\Omega\\]\\[I=\\frac{9{,}0}{30}=0{,}30\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En resistor har strömmen 0,20 A vid spänningen 6,0 V. Spänningen höjs till 9,0 V och resistansen ändras inte.</p><p>Vad blir strömmen i A?</p>",
+    "s": "<div class=\"facit-v2\"><p>Bestäm resistansen från de första värdena.</p><p>\\[R=6{,}0/0{,}20=30\\ \\Omega\\]</p><p>Använd sedan den nya spänningen med samma resistans.</p><p>\\[I=9{,}0/30=0{,}30\\ \\mathrm A\\]</p></div>",
     "familj": "Ohms lag",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
     "rättSvar": 0.3,
-    "tolerans": 0.01,
+    "tolerans": 0.0075,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "miniräknare": true,
     "geogebra": false,
     "svarEnhet": "A",
-    "ledtrad": "<p>Bestäm först resistansen med Ohms lag. Samma resistor har samma resistans när temperaturen antas oförändrad.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Resistansen är densamma i båda fallen. Använd Ohms lag.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.180",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En komponent ska ha strömmen 75 mA när den ansluts till 12 V.</p><p>Vilken resistans behöver komponenten ha?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla först 75 mA till 0,075 A och lös sedan ut resistansen ur Ohms lag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{12}{0{,}075}=160\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En komponent har strömmen 75 mA vid spänningen 12 V.</p><p>Bestäm resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla strömmen: \\(75\\ \\mathrm{mA}=0{,}075\\ \\mathrm A\\).</p><p>\\[R=U/I=12/0{,}075=160\\ \\Omega\\]</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
@@ -108700,220 +109333,217 @@ window.BANK = [
     "familjNyckel": "kretsar__ohms_lag",
     "svarstyp": "numeriskt",
     "rättSvar": 160,
-    "tolerans": 2.4,
+    "tolerans": 4.0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "miniräknare": true,
     "geogebra": false,
     "svarEnhet": "Ω",
-    "ledtrad": "<p>Omvandla först 75 mA till 0,075 A och lös sedan ut resistansen ur Ohms lag.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Omvandla först strömmen till ampere och använd sedan Ohms lag.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "8.204",
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "typ": "resistansskalning när en tråd dras ut med konstant volym",
-    "poang": "(0/1/2)",
-    "t": "<p>En metalltråd med samma tjocklek överallt dras ut så att dess längd blir dubbelt så stor, medan materialets volym är oförändrad. Materialets resistivitet ändras inte. Med vilken faktor ändras trådens resistans?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När längden dubblas vid konstant volym måste tvärsnittsarean halveras.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd sedan \\(R=\\rho L/A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{R_2}{R_1}=\\frac{(2L)/(A/2)}{L/A}=4\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resistansen blir \\(4\\) gånger så stor.</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En metalltråd sträcks så att längden blir dubbelt så stor. Trådens volym och materialets resistivitet är oförändrade.</p><p>Hur många gånger så stor blir resistansen?</p>",
+    "s": "<div class=\"facit-v2\"><p>Volymen är \\(V=AL\\). När längden dubblas med samma volym måste arean halveras.</p><p>Dubbel längd och halv area ger:</p><p>\\[R_{\\text{ny}}=\\rho\\frac{2L}{A/2}=4\\rho\\frac LA=4R\\]</p><p>Resistansen blir fyra gånger så stor.</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "kretsar__resistans_resistivitet_och_geometrisk_skalning",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.072,
+    "tolerans": 0.1,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd både volymvillkoret \\(AL=\\text{konstant}\\) och \\(R=\\rho L/A\\).</p>",
+    "ledtrad": "<p>Börja med volymen \\(V=AL\\). Hur måste arean ändras när längden dubblas?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "silvertråd",
     "poang": "(1/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Silver har resistiviteten \\(1{,}6\\cdot10^{-8}\\) Ωm. Bestäm resistansen hos en 8,0 m lång silvertråd med diametern 0,10 mm.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi\\cdot0{,}050\\cdot10^{-3\\,2}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{1{,}6\\cdot10^{-8}\\cdot8{,}0}{A}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\) Ω</p></div>",
+    "t": "<p>En silvertråd är 8,0 m lång och har diametern 0,10 mm. Silvrets resistivitet är 1,6·10⁻⁸ Ωm.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"260\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Silvertrådens runda tvärsnitt med diametern 0,10 mm\"><rect width=\"500\" height=\"260\" fill=\"#fff\"/><circle cx=\"250\" cy=\"135\" r=\"80\" fill=\"#e6eff7\" stroke=\"#305777\" stroke-width=\"2\"/><path d=\"M170 135 H330\" stroke=\"#305777\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"135\" r=\"3\" fill=\"#305777\"/><text x=\"250\" y=\"38\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">diameter 0,10 mm</text><text x=\"250\" y=\"241\" text-anchor=\"middle\" font-size=\"18\" fill=\"#243747\">Trådens tvärsnitt</text></svg></div><p>Bestäm trådens resistans i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Radien är halva diametern: \\(r=0{,}050\\ \\mathrm{mm}=5{,}0\\cdot10^{-5}\\ \\mathrm m\\).</p><p>\\[A=\\pi(5{,}0\\cdot10^{-5})^2\\approx7{,}85\\cdot10^{-9}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\frac{1{,}6\\cdot10^{-8}\\cdot8{,}0}{A}\\approx16{,}3\\ \\Omega\\]</p><p>Resistansen är cirka 16 Ω.</p></div>",
     "id": "8.410",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 16.297466172610083,
-    "tolerans": 0.51,
+    "tolerans": 0.4074366543152521,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Arean är \\(\\pi r^2\\).</p>",
+    "ledtrad": "<p>Diametern måste halveras för att få radien. Beräkna arean i m² före resistansen.</p>",
     "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "resistivitet för järn",
     "poang": "(1/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En 15,0 m lång järntråd med tvärsnittsarean 0,50 mm² har resistansen 3,0 Ω. Bestäm järnets resistivitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{RA}{l}=\\dfrac{3{,}0\\cdot0{,}50\\cdot10^{-6}}{15{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-7}\\) Ωm</p></div>",
+    "t": "<p>En järntråd är 15,0 m lång, har arean 0,50 mm² och resistansen 3,0 Ω.</p><p>Bestäm järnets resistivitet. Svara i Ωm.</p>",
+    "s": "<div class=\"facit-v2\"><p>Arean är \\(0{,}50\\cdot10^{-6}\\ \\mathrm{m^2}\\). Lös ut resistiviteten ur \\(R=\\rho L/A\\).</p><p>\\[\\begin{aligned}\\rho&=\\frac{RA}{L}\\\\&=\\frac{3{,}0\\cdot0{,}50\\cdot10^{-6}}{15{,}0}\\\\&=1{,}0\\cdot10^{-7}\\ \\Omega\\mathrm m\\end{aligned}\\]</p></div>",
     "id": "8.411",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.0000000000000001e-07,
-    "tolerans": 5.1e-09,
+    "rättSvar": 1e-07,
+    "tolerans": 2.5e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ut \\(\\rho\\).</p>",
+    "ledtrad": "<p>Lös ut resistiviteten och omvandla arean till m².</p>",
     "traningsniva": 2,
     "svarEnhet": "Ωm",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "längd på kopparledare",
     "poang": "(1/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Hur lång ska en kopparledare med diametern 0,40 mm vara för att få resistansen 10 Ω?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[l=\\dfrac{RA}{\\rho}=\\dfrac{10\\cdot\\pi\\cdot0{,}20\\cdot10^{-3\\,2}}{1{,}7\\cdot10^{-8}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74\\) m</p></div>",
+    "t": "<p>En rund koppartråd har diametern 0,40 mm och ska ha resistansen 10 Ω. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Hur lång behöver tråden vara? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>Radien är 0,20 mm = 2,0·10⁻⁴ m.</p><p>\\[\\begin{aligned}A&=\\pi(2{,}0\\cdot10^{-4})^2\\\\&\\approx1{,}26\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Lös ut längden i resistansformeln.</p><p>\\[\\begin{aligned}L&=RA/\\rho\\\\&=\\frac{10\\cdot\\pi(2{,}0\\cdot10^{-4})^2}{1{,}7\\cdot10^{-8}}\\\\&\\approx73{,}9\\ \\mathrm m\\end{aligned}\\]</p><p>Tråden behöver vara cirka 74 m lång.</p></div>",
     "id": "8.412",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 73.91982714328925,
-    "tolerans": 1.11,
+    "tolerans": 1.8479956785822313,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ut \\(l\\).</p>",
+    "ledtrad": "<p>Bestäm först arean från diametern och lös sedan ut L i resistansformeln.</p>",
     "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "kort koppartråd",
     "poang": "(1/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Vilken resistans har en 5,4 m lång koppartråd med diametern 1,5 mm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot5{,}4}{\\pi\\cdot0{,}75\\cdot10^{-3\\,2}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}052\\) Ω</p></div>",
+    "t": "<p>En koppartråd är 5,4 m lång och har diametern 1,5 mm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Bestäm resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Radien är 0,75 mm = 7,5·10⁻⁴ m.</p><p>\\[A=\\pi(7{,}5\\cdot10^{-4})^2\\approx1{,}77\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\frac{1{,}7\\cdot10^{-8}\\cdot5{,}4}{A}\\approx0{,}0519\\ \\Omega\\]</p><p>Resistansen är cirka 0,052 Ω.</p></div>",
     "id": "8.413",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.051948173425194644,
-    "tolerans": 0.000779,
+    "tolerans": 0.0012987043356298663,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(R=\\rho\\dfrac lA\\).</p>",
+    "ledtrad": "<p>Bestäm radien och arean innan du använder resistansformeln.</p>",
     "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "diameter på volframtråd",
     "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Volfram har resistiviteten \\(5{,}5\\cdot10^{-8}\\) Ωm. Vilken diameter har en 1,00 m lång volframtråd med resistansen 0,32 Ω?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\rho l}{R}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\sqrt{\\dfrac A\\pi}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00047\\) m</p></div>",
+    "t": "<p>En rund volframtråd är 1,00 m lång och har resistansen 0,32 Ω. Volframs resistivitet är 5,5·10⁻⁸ Ωm.</p><p>Vilken diameter har tråden? Svara i mm.</p>",
+    "s": "<div class=\"facit-v2\"><p>Lös först ut arean ur resistansformeln.</p><p>\\[\\begin{aligned}A&=\\frac{\\rho L}{R}\\\\&=\\frac{5{,}5\\cdot10^{-8}\\cdot1{,}00}{0{,}32}\\\\&\\approx1{,}72\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Cirkelns area ger diametern:</p><p>\\[\\begin{aligned}d&=2\\sqrt{A/\\pi}\\\\&\\approx0{,}468\\ \\mathrm{mm}\\end{aligned}\\]</p><p>Diametern är cirka 0,47 mm.</p></div>",
     "id": "8.414",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0004678012898136944,
-    "tolerans": 7.02e-06,
+    "rättSvar": 0.4678012898136944,
+    "tolerans": 0.01169503224534236,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm arean först.</p>",
+    "ledtrad": "<p>Bestäm arean från resistansen. För en cirkel är diametern \\(2\\sqrt{A/\\pi}\\).</p>",
     "traningsniva": 3,
-    "svarEnhet": "m",
+    "svarEnhet": "mm",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "kvot mellan två trådar",
     "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>Bestäm kvoten mellan resistanserna hos en aluminiumtråd (10,0 m, diameter 2,2 mm) och en koppartråd (24,0 m, diameter 1,8 mm).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{R_{Al}}{R_{Cu}}=\\dfrac{2{,}7\\cdot10{,}0/2{,}2^2}{1{,}7\\cdot24{,}0/1{,}8^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}44\\) </p></div>",
+    "t": "<p>En aluminiumtråd är 10,0 m lång och har diametern 2,2 mm. En koppartråd är 24,0 m lång och har diametern 1,8 mm. Resistiviteten är 2,7·10⁻⁸ Ωm för aluminium och 1,7·10⁻⁸ Ωm för koppar.</p><p>Hur många procent av koppartrådens resistans är aluminiumtrådens resistans?</p>",
+    "s": "<div class=\"facit-v2\"><p>Beräkna först resistansen för varje tråd. Radierna är 1,1 mm och 0,90 mm.</p><p>\\[R_{\\mathrm{Al}}=\\frac{2{,}7\\cdot10^{-8}\\cdot10{,}0}{\\pi(1{,}1\\cdot10^{-3})^2}\\approx0{,}0710\\ \\Omega\\]</p><p>\\[R_{\\mathrm{Cu}}=\\frac{1{,}7\\cdot10^{-8}\\cdot24{,}0}{\\pi(0{,}90\\cdot10^{-3})^2}\\approx0{,}160\\ \\Omega\\]</p><p>Dividera aluminiumtrådens resistans med koppartrådens och multiplicera med 100.</p><p>\\[100\\frac{R_{\\mathrm{Al}}}{R_{\\mathrm{Cu}}}\\approx44{,}3\\ \\%\\]</p><p>Aluminiumtrådens resistans är cirka 44 % av koppartrådens.</p></div>",
     "id": "8.415",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.4429995138551288,
-    "tolerans": 0.00664,
+    "rättSvar": 44.29995138551288,
+    "tolerans": 1.107498784637822,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Arean är proportionell mot \\(d^2\\).</p>",
+    "ledtrad": "<p>Beräkna trådarnas areor och resistanser var för sig. Vilken resistans ska procenttalet jämföras med?</p>",
     "traningsniva": 3,
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "%",
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "dela en tråd",
     "poang": "(2/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p><ol type=\"a\"><li>Hur stor resistans får den längre delen?</li><li>Hur stor resistans får den kortare delen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Resistansen är proportionell mot längden: \\(\\dfrac34\\cdot15{,}0\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}25\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac14\\cdot15{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}75\\) Ω</p></li></ol></div>",
+    "t": "<p>En tråd med resistansen 15,0 Ω delas i två delar. Den ena delen har tre gånger så stor resistans som den andra.</p><p>a) Hur stor resistans har den längre delen?</p><p>b) Hur stor resistans har den kortare delen?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>För samma tråd är resistansen proportionell mot längden. Förhållandet 3:1 ger totalt fyra lika stora delar.</p><p>\\[R_{\\text{lång}}=\\frac34\\cdot15{,}0=11{,}25\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den kortare delen motsvarar en av de fyra lika stora delarna.</p><p>\\[R_{\\text{kort}}=\\frac14\\cdot15{,}0=3{,}75\\ \\Omega\\]</p></div></div>",
     "id": "8.416",
     "miniräknare": true,
     "geogebra": false,
@@ -108924,10 +109554,13 @@ window.BANK = [
       3.75
     ],
     "tolerans": [
-      0.169,
-      0.0562
+      0.28125,
+      0.09375
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "begrepp"
     ],
@@ -108945,185 +109578,196 @@ window.BANK = [
       "Ω"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p>",
+    "spelIntro": "<p>En tråd med resistansen 15,0 Ω delas i två delar. Den ena delen har tre gånger så stor resistans som den andra.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor resistans får den längre delen?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p><p>Hur stor resistans får den längre delen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Resistansen är proportionell mot längden: \\(\\dfrac34\\cdot15{,}0\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}25\\) Ω</p></div>",
-        "ledtrad": "<p>Dela i fem lika stora delar.</p>",
+        "fraga": "<p>En tråd med resistansen 15,0 Ω delas i två delar. Den ena delen har tre gånger så stor resistans som den andra.</p>Hur stor resistans har den längre delen? Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>För samma tråd är resistansen proportionell mot längden. Förhållandet 3:1 ger totalt fyra lika stora delar.</p><p>\\[R_{\\text{lång}}=\\frac34\\cdot15{,}0=11{,}25\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 11.25,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.28125,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Delarnas resistanser har förhållandet 3:1. Hur många lika stora delar består summan av?</p>",
+        "t": "<p><p>En tråd med resistansen 15,0 Ω delas i två delar. Den ena delen har tre gånger så stor resistans som den andra.</p>Hur stor resistans har den längre delen? Svara i Ω.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor resistans får den kortare delen?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En koppartråd har resistansen 15,0 Ω. Den delas i två delar så att den ena har tre gånger så stor resistans som den andra.</p><p>Hur stor resistans får den kortare delen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac14\\cdot15{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}75\\) Ω</p></div>",
-        "ledtrad": "<p>Summan är 15,0 Ω.</p>",
+        "fraga": "<p>En tråd med resistansen 15,0 Ω delas i två delar. Den ena delen har tre gånger så stor resistans som den andra.</p>Hur stor resistans har den kortare delen? Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Den kortare delen motsvarar en av de fyra lika stora delarna.</p><p>\\[R_{\\text{kort}}=\\frac14\\cdot15{,}0=3{,}75\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.75,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.09375,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Delarnas resistanser har förhållandet 3:1 och summan är 15,0 Ω.</p>",
+        "t": "<p><p>En tråd med resistansen 15,0 Ω delas i två delar. Den ena delen har tre gånger så stor resistans som den andra.</p>Hur stor resistans har den kortare delen? Svara i Ω.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(R\\sim l\\).</p>",
+    "ledtrad": "<p>Delarnas resistanser har förhållandet 3:1. Hur många lika stora delar består summan av?</p>",
     "traningsniva": 2,
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "smält och dragen tråd",
     "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En metalltråd har resistansen 21,0 Ω. Den smälts ned, och av samma volym görs en tråd som är tre gånger så lång. Vilken resistans får den nya tråden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Tre gånger längden och en tredjedel av arean: \\(R=21{,}0\\cdot3\\cdot3\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(189\\) Ω</p></div>",
+    "t": "<p>En metalltråd har resistansen 21,0 Ω. Av samma metall och samma volym görs en ny tråd som är tre gånger så lång. Resistiviteten är oförändrad.</p><p>Vilken resistans får den nya tråden? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Volymen är \\(V=AL\\). Tre gånger så stor längd med samma volym ger en tredjedel så stor area.</p><p>Resistansen ändras både av längden och arean:</p><p>\\[R_{\\text{ny}}=21{,}0\\cdot\\frac{3}{1/3}=189\\ \\Omega\\]</p></div>",
     "id": "8.417",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 189,
-    "tolerans": 2.83,
+    "tolerans": 4.7250000000000005,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Volymen är \\(lA\\).</p>",
+    "ledtrad": "<p>Samma volym betyder samma produkt AL. Bestäm först hur arean ändras.</p>",
     "traningsniva": 3,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "aluminium mot koppar",
     "poang": "(1/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>Två ledare är lika långa och lika tjocka. Aluminiumledaren har resistansen 0,20 Ω. Vilken resistans har kopparledaren?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=0{,}20\\cdot\\dfrac{1{,}7}{2{,}7}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}13\\) Ω</p></div>",
+    "t": "<p>Två trådar har samma längd och tvärsnittsarea. Aluminiumtråden har resistansen 0,20 Ω. Resistiviteten är 2,7·10⁻⁸ Ωm för aluminium och 1,7·10⁻⁸ Ωm för koppar.</p><p>Vilken resistans har koppartråden? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Med samma längd och area är resistansen proportionell mot materialets resistivitet. Kopparns lägre resistivitet ger därför lägre resistans.</p><p>\\[R_{\\mathrm{Cu}}=0{,}20\\cdot\\frac{1{,}7}{2{,}7}\\approx0{,}126\\ \\Omega\\]</p><p>Koppartrådens resistans är cirka 0,13 Ω.</p></div>",
     "id": "8.418",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.1259259259259259,
-    "tolerans": 0.0051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(R\\sim\\rho\\).</p>",
+    "ledtrad": "<p>I resistansformeln är längden och arean lika för de två trådarna. Jämför därför bara resistiviteterna.</p>",
     "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "tråd som sträcks ut",
     "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En tråd har resistansen 0,010 Ω. Den sträcks ut till dubbla längden utan att volymen ändras. Hur stor blir resistansen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dubbla längden och halva arean: fyra gånger resistansen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}040\\) Ω</p></div>",
+    "t": "<p>En metalltråd har resistansen 0,010 Ω. Den sträcks till dubbla längden. Volymen och resistiviteten är oförändrade.</p><p>Hur stor blir resistansen i Ω?</p>",
+    "s": "<div class=\"facit-v2\"><p>Volymen \\(V=AL\\) är samma. Dubbelt så stor längd innebär därför halva tvärsnittsarean.</p><p>Dubbel längd ökar resistansen med faktor 2. Halv area ger ytterligare faktor 2.</p><p>\\[R_{\\text{ny}}=0{,}010\\cdot2\\cdot2=0{,}040\\ \\Omega\\]</p></div>",
     "id": "8.419",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.04,
-    "tolerans": 0.0006,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Volymen är \\(lA\\).</p>",
+    "ledtrad": "<p>Börja med volymvillkoret V=AL. Bestäm hur både längd och area påverkar resistansen.</p>",
     "traningsniva": 3,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "resistivitet för majsblad",
     "poang": "(1/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Ett 20 cm långt majsblad med bredden 2,5 cm och tjockleken 0,20 mm har resistansen 2,0 MΩ på längden. Beräkna bladets resistivitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\rho=\\dfrac{RA}{l}=\\dfrac{2{,}0\\cdot10^6\\cdot0{,}025\\cdot0{,}20\\cdot10^{-3}}{0{,}20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\) Ωm</p></div>",
+    "t": "<p>Ett majsblad är 20 cm långt, 2,5 cm brett och 0,20 mm tjockt. Resistansen längs bladet är 2,0 MΩ.</p><p>Beräkna bladets resistivitet. Svara i Ωm.</p>",
+    "s": "<div class=\"facit-v2\"><p>Strömmen går längs bladet. Tvärsnittsarean är därför bredd gånger tjocklek, inte längd gånger bredd.</p><p>\\[\\begin{aligned}A&=0{,}025\\cdot0{,}00020\\\\&=5{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Längden är 0,20 m och resistansen 2,0·10⁶ Ω.</p><p>\\[\\begin{aligned}\\rho&=\\frac{RA}{L}\\\\&=\\frac{2{,}0\\cdot10^6\\cdot5{,}0\\cdot10^{-6}}{0{,}20}\\\\&=50\\ \\Omega\\mathrm m\\end{aligned}\\]</p></div>",
     "id": "8.420",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 50.0,
-    "tolerans": 0.75,
+    "rättSvar": 50,
+    "tolerans": 1.25,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ut \\(\\rho\\).</p>",
+    "ledtrad": "<p>Vilken yta går strömmen igenom när den går längs bladet? Beräkna bredd gånger tjocklek.</p>",
     "traningsniva": 2,
     "svarEnhet": "Ωm",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "högspänningsledning",
     "poang": "(1/0/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En högspänningsledning av aluminium har tvärsnittsarean 4,9 cm². Hur stor resistans har 10,0 km av ledningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{2{,}7\\cdot10^{-8}\\cdot10{,}0\\cdot10^3}{4{,}9\\cdot10^{-4}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}55\\) Ω</p></div>",
+    "t": "<p>En aluminiumledning har tvärsnittsarean 4,9 cm². Aluminiumets resistivitet är 2,7·10⁻⁸ Ωm.</p><p>Hur stor resistans har 10,0 km av ledningen? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla längd och area:</p><p>\\[\\begin{aligned}L&=10{,}0\\ \\mathrm{km}\\\\&=10000\\ \\mathrm m\\end{aligned}\\]</p><p>\\[\\begin{aligned}A&=4{,}9\\ \\mathrm{cm^2}\\\\&=4{,}9\\cdot10^{-4}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=\\rho L/A\\\\&=\\frac{2{,}7\\cdot10^{-8}\\cdot10000}{4{,}9\\cdot10^{-4}}\\\\&\\approx0{,}551\\ \\Omega\\end{aligned}\\]</p><p>Resistansen är cirka 0,55 Ω.</p></div>",
     "id": "8.421",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5510204081632654,
-    "tolerans": 0.00827,
+    "tolerans": 0.013775510204081635,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Omvandla till m².</p>",
+    "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
     "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "kopparrör",
     "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Ett 10,0 m långt kopparrör har innerdiametern 3,00 cm och ytterdiametern 5,00 cm. Bestäm resistansen längs röret.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi(0{,}0250^2-0{,}0150^2)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot10{,}0}{A}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00014\\) Ω</p></div>",
+    "t": "<p>Ett kopparrör är 10,0 m långt. Innerdiametern är 3,00 cm och ytterdiametern 5,00 cm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"280\" viewBox=\"0 0 500 280\" role=\"img\" aria-label=\"Kopparrörets cirkulära tvärsnitt med ytterdiametern 5,00 cm och innerdiametern 3,00 cm\"><rect width=\"500\" height=\"280\" fill=\"#fff\"/><circle cx=\"250\" cy=\"120\" r=\"90\" fill=\"#f2d8be\" stroke=\"#8e5f39\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"120\" r=\"54\" fill=\"#fff\" stroke=\"#8e5f39\" stroke-width=\"2\"/><path d=\"M160 120 V24 M340 120 V24 M160 24 H340 M196 120 H304\" fill=\"none\" stroke=\"#305777\" stroke-width=\"2\"/><text x=\"250\" y=\"18\" text-anchor=\"middle\" font-size=\"18\" fill=\"#243747\">5,00 cm</text><text x=\"250\" y=\"148\" text-anchor=\"middle\" font-size=\"18\" fill=\"#243747\">3,00 cm</text><text x=\"250\" y=\"258\" text-anchor=\"middle\" font-size=\"17\" fill=\"#243747\">Tvärsnitt: koppar i den färgade ringen</text></svg></div><p>Bestäm resistansen längs röret. Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Strömmen går genom kopparringen. Ytterradien är 0,0250 m och innerradien 0,0150 m. Subtrahera hålets area från hela cirkelns area.</p><p>\\[\\begin{aligned}A&=\\pi(0{,}0250^2-0{,}0150^2)\\\\&\\approx1{,}26\\cdot10^{-3}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=\\frac{1{,}7\\cdot10^{-8}\\cdot10{,}0}{A}\\\\&\\approx1{,}35\\cdot10^{-4}\\ \\Omega\\end{aligned}\\]</p><p>Resistansen är cirka 0,00014 Ω, eller 0,14 mΩ.</p></div>",
     "id": "8.422",
     "miniräknare": true,
     "geogebra": false,
@@ -109133,67 +109777,69 @@ window.BANK = [
     "tolerans": 5.1e-06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tvärsnittet är en ring.</p>",
+    "ledtrad": "<p>Tvärsnittsarean består av en stor cirkel minus hålets cirkel. Beräkna deras radier i meter.</p>",
     "traningsniva": 3,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "tråd i sex delar",
-    "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En tråd med resistansen 48 Ω delas i sex lika stora delar som läggs ihop till en tjock tråd. Hur stor resistans får den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Varje del har 8,0 Ω, och sex parallella delar ger \\(\\dfrac{8{,}0}{6}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\) Ω</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En tråd med resistansen 48 Ω delas i sex lika långa delar. Delarna parallellkopplas: alla deras första ändar kopplas ihop och alla deras andra ändar kopplas ihop.</p><p>Vilken blir den sammanlagda resistansen? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Varje del har en sjättedel av ursprungstrådens längd och därför en sjättedel av resistansen.</p><p>\\[R_{\\text{del}}=48/6=8{,}0\\ \\Omega\\]</p><p>Sex likadana resistanser i parallell har en sjättedel av en dels resistans.</p><p>\\[R_{\\text{tot}}=8{,}0/6\\approx1{,}33\\ \\Omega\\]</p><p>Den sammanlagda resistansen är cirka 1,3 Ω.</p></div>",
     "id": "8.423",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 1.3333333333333333,
-    "tolerans": 0.051,
+    "tolerans": 0.03333333333333333,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Delarna fungerar som parallellkopplade.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Bestäm först resistansen i en del. Hur kombineras sedan sex lika resistanser i parallell?</p>",
+    "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "typ": "tråd av ett gram koppar",
-    "poang": "(0/2/2)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p><ol type=\"a\"><li>Hur lång ska tråden vara?</li><li>Vilken diameter får den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(V=lA\\) och \\(R=\\rho\\dfrac{l^2}{V}\\iff l=\\sqrt{\\dfrac{RV}{\\rho}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}56\\) m</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{V}{l}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\sqrt{\\dfrac A\\pi}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000235\\) m</p></li></ol></div>",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Av 1,00 g koppar görs en rund tråd med resistansen 1,00 Ω. Kopparns densitet är 8,96 g/cm³ och resistiviteten 1,7·10⁻⁸ Ωm.</p><p>a) Hur lång blir tråden? Svara i m.</p><p>b) Vilken diameter får tråden? Svara i mm.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Massan och densiteten ger kopparns volym.</p><p>\\[\\begin{aligned}V&=m/\\rho_m\\\\&=1{,}00/8{,}96\\\\&\\approx0{,}1116\\ \\mathrm{cm^3}\\\\&=1{,}116\\cdot10^{-7}\\ \\mathrm{m^3}\\end{aligned}\\]</p><p>I tråden gäller \\(V=AL\\), alltså \\(A=V/L\\). Sätt det i resistansformeln:</p><p>\\[R=\\rho L^2/V\\]</p><p>Lös ut längden:</p><p>\\[\\begin{aligned}L&=\\sqrt{RV/\\rho}\\\\&\\approx2{,}56\\ \\mathrm m\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Volymen är area gånger längd. Därför är arean</p><p>\\[\\begin{aligned}A&=V/L\\\\&=\\frac{1{,}116\\cdot10^{-7}}{2{,}56}\\\\&\\approx4{,}36\\cdot10^{-8}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Cirkelns area ger diametern:</p><p>\\[\\begin{aligned}d&=2\\sqrt{A/\\pi}\\\\&\\approx0{,}236\\ \\mathrm{mm}\\end{aligned}\\]</p></div></div>",
     "id": "8.424",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2.562250192783712,
-      0.00023549966151202378
+      2.5622501927837114,
+      0.23549966151202378
     ],
     "tolerans": [
-      0.0384,
-      3.53e-06
+      0.06405625481959279,
+      0.00588988998216958
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "problemlösning"
     ],
@@ -109208,326 +109854,335 @@ window.BANK = [
     ],
     "svarEnhet": [
       "m",
-      "m"
+      "mm"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p>",
+    "spelIntro": "<p>Av 1,00 g koppar görs en rund tråd med resistansen 1,00 Ω. Kopparns densitet är 8,96 g/cm³ och resistiviteten 1,7·10⁻⁸ Ωm.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur lång ska tråden vara?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p><p>Hur lång ska tråden vara?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(V=lA\\) och \\(R=\\rho\\dfrac{l^2}{V}\\iff l=\\sqrt{\\dfrac{RV}{\\rho}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}56\\) m</p></div>",
-        "ledtrad": "<p>Uttryck arean med volymen.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Av 1,00 g koppar görs en tråd med resistansen 1,00 Ω. Densiteten är 8,96 g/cm³ och resistiviteten 1,7·10⁻⁸ Ωm. Hur lång blir tråden? Svara i m.",
+        "s": "<div class=\"facit-v2\"><p>Massan och densiteten ger kopparns volym.</p><p>\\[\\begin{aligned}V&=m/\\rho_m\\\\&=1{,}00/8{,}96\\\\&\\approx0{,}1116\\ \\mathrm{cm^3}\\\\&=1{,}116\\cdot10^{-7}\\ \\mathrm{m^3}\\end{aligned}\\]</p><p>I tråden gäller \\(V=AL\\), alltså \\(A=V/L\\). Sätt det i resistansformeln:</p><p>\\[R=\\rho L^2/V\\]</p><p>Lös ut längden:</p><p>\\[\\begin{aligned}L&=\\sqrt{RV/\\rho}\\\\&\\approx2{,}56\\ \\mathrm m\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.5622501927837114,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 0.06405625481959279,
+        "manuellKomplettering": false,
+        "niva": "C",
         "traningsniva": 4,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm volymen från massan. Använd V=AL för att uttrycka arean i resistansformeln.</p>",
+        "t": "<p>Av 1,00 g koppar görs en tråd med resistansen 1,00 Ω. Densiteten är 8,96 g/cm³ och resistiviteten 1,7·10⁻⁸ Ωm. Hur lång blir tråden? Svara i m.</p>",
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vilken diameter får den?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Av exakt 1,00 g koppar (densitet 8,96 g/cm³) ska du göra en tråd med resistansen 1,00 Ω.</p>Tråden är 2,56 m lång.<p>Vilken diameter får den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{V}{l}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\sqrt{\\dfrac A\\pi}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000235\\) m</p></div>",
-        "ledtrad": "<p>Bestäm arean ur volymen.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
-        "arbetsinsats": 2
+        "fraga": "En rund tråd har volymen 1,116·10⁻⁷ m³ och längden 2,56 m. Vilken diameter har tråden? Svara i mm.",
+        "s": "<div class=\"facit-v2\"><p>Volymen är area gånger längd. Därför är arean</p><p>\\[\\begin{aligned}A&=V/L\\\\&=\\frac{1{,}116\\cdot10^{-7}}{2{,}56}\\\\&\\approx4{,}36\\cdot10^{-8}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Cirkelns area ger diametern:</p><p>\\[\\begin{aligned}d&=2\\sqrt{A/\\pi}\\\\&\\approx0{,}236\\ \\mathrm{mm}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.23559559928678317,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mm",
+        "tolerans": 0.00588988998216958,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bestäm arean med V=AL och använd sedan cirkelns area.</p>",
+        "t": "<p>En rund tråd har volymen 1,116·10⁻⁷ m³ och längden 2,56 m. Vilken diameter har tråden? Svara i mm.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>All koppar ska användas.</p>",
+    "ledtrad": "<p>Bestäm volymen från massan. Använd V=AL för att uttrycka arean i resistansformeln.</p>",
     "traningsniva": 4,
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "spänning över aluminiumledare",
-    "poang": "(1/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 40 m lång aluminiumledare med diametern 0,40 mm har strömmen 4,5 A. Hur stor är spänningen över ledaren?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(R=\\dfrac{2{,}7\\cdot10^{-8}\\cdot40}{\\pi\\cdot0{,}20\\cdot10^{-3\\,2}}\\approx8{,}6\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39\\) V</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En aluminiumtråd är 40 m lång och har diametern 0,40 mm. Strömmen är 4,5 A. Aluminiumets resistivitet är 2,7·10⁻⁸ Ωm.</p><p>Hur stor är spänningen över tråden? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p>Radien är 0,20 mm = 2,0·10⁻⁴ m.</p><p>\\[A=\\pi(2{,}0\\cdot10^{-4})^2\\approx1{,}26\\cdot10^{-7}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\frac{2{,}7\\cdot10^{-8}\\cdot40}{A}\\approx8{,}59\\ \\Omega\\]</p><p>Ohms lag ger spänningen:</p><p>\\[U=RI\\approx8{,}59\\cdot4{,}5\\approx38{,}7\\ \\mathrm V\\]</p><p>Spänningen är cirka 39 V.</p></div>",
     "id": "8.425",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 38.674651171330574,
-    "tolerans": 0.58,
+    "tolerans": 0.9668662792832644,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm resistansen först.</p>",
+    "ledtrad": "<p>Beräkna trådens area och resistans. Använd sedan Ohms lag för spänningen.</p>",
     "traningsniva": 2,
     "svarEnhet": "V",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "värmeväst",
-    "poang": "(1/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En värmeväst kopplas till 12,0 V och ska ha strömmen 4,0 A genom en koppartråd med diametern 0,25 mm. Hur lång ska tråden vara?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(R=\\dfrac{12{,}0}{4{,}0}=3{,}0\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[l=\\dfrac{RA}{\\rho}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}7\\) m</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En värmeväst ska ha strömmen 4,0 A vid spänningen 12,0 V. Den värms av en koppartråd med diametern 0,25 mm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Hur lång behöver tråden vara? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den önskade resistansen är</p><p>\\[R=U/I=12{,}0/4{,}0=3{,}0\\ \\Omega\\]</p><p>Radien är 0,125 mm = 1,25·10⁻⁴ m, så arean är</p><p>\\[A=\\pi(1{,}25\\cdot10^{-4})^2\\approx4{,}91\\cdot10^{-8}\\ \\mathrm{m^2}\\]</p><p>Lös ut längden:</p><p>\\[L=RA/\\rho\\approx8{,}66\\ \\mathrm m\\]</p><p>Tråden behöver vara cirka 8,7 m lång.</p></div>",
     "id": "8.426",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 8.66247974335421,
-    "tolerans": 0.13,
+    "tolerans": 0.21656199358385525,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm resistansen med Ohms lag.</p>",
+    "ledtrad": "<p>Bestäm önskad resistans med Ohms lag och beräkna arean från diametern.</p>",
     "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "laborationssladd",
-    "poang": "(1/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 20 cm lång kopparsladd med diametern 1,0 mm har strömmen 3,0 A. Hur stor spänning ligger över sladden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot0{,}20}{\\pi\\cdot0{,}50\\cdot10^{-3\\,2}}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}013\\) V</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En koppartråd är 20 cm lång och har diametern 1,0 mm. Strömmen är 3,0 A. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Hur stor är spänningen över tråden? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p>Längden är 0,20 m. Radien är 0,50 mm = 5,0·10⁻⁴ m.</p><p>\\[A=\\pi(5{,}0\\cdot10^{-4})^2\\approx7{,}85\\cdot10^{-7}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\frac{1{,}7\\cdot10^{-8}\\cdot0{,}20}{A}\\approx0{,}00433\\ \\Omega\\]</p><p>\\[U=RI\\approx0{,}00433\\cdot3{,}0\\approx0{,}0130\\ \\mathrm V\\]</p><p>Spänningen är cirka 13 mV.</p></div>",
     "id": "8.427",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.012987043356298661,
-    "tolerans": 0.00051,
+    "tolerans": 0.00032467608390746657,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sladdens resistans är mycket liten.</p>",
+    "ledtrad": "<p>Bestäm arean och resistansen, och använd sedan U=RI.</p>",
     "traningsniva": 2,
     "svarEnhet": "V",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "nikromtråd",
-    "poang": "(1/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Nikrom har resistiviteten \\(1{,}0\\cdot10^{-6}\\) Ωm. En 50 cm lång nikromtråd med diametern 0,80 mm kopplas till 3,0 V. Hur stor blir strömmen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(R=\\dfrac{1{,}0\\cdot10^{-6}\\cdot0{,}50}{\\pi\\cdot0{,}40\\cdot10^{-3\\,2}}\\approx1{,}0\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac UR\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) A</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En nikromtråd är 50 cm lång och har diametern 0,80 mm. Den ansluts till 3,0 V. Nikroms resistivitet är 1,0·10⁻⁶ Ωm.</p><p>Hur stor blir strömmen i A?</p>",
+    "s": "<div class=\"facit-v2\"><p>Längden är 0,50 m. Radien är 0,40 mm = 4,0·10⁻⁴ m.</p><p>\\[A=\\pi(4{,}0\\cdot10^{-4})^2\\approx5{,}03\\cdot10^{-7}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\frac{1{,}0\\cdot10^{-6}\\cdot0{,}50}{A}\\approx0{,}995\\ \\Omega\\]</p><p>\\[I=U/R\\approx3{,}0/0{,}995\\approx3{,}02\\ \\mathrm A\\]</p><p>Strömmen är cirka 3,0 A.</p></div>",
     "id": "8.428",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 3.0159289474462017,
-    "tolerans": 0.051,
+    "tolerans": 0.07539822368615505,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm resistansen först.</p>",
+    "ledtrad": "<p>Bestäm trådens resistans innan du använder I=U/R.</p>",
     "traningsniva": 2,
     "svarEnhet": "A",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "tråd i ficklampa",
-    "poang": "(1/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En ficklampa drivs med 1,5 V. En koppartråd med diametern 0,60 mm har strömmen 0,53 A. Hur lång är tråden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{1{,}5}{0{,}53}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[l=\\dfrac{RA}{\\rho}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(47\\) m</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Spänningen över en rund koppartråd är 1,5 V och strömmen är 0,53 A. Trådens diameter är 0,60 mm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Hur lång är tråden? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>Spänningen avser själva tråden, så Ohms lag ger dess resistans.</p><p>\\[R=1{,}5/0{,}53\\approx2{,}83\\ \\Omega\\]</p><p>Radien är 0,30 mm = 3,0·10⁻⁴ m.</p><p>\\[A=\\pi(3{,}0\\cdot10^{-4})^2\\approx2{,}83\\cdot10^{-7}\\ \\mathrm{m^2}\\]</p><p>\\[L=RA/\\rho\\approx47{,}1\\ \\mathrm m\\]</p><p>Tråden är cirka 47 m lång.</p></div>",
     "id": "8.429",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 47.07158803935871,
-    "tolerans": 0.706,
+    "tolerans": 1.1767897009839678,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm resistansen med Ohms lag.</p>",
+    "ledtrad": "<p>Bestäm trådens resistans från spänning och ström. Beräkna sedan arean och längden.</p>",
     "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "diameter ur ström",
-    "poang": "(0/2/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 50,0 m lång kopparledare får strömmen 6,7 A när spänningen är 3,0 V. Vilken diameter har den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{3{,}0}{6{,}7}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\rho l}{R}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\sqrt{\\dfrac A\\pi}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0016\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En rund koppartråd är 50,0 m lång. Strömmen är 6,7 A när spänningen över tråden är 3,0 V. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Vilken diameter har tråden? Svara i mm.</p>",
+    "s": "<div class=\"facit-v2\"><p>Bestäm först resistansen.</p><p>\\[R=U/I=3{,}0/6{,}7\\approx0{,}448\\ \\Omega\\]</p><p>Resistansformeln ger arean.</p><p>\\[A=\\rho L/R\\approx1{,}90\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p><p>Använd sedan cirkelns area för diametern.</p><p>\\[d=2\\sqrt{A/\\pi}\\approx1{,}55\\ \\mathrm{mm}\\]</p><p>Diametern är cirka 1,6 mm.</p></div>",
     "id": "8.430",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.001554681018437196,
-    "tolerans": 5.1e-05,
+    "rättSvar": 1.554681018437196,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm resistans och sedan area.</p>",
+    "ledtrad": "<p>Använd Ohms lag för resistansen, resistansformeln för arean och cirkelns area för diametern.</p>",
     "traningsniva": 3,
-    "svarEnhet": "m",
+    "svarEnhet": "mm",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "tråd kvar på rullen",
-    "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>En rulle med 75 m koppartråd ger strömmen 2,4 A med ett visst batteri. Efter att en del tråd använts ger samma batteri strömmen 3,1 A. Hur mycket tråd finns kvar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Strömmen är omvänt proportionell mot längden: \\(l=75\\cdot\\dfrac{2{,}4}{3{,}1}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(58\\) m</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En 75 m lång koppartråd ger strömmen 2,4 A vid en viss spänning. En del klipps bort. Den återstående tråden ger strömmen 3,1 A vid samma spänning. Resistiviteten är oförändrad.</p><p>Hur mycket tråd finns kvar? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>Trådarna har samma area och resistivitet, så resistansen är proportionell mot längden. Vid samma spänning ger Ohms lag \\(R=U/I\\).</p><p>Därför blir längdkvoten omvänd mot strömkvoten:</p><p>\\[\\frac{L_{\\text{ny}}}{75}=\\frac{2{,}4}{3{,}1}\\]</p><p>\\[L_{\\text{ny}}=75\\cdot\\frac{2{,}4}{3{,}1}\\approx58{,}1\\ \\mathrm m\\]</p><p>Det finns cirka 58 m tråd kvar.</p></div>",
     "id": "8.431",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 58.064516129032256,
-    "tolerans": 0.871,
+    "tolerans": 1.4516129032258065,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(R\\sim l\\) och \\(I\\sim\\dfrac1R\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Hur beror resistansen på längden? Hur beror resistansen på strömmen vid samma spänning?</p>",
+    "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "fågel på ledning",
-    "poang": "(0/1/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En fågel sitter med fötterna 2,0 cm isär på en aluminiumledning med diametern 2,0 cm. Strömmen i ledningen är 150 A. Hur stor spänning ligger mellan fötterna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{2{,}7\\cdot10^{-8}\\cdot0{,}020}{\\pi\\cdot0{,}010^2}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00026\\) V</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En fågel sitter med fötterna 2,0 cm isär på en aluminiumledning med diametern 2,0 cm. Strömmen i ledningen är 150 A. Aluminiumets resistivitet är 2,7·10⁻⁸ Ωm.</p><p>Hur stor är spänningen mellan fågelns fötter? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p>Det är ledningsbiten mellan fötterna som ska räknas: längden är 0,020 m. Ledningens radie är 0,010 m.</p><p>\\[\\begin{aligned}A&=\\pi\\cdot0{,}010^2\\\\&\\approx3{,}14\\cdot10^{-4}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=\\frac{2{,}7\\cdot10^{-8}\\cdot0{,}020}{A}\\\\&\\approx1{,}72\\cdot10^{-6}\\ \\Omega\\end{aligned}\\]</p><p>\\[\\begin{aligned}U&=RI\\\\&\\approx1{,}72\\cdot10^{-6}\\cdot150\\\\&\\approx2{,}58\\cdot10^{-4}\\ \\mathrm V\\end{aligned}\\]</p><p>Spänningen är cirka 0,26 mV.</p></div>",
     "id": "8.432",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.00025783100780887044,
-    "tolerans": 5.1e-06,
+    "tolerans": 6.445775195221762e-06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Resistansen för 2,0 cm ledning.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Använd avståndet mellan fötterna som ledarlängd i resistansformeln.</p>",
+    "traningsniva": 2,
     "svarEnhet": "V",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "ström i trådrulle",
-    "poang": "(0/2/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En rulle koppartråd väger 200 g och tråden har diametern 0,80 mm. Koppar har densiteten 8,96 g/cm³. Ett batteri på 1,5 V ansluts till trådens ändar. Hur stor blir strömmen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(l=\\dfrac{m}{\\rho_mA}\\approx44\\) m.</p></div><div class=\"facit-stycke\"><p>\\(R=\\rho\\dfrac lA\\approx1{,}5\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac UR\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}00\\) A</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En rulle koppartråd väger 200 g. Trådens diameter är 0,80 mm. Kopparns densitet är 8,96 g/cm³ och resistiviteten 1,7·10⁻⁸ Ωm. Spänningen mellan trådens ändar är 1,5 V.</p><p>Hur stor blir strömmen i A?</p>",
+    "s": "<div class=\"facit-v2\"><p>Massan och densiteten ger volymen:</p><p>\\[\\begin{aligned}V&=200/8{,}96\\\\&\\approx22{,}3\\ \\mathrm{cm^3}\\\\&=2{,}23\\cdot10^{-5}\\ \\mathrm{m^3}\\end{aligned}\\]</p><p>Radien är 0,40 mm = 4,0·10⁻⁴ m.</p><p>\\[\\begin{aligned}A&=\\pi(4{,}0\\cdot10^{-4})^2\\\\&\\approx5{,}03\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Volymen är area gånger längd, så \\(L=V/A\\approx44{,}4\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}R&=\\rho L/A\\\\&\\approx1{,}50\\ \\Omega\\end{aligned}\\]</p><p>\\[\\begin{aligned}I&=U/R\\\\&\\approx1{,}5/1{,}50\\\\&\\approx1{,}00\\ \\mathrm A\\end{aligned}\\]</p></div>",
     "id": "8.433",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.9987575201930615,
-    "tolerans": 0.015,
+    "tolerans": 0.024968938004826538,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm trådens längd ur massan.</p>",
+    "ledtrad": "<p>Massan och densiteten ger volymen. Använd volym och tvärsnittsarea för att hitta trådens längd.</p>",
     "traningsniva": 4,
     "svarEnhet": "A",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "kabelns massa",
-    "poang": "(0/2/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 175 m lång aluminiumkabel har strömmen 125 A när spänningen över den är 0,300 V. Aluminium har densiteten 2,70 g/cm³. Bestäm kabelns massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{0{,}300}{125}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\rho l}{R}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\rho_mlA\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(930\\) kg</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En aluminiumkabel är 175 m lång. Strömmen är 125 A när spänningen över kabeln är 0,300 V. Aluminiumets densitet är 2,70 g/cm³ och resistiviteten 2,7·10⁻⁸ Ωm.</p><p>Bestäm kabelns massa i kg.</p>",
+    "s": "<div class=\"facit-v2\"><p>Spänning och ström ger kabelns resistans:</p><p>\\[\\begin{aligned}R&=U/I\\\\&=0{,}300/125\\\\&=0{,}00240\\ \\Omega\\end{aligned}\\]</p><p>Lös ut arean:</p><p>\\[\\begin{aligned}A&=\\rho L/R\\\\&=\\frac{2{,}7\\cdot10^{-8}\\cdot175}{0{,}00240}\\\\&\\approx1{,}97\\cdot10^{-3}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Volymen är \\(V=AL\\approx0{,}345\\ \\mathrm{m^3}\\). Densiteten 2,70 g/cm³ är 2700 kg/m³.</p><p>\\[\\begin{aligned}m&=\\rho_mV\\\\&\\approx930\\ \\mathrm{kg}\\end{aligned}\\]</p></div>",
     "id": "8.434",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 930.234375,
-    "tolerans": 14.0,
+    "tolerans": 23.255859375,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm arean först.</p>",
+    "ledtrad": "<p>Bestäm resistans, area och volym i den ordningen. Omvandla densiteten innan du räknar massan.</p>",
     "traningsniva": 4,
     "svarEnhet": "kg",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "koppar och järn i serie och parallellt",
     "poang": "(0/2/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p><ol type=\"a\"><li>De seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?</li><li>De parallellkopplas och får den totala strömmen 5,0 A. Hur stor ström går genom kopparstaven?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Spänningen delas i förhållande till resistanserna: \\(12\\cdot\\dfrac{1{,}7}{1{,}7+10}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) V</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Strömmen delas omvänt mot resistanserna: \\(5{,}0\\cdot\\dfrac{10}{11{,}7}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\) A</p></li></ol></div>",
+    "t": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p><p>a) Stavarna seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?</p><p>b) Stavarna parallellkopplas och den totala strömmen är 5,0 A. Hur stor ström går genom kopparstaven?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Med samma längd och area har resistanserna förhållandet 1,7:10. I serie är strömmen samma, så spänningarna fördelas i samma förhållande som resistanserna.</p><p>\\[U_{\\mathrm{Cu}}=12\\cdot\\frac{1{,}7}{1{,}7+10}\\approx1{,}74\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Vid parallellkoppling är spänningen samma över stavarna. Lägre resistans ger större ström, så strömmarnas förhållande är omvänt mot resistansernas. Kopparstaven får andelen 10/(10 + 1,7) av strömmen.</p><p>\\[I_{\\mathrm{Cu}}=5{,}0\\cdot\\frac{10}{10+1{,}7}\\approx4{,}27\\ \\mathrm A\\]</p></div></div>",
     "id": "8.435",
     "miniräknare": true,
     "geogebra": false,
@@ -109538,10 +110193,13 @@ window.BANK = [
       4.273504273504273
     ],
     "tolerans": [
-      0.051,
-      0.0641
+      0.043589743589743594,
+      0.10683760683760685
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "problemlösning",
       "begrepp"
@@ -109560,45 +110218,59 @@ window.BANK = [
       "A"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p>",
+    "spelIntro": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "De seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p><p>De seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Spänningen delas i förhållande till resistanserna: \\(12\\cdot\\dfrac{1{,}7}{1{,}7+10}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\) V</p></div>",
-        "ledtrad": "<p>Samma ström, så \\(U\\sim R\\sim\\rho\\).</p>",
+        "fraga": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven? Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Med samma längd och area har resistanserna förhållandet 1,7:10. I serie är strömmen samma, så spänningarna fördelas i samma förhållande som resistanserna.</p><p>\\[U_{\\mathrm{Cu}}=12\\cdot\\frac{1{,}7}{1{,}7+10}\\approx1{,}74\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.7435897435897436,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.043589743589743594,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Stavarna har samma längd och area. I serie är strömmen lika genom båda stavarna.</p>",
+        "t": "<p><p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven? Svara i V.</p>",
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "De parallellkopplas och får den totala strömmen 5,0 A. Hur stor ström går genom kopparstaven?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Järn har resistiviteten \\(1{,}0\\cdot10^{-7}\\) Ωm. En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p><p>De parallellkopplas och får den totala strömmen 5,0 A. Hur stor ström går genom kopparstaven?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Strömmen delas omvänt mot resistanserna: \\(5{,}0\\cdot\\dfrac{10}{11{,}7}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\) A</p></div>",
-        "ledtrad": "<p>Samma spänning, så \\(I\\sim\\dfrac1\\rho\\).</p>",
+        "fraga": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna parallellkopplas. Den totala strömmen är 5,0 A. Hur stor ström går genom kopparstaven? Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>Vid parallellkoppling är spänningen samma över stavarna. Lägre resistans ger större ström, så strömmarnas förhållande är omvänt mot resistansernas. Kopparstaven får andelen 10/(10 + 1,7) av strömmen.</p><p>\\[I_{\\mathrm{Cu}}=5{,}0\\cdot\\frac{10}{10+1{,}7}\\approx4{,}27\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.273504273504273,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.10683760683760685,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>I parallell är spänningen samma över stavarna. Vilken stav får störst ström?</p>",
+        "t": "<p><p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna parallellkopplas. Den totala strömmen är 5,0 A. Hur stor ström går genom kopparstaven? Svara i A.</p>",
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Jämför resistiviteterna.</p>",
+    "ledtrad": "<p>Stavarna har samma längd och area. I serie är strömmen lika genom båda stavarna.</p>",
     "traningsniva": 3,
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "skarvad kabel",
-    "poang": "(1/2/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 10,0 m lång kabel består av 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p><ol type=\"a\"><li>Vilken resistans har kabeln?</li><li>Hur stor spänning ligger över aluminiumdelen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{(1{,}7+2{,}7)\\cdot10^{-8}\\cdot5{,}0}{\\pi\\cdot0{,}70\\cdot10^{-3\\,2}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}14\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=0{,}095\\cdot\\dfrac{2{,}7}{4{,}4}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}058\\) V</p></li></ol></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>En kabel består av 5,0 m koppar följt av 5,0 m aluminium. Båda delarna har diametern 1,4 mm. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium. Spänningen över hela kabeln är 95 mV.</p><p>a) Bestäm kabelns resistans.</p><p>b) Hur stor spänning ligger över aluminiumdelen?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Radien är 0,70 mm = 7,0·10⁻⁴ m.</p><p>\\[\\begin{aligned}A&=\\pi(7{,}0\\cdot10^{-4})^2\\\\&\\approx1{,}54\\cdot10^{-6}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Resistansformeln ger cirka 0,0552 Ω för kopparn och 0,0877 Ω för aluminiumet. Delarna är seriekopplade, så resistanserna adderas.</p><p>\\[\\begin{aligned}R_{\\text{tot}}&\\approx0{,}0552+0{,}0877\\\\&\\approx0{,}143\\ \\Omega\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Delarna har samma längd och area, så deras resistanser har samma förhållande som resistiviteterna. I serie har båda samma ström, och spänningen fördelas i samma förhållande.</p><p>\\[\\begin{aligned}U_{\\mathrm{Al}}&=0{,}095\\cdot\\frac{2{,}7}{1{,}7+2{,}7}\\\\&\\approx0{,}0583\\ \\mathrm V\\end{aligned}\\]</p></div></div>",
     "id": "8.436",
     "miniräknare": true,
     "geogebra": false,
@@ -109606,13 +110278,16 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.14291464277639582,
-      0.05829545454545454
+      0.058295454545454546
     ],
     "tolerans": [
-      0.0051,
-      0.000874
+      0.0035728660694098954,
+      0.0014575752274317705
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "problemlösning"
@@ -109631,297 +110306,304 @@ window.BANK = [
       "V"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 10,0 m lång kabel består av 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p>",
+    "spelIntro": "<p>En kabel består av 5,0 m koppar följt av 5,0 m aluminium. Båda delarna har diametern 1,4 mm. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium. Spänningen över hela kabeln är 95 mV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken resistans har kabeln?",
-        "t": "<p>En kabel består av två seriekopplade delar: 5,0 m koppar och 5,0 m aluminium. Båda har diametern 1,4 mm. Resistiviteter: koppar \\(1{,}7\\cdot10^{-8}\\) Ωm och aluminium \\(2{,}7\\cdot10^{-8}\\) Ωm. Använd \\(R=\\rho l/A\\).</p><p>Vilken resistans har kabeln?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{(1{,}7+2{,}7)\\cdot10^{-8}\\cdot5{,}0}{\\pi\\cdot0{,}70\\cdot10^{-3\\,2}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}14\\) Ω</p></div>",
-        "ledtrad": "<p>Delarna är seriekopplade.</p>",
+        "fraga": "En kabel består av två delar i serie: 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium. Bestäm kabelns resistans i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Radien är 0,70 mm = 7,0·10⁻⁴ m.</p><p>\\[\\begin{aligned}A&=\\pi(7{,}0\\cdot10^{-4})^2\\\\&\\approx1{,}54\\cdot10^{-6}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Resistansformeln ger cirka 0,0552 Ω för kopparn och 0,0877 Ω för aluminiumet. Delarna är seriekopplade, så resistanserna adderas.</p><p>\\[\\begin{aligned}R_{\\text{tot}}&\\approx0{,}0552+0{,}0877\\\\&\\approx0{,}143\\ \\Omega\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.14291464277639582,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.0035728660694098954,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/1/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna arean och resistansen i varje del. Delarnas resistanser adderas.</p>",
+        "t": "<p>En kabel består av två delar i serie: 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium. Bestäm kabelns resistans i Ω.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor spänning ligger över aluminiumdelen?",
-        "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Aluminium har resistiviteten \\(2{,}7\\cdot10^{-8}\\) Ωm.</p><p>En 10,0 m lång kabel består av 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p><p>Hur stor spänning ligger över aluminiumdelen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=0{,}095\\cdot\\dfrac{2{,}7}{4{,}4}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}058\\) V</p></div>",
-        "ledtrad": "<p>Spänningen delas i förhållande till resistanserna.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En kabel har två delar i serie: en koppardel på 0,0552 Ω och en aluminiumdel på 0,0877 Ω. Spänningen över hela kabeln är 95 mV. Hur stor spänning ligger över aluminiumdelen? Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>De seriekopplade delarna har samma ström. Spänningen fördelas därför i proportion till resistanserna.</p><p>\\[\\begin{aligned}U_{\\mathrm{Al}}&=0{,}095\\cdot\\frac{0{,}0877}{0{,}0552+0{,}0877}\\\\&\\approx0{,}0583\\ \\mathrm V\\end{aligned}\\]</p><p>Det är cirka 58 mV.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.05830300909727082,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.0014575752274317705,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>I serie är strömmen samma. Beräkna total resistans och använd Ohms lag.</p>",
+        "t": "<p>En kabel har två delar i serie: en koppardel på 0,0552 Ω och en aluminiumdel på 0,0877 Ω. Spänningen över hela kabeln är 95 mV. Hur stor spänning ligger över aluminiumdelen? Svara i V.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Seriekoppling.</p>",
+    "ledtrad": "<p>Beräkna arean och resistansen i varje del. Delarnas resistanser adderas.</p>",
     "traningsniva": 3,
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "C",
-    "typ": "förlängningssladd till grästrimmer",
-    "poang": "(0/2/0)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En grästrimmer (15 Ω) ansluts till 230 V via en förlängningssladd med 80 m koppartråd (fram och tillbaka) med tvärsnittsarean \\(1{,}3\\cdot10^{-6}\\) m². Hur stor spänning ligger över sladden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(R_s=\\dfrac{1{,}7\\cdot10^{-8}\\cdot80}{1{,}3\\cdot10^{-6}}\\approx1{,}05\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{230}{16{,}05}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=R_sI\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) V</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En grästrimmer med resistansen 15 Ω ansluts till 230 V genom en förlängningskabel. Kabeln innehåller totalt 80 m kopparledare, räknat både fram och tillbaka. Ledarnas area är 1,3 mm². Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Hur stor spänning ligger över kabeln? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p>Arean är 1,3·10⁻⁶ m². Kabelns resistans är</p><p>\\[R_{\\text{kabel}}=\\frac{1{,}7\\cdot10^{-8}\\cdot80}{1{,}3\\cdot10^{-6}}\\approx1{,}046\\ \\Omega\\]</p><p>Trimmern och kabeln är i serie. Beräkna strömmen med deras sammanlagda resistans.</p><p>\\[I=\\frac{230}{15+1{,}046}\\approx14{,}33\\ \\mathrm A\\]</p><p>Spänningen över just kabeln blir</p><p>\\[U_{\\text{kabel}}=R_{\\text{kabel}}I\\approx15{,}0\\ \\mathrm V\\]</p></div>",
     "id": "8.437",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 14.995206136145736,
-    "tolerans": 0.51,
+    "rättSvar": 14.995206136145734,
+    "tolerans": 0.3748801534036434,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sladden och trimmern är seriekopplade.</p>",
+    "ledtrad": "<p>Kabeln och trimmern är seriekopplade. Strömmen bestäms av deras sammanlagda resistans.</p>",
     "traningsniva": 3,
     "svarEnhet": "V",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "A",
-    "typ": "sladd till grindlampa",
-    "poang": "(0/1/1)",
-    "t": "<p>Resistans: \\(R=\\rho\\dfrac{l}{A}\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En lampa märkt 200 V/60 W ska drivas från ett uttag på 230 V via en kopparsladd med två ledare med diametern 0,40 mm. Hur lång får sladden högst vara?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{60}{200}=0{,}30\\) A.</p></div><div class=\"facit-stycke\"><p>Sladden får ta 30 V: \\(R=100\\) Ω.</p></div><div class=\"facit-stycke\"><p>Ledarlängden är dubbla sladdlängden: \\(2l=\\dfrac{RA}{\\rho}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(370\\) m</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En lampa märkt 200 V, 60 W ska anslutas till en spänningskälla på 230 V med en kopparkabel. Kabeln har två ledare, vardera med diametern 0,40 mm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p><p>Hur lång behöver kabeln vara för att spänningen över lampan ska bli 200 V? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vid 200 V har lampan sin märkström:</p><p>\\[I=P/U=60/200=0{,}30\\ \\mathrm A\\]</p><p>Kabeln ska ha spänningsfallet 230 − 200 = 30 V. Dess sammanlagda resistans behöver därför vara</p><p>\\[R_{\\text{kabel}}=30/0{,}30=100\\ \\Omega\\]</p><p>Varje ledares radie är 0,20 mm = 2,0·10⁻⁴ m.</p><p>\\[A=\\pi(2{,}0\\cdot10^{-4})^2\\approx1{,}26\\cdot10^{-7}\\ \\mathrm{m^2}\\]</p><p>Resistansformeln ger den sammanlagda ledarlängden:</p><p>\\[L=RA/\\rho\\approx739\\ \\mathrm m\\]</p><p>Det finns två lika långa ledare. Kabelns längd är därför \\(L/2\\approx370\\ \\mathrm m\\).</p></div>",
     "id": "8.438",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 369.5991357164462,
-    "tolerans": 5.54,
+    "tolerans": 9.239978392911155,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Strömmen går fram och tillbaka.</p>",
+    "ledtrad": "<p>Vilket spänningsfall ska kabeln ha? Bestäm kabelns resistans och kom ihåg att den har två ledare.</p>",
     "traningsniva": 4,
     "svarEnhet": "m",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "silvertråd blir varmare",
     "poang": "(1/0/0)",
-    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En silvertråd har resistansen 6,0 Ω vid 20,0 °C. Silver har \\(\\alpha=0{,}0038\\) K⁻¹. Hur stor är resistansen vid 34,0 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=6{,}0(1+0{,}0038\\cdot14{,}0)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) Ω</p></div>",
+    "t": "<p>En silvertråd har resistansen 6,0 Ω vid 20,0 °C. För silver är \\(\\alpha=0{,}0038\\ \\mathrm{K^{-1}}\\).</p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(\\Delta T\\) är temperaturökningen.</p><p>Hur stor är resistansen vid 34,0 °C? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Temperaturen ökar med \\(\\Delta T=34{,}0-20{,}0=14{,}0\\ \\mathrm K\\). En förändring på 14 °C är lika stor som en förändring på 14 K.</p><p>\\[\\begin{aligned}R&=6{,}0(1+0{,}0038\\cdot14{,}0)\\\\&=6{,}3192\\ \\Omega\\end{aligned}\\]</p><p>Resistansen är cirka 6,3 Ω.</p></div>",
     "id": "8.439",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 6.3191999999999995,
-    "tolerans": 0.0948,
+    "tolerans": 0.15798,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt in i formeln.</p>",
+    "ledtrad": "<p>Beräkna temperaturändringen, inte den absoluta temperaturen, innan du använder modellen.</p>",
     "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "temperaturökning för 12 procent",
     "poang": "(1/0/0)",
-    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>Koppar har \\(\\alpha=0{,}0043\\) K⁻¹. Hur mycket måste temperaturen öka för att resistansen ska öka 12 %?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\alpha\\Delta T=0{,}12\\iff\\Delta T=\\dfrac{0{,}12}{0{,}0043}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\) K</p></div>",
+    "t": "<p>För en koppartråd är \\(\\alpha=0{,}0043\\ \\mathrm{K^{-1}}\\).</p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(\\Delta T\\) är temperaturökningen.</p><p>Hur mycket behöver temperaturen öka för att resistansen ska öka med 12 %? Svara i K.</p>",
+    "s": "<div class=\"facit-v2\"><p>En ökning med 12 % innebär \\(R/R_0=1{,}12\\). Modellen ger därför \\(\\alpha\\Delta T=0{,}12\\).</p><p>\\[\\Delta T=\\frac{0{,}12}{0{,}0043}\\approx27{,}9\\ \\mathrm K\\]</p><p>Temperaturen behöver öka med cirka 28 K. Det är samma temperaturökning som 28 °C.</p></div>",
     "id": "8.440",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 27.906976744186046,
-    "tolerans": 0.51,
+    "tolerans": 0.6976744186046512,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ut \\(\\Delta T\\).</p>",
+    "svarFormat": "temperaturandring",
+    "ledtrad": "<p>Skriv ökningen 12 % som 0,12. Lös sedan ut temperaturökningen ur modellen.</p>",
     "traningsniva": 2,
     "svarEnhet": "K",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "temperaturkoefficient ur mätning",
     "poang": "(1/0/0)",
-    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En tråd har resistansen 38,0 Ω vid 20 °C och 43,7 Ω vid 55 °C. Bestäm temperaturkoefficienten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\alpha=\\dfrac{43{,}7/38{,}0-1}{35}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0043\\) 1/K</p></div>",
+    "t": "<p>En tråd har resistansen 38,0 Ω vid 20 °C och 43,7 Ω vid 55 °C.</p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(\\Delta T\\) är temperaturökningen.</p><p>Bestäm temperaturkoefficienten \\(\\alpha\\). Svara i 1/K.</p>",
+    "s": "<div class=\"facit-v2\"><p>Temperaturökningen är \\(\\Delta T=55-20=35\\ \\mathrm K\\). Resistanskvoten är \\(43{,}7/38{,}0=1{,}15\\).</p><p>\\[\\begin{aligned}\\alpha&=\\frac{R/R_0-1}{\\Delta T}\\\\&=\\frac{0{,}15}{35}\\\\&\\approx0{,}00429\\ \\mathrm{K^{-1}}\\end{aligned}\\]</p><p>Temperaturkoefficienten är cirka 0,0043 1/K.</p></div>",
     "id": "8.441",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.004285714285714289,
-    "tolerans": 6.43e-05,
+    "tolerans": 0.00010714285714285725,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ut \\(\\alpha\\).</p>",
+    "ledtrad": "<p>Beräkna först temperaturökningen och den relativa ökningen av resistansen.</p>",
     "traningsniva": 2,
     "svarEnhet": "1/K",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "glödtrådens temperatur",
-    "poang": "(0/1/0)",
-    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En glödlampa har resistansen 12 Ω vid 20 °C och 140 Ω när den lyser. Glödtråden har \\(\\alpha=0{,}0045\\) K⁻¹. Vilken temperatur har tråden när lampan lyser?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{140}{12}=1+0{,}0045\\Delta T\\iff\\Delta T\\approx2\\,370\\) K.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=20+\\Delta T\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,390\\) °C</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En glödtråd har resistansen 12 Ω vid 20 °C och 140 Ω när lampan lyser. Temperaturkoefficienten är \\(\\alpha=0{,}0045\\ \\mathrm{K^{-1}}\\).</p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(\\Delta T\\) är temperaturökningen.</p><p>Uppskatta glödtrådens temperatur med modellen när lampan lyser. Svara i °C.</p>",
+    "s": "<div class=\"facit-v2\"><p>Lös först ut temperaturökningen ur modellen.</p><p>\\[\\Delta T=\\frac{140/12-1}{0{,}0045}\\approx2370\\ \\mathrm K\\]</p><p>En temperaturökning har samma talvärde i K och °C. Lägg därför ökningen till starttemperaturen.</p><p>\\[T=20+2370\\approx2390\\ ^\\circ\\mathrm C\\]</p><p>Modellen ger ungefär 2400 °C.</p></div>",
     "id": "8.442",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 2390.3703703703704,
-    "tolerans": 51.0,
+    "tolerans": 59.75925925925927,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ut \\(\\Delta T\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Modellen ger temperaturökningen. Den måste sedan läggas till starttemperaturen.</p>",
+    "traningsniva": 2,
     "svarEnhet": "°C",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "termistor",
-    "poang": "(0/1/0)",
-    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>En termistor har \\(\\alpha=-0{,}0440\\) K⁻¹. Hos en patient är termistorns resistans 15,0 % lägre än vid normal kroppstemperatur 37,0 °C. Vilken temperatur har patienten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}850=1-0{,}0440\\Delta T\\iff\\Delta T=\\dfrac{0{,}150}{0{,}0440}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=37{,}0+\\Delta T\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}4\\) °C</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En temperaturgivare har \\(\\alpha=-0{,}0440\\ \\mathrm{K^{-1}}\\). Resistansen är 15,0 % lägre än vid 37,0 °C.</p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(\\Delta T\\) är temperaturökningen.</p><p>Vilken temperatur visar modellen? Svara i °C.</p>",
+    "s": "<div class=\"facit-v2\"><p>15 % lägre resistans ger \\(R/R_0=0{,}850\\).</p><p>\\[0{,}850=1-0{,}0440\\Delta T\\]</p><p>\\[\\Delta T=\\frac{0{,}150}{0{,}0440}\\approx3{,}41\\ \\mathrm K\\]</p><p>Den negativa koefficienten betyder att resistansen minskar när temperaturen ökar.</p><p>\\[T=37{,}0+3{,}41\\approx40{,}4\\ ^\\circ\\mathrm C\\]</p></div>",
     "id": "8.443",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 40.40909090909091,
-    "tolerans": 0.606,
+    "tolerans": 0.08,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Negativ temperaturkoefficient: resistansen sjunker när temperaturen stiger.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>15 % lägre betyder 85 % av ursprunglig resistans. Koefficienten är negativ; fundera på om temperaturen ökar eller minskar.</p>",
+    "traningsniva": 2,
     "svarEnhet": "°C",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "guld och volfram",
-    "poang": "(0/1/0)",
-    "t": "<p>Resistansens temperaturberoende: \\(R=R_0(1+\\alpha\\Delta T)\\).</p><p>Guld har \\(\\alpha=0{,}0034\\) K⁻¹ och volfram \\(\\alpha=0{,}0045\\) K⁻¹. En temperaturökning höjer guldtrådens resistans 7,0 %. Hur många procent ökar volframtrådens resistans vid samma temperaturökning?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{0{,}070}{0{,}0034}\\].</div></div><div class=\"facit-stycke\"><p>Ökning: \\(0{,}0045\\Delta T\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}3\\) %</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Temperaturkoefficienten är \\(0{,}0034\\ \\mathrm{K^{-1}}\\) för guld och \\(0{,}0045\\ \\mathrm{K^{-1}}\\) för volfram. En temperaturökning ökar guldtrådens resistans med 7,0 %.</p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(\\Delta T\\) är temperaturökningen.</p><p>Hur många procent ökar volframtrådens resistans vid samma temperaturökning?</p>",
+    "s": "<div class=\"facit-v2\"><p>Guldets resistansökning ger temperaturökningen:</p><p>\\[\\Delta T=0{,}070/0{,}0034\\approx20{,}6\\ \\mathrm K\\]</p><p>Volframets relativa ökning är \\(\\alpha\\Delta T\\). Multiplicera med 100 för att få procent.</p><p>\\[100\\cdot0{,}0045\\cdot\\Delta T\\approx9{,}26\\ \\%\\]</p><p>Volframtrådens resistans ökar med cirka 9,3 %.</p></div>",
     "id": "8.444",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Resistivitet och ledarresistans",
     "svarstyp": "numeriskt",
     "rättSvar": 9.264705882352942,
-    "tolerans": 0.139,
+    "tolerans": 0.23161764705882357,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm temperaturökningen.</p>",
+    "ledtrad": "<p>Bestäm temperaturökningen från guldtrådens ökning. Använd sedan volframets koefficient.</p>",
     "traningsniva": 2,
     "svarEnhet": "%",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "spänning mellan fågelns fötter",
     "poang": "(1/0/0)",
-    "t": "<p>En högspänningsledning har resistansen 0,25 µΩ per meter och strömmen 4,1 kA. Hur stor spänning ligger mellan en fågels fötter som står 4,0 cm isär?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=0{,}25\\cdot10^{-6}\\cdot0{,}040\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\cdot10^{-5}\\) V</p></div>",
+    "t": "<p>En ledning har resistansen 0,25 µΩ per meter och strömmen 4,1 kA. En fågel sitter med fötterna 4,0 cm isär.</p><p>Hur stor är spänningen mellan fötterna? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p>Strömmen är 4100 A och avståndet mellan fötterna är 0,040 m. Resistansen för just den ledningsbiten är</p><p>\\[\\begin{aligned}R&=0{,}25\\cdot10^{-6}\\cdot0{,}040\\\\&=1{,}0\\cdot10^{-8}\\ \\Omega\\end{aligned}\\]</p><p>Ohms lag ger spänningen:</p><p>\\[\\begin{aligned}U&=RI\\\\&=1{,}0\\cdot10^{-8}\\cdot4100\\\\&=4{,}1\\cdot10^{-5}\\ \\mathrm V\\end{aligned}\\]</p><p>Det är 41 µV.</p></div>",
     "id": "8.472",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ohms lag",
     "svarstyp": "numeriskt",
     "rättSvar": 4.1e-05,
-    "tolerans": 6.15e-07,
+    "tolerans": 1.0250000000000001e-06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ohms lag.</p>",
+    "ledtrad": "<p>Använd resistansen per meter för att hitta resistansen mellan fötterna. Omvandla kA till A.</p>",
     "traningsniva": 2,
     "svarEnhet": "V",
     "familjNyckel": "kretsar__ohms_lag",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
     "niva": "E",
-    "typ": "jonström genom cellvägg",
     "poang": "(2/0/0)",
-    "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p><ol type=\"a\"><li>Hur stor ström går genom cellväggen?</li><li>Strömmen består av Na⁺-joner. Hur många passerar på 0,50 s?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{0{,}075}{5{,}0\\cdot10^9}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{-11}\\) A</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{It}{e}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}7\\cdot10^{7}\\)</p></li></ol></div>",
+    "t": "<p>Ett cellmembran har resistansen 5,0·10⁹ Ω och spänningen 75 mV. Strömmen genom membranet består av natriumjoner, Na⁺. Varje jon har laddningen 1,602·10⁻¹⁹ C.</p><p>a) Hur stor är strömmen genom membranet? Svara i A.</p><p>b) Hur många natriumjoner passerar på 0,50 s?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>75 mV = 0,075 V. Ohms lag ger</p><p>\\[\\begin{aligned}I&=U/R\\\\&=\\frac{0{,}075}{5{,}0\\cdot10^9}\\\\&=1{,}5\\cdot10^{-11}\\ \\mathrm A\\end{aligned}\\]</p><p>Det är 15 pA.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Omvandla strömmen: 15 pA = 1,5·10⁻¹¹ A. Den laddning som passerar är</p><p>\\[\\begin{aligned}Q&=It\\\\&=1{,}5\\cdot10^{-11}\\cdot0{,}50\\\\&=7{,}5\\cdot10^{-12}\\ \\mathrm C\\end{aligned}\\]</p><p>Varje natriumjon har laddningen e, så antalet är</p><p>\\[\\begin{aligned}N&=Q/e\\\\&=\\frac{7{,}5\\cdot10^{-12}}{1{,}602\\cdot10^{-19}}\\\\&\\approx4{,}68\\cdot10^7\\end{aligned}\\]</p><p>Cirka 4,7·10⁷ natriumjoner passerar.</p></div></div>",
     "id": "8.473",
     "miniräknare": true,
     "geogebra": false,
@@ -109932,10 +110614,13 @@ window.BANK = [
       46816479.400749065
     ],
     "tolerans": [
-      5.1e-13,
-      702000.0
+      3.75e-13,
+      1170411.9850187267
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -109953,64 +110638,78 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p>",
+    "spelIntro": "<p>Ett cellmembran har resistansen 5,0·10⁹ Ω och spänningen 75 mV. Strömmen genom membranet består av natriumjoner, Na⁺. Varje jon har laddningen 1,602·10⁻¹⁹ C.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är strömmen genom cellväggen? Svara i A.",
-        "t": "<p>Spänningen över en cellvägg är 75 mV. Cellväggens resistans är 5,0 · 10⁹ Ω.</p><p>Hur stor är strömmen genom cellväggen? Svara i A.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{0{,}075}{5{,}0\\cdot10^9}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^{-11}\\) A</p></div>",
-        "ledtrad": "<p>Ohms lag.</p>",
+        "fraga": "Ett cellmembran har resistansen 5,0·10⁹ Ω och spänningen 75 mV. Hur stor är strömmen? Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>75 mV = 0,075 V. Ohms lag ger</p><p>\\[\\begin{aligned}I&=U/R\\\\&=\\frac{0{,}075}{5{,}0\\cdot10^9}\\\\&=1{,}5\\cdot10^{-11}\\ \\mathrm A\\end{aligned}\\]</p><p>Det är 15 pA.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.5e-11,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 3.75e-13,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla mV till V och använd Ohms lag.</p>",
+        "t": "<p>Ett cellmembran har resistansen 5,0·10⁹ Ω och spänningen 75 mV. Hur stor är strömmen? Svara i A.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Strömmen består av Na⁺-joner. Hur många passerar på 0,50 s?",
-        "t": "<p>Elementarladdningen är \\(e=1{,}602\\cdot10^{-19}\\) C.</p><p>En cellvägg har resistansen \\(5{,}0\\cdot10^9\\) Ω och spänningen 75 mV.</p>Strömmen är 15 pA.<p>Strömmen består av Na⁺-joner. Hur många passerar på 0,50 s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{It}{e}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}7\\cdot10^{7}\\)</p></div>",
-        "ledtrad": "<p>\\(Q=It=ne\\).</p>",
+        "fraga": "Strömmen genom ett cellmembran är 15 pA och består av natriumjoner, Na⁺. Varje jon har laddningen 1,602·10⁻¹⁹ C. Hur många joner passerar på 0,50 s?",
+        "s": "<div class=\"facit-v2\"><p>Omvandla strömmen: 15 pA = 1,5·10⁻¹¹ A. Den laddning som passerar är</p><p>\\[\\begin{aligned}Q&=It\\\\&=1{,}5\\cdot10^{-11}\\cdot0{,}50\\\\&=7{,}5\\cdot10^{-12}\\ \\mathrm C\\end{aligned}\\]</p><p>Varje natriumjon har laddningen e, så antalet är</p><p>\\[\\begin{aligned}N&=Q/e\\\\&=\\frac{7{,}5\\cdot10^{-12}}{1{,}602\\cdot10^{-19}}\\\\&\\approx4{,}68\\cdot10^7\\end{aligned}\\]</p><p>Cirka 4,7·10⁷ natriumjoner passerar.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 46816479.400749065,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 1170411.9850187267,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna laddningen som passerar med Q=It och dividera med en jons laddning.</p>",
+        "t": "<p>Strömmen genom ett cellmembran är 15 pA och består av natriumjoner, Na⁺. Varje jon har laddningen 1,602·10⁻¹⁹ C. Hur många joner passerar på 0,50 s?</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(U=RI\\).</p>",
+    "ledtrad": "<p>Omvandla mV till V och använd Ohms lag.</p>",
     "traningsniva": 2,
     "familjNyckel": "kretsar__ohms_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kretsar",
-    "niva": "C",
-    "typ": "resistans ur energi",
-    "poang": "(0/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett batteri på 9,0 V är kopplat över en resistor i 6,0 h, och resistorn omsätter 110 kJ. Beräkna resistansen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\dfrac{U^2}{R}t\\iff R=\\dfrac{9{,}0^2\\cdot6{,}0\\cdot3\\,600}{110\\cdot10^3}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\) Ω</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Spänningen över en resistor är 9,0 V. Under 6,0 h omvandlar den 110 kJ elektrisk energi till värme.</p><p>Bestäm resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Tiden är 6,0·3600 = 21 600 s och energin 110 000 J. Med \\(E=Pt\\) blir effekten</p><p>\\[P=E/t=110000/21600\\approx5{,}09\\ \\mathrm W\\]</p><p>Använd sedan \\(P=U^2/R\\) och lös ut resistansen.</p><p>\\[R=U^2/P\\approx9{,}0^2/5{,}09\\approx15{,}9\\ \\Omega\\]</p><p>Resistansen är cirka 16 Ω.</p></div>",
     "id": "8.474",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ohms lag",
     "svarstyp": "numeriskt",
     "rättSvar": 15.905454545454546,
-    "tolerans": 0.51,
+    "tolerans": 0.3976363636363637,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=\\dfrac{U^2}R\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna först effekten från energi och tid. Använd sedan spänningen för att bestämma resistansen.</p>",
+    "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__ohms_lag",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "3.178",

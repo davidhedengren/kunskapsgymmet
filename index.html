@@ -3857,7 +3857,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-10-fy1-coulomb-hela";
+const BANK_VERSION="2026-10-10-fy1-kretsar";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -6759,6 +6759,11 @@ function expandGameTask(t){
     if("svarFormat" in t) q.svarFormat=metadata(t.svarFormat);
     if("manuellKomplettering" in t) q.manuellKomplettering=metadata(t.manuellKomplettering);
 
+    // Fristående kort kan ange avrundade mellanresultat och egna svar.
+    // Då är kortets uttryckliga rättningsmetadata överordnad läraruppgiftens.
+    for(const key of ["rättSvar","tolerans","självrättning","svarEnhet","svarFormat","manuellKomplettering"]){
+      if(Object.prototype.hasOwnProperty.call(del,key)) q[key]=del[key];
+    }
     if(Array.isArray(q.rättSvar) && q.rättSvar.length>1){
       q.svarstyp="flera_delar";
       // Flera rötter är normalt en mängd. Namngivna storheter kan kräva ordning.
@@ -9761,6 +9766,13 @@ function formatRatt(anv,facit,meta){
       const svarsEnhet=match[2].replace(/\.$/,"");
       if(svarsEnhet && (!unit || enhetNamn(svarsEnhet)!==enhetNamn(unit))) return false;
       return rentNumerisktSvar(match[1],f,meta);
+    }
+    case "temperaturandring": {
+      // En ändring på 1 °C är 1 K. Absoluta temperaturer berörs inte.
+      if(!["K","°C"].includes(String(meta.enhet||""))) return false;
+      const raw=stadaSvar(hogerled(a)).replace(/\s+/g,"");
+      const match=raw.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+)(?:e[+-]?\d+)?)(K|°C|℃)?$/i);
+      return !!match && rentNumerisktSvar(match[1],f,{...meta,format:"numeriskt",enhet:null});
     }
     case "heltal": case "numeriskt": {
       if(rentNumerisktSvar(a,f,meta)) return true;

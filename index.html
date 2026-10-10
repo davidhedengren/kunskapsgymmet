@@ -3857,7 +3857,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-10-felrapporter-svarsformat";
+const BANK_VERSION="2026-10-10-enhetsprefix-6438";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10156,6 +10156,16 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
   if(["decimalform","energi_per_nukleon","faktoriserat","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
+  /* Ett känt prefix måste räknas om innan någon genväg tar bort målenheten.
+     Annars blev "412 kPa" först "412 k" och därefter "412" mot ett facit i Pa. */
+  if(format==="numeriskt" && enhet
+     && (typeof facit==="number" || numerisktSvar(facit))){
+    const raw=enhetMedOrd(anv), parsed=delaTalEnhet(raw);
+    if(Number.isFinite(parsed.tal) && parsed.enhet && tolkaEnhet(parsed.enhet)){
+      const result=enhetsJamforelse(raw,facit,enhet,tol);
+      if(result!==null) return result;
+    }
+  }
   /* Med svarsenheten % lagras facit i procent. Ett uttryckligt %-tecken
      får inte tas bort och därefter skalas igen av den generella talrättningen. */
   if(enhet==="%" && (format==="numeriskt" || format==="procent")){

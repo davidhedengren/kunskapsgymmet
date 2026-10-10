@@ -77160,30 +77160,85 @@ window.BANK = [
     "id": "8.2",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Mats tänker köpa en resistor som han vill leda så stor ström som möjligt igenom. Han vet från Ohms första lag att U = R·I, och tänker därmed att desto mindre resistansen är, desto större blir strömmen. Mats köper en resistor med resistansen 0,10 Ω och kopplar in den till ett batteri med spänningen 9,0 V. Han räknar ut att strömmen borde bli 90 A.</p>\n<p>På vilket sätt har Mats tänkt fel?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Mats använder 9,0 V som om hela spänningen låg över den yttre resistorn.</p><p class=\"facit-metod\">Ett verkligt batteri har inre resistans \\(r\\), så</p><div class=\"facit-matte\">\\[I=\\frac{\\mathcal E}{R+r}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Om till exempel \\(r=0{,}50\\ \\Omega\\) blir strömmen</p><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{0{,}10+0{,}50}=15\\ \\mathrm A\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Den stora strömmen ger också intern värmeeffekt \\(P_i=I^2r\\) och sänkt polspänning.</p><p>Både batteri och resistor måste tåla effektutvecklingen; en lågohmig koppling kan vara en farlig kortslutning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Felet är att batteriets inre resistans och spänningsfall har försummats. Strömmen bestäms av hela kretsens resistans, inte bara den köpta resistorn.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Mats ansluter en resistor på 0,10 Ω till ett verkligt 9,0 V-batteri. Han räknar ut strömmen som 9,0/0,10 = 90 A.</p><p>a) Förklara varför strömmen kan bli mindre än 90 A.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Ett verkligt batteri har en inre resistans r. Den ligger i serie med den yttre resistansen R.</p><p>\\[I=\\mathcal E/(R+r)\\]</p><p>Den sammanlagda resistansen är större än 0,10 Ω. Därför blir strömmen mindre än de 90 A som beräkningen 9,0/0,10 ger.</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null
+    ],
+    "tolerans": [
+      null
+    ],
+    "självrättning": [
+      false
+    ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Mats använder 9,0 V som om hela spänningen låg över den yttre resistorn. Ett verkligt batteri har inre resistans \\(r\\), så</p>",
+    "ledtrad": "<p>Är resistorn den enda resistansen i kretsen?</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
+    ],
+    "spelIntro": "<p>Mats ansluter en resistor på 0,10 Ω till ett verkligt 9,0 V-batteri. Han räknar ut strömmen som 9,0/0,10 = 90 A.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Mats räknar med 90 A när en resistor på 0,10 Ω ansluts till ett verkligt 9,0 V-batteri. Varför kan strömmen bli mindre?",
+        "s": "<div class=\"facit-v2\"><p>Ett verkligt batteri har en inre resistans r. Den ligger i serie med den yttre resistansen R.</p><p>\\[I=\\mathcal E/(R+r)\\]</p><p>Den sammanlagda resistansen är större än 0,10 Ω. Därför blir strömmen mindre än de 90 A som beräkningen 9,0/0,10 ger.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Batteriets inre resistans begränsar också strömmen.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Batteriets inre resistans begränsar också strömmen.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Resistorn ändrar alltid batteriets ems till noll.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Ohms lag gäller aldrig för resistorer.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Är resistorn den enda resistansen i kretsen?</p>",
+        "t": "<p>Mats räknar med 90 A när en resistor på 0,10 Ω ansluts till ett verkligt 9,0 V-batteri. Varför kan strömmen bli mindre?</p>",
+        "arbetsinsats": 1
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "svarFormat": [
+      null
+    ],
+    "svarEnhet": [
+      null
     ]
   },
   {
@@ -77191,10 +77246,9 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "polspänning från ems och inre resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har spänningen utan belastning (ems) \\(1{,}5\\ \\mathrm V\\) och inre resistansen \\(0{,}20\\ \\Omega\\). Det levererar strömmen \\(0{,}50\\ \\mathrm A\\). Bestäm polspänningen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,20 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När batteriet levererar ström blir polspänningen ems minus det inre spänningsfallet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=1{,}5-0{,}50\\cdot0{,}20=1{,}40\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}40\\ \\mathrm V\\).</p></div>",
+    "t": "<p>Ett batteri har ems 1,5 V och inre resistansen 0,2 Ω. Det levererar strömmen 0,5 A.</p><p>Bestäm batteriets polspänning i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,20 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>När batteriet levererar ström minskar polspänningen med det inre spänningsfallet.</p><p>\\[U=\\mathcal E-rI\\]</p><p>\\[U=1{,}5-0{,}2\\cdot0{,}5=1{,}4\\ \\mathrm V\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
@@ -77202,11 +77256,11 @@ window.BANK = [
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 1.4,
-    "tolerans": 0.001,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "traningsniva": 2,
@@ -77215,7 +77269,8 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.208",
@@ -77237,7 +77292,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "traningsniva": 1,
@@ -77252,46 +77307,89 @@ window.BANK = [
     "id": "8.3",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "tillämpa Ohms lag i enkel krets, ur diagram, sökt ström",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar en krets med en resistor och en amperemeter.</p><span class=\"fig\"><svg height=\"269\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.286 10.714 393.571 211.429\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"312\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"340\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R = 330 Ω</text><circle cx=\"225\" cy=\"48\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"53\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text></svg></span>\n<ol><li>Vad visar amperemetern?</li><li>Vilken effekt utvecklas i resistorn?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Amperemetern antas ideal och ser samma ström som resistorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac UR=\\frac{6{,}0}{330}=0{,}01818\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i resistorn blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=6{,}0\\cdot0{,}01818=0{,}109\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Amperemetern visar \\(18{,}2\\ \\mathrm{mA}\\), och resistorn utvecklar \\(109\\ \\mathrm{mW}\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En resistor på 330 Ω ansluts till 6,0 V.</p><span class=\"fig\"><svg height=\"291.2143766392688\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.665470123291016 1.4816780090332031 397.334529876709 222.5183219909668\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"312\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"340\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R = 330 Ω</text><circle cx=\"225\" cy=\"48\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><text x=\"225\" y=\"53\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">A</text></svg></span><p>a) Bestäm strömmen i A.</p><p>b) Bestäm effekten i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=6{,}0/330\\approx0{,}0182\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=U^2/R=6{,}0^2/330\\approx0{,}109\\ \\mathrm W\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Amperemetern antas ideal och ser samma ström som resistorn.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.01818181818181818,
+      0.10909090909090909
+    ],
+    "tolerans": [
+      0.0005,
+      0.005
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en krets med en resistor och en amperemeter.</p><span class=\"fig\"><svg height=\"269\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.286 10.714 393.571 211.429\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"312\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"340\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R = 330 Ω</text><circle cx=\"225\" cy=\"48\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"53\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text></svg></span>",
+    "spelIntro": "<p>En resistor på 330 Ω ansluts till 6,0 V.</p><span class=\"fig\"><svg height=\"291.2143766392688\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.665470123291016 1.4816780090332031 397.334529876709 222.5183219909668\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"312\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"340\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R = 330 Ω</text><circle cx=\"225\" cy=\"48\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><text x=\"225\" y=\"53\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">A</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad visar amperemetern?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Amperemetern antas ideal och ser samma ström som resistorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac UR=\\frac{6{,}0}{330}=0{,}01818\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}01818\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Amperemetern antas ideal och ser samma ström som resistorn.</p>",
-        "niva": "C"
+        "fraga": "En resistor på 330 Ω ansluts till 6,0 V. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=U/R=6{,}0/330\\approx0{,}0182\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.01818181818181818,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0005,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 330 Ω ansluts till 6,0 V. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken effekt utvecklas i resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i resistorn blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=6{,}0\\cdot0{,}01818=0{,}109\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}109\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Amperemetern antas ideal och ser samma ström som resistorn.</p>",
-        "niva": "C"
+        "fraga": "Spänningen över en resistor är 6,0 V och strömmen är 0,0182 A. Bestäm effekten i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=UI=6{,}0\\cdot0{,}0182=0{,}1092\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.1092,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Spänningen över en resistor är 6,0 V och strömmen är 0,0182 A. Bestäm effekten i W.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
-    "omrTidigare": "kretsar"
+    "spel": true,
+    "manuellKomplettering": false,
+    "omrTidigare": "kretsar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "A",
+      "W"
+    ]
   },
   {
     "id": "8.188",
@@ -77325,89 +77423,164 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "bestämma effektutveckling i en enskild resistor i blandad koppling, ur diagram, sökt effekt",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en blandad koppling.</p><span class=\"fig bred\"><svg height=\"281\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 11.574 469.800 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 300 Ω</text></svg></span>\n<p>Vilken effekt utvecklas i R₃?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Parallellkopplingen av 200 Ω och 300 Ω ger</p><div class=\"facit-matte\">\\[R_{23}=\\frac{200\\cdot300}{200+300}=120\\ \\Omega\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Med \\(R_1=120\\ \\Omega\\) i serie blir totalresistansen 240 Ω och totalströmmen</p><div class=\"facit-matte\">\\[I=\\frac{12}{240}\\approx0{,}05\\ \\mathrm{A}=50\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Parallelldelen har spänningen</p><div class=\"facit-matte\">\\[U_{23}=IR_{23}=0{,}050\\cdot120=6{,}0\\ \\mathrm V\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Effekten i \\(R_3\\) är</p><div class=\"facit-matte\">\\[P_3=\\frac{U_{23}^2}{R_3}=\\frac{6{,}0^2}{300}=0{,}120\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Effekten i \\(R_3\\) är \\(0{,}12\\ \\mathrm W\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>R₁ = 120 Ω ligger i serie med R₂ = 200 Ω och R₃ = 300 Ω som är parallellkopplade. Spänningen är 12 V. Bestäm effekten i R₃. Svara i W.</p><span class=\"fig bred\"><svg height=\"239.07155994481246\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.090293884277344 1.8325958251953125 491.06237030029297 225.7673978805542\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 300 Ω</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Förenkla först parallellkopplingen. Samma totalström går genom R₁ och parallellkopplingen.</p><p>\\[R_p=200\\cdot300/(200+300)\\approx120\\ \\Omega\\]</p><p>\\[I=12/(120+120)\\approx0{,}05\\ \\mathrm A\\]</p><p>\\[U_p=I R_p\\approx6\\ \\mathrm V\\]</p><p>\\[P_3=U_p^2/300=0{,}12\\ \\mathrm W\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.12,
+    "tolerans": 0.005,
+    "självrättning": true,
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Parallellkopplingen av 200 Ω och 300 Ω ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Förenkla parallellkopplingen innan du använder Ohms lag.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "svarEnhet": "W",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "8.5",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett kylskåp drar 120 W när kompressorn går. Den är igång ungefär 30 % av tiden.</p>\n<ol><li>Hur mycket energi drar kylskåpet på ett år?</li><li>Vad kostar det vid 2,50 kr/kWh?</li>\n<li>Varför går kompressorn oftare på sommaren?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Medel­effekten över året är \\(0{,}30\\cdot120=36\\ \\mathrm W\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}036\\cdot24\\cdot365=315{,}4\\ \\mathrm{kWh}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Årskostnaden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[C=315{,}4\\cdot2{,}50=788\\ \\mathrm{kr}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett varmare kök ökar temperaturskillnaden mot kylutrymmet och därmed värmeinflödet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kompressorn måste då gå en större andel av tiden.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kylskåpet använder cirka \\(315\\ \\mathrm{kWh/år}\\), vilket kostar ungefär \\(790\\ \\mathrm{kr}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett kylskåp har effekten 120 W när kompressorn arbetar. Den arbetar 30 % av tiden. Använd 365 dagar per år och elpriset 2,5 kr/kWh.</p><p>a) Hur mycket elenergi används under ett år? Svara i kWh.</p><p>b) Vad kostar elen? Svara i kr.</p><p>c) Förklara vad som händer med rummets temperatur om kylskåpsdörren lämnas öppen.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=0{,}120\\cdot0{,}30\\cdot(365\\cdot24)\\\\&=315{,}36\\ \\mathrm{kWh}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Kostnad}&=315{,}36\\cdot2{,}5\\\\&=788{,}4\\ \\mathrm{kr}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kylskåpet flyttar värme från insidan till rummet. Dess elenergi blir också värme. Med dörren öppen värmer det därför rummet, i stället för att kyla det.</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      315.36,
+      788.4000000000001,
+      null
+    ],
+    "tolerans": [
+      7.884,
+      19.712500000000002,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "ems__batteri_energi_och_kapacitet",
-    "ledtrad": "<p>Medel­effekten över året är \\(0{,}30\\cdot120=36\\ \\mathrm W\\).</p>",
+    "ledtrad": "<p>Beräkna antalet arbetstimmar under året.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett kylskåp drar 120 W när kompressorn går. Den är igång ungefär 30 % av tiden.</p>",
+    "spelIntro": "<p>Ett kylskåp har effekten 120 W när kompressorn arbetar. Den arbetar 30 % av tiden. Använd 365 dagar per år och elpriset 2,5 kr/kWh.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi drar kylskåpet på ett år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Medel­effekten över året är \\(0{,}30\\cdot120=36\\ \\mathrm W\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}036\\cdot24\\cdot365=315{,}4\\ \\mathrm{kWh}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(315{,}4\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>Medel­effekten över året är \\(0{,}30\\cdot120=36\\ \\mathrm W\\).</p>",
+        "fraga": "Ett kylskåp har effekten 120 W när kompressorn arbetar. Den arbetar 30 % av tiden. Hur mycket elenergi används under 365 dagar? Svara i kWh.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=0{,}120\\cdot0{,}30\\cdot(365\\cdot24)\\\\&=315{,}36\\ \\mathrm{kWh}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 315.36,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kWh",
+        "tolerans": 7.884,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna antalet arbetstimmar under året.</p>",
+        "t": "<p>Ett kylskåp har effekten 120 W när kompressorn arbetar. Den arbetar 30 % av tiden. Hur mycket elenergi används under 365 dagar? Svara i kWh.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vad kostar det vid 2,50 kr/kWh?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Årskostnaden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[C=315{,}4\\cdot2{,}50=788\\ \\mathrm{kr}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(788\\ \\mathrm{kr}\\).</p></div>",
-        "ledtrad": "<p>Medel­effekten över året är \\(0{,}30\\cdot120=36\\ \\mathrm W\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett kylskåp använder 315,4 kWh under ett år. Elpriset är 2,5 kr/kWh. Vad kostar elen? Svara i kr.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Kostnad}&=315{,}4\\cdot2{,}5\\\\&=788{,}5\\ \\mathrm{kr}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 788.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kr",
+        "tolerans": 19.712500000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera energin med priset per kWh.</p>",
+        "t": "<p>Ett kylskåp använder 315,4 kWh under ett år. Elpriset är 2,5 kr/kWh. Vad kostar elen? Svara i kr.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Varför går kompressorn oftare på sommaren?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett varmare kök ökar temperaturskillnaden mot kylutrymmet och därmed värmeinflödet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kompressorn måste då gå en större andel av tiden.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Medel­effekten över året är \\(0{,}30\\cdot120=36\\ \\mathrm W\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vad händer med rummets temperatur om ett kylskåp lämnas igång med dörren öppen?",
+        "s": "<div class=\"facit-v2\"><p>Kylskåpet flyttar värme från insidan till rummet. Dess elenergi blir också värme. Med dörren öppen värmer det därför rummet, i stället för att kyla det.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kylskåpet tillför värme till rummet.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kylskåpet tillför värme till rummet.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Kylskåpet kyler hela rummet.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Rummets energi påverkas inte.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vart tar värmen från kylskåpet och dess elenergi vägen?</p>",
+        "t": "<p>Vad händer med rummets temperatur om ett kylskåp lämnas igång med dörren öppen?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "kWh",
+      "kr",
+      null
     ]
   },
   {
@@ -77415,22 +77588,21 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "inre resistans från ems och polspänning",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(4{,}5\\ \\mathrm V\\) och polspänningen \\(4{,}2\\ \\mathrm V\\) när strömmen är \\(1{,}0\\ \\mathrm A\\). Bestäm den inre resistansen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 4,5 V</text><text x=\"102\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skillnaden mellan ems och polspänning ligger över den inre resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\frac{4{,}5-4{,}2}{1{,}0}=0{,}30\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\Omega\\).</p></div>",
+    "t": "<p>Ett batteri har ems 4,5 V. Polspänningen är 4,2 V när strömmen är 1 A.</p><p>Bestäm batteriets inre resistans i Ω.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 4,5 V</text><text x=\"102\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Skillnaden mellan ems och polspänning är spänningsfallet inne i batteriet.</p><p>\\[r=\\frac{\\mathcal E-U}{I}\\]</p><p>\\[r=\\frac{4{,}5-4{,}2}{1}\\]</p><p><strong>Svar:</strong> \\(0{,}3\\ \\Omega\\).</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.3,
-    "tolerans": 0,
+    "rättSvar": 0.2999999999999998,
+    "tolerans": 0.007499999999999996,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Bestäm först det inre spänningsfallet från skillnaden mellan ems och polspänning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
     "traningsniva": 2,
@@ -77439,16 +77611,17 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.6",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Genom en glödlampa med resistansen 1,5 kΩ går strömmen 180 mA.</p>\n<ol><li>Vilken effekt utvecklas i lampan?</li>\n<li>Hur stor ström ska man leda genom en glödlampa med resistansen 800 Ω för att den ska utveckla effekten 20 W?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(P=RI^2\\) med \\(R=1500\\ \\Omega\\) och \\(I=0{,}180\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1500(0{,}180)^2=48{,}6\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut strömmen ur samma samband.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\sqrt{\\frac PR}=\\sqrt{\\frac{20}{800}}=0{,}158\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Effekten är cirka \\(49\\ \\mathrm W\\), och den andra lampan behöver strömmen \\(0{,}16\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>a) En resistor på 1,5 kΩ har strömmen 180 mA. Bestäm effekten i W.</p><p>b) En resistor på 800 Ω utvecklar effekten 20 W. Bestäm strömmen i A.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Omvandla: 1,5 kΩ = 1 500 Ω och 180 mA = 0,180 A.</p><p>\\[P=I^2R=0{,}180^2\\cdot1500=48{,}6\\ \\mathrm W\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=\\sqrt{P/R}=\\sqrt{20/800}\\approx0{,}158\\ \\mathrm A\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -77456,21 +77629,24 @@ window.BANK = [
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      49,
-      0.16
+      48.599999999999994,
+      0.15811388300841897
     ],
     "tolerans": [
-      0.735,
-      0.0048
+      1.2149999999999999,
+      0.005
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "W",
+      "A"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -77481,52 +77657,75 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Genom en glödlampa med resistansen 1,5 kΩ går strömmen 180 mA.</p><div class=\"spel-en-del\">Vilken effekt utvecklas i lampan?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(P=RI^2\\) med \\(R=1500\\ \\Omega\\) och \\(I=0{,}180\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1500(0{,}180)^2=48{,}6\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48{,}6\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Använd \\(P=RI^2\\) med \\(R=1500\\ \\Omega\\) och \\(I=0{,}180\\ \\mathrm A\\).</p>",
-        "niva": "C"
+        "fraga": "En resistor på 1,5 kΩ har strömmen 180 mA. Bestäm effekten i W.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla: 1,5 kΩ = 1 500 Ω och 180 mA = 0,180 A.</p><p>\\[P=I^2R=0{,}180^2\\cdot1500=48{,}6\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 48.599999999999994,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 1.2149999999999999,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En resistor på 1,5 kΩ har strömmen 180 mA. Bestäm effekten i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Genom en glödlampa med resistansen 1,5 kΩ går strömmen 180 mA.</p><div class=\"spel-en-del\">Hur stor ström ska man leda genom en glödlampa med resistansen 800 Ω för att den ska utveckla effekten 20 W?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut strömmen ur samma samband.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\sqrt{\\frac PR}=\\sqrt{\\frac{20}{800}}=0{,}158\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}158\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C"
+        "fraga": "En resistor på 800 Ω utvecklar effekten 20 W. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=\\sqrt{P/R}=\\sqrt{20/800}\\approx0{,}158\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.15811388300841897,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En resistor på 800 Ω utvecklar effekten 20 W. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       }
     ],
     "familjNyckelTidigare": "ems__elektrisk_energi_i_vardagen",
-    "ledtrad": "<p>Använd \\(P=RI^2\\) med \\(R=1500\\ \\Omega\\) och \\(I=0{,}180\\ \\mathrm A\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "spelIntro": "",
+    "manuellKomplettering": false
   },
   {
     "id": "8.210",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "ström från ems polspänning och inre resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(6{,}0\\ \\mathrm V\\), polspänningen \\(5{,}4\\ \\mathrm V\\) och inre resistansen \\(0{,}30\\ \\Omega\\). Bestäm strömmen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 6,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,30 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det inre spänningsfallet är skillnaden mellan ems och polspänning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{6{,}0-5{,}4}{0{,}30}=2{,}0\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Ett batteri har ems 6 V, polspänningen 5,4 V och inre resistansen 0,3 Ω.</p><p>Bestäm strömmen i A.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 6,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,30 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Skillnaden mellan ems och polspänning är spänningsfallet inne i batteriet.</p><p>\\[I=\\frac{\\mathcal E-U}{r}\\]</p><p>\\[I=\\frac{6-5{,}4}{0{,}3}\\]</p><p><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 1.999999999999999,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Bestäm först det inre spänningsfallet från skillnaden mellan ems och polspänning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
     "traningsniva": 2,
@@ -77535,7 +77734,8 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.211",
@@ -77557,7 +77757,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Fundera på vad som händer med det inre spänningsfallet Ir när strömmen ändras.</p>",
     "alternativ": [
       {
         "txt": "Polspänningen är ungefär lika med ems.",
@@ -77916,10 +78116,10 @@ window.BANK = [
     "id": "8.10",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>För att bestämma egenskaperna hos ett batteri har man kopplat in det till en resistor med varierbar resistans. En voltmeter mäter spänningen över resistorn och en amperemeter strömmen genom den.</p><div class=\"fig smal\"><svg width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mätuppställning: batteri, varierbar resistor, amperemeter och voltmeter\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M80.0 70.0 L380.0 70.0 L380.0 240.0 L80.0 240.0 L80.0 70.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"64\" y=\"149\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"64\" y1=\"150\" x2=\"96\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"72\" y1=\"160\" x2=\"88\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"5\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><rect x=\"372.0\" y=\"133.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M358 178 L402 132\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M402 132 l-11 2 l6 7 z\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"110\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"200\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M380.0 110.0 L440.0 110.0 L440.0 141.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M440.0 169.0 L440.0 200.0 L380.0 200.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"440\" cy=\"155\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"440\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text></svg></div>\n<table class=\"data\"><tr><th>Spänning (V)</th><th>Ström (A)</th></tr>\n<tr><td>1,42</td><td>0,25</td></tr><tr><td>1,28</td><td>0,60</td></tr>\n<tr><td>1,10</td><td>1,05</td></tr><tr><td>0,92</td><td>1,50</td></tr></table>\n<ol><li>Anpassa en rät linje till mätvärdena, där spänningen är en funktion av strömmen.</li>\n<li>Bestäm batteriets ems från linjens ekvation.</li>\n<li>Bestäm batteriets inre resistans från linjens ekvation.</li>\n<li>Bestäm batteriets kortslutningsström.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För ett belastat batteri gäller \\(U=\\mathcal E-rI\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En linjär anpassning till samtliga fyra mätpunkter ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=1{,}520-0{,}400I\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärningen med U-axeln vid \\(I=0\\) är emsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mathcal E=1{,}520\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Linjens negativa lutning är \\(-r\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=0{,}400\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning är polspänningen noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0=1{,}520-0{,}400I_k\\Rightarrow I_k=3{,}80\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Anpassningen är \\(U=1{,}520-0{,}400I\\). Emsen är \\(1{,}520\\ \\mathrm V\\), den inre resistansen \\(0{,}400\\ \\Omega\\), och kortslutningsströmmen \\(3{,}80\\ \\mathrm A\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/3/0)",
+    "t": "<p>Ett batteris polspänning mäts vid olika strömmar:</p><table><tr><th>I (A)</th><th>U (V)</th></tr><tr><td>0,25</td><td>1,42</td></tr><tr><td>0,60</td><td>1,28</td></tr><tr><td>1,05</td><td>1,10</td></tr><tr><td>1,50</td><td>0,92</td></tr></table><p>a) Rita U som funktion av I och anpassa en rät linje.</p><p>b) Bestäm batteriets ems och inre resistans från linjen.</p><p>c) Vilken kortslutningsström ger modellen?</p>",
+    "s": "<div class=\"facit-v2\"><p><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Sätt strömmen på x-axeln och polspänningen på y-axeln. Alla punkter ligger på linjen \\(U=1{,}52-0{,}40I\\).</p></div></p><p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Skärningen med U-axeln ger ems 1,52 V. Lutningen är −0,40 V/A, så den inre resistansen är 0,40 Ω.</p></div></p><p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Vid kortslutning är polspänningen noll.</p><p>\\[I_k=\\mathcal E/r=1{,}52/0{,}40=3{,}8\\ \\mathrm A\\]</p></div></p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "modellering",
@@ -77932,42 +78132,38 @@ window.BANK = [
     "självrättning": false,
     "spel": false,
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>För ett belastat batteri gäller \\(U=\\mathcal E-rI\\). En linjär anpassning till samtliga fyra mätpunkter ger</p>",
+    "ledtrad": "<p>Jämför din linje med \\(U=\\mathcal E-rI\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För att bestämma egenskaperna hos ett batteri har man kopplat in det till en resistor med varierbar resistans. En voltmeter mäter spänningen över resistorn och en amperemeter strömmen genom den.</p>\n<table class=\"data\"><tr><th>Spänning (V)</th><th>Ström (A)</th></tr>\n<tr><td>1,42</td><td>0,25</td></tr><tr><td>1,28</td><td>0,60</td></tr>\n<tr><td>1,10</td><td>1,05</td></tr><tr><td>0,92</td><td>1,50</td></tr></table><div class=\"fig smal\"><svg width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mätuppställning: batteri, varierbar resistor, amperemeter och voltmeter\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M80.0 70.0 L380.0 70.0 L380.0 240.0 L80.0 240.0 L80.0 70.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"64\" y=\"149\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"64\" y1=\"150\" x2=\"96\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"72\" y1=\"160\" x2=\"88\" y2=\"160\" stroke=\"#24262b\" stroke-width=\"5\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><rect x=\"372.0\" y=\"133.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M358 178 L402 132\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M402 132 l-11 2 l6 7 z\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"110\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"200\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M380.0 110.0 L440.0 110.0 L440.0 141.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M440.0 169.0 L440.0 200.0 L380.0 200.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"440\" cy=\"155\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"440\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text></svg></div>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Anpassa en rät linje till mätvärdena, där spänningen är en funktion av strömmen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För ett belastat batteri gäller \\(U=\\mathcal E-rI\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En linjär anpassning till samtliga fyra mätpunkter ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=1{,}520-0{,}400I\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}520-0{,}400I\\).</p></div>",
-        "ledtrad": "<p>För ett belastat batteri gäller \\(U=\\mathcal E-rI\\). En linjär anpassning till samtliga fyra mätpunkter ger</p>",
-        "niva": "A"
+        "fraga": "Rita U som funktion av I och anpassa en rät linje.",
+        "s": "<div class=\"facit-v2\"><p>Sätt strömmen på x-axeln och polspänningen på y-axeln. Alla punkter ligger på linjen \\(U=1{,}52-0{,}40I\\).</p></div>",
+        "niva": "C",
+        "traningsniva": 3,
+        "ledtrad": "<p>Jämför din linje med \\(U=\\mathcal E-rI\\).</p>"
       },
       {
         "etikett": "b",
-        "fraga": "Använd linjens ekvation för att bestämma batteriets ems.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärningen med U-axeln vid \\(I=0\\) är emsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mathcal E=1{,}520\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}520\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>För ett belastat batteri gäller \\(U=\\mathcal E-rI\\). En linjär anpassning till samtliga fyra mätpunkter ger</p>",
-        "niva": "A"
+        "fraga": "Bestäm ems och inre resistans.",
+        "s": "<div class=\"facit-v2\"><p>Skärningen med U-axeln ger ems 1,52 V. Lutningen är −0,40 V/A, så den inre resistansen är 0,40 Ω.</p></div>",
+        "niva": "C",
+        "traningsniva": 3,
+        "ledtrad": "<p>Jämför din linje med \\(U=\\mathcal E-rI\\).</p>"
       },
       {
         "etikett": "c",
-        "fraga": "Använd linjens ekvation för att bestämma batteriets inre resistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Linjens negativa lutning är \\(-r\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=0{,}400\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}400\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>För ett belastat batteri gäller \\(U=\\mathcal E-rI\\). En linjär anpassning till samtliga fyra mätpunkter ger</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "d",
-        "fraga": "Bestäm batteriets kortslutningsström.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning är polspänningen noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0=1{,}520-0{,}400I_k\\Rightarrow I_k=3{,}80\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}80\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>För ett belastat batteri gäller \\(U=\\mathcal E-rI\\). En linjär anpassning till samtliga fyra mätpunkter ger</p>",
-        "niva": "A"
+        "fraga": "Bestäm modellens kortslutningsström.",
+        "s": "<div class=\"facit-v2\"><p>Vid kortslutning är polspänningen noll.</p><p>\\[I_k=\\mathcal E/r=1{,}52/0{,}40=3{,}8\\ \\mathrm A\\]</p></div>",
+        "niva": "C",
+        "traningsniva": 3,
+        "ledtrad": "<p>Jämför din linje med \\(U=\\mathcal E-rI\\).</p>"
       }
     ],
     "geogebra": true,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
@@ -77995,7 +78191,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Fundera på vad som händer med det inre spänningsfallet Ir när strömmen ändras.</p>",
     "alternativ": [
       {
         "txt": "Polspänningen är lägre än ems.",
@@ -78342,32 +78538,35 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteris ems är 1,5 V och dess inre resistans är 600 mΩ. Henrik vill koppla en resistor till batteriet så att det utvecklas en så stor effekt som möjligt i resistorn.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,60 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text></svg></div>\n<ol><li>Hur stor resistans ska resistorn ha?</li><li>Hur stor blir effekten i resistorn då?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lasteffekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_R=RI^2=R\\left(\\frac{\\mathcal E}{R+r}\\right)^2=\\frac{\\mathcal E^2R}{(R+r)^2}\\]</div></div><div class=\"facit-stycke\"><p>Den är maximal när lastresistansen är lika med den inre resistansen: \\(R=r=0{,}600\\ \\Omega\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid denna anpassning blir strömmen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{1{,}5}{0{,}600+0{,}600}=1{,}25\\ \\mathrm A\\]\\[P_R=0{,}600(1{,}25)^2=0{,}9375\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Hälften av batteriets effekt förloras då internt; maximal effekt är inte samma sak som maximal verkningsgrad.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resistorn ska vara \\(0{,}60\\ \\Omega\\), och maximal lasteffekt blir cirka \\(0{,}94\\ \\mathrm W\\).</p></div>",
+    "poang": "(1/0/1)",
+    "t": "<p>Ett batteri har ems 1,5 V och inre resistans 0,60 Ω. Det kopplas till en yttre resistor med variabel resistans R.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,60 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text></svg></div><p>a) Vilken yttre resistans ger störst effekt i den yttre resistorn? Svara i Ω och motivera med beräkningar eller en graf.</p><p>b) Bestäm denna största effekt i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Lastens effekt är \\(P_R=\\mathcal E^2R/(R+r)^2\\).</p><p>Eftersom \\((R-r)^2\\ge0\\) gäller \\((R+r)^2\\ge4Rr\\). Därför:</p><p>\\[P_R\\le\\mathcal E^2/(4r)\\]</p><p>Likhet fås när R = r. Effekten är alltså störst vid R = 0,60 Ω.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=1{,}5/(0{,}60+0{,}60)=1{,}25\\ \\mathrm A\\]</p><p>\\[P_R=I^2R=1{,}25^2\\cdot0{,}60=0{,}9375\\ \\mathrm W\\]</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
+      "procedur",
       "problemlösning"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.6,
-      0.94
+      0.9375
     ],
     "tolerans": [
-      0.01,
-      0.014099999999999998
+      0.015,
+      0.0234375
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "Ω",
+      "W"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -78375,23 +78574,45 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+    "ledtrad": "<p>Skriv lastens effekt som funktion av R. Du kan jämföra värden eller använda en graf.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteris ems är 1,5 V och dess inre resistans är 600 mΩ. Henrik vill koppla en resistor till batteriet så att det utvecklas en så stor effekt som möjligt i resistorn.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,60 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text></svg></div>",
+    "spelIntro": "<p>Ett batteri har ems 1,5 V och inre resistans 0,60 Ω. Det kopplas till en yttre resistor med variabel resistans R.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,60 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor resistans ska resistorn ha?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lasteffekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_R=RI^2=R\\left(\\frac{\\mathcal E}{R+r}\\right)^2=\\frac{\\mathcal E^2R}{(R+r)^2}\\]</div></div><div class=\"facit-stycke\"><p>Den är maximal när lastresistansen är lika med den inre resistansen: \\(R=r=0{,}600\\ \\Omega\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\mathcal E^2R}{(R+r)^2}\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "A"
+        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,60 Ω. Vilken yttre resistans ger störst effekt i den yttre resistorn? Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Lastens effekt är \\(P_R=\\mathcal E^2R/(R+r)^2\\).</p><p>Eftersom \\((R-r)^2\\ge0\\) gäller \\((R+r)^2\\ge4Rr\\). Därför:</p><p>\\[P_R\\le\\mathcal E^2/(4r)\\]</p><p>Likhet fås när R = r. Effekten är alltså störst vid R = 0,60 Ω.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.015,
+        "manuellKomplettering": false,
+        "niva": "A",
+        "traningsniva": 4,
+        "poang": "0/0/1",
+        "ledtrad": "<p>Skriv lastens effekt som funktion av R. Du kan jämföra värden eller använda en graf.</p>",
+        "t": "<p>Ett batteri har ems 1,5 V och inre resistans 0,60 Ω. Vilken yttre resistans ger störst effekt i den yttre resistorn? Svara i Ω.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor blir effekten i resistorn då?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid denna anpassning blir strömmen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{1{,}5}{0{,}600+0{,}600}=1{,}25\\ \\mathrm A\\]\\[P_R=0{,}600(1{,}25)^2=0{,}9375\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Hälften av batteriets effekt förloras då internt; maximal effekt är inte samma sak som maximal verkningsgrad.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}9375\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "A"
+        "fraga": "Ett batteri med ems 1,5 V och inre resistans 0,60 Ω kopplas till en resistor på 0,60 Ω. Bestäm effekten i resistorn i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=1{,}5/(0{,}60+0{,}60)=1{,}25\\ \\mathrm A\\]</p><p>\\[P_R=I^2R=1{,}25^2\\cdot0{,}60=0{,}9375\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9375,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.0234375,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Ett batteri med ems 1,5 V och inre resistans 0,60 Ω kopplas till en resistor på 0,60 Ω. Bestäm effekten i resistorn i W.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
@@ -78402,48 +78623,48 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": true
   },
   {
     "id": "8.213",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "kortslutningsström",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(9{,}0\\ \\mathrm V\\) och inre resistansen \\(1{,}4\\ \\Omega\\). Bestäm kortslutningsströmmen enligt modellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning begränsas strömmen i modellen bara av den inre resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_k=\\frac{9{,}0}{1{,}4}\\approx6{,}4\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}4\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Ett batteri har ems 9,0 V och inre resistansen 1,4 Ω.</p><p>Bestäm kortslutningsströmmen enligt batterimodellen. Svara i A.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vid kortslutning är den yttre resistansen noll i modellen. Strömmen begränsas då av den inre resistansen.</p><p>\\[I_k=\\mathcal E/r=9{,}0/1{,}4\\approx6{,}4\\ \\mathrm A\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.42857142857,
-    "tolerans": 0.0964,
+    "rättSvar": 6.428571428571429,
+    "tolerans": 0.16071428571428573,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Vilken resistans finns kvar i batterimodellen när den yttre resistansen är noll?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.214",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "effektförlust i inre resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Strömmen genom ett batteri är \\(2{,}6\\ \\mathrm A\\) och den inre resistansen är \\(0{,}35\\ \\Omega\\). Hur stor effekt utvecklas som värme inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Värmeeffekten i den inre resistansen kan beräknas som \\(I^2r\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_r=I^2r=2{,}6^2\\cdot0{,}35\\approx2{,}37\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}37\\ \\mathrm W\\).</p></div>",
+    "t": "<p>Strömmen genom ett batteri är 2,6 A och den inre resistansen är 0,35 Ω.</p><p>Hur stor effekt blir värme inne i batteriet? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=2{,}6^2\\cdot0{,}35=2{,}366\\ \\mathrm W\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -78451,20 +78672,21 @@ window.BANK = [
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 2.366,
-    "tolerans": 0.0355,
+    "tolerans": 0.05915000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd P=I²r för den inre resistansen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.14",
@@ -78472,8 +78694,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Spänningen över en resistor är 1,5 V och strömmen genom den är 50 mA.</p>\n<ol><li>Hur stor effekt utvecklas i resistorn?</li><li>Vilken resistans har resistorn?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv först strömmen i ampere: \\(50\\ \\mathrm{mA}=0{,}050\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten fås sedan från \\(P=UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1{,}5\\cdot0{,}050=0{,}075\\ \\mathrm W=75\\ \\mathrm{mW}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med samma spänning och ström ger Ohms lag resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{1{,}5}{0{,}050}=30\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Effekten är \\(75\\ \\mathrm{mW}\\) och resistansen \\(30\\ \\Omega\\).</p></div>",
+    "t": "<p>En lampa ansluts till 1,5 V och drar 50 mA.</p><p>a) Bestäm effekten i mW.</p><p>b) Bestäm resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>50 mA = 0,050 A.</p><p>\\[\\begin{aligned}P&=UI\\\\&=1{,}5\\cdot0{,}050\\\\&=0{,}075\\ \\mathrm W\\\\&=75\\ \\mathrm{mW}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=1{,}5/0{,}050\\\\&=30\\ \\Omega\\end{aligned}\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -78485,10 +78707,13 @@ window.BANK = [
       30
     ],
     "tolerans": [
-      1.125,
-      0.44999999999999996
+      1.875,
+      0.75
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -78503,25 +78728,45 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "ems__elektrisk_energi_i_vardagen",
-    "ledtrad": "<p>Skriv först strömmen i ampere: \\(50\\ \\mathrm{mA}=0{,}050\\ \\mathrm A\\). Effekten fås sedan från \\(P=UI\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Spänningen över en resistor är 1,5 V och strömmen genom den är 50 mA.</p>",
+    "spelIntro": "<p>En lampa ansluts till 1,5 V och drar 50 mA.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor effekt utvecklas i resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv först strömmen i ampere: \\(50\\ \\mathrm{mA}=0{,}050\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten fås sedan från \\(P=UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=1{,}5\\cdot0{,}050=0{,}075\\ \\mathrm W=75\\ \\mathrm{mW}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\ \\mathrm{mW}\\).</p></div>",
-        "ledtrad": "<p>Skriv först strömmen i ampere: \\(50\\ \\mathrm{mA}=0{,}050\\ \\mathrm A\\). Effekten fås sedan från \\(P=UI\\).</p>",
+        "fraga": "En lampa ansluts till 1,5 V och drar 50 mA. Bestäm effekten i mW.",
+        "s": "<div class=\"facit-v2\"><p>50 mA = 0,050 A.</p><p>\\[\\begin{aligned}P&=UI\\\\&=1{,}5\\cdot0{,}050\\\\&=0{,}075\\ \\mathrm W\\\\&=75\\ \\mathrm{mW}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 75,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mW",
+        "tolerans": 1.875,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En lampa ansluts till 1,5 V och drar 50 mA. Bestäm effekten i mW.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken resistans har resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med samma spänning och ström ger Ohms lag resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{1{,}5}{0{,}050}=30\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Skriv först strömmen i ampere: \\(50\\ \\mathrm{mA}=0{,}050\\ \\mathrm A\\). Effekten fås sedan från \\(P=UI\\).</p>",
+        "fraga": "En lampa ansluts till 1,5 V och drar 50 mA. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=1{,}5/0{,}050\\\\&=30\\ \\Omega\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 30,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.75,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En lampa ansluts till 1,5 V och drar 50 mA. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
@@ -78532,30 +78777,29 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.215",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "verkningsgrad från ems och polspänning",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(12\\ \\mathrm V\\) och polspänningen \\(10\\ \\mathrm V\\) under belastning. Hur stor andel av batteriets elektriska effekt når den yttre kretsen? Svara i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid samma ström är nyttig effekt \\(UI\\) och total effekt \\(\\varepsilon I\\), så kvoten blir \\(U/\\varepsilon\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{10}{12}\\cdot100\\%\\approx83{,}3\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(83{,}3\\,\\%\\).</p></div>",
+    "t": "<p>Ett batteri har ems 12 V och polspänningen 10 V när det levererar ström.</p><p>Hur många procent av batteriets elektriska effekt når den yttre kretsen?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den yttre effekten är UI och batteriets totala effekt är ems gånger I. Samma ström finns i båda, så strömmen tar ut sig.</p><p>\\[\\eta=\\frac{UI}{\\mathcal EI}=\\frac{U}{\\mathcal E}\\]</p><p>\\[\\eta=10/12\\approx0{,}833=83{,}3\\ \\%\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 83.3,
-    "tolerans": 0.2,
+    "rättSvar": 83.33333333333333,
+    "tolerans": 2.0833333333333335,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Skriv den yttre och den totala effekten med samma ström.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "traningsniva": 2,
@@ -78564,17 +78808,17 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.216",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "polspänning från ems och inre resistans",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har spänningen utan belastning (ems) \\(3{,}0\\ \\mathrm V\\), inre resistansen \\(0{,}50\\ \\Omega\\) och levererar \\(1{,}0\\ \\mathrm A\\). Bestäm polspänningen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 3,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,50 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dra bort det inre spänningsfallet från ems.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=3{,}0-1{,}0\\cdot0{,}50=2{,}5\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm V\\).</p></div>",
+    "t": "<p>Ett batteri har ems 3 V och inre resistansen 0,5 Ω. Det levererar strömmen 1 A.</p><p>Bestäm batteriets polspänning i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 3,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,50 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>När batteriet levererar ström minskar polspänningen med det inre spänningsfallet.</p><p>\\[U=\\mathcal E-rI\\]</p><p>\\[U=3-0{,}5\\cdot1=2{,}5\\ \\mathrm V\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
@@ -78582,11 +78826,11 @@ window.BANK = [
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0,
+    "tolerans": 0.0625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "traningsniva": 2,
@@ -78595,16 +78839,17 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.15",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En solcellspanel har arean 1,7 m². Vid en instrålning på 800 W/m² levererar den 22,5 V och 9,0 A.</p>\n<ol><li>Hur stor effekt träffar panelen?</li><li>Hur stor eleffekt ger den?</li><li>Vilken verkningsgrad har panelen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den infallande solenergin per sekund är instrålning gånger area.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Panelens elektriska uteffekt är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=UI=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{P_{\\mathrm{el}}}{P_{\\mathrm{in}}}=\\frac{202{,}5}{1360}=0{,}1489\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Panelen träffas av \\(1{,}36\\ \\mathrm{kW}\\), ger \\(203\\ \\mathrm W\\) elektriskt och har verkningsgraden cirka \\(14{,}9\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En solpanel har arean 1,7 m². Solljuset ger 800 W per m². Panelen ger 9,0 A vid 22,5 V.</p><p>a) Vilken effekt tar panelen emot? Svara i W.</p><p>b) Vilken elektrisk effekt ger panelen? Svara i W.</p><p>c) Bestäm verkningsgraden i %.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{el}}=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\eta=202{,}5/1360\\cdot100\\approx14{,}9\\ \\%\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -78614,27 +78859,27 @@ window.BANK = [
     "rättSvar": [
       1360,
       202.5,
-      null
+      14.88970588235294
     ],
     "tolerans": [
-      20.4,
-      3.0375,
-      null
+      50.0,
+      5.0625,
+      0.5
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "W",
       "W",
-      null
+      "%"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -78643,41 +78888,71 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "ems__elektrisk_energi_i_vardagen",
-    "ledtrad": "<p>Den infallande solenergin per sekund är instrålning gånger area.</p>",
+    "ledtrad": "<p>Multiplicera effekten per kvadratmeter med arean.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En solcellspanel har arean 1,7 m². Vid en instrålning på 800 W/m² levererar den 22,5 V och 9,0 A.</p>",
+    "spelIntro": "<p>En solpanel har arean 1,7 m². Solljuset ger 800 W per m². Panelen ger 9,0 A vid 22,5 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor effekt träffar panelen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den infallande solenergin per sekund är instrålning gånger area.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1360\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Den infallande solenergin per sekund är instrålning gånger area.</p>",
+        "fraga": "Solljuset ger 800 W per m² på en solpanel med arean 1,7 m². Vilken effekt tar panelen emot? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1360,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 50.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera effekten per kvadratmeter med arean.</p>",
+        "t": "<p>Solljuset ger 800 W per m² på en solpanel med arean 1,7 m². Vilken effekt tar panelen emot? Svara i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor eleffekt ger den?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Panelens elektriska uteffekt är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=UI=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(202{,}5\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Den infallande solenergin per sekund är instrålning gånger area.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En solpanel ger 9,0 A vid 22,5 V. Vilken elektrisk effekt ger den? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{el}}=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 202.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 5.0625,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En solpanel ger 9,0 A vid 22,5 V. Vilken elektrisk effekt ger den? Svara i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken verkningsgrad har panelen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{P_{\\mathrm{el}}}{P_{\\mathrm{in}}}=\\frac{202{,}5}{1360}=0{,}1489\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}1489\\).</p></div>",
-        "ledtrad": "<p>Den infallande solenergin per sekund är instrålning gånger area.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En solpanel tar emot 1 360 W från solljuset och ger 203 W elektrisk effekt. Bestäm verkningsgraden i %. ",
+        "s": "<div class=\"facit-v2\"><p>\\[\\eta=203/1360\\cdot100\\approx14{,}9\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 14.926470588235293,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera användbar effekt med tillförd effekt.</p>",
+        "t": "<p>En solpanel tar emot 1 360 W från solljuset och ger 203 W elektrisk effekt. Bestäm verkningsgraden i %. </p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
@@ -78703,7 +78978,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>När batteriet ger ström är ems summan av polspänningen och det inre spänningsfallet.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "traningsniva": 1,
@@ -78977,48 +79252,114 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "undersöka hur ström och effekt ändras när en brytare kortsluter en resistor, ur diagram, sökt ström och effekt",
-    "poang": "(1/2/0)",
-    "t": "<p>I figuren är en brytare kopplad parallellt med R₂.</p><span class=\"fig bred\"><svg height=\"291\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 11.574 453.600 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"158\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"430\" cy=\"112\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"430\" cy=\"158\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"430\" y1=\"158\" x2=\"447\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"455\" y=\"140\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">brytare</text></svg></span>\n<ol><li>Hur stor är strömmen genom batteriet när brytaren är öppen respektive sluten?</li>\n<li>Hur många gånger större blir effekten i R₁ när brytaren sluts?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med öppen brytare går strömmen genom båda resistorerna i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_o=\\frac{12}{100+200}\\approx0{,}04\\ \\mathrm{A}=40\\ \\mathrm{mA}\\]</div></div><div class=\"facit-stycke\"><p>Med sluten brytare kortsluts \\(R_2\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Då återstår endast \\(R_1\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_s=\\frac{12}{100}\\approx0{,}12\\ \\mathrm{A}=120\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen genom \\(R_1\\) tredubblas, så effekten blir nio gånger större.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_o=100(0{,}040)^2=0{,}16\\ \\mathrm W\\]\\[P_s=100(0{,}120)^2=1{,}44\\ \\mathrm W\\]\\[\\frac{P_s}{P_o}=9\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batteriströmmen är \\(40\\ \\mathrm{mA}\\) öppen och \\(120\\ \\mathrm{mA}\\) sluten. Effekten i \\(R_1\\) blir nio gånger större.</p></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Brytaren i figuren kan vara öppen eller sluten. Spänningskällan ger 12 V i båda fallen.</p><span class=\"fig bred\"><svg height=\"251.25452565812827\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.12632751464844 1.608107566833496 467.7160758972168 225.99188613891602\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"158\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"430\" cy=\"112\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"430\" cy=\"158\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"430\" y1=\"158\" x2=\"447\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"455\" y=\"140\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"400\" fill=\"#5C575E\">brytare</text></svg></span><p>a) Bestäm totalströmmen med öppen respektive sluten brytare. Svara i A.</p><p>b) Hur många gånger så stor blir effekten i R₁ när brytaren sluts?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Med öppen brytare går strömmen genom båda resistorerna i serie. När brytaren sluts går strömmen förbi R₂.</p><p>\\[I_{\\text{öppen}}=12/(100+200)=0{,}04\\ \\mathrm A\\]</p><p>\\[I_{\\text{sluten}}=12/100=0{,}12\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>R₁ är oförändrad, så \\(P=I^2R\\) ger:</p><p>\\[P_{\\text{ny}}/P_{\\text{gammal}}=(0{,}12/0{,}04)^2=9\\]</p><p>Effekten blir 9,0 gånger så stor.</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        0.04,
+        0.12
+      ],
+      9.0
+    ],
+    "tolerans": [
+      [
+        0.001,
+        0.005
+      ],
+      0.225
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Med öppen brytare går strömmen genom båda resistorerna i serie.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I figuren är en brytare kopplad parallellt med R₂.</p><span class=\"fig bred\"><svg height=\"291\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55.543 11.574 453.600 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"158\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"430\" cy=\"112\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"430\" cy=\"158\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"430\" y1=\"158\" x2=\"447\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"455\" y=\"140\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">brytare</text></svg></span>",
+    "spelIntro": "<p>Brytaren i figuren kan vara öppen eller sluten. Spänningskällan ger 12 V i båda fallen.</p><span class=\"fig bred\"><svg height=\"251.25452565812827\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.12632751464844 1.608107566833496 467.7160758972168 225.99188613891602\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"158\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"430\" cy=\"112\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"430\" cy=\"158\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"430\" y1=\"158\" x2=\"447\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"455\" y=\"140\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"400\" fill=\"#5C575E\">brytare</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är strömmen genom batteriet när brytaren är öppen respektive sluten?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med öppen brytare går strömmen genom båda resistorerna i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_o=\\frac{12}{100+200}\\approx0{,}04\\ \\mathrm{A}=40\\ \\mathrm{mA}\\]</div></div><div class=\"facit-stycke\"><p>Med sluten brytare kortsluts \\(R_2\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Då återstår endast \\(R_1\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_s=\\frac{12}{100}\\approx0{,}12\\ \\mathrm{A}=120\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Med öppen brytare går strömmen genom båda resistorerna i serie.</p>",
-        "niva": "C"
+        "fraga": "Kretsen i figuren ansluts till 12 V. Bestäm totalströmmen med öppen respektive sluten brytare. Svara i A.<span class=\"fig bred\"><svg height=\"251.25452565812827\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.12632751464844 1.608107566833496 467.7160758972168 225.99188613891602\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"158\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"430\" cy=\"112\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"430\" cy=\"158\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"430\" y1=\"158\" x2=\"447\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"455\" y=\"140\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"400\" fill=\"#5C575E\">brytare</text></svg></span>",
+        "s": "<div class=\"facit-v2\"><p>Öppen brytare: R₁ och R₂ i serie. Sluten brytare: R₂ kortsluts.</p><p>\\[I_{\\text{öppen}}=12/(100+200)=0{,}040\\ \\mathrm A\\]</p><p>\\[I_{\\text{sluten}}=12/100=0{,}120\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0.04,
+          0.12
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "A",
+          "A"
+        ],
+        "tolerans": [
+          0.001,
+          0.005
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Kretsen i figuren ansluts till 12 V. Bestäm totalströmmen med öppen respektive sluten brytare. Svara i A.<span class=\"fig bred\"><svg height=\"251.25452565812827\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.12632751464844 1.608107566833496 467.7160758972168 225.99188613891602\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"158\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"430\" cy=\"112\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"430\" cy=\"158\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"430\" y1=\"158\" x2=\"447\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"455\" y=\"140\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"400\" fill=\"#5C575E\">brytare</text></svg></span></p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Öppen brytare",
+          "Sluten brytare"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur många gånger större blir effekten i R₁ när brytaren sluts?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen genom \\(R_1\\) tredubblas, så effekten blir nio gånger större.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_o=100(0{,}040)^2=0{,}16\\ \\mathrm W\\]\\[P_s=100(0{,}120)^2=1{,}44\\ \\mathrm W\\]\\[\\frac{P_s}{P_o}=9\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\).</p></div>",
-        "ledtrad": "<p>Med öppen brytare går strömmen genom båda resistorerna i serie.</p>",
-        "niva": "C"
+        "fraga": "Strömmen genom en resistor ökar från 0,040 A till 0,120 A. Resistansen är oförändrad. Hur många gånger så stor blir effekten?",
+        "s": "<div class=\"facit-v2\"><p>R₁ är oförändrad, så \\(P=I^2R\\) ger:</p><p>\\[P_{\\text{ny}}/P_{\\text{gammal}}=(0{,}12/0{,}04)^2=9\\]</p><p>Effekten blir 9,0 gånger så stor.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.225,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Strömmen genom en resistor ökar från 0,040 A till 0,120 A. Resistansen är oförändrad. Hur många gånger så stor blir effekten?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "A",
+        "A"
+      ],
+      null
     ]
   },
   {
@@ -80143,10 +80484,10 @@ window.BANK = [
     "id": "8.27",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett batteri är märkt 2,0 Ah och 9,0 V.</p>\n<ol><li>Hur stor laddning kan batteriet leverera?</li><li>Hur mycket energi motsvarar det?</li>\n<li>Hur länge kan det driva en apparat som drar 150 mA?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En amperetimme är 3600 coulomb.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nominella energin är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=QU=7200\\cdot9{,}0=64800\\ \\mathrm J=64{,}8\\ \\mathrm{kJ}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid konstant ström 0,150 A blir den idealiska tiden</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{2{,}0\\ \\mathrm{Ah}}{0{,}150\\ \\mathrm A}=13{,}33\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batteriet rymmer \\(7200\\ \\mathrm C\\) och nominellt \\(64{,}8\\ \\mathrm{kJ}\\); det räcker idealiskt cirka \\(13{,}3\\ \\mathrm h\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett batteri har kapaciteten 2,0 Ah och spänningen 9 V.</p><p>a) Hur stor laddning kan batteriet ge? Svara i C.</p><p>b) Hur mycket energi kan batteriet ge? Svara i kJ.</p><p>c) Hur länge räcker batteriet vid strömmen 150 mA? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=UQ=9\\cdot7200=64800\\ \\mathrm J\\]</p><p>\\[E=64{,}8\\ \\mathrm{kJ}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}15\\approx13{,}333\\ \\mathrm h\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -80156,27 +80497,27 @@ window.BANK = [
     "rättSvar": [
       7200,
       64.8,
-      null
+      13.333333333333334
     ],
     "tolerans": [
-      108,
-      0.972,
-      null
+      180.0,
+      1.62,
+      0.5
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "C",
       "kJ",
-      null
+      "h"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -80184,41 +80525,71 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>En amperetimme är strömmen 1 A under 3 600 s.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteri är märkt 2,0 Ah och 9,0 V.</p>",
+    "spelIntro": "<p>Ett batteri har kapaciteten 2,0 Ah och spänningen 9 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor laddning kan batteriet leverera?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En amperetimme är 3600 coulomb.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\ \\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+        "fraga": "Ett batteri har kapaciteten 2 Ah. Hur stor laddning motsvarar detta? Svara i C.",
+        "s": "<div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7200,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "C",
+        "tolerans": 180.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>En amperetimme är strömmen 1 A under 3 600 s.</p>",
+        "t": "<p>Ett batteri har kapaciteten 2 Ah. Hur stor laddning motsvarar detta? Svara i C.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nominella energin är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=QU=7200\\cdot9{,}0=64800\\ \\mathrm J=64{,}8\\ \\mathrm{kJ}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(64{,}8\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett batteri kan ge laddningen 7 200 C vid spänningen 9 V. Hur mycket energi kan det ge? Svara i kJ.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=UQ=9\\cdot7200=64800\\ \\mathrm J\\]</p><p>\\[E=64{,}8\\ \\mathrm{kJ}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 64.8,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kJ",
+        "tolerans": 1.62,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(E=UQ\\).</p>",
+        "t": "<p>Ett batteri kan ge laddningen 7 200 C vid spänningen 9 V. Hur mycket energi kan det ge? Svara i kJ.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur länge kan det driva en apparat som drar 150 mA?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid konstant ström 0,150 A blir den idealiska tiden</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{2{,}0\\ \\mathrm{Ah}}{0{,}150\\ \\mathrm A}=13{,}33\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}33\\ \\mathrm h\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett batteri har kapaciteten 2,0 Ah och driver strömmen 150 mA. Hur länge räcker det? Svara i timmar.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}15\\approx13{,}333\\ \\mathrm h\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 13.333333333333334,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv strömmen i A. Ah dividerat med A ger timmar.</p>",
+        "t": "<p>Ett batteri har kapaciteten 2,0 Ah och driver strömmen 150 mA. Hur länge räcker det? Svara i timmar.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "kretsar"
   },
   {
@@ -81362,8 +81733,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Genom en resistor på 470 Ω går strömmen 25 mA.</p>\n<ol><li>Vilken spänning ligger över resistorn?</li><li>Vilken effekt utvecklas i den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är \\(25\\ \\mathrm{mA}=0{,}025\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=11{,}75\\cdot0{,}025=0{,}2938\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Spänningen är cirka \\(11{,}8\\ \\mathrm V\\), och effekten \\(0{,}29\\ \\mathrm W\\).</p></div>",
+    "t": "<p>En resistor på 470 Ω har strömmen 25 mA.</p><p>a) Bestäm spänningen i V.</p><p>b) Bestäm effekten i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>25 mA = 0,025 A.</p><p>\\[U=RI=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=UI=11{,}75\\cdot0{,}025=0{,}29375\\ \\mathrm W\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -81371,21 +81742,24 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      11.8,
-      0.29
+      11.75,
+      0.29375
     ],
     "tolerans": [
-      0.177,
-      0.01
+      0.5,
+      0.0073437500000000005
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "V",
+      "W"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -81396,37 +81770,59 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Genom en resistor på 470 Ω går strömmen 25 mA.</p><div class=\"spel-en-del\">Vilken spänning ligger över resistorn?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är \\(25\\ \\mathrm{mA}=0{,}025\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}75\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Strömmen är \\(25\\ \\mathrm{mA}=0{,}025\\ \\mathrm A\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+        "fraga": "En resistor på 470 Ω har strömmen 25 mA. Bestäm spänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>25 mA = 0,025 A.</p><p>\\[U=RI=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 11.75,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 470 Ω har strömmen 25 mA. Bestäm spänningen i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Genom en resistor på 470 Ω går strömmen 25 mA.</p><div class=\"spel-en-del\">Vilken effekt utvecklas i den?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=11{,}75\\cdot0{,}025=0{,}2938\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}2938\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+        "fraga": "Spänningen över en resistor är 11,75 V och strömmen är 25 mA. Bestäm effekten i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=UI=11{,}75\\cdot0{,}025=0{,}29375\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.29375,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.0073437500000000005,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Spänningen över en resistor är 11,75 V och strömmen är 25 mA. Bestäm effekten i W.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Strömmen är \\(25\\ \\mathrm{mA}=0{,}025\\ \\mathrm A\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "spelIntro": "<p>En resistor på 470 Ω har strömmen 25 mA.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "8.37",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En laddare levererar 5,0 V och 2,2 A i 80 minuter.</p>\n<ol><li>Hur mycket energi har överförts?</li>\n<li>Mobilbatteriet är märkt 4000 mAh vid 3,7 V. Hur mycket energi rymmer det?</li><li>Kommentera skillnaden.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=UIt=5{,}0\\cdot2{,}2\\cdot4800=5{,}28\\cdot10^4\\ \\mathrm J\\approx14{,}7\\ \\mathrm{Wh}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kapaciteten \\(4000\\ \\mathrm{mAh}=4{,}0\\ \\mathrm{Ah}\\) motsvarar laddningen \\(Q=4{,}0\\cdot3600=14400\\ \\mathrm C\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=QU=14400\\cdot3{,}7=5{,}328\\cdot10^4\\ \\mathrm J=14{,}8\\ \\mathrm{Wh}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De nominella värdena är nästan lika, men verklig laddspänning och ström varierar under laddningen och en del energi blir värme i elektronik och batteri.</p></div><div class=\"facit-stycke\"><p>Därför kan man inte tolka 5,0 V och 2,2 A som konstant lagrad effekt under hela tiden.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Laddaren överför nominellt \\(52{,}8\\ \\mathrm{kJ}\\approx14{,}7\\ \\mathrm{Wh}\\). Batteriets märkenergi är cirka \\(53\\ \\mathrm{kJ}=14{,}8\\ \\mathrm{Wh}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En laddare ger 5,0 V och 2,2 A under 80 minuter. Batteriet är märkt 4 000 mAh och 3,7 V.</p><p>a) Hur mycket energi ger laddaren? Svara i Wh.</p><p>b) Vilken energi motsvarar batteriets märkvärden? Svara i Wh.</p><p>c) Förklara hur den lilla skillnaden mellan energierna kan uppstå.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=5{,}0\\cdot2{,}2\\cdot(80/60)\\approx14{,}7\\ \\mathrm{Wh}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot4{,}0=14{,}8\\ \\mathrm{Wh}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Energierna är nästan lika. Märkvärdena är avrundade, så den lilla skillnaden kan inte användas som bevis för att batteriet lagrar mer energi än laddaren ger. I en verklig laddning blir en del av elenergin värme.</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -81434,13 +81830,13 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      14.6666666667,
+      14.666666666666666,
       14.8,
       null
     ],
     "tolerans": [
-      0.22,
-      0.222,
+      0.5,
+      0.5,
       null
     ],
     "självrättning": [
@@ -81464,39 +81860,86 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+    "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En laddare levererar 5,0 V och 2,2 A i 80 minuter.</p>",
+    "spelIntro": "<p>En laddare ger 5,0 V och 2,2 A under 80 minuter. Batteriet är märkt 4 000 mAh och 3,7 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi har överförts?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=UIt=5{,}0\\cdot2{,}2\\cdot4800=5{,}28\\cdot10^4\\ \\mathrm J\\approx14{,}7\\ \\mathrm{Wh}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{Wh}\\).</p></div>",
-        "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+        "fraga": "En laddare ger 5,0 V och 2,2 A under 80 minuter. Hur mycket energi ger den? Svara i Wh.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=5{,}0\\cdot2{,}2\\cdot(80/60)\\approx14{,}7\\ \\mathrm{Wh}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 14.666666666666666,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Wh",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>En laddare ger 5,0 V och 2,2 A under 80 minuter. Hur mycket energi ger den? Svara i Wh.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Mobilbatteriet är märkt 4000 mAh vid 3,7 V. Hur mycket energi rymmer det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kapaciteten \\(4000\\ \\mathrm{mAh}=4{,}0\\ \\mathrm{Ah}\\) motsvarar laddningen \\(Q=4{,}0\\cdot3600=14400\\ \\mathrm C\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_b=QU=14400\\cdot3{,}7=5{,}328\\cdot10^4\\ \\mathrm J=14{,}8\\ \\mathrm{Wh}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}8\\ \\mathrm{Wh}\\).</p></div>",
-        "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+        "fraga": "Ett batteri är märkt 4 000 mAh och 3,7 V. Vilken energi motsvarar dessa märkvärden? Svara i Wh.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot4{,}0=14{,}8\\ \\mathrm{Wh}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 14.8,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Wh",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv kapaciteten i Ah och använd \\(E=UQ\\).</p>",
+        "t": "<p>Ett batteri är märkt 4 000 mAh och 3,7 V. Vilken energi motsvarar dessa märkvärden? Svara i Wh.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Kommentera skillnaden.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De nominella värdena är nästan lika, men verklig laddspänning och ström varierar under laddningen och en del energi blir värme i elektronik och batteri.</p></div><div class=\"facit-stycke\"><p>Därför kan man inte tolka 5,0 V och 2,2 A som konstant lagrad effekt under hela tiden.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Laddningstiden är \\(80\\ \\mathrm{min}=4800\\ \\mathrm s\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Laddarens beräknade energi är 14,7 Wh och batteriets avrundade märkvärden ger 14,8 Wh. Vilken slutsats är rimlig?",
+        "s": "<div class=\"facit-v2\"><p>Energierna är nästan lika. Märkvärdena är avrundade, så den lilla skillnaden kan inte användas som bevis för att batteriet lagrar mer energi än laddaren ger. I en verklig laddning blir en del av elenergin värme.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Skillnaden är för liten för en säker slutsats med dessa avrundade uppgifter.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Skillnaden är för liten för en säker slutsats med dessa avrundade uppgifter.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Batteriet skapar extra energi när det laddas.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Ingen energi kan bli värme under laddning.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Märkvärden är avrundade. Energi kan inte skapas.</p>",
+        "t": "<p>Laddarens beräknade energi är 14,7 Wh och batteriets avrundade märkvärden ger 14,8 Wh. Vilken slutsats är rimlig?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "kretsar"
@@ -81623,11 +82066,10 @@ window.BANK = [
     "id": "8.39",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "beräkna energiförbrukning och kostnad för en elapparat, ur text, sökt energi kostnad och ström",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett element är märkt 1,8 kW och används 3,5 timmar per dag i 30 dagar. Elpriset är 2,50 kr per kilowattimme. Elementet drivs med 230 V.</p>\n<ol><li>Hur mycket energi förbrukar elementet på en dag, i kilowattimmar?</li>\n<li>Hur mycket blir det på en månad?</li>\n<li>Vad kostar det?</li>\n<li>Hur stor ström går genom elementet när det är på?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Daglig energi är effekt gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_d=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 30 dagar blir det</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_m=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kostnaden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[C=189\\cdot2{,}50\\approx473\\ \\mathrm{kr}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen vid 230 V är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{1800}{230}\\approx7{,}83\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Elementet använder \\(6{,}3\\ \\mathrm{kWh/dag}\\), \\(189\\ \\mathrm{kWh/månad}\\), kostar \\(473\\ \\mathrm{kr}\\), och drar \\(7{,}8\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Ett värmeelement har effekten 1,8 kW och används 3,5 timmar per dag under 30 dagar. Elpriset är 2,5 kr/kWh och spänningen är 230 V.</p><p>a) Hur mycket energi används per dag? Svara i kWh.</p><p>b) Hur mycket energi används på 30 dagar? Svara i kWh.</p><p>c) Vad kostar elen? Svara i kr.</p><p>d) Bestäm strömmen i A.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=Pt=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\text{Kostnad}=189\\cdot2{,}5=472{,}5\\ \\mathrm{kr}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=1800/230\\approx7{,}83\\ \\mathrm A\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -81636,32 +82078,32 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       6.3,
-      189.0,
-      null,
-      7.82608695652
+      189,
+      472.5,
+      7.826086956521739
     ],
     "tolerans": [
-      0.0945,
-      2.83,
-      null,
-      0.117
+      0.1575,
+      5.0,
+      11.8125,
+      0.1956521739130435
     ],
     "självrättning": [
       true,
       true,
-      false,
+      true,
       true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null,
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
       "kWh",
       "kWh",
-      null,
+      "kr",
       "A"
     ],
     "svarsstruktur": "ordnad",
@@ -81671,45 +82113,89 @@ window.BANK = [
       "c",
       "d"
     ],
-    "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+    "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett element är märkt 1,8 kW och används 3,5 timmar per dag i 30 dagar. Elpriset är 2,50 kr per kilowattimme. Elementet drivs med 230 V.</p>",
+    "spelIntro": "<p>Ett värmeelement har effekten 1,8 kW och används 3,5 timmar per dag under 30 dagar. Elpriset är 2,5 kr/kWh och spänningen är 230 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi förbrukar elementet på en dag, i kilowattimmar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Daglig energi är effekt gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_d=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C"
+        "fraga": "Ett element på 1,8 kW används 3,5 timmar. Hur mycket energi används? Svara i kWh.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=Pt=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kWh",
+        "tolerans": 0.1575,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>Ett element på 1,8 kW används 3,5 timmar. Hur mycket energi används? Svara i kWh.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket blir det på en månad?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 30 dagar blir det</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_m=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C"
+        "fraga": "Ett element använder 6,3 kWh per dag. Hur mycket energi används på 30 dagar? Svara i kWh.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 189,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kWh",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera dygnsenergin med antalet dagar.</p>",
+        "t": "<p>Ett element använder 6,3 kWh per dag. Hur mycket energi används på 30 dagar? Svara i kWh.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad kostar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kostnaden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[C=189\\cdot2{,}50\\approx473\\ \\mathrm{kr}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\ \\mathrm{kr}\\).</p></div>",
-        "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C"
+        "fraga": "Ett element använder 189 kWh. Elpriset är 2,5 kr/kWh. Vad kostar elen? Svara i kr.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\text{Kostnad}=189\\cdot2{,}5=472{,}5\\ \\mathrm{kr}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 472.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kr",
+        "tolerans": 11.8125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera energin med priset per kWh.</p>",
+        "t": "<p>Ett element använder 189 kWh. Elpriset är 2,5 kr/kWh. Vad kostar elen? Svara i kr.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor ström går genom elementet när det är på?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen vid 230 V är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{1800}{230}\\approx7{,}83\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}70\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Daglig energi är effekt gånger tid. Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C"
+        "fraga": "Ett element på 1,8 kW ansluts till 230 V. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=P/U=1800/230\\approx7{,}83\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.826086956521739,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.1956521739130435,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Ett element på 1,8 kW ansluts till 230 V. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "kretsar"
   },
   {
@@ -81966,62 +82452,139 @@ window.BANK = [
     "id": "8.43",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Erik har kopplat ihop en krets enligt figuren.</p><span class=\"fig bred\"><svg height=\"322\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"17.743 7.890 402.829 209.096\"><line x1=\"80\" y1=\"45\" x2=\"162\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"218\" y1=\"45\" x2=\"300\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"45\" x2=\"300\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"100\" x2=\"322\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"378\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"160\" x2=\"322\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"378\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"100\" x2=\"400\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"205\" x2=\"80\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"205\" x2=\"80\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"65\" y1=\"120\" x2=\"95\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"72\" y1=\"130\" x2=\"88\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"58\" y=\"129\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><rect x=\"162\" y=\"35\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"322\" y=\"90\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"322\" y=\"150\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 600 Ω</text><circle cx=\"300\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"400\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"400\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Bestäm ersättningsresistansen för de två parallellkopplade resistorerna.</li>\n<li>Bestäm strömmen genom batteriet.</li>\n<li>Bestäm spänningen över de parallellkopplade resistorerna.</li>\n<li>Bestäm strömmen genom R₂.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">\\(R_2\\) och \\(R_3\\) är parallella.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{23}=\\frac{300\\cdot600}{300+600}=200\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(R_1\\) i serie blir \\(R_{\\mathrm{tot}}=150+200=350\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{350}\\approx0{,}03429\\ \\mathrm{A}=34{,}29\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över parallelldelen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_{23}=IR_{23}=0{,}03429\\cdot200=6{,}857\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen genom \\(R_2\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_2=\\frac{6{,}857}{300}\\approx0{,}02286\\ \\mathrm{A}=22{,}86\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_{23}=200\\ \\Omega\\), batteriströmmen \\(34{,}3\\ \\mathrm{mA}\\), parallelldelens spänning \\(6{,}86\\ \\mathrm V\\), och \\(I_2=22{,}9\\ \\mathrm{mA}\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>R₁ = 150 Ω ligger i serie med R₂ = 300 Ω och R₃ = 600 Ω som är parallellkopplade. Spänningen är 12 V.</p><span class=\"fig bred\"><svg height=\"282.5220917212744\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.105541229248047 -1.8531980514526367 406.49445247650146 220.85319805145264\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"80\" y1=\"45\" x2=\"162\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"218\" y1=\"45\" x2=\"300\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"45\" x2=\"300\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"100\" x2=\"322\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"378\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"160\" x2=\"322\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"378\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"400\" y1=\"100\" x2=\"400\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"400\" y1=\"205\" x2=\"80\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"80\" y1=\"205\" x2=\"80\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"65\" y1=\"120\" x2=\"95\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"72\" y1=\"130\" x2=\"88\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"58\" y=\"129\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><rect x=\"162\" y=\"35\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"190\" y=\"27\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"322\" y=\"90\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"350\" y=\"82\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"322\" y=\"150\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"350\" y=\"186\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 600 Ω</text><circle cx=\"300\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"400\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"400\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span><p>a) Bestäm parallellgrenens ersättningsresistans i Ω.</p><p>b) Bestäm totalströmmen i A.</p><p>c) Bestäm spänningen över parallellgrenen i V.</p><p>d) Bestäm strömmen genom R₂ i A.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R_p=200\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=12/350\\approx0{,}03429\\ \\mathrm A\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[U_p=I\\cdot200\\approx6{,}857\\ \\mathrm V\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[I_2=U_p/300\\approx0{,}02286\\ \\mathrm A\\]</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      200.0,
+      0.03428571428571429,
+      6.857142857142858,
+      0.022857142857142857
+    ],
+    "tolerans": [
+      5.0,
+      0.0008571428571428572,
+      0.17145000000000002,
+      0.0005716666666666667
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Erik har kopplat ihop en krets enligt figuren.</p><span class=\"fig bred\"><svg height=\"322\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"17.743 7.890 402.829 209.096\"><line x1=\"80\" y1=\"45\" x2=\"162\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"218\" y1=\"45\" x2=\"300\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"45\" x2=\"300\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"100\" x2=\"322\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"378\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"160\" x2=\"322\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"378\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"100\" x2=\"400\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"205\" x2=\"80\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"205\" x2=\"80\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"65\" y1=\"120\" x2=\"95\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"72\" y1=\"130\" x2=\"88\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"58\" y=\"129\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><rect x=\"162\" y=\"35\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"322\" y=\"90\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"322\" y=\"150\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 600 Ω</text><circle cx=\"300\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"400\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"400\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>",
+    "spelIntro": "<p>R₁ = 150 Ω ligger i serie med R₂ = 300 Ω och R₃ = 600 Ω som är parallellkopplade. Spänningen är 12 V.</p><span class=\"fig bred\"><svg height=\"282.5220917212744\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"11.105541229248047 -1.8531980514526367 406.49445247650146 220.85319805145264\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"80\" y1=\"45\" x2=\"162\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"218\" y1=\"45\" x2=\"300\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"45\" x2=\"300\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"100\" x2=\"322\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"378\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"160\" x2=\"322\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"378\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"400\" y1=\"100\" x2=\"400\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"400\" y1=\"205\" x2=\"80\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"80\" y1=\"205\" x2=\"80\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"65\" y1=\"120\" x2=\"95\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"72\" y1=\"130\" x2=\"88\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"58\" y=\"129\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><rect x=\"162\" y=\"35\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"190\" y=\"27\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><rect x=\"322\" y=\"90\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"350\" y=\"82\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"322\" y=\"150\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"350\" y=\"186\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 600 Ω</text><circle cx=\"300\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"400\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"400\" cy=\"160\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ersättningsresistansen för de två parallellkopplade resistorerna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">\\(R_2\\) och \\(R_3\\) är parallella.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{23}=\\frac{300\\cdot600}{300+600}=200\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "A"
+        "fraga": "Resistorerna 300 Ω och 600 Ω är parallellkopplade. Bestäm deras ersättningsresistans i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_p=300\\cdot600/(300+600)=200\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 200.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Resistorerna 300 Ω och 600 Ω är parallellkopplade. Bestäm deras ersättningsresistans i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm strömmen genom batteriet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(R_1\\) i serie blir \\(R_{\\mathrm{tot}}=150+200=350\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{350}\\approx0{,}03429\\ \\mathrm{A}=34{,}29\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34{,}29\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "A"
+        "fraga": "En krets har totalresistansen 350 Ω och ansluts till 12 V. Bestäm totalströmmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=12/350\\approx0{,}03429\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.03428571428571429,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0008571428571428572,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En krets har totalresistansen 350 Ω och ansluts till 12 V. Bestäm totalströmmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm spänningen över de parallellkopplade resistorerna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över parallelldelen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_{23}=IR_{23}=0{,}03429\\cdot200=6{,}857\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}857\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "A"
+        "fraga": "En parallellgren har ersättningsresistansen 200 Ω och totalströmmen 0.03429 A. Bestäm spänningen över grenen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_p=I R_p=0{,}03429\\cdot200=6{,}858\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.8580000000000005,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.17145000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En parallellgren har ersättningsresistansen 200 Ω och totalströmmen 0.03429 A. Bestäm spänningen över grenen i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm strömmen genom R₂.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen genom \\(R_2\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_2=\\frac{6{,}857}{300}\\approx0{,}02286\\ \\mathrm{A}=22{,}86\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22{,}86\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "A"
+        "fraga": "En resistor på 300 Ω har spänningen 6.86 V. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=6{,}86/300\\approx0{,}02287\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.022866666666666667,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0005716666666666667,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 300 Ω har spänningen 6.86 V. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "A",
+      "V",
+      "A"
     ]
   },
   {
@@ -82059,11 +82622,10 @@ window.BANK = [
     "id": "8.44",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "beräkna inre spänningsfall polspänning och yttre resistans för ett batteri, ur text, sökt spänning och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett batteri har ems 9,0 V och den inre resistansen 0,50 Ω. Genom kretsen går strömmen 1,2 A.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,50 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>\n<ol><li>Hur stort är spänningsfallet inuti batteriet?</li>\n<li>Vilken polspänning har batteriet?</li>\n<li>Vilken resistans har den yttre kretsen?</li>\n<li>Vad skulle polspänningen bli om strömmen var noll?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det inre spänningsfallet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_i=rI=0{,}50\\cdot1{,}2=0{,}60\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid urladdning är polspänningen ems minus inre spänningsfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=9{,}0-0{,}60=8{,}40\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den yttre resistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U_p}{I}=\\frac{8{,}40}{1{,}2}=7{,}0\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När strömmen är noll försvinner det inre spänningsfallet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=0\\Rightarrow U_p=\\mathcal E=9{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det inre spänningsfallet är \\(0{,}60\\ \\mathrm V\\), polspänningen \\(8{,}40\\ \\mathrm V\\), och den yttre resistansen \\(7{,}0\\ \\Omega\\). Obelastad polspänning är \\(9{,}0\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Ett batteri har ems 9,0 V och inre resistans 0,50 Ω. Strömmen är 1,2 A.</p><p>a) Bestäm det inre spänningsfallet i V.</p><p>b) Bestäm polspänningen i V.</p><p>c) Bestäm den yttre resistansen i Ω.</p><p>d) Vilken är polspänningen när ingen ström går? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[U_r=rI=0{,}50\\cdot1{,}2=0{,}60\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[U=\\mathcal E-U_r=9{,}0-0{,}60=8{,}4\\ \\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[R=U/I=8{,}4/1{,}2=7{,}0\\ \\Omega\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ingen ström går, så det inre spänningsfallet är noll.</p><p>\\[U=\\mathcal E-r\\cdot0=9{,}0\\ \\mathrm V\\]</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
@@ -82071,34 +82633,34 @@ window.BANK = [
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
+      0.6,
+      8.4,
       7,
-      null
+      9
     ],
     "tolerans": [
-      null,
-      null,
-      0.105,
-      null
+      0.015,
+      0.21000000000000002,
+      0.17500000000000002,
+      0.225
     ],
     "självrättning": [
-      false,
-      false,
       true,
-      false
+      true,
+      true,
+      true
     ],
     "svarFormat": [
-      null,
-      null,
       "numeriskt",
-      null
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
+      "V",
+      "V",
       "Ω",
-      null
+      "V"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -82108,45 +82670,89 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteri har ems 9,0 V och den inre resistansen 0,50 Ω. Genom kretsen går strömmen 1,2 A.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,50 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
+    "spelIntro": "<p>Ett batteri har ems 9,0 V och inre resistans 0,50 Ω. Strömmen är 1,2 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är spänningsfallet inuti batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det inre spänningsfallet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_i=rI=0{,}50\\cdot1{,}2=0{,}60\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}60\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har inre resistansen 0,50 Ω och strömmen 1,2 A. Bestäm det inre spänningsfallet i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_r=rI=0{,}50\\cdot1{,}2=0{,}60\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.015,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Ett batteri har inre resistansen 0,50 Ω och strömmen 1,2 A. Bestäm det inre spänningsfallet i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken polspänning har batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid urladdning är polspänningen ems minus inre spänningsfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=9{,}0-0{,}60=8{,}40\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}40\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har ems 9,0 V och inre spänningsfallet 0,60 V. Bestäm polspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U=\\mathcal E-U_r=9{,}0-0{,}60=8{,}4\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.21000000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 9,0 V och inre spänningsfallet 0,60 V. Bestäm polspänningen i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken resistans har den yttre kretsen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den yttre resistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U_p}{I}=\\frac{8{,}40}{1{,}2}=7{,}0\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "En resistor har spänningen 8,4 V och strömmen 1,2 A. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R=U/I=8{,}4/1{,}2=7{,}0\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.17500000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor har spänningen 8,4 V och strömmen 1,2 A. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vad skulle polspänningen bli om strömmen var noll?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När strömmen är noll försvinner det inre spänningsfallet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=0\\Rightarrow U_p=\\mathcal E=9{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri med ems 9,0 V är inte anslutet till någon krets. Vilken är polspänningen? Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Ingen ström går, så det inre spänningsfallet är noll.</p><p>\\[U=\\mathcal E-r\\cdot0=9{,}0\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.225,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri med ems 9,0 V är inte anslutet till någon krets. Vilken är polspänningen? Svara i V.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
@@ -82172,7 +82778,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Fundera på vad som händer med det inre spänningsfallet Ir när strömmen ändras.</p>",
     "alternativ": [
       {
         "txt": "Att en del av spänningen kan falla inne i batteriet när ström går.",
@@ -82223,7 +82829,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
     "traningsniva": 1,
@@ -82238,11 +82844,10 @@ window.BANK = [
     "id": "8.45",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "beräkna effektfördelning och verkningsgrad hos ett belastat batteri, ur text, sökt effekt och verkningsgrad",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett batteri med ems 12 V och inre resistansen 0,40 Ω levererar strömmen 3,0 A till en yttre krets.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,40 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>\n<ol><li>Vilken total effekt utvecklar batteriet?</li>\n<li>Hur stor effekt utvecklas inne i batteriet?</li>\n<li>Hur stor effekt kommer den yttre kretsen till godo?</li>\n<li>Vilken verkningsgrad har batteriet vid den här belastningen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriets totala energiomvandling per sekund är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{tot}}=\\mathcal EI=12\\cdot3{,}0=36\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den interna förlusteffekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_i=rI^2=0{,}40\\cdot3{,}0^2=3{,}6\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Yttre kretsen får resten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_y=36-3{,}6=32{,}4\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Kontroll: \\(U_p=12-0{,}40\\cdot3{,}0=10{,}8\\ \\mathrm V\\) och \\(U_pI=32{,}4\\ \\mathrm W\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{P_y}{P_{\\mathrm{tot}}}=\\frac{32{,}4}{36}=0{,}900\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Total effekt är \\(36\\ \\mathrm W\\), intern förlust \\(3{,}6\\ \\mathrm W\\), yttre effekt \\(32{,}4\\ \\mathrm W\\), och verkningsgraden \\(90\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Ett batteri har ems 12 V, inre resistansen 0,40 Ω och strömmen 3,0 A.</p><p>a) Vilken total elektrisk effekt ger batteriet? Svara i W.</p><p>b) Vilken effekt blir värme inne i batteriet? Svara i W.</p><p>c) Vilken effekt går till den yttre kretsen? Svara i W.</p><p>d) Hur många procent av den totala effekten går till den yttre kretsen?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{tot}}=\\mathcal E I=12\\cdot3{,}0=36\\ \\mathrm W\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P_r=I^2r=3{,}0^2\\cdot0{,}40=3{,}6\\ \\mathrm W\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{yttre}}=36-3{,}6=32{,}4\\ \\mathrm W\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[\\eta=32{,}4/36\\cdot100=90\\ \\%\\]</p></div></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -82250,34 +82855,34 @@ window.BANK = [
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      36,
       3.6,
       32.4,
-      null
+      90
     ],
     "tolerans": [
-      null,
-      0.054,
-      0.486,
-      null
+      0.9,
+      0.09000000000000001,
+      0.81,
+      2.25
     ],
     "självrättning": [
-      false,
       true,
       true,
-      false
+      true,
+      true
     ],
     "svarFormat": [
-      null,
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
-      null,
       "W",
       "W",
-      null
+      "W",
+      "%"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -82287,45 +82892,89 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Batteriets totala energiomvandling per sekund är Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteri med ems 12 V och inre resistansen 0,40 Ω levererar strömmen 3,0 A till en yttre krets.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,40 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
+    "spelIntro": "<p>Ett batteri har ems 12 V, inre resistansen 0,40 Ω och strömmen 3,0 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken total effekt utvecklar batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriets totala energiomvandling per sekund är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{tot}}=\\mathcal EI=12\\cdot3{,}0=36\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Batteriets totala energiomvandling per sekund är Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har ems 12 V och strömmen 3,0 A. Vilken total elektrisk effekt ger batteriet? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{tot}}=\\mathcal E I=12\\cdot3{,}0=36\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 36,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.9,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Ett batteri har ems 12 V och strömmen 3,0 A. Vilken total elektrisk effekt ger batteriet? Svara i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor effekt utvecklas inne i batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den interna förlusteffekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_i=rI^2=0{,}40\\cdot3{,}0^2=3{,}6\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Batteriets totala energiomvandling per sekund är Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har inre resistansen 0,40 Ω och strömmen 3,0 A. Vilken effekt blir värme inne i batteriet? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P_r=I^2r=3{,}0^2\\cdot0{,}40=3{,}6\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.09000000000000001,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Ett batteri har inre resistansen 0,40 Ω och strömmen 3,0 A. Vilken effekt blir värme inne i batteriet? Svara i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor effekt kommer den yttre kretsen till godo?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Yttre kretsen får resten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_y=36-3{,}6=32{,}4\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Kontroll: \\(U_p=12-0{,}40\\cdot3{,}0=10{,}8\\ \\mathrm V\\) och \\(U_pI=32{,}4\\ \\mathrm W\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}4\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Batteriets totala energiomvandling per sekund är Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri ger totalt 36 W. Av detta blir 3,6 W värme inne i batteriet. Vilken effekt går till den yttre kretsen? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{yttre}}=36-3{,}6=32{,}4\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 32.4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.81,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Den totala effekten delas mellan värme inne i batteriet och den yttre kretsen.</p>",
+        "t": "<p>Ett batteri ger totalt 36 W. Av detta blir 3,6 W värme inne i batteriet. Vilken effekt går till den yttre kretsen? Svara i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vilken verkningsgrad har batteriet vid den här belastningen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{P_y}{P_{\\mathrm{tot}}}=\\frac{32{,}4}{36}=0{,}900\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}900\\).</p></div>",
-        "ledtrad": "<p>Batteriets totala energiomvandling per sekund är Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "C"
+        "fraga": "Av ett batteris totala effekt 36 W går 32,4 W till den yttre kretsen. Hur många procent är det?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\eta=32{,}4/36\\cdot100=90\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 90,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 2.25,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera den yttre effekten med den totala.</p>",
+        "t": "<p>Av ett batteris totala effekt 36 W går 32,4 W till den yttre kretsen. Hur många procent är det?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
@@ -82336,22 +82985,21 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "ström från ems och polspänning",
     "poang": "(1/0/0)",
-    "t": "<p>Ett batteri har ems \\(6{,}0\\ \\mathrm V\\) och inre resistansen \\(0{,}20\\ \\Omega\\). Polspänningen är \\(5{,}6\\ \\mathrm V\\). Bestäm strömmen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 6,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,20 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skillnaden mellan ems och polspänning är det inre spänningsfallet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{6{,}0-5{,}6}{0{,}20}=2{,}0\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
+    "t": "<p>Ett batteri har ems 6 V, polspänningen 5,6 V och inre resistansen 0,2 Ω.</p><p>Bestäm strömmen i A.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 6,0 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,20 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Skillnaden mellan ems och polspänning är spänningsfallet inne i batteriet.</p><p>\\[I=\\frac{\\mathcal E-U}{r}\\]</p><p>\\[I=\\frac{6-5{,}6}{0{,}2}\\]</p><p><strong>Svar:</strong> \\(2{,}0\\ \\mathrm A\\).</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
+    "rättSvar": 2.0000000000000018,
+    "tolerans": 0.050000000000000044,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Bestäm först det inre spänningsfallet från skillnaden mellan ems och polspänning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
     "traningsniva": 2,
@@ -82360,55 +83008,116 @@ window.BANK = [
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.46",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Ett elstängsel ger pulser med energin 0,20 J, en puls per sekund, vid spänningen 5,0 kV.</p>\n<ol><li>Vilken medeleffekt har stängslet?</li>\n<li>Varför är 5000 V ofarligt här, trots att 230 V i ett vägguttag kan döda?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En puls på 0,20 J varje sekund ger medeleffekten</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{med}}=Ef=0{,}20\\cdot1=0{,}20\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen ensam avgör inte skaderisken.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elstängselaggregatet begränsar energin, laddningen, strömmen och pulstiden, med lång paus mellan pulserna.</p></div><div class=\"facit-stycke\"><p>Ett godkänt elstängsel är konstruerat för korta begränsade pulser, men 5 kV är inte generellt ofarligt.</p></div><div class=\"facit-stycke\"><p>Felaktig utrustning eller särskilda medicinska omständigheter kan vara farliga.</p></div><div class=\"facit-stycke\"><p>Vägguttaget kan däremot leverera farlig ström kontinuerligt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Medeleffekten är \\(0{,}20\\ \\mathrm W\\). Elstängslets risk begränsas av den mycket korta och energibegränsade pulsen, inte av att 5000 V i sig skulle vara ofarligt.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett elstängsel ger en puls per sekund. Varje puls överför energin 0,20 J. Pulsspänningen är 5,0 kV.</p><p>a) Bestäm medeleffekten i W.</p><p>b) Förklara varför spänningen ensam inte räcker för att bedöma faran.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P=E/t=0{,}20/1{,}0=0{,}20\\ \\mathrm W\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Spänningen ensam avgör inte hur farlig en elektrisk kontakt är. Strömmen genom kroppen, tiden och den överförda energin spelar också roll. Kortvariga pulser behöver därför bedömas annorlunda än en kontinuerlig ström.</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.2,
+      null
+    ],
+    "tolerans": [
+      0.005000000000000001,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
     "familjNyckelTidigare": "ems__hushallsel_effekt_och_sakring",
-    "ledtrad": "<p>En puls på 0,20 J varje sekund ger medeleffekten Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+    "ledtrad": "<p>Effekt är energi per tid.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett elstängsel ger pulser med energin 0,20 J, en puls per sekund, vid spänningen 5,0 kV.</p>",
+    "spelIntro": "<p>Ett elstängsel ger en puls per sekund. Varje puls överför energin 0,20 J. Pulsspänningen är 5,0 kV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken medeleffekt har stängslet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En puls på 0,20 J varje sekund ger medeleffekten</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{med}}=Ef=0{,}20\\cdot1=0{,}20\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>En puls på 0,20 J varje sekund ger medeleffekten Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "A"
+        "fraga": "Ett elstängsel överför 0,20 J i en puls varje sekund. Bestäm medeleffekten i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=E/t=0{,}20/1{,}0=0{,}20\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.2,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.005000000000000001,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt är energi per tid.</p>",
+        "t": "<p>Ett elstängsel överför 0,20 J i en puls varje sekund. Bestäm medeleffekten i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Varför är 5000 V ofarligt här, trots att 230 V i ett vägguttag kan döda?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen ensam avgör inte skaderisken.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elstängselaggregatet begränsar energin, laddningen, strömmen och pulstiden, med lång paus mellan pulserna.</p></div><div class=\"facit-stycke\"><p>Ett godkänt elstängsel är konstruerat för korta begränsade pulser, men 5 kV är inte generellt ofarligt.</p></div><div class=\"facit-stycke\"><p>Felaktig utrustning eller särskilda medicinska omständigheter kan vara farliga.</p></div><div class=\"facit-stycke\"><p>Vägguttaget kan däremot leverera farlig ström kontinuerligt.</p></div></div></div></div></div>",
-        "ledtrad": "<p>En puls på 0,20 J varje sekund ger medeleffekten Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "A"
+        "fraga": "Varför räcker det inte att känna spänningen för att bedöma faran med elektrisk kontakt?",
+        "s": "<div class=\"facit-v2\"><p>Spänningen ensam avgör inte hur farlig en elektrisk kontakt är. Strömmen genom kroppen, tiden och den överförda energin spelar också roll. Kortvariga pulser behöver därför bedömas annorlunda än en kontinuerlig ström.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Strömmen, tiden och energin spelar också roll.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Strömmen, tiden och energin spelar också roll.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Hög spänning är alltid ofarlig om den anges i kV.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Spänningen avgör ensam hur mycket energi kroppen får.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilka andra storheter beskriver vad som händer i kroppen?</p>",
+        "t": "<p>Varför räcker det inte att känna spänningen för att bedöma faran med elektrisk kontakt?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "W",
+      null
     ]
   },
   {
@@ -82431,7 +83140,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tänk på definitionen och på storheternas riktningar eller tecken.</p>",
+    "ledtrad": "<p>Fundera på vad som händer med det inre spänningsfallet Ir när strömmen ändras.</p>",
     "alternativ": [
       {
         "txt": "Den minskar.",
@@ -82466,33 +83175,32 @@ window.BANK = [
     "id": "8.222",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "effektförlust i batteriets inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett \\(9\\,\\mathrm V\\)-batteri har inre resistansen \\(1{,}1\\,\\Omega\\) och levererar strömmen \\(1\\,\\mathrm A\\). Hur stor effekt utvecklas som värme inne i batteriet?</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 1,1 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förlusteffekten i den inre resistansen följer samma effektlag som i en vanlig resistor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{förlust}=I^2r=1^2\\cdot1{,}1=1{,}1\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\ \\mathrm W\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Strömmen genom ett batteri är 1 A och den inre resistansen är 1,1 Ω.</p><p>Hur stor effekt blir värme inne i batteriet? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=1^2\\cdot1{,}1=1{,}1\\ \\mathrm W\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 0.0198,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Den inre resistansen värms av strömmen enligt \\(P=I^2R\\).</p>",
+    "ledtrad": "<p>Använd P=I²r för den inre resistansen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.47",
@@ -83268,60 +83976,65 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "bestämma spänning över en resistor i en gren med två seriekopplade resistorer, ur diagram, sökt spänning",
-    "poang": "(1/2/0)",
-    "t": "<p>I figuren består den ena grenen av två seriekopplade resistorer.</p><span class=\"fig bred\"><svg height=\"281\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 11.574 469.800 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"99\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"290\" y=\"140\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"172\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 250 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₄ = 400 Ω</text></svg></span>\n<p>Vilken spänning ligger över R₃?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Vänster parallellgren består av \\(R_2+R_3=150+250=400\\ \\Omega\\), lika med \\(R_4\\).</p><div class=\"facit-matte\">\\[R_p=\\frac{400}{2}=200\\ \\Omega\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Med \\(R_1=100\\ \\Omega\\) i serie blir totalresistansen 300 Ω.</p><div class=\"facit-matte\">\\[I=\\frac{12}{300}\\approx0{,}04\\ \\mathrm{A}=40\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Parallelldelen får \\(U_p=I\\cdot200=8{,}0\\ \\mathrm V\\).</p><p class=\"facit-metod\">Strömmen i vänster gren är 20 mA.</p><div class=\"facit-matte\">\\[U_3=0{,}020\\cdot250=5{,}0\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Spänningen över \\(R_3\\) är \\(5{,}0\\ \\mathrm V\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>R₁ = 100 Ω ligger i serie med två parallella grenar. Den ena grenen innehåller R₂ = 150 Ω och R₃ = 250 Ω i serie, den andra R₄ = 400 Ω. Spänningen är 12 V. Bestäm spänningen över R₃ i V.</p><span class=\"fig bred\"><svg height=\"238.99554708736625\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.104774475097656 1.8261165618896484 491.23265075683594 225.77387714385986\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"290\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 150 Ω</text><rect x=\"290\" y=\"140\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"172\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 250 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₄ = 400 Ω</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>R₂ och R₃ ligger i serie: 150 + 250 = 400 Ω. Den grenen är parallell med R₄ = 400 Ω.</p><p>\\[R_p=400/2=200\\ \\Omega\\]</p><p>\\[I=12/(100+200)=0{,}040\\ \\mathrm A\\]</p><p>\\[U_p=0{,}040\\cdot200=8{,}0\\ \\mathrm V\\]</p><p>\\[I_{23}=8{,}0/400=0{,}020\\ \\mathrm A\\]</p><p>\\[U_3=0{,}020\\cdot250=5{,}0\\ \\mathrm V\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.0,
+    "tolerans": 0.125,
+    "självrättning": true,
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Vänster parallellgren består av \\(R_2+R_3=150+250=400\\ \\Omega\\), lika med \\(R_4\\).</p>",
+    "ledtrad": "<p>Förenkla parallellkopplingen innan du använder Ohms lag.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "svarEnhet": "V",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "8.53",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En resistor på 100 Ω är seriekopplad med två parallellkopplade resistorer på 200 Ω och 300 Ω. Kretsen matas med 12 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">100 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">200 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">300 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/></svg></span>\n<ol><li>Bestäm parallellkopplingens ersättningsresistans.</li><li>Bestäm kretsens totala resistans.</li>\n<li>Hur stor är strömmen genom 100-ohmsresistorn?</li><li>Vilken spänning ligger över parallellkopplingen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellparet ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{200\\cdot300}{200+300}=120\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det ligger i serie med 100 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=100+120=220\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen genom batteriet och 100-ohmsresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{220}\\approx0{,}05455\\ \\mathrm{A}=54{,}55\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över parallelldelen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=IR_p=0{,}05455\\cdot120=6{,}545\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_p=120\\ \\Omega\\), \\(R_{\\mathrm{tot}}=220\\ \\Omega\\), \\(I=54{,}5\\ \\mathrm{mA}\\), och parallelldelens spänning \\(6{,}55\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>R₁ = 100 Ω ligger i serie med R₂ = 200 Ω och R₃ = 300 Ω som är parallellkopplade. Spänningen är 12 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"228.1187508469233\" viewBox=\"1.1094131469726562 17.286598205566406 509.9579429626465 223.7134017944336\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">100 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">200 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">300 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle></svg></span><p>a) Bestäm parallellgrenens ersättningsresistans i Ω.</p><p>b) Bestäm totalresistansen i Ω.</p><p>c) Bestäm totalströmmen i A.</p><p>d) Bestäm spänningen över parallellgrenen i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R_p=200\\cdot300/(200+300)=120\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=100+120=220\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[I=12/220\\approx0{,}05455\\ \\mathrm A\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[U_p=I R_p\\approx6{,}545\\ \\mathrm V\\]</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      120,
-      220,
-      54.5,
-      6.55
+      120.0,
+      220.0,
+      0.05454545454545454,
+      6.545454545454545
     ],
     "tolerans": [
-      1.7999999999999998,
-      3.3,
-      0.8175,
-      0.09824999999999999
+      5.0,
+      5.5,
+      0.0013636363636363637,
+      0.16365000000000002
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -83331,7 +84044,7 @@ window.BANK = [
     "svarEnhet": [
       "Ω",
       "Ω",
-      "mA",
+      "A",
       "V"
     ],
     "svarsstruktur": "ordnad",
@@ -83342,47 +84055,92 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En resistor på 100 Ω är seriekopplad med två parallellkopplade resistorer på 200 Ω och 300 Ω. Kretsen matas med 12 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">100 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">200 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">300 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/></svg></span>",
+    "spelIntro": "<p>R₁ = 100 Ω ligger i serie med R₂ = 200 Ω och R₃ = 300 Ω som är parallellkopplade. Spänningen är 12 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"228.1187508469233\" viewBox=\"1.1094131469726562 17.286598205566406 509.9579429626465 223.7134017944336\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">12 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">100 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">200 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">300 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm parallellkopplingens ersättningsresistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Parallellparet ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{200\\cdot300}{200+300}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "C"
+        "fraga": "Resistorerna 200 Ω och 300 Ω är parallellkopplade. Bestäm ersättningsresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_p=200\\cdot300/(200+300)=120\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 120.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Resistorerna 200 Ω och 300 Ω är parallellkopplade. Bestäm ersättningsresistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm kretsens totala resistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det ligger i serie med 100 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=100+120=220\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(220\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "C"
+        "fraga": "En resistor på 100 Ω ligger i serie med en parallellgren som har ersättningsresistansen 120 Ω. Bestäm totalresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=100+120=220\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 220.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 100 Ω ligger i serie med en parallellgren som har ersättningsresistansen 120 Ω. Bestäm totalresistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är strömmen genom 100-ohmsresistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen genom batteriet och 100-ohmsresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{220}\\approx0{,}05455\\ \\mathrm{A}=54{,}55\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54{,}55\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "C"
+        "fraga": "En krets har totalresistansen 220 Ω och spänningen 12 V. Bestäm totalströmmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=12/220\\approx0{,}05455\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.05454545454545454,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0013636363636363637,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En krets har totalresistansen 220 Ω och spänningen 12 V. Bestäm totalströmmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vilken spänning ligger över parallellkopplingen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över parallelldelen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=IR_p=0{,}05455\\cdot120=6{,}545\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}545\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis. Gå sedan tillbaka genom delkretsarna för att hitta strömmar och spänningar.</p>",
-        "niva": "C"
+        "fraga": "En parallellgren har ersättningsresistansen 120 Ω och totalströmmen 0.05455 A. Bestäm spänningen över grenen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_p=I R_p=0{,}05455\\cdot120\\approx6{,}546\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.546,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.16365000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En parallellgren har ersättningsresistansen 120 Ω och totalströmmen 0.05455 A. Bestäm spänningen över grenen i V.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.247",
@@ -83419,11 +84177,10 @@ window.BANK = [
     "id": "8.54",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "tillämpa Kirchhoffs första lag i en knutpunkt med tre utgående grenar, ur diagram, sökt ström",
-    "poang": "(2/1/0)",
-    "t": "<p>Anta att de tre grenarna är parallellkopplade över en ideal spänningskälla.</p><p>I en förgrening delar strömmen upp sig i tre grenar enligt figuren.</p><span class=\"fig bred\"><svg height=\"243\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.857 45.714 375.000 147.143\"><line x1=\"60\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><circle cx=\"200\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"106\" x2=\"132\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"140,106 130,101.4 130,110.6\" fill=\"#2A5D9E\"/><text x=\"115\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I = 450 mA</text><text x=\"340\" y=\"62\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₁ = 180 mA</text><text x=\"340\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₂ = ?</text><text x=\"340\" y=\"184\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₃ = 120 mA</text></svg></span>\n<ol><li>Vad säger Kirchhoffs första lag om en knutpunkt?</li>\n<li>Hur stor är strömmen I₂?</li>\n<li>Hur stor andel av den totala strömmen går i gren 1?</li>\n<li>Vad händer med I₁ och I₃ om gren 2 bryts?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kirchhoffs första lag säger att summan av strömmar in i en knut är lika med summan ut.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sum I_{\\mathrm{in}}=\\sum I_{\\mathrm{ut}}\\]</div></div><div class=\"facit-stycke\"><p>Det uttrycker laddningens bevarande.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd strömbalansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[450=180+I_2+120\\Rightarrow I_2=150\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Andelen i gren 1 är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{180}{450}=0{,}40=40\\,\\%\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om grenarna ligger över en ideal spänningskälla och gren 2 bryts är spänningen över gren 1 och 3 oförändrad.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Då är \\(I_1=180\\) mA och \\(I_3=120\\) mA som tidigare, medan totalströmmen blir 300 mA.</p></div><div class=\"facit-stycke\"><p>Med en verklig källa med inre resistans kan spänningen och därmed grenströmmarna ändras något.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(I_2=150\\ \\mathrm{mA}\\), och 40 % går i gren 1. När gren 2 bryts är de andra grenströmmarna oförändrade i idealmodellen.</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Till en knutpunkt går 450 mA. Från den går tre strömmar: I₁ = 180 mA, I₂ och I₃ = 120 mA.</p><span class=\"fig bred\"><svg height=\"220.50436601115067\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46 33.5688362121582 394.9311218261719 167.46930122375488\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"60\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><circle cx=\"200\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"106\" x2=\"132\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"140,106 130,101.4 130,110.6\" fill=\"#2A5D9E\"></polygon><text x=\"115\" y=\"86\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I = 450 mA</text><text x=\"340\" y=\"62\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I₁ = 180 mA</text><text x=\"340\" y=\"124\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I₂ = ?</text><text x=\"340\" y=\"184\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I₃ = 120 mA</text></svg></span><p>a) Förklara sambandet mellan strömmarna i knutpunkten.</p><p>b) Bestäm I₂ i mA.</p><p>c) Hur många procent av totalströmmen är I₁?</p><p>d) Anta att spänningen över de andra grenarna är oförändrad när grenen med I₂ bryts. Förklara vad som händer med de andra strömmarna.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I knutpunkten är summan av strömmarna ut lika stor som strömmen in. Laddning samlas inte där.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I_2=450-180-120=150\\ \\mathrm{mA}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[I_1/I=180/450=0{,}40=40\\ \\%\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>När spänningen över de kvarvarande grenarna är oförändrad är även deras strömmar oförändrade. Totalströmmen minskar till 180 + 120 = 300 mA.</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "procedur"
@@ -83438,8 +84195,8 @@ window.BANK = [
     ],
     "tolerans": [
       null,
-      4.5,
-      1.2,
+      5.0,
+      1.0,
       null
     ],
     "självrättning": [
@@ -83468,43 +84225,121 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "kopplingar__kirchhoffs_lagar",
-    "ledtrad": "<p>Kirchhoffs första lag säger att summan av strömmar in i en knut är lika med summan ut.</p>",
+    "ledtrad": "<p>Tänk på att laddning bevaras.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Anta att de tre grenarna är parallellkopplade över en ideal spänningskälla.</p><p>I en förgrening delar strömmen upp sig i tre grenar enligt figuren.</p><span class=\"fig bred\"><svg height=\"243\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"42.857 45.714 375.000 147.143\"><line x1=\"60\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><circle cx=\"200\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"106\" x2=\"132\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"140,106 130,101.4 130,110.6\" fill=\"#2A5D9E\"/><text x=\"115\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I = 450 mA</text><text x=\"340\" y=\"62\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₁ = 180 mA</text><text x=\"340\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₂ = ?</text><text x=\"340\" y=\"184\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">I₃ = 120 mA</text></svg></span>",
+    "spelIntro": "<p>Till en knutpunkt går 450 mA. Från den går tre strömmar: I₁ = 180 mA, I₂ och I₃ = 120 mA.</p><span class=\"fig bred\"><svg height=\"220.50436601115067\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46 33.5688362121582 394.9311218261719 167.46930122375488\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"60\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><circle cx=\"200\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><line x1=\"200\" y1=\"120\" x2=\"320\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"106\" x2=\"132\" y2=\"106\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"></line><polygon points=\"140,106 130,101.4 130,110.6\" fill=\"#2A5D9E\"></polygon><text x=\"115\" y=\"86\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I = 450 mA</text><text x=\"340\" y=\"62\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I₁ = 180 mA</text><text x=\"340\" y=\"124\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I₂ = ?</text><text x=\"340\" y=\"184\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2A5D9E\">I₃ = 120 mA</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad säger Kirchhoffs första lag om en knutpunkt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kirchhoffs första lag säger att summan av strömmar in i en knut är lika med summan ut.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sum I_{\\mathrm{in}}=\\sum I_{\\mathrm{ut}}\\]</div></div><div class=\"facit-stycke\"><p>Det uttrycker laddningens bevarande.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Kirchhoffs första lag säger att summan av strömmar in i en knut är lika med summan ut.</p>",
-        "niva": "C"
+        "fraga": "Hur hänger strömmarna ihop i en knutpunkt där laddning inte samlas?",
+        "s": "<div class=\"facit-v2\"><p>I knutpunkten är summan av strömmarna ut lika stor som strömmen in. Laddning samlas inte där.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Summan av strömmarna in är lika stor som summan ut.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Summan av strömmarna in är lika stor som summan ut.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Varje utgående ström är lika stor som hela den inkommande.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Summan ut är alltid hälften av summan in.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på att laddning bevaras.</p>",
+        "t": "<p>Hur hänger strömmarna ihop i en knutpunkt där laddning inte samlas?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är strömmen I₂?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd strömbalansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[450=180+I_2+120\\Rightarrow I_2=150\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(150\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Kirchhoffs första lag säger att summan av strömmar in i en knut är lika med summan ut.</p>",
-        "niva": "C"
+        "fraga": "Till en knutpunkt går 450 mA. Ut går 180 mA, en okänd ström och 120 mA. Bestäm den okända strömmen i mA.",
+        "s": "<div class=\"facit-v2\"><p>\\[I_2=450-180-120=150\\ \\mathrm{mA}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 150,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mA",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Laddning bevaras: total ström in är total ström ut.</p>",
+        "t": "<p>Till en knutpunkt går 450 mA. Ut går 180 mA, en okänd ström och 120 mA. Bestäm den okända strömmen i mA.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor andel av den totala strömmen går i gren 1?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Andelen i gren 1 är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{180}{450}=0{,}40=40\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Kirchhoffs första lag säger att summan av strömmar in i en knut är lika med summan ut.</p>",
-        "niva": "C"
+        "fraga": "Totalströmmen är 450 mA och en gren har 180 mA. Hur många procent av totalströmmen går i grenen?",
+        "s": "<div class=\"facit-v2\"><p>\\[I_1/I=180/450=0{,}40=40\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 40,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 1.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera grenströmmen med totalströmmen.</p>",
+        "t": "<p>Totalströmmen är 450 mA och en gren har 180 mA. Hur många procent av totalströmmen går i grenen?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vad händer med I₁ och I₃ om gren 2 bryts?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om grenarna ligger över en ideal spänningskälla och gren 2 bryts är spänningen över gren 1 och 3 oförändrad.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Då är \\(I_1=180\\) mA och \\(I_3=120\\) mA som tidigare, medan totalströmmen blir 300 mA.</p></div><div class=\"facit-stycke\"><p>Med en verklig källa med inre resistans kan spänningen och därmed grenströmmarna ändras något.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Kirchhoffs första lag säger att summan av strömmar in i en knut är lika med summan ut.</p>",
-        "niva": "C"
+        "fraga": "Tre resistorer är parallellkopplade. En gren bryts, men spänningen över de andra är oförändrad. Vad händer med strömmarna i de kvarvarande grenarna?",
+        "s": "<div class=\"facit-v2\"><p>När spänningen över de kvarvarande grenarna är oförändrad är även deras strömmar oförändrade. Totalströmmen minskar till 180 + 120 = 300 mA.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De är oförändrade.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De är oförändrade.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "De blir alltid dubbelt så stora.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "De blir noll eftersom en annan gren har brutits.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Tre resistorer är parallellkopplade. En gren bryts, men spänningen över de andra är oförändrad. Vad händer med strömmarna i de kvarvarande grenarna?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -84507,8 +85342,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En billampa är märkt 12 V och 21 W.</p>\n<ol><li>Hur stor ström går genom lampan?</li><li>Vilken resistans har den när den lyser?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Märkströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{21}{12}=1{,}75\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den varma glödtrådens resistans blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{12}{1{,}75}=6{,}86\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lampan drar \\(1{,}75\\ \\mathrm A\\), och resistansen när den lyser är cirka \\(6{,}9\\ \\Omega\\).</p></div>",
+    "t": "<p>En lampa är märkt 12 V, 21 W.</p><p>a) Bestäm strömmen vid 12 V. Svara i A.</p><p>b) Bestäm resistansen vid 12 V. Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=21/12=1{,}75\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R=U^2/P=12^2/21\\approx6{,}86\\ \\Omega\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -84517,13 +85352,16 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.75,
-      6.86
+      6.857142857142857
     ],
     "tolerans": [
-      0.02625,
-      0.1029
+      0.05,
+      0.17142857142857143
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -84538,100 +85376,119 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "ems__elektrisk_energi_i_vardagen",
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En billampa är märkt 12 V och 21 W.</p>",
+    "spelIntro": "<p>En lampa är märkt 12 V, 21 W.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor ström går genom lampan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Märkströmmen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{21}{12}=1{,}75\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}75\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+        "fraga": "En lampa är märkt 12 V, 21 W. Bestäm strömmen när lampan ansluts till 12 V. Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=P/U=21/12=1{,}75\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.75,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En lampa är märkt 12 V, 21 W. Bestäm strömmen när lampan ansluts till 12 V. Svara i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken resistans har den när den lyser?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den varma glödtrådens resistans blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{12}{1{,}75}=6{,}86\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}86\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+        "fraga": "En lampa utvecklar 21 W vid 12 V. Bestäm dess resistans vid denna spänning. Svara i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=12^2/21\\approx6{,}86\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.857142857142857,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.17142857142857143,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En lampa utvecklar 21 W vid 12 V. Bestäm dess resistans vid denna spänning. Svara i Ω.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.223",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "sluten krets med inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}5\\,\\Omega\\) ansluts till en yttre resistor \\(5\\,\\Omega\\). Bestäm strömmen i kretsen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,5 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 5 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den inre resistansen ligger i serie med den yttre belastningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{\\mathcal E}{R+r}=\\frac{12}{5+0{,}5}=2{,}182\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}182\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 12 V och inre resistansen 0,5 Ω. Det ansluts till en resistor på 5,0 Ω.</p><p>Bestäm strömmen i A.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,5 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R = 5 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Yttre och inre resistans är i serie. Addera dem innan du använder Ohms lag.</p><p>\\[I=\\frac{\\mathcal E}{R+r}\\]</p><p>\\[I=12/(5+0{,}5)\\approx2{,}182\\ \\mathrm A\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.181818,
-    "tolerans": 0.039273,
+    "rättSvar": 2.1818181818181817,
+    "tolerans": 0.05454545454545454,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Räkna den inre resistansen som en serieresistans med belastningen.</p>",
+    "ledtrad": "<p>Den inre resistansen ingår i samma strömväg som den yttre resistorn.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.224",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "effektförlust i batteriets inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett \\(9\\,\\mathrm V\\)-batteri har inre resistansen \\(0{,}9\\,\\Omega\\) och levererar strömmen \\(1{,}2\\,\\mathrm A\\). Hur stor effekt utvecklas som värme inne i batteriet?</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,9 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förlusteffekten i den inre resistansen följer samma effektlag som i en vanlig resistor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{förlust}=I^2r=1{,}2^2\\cdot0{,}9=1{,}296\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}296\\ \\mathrm W\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Strömmen genom ett batteri är 1,2 A och den inre resistansen är 0,9 Ω.</p><p>Hur stor effekt blir värme inne i batteriet? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=1{,}2^2\\cdot0{,}9=1{,}296\\ \\mathrm W\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "numeriskt",
     "rättSvar": 1.296,
-    "tolerans": 0.023328,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Den inre resistansen värms av strömmen enligt \\(P=I^2R\\).</p>",
+    "ledtrad": "<p>Använd P=I²r för den inre resistansen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.64",
@@ -84852,10 +85709,10 @@ window.BANK = [
     "id": "8.66",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett batteri med ems 1,5 V och den inre resistansen 250 mΩ kopplas till en resistor. Strömmen genom resistorn blir 2,0 A.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,25 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>\n<ol><li>Bestäm resistorns resistans.</li>\n<li>Hur stor är batteriets kortslutningsström?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den totala resistansen vid 2,0 A är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R+r=\\frac{\\mathcal E}{I}=\\frac{1{,}5}{2{,}0}=0{,}75\\ \\Omega\\]\\[R=0{,}75-0{,}250=0{,}500\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid ideal kortslutning är den yttre resistansen noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_k=\\frac{\\mathcal E}{r}=\\frac{1{,}5}{0{,}250}=6{,}0\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resistorn är \\(0{,}50\\ \\Omega\\), och den idealiserade kortslutningsströmmen \\(6{,}0\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Strömmen genom en yttre resistor är 2,0 A.</p><p>a) Bestäm den yttre resistansen i Ω.</p><p>b) Vilken ström ger modellen vid kortslutning? Svara i A.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[U=1{,}5-0{,}250\\cdot2{,}0=1{,}0\\ \\mathrm V\\]</p><p>\\[R=U/I=1{,}0/2{,}0=0{,}50\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I_k=\\mathcal E/r=1{,}5/0{,}250=6{,}0\\ \\mathrm A\\]</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
@@ -84867,17 +85724,20 @@ window.BANK = [
       6
     ],
     "tolerans": [
-      0.01,
-      0.09
+      0.0125,
+      0.15000000000000002
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "Ω",
+      "A"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -84888,62 +85748,85 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett batteri med ems 1,5 V och den inre resistansen 250 mΩ kopplas till en resistor. Strömmen genom resistorn blir 2,0 A.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,25 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div><div class=\"spel-en-del\">Bestäm resistorns resistans.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den totala resistansen vid 2,0 A är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R+r=\\frac{\\mathcal E}{I}=\\frac{1{,}5}{2{,}0}=0{,}75\\ \\Omega\\]\\[R=0{,}75-0{,}250=0{,}500\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}500\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Den totala resistansen vid 2,0 A är Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Strömmen genom en yttre resistor är 2,0 A. Bestäm den yttre resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[U=1{,}5-0{,}250\\cdot2{,}0=1{,}0\\ \\mathrm V\\]</p><p>\\[R=U/I=1{,}0/2{,}0=0{,}50\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.0125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Strömmen genom en yttre resistor är 2,0 A. Bestäm den yttre resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Ett batteri med ems 1,5 V och den inre resistansen 250 mΩ kopplas till en resistor. Strömmen genom resistorn blir 2,0 A.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,25 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div><div class=\"spel-en-del\">Hur stor är batteriets kortslutningsström?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid ideal kortslutning är den yttre resistansen noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_k=\\frac{\\mathcal E}{r}=\\frac{1{,}5}{0{,}250}=6{,}0\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Vid ideal kortslutning är den yttre resistansen noll. Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Vilken ström ger batterimodellen vid kortslutning? Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I_k=\\mathcal E/r=1{,}5/0{,}250=6{,}0\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.15000000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vid kortslutning är den yttre resistansen noll.</p>",
+        "t": "<p>Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Vilken ström ger batterimodellen vid kortslutning? Svara i A.</p>",
+        "arbetsinsats": 1
       }
     ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Den totala resistansen vid 2,0 A är Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "spelIntro": "<p>Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Strömmen genom en yttre resistor är 2,0 A.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "8.225",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "sluten krets med inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}7\\,\\Omega\\) ansluts till en yttre resistor \\(7\\,\\Omega\\). Bestäm strömmen i kretsen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,7 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 7 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den inre resistansen ligger i serie med den yttre belastningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{\\mathcal E}{R+r}=\\frac{12}{7+0{,}7}=1{,}558\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}558\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 12 V och inre resistansen 0,70 Ω. Strömmen är 1,50 A.</p><p>Vilken resistans har den yttre resistorn? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Ohms lag för hela kretsen ger den sammanlagda resistansen.</p><p>\\[R+r=12/1{,}50=8{,}0\\ \\Omega\\]</p><p>Dra bort batteriets inre resistans.</p><p>\\[R=8{,}0-0{,}70=7{,}30\\ \\Omega\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.558442,
-    "tolerans": 0.028052,
+    "rättSvar": 7.3,
+    "tolerans": 0.1825,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Räkna den inre resistansen som en serieresistans med belastningen.</p>",
+    "ledtrad": "<p>Bestäm hela kretsens resistans och dra sedan bort batteriets inre resistans.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.67",
@@ -86032,11 +86915,10 @@ window.BANK = [
     "id": "8.75",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "beräkna ström och effekt ur spänning och resistans, ur text, sökt effekt",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett värmeelement har resistansen 52 Ω och ansluts till 230 V.</p>\n<ol><li>Hur stor ström går genom elementet?</li><li>Vilken effekt utvecklas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac UR=\\frac{230}{52}=4{,}42\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten kan beräknas med \\(P=U^2/R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{230^2}{52}=1017\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(4{,}42\\ \\mathrm A\\), och effekten cirka \\(1{,}02\\ \\mathrm{kW}\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En resistor på 52 Ω ansluts till 230 V.</p><p>a) Bestäm strömmen i A.</p><p>b) Bestäm effekten i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=U/R=230/52\\approx4{,}42\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=U^2/R=230^2/52\\approx1017\\ \\mathrm W\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -86044,14 +86926,17 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4.42,
-      1017
+      4.423076923076923,
+      1017.3076923076923
     ],
     "tolerans": [
-      0.0663,
-      15
+      0.11057692307692309,
+      50.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -86069,36 +86954,59 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett värmeelement har resistansen 52 Ω och ansluts till 230 V.</p><div class=\"spel-en-del\">Hur stor ström går genom elementet?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ohms lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac UR=\\frac{230}{52}=4{,}42\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}42\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C"
+        "fraga": "En resistor på 52 Ω ansluts till 230 V. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=U/R=230/52\\approx4{,}42\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.423076923076923,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.11057692307692309,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 52 Ω ansluts till 230 V. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Ett värmeelement har resistansen 52 Ω och ansluts till 230 V.</p><div class=\"spel-en-del\">Vilken effekt utvecklas?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten kan beräknas med \\(P=U^2/R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{230^2}{52}=1017\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1017\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Effekten kan beräknas med \\(P=U^2/R\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C"
+        "fraga": "En resistor på 52 Ω ansluts till 230 V. Bestäm effekten i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=U^2/R=230^2/52\\approx1017\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1017.3076923076923,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 50.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En resistor på 52 Ω ansluts till 230 V. Bestäm effekten i W.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "spelIntro": "<p>En resistor på 52 Ω ansluts till 230 V.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "8.193",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "elektrisk effekt",
     "poang": "(1/0/0)",
-    "t": "<p>En apparat är ansluten till \\(12\\ \\mathrm V\\) och tar strömmen \\(2{,}0\\ \\mathrm A\\). Bestäm effekten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektrisk effekt är spänning gånger ström.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=12\\cdot2{,}0=24\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\mathrm W\\).</p></div>",
+    "t": "<p>En apparat ansluts till 12 V och drar 2,0 A. Vilken effekt har den? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=UI=12\\cdot2{,}0=24\\ \\mathrm W\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -86106,17 +87014,18 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 0,
+    "tolerans": 0.6000000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.76",
@@ -86296,10 +87205,10 @@ window.BANK = [
     "id": "8.77",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett element för 230 V utvecklar effekten 1500 W.</p>\n<ol><li>Hur stor ström går genom det?</li><li>Vilken resistans har värmeslingan?</li>\n<li>Vad händer med effekten om elementet kopplas till 115 V i stället?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen vid märkdrift är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{1500}{230}=6{,}52\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Värmeslingans resistans är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U^2}{P}=\\frac{230^2}{1500}=35{,}27\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om resistansen antas konstant gäller \\(P=U^2/R\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Halverad spänning ger en fjärdedel av effekten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{115}=1500\\left(\\frac{115}{230}\\right)^2=375\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(6{,}52\\ \\mathrm A\\), resistansen \\(35{,}3\\ \\Omega\\), och vid 115 V blir effekten \\(375\\ \\mathrm W\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Räkna med samma resistans i del c.</p><p>a) Bestäm strömmen vid 230 V. Svara i A.</p><p>b) Bestäm resistansen i Ω.</p><p>c) Vilken effekt får värmaren vid 115 V om resistansen är densamma? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=1500/230\\approx6{,}52\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R=U^2/P=230^2/1500\\approx35{,}3\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Med samma resistans är effekten proportionell mot spänningen i kvadrat.</p><p>\\[P_{\\text{ny}}=1500(115/230)^2=375\\ \\mathrm W\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -86307,29 +87216,29 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6.52,
-      35.27,
-      null
+      6.521739130434782,
+      35.266666666666666,
+      375
     ],
     "tolerans": [
-      0.09779999999999998,
-      0.52905,
-      null
+      0.16304347826086957,
+      0.8816666666666667,
+      9.375
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "A",
       "Ω",
-      null
+      "W"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -86337,38 +87246,71 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett element för 230 V utvecklar effekten 1500 W.</p>",
+    "spelIntro": "<p>En värmare utvecklar 1 500 W vid 230 V. Räkna med samma resistans i del c.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor ström går genom det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen vid märkdrift är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{1500}{230}=6{,}52\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}52\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C"
+        "fraga": "En värmare utvecklar 1 500 W vid 230 V. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=P/U=1500/230\\approx6{,}52\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.521739130434782,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.16304347826086957,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken resistans har värmeslingan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Värmeslingans resistans är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U^2}{P}=\\frac{230^2}{1500}=35{,}27\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35{,}27\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C"
+        "fraga": "En värmare utvecklar 1 500 W vid 230 V. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=230^2/1500\\approx35{,}3\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 35.266666666666666,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.8816666666666667,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad händer med effekten om elementet kopplas till 115 V i stället?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om resistansen antas konstant gäller \\(P=U^2/R\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Halverad spänning ger en fjärdedel av effekten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{115}=1500\\left(\\frac{115}{230}\\right)^2=375\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C"
+        "fraga": "En värmare utvecklar 1 500 W vid 230 V. Vilken effekt får den vid 115 V om resistansen är densamma? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>Med samma resistans är effekten proportionell mot spänningen i kvadrat.</p><p>\\[P_{\\text{ny}}=1500(115/230)^2=375\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 375,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 9.375,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Vilken effekt får den vid 115 V om resistansen är densamma? Svara i W.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "kretsar"
   },
   {
@@ -86451,10 +87393,9 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "elektrisk energi från effekt och tid",
     "poang": "(1/0/0)",
-    "t": "<p>En apparat med effekten \\(100\\ \\mathrm W\\) används i \\(30\\ \\mathrm s\\). Bestäm den elektriska energin i joule.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energi är effekt gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Pt=100\\cdot30=3000\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3000\\ \\mathrm J\\).</p></div>",
+    "t": "<p>En lampa har effekten 100 W och lyser i 30 s. Hur mycket energi använder den? Svara i J.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=100\\cdot30=3000\\ \\mathrm J\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -86462,17 +87403,18 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 3000,
-    "tolerans": 0,
+    "tolerans": 75.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "J",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.79",
@@ -87304,10 +88246,10 @@ window.BANK = [
     "id": "8.87",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar en krets.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"290\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"133\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"133\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken spänning ligger över varje resistor?</li><li>Hur stor ström går genom varje resistor?</li>\n<li>Bestäm ersättningsresistansen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda resistorerna är kopplade mellan samma två punkter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{6{,}0}{200}=30\\ \\mathrm{mA},\\qquad I_2=\\frac{6{,}0}{300}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{200\\cdot300}{200+300}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda har \\(6{,}0\\ \\mathrm V\\). Strömmarna är \\(30\\) och \\(20\\ \\mathrm{mA}\\), och \\(R_e=120\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två resistorer, R₁ = 200 Ω och R₂ = 300 Ω, är parallellkopplade till 6,0 V.</p><span class=\"fig bred\"><svg height=\"207.07177938857527\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.640010833740234 30.400001525878906 495.209903717041 197.1999921798706\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"290\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"133\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"447\" y=\"133\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span><p>a) Bestäm spänningen över R₁ och R₂. Svara i V.</p><p>b) Bestäm strömmen genom R₁ och R₂. Svara i A.</p><p>c) Bestäm ersättningsresistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Parallellkopplade komponenter ligger mellan samma två punkter och har därför samma spänning.</p><p>\\[U_1=U_2=6{,}0\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I_1=6{,}0/200=0{,}030\\ \\mathrm A\\]</p><p>\\[I_2=6{,}0/300=0{,}020\\ \\mathrm A\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[R_p=200\\cdot300/(200+300)=120\\ \\Omega\\]</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "procedur"
@@ -87315,28 +88257,46 @@ window.BANK = [
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
+      [
+        6,
+        6
+      ],
+      [
+        0.03,
+        0.02
+      ],
       120
     ],
     "tolerans": [
-      null,
-      null,
-      1.7999999999999998
+      [
+        0.15000000000000002,
+        0.15000000000000002
+      ],
+      [
+        0.00075,
+        0.0005
+      ],
+      5.0
     ],
     "självrättning": [
-      false,
-      false,
+      true,
+      true,
       true
     ],
     "svarFormat": [
-      null,
-      null,
+      "numeriskt",
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null,
+      [
+        "V",
+        "V"
+      ],
+      [
+        "A",
+        "A"
+      ],
       "Ω"
     ],
     "svarsstruktur": "ordnad",
@@ -87346,41 +88306,99 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "kopplingar__ersattningsresistans_och_kretsanalys",
-    "ledtrad": "<p>Båda resistorerna är kopplade mellan samma två punkter. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Vilken spänning har parallellkopplade grenar?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en krets.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"50.914 34.722 473.657 188.272\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"290\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"133\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"133\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>",
+    "spelIntro": "<p>Två resistorer, R₁ = 200 Ω och R₂ = 300 Ω, är parallellkopplade till 6,0 V.</p><span class=\"fig bred\"><svg height=\"207.07177938857527\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.640010833740234 30.400001525878906 495.209903717041 197.1999921798706\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"290\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"133\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"420\" y=\"101\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"447\" y=\"133\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken spänning ligger över varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda resistorerna är kopplade mellan samma två punkter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=U_2=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Båda resistorerna är kopplade mellan samma två punkter. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+        "fraga": "R₁ = 200 Ω och R₂ = 300 Ω är parallellkopplade till 6,0 V. Bestäm spänningen över var och en. Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Parallellkopplade komponenter ligger mellan samma två punkter och har därför samma spänning.</p><p>\\[U_1=U_2=6{,}0\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          6,
+          6
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "V",
+          "V"
+        ],
+        "tolerans": [
+          0.15000000000000002,
+          0.15000000000000002
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken spänning har parallellkopplade grenar?</p>",
+        "t": "<p>R₁ = 200 Ω och R₂ = 300 Ω är parallellkopplade till 6,0 V. Bestäm spänningen över var och en. Svara i V.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R₁",
+          "R₂"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor ström går genom varje resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grenströmmarna blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{6{,}0}{200}=30\\ \\mathrm{mA},\\qquad I_2=\\frac{6{,}0}{300}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Båda resistorerna är kopplade mellan samma två punkter. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+        "fraga": "R₁ = 200 Ω och R₂ = 300 Ω är parallellkopplade till 6,0 V. Bestäm strömmen genom var och en. Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I_1=6{,}0/200=0{,}030\\ \\mathrm A\\]</p><p>\\[I_2=6{,}0/300=0{,}020\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0.03,
+          0.02
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "A",
+          "A"
+        ],
+        "tolerans": [
+          0.00075,
+          0.0005
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>R₁ = 200 Ω och R₂ = 300 Ω är parallellkopplade till 6,0 V. Bestäm strömmen genom var och en. Svara i A.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R₁",
+          "R₂"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm ersättningsresistansen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ersättningsresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{200\\cdot300}{200+300}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Båda resistorerna är kopplade mellan samma två punkter. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Två resistorer på 200 Ω och 300 Ω är parallellkopplade. Bestäm ersättningsresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_p=200\\cdot300/(200+300)=120\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 120,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vid parallellkoppling adderas 1/R.</p>",
+        "t": "<p>Två resistorer på 200 Ω och 300 Ω är parallellkopplade. Bestäm ersättningsresistansen i Ω.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
     ]
@@ -87639,62 +88657,162 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "avgöra vad en kortslutande brytare gör med kretsen, ur diagram, sökt effekt",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en krets där en brytare är kopplad parallellt med R₂. Bortse från batteriets inre resistans.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"27.029 4.300 402.971 172.014\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span>\n<ol><li>Vilken ström går i kretsen när brytaren är öppen?</li>\n<li>Vilken spänning ligger då över vardera resistorn?</li>\n<li>Vad händer med strömmen när brytaren sluts?</li>\n<li>Hur ändras effekten i R₁?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med öppen brytare är resistorerna i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_o=\\frac{12}{40+60}=0{,}120\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Delspänningarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=0{,}120\\cdot40=4{,}8\\ \\mathrm V,\\qquad U_2=0{,}120\\cdot60=7{,}2\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sluten brytare kortsluter \\(R_2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_s=\\frac{12}{40}=0{,}300\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p>Genom \\(R_2\\) går då ingen ström och spänningen över den är noll.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i \\(R_1\\) före och efter är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_o=40(0{,}120)^2=0{,}576\\ \\mathrm W\\]\\[P_s=40(0{,}300)^2=3{,}60\\ \\mathrm W\\]\\[\\frac{P_s}{P_o}=6{,}25\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Öppen brytare: \\(I=0{,}120\\ \\mathrm A\\), \\(U_1=4{,}8\\ \\mathrm V\\), \\(U_2=7{,}2\\ \\mathrm V\\). Sluten: \\(I=0{,}300\\ \\mathrm A\\), och effekten i \\(R_1\\) blir 6,25 gånger större.</p></div>",
+    "poang": "(2/2/0)",
+    "t": "<p>Brytaren i figuren kan vara öppen eller sluten. Spänningskällan ger 12 V i båda fallen.</p><span class=\"fig bred\"><svg height=\"236.01316959194295\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.110889434814453 -6.466687202453613 417.91897201538086 189.68150234222412\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span><p>a) Bestäm totalströmmen med öppen brytare. Svara i A.</p><p>b) Bestäm spänningen över R₁ och R₂. Svara i V.</p><p>c) Bestäm totalströmmen med sluten brytare. Svara i A.</p><p>d) Hur många gånger så stor blir effekten i R₁ när brytaren sluts?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Båda resistorerna ligger i serie.</p><p>\\[I=12/(40+60)=0{,}120\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[U_1=40\\cdot0{,}120=4{,}8\\ \\mathrm V\\]</p><p>\\[U_2=60\\cdot0{,}120=7{,}2\\ \\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Brytaren leder strömmen förbi R₂. Bara R₁ begränsar totalströmmen.</p><p>\\[I=12/40=0{,}300\\ \\mathrm A\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>R₁ är oförändrad, så \\(P=I^2R\\) ger:</p><p>\\[P_{\\text{ny}}/P_{\\text{gammal}}=(0{,}3/0{,}12)^2=6{,}25\\]</p><p>Effekten blir 6,25 gånger så stor.</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.12,
+      [
+        4.8,
+        7.2
+      ],
+      0.3,
+      6.25
+    ],
+    "tolerans": [
+      0.005,
+      [
+        0.12,
+        0.18000000000000002
+      ],
+      0.0075,
+      0.15625
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Med öppen brytare är resistorerna i serie. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en krets där en brytare är kopplad parallellt med R₂. Bortse från batteriets inre resistans.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"27.029 4.300 402.971 172.014\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span>",
+    "spelIntro": "<p>Brytaren i figuren kan vara öppen eller sluten. Spänningskällan ger 12 V i båda fallen.</p><span class=\"fig bred\"><svg height=\"236.01316959194295\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.110889434814453 -6.466687202453613 417.91897201538086 189.68150234222412\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken ström går i kretsen när brytaren är öppen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med öppen brytare är resistorerna i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_o=\\frac{12}{40+60}=0{,}120\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}120\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Med öppen brytare är resistorerna i serie. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Kretsen i figuren ansluts till 12 V. Bestäm totalströmmen med öppen brytare. Svara i A.<span class=\"fig bred\"><svg height=\"236.01316959194295\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.110889434814453 -6.466687202453613 417.91897201538086 189.68150234222412\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span>",
+        "s": "<div class=\"facit-v2\"><p>Båda resistorerna ligger i serie.</p><p>\\[I=12/(40+60)=0{,}120\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.12,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Kretsen i figuren ansluts till 12 V. Bestäm totalströmmen med öppen brytare. Svara i A.<span class=\"fig bred\"><svg height=\"236.01316959194295\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.110889434814453 -6.466687202453613 417.91897201538086 189.68150234222412\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span></p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Vilken spänning ligger då över vardera resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Delspänningarna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=0{,}120\\cdot40=4{,}8\\ \\mathrm V,\\qquad U_2=0{,}120\\cdot60=7{,}2\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Med öppen brytare är resistorerna i serie. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Strömmen genom två seriekopplade resistorer på 40 Ω respektive 60 Ω är 0,120 A. Bestäm spänningen över var och en. Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_1=40\\cdot0{,}120=4{,}8\\ \\mathrm V\\]</p><p>\\[U_2=60\\cdot0{,}120=7{,}2\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          4.8,
+          7.2
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "V",
+          "V"
+        ],
+        "tolerans": [
+          0.12,
+          0.18000000000000002
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Strömmen genom två seriekopplade resistorer på 40 Ω respektive 60 Ω är 0,120 A. Bestäm spänningen över var och en. Svara i V.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "R₁",
+          "R₂"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Vad händer med strömmen när brytaren sluts?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sluten brytare kortsluter \\(R_2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_s=\\frac{12}{40}=0{,}300\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p>Genom \\(R_2\\) går då ingen ström och spänningen över den är noll.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}300\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Med öppen brytare är resistorerna i serie. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Kretsen i figuren ansluts till 12 V. Bestäm totalströmmen när brytaren är sluten. Svara i A.<span class=\"fig bred\"><svg height=\"236.01316959194295\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.110889434814453 -6.466687202453613 417.91897201538086 189.68150234222412\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span>",
+        "s": "<div class=\"facit-v2\"><p>Brytaren leder strömmen förbi R₂. Bara R₁ begränsar totalströmmen.</p><p>\\[I=12/40=0{,}300\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0075,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Kretsen i figuren ansluts till 12 V. Bestäm totalströmmen när brytaren är sluten. Svara i A.<span class=\"fig bred\"><svg height=\"236.01316959194295\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.110889434814453 -6.466687202453613 417.91897201538086 189.68150234222412\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"90\" y1=\"48\" x2=\"90\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"90\" y1=\"108\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"75\" y1=\"82\" x2=\"105\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"84\" y1=\"98\" x2=\"96\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"68\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"90\" y1=\"48\" x2=\"380\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"48\" x2=\"380\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"150\" x2=\"90\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"170\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"198\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 40 Ω</text><rect x=\"370\" y=\"67\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"425\" y=\"166\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 60 Ω</text><line x1=\"290\" y1=\"48\" x2=\"290\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"290\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"150\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"75\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"290\" cy=\"105\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"290\" y1=\"105\" x2=\"316\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"></line><text x=\"282\" y=\"99\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">brytare</text></svg></span></p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "d",
-        "fraga": "Hur ändras effekten i R₁?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i \\(R_1\\) före och efter är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_o=40(0{,}120)^2=0{,}576\\ \\mathrm W\\]\\[P_s=40(0{,}300)^2=3{,}60\\ \\mathrm W\\]\\[\\frac{P_s}{P_o}=6{,}25\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}25\\).</p></div>",
-        "ledtrad": "<p>Med öppen brytare är resistorerna i serie. Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Strömmen genom en resistor ökar från 0,120 A till 0,300 A. Resistansen är oförändrad. Hur många gånger så stor blir effekten?",
+        "s": "<div class=\"facit-v2\"><p>R₁ är oförändrad, så \\(P=I^2R\\) ger:</p><p>\\[P_{\\text{ny}}/P_{\\text{gammal}}=(0{,}3/0{,}12)^2=6{,}25\\]</p><p>Effekten blir 6,25 gånger så stor.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.25,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.15625,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Strömmen genom en resistor ökar från 0,120 A till 0,300 A. Resistansen är oförändrad. Hur många gånger så stor blir effekten?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "A",
+      [
+        "V",
+        "V"
+      ],
+      "A",
+      null
     ]
   },
   {
@@ -87858,10 +88976,10 @@ window.BANK = [
     "id": "8.92",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Clara har köpt en liten elmotor som ska driva en modellhiss. Spänningen över motorn är 3,0 V och strömmen genom den är 0,60 A. När motorn är inkopplad tar det 3,5 sekunder för den att lyfta en vikt med massan 700 gram 0,50 meter rakt upp.</p>\n<ol><li>Hur mycket elektrisk energi förbrukas?</li>\n<li>Hur stort är det nyttiga arbetet?</li><li>Vilken verkningsgrad har hissen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektrisk energi under 3,5 s är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{el}}=UIt=3{,}0\\cdot0{,}60\\cdot3{,}5=6{,}30\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det nyttiga lyftarbetet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh=0{,}700\\cdot9{,}82\\cdot0{,}50=3{,}437\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{W}{E_{\\mathrm{el}}}=\\frac{3{,}437}{6{,}30}=0{,}546\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Motorn förbrukar \\(6{,}30\\ \\mathrm J\\), utför \\(3{,}44\\ \\mathrm J\\) nyttigt arbete och har verkningsgraden cirka \\(55\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En liten motor lyfter 0,70 kg en höjd på 0,50 m. Motorn drar 0,60 A vid 3,0 V under 3,5 s. Använd g = 9,82 m/s².</p><p>a) Hur mycket elenergi används? Svara i J.</p><p>b) Hur stort arbete utförs på lasten? Svara i J.</p><p>c) Bestäm verkningsgraden i %.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=3{,}0\\cdot0{,}60\\cdot3{,}5\\\\&=6{,}3\\ \\mathrm J\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}W&=0{,}70\\cdot9{,}82\\cdot0{,}50\\\\&=3{,}437\\ \\mathrm J\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\eta&=3{,}437/6{,}3\\cdot100\\\\&\\approx54{,}6\\ \\%\\end{aligned}\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -87870,28 +88988,28 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       6.3,
-      null,
-      null
+      3.437,
+      54.55555555555556
     ],
     "tolerans": [
-      0.0945,
-      null,
-      null
+      0.1575,
+      0.085925,
+      1.3650793650793653
     ],
     "självrättning": [
       true,
-      false,
-      false
+      true,
+      true
     ],
     "svarFormat": [
       "numeriskt",
-      null,
-      null
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
       "J",
-      null,
-      null
+      "J",
+      "%"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -87900,41 +89018,71 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "ems__elektrisk_energi_i_vardagen",
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Clara har köpt en liten elmotor som ska driva en modellhiss. Spänningen över motorn är 3,0 V och strömmen genom den är 0,60 A. När motorn är inkopplad tar det 3,5 sekunder för den att lyfta en vikt med massan 700 gram 0,50 meter rakt upp.</p>",
+    "spelIntro": "<p>En liten motor lyfter 0,70 kg en höjd på 0,50 m. Motorn drar 0,60 A vid 3,0 V under 3,5 s. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket elektrisk energi förbrukas?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektrisk energi under 3,5 s är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{el}}=UIt=3{,}0\\cdot0{,}60\\cdot3{,}5=6{,}30\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}30\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+        "fraga": "En motor drar 0,60 A vid 3,0 V under 3,5 s. Hur mycket elenergi använder den? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UIt\\\\&=3{,}0\\cdot0{,}60\\cdot3{,}5\\\\&=6{,}3\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.3,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 0.1575,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>En motor drar 0,60 A vid 3,0 V under 3,5 s. Hur mycket elenergi använder den? Svara i J.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort är det nyttiga arbetet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det nyttiga lyftarbetet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[W=mgh=0{,}700\\cdot9{,}82\\cdot0{,}50=3{,}437\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}437\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En motor lyfter 0,70 kg en höjd på 0,50 m. Använd g = 9,82 m/s². Hur stort arbete utförs på lasten? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}W&=mgh\\\\&=0{,}70\\cdot9{,}82\\cdot0{,}50\\\\&=3{,}437\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.437,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 0.085925,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Lyftarbetet är \\(mgh\\).</p>",
+        "t": "<p>En motor lyfter 0,70 kg en höjd på 0,50 m. Använd g = 9,82 m/s². Hur stort arbete utförs på lasten? Svara i J.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken verkningsgrad har hissen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{W}{E_{\\mathrm{el}}}=\\frac{3{,}437}{6{,}30}=0{,}546\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}546\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En motor använder 6,3 J elenergi och utför lyftarbetet 3,44 J. Bestäm verkningsgraden i %. ",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\eta&=3{,}44/6{,}3\\cdot100\\\\&\\approx54{,}6\\ \\%\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 54.60317460317461,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 1.3650793650793653,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera nyttigt arbete med tillförd energi.</p>",
+        "t": "<p>En motor använder 6,3 J elenergi och utför lyftarbetet 3,44 J. Bestäm verkningsgraden i %. </p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
@@ -87944,150 +89092,239 @@ window.BANK = [
     "id": "8.226",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "effektförlust i batteriets inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett \\(9\\,\\mathrm V\\)-batteri har inre resistansen \\(1{,}1\\,\\Omega\\) och levererar strömmen \\(1{,}4\\,\\mathrm A\\). Hur stor effekt utvecklas som värme inne i batteriet?</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 1,1 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förlusteffekten i den inre resistansen följer samma effektlag som i en vanlig resistor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{förlust}=I^2r=(1,4)^21,1=2{,}156\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}156\\ \\mathrm W\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Strömmen genom ett batteri är 1,4 A och den inre resistansen är 1,1 Ω.</p><p>Hur stor effekt blir värme inne i batteriet? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=1{,}4^2\\cdot1{,}1=2{,}156\\ \\mathrm W\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.156,
-    "tolerans": 0.038808,
+    "rättSvar": 2.1559999999999997,
+    "tolerans": 0.053899999999999997,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Den inre resistansen värms av strömmen enligt \\(P=I^2R\\).</p>",
+    "ledtrad": "<p>Använd P=I²r för den inre resistansen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.227",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "sluten krets med inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}5\\,\\Omega\\) ansluts till en yttre resistor \\(4\\,\\Omega\\). Bestäm strömmen i kretsen.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,5 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 4 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den inre resistansen ligger i serie med den yttre belastningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{\\mathcal E}{R+r}=\\frac{12}{4+0{,}5}=2{,}667\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}667\\ \\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 12 V och inre resistansen 0,5 Ω. Det ansluts till en resistor på 4,0 Ω.</p><p>Bestäm strömmen i A.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,5 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R = 4 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Yttre och inre resistans är i serie. Addera dem innan du använder Ohms lag.</p><p>\\[I=\\frac{\\mathcal E}{R+r}\\]</p><p>\\[I=12/(4+0{,}5)\\approx2{,}667\\ \\mathrm A\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.666667,
-    "tolerans": 0.048,
+    "rättSvar": 2.6666666666666665,
+    "tolerans": 0.06666666666666667,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Räkna den inre resistansen som en serieresistans med belastningen.</p>",
+    "ledtrad": "<p>Den inre resistansen ingår i samma strömväg som den yttre resistorn.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.93",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "beräkna kortslutningsström och polspänning vid olika belastning, ur text, sökt ström och spänning",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett batteri har ems 1,5 V och den inre resistansen 0,30 Ω.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,30 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"421\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 2,7 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div><p><em>Figuren visar kretsen i fall b, med resistorn på 2,7 Ω.</em></p>\n<ol><li>Hur stor blir strömmen om batteriets poler kopplas ihop med en ledning utan resistans?</li>\n<li>Batteriet kopplas i stället till en resistor på 2,7 Ω. Hur stor blir strömmen då?</li>\n<li>Vilken polspänning har batteriet i fall b?</li>\n<li>Varför blir ett kortslutet batteri varmt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid ideal kortslutning återstår endast den inre resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_k=\\frac{1{,}5}{0{,}30}=5{,}0\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med en yttre resistor på 2,7 Ω blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{1{,}5}{2{,}7+0{,}30}=0{,}500\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Polspänningen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=1{,}5-0{,}30\\cdot0{,}500=1{,}35\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning utvecklas effekten inne i batteriet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_i=I_k^2r=5{,}0^2\\cdot0{,}30=7{,}5\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Det kan snabbt ge farlig temperaturökning och skada batteriet.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kortslutningsströmmen är \\(5{,}0\\ \\mathrm A\\). Med 2,7 Ω blir strömmen \\(0{,}500\\ \\mathrm A\\) och polspänningen \\(1{,}35\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Ett batteri har ems 1,5 V och inre resistans 0,30 Ω.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,30 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"421\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R = 2,7 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div><p>a) Vilken kortslutningsström ger modellen? Svara i A.</p><p>b) En resistor på 2,7 Ω ansluts till batteriet. Bestäm strömmen i A.</p><p>c) Bestäm polspänningen med resistorn ansluten. Svara i V.</p><p>d) Förklara varför batteriet kan bli varmt vid kortslutning.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I_k=1{,}5/0{,}30=5{,}0\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=1{,}5/(2{,}7+0{,}30)=0{,}50\\ \\mathrm A\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[U=1{,}5-0{,}30\\cdot0{,}50=1{,}35\\ \\mathrm V\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Strömmen genom batteriets inre resistans utvecklar värme med effekten \\(I²r\\). Vid kortslutning blir strömmen stor och därmed också värmeeffekten.</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      0.5,
+      1.35,
+      null
+    ],
+    "tolerans": [
+      0.125,
+      0.0125,
+      0.05,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+    "ledtrad": "<p>Den yttre resistansen är noll vid kortslutning.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteri har ems 1,5 V och den inre resistansen 0,30 Ω.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,30 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"421\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 2,7 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div><p><em>Figuren visar kretsen i fall b, med resistorn på 2,7 Ω.</em></p>",
+    "spelIntro": "<p>Ett batteri har ems 1,5 V och inre resistans 0,30 Ω.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"67\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 1,5 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,30 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"421\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R = 2,7 Ω</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor blir strömmen om batteriets poler kopplas ihop med en ledning utan resistans?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid ideal kortslutning återstår endast den inre resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_k=\\frac{1{,}5}{0{,}30}=5{,}0\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,30 Ω. Vilken kortslutningsström ger modellen? Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I_k=1{,}5/0{,}30=5{,}0\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Den yttre resistansen är noll vid kortslutning.</p>",
+        "t": "<p>Ett batteri har ems 1,5 V och inre resistans 0,30 Ω. Vilken kortslutningsström ger modellen? Svara i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Batteriet kopplas i stället till en resistor på 2,7 Ω. Hur stor blir strömmen då?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med en yttre resistor på 2,7 Ω blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{1{,}5}{2{,}7+0{,}30}=0{,}500\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}500\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri med ems 1,5 V och inre resistans 0,30 Ω driver en resistor på 2,7 Ω. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=1{,}5/(2{,}7+0{,}30)=0{,}50\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri med ems 1,5 V och inre resistans 0,30 Ω driver en resistor på 2,7 Ω. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken polspänning har batteriet i fall b?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Polspänningen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=1{,}5-0{,}30\\cdot0{,}500=1{,}35\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}35\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri har ems 1,5 V, inre resistans 0,30 Ω och strömmen 0,50 A. Bestäm polspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U=1{,}5-0{,}30\\cdot0{,}50=1{,}35\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.35,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 1,5 V, inre resistans 0,30 Ω och strömmen 0,50 A. Bestäm polspänningen i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Varför blir ett kortslutet batteri varmt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning utvecklas effekten inne i batteriet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_i=I_k^2r=5{,}0^2\\cdot0{,}30=7{,}5\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p>Det kan snabbt ge farlig temperaturökning och skada batteriet.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C"
+        "fraga": "Varför kan ett kortslutet batteri bli varmt?",
+        "s": "<div class=\"facit-v2\"><p>Strömmen genom batteriets inre resistans utvecklar värme med effekten \\(I²r\\). Vid kortslutning blir strömmen stor och därmed också värmeeffekten.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den stora strömmen utvecklar värme i batteriets inre resistans.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den stora strömmen utvecklar värme i batteriets inre resistans.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "All laddning försvinner utan energiöverföring.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Ingen ström går vid kortslutning.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Varför kan ett kortslutet batteri bli varmt?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "A",
+      "A",
+      "V",
+      null
     ]
   },
   {
     "id": "8.228",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "effektförlust i batteriets inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett \\(9\\,\\mathrm V\\)-batteri har inre resistansen \\(0{,}9\\,\\Omega\\) och levererar strömmen \\(1{,}1\\,\\mathrm A\\).</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,9 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div><p>Vad visar voltmetern?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Ta hänsyn till batteriets inre resistans</p><p>När batteriet levererar ström blir polspänningen mindre än batteriets ems. Spänningsfallet inuti batteriet är \\(rI\\), så voltmetern visar</p><div class=\"facit-matte\">\\[U=\\mathcal E-rI.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna spänningen</p><div class=\"facit-matte\">\\[U=9{,}0-0{,}9\\cdot1{,}1=9{,}0-0{,}99=8{,}01\\ \\mathrm V.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(8{,}0\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 9 V och inre resistansen 0,9 Ω. Det levererar strömmen 1,1 A.</p><p>Bestäm batteriets polspänning i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,9 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>När batteriet levererar ström minskar polspänningen med det inre spänningsfallet.</p><p>\\[U=\\mathcal E-rI\\]</p><p>\\[U=9-0{,}9\\cdot1{,}1=8{,}01\\ \\mathrm V\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Polspänningen är emk minus spänningsfallet i batteriet.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
@@ -88096,30 +89333,29 @@ window.BANK = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8.01,
-    "tolerans": 0.02,
+    "tolerans": 0.20025,
     "svarFormat": "numeriskt",
-    "svarEnhet": "V"
+    "svarEnhet": "V",
+    "manuellKomplettering": false
   },
   {
     "id": "8.229",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "sluten krets med inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}7\\,\\Omega\\) ansluts till en yttre resistor \\(6\\,\\Omega\\).</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,7 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"310\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 6 Ω</text></svg></div><p>Vad visar voltmetern, alltså hur stor är polspänningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{\\mathcal E}{R+r}=\\dfrac{12}{6+0{,}7}\\approx1{,}79\\,\\mathrm A\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI=6\\cdot1{,}79\\approx10{,}7\\,\\mathrm V\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 10,7 V</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 12 V och inre resistansen 0,70 Ω. Det kopplas till en resistor på 6,0 Ω.</p><p>Vilken polspänning har batteriet? Svara i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,7 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"310\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R = 6 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Beräkna först strömmen genom de seriekopplade resistanserna.</p><p>\\[I=12/(6{,}0+0{,}70)\\approx1{,}791\\ \\mathrm A\\]</p><p>Polspänningen är samma spänning som över den yttre resistorn.</p><p>\\[U=RI\\approx6{,}0\\cdot1{,}791\\approx10{,}7\\ \\mathrm V\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm strömmen först. Polspänningen är spänningen över den yttre resistorn.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Bestäm strömmen genom hela kretsen. Använd den yttre resistansen för polspänningen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
@@ -88127,19 +89363,20 @@ window.BANK = [
       "EMK och inre resistans"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 10.7463,
-    "tolerans": 0.06,
+    "rättSvar": 10.746268656716417,
+    "tolerans": 0.5,
     "svarFormat": "numeriskt",
-    "svarEnhet": "V"
+    "svarEnhet": "V",
+    "manuellKomplettering": false
   },
   {
     "id": "8.94",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En glödlampa på 60 W byts mot en LED-lampa på 9 W som lyser lika starkt. Lampan är tänd 4 timmar per dag. Elpriset är 2,50 kr/kWh.</p>\n<ol><li>Hur mycket energi sparas per år?</li><li>Hur mycket pengar?</li>\n<li>LED-lampan kostar 45 kr. Hur snabbt är den betald?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effektskillnaden är \\(60-9=51\\ \\mathrm W\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Under ett år är lampan tänd \\(4\\cdot365=1460\\ \\mathrm h\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E=0{,}051\\cdot1460=74{,}46\\ \\mathrm{kWh}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kostnadsbesparingen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta C=74{,}46\\cdot2{,}50=186\\ \\mathrm{kr/år}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Återbetalningstiden är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{45}{186}=0{,}242\\ \\mathrm{år}=2{,}9\\ \\mathrm{månader}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> LED-lampan sparar cirka \\(74{,}5\\ \\mathrm{kWh}\\) och \\(186\\ \\mathrm{kr}\\) per år. Den är återbetald efter ungefär tre månader.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En glödlampa på 60 W byts mot en LED-lampa på 9,0 W som lyser lika starkt. Lampan används 4,0 timmar per dag under 365 dagar. Elpriset är 2,5 kr/kWh och LED-lampan kostar 45 kr.</p><p>a) Hur mycket elenergi sparas på ett år? Svara i kWh.</p><p>b) Hur mycket pengar sparas per år? Svara i kr.</p><p>c) Efter hur många månader har besparingen betalat LED-lampan?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{sparad}}&=(0{,}060-0{,}009)\\cdot4\\cdot365\\\\&=74{,}46\\ \\mathrm{kWh}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Besparing}&=74{,}46\\cdot2{,}5\\\\&=186{,}15\\ \\mathrm{kr}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}t&=45/186{,}15\\cdot12\\\\&\\approx2{,}90\\ \\text{månader}\\end{aligned}\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -88148,28 +89385,28 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       74.46,
-      186,
-      null
+      186.15,
+      2.9008863819500403
     ],
     "tolerans": [
-      1.1168999999999998,
-      2.79,
-      null
+      1.8615,
+      5.0,
+      0.07258064516129033
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "kWh",
-      "kr/år",
-      null
+      "kr",
+      "månader"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -88178,41 +89415,71 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "ems__batteri_energi_och_kapacitet",
-    "ledtrad": "<p>Effektskillnaden är \\(60-9=51\\ \\mathrm W\\). Under ett år är lampan tänd \\(4\\cdot365=1460\\ \\mathrm h\\).</p>",
+    "ledtrad": "<p>Multiplicera skillnaden i effekt med årstiden.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En glödlampa på 60 W byts mot en LED-lampa på 9 W som lyser lika starkt. Lampan är tänd 4 timmar per dag. Elpriset är 2,50 kr/kWh.</p>",
+    "spelIntro": "<p>En glödlampa på 60 W byts mot en LED-lampa på 9,0 W som lyser lika starkt. Lampan används 4,0 timmar per dag under 365 dagar. Elpriset är 2,5 kr/kWh och LED-lampan kostar 45 kr.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi sparas per år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effektskillnaden är \\(60-9=51\\ \\mathrm W\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Under ett år är lampan tänd \\(4\\cdot365=1460\\ \\mathrm h\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E=0{,}051\\cdot1460=74{,}46\\ \\mathrm{kWh}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}46\\ \\mathrm{kWh}\\).</p></div>",
-        "ledtrad": "<p>Effektskillnaden är \\(60-9=51\\ \\mathrm W\\). Under ett år är lampan tänd \\(4\\cdot365=1460\\ \\mathrm h\\).</p>",
+        "fraga": "En 60 W-lampa byts mot en 9,0 W-lampa. De används 4,0 timmar per dag. Hur mycket elenergi sparas under 365 dagar? Svara i kWh.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{sparad}}&=(0{,}060-0{,}009)\\cdot4\\cdot365\\\\&=74{,}46\\ \\mathrm{kWh}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 74.46,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kWh",
+        "tolerans": 1.8615,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera skillnaden i effekt med årstiden.</p>",
+        "t": "<p>En 60 W-lampa byts mot en 9,0 W-lampa. De används 4,0 timmar per dag. Hur mycket elenergi sparas under 365 dagar? Svara i kWh.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket pengar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kostnadsbesparingen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta C=74{,}46\\cdot2{,}50=186\\ \\mathrm{kr/år}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(186\\ \\mathrm{kr/år}\\).</p></div>",
-        "ledtrad": "<p>Effektskillnaden är \\(60-9=51\\ \\mathrm W\\). Under ett år är lampan tänd \\(4\\cdot365=1460\\ \\mathrm h\\).</p>",
+        "fraga": "Ett lampbyte sparar 74,5 kWh per år. Elpriset är 2,5 kr/kWh. Hur stor blir den årliga besparingen? Svara i kr.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Besparing}&=74{,}5\\cdot2{,}5\\\\&=186{,}25\\ \\mathrm{kr}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 186.25,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kr",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera sparad energi med priset.</p>",
+        "t": "<p>Ett lampbyte sparar 74,5 kWh per år. Elpriset är 2,5 kr/kWh. Hur stor blir den årliga besparingen? Svara i kr.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "LED-lampan kostar 45 kr. Hur snabbt är den betald?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Återbetalningstiden är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{45}{186}=0{,}242\\ \\mathrm{år}=2{,}9\\ \\mathrm{månader}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\ \\mathrm{månader}\\).</p></div>",
-        "ledtrad": "<p>Effektskillnaden är \\(60-9=51\\ \\mathrm W\\). Under ett år är lampan tänd \\(4\\cdot365=1460\\ \\mathrm h\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En LED-lampa kostar 45 kr och sparar 186 kr per år. Efter hur många månader har besparingen betalat lampan?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}t&=45/186\\cdot12\\\\&\\approx2{,}90\\ \\text{månader}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.903225806451613,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "månader",
+        "tolerans": 0.07258064516129033,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera priset med årssparandet. Ett år har tolv månader.</p>",
+        "t": "<p>En LED-lampa kostar 45 kr och sparar 186 kr per år. Efter hur många månader har besparingen betalat lampan?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
@@ -88222,22 +89489,20 @@ window.BANK = [
     "id": "8.230",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "effektförlust i batteriets inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett \\(9\\,\\mathrm V\\)-batteri har inre resistansen \\(1{,}1\\,\\Omega\\). Strömmen i kretsen är \\(1{,}3\\,\\mathrm A\\).</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 1,1 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div><p>Hur stor är den yttre resistansen \\(R\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mathcal E=I(R+r)\\Rightarrow R=\\dfrac{9}{1{,}3}-1{,}1\\approx5{,}8\\,\\Omega\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 5,8 Ω</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 9,0 V och inre resistansen 1,1 Ω. Strömmen är 1,3 A.</p><p>Hur stor är den yttre resistansen? Svara i Ω.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 1,1 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Hela kretsens resistans fås med Ohms lag.</p><p>\\[R+r=9{,}0/1{,}3\\approx6{,}923\\ \\Omega\\]</p><p>Dra bort den inre resistansen.</p><p>\\[R=6{,}923-1{,}1\\approx5{,}82\\ \\Omega\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Hela kretsens resistans är \\(R+r\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Ohms lag med ems ger R+r, inte bara den yttre resistansen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
@@ -88245,19 +89510,20 @@ window.BANK = [
       "Elektrisk energi, effekt och batterier"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 5.8231,
-    "tolerans": 0.06,
+    "rättSvar": 5.823076923076922,
+    "tolerans": 0.14557692307692305,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Ω"
+    "svarEnhet": "Ω",
+    "manuellKomplettering": false
   },
   {
     "id": "8.95",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Daniel har ett batteri som är märkt 1,5 V, vilket betyder att dess ems är 1,5 V. Den inre resistansen är 0,40 Ω. Han kopplar in en resistor till batteriet enligt figuren, där den inre resistansen är utritad som en egen resistor.</p><span class=\"fig bred\"><svg height=\"275\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"5.914 48.586 454.086 201.566\"><rect x=\"78\" y=\"72\" width=\"66\" height=\"150\" rx=\"6\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"111\" y=\"240\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">batteri</text><line x1=\"111\" y1=\"60\" x2=\"111\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"111\" y1=\"130\" x2=\"111\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"111\" y1=\"208\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"96\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"103\" y1=\"118\" x2=\"119\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"131\" y=\"103\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"72\" y=\"117\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε = 1,5 V</text><rect x=\"101\" y=\"152\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"128\" y=\"184\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">r = 0,40 Ω</text><line x1=\"111\" y1=\"60\" x2=\"380\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"60\" x2=\"380\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"168\" x2=\"380\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"230\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"370\" y=\"112\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"397\" y=\"144\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R = 1,2 Ω</text></svg></span>\n<ol><li>Hur stor ström går genom Daniels resistor?</li>\n<li>Hur stor är spänningen över resistorn?</li>\n<li>Hur stor är batteriets polspänning?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Yttre och inre resistans ligger i serie med emsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{\\mathcal E}{R+r}=\\frac{1{,}5}{1{,}2+0{,}40}=0{,}9375\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över den yttre resistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_R=IR=0{,}9375\\cdot1{,}2=1{,}125\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriets polspänning är samma spänning som över den yttre kretsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=\\mathcal E-rI=1{,}5-0{,}40\\cdot0{,}9375=1{,}125\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(0{,}938\\ \\mathrm A\\). Resistorspänningen och polspänningen är båda cirka \\(1{,}13\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett batteri med ems 1,5 V och inre resistans 0,40 Ω är kopplat till en resistor på 1,2 Ω.</p><span class=\"fig bred\"><svg height=\"262.4576441183443\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"-14.84921258687973 46 495.1281127333641 249.90415000915527\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><rect x=\"78\" y=\"72\" width=\"66\" height=\"150\" rx=\"6\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"></rect><text x=\"111\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">batteri</text><line x1=\"111\" y1=\"60\" x2=\"111\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"111\" y1=\"130\" x2=\"111\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"111\" y1=\"208\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"96\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"103\" y1=\"118\" x2=\"119\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"131\" y=\"103\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"72\" y=\"117\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">ε = 1,5 V</text><rect x=\"101\" y=\"152\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"72\" y=\"184\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">r = 0,40 Ω</text><line x1=\"111\" y1=\"60\" x2=\"380\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"60\" x2=\"380\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"168\" x2=\"380\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"230\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"370\" y=\"112\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"397\" y=\"144\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R = 1,2 Ω</text></svg></span><p>a) Bestäm strömmen i A.</p><p>b) Bestäm spänningen över resistorn i V.</p><p>c) Förklara varför denna spänning är densamma som batteriets polspänning.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=1{,}5/(1{,}2+0{,}40)=0{,}9375\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[U_R=0{,}9375\\cdot1{,}2=1{,}125\\ \\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Resistorn är kopplad direkt mellan batteriets poler. Spänningen över den är därför samma som batteriets polspänning.</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
@@ -88267,23 +89533,27 @@ window.BANK = [
     "rättSvar": [
       0.9375,
       1.125,
-      1.125
+      null
     ],
     "tolerans": [
-      0.014062499999999999,
-      0.016875,
-      0.016875
+      0.0234375,
+      0.05,
+      null
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      "numeriskt"
+      null
     ],
     "svarEnhet": [
       "A",
       "V",
-      "V"
+      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -88292,65 +89562,111 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Daniel har ett batteri som är märkt 1,5 V, vilket betyder att dess ems är 1,5 V. Den inre resistansen är 0,40 Ω. Han kopplar in en resistor till batteriet enligt figuren, där den inre resistansen är utritad som en egen resistor.</p><span class=\"fig bred\"><svg height=\"275\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"5.914 48.586 454.086 201.566\"><rect x=\"78\" y=\"72\" width=\"66\" height=\"150\" rx=\"6\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"111\" y=\"240\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">batteri</text><line x1=\"111\" y1=\"60\" x2=\"111\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"111\" y1=\"130\" x2=\"111\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"111\" y1=\"208\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"96\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"103\" y1=\"118\" x2=\"119\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"131\" y=\"103\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"72\" y=\"117\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">ε = 1,5 V</text><rect x=\"101\" y=\"152\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"128\" y=\"184\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">r = 0,40 Ω</text><line x1=\"111\" y1=\"60\" x2=\"380\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"60\" x2=\"380\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"168\" x2=\"380\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"380\" y1=\"230\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"370\" y=\"112\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"397\" y=\"144\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R = 1,2 Ω</text></svg></span>",
+    "spelIntro": "<p>Ett batteri med ems 1,5 V och inre resistans 0,40 Ω är kopplat till en resistor på 1,2 Ω.</p><span class=\"fig bred\"><svg height=\"262.4576441183443\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"-14.84921258687973 46 495.1281127333641 249.90415000915527\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><rect x=\"78\" y=\"72\" width=\"66\" height=\"150\" rx=\"6\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"></rect><text x=\"111\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">batteri</text><line x1=\"111\" y1=\"60\" x2=\"111\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"111\" y1=\"130\" x2=\"111\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"111\" y1=\"208\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"96\" y1=\"108\" x2=\"126\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"103\" y1=\"118\" x2=\"119\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"131\" y=\"103\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"72\" y=\"117\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">ε = 1,5 V</text><rect x=\"101\" y=\"152\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"72\" y=\"184\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">r = 0,40 Ω</text><line x1=\"111\" y1=\"60\" x2=\"380\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"60\" x2=\"380\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"168\" x2=\"380\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"380\" y1=\"230\" x2=\"111\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"370\" y=\"112\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"397\" y=\"144\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R = 1,2 Ω</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor ström går genom Daniels resistor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Yttre och inre resistans ligger i serie med emsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{\\mathcal E}{R+r}=\\frac{1{,}5}{1{,}2+0{,}40}=0{,}9375\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}9375\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+        "fraga": "Ett batteri med ems 1,5 V och inre resistans 0,40 Ω driver en resistor på 1,2 Ω. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=1{,}5/(1{,}2+0{,}40)=0{,}9375\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9375,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0234375,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri med ems 1,5 V och inre resistans 0,40 Ω driver en resistor på 1,2 Ω. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är spänningen över resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över den yttre resistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_R=IR=0{,}9375\\cdot1{,}2=1{,}125\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}125\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En resistor på 1,2 Ω har strömmen 0,938 A. Bestäm spänningen över resistorn i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_R=0{,}938\\cdot1{,}2=1{,}1256\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.1256,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 1,2 Ω har strömmen 0,938 A. Bestäm spänningen över resistorn i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är batteriets polspänning?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriets polspänning är samma spänning som över den yttre kretsen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_p=\\mathcal E-rI=1{,}5-0{,}40\\cdot0{,}9375=1{,}125\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}125\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En resistor är kopplad direkt mellan batteriets poler. Hur förhåller sig spänningen över resistorn till batteriets polspänning?",
+        "s": "<div class=\"facit-v2\"><p>Resistorn är kopplad direkt mellan batteriets poler. Spänningen över den är därför samma som batteriets polspänning.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De är lika stora.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De är lika stora.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Spänningen över resistorn är alltid noll.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Resistorns spänning är ems plus batteriets inre spänningsfall.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Komponenterna är anslutna mellan samma två punkter.</p>",
+        "t": "<p>En resistor är kopplad direkt mellan batteriets poler. Hur förhåller sig spänningen över resistorn till batteriets polspänning?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": true
   },
   {
     "id": "8.231",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "sluten krets med inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}5\\,\\Omega\\) ansluts till en yttre resistor \\(8\\,\\Omega\\).</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,5 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 8 Ω</text></svg></div><p>Hur stor effekt utvecklas i den yttre resistorn?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{12}{8+0{,}5}\\approx1{,}412\\,\\mathrm A\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=RI^2=8\\cdot1{,}412^2\\approx15{,}9\\,\\mathrm W\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 16 W</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 12 V och inre resistansen 0,50 Ω. Det ansluts till en resistor på 8,0 Ω.</p><p>Vilken effekt utvecklas i den yttre resistorn? Svara i W.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,5 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R = 8 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Den inre resistansen ingår när strömmen bestäms.</p><p>\\[I=12/(8{,}0+0{,}50)\\approx1{,}412\\ \\mathrm A\\]</p><p>Använd sedan endast den yttre resistansen i dess effektberäkning.</p><p>\\[P_R=I^2R\\approx1{,}412^2\\cdot8{,}0\\approx15{,}9\\ \\mathrm W\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
       "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd \\(P=RI^2\\) med strömmen i hela kretsen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Strömmen beror på båda resistanserna. Vilken resistans hör sedan till den efterfrågade effekten?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
@@ -88358,31 +89674,30 @@ window.BANK = [
       "EMK och inre resistans"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 15.9446,
-    "tolerans": 0.15,
+    "rättSvar": 15.944636678200695,
+    "tolerans": 0.5,
     "svarFormat": "numeriskt",
-    "svarEnhet": "W"
+    "svarEnhet": "W",
+    "manuellKomplettering": false
   },
   {
     "id": "8.232",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "effektförlust i batteriets inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett \\(9\\,\\mathrm V\\)-batteri har inre resistansen \\(0{,}9\\,\\Omega\\) och levererar strömmen \\(1{,}0\\,\\mathrm A\\).</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,9 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text></svg></div><p>Hur stor effekt kommer den yttre kretsen till godo?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Batteriets totala effekt: \\(\\mathcal EI=9,0\\,\\mathrm W\\).</p></div><div class=\"facit-stycke\"><p>Förlust i batteriet: \\(rI^2=0,9\\,\\mathrm W\\).</p></div><div class=\"facit-stycke\"><p>Till den yttre kretsen: \\(9{,}0-0{,}9=8,1\\,\\mathrm W\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 8,1 W</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 9,0 V och inre resistansen 0,90 Ω. Strömmen är 1,0 A.</p><p>Vilken effekt når den yttre kretsen? Svara i W.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,9 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Polspänningen är ems minus det inre spänningsfallet.</p><p>\\[U=9{,}0-0{,}90\\cdot1{,}0=8{,}1\\ \\mathrm V\\]</p><p>Den yttre effekten blir</p><p>\\[P=UI=8{,}1\\cdot1{,}0=8{,}1\\ \\mathrm W\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Dra bort effekten som blir värme i batteriet från den totala effekten.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Bestäm polspänningen och använd den för effekten i den yttre kretsen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
@@ -88391,109 +89706,19 @@ window.BANK = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8.1,
-    "tolerans": 0.02,
+    "tolerans": 0.2025,
     "svarFormat": "numeriskt",
-    "svarEnhet": "W"
+    "svarEnhet": "W",
+    "manuellKomplettering": false
   },
   {
     "id": "8.96",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En lägenhet har en säkring på 10 A vid 230 V.</p>\n<ol><li>Vilken total effekt kan tas ut innan säkringen löser?</li>\n<li>Kan man samtidigt köra en vattenkokare på 2000 W och en brödrost på 800 W? Motivera.</li>\n<li>Varför löser säkringen ut istället för att kabeln bara blir varm?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Maximal effekt vid märkströmmen 10 A är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=230\\cdot10=2300\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Apparaterna kräver tillsammans 2800 W.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{2800}{230}=12{,}17\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p>Det överskrider 10 A, så de kan inte köras samtidigt på denna säkrade grupp.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Säkringen bryter kretsen innan ledningarna når en temperatur som kan skada isoleringen eller orsaka brand.</p></div><div class=\"facit-stycke\"><p>Den är dimensionerad som överströmsskydd för kabeln.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gruppen klarar nominellt \\(2{,}30\\ \\mathrm{kW}\\). Vattenkokare och brödrost kräver \\(12{,}2\\ \\mathrm A\\), så säkringen löser.</p></div>",
-    "familj": "Elektrisk effekt och energi",
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "ems__hushallsel_effekt_och_sakring",
-    "ledtrad": "<p>Maximal effekt vid märkströmmen 10 A är Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En lägenhet har en säkring på 10 A vid 230 V.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilken total effekt kan tas ut innan säkringen löser?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Maximal effekt vid märkströmmen 10 A är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=230\\cdot10=2300\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Maximal effekt vid märkströmmen 10 A är Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Kan man samtidigt köra en vattenkokare på 2000 W och en brödrost på 800 W? Motivera.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Apparaterna kräver tillsammans 2800 W.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{2800}{230}=12{,}17\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p>Det överskrider 10 A, så de kan inte köras samtidigt på denna säkrade grupp.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}17\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Maximal effekt vid märkströmmen 10 A är Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför löser säkringen ut istället för att kabeln bara blir varm?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Säkringen bryter kretsen innan ledningarna når en temperatur som kan skada isoleringen eller orsaka brand.</p></div><div class=\"facit-stycke\"><p>Den är dimensionerad som överströmsskydd för kabeln.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Maximal effekt vid märkströmmen 10 A är Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ],
-    "geogebra": false,
-    "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
-    "omrTidigare": "ems",
-    "familjTidigare": [
-      "Elektrisk energi, effekt och batterier"
-    ]
-  },
-  {
-    "id": "8.233",
-    "kap": 8,
-    "omr": "kopplingar",
-    "niva": "C",
-    "typ": "sluten krets med inre resistans",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}7\\,\\Omega\\) ansluts till en yttre resistor \\(5\\,\\Omega\\).</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,7 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 5 Ω</text></svg></div><p>Hur stort är spänningsfallet inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{12}{5+0{,}7}\\approx2{,}105\\,\\mathrm A\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_r=rI=0{,}7\\cdot2{,}105\\approx1{,}47\\,\\mathrm V\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 1,5 V</p></div>",
-    "familj": "Ems, polspänning och inre resistans",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "ems__emk_och_inre_resistans",
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>Spänningsfallet i batteriet är strömmen gånger den inre resistansen.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "ems",
-    "familjTidigare": [
-      "EMK och inre resistans"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.4737,
-    "tolerans": 0.03,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "V"
-  },
-  {
-    "id": "8.97",
-    "kap": 8,
-    "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(1/2/1)",
-    "t": "<p>En elbil har ett batteri på 60 kWh och förbrukar 18 kWh per 100 km vid normal körning.</p>\n<ol><li>Vilken räckvidd ger det?</li>\n<li>På vintern går kupévärmaren på 2,0 kW och medelfarten är 80 km/h. Hur mycket extra energi går åt per 100 km?</li>\n<li>Vilken blir vinterräckvidden?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Räckvidden fås av tillgänglig energi delad med förbrukning per 100 km.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{60}{18}\\cdot100=333\\ \\mathrm{km}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 80 km/h tar 100 km \\(100/80=1{,}25\\ \\mathrm h\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{värme}}=2{,}0\\cdot1{,}25=2{,}50\\ \\mathrm{kWh/100\\,km}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nya förbrukningen är \\(18+2{,}5=20{,}5\\ \\mathrm{kWh/100\\,km}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s_v=\\frac{60}{20{,}5}\\cdot100=293\\ \\mathrm{km}\\]</div></div><div class=\"facit-stycke\"><p>Detta isolerar kupévärmarens effekt; kyla kan dessutom påverka batteri och rullmotstånd.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normal räckvidd är cirka \\(333\\ \\mathrm{km}\\). Värmaren tillför \\(2{,}5\\ \\mathrm{kWh/100\\,km}\\), och vinterräckvidden blir cirka \\(293\\ \\mathrm{km}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En grupp är säkrad för 10 A och har spänningen 230 V.</p><p>a) Vilken effekt motsvarar säkringens märkström? Svara i W.</p><p>b) Apparater på 1 200 W, 1 000 W och 600 W används samtidigt. Överstiger totalströmmen 10 A? Motivera.</p><p>c) Förklara säkringens uppgift.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P=UI=230\\cdot10=2300\\ \\mathrm W\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Apparaternas sammanlagda effekt är 1 200 + 1 000 + 600 = 2 800 W.</p><p>\\[I=2800/230\\approx12{,}2\\ \\mathrm A\\]</p><p>Det är mer än säkringens märkström 10 A. Det går inte att säga exakt när säkringen löser ut enbart utifrån märkströmmen.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Säkringen bryter kretsen vid överström för att skydda ledningarna mot överhettning.</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -88501,29 +89726,210 @@ window.BANK = [
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "flera_delar",
     "rättSvar": [
+      2300,
       null,
-      100,
       null
     ],
     "tolerans": [
+      57.5,
       null,
-      1.5,
       null
     ],
     "självrättning": [
-      false,
       true,
+      false,
       false
     ],
+    "familjNyckelTidigare": "ems__hushallsel_effekt_och_sakring",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En grupp är säkrad för 10 A och har spänningen 230 V.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En säkring har märkströmmen 10 A och spänningen är 230 V. Vilken effekt motsvarar märkströmmen? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=UI=230\\cdot10=2300\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2300,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 57.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En säkring har märkströmmen 10 A och spänningen är 230 V. Vilken effekt motsvarar märkströmmen? Svara i W.</p>",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Tre apparater på 1 200 W, 1 000 W och 600 W används samtidigt vid 230 V. Säkringens märkström är 10 A. Överstiger totalströmmen märkströmmen?",
+        "s": "<div class=\"facit-v2\"><p>Apparaternas sammanlagda effekt är 1 200 + 1 000 + 600 = 2 800 W.</p><p>\\[I=2800/230\\approx12{,}2\\ \\mathrm A\\]</p><p>Det är mer än säkringens märkström 10 A. Det går inte att säga exakt när säkringen löser ut enbart utifrån märkströmmen.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Ja, totalströmmen är cirka 12,2 A.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Ja, totalströmmen är cirka 12,2 A.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Nej, totalströmmen är cirka 2,8 A.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Nej, varje apparat får räknas för sig utan att strömmarna adderas.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Addera effekterna och beräkna totalströmmen.</p>",
+        "t": "<p>Tre apparater på 1 200 W, 1 000 W och 600 W används samtidigt vid 230 V. Säkringens märkström är 10 A. Överstiger totalströmmen märkströmmen?</p>",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Vilken uppgift har en säkring?",
+        "s": "<div class=\"facit-v2\"><p>Säkringen bryter kretsen vid överström för att skydda ledningarna mot överhettning.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den skyddar ledningarna mot överhettning genom att bryta vid överström.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den skyddar ledningarna mot överhettning genom att bryta vid överström.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Den gör att ström aldrig kan värma en ledning.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den höjer spänningen när fler apparater ansluts.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad kan för stor ström göra med ledningarna?</p>",
+        "t": "<p>Vilken uppgift har en säkring?</p>",
+        "arbetsinsats": 1
+      }
+    ],
+    "geogebra": false,
+    "miniräknare": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": true,
+    "omrTidigare": "ems",
+    "familjTidigare": [
+      "Elektrisk energi, effekt och batterier"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "svarFormat": [
-      null,
       "numeriskt",
+      null,
       null
     ],
     "svarEnhet": [
-      null,
+      "W",
       null,
       null
+    ]
+  },
+  {
+    "id": "8.233",
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 12 V och inre resistansen 0,70 Ω. Det ansluts till en resistor på 5,0 Ω.</p><p>Hur stort är spänningsfallet inne i batteriet? Svara i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,7 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R = 5 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Beräkna strömmen genom inre och yttre resistans.</p><p>\\[I=12/(5{,}0+0{,}70)\\approx2{,}105\\ \\mathrm A\\]</p><p>Använd den inre resistansen för det inre spänningsfallet.</p><p>\\[U_r=rI\\approx0{,}70\\cdot2{,}105\\approx1{,}47\\ \\mathrm V\\]</p></div>",
+    "familj": "Ems, polspänning och inre resistans",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "ems__emk_och_inre_resistans",
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Bestäm strömmen genom hela kretsen och multiplicera sedan med den inre resistansen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": "ems",
+    "familjTidigare": [
+      "EMK och inre resistans"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4736842105263155,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "V",
+    "manuellKomplettering": false
+  },
+  {
+    "id": "8.97",
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En elbil har 60 kWh användbar batterienergi och använder 18 kWh per 100 km utan kupévärme. Kupévärmaren har effekten 2,0 kW. Bilen kör i 80 km/h.</p><p>a) Hur långt räcker batteriet utan kupévärme? Svara i km.</p><p>b) Hur mycket energi använder kupévärmaren under 100 km i 80 km/h? Svara i kWh.</p><p>c) Hur långt räcker batteriet med kupévärmaren på? Svara i km.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[s=60/18\\cdot100\\approx333\\ \\mathrm{km}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[t=s/v=100/80=1{,}25\\ \\mathrm h\\]</p><p>\\[E=Pt=2{,}0\\cdot1{,}25=2{,}5\\ \\mathrm{kWh}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[s=60/20{,}5\\cdot100\\approx293\\ \\mathrm{km}\\]</p></div></div>",
+    "familj": "Elektrisk effekt och energi",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      333.33333333333337,
+      2.5,
+      292.6829268292683
+    ],
+    "tolerans": [
+      8.333333333333334,
+      0.0625,
+      7.317073170731708
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "km",
+      "kWh",
+      "km"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -88532,38 +89938,71 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "ems__batteri_energi_och_kapacitet",
-    "ledtrad": "<p>Räckvidden fås av tillgänglig energi delad med förbrukning per 100 km.</p>",
+    "ledtrad": "<p>Hur många sträckor på 100 km räcker energin till?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En elbil har ett batteri på 60 kWh och förbrukar 18 kWh per 100 km vid normal körning.</p>",
+    "spelIntro": "<p>En elbil har 60 kWh användbar batterienergi och använder 18 kWh per 100 km utan kupévärme. Kupévärmaren har effekten 2,0 kW. Bilen kör i 80 km/h.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken räckvidd ger det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Räckvidden fås av tillgänglig energi delad med förbrukning per 100 km.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{60}{18}\\cdot100=333\\ \\mathrm{km}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(333\\ \\mathrm{km}\\).</p></div>",
-        "ledtrad": "<p>Räckvidden fås av tillgänglig energi delad med förbrukning per 100 km.</p>",
-        "niva": "A"
+        "fraga": "En elbil har 60 kWh användbar batterienergi och använder 18 kWh per 100 km. Hur långt räcker batteriet? Svara i km.",
+        "s": "<div class=\"facit-v2\"><p>\\[s=60/18\\cdot100\\approx333\\ \\mathrm{km}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 333.33333333333337,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "km",
+        "tolerans": 8.333333333333334,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur många sträckor på 100 km räcker energin till?</p>",
+        "t": "<p>En elbil har 60 kWh användbar batterienergi och använder 18 kWh per 100 km. Hur långt räcker batteriet? Svara i km.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "På vintern går kupévärmaren på 2,0 kW och medelfarten är 80 km/h. Hur mycket extra energi går åt per 100 km?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 80 km/h tar 100 km \\(100/80=1{,}25\\ \\mathrm h\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{värme}}=2{,}0\\cdot1{,}25=2{,}50\\ \\mathrm{kWh/100\\,km}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}50\\ \\mathrm{kWh/100\\,km}\\).</p></div>",
-        "ledtrad": "<p>Räckvidden fås av tillgänglig energi delad med förbrukning per 100 km.</p>",
-        "niva": "A"
+        "fraga": "En kupévärmare har effekten 2,0 kW. Bilen kör 100 km med farten 80 km/h. Hur mycket energi använder värmaren under denna sträcka? Svara i kWh.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=s/v=100/80=1{,}25\\ \\mathrm h\\]</p><p>\\[E=Pt=2{,}0\\cdot1{,}25=2{,}5\\ \\mathrm{kWh}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kWh",
+        "tolerans": 0.0625,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>En kupévärmare har effekten 2,0 kW. Bilen kör 100 km med farten 80 km/h. Hur mycket energi använder värmaren under denna sträcka? Svara i kWh.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken blir vinterräckvidden?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nya förbrukningen är \\(18+2{,}5=20{,}5\\ \\mathrm{kWh/100\\,km}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s_v=\\frac{60}{20{,}5}\\cdot100=293\\ \\mathrm{km}\\]</div></div><div class=\"facit-stycke\"><p>Detta isolerar kupévärmarens effekt; kyla kan dessutom påverka batteri och rullmotstånd.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(293\\ \\mathrm{km}\\).</p></div>",
-        "ledtrad": "<p>Räckvidden fås av tillgänglig energi delad med förbrukning per 100 km.</p>",
-        "niva": "A"
+        "fraga": "En elbil har 60 kWh användbar batterienergi. Med kupévärme använder den 20,5 kWh per 100 km. Hur långt räcker batteriet? Svara i km.",
+        "s": "<div class=\"facit-v2\"><p>\\[s=60/20{,}5\\cdot100\\approx293\\ \\mathrm{km}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 292.6829268292683,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "km",
+        "tolerans": 7.317073170731708,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dividera tillgänglig energi med energi per 100 km.</p>",
+        "t": "<p>En elbil har 60 kWh användbar batterienergi. Med kupévärme använder den 20,5 kWh per 100 km. Hur långt räcker batteriet? Svara i km.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
@@ -88573,274 +90012,494 @@ window.BANK = [
     "id": "8.234",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "verkningsgrad för källa med inre resistans",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}55\\,\\Omega\\) driver en resistor \\(4\\,\\Omega\\). Definiera den elektriska verkningsgraden som effekten i den yttre resistorn dividerad med den totala effekt som batteriets emk levererar. Bestäm verkningsgraden.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,55 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 4 Ω</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Både nyttig effekt och total effekt innehåller samma strömfaktor.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kvoten förenklas till \\(R/(R+r)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{UI}{\\mathcal EI}=\\frac{R}{R+r}=\\frac{4}{4+0{,}55}=0{,}8791\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(87{,}91\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri med inre resistansen 0,55 Ω driver en resistor på 4,0 Ω.</p><p>Hur många procent av batteriets elektriska effekt utvecklas i den yttre resistorn?</p>",
+    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. Deras effekter är I²R och I²r. Strömfaktorn tar därför ut sig när andelen bildas.</p><p>\\[\\eta=\\frac{I^2R}{I^2(R+r)}=\\frac{R}{R+r}\\]</p><p>\\[100\\cdot\\frac{4}{4+0{,}55}\\approx87{,}91\\ \\%\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "numeriskt",
-    "rättSvar": 87.912088,
-    "tolerans": 1.582418,
+    "rättSvar": 87.91208791208791,
+    "tolerans": 2.197802197802198,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv både nyttig effekt och emk-effekt med samma ström och förenkla kvoten.</p>",
+    "ledtrad": "<p>Vilken andel av summan I²R + I²r hör till den yttre resistorn?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.235",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "bestämma inre resistans från kortslutningsström",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri har emk \\(9\\,\\mathrm V\\). Vid ideal kortslutning skulle strömmen bli \\(4\\,\\mathrm A\\). Bestäm batteriets inre resistans enligt den enkla modellen med konstant \\(r\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning är den yttre resistansen ungefär noll, så hela emk ligger över den inre resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{ks}=\\frac{\\mathcal E}{r}\\Rightarrow r=\\frac{9}{4}=2{,}25\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\,\\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 9,0 V. I batterimodellen blir kortslutningsströmmen 4,0 A.</p><p>Bestäm den inre resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vid kortslutning ligger hela ems över den inre resistansen.</p><p>\\[r=\\mathcal E/I_k\\]</p><p>\\[r=9{,}0/4{,}0=2{,}25\\ \\Omega\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0.0405,
+    "tolerans": 0.05625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>I kortslutningsmodellen återstår i princip bara batteriets inre resistans.</p>",
+    "ledtrad": "<p>Använd Ohms lag för den inre resistansen, med hela ems som spänning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 4,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.98",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "E",
-    "poang": "(3/1/0)",
-    "t": "<p>Från ett kraftverk ska 100 MW överföras 200 km. Ledningens resistans är 0,050 Ω per km.</p>\n<ol><li>Vilken resistans har hela ledningen?</li>\n<li>Beräkna strömmen och effektförlusten vid överföringsspänningen 400 kV.</li>\n<li>Gör samma beräkning vid 20 kV och förklara resultatet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med uppgiftens resistansangivelse för hela överföringsledningen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p>Om 0,050 Ω/km i stället avser varje ledare måste returledningen också räknas och resistansen fördubblas.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 400 kV kräver 100 MW strömmen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{100\\cdot10^6}{400\\cdot10^3}=250\\ \\mathrm A\\]\\[P_f=I^2R=250^2\\cdot10\\approx625000\\ \\mathrm{W}=0{,}625\\ \\mathrm{MW}\\]</div></div><div class=\"facit-stycke\"><p>Det är \\(0{,}625\\,\\%\\) av 100 MW.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 20 kV skulle samma enkla beräkning kräva</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{20\\cdot10^3}=5000\\ \\mathrm A\\]\\[P_f=5000^2\\cdot10\\approx250000000\\ \\mathrm{W}=250\\ \\mathrm{MW}\\]</div></div><div class=\"facit-stycke\"><p>Resultatet visar att antagandet att 100 MW samtidigt når lasten vid 20 kV är omöjligt med denna ledning: spänningsfall och förlust blir för stora.</p></div><div class=\"facit-stycke\"><p>Hög överföringsspänning minskar strömmen och därmed \\(I^2R\\)-förlusten.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ledningsresistansen är \\(10\\ \\Omega\\). Vid 400 kV blir strömmen \\(250\\ \\mathrm A\\) och förlusten \\(0{,}625\\ \\mathrm{MW}\\); vid 20 kV visar modellen den orimliga förlusten \\(250\\ \\mathrm{MW}\\).</p></div>",
+    "niva": "C",
+    "poang": "(4/0/0)",
+    "t": "<p>Från en kraftstation skickas 100 MW vid 400 kV. Ledningen är 200 km lång. Ledarnas sammanlagda resistans är 0,050 Ω per km.</p><p>a) Bestäm ledningens resistans i Ω.</p><p>b) Bestäm strömmen i A och värmeeffekten i MW.</p><p>c) Pröva samma beräkning vid 20 kV. Ange beräknad ström i A och värmeeffekt i MW.</p><p>d) Kan resultatet i c beskriva ett verkligt driftfall? Förklara.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=100\\cdot10^6/(400\\cdot10^3)=250\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=I^2R=250^2\\cdot10=625\\,000\\ \\mathrm W=0{,}625\\ \\mathrm{MW}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[I=100\\cdot10^6/(20\\cdot10^3)=5000\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=5000^2\\cdot10=250\\ \\mathrm{MW}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Nej. Beräkningen kräver 250 MW värme trots att bara 100 MW skickas in. Det strider mot energibevarande. Vid 20 kV kan den antagna överföringen därför inte fungera med dessa värden; spänningsfallet och det verkliga driftfallet måste också beaktas.</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      [
+        250,
+        0.625
+      ],
+      [
+        5000,
+        250
+      ],
+      null
+    ],
+    "tolerans": [
+      0.5,
+      [
+        6.25,
+        0.015625
+      ],
+      [
+        125.0,
+        6.25
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "ems__elektrisk_energi_i_vardagen",
-    "ledtrad": "<p>Resistansen är proportionell mot ledningens längd. Strömmen får du ur sambandet mellan effekt, spänning och ström, och förlusten i ledningen beror på strömmen och resistansen.</p>",
+    "ledtrad": "<p>Multiplicera resistansen per kilometer med längden.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Från ett kraftverk ska 100 MW överföras 200 km. Ledningens resistans är 0,050 Ω per km.</p>",
+    "spelIntro": "<p>Från en kraftstation skickas 100 MW vid 400 kV. Ledningen är 200 km lång. Ledarnas sammanlagda resistans är 0,050 Ω per km.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken resistans har hela ledningen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med uppgiftens resistansangivelse för hela överföringsledningen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p>Om 0,050 Ω/km i stället avser varje ledare måste returledningen också räknas och resistansen fördubblas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Hur lång är ledningen, och hur stor är resistansen per kilometer?</p>",
-        "niva": "E"
+        "fraga": "En ledning är 200 km lång. Ledarnas sammanlagda resistans är 0,050 Ω per km. Bestäm ledningens resistans i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera resistansen per kilometer med längden.</p>",
+        "t": "<p>En ledning är 200 km lång. Ledarnas sammanlagda resistans är 0,050 Ω per km. Bestäm ledningens resistans i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna strömmen och effektförlusten vid överföringsspänningen 400 kV.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 400 kV kräver 100 MW strömmen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{100\\cdot10^6}{400\\cdot10^3}=250\\ \\mathrm A\\]\\[P_f=I^2R=250^2\\cdot10\\approx625000\\ \\mathrm{W}=0{,}625\\ \\mathrm{MW}\\]</div></div><div class=\"facit-stycke\"><p>Det är \\(0{,}625\\,\\%\\) av 100 MW.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}625\\ \\mathrm{MW}\\).</p></div>",
-        "ledtrad": "<p>Vilken ström krävs för att överföra 100 MW vid 400 kV? Hur beror effektförlusten i ledningen på strömmen och resistansen?</p>",
-        "niva": "E"
+        "fraga": "Från en kraftstation skickas 100 MW vid 400 kV genom en ledning med resistansen 10 Ω. Bestäm strömmen i A och värmeeffekten i MW.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=100\\cdot10^6/(400\\cdot10^3)=250\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=250^2\\cdot10=0{,}625\\ \\mathrm{MW}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          250,
+          0.625
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "A",
+          "MW"
+        ],
+        "tolerans": [
+          6.25,
+          0.015625
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna strömmen från överförd effekt och källspänning.</p>",
+        "t": "<p>Från en kraftstation skickas 100 MW vid 400 kV genom en ledning med resistansen 10 Ω. Bestäm strömmen i A och värmeeffekten i MW.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Ström",
+          "Värmeeffekt"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Beräkna strömmen och effektförlusten vid överföringsspänningen 20 kV och förklara resultatet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 20 kV skulle samma enkla beräkning kräva</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{20\\cdot10^3}=5000\\ \\mathrm A\\]\\[P_f=5000^2\\cdot10\\approx250000000\\ \\mathrm{W}=250\\ \\mathrm{MW}\\]</div></div><div class=\"facit-stycke\"><p>Resultatet visar att antagandet att 100 MW samtidigt når lasten vid 20 kV är omöjligt med denna ledning: spänningsfall och förlust blir för stora.</p></div><div class=\"facit-stycke\"><p>Hög överföringsspänning minskar strömmen och därmed \\(I^2R\\)-förlusten.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\ \\mathrm{MW}\\).</p></div>",
-        "ledtrad": "<p>Hur många gånger större blir strömmen när spänningen är 20 kV i stället för 400 kV? Hur påverkar det förlusten \\(RI^2\\)?</p>",
-        "niva": "C"
+        "fraga": "Pröva samma modell med 100 MW vid 20 kV och ledningsresistansen 10 Ω. Vilka värden ger beräkningen för strömmen i A och värmeeffekten i MW? Resultatet ska granskas, inte antas vara ett möjligt driftfall.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=100\\cdot10^6/(20\\cdot10^3)=5000\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=5000^2\\cdot10=250\\ \\mathrm{MW}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          5000,
+          250
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "A",
+          "MW"
+        ],
+        "tolerans": [
+          125.0,
+          6.25
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna modellens värden med den nya spänningen.</p>",
+        "t": "<p>Pröva samma modell med 100 MW vid 20 kV och ledningsresistansen 10 Ω. Vilka värden ger beräkningen för strömmen i A och värmeeffekten i MW? Resultatet ska granskas, inte antas vara ett möjligt driftfall.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Beräknad ström",
+          "Beräknad värmeeffekt"
+        ]
+      },
+      {
+        "etikett": "d",
+        "fraga": "En överföringsmodell skickar in 100 MW men ger 250 MW som värme i ledningen. Kan detta beskriva ett verkligt driftfall?",
+        "s": "<div class=\"facit-v2\"><p>Nej. Beräkningen kräver 250 MW värme trots att bara 100 MW skickas in. Det strider mot energibevarande. Vid 20 kV kan den antagna överföringen därför inte fungera med dessa värden; spänningsfallet och det verkliga driftfallet måste också beaktas.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, värmeeffekten kan inte överstiga den tillförda effekten.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Nej, värmeeffekten kan inte överstiga den tillförda effekten.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Ja, ledningen skapar extra energi.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Ja, eftersom hög ström gör energibevarande ogiltigt.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 3,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför tillförd effekt med värmeeffekten.</p>",
+        "t": "<p>En överföringsmodell skickar in 100 MW men ger 250 MW som värme i ledningen. Kan detta beskriva ett verkligt driftfall?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 4,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "Ω",
+      [
+        "A",
+        "MW"
+      ],
+      [
+        "A",
+        "MW"
+      ],
+      null
     ]
   },
   {
     "id": "8.236",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "dimensionera belastning för given polspänning",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri modelleras som en ideal emk \\(12\\,\\mathrm V\\) i serie med den inre resistansen \\(1{,}2\\,\\Omega\\). Hur stor yttre resistans ska anslutas för att polspänningen under belastning ska vara \\(10{,}8\\,\\mathrm V\\)?</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 1,2 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Polspänningen är spänningen över den yttre resistansen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv strömmen som \\(I=\\mathcal E/(R+r)\\) och använd \\(U=IR\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=\\mathcal E\\frac{R}{R+r}\\]\\[R=\\frac{U r}{\\mathcal E-U}=\\frac{10{,}8\\cdot1{,}2}{12-10{,}8}=10,8\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}8\\,\\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 12 V och inre resistansen 1,2 Ω. Polspänningen ska vara 10,8 V.</p><p>Vilken yttre resistans behövs? Svara i Ω.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 1,2 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Det inre spänningsfallet är 12 − 10,8 = 1,2 V. Därför är strömmen</p><p>\\[I=(12-10{,}8)/1{,}2=1{,}0\\ \\mathrm A\\]</p><p>Polspänningen ligger över den yttre resistansen.</p><p>\\[R=U/I=10{,}8/1{,}0=10{,}8\\ \\Omega\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 10.8,
-    "tolerans": 0.1944,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Koppla ihop \\(U=\\mathcal E/(R+r)\\cdot R\\) och lös ut \\(R\\).</p>",
+    "ledtrad": "<p>Bestäm strömmen från det inre spänningsfallet. Bestäm sedan den yttre resistansen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.237",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "verkningsgrad för källa med inre resistans",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}5\\,\\Omega\\) driver en resistor \\(2\\,\\Omega\\). Definiera den elektriska verkningsgraden som effekten i den yttre resistorn dividerad med den totala effekt som batteriets emk levererar. Bestäm verkningsgraden.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,5 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 2 Ω</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Både nyttig effekt och total effekt innehåller samma strömfaktor.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kvoten förenklas till \\(R/(R+r)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{UI}{\\mathcal EI}=\\frac{R}{R+r}=\\frac{2}{2+0{,}5}=0,8\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri med inre resistansen 0,50 Ω driver en resistor på 2,0 Ω.</p><p>Hur många procent av batteriets elektriska effekt blir värme inne i batteriet?</p>",
+    "s": "<div class=\"facit-v2\"><p>Samma ström går genom inre och yttre resistans. Effektandelen i batteriet är därför den inre resistansen dividerad med summan.</p><p>\\[\\frac{P_r}{P_{\\mathrm{tot}}}=\\frac{r}{R+r}=\\frac{0{,}50}{2{,}0+0{,}50}=0{,}20\\]</p><p>20 % av effekten blir värme inne i batteriet.</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "numeriskt",
-    "rättSvar": 80,
-    "tolerans": 1.44,
+    "rättSvar": 20.0,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv både nyttig effekt och emk-effekt med samma ström och förenkla kvoten.</p>",
+    "ledtrad": "<p>Vilken andel av summan I²R + I²r hör till den yttre resistorn?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.99",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "jämföra serie- och parallellkoppling av batterier, ur text, sökt ström",
-    "poang": "(0/2/2)",
-    "t": "<p>Tre likadana batterier har ems 1,5 V och inre resistansen 0,4 Ω vardera. De ska driva en resistor på 6 Ω.</p>\n<ol><li>Vilken ström fås om batterierna seriekopplas?</li>\n<li>Vilken ström fås om de parallellkopplas?</li><li>Vilken koppling ger störst effekt i resistorn?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I serie adderas ems och inre resistans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mathcal E_s=3\\cdot1{,}5=4{,}5\\ \\mathrm V,\\qquad r_s=3\\cdot0{,}4=1{,}2\\ \\Omega\\]\\[I_s=\\frac{4{,}5}{6+1{,}2}=0{,}625\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För tre identiska parallellkopplade batterier är emsen 1,5 V och den ekvivalenta inre resistansen \\(0{,}4/3\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_p=\\frac{1{,}5}{6+0{,}4/3}=0{,}2446\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i 6-ohmsresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_s=6(0{,}625)^2=2{,}34\\ \\mathrm W\\]\\[P_p=6(0{,}2446)^2=0{,}359\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen blir \\(0{,}625\\ \\mathrm A\\) i serie och \\(0{,}245\\ \\mathrm A\\) parallellt. Seriekopplingen ger störst lasteffekt, \\(2{,}34\\ \\mathrm W\\).</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>Tre likadana batterier har ems 1,5 V och inre resistans 0,40 Ω vardera. De kopplas till en resistor på 6,0 Ω.</p><p>a) Bestäm strömmen med batterierna i serie. Svara i A.</p><p>b) Bestäm strömmen genom resistorn med batterierna parallellt. Svara i A.</p><p>c) Vilken koppling ger störst effekt i resistorn? Motivera.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Seriekopplingen ger ems 4,5 V och inre resistans 1,2 Ω.</p><p>\\[I_s=4{,}5/(6{,}0+1{,}2)=0{,}625\\ \\mathrm A\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Parallellkopplingen ger ems 1,5 V. Tre lika inre resistanser parallellt ger 0,40/3 Ω.</p><p>\\[I_p=1{,}5/(6{,}0+0{,}40/3)\\approx0{,}245\\ \\mathrm A\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Resistorn är samma i båda fallen. Eftersom \\(P=I²R\\) ger den större strömmen också större effekt. Seriekopplingen ger störst effekt.</p><p>\\[P_s=0{,}625^2\\cdot6{,}0\\approx2{,}34\\ \\mathrm W\\]</p><p>\\[P_p\\approx0{,}245^2\\cdot6{,}0\\approx0{,}36\\ \\mathrm W\\]</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
+      "procedur",
       "problemlösning"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.625,
+      0.24456521739130432,
+      null
+    ],
+    "tolerans": [
+      0.015625,
+      0.006114130434782608,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>I serie adderas ems och inre resistans. Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
+    "ledtrad": "<p>I serie adderas både ems och inre resistans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tre likadana batterier har ems 1,5 V och inre resistansen 0,4 Ω vardera. De ska driva en resistor på 6 Ω.</p>",
+    "spelIntro": "<p>Tre likadana batterier har ems 1,5 V och inre resistans 0,40 Ω vardera. De kopplas till en resistor på 6,0 Ω.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken ström fås om batterierna seriekopplas?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I serie adderas ems och inre resistans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mathcal E_s=3\\cdot1{,}5=4{,}5\\ \\mathrm V,\\qquad r_s=3\\cdot0{,}4=1{,}2\\ \\Omega\\]\\[I_s=\\frac{4{,}5}{6+1{,}2}=0{,}625\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}625\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>I serie adderas ems och inre resistans. Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "A"
+        "fraga": "Tre batterier med ems 1,5 V och inre resistans 0,40 Ω vardera seriekopplas med en resistor på 6,0 Ω. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>Seriekopplingen ger ems 4,5 V och inre resistans 1,2 Ω.</p><p>\\[I_s=4{,}5/(6{,}0+1{,}2)=0{,}625\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.625,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.015625,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>I serie adderas både ems och inre resistans.</p>",
+        "t": "<p>Tre batterier med ems 1,5 V och inre resistans 0,40 Ω vardera seriekopplas med en resistor på 6,0 Ω. Bestäm strömmen i A.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken ström fås om de parallellkopplas?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För tre identiska parallellkopplade batterier är emsen 1,5 V och den ekvivalenta inre resistansen \\(0{,}4/3\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_p=\\frac{1{,}5}{6+0{,}4/3}=0{,}2446\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}2446\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>I serie adderas ems och inre resistans. Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "A"
+        "fraga": "Tre batterier med ems 1,5 V och inre resistans 0,40 Ω vardera parallellkopplas med en resistor på 6,0 Ω. Bestäm strömmen genom resistorn i A.",
+        "s": "<div class=\"facit-v2\"><p>Parallellkopplingen ger ems 1,5 V. Tre lika inre resistanser parallellt ger 0,40/3 Ω.</p><p>\\[I_p=1{,}5/(6{,}0+0{,}40/3)\\approx0{,}245\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.24456521739130432,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.006114130434782608,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Ems är densamma för likadana parallella batterier. Deras inre resistanser är parallellkopplade.</p>",
+        "t": "<p>Tre batterier med ems 1,5 V och inre resistans 0,40 Ω vardera parallellkopplas med en resistor på 6,0 Ω. Bestäm strömmen genom resistorn i A.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "fraga": "Vilken koppling ger störst effekt i resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten i 6-ohmsresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_s=6(0{,}625)^2=2{,}34\\ \\mathrm W\\]\\[P_p=6(0{,}2446)^2=0{,}359\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}359\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>I serie adderas ems och inre resistans. Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\).</p>",
-        "niva": "A"
+        "fraga": "Samma resistor får strömmen 0,625 A med seriekopplade batterier och 0,245 A med parallellkopplade batterier. Vilken koppling ger störst effekt i resistorn?",
+        "s": "<div class=\"facit-v2\"><p>Resistorn är samma i båda fallen. Eftersom \\(P=I²R\\) ger den större strömmen också större effekt. Seriekopplingen ger störst effekt.</p><p>\\[P_s=0{,}625^2\\cdot6{,}0\\approx2{,}34\\ \\mathrm W\\]</p><p>\\[P_p\\approx0{,}245^2\\cdot6{,}0\\approx0{,}36\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Seriekopplingen.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Seriekopplingen.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Parallellkopplingen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Effekterna är lika eftersom resistorn är samma.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>Samma resistor får strömmen 0,625 A med seriekopplade batterier och 0,245 A med parallellkopplade batterier. Vilken koppling ger störst effekt i resistorn?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "A",
+      "A",
+      null
     ]
   },
   {
     "id": "8.238",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "bestämma inre resistans från kortslutningsström",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri har emk \\(9\\,\\mathrm V\\). Vid ideal kortslutning skulle strömmen bli \\(7\\,\\mathrm A\\). Bestäm batteriets inre resistans enligt den enkla modellen med konstant \\(r\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning är den yttre resistansen ungefär noll, så hela emk ligger över den inre resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{ks}=\\frac{\\mathcal E}{r}\\Rightarrow r=\\frac{9}{7}=1{,}286\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}286\\,\\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 9,0 V. I batterimodellen blir kortslutningsströmmen 7,0 A.</p><p>Bestäm den inre resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vid kortslutning ligger hela ems över den inre resistansen.</p><p>\\[r=\\mathcal E/I_k\\]</p><p>\\[r=9{,}0/7{,}0=1{,}286\\ \\Omega\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.285714,
-    "tolerans": 0.023143,
+    "rättSvar": 1.2857142857142858,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>I kortslutningsmodellen återstår i princip bara batteriets inre resistans.</p>",
+    "ledtrad": "<p>Använd Ohms lag för den inre resistansen, med hela ems som spänning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 4,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.100",
@@ -90148,7 +91807,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett batteri ska laddas med laddningen 6,5 kC. Batteriets spänning är 1,5 V.</p>\n<p>Hur mycket energi krävs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Spänning anger energi per laddning: \\(U=E/Q\\).</p><p class=\"facit-metod\">Därför är \\(E=QU\\).</p><p class=\"facit-metod\">Skriv först kilocoulomb i coulomb.</p><div class=\"facit-matte\">\\[Q=6{,}5\\ \\mathrm{kC}=6500\\ \\mathrm C\\]\\[E=QU=6500\\cdot1{,}5=9750\\ \\mathrm J\\approx9{,}8\\ \\mathrm{kJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det krävs \\(9{,}8\\ \\mathrm{kJ}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Laddningen är 6,5 kC = 6 500 C.</p><p>\\[E=UQ=1{,}5\\cdot6500=9750\\ \\mathrm J\\]</p><p>Energin är 9,75 kJ, cirka 9,8 kJ.</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -90277,8 +91936,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Över en resistor ligger spänningen 6,0 V och genom den går strömmen 0,25 A.</p>\n<ol><li>Vilken resistans har den?</li><li>Vilken effekt utvecklas i den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänning och ström är kända, så använd Ohms lag \\(U=RI\\) och lös ut resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{6{,}0}{0{,}25}=24\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska effekten är energi per sekund och kan här beräknas direkt med \\(P=UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resistansen är \\(24\\ \\Omega\\) och effekten \\(1{,}5\\ \\mathrm W\\).</p></div>",
+    "t": "<p>En resistor har spänningen 6,0 V och strömmen 0,25 A.</p><p>a) Bestäm resistansen i Ω.</p><p>b) Bestäm effekten i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R=U/I=6{,}0/0{,}25=24\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=UI=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -90290,10 +91949,13 @@ window.BANK = [
       1.5
     ],
     "tolerans": [
-      0.36,
-      0.0225
+      0.6000000000000001,
+      0.05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -90307,33 +91969,54 @@ window.BANK = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Spänning och ström är kända, så använd Ohms lag \\(U=RI\\) och lös ut resistansen.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Över en resistor ligger spänningen 6,0 V och genom den går strömmen 0,25 A.</p>",
+    "spelIntro": "<p>En resistor har spänningen 6,0 V och strömmen 0,25 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken resistans har den?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänning och ström är kända, så använd Ohms lag \\(U=RI\\) och lös ut resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac UI=\\frac{6{,}0}{0{,}25}=24\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Spänning och ström är kända, så använd Ohms lag \\(U=RI\\) och lös ut resistansen.</p>",
+        "fraga": "En resistor har spänningen 6,0 V och strömmen 0,25 A. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R=U/I=6{,}0/0{,}25=24\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 24,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.6000000000000001,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor har spänningen 6,0 V och strömmen 0,25 A. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken effekt utvecklas i den?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska effekten är energi per sekund och kan här beräknas direkt med \\(P=UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Spänning och ström är kända, så använd Ohms lag \\(U=RI\\) och lös ut resistansen.</p>",
+        "fraga": "En resistor har spänningen 6,0 V och strömmen 0,25 A. Bestäm effekten i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=UI=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En resistor har spänningen 6,0 V och strömmen 0,25 A. Bestäm effekten i W.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.199",
@@ -90371,10 +92054,10 @@ window.BANK = [
     "id": "8.112",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett batteri är laddat med 4,5 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 42 kJ.</p>\n<ol><li>Vilken spänning har batteriet?</li>\n<li>Hur lång tid tog urladdningen om strömmen var 220 mA?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen är energi per laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=\\frac EQ=\\frac{42000}{4500}\\approx9{,}3\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är \\(220\\ \\mathrm{mA}=0{,}220\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac QI=\\frac{4500}{0{,}220}\\approx20\\,500\\ \\mathrm s\\approx5{,}68\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batterispänningen är \\(9{,}3\\ \\mathrm V\\), och urladdningen tar idealiskt cirka \\(5{,}7\\ \\mathrm h\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett batteri ger laddningen 4,5 kC och energin 42 kJ.</p><p>a) Bestäm medelspänningen i V.</p><p>b) Hur länge räcker batteriet vid 220 mA? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[U=E/Q=42000/4500\\approx9{,}33\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Laddningen är 4 500 C och strömmen 0,220 A.</p><p>\\[t=Q/I=4500/0{,}220\\approx20\\,455\\ \\mathrm s\\]</p><p>\\[t\\approx20\\,455/3600\\approx5{,}68\\ \\mathrm h\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -90382,21 +92065,24 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      9.33333333333,
-      5.68181818182
+      9.333333333333334,
+      5.6818181818181825
     ],
     "tolerans": [
-      0.14,
-      0.0852
+      0.23333333333333336,
+      0.14204545454545456
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "V",
+      "h"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -90407,26 +92093,50 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett batteri är laddat med 4,5 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 42 kJ.</p><div class=\"spel-en-del\">Vilken spänning har batteriet?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen är energi per laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=\\frac EQ=\\frac{42000}{4500}\\approx9{,}3\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri ger laddningen 4,5 kC och energin 42 kJ. Bestäm medelspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U=E/Q=42000/4500\\approx9{,}33\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.333333333333334,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.23333333333333336,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(E=UQ\\).</p>",
+        "t": "<p>Ett batteri ger laddningen 4,5 kC och energin 42 kJ. Bestäm medelspänningen i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Ett batteri är laddat med 4,5 kC. Lina kopplar in ett motstånd till batteriet, och när batteriet är urladdat har motståndet mottagit energin 42 kJ.</p><div class=\"spel-en-del\">Hur lång tid tog urladdningen om strömmen var 220 mA?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är \\(220\\ \\mathrm{mA}=0{,}220\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac QI=\\frac{4500}{0{,}220}\\approx20\\,500\\ \\mathrm s\\approx5{,}68\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}56\\ \\mathrm h\\).</p></div>",
-        "ledtrad": "<p>Strömmen är \\(220\\ \\mathrm{mA}=0{,}220\\ \\mathrm A\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
-        "niva": "C"
+        "fraga": "Ett batteri ger laddningen 4,5 kC vid strömmen 220 mA. Hur länge räcker det? Svara i timmar.",
+        "s": "<div class=\"facit-v2\"><p>Laddningen är 4 500 C och strömmen 0,220 A.</p><p>\\[t=Q/I=4500/0{,}220\\approx20\\,455\\ \\mathrm s\\]</p><p>\\[t\\approx20\\,455/3600\\approx5{,}68\\ \\mathrm h\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.6818181818181825,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.14204545454545456,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(Q=It\\) och omvandla sekunder till timmar.</p>",
+        "t": "<p>Ett batteri ger laddningen 4,5 kC vid strömmen 220 mA. Hur länge räcker det? Svara i timmar.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Använd \\(E=UQ\\).</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "spelIntro": "<p>Ett batteri ger laddningen 4,5 kC och energin 42 kJ.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "8.113",
@@ -91927,58 +93637,115 @@ window.BANK = [
     "id": "8.123",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Tre resistorer har kopplats till ett batteri enligt figuren.</p><span class=\"fig\"><svg height=\"356\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"93.029 0.000 314.286 223.716\"><line x1=\"110\" y1=\"50\" x2=\"245\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"255\" y1=\"50\" x2=\"390\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"50\" x2=\"110\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"218\" y1=\"120\" x2=\"282\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"338\" y1=\"120\" x2=\"390\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"185\" x2=\"222\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"278\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"35\" x2=\"245\" y2=\"65\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"255\" y1=\"42\" x2=\"255\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"235\" y=\"37\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"250\" y=\"19\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><rect x=\"162\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"282\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"310\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"222\" y=\"175\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"211\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 300 Ω</text><circle cx=\"110\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"390\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Bestäm ersättningsresistansen för R₁ och R₂.</li>\n<li>Bestäm ersättningsresistansen för hela kretsen.</li>\n<li>Hur stor ström går genom batteriet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Av figuren är \\(R_1\\) och \\(R_2\\) seriekopplade i samma gren.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{12}=100+200=300\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Denna 300-ohmsgren ligger parallellt med \\(R_3=300\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{300}{2}=150\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{150}\\approx0{,}06\\ \\mathrm{A}=60\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_{12}=300\\ \\Omega\\), hela kretsen \\(150\\ \\Omega\\), och batteriströmmen \\(60\\ \\mathrm{mA}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>R₁ = 100 Ω och R₂ = 200 Ω är seriekopplade. Denna gren är parallellkopplad med R₃ = 300 Ω. Spänningen är 9,0 V.</p><span class=\"fig\"><svg height=\"392.9449954073712\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"92.4000015258789 -9.548099994659424 315.1999921798706 238.1851143836975\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"110\" y1=\"50\" x2=\"245\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"255\" y1=\"50\" x2=\"390\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"110\" y1=\"50\" x2=\"110\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"110\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"218\" y1=\"120\" x2=\"282\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"338\" y1=\"120\" x2=\"390\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"110\" y1=\"185\" x2=\"222\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"278\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"245\" y1=\"35\" x2=\"245\" y2=\"65\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"255\" y1=\"42\" x2=\"255\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"210\" y=\"37\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"250\" y=\"19\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><rect x=\"162\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"190\" y=\"102\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"282\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"310\" y=\"102\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"222\" y=\"175\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"250\" y=\"211\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 300 Ω</text><circle cx=\"110\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"390\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span><p>a) Bestäm R₁ och R₂ tillsammans i Ω.</p><p>b) Bestäm hela kretsens ersättningsresistans i Ω.</p><p>c) Bestäm totalströmmen i A.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R_{12}=100+200=300\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R_p=300/2=150\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[I=U/R=9{,}0/150=0{,}060\\ \\mathrm A\\]</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      300,
+      150,
+      0.06
+    ],
+    "tolerans": [
+      7.5,
+      5.0,
+      0.0015
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Av figuren är \\(R_1\\) och \\(R_2\\) seriekopplade i samma gren.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tre resistorer har kopplats till ett batteri enligt figuren.</p><span class=\"fig\"><svg height=\"356\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"93.029 0.000 314.286 223.716\"><line x1=\"110\" y1=\"50\" x2=\"245\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"255\" y1=\"50\" x2=\"390\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"50\" x2=\"110\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"218\" y1=\"120\" x2=\"282\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"338\" y1=\"120\" x2=\"390\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"185\" x2=\"222\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"278\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"35\" x2=\"245\" y2=\"65\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"255\" y1=\"42\" x2=\"255\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"235\" y=\"37\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"250\" y=\"19\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><rect x=\"162\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"282\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"310\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"222\" y=\"175\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"211\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 300 Ω</text><circle cx=\"110\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"390\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>",
+    "spelIntro": "<p>R₁ = 100 Ω och R₂ = 200 Ω är seriekopplade. Denna gren är parallellkopplad med R₃ = 300 Ω. Spänningen är 9,0 V.</p><span class=\"fig\"><svg height=\"392.9449954073712\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"92.4000015258789 -9.548099994659424 315.1999921798706 238.1851143836975\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"110\" y1=\"50\" x2=\"245\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"255\" y1=\"50\" x2=\"390\" y2=\"50\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"110\" y1=\"50\" x2=\"110\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"110\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"218\" y1=\"120\" x2=\"282\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"338\" y1=\"120\" x2=\"390\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"110\" y1=\"185\" x2=\"222\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"278\" y1=\"185\" x2=\"390\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"245\" y1=\"35\" x2=\"245\" y2=\"65\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"255\" y1=\"42\" x2=\"255\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"210\" y=\"37\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"250\" y=\"19\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><rect x=\"162\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"190\" y=\"102\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><rect x=\"282\" y=\"110\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"310\" y=\"102\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"222\" y=\"175\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"250\" y=\"211\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 300 Ω</text><circle cx=\"110\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"390\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ersättningsresistansen för R₁ och R₂.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Av figuren är \\(R_1\\) och \\(R_2\\) seriekopplade i samma gren.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{12}=100+200=300\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Av figuren är \\(R_1\\) och \\(R_2\\) seriekopplade i samma gren.</p>",
+        "fraga": "Två resistorer på 100 Ω och 200 Ω är seriekopplade. Bestäm deras ersättningsresistans i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_{12}=100+200=300\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 300,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 7.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Två resistorer på 100 Ω och 200 Ω är seriekopplade. Bestäm deras ersättningsresistans i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm ersättningsresistansen för hela kretsen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Denna 300-ohmsgren ligger parallellt med \\(R_3=300\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{300}{2}=150\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(150\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Av figuren är \\(R_1\\) och \\(R_2\\) seriekopplade i samma gren.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Två grenar med resistansen 300 Ω vardera är parallellkopplade. Bestäm ersättningsresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_p=300/2=150\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 150,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Två grenar med resistansen 300 Ω vardera är parallellkopplade. Bestäm ersättningsresistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor ström går genom batteriet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriströmmen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{150}\\approx0{,}06\\ \\mathrm{A}=60\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>Av figuren är \\(R_1\\) och \\(R_2\\) seriekopplade i samma gren.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En krets har ersättningsresistansen 150 Ω och ansluts till 9,0 V. Bestäm totalströmmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=U/R=9{,}0/150=0{,}060\\ \\mathrm A\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.0015,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En krets har ersättningsresistansen 150 Ω och ansluts till 9,0 V. Bestäm totalströmmen i A.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "Ω",
+      "A"
     ]
   },
   {
@@ -92203,55 +93970,166 @@ window.BANK = [
     "id": "8.126",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Tre likadana lampor kopplas till ett batteri. I krets A sitter alla tre i serie. I krets B sitter alla tre parallellt.</p><div style=\"display:flex;flex-wrap:wrap;gap:8px;justify-content:center\"><div class=\"fig\"><svg width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor i serie med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"/><path d=\"M50.0 50.0 L260.0 50.0 L260.0 210.0 L50.0 210.0 L50.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M100.8 40.8 L119.2 59.2 M100.8 59.2 L119.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"160\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M150.8 40.8 L169.2 59.2 M150.8 59.2 L169.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"210\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M200.8 40.8 L219.2 59.2 M200.8 59.2 L219.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Krets A</text></svg></div><div class=\"fig\"><svg width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor parallellt med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"/><path d=\"M50.0 50.0 L230.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M50.0 210.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M50.0 50.0 L50.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M130.0 50.0 L130.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M120.8 120.8 L139.2 139.2 M120.8 139.2 L139.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><path d=\"M180.0 50.0 L180.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M170.8 120.8 L189.2 139.2 M170.8 139.2 L189.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><path d=\"M230.0 50.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M220.8 120.8 L239.2 139.2 M220.8 139.2 L239.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"130\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"130\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"180\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"180\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"/><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Krets B</text></svg></div></div>\n<ol><li>I vilken krets lyser varje enskild lampa starkast? Motivera.</li>\n<li>I vilken krets tar batteriet slut snabbast?</li>\n<li>En lampa går sönder i vardera kretsen. Vad händer med de övriga?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I parallellkopplingen ligger hela batterispänningen över varje lampa.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I seriekopplingen får varje identisk lampa en tredjedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P\\propto U^2\\quad\\text{för konstant }R\\]</div></div><div class=\"facit-stycke\"><p>Varje lampa lyser därför starkast i krets B.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre parallella lampor tar betydligt större total effekt än tre i serie, så batteriet tar slut snabbast i krets B.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om en serielampa går av bryts den enda strömvägen och alla slocknar.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Om en parallellampa går av finns de andra grenarna kvar och övriga lampor fortsätter lysa.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje lampa lyser starkast och batteriet töms snabbast i parallellkopplingen. Ett avbrott släcker alla i serie men bara den trasiga lampan parallellt.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Tre likadana lampor kopplas i serie i krets A och parallellt i krets B. Batteriet ger samma spänning i båda kretsarna.</p><div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor i serie med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L260.0 50.0 L260.0 210.0 L50.0 210.0 L50.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"110\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M100.8 40.8 L119.2 59.2 M100.8 59.2 L119.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"160\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M150.8 40.8 L169.2 59.2 M150.8 59.2 L169.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"210\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M200.8 40.8 L219.2 59.2 M200.8 59.2 L219.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets A</text></svg></div><div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor parallellt med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L230.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 210.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 50.0 L50.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M130.0 50.0 L130.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"130\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M120.8 120.8 L139.2 139.2 M120.8 139.2 L139.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M180.0 50.0 L180.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"180\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M170.8 120.8 L189.2 139.2 M170.8 139.2 L189.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M230.0 50.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"230\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M220.8 120.8 L239.2 139.2 M220.8 139.2 L239.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"130\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"130\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets B</text></svg></div><p>a) I vilken krets lyser varje lampa starkare? Motivera.</p><p>b) Vilken koppling tömmer batteriet snabbare? Motivera.</p><p>c) Vad händer med de andra lamporna om en lampa går sönder? Jämför båda kretsarna.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I parallellkopplingen får varje lampa hela batteriets spänning. I seriekopplingen delar lamporna på spänningen. Lamporna i B lyser därför starkare.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>B har större totalström och använder mer effekt. Ett batteri med samma energimängd räcker därför kortare tid i B.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>I A bryts den enda strömvägen, så alla lampor slocknar. I B har de andra lamporna kvar sina egna strömvägar och fortsätter lysa.</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      null,
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      false,
+      false
+    ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>I parallellkopplingen ligger hela batterispänningen över varje lampa. I seriekopplingen får varje identisk lampa en tredjedel.</p>",
+    "ledtrad": "<p>Vilken spänning får varje lampa?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tre likadana lampor kopplas till ett batteri. I krets A sitter alla tre i serie. I krets B sitter alla tre parallellt.</p><div style=\"display:flex;flex-wrap:wrap;gap:8px;justify-content:center\"><div class=\"fig\"><svg width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor i serie med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"/><path d=\"M50.0 50.0 L260.0 50.0 L260.0 210.0 L50.0 210.0 L50.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M100.8 40.8 L119.2 59.2 M100.8 59.2 L119.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"160\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M150.8 40.8 L169.2 59.2 M150.8 59.2 L169.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"210\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M200.8 40.8 L219.2 59.2 M200.8 59.2 L219.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Krets A</text></svg></div><div class=\"fig\"><svg width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor parallellt med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"/><path d=\"M50.0 50.0 L230.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M50.0 210.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M50.0 50.0 L50.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M130.0 50.0 L130.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M120.8 120.8 L139.2 139.2 M120.8 139.2 L139.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><path d=\"M180.0 50.0 L180.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M170.8 120.8 L189.2 139.2 M170.8 139.2 L189.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><path d=\"M230.0 50.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M220.8 120.8 L239.2 139.2 M220.8 139.2 L239.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"130\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"130\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"180\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"180\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"/><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Krets B</text></svg></div></div>",
+    "spelIntro": "<p>Tre likadana lampor kopplas i serie i krets A och parallellt i krets B. Batteriet ger samma spänning i båda kretsarna.</p><div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor i serie med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L260.0 50.0 L260.0 210.0 L50.0 210.0 L50.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"110\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M100.8 40.8 L119.2 59.2 M100.8 59.2 L119.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"160\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M150.8 40.8 L169.2 59.2 M150.8 59.2 L169.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"210\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M200.8 40.8 L219.2 59.2 M200.8 59.2 L219.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets A</text></svg></div><div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor parallellt med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L230.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 210.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 50.0 L50.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M130.0 50.0 L130.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"130\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M120.8 120.8 L139.2 139.2 M120.8 139.2 L139.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M180.0 50.0 L180.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"180\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M170.8 120.8 L189.2 139.2 M170.8 139.2 L189.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M230.0 50.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"230\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M220.8 120.8 L239.2 139.2 M220.8 139.2 L239.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"130\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"130\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets B</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "I vilken krets lyser varje enskild lampa starkast? Motivera.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I parallellkopplingen ligger hela batterispänningen över varje lampa.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I seriekopplingen får varje identisk lampa en tredjedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P\\propto U^2\\quad\\text{för konstant }R\\]</div></div><div class=\"facit-stycke\"><p>Varje lampa lyser därför starkast i krets B.</p></div></div></div></div></div>",
-        "ledtrad": "<p>I parallellkopplingen ligger hela batterispänningen över varje lampa. I seriekopplingen får varje identisk lampa en tredjedel.</p>",
-        "niva": "C"
+        "fraga": "Vilken av kretsarna ger starkare ljus från varje lampa? Batteriet ger samma spänning i båda.<div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor i serie med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L260.0 50.0 L260.0 210.0 L50.0 210.0 L50.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"110\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M100.8 40.8 L119.2 59.2 M100.8 59.2 L119.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"160\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M150.8 40.8 L169.2 59.2 M150.8 59.2 L169.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"210\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M200.8 40.8 L219.2 59.2 M200.8 59.2 L219.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets A</text></svg></div><div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor parallellt med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L230.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 210.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 50.0 L50.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M130.0 50.0 L130.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"130\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M120.8 120.8 L139.2 139.2 M120.8 139.2 L139.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M180.0 50.0 L180.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"180\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M170.8 120.8 L189.2 139.2 M170.8 139.2 L189.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M230.0 50.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"230\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M220.8 120.8 L239.2 139.2 M220.8 139.2 L239.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"130\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"130\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets B</text></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>I parallellkopplingen får varje lampa hela batteriets spänning. I seriekopplingen delar lamporna på spänningen. Lamporna i B lyser därför starkare.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Krets B, med parallellkopplade lampor.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Krets B, med parallellkopplade lampor.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Krets A, med seriekopplade lampor.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Lamporna lyser lika starkt i båda kretsarna.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken spänning får varje lampa?</p>",
+        "t": "<p>Vilken av kretsarna ger starkare ljus från varje lampa? Batteriet ger samma spänning i båda.<div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor i serie med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L260.0 50.0 L260.0 210.0 L50.0 210.0 L50.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"110\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M100.8 40.8 L119.2 59.2 M100.8 59.2 L119.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"160\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M150.8 40.8 L169.2 59.2 M150.8 59.2 L169.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"210\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M200.8 40.8 L219.2 59.2 M200.8 59.2 L219.2 40.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets A</text></svg></div><div class=\"fig\"><svg width=\"520\" height=\"456.1963190184049\" viewBox=\"-13 -13 326 286\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre lampor parallellt med ett batteri\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><rect x=\"34\" y=\"124\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"34\" y1=\"125\" x2=\"66\" y2=\"125\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"42\" y1=\"135\" x2=\"58\" y2=\"135\" stroke=\"#24262b\" stroke-width=\"5\"></line><path d=\"M50.0 50.0 L230.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 210.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M50.0 50.0 L50.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M130.0 50.0 L130.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"130\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M120.8 120.8 L139.2 139.2 M120.8 139.2 L139.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M180.0 50.0 L180.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"180\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M170.8 120.8 L189.2 139.2 M170.8 139.2 L189.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><path d=\"M230.0 50.0 L230.0 210.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"230\" cy=\"130\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M220.8 120.8 L239.2 139.2 M220.8 139.2 L239.2 120.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"130\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"130\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"180\" cy=\"210\" r=\"3.5\" fill=\"#24262b\"></circle><text x=\"150\" y=\"251\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Krets B</text></svg></div></p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "I vilken krets tar batteriet slut snabbast?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre parallella lampor tar betydligt större total effekt än tre i serie, så batteriet tar slut snabbast i krets B.</p></div></div></div></div></div>",
-        "ledtrad": "<p>I parallellkopplingen ligger hela batterispänningen över varje lampa. I seriekopplingen får varje identisk lampa en tredjedel.</p>",
-        "niva": "C"
+        "fraga": "Tre likadana lampor kopplas antingen i serie eller parallellt till samma batterispänning. Vilken koppling tömmer batteriet snabbare?",
+        "s": "<div class=\"facit-v2\"><p>B har större totalström och använder mer effekt. Ett batteri med samma energimängd räcker därför kortare tid i B.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Parallellkopplingen.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Parallellkopplingen.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Seriekopplingen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Båda tömmer batteriet lika snabbt.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför kopplingarnas totalström och effekt.</p>",
+        "t": "<p>Tre likadana lampor kopplas antingen i serie eller parallellt till samma batterispänning. Vilken koppling tömmer batteriet snabbare?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En lampa går sönder i vardera kretsen. Vad händer med de övriga?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om en serielampa går av bryts den enda strömvägen och alla slocknar.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Om en parallellampa går av finns de andra grenarna kvar och övriga lampor fortsätter lysa.</p></div></div></div></div></div>",
-        "ledtrad": "<p>I parallellkopplingen ligger hela batterispänningen över varje lampa. I seriekopplingen får varje identisk lampa en tredjedel.</p>",
-        "niva": "C"
+        "fraga": "Vad händer med de andra lamporna om en lampa går sönder i en serie- respektive parallellkoppling?",
+        "s": "<div class=\"facit-v2\"><p>I A bryts den enda strömvägen, så alla lampor slocknar. I B har de andra lamporna kvar sina egna strömvägar och fortsätter lysa.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "I serie slocknar alla. I parallellkopplingen lyser de andra vidare.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "I serie slocknar alla. I parallellkopplingen lyser de andra vidare.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "I serie lyser de andra vidare. I parallellkopplingen slocknar alla.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Alla lampor slocknar alltid i båda kopplingarna.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Finns en annan sluten strömväg?</p>",
+        "t": "<p>Vad händer med de andra lamporna om en lampa går sönder i en serie- respektive parallellkoppling?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
@@ -92290,55 +94168,115 @@ window.BANK = [
     "id": "8.127",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Tre likadana resistorer på 90 Ω kopplas till ett batteri på 9,0 V. Två av dem sitter parallellt, och den kombinationen är seriekopplad med den tredje.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">90 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">90 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">90 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/></svg></span>\n<ol><li>Vilken ersättningsresistans har parallelldelen?</li><li>Vilken är kretsens totala resistans?</li>\n<li>Hur stor är spänningen över den enskilda resistorn?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två lika 90-ohmsresistorer parallellt ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{90}{2}=45\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med den tredje i serie blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=90+45=135\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen och spänningen över serieresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{135}\\approx0{,}06667\\ \\mathrm{A}=66{,}67\\ \\mathrm{mA}\\]\\[U_3=I\\cdot90=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Parallelldelen är \\(45\\ \\Omega\\), totalresistansen \\(135\\ \\Omega\\), och den ensamma resistorn har \\(6{,}0\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Tre resistorer har resistansen 90 Ω vardera. Två är parallellkopplade och ligger i serie med den tredje. Spänningen är 9,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"229.9997230273748\" viewBox=\"-3.3287229537963867 17.414905548095703 505.4973440170288 223.5850944519043\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">9,0 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">90 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">90 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">90 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle></svg></span><p>a) Bestäm parallellgrenens ersättningsresistans i Ω.</p><p>b) Bestäm totalresistansen i Ω.</p><p>c) Bestäm spänningen över den ensamma resistorn i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R_p=90/2=45\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=90+45=135\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[I=9{,}0/(90+45)=1/15\\ \\mathrm A\\]</p><p>\\[U=I\\cdot90=6{,}0\\ \\mathrm V\\]</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      45,
+      135,
+      6
+    ],
+    "tolerans": [
+      1.125,
+      5.0,
+      0.15000000000000002
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Två lika 90-ohmsresistorer parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tre likadana resistorer på 90 Ω kopplas till ett batteri på 9,0 V. Två av dem sitter parallellt, och den kombinationen är seriekopplad med den tredje.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"555\" height=\"285\" viewBox=\"0 0 555 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">90 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">90 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">90 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/></svg></span>",
+    "spelIntro": "<p>Tre resistorer har resistansen 90 Ω vardera. Två är parallellkopplade och ligger i serie med den tredje. Spänningen är 9,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"229.9997230273748\" viewBox=\"-3.3287229537963867 17.414905548095703 505.4973440170288 223.5850944519043\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kopplingsschema med givna komponentvärden\"><title>Kopplingsschema med givna komponentvärden</title><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"131\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"154\" x2=\"65\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"50\" y1=\"132\" x2=\"80\" y2=\"132\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"56\" y1=\"153\" x2=\"74\" y2=\"153\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"39\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">+</text><text x=\"39\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">−</text><text x=\"48\" y=\"111\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">9,0 V</text><line x1=\"65\" y1=\"225\" x2=\"445\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"65\" y1=\"70\" x2=\"145\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"145\" y1=\"70\" x2=\"153\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"153\" y=\"60\" width=\"60\" height=\"20\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"213\" y1=\"70\" x2=\"222\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"183\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">90 Ω</text><line x1=\"222\" y1=\"70\" x2=\"430\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"290\" y1=\"97\" x2=\"290\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"280\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"290\" y1=\"162\" x2=\"290\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"314\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">90 Ω</text><line x1=\"290\" y1=\"182\" x2=\"290\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"290\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"290\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"97\" stroke=\"#293747\" stroke-width=\"1.8\"></line><line x1=\"430\" y1=\"97\" x2=\"430\" y2=\"110\" stroke=\"#293747\" stroke-width=\"1.8\"></line><rect x=\"420\" y=\"110\" width=\"20\" height=\"52\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"></rect><line x1=\"430\" y1=\"162\" x2=\"430\" y2=\"182\" stroke=\"#293747\" stroke-width=\"1.8\"></line><text x=\"454\" y=\"142\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#293747\">90 Ω</text><line x1=\"430\" y1=\"182\" x2=\"430\" y2=\"225\" stroke=\"#293747\" stroke-width=\"1.8\"></line><circle cx=\"430\" cy=\"70\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle><circle cx=\"430\" cy=\"225\" r=\"2\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"></circle></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken ersättningsresistans har parallelldelen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två lika 90-ohmsresistorer parallellt ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{90}{2}=45\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Två lika 90-ohmsresistorer parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Två resistorer på 90 Ω vardera är parallellkopplade. Bestäm ersättningsresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_p=90/2=45\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 45,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 1.125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Två resistorer på 90 Ω vardera är parallellkopplade. Bestäm ersättningsresistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken är kretsens totala resistans?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med den tredje i serie blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=90+45=135\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(135\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Två lika 90-ohmsresistorer parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "En resistor på 90 Ω ligger i serie med en parallellgren som har ersättningsresistansen 45 Ω. Bestäm totalresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=90+45=135\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 135,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 90 Ω ligger i serie med en parallellgren som har ersättningsresistansen 45 Ω. Bestäm totalresistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är spänningen över den enskilda resistorn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen och spänningen över serieresistorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{135}\\approx0{,}06667\\ \\mathrm{A}=66{,}67\\ \\mathrm{mA}\\]\\[U_3=I\\cdot90=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Två lika 90-ohmsresistorer parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "En resistor på 90 Ω ligger i serie med en parallellgren vars ersättningsresistans är 45 Ω. Kretsen ansluts till 9,0 V. Bestäm spänningen över 90 Ω-resistorn i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=9{,}0/(90+45)=1/15\\ \\mathrm A\\]</p><p>\\[U=I\\cdot90=6{,}0\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.15000000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 90 Ω ligger i serie med en parallellgren vars ersättningsresistans är 45 Ω. Kretsen ansluts till 9,0 V. Bestäm spänningen över 90 Ω-resistorn i V.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "Ω",
+      "V"
     ]
   },
   {
@@ -92466,42 +94404,40 @@ window.BANK = [
     "id": "8.252",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "blandad serie- och parallellkoppling",
-    "poang": "(0/1/2)",
-    "t": "<p>En resistor \\(R_1=4\\,\\Omega\\) ligger i serie med en parallellgren bestående av \\(R_2=6\\,\\Omega\\) och \\(R_3=12\\,\\Omega\\). Hela kopplingen ansluts till \\(18\\,\\mathrm V\\). Bestäm spänningen över parallellgrenen.</p><div class=\"fig smal\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"/><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₁ = 4 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₂ = 6 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₃ = 12 Ω</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förenkla först parallellgrenen, därefter hela kretsen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När totalströmmen är känd fås spänningsfallet över parallellgrenen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{6\\cdot12}{6+12}=4\\ \\Omega\\]\\[I=\\frac{18}{4+4}=2{,}25\\ \\mathrm A\\]\\[U_p=IR_p=9\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>R₁ = 4 Ω ligger i serie med R₂ = 6 Ω och R₃ = 12 Ω som är parallellkopplade. Spänningen är 18 V. Bestäm spänningen över parallellkopplingen. Svara i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"322.2813688212928\" viewBox=\"-13 -13 526 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"></line><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₁ = 4 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₂ = 6 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₃ = 12 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Förenkla först parallellkopplingen. Samma totalström går genom R₁ och parallellkopplingen.</p><p>\\[R_p=6\\cdot12/(6+12)\\approx4\\ \\Omega\\]</p><p>\\[I=18/(4+4)\\approx2{,}25\\ \\mathrm A\\]</p><p>\\[U_p=I R_p\\approx9\\ \\mathrm V\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 0.162,
+    "rättSvar": 9.0,
+    "tolerans": 0.225,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Förenkla kretsen stegvis: parallellgrenen först, sedan seriekopplingen.</p>",
+    "ledtrad": "<p>Förenkla parallellkopplingen innan du använder Ohms lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.130",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "bestämma okänd resistans i seriekoppling utifrån amperemetarens visning, ur diagram, sökt spänning och resistans",
-    "poang": "(2/1/0)",
-    "t": "<p>Amperemetern i figuren visar 30 mA.</p><span class=\"fig\"><svg height=\"266\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.000 12.346 393.429 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"227\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"255\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><rect x=\"342\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"370\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text><circle cx=\"175\" cy=\"48\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"175\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">A</text></svg></span>\n<ol><li>Vilken spänning ligger över R₁?</li>\n<li>Vilken spänning ligger över R₂?</li>\n<li>Bestäm R₂.</li>\n<li>Bestäm kretsens ersättningsresistans och kontrollera svaret i c.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström 30 mA går genom \\(R_1\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=120\\cdot0{,}030=3{,}6\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den återstående delspänningen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_2=9{,}0-3{,}6=5{,}4\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den okända resistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=\\frac{5{,}4}{0{,}030}=180\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kontroll från hela kretsen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{9{,}0}{0{,}030}=300\\ \\Omega=120+180\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(U_1=3{,}6\\ \\mathrm V\\), \\(U_2=5{,}4\\ \\mathrm V\\), \\(R_2=180\\ \\Omega\\), och \\(R_e=300\\ \\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Två resistorer är seriekopplade till 9,0 V. R₁ = 120 Ω och strömmen är 30 mA.</p><span class=\"fig\"><svg height=\"291.2141173442191\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.66431427001953 1.4812288284301758 397.33568572998047 222.51877117156982\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"227\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"255\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><rect x=\"342\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"370\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text><circle cx=\"175\" cy=\"48\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><text x=\"175\" y=\"52\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"700\" fill=\"#2B2527\">A</text></svg></span><p>a) Bestäm spänningen över R₁ i V.</p><p>b) Bestäm spänningen över R₂ i V.</p><p>c) Bestäm R₂ i Ω.</p><p>d) Bestäm totalresistansen i Ω och kontrollera svaret i c.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[U_1=120\\cdot0{,}030=3{,}6\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[U_2=9{,}0-3{,}6=5{,}4\\ \\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[R_2=5{,}4/0{,}030=180\\ \\Omega\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=9{,}0/0{,}030=300\\ \\Omega\\]</p><p>Kontroll: 300 − 120 = 180 Ω, samma R₂ som i c.</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "procedur"
@@ -92515,12 +94451,17 @@ window.BANK = [
       300
     ],
     "tolerans": [
-      0.054,
-      0.081,
-      2.6999999999999997,
-      4.5
+      0.09000000000000001,
+      0.135,
+      5.0,
+      7.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -92541,47 +94482,92 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "kopplingar__ersattningsresistans_och_kretsanalys",
-    "ledtrad": "<p>Samma ström 30 mA går genom \\(R_1\\). Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Amperemetern i figuren visar 30 mA.</p><span class=\"fig\"><svg height=\"266\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.000 12.346 393.429 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"227\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"255\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><rect x=\"342\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"370\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text><circle cx=\"175\" cy=\"48\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"175\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">A</text></svg></span>",
+    "spelIntro": "<p>Två resistorer är seriekopplade till 9,0 V. R₁ = 120 Ω och strömmen är 30 mA.</p><span class=\"fig\"><svg height=\"291.2141173442191\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.66431427001953 1.4812288284301758 397.33568572998047 222.51877117156982\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">9,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"227\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"255\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 120 Ω</text><rect x=\"342\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"370\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = ?</text><circle cx=\"175\" cy=\"48\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><text x=\"175\" y=\"52\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"700\" fill=\"#2B2527\">A</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken spänning ligger över R₁?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström 30 mA går genom \\(R_1\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=120\\cdot0{,}030=3{,}6\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Samma ström 30 mA går genom \\(R_1\\). Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Strömmen genom R₁ = 120 Ω är 30 mA. Bestäm spänningen över R₁ i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_1=120\\cdot0{,}030=3{,}6\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.09000000000000001,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Strömmen genom R₁ = 120 Ω är 30 mA. Bestäm spänningen över R₁ i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken spänning ligger över R₂?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den återstående delspänningen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_2=9{,}0-3{,}6=5{,}4\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}4\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Samma ström 30 mA går genom \\(R_1\\). Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Två resistorer är seriekopplade till 9,0 V. Spänningen över den ena är 3,6 V. Bestäm spänningen över den andra i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_2=9{,}0-3{,}6=5{,}4\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.135,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Spänningarna i en seriekoppling adderas.</p>",
+        "t": "<p>Två resistorer är seriekopplade till 9,0 V. Spänningen över den ena är 3,6 V. Bestäm spänningen över den andra i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm R₂.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den okända resistansen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=\\frac{5{,}4}{0{,}030}=180\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Samma ström 30 mA går genom \\(R_1\\). Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "Spänningen över en resistor är 5,4 V och strömmen är 30 mA. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R=U/I=5{,}4/0{,}030=180\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 180,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Spänningen över en resistor är 5,4 V och strömmen är 30 mA. Bestäm resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm kretsens ersättningsresistans och kontrollera svaret i c.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kontroll från hela kretsen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_e=\\frac{9{,}0}{0{,}030}=300\\ \\Omega=120+180\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120+180\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Samma ström 30 mA går genom \\(R_1\\). Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C"
+        "fraga": "En krets ansluts till 9,0 V och totalströmmen är 30 mA. Bestäm totalresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=9{,}0/0{,}030=300\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 300,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 7.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En krets ansluts till 9,0 V och totalströmmen är 30 mA. Bestäm totalresistansen i Ω.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.131",
@@ -92840,90 +94826,146 @@ window.BANK = [
     "id": "8.133",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en blandad koppling.</p><span class=\"fig bred\"><svg height=\"281\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 11.574 469.800 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 50 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 100 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Bestäm parallelldelens ersättningsresistans.</li><li>Bestäm kretsens totala resistans.</li>\n<li>Vilken spänning ligger över R₁?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De två 100-ohmsresistorerna parallellt ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{100}{2}=50\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(R_1=50\\ \\Omega\\) i serie blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=50+50=100\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är 0,12 A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=IR_1=0{,}12\\cdot50=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Parallelldelen är \\(50\\ \\Omega\\), totalresistansen \\(100\\ \\Omega\\), och spänningen över \\(R_1\\) är \\(6{,}0\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>R₁ = 50 Ω ligger i serie med R₂ = 100 Ω och R₃ = 100 Ω som är parallellkopplade. Spänningen är 12 V.</p><span class=\"fig bred\"><svg height=\"239.07155994481246\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.090293884277344 1.8325958251953125 491.06237030029297 225.7673978805542\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 50 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 100 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span><p>a) Bestäm parallellgrenens ersättningsresistans i Ω.</p><p>b) Bestäm totalresistansen i Ω.</p><p>c) Bestäm spänningen över R₁ i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R_p=100/2=50\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=50+50=100\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[I=12/100=0{,}12\\ \\mathrm A\\]</p><p>\\[U_1=0{,}12\\cdot50=6{,}0\\ \\mathrm V\\]</p></div></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      100,
+      6
+    ],
+    "tolerans": [
+      1.25,
+      5.0,
+      0.15000000000000002
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>De två 100-ohmsresistorerna parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en blandad koppling.</p><span class=\"fig bred\"><svg height=\"281\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"54.771 11.574 469.800 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 50 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 100 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/></svg></span>",
+    "spelIntro": "<p>R₁ = 50 Ω ligger i serie med R₂ = 100 Ω och R₃ = 100 Ω som är parallellkopplade. Spänningen är 12 V.</p><span class=\"fig bred\"><svg height=\"239.07155994481246\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.090293884277344 1.8325958251953125 491.06237030029297 225.7673978805542\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"187\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"215\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 50 Ω</text><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 100 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"447\" y=\"136\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 100 Ω</text><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm parallelldelens ersättningsresistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De två 100-ohmsresistorerna parallellt ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{100}{2}=50\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>De två 100-ohmsresistorerna parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+        "fraga": "Två resistorer på 100 Ω vardera är parallellkopplade. Bestäm ersättningsresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_p=100/2=50\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Två resistorer på 100 Ω vardera är parallellkopplade. Bestäm ersättningsresistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm kretsens totala resistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(R_1=50\\ \\Omega\\) i serie blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=50+50=100\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>De två 100-ohmsresistorerna parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En resistor på 50 Ω ligger i serie med en parallellgren vars ersättningsresistans är 50 Ω. Bestäm totalresistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=50+50=100\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 100,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 50 Ω ligger i serie med en parallellgren vars ersättningsresistans är 50 Ω. Bestäm totalresistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken spänning ligger över R₁?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är 0,12 A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=IR_1=0{,}12\\cdot50=6{,}0\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>De två 100-ohmsresistorerna parallellt ger Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Strömmen genom en resistor på 50 Ω är 0,12 A. Bestäm spänningen över resistorn i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[U=RI=50\\cdot0{,}12=6{,}0\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.15000000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>Strömmen genom en resistor på 50 Ω är 0,12 A. Bestäm spänningen över resistorn i V.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "Ω",
+      "V"
     ]
   },
   {
     "id": "8.253",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "blandad serie- och parallellkoppling",
-    "poang": "(0/1/2)",
-    "t": "<p>En resistor \\(R_1=5\\,\\Omega\\) ligger i serie med en parallellgren bestående av \\(R_2=8\\,\\Omega\\) och \\(R_3=8\\,\\Omega\\). Hela kopplingen ansluts till \\(18\\,\\mathrm V\\). Bestäm spänningen över parallellgrenen.</p><div class=\"fig smal\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"/><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₁ = 5 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₂ = 8 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₃ = 8 Ω</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förenkla först parallellgrenen, därefter hela kretsen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När totalströmmen är känd fås spänningsfallet över parallellgrenen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{8\\cdot8}{8+8}=4\\ \\Omega\\]\\[I=\\frac{18}{5+4}=2\\ \\mathrm A\\]\\[U_p=IR_p=8\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>R₁ = 5,0 Ω ligger i serie med R₂ = 8,0 Ω och R₃ = 8,0 Ω som är parallellkopplade. Spänningen över parallellkopplingen är 8,0 V. Vilken spänning ger källan? Svara i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"322.0761846326511\" viewBox=\"-13.33509737253189 -13 526.3350973725319 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"></line><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">U = ?</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₁ = 5 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₂ = 8 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₃ = 8 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Båda parallella resistorerna har 8,0 V över sig.</p><p>\\[I_2=I_3=8{,}0/8{,}0=1{,}0\\ \\mathrm A\\]</p><p>Genom R₁ går summan 2,0 A.</p><p>\\[U_1=2{,}0\\cdot5{,}0=10\\ \\mathrm V\\]</p><p>\\[U=U_1+U_p=10+8{,}0=18\\ \\mathrm V\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0.144,
+    "rättSvar": 18,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Förenkla kretsen stegvis: parallellgrenen först, sedan seriekopplingen.</p>",
+    "ledtrad": "<p>Beräkna strömmarna i båda grenarna. Deras summa går genom R₁.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.134",
@@ -92931,9 +94973,9 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "C",
     "typ": "bestämma batteriets spänning baklänges från en grenströmsmätning i blandad koppling, ur diagram, sökt spänning",
-    "poang": "(1/2/0)",
-    "t": "<p>Amperemetern i figuren visar 8,0 mA.</p><span class=\"fig bred\"><svg height=\"280\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"52.457 11.574 472.114 212.963\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = ?</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"420\" y=\"72\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"447\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 600 Ω</text><circle cx=\"430\" cy=\"172\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\">A</text></svg></span>\n<p>Vilken spänning har batteriet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Amperemetern visar strömmen genom \\(R_3=600\\ \\Omega\\).</p><div class=\"facit-matte\">\\[U_p=R_3I_3=600\\cdot0{,}0080=4{,}8\\ \\mathrm V\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma spänning ligger över \\(R_2=300\\ \\Omega\\).</p><div class=\"facit-matte\">\\[I_2=\\frac{4{,}8}{300}\\approx0{,}016\\ \\mathrm{A}=16\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Totalströmmen genom \\(R_1\\) är \\(16+8=24\\ \\mathrm{mA}\\).</p><div class=\"facit-matte\">\\[U_1=150\\cdot0{,}024=3{,}6\\ \\mathrm V\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Batterispänningen är summan.</p><div class=\"facit-matte\">\\[\\mathcal E=U_1+U_p=3{,}6+4{,}8=8{,}4\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Batteriets spänning är \\(8{,}4\\ \\mathrm V\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Amperemetern i figuren visar 8,0 mA.</p><span class=\"fig bred\"><svg height=\"236.10982644580997\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"44.460147857666016 1.6436262130737305 497.63837814331055 225.95636749267578\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">U = ?</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"172\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 150 Ω</text><line x1=\"300\" y1=\"48\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"300\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"300\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"290\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"283\" y=\"136\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 300 Ω</text><rect x=\"420\" y=\"72\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"447\" y=\"104\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 600 Ω</text><circle cx=\"430\" cy=\"172\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><text x=\"430\" y=\"176\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"700\" fill=\"#2B2527\">A</text></svg></span>\n<p>Vilken spänning har batteriet?</p>",
+    "s": "<div class=\"facit-v2\"><p>Strömmen genom R₃ = 600 Ω är 8,0 mA = 0,0080 A.</p><p>\\[U_p=600\\cdot0{,}0080=4{,}8\\ \\mathrm V\\]</p><p>Samma spänning ligger över R₂.</p><p>\\[I_2=4{,}8/300=0{,}016\\ \\mathrm A\\]</p><p>R₁ leder summan av grenströmmarna: 0,016 + 0,008 = 0,024 A.</p><p>\\[U_1=150\\cdot0{,}024=3{,}6\\ \\mathrm V\\]</p><p>\\[U=U_1+U_p=3{,}6+4{,}8=8{,}4\\ \\mathrm V\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "procedur"
@@ -92941,16 +94983,16 @@ window.BANK = [
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "svarstyp": "numeriskt",
     "rättSvar": 8.4,
-    "tolerans": 0.126,
+    "tolerans": 0.21,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "familjNyckelTidigare": "kopplingar__ersattningsresistans_och_kretsanalys",
-    "ledtrad": "<p>Amperemetern visar strömmen genom \\(R_3=600\\ \\Omega\\). Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Använd strömmen genom R₃ för att bestämma spänningen över parallellkopplingen.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
@@ -93193,32 +95235,31 @@ window.BANK = [
     "id": "8.254",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "blandad serie- och parallellkoppling",
-    "poang": "(0/1/2)",
-    "t": "<p>En resistor \\(R_1=6\\,\\Omega\\) ligger i serie med en parallellgren bestående av \\(R_2=10\\,\\Omega\\) och \\(R_3=10\\,\\Omega\\). Hela kopplingen ansluts till \\(18\\,\\mathrm V\\). Bestäm spänningen över parallellgrenen.</p><div class=\"fig smal\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"/><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₁ = 6 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₂ = 10 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₃ = 10 Ω</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förenkla först parallellgrenen, därefter hela kretsen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När totalströmmen är känd fås spänningsfallet över parallellgrenen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_p=\\frac{10\\cdot10}{10+10}=5\\ \\Omega\\]\\[I=\\frac{18}{6+5}=1{,}636\\ \\mathrm A\\]\\[U_p=IR_p=8{,}182\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}182\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>R₁ = 6 Ω ligger i serie med R₂ = 10 Ω och R₃ = 10 Ω som är parallellkopplade. Spänningen är 18 V. Bestäm spänningen över parallellkopplingen. Svara i V.</p><div class=\"fig smal\"><svg width=\"520\" height=\"322.2813688212928\" viewBox=\"-13 -13 526 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"></line><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₁ = 6 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₂ = 10 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₃ = 10 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Förenkla först parallellkopplingen. Samma totalström går genom R₁ och parallellkopplingen.</p><p>\\[R_p=10\\cdot10/(10+10)\\approx5\\ \\Omega\\]</p><p>\\[I=18/(6+5)\\approx1{,}6364\\ \\mathrm A\\]</p><p>\\[U_p=I R_p\\approx8{,}1818\\ \\mathrm V\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.181818,
-    "tolerans": 0.147273,
+    "rättSvar": 8.181818181818182,
+    "tolerans": 0.20454545454545456,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Förenkla kretsen stegvis: parallellgrenen först, sedan seriekopplingen.</p>",
+    "ledtrad": "<p>Förenkla parallellkopplingen innan du använder Ohms lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.137",
@@ -93639,32 +95680,31 @@ window.BANK = [
     "id": "8.255",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "blandad serie- och parallellkoppling",
-    "poang": "(0/1/2)",
-    "t": "<p>En resistor \\(R_1=7\\,\\Omega\\) ligger i serie med en parallellgren av \\(R_2=12\\,\\Omega\\) och \\(R_3=12\\,\\Omega\\). Kopplingen ansluts till \\(18\\,\\mathrm V\\).</p><div class=\"fig smal\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"/><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₁ = 7 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₂ = 12 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₃ = 12 Ω</text></svg></div><p>Hur stor är den totala strömmen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Parallellgrenen: \\(\\dfrac{12}{2}=6\\,\\Omega\\).</p></div><div class=\"facit-stycke\"><p>Totalt: \\(7+6=13\\,\\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{18}{13}\\approx1{,}38\\,\\mathrm A\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 1,4 A</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>R₁ = 7 Ω ligger i serie med R₂ = 12 Ω och R₃ = 12 Ω som är parallellkopplade. Spänningen är 18 V. Bestäm totalströmmen. Svara i A.</p><div class=\"fig smal\"><svg width=\"520\" height=\"322.2813688212928\" viewBox=\"-13 -13 526 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"></line><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₁ = 7 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₂ = 12 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₃ = 12 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Förenkla först parallellkopplingen. Samma totalström går genom R₁ och parallellkopplingen.</p><p>\\[R_p=12\\cdot12/(12+12)\\approx6\\ \\Omega\\]</p><p>\\[I=18/(7+6)\\approx1{,}3846\\ \\mathrm A\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm ersättningsresistansen för parallellgrenen först.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Förenkla parallellkopplingen innan du använder Ohms lag.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 1.3846,
-    "tolerans": 0.03,
+    "rättSvar": 1.3846153846153846,
+    "tolerans": 0.05,
     "svarFormat": "numeriskt",
-    "svarEnhet": "A"
+    "svarEnhet": "A",
+    "manuellKomplettering": false
   },
   {
     "id": "8.141",
@@ -95312,10 +97352,10 @@ window.BANK = [
     "id": "8.153",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Daniel har ett stort lager av identiska resistorer. När han kopplar in en av resistorerna till ett batteri går strömmen I genom batteriet.</p>\n<ol><li>Hur stor ström går genom batteriet om han seriekopplar n stycken likadana resistorer? n är ett heltal.</li>\n<li>Hur stor blir strömmen om han istället parallellkopplar n stycken?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med en resistor är \\(I=U/R\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För \\(n\\) lika resistorer i serie är \\(R_s=nR\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_s=\\frac{U}{nR}=\\frac In\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För \\(n\\) lika resistorer parallellt är \\(R_p=R/n\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_p=\\frac{U}{R/n}=nI\\]</div></div><div class=\"facit-stycke\"><p>Batteriets inre resistans och strömbegränsning är försummade.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Seriekoppling ger strömmen \\(I/n\\), medan parallellkoppling idealiskt ger \\(nI\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>En spänningskälla ger samma spänning i båda fallen. Med en resistor på R går strömmen I. Låt n vara ett positivt heltal.</p><p>a) Hur stor blir totalströmmen med n sådana resistorer i serie? Uttryck svaret med I och n.</p><p>b) Hur stor blir totalströmmen med n sådana resistorer parallellt? Uttryck svaret med I och n.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong> I serie är totalresistansen nR.</p><p>\\[I_{\\text{serie}}=U/(nR)=I/n\\]</p><p><strong>b)</strong> Varje parallell gren har spänningen U och strömmen I. De n grenströmmarna adderas.</p><p>\\[I_{\\text{parallell}}=nI\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "problemlösning"
@@ -95326,28 +97366,10 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>Med en resistor är \\(I=U/R\\). För \\(n\\) lika resistorer i serie är \\(R_s=nR\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Daniel har ett stort lager av identiska resistorer. När han kopplar in en av resistorerna till ett batteri går strömmen I genom batteriet.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor ström går genom batteriet om han seriekopplar n stycken likadana resistorer? n är ett heltal.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med en resistor är \\(I=U/R\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För \\(n\\) lika resistorer i serie är \\(R_s=nR\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_s=\\frac{U}{nR}=\\frac In\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Med en resistor är \\(I=U/R\\). För \\(n\\) lika resistorer i serie är \\(R_s=nR\\).</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stor blir strömmen om han istället parallellkopplar n stycken?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För \\(n\\) lika resistorer parallellt är \\(R_p=R/n\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_p=\\frac{U}{R/n}=nI\\]</div></div><div class=\"facit-stycke\"><p>Batteriets inre resistans och strömbegränsning är försummade.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Med en resistor är \\(I=U/R\\). För \\(n\\) lika resistorer i serie är \\(R_s=nR\\).</p>",
-        "niva": "A"
-      }
-    ],
+    "ledtrad": "<p>Börja med \\(U=RI\\). Jämför sedan totalresistans eller grenströmmar.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -95361,61 +97383,62 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "C",
     "typ": "bestämma strömmen i en enskild gren i parallelldel med tre grenar, ur diagram, sökt ström",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en resistor i serie med tre parallellkopplade resistorer.</p><span class=\"fig\"><svg height=\"280\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.086 10.802 418.886 234.568\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"162\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"280\" y1=\"48\" x2=\"280\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"280\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"280\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"355\" y1=\"48\" x2=\"355\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"355\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"/><circle cx=\"355\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"/><rect x=\"270\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"280\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 200 Ω</text><rect x=\"345\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₃ = 300 Ω</text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₄ = 600 Ω</text></svg></span>\n<p>Hur stor är strömmen genom R₄?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">De tre parallellgrenarnas ersättningsresistans är</p><div class=\"facit-matte\">\\[\\frac1{R_p}=\\frac1{200}+\\frac1{300}+\\frac1{600}=\\frac1{100}\\Rightarrow R_p=100\\ \\Omega\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Med \\(R_1=100\\ \\Omega\\) i serie blir totalresistansen 200 Ω.</p><div class=\"facit-matte\">\\[I=\\frac{12}{200}\\approx0{,}06\\ \\mathrm{A}=60\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">De lika stora seriedelarna delar spänningen, så parallelldelen har 6,0 V.</p><div class=\"facit-matte\">\\[I_4=\\frac{6{,}0}{600}\\approx0{,}01\\ \\mathrm{A}=10\\ \\mathrm{mA}\\]</div><p>Kontroll: \\(30+20+10=60\\ \\mathrm{mA}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen genom \\(R_4\\) är \\(10\\ \\mathrm{mA}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Figuren visar en resistor i serie med tre parallellkopplade resistorer.</p><span class=\"fig\"><svg height=\"336.5231527420964\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.08049774169922 1.8265056610107422 414.90274810791016 268.50842475891113\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"162\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"190\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 100 Ω</text><line x1=\"280\" y1=\"48\" x2=\"280\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"280\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"280\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><line x1=\"355\" y1=\"48\" x2=\"355\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><circle cx=\"355\" cy=\"48\" r=\"3.6\" fill=\"#2B2527\"></circle><circle cx=\"355\" cy=\"210\" r=\"3.6\" fill=\"#2B2527\"></circle><rect x=\"270\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"280\" y=\"232\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₂<tspan x=\"280\" dy=\"21\">200 Ω</tspan></text><rect x=\"345\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"355\" y=\"232\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₃<tspan x=\"355\" dy=\"21\">300 Ω</tspan></text><rect x=\"420\" y=\"104\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"430\" y=\"232\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R₄<tspan x=\"430\" dy=\"21\">600 Ω</tspan></text></svg></span>\n<p>Hur stor är strömmen genom R₄?</p>",
+    "s": "<div class=\"facit-v2\"><p>De tre parallella resistanserna adderas genom sina inverser.</p><p>\\[\\begin{aligned}1/R_p&=1/200+1/300+1/600\\\\&=1/100\\end{aligned}\\]</p><p>Parallelldelen har alltså resistansen 100 Ω. Med R₁ = 100 Ω i serie blir totalresistansen 200 Ω.</p><p>\\[\\begin{aligned}I&=12/200\\\\&=0{,}060\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}U_p&=0{,}060\\cdot100\\\\&=6{,}0\\ \\mathrm V\\end{aligned}\\]</p><p>\\[\\begin{aligned}I_4&=U_p/R_4\\\\&=6{,}0/600\\\\&=0{,}010\\ \\mathrm A\\end{aligned}\\]</p><p>Strömmen genom R₄ är 10 mA.</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.01,
+    "tolerans": 0.00025,
+    "självrättning": true,
     "familjNyckelTidigare": "kopplingar__blandade_resistorkopplingar",
-    "ledtrad": "<p>De tre parallellgrenarnas ersättningsresistans är Markera vilka komponenter som verkligen ligger i serie respektive parallell och förenkla kretsen stegvis.</p>",
+    "ledtrad": "<p>Förenkla de tre parallella grenarna och beräkna deras gemensamma spänning.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
-    ]
+    ],
+    "svarEnhet": "A",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "8.256",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "blandad serie- och parallellkoppling",
-    "poang": "(0/1/2)",
-    "t": "<p>En resistor \\(R_1=4\\,\\Omega\\) ligger i serie med en parallellgren av \\(R_2=6\\,\\Omega\\) och \\(R_3=8\\,\\Omega\\). Kopplingen ansluts till \\(18\\,\\mathrm V\\).</p><div class=\"fig smal\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"/><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₁ = 4 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"/><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₂ = 6 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R₃ = 8 Ω</text></svg></div><p>Hur stor ström går genom \\(R_2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Parallellgrenen: \\(\\dfrac{6\\cdot8}{6+8}\\approx3{,}43\\,\\Omega\\).</p></div><div class=\"facit-stycke\"><p>Totalt \\(\\approx7{,}43\\,\\Omega\\) och \\(I\\approx2{,}42\\,\\mathrm A\\).</p></div><div class=\"facit-stycke\"><p>Spänningen över grenen: \\(2{,}42\\cdot3{,}43\\approx8{,}31\\,\\mathrm V\\).</p></div><div class=\"facit-stycke\"><p>Genom \\(R_2\\): \\(\\dfrac{8{,}31}{6}\\approx1{,}38\\,\\mathrm A\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 1,4 A</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>R₁ = 4 Ω ligger i serie med R₂ = 6 Ω och R₃ = 8 Ω som är parallellkopplade. Spänningen är 18 V. Bestäm strömmen genom R₂. Svara i A.</p><div class=\"fig smal\"><svg width=\"520\" height=\"322.2813688212928\" viewBox=\"-13 -13 526 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: R1 i serie med två parallellkopplade resistorer\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M60.0 60.0 L250.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M60.0 60.0 L60.0 240.0 L440.0 240.0 L440.0 60.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"44\" y=\"144\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"44\" y1=\"145\" x2=\"76\" y2=\"145\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"52\" y1=\"155\" x2=\"68\" y2=\"155\" stroke=\"#24262b\" stroke-width=\"5\"></line><text x=\"20\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">18 V</text><rect x=\"133.0\" y=\"52.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"155\" y=\"46\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₁ = 4 Ω</text><path d=\"M250.0 60.0 L250.0 30.0 L380.0 30.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M250.0 60.0 L250.0 110.0 L380.0 110.0 L380.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M380.0 60.0 L440.0 60.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"250\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"380\" cy=\"60\" r=\"3.5\" fill=\"#24262b\"></circle><rect x=\"293.0\" y=\"22.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"16\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₂ = 6 Ω</text><rect x=\"293.0\" y=\"102.0\" width=\"44\" height=\"16\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"315\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R₃ = 8 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Förenkla först parallellkopplingen. Samma totalström går genom R₁ och parallellkopplingen.</p><p>\\[R_p=6\\cdot8/(6+8)\\approx3{,}429\\ \\Omega\\]</p><p>\\[I=18/(4+3{,}429)\\approx2{,}4231\\ \\mathrm A\\]</p><p>\\[U_p=I R_p\\approx8{,}3077\\ \\mathrm V\\]</p><p>\\[I_2=U_p/6\\approx1{,}3846\\ \\mathrm A\\]</p></div>",
     "familj": "Blandade kopplingar",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm spänningen över parallellgrenen. Den är lika stor över R₂ och R₃.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Förenkla parallellkopplingen innan du använder Ohms lag.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Kretsanalys och blandade resistorkopplingar"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 1.3846,
-    "tolerans": 0.03,
+    "rättSvar": 1.3846153846153844,
+    "tolerans": 0.05,
     "svarFormat": "numeriskt",
-    "svarEnhet": "A"
+    "svarEnhet": "A",
+    "manuellKomplettering": false
   },
   {
     "id": "8.155",
@@ -95550,11 +97573,10 @@ window.BANK = [
     "id": "8.156",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "räkna om batterikapacitet till laddning, energi och drifttid, ur text, sökt energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett batteri är märkt 2,0 Ah och 3,7 V.</p>\n<ol><li>Hur stor laddning kan batteriet leverera?</li><li>Hur mycket energi motsvarar det?</li>\n<li>Hur länge driver det en apparat som drar 0,45 A?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kapaciteten 2,0 Ah motsvarar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nominella energin är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=QU=7200\\cdot3{,}7=26640\\ \\mathrm J=26{,}6\\ \\mathrm{kJ}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ideal drifttid vid 0,45 A:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{2{,}0}{0{,}45}=4{,}44\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Laddningen är \\(7200\\ \\mathrm C\\), energin \\(26{,}6\\ \\mathrm{kJ}\\), och drifttiden idealiskt \\(4{,}4\\ \\mathrm h\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett batteri har kapaciteten 2,0 Ah och spänningen 3,7 V.</p><p>a) Hur stor laddning kan batteriet ge? Svara i C.</p><p>b) Hur mycket energi kan batteriet ge? Svara i kJ.</p><p>c) Hur länge räcker batteriet vid strömmen 450 mA? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot7200=26640{,}0\\ \\mathrm J\\]</p><p>\\[E=26{,}64\\ \\mathrm{kJ}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}45\\approx4{,}444\\ \\mathrm h\\]</p></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -95563,28 +97585,28 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       7200,
-      26.6,
-      null
+      26.64,
+      4.444444444444445
     ],
     "tolerans": [
-      108,
-      0.399,
-      null
+      180.0,
+      0.666,
+      0.11111111111111112
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "C",
       "kJ",
-      null
+      "h"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -95592,41 +97614,71 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>En amperetimme är strömmen 1 A under 3 600 s.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteri är märkt 2,0 Ah och 3,7 V.</p>",
+    "spelIntro": "<p>Ett batteri har kapaciteten 2,0 Ah och spänningen 3,7 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor laddning kan batteriet leverera?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kapaciteten 2,0 Ah motsvarar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\ \\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+        "fraga": "Ett batteri har kapaciteten 2 Ah. Hur stor laddning motsvarar detta? Svara i C.",
+        "s": "<div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7200,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "C",
+        "tolerans": 180.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>En amperetimme är strömmen 1 A under 3 600 s.</p>",
+        "t": "<p>Ett batteri har kapaciteten 2 Ah. Hur stor laddning motsvarar detta? Svara i C.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den nominella energin är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=QU=7200\\cdot3{,}7=26640\\ \\mathrm J=26{,}6\\ \\mathrm{kJ}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}6\\ \\mathrm{kJ}\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett batteri kan ge laddningen 7 200 C vid spänningen 3,7 V. Hur mycket energi kan det ge? Svara i kJ.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot7200=26640{,}0\\ \\mathrm J\\]</p><p>\\[E=26{,}64\\ \\mathrm{kJ}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 26.64,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kJ",
+        "tolerans": 0.666,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(E=UQ\\).</p>",
+        "t": "<p>Ett batteri kan ge laddningen 7 200 C vid spänningen 3,7 V. Hur mycket energi kan det ge? Svara i kJ.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur länge driver det en apparat som drar 0,45 A?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ideal drifttid vid 0,45 A:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{2{,}0}{0{,}45}=4{,}44\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}44\\ \\mathrm h\\).</p></div>",
-        "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett batteri har kapaciteten 2,0 Ah och driver strömmen 450 mA. Hur länge räcker det? Svara i timmar.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}45\\approx4{,}444\\ \\mathrm h\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.444444444444445,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.11111111111111112,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv strömmen i A. Ah dividerat med A ger timmar.</p>",
+        "t": "<p>Ett batteri har kapaciteten 2,0 Ah och driver strömmen 450 mA. Hur länge räcker det? Svara i timmar.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "kretsar"
   },
   {
@@ -96360,339 +98412,635 @@ window.BANK = [
     "id": "8.162",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Ett bilbatteri har ems 12,6 V. Den inre resistansen är 0,012 Ω vid 20 °C men stiger till 0,030 Ω vid −20 °C. Startmotorn har resistansen 0,020 Ω.</p>\n<ol><li>Hur stor blir startströmmen vid de två temperaturerna?</li>\n<li>Vilken polspänning ligger över startmotorn i de två fallen?</li>\n<li>Förklara varför bilen inte startar en kall morgon.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Startmotorn och batteriets inre resistans ligger i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{20}=\\frac{12{,}6}{0{,}020+0{,}012}=393{,}8\\ \\mathrm A\\]\\[I_{-20}=\\frac{12{,}6}{0{,}020+0{,}030}=252\\ \\mathrm A\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Polspänningen är spänningen över startmotorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_{20}=I_{20}R=393{,}8\\cdot0{,}020=7{,}88\\ \\mathrm V\\]\\[U_{-20}=252\\cdot0{,}020=5{,}04\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Motoreffekten sjunker kraftigt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{20}=I_{20}^2R=3{,}10\\ \\mathrm{kW}\\]\\[P_{-20}=I_{-20}^2R=1{,}27\\ \\mathrm{kW}\\]</div></div><div class=\"facit-stycke\"><p>Samtidigt är motoroljan trögare och förbränningsmotorn kräver större startmoment i kyla.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Startströmmen blir cirka \\(394\\ \\mathrm A\\) vid 20 °C och \\(252\\ \\mathrm A\\) vid −20 °C. Polspänningen sjunker från \\(7{,}88\\) till \\(5{,}04\\ \\mathrm V\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett bilbatteri har ems 12,6 V. Dess inre resistans är 0,012 Ω vid 20 °C och 0,030 Ω vid −20 °C. Startmotorns resistans är 0,020 Ω.</p><p>a) Bestäm strömmen vid 20 °C respektive −20 °C. Svara i A.</p><p>b) Bestäm spänningen över startmotorn vid båda temperaturerna. Svara i V.</p><p>c) Förklara varför det kan vara svårare att starta bilen vid −20 °C.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Inre resistans adderas till startmotorns resistans.</p><p>\\[\\begin{aligned}I_{20}&=12{,}6/(0{,}020+0{,}012)\\\\&=393{,}75\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}I_{-20}&=12{,}6/(0{,}020+0{,}030)\\\\&=252\\ \\mathrm A\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}U_{20}&=393{,}75\\cdot0{,}020\\\\&=7{,}875\\ \\mathrm V\\end{aligned}\\]</p><p>\\[\\begin{aligned}U_{-20}&=252\\cdot0{,}020\\\\&=5{,}04\\ \\mathrm V\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Batteriets högre inre resistans i kyla ger mindre ström och lägre spänning över startmotorn. Motorn får då mindre effekt. Det kan göra starten svårare; uppgiften anger ingen gräns för när bilen faktiskt kan starta.</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        393.75,
+        252
+      ],
+      [
+        7.875,
+        5.04
+      ],
+      null
+    ],
+    "tolerans": [
+      [
+        9.84375,
+        6.300000000000001
+      ],
+      [
+        0.197,
+        0.126
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett bilbatteri har ems 12,6 V. Den inre resistansen är 0,012 Ω vid 20 °C men stiger till 0,030 Ω vid −20 °C. Startmotorn har resistansen 0,020 Ω.</p>",
+    "spelIntro": "<p>Ett bilbatteri har ems 12,6 V. Dess inre resistans är 0,012 Ω vid 20 °C och 0,030 Ω vid −20 °C. Startmotorns resistans är 0,020 Ω.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor blir startströmmen vid de två temperaturerna?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Startmotorn och batteriets inre resistans ligger i serie.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{20}=\\frac{12{,}6}{0{,}020+0{,}012}=393{,}8\\ \\mathrm A\\]\\[I_{-20}=\\frac{12{,}6}{0{,}020+0{,}030}=252\\ \\mathrm A\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(252\\ \\mathrm A\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett batteri har ems 12,6 V. Dess inre resistans är 0,012 Ω vid 20 °C och 0,030 Ω vid −20 °C. Startmotorns resistans är 0,020 Ω. Bestäm strömmen i båda fallen. Svara i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}I_{20}&=12{,}6/(0{,}020+0{,}012)\\\\&=393{,}75\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}I_{-20}&=12{,}6/(0{,}020+0{,}030)\\\\&=252\\ \\mathrm A\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          393.75,
+          252
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "A",
+          "A"
+        ],
+        "tolerans": [
+          9.84375,
+          6.300000000000001
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 12,6 V. Dess inre resistans är 0,012 Ω vid 20 °C och 0,030 Ω vid −20 °C. Startmotorns resistans är 0,020 Ω. Bestäm strömmen i båda fallen. Svara i A.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "20 °C",
+          "−20 °C"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Vilken polspänning ligger över startmotorn i de två fallen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Polspänningen är spänningen över startmotorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_{20}=I_{20}R=393{,}8\\cdot0{,}020=7{,}88\\ \\mathrm V\\]\\[U_{-20}=252\\cdot0{,}020=5{,}04\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}04\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En startmotor har resistansen 0,020 Ω. Strömmen är 394 A vid 20 °C och 252 A vid −20 °C. Bestäm spänningen över startmotorn i båda fallen. Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}U_{20}&=394\\cdot0{,}020\\\\&=7{,}88\\ \\mathrm V\\end{aligned}\\]</p><p>\\[\\begin{aligned}U_{-20}&=252\\cdot0{,}020\\\\&=5{,}04\\ \\mathrm V\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          7.88,
+          5.04
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "V",
+          "V"
+        ],
+        "tolerans": [
+          0.197,
+          0.126
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En startmotor har resistansen 0,020 Ω. Strömmen är 394 A vid 20 °C och 252 A vid −20 °C. Bestäm spänningen över startmotorn i båda fallen. Svara i V.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "20 °C",
+          "−20 °C"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Förklara varför bilen inte startar en kall morgon.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Motoreffekten sjunker kraftigt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{20}=I_{20}^2R=3{,}10\\ \\mathrm{kW}\\]\\[P_{-20}=I_{-20}^2R=1{,}27\\ \\mathrm{kW}\\]</div></div><div class=\"facit-stycke\"><p>Samtidigt är motoroljan trögare och förbränningsmotorn kräver större startmoment i kyla.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}27\\ \\mathrm{kW}\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Varför kan det bli svårare att starta en bil när batteriets inre resistans ökar i kyla?",
+        "s": "<div class=\"facit-v2\"><p>Batteriets högre inre resistans i kyla ger mindre ström och lägre spänning över startmotorn. Motorn får då mindre effekt. Det kan göra starten svårare; uppgiften anger ingen gräns för när bilen faktiskt kan starta.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Startmotorn får mindre ström och mindre effekt.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Startmotorn får mindre ström och mindre effekt.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Startmotorn får alltid större ström.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Batteriets inre resistans påverkar inte startmotorn.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Varför kan det bli svårare att starta en bil när batteriets inre resistans ökar i kyla?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      [
+        "A",
+        "A"
+      ],
+      [
+        "V",
+        "V"
+      ],
+      null
     ]
   },
   {
     "id": "8.239",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "bestämma inre resistans från två belastningsmätningar",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri belastas på två olika sätt. Vid strömmen \\(1{,}5\\,\\mathrm A\\) är polspänningen \\(11{,}6\\,\\mathrm V\\), och vid \\(3{,}5\\,\\mathrm A\\) är polspänningen \\(10{,}8\\,\\mathrm V\\). Anta modellen \\(U=\\mathcal E-Ir\\). Bestäm batteriets inre resistans.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma emk gäller i båda mätningarna.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Subtrahera ekvationerna så elimineras emk:n.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[11{,}6=\\mathcal E-1{,}5r,\\qquad10{,}8=\\mathcal E-3{,}5r\\]\\[0{,}8=2{,}0r\\Rightarrow r=0{,}40\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\,\\Omega\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett batteri har polspänningen 11,6 V vid strömmen 1,5 A och 10,8 V vid 3,5 A. Använd modellen \\(U=\\mathcal E-rI\\).</p><p>Bestäm batteriets inre resistans i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Strömmen ökar med 3,5 − 1,5 = 2,0 A. Polspänningen minskar samtidigt med 11,6 − 10,8 = 0,80 V. Ems är samma i båda mätningarna, så förändringen kommer från rI.</p><p>\\[r=\\frac{11{,}6-10{,}8}{3{,}5-1{,}5}=0{,}40\\ \\Omega\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "ems__emk_polspanning_och_inre_resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.39999999999999947,
-    "tolerans": 0.00719999999999999,
+    "tolerans": 0.009999999999999988,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv en ekvation för varje mätning och eliminera \\(\\mathcal E\\).</p>",
+    "ledtrad": "<p>Jämför hur mycket strömmen ändras och hur mycket polspänningen ändras.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.240",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "verkningsgrad för källa med inre resistans",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) och inre resistans \\(0{,}45\\,\\Omega\\) driver en resistor \\(5\\,\\Omega\\). Definiera den elektriska verkningsgraden som effekten i den yttre resistorn dividerad med den totala effekt som batteriets emk levererar. Bestäm verkningsgraden.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,45 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"412\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R = 5 Ω</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Både nyttig effekt och total effekt innehåller samma strömfaktor.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kvoten förenklas till \\(R/(R+r)\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\eta=\\frac{UI}{\\mathcal EI}=\\frac{R}{R+r}=\\frac{5}{5+0{,}45}=0{,}9174\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(91{,}74\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri med inre resistansen 0,45 Ω driver en resistor på 5,0 Ω.</p><p>Hur många procent av batteriets elektriska effekt utvecklas i den yttre resistorn?</p>",
+    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. Deras effekter är I²R och I²r. Strömfaktorn tar därför ut sig när andelen bildas.</p><p>\\[\\eta=\\frac{I^2R}{I^2(R+r)}=\\frac{R}{R+r}\\]</p><p>\\[100\\cdot\\frac{5}{5+0{,}45}\\approx91{,}74\\ \\%\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "numeriskt",
-    "rättSvar": 91.743119,
-    "tolerans": 1.651376,
+    "rättSvar": 91.74311926605505,
+    "tolerans": 2.293577981651376,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv både nyttig effekt och emk-effekt med samma ström och förenkla kvoten.</p>",
+    "ledtrad": "<p>Vilken andel av summan I²R + I²r hör till den yttre resistorn?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.163",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Ett batteri mäts vid två olika belastningar. Vid strömmen 0,30 A är polspänningen 1,45 V. Vid 0,90 A är den 1,30 V.</p>\n<ol><li>Bestäm batteriets inre resistans.</li><li>Bestäm batteriets ems.</li>\n<li>Vilken polspänning väntas vid 1,5 A?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För ett batteri under urladdning gäller \\(U=\\mathcal E-rI\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Subtrahera mätningarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}45-1{,}30=r(0{,}90-0{,}30)\\Rightarrow r=0{,}250\\ \\Omega\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in en mätpunkt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mathcal E=U+rI=1{,}45+0{,}250\\cdot0{,}30=1{,}525\\ \\mathrm V\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 1,5 A förutsäger den linjära modellen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=1{,}525-0{,}250\\cdot1{,}5=1{,}150\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den inre resistansen är \\(0{,}250\\ \\Omega\\), emsen \\(1{,}525\\ \\mathrm V\\), och vid 1,5 A blir polspänningen \\(1{,}15\\ \\mathrm V\\).</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>Ett batteri har polspänningen 1,45 V vid 0,30 A och 1,30 V vid 0,90 A. Använd modellen \\(U=\\mathcal E-rI\\).</p><p>a) Bestäm den inre resistansen i Ω.</p><p>b) Bestäm batteriets ems i V.</p><p>c) Bestäm polspänningen vid 1,5 A. Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Polspänningen minskar med 0,15 V när strömmen ökar med 0,60 A.</p><p>\\[\\begin{aligned}r&=(1{,}45-1{,}30)/(0{,}90-0{,}30)\\\\&=0{,}25\\ \\Omega\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\mathcal E&=U+rI\\\\&=1{,}45+0{,}25\\cdot0{,}30\\\\&=1{,}525\\ \\mathrm V\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}U&=1{,}525-0{,}25\\cdot1{,}5\\\\&=1{,}150\\ \\mathrm V\\end{aligned}\\]</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "modellering",
+      "procedur",
       "problemlösning"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.25,
+      1.525,
+      1.15
+    ],
+    "tolerans": [
+      0.00625,
+      0.05,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+    "ledtrad": "<p>Jämför förändringen i polspänning med förändringen i ström.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteri mäts vid två olika belastningar. Vid strömmen 0,30 A är polspänningen 1,45 V. Vid 0,90 A är den 1,30 V.</p>",
+    "spelIntro": "<p>Ett batteri har polspänningen 1,45 V vid 0,30 A och 1,30 V vid 0,90 A. Använd modellen \\(U=\\mathcal E-rI\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm batteriets inre resistans.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För ett batteri under urladdning gäller \\(U=\\mathcal E-rI\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Subtrahera mätningarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}45-1{,}30=r(0{,}90-0{,}30)\\Rightarrow r=0{,}250\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+        "fraga": "Ett batteris polspänning är 1,45 V vid 0,30 A och 1,30 V vid 0,90 A. Bestäm den inre resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Polspänningen minskar med 0,15 V när strömmen ökar med 0,60 A.</p><p>\\[\\begin{aligned}r&=(1{,}45-1{,}30)/(0{,}90-0{,}30)\\\\&=0{,}25\\ \\Omega\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.25,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.00625,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Jämför förändringen i polspänning med förändringen i ström.</p>",
+        "t": "<p>Ett batteris polspänning är 1,45 V vid 0,30 A och 1,30 V vid 0,90 A. Bestäm den inre resistansen i Ω.</p>",
+        "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm batteriets ems.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in en mätpunkt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mathcal E=U+rI=1{,}45+0{,}250\\cdot0{,}30=1{,}525\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}525\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett batteri har inre resistansen 0,25 Ω. Polspänningen är 1,45 V när strömmen är 0,30 A. Bestäm ems i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\mathcal E&=U+rI\\\\&=1{,}45+0{,}25\\cdot0{,}30\\\\&=1{,}525\\ \\mathrm V\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.525,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har inre resistansen 0,25 Ω. Polspänningen är 1,45 V när strömmen är 0,30 A. Bestäm ems i V.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vilken polspänning väntas vid 1,5 A?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 1,5 A förutsäger den linjära modellen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=1{,}525-0{,}250\\cdot1{,}5=1{,}150\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}150\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Ett batteri har ems 1,525 V och inre resistans 0,25 Ω. Bestäm polspänningen vid 1,5 A. Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}U&=1{,}525-0{,}25\\cdot1{,}5\\\\&=1{,}150\\ \\mathrm V\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.15,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 1,525 V och inre resistans 0,25 Ω. Bestäm polspänningen vid 1,5 A. Svara i V.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "V",
+      "V"
     ]
   },
   {
     "id": "8.241",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "bestämma inre resistans från kortslutningsström",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri har emk \\(9\\,\\mathrm V\\). Vid ideal kortslutning skulle strömmen bli \\(6\\,\\mathrm A\\). Bestäm batteriets inre resistans enligt den enkla modellen med konstant \\(r\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid kortslutning är den yttre resistansen ungefär noll, så hela emk ligger över den inre resistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{ks}=\\frac{\\mathcal E}{r}\\Rightarrow r=\\frac{9}{6}=1,5\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\,\\Omega\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri har ems 9,0 V. I batterimodellen blir kortslutningsströmmen 6,0 A.</p><p>Bestäm den inre resistansen i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Vid kortslutning ligger hela ems över den inre resistansen.</p><p>\\[r=\\mathcal E/I_k\\]</p><p>\\[r=9{,}0/6{,}0=1{,}5\\ \\Omega\\]</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.027,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>I kortslutningsmodellen återstår i princip bara batteriets inre resistans.</p>",
+    "ledtrad": "<p>Använd Ohms lag för den inre resistansen, med hela ems som spänning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 4,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.164",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "förklara varför polspänningen sjunker när fler lampor kopplas in, ur text, sökt effekt",
-    "poang": "(0/2/1)",
-    "t": "<p>Ett batteri har ems 4,5 V och inre resistansen 1,2 Ω. Till batteriet kopplas en, två eller tre likadana lampor parallellt. Varje lampa har resistansen 12 Ω, som kan antas vara konstant.</p><div class=\"fig smal\"><svg width=\"540\" height=\"300\" viewBox=\"0 0 540 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med 3 parallellkopplade lampor\"><rect x=\"1\" y=\"1\" width=\"538\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M150.0 50.0 L460.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M150.0 250.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M150.0 50.0 L150.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"126\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"134\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"134\" y1=\"105\" x2=\"166\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"142\" y1=\"115\" x2=\"158\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"142.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"77\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 4,5 V</text><text x=\"77\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 1,2 Ω</text><path d=\"M280.0 50.0 L280.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M270.8 140.8 L289.2 159.2 M270.8 159.2 L289.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"280\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"280\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M370.0 50.0 L370.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"370\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M360.8 140.8 L379.2 159.2 M360.8 159.2 L379.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"370\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"370\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M460.0 50.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"460\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M450.8 140.8 L469.2 159.2 M450.8 159.2 L469.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><text x=\"370\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">Varje lampa: 12 Ω</text></svg></div><p><em>Figuren visar fallet med tre lampor.</em></p>\n<ol><li>Vilken polspänning och vilken effekt per lampa fås med en lampa?</li>\n<li>Hur ändras polspänningen med två respektive tre lampor?</li>\n<li>Varför lyser varje lampa svagare ju fler som kopplas in?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med en lampa är den yttre resistansen 12 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{4{,}5}{12+1{,}2}=0{,}3409\\ \\mathrm A\\]\\[U_1=I_1\\cdot12=4{,}091\\ \\mathrm V\\]\\[P_1=\\frac{U_1^2}{12}=1{,}395\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två parallella lampor ger 6,0 Ω och tre ger 4,0 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_2=4{,}5\\frac{6{,}0}{6{,}0+1{,}2}=3{,}75\\ \\mathrm V,\\qquad P_{\\mathrm{per},2}=\\frac{3{,}75^2}{12}=1{,}172\\ \\mathrm W\\]\\[U_3=4{,}5\\frac{4{,}0}{4{,}0+1{,}2}=3{,}462\\ \\mathrm V,\\qquad P_{\\mathrm{per},3}=0{,}999\\ \\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fler parallellgrenar sänker den yttre resistansen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen ökar och det inre spänningsfallet \\(rI\\) blir större, så polspänningen och effekten per lampa sjunker.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Polspänningen blir \\(4{,}09\\), \\(3{,}75\\) och \\(3{,}46\\ \\mathrm V\\) för en, två och tre lampor; effekten per lampa sjunker från \\(1{,}39\\) till \\(1{,}17\\) och \\(1{,}00\\ \\mathrm W\\).</p></div>",
+    "niva": "C",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett batteri har ems 4,5 V och inre resistans 1,2 Ω. Varje lampa har resistansen 12 Ω. Lamporna kopplas parallellt.</p><div class=\"fig smal\"><svg width=\"520\" height=\"299.5053003533569\" viewBox=\"-13 -13 566 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med 3 parallellkopplade lampor\"><rect x=\"1\" y=\"1\" width=\"538\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M150.0 50.0 L460.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M150.0 250.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M150.0 50.0 L150.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"126\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"150\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"134\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"134\" y1=\"105\" x2=\"166\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"142\" y1=\"115\" x2=\"158\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"142.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"77\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 4,5 V</text><text x=\"77\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 1,2 Ω</text><path d=\"M280.0 50.0 L280.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"280\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M270.8 140.8 L289.2 159.2 M270.8 159.2 L289.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"280\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"280\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M370.0 50.0 L370.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"370\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M360.8 140.8 L379.2 159.2 M360.8 159.2 L379.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"370\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"370\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M460.0 50.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"460\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M450.8 140.8 L469.2 159.2 M450.8 159.2 L469.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><text x=\"370\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Varje lampa: 12 Ω</text></svg></div><p>a) Med en enda lampa: bestäm spänningen i V och effekten i W.</p><p>b) Bestäm polspänningen med två respektive tre parallella lampor. Svara i V.</p><p>c) Förklara varför varje lampa lyser svagare när fler kopplas parallellt.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=4{,}5/(12+1{,}2)\\approx0{,}341\\ \\mathrm A\\]</p><p>\\[U_1=12I\\approx4{,}09\\ \\mathrm V\\]</p><p>\\[P_1=U_1^2/12\\approx1{,}39\\ \\mathrm W\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Två lampor parallellt har ersättningsresistansen 6,0 Ω; tre har 4,0 Ω.</p><p>\\[U_2=4{,}5\\cdot6{,}0/(6{,}0+1{,}2)=3{,}75\\ \\mathrm V\\]</p><p>\\[U_3=4{,}5\\cdot4{,}0/(4{,}0+1{,}2)\\approx3{,}46\\ \\mathrm V\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Fler parallella lampor ger större totalström. Då ökar spänningsfallet inne i batteriet och polspänningen sjunker. Varje lampa får lägre spänning och utvecklar mindre effekt.</p></div></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur",
-      "resonemang"
+      "problemlösning"
     ],
     "familjNyckel": "ems__emk_och_inre_resistans",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        4.090909090909091,
+        1.3946280991735538
+      ],
+      [
+        3.75,
+        3.4615384615384612
+      ],
+      null
+    ],
+    "tolerans": [
+      [
+        0.10227272727272728,
+        0.05
+      ],
+      [
+        0.09375,
+        0.08653846153846154
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett batteri har ems 4,5 V och inre resistansen 1,2 Ω. Till batteriet kopplas en, två eller tre likadana lampor parallellt. Varje lampa har resistansen 12 Ω, som kan antas vara konstant.</p><div class=\"fig smal\"><svg width=\"540\" height=\"300\" viewBox=\"0 0 540 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med 3 parallellkopplade lampor\"><rect x=\"1\" y=\"1\" width=\"538\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M150.0 50.0 L460.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M150.0 250.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M150.0 50.0 L150.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"126\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"134\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"134\" y1=\"105\" x2=\"166\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"142\" y1=\"115\" x2=\"158\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"142.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"77\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 4,5 V</text><text x=\"77\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 1,2 Ω</text><path d=\"M280.0 50.0 L280.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M270.8 140.8 L289.2 159.2 M270.8 159.2 L289.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"280\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"280\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M370.0 50.0 L370.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"370\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M360.8 140.8 L379.2 159.2 M360.8 159.2 L379.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><circle cx=\"370\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"/><circle cx=\"370\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M460.0 50.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"460\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><path d=\"M450.8 140.8 L469.2 159.2 M450.8 159.2 L469.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"/><text x=\"370\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">Varje lampa: 12 Ω</text></svg></div><p><em>Figuren visar fallet med tre lampor.</em></p>",
+    "spelIntro": "<p>Ett batteri har ems 4,5 V och inre resistans 1,2 Ω. Varje lampa har resistansen 12 Ω. Lamporna kopplas parallellt.</p><div class=\"fig smal\"><svg width=\"520\" height=\"299.5053003533569\" viewBox=\"-13 -13 566 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med 3 parallellkopplade lampor\"><rect x=\"1\" y=\"1\" width=\"538\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M150.0 50.0 L460.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M150.0 250.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M150.0 50.0 L150.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"126\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"150\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"134\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"134\" y1=\"105\" x2=\"166\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"142\" y1=\"115\" x2=\"158\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"142.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"77\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 4,5 V</text><text x=\"77\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 1,2 Ω</text><path d=\"M280.0 50.0 L280.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"280\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M270.8 140.8 L289.2 159.2 M270.8 159.2 L289.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"280\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"280\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M370.0 50.0 L370.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"370\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M360.8 140.8 L379.2 159.2 M360.8 159.2 L379.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><circle cx=\"370\" cy=\"50\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"370\" cy=\"250\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M460.0 50.0 L460.0 250.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"460\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><path d=\"M450.8 140.8 L469.2 159.2 M450.8 159.2 L469.2 140.8\" stroke=\"#24262b\" stroke-width=\"1.8\"></path><text x=\"370\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">Varje lampa: 12 Ω</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken polspänning och vilken effekt per lampa fås med en lampa?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med en lampa är den yttre resistansen 12 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_1=\\frac{4{,}5}{12+1{,}2}=0{,}3409\\ \\mathrm A\\]\\[U_1=I_1\\cdot12=4{,}091\\ \\mathrm V\\]\\[P_1=\\frac{U_1^2}{12}=1{,}395\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}395\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En enda lampa på 12 Ω kopplas till ett batteri med ems 4,5 V och inre resistans 1,2 Ω. Bestäm spänningen över lampan och dess effekt.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=4{,}5/(12+1{,}2)\\approx0{,}341\\ \\mathrm A\\]</p><p>\\[U=12I\\approx4{,}09\\ \\mathrm V\\]</p><p>\\[P=U^2/12\\approx1{,}39\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          4.090909090909091,
+          1.3946280991735538
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "V",
+          "W"
+        ],
+        "tolerans": [
+          0.10227272727272728,
+          0.05
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>En enda lampa på 12 Ω kopplas till ett batteri med ems 4,5 V och inre resistans 1,2 Ω. Bestäm spänningen över lampan och dess effekt.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Spänning",
+          "Effekt"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur ändras polspänningen med två respektive tre lampor?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två parallella lampor ger 6,0 Ω och tre ger 4,0 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_2=4{,}5\\frac{6{,}0}{6{,}0+1{,}2}=3{,}75\\ \\mathrm V,\\qquad P_{\\mathrm{per},2}=\\frac{3{,}75^2}{12}=1{,}172\\ \\mathrm W\\]\\[U_3=4{,}5\\frac{4{,}0}{4{,}0+1{,}2}=3{,}462\\ \\mathrm V,\\qquad P_{\\mathrm{per},3}=0{,}999\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}999\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett batteri har ems 4,5 V och inre resistans 1,2 Ω. Två lampor parallellt har ersättningsresistansen 6,0 Ω; tre har 4,0 Ω. Bestäm polspänningen i båda fallen. Svara i V.",
+        "s": "<div class=\"facit-v2\"><p>Beräkna totalströmmen i varje fall och dra bort det inre spänningsfallet.</p><p>\\[U_2=4{,}5\\cdot6{,}0/(6{,}0+1{,}2)=3{,}75\\ \\mathrm V\\]</p><p>\\[U_3=4{,}5\\cdot4{,}0/(4{,}0+1{,}2)\\approx3{,}46\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          3.75,
+          3.4615384615384612
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "V",
+          "V"
+        ],
+        "tolerans": [
+          0.09375,
+          0.08653846153846154
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 4,5 V och inre resistans 1,2 Ω. Två lampor parallellt har ersättningsresistansen 6,0 Ω; tre har 4,0 Ω. Bestäm polspänningen i båda fallen. Svara i V.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Två lampor",
+          "Tre lampor"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Varför lyser varje lampa svagare ju fler som kopplas in?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fler parallellgrenar sänker den yttre resistansen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen ökar och det inre spänningsfallet \\(rI\\) blir större, så polspänningen och effekten per lampa sjunker.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Modellera batteriet som en ideal emk \\(\\mathcal E\\) i serie med den inre resistansen \\(r\\). Vid urladdning gäller polspänningen \\(U=\\mathcal E-Ir\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Ett batteri har inre resistans. Varför kan varje lampa lysa svagare när fler lampor kopplas parallellt till batteriet?",
+        "s": "<div class=\"facit-v2\"><p>Fler parallella lampor ger större totalström. Då ökar spänningsfallet inne i batteriet och polspänningen sjunker. Varje lampa får lägre spänning och utvecklar mindre effekt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Större totalström ger större inre spänningsfall och lägre polspänning.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Större totalström ger större inre spänningsfall och lägre polspänning.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Polspänningen ökar alltid med antalet lampor.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Det går ingen ström genom parallella lampor.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 3,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har inre resistans. Varför kan varje lampa lysa svagare när fler lampor kopplas parallellt till batteriet?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      [
+        "V",
+        "W"
+      ],
+      [
+        "V",
+        "V"
+      ],
+      null
     ]
   },
   {
     "id": "8.242",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "effektfördelning mellan inre och yttre resistans",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri har inre resistansen \\(0{,}60\\,\\Omega\\) och är kopplat till en yttre resistor \\(R\\). Hur stor ska \\(R\\) vara för att effektförlusten i batteriets inre resistans ska vara \\(20\\,\\%\\) av effekten i den yttre resistorn?</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"102\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,60 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom den inre och den yttre resistansen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför kan \\(I^2\\) förkortas bort i effektkvoten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{P_r}{P_R}=\\frac{I^2r}{I^2R}=\\frac rR=0{,}20\\]\\[R=\\frac{0{,}60}{0{,}20}=3,0\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\,\\Omega\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett batteri har inre resistansen 0,60 Ω och driver en yttre resistor.</p><p>Vilken yttre resistans behövs för att värmeeffekten inne i batteriet ska vara 20 % av effekten i den yttre resistorn? Svara i Ω.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"102\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,60 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. I effektkvoten kan därför I² förkortas bort.</p><p>\\[\\frac{P_r}{P_R}=\\frac{I^2r}{I^2R}=\\frac rR=0{,}20\\]</p><p>\\[R=r/0{,}20=0{,}60/0{,}20=3{,}0\\ \\Omega\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "ems__emk_polspanning_och_inre_resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.9999999999999996,
-    "tolerans": 0.053999999999999986,
+    "rättSvar": 3,
+    "tolerans": 0.07500000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför \\(I^2r\\) och \\(I^2R\\). Strömmen är densamma i båda.</p>",
+    "ledtrad": "<p>Skriv effekterna som I²r och I²R. Vilken faktor är gemensam?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "EMK och inre resistans"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.243",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "verkningsgrad för källa med inre resistans",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett batteri med emk \\(12\\,\\mathrm V\\) har inre resistansen \\(0{,}4\\,\\Omega\\). Verkningsgraden definieras som effekten i den yttre resistorn dividerad med den totala effekt som batteriets emk levererar.</p><div class=\"fig smal\"><svg width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"/><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"/><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"/><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"72\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">ε = 12 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">r = 0,4 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">R</text></svg></div><p>Hur stor ska den yttre resistansen \\(R\\) vara för att verkningsgraden ska bli \\(85\\,\\%\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma ström går genom \\(R\\) och \\(r\\), så \\(\\eta=\\dfrac{RI^2}{(R+r)I^2}=\\dfrac{R}{R+r}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{R}{R+0{,}4}=0{,}85\\Rightarrow R=2{,}27\\,\\Omega\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,27 Ω</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett batteri har inre resistansen 0,40 Ω och driver en yttre resistor.</p><p>Vilken yttre resistans behövs för att 85 % av batteriets elektriska effekt ska utvecklas i den yttre resistorn? Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. Den yttre effektandelen blir därför \\(R/(R+r)\\).</p><p>\\[\\frac{R}{R+0{,}40}=0{,}85\\]</p><p>Multiplicera med nämnaren och samla R-termerna.</p><p>\\[R=0{,}85R+0{,}34\\]</p><p>\\[0{,}15R=0{,}34\\]</p><p>\\[R=0{,}34/0{,}15\\approx2{,}27\\ \\Omega\\]</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv verkningsgraden med R och r. Strömmen tar ut sig.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "ledtrad": "<p>Skriv effektandelen med R och r och lös ekvationen. Ems behövs inte.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "ems",
     "familjTidigare": [
       "Elektrisk energi, effekt och batterier"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 2.26666666667,
-    "tolerans": 0.02,
+    "rättSvar": 2.266666666666667,
+    "tolerans": 0.05666666666666668,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Ω"
+    "svarEnhet": "Ω",
+    "manuellKomplettering": false
   },
   {
     "id": "8.165",
@@ -109096,30 +111444,29 @@ window.BANK = [
     "id": "8.202",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "skilja elektrisk effekt från energi",
-    "poang": "(0/1/2)",
-    "t": "<p>En apparat på \\(80\\,\\mathrm W\\) används \\(5\\) timmar. Bestäm energin i kWh.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">kW är en effektenhet, medan kWh är effekt multiplicerad med tid och därför en energienhet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}08\\cdot5=0,4\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}4\\ \\mathrm{kWh}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En lampa har effekten 80 W och lyser i 5,0 timmar. Hur mycket energi använder den? Svara i kWh.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=0{,}080\\cdot5{,}0=0{,}40\\ \\mathrm{kWh}\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 0.0072,
+    "tolerans": 0.010000000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Multiplicera effekt i kW med tid i timmar för att få kWh.</p>",
+    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "kWh",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.177",
@@ -109177,30 +111524,29 @@ window.BANK = [
     "id": "8.203",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "härleda och använda P=U²/R",
-    "poang": "(0/1/2)",
-    "t": "<p>En resistor med resistansen \\(7\\,\\Omega\\) ansluts direkt till en ideal \\(12\\,\\mathrm V\\)-källa. Bestäm effekten i resistorn utan att först räkna ut strömmen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kombinera \\(P=UI\\) med Ohms lag \\(I=U/R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{U^2}{R}=\\frac{12^2}{7}=20{,}57\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20{,}57\\ \\mathrm W\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En resistor med resistansen 7,0 Ω ansluts till 12 V. Vilken effekt utvecklas i resistorn? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=U^2/R=12^2/7{,}0\\approx20{,}6\\ \\mathrm W\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 20.571429,
-    "tolerans": 0.370286,
+    "rättSvar": 20.571428571428573,
+    "tolerans": 0.5142857142857143,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "traningsniva": 4,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "2.151",
@@ -118767,9 +121113,9 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En elektrisk apparat är ansluten till 230 V och strömmen genom apparaten är 1,8 A.</p><p>Bestäm apparatens effekt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-tolkning\"><strong>Tolkning:</strong> Produkten \\(UI\\) anger hur mycket elektrisk energi som omvandlas per sekund, alltså effekten.</p></div></div><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektrisk effekt ges av \\(P=UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=230\\cdot1{,}8=414\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(414\\,\\mathrm W\\).</p></div></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En apparat ansluts till 230 V och drar 1,8 A. Vilken effekt har den? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=UI=230\\cdot1{,}8=414\\ \\mathrm W\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -118777,26 +121123,27 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 414,
-    "tolerans": 6.21,
+    "tolerans": 10.350000000000001,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.184",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En elektrisk apparat är ansluten till 12 V och strömmen genom apparaten är 4,5 A.</p><p>Bestäm apparatens effekt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-tolkning\"><strong>Tolkning:</strong> Produkten \\(UI\\) anger hur mycket elektrisk energi som omvandlas per sekund, alltså effekten.</p></div></div><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektrisk effekt ges av \\(P=UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=12\\cdot4{,}5=54\\,\\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\,\\mathrm W\\).</p></div></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En apparat ansluts till 12 V och drar 4,5 A. Vilken effekt har den? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=UI=12\\cdot4{,}5=54\\ \\mathrm W\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -118804,55 +121151,55 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 54,
-    "tolerans": 0.8099999999999999,
+    "tolerans": 1.35,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "ledtrad": "<p>Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\). Energin under tiden \\(t\\) är \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.205",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "skilja elektrisk effekt från energi",
-    "poang": "(0/1/2)",
-    "t": "<p>En apparat på \\(70\\,\\mathrm W\\) används \\(4\\) timmar. Bestäm energin i kWh.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">kW är en effektenhet, medan kWh är effekt multiplicerad med tid och därför en energienhet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}07\\cdot4=0{,}28\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}28\\ \\mathrm{kWh}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En lampa har effekten 70 W och lyser i 4,0 timmar. Hur mycket energi använder den? Svara i kWh.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=0{,}070\\cdot4{,}0=0{,}28\\ \\mathrm{kWh}\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 0.28,
-    "tolerans": 0.00504,
+    "tolerans": 0.007000000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Multiplicera effekt i kW med tid i timmar för att få kWh.</p>",
+    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "kWh",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.185",
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En apparat med effekten 1800 W används i 2,5 h.</p><p>Hur mycket elektrisk energi använder den? Ange svaret i kWh.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-tolkning\"><strong>Enhetsval:</strong> Eftersom svaret ska anges i kWh skrivs effekten först i kW.</p></div><div class=\"facit-stycke\"><p class=\"facit-tolkning\">Då kan timmar användas direkt i sambandet \\(E=Pt\\).</p></div></div><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv effekten i kW och använd \\(E=Pt\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=1{,}80\\cdot2{,}5=4{,}50\\,\\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}50\\,\\mathrm{kWh}\\).</p></div></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En värmare har effekten 1,8 kW och används i 2,5 timmar. Hur mycket energi använder den? Svara i kWh.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=1{,}8\\cdot2{,}5=4{,}5\\ \\mathrm{kWh}\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -118860,102 +121207,102 @@ window.BANK = [
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.0675,
+    "tolerans": 0.1125,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kWh",
-    "ledtrad": "<p>Skriv effekten i kW och använd \\(E=Pt\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.186",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En apparat med effekten 750 W används i 6,0 h.</p><p>Hur mycket elektrisk energi använder den? Ange svaret i kWh.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-tolkning\"><strong>Enhetsval:</strong> Eftersom svaret ska anges i kWh skrivs effekten först i kW.</p></div><div class=\"facit-stycke\"><p class=\"facit-tolkning\">Då kan timmar användas direkt i sambandet \\(E=Pt\\).</p></div></div><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv effekten i kW och använd \\(E=Pt\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}75\\cdot6{,}0=4{,}50\\,\\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}50\\,\\mathrm{kWh}\\).</p></div></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En värmare har effekten 750 W. Hur länge behöver den vara på för att använda 4,5 kWh? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[t=E/P=4{,}5/0{,}750=6{,}0\\ \\mathrm h\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.5,
-    "tolerans": 0.0675,
+    "rättSvar": 6,
+    "tolerans": 0.15000000000000002,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kWh",
-    "ledtrad": "<p>Skriv effekten i kW och använd \\(E=Pt\\). Välj den effektform som passar givna storheter: \\(P=UI=I^2R=U^2/R\\).</p>",
+    "svarEnhet": "h",
+    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.206",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "härleda och använda P=U²/R",
-    "poang": "(0/1/2)",
-    "t": "<p>En resistor med resistansen \\(6\\,\\Omega\\) ansluts direkt till en ideal \\(12\\,\\mathrm V\\)-källa. Bestäm effekten i resistorn utan att först räkna ut strömmen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kombinera \\(P=UI\\) med Ohms lag \\(I=U/R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{U^2}{R}=\\frac{12^2}{6}=24\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\mathrm W\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En resistor med resistansen 6,0 Ω utvecklar effekten 24 W. Vilken spänning är den ansluten till? Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[U=\\sqrt{PR}=\\sqrt{24\\cdot6{,}0}=12\\ \\mathrm V\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 24,
-    "tolerans": 0.432,
+    "rättSvar": 12,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "W",
-    "traningsniva": 4,
+    "svarEnhet": "V",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.187",
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En apparat ansluten till 230 V använder 1,52 kWh under 2,5 h. Strömmen är konstant.</p><p>Bestäm strömmen genom apparaten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först medeleffekten från \\(P=E/t\\) och använd sedan \\(I=P/U\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\frac{1{,}52\\,\\mathrm{kWh}}{2{,}5\\,\\mathrm h}=0{,}608\\,\\mathrm{kW}=608\\,\\mathrm W\\]\\[I=\\frac{608}{230}\\approx2{,}64\\,\\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}64\\,\\mathrm A\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En apparat använder 1,52 kWh på 2,5 timmar. Spänningen är 230 V. Hur stor är strömmen? Svara i A.</p>",
+    "s": "<div class=\"facit-v2\"><p>Energin per timme ger effekten.</p><p>\\[\\begin{aligned}P&=E/t\\\\&=1{,}52/2{,}5\\\\&=0{,}608\\ \\mathrm{kW}\\\\&=608\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}I&=P/U\\\\&=608/230\\\\&\\approx2{,}64\\ \\mathrm A\\end{aligned}\\]</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.64347826087,
-    "tolerans": 0.0397,
+    "rättSvar": 2.643478260869565,
+    "tolerans": 0.06608695652173913,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "ledtrad": "<p>Bestäm först medeleffekten från \\(P=E/t\\) och använd sedan \\(I=P/U\\).</p>",
+    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "kretsar"
+    "omrTidigare": "kretsar",
+    "manuellKomplettering": false
   },
   {
     "id": "8.361",
@@ -119382,7 +121729,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Två resistorer på \\(10\\ \\Omega\\) är parallellkopplade. Den kombinationen är seriekopplad med en resistor på \\(4{,}7\\ \\Omega\\). Bestäm hela kopplingens ersättningsresistans.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förenkla först parallellkopplingen och addera sedan serieresistansen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{par}=5\\ \\Omega,\\qquad R_{ers}=5+4{,}7=9{,}7\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}7\\ \\Omega\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Två lika parallellkopplade resistorer ger halva resistansen.</p><p>\\[R_p=10/2=5{,}0\\ \\Omega\\]</p><p>Den återstående resistorn ligger i serie med dem.</p><p>\\[R_{\\text{tot}}=5{,}0+4{,}7=9{,}7\\ \\Omega\\]</p></div>",
     "familj": "Blandade kopplingar",
     "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
     "formaga": [
@@ -119409,10 +121756,9 @@ window.BANK = [
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "polspänning vid olika belastning",
     "poang": "(2/0/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p><ol type=\"a\"><li>71,0 Ω?</li><li>710 Ω?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{6{,}00}{71{,}9}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=71{,}0I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}92\\) V</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{6{,}00}{710{,}9}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=710I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}99\\) V</p></li></ol></div>",
+    "t": "<p>Ett batteri har ems 6,0 V och inre resistans 0,90 Ω.</p><p>a) Bestäm polspänningen med en yttre resistor på 71 Ω. Svara i V.</p><p>b) Bestäm polspänningen med en yttre resistor på 710 Ω. Svara i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=6{,}0/(71+0{,}90)\\approx0{,}08345\\ \\mathrm A\\]</p><p>\\[U=6{,}0-0{,}90I\\approx5{,}925\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=6{,}0/(710+0{,}90)\\approx0{,}008440\\ \\mathrm A\\]</p><p>\\[U=6{,}0-0{,}90I\\approx5{,}992\\ \\mathrm V\\]</p></div></div>",
     "id": "8.398",
     "miniräknare": true,
     "geogebra": false,
@@ -119423,13 +121769,15 @@ window.BANK = [
       5.992403994935997
     ],
     "tolerans": [
-      0.0889,
-      0.0899
+      0.14812239221140472,
+      0.14981009987339994
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -119445,146 +121793,164 @@ window.BANK = [
       "V"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p>",
+    "spelIntro": "<p>Ett batteri har ems 6,0 V och inre resistans 0,90 Ω.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "71,0 Ω?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p><p>71,0 Ω?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{6{,}00}{71{,}9}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=71{,}0I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}92\\) V</p></div>",
-        "ledtrad": "<p>Strömmen går genom både yttre och inre resistans.</p>",
+        "fraga": "Ett batteri har ems 6,0 V och inre resistans 0,90 Ω. En yttre resistor på 71 Ω ansluts. Bestäm polspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=6{,}0/(71+0{,}90)\\approx0{,}08345\\ \\mathrm A\\]</p><p>\\[U=6{,}0-0{,}90I\\approx5{,}925\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.924895688456188,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.14812239221140472,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 6,0 V och inre resistans 0,90 Ω. En yttre resistor på 71 Ω ansluts. Bestäm polspänningen i V.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "710 Ω?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 6,00 V och inre resistans 0,900 Ω. Hur stor är polspänningen när batteriet belastas med</p><p>710 Ω?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{6{,}00}{710{,}9}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=710I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}99\\) V</p></div>",
-        "ledtrad": "<p>Större yttre resistans ger polspänning nära ems.</p>",
+        "fraga": "Ett batteri har ems 6,0 V och inre resistans 0,90 Ω. En yttre resistor på 710 Ω ansluts. Bestäm polspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=6{,}0/(710+0{,}90)\\approx0{,}008440\\ \\mathrm A\\]</p><p>\\[U=6{,}0-0{,}90I\\approx5{,}992\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.992403994935997,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.14981009987339994,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 6,0 V och inre resistans 0,90 Ω. En yttre resistor på 710 Ω ansluts. Bestäm polspänningen i V.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "inre resistans i ficklampa",
-    "poang": "(0/1/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Fyra likadana batterier (ems 1,5 V var) seriekopplas i en ficklampa med resistansen 12,0 Ω. Strömmen blir 0,45 A. Hur stor inre resistans har varje batteri?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Total ems 6,0 V.</p></div><div class=\"facit-stycke\"><p>\\(R_{tot}=\\dfrac{6{,}0}{0{,}45}\\approx13{,}3\\) Ω, så den inre resistansen är 1,33 Ω för fyra batterier.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}33\\) Ω</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Fyra likadana batterier med ems 1,5 V vardera är seriekopplade med en resistor på 12 Ω. Strömmen är 0,45 A. Bestäm varje batteris inre resistans. Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Ems adderas i serie: \\(\\mathcal E=4\\cdot1{,}5=6{,}0\\ \\mathrm V\\).</p><p>\\[R_{\\text{tot}}=6{,}0/0{,}45\\approx13{,}33\\ \\Omega\\]</p><p>De fyra batteriernas sammanlagda inre resistans är 13,33 − 12 ≈ 1,33 Ω.</p><p>\\[r=1{,}33/4\\approx0{,}33\\ \\Omega\\]</p></div>",
     "id": "8.399",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.33333333333333304,
-    "tolerans": 0.0051,
+    "tolerans": 0.008333333333333326,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först den totala resistansen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Addera batteriernas ems. Total resistans omfattar även alla fyra batteriernas inre resistanser.</p>",
+    "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "bilbatteri med startmotor",
     "poang": "(1/0/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri med ems 12,0 V har polspänningen 8,80 V när startmotorn drar 45 A. Hur stor är batteriets inre resistans?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_i=\\dfrac{12{,}0-8{,}80}{45}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}071\\) Ω</p></div>",
+    "t": "<p>Ett batteri har ems 12 V. Polspänningen är 8,8 V när strömmen är 45 A.</p><p>Bestäm batteriets inre resistans i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Skillnaden mellan ems och polspänning är spänningsfallet inne i batteriet.</p><p>\\[r=\\frac{\\mathcal E-U}{I}\\]</p><p>\\[r=\\frac{12-8{,}8}{45}\\]</p><p><strong>Svar:</strong> \\(0{,}07111\\ \\Omega\\).</p></div>",
     "id": "8.400",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.07111111111111111,
-    "tolerans": 0.00107,
+    "rättSvar": 0.0711111111111111,
+    "tolerans": 0.0017777777777777774,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Spänningsfallet inne i batteriet.</p>",
+    "ledtrad": "<p>Bestäm först det inre spänningsfallet från skillnaden mellan ems och polspänning.</p>",
     "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "parallellkopplade batterier",
-    "poang": "(0/2/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två likadana batterier (ems 6,0 V, inre resistans \\(r\\)) parallellkopplas till ett motstånd på 10 Ω. Strömmen genom motståndet blir 0,55 A. Bestäm \\(r\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Polspänning \\(0{,}55\\cdot10=5{,}5\\) V.</p></div><div class=\"facit-stycke\"><p>Varje batteri ger 0,275 A: \\(r=\\dfrac{6{,}0-5{,}5}{0{,}275}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) Ω</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två likadana batterier med ems 6,0 V är parallellkopplade med en resistor på 10 Ω. Strömmen genom resistorn är 0,55 A. Bestäm varje batteris inre resistans. Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Spänningen över resistorn är \\(U=10\\cdot0{,}55=5{,}5\\ \\mathrm V\\).</p><p>De likadana parallellkopplade batterierna delar strömmen lika: \\(I_{\\text{batteri}}=0{,}55/2=0{,}275\\ \\mathrm A\\).</p><p>\\[r=(6{,}0-5{,}5)/0{,}275\\approx1{,}82\\ \\Omega\\]</p></div>",
     "id": "8.401",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.81818181818,
-    "tolerans": 0.0273,
+    "rättSvar": 1.8181818181818181,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Batterierna delar lika på strömmen.</p>",
+    "ledtrad": "<p>Hur delar två likadana parallellkopplade batterier på strömmen?</p>",
     "traningsniva": 3,
     "svarEnhet": "Ω",
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "värmeelement och spänningskälla",
-    "poang": "(3/1/1)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p><ol type=\"a\"><li>Bestäm strömmen.</li><li>Bestäm polspänningen.</li><li>Hur stor är den inre resistansen?</li><li>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{7{,}2}{0{,}32}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}74\\) A</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=0{,}32\\cdot4{,}74\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}52\\) V</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_i=\\dfrac{2{,}0-1{,}52}{4{,}74}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}10\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}16+0{,}10}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=0{,}16I^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}3\\) W</p></li></ol></div>",
+    "niva": "C",
+    "poang": "(4/0/0)",
+    "t": "<p>Ett batteri har ems 2,0 V. En yttre resistor på 0,32 Ω utvecklar effekten 7,2 W.</p><p>a) Bestäm strömmen i A.</p><p>b) Bestäm spänningen över resistorn i V.</p><p>c) Bestäm batteriets inre resistans i Ω.</p><p>d) En likadan resistor kopplas parallellt med den första. Bestäm deras sammanlagda effekt i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=\\sqrt{7{,}2/0{,}32}\\\\&\\approx4{,}743\\ \\mathrm A\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}U&=0{,}32I\\\\&\\approx1{,}518\\ \\mathrm V\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}r&=(2{,}0-U)/I\\\\&\\approx0{,}1016\\ \\Omega\\end{aligned}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>De två yttre resistorerna har ersättningsresistansen 0,16 Ω. Använd den oavrundade inre resistansen från c.</p><p>\\[\\begin{aligned}I&=2{,}0/(r+0{,}16)\\\\&\\approx7{,}644\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=I^2\\cdot0{,}16\\\\&\\approx9{,}35\\ \\mathrm W\\end{aligned}\\]</p></div></div>",
     "id": "8.402",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4.74341649025,
-      1.51789327688,
-      0.101637021356,
-      9.34935351666
+      4.743416490252569,
+      1.5178932768808222,
+      0.10163702135578388,
+      9.349353516662866
     ],
     "tolerans": [
-      0.0712,
-      0.0228,
-      0.003,
-      0.14
+      0.11858541225631423,
+      0.05,
+      0.005,
+      0.23668639053254437
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "problemlösning"
@@ -119609,67 +121975,95 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p>",
+    "spelIntro": "<p>Ett batteri har ems 2,0 V. En yttre resistor på 0,32 Ω utvecklar effekten 7,2 W.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm strömmen.",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p><p>Bestäm strömmen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\sqrt{\\dfrac{P}{R}}=\\sqrt{\\dfrac{7{,}2}{0{,}32}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}74\\) A</p></div>",
-        "ledtrad": "<p>\\(P=RI^2\\).</p>",
+        "fraga": "En resistor på 0,32 Ω utvecklar effekten 7,2 W. Bestäm strömmen i A.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=\\sqrt{P/R}\\\\&=\\sqrt{7{,}2/0{,}32}\\\\&\\approx4{,}74\\ \\mathrm A\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.743416490252569,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "A",
+        "tolerans": 0.11858541225631423,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En resistor på 0,32 Ω utvecklar effekten 7,2 W. Bestäm strömmen i A.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är spänningen över värmeelementet? Svara i V.",
-        "t": "<p>Ett värmeelement har resistansen 0,32 Ω. Strömmen genom elementet är 4,74 A.</p><p>Hur stor är spänningen över värmeelementet? Svara i V.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=0{,}32\\cdot4{,}74\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}52\\) V</p></div>",
-        "ledtrad": "<p>\\(U=RI\\).</p>",
+        "fraga": "En resistor på 0,32 Ω har strömmen 4,74 A. Bestäm spänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}U&=RI\\\\&=0{,}32\\cdot4{,}74\\\\&=1{,}5168\\ \\mathrm V\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.5168000000000001,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En resistor på 0,32 Ω har strömmen 4,74 A. Bestäm spänningen i V.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm källans inre resistans. Svara i Ω.",
-        "t": "<p>En spänningskälla har ems 2,0 V. Vid strömmen 4,74 A är polspänningen 1,52 V.</p><p>Bestäm källans inre resistans. Svara i Ω.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_i=\\dfrac{2{,}0-1{,}52}{4{,}74}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}10\\) Ω</p></div>",
-        "ledtrad": "<p>\\(U=E-R_iI\\).</p>",
+        "fraga": "Ett batteri har ems 2,0 V, polspänningen 1,52 V och strömmen 4,74 A. Bestäm den inre resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}r&=(\\mathcal E-U)/I\\\\&=(2{,}0-1{,}52)/4{,}74\\\\&\\approx0{,}101\\ \\Omega\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.10126582278481013,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 2,0 V, polspänningen 1,52 V och strömmen 4,74 A. Bestäm den inre resistansen i Ω.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En spänningskälla med ems 2,0 V är kopplad till ett värmeelement med resistansen 0,32 Ω, som utvecklar effekten 7,2 W.</p>Den inre resistansen är 0,10 Ω.<p>Ett likadant element parallellkopplas. Hur stor blir den totala effekten i elementen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Yttre resistans 0,16 Ω: \\(I=\\dfrac{2{,}0}{0{,}16+0{,}10}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=0{,}16I^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}3\\) W</p></div>",
-        "ledtrad": "<p>Den inre resistansen finns kvar.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
-        "traningsniva": 4,
-        "arbetsinsats": 2
+        "fraga": "Ett batteri har ems 2,0 V och inre resistans 0,10 Ω. Två yttre resistorer på 0,32 Ω vardera är parallellkopplade. Vilken sammanlagd effekt utvecklas i dem? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}R_p&=0{,}32/2\\\\&=0{,}16\\ \\Omega\\end{aligned}\\]</p><p>\\[\\begin{aligned}I&=2{,}0/(0{,}10+0{,}16)\\\\&\\approx7{,}69\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=I^2R_p\\\\&\\approx9{,}47\\ \\mathrm W\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.467455621301774,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.23668639053254437,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Förenkla de två yttre resistorerna innan du beräknar strömmen.</p>",
+        "t": "<p>Ett batteri har ems 2,0 V och inre resistans 0,10 Ω. Två yttre resistorer på 0,32 Ω vardera är parallellkopplade. Vilken sammanlagd effekt utvecklas i dem? Svara i W.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Den inre resistansen tar en del av spänningen.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+    "traningsniva": 3,
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
-    "arbetsinsats": 3,
-    "spel": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "resistans och värme i batteri",
-    "poang": "(1/2/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p><ol type=\"a\"><li>Bestäm \\(R\\).</li><li>Hur stor är den inre resistansen?</li><li>Hur stor värmeeffekt utvecklas i batteriet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{U^2}{P}=\\dfrac{11{,}6^2}{20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{11{,}6}{6{,}73}\\approx1{,}72\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_i=\\dfrac{15{,}0-11{,}6}{1{,}72}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=R_iI^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}9\\) W</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett batteri har ems 15 V. En yttre resistor utvecklar 20 W när polspänningen är 11,6 V.</p><p>a) Bestäm den yttre resistansen i Ω.</p><p>b) Bestäm batteriets inre resistans i Ω.</p><p>c) Vilken effekt blir värme inne i batteriet? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R=11{,}6^2/20=6{,}728\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=20/11{,}6\\approx1{,}724\\ \\mathrm A\\]</p><p>\\[r=(15-11{,}6)/I\\approx1{,}972\\ \\Omega\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[P_r=(15-11{,}6)\\cdot(20/11{,}6)\\approx5{,}862\\ \\mathrm W\\]</p></div></div>",
     "id": "8.403",
     "miniräknare": true,
     "geogebra": false,
@@ -119681,14 +122075,17 @@ window.BANK = [
       5.862068965517242
     ],
     "tolerans": [
-      0.101,
-      0.051,
-      0.0879
+      0.16820000000000002,
+      0.05,
+      0.1462
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -119707,84 +122104,104 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p>",
+    "spelIntro": "<p>Ett batteri har ems 15 V. En yttre resistor utvecklar 20 W när polspänningen är 11,6 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm \\(R\\).",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p><p>Bestäm \\(R\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{U^2}{P}=\\dfrac{11{,}6^2}{20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\) Ω</p></div>",
-        "ledtrad": "<p>\\(P=\\dfrac{U^2}{R}\\).</p>",
+        "fraga": "En resistor utvecklar 20 W vid 11,6 V. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=11{,}6^2/20=6{,}728\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.728,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.16820000000000002,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>En resistor utvecklar 20 W vid 11,6 V. Bestäm resistansen i Ω.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är den inre resistansen?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri har ems 15,0 V. När ett motstånd \\(R\\) kopplas in sjunker polspänningen till 11,6 V, och motståndet utvecklar effekten 20 W.</p>\\(R\\approx6{,}7\\) Ω.<p>Hur stor är den inre resistansen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{11{,}6}{6{,}73}\\approx1{,}72\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_i=\\dfrac{15{,}0-11{,}6}{1{,}72}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) Ω</p></div>",
-        "ledtrad": "<p>Bestäm strömmen först.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett batteri har ems 15 V, polspänningen 11,6 V och strömmen 1,72 A. Bestäm den inre resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[r=(15-11{,}6)/1{,}72\\approx1{,}98\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.9767441860465116,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 15 V, polspänningen 11,6 V och strömmen 1,72 A. Bestäm den inre resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor värmeeffekt utvecklas inuti batteriet? Svara i W.",
-        "t": "<p>Ett batteri har ems 15,0 V och polspänningen 11,6 V när strömmen är 1,72 A.</p><p>Hur stor värmeeffekt utvecklas inuti batteriet? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=R_iI^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}9\\) W</p></div>",
-        "ledtrad": "<p>\\(P=R_iI^2\\) eller \\((E-U)I\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Ett batteri har ems 15 V, polspänningen 11,6 V och strömmen 1,72 A. Vilken effekt blir värme inne i batteriet? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[U_r=15-11{,}6=3{,}4\\ \\mathrm V\\]</p><p>\\[P_r=U_r I=3{,}4\\cdot1{,}72=5{,}848\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.848,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.1462,
+        "manuellKomplettering": false,
+        "niva": "E",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 15 V, polspänningen 11,6 V och strömmen 1,72 A. Vilken effekt blir värme inne i batteriet? Svara i W.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(U=E-R_iI\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+    "traningsniva": 2,
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "värme i batteriet",
-    "poang": "(0/1/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med ems 12,0 V kopplas över ett motstånd på 21,0 Ω. Strömmen blir 0,500 A. Hur stor värmeeffekt utvecklas inuti batteriet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(R_{tot}=\\dfrac{12{,}0}{0{,}500}=24{,}0\\) Ω, så \\(R_i=3{,}0\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=3{,}0\\cdot0{,}500^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}75\\) W</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett batteri med ems 12 V driver strömmen 0,50 A genom en resistor på 21 Ω. Vilken effekt blir värme inne i batteriet? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>Total resistans omfattar både den yttre och den inre resistansen.</p><p>\\[r=12/0{,}50-21=3{,}0\\ \\Omega\\]</p><p>\\[P_{\\text{inre}}=I^2r=0{,}50^2\\cdot3{,}0=0{,}75\\ \\mathrm W\\]</p></div>",
     "id": "8.404",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 0.0112,
+    "tolerans": 0.018750000000000003,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm den inre resistansen först.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Bestäm först den inre resistansen. Beräkna sedan värmeeffekten med \\(I^2r\\).</p>",
+    "traningsniva": 2,
     "svarEnhet": "W",
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "två batterier i serie med lampa",
-    "poang": "(1/2/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p><ol type=\"a\"><li>Hur stor resistans har lampan?</li><li>Hur stor andel av den totala effekten blir värme i batterierna? Svara i procent.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(R_{tot}=\\dfrac{3{,}0}{0{,}600}=5{,}0\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=5{,}0-0{,}410\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}59\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma ström: andelen är \\(\\dfrac{0{,}410}{5{,}0}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\) %</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två batterier med ems 1,5 V vardera är seriekopplade. Deras inre resistanser är 0,255 Ω och 0,155 Ω. Strömmen är 0,60 A.</p><p>a) Bestäm den yttre resistansen i Ω.</p><p>b) Hur många procent av batteriernas totala elektriska effekt blir värme inne i dem?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I serie adderas ems: 3,0 V. Även inre resistanser adderas: 0,410 Ω.</p><p>\\[R=3{,}0/0{,}60-0{,}410=4{,}59\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P_r=0{,}60^2(0{,}255+0{,}155)=0{,}1476\\ \\mathrm W\\]</p><p>\\[P_{\\text{tot}}=3{,}0\\cdot0{,}60=1{,}80\\ \\mathrm W\\]</p><p>\\[100\\cdot0{,}1476/1{,}80=8{,}2\\ \\%\\]</p></div></div>",
     "id": "8.405",
     "miniräknare": true,
     "geogebra": false,
@@ -119795,10 +122212,13 @@ window.BANK = [
       8.2
     ],
     "tolerans": [
-      0.0688,
-      0.123
+      0.11475,
+      0.205
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -119816,45 +122236,59 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p>",
+    "spelIntro": "<p>Två batterier med ems 1,5 V vardera är seriekopplade. Deras inre resistanser är 0,255 Ω och 0,155 Ω. Strömmen är 0,60 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor resistans har lampan?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p><p>Hur stor resistans har lampan?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(R_{tot}=\\dfrac{3{,}0}{0{,}600}=5{,}0\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=5{,}0-0{,}410\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}59\\) Ω</p></div>",
-        "ledtrad": "<p>Dra av de inre resistanserna.</p>",
+        "fraga": "Två seriekopplade batterier har sammanlagd ems 3,0 V och inre resistans 0,410 Ω. Strömmen genom en yttre resistor är 0,60 A. Bestäm den yttre resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_{\\text{tot}}=3{,}0/0{,}60=5{,}0\\ \\Omega\\]</p><p>\\[R=5{,}0-0{,}410=4{,}59\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.59,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.11475,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/1/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Två seriekopplade batterier har sammanlagd ems 3,0 V och inre resistans 0,410 Ω. Strömmen genom en yttre resistor är 0,60 A. Bestäm den yttre resistansen i Ω.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor andel av den totala effekten blir värme i batterierna? Svara i procent.",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Två batterier med ems 1,5 V var och inre resistanserna 0,255 Ω och 0,155 Ω seriekopplas till en glödlampa. Strömmen blir 600 mA.</p><p>Hur stor andel av den totala effekten blir värme i batterierna? Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma ström: andelen är \\(\\dfrac{0{,}410}{5{,}0}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\) %</p></div>",
-        "ledtrad": "<p>Effekten är proportionell mot resistansen vid samma ström.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Två seriekopplade batterier har sammanlagd ems 3,0 V och inre resistans 0,410 Ω. Strömmen är 0,60 A. Hur många procent av deras totala elektriska effekt blir värme inne i batterierna?",
+        "s": "<div class=\"facit-v2\"><p>\\[P_r=0{,}60^2\\cdot0{,}410=0{,}1476\\ \\mathrm W\\]</p><p>\\[P_{\\text{tot}}=3{,}0\\cdot0{,}60=1{,}80\\ \\mathrm W\\]</p><p>\\[100\\cdot P_r/P_{\\text{tot}}=8{,}2\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.2,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.205,
+        "manuellKomplettering": false,
+        "niva": "E",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför \\(I²r\\) med \\(\\mathcal E I\\).</p>",
+        "t": "<p>Två seriekopplade batterier har sammanlagd ems 3,0 V och inre resistans 0,410 Ω. Strömmen är 0,60 A. Hur många procent av deras totala elektriska effekt blir värme inne i batterierna?</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "A",
-    "typ": "strålkastare och startmotor",
-    "poang": "(1/1/1)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p><ol type=\"a\"><li>Hur stor är spänningen över lamporna?</li><li>Startmotorn kopplas in parallellt och drar 35,0 A. Hur stor blir spänningen över lamporna?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{12{,}6}{5{,}08}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=5{,}00I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}4\\) V</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=12{,}6-0{,}0800\\left(\\dfrac U{5{,}00}+35{,}0\\right)\\iff U=\\dfrac{12{,}6-2{,}80}{1{,}016}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}65\\) V</p></li></ol></div>",
+    "niva": "C",
+    "poang": "(1/1/0)",
+    "t": "<p>Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är anslutna till batteriet.</p><p>a) Bestäm polspänningen utan startmotor. Svara i V.</p><p>b) En startmotor kopplas parallellt med lamporna och drar 35 A. Bestäm polspänningen i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=12{,}6/(5{,}00+0{,}080)\\approx2{,}480\\ \\mathrm A\\]</p><p>\\[U=5{,}00I\\approx12{,}40\\ \\mathrm V\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Lampornas ström är U/5,00. Startmotorn drar dessutom 35 A, så totalströmmen är U/5,00 + 35.</p><p>\\[U=12{,}6-0{,}080(U/5{,}00+35)\\]</p><p>\\[U=12{,}6-0{,}016U-2{,}80\\]</p><p>\\[1{,}016U=9{,}80\\]</p><p>\\[U=9{,}80/1{,}016\\approx9{,}65\\ \\mathrm V\\]</p></div></div>",
     "id": "8.406",
     "miniräknare": true,
     "geogebra": false,
@@ -119865,13 +122299,16 @@ window.BANK = [
       9.645669291338583
     ],
     "tolerans": [
-      0.186,
-      0.145
+      0.5,
+      0.24114173228346458
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "problemlösning",
-      "modellering"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -119887,45 +122324,59 @@ window.BANK = [
       "V"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p>",
+    "spelIntro": "<p>Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är anslutna till batteriet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är spänningen över lamporna?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p><p>Hur stor är spänningen över lamporna?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{12{,}6}{5{,}08}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=5{,}00I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}4\\) V</p></div>",
-        "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
+        "fraga": "Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är anslutna. Bestäm polspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[I=12{,}6/(5{,}00+0{,}080)\\approx2{,}480\\ \\mathrm A\\]</p><p>\\[U=5{,}00I\\approx12{,}40\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 12.401574803149606,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är anslutna. Bestäm polspänningen i V.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Startmotorn kopplas in parallellt och drar 35,0 A. Hur stor blir spänningen över lamporna?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett bilbatteri (ems 12,6 V, inre resistans 0,0800 Ω) driver strålkastare med den totala resistansen 5,00 Ω.</p><p>Startmotorn kopplas in parallellt och drar 35,0 A. Hur stor blir spänningen över lamporna?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=12{,}6-0{,}0800\\left(\\dfrac U{5{,}00}+35{,}0\\right)\\iff U=\\dfrac{12{,}6-2{,}80}{1{,}016}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}65\\) V</p></div>",
-        "ledtrad": "<p>All ström går genom den inre resistansen.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är parallellkopplade med en startmotor. Motorn drar 35 A. Bestäm polspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>Lampornas ström är U/5,00. Startmotorn drar dessutom 35 A, så totalströmmen är U/5,00 + 35.</p><p>\\[U=12{,}6-0{,}080(U/5{,}00+35)\\]</p><p>\\[U=12{,}6-0{,}016U-2{,}80\\]</p><p>\\[1{,}016U=9{,}80\\]</p><p>\\[U=9{,}80/1{,}016\\approx9{,}65\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.645669291338583,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.24114173228346458,
+        "manuellKomplettering": false,
+        "niva": "C",
         "traningsniva": 4,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Lampornas ström beror på den sökta polspänningen. Lägg till startmotorns 35 A.</p>",
+        "t": "<p>Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är parallellkopplade med en startmotor. Motorn drar 35 A. Bestäm polspänningen i V.</p>",
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Stor ström ger stort spänningsfall i batteriet.</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "traningsniva": 4,
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "motstånd i serie och parallellt",
-    "poang": "(0/2/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p><ol type=\"a\"><li>Ett likadant motstånd seriekopplas. Den nya strömmen är \\(I_2\\). Bestäm \\(\\dfrac{I_2}{I_1}\\).</li><li>Ett likadant motstånd parallellkopplas i stället. Den nya strömmen är \\(I_3\\). Bestäm \\(\\dfrac{I_3}{I_1}\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{I_2}{I_1}=\\dfrac{6{,}2}{11{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}55\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Yttre resistans 2,5 Ω: \\(\\dfrac{I_3}{I_1}=\\dfrac{6{,}2}{3{,}7}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}68\\)</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Först ansluts en resistor på 5,0 Ω.</p><p>a) En till resistor på 5,0 Ω kopplas i serie med den första. Bestäm kvoten ny ström dividerad med ursprunglig ström.</p><p>b) I stället kopplas den andra resistorn parallellt med den första. Bestäm samma strömkvot.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Ursprunglig ström är 6,0/(5,0 + 1,2) ≈ 0,968 A. I serie blir yttre resistansen 10 Ω.</p><p>\\[I_s=6{,}0/11{,}2\\approx0{,}536\\ \\mathrm A\\]</p><p>\\[I_s/I_0\\approx0{,}554\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Ursprunglig ström är 6,0/6,2 A. Två 5,0 Ω-resistorer parallellt ger 2,5 Ω.</p><p>\\[I_p=6{,}0/3{,}7\\approx1{,}622\\ \\mathrm A\\]</p><p>\\[I_p/I_0\\approx1{,}68\\]</p></div></div>",
     "id": "8.407",
     "miniräknare": true,
     "geogebra": false,
@@ -119936,13 +122387,15 @@ window.BANK = [
       1.6756756756756757
     ],
     "tolerans": [
-      0.0083,
-      0.0251
+      0.013835596221959859,
+      0.05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "problemlösning",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -119954,88 +122407,109 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p>",
+    "spelIntro": "<p>Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Först ansluts en resistor på 5,0 Ω.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett likadant motstånd seriekopplas. Den nya strömmen är \\(I_2\\). Bestäm \\(\\dfrac{I_2}{I_1}\\).",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p><p>Ett likadant motstånd seriekopplas. Den nya strömmen är \\(I_2\\). Bestäm \\(\\dfrac{I_2}{I_1}\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{I_2}{I_1}=\\dfrac{6{,}2}{11{,}2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}55\\)</p></div>",
-        "ledtrad": "<p>Strömmen är omvänt proportionell mot den totala resistansen.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 10 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.",
+        "s": "<div class=\"facit-v2\"><p>\\[I_{\\text{ny}}=6{,}0/(10+1{,}2)\\approx0{,}536\\ \\mathrm A\\]</p><p>\\[I_{\\text{ny}}/I_{\\text{gammal}}\\approx0{,}536/0{,}968\\approx0{,}553\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5534238488783944,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.013835596221959859,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 10 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Ett likadant motstånd parallellkopplas i stället. Den nya strömmen är \\(I_3\\). Bestäm \\(\\dfrac{I_3}{I_1}\\).",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri (ems 6,0 V, inre resistans 1,2 Ω) är kopplat till ett motstånd på 5,0 Ω. Strömmen är \\(I_1\\).</p><p>Ett likadant motstånd parallellkopplas i stället. Den nya strömmen är \\(I_3\\). Bestäm \\(\\dfrac{I_3}{I_1}\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Yttre resistans 2,5 Ω: \\(\\dfrac{I_3}{I_1}=\\dfrac{6{,}2}{3{,}7}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}68\\)</p></div>",
-        "ledtrad": "<p>Räkna med den inre resistansen.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 2,5 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.",
+        "s": "<div class=\"facit-v2\"><p>\\[I_{\\text{ny}}=6{,}0/(2{,}5+1{,}2)\\approx1{,}622\\ \\mathrm A\\]</p><p>\\[I_{\\text{ny}}/I_{\\text{gammal}}\\approx1{,}622/0{,}968\\approx1{,}68\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.6752289479562206,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 2,5 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(I=\\dfrac{E}{R+R_i}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+    "traningsniva": 2,
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false,
+    "svarEnhet": [
+      null,
+      null
+    ]
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "värmehandske",
-    "poang": "(1/1/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>En värmehandske har ett element på 3,6 Ω som drivs av två seriekopplade batterier med ems 1,5 V och inre resistans 0,20 Ω var. Hur stor effekt avger elementet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{3{,}0}{3{,}6+0{,}40}=0{,}75\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=3{,}6\\cdot0{,}75^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) W</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två batterier med ems 1,5 V och inre resistans 0,20 Ω vardera seriekopplas med en resistor på 3,6 Ω. Vilken effekt utvecklas i resistorn? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p>I serie adderas både ems och inre resistans: 3,0 V respektive 0,40 Ω.</p><p>\\[I=3{,}0/(3{,}6+0{,}40)=0{,}75\\ \\mathrm A\\]</p><p>\\[P=I^2R=0{,}75^2\\cdot3{,}6=2{,}025\\ \\mathrm W\\]</p><p>Effekten är cirka 2,0 W.</p></div>",
     "id": "8.408",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "numeriskt",
     "rättSvar": 2.025,
-    "tolerans": 0.051,
+    "tolerans": 0.050625,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm strömmen först.</p>",
+    "ledtrad": "<p>Addera ems och inre resistans innan du beräknar strömmen.</p>",
     "traningsniva": 2,
     "svarEnhet": "W",
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "voltmeter med och utan last",
-    "poang": "(0/2/0)",
-    "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p><ol type=\"a\"><li>Bestäm \\(R\\).</li><li>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{9{,}0-7{,}6}{2{,}0}=0{,}70\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{7{,}6}{0{,}70}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}9\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Yttre resistans \\(\\dfrac{10{,}86\\cdot30}{40{,}86}\\approx7{,}97\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{9{,}0}{9{,}97}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=9{,}0-2{,}0I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\) V</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett batteris polspänning är 9,0 V utan belastning och 7,6 V med en resistor ansluten. Den inre resistansen är 2,0 Ω.</p><p>a) Bestäm den yttre resistansen i Ω.</p><p>b) En resistor på 30 Ω kopplas parallellt med den första. Bestäm den nya polspänningen i V.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Ingen ström går utan belastning, så ems är 9,0 V.</p><p>\\[I=(9{,}0-7{,}6)/2{,}0=0{,}70\\ \\mathrm A\\]</p><p>\\[R=7{,}6/0{,}70\\approx10{,}86\\ \\Omega\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Använd resistansen från a) utan att avrunda.</p><p>\\[R_p=30R/(30+R)\\approx7{,}972\\ \\Omega\\]</p><p>\\[I=9{,}0/(R_p+2{,}0)\\approx0{,}903\\ \\mathrm A\\]</p><p>\\[U=I R_p\\approx7{,}19\\ \\mathrm V\\]</p></div></div>",
     "id": "8.409",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ems, polspänning och inre resistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      10.8571428571,
-      7.19495091164
+      10.857142857142858,
+      7.194950911640954
     ],
     "tolerans": [
-      0.163,
-      0.108
+      0.5,
+      0.1799779843444227
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
+      "procedur",
       "problemlösning"
     ],
     "svarFormat": [
@@ -120052,45 +122526,59 @@ window.BANK = [
       "V"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p>",
+    "spelIntro": "<p>Ett batteris polspänning är 9,0 V utan belastning och 7,6 V med en resistor ansluten. Den inre resistansen är 2,0 Ω.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm \\(R\\).",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p><p>Bestäm \\(R\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{9{,}0-7{,}6}{2{,}0}=0{,}70\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{7{,}6}{0{,}70}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}9\\) Ω</p></div>",
-        "ledtrad": "<p>Öppen brytare: voltmetern visar ems.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett batteris polspänning är 9,0 V utan belastning och 7,6 V med en resistor ansluten. Den inre resistansen är 2,0 Ω. Bestäm den yttre resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>Utan belastning går ingen ström, så ems är 9,0 V.</p><p>\\[I=(9{,}0-7{,}6)/2{,}0=0{,}70\\ \\mathrm A\\]</p><p>\\[R=7{,}6/0{,}70\\approx10{,}86\\ \\Omega\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 10.857142857142858,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
+        "t": "<p>Ett batteris polspänning är 9,0 V utan belastning och 7,6 V med en resistor ansluten. Den inre resistansen är 2,0 Ω. Bestäm den yttre resistansen i Ω.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?",
-        "t": "<p>Polspänning: \\(U=E-R_iI\\), där \\(E\\) är ems och \\(R_i\\) inre resistans.</p><p>Ett batteri med inre resistans 2,0 Ω är kopplat till ett motstånd \\(R\\) via en brytare. Med öppen brytare visar en voltmeter över batteriet 9,0 V och med sluten 7,6 V.</p>\\(R\\approx10{,}9\\) Ω och ems är 9,0 V.<p>Ett motstånd på 30 Ω kopplas parallellt med \\(R\\). Vad visar voltmetern nu?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Yttre resistans \\(\\dfrac{10{,}86\\cdot30}{40{,}86}\\approx7{,}97\\) Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{9{,}0}{9{,}97}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=9{,}0-2{,}0I\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\) V</p></div>",
-        "ledtrad": "<p>Bestäm den nya yttre resistansen.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett batteri har ems 9,0 V och inre resistans 2,0 Ω. Två yttre resistorer på 10,9 Ω och 30 Ω är parallellkopplade. Bestäm polspänningen i V.",
+        "s": "<div class=\"facit-v2\"><p>\\[R_p=10{,}9\\cdot30/(10{,}9+30)\\approx8{,}00\\ \\Omega\\]</p><p>\\[I=9{,}0/(R_p+2{,}0)\\]</p><p>\\[U=I R_p\\approx7{,}20\\ \\mathrm V\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.199119373776908,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V",
+        "tolerans": 0.1799779843444227,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Förenkla parallellkopplingen och använd batteriets inre resistans.</p>",
+        "t": "<p>Ett batteri har ems 9,0 V och inre resistans 2,0 Ω. Två yttre resistorer på 10,9 Ω och 30 Ω är parallellkopplade. Bestäm polspänningen i V.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Med öppen krets visar voltmetern batteriets ems.</p>",
+    "ledtrad": "<p>Batteriets polspänning är ems minus det inre spänningsfallet: \\(U=\\mathcal E-rI\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "kopplingar__ems_polspanning_och_inre_resistans",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "torktumlare och dator",
     "poang": "(2/0/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En torktumlare kopplad till 230 V drar 16 A i 45 minuter. En dator kopplad till 120 V drar 2,7 A.</p><ol type=\"a\"><li>Hur stor energi omsätter torktumlaren?</li><li>Hur många timmar kan datorn användas för samma energi?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=UIt=230\\cdot16\\cdot2\\,700\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\cdot10^{6}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{9{,}9\\cdot10^6}{120\\cdot2{,}7}\\) s, omräknat till timmar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}5\\) h</p></li></ol></div>",
+    "t": "<p>En torktumlare drar 16 A vid 230 V och används i 45 minuter. En dator drar 2,7 A vid 120 V.</p><p>a) Hur mycket energi använder torktumlaren? Svara i J.</p><p>b) Hur länge kan datorn användas med samma energimängd? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=230\\cdot16\\cdot2700\\\\&=9\\,936\\,000\\ \\mathrm J\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=120\\cdot2{,}7\\\\&=324\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=9\\,936\\,000/324\\\\&\\approx30\\,667\\ \\mathrm s\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&\\approx30\\,667/3600\\\\&\\approx8{,}52\\ \\mathrm h\\end{aligned}\\]</p></div></div>",
     "id": "8.445",
     "miniräknare": true,
     "geogebra": false,
@@ -120101,10 +122589,13 @@ window.BANK = [
       8.518518518518519
     ],
     "tolerans": [
-      149000.0,
-      0.128
+      248400.0,
+      0.21219135802469136
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -120122,45 +122613,59 @@ window.BANK = [
       "h"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En torktumlare kopplad till 230 V drar 16 A i 45 minuter. En dator kopplad till 120 V drar 2,7 A.</p>",
+    "spelIntro": "<p>En torktumlare drar 16 A vid 230 V och används i 45 minuter. En dator drar 2,7 A vid 120 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket elektrisk energi använder torktumlaren? Svara i J.",
-        "t": "<p>En torktumlare är ansluten till spänningen 230 V. Den drar strömmen 16 A under 45 minuter.</p><p>Hur mycket elektrisk energi använder torktumlaren? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=UIt=230\\cdot16\\cdot2\\,700\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}9\\cdot10^{6}\\) J</p></div>",
-        "ledtrad": "<p>\\(E=UIt\\).</p>",
+        "fraga": "En torktumlare drar 16 A vid 230 V och används i 45 minuter. Hur mycket energi använder den? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>45 min = 2 700 s.</p><p>\\[\\begin{aligned}E&=UIt\\\\&=230\\cdot16\\cdot2700\\\\&=9\\,936\\,000\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9936000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 248400.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>En torktumlare drar 16 A vid 230 V och används i 45 minuter. Hur mycket energi använder den? Svara i J.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur många timmar kan datorn användas innan den omsatt energin 9,9 MJ? Svara i h.",
-        "t": "<p>En dator drar strömmen 2,7 A vid spänningen 120 V.</p><p>Hur många timmar kan datorn användas innan den omsatt energin 9,9 MJ? Svara i h.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{9{,}9\\cdot10^6}{120\\cdot2{,}7}\\) s, omräknat till timmar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}5\\) h</p></div>",
-        "ledtrad": "<p>Lös ut tiden.</p>",
+        "fraga": "En dator drar 2,7 A vid 120 V. Hur länge kan den användas med energin 9,9 MJ? Svara i timmar.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=120\\cdot2{,}7\\\\&=324\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=E/P\\\\&=9{,}9\\cdot10^6/324\\\\&\\approx30\\,556\\ \\mathrm s\\end{aligned}\\]</p><p>\\[t\\approx30\\,556/3600\\approx8{,}49\\ \\mathrm h\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.487654320987653,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.21219135802469136,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>En dator drar 2,7 A vid 120 V. Hur länge kan den användas med energin 9,9 MJ? Svara i timmar.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(E=UIt\\).</p>",
+    "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "blixtnedslag",
-    "poang": "(2/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p><ol type=\"a\"><li>Hur stor effekt har blixten?</li><li>Hur stor energi omsätts vid ett nedslag?</li><li>Det slår ned 45 blixtar per sekund på jorden. Hur stor energi blir det under ett år (365,25 dygn)?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=300\\cdot10^3\\cdot30{,}0\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\cdot10^{9}\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Pt=9{,}0\\cdot10^9\\cdot0{,}52\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}7\\cdot10^{9}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=45\\cdot3{,}156\\cdot10^7\\cdot4{,}7\\cdot10^9\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}6\\cdot10^{18}\\) J</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>I en förenklad blixtmodell är spänningen 300 kV och strömmen 30 kA under 0,52 s. Räkna med konstanta värden under denna tid. Det sker i genomsnitt 45 sådana blixtar per sekund på jorden. Använd 365,25 dagar per år.</p><p>a) Bestäm effekten under en blixt i W.</p><p>b) Bestäm energin från en blixt i J.</p><p>c) Bestäm den sammanlagda energin under ett år i J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=(300\\cdot10^3)(30\\cdot10^3)\\\\&=9{,}0\\cdot10^9\\ \\mathrm W\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=9{,}0\\cdot10^9\\cdot0{,}52\\\\&=4{,}68\\cdot10^9\\ \\mathrm J\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Året har 31 557 600 s.</p><p>\\[E_{\\text{år}}=4{,}68\\cdot10^9\\cdot45\\cdot31\\,557\\,600\\]</p><p>\\[E_{\\text{år}}\\approx6{,}65\\cdot10^{18}\\ \\mathrm J\\]</p></div></div>",
     "id": "8.446",
     "miniräknare": true,
     "geogebra": false,
@@ -120172,14 +122677,17 @@ window.BANK = [
       6.64603056e+18
     ],
     "tolerans": [
-      135000000.0,
-      70200000.0,
-      9.97e+16
+      225000000.0,
+      117000000.0,
+      1.6686081e+17
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -120198,112 +122706,131 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p>",
+    "spelIntro": "<p>I en förenklad blixtmodell är spänningen 300 kV och strömmen 30 kA under 0,52 s. Räkna med konstanta värden under denna tid. Det sker i genomsnitt 45 sådana blixtar per sekund på jorden. Använd 365,25 dagar per år.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är blixtens elektriska effekt? Svara i W.",
-        "t": "<p>Under en blixt är spänningen 300 kV och strömmen 30,0 kA.</p><p>Hur stor är blixtens elektriska effekt? Svara i W.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=300\\cdot10^3\\cdot30{,}0\\cdot10^3\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\cdot10^{9}\\) W</p></div>",
-        "ledtrad": "<p>\\(P=UI\\).</p>",
+        "fraga": "I en blixtmodell är spänningen 300 kV och strömmen 30 kA. Bestäm effekten i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=(300\\cdot10^3)(30\\cdot10^3)\\\\&=9{,}0\\cdot10^9\\ \\mathrm W\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9000000000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 225000000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "t": "<p>I en blixtmodell är spänningen 300 kV och strömmen 30 kA. Bestäm effekten i W.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor energi omsätts vid ett nedslag?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En blixt varar i genomsnitt 0,52 s med spänningen 300 kV och strömmen 30,0 kA.</p><p>Hur stor energi omsätts vid ett nedslag?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Pt=9{,}0\\cdot10^9\\cdot0{,}52\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}7\\cdot10^{9}\\) J</p></div>",
-        "ledtrad": "<p>\\(E=Pt\\).</p>",
+        "fraga": "En blixtmodell har effekten 9,0 GW under 0,52 s. Bestäm energin i J.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=Pt\\\\&=9{,}0\\cdot10^9\\cdot0{,}52\\\\&=4{,}68\\cdot10^9\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4680000000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 117000000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>En blixtmodell har effekten 9,0 GW under 0,52 s. Bestäm energin i J.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor energi omsätts i blixtnedslag på ett år? Svara i J.",
-        "t": "<p>Ett blixtnedslag omsätter energin 4,7 GJ. På jorden sker i genomsnitt 45 nedslag per sekund. Räkna med 365,25 dygn per år.</p><p>Hur stor energi omsätts i blixtnedslag på ett år? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=45\\cdot3{,}156\\cdot10^7\\cdot4{,}7\\cdot10^9\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}6\\cdot10^{18}\\) J</p></div>",
-        "ledtrad": "<p>Antal nedslag per år gånger energin per nedslag.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Varje blixt ger 4,7 GJ i en modell. Det sker 45 blixtar per sekund. Hur stor blir den sammanlagda energin under 365,25 dagar? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>365,25 dagar = 31 557 600 s.</p><p>\\[E_{\\text{år}}=4{,}7\\cdot10^9\\cdot45\\cdot31\\,557\\,600\\]</p><p>\\[E_{\\text{år}}\\approx6{,}67\\cdot10^{18}\\ \\mathrm J\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.6744324e+18,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 1.6686081e+17,
+        "manuellKomplettering": false,
+        "niva": "E",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur många blixtar sker under året?</p>",
+        "t": "<p>Varje blixt ger 4,7 GJ i en modell. Det sker 45 blixtar per sekund. Hur stor blir den sammanlagda energin under 365,25 dagar? Svara i J.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(P=UI\\).</p>",
+    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "vattenkraftverk",
-    "poang": "(1/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett vattenkraftverk ger 1 500 hk (1 hk = 736 W) mekanisk effekt till en generator med verkningsgraden 80 %. Hur stor ström ger generatorn vid 2,00 kV?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{el}=0{,}80\\cdot1\\,500\\cdot736\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{P}{U}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(442\\) A</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En generator drivs med effekten 1 500 hk. En hästkraft motsvarar 736 W. Generatorns verkningsgrad är 80 % och spänningen är 2,0 kV. Vilken ström ger generatorn? Svara i A.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{in}}=1500\\cdot736=1\\,104\\,000\\ \\mathrm W\\]</p><p>\\[P_{\\text{el}}=0{,}80\\cdot1\\,104\\,000=883\\,200\\ \\mathrm W\\]</p><p>\\[I=P_{\\text{el}}/U=883\\,200/2000=441{,}6\\ \\mathrm A\\]</p><p>Strömmen är cirka 440 A.</p></div>",
     "id": "8.447",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 441.6,
-    "tolerans": 6.62,
+    "tolerans": 11.040000000000001,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm den elektriska effekten.</p>",
+    "ledtrad": "<p>Verkningsgraden ger den elektriska effekten. Använd sedan \\(P=UI\\).</p>",
     "traningsniva": 2,
     "svarEnhet": "A",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "kostnad för lampa",
     "poang": "(1/0/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En lampa drar 1,70 A vid 230 V. Vad kostar det att ha den tänd ett dygn om elpriset är 2,00 kr/kWh?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(P=230\\cdot1{,}70=391\\) W.</p></div><div class=\"facit-stycke\"><p>\\(E=0{,}391\\cdot24\\) kWh.</p></div><div class=\"facit-stycke\"><p>Kostnad: \\(2{,}00E\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}8\\) kr</p></div>",
+    "t": "<p>En lampa ansluts till 230 V och drar 1,70 A. Den lyser i 24 timmar. Elpriset är 2,0 kr/kWh. Vad kostar elen? Svara i kr.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}70\\\\&=391\\ \\mathrm W\\\\&=0{,}391\\ \\mathrm{kW}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=Pt\\\\&=0{,}391\\cdot24\\\\&=9{,}384\\ \\mathrm{kWh}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\text{Kostnad}&=9{,}384\\cdot2{,}0\\\\&=18{,}768\\ \\mathrm{kr}\\end{aligned}\\]</p><p>Det kostar cirka 19 kr.</p></div>",
     "id": "8.448",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 18.768,
-    "tolerans": 0.282,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna energin i kWh.</p>",
+    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
     "traningsniva": 2,
     "svarEnhet": "kr",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "energi i bilbatteri",
     "poang": "(2/0/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p><ol type=\"a\"><li>Hur stor energi är lagrad? Svara i kWh.</li><li>Hur länge räcker det med två strålkastare på 36,0 W var?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=12{,}0\\cdot55{,}0\\) Wh.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}66\\) kWh</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{660\\text{ Wh}}{72{,}0\\text{ W}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}2\\) h</p></li></ol></div>",
+    "t": "<p>Ett bilbatteri är märkt 55 Ah och 12 V. Två strålkastare har effekten 36 W vardera.</p><p>a) Hur stor energi motsvarar batteriets märkdata? Svara i kWh.</p><p>b) Hur länge kan strålkastarna lysa med denna energi? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UQ\\\\&=12\\cdot55\\\\&=660\\ \\mathrm{Wh}\\\\&=0{,}660\\ \\mathrm{kWh}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=2\\cdot36\\\\&=72\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=E/P\\\\&=660/72\\\\&\\approx9{,}17\\ \\mathrm h\\end{aligned}\\]</p></div></div>",
     "id": "8.449",
     "miniräknare": true,
     "geogebra": false,
@@ -120314,10 +122841,13 @@ window.BANK = [
       9.166666666666666
     ],
     "tolerans": [
-      0.0099,
-      0.137
+      0.0165,
+      0.22916666666666666
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -120335,101 +122865,113 @@ window.BANK = [
       "h"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p>",
+    "spelIntro": "<p>Ett bilbatteri är märkt 55 Ah och 12 V. Två strålkastare har effekten 36 W vardera.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor energi är lagrad? Svara i kWh.",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p><p>Hur stor energi är lagrad? Svara i kWh.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=12{,}0\\cdot55{,}0\\) Wh.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}66\\) kWh</p></div>",
-        "ledtrad": "<p>\\(E=UQ\\) med \\(Q\\) i Ah ger Wh.</p>",
+        "fraga": "Ett batteri är märkt 55 Ah och 12 V. Hur stor energi motsvarar detta? Svara i kWh.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UQ\\\\&=12\\cdot55\\\\&=660\\ \\mathrm{Wh}\\\\&=0{,}660\\ \\mathrm{kWh}\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.66,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kWh",
+        "tolerans": 0.0165,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Volt gånger amperetimmar ger wattimmar.</p>",
+        "t": "<p>Ett batteri är märkt 55 Ah och 12 V. Hur stor energi motsvarar detta? Svara i kWh.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur länge räcker det med två strålkastare på 36,0 W var?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett fulladdat batteri rymmer 55,0 Ah och har spänningen 12,0 V.</p>Batteriet lagrar 660 Wh.<p>Hur länge räcker det med två strålkastare på 36,0 W var?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{660\\text{ Wh}}{72{,}0\\text{ W}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}2\\) h</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac EP\\).</p>",
+        "fraga": "Ett batteri kan ge 660 Wh. Två strålkastare använder 36 W vardera. Hur länge kan de lysa med denna energi? Svara i timmar.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=2\\cdot36\\\\&=72\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=E/P\\\\&=660/72\\\\&\\approx9{,}17\\ \\mathrm h\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.166666666666666,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.22916666666666666,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>Ett batteri kan ge 660 Wh. Två strålkastare använder 36 W vardera. Hur länge kan de lysa med denna energi? Svara i timmar.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Ah är en laddningsenhet.</p>",
+    "ledtrad": "<p>Volt gånger amperetimmar ger wattimmar.</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "byta till LED-lampa",
-    "poang": "(0/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En glödlampa drar 0,26 A vid 230 V och är tänd 4,0 h per dag. Hur mycket sparar man på ett år (365 dygn) genom att byta till en LED-lampa på 9,0 W om elpriset är 2,00 kr/kWh?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Effektskillnad: \\(230\\cdot0{,}26-9{,}0\\approx50{,}8\\) W.</p></div><div class=\"facit-stycke\"><p>Energi: \\(50{,}8\\cdot4{,}0\\cdot365\\) Wh.</p></div><div class=\"facit-stycke\"><p>Kostnad: \\(2{,}00\\) kr per kWh.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(148\\) kr</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En glödlampa drar 0,26 A vid 230 V. Den byts mot en LED-lampa på 9,0 W som lyser lika starkt. Lampan används 4,0 timmar per dag under 365 dagar. Elpriset är 2,0 kr/kWh. Hur mycket pengar sparar bytet under året? Svara i kr.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P_{\\text{glöd}}&=230\\cdot0{,}26\\\\&=59{,}8\\ \\mathrm W\\end{aligned}\\]</p><p>Effekten minskar med 59,8 − 9,0 = 50,8 W. Användningstiden är 4,0 · 365 = 1 460 h.</p><p>\\[\\begin{aligned}E_{\\text{sparad}}&=0{,}0508\\cdot1460\\\\&=74{,}168\\ \\mathrm{kWh}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\text{Besparing}&=74{,}168\\cdot2{,}0\\\\&\\approx148\\ \\mathrm{kr}\\end{aligned}\\]</p></div>",
     "id": "8.450",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 148.336,
-    "tolerans": 5.1,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna med effektskillnaden.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna skillnaden i effekt och den sammanlagda tiden.</p>",
+    "traningsniva": 2,
     "svarEnhet": "kr",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "kaffebryggare",
-    "poang": "(1/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En kaffebryggare har strömmen 1,10 A vid 230 V. Hur lång tid tar det att värma 475 g vatten från 32 °C till 100 °C om all energi går till vattnet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}475\\cdot4\\,180\\cdot68\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=230\\cdot1{,}10\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac QP\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(534\\) s</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kaffebryggare drar 1,10 A vid 230 V. Den ska värma 0,475 kg vatten från 22 °C till 90 °C. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all värme går till vattnet. Hur lång tid tar det? Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Temperaturen ska öka med 90 − 22 = 68 °C.</p><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=0{,}475\\cdot4180\\cdot68\\\\&=135\\,014\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}10\\\\&=253\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=135\\,014/253\\\\&\\approx534\\ \\mathrm s\\end{aligned}\\]</p></div>",
     "id": "8.451",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 533.6521739130434,
-    "tolerans": 8.0,
+    "tolerans": 13.341304347826085,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Värmeenergi delat med effekt.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna energin för att värma vattnet och bryggarens effekt.</p>",
+    "traningsniva": 2,
     "svarEnhet": "s",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "laddningsbart batteri",
-    "poang": "(0/2/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p><ol type=\"a\"><li>Hur stor andel av den tillförda energin lagras? Svara i procent.</li><li>Batteriet har specifika värmekapaciteten 975 J/(kg·K). Hur mycket blir det varmare om den förlorade energin värmer batteriet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ut: \\(1{,}60\\cdot0{,}0180\\cdot2{,}40\\cdot3\\,600\\).</p></div><div class=\"facit-stycke\"><p>In: \\(2{,}30\\cdot0{,}0135\\cdot4{,}20\\cdot3\\,600\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(53\\) %</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Förlust: \\(469-249\\approx221\\) J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{221}{0{,}0150\\cdot975}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) K</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett batteri laddas med 13,5 mA vid 2,30 V under 4,2 timmar. Vid urladdning ger det 18 mA vid 1,60 V under 2,4 timmar. Batteriet har massan 15 g och specifika värmekapaciteten 975 J/(kg·°C).</p><p>a) Hur många procent av laddarens energi fås tillbaka vid urladdningen?</p><p>b) Räkna med att den energi som inte fås tillbaka blir värme i batteriet. Hur mycket ökar temperaturen? Svara i °C.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{ut}}&=1{,}60\\cdot0{,}018\\cdot(2{,}4\\cdot3600)\\\\&=248{,}832\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_{\\text{in}}&=2{,}30\\cdot0{,}0135\\cdot(4{,}2\\cdot3600)\\\\&=469{,}476\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\eta&=248{,}832/469{,}476\\cdot100\\\\&\\approx53{,}0\\ \\%\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}Q&=469{,}476-248{,}832\\\\&=220{,}644\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta T&=220{,}644/(0{,}015\\cdot975)\\\\&\\approx15{,}1\\ \\mathrm K\\end{aligned}\\]</p><p>Temperaturen ökar med cirka 15 °C.</p></div></div>",
     "id": "8.452",
     "miniräknare": true,
     "geogebra": false,
@@ -120437,20 +122979,22 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       53.002070393374744,
-      15.08676923076923
+      15.086769230769232
     ],
     "tolerans": [
-      0.795,
-      0.51
+      1.3250517598343687,
+      0.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
-      "numeriskt"
+      "temperaturandring"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -120459,132 +123003,144 @@ window.BANK = [
     ],
     "svarEnhet": [
       "%",
-      "K"
+      "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p>",
+    "spelIntro": "<p>Ett batteri laddas med 13,5 mA vid 2,30 V under 4,2 timmar. Vid urladdning ger det 18 mA vid 1,60 V under 2,4 timmar. Batteriet har massan 15 g och specifika värmekapaciteten 975 J/(kg·°C).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor andel av den tillförda energin lagras? Svara i procent.",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p><p>Hur stor andel av den tillförda energin lagras? Svara i procent.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ut: \\(1{,}60\\cdot0{,}0180\\cdot2{,}40\\cdot3\\,600\\).</p></div><div class=\"facit-stycke\"><p>In: \\(2{,}30\\cdot0{,}0135\\cdot4{,}20\\cdot3\\,600\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(53\\) %</p></div>",
-        "ledtrad": "<p>Jämför energierna.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett batteri laddas med 13,5 mA vid 2,30 V under 4,2 timmar och ger sedan 18 mA vid 1,60 V under 2,4 timmar. Hur många procent av laddarens energi fås tillbaka vid urladdningen?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{ut}}&=1{,}60\\cdot0{,}018\\cdot(2{,}4\\cdot3600)\\\\&=248{,}832\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_{\\text{in}}&=2{,}30\\cdot0{,}0135\\cdot(4{,}2\\cdot3600)\\\\&=469{,}476\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\eta&=248{,}832/469{,}476\\cdot100\\\\&\\approx53{,}0\\ \\%\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 53.002070393374744,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 1.3250517598343687,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna båda elektriska energierna och bilda deras kvot.</p>",
+        "t": "<p>Ett batteri laddas med 13,5 mA vid 2,30 V under 4,2 timmar och ger sedan 18 mA vid 1,60 V under 2,4 timmar. Hur många procent av laddarens energi fås tillbaka vid urladdningen?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Batteriet har specifika värmekapaciteten 975 J/(kg·K). Hur mycket blir det varmare om den förlorade energin värmer batteriet?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett laddningsbart batteri (15,0 g) ger 18,0 mA vid 1,60 V i 2,40 h. Laddaren ger 13,5 mA vid 2,30 V i 4,20 h.</p><p>Batteriet har specifika värmekapaciteten 975 J/(kg·K). Hur mycket blir det varmare om den förlorade energin värmer batteriet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Förlust: \\(469-249\\approx221\\) J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{221}{0{,}0150\\cdot975}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) K</p></div>",
-        "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett batteri med massan 15 g tar upp värmen 221 J. Dess specifika värmekapacitet är 975 J/(kg·°C). Hur mycket ökar temperaturen? Svara i °C.",
+        "s": "<div class=\"facit-v2\"><p>Massan är 15 g = 0,015 kg.</p><p>\\[\\begin{aligned}\\Delta T&=Q/(mc)\\\\&=221/(0{,}015\\cdot975)\\\\&\\approx15{,}1\\ \\mathrm K\\end{aligned}\\]</p><p>Temperaturen ökar alltså med cirka 15 °C.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 15.11111111111111,
+        "självrättning": true,
+        "svarFormat": "temperaturandring",
+        "svarEnhet": "°C",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(Q=mc\\Delta T\\).</p>",
+        "t": "<p>Ett batteri med massan 15 g tar upp värmen 221 J. Dess specifika värmekapacitet är 975 J/(kg·°C). Hur mycket ökar temperaturen? Svara i °C.</p>",
+        "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>\\(E=UIt\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna båda elektriska energierna och bilda deras kvot.</p>",
+    "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "laddning genom elbilsbatteri",
     "poang": "(1/0/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Ett elbilsbatteri lagrar 16 kWh och arbetar vid 340 V. Hur stor laddning passerar till dess att det är urladdat?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\dfrac{E}{U}=\\dfrac{16\\cdot3{,}6\\cdot10^6}{340}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}7\\cdot10^{5}\\) C</p></div>",
+    "t": "<p>Ett batteri har spänningen 340 V och kan ge energin 16 kWh. Hur stor laddning kan det ge? Svara i C.</p>",
+    "s": "<div class=\"facit-v2\"><p>En kWh är 3,6 MJ.</p><p>\\[\\begin{aligned}E&=16\\cdot3{,}6\\cdot10^6\\\\&=57{,}6\\cdot10^6\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=E/U\\\\&=57{,}6\\cdot10^6/340\\\\&\\approx1{,}69\\cdot10^5\\ \\mathrm C\\end{aligned}\\]</p></div>",
     "id": "8.453",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 169411.76470588235,
-    "tolerans": 5100.0,
+    "tolerans": 5000.0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(E=QU\\).</p>",
+    "ledtrad": "<p>Skriv energin i joule och använd \\(E=UQ\\).</p>",
     "traningsniva": 2,
     "svarEnhet": "C",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "avfrostning av bakruta",
-    "poang": "(0/2/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En bakruta (0,52 m²) är täckt av is vid 0 °C. Värmetrådarna drivs med 12 V och 23 A. Isens smältvärme är 334 kJ/kg och densitet 917 kg/m³. Hur tjock kan isen högst vara för att smälta på 3,0 min?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=12\\cdot23\\cdot180\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{E}{334\\cdot10^3}\\].</div></div><div class=\"facit-stycke\"><p>Tjocklek: \\(\\dfrac{m}{917\\cdot0{,}52}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00031\\) m</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En bilruta med arean 0,52 m² täcks av ett jämnt islager vid 0 °C. Rutans elvärmare drar 23 A vid 12 V och är på i 180 s. Isens densitet är 917 kg/m³ och smältvärme är 334 kJ/kg. Hur tjockt islager kan värmaren som mest smälta? Svara i mm.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UIt\\\\&=12\\cdot23\\cdot180\\\\&=49\\,680\\ \\mathrm J\\end{aligned}\\]</p><p>Största möjliga mängd smält is fås om hela energin används till smältning.</p><p>\\[\\begin{aligned}m&=E/L\\\\&=49\\,680/334\\,000\\\\&\\approx0{,}149\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}V&=m/\\rho\\\\&\\approx1{,}62\\cdot10^{-4}\\ \\mathrm{m^3}\\end{aligned}\\]</p><p>\\[\\begin{aligned}d&=V/A\\\\&\\approx3{,}12\\cdot10^{-4}\\ \\mathrm m\\\\&=0{,}312\\ \\mathrm{mm}\\end{aligned}\\]</p></div>",
     "id": "8.454",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0003119338037288396,
-    "tolerans": 5.1e-06,
+    "rättSvar": 0.3119338037288396,
+    "tolerans": 0.007798345093220991,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Energi, massa, volym och sedan tjocklek.</p>",
+    "ledtrad": "<p>Energin ger den största möjliga massan smält is. Använd sedan densiteten och rutans area.</p>",
     "traningsniva": 4,
-    "svarEnhet": "m",
+    "svarEnhet": "mm",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "kylvatten till elektromagnet",
-    "poang": "(0/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En elektromagnet drivs med 240 V och 21,5 A och kyls med vatten. Hur mycket vatten måste passera per minut för att vattnet ska värmas högst 6,50 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=240\\cdot21{,}5\\cdot60\\) per minut.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\dfrac{E}{4\\,180\\cdot6{,}50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) kg</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektromagnet drar 21,5 A vid 240 V. Den kyls med vatten som får bli 6,5 °C varmare. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all elenergi värmer vattnet. Hur många kg vatten behövs per minut?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=240\\cdot21{,}5\\\\&=5160\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=P\\cdot60\\\\&=309\\,600\\ \\mathrm J\\end{aligned}\\]</p><p>Denna energi ska tas upp av vattnet under en minut.</p><p>\\[\\begin{aligned}m&=Q/(c\\Delta T)\\\\&=309\\,600/(4180\\cdot6{,}5)\\\\&\\approx11{,}4\\ \\mathrm{kg}\\end{aligned}\\]</p><p>Det behövs cirka 11 kg vatten per minut.</p></div>",
     "id": "8.455",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 11.394920868605078,
-    "tolerans": 0.51,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>All elenergi blir värme i vattnet.</p>",
-    "traningsniva": 3,
-    "svarEnhet": "kg",
+    "ledtrad": "<p>Hur mycket energi måste kylvattnet ta upp under 60 s?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg/min",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "E",
-    "typ": "kraftledning och transformering",
-    "poang": "(2/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p><ol type=\"a\"><li>Hur stor effekt förloras i ledningarna?</li><li>Spänningen höjs till 50 000 V. Hur stor blir förlusten nu?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{750\\cdot10^3}{12\\,000}=62{,}5\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=RI^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,719\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=15\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=3{,}0\\cdot15^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(675\\) W</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Från en kraftstation skickas 750 kW genom en ledning med resistansen 3,0 Ω. Spänningen vid kraftstationen är först 12 kV och höjs sedan till 50 kV.</p><p>a) Vilken effekt blir värme i ledningen vid 12 kV? Svara i W.</p><p>b) Vilken effekt blir värme i ledningen vid 50 kV? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=P/U\\\\&=750\\,000/12\\,000\\\\&=62{,}5\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=I^2R\\\\&=62{,}5^2\\cdot3{,}0\\\\&=11\\,718{,}75\\ \\mathrm W\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=750\\,000/50\\,000\\\\&=15\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=15^2\\cdot3{,}0\\\\&=675\\ \\mathrm W\\end{aligned}\\]</p></div></div>",
     "id": "8.456",
     "miniräknare": true,
     "geogebra": false,
@@ -120595,13 +123151,15 @@ window.BANK = [
       675
     ],
     "tolerans": [
-      510.0,
-      10.1
+      500.0,
+      16.875
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -120617,157 +123175,167 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p>",
+    "spelIntro": "<p>Från en kraftstation skickas 750 kW genom en ledning med resistansen 3,0 Ω. Spänningen vid kraftstationen är först 12 kV och höjs sedan till 50 kV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor effekt förloras i ledningarna?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p><p>Hur stor effekt förloras i ledningarna?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=\\dfrac{750\\cdot10^3}{12\\,000}=62{,}5\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=RI^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,719\\) W</p></div>",
-        "ledtrad": "<p>Bestäm strömmen först.</p>",
+        "fraga": "Från en kraftstation skickas 750 kW vid 12 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=P/U\\\\&=750\\,000/12\\,000\\\\&=62{,}5\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=I^2R\\\\&=62{,}5^2\\cdot3{,}0\\\\&=11\\,718{,}75\\ \\mathrm W\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 11718.75,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 500.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/1/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna först strömmen och sedan \\(I²R\\).</p>",
+        "t": "<p>Från en kraftstation skickas 750 kW vid 12 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? Svara i W.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Spänningen höjs till 50 000 V. Hur stor blir förlusten nu?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En kraftstation levererar 750 kW vid 12 000 V via ledningar med den totala resistansen 3,0 Ω.</p><p>Spänningen höjs till 50 000 V. Hur stor blir förlusten nu?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(I=15\\) A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=3{,}0\\cdot15^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(675\\) W</p></div>",
-        "ledtrad": "<p>Högre spänning ger lägre ström.</p>",
+        "fraga": "Från en kraftstation skickas 750 kW vid 50 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=750\\,000/50\\,000\\\\&=15\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=15^2\\cdot3{,}0\\\\&=675\\ \\mathrm W\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 675,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 16.875,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Beräkna först strömmen vid den angivna spänningen.</p>",
+        "t": "<p>Från en kraftstation skickas 750 kW vid 50 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? Svara i W.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Förlusten är \\(RI^2\\).</p>",
+    "ledtrad": "<p>Beräkna först strömmen och sedan \\(I²R\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "vattenkokare i husvagn",
-    "poang": "(0/2/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En vattenkokare för 12 V värmer 120 g vatten från 25 °C till 95 °C på 8,0 min med verkningsgraden 85 %. Hur stor ström drar den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}120\\cdot4\\,180\\cdot70\\].</div></div><div class=\"facit-stycke\"><p>Tillförd energi \\(\\dfrac{Q}{0{,}85}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\dfrac{E}{Ut}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\) A</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En 12 V-värmare värmer 0,120 kg vatten från 20 °C till 90 °C på 8,0 minuter. 85 % av elenergin värmer vattnet. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Hur stor är strömmen? Svara i A.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[Q=0{,}120\\cdot4180\\cdot70=35\\,112\\ \\mathrm J\\]</p><p>\\[E_{\\text{el}}=Q/0{,}85\\approx41\\,308\\ \\mathrm J\\]</p><p>Tiden är 8,0 · 60 = 480 s.</p><p>\\[P=E_{\\text{el}}/480\\approx86{,}1\\ \\mathrm W\\]</p><p>\\[I=P/12\\approx7{,}17\\ \\mathrm A\\]</p></div>",
     "id": "8.457",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 7.171568627450981,
-    "tolerans": 0.108,
+    "tolerans": 0.17928921568627454,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna med verkningsgraden.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Hur stor elenergi behövs när 85 % värmer vattnet?</p>",
+    "traningsniva": 2,
     "svarEnhet": "A",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "doppvärmare",
-    "poang": "(1/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En doppvärmare (100 Ω) kopplas till 230 V. Hur lång tid tar det att värma 0,50 kg vatten från 20 °C till 100 °C om all värme går till vattnet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{230^2}{100}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}50\\cdot4\\,180\\cdot80\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac QP\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(316\\) s</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En värmare har resistansen 100 Ω och ansluts till 230 V. Den ska värma 0,50 kg vatten från 20 °C till 100 °C. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all värme går till vattnet. Hur lång tid tar det? Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=U^2/R\\\\&=230^2/100\\\\&=529\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=0{,}50\\cdot4180\\cdot80\\\\&=167\\,200\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=167\\,200/529\\\\&\\approx316\\ \\mathrm s\\end{aligned}\\]</p></div>",
     "id": "8.458",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 316.0680529300567,
-    "tolerans": 5.1,
+    "tolerans": 7.901701323251418,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=\\dfrac{U^2}R\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna värmarens effekt och vattnets energibehov.</p>",
+    "traningsniva": 2,
     "svarEnhet": "s",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "varmvattenberedare",
-    "poang": "(0/2/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Vatten har specifika värmekapaciteten 4,18 kJ/(kg·K).</p><p>En varmvattenberedare värmer 109 kg vatten från 20,0 °C till 49,0 °C på 25,0 min vid 230 V. Hur stor resistans har värmeelementet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{109\\cdot4\\,180\\cdot29{,}0}{1\\,500}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{U^2}{P}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\) Ω</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En elvärmare ansluts till 230 V. Den värmer 109 kg vatten med 29 °C på 25 minuter. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all värme går till vattnet. Bestäm värmarens resistans. Svara i Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=109\\cdot4180\\cdot29\\\\&=13212980\\ \\mathrm J\\end{aligned}\\]</p><p>Tiden är 25 · 60 = 1 500 s.</p><p>\\[\\begin{aligned}P&=Q/t\\\\&\\approx8809\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=U^2/P\\\\&\\approx6{,}01\\ \\Omega\\end{aligned}\\]</p></div>",
     "id": "8.459",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 6.005458269065722,
-    "tolerans": 0.0901,
+    "tolerans": 0.15013645672664305,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm effekten först.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna först värmeenergin och effekten.</p>",
+    "traningsniva": 2,
     "svarEnhet": "Ω",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "varmkorv",
-    "poang": "(1/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>I en varmkorvmaskin sitter ett värmeelement med resistansen 900 Ω kopplat till 230 V. Hur lång tid tar det att värma en korv (60 g, specifik värmekapacitet 2,5 kJ/(kg·K)) från 8,0 °C till 80 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}060\\cdot2\\,500\\cdot72\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=\\dfrac{230^2}{900}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac QP\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(184\\) s</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En korv har massan 60 g och ska värmas med 72 °C. Dess specifika värmekapacitet är 2 500 J/(kg·°C). En värmare med resistansen 900 Ω ansluts till 230 V. Räkna med att all värme går till korven. Hur lång tid tar uppvärmningen? Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Massan är 0,060 kg.</p><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=0{,}060\\cdot2500\\cdot72\\\\&=10\\,800\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=U^2/R\\\\&=230^2/900\\\\&\\approx58{,}8\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&\\approx184\\ \\mathrm s\\end{aligned}\\]</p></div>",
     "id": "8.460",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 183.74291115311908,
-    "tolerans": 5.1,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=\\dfrac{U^2}R\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Hur mycket värme behövs och vilken effekt ger värmaren?</p>",
+    "traningsniva": 2,
     "svarEnhet": "s",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "förluster i sladd",
-    "poang": "(0/2/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En luftkonditionering drivs med 220 V och 18 A. Sladden har två kopparledare, var och en 3,5 m lång med diametern 1,628 mm.</p><ol type=\"a\"><li>Hur stor effekt utvecklas i sladden?</li><li>Apparaten används 12 h per dag i 30 dygn. Vad kostar förlusten i sladden vid 2,00 kr/kWh?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ledarlängd 7,0 m: \\(R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot(0{,}814\\cdot10^{-3})^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=RI^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=P\\cdot12\\cdot30\\) Wh.</p></div><div class=\"facit-stycke\"><p>Kostnad \\(2{,}00\\) kr per kWh.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\) kr</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm. Strömmen är 18 A.</p><p>a) Vilken effekt blir värme i kabeln? Svara i W.</p><p>b) Vad kostar denna energi under 360 timmar om elpriset är 2,0 kr/kWh? Svara i kr.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Strömmen går fram och tillbaka genom två ledare. Total ledarlängd är 7,0 m. Radien är 0,814 mm = 0,000814 m.</p><p>\\[A=\\pi r^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\rho L/A\\approx0{,}0572\\ \\Omega\\]</p><p>\\[P=I^2R=18^2\\cdot R\\approx18{,}5\\ \\mathrm W\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=P t\\approx0{,}018522\\cdot360\\approx6{,}668\\ \\mathrm{kWh}\\]</p><p>\\[\\text{Kostnad}=E\\cdot2{,}0\\approx13{,}34\\ \\mathrm{kr}\\]</p></div></div>",
     "id": "8.461",
     "miniräknare": true,
     "geogebra": false,
@@ -120778,13 +123346,15 @@ window.BANK = [
       13.336006102701504
     ],
     "tolerans": [
-      0.51,
-      0.51
+      0.5,
+      0.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -120800,45 +123370,59 @@ window.BANK = [
       "kr"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En luftkonditionering drivs med 220 V och 18 A. Sladden har två kopparledare, var och en 3,5 m lång med diametern 1,628 mm.</p>",
+    "spelIntro": "<p>En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm. Strömmen är 18 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor effekt utvecklas i sladden?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En luftkonditionering drivs med 220 V och 18 A. Sladden har två kopparledare, var och en 3,5 m lång med diametern 1,628 mm.</p><p>Hur stor effekt utvecklas i sladden?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ledarlängd 7,0 m: \\(R=\\dfrac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot(0{,}814\\cdot10^{-3})^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=RI^2\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\) W</p></div>",
-        "ledtrad": "<p>Strömmen går fram och tillbaka.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm och strömmen 18 A. Vilken effekt blir värme i kabeln? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>Strömmen går fram och tillbaka genom två ledare. Total ledarlängd är 7,0 m. Radien är 0,814 mm = 0,000814 m.</p><p>\\[A=\\pi r^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\rho L/A\\approx0{,}0572\\ \\Omega\\]</p><p>\\[P=I^2R=18^2\\cdot R\\approx18{,}5\\ \\mathrm W\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 18.522230698196534,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Strömmen går genom båda ledarna. Beräkna area, resistans och värmeeffekt.</p>",
+        "t": "<p>En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm och strömmen 18 A. Vilken effekt blir värme i kabeln? Svara i W.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vad kostar energiförlusten i sladden? Svara i kr.",
-        "t": "<p>Förlusteffekten i en sladd är 18,5 W. Sladden används 12 h per dag i 30 dygn. Elen kostar 2,00 kr/kWh.</p><p>Vad kostar energiförlusten i sladden? Svara i kr.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Räkna först energin i kWh. Multiplicera sedan med priset per kWh.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}0185\\cdot12\\cdot30=6{,}66\\,\\mathrm{kWh},\\qquad K=6{,}66\\cdot2{,}00=13{,}32\\,\\mathrm{kr}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 13 kr.</p></div>",
-        "ledtrad": "<p>Räkna energin i kWh.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "I en kabel blir 18,5 W värme. Den används under 360 timmar. Elpriset är 2,0 kr/kWh. Vad kostar energin som blir värme? Svara i kr.",
+        "s": "<div class=\"facit-v2\"><p>18,5 W = 0,0185 kW.</p><p>\\[E=0{,}0185\\cdot360=6{,}66\\ \\mathrm{kWh}\\]</p><p>\\[\\text{Kostnad}=6{,}66\\cdot2{,}0=13{,}32\\ \\mathrm{kr}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 13.319999999999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kr",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
         "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "t": "<p>I en kabel blir 18,5 W värme. Den används under 360 timmar. Elpriset är 2,0 kr/kWh. Vad kostar energin som blir värme? Svara i kr.</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Förlusten är \\(RI^2\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Strömmen går genom båda ledarna. Beräkna area, resistans och värmeeffekt.</p>",
+    "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
     "niva": "C",
-    "typ": "avfrostning av frys",
     "poang": "(1/1/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En avfrostningstråd i en frys kopplas till 230 V och har strömmen 1,50 A. Isens specifika värmekapacitet är 2,1 kJ/(kg·K) och smältvärmet 334 kJ/kg.</p><ol type=\"a\"><li>Hur stor resistans har tråden?</li><li>Hur lång tid tar det att smälta 720 g is som håller −18 °C?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{230}{1{,}50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(153\\) Ω</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}720(2\\,100\\cdot18+334\\,000)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{Q}{230\\cdot1{,}50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(776\\) s</p></li></ol></div>",
+    "t": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. Räkna med att all värme går till isen.</p><p>a) Bestäm värmarens resistans i Ω.</p><p>b) Hur lång tid behövs för att få vatten vid 0 °C? Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=230/1{,}5\\\\&\\approx153\\ \\Omega\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Isen måste först värmas till 0 °C och sedan smältas.</p><p>\\[\\begin{aligned}Q_{\\text{värma}}&=mc\\Delta T\\\\&=0{,}72\\cdot2100\\cdot18\\\\&=27\\,216\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q_{\\text{smälta}}&=mL\\\\&=0{,}72\\cdot334\\,000\\\\&=240\\,480\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=27\\,216+240\\,480\\\\&=267\\,696\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}5\\\\&=345\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=267\\,696/345\\\\&\\approx776\\ \\mathrm s\\end{aligned}\\]</p></div></div>",
     "id": "8.462",
     "miniräknare": true,
     "geogebra": false,
@@ -120849,13 +123433,16 @@ window.BANK = [
       775.9304347826087
     ],
     "tolerans": [
-      2.3,
-      11.6
+      5.0,
+      19.39826086956522
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -120871,64 +123458,78 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En avfrostningstråd i en frys kopplas till 230 V och har strömmen 1,50 A. Isens specifika värmekapacitet är 2,1 kJ/(kg·K) och smältvärmet 334 kJ/kg.</p>",
+    "spelIntro": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. Räkna med att all värme går till isen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm trådens resistans. Svara i Ω.",
-        "t": "<p>En avfrostningstråd är kopplad till spänningen 230 V och har strömmen 1,50 A.</p><p>Bestäm trådens resistans. Svara i Ω.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{230}{1{,}50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(153\\) Ω</p></div>",
-        "ledtrad": "<p>Ohms lag.</p>",
+        "fraga": "En värmare drar 1,5 A vid 230 V. Bestäm resistansen i Ω.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=230/1{,}5\\\\&\\approx153\\ \\Omega\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 153.33333333333334,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Ω",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "t": "<p>En värmare drar 1,5 A vid 230 V. Bestäm resistansen i Ω.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur lång tid tar det att smälta 720 g is som håller −18 °C?",
-        "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>En avfrostningstråd i en frys kopplas till 230 V och har strömmen 1,50 A. Isens specifika värmekapacitet är 2,1 kJ/(kg·K) och smältvärmet 334 kJ/kg.</p><p>Hur lång tid tar det att smälta 720 g is som håller −18 °C?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=0{,}720(2\\,100\\cdot18+334\\,000)\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{Q}{230\\cdot1{,}50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(776\\) s</p></div>",
-        "ledtrad": "<p>Värm isen till 0 °C och smält den.</p>",
+        "fraga": "En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. All värme går till isen. Hur lång tid behövs för att få vatten vid 0 °C? Svara i s.",
+        "s": "<div class=\"facit-v2\"><p>Isen måste först värmas till 0 °C och sedan smältas.</p><p>\\[\\begin{aligned}Q_{\\text{värma}}&=mc\\Delta T\\\\&=0{,}72\\cdot2100\\cdot18\\\\&=27\\,216\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q_{\\text{smälta}}&=mL\\\\&=0{,}72\\cdot334\\,000\\\\&=240\\,480\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=27\\,216+240\\,480\\\\&=267\\,696\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}5\\\\&=345\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=267\\,696/345\\\\&\\approx776\\ \\mathrm s\\end{aligned}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 775.9304347826087,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s",
+        "tolerans": 19.39826086956522,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Dela energin i uppvärmning till 0 °C och smältning.</p>",
+        "t": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. All värme går till isen. Hur lång tid behövs för att få vatten vid 0 °C? Svara i s.</p>",
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>\\(E=Pt\\).</p>",
+    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
     "traningsniva": 3,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 8,
     "omr": "kopplingar",
-    "niva": "C",
-    "typ": "värmefilt med koppartråd",
-    "poang": "(0/2/0)",
-    "t": "<p>Elektrisk effekt: \\(P=UI=RI^2=\\dfrac{U^2}{R}\\). Energi: \\(E=Pt\\).</p><p>Koppar har resistiviteten \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En värmefilt ska avge 18 W från ett batteri på 1,5 V med en koppartråd med diametern 0,50 mm. Hur lång ska tråden vara?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\dfrac{U^2}{P}=\\dfrac{1{,}5^2}{18}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[l=\\dfrac{RA}{\\rho}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) m</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En värmetråd i en filt ska utveckla effekten 18 W vid 1,5 V. Tråden är rund och gjord av koppar med resistiviteten 1,7·10⁻⁸ Ωm. Diametern är 0,50 mm. Hur lång ska tråden vara? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=1{,}5^2/18=0{,}125\\ \\Omega\\]</p><p>Radien är 0,25 mm = 2,5·10⁻⁴ m.</p><p>\\[A=\\pi r^2\\approx1{,}96\\cdot10^{-7}\\ \\mathrm{m^2}\\]</p><p>\\[L=RA/\\rho\\approx1{,}44\\ \\mathrm m\\]</p></div>",
     "id": "8.463",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk effekt och energi",
     "svarstyp": "numeriskt",
     "rättSvar": 1.443746623892368,
-    "tolerans": 0.051,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm resistansen först.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Bestäm först den resistans som ger rätt effekt. Beräkna sedan trådens area.</p>",
+    "traningsniva": 2,
     "svarEnhet": "m",
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "3.180",

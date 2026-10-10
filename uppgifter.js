@@ -100102,10 +100102,9 @@ window.BANK = [
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "absorberad dos från energi och massa",
     "poang": "(1/0/0)",
-    "t": "<p>En kropp med massan \\(60\\,\\mathrm{kg}\\) absorberar \\(0{,}030\\,\\mathrm J\\) strålningsenergi. Bestäm absorberad dos i mGy.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är absorberad energi per kilogram.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac{E}{m}=\\frac{0{,}030}{60}=5{,}0\\cdot10^{-4}\\ \\mathrm{Gy}=0{,}50\\ \\mathrm{mGy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\ \\mathrm{mGy}\\).</p></div>",
+    "t": "<p>En kropp med massan 60 kg absorberar 0,03 J strålningsenergi. Bestäm den absorberade dosen i mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}03/60\\]</p><p>\\[D\\approx0{,}0005\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=0{,}0005\\cdot1000\\]</p><p>\\[D\\approx0{,}5\\ \\mathrm{mGy}\\]</p></div></p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -100113,11 +100112,11 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 0,
+    "tolerans": 0.0125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mGy",
     "traningsniva": 2,
@@ -100126,17 +100125,17 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.153",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "absorberad energi från dos och massa",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad med massan \\(2{,}4\\,\\mathrm{kg}\\) får absorberad dos \\(3{,}5\\,\\mathrm{mGy}\\). Hur mycket strålningsenergi absorberas i mJ?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut energin ur sambandet mellan dos, energi och massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Dm=3{,}5\\cdot10^{-3}\\cdot2{,}4=8{,}4\\cdot10^{-3}\\ \\mathrm J=8{,}4\\ \\mathrm{mJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}4\\ \\mathrm{mJ}\\).</p></div>",
+    "t": "<p>En vävnad har massan 2,4 kg och får den absorberade dosen 3,5 mGy. Hur mycket strålningsenergi tar den upp? Svara i mJ.</p>",
+    "s": "<div class=\"facit-v2\"><p>1 mGy är 1 mJ/kg.</p><p><div class=\"facit-v2\"><p>\\[E=3{,}5\\cdot2{,}4\\]</p><p>\\[E\\approx8{,}4\\ \\mathrm{mJ}\\]</p></div></p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -100144,30 +100143,30 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 8.4,
-    "tolerans": 0.126,
+    "tolerans": 0.21000000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mJ",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.154",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "massa från absorberad energi och dos",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad absorberar \\(4{,}5\\,\\mathrm{mJ}\\) och får dosen \\(1{,}8\\,\\mathrm{mGy}\\). Bestäm vävnadens massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{E}{D}=\\frac{4{,}5\\cdot10^{-3}}{1{,}8\\cdot10^{-3}}=2{,}5\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{kg}\\).</p></div>",
+    "t": "<p>En vävnad absorberar 4,5 mJ strålningsenergi och får dosen 1,8 mGy. Hur stor massa har vävnaden?</p>",
+    "s": "<div class=\"facit-v2\"><p>1 mGy är 1 mJ/kg.</p><p><div class=\"facit-v2\"><p>\\[m=4{,}5/1{,}8\\]</p><p>\\[m\\approx2{,}5\\ \\mathrm{kg}\\]</p></div></p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -100175,20 +100174,21 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0.0375,
+    "tolerans": 0.0625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.3",
@@ -100787,7 +100787,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd definitionen och jämför alternativen ett i taget.</p>",
+    "ledtrad": "<p>Bq anger sönderfall per sekund. Gy anger absorberad energi per kilogram. Sv används för viktad stråldos.</p>",
     "alternativ": [
       {
         "txt": "gray (Gy)",
@@ -100797,7 +100797,7 @@ window.BANK = [
       {
         "txt": "sievert (Sv)",
         "ratt": false,
-        "kommentar": "Sievert används för ekvivalent/effectiv dos."
+        "kommentar": "Sievert används för ekvivalent eller effektiv dos."
       },
       {
         "txt": "becquerel (Bq)",
@@ -100838,7 +100838,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd definitionen och jämför alternativen ett i taget.</p>",
+    "ledtrad": "<p>Bq anger sönderfall per sekund. Gy anger absorberad energi per kilogram. Sv används för viktad stråldos.</p>",
     "alternativ": [
       {
         "txt": "1 J/kg",
@@ -101381,10 +101381,9 @@ window.BANK = [
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "omvandla gray till milligray",
     "poang": "(1/0/0)",
-    "t": "<p>Omvandla \\(0{,}0065\\,\\mathrm{Gy}\\) till mGy.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Prefixet milli betyder en tusendel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0065\\ \\mathrm{Gy}=6{,}5\\ \\mathrm{mGy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}5\\ \\mathrm{mGy}\\).</p></div>",
+    "t": "<p>Omvandla 0,0065 Gy till mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p>Milli betyder en tusendel.</p><p><div class=\"facit-v2\"><p>\\[D=0{,}0065\\cdot1000\\]</p><p>\\[D\\approx6{,}5\\ \\mathrm{mGy}\\]</p></div></p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -101392,11 +101391,11 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 6.5,
-    "tolerans": 0.0975,
+    "tolerans": 0.1625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>1 Gy = 1 000 mGy.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mGy",
     "traningsniva": 1,
@@ -101405,17 +101404,17 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.158",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "omvandla milligray till gray",
     "poang": "(1/0/0)",
-    "t": "<p>Omvandla \\(6{,}0\\,\\mathrm{mGy}\\) till Gy.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Milli betyder \\(10^{-3}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[6{,}0\\ \\mathrm{mGy}=6{,}0\\cdot10^{-3}\\ \\mathrm{Gy}=0{,}0060\\ \\mathrm{Gy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0060\\ \\mathrm{Gy}\\).</p></div>",
+    "t": "<p>Omvandla 6 mGy till Gy.</p>",
+    "s": "<div class=\"facit-v2\"><p>Milli betyder en tusendel.</p><p><div class=\"facit-v2\"><p>\\[D=6\\cdot0{,}001\\]</p><p>\\[D\\approx0{,}006\\ \\mathrm{Gy}\\]</p></div></p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -101423,11 +101422,11 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 0.006,
-    "tolerans": 0,
+    "tolerans": 0.00015000000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>1 Gy = 1 000 mGy.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Gy",
     "traningsniva": 1,
@@ -101436,17 +101435,17 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.159",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "ekvivalent dos för gammastrålning",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad får absorberad dos \\(2{,}5\\,\\mathrm{mGy}\\) av gammastrålning. Strålningsviktfaktorn är \\(1\\). Bestäm ekvivalent dos i mSv.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos fås genom att multiplicera absorberad dos med strålningsviktfaktorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=w_R D=1\\cdot2{,}5=2{,}5\\ \\mathrm{mSv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{mSv}\\).</p></div>",
+    "t": "<p>En vävnad får den absorberade dosen 2,5 mGy från gammastrålning. Strålningens viktfaktor är 1. Bestäm den ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>När den absorberade dosen anges i mGy får vi ekvivalent dos i mSv.</p><p><div class=\"facit-v2\"><p>\\[H=1\\cdot2{,}5\\]</p><p>\\[H\\approx2{,}5\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -101454,11 +101453,11 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0,
+    "tolerans": 0.0625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mSv",
     "traningsniva": 1,
@@ -101467,7 +101466,8 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.13",
@@ -101560,22 +101560,21 @@ window.BANK = [
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "ekvivalent dos för alfastrålning",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad får absorberad dos \\(0{,}23\\,\\mathrm{mGy}\\) av alfastrålning. Strålningsviktfaktorn är \\(20\\). Bestäm ekvivalent dos i mSv.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfastrålningens viktfaktor multipliceras med den absorberade dosen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot0{,}23=4{,}6\\ \\mathrm{mSv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}6\\ \\mathrm{mSv}\\).</p></div>",
+    "t": "<p>En vävnad får den absorberade dosen 0,23 mGy från alfastrålning. Strålningens viktfaktor är 20. Bestäm den ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>När den absorberade dosen anges i mGy får vi ekvivalent dos i mSv.</p><p><div class=\"facit-v2\"><p>\\[H=20\\cdot0{,}23\\]</p><p>\\[H\\approx4{,}6\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.6,
-    "tolerans": 0.069,
+    "rättSvar": 4.6000000000000005,
+    "tolerans": 0.11500000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mSv",
     "traningsniva": 1,
@@ -101584,17 +101583,17 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.161",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "absorberad dos från ekvivalent dos gamma",
     "poang": "(1/0/0)",
-    "t": "<p>En gammastråldos ger ekvivalent dos \\(4{,}5\\,\\mathrm{mSv}\\). Strålningsviktfaktorn är \\(1\\). Bestäm absorberad dos i mGy.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För gamma är viktfaktorn 1, så talvärdet blir detsamma i mGy och mSv.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{4{,}5}{1}=4{,}5\\ \\mathrm{mGy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm{mGy}\\).</p></div>",
+    "t": "<p>En vävnad får den ekvivalenta dosen 4,5 mSv. Strålningens viktfaktor är 1. Bestäm den absorberade dosen i mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[D=4{,}5/1\\]</p><p>\\[D\\approx4{,}5\\ \\mathrm{mGy}\\]</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -101602,11 +101601,11 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.0675,
+    "tolerans": 0.1125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mGy",
     "traningsniva": 1,
@@ -101615,47 +101614,49 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.14",
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "kombinera avståndslagen med tillåten dos för att bestämma arbetstid, ur text, sökt dosrat och tid",
-    "poang": "(1/2/0)",
-    "t": "<p>En strålkälla ger dosraten 480 µSv/h på avståndet 1,0 m. En person arbetar 3,0 m från källan och får som mest ta emot 1,0 mSv.</p>\n<p>Hur länge kan personen arbeta där?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid 3,0 m blir dosraten</p><div class=\"facit-matte\">\\[\\dot H=480\\left(\\frac{1{,}0}{3{,}0}\\right)^2=53{,}3\\ \\mu\\mathrm{Sv/h}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Den maximala dosen 1,0 mSv är 1000 µSv.</p><div class=\"facit-matte\">\\[t=\\frac H{\\dot H}=\\frac{1000}{53{,}3}=18{,}75\\ \\mathrm h\\]</div><p>Detta antar oförändrad geometri och dosrat under hela tiden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Personen kan arbeta där i högst cirka \\(19\\ \\mathrm h\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En liten strålkälla ger 480 µSv per timme på avståndet 1,0 m. Dosen per timme avtar med avståndet i kvadrat. Hur länge tar det att få dosen 1,0 mSv på avståndet 3,0 m? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H=480(1/3)^2\\]</p><p>\\[\\dot H\\approx53{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p>\\[1{,}0\\ \\mathrm{mSv}=1000\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[t=1000/(480/9)\\]</p><p>\\[t\\approx18{,}8\\ \\mathrm{h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.75,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "ledtrad": "<p>Använd först avståndet för att få dos per timme. Dividera sedan dosen med den.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "svarEnhet": "h",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "9.162",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "absorberad dos från ekvivalent dos alfa",
     "poang": "(1/0/0)",
-    "t": "<p>En alfastråldos ger ekvivalent dos \\(10\\,\\mathrm{mSv}\\). Strålningsviktfaktorn är \\(20\\). Bestäm absorberad dos i mGy.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut absorberad dos.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{10}{20}=0{,}50\\ \\mathrm{mGy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\ \\mathrm{mGy}\\).</p></div>",
+    "t": "<p>En vävnad får den ekvivalenta dosen 10 mSv. Strålningens viktfaktor är 20. Bestäm den absorberade dosen i mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[D=10/20\\]</p><p>\\[D\\approx0{,}5\\ \\mathrm{mGy}\\]</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -101663,20 +101664,21 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 0,
+    "tolerans": 0.0125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mGy",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.163",
@@ -101698,7 +101700,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd definitionen och jämför alternativen ett i taget.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "alternativ": [
       {
         "txt": "Vävnaden som bestrålas med alfa.",
@@ -101749,7 +101751,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd definitionen och jämför alternativen ett i taget.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "alternativ": [
       {
         "txt": "sievert (Sv)",
@@ -101784,59 +101786,157 @@ window.BANK = [
     "id": "9.15",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "jämföra absorberad dos och ekvivalent dos för alfa och gamma, ur text, sökt dos",
-    "poang": "(1/2/0)",
-    "t": "<p>Ekvivalent dos fås genom att multiplicera den absorberade dosen med en viktfaktor, som är 1 för gammastrålning och 20 för alfastrålning. En person får under ett år 0,80 mGy gammastrålning mot hela kroppen och dessutom 0,15 mGy alfastrålning i lungorna från inandat radon.</p>\n<ol><li>Vilken ekvivalent dos ger vardera strålslaget?</li>\n<li>Hur stor blir den sammanlagda ekvivalenta dosen?</li>\n<li>Alfastrålning stoppas av ett papper. Varför får den ändå viktfaktorn 20?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna varje bidrag med \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_\\gamma=(1)(0{,}80)=0{,}80\\ \\mathrm{mSv}\\]\\[H_\\alpha=(20)(0{,}15)=3{,}0\\ \\mathrm{mSv}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summera bidragen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_{\\mathrm{tot}}=0{,}80+3{,}0=3{,}8\\ \\mathrm{mSv}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar har mycket kort räckvidd och hög jonisationstäthet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Utanför kroppen stoppas de lätt, men inandat radon placerar de alfastrålande ämnena inne i lungvävnaden, där energin avges lokalt.</p></div><div class=\"facit-stycke\"><p>Viktfaktorn beskriver större biologisk skada per absorberad joule.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gamma bidrar med \\(0{,}80\\ \\mathrm{mSv}\\), alfa med \\(3{,}0\\ \\mathrm{mSv}\\), totalt \\(3{,}8\\ \\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Lungvävnad får 0,80 mGy gammastrålning och 0,15 mGy alfastrålning. Viktfaktorerna är 1 för gamma och 20 för alfa.</p><p>a) Bestäm den ekvivalenta dosen från varje strålslag i mSv.</p><p>b) Bestäm den sammanlagda ekvivalenta dosen i lungvävnaden.</p><p>c) Varför kan alfastrålning vara skadlig när ett alfastrålande ämne andas in?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot0{,}80=0{,}80\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot0{,}15=3{,}0\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[H=0{,}80+3{,}0=3{,}8\\ \\mathrm{mSv}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När ämnet finns inne i kroppen når alfapartiklarna vävnaden direkt. Energin avges på en kort sträcka och kan orsaka stor skada i cellerna.</p></div></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Beräkna varje bidrag med \\(H=w_RD\\). Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        0.8,
+        3
+      ],
+      3.8,
+      null
+    ],
+    "tolerans": [
+      [
+        0.020000000000000004,
+        0.07500000000000001
+      ],
+      0.095,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ekvivalent dos fås genom att multiplicera den absorberade dosen med en viktfaktor, som är 1 för gammastrålning och 20 för alfastrålning. En person får under ett år 0,80 mGy gammastrålning mot hela kroppen och dessutom 0,15 mGy alfastrålning i lungorna från inandat radon.</p>",
+    "spelIntro": "<p>Lungvävnad får 0,80 mGy gammastrålning och 0,15 mGy alfastrålning. Viktfaktorerna är 1 för gamma och 20 för alfa.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken ekvivalent dos ger vardera strålslaget?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna varje bidrag med \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_\\gamma=(1)(0{,}80)=0{,}80\\ \\mathrm{mSv}\\]\\[H_\\alpha=(20)(0{,}15)=3{,}0\\ \\mathrm{mSv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\ \\mathrm{mSv}\\).</p></div>",
-        "ledtrad": "<p>Beräkna varje bidrag med \\(H=w_RD\\). Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "Lungvävnad får 0,80 mGy från gamma och 0,15 mGy från alfa. Viktfaktorerna är 1 respektive 20. Bestäm den ekvivalenta dosen från varje strålslag i mSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot0{,}80=0{,}80\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot0{,}15=3{,}0\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0.8,
+          3
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "mSv",
+          "mSv"
+        ],
+        "tolerans": [
+          0.020000000000000004,
+          0.07500000000000001
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>Lungvävnad får 0,80 mGy från gamma och 0,15 mGy från alfa. Viktfaktorerna är 1 respektive 20. Bestäm den ekvivalenta dosen från varje strålslag i mSv.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Gamma",
+          "Alfa"
+        ],
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor blir den sammanlagda ekvivalenta dosen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summera bidragen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_{\\mathrm{tot}}=0{,}80+3{,}0=3{,}8\\ \\mathrm{mSv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}8\\ \\mathrm{mSv}\\).</p></div>",
-        "ledtrad": "<p>Beräkna varje bidrag med \\(H=w_RD\\). Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Samma lungvävnad får de ekvivalenta doserna 0,80 mSv från gamma och 3,0 mSv från alfa. Bestäm den sammanlagda ekvivalenta dosen i vävnaden.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=0{,}80+3{,}0=3{,}8\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.8,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mSv",
+        "tolerans": 0.095,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>Samma lungvävnad får de ekvivalenta doserna 0,80 mSv från gamma och 3,0 mSv från alfa. Bestäm den sammanlagda ekvivalenta dosen i vävnaden.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Alfastrålning stoppas av ett papper. Varför får den ändå viktfaktorn 20?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar har mycket kort räckvidd och hög jonisationstäthet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Utanför kroppen stoppas de lätt, men inandat radon placerar de alfastrålande ämnena inne i lungvävnaden, där energin avges lokalt.</p></div><div class=\"facit-stycke\"><p>Viktfaktorn beskriver större biologisk skada per absorberad joule.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Beräkna varje bidrag med \\(H=w_RD\\). Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Alfastrålning stoppas lätt utanför kroppen. Varför kan alfastrålande ämnen ändå vara skadliga när de andas in?",
+        "s": "<div class=\"facit-v2\"><p>När ämnet finns inne i kroppen når alfapartiklarna vävnaden direkt. Energin avges på en kort sträcka och kan orsaka stor skada i cellerna.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Strålningen avger energi på en kort sträcka inne i lungvävnaden.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Strålningen avger energi på en kort sträcka inne i lungvävnaden.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Alfastrålningen blir gammastrålning när den andas in.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Inuti kroppen har alfapartiklar ingen laddning.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Var finns strålkällan efter inandningen?</p>",
+        "t": "<p>Alfastrålning stoppas lätt utanför kroppen. Varför kan alfastrålande ämnen ändå vara skadliga när de andas in?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      [
+        "mSv",
+        "mSv"
+      ],
+      "mSv",
+      null
     ]
   },
   {
@@ -101844,10 +101944,9 @@ window.BANK = [
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "dos från dosrat och tid",
     "poang": "(1/0/0)",
-    "t": "<p>Dosraten är \\(20\\,\\mu\\mathrm{Sv/h}\\). Hur stor dos fås under \\(3{,}0\\,\\mathrm h\\), om dosraten är konstant?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dos är dosrat gånger tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot3{,}0=60\\ \\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "t": "<p>Dosen per timme är 20 µSv. Hur stor dos får en person på 3 timmar? Svara i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[H=20\\cdot3\\]</p><p>\\[H\\approx60\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
@@ -101855,11 +101954,11 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 0,
+    "tolerans": 1.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv",
     "traningsniva": 1,
@@ -101868,29 +101967,29 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.166",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "dosrat från dos och tid",
     "poang": "(1/0/0)",
-    "t": "<p>En person får dosen \\(75\\,\\mu\\mathrm{Sv}\\) under \\(3{,}5\\,\\mathrm h\\). Bestäm den genomsnittliga dosraten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dosraten är dos per tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H=\\frac{75}{3{,}5}\\approx21{,}4\\ \\mu\\mathrm{Sv/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21{,}4\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
+    "t": "<p>En person får dosen 75 µSv på 3,5 timmar. Hur stor är dosen per timme? Svara i µSv/h.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\dot H=75/3{,}5\\]</p><p>\\[\\dot H\\approx21{,}4\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 21.4285714286,
-    "tolerans": 0.321,
+    "rättSvar": 21.428571428571427,
+    "tolerans": 0.5357142857142857,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv/h",
     "traningsniva": 1,
@@ -101899,7 +101998,8 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.16",
@@ -106165,47 +106265,91 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Absorberad dos mäts i gray, där 1 Gy = 1 J/kg. En person med massan 60 kg absorberar 3,0 mJ strålningsenergi jämnt fördelad över kroppen.</p>\n<ol><li>Vilken absorberad dos motsvarar det?</li>\n<li>Strålningen är gammastrålning med viktfaktorn 1. Vilken ekvivalent dos ger det?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är absorberad energi per massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac Em=\\frac{3{,}0\\cdot10^{-3}}{60}=5{,}0\\cdot10^{-5}\\ \\mathrm{Gy}=50\\ \\mu\\mathrm{Gy}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos är absorberad dos gånger strålningens viktfaktor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=w_RD=(1)(50\\ \\mu\\mathrm{Gy})=50\\ \\mu\\mathrm{Sv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den absorberade dosen är \\(50\\ \\mu\\mathrm{Gy}\\), och den ekvivalenta dosen \\(50\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "t": "<p>En kropp har massan 60 kg och absorberar 3,0 mJ gammastrålning. Strålningens viktfaktor är 1.</p><p>a) Bestäm den absorberade dosen i µGy.</p><p>b) Bestäm den ekvivalenta dosen i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=3{,}0\\cdot10^{-3}\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[D=0{,}0030/60\\]</p><p>\\[D\\approx5\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p>\\[D=50\\ \\mathrm{\\mu Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[H=1\\cdot50=50\\ \\mathrm{\\mu Sv}\\]</p></div></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Absorberad dos är absorberad energi per massa. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      50
+    ],
+    "tolerans": [
+      1.25,
+      1.25
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Absorberad dos mäts i gray, där 1 Gy = 1 J/kg. En person med massan 60 kg absorberar 3,0 mJ strålningsenergi jämnt fördelad över kroppen.</p>",
+    "spelIntro": "<p>En kropp har massan 60 kg och absorberar 3,0 mJ gammastrålning. Strålningens viktfaktor är 1.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken absorberad dos motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är absorberad energi per massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac Em=\\frac{3{,}0\\cdot10^{-3}}{60}=5{,}0\\cdot10^{-5}\\ \\mathrm{Gy}=50\\ \\mu\\mathrm{Gy}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mu\\mathrm{Gy}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är absorberad energi per massa. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "En kropp med massan 60 kg absorberar 3,0 mJ strålningsenergi. Bestäm den absorberade dosen i µGy.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=3{,}0\\cdot10^{-3}\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[D=0{,}0030/60\\]</p><p>\\[D\\approx5\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p>\\[D=50\\ \\mathrm{\\mu Gy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µGy",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "t": "<p>En kropp med massan 60 kg absorberar 3,0 mJ strålningsenergi. Bestäm den absorberade dosen i µGy.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Strålningen är gammastrålning med viktfaktorn 1. Vilken ekvivalent dos ger det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos är absorberad dos gånger strålningens viktfaktor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=w_RD=(1)(50\\ \\mu\\mathrm{Gy})=50\\ \\mu\\mathrm{Sv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mu\\mathrm{Sv}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är absorberad energi per massa. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "En vävnad får den absorberade dosen 50 µGy av gamma. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i µSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=1\\cdot50=50\\ \\mathrm{\\mu Sv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µSv",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En vävnad får den absorberade dosen 50 µGy av gamma. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i µSv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "µGy",
+      "µSv"
     ]
   },
   {
@@ -106228,7 +106372,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd definitionen och jämför alternativen ett i taget.</p>",
+    "ledtrad": "<p>Bq anger sönderfall per sekund. Gy anger absorberad energi per kilogram. Sv används för viktad stråldos.</p>",
     "alternativ": [
       {
         "txt": "Bq mäter aktivitet och Gy mäter absorberad dos.",
@@ -106264,63 +106408,62 @@ window.BANK = [
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "absorberad energi från mGy och massa",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad med massan \\(4{,}2\\,\\mathrm{kg}\\) får absorberad dos \\(1{,}5\\,\\mathrm{mGy}\\). Bestäm den absorberade energin i mJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin fås av dos gånger massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Dm=1{,}5\\cdot10^{-3}\\cdot4{,}2=6{,}3\\cdot10^{-3}\\ \\mathrm J=6{,}3\\ \\mathrm{mJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\ \\mathrm{mJ}\\).</p></div>",
+    "t": "<p>En vävnad har massan 4,2 kg och får den absorberade dosen 1,5 mGy. Hur mycket strålningsenergi tar den upp? Svara i mJ.</p>",
+    "s": "<div class=\"facit-v2\"><p>1 mGy är 1 mJ/kg.</p><p><div class=\"facit-v2\"><p>\\[E=1{,}5\\cdot4{,}2\\]</p><p>\\[E\\approx6{,}3\\ \\mathrm{mJ}\\]</p></div></p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.3,
-    "tolerans": 0.0945,
+    "rättSvar": 6.300000000000001,
+    "tolerans": 0.15750000000000003,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mJ",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.169",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,2 m? Svara i µSv/h.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=100(1/2{,}2)^2\\]</p><p>\\[\\dot H_2\\approx20{,}7\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
+    "familj": "Dosrat, avstånd och strålskydd",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.661157024793386,
+    "tolerans": 0.5165289256198347,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "µSv/h",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.169",
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "C",
-    "typ": "inversa kvadratlagen för dosrat",
-    "poang": "(0/2/0)",
-    "t": "<p>Dosraten från en liten gammakälla är \\(100\\,\\mu\\mathrm{Sv/h}\\) på avståndet \\(1{,}0\\,\\mathrm m\\). Anta inversa kvadratlagen och bortse från absorption i luft. Bestäm dosraten på \\(2{,}2\\,\\mathrm m\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en punktkälla sprids strålningen över en sfäryta som växer med \\(r^2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_2=\\dot H_1\\left(\\frac{r_1}{r_2}\\right)^2=100\\left(\\frac1{2{,}2}\\right)^2\\approx20{,}7\\ \\mu\\mathrm{Sv/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20{,}7\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
-    "familj": "Dosrat, avstånd och strålskydd",
-    "formaga": [
-      "modellering",
-      "procedur"
     ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "numeriskt",
-    "rättSvar": 20.6611570248,
-    "tolerans": 0.372,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>När avståndet ökar sprids samma strålning över en större sfäryta.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "µSv/h",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
+    "manuellKomplettering": false
   },
   {
     "id": "9.45",
@@ -111108,259 +111251,446 @@ window.BANK = [
     "id": "9.89",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "summera ekvivalent dos från tre strålslag med olika viktfaktorer, ur text, sökt dos och andel",
-    "poang": "(1/2/0)",
-    "t": "<p>En person utsätts samtidigt för tre strålslag: 1,5 mGy gammastrålning med viktfaktorn 1, 0,20 mGy neutronstrålning med viktfaktorn 10 och 0,050 mGy alfastrålning med viktfaktorn 20.</p>\n<p>Hur stor blir den totala ekvivalenta dosen, och vilket strålslag bidrar mest i förhållande till sin absorberade dos?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna de tre ekvivalenta dosbidragen.</p><div class=\"facit-matte\">\\[H_\\gamma=(1)(1{,}5)=1{,}5\\ \\mathrm{mSv}\\]\\[H_n=(10)(0{,}20)=2{,}0\\ \\mathrm{mSv}\\]\\[H_\\alpha=(20)(0{,}050)=1{,}0\\ \\mathrm{mSv}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Summera bidragen.</p><div class=\"facit-matte\">\\[H_{\\mathrm{tot}}=1{,}5+2{,}0+1{,}0=4{,}5\\ \\mathrm{mSv}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Alfastrålningen ger störst ekvivalent dos per absorberad milligray eftersom viktfaktorn är 20.</p><p class=\"facit-metod\">I just denna blandning ger neutronerna ändå det största absoluta bidraget, 2,0 mSv.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den totala ekvivalenta dosen är \\(4{,}5\\ \\mathrm{mSv}\\). Alfa bidrar mest per absorberad dos; neutronerna ger här det största enskilda dosbidraget.</p></div>",
-    "familj": "Ekvivalent dos (Sv)",
-    "formaga": [
-      "procedur"
-    ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "numeriskt",
-    "rättSvar": 4.5,
-    "tolerans": 0.0675,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "mSv",
-    "ledtrad": "<p>Beräkna de tre ekvivalenta dosbidragen. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-    "geogebra": false,
-    "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.170",
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "C",
-    "typ": "ekvivalent dos med strålningsviktfaktor",
-    "poang": "(0/2/0)",
-    "t": "<p>En vävnad får absorberad dos \\(3{,}5\\,\\mathrm{mGy}\\) från gammastrålning. Strålningsviktfaktorn är \\(w_R=1\\). Bestäm ekvivalent dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=1\\cdot0{,}0035=0{,}0035\\ \\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\ \\mathrm{mSv}\\).</p></div>",
-    "familj": "Ekvivalent dos (Sv)",
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.5,
-    "tolerans": 0.063,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>Multiplicera absorberad dos i Gy med strålningsviktfaktorn.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "mSv",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.171",
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "C",
-    "typ": "inversa kvadratlagen för dosrat",
-    "poang": "(0/2/0)",
-    "t": "<p>Dosraten från en liten gammakälla är \\(100\\,\\mu\\mathrm{Sv/h}\\) på avståndet \\(1{,}0\\,\\mathrm m\\). Anta inversa kvadratlagen och bortse från absorption i luft. Bestäm dosraten på \\(3{,}5\\,\\mathrm m\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en punktkälla sprids strålningen över en sfäryta som växer med \\(r^2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_2=\\dot H_1\\left(\\frac{r_1}{r_2}\\right)^2=100\\left(\\frac1{3,5}\\right)^2=8{,}163\\ \\mu\\mathrm{Sv/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}163\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
-    "familj": "Dosrat, avstånd och strålskydd",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "numeriskt",
-    "rättSvar": 8.163265,
-    "tolerans": 0.146939,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>När avståndet ökar sprids samma strålning över en större sfäryta.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "µSv/h",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.90",
-    "kap": 9,
-    "omr": "straldoser",
     "niva": "E",
-    "typ": "beräkna saknade värden bland absorberad dos viktfaktor och ekvivalent dos, ur tabell, sökt dos och viktfaktor",
     "poang": "(2/0/0)",
-    "t": "<p>Tabellen visar fyra bestrålningar. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th>Strålslag</th><th>D (mGy)</th><th>Viktfaktor</th><th>H (mSv)</th></tr><tr><td>gamma</td><td>2,5</td><td>1</td><td>?</td></tr><tr><td>beta</td><td>?</td><td>1</td><td>8,0</td></tr><tr><td>alfa</td><td>0,30</td><td>20</td><td>?</td></tr><tr><td>neutroner</td><td>1,5</td><td>?</td><td>15</td></tr></table>\n<p>Fyll i tabellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd sambandet \\(H=w_RD\\) rad för rad.</p><div class=\"facit-matte\">\\[H_\\gamma=(1)(2{,}5)=2{,}5\\ \\mathrm{mSv}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">För beta är viktfaktorn 1.</p><div class=\"facit-matte\">\\[D_\\beta=\\frac{8{,}0}{1}=8{,}0\\ \\mathrm{mGy}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">För alfa blir</p><div class=\"facit-matte\">\\[H_\\alpha=(20)(0{,}30)=6{,}0\\ \\mathrm{mSv}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Neutronernas viktfaktor fås av</p><div class=\"facit-matte\">\\[w_R=\\frac{15}{1{,}5}=10\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(2{,}5\\ \\mathrm{mSv}\\), \\(8{,}0\\ \\mathrm{mGy}\\), \\(6{,}0\\ \\mathrm{mSv}\\) och viktfaktorn 10.</p></div>",
+    "t": "<p>a) Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p><p>b) Vilket strålslag ger störst ekvivalent dos per absorberad dos? Motivera.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot1{,}5=1{,}5\\ \\mathrm{mSv}\\]</p><p>\\[H_n=10\\cdot0{,}20=2{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot0{,}050=1{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H=1{,}5+2{,}0+1{,}0=4{,}5\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Störst viktfaktor ger störst ekvivalent dos när den absorberade dosen är samma.</p></div></div>",
     "familj": "Ekvivalent dos (Sv)",
-    "formaga": [
-      "procedur"
-    ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Använd sambandet \\(H=w_RD\\) rad för rad. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-    "geogebra": false,
-    "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.172",
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "C",
-    "typ": "ekvivalent dos med strålningsviktfaktor",
-    "poang": "(0/2/0)",
-    "t": "<p>En vävnad får absorberad dos \\(2\\,\\mathrm{mGy}\\) från alfastrålning. Strålningsviktfaktorn är \\(w_R=20\\). Bestäm ekvivalent dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot0{,}002=0{,}04\\ \\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\ \\mathrm{mSv}\\).</p></div>",
-    "familj": "Ekvivalent dos (Sv)",
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "numeriskt",
-    "rättSvar": 40,
-    "tolerans": 0.72,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>Multiplicera absorberad dos i Gy med strålningsviktfaktorn.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "mSv",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.173",
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "C",
-    "typ": "stråldos, dosrat och skärmning",
-    "poang": "(0/2/0)",
-    "t": "<p>En person med massan \\(60\\,\\mathrm{kg}\\) absorberar totalt \\(0{,}012\\,\\mathrm J\\) joniserande strålningsenergi jämnt i kroppen. Bestäm den absorberade dosen i mGy.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är energi per massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac{0{,}012}{60}=2\\cdot10^{-4}\\,\\mathrm{Gy}=0,2\\,\\mathrm{mGy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}2\\,\\mathrm{mGy}\\).</p></div>",
-    "familj": "Absorberad dos (Gy)",
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.2,
-    "tolerans": 0.0036,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>Kontrollera först om uppgiften handlar om energi per massa, viktning med \\(w_R\\), tid, avstånd eller skärmning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "mGy",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.174",
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "C",
-    "typ": "ekvivalent dos med strålningsviktfaktor",
-    "poang": "(0/2/0)",
-    "t": "<p>En vävnad får absorberad dos \\(3{,}6\\,\\mathrm{mGy}\\) från gammastrålning. Strålningsviktfaktorn är \\(w_R=1\\). Bestäm ekvivalent dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=1\\cdot0{,}0036=0{,}0036\\ \\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\ \\mathrm{mSv}\\).</p></div>",
-    "familj": "Ekvivalent dos (Sv)",
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.6,
-    "tolerans": 0.0648,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>Multiplicera absorberad dos i Gy med strålningsviktfaktorn.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "mSv",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "stralning",
-    "familjTidigare": [
-      "Absorberad och ekvivalent dos"
-    ]
-  },
-  {
-    "id": "9.91",
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En strålkälla ger dosraten 120 µSv/h på avståndet 1,0 m.</p>\n<ol><li>Vilken dosrat råder på 3,0 m avstånd?</li><li>På vilket avstånd är dosraten 5,0 µSv/h?</li>\n<li>Vilken av åtgärderna avstånd, tid och avskärmning är billigast i praktiken?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en liten källa som strålar lika åt alla håll används avståndslagen: strålningen avtar som 1/r².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_3=120\\left(\\frac{1{,}0}{3{,}0}\\right)^2=13{,}3\\ \\mu\\mathrm{Sv/h}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös avståndslagen efter \\(r\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[5{,}0=120\\left(\\frac{1{,}0}{r}\\right)^2\\Rightarrow r=\\sqrt{24}=4{,}90\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Att öka avståndet är ofta den enklaste och billigaste åtgärden när arbetsuppgiften tillåter det, eftersom dosraten minskar med avståndet i kvadrat.</p></div><div class=\"facit-stycke\"><p>I praktiken kombineras kort tid, stort avstånd och lämplig avskärmning; vilken åtgärd som kostar minst beror på situationen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Dosraten är \\(13\\ \\mu\\mathrm{Sv/h}\\) vid 3,0 m och \\(5{,}0\\ \\mu\\mathrm{Sv/h}\\) vid cirka 4,9 m. Avstånd är ofta billigast när det är praktiskt möjligt.</p></div>",
-    "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      4.9,
+      4.5,
       null
     ],
     "tolerans": [
-      null,
-      0.0735,
+      0.1125,
       null
     ],
     "självrättning": [
-      false,
       true,
       false
     ],
     "svarFormat": [
-      null,
       "numeriskt",
       null
     ],
     "svarEnhet": [
-      null,
+      "mSv",
+      null
+    ],
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+    "geogebra": false,
+    "miniräknare": true,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "spelIntro": "",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Bestäm den sammanlagda ekvivalenta dosen i mSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot1{,}5=1{,}5\\ \\mathrm{mSv}\\]</p><p>\\[H_n=10\\cdot0{,}20=2{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot0{,}050=1{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H=1{,}5+2{,}0+1{,}0=4{,}5\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mSv",
+        "tolerans": 0.1125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "Gamma, neutroner och alfa har i en uppgift viktfaktorerna 1, 10 respektive 20. Vilket strålslag ger störst ekvivalent dos om alla ger samma absorberade dos?",
+        "s": "<div class=\"facit-v2\"><p>Störst viktfaktor ger störst ekvivalent dos när den absorberade dosen är samma.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Alfastrålning.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Alfastrålning.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Gammastrålning.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Neutronstrålning.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>Gamma, neutroner och alfa har i en uppgift viktfaktorerna 1, 10 respektive 20. Vilket strålslag ger störst ekvivalent dos om alla ger samma absorberade dos?</p>",
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "manuellKomplettering": true
+  },
+  {
+    "id": "9.170",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En vävnad får den absorberade dosen 3,5 mGy från gammastrålning. Strålningens viktfaktor är 1. Bestäm den ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>När den absorberade dosen anges i mGy får vi ekvivalent dos i mSv.</p><p><div class=\"facit-v2\"><p>\\[H=1\\cdot3{,}5\\]</p><p>\\[H\\approx3{,}5\\ \\mathrm{mSv}\\]</p></div></p></div>",
+    "familj": "Ekvivalent dos (Sv)",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.5,
+    "tolerans": 0.08750000000000001,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mSv",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.171",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 3,5 m? Svara i µSv/h.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=100(1/3{,}5)^2\\]</p><p>\\[\\dot H_2\\approx8{,}16\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
+    "familj": "Dosrat, avstånd och strålskydd",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.16326530612245,
+    "tolerans": 0.20408163265306123,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "µSv/h",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.90",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>a) En vävnad får 2,5 mGy gamma med viktfaktorn 1. Bestäm ekvivalent dos i mSv.</p><p>b) En vävnad får 8,0 mSv ekvivalent dos från beta med viktfaktorn 1. Bestäm absorberad dos i mGy.</p><p>c) En vävnad får 0,30 mGy alfa med viktfaktorn 20. Bestäm ekvivalent dos i mSv.</p><p>d) En vävnad får 1,5 mGy absorberad dos och 15 mSv ekvivalent dos. Bestäm viktfaktorn.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H=1\\cdot2{,}5=2{,}5\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[D=8{,}0/1=8{,}0\\ \\mathrm{mGy}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[H=20\\cdot0{,}30=6{,}0\\ \\mathrm{mSv}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[w=15/1{,}5=10\\]</p></div></div>",
+    "familj": "Ekvivalent dos (Sv)",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5,
+      8,
+      6,
+      10
+    ],
+    "tolerans": [
+      0.0625,
+      0.2,
+      0.15000000000000002,
+      0.5
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+    "geogebra": false,
+    "miniräknare": true,
+    "traningsniva": 1,
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "spelIntro": "",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En vävnad får 2,5 mGy gamma med viktfaktorn 1. Bestäm ekvivalent dos i mSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=1\\cdot2{,}5=2{,}5\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mSv",
+        "tolerans": 0.0625,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En vävnad får 2,5 mGy gamma med viktfaktorn 1. Bestäm ekvivalent dos i mSv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En vävnad får 8,0 mSv ekvivalent dos från beta med viktfaktorn 1. Bestäm absorberad dos i mGy.",
+        "s": "<div class=\"facit-v2\"><p>\\[D=8{,}0/1=8{,}0\\ \\mathrm{mGy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mGy",
+        "tolerans": 0.2,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En vävnad får 8,0 mSv ekvivalent dos från beta med viktfaktorn 1. Bestäm absorberad dos i mGy.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "En vävnad får 0,30 mGy alfa med viktfaktorn 20. Bestäm ekvivalent dos i mSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=20\\cdot0{,}30=6{,}0\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mSv",
+        "tolerans": 0.15000000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En vävnad får 0,30 mGy alfa med viktfaktorn 20. Bestäm ekvivalent dos i mSv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "d",
+        "fraga": "En vävnad får 1,5 mGy absorberad dos och 15 mSv ekvivalent dos. Bestäm viktfaktorn.",
+        "s": "<div class=\"facit-v2\"><p>\\[w=15/1{,}5=10\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En vävnad får 1,5 mGy absorberad dos och 15 mSv ekvivalent dos. Bestäm viktfaktorn.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "mSv",
+      "mGy",
+      "mSv",
+      null
+    ]
+  },
+  {
+    "id": "9.172",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En vävnad får den absorberade dosen 2 mGy från alfastrålning. Strålningens viktfaktor är 20. Bestäm den ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>När den absorberade dosen anges i mGy får vi ekvivalent dos i mSv.</p><p><div class=\"facit-v2\"><p>\\[H=20\\cdot2\\]</p><p>\\[H\\approx40\\ \\mathrm{mSv}\\]</p></div></p></div>",
+    "familj": "Ekvivalent dos (Sv)",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 1.0,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mSv",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.173",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kropp med massan 60 kg absorberar 0,012 J strålningsenergi. Bestäm den absorberade dosen i mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}012/60\\]</p><p>\\[D\\approx0{,}0002\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=0{,}0002\\cdot1000\\]</p><p>\\[D\\approx0{,}2\\ \\mathrm{mGy}\\]</p></div></p></div>",
+    "familj": "Absorberad dos (Gy)",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.2,
+    "tolerans": 0.005000000000000001,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mGy",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.174",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Gammastrålning ger den ekvivalenta dosen 3,6 mSv. Strålningens viktfaktor är 1. Bestäm den absorberade dosen i mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[D=3{,}6/1\\]</p><p>\\[D\\approx3{,}6\\ \\mathrm{mGy}\\]</p></div>",
+    "familj": "Ekvivalent dos (Sv)",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.6,
+    "tolerans": 0.09000000000000001,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mGy",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": "stralning",
+    "familjTidigare": [
+      "Absorberad och ekvivalent dos"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.91",
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p><p>a) Bestäm dosen per timme på 3,0 m. Svara i µSv/h.</p><p>b) På vilket avstånd är dosen per timme 5,0 µSv/h? Svara i m.</p><p>c) Hur kan tid, avstånd och skyddsskärm minska dosen?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\dot H=120(1/3)^2\\]</p><p>\\[\\dot H\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[5{,}0=120(1/r)^2\\]</p><p>\\[r^2=120/5=24\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{24}\\]</p><p>\\[r\\approx4{,}9\\ \\mathrm{m}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kortare tid minskar den tid man utsätts. Större avstånd minskar strålningen per yta. En lämplig skärm stoppar en del av strålningen.</p></div></div>",
+    "familj": "Dosrat, avstånd och strålskydd",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13.333333333333334,
+      4.898979485566356,
+      null
+    ],
+    "tolerans": [
+      0.5,
+      0.1224744871391589,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "µSv/h",
       "m",
       null
     ],
@@ -111370,39 +111700,88 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>För en liten källa som strålar lika åt alla håll används avståndslagen: strålningen avtar som 1/r².</p>",
+    "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En strålkälla ger dosraten 120 µSv/h på avståndet 1,0 m.</p>",
+    "spelIntro": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken dosrat råder på 3,0 m avstånd?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en liten källa som strålar lika åt alla håll används avståndslagen: strålningen avtar som 1/r².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_3=120\\left(\\frac{1{,}0}{3{,}0}\\right)^2=13{,}3\\ \\mu\\mathrm{Sv/h}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}3\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
-        "ledtrad": "<p>För en liten källa som strålar lika åt alla håll används avståndslagen: strålningen avtar som 1/r².</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 3,0 m. Svara i µSv/h.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\dot H=120(1/3)^2\\]</p><p>\\[\\dot H\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 13.333333333333334,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µSv/h",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 3,0 m. Svara i µSv/h.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "På vilket avstånd är dosraten 5,0 µSv/h?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös avståndslagen efter \\(r\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[5{,}0=120\\left(\\frac{1{,}0}{r}\\right)^2\\Rightarrow r=\\sqrt{24}=4{,}90\\ \\mathrm m\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}90\\ \\mathrm m\\).</p></div>",
-        "ledtrad": "<p>För en liten källa som strålar lika åt alla håll används avståndslagen: strålningen avtar som 1/r².</p>",
+        "fraga": "En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 5,0 µSv/h? Svara i m.",
+        "s": "<div class=\"facit-v2\"><p>\\[5{,}0=120(1/r)^2\\]</p><p>\\[r^2=120/5=24\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{24}\\]</p><p>\\[r\\approx4{,}9\\ \\mathrm{m}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.898979485566356,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 0.1224744871391589,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 5,0 µSv/h? Svara i m.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vilken av åtgärderna avstånd, tid och avskärmning är billigast i praktiken?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Att öka avståndet är ofta den enklaste och billigaste åtgärden när arbetsuppgiften tillåter det, eftersom dosraten minskar med avståndet i kvadrat.</p></div><div class=\"facit-stycke\"><p>I praktiken kombineras kort tid, stort avstånd och lämplig avskärmning; vilken åtgärd som kostar minst beror på situationen.</p></div></div></div></div></div>",
-        "ledtrad": "<p>För en liten källa som strålar lika åt alla håll används avståndslagen: strålningen avtar som 1/r².</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Vilka åtgärder kan minska dosen från en yttre strålkälla?",
+        "s": "<div class=\"facit-v2\"><p>Kortare tid minskar den tid man utsätts. Större avstånd minskar strålningen per yta. En lämplig skärm stoppar en del av strålningen.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kortare tid, större avstånd och lämplig skyddsskärm.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kortare tid, större avstånd och lämplig skyddsskärm.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Längre tid, mindre avstånd och ingen skyddsskärm.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Endast att byta dosenhet från mSv till µSv.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad ändrar hur mycket strålning kroppen tar emot?</p>",
+        "t": "<p>Vilka åtgärder kan minska dosen från en yttre strålkälla?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
@@ -111414,65 +111793,63 @@ window.BANK = [
     "id": "9.175",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "stråldos, dosrat och skärmning",
-    "poang": "(0/2/0)",
-    "t": "<p>Dosraten från en liten gammakälla är \\(120\\,\\mu\\mathrm{Sv/h}\\) på avståndet \\(0{,}80\\,\\mathrm m\\). Anta inversa kvadratlagen. Bestäm dosraten på \\(2{,}40\\,\\mathrm m\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dosraten från en punktkälla är omvänt proportionell mot avståndet i kvadrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_2=120\\left(\\frac{0{,}80}{2{,}40}\\right)^2=13{,}333333\\,\\mu\\mathrm{Sv/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}333333\\,\\mu\\mathrm{Sv/h}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En liten strålkälla ger 120 µSv per timme på avståndet 0,8 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,4 m? Svara i µSv/h.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=120(0{,}8/2{,}4)^2\\]</p><p>\\[\\dot H_2\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 13.333333333333336,
-    "tolerans": 0.24000000000000002,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kontrollera först om uppgiften handlar om energi per massa, viktning med \\(w_R\\), tid, avstånd eller skärmning.</p>",
+    "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv/h",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.176",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "ekvivalent dos med strålningsviktfaktor",
-    "poang": "(0/2/0)",
-    "t": "<p>En vävnad får absorberad dos \\(4\\,\\mathrm{mGy}\\) från alfastrålning. Strålningsviktfaktorn är \\(w_R=20\\). Bestäm ekvivalent dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot0{,}004=0{,}08\\ \\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\ \\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En vävnad får den absorberade dosen 4,0 mGy och den ekvivalenta dosen 80 mSv. Bestäm strålningens viktfaktor.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[w=80/4{,}0\\]</p><p>\\[w\\approx20\\]</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 80,
-    "tolerans": 1.44,
+    "rättSvar": 20,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Multiplicera absorberad dos i Gy med strålningsviktfaktorn.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "mSv",
-    "traningsniva": 3,
+    "svarEnhet": null,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.92",
@@ -111561,97 +111938,94 @@ window.BANK = [
     "id": "9.177",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "stråldos, dosrat och skärmning",
-    "poang": "(0/2/0)",
-    "t": "<p>En vävnad får den absorberade dosen \\(0{,}17\\,\\mathrm{mGy}\\) från alfastrålning. Strålningsviktfaktorn är \\(w_R=20\\). Bestäm den ekvivalenta dosen i mSv.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos fås genom att vikta den absorberade dosen med \\(w_R\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=w_RD=20\\cdot0{,}17=3{,}4\\,\\mathrm{mSv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\,\\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En vävnad får den absorberade dosen 0,17 mGy från alfastrålning. Strålningens viktfaktor är 20. Bestäm den ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>När den absorberade dosen anges i mGy får vi ekvivalent dos i mSv.</p><p><div class=\"facit-v2\"><p>\\[H=20\\cdot0{,}17\\]</p><p>\\[H\\approx3{,}4\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.4,
-    "tolerans": 0.0612,
+    "rättSvar": 3.4000000000000004,
+    "tolerans": 0.08500000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kontrollera först om uppgiften handlar om energi per massa, viktning med \\(w_R\\), tid, avstånd eller skärmning.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mSv",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.178",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "ekvivalent dos med strålningsviktfaktor",
-    "poang": "(0/2/0)",
-    "t": "<p>En patient som undersöks med en gammakamera får den absorberade dosen \\(2{,}5\\,\\mathrm{mGy}\\) i ett organ från gammastrålning. Strålningsviktfaktorn är \\(w_R=1\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=1\\cdot0{,}0025=0{,}0025\\ \\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Samma vävnad får gammastrålning vid två undersökningar. De absorberade doserna är 1,2 mGy och 1,3 mGy. Viktfaktorn är 1. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[D=1{,}2+1{,}3=2{,}5\\ \\mathrm{mGy}\\]</p><p>\\[H=wD=1\\cdot2{,}5=2{,}5\\ \\mathrm{mSv}\\]</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 0.045,
+    "tolerans": 0.0625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Multiplicera absorberad dos i Gy med strålningsviktfaktorn.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mSv",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.179",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "stråldos, dosrat och skärmning",
-    "poang": "(0/2/0)",
-    "t": "<p>I ett område är dosraten \\(35\\,\\mu\\mathrm{Sv/h}\\). Hur stor ekvivalent dos får en person som vistas där i \\(2{,}5\\,\\mathrm h\\), om dosraten kan antas konstant?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid konstant dosrat är dosen dosrat multiplicerad med tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=35\\cdot2{,}5=87,5\\,\\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(87{,}5\\,\\mu\\mathrm{Sv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Dosen per timme är 35 µSv. Hur stor dos får en person på 2,5 timmar? Svara i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[H=35\\cdot2{,}5\\]</p><p>\\[H\\approx87{,}5\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 87.5,
-    "tolerans": 1.575,
+    "tolerans": 2.1875,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kontrollera först om uppgiften handlar om energi per massa, viktning med \\(w_R\\), tid, avstånd eller skärmning.</p>",
+    "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.93",
@@ -111687,75 +112061,72 @@ window.BANK = [
     "id": "9.180",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "ekvivalent dos med strålningsviktfaktor",
-    "poang": "(0/2/0)",
-    "t": "<p>En vävnad får absorberad dos \\(3{,}5\\,\\mathrm{mGy}\\) från alfastrålning. Strålningsviktfaktorn är \\(w_R=20\\). Bestäm ekvivalent dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot0{,}0035=0{,}07\\ \\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\ \\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Alfastrålningens viktfaktor är 20. Vilken absorberad dos i mGy ger den ekvivalenta dosen 70 mSv?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[D=70/20\\]</p><p>\\[D\\approx3{,}5\\ \\mathrm{mGy}\\]</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 70,
-    "tolerans": 1.26,
+    "rättSvar": 3.5,
+    "tolerans": 0.08750000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Multiplicera absorberad dos i Gy med strålningsviktfaktorn.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "mSv",
-    "traningsniva": 3,
+    "svarEnhet": "mGy",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.181",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "stråldos, dosrat och skärmning",
-    "poang": "(0/2/0)",
-    "t": "<p>En vävnad får den absorberade dosen \\(0{,}45\\,\\mathrm{mGy}\\) från en strålningstyp med \\(w_R=10\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera absorberad dos med strålningsviktfaktorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=10\\cdot0{,}45=4{,}5\\,\\mathrm{mSv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\,\\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En vävnad får den absorberade dosen 0,45 mGy från neutronstrålning. Strålningens viktfaktor är 10. Bestäm den ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>När den absorberade dosen anges i mGy får vi ekvivalent dos i mSv.</p><p><div class=\"facit-v2\"><p>\\[H=10\\cdot0{,}45\\]</p><p>\\[H\\approx4{,}5\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.081,
+    "tolerans": 0.1125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kontrollera först om uppgiften handlar om energi per massa, viktning med \\(w_R\\), tid, avstånd eller skärmning.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mSv",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.94",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "räkna om årlig bakgrundsdos till andra tidsintervall, ur text, sökt dos",
-    "poang": "(2/1/0)",
-    "t": "<p>Den genomsnittliga bakgrundsstrålningen i Sverige ger ungefär 2,4 mSv per år.</p>\n<ol><li>Hur stor dos får en person under 40 år?</li>\n<li>Hur stor är dosen per dygn, i mikrosievert?</li>\n<li>En flygresa ger ungefär 30 µSv. Hur många dygns bakgrundsstrålning motsvarar det?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 40 år blir dosen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=40(2{,}4)=96\\ \\mathrm{mSv}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dosen per dygn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_d=\\frac{2{,}4\\cdot1000}{365}=6{,}58\\ \\mu\\mathrm{Sv}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den angivna flygdosen motsvarar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{30}{6{,}58}=4{,}56\\ \\text{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> På 40 år blir dosen \\(96\\ \\mathrm{mSv}\\), per dygn cirka \\(6{,}6\\ \\mu\\mathrm{Sv}\\), och flygresan motsvarar cirka 4,6 dygn.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det på 40 år? Svara i mSv.</p><p>b) Vilken dos blir det per dygn? Svara i µSv.</p><p>c) En flygresa ger 30 µSv. Hur många dygns bakgrundsdos motsvarar det?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H=2{,}4\\cdot40=96\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=30/(2400/365)\\]</p><p>\\[t\\approx4{,}56\\ \\mathrm{dygn}\\]</p></div></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
@@ -111764,28 +112135,28 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       96,
-      6.58,
-      null
+      6.575342465753424,
+      4.5625
     ],
     "tolerans": [
-      1.44,
-      0.0987,
-      null
+      2.4000000000000004,
+      0.1643835616438356,
+      0.11398176291793315
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "mSv",
       "µSv",
-      null
+      "dygn"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -111793,41 +112164,74 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
+    "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Den genomsnittliga bakgrundsstrålningen i Sverige ger ungefär 2,4 mSv per år.</p>",
+    "spelIntro": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor dos får en person under 40 år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 40 år blir dosen</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=40(2{,}4)=96\\ \\mathrm{mSv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(96\\ \\mathrm{mSv}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
+        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år? Svara i mSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=2{,}4\\cdot40=96\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 96,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mSv",
+        "tolerans": 2.4000000000000004,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
+        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år? Svara i mSv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är dosen per dygn, i mikrosievert?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dosen per dygn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_d=\\frac{2{,}4\\cdot1000}{365}=6{,}58\\ \\mu\\mathrm{Sv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}58\\ \\mu\\mathrm{Sv}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
+        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Svara i µSv. Ett år är 365 dygn.",
+        "s": "<div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.575342465753424,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µSv",
+        "tolerans": 0.1643835616438356,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
+        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Svara i µSv. Ett år är 365 dygn.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "En flygresa ger ungefär 30 µSv. Hur många dygns bakgrundsstrålning motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den angivna flygdosen motsvarar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{30}{6{,}58}=4{,}56\\ \\text{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}56\\ \\text{dygn}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En flygresa ger dosen 30 µSv. Bakgrundsdosen är 6,58 µSv per dygn. Hur många dygns bakgrundsdos motsvarar resan?",
+        "s": "<div class=\"facit-v2\"><p>\\[t=30/6{,}58\\]</p><p>\\[t\\approx4{,}56\\ \\mathrm{dygn}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.5592705167173255,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "dygn",
+        "tolerans": 0.11398176291793315,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
+        "t": "<p>En flygresa ger dosen 30 µSv. Bakgrundsdosen är 6,58 µSv per dygn. Hur många dygns bakgrundsdos motsvarar resan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
@@ -111837,33 +112241,32 @@ window.BANK = [
     "id": "9.182",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "ekvivalent dos med strålningsviktfaktor",
-    "poang": "(0/2/0)",
-    "t": "<p>Vid strålbehandling med gammastrålning får frisk vävnad intill tumören den absorberade dosen \\(2{,}4\\,\\mathrm{mGy}\\). Strålningsviktfaktorn är \\(w_R=1\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålningstypens biologiska verkan: \\(H=w_RD\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=1\\cdot0{,}0024=0{,}0024\\ \\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\ \\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En vävnad får den absorberade dosen 2,4 mGy av gamma och lika stor absorberad dos av alfa. Viktfaktorerna är 1 för gamma och 20 för alfa. Hur många gånger större är den ekvivalenta dosen från alfa?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot2{,}4=2{,}4\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot2{,}4=48\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha/H_\\gamma=48/2{,}4=20\\]</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.4,
-    "tolerans": 0.0432,
+    "rättSvar": 20,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Multiplicera absorberad dos i Gy med strålningsviktfaktorn.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "mSv",
-    "traningsniva": 3,
+    "svarEnhet": null,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.183",
@@ -111933,181 +112336,315 @@ window.BANK = [
     "id": "9.95",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "beräkna ekvivalent dos ur absorberad dos och viktfaktor, ur text, sökt dos",
-    "poang": "(2/1/0)",
-    "t": "<p>Ekvivalent dos fås genom att multiplicera den absorberade dosen med en viktfaktor som beror på strålslaget. För gamma- och betastrålning är faktorn 1 och för alfastrålning 20.</p>\n<ol><li>En vävnad får den absorberade dosen 4,0 mGy gammastrålning. Vilken ekvivalent dos är det?</li>\n<li>Samma vävnad får i stället 4,0 mGy alfastrålning. Vilken ekvivalent dos blir det då?</li>\n<li>Varför är alfastrålning så mycket farligare vid samma absorberad dos?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För gammastrålning är viktfaktorn 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_\\gamma=w_RD=(1)(4{,}0)=4{,}0\\ \\mathrm{mSv}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För alfastrålning är viktfaktorn 20.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_\\alpha=(20)(4{,}0)=80\\ \\mathrm{mSv}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar är tunga och dubbelt laddade.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De växelverkar starkt och avger energin tätt längs en kort bana, vilket ger koncentrerade DNA-skador.</p></div><div class=\"facit-stycke\"><p>Detta gäller när alfakällan finns i eller mycket nära levande vävnad.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gamma ger \\(4{,}0\\ \\mathrm{mSv}\\), medan samma absorberade alfados ger \\(80\\ \\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En vävnad får 4,0 mGy av gamma eller alfa. Viktfaktorerna är 1 respektive 20.</p><p>a) Bestäm ekvivalent dos för gamma i mSv.</p><p>b) Bestäm ekvivalent dos för alfa i mSv.</p><p>c) Varför kan alfa ge större skada vid samma absorberade dos?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H=1\\cdot4{,}0=4{,}0\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[H=20\\cdot4{,}0=80\\ \\mathrm{mSv}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Samma dos betyder samma energi per kg. Alfapartiklar koncentrerar den till korta sträckor och kan därför ge större cellskador. Det är därför dosen viktas efter strålslag.</p></div></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>För gammastrålning är viktfaktorn 1. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      80,
+      null
+    ],
+    "tolerans": [
+      0.1,
+      2.0,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ekvivalent dos fås genom att multiplicera den absorberade dosen med en viktfaktor som beror på strålslaget. För gamma- och betastrålning är faktorn 1 och för alfastrålning 20.</p>",
+    "spelIntro": "<p>En vävnad får 4,0 mGy av gamma eller alfa. Viktfaktorerna är 1 respektive 20.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En vävnad får den absorberade dosen 4,0 mGy gammastrålning. Vilken ekvivalent dos är det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För gammastrålning är viktfaktorn 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_\\gamma=w_RD=(1)(4{,}0)=4{,}0\\ \\mathrm{mSv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mathrm{mSv}\\).</p></div>",
-        "ledtrad": "<p>För gammastrålning är viktfaktorn 1. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "En vävnad får 4,0 mGy gammastrålning. Viktfaktorn är 1. Bestäm ekvivalent dos i mSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=1\\cdot4{,}0=4{,}0\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mSv",
+        "tolerans": 0.1,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En vävnad får 4,0 mGy gammastrålning. Viktfaktorn är 1. Bestäm ekvivalent dos i mSv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Samma vävnad får i stället 4,0 mGy alfastrålning. Vilken ekvivalent dos blir det då?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För alfastrålning är viktfaktorn 20.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_\\alpha=(20)(4{,}0)=80\\ \\mathrm{mSv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\ \\mathrm{mSv}\\).</p></div>",
-        "ledtrad": "<p>För gammastrålning är viktfaktorn 1. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "En vävnad får 4,0 mGy alfastrålning. Viktfaktorn är 20. Bestäm ekvivalent dos i mSv.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=20\\cdot4{,}0=80\\ \\mathrm{mSv}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 80,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mSv",
+        "tolerans": 2.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En vävnad får 4,0 mGy alfastrålning. Viktfaktorn är 20. Bestäm ekvivalent dos i mSv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför är alfastrålning så mycket farligare vid samma absorberad dos?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar är tunga och dubbelt laddade.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De växelverkar starkt och avger energin tätt längs en kort bana, vilket ger koncentrerade DNA-skador.</p></div><div class=\"facit-stycke\"><p>Detta gäller när alfakällan finns i eller mycket nära levande vävnad.</p></div></div></div></div></div>",
-        "ledtrad": "<p>För gammastrålning är viktfaktorn 1. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Gamma och alfa ger samma absorberade dos i en vävnad. Varför kan alfa ge större biologisk skada?",
+        "s": "<div class=\"facit-v2\"><p>Samma dos betyder samma energi per kg. Alfapartiklar koncentrerar den till korta sträckor och kan därför ge större cellskador. Det är därför dosen viktas efter strålslag.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Alfapartiklarna avger sin energi tätt på en kort sträcka.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Alfapartiklarna avger sin energi tätt på en kort sträcka.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Alfapartiklar har ingen laddning.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Samma absorberade dos betyder att alfa avger mer total energi per kg.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>Gamma och alfa ger samma absorberade dos i en vävnad. Varför kan alfa ge större biologisk skada?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "mSv",
+      "mSv",
+      null
     ]
   },
   {
     "id": "9.185",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "kombinera skärmning, dosrat och exponeringstid",
-    "poang": "(0/1/2)",
-    "t": "<p>Utan skärmning är dosraten \\(90\\,\\mu\\mathrm{Sv/h}\\). En skärm reducerar dosraten till \\(25\\,\\%\\) av ursprungsvärdet. En person vistas där i \\(0{,}75\\,\\mathrm h\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärmningen ändrar först dosraten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därefter multipliceras kvarvarande dosrat med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=90\\cdot0{,}25\\cdot0{,}75=16{,}88\\ \\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16{,}88\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Utan skyddsskärm är dosen per timme 90 µSv. Skärmen släpper igenom 25 % av strålningen. Vilken dos får en person bakom skärmen på 0,75 timmar? Svara i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H=90\\cdot0{,}25\\]</p><p>\\[\\dot H\\approx22{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=22{,}5\\cdot0{,}75\\]</p><p>\\[H\\approx16{,}9\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 16.875,
-    "tolerans": 0.30375,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Räkna först fram dosraten bakom skärmen, sedan dosen för vistelsetiden.</p>",
+    "ledtrad": "<p>Räkna dosen per timme bakom skärmen och multiplicera med tiden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.186",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "summera ekvivalent dos från flera strålslag",
-    "poang": "(0/1/2)",
-    "t": "<p>En vävnad får samtidigt \\(1{,}0\\,\\mathrm{mGy}\\) alfastrålning med \\(w_R=20\\) och \\(4{,}0\\,\\mathrm{mGy}\\) gammastrålning med \\(w_R=1\\). Bestäm den sammanlagda ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos beräknas för varje strålslag och bidragen adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot1{,}0+1\\cdot4{,}0=24\\ \\mathrm{mSv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\,\\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Samma vävnad får 1 mGy alfastrålning och 4 mGy gammastrålning. Viktfaktorerna är 20 för alfa och 1 för gamma. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[H_\\alpha=20\\cdot1\\]</p><p>\\[H_\\alpha\\approx20\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot4\\]</p><p>\\[H_\\gamma\\approx4\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=H_\\alpha+H_\\gamma\\]</p><p>\\[H\\approx24\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 0.432,
+    "tolerans": 0.6000000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vikta varje absorberad dos med rätt \\(w_R\\) innan du adderar.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mSv",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.96",
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "tillämpa avståndslagen för dosrat från en punktkälla, ur diagram, sökt dosrat",
     "poang": "(2/1/0)",
-    "t": "<p>En strålkälla ger dosraten 200 µSv/h på avståndet 1,0 m. Strålningen sprids åt alla håll, så dosraten avtar med kvadraten på avståndet.</p><span class=\"fig bred\"><svg height=\"294\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"62.429 50.630 371.286 176.219\"><circle cx=\"90\" cy=\"130\" r=\"9\" fill=\"#2B2527\"/><text x=\"90\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">källa</text><path d=\"M 170 60 A 80 80 0 0 1 170 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><path d=\"M 250 60 A 160 160 0 0 1 250 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><path d=\"M 330 60 A 240 240 0 0 1 330 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><path d=\"M 410 60 A 320 320 0 0 1 410 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"170\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">1 m</text><text x=\"250\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">2 m</text><text x=\"330\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">3 m</text><text x=\"410\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">4 m</text><line x1=\"104\" y1=\"130\" x2=\"390\" y2=\"130\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"400.00,130.00 390.00,134.60 390.00,125.40\" fill=\"#B43123\"/></svg></span>\n<ol><li>Vilken dosrat råder på 2,0 m avstånd?</li>\n<li>Vilken dosrat råder på 4,0 m avstånd?</li>\n<li>På vilket avstånd är dosraten 8,0 µSv/h?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid dubbelt avstånd blir dosraten en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_2=200\\left(\\frac12\\right)^2=50\\ \\mu\\mathrm{Sv/h}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fyra gånger avståndet blir den en sextondel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_4=200\\left(\\frac14\\right)^2=12{,}5\\ \\mu\\mathrm{Sv/h}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös efter avståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[8{,}0=200\\left(\\frac1r\\right)^2\\Rightarrow r=\\sqrt{25}=5{,}0\\ \\mathrm m\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Dosraten är \\(50\\ \\mu\\mathrm{Sv/h}\\) vid 2,0 m, \\(12{,}5\\ \\mu\\mathrm{Sv/h}\\) vid 4,0 m och \\(8{,}0\\ \\mu\\mathrm{Sv/h}\\) vid 5,0 m.</p></div>",
+    "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span><p>a) Bestäm dosen per timme på 2,0 m i µSv/h.</p><p>b) Bestäm dosen per timme på 4,0 m i µSv/h.</p><p>c) På vilket avstånd är dosen per timme 8,0 µSv/h? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\dot H=200(1/2)^2\\]</p><p>\\[\\dot H\\approx50\\ \\mathrm{\\mu Sv/h}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\dot H=200(1/4)^2\\]</p><p>\\[\\dot H\\approx12{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[8=200/r^2\\]</p><p>\\[r^2=200/8=25\\]</p><p>\\[r=\\sqrt{25}=5{,}0\\ \\mathrm m\\]</p></div></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Vid dubbelt avstånd blir dosraten en fjärdedel. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50.0,
+      12.5,
+      5
+    ],
+    "tolerans": [
+      1.25,
+      0.5,
+      0.125
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En strålkälla ger dosraten 200 µSv/h på avståndet 1,0 m. Strålningen sprids åt alla håll, så dosraten avtar med kvadraten på avståndet.</p><span class=\"fig bred\"><svg height=\"294\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"62.429 50.630 371.286 176.219\"><circle cx=\"90\" cy=\"130\" r=\"9\" fill=\"#2B2527\"/><text x=\"90\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">källa</text><path d=\"M 170 60 A 80 80 0 0 1 170 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><path d=\"M 250 60 A 160 160 0 0 1 250 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><path d=\"M 330 60 A 240 240 0 0 1 330 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><path d=\"M 410 60 A 320 320 0 0 1 410 200\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"170\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">1 m</text><text x=\"250\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">2 m</text><text x=\"330\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">3 m</text><text x=\"410\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">4 m</text><line x1=\"104\" y1=\"130\" x2=\"390\" y2=\"130\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"400.00,130.00 390.00,134.60 390.00,125.40\" fill=\"#B43123\"/></svg></span>",
+    "spelIntro": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken dosrat råder på 2,0 m avstånd?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid dubbelt avstånd blir dosraten en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_2=200\\left(\\frac12\\right)^2=50\\ \\mu\\mathrm{Sv/h}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
-        "ledtrad": "<p>Vid dubbelt avstånd blir dosraten en fjärdedel. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 2,0 m. Svara i µSv/h.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\dot H=200(1/2)^2\\]</p><p>\\[\\dot H\\approx50\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µSv/h",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 2,0 m. Svara i µSv/h.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken dosrat råder på 4,0 m avstånd?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fyra gånger avståndet blir den en sextondel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H_4=200\\left(\\frac14\\right)^2=12{,}5\\ \\mu\\mathrm{Sv/h}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
-        "ledtrad": "<p>Vid dubbelt avstånd blir dosraten en fjärdedel. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 4,0 m. Svara i µSv/h.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\dot H=200(1/4)^2\\]</p><p>\\[\\dot H\\approx12{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 12.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µSv/h",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 4,0 m. Svara i µSv/h.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "På vilket avstånd är dosraten 8,0 µSv/h?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös efter avståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[8{,}0=200\\left(\\frac1r\\right)^2\\Rightarrow r=\\sqrt{25}=5{,}0\\ \\mathrm m\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm m\\).</p></div>",
-        "ledtrad": "<p>Vid dubbelt avstånd blir dosraten en fjärdedel. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 8,0 µSv/h? Svara i m.",
+        "s": "<div class=\"facit-v2\"><p>\\[8=200/r^2\\]</p><p>\\[r^2=200/8=25\\]</p><p>\\[r=\\sqrt{25}=5{,}0\\ \\mathrm m\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 0.125,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 8,0 µSv/h? Svara i m.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "µSv/h",
+      "µSv/h",
+      "m"
     ]
   },
   {
@@ -112146,75 +112683,72 @@ window.BANK = [
     "id": "9.188",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "kombinera skärmning, dosrat och exponeringstid",
-    "poang": "(0/1/2)",
-    "t": "<p>Utan skärmning är dosraten \\(70\\,\\mu\\mathrm{Sv/h}\\). En skärm reducerar dosraten till \\(40\\,\\%\\) av ursprungsvärdet. En person vistas där i \\(0{,}45\\,\\mathrm h\\). Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärmningen ändrar först dosraten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därefter multipliceras kvarvarande dosrat med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=70\\cdot0{,}40\\cdot0{,}45=12{,}6\\ \\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}6\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Utan skyddsskärm är dosen per timme 70 µSv. Skärmen släpper igenom 40 % av strålningen. Hur länge tar det att få dosen 12,6 µSv bakom skärmen? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\dot H=70\\cdot0{,}40=28\\ \\mathrm{\\mu Sv/h}\\]</p><p><div class=\"facit-v2\"><p>\\[t=12{,}6/28\\]</p><p>\\[t\\approx0{,}45\\ \\mathrm{h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 12.6,
-    "tolerans": 0.227,
+    "rättSvar": 0.45,
+    "tolerans": 0.011250000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Räkna först fram dosraten bakom skärmen, sedan dosen för vistelsetiden.</p>",
+    "ledtrad": "<p>Bestäm dosen per timme bakom skärmen och dividera dosen med den.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "µSv",
-    "traningsniva": 4,
+    "svarEnhet": "h",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.189",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "summera ekvivalent dos från flera strålslag",
-    "poang": "(0/1/2)",
-    "t": "<p>En vävnad får samtidigt \\(0{,}45\\,\\mathrm{mGy}\\) alfastrålning med \\(w_R=20\\) och \\(2{,}6\\,\\mathrm{mGy}\\) gammastrålning med \\(w_R=1\\). Bestäm den sammanlagda ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna ekvivalent dos för varje strålslag separat och addera sedan bidragen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot0{,}45+1\\cdot2{,}6=11{,}6\\,\\mathrm{mSv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}6\\,\\mathrm{mSv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Samma vävnad får 0,45 mGy alfastrålning och 2,6 mGy gammastrålning. Viktfaktorerna är 20 för alfa och 1 för gamma. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[H_\\alpha=20\\cdot0{,}45\\]</p><p>\\[H_\\alpha\\approx9\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot2{,}6\\]</p><p>\\[H_\\gamma\\approx2{,}6\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=H_\\alpha+H_\\gamma\\]</p><p>\\[H\\approx11{,}6\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 11.6,
-    "tolerans": 0.209,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vikta varje absorberad dos med dess egen strålningsviktfaktor innan du summerar.</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mSv",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.97",
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "beräkna absorberad dos ur energi och massa, ur text, sökt dos",
     "poang": "(2/0/0)",
-    "t": "<p>Absorberad dos mäts i gray, där 1 Gy = 1 J/kg. En person med massan 70 kg absorberar energin 0,25 J jämnt fördelat över hela kroppen.</p>\n<ol><li>Vilken absorberad dos får personen?</li>\n<li>Hur många milligray är det?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är energi per bestrålad massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac Em=\\frac{0{,}25}{70}=3{,}57\\cdot10^{-3}\\ \\mathrm{Gy}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla gray till milligray.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[3{,}57\\cdot10^{-3}\\ \\mathrm{Gy}=3{,}57\\ \\mathrm{mGy}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Dosen är \\(3{,}6\\cdot10^{-3}\\ \\mathrm{Gy}=3{,}6\\ \\mathrm{mGy}\\).</p></div>",
+    "t": "<p>En kropp med massan 70 kg absorberar 0,25 J strålningsenergi.</p><p>a) Bestäm den absorberade dosen i Gy.</p><p>b) Omvandla denna dos till mGy.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[D=0{,}25/70\\]</p><p>\\[D\\approx0{,}00357\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[D=(0{,}25/70)\\cdot1000\\]</p><p>\\[D\\approx3{,}57\\ \\mathrm{mGy}\\]</p></div></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -112222,23 +112756,23 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      3.57
+      0.0035714285714285713,
+      3.571428571428571
     ],
     "tolerans": [
-      null,
-      0.05354999999999999
+      8.928571428571429e-05,
+      0.08925
     ],
     "självrättning": [
-      false,
+      true,
       true
     ],
     "svarFormat": [
-      null,
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
+      "Gy",
       "mGy"
     ],
     "svarsstruktur": "ordnad",
@@ -112246,33 +112780,55 @@ window.BANK = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Absorberad dos mäts i gray, där 1 Gy = 1 J/kg. En person med massan 70 kg absorberar energin 0,25 J jämnt fördelat över hela kroppen.</p>",
+    "spelIntro": "<p>En kropp med massan 70 kg absorberar 0,25 J strålningsenergi.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken absorberad dos får personen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är energi per bestrålad massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac Em=\\frac{0{,}25}{70}=3{,}57\\cdot10^{-3}\\ \\mathrm{Gy}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}57\\cdot10^{-3}\\ \\mathrm{Gy}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per bestrålad massa.</p>",
+        "fraga": "En kropp med massan 70 kg absorberar 0,25 J strålningsenergi. Bestäm absorberad dos i Gy.",
+        "s": "<div class=\"facit-v2\"><p>\\[D=0{,}25/70\\]</p><p>\\[D\\approx0{,}00357\\ \\mathrm{Gy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0035714285714285713,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Gy",
+        "tolerans": 8.928571428571429e-05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "t": "<p>En kropp med massan 70 kg absorberar 0,25 J strålningsenergi. Bestäm absorberad dos i Gy.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många milligray är det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla gray till milligray.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[3{,}57\\cdot10^{-3}\\ \\mathrm{Gy}=3{,}57\\ \\mathrm{mGy}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}57\\ \\mathrm{mGy}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per bestrålad massa.</p>",
+        "fraga": "En vävnad får dosen 0,00357 Gy. Hur många mGy är det?",
+        "s": "<div class=\"facit-v2\"><p>\\[D=0{,}00357\\cdot1000=3{,}57\\ \\mathrm{mGy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.57,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mGy",
+        "tolerans": 0.08925,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>1 Gy = 1 000 mGy.</p>",
+        "t": "<p>En vävnad får dosen 0,00357 Gy. Hur många mGy är det?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
@@ -112314,42 +112870,41 @@ window.BANK = [
     "id": "9.191",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "kombinera skärmning, dosrat och exponeringstid",
-    "poang": "(0/1/2)",
-    "t": "<p>En tekniker arbetar nära en industriell strålkälla där dosraten utan skärm är \\(110\\,\\mu\\mathrm{Sv/h}\\). En skyddsskärm reducerar dosraten till \\(25\\,\\%\\) av ursprungsvärdet. Teknikern arbetar där i \\(1{,}25\\,\\mathrm h\\). Bestäm teknikerns ekvivalenta dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärmningen ändrar först dosraten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därefter multipliceras kvarvarande dosrat med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=110\\cdot0{,}25\\cdot1{,}25=34{,}38\\ \\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34{,}38\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Utan skyddsskärm är dosen per timme 110 µSv. Skärmen släpper igenom 25 % av strålningen. Vilken dos får en person bakom skärmen på 1,25 timmar? Svara i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H=110\\cdot0{,}25\\]</p><p>\\[\\dot H\\approx27{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=27{,}5\\cdot1{,}25\\]</p><p>\\[H\\approx34{,}4\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 34.375,
-    "tolerans": 0.61875,
+    "tolerans": 0.859375,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Räkna först fram dosraten bakom skärmen, sedan dosen för vistelsetiden.</p>",
+    "ledtrad": "<p>Räkna dosen per timme bakom skärmen och multiplicera med tiden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.98",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Den genomsnittliga bakgrundsstrålningen i Sverige ger ungefär 2,4 mSv per år.</p>\n<ol><li>Hur mycket blir det per dygn?</li>\n<li>En lungröntgen ger 0,1 mSv. Hur många dygns bakgrundsstrålning motsvarar det?</li>\n<li>En flygresa till New York ger 0,05 mSv. Kommentera storleksordningarna.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fördela årsdosen över 365 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_{\\mathrm{dygn}}=\\frac{2{,}4\\ \\mathrm{mSv}}{365}=0{,}00658\\ \\mathrm{mSv}=6{,}58\\ \\mu\\mathrm{Sv}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lungröntgens 0,1 mSv är 100 µSv.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{100}{6{,}58}=15{,}2\\ \\text{dygn}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En lungröntgen motsvarar ungefär 15 dygns genomsnittlig bakgrund och den angivna flygresan ungefär 7,6 dygn.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda är små jämfört med ett helt års bakgrundsdos.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{50}{6{,}58}=7{,}6\\ \\text{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bakgrundsdosen är cirka \\(6{,}6\\ \\mu\\mathrm{Sv/dygn}\\). En lungröntgen motsvarar cirka 15 dygn och den angivna flygresan cirka 7,6 dygn.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det per dygn? Svara i µSv.</p><p>b) En röntgenundersökning ger 100 µSv. Hur många dygns bakgrundsdos motsvarar det?</p><p>c) En flygresa ger 50 µSv. Hur många dygns bakgrundsdos motsvarar det? Jämför med ett års bakgrundsdos.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[t=100/(2400/365)\\]</p><p>\\[t\\approx15{,}2\\ \\mathrm{dygn}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=50/(2400/365)\\]</p><p>\\[t\\approx7{,}6\\ \\mathrm{dygn}\\]</p></div></div><p>Flygresan ger ungefär 7,6 dygns bakgrundsdos, alltså betydligt mindre än 365 dygns bakgrundsdos.</p>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
@@ -112357,29 +112912,29 @@ window.BANK = [
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6.58,
-      null,
-      null
+      6.575342465753424,
+      15.208333333333334,
+      7.604166666666667
     ],
     "tolerans": [
-      0.0987,
-      null,
-      null
+      0.1643835616438356,
+      0.5,
+      0.1899696048632219
     ],
     "självrättning": [
       true,
-      false,
-      false
+      true,
+      true
     ],
     "svarFormat": [
       "numeriskt",
-      null,
-      null
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
       "µSv",
-      null,
-      null
+      "dygn",
+      "dygn"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -112387,39 +112942,72 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
+    "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Den genomsnittliga bakgrundsstrålningen i Sverige ger ungefär 2,4 mSv per år.</p>",
+    "spelIntro": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket blir det per dygn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fördela årsdosen över 365 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H_{\\mathrm{dygn}}=\\frac{2{,}4\\ \\mathrm{mSv}}{365}=0{,}00658\\ \\mathrm{mSv}=6{,}58\\ \\mu\\mathrm{Sv}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}58\\ \\mu\\mathrm{Sv}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
+        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Svara i µSv. Ett år är 365 dygn.",
+        "s": "<div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.575342465753424,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µSv",
+        "tolerans": 0.1643835616438356,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
+        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Svara i µSv. Ett år är 365 dygn.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En lungröntgen ger 0,1 mSv. Hur många dygns bakgrundsstrålning motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lungröntgens 0,1 mSv är 100 µSv.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{100}{6{,}58}=15{,}2\\ \\text{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}2\\ \\text{dygn}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
+        "fraga": "En röntgenundersökning ger dosen 100 µSv. Bakgrundsdosen är 6,58 µSv per dygn. Hur många dygns bakgrundsdos motsvarar undersökningen?",
+        "s": "<div class=\"facit-v2\"><p>\\[t=100/6{,}58\\]</p><p>\\[t\\approx15{,}2\\ \\mathrm{dygn}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 15.19756838905775,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "dygn",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
+        "t": "<p>En röntgenundersökning ger dosen 100 µSv. Bakgrundsdosen är 6,58 µSv per dygn. Hur många dygns bakgrundsdos motsvarar undersökningen?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "En flygresa till New York ger 0,05 mSv. Kommentera storleksordningarna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En lungröntgen motsvarar ungefär 15 dygns genomsnittlig bakgrund och den angivna flygresan ungefär 7,6 dygn.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda är små jämfört med ett helt års bakgrundsdos.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{50}{6{,}58}=7{,}6\\ \\text{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}6\\ \\text{dygn}\\).</p></div>",
-        "ledtrad": "<p>Absorberad dos är energi per massa, \\(D=E/m\\). För ekvivalent dos multipliceras den absorberade dosen med strålningens viktningsfaktor.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En flygresa ger dosen 50 µSv. Bakgrundsdosen är 6,58 µSv per dygn. Hur många dygns bakgrundsdos motsvarar resan?",
+        "s": "<div class=\"facit-v2\"><p>\\[t=50/6{,}58\\]</p><p>\\[t\\approx7{,}6\\ \\mathrm{dygn}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.598784194528875,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "dygn",
+        "tolerans": 0.1899696048632219,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
+        "t": "<p>En flygresa ger dosen 50 µSv. Bakgrundsdosen är 6,58 µSv per dygn. Hur många dygns bakgrundsdos motsvarar resan?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
@@ -112431,33 +113019,33 @@ window.BANK = [
     "id": "9.192",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "kombinera avstånd, skärmning och vistelsetid",
-    "poang": "(0/1/2)",
-    "t": "<p>En liten gammakälla ger dosraten \\(180\\,\\mu\\mathrm{Sv/h}\\) på \\(1{,}0\\,\\mathrm m\\). En person befinner sig \\(2{,}5\\,\\mathrm m\\) från källan bakom en skärm som släpper igenom \\(30\\,\\%\\) av strålningen och stannar där i \\(1{,}5\\,\\mathrm h\\). Anta inversa kvadratlagen. Bestäm personens ekvivalenta dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tillämpa först avståndslagen, därefter skärmens transmissionsfaktor och sist vistelsetiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H=180\\left(\\frac1{2{,}5}\\right)^2\\cdot0{,}30\\approx8{,}64\\,\\mu\\mathrm{Sv/h}\\]\\[H=8{,}64\\cdot1{,}5\\approx13\\,\\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,\\mu\\mathrm{Sv}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En liten strålkälla ger 180 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. En person står 2,5 m bort bakom en skärm som släpper igenom 30 % av strålningen. Vilken dos får personen på 1,5 timmar? Svara i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H_{\\text{utan skärm}}=180(1/2{,}5)^2\\]</p><p>\\[\\dot H_{\\text{utan skärm}}\\approx28{,}8\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot H=28{,}8\\cdot0{,}30\\]</p><p>\\[\\dot H\\approx8{,}64\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p>\\[H=8{,}64\\cdot1{,}5=12{,}96\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "stralning__dosrat_avstand_och_skarmning",
     "svarstyp": "numeriskt",
     "rättSvar": 12.96,
-    "tolerans": 0.233,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv upp givna storheter med enheter och markera den storhet du söker. Vilket samband kopplar ihop dem utan extra okända?</p>",
+    "ledtrad": "<p>Räkna först med avståndet, därefter med skärmen och till sist med tiden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.193",
@@ -112495,33 +113083,32 @@ window.BANK = [
     "id": "9.194",
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "kombinera skärmning, dosrat och exponeringstid",
-    "poang": "(0/1/2)",
-    "t": "<p>I ett förråd med radioaktiva preparat är dosraten \\(100\\,\\mu\\mathrm{Sv/h}\\) utan skärmning. Efter att en blyskärm satts upp är dosraten \\(25\\,\\%\\) av ursprungsvärdet. En person sorterar preparat där i \\(1\\,\\mathrm h\\). Bestäm personens ekvivalenta dos.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärmningen ändrar först dosraten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därefter multipliceras kvarvarande dosrat med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=100\\cdot0{,}25\\cdot1=25\\ \\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Dosen per timme är 100 µSv utan skyddsskärm. Bakom skärmen får en person dosen 25 µSv på en timme. Hur många procent av strålningen släpper skärmen igenom?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\dot H_{\\text{skärm}}=25/1=25\\ \\mathrm{\\mu Sv/h}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100\\cdot25/100\\]</p><p>\\[p\\approx25\\ \\mathrm{\\%}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 0.45,
+    "tolerans": 0.625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Räkna först fram dosraten bakom skärmen, sedan dosen för vistelsetiden.</p>",
+    "ledtrad": "<p>Jämför dosen per timme bakom skärmen med den utan skärm.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "µSv",
-    "traningsniva": 4,
+    "svarEnhet": "%",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "6.141",
@@ -156236,7 +156823,7 @@ window.BANK = [
         "kommentar": "Skärmning används för att minska dosen."
       }
     ],
-    "ledtrad": "<p>Utgå från den grundläggande definitionen eller vad som bevaras.</p>",
+    "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -156253,21 +156840,20 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Dosraten är \\(15\\,\\mu\\mathrm{Sv/h}\\). Hur stor dos fås under \\(2{,}0\\,\\mathrm h\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera dosraten med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=15\\cdot2{,}0=30\\ \\mu\\mathrm{Sv}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\mu\\mathrm{Sv}\\).</p></div>",
+    "t": "<p>Dosen per timme är 15 µSv. Hur stor dos får en person på 2 timmar? Svara i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[H=15\\cdot2\\]</p><p>\\[H\\approx30\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
     "formaga": [
       "procedur"
     ],
-    "typ": "dos från konstant dosrat",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 0,
+    "tolerans": 0.75,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv",
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -156276,120 +156862,122 @@ window.BANK = [
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Joniserande strålning och strålskydd"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "energi ur absorberad dos",
     "poang": "(1/0/0)",
-    "t": "<p>En person (75,0 kg) får den absorberade dosen 0,25 Gy över hela kroppen. Hur mycket energi absorberas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Dm=0{,}25\\cdot75{,}0\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\) J</p></div>",
+    "t": "<p>En kropp med massan 75,0 kg får den absorberade dosen 0,25 Gy. Hur mycket strålningsenergi absorberas? Svara i J.</p>",
+    "s": "<div class=\"facit-v2\"><p>En gray är en joule per kilogram.</p><p><div class=\"facit-v2\"><p>\\[E=0{,}25\\cdot75{,}0\\]</p><p>\\[E\\approx18{,}8\\ \\mathrm{J}\\]</p></div></p></div>",
     "id": "9.362",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Absorberad dos (Gy)",
     "svarstyp": "numeriskt",
     "rättSvar": 18.75,
-    "tolerans": 0.51,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
     "traningsniva": 1,
     "svarEnhet": "J",
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "temperaturökning i bestrålad tumör",
-    "poang": "(0/1/0)",
-    "t": "<p>En tumör får den absorberade dosen 2,00 Gy. Anta att den har samma specifika värmekapacitet som vatten, 4,18 kJ/(kg·K). Hur många kelvin stiger temperaturen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}00 G y=2{,}00\\, \\mathrm{J/kg}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\dfrac{2{,}00}{4\\,180}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000478\\) K</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En vävnad får den absorberade dosen 2,00 Gy. All absorberad strålningsenergi blir värme. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Hur mycket stiger temperaturen? Svara i K.</p>",
+    "s": "<div class=\"facit-v2\"><p>Dosen ger 2,00 J per kg. För att värma ett kg en kelvin behövs 4 180 J.</p><p>\\[D=mc\\Delta T/m=c\\Delta T\\]</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2{,}00/4180\\]</p><p>\\[\\Delta T\\approx0{,}000478\\ \\mathrm{K}\\]</p></div></p></div>",
     "id": "9.363",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Absorberad dos (Gy)",
     "svarstyp": "numeriskt",
     "rättSvar": 0.0004784688995215311,
-    "tolerans": 7.18e-06,
+    "tolerans": 1.1961722488038278e-05,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>1 Gy = 1 J/kg.</p>",
-    "traningsniva": 3,
+    "svarFormat": "temperaturandring",
+    "ledtrad": "<p>Temperaturökningen är energi per kg delad med specifik värmekapacitet.</p>",
+    "traningsniva": 2,
     "svarEnhet": "K",
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "tevatten i röntgenmaskin",
     "poang": "(0/1/0)",
-    "t": "<p>En röntgenmaskin ger dosraten 1,0 Gy/s. Hur många timmar tar det att värma vatten från 12 °C till 90 °C på detta sätt? Bortse från värmeförluster. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Per kg krävs \\(4\\,180\\cdot78\\) J, alltså \\(326\\,000\\) Gy.</p></div><div class=\"facit-stycke\"><p>\\(t=326\\,000\\) s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(91\\) h</p></div>",
+    "t": "<p>Vatten tar upp strålningsenergi med dosen 1,0 Gy per sekund. All absorberad energi blir värme. Hur många timmar tar det att värma vattnet från 12 °C till 90 °C? Vattnets specifika värmekapacitet är 4 180 J/(kg·K).</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\Delta T=90-12=78\\ \\mathrm K\\]</p><p>\\[D=c\\Delta T=4180\\cdot78=326040\\ \\mathrm{Gy}\\]</p><p>\\[t=D/\\dot D=326040/1=326040\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[t=326040/3600\\]</p><p>\\[t\\approx90{,}6\\ \\mathrm{h}\\]</p></div></p></div>",
     "id": "9.364",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Dosrat, avstånd och strålskydd",
     "svarstyp": "numeriskt",
     "rättSvar": 90.56666666666666,
-    "tolerans": 1.36,
+    "tolerans": 2.2641666666666667,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>1 Gy = 1 J/kg.</p>",
+    "ledtrad": "<p>Beräkna den värmeenergi som krävs per kg. En Gy är en J/kg.</p>",
     "traningsniva": 3,
     "svarEnhet": "h",
     "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "bestrålning av livsmedel",
     "poang": "(1/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p><ol type=\"a\"><li>Hur många fotoner måste gurkan absorbera?</li><li>Hur många kelvin stiger gurkans temperatur, om den har vattnets specifika värmekapacitet 4,18 kJ/(kg·K)?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=2\\,000\\cdot0{,}30=600\\) J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{600}{100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\cdot10^{16}\\)</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dosen anger energin per kilogram. Dela med energin som behövs för att värma ett kilogram en kelvin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{D}{c}=\\frac{2000}{4180}\\approx0{,}478\\,\\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,48 K.</p></div></div></div>",
+    "t": "<p>En gurka har massan 0,30 kg och får dosen 2 000 Gy av röntgenfotoner med energin 100 keV. Använd 1 eV = 1,602·10⁻¹⁹ J och värmekapaciteten 4 180 J/(kg·K). All absorberad energi blir värme.</p><p>a) Hur många fotoner absorberas?</p><p>b) Hur mycket stiger temperaturen? Svara i K.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=Dm=2000\\cdot0{,}30=600\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_f=100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx1{,}6\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx3{,}75\\cdot10^{16}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Dosen anger energi per kg. Dela med energin som behövs för att värma ett kg en kelvin.</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2000/4180\\]</p><p>\\[\\Delta T\\approx0{,}478\\ \\mathrm{K}\\]</p></div></p></div></div>",
     "id": "9.365",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Absorberad dos (Gy)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      37453183520599250,
+      3.745318352059925e+16,
       0.4784688995215311
     ],
     "tolerans": [
-      562000000000000.0,
-      0.00718
+      936329588014981.2,
+      0.011961722488038277
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
-      "numeriskt"
+      "temperaturandring"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -156401,184 +156989,201 @@ window.BANK = [
       "K"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p>",
+    "spelIntro": "<p>En gurka har massan 0,30 kg och får dosen 2 000 Gy av röntgenfotoner med energin 100 keV. Använd 1 eV = 1,602·10⁻¹⁹ J och värmekapaciteten 4 180 J/(kg·K). All absorberad energi blir värme.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många fotoner måste gurkan absorbera?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En gurka (0,30 kg) ska få den absorberade dosen 2 000 Gy med röntgenfotoner som har energin 100 keV.</p><p>Hur många fotoner måste gurkan absorbera?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=2\\,000\\cdot0{,}30=600\\) J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{600}{100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\cdot10^{16}\\)</p></div>",
-        "ledtrad": "<p>Bestäm den totala energin först.</p>",
+        "fraga": "En gurka har massan 0,30 kg och ska få den absorberade dosen 2 000 Gy. Varje absorberad röntgenfoton har energin 100 keV. Hur många fotoner måste gurkan absorbera? Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=Dm=2000\\cdot0{,}30=600\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_f=100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx1{,}6\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx3{,}75\\cdot10^{16}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.745318352059925e+16,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 936329588014981.2,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm hur mycket energi gurkan behöver ta upp och energin per foton.</p>",
+        "t": "<p>En gurka har massan 0,30 kg och ska få den absorberade dosen 2 000 Gy. Varje absorberad röntgenfoton har energin 100 keV. Hur många fotoner måste gurkan absorbera? Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket stiger gurkans temperatur? Svara i K.",
-        "t": "<p>En gurka tar upp strålningsenergi som motsvarar dosen 2000 Gy. En gray betyder en joule per kilogram: 1 Gy = 1 J/kg. Räkna med att all energi blir värme. Gurkans specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket stiger gurkans temperatur? Svara i K.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dosen anger energin per kilogram. Dela med energin som behövs för att värma ett kilogram en kelvin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta T=\\frac{D}{c}=\\frac{2000}{4180}\\approx0{,}478\\,\\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,48 K.</p></div></div>",
-        "ledtrad": "<p>Massan förkortas bort i värmesambandet.</p>",
+        "fraga": "En gurka får den absorberade dosen 2 000 Gy. All absorberad strålningsenergi blir värme och den specifika värmekapaciteten är 4 180 J/(kg·K). Hur mycket stiger temperaturen? Svara i K.",
+        "s": "<div class=\"facit-v2\"><p>Dosen anger energi per kg. Dela med energin som behövs för att värma ett kg en kelvin.</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2000/4180\\]</p><p>\\[\\Delta T\\approx0{,}478\\ \\mathrm{K}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.4784688995215311,
+        "självrättning": true,
+        "svarFormat": "temperaturandring",
+        "svarEnhet": "K",
+        "tolerans": 0.011961722488038277,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>En Gy är en J/kg.</p>",
+        "t": "<p>En gurka får den absorberade dosen 2 000 Gy. All absorberad strålningsenergi blir värme och den specifika värmekapaciteten är 4 180 J/(kg·K). Hur mycket stiger temperaturen? Svara i K.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Bestäm hur mycket energi gurkan behöver ta upp och energin per foton.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "protonterapi",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>\\(1{,}16\\cdot10^{12}\\) protoner med energin 950 keV absorberas av en tumör med massan 3,82 g. Kvalitetsfaktorn är 3,0. Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna den absorberade energin</p><p>Varje proton har energin 950 keV. Omvandla till joule och multiplicera med antalet protoner:</p><div class=\"facit-matte\">\\[E=N E_{\\mathrm{proton}}=1{,}16\\cdot10^{12}\\cdot950\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\]\\[=0{,}1765404\\ \\mathrm J.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Beräkna den absorberade dosen</p><p>Absorberad dos är energi per kilogram. Massan är \\(3{,}82\\ \\mathrm g=0{,}00382\\ \\mathrm{kg}\\):</p><div class=\"facit-matte\">\\[D=\\frac{E}{m}=\\frac{0{,}1765404}{0{,}00382}\\ \\mathrm{Gy}\\approx46{,}215\\ \\mathrm{Gy}.\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-rubrik\">Ta hänsyn till kvalitetsfaktorn</p><p>Den ekvivalenta dosen fås genom att multiplicera den absorberade dosen med kvalitetsfaktorn 3,0. Använd det oavrundade dosvärdet:</p><div class=\"facit-matte\">\\[H=3{,}0D=3{,}0\\cdot\\frac{0{,}1765404}{0{,}00382}\\ \\mathrm{Sv}\\approx138{,}644\\ \\mathrm{Sv}.\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(139\\ \\mathrm{Sv}\\).</p></div>",
+    "t": "<p>En tumör med massan 3,82 g absorberar 1,16·10¹² protoner. Varje proton har energin 950 keV. Räkna med viktfaktorn 3,0. Bestäm den ekvivalenta dosen i Sv. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m=3{,}82\\ \\mathrm g=0{,}00382\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=950\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}52\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=1{,}16\\cdot10^{12}E_p\\]</p><p>\\[E\\approx0{,}177\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/0{,}00382\\]</p><p>\\[D\\approx46{,}2\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=3{,}0D\\]</p><p>\\[H\\approx139\\ \\mathrm{Sv}\\]</p></div></p></div>",
     "id": "9.366",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "numeriskt",
-    "rättSvar": 138.64429319371726,
-    "tolerans": 5.1,
+    "rättSvar": 138.6442931937173,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Antal partiklar gånger energi per partikel ger total energi. Dela med kg-massan och multiplicera sedan med viktfaktorn.</p>",
     "traningsniva": 3,
     "svarEnhet": "Sv",
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
-  },
-  {
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "A",
-    "typ": "radon i lungorna",
-    "poang": "(0/1/2)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Radon i lungorna ger en ekvivalent dos på 1,0 mSv per år räknat på hela kroppen (75 kg). Rn-222 (222 u, \\(T_{1/2}=3{,}8\\) dygn) är en alfastrålare (kvalitetsfaktor 20) med sönderfallsenergin 5,59 MeV. Uppskatta massan radon i lungorna, om mängden är konstant.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(D=\\dfrac{1{,}0\\cdot10^{-3}}{20}\\) Gy, \\(E=75D\\) per år.</p></div><div class=\"facit-stycke\"><p>Sönderfall per sekund: \\(A=\\dfrac{E}{5{,}59\\,\\text{MeV}\\cdot3{,}156\\cdot10^7}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A\\cdot3{,}8\\cdot86\\,400}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot222\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\cdot10^{-17}\\) kg</p></div>",
-    "id": "9.367",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Ekvivalent dos (Sv)",
-    "svarstyp": "numeriskt",
-    "rättSvar": 2.316950275649222e-17,
-    "tolerans": 5.1e-19,
-    "självrättning": true,
-    "formaga": [
-      "problemlösning",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna ut aktiviteten först.</p>",
-    "traningsniva": 5,
-    "svarEnhet": "kg",
-    "familjNyckel": "straldoser__ekvivalent_dos_sv",
-    "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "svald koboltkälla",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En person (65 kg) sväljer en Co-57-källa med aktiviteten 57,4 kBq. Varje sönderfall ger en gammafoton med energin 122 keV, och 50 % av fotonerna absorberas i kroppen. Bestäm den absorberade dosen under första dygnet. Aktiviteten kan räknas som konstant.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=57{,}4\\cdot10^3\\cdot86\\,400\\cdot0{,}50\\cdot122\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{E}{65}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\cdot10^{-7}\\) Gy</p></div>",
+    "t": "<p>I en modell får 1 kg vävnad den ekvivalenta dosen 1,0 mSv under ett år från radon-222. Strålningens viktfaktor är 20 och varje sönderfall ger 5,59 MeV som tas upp i vävnaden. Mängden radon är konstant. Halveringstiden är 3,8 dygn och en atom har massan 222 u. Uppskatta isotopens massa i kg. Räkna bara med dess egna sönderfall. Använd 1 u = 1,6605·10⁻²⁷ kg, 1 år = 3,156·10⁷ s och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}001/20\\]</p><p>\\[D\\approx5\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=1D\\]</p><p>\\[E\\approx5\\cdot10^{-5}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=E/(E_p\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[A\\approx1{,}77\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/328320\\]</p><p>\\[\\lambda\\approx2{,}11\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx838000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot222\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx3{,}09\\cdot10^{-19}\\ \\mathrm{kg}\\]</p></div></p></div>",
+    "id": "9.367",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0890321089492136e-19,
+    "tolerans": 7.722580272373034e-21,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dosen och vävnadsmassan ger energi under året. Därifrån får du aktivitet, kärnantal och isotopmassa.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En kropp med massan 65 kg absorberar hälften av gammafotonerna från en kobolt-57-källa med aktiviteten 57,4 kBq. Varje sönderfall ger en foton med energin 122 keV. Bestäm den absorberade dosen under ett dygn i Gy. Räkna med konstant aktivitet under tiden. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=86400\\]</p><p>\\[t\\approx86400\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=57400\\cdot86400\\cdot0{,}5\\]</p><p>\\[N_{\\text{absorberade}}\\approx2480000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=122000\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}95\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx4{,}85\\cdot10^{-5}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/65\\]</p><p>\\[D\\approx7{,}46\\cdot10^{-7}\\ \\mathrm{Gy}\\]</p></div></p></div>",
     "id": "9.368",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Absorberad dos (Gy)",
     "svarstyp": "numeriskt",
     "rättSvar": 7.455978121846154e-07,
-    "tolerans": 1.12e-08,
+    "tolerans": 1.8639945304615387e-08,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många sönderfall sker under ett dygn?</p>",
+    "ledtrad": "<p>Antal sönderfall är aktivitet gånger tid. Räkna med andelen absorberad strålning och energin per partikel.</p>",
     "traningsniva": 3,
     "svarEnhet": "Gy",
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "bestrålning av kött",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>5,0 kg frystorkat kött ska få den absorberade dosen 4,5 kGy med betapartiklar som har energin 1,6 MeV. Hur många betapartiklar krävs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=4\\,500\\cdot5{,}0\\) J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{E}{1{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\cdot10^{16}\\) </p></div>",
+    "t": "<p>5,0 kg kött ska få dosen 4,5 kGy av betapartiklar med energin 1,6 MeV per partikel. Hur många partiklar måste köttet absorbera? Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[D=4500\\ \\mathrm{Gy}\\]</p><p>\\[E=Dm=4500\\cdot5{,}0=22500\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2{,}56\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_p\\]</p><p>\\[N\\approx8{,}78\\cdot10^{16}\\]</p></div></p></div>",
     "id": "9.369",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Absorberad dos (Gy)",
     "svarstyp": "numeriskt",
-    "rättSvar": 87780898876404500,
-    "tolerans": 1320000000000000.0,
+    "rättSvar": 8.77808988764045e+16,
+    "tolerans": 2194522471910112.5,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm den totala energin först.</p>",
+    "ledtrad": "<p>Bestäm absorberad totalenergi och dividera med energin per partikel.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "A",
-    "typ": "inopererad fosfor-32-källa",
-    "poang": "(0/1/2)",
-    "t": "<p>En P-32-källa (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 59,2 MBq opereras in vid en tumör, som behöver den absorberade dosen 32 Gy. Aktiviteten 37 MBq ger dosraten 10 mGy/min. Hur många dygn tar behandlingen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dos per sönderfall: \\(\\dfrac{0{,}010}{60\\cdot37\\cdot10^6}\\) Gy.</p></div><div class=\"facit-stycke\"><p>Antal sönderfall som behövs: \\(\\dfrac{32}{4{,}5\\cdot10^{-12}}=7{,}1\\cdot10^{12}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_0=\\dfrac{A_0}{\\lambda}=1{,}06\\cdot10^{14}\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_0\\left(1-2^{-t/14{,}3}\\right)=7{,}1\\cdot10^{12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\) dygn</p></div>",
+    "poang": "(0/0/1)",
+    "t": "<p>Ett fosfor-32-preparat har startaktiviteten 59,2 MBq och halveringstiden 14,3 dygn. Vid aktiviteten 37 MBq får en tumör dosen 10 mGy per minut. Hur lång tid tar det att ge tumören den absorberade dosen 32 Gy när aktiviteten minskar genom sönderfall? Svara i dygn.</p>",
+    "s": "<div class=\"facit-v2\"><p>Dos per sönderfall fås från den kända dosen per minut och antalet sönderfall per minut.</p><p><div class=\"facit-v2\"><p>\\[d=0{,}010/(60\\cdot37\\cdot10^6)\\]</p><p>\\[d\\approx4{,}5\\cdot10^{-12}\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{behövs}}=32/d\\]</p><p>\\[N_{\\text{behövs}}\\approx7{,}1\\cdot10^{12}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(14{,}3\\cdot86400)\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_0=59{,}2\\cdot10^6/\\lambda\\]</p><p>\\[N_0\\approx1{,}06\\cdot10^{14}\\]</p></div></p><p>Efter behandlingen återstår N₀ minus de kärnor som har sönderfallit.</p><p><div class=\"facit-v2\"><p>\\[f=1-N_{\\text{behövs}}/N_0\\]</p><p>\\[f\\approx0{,}933\\]</p></div></p><p>\\[f=2^{-t/14{,}3}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-14{,}3\\ln(f)/\\ln2\\]</p><p>\\[t\\approx1{,}44\\ \\mathrm{dygn}\\]</p></div></p></div>",
     "id": "9.370",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Dosrat, avstånd och strålskydd",
     "svarstyp": "numeriskt",
     "rättSvar": 1.4378505229097371,
-    "tolerans": 0.051,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur stor dos ger varje sönderfall?</p>",
+    "ledtrad": "<p>Bestäm hur många sönderfall som krävs för dosen och hur stor andel av startkärnorna det är.</p>",
     "traningsniva": 5,
     "svarEnhet": "dygn",
     "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "protoner i tumör",
     "poang": "(1/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p><ol type=\"a\"><li>Bestäm den absorberade dosen.</li><li>Hur många protoner absorberades?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{H}{Q}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}010\\) Gy</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}010\\cdot0{,}20\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{E}{1{,}2\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{10}\\)</p></li></ol></div>",
+    "t": "<p>En tumör har massan 0,20 kg och får den ekvivalenta dosen 10 mSv av protoner med energin 1,2 MeV. Räkna med viktfaktorn 1. Använd 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Bestäm absorberad dos i Gy.</p><p>b) Hur många protoner absorberas?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H=10\\ \\mathrm{mSv}=0{,}010\\ \\mathrm{Sv}\\]</p><p>\\[D=H/w=0{,}010/1=0{,}010\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[D=10\\ \\mathrm{mGy}=0{,}010\\ \\mathrm{Gy}\\]</p><p>\\[E=Dm=0{,}010\\cdot0{,}20=0{,}0020\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}2\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}92\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_p\\]</p><p>\\[N\\approx10400000000\\]</p></div></p></div></div>",
     "id": "9.371",
     "miniräknare": true,
     "geogebra": false,
@@ -156589,13 +157194,16 @@ window.BANK = [
       10403662089.055347
     ],
     "tolerans": [
-      0.00051,
-      510000000.0
+      0.0005,
+      500000000.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -156611,72 +157219,88 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p>",
+    "spelIntro": "<p>En tumör har massan 0,20 kg och får den ekvivalenta dosen 10 mSv av protoner med energin 1,2 MeV. Räkna med viktfaktorn 1. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den absorberade dosen.",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p><p>Bestäm den absorberade dosen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{H}{Q}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}010\\) Gy</p></div>",
-        "ledtrad": "<p>\\(H=QD\\).</p>",
+        "fraga": "En tumör får den ekvivalenta dosen 10 mSv. Strålningens viktfaktor är 1. Bestäm den absorberade dosen i Gy.",
+        "s": "<div class=\"facit-v2\"><p>\\[H=10\\ \\mathrm{mSv}=0{,}010\\ \\mathrm{Sv}\\]</p><p>\\[D=H/w=0{,}010/1=0{,}010\\ \\mathrm{Gy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.01,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Gy",
+        "tolerans": 0.0005,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 1,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En tumör får den ekvivalenta dosen 10 mSv. Strålningens viktfaktor är 1. Bestäm den absorberade dosen i Gy.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många protoner absorberades?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,20 kg) bestrålas med protoner (energi 1,2 MeV, kvalitetsfaktor 1) och får den ekvivalenta dosen 10 mSv.</p>Den absorberade dosen är 10 mGy.<p>Hur många protoner absorberades?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}010\\cdot0{,}20\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{E}{1{,}2\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{10}\\)</p></div>",
-        "ledtrad": "<p>Bestäm energin först.</p>",
+        "fraga": "En tumör har massan 0,20 kg och får den absorberade dosen 10 mGy av protoner. Varje absorberad proton har energin 1,2 MeV. Hur många protoner absorberas? Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p>\\[D=10\\ \\mathrm{mGy}=0{,}010\\ \\mathrm{Gy}\\]</p><p>\\[E=Dm=0{,}010\\cdot0{,}20=0{,}0020\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}2\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}92\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_p\\]</p><p>\\[N\\approx10400000000\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 10403662089.055347,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 500000000.0,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Använd dos och massa för total energi och dividera med energin per proton.</p>",
+        "t": "<p>En tumör har massan 0,20 kg och får den absorberade dosen 10 mGy av protoner. Varje absorberad proton har energin 1,2 MeV. Hur många protoner absorberas? Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "dos per röntgenundersökning",
     "poang": "(1/0/0)",
-    "t": "<p>En sjukhusfysiker arbetar 5 dagar i veckan i 50 veckor per år och gör i snitt 8 röntgenundersökningar per dag. Den ekvivalenta dosen blir 50 mSv per år. Hur stor ekvivalent dos får fysikern per undersökning?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{50}{5\\cdot50\\cdot8}\\) mSv.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{-5}\\) Sv</p></div>",
+    "t": "<p>En person arbetar 5 dagar i veckan under 50 veckor och gör 8 röntgenundersökningar per arbetsdag. Den sammanlagda dosen under året är 50 mSv. Vilken dos per undersökning motsvarar det? Svara i µSv.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[n=5\\cdot50\\cdot8=2000\\ \\text{undersökningar}\\]</p><p>\\[50\\ \\mathrm{mSv}=50000\\ \\mathrm{\\mu Sv}\\]</p><p>\\[H=50000/2000=25\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "id": "9.372",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.5e-05,
-    "tolerans": 5.1e-07,
+    "rättSvar": 25.0,
+    "tolerans": 0.625,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många undersökningar per år?</p>",
+    "ledtrad": "<p>Beräkna antalet undersökningar under året och fördela dosen på dem.</p>",
     "traningsniva": 2,
-    "svarEnhet": "Sv",
+    "svarEnhet": "µSv",
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "fosfor-32 som läkemedel",
-    "poang": "(1/2/1)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p><ol type=\"a\"><li>Hur många betapartiklar sänds ut under de första 10 dygnen?</li><li>Hur mycket energi avges under dessa 10 dygn?</li><li>Energin tas upp av 100 g vävnad. Bestäm den absorberade dosen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_0=\\dfrac{A_0}{\\lambda}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta N=N_0\\left(1-\\left(\\tfrac12\\right)^{10/14{,}3}\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}97\\cdot10^{11}\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\Delta N\\cdot700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}101\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{E}{0{,}100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}01\\) Gy</p></li></ol></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall ger en betapartikel med medelenergin 700 keV. All denna energi absorberas av 100 g vävnad. Använd 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Hur många betapartiklar sänds ut under de första 10 dygnen?</p><p>b) Hur stor sammanlagd energi avges under dessa 10 dygn? Svara i J.</p><p>c) Bestäm absorberad dos i vävnaden i Gy.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(14{,}3\\cdot86400)\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_0=1{,}31\\cdot10^6/\\lambda\\]</p><p>\\[N_0\\approx2{,}34\\cdot10^{12}\\]</p></div></p><p>\\[N_{10}=N_0\\cdot2^{-10/14{,}3}\\]</p><p><div class=\"facit-v2\"><p>\\[\\Delta N=N_0(1-2^{-10/14{,}3})\\]</p><p>\\[\\Delta N\\approx897000000000\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=\\Delta N\\cdot700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E\\approx0{,}101\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[D=E/0{,}100\\]</p><p>\\[D\\approx1{,}01\\ \\mathrm{Gy}\\]</p></div></div>",
     "id": "9.373",
     "miniräknare": true,
     "geogebra": false,
@@ -156688,14 +157312,18 @@ window.BANK = [
       1.0058509918833538
     ],
     "tolerans": [
-      13500000000.0,
-      0.00151,
-      0.0151
+      22424001067.4905,
+      0.005,
+      0.05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -156714,56 +157342,80 @@ window.BANK = [
       "Gy"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p>",
+    "spelIntro": "<p>Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall ger en betapartikel med medelenergin 700 keV. All denna energi absorberas av 100 g vävnad. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många betapartiklar sänds ut under de första 10 dygnen?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p><p>Hur många betapartiklar sänds ut under de första 10 dygnen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_0=\\dfrac{A_0}{\\lambda}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta N=N_0\\left(1-\\left(\\tfrac12\\right)^{10/14{,}3}\\right)\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}97\\cdot10^{11}\\)</p></div>",
-        "ledtrad": "<p>Antal sönderfall = minskningen av antalet kärnor.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall sänder ut en betapartikel. Hur många betapartiklar sänds ut under de första 10 dygnen?",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(14{,}3\\cdot86400)\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_0=1{,}31\\cdot10^6/\\lambda\\]</p><p>\\[N_0\\approx2{,}34\\cdot10^{12}\\]</p></div></p><p>\\[N_{10}=N_0\\cdot2^{-10/14{,}3}\\]</p><p><div class=\"facit-v2\"><p>\\[\\Delta N=N_0(1-2^{-10/14{,}3})\\]</p><p>\\[\\Delta N\\approx897000000000\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 896960042699.62,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 22424001067.4905,
+        "manuellKomplettering": false,
+        "niva": "C",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Antalet sönderfall är startantal minus antalet kvar.</p>",
+        "t": "<p>Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall sänder ut en betapartikel. Hur många betapartiklar sänds ut under de första 10 dygnen?</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi avges under dessa 10 dygn?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Ett läkemedel innehåller P-32 (\\(T_{1/2}=14{,}3\\) dygn) med aktiviteten 1,31 MBq från början. Betapartiklarna har medelenergin 700 keV.</p>\\(8{,}97\\cdot10^{11}\\) betapartiklar sänds ut.<p>Hur mycket energi avges under dessa 10 dygn?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\Delta N\\cdot700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}101\\) J</p></div>",
-        "ledtrad": "<p>Energi per sönderfall gånger antal.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor sammanlagd energi avges? Svara i J. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_p=700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}12\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=8{,}97\\cdot10^{11}E_p\\]</p><p>\\[E\\approx0{,}101\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.10058958,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera antalet partiklar med medelenergin per partikel.</p>",
+        "t": "<p>8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor sammanlagd energi avges? Svara i J. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm den absorberade dosen. Svara i Gy.",
-        "t": "<p>100 g vävnad absorberar strålningsenergin 0,101 J.</p><p>Bestäm den absorberade dosen. Svara i Gy.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{E}{0{,}100}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}01\\) Gy</p></div>",
-        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "fraga": "100 g vävnad absorberar strålningsenergin 0,101 J. Bestäm den absorberade dosen i Gy.",
+        "s": "<div class=\"facit-v2\"><p>\\[m=100\\ \\mathrm g=0{,}100\\ \\mathrm{kg}\\]</p><p>\\[D=0{,}101/0{,}100=1{,}01\\ \\mathrm{Gy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.01,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Gy",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "t": "<p>100 g vävnad absorberar strålningsenergin 0,101 J. Bestäm den absorberade dosen i Gy.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Antalet sönderfall är startantal minus antalet kvar.</p>",
     "traningsniva": 4,
     "familjNyckel": "straldoser__absorberad_dos_gy",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
-    "niva": "A",
-    "typ": "dosrat och avstånd",
-    "poang": "(1/1/1)",
-    "t": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><ol type=\"a\"><li>Hur länge kan man stå där innan den ekvivalenta dosen blir 12 mSv?</li><li>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,150 mGy/h?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{12}{1{,}25}\\) h.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\) h</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{\\dfrac{1{,}25}{0{,}150}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m</p></li></ol></div>",
+    "niva": "C",
+    "poang": "(1/1/0)",
+    "t": "<p>a) En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv? Svara i timmar.</p><p>b) En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h? Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Med viktfaktor 1 ger 1,25 mGy per timme också 1,25 mSv per timme.</p><p>\\[t=12/1{,}25=9{,}6\\ \\mathrm h\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[0{,}150=1{,}25/r^2\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{1{,}25/0{,}150}\\]</p><p>\\[r\\approx2{,}89\\ \\mathrm{m}\\]</p></div></p></div></div>",
     "id": "9.374",
     "miniräknare": true,
     "geogebra": false,
@@ -156771,16 +157423,19 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       9.6,
-      2.88675134595
+      2.886751345948129
     ],
     "tolerans": [
-      0.144,
-      0.0433
+      0.24,
+      0.07216878364870323
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "problemlösning",
-      "modellering"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -156796,62 +157451,81 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur länge kan man stå där innan den ekvivalenta dosen blir 12 mSv?",
-        "t": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Hur länge kan man stå där innan den ekvivalenta dosen blir 12 mSv?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{12}{1{,}25}\\) h.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\) h</p></div>",
-        "ledtrad": "<p>\\(H=QD\\).</p>",
+        "fraga": "En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv? Svara i timmar.",
+        "s": "<div class=\"facit-v2\"><p>Med viktfaktor 1 ger 1,25 mGy per timme också 1,25 mSv per timme.</p><p>\\[t=12/1{,}25=9{,}6\\ \\mathrm h\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.24,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
+        "t": "<p>En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv? Svara i timmar.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,150 mGy/h?",
-        "t": "<p>En gammakälla ger dosraten 1,25 mGy/h på avståndet 1,0 m (kvalitetsfaktor 1).</p><p>Strålningen sprids lika åt alla håll. På vilket avstånd är dosraten 0,150 mGy/h?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dosraten avtar med \\(\\dfrac1{r^2}\\): \\(r=1{,}0\\cdot\\sqrt{\\dfrac{1{,}25}{0{,}150}}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) m</p></div>",
-        "ledtrad": "<p>Intensiteten avtar med kvadraten på avståndet.</p>",
-        "niva": "A",
-        "poang": "(0/1/1)",
+        "fraga": "En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h? Svara i m.",
+        "s": "<div class=\"facit-v2\"><p>\\[0{,}150=1{,}25/r^2\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{1{,}25/0{,}150}\\]</p><p>\\[r\\approx2{,}89\\ \\mathrm{m}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.886751345948129,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 0.07216878364870323,
+        "manuellKomplettering": false,
+        "niva": "C",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
+        "t": "<p>En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h? Svara i m.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Dosraten är omvänt proportionell mot \\(r^2\\).</p>",
+    "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "inandat plutonium",
     "poang": "(0/2/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p><ol type=\"a\"><li>Vilken massa plutonium andades in?</li><li>Hur stor ekvivalent dos per år får lungorna?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A\\cdot24\\,100\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot239{,}05\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\cdot10^{-8}\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=37\\cdot10^3\\cdot3{,}156\\cdot10^7\\cdot5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot\\dfrac{E}{2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}8\\) Sv</p></li></ol></div>",
+    "t": "<p>a) Ett plutonium-239-prov har aktiviteten 37 kBq och halveringstiden 24 100 år. En atom har massan 239,05 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p><p>b) 2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år i Sv. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=760596000000\\]</p><p>\\[T\\approx761000000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx9{,}11\\cdot10^{-13}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=37000/\\lambda\\]</p><p>\\[N\\approx4{,}06\\cdot10^{16}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot239{,}05\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx1{,}61\\cdot10^{-8}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=37000\\cdot31560000\\cdot1\\]</p><p>\\[N_{\\text{absorberade}}\\approx1{,}17\\cdot10^{12}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}38\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}978\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/2\\]</p><p>\\[D\\approx0{,}489\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=20D\\]</p><p>\\[H\\approx9{,}78\\ \\mathrm{Sv}\\]</p></div></p></div></div>",
     "id": "9.375",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.611479928660893e-08,
-      9.782951303952
+      1.611602483982869e-08,
+      9.7836953112
     ],
     "tolerans": [
-      5.1e-10,
-      0.147
+      5e-10,
+      0.24459238278000003
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -156867,117 +157541,137 @@ window.BANK = [
       "Sv"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken massa plutonium andades in?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p><p>Vilken massa plutonium andades in?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A\\cdot24\\,100\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot239{,}05\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}6\\cdot10^{-8}\\) kg</p></div>",
-        "ledtrad": "<p>Bestäm antalet kärnor.</p>",
+        "fraga": "Ett plutonium-239-prov har aktiviteten 37 kBq och halveringstiden 24 100 år. En atom har massan 239,05 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=760596000000\\]</p><p>\\[T\\approx761000000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx9{,}11\\cdot10^{-13}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=37000/\\lambda\\]</p><p>\\[N\\approx4{,}06\\cdot10^{16}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot239{,}05\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx1{,}61\\cdot10^{-8}\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.611602483982869e-08,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 5e-10,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm antalet kärnor från aktivitet och halveringstid. Multiplicera med en atoms kg-massa.</p>",
+        "t": "<p>Ett plutonium-239-prov har aktiviteten 37 kBq och halveringstiden 24 100 år. En atom har massan 239,05 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor ekvivalent dos per år får lungorna?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En arbetare andas in Pu-239 (239,05 u, \\(T_{1/2}=24\\,100\\) år) med aktiviteten 37 kBq. Den bestrålade delen av lungorna har massan 2,0 kg. Pu-239 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 5,23 MeV.</p><p>Hur stor ekvivalent dos per år får lungorna?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=37\\cdot10^3\\cdot3{,}156\\cdot10^7\\cdot5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=20\\cdot\\dfrac{E}{2{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}8\\) Sv</p></div>",
-        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "fraga": "2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år i Sv. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=37000\\cdot31560000\\cdot1\\]</p><p>\\[N_{\\text{absorberade}}\\approx1{,}17\\cdot10^{12}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}38\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}978\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/2\\]</p><p>\\[D\\approx0{,}489\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=20D\\]</p><p>\\[H\\approx9{,}78\\ \\mathrm{Sv}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.7836953112,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Sv",
+        "tolerans": 0.24459238278000003,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Aktivitet och tid ger antal sönderfall. Räkna bara med den energi som vävnaden absorberar.</p>",
+        "t": "<p>2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år i Sv. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Bestäm antalet kärnor från aktivitet och halveringstid. Multiplicera med en atoms kg-massa.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "tunga joner i strålterapi",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En stråle av kvävekärnor (energi 168 MeV, kvalitetsfaktor 20) riktas mot en tumör (0,200 kg), som får den ekvivalenta dosen 2,00 Sv. Hur många kvävekärnor absorberades?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(D=\\dfrac{2{,}00}{20}\\) Gy, \\(E=0{,}200D\\),</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\dfrac{E}{168\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}43\\cdot10^{8}\\) </p></div>",
+    "t": "<p>En tumör med massan 0,200 kg absorberar kvävekärnor med energin 168 MeV per kärna. Den ekvivalenta dosen är 2,00 Sv och viktfaktorn är 20. Hur många kärnor absorberas? Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[D=H/w=2{,}00/20=0{,}100\\ \\mathrm{Gy}\\]</p><p>\\[E=Dm=0{,}100\\cdot0{,}200=0{,}0200\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=168\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2{,}69\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_p\\]</p><p>\\[N\\approx743000000\\]</p></div></p></div>",
     "id": "9.376",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "numeriskt",
-    "rättSvar": 743118720.6468105,
-    "tolerans": 11100000.0,
+    "rättSvar": 743118720.6468107,
+    "tolerans": 18577968.016170267,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Gå från ekvivalent till absorberad dos, sedan total energi och antal kärnor.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "lungröntgen",
     "poang": "(0/1/0)",
-    "t": "<p>Vid en lungröntgen har strålningen intensiteten 1,50 W/m² över arean 7,5 dm² i 250 ms. Den träffade kroppsdelen väger 20,0 kg och absorberar 35 % av strålningen. Röntgenstrålning har kvalitetsfaktorn 1. Bestäm den ekvivalenta dosen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=1{,}50\\cdot0{,}075\\cdot0{,}250\\cdot0{,}35\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=\\dfrac{E}{20{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00049\\) Sv</p></div>",
+    "t": "<p>Röntgenstrålning med intensiteten 1,50 W/m² träffar arean 7,5 dm² under 250 ms. Den träffade kroppsdelen har massan 20,0 kg och absorberar 35 % av energin. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i Sv.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[A=7{,}5\\ \\mathrm{dm^2}=0{,}075\\ \\mathrm{m^2}\\]</p><p>\\[t=250\\ \\mathrm{ms}=0{,}250\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[E=1{,}50\\cdot0{,}075\\cdot0{,}250\\cdot0{,}35\\]</p><p>\\[E\\approx0{,}00984\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/20\\]</p><p>\\[D\\approx0{,}000492\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}000492\\ \\mathrm{Sv}\\]</p></div></p></div>",
     "id": "9.377",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "numeriskt",
     "rättSvar": 0.0004921874999999999,
-    "tolerans": 7.38e-06,
+    "tolerans": 1.2304687499999998e-05,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Energi = intensitet · area · tid.</p>",
+    "ledtrad": "<p>Intensitet gånger area och tid ger infallande energi. 35 % absorberas.</p>",
     "traningsniva": 3,
     "svarEnhet": "Sv",
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "koboltkanon",
     "poang": "(0/2/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p><ol type=\"a\"><li>Hur stor massa Co-60 finns i källan?</li><li>Bestäm tumörens ekvivalenta dos.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot59{,}93\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}42\\cdot10^{-6}\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Fotoner i tumören: \\(185\\cdot10^9\\cdot32{,}0\\cdot0{,}0100\\cdot0{,}200\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=n\\cdot1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=\\dfrac{E}{1{,}50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00158\\) Sv</p></li></ol></div>",
+    "t": "<p>a) En kobolt-60-källa har aktiviteten 185 GBq och halveringstiden 5,27 år. En atom har massan 59,93 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p><p>b) En strålkälla har aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i Sv. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=166321200\\]</p><p>\\[T\\approx166000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}17\\cdot10^{-9}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=185000000000/\\lambda\\]</p><p>\\[N\\approx4{,}44\\cdot10^{19}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot59{,}93\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx4{,}42\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{abs}}=185\\cdot10^9\\cdot32\\cdot0{,}002\\]</p><p>\\[N_{\\text{abs}}\\approx11800000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}00237\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/1{,}5\\]</p><p>\\[D\\approx0{,}00158\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}00158\\ \\mathrm{Sv}\\]</p></div></p></div></div>",
     "id": "9.378",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4.417168915484888e-06,
+      4.417504847412447e-06,
       0.0015806400000000001
     ],
     "tolerans": [
-      6.63e-08,
-      2.37e-05
+      1.104376211853112e-07,
+      5e-05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -156993,73 +157687,89 @@ window.BANK = [
       "Sv"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor massa Co-60 finns i källan?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p><p>Hur stor massa Co-60 finns i källan?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot59{,}93\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}42\\cdot10^{-6}\\) kg</p></div>",
-        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "fraga": "En kobolt-60-källa har aktiviteten 185 GBq och halveringstiden 5,27 år. En atom har massan 59,93 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=166321200\\]</p><p>\\[T\\approx166000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}17\\cdot10^{-9}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=185000000000/\\lambda\\]</p><p>\\[N\\approx4{,}44\\cdot10^{19}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot59{,}93\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx4{,}42\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.417504847412447e-06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 1.104376211853112e-07,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm antalet kärnor från aktivitet och halveringstid. Multiplicera med en atoms kg-massa.</p>",
+        "t": "<p>En kobolt-60-källa har aktiviteten 185 GBq och halveringstiden 5,27 år. En atom har massan 59,93 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm tumörens ekvivalenta dos.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En patient bestrålas i 32,0 s med en Co-60-källa (59,93 u, \\(T_{1/2}=5{,}27\\) år) med aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. Den riktade strålen innehåller 1,00 % av fotonerna, och 20,0 % av dem absorberas i tumören (1,50 kg). Gammastrålning har kvalitetsfaktorn 1.</p><p>Bestäm tumörens ekvivalenta dos.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Fotoner i tumören: \\(185\\cdot10^9\\cdot32{,}0\\cdot0{,}0100\\cdot0{,}200\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=n\\cdot1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=\\dfrac{E}{1{,}50}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00158\\) Sv</p></div>",
-        "ledtrad": "<p>Hur många fotoner absorberas av tumören?</p>",
+        "fraga": "En strålkälla har aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i Sv. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{abs}}=185\\cdot10^9\\cdot32\\cdot0{,}002\\]</p><p>\\[N_{\\text{abs}}\\approx11800000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}00237\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/1{,}5\\]</p><p>\\[D\\approx0{,}00158\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}00158\\ \\mathrm{Sv}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0015806400000000001,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Sv",
+        "tolerans": 5e-05,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Aktivitet och tid ger antal sönderfall. Räkna bara med den energi som vävnaden absorberar.</p>",
+        "t": "<p>En strålkälla har aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i Sv. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Bestäm antalet kärnor från aktivitet och halveringstid. Multiplicera med en atoms kg-massa.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "inandat zink-65",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En fysiker (75,0 kg) andas in Zn-65 med aktiviteten 1,85 MBq. Varje sönderfall ger en gammafoton på 0,550 MeV, och 40 % av strålningen absorberas i kroppen (kvalitetsfaktor 1). Bestäm den ekvivalenta dosen under första dygnet. Aktiviteten kan räknas som konstant.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=1{,}85\\cdot10^6\\cdot86\\,400\\cdot0{,}40\\cdot0{,}550\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=\\dfrac{E}{75{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\cdot10^{-5}\\) Sv</p></div>",
+    "t": "<p>En kropp med massan 75 kg absorberar 40 % av gammafotonerna från zink-65 med aktiviteten 1,85 MBq. Varje sönderfall ger en foton med energin 0,550 MeV. Viktfaktorn är 1. Bestäm den ekvivalenta dosen under ett dygn i Sv. Räkna med konstant aktivitet under tiden. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=86400\\]</p><p>\\[t\\approx86400\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=1850000\\cdot86400\\cdot0{,}4\\]</p><p>\\[N_{\\text{absorberade}}\\approx63900000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=550000\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}81\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}00563\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/75\\]</p><p>\\[D\\approx7{,}51\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx7{,}51\\cdot10^{-5}\\ \\mathrm{Sv}\\]</p></div></p></div>",
     "id": "9.379",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "numeriskt",
     "rättSvar": 7.51120128e-05,
-    "tolerans": 1.13e-06,
+    "tolerans": 1.8778003200000001e-06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många sönderfall sker under ett dygn?</p>",
+    "ledtrad": "<p>Antal sönderfall är aktivitet gånger tid. Räkna med andelen absorberad strålning och energin per partikel.</p>",
     "traningsniva": 3,
     "svarEnhet": "Sv",
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "E",
-    "typ": "två tumörer med samma dos",
     "poang": "(2/0/0)",
-    "t": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p><ol type=\"a\"><li>Bestäm den absorberade dosen.</li><li>Hur mycket energi absorberar den andra tumören (0,15 kg)?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{1{,}7}{0{,}12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) Gy</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dosen är energi per kilogram. Multiplicera därför dosen med tumörens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Dm=14\\cdot0{,}15=2{,}1\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,1 J.</p></div></div></div>",
+    "t": "<p>Två tumörer får samma absorberade dos. Den ena har massan 0,12 kg och absorberar 1,7 J; den andra har massan 0,15 kg.</p><p>a) Bestäm den gemensamma absorberade dosen i Gy.</p><p>b) Hur mycket energi absorberar den andra tumören? Svara i J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[D=1{,}7/0{,}12\\]</p><p>\\[D\\approx14{,}2\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=(1{,}7/0{,}12)\\cdot0{,}15\\]</p><p>\\[E\\approx2{,}12\\ \\mathrm{J}\\]</p></div></div>",
     "id": "9.380",
     "miniräknare": true,
     "geogebra": false,
@@ -157070,10 +157780,13 @@ window.BANK = [
       2.125
     ],
     "tolerans": [
-      0.51,
-      0.051
+      0.5,
+      0.052500000000000005
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -157091,157 +157804,172 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p>",
+    "spelIntro": "<p>Två tumörer får samma absorberade dos. Den ena har massan 0,12 kg och absorberar 1,7 J; den andra har massan 0,15 kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den absorberade dosen.",
-        "t": "<p>Två tumörer får samma absorberade dos. Den mindre (0,12 kg) absorberar 1,7 J.</p><p>Bestäm den absorberade dosen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{1{,}7}{0{,}12}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) Gy</p></div>",
-        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "fraga": "En tumör har massan 0,12 kg och absorberar 1,7 J strålningsenergi. Bestäm absorberad dos i Gy.",
+        "s": "<div class=\"facit-v2\"><p>\\[D=1{,}7/0{,}12\\]</p><p>\\[D\\approx14{,}2\\ \\mathrm{Gy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 14.166666666666666,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Gy",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "t": "<p>En tumör har massan 0,12 kg och absorberar 1,7 J strålningsenergi. Bestäm absorberad dos i Gy.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket strålningsenergi tar tumören upp? Svara i J.",
-        "t": "<p>En tumör på 0,15 kg får stråldosen 14 Gy. En gray betyder en joule per kilogram: 1 Gy = 1 J/kg.</p><p>Hur mycket strålningsenergi tar tumören upp? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Dosen är energi per kilogram. Multiplicera därför dosen med tumörens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=Dm=14\\cdot0{,}15=2{,}1\\,\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,1 J.</p></div></div>",
-        "ledtrad": "<p>Använd energin per kilogram och massan.</p>",
+        "fraga": "En tumör har massan 0,15 kg och får dosen 14 Gy. Hur mycket strålningsenergi absorberar den? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>Dosen är energi per kg.</p><p>\\[E=Dm=14\\cdot0{,}15=2{,}1\\ \\mathrm J\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.1,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 0.052500000000000005,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "t": "<p>En tumör har massan 0,15 kg och får dosen 14 Gy. Hur mycket strålningsenergi absorberar den? Svara i J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "traningsniva": 1,
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
-    "niva": "C",
-    "typ": "massa ur kosmisk strålning",
-    "poang": "(0/1/0)",
-    "t": "<p>Kosmisk strålning (kvalitetsfaktor 10) ger en person den ekvivalenta dosen 0,24 mSv per år, och personen tar emot energin 1,9 mJ. Hur mycket väger personen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(D=\\dfrac{0{,}24\\cdot10^{-3}}{10}\\) Gy, \\(m=\\dfrac{1{,}9\\cdot10^{-3}}{D}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(79\\) kg</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Under ett år absorberar en kropp 1,9 mJ från kosmisk strålning och får den ekvivalenta dosen 0,24 mSv. Räkna med viktfaktorn 10. Hur stor är kroppens massa?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[H=0{,}24\\ \\mathrm{mSv}=0{,}00024\\ \\mathrm{Sv}\\]</p><p>\\[D=H/w\\]\\[D=0{,}00024/10=0{,}000024\\ \\mathrm{Gy}\\]</p><p>\\[E=1{,}9\\ \\mathrm{mJ}=0{,}0019\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[m=0{,}0019/0{,}000024\\]</p><p>\\[m\\approx79{,}2\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.381",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "numeriskt",
     "rättSvar": 79.16666666666667,
-    "tolerans": 1.19,
+    "tolerans": 1.979166666666667,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Använd viktfaktorn för att få absorberad dos. Massa är energi delat med dos.</p>",
+    "traningsniva": 2,
     "svarEnhet": "kg",
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "aktivitet ur absorberad dos",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (2,0 kg) bestrålas i 850 s och får den absorberade dosen 12 Gy. Varje sönderfall i strålkällan ger i genomsnitt 0,40 MeV, och all strålning absorberas i tumören. Bestäm källans aktivitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(E=12\\cdot2{,}0=24\\) J.</p></div><div class=\"facit-stycke\"><p>Antal sönderfall: \\(\\dfrac{24}{0{,}40\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{n}{850}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}4\\cdot10^{11}\\) Bq</p></div>",
+    "t": "<p>En tumör med massan 2,0 kg ska absorbera dosen 12 Gy på 850 s. Varje sönderfall i strålkällan ger i genomsnitt 0,40 MeV som tas upp i tumören. Bestäm den aktivitet som behövs i Bq. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[E=Dm=12\\cdot2{,}0=24\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=0{,}40\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx6{,}41\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_p\\]</p><p>\\[N\\approx3{,}75\\cdot10^{14}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=N/850\\]</p><p>\\[A\\approx441000000000\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "id": "9.382",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Dosrat, avstånd och strålskydd",
     "svarstyp": "numeriskt",
     "rättSvar": 440625688477.63824,
-    "tolerans": 6610000000.0,
+    "tolerans": 11015642211.940956,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm antalet sönderfall först.</p>",
+    "ledtrad": "<p>Bestäm energi, antal sönderfall och sedan sönderfall per sekund.</p>",
     "traningsniva": 3,
     "svarEnhet": "Bq",
     "familjNyckel": "straldoser__dosrat_avstand_och_stralskydd",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "dos för att förånga is",
     "poang": "(0/1/0)",
-    "t": "<p>Hur stor absorberad dos krävs för att is vid 0 °C ska bli vattenånga vid 100 °C? Smältvärme 334 kJ/kg, vattnets specifika värmekapacitet 4,18 kJ/(kg·K), ångbildningsvärme 2 260 kJ/kg.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Per kg: \\(334+4{,}18\\cdot100+2\\,260\\) kJ.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 G y=1\\, \\mathrm{J/kg}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^{6}\\) Gy</p></div>",
+    "t": "<p>Is vid 0 °C tar upp strålningsenergi som helt blir värme. Vilken absorberad dos krävs för att isen ska bli vattenånga vid 100 °C? Smältvärmen är 334 kJ/kg, vattnets specifika värmekapacitet 4,18 kJ/(kg·K) och ångbildningsvärmen 2 260 kJ/kg. Svara i Gy.</p>",
+    "s": "<div class=\"facit-v2\"><p>Energin behövs för att smälta isen, värma vattnet och förånga det.</p><p>\\[E/m=334+4{,}18\\cdot100+2260\\]</p><p>\\[E/m=3012\\ \\mathrm{kJ/kg}=3012000\\ \\mathrm{J/kg}\\]</p><p>\\[D=3012000\\ \\mathrm{Gy}\\]</p></div>",
     "id": "9.383",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Absorberad dos (Gy)",
     "svarstyp": "numeriskt",
     "rättSvar": 3012000.0,
-    "tolerans": 51000.0,
+    "tolerans": 75300.0,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Summera energin per kilogram.</p>",
+    "ledtrad": "<p>Summera de tre energierna per kg. En Gy är en J/kg.</p>",
     "traningsniva": 3,
     "svarEnhet": "Gy",
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
-    "spel": true
-  },
-  {
-    "kap": 9,
-    "omr": "straldoser",
-    "niva": "A",
-    "typ": "radium i kroppen",
-    "poang": "(0/1/2)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En person (80,0 kg) får den ekvivalenta dosen 2,50 mSv per år från Ra-226 (226 u, \\(T_{1/2}=1\\,600\\) år) i kroppen. Ra-226 sänder ut alfapartiklar (kvalitetsfaktor 20) med energin 4,80 MeV. Vilken massa Ra-226 har personen i kroppen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{2{,}50\\cdot10^{-3}}{20}\\],</div></div><div class=\"facit-stycke\"><p>\\(E=80{,}0D\\) per år.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{E}{4{,}80\\,\\text{MeV}\\cdot3{,}156\\cdot10^7}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A}{\\lambda}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot226\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\cdot10^{-11}\\) kg</p></div>",
-    "id": "9.384",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Ekvivalent dos (Sv)",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.1265178861413318e-11,
-    "tolerans": 5.1e-13,
-    "självrättning": true,
-    "formaga": [
-      "problemlösning",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm aktiviteten först.</p>",
-    "traningsniva": 5,
-    "svarEnhet": "kg",
-    "familjNyckel": "straldoser__ekvivalent_dos_sv",
-    "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "protonstråle mot tumör",
+    "poang": "(0/1/0)",
+    "t": "<p>I en modell får 2 kg vävnad den ekvivalenta dosen 2,5 mSv under ett år från radium-226. Strålningens viktfaktor är 20 och varje sönderfall ger 4,8 MeV som tas upp i vävnaden. Halveringstiden är 1 600 år och en atom har massan 226 u. Uppskatta isotopens massa i kg. Räkna bara med dess egna sönderfall. Använd 1 u = 1,6605·10⁻²⁷ kg, 1 år = 3,156·10⁷ s och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}0025/20\\]</p><p>\\[D\\approx0{,}000125\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=2D\\]</p><p>\\[E\\approx0{,}00025\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=4{,}8\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx7{,}69\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=E/(E_p\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[A\\approx10{,}3\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/50496000000\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx750000000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot226\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx2{,}82\\cdot10^{-13}\\ \\mathrm{kg}\\]</p></div></p></div>",
+    "id": "9.384",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Ekvivalent dos (Sv)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.8162947153533293e-13,
+    "tolerans": 7.040736788383323e-15,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dosen och vävnadsmassan ger energi under året. Därifrån får du aktivitet, kärnantal och isotopmassa.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "familjNyckel": "straldoser__ekvivalent_dos_sv",
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
+  },
+  {
+    "kap": 9,
+    "omr": "straldoser",
+    "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p><ol type=\"a\"><li>Hur stor absorberad dos krävs?</li><li>Hur mycket energi krävs?</li><li>Hur länge måste tumören bestrålas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{240}{14}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) Gy</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=17{,}1\\cdot0{,}015\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}26\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Effekt: \\(1{,}8\\cdot10^{10}\\cdot4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\) W.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{E}{P}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) s</p></li></ol></div>",
+    "t": "<p>En tumör på 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Räkna med viktfaktorn 14 och 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Bestäm absorberad dos i Gy.</p><p>b) Bestäm absorberad energi i J.</p><p>c) Bestäm bestrålningstiden i s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[D=240/14\\]</p><p>\\[D\\approx17{,}1\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=D\\cdot0{,}015\\]</p><p>\\[E\\approx0{,}257\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[P=1{,}8\\cdot10^{10}\\cdot4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[P\\approx0{,}0115\\ \\mathrm{W}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=E/P\\]</p><p>\\[t\\approx22{,}3\\ \\mathrm{s}\\]</p></div></p></div></div>",
     "id": "9.385",
     "miniräknare": true,
     "geogebra": false,
@@ -157253,14 +157981,18 @@ window.BANK = [
       22.293561619404315
     ],
     "tolerans": [
-      0.51,
-      0.0051,
-      0.51
+      0.5,
+      0.006412500000000001,
+      0.5570294076848384
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -157279,56 +158011,80 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p>",
+    "spelIntro": "<p>En tumör på 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Räkna med viktfaktorn 14 och 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor absorberad dos krävs? Svara i Gy.",
-        "t": "<p>En tumör behöver den ekvivalenta dosen 240 Sv. Strålningens viktfaktor är 14.</p><p>Hur stor absorberad dos krävs? Svara i Gy.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\dfrac{240}{14}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) Gy</p></div>",
-        "ledtrad": "<p>\\(H=QD\\).</p>",
+        "fraga": "En tumör ska få den ekvivalenta dosen 240 Sv. Räkna med viktfaktorn 14. Hur stor absorberad dos krävs i Gy?",
+        "s": "<div class=\"facit-v2\"><p>\\[D=240/14\\]</p><p>\\[D\\approx17{,}1\\ \\mathrm{Gy}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 17.142857142857142,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Gy",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "t": "<p>En tumör ska få den ekvivalenta dosen 240 Sv. Räkna med viktfaktorn 14. Hur stor absorberad dos krävs i Gy?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket strålningsenergi måste tumören absorbera? Svara i J.",
-        "t": "<p>En tumör på 0,015 kg ska få den absorberade dosen 17,1 Gy.</p><p>Hur mycket strålningsenergi måste tumören absorbera? Svara i J.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=17{,}1\\cdot0{,}015\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}26\\) J</p></div>",
-        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+        "fraga": "En tumör med massan 0,015 kg får den absorberade dosen 17,1 Gy. Hur mycket energi absorberar den? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=Dm=17{,}1\\cdot0{,}015=0{,}2565\\ \\mathrm J\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.2565,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 0.006412500000000001,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "t": "<p>En tumör med massan 0,015 kg får den absorberade dosen 17,1 Gy. Hur mycket energi absorberar den? Svara i J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur länge måste tumören bestrålas?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tumör (0,015 kg) behöver den ekvivalenta dosen 240 Sv. Protonerna har energin 4,0 MeV och kvalitetsfaktorn 14. Strålen ger \\(1{,}8\\cdot10^{10}\\) protoner per sekund.</p>Energin är 0,257 J.<p>Hur länge måste tumören bestrålas?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Effekt: \\(1{,}8\\cdot10^{10}\\cdot4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\) W.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\dfrac{E}{P}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) s</p></div>",
-        "ledtrad": "<p>Energi per sekund från strålen.</p>",
+        "fraga": "En tumör behöver absorbera energin 0,257 J. En stråle ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna tas upp i tumören. Hur lång tid behövs? Svara i s. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_p=4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx6{,}41\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=1{,}8\\cdot10^{10}E_p\\]</p><p>\\[P\\approx0{,}0115\\ \\mathrm{W}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=0{,}257/P\\]</p><p>\\[t\\approx22{,}3\\ \\mathrm{s}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 22.281176307393537,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s",
+        "tolerans": 0.5570294076848384,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Energi per proton gånger protoner per sekund ger effekt. Tid är energi delad med effekt.</p>",
+        "t": "<p>En tumör behöver absorbera energin 0,257 J. En stråle ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna tas upp i tumören. Hur lång tid behövs? Svara i s. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "oskyddad hantering av cesiumkälla",
-    "poang": "(0/2/0)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p><ol type=\"a\"><li>Hur mycket energi avger källan per sekund?</li><li>Bestäm den ekvivalenta dosen.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=45\\cdot10^6\\cdot850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}1\\cdot10^{-6}\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=P\\cdot1{,}4\\cdot3\\,600\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=\\dfrac{E}{62}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00050\\) Sv</p></li></ol></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. En kropp på 62 kg absorberar all denna strålningsenergi under 1,4 timmar. Viktfaktorn är 1. Använd 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Bestäm effekten i W.</p><p>b) Bestäm kroppens ekvivalenta dos i Sv.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P=45\\cdot10^6\\cdot850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[P\\approx6{,}13\\cdot10^{-6}\\ \\mathrm{W}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=P\\cdot5040\\]</p><p>\\[E\\approx0{,}0309\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=E/62\\]</p><p>\\[H\\approx0{,}000498\\ \\mathrm{Sv}\\]</p></div></p></div></div>",
     "id": "9.386",
     "miniräknare": true,
     "geogebra": false,
@@ -157339,13 +158095,16 @@ window.BANK = [
       0.0004981186451612903
     ],
     "tolerans": [
-      9.19e-08,
-      7.47e-06
+      1.5319125e-07,
+      1.2396774193548387e-05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -157361,64 +158120,81 @@ window.BANK = [
       "Sv"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p>",
+    "spelIntro": "<p>En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. En kropp på 62 kg absorberar all denna strålningsenergi under 1,4 timmar. Viktfaktorn är 1. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi avger källan per sekund?",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p><p>Hur mycket energi avger källan per sekund?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=45\\cdot10^6\\cdot850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}1\\cdot10^{-6}\\) W</p></div>",
-        "ledtrad": "<p>Energi per sönderfall gånger aktivitet.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. Bestäm effekten i W. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_p=850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}36\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=45\\cdot10^6 E_p\\]</p><p>\\[P\\approx6{,}13\\cdot10^{-6}\\ \\mathrm{W}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.12765e-06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 1.5319125e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt är energi per sekund.</p>",
+        "t": "<p>En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. Bestäm effekten i W. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den ekvivalenta dosen.",
-        "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En Cs-137-källa med aktiviteten 45 MBq hanteras i 1,4 h av en arbetare (62 kg). Varje sönderfall ger en betapartikel på 190 keV och en gammafoton på 660 keV. Anta att all strålning absorberas och att kvalitetsfaktorn är 1.</p>Källan avger \\(6{,}1\\cdot10^{-6}\\) W.<p>Bestäm den ekvivalenta dosen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=P\\cdot1{,}4\\cdot3\\,600\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=\\dfrac{E}{62}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00050\\) Sv</p></div>",
-        "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En kropp har massan 62 kg och absorberar strålningseffekten 6,1 µW under 1,4 timmar. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i Sv.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=6{,}1\\cdot10^{-6}\\ \\mathrm W\\]</p><p>\\[t=1{,}4\\cdot3600=5040\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[E=P\\cdot5040\\]</p><p>\\[E\\approx0{,}0307\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/62\\]</p><p>\\[D\\approx0{,}000496\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}000496\\ \\mathrm{Sv}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0004958709677419354,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Sv",
+        "tolerans": 1.2396774193548387e-05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt och tid ger absorberad energi. Dela med kroppens massa.</p>",
+        "t": "<p>En kropp har massan 62 kg och absorberar strålningseffekten 6,1 µW under 1,4 timmar. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i Sv.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Effekt är energi per sekund.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "straldoser",
     "niva": "C",
-    "typ": "kalium-40 ger årsdos",
     "poang": "(0/1/0)",
-    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>K-40 i kroppen har aktiviteten 4,9 kBq, och varje sönderfall frigör i genomsnitt 1,4 MeV som absorberas av kroppen (70 kg, kvalitetsfaktor 1). Bestäm den ekvivalenta dosen per år.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=4\\,900\\cdot3{,}156\\cdot10^7\\cdot1{,}4\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[H=\\dfrac{E}{70}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00050\\) Sv</p></div>",
+    "t": "<p>Kalium-40 i en kropp med massan 70 kg har aktiviteten 4,9 kBq. Räkna med att varje sönderfall i genomsnitt ger 1,4 MeV som tas upp av kroppen. Viktfaktorn är 1. Bestäm den ekvivalenta dosen under ett år i Sv. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet under tiden. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=31560000\\]</p><p>\\[t\\approx31600000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=4900\\cdot31560000\\cdot1\\]</p><p>\\[N_{\\text{absorberade}}\\approx155000000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=1400000\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2{,}24\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}0347\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/70\\]</p><p>\\[D\\approx0{,}000495\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}000495\\ \\mathrm{Sv}\\]</p></div></p></div>",
     "id": "9.387",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Ekvivalent dos (Sv)",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0004954416969599999,
-    "tolerans": 7.43e-06,
+    "rättSvar": 0.0004954793760000001,
+    "tolerans": 1.2386984400000003e-05,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(D=\\dfrac{E}{m}\\) och \\(H=Q\\cdot D\\).</p>",
+    "ledtrad": "<p>Antal sönderfall är aktivitet gånger tid. Räkna med andelen absorberad strålning och energin per partikel.</p>",
     "traningsniva": 3,
     "svarEnhet": "Sv",
     "familjNyckel": "straldoser__ekvivalent_dos_sv",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.260",

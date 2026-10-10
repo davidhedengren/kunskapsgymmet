@@ -100734,9 +100734,9 @@ window.BANK = [
     "id": "9.6",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
+    "niva": "E",
     "typ": "skriva reaktionsformler för alfa beta-minus beta-plus och elektroninfångning, ur text, sökt reaktionsformel",
-    "poang": "(2/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Skriv fullständiga reaktionsformler för följande sönderfall. Ange både masstal och atomnummer för dotterkärnan, och glöm inte neutrinon eller antineutrinon.</p>\n<ol><li>²³⁸₉₂U sönderfaller med alfasönderfall.</li>\n<li>¹⁴₆C sönderfaller med β⁻-sönderfall.</li>\n<li>²²₁₁Na sönderfaller med β⁺-sönderfall.</li>\n<li>⁷₄Be genomgår elektroninfångning.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfa minskar masstalet med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{238}_{92}\\mathrm U\\rightarrow{}^{234}_{90}\\mathrm{Th}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-minus omvandlar en neutron till en proton.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{14}_{6}\\mathrm C\\rightarrow{}^{14}_{7}\\mathrm N+e^-+\\bar\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-plus omvandlar en proton till en neutron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{22}_{11}\\mathrm{Na}\\rightarrow{}^{22}_{10}\\mathrm{Ne}+e^++\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid elektroninfångning tas en elektron upp av kärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{7}_{4}\\mathrm{Be}+e^-\\rightarrow{}^{7}_{3}\\mathrm{Li}+\\nu_e\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Reaktionsformlerna bevarar både masstal och elektrisk laddning och innehåller rätt neutrino eller antineutrino.</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -100749,7 +100749,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Alfa minskar masstalet med 4 och atomnumret med 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv fullständiga reaktionsformler för följande sönderfall. Ange både masstal och atomnummer för dotterkärnan, och glöm inte neutrinon eller antineutrinon.</p>",
     "spelDelar": [
@@ -100757,34 +100757,50 @@ window.BANK = [
         "etikett": "a",
         "fraga": "²³⁸₉₂U sönderfaller med alfasönderfall.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfa minskar masstalet med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{238}_{92}\\mathrm U\\rightarrow{}^{234}_{90}\\mathrm{Th}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Alfa minskar masstalet med 4 och atomnumret med 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>²³⁸₉₂U sönderfaller med alfasönderfall.</p>"
       },
       {
         "etikett": "b",
         "fraga": "¹⁴₆C sönderfaller med β⁻-sönderfall.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-minus omvandlar en neutron till en proton.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{14}_{6}\\mathrm C\\rightarrow{}^{14}_{7}\\mathrm N+e^-+\\bar\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Alfa minskar masstalet med 4 och atomnumret med 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>¹⁴₆C sönderfaller med β⁻-sönderfall.</p>"
       },
       {
         "etikett": "c",
         "fraga": "²²₁₁Na sönderfaller med β⁺-sönderfall.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-plus omvandlar en proton till en neutron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{22}_{11}\\mathrm{Na}\\rightarrow{}^{22}_{10}\\mathrm{Ne}+e^++\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Alfa minskar masstalet med 4 och atomnumret med 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>²²₁₁Na sönderfaller med β⁺-sönderfall.</p>"
       },
       {
         "etikett": "d",
         "fraga": "⁷₄Be genomgår elektroninfångning.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid elektroninfångning tas en elektron upp av kärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{7}_{4}\\mathrm{Be}+e^-\\rightarrow{}^{7}_{3}\\mathrm{Li}+\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Alfa minskar masstalet med 4 och atomnumret med 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>⁷₄Be genomgår elektroninfångning.</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -101316,11 +101332,10 @@ window.BANK = [
     "id": "9.10",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "typ": "beräkna frigjord energi vid ett alfasönderfall ur atommassorna, ur text, sökt massdefekt och energi",
-    "poang": "(2/1/0)",
-    "t": "<p>Radium-226 sönderfaller med alfasönderfall till radon-222. Atommassorna är m(²²⁶Ra) = 226,025410 u, m(²²²Rn) = 222,017578 u och m(⁴He) = 4,002602 u. 1 u motsvarar 931,5 MeV.</p>\n<ol><li>Skriv reaktionsformeln.</li>\n<li>Hur stor är den sammanlagda massan efter sönderfallet?</li>\n<li>Bestäm massminskningen.</li>\n<li>Hur mycket energi frigörs?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Reaktionsformeln är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Produkternas sammanlagda atommassa är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_f=222{,}017578+4{,}002602=226{,}020180\\ \\mathrm u\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=226{,}025410-226{,}020180=0{,}005230\\ \\mathrm u\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den frigjorda energin är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}005230)(931{,}5)=4{,}872\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>Elektronmassorna tar ut varandra när atommassor används: 88 elektroner före och 86 + 2 efter.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Produkternas massa är \\(226{,}020180\\ \\mathrm u\\), massdefekten \\(0{,}005230\\ \\mathrm u\\), och energin \\(4{,}87\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Radium-226, atomnummer 88, alfasönderfaller till radon-222, atomnummer 86. Atommassorna är 226,025410 u, 222,017578 u och 4,002602 u för radium, radon och helium. 1 u motsvarar 931,5 MeV.</p><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm produkternas sammanlagda massa i u med sex decimaler.</p><p>c) Bestäm massminskningen i u.</p><p>d) Bestäm frigjord energi i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m_{efter}=222{,}017578+4{,}002602\\]</p><p>\\[m_{efter}=226{,}020180\\ \\mathrm u\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}005230\\ \\mathrm u\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[Q=0{,}005230\\cdot931{,}5\\]</p><p>\\[Q\\approx4{,}87\\ \\mathrm{MeV}\\]</p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
@@ -101329,15 +101344,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      226.02018,
-      0.00523,
-      4.87
+      226.02017999999998,
+      0.005230000000011614,
+      4.871745000010819
     ],
     "tolerans": [
       null,
-      3.3903027,
-      0.0001569,
-      0.07305
+      5e-07,
+      0.00013075000000029036,
+      0.12179362500027047
     ],
     "självrättning": [
       false,
@@ -101365,43 +101380,107 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "karnreaktioner__mass_energi_ekvivalens",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Radium-226 sönderfaller med alfasönderfall till radon-222. Atommassorna är m(²²⁶Ra) = 226,025410 u, m(²²²Rn) = 222,017578 u och m(⁴He) = 4,002602 u. 1 u motsvarar 931,5 MeV.</p>",
+    "spelIntro": "<p>Radium-226, atomnummer 88, alfasönderfaller till radon-222, atomnummer 86. Atommassorna är 226,025410 u, 222,017578 u och 4,002602 u för radium, radon och helium. 1 u motsvarar 931,5 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv reaktionsformeln.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Reaktionsformeln är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "Radium-226 har atomnummer 88 och alfasönderfaller. Vilken kärna bildas?",
+        "s": "<div class=\"facit-v2\"><p>\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Radon-222, atomnummer 86.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Radon-222, atomnummer 86.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Radon-226, atomnummer 86.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Radium-222, atomnummer 88.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
+        "t": "<p>Radium-226 har atomnummer 88 och alfasönderfaller. Vilken kärna bildas?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är den sammanlagda massan efter sönderfallet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Produkternas sammanlagda atommassa är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_f=222{,}017578+4{,}002602=226{,}020180\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(226{,}020180\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "Radium-226 alfasönderfaller till radon-222 och helium-4. Atommassorna är 222,017578 u och 4,002602 u. Bestäm produkternas sammanlagda massa i u med sex decimaler.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{efter}=222{,}017578+4{,}002602\\]</p><p>\\[m_{efter}=226{,}020180\\ \\mathrm u\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 226.02017999999998,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 5e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Addera de två produktmassorna.</p>",
+        "t": "<p>Radium-226 alfasönderfaller till radon-222 och helium-4. Atommassorna är 222,017578 u och 4,002602 u. Bestäm produkternas sammanlagda massa i u med sex decimaler.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm massminskningen.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=226{,}025410-226{,}020180=0{,}005230\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}005230\\ \\mathrm u\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "Vid ett radiumsönderfall är atommassan före 226,025410 u och den sammanlagda massan efter 226,020180 u. Bestäm massminskningen i u.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}005230\\ \\mathrm u\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.005230000000011614,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "u",
+        "tolerans": 0.00013075000000029036,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dra massan efter från massan före.</p>",
+        "t": "<p>Vid ett radiumsönderfall är atommassan före 226,025410 u och den sammanlagda massan efter 226,020180 u. Bestäm massminskningen i u.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Hur mycket energi frigörs?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den frigjorda energin är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}005230)(931{,}5)=4{,}872\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>Elektronmassorna tar ut varandra när atommassor används: 88 elektroner före och 86 + 2 efter.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}872\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "Vid ett radiumsönderfall minskar massan med 0,005230 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[Q=0{,}005230\\cdot931{,}5\\]</p><p>\\[Q\\approx4{,}87\\ \\mathrm{MeV}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.871745000010819,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.12179362500027047,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massminskningen med 931,5 MeV/u.</p>",
+        "t": "<p>Vid ett radiumsönderfall minskar massan med 0,005230 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
     "manuellKomplettering": true
   },
@@ -101412,8 +101491,8 @@ window.BANK = [
     "niva": "E",
     "typ": "balansera masstal och atomnummer i kärnreaktion",
     "poang": "(1/0/0)",
-    "t": "<p>I kärnreaktionen \\(^{235}_{92}U+n\\rightarrow {}^{141}_{56}Ba+{}^{92}_{36}Kr+x n\\) bestämmer \\(x\\) hur många neutroner som frigörs. Bestäm \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet och atomnumret måste bevaras var för sig.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\"><p>Masstalen ger \\(236=141+92+x\\), alltså \\(x=3\\).</p></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\) neutroner.</p></div>",
+    "t": "<p>I kärnreaktionen \\(^{235}_{92}U+n\\rightarrow {}^{141}_{56}Ba+{}^{92}_{36}Kr+x n\\) Hur många neutroner frigörs?</p>",
+    "s": "<div class=\"facit-v2\"><p>Summan av masstalen bevaras.</p><p>\\[235+1=141+92+x\\]</p><p>\\[x=3\\]</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur"
@@ -101421,11 +101500,11 @@ window.BANK = [
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.054,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -102526,8 +102605,8 @@ window.BANK = [
     "id": "9.17",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "poang": "(0/2/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Skriv färdigt följande reaktionsformler.</p>\n<ol><li>²³⁹₉₄Pu → ____ + ⁴₂He</li>\n<li>²²₁₁Na → ____ + e⁺ + ν</li>\n<li>____ → ¹⁴₇N + e⁻ + ν̄</li>\n<li>⁶⁰₂₇Co → ⁶⁰₂₈Ni + ____ + ν̄</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Plutonium-239 genomgår alfa-sönderfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm U+{}^4_2\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-plus sänker atomnumret med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{22}_{11}\\mathrm{Na}\\rightarrow{}^{22}_{10}\\mathrm{Ne}+e^++\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Baklänges från kväve-14 vid beta-minus fås kol-14.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{14}_{6}\\mathrm C\\rightarrow{}^{14}_{7}\\mathrm N+e^-+\\bar\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den saknade partikeln är en elektron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{60}_{27}\\mathrm{Co}\\rightarrow{}^{60}_{28}\\mathrm{Ni}+e^-+\\bar\\nu_e\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade delarna är \\({}^{235}_{92}\\mathrm U\\), \\({}^{22}_{10}\\mathrm{Ne}\\), \\({}^{14}_{6}\\mathrm C\\) och \\(e^-\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -102540,7 +102619,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Plutonium-239 genomgår alfa-sönderfall. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv färdigt följande reaktionsformler.</p>",
     "spelDelar": [
@@ -102548,34 +102627,50 @@ window.BANK = [
         "etikett": "a",
         "fraga": "²³⁹₉₄Pu → ____ + ⁴₂He",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Plutonium-239 genomgår alfa-sönderfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm U+{}^4_2\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Plutonium-239 genomgår alfa-sönderfall. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>²³⁹₉₄Pu → ____ + ⁴₂He</p>"
       },
       {
         "etikett": "b",
         "fraga": "²²₁₁Na → ____ + e⁺ + ν",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-plus sänker atomnumret med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{22}_{11}\\mathrm{Na}\\rightarrow{}^{22}_{10}\\mathrm{Ne}+e^++\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Plutonium-239 genomgår alfa-sönderfall. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>²²₁₁Na → ____ + e⁺ + ν</p>"
       },
       {
         "etikett": "c",
         "fraga": "____ → ¹⁴₇N + e⁻ + ν̄",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Baklänges från kväve-14 vid beta-minus fås kol-14.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{14}_{6}\\mathrm C\\rightarrow{}^{14}_{7}\\mathrm N+e^-+\\bar\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Plutonium-239 genomgår alfa-sönderfall. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>____ → ¹⁴₇N + e⁻ + ν̄</p>"
       },
       {
         "etikett": "d",
         "fraga": "⁶⁰₂₇Co → ⁶⁰₂₈Ni + ____ + ν̄",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den saknade partikeln är en elektron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{60}_{27}\\mathrm{Co}\\rightarrow{}^{60}_{28}\\mathrm{Ni}+e^-+\\bar\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Plutonium-239 genomgår alfa-sönderfall. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>⁶⁰₂₇Co → ⁶⁰₂₈Ni + ____ + ν̄</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -103496,9 +103591,9 @@ window.BANK = [
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "E",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Vilka partiklar skickas ut vid följande typer av radioaktivt sönderfall?</p>\n<ol><li>β⁺-sönderfall</li><li>α-sönderfall</li><li>β⁻-sönderfall</li><li>γ-sönderfall</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus avges en positron och en elektronneutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p\\rightarrow n+e^++\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en helium-4-kärna med två protoner och två neutroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^4_2\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus avges en elektron och en elektronantineutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid gammasönderfall avges en högenergetisk foton när en exciterad kärna går till ett lägre energitillstånd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[X^*\\rightarrow X+\\gamma\\]</div></div><div class=\"facit-stycke\"><p>Masstal och atomnummer ändras inte.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> β⁺ avger positron och neutrino, α en heliumkärna, β⁻ elektron och antineutrino, och γ en foton.</p></div>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p><strong>a)</strong></p><p><div class=\"facit-v2\"><p>Beta-plus avger en positron och en neutrino.</p><p>\\[p\\rightarrow n+e^++\\nu_e\\]</p></div></p></div></p><p><div class=\"facit-v2\"><p><strong>b)</strong></p><p><div class=\"facit-v2\"><p>Alfa avger en heliumkärna: två protoner och två neutroner.</p><p>\\[{}^4_2\\mathrm{He}\\]</p></div></p></div></p><p><div class=\"facit-v2\"><p><strong>c)</strong></p><p><div class=\"facit-v2\"><p>Beta-minus avger en elektron och en antineutrino.</p><p>\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</p></div></p></div></p><p><div class=\"facit-v2\"><p><strong>d)</strong></p><p><div class=\"facit-v2\"><p>Gamma är en foton. Kärnan går till en lägre energinivå, medan A och Z är oförändrade.</p></div></p></div></p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur"
@@ -103509,37 +103604,53 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__fusion_och_massenergi",
-    "ledtrad": "<p>Vid beta-plus avges en positron och en elektronneutrino. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Skilj mellan heliumkärna, elektron, positron och foton.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Vilka partiklar skickas ut vid följande typer av radioaktivt sönderfall?</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "β⁺-sönderfall",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus avges en positron och en elektronneutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p\\rightarrow n+e^++\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Vid beta-plus avges en positron och en elektronneutrino. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "E"
+        "s": "<div class=\"facit-v2\"><p>Beta-plus avger en positron och en neutrino.</p><p>\\[p\\rightarrow n+e^++\\nu_e\\]</p></div>",
+        "ledtrad": "<p>Vilken partikel hör till den här sönderfallstypen?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>β⁺-sönderfall</p>"
       },
       {
         "etikett": "b",
         "fraga": "α-sönderfall",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en helium-4-kärna med två protoner och två neutroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^4_2\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Vid beta-plus avges en positron och en elektronneutrino. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "E"
+        "s": "<div class=\"facit-v2\"><p>Alfa avger en heliumkärna: två protoner och två neutroner.</p><p>\\[{}^4_2\\mathrm{He}\\]</p></div>",
+        "ledtrad": "<p>Vilken partikel hör till den här sönderfallstypen?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>α-sönderfall</p>"
       },
       {
         "etikett": "c",
         "fraga": "β⁻-sönderfall",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus avges en elektron och en elektronantineutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Vid beta-plus avges en positron och en elektronneutrino. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "E"
+        "s": "<div class=\"facit-v2\"><p>Beta-minus avger en elektron och en antineutrino.</p><p>\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</p></div>",
+        "ledtrad": "<p>Vilken partikel hör till den här sönderfallstypen?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>β⁻-sönderfall</p>"
       },
       {
         "etikett": "d",
         "fraga": "γ-sönderfall",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid gammasönderfall avges en högenergetisk foton när en exciterad kärna går till ett lägre energitillstånd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[X^*\\rightarrow X+\\gamma\\]</div></div><div class=\"facit-stycke\"><p>Masstal och atomnummer ändras inte.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Vid beta-plus avges en positron och en elektronneutrino. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "E"
+        "s": "<div class=\"facit-v2\"><p>Gamma är en foton. Kärnan går till en lägre energinivå, medan A och Z är oförändrade.</p></div>",
+        "ledtrad": "<p>Vilken partikel hör till den här sönderfallstypen?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>γ-sönderfall</p>"
       }
     ],
     "geogebra": false,
@@ -103689,10 +103800,10 @@ window.BANK = [
     "id": "9.25",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "poang": "(2/1/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Vid vissa typer av sönderfall frigörs energi.</p>\n<ol><li>Varför kan det frigöras energi vid sönderfall?</li>\n<li>Vad menas med begreppet massdefekt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sönderfall kan ske spontant när produkterna har lägre total vilomassa och därmed lägre total energi än moderkärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(m_{\\mathrm{före}}-m_{\\mathrm{efter}})c^2&gt;0\\]</div></div><div class=\"facit-stycke\"><p>Masskillnaden blir rörelseenergi och ibland foton- eller neutrinoenergi.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekt är en masskillnad som motsvarar bindningsenergi eller frigjord reaktionsenergi.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För en kärna jämförs kärnans massa med massan av fria nukleoner; i en reaktion jämförs utgångs- och slutprodukternas totala massor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\Delta mc^2\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Energi frigörs när slutprodukternas totala massa är mindre. Massdefekten är denna masskillnad och motsvarar energin genom E = Δmc².</p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p><div class=\"facit-v2\"><p>Energi kan frigöras när produkternas sammanlagda massa är mindre än massan före sönderfallet. Massminskningen motsvarar rörelseenergi hos produkterna och ibland foton- eller neutrinoenergi.</p><p>\\[Q=(m_{före}-m_{efter})c^2\\]</p></div></p><p><strong>b)</strong></p><p><div class=\"facit-v2\"><p>En kärna väger mindre än dess protoner och neutroner skulle väga var för sig. Den masskillnaden kallas massdefekt och motsvarar kärnans bindningsenergi.</p><p>\\[E=\\Delta mc^2\\]</p><p>Vid en kärnreaktion används samma energisamband för skillnaden mellan massan före och efter.</p></div></p></div>",
     "familj": "Energi i kärnreaktioner",
     "formaga": [
       "begrepp",
@@ -103704,28 +103815,36 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__mass_energi_ekvivalens",
-    "ledtrad": "<p>Sönderfall kan ske spontant när produkterna har lägre total vilomassa och därmed lägre total energi än moderkärnan.</p>",
+    "ledtrad": "<p>Masskillnaden motsvarar energi genom E = Δmc².</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Vid vissa typer av sönderfall frigörs energi.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Varför kan det frigöras energi vid sönderfall?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sönderfall kan ske spontant när produkterna har lägre total vilomassa och därmed lägre total energi än moderkärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(m_{\\mathrm{före}}-m_{\\mathrm{efter}})c^2&gt;0\\]</div></div><div class=\"facit-stycke\"><p>Masskillnaden blir rörelseenergi och ibland foton- eller neutrinoenergi.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\((m_{\\mathrm{före}}-m_{\\mathrm{efter}})c^2&gt;0\\).</p></div>",
-        "ledtrad": "<p>Sönderfall kan ske spontant när produkterna har lägre total vilomassa och därmed lägre total energi än moderkärnan.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Energi kan frigöras när produkternas sammanlagda massa är mindre än massan före sönderfallet. Massminskningen motsvarar rörelseenergi hos produkterna och ibland foton- eller neutrinoenergi.</p><p>\\[Q=(m_{före}-m_{efter})c^2\\]</p></div>",
+        "ledtrad": "<p>Massminskningen motsvarar den frigjorda energin.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>Varför kan det frigöras energi vid sönderfall?</p>"
       },
       {
         "etikett": "b",
         "fraga": "Vad menas med begreppet massdefekt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekt är en masskillnad som motsvarar bindningsenergi eller frigjord reaktionsenergi.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För en kärna jämförs kärnans massa med massan av fria nukleoner; i en reaktion jämförs utgångs- och slutprodukternas totala massor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\Delta mc^2\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\Delta mc^2\\).</p></div>",
-        "ledtrad": "<p>Sönderfall kan ske spontant när produkterna har lägre total vilomassa och därmed lägre total energi än moderkärnan.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>En kärna väger mindre än dess protoner och neutroner skulle väga var för sig. Den masskillnaden kallas massdefekt och motsvarar kärnans bindningsenergi.</p><p>\\[E=\\Delta mc^2\\]</p><p>Vid en kärnreaktion används samma energisamband för skillnaden mellan massan före och efter.</p></div>",
+        "ledtrad": "<p>Massminskningen motsvarar den frigjorda energin.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>Vad menas med begreppet massdefekt?</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -106253,8 +106372,8 @@ window.BANK = [
     "id": "9.39",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "poang": "(2/1/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Skriv reaktionsformler för följande sönderfall.</p>\n<ol><li>²²⁶₈₈Ra sönderfaller med alfasönderfall.</li>\n<li>³²₁₅P sönderfaller med β⁻-sönderfall.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Radium-226 avger en alfapartikel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fosfor-32 genomgår beta-minus-sönderfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{32}_{15}\\mathrm P\\rightarrow{}^{32}_{16}\\mathrm S+{}^0_{-1}e+\\bar\\nu_e\\]</div></div><div class=\"facit-stycke\"><p>Kontroll: både masstal och elektrisk laddning är bevarade.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Reaktionerna ger \\({}^{222}_{86}\\mathrm{Rn}\\) respektive \\({}^{32}_{16}\\mathrm S\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -106267,7 +106386,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv reaktionsformler för följande sönderfall.</p>",
     "spelDelar": [
@@ -106275,20 +106394,28 @@ window.BANK = [
         "etikett": "a",
         "fraga": "²²⁶₈₈Ra sönderfaller med alfasönderfall.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Radium-226 avger en alfapartikel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>²²⁶₈₈Ra sönderfaller med alfasönderfall.</p>"
       },
       {
         "etikett": "b",
         "fraga": "³²₁₅P sönderfaller med β⁻-sönderfall.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fosfor-32 genomgår beta-minus-sönderfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{32}_{15}\\mathrm P\\rightarrow{}^{32}_{16}\\mathrm S+{}^0_{-1}e+\\bar\\nu_e\\]</div></div><div class=\"facit-stycke\"><p>Kontroll: både masstal och elektrisk laddning är bevarade.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>³²₁₅P sönderfaller med β⁻-sönderfall.</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -106780,8 +106907,8 @@ window.BANK = [
     "niva": "E",
     "typ": "balansera masstal och atomnummer i kärnreaktion",
     "poang": "(1/0/0)",
-    "t": "<p>I kärnreaktionen \\(^{2}_{1}H+{}^{3}_{1}H\\rightarrow{}^{4}_{2}He+x n\\) bestämmer \\(x\\) hur många neutroner som frigörs. Bestäm \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet och atomnumret måste bevaras var för sig.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\"><p>Masstalen ger \\(5=4+x\\), alltså \\(x=1\\).</p></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\) neutroner.</p></div>",
+    "t": "<p>I kärnreaktionen \\(^{2}_{1}H+{}^{3}_{1}H\\rightarrow{}^{4}_{2}He+x n\\) Hur många neutroner frigörs?</p>",
+    "s": "<div class=\"facit-v2\"><p>Summan av masstalen bevaras.</p><p>\\[2+3=4+x\\]</p><p>\\[x=1\\]</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur"
@@ -106789,11 +106916,11 @@ window.BANK = [
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 0.018,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -107511,9 +107638,9 @@ window.BANK = [
     "id": "9.48",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
+    "niva": "E",
     "typ": "komplettera ofullständiga reaktionsformler för fyra sönderfallstyper, ur text, sökt nuklid och partikel",
-    "poang": "(2/1/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Komplettera reaktionsformlerna. Både masstal och laddning bevaras i reaktionerna.</p>\n<ol><li>²¹⁰₈₃Bi → ²⁰⁶₈₁Tl + ____</li>\n<li>⁹⁰₃₈Sr → ____ + e⁻ + ν̄</li>\n<li>¹⁸₉F → ¹⁸₈O + ____ + ν</li>\n<li>____ + e⁻ → ¹²⁵₅₂Te + ν</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skillnaden i masstal och atomnummer är 4 respektive 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{210}_{83}\\mathrm{Bi}\\rightarrow{}^{206}_{81}\\mathrm{Tl}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-minus höjer atomnumret från 38 till 39.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{90}_{38}\\mathrm{Sr}\\rightarrow{}^{90}_{39}\\mathrm Y+e^-+\\bar\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den utsända positiva beta-partikeln är en positron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{18}_{9}\\mathrm F\\rightarrow{}^{18}_{8}\\mathrm O+e^++\\nu_e\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid elektroninfångning är moderkärnans atomnummer ett större än dotterkärnans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{125}_{53}\\mathrm I+e^-\\rightarrow{}^{125}_{52}\\mathrm{Te}+\\nu_e\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade delarna är \\({}^4_2\\mathrm{He}\\), \\({}^{90}_{39}\\mathrm Y\\), \\(e^+\\) och \\({}^{125}_{53}\\mathrm I\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -107526,7 +107653,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Komplettera reaktionsformlerna. Använd att både masstal och laddning bevaras.</p>",
     "spelDelar": [
@@ -107534,34 +107661,50 @@ window.BANK = [
         "etikett": "a",
         "fraga": "²¹⁰₈₃Bi → ²⁰⁶₈₁Tl + ____",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skillnaden i masstal och atomnummer är 4 respektive 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{210}_{83}\\mathrm{Bi}\\rightarrow{}^{206}_{81}\\mathrm{Tl}+{}^4_2\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Skillnaden i masstal och atomnummer är 4 respektive 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>²¹⁰₈₃Bi → ²⁰⁶₈₁Tl + ____</p>"
       },
       {
         "etikett": "b",
         "fraga": "⁹⁰₃₈Sr → ____ + e⁻ + ν̄",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beta-minus höjer atomnumret från 38 till 39.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{90}_{38}\\mathrm{Sr}\\rightarrow{}^{90}_{39}\\mathrm Y+e^-+\\bar\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Skillnaden i masstal och atomnummer är 4 respektive 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>⁹⁰₃₈Sr → ____ + e⁻ + ν̄</p>"
       },
       {
         "etikett": "c",
         "fraga": "¹⁸₉F → ¹⁸₈O + ____ + ν",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den utsända positiva beta-partikeln är en positron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{18}_{9}\\mathrm F\\rightarrow{}^{18}_{8}\\mathrm O+e^++\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Skillnaden i masstal och atomnummer är 4 respektive 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>¹⁸₉F → ¹⁸₈O + ____ + ν</p>"
       },
       {
         "etikett": "d",
         "fraga": "____ + e⁻ → ¹²⁵₅₂Te + ν",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid elektroninfångning är moderkärnans atomnummer ett större än dotterkärnans.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{125}_{53}\\mathrm I+e^-\\rightarrow{}^{125}_{52}\\mathrm{Te}+\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Skillnaden i masstal och atomnummer är 4 respektive 2. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>____ + e⁻ → ¹²⁵₅₂Te + ν</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -107575,64 +107718,163 @@ window.BANK = [
     "id": "9.49",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "A",
-    "typ": "fördela sönderfallsenergin mellan alfapartikel och rekylkärna med rörelsemängdens bevarande, ur diagram, sökt energi",
-    "poang": "(0/1/2)",
-    "t": "<p>Polonium-210 sönderfaller med alfasönderfall till bly-206. Atommassorna är m(²¹⁰Po) = 209,982874 u, m(²⁰⁶Pb) = 205,974465 u och m(⁴He) = 4,002602 u. 1 u motsvarar 931,5 MeV. Kärnan är i vila före sönderfallet.</p><span class=\"fig bred\"><svg height=\"204\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.600 24.000 460.000 151.200\"><text x=\"150\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">före sönderfallet</text><line x1=\"205\" y1=\"52\" x2=\"205\" y2=\"168\" stroke=\"#C9C8CC\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><circle cx=\"150\" cy=\"110\" r=\"40\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">²¹⁰Po</text><text x=\"370\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">efter sönderfallet</text><circle cx=\"300\" cy=\"130\" r=\"34\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">²⁰⁶Pb</text><circle cx=\"430\" cy=\"130\" r=\"16\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">α</text><line x1=\"266\" y1=\"130\" x2=\"226\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"216.00,130.00 226.00,125.40 226.00,134.60\" fill=\"#2A5D9E\"/><text x=\"240\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">rekyl</text><line x1=\"452\" y1=\"130\" x2=\"502\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"512.00,130.00 502.00,134.60 502.00,125.40\" fill=\"#2A5D9E\"/><text x=\"520\" y=\"126\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span>\n<ol><li>Hur mycket energi frigörs totalt vid sönderfallet?</li>\n<li>Visa att rörelseenergierna förhåller sig omvänt mot massorna.</li>\n<li>Hur stor del av energin får alfapartikeln respektive rekylkärnan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten och Q-värdet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=209{,}982874-205{,}974465-4{,}002602=0{,}005807\\ \\mathrm u\\]\\[Q=(0{,}005807)(931{,}5)=5{,}409\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Moderkärnan är i vila, så produkterna får lika stora motriktade rörelsemängder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p_\\alpha=p_{\\mathrm{Pb}}=p,\\qquad E_k=\\frac{p^2}{2m}\\]</div></div><div class=\"facit-stycke\"><p>Därför \\(E_\\alpha/E_{\\mathrm{Pb}}=m_{\\mathrm{Pb}}/m_\\alpha\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energifördelningen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_\\alpha=Q\\frac{m_{\\mathrm{Pb}}}{m_{\\mathrm{Pb}}+m_\\alpha}=5{,}306\\ \\mathrm{MeV}\\]\\[E_{\\mathrm{Pb}}=Q-E_\\alpha=0{,}103\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>Alfapartikeln får ungefär 98,1 % av energin.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Totalt frigörs \\(5{,}41\\ \\mathrm{MeV}\\). Alfapartikeln får cirka \\(5{,}31\\ \\mathrm{MeV}\\) och rekylkärnan \\(0{,}10\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>Polonium-210 alfasönderfaller till bly-206. Atommassorna är 209,982874 u, 205,974465 u och 4,002602 u för polonium, bly och helium. 1 u motsvarar 931,5 MeV. Kärnan är från början i vila.</p><span class=\"fig bred\"><svg height=\"204\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.600 24.000 460.000 151.200\"><text x=\"150\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">före sönderfallet</text><line x1=\"205\" y1=\"52\" x2=\"205\" y2=\"168\" stroke=\"#C9C8CC\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><circle cx=\"150\" cy=\"110\" r=\"40\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">²¹⁰Po</text><text x=\"370\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">efter sönderfallet</text><circle cx=\"300\" cy=\"130\" r=\"34\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">²⁰⁶Pb</text><circle cx=\"430\" cy=\"130\" r=\"16\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">α</text><line x1=\"266\" y1=\"130\" x2=\"226\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"216.00,130.00 226.00,125.40 226.00,134.60\" fill=\"#2A5D9E\"/><text x=\"240\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">rekyl</text><line x1=\"452\" y1=\"130\" x2=\"502\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"512.00,130.00 502.00,134.60 502.00,125.40\" fill=\"#2A5D9E\"/><text x=\"520\" y=\"126\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span><p>a) Bestäm totalt frigjord energi i MeV.</p><p>b) Visa att produkternas rörelseenergier är omvänt proportionella mot massorna.</p><p>c) Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan? Använd atommassorna som ungefärliga kärnmassor.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=209{,}982874\\ \\mathrm u\\]</p><p>\\[m_{efter}=209{,}977067\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}005807\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}41\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Kärnan är från början i vila, så den sammanlagda rörelsemängden är noll. Produkterna måste få lika stora rörelsemängder åt motsatta håll.</p><p>\\[p_\\alpha+p_{Pb}=0\\]</p><p>\\[|p_\\alpha|=|p_{Pb}|\\]</p><p>Med Eₖ = p²/(2m) får den lättare partikeln större rörelseenergi.</p><p>\\[\\frac{E_\\alpha}{E_{Pb}}=\\frac{m_{Pb}}{m_\\alpha}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Energiandelarna blir massan av den andra produkten delad med massornas summa. Använd de givna atommassorna som ungefärliga kärnmassor.</p><p><div class=\"facit-v2\"><p>\\[f_\\alpha=m_{Pb}/(m_{Pb}+m_\\alpha)\\cdot100\\]</p><p>\\[f_\\alpha\\approx98{,}1\\ \\mathrm{\\%}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[f_{Pb}=100-f_\\alpha\\]</p><p>\\[f_{Pb}\\approx1{,}91\\ \\mathrm{\\%}\\]</p></div></p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur",
-      "resonemang"
+      "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.409220500004039,
+      null,
+      [
+        98.09379088050602,
+        1.9062091194939845
+      ]
+    ],
+    "tolerans": [
+      0.13523051250010099,
+      null,
+      [
+        2.4523809523809526,
+        0.05
+      ]
+    ],
+    "självrättning": [
+      true,
+      false,
+      true
+    ],
     "familjNyckelTidigare": "karnreaktioner__mass_energi_ekvivalens",
-    "ledtrad": "<p>Moderkärnan är i vila, så produkterna får lika stora motriktade rörelsemängder.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polonium-210 sönderfaller med alfasönderfall till bly-206. Atommassorna är m(²¹⁰Po) = 209,982874 u, m(²⁰⁶Pb) = 205,974465 u och m(⁴He) = 4,002602 u. 1 u motsvarar 931,5 MeV. Kärnan är i vila före sönderfallet.</p><span class=\"fig bred\"><svg height=\"204\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.600 24.000 460.000 151.200\"><text x=\"150\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">före sönderfallet</text><line x1=\"205\" y1=\"52\" x2=\"205\" y2=\"168\" stroke=\"#C9C8CC\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><circle cx=\"150\" cy=\"110\" r=\"40\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">²¹⁰Po</text><text x=\"370\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">efter sönderfallet</text><circle cx=\"300\" cy=\"130\" r=\"34\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">²⁰⁶Pb</text><circle cx=\"430\" cy=\"130\" r=\"16\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">α</text><line x1=\"266\" y1=\"130\" x2=\"226\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"216.00,130.00 226.00,125.40 226.00,134.60\" fill=\"#2A5D9E\"/><text x=\"240\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">rekyl</text><line x1=\"452\" y1=\"130\" x2=\"502\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"512.00,130.00 502.00,134.60 502.00,125.40\" fill=\"#2A5D9E\"/><text x=\"520\" y=\"126\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span>",
+    "spelIntro": "<p>Polonium-210 alfasönderfaller till bly-206. Atommassorna är 209,982874 u, 205,974465 u och 4,002602 u för polonium, bly och helium. 1 u motsvarar 931,5 MeV. Kärnan är från början i vila.</p><span class=\"fig bred\"><svg height=\"204\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.600 24.000 460.000 151.200\"><text x=\"150\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">före sönderfallet</text><line x1=\"205\" y1=\"52\" x2=\"205\" y2=\"168\" stroke=\"#C9C8CC\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><circle cx=\"150\" cy=\"110\" r=\"40\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">²¹⁰Po</text><text x=\"370\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">efter sönderfallet</text><circle cx=\"300\" cy=\"130\" r=\"34\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">²⁰⁶Pb</text><circle cx=\"430\" cy=\"130\" r=\"16\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">α</text><line x1=\"266\" y1=\"130\" x2=\"226\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"216.00,130.00 226.00,125.40 226.00,134.60\" fill=\"#2A5D9E\"/><text x=\"240\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">rekyl</text><line x1=\"452\" y1=\"130\" x2=\"502\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"512.00,130.00 502.00,134.60 502.00,125.40\" fill=\"#2A5D9E\"/><text x=\"520\" y=\"126\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi frigörs totalt vid sönderfallet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten och Q-värdet är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=209{,}982874-205{,}974465-4{,}002602=0{,}005807\\ \\mathrm u\\]\\[Q=(0{,}005807)(931{,}5)=5{,}409\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}409\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Moderkärnan är i vila, så produkterna får lika stora motriktade rörelsemängder.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Polonium-210 alfasönderfaller till bly-206 och helium-4. Atommassorna är 209,982874 u, 205,974465 u och 4,002602 u i samma ordning. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=209{,}982874\\ \\mathrm u\\]</p><p>\\[m_{efter}=209{,}977067\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}005807\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}41\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.409220500004039,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.13523051250010099,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Polonium-210 alfasönderfaller till bly-206 och helium-4. Atommassorna är 209,982874 u, 205,974465 u och 4,002602 u i samma ordning. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Visa att rörelseenergierna förhåller sig omvänt mot massorna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Moderkärnan är i vila, så produkterna får lika stora motriktade rörelsemängder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p_\\alpha=p_{\\mathrm{Pb}}=p,\\qquad E_k=\\frac{p^2}{2m}\\]</div></div><div class=\"facit-stycke\"><p>Därför \\(E_\\alpha/E_{\\mathrm{Pb}}=m_{\\mathrm{Pb}}/m_\\alpha\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{p^2}{2m}\\).</p></div>",
-        "ledtrad": "<p>Moderkärnan är i vila, så produkterna får lika stora motriktade rörelsemängder.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En kärna är i vila innan den sönderfaller i två partiklar. Varför får den lättare partikeln större rörelseenergi?",
+        "s": "<div class=\"facit-v2\"><p>Kärnan är från början i vila, så den sammanlagda rörelsemängden är noll. Produkterna måste få lika stora rörelsemängder åt motsatta håll.</p><p>\\[p_\\alpha+p_{Pb}=0\\]</p><p>\\[|p_\\alpha|=|p_{Pb}|\\]</p><p>Med Eₖ = p²/(2m) får den lättare partikeln större rörelseenergi.</p><p>\\[\\frac{E_\\alpha}{E_{Pb}}=\\frac{m_{Pb}}{m_\\alpha}\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Produkterna har lika stora rörelsemängder och Eₖ = p²/(2m).",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Produkterna har lika stora rörelsemängder och Eₖ = p²/(2m).",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Produkterna får alltid lika stor fart.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den tyngre partikeln får ingen rörelsemängd.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 3,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd rörelsemängdens bevarande och Eₖ = p²/(2m).</p>",
+        "t": "<p>En kärna är i vila innan den sönderfaller i två partiklar. Varför får den lättare partikeln större rörelseenergi?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor del av energin får alfapartikeln respektive rekylkärnan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energifördelningen blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_\\alpha=Q\\frac{m_{\\mathrm{Pb}}}{m_{\\mathrm{Pb}}+m_\\alpha}=5{,}306\\ \\mathrm{MeV}\\]\\[E_{\\mathrm{Pb}}=Q-E_\\alpha=0{,}103\\ \\mathrm{MeV}\\]</div></div><div class=\"facit-stycke\"><p>Alfapartikeln får ungefär 98,1 % av energin.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}103\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Moderkärnan är i vila, så produkterna får lika stora motriktade rörelsemängder.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En alfapartikel har massan 4 u och en blykärna 206 u. De får lika stora rörelsemängder åt motsatta håll. Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan? Svara i den ordningen.",
+        "s": "<div class=\"facit-v2\"><p>Eₖ = p²/(2m). Vid lika stora rörelsemängder är energin omvänt proportionell mot massan.</p><p><div class=\"facit-v2\"><p>\\[f_\\alpha=206/(206+4)\\cdot100\\]</p><p>\\[f_\\alpha\\approx98{,}1\\ \\mathrm{\\%}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[f_{Pb}=4/(206+4)\\cdot100\\]</p><p>\\[f_{Pb}\\approx1{,}9\\ \\mathrm{\\%}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          98.09523809523809,
+          1.9047619047619049
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "%",
+          "%"
+        ],
+        "tolerans": [
+          2.4523809523809526,
+          0.05
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Använd Eₖ = p²/(2m) och energins bevarande.</p>",
+        "t": "<p>En alfapartikel har massan 4 u och en blykärna 206 u. De får lika stora rörelsemängder åt motsatta håll. Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan? Svara i den ordningen.</p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Alfapartikel",
+          "Blykärna"
+        ],
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 4,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "MeV",
+      null,
+      [
+        "%",
+        "%"
+      ]
+    ]
   },
   {
     "id": "9.50",
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "E",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Skriv färdigt reaktionsformlerna.</p>\n<ol><li>²²⁶₈₈Ra → ____ + ⁴₂He</li><li>³²₁₅P → ³²₁₆S + ____ + ν̄</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall minskar masstalet med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus ökar atomnumret med 1 medan masstalet är oförändrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{32}_{15}\\mathrm P\\rightarrow{}^{32}_{16}\\mathrm S+{}^{0}_{-1}e+\\bar\\nu_e\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade produkterna är \\({}^{222}_{86}\\mathrm{Rn}\\) respektive en elektron \\({}^{0}_{-1}e\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -107645,7 +107887,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Vid alfasönderfall minskar masstalet med 4 och atomnumret med 2.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv färdigt reaktionsformlerna.</p>",
     "spelDelar": [
@@ -107653,17 +107895,23 @@ window.BANK = [
         "etikett": "a",
         "fraga": "²²⁶₈₈Ra → ____ + ⁴₂He",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall minskar masstalet med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Vid alfasönderfall minskar masstalet med 4 och atomnumret med 2.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>²²⁶₈₈Ra → ____ + ⁴₂He</p>"
       },
       {
         "etikett": "b",
         "fraga": "³²₁₅P → ³²₁₆S + ____ + ν̄",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus ökar atomnumret med 1 medan masstalet är oförändrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{32}_{15}\\mathrm P\\rightarrow{}^{32}_{16}\\mathrm S+{}^{0}_{-1}e+\\bar\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Vid alfasönderfall minskar masstalet med 4 och atomnumret med 2.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>³²₁₅P → ³²₁₆S + ____ + ν̄</p>"
       }
     ],
     "geogebra": false,
@@ -107681,11 +107929,11 @@ window.BANK = [
     "id": "9.51",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
+    "niva": "E",
     "typ": "beskriva hur masstal och atomnummer ändras vid fyra sönderfallstyper, ur diagram, sökt förändring",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar hur en kärna flyttar sig i ett diagram över antalet protoner och neutroner vid olika sorters sönderfall.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"10.714 19.286 480.714 230.714\"><line x1=\"60\" y1=\"210\" x2=\"470\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"210\" x2=\"60\" y2=\"40\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"470\" y=\"234\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">neutroner N</text><text x=\"30\" y=\"40\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">protoner Z</text><circle cx=\"250\" cy=\"150\" r=\"7\" fill=\"#2B2527\"/><text x=\"250\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">ursprunglig kärna</text><line x1=\"250\" y1=\"150\" x2=\"165.546\" y2=\"223.438\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"158.00,230.00 162.53,219.97 168.56,226.91\" fill=\"#B43123\"/><text x=\"144\" y=\"248\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">α</text><line x1=\"250\" y1=\"150\" x2=\"211.546\" y2=\"116.562\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"204.00,110.00 214.56,113.09 208.53,120.03\" fill=\"#2A5D9E\"/><text x=\"190\" y=\"100\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">β⁻</text><line x1=\"250\" y1=\"150\" x2=\"288.454\" y2=\"183.438\" stroke=\"#5C575E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"296.00,190.00 285.44,186.91 291.47,179.97\" fill=\"#5C575E\"/><text x=\"310\" y=\"208\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">β⁺ och EC</text></svg></span>\n<ol><li>Fyll i tabellen med hur masstalet A och atomnumret Z ändras.</li><table class=\"data\"><tr><th>Sönderfall</th><th>Ändring av A</th><th>Ändring av Z</th></tr><tr><td>α</td><td>?</td><td>?</td></tr><tr><td>β⁻</td><td>?</td><td>?</td></tr><tr><td>β⁺</td><td>?</td><td>?</td></tr><tr><td>elektroninfångning</td><td>?</td><td>?</td></tr></table>\n<li>Varför hamnar β⁺-sönderfall och elektroninfångning på samma plats i figuren?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ändringarna följer direkt av hur protoner och neutroner omvandlas eller lämnar kärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{array}{c|cc}\\text{sönderfall}&amp;\\Delta A&amp;\\Delta Z\\\\\\hline\\alpha&amp;-4&amp;-2\\\\\\beta^-&amp;0&amp;+1\\\\\\beta^+&amp;0&amp;-1\\\\\\text{elektroninfångning}&amp;0&amp;-1\\end{array}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Både beta-plus och elektroninfångning omvandlar en proton till en neutron.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför får dotterkärnan samma A och Z i båda fallen.</p></div><div class=\"facit-stycke\"><p>Skillnaden ligger i om en positron avges eller en elektron fångas in.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> För alfa är \\((\\Delta A,\\Delta Z)=(-4,-2)\\); för beta-minus \\((0,+1)\\); för beta-plus och elektroninfångning \\((0,-1)\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Figuren visar hur en kärna flyttar sig i ett diagram över antalet protoner och neutroner vid olika sorters sönderfall.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 325\" width=\"600\" height=\"325\" role=\"img\" aria-label=\"Alfa ger N minus 2 och Z minus 2, beta-minus N minus 1 och Z plus 1, beta-plus och elektroninfångning N plus 1 och Z minus 1\"><rect width=\"600\" height=\"325\" fill=\"#fff\"/><defs><marker id=\"nzarr\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><line x1=\"220\" y1=\"65\" x2=\"220\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"220\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N − 2</text><line x1=\"260\" y1=\"65\" x2=\"260\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"260\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N − 1</text><line x1=\"300\" y1=\"65\" x2=\"300\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"300\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N</text><line x1=\"340\" y1=\"65\" x2=\"340\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"340\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N + 1</text><line x1=\"80\" y1=\"100\" x2=\"550\" y2=\"100\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"105\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z + 1</text><line x1=\"80\" y1=\"140\" x2=\"550\" y2=\"140\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"145\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z</text><line x1=\"80\" y1=\"180\" x2=\"550\" y2=\"180\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"185\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z − 1</text><line x1=\"80\" y1=\"220\" x2=\"550\" y2=\"220\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"225\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z − 2</text><path d=\"M80 40V265H555\" stroke=\"#243747\" stroke-width=\"2\" fill=\"none\"/><text x=\"15\" y=\"24\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#172a3a\">Protoner</text><text x=\"550\" y=\"316\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#172a3a\">Neutroner</text><circle cx=\"300\" cy=\"140\" r=\"7\" fill=\"#172a3a\"/><text x=\"350\" y=\"136\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Ursprunglig kärna</text><line x1=\"300\" y1=\"140\" x2=\"220\" y2=\"220\" stroke=\"#a72e36\" stroke-width=\"3\" marker-end=\"url(#nzarr)\"/><text x=\"192\" y=\"236\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#a72e36\">α</text><line x1=\"300\" y1=\"140\" x2=\"260\" y2=\"100\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#nzarr)\"/><text x=\"232\" y=\"87\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#28618a\">β⁻</text><line x1=\"300\" y1=\"140\" x2=\"340\" y2=\"180\" stroke=\"#6e4e91\" stroke-width=\"3\" marker-end=\"url(#nzarr)\"/><text x=\"456\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#6e4e91\">β⁺ / elektroninfångning</text></svg></span>\n<ol><li>Fyll i tabellen med hur masstalet A och atomnumret Z ändras.</li><table class=\"data\"><tr><th>Sönderfall</th><th>Ändring av A</th><th>Ändring av Z</th></tr><tr><td>α</td><td>?</td><td>?</td></tr><tr><td>β⁻</td><td>?</td><td>?</td></tr><tr><td>β⁺</td><td>?</td><td>?</td></tr><tr><td>elektroninfångning</td><td>?</td><td>?</td></tr></table>\n<li>Varför hamnar β⁺-sönderfall och elektroninfångning på samma plats i figuren?</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p><div class=\"facit-v2\"><p>Alfa tar bort två protoner och två neutroner. Beta och elektroninfångning omvandlar en proton eller neutron, så antalet nukleoner är oförändrat.</p><p><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Sönderfall</th><th>ΔA</th><th>ΔZ</th></tr></thead><tbody><tr><td>α</td><td>−4</td><td>−2</td></tr><tr><td>β⁻</td><td>0</td><td>+1</td></tr><tr><td>β⁺</td><td>0</td><td>−1</td></tr><tr><td>Elektroninfångning</td><td>0</td><td>−1</td></tr></tbody></table></p></div></p><p><strong>b)</strong></p><p><div class=\"facit-v2\"><p>Både beta-plus och elektroninfångning omvandlar en proton till en neutron. Därför får dotterkärnan samma A och Z. Vid beta-plus avges en positron, vid elektroninfångning tas en elektron upp.</p></div></p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "begrepp",
@@ -107697,28 +107945,36 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Ändringarna följer direkt av hur protoner och neutroner omvandlas eller lämnar kärnan.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar hur en kärna flyttar sig i ett diagram över antalet protoner och neutroner vid olika sorters sönderfall.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"10.714 19.286 480.714 230.714\"><line x1=\"60\" y1=\"210\" x2=\"470\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"210\" x2=\"60\" y2=\"40\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"470\" y=\"234\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">neutroner N</text><text x=\"30\" y=\"40\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">protoner Z</text><circle cx=\"250\" cy=\"150\" r=\"7\" fill=\"#2B2527\"/><text x=\"250\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">ursprunglig kärna</text><line x1=\"250\" y1=\"150\" x2=\"165.546\" y2=\"223.438\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"158.00,230.00 162.53,219.97 168.56,226.91\" fill=\"#B43123\"/><text x=\"144\" y=\"248\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">α</text><line x1=\"250\" y1=\"150\" x2=\"211.546\" y2=\"116.562\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"204.00,110.00 214.56,113.09 208.53,120.03\" fill=\"#2A5D9E\"/><text x=\"190\" y=\"100\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">β⁻</text><line x1=\"250\" y1=\"150\" x2=\"288.454\" y2=\"183.438\" stroke=\"#5C575E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"296.00,190.00 285.44,186.91 291.47,179.97\" fill=\"#5C575E\"/><text x=\"310\" y=\"208\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">β⁺ och EC</text></svg></span>",
+    "spelIntro": "<p>Figuren visar hur en kärna flyttar sig i ett diagram över antalet protoner och neutroner vid olika sorters sönderfall.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 325\" width=\"600\" height=\"325\" role=\"img\" aria-label=\"Alfa ger N minus 2 och Z minus 2, beta-minus N minus 1 och Z plus 1, beta-plus och elektroninfångning N plus 1 och Z minus 1\"><rect width=\"600\" height=\"325\" fill=\"#fff\"/><defs><marker id=\"nzarr\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><line x1=\"220\" y1=\"65\" x2=\"220\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"220\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N − 2</text><line x1=\"260\" y1=\"65\" x2=\"260\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"260\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N − 1</text><line x1=\"300\" y1=\"65\" x2=\"300\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"300\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N</text><line x1=\"340\" y1=\"65\" x2=\"340\" y2=\"265\" stroke=\"#dde3e9\"/><text x=\"340\" y=\"284\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">N + 1</text><line x1=\"80\" y1=\"100\" x2=\"550\" y2=\"100\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"105\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z + 1</text><line x1=\"80\" y1=\"140\" x2=\"550\" y2=\"140\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"145\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z</text><line x1=\"80\" y1=\"180\" x2=\"550\" y2=\"180\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"185\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z − 1</text><line x1=\"80\" y1=\"220\" x2=\"550\" y2=\"220\" stroke=\"#dde3e9\"/><text x=\"70\" y=\"225\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#172a3a\">Z − 2</text><path d=\"M80 40V265H555\" stroke=\"#243747\" stroke-width=\"2\" fill=\"none\"/><text x=\"15\" y=\"24\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#172a3a\">Protoner</text><text x=\"550\" y=\"316\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#172a3a\">Neutroner</text><circle cx=\"300\" cy=\"140\" r=\"7\" fill=\"#172a3a\"/><text x=\"350\" y=\"136\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Ursprunglig kärna</text><line x1=\"300\" y1=\"140\" x2=\"220\" y2=\"220\" stroke=\"#a72e36\" stroke-width=\"3\" marker-end=\"url(#nzarr)\"/><text x=\"192\" y=\"236\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#a72e36\">α</text><line x1=\"300\" y1=\"140\" x2=\"260\" y2=\"100\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#nzarr)\"/><text x=\"232\" y=\"87\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#28618a\">β⁻</text><line x1=\"300\" y1=\"140\" x2=\"340\" y2=\"180\" stroke=\"#6e4e91\" stroke-width=\"3\" marker-end=\"url(#nzarr)\"/><text x=\"456\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#6e4e91\">β⁺ / elektroninfångning</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Fyll i tabellen med hur masstalet A och atomnumret Z ändras.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ändringarna följer direkt av hur protoner och neutroner omvandlas eller lämnar kärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{array}{c|cc}\\text{sönderfall}&amp;\\Delta A&amp;\\Delta Z\\\\\\hline\\alpha&amp;-4&amp;-2\\\\\\beta^-&amp;0&amp;+1\\\\\\beta^+&amp;0&amp;-1\\\\\\text{elektroninfångning}&amp;0&amp;-1\\end{array}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Ändringarna följer direkt av hur protoner och neutroner omvandlas eller lämnar kärnan.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Alfa tar bort två protoner och två neutroner. Beta och elektroninfångning omvandlar en proton eller neutron, så antalet nukleoner är oförändrat.</p><p><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th>Sönderfall</th><th>ΔA</th><th>ΔZ</th></tr></thead><tbody><tr><td>α</td><td>−4</td><td>−2</td></tr><tr><td>β⁻</td><td>0</td><td>+1</td></tr><tr><td>β⁺</td><td>0</td><td>−1</td></tr><tr><td>Elektroninfångning</td><td>0</td><td>−1</td></tr></tbody></table></p></div>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>Fyll i tabellen med hur masstalet A och atomnumret Z ändras.</p>"
       },
       {
         "etikett": "b",
         "fraga": "Varför hamnar β⁺-sönderfall och elektroninfångning på samma plats i figuren?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Både beta-plus och elektroninfångning omvandlar en proton till en neutron.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför får dotterkärnan samma A och Z i båda fallen.</p></div><div class=\"facit-stycke\"><p>Skillnaden ligger i om en positron avges eller en elektron fångas in.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Ändringarna följer direkt av hur protoner och neutroner omvandlas eller lämnar kärnan.</p>",
-        "niva": "C"
+        "s": "<div class=\"facit-v2\"><p>Både beta-plus och elektroninfångning omvandlar en proton till en neutron. Därför får dotterkärnan samma A och Z. Vid beta-plus avges en positron, vid elektroninfångning tas en elektron upp.</p></div>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>Varför hamnar β⁺-sönderfall och elektroninfångning på samma plats i figuren?</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -107733,37 +107989,56 @@ window.BANK = [
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "E",
-    "typ": "identifiera saknad partikel i kärnreaktion",
+    "typ": "alternativ",
     "poang": "(1/0/0)",
-    "t": "<p>Identifiera partikeln \\(x\\) i kärnreaktionen \\(^{27}_{13}Al+{}^{4}_{2}He\\rightarrow{}^{30}_{15}P+x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara både masstal och atomnummer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> en neutron \\(^{1}_{0}n\\).</p></div>",
+    "t": "<p>I reaktionen \\({}^{27}_{13}\\mathrm{Al}+{}^4_2\\mathrm{He}\\rightarrow{}^{30}_{15}\\mathrm P+X\\) ska X bestämmas. Vilken partikel är X? Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[27+4=30+A\\]</p><p>\\[A=1\\]</p><p>\\[13+2=15+Z\\]</p><p>\\[Z=0\\]</p><p>Masstal 1 och atomnummer 0 innebär en neutron.</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "rättSvar": "En neutron.",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Beräkna skillnaden i masstal och atomnummer mellan vänster och höger sida.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Kärnreaktioner, massa och energi"
-    ]
+    ],
+    "alternativ": [
+      {
+        "txt": "En neutron.",
+        "ratt": true,
+        "kommentar": "Jämför A och Z i reaktionen."
+      },
+      {
+        "txt": "En proton.",
+        "ratt": false,
+        "kommentar": "Jämför A och Z i reaktionen."
+      },
+      {
+        "txt": "En alfapartikel.",
+        "ratt": false,
+        "kommentar": "Jämför A och Z i reaktionen."
+      }
+    ],
+    "svarFormat": null,
+    "svarEnhet": null
   },
   {
     "id": "9.52",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "A",
-    "poang": "(0/1/2)",
+    "niva": "C",
+    "poang": "(0/1/0)",
     "t": "<p>En atomkärna genomgår en serie av α- och β⁻-sönderfall. Från början har kärnan masstalet A och Z antal protoner. Kärnan genomgår totalt 4n stycken sönderfall, där n är ett heltal, och antalet α-sönderfall är tre gånger så många som antalet β⁻-sönderfall.</p>\n<p>Ange kärnans masstal och antal protoner efter sönderfallen.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Av totalt 4n sönderfall är förhållandet alfa till beta-minus 3:1.</p><p class=\"facit-metod\">Därför sker 3n alfa- och n beta-minus-sönderfall.</p><div class=\"facit-matte\">\\[N_\\alpha=3n,\\qquad N_{\\beta^-}=n\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Endast alfa ändrar masstalet, med −4 per sönderfall.</p><div class=\"facit-matte\">\\[A_f=A-4(3n)=A-12n\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Atomnumret minskar med 2 per alfa och ökar med 1 per beta-minus.</p><div class=\"facit-matte\">\\[Z_f=Z-2(3n)+n=Z-5n\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter sönderfallen är masstalet \\(A-12n\\) och antalet protoner \\(Z-5n\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -107776,10 +108051,10 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Av totalt 4n sönderfall är förhållandet alfa till beta-minus 3:1. Därför sker 3n alfa- och n beta-minus-sönderfall.</p>",
+    "ledtrad": "<p>Räkna först antalet alfa- och beta-minus-sönderfall.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -107911,8 +108186,8 @@ window.BANK = [
     "id": "9.54",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "poang": "(1/2/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>En kärna med masstalet A och atomnumret Z genomgår 3 α-sönderfall och 2 β⁻-sönderfall.</p>\n<ol><li>Vilket masstal har slutprodukten?</li><li>Vilket atomnummer?</li>\n<li>Varför ändrar β⁻-sönderfall inte masstalet?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre alfasönderfall tar bort totalt 12 nukleoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_f=A-3\\cdot4=A-12\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre alfa sänker atomnumret med 6 och två beta-minus höjer det med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z_f=Z-3\\cdot2+2\\cdot1=Z-4\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus omvandlas en neutron till en proton, en elektron och en antineutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</div></div><div class=\"facit-stycke\"><p>Antalet nukleoner är oförändrat, så masstalet ändras inte.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Slutprodukten har masstalet \\(A-12\\) och atomnumret \\(Z-4\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -107926,7 +108201,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Tre alfasönderfall tar bort totalt 12 nukleoner. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En kärna med masstalet A och atomnumret Z genomgår 3 α-sönderfall och 2 β⁻-sönderfall.</p>",
     "spelDelar": [
@@ -107934,30 +108209,39 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilket masstal har slutprodukten?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre alfasönderfall tar bort totalt 12 nukleoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_f=A-3\\cdot4=A-12\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(A-12\\).</p></div>",
-        "ledtrad": "<p>Tre alfasönderfall tar bort totalt 12 nukleoner. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>Vilket masstal har slutprodukten?</p>"
       },
       {
         "etikett": "b",
         "fraga": "Vilket atomnummer?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre alfa sänker atomnumret med 6 och två beta-minus höjer det med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z_f=Z-3\\cdot2+2\\cdot1=Z-4\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(Z-4\\).</p></div>",
-        "ledtrad": "<p>Tre alfasönderfall tar bort totalt 12 nukleoner. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>Vilket atomnummer?</p>"
       },
       {
         "etikett": "c",
         "fraga": "Varför ändrar β⁻-sönderfall inte masstalet?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus omvandlas en neutron till en proton, en elektron och en antineutrino.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n\\rightarrow p+e^-+\\bar\\nu_e\\]</div></div><div class=\"facit-stycke\"><p>Antalet nukleoner är oförändrat, så masstalet ändras inte.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Tre alfasönderfall tar bort totalt 12 nukleoner. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>Varför ändrar β⁻-sönderfall inte masstalet?</p>"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -110292,10 +110576,10 @@ window.BANK = [
     "id": "9.69",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Vid ett sönderfall minskar den samlade massan med 0,0056 u. 1 u motsvarar 931,5 MeV.</p>\n<ol><li>Hur mycket energi frigörs, i MeV?</li><li>Hur många joule är det?</li>\n<li>Vart tar energin vägen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masskillnaden omvandlas till energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}0056)(931{,}5)=5{,}216\\ \\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla MeV till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(5{,}216\\cdot10^6)(1{,}602\\cdot10^{-19})=8{,}36\\cdot10^{-13}\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin fördelas som rörelseenergi hos dotterkärnan och utsända partiklar samt, beroende på sönderfallet, foton- eller neutrinoenergi.</p></div><div class=\"facit-stycke\"><p>Energi och rörelsemängd bevaras.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs \\(5{,}2\\ \\mathrm{MeV}=8{,}4\\cdot10^{-13}\\ \\mathrm J\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Vid ett sönderfall minskar massan med 0,0056 u. 1 u motsvarar 931,5 MeV och 1 MeV = 1,602·10⁻¹³ J.</p><p>a) Bestäm frigjord energi i MeV.</p><p>b) Omvandla energin till J.</p><p>c) Vart tar den frigjorda energin vägen? Förklara.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[Q=0{,}0056\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}22\\ \\mathrm{MeV}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E_r=5{,}2164\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}36\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Massminskningen motsvarar energi hos de bildade partiklarna. Fördelningen beror på sönderfallstypen. Energin bevaras.</p></div></div>",
     "familj": "Energi i kärnreaktioner",
     "formaga": [
       "procedur"
@@ -110308,8 +110592,8 @@ window.BANK = [
       null
     ],
     "tolerans": [
-      0.16,
-      2.6e-14,
+      0.13041,
+      2.0826e-14,
       null
     ],
     "självrättning": [
@@ -110334,39 +110618,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Masskillnaden omvandlas till energi. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Multiplicera massminskningen med 931,5.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vid ett sönderfall minskar den samlade massan med 0,0056 u. 1 u motsvarar 931,5 MeV.</p>",
+    "spelIntro": "<p>Vid ett sönderfall minskar massan med 0,0056 u. 1 u motsvarar 931,5 MeV och 1 MeV = 1,602·10⁻¹³ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket energi frigörs, i MeV?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masskillnaden omvandlas till energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(0{,}0056)(931{,}5)=5{,}216\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}216\\ \\mathrm{MeV}\\).</p></div>",
-        "ledtrad": "<p>Masskillnaden omvandlas till energi. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+        "fraga": "Vid ett sönderfall minskar massan med 0,0056 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[Q=0{,}0056\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}22\\ \\mathrm{MeV}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.2164,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.13041,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera massminskningen med 931,5.</p>",
+        "t": "<p>Vid ett sönderfall minskar massan med 0,0056 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många joule är det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla MeV till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=(5{,}216\\cdot10^6)(1{,}602\\cdot10^{-19})=8{,}36\\cdot10^{-13}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}36\\cdot10^{-13}\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Masskillnaden omvandlas till energi. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett sönderfall frigör 5,2 MeV. Hur många J är det? Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E_r=5{,}2\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}33\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.3304e-13,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 2.0826e-14,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera MeV med den givna faktorn.</p>",
+        "t": "<p>Ett sönderfall frigör 5,2 MeV. Hur många J är det? Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vart tar energin vägen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin fördelas som rörelseenergi hos dotterkärnan och utsända partiklar samt, beroende på sönderfallet, foton- eller neutrinoenergi.</p></div><div class=\"facit-stycke\"><p>Energi och rörelsemängd bevaras.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Masskillnaden omvandlas till energi. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vid ett radioaktivt sönderfall frigörs energi. Vart tar energin vägen?",
+        "s": "<div class=\"facit-v2\"><p>Massminskningen motsvarar energi hos de bildade partiklarna. Fördelningen beror på sönderfallstypen. Energin bevaras.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Till rörelseenergi hos produkterna och eventuell foton- eller neutrinoenergi.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Till rörelseenergi hos produkterna och eventuell foton- eller neutrinoenergi.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Den försvinner utan att överföras till något.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den blir alltid bara värme i moderkärnan.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Energi bevaras även när en kärna sönderfaller.</p>",
+        "t": "<p>Vid ett radioaktivt sönderfall frigörs energi. Vart tar energin vägen?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -110730,91 +111063,167 @@ window.BANK = [
     "id": "9.73",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Torium-232 sönderfaller i flera steg till bly-208.</p>\n<ol><li>Hur många α-sönderfall sker totalt?</li><li>Hur många β⁻-sönderfall?</li>\n<li>Varför går det inte att avgöra i vilken ordning sönderfallen sker enbart utifrån start och slut?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Endast alfasönderfall ändrar masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n_\\alpha=\\frac{232-208}{4}=6\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Torium har atomnummer 90 och bly 82.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter sex alfa är atomnumret 78; varje beta-minus höjer det med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[90-2\\cdot6+n_{\\beta^-}=82\\Rightarrow n_{\\beta^-}=4\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Start- och slutkärnan bestämmer bara nettot av alla ändringar.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ordningen beror på vilka mellankärnor som bildas och vilka sönderfall de faktiskt kan genomgå.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sönderfallskedjan innehåller totalt 6 alfa- och 4 beta-minus-sönderfall. Ordningen kan inte bestämmas enbart från start och slut.</p></div>",
+    "niva": "C",
+    "poang": "(3/0/0)",
+    "t": "<p>Torium-232 har atomnummer 90 och blir bly-208 med atomnummer 82 genom alfa- och beta-minus-sönderfall.</p><p>a) Hur många alfasönderfall sker?</p><p>b) Hur många beta-minus-sönderfall sker?</p><p>c) Kan ordningen bestämmas enbart från start och slut? Förklara.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[232-4n=208\\]</p><p>\\[n=(232-208)/4=6\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[Z_{efter\\ alfa}=90-2\\cdot6=78\\]</p><p>\\[n_{\\beta^-}=82-78=4\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Start och slut bestämmer total ändring av A och Z. För ordningen behövs information om de mellanliggande kärnornas sönderfall.</p></div></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur",
-      "resonemang"
+      "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      4,
+      null
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Endast alfasönderfall ändrar masstalet. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Endast alfa ändrar masstalet.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Torium-232 sönderfaller i flera steg till bly-208.</p>",
+    "spelIntro": "<p>Torium-232 har atomnummer 90 och blir bly-208 med atomnummer 82 genom alfa- och beta-minus-sönderfall.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många α-sönderfall sker totalt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Endast alfasönderfall ändrar masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n_\\alpha=\\frac{232-208}{4}=6\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div>",
-        "ledtrad": "<p>Endast alfasönderfall ändrar masstalet. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Torium-232 omvandlas till bly-208 genom alfa- och beta-minus-sönderfall. Hur många alfasönderfall sker?",
+        "s": "<div class=\"facit-v2\"><p>\\[232-4n=208\\]</p><p>\\[n=(232-208)/4=6\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Endast alfa ändrar masstalet.</p>",
+        "t": "<p>Torium-232 omvandlas till bly-208 genom alfa- och beta-minus-sönderfall. Hur många alfasönderfall sker?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många β⁻-sönderfall?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Torium har atomnummer 90 och bly 82.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter sex alfa är atomnumret 78; varje beta-minus höjer det med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[90-2\\cdot6+n_{\\beta^-}=82\\Rightarrow n_{\\beta^-}=4\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div>",
-        "ledtrad": "<p>Endast alfasönderfall ändrar masstalet. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Torium har atomnummer 90. Efter sex alfa- och ett antal beta-minus-sönderfall blir det bly med atomnummer 82. Hur många beta-minus-sönderfall sker?",
+        "s": "<div class=\"facit-v2\"><p>\\[Z_{efter\\ alfa}=90-2\\cdot6=78\\]</p><p>\\[n_{\\beta^-}=82-78=4\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Varje beta-minus höjer atomnumret med 1.</p>",
+        "t": "<p>Torium har atomnummer 90. Efter sex alfa- och ett antal beta-minus-sönderfall blir det bly med atomnummer 82. Hur många beta-minus-sönderfall sker?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför går det inte att avgöra i vilken ordning sönderfallen sker enbart utifrån start och slut?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Start- och slutkärnan bestämmer bara nettot av alla ändringar.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ordningen beror på vilka mellankärnor som bildas och vilka sönderfall de faktiskt kan genomgå.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Endast alfasönderfall ändrar masstalet. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Kan start- och slutkärnan ensamma avgöra ordningen på alfa- och beta-minus-sönderfallen?",
+        "s": "<div class=\"facit-v2\"><p>Start och slut bestämmer total ändring av A och Z. För ordningen behövs information om de mellanliggande kärnornas sönderfall.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, de bestämmer bara den sammanlagda ändringen.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Nej, de bestämmer bara den sammanlagda ändringen.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Ja, alfa måste alltid komma först.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Ja, beta-minus måste alltid komma först.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skilj antal från ordning.</p>",
+        "t": "<p>Kan start- och slutkärnan ensamma avgöra ordningen på alfa- och beta-minus-sönderfallen?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Alfasönderfall",
       "Beta-minus-sönderfall"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
     "id": "9.198",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "typ": "energi från massdefekt i kärnreaktion",
-    "poang": "(0/2/0)",
-    "t": "<p>I en kärnreaktion minskar den sammanlagda vilomassan med \\(0{,}24\\,\\mathrm u\\). Hur stor energi frigörs? Data: \\(1\\,\\mathrm u\\,c^2=931,5\\,\\mathrm{MeV}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten omvandlas till energi enligt \\(E=\\Delta mc^2\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Med den givna omvandlingsfaktorn kan svaret fås direkt i MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}24\\cdot931{,}5=223,6\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(223{,}6\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>I en kärnreaktion minskar massan med 0,24 u. Hur mycket energi frigörs i MeV? 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[E=0{,}24\\cdot931{,}5\\]</p><p>\\[E\\approx224\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Energi i kärnreaktioner",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__karnreaktioner_massa_och_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 223.56,
-    "tolerans": 4.02408,
+    "tolerans": 5.589,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Multiplicera massdefekten i u med \\(931{,}5\\,\\mathrm{MeV/u}\\).</p>",
+    "ledtrad": "<p>Multiplicera massminskningen med energi per u.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Kärnreaktioner, massa och energi"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.74",
@@ -110875,7 +111284,7 @@ window.BANK = [
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "E",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Komplettera reaktionsformlerna.</p>\n<ol><li>²¹⁰₈₄Po → ____ + ⁴₂He</li><li>⁶⁰₂₇Co → ⁶⁰₂₈Ni + ____ + ν̄</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara masstal och atomnummer vid alfasönderfallet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{210}_{84}\\mathrm{Po}\\rightarrow{}^{206}_{82}\\mathrm{Pb}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kobolt-60 genomgår beta-minus-sönderfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{60}_{27}\\mathrm{Co}\\rightarrow{}^{60}_{28}\\mathrm{Ni}+{}^{0}_{-1}e+\\bar\\nu_e\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade produkterna är \\({}^{206}_{82}\\mathrm{Pb}\\) och en beta-minus-partikel \\({}^{0}_{-1}e\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
@@ -110888,7 +111297,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
-    "ledtrad": "<p>Bevara masstal och atomnummer vid alfasönderfallet. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Komplettera reaktionsformlerna.</p>",
     "spelDelar": [
@@ -110896,17 +111305,23 @@ window.BANK = [
         "etikett": "a",
         "fraga": "²¹⁰₈₄Po → ____ + ⁴₂He",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara masstal och atomnummer vid alfasönderfallet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{210}_{84}\\mathrm{Po}\\rightarrow{}^{206}_{82}\\mathrm{Pb}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Bevara masstal och atomnummer vid alfasönderfallet. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>²¹⁰₈₄Po → ____ + ⁴₂He</p>"
       },
       {
         "etikett": "b",
         "fraga": "⁶⁰₂₇Co → ⁶⁰₂₈Ni + ____ + ν̄",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kobolt-60 genomgår beta-minus-sönderfall.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{60}_{27}\\mathrm{Co}\\rightarrow{}^{60}_{28}\\mathrm{Ni}+{}^{0}_{-1}e+\\bar\\nu_e\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Bevara masstal och atomnummer vid alfasönderfallet. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>⁶⁰₂₇Co → ⁶⁰₂₈Ni + ____ + ν̄</p>"
       }
     ],
     "geogebra": false,
@@ -110924,28 +111339,107 @@ window.BANK = [
     "id": "9.76",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Bestäm hur mycket energi som frigörs när Po-210 alfasönderfaller. Atommassorna är m(Po-210) = 209,982874 u, m(Pb-206) = 205,974465 u och m(He-4) = 4,002603 u. 1 u motsvarar 931,5 MeV.</p>\n<p>Skriv även en reaktionsformel för sönderfallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Reaktionsformeln är</p><div class=\"facit-matte\">\\[{}^{210}_{84}\\mathrm{Po}\\rightarrow{}^{206}_{82}\\mathrm{Pb}+{}^4_2\\mathrm{He}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Massdefekten från atommassorna blir</p><div class=\"facit-matte\">\\[\\Delta m=209{,}982874-(205{,}974465+4{,}002603)=0{,}005806\\ \\mathrm u\\]</div><p>Elektronmassorna tar ut varandra eftersom 84 elektroner finns på båda sidor sammanlagt.</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Den frigjorda energin är</p><div class=\"facit-matte\">\\[Q=(0{,}005806)(931{,}5)=5{,}41\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Polonium-210 sönderfaller till bly-206 och en alfapartikel och frigör cirka \\(5{,}41\\ \\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Polonium-210 alfasönderfaller. Atommassorna före och efter är 209,982874 u respektive 205,974465 u och 4,002603 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p><p>a) Bestäm frigjord energi i MeV.</p><p>b) Skriv reaktionsformeln.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=209{,}982874\\ \\mathrm u\\]</p><p>\\[m_{efter}=209{,}977068\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00580600000001\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}41\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[{}^{210}_{84}\\mathrm{Po}\\rightarrow{}^{206}_{82}\\mathrm{Pb}+{}^4_2\\mathrm{He}\\]</p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
-    "svarstyp": "numeriskt",
-    "rättSvar": 5.41,
-    "tolerans": 0.08115,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "MeV",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.408289000006391,
+      null
+    ],
+    "tolerans": [
+      0.13520722500015978,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "MeV",
+      null
+    ],
     "familjNyckelTidigare": "karnreaktioner__mass_energi_ekvivalens",
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 1,
-    "spel": true
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "spelIntro": "<p>Polonium-210 alfasönderfaller. Atommassorna före och efter är 209,982874 u respektive 205,974465 u och 4,002603 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Polonium-210 alfasönderfaller. Atommassorna före och efter är 209,982874 u respektive 205,974465 u och 4,002603 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=209{,}982874\\ \\mathrm u\\]</p><p>\\[m_{efter}=209{,}977068\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00580600000001\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}41\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.408289000006391,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.13520722500015978,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Polonium-210 alfasönderfaller. Atommassorna före och efter är 209,982874 u respektive 205,974465 u och 4,002603 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "Polonium-210 har atomnummer 84 och alfasönderfaller. Vilken kärna bildas?",
+        "s": "<div class=\"facit-v2\"><p>\\[{}^{210}_{84}\\mathrm{Po}\\rightarrow{}^{206}_{82}\\mathrm{Pb}+{}^4_2\\mathrm{He}\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Bly-206.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Bly-206.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Bly-210.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Polonium-206.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
+        "t": "<p>Polonium-210 har atomnummer 84 och alfasönderfaller. Vilken kärna bildas?</p>",
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "manuellKomplettering": true
   },
   {
     "id": "9.77",
@@ -111027,9 +111521,9 @@ window.BANK = [
     "id": "9.78",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Uran-238 sönderfaller till en instabil nuklid, som även den sönderfaller, och så vidare. Följ sönderfallskedjan för uran-238 och skriv reaktionsformlerna för alla sönderfall tills du kommer fram till uran-234.</p>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Uran-238 har atomnummer 92. Det genomgår ett alfasönderfall och därefter två beta-minus-sönderfall. Skriv reaktionsformlerna fram till uran-234. Atomnummer 90 är torium (Th) och 91 är protaktinium (Pa).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Uran-238 avger först en alfapartikel.</p><div class=\"facit-matte\">\\[{}^{238}_{92}\\mathrm U\\rightarrow{}^{234}_{90}\\mathrm{Th}+{}^4_2\\mathrm{He}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Torium-234 genomgår beta-minus-sönderfall.</p><div class=\"facit-matte\">\\[{}^{234}_{90}\\mathrm{Th}\\rightarrow{}^{234}_{91}\\mathrm{Pa}+e^-+\\bar\\nu_e\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Protaktinium-234 genomgår ännu ett beta-minus-sönderfall.</p><div class=\"facit-matte\">\\[{}^{234}_{91}\\mathrm{Pa}\\rightarrow{}^{234}_{92}\\mathrm U+e^-+\\bar\\nu_e\\]</div><p>Kedjan har då nått uran-234, som frågan efterfrågar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kedjan är \\({}^{238}\\mathrm U\\xrightarrow{\\alpha}{}^{234}\\mathrm{Th}\\xrightarrow{\\beta^-}{}^{234}\\mathrm{Pa}\\xrightarrow{\\beta^-}{}^{234}\\mathrm U\\).</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
@@ -111041,10 +111535,10 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Uran-238 avger först en alfapartikel. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -118150,21 +118644,21 @@ window.BANK = [
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Vid en kärnreaktion minskar den sammanlagda massan med 0,80 mg.</p><p>Hur stor energi frigörs? Ange svaret i TJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd mass–energi-sambandet \\(E=\\Delta mc^2\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan måste först skrivas i kilogram.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=0{,}80\\cdot10^{-6}\\,\\mathrm{kg}\\]\\[E=8\\cdot10^{-7}\\cdot(3,00\\cdot10^8)^2=7{,}2\\cdot10^{10}\\,\\mathrm{J}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}072\\,\\mathrm{TJ}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid en kärnreaktion omvandlas 0,8 mg massa till energi. Bestäm energin i TJ. Använd E = mc², c = 3,00·10⁸ m/s och 1 TJ = 10¹² J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m=8\\cdot10^{-7}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[E=m c^2\\]</p><p>\\[E\\approx72000000000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_J/10^{12}\\]</p><p>\\[E\\approx0{,}072\\ \\mathrm{TJ}\\]</p></div></p></div>",
     "familj": "Energi i kärnreaktioner",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.07,
-    "tolerans": 0.0021000000000000003,
+    "rättSvar": 0.072,
+    "tolerans": 0.0018,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "TJ",
-    "ledtrad": "<p>Använd mass–energi-sambandet \\(E=\\Delta mc^2\\). Massan måste först skrivas i kilogram.</p>",
+    "ledtrad": "<p>Omvandla mg till kg, räkna E = mc², sedan TJ.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -118172,37 +118666,38 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Fission och energiutvinning"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.101",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Vid en kärnreaktion minskar den sammanlagda massan med 1,15 mg.</p><p>Hur stor energi frigörs? Ange svaret i TJ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd mass–energi-sambandet \\(E=\\Delta mc^2\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan måste först skrivas i kilogram.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=1{,}15\\cdot10^{-6}\\,\\mathrm{kg}\\]\\[E=1{,}15\\cdot10^{-6}\\cdot(3,00\\cdot10^8)^2=1{,}04\\cdot10^{11}\\,\\mathrm{J}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}104\\,\\mathrm{TJ}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Vid en kärnreaktion omvandlas 1,15 mg massa till energi. Bestäm energin i TJ. Använd E = mc², c = 3,00·10⁸ m/s och 1 TJ = 10¹² J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m=1{,}15\\cdot10^{-6}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[E=m c^2\\]</p><p>\\[E\\approx103000000000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_J/10^{12}\\]</p><p>\\[E\\approx0{,}103\\ \\mathrm{TJ}\\]</p></div></p></div>",
     "familj": "Energi i kärnreaktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.104,
-    "tolerans": 0.002,
+    "rättSvar": 0.10349999999999998,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "TJ",
-    "ledtrad": "<p>Använd mass–energi-sambandet \\(E=\\Delta mc^2\\). Massan måste först skrivas i kilogram.</p>",
+    "ledtrad": "<p>Omvandla mg till kg, räkna E = mc², sedan TJ.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Fission och energiutvinning"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.199",
@@ -134671,9 +135166,9 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "E",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Skriv reaktionsformeln när följande nuklider sönderfaller med alfasönderfall.</p><ol><li>\\(^{205}_{85}\\mathrm{At}\\)</li><li>\\(^{216}_{86}\\mathrm{Rn}\\)</li><li>\\(^{211}_{89}\\mathrm{Ac}\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{205}_{85}\\mathrm{At}\\rightarrow{}^{201}_{83}\\mathrm{Bi}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{216}_{86}\\mathrm{Rn}\\rightarrow{}^{212}_{84}\\mathrm{Po}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{211}_{89}\\mathrm{Ac}\\rightarrow{}^{207}_{87}\\mathrm{Fr}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{205}_{85}\\mathrm{At}\\rightarrow{}^{201}_{83}\\mathrm{Bi}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{216}_{86}\\mathrm{Rn}\\rightarrow{}^{212}_{84}\\mathrm{Po}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{211}_{89}\\mathrm{Ac}\\rightarrow{}^{207}_{87}\\mathrm{Fr}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
@@ -134685,7 +135180,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv reaktionsformeln när följande nuklider sönderfaller med alfasönderfall.</p>",
     "spelDelar": [
@@ -134693,22 +135188,34 @@ window.BANK = [
         "etikett": "a",
         "fraga": "\\(^{205}_{85}\\mathrm{At}\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{205}_{85}\\mathrm{At}\\rightarrow{}^{201}_{83}\\mathrm{Bi}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(^{205}_{85}\\mathrm{At}\\)</p>"
       },
       {
         "etikett": "b",
         "fraga": "\\(^{216}_{86}\\mathrm{Rn}\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{216}_{86}\\mathrm{Rn}\\rightarrow{}^{212}_{84}\\mathrm{Po}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(^{216}_{86}\\mathrm{Rn}\\)</p>"
       },
       {
         "etikett": "c",
         "fraga": "\\(^{211}_{89}\\mathrm{Ac}\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{211}_{89}\\mathrm{Ac}\\rightarrow{}^{207}_{87}\\mathrm{Fr}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(^{211}_{89}\\mathrm{Ac}\\)</p>"
       }
     ],
     "traningsniva": 2,
@@ -134722,9 +135229,9 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "E",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Polonium-210 sönderfaller med alfasönderfall. Skriv reaktionsformeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{210}_{84}\\mathrm{Po}\\rightarrow{}^{206}_{82}\\mathrm{Pb}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{210}_{84}\\mathrm{Po}\\rightarrow{}^{206}_{82}\\mathrm{Pb}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
@@ -134736,7 +135243,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
@@ -134748,9 +135255,9 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "E",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Uran-238 sönderfaller med alfasönderfall. Skriv reaktionsformeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{238}_{92}\\mathrm{U}\\rightarrow{}^{234}_{90}\\mathrm{Th}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{238}_{92}\\mathrm{U}\\rightarrow{}^{234}_{90}\\mathrm{Th}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
@@ -134762,7 +135269,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
@@ -134774,9 +135281,9 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "E",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(2/0/0)",
-    "t": "<p>Komplettera reaktionsformlerna.</p><ol><li>\\(\\square\\rightarrow{}^{224}_{88}\\mathrm{Ra}+{}^{4}_{2}\\mathrm{He}\\)</li><li>\\(^{263}_{106}\\mathrm{Sg}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</li><li>\\(^{213}_{89}\\mathrm{Ac}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</li><li>\\(^{216}_{87}\\mathrm{Fr}\\rightarrow{}^{212}_{85}\\mathrm{At}+\\square\\)</li><li>\\(^{8}_{5}\\mathrm{B}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{228}_{90}\\mathrm{Th}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{259}_{104}\\mathrm{Rf}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{209}_{87}\\mathrm{Fr}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{4}_{3}\\mathrm{Li}\\]</div></div></div></div></div></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Komplettera reaktionsformlerna.</p><ol><li>\\(\\square\\rightarrow{}^{224}_{88}\\mathrm{Ra}+{}^{4}_{2}\\mathrm{He}\\)</li><li>\\(^{263}_{106}\\mathrm{Sg}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</li><li>\\(^{213}_{89}\\mathrm{Ac}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</li><li>\\(^{216}_{87}\\mathrm{Fr}\\rightarrow{}^{212}_{85}\\mathrm{At}+\\square\\)</li><li>\\(^{216}_{84}\\mathrm{Po}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{228}_{90}\\mathrm{Th}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{259}_{104}\\mathrm{Rf}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{209}_{87}\\mathrm{Fr}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{212}_{82}\\mathrm{Pb}\\]</div></div></div></div></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
@@ -134788,7 +135295,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Komplettera reaktionsformlerna.</p>",
     "spelDelar": [
@@ -134796,36 +135303,56 @@ window.BANK = [
         "etikett": "a",
         "fraga": "\\(\\square\\rightarrow{}^{224}_{88}\\mathrm{Ra}+{}^{4}_{2}\\mathrm{He}\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{228}_{90}\\mathrm{Th}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(\\square\\rightarrow{}^{224}_{88}\\mathrm{Ra}+{}^{4}_{2}\\mathrm{He}\\)</p>"
       },
       {
         "etikett": "b",
         "fraga": "\\(^{263}_{106}\\mathrm{Sg}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{259}_{104}\\mathrm{Rf}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(^{263}_{106}\\mathrm{Sg}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</p>"
       },
       {
         "etikett": "c",
         "fraga": "\\(^{213}_{89}\\mathrm{Ac}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{209}_{87}\\mathrm{Fr}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(^{213}_{89}\\mathrm{Ac}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</p>"
       },
       {
         "etikett": "d",
         "fraga": "\\(^{216}_{87}\\mathrm{Fr}\\rightarrow{}^{212}_{85}\\mathrm{At}+\\square\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(^{216}_{87}\\mathrm{Fr}\\rightarrow{}^{212}_{85}\\mathrm{At}+\\square\\)</p>"
       },
       {
         "etikett": "e",
-        "fraga": "\\(^{8}_{5}\\mathrm{B}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">e</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{4}_{3}\\mathrm{Li}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "E"
+        "fraga": "\\(^{216}_{84}\\mathrm{Po}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">e</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{212}_{82}\\mathrm{Pb}\\]</div></div></div></div></div></div>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "(1/0/0)",
+        "miniräknare": true,
+        "t": "<p>\\(^{216}_{84}\\mathrm{Po}\\rightarrow\\square+{}^{4}_{2}\\mathrm{He}\\)</p>"
       }
     ],
     "traningsniva": 2,
@@ -134866,151 +135393,379 @@ window.BANK = [
     "id": "9.109",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Thorium-232 sönderfaller med alfasönderfall till radium-228. Data: nuklidmassorna \\(m(^{232}\\mathrm{Th})=232{,}038056\\,\\mathrm u\\), \\(m(^{228}\\mathrm{Ra})=228{,}031071\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\). Beräkna sönderfallsenergin.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=232{,}038056-(228{,}031071+4{,}002603)=0{,}004382\\,\\mathrm u\\]\\[Q=0{,}004382\\cdot931{,}5\\approx4{,}08\\,\\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(Q\\approx4{,}08\\,\\mathrm{MeV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Torium-232 alfasönderfaller. Atommassorna före och efter är 232,038056 u respektive 228,031071 u och 4,002603 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m_{före}=232{,}038056\\ \\mathrm u\\]</p><p>\\[m_{efter}=232{,}033674\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00438200000002\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx4{,}08\\ \\mathrm{MeV}\\]</p></div></p></div>",
     "familj": "Alfasönderfall",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.08,
-    "tolerans": 0.0612,
+    "rättSvar": 4.081833000019543,
+    "tolerans": 0.10204582500048859,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.110",
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "C",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Plutonium-238 används som energikälla i vissa rymdfarkoster.</p><ol><li>Bestäm dotterkärnan vid alfasönderfallet.</li><li>Data: \\(m(^{238}\\mathrm{Pu})=238{,}049560\\,\\mathrm u\\), \\(m(^{234}\\mathrm{U})=234{,}040952\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\) för att bestämma den frigjorda energin.</li><li>Hur många sönderfall krävs för att frigöra lika mycket energi som 1,0 liter bensin med energiinnehållet 9,0 kWh?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Börja med reaktionsformeln och masskillnaden.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla därefter MeV till joule och 9,0 kWh till joule.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{238}_{94}\\mathrm{Pu}\\rightarrow{}^{234}_{92}\\mathrm{U}+{}^{4}_{2}\\mathrm{He}\\].</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q\\approx5{,}59\\,\\mathrm{MeV}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{bensin}=9{,}0\\cdot3{,}6\\cdot10^6=3{,}24\\cdot10^7\\,\\mathrm J\\]\\[E_\\alpha=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=8{,}96\\cdot10^{-13}\\,\\mathrm J\\]\\[N=\\frac{3{,}24\\cdot10^7}{8{,}96\\cdot10^{-13}}\\approx3{,}6\\cdot10^{19}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(^{234}\\mathrm U\\), 5,59 MeV och cirka \\(3{,}6\\cdot10^{19}\\) sönderfall.</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Plutonium-238, atomnummer 94, alfasönderfaller till uran-234 och helium-4. Atommassorna är 238,049560 u, 234,040952 u och 4,002603 u i samma ordning. 1 u motsvarar 931,5 MeV. 1 MeV = 1,602·10⁻¹³ J och 1 kWh = 3,6·10⁶ J.</p><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Hur många sönderfall ger samma energi som 9,0 kWh?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[{}^{238}_{94}\\mathrm{Pu}\\rightarrow{}^{234}_{92}\\mathrm U+{}^4_2\\mathrm{He}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=238{,}04956\\ \\mathrm u\\]</p><p>\\[m_{efter}=238{,}043555\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00600500000002\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}59\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=9{,}0\\cdot3{,}6\\cdot10^6\\]</p><p>\\[E\\approx32400000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=5{,}59365750001\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx3{,}62\\cdot10^{19}\\]</p></div></p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      5.593657500014928,
+      3.6156520310851396e+19
+    ],
+    "tolerans": [
+      null,
+      0.1398414375003732,
+      9.045044320717172e+17
+    ],
+    "självrättning": [
+      false,
+      true,
+      true
+    ],
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Plutonium-238 används som energikälla i vissa rymdfarkoster.</p>",
+    "spelIntro": "<p>Plutonium-238, atomnummer 94, alfasönderfaller till uran-234 och helium-4. Atommassorna är 238,049560 u, 234,040952 u och 4,002603 u i samma ordning. 1 u motsvarar 931,5 MeV. 1 MeV = 1,602·10⁻¹³ J och 1 kWh = 3,6·10⁶ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm dotterkärnan vid alfasönderfallet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{238}_{94}\\mathrm{Pu}\\rightarrow{}^{234}_{92}\\mathrm{U}+{}^{4}_{2}\\mathrm{He}\\].</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+        "fraga": "Plutonium-238, atomnummer 94, alfasönderfaller. Vilken kärna bildas?",
+        "s": "<div class=\"facit-v2\"><p>\\[{}^{238}_{94}\\mathrm{Pu}\\rightarrow{}^{234}_{92}\\mathrm U+{}^4_2\\mathrm{He}\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Uran-234, atomnummer 92.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Uran-234, atomnummer 92.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Uran-238, atomnummer 92.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Plutonium-234, atomnummer 94.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
+        "t": "<p>Plutonium-238, atomnummer 94, alfasönderfaller. Vilken kärna bildas?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Använd \\(m(^{238}\\mathrm{Pu})=238{,}049560\\,\\mathrm u\\), \\(m(^{234}\\mathrm{U})=234{,}040952\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\) för att bestämma den frigjorda energin.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q\\approx5{,}59\\,\\mathrm{MeV}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Plutonium-238 alfasönderfaller till uran-234 och helium-4. Atommassorna är 238,049560 u, 234,040952 u och 4,002603 u i samma ordning. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=238{,}04956\\ \\mathrm u\\]</p><p>\\[m_{efter}=238{,}043555\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00600500000002\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}59\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.593657500014928,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.1398414375003732,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Plutonium-238 alfasönderfaller till uran-234 och helium-4. Atommassorna är 238,049560 u, 234,040952 u och 4,002603 u i samma ordning. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur många sönderfall krävs för att frigöra lika mycket energi som 1,0 liter bensin med energiinnehållet 9,0 kWh?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{bensin}=9{,}0\\cdot3{,}6\\cdot10^6=3{,}24\\cdot10^7\\,\\mathrm J\\]\\[E_\\alpha=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=8{,}96\\cdot10^{-13}\\,\\mathrm J\\]\\[N=\\frac{3{,}24\\cdot10^7}{8{,}96\\cdot10^{-13}}\\approx3{,}6\\cdot10^{19}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3{,}24\\cdot10^7}{8{,}96\\cdot10^{-13}}\\approx3{,}6\\cdot10^{19}\\).</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett plutoniumsönderfall frigör 5,59 MeV. Hur många sönderfall ger samma energi som 9,0 kWh? 1 kWh = 3,6·10⁶ J. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=9{,}0\\cdot3{,}6\\cdot10^6\\]</p><p>\\[E\\approx32400000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=5{,}59\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_r\\]</p><p>\\[N\\approx3{,}62\\cdot10^{19}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.6180177282868687e+19,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 9.045044320717172e+17,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla båda energierna till J och dividera.</p>",
+        "t": "<p>Ett plutoniumsönderfall frigör 5,59 MeV. Hur många sönderfall ger samma energi som 9,0 kWh? 1 kWh = 3,6·10⁶ J. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "MeV",
+      null
+    ]
   },
   {
     "id": "9.111",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "A",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(0/1/2)",
-    "t": "<p>Plutonium-239 sönderfaller med alfasönderfall. Data: \\(m(^{239}\\mathrm{Pu})=239{,}052163\\,\\mathrm u\\), \\(m(^{235}\\mathrm{U})=235{,}043930\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\).</p><ol><li>Skriv reaktionsformeln.</li><li>Beräkna sönderfallsenergin.</li><li>Förklara varför dotterkärnan och alfapartikeln måste röra sig åt motsatta håll om moderkärnan var i vila.</li><li>Anta att hela den frigjorda energin blir rörelseenergi hos de två partiklarna. Hur stor andel går till alfapartikeln? Data: 4 u respektive 235 u för massorna i denna del.</li><li>Bestäm ungefärliga hastigheter för alfapartikeln och dotterkärnan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Här behövs både energins och rörelsemängdens bevarande.</p></div><div class=\"facit-stycke\"><p>Reaktionen är \\(^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm{U}+{}^{4}_{2}\\mathrm{He}\\), och masskillnaden ger \\(Q\\approx5{,}24\\,\\mathrm{MeV}\\).</p></div><div class=\"facit-stycke\"><p>Eftersom den ursprungliga kärnans rörelsemängd är noll måste slutprodukternas rörelsemängder vara lika stora och motriktade: \\(p_U=-p_\\alpha\\).</p></div><div class=\"facit-stycke\"><p>Vid lika stora rörelsemängder gäller \\(E_k=p^2/(2m)\\), så den lättare alfapartikeln får större rörelseenergi.</p></div><div class=\"facit-stycke\"><p>Dess andel blir \\(m_U/(m_U+m_\\alpha)=235/239\\approx98{,}3\\%\\).</p></div><div class=\"facit-stycke\"><p>Det ger ungefär \\(v_\\alpha\\approx1{,}58\\cdot10^7\\,\\mathrm{m/s}\\) och \\(v_U\\approx2{,}68\\cdot10^5\\,\\mathrm{m/s}\\), i motsatta riktningar.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(3/2/0)",
+    "t": "<p>Plutonium-239 alfasönderfaller från vila till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. 1 u motsvarar 931,5 MeV. All frigjord energi blir produkternas rörelseenergi. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Förklara varför produkterna rör sig åt motsatta håll.</p><p>d) Hur många procent av energin får alfapartikeln? Använd massorna 4 u och 235 u.</p><p>e) Bestäm produkternas farter i m/s, först alfapartikeln och sedan urankärnan. Använd massorna 4 u och 235 u.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[{}^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm U+{}^4_2\\mathrm{He}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=239{,}052163\\ \\mathrm u\\]</p><p>\\[m_{efter}=239{,}046533\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00563000000002\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}24\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kärnan är från början i vila, så den sammanlagda rörelsemängden är noll. Produkterna måste få lika stora rörelsemängder åt motsatta håll.</p><p>\\[p_\\alpha+p_{Pb}=0\\]</p><p>\\[|p_\\alpha|=|p_{Pb}|\\]</p><p>Med Eₖ = p²/(2m) får den lättare partikeln större rörelseenergi.</p><p>\\[\\frac{E_\\alpha}{E_{Pb}}=\\frac{m_{Pb}}{m_\\alpha}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Vid lika stora rörelsemängder gäller Eₖ = p²/(2m).</p><p><div class=\"facit-v2\"><p>\\[andel=235/(235+4)\\cdot100\\]</p><p>\\[andel\\approx98{,}3\\ \\mathrm{\\%}\\]</p></div></p></div><p><strong>e)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=5{,}24434500002\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}4\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_\\alpha=E_r\\cdot235/239\\]</p><p>\\[E_\\alpha\\approx8{,}26\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_U=E_r\\cdot4/239\\]</p><p>\\[E_U\\approx1{,}41\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p>\\[m_\\alpha=4\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p>\\[m_U=235\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[v_\\alpha=\\sqrt{2E_\\alpha/m_\\alpha}\\]</p><p>\\[v_\\alpha\\approx15800000\\ \\mathrm{m/s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[v_U=\\sqrt{2E_U/m_U}\\]</p><p>\\[v_U\\approx268000\\ \\mathrm{m/s}\\]</p></div></p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      5.244345000023188,
+      null,
+      98.32635983263597,
+      [
+        15771660.713523285,
+        268453.7993791201
+      ]
+    ],
+    "tolerans": [
+      null,
+      0.1311086250005797,
+      null,
+      2.4581589958158996,
+      [
+        500000.0,
+        6708.564195205976
+      ]
+    ],
+    "självrättning": [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Plutonium-239 sönderfaller med alfasönderfall. Använd \\(m(^{239}\\mathrm{Pu})=239{,}052163\\,\\mathrm u\\), \\(m(^{235}\\mathrm{U})=235{,}043930\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\).</p>",
+    "spelIntro": "<p>Plutonium-239 alfasönderfaller från vila till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. 1 u motsvarar 931,5 MeV. All frigjord energi blir produkternas rörelseenergi. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv reaktionsformeln.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara både masstal och atomnummer.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm{U}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm{U}+{}^{4}_{2}\\mathrm{He}\\)</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "A"
+        "fraga": "Plutonium-239, atomnummer 94, alfasönderfaller. Vilken kärna bildas?",
+        "s": "<div class=\"facit-v2\"><p>\\[{}^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm U+{}^4_2\\mathrm{He}\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Uran-235, atomnummer 92.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Uran-235, atomnummer 92.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Uran-239, atomnummer 92.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Plutonium-235, atomnummer 94.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
+        "t": "<p>Plutonium-239, atomnummer 94, alfasönderfaller. Vilken kärna bildas?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna sönderfallsenergin.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan som försvinner blir energi.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera massunderskottet med \\(931{,}5\\ \\mathrm{MeV/u}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=239{,}052163-235{,}043930-4{,}002603=0{,}005630\\ \\mathrm u\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(Q=0{,}005630\\cdot931{,}5\\approx5{,}24\\ \\mathrm{MeV}\\)</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "A"
+        "fraga": "Plutonium-239 alfasönderfaller till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{före}=239{,}052163\\ \\mathrm u\\]</p><p>\\[m_{efter}=239{,}046533\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00563000000002\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}24\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.244345000023188,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.1311086250005797,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
+        "t": "<p>Plutonium-239 alfasönderfaller till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Förklara varför dotterkärnan och alfapartikeln måste röra sig åt motsatta håll om moderkärnan var i vila.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Moderkärnan är i vila, så den totala rörelsemängden är noll före sönderfallet.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Rörelsemängd bevaras, alltså måste de två partiklarnas rörelsemängder ta ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p_U=-p_\\alpha\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De måste röra sig åt motsatta håll, annars vore summan av rörelsemängderna inte noll.</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "A"
+        "fraga": "En kärna sönderfaller från vila i två partiklar. Varför rör de sig åt motsatta håll?",
+        "s": "<div class=\"facit-v2\"><p>Kärnan är från början i vila, så den sammanlagda rörelsemängden är noll. Produkterna måste få lika stora rörelsemängder åt motsatta håll.</p><p>\\[p_\\alpha+p_{Pb}=0\\]</p><p>\\[|p_\\alpha|=|p_{Pb}|\\]</p><p>Med Eₖ = p²/(2m) får den lättare partikeln större rörelseenergi.</p><p>\\[\\frac{E_\\alpha}{E_{Pb}}=\\frac{m_{Pb}}{m_\\alpha}\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Deras sammanlagda rörelsemängd måste vara noll.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Deras sammanlagda rörelsemängd måste vara noll.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "De får alltid samma fart.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Endast den ena partikeln har rörelsemängd.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Rörelsemängden är noll från början och bevaras.</p>",
+        "t": "<p>En kärna sönderfaller från vila i två partiklar. Varför rör de sig åt motsatta håll?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Anta att hela den frigjorda energin blir rörelseenergi hos de två partiklarna. Hur stor andel går till alfapartikeln? Använd 4 u respektive 235 u för massorna i denna del.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lika stora rörelsemängder ger \\(E_k=p^2/(2m)\\), så den lätta partikeln får den stora delen av energin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_\\alpha}{E_\\alpha+E_U}=\\frac{m_U}{m_U+m_\\alpha}=\\frac{235}{239}\\approx0{,}983\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Alfapartikeln får ungefär \\(98{,}3\\ \\%\\) av energin.</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "A"
+        "fraga": "En alfapartikel med massan 4 u och en urankärna med massan 235 u får lika stora rörelsemängder. Hur många procent av deras totala rörelseenergi får alfapartikeln?",
+        "s": "<div class=\"facit-v2\"><p>Vid lika stora rörelsemängder gäller Eₖ = p²/(2m).</p><p><div class=\"facit-v2\"><p>\\[andel=235/(235+4)\\cdot100\\]</p><p>\\[andel\\approx98{,}3\\ \\mathrm{\\%}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 98.32635983263597,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 2.4581589958158996,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Energierna är omvänt proportionella mot massorna.</p>",
+        "t": "<p>En alfapartikel med massan 4 u och en urankärna med massan 235 u får lika stora rörelsemängder. Hur många procent av deras totala rörelseenergi får alfapartikeln?</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "e",
-        "fraga": "Bestäm ungefärliga hastigheter för alfapartikeln och dotterkärnan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">e</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Räkna först ut alfapartikelns rörelseenergi i joule och därefter farten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Dotterkärnans fart följer ur samma rörelsemängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_\\alpha=0{,}983\\cdot5{,}24=5{,}15\\ \\mathrm{MeV}=8{,}26\\cdot10^{-13}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_\\alpha\\approx1{,}58\\cdot10^7\\ \\mathrm{m/s}\\) och \\(v_U\\approx2{,}68\\cdot10^5\\ \\mathrm{m/s}\\), åt motsatta håll.</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "A"
+        "fraga": "Plutonium-239 alfasönderfaller från vila. Totalt frigörs 5,24 MeV som rörelseenergi. Alfapartikeln och urankärnan har massorna 4 u och 235 u. Bestäm deras farter i m/s, först alfapartikeln och sedan urankärnan. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=5{,}24\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}39\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_\\alpha=E_r\\cdot235/239\\]</p><p>\\[E_\\alpha\\approx8{,}25\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_U=E_r\\cdot4/239\\]</p><p>\\[E_U\\approx1{,}4\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p>\\[m_\\alpha=4\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p>\\[m_U=235\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[v_\\alpha=\\sqrt{2E_\\alpha/m_\\alpha}\\]</p><p>\\[v_\\alpha\\approx15800000\\ \\mathrm{m/s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[v_U=\\sqrt{2E_U/m_U}\\]</p><p>\\[v_U\\approx268000\\ \\mathrm{m/s}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          15765125.858734025,
+          268342.567808239
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "m/s",
+          "m/s"
+        ],
+        "tolerans": [
+          500000.0,
+          6708.564195205976
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 4,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Dela energin med hjälp av lika stora rörelsemängder. Använd sedan Eₖ = mv²/2.</p>",
+        "t": "<p>Plutonium-239 alfasönderfaller från vila. Totalt frigörs 5,24 MeV som rörelseenergi. Alfapartikeln och urankärnan har massorna 4 u och 235 u. Bestäm deras farter i m/s, först alfapartikeln och sedan urankärnan. Använd 1 u = 1,6605·10⁻²⁷ kg. Använd 1 MeV = 1,602·10⁻¹³ J.</p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Alfapartikel",
+          "Urankärna"
+        ],
+        "miniräknare": true
       }
     ],
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "traningsniva": 4,
+    "arbetsinsats": 5,
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null,
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "MeV",
+      null,
+      "%",
+      [
+        "m/s",
+        "m/s"
+      ]
+    ]
   },
   {
     "id": "9.112",
@@ -135018,9 +135773,9 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "E",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Bestäm den okända nukliden.</p><ol><li>\\(^{234}_{92}\\mathrm U\\rightarrow X+\\alpha\\)</li><li>\\(X\\rightarrow{}^{224}_{86}\\mathrm{Rn}+\\alpha\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{230}_{90}\\mathrm{Th}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{228}_{88}\\mathrm{Ra}\\]</div></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{230}_{90}\\mathrm{Th}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{228}_{88}\\mathrm{Ra}\\]</div></div></div></div></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
@@ -135032,7 +135787,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm den okända nukliden.</p>",
     "spelDelar": [
@@ -135040,17 +135795,23 @@ window.BANK = [
         "etikett": "a",
         "fraga": "\\(^{234}_{92}\\mathrm U\\rightarrow X+\\alpha\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{230}_{90}\\mathrm{Th}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>\\(^{234}_{92}\\mathrm U\\rightarrow X+\\alpha\\)</p>"
       },
       {
         "etikett": "b",
         "fraga": "\\(X\\rightarrow{}^{224}_{86}\\mathrm{Rn}+\\alpha\\)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{228}_{88}\\mathrm{Ra}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>\\(X\\rightarrow{}^{224}_{86}\\mathrm{Rn}+\\alpha\\)</p>"
       }
     ],
     "traningsniva": 2,
@@ -135064,9 +135825,9 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "E",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(2/0/0)",
+    "poang": "(1/0/0)",
     "t": "<p>Skriv reaktionsformeln för ett alfasönderfall om</p><ol><li>\\(^{211}_{85}\\mathrm{At}\\) är moderkärnan.</li><li>\\(^{211}_{85}\\mathrm{At}\\) är dotterkärnan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{211}_{85}\\mathrm{At}\\rightarrow{}^{207}_{83}\\mathrm{Bi}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{215}_{87}\\mathrm{Fr}\\rightarrow{}^{211}_{85}\\mathrm{At}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{211}_{85}\\mathrm{At}\\rightarrow{}^{207}_{83}\\mathrm{Bi}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{215}_{87}\\mathrm{Fr}\\rightarrow{}^{211}_{85}\\mathrm{At}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur"
@@ -135078,7 +135839,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv reaktionsformeln för ett alfasönderfall om</p>",
     "spelDelar": [
@@ -135086,17 +135847,23 @@ window.BANK = [
         "etikett": "a",
         "fraga": "\\(^{211}_{85}\\mathrm{At}\\) är moderkärnan.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{211}_{85}\\mathrm{At}\\rightarrow{}^{207}_{83}\\mathrm{Bi}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>\\(^{211}_{85}\\mathrm{At}\\) är moderkärnan.</p>"
       },
       {
         "etikett": "b",
         "fraga": "\\(^{211}_{85}\\mathrm{At}\\) är dotterkärnan.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{215}_{87}\\mathrm{Fr}\\rightarrow{}^{211}_{85}\\mathrm{At}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+        "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "miniräknare": true,
+        "t": "<p>\\(^{211}_{85}\\mathrm{At}\\) är dotterkärnan.</p>"
       }
     ],
     "traningsniva": 2,
@@ -135111,7 +135878,7 @@ window.BANK = [
     "niva": "E",
     "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
     "poang": "(2/0/0)",
-    "t": "<p>Californium-244 sönderfaller genom upprepade alfasönderfall och når slutligen bly-212. Hur många alfasönderfall sker?</p>",
+    "t": "<p>En kärnas masstal minskar från 244 till 212 genom alfasönderfall. Hur många alfasönderfall sker?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje alfasönderfall minskar masstalet med 4.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[244-4n=212\\Rightarrow4n=32\\Rightarrow n=8\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 8 alfasönderfall.</p></div>",
     "familj": "Alfasönderfall",
     "formaga": [
@@ -135120,11 +135887,11 @@ window.BANK = [
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 0.12,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -135135,57 +135902,56 @@ window.BANK = [
     "id": "9.115",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Americium-241 sönderfaller till neptunium-237 genom alfasönderfall. Data: \\(m(^{241}\\mathrm{Am})=241{,}056829\\,\\mathrm u\\), \\(m(^{237}\\mathrm{Np})=237{,}048173\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\). Beräkna den frigjorda energin.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid alfasönderfall avges en alfapartikel \\(^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet minskar därför med 4 och atomnumret med 2.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid energiberäkning används masskillnaden \\(Q=\\Delta m c^2\\), eller \\(Q(\\mathrm{MeV})=\\Delta m(\\mathrm u)\\cdot931{,}5\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=[241{,}056829-(237{,}048173+4{,}002603)]\\cdot931{,}5\\approx5{,}64\\,\\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 5,64 MeV.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Americium-241 alfasönderfaller. Atommassorna före och efter är 241,056829 u respektive 237,048173 u och 4,002603 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m_{före}=241{,}056829\\ \\mathrm u\\]</p><p>\\[m_{efter}=241{,}050776\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00605300000001\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}64\\ \\mathrm{MeV}\\]</p></div></p></div>",
     "familj": "Alfasönderfall",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.64,
-    "tolerans": 0.0846,
+    "rättSvar": 5.63836950000794,
+    "tolerans": 0.1409592375001985,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.116",
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "C",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Polonium-211 sönderfaller till bly-207 och en alfapartikel. Den frigjorda energin är 7,585 MeV. Data: \\(m(^{207}\\mathrm{Pb})=206{,}975897\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\). Bestäm nuklidmassan för polonium-211.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv massbalansen som \\(m_{moder}=m_{dotter}+m_\\alpha+Q/(931{,}5\\,\\mathrm{MeV/u})\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m(^{211}\\mathrm{Po})=206{,}975897+4{,}002603+\\frac{7{,}585}{931{,}5}\\approx210{,}98664\\,\\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 210,9866 u.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Polonium-211 sönderfaller till bly-207 och helium-4. Atommassorna är 206,975897 u och 4,002603 u. Energin som frigörs är 7,585 MeV. Bestäm poloniumatomens massa i u med fem decimaler. 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\Delta m=7{,}585/931{,}5\\]</p><p>\\[\\Delta m\\approx0{,}00814\\ \\mathrm{u}\\]</p></div></p><p>\\[m_{sökt}=m_{Pb}+m_{He}+\\Delta m\\]</p><p>\\[m_{sökt}\\approx210{,}98664\\ \\mathrm u\\]</p></div>",
     "familj": "Alfasönderfall",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "svarstyp": "numeriskt",
-    "rättSvar": 210.9866,
-    "tolerans": 3.164799,
+    "rättSvar": 210.9866427804616,
+    "tolerans": 5e-06,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Frigjord energi betyder att massan minskar. Bestäm masskillnaden innan den sökta atommassan.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "u",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.201",
@@ -135745,28 +136511,28 @@ window.BANK = [
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "C",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Neptunium-237 sönderfaller till protaktinium-233 och en alfapartikel. Den frigjorda energin är 4,957 MeV. Data: \\(m(^{237}\\mathrm{Np})=237{,}048174\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\). Bestäm nuklidmassan för protaktinium-233.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös massbalansen för dotterkärnans massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m(^{233}\\mathrm{Pa})=237{,}048174-4{,}002603-\\frac{4{,}957}{931{,}5}\\approx233{,}04025\\,\\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 233,04025 u.</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Neptunium-237 sönderfaller till protaktinium-233 och helium-4. Atommassorna är m(Np) = 237,048174 u och m(He) = 4,002603 u. Energin som frigörs är 4,957 MeV. Bestäm protaktiniumatomens massa i u med fem decimaler. 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\Delta m=4{,}957/931{,}5\\]</p><p>\\[\\Delta m\\approx0{,}00532\\ \\mathrm{u}\\]</p></div></p><p>\\[m_{sökt}=m_{Np}-m_{He}-\\Delta m\\]</p><p>\\[m_{sökt}\\approx233{,}04025\\ \\mathrm u\\]</p></div>",
     "familj": "Alfasönderfall",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "svarstyp": "numeriskt",
-    "rättSvar": 233.04025,
-    "tolerans": 3.4956037499999995,
+    "rättSvar": 233.040249475577,
+    "tolerans": 5e-06,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Frigjord energi betyder att massan minskar. Bestäm masskillnaden innan den sökta atommassan.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "u",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "6.211",
@@ -135926,88 +136692,184 @@ window.BANK = [
     "id": "9.118",
     "kap": 9,
     "omr": "karnreaktioner",
-    "niva": "C",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Thorium-228 sönderfaller genom fyra alfasönderfall till bly-212. Data: \\(m(^{228}\\mathrm{Th})=228{,}028741\\,\\mathrm u\\), \\(m(^{212}\\mathrm{Pb})=211{,}991898\\,\\mathrm u\\) och \\(m(^{4}\\mathrm{He})=4{,}002603\\,\\mathrm u\\). Hur mycket energi frigörs totalt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För hela kedjan kan man jämföra startmassan direkt med slutmassan: en Pb-212-kärna och fyra alfapartiklar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=[228{,}028741-(211{,}991898+4\\cdot4{,}002603)]\\cdot931{,}5\\approx24{,}6\\,\\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 24,6 MeV.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Torium-228 genomgår fyra alfasönderfall och blir bly-212. Atommassorna är m(Th) = 228,028741 u, m(Pb) = 211,991898 u och m(He) = 4,002603 u. Bestäm totalt frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Efter kedjan finns en blyatom och fyra heliumatomer. Summera hela slutmassan.</p><p><div class=\"facit-v2\"><p>\\[m_{före}=228{,}028741\\ \\mathrm u\\]</p><p>\\[m_{efter}=228{,}00231\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}026431\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx24{,}6\\ \\mathrm{MeV}\\]</p></div></p></div></p></div>",
     "familj": "Alfasönderfall",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "svarstyp": "numeriskt",
-    "rättSvar": 24.6,
-    "tolerans": 0.369,
+    "rättSvar": 24.620476500002155,
+    "tolerans": 0.6155119125000539,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Jämför startmassan med blyatomens massa plus fyra heliumatomer.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.119",
     "kap": 9,
     "omr": "karnreaktioner",
     "niva": "C",
-    "typ": "analysera alfasönderfall reaktionsformler och frigjord energi",
-    "poang": "(1/2/0)",
-    "t": "<p>Sönderfallsschemat visar två möjliga vägar när radium-226 sönderfaller.</p><span class=\"fig smal\"><svg viewBox=\"0 0 390 300\" width=\"390\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sönderfallsschema för radium-226\"><rect width=\"390\" height=\"300\" fill=\"#fff\"/><line x1=\"80\" y1=\"55\" x2=\"310\" y2=\"55\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><text x=\"60\" y=\"60\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"13\">²²⁶₈₈Ra</text><line x1=\"80\" y1=\"235\" x2=\"310\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><text x=\"60\" y=\"240\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"13\">²²²₈₆Rn</text><line x1=\"120\" y1=\"215\" x2=\"270\" y2=\"215\" stroke=\"#9A959C\" stroke-width=\"2\"/><text x=\"278\" y=\"220\" font-family=\"IBM Plex Mono\" font-size=\"11\">exciterat tillstånd</text><line x1=\"150\" y1=\"62\" x2=\"105\" y2=\"225\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><polygon points=\"105,225 103,214 112,217\" fill=\"#2A5D9E\"/><text x=\"95\" y=\"135\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">4,785 MeV</text><text x=\"87\" y=\"151\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#5C575E\">94,4 %</text><line x1=\"245\" y1=\"62\" x2=\"235\" y2=\"205\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><polygon points=\"235,205 232,194 241,195\" fill=\"#2A5D9E\"/><text x=\"245\" y=\"132\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">4,602 MeV</text><text x=\"248\" y=\"148\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#5C575E\">5,5 %</text><line x1=\"235\" y1=\"215\" x2=\"235\" y2=\"228\" stroke=\"#B43123\" stroke-width=\"2.5\"/><polygon points=\"235,235 230,225 240,225\" fill=\"#B43123\"/><text x=\"248\" y=\"231\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">γ</text></svg></span><ol><li>Skriv reaktionsformeln.</li><li>Hur stor total energi frigörs när dotterkärnan hamnar direkt i grundtillståndet?</li><li>Hur stor energi har gammafotonen när dotterkärnan först hamnar i det exciterade tillståndet?</li><li>På en minut sönderfaller 5300 Ra-226-kärnor. Hur många gammafotoner förväntas ungefär?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Läs först av grenarnas energi och sannolikhet i schemat.</p></div><div class=\"facit-stycke\"><p>Reaktionen är \\(^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^{4}_{2}\\mathrm{He}\\).</p></div><div class=\"facit-stycke\"><p>Direktgrenen frigör 4,785 MeV.</p></div><div class=\"facit-stycke\"><p>Den exciterade grenen ger en alfa med 4,602 MeV och därefter en gammafoton med energin \\(4{,}785-4{,}602=0{,}183\\) MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_\\gamma=0{,}055\\cdot5300\\approx292\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,785 MeV, 0,183 MeV och cirka 292 gammafotoner.</p></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>Schemat visar två alfagrenar i radium-226. Siffrorna vid pilarna är alfapartiklarnas rörelseenergier. Kärnan är från början i vila. Använd massorna 4 u och 222 u för alfa och radon.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 330\" width=\"600\" height=\"330\" role=\"img\" aria-label=\"Radium-226: två alfagrenar med alfaenergierna 4,785 och 4,602 MeV, den senare följs av gamma\"><rect width=\"600\" height=\"330\" fill=\"#fff\"/><defs><marker id=\"raarr\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M90 55H450 M90 260H450 M250 225H450\" fill=\"none\" stroke=\"#243747\" stroke-width=\"3\"/><text x=\"90\" y=\"35\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"20\" fill=\"#172a3a\">²²⁶Ra</text><text x=\"90\" y=\"287\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">²²²Rn, grundtillstånd</text><text x=\"460\" y=\"225\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Exciterat</text><text x=\"460\" y=\"245\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">tillstånd</text><line x1=\"130\" y1=\"64\" x2=\"130\" y2=\"252\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"145\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,785 MeV</text><text x=\"145\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">94,4 %</text><line x1=\"345\" y1=\"64\" x2=\"345\" y2=\"217\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"360\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,602 MeV</text><text x=\"360\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">5,5 %</text><line x1=\"425\" y1=\"225\" x2=\"425\" y2=\"252\" stroke=\"#a72e36\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"439\" y=\"253\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#a72e36\">γ</text><text x=\"300\" y=\"318\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#172a3a\">Schemat är inte skalenligt.</text></svg></span><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm den sammanlagda rörelseenergin i direktgrenen. Svara i MeV.</p><p>c) Bestäm gammaenergin. Använd E_γ = (E_α₁ − E_α₂)(1 + m_α/m_Rn). Svara i MeV.</p><p>d) På en minut sker 5 300 sönderfall. Ungefär hur många gammafotoner avges?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Även radonkärnan får rörelseenergi. Produkterna har lika stora rörelsemängder, så E_Rn/E_α = m_α/m_Rn.</p><p>\\[E_{Rn}=E_\\alpha\\cdot4/222\\]</p><p><div class=\"facit-v2\"><p>\\[Q=4{,}785(1+4/222)\\]</p><p>\\[Q\\approx4{,}87\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Skillnaden mellan alfaenergierna behöver också korrigeras för radonkärnans rörelseenergi.</p><p>\\[\\Delta E_\\alpha=4{,}785-4{,}602=0{,}183\\ \\mathrm{MeV}\\]</p><p><div class=\"facit-v2\"><p>\\[E_\\gamma=0{,}183(1+4/222)\\]</p><p>\\[E_\\gamma\\approx0{,}186\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[N_\\gamma=0{,}055\\cdot5300=291{,}5\\]</p><p>Det förväntade antalet är ungefär 292 gammafotoner.</p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__alfasonderfall",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      4.871216216216217,
+      0.18629729729729713,
+      291.5
+    ],
+    "tolerans": [
+      null,
+      0.12178040540540543,
+      0.005,
+      7.2875000000000005
+    ],
+    "självrättning": [
+      false,
+      true,
+      true,
+      true
+    ],
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
+    "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Sönderfallsschemat visar två möjliga vägar när radium-226 sönderfaller.</p><span class=\"fig smal\"><svg viewBox=\"0 0 390 300\" width=\"390\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sönderfallsschema för radium-226\"><rect width=\"390\" height=\"300\" fill=\"#fff\"/><line x1=\"80\" y1=\"55\" x2=\"310\" y2=\"55\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><text x=\"60\" y=\"60\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"13\">²²⁶₈₈Ra</text><line x1=\"80\" y1=\"235\" x2=\"310\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><text x=\"60\" y=\"240\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"13\">²²²₈₆Rn</text><line x1=\"120\" y1=\"215\" x2=\"270\" y2=\"215\" stroke=\"#9A959C\" stroke-width=\"2\"/><text x=\"278\" y=\"220\" font-family=\"IBM Plex Mono\" font-size=\"11\">exciterat tillstånd</text><line x1=\"150\" y1=\"62\" x2=\"105\" y2=\"225\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><polygon points=\"105,225 103,214 112,217\" fill=\"#2A5D9E\"/><text x=\"95\" y=\"135\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">4,785 MeV</text><text x=\"87\" y=\"151\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#5C575E\">94,4 %</text><line x1=\"245\" y1=\"62\" x2=\"235\" y2=\"205\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><polygon points=\"235,205 232,194 241,195\" fill=\"#2A5D9E\"/><text x=\"245\" y=\"132\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">4,602 MeV</text><text x=\"248\" y=\"148\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#5C575E\">5,5 %</text><line x1=\"235\" y1=\"215\" x2=\"235\" y2=\"228\" stroke=\"#B43123\" stroke-width=\"2.5\"/><polygon points=\"235,235 230,225 240,225\" fill=\"#B43123\"/><text x=\"248\" y=\"231\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">γ</text></svg></span>",
+    "spelIntro": "<p>Schemat visar två alfagrenar i radium-226. Siffrorna vid pilarna är alfapartiklarnas rörelseenergier. Kärnan är från början i vila. Använd massorna 4 u och 222 u för alfa och radon.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 330\" width=\"600\" height=\"330\" role=\"img\" aria-label=\"Radium-226: två alfagrenar med alfaenergierna 4,785 och 4,602 MeV, den senare följs av gamma\"><rect width=\"600\" height=\"330\" fill=\"#fff\"/><defs><marker id=\"raarr\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M90 55H450 M90 260H450 M250 225H450\" fill=\"none\" stroke=\"#243747\" stroke-width=\"3\"/><text x=\"90\" y=\"35\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"20\" fill=\"#172a3a\">²²⁶Ra</text><text x=\"90\" y=\"287\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">²²²Rn, grundtillstånd</text><text x=\"460\" y=\"225\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Exciterat</text><text x=\"460\" y=\"245\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">tillstånd</text><line x1=\"130\" y1=\"64\" x2=\"130\" y2=\"252\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"145\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,785 MeV</text><text x=\"145\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">94,4 %</text><line x1=\"345\" y1=\"64\" x2=\"345\" y2=\"217\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"360\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,602 MeV</text><text x=\"360\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">5,5 %</text><line x1=\"425\" y1=\"225\" x2=\"425\" y2=\"252\" stroke=\"#a72e36\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"439\" y=\"253\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#a72e36\">γ</text><text x=\"300\" y=\"318\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#172a3a\">Schemat är inte skalenligt.</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv reaktionsformeln.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara masstal och atomnummer.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Radium-226 sänder ut en alfapartikel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^{4}_{2}\\mathrm{He}\\)</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "C"
+        "fraga": "Radium-226, atomnummer 88, alfasönderfaller. Vilken kärna bildas?",
+        "s": "<div class=\"facit-v2\"><p>\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Radon-222, atomnummer 86.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Radon-222, atomnummer 86.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Radon-226, atomnummer 86.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Radium-222, atomnummer 88.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
+        "t": "<p>Radium-226, atomnummer 88, alfasönderfaller. Vilken kärna bildas?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor total energi frigörs när dotterkärnan hamnar direkt i grundtillståndet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Direktgrenen går hela vägen ned till grundtillståndet, så hela energin frigörs som alfapartikelns rörelseenergi.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}785\\ \\mathrm{MeV}\\)</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "C"
+        "fraga": "Radium-226 alfasönderfaller från vila. Alfapartikeln får rörelseenergin 4,785 MeV. Radonkärnan och alfapartikeln har massorna 222 u och 4 u. Bestäm deras sammanlagda rörelseenergi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>Även radonkärnan får rörelseenergi. Produkterna har lika stora rörelsemängder, så E_Rn/E_α = m_α/m_Rn.</p><p>\\[E_{Rn}=E_\\alpha\\cdot4/222\\]</p><p><div class=\"facit-v2\"><p>\\[Q=4{,}785(1+4/222)\\]</p><p>\\[Q\\approx4{,}87\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.871216216216217,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.12178040540540543,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Lika stora rörelsemängder ger E_Rn/E_α = m_α/m_Rn.</p>",
+        "t": "<p>Radium-226 alfasönderfaller från vila. Alfapartikeln får rörelseenergin 4,785 MeV. Radonkärnan och alfapartikeln har massorna 222 u och 4 u. Bestäm deras sammanlagda rörelseenergi i MeV.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor energi har gammafotonen när dotterkärnan först hamnar i det exciterade tillståndet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den exciterade grenen ger en alfa med lägre energi.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Skillnaden mot direktgrenen blir gammafotonen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_\\gamma=4{,}785-4{,}602=0{,}183\\ \\mathrm{MeV}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}183\\ \\mathrm{MeV}\\)</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "C"
+        "fraga": "Två alfagrenar i radium-226 har alfaenergierna 4,785 MeV och 4,602 MeV. Den andra följs av gamma. Använd massorna 222 u och 4 u för radon och alfa. Bestäm gammaenergin i MeV. Du kan använda E_γ = (E_α₁ − E_α₂)(1 + m_α/m_Rn).",
+        "s": "<div class=\"facit-v2\"><p>Skillnaden mellan alfaenergierna behöver också korrigeras för radonkärnans rörelseenergi.</p><p>\\[\\Delta E_\\alpha=4{,}785-4{,}602=0{,}183\\ \\mathrm{MeV}\\]</p><p><div class=\"facit-v2\"><p>\\[E_\\gamma=0{,}183(1+4/222)\\]</p><p>\\[E_\\gamma\\approx0{,}186\\ \\mathrm{MeV}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.18629729729729713,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MeV",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Korrigera skillnaden mellan alfaenergierna för radonkärnans rörelseenergi.</p>",
+        "t": "<p>Två alfagrenar i radium-226 har alfaenergierna 4,785 MeV och 4,602 MeV. Den andra följs av gamma. Använd massorna 222 u och 4 u för radon och alfa. Bestäm gammaenergin i MeV. Du kan använda E_γ = (E_α₁ − E_α₂)(1 + m_α/m_Rn).</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "På en minut sönderfaller 5300 Ra-226-kärnor. Hur många gammafotoner förväntas ungefär?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bara den andel av sönderfallen som går via det exciterade tillståndet ger en gammafoton.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Andelen läses av i schemat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_\\gamma=0{,}055\\cdot5300\\approx292\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(292\\) gammafotoner.</p></div>",
-        "ledtrad": "<p>En alfapartikel är \\(^{4}_{2}\\mathrm{He}\\). Bevara både masstal och atomnummer i reaktionsformeln.</p>",
-        "niva": "C"
+        "fraga": "Av radium-226-sönderfallen ger 5,5 % en gammafoton. På en minut sker 5 300 sönderfall. Ungefär hur många gammafotoner avges?",
+        "s": "<div class=\"facit-v2\"><p>\\[N_\\gamma=0{,}055\\cdot5300=291{,}5\\]</p><p>Det förväntade antalet är ungefär 292 gammafotoner.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 291.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 7.2875000000000005,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera antalet sönderfall med andelen 0,055.</p>",
+        "t": "<p>Av radium-226-sönderfallen ger 5,5 % en gammafoton. På en minut sker 5 300 sönderfall. Ungefär hur många gammafotoner avges?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "MeV",
+      "MeV",
+      null
+    ]
   },
   {
     "id": "3.226",
@@ -153595,11 +154457,11 @@ window.BANK = [
     "id": "KG-FY1-ALFA-02",
     "familj": "Alfasönderfall",
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "(1/0/0)",
     "typ": "fullständig reaktionsformel för alfasönderfall",
     "t": "<p>Uran-238 har atomnumret 92 och sönderfaller med alfasönderfall. Skriv reaktionsformeln. Dotterkärnan med atomnummer 90 är torium, Th.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[{}^{238}_{92}\\mathrm U\\rightarrow{}^{234}_{90}\\mathrm{Th}+{}^{4}_{2}\\mathrm{He}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\({}^{238}_{92}\\mathrm U\\rightarrow{}^{234}_{90}\\mathrm{Th}+{}^{4}_{2}\\mathrm{He}\\).</p></div>",
-    "ledtrad": "<p>Dotterkärnan får \\(A-4\\) och \\(Z-2\\).</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "kap": 9,
     "omr": "karnreaktioner",
     "formaga": [
@@ -153620,15 +154482,14 @@ window.BANK = [
   {
     "id": "KG-FY1-ALFA-03",
     "familj": "Alfasönderfall",
-    "niva": "C",
-    "poang": "1/2/0",
-    "typ": "massdefekt vid alfasönderfall",
-    "t": "<p>Vid ett alfasönderfall är moderkärnans massa 238,050788 u. Dotterkärnans massa är 234,043601 u och alfapartikelns massa 4,002602 u. Bestäm den frigjorda energin. Energiomvandlingen är 1 u·c² = 931,5 MeV.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{efter}=234{,}043601+4{,}002602=238{,}046203\\ \\mathrm u\\]\\[\\Delta m=238{,}050788-238{,}046203=0{,}004585\\ \\mathrm u\\]\\[E=0{,}004585\\cdot931{,}5=4{,}27\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det frigörs \\(4{,}27\\ \\mathrm{MeV}\\).</p></div>",
-    "ledtrad": "<p>Använd \\(\\Delta m=m_{före}-(m_{dotter}+m_\\alpha)\\).</p>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En kärna alfasönderfaller. Atommassorna före och efter är 238,050788 u respektive 234,043601 u och 4,002602 u. Bestäm frigjord energi i MeV. 1 u motsvarar 931,5 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m_{före}=238{,}050788\\ \\mathrm u\\]</p><p>\\[m_{efter}=238{,}046203\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00458500000002\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx4{,}27\\ \\mathrm{MeV}\\]</p></div></p></div>",
+    "ledtrad": "<p>Summera massorna före och efter reaktionen. Massminskningen motsvarar den frigjorda energin.</p>",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.271,
-    "tolerans": 0.0438,
+    "rättSvar": 4.270927500018672,
+    "tolerans": 0.10677318750046681,
     "miniräknare": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
@@ -153640,36 +154501,98 @@ window.BANK = [
     "familjNyckel": "karnreaktioner__alfasonderfall",
     "självrättning": true,
     "geogebra": false,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "KG-FY1-ALFA-04",
     "familj": "Alfasönderfall",
-    "niva": "A",
-    "poang": "0/1/2",
-    "typ": "sönderfallsserie med alfa och beta-minus",
-    "t": "<p>Uran-238 omvandlas till bly-206 genom en serie som bara innehåller alfa- och beta-minus-sönderfall. Bestäm antalet av varje typ. Uran har atomnummer 92 och bly 82.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[238-4n_\\alpha=206\\Rightarrow n_\\alpha=8\\]\\[92-2\\cdot8+n_{\\beta^-}=82\\Rightarrow n_{\\beta^-}=6\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det krävs 8 alfasönderfall och 6 beta-minus-sönderfall.</p></div>",
-    "ledtrad": "<p>Börja med masstalen; beta-minus ändrar inte A.</p>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>a) Uran-238 med atomnummer 92 blir bly-206 med atomnummer 82 genom alfa- och beta-minus-sönderfall. Bestäm antalet alfa och antalet beta-minus, i den ordningen.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[238-4n_\\alpha=206\\]</p><p>\\[n_\\alpha=8\\]</p><p>\\[92-2\\cdot8+n_{\\beta^-}=82\\]</p><p>\\[n_{\\beta^-}=6\\]</p></div></div>",
+    "ledtrad": "<p>Använd först masstalen, sedan atomnumren.</p>",
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "kap": 9,
     "omr": "karnreaktioner",
     "familjNyckel": "karnreaktioner__alfasonderfall",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        8,
+        6
+      ]
+    ],
+    "tolerans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "självrättning": [
+      true
+    ],
     "miniräknare": true,
     "geogebra": false,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false,
+    "spelIntro": "",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Uran-238 med atomnummer 92 blir bly-206 med atomnummer 82 genom alfa- och beta-minus-sönderfall. Bestäm antalet alfa och antalet beta-minus, i den ordningen.",
+        "s": "<div class=\"facit-v2\"><p>\\[238-4n_\\alpha=206\\]</p><p>\\[n_\\alpha=8\\]</p><p>\\[92-2\\cdot8+n_{\\beta^-}=82\\]</p><p>\\[n_{\\beta^-}=6\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          8,
+          6
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Använd först masstalen, sedan atomnumren.</p>",
+        "t": "<p>Uran-238 med atomnummer 92 blir bly-206 med atomnummer 82 genom alfa- och beta-minus-sönderfall. Bestäm antalet alfa och antalet beta-minus, i den ordningen.</p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Alfa",
+          "Beta-minus"
+        ],
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "svarFormat": [
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": "KG-FY1-BM-01",
@@ -188522,8 +189445,8 @@ window.BANK = [
     "rättSvar": 4,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Summan av masstalen ska vara densamma före och efter.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -188537,7 +189460,7 @@ window.BANK = [
     "niva": "E",
     "typ": "atomnummer i Rutherfords reaktion",
     "poang": "(1/0/0)",
-    "t": "<p>Den första konstgjorda kärnreaktionen genomfördes av Rutherford 1919: ¹⁴₇N + ⁴₂He → ¹⁷₈O + X.</p><p>Vilket atomnummer har partikeln X?</p>",
+    "t": "<p>En kärnreaktion är ¹⁴₇N + ⁴₂He → ¹⁷₈O + X.</p><p>Vilket atomnummer har partikeln X?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningen, alltså summan av atomnumren, bevaras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[7+2=8+Z\\Rightarrow Z=1\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1. X är en proton, ¹₁H.</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
@@ -188547,8 +189470,8 @@ window.BANK = [
     "rättSvar": 1,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Summan av atomnumren ska vara densamma före och efter.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -188572,7 +189495,7 @@ window.BANK = [
     "rättSvar": 4,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Vilken sönderfallstyp ändrar masstalet? Börja med den.</p>",
+    "ledtrad": "<p>Bevara summan av masstalen och summan av atomnumren på var sida om pilen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,

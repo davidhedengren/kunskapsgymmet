@@ -3857,7 +3857,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-09-fy1-elektricitet-runda2";
+const BANK_VERSION="2026-10-10-fy1-coulomb-falt";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10438,7 +10438,9 @@ function delaSammansattEnhet(sym){
 // Härledda enheter jämförs i grundenheter, så att t.ex. Ns = kg·m/s och l = dm³.
 const HARLEDDA_ENHETER={
   N:{f:1e3,d:{g:1,m:1,s:-2}}, J:{f:1e3,d:{g:1,m:2,s:-2}}, W:{f:1e3,d:{g:1,m:2,s:-3}},
-  Pa:{f:1e3,d:{g:1,m:-1,s:-2}}, Hz:{f:1,d:{s:-1}}, l:{f:1e-3,d:{m:3}}
+  Pa:{f:1e3,d:{g:1,m:-1,s:-2}}, Hz:{f:1,d:{s:-1}}, l:{f:1e-3,d:{m:3}},
+  // C = A·s och V = J/C: bland annat N/C = V/m.
+  C:{f:1,d:{A:1,s:1}}, V:{f:1e3,d:{g:1,m:2,s:-3,A:-1}}
 };
 function expanderaEnhet(res){
   const ut={f:res.f,d:{}};

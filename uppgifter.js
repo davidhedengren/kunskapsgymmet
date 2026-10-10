@@ -78023,7 +78023,7 @@ window.BANK = [
     "typ": "fältstyrka från kraft och laddning",
     "poang": "(1/0/0)",
     "t": "<p>En positiv laddning på \\(2{,}0\\ \\mu\\mathrm C\\) påverkas av kraften \\(0{,}040\\ \\mathrm N\\). Bestäm fältstyrkan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrka är kraft per laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{F}{q}=\\frac{0{,}040}{2{,}0\\cdot10^{-6}}=2{,}0\\cdot10^4\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^4\\ \\mathrm{N/C}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Fältstyrkan är kraft per laddning. Omvandla laddningen till coulomb.</p><p>\\[E=\\frac{F}{|q|}=\\frac{0{,}040}{2{,}0\\cdot10^{-6}}=20000\\,\\mathrm{N/C}\\]</p><p><strong>Svar:</strong> \\(20000\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -78035,7 +78035,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Fältstyrkan beskriver hur stor kraft varje coulomb laddning påverkas av.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
     "traningsniva": 2,
@@ -78053,7 +78053,7 @@ window.BANK = [
     "typ": "kraft på laddning i elektriskt fält",
     "poang": "(1/0/0)",
     "t": "<p>En positiv laddning på \\(3{,}0\\ \\mu\\mathrm C\\) placeras i ett fält med styrkan \\(4000\\ \\mathrm{N/C}\\). Bestäm kraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften är laddningen gånger fältstyrkan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=qE=3{,}0\\cdot10^{-6}\\cdot4000=0{,}012\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\ \\mathrm N\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Laddningen är \\(3{,}0\\,\\mu\\mathrm C=3{,}0\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Multiplicera laddningens storlek med fältstyrkan:</p><p>\\[F=|q|E\\]</p><p>\\[F=3{,}0\\cdot10^{-6}\\cdot4000\\]</p><p>\\[F=0{,}012\\,\\mathrm N\\]</p><p><strong>Svar:</strong> 0,012 N.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -78065,7 +78065,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Använd sambandet mellan laddning, elektrisk kraft och fältstyrka.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 2,
@@ -79122,34 +79122,35 @@ window.BANK = [
     "id": "8.21",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna coulombkraft och undersöka hur den ändras med avståndet, ur text, sökt kraft",
-    "poang": "(2/1/0)",
-    "t": "<p>Två små kulor har laddningarna 4,0 nC och 6,0 nC och sitter 3,0 cm från varandra. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div>\n<ol><li>Är kraften attraherande eller repellerande?</li>\n<li>Hur stor är kraften mellan kulorna?</li>\n<li>Hur stor blir kraften om avståndet fördubblas till 6,0 cm?</li>\n<li>Formulera sambandet mellan kraft och avstånd i ord.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda laddningarna är positiva, så kraften är frånstötande.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid \\(r=0{,}030\\ \\mathrm m\\) är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(6{,}0\\cdot10^{-9})}{(0{,}030)^2}=2{,}40\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbelt avstånd ger en fjärdedel av kraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=\\frac{F}{4}=5{,}99\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombkraften är omvänt proportionell mot avståndets kvadrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\propto\\frac1{r^2}\\]</div></div><div class=\"facit-stycke\"><p>Till exempel ger tre gånger större avstånd en niondel så stor kraft.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är frånstötande: \\(0{,}240\\ \\mathrm{mN}\\) vid 3,0 cm och \\(0{,}060\\ \\mathrm{mN}\\) vid 6,0 cm.</p></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Två kulor har laddningarna +4,0 nC och +6,0 nC och är 3,0 cm från varandra.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+4,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+6,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">3,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Dras kulorna mot varandra eller stöter de bort varandra?</p><p>b) Hur stor är kraften mellan kulorna? Svara i mN.</p><p>c) Hur stor blir kraften om avståndet fördubblas? Svara i mN.</p><p>d) Beskriv med ord hur kraften ändras när avståndet ökar.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=4{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=6{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}030\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=24\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot24\\cdot10^{-18}}{0{,}030^2}\\]</p><p>\\[F=2{,}39733\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx0{,}24\\,\\mathrm{mN}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Dubbelt avstånd ger fyra gånger större nämnare i Coulombs lag.</p><p>\\[F_{\\mathrm{ny}}=\\frac{0{,}239733}{4}\\approx0{,}060\\,\\mathrm{mN}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Kraften blir mindre när avståndet ökar. Avståndet är i kvadrat i nämnaren. Därför ger dubbelt avstånd en fjärdedel så stor kraft och tredubbelt avstånd en niondel.</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      0.24,
-      0.06,
-      null
+      "Kulorna stöter bort varandra.",
+      0.23973333333333333,
+      0.05993333333333333,
+      "Dubbelt avstånd ger en fjärdedel så stor kraft."
     ],
     "tolerans": [
       null,
-      0.01,
-      0.0018,
+      0.004794666666666667,
+      0.0015,
       null
     ],
     "självrättning": [
-      false,
       true,
       true,
-      false
+      true,
+      true
     ],
     "svarFormat": [
       null,
@@ -79171,45 +79172,86 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Båda laddningarna är positiva, så kraften är frånstötande.</p>",
+    "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två små kulor har laddningarna 4,0 nC och 6,0 nC och sitter 3,0 cm från varandra. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+4,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div>",
+    "spelIntro": "<p>Två kulor har laddningarna +4,0 nC och +6,0 nC och är 3,0 cm från varandra.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+4,0 nC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+6,0 nC</text><path d=\"M100 34 V48 M400 34 V48 M100 41 H400\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"250\" y=\"26\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">3,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Är kraften attraherande eller repellerande?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda laddningarna är positiva, så kraften är frånstötande.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Båda laddningarna är positiva, så kraften är frånstötande.</p>",
-        "niva": "C"
+        "fraga": "Dras kulorna mot varandra eller stöter de bort varandra?",
+        "s": "<div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kulorna stöter bort varandra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kulorna stöter bort varandra.",
+            "ratt": true,
+            "kommentar": "Lika tecken ger bortstötning; olika tecken ger attraktion."
+          },
+          {
+            "txt": "Kulorna dras mot varandra.",
+            "ratt": false,
+            "kommentar": "Kontrollera laddningarnas tecken."
+          },
+          {
+            "txt": "Ingen kraft verkar mellan kulorna.",
+            "ratt": false,
+            "kommentar": "Laddade kulor påverkar varandra."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är kraften mellan kulorna?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid \\(r=0{,}030\\ \\mathrm m\\) är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(6{,}0\\cdot10^{-9})}{(0{,}030)^2}=2{,}40\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}40\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Båda laddningarna är positiva, så kraften är frånstötande.</p>",
-        "niva": "C"
+        "fraga": "Hur stor är kraften mellan kulorna? Svara i mN.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=4{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=6{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}030\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=24\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot24\\cdot10^{-18}}{0{,}030^2}\\]</p><p>\\[F=2{,}39733\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx0{,}24\\,\\mathrm{mN}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.23973333333333333,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mN",
+        "tolerans": 0.004794666666666667,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor blir kraften om avståndet fördubblas till 6,0 cm?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbelt avstånd ger en fjärdedel av kraften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=\\frac{F}{4}=5{,}99\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}99\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Båda laddningarna är positiva, så kraften är frånstötande.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "d",
-        "fraga": "Formulera sambandet mellan kraft och avstånd i ord.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombkraften är omvänt proportionell mot avståndets kvadrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F\\propto\\frac1{r^2}\\]</div></div><div class=\"facit-stycke\"><p>Till exempel ger tre gånger större avstånd en niondel så stor kraft.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Båda laddningarna är positiva, så kraften är frånstötande.</p>",
-        "niva": "C"
+        "fraga": "Hur stor blir kraften om avståndet fördubblas? Svara i mN.",
+        "s": "<div class=\"facit-v2\"><p>Dubbelt avstånd ger fyra gånger större nämnare i Coulombs lag.</p><p>\\[F_{\\mathrm{ny}}=\\frac{0{,}239733}{4}\\approx0{,}060\\,\\mathrm{mN}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.05993333333333333,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mN",
+        "tolerans": 0.0015,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "t": "<p>Kraften mellan två kulor är 0,239733 mN när avståndet är 3,0 cm. Avståndet ökas till 6,0 cm. Laddningarna ändras inte.</p><p>Hur stor blir kraften om avståndet fördubblas? Svara i mN.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
@@ -79328,46 +79370,47 @@ window.BANK = [
     "id": "8.23",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
+    "niva": "E",
     "typ": "bestämma kraftens riktning och storlek mellan två olika laddade kulor och tillämpa Newtons tredje lag, ur diagram, sökt kraft",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två laddade kulor. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"99.286 12.143 305.000 146.429\"><circle cx=\"140\" cy=\"90\" r=\"26\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"140\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"140\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₁ = 5,0 nC</text><circle cx=\"360\" cy=\"90\" r=\"26\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"360\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><text x=\"360\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₂ = &#8722;5,0 nC</text><line x1=\"140\" y1=\"40\" x2=\"360\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"360\" y1=\"35\" x2=\"360\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"166\" y1=\"35\" x2=\"166\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"334\" y1=\"35\" x2=\"334\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span>\n<ol><li>Är kraften mellan kulorna attraherande eller repellerande?</li>\n<li>Hur stor är kraften på den vänstra kulan?</li>\n<li>Hur stor är kraften på den högra kulan? Motivera.</li>\n<li>Vad händer med kraften om båda laddningarna fördubblas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningarna har olika tecken, så kraften är dragande och riktad mot den andra kulan.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(r=0{,}040\\ \\mathrm m\\) blir kraftens storlek</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(5{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}040)^2}=1{,}40\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den högra kulan påverkas av samma kraftstorlek, men i motsatt riktning.</p></div><div class=\"facit-stycke\"><p>Detta gäller enligt Newtons tredje lag, även om laddningarnas belopp inte hade varit lika.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om båda laddningarna fördubblas fyrdubblas produkten \\(q_1q_2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=4F=5{,}62\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är attraktiv och \\(0{,}140\\ \\mathrm{mN}\\) på vardera kulan. Dubbleras båda laddningarna blir den \\(0{,}562\\ \\mathrm{mN}\\).</p></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Den vänstra kulan har +5,0 nC och den högra −5,0 nC. Avståndet är 4,0 cm.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Laddade kulor med markerade avstånd\" height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"99.286 12.143 305.000 146.429\"><circle cx=\"140\" cy=\"90\" r=\"26\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"140\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"140\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₁ = 5,0 nC</text><circle cx=\"360\" cy=\"90\" r=\"26\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"360\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><text x=\"360\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₂ = &#8722;5,0 nC</text><line x1=\"140\" y1=\"40\" x2=\"360\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"360\" y1=\"35\" x2=\"360\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"166\" y1=\"35\" x2=\"166\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"334\" y1=\"35\" x2=\"334\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Dras kulorna mot varandra eller stöter de bort varandra?</p><p>b) Hur stor är kraften på den vänstra kulan? Svara i N.</p><p>c) Hur stor är kraften på den högra kulan? Svara i N. Förklara varför.</p><p>d) Vad händer med kraften om båda laddningarna fördubblas och avståndet är oförändrat?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Laddningarna har olika tecken och dras därför mot varandra.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=+5{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=-5{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}040\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=25\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot25\\cdot10^{-18}}{0{,}040^2}\\]</p><p>\\[F=1{,}4046875\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx1{,}4\\cdot10^{-4}\\,\\mathrm N\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Enligt Newtons tredje lag påverkar kulorna varandra med lika stora krafter i motsatta riktningar. Kraften på den högra är alltså också \\(1{,}4046875\\cdot10^{-4}\\,\\mathrm N\\).</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Coulombs lag innehåller produkten av laddningarna. När båda fördubblas blir produkten \\(2\\cdot2=4\\) gånger så stor. Kraften blir därför fyra gånger så stor.</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "procedur",
+      "begrepp",
       "resonemang"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      0.00014,
-      0.00014,
-      null
+      "Kulorna dras mot varandra.",
+      0.00014046875,
+      "Den är lika stor, enligt Newtons tredje lag.",
+      "Kraften blir fyra gånger så stor."
     ],
     "tolerans": [
       null,
-      4.2e-06,
-      4.2e-06,
+      2.809375e-06,
+      null,
       null
     ],
     "självrättning": [
-      false,
       true,
       true,
-      false
+      true,
+      true
     ],
     "svarFormat": [
       null,
       "numeriskt",
-      "numeriskt",
+      null,
       null
     ],
     "svarEnhet": [
       null,
       "N",
-      "N",
+      null,
       null
     ],
     "svarsstruktur": "ordnad",
@@ -79377,45 +79420,142 @@ window.BANK = [
       "c",
       "d"
     ],
-    "manuellKomplettering": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      false
+    ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Laddningarna har olika tecken, så kraften är dragande och riktad mot den andra kulan.</p>",
+    "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två laddade kulor. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"99.286 12.143 305.000 146.429\"><circle cx=\"140\" cy=\"90\" r=\"26\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"140\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"140\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₁ = 5,0 nC</text><circle cx=\"360\" cy=\"90\" r=\"26\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"360\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><text x=\"360\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₂ = &#8722;5,0 nC</text><line x1=\"140\" y1=\"40\" x2=\"360\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"360\" y1=\"35\" x2=\"360\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"166\" y1=\"35\" x2=\"166\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"334\" y1=\"35\" x2=\"334\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span>",
+    "spelIntro": "<p>Den vänstra kulan har +5,0 nC och den högra −5,0 nC. Avståndet är 4,0 cm.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Laddade kulor med markerade avstånd\" height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"99.286 12.143 305.000 146.429\"><circle cx=\"140\" cy=\"90\" r=\"26\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"140\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"140\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₁ = 5,0 nC</text><circle cx=\"360\" cy=\"90\" r=\"26\" fill=\"#E1E9F4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"360\" y=\"96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><text x=\"360\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">q₂ = &#8722;5,0 nC</text><line x1=\"140\" y1=\"40\" x2=\"360\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"360\" y1=\"35\" x2=\"360\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"166\" y1=\"35\" x2=\"166\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"334\" y1=\"35\" x2=\"334\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Är kraften mellan kulorna attraherande eller repellerande?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningarna har olika tecken, så kraften är dragande och riktad mot den andra kulan.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Laddningarna har olika tecken, så kraften är dragande och riktad mot den andra kulan.</p>",
-        "niva": "C"
+        "fraga": "Dras kulorna mot varandra eller stöter de bort varandra?",
+        "s": "<div class=\"facit-v2\"><p>Laddningarna har olika tecken och dras därför mot varandra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kulorna dras mot varandra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kulorna dras mot varandra.",
+            "ratt": true,
+            "kommentar": "Lika tecken ger bortstötning; olika tecken ger attraktion."
+          },
+          {
+            "txt": "Kulorna stöter bort varandra.",
+            "ratt": false,
+            "kommentar": "Kontrollera laddningarnas tecken."
+          },
+          {
+            "txt": "Ingen kraft verkar mellan kulorna.",
+            "ratt": false,
+            "kommentar": "Laddade kulor påverkar varandra."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är kraften på den vänstra kulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(r=0{,}040\\ \\mathrm m\\) blir kraftens storlek</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(5{,}0\\cdot10^{-9})(5{,}0\\cdot10^{-9})}{(0{,}040)^2}=1{,}40\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}40\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Laddningarna har olika tecken, så kraften är dragande och riktad mot den andra kulan.</p>",
-        "niva": "C"
+        "fraga": "Hur stor är kraften på den vänstra kulan? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=+5{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=-5{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}040\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=25\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot25\\cdot10^{-18}}{0{,}040^2}\\]</p><p>\\[F=1{,}4046875\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx1{,}4\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00014046875,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 2.809375e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är kraften på den högra kulan? Motivera.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den högra kulan påverkas av samma kraftstorlek, men i motsatt riktning.</p></div><div class=\"facit-stycke\"><p>Detta gäller enligt Newtons tredje lag, även om laddningarnas belopp inte hade varit lika.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Laddningarna har olika tecken, så kraften är dragande och riktad mot den andra kulan.</p>",
-        "niva": "C"
+        "fraga": "Vilket påstående om kraften på den högra kulan stämmer?",
+        "s": "<div class=\"facit-v2\"><p>Enligt Newtons tredje lag påverkar kulorna varandra med lika stora krafter i motsatta riktningar. Kraften på den högra är alltså också \\(1{,}4046875\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den är lika stor, enligt Newtons tredje lag.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "t": "<p>Två laddade kulor dras mot varandra. Kraften på den vänstra är 1,4046875·10⁻⁴ N.</p><p>Vilket påstående om kraften på den högra kulan stämmer?</p>",
+        "alternativ": [
+          {
+            "txt": "Den är lika stor, enligt Newtons tredje lag.",
+            "ratt": true,
+            "kommentar": "Kulorna påverkar varandra med lika stora krafter i motsatta riktningar."
+          },
+          {
+            "txt": "Den är större eftersom kulan är negativ.",
+            "ratt": false,
+            "kommentar": "Laddningstecknet bestämmer inte vilken kula som påverkas av störst kraft."
+          },
+          {
+            "txt": "Den är noll eftersom krafterna tar ut varandra.",
+            "ratt": false,
+            "kommentar": "Krafterna verkar på olika kulor. Varje kula påverkas av en kraft."
+          }
+        ],
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vad händer med kraften om båda laddningarna fördubblas?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om båda laddningarna fördubblas fyrdubblas produkten \\(q_1q_2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=4F=5{,}62\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}62\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Laddningarna har olika tecken, så kraften är dragande och riktad mot den andra kulan.</p>",
-        "niva": "C"
+        "fraga": "Vad händer med kraften om båda laddningarna fördubblas och avståndet är oförändrat?",
+        "s": "<div class=\"facit-v2\"><p>Coulombs lag innehåller produkten av laddningarna. När båda fördubblas blir produkten \\(2\\cdot2=4\\) gånger så stor. Kraften blir därför fyra gånger så stor.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kraften blir fyra gånger så stor.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kraften blir fyra gånger så stor.",
+            "ratt": true,
+            "kommentar": "Produkten av laddningarna multipliceras med 2·2 = 4."
+          },
+          {
+            "txt": "Kraften blir två gånger så stor.",
+            "ratt": false,
+            "kommentar": "Båda laddningarna förändras, inte bara en."
+          },
+          {
+            "txt": "Kraften blir oförändrad.",
+            "ratt": false,
+            "kommentar": "Laddningarnas produkt ändras även om avståndet inte gör det."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
@@ -80028,7 +80168,7 @@ window.BANK = [
     "typ": "laddning från kraft och fältstyrka",
     "poang": "(1/0/0)",
     "t": "<p>En laddning påverkas av kraften \\(0{,}028\\ \\mathrm N\\) i ett fält med styrkan \\(6500\\ \\mathrm{N/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut laddningen ur sambandet mellan kraft och fältstyrka.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\frac{F}{E}=\\frac{0{,}028}{6500}\\approx4{,}3\\cdot10^{-6}\\ \\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\ \\mu\\mathrm C\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Bestäm laddningens storlek genom att dela kraften med fältstyrkan:</p><p>\\[|q|=\\frac{F}{E}=\\frac{0{,}028}{6500}\\approx4{,}31\\cdot10^{-6}\\,\\mathrm C\\]</p><p>En mikrocoulomb är \\(10^{-6}\\,\\mathrm C\\).</p><p><strong>Svar:</strong> cirka 4,3 µC.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -80040,7 +80180,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilka storheter är givna och vilket samband kopplar ihop dem?</p>",
+    "ledtrad": "<p>Lös ut laddningens storlek ur sambandet mellan kraft och fältstyrka.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µC",
     "traningsniva": 2,
@@ -80188,19 +80328,19 @@ window.BANK = [
     "typ": "fältstyrka från kraft och laddning",
     "poang": "(1/0/0)",
     "t": "<p>En positiv testladdning på \\(2{,}5\\,\\mu\\mathrm C\\) påverkas av kraften \\(0{,}075\\,\\mathrm N\\). Bestäm fältstyrkan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd definitionen \\(E=F/q\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{0{,}075}{2{,}5\\cdot10^{-6}}=30000\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30000\\,\\mathrm{N/C}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Fältstyrkan är kraft per laddning. Omvandla laddningen till coulomb.</p><p>\\[E=\\frac{F}{|q|}=\\frac{0{,}075}{2{,}5\\cdot10^{-6}}=30000\\,\\mathrm{N/C}\\]</p><p><strong>Svar:</strong> \\(30000\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 29999.999999999996,
+    "rättSvar": 30000,
     "tolerans": 539.9999999999999,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Fältstyrkan beskriver hur stor kraft varje coulomb laddning påverkas av.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
     "traningsniva": 2,
@@ -81892,8 +82032,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft på elektron i homogent fält",
     "poang": "(1/0/0)",
-    "t": "<p>En elektron befinner sig i ett elektriskt fält med styrkan \\(2500\\,\\mathrm{N/C}\\). Bestäm den elektriska kraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens belopp är \\(|q|E\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=1{,}602\\cdot10^{-19}\\cdot2500=4{,}005\\cdot10^{-16}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}005\\cdot10^{-16}\\,\\mathrm{N}\\).</p></div>",
+    "t": "<p>En elektron befinner sig i ett elektriskt fält med styrkan \\(2500\\,\\mathrm{N/C}\\). Bestäm den elektriska kraftens storlek.</p><p>Laddningens storlek är \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Kraftens storlek är laddningens storlek gånger fältstyrkan:</p><p>\\[F=eE\\]</p><p>\\[F=1{,}602\\cdot10^{-19}\\cdot2500\\]</p><p>\\[F=4{,}005\\cdot10^{-16}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(4{,}0\\cdot10^{-16}\\,\\mathrm N\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -81905,7 +82045,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd elementarladdningens belopp. Minustecknet påverkar riktningen, inte beloppet.</p>",
+    "ledtrad": "<p>Använd laddningens storlek när du beräknar kraftens storlek.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 2,
@@ -81922,8 +82062,8 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma laddning från kraft och fält",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning påverkas av kraften \\(0{,}050\\,\\mathrm N\\) i ett homogent fält med styrkan \\(16\\,\\mathrm{kN/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut laddningen ur \\(F=qE\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\frac{0{,}050}{16\\cdot10^3}\\approx3{,}1\\cdot10^{-6}\\ \\mathrm C=3{,}1\\ \\mu\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1\\,\\mu\\mathrm C\\).</p></div>",
+    "t": "<p>En laddning påverkas av kraften \\(0{,}050\\,\\mathrm N\\) i ett elektriskt fält med styrkan \\(16\\,\\mathrm{kN/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla först fältstyrkan: \\(16\\,\\mathrm{kN/C}=16000\\,\\mathrm{N/C}\\).</p><p>Dela kraften med fältstyrkan:</p><p>\\[|q|=\\frac{0{,}050}{16000}=3{,}125\\cdot10^{-6}\\,\\mathrm C\\]</p><p><strong>Svar:</strong> cirka 3,1 µC.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -81981,8 +82121,8 @@ window.BANK = [
     "niva": "E",
     "typ": "potentialskillnad i homogent elektriskt fält",
     "poang": "(1/0/0)",
-    "t": "<p>Ett homogent elektriskt fält har styrkan \\(3500\\,\\mathrm{V/m}\\). Två punkter ligger \\(8{,}0\\,\\mathrm{cm}\\) från varandra i fältets riktning. Bestäm potentialskillnadens storlek.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 3500 V/m</text><rect x=\"90\" y=\"85\" width=\"240\" height=\"56\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"120\" cy=\"102\" r=\"5\" fill=\"#24262b\"/><text x=\"120\" y=\"92\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><circle cx=\"300\" cy=\"102\" r=\"5\" fill=\"#24262b\"/><text x=\"300\" y=\"92\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">B</text><line x1=\"120.0\" y1=\"128\" x2=\"300.0\" y2=\"128\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"121\" x2=\"120.0\" y2=\"135\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"121\" x2=\"300.0\" y2=\"135\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"121\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">8,0 cm</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För ett homogent fält längs fältriktningen gäller \\(|U|=Ed\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=3500\\cdot0{,}080=280\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(280\\,\\mathrm{V}\\).</p></div>",
+    "t": "<p>Ett elektriskt fält har samma styrka överallt: \\(3500\\,\\mathrm{V/m}\\). Två punkter ligger \\(8{,}0\\,\\mathrm{cm}\\) från varandra i fältets riktning. Bestäm potentialskillnadens storlek.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 3500 V/m</text><rect x=\"90\" y=\"85\" width=\"240\" height=\"56\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"120\" cy=\"102\" r=\"5\" fill=\"#24262b\"/><text x=\"120\" y=\"92\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><circle cx=\"300\" cy=\"102\" r=\"5\" fill=\"#24262b\"/><text x=\"300\" y=\"92\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">B</text><line x1=\"120.0\" y1=\"128\" x2=\"300.0\" y2=\"128\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"121\" x2=\"120.0\" y2=\"135\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"121\" x2=\"300.0\" y2=\"135\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"121\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">8,0 cm</text></svg></div>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla avståndet: \\(8{,}0\\,\\mathrm{cm}=0{,}080\\,\\mathrm m\\).</p><p>Fältet är lika starkt hela vägen mellan punkterna. Spänningens storlek blir därför:</p><p>\\[U=Ed=3500\\cdot0{,}080=280\\,\\mathrm V\\]</p><p><strong>Svar:</strong> 280 V.</p></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
@@ -81994,7 +82134,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Vilket samband kopplar ihop spänning, fältstyrka och avstånd längs fältet?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "traningsniva": 2,
@@ -82011,8 +82151,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft på proton i elektriskt fält",
     "poang": "(1/0/0)",
-    "t": "<p>En proton befinner sig i ett fält med styrkan \\(2{,}5\\cdot10^6\\,\\mathrm{N/C}\\). Bestäm kraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Protonens laddningsbelopp är elementarladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=eE=1{,}602\\cdot10^{-19}\\cdot2{,}5\\cdot10^6=4{,}005\\cdot10^{-13}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}005\\cdot10^{-13}\\,\\mathrm{N}\\).</p></div>",
+    "t": "<p>En proton befinner sig i ett fält med styrkan \\(2{,}5\\cdot10^6\\,\\mathrm{N/C}\\). Bestäm kraftens storlek.</p><p>Laddningens storlek är \\(e=1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Kraftens storlek är laddningens storlek gånger fältstyrkan:</p><p>\\[F=eE\\]</p><p>\\[F=1{,}602\\cdot10^{-19}\\cdot2{,}5\\cdot10^6\\]</p><p>\\[F=4{,}005\\cdot10^{-13}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(4{,}0\\cdot10^{-13}\\,\\mathrm N\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -82024,7 +82164,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Använd laddningens storlek när du beräknar kraftens storlek.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 2,
@@ -82899,24 +83039,25 @@ window.BANK = [
     "omr": "coulomb",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar två laddade kulor.</p><span class=\"fig bred\"><svg height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">6,0 nC</text></svg></span>\n<ol><li>Är kraften attraherande eller repellerande?</li><li>Hur stor är kraften?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda kulorna är positiva, så kraften är frånstötande.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Avståndet är</p><div class=\"facit-matte\">\\[5{,}0 c m=0{,}050\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombs lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(6{,}0\\cdot10^{-9})}{(0{,}050)^2}=8{,}63\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är frånstötande och har storleken \\(8{,}6\\cdot10^{-5}\\ \\mathrm N=86\\ \\mu\\mathrm N\\).</p></div>",
+    "t": "<p>Två kulor har laddningarna +4,0 nC och +6,0 nC. Avståndet mellan dem är 5,0 cm.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Laddade kulor med markerade avstånd\" height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">6,0 nC</text></svg></span><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Dras kulorna mot varandra eller stöter de bort varandra?</p><p>b) Hur stor är kraften mellan kulorna? Svara i N.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=4{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=6{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}050\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=24\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot24\\cdot10^{-18}}{0{,}050^2}\\]</p><p>\\[F=8{,}6304\\cdot10^{-5}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx8{,}6\\cdot10^{-5}\\,\\mathrm N\\).</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      8.630000000000001e-05
+      "Kulorna stöter bort varandra.",
+      8.630399999999998e-05
     ],
     "tolerans": [
       null,
-      2.589e-06
+      1.7260799999999995e-06
     ],
     "självrättning": [
-      false,
+      true,
       true
     ],
     "svarFormat": [
@@ -82933,25 +83074,60 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Båda kulorna är positiva, så kraften är frånstötande. Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+    "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två laddade kulor.</p><span class=\"fig bred\"><svg height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">6,0 nC</text></svg></span>",
+    "spelIntro": "<p>Två kulor har laddningarna +4,0 nC och +6,0 nC. Avståndet mellan dem är 5,0 cm.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Laddade kulor med markerade avstånd\" height=\"286\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"123.543 50.700 212.914 98.107\"><circle cx=\"153.33333333333334\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"153.33333333333334\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"153.33333333333334\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 nC</text><line x1=\"153.333\" y1=\"137\" x2=\"306.667\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"153.333\" y1=\"132\" x2=\"153.333\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"306.667\" y1=\"132\" x2=\"306.667\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"230\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><circle cx=\"306.6666666666667\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"306.6666666666667\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"306.6666666666667\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">6,0 nC</text></svg></span><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Är kraften attraherande eller repellerande?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda kulorna är positiva, så kraften är frånstötande.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Båda kulorna är positiva, så kraften är frånstötande. Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+        "fraga": "Dras kulorna mot varandra eller stöter de bort varandra?",
+        "s": "<div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kulorna stöter bort varandra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kulorna stöter bort varandra.",
+            "ratt": true,
+            "kommentar": "Lika tecken ger bortstötning; olika tecken ger attraktion."
+          },
+          {
+            "txt": "Kulorna dras mot varandra.",
+            "ratt": false,
+            "kommentar": "Kontrollera laddningarnas tecken."
+          },
+          {
+            "txt": "Ingen kraft verkar mellan kulorna.",
+            "ratt": false,
+            "kommentar": "Laddade kulor påverkar varandra."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är kraften?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Avståndet är</p><div class=\"facit-matte\">\\[5{,}0 c m=0{,}050\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombs lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=8{,}99\\cdot10^9\\frac{(4{,}0\\cdot10^{-9})(6{,}0\\cdot10^{-9})}{(0{,}050)^2}=8{,}63\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}63\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Båda kulorna är positiva, så kraften är frånstötande. Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+        "fraga": "Hur stor är kraften mellan kulorna? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=4{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=6{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}050\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=24\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot24\\cdot10^{-18}}{0{,}050^2}\\]</p><p>\\[F=8{,}6304\\cdot10^{-5}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx8{,}6\\cdot10^{-5}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.630399999999998e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 1.7260799999999995e-06,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
@@ -82959,7 +83135,7 @@ window.BANK = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
@@ -83208,8 +83384,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft på laddning i homogent fält",
     "poang": "(1/0/0)",
-    "t": "<p>En laddning på \\(6{,}0\\,\\mathrm{nC}\\) placeras i ett homogent fält med styrkan \\(1{,}2\\cdot10^5\\,\\mathrm{N/C}\\). Bestäm kraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning i ett elektriskt fält är \\(F=qE\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=6{,}0\\cdot10^{-9}\\cdot1{,}2\\cdot10^5=7{,}2\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\cdot10^{-4}\\,\\mathrm{N}\\).</p></div>",
+    "t": "<p>En laddning på \\(6{,}0\\,\\mathrm{nC}\\) placeras i ett elektriskt fält med styrkan \\(1{,}2\\cdot10^5\\,\\mathrm{N/C}\\). Bestäm kraftens storlek.</p>",
+    "s": "<div class=\"facit-v2\"><p>Laddningens storlek är \\(6{,}0\\,\\mathrm{nC}=6{,}0\\cdot10^{-9}\\,\\mathrm C\\).</p><p>Multiplicera laddningens storlek med fältstyrkan:</p><p>\\[F=|q|E\\]</p><p>\\[F=6{,}0\\cdot10^{-9}\\cdot1{,}2\\cdot10^5\\]</p><p>\\[F=7{,}2\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(7{,}2\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -83221,7 +83397,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Omvandla nC till C och använd sambandet mellan laddning, kraft och fältstyrka.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 2,
@@ -84026,59 +84202,150 @@ window.BANK = [
   {
     "id": "8.67",
     "kap": 8,
-    "omr": "coulomb",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två likadana metallkulor har laddningarna +12 µC och −4,0 µC. De förs ihop så att de nuddar varandra och skiljs sedan åt igen.</p>\n<ol><li>Vilken laddning har vardera kula efteråt?</li>\n<li>Har någon laddning försvunnit? Motivera.</li>\n<li>Blir kraften mellan dem attraherande eller repellerande efteråt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den totala laddningen bevaras och fördelas lika mellan två likadana kulor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{tot}}=12-4{,}0=8{,}0\\ \\mu\\mathrm C\\]</div></div><div class=\"facit-stycke\"><p>\\[Q'=\\frac{8{,}0}{2}=+4{,}0\\ \\mu\\mathrm C\\]</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ingen laddning har försvunnit.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektroner har bara flyttats mellan kulorna tills de fick samma potential.</p></div><div class=\"facit-stycke\"><p>Totalladdningen är +8,0 µC både före och efter.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efteråt är båda kulorna positivt laddade och stöter därför bort varandra.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vardera kulan får \\(+4{,}0\\ \\mu\\mathrm C\\); laddningen bevaras och kraften blir frånstötande.</p></div>",
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två lika stora metallkulor har laddningarna +12 µC och −4,0 µC. De nuddar varandra och skiljs sedan åt.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+12 µC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">−4,0 µC</text></svg></div><p>a) Vilken laddning får varje kula? Svara i µC.</p><p>b) Har någon laddning försvunnit? Förklara.</p><p>c) Dras kulorna mot varandra eller stöter de bort varandra efter kontakten?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Lägg ihop laddningarna med sina tecken:</p><p>\\[Q_{\\mathrm{tot}}=12-4{,}0=8{,}0\\,\\mu\\mathrm C\\]</p><p>De lika stora metallkulorna delar på laddningen:</p><p>\\[Q=\\frac{8{,}0}{2}=+4{,}0\\,\\mu\\mathrm C\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Ingen laddning har försvunnit. Elektroner har flyttats mellan kulorna. Den totala laddningen är fortfarande \\(+8{,}0\\,\\mu\\mathrm C\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div></div>",
     "familj": "Ledare, influens och laddningsutjämning",
     "formaga": [
       "procedur",
+      "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "laddning__laddning_och_antal_elektroner",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Den totala laddningen bevaras och fördelas lika mellan två likadana kulor.</p>",
+    "familjNyckel": "laddning__elektrisk_laddning_och_influens",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      "Nej, elektroner har flyttats mellan kulorna.",
+      "Kulorna stöter bort varandra."
+    ],
+    "tolerans": [
+      0.051,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två likadana metallkulor har laddningarna +12 µC och −4,0 µC. De förs ihop så att de nuddar varandra och skiljs sedan åt igen.</p>",
+    "spelIntro": "<p>Två lika stora metallkulor har laddningarna +12 µC och −4,0 µC. De nuddar varandra och skiljs sedan åt.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar och deras placering\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"86\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"100\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">+12 µC</text><circle cx=\"400\" cy=\"86\" r=\"22\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"400\" y=\"94\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"400\" y=\"142\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">−4,0 µC</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken laddning har vardera kula efteråt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den totala laddningen bevaras och fördelas lika mellan två likadana kulor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q_{\\mathrm{tot}}=12-4{,}0=8{,}0\\ \\mu\\mathrm C\\]</div></div><div class=\"facit-stycke\"><p>\\[Q'=\\frac{8{,}0}{2}=+4{,}0\\ \\mu\\mathrm C\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+4{,}0\\ \\mu\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Den totala laddningen bevaras och fördelas lika mellan två likadana kulor.</p>",
+        "fraga": "Vilken laddning får varje kula? Svara i µC.",
+        "s": "<div class=\"facit-v2\"><p>Lägg ihop laddningarna med sina tecken:</p><p>\\[Q_{\\mathrm{tot}}=12-4{,}0=8{,}0\\,\\mu\\mathrm C\\]</p><p>De lika stora metallkulorna delar på laddningen:</p><p>\\[Q=\\frac{8{,}0}{2}=+4{,}0\\,\\mu\\mathrm C\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µC",
+        "tolerans": 0.051,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Har någon laddning försvunnit? Motivera.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ingen laddning har försvunnit.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektroner har bara flyttats mellan kulorna tills de fick samma potential.</p></div><div class=\"facit-stycke\"><p>Totalladdningen är +8,0 µC både före och efter.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den totala laddningen bevaras och fördelas lika mellan två likadana kulor.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Har någon laddning försvunnit när kulorna nuddar varandra?",
+        "s": "<div class=\"facit-v2\"><p>Ingen laddning har försvunnit. Elektroner har flyttats mellan kulorna. Den totala laddningen är fortfarande \\(+8{,}0\\,\\mu\\mathrm C\\).</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, elektroner har flyttats mellan kulorna.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Nej, elektroner har flyttats mellan kulorna.",
+            "ratt": true,
+            "kommentar": "Laddning bevaras. Den har omfördelats mellan kulorna."
+          },
+          {
+            "txt": "Ja, den negativa laddningen har försvunnit.",
+            "ratt": false,
+            "kommentar": "Laddningstecknen adderas, men laddning förstörs inte."
+          },
+          {
+            "txt": "Ja, båda kulorna blir alltid oladdade.",
+            "ratt": false,
+            "kommentar": "Kulorna blir bara båda oladdade om deras totala laddning är noll."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Blir kraften mellan dem attraherande eller repellerande efteråt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efteråt är båda kulorna positivt laddade och stöter därför bort varandra.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den totala laddningen bevaras och fördelas lika mellan två likadana kulor.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Dras kulorna mot varandra eller stöter de bort varandra?",
+        "s": "<div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kulorna stöter bort varandra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kulorna stöter bort varandra.",
+            "ratt": true,
+            "kommentar": "Lika tecken ger bortstötning; olika tecken ger attraktion."
+          },
+          {
+            "txt": "Kulorna dras mot varandra.",
+            "ratt": false,
+            "kommentar": "Kontrollera laddningarnas tecken."
+          },
+          {
+            "txt": "Ingen kraft verkar mellan kulorna.",
+            "ratt": false,
+            "kommentar": "Laddade kulor påverkar varandra."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "t": "<p>Två metallkulor har vardera laddningen +4,0 µC.</p><p>Dras kulorna mot varandra eller stöter de bort varandra?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Laddning och antal elektroner"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      "µC",
+      null,
+      null
     ]
   },
   {
@@ -84118,31 +84385,107 @@ window.BANK = [
     "kap": 8,
     "omr": "coulomb",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Tre laddade kulor sitter på en rak linje. A har +6,0 nC, B har +6,0 nC och sitter 5,0 cm till höger om A. C har −6,0 nC och sitter 5,0 cm till höger om B.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><text x=\"70\" y=\"66\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">A</text><circle cx=\"230.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"223.0\" y1=\"92\" x2=\"237.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"230.0\" y1=\"85\" x2=\"230.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"230\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><text x=\"230\" y=\"66\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">B</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−6,0 nC</text><text x=\"390\" y=\"66\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">C</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 cm</text><line x1=\"230.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"310\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 cm</text></svg></div>\n<p>Bestäm den resulterande kraften på kulan B, till storlek och riktning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">A och B är positiva, så A stöter bort B åt höger.</p><div class=\"facit-matte\">\\[F_{AB}=k\\frac{(6{,}0\\cdot10^{-9})^2}{(0{,}050)^2}=1{,}2946\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">B är positiv och C negativ, så C drar B åt höger.</p><p class=\"facit-metod\">Samma laddningsbelopp och avstånd ger samma kraft.</p><div class=\"facit-matte\">\\[F_{CB}=1{,}2946\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Krafterna har samma riktning och ska adderas.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=F_{AB}+F_{CB}=2{,}589\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den resulterande kraften på B är \\(2{,}6\\cdot10^{-4}\\ \\mathrm N=259\\ \\mu\\mathrm N\\) åt höger.</p></div>",
+    "poang": "(1/1/0)",
+    "t": "<p>Tre kulor står på rad: A har +6,0 nC, B har +6,0 nC och C har −6,0 nC. Avstånden A–B och B–C är båda 5,0 cm.</p><div class=\"fig smal\"><svg width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre laddningar A, B och C med avstånden AB och BC markerade\"><text x=\"75\" y=\"70\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">A</text><circle cx=\"75\" cy=\"100\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"75\" y=\"108\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"75\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+6,0 nC</text><text x=\"250\" y=\"70\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">B</text><circle cx=\"250\" cy=\"100\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"250\" y=\"108\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"250\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+6,0 nC</text><text x=\"425\" y=\"70\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">C</text><circle cx=\"425\" cy=\"100\" r=\"22\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"425\" y=\"108\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"425\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">−6,0 nC</text><path d=\"M75 33 V47 M250 33 V47 M75 40 H250\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"162.5\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">5,0 cm</text><path d=\"M250 33 V47 M425 33 V47 M250 40 H425\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"337.5\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">5,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Åt vilket håll verkar summan av krafterna på B?</p><p>b) Hur stor är summan av krafterna på B? Svara i µN.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>A stöter bort B åt höger eftersom de har samma laddningstecken. C drar B åt höger eftersom de har olika tecken. Båda krafterna verkar alltså åt höger.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Varje granne ger lika stor kraft eftersom laddningarnas storlek och avstånden är lika.</p><p>\\[F_{AB}=F_{CB}=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})^2}{0{,}050^2}\\]</p><p>\\[F_{AB}=F_{CB}=1{,}29456\\cdot10^{-4}\\,\\mathrm N\\]</p><p>Båda krafterna verkar åt höger. Lägg därför ihop dem:</p><p>\\[F_{\\mathrm{summa}}=2F_{AB}=2{,}58912\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(260\\,\\mu\\mathrm N\\).</p></div></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "numeriskt",
-    "rättSvar": 259,
-    "tolerans": 3.885,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "µN",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Åt höger.",
+      258.912
+    ],
+    "tolerans": [
+      null,
+      4
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "µN"
+    ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>A och B är positiva, så A stöter bort B åt höger. Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+    "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "spelIntro": "<p>Tre kulor står på rad: A har +6,0 nC, B har +6,0 nC och C har −6,0 nC. Avstånden A–B och B–C är båda 5,0 cm.</p><div class=\"fig smal\"><svg width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre laddningar A, B och C med avstånden AB och BC markerade\"><text x=\"75\" y=\"70\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">A</text><circle cx=\"75\" cy=\"100\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"75\" y=\"108\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"75\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+6,0 nC</text><text x=\"250\" y=\"70\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">B</text><circle cx=\"250\" cy=\"100\" r=\"22\" fill=\"#fce8e8\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"250\" y=\"108\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"250\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+6,0 nC</text><text x=\"425\" y=\"70\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">C</text><circle cx=\"425\" cy=\"100\" r=\"22\" fill=\"#e0edf9\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"425\" y=\"108\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"425\" y=\"151\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">−6,0 nC</text><path d=\"M75 33 V47 M250 33 V47 M75 40 H250\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"162.5\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">5,0 cm</text><path d=\"M250 33 V47 M425 33 V47 M250 40 H425\" fill=\"none\" stroke=\"#566f85\" stroke-width=\"1.5\"/><text x=\"337.5\" y=\"25\" text-anchor=\"middle\" font-size=\"20\" fill=\"#243747\">5,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Åt vilket håll verkar summan av krafterna på B?",
+        "s": "<div class=\"facit-v2\"><p>A stöter bort B åt höger eftersom de har samma laddningstecken. C drar B åt höger eftersom de har olika tecken. Båda krafterna verkar alltså åt höger.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Åt höger.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Åt höger.",
+            "ratt": true,
+            "kommentar": "A stöter B åt höger och C drar B åt höger."
+          },
+          {
+            "txt": "Åt vänster.",
+            "ratt": false,
+            "kommentar": "Undersök kraften från A och från C var för sig."
+          },
+          {
+            "txt": "Summan är noll.",
+            "ratt": false,
+            "kommentar": "Krafterna har samma riktning, så de tar inte ut varandra."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är summan av krafterna på B? Svara i µN.",
+        "s": "<div class=\"facit-v2\"><p>Varje granne ger lika stor kraft eftersom laddningarnas storlek och avstånden är lika.</p><p>\\[F_{AB}=F_{CB}=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})^2}{0{,}050^2}\\]</p><p>\\[F_{AB}=F_{CB}=1{,}29456\\cdot10^{-4}\\,\\mathrm N\\]</p><p>Båda krafterna verkar åt höger. Lägg därför ihop dem:</p><p>\\[F_{\\mathrm{summa}}=2F_{AB}=2{,}58912\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(260\\,\\mu\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 258.912,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µN",
+        "tolerans": 4,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "arbetsinsats": 2
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.69",
@@ -84266,26 +84609,26 @@ window.BANK = [
     "id": "8.70",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två laddade partiklar påverkar varandra med den attraktiva elektriska kraften 4,5 mN. Den ena partikeln har laddningen 3,0 nC och den andra −4,0 nC.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−4,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">r = ?</text></svg></div>\n<p>Bestäm avståndet mellan de båda partiklarna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd laddningsbeloppen i Coulombs lag och lös ut avståndet.</p><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}\\Rightarrow r=\\sqrt{\\frac{k|q_1q_2|}{F}}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in SI-enheterna.</p><div class=\"facit-matte\">\\[r=\\sqrt{\\frac{(8{,}99\\cdot10^9)(3{,}0\\cdot10^{-9})(4{,}0\\cdot10^{-9})}{4{,}5\\cdot10^{-3}}}=4{,}90\\cdot10^{-3}\\ \\mathrm m\\]</div><p>Det motsatta tecknet förklarar att kraften är attraktiv men påverkar inte beräkningen av storleken.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är \\(4{,}9\\ \\mathrm{mm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Två partiklar har laddningarna +3,0 nC och −4,0 nC. Kraften mellan dem är 4,5 mN.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−4,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">r = ?</text></svg></div><p>Hur långt är det mellan partiklarna? Svara i mm.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd laddningarnas storlek och omvandla kraften: \\(F=4{,}5\\cdot10^{-3}\\,\\mathrm N\\).</p><p>Lös ut avståndet ur Coulombs lag:</p><p>\\[r=\\sqrt{\\frac{k|q_1q_2|}{F}}\\]</p><p>\\[r=\\sqrt{\\frac{8{,}99\\cdot10^9\\cdot12\\cdot10^{-18}}{4{,}5\\cdot10^{-3}}}\\]</p><p><strong>Svar:</strong> \\(r\\approx0{,}00490\\,\\mathrm m=4{,}9\\,\\mathrm{mm}\\).</p></div>",
     "familj": "Coulombs lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.9,
+    "rättSvar": 4.896257073860943,
     "tolerans": 0.0735,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mm",
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Använd laddningsbeloppen i Coulombs lag och lös ut avståndet.</p>",
+    "ledtrad": "<p>Vilken storhet behöver du lösa ut ur Coulombs lag?</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "laddning",
@@ -84329,26 +84672,27 @@ window.BANK = [
     "id": "8.71",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar tre laddningar på en rak linje.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text></svg></span>\n<ol><li>Åt vilket håll dras den mittersta kulan av vardera grannen?</li>\n<li>Hur stor blir den resulterande kraften på den mittersta kulan?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa mittkulan dras av båda positiva grannarna: den vänstra drar åt vänster och den högra åt höger.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningsbeloppen och avstånden är lika, så de två krafterna är lika stora.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_v=F_h=k\\frac{(5{,}0\\cdot10^{-9})(3{,}0\\cdot10^{-9})}{(0{,}040)^2}=84{,}3\\ \\mu\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Eftersom riktningarna är motsatta blir \\(F_{\\mathrm{res}}=F_h-F_v=0\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Grannarna drar åt var sitt håll med \\(84\\ \\mu\\mathrm N\\), så den resulterande kraften är \\(0\\ \\mathrm N\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Tre kulor står på rad. Den vänstra och den högra har laddningen +5,0 nC. Mittkulan har −3,0 nC och ligger 4,0 cm från var och en av grannarna.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Laddade kulor med markerade avstånd\" height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text></svg></span><p>a) Åt vilket håll drar grannarna mittkulan?</p><p>b) Hur stor är summan av krafterna på mittkulan? Svara i N.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Mittkulan är negativ och grannarna positiva. Den dras därför åt vänster av den vänstra grannen och åt höger av den högra.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Grannarna har lika stor laddning och ligger lika långt från mittkulan. De ger därför lika stora krafter i motsatta riktningar.</p><p>Krafterna tar ut varandra: \\(F_{\\mathrm{summa}}=F_{\\mathrm{höger}}-F_{\\mathrm{vänster}}=0\\,\\mathrm N\\).</p></div></div>",
     "familj": "Kraftresultant från flera laddningar",
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      "Den vänstra drar åt vänster och den högra åt höger.",
       0
     ],
     "tolerans": [
       null,
-      0.01
+      0
     ],
     "självrättning": [
-      false,
+      true,
       true
     ],
     "svarFormat": [
@@ -84357,7 +84701,7 @@ window.BANK = [
     ],
     "svarEnhet": [
       null,
-      null
+      "N"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -84365,31 +84709,68 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Den negativa mittkulan dras av båda positiva grannarna: den vänstra drar åt vänster och den högra åt höger.</p>",
+    "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar tre laddningar på en rak linje.</p><span class=\"fig bred\"><svg height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text></svg></span>",
+    "spelIntro": "<p>Tre kulor står på rad. Den vänstra och den högra har laddningen +5,0 nC. Mittkulan har −3,0 nC och ligger 4,0 cm från var och en av grannarna.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Laddade kulor med markerade avstånd\" height=\"205\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"81.486 50.700 297.029 98.107\"><circle cx=\"115\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"115\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"115\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text><line x1=\"115\" y1=\"137\" x2=\"230\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"115\" y1=\"132\" x2=\"115\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"230\" cy=\"95\" r=\"20\" fill=\"#E3EBF6\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"230\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"230\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 nC</text><line x1=\"230\" y1=\"137\" x2=\"345\" y2=\"137\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"132\" x2=\"230\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"345\" y1=\"132\" x2=\"345\" y2=\"142\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"287.5\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><circle cx=\"345\" cy=\"95\" r=\"20\" fill=\"#F8E6E1\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"345\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"345\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">5,0 nC</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Åt vilket håll dras den mittersta kulan av vardera grannen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den negativa mittkulan dras av båda positiva grannarna: den vänstra drar åt vänster och den högra åt höger.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Den negativa mittkulan dras av båda positiva grannarna: den vänstra drar åt vänster och den högra åt höger.</p>",
-        "niva": "C"
+        "fraga": "Åt vilket håll drar grannarna mittkulan?",
+        "s": "<div class=\"facit-v2\"><p>Mittkulan är negativ och grannarna positiva. Den dras därför åt vänster av den vänstra grannen och åt höger av den högra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den vänstra drar åt vänster och den högra åt höger.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den vänstra drar åt vänster och den högra åt höger.",
+            "ratt": true,
+            "kommentar": "Olika tecken gör att mittkulan dras mot varje granne."
+          },
+          {
+            "txt": "Båda drar åt höger.",
+            "ratt": false,
+            "kommentar": "Den vänstra grannen ligger till vänster om mittkulan."
+          },
+          {
+            "txt": "Båda drar åt vänster.",
+            "ratt": false,
+            "kommentar": "Den högra grannen ligger till höger om mittkulan."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor blir den resulterande kraften på den mittersta kulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningsbeloppen och avstånden är lika, så de två krafterna är lika stora.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_v=F_h=k\\frac{(5{,}0\\cdot10^{-9})(3{,}0\\cdot10^{-9})}{(0{,}040)^2}=84{,}3\\ \\mu\\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Eftersom riktningarna är motsatta blir \\(F_{\\mathrm{res}}=F_h-F_v=0\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(84{,}3\\ \\mu\\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den negativa mittkulan dras av båda positiva grannarna: den vänstra drar åt vänster och den högra åt höger.</p>",
-        "niva": "C"
+        "fraga": "Hur stor är summan av krafterna på mittkulan? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Grannarna har lika stor laddning och ligger lika långt från mittkulan. De ger därför lika stora krafter i motsatta riktningar.</p><p>Krafterna tar ut varandra: \\(F_{\\mathrm{summa}}=F_{\\mathrm{höger}}-F_{\\mathrm{vänster}}=0\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför både storleken och riktningen hos de två krafterna.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
@@ -84431,27 +84812,32 @@ window.BANK = [
     "id": "8.72",
     "kap": 8,
     "omr": "coulomb",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två laddningar, 6,0 nC och 9,0 nC, sitter 3,0 cm från varandra.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+9,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div>\n<ol><li>Hur stor är kraften mellan dem?</li>\n<li>Hur stor blir kraften om avståndet fördubblas?</li>\n<li>Hur stor blir den om båda laddningarna fördubblas i stället?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombs lag vid \\(r=0{,}030\\ \\mathrm m\\) ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})(9{,}0\\cdot10^{-9})}{(0{,}030)^2}=5{,}394\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften är omvänt proportionell mot \\(r^2\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbelt avstånd ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=\\frac F{2^2}=1{,}35\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om båda laddningarna fördubblas blir produkten fyra gånger större.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F''=(2)(2)F=4F=2{,}16\\cdot10^{-3}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(539\\ \\mu\\mathrm N\\); vid dubbelt avstånd \\(135\\ \\mu\\mathrm N\\), och med båda laddningarna dubblerade \\(2{,}16\\ \\mathrm{mN}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två kulor har laddningarna +6,0 nC och +9,0 nC. Avståndet mellan dem är 3,0 cm.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+9,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är kraften mellan kulorna? Svara i N.</p><p>b) Hur stor blir kraften när avståndet fördubblas? Svara i N.</p><p>c) Utgå från de ursprungliga laddningarna och avståndet. Hur stor blir kraften när båda laddningarna fördubblas? Svara i N.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=6{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=9{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}030\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=54\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot54\\cdot10^{-18}}{0{,}030^2}\\]</p><p>\\[F=5{,}394\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx5{,}4\\cdot10^{-4}\\,\\mathrm N\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Avståndet är i kvadrat i nämnaren. Dubbelt avstånd gör därför nämnaren fyra gånger större.</p><p>\\[F_{\\mathrm{ny}}=\\frac{5{,}394\\cdot10^{-4}}{4}=1{,}3485\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(1{,}3\\cdot10^{-4}\\,\\mathrm N\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Coulombs lag innehåller produkten av laddningarna. När båda fördubblas blir kraften \\(2\\cdot2=4\\) gånger så stor.</p><p>\\[F_{\\mathrm{ny}}=4\\cdot5{,}394\\cdot10^{-4}\\]</p><p>\\[F_{\\mathrm{ny}}=2{,}1576\\cdot10^{-3}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(2{,}2\\cdot10^{-3}\\,\\mathrm N\\).</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.0005394,
-      0.000135,
-      0.00216
+      0.0005393999999999999,
+      0.00013484999999999997,
+      0.0021575999999999995
     ],
     "tolerans": [
-      8e-06,
-      2e-06,
-      3.2e-05
+      1.0787999999999997e-05,
+      5e-06,
+      4.5e-05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -84472,40 +84858,71 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Två laddningar, 6,0 nC och 9,0 nC, sitter 3,0 cm från varandra.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+9,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div><div class=\"spel-en-del\">Hur stor är kraften mellan dem?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Coulombs lag vid \\(r=0{,}030\\ \\mathrm m\\) ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}=8{,}99\\cdot10^9\\frac{(6{,}0\\cdot10^{-9})(9{,}0\\cdot10^{-9})}{(0{,}030)^2}=5{,}394\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}394\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Coulombs lag vid \\(r=0{,}030\\ \\mathrm m\\) ger Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+        "fraga": "Hur stor är kraften mellan kulorna? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=6{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=9{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}030\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=54\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot54\\cdot10^{-18}}{0{,}030^2}\\]</p><p>\\[F=5{,}394\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx5{,}4\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0005393999999999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 1.0787999999999997e-05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Två laddningar, 6,0 nC och 9,0 nC, sitter 3,0 cm från varandra.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+9,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div><div class=\"spel-en-del\">Hur stor blir kraften om avståndet fördubblas?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften är omvänt proportionell mot \\(r^2\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Dubbelt avstånd ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F'=\\frac F{2^2}=1{,}35\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}35\\cdot10^{-4}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Kraften är omvänt proportionell mot \\(r^2\\). Dubbelt avstånd ger</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor blir kraften när avståndet fördubblas? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet är i kvadrat i nämnaren. Dubbelt avstånd gör därför nämnaren fyra gånger större.</p><p>\\[F_{\\mathrm{ny}}=\\frac{5{,}394\\cdot10^{-4}}{4}=1{,}3485\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(1{,}3\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00013484999999999997,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 5e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "t": "<p>Kraften mellan två laddningar är 5,394·10⁻⁴ N. Avståndet mellan dem fördubblas. Laddningarna ändras inte.</p><p>Hur stor blir kraften när avståndet fördubblas? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "t": "<p>Två laddningar, 6,0 nC och 9,0 nC, sitter 3,0 cm från varandra.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+9,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div><div class=\"spel-en-del\">Hur stor blir kraften mellan dem om båda laddningarna fördubblas?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om båda laddningarna fördubblas blir produkten fyra gånger större.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F''=(2)(2)F=4F=2{,}16\\cdot10^{-3}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}16\\cdot10^{-3}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Om båda laddningarna fördubblas blir produkten fyra gånger större.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor blir kraften när båda laddningarna fördubblas? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Coulombs lag innehåller produkten av laddningarna. När båda fördubblas blir kraften \\(2\\cdot2=4\\) gånger så stor.</p><p>\\[F_{\\mathrm{ny}}=4\\cdot5{,}394\\cdot10^{-4}\\]</p><p>\\[F_{\\mathrm{ny}}=2{,}1576\\cdot10^{-3}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> cirka \\(2{,}2\\cdot10^{-3}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0021575999999999995,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 4.5e-05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "t": "<p>Kraften mellan två laddningar är 5,394·10⁻⁴ N. Båda laddningarna fördubblas. Avståndet ändras inte.</p><p>Hur stor blir kraften när båda laddningarna fördubblas? Svara i N.</p>",
+        "arbetsinsats": 1
       }
     ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Coulombs lag vid \\(r=0{,}030\\ \\mathrm m\\) ger Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+    "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "spelIntro": "<p>Två kulor har laddningarna +6,0 nC och +9,0 nC. Avståndet mellan dem är 3,0 cm.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+6,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+9,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "8.309",
@@ -84685,30 +85102,107 @@ window.BANK = [
     "omr": "coulomb",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Två laddade kulor med laddningarna 5,0 nC och 8,0 nC befinner sig 4,0 cm från varandra.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+5,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+8,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,0 cm</text></svg></div>\n<p>Bestäm den elektriska kraften mellan dem och ange om den är attraherande eller repellerande.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Skriv om avståndet och laddningarna till SI-enheter.</p><div class=\"facit-matte\">\\[r=0{,}040\\ \\mathrm m,\\quad q_1=5{,}0\\cdot10^{-9}\\ \\mathrm C,\\quad q_2=8{,}0\\cdot10^{-9}\\ \\mathrm C\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Coulombs lag ger kraftens storlek.</p><div class=\"facit-matte\">\\[F=k\\frac{|q_1q_2|}{r^2}=8{,}99\\cdot10^9\\frac{(5{,}0\\cdot10^{-9})(8{,}0\\cdot10^{-9})}{(0{,}040)^2}\\]</div><p>\\[F=2{,}25\\cdot10^{-4}\\ \\mathrm N=225\\ \\mu\\mathrm N\\]</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Laddningarna har samma tecken, så kulorna stöter bort varandra.</p><p>Krafterna på kulorna är lika stora och motriktade.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(2{,}25\\cdot10^{-4}\\ \\mathrm N\\), frånstötande.</p></div>",
+    "t": "<p>Två kulor med laddningarna +5,0 nC och +8,0 nC är 4,0 cm från varandra.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+5,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+8,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Dras kulorna mot varandra eller stöter de bort varandra?</p><p>b) Hur stor är kraften mellan kulorna? Svara i N.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=5{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=8{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}040\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=40\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot40\\cdot10^{-18}}{0{,}040^2}\\]</p><p>\\[F=2{,}2475\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx2{,}2\\cdot10^{-4}\\,\\mathrm N\\).</p></div></div>",
     "familj": "Coulombs lag",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "laddning__coulombs_lag_och_elektrisk_kraft",
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.00022500000000000002,
-    "tolerans": 6.750000000000001e-06,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Kulorna stöter bort varandra.",
+      0.00022475000000000004
+    ],
+    "tolerans": [
+      null,
+      6.8e-06
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "N"
+    ],
     "familjNyckelTidigare": "laddning__coulombs_lag",
-    "ledtrad": "<p>Skriv om avståndet och laddningarna till SI-enheter. Rita riktningen mellan laddningarna och använd \\(F=k|q_1q_2|/r^2\\).</p>",
+    "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
-    ]
+    ],
+    "spelIntro": "<p>Två kulor med laddningarna +5,0 nC och +8,0 nC är 4,0 cm från varandra.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+5,0 nC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"390.0\" y1=\"85\" x2=\"390.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+8,0 nC</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,0 cm</text></svg></div><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Dras kulorna mot varandra eller stöter de bort varandra?",
+        "s": "<div class=\"facit-v2\"><p>Laddningarna har samma tecken och stöter därför bort varandra.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Kulorna stöter bort varandra.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Kulorna stöter bort varandra.",
+            "ratt": true,
+            "kommentar": "Lika tecken ger bortstötning; olika tecken ger attraktion."
+          },
+          {
+            "txt": "Kulorna dras mot varandra.",
+            "ratt": false,
+            "kommentar": "Kontrollera laddningarnas tecken."
+          },
+          {
+            "txt": "Ingen kraft verkar mellan kulorna.",
+            "ratt": false,
+            "kommentar": "Laddade kulor påverkar varandra."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur laddningarnas tecken påverkar krafterna.</p>",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är kraften mellan kulorna? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddningarna till coulomb och avståndet till meter: \\(q_1=5{,}0\\cdot10^{-9}\\,\\mathrm C\\), \\(q_2=8{,}0\\cdot10^{-9}\\,\\mathrm C\\) och \\(r=0{,}040\\,\\mathrm m\\).</p><p>Laddningarnas produkt i storlek är \\(|q_1q_2|=40\\cdot10^{-18}\\,\\mathrm{C^2}\\).</p><p>Sätt in värdena i Coulombs lag:</p><p>\\[F=\\frac{8{,}99\\cdot10^9\\cdot40\\cdot10^{-18}}{0{,}040^2}\\]</p><p>\\[F=2{,}2475\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(F\\approx2{,}2\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00022475000000000004,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 6.8e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket samband kopplar ihop de givna storheterna?</p>",
+        "arbetsinsats": 1
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.310",

@@ -313,6 +313,27 @@ test('Elektroskopet behåller rätt svar och nivå när b utelämnas från spele
  assert.match(parts[1].t,/tas bort/);
 });
 
+test('Coulombkort prövar riktning och belopp med rätt svarmetadata',()=>{
+ for(const id of ['8.57','8.74']){
+  const [direction,magnitude]=cxtPhysicsCards(id);
+  assert.equal(direction.svarstyp,'alternativ');
+  assert.equal(direction.traningsniva,1);
+  assert.equal(magnitude.svarEnhet,'N');
+  assert.equal(magnitude.traningsniva,2);
+  assert.ok(c.expectedAnswersForTask(magnitude).auto);
+ }
+ const [direction,magnitude]=cxtPhysicsCards('8.68');
+ assert.equal(direction.svarstyp,'alternativ');
+ assert.equal(direction.traningsniva,2);
+ assert.equal(magnitude.svarEnhet,'µN');
+ assert.equal(magnitude.traningsniva,3);
+ const cards=cxtPhysicsCards('8.21');
+ assert.equal(cards.length,3);
+ assert.ok(cards.every(x=>x.självrättning===true));
+ assert.equal(cards[2].rättSvar,bank('uppgifter.js').find(q=>q.id==='8.21').rättSvar[2]);
+ assert.equal(cxtPhysicsCards('8.23')[2].svarstyp,'alternativ');
+});
+
 
 test('Mato1:s reviderade tangent, exponentialfunktion och integral har korrekta svarsfält',()=>{
  for(const [id,values]of [['2.254',[2,1]],['2.309',[2,2]],['3.481',[1,2]]]){

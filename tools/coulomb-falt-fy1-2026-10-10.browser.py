@@ -24,7 +24,7 @@ with sync_playwright() as p:
   for(let i=0;i<q.alternativ.length;i++){prepare(id,n);const opts=altLista(q);state.altValda=new Set([i]);kollaAlt();if(window.reviewAttempt?.every(Boolean)!==!!opts[i].ratt)failures.push({id,n,i,type:'alternative'});alternatives++;}
  }
  let limitedUnitConversions=0;
- for(const id of ['8.326','8.333','8.336','8.337','8.339','8.341']){
+ for(const id of ['8.326','8.333','8.336','8.337','8.343','8.341']){
   const q=prepare(id,0);const other=q.svarEnhet==='N/C'?'V/m':'N/C';
   for(const [unit,want]of [[other,true],['N',false]]){
    prepare(id,0);document.getElementById('ans-0').value=String(q.rättSvar)+' '+unit;checkAnswer();

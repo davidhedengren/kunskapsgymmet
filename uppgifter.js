@@ -77933,10 +77933,10 @@ window.BANK = [
     "id": "8.11",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En liten kula med laddningen −5,0 nC placeras mellan plattorna.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 200 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 5,0 cm</text><circle cx=\"210\" cy=\"115\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">−</text></svg></span>\n<ol><li>Bestäm fältstyrkan.</li><li>Hur stor kraft verkar på kulan?</li>\n<li>Åt vilket håll rör sig kulan, och varför?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(d=5{,}0\\ \\mathrm{cm}=0{,}050\\ \\mathrm m\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{200}{0{,}050}=4{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=|q|E=(5{,}0\\cdot10^{-9})(4{,}0\\cdot10^3)=2{,}0\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet pekar från den positiva mot den negativa plattan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom kulan är negativ blir kraften motsatt fältet, alltså uppåt mot den positiva plattan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\vec F=q\\vec E\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan är \\(4{,}0\\ \\mathrm{kV/m}\\), kraften \\(20\\ \\mu\\mathrm N\\), riktad uppåt mot den positiva plattan.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två parallella plattor har spänningen 200 V mellan sig. Avståndet är \\(5\\,\\mathrm{cm}\\).</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 200 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 5,0 cm</text><circle cx=\"210\" cy=\"115\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">−</text></svg></span><p>En kula med laddningen \\(-5\\,\\mathrm{nC}\\) placeras mellan plattorna.</p><p>a) Hur starkt är fältet mellan plattorna? Svara i V/m.</p><p>b) Hur stor elektrisk kraft verkar på kulan? Svara i N.</p><p>c) Åt vilket håll är den elektriska kraften på en negativ kula riktad?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Avståndet är \\(0{,}05\\,\\mathrm m\\).</p><p>\\[E=\\frac Ud=\\frac{200}{0{,}05}=4000\\,\\mathrm{V/m}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Laddningens storlek är \\(5\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=|q|E=5\\cdot10^{-9}\\cdot4000\\]</p><p>\\[F=2\\cdot10^{-5}\\,\\mathrm N\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Fältet går från plusplattan till minusplattan. Kraften på en negativ kula går åt motsatt håll: mot den positiva plattan.</p></div></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur",
@@ -77945,19 +77945,19 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4000,
-      2e-05,
-      null
+      4000.0,
+      1.9999999999999998e-05,
+      "Mot den positiva plattan."
     ],
     "tolerans": [
-      60,
-      3e-07,
+      80.0,
+      4e-07,
       null
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
@@ -77976,41 +77976,87 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "falt__falt_fran_punktladdning",
-    "ledtrad": "<p>Med \\(d=5{,}0\\ \\mathrm{cm}=0{,}050\\ \\mathrm m\\) blir Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
+    "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En liten kula med laddningen −5,0 nC placeras mellan plattorna.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 200 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 5,0 cm</text><circle cx=\"210\" cy=\"115\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">−</text></svg></span>",
+    "spelIntro": "<p>Två parallella plattor har spänningen 200 V mellan sig. Avståndet är \\(5\\,\\mathrm{cm}\\).</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 200 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 5,0 cm</text><circle cx=\"210\" cy=\"115\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">−</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm fältstyrkan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(d=5{,}0\\ \\mathrm{cm}=0{,}050\\ \\mathrm m\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{200}{0{,}050}=4{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^3\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Med \\(d=5{,}0\\ \\mathrm{cm}=0{,}050\\ \\mathrm m\\) blir Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur starkt är fältet mellan plattorna? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet är \\(0{,}05\\,\\mathrm m\\).</p><p>\\[E=\\frac Ud=\\frac{200}{0{,}05}=4000\\,\\mathrm{V/m}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 80.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor kraft verkar på kulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=|q|E=(5{,}0\\cdot10^{-9})(4{,}0\\cdot10^3)=2{,}0\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Med \\(d=5{,}0\\ \\mathrm{cm}=0{,}050\\ \\mathrm m\\) blir Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor elektrisk kraft verkar på kulan? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Laddningens storlek är \\(5\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=|q|E=5\\cdot10^{-9}\\cdot4000\\]</p><p>\\[F=2\\cdot10^{-5}\\,\\mathrm N\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.9999999999999998e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 4e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
+        "t": "<p>En kula har laddningen \\(-5\\,\\mathrm{nC}\\). Fältstyrkan är \\(4000\\,\\mathrm{V/m}\\).</p><p>Hur stor elektrisk kraft verkar på kulan? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Åt vilket håll rör sig kulan, och varför?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet pekar från den positiva mot den negativa plattan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom kulan är negativ blir kraften motsatt fältet, alltså uppåt mot den positiva plattan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\vec F=q\\vec E\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Med \\(d=5{,}0\\ \\mathrm{cm}=0{,}050\\ \\mathrm m\\) blir Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Åt vilket håll är den elektriska kraften på en negativ kula riktad?",
+        "s": "<div class=\"facit-v2\"><p>Fältet går från plusplattan till minusplattan. Kraften på en negativ kula går åt motsatt håll: mot den positiva plattan.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Mot den positiva plattan.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Mot den positiva plattan.",
+            "ratt": true,
+            "kommentar": "Den negativa kulan påverkas motsatt fältets riktning."
+          },
+          {
+            "txt": "Mot den negativa plattan.",
+            "ratt": false,
+            "kommentar": "Fältets riktning är kraftens riktning för en positiv laddning."
+          },
+          {
+            "txt": "Kraften är noll.",
+            "ratt": false,
+            "kommentar": "Laddningen är inte noll och fältet påverkar kulan."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Fältet går från plus till minus. Hur påverkas en negativ laddning?</p>",
+        "t": "<p>En negativt laddad kula placeras mellan en positiv och en negativ platta.</p><p>Åt vilket håll är den elektriska kraften på en negativ kula riktad?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -80095,10 +80141,10 @@ window.BANK = [
     "id": "8.29",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två parallella plattor med fältlinjer mellan sig.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 120 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 4,0 cm</text></svg></span>\n<ol><li>Åt vilket håll pekar fältlinjerna?</li><li>Bestäm fältstyrkan.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektriska fältlinjer pekar från positiv till negativ platta, alltså nedåt i figuren.</p></div><div class=\"facit-stycke\"><p>Detta är riktningen för kraften på en positiv testladdning.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Plattavståndet är \\(4{,}0\\ \\mathrm{cm}=0{,}040\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{120}{0{,}040}=3{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältet pekar nedåt och har styrkan \\(3{,}0\\ \\mathrm{kV/m}\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två parallella plattor har spänningen 120 V mellan sig och avståndet 4,0 cm.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 120 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 4,0 cm</text></svg></span><p>a) Åt vilket håll pekar fältet i figuren?</p><p>b) Hur starkt är fältet? Svara i V/m.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Fältet går från plus till minus. Plusplattan ligger ovanför minusplattan, så fältet pekar nedåt.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Avståndet är \\(4{,}0\\,\\mathrm{cm}=0{,}040\\,\\mathrm m\\).</p><p>\\[E=\\frac{120}{0{,}040}=3000\\,\\mathrm{V/m}\\]</p></div></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
@@ -80106,15 +80152,15 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      "Från plusplattan till minusplattan.",
       3000
     ],
     "tolerans": [
       null,
-      45
+      60.0
     ],
     "självrättning": [
-      false,
+      true,
       true
     ],
     "svarFormat": [
@@ -80131,31 +80177,68 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Elektriska fältlinjer pekar från positiv till negativ platta, alltså nedåt i figuren.</p>",
+    "ledtrad": "<p>Fältets riktning definieras med en positiv testladdning.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två parallella plattor med fältlinjer mellan sig.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 120 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 4,0 cm</text></svg></span>",
+    "spelIntro": "<p>Två parallella plattor har spänningen 120 V mellan sig och avståndet 4,0 cm.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 120 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 4,0 cm</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Åt vilket håll pekar fältlinjerna?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektriska fältlinjer pekar från positiv till negativ platta, alltså nedåt i figuren.</p></div><div class=\"facit-stycke\"><p>Detta är riktningen för kraften på en positiv testladdning.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Elektriska fältlinjer pekar från positiv till negativ platta, alltså nedåt i figuren.</p>",
-        "niva": "C"
+        "fraga": "Åt vilket håll pekar fältet i figuren?",
+        "s": "<div class=\"facit-v2\"><p>Fältet går från plus till minus. Plusplattan ligger ovanför minusplattan, så fältet pekar nedåt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Från plusplattan till minusplattan.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Från plusplattan till minusplattan.",
+            "ratt": true,
+            "kommentar": "Fältriktningen är riktningen för kraften på en positiv laddning."
+          },
+          {
+            "txt": "Från minusplattan till plusplattan.",
+            "ratt": false,
+            "kommentar": "Det är kraftens riktning för en negativ laddning."
+          },
+          {
+            "txt": "Fältet har ingen riktning.",
+            "ratt": false,
+            "kommentar": "Ett elektriskt fält har både styrka och riktning."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Fältets riktning definieras med en positiv testladdning.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm fältstyrkan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Plattavståndet är \\(4{,}0\\ \\mathrm{cm}=0{,}040\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{120}{0{,}040}=3{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^3\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Elektriska fältlinjer pekar från positiv till negativ platta, alltså nedåt i figuren.</p>",
-        "niva": "C"
+        "fraga": "Hur starkt är fältet? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet är \\(4{,}0\\,\\mathrm{cm}=0{,}040\\,\\mathrm m\\).</p><p>\\[E=\\frac{120}{0{,}040}=3000\\,\\mathrm{V/m}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 60.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -80245,22 +80328,22 @@ window.BANK = [
     "kap": 8,
     "omr": "falt",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Två parallella plattor ligger 4,0 mm från varandra och har spänningen 230 V mellan sig.</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,0 mm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 230 V</text></svg></div>\n<p>Bestäm den elektriska fältstyrkan mellan plattorna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Mellan parallella plattor är fältet ungefär homogent.</p><p class=\"facit-metod\">Skriv avståndet i meter.</p><div class=\"facit-matte\">\\[d=4{,}0\\ \\mathrm{mm}=4{,}0\\cdot10^{-3}\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd sambandet mellan spänning, fältstyrka och avstånd.</p><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{230}{4{,}0\\cdot10^{-3}}=5{,}75\\cdot10^4\\ \\mathrm{V/m}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan är \\(5{,}8\\cdot10^4\\ \\mathrm{V/m}=58\\ \\mathrm{kV/m}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två parallella plattor har spänningen 230 V mellan sig. Avståndet är \\(4\\,\\mathrm{mm}\\).</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">4,0 mm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 230 V</text></svg></div><p>Hur starkt är det elektriska fältet mellan plattorna?</p>",
+    "s": "<div class=\"facit-v2\"><p>Plattavståndet är \\(d=0{,}004\\,\\mathrm m\\).</p><p>\\[E=\\frac Ud=\\frac{230}{0{,}004}\\]</p><p><strong>Svar:</strong> \\(57{,}5\\,\\mathrm{kV/m}\\).</p></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 58,
-    "tolerans": 0.87,
+    "rättSvar": 57.5,
+    "tolerans": 1.4375,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kV/m",
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Mellan parallella plattor är fältet ungefär homogent. Skriv avståndet i meter.</p>",
+    "ledtrad": "<p>Skriv plattavståndet i meter innan du delar spänningen med avståndet.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -80268,7 +80351,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.325",
@@ -81962,67 +82046,158 @@ window.BANK = [
     "id": "8.47",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "C",
     "typ": "beräkna avböjningen av en elektron mellan plattor, ur text, sökt sträcka",
-    "poang": "(0/2/2)",
-    "t": "<p>En elektron rör sig med farten 2,0·10⁷ m/s rakt in mellan två plattor som är 4,0 cm långa. Avståndet mellan plattorna är 1,2 cm och spänningen mellan dem 60 V. Elektronens massa är 9,109·10⁻³¹ kg och laddningen 1,602·10⁻¹⁹ C.</p>\n<ol><li>Hur stark är fältstyrkan mellan plattorna?</li>\n<li>Vilken acceleration får elektronen i sidled?</li>\n<li>Hur långt har elektronen böjts av när den lämnar plattorna?</li>\n<li>Varför kan man bortse från tyngdkraften?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet mellan plattorna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{60}{0{,}012}=5{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek och elektronens acceleration blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=eE=(1{,}602\\cdot10^{-19})(5{,}0\\cdot10^3)=8{,}01\\cdot10^{-16}\\ \\mathrm N\\]\n\\[a=\\frac F{m_e}=\\frac{8{,}01\\cdot10^{-16}}{9{,}109\\cdot10^{-31}}=8{,}79\\cdot10^{14}\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><p>Accelerationen är mot den positiva plattan, alltså motsatt fältet.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den vågräta hastigheten antas konstant.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tiden mellan plattorna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{L}{v_x}=\\frac{0{,}040}{2{,}0\\cdot10^7}=2{,}0\\cdot10^{-9}\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[y=\\frac{at^2}{2}=\\frac{(8{,}79\\cdot10^{14})(2{,}0\\cdot10^{-9})^2}{2}=1{,}76\\cdot10^{-3}\\ \\mathrm m\\]</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronens tyngdkraft är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=m_eg=8{,}94\\cdot10^{-30}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Den elektriska kraften är cirka \\(9\\cdot10^{13}\\) gånger större, så tyngdkraften kan försummas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(E=5{,}0\\ \\mathrm{kV/m}\\), \\(a=8{,}8\\cdot10^{14}\\ \\mathrm{m/s^2}\\) mot plusplattan och avböjningen är \\(1{,}8\\ \\mathrm{mm}\\).</p></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>En elektron går vågrätt in mitt mellan två parallella plattor med farten \\(2{,}0\\cdot10^7\\,\\mathrm{m/s}\\). Plattorna är 4,0 cm långa och 1,2 cm från varandra. Spänningen är 60 V. Elektronens massa är \\(9{,}109\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\). Bortse från tyngdkraften i a–c.</p><div class=\"fig bred\"><svg viewBox=\"0 0 500 240\" width=\"500\" height=\"240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En elektron går vågrätt in mellan två plattor\"><rect x=\"120\" y=\"45\" width=\"280\" height=\"6\" fill=\"#ba3443\"/><rect x=\"120\" y=\"180\" width=\"280\" height=\"6\" fill=\"#2563a5\"/><text x=\"414\" y=\"54\" font-size=\"25\" fill=\"#ba3443\">+</text><text x=\"414\" y=\"189\" font-size=\"25\" fill=\"#2563a5\">−</text><text x=\"260\" y=\"26\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">60 V</text><circle cx=\"55\" cy=\"115\" r=\"10\" fill=\"#e0edf9\" stroke=\"#2563a5\"/><text x=\"55\" y=\"121\" text-anchor=\"middle\" font-size=\"19\">−</text><path d=\"M72 115 H130 M122 110 L132 115 L122 120\" fill=\"none\" stroke=\"#243747\" stroke-width=\"2\"/><text x=\"58\" y=\"91\" text-anchor=\"middle\" font-size=\"18\" fill=\"#243747\">elektron</text><path d=\"M120 203 V215 M400 203 V215 M120 209 H400\" stroke=\"#566f85\" fill=\"none\"/><text x=\"260\" y=\"235\" text-anchor=\"middle\" font-size=\"19\">4,0 cm</text><path d=\"M442 45 H454 M442 186 H454 M448 45 V186\" stroke=\"#566f85\" fill=\"none\"/><text x=\"478\" y=\"115\" text-anchor=\"middle\" transform=\"rotate(-90 478 115)\" font-size=\"19\">1,2 cm</text></svg></div><p>a) Hur starkt är det elektriska fältet? Svara i V/m.</p><p>b) Hur stor acceleration ger den elektriska kraften? Svara i m/s².</p><p>c) Hur långt avviker elektronen från sin vågräta bana när den lämnar plattorna? Svara i mm.</p><p>d) Varför är tyngdkraftens påverkan mycket liten här?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Plattavståndet är 0,012 m.</p><p>\\[E=\\frac{60}{0{,}012}=5000\\,\\mathrm{V/m}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Den elektriska kraftens storlek är:</p><p>\\[F=eE=1{,}602\\cdot10^{-19}\\cdot5000\\]</p><p>\\[F=8{,}01\\cdot10^{-16}\\,\\mathrm N\\]</p><p>Använd Newtons andra lag:</p><p>\\[a=\\frac{8{,}01\\cdot10^{-16}}{9{,}109\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> \\(8{,}7935\\cdot10^{14}\\,\\mathrm{m/s^2}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Fältet ändrar inte den vågräta farten. Tiden mellan plattorna är:</p><p>\\[t=\\frac{0{,}040}{2{,}0\\cdot10^7}=2{,}0\\cdot10^{-9}\\,\\mathrm s\\]</p><p>Den lodräta starthastigheten är noll:</p><p>\\[y=\\frac{at^2}{2}\\]</p><p>\\[y=\\frac{8{,}793501\\cdot10^{14}\\cdot(2{,}0\\cdot10^{-9})^2}{2}\\]</p><p><strong>Svar:</strong> cirka 1,8 mm.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Jämför krafternas storlek:</p><p>\\[\\frac{F_e}{F_g}=\\frac{8{,}01\\cdot10^{-16}}{8{,}95\\cdot10^{-30}}\\approx9\\cdot10^{13}\\]</p><p>Den elektriska kraften är så mycket större att tyngdkraftens påverkan är mycket liten.</p></div></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5000,
+      879350093314304.6,
+      1.7587001866286094,
+      "Den elektriska kraften är mycket större än tyngdkraften."
+    ],
+    "tolerans": [
+      100.0,
+      17587001866286.094,
+      0.05,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Bestäm positiv riktning och skriv tecken på hastighet och acceleration. Vilken rörelseekvation innehåller den sökta storheten?</p>",
+    "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En elektron rör sig med farten 2,0·10⁷ m/s rakt in mellan två plattor som är 4,0 cm långa. Avståndet mellan plattorna är 1,2 cm och spänningen mellan dem 60 V. Elektronens massa är 9,109·10⁻³¹ kg och laddningen 1,602·10⁻¹⁹ C.</p>",
+    "spelIntro": "<p>En elektron går vågrätt in mitt mellan två parallella plattor med farten \\(2{,}0\\cdot10^7\\,\\mathrm{m/s}\\). Plattorna är 4,0 cm långa och 1,2 cm från varandra. Spänningen är 60 V. Elektronens massa är \\(9{,}109\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\). Bortse från tyngdkraften i a–c.</p><div class=\"fig bred\"><svg viewBox=\"0 0 500 240\" width=\"500\" height=\"240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En elektron går vågrätt in mellan två plattor\"><rect x=\"120\" y=\"45\" width=\"280\" height=\"6\" fill=\"#ba3443\"/><rect x=\"120\" y=\"180\" width=\"280\" height=\"6\" fill=\"#2563a5\"/><text x=\"414\" y=\"54\" font-size=\"25\" fill=\"#ba3443\">+</text><text x=\"414\" y=\"189\" font-size=\"25\" fill=\"#2563a5\">−</text><text x=\"260\" y=\"26\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">60 V</text><circle cx=\"55\" cy=\"115\" r=\"10\" fill=\"#e0edf9\" stroke=\"#2563a5\"/><text x=\"55\" y=\"121\" text-anchor=\"middle\" font-size=\"19\">−</text><path d=\"M72 115 H130 M122 110 L132 115 L122 120\" fill=\"none\" stroke=\"#243747\" stroke-width=\"2\"/><text x=\"58\" y=\"91\" text-anchor=\"middle\" font-size=\"18\" fill=\"#243747\">elektron</text><path d=\"M120 203 V215 M400 203 V215 M120 209 H400\" stroke=\"#566f85\" fill=\"none\"/><text x=\"260\" y=\"235\" text-anchor=\"middle\" font-size=\"19\">4,0 cm</text><path d=\"M442 45 H454 M442 186 H454 M448 45 V186\" stroke=\"#566f85\" fill=\"none\"/><text x=\"478\" y=\"115\" text-anchor=\"middle\" transform=\"rotate(-90 478 115)\" font-size=\"19\">1,2 cm</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stark är fältstyrkan mellan plattorna?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet mellan plattorna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{60}{0{,}012}=5{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\cdot10^3\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Kraftens storlek och elektronens acceleration blir</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur starkt är det elektriska fältet? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Plattavståndet är 0,012 m.</p><p>\\[E=\\frac{60}{0{,}012}=5000\\,\\mathrm{V/m}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 100.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
+        "t": "<p>Spänningen mellan två parallella plattor är 60 V och avståndet är 1,2 cm.</p><p>Hur starkt är det elektriska fältet? Svara i V/m.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken acceleration får elektronen i sidled?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek och elektronens acceleration blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=eE=(1{,}602\\cdot10^{-19})(5{,}0\\cdot10^3)=8{,}01\\cdot10^{-16}\\ \\mathrm N\\]\n\\[a=\\frac F{m_e}=\\frac{8{,}01\\cdot10^{-16}}{9{,}109\\cdot10^{-31}}=8{,}79\\cdot10^{14}\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><p>Accelerationen är mot den positiva plattan, alltså motsatt fältet.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}79\\cdot10^{14}\\ \\mathrm{m/s^2}\\).</p></div>",
-        "ledtrad": "<p>Kraftens storlek och elektronens acceleration blir</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor acceleration ger den elektriska kraften? Svara i m/s².",
+        "s": "<div class=\"facit-v2\"><p>Den elektriska kraftens storlek är:</p><p>\\[F=eE=1{,}602\\cdot10^{-19}\\cdot5000\\]</p><p>\\[F=8{,}01\\cdot10^{-16}\\,\\mathrm N\\]</p><p>Använd Newtons andra lag:</p><p>\\[a=\\frac{8{,}01\\cdot10^{-16}}{9{,}109\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> \\(8{,}7935\\cdot10^{14}\\,\\mathrm{m/s^2}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 879350093314304.6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m/s²",
+        "tolerans": 17587001866286.094,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Bestäm den elektriska kraften innan du använder Newtons andra lag.</p>",
+        "t": "<p>En elektron befinner sig i fältet 5000 V/m. Elektronens massa är \\(9{,}109\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Hur stor acceleration ger den elektriska kraften? Svara i m/s².</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur långt har elektronen böjts av när den lämnar plattorna?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den vågräta hastigheten antas konstant.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tiden mellan plattorna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{L}{v_x}=\\frac{0{,}040}{2{,}0\\cdot10^7}=2{,}0\\cdot10^{-9}\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[y=\\frac{at^2}{2}=\\frac{(8{,}79\\cdot10^{14})(2{,}0\\cdot10^{-9})^2}{2}=1{,}76\\cdot10^{-3}\\ \\mathrm m\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}76\\cdot10^{-3}\\ \\mathrm m\\).</p></div>",
-        "ledtrad": "<p>Kraftens storlek och elektronens acceleration blir</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Hur långt avviker elektronen från sin vågräta bana när den lämnar plattorna? Svara i mm.",
+        "s": "<div class=\"facit-v2\"><p>Fältet ändrar inte den vågräta farten. Tiden mellan plattorna är:</p><p>\\[t=\\frac{0{,}040}{2{,}0\\cdot10^7}=2{,}0\\cdot10^{-9}\\,\\mathrm s\\]</p><p>Den lodräta starthastigheten är noll:</p><p>\\[y=\\frac{at^2}{2}\\]</p><p>\\[y=\\frac{8{,}793501\\cdot10^{14}\\cdot(2{,}0\\cdot10^{-9})^2}{2}\\]</p><p><strong>Svar:</strong> cirka 1,8 mm.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.7587001866286094,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mm",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm tiden mellan plattorna från den horisontella rörelsen. Använd sedan accelerationen i höjdled.</p>",
+        "t": "<p>En elektron går vågrätt in mellan 4,0 cm långa plattor med farten \\(2{,}0\\cdot10^7\\,\\mathrm{m/s}\\). Dess lodräta starthastighet är noll. Den konstanta lodräta accelerationen är \\(8{,}793501\\cdot10^{14}\\,\\mathrm{m/s^2}\\).</p><p>Hur långt avviker elektronen från sin vågräta bana när den lämnar plattorna? Svara i mm.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Varför kan man bortse från tyngdkraften?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronens tyngdkraft är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=m_eg=8{,}94\\cdot10^{-30}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Den elektriska kraften är cirka \\(9\\cdot10^{13}\\) gånger större, så tyngdkraften kan försummas.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}94\\cdot10^{-30}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Kraftens storlek och elektronens acceleration blir</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Varför är tyngdkraftens påverkan mycket liten här?",
+        "s": "<div class=\"facit-v2\"><p>Jämför krafternas storlek:</p><p>\\[\\frac{F_e}{F_g}=\\frac{8{,}01\\cdot10^{-16}}{8{,}95\\cdot10^{-30}}\\approx9\\cdot10^{13}\\]</p><p>Den elektriska kraften är så mycket större att tyngdkraftens påverkan är mycket liten.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den elektriska kraften är mycket större än tyngdkraften.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den elektriska kraften är mycket större än tyngdkraften.",
+            "ratt": true,
+            "kommentar": "Den elektriska kraften är ungefär 9·10¹³ gånger större."
+          },
+          {
+            "txt": "Elektronen har ingen massa.",
+            "ratt": false,
+            "kommentar": "Elektronen har liten, men inte noll, massa."
+          },
+          {
+            "txt": "Tyngdkraften blir alltid noll mellan metallplattor.",
+            "ratt": false,
+            "kommentar": "Plattorna tar inte bort tyngdkraften."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför storleken på de två givna krafterna.</p>",
+        "t": "<p>Elektronen påverkas av elektrisk kraft \\(8{,}01\\cdot10^{-16}\\,\\mathrm N\\) och tyngdkraft \\(8{,}95\\cdot10^{-30}\\,\\mathrm N\\).</p><p>Varför är tyngdkraftens påverkan mycket liten här?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "V/m",
+      "m/s²",
+      "mm",
+      null
     ]
   },
   {
@@ -82089,30 +82264,32 @@ window.BANK = [
     "id": "8.48",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Spänningen mellan två metallplattor är 180 V. En elektron som befinner sig mellan dem påverkas av kraften 7,2·10⁻¹⁶ N.</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 180 V</text><circle cx=\"210.0\" cy=\"122.0\" r=\"12\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"122.0\" x2=\"217.0\" y2=\"122.0\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"250\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">elektron</text></svg></div>\n<p>Bestäm hur långt det är mellan plattorna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Bestäm först fältstyrkan från kraften på elektronen.</p><div class=\"facit-matte\">\\[E=\\frac F e=\\frac{7{,}2\\cdot10^{-16}}{1{,}602\\cdot10^{-19}}=4{,}49\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">För parallella plattor gäller \\(E=U/d\\).</p><div class=\"facit-matte\">\\[d=\\frac UE=\\frac{180}{4{,}49\\cdot10^3}=4{,}01\\cdot10^{-2}\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet mellan plattorna är \\(4{,}0\\ \\mathrm{cm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Spänningen mellan två parallella plattor är 180 V. Den elektriska kraften på en elektron mellan plattorna är \\(7{,}2\\cdot10^{-16}\\,\\mathrm N\\).</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 180 V</text><circle cx=\"210.0\" cy=\"122.0\" r=\"12\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"122.0\" x2=\"217.0\" y2=\"122.0\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"250\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">elektron</text></svg></div><p>Hur långt är det mellan plattorna? Svara i cm. Elektronens laddningsstorlek är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Bestäm fältstyrkan från kraften:</p><p>\\[E=\\frac Fe=\\frac{7{,}2\\cdot10^{-16}}{1{,}602\\cdot10^{-19}}\\]</p><p>Använd sedan sambandet mellan spänning och plattavstånd:</p><p>\\[d=\\frac UE=\\frac{180}{7{,}2\\cdot10^{-16}/(1{,}602\\cdot10^{-19})}\\]</p><p><strong>Svar:</strong> \\(0{,}04005\\,\\mathrm m\\approx4{,}0\\,\\mathrm{cm}\\).</p></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.005,
+    "tolerans": 0.100125,
+    "självrättning": true,
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Bestäm först fältstyrkan från kraften på elektronen. Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
+    "ledtrad": "<p>Bestäm först fältstyrkan från kraften på elektronen.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
   },
   {
     "id": "8.329",
@@ -83324,57 +83501,96 @@ window.BANK = [
     "id": "8.59",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En liten kula har laddningen 25 nC.</p>\n<ol><li>Hur stark är fältstyrkan 8,0 cm från kulan?</li>\n<li>Hur stark är den 16 cm från kulan?</li><li>Formulera sambandet mellan fältstyrka och avstånd.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Utanför en liten sfäriskt symmetrisk laddning används punktladdningsfältet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{|Q|}{r^2}=8{,}99\\cdot10^9\\frac{25\\cdot10^{-9}}{(0{,}080)^2}=3{,}51\\cdot10^4\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">16 cm är dubbelt så långt bort.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(E\\propto1/r^2\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{16}=\\frac{E_8}{2^2}=8{,}78\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan avtar med kvadraten på avståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E\\propto\\frac1{r^2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan är \\(35\\ \\mathrm{kV/m}\\) vid 8,0 cm och \\(8{,}8\\ \\mathrm{kV/m}\\) vid 16 cm.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En liten kula har laddningen +25 nC.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är fältstyrkan 8 cm från kulan? Svara i N/C.</p><p>b) Hur stor är fältstyrkan 16 cm från kulan? Svara i N/C.</p><p>c) Hur förändras fältstyrkan när avståndet fördubblas?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot2{,}5\\cdot10^{-8}}{0{,}08^2}\\]</p><p><strong>Svar:</strong> \\(3{,}51172\\cdot10^{4}\\,\\mathrm{N/C}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Avståndet blir dubbelt så stort. I punktladdningens fält finns avståndet i kvadrat i nämnaren.</p><p>\\[E_{\\mathrm{ny}}=\\frac{35117{,}19}{4}\\]</p><p><strong>Svar:</strong> \\(8{,}7793\\cdot10^{3}\\,\\mathrm{N/C}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Dubbelt avstånd ger fyra gånger större nämnare. Fältstyrkan blir en fjärdedel så stor.</p></div></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      35117.1875,
+      8779.296875,
+      "Den blir en fjärdedel så stor."
+    ],
+    "tolerans": [
+      702.34375,
+      175.5859375,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "falt__falt_fran_punktladdning",
-    "ledtrad": "<p>Utanför en liten sfäriskt symmetrisk laddning används punktladdningsfältet.</p>",
+    "ledtrad": "<p>Använd fältstyrkan från en punktladdning. Avståndet ska kvadreras.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En liten kula har laddningen 25 nC.</p>",
+    "spelIntro": "<p>En liten kula har laddningen +25 nC.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stark är fältstyrkan 8,0 cm från kulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Utanför en liten sfäriskt symmetrisk laddning används punktladdningsfältet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{|Q|}{r^2}=8{,}99\\cdot10^9\\frac{25\\cdot10^{-9}}{(0{,}080)^2}=3{,}51\\cdot10^4\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}51\\cdot10^4\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Utanför en liten sfäriskt symmetrisk laddning används punktladdningsfältet.</p>",
+        "fraga": "Hur stor är fältstyrkan 8 cm från kulan? Svara i N/C.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot2{,}5\\cdot10^{-8}}{0{,}08^2}\\]</p><p><strong>Svar:</strong> \\(3{,}51172\\cdot10^{4}\\,\\mathrm{N/C}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 35117.1875,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N/C",
+        "tolerans": 702.34375,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd fältstyrkan från en punktladdning. Avståndet ska kvadreras.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stark är den 16 cm från kulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">16 cm är dubbelt så långt bort.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(E\\propto1/r^2\\) blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{16}=\\frac{E_8}{2^2}=8{,}78\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}78\\cdot10^3\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Utanför en liten sfäriskt symmetrisk laddning används punktladdningsfältet.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Formulera sambandet mellan fältstyrka och avstånd.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan avtar med kvadraten på avståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E\\propto\\frac1{r^2}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Utanför en liten sfäriskt symmetrisk laddning används punktladdningsfältet.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor är fältstyrkan 16 cm från kulan? Svara i N/C.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet blir dubbelt så stort. I punktladdningens fält finns avståndet i kvadrat i nämnaren.</p><p>\\[E_{\\mathrm{ny}}=\\frac{35117{,}19}{4}\\]</p><p><strong>Svar:</strong> \\(8{,}7793\\cdot10^{3}\\,\\mathrm{N/C}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8779.296875,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N/C",
+        "tolerans": 175.5859375,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur ändras nämnaren när avståndet fördubblas?</p>",
+        "t": "<p>Fältstyrkan 8 cm från en liten laddad kula är \\(35117{,}19\\,\\mathrm{N/C}\\).</p><p>Hur stor är fältstyrkan 16 cm från kulan? Svara i N/C.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "N/C",
+      "N/C",
+      null
     ]
   },
   {
@@ -83414,8 +83630,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft på laddning i homogent fält",
     "poang": "(1/0/0)",
-    "t": "<p>En positiv laddning på \\(3{,}0\\,\\mathrm{nC}\\) placeras i ett fält med styrkan \\(4{,}0\\cdot10^4\\,\\mathrm{N/C}\\). Bestäm kraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(F=qE\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=3{,}0\\cdot10^{-9}\\cdot4{,}0\\cdot10^4=1{,}2\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\cdot10^{-4}\\,\\mathrm{N}\\).</p></div>",
+    "t": "<p>En positiv laddning har laddningen \\(3\\,\\mathrm{nC}\\). Fältstyrkan är \\(4\\cdot10^{4}\\,\\mathrm{N/C}\\).</p><p>Hur stor är den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p>Laddningens storlek är \\(3\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=|q|E=3\\cdot10^{-9}\\cdot4\\cdot10^{4}\\]</p><p>\\[F=1{,}2\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(1{,}2\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -83423,11 +83639,11 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
     "rättSvar": 0.00012,
-    "tolerans": 2.16e-06,
+    "tolerans": 3e-06,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Omvandla nC till C och använd sambandet mellan kraft och laddning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 2,
@@ -83435,16 +83651,17 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.60",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två metallplattor är inkopplade till en spänningskub enligt figuren.</p><span class=\"fig bred\"><svg height=\"313\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"65.400 12.613 354.600 178.979\"><rect x=\"100\" y=\"50\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"100\" y=\"170\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"88\" y=\"60\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"88\" y=\"182\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">−</text><line x1=\"124\" y1=\"61\" x2=\"124\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"124,170 120.6,162 127.4,162\" fill=\"#9A959C\"/><line x1=\"162\" y1=\"61\" x2=\"162\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"162,170 158.6,162 165.4,162\" fill=\"#9A959C\"/><line x1=\"200\" y1=\"61\" x2=\"200\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"200,170 196.6,162 203.4,162\" fill=\"#9A959C\"/><line x1=\"238\" y1=\"61\" x2=\"238\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"238,170 234.6,162 241.4,162\" fill=\"#9A959C\"/><line x1=\"276\" y1=\"61\" x2=\"276\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"276,170 272.6,162 279.4,162\" fill=\"#9A959C\"/><line x1=\"314\" y1=\"61\" x2=\"314\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"314,170 310.6,162 317.4,162\" fill=\"#9A959C\"/><circle cx=\"238\" cy=\"116\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"238\" y=\"121\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">−</text><text x=\"256\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">−4,0 nC</text><line x1=\"366\" y1=\"61\" x2=\"366\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"61\" x2=\"371\" y2=\"61\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"170\" x2=\"371\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"375\" y=\"119.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,5 cm</text><text x=\"220\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text></svg></span>\n<ol><li>Hur starkt är det elektriska fältet mellan plattorna?</li>\n<li>En liten kula med laddningen −4,0 nC placeras mellan plattorna. Bestäm storleken på den elektriska kraften på kulan.</li>\n<li>Åt vilket håll är kraften riktad?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Plattavståndet är</p><div class=\"facit-matte\">\\[2{,}5 c m=0{,}025\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{12}{0{,}025}=480\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=|q|E=(4{,}0\\cdot10^{-9})(480)=1{,}92\\cdot10^{-6}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet pekar från plusplattan till minusplattan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En negativ laddning påverkas åt motsatt håll, alltså mot den positiva plattan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\vec F=q\\vec E\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(E=480\\ \\mathrm{V/m}\\), \\(F=1{,}9\\ \\mu\\mathrm N\\), riktad mot den positiva plattan.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två parallella plattor har spänningen 12 V mellan sig. Avståndet är \\(2{,}5\\,\\mathrm{cm}\\).</p><span class=\"fig bred\"><svg height=\"313\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"65.400 12.613 354.600 178.979\"><rect x=\"100\" y=\"50\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"100\" y=\"170\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"88\" y=\"60\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"88\" y=\"182\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">−</text><line x1=\"124\" y1=\"61\" x2=\"124\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"124,170 120.6,162 127.4,162\" fill=\"#9A959C\"/><line x1=\"162\" y1=\"61\" x2=\"162\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"162,170 158.6,162 165.4,162\" fill=\"#9A959C\"/><line x1=\"200\" y1=\"61\" x2=\"200\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"200,170 196.6,162 203.4,162\" fill=\"#9A959C\"/><line x1=\"238\" y1=\"61\" x2=\"238\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"238,170 234.6,162 241.4,162\" fill=\"#9A959C\"/><line x1=\"276\" y1=\"61\" x2=\"276\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"276,170 272.6,162 279.4,162\" fill=\"#9A959C\"/><line x1=\"314\" y1=\"61\" x2=\"314\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"314,170 310.6,162 317.4,162\" fill=\"#9A959C\"/><circle cx=\"238\" cy=\"116\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"238\" y=\"121\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">−</text><rect x=\"252\" y=\"101\" width=\"50\" height=\"27\" fill=\"#fff\"/><text x=\"256\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">−4,0 nC</text><line x1=\"366\" y1=\"61\" x2=\"366\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"61\" x2=\"371\" y2=\"61\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"170\" x2=\"371\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"375\" y=\"119.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,5 cm</text><text x=\"220\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text></svg></span><p>En kula med laddningen \\(-4\\,\\mathrm{nC}\\) placeras mellan plattorna.</p><p>a) Hur starkt är fältet mellan plattorna? Svara i V/m.</p><p>b) Hur stor elektrisk kraft verkar på kulan? Svara i N.</p><p>c) Åt vilket håll är den elektriska kraften på en negativ kula riktad?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Avståndet är \\(0{,}025\\,\\mathrm m\\).</p><p>\\[E=\\frac Ud=\\frac{12}{0{,}025}=480\\,\\mathrm{V/m}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Laddningens storlek är \\(4\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=|q|E=4\\cdot10^{-9}\\cdot480\\]</p><p>\\[F=1{,}92\\cdot10^{-6}\\,\\mathrm N\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Fältet går från plusplattan till minusplattan. Kraften på en negativ kula går åt motsatt håll: mot den positiva plattan.</p></div></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
@@ -83452,19 +83669,19 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      480,
-      1.92e-06,
-      null
+      480.0,
+      1.9200000000000003e-06,
+      "Mot den positiva plattan."
     ],
     "tolerans": [
-      7.2,
-      3e-08,
+      9.6,
+      3.8400000000000006e-08,
       null
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
@@ -83483,41 +83700,87 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två metallplattor är inkopplade till en spänningskub enligt figuren.</p><span class=\"fig bred\"><svg height=\"313\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"65.400 12.613 354.600 178.979\"><rect x=\"100\" y=\"50\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"100\" y=\"170\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"88\" y=\"60\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"88\" y=\"182\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">−</text><line x1=\"124\" y1=\"61\" x2=\"124\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"124,170 120.6,162 127.4,162\" fill=\"#9A959C\"/><line x1=\"162\" y1=\"61\" x2=\"162\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"162,170 158.6,162 165.4,162\" fill=\"#9A959C\"/><line x1=\"200\" y1=\"61\" x2=\"200\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"200,170 196.6,162 203.4,162\" fill=\"#9A959C\"/><line x1=\"238\" y1=\"61\" x2=\"238\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"238,170 234.6,162 241.4,162\" fill=\"#9A959C\"/><line x1=\"276\" y1=\"61\" x2=\"276\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"276,170 272.6,162 279.4,162\" fill=\"#9A959C\"/><line x1=\"314\" y1=\"61\" x2=\"314\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"314,170 310.6,162 317.4,162\" fill=\"#9A959C\"/><circle cx=\"238\" cy=\"116\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"238\" y=\"121\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">−</text><text x=\"256\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">−4,0 nC</text><line x1=\"366\" y1=\"61\" x2=\"366\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"61\" x2=\"371\" y2=\"61\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"170\" x2=\"371\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"375\" y=\"119.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,5 cm</text><text x=\"220\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text></svg></span>",
+    "spelIntro": "<p>Två parallella plattor har spänningen 12 V mellan sig. Avståndet är \\(2{,}5\\,\\mathrm{cm}\\).</p><span class=\"fig bred\"><svg height=\"313\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"65.400 12.613 354.600 178.979\"><rect x=\"100\" y=\"50\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"100\" y=\"170\" width=\"240\" height=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"88\" y=\"60\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">+</text><text x=\"88\" y=\"182\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">−</text><line x1=\"124\" y1=\"61\" x2=\"124\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"124,170 120.6,162 127.4,162\" fill=\"#9A959C\"/><line x1=\"162\" y1=\"61\" x2=\"162\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"162,170 158.6,162 165.4,162\" fill=\"#9A959C\"/><line x1=\"200\" y1=\"61\" x2=\"200\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"200,170 196.6,162 203.4,162\" fill=\"#9A959C\"/><line x1=\"238\" y1=\"61\" x2=\"238\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"238,170 234.6,162 241.4,162\" fill=\"#9A959C\"/><line x1=\"276\" y1=\"61\" x2=\"276\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"276,170 272.6,162 279.4,162\" fill=\"#9A959C\"/><line x1=\"314\" y1=\"61\" x2=\"314\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"butt\"/><polygon points=\"314,170 310.6,162 317.4,162\" fill=\"#9A959C\"/><circle cx=\"238\" cy=\"116\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"238\" y=\"121\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">−</text><rect x=\"252\" y=\"101\" width=\"50\" height=\"27\" fill=\"#fff\"/><text x=\"256\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">−4,0 nC</text><line x1=\"366\" y1=\"61\" x2=\"366\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"61\" x2=\"371\" y2=\"61\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"361\" y1=\"170\" x2=\"371\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"375\" y=\"119.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,5 cm</text><text x=\"220\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 12 V</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur starkt är det elektriska fältet mellan plattorna?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Plattavståndet är</p><div class=\"facit-matte\">\\[2{,}5 c m=0{,}025\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{12}{0{,}025}=480\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(480\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Plattavståndet är 2,5 cm = 0,025 m. Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
+        "fraga": "Hur starkt är fältet mellan plattorna? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet är \\(0{,}025\\,\\mathrm m\\).</p><p>\\[E=\\frac Ud=\\frac{12}{0{,}025}=480\\,\\mathrm{V/m}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 480.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 9.6,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "En liten kula med laddningen −4,0 nC placeras mellan plattorna. Bestäm storleken på den elektriska kraften på kulan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=|q|E=(4{,}0\\cdot10^{-9})(480)=1{,}92\\cdot10^{-6}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}92\\cdot10^{-6}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Plattavståndet är 2,5 cm = 0,025 m. Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor elektrisk kraft verkar på kulan? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Laddningens storlek är \\(4\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=|q|E=4\\cdot10^{-9}\\cdot480\\]</p><p>\\[F=1{,}92\\cdot10^{-6}\\,\\mathrm N\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.9200000000000003e-06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 3.8400000000000006e-08,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
+        "t": "<p>En kula har laddningen \\(-4\\,\\mathrm{nC}\\). Fältstyrkan är \\(480\\,\\mathrm{V/m}\\).</p><p>Hur stor elektrisk kraft verkar på kulan? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Åt vilket håll är kraften riktad?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet pekar från plusplattan till minusplattan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En negativ laddning påverkas åt motsatt håll, alltså mot den positiva plattan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\vec F=q\\vec E\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Plattavståndet är 2,5 cm = 0,025 m. Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Åt vilket håll är den elektriska kraften på en negativ kula riktad?",
+        "s": "<div class=\"facit-v2\"><p>Fältet går från plusplattan till minusplattan. Kraften på en negativ kula går åt motsatt håll: mot den positiva plattan.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Mot den positiva plattan.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Mot den positiva plattan.",
+            "ratt": true,
+            "kommentar": "Den negativa kulan påverkas motsatt fältets riktning."
+          },
+          {
+            "txt": "Mot den negativa plattan.",
+            "ratt": false,
+            "kommentar": "Fältets riktning är kraftens riktning för en positiv laddning."
+          },
+          {
+            "txt": "Kraften är noll.",
+            "ratt": false,
+            "kommentar": "Laddningen är inte noll och fältet påverkar kulan."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Fältets riktning gäller en positiv laddning. Hur påverkas den negativa kulan?</p>",
+        "t": "<p>En negativt laddad kula placeras mellan en positiv och en negativ platta.</p><p>Åt vilket håll är den elektriska kraften på en negativ kula riktad?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -83529,20 +83792,20 @@ window.BANK = [
     "niva": "E",
     "typ": "fältstyrka mellan parallella plattor",
     "poang": "(1/0/0)",
-    "t": "<p>Mellan två parallella plattor är potentialskillnaden \\(600\\,\\mathrm V\\) och avståndet \\(3{,}0\\,\\mathrm{cm}\\). Anta homogent fält. Bestäm fältstyrkan.</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 600 V</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I ett homogent fält mellan parallella plattor gäller \\(E=U/d\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{600}{0{,}030}=20000\\ \\mathrm{V/m}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20000\\,\\mathrm{V/m}\\).</p></div>",
+    "t": "<p>Två parallella plattor har spänningen 600 V mellan sig. Avståndet är \\(3\\,\\mathrm{cm}\\).</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3,0 cm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 600 V</text></svg></div><p>Hur starkt är det elektriska fältet mellan plattorna?</p>",
+    "s": "<div class=\"facit-v2\"><p>Plattavståndet är \\(d=0{,}03\\,\\mathrm m\\).</p><p>\\[E=\\frac Ud=\\frac{600}{0{,}03}\\]</p><p><strong>Svar:</strong> \\(20000\\,\\mathrm{V/m}\\).</p></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 20000,
-    "tolerans": 360,
+    "rättSvar": 20000.0,
+    "tolerans": 500.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Omvandla plattavståndet till meter och använd \\(E=U/d\\).</p>",
+    "ledtrad": "<p>Skriv plattavståndet i meter innan du delar spänningen med avståndet.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "V/m",
     "traningsniva": 2,
@@ -83550,7 +83813,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.334",
@@ -83560,7 +83824,7 @@ window.BANK = [
     "typ": "bestämma laddning från kraft och fält",
     "poang": "(1/0/0)",
     "t": "<p>En liten laddad droppe påverkas av den elektriska kraften \\(0{,}018\\,\\mathrm N\\) i ett fält på \\(6000\\,\\mathrm{N/C}\\). Bestäm laddningens storlek i \\(\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut \\(q\\) ur \\(F=qE\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\frac{0{,}018}{6000}=3\\cdot10^{-6}\\ \\mathrm C=3\\ \\mu\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,\\mu\\mathrm C\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Dela kraften med fältstyrkan:</p><p>\\[|q|=\\frac{F}{E}=\\frac{0{,}018}{6000}=3{,}0\\cdot10^{-6}\\,\\mathrm C\\]</p><p><strong>Svar:</strong> 3,0 µC.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -83572,7 +83836,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Lös ut laddningens storlek ur sambandet mellan kraft och fältstyrka.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µC",
     "traningsniva": 2,
@@ -84049,8 +84313,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraft på laddning i homogent fält",
     "poang": "(1/0/0)",
-    "t": "<p>En positivt laddad oljedroppe har laddningen \\(5{,}0\\,\\mathrm{nC}\\) och befinner sig i ett lodrätt elektriskt fält med styrkan \\(8{,}0\\cdot10^4\\,\\mathrm{N/C}\\). Bestäm den elektriska kraftens storlek.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens belopp ges av \\(F=qE\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=5{,}0\\cdot10^{-9}\\cdot8{,}0\\cdot10^4=4\\cdot10^{-4}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\cdot10^{-4}\\,\\mathrm{N}\\).</p></div>",
+    "t": "<p>En liten positivt laddad droppe har laddningen \\(5\\,\\mathrm{nC}\\). Fältstyrkan är \\(8\\cdot10^{4}\\,\\mathrm{N/C}\\).</p><p>Hur stor är den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p>Laddningens storlek är \\(5\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=|q|E=5\\cdot10^{-9}\\cdot8\\cdot10^{4}\\]</p><p>\\[F=4\\cdot10^{-4}\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(4\\cdot10^{-4}\\,\\mathrm N\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -84058,11 +84322,11 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
     "rättSvar": 0.0004,
-    "tolerans": 7.2e-06,
+    "tolerans": 1e-05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Omvandla nanocoulomb till coulomb innan du multiplicerar.</p>",
+    "ledtrad": "<p>Omvandla nC till C och använd sambandet mellan kraft och laddning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
     "traningsniva": 2,
@@ -84070,7 +84334,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.336",
@@ -84080,7 +84345,7 @@ window.BANK = [
     "typ": "fältstyrka från kraft och laddning",
     "poang": "(1/0/0)",
     "t": "<p>En liten positiv laddning \\(4{,}0\\,\\mu\\mathrm C\\) påverkas av \\(0{,}12\\,\\mathrm N\\) i ett elektriskt fält. Bestäm fältstyrkan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrka är kraft per laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{0{,}12}{4{,}0\\cdot10^{-6}}=30000\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30000\\,\\mathrm{N/C}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Laddningen är \\(4{,}0\\,\\mu\\mathrm C=4{,}0\\cdot10^{-6}\\,\\mathrm C\\).</p><p>\\[E=\\frac{F}{|q|}=\\frac{0{,}12}{4{,}0\\cdot10^{-6}}=30000\\,\\mathrm{N/C}\\]</p><p><strong>Svar:</strong> 30000 N/C.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -84092,7 +84357,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Fältstyrkan är kraft per coulomb laddning.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
     "traningsniva": 2,
@@ -84491,10 +84756,10 @@ window.BANK = [
     "id": "8.69",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En liten vattendroppe med laddningen 8,0·10⁻¹⁶ C svävar stilla i ett elektriskt fält med fältstyrkan 1,2·10⁵ V/m.</p>\n<ol><li>Hur stor elektrisk kraft verkar på droppen?</li><li>Vilken massa har droppen?</li>\n<li>Vad händer om fältet slås av?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska kraftens storlek är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=|q|E=(8{,}0\\cdot10^{-16})(1{,}2\\cdot10^5)=9{,}6\\cdot10^{-11}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Droppen svävar, så krafterna balanserar: \\(F_e=mg\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{F_e}{g}=\\frac{9{,}6\\cdot10^{-11}}{9{,}82}=9{,}78\\cdot10^{-12}\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>Det är cirka \\(9{,}8\\ \\mathrm{ng}\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När fältet slås av försvinner den elektriska kraften.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften blir då obalanserad och droppen faller.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_e=9{,}6\\cdot10^{-11}\\ \\mathrm N\\), massan är \\(9{,}8\\cdot10^{-12}\\ \\mathrm{kg}\\), och droppen faller när fältet stängs av.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En vattendroppe med laddningen \\(8\\cdot10^{-16}\\,\\mathrm C\\) svävar stilla i ett uppåtriktat elektriskt fält. Fältstyrkan är \\(1{,}2\\cdot10^{5}\\,\\mathrm{V/m}\\). Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>a) Hur stor elektrisk kraft verkar på droppen? Svara i N.</p><p>b) Vilken massa har droppen? Svara i kg.</p><p>c) Vad händer med droppen direkt när fältet stängs av?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Använd laddningens storlek:</p><p>\\[F_e=|q|E=8\\cdot10^{-16}\\cdot1{,}2\\cdot10^{5}\\]</p><p>\\[F_e=9{,}6\\cdot10^{-11}\\,\\mathrm N\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Tyngdkraften är \\(F_g=mg\\). Lös ut massan:</p><p>\\[m=\\frac{9{,}6\\cdot10^{-11}}{9{,}82}\\]</p><p><strong>Svar:</strong> \\(9{,}77597\\cdot10^{-12}\\,\\mathrm{kg}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När fältet stängs av försvinner den uppåtriktade elektriska kraften. Tyngdkraften finns kvar och droppen börjar falla.</p></div></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "problemlösning"
@@ -84503,18 +84768,18 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       9.599999999999999e-11,
-      9.800000000000001e-12,
-      null
+      9.775967413441954e-12,
+      "Den börjar falla."
     ],
     "tolerans": [
-      2.8799999999999994e-12,
-      2.94e-13,
+      1.92e-12,
+      1.9551934826883908e-13,
       null
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
@@ -84533,41 +84798,87 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "laddning__elektrisk_laddning_och_kraft",
-    "ledtrad": "<p>Använd sambandet mellan laddning, fältstyrka och elektrisk kraft. Att droppen svävar stilla ger sedan en relation mellan krafterna på droppen.</p>",
+    "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En liten vattendroppe med laddningen 8,0·10⁻¹⁶ C svävar stilla i ett elektriskt fält med fältstyrkan 1,2·10⁵ V/m.</p>",
+    "spelIntro": "<p>En vattendroppe med laddningen \\(8\\cdot10^{-16}\\,\\mathrm C\\) svävar stilla i ett uppåtriktat elektriskt fält. Fältstyrkan är \\(1{,}2\\cdot10^{5}\\,\\mathrm{V/m}\\). Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor elektrisk kraft verkar på droppen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska kraftens storlek är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=|q|E=(8{,}0\\cdot10^{-16})(1{,}2\\cdot10^5)=9{,}6\\cdot10^{-11}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\cdot10^{-11}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Använd sambandet mellan laddning, fältstyrka och elektrisk kraft. Att droppen svävar stilla ger sedan en relation mellan krafterna på droppen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor elektrisk kraft verkar på droppen? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Använd laddningens storlek:</p><p>\\[F_e=|q|E=8\\cdot10^{-16}\\cdot1{,}2\\cdot10^{5}\\]</p><p>\\[F_e=9{,}6\\cdot10^{-11}\\,\\mathrm N\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.599999999999999e-11,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 1.92e-12,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vilken massa har droppen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Droppen svävar, så krafterna balanserar: \\(F_e=mg\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{F_e}{g}=\\frac{9{,}6\\cdot10^{-11}}{9{,}82}=9{,}78\\cdot10^{-12}\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>Det är cirka \\(9{,}8\\ \\mathrm{ng}\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}78\\cdot10^{-12}\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Använd sambandet mellan laddning, fältstyrka och elektrisk kraft. Att droppen svävar stilla ger sedan en relation mellan krafterna på droppen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Vilken massa har droppen? Svara i kg.",
+        "s": "<div class=\"facit-v2\"><p>Tyngdkraften är \\(F_g=mg\\). Lös ut massan:</p><p>\\[m=\\frac{9{,}6\\cdot10^{-11}}{9{,}82}\\]</p><p><strong>Svar:</strong> \\(9{,}77597\\cdot10^{-12}\\,\\mathrm{kg}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.775967413441954e-12,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 1.9551934826883908e-13,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>När kulan svävar balanserar den elektriska kraften tyngdkraften. Lös ut massan.</p>",
+        "t": "<p>Tyngdkraften på ett föremål är \\(9{,}6\\cdot10^{-11}\\,\\mathrm N\\). Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vilken massa motsvarar denna tyngdkraft? Svara i kg.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad händer om fältet slås av?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När fältet slås av försvinner den elektriska kraften.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften blir då obalanserad och droppen faller.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Använd sambandet mellan laddning, fältstyrka och elektrisk kraft. Att droppen svävar stilla ger sedan en relation mellan krafterna på droppen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Vad händer med droppen direkt när fältet stängs av?",
+        "s": "<div class=\"facit-v2\"><p>När fältet stängs av försvinner den uppåtriktade elektriska kraften. Tyngdkraften finns kvar och droppen börjar falla.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den börjar falla.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den börjar falla.",
+            "ratt": true,
+            "kommentar": "Den elektriska kraften försvinner, men tyngdkraften finns kvar."
+          },
+          {
+            "txt": "Den fortsätter sväva.",
+            "ratt": false,
+            "kommentar": "Det finns inte längre en elektrisk kraft som balanserar tyngdkraften."
+          },
+          {
+            "txt": "Den börjar stiga.",
+            "ratt": false,
+            "kommentar": "Tyngdkraften verkar nedåt."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilken kraft finns kvar när det elektriska fältet stängs av?</p>",
+        "t": "<p>En droppe svävar stilla eftersom den elektriska kraften uppåt balanserar tyngdkraften.</p><p>Vad händer med droppen direkt när fältet stängs av?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "laddning",
     "familjTidigare": [
       "Coulombs lag och elektrisk kraft"
@@ -87729,72 +88040,64 @@ window.BANK = [
     "id": "8.100",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Vilket eller vilka av följande påståenden är korrekta?</p>\n<ol><li>De elektriska fältlinjerna går alltid in mot positiva laddningar.</li>\n<li>En negativ laddning påverkas av en kraft i motsatt riktning mot fältlinjernas riktning.</li>\n<li>De elektriska fältlinjerna går alltid in mot negativa laddningar.</li>\n<li>En positiv laddning påverkas av en kraft i motsatt riktning mot fältlinjernas riktning.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fel.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältlinjer lämnar positiva laddningar, inte går in mot dem.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rätt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en negativ laddning får motsatt riktning mot fältet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\vec F=q\\vec E,\\qquad q&lt;0\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rätt i den vanliga fältlinjebeskrivningen: fältlinjer går in mot negativa laddningar.</p></div><div class=\"facit-stycke\"><p>De kan också börja eller sluta i oändligheten när motsatt laddning saknas i den ritade situationen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fel.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En positiv laddning påverkas i fältlinjernas riktning.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Påståendena b och c är korrekta.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Vilka påståenden om elektriskt fält och kraft är korrekta? Markera alla som stämmer.</p>",
+    "s": "<div class=\"facit-v2\"><p>Fältet pekar ut från en positiv laddning och in mot en negativ laddning.</p><p>En positiv laddning påverkas i fältets riktning. En negativ laddning påverkas åt motsatt håll.</p><p><strong>Svar:</strong> påståendena om kraften på en negativ laddning och fältet nära en negativ laddning är korrekta.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "falt__laddad_partikel_i_elektriskt_falt",
-    "ledtrad": "<p>Fel. Fältlinjer lämnar positiva laddningar, inte går in mot dem.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vilket eller vilka av följande påståenden är korrekta?</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "De elektriska fältlinjerna går alltid in mot positiva laddningar.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fel.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältlinjer lämnar positiva laddningar, inte går in mot dem.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fel. Fältlinjer lämnar positiva laddningar, inte går in mot dem.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "En negativ laddning påverkas av en kraft i motsatt riktning mot fältlinjernas riktning.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rätt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en negativ laddning får motsatt riktning mot fältet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\vec F=q\\vec E,\\qquad q&lt;0\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(q\\vec E,\\qquad q&lt;0\\).</p></div>",
-        "ledtrad": "<p>Fel. Fältlinjer lämnar positiva laddningar, inte går in mot dem.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "c",
-        "fraga": "De elektriska fältlinjerna går alltid in mot negativa laddningar.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rätt i den vanliga fältlinjebeskrivningen: fältlinjer går in mot negativa laddningar.</p></div><div class=\"facit-stycke\"><p>De kan också börja eller sluta i oändligheten när motsatt laddning saknas i den ritade situationen.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fel. Fältlinjer lämnar positiva laddningar, inte går in mot dem.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "d",
-        "fraga": "En positiv laddning påverkas av en kraft i motsatt riktning mot fältlinjernas riktning.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fel.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En positiv laddning påverkas i fältlinjernas riktning.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fel. Fältlinjer lämnar positiva laddningar, inte går in mot dem.</p>",
-        "niva": "C"
-      }
-    ],
+    "ledtrad": "<p>Fältets riktning bestäms av kraften på en positiv testladdning.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "alternativ": [
+      {
+        "txt": "Fältet nära en positiv laddning är riktat in mot laddningen.",
+        "ratt": false,
+        "kommentar": "Fältet nära plus är riktat ut från laddningen."
+      },
+      {
+        "txt": "Kraften på en negativ laddning är motsatt fältets riktning.",
+        "ratt": true,
+        "kommentar": "Minustecknet på laddningen vänder kraftens riktning."
+      },
+      {
+        "txt": "Fältet nära en negativ laddning är riktat in mot laddningen.",
+        "ratt": true,
+        "kommentar": "En positiv testladdning dras mot minus."
+      },
+      {
+        "txt": "Kraften på en positiv laddning är motsatt fältets riktning.",
+        "ratt": false,
+        "kommentar": "En positiv laddning påverkas i fältets riktning."
+      }
+    ],
+    "svarFormat": null,
+    "svarEnhet": null
   },
   {
     "id": "8.337",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "fältstyrka kring punktladdning",
-    "poang": "(0/2/0)",
-    "t": "<p>Bestäm den elektriska fältstyrkan på avståndet \\(0{,}25\\,\\mathrm m\\) från en punktladdning \\(+3\\,\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet från en punktladdning fås genom att Coulombkraften divideras med testladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{|Q|}{r^2}=8{,}988\\cdot10^9\\frac{3\\cdot10^{-6}}{(0,25)^2}=4{,}314\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}314\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En punktladdning har laddningen +3,0 µC.</p><p>Hur stor är fältstyrkan 0,25 m från laddningen?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot3\\cdot10^{-6}}{0{,}25^2}\\]</p><p><strong>Svar:</strong> \\(4{,}3152\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur",
@@ -87802,30 +88105,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 431424,
-    "tolerans": 7765.632,
+    "rättSvar": 431520.0,
+    "tolerans": 10788.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Använd fältstyrkan från en punktladdning och skriv laddningen i coulomb.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.338",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "kraftens riktning för negativ laddning i homogent fält",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett homogent elektriskt fält har styrkan \\(1600\\,\\mathrm{N/C}\\) åt höger. En laddning \\(-3{,}0\\,\\mu\\mathrm C\\) placeras i fältet. Bestäm kraftens x-komponent med höger som positiv riktning.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 1600 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning är \\(F=qE\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En negativ laddning får kraft motsatt fältriktningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot1600=-0{,}0048\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}0048\\ \\mathrm N\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett elektriskt fält är riktat åt höger och har styrkan 1600 N/C. Laddningen −3,0 µC placeras i fältet.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 1600 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div><p>Vilken elektrisk kraft verkar på laddningen? Svara i N med höger som positiv riktning.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningen: \\(q=-3{,}0\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Använd laddningens tecken när kraftens riktning ska ingå:</p><p>\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot1600\\]</p><p>\\[F_x=-0{,}0048\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(-0{,}0048\\,\\mathrm N\\), alltså åt vänster.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "begrepp",
@@ -87833,29 +88137,30 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": -0.0048,
-    "tolerans": 8.64e-05,
+    "rättSvar": -0.0048000000000000004,
+    "tolerans": 0.00012000000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältets riktning definieras som kraftens riktning på en positiv testladdning.</p>",
+    "ledtrad": "<p>En negativ laddning påverkas åt motsatt håll mot fältet.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.101",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>I en laserskrivare styrs tonerpartiklar av ett elektriskt fält. En partikel har massan 5,0·10⁻¹² kg och laddningen 1,0·10⁻¹⁵ C. Fältstyrkan är 1,0·10⁶ V/m.</p>\n<ol><li>Hur stor elektrisk kraft verkar på partikeln?</li><li>Hur stor är tyngdkraften?</li>\n<li>Varför kan skrivaren styra partiklarna så exakt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning i ett elektriskt fält är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=|q|E=(1{,}0\\cdot10^{-15})(1{,}0\\cdot10^6)=1{,}0\\cdot10^{-9}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=(5{,}0\\cdot10^{-12})(9{,}82)=4{,}91\\cdot10^{-11}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför krafterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{F_e}{F_g}=\\frac{1{,}0\\cdot10^{-9}}{4{,}91\\cdot10^{-11}}\\approx20\\]</div></div><div class=\"facit-stycke\"><p>Det elektriska fältet kan snabbt ändras och riktas mot bestämda punkter.</p></div><div class=\"facit-stycke\"><p>Därför kan tonerpartikeln styras mycket mer än den påverkas av tyngdkraften.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektriska kraften är \\(1{,}0\\cdot10^{-9}\\ \\mathrm N\\), tyngdkraften \\(4{,}9\\cdot10^{-11}\\ \\mathrm N\\); elfältet ger ungefär 20 gånger större kraft.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>I en laserskrivare styrs tonerpartiklar av ett elektriskt fält. En partikel har massan \\(5{,}0\\cdot10^{-12}\\,\\mathrm{kg}\\), laddningen \\(1{,}0\\cdot10^{-15}\\,\\mathrm C\\) och fältstyrkan \\(10^6\\,\\mathrm{V/m}\\). Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>a) Hur stor elektrisk kraft verkar på partikeln? Svara i N.</p><p>b) Hur stor är tyngdkraften? Svara i N.</p><p>c) Vilken kraft har störst storlek?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[F_e=qE=1{,}0\\cdot10^{-15}\\cdot10^6\\]</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-9}\\,\\mathrm N\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[F_g=mg=5{,}0\\cdot10^{-12}\\cdot9{,}82\\]</p><p><strong>Svar:</strong> \\(4{,}91\\cdot10^{-11}\\,\\mathrm N\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Dela den elektriska kraften med tyngdkraften:</p><p>\\[\\frac{F_e}{F_g}=\\frac{1{,}0\\cdot10^{-9}}{4{,}91\\cdot10^{-11}}\\approx20\\]</p><p>Den elektriska kraften är cirka 20 gånger större.</p></div></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "procedur",
@@ -87865,18 +88170,18 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1e-09,
-      4.9e-11,
-      null
+      4.91e-11,
+      "Den elektriska kraften är cirka 20 gånger större."
     ],
     "tolerans": [
-      3e-11,
-      1.47e-12,
+      2.0000000000000002e-11,
+      9.82e-13,
       null
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
@@ -87895,41 +88200,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "falt__laddad_partikel_i_elektriskt_falt",
-    "ledtrad": "<p>Kraften på en laddning i ett elektriskt fält är Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
+    "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en laserskrivare styrs tonerpartiklar av ett elektriskt fält. En partikel har massan 5,0·10⁻¹² kg och laddningen 1,0·10⁻¹⁵ C. Fältstyrkan är 1,0·10⁶ V/m.</p>",
+    "spelIntro": "<p>I en laserskrivare styrs tonerpartiklar av ett elektriskt fält. En partikel har massan \\(5{,}0\\cdot10^{-12}\\,\\mathrm{kg}\\), laddningen \\(1{,}0\\cdot10^{-15}\\,\\mathrm C\\) och fältstyrkan \\(10^6\\,\\mathrm{V/m}\\). Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor elektrisk kraft verkar på partikeln?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning i ett elektriskt fält är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=|q|E=(1{,}0\\cdot10^{-15})(1{,}0\\cdot10^6)=1{,}0\\cdot10^{-9}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}0\\cdot10^{-9}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Kraften på en laddning i ett elektriskt fält är Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
+        "fraga": "Hur stor elektrisk kraft verkar på partikeln? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>\\[F_e=qE=1{,}0\\cdot10^{-15}\\cdot10^6\\]</p><p><strong>Svar:</strong> \\(1{,}0\\cdot10^{-9}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1e-09,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 2.0000000000000002e-11,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
+        "t": "<p>En tonerpartikel har laddningen \\(1{,}0\\cdot10^{-15}\\,\\mathrm C\\). Fältstyrkan är \\(1{,}0\\cdot10^6\\,\\mathrm{V/m}\\).</p><p>Hur stor elektrisk kraft verkar på partikeln? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är tyngdkraften?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=(5{,}0\\cdot10^{-12})(9{,}82)=4{,}91\\cdot10^{-11}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}91\\cdot10^{-11}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Kraften på en laddning i ett elektriskt fält är Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor är tyngdkraften? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>\\[F_g=mg=5{,}0\\cdot10^{-12}\\cdot9{,}82\\]</p><p><strong>Svar:</strong> \\(4{,}91\\cdot10^{-11}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.91e-11,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 9.82e-13,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
+        "t": "<p>En tonerpartikel har massan \\(5{,}0\\cdot10^{-12}\\,\\mathrm{kg}\\). Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Hur stor är tyngdkraften? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Varför kan skrivaren styra partiklarna så exakt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför krafterna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{F_e}{F_g}=\\frac{1{,}0\\cdot10^{-9}}{4{,}91\\cdot10^{-11}}\\approx20\\]</div></div><div class=\"facit-stycke\"><p>Det elektriska fältet kan snabbt ändras och riktas mot bestämda punkter.</p></div><div class=\"facit-stycke\"><p>Därför kan tonerpartikeln styras mycket mer än den påverkas av tyngdkraften.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1{,}0\\cdot10^{-9}}{4{,}91\\cdot10^{-11}}\\approx20\\).</p></div>",
-        "ledtrad": "<p>Kraften på en laddning i ett elektriskt fält är Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vilken kraft har störst storlek?",
+        "s": "<div class=\"facit-v2\"><p>Dela den elektriska kraften med tyngdkraften:</p><p>\\[\\frac{F_e}{F_g}=\\frac{1{,}0\\cdot10^{-9}}{4{,}91\\cdot10^{-11}}\\approx20\\]</p><p>Den elektriska kraften är cirka 20 gånger större.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den elektriska kraften är cirka 20 gånger större.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den elektriska kraften är cirka 20 gånger större.",
+            "ratt": true,
+            "kommentar": "1,0·10⁻⁹ / (4,91·10⁻¹¹) ≈ 20."
+          },
+          {
+            "txt": "Tyngdkraften är cirka 20 gånger större.",
+            "ratt": false,
+            "kommentar": "Jämför potenserna och dela elektrisk kraft med tyngdkraft."
+          },
+          {
+            "txt": "Krafterna är lika stora.",
+            "ratt": false,
+            "kommentar": "Värdena skiljer sig med ungefär en faktor 20."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför de två krafterna i frågan.</p>",
+        "t": "<p>En tonerpartikel påverkas av en elektrisk kraft på \\(1{,}0\\cdot10^{-9}\\,\\mathrm N\\) och tyngdkraften \\(4{,}91\\cdot10^{-11}\\,\\mathrm N\\).</p><p>Vilken kraft har störst storlek?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -87938,11 +88290,11 @@ window.BANK = [
     "id": "8.339",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "fältstyrka kring punktladdning",
-    "poang": "(0/2/0)",
-    "t": "<p>Bestäm den elektriska fältstyrkan på avståndet \\(0{,}35\\,\\mathrm m\\) från en punktladdning \\(+5\\,\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet från en punktladdning fås genom att Coulombkraften divideras med testladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{|Q|}{r^2}=8{,}988\\cdot10^9\\frac{5\\cdot10^{-6}}{(0,35)^2}=3{,}669\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}669\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Fältstyrkan är 3,67·10⁵ N/C på avståndet 0,35 m från en punktladdning. Fältet pekar bort från laddningen.</p><p>Vilken laddning har den? Svara i µC.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Fältet pekar bort från en positiv laddning. Lös ut laddningen ur \\(E=kQ/r^2\\):</p><p>\\[Q=\\frac{Er^2}{k}=\\frac{3{,}67\\cdot10^5\\cdot0{,}35^2}{8{,}99\\cdot10^9}\\]</p><p><strong>Svar:</strong> cirka +5,0 µC.</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur",
@@ -87950,30 +88302,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 366857.14,
-    "tolerans": 6603.428571,
+    "rättSvar": 5.000834260289209,
+    "tolerans": 0.12502085650723024,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Vilket tecken har en laddning som fältet pekar bort från? Lös sedan ut Q.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "N/C",
-    "traningsniva": 3,
+    "svarEnhet": "µC",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.340",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "kraftens riktning för negativ laddning i homogent fält",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett homogent elektriskt fält har styrkan \\(2000\\,\\mathrm{N/C}\\) åt höger. En laddning \\(-3{,}0\\,\\mu\\mathrm C\\) placeras i fältet. Bestäm kraftens x-komponent med höger som positiv riktning.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 2000 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning är \\(F=qE\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En negativ laddning får kraft motsatt fältriktningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot2000=-0{,}006\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}006\\ \\mathrm N\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett elektriskt fält är riktat åt höger och har styrkan 2000 N/C. Den elektriska kraften på en laddning är −0,0060 N med höger som positiv riktning.</p><p>Vilken laddning har partikeln? Svara i µC.</p>",
+    "s": "<div class=\"facit-v2\"><p>Lös ut laddningen och behåll kraftens tecken:</p><p>\\[q=\\frac{F_x}{E}=\\frac{-0{,}0060}{2000}=-3{,}0\\cdot10^{-6}\\,\\mathrm C\\]</p><p><strong>Svar:</strong> −3,0 µC.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "begrepp",
@@ -87981,59 +88334,62 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": -0.006,
-    "tolerans": 0.000108,
+    "rättSvar": -3.0,
+    "tolerans": 0.07500000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältets riktning definieras som kraftens riktning på en positiv testladdning.</p>",
+    "ledtrad": "<p>Vilket laddningstecken ger en kraft åt vänster i ett fält åt höger?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "N",
-    "traningsniva": 3,
+    "svarEnhet": "µC",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.102",
     "kap": 8,
     "omr": "falt",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Två parallella plattor har spänningen 60 V mellan sig. Avståndet är 2,5 cm.</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">2,5 cm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 60 V</text></svg></div>\n<p>Hur stark är fältstyrkan mellan plattorna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan parallella plattor kan fältet antas homogent.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Då är fältstyrkan spänningsskillnaden per avstånd.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv avståndet i meter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2{,}5\\ \\mathrm{cm}=0{,}025\\ \\mathrm m\\]\\[E=\\frac Ud=\\frac{60}{0{,}025}=2{,}4\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan är \\(2{,}4\\ \\mathrm{kV/m}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två parallella plattor har spänningen 60 V mellan sig. Avståndet är \\(2{,}5\\,\\mathrm{cm}\\).</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">2,5 cm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = 60 V</text></svg></div><p>Hur starkt är det elektriska fältet mellan plattorna?</p>",
+    "s": "<div class=\"facit-v2\"><p>Plattavståndet är \\(d=0{,}025\\,\\mathrm m\\).</p><p>\\[E=\\frac Ud=\\frac{60}{0{,}025}\\]</p><p><strong>Svar:</strong> \\(2400\\,\\mathrm{V/m}\\).</p></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2400.0,
+    "tolerans": 60.0,
+    "självrättning": true,
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Mellan parallella plattor kan fältet antas homogent. Då är fältstyrkan spänningsskillnaden per avstånd. Skriv avståndet i meter.</p>",
+    "ledtrad": "<p>Skriv plattavståndet i meter innan du delar spänningen med avståndet.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "V/m"
   },
   {
     "id": "8.341",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "fältstyrka kring punktladdning",
-    "poang": "(0/2/0)",
-    "t": "<p>En liten laddad metallkula på ett stativ har laddningen \\(+2\\,\\mu\\mathrm C\\). Bestäm den elektriska fältstyrkan på avståndet \\(0{,}2\\,\\mathrm m\\) från kulan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet från en punktladdning fås genom att Coulombkraften divideras med testladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{|Q|}{r^2}=8{,}988\\cdot10^9\\frac{2\\cdot10^{-6}}{(0,2)^2}=4{,}494\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}494\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En liten metallkula har laddningen +2,0 µC.</p><p>Hur stor är fältstyrkan 0,20 m från laddningen?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot2\\cdot10^{-6}}{0{,}2^2}\\]</p><p><strong>Svar:</strong> \\(4{,}495\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur",
@@ -88041,30 +88397,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 449400,
-    "tolerans": 8089.2,
+    "rättSvar": 449499.9999999999,
+    "tolerans": 11237.499999999998,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Använd fältstyrkan från en punktladdning och skriv laddningen i coulomb.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.342",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "kraftens riktning för negativ laddning i homogent fält",
-    "poang": "(0/2/0)",
-    "t": "<p>Mellan två plattor finns ett homogent elektriskt fält med styrkan \\(1400\\,\\mathrm{N/C}\\) riktat åt höger. En liten oljedroppe med laddningen \\(-3{,}0\\,\\mu\\mathrm C\\) hamnar mellan plattorna. Bestäm kraftens x-komponent med höger som positiv riktning.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 1400 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning är \\(F=qE\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En negativ laddning får kraft motsatt fältriktningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot1400=-0{,}0042\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}0042\\ \\mathrm N\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett elektriskt fält är riktat åt höger och har styrkan 1400 N/C. Laddningen −3,0 µC placeras i fältet.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 1400 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div><p>Vilken elektrisk kraft verkar på laddningen? Svara i N med höger som positiv riktning.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningen: \\(q=-3{,}0\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Använd laddningens tecken när kraftens riktning ska ingå:</p><p>\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot1400\\]</p><p>\\[F_x=-0{,}0042\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(-0{,}0042\\,\\mathrm N\\), alltså åt vänster.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "begrepp",
@@ -88073,19 +88430,20 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
     "rättSvar": -0.0042,
-    "tolerans": 7.56e-05,
+    "tolerans": 0.000105,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältets riktning definieras som kraftens riktning på en positiv testladdning.</p>",
+    "ledtrad": "<p>En negativ laddning påverkas åt motsatt håll mot fältet.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.103",
@@ -88236,9 +88594,9 @@ window.BANK = [
     "omr": "falt",
     "niva": "C",
     "typ": "jämföra elektrisk kraft och tyngdkraft på en laddad droppe och beräkna accelerationen, ur text, sökt kraft och acceleration",
-    "poang": "(2/1/0)",
-    "t": "<p>En liten droppe med massan 2,0·10⁻⁹ kg och laddningen 4,0 nC befinner sig i ett elektriskt fält med fältstyrkan 8000 V/m. Fältet är riktat rakt uppåt och laddningen är positiv.</p>\n<ol><li>Hur stor elektrisk kraft verkar på droppen?</li>\n<li>Hur stor är tyngdkraften på droppen?</li>\n<li>Hur stor är den resulterande kraften, och åt vilket håll?</li>\n<li>Vilken acceleration får droppen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den positiva laddningen påverkas i fältets riktning, uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=qE=(4{,}0\\cdot10^{-9})(8000)=3{,}20\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften verkar nedåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=(2{,}0\\cdot10^{-9})(9{,}82)=1{,}96\\cdot10^{-8}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Välj uppåt som positiv riktning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=F_e-F_g=3{,}20\\cdot10^{-5}-1{,}96\\cdot10^{-8}=3{,}198\\cdot10^{-5}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Resultanten är uppåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{F_{\\mathrm{res}}}{m}=\\frac{3{,}198\\cdot10^{-5}}{2{,}0\\cdot10^{-9}}=1{,}60\\cdot10^4\\ \\mathrm{m/s^2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_e=3{,}2\\cdot10^{-5}\\ \\mathrm N\\) uppåt, \\(F_g=2{,}0\\cdot10^{-8}\\ \\mathrm N\\) nedåt. Resultanten är cirka \\(3{,}2\\cdot10^{-5}\\ \\mathrm N\\) uppåt och \\(a=1{,}6\\cdot10^4\\ \\mathrm{m/s^2}\\).</p></div>",
+    "poang": "(2/2/0)",
+    "t": "<p>En droppe har massan \\(2{,}0\\cdot10^{-9}\\,\\mathrm{kg}\\) och laddningen +4,0 nC. Den befinner sig i ett elektriskt fält på 8000 V/m riktat uppåt. Använd g = 9,82 m/s².</p><p>a) Hur stor elektrisk kraft verkar på droppen? Svara i N.</p><p>b) Hur stor är tyngdkraften? Svara i N.</p><p>c) Vad är summan av krafterna? Svara i N med uppåt som positiv riktning.</p><p>d) Vilken acceleration får droppen? Svara med uppåt som positiv riktning.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[F_e=qE=4{,}0\\cdot10^{-9}\\cdot8000\\]</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{-5}\\,\\mathrm N\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[F_g=mg=2{,}0\\cdot10^{-9}\\cdot9{,}82\\]</p><p><strong>Svar:</strong> \\(1{,}964\\cdot10^{-8}\\,\\mathrm N\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Den elektriska kraften är positiv och tyngdkraften negativ med detta riktningsval.</p><p>\\[F_{\\mathrm{summa}}=3{,}2\\cdot10^{-5}-1{,}964\\cdot10^{-8}\\]</p><p><strong>Svar:</strong> \\(+3{,}198036\\cdot10^{-5}\\,\\mathrm N\\), alltså uppåt.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Använd kraftsumman i Newtons andra lag:</p><p>\\[a=\\frac{F_{\\mathrm{summa}}}{m}=\\frac{3{,}198036\\cdot10^{-5}}{2{,}0\\cdot10^{-9}}\\]</p><p><strong>Svar:</strong> \\(a\\approx+1{,}6\\cdot10^4\\,\\mathrm{m/s^2}\\), uppåt.</p></div></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "procedur"
@@ -88247,17 +88605,22 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.2000000000000005e-05,
-      1.96e-08,
-      3.198e-05,
-      16000
+      1.9640000000000002e-08,
+      3.198036000000001e-05,
+      15990.180000000002
     ],
     "tolerans": [
-      9.600000000000001e-07,
-      5.879999999999999e-10,
-      9.594e-07,
-      240
+      6.400000000000001e-07,
+      3.928000000000001e-10,
+      6.396072000000002e-07,
+      319.8036000000001
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -88278,57 +88641,102 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "falt__laddad_partikel_i_elektriskt_falt",
-    "ledtrad": "<p>Den positiva laddningen påverkas i fältets riktning, uppåt.</p>",
+    "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En liten droppe med massan 2,0·10⁻⁹ kg och laddningen 4,0 nC befinner sig i ett elektriskt fält med fältstyrkan 8000 V/m. Fältet är riktat rakt uppåt och laddningen är positiv.</p>",
+    "spelIntro": "<p>En droppe har massan \\(2{,}0\\cdot10^{-9}\\,\\mathrm{kg}\\) och laddningen +4,0 nC. Den befinner sig i ett elektriskt fält på 8000 V/m riktat uppåt. Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor elektrisk kraft verkar på droppen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den positiva laddningen påverkas i fältets riktning, uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=qE=(4{,}0\\cdot10^{-9})(8000)=3{,}20\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}20\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den positiva laddningen påverkas i fältets riktning, uppåt.</p>",
-        "niva": "C"
+        "fraga": "Hur stor elektrisk kraft verkar på droppen? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>\\[F_e=qE=4{,}0\\cdot10^{-9}\\cdot8000\\]</p><p><strong>Svar:</strong> \\(3{,}2\\cdot10^{-5}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.2000000000000005e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 6.400000000000001e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
+        "t": "<p>En positiv droppe har laddningen +4,0 nC i ett elektriskt fält med styrkan 8000 V/m.</p><p>Hur stor elektrisk kraft verkar på droppen? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är tyngdkraften på droppen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften verkar nedåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=(2{,}0\\cdot10^{-9})(9{,}82)=1{,}96\\cdot10^{-8}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}96\\cdot10^{-8}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den positiva laddningen påverkas i fältets riktning, uppåt.</p>",
-        "niva": "C"
+        "fraga": "Hur stor är tyngdkraften? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>\\[F_g=mg=2{,}0\\cdot10^{-9}\\cdot9{,}82\\]</p><p><strong>Svar:</strong> \\(1{,}964\\cdot10^{-8}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.9640000000000002e-08,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 3.928000000000001e-10,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
+        "t": "<p>Droppens massa är \\(2{,}0\\cdot10^{-9}\\,\\mathrm{kg}\\). Använd g = 9,82 m/s².</p><p>Hur stor är tyngdkraften? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är den resulterande kraften, och åt vilket håll?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Välj uppåt som positiv riktning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=F_e-F_g=3{,}20\\cdot10^{-5}-1{,}96\\cdot10^{-8}=3{,}198\\cdot10^{-5}\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Resultanten är uppåt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}198\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den positiva laddningen påverkas i fältets riktning, uppåt.</p>",
-        "niva": "C"
+        "fraga": "Vad är summan av krafterna? Svara i N med uppåt som positiv riktning.",
+        "s": "<div class=\"facit-v2\"><p>Den elektriska kraften är positiv och tyngdkraften negativ med detta riktningsval.</p><p>\\[F_{\\mathrm{summa}}=3{,}2\\cdot10^{-5}-1{,}964\\cdot10^{-8}\\]</p><p><strong>Svar:</strong> \\(+3{,}198036\\cdot10^{-5}\\,\\mathrm N\\), alltså uppåt.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.198036000000001e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 6.396072000000002e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Krafter åt olika håll får olika tecken.</p>",
+        "t": "<p>På droppen verkar en elektrisk kraft på \\(3{,}2\\cdot10^{-5}\\,\\mathrm N\\) uppåt och tyngdkraften \\(1{,}964\\cdot10^{-8}\\,\\mathrm N\\) nedåt.</p><p>Vad är summan av krafterna? Svara i N med uppåt som positiv riktning.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Vilken acceleration får droppen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{F_{\\mathrm{res}}}{m}=\\frac{3{,}198\\cdot10^{-5}}{2{,}0\\cdot10^{-9}}=1{,}60\\cdot10^4\\ \\mathrm{m/s^2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}60\\cdot10^4\\ \\mathrm{m/s^2}\\).</p></div>",
-        "ledtrad": "<p>Den positiva laddningen påverkas i fältets riktning, uppåt.</p>",
-        "niva": "C"
+        "fraga": "Vilken acceleration får droppen? Svara med uppåt som positiv riktning.",
+        "s": "<div class=\"facit-v2\"><p>Använd kraftsumman i Newtons andra lag:</p><p>\\[a=\\frac{F_{\\mathrm{summa}}}{m}=\\frac{3{,}198036\\cdot10^{-5}}{2{,}0\\cdot10^{-9}}\\]</p><p><strong>Svar:</strong> \\(a\\approx+1{,}6\\cdot10^4\\,\\mathrm{m/s^2}\\), uppåt.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 15990.180000000002,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m/s²",
+        "tolerans": 319.8036000000001,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd den givna sammanlagda kraften och Newtons andra lag.</p>",
+        "t": "<p>Droppens massa är \\(2{,}0\\cdot10^{-9}\\,\\mathrm{kg}\\). Kraftsumman är \\(3{,}198036\\cdot10^{-5}\\,\\mathrm N\\) uppåt.</p><p>Vilken acceleration får droppen? Svara med uppåt som positiv riktning.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 2,
+    "arbetsinsats": 4,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.343",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "fältstyrka kring punktladdning",
-    "poang": "(0/2/0)",
-    "t": "<p>Kupolen på en van de Graaff-generator har laddningen \\(+4\\,\\mu\\mathrm C\\), som kan behandlas som en punktladdning i kupolens mitt. Bestäm fältstyrkan på avståndet \\(0{,}3\\,\\mathrm m\\) från kupolens mitt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet från en punktladdning fås genom att Coulombkraften divideras med testladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{|Q|}{r^2}=8{,}988\\cdot10^9\\frac{4\\cdot10^{-6}}{(0,3)^2}=3{,}995\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}995\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En generator har en laddad metallkupol. Kupolen kan behandlas som en punktladdning på +4,0 µC.</p><p>Hur stor är fältstyrkan 0,30 m från kupolens mitt?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot4\\cdot10^{-6}}{0{,}3^2}\\]</p><p><strong>Svar:</strong> \\(3{,}99556\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur",
@@ -88336,61 +88744,79 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 399466.67,
-    "tolerans": 7190.4,
+    "rättSvar": 399555.55555555556,
+    "tolerans": 9988.88888888889,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Använd fältstyrkan från en punktladdning och skriv laddningen i coulomb.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.344",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "kraftens riktning för negativ laddning i homogent fält",
-    "poang": "(0/2/0)",
-    "t": "<p>I en elektrostatisk färgspruta finns ett homogent fält med styrkan \\(1800\\,\\mathrm{N/C}\\) åt höger. En färgdroppe har laddningen \\(-3{,}0\\,\\mu\\mathrm C\\). Bestäm kraftens x-komponent med höger som positiv riktning.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 1800 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning är \\(F=qE\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En negativ laddning får kraft motsatt fältriktningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot1800=-0{,}0054\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}0054\\ \\mathrm N\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>I en elektrisk färgspruta är en färgdroppe negativt laddad. Det elektriska fältet pekar åt höger.</p><p>Åt vilket håll påverkas färgdroppen av den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den negativa färgdroppen påverkas motsatt fältets riktning. När fältet pekar åt höger går kraften åt vänster.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "begrepp"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "numeriskt",
-    "rättSvar": -0.0054,
-    "tolerans": 9.72e-05,
+    "svarstyp": "alternativ",
+    "rättSvar": "Åt vänster.",
+    "tolerans": null,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältets riktning definieras som kraftens riktning på en positiv testladdning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N",
-    "traningsniva": 3,
+    "ledtrad": "<p>Fältets riktning visar kraftens riktning på en positiv laddning. Vad ändras för en negativ laddning?</p>",
+    "svarFormat": null,
+    "svarEnhet": null,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
+    ],
+    "manuellKomplettering": false,
+    "alternativ": [
+      {
+        "txt": "Åt vänster.",
+        "ratt": true,
+        "kommentar": "Droppen är negativ och påverkas motsatt fältets riktning."
+      },
+      {
+        "txt": "Åt höger.",
+        "ratt": false,
+        "kommentar": "Det gäller för en positiv droppe."
+      },
+      {
+        "txt": "Rakt uppåt.",
+        "ratt": false,
+        "kommentar": "Den elektriska kraften går längs fältet eller åt motsatt håll."
+      }
     ]
   },
   {
     "id": "8.105",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna fältstyrka mellan plattor och kraften på en laddning, ur diagram, sökt fältstyrka och kraft",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två parallella plattor. Fältlinjerna är utritade.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"-10.000 17.600 516.000 204.800\"><rect x=\"90\" y=\"52\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"176\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"240\" y=\"212\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><line x1=\"130\" y1=\"72\" x2=\"130\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"130,168 125.4,158 134.6,158\" fill=\"#9A959C\"/><line x1=\"180\" y1=\"72\" x2=\"180\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"180,168 175.4,158 184.6,158\" fill=\"#9A959C\"/><line x1=\"230\" y1=\"72\" x2=\"230\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"230,168 225.4,158 234.6,158\" fill=\"#9A959C\"/><line x1=\"280\" y1=\"72\" x2=\"280\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"280,168 275.4,158 284.6,158\" fill=\"#9A959C\"/><line x1=\"330\" y1=\"72\" x2=\"330\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"330,168 325.4,158 334.6,158\" fill=\"#9A959C\"/><line x1=\"420\" y1=\"64\" x2=\"420\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"64\" x2=\"425\" y2=\"64\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"176\" x2=\"425\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"430\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">d = 1,5 cm</text><text x=\"60\" y=\"124\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 300 V</text></svg></span>\n<ol><li>Skriv om plattavståndet i meter.</li>\n<li>Bestäm den elektriska fältstyrkan mellan plattorna.</li>\n<li>En kula med laddningen 4,0 nC placeras mellan plattorna. Hur stor kraft verkar på den?</li>\n<li>Åt vilket håll rör sig kulan om laddningen är positiv?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla plattavståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=1{,}5\\ \\mathrm{cm}=0{,}015\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan mellan plattorna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{300}{0{,}015}=2{,}0\\cdot10^4\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på 4,0 nC blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=qE=(4{,}0\\cdot10^{-9})(2{,}0\\cdot10^4)=8{,}0\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En positiv laddning påverkas i fältets riktning, från den positiva övre plattan mot den negativa undre plattan: nedåt.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(d=0{,}015\\ \\mathrm m\\), \\(E=2{,}0\\cdot10^4\\ \\mathrm{V/m}\\), \\(F=8{,}0\\cdot10^{-5}\\ \\mathrm N\\), riktad nedåt.</p></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Två parallella plattor har spänningen 300 V mellan sig. Avståndet är 1,5 cm.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"-10.000 17.600 516.000 204.800\"><rect x=\"90\" y=\"52\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"176\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"240\" y=\"212\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><line x1=\"130\" y1=\"72\" x2=\"130\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"130,168 125.4,158 134.6,158\" fill=\"#9A959C\"/><line x1=\"180\" y1=\"72\" x2=\"180\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"180,168 175.4,158 184.6,158\" fill=\"#9A959C\"/><line x1=\"230\" y1=\"72\" x2=\"230\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"230,168 225.4,158 234.6,158\" fill=\"#9A959C\"/><line x1=\"280\" y1=\"72\" x2=\"280\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"280,168 275.4,158 284.6,158\" fill=\"#9A959C\"/><line x1=\"330\" y1=\"72\" x2=\"330\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"330,168 325.4,158 334.6,158\" fill=\"#9A959C\"/><line x1=\"420\" y1=\"64\" x2=\"420\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"64\" x2=\"425\" y2=\"64\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"176\" x2=\"425\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"430\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">d = 1,5 cm</text><text x=\"60\" y=\"124\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 300 V</text></svg></span><p>En kula med laddningen +4,0 nC placeras mellan plattorna.</p><p>a) Skriv plattavståndet i meter.</p><p>b) Hur starkt är fältet? Svara i V/m.</p><p>c) Hur stor elektrisk kraft verkar på kulan? Svara i N.</p><p>d) Åt vilket håll verkar den elektriska kraften på en positiv kula?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En centimeter är 0,01 m. Därför är \\(1{,}5\\,\\mathrm{cm}=1{,}5/100\\,\\mathrm m=0{,}015\\,\\mathrm m\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Avståndet är 0,015 m.</p><p>\\[E=\\frac{300}{0{,}015}=20000\\,\\mathrm{V/m}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Laddningen är \\(4{,}0\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=qE=4{,}0\\cdot10^{-9}\\cdot20000\\]</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{-5}\\,\\mathrm N\\).</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Fältet går från plus till minus. Kraften på en positiv kula går i samma riktning: mot minusplattan.</p></div></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
@@ -88398,31 +88824,31 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      0.015,
       20000,
       8e-05,
-      null
+      "Mot den negativa plattan."
     ],
     "tolerans": [
-      null,
-      300,
-      2.4000000000000003e-06,
+      1e-06,
+      400.0,
+      1.6000000000000001e-06,
       null
     ],
     "självrättning": [
-      false,
       true,
       true,
-      false
+      true,
+      true
     ],
     "svarFormat": [
-      null,
+      "numeriskt",
       "numeriskt",
       "numeriskt",
       null
     ],
     "svarEnhet": [
-      null,
+      "m",
       "V/m",
       "N",
       null
@@ -88435,45 +88861,104 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
+    "ledtrad": "<p>En centimeter är en hundradels meter.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två parallella plattor. Fältlinjerna är utritade.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"-10.000 17.600 516.000 204.800\"><rect x=\"90\" y=\"52\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"176\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"240\" y=\"212\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><line x1=\"130\" y1=\"72\" x2=\"130\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"130,168 125.4,158 134.6,158\" fill=\"#9A959C\"/><line x1=\"180\" y1=\"72\" x2=\"180\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"180,168 175.4,158 184.6,158\" fill=\"#9A959C\"/><line x1=\"230\" y1=\"72\" x2=\"230\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"230,168 225.4,158 234.6,158\" fill=\"#9A959C\"/><line x1=\"280\" y1=\"72\" x2=\"280\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"280,168 275.4,158 284.6,158\" fill=\"#9A959C\"/><line x1=\"330\" y1=\"72\" x2=\"330\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"330,168 325.4,158 334.6,158\" fill=\"#9A959C\"/><line x1=\"420\" y1=\"64\" x2=\"420\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"64\" x2=\"425\" y2=\"64\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"176\" x2=\"425\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"430\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">d = 1,5 cm</text><text x=\"60\" y=\"124\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 300 V</text></svg></span>",
+    "spelIntro": "<p>Två parallella plattor har spänningen 300 V mellan sig. Avståndet är 1,5 cm.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"-10.000 17.600 516.000 204.800\"><rect x=\"90\" y=\"52\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"176\" width=\"300\" height=\"12\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#B43123\">+</text><text x=\"240\" y=\"212\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"18\" font-weight=\"700\" fill=\"#2A5D9E\">&#8722;</text><line x1=\"130\" y1=\"72\" x2=\"130\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"130,168 125.4,158 134.6,158\" fill=\"#9A959C\"/><line x1=\"180\" y1=\"72\" x2=\"180\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"180,168 175.4,158 184.6,158\" fill=\"#9A959C\"/><line x1=\"230\" y1=\"72\" x2=\"230\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"230,168 225.4,158 234.6,158\" fill=\"#9A959C\"/><line x1=\"280\" y1=\"72\" x2=\"280\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"280,168 275.4,158 284.6,158\" fill=\"#9A959C\"/><line x1=\"330\" y1=\"72\" x2=\"330\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"330,168 325.4,158 334.6,158\" fill=\"#9A959C\"/><line x1=\"420\" y1=\"64\" x2=\"420\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"64\" x2=\"425\" y2=\"64\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"415\" y1=\"176\" x2=\"425\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"430\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">d = 1,5 cm</text><text x=\"60\" y=\"124\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">U = 300 V</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv om plattavståndet i meter.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla plattavståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=1{,}5\\ \\mathrm{cm}=0{,}015\\ \\mathrm m\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}015\\ \\mathrm m\\).</p></div>",
-        "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
-        "niva": "C"
+        "fraga": "Skriv plattavståndet i meter.",
+        "s": "<div class=\"facit-v2\"><p>En centimeter är 0,01 m. Därför är \\(1{,}5\\,\\mathrm{cm}=1{,}5/100\\,\\mathrm m=0{,}015\\,\\mathrm m\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.015,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "m",
+        "tolerans": 1e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>En centimeter är en hundradels meter.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm den elektriska fältstyrkan mellan plattorna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan mellan plattorna är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{300}{0{,}015}=2{,}0\\cdot10^4\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^4\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
-        "niva": "C"
+        "fraga": "Hur starkt är fältet? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet är 0,015 m.</p><p>\\[E=\\frac{300}{0{,}015}=20000\\,\\mathrm{V/m}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 20000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 400.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "En kula med laddningen 4,0 nC placeras mellan plattorna. Hur stor kraft verkar på den?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på 4,0 nC blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=qE=(4{,}0\\cdot10^{-9})(2{,}0\\cdot10^4)=8{,}0\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
-        "niva": "C"
+        "fraga": "Hur stor elektrisk kraft verkar på kulan? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Laddningen är \\(4{,}0\\cdot10^{-9}\\,\\mathrm C\\).</p><p>\\[F=qE=4{,}0\\cdot10^{-9}\\cdot20000\\]</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{-5}\\,\\mathrm N\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 1.6000000000000001e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
+        "t": "<p>En positiv kula har laddningen +4,0 nC. Fältstyrkan är 20000 V/m.</p><p>Hur stor elektrisk kraft verkar på kulan? Svara i N.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Åt vilket håll rör sig kulan om laddningen är positiv?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En positiv laddning påverkas i fältets riktning, från den positiva övre plattan mot den negativa undre plattan: nedåt.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
-        "niva": "C"
+        "fraga": "Åt vilket håll verkar den elektriska kraften på en positiv kula?",
+        "s": "<div class=\"facit-v2\"><p>Fältet går från plus till minus. Kraften på en positiv kula går i samma riktning: mot minusplattan.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Mot den negativa plattan.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Mot den negativa plattan.",
+            "ratt": true,
+            "kommentar": "En positiv laddning påverkas i fältets riktning."
+          },
+          {
+            "txt": "Mot den positiva plattan.",
+            "ratt": false,
+            "kommentar": "Det gäller en negativ laddning."
+          },
+          {
+            "txt": "Kraften har ingen riktning.",
+            "ratt": false,
+            "kommentar": "Elektrisk kraft har både storlek och riktning."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på kraften på en positiv laddning mellan en plusplatta och en minusplatta.</p>",
+        "t": "<p>En positiv kula placeras mellan en positiv och en negativ platta.</p><p>Åt vilket håll verkar den elektriska kraften på en positiv kula?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -88482,11 +88967,11 @@ window.BANK = [
     "id": "8.345",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "fältstyrka kring punktladdning",
-    "poang": "(0/2/0)",
-    "t": "<p>En gnuggad ballong kan behandlas som en punktladdning \\(+6\\,\\mu\\mathrm C\\). Bestäm fältstyrkan på avståndet \\(0{,}4\\,\\mathrm m\\) från ballongen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet från en punktladdning fås genom att Coulombkraften divideras med testladdningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{|Q|}{r^2}=8{,}988\\cdot10^9\\frac{6\\cdot10^{-6}}{(0,4)^2}=3{,}37\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}37\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En ballong kan behandlas som en punktladdning på +6,0 µC.</p><p>Hur stor är fältstyrkan 0,40 m från ballongens mitt?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot6\\cdot10^{-6}}{0{,}4^2}\\]</p><p><strong>Svar:</strong> \\(3{,}37125\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur",
@@ -88494,30 +88979,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 337050,
-    "tolerans": 6066.9,
+    "rättSvar": 337124.99999999994,
+    "tolerans": 8428.124999999998,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Använd fältstyrkan från en punktladdning och skriv laddningen i coulomb.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.346",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "kraftens riktning för negativ laddning i homogent fält",
-    "poang": "(0/2/0)",
-    "t": "<p>I en elektrostatisk luftrenare finns ett homogent fält med styrkan \\(1200\\,\\mathrm{N/C}\\) åt höger. En dammpartikel har laddningen \\(-3{,}0\\,\\mu\\mathrm C\\). Bestäm kraftens x-komponent med höger som positiv riktning.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 1200 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraften på en laddning är \\(F=qE\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En negativ laddning får kraft motsatt fältriktningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot1200=-0{,}0036\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}0036\\ \\mathrm N\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett elektriskt fält är riktat åt höger och har styrkan 1200 N/C. En dammpartikel i en luftrenare har laddningen −3,0 µC.</p><div class=\"fig smal\"><svg width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 30 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"66\" x2=\"380\" y2=\"66\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 66 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"102\" x2=\"380\" y2=\"102\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 102 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"138\" x2=\"380\" y2=\"138\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 138 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"30\" y1=\"174\" x2=\"380\" y2=\"174\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M392 174 l-12 -5 v10 Z\" fill=\"#9aa3b2\"/><text x=\"330\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = 1200 N/C</text><rect x=\"150\" y=\"82\" width=\"120\" height=\"58\" fill=\"#fff\" opacity=\"0.85\"/><circle cx=\"210.0\" cy=\"102\" r=\"15\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"102\" x2=\"217.0\" y2=\"102\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"210\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text></svg></div><p>Vilken elektrisk kraft verkar på laddningen? Svara i N med höger som positiv riktning.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningen: \\(q=-3{,}0\\cdot10^{-6}\\,\\mathrm C\\).</p><p>Använd laddningens tecken när kraftens riktning ska ingå:</p><p>\\[F_x=qE=-3{,}0\\cdot10^{-6}\\cdot1200\\]</p><p>\\[F_x=-0{,}0036\\,\\mathrm N\\]</p><p><strong>Svar:</strong> \\(-0{,}0036\\,\\mathrm N\\), alltså åt vänster.</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "begrepp",
@@ -88526,28 +89012,29 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
     "rättSvar": -0.0036,
-    "tolerans": 6.48e-05,
+    "tolerans": 9e-05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältets riktning definieras som kraftens riktning på en positiv testladdning.</p>",
+    "ledtrad": "<p>En negativ laddning påverkas åt motsatt håll mot fältet.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.106",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En liten kula har laddningen 25 nC.</p><ol><li>Bestäm den elektriska fältstyrkan 4,0 cm från kulan.</li><li>Bestäm fältstyrkan 8,0 cm från kulan.</li><li>Hur förändras fältstyrkan när avståndet fördubblas?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan från en punktladdning avtar med kvadraten på avståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{k|q|}{r^2}=\\frac{8{,}99\\cdot10^9\\cdot25\\cdot10^{-9}}{0{,}040^2}\\approx1{,}40\\cdot10^5\\ \\mathrm{N/C}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{8{,}99\\cdot10^9\\cdot25\\cdot10^{-9}}{0{,}080^2}\\approx3{,}51\\cdot10^4\\ \\mathrm{N/C}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När avståndet fördubblas blir fältstyrkan en fjärdedel så stor.</p></div></div></div></div></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En liten kula har laddningen +25 nC.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Hur stor är fältstyrkan 4 cm från kulan? Svara i N/C.</p><p>b) Hur stor är fältstyrkan 8 cm från kulan? Svara i N/C.</p><p>c) Hur förändras fältstyrkan när avståndet fördubblas?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot2{,}5\\cdot10^{-8}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(1{,}40469\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Avståndet blir dubbelt så stort. I punktladdningens fält finns avståndet i kvadrat i nämnaren.</p><p>\\[E_{\\mathrm{ny}}=\\frac{140468{,}8}{4}\\]</p><p><strong>Svar:</strong> \\(3{,}51172\\cdot10^{4}\\,\\mathrm{N/C}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Dubbelt avstånd ger fyra gånger större nämnare. Fältstyrkan blir en fjärdedel så stor.</p></div></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur"
@@ -88555,28 +89042,28 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      140000,
-      null,
-      null
+      140468.75,
+      35117.1875,
+      "Den blir en fjärdedel så stor."
     ],
     "tolerans": [
-      2100,
-      null,
+      2809.375,
+      702.34375,
       null
     ],
     "självrättning": [
       true,
-      false,
-      false
+      true,
+      true
     ],
     "svarFormat": [
       "numeriskt",
-      null,
+      "numeriskt",
       null
     ],
     "svarEnhet": [
-      "N",
-      null,
+      "N/C",
+      "N/C",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -88586,41 +89073,52 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "falt__falt_fran_punktladdning",
-    "ledtrad": "<p>För \\(Q=25\\ \\mathrm{nC}\\), testladdningen \\(q=1{,}0\\ \\mathrm C\\) och \\(r=0{,}040\\ \\mathrm m\\) ger Coulombs lag</p>",
+    "ledtrad": "<p>Använd fältstyrkan från en punktladdning. Avståndet ska kvadreras.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Johannes vill beräkna hur starkt det elektriska fältet är 4,0 cm ifrån en kula med laddningen 25 nC.</p>",
+    "spelIntro": "<p>En liten kula har laddningen +25 nC.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna kraften som verkar på en testpartikel med laddningen 1,0 C som befinner sig 4,0 cm ifrån kulan.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För \\(Q=25\\ \\mathrm{nC}\\), testladdningen \\(q=1{,}0\\ \\mathrm C\\) och \\(r=0{,}040\\ \\mathrm m\\) ger Coulombs lag</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=k\\frac{|Qq|}{r^2}=8{,}99\\cdot10^9\\frac{(25\\cdot10^{-9})(1{,}0)}{(0{,}040)^2}=1{,}40\\cdot10^5\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}40\\cdot10^5\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>För \\(Q=25\\ \\mathrm{nC}\\), testladdningen \\(q=1{,}0\\ \\mathrm C\\) och \\(r=0{,}040\\ \\mathrm m\\) ger Coulombs lag</p>",
+        "fraga": "Hur stor är fältstyrkan 4 cm från kulan? Svara i N/C.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot2{,}5\\cdot10^{-8}}{0{,}04^2}\\]</p><p><strong>Svar:</strong> \\(1{,}40469\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 140468.75,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N/C",
+        "tolerans": 2809.375,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd fältstyrkan från en punktladdning. Avståndet ska kvadreras.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Använd resultatet för att bestämma fältstyrkan på detta avstånd.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan är kraft per testladdning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Fq=1{,}40\\cdot10^5\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}40\\cdot10^5\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>För \\(Q=25\\ \\mathrm{nC}\\), testladdningen \\(q=1{,}0\\ \\mathrm C\\) och \\(r=0{,}040\\ \\mathrm m\\) ger Coulombs lag</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Hur stark är fältstyrkan 8,0 cm ifrån kulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När avståndet fördubblas blir punktladdningsfältet en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{8\\,\\mathrm{cm}}=\\frac{1{,}40\\cdot10^5}{4}=3{,}51\\cdot10^4\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}51\\cdot10^4\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>För \\(Q=25\\ \\mathrm{nC}\\), testladdningen \\(q=1{,}0\\ \\mathrm C\\) och \\(r=0{,}040\\ \\mathrm m\\) ger Coulombs lag</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Hur stor är fältstyrkan 8 cm från kulan? Svara i N/C.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet blir dubbelt så stort. I punktladdningens fält finns avståndet i kvadrat i nämnaren.</p><p>\\[E_{\\mathrm{ny}}=\\frac{140468{,}8}{4}\\]</p><p><strong>Svar:</strong> \\(3{,}51172\\cdot10^{4}\\,\\mathrm{N/C}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 35117.1875,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N/C",
+        "tolerans": 702.34375,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur ändras nämnaren när avståndet fördubblas?</p>",
+        "t": "<p>Fältstyrkan 4 cm från en liten laddad kula är \\(140468{,}8\\,\\mathrm{N/C}\\).</p><p>Hur stor är fältstyrkan 8 cm från kulan? Svara i N/C.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -88629,11 +89127,11 @@ window.BANK = [
     "id": "8.347",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "fältstyrka från punktladdning",
-    "poang": "(0/2/0)",
-    "t": "<p>Bestäm fältstyrkans storlek \\(0{,}18\\,\\mathrm m\\) från en punktladdning \\(+4{,}5\\,\\mu\\mathrm C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan från en punktladdning följer en invers kvadratlag.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac{Q}{r^2}=8{,}988\\cdot10^9\\frac{4{,}5\\cdot10^{-6}}{0{,}18^2}=1{,}2483\\cdot10^{6}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2483\\cdot10^{6}\\,\\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En punktladdning har laddningen +4,5 µC.</p><p>Hur stor är fältstyrkan 0,18 m från laddningen?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot4{,}5\\cdot10^{-6}}{0{,}18^2}\\]</p><p><strong>Svar:</strong> \\(1{,}24861\\cdot10^{6}\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur",
@@ -88641,20 +89139,21 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 1248333.3333333335,
-    "tolerans": 22470,
+    "rättSvar": 1248611.1111111112,
+    "tolerans": 31215.27777777778,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Använd fältstyrkan från en punktladdning och skriv laddningen i coulomb.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.348",
@@ -88662,9 +89161,9 @@ window.BANK = [
     "omr": "falt",
     "niva": "C",
     "typ": "superposition av elektriska fält från två laddningar",
-    "poang": "(0/2/0)",
-    "t": "<p>Två punktladdningar \\(+2{,}0\\,\\mu\\mathrm C\\) och \\(-2{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}20\\,\\mathrm m\\) från varandra. Bestäm fältstyrkans storlek i mittpunkten mellan laddningarna.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+2,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,20 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I mittpunkten pekar fältet från den positiva laddningen bort från den och fältet från den negativa laddningen mot den.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda bidragen pekar alltså åt samma håll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_1=k\\frac{Q}{r^2}=1{,}7976\\cdot10^{6}\\ \\mathrm{N/C}\\]\\[E=2E_1=3{,}5952\\cdot10^{6}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5952\\cdot10^{6}\\,\\mathrm{N/C}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två laddningar på \\(+2\\,\\mu\\mathrm C\\) och \\(-2\\,\\mu\\mathrm C\\) ligger på var sin sida om P, 0,10 m från P.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+2,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−2,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"230\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,20 m</text></svg></div><p>Hur starkt är det elektriska fältet i P?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Fältet från plusladdningen pekar bort från plus. Fältet från minusladdningen pekar mot minus. I P pekar alltså båda åt samma håll.</p><p>Varje laddning ger fältstyrkan:</p><p>\\[E_1=\\frac{8{,}99\\cdot10^9\\cdot2\\cdot10^{-6}}{0{,}1^2}\\]</p><p>\\[E_1=1{,}798\\cdot10^{6}\\,\\mathrm{N/C}\\]</p><p>Addera de två lika stora fälten:</p><p>\\[E=2E_1=3{,}596\\cdot10^{6}\\,\\mathrm{N/C}\\]</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "resonemang",
@@ -88672,12 +89171,12 @@ window.BANK = [
     ],
     "familjNyckel": "falt__superposition_av_elektriska_falt",
     "svarstyp": "numeriskt",
-    "rättSvar": 3595199.999999999,
-    "tolerans": 64713.59999999998,
+    "rättSvar": 3595999.999999999,
+    "tolerans": 89899.99999999999,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita fältriktningen från vardera laddningen i mittpunkten innan du adderar beloppen.</p>",
+    "ledtrad": "<p>Rita fältriktningen från varje laddning i P innan du lägger ihop fälten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
     "traningsniva": 3,
@@ -88685,7 +89184,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.107",
@@ -88694,7 +89194,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En kula med laddningen 3,6 nC placeras i ett elektriskt fält med fältstyrkan 4500 V/m.</p>\n<p>Hur stor kraft verkar på kulan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraftens storlek fås av \\(F=|q|E\\).</p><div class=\"facit-matte\">\\[F=(3{,}6\\cdot10^{-9})(4{,}5\\cdot10^3)\\approx1{,}62\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom laddningen är positiv är kraften riktad i fältets riktning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(1{,}62\\cdot10^{-5}\\ \\mathrm N=16{,}2\\ \\mu\\mathrm N\\), i fältets riktning.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla laddningen till coulomb:</p><p>\\[q=3{,}6\\cdot10^{-9}\\,\\mathrm C\\]</p><p>Multiplicera laddningens storlek med fältstyrkan:</p><p>\\[F=|q|E=3{,}6\\cdot10^{-9}\\cdot4500\\]</p><p><strong>Svar:</strong> \\(1{,}62\\cdot10^{-5}\\,\\mathrm N=16{,}2\\,\\mu\\mathrm N\\).</p></div>",
     "familj": "Fältstyrka och kraft (E = F/q)",
     "formaga": [
       "procedur"
@@ -88707,7 +89207,7 @@ window.BANK = [
     "svarFormat": "numeriskt",
     "svarEnhet": "µN",
     "familjNyckelTidigare": "falt__falt_fran_punktladdning",
-    "ledtrad": "<p>Kraftens storlek fås av \\(F=|q|E\\). Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
+    "ledtrad": "<p>Omvandla nC till C innan du använder sambandet mellan kraft, laddning och fältstyrka.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -88721,11 +89221,11 @@ window.BANK = [
     "id": "8.349",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "rörelse av elektron i homogent elektriskt fält",
-    "poang": "(0/1/2)",
-    "t": "<p>En elektron släpps från vila i ett homogent elektriskt fält med styrkan \\(2\\cdot10^{4}\\,\\mathrm{N/C}\\). Hur stor är elektronens acceleration?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet ger kraften \\(F=eE\\) i belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger sedan accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{eE}{m_e}=3{,}517\\cdot10^{15}\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}517\\cdot10^{15}\\ \\mathrm{m/s^2}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektron befinner sig i ett elektriskt fält med styrkan \\(2\\cdot10^{4}\\,\\mathrm{N/C}\\).</p><p>Elektronens massa är \\(9{,}109\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Hur stor acceleration ger den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den elektriska kraftens storlek är \\(F=eE\\). Newtons andra lag ger \\(a=F/m_e\\).</p><p>\\[a=\\frac{eE}{m_e}=\\frac{1{,}602\\cdot10^{-19}\\cdot2\\cdot10^{4}}{9{,}109\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> \\(3{,}5174\\cdot10^{15}\\,\\mathrm{m/s^2}\\).</p></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "resonemang",
@@ -88733,30 +89233,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 3517400400000000,
-    "tolerans": 63313207000000,
+    "rättSvar": 3517400373257218.5,
+    "tolerans": 87935009331430.47,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Koppla först elektrisk kraft \\(F=qE\\) till Newtons andra lag.</p>",
+    "ledtrad": "<p>Bestäm den elektriska kraften och använd sedan Newtons andra lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.350",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "vektorsuperposition av elektriska fält",
-    "poang": "(0/1/2)",
-    "t": "<p>I en punkt bidrar två elektriska fält vinkelrätt mot varandra med storlekarna \\(1600\\,\\mathrm{N/C}\\) och \\(1000\\,\\mathrm{N/C}\\). Bestäm resultantens storlek.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"314.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M325.0 205.0 L314.0 211.0 L314.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"72.2\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 61.2 L101.0 72.2 L89.0 72.2 Z\" fill=\"#2b6cb0\"/><line x1=\"325.0\" y1=\"205\" x2=\"325.0\" y2=\"61.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"61.2\" x2=\"325.0\" y2=\"61.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"315.7\" y2=\"67.1\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M325.0 61.2 L318.9 72.2 L312.5 62.0 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"210\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1600 N/C</text><text x=\"49\" y=\"139\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1000 N/C</text><text x=\"196\" y=\"123\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektriska fält är vektorer.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vinkelräta komponenter kombineras med Pythagoras sats.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_R=\\sqrt{E_1^2+E_2^2}=\\sqrt{1600^2+1000^2}=1887\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1887\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>I punkten P ger två laddningar var sitt elektriskt fält: 1600 N/C åt höger och 1000 N/C rakt uppåt.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"314.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M325.0 205.0 L314.0 211.0 L314.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"72.2\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 61.2 L101.0 72.2 L89.0 72.2 Z\" fill=\"#2b6cb0\"/><line x1=\"325.0\" y1=\"205\" x2=\"325.0\" y2=\"61.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"61.2\" x2=\"325.0\" y2=\"61.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"315.7\" y2=\"67.1\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M325.0 61.2 L318.9 72.2 L312.5 62.0 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"210\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1600 N/C</text><text x=\"49\" y=\"139\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1000 N/C</text><text x=\"196\" y=\"123\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div><p>Hur starkt är det sammanlagda elektriska fältet i P?</p>",
+    "s": "<div class=\"facit-v2\"><p>De två fälten är vinkelräta. Använd därför Pythagoras sats för deras summa:</p><p>\\[E=\\sqrt{1600^2+1000^2}\\]</p><p><strong>Svar:</strong> cirka \\(1887\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "resonemang",
@@ -88764,20 +89265,21 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 1886.796226,
-    "tolerans": 33.962332,
+    "rättSvar": 1886.7962264113207,
+    "tolerans": 47.16990566028302,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältstyrka har både storlek och riktning. Här är komponenterna vinkelräta.</p>",
+    "ledtrad": "<p>Rita fältens summa som diagonalen i en rätvinklig triangel.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.108",
@@ -89178,41 +89680,42 @@ window.BANK = [
     "id": "8.114",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Två metallplattor befinner sig 5,0 cm ifrån varandra. En proton mellan plattorna ska accelereras med 80 Gm/s². Protonens massa är 1,673·10⁻²⁷ kg.</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 cm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = ?</text><circle cx=\"210.0\" cy=\"122.0\" r=\"12\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"122.0\" x2=\"217.0\" y2=\"122.0\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"210.0\" y1=\"115.0\" x2=\"210.0\" y2=\"129.0\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"250\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">proton</text></svg></div>\n<p>Vilken spänning ska det vara mellan plattorna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationen 80 Gm/s² är \\(8{,}0\\cdot10^{10}\\ \\mathrm{m/s^2}\\).</p><p class=\"facit-metod\">Kraften på protonen måste vara</p><div class=\"facit-matte\">\\[F=ma=(1{,}673\\cdot10^{-27})(8{,}0\\cdot10^{10})=1{,}338\\cdot10^{-16}\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom protonens laddning är \\(e\\) krävs fältstyrkan</p><div class=\"facit-matte\">\\[E=\\frac F e=\\frac{1{,}338\\cdot10^{-16}}{1{,}602\\cdot10^{-19}}=835\\ \\mathrm{V/m}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Med plattavståndet 0,050 m blir spänningen</p><div class=\"facit-matte\">\\[U=Ed=(835)(0{,}050)=41{,}8\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Spänningen ska vara cirka \\(42\\ \\mathrm V\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Två parallella plattor ligger 5,0 cm från varandra. Den elektriska kraften ska ge en proton accelerationen \\(8{,}0\\cdot10^{10}\\,\\mathrm{m/s^2}\\). Protonens massa är \\(1{,}673\\cdot10^{-27}\\,\\mathrm{kg}\\) och laddningen \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><div class=\"fig smal\"><svg width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella plattor med ett homogent elektriskt fält\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><rect x=\"110\" y=\"40\" width=\"10\" height=\"160\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2\"/><rect x=\"300\" y=\"40\" width=\"10\" height=\"160\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2\"/><text x=\"94\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">+</text><text x=\"326\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20\">−</text><line x1=\"124\" y1=\"58.0\" x2=\"286\" y2=\"58.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 58.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"89.0\" x2=\"286\" y2=\"89.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 89.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"120.0\" x2=\"286\" y2=\"120.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 120.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"151.0\" x2=\"286\" y2=\"151.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 151.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"124\" y1=\"182.0\" x2=\"286\" y2=\"182.0\" stroke=\"#9aa3b2\" stroke-width=\"1.4\"/><path d=\"M296 182.0 l-11 -5 v10 Z\" fill=\"#9aa3b2\"/><line x1=\"120.0\" y1=\"226\" x2=\"300.0\" y2=\"226\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"120.0\" y1=\"219\" x2=\"120.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"219\" x2=\"300.0\" y2=\"233\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"210\" y=\"219\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5,0 cm</text><text x=\"210\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">U = ?</text><circle cx=\"210.0\" cy=\"122.0\" r=\"12\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"203.0\" y1=\"122.0\" x2=\"217.0\" y2=\"122.0\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"210.0\" y1=\"115.0\" x2=\"210.0\" y2=\"129.0\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"250\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">proton</text></svg></div><p>Vilken spänning behövs mellan plattorna?</p>",
+    "s": "<div class=\"facit-v2\"><p>Bestäm kraften med Newtons andra lag:</p><p>\\[F=ma=1{,}673\\cdot10^{-27}\\cdot8{,}0\\cdot10^{10}\\]</p><p>\\[F=1{,}3384\\cdot10^{-16}\\,\\mathrm N\\]</p><p>Fältstyrkan som ger denna kraft är:</p><p>\\[E=\\frac Fq=\\frac{1{,}3384\\cdot10^{-16}}{1{,}602\\cdot10^{-19}}\\]</p><p>Plattavståndet är 0,050 m. Spänningen blir:</p><p>\\[U=Ed\\approx835{,}46\\cdot0{,}050\\]</p><p><strong>Svar:</strong> cirka 42 V.</p></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 42,
-    "tolerans": 0.63,
+    "rättSvar": 41.77278401997504,
+    "tolerans": 1.044319600499376,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Accelerationen 80 Gm/s² är \\(8{,}0\\cdot10^{10}\\ \\mathrm{m/s^2}\\). Kraften på protonen måste vara</p>",
+    "ledtrad": "<p>Bestäm kraften som ger accelerationen och därefter det fält som ger kraften.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.351",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "C",
     "typ": "superposition av elektriska fält mellan motsatta laddningar",
-    "poang": "(0/1/2)",
-    "t": "<p>Två punktladdningar \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-3{,}0\\,\\mu\\mathrm C\\) ligger på samma linje, vardera \\(0{,}34\\,\\mathrm m\\) från mittpunkten. Bestäm fältstyrkans storlek i mittpunkten.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,34 m</text><line x1=\"230.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"310\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,34 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I mittpunkten pekar fältet från den positiva laddningen bort från plus och fältet från den negativa mot minus.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De har alltså samma riktning och adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2k\\frac{Q}{a^2}=4{,}665\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}665\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två laddningar på \\(+3\\,\\mu\\mathrm C\\) och \\(-3\\,\\mu\\mathrm C\\) ligger på var sin sida om P, 0,34 m från P.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar på lika avstånd från P\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"90\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"90\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+3,0 µC</text><circle cx=\"410\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"410\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"410\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">−3,0 µC</text><circle cx=\"250\" cy=\"108\" r=\"4\" fill=\"#243747\"/><text x=\"250\" y=\"95\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">P</text><path d=\"M90 34 V46 M250 34 V46 M90 40 H250\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"170.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,34 m</text><path d=\"M250 34 V46 M410 34 V46 M250 40 H410\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"330.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,34 m</text></svg></div><p>Hur starkt är det elektriska fältet i P?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Fältet från plusladdningen pekar bort från plus. Fältet från minusladdningen pekar mot minus. I P pekar alltså båda åt samma håll.</p><p>Varje laddning ger fältstyrkan:</p><p>\\[E_1=\\frac{8{,}99\\cdot10^9\\cdot3\\cdot10^{-6}}{0{,}34^2}\\]</p><p>\\[E_1=2{,}33304\\cdot10^{5}\\,\\mathrm{N/C}\\]</p><p>Addera de två lika stora fälten:</p><p>\\[E=2E_1=4{,}66609\\cdot10^{5}\\,\\mathrm{N/C}\\]</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "resonemang",
@@ -89220,30 +89723,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 466505.19,
-    "tolerans": 8397.093426,
+    "rättSvar": 466608.9965397923,
+    "tolerans": 11665.224913494807,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita först fältriktningen från vardera laddningen i mittpunkten.</p>",
+    "ledtrad": "<p>Rita fältriktningen från varje laddning i P innan du lägger ihop fälten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.352",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "rörelse av elektron i homogent elektriskt fält",
-    "poang": "(0/1/2)",
-    "t": "<p>En elektron släpps från vila i ett homogent elektriskt fält med styrkan \\(2{,}6\\cdot10^{4}\\,\\mathrm{N/C}\\). Hur stor är elektronens acceleration?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet ger kraften \\(F=eE\\) i belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger sedan accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{eE}{m_e}=4{,}573\\cdot10^{15}\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}573\\cdot10^{15}\\ \\mathrm{m/s^2}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektron befinner sig i ett elektriskt fält med styrkan \\(2{,}6\\cdot10^{4}\\,\\mathrm{N/C}\\).</p><p>Elektronens massa är \\(9{,}109\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Hur stor acceleration ger den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den elektriska kraftens storlek är \\(F=eE\\). Newtons andra lag ger \\(a=F/m_e\\).</p><p>\\[a=\\frac{eE}{m_e}=\\frac{1{,}602\\cdot10^{-19}\\cdot2{,}6\\cdot10^{4}}{9{,}109\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> \\(4{,}57262\\cdot10^{15}\\,\\mathrm{m/s^2}\\).</p></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "resonemang",
@@ -89251,93 +89755,204 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 4572620500000000,
-    "tolerans": 82307169000000,
+    "rättSvar": 4572620485234384.0,
+    "tolerans": 114315512130859.61,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Koppla först elektrisk kraft \\(F=qE\\) till Newtons andra lag.</p>",
+    "ledtrad": "<p>Bestäm den elektriska kraften och använd sedan Newtons andra lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.115",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "tolka fältbilden runt en punktladdning och beräkna fältstyrkan på två avstånd, ur diagram, sökt riktning och fältstyrka",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar fältlinjerna runt en positivt laddad kula. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><span class=\"fig smal\"><svg height=\"450\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"152.857 19.286 194.286 230.000\"><circle cx=\"250\" cy=\"120\" r=\"24\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"127\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"280\" y1=\"120\" x2=\"338\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"324.0,120.0 313.0,124.0 313.0,116.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"141.213\" x2=\"312.225\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,172.3 291.7,167.4 297.4,161.7\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"150\" x2=\"250\" y2=\"208\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,194.0 246.0,183.0 254.0,183.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"141.213\" x2=\"187.775\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,172.3 202.6,161.7 208.3,167.4\" fill=\"#9A959C\"/><line x1=\"220\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"176.0,120.0 187.0,116.0 187.0,124.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"98.7868\" x2=\"187.775\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,67.7 208.3,72.6 202.6,78.3\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"32\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,46.0 254.0,57.0 246.0,57.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"98.7868\" x2=\"312.225\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,67.7 297.4,78.3 291.7,72.6\" fill=\"#9A959C\"/><text x=\"250\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q = 40 nC</text></svg></span>\n<ol><li>Varför pekar fältlinjerna utåt?</li>\n<li>Var är fältet starkast? Hur syns det i figuren?</li>\n<li>Bestäm fältstyrkan 2,0 cm från kulans mitt.</li>\n<li>Bestäm fältstyrkan 4,0 cm från kulans mitt utan att räkna om hela uttrycket.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältriktningen definieras som kraftens riktning på en positiv testladdning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En positiv testladdning stöts bort av kulan, så linjerna pekar utåt.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet är starkast närmast kulan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det visas genom att fältlinjerna ligger tätast där.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 2,0 cm avstånd gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac Q{r^2}=8{,}99\\cdot10^9\\frac{40\\cdot10^{-9}}{(0{,}020)^2}=8{,}99\\cdot10^5\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När avståndet fördubblas till 4,0 cm blir fältstyrkan en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{4\\,\\mathrm{cm}}=\\frac{8{,}99\\cdot10^5}{4}=2{,}25\\cdot10^5\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältet pekar utåt och är starkast nära kulan. \\(E(2{,}0\\ \\mathrm{cm})=9{,}0\\cdot10^5\\ \\mathrm{V/m}\\) och \\(E(4{,}0\\ \\mathrm{cm})=2{,}2\\cdot10^5\\ \\mathrm{V/m}\\).</p></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Figuren visar fältlinjerna runt en positiv kula med laddningen +40 nC.</p><span class=\"fig smal\"><svg height=\"450\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"152.857 19.286 194.286 230.000\"><circle cx=\"250\" cy=\"120\" r=\"24\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"127\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"280\" y1=\"120\" x2=\"338\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"324.0,120.0 313.0,124.0 313.0,116.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"141.213\" x2=\"312.225\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,172.3 291.7,167.4 297.4,161.7\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"150\" x2=\"250\" y2=\"208\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,194.0 246.0,183.0 254.0,183.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"141.213\" x2=\"187.775\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,172.3 202.6,161.7 208.3,167.4\" fill=\"#9A959C\"/><line x1=\"220\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"176.0,120.0 187.0,116.0 187.0,124.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"98.7868\" x2=\"187.775\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,67.7 208.3,72.6 202.6,78.3\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"32\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,46.0 254.0,57.0 246.0,57.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"98.7868\" x2=\"312.225\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,67.7 297.4,78.3 291.7,72.6\" fill=\"#9A959C\"/><text x=\"250\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q = 40 nC</text></svg></span><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>a) Varför pekar fältlinjerna ut från en positiv kula?</p><p>b) Var är fältet starkast i figuren?</p><p>c) Hur stor är fältstyrkan 2,0 cm från kulans mitt? Svara i V/m.</p><p>d) Hur stor är fältstyrkan 4,0 cm från kulans mitt? Svara i V/m.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En positiv testladdning stöts bort från den positiva kulan. Fältlinjerna pekar i kraftens riktning på en positiv testladdning, alltså utåt.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Linjerna ligger tätast nära kulan. Där är det elektriska fältet starkast.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot4\\cdot10^{-8}}{0{,}02^2}\\]</p><p><strong>Svar:</strong> \\(8{,}99\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Avståndet fördubblas. Fältstyrkan blir därför en fjärdedel:</p><p>\\[E_{4\\mathrm{cm}}=\\frac{899000}{4}=224750\\,\\mathrm{V/m}\\]</p></div></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "procedur",
       "resonemang"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "En positiv testladdning stöts bort av kulan.",
+      "Närmast kulan, där linjerna ligger tätast.",
+      899000,
+      224750
+    ],
+    "tolerans": [
+      null,
+      null,
+      17980.0,
+      5500
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "falt__falt_fran_punktladdning",
-    "ledtrad": "<p>Fältriktningen definieras som kraftens riktning på en positiv testladdning. En positiv testladdning stöts bort av kulan, så linjerna pekar utåt.</p>",
+    "ledtrad": "<p>Fältets riktning visar kraftens riktning på en positiv testladdning.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar fältlinjerna runt en positivt laddad kula. Coulombs konstant är 8,99·10⁹ Nm²/C².</p><span class=\"fig smal\"><svg height=\"450\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"152.857 19.286 194.286 230.000\"><circle cx=\"250\" cy=\"120\" r=\"24\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"127\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"280\" y1=\"120\" x2=\"338\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"324.0,120.0 313.0,124.0 313.0,116.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"141.213\" x2=\"312.225\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,172.3 291.7,167.4 297.4,161.7\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"150\" x2=\"250\" y2=\"208\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,194.0 246.0,183.0 254.0,183.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"141.213\" x2=\"187.775\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,172.3 202.6,161.7 208.3,167.4\" fill=\"#9A959C\"/><line x1=\"220\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"176.0,120.0 187.0,116.0 187.0,124.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"98.7868\" x2=\"187.775\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,67.7 208.3,72.6 202.6,78.3\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"32\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,46.0 254.0,57.0 246.0,57.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"98.7868\" x2=\"312.225\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,67.7 297.4,78.3 291.7,72.6\" fill=\"#9A959C\"/><text x=\"250\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q = 40 nC</text></svg></span>",
+    "spelIntro": "<p>Figuren visar fältlinjerna runt en positiv kula med laddningen +40 nC.</p><span class=\"fig smal\"><svg height=\"450\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"152.857 19.286 194.286 230.000\"><circle cx=\"250\" cy=\"120\" r=\"24\" fill=\"#FBEAE7\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"250\" y=\"127\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"20\" font-weight=\"700\" fill=\"#B43123\">+</text><line x1=\"280\" y1=\"120\" x2=\"338\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"324.0,120.0 313.0,124.0 313.0,116.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"141.213\" x2=\"312.225\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,172.3 291.7,167.4 297.4,161.7\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"150\" x2=\"250\" y2=\"208\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,194.0 246.0,183.0 254.0,183.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"141.213\" x2=\"187.775\" y2=\"182.225\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,172.3 202.6,161.7 208.3,167.4\" fill=\"#9A959C\"/><line x1=\"220\" y1=\"120\" x2=\"162\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"176.0,120.0 187.0,116.0 187.0,124.0\" fill=\"#9A959C\"/><line x1=\"228.787\" y1=\"98.7868\" x2=\"187.775\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"197.7,67.7 208.3,72.6 202.6,78.3\" fill=\"#9A959C\"/><line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"32\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,46.0 254.0,57.0 246.0,57.0\" fill=\"#9A959C\"/><line x1=\"271.213\" y1=\"98.7868\" x2=\"312.225\" y2=\"57.7746\" stroke=\"#9A959C\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"302.3,67.7 297.4,78.3 291.7,72.6\" fill=\"#9A959C\"/><text x=\"250\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q = 40 nC</text></svg></span><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Varför pekar fältlinjerna utåt?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältriktningen definieras som kraftens riktning på en positiv testladdning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En positiv testladdning stöts bort av kulan, så linjerna pekar utåt.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fältriktningen definieras som kraftens riktning på en positiv testladdning. En positiv testladdning stöts bort av kulan, så linjerna pekar utåt.</p>",
-        "niva": "C"
+        "fraga": "Varför pekar fältlinjerna ut från en positiv kula?",
+        "s": "<div class=\"facit-v2\"><p>En positiv testladdning stöts bort från den positiva kulan. Fältlinjerna pekar i kraftens riktning på en positiv testladdning, alltså utåt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "En positiv testladdning stöts bort av kulan.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "En positiv testladdning stöts bort av kulan.",
+            "ratt": true,
+            "kommentar": "Fältriktningen definieras som kraftens riktning på en positiv testladdning."
+          },
+          {
+            "txt": "En negativ testladdning stöts bort av kulan.",
+            "ratt": false,
+            "kommentar": "En negativ testladdning dras mot en positiv kula."
+          },
+          {
+            "txt": "Fältlinjer visar kulans rörelseriktning.",
+            "ratt": false,
+            "kommentar": "Fältlinjer visar det elektriska fältets riktning."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Fältets riktning visar kraftens riktning på en positiv testladdning.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Var är fältet starkast? Hur syns det i figuren?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet är starkast närmast kulan.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det visas genom att fältlinjerna ligger tätast där.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Fältriktningen definieras som kraftens riktning på en positiv testladdning. En positiv testladdning stöts bort av kulan, så linjerna pekar utåt.</p>",
-        "niva": "C"
+        "fraga": "Var är fältet starkast i figuren?",
+        "s": "<div class=\"facit-v2\"><p>Linjerna ligger tätast nära kulan. Där är det elektriska fältet starkast.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Närmast kulan, där linjerna ligger tätast.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Närmast kulan, där linjerna ligger tätast.",
+            "ratt": true,
+            "kommentar": "Tätare fältlinjer visar ett starkare fält."
+          },
+          {
+            "txt": "Långt från kulan, där linjerna är glesast.",
+            "ratt": false,
+            "kommentar": "Glesare linjer visar ett svagare fält."
+          },
+          {
+            "txt": "Fältet är lika starkt överallt.",
+            "ratt": false,
+            "kommentar": "Fältstyrkan från en liten laddad kula minskar med avståndet."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur visas ett starkare fält med fältlinjer?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm fältstyrkan 2,0 cm från kulans mitt.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">På 2,0 cm avstånd gäller</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=k\\frac Q{r^2}=8{,}99\\cdot10^9\\frac{40\\cdot10^{-9}}{(0{,}020)^2}=8{,}99\\cdot10^5\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}99\\cdot10^5\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Fältriktningen definieras som kraftens riktning på en positiv testladdning. En positiv testladdning stöts bort av kulan, så linjerna pekar utåt.</p>",
-        "niva": "C"
+        "fraga": "Hur stor är fältstyrkan 2,0 cm från kulans mitt? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Omvandla laddning och avstånd till coulomb och meter. Fältstyrkans storlek från en punktladdning är \\(E=k|Q|/r^2\\).</p><p>\\[E=\\frac{8{,}99\\cdot10^9\\cdot4\\cdot10^{-8}}{0{,}02^2}\\]</p><p><strong>Svar:</strong> \\(8{,}99\\cdot10^{5}\\,\\mathrm{N/C}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 899000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 17980.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd fältstyrkan från en punktladdning. Avståndet ska kvadreras.</p>",
+        "t": "<p>En liten kula har laddningen +40 nC.</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p><p>Hur stor är fältstyrkan 2,0 cm från kulans mitt? Svara i V/m.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm fältstyrkan 4,0 cm från kulans mitt utan att räkna om hela uttrycket.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När avståndet fördubblas till 4,0 cm blir fältstyrkan en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{4\\,\\mathrm{cm}}=\\frac{8{,}99\\cdot10^5}{4}=2{,}25\\cdot10^5\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\cdot10^5\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Fältriktningen definieras som kraftens riktning på en positiv testladdning. En positiv testladdning stöts bort av kulan, så linjerna pekar utåt.</p>",
-        "niva": "C"
+        "fraga": "Hur stor är fältstyrkan 4,0 cm från kulans mitt? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet fördubblas. Fältstyrkan blir därför en fjärdedel:</p><p>\\[E_{4\\mathrm{cm}}=\\frac{899000}{4}=224750\\,\\mathrm{V/m}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 224750,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 5500,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Avståndet fördubblas. Hur ändras avståndets kvadrat?</p>",
+        "t": "<p>Fältstyrkan 2,0 cm från kulan är 899000 V/m.</p><p>Hur stor är fältstyrkan 4,0 cm från kulans mitt? Svara i V/m.</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      "V/m",
+      "V/m"
     ]
   },
   {
     "id": "8.353",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "vektorsuperposition av elektriska fält",
-    "poang": "(0/1/2)",
-    "t": "<p>I en punkt bidrar två elektriska fält vinkelrätt mot varandra med storlekarna \\(1500\\,\\mathrm{N/C}\\) och \\(900\\,\\mathrm{N/C}\\). Bestäm resultantens storlek.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"314.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M325.0 205.0 L314.0 211.0 L314.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 67.0 L101.0 78.0 L89.0 78.0 Z\" fill=\"#2b6cb0\"/><line x1=\"325.0\" y1=\"205\" x2=\"325.0\" y2=\"67.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"67.0\" x2=\"325.0\" y2=\"67.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"315.6\" y2=\"72.7\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M325.0 67.0 L318.7 77.8 L312.5 67.5 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"210\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1500 N/C</text><text x=\"54\" y=\"142\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">900 N/C</text><text x=\"196\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektriska fält är vektorer.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vinkelräta komponenter kombineras med Pythagoras sats.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_R=\\sqrt{E_1^2+E_2^2}=\\sqrt{1500^2+900^2}=1749\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1749\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>I punkten P ger två laddningar var sitt elektriskt fält: 1500 N/C åt höger och 900 N/C rakt uppåt.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"314.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M325.0 205.0 L314.0 211.0 L314.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 67.0 L101.0 78.0 L89.0 78.0 Z\" fill=\"#2b6cb0\"/><line x1=\"325.0\" y1=\"205\" x2=\"325.0\" y2=\"67.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"67.0\" x2=\"325.0\" y2=\"67.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"315.6\" y2=\"72.7\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M325.0 67.0 L318.7 77.8 L312.5 67.5 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"210\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1500 N/C</text><text x=\"54\" y=\"142\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">900 N/C</text><text x=\"196\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div><p>Hur starkt är det sammanlagda elektriska fältet i P?</p>",
+    "s": "<div class=\"facit-v2\"><p>De två fälten är vinkelräta. Använd därför Pythagoras sats för deras summa:</p><p>\\[E=\\sqrt{1500^2+900^2}\\]</p><p><strong>Svar:</strong> cirka \\(1749\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "resonemang",
@@ -89345,51 +89960,69 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 1749.285568,
-    "tolerans": 31.48714,
+    "rättSvar": 1749.28556845359,
+    "tolerans": 43.73213921133976,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältstyrka har både storlek och riktning. Här är komponenterna vinkelräta.</p>",
+    "ledtrad": "<p>Rita fältens summa som diagonalen i en rätvinklig triangel.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.354",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "superposition av elektriska fält mellan motsatta laddningar",
-    "poang": "(0/1/2)",
-    "t": "<p>Två punktladdningar \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-3{,}0\\,\\mu\\mathrm C\\) ligger på samma linje, vardera \\(0{,}32\\,\\mathrm m\\) från mittpunkten. Bestäm fältstyrkans storlek i mittpunkten.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,32 m</text><line x1=\"230.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"310\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,32 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I mittpunkten pekar fältet från den positiva laddningen bort från plus och fältet från den negativa mot minus.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De har alltså samma riktning och adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2k\\frac{Q}{a^2}=5{,}266\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}266\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Laddningarna +3,0 µC och −3,0 µC ligger 0,32 m från P på var sin sida.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar på lika avstånd från P\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"90\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"90\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+3,0 µC</text><circle cx=\"410\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"410\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"410\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">−3,0 µC</text><circle cx=\"250\" cy=\"108\" r=\"4\" fill=\"#243747\"/><text x=\"250\" y=\"95\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">P</text><path d=\"M90 34 V46 M250 34 V46 M90 40 H250\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"170.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,32 m</text><path d=\"M250 34 V46 M410 34 V46 M250 40 H410\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"330.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,32 m</text></svg></div><p>Åt vilket håll pekar det elektriska fältet i P?</p>",
+    "s": "<div class=\"facit-v2\"><p>Fältet från plus pekar bort från plus. Fältet från minus pekar mot minus. I P pekar båda från plus mot minus. Summan har samma riktning.</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "begrepp"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
-    "svarstyp": "numeriskt",
-    "rättSvar": 526640.62,
-    "tolerans": 9479.53125,
+    "svarstyp": "alternativ",
+    "rättSvar": "Från den positiva laddningen mot den negativa.",
+    "tolerans": null,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita först fältriktningen från vardera laddningen i mittpunkten.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "ledtrad": "<p>Rita en pil från plusladdningen och en pil mot minusladdningen i P.</p>",
+    "svarFormat": null,
+    "svarEnhet": null,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "alternativ": [
+      {
+        "txt": "Från den positiva laddningen mot den negativa.",
+        "ratt": true,
+        "kommentar": "Båda laddningarnas fält pekar åt samma håll i mittpunkten."
+      },
+      {
+        "txt": "Från den negativa laddningen mot den positiva.",
+        "ratt": false,
+        "kommentar": "Fältet går ut från plus och in mot minus."
+      },
+      {
+        "txt": "Fältet är noll i P.",
+        "ratt": false,
+        "kommentar": "Lika stora fält tar bara ut varandra om riktningarna är motsatta."
+      }
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.116",
@@ -94926,11 +95559,11 @@ window.BANK = [
     "id": "8.168",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "beräkna fältstyrka mellan plattor, ur diagram, sökt fältstyrka",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar två parallella plattor.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 90 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 3,0 cm</text></svg></span>\n<ol><li>Bestäm den elektriska fältstyrkan mellan plattorna.</li>\n<li>Vad händer med fältstyrkan om plattavståndet fördubblas med samma spänning?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Plattavståndet är</p><div class=\"facit-matte\">\\[3{,}0 c m=0{,}030\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{90}{0{,}030}=3{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om avståndet fördubblas medan spänningen är oförändrad får man</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E'=\\frac{U}{2d}=\\frac E2=1{,}5\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan är först \\(3{,}0\\ \\mathrm{kV/m}\\) och halveras till \\(1{,}5\\ \\mathrm{kV/m}\\).</p></div>",
+    "poang": "(2/0/0)",
+    "t": "<p>Två parallella plattor har spänningen 90 V mellan sig. Avståndet är 3,0 cm.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 90 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 3,0 cm</text></svg></span><p>a) Hur starkt är fältet mellan plattorna? Svara i V/m.</p><p>b) Hur ändras fältstyrkan när plattavståndet fördubblas men spänningen är oförändrad?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Avståndet är \\(3{,}0\\,\\mathrm{cm}=0{,}030\\,\\mathrm m\\).</p><p>\\[E=\\frac{90}{0{,}030}=3000\\,\\mathrm{V/m}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Mellan plattorna gäller \\(E=U/d\\). När d fördubblas och U är oförändrad blir fältstyrkan hälften så stor.</p></div></div>",
     "familj": "Homogent fält mellan plattor (E = U/d)",
     "formaga": [
       "procedur"
@@ -94939,15 +95572,15 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       3000,
-      null
+      "Fältstyrkan halveras."
     ],
     "tolerans": [
-      45,
+      60.0,
       null
     ],
     "självrättning": [
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
@@ -94963,31 +95596,69 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "falt__homogent_elektriskt_falt",
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar två parallella plattor.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 90 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 3,0 cm</text></svg></span>",
+    "spelIntro": "<p>Två parallella plattor har spänningen 90 V mellan sig. Avståndet är 3,0 cm.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"32.421 8.902 405.586 195.202\"><rect x=\"70\" y=\"36\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><rect x=\"70\" y=\"185\" width=\"280\" height=\"9\" fill=\"#2B2527\"/><line x1=\"92\" y1=\"49\" x2=\"92\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"92,181 87.4,171 96.6,171\" fill=\"#9A959C\"/><line x1=\"125.71428571428572\" y1=\"49\" x2=\"125.71428571428572\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"125.71428571428572,181 121.11428571428573,171 130.31428571428572,171\" fill=\"#9A959C\"/><line x1=\"159.42857142857144\" y1=\"49\" x2=\"159.42857142857144\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"159.42857142857144,181 154.82857142857145,171 164.02857142857144,171\" fill=\"#9A959C\"/><line x1=\"193.14285714285714\" y1=\"49\" x2=\"193.14285714285714\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"193.14285714285714,181 188.54285714285714,171 197.74285714285713,171\" fill=\"#9A959C\"/><line x1=\"226.85714285714286\" y1=\"49\" x2=\"226.85714285714286\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"226.85714285714286,181 222.25714285714287,171 231.45714285714286,171\" fill=\"#9A959C\"/><line x1=\"260.57142857142856\" y1=\"49\" x2=\"260.57142857142856\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"260.57142857142856,181 255.97142857142856,171 265.1714285714286,171\" fill=\"#9A959C\"/><line x1=\"294.2857142857143\" y1=\"49\" x2=\"294.2857142857143\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"294.2857142857143,181 289.68571428571425,171 298.8857142857143,171\" fill=\"#9A959C\"/><line x1=\"328\" y1=\"49\" x2=\"328\" y2=\"171\" stroke=\"#9A959C\" stroke-width=\"2.3\"/><polygon points=\"328,181 323.4,171 332.6,171\" fill=\"#9A959C\"/><text x=\"58\" y=\"50\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#B43123\">+</text><text x=\"58\" y=\"193\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2A5D9E\">−</text><text x=\"210\" y=\"27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">U = 90 V</text><text x=\"366\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">d = 3,0 cm</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den elektriska fältstyrkan mellan plattorna.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Plattavståndet är</p><div class=\"facit-matte\">\\[3{,}0 c m=0{,}030\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac Ud=\\frac{90}{0{,}030}=3{,}0\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^3\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Plattavståndet är 3,0 cm = 0,030 m. Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C"
+        "fraga": "Hur starkt är fältet mellan plattorna? Svara i V/m.",
+        "s": "<div class=\"facit-v2\"><p>Avståndet är \\(3{,}0\\,\\mathrm{cm}=0{,}030\\,\\mathrm m\\).</p><p>\\[E=\\frac{90}{0{,}030}=3000\\,\\mathrm{V/m}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "V/m",
+        "tolerans": 60.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv plattavståndet i meter. Vilket samband kopplar ihop spänning, avstånd och fältstyrka?</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Vad händer med fältstyrkan om plattavståndet fördubblas med samma spänning?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om avståndet fördubblas medan spänningen är oförändrad får man</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E'=\\frac{U}{2d}=\\frac E2=1{,}5\\cdot10^3\\ \\mathrm{V/m}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\cdot10^3\\ \\mathrm{V/m}\\).</p></div>",
-        "ledtrad": "<p>Plattavståndet är 3,0 cm = 0,030 m. Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>",
-        "niva": "C"
+        "fraga": "Hur ändras fältstyrkan när plattavståndet fördubblas men spänningen är oförändrad?",
+        "s": "<div class=\"facit-v2\"><p>Mellan plattorna gäller \\(E=U/d\\). När d fördubblas och U är oförändrad blir fältstyrkan hälften så stor.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Fältstyrkan halveras.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Fältstyrkan halveras.",
+            "ratt": true,
+            "kommentar": "E = U/d, så dubbelt avstånd ger hälften så stort fält."
+          },
+          {
+            "txt": "Fältstyrkan fördubblas.",
+            "ratt": false,
+            "kommentar": "Spänningen är samma medan nämnaren blir dubbelt så stor."
+          },
+          {
+            "txt": "Fältstyrkan blir en fjärdedel så stor.",
+            "ratt": false,
+            "kommentar": "Mellan plattorna används E = U/d, inte punktladdningens kvadratlag."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Spänningen är oförändrad. Vad händer med U/d när d fördubblas?</p>",
+        "t": "<p>Två parallella plattor kopplas till en spänningskälla.</p><p>Hur ändras fältstyrkan när plattavståndet fördubblas men spänningen är oförändrad?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -94996,11 +95667,11 @@ window.BANK = [
     "id": "8.355",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "rörelse av elektron i homogent elektriskt fält",
-    "poang": "(0/1/2)",
-    "t": "<p>I ett vakuumrör släpps en elektron från vila mellan två plattor där fältstyrkan är \\(2{,}4\\cdot10^{4}\\,\\mathrm{N/C}\\). Bestäm elektronens accelerationsbelopp.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet ger kraften \\(F=eE\\) i belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger sedan accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{eE}{m_e}=4{,}221\\cdot10^{15}\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}221\\cdot10^{15}\\ \\mathrm{m/s^2}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektron befinner sig i ett elektriskt fält med styrkan \\(2{,}4\\cdot10^{4}\\,\\mathrm{N/C}\\).</p><p>Elektronens massa är \\(9{,}109\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Hur stor acceleration ger den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den elektriska kraftens storlek är \\(F=eE\\). Newtons andra lag ger \\(a=F/m_e\\).</p><p>\\[a=\\frac{eE}{m_e}=\\frac{1{,}602\\cdot10^{-19}\\cdot2{,}4\\cdot10^{4}}{9{,}109\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> \\(4{,}22088\\cdot10^{15}\\,\\mathrm{m/s^2}\\).</p></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "resonemang",
@@ -95008,30 +95679,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 4220880400000000,
-    "tolerans": 75975848000000,
+    "rättSvar": 4220880447908662.0,
+    "tolerans": 105522011197716.56,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Koppla först elektrisk kraft \\(F=qE\\) till Newtons andra lag.</p>",
+    "ledtrad": "<p>Bestäm den elektriska kraften och använd sedan Newtons andra lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.356",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "vektorsuperposition av elektriska fält",
-    "poang": "(0/1/2)",
-    "t": "<p>I punkten P ger en laddning fältet \\(1800\\,\\mathrm{N/C}\\) åt höger och en annan laddning fältet \\(1200\\,\\mathrm{N/C}\\) rakt uppåt. Bestäm den resulterande fältstyrkans storlek i P.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"309.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M320.0 205.0 L309.0 211.0 L309.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"66.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 55.0 L101.0 66.0 L89.0 66.0 Z\" fill=\"#2b6cb0\"/><line x1=\"320.0\" y1=\"205\" x2=\"320.0\" y2=\"55.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"55.0\" x2=\"320.0\" y2=\"55.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"310.8\" y2=\"61.1\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M320.0 55.0 L314.2 66.1 L307.5 56.1 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"208\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1800 N/C</text><text x=\"49\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1200 N/C</text><text x=\"194\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektriska fält är vektorer.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vinkelräta komponenter kombineras med Pythagoras sats.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_R=\\sqrt{E_1^2+E_2^2}=\\sqrt{1800^2+1200^2}=2163\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2163\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>I punkten P ger två laddningar var sitt elektriskt fält: 1800 N/C åt höger och 1200 N/C rakt uppåt.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"309.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M320.0 205.0 L309.0 211.0 L309.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"66.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 55.0 L101.0 66.0 L89.0 66.0 Z\" fill=\"#2b6cb0\"/><line x1=\"320.0\" y1=\"205\" x2=\"320.0\" y2=\"55.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"55.0\" x2=\"320.0\" y2=\"55.0\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"310.8\" y2=\"61.1\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M320.0 55.0 L314.2 66.1 L307.5 56.1 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"208\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1800 N/C</text><text x=\"49\" y=\"136\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1200 N/C</text><text x=\"194\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div><p>Hur starkt är det sammanlagda elektriska fältet i P?</p>",
+    "s": "<div class=\"facit-v2\"><p>De två fälten är vinkelräta. Använd därför Pythagoras sats för deras summa:</p><p>\\[E=\\sqrt{1800^2+1200^2}\\]</p><p><strong>Svar:</strong> cirka \\(2163\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "resonemang",
@@ -95039,29 +95711,30 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 2163.330765,
-    "tolerans": 38.939954,
+    "rättSvar": 2163.3307652783938,
+    "tolerans": 54.083269131959845,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältstyrka har både storlek och riktning. Här är komponenterna vinkelräta.</p>",
+    "ledtrad": "<p>Rita fältens summa som diagonalen i en rätvinklig triangel.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.169",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
-    "poang": "(0/1/2)",
+    "niva": "C",
+    "poang": "(0/1/0)",
     "t": "<p>Ta fram med hjälp av Coulombs lag en formel för den elektriska fältstyrkan på avståndet r från en laddad partikel med laddningen Q.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Placera en positiv testladdning \\(q\\) på avståndet \\(r\\) från laddningen \\(Q\\).</p><p class=\"facit-metod\">Coulombs lag ger kraftens storlek</p><div class=\"facit-matte\">\\[F=k\\frac{|Qq|}{r^2}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Fältstyrka definieras som kraft per positiv testladdning.</p><div class=\"facit-matte\">\\[E=\\frac F{|q|}=\\frac1{|q|}\\,k\\frac{|Qq|}{r^2}=k\\frac{|Q|}{r^2}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Som vektor pekar fältet radiellt utåt om \\(Q&gt;0\\) och radiellt inåt om (Q&lt;0).</p><div class=\"facit-matte\">\\[\\vec E=k\\frac{Q}{r^2}\\,\\hat{\\mathbf r}\\]</div><p>Testladdningen förkortas bort, vilket visar att fältet är en egenskap hos källaddningen och platsen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fältstyrkan från en punktladdning är \\(E=k|Q|/r^2\\), med riktning ut från positiv och in mot negativ laddning.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Placera en positiv testladdning q på avståndet r från laddningen Q. Coulombs lag ger kraftens storlek:</p><p>\\[F=k\\frac{|Q|q}{r^2}\\]</p><p>Fältstyrkan är kraft per testladdning. Dela därför med q:</p><p>\\[E=\\frac Fq=\\frac{k|Q|q}{r^2q}=k\\frac{|Q|}{r^2}\\]</p><p>Testladdningen förkortas bort. Fältet bestäms av Q och avståndet r. Det pekar ut från en positiv laddning och in mot en negativ.</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "problemlösning"
@@ -95072,10 +95745,10 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "falt__falt_fran_punktladdning",
-    "ledtrad": "<p>Placera en positiv testladdning \\(q\\) på avståndet \\(r\\) från laddningen \\(Q\\). Coulombs lag ger kraftens storlek</p>",
+    "ledtrad": "<p>Skriv först Coulombkraften på en positiv testladdning och använd definitionen av fältstyrka.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -95087,42 +95760,43 @@ window.BANK = [
     "id": "8.357",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "superposition av elektriska fält mellan motsatta laddningar",
-    "poang": "(0/1/2)",
-    "t": "<p>En elektrisk dipol består av laddningarna \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-3{,}0\\,\\mu\\mathrm C\\), som sitter \\(0{,}3\\,\\mathrm m\\) på var sida om mittpunkten P. Bestäm fältstyrkans storlek i P.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,3 m</text><line x1=\"230.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"310\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,3 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I mittpunkten pekar fältet från den positiva laddningen bort från plus och fältet från den negativa mot minus.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De har alltså samma riktning och adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2k\\frac{Q}{a^2}=5{,}992\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}992\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>Två laddningar på +3,0 µC ligger på var sin sida om P, båda 0,30 m från P.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar på lika avstånd från P\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"90\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"90\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+3,0 µC</text><circle cx=\"410\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"410\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"410\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+3,0 µC</text><circle cx=\"250\" cy=\"108\" r=\"4\" fill=\"#243747\"/><text x=\"250\" y=\"95\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">P</text><path d=\"M90 34 V46 M250 34 V46 M90 40 H250\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"170.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,30 m</text><path d=\"M250 34 V46 M410 34 V46 M250 40 H410\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"330.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,30 m</text></svg></div><p>Hur starkt är det elektriska fältet i P?</p>",
+    "s": "<div class=\"facit-v2\"><p>Båda laddningarna är positiva, så deras fält pekar bort från dem. I P pekar det vänstra fältet åt höger och det högra åt vänster.</p><p>Laddningarna och avstånden är lika, så fälten är lika stora. De tar ut varandra.</p><p><strong>Svar:</strong> 0 N/C.</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "begrepp",
+      "resonemang"
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 599200,
-    "tolerans": 10785.6,
+    "rättSvar": 0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita först fältriktningen från vardera laddningen i mittpunkten.</p>",
+    "ledtrad": "<p>Jämför både riktning och storlek på de två fälten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.358",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "rörelse av elektron i homogent elektriskt fält",
-    "poang": "(0/1/2)",
-    "t": "<p>En elektron lämnar en glödtråd med nästan ingen fart och hamnar i ett homogent fält med styrkan \\(2{,}2\\cdot10^{4}\\,\\mathrm{N/C}\\). Hur stor är elektronens acceleration?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet ger kraften \\(F=eE\\) i belopp.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Newtons andra lag ger sedan accelerationen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{eE}{m_e}=3{,}869\\cdot10^{15}\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}869\\cdot10^{15}\\ \\mathrm{m/s^2}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En elektron befinner sig i ett elektriskt fält med styrkan \\(2{,}2\\cdot10^{4}\\,\\mathrm{N/C}\\).</p><p>Elektronens massa är \\(9{,}109\\cdot10^{-31}\\,\\mathrm{kg}\\) och laddningens storlek är \\(1{,}602\\cdot10^{-19}\\,\\mathrm C\\).</p><p>Hur stor acceleration ger den elektriska kraften?</p>",
+    "s": "<div class=\"facit-v2\"><p>Den elektriska kraftens storlek är \\(F=eE\\). Newtons andra lag ger \\(a=F/m_e\\).</p><p>\\[a=\\frac{eE}{m_e}=\\frac{1{,}602\\cdot10^{-19}\\cdot2{,}2\\cdot10^{4}}{9{,}109\\cdot10^{-31}}\\]</p><p><strong>Svar:</strong> \\(3{,}86914\\cdot10^{15}\\,\\mathrm{m/s^2}\\).</p></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "resonemang",
@@ -95130,30 +95804,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 3869140400000000,
-    "tolerans": 69644527000000,
+    "rättSvar": 3869140410582940.0,
+    "tolerans": 96728510264573.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Koppla först elektrisk kraft \\(F=qE\\) till Newtons andra lag.</p>",
+    "ledtrad": "<p>Bestäm den elektriska kraften och använd sedan Newtons andra lag.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.170",
     "kap": 8,
     "omr": "falt",
-    "niva": "C",
+    "niva": "E",
     "typ": "jämföra elektrisk kraft med tyngdkraft, ur text, sökt kraft",
-    "poang": "(1/2/0)",
-    "t": "<p>En liten kula med laddningen 4,0 nC placeras i ett elektriskt fält med fältstyrkan 3000 V/m.</p>\n<ol><li>Hur stor elektrisk kraft verkar på kulan?</li>\n<li>Hur stor massa skulle ha en tyngdkraft av samma storlek?</li><li>Vad säger jämförelsen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=|q|E=(4{,}0\\cdot10^{-9})(3000)=1{,}20\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt denna kraft lika med en tyngdkraft.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{F_e}{g}=\\frac{1{,}20\\cdot10^{-5}}{9{,}82}=1{,}22\\cdot10^{-6}\\ \\mathrm{kg}=1{,}22\\ \\mathrm{mg}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska kraften motsvarar alltså tyngden av cirka 1,2 mg.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För en laddad partikel vars verkliga massa är mycket mindre än detta kan elfältet helt dominera tyngdkraften.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(1{,}20\\cdot10^{-5}\\ \\mathrm N\\), lika stor som tyngden av cirka \\(1{,}2\\ \\mathrm{mg}\\).</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>En kula med laddningen +4,0 nC placeras i ett elektriskt fält med styrkan 3000 V/m. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>a) Hur stor elektrisk kraft verkar på kulan? Svara i N.</p><p>b) Vilken massa motsvarar denna tyngdkraft? Svara i mg.</p><p>c) Vad betyder jämförelsen mellan elektrisk kraft och tyngdkraft?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Använd laddningens storlek:</p><p>\\[F_e=|q|E=4\\cdot10^{-9}\\cdot3\\cdot10^{3}\\]</p><p>\\[F_e=1{,}2\\cdot10^{-5}\\,\\mathrm N\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Tyngdkraften är \\(F_g=mg\\). Lös ut massan:</p><p>\\[m=\\frac{1{,}2\\cdot10^{-5}}{9{,}82}\\]</p><p><strong>Svar:</strong> \\(1{,}222\\cdot10^{0}\\,\\mathrm{mg}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Massan anger vilken tyngdkraft som är lika stor som den elektriska kraften. Det bestämmer inte den laddade kulans faktiska massa.</p></div></div>",
     "familj": "Laddade partiklar i elektriska fält",
     "formaga": [
       "procedur",
@@ -95163,18 +95838,18 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.2e-05,
-      1.222,
-      null
+      1.2219959266802445,
+      "Krafterna är lika stora för den angivna massan."
     ],
     "tolerans": [
-      3.6e-07,
-      0.03,
+      2.4000000000000003e-07,
+      0.02443991853360489,
       null
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
@@ -95193,41 +95868,87 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "falt__falt_fran_punktladdning",
-    "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
+    "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En liten kula med laddningen 4,0 nC placeras i ett elektriskt fält med fältstyrkan 3000 V/m.</p>",
+    "spelIntro": "<p>En kula med laddningen +4,0 nC placeras i ett elektriskt fält med styrkan 3000 V/m. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor elektrisk kraft verkar på kulan?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftens storlek är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_e=|q|E=(4{,}0\\cdot10^{-9})(3000)=1{,}20\\cdot10^{-5}\\ \\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}20\\cdot10^{-5}\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
+        "fraga": "Hur stor elektrisk kraft verkar på kulan? Svara i N.",
+        "s": "<div class=\"facit-v2\"><p>Använd laddningens storlek:</p><p>\\[F_e=|q|E=4\\cdot10^{-9}\\cdot3\\cdot10^{3}\\]</p><p>\\[F_e=1{,}2\\cdot10^{-5}\\,\\mathrm N\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.2e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "N",
+        "tolerans": 2.4000000000000003e-07,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Skriv laddningen i coulomb och använd sambandet mellan elektrisk kraft och fältstyrka.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor massa skulle ha en tyngdkraft av samma storlek?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt denna kraft lika med en tyngdkraft.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{F_e}{g}=\\frac{1{,}20\\cdot10^{-5}}{9{,}82}=1{,}22\\cdot10^{-6}\\ \\mathrm{kg}=1{,}22\\ \\mathrm{mg}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}22\\ \\mathrm{mg}\\).</p></div>",
-        "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vilken massa motsvarar denna tyngdkraft? Svara i mg.",
+        "s": "<div class=\"facit-v2\"><p>Tyngdkraften är \\(F_g=mg\\). Lös ut massan:</p><p>\\[m=\\frac{1{,}2\\cdot10^{-5}}{9{,}82}\\]</p><p><strong>Svar:</strong> \\(1{,}222\\cdot10^{0}\\,\\mathrm{mg}\\).</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.2219959266802445,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mg",
+        "tolerans": 0.02443991853360489,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
+        "t": "<p>Tyngdkraften på ett föremål är \\(1{,}2\\cdot10^{-5}\\,\\mathrm N\\). Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vilken massa motsvarar denna tyngdkraft? Svara i mg.</p>",
+        "arbetsinsats": 1
       },
       {
         "etikett": "c",
-        "fraga": "Vad säger jämförelsen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska kraften motsvarar alltså tyngden av cirka 1,2 mg.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För en laddad partikel vars verkliga massa är mycket mindre än detta kan elfältet helt dominera tyngdkraften.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\). För en negativ laddning pekar kraften motsatt fältets riktning.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vad betyder jämförelsen mellan elektrisk kraft och tyngdkraft?",
+        "s": "<div class=\"facit-v2\"><p>Massan anger vilken tyngdkraft som är lika stor som den elektriska kraften. Det bestämmer inte den laddade kulans faktiska massa.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Krafterna är lika stora för den angivna massan.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Krafterna är lika stora för den angivna massan.",
+            "ratt": true,
+            "kommentar": "Massan beräknades genom att sätta mg lika med den elektriska kraften."
+          },
+          {
+            "txt": "Den laddade kulan måste ha just den massan.",
+            "ratt": false,
+            "kommentar": "Ingen faktisk massa för den laddade kulan har angetts."
+          },
+          {
+            "txt": "Tyngdkraften har försvunnit.",
+            "ratt": false,
+            "kommentar": "Jämförelsen tar inte bort någon kraft."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför den givna massan med ett milligram.</p>",
+        "t": "<p>Den elektriska kraften på en kula är lika stor som tyngdkraften på ett föremål med massan 1,22 mg.</p><p>Vad betyder jämförelsen mellan elektrisk kraft och tyngdkraft?</p>",
+        "arbetsinsats": 1
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
     ]
@@ -95236,11 +95957,11 @@ window.BANK = [
     "id": "8.359",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "E",
     "typ": "vektorsuperposition av elektriska fält",
-    "poang": "(0/1/2)",
-    "t": "<p>Två laddade kulor ger var sitt fält i punkten P: \\(1700\\,\\mathrm{N/C}\\) längs x-axeln och \\(1100\\,\\mathrm{N/C}\\) längs y-axeln. Bestäm den resulterande fältstyrkans storlek i P.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"314.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M325.0 205.0 L314.0 211.0 L314.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"67.2\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 56.2 L101.0 67.2 L89.0 67.2 Z\" fill=\"#2b6cb0\"/><line x1=\"325.0\" y1=\"205\" x2=\"325.0\" y2=\"56.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"56.2\" x2=\"325.0\" y2=\"56.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"315.8\" y2=\"62.2\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M325.0 56.2 L319.0 67.2 L312.5 57.1 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"210\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1700 N/C</text><text x=\"49\" y=\"137\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1100 N/C</text><text x=\"196\" y=\"121\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektriska fält är vektorer.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vinkelräta komponenter kombineras med Pythagoras sats.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_R=\\sqrt{E_1^2+E_2^2}=\\sqrt{1700^2+1100^2}=2025\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2025\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>I punkten P ger två laddningar var sitt elektriskt fält: 1700 N/C åt höger och 1100 N/C rakt uppåt.</p><div class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två vinkelräta fältbidrag i en punkt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"314.0\" y2=\"205.0\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M325.0 205.0 L314.0 211.0 L314.0 199.0 Z\" fill=\"#c0392b\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"95.0\" y2=\"67.2\" stroke=\"#2b6cb0\" stroke-width=\"3\"/><path d=\"M95.0 56.2 L101.0 67.2 L89.0 67.2 Z\" fill=\"#2b6cb0\"/><line x1=\"325.0\" y1=\"205\" x2=\"325.0\" y2=\"56.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95\" y1=\"56.2\" x2=\"325.0\" y2=\"56.2\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><line x1=\"95.0\" y1=\"205.0\" x2=\"315.8\" y2=\"62.2\" stroke=\"#2e7d52\" stroke-width=\"3\"/><path d=\"M325.0 56.2 L319.0 67.2 L312.5 57.1 Z\" fill=\"#2e7d52\"/><path d=\"M109 205 v-14 h-14\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.2\"/><circle cx=\"95\" cy=\"205\" r=\"4.5\" fill=\"#24262b\"/><text x=\"81\" y=\"225\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><text x=\"210\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1700 N/C</text><text x=\"49\" y=\"137\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1100 N/C</text><text x=\"196\" y=\"121\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">E = ?</text></svg></div><p>Hur starkt är det sammanlagda elektriska fältet i P?</p>",
+    "s": "<div class=\"facit-v2\"><p>De två fälten är vinkelräta. Använd därför Pythagoras sats för deras summa:</p><p>\\[E=\\sqrt{1700^2+1100^2}\\]</p><p><strong>Svar:</strong> cirka \\(2025\\,\\mathrm{N/C}\\).</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "resonemang",
@@ -95248,30 +95969,31 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 2024.845673,
-    "tolerans": 36.447222,
+    "rättSvar": 2024.8456731316587,
+    "tolerans": 50.62114182829147,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Fältstyrka har både storlek och riktning. Här är komponenterna vinkelräta.</p>",
+    "ledtrad": "<p>Rita fältens summa som diagonalen i en rätvinklig triangel.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "8.360",
     "kap": 8,
     "omr": "falt",
-    "niva": "A",
+    "niva": "C",
     "typ": "superposition av elektriska fält mellan motsatta laddningar",
-    "poang": "(0/1/2)",
-    "t": "<p>Två laddade kulor med laddningarna \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-3{,}0\\,\\mu\\mathrm C\\) sitter på en linjal, vardera \\(0{,}36\\,\\mathrm m\\) från linjalens mittpunkt. Bestäm fältstyrkans storlek i mittpunkten.</p><div class=\"fig smal\"><svg width=\"460\" height=\"170\" viewBox=\"0 0 460 170\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktladdningar på en rät linje\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><line x1=\"30\" y1=\"92\" x2=\"430\" y2=\"92\" stroke=\"#c3c8d0\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"70.0\" cy=\"92\" r=\"17\" fill=\"#fbe0e0\" stroke=\"#d64545\" stroke-width=\"2.4\"/><line x1=\"63.0\" y1=\"92\" x2=\"77.0\" y2=\"92\" stroke=\"#d64545\" stroke-width=\"2.6\"/><line x1=\"70.0\" y1=\"85\" x2=\"70.0\" y2=\"99\" stroke=\"#d64545\" stroke-width=\"2.6\"/><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">+3,0 µC</text><circle cx=\"390.0\" cy=\"92\" r=\"17\" fill=\"#dbe8f7\" stroke=\"#2b6cb0\" stroke-width=\"2.4\"/><line x1=\"383.0\" y1=\"92\" x2=\"397.0\" y2=\"92\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><text x=\"390\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3,0 µC</text><circle cx=\"230.0\" cy=\"92\" r=\"5\" fill=\"#24262b\"/><text x=\"230\" y=\"76\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">P</text><line x1=\"70.0\" y1=\"40\" x2=\"230.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"70.0\" y1=\"33\" x2=\"70.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"150\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,36 m</text><line x1=\"230.0\" y1=\"40\" x2=\"390.0\" y2=\"40\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><line x1=\"230.0\" y1=\"33\" x2=\"230.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"390.0\" y1=\"33\" x2=\"390.0\" y2=\"47\" stroke=\"#6b7280\" stroke-width=\"1\"/><text x=\"310\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,36 m</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I mittpunkten pekar fältet från den positiva laddningen bort från plus och fältet från den negativa mot minus.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">De har alltså samma riktning och adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2k\\frac{Q}{a^2}=4{,}161\\cdot10^{5}\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}161\\cdot10^{5}\\ \\mathrm{N/C}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Två laddningar på \\(+3\\,\\mu\\mathrm C\\) och \\(-3\\,\\mu\\mathrm C\\) ligger på var sin sida om P, 0,36 m från P.</p><div class=\"fig smal\"><svg viewBox=\"0 0 500 180\" width=\"500\" height=\"180\" role=\"img\" aria-label=\"Två laddningar på lika avstånd från P\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#bf2835\" stroke-width=\"2\"/><text x=\"90\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#bf2835\">+</text><text x=\"90\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">+3,0 µC</text><circle cx=\"410\" cy=\"108\" r=\"22\" fill=\"#fff\" stroke=\"#2563a5\" stroke-width=\"2\"/><text x=\"410\" y=\"116\" text-anchor=\"middle\" font-size=\"26\" fill=\"#2563a5\">−</text><text x=\"410\" y=\"153\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">−3,0 µC</text><circle cx=\"250\" cy=\"108\" r=\"4\" fill=\"#243747\"/><text x=\"250\" y=\"95\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">P</text><path d=\"M90 34 V46 M250 34 V46 M90 40 H250\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"170.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,36 m</text><path d=\"M250 34 V46 M410 34 V46 M250 40 H410\" stroke=\"#566f85\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"330.0\" y=\"25\" text-anchor=\"middle\" font-size=\"19\" fill=\"#243747\">0,36 m</text></svg></div><p>Hur starkt är det elektriska fältet i P?</p><p>Använd Coulombs konstant \\(k=8{,}99\\cdot10^9\\,\\mathrm{Nm^2/C^2}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Fältet från plusladdningen pekar bort från plus. Fältet från minusladdningen pekar mot minus. I P pekar alltså båda åt samma håll.</p><p>Varje laddning ger fältstyrkan:</p><p>\\[E_1=\\frac{8{,}99\\cdot10^9\\cdot3\\cdot10^{-6}}{0{,}36^2}\\]</p><p>\\[E_1=2{,}08102\\cdot10^{5}\\,\\mathrm{N/C}\\]</p><p>Addera de två lika stora fälten:</p><p>\\[E=2E_1=4{,}16204\\cdot10^{5}\\,\\mathrm{N/C}\\]</p></div>",
     "familj": "Punktladdningens fält",
     "formaga": [
       "resonemang",
@@ -95279,20 +96001,21 @@ window.BANK = [
     ],
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "numeriskt",
-    "rättSvar": 416111.11,
-    "tolerans": 7490,
+    "rättSvar": 416203.7037037037,
+    "tolerans": 10405.092592592593,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita först fältriktningen från vardera laddningen i mittpunkten.</p>",
+    "ledtrad": "<p>Rita fältriktningen från varje laddning i P innan du lägger ihop fälten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "N/C",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Elektriskt fält och kraft på laddningar"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.1",

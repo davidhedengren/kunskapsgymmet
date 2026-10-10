@@ -100015,25 +100015,24 @@ window.BANK = [
     "id": "9.2",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>För en viss gammastrålning är strålningen halveras för varje 1,2 cm bly den passerar.</p>\n<ol><li>Hur stor andel av strålningen passerar 3,6 cm bly?</li>\n<li>Hur stor andel passerar 6,0 cm?</li><li>Blir strålningen någonsin exakt noll? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">3,6 cm är tre halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-3}=\\frac18=12{,}5\\,\\%\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">6,0 cm är fem halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-5}=\\frac1{32}=3{,}125\\,\\%\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I den kontinuerliga dämpningsmodellen multipliceras intensiteten med en positiv faktor för varje skikt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den närmar sig därför noll men blir inte exakt noll för en ändlig tjocklek.</p></div><div class=\"facit-stycke\"><p>Avskärmning dimensioneras till en tillräckligt låg nivå.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(12{,}5\\,\\%\\) passerar 3,6 cm och \\(3{,}1\\,\\%\\) passerar 6,0 cm. En ändlig skärm ger inte exakt noll i modellen.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly den passerar. Detta kallas halveringstjocklek.</p><p>a) Hur många procent passerar 3,6 cm bly?</p><p>b) Hur många procent passerar 6,0 cm bly?</p><p>c) Blir den passerande andelen någonsin exakt noll i modellen? Förklara.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=3{,}6/1{,}2=3\\]</p><p>\\[p=100\\cdot2^{-3}=12{,}5\\ \\%\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[n=6/1{,}2=5\\]</p><p>\\[p=100\\cdot2^{-5}=3{,}125\\ \\%\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>I modellen återstår hälften efter varje nytt skikt. Andelen blir därför mindre och mindre, men aldrig exakt noll för en ändlig tjocklek.</p><p>Det är en matematisk beskrivning av den genomsnittliga strålningen. En verklig detektor kan registrera noll fotoner under en kort mätning.</p></div></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12.5,
-      3.1,
+      3.125,
       null
     ],
     "tolerans": [
-      0.1875,
-      0.0465,
+      0.5,
+      0.078125,
       null
     ],
     "självrättning": [
@@ -100057,39 +100056,88 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>3,6 cm är tre halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+    "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För en viss gammastrålning är strålningen halveras för varje 1,2 cm bly den passerar.</p>",
+    "spelIntro": "<p>Gammastrålningen halveras för varje 1,2 cm bly den passerar. Detta kallas halveringstjocklek.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor andel av strålningen passerar 3,6 cm bly?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">3,6 cm är tre halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-3}=\\frac18=12{,}5\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5\\,\\%\\).</p></div>",
-        "ledtrad": "<p>3,6 cm är tre halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 3,6 cm tjockt blyskikt?",
+        "s": "<div class=\"facit-v2\"><p>\\[n=3{,}6/1{,}2=3\\]</p><p>\\[p=100\\cdot2^{-3}=12{,}5\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 12.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
+        "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 3,6 cm tjockt blyskikt?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor andel passerar 6,0 cm?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">6,0 cm är fem halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-5}=\\frac1{32}=3{,}125\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}125\\,\\%\\).</p></div>",
-        "ledtrad": "<p>3,6 cm är tre halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 6 cm tjockt blyskikt?",
+        "s": "<div class=\"facit-v2\"><p>\\[n=6/1{,}2=5\\]</p><p>\\[p=100\\cdot2^{-5}=3{,}125\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.125,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.078125,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
+        "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 6 cm tjockt blyskikt?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Blir strålningen någonsin exakt noll? Motivera.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I den kontinuerliga dämpningsmodellen multipliceras intensiteten med en positiv faktor för varje skikt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den närmar sig därför noll men blir inte exakt noll för en ändlig tjocklek.</p></div><div class=\"facit-stycke\"><p>Avskärmning dimensioneras till en tillräckligt låg nivå.</p></div></div></div></div></div>",
-        "ledtrad": "<p>3,6 cm är tre halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "I modellen halveras strålningen efter varje skikt. Vad händer när fler skikt läggs till?",
+        "s": "<div class=\"facit-v2\"><p>I modellen återstår hälften efter varje nytt skikt. Andelen blir därför mindre och mindre, men aldrig exakt noll för en ändlig tjocklek.</p><p>Det är en matematisk beskrivning av den genomsnittliga strålningen. En verklig detektor kan registrera noll fotoner under en kort mätning.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Andelen blir mindre men inte exakt noll.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Andelen blir mindre men inte exakt noll.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Andelen blir exakt noll efter tre skikt.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Andelen är lika stor oavsett antalet skikt.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Varje nytt skikt multiplicerar en positiv andel med en halv.</p>",
+        "t": "<p>I modellen halveras strålningen efter varje skikt. Vad händer när fler skikt läggs till?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
@@ -100712,59 +100760,166 @@ window.BANK = [
     "id": "9.7",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "C",
-    "typ": "jämföra genomträngningsförmåga hos alfa beta och gammastrålning, ur diagram, sökt resonemang",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar hur långt tre olika strålslag tränger igenom olika material.</p><span class=\"fig bred\"><svg height=\"233\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"30.229 50.627 427.800 160.428\"><circle cx=\"60\" cy=\"120\" r=\"8\" fill=\"#2B2527\"/><text x=\"60\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">källa</text><rect x=\"180\" y=\"60\" width=\"34\" height=\"120\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"197\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">papper</text><rect x=\"260\" y=\"60\" width=\"34\" height=\"120\" rx=\"3\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"277\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">aluminium</text><rect x=\"340\" y=\"60\" width=\"34\" height=\"120\" rx=\"3\" fill=\"#A9A6AD\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"357\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">bly</text><line x1=\"74\" y1=\"90\" x2=\"166\" y2=\"90\" stroke=\"#B43123\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,90.00 166.00,94.60 166.00,85.40\" fill=\"#B43123\"/><text x=\"64\" y=\"86\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">α</text><line x1=\"74\" y1=\"120\" x2=\"246\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"256.00,120.00 246.00,124.60 246.00,115.40\" fill=\"#2A5D9E\"/><text x=\"64\" y=\"116\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">β</text><line x1=\"74\" y1=\"150\" x2=\"430\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"440.00,150.00 430.00,154.60 430.00,145.40\" fill=\"#5C575E\"/><text x=\"64\" y=\"146\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">γ</text></svg></span>\n<ol><li>Vilket strålslag stoppas av ett papper?</li>\n<li>Vilket strålslag krävs det tjocka blyskikt för att dämpa?</li>\n<li>Varför tränger alfastrålning igenom så dåligt trots att den är farligast inuti kroppen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfastrålning stoppas av papper eller hudens yttersta lager.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning är mest genomträngande och kräver tjocka skikt av till exempel bly eller betong för kraftig dämpning.</p></div><div class=\"facit-stycke\"><p>Skärmen minskar intensiteten gradvis i stället för att ge en skarp stoppgräns.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartikeln är tung och har laddningen +2e.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den joniserar tätt, förlorar energin snabbt och får därför kort räckvidd.</p></div><div class=\"facit-stycke\"><p>Samma täta energiavsättning gör alfa biologiskt farlig när källan hamnar inuti kroppen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Alfa stoppas av papper, medan gamma kräver kraftig avskärmning. Alfas korta räckvidd beror på stark växelverkan och tät jonisation.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Jämför alfa-, beta- och gammastrålning.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 285\" role=\"img\" aria-label=\"Papper stoppar alfa, aluminium stoppar beta och bly dämpar gamma\"><title>Förenklad jämförelse av strålskydd</title><rect x=\"205\" y=\"50\" width=\"28\" height=\"174\" rx=\"3\" fill=\"#f0e3cc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"219\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">papper</text><rect x=\"305\" y=\"50\" width=\"28\" height=\"174\" rx=\"3\" fill=\"#dce6f0\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"319\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">aluminium</text><rect x=\"415\" y=\"50\" width=\"28\" height=\"174\" rx=\"3\" fill=\"#b8c3cf\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"429\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">bly</text><text x=\"18\" y=\"86\" font-family=\"Arial\" font-size=\"18\" fill=\"#c0392b\">alfa</text><line x1=\"100\" y1=\"80\" x2=\"192\" y2=\"80\" stroke=\"#c0392b\" stroke-width=\"3\"/><polygon points=\"202,80 192,75 192,85\" fill=\"#c0392b\"/><text x=\"18\" y=\"143\" font-family=\"Arial\" font-size=\"18\" fill=\"#245c9c\">beta</text><line x1=\"100\" y1=\"137\" x2=\"292\" y2=\"137\" stroke=\"#245c9c\" stroke-width=\"3\"/><polygon points=\"302,137 292,132 292,142\" fill=\"#245c9c\"/><text x=\"18\" y=\"200\" font-family=\"Arial\" font-size=\"18\" fill=\"#526071\">gamma</text><line x1=\"100\" y1=\"194\" x2=\"435\" y2=\"194\" stroke=\"#526071\" stroke-width=\"3\"/><polygon points=\"445,194 435,189 435,199\" fill=\"#526071\"/><line x1=\"460\" y1=\"194\" x2=\"520\" y2=\"194\" stroke=\"#526071\" stroke-width=\"2\" stroke-dasharray=\"4 5\"/><text x=\"490\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#334155\">en del kvar</text><text x=\"280\" y=\"25\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Förenklad jämförelse av strålskydd</text></svg></span><p>a) Vilket av alfa, beta och gamma stoppas av ett tunt papper?</p><p>b) Vilket av alfa, beta och gamma kräver normalt tjocka blyskikt för kraftig dämpning?</p><p>c) Förklara varför alfa har kort räckvidd men kan skada vävnad nära en källa inne i kroppen.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Alfastrålning stoppas normalt av ett tunt papper.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Gammastrålning dämpas av tjocka skikt av exempelvis bly eller betong. Ett skikt tar bort en andel av strålningen, inte allt.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Alfapartiklar är laddade och avger energi tätt längs en kort sträcka. Utanför kroppen stoppas de normalt av hudens yttersta lager. Inne i kroppen kan energin avges direkt i levande vävnad.</p></div></div>",
     "familj": "Joniserande strålning och genomträngning",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Alfastrålning stoppas av papper eller hudens yttersta lager.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      null,
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      false,
+      false
+    ],
+    "ledtrad": "<p>Jämför strålslagens räckvidd.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar hur långt tre olika strålslag tränger igenom olika material.</p><span class=\"fig bred\"><svg height=\"233\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"30.229 50.627 427.800 160.428\"><circle cx=\"60\" cy=\"120\" r=\"8\" fill=\"#2B2527\"/><text x=\"60\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">källa</text><rect x=\"180\" y=\"60\" width=\"34\" height=\"120\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"197\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">papper</text><rect x=\"260\" y=\"60\" width=\"34\" height=\"120\" rx=\"3\" fill=\"#D9C4A2\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"277\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">aluminium</text><rect x=\"340\" y=\"60\" width=\"34\" height=\"120\" rx=\"3\" fill=\"#A9A6AD\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"357\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">bly</text><line x1=\"74\" y1=\"90\" x2=\"166\" y2=\"90\" stroke=\"#B43123\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,90.00 166.00,94.60 166.00,85.40\" fill=\"#B43123\"/><text x=\"64\" y=\"86\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">α</text><line x1=\"74\" y1=\"120\" x2=\"246\" y2=\"120\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"256.00,120.00 246.00,124.60 246.00,115.40\" fill=\"#2A5D9E\"/><text x=\"64\" y=\"116\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">β</text><line x1=\"74\" y1=\"150\" x2=\"430\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"440.00,150.00 430.00,154.60 430.00,145.40\" fill=\"#5C575E\"/><text x=\"64\" y=\"146\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">γ</text></svg></span>",
+    "spelIntro": "<p>Jämför alfa-, beta- och gammastrålning.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 285\" role=\"img\" aria-label=\"Papper stoppar alfa, aluminium stoppar beta och bly dämpar gamma\"><title>Förenklad jämförelse av strålskydd</title><rect x=\"205\" y=\"50\" width=\"28\" height=\"174\" rx=\"3\" fill=\"#f0e3cc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"219\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">papper</text><rect x=\"305\" y=\"50\" width=\"28\" height=\"174\" rx=\"3\" fill=\"#dce6f0\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"319\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">aluminium</text><rect x=\"415\" y=\"50\" width=\"28\" height=\"174\" rx=\"3\" fill=\"#b8c3cf\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"429\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">bly</text><text x=\"18\" y=\"86\" font-family=\"Arial\" font-size=\"18\" fill=\"#c0392b\">alfa</text><line x1=\"100\" y1=\"80\" x2=\"192\" y2=\"80\" stroke=\"#c0392b\" stroke-width=\"3\"/><polygon points=\"202,80 192,75 192,85\" fill=\"#c0392b\"/><text x=\"18\" y=\"143\" font-family=\"Arial\" font-size=\"18\" fill=\"#245c9c\">beta</text><line x1=\"100\" y1=\"137\" x2=\"292\" y2=\"137\" stroke=\"#245c9c\" stroke-width=\"3\"/><polygon points=\"302,137 292,132 292,142\" fill=\"#245c9c\"/><text x=\"18\" y=\"200\" font-family=\"Arial\" font-size=\"18\" fill=\"#526071\">gamma</text><line x1=\"100\" y1=\"194\" x2=\"435\" y2=\"194\" stroke=\"#526071\" stroke-width=\"3\"/><polygon points=\"445,194 435,189 435,199\" fill=\"#526071\"/><line x1=\"460\" y1=\"194\" x2=\"520\" y2=\"194\" stroke=\"#526071\" stroke-width=\"2\" stroke-dasharray=\"4 5\"/><text x=\"490\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#334155\">en del kvar</text><text x=\"280\" y=\"25\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Förenklad jämförelse av strålskydd</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilket strålslag stoppas av ett papper?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfastrålning stoppas av papper eller hudens yttersta lager.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Alfastrålning stoppas av papper eller hudens yttersta lager.</p>",
+        "fraga": "Vilket av alfa, beta och gamma stoppas normalt av ett tunt papper?",
+        "s": "<div class=\"facit-v2\"><p>Alfastrålning stoppas normalt av ett tunt papper.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Alfa.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Alfa.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Beta.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Gamma.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför strålslagens räckvidd.</p>",
+        "t": "<p>Vilket av alfa, beta och gamma stoppas normalt av ett tunt papper?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilket strålslag krävs det tjocka blyskikt för att dämpa?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning är mest genomträngande och kräver tjocka skikt av till exempel bly eller betong för kraftig dämpning.</p></div><div class=\"facit-stycke\"><p>Skärmen minskar intensiteten gradvis i stället för att ge en skarp stoppgräns.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Alfastrålning stoppas av papper eller hudens yttersta lager.</p>",
+        "fraga": "Vilket av alfa, beta och gamma behöver normalt tjocka blyskikt för kraftig dämpning?",
+        "s": "<div class=\"facit-v2\"><p>Gammastrålning dämpas av tjocka skikt av exempelvis bly eller betong. Ett skikt tar bort en andel av strålningen, inte allt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Gamma.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Gamma.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Alfa.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Beta.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vilket strålslag är mest genomträngande?</p>",
+        "t": "<p>Vilket av alfa, beta och gamma behöver normalt tjocka blyskikt för kraftig dämpning?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför tränger alfastrålning igenom så dåligt trots att den är farligast inuti kroppen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartikeln är tung och har laddningen +2e.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den joniserar tätt, förlorar energin snabbt och får därför kort räckvidd.</p></div><div class=\"facit-stycke\"><p>Samma täta energiavsättning gör alfa biologiskt farlig när källan hamnar inuti kroppen.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Alfastrålning stoppas av papper eller hudens yttersta lager.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Varför kan alfastrålning skada levande vävnad nära en källa inne i kroppen?",
+        "s": "<div class=\"facit-v2\"><p>Alfapartiklar är laddade och avger energi tätt längs en kort sträcka. Utanför kroppen stoppas de normalt av hudens yttersta lager. Inne i kroppen kan energin avges direkt i levande vävnad.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den avger mycket energi på en kort sträcka.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den avger mycket energi på en kort sträcka.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Den får längre räckvidd i kroppen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Den ändras till gamma i kroppen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tänk på hur tätt energin avges.</p>",
+        "t": "<p>Varför kan alfastrålning skada levande vävnad nära en källa inne i kroppen?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
     ]
   },
   {
@@ -101474,40 +101629,40 @@ window.BANK = [
     "kap": 9,
     "omr": "stralning_materia",
     "niva": "C",
-    "typ": "beräkna dämpning genom flera halvvärdestjocklekar av bly, ur text, sökt andel",
     "poang": "(2/1/0)",
-    "t": "<p>För en viss gammastrålning halveras intensiteten för varje 1,2 cm bly som strålningen passerar. Den sträckan kallas halvvärdestjocklek.</p>\n<ol><li>Hur stor andel av strålningen är kvar efter 2,4 cm bly?</li>\n<li>Hur stor andel är kvar efter 6,0 cm bly?</li>\n<li>Hur tjockt blyskikt krävs för att bara en procent ska komma igenom?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">2,4 cm är två halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-2}=25\\,\\%\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">6,0 cm är fem halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-5}=3{,}125\\,\\%\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt den passerande andelen till 0,010.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}010=2^{-x/1{,}2}\\Rightarrow x=1{,}2\\frac{\\ln(100)}{\\ln2}=7{,}97\\ \\mathrm{cm}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 2,4 cm återstår \\(25\\,\\%\\), efter 6,0 cm \\(3{,}1\\,\\%\\), och för 1 % krävs cirka \\(8{,}0\\ \\mathrm{cm}\\) bly.</p></div>",
+    "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly den passerar. Detta kallas halveringstjocklek.</p><p>a) Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 2,4 cm tjockt blyskikt?</p><p>b) Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 6 cm tjockt blyskikt?</p><p>c) Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera? Svara i cm.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=2{,}4/1{,}2=2\\]</p><p>\\[p=100\\cdot2^{-2}=25\\ \\%\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[n=6/1{,}2=5\\]</p><p>\\[p=100\\cdot2^{-5}=3{,}125\\ \\%\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[0{,}010=2^{-x/1{,}2}\\]</p><p>\\[\\ln(0{,}010)=-(x/1{,}2)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[x=-1{,}2\\ln(0{,}010)/\\ln2\\]</p><p>\\[x\\approx7{,}97\\ \\mathrm{cm}\\]</p></div></p></div></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      25,
+      25.0,
       3.125,
-      null
+      7.972627427729669
     ],
     "tolerans": [
-      0.375,
-      0.046875,
-      null
+      0.625,
+      0.078125,
+      0.19931568569324173
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "%",
       "%",
-      null
+      "cm"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -101515,41 +101670,74 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>2,4 cm är två halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+    "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För en viss gammastrålning halveras intensiteten för varje 1,2 cm bly som strålningen passerar. Den sträckan kallas halvvärdestjocklek.</p>",
+    "spelIntro": "<p>Gammastrålningen halveras för varje 1,2 cm bly den passerar. Detta kallas halveringstjocklek.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor andel av strålningen är kvar efter 2,4 cm bly?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">2,4 cm är två halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-2}=25\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\,\\%\\).</p></div>",
-        "ledtrad": "<p>2,4 cm är två halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 2,4 cm tjockt blyskikt?",
+        "s": "<div class=\"facit-v2\"><p>\\[n=2{,}4/1{,}2=2\\]</p><p>\\[p=100\\cdot2^{-2}=25\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 25.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.625,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
+        "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 2,4 cm tjockt blyskikt?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor andel är kvar efter 6,0 cm bly?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">6,0 cm är fem halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac I{I_0}=2^{-5}=3{,}125\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}125\\,\\%\\).</p></div>",
-        "ledtrad": "<p>2,4 cm är två halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 6 cm tjockt blyskikt?",
+        "s": "<div class=\"facit-v2\"><p>\\[n=6/1{,}2=5\\]</p><p>\\[p=100\\cdot2^{-5}=3{,}125\\ \\%\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.125,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.078125,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
+        "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 6 cm tjockt blyskikt?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur tjockt blyskikt krävs för att bara en procent ska komma igenom?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt den passerande andelen till 0,010.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}010=2^{-x/1{,}2}\\Rightarrow x=1{,}2\\frac{\\ln(100)}{\\ln2}=7{,}97\\ \\mathrm{cm}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}97\\ \\mathrm{cm}\\).</p></div>",
-        "ledtrad": "<p>2,4 cm är två halvvärdestjocklekar. Absorberad dos är energi per massa, \\(D=E/m\\).</p>",
+        "fraga": "Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera? Svara i cm.",
+        "s": "<div class=\"facit-v2\"><p>\\[0{,}010=2^{-x/1{,}2}\\]</p><p>\\[\\ln(0{,}010)=-(x/1{,}2)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[x=-1{,}2\\ln(0{,}010)/\\ln2\\]</p><p>\\[x\\approx7{,}97\\ \\mathrm{cm}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.972627427729669,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "cm",
+        "tolerans": 0.19931568569324173,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv kvarvarande andel som 2 upphöjt till −x/1,2 och ta logaritmen.</p>",
+        "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera? Svara i cm.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
@@ -112031,31 +112219,32 @@ window.BANK = [
     "id": "9.93",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "C",
-    "typ": "bestämma nödvändig blytjocklek för att nå under en given dosrat, ur text, sökt tjocklek",
-    "poang": "(1/2/0)",
-    "t": "<p>Vid en strålkälla är dosraten 640 µSv/h. Den ska sänkas till högst 20 µSv/h med hjälp av blyskärmning. Halvvärdestjockleken för strålningen är 1,2 cm bly.</p>\n<p>Hur tjockt blyskikt behövs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje halvvärdestjocklek halverar dosraten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vi söker därför hur många halveringar som krävs för att gå från 640 till 20 µSv/h.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{640}{20}=32=2^5\\]</div></div><div class=\"facit-stycke\"><p>Det behövs alltså fem halveringar, dvs. fem halvvärdestjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=5\\cdot1{,}2=6{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det behövs \\(6{,}0\\ \\mathrm{cm}\\) bly. Då blir dosraten exakt \\(20\\ \\mu\\mathrm{Sv/h}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Strålningen ger 640 µSv per timme utan blyskärm. Varje 1,2 cm bly halverar strålningen. Hur tjockt blyskikt behövs för att sänka dosen per timme till 20 µSv? Svara i cm.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[640\\to320\\to160\\to80\\to40\\to20\\]</p><p>Det behövs fem halveringar.</p><p>\\[x=5\\cdot1{,}2=6{,}0\\ \\mathrm{cm}\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Varje halvvärdestjocklek halverar dosraten. Vi söker därför hur många halveringar som krävs för att gå från 640 till 20 µSv/h.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0.15000000000000002,
+    "självrättning": true,
+    "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "svarEnhet": "cm",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "9.180",
@@ -112272,65 +112461,63 @@ window.BANK = [
     "id": "9.183",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "C",
-    "typ": "stråldos, dosrat och skärmning",
-    "poang": "(0/2/0)",
-    "t": "<p>En skärm släpper igenom \\(12\\,\\%\\) av en gammastrålnings dosrat. Framför skärmen är dosraten \\(250\\,\\mu\\mathrm{Sv/h}\\). Bestäm dosraten bakom skärmen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera den ursprungliga dosraten med den kvarvarande andelen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot H=0{,}12\\cdot250=30\\,\\mu\\mathrm{Sv/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,\\mu\\mathrm{Sv/h}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En skärm släpper igenom 12 % av strålningen. Utan skärmen är dosen per timme 250 µSv. Hur stor är den bakom skärmen? Svara i µSv/h.</p>",
+    "s": "<div class=\"facit-v2\"><p>12 % motsvarar andelen 0,12.</p><p>\\[\\dot H=0{,}12\\cdot250=30\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 0.5399999999999999,
+    "tolerans": 0.75,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kontrollera först om uppgiften handlar om energi per massa, viktning med \\(w_R\\), tid, avstånd eller skärmning.</p>",
+    "ledtrad": "<p>Multiplicera dosen per timme med andelen som släpps igenom.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "µSv/h",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.184",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "A",
-    "typ": "halveringstjocklek och skärmning",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett skärmmaterial har halveringstjockleken \\(0{,}6\\,\\mathrm{cm}\\) för en viss gammastrålning. Hur tjock skärm krävs för att reducera intensiteten till \\(3{,}125\\,\\%\\) av ursprungsvärdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje halveringstjocklek multiplicerar intensiteten med \\(1/2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{I}{I_0}=\\left(\\frac12\\right)^{5}\\]\\[x=5\\cdot0{,}6=3\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\ \\mathrm{cm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>För en viss gammastrålning halveras intensiteten för varje 0,60 cm skärmmaterial. Hur tjock skärm behövs för att 3,125 % ska passera? Svara i cm.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[100\\to50\\to25\\to12{,}5\\ \\%\\]\\[12{,}5\\to6{,}25\\to3{,}125\\ \\%\\]</p><p>Fem halveringar behövs.</p><p>\\[x=5\\cdot0{,}60=3{,}0\\ \\mathrm{cm}\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.054,
+    "tolerans": 0.07500000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm hur många halveringar som behövs för den angivna kvarvarande andelen.</p>",
+    "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.95",
@@ -112651,33 +112838,32 @@ window.BANK = [
     "id": "9.187",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "A",
-    "typ": "halveringstjocklek och skärmning",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett skärmmaterial har halveringstjockleken \\(0{,}9\\,\\mathrm{cm}\\) för en viss gammastrålning. Hur tjock skärm krävs för att reducera intensiteten till \\(3{,}125\\,\\%\\) av ursprungsvärdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje halveringstjocklek multiplicerar intensiteten med \\(1/2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{I}{I_0}=\\left(\\frac12\\right)^{5}\\]\\[x=5\\cdot0{,}9=4,5\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm{cm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Gammastrålningen halveras för varje 0,90 cm skärmmaterial. Hur många procent passerar en 2,7 cm tjock skärm?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[n=2{,}7/0{,}90=3\\]</p><p>\\[p=100\\cdot2^{-3}=12{,}5\\ \\%\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.5,
-    "tolerans": 0.081,
+    "rättSvar": 12.5,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm hur många halveringar som behövs för den angivna kvarvarande andelen.</p>",
+    "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm",
-    "traningsniva": 4,
+    "svarEnhet": "%",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.188",
@@ -112838,33 +113024,32 @@ window.BANK = [
     "id": "9.190",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "A",
-    "typ": "halveringstjocklek och skärmning",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett sjukhus bygger en skärm av bly runt en gammakälla. Blyet har halveringstjockleken \\(0{,}8\\,\\mathrm{cm}\\) för strålningen. Hur tjock skärm krävs för att intensiteten ska minska till \\(3{,}125\\,\\%\\) av ursprungsvärdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje halveringstjocklek multiplicerar intensiteten med \\(1/2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{I}{I_0}=\\left(\\frac12\\right)^{5}\\]\\[x=5\\cdot0{,}8=4\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\ \\mathrm{cm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Gammastrålningen halveras för varje 0,80 cm bly. En skärm består av 0,80 cm tjocka blyplattor. Hur många plattor behövs för att högst 3,125 % ska passera?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[100\\to50\\to25\\to12{,}5\\ \\%\\]\\[12{,}5\\to6{,}25\\to3{,}125\\ \\%\\]</p><p>Det krävs fem halveringar, alltså fem plattor.</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0.072,
+    "rättSvar": 5,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm hur många halveringar som behövs för den angivna kvarvarande andelen.</p>",
+    "ledtrad": "<p>Räkna hur många halveringar som behövs.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm",
-    "traningsniva": 4,
+    "svarEnhet": null,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.191",
@@ -113051,33 +113236,32 @@ window.BANK = [
     "id": "9.193",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "A",
-    "typ": "halveringstjocklek och skärmning",
-    "poang": "(0/1/2)",
-    "t": "<p>En gammakälla i ett laboratorium skärmas med plattor av volfram. Volframets halveringstjocklek för strålningen är \\(0{,}7\\,\\mathrm{cm}\\). Hur tjock skärm krävs för att intensiteten ska bli \\(3{,}125\\,\\%\\) av ursprungsvärdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje halveringstjocklek multiplicerar intensiteten med \\(1/2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{I}{I_0}=\\left(\\frac12\\right)^{5}\\]\\[x=5\\cdot0{,}7=3,5\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\ \\mathrm{cm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett 3,5 cm tjockt volframskikt släpper igenom 3,125 % av en viss gammastrålning. Bestäm halveringstjockleken i cm.</p>",
+    "s": "<div class=\"facit-v2\"><p>3,125 % är en trettioandra del, alltså fem halveringar.</p><p>\\[2^{-5}=1/32=0{,}03125\\]</p><p>\\[d=3{,}5/5=0{,}70\\ \\mathrm{cm}\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "stralning__absorberad_och_ekvivalent_dos",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.5,
-    "tolerans": 0.063,
+    "rättSvar": 0.7,
+    "tolerans": 0.017499999999999998,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm hur många halveringar som behövs för den angivna kvarvarande andelen.</p>",
+    "ledtrad": "<p>Bestäm antalet halveringar och dela hela tjockleken med antalet.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Absorberad och ekvivalent dos"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.194",
@@ -144259,7 +144443,7 @@ window.BANK = [
     "kap": 9,
     "omr": "em_stralning",
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "(1/0/0)",
     "t": "<p>Ordna radiovågor, synligt ljus, ultraviolett strålning och gammastrålning från lägst till högst frekvens.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>I elektromagnetiska spektrumet ökar frekvensen när våglängden minskar.</p></div><div class=\"facit-stycke\"><p>Ordningen blir</p></div></div><p class=\"facit-svar\"><strong>radiovågor → synligt ljus → ultraviolett strålning → gammastrålning.</strong></p><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Gammastrålning har alltså högst frekvens och störst fotonenergi av alternativen.</p></div></div></div>",
     "familj": "Det elektromagnetiska spektrumet",
@@ -144274,7 +144458,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Tänk från lång våglängd till kort våglängd. Frekvensen går åt motsatt håll.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -144288,35 +144472,37 @@ window.BANK = [
     "kap": 9,
     "omr": "em_stralning",
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En elektromagnetisk våg har frekvensen \\(100\\ \\mathrm{MHz}\\). Bestäm våglängden. </p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p><strong>Steg 1:</strong> Omvandla megahertz: \\(100\\ \\mathrm{MHz}=1{,}00\\cdot10^8\\ \\mathrm{Hz}\\).</p></div><div class=\"facit-stycke\"><p><strong>Steg 2:</strong> Använd \\(c=f\\lambda\\):</p></div><div class=\"facit-stycke\"><p>\\[\\lambda=\\frac{c}{f}=\\frac{3{,}0\\cdot10^8}{1{,}00\\cdot10^8}=3{,}0\\ \\mathrm m.\\]</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är \\(3{,}0\\ \\mathrm m\\).</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En radiovåg har frekvensen 100 MHz. Ljusets hastighet är 3,00·10⁸ m/s. Bestäm våglängden i m.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[f=100\\ \\mathrm{MHz}=1{,}00\\cdot10^8\\ \\mathrm{Hz}\\]</p><p>\\[\\lambda=c/f=3{,}00\\cdot10^8/10^8=3{,}0\\ \\mathrm m\\]</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "tal",
-    "rättSvar": "3",
-    "tolerans": 0.03,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0.07500000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Lös ut \\(\\lambda\\) ur \\(c=f\\lambda\\) och omvandla MHz till Hz.</p>",
+    "ledtrad": "<p>Använd c = fλ. Högre frekvens betyder kortare våglängd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "omrTidigare": "stralning",
     "familjTidigare": [
       "Elektromagnetiska spektrumet"
-    ]
+    ],
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "GY25-FY1-EM-03",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>Ultraviolett strålning kan orsaka kemiska förändringar som radiovågor normalt inte kan. Förklara detta med fotonenergin \\(E=hf\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En fotons energi är proportionell mot frekvensen: \\(E=hf\\).</p></div><div class=\"facit-stycke\"><p>Ultraviolett strålning har mycket högre frekvens än radiovågor och varje UV-foton bär därför betydligt mer energi.</p></div><div class=\"facit-stycke\"><p>Det är energin per foton som avgör om en enskild foton kan starta vissa kemiska processer.</p></div><div class=\"facit-stycke\"><p>Hög total effekt hos radiovågor betyder alltså inte automatiskt att varje foton får UV-fotonens verkan.</p></div></div></div>",
     "familj": "Det elektromagnetiska spektrumet",
@@ -144331,7 +144517,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Jämför frekvenserna och använd att Plancks konstant är samma för båda strålslagen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -144344,8 +144530,8 @@ window.BANK = [
     "id": "GY25-FY1-EM-04",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "(0/1/0)",
     "t": "<p>En annons påstår: ”Vår router sänder starkare strålning än solen eftersom signalstyrkan är hög nära routern.” Granska påståendet naturvetenskapligt. Vilka storheter och jämförelser saknas?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p><strong>Först måste ordet starkare preciseras.</strong> Det kan avse effekt, intensitet, elektrisk fältstyrka eller energi per foton.</p></div><div class=\"facit-stycke\"><p>Dessa är inte samma sak.</p></div><div class=\"facit-stycke\"><p>Routern och solen sänder dessutom olika spektrum.</p></div><div class=\"facit-stycke\"><p>Fotonenergin bestäms av frekvensen, medan intensiteten beskriver energi per area och tid.</p></div><div class=\"facit-stycke\"><p>Avstånd, exponeringstid och vilken biologisk effekt man frågar efter måste också anges.</p></div><div class=\"facit-stycke\"><p><strong>Slutsats:</strong> Signalstyrka nära en router räcker inte för jämförelsen.</p></div><div class=\"facit-stycke\"><p>Påståendet saknar definierad storhet, mätdata, spektrum och relevant riskmått.</p></div></div></div>",
     "familj": "Det elektromagnetiska spektrumet",
@@ -144360,7 +144546,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Fråga vad ”starkare” betyder, vilka frekvenser som jämförs och hur exponeringen har mätts.</p>",
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -152228,7 +152414,7 @@ window.BANK = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En artikel skriver: ”Antalet cancerfall ökade samtidigt som användningen av trådlösa nätverk ökade. Därför orsakar trådlösa nätverk cancer.” Förklara varför slutsatsen inte följer av uppgifterna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Två storheter som förändras samtidigt visar en korrelation, men inte automatiskt ett orsakssamband.</p></div><div class=\"facit-stycke\"><p>Befolkningens ålder, diagnostik, livsstil och många andra faktorer kan påverka antalet registrerade fall.</p></div><div class=\"facit-stycke\"><p>För att undersöka orsak behövs bland annat ett rimligt fysikaliskt verkningssätt, kontrollerade jämförelser, dos–respons-samband och resultat som kan upprepas.</p></div><div class=\"facit-stycke\"><p>Artikeln ger inget sådant underlag.</p></div></div></div>",
+    "s": "<div class=\"facit-v2\"><p>Att två saker ökar samtidigt visar inte att den ena orsakar den andra. Till exempel kan ändrad åldersfördelning eller bättre diagnostik påverka antalet upptäckta cancerfall.</p><p>För att undersöka orsaken behövs jämförelser där andra möjliga förklaringar prövas. De uppgifter som artikeln ger räcker därför inte för slutsatsen.</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
       "begrepp",
@@ -152240,7 +152426,7 @@ window.BANK = [
     "självrättning": false,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skilj på samtidig förändring och visad orsak. Fundera på alternativa förklaringar och vilken evidens som saknas.</p>",
+    "ledtrad": "<p>Kan det finnas andra orsaker till att antalet upptäckta fall ökar?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
@@ -152254,10 +152440,10 @@ window.BANK = [
     "id": "GY25-FY1-VET-02",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "(0/1/0)",
     "t": "<p>Två grupper mäter bakgrundsstrålning. Grupp A mäter under 10 sekunder och får 3 pulser. Grupp B mäter under 10 minuter och får 180 pulser. En elev säger att B:s plats är 60 gånger farligare. Granska resonemanget.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mätningarna har olika längd och måste jämföras som pulser per tidsenhet.</p></div><div class=\"facit-stycke\"><p>\\[A:\\ \\frac3{10}=0{,}30\\ \\mathrm{s^{-1}},\\qquad B:\\ \\frac{180}{600}=0{,}30\\ \\mathrm{s^{-1}}.\\]</p></div><div class=\"facit-stycke\"><p>Mätvärdena ger alltså samma medelräkningshastighet.</p></div><div class=\"facit-stycke\"><p>Den korta mätningen har dessutom större relativ slumpvariation.</p></div><div class=\"facit-stycke\"><p>Ordet ”farligare” kräver också uppgifter om strålslag, energi, dos och exponeringstid.</p></div><div class=\"facit-stycke\"><p><strong>Slutsats:</strong> Påståendet bygger både på felaktig tidsjämförelse och ett otillräckligt riskmått.</p></div></div></div>",
+    "s": "<div class=\"facit-v2\"><p>Jämför pulser per sekund, eftersom mättiderna skiljer sig.</p><p>\\[A:3/10=0{,}30\\ \\mathrm{s^{-1}}\\]</p><p>\\[B:180/600=0{,}30\\ \\mathrm{s^{-1}}\\]</p><p>Mätningarna ger samma medelantal pulser per sekund. Den korta mätningen har större slumpvariation. Antalet pulser räcker inte för att jämföra risk: även strålslag, energi, dos och tid spelar roll.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "formaga": [
       "begrepp",
@@ -152270,7 +152456,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Räkna först om båda mätningarna till pulser per sekund. Bedöm sedan vad mätningen faktiskt säger om dos.</p>",
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true,
@@ -156716,12 +156902,12 @@ window.BANK = [
         "kommentar": "Röntgen är elektromagnetisk och mer genomträngande än alfa."
       },
       {
-        "txt": "Synligt ljus.",
+        "txt": "Betastrålning.",
         "ratt": false,
-        "kommentar": "Frågan gäller de joniserande strålslagen i strålskyddssammanhang."
+        "kommentar": "Betapartiklar behöver normalt tjockare material än papper för att stoppas."
       }
     ],
-    "ledtrad": "<p>Utgå från den grundläggande definitionen eller vad som bevaras.</p>",
+    "ledtrad": "<p>Jämför räckvidden för alfa, beta och gamma.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -156772,7 +156958,7 @@ window.BANK = [
         "kommentar": "De växelverkar olika starkt med materia."
       }
     ],
-    "ledtrad": "<p>Utgå från den grundläggande definitionen eller vad som bevaras.</p>",
+    "ledtrad": "<p>Jämför hur de olika strålslagen påverkar materia.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -158236,7 +158422,7 @@ window.BANK = [
         "kommentar": "Jonisation är just en växelverkan med materia."
       }
     ],
-    "ledtrad": "<p>Utgå från den grundläggande definitionen eller vad som bevaras.</p>",
+    "ledtrad": "<p>Vad händer med en atom om en elektron slås loss?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -178252,7 +178438,7 @@ window.BANK = [
       {
         "txt": "Den gör material radioaktivt.",
         "ratt": false,
-        "kommentar": "Vanlig joniserande strålning gör inte föremål radioaktiva."
+        "kommentar": "Jonisation och att bilda radioaktiva kärnor är olika processer."
       },
       {
         "txt": "Den består alltid av laddade partiklar.",
@@ -178266,7 +178452,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vad är en jon?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178280,7 +178466,7 @@ window.BANK = [
     "typ": "skärmning av gamma",
     "poang": "(1/0/0)",
     "t": "<p>Ett laboratorium ska förvara en stark gammastrålande källa.</p><p>Vilket skärmningsmaterial är mest effektivt per centimeter?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning dämpas bäst av tunga material med hög densitet och många elektroner per volym, till exempel bly.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bly.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Av materialen i alternativen dämpar bly gammastrålningen mest för samma tjocklek. Bly har hög densitet och är därför ett vanligt strålskydd.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "formaga": [
       "begrepp"
@@ -178293,12 +178479,12 @@ window.BANK = [
       {
         "txt": "Bly",
         "ratt": true,
-        "kommentar": "Tunga ämnen med hög densitet absorberar gammastrålning bäst."
+        "kommentar": "Av dessa material ger bly störst dämpning per centimeter."
       },
       {
         "txt": "Papper",
         "ratt": false,
-        "kommentar": "Papper stoppar bara alfapartiklar."
+        "kommentar": "Papper ger mycket liten dämpning av gammastrålning."
       },
       {
         "txt": "Plast",
@@ -178312,7 +178498,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Gammastrålning har stor genomträngningsförmåga. Vilket material är tätast?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -178322,74 +178508,75 @@ window.BANK = [
     "id": "9.283",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "C",
-    "typ": "alfastrålning inne i kroppen",
-    "poang": "(0/1/0)",
-    "t": "<p>En alfastrålande källa är ofarlig att hålla i handen på avstånd, men mycket farlig om den andas in.</p><p>Varför?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar joniserar mycket tätt och stoppas redan av huden.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Inne i kroppen hamnar källan intill levande celler, som tar upp hela energin på en kort sträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kort räckvidd men mycket tät jonisation i vävnad nära källan.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Varför kan alfastrålning göra större skada när källan finns inne i kroppen än när den finns utanför?</p>",
+    "s": "<div class=\"facit-v2\"><p>Alfapartiklar har kort räckvidd och stoppas normalt av hudens yttersta lager. Inne i kroppen kan de nå levande celler och avge mycket energi på en kort sträcka.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "svarstyp": "alternativ",
-    "rättSvar": null,
+    "rättSvar": "Energin avges i en liten mängd levande vävnad nära källan.",
     "tolerans": null,
     "självrättning": true,
     "alternativ": [
       {
-        "txt": "Alfapartiklar har kort räckvidd men avger all energi i en liten volym vävnad.",
+        "txt": "Energin avges i en liten mängd levande vävnad nära källan.",
         "ratt": true,
-        "kommentar": "Utanför kroppen stoppas de av hudens döda yttersta lager."
+        "kommentar": "Se förklaringen i facit."
       },
       {
-        "txt": "Alfapartiklar blir mer energirika i kroppen.",
+        "txt": "Alfapartiklar får högre energi inne i kroppen.",
         "ratt": false,
-        "kommentar": "Deras energi ändras inte av kroppen."
+        "kommentar": "Pröva sambandet för de givna villkoren."
       },
       {
-        "txt": "Lungorna gör källan mer radioaktiv.",
+        "txt": "Lungorna gör automatiskt källan mer radioaktiv.",
         "ratt": false,
-        "kommentar": "Aktiviteten är densamma."
+        "kommentar": "Pröva sambandet för de givna villkoren."
       },
       {
-        "txt": "Alfastrålning blir gammastrålning inne i kroppen.",
+        "txt": "Alfastrålningen omvandlas till gamma.",
         "ratt": false,
-        "kommentar": "Strålslaget ändras inte."
+        "kommentar": "Pröva sambandet för de givna villkoren."
       }
     ],
-    "ledtrad": "<p>Jämför räckvidd och hur tätt alfapartiklarna joniserar.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Jämför vilka celler strålningen når utanför och inne i kroppen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
-    "geogebra": false
+    "geogebra": false,
+    "svarFormat": null,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "id": "9.284",
     "kap": 9,
     "omr": "stralning_materia",
     "niva": "E",
-    "typ": "andel genom flera halveringstjocklekar",
     "poang": "(1/0/0)",
-    "t": "<p>Halveringstjockleken i bly för en viss gammastrålning är 1,0 cm. En skärm av bly är 3,0 cm tjock.</p><p>Hur stor andel av strålningen tar sig igenom? Svara i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje centimeter halverar intensiteten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre halveringar ger en åttondel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac{1}{2}\\right)^3=\\tfrac{1}{8}=12{,}5\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5\\,\\%\\).</p></div>",
+    "t": "<p>För en viss strålning är halveringstjockleken 1 cm. Skärmen är 3 cm tjock. Hur många procent av strålningen passerar?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[n=3/1=3\\]</p><p>\\[p=100\\cdot2^{-3}=12{,}5\\ \\%\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12.5,
-    "tolerans": 0.1,
+    "tolerans": 0.5,
     "självrättning": true,
-    "ledtrad": "<p>Hur många halveringstjocklekar är skärmen?</p>",
+    "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "manuellKomplettering": false
   },
   {
     "id": "9.285",
@@ -178399,14 +178586,14 @@ window.BANK = [
     "typ": "tjocklek ur dämpning",
     "poang": "(1/0/0)",
     "t": "<p>En detektor bakom en betongvägg registrerar 100 pulser per minut. Utan väggen registreras 800 pulser per minut. Betongens halveringstjocklek för strålningen är 2,0 cm.</p><p>Hur tjock är väggen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först hur många halveringar som skett.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\to400\\to200\\to100\\quad\\text{(3 halveringar)}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=3\\cdot2{,}0=6{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{cm}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först hur många halveringar som skett.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\to400\\to200\\to100\\]<p>Det är tre halveringar.</p></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=3\\cdot2{,}0=6{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm{cm}\\).</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 0,
+    "tolerans": 0.15,
     "självrättning": true,
     "ledtrad": "<p>Hur många gånger har intensiteten halverats?</p>",
     "traningsniva": 2,
@@ -178421,27 +178608,27 @@ window.BANK = [
     "id": "9.286",
     "kap": 9,
     "omr": "stralning_materia",
-    "niva": "C",
-    "typ": "skärmning med förkläde",
-    "poang": "(0/1/0)",
-    "t": "<p>En röntgensjuksköterska bär ett blyförkläde. Halveringstjockleken för strålningen i förklädets material är 0,50 mm och förklädet är 2,0 mm tjockt.</p><p>Hur stor andel av strålningen tar sig igenom förklädet? Svara i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förklädet motsvarar fyra halveringstjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{2{,}0}{0{,}50}=4\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac{1}{2}\\right)^4=\\tfrac{1}{16}\\approx6{,}3\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>För en viss strålning är halveringstjockleken 0,5 mm. Skärmen är 2 mm tjock. Hur många procent av strålningen passerar?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[n=2/0{,}5=4\\]</p><p>\\[p=100\\cdot2^{-4}=6{,}25\\ \\%\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 6.25,
-    "tolerans": 0.06,
+    "tolerans": 0.15625,
     "självrättning": true,
-    "ledtrad": "<p>Dela förklädets tjocklek med halveringstjockleken.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Varje halveringstjocklek halverar strålningen. Dela skärmens tjocklek med halveringstjockleken.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "manuellKomplettering": false
   },
   {
     "id": "9.287",
@@ -179630,78 +179817,78 @@ window.BANK = [
     "kap": 9,
     "omr": "em_stralning",
     "niva": "E",
-    "typ": "våglängd för synligt ljus",
     "poang": "(1/0/0)",
-    "t": "<p>Orange ljus har frekvensen 5,0·10¹⁴ Hz. Ljusets hastighet är 3,00·10⁸ m/s.</p><p>Bestäm ljusets våglängd i nanometer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd c = fλ och lös ut våglängden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{c}{f}=\\frac{3{,}00\\cdot10^8}{5{,}0\\cdot10^{14}}=6{,}0\\cdot10^{-7}\\ \\mathrm m=600\\ \\mathrm{nm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\ \\mathrm{nm}\\).</p></div>",
+    "t": "<p>Orange ljus har frekvensen 5,0·10¹⁴ Hz. Bestäm våglängden i nm. Ljusets hastighet är 3,00·10⁸ m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\lambda=c/f=3{,}00\\cdot10^8/(5{,}0\\cdot10^{14})\\]</p><p>\\[\\lambda=6{,}0\\cdot10^{-7}\\ \\mathrm m=600\\ \\mathrm{nm}\\]</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 600,
-    "tolerans": 2,
+    "rättSvar": 600.0,
+    "tolerans": 15.0,
     "självrättning": true,
-    "ledtrad": "<p>Lös ut λ ur c = fλ. En nanometer är 10⁻⁹ m.</p>",
+    "ledtrad": "<p>Använd c = fλ. Högre frekvens betyder kortare våglängd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "nm"
+    "svarEnhet": "nm",
+    "manuellKomplettering": false
   },
   {
     "id": "9.305",
     "kap": 9,
     "omr": "em_stralning",
     "niva": "E",
-    "typ": "frekvens för radiostation",
     "poang": "(1/0/0)",
-    "t": "<p>En FM-radiostation sänder med våglängden 3,2 m. Ljusets hastighet är 3,00·10⁸ m/s.</p><p>Bestäm frekvensen i MHz.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Lös ut frekvensen</p><div class=\"facit-matte\">\\[u r c=f \\lambda\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=\\frac{c}{\\lambda}=\\frac{3{,}00\\cdot10^8}{3{,}2}\\approx9{,}4\\cdot10^7\\ \\mathrm{Hz}=94\\ \\mathrm{MHz}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(94\\ \\mathrm{MHz}\\).</p></div>",
+    "t": "<p>En radiostation sänder med våglängden 3,2 m. Bestäm frekvensen i MHz. Ljusets hastighet är 3,00·10⁸ m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[f=c/\\lambda=3{,}00\\cdot10^8/3{,}2\\]</p><p>\\[f=9{,}375\\cdot10^7\\ \\mathrm{Hz}\\approx94\\ \\mathrm{MHz}\\]</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 93.75,
-    "tolerans": 0.8,
+    "tolerans": 2.34375,
     "självrättning": true,
-    "ledtrad": "<p>Lös ut f ur c = fλ. 1 MHz är 10⁶ Hz.</p>",
+    "ledtrad": "<p>Använd c = fλ. Högre frekvens betyder kortare våglängd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "MHz"
+    "svarEnhet": "MHz",
+    "manuellKomplettering": false
   },
   {
     "id": "9.306",
     "kap": 9,
     "omr": "em_stralning",
     "niva": "E",
-    "typ": "våglängd för wifi",
     "poang": "(1/0/0)",
-    "t": "<p>Ett wifi-nätverk använder frekvensen 2,4 GHz. Ljusets hastighet är 3,00·10⁸ m/s.</p><p>Bestäm våglängden i centimeter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Omvandla GHz till Hz och använd</p><div class=\"facit-matte\">\\[c=f \\lambda\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{3{,}00\\cdot10^8}{2{,}4\\cdot10^9}=0{,}125\\ \\mathrm m=12{,}5\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5\\ \\mathrm{cm}\\).</p></div>",
+    "t": "<p>Ett wifi-nätverk använder frekvensen 2,4 GHz. Bestäm våglängden i cm. Ljusets hastighet är 3,00·10⁸ m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[f=2{,}4\\cdot10^9\\ \\mathrm{Hz}\\]</p><p>\\[\\lambda=c/f=0{,}125\\ \\mathrm m=12{,}5\\ \\mathrm{cm}\\]</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12.5,
-    "tolerans": 0.1,
+    "tolerans": 0.5,
     "självrättning": true,
-    "ledtrad": "<p>1 GHz är 10⁹ Hz.</p>",
+    "ledtrad": "<p>Använd c = fλ. Högre frekvens betyder kortare våglängd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "manuellKomplettering": false
   },
   {
     "id": "9.307",
@@ -179835,7 +180022,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Det är fotonenergin, inte strålningens styrka, som avgör.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -179845,53 +180032,53 @@ window.BANK = [
     "id": "9.310",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "C",
-    "typ": "fotonenergi för synligt ljus",
-    "poang": "(0/1/0)",
-    "t": "<p>Grönt ljus har frekvensen 6,0·10¹⁴ Hz. Plancks konstant är 6,63·10⁻³⁴ Js och 1 eV = 1,602·10⁻¹⁹ J.</p><p>Bestäm energin hos en foton i elektronvolt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Fotonens energi är</p><div class=\"facit-matte\">\\[E=h f\\]</div></div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla sedan till elektronvolt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=hf=6{,}63\\cdot10^{-34}\\cdot6{,}0\\cdot10^{14}\\approx3{,}98\\cdot10^{-19}\\ \\mathrm J\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{3{,}98\\cdot10^{-19}}{1{,}602\\cdot10^{-19}}\\approx2{,}5\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{eV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ljus har frekvensen 6,0·10¹⁴ Hz. Bestäm energin hos en foton i eV. Använd h = 6,63·10⁻³⁴ Js och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=6{,}63\\cdot10^{-34}\\cdot6\\cdot10^{14}\\]</p><p>\\[E\\approx3{,}98\\cdot10^{-19}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{\\mathrm J}/(1{,}602\\cdot10^{-19})\\]</p><p>\\[E\\approx2{,}48\\ \\mathrm{eV}\\]</p></div></p></div>",
     "familj": "Fotonenergi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 2.48,
-    "tolerans": 0.03,
+    "rättSvar": 2.4831460674157304,
+    "tolerans": 0.06207865168539326,
     "självrättning": true,
-    "ledtrad": "<p>Använd E = hf och omvandla joule till elektronvolt.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>En foton har energin E = hf. Använd c = fλ om våglängden är given.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "manuellKomplettering": false
   },
   {
     "id": "9.311",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "C",
-    "typ": "fotonenergi för UV",
-    "poang": "(0/1/0)",
-    "t": "<p>En UV-lampa för desinfektion sänder ut ljus med våglängden 250 nm. Plancks konstant är 6,63·10⁻³⁴ Js, 1 eV = 1,602·10⁻¹⁹ J. Ljusets hastighet är 3,00·10⁸ m/s.</p><p>Bestäm fotonenergin i elektronvolt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm frekvensen ur våglängden eller använd E = hc/λ direkt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{hc}{\\lambda}=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{250\\cdot10^{-9}}\\approx7{,}96\\cdot10^{-19}\\ \\mathrm J\\approx4{,}97\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{eV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En UV-lampa sänder ut ljus med våglängden 250 nm. Bestäm energin hos en foton i eV. Använd h = 6,63·10⁻³⁴ Js och 1 eV = 1,602·10⁻¹⁹ J. Ljusets hastighet är 3,00·10⁸ m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\lambda=2{,}5\\cdot10^{-7}\\ \\mathrm m\\]</p><p><div class=\"facit-v2\"><p>\\[f=c/\\lambda\\]</p><p>\\[f\\approx1{,}2\\cdot10^{15}\\ \\mathrm{Hz}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=6{,}63\\cdot10^{-34}\\cdot1{,}2\\cdot10^{15}\\]</p><p>\\[E\\approx7{,}96\\cdot10^{-19}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{\\mathrm J}/(1{,}602\\cdot10^{-19})\\]</p><p>\\[E\\approx4{,}97\\ \\mathrm{eV}\\]</p></div></p></div>",
     "familj": "Fotonenergi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 4.97,
-    "tolerans": 0.05,
+    "rättSvar": 4.966292134831461,
+    "tolerans": 0.12415730337078652,
     "självrättning": true,
-    "ledtrad": "<p>Kombinera c = fλ med E = hf.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>En foton har energin E = hf. Använd c = fλ om våglängden är given.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "manuellKomplettering": false
   },
   {
     "id": "9.312",
@@ -179933,7 +180120,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Vad heter konstanten c?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -179943,11 +180130,11 @@ window.BANK = [
     "id": "9.313",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "C",
+    "niva": "E",
     "typ": "fotonenergi och skada",
-    "poang": "(0/1/0)",
-    "t": "<p>En mobiltelefon kan sända med större total effekt än en svag UV-lampa. Ändå kan UV-ljuset skada hudceller, men inte mobilens radiovågor.</p><p>Vad är förklaringen?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För att bryta molekylbindningar eller jonisera krävs tillräckligt mycket energi i en enda foton.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin är E = hf, och UV har ungefär en miljard gånger högre frekvens än mobilstrålning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> UV-fotoner har mycket högre energi per foton.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>UV-ljus kan orsaka kemiska förändringar i hudceller som mobilens radiovågor inte kan orsaka med en enda foton. Varför?</p>",
+    "s": "<div class=\"facit-v2\"><p>Fotonenergin är E = hf. UV har mycket högre frekvens, så varje UV-foton bär mycket mer energi. Därför kan en UV-foton starta vissa kemiska förändringar som en radiofoton inte kan.</p><p>Detta jämför energin per foton. Radiovågor kan fortfarande avge energi genom uppvärmning.</p></div>",
     "familj": "Fotonenergi",
     "formaga": [
       "begrepp",
@@ -179961,7 +180148,7 @@ window.BANK = [
       {
         "txt": "Varje UV-foton har mycket högre energi än en radiofoton.",
         "ratt": true,
-        "kommentar": "Skadan beror på energin per foton."
+        "kommentar": "Det är energin per foton som jämförs, inte den totala effekten."
       },
       {
         "txt": "Radiovågor tränger inte in i kroppen.",
@@ -179980,7 +180167,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Jämför energin per foton, inte den totala effekten.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "miniräknare": true,
@@ -186754,104 +186941,106 @@ window.BANK = [
     "id": "9.323",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "C",
-    "typ": "fotonenergi för röd laser",
-    "poang": "(0/1/0)",
-    "t": "<p>En röd laserpekare sänder ut ljus med våglängden 650 nm. Plancks konstant är 6,63·10⁻³⁴ Js, ljusets hastighet är 3,00·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>Bestäm fotonenergin i elektronvolt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd E = hc/λ och omvandla till elektronvolt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{650\\cdot10^{-9}}\\approx3{,}06\\cdot10^{-19}\\ \\mathrm J\\approx1{,}91\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\ \\mathrm{eV}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En röd laser sänder ut ljus med våglängden 650 nm. Bestäm energin hos en foton i eV. Använd h = 6,63·10⁻³⁴ Js och 1 eV = 1,602·10⁻¹⁹ J. Ljusets hastighet är 3,00·10⁸ m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\lambda=6{,}5\\cdot10^{-7}\\ \\mathrm m\\]</p><p><div class=\"facit-v2\"><p>\\[f=c/\\lambda\\]</p><p>\\[f\\approx4{,}62\\cdot10^{14}\\ \\mathrm{Hz}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=6{,}63\\cdot10^{-34}\\cdot4{,}61538461538\\cdot10^{14}\\]</p><p>\\[E\\approx3{,}06\\cdot10^{-19}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{\\mathrm J}/(1{,}602\\cdot10^{-19})\\]</p><p>\\[E\\approx1{,}91\\ \\mathrm{eV}\\]</p></div></p></div>",
     "familj": "Fotonenergi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 1.91,
-    "tolerans": 0.03,
+    "rättSvar": 1.9101123595505616,
+    "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Kombinera E = hf med c = fλ.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>En foton har energin E = hf. Använd c = fλ om våglängden är given.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "manuellKomplettering": false
   },
   {
     "id": "9.324",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "C",
-    "typ": "våglängd ur fotonenergi",
-    "poang": "(0/1/0)",
-    "t": "<p>En blå lysdiod sänder ut fotoner med energin 2,7 eV. Plancks konstant är 6,63·10⁻³⁴ Js, ljusets hastighet är 3,00·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>Bestäm ljusets våglängd i nanometer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Omvandla energin till joule och lös ut våglängden</p><div class=\"facit-matte\">\\[u r E=\\frac{h c}{\\lambda}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2{,}7\\cdot1{,}602\\cdot10^{-19}\\approx4{,}33\\cdot10^{-19}\\ \\mathrm J\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{hc}{E}=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{4{,}33\\cdot10^{-19}}\\approx4{,}6\\cdot10^{-7}\\ \\mathrm m=460\\ \\mathrm{nm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(460\\ \\mathrm{nm}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En blå lysdiod sänder ut fotoner med energin 2,7 eV. Bestäm våglängden i nm. Använd h = 6,63·10⁻³⁴ Js, c = 3,00·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=2{,}7\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E\\approx4{,}33\\cdot10^{-19}\\ \\mathrm{J}\\]</p></div></p><p>\\[E=hc/\\lambda\\quad\\Rightarrow\\quad\\lambda=hc/E\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=hc/E\\]</p><p>\\[\\lambda\\approx4{,}6\\cdot10^{-7}\\ \\mathrm{m}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\lambda_{\\mathrm m}\\cdot10^9\\]</p><p>\\[\\lambda\\approx460\\ \\mathrm{nm}\\]</p></div></p></div>",
     "familj": "Fotonenergi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 460,
-    "tolerans": 4,
+    "rättSvar": 459.8418643362463,
+    "tolerans": 11.496046608406159,
     "självrättning": true,
-    "ledtrad": "<p>Lös ut λ ur E = hc/λ. Glöm inte att omvandla eV till joule.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>En foton har energin E = hf. Använd c = fλ om våglängden är given.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "nm"
+    "svarEnhet": "nm",
+    "manuellKomplettering": false
   },
   {
     "id": "9.325",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "C",
-    "typ": "fotonenergi för mikrovågor",
-    "poang": "(0/1/0)",
-    "t": "<p>En mikrovågsugn använder frekvensen 2,45 GHz. Plancks konstant är 6,63·10⁻³⁴ Js, ljusets hastighet är 3,00·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>Bestäm energin hos en mikrovågsfoton i mikroelektronvolt (µeV).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd E = hf och omvandla till elektronvolt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=6{,}63\\cdot10^{-34}\\cdot2{,}45\\cdot10^9\\approx1{,}62\\cdot10^{-24}\\ \\mathrm J\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{1{,}62\\cdot10^{-24}}{1{,}602\\cdot10^{-19}}\\approx1{,}0\\cdot10^{-5}\\ \\mathrm{eV}=10\\ \\mathrm{\\mu eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm{\\mu eV}\\). Det är långt under de några eV som behövs för att jonisera.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En mikrovågsugn använder frekvensen 2,45 GHz. Bestäm energin hos en foton i µeV. Använd h = 6,63·10⁻³⁴ Js och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=6{,}63\\cdot10^{-34}\\cdot2450000000\\]</p><p>\\[E\\approx1{,}62\\cdot10^{-24}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{\\mathrm J}/(1{,}602\\cdot10^{-19})\\]</p><p>\\[E\\approx1{,}01\\cdot10^{-5}\\ \\mathrm{eV}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{\\mathrm{eV}}\\cdot10^6\\]</p><p>\\[E\\approx10{,}1\\ \\mathrm{\\mu eV}\\]</p></div></p></div>",
     "familj": "Fotonenergi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 10.14,
-    "tolerans": 0.2,
+    "rättSvar": 10.139513108614233,
+    "tolerans": 0.5,
     "självrättning": true,
-    "ledtrad": "<p>Använd E = hf. En mikroelektronvolt är 10⁻⁶ eV.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>En foton har energin E = hf. Använd c = fλ om våglängden är given.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "µeV"
+    "svarEnhet": "µeV",
+    "manuellKomplettering": false
   },
   {
     "id": "9.327",
     "kap": 9,
     "omr": "em_stralning",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En röd laserpekare har effekten 5,0 mW och våglängden 650 nm.</p><p>Hur många fotoner sänder den ut per sekund? Svara i grundpotensform med två värdesiffror. Använd \\(h=6{,}626\\cdot10^{-34}\\) Js och \\(c=3{,}00\\cdot10^8\\) m/s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En foton har energin \\(E=\\frac{hc}{\\lambda}=\\frac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{650\\cdot10^{-9}}\\approx3{,}06\\cdot10^{-19}\\) J.</p></div><div class=\"facit-stycke\"><p>Effekten är energi per sekund: \\(n=\\frac{5{,}0\\cdot10^{-3}}{3{,}06\\cdot10^{-19}}\\approx1{,}6\\cdot10^{16}\\) fotoner per sekund.</p></div><div class=\"facit-stycke\"><p>Varje foton har mycket liten energi, så även en svag laser sänder ut enormt många fotoner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(1{,}6\\cdot10^{16}\\) fotoner per sekund</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En röd laser ger effekten 5,0 mW och våglängden 650 nm. Hur många fotoner sänder den ut per sekund? Använd h = 6,626·10⁻³⁴ Js och c = 3,00·10⁸ m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[P=5{,}0\\cdot10^{-3}\\ \\mathrm W\\]</p><p>\\[\\lambda=650\\cdot10^{-9}\\ \\mathrm m\\]</p><p><div class=\"facit-v2\"><p>\\[E_f=hc/\\lambda\\]</p><p>\\[E_f\\approx3{,}06\\cdot10^{-19}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[n=P/E_f\\]</p><p>\\[n\\approx1{,}63\\cdot10^{16}\\]</p></div></p><p>Varje foton har mycket liten energi, så även denna svaga laser sänder ut många fotoner per sekund.</p></div>",
     "familj": "Fotonenergi",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm energin för en foton. Effekten anger hur mycket energi som sänds ut per sekund.</p>",
+    "ledtrad": "<p>Bestäm energin per foton. Dividera effekten med den energin.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6349733373578832e+16,
-    "tolerans": 600000000000000.0,
-    "typ": "antal fotoner från laser"
+    "tolerans": 500000000000000.0,
+    "svarEnhet": null,
+    "svarFormat": "numeriskt",
+    "manuellKomplettering": false
   },
   {
     "id": "5.601",

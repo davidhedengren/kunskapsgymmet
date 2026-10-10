@@ -101201,10 +101201,10 @@ window.BANK = [
     "id": "9.9",
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Vid fission av en U-235-kärna frigörs ungefär 200 MeV.</p>\n<ol><li>Hur många joule är det?</li><li>Hur många fissioner krävs för att frigöra 1,0 J?</li>\n<li>Ett gram U-235 innehåller 2,56·10²¹ kärnor. Hur mycket energi ger ett gram?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla elektronvolt till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_f=(200\\cdot10^6)(1{,}602\\cdot10^{-19})=3{,}204\\cdot10^{-11}\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet fissioner för 1,0 J är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{1{,}0}{3{,}204\\cdot10^{-11}}=3{,}12\\cdot10^{10}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om alla 2,56·10²¹ kärnor fissionerar blir energin</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=(2{,}56\\cdot10^{21})(3{,}204\\cdot10^{-11})=8{,}20\\cdot10^{10}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En fission ger \\(3{,}20\\cdot10^{-11}\\ \\mathrm J\\). Det krävs \\(3{,}1\\cdot10^{10}\\) fissioner per joule, och 1,0 g U-235 ger cirka \\(8{,}2\\cdot10^{10}\\ \\mathrm J\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Varje klyvning av uran-235 ger 200 MeV. Ett gram innehåller 2,56·10²¹ kärnor. 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Omvandla energin per klyvning till J.</p><p>b) Hur många klyvningar ger 1,0 J?</p><p>c) Hur mycket energi frigörs om alla kärnor i ett gram klyvs? Svara i J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[N=1/E_f\\]</p><p>\\[N\\approx31200000000\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E=2{,}56\\cdot10^{21}E_f\\]</p><p>\\[E\\approx82000000000\\ \\mathrm{J}\\]</p></div></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
       "procedur"
@@ -101212,16 +101212,20 @@ window.BANK = [
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3.2e-11,
-      31000000000,
-      82000000000
+      3.204e-11,
+      31210986267.166042,
+      82022400000.0
     ],
     "tolerans": [
-      9.6e-13,
-      465000000,
-      1230000000
+      8.01e-13,
+      781250000.0,
+      2048000000.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -101229,7 +101233,7 @@ window.BANK = [
     ],
     "svarEnhet": [
       "J",
-      "fissioner",
+      null,
       "J"
     ],
     "svarsstruktur": "ordnad",
@@ -101242,36 +101246,71 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Vid fission av en U-235-kärna frigörs ungefär 200 MeV.</p><div class=\"spel-en-del\">Hur många joule är det?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla elektronvolt till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_f=(200\\cdot10^6)(1{,}602\\cdot10^{-19})=3{,}204\\cdot10^{-11}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}204\\cdot10^{-11}\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "En uran-235-kärna frigör 200 MeV vid klyvning. Bestäm energin i J. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.204e-11,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 8.01e-13,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla MeV till eV och sedan J.</p>",
+        "t": "<p>En uran-235-kärna frigör 200 MeV vid klyvning. Bestäm energin i J. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Vid fission av en U-235-kärna frigörs ungefär 200 MeV.</p><div class=\"spel-en-del\">Hur många fissioner krävs för att frigöra 1,0 J?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet fissioner för 1,0 J är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{1{,}0}{3{,}204\\cdot10^{-11}}=3{,}12\\cdot10^{10}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}12\\cdot10^{10}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+        "fraga": "Varje klyvning ger 3,20·10⁻¹¹ J. Hur många klyvningar ger tillsammans 1,0 J?",
+        "s": "<div class=\"facit-v2\"><p>\\[N=1{,}0/(3{,}20\\cdot10^{-11})\\]</p><p>\\[N\\approx31200000000\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 31250000000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 781250000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela den sammanlagda energin med energin per klyvning.</p>",
+        "t": "<p>Varje klyvning ger 3,20·10⁻¹¹ J. Hur många klyvningar ger tillsammans 1,0 J?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "t": "<p>Vid fission av en U-235-kärna frigörs ungefär 200 MeV.</p><div class=\"spel-en-del\">Ett gram U-235 innehåller 2,56·10²¹ kärnor. Hur mycket energi ger ett gram?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om alla 2,56·10²¹ kärnor fissionerar blir energin</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=(2{,}56\\cdot10^{21})(3{,}204\\cdot10^{-11})=8{,}20\\cdot10^{10}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}20\\cdot10^{10}\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Om alla 2,56·10²¹ kärnor fissionerar blir energin Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett gram uran-235 innehåller 2,56·10²¹ kärnor. Varje klyvning ger 3,20·10⁻¹¹ J. Hur mycket energi frigörs om alla kärnor klyvs? Svara i J.",
+        "s": "<div class=\"facit-v2\"><p>\\[E=2{,}56\\cdot10^{21}\\cdot3{,}20\\cdot10^{-11}\\]</p><p>\\[E\\approx81900000000\\ \\mathrm{J}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 81920000000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 2048000000.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera antalet kärnor med energin per klyvning.</p>",
+        "t": "<p>Ett gram uran-235 innehåller 2,56·10²¹ kärnor. Varje klyvning ger 3,20·10⁻¹¹ J. Hur mycket energi frigörs om alla kärnor klyvs? Svara i J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "ledtrad": "<p>Omvandla MeV till eV och sedan J.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "spelIntro": "<p>Varje klyvning av uran-235 ger 200 MeV. Ett gram innehåller 2,56·10²¹ kärnor. 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.10",
@@ -102356,26 +102395,24 @@ window.BANK = [
     "id": "9.16",
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "typ": "jämföra energitäthet hos kärnbränsle och fossilt bränsle, ur text, sökt antal",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett gram U-235 ger 8,20·10¹⁰ J vid fission. En liter bensin ger 32 MJ.</p>\n<ol><li>Hur många liter bensin motsvarar ett gram U-235?</li>\n<li>En bil förbrukar 0,60 liter per mil. Hur långt skulle den komma på motsvarande energi?</li>\n<li>Vad säger jämförelsen om mängden bränsle ett kärnkraftverk behöver?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela fissionsenergin med energin per liter bensin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{8{,}20\\cdot10^{10}}{32\\cdot10^6}=2{,}56\\cdot10^3\\ \\mathrm L\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 0,60 liter per mil blir körsträckan</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{2562{,}5}{0{,}60}=4{,}27\\cdot10^3\\ \\mathrm{mil}=4{,}27\\cdot10^4\\ \\mathrm{km}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett enda gram U-235 motsvarar i denna idealiserade jämförelse mer än 2500 liter bensin.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnbränslets mycket höga energitäthet gör att bränslemängden och transportbehovet blir små jämfört med fossila bränslen.</p></div><div class=\"facit-stycke\"><p>Verkliga anläggningar har olika verkningsgrader och allt kärnbränsle fissionerar inte.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,0 g U-235 motsvarar cirka \\(2{,}56\\cdot10^3\\) liter bensin, vilket skulle räcka ungefär \\(4270\\) mil.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett gram uran-235 ger 8,20·10¹⁰ J vid klyvning. En liter bensin ger 32 MJ. En bil drar 0,60 liter bensin per mil.</p><p>a) Hur många liter bensin motsvarar samma energi?</p><p>b) Hur långt räcker den bensinmängden? Svara i mil.</p><p>c) Vad säger jämförelsen om mängden bränsle som behövs? Förklara.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[32\\ \\mathrm{MJ}=32\\cdot10^6\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[V=8{,}20\\cdot10^{10}/(32\\cdot10^6)\\]</p><p>\\[V\\approx2560\\ \\mathrm{L}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[s=V/0{,}60\\]</p><p>\\[s\\approx4270\\ \\mathrm{mil}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Uran-235 ger mycket energi per gram. Därför kan en liten mängd bränsle ge mycket energi. Den verkliga bränsleförbrukningen beror också på verkningsgrad och hur stor andel av bränslet som klyvs.</p></div></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "modellering",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2560,
-      4270,
+      2562.5,
+      4270.833333333334,
       null
     ],
     "tolerans": [
-      38.4,
-      64.05,
+      64.0625,
+      106.66666666666669,
       null
     ],
     "självrättning": [
@@ -102399,39 +102436,88 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Dela fissionsenergin med energin per liter bensin. Kontrollera först bevarandet av masstal och atomnummer.</p>",
+    "ledtrad": "<p>Dela energin med energi per liter.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett gram U-235 ger 8,20·10¹⁰ J vid fission. En liter bensin ger 32 MJ.</p>",
+    "spelIntro": "<p>Ett gram uran-235 ger 8,20·10¹⁰ J vid klyvning. En liter bensin ger 32 MJ. En bil drar 0,60 liter bensin per mil.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många liter bensin motsvarar ett gram U-235?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela fissionsenergin med energin per liter bensin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{8{,}20\\cdot10^{10}}{32\\cdot10^6}=2{,}56\\cdot10^3\\ \\mathrm L\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}56\\cdot10^3\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Dela fissionsenergin med energin per liter bensin. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett gram uran-235 ger 8,20·10¹⁰ J. En liter bensin ger 32 MJ. Hur många liter bensin motsvarar samma energi?",
+        "s": "<div class=\"facit-v2\"><p>\\[32\\ \\mathrm{MJ}=32\\cdot10^6\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[V=8{,}20\\cdot10^{10}/(32\\cdot10^6)\\]</p><p>\\[V\\approx2560\\ \\mathrm{L}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2562.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "L",
+        "tolerans": 64.0625,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela energin med energi per liter.</p>",
+        "t": "<p>Ett gram uran-235 ger 8,20·10¹⁰ J. En liter bensin ger 32 MJ. Hur många liter bensin motsvarar samma energi?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En bil förbrukar 0,60 liter per mil. Hur långt skulle den komma på motsvarande energi?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid 0,60 liter per mil blir körsträckan</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\frac{2562{,}5}{0{,}60}=4{,}27\\cdot10^3\\ \\mathrm{mil}=4{,}27\\cdot10^4\\ \\mathrm{km}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}27\\cdot10^4\\ \\mathrm{km}\\).</p></div>",
-        "ledtrad": "<p>Dela fissionsenergin med energin per liter bensin. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En energimängd motsvarar 2 560 liter bensin. En bil drar 0,60 liter per mil. Hur långt räcker bensinen? Svara i mil.",
+        "s": "<div class=\"facit-v2\"><p>\\[s=2560/0{,}60\\]</p><p>\\[s\\approx4270\\ \\mathrm{mil}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4266.666666666667,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "mil",
+        "tolerans": 106.66666666666669,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela antalet liter med liter per mil.</p>",
+        "t": "<p>En energimängd motsvarar 2 560 liter bensin. En bil drar 0,60 liter per mil. Hur långt räcker bensinen? Svara i mil.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vad säger jämförelsen om mängden bränsle ett kärnkraftverk behöver?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett enda gram U-235 motsvarar i denna idealiserade jämförelse mer än 2500 liter bensin.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnbränslets mycket höga energitäthet gör att bränslemängden och transportbehovet blir små jämfört med fossila bränslen.</p></div><div class=\"facit-stycke\"><p>Verkliga anläggningar har olika verkningsgrader och allt kärnbränsle fissionerar inte.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Dela fissionsenergin med energin per liter bensin. Kontrollera först bevarandet av masstal och atomnummer.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Uran-235 ger mycket mer energi per gram än bensin. Vad innebär det för mängden bränsle som behövs för samma frigjorda energi?",
+        "s": "<div class=\"facit-v2\"><p>Uran-235 ger mycket energi per gram. Därför kan en liten mängd bränsle ge mycket energi. Den verkliga bränsleförbrukningen beror också på verkningsgrad och hur stor andel av bränslet som klyvs.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "En mindre massa uran-235 behövs.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "En mindre massa uran-235 behövs.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "En större massa uran-235 behövs.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Bränslemassan måste vara lika stor.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför energi per gram.</p>",
+        "t": "<p>Uran-235 ger mycket mer energi per gram än bensin. Vad innebär det för mängden bränsle som behövs för samma frigjorda energi?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "omrTidigare": "karnreaktioner"
@@ -103472,53 +103558,132 @@ window.BANK = [
     "id": "9.24",
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>När en U-235-kärna träffas av en neutron kan den klyvas. En möjlig reaktion är: ²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + ____ + 2n</p>\n<ol><li>Bestäm den okända kärnans masstal.</li><li>Bestäm dess atomnummer.</li>\n<li>Varför är de extra neutronerna avgörande för ett kärnkraftverk?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara det totala masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[235+1=140+A+2\\Rightarrow A=94\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara den elektriska laddningen, alltså atomnumret.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[92=54+Z\\Rightarrow Z=38\\]</div></div><div class=\"facit-stycke\"><p>Atomnummer 38 är strontium: \\({}^{94}_{38}\\mathrm{Sr}\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De två frigjorda neutronerna kan orsaka nya fissioner och skapa en kedjereaktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I en reaktor regleras neutronantalet med bland annat styrstavar och moderator.</p></div><div class=\"facit-stycke\"><p>En kritisk reaktor håller i genomsnitt en ny fission igång per tidigare fission.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den okända kärnan är \\({}^{94}_{38}\\mathrm{Sr}\\). Neutronerna gör en kontrollerad kedjereaktion möjlig.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En möjlig klyvningsreaktion är ²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + X + 2n.</p><p>a) Bestäm X:s masstal.</p><p>b) Bestäm X:s atomnummer.</p><p>c) Förklara neutronernas roll i en kedjereaktion.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[235+1=140+A+2\\]</p><p>\\[A=236-140-2=94\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[92=54+Z\\]</p><p>\\[Z=92-54=38\\]</p><p>Atomnummer 38 är strontium.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Neutronerna kan träffa andra urankärnor och orsaka fler klyvningar. Det gör en kedjereaktion möjlig.</p></div></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      94,
+      38,
+      null
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "ledtrad": "<p>Det sammanlagda masstalet bevaras.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>När en U-235-kärna träffas av en neutron kan den klyvas. En möjlig reaktion är: ²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + ____ + 2n</p>",
+    "spelIntro": "<p>En möjlig klyvningsreaktion är ²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + X + 2n.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm den okända kärnans masstal.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara det totala masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[235+1=140+A+2\\Rightarrow A=94\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(94\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + X + 2n. Vilket masstal har X?",
+        "s": "<div class=\"facit-v2\"><p>\\[235+1=140+A+2\\]</p><p>\\[A=236-140-2=94\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 94,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Det sammanlagda masstalet bevaras.</p>",
+        "t": "<p>²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + X + 2n. Vilket masstal har X?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm dess atomnummer.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bevara den elektriska laddningen, alltså atomnumret.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[92=54+Z\\Rightarrow Z=38\\]</div></div><div class=\"facit-stycke\"><p>Atomnummer 38 är strontium: \\({}^{94}_{38}\\mathrm{Sr}\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(38\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + X + 2n. Vilket atomnummer har X?",
+        "s": "<div class=\"facit-v2\"><p>\\[92=54+Z\\]</p><p>\\[Z=92-54=38\\]</p><p>Atomnummer 38 är strontium.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 38,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Det sammanlagda atomnumret bevaras.</p>",
+        "t": "<p>²³⁵₉₂U + n → ¹⁴⁰₅₄Xe + X + 2n. Vilket atomnummer har X?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför är de extra neutronerna avgörande för ett kärnkraftverk?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De två frigjorda neutronerna kan orsaka nya fissioner och skapa en kedjereaktion.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I en reaktor regleras neutronantalet med bland annat styrstavar och moderator.</p></div><div class=\"facit-stycke\"><p>En kritisk reaktor håller i genomsnitt en ny fission igång per tidigare fission.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C"
+        "fraga": "Varför kan neutroner som frigörs vid uranklyvning starta en kedjereaktion?",
+        "s": "<div class=\"facit-v2\"><p>Neutronerna kan träffa andra urankärnor och orsaka fler klyvningar. Det gör en kedjereaktion möjlig.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "De kan orsaka nya klyvningar av andra urankärnor.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "De kan orsaka nya klyvningar av andra urankärnor.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "De gör andra kärnor elektriskt neutrala.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "De stoppar alltid alla följande klyvningar.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad kan en neutron göra när den träffar en urankärna?</p>",
+        "t": "<p>Varför kan neutroner som frigörs vid uranklyvning starta en kedjereaktion?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ]
   },
   {
     "id": "9.25",
@@ -106497,26 +106662,31 @@ window.BANK = [
     "kap": 9,
     "omr": "fission",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett kärnkraftverk levererar 1000 MW elektrisk effekt vid verkningsgraden 33 %. Ett gram U-235 ger 8,2·10¹⁰ J. Ett år har 3,156·10⁷ s.</p>\n<ol><li>Hur stor termisk effekt utvecklas i reaktorn?</li><li>Hur mycket energi produceras termiskt per år?</li>\n<li>Hur mycket U-235 förbrukas per år?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden är elektrisk effekt delad med termisk effekt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{term}}=\\frac{P_{\\mathrm{el}}}{\\eta}=\\frac{1000\\ \\mathrm{MW}}{0{,}33}=3{,}03\\cdot10^3\\ \\mathrm{MW}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Årsenergin blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{term}}=P_{\\mathrm{term}}t=(3{,}03\\cdot10^9)(3{,}156\\cdot10^7)=9{,}56\\cdot10^{16}\\ \\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela med energin per gram U-235.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{9{,}56\\cdot10^{16}}{8{,}2\\cdot10^{10}}=1{,}17\\cdot10^6\\ \\mathrm g=1{,}17\\ \\mathrm{ton}\\]</div></div><div class=\"facit-stycke\"><p>Detta är en idealiserad beräkning där den angivna energin per gram används direkt och kraftverket antas gå med full effekt hela året.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Reaktorns termiska effekt är cirka \\(3{,}0\\ \\mathrm{GW}\\), årsenergin \\(9{,}6\\cdot10^{16}\\ \\mathrm J\\), och den idealiserade U-235-förbrukningen cirka \\(1{,}2\\ \\mathrm{ton/år}\\).</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett kärnkraftverk ger 1 000 MW el under ett helt år med verkningsgraden 33 %. Ett gram uran-235 ger 8,2·10¹⁰ J vid fullständig klyvning. Ett år är 3,156·10⁷ s.</p><p>a) Bestäm värmeeffekten i reaktorn i MW.</p><p>b) Bestäm energin som frigörs under året i J.</p><p>c) Hur många ton uran-235 klyvs?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P_{värme}=1000/0{,}33\\]</p><p>\\[P_{värme}\\approx3030\\ \\mathrm{MW}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=P_{värme}\\cdot10^6\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx9{,}56\\cdot10^{16}\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=E/(8{,}2\\cdot10^{10})\\]</p><p>\\[m\\approx1170000\\ \\mathrm{g}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=m_{\\mathrm g}/10^6\\]</p><p>\\[m\\approx1{,}17\\ \\mathrm{t}\\]</p></div></p></div></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3030,
-      9.56e+16,
-      1.166
+      3030.30303030303,
+      9.563636363636363e+16,
+      1.1662971175166297
     ],
     "tolerans": [
-      45,
-      1440000000000000.0,
-      0.035
+      75.75757575757575,
+      2390670000000000.0,
+      0.05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -106537,36 +106707,71 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett kärnkraftverk levererar 1000 MW elektrisk effekt vid verkningsgraden 33 %. Ett gram U-235 ger 8,2·10¹⁰ J. Ett år har 3,156·10⁷ s.</p><div class=\"spel-en-del\">Hur stor termisk effekt utvecklas i reaktorn?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Verkningsgraden är elektrisk effekt delad med termisk effekt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{term}}=\\frac{P_{\\mathrm{el}}}{\\eta}=\\frac{1000\\ \\mathrm{MW}}{0{,}33}=3{,}03\\cdot10^3\\ \\mathrm{MW}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}03\\cdot10^3\\ \\mathrm{MW}\\).</p></div>",
-        "ledtrad": "<p>Verkningsgraden är elektrisk effekt delad med termisk effekt.</p>",
+        "fraga": "Ett kärnkraftverk ger 1 000 MW el med verkningsgraden 33 %. Vilken värmeeffekt utvecklas i reaktorn? Svara i MW.",
+        "s": "<div class=\"facit-v2\"><p>\\[P_{värme}=1000/0{,}33\\]</p><p>\\[P_{värme}\\approx3030\\ \\mathrm{MW}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3030.30303030303,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "MW",
+        "tolerans": 75.75757575757575,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>El är 33 % av reaktorns värmeeffekt.</p>",
+        "t": "<p>Ett kärnkraftverk ger 1 000 MW el med verkningsgraden 33 %. Vilken värmeeffekt utvecklas i reaktorn? Svara i MW.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Ett kärnkraftverk levererar 1000 MW elektrisk effekt vid verkningsgraden 33 %. Ett gram U-235 ger 8,2·10¹⁰ J. Ett år har 3,156·10⁷ s.</p><div class=\"spel-en-del\">Hur mycket energi produceras termiskt per år?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Årsenergin blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\mathrm{term}}=P_{\\mathrm{term}}t=(3{,}03\\cdot10^9)(3{,}156\\cdot10^7)=9{,}56\\cdot10^{16}\\ \\mathrm J\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}56\\cdot10^{16}\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En reaktor utvecklar värmeeffekten 3 030 MW under ett helt år. Hur mycket energi frigörs? Svara i J. Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=3030\\cdot10^6\\ \\mathrm W\\]</p><p><div class=\"facit-v2\"><p>\\[E=3030\\cdot10^6\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx9{,}56\\cdot10^{16}\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9.56268e+16,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 2390670000000000.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt är energi per sekund. Använd E = Pt.</p>",
+        "t": "<p>En reaktor utvecklar värmeeffekten 3 030 MW under ett helt år. Hur mycket energi frigörs? Svara i J. Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "t": "<p>Ett kärnkraftverk levererar 1000 MW elektrisk effekt vid verkningsgraden 33 %. Ett gram U-235 ger 8,2·10¹⁰ J. Ett år har 3,156·10⁷ s.</p><div class=\"spel-en-del\">Hur mycket U-235 förbrukas per år?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela med energin per gram U-235.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{9{,}56\\cdot10^{16}}{8{,}2\\cdot10^{10}}=1{,}17\\cdot10^6\\ \\mathrm g=1{,}17\\ \\mathrm{ton}\\]</div></div><div class=\"facit-stycke\"><p>Detta är en idealiserad beräkning där den angivna energin per gram används direkt och kraftverket antas gå med full effekt hela året.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}17\\ \\mathrm{ton}\\).</p></div>",
-        "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Om massdefekt används, omvandla den till energi med \\(E=\\Delta mc^2\\) (eller motsvarande MeV/u).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En reaktor frigör 9,56·10¹⁶ J under ett år. Varje gram uran-235 ger 8,2·10¹⁰ J vid fullständig klyvning. Hur många ton uran-235 klyvs?",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=9{,}56\\cdot10^{16}/(8{,}2\\cdot10^{10})\\]</p><p>\\[m\\approx1170000\\ \\mathrm{g}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=m_{\\mathrm g}/10^6\\]</p><p>\\[m\\approx1{,}17\\ \\mathrm{t}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.1658536585365853,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "t",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela energin med energi per gram och omvandla g till ton.</p>",
+        "t": "<p>En reaktor frigör 9,56·10¹⁶ J under ett år. Varje gram uran-235 ger 8,2·10¹⁰ J vid fullständig klyvning. Hur många ton uran-235 klyvs?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Verkningsgraden är elektrisk effekt delad med termisk effekt.</p>",
+    "ledtrad": "<p>El är 33 % av reaktorns värmeeffekt.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "spelIntro": "<p>Ett kärnkraftverk ger 1 000 MW el under ett helt år med verkningsgraden 33 %. Ett gram uran-235 ger 8,2·10¹⁰ J vid fullständig klyvning. Ett år är 3,156·10⁷ s.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.196",
@@ -110093,9 +110298,9 @@ window.BANK = [
     "id": "9.70",
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Diagrammet visar bindningsenergin per nukleon för olika masstal.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">240</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">E (MeV)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">masstal A</text><polyline points=\"57.6,221.8 61.2,89.80000000000001 75.6,76.6 100.80000000000001,59 154.8,52.39999999999998 234,59 324,65.60000000000002 482.40000000000003,78.80000000000001\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"57.6\" cy=\"221.8\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"61.2\" cy=\"89.80000000000001\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"75.6\" cy=\"76.6\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"100.80000000000001\" cy=\"59\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"154.8\" cy=\"52.39999999999998\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"234\" cy=\"59\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"324\" cy=\"65.60000000000002\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"482.40000000000003\" cy=\"78.80000000000001\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Vid vilket masstal är kurvan högst?</li><li>Vad betyder ett högt värde?</li>\n<li>Förklara med kurvan varför både fusion och fission frigör energi.</li></ol>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar bindningsenergin per nukleon för olika masstal.</p><span class=\"fig bred\"><svg role=\"img\" aria-label=\"Bindningsenergi per nukleon har sitt maximum nära masstal 56\" height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 -20 500 326\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" fill=\"#5C575E\">240</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"4\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">Bindningsenergi per nukleon (MeV)</text><text x=\"486\" y=\"298\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">masstal A</text><polyline points=\"57.6,221.8 61.2,89.80000000000001 75.6,76.6 100.80000000000001,59 154.8,52.39999999999998 234,59 324,65.60000000000002 482.40000000000003,78.80000000000001\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"57.6\" cy=\"221.8\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"61.2\" cy=\"89.80000000000001\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"75.6\" cy=\"76.6\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"100.80000000000001\" cy=\"59\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"154.8\" cy=\"52.39999999999998\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"234\" cy=\"59\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"324\" cy=\"65.60000000000002\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"482.40000000000003\" cy=\"78.80000000000001\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Vid vilket masstal är kurvan högst?</li><li>Vad betyder ett högt värde?</li>\n<li>Förklara med kurvan varför både fusion och fission frigör energi.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurvan har sitt maximum nära masstalet 56, i området kring järn och nickel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A\\approx56\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Hög bindningsenergi per nukleon betyder att mycket energi krävs för att skilja kärnans nukleoner åt.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan är därför starkt bunden.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fusion av lätta kärnor och fission av mycket tunga kärnor flyttar produkterna uppåt på kurvan, mot högre bindningsenergi per nukleon.</p></div><div class=\"facit-stycke\"><p>Ökningen i total bindningsenergi frigörs som bland annat rörelseenergi och strålning.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kurvan är högst kring \\(A\\approx56\\). Både fusion av lätta kärnor och fission av tunga kärnor frigör energi genom att produkterna blir starkare bundna.</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -110107,7 +110312,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Kurvan har sitt maximum nära masstalet 56, i området kring järn och nickel.</p>",
+    "ledtrad": "<p>Jämför bindningsenergi per nukleon före och efter reaktionen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Diagrammet visar bindningsenergin per nukleon för olika masstal.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">240</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">E (MeV)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">masstal A</text><polyline points=\"57.6,221.8 61.2,89.80000000000001 75.6,76.6 100.80000000000001,59 154.8,52.39999999999998 234,59 324,65.60000000000002 482.40000000000003,78.80000000000001\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"57.6\" cy=\"221.8\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"61.2\" cy=\"89.80000000000001\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"75.6\" cy=\"76.6\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"100.80000000000001\" cy=\"59\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"154.8\" cy=\"52.39999999999998\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"234\" cy=\"59\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"324\" cy=\"65.60000000000002\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"482.40000000000003\" cy=\"78.80000000000001\" r=\"3.3\" fill=\"#B43123\"/></svg></span>",
     "spelDelar": [
@@ -110135,7 +110340,7 @@ window.BANK = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true,
@@ -116005,29 +116210,29 @@ window.BANK = [
     "id": "9.99",
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Vid en fission frigörs ungefär 200 MeV. Data: \\(1\\ \\mathrm{eV}=1{,}602\\cdot10^{-19}\\ \\mathrm J\\).</p><p>Hur många fissioner krävs för att frigöra 1,0 kWh energi?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla först energin per fission och sedan 1,0 kWh till joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=3{,}204\\cdot10^{-11}\\ \\mathrm J\\]\\[1{,}0\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\]\\[N=\\frac{3{,}6\\cdot10^6}{3{,}204\\cdot10^{-11}}\\approx1{,}12\\cdot10^{17}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}1\\cdot10^{17}\\) fissioner.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Hur många klyvningar av uran-235 ger 1,0 kWh energi? Varje klyvning ger 200 MeV. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=1{,}0\\cdot3{,}6\\cdot10^6\\]</p><p>\\[E\\approx3600000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx1{,}12\\cdot10^{17}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 112000000000000000,
-    "tolerans": 2000000000000000,
+    "rättSvar": 1.1235955056179776e+17,
+    "tolerans": 5000000000000000.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
     "svarFormat": "numeriskt",
-    "svarEnhet": "fissioner",
-    "ledtrad": "<p>Omvandla först energin per fission och sedan 1,0 kWh till joule.</p>",
-    "traningsniva": 3,
+    "svarEnhet": null,
+    "ledtrad": "<p>Dela den sammanlagda energin med energin per klyvning.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "manuellKomplettering": false
   },
   {
     "id": "5.177",
@@ -117838,113 +118043,115 @@ window.BANK = [
     "id": "9.199",
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "typ": "energiutbyte från makroskopisk mängd kärnbränsle",
-    "poang": "(0/1/2)",
-    "t": "<p>Anta att varje fission av \\(^{235}\\mathrm{U}\\) frigör \\(190\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0{,}5\\,\\mathrm{kg}\\) rent \\(^{235}\\mathrm{U}\\) fissionerar fullständigt? Data: \\(N_A=6{,}022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm antalet urankärnor från substansmängden och multiplicera med energin per fission.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{500}{235}N_A=1{,}281\\cdot10^{24}\\]\\[E=N\\cdot190\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=3{,}9\\cdot10^{13}\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}9\\cdot10^{13}\\ \\mathrm J\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>0,50 kg rent uran-235 klyvs fullständigt. Varje klyvning ger 190 MeV. Hur mycket energi frigörs i J? Uran-235:s molmassa är 235 g/mol. Använd Nₐ = 6,022·10²³ mol⁻¹ och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m=500\\ \\mathrm g\\]</p><p><div class=\"facit-v2\"><p>\\[N=(500/235)\\cdot6{,}022\\cdot10^{23}\\]</p><p>\\[N\\approx1{,}28\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_f=190\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}04\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_f\\]</p><p>\\[E\\approx3{,}9\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 38999497000000,
-    "tolerans": 701990950000,
+    "rättSvar": 38999497021276.59,
+    "tolerans": 974987425531.9149,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Antalet atomer är provets massa delad med en atoms massa.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "J",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "manuellKomplettering": false
   },
   {
     "id": "9.102",
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En fission frigör ungefär 200 MeV. Hur många fissioner behövs för att frigöra 1,0 GJ?</p><p>Data: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla först energin per fission till joule och dividera sedan den önskade energin med energin per fission.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=3{,}204\\cdot10^{-11}\\,\\mathrm J\\]\\[N=\\frac{1{,}0\\cdot10^9}{E_f}=3{,}121\\cdot10^{19}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(3{,}12\\cdot10^{19}\\) fissioner.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Hur många klyvningar av uran-235 ger 1,0 GJ energi? Varje klyvning ger 200 MeV. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=1{,}0\\cdot10^9\\]</p><p>\\[E\\approx1000000000\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx3{,}12\\cdot10^{19}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 31210986267166044000,
-    "tolerans": 468164794007490600,
+    "rättSvar": 3.1210986267166044e+19,
+    "tolerans": 7.802746566791511e+17,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Omvandla först energin per fission till joule och dividera sedan den önskade energin med energin per fission.</p>",
+    "ledtrad": "<p>Dela den sammanlagda energin med energin per klyvning.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "id": "9.103",
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En reaktor utvecklar den termiska effekten 3000 MW. Elverkningsgraden är 34 %.</p><p>Hur mycket elektrisk energi levereras under 18 h? Ange svaret i MWh.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska effekten är verkningsgraden gånger den termiska effekten.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera sedan med tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_e=0{,}34\\cdot3000=1020\\,\\mathrm{MW}\\]\\[E=1020\\cdot18=18360\\,\\mathrm{MWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18360\\,\\mathrm{MWh}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En reaktor utvecklar värmeeffekten 3 000 MW. Verkningsgraden till el är 34 %. Hur mycket elektrisk energi levereras under 18 timmar? Svara i MWh.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[P_{el}=0{,}34\\cdot3000=1020\\ \\mathrm{MW}\\]</p><p>\\[E=P_{el}t=1020\\cdot18=18360\\ \\mathrm{MWh}\\]</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 18360,
-    "tolerans": 275.4,
+    "rättSvar": 18360.000000000004,
+    "tolerans": 500.0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MWh",
-    "ledtrad": "<p>Den elektriska effekten är verkningsgraden gånger den termiska effekten. Multiplicera sedan med tiden.</p>",
+    "ledtrad": "<p>Räkna först eleffekten och multiplicera sedan med tiden.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "manuellKomplettering": false
   },
   {
     "id": "9.104",
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Ett kärnkraftverk levererar 900 MWh elektrisk energi. Verkningsgraden från kärnenergi till el är 30 %.</p><p>Hur stor massa har omvandlats till energi enligt \\(E=mc^2\\)? Ange svaret i mg.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elenergin är bara 30 % av den frigjorda kärnenergin.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm därför först kärnenergin och använd sedan \\(m=E/c^2\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{k}=\\frac{900\\cdot3{,}6\\cdot10^9}{0{,}30}=1{,}080\\cdot10^{13}\\,\\mathrm J\\]\\[m=\\frac{E_k}{(3,00\\cdot10^8)^2}=120{,}00\\,\\mathrm{mg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(120{,}0\\,\\mathrm{mg}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett kärnkraftverk levererar 900 MWh el med verkningsgraden 30 %. Hur stor massa har omvandlats till energi? Svara i mg. Använd c = 3,00·10⁸ m/s och E = mc².</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[E_{el}=900\\cdot3{,}6\\cdot10^9\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E=E_{el}/0{,}30\\]</p><p>\\[E\\approx1{,}08\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/(3{,}00\\cdot10^8)^2\\]</p><p>\\[m\\approx0{,}00012\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=m_{\\mathrm{kg}}\\cdot10^6\\]</p><p>\\[m\\approx120\\ \\mathrm{mg}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 120,
-    "tolerans": 1.7999999999999998,
+    "rättSvar": 120.0,
+    "tolerans": 5.0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mg",
-    "ledtrad": "<p>Elenergin är bara 30 % av den frigjorda kärnenergin. Bestäm därför först kärnenergin och använd sedan \\(m=E/c^2\\).</p>",
+    "ledtrad": "<p>Räkna all frigjord energi, inte bara elenergin, innan du använder E = mc².</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "manuellKomplettering": false
   },
   {
     "id": "4.313",
@@ -134465,30 +134672,30 @@ window.BANK = [
     "id": "9.200",
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "typ": "energiutbyte från makroskopisk mängd kärnbränsle",
-    "poang": "(0/1/2)",
-    "t": "<p>Anta att varje fission av \\(^{235}\\mathrm{U}\\) frigör \\(195\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0{,}6\\,\\mathrm{kg}\\) rent \\(^{235}\\mathrm{U}\\) fissionerar fullständigt? Data: \\(N_A=6{,}022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm antalet urankärnor från substansmängden och multiplicera med energin per fission.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{600}{235}N_A=1{,}538\\cdot10^{24}\\]\\[E=N\\cdot195\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=4{,}803\\cdot10^{13}\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}803\\cdot10^{13}\\ \\mathrm J\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Uran-235 klyvs fullständigt och frigör 4,80·10¹³ J. Varje klyvning ger 195 MeV. Hur stor massa uran-235 klyvs? Svara i kg. Molmassan är 235 g/mol. Använd Nₐ = 6,022·10²³ mol⁻¹ och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=195\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}12\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=4{,}80\\cdot10^{13}/E_f\\]</p><p>\\[N\\approx1{,}54\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=(N/N_A)\\cdot235\\]</p><p>\\[m\\approx600\\ \\mathrm{g}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=m_{g}/1000\\]</p><p>\\[m\\approx0{,}6\\ \\mathrm{kg}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 48030959000000,
-    "tolerans": 864557270000,
+    "rättSvar": 0.5996132558288548,
+    "tolerans": 0.014990331395721371,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Räkna antal klyvningar och omvandla sedan antal atomer till massa.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "J",
-    "traningsniva": 4,
+    "svarEnhet": "kg",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "manuellKomplettering": false
   },
   {
     "id": "9.109",
@@ -134819,30 +135026,29 @@ window.BANK = [
     "id": "9.201",
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "typ": "energiutbyte från makroskopisk mängd kärnbränsle",
-    "poang": "(0/1/2)",
-    "t": "<p>Anta att varje fission av \\(^{235}\\mathrm{U}\\) frigör \\(200\\,\\mathrm{MeV}\\). Hur mycket energi frigörs om \\(0{,}7\\,\\mathrm{kg}\\) rent \\(^{235}\\mathrm{U}\\) fissionerar fullständigt? Data: \\(N_A=6{,}022\\cdot10^{23}\\,\\mathrm{mol^-1}\\) och \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm antalet urankärnor från substansmängden och multiplicera med energin per fission.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{700}{235}N_A=1{,}794\\cdot10^{24}\\]\\[E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=5{,}747\\cdot10^{13}\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}747\\cdot10^{13}\\ \\mathrm J\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Uran-235 frigör 5,75·10¹³ J på ett dygn genom fullständig klyvning. Hur stor är den genomsnittliga effekten? Svara i MW.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[t=24\\cdot3600=86400\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[P=5{,}75\\cdot10^{13}/86400\\]</p><p>\\[P\\approx666000000\\ \\mathrm{W}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=P_{\\mathrm W}/10^6\\]</p><p>\\[P\\approx666\\ \\mathrm{MW}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 57472943000000,
-    "tolerans": 1034513000000,
+    "rättSvar": 665.5092592592592,
+    "tolerans": 16.63773148148148,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv vilka energiformer som finns i början och slutet. Finns arbete, friktion eller verkningsgrad som måste tas med?</p>",
+    "ledtrad": "<p>Effekt är energi per sekund. Använd E = Pt.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "J",
-    "traningsniva": 4,
+    "svarEnhet": "MW",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "omrTidigare": "karnreaktioner"
+    "omrTidigare": "karnreaktioner",
+    "manuellKomplettering": false
   },
   {
     "id": "6.200",
@@ -154856,7 +155062,7 @@ window.BANK = [
         "kommentar": "Det beskriver en elektronövergång."
       }
     ],
-    "ledtrad": "<p>Utgå från den grundläggande definitionen eller vad som bevaras.</p>",
+    "ledtrad": "<p>Jämför att dela en tung kärna med att slå ihop lätta kärnor.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -154870,94 +155076,153 @@ window.BANK = [
   {
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "typ": "energi vid klyvning till barium och krypton",
-    "poang": "(0/1/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Klyvningen n + U-235 → Ba-141 + Kr-92 + 3n. Ba-141 har massan 140,914411 u och Kr-92 91,926156 u. Hur stor energi frigörs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=235{,}0439231+1{,}008665-140{,}914411-91{,}926156-3\\cdot1{,}008665\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\Delta m\\cdot931{,}49\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(173\\) MeV</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En neutron klyver uran-235 till Ba-141 och Kr-92 samt 3 neutroner. Neutronens massa är 1,008665 u och uranatomens 235,0439231 u. Fragmentens atommassor är 140,914411 u och 91,926156 u. 1 u motsvarar 931,49 MeV. Bestäm frigjord energi i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m_{före}=235{,}0439231+1{,}008665\\]</p><p>\\[m_{före}=236{,}0525881\\ \\mathrm u\\]</p><p>\\[m_{fragment}=140{,}914411+91{,}926156\\]</p><p>\\[m_{fragment}=232{,}840567\\ \\mathrm u\\]</p><p>\\[m_{neutroner}=3\\cdot1{,}008665\\]\\[m_{neutroner}=3{,}025995\\ \\mathrm u\\]</p><p>\\[m_{efter}=m_{fragment}+m_{neutroner}\\]</p><p>\\[m_{efter}=235{,}866562\\ \\mathrm u\\]</p><p>Behåll decimalerna tills masskillnaden har räknats.</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}1860261\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx173\\ \\mathrm{MeV}\\]</p></div></p></div>",
     "id": "9.401",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 173.28145188900112,
-    "tolerans": 2.6,
+    "rättSvar": 173.28145188899285,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför massan före och efter.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
+    "traningsniva": 2,
     "svarEnhet": "MeV",
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
     "niva": "C",
-    "typ": "energi vid klyvning till antimon och niob",
     "poang": "(0/1/0)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Klyvningen n + U-235 → Sb-133 + Nb-98 + \\(x\\)n. Sb-133 har massan 132,915250 u och Nb-98 97,910328 u. Bestäm \\(x\\) med masstalen och beräkna sedan energin som frigörs.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[236=133+98+x\\iff x=5\\].</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=236{,}0525881-132{,}915250-97{,}910328-5\\cdot1{,}008665\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(171\\) MeV</p></div>",
+    "t": "<p>a) En neutron klyver uran-235 till Sb-133 och Nb-98 samt x neutroner. Neutronens massa är 1,008665 u och uranatomens 235,0439231 u. Fragmentens atommassor är 132,91525 u och 97,910328 u. 1 u motsvarar 931,49 MeV. Bestäm x och sedan frigjord energi i MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[236=133+98+x\\quad\\Rightarrow\\quad x=5\\]</p><p><div class=\"facit-v2\"><p>\\[m_{före}=235{,}0439231+1{,}008665\\]</p><p>\\[m_{före}=236{,}0525881\\ \\mathrm u\\]</p><p>\\[m_{fragment}=132{,}91525+97{,}910328\\]</p><p>\\[m_{fragment}=230{,}825578\\ \\mathrm u\\]</p><p>\\[m_{neutroner}=5\\cdot1{,}008665\\]\\[m_{neutroner}=5{,}043325\\ \\mathrm u\\]</p><p>\\[m_{efter}=m_{fragment}+m_{neutroner}\\]</p><p>\\[m_{efter}=235{,}868903\\ \\mathrm u\\]</p><p>Behåll decimalerna tills masskillnaden har räknats.</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}1836851\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx171\\ \\mathrm{MeV}\\]</p></div></p></div></p></div>",
     "id": "9.402",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
-    "svarstyp": "numeriskt",
-    "rättSvar": 171.10083379901482,
-    "tolerans": 2.57,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        5,
+        171.10083379899166
+      ]
+    ],
+    "tolerans": [
+      [
+        0,
+        5.0
+      ]
+    ],
+    "självrättning": [
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Masstalet bevaras.</p>",
+    "svarFormat": [
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Bestäm neutronantalet med masstalen innan du räknar produktmassan.</p>",
     "traningsniva": 3,
-    "svarEnhet": "MeV",
+    "svarEnhet": [
+      [
+        null,
+        "MeV"
+      ]
+    ],
     "familjNyckel": "fission__fission_och_energiutvinning",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 1,
+    "spel": true,
+    "spelIntro": "",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En neutron klyver uran-235 till Sb-133 och Nb-98 samt x neutroner. Neutronens massa är 1,008665 u och uranatomens 235,0439231 u. Fragmentens atommassor är 132,91525 u och 97,910328 u. 1 u motsvarar 931,49 MeV. Bestäm x och sedan frigjord energi i MeV.",
+        "s": "<div class=\"facit-v2\"><p>\\[236=133+98+x\\quad\\Rightarrow\\quad x=5\\]</p><p><div class=\"facit-v2\"><p>\\[m_{före}=235{,}0439231+1{,}008665\\]</p><p>\\[m_{före}=236{,}0525881\\ \\mathrm u\\]</p><p>\\[m_{fragment}=132{,}91525+97{,}910328\\]</p><p>\\[m_{fragment}=230{,}825578\\ \\mathrm u\\]</p><p>\\[m_{neutroner}=5\\cdot1{,}008665\\]\\[m_{neutroner}=5{,}043325\\ \\mathrm u\\]</p><p>\\[m_{efter}=m_{fragment}+m_{neutroner}\\]</p><p>\\[m_{efter}=235{,}868903\\ \\mathrm u\\]</p><p>Behåll decimalerna tills masskillnaden har räknats.</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}1836851\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx171\\ \\mathrm{MeV}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          5,
+          171.10083379899166
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          "MeV"
+        ],
+        "tolerans": [
+          0,
+          5.0
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm neutronantalet med masstalen innan du räknar produktmassan.</p>",
+        "t": "<p>En neutron klyver uran-235 till Sb-133 och Nb-98 samt x neutroner. Neutronens massa är 1,008665 u och uranatomens 235,0439231 u. Fragmentens atommassor är 132,91525 u och 97,910328 u. 1 u motsvarar 931,49 MeV. Bestäm x och sedan frigjord energi i MeV.</p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Neutroner",
+          "Energi"
+        ],
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "typ": "fragmentens sammanlagda massa",
-    "poang": "(0/1/1)",
-    "t": "<p>\\(1\\,\\text{u}\\) motsvarar 931,49 MeV.</p><p>Neutronens massa är 1,008665 u och U-235 har massan 235,0439231 u.</p><p>Vid klyvningen n + U-235 → X₁ + X₂ + 3n frigörs 225,0 MeV. Bestäm summan av fragmentens massor. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_1+m_2=235{,}0439231+1{,}008665-3\\cdot1{,}008665-\\dfrac{225{,}0}{931{,}49}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(232{,}8\\) u</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En neutron klyver en uran-235-atom till två fragment och tre neutroner. Energin som frigörs är 225,0 MeV. Uranatomens massa är 235,0439231 u och neutronens 1,008665 u. Bestäm fragmentens sammanlagda atommassa i u med två decimaler. 1 u motsvarar 931,49 MeV.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{före}=235{,}0439231+1{,}008665\\]</p><p>\\[m_{före}\\approx236\\ \\mathrm{u}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\Delta m=225{,}0/931{,}49\\]</p><p>\\[\\Delta m\\approx0{,}242\\ \\mathrm{u}\\]</p></div></p><p>\\[m_{fragment}=m_{före}-3m_n-\\Delta m\\]</p><p>\\[m_{fragment}\\approx232{,}79\\ \\mathrm u\\]</p></div>",
     "id": "9.403",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "numeriskt",
     "rättSvar": 232.7850446131671,
-    "tolerans": 0.02,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Massan före = massan efter + energin.</p>",
+    "ledtrad": "<p>Frigjord energi motsvarar en massminskning. Dra också bort de tre fria neutronerna.</p>",
     "traningsniva": 3,
     "svarEnhet": "u",
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "typ": "neutroner bromsas i moderatorn",
-    "poang": "(0/1/1)",
-    "t": "<p>Snabba neutroner med rörelseenergin 1,5 MeV ska bromsas till högst 0,040 eV. Vid varje kollision förlorar en neutron 35 % av sin energi. Hur många kollisioner krävs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}5\\cdot10^6\\cdot0{,}65^k\\le0{,}040\\iff k\\ge\\dfrac{\\lg(0{,}040/1{,}5\\cdot10^6)}{\\lg0{,}65}=40{,}5\\].</div></div><div class=\"facit-stycke\"><p>Alltså 41 kollisioner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\) </p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En neutron har rörelseenergin 1,5 MeV. Vid varje kollision förlorar den 35 % av sin energi. Hur många kollisioner behövs för att energin ska bli högst 0,040 eV?</p>",
+    "s": "<div class=\"facit-v2\"><p>Efter varje kollision återstår 65 %, alltså faktorn 0,65.</p><p>\\[1{,}5\\cdot10^6\\cdot0{,}65^k\\le0{,}040\\]</p><p>\\[k\\ln(0{,}65)\\le\\ln(0{,}040/(1{,}5\\cdot10^6))\\]</p><p>Logaritmen av 0,65 är negativ, så olikhetstecknet vänds när vi dividerar.</p><p><div class=\"facit-v2\"><p>\\[k_{min}=\\ln(0{,}040/(1{,}5\\cdot10^6))/\\ln(0{,}65)\\]</p><p>\\[k_{min}\\approx40{,}5\\]</p></div></p><p>Antalet måste vara heltal. Avrunda uppåt: 41 kollisioner.</p></div>",
     "id": "9.404",
     "miniräknare": true,
     "geogebra": false,
@@ -154968,49 +155233,52 @@ window.BANK = [
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Energin multipliceras med 0,65 vid varje kollision.</p>",
+    "ledtrad": "<p>Energin multipliceras med 0,65 vid varje kollision. Lös exponentialolikheten och avrunda uppåt.</p>",
     "traningsniva": 3,
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
     "niva": "C",
-    "typ": "superkritisk reaktor",
     "poang": "(0/1/0)",
-    "t": "<p>En reaktor har multiplikationsfaktorn 1,0004 per generation, och en generation tar 1,0 ms. Med vilken faktor har antalet klyvningar per sekund ökat efter 1,0 s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1 000 generationer: \\(1{,}0004^{1\\,000}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) </p></div>",
+    "t": "<p>I en reaktormodell ökar antalet klyvningar per sekund med faktorn 1,0004 per generation. En generation tar 1,0 ms. Med vilken faktor har antalet ökat efter 1,0 s?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[n=1{,}0/0{,}0010=1000\\]</p><p><div class=\"facit-v2\"><p>\\[f=1{,}0004^{1000}\\]</p><p>\\[f\\approx1{,}49\\]</p></div></p><p>Ökningen är cirka 49 %, alltså en faktor omkring 1,49.</p></div>",
     "id": "9.405",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "numeriskt",
     "rättSvar": 1.4917053882526092,
-    "tolerans": 0.051,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många generationer hinner det bli?</p>",
+    "ledtrad": "<p>Räkna generationerna och multiplicera med samma faktor för varje generation.</p>",
     "traningsniva": 3,
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "typ": "uran i marken",
-    "poang": "(1/1/0)",
-    "t": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p><ol type=\"a\"><li>Hur mycket uran finns i marken under en fotbollsplan (100 m · 100 m) ner till 1,0 m djup?</li><li>Hur många sådana fotbollsplaner krävs för 1,0 kg U-235?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=10\\,000\\cdot4\\,000\\cdot1{,}0\\cdot10^{-6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(40\\cdot0{,}0070=0{,}28\\) kg per plan.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{1{,}0}{0{,}28}=3{,}6\\): fyra planer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\)</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>a) En markyta är 100 m × 100 m och undersöks ner till 1,0 m djup. Markens densitet är 4,00 g/cm³. Uran är 1,0 miljondel av markens massa. Hur många kg uran finns där?</p><p>b) Under varje undersökt markyta finns 40 kg naturligt uran. Av massan är 0,70 % uran-235. Hur många hela sådana markytor behövs för minst 1,0 kg uran-235?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[V=100\\cdot100\\cdot1=10000\\ \\mathrm{m^3}\\]</p><p>\\[\\rho=4000\\ \\mathrm{kg/m^3}\\]</p><p>\\[m_{mark}=4000\\cdot10000=4\\cdot10^7\\ \\mathrm{kg}\\]</p><p>\\[m_U=4\\cdot10^7\\cdot10^{-6}=40\\ \\mathrm{kg}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m_{235}=40\\cdot0{,}0070=0{,}28\\ \\mathrm{kg}\\]</p><p>\\[n=1{,}0/0{,}28\\approx3{,}57\\]</p><p>Tre hela ytor ger för lite. Fyra hela ytor behövs.</p></div></div>",
     "id": "9.406",
     "miniräknare": true,
     "geogebra": false,
@@ -155021,12 +155289,15 @@ window.BANK = [
       4
     ],
     "tolerans": [
-      0.6,
-      0.06
+      1.0,
+      0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "modellering"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -155042,45 +155313,61 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket uran finns i marken under en fotbollsplan (100 m · 100 m) ner till 1,0 m djup?",
-        "t": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p><p>Hur mycket uran finns i marken under en fotbollsplan (100 m · 100 m) ner till 1,0 m djup?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=10\\,000\\cdot4\\,000\\cdot1{,}0\\cdot10^{-6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\) kg</p></div>",
-        "ledtrad": "<p>Massan jord gånger andelen.</p>",
+        "fraga": "En markyta är 100 m × 100 m och undersöks ner till 1,0 m djup. Markens densitet är 4,00 g/cm³. Uran är 1,0 miljondel av markens massa. Hur många kg uran finns där?",
+        "s": "<div class=\"facit-v2\"><p>\\[V=100\\cdot100\\cdot1=10000\\ \\mathrm{m^3}\\]</p><p>\\[\\rho=4000\\ \\mathrm{kg/m^3}\\]</p><p>\\[m_{mark}=4000\\cdot10000=4\\cdot10^7\\ \\mathrm{kg}\\]</p><p>\\[m_U=4\\cdot10^7\\cdot10^{-6}=40\\ \\mathrm{kg}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 40,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 1.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Räkna volym och markmassa. En miljondel är 10⁻⁶.</p>",
+        "t": "<p>En markyta är 100 m × 100 m och undersöks ner till 1,0 m djup. Markens densitet är 4,00 g/cm³. Uran är 1,0 miljondel av markens massa. Hur många kg uran finns där?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många sådana fotbollsplaner krävs för 1,0 kg U-235?",
-        "t": "<p>Marken innehåller i genomsnitt 1,0 ppm (miljondelar av massan) naturligt uran, och jordens densitet är 4,00 g/cm³. Naturligt uran innehåller 0,70 % U-235.</p>Under en plan finns 40 kg uran.<p>Hur många sådana fotbollsplaner krävs för 1,0 kg U-235?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(40\\cdot0{,}0070=0{,}28\\) kg per plan.</p></div><div class=\"facit-stycke\"><p>\\(\\dfrac{1{,}0}{0{,}28}=3{,}6\\): fyra planer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\)</p></div>",
-        "ledtrad": "<p>Hur mycket U-235 ger en plan?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
+        "fraga": "Under varje undersökt markyta finns 40 kg naturligt uran. Av massan är 0,70 % uran-235. Hur många hela sådana markytor behövs för minst 1,0 kg uran-235?",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{235}=40\\cdot0{,}0070=0{,}28\\ \\mathrm{kg}\\]</p><p>\\[n=1{,}0/0{,}28\\approx3{,}57\\]</p><p>Tre hela ytor ger för lite. Fyra hela ytor behövs.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Räkna uran-235 per yta och avrunda antalet ytor uppåt.</p>",
+        "t": "<p>Under varje undersökt markyta finns 40 kg naturligt uran. Av massan är 0,70 % uran-235. Hur många hela sådana markytor behövs för minst 1,0 kg uran-235?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>ppm betyder miljondelar.</p>",
+    "ledtrad": "<p>Räkna volym och markmassa. En miljondel är 10⁻⁶.</p>",
     "traningsniva": 2,
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
     "niva": "E",
-    "typ": "energi ur ett gram uran-235",
     "poang": "(3/0/0)",
-    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p><ol type=\"a\"><li>Hur många atomer finns i 1,0 g U-235?</li><li>Hur mycket energi frigörs när 1,0 g U-235 klyvs?</li><li>Naturligt uran innehåller 0,70 % U-235. Hur mycket naturligt uran innehåller 1,0 g U-235?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}0\\cdot10^{-3}}{235{,}04\\cdot1{,}6605\\cdot10^{-27}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}6\\cdot10^{21}\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\cdot10^{10}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{1{,}0}{0{,}0070}\\) g.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}14\\) kg</p></li></ol></div>",
+    "t": "<p>En uran-235-atom har massan 235,0439231 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Hur många atomer finns i 1,0 g uran-235?</p><p>b) Hur mycket energi frigörs om alla dessa kärnor klyvs? Svara i J.</p><p>c) Hur många kg naturligt uran innehåller 1,0 g uran-235?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m=1{,}0\\cdot10^{-3}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}0439231\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{atom}\\]</p><p>\\[N\\approx2{,}56\\cdot10^{21}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=N E_f\\]</p><p>\\[E\\approx82100000000\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[m_{235}=0{,}0010\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_U=0{,}0010/0{,}0070\\]</p><p>\\[m_U\\approx0{,}143\\ \\mathrm{kg}\\]</p></div></p></div></div>",
     "id": "9.407",
     "miniräknare": true,
     "geogebra": false,
@@ -155088,18 +155375,21 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.562194489276151e+21,
-      82092711436.40788,
+      82092711436.40787,
       0.14285714285714285
     ],
     "tolerans": [
-      5.1e+19,
-      1230000000.0,
-      0.0051
+      6.405486223190377e+19,
+      2050560000.0,
+      0.005
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -155118,77 +155408,106 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p>",
+    "spelIntro": "<p>En uran-235-atom har massan 235,0439231 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många atomer finns i 1,0 g U-235?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p><p>Hur många atomer finns i 1,0 g U-235?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}0\\cdot10^{-3}}{235{,}04\\cdot1{,}6605\\cdot10^{-27}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}6\\cdot10^{21}\\)</p></div>",
-        "ledtrad": "<p>Massan delat med en atoms massa.</p>",
+        "fraga": "En uran-235-atom har massan 235,0439231 u. Hur många atomer finns i 1,0 g uran-235? Använd 1 u = 1,6605·10⁻²⁷ kg.",
+        "s": "<div class=\"facit-v2\"><p>\\[m=1{,}0\\cdot10^{-3}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}0439231\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{atom}\\]</p><p>\\[N\\approx2{,}56\\cdot10^{21}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.562194489276151e+21,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 6.405486223190377e+19,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Antalet atomer är provets massa delad med en atoms massa.</p>",
+        "t": "<p>En uran-235-atom har massan 235,0439231 u. Hur många atomer finns i 1,0 g uran-235? Använd 1 u = 1,6605·10⁻²⁷ kg.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi frigörs när 1,0 g U-235 klyvs?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>U-235 har massan 235,0439231 u. Varje klyvning ger 200 MeV.</p>1,0 g innehåller \\(2{,}6\\cdot10^{21}\\) atomer.<p>Hur mycket energi frigörs när 1,0 g U-235 klyvs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}2\\cdot10^{10}\\) J</p></div>",
-        "ledtrad": "<p>Energi per klyvning gånger antal.</p>",
+        "fraga": "2,56·10²¹ uran-235-kärnor klyvs. Varje klyvning ger 200 MeV. Hur mycket energi frigörs i J? Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=2{,}56\\cdot10^{21}E_f\\]</p><p>\\[E\\approx82000000000\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 82022400000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 2050560000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Räkna energi per klyvning och multiplicera med antalet.</p>",
+        "t": "<p>2,56·10²¹ uran-235-kärnor klyvs. Varje klyvning ger 200 MeV. Hur mycket energi frigörs i J? Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor massa naturligt uran innehåller 1,0 g uran-235? Svara i kg.",
-        "t": "<p>Naturligt uran innehåller 0,70 % uran-235.</p><p>Hur stor massa naturligt uran innehåller 1,0 g uran-235? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{1{,}0}{0{,}0070}\\) g.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}14\\) kg</p></div>",
-        "ledtrad": "<p>0,70 % av massan.</p>",
+        "fraga": "Naturligt uran innehåller 0,70 % uran-235. Hur många kg naturligt uran innehåller 1,0 g uran-235?",
+        "s": "<div class=\"facit-v2\"><p>\\[m_{235}=0{,}0010\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_U=0{,}0010/0{,}0070\\]</p><p>\\[m_U\\approx0{,}143\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.14285714285714285,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>1 g ska vara 0,70 % av hela uranmassan.</p>",
+        "t": "<p>Naturligt uran innehåller 0,70 % uran-235. Hur många kg naturligt uran innehåller 1,0 g uran-235?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Räkna antal klyvningar.</p>",
+    "ledtrad": "<p>Antalet atomer är provets massa delad med en atoms massa.</p>",
     "traningsniva": 2,
     "familjNyckel": "fission__fission_och_energiutvinning",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
-    "niva": "E",
-    "typ": "reaktor på 240 MW",
+    "niva": "C",
     "poang": "(4/0/0)",
-    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p><ol type=\"a\"><li>Hur många klyvningar sker per sekund?</li><li>Hur mycket U-235 klyvs per sekund?</li><li>Hur mycket U-235 går åt på ett år?</li><li>Hur mycket naturligt uran (0,70 % U-235) motsvarar det?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{240\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\cdot10^{18}\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=7{,}5\\cdot10^{18}\\cdot235{,}04\\cdot1{,}6605\\cdot10^{-27}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\cdot10^{-6}\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2{,}92\\cdot10^{-6}\\cdot3{,}156\\cdot10^7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(92\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{92{,}2}{0{,}0070}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,180\\) kg</p></li></ol></div>",
+    "t": "<p>En reaktor utvecklar värmeeffekten 240 MW genom klyvning av uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J. Ett år är 3,156·10⁷ s.</p><p>a) Hur många klyvningar sker per sekund?</p><p>b) Hur många kg uran-235 klyvs per sekund?</p><p>c) Hur många kg uran-235 klyvs under ett år med konstant effekt?</p><p>d) Hur mycket naturligt uran innehåller denna mängd uran-235? Svara i kg.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[n=240\\cdot10^6/E_f\\]</p><p>\\[n\\approx7{,}49\\cdot10^{18}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx2{,}92\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[m=m_{sekund}\\cdot3{,}156\\cdot10^7\\]</p><p>\\[m\\approx92{,}3\\ \\mathrm{kg}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[m_U=m_{år}/0{,}0070\\]</p><p>\\[m_U\\approx13200\\ \\mathrm{kg}\\]</p></div></div>",
     "id": "9.408",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7490636704119850000,
+      7.49063670411985e+18,
       2.923475056179775e-06,
-      92.25785643289886,
-      13179.693776128408
+      92.2648727730337,
+      13180.696110433386
     ],
     "tolerans": [
-      1.12e+17,
-      5.1e-08,
-      1.38,
-      510.0
+      1.8726591760299626e+17,
+      7.317823499999999e-08,
+      2.30388,
+      500.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -155210,84 +155529,119 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>",
+    "spelIntro": "<p>En reaktor utvecklar värmeeffekten 240 MW genom klyvning av uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J. Ett år är 3,156·10⁷ s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många klyvningar sker per sekund?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger effekten 240 MW genom klyvning av U-235 (235,04 u). Varje klyvning ger 200 MeV.</p><p>Hur många klyvningar sker per sekund?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{240\\cdot10^6}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\cdot10^{18}\\)</p></div>",
-        "ledtrad": "<p>Effekt delat med energi per klyvning.</p>",
+        "fraga": "Uranklyvning ger värmeeffekten 240 MW. Varje klyvning frigör 200 MeV. Hur många klyvningar sker per sekund? Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[n=240\\cdot10^6/E_f\\]</p><p>\\[n\\approx7{,}49\\cdot10^{18}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.49063670411985e+18,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 1.8726591760299626e+17,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela effekt med energi per klyvning.</p>",
+        "t": "<p>Uranklyvning ger värmeeffekten 240 MW. Varje klyvning frigör 200 MeV. Hur många klyvningar sker per sekund? Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor massa U-235 klyvs på en sekund? Svara i kg.",
-        "t": "<p>Det sker \\(7{,}5\\cdot10^{18}\\) klyvningar av U-235 per sekund. Varje atom har massan 235,04 u. Använd \\(1\\,\\mathrm u=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Hur stor massa U-235 klyvs på en sekund? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=7{,}5\\cdot10^{18}\\cdot235{,}04\\cdot1{,}6605\\cdot10^{-27}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\cdot10^{-6}\\) kg</p></div>",
-        "ledtrad": "<p>Antal gånger atomens massa.</p>",
+        "fraga": "7,50·10¹⁸ uran-235-atomer klyvs på en sekund. En atom har massan 235,04 u. Hur stor massa klyvs på den sekunden i kg? Använd 1 u = 1,6605·10⁻²⁷ kg.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx2{,}93\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.9271293999999994e-06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 7.317823499999999e-08,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Antalet atomer är provets massa delad med en atoms massa.</p>",
+        "t": "<p>7,50·10¹⁸ uran-235-atomer klyvs på en sekund. En atom har massan 235,04 u. Hur stor massa klyvs på den sekunden i kg? Använd 1 u = 1,6605·10⁻²⁷ kg.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor massa U-235 klyvs på ett år? Svara i kg.",
-        "t": "<p>Det klyvs 2,92 mg U-235 per sekund. Ett år är \\(3{,}156\\cdot10^7\\) s.</p><p>Hur stor massa U-235 klyvs på ett år? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2{,}92\\cdot10^{-6}\\cdot3{,}156\\cdot10^7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(92\\) kg</p></div>",
-        "ledtrad": "<p>Gånger antalet sekunder.</p>",
+        "fraga": "2,92 mg uran-235 klyvs per sekund. Hur många kg klyvs under ett helt år? Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p>\\[2{,}92\\ \\mathrm{mg}=2{,}92\\cdot10^{-6}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m=2{,}92\\cdot10^{-6}\\cdot3{,}156\\cdot10^7\\]</p><p>\\[m\\approx92{,}2\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 92.1552,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 2.30388,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt är energi per sekund. Använd E = Pt.</p>",
+        "t": "<p>2,92 mg uran-235 klyvs per sekund. Hur många kg klyvs under ett helt år? Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor massa naturligt uran motsvarar det? Svara i kg.",
-        "t": "<p>Det går åt 92,2 kg U-235 per år. Naturligt uran innehåller 0,70 % U-235.</p><p>Hur stor massa naturligt uran motsvarar det? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{92{,}2}{0{,}0070}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,180\\) kg</p></div>",
-        "ledtrad": "<p>Dela med andelen.</p>",
+        "fraga": "Det behövs 92,2 kg uran-235. Naturligt uran innehåller 0,70 % uran-235. Hur många kg naturligt uran innehåller den mängden?",
+        "s": "<div class=\"facit-v2\"><p>\\[m_U=92{,}2/0{,}0070\\]</p><p>\\[m_U\\approx13200\\ \\mathrm{kg}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 13171.428571428572,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 500.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela uran-235-massan med dess andel.</p>",
+        "t": "<p>Det behövs 92,2 kg uran-235. Naturligt uran innehåller 0,70 % uran-235. Hur många kg naturligt uran innehåller den mängden?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Räkna antal klyvningar per sekund.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Dela effekt med energi per klyvning.</p>",
+    "traningsniva": 3,
     "familjNyckel": "fission__fission_och_energiutvinning",
-    "arbetsinsats": 3,
-    "spel": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
     "niva": "C",
-    "typ": "första atombomben",
     "poang": "(1/1/0)",
-    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>1 kt TNT motsvarar \\(5\\cdot10^{12}\\) J. Den första atombomben hade styrkan 20 kt och energin kom från klyvning av U-235 (235,04 u), 200 MeV per klyvning. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><ol type=\"a\"><li>Hur stor massa U-235 klövs?</li><li>Hur stor massa omvandlades till energi?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}0\\cdot10^{14}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\dfrac{E}{c^2}=\\dfrac{1{,}0\\cdot10^{14}}{(3{,}00\\cdot10^8)^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0011\\) kg</p></li></ol></div>",
+    "t": "<p>I en modell frigör fullständig klyvning av uran-235 energin 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en atom har massan 235,04 u. Ljusets hastighet är 3,00·10⁸ m/s. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Uranklyvning frigör 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en uranatom har massan 235,04 u. Hur många kg uran klyvs? Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p><p>b) Energin 1,0·10¹⁴ J frigörs. Hur stor massa motsvarar energin enligt E = mc²? Svara i kg. Använd c = 3,00·10⁸ m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1{,}0\\cdot10^{14}/E_f\\]</p><p>\\[N\\approx3{,}12\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx1{,}22\\ \\mathrm{kg}\\]</p></div></p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=1{,}0\\cdot10^{14}/(3{,}00\\cdot10^8)^2\\]</p><p>\\[\\Delta m\\approx0{,}00111\\ \\mathrm{kg}\\]</p></div></div>",
     "id": "9.409",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.218114606741573,
+      1.2181146067415727,
       0.0011111111111111111
     ],
     "tolerans": [
-      0.051,
-      5.1e-05
+      0.05,
+      5e-05
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -155303,66 +155657,87 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>1 kt TNT motsvarar \\(5\\cdot10^{12}\\) J. Den första atombomben hade styrkan 20 kt och energin kom från klyvning av U-235 (235,04 u), 200 MeV per klyvning. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p>",
+    "spelIntro": "<p>I en modell frigör fullständig klyvning av uran-235 energin 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en atom har massan 235,04 u. Ljusets hastighet är 3,00·10⁸ m/s. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor massa U-235 klövs?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>1 kt TNT motsvarar \\(5\\cdot10^{12}\\) J. Den första atombomben hade styrkan 20 kt och energin kom från klyvning av U-235 (235,04 u), 200 MeV per klyvning. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><p>Hur stor massa U-235 klövs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}0\\cdot10^{14}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) kg</p></div>",
-        "ledtrad": "<p>Bestäm antalet klyvningar först.</p>",
+        "fraga": "Uranklyvning frigör 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en uranatom har massan 235,04 u. Hur många kg uran klyvs? Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1{,}0\\cdot10^{14}/E_f\\]</p><p>\\[N\\approx3{,}12\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx1{,}22\\ \\mathrm{kg}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.2181146067415727,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 0.05,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Dela den sammanlagda energin med energin per klyvning.</p>",
+        "t": "<p>Uranklyvning frigör 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en uranatom har massan 235,04 u. Hur många kg uran klyvs? Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor massa omvandlas till energi? Svara i kg.",
-        "t": "<p>En explosion frigör energin \\(1{,}0\\cdot10^{14}\\) J. Ljusets fart är \\(3{,}00\\cdot10^8\\) m/s.</p><p>Hur stor massa omvandlas till energi? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\dfrac{E}{c^2}=\\dfrac{1{,}0\\cdot10^{14}}{(3{,}00\\cdot10^8)^2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0011\\) kg</p></div>",
-        "ledtrad": "<p>\\(E=mc^2\\).</p>",
+        "fraga": "Energin 1,0·10¹⁴ J frigörs. Hur stor massa motsvarar energin enligt E = mc²? Svara i kg. Använd c = 3,00·10⁸ m/s.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=1{,}0\\cdot10^{14}/(3{,}00\\cdot10^8)^2\\]</p><p>\\[\\Delta m\\approx0{,}00111\\ \\mathrm{kg}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0011111111111111111,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 5e-05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd Δm = E/c².</p>",
+        "t": "<p>Energin 1,0·10¹⁴ J frigörs. Hur stor massa motsvarar energin enligt E = mc²? Svara i kg. Använd c = 3,00·10⁸ m/s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Den klyvda massan och den omvandlade massan är olika saker.</p>",
+    "ledtrad": "<p>Dela den sammanlagda energin med energin per klyvning.</p>",
     "traningsniva": 3,
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
     "niva": "C",
-    "typ": "kärnkraftverk och villor",
-    "poang": "(2/2/0)",
-    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p><ol type=\"a\"><li>Hur många villors elbehov täcker reaktorn?</li><li>Hur mycket energi frigörs totalt i reaktorn under året?</li><li>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) motsvarar det?</li><li>Bränslet innehåller 3,0 % U-235. Hur mycket bränsle går åt?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7}{5\\,000\\cdot3{,}6\\cdot10^6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{6}\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=3\\cdot1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{17}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}33\\cdot10^{17}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,615\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1\\,614}{0{,}030}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(53\\,817\\) kg</p></li></ol></div>",
+    "poang": "(3/1/0)",
+    "t": "<p>En reaktor ger 1 400 MW el och dubbelt så stor effekt i värme till omgivningen under ett år. En villa använder 5 000 kWh per år. En uran-235-atom har massan 235,04 u och varje klyvning ger 200 MeV. Bränslet innehåller 3,0 % uran-235. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J. Ett år är 3,156·10⁷ s.</p><p>a) En reaktor ger 1 400 MW el under ett helt år. En villa använder 5 000 kWh per år. Ungefär hur många villors årsbehov motsvarar elenergin? Ett år är 3,156·10⁷ s.</p><p>b) En reaktor ger 1 400 MW el och 2 800 MW värme till omgivningen under ett år. Hur mycket energi frigörs totalt i reaktorn i J? Ett år är 3,156·10⁷ s.</p><p>c) Uranklyvning frigör 1,33·10¹⁷ J. Varje klyvning ger 200 MeV. En uran-235-atom har massan 235,04 u. Hur många kg uran-235 klyvs? Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p><p>d) Det behövs 1 615 kg uran-235. Bränslet innehåller 3,0 % uran-235. Hur många kg bränsle innehåller denna mängd?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{el}=1400\\cdot10^6\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E_{el}\\approx4{,}42\\cdot10^{16}\\ \\mathrm{J}\\]</p></div></p><p>\\[E_{villa}=5000\\cdot3{,}6\\cdot10^6\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[n=E_{el}/E_{villa}\\]</p><p>\\[n\\approx2450000\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=1400+2800=4200\\ \\mathrm{MW}\\]</p><p><div class=\"facit-v2\"><p>\\[E=4200\\cdot10^6\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx1{,}33\\cdot10^{17}\\ \\mathrm{J}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx4{,}14\\cdot10^{27}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx1610\\ \\mathrm{kg}\\]</p></div></p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[m=m_{235}/0{,}030\\]</p><p>\\[m\\approx53800\\ \\mathrm{kg}\\]</p></div></div>",
     "id": "9.410",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2454480.0,
-      1.3254192e+17,
-      1614.5124875757301,
-      53817.08291919101
+      2454666.6666666665,
+      1.32552e+17,
+      1614.6352735280898,
+      53821.17578426966
     ],
     "tolerans": [
-      51000.0,
-      5100000000000000.0,
-      51.0,
-      807.0
+      61366.666666666664,
+      5000000000000000.0,
+      50.0,
+      1345.8333333333335
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -155384,67 +155759,99 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p>",
+    "spelIntro": "<p>En reaktor ger 1 400 MW el och dubbelt så stor effekt i värme till omgivningen under ett år. En villa använder 5 000 kWh per år. En uran-235-atom har massan 235,04 u och varje klyvning ger 200 MeV. Bränslet innehåller 3,0 % uran-235. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J. Ett år är 3,156·10⁷ s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många villors elbehov täcker reaktorn?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p><p>Hur många villors elbehov täcker reaktorn?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7}{5\\,000\\cdot3{,}6\\cdot10^6}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{6}\\)</p></div>",
-        "ledtrad": "<p>1 kWh = 3,6 MJ.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En reaktor ger 1 400 MW el under ett helt år. En villa använder 5 000 kWh per år. Ungefär hur många villors årsbehov motsvarar elenergin? Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{el}=1400\\cdot10^6\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E_{el}\\approx4{,}42\\cdot10^{16}\\ \\mathrm{J}\\]</p></div></p><p>\\[E_{villa}=5000\\cdot3{,}6\\cdot10^6\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[n=E_{el}/E_{villa}\\]</p><p>\\[n\\approx2450000\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2454666.6666666665,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 61366.666666666664,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Räkna årsenergin och dela med en villas årsbehov.</p>",
+        "t": "<p>En reaktor ger 1 400 MW el under ett helt år. En villa använder 5 000 kWh per år. Ungefär hur många villors årsbehov motsvarar elenergin? Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi frigörs totalt i reaktorn under året?",
-        "t": "<p>En reaktor ger eleffekten 1400 MW och spillvärmen 2800 MW under ett år. Räkna med ett år = \\(3{,}156\\cdot10^7\\) s.</p><p>Hur mycket energi frigörs totalt i reaktorn under året?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=3\\cdot1\\,400\\cdot10^6\\cdot3{,}156\\cdot10^7\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\cdot10^{17}\\) J</p></div>",
-        "ledtrad": "<p>Elenergi plus spillvärme.</p>",
+        "fraga": "En reaktor ger 1 400 MW el och 2 800 MW värme till omgivningen under ett år. Hur mycket energi frigörs totalt i reaktorn i J? Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p>\\[P=1400+2800=4200\\ \\mathrm{MW}\\]</p><p><div class=\"facit-v2\"><p>\\[E=4200\\cdot10^6\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx1{,}33\\cdot10^{17}\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.32552e+17,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 5000000000000000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Summera effekterna och multiplicera med tiden.</p>",
+        "t": "<p>En reaktor ger 1 400 MW el och 2 800 MW värme till omgivningen under ett år. Hur mycket energi frigörs totalt i reaktorn i J? Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) motsvarar det?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En reaktor ger eleffekten 1 400 MW under ett helt år och dessutom dubbelt så stor effekt i spillvärme. En villa använder 5 000 kWh el per år.</p>Totalt frigörs \\(1{,}33\\cdot10^{17}\\) J.<p>Hur stor massa U-235 (235,04 u, 200 MeV per klyvning) motsvarar det?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}33\\cdot10^{17}}{200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot235{,}04\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,615\\) kg</p></div>",
-        "ledtrad": "<p>Bestäm antalet klyvningar.</p>",
+        "fraga": "Uranklyvning frigör 1,33·10¹⁷ J. Varje klyvning ger 200 MeV. En uran-235-atom har massan 235,04 u. Hur många kg uran-235 klyvs? Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx4{,}15\\cdot10^{27}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx1620\\ \\mathrm{kg}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1620.092426966292,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 50.0,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Dela den sammanlagda energin med energin per klyvning.</p>",
+        "t": "<p>Uranklyvning frigör 1,33·10¹⁷ J. Varje klyvning ger 200 MeV. En uran-235-atom har massan 235,04 u. Hur många kg uran-235 klyvs? Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor total bränslemassa behövs? Svara i kg.",
-        "t": "<p>Det går åt 1,615 ton U-235 i en reaktor. Bränslet innehåller 3,0 % U-235.</p><p>Hur stor total bränslemassa behövs? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla ton till kg. U-235 utgör 0,030 av hela bränslemassan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_\\mathrm{bränsle}=\\frac{1615}{0{,}030}\\approx53\\,833\\,\\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 54 ton.</p></div>",
-        "ledtrad": "<p>Dela med andelen.</p>",
+        "fraga": "Det behövs 1 615 kg uran-235. Bränslet innehåller 3,0 % uran-235. Hur många kg bränsle innehåller denna mängd?",
+        "s": "<div class=\"facit-v2\"><p>\\[m=1615/0{,}030\\]</p><p>\\[m\\approx53800\\ \\mathrm{kg}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 53833.333333333336,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 1345.8333333333335,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela uran-235-massan med dess andel.</p>",
+        "t": "<p>Det behövs 1 615 kg uran-235. Bränslet innehåller 3,0 % uran-235. Hur många kg bränsle innehåller denna mängd?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Räkna med hela årets energi.</p>",
+    "ledtrad": "<p>Räkna årsenergin och dela med en villas årsbehov.</p>",
     "traningsniva": 3,
     "familjNyckel": "fission__fission_och_energiutvinning",
-    "arbetsinsats": 3,
-    "spel": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
     "niva": "C",
-    "typ": "världens uranreserv",
-    "poang": "(1/2/0)",
-    "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p><ol type=\"a\"><li>Hur stor massa U-235 finns i reserven?</li><li>Hur mycket energi ger reserven om allt U-235 klyvs?</li><li>Hur många år räcker det för effekten \\(1{,}5\\cdot10^{13}\\) W?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(4{,}4\\cdot10^9\\cdot0{,}00700\\) kg.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1\\cdot10^{7}\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{3{,}08\\cdot10^7}{235{,}04\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{21}\\) J</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{2{,}5\\cdot10^{21}}{1{,}5\\cdot10^{13}}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}3\\) år</p></li></ol></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>En uranreserv innehåller 4,4·10⁶ ton naturligt uran, med 0,700 % uran-235. En uran-235-atom har massan 235,04 u och varje klyvning ger 200 MeV. Jämför med en konstant effekt på 1,5·10¹³ W. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J. Ett år är 3,156·10⁷ s.</p><p>a) En uranreserv innehåller 4,4·10⁶ ton naturligt uran. Av massan är 0,700 % uran-235. Hur många kg uran-235 finns i reserven?</p><p>b) En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs? Svara i J. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p><p>c) En energireserv är 2,5·10²¹ J. Hur många år räcker den vid den konstanta effekten 1,5·10¹³ W? Ett år är 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_U=4{,}4\\cdot10^9\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{235}=4{,}4\\cdot10^9\\cdot0{,}00700\\]</p><p>\\[m_{235}\\approx30800000\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=3{,}08\\cdot10^7/m_{atom}\\]</p><p>\\[N\\approx7{,}89\\cdot10^{31}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_f\\]</p><p>\\[E\\approx2{,}53\\cdot10^{21}\\ \\mathrm{J}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=E/P\\]</p><p>\\[t\\approx169000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=t_{\\mathrm s}/(3{,}156\\cdot10^7)\\]</p><p>\\[t\\approx5{,}34\\ \\mathrm{år}\\]</p></div></p></div></div>",
     "id": "9.411",
     "miniräknare": true,
     "geogebra": false,
@@ -155453,17 +155860,21 @@ window.BANK = [
     "rättSvar": [
       30800000.0,
       2.528497715201795e+21,
-      5.341550509125737
+      5.341144307566108
     ],
     "tolerans": [
-      510000.0,
-      5.1e+19,
-      0.0801
+      770000.0,
+      6.321244288004488e+19,
+      0.13202365863962823
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -155482,103 +155893,127 @@ window.BANK = [
       "år"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>",
+    "spelIntro": "<p>En uranreserv innehåller 4,4·10⁶ ton naturligt uran, med 0,700 % uran-235. En uran-235-atom har massan 235,04 u och varje klyvning ger 200 MeV. Jämför med en konstant effekt på 1,5·10¹³ W. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J. Ett år är 3,156·10⁷ s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor massa U-235 finns i reserven? Svara i kg.",
-        "t": "<p>En uranreserv innehåller \\(4{,}4\\cdot10^6\\) ton naturligt uran. Av massan är 0,700 % U-235.</p><p>Hur stor massa U-235 finns i reserven? Svara i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(4{,}4\\cdot10^9\\cdot0{,}00700\\) kg.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1\\cdot10^{7}\\) kg</p></div>",
-        "ledtrad": "<p>1 ton = 1 000 kg.</p>",
+        "fraga": "En uranreserv innehåller 4,4·10⁶ ton naturligt uran. Av massan är 0,700 % uran-235. Hur många kg uran-235 finns i reserven?",
+        "s": "<div class=\"facit-v2\"><p>\\[m_U=4{,}4\\cdot10^9\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{235}=4{,}4\\cdot10^9\\cdot0{,}00700\\]</p><p>\\[m_{235}\\approx30800000\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 30800000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 770000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Omvandla ton till kg och multiplicera med andelen.</p>",
+        "t": "<p>En uranreserv innehåller 4,4·10⁶ ton naturligt uran. Av massan är 0,700 % uran-235. Hur många kg uran-235 finns i reserven?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket energi ger reserven om allt U-235 klyvs?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>Reserven innehåller \\(3{,}08\\cdot10^7\\) kg U-235.<p>Hur mycket energi ger reserven om allt U-235 klyvs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{3{,}08\\cdot10^7}{235{,}04\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=N\\cdot200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{21}\\) J</p></div>",
-        "ledtrad": "<p>Bestäm antalet atomer.</p>",
+        "fraga": "En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs? Svara i J. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=3{,}08\\cdot10^7/m_{atom}\\]</p><p>\\[N\\approx7{,}89\\cdot10^{31}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_f\\]</p><p>\\[E\\approx2{,}53\\cdot10^{21}\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.528497715201795e+21,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 6.321244288004488e+19,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Antalet atomer är provets massa delad med en atoms massa.</p>",
+        "t": "<p>En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs? Svara i J. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur många år räcker det för effekten \\(1{,}5\\cdot10^{13}\\) W?",
-        "t": "<p>\\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Världens brytvärda reserv är \\(4{,}4\\cdot10^6\\) ton naturligt uran, varav 0,700 % är U-235 (235,04 u). Varje klyvning ger 200 MeV.</p>Energin är \\(2{,}5\\cdot10^{21}\\) J.<p>Hur många år räcker det för effekten \\(1{,}5\\cdot10^{13}\\) W?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=\\dfrac{2{,}5\\cdot10^{21}}{1{,}5\\cdot10^{13}}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}3\\) år</p></div>",
-        "ledtrad": "<p>\\(t=\\dfrac{E}{P}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En energireserv är 2,5·10²¹ J. Hur många år räcker den vid den konstanta effekten 1,5·10¹³ W? Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=2{,}5\\cdot10^{21}/(1{,}5\\cdot10^{13})\\]</p><p>\\[t\\approx167000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=t_{\\mathrm s}/(3{,}156\\cdot10^7)\\]</p><p>\\[t\\approx5{,}28\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.280946345585129,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 0.13202365863962823,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Tid är energi delad med effekt. Omvandla sedan sekunder till år.</p>",
+        "t": "<p>En energireserv är 2,5·10²¹ J. Hur många år räcker den vid den konstanta effekten 1,5·10¹³ W? Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Räkna antal klyvningar.</p>",
+    "ledtrad": "<p>Omvandla ton till kg och multiplicera med andelen.</p>",
     "traningsniva": 3,
     "familjNyckel": "fission__fission_och_energiutvinning",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
-    "niva": "C",
-    "typ": "kylvatten i tryckvattenreaktor",
-    "poang": "(0/1/0)",
-    "t": "<p>Kylvattnet går in i en reaktor vid 216 °C och lämnar den vid 287 °C. Reaktorns effekt är 5 600 MW och vattnets specifika värmekapacitet 4,19 kJ/(kg·K). Hur många kilogram vatten måste pumpas igenom per sekund?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{m}{t}=\\dfrac{P}{c\\Delta T}=\\dfrac{5\\,600\\cdot10^6}{4\\,190\\cdot71}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\,824\\) kg</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Flytande kylvatten värms från 216 °C till 287 °C i en reaktor. Vattnet tar upp effekten 5 600 MW och har värmekapaciteten 4,19 kJ/(kg·K). Hur många kg vatten måste passera per sekund?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[\\Delta T=287-216=71\\ \\mathrm K\\]</p><p>\\[c=4190\\ \\mathrm{J/(kg\\cdot K)}\\]</p><p>\\[P=\\dot m c\\Delta T\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot m=5600\\cdot10^6/(4190\\cdot71)\\]</p><p>\\[\\dot m\\approx18800\\ \\mathrm{kg/s}\\]</p></div></p></div>",
     "id": "9.412",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "numeriskt",
     "rättSvar": 18824.16215671115,
-    "tolerans": 510.0,
+    "tolerans": 500.0,
     "självrättning": true,
     "formaga": [
-      "modellering",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(P=\\dfrac{m}{t}c\\Delta T\\).</p>",
-    "traningsniva": 3,
-    "svarEnhet": "kg",
+    "ledtrad": "<p>Beräkna hur mycket energi varje kg vatten tar upp. Dela effekten med det.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kg/s",
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "fission",
-    "niva": "A",
-    "typ": "superkritisk reaktor ökar effekten",
-    "poang": "(0/1/1)",
-    "t": "<p>En reaktor med effekten 25 kW görs superkritisk: varje klyvning ger i genomsnitt 1,01 nya klyvningar, och en generation tar 12 ns. Hur lång tid tar det innan effekten är 3 300 MW?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}01^k=\\dfrac{3\\,300\\cdot10^6}{25\\cdot10^3}=132\\,000\\iff k=\\dfrac{\\ln132\\,000}{\\ln1{,}01}=1\\,185\\].</div></div><div class=\"facit-stycke\"><p>\\(t=1\\,185\\cdot12\\) ns.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}4\\cdot10^{-5}\\) s</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>I en reaktormodell börjar effekten på 25 kW och ökar med faktorn 1,01 per generation. En generation tar 12 ns. Hur lång tid tar det att nå effekten 3 300 MW? Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[1{,}01^n=3300\\cdot10^6/(25\\cdot10^3)\\]</p><p>\\[1{,}01^n=132000\\]</p><p><div class=\"facit-v2\"><p>\\[n=\\ln132000/\\ln1{,}01\\]</p><p>\\[n\\approx1180\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=n\\cdot12\\cdot10^{-9}\\]</p><p>\\[t\\approx1{,}42\\cdot10^{-5}\\ \\mathrm{s}\\]</p></div></p></div>",
     "id": "9.413",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Fission och energiutvinning",
     "svarstyp": "numeriskt",
     "rättSvar": 1.4219294665340102e-05,
-    "tolerans": 5.1e-07,
+    "tolerans": 5e-07,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många generationer krävs?</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Lös exponentialekvationen för antalet generationer och multiplicera med tiden.</p>",
+    "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "fission__fission_och_energiutvinning",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.251",

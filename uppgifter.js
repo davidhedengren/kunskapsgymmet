@@ -99851,58 +99851,134 @@ window.BANK = [
     "id": "9.1",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En källare på 120 m³ har radonhalten 300 Bq/m³. Referensvärdet för bostäder i Sverige är 200 Bq/m³.</p>\n<ol><li>Hur många sönderfall sker i källarluften varje sekund?</li>\n<li>Hur mycket måste halten sänkas i procent för att nå referensvärdet?</li>\n<li>Radon-222 har halveringstiden 3,8 dygn. Varför räcker det inte att stänga källaren och vänta?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktivitet per volym multipliceras med rummets volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=(300\\ \\mathrm{Bq/m^3})(120\\ \\mathrm{m^3})=3{,}60\\cdot10^4\\ \\mathrm{Bq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Minskningen från 300 till 200 Bq/m³ är 100 Bq/m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{300-200}{300}\\cdot100\\,\\%=33{,}3\\,\\%\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Radon sönderfaller, men nytt radon kan samtidigt tränga in från mark och byggnad.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Då kan halten närma sig en jämviktsnivå i stället för att halveras ostört.</p></div><div class=\"facit-stycke\"><p>Tillförseln måste minskas eller radonet föras bort, till exempel genom tätning, radonsug eller ventilation.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> I luften sker cirka \\(36\\,000\\) sönderfall per sekund. Halten behöver sänkas med \\(33\\,\\%\\); att bara vänta räcker inte vid kontinuerlig radontillförsel.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En källare på 120 m³ har radonhalten 300 Bq/m³. Referensvärdet för bostäder i Sverige är 200 Bq/m³. Radon-222 har halveringstiden 3,8 dygn.</p><p>a) Hur många sönderfall sker i luften varje sekund i genomsnitt?</p><p>b) Med hur många procent behöver halten sänkas för att nå referensvärdet?</p><p>c) Varför räcker det inte att stänga källaren och vänta, om nytt radon kan komma in från marken?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Multiplicera aktiviteten per kubikmeter med rummets volym.</p><p>\\[A=300\\cdot120=36000\\ \\mathrm{Bq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta A=300-200=100\\ \\mathrm{Bq/m^3}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/300\\cdot100\\]</p><p>\\[p\\approx33{,}3\\ \\%\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Halten bestäms både av tillförsel och sönderfall. Minska tillförseln eller för bort radonet, till exempel med ventilation eller radonsug.</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      36000,
+      33.333333333333336,
+      null
+    ],
+    "tolerans": [
+      900.0,
+      0.8333333333333335,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Aktivitet per volym multipliceras med rummets volym. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En källare på 120 m³ har radonhalten 300 Bq/m³. Referensvärdet för bostäder i Sverige är 200 Bq/m³.</p>",
+    "spelIntro": "<p>En källare på 120 m³ har radonhalten 300 Bq/m³. Referensvärdet för bostäder i Sverige är 200 Bq/m³. Radon-222 har halveringstiden 3,8 dygn.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många sönderfall sker i källarluften varje sekund?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktivitet per volym multipliceras med rummets volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=(300\\ \\mathrm{Bq/m^3})(120\\ \\mathrm{m^3})=3{,}60\\cdot10^4\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}60\\cdot10^4\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Aktivitet per volym multipliceras med rummets volym. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En källare på 120 m³ har radonhalten 300 Bq/m³. Hur många sönderfall sker i källarluften per sekund i genomsnitt?",
+        "s": "<div class=\"facit-v2\"><p>Multiplicera aktiviteten per kubikmeter med rummets volym.</p><p>\\[A=300\\cdot120=36000\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 36000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 900.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>En källare på 120 m³ har radonhalten 300 Bq/m³. Hur många sönderfall sker i källarluften per sekund i genomsnitt?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur mycket måste halten sänkas i procent för att nå referensvärdet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Minskningen från 300 till 200 Bq/m³ är 100 Bq/m³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{300-200}{300}\\cdot100\\,\\%=33{,}3\\,\\%\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(33{,}3\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Aktivitet per volym multipliceras med rummets volym. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Radonhalten är 300 Bq/m³ och ska sänkas till 200 Bq/m³. Med hur många procent behöver den sänkas?",
+        "s": "<div class=\"facit-v2\"><p>\\[\\Delta A=300-200=100\\ \\mathrm{Bq/m^3}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/300\\cdot100\\]</p><p>\\[p\\approx33{,}3\\ \\%\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 33.333333333333336,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "%",
+        "tolerans": 0.8333333333333335,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Radonhalten är 300 Bq/m³ och ska sänkas till 200 Bq/m³. Med hur många procent behöver den sänkas?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Radon-222 har halveringstiden 3,8 dygn. Varför räcker det inte att stänga källaren och vänta?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Radon sönderfaller, men nytt radon kan samtidigt tränga in från mark och byggnad.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Då kan halten närma sig en jämviktsnivå i stället för att halveras ostört.</p></div><div class=\"facit-stycke\"><p>Tillförseln måste minskas eller radonet föras bort, till exempel genom tätning, radonsug eller ventilation.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Aktivitet per volym multipliceras med rummets volym. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Radon sönderfaller, men nytt radon kan tränga in i en källare från marken. Varför räcker det inte att stänga källaren och vänta på att radonhalten ska bli låg?",
+        "s": "<div class=\"facit-v2\"><p>Halten bestäms både av tillförsel och sönderfall. Minska tillförseln eller för bort radonet, till exempel med ventilation eller radonsug.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Nytt radon kan fyllas på samtidigt som det gamla sönderfaller.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Nytt radon kan fyllas på samtidigt som det gamla sönderfaller.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Halveringstiden slutar gälla i ett stängt rum.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Radon kan inte sönderfalla utan ventilation.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad händer om nytt radon hela tiden kommer in?</p>",
+        "t": "<p>Radon sönderfaller, men nytt radon kan tränga in i en källare från marken. Varför räcker det inte att stänga källaren och vänta på att radonhalten ska bli låg?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "Bq",
+      "%",
+      null
     ]
   },
   {
@@ -99921,11 +99997,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 400,
-    "tolerans": 0,
+    "tolerans": 10.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vad betyder ordet halveringstid?</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
     "traningsniva": 1,
@@ -100227,11 +100303,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 0,
+    "tolerans": 6.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
     "traningsniva": 1,
@@ -100245,29 +100321,118 @@ window.BANK = [
     "id": "9.4",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Vid en laboration mäts aktiviteten hos ett preparat.</p>\n<table class=\"data\"><tr><th>t (min)</th><th>A (Bq)</th></tr>\n<tr><td>0</td><td>800</td></tr><tr><td>10</td><td>566</td></tr><tr><td>20</td><td>400</td></tr>\n<tr><td>30</td><td>283</td></tr><tr><td>40</td><td>200</td></tr></table>\n<ol><li>Bestäm halveringstiden ur tabellen utan att rita graf.</li><li>Bestäm sönderfallskonstanten.</li>\n<li>Vilken aktivitet väntas efter 60 minuter?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I tabellen går aktiviteten från 800 till 400 Bq på 20 min och från 400 till 200 Bq på ytterligare 20 min.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=20\\ \\mathrm{min}=1200\\ \\mathrm s\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sönderfallskonstanten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=\\frac{0{,}693}{1200}=5{,}78\\cdot10^{-4}\\ \\mathrm{s^{-1}}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">60 minuter är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=800\\cdot2^{-3}=100\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(T_{1/2}=20\\ \\mathrm{min}\\), \\(\\lambda=5{,}8\\cdot10^{-4}\\ \\mathrm{s^{-1}}\\) och \\(A(60\\ \\mathrm{min})=100\\ \\mathrm{Bq}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Aktiviteten mäts vid olika tider.</p><table><tr><th>t (min)</th><th>A (Bq)</th></tr><tr><td>0</td><td>800</td></tr><tr><td>10</td><td>566</td></tr><tr><td>20</td><td>400</td></tr><tr><td>30</td><td>283</td></tr><tr><td>40</td><td>200</td></tr></table><p>a) Bestäm halveringstiden i minuter ur tabellen.</p><p>b) Bestäm sönderfallskonstanten i s⁻¹.</p><p>c) Beräkna aktiviteten efter 60 minuter.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>800 Bq blir 400 Bq på 20 minuter. Från 400 till 200 Bq tar det ytterligare 20 minuter.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[T=20\\cdot60=1200\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/1200\\]</p><p>\\[\\lambda\\approx0{,}000578\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[60/20=3\\]</p><p>\\[A=800/2^3=100\\ \\mathrm{Bq}\\]</p></div></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "spel": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      0.0005776226504666211,
+      100
+    ],
+    "tolerans": [
+      0,
+      1.4440566261665527e-05,
+      5.0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "spel": true,
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Leta efter två rader där aktiviteten har halverats.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "manuellKomplettering": true,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "spelIntro": "<p>Aktiviteten mäts vid olika tider.</p><table><tr><th>t (min)</th><th>A (Bq)</th></tr><tr><td>0</td><td>800</td></tr><tr><td>10</td><td>566</td></tr><tr><td>20</td><td>400</td></tr><tr><td>30</td><td>283</td></tr><tr><td>40</td><td>200</td></tr></table>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm halveringstiden i minuter ur tabellen.<table><tr><th>t (min)</th><th>A (Bq)</th></tr><tr><td>0</td><td>800</td></tr><tr><td>10</td><td>566</td></tr><tr><td>20</td><td>400</td></tr><tr><td>30</td><td>283</td></tr><tr><td>40</td><td>200</td></tr></table>",
+        "s": "<div class=\"facit-v2\"><p>800 Bq blir 400 Bq på 20 minuter. Från 400 till 200 Bq tar det ytterligare 20 minuter.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 20,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "min",
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Leta efter två rader där aktiviteten har halverats.</p>",
+        "t": "<p>Bestäm halveringstiden i minuter ur tabellen.<table><tr><th>t (min)</th><th>A (Bq)</th></tr><tr><td>0</td><td>800</td></tr><tr><td>10</td><td>566</td></tr><tr><td>20</td><td>400</td></tr><tr><td>30</td><td>283</td></tr><tr><td>40</td><td>200</td></tr></table></p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En nuklid har halveringstiden 20 minuter. Bestäm sönderfallskonstanten i s⁻¹.",
+        "s": "<div class=\"facit-v2\"><p>\\[T=20\\cdot60=1200\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/1200\\]</p><p>\\[\\lambda\\approx0{,}000578\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0005776226504666211,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 1.4440566261665527e-05,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>En nuklid har halveringstiden 20 minuter. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett preparat har startaktiviteten 800 Bq och halveringstiden 20 minuter. Bestäm aktiviteten efter 60 minuter.",
+        "s": "<div class=\"facit-v2\"><p>\\[60/20=3\\]</p><p>\\[A=800/2^3=100\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 100,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 5.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har startaktiviteten 800 Bq och halveringstiden 20 minuter. Bestäm aktiviteten efter 60 minuter.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "min",
+      "s⁻¹",
+      "Bq"
     ]
   },
   {
@@ -100275,10 +100440,9 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "andel efter tre halveringstider",
     "poang": "(1/0/0)",
-    "t": "<p>Hur många procent av ett radioaktivt ämne återstår efter tre halveringstider?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter varje halveringstid återstår hälften.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[100\\%\\cdot\\left(\\frac12\\right)^3=12{,}5\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5\\,\\%\\).</p></div>",
+    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 3 halveringstider? Svara i procent.</p>",
+    "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{3}=1/8\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/8\\]</p><p>\\[p\\approx12{,}5\\ \\%\\]</p></div></p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -100286,11 +100450,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 12.5,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "traningsniva": 1,
@@ -100298,64 +100462,126 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.5",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "beräkna aktiviteten hos ett gram radium ur substansmängd och halveringstid, ur text, sökt antal och aktivitet",
-    "poang": "(0/1/2)",
-    "t": "<p>Radium-226 har halveringstiden 1600 år och molmassan 226 g/mol. Avogadros tal är 6,022·10²³ per mol och ett år är 3,156·10⁷ sekunder.</p>\n<ol><li>Hur många kärnor finns i 1,0 gram rent radium-226?</li>\n<li>Bestäm sönderfallskonstanten.</li>\n<li>Vilken aktivitet har det gramet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Substansmängden och antalet kärnor är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{m}{M}=\\frac{1{,}0}{226}=4{,}425\\cdot10^{-3}\\ \\mathrm{mol}\\]\\[N=nN_A=(4{,}425\\cdot10^{-3})(6{,}022\\cdot10^{23})=2{,}66\\cdot10^{21}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden i sekunder och sönderfallskonstanten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=1600(3{,}156\\cdot10^7)=5{,}050\\cdot10^{10}\\ \\mathrm s\\]\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N=(1{,}373\\cdot10^{-11})(2{,}664\\cdot10^{21})=3{,}66\\cdot10^{10}\\ \\mathrm{Bq}\\]</div></div><div class=\"facit-stycke\"><p>Det ligger nära \\(3{,}7\\cdot10^{10}\\ \\mathrm{Bq}\\), den aktivitet som den äldre enheten curie knöts till.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(N=2{,}66\\cdot10^{21}\\) kärnor, \\(\\lambda=1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\), och aktiviteten är cirka \\(3{,}7\\cdot10^{10}\\ \\mathrm{Bq}\\).</p></div>",
+    "niva": "C",
+    "poang": "(3/0/0)",
+    "t": "<p>Radium-226 har molmassan 226 g/mol och halveringstiden 1 600 år. Avogadros konstant är 6,022·10²³ mol⁻¹. Ett år är 3,156·10⁷ s.</p><p>a) Hur många kärnor finns i 1,0 g rent radium-226?</p><p>b) Bestäm sönderfallskonstanten i s⁻¹.</p><p>c) Bestäm aktiviteten hos detta gram radium.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=1{,}0/226\\ \\mathrm{mol}\\]</p><p><div class=\"facit-v2\"><p>\\[N=(1{,}0/226)\\cdot6{,}022\\cdot10^{23}\\]</p><p>\\[N\\approx2{,}66\\cdot10^{21}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=1600\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx50500000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/50496000000\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx36600000000\\ \\mathrm{Bq}\\]</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.6646017699115046e+21,
+      1.3726774012990044e-11,
+      36576386330.188515
+    ],
+    "tolerans": [
+      6.661504424778762e+19,
+      5e-13,
+      911050000.0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Substansmängden och antalet kärnor är Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Massa delad med molmassa ger substansmängden. Multiplicera med Avogadros konstant.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Radium-226 har halveringstiden 1600 år och molmassan 226 g/mol. Avogadros tal är 6,022·10²³ per mol och ett år är 3,156·10⁷ sekunder.</p>",
+    "spelIntro": "<p>Radium-226 har molmassan 226 g/mol och halveringstiden 1 600 år. Avogadros konstant är 6,022·10²³ mol⁻¹. Ett år är 3,156·10⁷ s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många kärnor finns i 1,0 gram rent radium-226?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Substansmängden och antalet kärnor är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{m}{M}=\\frac{1{,}0}{226}=4{,}425\\cdot10^{-3}\\ \\mathrm{mol}\\]\\[N=nN_A=(4{,}425\\cdot10^{-3})(6{,}022\\cdot10^{23})=2{,}66\\cdot10^{21}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}66\\cdot10^{21}\\).</p></div>",
-        "ledtrad": "<p>Substansmängden och antalet kärnor är Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Radium-226 har molmassan 226 g/mol. Avogadros konstant är 6,022·10²³ mol⁻¹. Hur många kärnor finns i 1,0 g rent radium-226?",
+        "s": "<div class=\"facit-v2\"><p>\\[n=1{,}0/226\\ \\mathrm{mol}\\]</p><p><div class=\"facit-v2\"><p>\\[N=(1{,}0/226)\\cdot6{,}022\\cdot10^{23}\\]</p><p>\\[N\\approx2{,}66\\cdot10^{21}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.6646017699115046e+21,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 6.661504424778762e+19,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Massa delad med molmassa ger substansmängden. Multiplicera med Avogadros konstant.</p>",
+        "t": "<p>Radium-226 har molmassan 226 g/mol. Avogadros konstant är 6,022·10²³ mol⁻¹. Hur många kärnor finns i 1,0 g rent radium-226?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm sönderfallskonstanten.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden i sekunder och sönderfallskonstanten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=1600(3{,}156\\cdot10^7)=5{,}050\\cdot10^{10}\\ \\mathrm s\\]\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\).</p></div>",
-        "ledtrad": "<p>Substansmängden och antalet kärnor är Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Radium-226 har halveringstiden 1 600 år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=1600\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx50500000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/50496000000\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.3726774012990044e-11,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 5e-13,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>Radium-226 har halveringstiden 1 600 år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vilken aktivitet har det gramet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N=(1{,}373\\cdot10^{-11})(2{,}664\\cdot10^{21})=3{,}66\\cdot10^{10}\\ \\mathrm{Bq}\\]</div></div><div class=\"facit-stycke\"><p>Det ligger nära \\(3{,}7\\cdot10^{10}\\ \\mathrm{Bq}\\), den aktivitet som den äldre enheten curie knöts till.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}66\\cdot10^{10}\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Substansmängden och antalet kärnor är Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Ett radiumprov har 2,66·10²¹ radioaktiva kärnor. Sönderfallskonstanten är 1,37·10⁻¹¹ s⁻¹. Bestäm aktiviteten i Bq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=1{,}37\\cdot10^{-11}\\cdot2{,}66\\cdot10^{21}\\]</p><p>\\[A\\approx36400000000\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 36442000000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 911050000.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett radiumprov har 2,66·10²¹ radioaktiva kärnor. Sönderfallskonstanten är 1,37·10⁻¹¹ s⁻¹. Bestäm aktiviteten i Bq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "s⁻¹",
+      "Bq"
     ]
   },
   {
@@ -100363,10 +100589,9 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "ursprunglig aktivitet från antal halveringstider",
     "poang": "(1/0/0)",
-    "t": "<p>Aktiviteten är \\(150\\,\\mathrm{Bq}\\) efter två halveringstider. Vilken var aktiviteten från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två halveringar innebär att en fjärdedel återstår.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_0=4\\cdot150=600\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\ \\mathrm{Bq}\\).</p></div>",
+    "t": "<p>Aktiviteten är 150 Bq efter två halveringstider. Vilken var aktiviteten från början?</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[A_0=150\\cdot2^2=600\\ \\mathrm{Bq}\\]</p><p></p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -100374,29 +100599,29 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 0,
+    "tolerans": 15.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.124",
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "antal halveringstider från aktivitetsminskning",
     "poang": "(1/0/0)",
-    "t": "<p>Aktiviteten minskar från \\(800\\,\\mathrm{Bq}\\) till \\(100\\,\\mathrm{Bq}\\). Hur många halveringstider har gått?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Följ halveringarna: 800 → 400 → 200 → 100.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=3\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3 halveringstider.</p></div>",
+    "t": "<p>Aktiviteten minskar från 800 Bq till 100 Bq. Hur många halveringstider har gått?</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[800\\to400\\to200\\to100\\]</p><p>Tre halveringar har gått.</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -100408,7 +100633,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -100416,7 +100641,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.6",
@@ -100932,40 +101158,39 @@ window.BANK = [
     "id": "9.11",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">600</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">800</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A (Bq)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (min)</text><polyline points=\"54,26 126,90.35 198,136 270,168.175 342,191 414,207.225 486,218.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"126\" cy=\"90.35\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"198\" cy=\"136\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270\" cy=\"168.175\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"342\" cy=\"191\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"414\" cy=\"207.225\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"218.5\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Bestäm halveringstiden ur diagrammet.</li><li>Vilken aktivitet väntas efter 80 minuter?</li>\n<li>Varför når kurvan aldrig noll?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Läs av när aktiviteten har minskat från 800 till 400 Bq.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=20\\ \\mathrm{min}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">80 minuter motsvarar fyra halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=800\\cdot2^{-4}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Under varje ny halveringstid sönderfaller hälften av de kärnor som då återstår.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Exponentialfunktionen närmar sig därför noll utan att någonsin bli exakt noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A(t)=A_0e^{-\\lambda t}&gt;0\\quad\\text{för ändligt }t\\]</div></div><div class=\"facit-stycke\"><p>I ett verkligt preparat med ett ändligt antal kärnor upphör aktiviteten till slut när den sista kärnan sönderfallit, men modellen är kontinuerlig.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Halveringstiden är \\(20\\ \\mathrm{min}\\), och efter 80 min väntas \\(50\\ \\mathrm{Bq}\\). Den kontinuerliga modellen närmar sig noll utan att nå den.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">800</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (min)</text><polyline points=\"60.00,30.00 63.28,33.42 66.56,36.80 69.84,40.13 73.12,43.42 76.41,46.67 79.69,49.88 82.97,53.04 86.25,56.17 89.53,59.25 92.81,62.30 96.09,65.30 99.38,68.27 102.66,71.19 105.94,74.08 109.22,76.94 112.50,79.75 115.78,82.53 119.06,85.28 122.34,87.98 125.62,90.66 128.91,93.30 132.19,95.90 135.47,98.47 138.75,101.01 142.03,103.51 145.31,105.99 148.59,108.43 151.88,110.84 155.16,113.21 158.44,115.56 161.72,117.88 165.00,120.17 168.28,122.42 171.56,124.65 174.84,126.85 178.12,129.02 181.41,131.17 184.69,133.28 187.97,135.37 191.25,137.43 194.53,139.46 197.81,141.47 201.09,143.46 204.38,145.41 207.66,147.34 210.94,149.25 214.22,151.13 217.50,152.99 220.78,154.82 224.06,156.63 227.34,158.42 230.62,160.18 233.91,161.92 237.19,163.64 240.47,165.34 243.75,167.01 247.03,168.67 250.31,170.30 253.59,171.91 256.88,173.50 260.16,175.07 263.44,176.61 266.72,178.14 270.00,179.65 273.28,181.14 276.56,182.61 279.84,184.06 283.12,185.50 286.41,186.91 289.69,188.31 292.97,189.68 296.25,191.04 299.53,192.38 302.81,193.71 306.09,195.02 309.38,196.31 312.66,197.58 315.94,198.84 319.22,200.08 322.50,201.31 325.78,202.52 329.06,203.71 332.34,204.89 335.62,206.05 338.91,207.20 342.19,208.34 345.47,209.46 348.75,210.56 352.03,211.65 355.31,212.73 358.59,213.79 361.88,214.84 365.16,215.87 368.44,216.89 371.72,217.90 375.00,218.90 378.28,219.88 381.56,220.85 384.84,221.81 388.12,222.75 391.41,223.69 394.69,224.61 397.97,225.52 401.25,226.41 404.53,227.30 407.81,228.17 411.09,229.04 414.38,229.89 417.66,230.73 420.94,231.56 424.22,232.38 427.50,233.19 430.78,233.98 434.06,234.77 437.34,235.55 440.62,236.32 443.91,237.08 447.19,237.82 450.47,238.56 453.75,239.29 457.03,240.01 460.31,240.72 463.59,241.42 466.88,242.11 470.16,242.80 473.44,243.47 476.72,244.14 480.00,244.79 483.28,245.44 486.56,246.08 489.84,246.71 493.12,247.34 496.41,247.95 499.69,248.56 502.97,249.16 506.25,249.75 509.53,250.33 512.81,250.91 516.09,251.48 519.38,252.04 522.66,252.60 525.94,253.14 529.22,253.68 532.50,254.22 535.78,254.74 539.06,255.26 542.34,255.78 545.62,256.28 548.91,256.78 552.19,257.28 555.47,257.76 558.75,258.25 562.03,258.72 565.31,259.19 568.59,259.65 571.88,260.11 575.16,260.56 578.44,261.00 581.72,261.44 585.00,261.88\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div><p>a) Bestäm halveringstiden i minuter.</p><p>b) Beräkna aktiviteten efter 80 minuter.</p><p>c) Varför når den matematiska kurvan aldrig exakt noll?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Aktiviteten minskar från 800 till 400 Bq på 20 minuter.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[80/20=4\\]</p><p>\\[A=800/2^4=50\\ \\mathrm{Bq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>En positiv startaktivitet förblir positiv i modellen. I ett riktigt prov finns ett ändligt antal kärnor; den sista kan till slut sönderfalla.</p></div></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
       20,
-      null,
+      50,
       null
     ],
     "tolerans": [
-      0.3,
-      null,
+      1,
+      1.25,
       null
     ],
     "självrättning": [
       true,
-      false,
+      true,
       false
     ],
     "svarFormat": [
       "numeriskt",
-      null,
+      "numeriskt",
       null
     ],
     "svarEnhet": [
       "min",
-      null,
+      "Bq",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -100975,39 +101200,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Läs av när aktiviteten har minskat från 800 till 400 Bq. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Läs tiden när aktiviteten har blivit hälften.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">600</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">800</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A (Bq)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (min)</text><polyline points=\"54,26 126,90.35 198,136 270,168.175 342,191 414,207.225 486,218.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"126\" cy=\"90.35\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"198\" cy=\"136\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270\" cy=\"168.175\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"342\" cy=\"191\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"414\" cy=\"207.225\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"218.5\" r=\"3.3\" fill=\"#B43123\"/></svg></span>",
+    "spelIntro": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">800</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (min)</text><polyline points=\"60.00,30.00 63.28,33.42 66.56,36.80 69.84,40.13 73.12,43.42 76.41,46.67 79.69,49.88 82.97,53.04 86.25,56.17 89.53,59.25 92.81,62.30 96.09,65.30 99.38,68.27 102.66,71.19 105.94,74.08 109.22,76.94 112.50,79.75 115.78,82.53 119.06,85.28 122.34,87.98 125.62,90.66 128.91,93.30 132.19,95.90 135.47,98.47 138.75,101.01 142.03,103.51 145.31,105.99 148.59,108.43 151.88,110.84 155.16,113.21 158.44,115.56 161.72,117.88 165.00,120.17 168.28,122.42 171.56,124.65 174.84,126.85 178.12,129.02 181.41,131.17 184.69,133.28 187.97,135.37 191.25,137.43 194.53,139.46 197.81,141.47 201.09,143.46 204.38,145.41 207.66,147.34 210.94,149.25 214.22,151.13 217.50,152.99 220.78,154.82 224.06,156.63 227.34,158.42 230.62,160.18 233.91,161.92 237.19,163.64 240.47,165.34 243.75,167.01 247.03,168.67 250.31,170.30 253.59,171.91 256.88,173.50 260.16,175.07 263.44,176.61 266.72,178.14 270.00,179.65 273.28,181.14 276.56,182.61 279.84,184.06 283.12,185.50 286.41,186.91 289.69,188.31 292.97,189.68 296.25,191.04 299.53,192.38 302.81,193.71 306.09,195.02 309.38,196.31 312.66,197.58 315.94,198.84 319.22,200.08 322.50,201.31 325.78,202.52 329.06,203.71 332.34,204.89 335.62,206.05 338.91,207.20 342.19,208.34 345.47,209.46 348.75,210.56 352.03,211.65 355.31,212.73 358.59,213.79 361.88,214.84 365.16,215.87 368.44,216.89 371.72,217.90 375.00,218.90 378.28,219.88 381.56,220.85 384.84,221.81 388.12,222.75 391.41,223.69 394.69,224.61 397.97,225.52 401.25,226.41 404.53,227.30 407.81,228.17 411.09,229.04 414.38,229.89 417.66,230.73 420.94,231.56 424.22,232.38 427.50,233.19 430.78,233.98 434.06,234.77 437.34,235.55 440.62,236.32 443.91,237.08 447.19,237.82 450.47,238.56 453.75,239.29 457.03,240.01 460.31,240.72 463.59,241.42 466.88,242.11 470.16,242.80 473.44,243.47 476.72,244.14 480.00,244.79 483.28,245.44 486.56,246.08 489.84,246.71 493.12,247.34 496.41,247.95 499.69,248.56 502.97,249.16 506.25,249.75 509.53,250.33 512.81,250.91 516.09,251.48 519.38,252.04 522.66,252.60 525.94,253.14 529.22,253.68 532.50,254.22 535.78,254.74 539.06,255.26 542.34,255.78 545.62,256.28 548.91,256.78 552.19,257.28 555.47,257.76 558.75,258.25 562.03,258.72 565.31,259.19 568.59,259.65 571.88,260.11 575.16,260.56 578.44,261.00 581.72,261.44 585.00,261.88\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm halveringstiden ur diagrammet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Läs av när aktiviteten har minskat från 800 till 400 Bq.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=20\\ \\mathrm{min}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{min}\\).</p></div>",
-        "ledtrad": "<p>Läs av när aktiviteten har minskat från 800 till 400 Bq. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+        "fraga": "Bestäm halveringstiden i minuter ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">800</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (min)</text><polyline points=\"60.00,30.00 63.28,33.42 66.56,36.80 69.84,40.13 73.12,43.42 76.41,46.67 79.69,49.88 82.97,53.04 86.25,56.17 89.53,59.25 92.81,62.30 96.09,65.30 99.38,68.27 102.66,71.19 105.94,74.08 109.22,76.94 112.50,79.75 115.78,82.53 119.06,85.28 122.34,87.98 125.62,90.66 128.91,93.30 132.19,95.90 135.47,98.47 138.75,101.01 142.03,103.51 145.31,105.99 148.59,108.43 151.88,110.84 155.16,113.21 158.44,115.56 161.72,117.88 165.00,120.17 168.28,122.42 171.56,124.65 174.84,126.85 178.12,129.02 181.41,131.17 184.69,133.28 187.97,135.37 191.25,137.43 194.53,139.46 197.81,141.47 201.09,143.46 204.38,145.41 207.66,147.34 210.94,149.25 214.22,151.13 217.50,152.99 220.78,154.82 224.06,156.63 227.34,158.42 230.62,160.18 233.91,161.92 237.19,163.64 240.47,165.34 243.75,167.01 247.03,168.67 250.31,170.30 253.59,171.91 256.88,173.50 260.16,175.07 263.44,176.61 266.72,178.14 270.00,179.65 273.28,181.14 276.56,182.61 279.84,184.06 283.12,185.50 286.41,186.91 289.69,188.31 292.97,189.68 296.25,191.04 299.53,192.38 302.81,193.71 306.09,195.02 309.38,196.31 312.66,197.58 315.94,198.84 319.22,200.08 322.50,201.31 325.78,202.52 329.06,203.71 332.34,204.89 335.62,206.05 338.91,207.20 342.19,208.34 345.47,209.46 348.75,210.56 352.03,211.65 355.31,212.73 358.59,213.79 361.88,214.84 365.16,215.87 368.44,216.89 371.72,217.90 375.00,218.90 378.28,219.88 381.56,220.85 384.84,221.81 388.12,222.75 391.41,223.69 394.69,224.61 397.97,225.52 401.25,226.41 404.53,227.30 407.81,228.17 411.09,229.04 414.38,229.89 417.66,230.73 420.94,231.56 424.22,232.38 427.50,233.19 430.78,233.98 434.06,234.77 437.34,235.55 440.62,236.32 443.91,237.08 447.19,237.82 450.47,238.56 453.75,239.29 457.03,240.01 460.31,240.72 463.59,241.42 466.88,242.11 470.16,242.80 473.44,243.47 476.72,244.14 480.00,244.79 483.28,245.44 486.56,246.08 489.84,246.71 493.12,247.34 496.41,247.95 499.69,248.56 502.97,249.16 506.25,249.75 509.53,250.33 512.81,250.91 516.09,251.48 519.38,252.04 522.66,252.60 525.94,253.14 529.22,253.68 532.50,254.22 535.78,254.74 539.06,255.26 542.34,255.78 545.62,256.28 548.91,256.78 552.19,257.28 555.47,257.76 558.75,258.25 562.03,258.72 565.31,259.19 568.59,259.65 571.88,260.11 575.16,260.56 578.44,261.00 581.72,261.44 585.00,261.88\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>Aktiviteten minskar från 800 till 400 Bq på 20 minuter.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 20,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "min",
+        "tolerans": 1,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Läs tiden när aktiviteten har blivit hälften.</p>",
+        "t": "<p>Bestäm halveringstiden i minuter ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">800</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (min)</text><polyline points=\"60.00,30.00 63.28,33.42 66.56,36.80 69.84,40.13 73.12,43.42 76.41,46.67 79.69,49.88 82.97,53.04 86.25,56.17 89.53,59.25 92.81,62.30 96.09,65.30 99.38,68.27 102.66,71.19 105.94,74.08 109.22,76.94 112.50,79.75 115.78,82.53 119.06,85.28 122.34,87.98 125.62,90.66 128.91,93.30 132.19,95.90 135.47,98.47 138.75,101.01 142.03,103.51 145.31,105.99 148.59,108.43 151.88,110.84 155.16,113.21 158.44,115.56 161.72,117.88 165.00,120.17 168.28,122.42 171.56,124.65 174.84,126.85 178.12,129.02 181.41,131.17 184.69,133.28 187.97,135.37 191.25,137.43 194.53,139.46 197.81,141.47 201.09,143.46 204.38,145.41 207.66,147.34 210.94,149.25 214.22,151.13 217.50,152.99 220.78,154.82 224.06,156.63 227.34,158.42 230.62,160.18 233.91,161.92 237.19,163.64 240.47,165.34 243.75,167.01 247.03,168.67 250.31,170.30 253.59,171.91 256.88,173.50 260.16,175.07 263.44,176.61 266.72,178.14 270.00,179.65 273.28,181.14 276.56,182.61 279.84,184.06 283.12,185.50 286.41,186.91 289.69,188.31 292.97,189.68 296.25,191.04 299.53,192.38 302.81,193.71 306.09,195.02 309.38,196.31 312.66,197.58 315.94,198.84 319.22,200.08 322.50,201.31 325.78,202.52 329.06,203.71 332.34,204.89 335.62,206.05 338.91,207.20 342.19,208.34 345.47,209.46 348.75,210.56 352.03,211.65 355.31,212.73 358.59,213.79 361.88,214.84 365.16,215.87 368.44,216.89 371.72,217.90 375.00,218.90 378.28,219.88 381.56,220.85 384.84,221.81 388.12,222.75 391.41,223.69 394.69,224.61 397.97,225.52 401.25,226.41 404.53,227.30 407.81,228.17 411.09,229.04 414.38,229.89 417.66,230.73 420.94,231.56 424.22,232.38 427.50,233.19 430.78,233.98 434.06,234.77 437.34,235.55 440.62,236.32 443.91,237.08 447.19,237.82 450.47,238.56 453.75,239.29 457.03,240.01 460.31,240.72 463.59,241.42 466.88,242.11 470.16,242.80 473.44,243.47 476.72,244.14 480.00,244.79 483.28,245.44 486.56,246.08 489.84,246.71 493.12,247.34 496.41,247.95 499.69,248.56 502.97,249.16 506.25,249.75 509.53,250.33 512.81,250.91 516.09,251.48 519.38,252.04 522.66,252.60 525.94,253.14 529.22,253.68 532.50,254.22 535.78,254.74 539.06,255.26 542.34,255.78 545.62,256.28 548.91,256.78 552.19,257.28 555.47,257.76 558.75,258.25 562.03,258.72 565.31,259.19 568.59,259.65 571.88,260.11 575.16,260.56 578.44,261.00 581.72,261.44 585.00,261.88\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div></p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken aktivitet väntas efter 80 minuter?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">80 minuter motsvarar fyra halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=800\\cdot2^{-4}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Läs av när aktiviteten har minskat från 800 till 400 Bq. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett preparat har startaktiviteten 800 Bq och halveringstiden 20 minuter. Bestäm aktiviteten efter 80 minuter.",
+        "s": "<div class=\"facit-v2\"><p>\\[80/20=4\\]</p><p>\\[A=800/2^4=50\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har startaktiviteten 800 Bq och halveringstiden 20 minuter. Bestäm aktiviteten efter 80 minuter.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Varför når kurvan aldrig noll?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Under varje ny halveringstid sönderfaller hälften av de kärnor som då återstår.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Exponentialfunktionen närmar sig därför noll utan att någonsin bli exakt noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A(t)=A_0e^{-\\lambda t}&gt;0\\quad\\text{för ändligt }t\\]</div></div><div class=\"facit-stycke\"><p>I ett verkligt preparat med ett ändligt antal kärnor upphör aktiviteten till slut när den sista kärnan sönderfallit, men modellen är kontinuerlig.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(A_0e^{-\\lambda t}&gt;0\\quad\\text{för ändligt }t\\).</p></div>",
-        "ledtrad": "<p>Läs av när aktiviteten har minskat från 800 till 400 Bq. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Den matematiska sönderfallsmodellen är A(t) = A₀·2^(−t/T). Varför når kurvan aldrig exakt noll?",
+        "s": "<div class=\"facit-v2\"><p>En positiv startaktivitet förblir positiv i modellen. I ett riktigt prov finns ett ändligt antal kärnor; den sista kan till slut sönderfalla.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Varje halvering lämnar hälften av det som fortfarande återstår.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Varje halvering lämnar hälften av det som fortfarande återstår.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Modellen låter inga kärnor sönderfalla.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Aktiviteten börjar öka efter några halveringstider.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Den matematiska sönderfallsmodellen är A(t) = A₀·2^(−t/T). Varför når kurvan aldrig exakt noll?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -101019,10 +101293,9 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "halveringstid från en halvering",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat minskar från \\(600\\,\\mathrm{Bq}\\) till \\(300\\,\\mathrm{Bq}\\) på \\(4{,}5\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten har halverats exakt en gång.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=4{,}5\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm h\\).</p></div>",
+    "t": "<p>Aktiviteten minskar från 600 Bq till 300 Bq på 4,5 timmar. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[T=4{,}5\\ \\mathrm h\\]</p><p></p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -101030,11 +101303,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.0675,
+    "tolerans": 0.1125,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
     "traningsniva": 1,
@@ -101042,7 +101315,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.12",
@@ -101778,11 +102052,10 @@ window.BANK = [
     "id": "9.18",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "beräkna sönderfallskonstant och antal kärnor ur halveringstid och aktivitet, ur text, sökt konstant och antal",
-    "poang": "(2/1/0)",
-    "t": "<p>En nuklid har halveringstiden 5,0 dygn. Ett preparat av nukliden har aktiviteten 2,0 kBq. Sambandet mellan sönderfallskonstant och halveringstid är λ = ln2/T, och aktiviteten ges av A = λN.</p>\n<ol><li>Hur många sekunder är 5,0 dygn?</li>\n<li>Bestäm sönderfallskonstanten.</li>\n<li>Hur många kärnor av nukliden finns i preparatet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla dygnen till sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=5{,}0\\cdot24\\cdot3600=4{,}32\\cdot10^5\\ \\mathrm s\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sönderfallskonstanten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=\\frac{0{,}693}{4{,}32\\cdot10^5}=1{,}60\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(A=\\lambda N\\) och 2,0 kBq = 2000 Bq.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac A\\lambda=\\frac{2000}{1{,}604\\cdot10^{-6}}=1{,}25\\cdot10^9\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(T_{1/2}=4{,}32\\cdot10^5\\ \\mathrm s\\), \\(\\lambda=1{,}60\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\), och \\(N\\approx1{,}2\\cdot10^9\\) kärnor.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En nuklid har halveringstiden 5 dygn. Ett preparat har aktiviteten 2000 Bq.</p><p>a) Hur många sekunder är 5,0 dygn?</p><p>b) Bestäm sönderfallskonstanten i s⁻¹.</p><p>c) Hur många radioaktiva kärnor finns i preparatet?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[T=5{,}0\\cdot24\\cdot3600=432000\\ \\mathrm s\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=5\\cdot86400\\]</p><p>\\[T\\approx432000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/432000\\]</p><p>\\[\\lambda\\approx1{,}6\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[N=2000/\\lambda\\]</p><p>\\[N\\approx1250000000\\]</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -101791,23 +102064,23 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       432000,
-      1.6e-06,
-      null
+      1.6045073624072808e-06,
+      1246488515.3280644
     ],
     "tolerans": [
-      6480,
-      4.799999999999999e-08,
-      null
+      10800.0,
+      5e-08,
+      50000000.0
     ],
     "självrättning": [
       true,
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
+      "numeriskt"
     ],
     "svarEnhet": [
       "s",
@@ -101821,41 +102094,74 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Omvandla halveringstiden till sekunder och använd λ = ln(2)/T. Koppla sedan sönderfallskonstanten till aktiviteten med A = λN.</p>",
+    "ledtrad": "<p>Ett dygn har 24 timmar och en timme har 3 600 sekunder.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En nuklid har halveringstiden 5,0 dygn. Ett preparat av nukliden har aktiviteten 2,0 kBq. Sambandet mellan sönderfallskonstant och halveringstid är λ = ln2/T, och aktiviteten ges av A = λN.</p>",
+    "spelIntro": "<p>En nuklid har halveringstiden 5 dygn. Ett preparat har aktiviteten 2000 Bq.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur många sekunder är 5,0 dygn?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandla dygnen till sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=5{,}0\\cdot24\\cdot3600=4{,}32\\cdot10^5\\ \\mathrm s\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}32\\cdot10^5\\ \\mathrm s\\).</p></div>",
-        "ledtrad": "<p>Omvandla halveringstiden till sekunder och använd λ = ln(2)/T. Koppla sedan sönderfallskonstanten till aktiviteten med A = λN.</p>",
+        "s": "<div class=\"facit-v2\"><p>\\[T=5{,}0\\cdot24\\cdot3600=432000\\ \\mathrm s\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 432000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s",
+        "tolerans": 10800.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Ett dygn har 24 timmar och en timme har 3 600 sekunder.</p>",
+        "t": "<p>Hur många sekunder är 5,0 dygn?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm sönderfallskonstanten.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sönderfallskonstanten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=\\frac{0{,}693}{4{,}32\\cdot10^5}=1{,}60\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}60\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\).</p></div>",
-        "ledtrad": "<p>Omvandla halveringstiden till sekunder och använd λ = ln(2)/T. Koppla sedan sönderfallskonstanten till aktiviteten med A = λN.</p>",
+        "fraga": "En nuklid har halveringstiden 5 dygn. Bestäm sönderfallskonstanten i s⁻¹.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=5\\cdot86400\\]</p><p>\\[T\\approx432000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/432000\\]</p><p>\\[\\lambda\\approx1{,}6\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.6045073624072808e-06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 5e-08,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>En nuklid har halveringstiden 5 dygn. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur många kärnor av nukliden finns i preparatet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(A=\\lambda N\\) och 2,0 kBq = 2000 Bq.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac A\\lambda=\\frac{2000}{1{,}604\\cdot10^{-6}}=1{,}25\\cdot10^9\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}25\\cdot10^9\\).</p></div>",
-        "ledtrad": "<p>Omvandla halveringstiden till sekunder och använd λ = ln(2)/T. Koppla sedan sönderfallskonstanten till aktiviteten med A = λN.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett preparat har aktiviteten 2000 Bq och sönderfallskonstanten 1,605·10⁻⁶ s⁻¹. Hur många radioaktiva kärnor finns i preparatet?",
+        "s": "<div class=\"facit-v2\"><p>\\[N=2000/1{,}605\\cdot10^{-6}\\]</p><p>\\[N\\approx1250000000\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1246105919.0031152,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 50000000.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett preparat har aktiviteten 2000 Bq och sönderfallskonstanten 1,605·10⁻⁶ s⁻¹. Hur många radioaktiva kärnor finns i preparatet?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
     ]
@@ -101880,7 +102186,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd definitionen och jämför alternativen ett i taget.</p>",
+    "ledtrad": "<p>Bq anger antalet sönderfall per sekund i genomsnitt.</p>",
     "alternativ": [
       {
         "txt": "I genomsnitt sker 25 sönderfall per sekund.",
@@ -102849,8 +103155,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Halveringstiden för ett visst radioaktivt material är 15 minuter. Emelie har stängt in ett preparat med detta material, som väger 18 mikrogram, i en blylåda.</p>\n<ol><li>Hur mycket finns det kvar av det radioaktiva materialet efter 30 minuter?</li>\n<li>Hur mycket finns kvar 45 minuter efter att det fanns 18 mikrogram?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">30 minuter är två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=18\\cdot2^{-30/15}=4{,}5\\ \\mu\\mathrm g\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">45 minuter är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=18\\cdot2^{-45/15}=2{,}25\\ \\mu\\mathrm g\\]</div></div><div class=\"facit-stycke\"><p>Blylådan påverkar inte sönderfallshastigheten; den skärmar bara av en del av strålningen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 30 minuter återstår \\(4{,}5\\ \\mu\\mathrm g\\), och efter 45 minuter \\(2{,}25\\ \\mu\\mathrm g\\).</p></div>",
+    "t": "<p>Ett prov innehåller 18 µg av en radioaktiv isotop med halveringstiden 15 minuter.</p><p>a) Hur mycket av isotopen återstår efter 30 minuter? Svara i µg.</p><p>b) Hur mycket av isotopen återstår efter 45 minuter? Svara i µg.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[30/15=2\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{2}\\]</p><p>\\[m\\approx4{,}5\\ \\mathrm{\\mu g}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[45/15=3\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{3}\\]</p><p>\\[m\\approx2{,}25\\ \\mathrm{\\mu g}\\]</p></div></p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -102862,17 +103168,20 @@ window.BANK = [
       2.25
     ],
     "tolerans": [
-      0.0675,
-      0.0338
+      0.1125,
+      0.05625
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "µg",
+      "µg"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -102883,41 +103192,64 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Halveringstiden för ett visst radioaktivt material är 15 minuter. Emelie har stängt in ett preparat med detta material, som väger 18 mikrogram, i en blylåda.</p><div class=\"spel-en-del\">Hur mycket finns det kvar av det radioaktiva materialet efter 30 minuter?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">30 minuter är två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=18\\cdot2^{-30/15}=4{,}5\\ \\mu\\mathrm g\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mu\\mathrm g\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+        "fraga": "Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 30 minuter? Svara i µg.",
+        "s": "<div class=\"facit-v2\"><p>\\[30/15=2\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{2}\\]</p><p>\\[m\\approx4{,}5\\ \\mathrm{\\mu g}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µg",
+        "tolerans": 0.1125,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 30 minuter? Svara i µg.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Halveringstiden för ett visst radioaktivt material är 15 minuter. Emelie har stängt in ett preparat med detta material, som väger 18 mikrogram, i en blylåda.</p><div class=\"spel-en-del\">Hur mycket finns kvar 45 minuter efter att det fanns 18 mikrogram?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">45 minuter är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=18\\cdot2^{-45/15}=2{,}25\\ \\mu\\mathrm g\\]</div></div><div class=\"facit-stycke\"><p>Blylådan påverkar inte sönderfallshastigheten; den skärmar bara av en del av strålningen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mu\\mathrm g\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+        "fraga": "Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 45 minuter? Svara i µg.",
+        "s": "<div class=\"facit-v2\"><p>\\[45/15=3\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{3}\\]</p><p>\\[m\\approx2{,}25\\ \\mathrm{\\mu g}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.25,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "µg",
+        "tolerans": 0.05625,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 45 minuter? Svara i µg.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "spelIntro": "<p>Ett prov innehåller 18 µg av en radioaktiv isotop med halveringstiden 15 minuter.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.127",
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "antal sönderfall från aktivitet och tid",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat har aktiviteten \\(40\\,\\mathrm{Bq}\\). Hur många sönderfall sker i genomsnitt under \\(5{,}0\\,\\mathrm s\\), om aktiviteten är konstant under tiden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten anger sönderfall per sekund.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=A t=40\\cdot5{,}0=200\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 200 sönderfall.</p></div>",
+    "t": "<p>Ett preparat har aktiviteten 40 Bq. Hur många sönderfall sker i genomsnitt på 5 sekunder?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten anger 40 sönderfall per sekund i genomsnitt.</p><p>\\[N=A t=40\\cdot5=200\\]</p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -102925,11 +103257,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 200,
-    "tolerans": 0,
+    "tolerans": 5.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "traningsniva": 1,
@@ -102937,7 +103269,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.28",
@@ -103032,10 +103365,9 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "tid till given andel",
     "poang": "(1/0/0)",
-    "t": "<p>Halveringstiden är \\(10\\,\\mathrm{min}\\). Hur lång tid tar det för aktiviteten att minska till en åttondel?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En åttondel är tre halveringar: 1 → 1/2 → 1/4 → 1/8.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=3\\cdot10=30\\ \\mathrm{min}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\mathrm{min}\\).</p></div>",
+    "t": "<p>Halveringstiden är 10 minuter. Hur lång tid tar det för aktiviteten att minska till en åttondel? Svara i minuter.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[t=3\\cdot10=30\\ \\mathrm{min}\\]</p><p>En åttondel är tre halveringar: 1 → 1/2 → 1/4 → 1/8.</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -103043,11 +103375,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 0,
+    "tolerans": 0.75,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "min",
     "traningsniva": 2,
@@ -103055,37 +103387,39 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.29",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "beräkna aktivitet ur antal kärnor och halveringstid, ur text, sökt sönderfallskonstant och aktivitet",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett preparat innehåller 3,0·10¹⁸ kärnor av en nuklid med halveringstiden 30 år. Ett år är 3,156·10⁷ sekunder.</p>\n<p>Vilken aktivitet har preparatet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Skriv halveringstiden i sekunder.</p><div class=\"facit-matte\">\\[T_{1/2}=30(3{,}156\\cdot10^7)=9{,}468\\cdot10^8\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Sönderfallskonstanten är</p><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=7{,}32\\cdot10^{-10}\\ \\mathrm{s^{-1}}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Aktiviteten blir</p><div class=\"facit-matte\">\\[A=\\lambda N=(7{,}32\\cdot10^{-10})(3{,}0\\cdot10^{18})=2{,}20\\cdot10^9\\ \\mathrm{Bq}\\]</div><p>Den långa halveringstiden kompenseras av det mycket stora antalet kärnor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Preparatets aktivitet är cirka \\(2{,}2\\cdot10^9\\ \\mathrm{Bq}=2{,}2\\ \\mathrm{GBq}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett preparat har 3,0·10¹⁸ radioaktiva kärnor. Halveringstiden är 30 år. Bestäm aktiviteten i Bq. Ett år är 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[T=30\\cdot3{,}156\\cdot10^7=9{,}468\\cdot10^8\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx7{,}32\\cdot10^{-10}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda\\cdot3{,}0\\cdot10^{18}\\]</p><p>\\[A\\approx2200000000\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2196283842.0784073,
+    "tolerans": 54907096.051960185,
+    "självrättning": true,
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "svarEnhet": "Bq",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "9.129",
@@ -103103,11 +103437,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 80,
-    "tolerans": 0,
+    "tolerans": 2.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
     "traningsniva": 1,
@@ -103121,10 +103455,10 @@ window.BANK = [
     "id": "9.30",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett preparat innehåller 5,0 miljoner atomkärnor av en nuklid med halveringstiden 2,4 minuter.</p>\n<ol><li>Bestäm sönderfallskonstanten för nukliden.</li>\n<li>Bestäm preparatets aktivitet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv halveringstiden i sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=2{,}4\\cdot60=144\\ \\mathrm s\\]\\[\\lambda=\\frac{\\ln2}{144}=4{,}81\\cdot10^{-3}\\ \\mathrm{s^{-1}}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten är sönderfallskonstanten gånger antalet kvarvarande kärnor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N=(4{,}81\\cdot10^{-3})(5{,}0\\cdot10^6)=2{,}41\\cdot10^4\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\lambda=4{,}8\\cdot10^{-3}\\ \\mathrm{s^{-1}}\\), och aktiviteten är cirka \\(24\\ \\mathrm{kBq}\\).</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett preparat har 5,0 miljoner radioaktiva kärnor. Halveringstiden är 2,4 minuter.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Bestäm aktiviteten i kBq.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[T=2{,}4\\cdot60=144\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/144\\]</p><p>\\[\\lambda\\approx0{,}00481\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[5{,}0\\ \\text{miljoner}=5{,}0\\cdot10^6\\]</p><p><div class=\"facit-v2\"><p>\\[A=0{,}004814\\cdot5{,}0\\cdot10^6\\]</p><p>\\[A\\approx24100\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=24070/1000\\]</p><p>\\[A\\approx24{,}1\\ \\mathrm{kBq}\\]</p></div></p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -103132,14 +103466,17 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.0048,
-      24
+      0.004813522087221842,
+      24.067610436109213
     ],
     "tolerans": [
-      0.00014399999999999998,
-      0.36
+      0.00012033805218054607,
+      0.60175
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -103157,29 +103494,55 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett preparat innehåller 5,0 miljoner atomkärnor av en nuklid med halveringstiden 2,4 minuter.</p><div class=\"spel-en-del\">Bestäm sönderfallskonstanten för nukliden.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv halveringstiden i sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=2{,}4\\cdot60=144\\ \\mathrm s\\]\\[\\lambda=\\frac{\\ln2}{144}=4{,}81\\cdot10^{-3}\\ \\mathrm{s^{-1}}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}81\\cdot10^{-3}\\ \\mathrm{s^{-1}}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "En nuklid har halveringstiden 2,4 minuter. Bestäm sönderfallskonstanten i s⁻¹.",
+        "s": "<div class=\"facit-v2\"><p>\\[T=2{,}4\\cdot60=144\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/144\\]</p><p>\\[\\lambda\\approx0{,}00481\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.004813522087221842,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 0.00012033805218054607,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>En nuklid har halveringstiden 2,4 minuter. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Ett preparat innehåller 5,0 miljoner atomkärnor av en nuklid med halveringstiden 2,4 minuter.</p><div class=\"spel-en-del\">Bestäm preparatets aktivitet.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten är sönderfallskonstanten gånger antalet kvarvarande kärnor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N=(4{,}81\\cdot10^{-3})(5{,}0\\cdot10^6)=2{,}41\\cdot10^4\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}41\\cdot10^4\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet kvarvarande kärnor.</p>",
-        "niva": "C"
+        "fraga": "Ett preparat har 5,0 miljoner radioaktiva kärnor och sönderfallskonstanten 0,004814 s⁻¹. Bestäm aktiviteten i kBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[5{,}0\\ \\text{miljoner}=5{,}0\\cdot10^6\\]</p><p><div class=\"facit-v2\"><p>\\[A=0{,}004814\\cdot5{,}0\\cdot10^6\\]</p><p>\\[A\\approx24100\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=24070/1000\\]</p><p>\\[A\\approx24{,}1\\ \\mathrm{kBq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 24.07,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.60175,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett preparat har 5,0 miljoner radioaktiva kärnor och sönderfallskonstanten 0,004814 s⁻¹. Bestäm aktiviteten i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Omvandla halveringstiden till sekunder och använd λ = ln(2)/T. Koppla sedan sönderfallskonstanten till aktiviteten med A = λN.</p>",
+    "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "spelIntro": "<p>Ett preparat har 5,0 miljoner radioaktiva kärnor. Halveringstiden är 2,4 minuter.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.130",
@@ -103197,11 +103560,11 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 250,
-    "tolerans": 0,
+    "tolerans": 6.25,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
     "traningsniva": 1,
@@ -104630,11 +104993,10 @@ window.BANK = [
     "id": "9.37",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "bestämma halveringstid och aktivitet ur ett aktivitet-tid-diagram, ur diagram, sökt halveringstid och aktivitet",
-    "poang": "(2/1/0)",
-    "t": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">350</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">16</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A (Bq)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (h)</text><polyline points=\"54.00,26.00 90.00,71.39 126.00,107.41 162.00,136.00 198.00,158.69 234.00,176.70 270.00,191.00 306.00,202.35 342.00,211.35 378.00,218.50 414.00,224.17 450.00,228.68 486.00,232.25\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"90.00\" cy=\"71.39\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"126.00\" cy=\"107.41\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"162.00\" cy=\"136.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"198.00\" cy=\"158.69\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"234.00\" cy=\"176.70\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270.00\" cy=\"191.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"306.00\" cy=\"202.35\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"342.00\" cy=\"211.35\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"378.00\" cy=\"218.50\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"414.00\" cy=\"224.17\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"450.00\" cy=\"228.68\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"232.25\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Vilken aktivitet har preparatet från början?</li>\n<li>Efter hur lång tid har aktiviteten halverats?</li>\n<li>Vilken aktivitet har preparatet efter 18 timmar?</li>\n<li>Hur många halveringstider är 24 timmar?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurvan börjar vid</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_0=400\\ \\mathrm{Bq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halva begynnelseaktiviteten, 200 Bq, nås efter 6,0 timmar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=6{,}0\\ \\mathrm h\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">18 timmar är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=400\\cdot2^{-3}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">24 timmar motsvarar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[j=\\frac{24}{6{,}0}=4\\ \\text{halveringstider}\\]</div></div><div class=\"facit-stycke\"><p>Då skulle aktiviteten vara \\(400/2^4=25\\ \\mathrm{Bq}\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Begynnelseaktiviteten är \\(400\\ \\mathrm{Bq}\\), halveringstiden \\(6{,}0\\ \\mathrm h\\), aktiviteten efter 18 h \\(50\\ \\mathrm{Bq}\\), och 24 h är fyra halveringstider.</p></div>",
+    "niva": "E",
+    "poang": "(4/0/0)",
+    "t": "<p>Diagrammet visar aktiviteten hos ett preparat.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">4</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">8</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">12</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">16</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">24</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (h)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.37,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.37,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.13,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div><p>a) Vilken aktivitet har preparatet från början? Svara i Bq.</p><p>b) Bestäm halveringstiden i timmar.</p><p>c) Beräkna aktiviteten efter 18 timmar.</p><p>d) Hur många halveringstider är 24 timmar?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Läs av kurvan vid t = 0: 400 Bq.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Hälften av 400 Bq är 200 Bq. Kurvan når 200 Bq vid 6 timmar.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[18/6=3\\]</p><p>\\[A=400/2^3=50\\ \\mathrm{Bq}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[24/6=4\\]</p></div></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "procedur"
@@ -104642,33 +105004,33 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      400,
       6,
-      null,
-      null
+      50,
+      4
     ],
     "tolerans": [
-      null,
-      0.09,
-      null,
-      null
+      10,
+      0.3,
+      1.25,
+      0
     ],
     "självrättning": [
-      false,
       true,
-      false,
-      false
+      true,
+      true,
+      true
     ],
     "svarFormat": [
-      null,
       "numeriskt",
-      null,
-      null
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
-      null,
+      "Bq",
       "h",
-      null,
+      "Bq",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -104679,45 +105041,93 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Läs kurvans startpunkt.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">350</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">16</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A (Bq)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (h)</text><polyline points=\"54.00,26.00 90.00,71.39 126.00,107.41 162.00,136.00 198.00,158.69 234.00,176.70 270.00,191.00 306.00,202.35 342.00,211.35 378.00,218.50 414.00,224.17 450.00,228.68 486.00,232.25\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"90.00\" cy=\"71.39\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"126.00\" cy=\"107.41\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"162.00\" cy=\"136.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"198.00\" cy=\"158.69\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"234.00\" cy=\"176.70\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"270.00\" cy=\"191.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"306.00\" cy=\"202.35\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"342.00\" cy=\"211.35\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"378.00\" cy=\"218.50\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"414.00\" cy=\"224.17\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"450.00\" cy=\"228.68\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"232.25\" r=\"3.3\" fill=\"#B43123\"/></svg></span>",
+    "spelIntro": "<p>Diagrammet visar aktiviteten hos ett preparat.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">4</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">8</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">12</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">16</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">24</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (h)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.37,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.37,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.13,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken aktivitet har preparatet från början?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurvan börjar vid</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_0=400\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Vilken aktivitet har preparatet från början? Svara i Bq.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">4</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">8</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">12</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">16</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">24</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (h)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.37,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.37,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.13,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>Läs av kurvan vid t = 0: 400 Bq.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 400,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 10,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Läs kurvans startpunkt.</p>",
+        "t": "<p>Vilken aktivitet har preparatet från början? Svara i Bq.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">4</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">8</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">12</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">16</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">24</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (h)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.37,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.37,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.13,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div></p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Efter hur lång tid har aktiviteten halverats?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halva begynnelseaktiviteten, 200 Bq, nås efter 6,0 timmar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=6{,}0\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm h\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Bestäm halveringstiden i timmar ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">4</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">8</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">12</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">16</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">24</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (h)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.37,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.37,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.13,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>Hälften av 400 Bq är 200 Bq. Kurvan når 200 Bq vid 6 timmar.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.3,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>När har aktiviteten blivit hälften?</p>",
+        "t": "<p>Bestäm halveringstiden i timmar ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">4</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">8</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">12</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">16</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">24</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (h)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.37,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.37,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.13,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div></p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vilken aktivitet har preparatet efter 18 timmar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">18 timmar är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=400\\cdot2^{-3}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Ett preparat har startaktiviteten 400 Bq och halveringstiden 6,0 timmar. Bestäm aktiviteten efter 18 timmar.",
+        "s": "<div class=\"facit-v2\"><p>\\[18/6=3\\]</p><p>\\[A=400/2^3=50\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har startaktiviteten 400 Bq och halveringstiden 6,0 timmar. Bestäm aktiviteten efter 18 timmar.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Hur många halveringstider är 24 timmar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">24 timmar motsvarar</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[j=\\frac{24}{6{,}0}=4\\ \\text{halveringstider}\\]</div></div><div class=\"facit-stycke\"><p>Då skulle aktiviteten vara \\(400/2^4=25\\ \\mathrm{Bq}\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\ \\text{halveringstider}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Halveringstiden är 6,0 timmar. Hur många halveringstider är 24 timmar?",
+        "s": "<div class=\"facit-v2\"><p>\\[24/6=4\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Halveringstiden är 6,0 timmar. Hur många halveringstider är 24 timmar?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 1,
+    "arbetsinsats": 4,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
     ]
@@ -104742,7 +105152,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd definitionen och jämför alternativen ett i taget.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "alternativ": [
       {
         "txt": "Efter en halveringstid återstår hälften av de radioaktiva kärnorna.",
@@ -104777,10 +105187,9 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "andel efter fyra halveringstider",
     "poang": "(1/0/0)",
-    "t": "<p>Efter fyra halveringstider återstår hur många procent av den ursprungliga aktiviteten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten halveras fyra gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[100\\%\\cdot\\left(\\frac12\\right)^4=6{,}25\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}25\\,\\%\\).</p></div>",
+    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 4 halveringstider? Svara i procent.</p>",
+    "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{4}=1/16\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/16\\]</p><p>\\[p\\approx6{,}25\\ \\%\\]</p></div></p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -104788,48 +105197,282 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 6.25,
-    "tolerans": 0,
+    "tolerans": 0.15625,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Identifiera vilken fysikalisk storhet som söks och vilka uppgifter som behövs.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.38",
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "beräkna hur stor andel som återstår efter ett antal halveringstider, ur tabell, sökt andel och aktivitet",
-    "poang": "(2/0/0)",
-    "t": "<p>Ett preparat har från början aktiviteten 640 Bq. Halveringstiden är 15 minuter.</p><table class=\"data\"><tr><th>Antal halveringstider</th><th>Tid (min)</th><th>Andel kvar</th><th>Aktivitet (Bq)</th></tr><tr><td>0</td><td>0</td><td>100 %</td><td>640</td></tr><tr><td>1</td><td>?</td><td>?</td><td>?</td></tr><tr><td>2</td><td>?</td><td>?</td><td>?</td></tr><tr><td>3</td><td>?</td><td>?</td><td>?</td></tr><tr><td>4</td><td>?</td><td>?</td><td>?</td></tr></table>\n<p>Fyll i tabellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">För varje halveringstid ökar tiden med 15 minuter, medan både andelen och aktiviteten halveras.</p><div class=\"facit-matte\">\\[A_j=640\\cdot2^{-j}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">De fyra raderna blir</p><div class=\"facit-matte\">\\[\\begin{array}{c|c|c|c}j&amp;t\\ (\\mathrm{min})&amp;\\text{andel kvar}&amp;A\\ (\\mathrm{Bq})\\\\ \\hline1&amp;15&amp;50\\,\\%&amp;320\\\\2&amp;30&amp;25\\,\\%&amp;160\\\\3&amp;45&amp;12{,}5\\,\\%&amp;80\\\\4&amp;60&amp;6{,}25\\,\\%&amp;40\\end{array}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tabellen fylls med: 15 min–50 %–320 Bq; 30 min–25 %–160 Bq; 45 min–12,5 %–80 Bq; 60 min–6,25 %–40 Bq.</p></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter.</p><p>a) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 1 halveringstider.</p><p>b) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 2 halveringstider.</p><p>c) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 3 halveringstider.</p><p>d) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 4 halveringstider.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[t=1\\cdot15=15\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^1\\]</p><p>\\[p\\approx50\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^1\\]</p><p>\\[A\\approx320\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[t=2\\cdot15=30\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^2\\]</p><p>\\[p\\approx25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^2\\]</p><p>\\[A\\approx160\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=3\\cdot15=45\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^3\\]</p><p>\\[p\\approx12{,}5\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^3\\]</p><p>\\[A\\approx80\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[t=4\\cdot15=60\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^4\\]</p><p>\\[p\\approx6{,}25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^4\\]</p><p>\\[A\\approx40\\ \\mathrm{Bq}\\]</p></div></p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        15,
+        50.0,
+        320.0
+      ],
+      [
+        30,
+        25.0,
+        160.0
+      ],
+      [
+        45,
+        12.5,
+        80.0
+      ],
+      [
+        60,
+        6.25,
+        40.0
+      ]
+    ],
+    "tolerans": [
+      [
+        0.5,
+        1.25,
+        8.0
+      ],
+      [
+        0.75,
+        0.625,
+        5.0
+      ],
+      [
+        1.125,
+        0.5,
+        2.0
+      ],
+      [
+        1.5,
+        0.15625,
+        1.0
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>För varje halveringstid ökar tiden med 15 minuter, medan både andelen och aktiviteten halveras.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "traningsniva": 1,
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "spelIntro": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 1 halveringstider.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=1\\cdot15=15\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^1\\]</p><p>\\[p\\approx50\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^1\\]</p><p>\\[A\\approx320\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          15,
+          50.0,
+          320.0
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "min",
+          "%",
+          "Bq"
+        ],
+        "tolerans": [
+          0.5,
+          1.25,
+          8.0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 1 halveringstider.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Tid",
+          "Andel kvar",
+          "Aktivitet"
+        ],
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 2 halveringstider.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=2\\cdot15=30\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^2\\]</p><p>\\[p\\approx25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^2\\]</p><p>\\[A\\approx160\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          30,
+          25.0,
+          160.0
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "min",
+          "%",
+          "Bq"
+        ],
+        "tolerans": [
+          0.75,
+          0.625,
+          5.0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 2 halveringstider.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Tid",
+          "Andel kvar",
+          "Aktivitet"
+        ],
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 3 halveringstider.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=3\\cdot15=45\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^3\\]</p><p>\\[p\\approx12{,}5\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^3\\]</p><p>\\[A\\approx80\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          45,
+          12.5,
+          80.0
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "min",
+          "%",
+          "Bq"
+        ],
+        "tolerans": [
+          1.125,
+          0.5,
+          2.0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 3 halveringstider.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Tid",
+          "Andel kvar",
+          "Aktivitet"
+        ],
+        "miniräknare": true
+      },
+      {
+        "etikett": "d",
+        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 4 halveringstider.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=4\\cdot15=60\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^4\\]</p><p>\\[p\\approx6{,}25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^4\\]</p><p>\\[A\\approx40\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          60,
+          6.25,
+          40.0
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          "min",
+          "%",
+          "Bq"
+        ],
+        "tolerans": [
+          1.5,
+          0.15625,
+          1.0
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 4 halveringstider.</p>",
+        "arbetsinsats": 1,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Tid",
+          "Andel kvar",
+          "Aktivitet"
+        ],
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "min",
+        "%",
+        "Bq"
+      ],
+      [
+        "min",
+        "%",
+        "Bq"
+      ],
+      [
+        "min",
+        "%",
+        "Bq"
+      ],
+      [
+        "min",
+        "%",
+        "Bq"
+      ]
     ]
   },
   {
@@ -104837,23 +105480,22 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "kol-14-datering med godtycklig kvarvarande andel",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett organiskt prov har \\(40\\,\\%\\) av den kol-14-aktivitet som motsvarande levande material har. Halveringstiden är \\(5730\\) år. Bestäm provets ålder.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd sönderfallslagen med aktivitet som proportionell mot antalet kvarvarande kärnor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}4=2^{-t/5730}\\Rightarrow t=7575\\ \\mathrm{år}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(7575\\ \\mathrm{år}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En gammal träbit har 40 % av kol-14-aktiviteten per gram kol i levande trä. Halveringstiden är 5 730 år. Hur gammal är träbiten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\cdot\\ln(0{,}4)/\\ln2\\]</p><p>\\[t\\approx7570\\ \\mathrm{år}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "modellering",
+      "problemlösning",
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 7574.647984,
-    "tolerans": 136.343664,
+    "rättSvar": 7574.647983704585,
+    "tolerans": 189.36619959261463,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv kvarvarande andel som \\(2^{-t/T_{1/2}}\\) och lös för tiden.</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "år",
     "traningsniva": 3,
@@ -104861,7 +105503,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.39",
@@ -105128,85 +105771,148 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har från början aktiviteten 40 kBq.</p>\n<ol><li>Vilken aktivitet har det efter 5,27 år?</li><li>Efter 10,5 år?</li><li>Efter 15,8 år?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje intervall på 5,27 år halverar aktiviteten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=A_0\\,2^{-t/5{,}27}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter en halveringstid:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\frac{40}{2}=20\\ \\mathrm{kBq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">10,5 år är ungefär två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A\\approx\\frac{40}{2^2}=10\\ \\mathrm{kBq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">15,8 år är ungefär tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A\\approx\\frac{40}{2^3}=5{,}0\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Aktiviteterna är ungefär \\(20\\ \\mathrm{kBq}\\), \\(10\\ \\mathrm{kBq}\\) och \\(5{,}0\\ \\mathrm{kBq}\\).</p></div>",
+    "poang": "(3/0/0)",
+    "t": "<p>Kobolt-60 har halveringstiden 5,27 år och startaktiviteten är 40 kBq.</p><p>a) Bestäm aktiviteten efter 5,27 år i kBq.</p><p>b) Bestäm aktiviteten efter 10,5 år i kBq.</p><p>c) Bestäm aktiviteten efter 15,8 år i kBq.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-5{,}27/5{,}27}\\]</p><p>\\[A\\approx20\\ \\mathrm{kBq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-10{,}5/5{,}27}\\]</p><p>\\[A\\approx10{,}1\\ \\mathrm{kBq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-15{,}8/5{,}27}\\]</p><p>\\[A\\approx5{,}01\\ \\mathrm{kBq}\\]</p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20.0,
+      10.052749429484983,
+      5.006580675694967
+    ],
+    "tolerans": [
+      0.5,
+      0.5,
+      0.12516451689237418
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Varje intervall på 5,27 år halverar aktiviteten. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har från början aktiviteten 40 kBq.</p>",
+    "spelIntro": "<p>Kobolt-60 har halveringstiden 5,27 år och startaktiviteten är 40 kBq.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken aktivitet har det efter 5,27 år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje intervall på 5,27 år halverar aktiviteten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=A_0\\,2^{-t/5{,}27}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter en halveringstid:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\frac{40}{2}=20\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{kBq}\\).</p></div>",
-        "ledtrad": "<p>Varje intervall på 5,27 år halverar aktiviteten. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "E"
+        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 5,27 år i kBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-5{,}27/5{,}27}\\]</p><p>\\[A\\approx20\\ \\mathrm{kBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 20.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 5,27 år i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Efter 10,5 år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">10,5 år är ungefär två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A\\approx\\frac{40}{2^2}=10\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm{kBq}\\).</p></div>",
-        "ledtrad": "<p>Varje intervall på 5,27 år halverar aktiviteten. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "E"
+        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 10,5 år i kBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-10{,}5/5{,}27}\\]</p><p>\\[A\\approx10{,}1\\ \\mathrm{kBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 10.052749429484983,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 10,5 år i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Efter 15,8 år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">15,8 år är ungefär tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A\\approx\\frac{40}{2^3}=5{,}0\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{kBq}\\).</p></div>",
-        "ledtrad": "<p>Varje intervall på 5,27 år halverar aktiviteten. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "E"
+        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 15,8 år i kBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-15{,}8/5{,}27}\\]</p><p>\\[A\\approx5{,}01\\ \\mathrm{kBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.006580675694967,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.12516451689237418,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 15,8 år i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "kBq",
+      "kBq",
+      "kBq"
     ]
   },
   {
     "id": "9.134",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "bestämma halveringstid från aktivitetsdata",
-    "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat minskar från \\(1200\\,\\mathrm{Bq}\\) till \\(300\\,\\mathrm{Bq}\\) på \\(23\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först hur många halveringar som motsvarar aktivitetsminskningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{A}{A_0}=\\frac14=\\left(\\frac12\\right)^2\\]\\[T_{1/2}=\\frac{23}{2}=11{,}5\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm h\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Aktiviteten minskar från 1 200 Bq till 300 Bq på 23 timmar. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[1200\\to600\\to300\\]\\[T=23/2=11{,}5\\ \\mathrm h\\]</p><p></p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 11.5,
-    "tolerans": 0.207,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Välj sedan halveringslagen eller \\(E=\\Delta mc^2\\) beroende på frågan.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.42",
@@ -105320,8 +106026,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En banan innehåller kalium, varav en liten del är den radioaktiva isotopen kalium-40. Aktiviteten hos en genomsnittlig banan är cirka 15 Bq.</p>\n<ol><li>Vad betyder det?</li><li>Hur många sönderfall sker i bananen under ett år?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Enheten becquerel anger antal sönderfall per sekund.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1\\ \\mathrm{Bq}=1\\ \\text{sönderfall/s}\\]</div></div><div class=\"facit-stycke\"><p>Aktiviteten 15 Bq betyder därför i genomsnitt 15 sönderfall varje sekund.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett år är ungefär 365,25 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=365{,}25\\cdot24\\cdot3600=3{,}156\\cdot10^7\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[N_{\\mathrm{sönderfall}}=At=15\\cdot3{,}156\\cdot10^7=4{,}73\\cdot10^8\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Aktiviteten motsvarar 15 sönderfall per sekund och cirka \\(4{,}7\\cdot10^8\\) sönderfall under ett år.</p></div>",
+    "t": "<p>En banan har aktiviteten 15 Bq från kalium-40. Aktiviteten ändras mycket lite på ett år. Ett år är 3,156·10⁷ s.</p><p>a) Vad betyder aktiviteten 15 Bq?</p><p>b) Hur många sönderfall sker i genomsnitt under ett år?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Bq anger antal sönderfall per sekund i genomsnitt.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Multiplicera aktivitet med tid i sekunder.</p><p><div class=\"facit-v2\"><p>\\[N=15\\cdot3{,}156\\cdot10^7\\]</p><p>\\[N\\approx473000000\\]</p></div></p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -105330,11 +106036,11 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      470000000
+      473400000.0
     ],
     "tolerans": [
       null,
-      7050000
+      11835000.0
     ],
     "självrättning": [
       false,
@@ -105354,25 +106060,63 @@ window.BANK = [
       "b"
     ],
     "familjNyckelTidigare": "aktivitet__aktivitet_och_sonderfallshastighet",
-    "ledtrad": "<p>Enheten becquerel anger antal sönderfall per sekund. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Vad betyder enheten becquerel?</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En banan innehåller kalium, varav en liten del är den radioaktiva isotopen kalium-40. Aktiviteten hos en genomsnittlig banan är cirka 15 Bq.</p>",
+    "spelIntro": "<p>En banan har aktiviteten 15 Bq från kalium-40. Aktiviteten ändras mycket lite på ett år. Ett år är 3,156·10⁷ s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vad betyder det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Enheten becquerel anger antal sönderfall per sekund.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1\\ \\mathrm{Bq}=1\\ \\text{sönderfall/s}\\]</div></div><div class=\"facit-stycke\"><p>Aktiviteten 15 Bq betyder därför i genomsnitt 15 sönderfall varje sekund.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\ \\text{sönderfall/s}\\).</p></div>",
-        "ledtrad": "<p>Enheten becquerel anger antal sönderfall per sekund. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+        "fraga": "En banan har aktiviteten 15 Bq från kalium-40. Vad betyder det?",
+        "s": "<div class=\"facit-v2\"><p>Bq anger antal sönderfall per sekund i genomsnitt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "I genomsnitt sker 15 radioaktiva sönderfall per sekund.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "I genomsnitt sker 15 radioaktiva sönderfall per sekund.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Det finns bara 15 radioaktiva kärnor i bananen.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Halveringstiden är 15 sekunder.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad betyder enheten becquerel?</p>",
+        "t": "<p>En banan har aktiviteten 15 Bq från kalium-40. Vad betyder det?</p>",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många sönderfall sker i bananen under ett år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett år är ungefär 365,25 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=365{,}25\\cdot24\\cdot3600=3{,}156\\cdot10^7\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[N_{\\mathrm{sönderfall}}=At=15\\cdot3{,}156\\cdot10^7=4{,}73\\cdot10^8\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}73\\cdot10^8\\).</p></div>",
-        "ledtrad": "<p>Enheten becquerel anger antal sönderfall per sekund. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+        "fraga": "En banan har aktiviteten 15 Bq från kalium-40. Aktiviteten ändras mycket lite på ett år. Hur många sönderfall sker i genomsnitt under ett år? Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p>Multiplicera aktivitet med tid i sekunder.</p><p><div class=\"facit-v2\"><p>\\[N=15\\cdot3{,}156\\cdot10^7\\]</p><p>\\[N\\approx473000000\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 473400000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 11835000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>En banan har aktiviteten 15 Bq från kalium-40. Aktiviteten ändras mycket lite på ett år. Hur många sönderfall sker i genomsnitt under ett år? Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
@@ -105389,32 +106133,31 @@ window.BANK = [
     "id": "9.135",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "kol-14-datering med godtycklig kvarvarande andel",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett organiskt prov har \\(50\\,\\%\\) av den kol-14-aktivitet som motsvarande levande material har. Halveringstiden är \\(5730\\) år. Bestäm provets ålder.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd sönderfallslagen med aktivitet som proportionell mot antalet kvarvarande kärnor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}5=2^{-t/5730}\\Rightarrow t=5730\\ \\mathrm{år}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(5730\\ \\mathrm{år}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En gammal träbit har hälften så hög kol-14-aktivitet per gram kol som levande trä. Kol-14 har halveringstiden 5 730 år. Hur gammal är träbiten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Hälften återstår efter en halveringstid. Träbiten är därför cirka 5 730 år gammal.</p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "modellering",
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 5730,
-    "tolerans": 103.14,
+    "tolerans": 143.25,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv kvarvarande andel som \\(2^{-t/T_{1/2}}\\) och lös för tiden.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "år",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.44",
@@ -106145,80 +106888,120 @@ window.BANK = [
     "id": "9.55",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Kol-14-metoden bygger på att levande organismer tar upp kol-14 från omgivningen så länge de lever, och att halveringstiden är 5700 år.</p>\n<ol><li>Vilket eller vilka av följande föremål går att åldersbestämma med kol-14-metoden: en järngryta från medeltiden, en träskål från 1600-talet, ett dinosauriefossil, en 60-årig levande man?</li>\n<li>Motivera ditt svar.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Kol-14-datering kräver organiskt material som tog upp kol medan organismen levde och som sedan slutade utbyta kol med omgivningen.</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Träskålen uppfyller villkoren: trädet tog upp kol-14 när det levde, och efter avverkningen började halten minska genom sönderfall.</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Järngrytan är inte organiskt kolmaterial.</p><p class=\"facit-metod\">Dinosauriefossilet är miljontals år gammalt, så mätbart kol-14 har försvunnit.</p><p class=\"facit-metod\">Den levande mannen tar fortfarande upp kol och kan därför inte dateras med metoden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Av alternativen kan träskålen från 1600-talet åldersbestämmas med kol-14-metoden.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Kol-14-metoden kan datera kolmaterial från något som tidigare levde. Halveringstiden är cirka 5 730 år.</p><p>a) Vilket av följande kan dateras: en träskål från 1600-talet, en järngryta från medeltiden, ett miljontals år gammalt dinosauriefossil eller en levande människa? Motivera.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Trädet tog upp kol medan det levde. Efter avverkningen slutade det ta upp nytt kol, och kol-14 började minska. Järn är inte organiskt kolmaterial. Dinosauriefossilet är för gammalt för mätbart kol-14, och en levande människa tar fortfarande upp kol.</p></div></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null
+    ],
+    "tolerans": [
+      null
+    ],
+    "självrättning": [
+      false
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Kol-14-datering kräver organiskt material som tog upp kol medan organismen levde och som sedan slutade utbyta kol med omgivningen.</p>",
+    "ledtrad": "<p>Materialet måste innehålla kol från något som tidigare levde och vara tillräckligt ungt för mätbart kol-14.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Kol-14-metoden bygger på att levande organismer tar upp kol-14 från omgivningen så länge de lever, och att halveringstiden är 5700 år.</p>",
+    "spelIntro": "<p>Kol-14-metoden kan datera kolmaterial från något som tidigare levde. Halveringstiden är cirka 5 730 år.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilket eller vilka av följande föremål går att åldersbestämma med kol-14-metoden: en järngryta från medeltiden, en träskål från 1600-talet, ett dinosauriefossil, en 60-årig levande man?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Kol-14-datering kräver organiskt material som tog upp kol medan organismen levde och som sedan slutade utbyta kol med omgivningen.</p></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Träskålen uppfyller villkoren: trädet tog upp kol-14 när det levde, och efter avverkningen började halten minska genom sönderfall.</p></div></div></div>",
-        "ledtrad": "<p>Kol-14-datering kräver organiskt material som tog upp kol medan organismen levde och som sedan slutade utbyta kol med omgivningen.</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Motivera ditt svar.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Järngrytan är inte organiskt kolmaterial.</p><p class=\"facit-metod\">Dinosauriefossilet är miljontals år gammalt, så mätbart kol-14 har försvunnit.</p><p class=\"facit-metod\">Den levande mannen tar fortfarande upp kol och kan därför inte dateras med metoden.</p></div></div></div>",
-        "ledtrad": "<p>Kol-14-datering kräver organiskt material som tog upp kol medan organismen levde och som sedan slutade utbyta kol med omgivningen.</p>",
-        "niva": "A"
+        "fraga": "Vilket föremål kan dateras med kol-14-metoden?",
+        "s": "<div class=\"facit-v2\"><p>Trädet tog upp kol medan det levde. Efter avverkningen slutade det ta upp nytt kol, och kol-14 började minska. Järn är inte organiskt kolmaterial. Dinosauriefossilet är för gammalt för mätbart kol-14, och en levande människa tar fortfarande upp kol.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "En träskål från 1600-talet.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "En träskål från 1600-talet.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "En järngryta från medeltiden.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Ett miljontals år gammalt dinosauriefossil.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "En levande människa.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Materialet måste innehålla kol från något som tidigare levde och vara tillräckligt ungt för mätbart kol-14.</p>",
+        "t": "<p>Vilket föremål kan dateras med kol-14-metoden?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "svarFormat": [
+      null
+    ],
+    "svarEnhet": [
+      null
     ]
   },
   {
     "id": "9.136",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "bestämma halveringstid från aktivitetsdata",
-    "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat minskar från \\(1600\\,\\mathrm{Bq}\\) till \\(400\\,\\mathrm{Bq}\\) på \\(19\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först hur många halveringar som motsvarar aktivitetsminskningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{A}{A_0}=\\frac14=\\left(\\frac12\\right)^2\\]\\[T_{1/2}=\\frac{19}{2}=9{,}5\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}5\\ \\mathrm h\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Aktiviteten minskar från 1 600 Bq till 400 Bq på 19 timmar. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[1600\\to800\\to400\\]\\[T=19/2=9{,}5\\ \\mathrm h\\]</p><p></p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 9.5,
-    "tolerans": 0.171,
+    "tolerans": 0.23750000000000002,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kontrollera först bevarandet av masstal och atomnummer. Välj sedan halveringslagen eller \\(E=\\Delta mc^2\\) beroende på frågan.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.56",
@@ -106281,23 +107064,22 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "radioaktivt sönderfall och halveringstid",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett arkeologiskt prov har \\(35\\,\\%\\) av den kol-14-aktivitet som motsvarande levande material har. Halveringstiden är \\(5730\\) år. Bestäm provets ålder.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A/A_0=2^{-t/T_{1/2}}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=-5730\\frac{\\ln0{,}35}{\\ln2}=8678{,}50428\\ \\mathrm{år}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8678{,}50428\\,\\mathrm{år}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En gammal tygbit har 35 % av kol-14-aktiviteten per gram kol i levande växtmaterial. Halveringstiden är 5 730 år. Hur gammalt är tyget?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\cdot\\ln(0{,}35)/\\ln2\\]</p><p>\\[t\\approx8680\\ \\mathrm{år}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 8678.504280314517,
-    "tolerans": 156.2130770456613,
+    "tolerans": 216.96260700786294,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Utgå från \\(A=A_0 2^{-t/T_{1/2}}\\), eller från \\(A=\\lambda N\\) när antalet kärnor efterfrågas.</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "år",
     "traningsniva": 3,
@@ -106305,77 +107087,78 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.57",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "beräkna aktivitet efter en tid som inte är ett helt antal halveringstider, ur text, sökt aktivitet",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett preparat har aktiviteten 12 kBq och halveringstiden 8,0 dygn.</p>\n<p>Vilken aktivitet har preparatet efter 20 dygn?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">20 dygn är inte ett helt antal halveringstider.</p><div class=\"facit-matte\">\\[j=\\frac{20}{8{,}0}=2{,}5\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd halveringslagen.</p><div class=\"facit-matte\">\\[A=12\\cdot2^{-2{,}5}=2{,}12\\ \\mathrm{kBq}\\]</div><p>Efter två halveringstider vore aktiviteten 3,0 kBq och efter tre 1,5 kBq, så resultatet ligger rimligt däremellan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 20 dygn är aktiviteten cirka \\(2{,}1\\ \\mathrm{kBq}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett preparat har aktiviteten 12 kBq från början och halveringstiden 8 dygn. Bestäm aktiviteten efter 20 dygn. Svara i kBq.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[t/T=20/8\\]</p><p><div class=\"facit-v2\"><p>\\[A=12\\cdot2^{-20/8}\\]</p><p>\\[A\\approx2{,}12\\ \\mathrm{kBq}\\]</p></div></p><p></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.121320343559643,
+    "tolerans": 0.05303300858899107,
+    "självrättning": true,
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>20 dygn är inte ett helt antal halveringstider. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "svarEnhet": "kBq",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "9.138",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "radioaktivt sönderfall och halveringstid",
-    "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat minskar från \\(960\\,\\mathrm{Bq}\\) till \\(120\\,\\mathrm{Bq}\\) på \\(20\\,\\mathrm h\\). Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten har minskat med faktorn 8, alltså tre halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[960\\to480\\to240\\to120\\quad\\Rightarrow\\quad T_{1/2}=20/3\\approx6{,}7\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}7\\,\\mathrm{h}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Aktiviteten minskar från 960 Bq till 120 Bq på 20 timmar. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[960\\to480\\to240\\to120\\]</p><p>Tre halveringar tar 20 timmar. T = 20/3 ≈ 6,67 timmar.</p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.66666666667,
-    "tolerans": 0.12,
+    "rättSvar": 6.666666666666667,
+    "tolerans": 0.16666666666666669,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Utgå från \\(A=A_0 2^{-t/T_{1/2}}\\), eller från \\(A=\\lambda N\\) när antalet kärnor efterfrågas.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.58",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Aktiviteten för ett radioaktivt preparat är 4,0 kBq. Preparatets halveringstid är 20 minuter.</p>\n<ol><li>Hur stor var aktiviteten 60 minuter tidigare?</li>\n<li>Hur lång tid tar det innan aktiviteten har sjunkit till 500 Bq?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">60 minuter är tre halveringstider.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Bakåt i tiden fördubblas aktiviteten tre gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_{-60}=4{,}0\\cdot2^3=32\\ \\mathrm{kBq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">500 Bq är 0,50 kBq.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Följ tre halveringar från nuvärdet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4{,}0\\to2{,}0\\to1{,}0\\to0{,}50\\ \\mathrm{kBq}\\]</div></div><div class=\"facit-stycke\"><p>Tiden är \\(3\\cdot20=60\\ \\mathrm{min}\\).</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Aktiviteten var \\(32\\ \\mathrm{kBq}\\) 60 minuter tidigare och når \\(500\\ \\mathrm{Bq}\\) efter 60 minuter.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter.</p><p>a) Vilken aktivitet hade preparatet 60 minuter tidigare? Svara i kBq.</p><p>b) Hur lång tid från nu tar det innan aktiviteten är 500 Bq? Svara i minuter.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Bakåt i tiden fördubblas aktiviteten för varje halveringstid.</p><p>\\[60/20=3\\]</p><p>\\[A=4{,}0\\cdot2^3=32\\ \\mathrm{kBq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[500\\ \\mathrm{Bq}=0{,}50\\ \\mathrm{kBq}\\]</p><p>\\[4{,}0\\to2{,}0\\to1{,}0\\to0{,}50\\]</p><p>\\[t=3\\cdot20=60\\ \\mathrm{min}\\]</p></div></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
       "procedur"
@@ -106384,20 +107167,23 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       32,
-      500
+      60
     ],
     "tolerans": [
-      0.48,
-      7.5
+      0.8,
+      1.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
-      null,
-      null
+      "kBq",
+      "min"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -106408,83 +107194,107 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Aktiviteten för ett radioaktivt preparat är 4,0 kBq. Preparatets halveringstid är 20 minuter.</p><div class=\"spel-en-del\">Hur stor var aktiviteten 60 minuter tidigare?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">60 minuter är tre halveringstider.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Bakåt i tiden fördubblas aktiviteten tre gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_{-60}=4{,}0\\cdot2^3=32\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\ \\mathrm{kBq}\\).</p></div>",
-        "ledtrad": "<p>60 minuter är tre halveringstider. Bakåt i tiden fördubblas aktiviteten tre gånger.</p>",
-        "niva": "C"
+        "fraga": "Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter. Vilken aktivitet hade det 60 minuter tidigare? Svara i kBq.",
+        "s": "<div class=\"facit-v2\"><p>Bakåt i tiden fördubblas aktiviteten för varje halveringstid.</p><p>\\[60/20=3\\]</p><p>\\[A=4{,}0\\cdot2^3=32\\ \\mathrm{kBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 32,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.8,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter. Vilken aktivitet hade det 60 minuter tidigare? Svara i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Aktiviteten för ett radioaktivt preparat är 4,0 kBq. Preparatets halveringstid är 20 minuter.</p><div class=\"spel-en-del\">Hur lång tid tar det innan aktiviteten har sjunkit till 500 Bq?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">500 Bq är 0,50 kBq.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Följ tre halveringar från nuvärdet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4{,}0\\to2{,}0\\to1{,}0\\to0{,}50\\ \\mathrm{kBq}\\]</div></div><div class=\"facit-stycke\"><p>Tiden är \\(3\\cdot20=60\\ \\mathrm{min}\\).</p></div></div></div></div></div>",
-        "ledtrad": "<p>500 Bq är 0,50 kBq. Följ tre halveringar från nuvärdet. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C"
+        "fraga": "Ett preparat har aktiviteten 4,0 kBq nu och halveringstiden 20 minuter. Hur lång tid från nu tar det innan aktiviteten är 500 Bq? Svara i minuter.",
+        "s": "<div class=\"facit-v2\"><p>\\[500\\ \\mathrm{Bq}=0{,}50\\ \\mathrm{kBq}\\]</p><p>\\[4{,}0\\to2{,}0\\to1{,}0\\to0{,}50\\]</p><p>\\[t=3\\cdot20=60\\ \\mathrm{min}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 60,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "min",
+        "tolerans": 1.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu och halveringstiden 20 minuter. Hur lång tid från nu tar det innan aktiviteten är 500 Bq? Svara i minuter.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>60 minuter är tre halveringstider. Bakåt i tiden fördubblas aktiviteten tre gånger.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "spelIntro": "<p>Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.139",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "radioaktivt sönderfall och halveringstid",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett preparat har halveringstiden \\(8{,}0\\) dygn och aktiviteten \\(2{,}40\\,\\mathrm{kBq}\\). Bestäm antalet radioaktiva kärnor i preparatet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(A=\\lambda N\\) och \\(\\lambda=\\ln2/T_{1/2}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden måste anges i sekunder när aktiviteten mäts i Bq.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{8\\cdot86400}=1{,}0028\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]\\[N=\\frac{2400}{\\lambda}=2{,}3933\\cdot10^{9}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3933\\cdot10^{9}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett preparat har aktiviteten 2,40 kBq och halveringstiden 8,0 dygn. Hur många radioaktiva kärnor finns i preparatet?</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=8\\cdot86400\\]</p><p>\\[T\\approx691000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/691200\\]</p><p>\\[\\lambda\\approx1\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=2400/\\lambda\\]</p><p>\\[N\\approx2390000000\\]</p></div></p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 2393257949.4298835,
-    "tolerans": 43078643.0897379,
+    "tolerans": 59831448.73574709,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Utgå från \\(A=A_0 2^{-t/T_{1/2}}\\), eller från \\(A=\\lambda N\\) när antalet kärnor efterfrågas.</p>",
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.140",
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "radioaktivt sönderfall och halveringstid",
-    "poang": "(0/2/0)",
-    "t": "<p>En radioaktiv isotop har halveringstiden \\(12\\,\\mathrm h\\). Hur lång tid tar det innan aktiviteten är \\(10\\,\\%\\) av startvärdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös sönderfallslagen för tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}10=2^{-t/12}\\Rightarrow t=39{,}863137\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39{,}863137\\,\\mathrm{h}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Halveringstiden är 12 timmar. Hur lång tid tar det innan aktiviteten är 10 % av startvärdet? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-12\\cdot\\ln(0{,}1)/\\ln2\\]</p><p>\\[t\\approx39{,}9\\ \\mathrm{h}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 39.86313713864835,
-    "tolerans": 0.7175364684956702,
+    "tolerans": 0.9965784284662087,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Utgå från \\(A=A_0 2^{-t/T_{1/2}}\\), eller från \\(A=\\lambda N\\) när antalet kärnor efterfrågas.</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
     "traningsniva": 3,
@@ -106492,7 +107302,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.59",
@@ -108865,40 +109676,39 @@ window.BANK = [
     "id": "9.79",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Många brandvarnare innehåller americium-241 med aktiviteten 37 kBq. Halveringstiden är 432 år.</p>\n<ol><li>Hur stor är aktiviteten efter 10 år?</li><li>Efter 100 år?</li>\n<li>Vad säger det om varför just Am-241 valts?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten följer samma halveringslag som antalet radioaktiva kärnor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=A_0\\,2^{-t/T_{1/2}}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 10 år blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=37\\cdot2^{-10/432}=36{,}4\\ \\mathrm{kBq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 100 år blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=37\\cdot2^{-100/432}=31{,}5\\ \\mathrm{kBq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden är mycket längre än en brandvarares brukstid.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten och därmed jonisationsströmmen förändras därför bara lite under användningen.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Aktiviteten är \\(36{,}4\\ \\mathrm{kBq}\\) efter 10 år och \\(31{,}5\\ \\mathrm{kBq}\\) efter 100 år. Den långa halveringstiden ger stabil funktion.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år.</p><p>a) Bestäm aktiviteten efter 10 år i kBq.</p><p>b) Bestäm aktiviteten efter 100 år i kBq.</p><p>c) Varför är den långa halveringstiden användbar?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-10/432}\\]</p><p>\\[A\\approx36{,}4\\ \\mathrm{kBq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-100/432}\\]</p><p>\\[A\\approx31{,}5\\ \\mathrm{kBq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>En mycket längre halveringstid än brukstiden ger en aktivitet som ändras långsamt. Det hjälper brandvarnaren att fungera stabilt.</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      36.4,
-      null,
+      36.41106962619364,
+      31.515111986810865,
       null
     ],
     "tolerans": [
-      0.5459999999999999,
-      null,
+      0.910276740654841,
+      0.7878777996702717,
       null
     ],
     "självrättning": [
       true,
-      false,
+      true,
       false
     ],
     "svarFormat": [
       "numeriskt",
-      null,
+      "numeriskt",
       null
     ],
     "svarEnhet": [
       "kBq",
-      null,
+      "kBq",
       null
     ],
     "svarsstruktur": "ordnad",
@@ -108908,39 +109718,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Aktiviteten följer samma halveringslag som antalet radioaktiva kärnor.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Många brandvarnare innehåller americium-241 med aktiviteten 37 kBq. Halveringstiden är 432 år.</p>",
+    "spelIntro": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är aktiviteten efter 10 år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten följer samma halveringslag som antalet radioaktiva kärnor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=A_0\\,2^{-t/T_{1/2}}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 10 år blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=37\\cdot2^{-10/432}=36{,}4\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36{,}4\\ \\mathrm{kBq}\\).</p></div>",
-        "ledtrad": "<p>Aktiviteten följer samma halveringslag som antalet radioaktiva kärnor.</p>",
+        "fraga": "En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 10 år i kBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-10/432}\\]</p><p>\\[A\\approx36{,}4\\ \\mathrm{kBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 36.41106962619364,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.910276740654841,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 10 år i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Efter 100 år?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 100 år blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=37\\cdot2^{-100/432}=31{,}5\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(31{,}5\\ \\mathrm{kBq}\\).</p></div>",
-        "ledtrad": "<p>Aktiviteten följer samma halveringslag som antalet radioaktiva kärnor.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 100 år i kBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-100/432}\\]</p><p>\\[A\\approx31{,}5\\ \\mathrm{kBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 31.515111986810865,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.7878777996702717,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 100 år i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vad säger det om varför just Am-241 valts?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden är mycket längre än en brandvarares brukstid.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten och därmed jonisationsströmmen förändras därför bara lite under användningen.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Aktiviteten följer samma halveringslag som antalet radioaktiva kärnor.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Americium-241 har halveringstiden 432 år. Varför är en så lång halveringstid användbar i en brandvarnare?",
+        "s": "<div class=\"facit-v2\"><p>En mycket längre halveringstid än brukstiden ger en aktivitet som ändras långsamt. Det hjälper brandvarnaren att fungera stabilt.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Aktiviteten minskar bara lite under brandvarnarens brukstid.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Aktiviteten minskar bara lite under brandvarnarens brukstid.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Strålningen försvinner efter ett år.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Preparatet behöver aldrig bytas eftersom inga kärnor sönderfaller.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför halveringstiden med några års användning.</p>",
+        "t": "<p>Americium-241 har halveringstiden 432 år. Varför är en så lång halveringstid användbar i en brandvarnare?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -108952,23 +109811,22 @@ window.BANK = [
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "radioaktivt sönderfall och halveringstid",
-    "poang": "(0/2/0)",
-    "t": "<p>Ett kobolt-60-preparat har aktiviteten \\(800\\,\\mathrm{Bq}\\). När aktiviteten har sjunkit till \\(150\\,\\mathrm{Bq}\\), hur lång tid har gått? Halveringstiden är \\(5{,}27\\) år.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd den exponentiella sönderfallslagen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=-5{,}27\\frac{\\ln(150/800)}{\\ln2}=12{,}727248\\ \\mathrm{år}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}727248\\,\\mathrm{år}\\).</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Hur lång tid tar det innan ett preparats aktivitet minskar från 800 Bq till 150 Bq?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5{,}27\\cdot\\ln(0{,}1875)/\\ln2\\]</p><p>\\[t\\approx12{,}7\\ \\mathrm{år}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 12.727247621199508,
-    "tolerans": 0.22909045718159113,
+    "tolerans": 0.5,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Utgå från \\(A=A_0 2^{-t/T_{1/2}}\\), eller från \\(A=\\lambda N\\) när antalet kärnor efterfrågas.</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "år",
     "traningsniva": 3,
@@ -108976,19 +109834,21 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.80",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>Kalium-40 har halveringstiden 1,25 miljarder år. En del av sönderfallen bildar argon-40. En analys visar att en fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov.</p>\n<ol><li>Hur många halveringstider har gått?</li><li>Hur gammalt är berget?</li>\n<li>Vilket antagande måste man göra om argonet för att metoden ska fungera?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En fjärdedel är två successiva halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1\\to\\frac12\\to\\frac14=2^{-2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Åldern är två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=2(1{,}25\\cdot10^9)=2{,}50\\cdot10^9\\ \\mathrm{år}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Man måste känna till hur mycket argon som fanns från början.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Dessutom antar man att allt argon som bildats har stannat kvar i mineralet, och att varken kalium eller argon har tillförts eller försvunnit senare.</p></div><div class=\"facit-stycke\"><p>Argon är en gas och kan läcka ut om bergarten värms; då kan den beräknade åldern bli för låg.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Två halveringstider har gått och berget är cirka \\(2{,}5\\) miljarder år gammalt, förutsatt att systemet varit slutet för kalium och argon.</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vid verklig kalium–argon-datering måste man också ta hänsyn till att endast en del av kalium-40-sönderfallen bildar argon-40.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(3/0/0)",
+    "t": "<p>Kalium-40 har halveringstiden 1,25 miljarder år. En fjärdedel av den ursprungliga mängden finns kvar i ett bergprov. En del av sönderfallen bildar argon-40.</p><p>a) Hur många halveringstider har gått?</p><p>b) Hur gammalt är provet? Svara i miljarder år.</p><p>c) Vilka antaganden om argonet behövs för kalium–argon-datering?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[1\\to1/2\\to1/4\\]</p><p>Två halveringar.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>En fjärdedel återstår efter två halveringstider.</p><p>\\[t=2\\cdot1{,}25=2{,}50\\ \\text{miljarder år}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Man måste kunna skilja startargon från bildat argon. Senare tillförsel eller förlust av kalium eller argon kan ändra den beräknade åldern. I riktig datering räknar man också med att bara en del av K-40-sönderfallen bildar argon.</p></div></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
@@ -108998,8 +109858,8 @@ window.BANK = [
       null
     ],
     "tolerans": [
-      0.06,
-      0.075,
+      0,
+      0.0625,
       null
     ],
     "självrättning": [
@@ -109013,7 +109873,7 @@ window.BANK = [
       null
     ],
     "svarEnhet": [
-      "halveringstider",
+      null,
       "miljarder år",
       null
     ],
@@ -109024,39 +109884,88 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>En fjärdedel är två successiva halveringar. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Kalium-40 har halveringstiden 1,25 miljarder år. En del av sönderfallen bildar argon-40. En analys visar att en fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov.</p>",
+    "spelIntro": "<p>Kalium-40 har halveringstiden 1,25 miljarder år. En fjärdedel av den ursprungliga mängden finns kvar i ett bergprov. En del av sönderfallen bildar argon-40.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många halveringstider har gått?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En fjärdedel är två successiva halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1\\to\\frac12\\to\\frac14=2^{-2}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2^{-2}\\).</p></div>",
-        "ledtrad": "<p>En fjärdedel är två successiva halveringar. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Hur många halveringstider har gått?",
+        "s": "<div class=\"facit-v2\"><p>\\[1\\to1/2\\to1/4\\]</p><p>Två halveringar.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Hur många halveringstider har gått?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur gammalt är berget?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Åldern är två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=2(1{,}25\\cdot10^9)=2{,}50\\cdot10^9\\ \\mathrm{år}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}50\\cdot10^9\\ \\mathrm{år}\\).</p></div>",
-        "ledtrad": "<p>En fjärdedel är två successiva halveringar. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Halveringstiden är 1,25 miljarder år. Hur gammalt är provet? Svara i miljarder år.",
+        "s": "<div class=\"facit-v2\"><p>En fjärdedel återstår efter två halveringstider.</p><p>\\[t=2\\cdot1{,}25=2{,}50\\ \\text{miljarder år}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "miljarder år",
+        "tolerans": 0.0625,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Halveringstiden är 1,25 miljarder år. Hur gammalt är provet? Svara i miljarder år.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vilket antagande måste man göra om argonet för att metoden ska fungera?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Man måste känna till hur mycket argon som fanns från början.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Dessutom antar man att allt argon som bildats har stannat kvar i mineralet, och att varken kalium eller argon har tillförts eller försvunnit senare.</p></div><div class=\"facit-stycke\"><p>Argon är en gas och kan läcka ut om bergarten värms; då kan den beräknade åldern bli för låg.</p></div></div></div></div></div>",
-        "ledtrad": "<p>En fjärdedel är två successiva halveringar. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Vid kalium–argon-datering räknar man med argon som bildats när kalium-40 sönderfaller. Vad måste stämma för att det argonet ska ge rätt ålder?",
+        "s": "<div class=\"facit-v2\"><p>Man måste kunna skilja startargon från bildat argon. Senare tillförsel eller förlust av kalium eller argon kan ändra den beräknade åldern. I riktig datering räknar man också med att bara en del av K-40-sönderfallen bildar argon.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Man måste känna till startmängden argon och hur mycket argon som har stannat kvar.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Man måste känna till startmängden argon och hur mycket argon som har stannat kvar.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Argonet får ha läckt ut utan att man känner till det.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Allt argon får antas vara äldre än bergarten.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 3,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Vad händer med den uppskattade åldern om argon läcker ut?</p>",
+        "t": "<p>Vid kalium–argon-datering räknar man med argon som bildats när kalium-40 sönderfaller. Vad måste stämma för att det argonet ska ge rätt ålder?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
@@ -109067,41 +109976,40 @@ window.BANK = [
     "id": "9.142",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "radioaktivt sönderfall och halveringstid",
-    "poang": "(0/2/0)",
-    "t": "<p>En isotop har halveringstiden \\(6{,}0\\,\\mathrm h\\). Hur många procent av den ursprungliga aktiviteten återstår efter \\(27\\,\\mathrm h\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet halveringstider behöver inte vara ett heltal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{A}{A_0}=2^{-27/6}=0{,}044194\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}419417\\,\\%\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Halveringstiden är 6,0 timmar. Hur många procent av startaktiviteten återstår efter 27 timmar?</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[f=2^{-27/6}\\]</p><p>\\[f\\approx0{,}0442\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[p=100f\\]</p><p>\\[p\\approx4{,}42\\ \\%\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 4.419417382415922,
-    "tolerans": 0.07954951288348659,
+    "tolerans": 0.11048543456039805,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Utgå från \\(A=A_0 2^{-t/T_{1/2}}\\), eller från \\(A=\\lambda N\\) när antalet kärnor efterfrågas.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.81",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p>\n<ol><li>Bestäm sönderfallskonstanten i s⁻¹.</li><li>Bestäm preparatets aktivitet.</li>\n<li>Hur stor är aktiviteten efter 24 dygn?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden i sekunder är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=8{,}0\\cdot86400=6{,}912\\cdot10^5\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=1{,}003\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten fås av \\(A=\\lambda N\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=(1{,}003\\cdot10^{-6})(4{,}2\\cdot10^{15})\\approx4{,}21\\cdot10^9\\ \\mathrm{Bq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_{24}=\\frac{4{,}21}{2^3}\\approx0{,}527\\ \\mathrm{GBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\lambda=1{,}0\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\), begynnelseaktiviteten är \\(4{,}2\\ \\mathrm{GBq}\\) och efter 24 dygn cirka \\(0{,}53\\ \\mathrm{GBq}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En nuklid har halveringstiden 8 dygn. Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Bestäm preparatets aktivitet i GBq.</p><p>c) Bestäm aktiviteten efter 24 dygn i GBq.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=8\\cdot86400\\]</p><p>\\[T\\approx691000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/691200\\]</p><p>\\[\\lambda\\approx1\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx4{,}21\\ \\mathrm{GBq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=A_0/2^3\\]</p><p>\\[A\\approx0{,}526\\ \\mathrm{GBq}\\]</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -109109,16 +110017,20 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1e-06,
-      4.21183182632,
-      0.52647897829
+      1.0028171015045505e-06,
+      4.211831826319112,
+      0.526478978289889
     ],
     "tolerans": [
-      3e-08,
-      0.0632,
-      0.0079
+      5e-08,
+      0.105315,
+      0.013156250000000001
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -109139,79 +110051,113 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Bestäm sönderfallskonstanten i s⁻¹.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden i sekunder är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=8{,}0\\cdot86400=6{,}912\\cdot10^5\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[\\lambda=\\frac{\\ln2}{T_{1/2}}=1{,}003\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}003\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+        "fraga": "En nuklid har halveringstiden 8 dygn. Bestäm sönderfallskonstanten i s⁻¹.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=8\\cdot86400\\]</p><p>\\[T\\approx691000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/691200\\]</p><p>\\[\\lambda\\approx1\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.0028171015045505e-06,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 5e-08,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>En nuklid har halveringstiden 8 dygn. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Bestäm preparatets aktivitet.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten fås av \\(A=\\lambda N\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=(1{,}003\\cdot10^{-6})(4{,}2\\cdot10^{15})\\approx4{,}21\\cdot10^9\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}02\\cdot10^9\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Aktiviteten fås av \\(A=\\lambda N\\). Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor. Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten i GBq.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=1{,}003\\cdot10^{-6}\\cdot4{,}2\\cdot10^{15}\\]</p><p>\\[A\\approx4210000000\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=4212600000/10^9\\]</p><p>\\[A\\approx4{,}21\\ \\mathrm{GBq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.2126,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "GBq",
+        "tolerans": 0.105315,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor. Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten i GBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ kärnor av en nuklid med halveringstiden 8,0 dygn.</p><div class=\"spel-en-del\">Hur stor är aktiviteten efter 24 dygn?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">24 dygn är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_{24}=\\frac{4{,}21}{2^3}\\approx0{,}527\\ \\mathrm{GBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}627\\ \\mathrm{GBq}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Aktiviteten är från början 4,21 GBq. Halveringstiden är 8,0 dygn. Bestäm aktiviteten efter 24 dygn i GBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[24/8=3\\ \\text{halveringstider}\\]</p><p>\\[A=4{,}21/2^3=0{,}52625\\ \\mathrm{GBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.52625,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "GBq",
+        "tolerans": 0.013156250000000001,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Aktiviteten är från början 4,21 GBq. Halveringstiden är 8,0 dygn. Bestäm aktiviteten efter 24 dygn i GBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Omvandla halveringstiden till sekunder och använd λ = ln(2)/T. Koppla sedan sönderfallskonstanten till aktiviteten med A = λN.</p>",
+    "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "spelIntro": "<p>En nuklid har halveringstiden 8 dygn. Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor.</p>",
+    "manuellKomplettering": false
   },
   {
     "id": "9.143",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "koppla halveringstid till sönderfallskonstant",
-    "poang": "(0/1/2)",
-    "t": "<p>En isotop har halveringstiden \\(10\\,\\mathrm h\\). Bestäm sönderfallskonstanten \\(\\lambda\\) i \\(\\mathrm{s^-1}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstid och sönderfallskonstant hänger ihop genom \\(T_{1/2}=\\ln2/\\lambda\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{10\\cdot3600}=1{,}925\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}925\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Halveringstiden är 10 timmar. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[T=10\\cdot3600=36000\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/36000\\]</p><p>\\[\\lambda\\approx1{,}93\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.9254088e-05,
-    "tolerans": 3.4657359e-07,
+    "rättSvar": 1.925408834888737e-05,
+    "tolerans": 5e-07,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Omvandla halveringstiden till sekunder innan du beräknar \\(\\lambda\\).</p>",
+    "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "s⁻¹",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.82",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 200 Bq på 15 timmar.</p>\n<ol><li>Hur många halveringstider motsvarar det?</li><li>Bestäm halveringstiden.</li>\n<li>Vilken aktivitet väntas efter ytterligare 15 timmar?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Följ halveringarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\to400\\to200\\ \\mathrm{Bq}\\]</div></div><div class=\"facit-stycke\"><p>Det är två halveringstider.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två halveringstider tar 15 timmar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=\\frac{15}{2}=7{,}5\\ \\mathrm h\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ytterligare 15 timmar innebär två nya halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\frac{200}{2^2}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Minskningen motsvarar två halveringstider, \\(T_{1/2}=7{,}5\\ \\mathrm h\\), och efter ytterligare 15 h återstår \\(50\\ \\mathrm{Bq}\\).</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Aktiviteten minskar från 800 Bq till 200 Bq på 15 timmar.</p><p>a) Hur många halveringstider har gått?</p><p>b) Bestäm halveringstiden i timmar.</p><p>c) Vilken aktivitet väntas efter ytterligare 15 timmar?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[800\\to400\\to200\\]</p><p>Två halveringar.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[800\\to400\\to200\\]</p><p>\\[T=15/2=7{,}5\\ \\mathrm h\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[15/7{,}5=2\\]</p><p>\\[A=200/2^2=50\\ \\mathrm{Bq}\\]</p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -109219,29 +110165,29 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      2,
       7.5,
-      null
+      50
     ],
     "tolerans": [
-      null,
-      0.112,
-      null
+      0,
+      0.1875,
+      1.25
     ],
     "självrättning": [
-      false,
       true,
-      false
+      true,
+      true
     ],
     "svarFormat": [
-      null,
       "numeriskt",
-      null
+      "numeriskt",
+      "numeriskt"
     ],
     "svarEnhet": [
       null,
       "h",
-      null
+      "Bq"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -109250,38 +110196,74 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 200 Bq på 15 timmar.</p>",
+    "spelIntro": "<p>Aktiviteten minskar från 800 Bq till 200 Bq på 15 timmar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många halveringstider motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Följ halveringarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\to400\\to200\\ \\mathrm{Bq}\\]</div></div><div class=\"facit-stycke\"><p>Det är två halveringstider.</p></div></div></div></div></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Aktiviteten minskar från 800 Bq till 200 Bq. Hur många halveringstider har gått?",
+        "s": "<div class=\"facit-v2\"><p>\\[800\\to400\\to200\\]</p><p>Två halveringar.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Aktiviteten minskar från 800 Bq till 200 Bq. Hur många halveringstider har gått?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm halveringstiden.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två halveringstider tar 15 timmar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=\\frac{15}{2}=7{,}5\\ \\mathrm h\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\mathrm h\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Aktiviteten minskar från 800 Bq till 200 Bq på 15 timmar. Bestäm halveringstiden i timmar.",
+        "s": "<div class=\"facit-v2\"><p>\\[800\\to400\\to200\\]</p><p>\\[T=15/2=7{,}5\\ \\mathrm h\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 7.5,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.1875,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Aktiviteten minskar från 800 Bq till 200 Bq på 15 timmar. Bestäm halveringstiden i timmar.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vilken aktivitet väntas efter ytterligare 15 timmar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ytterligare 15 timmar innebär två nya halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\frac{200}{2^2}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Aktiviteten är 200 Bq nu och halveringstiden är 7,5 timmar. Vilken aktivitet väntas 15 timmar från nu?",
+        "s": "<div class=\"facit-v2\"><p>\\[15/7{,}5=2\\]</p><p>\\[A=200/2^2=50\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 1.25,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Aktiviteten är 200 Bq nu och halveringstiden är 7,5 timmar. Vilken aktivitet väntas 15 timmar från nu?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 1,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
     ]
@@ -109290,216 +110272,354 @@ window.BANK = [
     "id": "9.144",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "summera aktivitet från två isotoper",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett prov innehåller två radioaktiva isotoper. Vid \\(t=0\\) bidrar isotop 1 med \\(1000\\,\\mathrm{Bq}\\) och har halveringstiden \\(4\\,\\mathrm h\\). Isotop 2 bidrar med \\(500\\,\\mathrm{Bq}\\) och har halveringstiden \\(10\\,\\mathrm h\\). Bestäm den totala aktiviteten efter \\(12\\,\\mathrm h\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje isotop sönderfaller enligt sin egen halveringstid.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Total aktivitet är summan av deras aktiviteter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=1000\\cdot2^{-12/4}+500\\,2^{-12/10}=342,6\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(342{,}6\\ \\mathrm{Bq}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov innehåller två radioaktiva ämnen. Från början ger det ena aktiviteten 1000 Bq och det andra 500 Bq. Halveringstiderna är 4 respektive 10 timmar. Bestäm den totala aktiviteten efter 12 timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>De två ämnena halveras i olika takt. Räkna deras aktiviteter var för sig.</p><p><div class=\"facit-v2\"><p>\\[A_1=1000\\cdot2^{-12/4}\\]</p><p>\\[A_1\\approx125\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A_2=500\\cdot2^{-12/10}\\]</p><p>\\[A_2\\approx218\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=A_1+A_2\\]</p><p>\\[A\\approx343\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 342.637641,
-    "tolerans": 6.167478,
+    "rättSvar": 342.637640824031,
+    "tolerans": 8.565941020600775,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Beräkna de två aktiviteternas tidsutveckling var för sig innan du adderar.</p>",
+    "ledtrad": "<p>Beräkna varje ämnes aktivitet efter den givna tiden och addera sedan.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.83",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "åldersbestämma ett fynd med kol-14, ur text, sökt tid",
-    "poang": "(0/2/2)",
-    "t": "<p>Levande trä innehåller en viss halt kol-14. I en träbit från en gravkammare är aktiviteten per gram kol 52 % av den i färskt trä. Kol-14 har halveringstiden 5730 år.</p>\n<ol><li>Bestäm sönderfallskonstanten i år⁻¹.</li>\n<li>Hur gammalt är träet?</li>\n<li>Metoden fungerar inte för fynd som är äldre än ungefär 50 000 år. Varför inte?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sönderfallskonstanten i år⁻¹ är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{5730}=1{,}210\\cdot10^{-4}\\ \\mathrm{år^{-1}}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktivitetskvoten är 0,52.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös exponentiallagen efter tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac A{A_0}=e^{-\\lambda t}=0{,}52\\]\n\\[t=-\\frac{\\ln(0{,}52)}{\\lambda}=5{,}40\\cdot10^3\\ \\mathrm{år}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 50 000 år har nästan nio halveringstider gått.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2^{-50000/5730}=2{,}36\\cdot10^{-3}=0{,}236\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Den lilla kvarvarande signalen blir svår att skilja från bakgrund och påverkas starkt av mycket små föroreningar med yngre kol.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\lambda=1{,}21\\cdot10^{-4}\\ \\mathrm{år^{-1}}\\), och träet är cirka \\(5{,}4\\cdot10^3\\) år gammalt. Mycket gamla prov innehåller för lite kol-14 för säker mätning.</p></div>",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>En gammal träbit har 52 % av kol-14-aktiviteten per gram kol i levande trä. Halveringstiden är 5 730 år.</p><p>a) Bestäm sönderfallskonstanten i år⁻¹.</p><p>b) Bestäm träbitens ålder i år.</p><p>c) Varför blir metoden osäker för mycket gamla prov?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/5730\\]</p><p>\\[\\lambda\\approx0{,}000121\\ \\mathrm{år^{-1}}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[0{,}52=2^{-t/5730}\\]</p><p>\\[\\ln0{,}52=-(t/5730)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}52)/\\ln2\\]</p><p>\\[t\\approx5410\\ \\mathrm{år}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Efter cirka 50 000 år återstår ungefär 0,24 % av startmängden. Den lilla signalen är svår att skilja från bakgrund. Lite yngre kol i provet kan då påverka resultatet mycket.</p></div></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.00012096809433855938,
+      5405.776382460714,
+      null
+    ],
+    "tolerans": [
+      5e-06,
+      135.14440956151785,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Här ska tiden vara i år för att få år⁻¹.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Levande trä innehåller en viss halt kol-14. I en träbit från en gravkammare är aktiviteten per gram kol 52 % av den i färskt trä. Kol-14 har halveringstiden 5730 år.</p>",
+    "spelIntro": "<p>En gammal träbit har 52 % av kol-14-aktiviteten per gram kol i levande trä. Halveringstiden är 5 730 år.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm sönderfallskonstanten i år⁻¹.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sönderfallskonstanten i år⁻¹ är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{\\ln2}{5730}=1{,}210\\cdot10^{-4}\\ \\mathrm{år^{-1}}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}210\\cdot10^{-4}\\ \\mathrm{år^{-1}}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "A"
+        "fraga": "Kol-14 har halveringstiden 5 730 år. Bestäm sönderfallskonstanten i år⁻¹.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/5730\\]</p><p>\\[\\lambda\\approx0{,}000121\\ \\mathrm{år^{-1}}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.00012096809433855938,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år⁻¹",
+        "tolerans": 5e-06,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Här ska tiden vara i år för att få år⁻¹.</p>",
+        "t": "<p>Kol-14 har halveringstiden 5 730 år. Bestäm sönderfallskonstanten i år⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur gammalt är träet?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktivitetskvoten är 0,52.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös exponentiallagen efter tiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac A{A_0}=e^{-\\lambda t}=0{,}52\\]\n\\[t=-\\frac{\\ln(0{,}52)}{\\lambda}=5{,}40\\cdot10^3\\ \\mathrm{år}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}40\\cdot10^3\\ \\mathrm{år}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "A"
+        "fraga": "En gammal träbit har 52 % av kol-14-aktiviteten per gram kol i levande trä. Halveringstiden är 5 730 år. Bestäm träbitens ålder.",
+        "s": "<div class=\"facit-v2\"><p>\\[0{,}52=2^{-t/5730}\\]</p><p>\\[\\ln0{,}52=-(t/5730)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}52)/\\ln2\\]</p><p>\\[t\\approx5410\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5405.776382460714,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 135.14440956151785,
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 3,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>En gammal träbit har 52 % av kol-14-aktiviteten per gram kol i levande trä. Halveringstiden är 5 730 år. Bestäm träbitens ålder.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Metoden fungerar inte för fynd som är äldre än ungefär 50 000 år. Varför inte?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter 50 000 år har nästan nio halveringstider gått.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2^{-50000/5730}=2{,}36\\cdot10^{-3}=0{,}236\\,\\%\\]</div></div><div class=\"facit-stycke\"><p>Den lilla kvarvarande signalen blir svår att skilja från bakgrund och påverkas starkt av mycket små föroreningar med yngre kol.</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}236\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "A"
+        "fraga": "Varför blir kol-14-datering osäker när provet är mycket gammalt?",
+        "s": "<div class=\"facit-v2\"><p>Efter cirka 50 000 år återstår ungefär 0,24 % av startmängden. Den lilla signalen är svår att skilja från bakgrund. Lite yngre kol i provet kan då påverka resultatet mycket.</p></div>",
+        "svarstyp": "alternativ",
+        "rättSvar": "Det finns så lite kol-14 kvar att bakgrund och små föroreningar får stor betydelse.",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Det finns så lite kol-14 kvar att bakgrund och små föroreningar får stor betydelse.",
+            "ratt": true,
+            "kommentar": "Se förklaringen i facit."
+          },
+          {
+            "txt": "Halveringstiden ändras när kolet blir gammalt.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          },
+          {
+            "txt": "Kol-14 börjar bildas snabbare igen efter 50 000 år.",
+            "ratt": false,
+            "kommentar": "Pröva sambandet för de givna villkoren."
+          }
+        ],
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Hur mycket kol-14 återstår efter många halveringstider?</p>",
+        "t": "<p>Varför blir kol-14-datering osäker när provet är mycket gammalt?</p>",
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "manuellKomplettering": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "år⁻¹",
+      "år",
+      null
     ]
   },
   {
     "id": "9.145",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "lösa tid till given aktivitet",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett preparat har aktiviteten \\(1600\\,\\mathrm{Bq}\\) och halveringstiden \\(6\\,\\mathrm h\\). Efter hur lång tid har aktiviteten sjunkit till \\(100\\,\\mathrm{Bq}\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm hur många halveringar som krävs från 1600 till 100 Bq.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1600\\to800\\to400\\to200\\to100\\]\\[t=4\\cdot6=24\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\,\\mathrm h\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett preparat har aktiviteten 1 600 Bq och halveringstiden 6 timmar. Efter hur lång tid är aktiviteten 100 Bq? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[1600\\to800\\to400\\to200\\to100\\]</p><p>Fyra halveringar tar 4 · 6 = 24 timmar.</p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "resonemang",
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 0.432,
+    "tolerans": 0.6000000000000001,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Se om målaktiviteten kan nås genom ett helt antal halveringar innan du använder logaritmer.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.84",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Diagrammet visar två preparat som mäts samtidigt.</p><span class=\"fig bred\"><svg height=\"361\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 0.000 500.000 291.061\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.33333333333334\" x2=\"486\" y2=\"209.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"62.66666666666666\" x2=\"486\" y2=\"62.66666666666666\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.66666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">500</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">600</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A (Bq)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (dygn)</text><polyline points=\"54,26 162,136 270,191 378,218.5 486,232.06666666666666\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"223.06666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">X</text><polyline points=\"54,99.33333333333334 162,122.79999999999998 270,142.23333333333335 378,158.73333333333335 486,172.66666666666669\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"163.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">Y</text></svg></span>\n<ol><li>Bestäm halveringstiden för X.</li><li>Bestäm halveringstiden för Y.</li>\n<li>När är aktiviteterna lika stora? Läs av i diagrammet.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurva X går från 600 till 300 Bq på 20 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2,X}=20\\ \\mathrm{dygn}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurva Y går från 400 till 200 Bq på 80 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2,Y}=80\\ \\mathrm{dygn}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteterna är lika där kurvorna skär varandra.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Avläsningen ger ungefär</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t\\approx26\\ \\mathrm{dygn},\\qquad A\\approx250\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(T_{1/2,X}=20\\ \\mathrm{dygn}\\), \\(T_{1/2,Y}=80\\ \\mathrm{dygn}\\), och aktiviteterna är lika efter cirka 26 dygn.</p></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Diagrammet visar aktiviteterna hos två preparat X och Y.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div><p>a) Bestäm X:s halveringstid i dygn.</p><p>b) Bestäm Y:s halveringstid i dygn.</p><p>c) Efter hur många dygn är aktiviteterna lika stora? Läs av i diagrammet.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>X börjar på 600 Bq och når hälften, 300 Bq, efter 20 dygn.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Y börjar på 400 Bq och når hälften, 200 Bq, efter 80 dygn.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Läs tiden vid kurvornas skärning. De möts efter cirka 16 dygn.</p></div></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      80,
+      15.59900001923083
+    ],
+    "tolerans": [
+      1,
+      2,
+      1.5
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Kurva X går från 600 till 300 Bq på 20 dygn. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
+    "ledtrad": "<p>Läs när X når hälften av sin startaktivitet.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Diagrammet visar två preparat som mäts samtidigt.</p><span class=\"fig bred\"><svg height=\"361\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 0.000 500.000 291.061\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.33333333333334\" x2=\"486\" y2=\"209.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"62.66666666666666\" x2=\"486\" y2=\"62.66666666666666\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.66666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">500</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">600</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A (Bq)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (dygn)</text><polyline points=\"54,26 162,136 270,191 378,218.5 486,232.06666666666666\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"223.06666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">X</text><polyline points=\"54,99.33333333333334 162,122.79999999999998 270,142.23333333333335 378,158.73333333333335 486,172.66666666666669\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"163.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">Y</text></svg></span>",
+    "spelIntro": "<p>Diagrammet visar aktiviteterna hos två preparat X och Y.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm halveringstiden för X.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurva X går från 600 till 300 Bq på 20 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2,X}=20\\ \\mathrm{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{dygn}\\).</p></div>",
-        "ledtrad": "<p>Kurva X går från 600 till 300 Bq på 20 dygn. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm X:s halveringstid i dygn ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>X börjar på 600 Bq och når hälften, 300 Bq, efter 20 dygn.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 20,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "dygn",
+        "tolerans": 1,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Läs när X når hälften av sin startaktivitet.</p>",
+        "t": "<p>Bestäm X:s halveringstid i dygn ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div></p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm halveringstiden för Y.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurva Y går från 400 till 200 Bq på 80 dygn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2,Y}=80\\ \\mathrm{dygn}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\ \\mathrm{dygn}\\).</p></div>",
-        "ledtrad": "<p>Kurva X går från 600 till 300 Bq på 20 dygn. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm Y:s halveringstid i dygn ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>Y börjar på 400 Bq och når hälften, 200 Bq, efter 80 dygn.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 80,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "dygn",
+        "tolerans": 2,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Läs när Y når hälften av sin startaktivitet.</p>",
+        "t": "<p>Bestäm Y:s halveringstid i dygn ur diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div></p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "När är aktiviteterna lika stora? Läs av i diagrammet.",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteterna är lika där kurvorna skär varandra.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Avläsningen ger ungefär</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t\\approx26\\ \\mathrm{dygn},\\qquad A\\approx250\\ \\mathrm{Bq}\\]</div></div></div></div></div></div>",
-        "ledtrad": "<p>Kurva X går från 600 till 300 Bq på 20 dygn. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Efter hur många dygn är X:s och Y:s aktiviteter lika stora? Läs av i diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div>",
+        "s": "<div class=\"facit-v2\"><p>Läs tiden vid kurvornas skärning. De möts efter cirka 16 dygn.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 15.59900001923083,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "dygn",
+        "tolerans": 1.5,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>När kurvorna skär varandra har de samma aktivitet.</p>",
+        "t": "<p>Efter hur många dygn är X:s och Y:s aktiviteter lika stora? Läs av i diagrammet.<div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"125.625\" y1=\"30\" x2=\"125.625\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"125.625\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"191.25\" y1=\"30\" x2=\"191.25\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"191.25\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"256.875\" y1=\"30\" x2=\"256.875\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"256.875\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"388.125\" y1=\"30\" x2=\"388.125\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"388.125\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"453.75\" y1=\"30\" x2=\"453.75\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"453.75\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"519.375\" y1=\"30\" x2=\"519.375\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"519.375\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">70</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">80</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"250.83333333333334\" x2=\"585\" y2=\"250.83333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"255.83333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">100</text><line x1=\"60\" y1=\"206.66666666666669\" x2=\"585\" y2=\"206.66666666666669\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"211.66666666666669\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">300</text><line x1=\"60\" y1=\"118.33333333333334\" x2=\"585\" y2=\"118.33333333333334\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"123.33333333333334\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"74.16666666666666\" x2=\"585\" y2=\"74.16666666666666\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"79.16666666666666\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">500</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (dygn)</text><polyline points=\"60.00,30.00 63.28,34.55 66.56,39.03 69.84,43.42 73.12,47.75 76.41,51.99 79.69,56.17 82.97,60.27 86.25,64.30 89.53,68.27 92.81,72.16 96.09,75.99 99.38,79.75 102.66,83.45 105.94,87.09 109.22,90.66 112.50,94.17 115.78,97.62 119.06,101.01 122.34,104.34 125.62,107.62 128.91,110.84 132.19,114.00 135.47,117.11 138.75,120.17 142.03,123.17 145.31,126.12 148.59,129.02 151.88,131.87 155.16,134.68 158.44,137.43 161.72,140.14 165.00,142.80 168.28,145.41 171.56,147.98 174.84,150.51 178.12,152.99 181.41,155.43 184.69,157.83 187.97,160.18 191.25,162.50 194.53,164.78 197.81,167.01 201.09,169.21 204.38,171.37 207.66,173.50 210.94,175.58 214.22,177.64 217.50,179.65 220.78,181.63 224.06,183.58 227.34,185.50 230.62,187.38 233.91,189.23 237.19,191.04 240.47,192.83 243.75,194.58 247.03,196.31 250.31,198.00 253.59,199.67 256.88,201.31 260.16,202.92 263.44,204.50 266.72,206.05 270.00,207.58 273.28,209.08 276.56,210.56 279.84,212.01 283.12,213.44 286.41,214.84 289.69,216.22 292.97,217.57 296.25,218.90 299.53,220.21 302.81,221.49 306.09,222.75 309.38,224.00 312.66,225.21 315.94,226.41 319.22,227.59 322.50,228.75 325.78,229.89 329.06,231.01 332.34,232.11 335.62,233.19 338.91,234.25 342.19,235.29 345.47,236.32 348.75,237.33 352.03,238.32 355.31,239.29 358.59,240.25 361.88,241.19 365.16,242.11 368.44,243.02 371.72,243.91 375.00,244.79 378.28,245.65 381.56,246.50 384.84,247.34 388.12,248.15 391.41,248.96 394.69,249.75 397.97,250.53 401.25,251.29 404.53,252.04 407.81,252.78 411.09,253.51 414.38,254.22 417.66,254.92 420.94,255.61 424.22,256.28 427.50,256.95 430.78,257.60 434.06,258.25 437.34,258.88 440.62,259.50 443.91,260.11 447.19,260.71 450.47,261.30 453.75,261.88 457.03,262.44 460.31,263.00 463.59,263.55 466.88,264.09 470.16,264.62 473.44,265.15 476.72,265.66 480.00,266.16 483.28,266.66 486.56,267.15 489.84,267.62 493.12,268.09 496.41,268.56 499.69,269.01 502.97,269.46 506.25,269.90 509.53,270.33 512.81,270.75 516.09,271.17 519.38,271.58 522.66,271.98 525.94,272.37 529.22,272.76 532.50,273.15 535.78,273.52 539.06,273.89 542.34,274.25 545.62,274.61 548.91,274.96 552.19,275.30 555.47,275.64 558.75,275.97 562.03,276.30 565.31,276.62 568.59,276.94 571.88,277.25 575.16,277.55 578.44,277.85 581.72,278.15 585.00,278.44\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/><text x=\"600\" y=\"283.44\" font-size=\"19\" fill=\"#bc3f34\">X</text><polyline points=\"60.00,118.33 63.28,119.10 66.56,119.86 69.84,120.61 73.12,121.37 76.41,122.12 79.69,122.87 82.97,123.61 86.25,124.35 89.53,125.09 92.81,125.82 96.09,126.55 99.38,127.28 102.66,128.01 105.94,128.73 109.22,129.45 112.50,130.16 115.78,130.88 119.06,131.59 122.34,132.29 125.62,133.00 128.91,133.70 132.19,134.39 135.47,135.09 138.75,135.78 142.03,136.47 145.31,137.15 148.59,137.84 151.88,138.51 155.16,139.19 158.44,139.86 161.72,140.54 165.00,141.20 168.28,141.87 171.56,142.53 174.84,143.19 178.12,143.84 181.41,144.50 184.69,145.15 187.97,145.80 191.25,146.44 194.53,147.08 197.81,147.72 201.09,148.36 204.38,148.99 207.66,149.62 210.94,150.25 214.22,150.88 217.50,151.50 220.78,152.12 224.06,152.74 227.34,153.35 230.62,153.97 233.91,154.58 237.19,155.18 240.47,155.79 243.75,156.39 247.03,156.99 250.31,157.59 253.59,158.18 256.88,158.77 260.16,159.36 263.44,159.95 266.72,160.53 270.00,161.11 273.28,161.69 276.56,162.27 279.84,162.84 283.12,163.41 286.41,163.98 289.69,164.55 292.97,165.11 296.25,165.67 299.53,166.23 302.81,166.79 306.09,167.34 309.38,167.89 312.66,168.44 315.94,168.99 319.22,169.54 322.50,170.08 325.78,170.62 329.06,171.16 332.34,171.69 335.62,172.22 338.91,172.75 342.19,173.28 345.47,173.81 348.75,174.33 352.03,174.85 355.31,175.37 358.59,175.89 361.88,176.41 365.16,176.92 368.44,177.43 371.72,177.94 375.00,178.44 378.28,178.95 381.56,179.45 384.84,179.95 388.12,180.45 391.41,180.94 394.69,181.43 397.97,181.93 401.25,182.41 404.53,182.90 407.81,183.39 411.09,183.87 414.38,184.35 417.66,184.83 420.94,185.30 424.22,185.78 427.50,186.25 430.78,186.72 434.06,187.19 437.34,187.65 440.62,188.12 443.91,188.58 447.19,189.04 450.47,189.50 453.75,189.95 457.03,190.41 460.31,190.86 463.59,191.31 466.88,191.76 470.16,192.20 473.44,192.65 476.72,193.09 480.00,193.53 483.28,193.97 486.56,194.41 489.84,194.84 493.12,195.27 496.41,195.71 499.69,196.14 502.97,196.56 506.25,196.99 509.53,197.41 512.81,197.83 516.09,198.25 519.38,198.67 522.66,199.09 525.94,199.50 529.22,199.92 532.50,200.33 535.78,200.74 539.06,201.14 542.34,201.55 545.62,201.95 548.91,202.36 552.19,202.76 555.47,203.15 558.75,203.55 562.03,203.95 565.31,204.34 568.59,204.73 571.88,205.12 575.16,205.51 578.44,205.90 581.72,206.28 585.00,206.67\" fill=\"none\" stroke=\"#245ea3\" stroke-width=\"3\"/><text x=\"600\" y=\"211.67\" font-size=\"19\" fill=\"#245ea3\">Y</text></svg></div></p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "dygn",
+      "dygn",
+      "dygn"
     ]
   },
   {
     "id": "9.146",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "bestämma halveringstid från två mätningar utan känt startvärde",
-    "poang": "(0/1/2)",
-    "t": "<p>Aktiviteten hos ett preparat mäts till \\(600\\,\\mathrm{Bq}\\) efter \\(3{,}5\\,\\mathrm h\\) och till \\(300\\,\\mathrm{Bq}\\) efter \\(9{,}0\\,\\mathrm h\\). Startaktiviteten är okänd. Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det behövs inget startvärde.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför de två mätningarna direkt: aktiviteten halveras mellan dem.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{A_2}{A_1}=\\frac{300}{600}=\\frac12,\\qquad\\Delta t=9{,}0-3{,}5=5{,}5\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}5\\,\\mathrm h\\).</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Aktiviteten är 600 Bq vid tiden 3,5 timmar och 300 Bq vid tiden 9,0 timmar. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[T=9{,}0-3{,}5=5{,}5\\ \\mathrm h\\]</p><p></p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 5.5,
-    "tolerans": 0.099,
+    "tolerans": 0.1375,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför mätningarna med varandra i stället för att försöka bestämma startaktiviteten.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "traningsniva": 4,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.85",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett preparat har aktiviteten 4,0 kBq. Halveringstiden är 6,0 timmar.</p>\n<ol><li>Bestäm sönderfallskonstanten i s⁻¹.</li><li>Hur många kärnor finns kvar av ämnet?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv halveringstiden i sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=6{,}0\\cdot3600=21600\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[\\lambda=\\frac{\\ln2}{21600}=3{,}21\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur \\(A=\\lambda N\\) fås</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac A\\lambda=\\frac{4{,}0\\cdot10^3}{3{,}21\\cdot10^{-5}}=1{,}25\\cdot10^8\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\lambda=3{,}2\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\), och preparatet innehåller cirka \\(1{,}2\\cdot10^8\\) radioaktiva kärnor.</p></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En nuklid har halveringstiden 6,0 timmar. Ett preparat har aktiviteten 4000 Bq.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Hur många radioaktiva kärnor finns i preparatet?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=6{,}0\\cdot3600\\]</p><p>\\[T\\approx21600\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/21600\\]</p><p>\\[\\lambda\\approx3{,}21\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[N=4000/\\lambda\\]</p><p>\\[N\\approx125000000\\]</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -109511,17 +110631,20 @@ window.BANK = [
       124648851.53280644
     ],
     "tolerans": [
-      1e-06,
-      6000000
+      8.022536812036404e-07,
+      5000000.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
       "s⁻¹",
-      "kärnor"
+      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -109532,244 +110655,127 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett preparat har aktiviteten 4,0 kBq. Halveringstiden är 6,0 timmar.</p><div class=\"spel-en-del\">Bestäm sönderfallskonstanten i s⁻¹.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv halveringstiden i sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=6{,}0\\cdot3600=21600\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><p>\\[\\lambda=\\frac{\\ln2}{21600}=3{,}21\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]</p></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}21\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "En nuklid har halveringstiden 6,0 timmar. Bestäm sönderfallskonstanten i s⁻¹.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=6{,}0\\cdot3600\\]</p><p>\\[T\\approx21600\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/21600\\]</p><p>\\[\\lambda\\approx3{,}21\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.2090147248145615e-05,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 8.022536812036404e-07,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>En nuklid har halveringstiden 6,0 timmar. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Ett preparat har aktiviteten 4,0 kBq. Halveringstiden är 6,0 timmar.</p><div class=\"spel-en-del\">Hur många kärnor finns kvar av ämnet?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ur \\(A=\\lambda N\\) fås</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac A\\lambda=\\frac{4{,}0\\cdot10^3}{3{,}21\\cdot10^{-5}}=1{,}25\\cdot10^8\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}25\\cdot10^8\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C"
+        "fraga": "Ett preparat har aktiviteten 4000 Bq och sönderfallskonstanten 3,209·10⁻⁵ s⁻¹. Hur många radioaktiva kärnor finns i preparatet?",
+        "s": "<div class=\"facit-v2\"><p>\\[N=4000/3{,}209\\cdot10^{-5}\\]</p><p>\\[N\\approx125000000\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 124649423.49641633,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 5000000.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett preparat har aktiviteten 4000 Bq och sönderfallskonstanten 3,209·10⁻⁵ s⁻¹. Hur många radioaktiva kärnor finns i preparatet?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Omvandla halveringstiden till sekunder och använd λ = ln(2)/T. Koppla sedan sönderfallskonstanten till aktiviteten med A = λN.</p>",
+    "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "spelIntro": "<p>En nuklid har halveringstiden 0,25 dygn. Ett preparat har aktiviteten 4000 Bq.</p>",
+    "manuellKomplettering": false,
+    "fraga": ""
   },
   {
     "id": "9.147",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "summera aktivitet från två isotoper",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett prov innehåller två radioaktiva isotoper. Vid \\(t=0\\) bidrar isotop 1 med \\(1000\\,\\mathrm{Bq}\\) och har halveringstiden \\(4\\,\\mathrm h\\). Isotop 2 bidrar med \\(500\\,\\mathrm{Bq}\\) och har halveringstiden \\(10\\,\\mathrm h\\). Bestäm den totala aktiviteten efter \\(18\\,\\mathrm h\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje isotop sönderfaller enligt sin egen halveringstid.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Total aktivitet är summan av deras aktiviteter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=1000\\cdot2^{-18/4}+500\\,2^{-18/10}=187,8\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(187{,}8\\ \\mathrm{Bq}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov innehåller två radioaktiva ämnen. Från början ger det ena aktiviteten 1000 Bq och det andra 500 Bq. Halveringstiderna är 4 respektive 10 timmar. Bestäm den totala aktiviteten efter 18 timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>De två ämnena halveras i olika takt. Räkna deras aktiviteter var för sig.</p><p><div class=\"facit-v2\"><p>\\[A_1=1000\\cdot2^{-18/4}\\]</p><p>\\[A_1\\approx44{,}2\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A_2=500\\cdot2^{-18/10}\\]</p><p>\\[A_2\\approx144\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=A_1+A_2\\]</p><p>\\[A\\approx188\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "numeriskt",
-    "rättSvar": 187.781468,
-    "tolerans": 3.380066,
+    "rättSvar": 187.78146819878856,
+    "tolerans": 5.0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Beräkna de två aktiviteternas tidsutveckling var för sig innan du adderar.</p>",
+    "ledtrad": "<p>Beräkna varje ämnes aktivitet efter den givna tiden och addera sedan.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.148",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "aktivitet från provmassa och halveringstid",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett prov innehåller \\(1{,}0\\,\\mu\\mathrm g\\) natrium-24. Anta molmassan \\(24\\,\\mathrm{g/mol}\\), halveringstiden \\(15\\,\\mathrm h\\) och \\(N_A=6{,}022\\cdot10^{23}\\,\\mathrm{mol^{-1}}\\). Bestäm provets aktivitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gå från massa till antal kärnor och använd sedan \\(A=\\lambda N\\) med \\(\\lambda=\\ln2/T_{1/2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{10^{-6}}{24}N_A=2{,}5092\\cdot10^{16}\\]\\[\\lambda=\\frac{\\ln2}{15\\cdot3600}=1{,}2836\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]\\[A=3{,}2208\\cdot10^{11}\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2208\\cdot10^{11}\\,\\mathrm{Bq}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov innehåller 1,0 µg natrium-24. Molmassan är 24 g/mol och halveringstiden är 15 timmar. Avogadros konstant är 6,022·10²³ mol⁻¹. Bestäm aktiviteten i Bq.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omvandla massan till gram för att använda molmassan.</p><p>\\[m=1{,}0\\cdot10^{-6}\\ \\mathrm g\\]</p><p><div class=\"facit-v2\"><p>\\[n=10^{-6}/24\\]</p><p>\\[n\\approx4{,}17\\cdot10^{-8}\\ \\mathrm{mol}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=nN_A\\]</p><p>\\[N\\approx2{,}51\\cdot10^{16}\\]</p></div></p><p>\\[T=15\\cdot3600=54000\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/54000\\]</p><p>\\[\\lambda\\approx1{,}28\\cdot10^{-5}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx322000000000\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "aktivitet__aktivitet_antal_karnor_och_halveringstid",
     "svarstyp": "numeriskt",
     "rättSvar": 322078111213.8881,
-    "tolerans": 5797406001.849986,
+    "tolerans": 8051952780.347203,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Tre steg: massa → substansmängd → antal kärnor → aktivitet.</p>",
+    "ledtrad": "<p>Massa och molmassa ger antalet kärnor. Halveringstiden ger sönderfallskonstanten.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.86",
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "beräkna aktivitet efter ett helt antal halveringstider, ur text, sökt antal och aktivitet",
     "poang": "(2/0/0)",
-    "t": "<p>Ett preparat har aktiviteten 6,4 kBq och halveringstiden 3,0 timmar.</p>\n<ol><li>Hur många halveringstider är 12 timmar?</li>\n<li>Vilken aktivitet har preparatet efter 12 timmar?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet halveringstider är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[j=\\frac{t}{T_{1/2}}=\\frac{12}{3{,}0}=4\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten halveras fyra gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=6{,}4\\cdot2^{-4}=\\frac{6{,}4}{16}=0{,}40\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12 timmar är fyra halveringstider, och då återstår \\(0{,}40\\ \\mathrm{kBq}=400\\ \\mathrm{Bq}\\).</p></div>",
-    "familj": "Halveringstid i hela steg",
-    "formaga": [
-      "procedur"
-    ],
-    "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett preparat har aktiviteten 6,4 kBq och halveringstiden 3,0 timmar.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur många halveringstider är 12 timmar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet halveringstider är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[j=\\frac{t}{T_{1/2}}=\\frac{12}{3{,}0}=4\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken aktivitet har preparatet efter 12 timmar?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten halveras fyra gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=6{,}4\\cdot2^{-4}=\\frac{6{,}4}{16}=0{,}40\\ \\mathrm{kBq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm{kBq}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "geogebra": false,
-    "miniräknare": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": false,
-    "manuellKomplettering": true,
-    "familjTidigare": [
-      "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
-  },
-  {
-    "id": "9.149",
-    "kap": 9,
-    "omr": "aktivitet",
-    "niva": "A",
-    "typ": "summa av aktiviteter från två isotoper",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett prov innehåller två radioaktiva isotoper. Vid \\(t=0\\) bidrar isotop A med \\(600\\,\\mathrm{Bq}\\) och har halveringstiden \\(2{,}0\\,\\mathrm h\\). Isotop B bidrar med \\(400\\,\\mathrm{Bq}\\) och har halveringstiden \\(8{,}0\\,\\mathrm h\\). Bestäm provets totala aktivitet efter \\(4{,}0\\,\\mathrm h\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">De två isotoperna sönderfaller oberoende.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna deras aktiviteter var för sig och addera.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_A=600\\cdot2^{-4/2}=150\\,\\mathrm{Bq}\\]\\[A_B=400\\cdot2^{-4/8}=282{,}842712\\,\\mathrm{Bq}\\]\\[A=432{,}842712\\,\\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(432{,}842712\\,\\mathrm{Bq}\\).</p></div>",
-    "familj": "Sönderfallslagen och datering",
-    "formaga": [
-      "resonemang",
-      "modellering"
-    ],
-    "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
-    "svarstyp": "numeriskt",
-    "rättSvar": 432.842712474619,
-    "tolerans": 7.791168824543142,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>Isotoperna har olika halveringstid, så deras aktiviteter måste utvecklas var för sig.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "Bq",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Aktivitet och halveringstid"
-    ]
-  },
-  {
-    "id": "9.87",
-    "kap": 9,
-    "omr": "aktivitet",
-    "niva": "C",
-    "typ": "bestämma halveringstid ur två aktivitetsmätningar med logaritm, ur text, sökt halveringstid",
-    "poang": "(1/2/0)",
-    "t": "<p>Aktiviteten hos ett preparat sjunker från 5,0 kBq till 1,2 kBq under 30 timmar.</p>\n<p>Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in aktivitetskvoten i halveringslagen.</p><div class=\"facit-matte\">\\[\\frac{1{,}2}{5{,}0}=2^{-30/T_{1/2}}\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Ta logaritmen av båda leden och lös ut halveringstiden.</p><div class=\"facit-matte\">\\[\\ln(0{,}24)=-\\frac{30}{T_{1/2}}\\ln2\\]\\[T_{1/2}=-\\frac{30\\ln2}{\\ln(0{,}24)}=14{,}57\\ \\mathrm h\\]</div></div></div><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontroll: två halveringstider är 29,1 h och skulle ge 1,25 kBq, nära 1,2 kBq efter 30 h.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Halveringstiden är cirka \\(14{,}6\\ \\mathrm h\\).</p></div>",
-    "familj": "Halveringstid ur diagram och mätdata",
-    "formaga": [
-      "procedur"
-    ],
-    "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "numeriskt",
-    "rättSvar": 14.6,
-    "tolerans": 0.219,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "h",
-    "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Sätt in aktivitetskvoten i halveringslagen. Uttryck tiden i antal halveringstider eller använd exponentialformen.</p>",
-    "geogebra": false,
-    "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
-  },
-  {
-    "id": "9.150",
-    "kap": 9,
-    "omr": "aktivitet",
-    "niva": "A",
-    "typ": "summera aktivitet från två isotoper",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett prov innehåller två radioaktiva isotoper. Vid \\(t=0\\) bidrar isotop 1 med \\(1000\\,\\mathrm{Bq}\\) och har halveringstiden \\(4\\,\\mathrm h\\). Isotop 2 bidrar med \\(500\\,\\mathrm{Bq}\\) och har halveringstiden \\(10\\,\\mathrm h\\). Bestäm den totala aktiviteten efter \\(16\\,\\mathrm h\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje isotop sönderfaller enligt sin egen halveringstid.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Total aktivitet är summan av deras aktiviteter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=1000\\cdot2^{-16/4}+500\\,2^{-16/10}=227,4\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(227{,}4\\ \\mathrm{Bq}\\).</p></div>",
-    "familj": "Sönderfallslagen och datering",
-    "formaga": [
-      "resonemang",
-      "modellering"
-    ],
-    "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
-    "svarstyp": "numeriskt",
-    "rättSvar": 227.438489,
-    "tolerans": 4.093893,
-    "självrättning": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>Beräkna de två aktiviteternas tidsutveckling var för sig innan du adderar.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "Bq",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
-  },
-  {
-    "id": "9.88",
-    "kap": 9,
-    "omr": "aktivitet",
-    "niva": "C",
-    "typ": "bestämma antal halveringstider och total tid ur aktivitetens minskning, ur text, sökt antal och tid",
-    "poang": "(2/1/0)",
-    "t": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 50 Bq. Halveringstiden är 20 minuter.</p>\n<ol><li>Hur många gånger har aktiviteten minskat?</li>\n<li>Hur många halveringstider motsvarar det?</li>\n<li>Hur lång tid har gått?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Minskningsfaktorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{800}{50}=16\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(16=2^4\\) motsvarar minskningen fyra halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\cdot2^{-4}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tiden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=4(20)=80\\ \\mathrm{min}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Aktiviteten har minskat 16 gånger, vilket är fyra halveringstider eller \\(80\\ \\mathrm{min}\\).</p></div>",
+    "t": "<p>Ett preparat har startaktiviteten 6,4 kBq och halveringstiden 3,0 timmar.</p><p>a) Hur många halveringstider är 12 timmar?</p><p>b) Bestäm aktiviteten efter 12 timmar i kBq.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=12/3{,}0=4\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[12/3{,}0=4\\]</p><p>\\[A=6{,}4/2^4=0{,}40\\ \\mathrm{kBq}\\]</p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -109777,23 +110783,210 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
+      4,
+      0.4
+    ],
+    "tolerans": [
+      0,
+      0.010000000000000002
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett preparat har startaktiviteten 6,4 kBq och halveringstiden 3,0 timmar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Halveringstiden är 3,0 timmar. Hur många halveringstider är 12 timmar?",
+        "s": "<div class=\"facit-v2\"><p>\\[n=12/3{,}0=4\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Halveringstiden är 3,0 timmar. Hur många halveringstider är 12 timmar?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett preparat har aktiviteten 6,4 kBq från början och halveringstiden 3,0 timmar. Bestäm aktiviteten efter 12 timmar i kBq.",
+        "s": "<div class=\"facit-v2\"><p>\\[12/3{,}0=4\\]</p><p>\\[A=6{,}4/2^4=0{,}40\\ \\mathrm{kBq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kBq",
+        "tolerans": 0.010000000000000002,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har aktiviteten 6,4 kBq från början och halveringstiden 3,0 timmar. Bestäm aktiviteten efter 12 timmar i kBq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      }
+    ],
+    "geogebra": false,
+    "miniräknare": true,
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false,
+    "familjTidigare": [
+      "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
       null,
-      null,
+      "kBq"
+    ]
+  },
+  {
+    "id": "9.149",
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov innehåller två radioaktiva ämnen. Från början ger det ena aktiviteten 600 Bq och det andra 400 Bq. Halveringstiderna är 2 respektive 8 timmar. Bestäm den totala aktiviteten efter 4 timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>De två ämnena halveras i olika takt. Räkna deras aktiviteter var för sig.</p><p><div class=\"facit-v2\"><p>\\[A_1=600\\cdot2^{-4/2}\\]</p><p>\\[A_1\\approx150\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A_2=400\\cdot2^{-4/8}\\]</p><p>\\[A_2\\approx283\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=A_1+A_2\\]</p><p>\\[A\\approx433\\ \\mathrm{Bq}\\]</p></div></p></div>",
+    "familj": "Sönderfallslagen och datering",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "familjNyckel": "aktivitet__aktivitet_och_halveringstid",
+    "svarstyp": "numeriskt",
+    "rättSvar": 432.842712474619,
+    "tolerans": 10.821067811865476,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Beräkna varje ämnes aktivitet efter den givna tiden och addera sedan.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Bq",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "familjTidigare": [
+      "Aktivitet och halveringstid"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.87",
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Aktiviteten minskar från 5,0 kBq till 1,2 kBq på 30 timmar. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[1{,}2/5{,}0=2^{-30/T}\\]</p><p>\\[\\ln(0{,}24)=-(30/T)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[T=-30\\ln2/\\ln(0{,}24)\\]</p><p>\\[T\\approx14{,}6\\ \\mathrm{h}\\]</p></div></p></div>",
+    "familj": "Halveringstid ur diagram och mätdata",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.570932029905043,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h",
+    "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
+    "ledtrad": "<p>Lös ut halveringstiden ur aktivitetskvoten och den kända tiden.</p>",
+    "geogebra": false,
+    "miniräknare": true,
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "familjTidigare": [
+      "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.150",
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov innehåller två radioaktiva ämnen med halveringstiderna 4 respektive 10 timmar. Efter 16 timmar är deras sammanlagda aktivitet 227,44 Bq. Det första ämnet hade aktiviteten 1 000 Bq från början. Vilken var det andra ämnets startaktivitet?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[A_1=1000\\cdot2^{-16/4}=62{,}5\\ \\mathrm{Bq}\\]</p><p>\\[A_2=227{,}44-62{,}5=164{,}94\\ \\mathrm{Bq}\\]</p><p><div class=\"facit-v2\"><p>\\[A_{2,0}=164{,}94/2^{-16/10}\\]</p><p>\\[A_{2,0}\\approx500\\ \\mathrm{Bq}\\]</p></div></p></div>",
+    "familj": "Sönderfallslagen och datering",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
+    "svarstyp": "numeriskt",
+    "rättSvar": 500.00458096045014,
+    "tolerans": 12.500114524011254,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Räkna bort det första ämnets aktivitet. Räkna sedan bakåt för det andra.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Bq",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "familjTidigare": [
+      "Radioaktivt sönderfall, aktivitet och halveringstid"
+    ],
+    "manuellKomplettering": false
+  },
+  {
+    "id": "9.88",
+    "kap": 9,
+    "omr": "aktivitet",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter.</p><p>a) Med vilken faktor har aktiviteten minskat?</p><p>b) Hur många halveringstider har gått?</p><p>c) Hur lång tid har gått? Svara i minuter.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[800/50=16\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[800\\to400\\to200\\to100\\to50\\]</p><p>Fyra halveringar.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Fyra halveringar ger 800 → 400 → 200 → 100 → 50 Bq.</p><p>\\[t=4\\cdot20=80\\ \\mathrm{min}\\]</p></div></div>",
+    "familj": "Halveringstid i hela steg",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      16,
+      4,
       80
     ],
     "tolerans": [
-      null,
-      null,
-      1.2
+      0,
+      0,
+      2.0
     ],
     "självrättning": [
-      false,
-      false,
+      true,
+      true,
       true
     ],
     "svarFormat": [
-      null,
-      null,
+      "numeriskt",
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
@@ -109808,41 +111001,74 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
-    "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Aktiviteten hos ett preparat sjunker från 800 Bq till 50 Bq. Halveringstiden är 20 minuter.</p>",
+    "spelIntro": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många gånger har aktiviteten minskat?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Minskningsfaktorn är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{800}{50}=16\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+        "fraga": "Aktiviteten minskar från 800 Bq till 50 Bq. Med vilken faktor har den minskat?",
+        "s": "<div class=\"facit-v2\"><p>\\[800/50=16\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 16,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Med vilken faktor har den minskat?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många halveringstider motsvarar det?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(16=2^4\\) motsvarar minskningen fyra halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\cdot2^{-4}=50\\ \\mathrm{Bq}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{Bq}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
+        "fraga": "Aktiviteten minskar från 800 Bq till 50 Bq. Hur många halveringstider har gått?",
+        "s": "<div class=\"facit-v2\"><p>\\[800\\to400\\to200\\to100\\to50\\]</p><p>Fyra halveringar.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Hur många halveringstider har gått?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång tid har gått?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tiden blir</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=4(20)=80\\ \\mathrm{min}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\ \\mathrm{min}\\).</p></div>",
-        "ledtrad": "<p>Uttryck tiden i antal halveringstider eller använd exponentialformen. Efter \\(n\\) halveringstider återstår andelen \\((1/2)^n\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter. Hur lång tid har gått? Svara i minuter.",
+        "s": "<div class=\"facit-v2\"><p>Fyra halveringar ger 800 → 400 → 200 → 100 → 50 Bq.</p><p>\\[t=4\\cdot20=80\\ \\mathrm{min}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 80,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "min",
+        "tolerans": 2.0,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter. Hur lång tid har gått? Svara i minuter.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
     ]
@@ -109851,24 +111077,23 @@ window.BANK = [
     "id": "9.151",
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "kol-14-datering med modern förorening",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett gammalt kolprov mäts till \\(60\\,\\%\\) av aktiviteten hos levande material. Man upptäcker att \\(10\\,\\%\\) av kolet i provet är modern förorening med full kol-14-aktivitet. Anta att resterande \\(90\\,\\%\\) är det ursprungliga provet och använd halveringstiden \\(5730\\) år. Bestäm åldern hos den gamla delen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den uppmätta aktiviteten är ett viktat medelvärde av modernt och gammalt kol.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Korrigera först aktivitetsandelen och använd sedan sönderfallslagen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}60=0{,}10\\cdot1+0{,}90f\\Rightarrow f=0{,}555556\\]\\[t=-5730\\frac{\\ln f}{\\ln2}=4859{,}022275\\ \\mathrm{år}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(4859{,}022275\\,\\mathrm{år}\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett gammalt kolprov har blandats med yngre kol. 10 % av kolets massa är nytt kol med samma kol-14-aktivitet per gram som levande material. Resten är gammalt kol. Blandningens aktivitet per gram är 60 % av värdet för levande material. Kol-14 har halveringstiden 5 730 år. Hur gammalt är det gamla kolet?</p>",
+    "s": "<div class=\"facit-v2\"><p>Låt f vara aktivitetsandelen i det gamla kolet. Blandningens två bidrag ger</p><p>\\[0{,}60=0{,}10\\cdot1+0{,}90f\\]</p><p>\\[f=(0{,}60-0{,}10)/0{,}90=5/9\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(5/9)/\\ln2\\]</p><p>\\[t\\approx4860\\ \\mathrm{år}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "familjNyckel": "aktivitet__kol_14_datering_och_modellkorrigering",
     "svarstyp": "numeriskt",
     "rättSvar": 4859.022274559863,
-    "tolerans": 87.46240094207752,
+    "tolerans": 121.47555686399659,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Korrigera först den uppmätta aktivitetsandelen för den moderna delen. Datera sedan bara den gamla delen.</p>",
+    "ledtrad": "<p>Räkna bort bidraget från det nya kolet innan du daterar det gamla.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "år",
     "traningsniva": 4,
@@ -109876,7 +111101,8 @@ window.BANK = [
     "spel": true,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.89",
@@ -152805,7 +154031,7 @@ window.BANK = [
       {
         "txt": "sievert (Sv)",
         "ratt": false,
-        "kommentar": "Sv är ekvivalent/effectiv dos."
+        "kommentar": "Sv är enheten för ekvivalent eller effektiv stråldos."
       },
       {
         "txt": "joule (J)",
@@ -152813,7 +154039,7 @@ window.BANK = [
         "kommentar": "J är energi."
       }
     ],
-    "ledtrad": "<p>Utgå från den grundläggande definitionen eller vad som bevaras.</p>",
+    "ledtrad": "<p>Bq anger antalet sönderfall per sekund i genomsnitt.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -152829,21 +154055,20 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En källa har aktiviteten \\(30\\,\\mathrm{Bq}\\). Hur många sönderfall sker i genomsnitt under \\(2{,}0\\,\\mathrm s\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">30 Bq betyder 30 sönderfall varje sekund i genomsnitt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=At=30\\cdot2{,}0=60\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 60 sönderfall.</p></div>",
+    "t": "<p>Ett preparat har aktiviteten 30 Bq. Hur många sönderfall sker i genomsnitt på 2 sekunder?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten anger 30 sönderfall per sekund i genomsnitt.</p><p>\\[N=A t=30\\cdot2=60\\]</p></div>",
     "familj": "Aktivitet och antal kärnor",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "formaga": [
       "procedur"
     ],
-    "typ": "sönderfall från becquerel",
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 0,
+    "tolerans": 1.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -152851,7 +154076,8 @@ window.BANK = [
     "geogebra": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.253",
@@ -152859,21 +154085,20 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Halveringstiden är \\(8\\,\\mathrm{min}\\). Hur lång tid tar två halveringstider?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Två halveringstider är två gånger halveringstiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=2\\cdot8=16\\ \\mathrm{min}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ \\mathrm{min}\\).</p></div>",
+    "t": "<p>Halveringstiden är 8 minuter. Hur lång tid tar två halveringstider? Svara i minuter.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[t=2\\cdot8=16\\ \\mathrm{min}\\]</p><p></p></div>",
     "familj": "Halveringstid i hela steg",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "formaga": [
       "procedur"
     ],
-    "typ": "tid för två halveringstider",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 0,
+    "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "min",
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -152881,7 +154106,8 @@ window.BANK = [
     "geogebra": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "id": "9.254",
@@ -152899,11 +154125,11 @@ window.BANK = [
     "typ": "aktivitet efter tre halveringstider",
     "svarstyp": "numeriskt",
     "rättSvar": 125,
-    "tolerans": 0,
+    "tolerans": 5.0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Bq",
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -152919,21 +154145,20 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Efter två halveringstider återstår hur stor andel av den ursprungliga mängden, i procent?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efter två halveringar återstår en fjärdedel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[100\\%\\cdot\\left(\\frac12\\right)^2=25\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\,\\%\\).</p></div>",
+    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 2 halveringstider? Svara i procent.</p>",
+    "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{2}=1/4\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/4\\]</p><p>\\[p\\approx25\\ \\%\\]</p></div></p></div>",
     "familj": "Halveringstid i hela steg",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "formaga": [
       "procedur"
     ],
-    "typ": "andel efter två halveringstider",
     "svarstyp": "numeriskt",
-    "rättSvar": 25,
-    "tolerans": 0,
+    "rättSvar": 25.0,
+    "tolerans": 0.625,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "ledtrad": "<p>Plocka ut de givna storheterna och ta ett steg i taget.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -152941,16 +154166,16 @@ window.BANK = [
     "geogebra": false,
     "familjTidigare": [
       "Radioaktivt sönderfall, aktivitet och halveringstid"
-    ]
+    ],
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "antal kärnor före och efter",
     "poang": "(2/0/0)",
-    "t": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p><ol type=\"a\"><li>Hur många kärnor fanns vid \\(t=0\\)?</li><li>Hur många kärnor finns vid \\(t=40\\) s?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Två halveringstider bakåt: \\(4\\cdot10\\,000\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\,000\\)</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Två halveringstider till: \\(\\dfrac{10\\,000}{4}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,500\\)</p></li></ol></div>",
+    "t": "<p>Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar.</p><p>a) Hur många fanns från början?</p><p>b) Hur många väntas vid tiden 40 s?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>20 s är två halveringstider. Räkna bakåt med två fördubblingar.</p><p>\\[N_0=10000\\cdot2^2=40000\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Mellan 20 s och 40 s går två halveringstider.</p><p>\\[N=10000/2^2=2500\\]</p></div></div>",
     "id": "9.330",
     "miniräknare": true,
     "geogebra": false,
@@ -152961,10 +154186,13 @@ window.BANK = [
       2500
     ],
     "tolerans": [
-      600.0,
-      51.0
+      1000.0,
+      62.5
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -152978,169 +154206,192 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p>",
+    "spelIntro": "<p>Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många kärnor fanns vid \\(t=0\\)?",
-        "t": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p><p>Hur många kärnor fanns vid \\(t=0\\)?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Två halveringstider bakåt: \\(4\\cdot10\\,000\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\,000\\)</p></div>",
-        "ledtrad": "<p>Hur många halveringstider är 20 s?</p>",
+        "fraga": "Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar. Hur många fanns från början?",
+        "s": "<div class=\"facit-v2\"><p>20 s är två halveringstider. Räkna bakåt med två fördubblingar.</p><p>\\[N_0=10000\\cdot2^2=40000\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 40000,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 1000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar. Hur många fanns från början?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många kärnor finns vid \\(t=40\\) s?",
-        "t": "<p>Ett radioaktivt preparat har halveringstiden 10 s. Vid \\(t=20\\) s finns 10 000 kärnor kvar.</p><p>Hur många kärnor finns vid \\(t=40\\) s?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Två halveringstider till: \\(\\dfrac{10\\,000}{4}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,500\\)</p></div>",
-        "ledtrad": "<p>Hur många halveringstider är det från 20 s till 40 s?</p>",
+        "fraga": "Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar. Hur många väntas vid tiden 40 s?",
+        "s": "<div class=\"facit-v2\"><p>Mellan 20 s och 40 s går två halveringstider.</p><p>\\[N=10000/2^2=2500\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2500,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 62.5,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar. Hur många väntas vid tiden 40 s?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Räkna i hela halveringstider.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 2,
     "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false,
+    "svarEnhet": [
+      null,
+      null
+    ]
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "moderkärnor och dotterkärnor",
     "poang": "(1/0/0)",
-    "t": "<p>Nukliden A har halveringstiden 10 s och sönderfaller till den stabila nukliden B. Vid \\(t=0\\) finns 1 000 A-kärnor och inga B-kärnor. Efter hur lång tid finns det 750 B-kärnor?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Då finns 250 A-kärnor kvar, alltså \\(\\tfrac14\\): två halveringstider.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) s</p></div>",
+    "t": "<p>Ämnet A sönderfaller till det stabila ämnet B. Halveringstiden är 10 s. Från början finns 1 000 A-kärnor och inga B-kärnor. Efter hur lång tid har 750 B-kärnor bildats? Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[N_A=1000-750=250\\]</p><p>En fjärdedel A återstår efter två halveringar: t = 2 · 10 = 20 s.</p></div>",
     "id": "9.331",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Halveringstid i hela steg",
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 0.51,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många A-kärnor finns kvar då?</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 2,
     "svarEnhet": "s",
     "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "tritium i hela halveringstider",
     "poang": "(1/0/0)",
-    "t": "<p>Ett prov innehåller 5 000 tritiumkärnor (\\(T_{1/2}=12{,}3\\) år). Efter hur lång tid finns 625 kärnor kvar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{625}{5\\,000}=\\dfrac18\\): tre halveringstider, \\(3\\cdot12{,}3\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(37\\) år</p></div>",
+    "t": "<p>Tritium har halveringstiden 12,3 år. Ett prov innehåller från början 5 000 tritiumkärnor. Efter hur lång tid återstår i genomsnitt 625 kärnor? Svara i år.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[5000\\to2500\\to1250\\to625\\]</p><p>Tre halveringar tar 3 · 12,3 = 36,9 år.</p></div>",
     "id": "9.332",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Halveringstid i hela steg",
     "svarstyp": "numeriskt",
     "rättSvar": 36.9,
-    "tolerans": 0.553,
+    "tolerans": 0.9225,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många gånger har antalet halverats?</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 2,
     "svarEnhet": "år",
     "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "massa kol-11 som återstår",
     "poang": "(0/1/0)",
-    "t": "<p>Ett prov innehåller 1,000 g kol-11 (\\(T_{1/2}=20{,}39\\) min). Efter hur lång tid återstår 0,723 g?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}723=\\left(\\tfrac12\\right)^{t/20{,}39}\\iff t=20{,}39\\cdot\\dfrac{\\lg(1/0{,}723)}{\\lg2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}5\\) min</p></div>",
+    "t": "<p>Kol-11 har halveringstiden 20,39 minuter. Ett prov innehåller 1,000 g kol-11 från början. Efter hur lång tid återstår 0,723 g kol-11? Svara i minuter.</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-20{,}39\\cdot\\ln(0{,}723)/\\ln2\\]</p><p>\\[t\\approx9{,}54\\ \\mathrm{min}\\]</p></div></p></div>",
     "id": "9.333",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
-    "rättSvar": 9.541142608826663,
-    "tolerans": 0.143,
+    "rättSvar": 9.541142608826664,
+    "tolerans": 0.23852856522066662,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "svarEnhet": "min",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "halveringstid ur tabell med snabb avklingning",
     "poang": "(0/1/0)",
-    "t": "<p>Aktiviteten hos en kvävenuklid mäts:</p><table class=\"data\"><tr><th>\\(t\\) (s)</th><td>0</td><td>20</td><td>40</td><td>60</td><td>80</td><td>100</td></tr><tr><th>\\(A\\) (kBq)</th><td>142</td><td>20,3</td><td>2,91</td><td>0,416</td><td>0,0596</td><td>0,00853</td></tr></table><p>Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Var 20:e sekund minskar aktiviteten med faktorn \\(\\dfrac{142}{20{,}3}=7{,}0\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=20\\cdot\\dfrac{\\ln2}{\\ln7{,}0}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}1\\) s</p></div>",
+    "t": "<p>Vid tiden 0 är aktiviteten 142 kBq. Efter 20 sekunder är den 20,3 kBq. Uppskatta halveringstiden utifrån dessa två mätningar. Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[20{,}3/142=2^{-20/T}\\]</p><p>\\[\\ln(A/A_0)=-(t/T)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[T=20\\cdot\\ln2/\\ln(142/20{,}3)\\]</p><p>\\[T\\approx7{,}13\\ \\mathrm{s}\\]</p></div></p></div>",
     "id": "9.334",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Halveringstid ur diagram och mätdata",
     "svarstyp": "numeriskt",
     "rättSvar": 7.126721996839753,
-    "tolerans": 0.107,
+    "tolerans": 0.17816804992099383,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Med vilken faktor minskar aktiviteten per 20 s?</p>",
+    "ledtrad": "<p>Lös ut halveringstiden ur kvoten mellan de två mätvärdena.</p>",
     "traningsniva": 3,
     "svarEnhet": "s",
     "familjNyckel": "aktivitet__halveringstid_ur_diagram_och_matdata",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "sönderfallskonstant och halveringstid",
     "poang": "(2/0/0)",
-    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><ol type=\"a\"><li>Bestäm sönderfallskonstanten för U-238 (\\(T_{1/2}=4{,}5\\cdot10^9\\) år) i s⁻¹.</li><li>Bestäm halveringstiden i timmar för en nuklid med \\(\\lambda=3{,}2\\cdot10^{-5}\\) s⁻¹.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\dfrac{\\ln2}{4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}9\\cdot10^{-18}\\) 1/s</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T_{1/2}=\\dfrac{\\ln2}{3{,}2\\cdot10^{-5}}\\) s, dela med 3 600.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\) h</p></li></ol></div>",
+    "t": "<p>a) Uran-238 har halveringstiden 4,5·10⁹ år. Bestäm sönderfallskonstanten i s⁻¹. Ett år är 3,156·10⁷ s.</p><p>b) En nuklid har sönderfallskonstanten 3,2·10⁻⁵ s⁻¹. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx1{,}42\\cdot10^{17}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}88\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=\\ln2/(3{,}2\\cdot10^{-5})\\]</p><p>\\[T\\approx21700\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=(\\ln2/(3{,}2\\cdot10^{-5}))/3600\\]</p><p>\\[T\\approx6{,}02\\ \\mathrm{h}\\]</p></div></p></div></div>",
     "id": "9.335",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      4.881001939028917e-18,
+      4.880630760174238e-18,
       6.016902609027303
     ],
     "tolerans": [
-      7.32e-20,
-      0.0903
+      1.2201576900435596e-19,
+      0.1504225652256826
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -153154,116 +154405,136 @@ window.BANK = [
       "b"
     ],
     "svarEnhet": [
-      "1/s",
+      "s⁻¹",
       "h"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm sönderfallskonstanten för U-238 (\\(T_{1/2}=4{,}5\\cdot10^9\\) år) i s⁻¹.",
-        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm sönderfallskonstanten för U-238 (\\(T_{1/2}=4{,}5\\cdot10^9\\) år) i s⁻¹.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\dfrac{\\ln2}{4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}9\\cdot10^{-18}\\) 1/s</p></div>",
-        "ledtrad": "<p>\\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "fraga": "Uran-238 har halveringstiden 4,5·10⁹ år. Bestäm sönderfallskonstanten i s⁻¹. Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx1{,}42\\cdot10^{17}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}88\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.880630760174238e-18,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 1.2201576900435596e-19,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>Uran-238 har halveringstiden 4,5·10⁹ år. Bestäm sönderfallskonstanten i s⁻¹. Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm halveringstiden i timmar för en nuklid med \\(\\lambda=3{,}2\\cdot10^{-5}\\) s⁻¹.",
-        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i timmar för en nuklid med \\(\\lambda=3{,}2\\cdot10^{-5}\\) s⁻¹.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(T_{1/2}=\\dfrac{\\ln2}{3{,}2\\cdot10^{-5}}\\) s, dela med 3 600.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\) h</p></div>",
-        "ledtrad": "<p>\\(T_{1/2}=\\dfrac{\\ln2}{\\lambda}\\).</p>",
+        "fraga": "En nuklid har sönderfallskonstanten 3,2·10⁻⁵ s⁻¹. Bestäm halveringstiden i timmar.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=\\ln2/(3{,}2\\cdot10^{-5})\\]</p><p>\\[T\\approx21700\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=(\\ln2/(3{,}2\\cdot10^{-5}))/3600\\]</p><p>\\[T\\approx6{,}02\\ \\mathrm{h}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6.016902609027303,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "h",
+        "tolerans": 0.1504225652256826,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Halveringstiden är ln(2)/λ. Resultatet blir sekunder; omvandla till timmar.</p>",
+        "t": "<p>En nuklid har sönderfallskonstanten 3,2·10⁻⁵ s⁻¹. Bestäm halveringstiden i timmar.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
     "traningsniva": 2,
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "halveringstid ur två aktiviteter",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat har aktiviteten 1 120 Bq. Efter 3,6 h är aktiviteten 140 Bq. Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{140}{1\\,120}=\\dfrac18\\): tre halveringstider på 3,6 h.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) h</p></div>",
+    "t": "<p>Aktiviteten minskar från 1 120 Bq till 140 Bq på 3,6 timmar. Bestäm halveringstiden i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[1120\\to560\\to280\\to140\\]</p><p>Tre halveringar tar 3,6 timmar: T = 3,6/3 = 1,2 timmar.</p></div>",
     "id": "9.336",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Halveringstid i hela steg",
     "svarstyp": "numeriskt",
     "rättSvar": 1.2,
-    "tolerans": 0.051,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många gånger har aktiviteten halverats?</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 2,
     "svarEnhet": "h",
     "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "andel kvar efter 2,5 år",
-    "poang": "(0/1/0)",
-    "t": "<p>Hur stor andel av ett prov med Sc-46 (\\(T_{1/2}=83{,}8\\) dygn) finns kvar efter 2,5 år (1 år = 365,25 dygn)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac12\\right)^{913{,}1/83{,}8}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00052\\) </p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Skandium-46 har halveringstiden 83,8 dygn. Hur stor andel återstår efter 2,5 år? Ett år är 365,25 dygn. Svara som decimaltal.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[t=2{,}5\\cdot365{,}25=913{,}125\\ \\mathrm{dygn}\\]</p><p><div class=\"facit-v2\"><p>\\[f=2^{-913{,}125/83{,}8}\\]</p><p>\\[f\\approx0{,}000525\\]</p></div></p></div>",
     "id": "9.337",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 0.0005246054028928608,
-    "tolerans": 7.87e-06,
+    "tolerans": 1.3115135072321521e-05,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+    "traningsniva": 2,
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "aktivitet och antal kärnor",
-    "poang": "(0/2/0)",
-    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p><ol type=\"a\"><li>Bestäm aktiviteten hos ett prov med \\(6{,}5\\cdot10^{20}\\) C-14-kärnor.</li><li>Hur många U-238-kärnor finns i ett mineral med aktiviteten 420 Bq?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\ln2}{5\\,730\\cdot3{,}156\\cdot10^7}\\cdot6{,}5\\cdot10^{20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{9}\\) Bq</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A}{\\lambda}=\\dfrac{420\\cdot4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}5\\cdot10^{19}\\)</p></li></ol></div>",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>a) Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Bestäm aktiviteten i Bq. Ett år är 3,156·10⁷ s.</p><p>b) Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Hur många uran-238-kärnor finns i mineralet? Ett år är 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(5730\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx3{,}83\\cdot10^{-12}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda\\cdot6{,}5\\cdot10^{20}\\]</p><p>\\[A\\approx2490000000\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}91\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=420/\\lambda\\]</p><p>\\[N\\approx8{,}55\\cdot10^{19}\\]</p></div></p></div></div>",
     "id": "9.338",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2491610937.462405,
-      85474254100174080000
+      2491421461.345488,
+      8.548075453778151e+19
     ],
     "tolerans": [
-      51000000.0,
-      1.28e+18
+      62285536.5336372,
+      2.1370188634445379e+18
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
@@ -153281,117 +154552,139 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm aktiviteten hos ett prov med \\(6{,}5\\cdot10^{20}\\) C-14-kärnor.",
-        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p><p>Bestäm aktiviteten hos ett prov med \\(6{,}5\\cdot10^{20}\\) C-14-kärnor.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\ln2}{5\\,730\\cdot3{,}156\\cdot10^7}\\cdot6{,}5\\cdot10^{20}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{9}\\) Bq</p></div>",
-        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Bestäm aktiviteten i Bq. Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(5730\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx3{,}83\\cdot10^{-12}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda\\cdot6{,}5\\cdot10^{20}\\]</p><p>\\[A\\approx2490000000\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2491421461.345488,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 62285536.5336372,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Bestäm aktiviteten i Bq. Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många U-238-kärnor finns i ett mineral med aktiviteten 420 Bq?",
-        "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>C-14 har halveringstiden 5 730 år och U-238 halveringstiden \\(4{,}47\\cdot10^9\\) år.</p><p>Hur många U-238-kärnor finns i ett mineral med aktiviteten 420 Bq?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A}{\\lambda}=\\dfrac{420\\cdot4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}5\\cdot10^{19}\\)</p></div>",
-        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Hur många uran-238-kärnor finns i mineralet? Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}91\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=420/\\lambda\\]</p><p>\\[N\\approx8{,}55\\cdot10^{19}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.548075453778151e+19,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 2.1370188634445379e+18,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Hur många uran-238-kärnor finns i mineralet? Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+    "traningsniva": 2,
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "halveringstid ur mätserie",
     "poang": "(0/1/0)",
-    "t": "<p>Aktiviteten hos ett preparat mäts:</p><table class=\"data\"><tr><th>\\(t\\) (h)</th><td>0</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td></tr><tr><th>\\(A\\) (Bq)</th><td>2 100</td><td>1 650</td><td>1 290</td><td>990</td><td>780</td><td>600</td><td>480</td><td>390</td><td>300</td><td>240</td><td>174</td><td>135</td></tr></table><p>Bestäm halveringstiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Till exempel: \\(2\\,100\\to1\\,050\\) tar drygt 5 h, och \\(\\dfrac{2\\,100}{135}\\) under 22 h ger \\(T_{1/2}=22\\cdot\\dfrac{\\ln2}{\\ln(2\\,100/135)}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}6\\) h</p></div>",
+    "t": "<p>Vid tiden 0 är aktiviteten 2100 Bq. Efter 22 timmar är den 135 Bq. Uppskatta halveringstiden utifrån dessa två mätningar. Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[135/2100=2^{-22/T}\\]</p><p>\\[\\ln(A/A_0)=-(t/T)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[T=22\\cdot\\ln2/\\ln(2100/135)\\]</p><p>\\[T\\approx5{,}56\\ \\mathrm{h}\\]</p></div></p></div>",
     "id": "9.339",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Halveringstid ur diagram och mätdata",
     "svarstyp": "numeriskt",
     "rättSvar": 5.5564563532421625,
-    "tolerans": 0.0833,
+    "tolerans": 0.13891140883105407,
     "självrättning": true,
     "formaga": [
-      "modellering",
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur lång tid tar det för aktiviteten att halveras?</p>",
+    "ledtrad": "<p>Lös ut halveringstiden ur kvoten mellan de två mätvärdena.</p>",
     "traningsniva": 3,
     "svarEnhet": "h",
     "familjNyckel": "aktivitet__halveringstid_ur_diagram_och_matdata",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "andel efter fem halveringstider",
     "poang": "(1/0/0)",
-    "t": "<p>Hur stor andel av ett radioaktivt preparat finns kvar efter fem halveringstider?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac12\\right)^5=\\dfrac{1}{32}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0312\\) </p></div>",
+    "t": "<p>Hur stor andel av den ursprungliga mängden radioaktiva kärnor återstår efter 5 halveringstider? Svara som bråk eller decimaltal.</p>",
+    "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{5}=1/32\\]</p><p><p>Andelen är 0,03125.</p></p></div>",
     "id": "9.340",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Halveringstid i hela steg",
     "svarstyp": "numeriskt",
     "rättSvar": 0.03125,
-    "tolerans": 0.000469,
+    "tolerans": 0.00078125,
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Halvera fem gånger.</p>",
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "traningsniva": 1,
     "familjNyckel": "aktivitet__halveringstid_i_hela_steg",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "massa ur aktivitet",
     "poang": "(1/2/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><ol type=\"a\"><li>Ett Co-60-preparat (\\(T_{1/2}=5{,}27\\) år, 59,93 u) har aktiviteten 8,0 PBq. Bestäm massan Co-60.</li><li>En instrumentbräda med radium-226 (\\(T_{1/2}=1\\,600\\) år, 226,03 u) hade aktiviteten 150 kBq som ny. Hur stor massa Ra-226 innehöll den?</li><li>Hur stor är instrumentbrädans aktivitet 75 år senare?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A}{\\lambda}=\\dfrac{8{,}0\\cdot10^{15}\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot59{,}93\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}19\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{150\\cdot10^3\\cdot1\\,600\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot226{,}03\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\cdot10^{-9}\\) kg</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=150\\cdot\\left(\\tfrac12\\right)^{75/1\\,600}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}45\\cdot10^{5}\\) Bq</p></li></ol></div>",
+    "t": "<p>a) Ett preparat av kobolt-60 har aktiviteten 8,0 PBq. Halveringstiden är 5,27 år och en atom har massan 59,93 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p><p>b) Ett preparat av radium-226 har aktiviteten 150 kBq. Halveringstiden är 1 600 år och en atom har massan 226,03 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p><p>c) En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år? Svara i Bq.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=8{,}0\\cdot10^{15}\\]</p><p>\\[A\\approx8\\cdot10^{15}\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=5{,}27\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx166000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}17\\cdot10^{-9}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx1{,}92\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot59{,}93\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx0{,}191\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=150\\cdot10^3\\]</p><p>\\[A\\approx150000\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=1600\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx50500000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx1{,}09\\cdot10^{16}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot226{,}03\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx4{,}1\\cdot10^{-9}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=150000\\cdot2^{-75/1600}\\]</p><p>\\[A\\approx145000\\ \\mathrm{Bq}\\]</p></div></div>",
     "id": "9.341",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.19101270985880597,
-      4.101046680588382e-09,
+      0.19102723664486262,
+      4.101358570974008e-09,
       145204.63451192208
     ],
     "tolerans": [
-      0.0051,
-      6.15e-11,
-      2180.0
+      0.005,
+      1.0253396427435021e-10,
+      5000.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -153410,138 +154703,163 @@ window.BANK = [
       "Bq"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett Co-60-preparat (\\(T_{1/2}=5{,}27\\) år, 59,93 u) har aktiviteten 8,0 PBq. Bestäm massan Co-60.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Ett Co-60-preparat (\\(T_{1/2}=5{,}27\\) år, 59,93 u) har aktiviteten 8,0 PBq. Bestäm massan Co-60.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A}{\\lambda}=\\dfrac{8{,}0\\cdot10^{15}\\cdot5{,}27\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot59{,}93\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}19\\) kg</p></div>",
-        "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
+        "fraga": "Ett preparat av kobolt-60 har aktiviteten 8,0 PBq. Halveringstiden är 5,27 år och en atom har massan 59,93 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=8{,}0\\cdot10^{15}\\]</p><p>\\[A\\approx8\\cdot10^{15}\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=5{,}27\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx166000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}17\\cdot10^{-9}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx1{,}92\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot59{,}93\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx0{,}191\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.19102723664486262,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 0.005,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm antalet kärnor och multiplicera med en atoms kg-massa.</p>",
+        "t": "<p>Ett preparat av kobolt-60 har aktiviteten 8,0 PBq. Halveringstiden är 5,27 år och en atom har massan 59,93 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En instrumentbräda med radium-226 (\\(T_{1/2}=1\\,600\\) år, 226,03 u) hade aktiviteten 150 kBq som ny. Hur stor massa Ra-226 innehöll den?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En instrumentbräda med radium-226 (\\(T_{1/2}=1\\,600\\) år, 226,03 u) hade aktiviteten 150 kBq som ny. Hur stor massa Ra-226 innehöll den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{150\\cdot10^3\\cdot1\\,600\\cdot3{,}156\\cdot10^7}{\\ln2}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot226{,}03\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}1\\cdot10^{-9}\\) kg</p></div>",
-        "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
+        "fraga": "Ett preparat av radium-226 har aktiviteten 150 kBq. Halveringstiden är 1 600 år och en atom har massan 226,03 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=150\\cdot10^3\\]</p><p>\\[A\\approx150000\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=1600\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx50500000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx1{,}09\\cdot10^{16}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot226{,}03\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx4{,}1\\cdot10^{-9}\\ \\mathrm{kg}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.101358570974008e-09,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kg",
+        "tolerans": 1.0253396427435021e-10,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Bestäm antalet kärnor och multiplicera med en atoms kg-massa.</p>",
+        "t": "<p>Ett preparat av radium-226 har aktiviteten 150 kBq. Halveringstiden är 1 600 år och en atom har massan 226,03 u. Bestäm isotopens massa i kg. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är instrumentbrädans aktivitet 75 år senare?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Hur stor är instrumentbrädans aktivitet 75 år senare?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=150\\cdot\\left(\\tfrac12\\right)^{75/1\\,600}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}45\\cdot10^{5}\\) Bq</p></div>",
-        "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+        "fraga": "En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år? Svara i Bq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=150000\\cdot2^{-75/1600}\\]</p><p>\\[A\\approx145000\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 145204.63451192208,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 5000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år? Svara i Bq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Bestäm antalet kärnor och multiplicera med en atoms kg-massa.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "kalium-40 i kroppen",
-    "poang": "(0/1/1)",
-    "t": "<p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En människa (60 kg) består till 0,30 % (massa) av kalium (39,10 g/mol). Av kaliumatomerna är 0,012 % K-40 med halveringstiden \\(1{,}28\\cdot10^9\\) år. Avogadros konstant är \\(6{,}022\\cdot10^{23}\\) mol⁻¹. Bestäm aktiviteten från K-40.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(n_K=\\dfrac{180}{39{,}10}\\) mol, \\(N=n_K\\cdot6{,}022\\cdot10^{23}\\cdot1{,}2\\cdot10^{-4}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\ln2}{1{,}28\\cdot10^9\\cdot3{,}156\\cdot10^7}N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,709\\) Bq</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En person har massan 60 kg. Kalium utgör 0,30 % av kroppens massa. Kaliums molmassa är 39,10 g/mol. Av kaliumatomerna är 0,012 % kalium-40, som har halveringstiden 1,28·10⁹ år. Bestäm aktiviteten från kalium-40. Använd Nₐ = 6,022·10²³ mol⁻¹ och 1 år = 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[m_K=0{,}0030\\cdot60=0{,}180\\ \\mathrm{kg}=180\\ \\mathrm g\\]</p><p><div class=\"facit-v2\"><p>\\[n_K=180/39{,}10\\]</p><p>\\[n_K\\approx4{,}6\\ \\mathrm{mol}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_K=n_KN_A\\]</p><p>\\[N_K\\approx2{,}77\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{40}=N_K\\cdot0{,}00012\\]</p><p>\\[N_{40}\\approx3{,}33\\cdot10^{20}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(1{,}28\\cdot10^9\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx1{,}72\\cdot10^{-17}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N_{40}\\]</p><p>\\[A\\approx5710\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "id": "9.342",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "numeriskt",
-    "rättSvar": 5708.595479116215,
-    "tolerans": 85.6,
+    "rättSvar": 5708.161365391569,
+    "tolerans": 142.70403413478923,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm antalet K-40-kärnor.</p>",
+    "ledtrad": "<p>Bestäm först massan kalium, sedan antalet kaliumatomer och antalet K-40-kärnor.</p>",
     "traningsniva": 4,
     "svarEnhet": "Bq",
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "E",
-    "typ": "aktivitet ur sönderfallskonstant",
     "poang": "(1/0/0)",
-    "t": "<p>Sönderfallskonstanten för Ra-226 är \\(1{,}38\\cdot10^{-11}\\) s⁻¹. Ett radiumpreparat på 1,00 mg innehåller \\(2{,}65\\cdot10^{18}\\) atomer. Bestäm aktiviteten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N=1{,}38\\cdot10^{-11}\\cdot2{,}65\\cdot10^{18}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}66\\cdot10^{7}\\) Bq</p></div>",
+    "t": "<p>Ett radium-226-prov innehåller 2,65·10¹⁸ radioaktiva kärnor. Sönderfallskonstanten är 1,38·10⁻¹¹ s⁻¹. Bestäm aktiviteten i Bq.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[A=1{,}38\\cdot10^{-11}\\cdot2{,}65\\cdot10^{18}\\]</p><p>\\[A\\approx36600000\\ \\mathrm{Bq}\\]</p></div>",
     "id": "9.343",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "numeriskt",
     "rättSvar": 36570000.0,
-    "tolerans": 549000.0,
+    "tolerans": 914250.0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
     "traningsniva": 1,
     "svarEnhet": "Bq",
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "aktivitet hos fosfor-32",
     "poang": "(0/1/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Bestäm aktiviteten hos 6,7 µg P-32 (31,97 u, \\(T_{1/2}=14{,}3\\) dygn).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{6{,}7\\cdot10^{-9}}{31{,}97\\cdot1{,}6605\\cdot10^{-27}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\ln2}{14{,}3\\cdot86\\,400}N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}1\\cdot10^{10}\\) Bq</p></div>",
+    "t": "<p>Ett prov innehåller 6,7 µg fosfor-32. En atom har massan 31,97 u och halveringstiden är 14,3 dygn. Bestäm aktiviteten från fosfor-32 i Bq. Använd 1 u = 1,6605·10⁻²⁷ kg.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=6{,}7\\cdot10^{-9}\\]</p><p>\\[m\\approx6{,}7\\cdot10^{-9}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_{\\text{atom}}=31{,}97\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{\\text{atom}}\\approx5{,}31\\cdot10^{-26}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{\\text{atom}}\\]</p><p>\\[N\\approx1{,}26\\cdot10^{17}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=1235520\\]</p><p>\\[T\\approx1240000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx70800000000\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "id": "9.344",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "numeriskt",
-    "rättSvar": 70805821776.25278,
-    "tolerans": 1060000000.0,
+    "rättSvar": 70805821776.25276,
+    "tolerans": 1770145544.4063191,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm antalet kärnor ur massan.</p>",
+    "ledtrad": "<p>Omvandla massan till kg. Massan delad med en atoms massa ger antalet kärnor. Använd sedan A = λN.</p>",
     "traningsniva": 3,
     "svarEnhet": "Bq",
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "kol-11-prov",
-    "poang": "(3/1/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p><ol type=\"a\"><li>Bestäm sönderfallskonstanten.</li><li>Hur många kärnor finns i provet?</li><li>Bestäm aktiviteten.</li><li>Hur stor är aktiviteten 8,0 h senare?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla halveringstiden till sekunder. Sönderfallskonstanten beräknas med naturliga logaritmen av 2 delad med halveringstiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=20{,}39\\cdot60=1223{,}4\\,\\mathrm s\\qquad\\lambda=\\frac{\\ln2}{T_{1/2}}\\approx5{,}67\\cdot10^{-4}\\,\\mathrm{s^{-1}}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,000567 s⁻¹.</p></div></div><div class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{3{,}50\\cdot10^{-9}}{11{,}011\\cdot1{,}6605\\cdot10^{-27}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}91\\cdot10^{17}\\)</p></div></div><div class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\cdot10^{14}\\) Bq</p></div></div><div class=\"facit-del\"><strong>d)</strong><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=1{,}08\\cdot10^{14}\\cdot\\left(\\tfrac12\\right)^{480/20{,}39}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}89\\cdot10^{6}\\) Bq</p></div></div></div>",
+    "poang": "(4/0/0)",
+    "t": "<p>Ett rent kol-11-prov har massan 3,50 µg och halveringstiden 20,39 minuter. En atom har massan 11,011 u. Använd 1 u = 1,6605·10⁻²⁷ kg.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Hur många kol-11-kärnor finns i provet?</p><p>c) Bestäm aktiviteten i Bq.</p><p>d) Bestäm aktiviteten efter 8,0 timmar i Bq.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[T=20{,}39\\cdot60=1223{,}4\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/1223{,}4\\]</p><p>\\[\\lambda\\approx0{,}000567\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m=3{,}50\\cdot10^{-9}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{\\text{atom}}=11{,}011\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{\\text{atom}}\\approx1{,}83\\cdot10^{-26}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{\\text{atom}}\\]</p><p>\\[N\\approx1{,}91\\cdot10^{17}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx1{,}08\\cdot10^{14}\\ \\mathrm{Bq}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[A_8=A_0\\cdot2^{-480/20{,}39}\\]</p><p>\\[A_8\\approx8890000\\ \\mathrm{Bq}\\]</p></div></div>",
     "id": "9.345",
     "miniräknare": true,
     "geogebra": false,
@@ -153549,19 +154867,25 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.0005665744487166464,
-      191426651145793820,
+      1.9142665114579382e+17,
       108457449342601.94,
       8886420.802179508
     ],
     "tolerans": [
-      8.5e-06,
-      2870000000000000.0,
-      1630000000000.0,
-      133000.0
+      1.4164361217916162e-05,
+      5000000000000000.0,
+      5000000000000.0,
+      221223.49650776936
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -153577,307 +154901,347 @@ window.BANK = [
       "d"
     ],
     "svarEnhet": [
-      "1/s",
+      "s⁻¹",
       null,
       "Bq",
       "Bq"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p>",
+    "spelIntro": "<p>Ett rent kol-11-prov har massan 3,50 µg och halveringstiden 20,39 minuter. En atom har massan 11,011 u. Använd 1 u = 1,6605·10⁻²⁷ kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är sönderfallskonstanten? Svara i s⁻¹.",
-        "t": "<p>Kol-11 har halveringstiden 20,39 minuter.</p><p>Hur stor är sönderfallskonstanten? Svara i s⁻¹.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Omvandla halveringstiden till sekunder. Sönderfallskonstanten beräknas med naturliga logaritmen av 2 delad med halveringstiden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=20{,}39\\cdot60=1223{,}4\\,\\mathrm s\\qquad\\lambda=\\frac{\\ln2}{T_{1/2}}\\approx5{,}67\\cdot10^{-4}\\,\\mathrm{s^{-1}}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,000567 s⁻¹.</p></div></div>",
-        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "fraga": "Kol-11 har halveringstiden 20,39 minuter. Bestäm sönderfallskonstanten i s⁻¹.",
+        "s": "<div class=\"facit-v2\"><p>\\[T=20{,}39\\cdot60=1223{,}4\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/1223{,}4\\]</p><p>\\[\\lambda\\approx0{,}000567\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.0005665744487166464,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "s⁻¹",
+        "tolerans": 1.4164361217916162e-05,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
+        "t": "<p>Kol-11 har halveringstiden 20,39 minuter. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Hur många kärnor finns i provet?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p><p>Hur många kärnor finns i provet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{3{,}50\\cdot10^{-9}}{11{,}011\\cdot1{,}6605\\cdot10^{-27}}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}91\\cdot10^{17}\\)</p></div>",
-        "ledtrad": "<p>Massan i kg delat med en atoms massa.</p>",
+        "fraga": "Ett prov innehåller 3,50 µg kol-11. En atom har massan 11,011 u och 1 u = 1,6605·10⁻²⁷ kg. Hur många kol-11-kärnor finns i provet?",
+        "s": "<div class=\"facit-v2\"><p>\\[m=3{,}50\\cdot10^{-9}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{\\text{atom}}=11{,}011\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{\\text{atom}}\\approx1{,}83\\cdot10^{-26}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{\\text{atom}}\\]</p><p>\\[N\\approx1{,}91\\cdot10^{17}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.9142665114579382e+17,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 5000000000000000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela provets kg-massa med en atoms kg-massa.</p>",
+        "t": "<p>Ett prov innehåller 3,50 µg kol-11. En atom har massan 11,011 u och 1 u = 1,6605·10⁻²⁷ kg. Hur många kol-11-kärnor finns i provet?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm aktiviteten.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p>\\(\\lambda=5{,}67\\cdot10^{-4}\\) s⁻¹ och \\(N=1{,}91\\cdot10^{17}\\).<p>Bestäm aktiviteten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\cdot10^{14}\\) Bq</p></div>",
-        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "fraga": "Ett prov har 1,91·10¹⁷ radioaktiva kärnor och sönderfallskonstanten 5,67·10⁻⁴ s⁻¹. Bestäm aktiviteten i Bq.",
+        "s": "<div class=\"facit-v2\"><p>\\[A=1{,}91\\cdot10^{17}\\cdot5{,}67\\cdot10^{-4}\\]</p><p>\\[A\\approx1{,}08\\cdot10^{14}\\ \\mathrm{Bq}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 108297000000000.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 5000000000000.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>Ett prov har 1,91·10¹⁷ radioaktiva kärnor och sönderfallskonstanten 5,67·10⁻⁴ s⁻¹. Bestäm aktiviteten i Bq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Hur stor är aktiviteten 8,0 h senare?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Du har 3,50 µg rent kol-11 (11,011 u) med halveringstiden 20,39 min.</p>Aktiviteten är från början \\(1{,}08\\cdot10^{14}\\) Bq.<p>Hur stor är aktiviteten 8,0 h senare?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=1{,}08\\cdot10^{14}\\cdot\\left(\\tfrac12\\right)^{480/20{,}39}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}89\\cdot10^{6}\\) Bq</p></div>",
-        "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "Ett kol-11-prov har startaktiviteten 1,08·10¹⁴ Bq och halveringstiden 20,39 minuter. Bestäm aktiviteten efter 8,0 timmar i Bq.",
+        "s": "<div class=\"facit-v2\"><p>\\[t=8{,}0\\cdot60=480\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[A=1{,}08\\cdot10^{14}\\cdot2^{-480/20{,}39}\\]</p><p>\\[A\\approx8850000\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8848939.860310774,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 221223.49650776936,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett kol-11-prov har startaktiviteten 1,08·10¹⁴ Bq och halveringstiden 20,39 minuter. Bestäm aktiviteten efter 8,0 timmar i Bq.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
-    "arbetsinsats": 3,
-    "spel": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "vismut-210 ett år senare",
-    "poang": "(0/1/0)",
-    "t": "<p>Ett prov med Bi-210 (\\(T_{1/2}=5{,}01\\) dygn) har aktiviteten 0,37 GBq. Hur stor är aktiviteten 365 dygn senare?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=0{,}37\\cdot10^9\\cdot\\left(\\tfrac12\\right)^{365/5{,}01}\\].</div></div><div class=\"facit-stycke\"><p>I praktiken har allt sönderfallit.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\cdot10^{-14}\\) Bq</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Vår matematiska modell för ett vismut-210-prov är A(t) = A₀·2^(−t/T), där A₀ = 0,37 GBq och T = 5,01 dygn. Vilken aktivitet ger modellen efter 365 dygn? Svara i Bq.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[t/T=365/5{,}01\\]</p><p><div class=\"facit-v2\"><p>\\[A=370000000\\cdot2^{-365/5{,}01}\\]</p><p>\\[A\\approx4{,}33\\cdot10^{-14}\\ \\mathrm{Bq}\\]</p></div></p><p><p>Modellen ger ett extremt litet medelvärde. Det betyder inte att provet faktiskt innehåller en bråkdel av en kärna.</p></p></div>",
     "id": "9.346",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 4.333858171754666e-14,
-    "tolerans": 6.5e-16,
+    "tolerans": 1.0834645429386666e-15,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+    "traningsniva": 2,
     "svarEnhet": "Bq",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "transporttid för jod-131",
     "poang": "(0/1/0)",
-    "t": "<p>1 Ci \\(=3{,}7\\cdot10^{10}\\) Bq.</p><p>Ett prov med I-131 (\\(T_{1/2}=8{,}04\\) dygn) skickas med aktiviteten 5,0 mCi och har aktiviteten 2,1 mCi när det kommer fram. Hur lång tid tog transporten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dfrac{2{,}1}{5{,}0}=\\left(\\tfrac12\\right)^{t/8{,}04}\\iff t=8{,}04\\cdot\\dfrac{\\ln(5{,}0/2{,}1)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}1\\) dygn</p></div>",
+    "t": "<p>Jod-131 har halveringstiden 8,04 dygn. Ett prov skickas med aktiviteten 5,0 mCi och har aktiviteten 2,1 mCi när det kommer fram. Hur lång tid tog transporten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-8{,}04\\cdot\\ln(0{,}42)/\\ln2\\]</p><p>\\[t\\approx10{,}1\\ \\mathrm{dygn}\\]</p></div></p></div>",
     "id": "9.347",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 10.062371686647552,
-    "tolerans": 0.151,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "svarEnhet": "dygn",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "kvot mellan två nuklider",
-    "poang": "(0/1/1)",
-    "t": "<p>Ett prov innehåller Sr-90 (\\(T_{1/2}=29{,}1\\) år) och Cs-134 (\\(T_{1/2}=2{,}06\\) år). Kvoten mellan antalet kärnor är \\(\\dfrac{N_{Sr}}{N_{Cs}}=7{,}8\\cdot10^{-3}\\). Bestäm kvoten 15 år senare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[7{,}8\\cdot10^{-3}\\cdot\\dfrac{(1/2)^{15/29{,}1}}{(1/2)^{15/2{,}06}}=7{,}8\\cdot10^{-3}\\cdot2^{15/2{,}06-15/29{,}1}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}85\\) </p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett prov innehåller strontium-90 och cesium-134. Halveringstiderna är 29,1 respektive 2,06 år. Från början är antalet Sr-90-kärnor dividerat med antalet Cs-134-kärnor 0,0078. Vad blir samma kvot efter 15 år?</p>",
+    "s": "<div class=\"facit-v2\"><p>Räkna hur stor andel som finns kvar av varje isotop.</p><p><div class=\"facit-v2\"><p>\\[f_{Sr}=2^{-15/29{,}1}\\]</p><p>\\[f_{Sr}\\approx0{,}7\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[f_{Cs}=2^{-15/2{,}06}\\]</p><p>\\[f_{Cs}\\approx0{,}00643\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{Sr}/N_{Cs}=0{,}0078\\cdot f_{Sr}/f_{Cs}\\]</p><p>\\[N_{Sr}/N_{Cs}\\approx0{,}849\\]</p></div></p><p>Kvoten ökar eftersom Cs-134 sönderfaller snabbare.</p></div>",
     "id": "9.348",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 0.8489663753684902,
-    "tolerans": 0.0127,
+    "tolerans": 0.021224159384212255,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Varje nuklid avklingar för sig.</p>",
+    "ledtrad": "<p>Kvoten ändras med den kvarvarande andelen Sr dividerad med den kvarvarande andelen Cs.</p>",
     "traningsniva": 4,
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "aktivitet efter sex dygn",
-    "poang": "(0/1/0)",
-    "t": "<p>Ett prov har aktiviteten 398 sönderfall/min. Två dygn senare är den 285 sönderfall/min. Hur stor är aktiviteten sex dygn efter första mätningen (i sönderfall per minut)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Varje tvådygnsperiod multipliceras aktiviteten med \\(\\dfrac{285}{398}\\): \\(398\\cdot\\left(\\dfrac{285}{398}\\right)^3\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(146\\) </p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett prov ger 398 sönderfall per minut. Två dygn senare ger det 285 sönderfall per minut. Hur många sönderfall per minut väntas sex dygn efter den första mätningen?</p>",
+    "s": "<div class=\"facit-v2\"><p>På varje tvådygnsperiod minskar aktiviteten med samma faktor.</p><p>\\[f=285/398\\approx0{,}716\\]</p><p>\\[6/2=3\\ \\text{perioder}\\]</p><p><div class=\"facit-v2\"><p>\\[A=398\\cdot(285/398)^3\\]</p><p>\\[A\\approx146\\]</p></div></p></div>",
     "id": "9.349",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 146.13977551071946,
-    "tolerans": 2.19,
+    "tolerans": 5.0,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Samma faktor varannan dag.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Sex dygn innehåller tre tvådygnsperioder. Använd samma minskningsfaktor tre gånger.</p>",
+    "traningsniva": 2,
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "massa guld-198 för given aktivitet",
-    "poang": "(0/1/1)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>1 Ci \\(=3{,}7\\cdot10^{10}\\) Bq.</p><p>Au-198 (197,968 u, \\(T_{1/2}=2{,}69\\) dygn) används i cancerbehandling. Vilken massa krävs för aktiviteten 315 Ci?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(A=315\\cdot3{,}7\\cdot10^{10}\\) Bq, \\(N=\\dfrac{A\\cdot2{,}69\\cdot86\\,400}{\\ln2}\\),</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot197{,}968\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}28\\cdot10^{-6}\\) kg</p></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>Guld-198 har halveringstiden 2,69 dygn och en atom har massan 197,968 u. Hur stor massa guld-198 behövs för aktiviteten 315 Ci? Svara i kg. Använd 1 Ci = 3,7·10¹⁰ Bq och 1 u = 1,6605·10⁻²⁷ kg.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=315\\cdot3{,}7\\cdot10^{10}\\]</p><p>\\[A\\approx1{,}17\\cdot10^{13}\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=2{,}69\\cdot86400\\]</p><p>\\[T\\approx232000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx2{,}98\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx3{,}91\\cdot10^{18}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot197{,}968\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx1{,}28\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.350",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "numeriskt",
     "rättSvar": 1.284655601252233e-06,
-    "tolerans": 1.93e-08,
+    "tolerans": 5e-08,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Aktiviteten och halveringstiden ger antalet kärnor. Multiplicera med en atoms massa i kg.</p>",
+    "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "sönderfallande neutronstråle",
-    "poang": "(0/1/2)",
-    "t": "<p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Fria neutroner (\\(1{,}675\\cdot10^{-27}\\) kg) sönderfaller med halveringstiden 10,4 min. En neutronstråle har rörelseenergin 0,0050 eV. Hur lång sträcka hinner neutronerna innan 25 % har sönderfallit?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{\\dfrac{2E}{m}}\\].</div></div><div class=\"facit-stycke\"><p>75 % kvar: \\(t=10{,}4\\cdot60\\cdot\\dfrac{\\ln(1/0{,}75)}{\\ln2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=vt\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{5}\\) m</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>En neutronstråle har rörelseenergin 0,0050 eV per neutron. Neutronens massa är 1,675·10⁻²⁷ kg och fria neutroner har halveringstiden 10,4 minuter. Hur långt har strålen färdats när 25 % av neutronerna har sönderfallit? Räkna med konstant fart. Använd 1 eV = 1,602·10⁻¹⁹ J. Svara i m.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=0{,}0050\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E\\approx8{,}01\\cdot10^{-22}\\ \\mathrm{J}\\]</p></div></p><p>\\[E=mv^2/2\\]</p><p><div class=\"facit-v2\"><p>\\[v=\\sqrt{2E/m}\\]</p><p>\\[v\\approx978\\ \\mathrm{m/s}\\]</p></div></p><p>25 % sönderfallna betyder 75 % kvar.</p><p>\\[0{,}75=2^{-t/624}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-624\\ln(0{,}75)/\\ln2\\]</p><p>\\[t\\approx259\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[s=vt\\]</p><p>\\[s\\approx253000\\ \\mathrm{m}\\]</p></div></p></div>",
     "id": "9.351",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 253277.01404794116,
-    "tolerans": 5100.0,
+    "tolerans": 6331.92535119853,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm farten och tiden.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Använd rörelseenergin för att få farten och sönderfallslagen för att få tiden.</p>",
+    "traningsniva": 4,
     "svarEnhet": "m",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "halveringstid ur kvot efter tre dygn",
-    "poang": "(0/1/1)",
-    "t": "<p>Ett prov innehåller från början lika många kärnor av A och B. B har halveringstiden 1,50 dygn. Efter 3,0 dygn finns tre gånger så många A-kärnor som B-kärnor. Bestäm halveringstiden för A.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>B: \\(\\tfrac14\\) kvar.</p></div><div class=\"facit-stycke\"><p>A: \\(\\tfrac34\\) kvar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac12\\right)^{3{,}0/T}=\\tfrac34\\iff T=\\dfrac{3{,}0\\ln2}{\\ln(4/3)}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\) dygn</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Från början finns lika många radioaktiva kärnor av ämne A och ämne B. B har halveringstiden 1,50 dygn. Efter 3,0 dygn finns tre gånger så många A-kärnor som B-kärnor. Bestäm A:s halveringstid i dygn.</p>",
+    "s": "<div class=\"facit-v2\"><p>B har gått igenom två halveringstider och har en fjärdedel kvar. A har tre gånger så många kärnor, alltså tre fjärdedelar av sin startmängd.</p><p>\\[2^{-3/T_A}=3/4\\]</p><p>\\[-(3/T_A)\\ln2=\\ln(3/4)\\]</p><p><div class=\"facit-v2\"><p>\\[T_A=3\\ln2/\\ln(4/3)\\]</p><p>\\[T_A\\approx7{,}23\\ \\mathrm{dygn}\\]</p></div></p></div>",
     "id": "9.352",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 7.228262518959628,
-    "tolerans": 0.108,
+    "tolerans": 0.1807065629739907,
     "självrättning": true,
     "formaga": [
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur stor andel av B finns kvar?</p>",
+    "ledtrad": "<p>Bestäm först andelen B kvar. Använd den givna kärnkvoten för att få andelen A kvar.</p>",
     "traningsniva": 4,
     "svarEnhet": "dygn",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "jod-131 i mjölk",
     "poang": "(0/1/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>1 Ci \\(=3{,}7\\cdot10^{10}\\) Bq.</p><p>Ett mjölktest kan påvisa ner till 1,00 pCi I-131 (131 u, \\(T_{1/2}=8{,}04\\) dygn) per liter. Vilken massa I-131 motsvarar det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(A=0{,}037\\) Bq, \\(N=\\dfrac{A\\cdot8{,}04\\cdot86\\,400}{\\ln2}\\),</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=N\\cdot131\\,\\text{u}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}07\\cdot10^{-21}\\) kg</p></div>",
+    "t": "<p>Ett mjölkprov på 1,0 liter har aktiviteten 1,00 pCi från jod-131. Halveringstiden är 8,04 dygn och en jod-131-atom har massan 131 u. Hur stor massa jod-131 finns i provet? Svara i kg. Använd 1 Ci = 3,7·10¹⁰ Bq och 1 u = 1,6605·10⁻²⁷ kg.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=10^{-12}\\cdot3{,}7\\cdot10^{10}\\]</p><p>\\[A\\approx0{,}037\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=8{,}04\\cdot86400\\]</p><p>\\[T\\approx695000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx9{,}98\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx37100\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot131\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx8{,}07\\cdot10^{-21}\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.353",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "numeriskt",
     "rättSvar": 8.065963080769512e-21,
-    "tolerans": 1.21e-22,
+    "tolerans": 2.0164907701923782e-22,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm antalet kärnor först.</p>",
+    "ledtrad": "<p>Aktiviteten och halveringstiden ger antalet kärnor. Multiplicera med en atoms massa i kg.</p>",
     "traningsniva": 3,
     "svarEnhet": "kg",
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "halveringstid ur massa och aktivitet",
     "poang": "(0/2/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p><ol type=\"a\"><li>1,00 mg U-235 (235 u) har aktiviteten 80,0 Bq.</li><li>1,00 kg V-50 (50 u) har aktiviteten 1,75 Bq.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}00\\cdot10^{-6}}{235\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><p>\\(T_{1/2}=\\dfrac{N\\ln2}{A}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}04\\cdot10^{8}\\) år</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}00}{50\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=\\dfrac{N\\ln2}{A}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}51\\cdot10^{17}\\) år</p></li></ol></div>",
+    "t": "<p>a) Ett rent prov av uran-235 har massan 1,00 mg och aktiviteten 80 Bq. En atom har massan 235 u. Bestäm halveringstiden i år. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p><p>b) Ett rent prov av vanadin-50 har massan 1,00 kg och aktiviteten 1,75 Bq. En atom har massan 50 u. Bestäm halveringstiden i år. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=1\\cdot10^{-6}\\]</p><p>\\[m\\approx1\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1\\cdot10^{-6}/(235\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx2{,}56\\cdot10^{18}\\]</p></div></p><p>\\[A=N\\ln2/T\\]</p><p><div class=\"facit-v2\"><p>\\[T=N\\ln2/A\\]</p><p>\\[T\\approx2{,}22\\cdot10^{16}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T_{\\text{år}}=T_{\\text{s}}/(3{,}156\\cdot10^7)\\]</p><p>\\[T\\approx704000000\\ \\mathrm{år}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=1\\]</p><p>\\[m\\approx1\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1/(50\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx1{,}2\\cdot10^{25}\\]</p></div></p><p>\\[A=N\\ln2/T\\]</p><p><div class=\"facit-v2\"><p>\\[T=N\\ln2/A\\]</p><p>\\[T\\approx4{,}77\\cdot10^{24}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T_{\\text{år}}=T_{\\text{s}}/(3{,}156\\cdot10^7)\\]</p><p>\\[T\\approx1{,}51\\cdot10^{17}\\ \\mathrm{år}\\]</p></div></p></div></div>",
     "id": "9.354",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      703598272.9384935,
-      151173114642784900
+      703544767.3664069,
+      1.5116161858843946e+17
     ],
     "tolerans": [
-      10600000.0,
-      2270000000000000.0
+      17588619.184160173,
+      5000000000000000.0
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -153893,173 +155257,196 @@ window.BANK = [
       "år"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "1,00 mg U-235 (235 u) har aktiviteten 80,0 Bq.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p><p>1,00 mg U-235 (235 u) har aktiviteten 80,0 Bq.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}00\\cdot10^{-6}}{235\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><p>\\(T_{1/2}=\\dfrac{N\\ln2}{A}\\) s, dela med \\(3{,}156\\cdot10^7\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}04\\cdot10^{8}\\) år</p></div>",
-        "ledtrad": "<p>\\(T_{1/2}=\\dfrac{\\ln2\\cdot N}{A}\\).</p>",
+        "fraga": "Ett rent prov av uran-235 har massan 1,00 mg och aktiviteten 80 Bq. En atom har massan 235 u. Bestäm halveringstiden i år. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=1\\cdot10^{-6}\\]</p><p>\\[m\\approx1\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1\\cdot10^{-6}/(235\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx2{,}56\\cdot10^{18}\\]</p></div></p><p>\\[A=N\\ln2/T\\]</p><p><div class=\"facit-v2\"><p>\\[T=N\\ln2/A\\]</p><p>\\[T\\approx2{,}22\\cdot10^{16}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T_{\\text{år}}=T_{\\text{s}}/(3{,}156\\cdot10^7)\\]</p><p>\\[T\\approx704000000\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 703544767.3664069,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 17588619.184160173,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Massan ger antalet kärnor. Lös ut halveringstiden ur A = N ln(2)/T.</p>",
+        "t": "<p>Ett rent prov av uran-235 har massan 1,00 mg och aktiviteten 80 Bq. En atom har massan 235 u. Bestäm halveringstiden i år. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "1,00 kg V-50 (50 u) har aktiviteten 1,75 Bq.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm halveringstiden i år.</p><p>1,00 kg V-50 (50 u) har aktiviteten 1,75 Bq.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{1{,}00}{50\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=\\dfrac{N\\ln2}{A}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}51\\cdot10^{17}\\) år</p></div>",
-        "ledtrad": "<p>\\(T_{1/2}=\\dfrac{\\ln2\\cdot N}{A}\\).</p>",
+        "fraga": "Ett rent prov av vanadin-50 har massan 1,00 kg och aktiviteten 1,75 Bq. En atom har massan 50 u. Bestäm halveringstiden i år. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=1\\]</p><p>\\[m\\approx1\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1/(50\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx1{,}2\\cdot10^{25}\\]</p></div></p><p>\\[A=N\\ln2/T\\]</p><p><div class=\"facit-v2\"><p>\\[T=N\\ln2/A\\]</p><p>\\[T\\approx4{,}77\\cdot10^{24}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T_{\\text{år}}=T_{\\text{s}}/(3{,}156\\cdot10^7)\\]</p><p>\\[T\\approx1{,}51\\cdot10^{17}\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.5116161858843946e+17,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 5000000000000000.0,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Massan ger antalet kärnor. Lös ut halveringstiden ur A = N ln(2)/T.</p>",
+        "t": "<p>Ett rent prov av vanadin-50 har massan 1,00 kg och aktiviteten 1,75 Bq. En atom har massan 50 u. Bestäm halveringstiden i år. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Massan ger antalet kärnor. Lös ut halveringstiden ur A = N ln(2)/T.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "glödstrumpa med torium",
     "poang": "(0/1/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>En glödstrumpa innehåller 300 mg Th-232 (232 u, \\(T_{1/2}=1{,}405\\cdot10^{10}\\) år). Bestäm aktiviteten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{0{,}300\\cdot10^{-3}}{232\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\ln2}{1{,}405\\cdot10^{10}\\cdot3{,}156\\cdot10^7}N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,217\\) Bq</p></div>",
+    "t": "<p>En glödstrumpa innehåller 300 mg torium-232. En atom har massan 232 u och halveringstiden är 1,405·10¹⁰ år. Bestäm aktiviteten från torium-232. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=0{,}0003\\]</p><p>\\[m\\approx0{,}0003\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_{\\text{atom}}=232\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{\\text{atom}}\\approx3{,}85\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{\\text{atom}}\\]</p><p>\\[N\\approx7{,}79\\cdot10^{20}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=4{,}43418\\cdot10^{17}\\]</p><p>\\[T\\approx4{,}43\\cdot10^{17}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx1{,}56\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx1220\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "id": "9.355",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "numeriskt",
-    "rättSvar": 1217.417554108818,
-    "tolerans": 51.0,
+    "rättSvar": 1217.3249748271367,
+    "tolerans": 50.0,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm antalet kärnor ur massan.</p>",
+    "ledtrad": "<p>Omvandla massan till kg. Massan delad med en atoms massa ger antalet kärnor. Använd sedan A = λN.</p>",
     "traningsniva": 3,
     "svarEnhet": "Bq",
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "användningstid för koboltkälla",
     "poang": "(0/1/0)",
-    "t": "<p>En Co-60-källa (\\(T_{1/2}=5{,}27\\) år) har aktiviteten 5 000 Ci. Den kan inte användas när aktiviteten är under 3 500 Ci. Hur länge kan den användas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5{,}27\\cdot\\dfrac{\\ln(5\\,000/3\\,500)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\) år</p></div>",
+    "t": "<p>Kobolt-60 har halveringstiden 5,27 år. En källa har aktiviteten 5 000 Ci och kan användas tills aktiviteten minskar till 3 500 Ci. Hur länge kan den användas?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5{,}27\\cdot\\ln(0{,}7)/\\ln2\\]</p><p>\\[t\\approx2{,}71\\ \\mathrm{år}\\]</p></div></p></div>",
     "id": "9.356",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.711800620812826,
-    "tolerans": 0.051,
+    "rättSvar": 2.7118006208128262,
+    "tolerans": 0.06779501552032066,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "svarEnhet": "år",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "uranets sammansättning när jorden bildades",
-    "poang": "(0/1/2)",
-    "t": "<p>Naturligt uran består i dag av 0,720 % U-235 (\\(T_{1/2}=7{,}04\\cdot10^8\\) år) och 99,275 % U-238 (\\(T_{1/2}=4{,}468\\cdot10^9\\) år). Hur många procent av uranet var U-235 när jorden bildades för \\(4{,}5\\cdot10^9\\) år sedan? Bortse från övriga isotoper.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Räkna bakåt: \\(0{,}720\\cdot2^{4{,}5\\cdot10^9/7{,}04\\cdot10^8}=60{,}5\\) och \\(99{,}275\\cdot2^{4{,}5/4{,}468}=199{,}5\\).</p></div><div class=\"facit-stycke\"><p>Andel: \\(\\dfrac{60{,}5}{60{,}5+199{,}5}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\) %</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>Av uranatomerna i ett prov är i dag 0,720 % U-235 och 99,275 % U-238. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. Uppskatta hur många procent av uranatomerna som var U-235 för 4,5·10⁹ år sedan. Räkna bara med dessa två isotoper.</p>",
+    "s": "<div class=\"facit-v2\"><p>Räkna bakåt för varje isotop. De behöver inte ha ökat med samma faktor.</p><p><div class=\"facit-v2\"><p>\\[N_{235}=0{,}720\\cdot2^{(4{,}5\\cdot10^9)/(7{,}04\\cdot10^8)}\\]</p><p>\\[N_{235}\\approx60{,}5\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{238}=99{,}275\\cdot2^{4{,}5/4{,}468}\\]</p><p>\\[N_{238}\\approx200\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[p=100N_{235}/(N_{235}+N_{238})\\]</p><p>\\[p\\approx23{,}3\\ \\%\\]</p></div></p></div>",
     "id": "9.357",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
-    "rättSvar": 23.256552492383648,
-    "tolerans": 0.51,
+    "rättSvar": 23.256552492383644,
+    "tolerans": 0.5814138123095911,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna bakåt för varje isotop.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Räkna bakåt för båda isotoperna och bilda sedan andelen U-235 av deras summa.</p>",
+    "traningsniva": 4,
     "svarEnhet": "%",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "utarmat uran",
     "poang": "(0/1/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>Bestäm aktiviteten hos 60 g ren U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{0{,}060}{238{,}05\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\dfrac{\\ln2}{4{,}468\\cdot10^9\\cdot3{,}156\\cdot10^7}N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}46\\cdot10^{5}\\) Bq</p></div>",
+    "t": "<p>Ett prov innehåller 60 g rent uran-238. En atom har massan 238,05 u och halveringstiden är 4,468·10⁹ år. Bestäm aktiviteten från uran-238. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=0{,}06\\]</p><p>\\[m\\approx0{,}06\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_{\\text{atom}}=238{,}05\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{\\text{atom}}\\approx3{,}95\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{\\text{atom}}\\]</p><p>\\[N\\approx1{,}52\\cdot10^{23}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=1{,}4101008\\cdot10^{17}\\]</p><p>\\[T\\approx1{,}41\\cdot10^{17}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}92\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx746000\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "id": "9.358",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "numeriskt",
-    "rättSvar": 746195.3084141955,
-    "tolerans": 11200.0,
+    "rättSvar": 746138.5635238218,
+    "tolerans": 18653.464088095545,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm antalet kärnor ur massan.</p>",
+    "ledtrad": "<p>Omvandla massan till kg. Massan delad med en atoms massa ger antalet kärnor. Använd sedan A = λN.</p>",
     "traningsniva": 3,
     "svarEnhet": "Bq",
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "uranglaserad tallrik",
-    "poang": "(0/3/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p><ol type=\"a\"><li>Bestäm tallrikens aktivitet.</li><li>Vilken effekt avger tallriken genom sönderfallen?</li><li>Hur mycket energi har frigjorts under 40 år?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{50{,}0\\cdot10^{-6}}{238{,}05\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(622\\) Bq</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=A\\cdot4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}25\\cdot10^{-10}\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Aktiviteten är i praktiken konstant: \\(E=P\\cdot40\\cdot3{,}156\\cdot10^7\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}537\\) J</p></li></ol></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4468000000,0 år. Varje sönderfall frigör 4,27 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg, 1 år = 3,156·10⁷ s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Bestäm aktiviteten från isotopen i Bq.</p><p>b) Bestäm värmeeffekten i W om all frigjord energi blir värme.</p><p>c) Hur mycket energi frigörs under 40 år? Svara i J.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=5\\cdot10^{-5}\\]</p><p>\\[m\\approx5\\cdot10^{-5}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=5\\cdot10^{-5}/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx1{,}26\\cdot10^{20}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4468000000\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}92\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx622\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx6{,}84\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx4{,}25\\cdot10^{-10}\\ \\mathrm{W}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E=P\\cdot40\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx0{,}537\\ \\mathrm{J}\\]</p></div></div>",
     "id": "9.359",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      621.8294236784964,
-      4.253649045849702e-10,
+      621.7821362698517,
+      4.253325574439371e-10,
       0.5369398205172262
     ],
     "tolerans": [
-      9.33,
-      6.38e-12,
-      0.00805
+      15.544553406746292,
+      1.06370397e-11,
+      0.013413000000000001
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -154078,75 +155465,103 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p>",
+    "spelIntro": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4468000000,0 år. Varje sönderfall frigör 4,27 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg, 1 år = 3,156·10⁷ s och 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tallrikens aktivitet.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p><p>Bestäm tallrikens aktivitet.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{50{,}0\\cdot10^{-6}}{238{,}05\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(622\\) Bq</p></div>",
-        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "fraga": "En tallrik innehåller 50,0 mg uran-238. Halveringstiden är 4468000000,0 år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen i Bq. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=5\\cdot10^{-5}\\]</p><p>\\[m\\approx5\\cdot10^{-5}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=5\\cdot10^{-5}/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx1{,}26\\cdot10^{20}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4468000000\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}92\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx622\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 621.7821362698517,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 15.544553406746292,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>En tallrik innehåller 50,0 mg uran-238. Halveringstiden är 4468000000,0 år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen i Bq. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Vilken effekt avger tallriken genom sönderfallen?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p>Aktiviteten är 622 Bq.<p>Vilken effekt avger tallriken genom sönderfallen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=A\\cdot4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}25\\cdot10^{-10}\\) W</p></div>",
-        "ledtrad": "<p>Energi per sekund.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En källa har aktiviteten 622 Bq. Varje sönderfall frigör 4,27 MeV. Bestäm värmeeffekten i W om all denna energi blir värme. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx6{,}84\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A\\cdot E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx4{,}25\\cdot10^{-10}\\ \\mathrm{W}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.2548158799999997e-10,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 1.06370397e-11,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt är energi per sekund. Multiplicera sönderfall per sekund med energin per sönderfall.</p>",
+        "t": "<p>En källa har aktiviteten 622 Bq. Varje sönderfall frigör 4,27 MeV. Bestäm värmeeffekten i W om all denna energi blir värme. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur mycket energi har frigjorts under 40 år?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>En tallrik är glaserad med uran och innehåller 50,0 mg U-238 (238,05 u, \\(T_{1/2}=4{,}468\\cdot10^9\\) år). Varje sönderfall frigör 4,27 MeV.</p>Effekten är \\(4{,}26\\cdot10^{-10}\\) W.<p>Hur mycket energi har frigjorts under 40 år?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Aktiviteten är i praktiken konstant: \\(E=P\\cdot40\\cdot3{,}156\\cdot10^7\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}537\\) J</p></div>",
-        "ledtrad": "<p>Ändras aktiviteten märkbart på 40 år?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En tallrik ger värmeeffekten 4,25·10⁻¹⁰ W. Effekten är nästan konstant under 40 år. Hur mycket energi frigörs under den tiden? Svara i J. Ett år är 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=40\\cdot3{,}156\\cdot10^7\\]</p><p>\\[t\\approx1260000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=4{,}25\\cdot10^{-10}\\cdot t\\]</p><p>\\[E\\approx0{,}537\\ \\mathrm{J}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.53652,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "J",
+        "tolerans": 0.013413000000000001,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Använd E = Pt.</p>",
+        "t": "<p>En tallrik ger värmeeffekten 4,25·10⁻¹⁰ W. Effekten är nästan konstant under 40 år. Hur mycket energi frigörs under den tiden? Svara i J. Ett år är 3,156·10⁷ s.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "plutoniumbatteri i rymdsond",
-    "poang": "(0/3/0)",
-    "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p><ol type=\"a\"><li>Bestäm aktiviteten vid uppskjutningen.</li><li>Bestäm effekten, om all sönderfallsenergi tas till vara.</li><li>Hur stor är effekten 12,0 år efter uppskjutningen?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{11{,}0}{238{,}05\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{15}\\) Bq</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=A\\cdot5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,241\\) W</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(P=6{,}2\\cdot\\left(\\tfrac12\\right)^{12{,}0/87{,}7}\\) kW.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,677\\) W</p></li></ol></div>",
+    "poang": "(2/1/0)",
+    "t": "<p>En rymdsond använder 11,0 kg plutonium-238 som värmekälla. En atom har massan 238,05 u och halveringstiden är 87,7 år. Varje sönderfall frigör 5,59 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg, 1 år = 3,156·10⁷ s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>a) Bestäm aktiviteten från isotopen i Bq.</p><p>b) Bestäm värmeeffekten i W om all frigjord energi blir värme.</p><p>c) Hur stor är värmeeffekten efter 12,0 år? Svara i W.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=11\\]</p><p>\\[m\\approx11\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=11/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx2{,}78\\cdot10^{25}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(87{,}7\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx2{,}5\\cdot10^{-10}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx6{,}97\\cdot10^{15}\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx6240\\ \\mathrm{W}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[P_{12}=P_0\\cdot2^{-12/87{,}7}\\]</p><p>\\[P_{12}\\approx5680\\ \\mathrm{W}\\]</p></div></div>",
     "id": "9.360",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Aktivitet och antal kärnor",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6969594644230500.0,
-      6241.397456612009,
-      5676.646814450296
+      6969064637033218.0,
+      6240.922825626713,
+      5676.215130281896
     ],
     "tolerans": [
-      105000000000000.0,
-      93.6,
-      85.1
+      174226615925830.47,
+      156.71564999999998,
+      140.97487980158493
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -154165,185 +155580,217 @@ window.BANK = [
       "W"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p>",
+    "spelIntro": "<p>En rymdsond använder 11,0 kg plutonium-238 som värmekälla. En atom har massan 238,05 u och halveringstiden är 87,7 år. Varje sönderfall frigör 5,59 MeV. Använd 1 u = 1,6605·10⁻²⁷ kg, 1 år = 3,156·10⁷ s och 1 eV = 1,602·10⁻¹⁹ J.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm aktiviteten vid uppskjutningen.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p><p>Bestäm aktiviteten vid uppskjutningen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{11{,}0}{238{,}05\\,\\text{u}}\\],</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\lambda N\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\cdot10^{15}\\) Bq</p></div>",
-        "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+        "fraga": "En värmekälla innehåller 11,0 kg plutonium-238. Halveringstiden är 87,7 år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen i Bq. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=11\\]</p><p>\\[m\\approx11\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=11/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx2{,}78\\cdot10^{25}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(87{,}7\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx2{,}5\\cdot10^{-10}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx6{,}97\\cdot10^{15}\\ \\mathrm{Bq}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6969064637033218.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "Bq",
+        "tolerans": 174226615925830.47,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+        "t": "<p>En värmekälla innehåller 11,0 kg plutonium-238. Halveringstiden är 87,7 år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen i Bq. Använd 1 u = 1,6605·10⁻²⁷ kg och 1 år = 3,156·10⁷ s.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm effekten, om all sönderfallsenergi tas till vara.",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p>Aktiviteten är \\(7{,}0\\cdot10^{15}\\) Bq.<p>Bestäm effekten, om all sönderfallsenergi tas till vara.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=A\\cdot5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,241\\) W</p></div>",
-        "ledtrad": "<p>Energi per sekund.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En källa har aktiviteten 7·10¹⁵ Bq. Varje sönderfall frigör 5,59 MeV. Bestäm värmeeffekten i W om all denna energi blir värme. Använd 1 eV = 1,602·10⁻¹⁹ J.",
+        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A\\cdot E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx6270\\ \\mathrm{W}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 6268.625999999999,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 156.71564999999998,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Effekt är energi per sekund. Multiplicera sönderfall per sekund med energin per sönderfall.</p>",
+        "t": "<p>En källa har aktiviteten 7·10¹⁵ Bq. Varje sönderfall frigör 5,59 MeV. Bestäm värmeeffekten i W om all denna energi blir värme. Använd 1 eV = 1,602·10⁻¹⁹ J.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor är effekten 12,0 år efter uppskjutningen?",
-        "t": "<p>Atommassenheten är \\(1\\,\\text{u}=1{,}6605\\cdot10^{-27}\\) kg.</p><p>Räkna med 1 år \\(=3{,}156\\cdot10^7\\) s.</p><p>\\(1\\) eV \\(=1{,}602\\cdot10^{-19}\\) J.</p><p>Rymdsonden Galileo hade 11,0 kg Pu-238 (238,05 u, \\(T_{1/2}=87{,}7\\) år) som energikälla. Varje sönderfall ger en alfapartikel med energin 5,59 MeV.</p>Effekten är från början 6,2 kW.<p>Hur stor är effekten 12,0 år efter uppskjutningen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(P=6{,}2\\cdot\\left(\\tfrac12\\right)^{12{,}0/87{,}7}\\) kW.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,677\\) W</p></div>",
-        "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 2
+        "fraga": "En värmekälla med plutonium-238 ger från början värmeeffekten 6,2 kW. Halveringstiden är 87,7 år. Hur stor är värmeeffekten efter 12,0 år? Svara i W.",
+        "s": "<div class=\"facit-v2\"><p>\\[6{,}2\\ \\mathrm{kW}=6200\\ \\mathrm W\\]</p><p><div class=\"facit-v2\"><p>\\[P=6200\\cdot2^{-12/87{,}7}\\]</p><p>\\[P\\approx5640\\ \\mathrm{W}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5638.995192063398,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "W",
+        "tolerans": 140.97487980158493,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 2,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>En värmekälla med plutonium-238 ger från början värmeeffekten 6,2 kW. Halveringstiden är 87,7 år. Hur stor är värmeeffekten efter 12,0 år? Svara i W.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(A=\\lambda N\\) med \\(\\lambda=\\dfrac{\\ln2}{T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__aktivitet_och_antal_karnor",
-    "arbetsinsats": 2,
-    "spel": true
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "jod-131 i mjölk efter Tjernobyl",
     "poang": "(0/1/0)",
-    "t": "<p>Mjölk innehöll I-131 (\\(T_{1/2}=8{,}04\\) dygn) med aktiviteten 2 900 Bq/liter. Gränsvärdet är 2 000 Bq/liter. Efter hur lång tid är mjölken under gränsvärdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=8{,}04\\cdot\\dfrac{\\ln(2\\,900/2\\,000)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\) dygn</p></div>",
+    "t": "<p>Jod-131 i ett mjölkprov ger aktiviteten 2 900 Bq per liter. Halveringstiden är 8,04 dygn. Efter hur lång tid har aktiviteten minskat till 2 000 Bq per liter?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-8{,}04\\cdot\\ln(0{,}689655172414)/\\ln2\\]</p><p>\\[t\\approx4{,}31\\ \\mathrm{dygn}\\]</p></div></p></div>",
     "id": "9.361",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 4.309865317931285,
-    "tolerans": 0.0646,
+    "tolerans": 0.10774663294828213,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(N=N_0\\cdot\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "svarEnhet": "dygn",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "trä med låg C-14-halt",
     "poang": "(0/1/0)",
-    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>En gammal träbit innehåller bara 4,5 % av den C-14-halt som finns i levande träd. Hur gammal är träbiten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}045=\\left(\\tfrac12\\right)^{t/5\\,730}\\iff t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}045)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\,636\\) år</p></div>",
+    "t": "<p>En gammal träbit har 4,5 % av kol-14-halten i levande trä. Halveringstiden är 5 730 år. Hur gammal är träbiten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\cdot\\ln(0{,}045)/\\ln2\\]</p><p>\\[t\\approx25600\\ \\mathrm{år}\\]</p></div></p></div>",
     "id": "9.421",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
-    "rättSvar": 25635.625709144722,
-    "tolerans": 510.0,
+    "rättSvar": 25635.62570914472,
+    "tolerans": 640.890642728618,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(N=N_0\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "svarEnhet": "år",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "träklubba med uppmätt aktivitet",
     "poang": "(0/1/0)",
-    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>En gammal träklubba innehåller 73 g kol och har aktiviteten 7,0 Bq. Hur gammal är den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ny skulle den ha \\(73\\cdot0{,}23=16{,}8\\) Bq.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(16{,}8/7{,}0)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\,232\\) år</p></div>",
+    "t": "<p>En gammal träklubba innehåller 73 g kol och har kol-14-aktiviteten 7,0 Bq. Levande trä har aktiviteten 0,23 Bq per gram kol. Halveringstiden är 5 730 år. Hur gammal är klubban?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[A_0=73\\cdot0{,}23=16{,}79\\ \\mathrm{Bq}\\]</p><p>\\[f=7{,}0/16{,}79\\approx0{,}417\\]</p><p><div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\cdot\\ln(0{,}416914830256)/\\ln2\\]</p><p>\\[t\\approx7230\\ \\mathrm{år}\\]</p></div></p></div></p></div>",
     "id": "9.422",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
-    "rättSvar": 7232.265059789938,
-    "tolerans": 108.0,
+    "rättSvar": 7232.265059789939,
+    "tolerans": 180.80662649474849,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken aktivitet hade klubban från början?</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "svarEnhet": "år",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "C",
-    "typ": "antal C-14-atomer per gram",
-    "poang": "(0/1/0)",
-    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Hur många C-14-atomer finns i 1 g kol med aktiviteten 0,23 Bq? (1 år = \\(3{,}156\\cdot10^7\\) s)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\dfrac{A}{\\lambda}=\\dfrac{0{,}23\\cdot5\\,730\\cdot3{,}156\\cdot10^7}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^{10}\\) </p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett kolprov har kol-14-aktiviteten 0,23 Bq. Kol-14 har halveringstiden 5 730 år. Hur många kol-14-kärnor finns i provet? Ett år är 3,156·10⁷ s.</p>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=5730\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx181000000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/180838800000\\]</p><p>\\[\\lambda\\approx3{,}83\\cdot10^{-12}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=0{,}23/\\lambda\\]</p><p>\\[N\\approx60000000000\\]</p></div></p></div>",
     "id": "9.423",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
-    "rättSvar": 60001342004.165016,
-    "tolerans": 900000000.0,
+    "rättSvar": 60005905190.87156,
+    "tolerans": 1500147629.771789,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(A=\\lambda N\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
+    "traningsniva": 2,
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": null,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "datering av fynd",
     "poang": "(0/4/0)",
-    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><ol type=\"a\"><li>Ett skelett har C-14/C-12-kvoten \\(4{,}34\\cdot10^{-13}\\).</li><li>Ismannen Ötzi har aktiviteten 0,121 Bq per gram kol.</li><li>Ett prov har aktiviteten 0,0061 Bq per gram kol.</li><li>Svepningen i Turin har 92 % av C-14-halten i levande material (mätt 1988).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(1{,}30\\cdot10^{-12}/4{,}34\\cdot10^{-13})}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\,069\\) år</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}121)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,310\\) år</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}0061)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,006\\) år</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}92)}{\\ln2}\\), alltså från omkring år 1300.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(689\\) år</p></li></ol></div>",
+    "t": "<p>a) Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>b) Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>c) Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>d) En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år. Svara i år.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}333846153846\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}333846153846)/\\ln2\\]</p><p>\\[t\\approx9070\\ \\mathrm{år}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}526086956522\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}526086956522)/\\ln2\\]</p><p>\\[t\\approx5310\\ \\mathrm{år}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}0265217391304\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}0265217391304)/\\ln2\\]</p><p>\\[t\\approx30000\\ \\mathrm{år}\\]</p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}92\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}92)/\\ln2\\]</p><p>\\[t\\approx689\\ \\mathrm{år}\\]</p></div></p></div></div>",
     "id": "9.424",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      9069.126990450764,
+      9069.126990450763,
       5309.5716423278445,
       30006.181031380518,
       689.2859592024884
     ],
     "tolerans": [
-      136.0,
-      79.6,
-      510.0,
-      10.3
+      226.7281747612691,
+      132.73929105819613,
+      750.154525784513,
+      17.23214898006221
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -154365,115 +155812,153 @@ window.BANK = [
       "år"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett skelett har C-14/C-12-kvoten \\(4{,}34\\cdot10^{-13}\\).",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ett skelett har C-14/C-12-kvoten \\(4{,}34\\cdot10^{-13}\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(1{,}30\\cdot10^{-12}/4{,}34\\cdot10^{-13})}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\,069\\) år</p></div>",
-        "ledtrad": "<p>Jämför med kvoten i levande material.</p>",
+        "fraga": "Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[f=0{,}333846153846\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}333846153846)/\\ln2\\]</p><p>\\[t\\approx9070\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 9069.126990450763,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 226.7281747612691,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Ismannen Ötzi har aktiviteten 0,121 Bq per gram kol.",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ismannen Ötzi har aktiviteten 0,121 Bq per gram kol.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}121)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,310\\) år</p></div>",
-        "ledtrad": "<p>Jämför med aktiviteten i levande material.</p>",
+        "fraga": "Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[f=0{,}526086956522\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}526086956522)/\\ln2\\]</p><p>\\[t\\approx5310\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5309.5716423278445,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 132.73929105819613,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Ett prov har aktiviteten 0,0061 Bq per gram kol.",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ett prov har aktiviteten 0,0061 Bq per gram kol.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}0061)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,006\\) år</p></div>",
-        "ledtrad": "<p>Jämför med aktiviteten i levande material.</p>",
+        "fraga": "Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[f=0{,}0265217391304\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}0265217391304)/\\ln2\\]</p><p>\\[t\\approx30000\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 30006.181031380518,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 750.154525784513,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "Svepningen i Turin har 92 % av C-14-halten i levande material (mätt 1988).",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Svepningen i Turin har 92 % av C-14-halten i levande material (mätt 1988).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}92)}{\\ln2}\\), alltså från omkring år 1300.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(689\\) år</p></div>",
-        "ledtrad": "<p>Jämför med halten i levande material.</p>",
+        "fraga": "En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år. Svara i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[f=0{,}92\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}92)/\\ln2\\]</p><p>\\[t\\approx689\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 689.2859592024884,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 17.23214898006221,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år. Svara i år.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\dfrac{A}{A_0}=\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
-    "arbetsinsats": 3,
-    "spel": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "aktivitet efter 60 000 år",
     "poang": "(0/1/0)",
-    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Ett djur dog för 60 000 år sedan, och benet innehåller 1,0 kg kol. Hur stor är benets aktivitet i dag?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=1\\,000\\cdot0{,}23\\cdot\\left(\\tfrac12\\right)^{60\\,000/5\\,730}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}16\\) Bq</p></div>",
+    "t": "<p>Ett gammalt ben innehåller 1,0 kg kol. Djuret dog för 60 000 år sedan. Levande material har kol-14-aktiviteten 0,23 Bq per gram kol och halveringstiden är 5 730 år. Vilken aktivitet ger kol-14 i benet nu?</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[A_0=1000\\cdot0{,}23=230\\ \\mathrm{Bq}\\]</p><p><div class=\"facit-v2\"><p>\\[A=230\\cdot2^{-60000/5730}\\]</p><p>\\[A\\approx0{,}162\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "id": "9.425",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
     "rättSvar": 0.16202472184835504,
-    "tolerans": 0.0051,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken aktivitet hade benet från början?</p>",
+    "ledtrad": "<p>Bestäm startaktiviteten för allt kol och låt den minska under den givna tiden.</p>",
     "traningsniva": 3,
     "svarEnhet": "Bq",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
     "niva": "C",
-    "typ": "datering av fler fynd",
     "poang": "(1/3/0)",
-    "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><ol type=\"a\"><li>Ben från en krypta har aktiviteten 0,21 Bq per gram kol.</li><li>Ben har C-14/C-12-kvoten \\(3{,}25\\cdot10^{-13}\\).</li><li>En träbit på 200 g har aktiviteten 16 Bq.</li><li>En mumie har 78,5 % av C-14-halten i levande material.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}21)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(752\\) år</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{3{,}25\\cdot10^{-13}}{1{,}30\\cdot10^{-12}}=\\dfrac14\\): två halveringstider.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,460\\) år</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{16}{200}=0{,}080\\) Bq/g.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}080)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,730\\) år</p></li><li><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}785)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,001\\) år</p></li></ol></div>",
+    "t": "<p>a) Ett ben har kol-14-aktiviteten 0,21 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>b) Ett ben har C-14/C-12-kvoten 3,25·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>c) En gammal träbit innehåller 200 g kol och har kol-14-aktiviteten 16 Bq. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>d) En mumie har 78,5 % av kol-14-halten i levande material. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}913043478261\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}913043478261)/\\ln2\\]</p><p>\\[t\\approx752\\ \\mathrm{år}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}25\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}25)/\\ln2\\]</p><p>\\[t\\approx11500\\ \\mathrm{år}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A_0=200\\cdot0{,}23=46\\ \\mathrm{Bq}\\]</p><p>\\[f=16/46\\]</p><p><div class=\"facit-v2\"><p>\\[f=0{,}347826086957\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}347826086957)/\\ln2\\]</p><p>\\[t\\approx8730\\ \\mathrm{år}\\]</p></div></p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}785\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}785)/\\ln2\\]</p><p>\\[t\\approx2000\\ \\mathrm{år}\\]</p></div></p></div></div>",
     "id": "9.426",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      752.0311756843881,
+      752.0311756843879,
       11460.0,
       8730.010008206684,
-      2001.1190762601493
+      2001.1190762601495
     ],
     "tolerans": [
-      11.3,
-      510.0,
-      131.0,
-      51.0
+      18.8007793921097,
+      500.0,
+      218.2502502051671,
+      50.02797690650374
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
@@ -154495,86 +155980,119 @@ window.BANK = [
       "år"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ben från en krypta har aktiviteten 0,21 Bq per gram kol.",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ben från en krypta har aktiviteten 0,21 Bq per gram kol.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}21)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(752\\) år</p></div>",
-        "ledtrad": "<p>Jämför med levande material.</p>",
+        "fraga": "Ett ben har kol-14-aktiviteten 0,21 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[f=0{,}913043478261\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}913043478261)/\\ln2\\]</p><p>\\[t\\approx752\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 752.0311756843879,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 18.8007793921097,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>Ett ben har kol-14-aktiviteten 0,21 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Ben har C-14/C-12-kvoten \\(3{,}25\\cdot10^{-13}\\).",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>Ben har C-14/C-12-kvoten \\(3{,}25\\cdot10^{-13}\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{3{,}25\\cdot10^{-13}}{1{,}30\\cdot10^{-12}}=\\dfrac14\\): två halveringstider.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,460\\) år</p></div>",
-        "ledtrad": "<p>Jämför med levande material.</p>",
+        "fraga": "Ett ben har C-14/C-12-kvoten 3,25·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[f=0{,}25\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}25)/\\ln2\\]</p><p>\\[t\\approx11500\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 11460.0,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 500.0,
+        "manuellKomplettering": false,
         "niva": "E",
-        "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "poang": "1/0/0",
+        "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
+        "t": "<p>Ett ben har C-14/C-12-kvoten 3,25·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "En träbit på 200 g har aktiviteten 16 Bq.",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>En träbit på 200 g har aktiviteten 16 Bq.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>\\(\\dfrac{16}{200}=0{,}080\\) Bq/g.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(0{,}23/0{,}080)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,730\\) år</p></div>",
-        "ledtrad": "<p>Räkna per gram.</p>",
+        "fraga": "En gammal träbit innehåller 200 g kol och har kol-14-aktiviteten 16 Bq. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[A_0=200\\cdot0{,}23=46\\ \\mathrm{Bq}\\]</p><p>\\[f=16/46\\]</p><p><div class=\"facit-v2\"><p>\\[f=0{,}347826086957\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}347826086957)/\\ln2\\]</p><p>\\[t\\approx8730\\ \\mathrm{år}\\]</p></div></p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 8730.010008206684,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 218.2502502051671,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>En gammal träbit innehåller 200 g kol och har kol-14-aktiviteten 16 Bq. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "fraga": "En mumie har 78,5 % av C-14-halten i levande material.",
-        "t": "<p>C-14 har halveringstiden 5 730 år. I levande material är aktiviteten 0,23 Bq per gram kol och kvoten C-14/C-12 är \\(1{,}30\\cdot10^{-12}\\).</p><p>Bestäm åldern.</p><p>En mumie har 78,5 % av C-14-halten i levande material.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=5\\,730\\cdot\\dfrac{\\ln(1/0{,}785)}{\\ln2}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,001\\) år</p></div>",
-        "ledtrad": "<p>Jämför med levande material.</p>",
+        "fraga": "En mumie har 78,5 % av kol-14-halten i levande material. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "s": "<div class=\"facit-v2\"><p>\\[f=0{,}785\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}785)/\\ln2\\]</p><p>\\[t\\approx2000\\ \\mathrm{år}\\]</p></div></p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 2001.1190762601495,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "år",
+        "tolerans": 50.02797690650374,
+        "manuellKomplettering": false,
         "niva": "C",
-        "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "poang": "0/1/0",
+        "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
+        "t": "<p>En mumie har 78,5 % av kol-14-halten i levande material. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "arbetsinsats": 2,
+        "miniräknare": true
       }
     ],
-    "ledtrad": "<p>\\(\\dfrac{A}{A_0}=\\left(\\tfrac12\\right)^{t/T_{1/2}}\\).</p>",
+    "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
-    "arbetsinsats": 3,
-    "spel": true
+    "arbetsinsats": 4,
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "kap": 9,
     "omr": "aktivitet",
-    "niva": "A",
-    "typ": "solsystemets ålder ur uranisotoper",
-    "poang": "(0/1/2)",
-    "t": "<p>Anta att U-235 (\\(T_{1/2}=7{,}04\\cdot10^8\\) år) och U-238 (\\(T_{1/2}=4{,}468\\cdot10^9\\) år) fanns i lika stora mängder när solsystemet bildades. I dag är kvoten \\(N_{235}/N_{238}=0{,}0072\\). Uppskatta solsystemets ålder.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}0072=2^{-t/T_{235}+t/T_{238}}\\iff t=\\dfrac{\\log_2(1/0{,}0072)}{1/(7{,}04\\cdot10^8)-1/(4{,}468\\cdot10^9)}\\].</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}9\\cdot10^{9}\\) år</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>I en modell finns lika många U-235- och U-238-kärnor från början. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. I dag är antalet U-235-kärnor dividerat med antalet U-238-kärnor 0,0072. Hur lång tid har gått enligt modellen? Svara i år.</p>",
+    "s": "<div class=\"facit-v2\"><p>Startkvoten är 1. Efter tiden t blir kvoten</p><p>\\[0{,}0072=2^{-t/T_{235}}/2^{-t/T_{238}}\\]</p><p>\\[\\ln(0{,}0072)=-t\\ln2(1/T_{235}-1/T_{238})\\]</p><p><div class=\"facit-v2\"><p>\\[t=\\frac{-\\ln(0{,}0072)}{\\ln2(1/T_{235}-1/T_{238})}\\]</p><p>\\[t\\approx5950000000\\ \\mathrm{år}\\]</p></div></p><p>Detta är tiden i den angivna modellen. Antagandet om lika startantal gör den inte till en säker bestämning av solsystemets verkliga ålder.</p></div>",
     "id": "9.427",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Sönderfallslagen och datering",
     "svarstyp": "numeriskt",
-    "rättSvar": 5948140515.35319,
-    "tolerans": 89200000.0,
+    "rättSvar": 5948140515.353191,
+    "tolerans": 148703512.8838298,
     "självrättning": true,
     "formaga": [
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kvoten som en potens av 2.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Bilda kvoten av de två sönderfallslagarna och lös ut tiden.</p>",
+    "traningsniva": 4,
     "svarEnhet": "år",
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
     "arbetsinsats": 3,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": false
   },
   {
     "id": "9.256",

@@ -3857,7 +3857,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-10-fy1-nuklider";
+const BANK_VERSION="2026-10-10-fy1-aktivitet";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10420,7 +10420,8 @@ function tolkaEnhet(str){
   if(/^(?:l|liter)\s*(?:per|\/)\s*100\s*km$/i.test(String(str).trim()))
     return expanderaEnhet({f:1/100000,d:{l:1,m:-1}});
   let x=String(str).trim()
-    .replace(/[⋅∙·×x]/g,"*").replace(/²/g,"^2").replace(/³/g,"^3")
+    .replace(/[⋅∙·×x]/g,"*")
+    .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+/g,exp=>"^"+[...exp].map(c=>({"⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5","⁶":"6","⁷":"7","⁸":"8","⁹":"9","⁻":"-"})[c]).join(""))
     .replace(/[()]/g,"")   // "J/(kg·K)": allt efter "/" är redan nämnare
     .replace(/\s+/g,"")
     .replace(/^varv(?:per|\/)(?:s|sek|sekund)$/i,"Hz");   // "varv/s", "varv per sekund"
@@ -10506,6 +10507,9 @@ function taltolk(str){
 }
 
 function delaTalEnhet(str){
+  // I "0,12 1/s" hör ettan till enheten, inte till talets sista decimal.
+  const invers=String(str).trim().match(/^(.*?)\s+(1\s*\/\s*[A-Za-zÅÄÖåäöµμΩ°].*)$/);
+  if(invers) return {tal:taltolk(invers[1]),enhet:invers[2]};
   const tal=taltolk(str);
   if(!Number.isFinite(tal)) return {tal:NaN,enhet:""};
 

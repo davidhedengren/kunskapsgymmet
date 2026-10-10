@@ -787,7 +787,7 @@ window.BANK = [
     "typ": "omvandla kvadratmeter till kvadratcentimeter",
     "poang": "(1/0/0)",
     "t": "<p>En liten solpanel har arean \\(0{,}045\\ \\mathrm{m^2}\\). Hur stor är arean i \\(\\mathrm{cm^2}\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Eftersom \\(1\\ \\mathrm m=100\\ \\mathrm{cm}\\) måste omvandlingsfaktorn kvadreras för area.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}045\\ \\mathrm{m^2}=0{,}045\\cdot100^2\\ \\mathrm{cm^2}=450\\ \\mathrm{cm^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\ \\mathrm{cm^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Areafaktorn är längdfaktorn i kvadrat.</p><p>\\[1\\ \\mathrm{m^2}=100^2\\ \\mathrm{cm^2}\\]</p><p>\\[A=0{,}045\\cdot100^2\\]</p><p>\\[A=450\\ \\mathrm{cm^2}\\]</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur",
@@ -886,9 +886,9 @@ window.BANK = [
       2.02
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      5000000.0,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "enheter__prefix_tiopotenser_och_storleksordning",
@@ -911,33 +911,42 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I en modell av solsystemet är solens diameter 22 cm. I verkligheten är solens diameter 1,392 · 10⁹ m, avståndet mellan solens och jordens centrum 1,496 · 10¹¹ m och jordens diameter 1,276 · 10⁷ m. Alla längder skalas lika. Ange slutsvaret med tre värdesiffror. Avrunda inte mellanleden.</p><p>Skalan skrivs 1:n. Bestäm n.</p>",
+        "t": "<p>Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Skalan är 1:n. Bestäm n med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[22 \\mathrm{cm}=0{,}22\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=1{,}392\\cdot10^9/0{,}22\\approx6{,}33\\cdot10^9\\].</div></div><div class=\"facit-stycke\"><p>Skalan är alltså ungefär 1:6 330 000 000.</p></div></div></div>",
-        "ledtrad": "<p>Alla avstånd och diametrar ska minskas i samma proportion. Jämför först solens två diametrar i samma enhet.</p>",
+        "ledtrad": "<p>Dela modellens soldiameter i meter med verklig diameter. Använd samma längdskala.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 1
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "tolerans": 5000000.0,
+        "fraga": "Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Skalan är 1:n. Bestäm n med tre värdesiffror.",
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>I en modell av solsystemet är solens diameter 22 cm. I verkligheten är solens diameter 1,392 · 10⁹ m, avståndet mellan solens och jordens centrum 1,496 · 10¹¹ m och jordens diameter 1,276 · 10⁷ m. Alla längder skalas lika. Ange slutsvaret med tre värdesiffror. Avrunda inte mellanleden.</p><p>Bestäm avståndet mellan solens och jordens centrum i modellen, i meter.</p>",
+        "t": "<p>Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Avståndet mellan solens och jordens centrum är 1,496·10¹¹ m. Bestäm modellens avstånd i m med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Skalfaktorn är \\(k=0{,}22/(1{,}392\\cdot10^9)\\).</p></div><div class=\"facit-stycke\"><p>Avståndet blir \\(k\\cdot1{,}496\\cdot10^{11}\\approx23{,}6\\ \\mathrm m\\).</p></div></div></div>",
-        "ledtrad": "<p>Alla avstånd och diametrar ska minskas i samma proportion. Jämför först solens två diametrar i samma enhet.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 1
+        "ledtrad": "<p>Dela modellens soldiameter i meter med verklig diameter. Använd samma längdskala.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "tolerans": 0.05,
+        "fraga": "Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Avståndet mellan solens och jordens centrum är 1,496·10¹¹ m. Bestäm modellens avstånd i m med tre värdesiffror.",
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "t": "<p>I en modell av solsystemet är solens diameter 22 cm. I verkligheten är solens diameter 1,392 · 10⁹ m, avståndet mellan solens och jordens centrum 1,496 · 10¹¹ m och jordens diameter 1,276 · 10⁷ m. Alla längder skalas lika. Ange slutsvaret med tre värdesiffror. Avrunda inte mellanleden.</p><p>Bestäm jordens diameter i modellen, i millimeter.</p>",
+        "t": "<p>Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Jordens verkliga diameter är 1,276·10⁷ m. Bestäm modellens jorddiameter i mm med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma skalfaktor \\(k=0{,}22/(1{,}392\\cdot10^9)\\) gäller diametern: \\(k\\cdot1{,}276\\cdot10^7\\approx0{,}00202\\ \\mathrm m=2{,}02\\ \\mathrm{mm}\\).</p></div></div></div>",
-        "ledtrad": "<p>Alla avstånd och diametrar ska minskas i samma proportion. Jämför först solens två diametrar i samma enhet.</p>",
+        "ledtrad": "<p>Dela modellens soldiameter i meter med verklig diameter. Använd samma längdskala.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0.005,
+        "fraga": "Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Jordens verkliga diameter är 1,276·10⁷ m. Bestäm modellens jorddiameter i mm med tre värdesiffror.",
+        "miniräknare": true
       }
     ],
     "familjTidigare": [
@@ -967,8 +976,8 @@ window.BANK = [
       50.6
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "familjNyckelTidigare": "enheter__prefix_tiopotenser_och_storleksordning",
@@ -989,23 +998,33 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En rektangulär mobilskärm har 2778 × 1284 kvadratiska pixlar som ligger kant i kant. Diagonalen är 6,1 tum. Räkna med att 1 tum = 25,4 mm. Ange svaren med tre värdesiffror.</p><p>Bestäm antalet pixlar per millimeter längs skärmens sidor.</p>",
+        "t": "<p>En skärm har 2 778 × 1 284 kvadratiska bildpunkter och diagonalen 6,1 tum. 1 tum = 25,4 mm. Hur många bildpunkter per mm har skärmen? Svara med tre värdesiffror.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Diagonalen motsvarar \\(\\sqrt{2778^2+1284^2}\\approx3060{,}38\\) pixelbredder.</p></div><div class=\"facit-stycke\"><p>Dess längd är \\(6{,}1\\cdot25{,}4=154{,}94\\ \\mathrm{mm}\\).</p></div><div class=\"facit-stycke\"><p>Kvoten blir \\(3060{,}38/154{,}94\\approx19{,}8\\) pixlar/mm.</p></div></div></div>",
         "ledtrad": "<p>Hur kan du bestämma diagonalen i antal pixlar från antalet pixlar längs sidorna?</p>",
         "niva": "C",
         "poang": "(1/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0.05,
+        "fraga": "En skärm har 2 778 × 1 284 kvadratiska bildpunkter och diagonalen 6,1 tum. 1 tum = 25,4 mm. Hur många bildpunkter per mm har skärmen? Svara med tre värdesiffror."
       },
       {
         "etikett": "b",
-        "t": "<p>En rektangulär mobilskärm har 2778 × 1284 kvadratiska pixlar som ligger kant i kant. Diagonalen är 6,1 tum. Räkna med att 1 tum = 25,4 mm. Ange svaren med tre värdesiffror.</p><p>Bestäm en pixels sidlängd i mikrometer.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Diagonalen är 154,94 mm och motsvarar \\(\\sqrt{2778^2+1284^2}\\) pixelbredder.</p></div><div class=\"facit-stycke\"><p>En pixel är därför \\(154{,}94/\\sqrt{2778^2+1284^2}\\approx0{,}0506\\ \\mathrm{mm}=50{,}6\\ \\mu\\mathrm m\\) bred.</p></div></div></div>",
-        "ledtrad": "<p>Hur kan du bestämma diagonalen i antal pixlar från antalet pixlar längs sidorna?</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3,
-        "arbetsinsats": 1
+        "t": "<p>En skärm har 19,8 kvadratiska bildpunkter per mm. Hur bred är en bildpunkt i µm? Svara med tre värdesiffror.</p>",
+        "s": "<div class=\"facit-v2\"><p>\\[d=1/19{,}8\\ \\mathrm{mm}\\]</p><p>\\[d=1000/19{,}8\\ \\mu\\mathrm m\\]</p><p>\\[d\\approx50{,}5\\ \\mu\\mathrm m\\]</p></div>",
+        "ledtrad": "<p>En bildpunkts bredd är 1 delat med antalet per mm. 1 mm = 1 000 µm.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "tolerans": 0.05,
+        "fraga": "En skärm har 19,8 kvadratiska bildpunkter per mm. Hur bred är en bildpunkt i µm? Svara med tre värdesiffror.",
+        "rättSvar": 50.5,
+        "svarEnhet": "µm",
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarstyp": "numeriskt",
+        "miniräknare": true
       }
     ],
     "familjTidigare": [
@@ -1729,7 +1748,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hur många meter tillryggaläggs på en timme, och hur många sekunder är det?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt",
@@ -2060,7 +2079,7 @@ window.BANK = [
     "typ": "omvandla mikroampere till ampere",
     "poang": "(1/0/0)",
     "t": "<p>Strömmen genom en sensor är \\(350\\ \\mu\\mathrm A\\). Ange strömmen i ampere.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mikro betyder \\(10^{-6}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[350\\ \\mu\\mathrm A=350\\cdot10^{-6}\\ \\mathrm A=3{,}50\\cdot10^{-4}\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}50\\cdot10^{-4}\\ \\mathrm A\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Mikro betyder en miljondel.</p><p>\\[1\\ \\mu\\mathrm A=10^{-6}\\ \\mathrm A\\]</p><p>\\[I=350\\cdot10^{-6}\\ \\mathrm A\\]</p><p>\\[I=3{,}50\\cdot10^{-4}\\ \\mathrm A\\]</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -2553,7 +2572,7 @@ window.BANK = [
     "typ": "omvandla vardagliga energienheter till joule och kilowattimmar, ur text, sökt energi",
     "poang": "(5/0/0)",
     "t": "<p>Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 kcal = 4184 J och 1 eV = 1,602 · 10⁻¹⁹ J. Avrunda bara där det anges.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) En dags mat innehåller 2000 kcal. Hur många joule motsvarar det?</div><div>b) En dags mat innehåller 2000 kcal. Hur många kWh motsvarar det? Ange två decimaler.</div><div>c) En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?</div><div>d) En lampa på 60 W är tänd i 5,0 timmar. Hur många joule använder den?</div><div>e) Vid ett alfasönderfall frigörs 5,0 MeV. Hur mycket energi frigörs sammanlagt vid 10¹² sådana sönderfall? Ange energin i joule.</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2000\\cdot 4184=8\\,368\\,000\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2000\\cdot4184/(3{,}6\\cdot10^6)\\approx2{,}32\\ \\mathrm{kWh}\\].</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[60 W=0{,}060\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Energin är 0,060 · 5,0 = 0,30 kWh.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[5{,}0 h=18\\,000\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin är</p><div class=\"facit-matte\">\\[60\\cdot 18\\,000=1\\,080\\,000\\, \\mathrm{J}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett sönderfall frigör \\(5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=8{,}01\\cdot10^{-13}\\ \\mathrm J\\).</p></div><div class=\"facit-stycke\"><p>För \\(10^{12}\\) sönderfall blir den sammanlagda energin \\(10^{12}\\cdot8{,}01\\cdot10^{-13}=0{,}801\\ \\mathrm J\\).</p></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p><strong>a)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2000\\cdot 4184=8\\,368\\,000\\, \\mathrm{J}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>b)</strong></p><p><div class=\"facit-v2\"><p>\\[E_J=2000\\cdot4184=8368000\\ \\mathrm J\\]</p><p>\\[E_{kWh}=E_J/(3{,}6\\cdot10^6)\\]</p><p>\\[E_{kWh}\\approx2{,}32\\ \\mathrm{kWh}\\]</p></div></p></div></p><p><div class=\"facit-v2\"><p><strong>c)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[60 W=0{,}060\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Energin är 0,060 · 5,0 = 0,30 kWh.</p></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>d)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[5{,}0 h=18\\,000\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin är</p><div class=\"facit-matte\">\\[60\\cdot 18\\,000=1\\,080\\,000\\, \\mathrm{J}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>e)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett sönderfall frigör \\(5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=8{,}01\\cdot10^{-13}\\ \\mathrm J\\).</p></div><div class=\"facit-stycke\"><p>För \\(10^{12}\\) sönderfall blir den sammanlagda energin \\(10^{12}\\cdot8{,}01\\cdot10^{-13}=0{,}801\\ \\mathrm J\\).</p></div></div></div></p></div></p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -2569,7 +2588,7 @@ window.BANK = [
     ],
     "tolerans": [
       0,
-      0,
+      0.005,
       0,
       0,
       0
@@ -2599,54 +2618,68 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Matens energi är 2000 kcal. 1 kcal = 4184 J.</p><p>Hur stor är energin i J?</p>",
+        "t": "<p>Matens energi är 2 000 kcal. 1 kcal = 4 184 J. Hur mycket energi är det i J?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2000\\cdot 4184=8\\,368\\,000\\, \\mathrm{J}\\]</div></div></div></div></div>",
         "ledtrad": "<p>Vad betyder en kilokalori uttryckt i joule?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "fraga": "Hur stor är energin i J?"
+        "fraga": "Matens energi är 2 000 kcal. 1 kcal = 4 184 J. Hur mycket energi är det i J?",
+        "tolerans": 0,
+        "miniräknare": true
       },
       {
         "etikett": "b",
-        "t": "<p>Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 kcal = 4184 J och 1 eV = 1,602 · 10⁻¹⁹ J. Avrunda bara där det anges.</p><p>En dags mat innehåller 2000 kcal. Hur många kWh motsvarar det? Ange två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2000\\cdot4184/(3{,}6\\cdot10^6)\\approx2{,}32\\ \\mathrm{kWh}\\].</div></div></div></div>",
+        "t": "<p>Matens energi är 2 000 kcal. 1 kcal = 4 184 J och 1 kWh = 3,6·10⁶ J. Hur mycket energi är det i kWh? Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>\\[E_J=2000\\cdot4184=8368000\\ \\mathrm J\\]</p><p>\\[E_{kWh}=E_J/(3{,}6\\cdot10^6)\\]</p><p>\\[E_{kWh}\\approx2{,}32\\ \\mathrm{kWh}\\]</p></div>",
         "ledtrad": "<p>Hur stor del av en kWh motsvarar matens energi i joule?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0.005,
+        "fraga": "Matens energi är 2 000 kcal. 1 kcal = 4 184 J och 1 kWh = 3,6·10⁶ J. Hur mycket energi är det i kWh? Svara med två decimaler.",
+        "miniräknare": true
       },
       {
         "etikett": "c",
-        "t": "<p>Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 kcal = 4184 J och 1 eV = 1,602 · 10⁻¹⁹ J. Avrunda bara där det anges.</p><p>En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?</p>",
+        "t": "<p>En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[60 W=0{,}060\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Energin är 0,060 · 5,0 = 0,30 kWh.</p></div></div></div>",
         "ledtrad": "<p>Vilken effektenhet passar ihop med timmar när svaret ska bli kWh?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "tolerans": 0,
+        "fraga": "En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?",
+        "miniräknare": true
       },
       {
         "etikett": "d",
-        "t": "<p>Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 kcal = 4184 J och 1 eV = 1,602 · 10⁻¹⁹ J. Avrunda bara där det anges.</p><p>En lampa på 60 W är tänd i 5,0 timmar. Hur många joule använder den?</p>",
+        "t": "<p>En lampa på 60 W är tänd i 5,0 timmar. Hur många J använder den?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[5{,}0 h=18\\,000\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin är</p><div class=\"facit-matte\">\\[60\\cdot 18\\,000=1\\,080\\,000\\, \\mathrm{J}\\]</div></div></div></div></div>",
         "ledtrad": "<p>Vilken tidsenhet passar ihop med watt när svaret ska bli joule?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0,
+        "fraga": "En lampa på 60 W är tänd i 5,0 timmar. Hur många J använder den?",
+        "miniräknare": true
       },
       {
         "etikett": "e",
-        "t": "<p>Följande omvandlingar gäller: 1 kWh = 3,6 · 10⁶ J, 1 kcal = 4184 J och 1 eV = 1,602 · 10⁻¹⁹ J. Avrunda bara där det anges.</p><p>Vid ett alfasönderfall frigörs 5,0 MeV. Hur mycket energi frigörs sammanlagt vid 10¹² sådana sönderfall? Ange energin i joule.</p>",
+        "t": "<p>Ett alfasönderfall frigör 5,0 MeV. Hur mycket energi frigörs vid 10¹² sådana sönderfall? Svara i J. 1 eV = 1,602·10⁻¹⁹ J.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett sönderfall frigör \\(5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=8{,}01\\cdot10^{-13}\\ \\mathrm J\\).</p></div><div class=\"facit-stycke\"><p>För \\(10^{12}\\) sönderfall blir den sammanlagda energin \\(10^{12}\\cdot8{,}01\\cdot10^{-13}=0{,}801\\ \\mathrm J\\).</p></div></div></div>",
         "ledtrad": "<p>Beräkna energin i joule för ett sönderfall. Hur får du sedan energin för alla sönderfallen?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0,
+        "fraga": "Ett alfasönderfall frigör 5,0 MeV. Hur mycket energi frigörs vid 10¹² sådana sönderfall? Svara i J. 1 eV = 1,602·10⁻¹⁹ J.",
+        "miniräknare": true
       }
     ],
     "miniräknare": true,
@@ -3195,8 +3228,8 @@ window.BANK = [
     "id": "2.34",
     "kap": 2,
     "omr": "enheter",
-    "niva": "C",
-    "poang": "(1/1/0)",
+    "niva": "E",
+    "poang": "(1/0/0)",
     "t": "<p>En elev skriver: ”Eftersom 1 m = 100 cm gäller 0,75 m² = 75 cm².” Förklara felet och bestäm den korrekta arean i cm².</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Eleven använder en längdfaktor på en area.</p></div><div class=\"facit-stycke\"><p>En kvadrat med sidan 1 m har sidorna 100 cm, så \\(1\\ \\mathrm{m^2}=100^2\\ \\mathrm{cm^2}=10\\,000\\ \\mathrm{cm^2}\\).</p></div><div class=\"facit-stycke\"><p>Därför är \\(0{,}75\\ \\mathrm{m^2}=7500\\ \\mathrm{cm^2}\\).</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
@@ -3211,7 +3244,7 @@ window.BANK = [
     "självrättning": false,
     "familjNyckelTidigare": "enheter__prefix_tiopotenser_och_storleksordning",
     "ledtrad": "<p>Pröva elevens regel på en kvadrat med sidan 1 m. Stämmer arean då?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true,
@@ -3259,7 +3292,7 @@ window.BANK = [
     "omr": "enheter",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett A4-ark är 210 mm × 297 mm. En fotbollsplan är 105 m × 68 m. Bortse från överlappning och spill när du jämför areorna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Bestäm arkets area i m² utan avrundning.</div><div>b) Hur många ark motsvarar planens area? Avrunda till närmaste tusental.</div></div>",
+    "t": "<p>Ett A4-ark är 210 mm × 297 mm. En fotbollsplan är 105 m × 68 m.</p><p>a) Bestäm arkets area i m² utan avrundning.</p><p>b) Hur många ark motsvarar planens area? Avrunda till närmaste tusental.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">210 mm = 0,210 m och</p><div class=\"facit-matte\">\\[297 \\mathrm{mm}=0{,}297\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arkets area är</p><div class=\"facit-matte\">\\[0{,}210\\cdot 0{,}297=0{,}06237\\, \\mathrm{m^2}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Planens area är \\(105\\cdot68=7140\\ \\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><p>Antalet ark blir \\(7140/(0{,}210\\cdot0{,}297)\\approx114\\,478\\), alltså 114 000 avrundat till närmaste tusental.</p></div><div class=\"facit-stycke\"><p>Det är en areauppskattning; hur arken placeras ingår inte i modellen.</p></div></div></div></div></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
@@ -3274,7 +3307,7 @@ window.BANK = [
     ],
     "tolerans": [
       0,
-      0
+      500
     ],
     "självrättning": true,
     "ledtrad": "<p>Jämför planens area med arean av ett ark, uttryckta i samma enhet.</p>",
@@ -3294,23 +3327,27 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett A4-ark är 210 mm × 297 mm. En fotbollsplan är 105 m × 68 m. Bortse från överlappning och spill när du jämför areorna.</p><p>Bestäm arkets area i m² utan avrundning.</p>",
+        "t": "<p>Ett A4-ark är 210 mm × 297 mm. Bestäm arean i m² utan avrundning.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">210 mm = 0,210 m och</p><div class=\"facit-matte\">\\[297 \\mathrm{mm}=0{,}297\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arkets area är</p><div class=\"facit-matte\">\\[0{,}210\\cdot 0{,}297=0{,}06237\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
         "ledtrad": "<p>Jämför planens area med arean av ett ark, uttryckta i samma enhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "fraga": "Ett A4-ark är 210 mm × 297 mm. Bestäm arean i m² utan avrundning.",
+        "tolerans": 0
       },
       {
         "etikett": "b",
-        "t": "<p>Ett A4-ark är 210 mm × 297 mm. En fotbollsplan är 105 m × 68 m. Bortse från överlappning och spill när du jämför areorna.</p><p>Hur många ark motsvarar planens area? Avrunda till närmaste tusental.</p>",
+        "t": "<p>Ett A4-ark har arean 0,06237 m². En fotbollsplan är 105 m × 68 m. Hur många ark motsvarar planens area? Avrunda till närmaste tusental.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Planens area är \\(105\\cdot68=7140\\ \\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><p>Antalet ark blir \\(7140/(0{,}210\\cdot0{,}297)\\approx114\\,478\\), alltså 114 000 avrundat till närmaste tusental.</p></div><div class=\"facit-stycke\"><p>Det är en areauppskattning; hur arken placeras ingår inte i modellen.</p></div></div></div>",
         "ledtrad": "<p>Jämför planens area med arean av ett ark, uttryckta i samma enhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "fraga": "Ett A4-ark har arean 0,06237 m². En fotbollsplan är 105 m × 68 m. Hur många ark motsvarar planens area? Avrunda till närmaste tusental.",
+        "tolerans": 500
       }
     ],
     "familjTidigare": [
@@ -3318,33 +3355,122 @@ window.BANK = [
     ],
     "familjNyckelTidigare": "enheter__enhetsomvandling",
     "miniräknare": true,
-    "geogebra": false
+    "geogebra": false,
+    "spelIntro": "<p>Ett A4-ark är 210 mm × 297 mm. En fotbollsplan är 105 m × 68 m.</p>"
   },
   {
     "id": "2.36",
     "kap": 2,
     "omr": "enheter",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En bil förbrukar 0,58 liter bensin per mil. Bensin innehåller ungefär 9,7 kWh per liter.</p>\n<ol type=\"a\"><li>Hur många liter per 100 km motsvarar det?</li><li>Hur många kWh går åt per 100 km?</li>\n<li>En elbil förbrukar 18 kWh per 100 km. Kommentera skillnaden.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>100 km är 10 mil, så volymen blir \\(10\\cdot0{,}58=5{,}8\\) liter.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Energin i bensinen är \\(5{,}8\\cdot9{,}7=56{,}26\\approx56\\) kWh per 100 km.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Bensinens energiinnehåll är ungefär \\(56{,}26/18\\approx3{,}1\\) gånger elbilens angivna energianvändning.</p></div><div class=\"facit-stycke\"><p>Det är tillförd energi som jämförs.</p></div><div class=\"facit-stycke\"><p>Uppgifterna räcker inte för att avgöra bilarnas verkningsgrader, kostnader eller klimatpåverkan: bland annat körförhållanden, energins ursprung och var elenergin mäts behöver vara kända.</p></div></div></div></div></div>",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En bil drar 0,58 liter bensin per mil. Bensin ger 9,7 kWh per liter. En elbil använder 18 kWh per 100 km.</p><p>a) Hur många liter bensin används på 100 km?</p><p>b) Hur mycket energi tillförs bensinbilen på 100 km? Svara i kWh.</p><p>c) Jämför tillförd energi för de två bilarna på 100 km.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[100\\ \\mathrm{km}=10\\ \\mathrm{mil}\\]</p><p>\\[V=10\\cdot0{,}58=5{,}8\\ \\mathrm L\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=5{,}8\\cdot9{,}7\\]</p><p>\\[E\\approx56{,}3\\ \\mathrm{kWh}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>100 km är samma körsträcka. Bensinens tillförda energi är cirka 56 kWh, jämfört med 18 kWh för elbilen.</p><p><div class=\"facit-v2\"><p>\\[kvot=56{,}26/18\\]</p><p>\\[kvot\\approx3{,}13\\]</p></div></p><p>Bensinbilens tillförda energi är cirka 3,1 gånger så stor. Det är energin som tillförs bilarna som jämförs, inte arbetet vid hjulen.</p></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "enheter__enhetsomvandling",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Jämför samma körsträcka för båda bilarna. Vilken energi är det som uppgifterna beskriver?</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.8,
+      56.26,
+      null
+    ],
+    "tolerans": [
+      0.145,
+      1.4065,
+      0.0781388888888889
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "ledtrad": "<p>100 km är 10 mil.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
     "manuellKomplettering": true,
     "miniräknare": true,
-    "geogebra": false
+    "geogebra": false,
+    "spelIntro": "<p>En bil drar 0,58 liter bensin per mil. Bensin ger 9,7 kWh per liter. En elbil använder 18 kWh per 100 km.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En bil drar 0,58 liter bensin per mil. Hur många liter går åt på 100 km? En mil är 10 km.",
+        "s": "<div class=\"facit-v2\"><p>\\[100\\ \\mathrm{km}=10\\ \\mathrm{mil}\\]</p><p>\\[V=10\\cdot0{,}58=5{,}8\\ \\mathrm L\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 5.8,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "L",
+        "tolerans": 0.145,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>100 km är 10 mil.</p>",
+        "t": "<p>En bil drar 0,58 liter bensin per mil. Hur många liter går åt på 100 km? En mil är 10 km.</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "fraga": "En bil använder 5,8 liter bensin på 100 km. Bensin ger 9,7 kWh per liter. Hur många kWh tillförs bilen?",
+        "s": "<div class=\"facit-v2\"><p>\\[E=5{,}8\\cdot9{,}7\\]</p><p>\\[E\\approx56{,}3\\ \\mathrm{kWh}\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 56.26,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": "kWh",
+        "tolerans": 1.4065,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Multiplicera antalet liter med energi per liter.</p>",
+        "t": "<p>En bil använder 5,8 liter bensin på 100 km. Bensin ger 9,7 kWh per liter. Hur många kWh tillförs bilen?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      },
+      {
+        "etikett": "c",
+        "fraga": "En bensinbil tillförs 56,26 kWh på 100 km. En elbil tillförs 18 kWh på samma sträcka. Hur många gånger så stor är bensinbilens tillförda energi?",
+        "s": "<div class=\"facit-v2\"><p>100 km är samma körsträcka. Bensinens tillförda energi är cirka 56 kWh, jämfört med 18 kWh för elbilen.</p><p><div class=\"facit-v2\"><p>\\[kvot=56{,}26/18\\]</p><p>\\[kvot\\approx3{,}13\\]</p></div></p><p>Bensinbilens tillförda energi är cirka 3,1 gånger så stor. Det är energin som tillförs bilarna som jämförs, inte arbetet vid hjulen.</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.1255555555555556,
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "tolerans": 0.0781388888888889,
+        "manuellKomplettering": false,
+        "niva": "E",
+        "traningsniva": 1,
+        "poang": "1/0/0",
+        "ledtrad": "<p>Dela bensinbilens energi med elbilens.</p>",
+        "t": "<p>En bensinbil tillförs 56,26 kWh på 100 km. En elbil tillförs 18 kWh på samma sträcka. Hur många gånger så stor är bensinbilens tillförda energi?</p>",
+        "arbetsinsats": 1,
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "L",
+      "kWh",
+      null
+    ]
   },
   {
     "id": "2.214",
@@ -3362,7 +3488,7 @@ window.BANK = [
     "familjNyckel": "enheter__area_och_volymenheter",
     "svarstyp": "numeriskt",
     "rättSvar": 1.56e-05,
-    "tolerans": 0,
+    "tolerans": 5e-08,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -5276,8 +5402,8 @@ window.BANK = [
       11.3
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.05
     ],
     "självrättning": true,
     "familjNyckelTidigare": "enheter__prefix_tiopotenser_och_storleksordning",
@@ -5304,7 +5430,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0.05
       },
       {
         "etikett": "b",
@@ -5314,7 +5441,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0.05
       }
     ],
     "familjTidigare": [
@@ -5660,7 +5788,7 @@ window.BANK = [
     "typ": "skala volym mellan modell och verklighet",
     "poang": "(0/1/0)",
     "t": "<p>En modell är byggd i skala 1:50. En tank i modellen har volymen \\(18\\ \\mathrm{cm^3}\\). Vilken volym har den verkliga tanken i \\(\\mathrm{m^3}\\), om alla längder skalas lika?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Volym skalar med längdskalan i kubik.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den verkliga volymen är alltså \\(50^3\\) gånger modellens.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=18\\cdot50^3\\ \\mathrm{cm^3}=2{,}25\\cdot10^6\\ \\mathrm{cm^3}=2{,}25\\ \\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\ \\mathrm{m^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Volymen ökar med längdskalan i kubik.</p><p>\\[V=18\\cdot50^3\\ \\mathrm{cm^3}\\]</p><p>\\[V=2250000\\ \\mathrm{cm^3}\\]</p><p>En cm³ är 10⁻⁶ m³.</p><p>\\[V=2{,}25\\ \\mathrm{m^3}\\]</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -5689,11 +5817,11 @@ window.BANK = [
     "id": "2.63",
     "kap": 2,
     "omr": "enheter",
-    "niva": "A",
+    "niva": "C",
     "typ": "skala om massa och hållfasthet mellan modell och verklighet, ur text, sökt kraft",
-    "poang": "(1/2/2)",
-    "t": "<p>En konstruktion och dess modell är geometriskt likformiga och gjorda av samma material. Längdskalan är 1:20. Modellen har massan 45 kg. Hela dess tyngd bärs av en enda pelare som klarar en total tryckkraft på 12 kN. I den förenklade modellen är pelarens största tillåtna tryckkraft proportionell mot tvärsnittsarean. Bortse från knäckning och andra laster.</p><ol type=\"a\"><li>Bestäm den verkliga konstruktionens massa.</li><li>Bestäm den verkliga pelarens största tryckkraft enligt modellen.</li><li>Räcker pelarens beräknade hållfasthet för konstruktionens egen tyngd enligt den förenklade modellen? Jämför kvoten mellan maximal kraft och tyngd för modellen och den verkliga konstruktionen.</li><li>Förklara varför den här förenklade beräkningen inte räcker för att avgöra om en verklig konstruktion är säker.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan följer volymen och skalfaktorn i kubik.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=45\\cdot20^3=3{,}60\\cdot10^5\\ \\mathrm{kg}=360\\ \\mathrm{ton}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Pelarens bärförmåga antas följa tvärsnittsarean och därmed skalfaktorn i kvadrat.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\max}=12\\cdot20^2=4800\\ \\mathrm{kN}=4{,}8\\ \\mathrm{MN}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför bärförmågan med tyngden i båda fallen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{12\\,000}{45\\cdot9{,}82}\\approx27{,}2\\]\\[\\frac{4{,}8\\cdot10^6}{3{,}60\\cdot10^5\\cdot9{,}82}\\approx1{,}36\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Konstruktionen får massan \\(3{,}6\\cdot10^5\\ \\mathrm{kg}\\), och pelaren klarar \\(4{,}8\\ \\mathrm{MN}\\). Den verkliga konstruktionen bär sig enligt modellen, men säkerhetsmarginalen minskar från cirka 27 till 1,4.</p></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Detta gäller endast den angivna modellen.</p></div><div class=\"facit-stycke\"><p>En verklig konstruktion behöver också bedömas med hänsyn till exempelvis knäckning, lastfördelning och extra laster.</p></div><div class=\"facit-stycke\"><p>Kvoten 1,36 visar bara att tyngden understiger den modellerade maxkraften; den visar inte att konstruktionen är säker i praktiken.</p></div></div></div></div></div>",
+    "poang": "(0/1/0)",
+    "t": "<p>En modell i skala 1:20 väger 45 kg. En pelare bär hela modellens tyngd och klarar högst 12 kN. Originalet har samma form och material. I beräkningen ökar pelarens maxkraft med dess area. Använd g = 9,82 m/s².</p><p>a) Bestäm originalets massa i kg.</p><p>b) Bestäm originalets maxkraft i N.</p><p>c) Klarar originalets pelare konstruktionens tyngd enligt modellen? Jämför maxkraften delad med tyngden för modellen och originalet.</p><p>d) Vad mer behöver man ta hänsyn till för att bedöma en verklig konstruktion?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Massan ökar som volymen, med 20³.</p><p>\\[m=45\\cdot20^3\\ \\mathrm{kg}\\]</p><p>\\[m=360000\\ \\mathrm{kg}\\]</p><p><strong>b)</strong></p><p>Maxkraften ökar som arean, med 20².</p><p>\\[F_{max}=12000\\cdot20^2\\ \\mathrm N\\]</p><p>\\[F_{max}=4800000\\ \\mathrm N\\]</p><p><strong>c)</strong></p><p>Modellens tyngd är mg. Kvoten maxkraft/tyngd blir:</p><p>\\[k_{modell}=12000/(45\\cdot9{,}82)\\]</p><p>\\[k_{modell}\\approx27{,}2\\]</p><p>För originalet:</p><p>\\[k_{original}=4800000/(360000\\cdot9{,}82)\\]</p><p>\\[k_{original}\\approx1{,}36\\]</p><p>Kvoten är större än 1, så pelaren klarar tyngden enligt modellen. Marginalen är mycket mindre än för den lilla modellen.</p><p><strong>d)</strong></p><p>Beräkningen räknar bara med egen tyngd och att maxkraften följer arean. En verklig pelare kan också böja sig. Andra laster och hur kraften fördelas behöver bedömas.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "modellering",
@@ -5726,7 +5854,7 @@ window.BANK = [
     "typ": "beräkna cirkelarea med enhetsomvandling",
     "poang": "(1/0/0)",
     "t": "<p>En rund öppning har radien \\(12{,}0\\ \\mathrm{mm}\\). Bestäm öppningens area i \\(\\mathrm{m^2}\\).</p><p>Ange svaret med tre värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Radien måste först skrivas i meter.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därefter används cirkelns area.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=0{,}0120\\ \\mathrm m\\]\\[A=\\pi r^2=\\pi(0{,}0120)^2\\approx4{,}52\\cdot10^{-4}\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}52\\cdot10^{-4}\\ \\mathrm{m^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>\\[r=12{,}0\\ \\mathrm{mm}=0{,}0120\\ \\mathrm m\\]</p><p>\\[A=\\pi r^2\\]</p><p>\\[A=\\pi(0{,}0120)^2\\]</p><p>\\[A\\approx4{,}52\\cdot10^{-4}\\ \\mathrm{m^2}\\]</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -5734,7 +5862,7 @@ window.BANK = [
     "familjNyckel": "enheter__area_och_volymenheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.000452,
-    "tolerans": 0,
+    "tolerans": 5e-07,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -5840,7 +5968,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla elektriska storheter till grundenheter, ur text, sökt ström spänning och resistans",
     "poang": "(6/0/0)",
-    "t": "<p>Skriv värdena utan prefix, alltså i grundenheten ampere (A), ohm (Ω) eller volt (V).</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 mA</div><div>b) 45 µA</div><div>c) 4,7 kΩ</div><div>d) 2,2 MΩ</div><div>e) 12 mV</div><div>f) 400 kV</div></div>",
+    "t": "<p>Skriv värdena utan prefix, alltså i enheten ampere (A), ohm (Ω) eller volt (V).</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 mA</div><div>b) 45 µA</div><div>c) 4,7 kΩ</div><div>d) 2,2 MΩ</div><div>e) 12 mV</div><div>f) 400 kV</div></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[250 \\mathrm{mA}=0{,}250\\, \\mathrm{A}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mikro betyder miljondel: 45 µA = 0,000045 A.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kilo betyder tusen: 4,7 kΩ = 4700 Ω.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mega betyder en miljon: 2,2 MΩ = 2 200 000 Ω.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[12 \\mathrm{mV}=0{,}012\\, \\mathrm{V}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kilo betyder tusen:</p><div class=\"facit-matte\">\\[400 \\mathrm{kV}=400\\,000\\, \\mathrm{V}\\]</div></div></div></div></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -5972,7 +6100,7 @@ window.BANK = [
     "familjNyckel": "enheter__enhetsomvandling",
     "svarstyp": "numeriskt",
     "rättSvar": 0.236,
-    "tolerans": 0,
+    "tolerans": 0.0005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -5990,7 +6118,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Skriv följande längder i enheten meter, med svaret i grundpotensform.</p>\n<ol type=\"a\"><li>6,2 nm</li><li>24 Gm</li><li>3,4·10³ km</li><li>155 pm</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Nano betyder \\(10^{-9}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[6{,}2\\ \\mathrm{nm}=6{,}2\\cdot10^{-9}\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Giga betyder \\(10^9\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[24\\ \\mathrm{Gm}=24\\cdot10^9=2{,}4\\cdot10^{10}\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En kilometer är \\(10^3\\) meter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[3{,}4\\cdot10^3\\ \\mathrm{km}=3{,}4\\cdot10^6\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Piko betyder \\(10^{-12}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[155\\ \\mathrm{pm}=155\\cdot10^{-12}=1{,}55\\cdot10^{-10}\\ \\mathrm m\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot10^{-9}\\ \\mathrm m\\), \\(2{,}4\\cdot10^{10}\\ \\mathrm m\\), \\(3{,}4\\cdot10^6\\ \\mathrm m\\) och \\(1{,}55\\cdot10^{-10}\\ \\mathrm m\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Nano, giga, kilo och piko motsvarar 10⁻⁹, 10⁹, 10³ och 10⁻¹².</p><p><strong>a)</strong></p><p>\\[6{,}2\\ \\mathrm{nm}=6{,}2\\cdot10^{-9}\\ \\mathrm m\\]</p><p><strong>b)</strong></p><p>\\[24\\ \\mathrm{Gm}=24\\cdot10^9\\ \\mathrm m\\]</p><p>\\[24\\ \\mathrm{Gm}=2{,}4\\cdot10^{10}\\ \\mathrm m\\]</p><p><strong>c)</strong></p><p>\\[3{,}4\\cdot10^3\\ \\mathrm{km}=3{,}4\\cdot10^6\\ \\mathrm m\\]</p><p><strong>d)</strong></p><p>\\[155\\ \\mathrm{pm}=155\\cdot10^{-12}\\ \\mathrm m\\]</p><p>\\[155\\ \\mathrm{pm}=1{,}55\\cdot10^{-10}\\ \\mathrm m\\]</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -6029,7 +6157,7 @@ window.BANK = [
     "familjNyckel": "enheter__prefix_tiopotenser_och_storleksordning",
     "svarstyp": "numeriskt",
     "rättSvar": 1.67,
-    "tolerans": 0,
+    "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -6069,7 +6197,7 @@ window.BANK = [
     "tolerans": [
       0,
       0,
-      0,
+      0.005,
       0,
       0,
       0
@@ -6106,7 +6234,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0
       },
       {
         "etikett": "b",
@@ -6116,7 +6245,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0
       },
       {
         "etikett": "c",
@@ -6126,7 +6256,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0.005
       },
       {
         "etikett": "d",
@@ -6136,7 +6267,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0
       },
       {
         "etikett": "e",
@@ -6146,7 +6278,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0
       },
       {
         "etikett": "f",
@@ -6156,7 +6289,8 @@ window.BANK = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "tolerans": 0
       }
     ],
     "miniräknare": true,
@@ -6441,7 +6575,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Prefixen framför en enhet betyder olika tiopotenser.</p>\n<ol type=\"a\"><li>Skriv 4,5 mikrometer i meter.</li><li>Skriv 0,000 000 12 m med prefix.</li>\n<li>Vilket är störst: 500 nanometer eller 0,3 mikrometer?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Prefixet mikro betyder \\(10^{-6}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4{,}5\\ \\mu\\mathrm m=4{,}5\\cdot10^{-6}\\ \\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv talet i grundpotensform och välj ett lämpligt prefix.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}2\\cdot10^{-7}\\ \\mathrm m=120\\ \\mathrm{nm}=0{,}12\\ \\mu\\mathrm m\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv båda i samma enhet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[500\\ \\mathrm{nm}=0{,}500\\ \\mu\\mathrm m&gt;0{,}3\\ \\mu\\mathrm m\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mu\\mathrm m=4{,}5\\cdot10^{-6}\\ \\mathrm m\\), \\(0{,}000\\,000\\,12\\ \\mathrm m=120\\ \\mathrm{nm}\\), och \\(500\\ \\mathrm{nm}\\) är störst.</p></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Mikro betyder 10⁻⁶.</p><p>\\[4{,}5\\ \\mu\\mathrm m=4{,}5\\cdot10^{-6}\\ \\mathrm m\\]</p><p><strong>b)</strong></p><p>\\[0{,}00000012\\ \\mathrm m=1{,}2\\cdot10^{-7}\\ \\mathrm m\\]</p><p>\\[0{,}00000012\\ \\mathrm m=120\\ \\mathrm{nm}\\]</p><p>Även 0,12 µm är samma längd.</p><p><strong>c)</strong></p><p>\\[0{,}3\\ \\mu\\mathrm m=300\\ \\mathrm{nm}\\]</p><p>500 nm är större än 300 nm, så 500 nm är störst.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur",
@@ -6609,30 +6743,91 @@ window.BANK = [
     "id": "2.226",
     "kap": 2,
     "omr": "enheter",
-    "niva": "A",
-    "typ": "härleda exponenter med dimensionsanalys",
-    "poang": "(0/1/2)",
-    "t": "<p>Anta att en pendels period kan skrivas \\(T=C\\ell^a g^b\\), där \\(C\\) är ett tal utan enhet, \\(\\ell\\) är en längd och \\(g\\) en acceleration. Bestäm exponenterna \\(a\\) och \\(b\\) genom att jämföra enheterna på båda sidor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in dimensionerna \\([T]=T\\),</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">\\([\\ell]=L\\) och \\([g]=LT^{-2}\\) och jämför exponenterna för längd och tid på båda sidor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T=L^a(LT^{-2})^b=L^{a+b}T^{-2b}\\]\\[-2b=1\\Rightarrow b=-\\tfrac12\\]\\[a+b=0\\Rightarrow a=\\tfrac12\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\tfrac12\\) och \\(b=-\\tfrac12\\).</p></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>a) En pendels period modelleras med T = Cℓᵃgᵇ. T mäts i s, ℓ i m och g i m/s². C saknar enhet. Bestäm a och b genom att jämföra enheterna.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\mathrm s=\\mathrm m^a(\\mathrm{m/s^2})^b\\]</p><p>\\[\\mathrm s=\\mathrm m^{a+b}\\mathrm s^{-2b}\\]</p><p>Jämför exponenterna: vänster sida har ingen meterfaktor och en sekundfaktor.</p><p>\\[a+b=0,\\qquad -2b=1\\]</p><p>\\[b=-1/2,\\qquad a=1/2\\]</p></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "enheter__dimensionsanalys_och_enhetskontroll",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        0.5,
+        -0.5
+      ]
+    ],
+    "tolerans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "självrättning": [
+      true
+    ],
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv högerledets längdenhet och tidsenhet var för sig. Vilka exponenter krävs för att bara tid ska återstå?</p>",
-    "spel": false,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "manuellKomplettering": true,
+    "ledtrad": "<p>Ersätt varje storhet med dess enhet och jämför exponenterna.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Dimensionsanalys och enhetskontroll"
+    ],
+    "spelIntro": "",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En pendels period modelleras med T = Cℓᵃgᵇ. T mäts i s, ℓ i m och g i m/s². C saknar enhet. Bestäm a och b genom att jämföra enheterna.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\mathrm s=\\mathrm m^a(\\mathrm{m/s^2})^b\\]</p><p>\\[\\mathrm s=\\mathrm m^{a+b}\\mathrm s^{-2b}\\]</p><p>Jämför exponenterna: vänster sida har ingen meterfaktor och en sekundfaktor.</p><p>\\[a+b=0,\\qquad -2b=1\\]</p><p>\\[b=-1/2,\\qquad a=1/2\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          0.5,
+          -0.5
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 4,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Ersätt varje storhet med dess enhet och jämför exponenterna.</p>",
+        "t": "<p>En pendels period modelleras med T = Cℓᵃgᵇ. T mäts i s, ℓ i m och g i m/s². C saknar enhet. Bestäm a och b genom att jämföra enheterna.</p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "a",
+          "b"
+        ],
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "svarFormat": [
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null
+      ]
     ]
   },
   {
@@ -6765,7 +6960,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En kvadrat har sidan x centimeter, där x &gt; 0.</p>\n<ol type=\"a\"><li>Ange kvadratens area i m², uttryckt i x.</li>\n<li>Ange volymen i m³ för en kub med sidan x centimeter, där x &gt; 0.</li>\n<li>Kontrollera ditt uttryck i b-uppgiften för en kub med sidan 4,0 cm.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv sidan i meter och kvadrera.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=0{,}01x\\ \\mathrm m\\Rightarrow A=s^2=1{,}0\\cdot10^{-4}x^2\\ \\mathrm{m^2}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kubera samma omräknade sidlängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=s^3=(0{,}01x)^3=1{,}0\\cdot10^{-6}x^3\\ \\mathrm{m^3}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt \\(x=4{,}0\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=1{,}0\\cdot10^{-6}\\cdot4{,}0^3=6{,}4\\cdot10^{-5}\\ \\mathrm{m^3}=64\\ \\mathrm{cm^3}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(A=1{,}0\\cdot10^{-4}x^2\\ \\mathrm{m^2}\\) och \\(V=1{,}0\\cdot10^{-6}x^3\\ \\mathrm{m^3}\\). För \\(x=4{,}0\\) blir volymen \\(6{,}4\\cdot10^{-5}\\ \\mathrm{m^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Sidan är x cm, alltså 0,01x m.</p><p><strong>a)</strong></p><p>\\[A=(0{,}01x)^2\\ \\mathrm{m^2}\\]</p><p>\\[A=10^{-4}x^2\\ \\mathrm{m^2}\\]</p><p><strong>b)</strong></p><p>\\[V=(0{,}01x)^3\\ \\mathrm{m^3}\\]</p><p>\\[V=10^{-6}x^3\\ \\mathrm{m^3}\\]</p><p><strong>c)</strong></p><p>Sätt x = 4,0.</p><p>\\[V=10^{-6}\\cdot4{,}0^3\\ \\mathrm{m^3}\\]</p><p>\\[V=6{,}4\\cdot10^{-5}\\ \\mathrm{m^3}\\]</p><p>Det är 64 cm³.</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur",
@@ -6792,30 +6987,98 @@ window.BANK = [
     "id": "2.227",
     "kap": 2,
     "omr": "enheter",
-    "niva": "A",
-    "typ": "härleda skalning ur dimensioner och använda den",
-    "poang": "(0/1/2)",
-    "t": "<p>En storhet \\(x\\) beror bara på en acceleration \\(a\\) och en tid \\(t\\): \\(x=C a^p t^q\\), där \\(C\\) är ett tal utan enhet och \\(x\\) har enheten meter.</p><p>Bestäm först exponenterna genom att jämföra enheterna på båda sidor. Hur många gånger större blir sedan \\(x\\) om accelerationen fördubblas och tiden tredubblas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Högerledets dimension är \\(L^pT^{-2p+q}\\).</p></div><div class=\"facit-stycke\"><p>Vänsterledet har dimensionen längd, så \\(p=1\\) och \\(-2p+q=0\\).</p></div><div class=\"facit-stycke\"><p>Därmed är \\(q=2\\) och \\(x=Cat^2\\).</p></div><div class=\"facit-stycke\"><p>När a fördubblas och t tredubblas multipliceras x med \\(2\\cdot3^2=18\\), om C är oförändrad.</p></div><div class=\"facit-stycke\"><p>Dimensionsanalysen bestämmer inte värdet på C.</p></div></div></div>",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "t": "<p>a) En längd x modelleras med x = Caᵖtᵠ. a är en acceleration i m/s² och t en tid i s. C saknar enhet. Bestäm p och q. Bestäm också faktorn som x multipliceras med om a fördubblas och t tredubblas.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\mathrm m=(\\mathrm{m/s^2})^p\\mathrm s^q\\]</p><p>\\[\\mathrm m=\\mathrm m^p\\mathrm s^{-2p+q}\\]</p><p>Meterexponenten ger p = 1. Sekundexponenten ska vara noll.</p><p>\\[-2p+q=0\\quad\\Rightarrow\\quad q=2\\]</p><p>Samma C används före och efter ändringen.</p><p>\\[f=2^1\\cdot3^2=18\\]</p></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "problemlösning"
     ],
     "familjNyckel": "enheter__dimensionsanalys_och_enhetskontroll",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        1,
+        2,
+        18
+      ]
+    ],
+    "tolerans": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "självrättning": [
+      true
+    ],
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilken längd- och tidsdimension får högerledet? Vänsterledet ska bara ha dimensionen längd.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "manuellKomplettering": true,
+    "ledtrad": "<p>Ersätt varje storhet med dess enhet och jämför exponenterna.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true,
+    "manuellKomplettering": false,
     "familjTidigare": [
       "Dimensionsanalys och enhetskontroll"
+    ],
+    "spelIntro": "",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En längd x modelleras med x = Caᵖtᵠ. a är en acceleration i m/s² och t en tid i s. C saknar enhet. Bestäm p och q. Bestäm också faktorn som x multipliceras med om a fördubblas och t tredubblas.",
+        "s": "<div class=\"facit-v2\"><p>\\[\\mathrm m=(\\mathrm{m/s^2})^p\\mathrm s^q\\]</p><p>\\[\\mathrm m=\\mathrm m^p\\mathrm s^{-2p+q}\\]</p><p>Meterexponenten ger p = 1. Sekundexponenten ska vara noll.</p><p>\\[-2p+q=0\\quad\\Rightarrow\\quad q=2\\]</p><p>Samma C används före och efter ändringen.</p><p>\\[f=2^1\\cdot3^2=18\\]</p></div>",
+        "svarstyp": "numeriskt",
+        "rättSvar": [
+          1,
+          2,
+          18
+        ],
+        "självrättning": true,
+        "svarFormat": "numeriskt",
+        "svarEnhet": [
+          null,
+          null,
+          null
+        ],
+        "tolerans": [
+          0,
+          0,
+          0
+        ],
+        "manuellKomplettering": false,
+        "niva": "C",
+        "traningsniva": 4,
+        "poang": "0/1/0",
+        "ledtrad": "<p>Ersätt varje storhet med dess enhet och jämför exponenterna.</p>",
+        "t": "<p>En längd x modelleras med x = Caᵖtᵠ. a är en acceleration i m/s² och t en tid i s. C saknar enhet. Bestäm p och q. Bestäm också faktorn som x multipliceras med om a fördubblas och t tredubblas.</p>",
+        "arbetsinsats": 2,
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "p",
+          "q",
+          "Faktor"
+        ],
+        "miniräknare": true
+      }
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a"
+    ],
+    "svarFormat": [
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null,
+        null
+      ]
     ]
   },
   {
@@ -6826,7 +7089,7 @@ window.BANK = [
     "typ": "omvandla massor till kilogram, ur text, sökt massa",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla massan till kilogram.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 g</div><div>b) 45 mg</div><div>c) 2,4 ton</div><div>d) 780 hg</div><div>e) 0,60 µg</div><div>f) 12 000 g</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{250 g}{1000}=0{,}250\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45 \\mathrm{mg}=0{,}045 g=0{,}000045\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett ton är 1000 kg: 2,4 ton = 2400 kg.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ett hekto är 0,1 kg:</p><div class=\"facit-matte\">\\[780 \\mathrm{hg}=78\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">0,60 µg =</p><div class=\"facit-matte\">\\[0{,}60\\cdot 10^{-6} g=0{,}60\\cdot 10^{-9} \\mathrm{kg}=6{,}0\\cdot 10^{-10}\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{12\\,000 g}{1000}=12\\, \\mathrm{kg}\\]</div></div></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p><strong>a)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{250 g}{1000}=0{,}250\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>b)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45 \\mathrm{mg}=0{,}045 g=0{,}000045\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>c)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett ton är 1000 kg: 2,4 ton = 2400 kg.</p></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>d)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ett hekto är 0,1 kg:</p><div class=\"facit-matte\">\\[780 \\mathrm{hg}=78\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>e)</strong></p><p><div class=\"facit-v2\"><p>Mikro betyder 10⁻⁶ gram och ett gram är 10⁻³ kg.</p><p>\\[m=0{,}60\\cdot10^{-6}\\ \\mathrm g\\]</p><p>\\[m=0{,}60\\cdot10^{-9}\\ \\mathrm{kg}\\]</p><p>\\[m=6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\]</p></div></p></div></p><p><div class=\"facit-v2\"><p><strong>f)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{12\\,000 g}{1000}=12\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -6917,7 +7180,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 0,60 µg till kilogram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">0,60 µg =</p><div class=\"facit-matte\">\\[0{,}60\\cdot 10^{-6} g=0{,}60\\cdot 10^{-9} \\mathrm{kg}=6{,}0\\cdot 10^{-10}\\, \\mathrm{kg}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2\"><p>Mikro betyder 10⁻⁶ gram och ett gram är 10⁻³ kg.</p><p>\\[m=0{,}60\\cdot10^{-6}\\ \\mathrm g\\]</p><p>\\[m=0{,}60\\cdot10^{-9}\\ \\mathrm{kg}\\]</p><p>\\[m=6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\]</p></div>",
         "ledtrad": "<p>Omvandla först mikrogram till gram.</p>",
         "niva": "E",
         "poang": "(1/0/0)",

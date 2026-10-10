@@ -37630,95 +37630,95 @@ window.BANKMATF1 = [
     ]
   },
   {
-    "kap": 1,
-    "omr": "mangdlara_grund",
-    "niva": "E",
-    "typ": "mängdlära – grundträning",
-    "poang": "1/0/0",
-    "t": "<p>Hur många delmängder har en mängd med 3 element?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Varje element har två val: vara med eller inte vara med.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med 3 element får vi \\(2^3=8\\) delmängder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Den tomma mängden och hela mängden räknas också.</p></li></ol></div>",
-    "id": "1.565",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Mängder, element och mängdbyggare",
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "traningsniva": 1,
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
-    "omrTidigare": [
-      "mangder_venn"
-    ],
-    "familjTidigare": [
-      "Mängder och Venn-diagram"
-    ]
-  },
+  "kap": 1,
+  "omr": "mangdlara_grund",
+  "niva": "E",
+  "typ": "mängdlära – grundträning",
+  "poang": "1/0/0",
+  "t": "<p>Hur många delmängder har mängden \\(\\{a,b,c\\}\\)? Räkna även med den tomma mängden och hela mängden.</p>",
+  "s": "<div class=\"facit-v2\"><p>För varje element finns två val: ta med det eller låt bli. Multiplicera antalet val för alla elementen.</p><p>\\[2^3=8.\\]</p><p>Den tomma mängden får du om inget element tas med. Hela mängden får du om alla tas med.</p></div>",
+  "id": "1.565",
+  "miniräknare": false,
+  "geogebra": false,
+  "familj": "Mängder, element och mängdbyggare",
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "traningsniva": 2,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Ett element kan antingen vara med eller inte vara med i en delmängd.</p>",
+  "omrTidigare": [
+    "mangder_venn"
+  ],
+  "familjTidigare": [
+    "Mängder och Venn-diagram"
+  ]
+},
   {
-    "kap": 1,
-    "omr": "mangdlara_grund",
-    "niva": "E",
-    "typ": "mängdlära – grundträning",
-    "poang": "1/0/0",
-    "t": "<p>Hur många delmängder har en mängd med 4 element?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> En mängd med \\(n\\) element har \\(2^n\\) delmängder.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2^4=16\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att både den tomma mängden och hela mängden ingår.</p></li></ol></div>",
-    "id": "1.566",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Mängder, element och mängdbyggare",
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "traningsniva": 1,
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
-    "omrTidigare": [
-      "mangder_venn"
-    ],
-    "familjTidigare": [
-      "Mängder och Venn-diagram"
-    ]
-  },
+  "kap": 1,
+  "omr": "mangdlara_grund",
+  "niva": "E",
+  "typ": "mängdlära – grundträning",
+  "poang": "1/0/0",
+  "t": "<p>Hur många delmängder har mängden \\(\\{a,b,c,d\\}\\)? Räkna även med den tomma mängden och hela mängden.</p>",
+  "s": "<div class=\"facit-v2\"><p>För varje element finns två val: ta med det eller låt bli. Multiplicera antalet val för alla elementen.</p><p>\\[2^4=16.\\]</p><p>Den tomma mängden får du om inget element tas med. Hela mängden får du om alla tas med.</p></div>",
+  "id": "1.566",
+  "miniräknare": false,
+  "geogebra": false,
+  "familj": "Mängder, element och mängdbyggare",
+  "svarstyp": "numeriskt",
+  "rättSvar": 16,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "traningsniva": 2,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Ett element kan antingen vara med eller inte vara med i en delmängd.</p>",
+  "omrTidigare": [
+    "mangder_venn"
+  ],
+  "familjTidigare": [
+    "Mängder och Venn-diagram"
+  ]
+},
   {
-    "kap": 1,
-    "omr": "mangdlara_grund",
-    "niva": "E",
-    "typ": "mängdlära – grundträning",
-    "poang": "1/0/0",
-    "t": "<p>Hur många delmängder har en mängd med 5 element?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Använd sambandet \\(2^n\\) för en mängd med \\(n\\) element.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2^5=32\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Fem oberoende ja/nej-val ger 32 möjligheter.</p></li></ol></div>",
-    "id": "1.567",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Mängder, element och mängdbyggare",
-    "svarstyp": "numeriskt",
-    "rättSvar": 32,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "traningsniva": 2,
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
-    "omrTidigare": [
-      "mangder_venn"
-    ],
-    "familjTidigare": [
-      "Mängder och Venn-diagram"
-    ]
-  },
+  "kap": 1,
+  "omr": "mangdlara_grund",
+  "niva": "E",
+  "typ": "mängdlära – grundträning",
+  "poang": "1/0/0",
+  "t": "<p>Hur många delmängder har mängden \\(\\{a,b,c,d,e\\}\\)? Räkna även med den tomma mängden och hela mängden.</p>",
+  "s": "<div class=\"facit-v2\"><p>För varje element finns två val: ta med det eller låt bli. Multiplicera antalet val för alla elementen.</p><p>\\[2^5=32.\\]</p><p>Den tomma mängden får du om inget element tas med. Hela mängden får du om alla tas med.</p></div>",
+  "id": "1.567",
+  "miniräknare": false,
+  "geogebra": false,
+  "familj": "Mängder, element och mängdbyggare",
+  "svarstyp": "numeriskt",
+  "rättSvar": 32,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "traningsniva": 2,
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Ett element kan antingen vara med eller inte vara med i en delmängd.</p>",
+  "omrTidigare": [
+    "mangder_venn"
+  ],
+  "familjTidigare": [
+    "Mängder och Venn-diagram"
+  ]
+},
   {
     "kap": 1,
     "omr": "mangdoperatorer",

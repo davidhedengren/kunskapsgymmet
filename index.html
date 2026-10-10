@@ -3857,7 +3857,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-10-fy1-enheter";
+const BANK_VERSION="2026-10-10-felrapporter-svarsformat";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9623,7 +9623,7 @@ function kvadratkompletteratSvarRatt(anv,facit){
 }
 
 function faktoriseratSvarRatt(anv,facit){
-  if(algebraisktLika(anv,facit)!==true || typeof nerdamer==="undefined") return false;
+  if(algebraisktLika(hogerled(anv),hogerled(facit))!==true || typeof nerdamer==="undefined") return false;
   const uttryck=s=>tillNerdamer(normalizeMathInput(hogerled(s))).replace(/\s+/g,"");
   const yttreParentes=s=>{
     while(s.startsWith("(") && s.endsWith(")")){
@@ -9743,6 +9743,16 @@ function formatRatt(anv,facit,meta){
   if(!a) return false;
 
   switch(format){
+    case "multipel": {
+      // Endast storleksförhållanden: ord får inte bli antal, krafter eller tryck.
+      const ord=stadaSvar(a).toLowerCase().replace(/[.!]$/, "").trim();
+      const match=ord.match(/^(dubbelt|dubbla|två gånger|tredubbelt|tre gånger|fyrdubbelt|fyra gånger|fem gånger|hälften|halva)(?: så (?:stor|stort|stora|mycket)| så högt)?$/);
+      if(match){
+        const tal={dubbelt:2,dubbla:2,"två gånger":2,tredubbelt:3,"tre gånger":3,fyrdubbelt:4,"fyra gånger":4,"fem gånger":5,hälften:0.5,halva:0.5}[match[1]];
+        return naraNog(tal,talAv(f),tol);
+      }
+      return formatRatt(a,f,{...meta,format:"numeriskt"});
+    }
     case "förenklat_polynom":
       {
       const unit=String(meta.enhet||"");
@@ -10624,6 +10634,7 @@ function latexToPlain(s){
   x=x.replace(/<[^>]+>/g," ");
 
   x=x.replace(/\\\(|\\\)|\\\[|\\\]|\$\$/g,"");
+  x=x.replace(/\\approx(?![a-zA-Z])/g,"≈").replace(/\{,\}/g,",");
   /* Jämförelsetecken först, innan \sqrt2 och liknande skrivs om ("\le\sqrt2"). */
   x=x.replace(/\\(?:leq?|leqslant)(?![a-zA-Z])/g,"≤").replace(/\\(?:geq?|geqslant)(?![a-zA-Z])/g,"≥");
   x=x.replace(/\\lt(?![a-zA-Z])/g,"<").replace(/\\gt(?![a-zA-Z])/g,">").replace(/\\neq?(?![a-zA-Z])/g,"≠");
@@ -12375,7 +12386,13 @@ function checkAnswer(){
       kvar.splice(träff,1);
       return true;
     });
-    res.forEach((ok,i)=>markPart(i,ok,ok?null:kvar.map(k=>k.v).join(" eller ")));
+    const korrigering=facitText({
+      svar:expected,
+      tol:expected.map((_,i)=>Array.isArray(t.tolerans)?t.tolerans[i]:t.tolerans),
+      format:expected.map((_,i)=>Array.isArray(t.svarFormat)?t.svarFormat[i]:t.svarFormat),
+      enhet:expected.map((_,i)=>Array.isArray(t.svarEnhet)?t.svarEnhet[i]:t.svarEnhet)
+    },kvar.map(k=>({v:k.v,j:k.i})));
+    res.forEach((ok,i)=>markPart(i,ok,ok?null:korrigering));
     state.partResults=res;
     finishAttempt(res);
     return;
@@ -12470,7 +12487,8 @@ function visatSvar(v,tol,format){
   if(format==="brak_i_intervall"||format==="negativt_talpar"){
     return "Till exempel "+String(v).replace(/,\s*(?=-)/g,";");
   }
-  return visatFacitUttryck(visatFacitTal(v,tol),format);
+  const text=visatFacitUttryck(visatFacitTal(v,tol),format);
+  return /\\[a-zA-Z]/.test(text) && !text.includes("\\(") ? "\\("+text+"\\)" : text;
 }
 function facitText(d,kvar){
   return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))

@@ -67302,84 +67302,84 @@ window.BANK = [
     ]
   },
   {
-    "id": "6.65",
-    "kap": 6,
-    "omr": "vatsketryck",
-    "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><p><strong>a)</strong> Hur stort är det totala trycket (absoluttrycket) vid bassängens botten? Svara i kPa. Avrunda vid behov till 2 decimaler.</p><p><strong>b)</strong> Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket tre gånger så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lägg ihop lufttrycket och vattnets tryckökning. Lufttrycket är 101,3 kPa = 101300 Pa.</p>\\[\\Delta p=998\\cdot9{,}82\\cdot3{,}5=34301{,}26\\,\\mathrm{Pa}.\\]\\[p=101300+34301{,}26=135601{,}26\\,\\mathrm{Pa}.\\]\\[p=135{,}60126\\,\\mathrm{kPa}.\\]<p><strong>Svar:</strong> \\(135{,}60\\,\\mathrm{kPa}\\).</p><p><strong>b)</strong></p><p>När det totala trycket är tre gånger yttrycket ska vattnet bidra med två gånger yttrycket.</p>\\[\\Delta p=(3-1)\\cdot101300=202600\\,\\mathrm{Pa}.\\]\\[h=\\frac{202600}{998\\cdot9{,}82}\\approx20{,}6727\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(20{,}67\\,\\mathrm{m}\\).</p></div>",
-    "familj": "Absoluttryck, övertryck och lufttryck",
-    "formaga": [
-      "procedur"
-    ],
-    "familjNyckel": "vatsketryck__absoluttryck_och_djup",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      135.60126,
-      20.6727099820823
-    ],
-    "tolerans": [
-      0.005,
-      0.005
-    ],
-    "självrättning": true,
-    "ledtrad": "<p>Lägg ihop yttrycket och vattenpelarens bidrag.</p>",
-    "traningsniva": 3,
-    "typ": "absoluttryck och djup",
-    "miniräknare": true,
-    "geogebra": false,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarEnhet": [
-      "kPa",
-      "m"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stort är det totala trycket (absoluttrycket) vid bassängens botten? Svara i kPa. Avrunda vid behov till 2 decimaler.",
-        "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><p>Hur stort är det totala trycket (absoluttrycket) vid bassängens botten? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg ihop lufttrycket och vattnets tryckökning. Lufttrycket är 101,3 kPa = 101300 Pa.</p>\\[\\Delta p=998\\cdot9{,}82\\cdot3{,}5=34301{,}26\\,\\mathrm{Pa}.\\]\\[p=101300+34301{,}26=135601{,}26\\,\\mathrm{Pa}.\\]\\[p=135{,}60126\\,\\mathrm{kPa}.\\]<p><strong>Svar:</strong> \\(135{,}60\\,\\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Lägg ihop yttrycket och vattenpelarens bidrag.</p>",
-        "niva": "E",
-        "traningsniva": 2,
-        "arbetsinsats": 2,
-        "poang": "(1/0/0)",
-        "formaga": [
-          "procedur"
-        ]
-      },
-      {
-        "etikett": "b",
-        "fraga": "På vilket djup är det totala trycket tre gånger lufttrycket vid ytan? Svara i m med två decimaler.",
-        "t": "<p>Vattnet i en sjö har densiteten 998 kg/m³. Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>På vilket djup är det totala trycket tre gånger lufttrycket vid ytan? Svara i m med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>När det totala trycket är tre gånger yttrycket ska vattnet bidra med två gånger yttrycket.</p>\\[\\Delta p=(3-1)\\cdot101300=202600\\,\\mathrm{Pa}.\\]\\[h=\\frac{202600}{998\\cdot9{,}82}\\approx20{,}6727\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(20{,}67\\,\\mathrm{m}\\).</p></div>",
-        "ledtrad": "<p>Hur stort ska vattenpelarens bidrag vara?</p>",
-        "niva": "C",
-        "traningsniva": 3,
-        "arbetsinsats": 2,
-        "poang": "(0/1/0)",
-        "formaga": [
-          "procedur"
-        ]
-      }
-    ],
-    "familjTidigare": [
-      "Absoluttryck och djup"
-    ]
-  },
+  "id": "6.65",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "C",
+  "poang": "(1/1/0)",
+  "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><p><strong>a)</strong> Hur stort är trycket vid bassängens botten, inklusive lufttrycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</p><p><strong>b)</strong> Tänk dig ett djupare vattenområde med samma densitet och lufttryck. På vilket djup är absoluttrycket tre gånger så stort som yttrycket? Svara i m. Avrunda vid behov till 2 decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Lägg ihop lufttrycket och vattnets tryckökning. Lufttrycket är 101,3 kPa = 101300 Pa.</p>\\[\\Delta p=998\\cdot9{,}82\\cdot3{,}5=34301{,}26\\,\\mathrm{Pa}.\\]\\[p=101300+34301{,}26=135601{,}26\\,\\mathrm{Pa}.\\]\\[p=135{,}60126\\,\\mathrm{kPa}.\\]<p><strong>Svar:</strong> \\(135{,}60\\,\\mathrm{kPa}\\).</p><p><strong>b)</strong></p><p>När det totala trycket är tre gånger yttrycket ska vattnet bidra med två gånger yttrycket.</p>\\[\\Delta p=(3-1)\\cdot101300=202600\\,\\mathrm{Pa}.\\]\\[h=\\frac{202600}{998\\cdot9{,}82}\\approx20{,}6727\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(20{,}67\\,\\mathrm{m}\\).</p></div>",
+  "familj": "Absoluttryck, övertryck och lufttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vatsketryck__absoluttryck_och_djup",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    135.60126,
+    20.6727099820823
+  ],
+  "tolerans": [
+    0.005,
+    0.005
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Lägg ihop yttrycket och vattenpelarens bidrag.</p>",
+  "traningsniva": 3,
+  "typ": "absoluttryck och djup",
+  "miniräknare": true,
+  "geogebra": false,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": [
+    "kPa",
+    "m"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelIntro": "<p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p>",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "Hur stort är trycket vid bassängens botten, inklusive lufttrycket? Svara i kPa. Avrunda vid behov till 2 decimaler.",
+      "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En öppen simbassäng är 3,5 m djup. Lufttrycket är 101,3 kPa och vattnets densitet 998 kg/m³.</p><p>Hur stort är trycket vid bassängens botten, inklusive lufttrycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg ihop lufttrycket och vattnets tryckökning. Lufttrycket är 101,3 kPa = 101300 Pa.</p>\\[\\Delta p=998\\cdot9{,}82\\cdot3{,}5=34301{,}26\\,\\mathrm{Pa}.\\]\\[p=101300+34301{,}26=135601{,}26\\,\\mathrm{Pa}.\\]\\[p=135{,}60126\\,\\mathrm{kPa}.\\]<p><strong>Svar:</strong> \\(135{,}60\\,\\mathrm{kPa}\\).</p></div>",
+      "ledtrad": "<p>Lägg ihop yttrycket och vattenpelarens bidrag.</p>",
+      "niva": "E",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "poang": "(1/0/0)",
+      "formaga": [
+        "procedur"
+      ]
+    },
+    {
+      "etikett": "b",
+      "fraga": "På vilket djup är det totala trycket tre gånger lufttrycket vid ytan? Svara i m med två decimaler.",
+      "t": "<p>Vattnet i en sjö har densiteten 998 kg/m³. Lufttrycket vid ytan är 101,3 kPa. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>På vilket djup är det totala trycket tre gånger lufttrycket vid ytan? Svara i m med två decimaler.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>När det totala trycket är tre gånger yttrycket ska vattnet bidra med två gånger yttrycket.</p>\\[\\Delta p=(3-1)\\cdot101300=202600\\,\\mathrm{Pa}.\\]\\[h=\\frac{202600}{998\\cdot9{,}82}\\approx20{,}6727\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(20{,}67\\,\\mathrm{m}\\).</p></div>",
+      "ledtrad": "<p>Hur stort ska vattenpelarens bidrag vara?</p>",
+      "niva": "C",
+      "traningsniva": 3,
+      "arbetsinsats": 2,
+      "poang": "(0/1/0)",
+      "formaga": [
+        "procedur"
+      ]
+    }
+  ],
+  "familjTidigare": [
+    "Absoluttryck och djup"
+  ]
+},
   {
     "id": "6.153",
     "kap": 6,
@@ -168439,32 +168439,32 @@ window.BANK = [
     "rättSvar273": 30309.3287827076
   },
   {
-    "kap": 6,
-    "omr": "gaslagen",
-    "niva": "E",
-    "typ": "temperatur ur kvoter",
-    "poang": "(1/0/0)",
-    "t": "<p>Antalet gasmolekyler i en behållare fördubblas. En kolv kan röra sig så att trycket är oförändrat. Temperaturen är också oförändrad.</p><p>Hur många gånger så stor blir gasens volym? Svara med ett heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid samma tryck och temperatur tar dubbelt så många molekyler dubbelt så stor plats. Gaslagen \\(pV=nRT\\) ger att volymen och antalet mol förändras med samma faktor.</p>\\[\\frac{V_2}{V_1}=\\frac{n_2}{n_1}=2.\\]<p><strong>Svar:</strong> \\(2\\).</p></div>",
-    "id": "6.534",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Allmänna gaslagen",
-    "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför hur mycket plats en respektive två lika stora gasmängder tar vid samma tryck och temperatur.</p>",
-    "traningsniva": 1,
-    "svarEnhet": null,
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "arbetsinsats": 1,
-    "spel": true
-  },
+  "kap": 6,
+  "omr": "gaslagen",
+  "niva": "E",
+  "typ": "temperatur ur kvoter",
+  "poang": "(1/0/0)",
+  "t": "<p>Antalet gasmolekyler i en behållare fördubblas. En kolv kan röra sig så att trycket är oförändrat. Temperaturen är också oförändrad.</p><p>Hur många gånger så stor blir gasens volym? Svara med ett heltal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid samma tryck och temperatur tar dubbelt så många molekyler dubbelt så stor plats. Gaslagen \\(pV=nRT\\) ger att volymen och antalet mol förändras med samma faktor.</p>\\[\\frac{V_2}{V_1}=\\frac{n_2}{n_1}=2.\\]<p><strong>Svar:</strong> \\(2\\).</p></div>",
+  "id": "6.534",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Allmänna gaslagen",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "multipel",
+  "ledtrad": "<p>Jämför hur mycket plats en respektive två lika stora gasmängder tar vid samma tryck och temperatur.</p>",
+  "traningsniva": 1,
+  "svarEnhet": null,
+  "familjNyckel": "gaslagen__allmanna_gaslagen",
+  "arbetsinsats": 1,
+  "spel": true
+},
   {
     "kap": 6,
     "omr": "gaslagen",
@@ -190665,59 +190665,59 @@ window.BANK = [
     "familjNyckel": "tryck__tryck"
   },
   {
-    "id": "6.552",
-    "kap": 6,
-    "omr": "tryck",
-    "familj": "Tryck p = F/A",
-    "niva": "E",
-    "poang": "(1/0/0)",
-    "typ": "jämföra tryck med och utan snösko",
-    "t": "<p>En sko har kontaktarean 200 cm². Med snösko blir kontaktarean 1000 cm². Samma kraft verkar mot marken i båda fallen. Hur många gånger så stort blir trycket utan snösko som med snösko?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Kontaktytor sedda uppifrån: en sko med area 200 cm² och en snösko med area 1000 cm².\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"105\" y=\"25\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Utan snösko</text><text x=\"345\" y=\"25\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Med snösko</text><ellipse cx=\"105\" cy=\"140\" rx=\"25\" ry=\"45\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><ellipse cx=\"345\" cy=\"140\" rx=\"55.9017\" ry=\"100.623\" fill=\"#fed7aa\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"105\" y=\"233\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">200 cm²</text><text x=\"345\" y=\"279\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">1000 cm²</text></g></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan snösko fördelas kraften över en femtedel så stor area. Trycket blir därför fem gånger så stort. Areorna kan jämföras direkt eftersom de har samma enhet.</p>\\[\\frac{p_\\mathrm{utan}}{p_\\mathrm{med}}=\\frac{1000}{200}=5\\]<p class=\"facit-svar\"><strong>Svar:</strong> 5 gånger så stort.</p></div>",
-    "ledtrad": "<p>Trycket ökar när samma kraft fördelas över mindre area.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "spel": true,
-    "självrättning": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5.0,
-    "tolerans": 0,
-    "svarFormat": "numeriskt",
-    "familjNyckel": "tryck__tryck"
-  },
+  "id": "6.552",
+  "kap": 6,
+  "omr": "tryck",
+  "familj": "Tryck p = F/A",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "jämföra tryck med och utan snösko",
+  "t": "<p>En sko har kontaktarean 200 cm². Med snösko blir kontaktarean 1000 cm². Samma kraft verkar mot marken i båda fallen. Hur många gånger så stort blir trycket utan snösko som med snösko?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Kontaktytor sedda uppifrån: en sko med area 200 cm² och en snösko med area 1000 cm².\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"105\" y=\"25\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Utan snösko</text><text x=\"345\" y=\"25\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Med snösko</text><ellipse cx=\"105\" cy=\"140\" rx=\"25\" ry=\"45\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><ellipse cx=\"345\" cy=\"140\" rx=\"55.9017\" ry=\"100.623\" fill=\"#fed7aa\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"105\" y=\"233\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">200 cm²</text><text x=\"345\" y=\"279\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">1000 cm²</text></g></svg></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Utan snösko fördelas kraften över en femtedel så stor area. Trycket blir därför fem gånger så stort. Areorna kan jämföras direkt eftersom de har samma enhet.</p>\\[\\frac{p_\\mathrm{utan}}{p_\\mathrm{med}}=\\frac{1000}{200}=5\\]<p class=\"facit-svar\"><strong>Svar:</strong> 5 gånger så stort.</p></div>",
+  "ledtrad": "<p>Trycket ökar när samma kraft fördelas över mindre area.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5.0,
+  "tolerans": 0,
+  "svarFormat": "multipel",
+  "familjNyckel": "tryck__tryck"
+},
   {
-    "id": "6.553",
-    "kap": 6,
-    "omr": "tryck",
-    "familj": "Tryck p = F/A",
-    "niva": "E",
-    "poang": "(1/0/0)",
-    "typ": "tryck under en eller två staplade klossar",
-    "t": "<p>Alla klossar i figuren är likadana. I A står en kloss på golvet. I B står två ovanpå varandra. Kontaktarean mot golvet är lika stor i båda fallen. Hur många gånger så stort är trycket mot golvet i B som i A?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En kloss i A och två likadana klossar ovanpå varandra i B. Kontaktarean mot golvet är densamma.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"115\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><rect x=\"75\" y=\"170\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"305\" y=\"170\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"305\" y=\"130\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"35\" y1=\"210\" x2=\"425\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"230\" y=\"260\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Alla klossar är likadana.</text></g></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två klossar ger dubbelt så stor tyngdkraft på samma kontaktarea. Trycket blir därför dubbelt så stort.</p>\\[\\frac{p_B}{p_A}=2\\]<p class=\"facit-svar\"><strong>Svar:</strong> 2 gånger så stort.</p></div>",
-    "ledtrad": "<p>Vilken kraft måste golvet bära i vart och ett av fallen?</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "spel": true,
-    "självrättning": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
-    "svarFormat": "numeriskt",
-    "familjNyckel": "tryck__tryck"
-  },
+  "id": "6.553",
+  "kap": 6,
+  "omr": "tryck",
+  "familj": "Tryck p = F/A",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "tryck under en eller två staplade klossar",
+  "t": "<p>Alla klossar i figuren är likadana. I A står en kloss på golvet. I B står två ovanpå varandra. Kontaktarean mot golvet är lika stor i båda fallen. Hur många gånger så stort är trycket mot golvet i B som i A?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En kloss i A och två likadana klossar ovanpå varandra i B. Kontaktarean mot golvet är densamma.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><g font-family=\"Arial, sans-serif\"><text x=\"115\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"345\" y=\"28\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172033\">B</text><rect x=\"75\" y=\"170\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"305\" y=\"170\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><rect x=\"305\" y=\"130\" width=\"80\" height=\"40\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"35\" y1=\"210\" x2=\"425\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"230\" y=\"260\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">Alla klossar är likadana.</text></g></svg></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två klossar ger dubbelt så stor tyngdkraft på samma kontaktarea. Trycket blir därför dubbelt så stort.</p>\\[\\frac{p_B}{p_A}=2\\]<p class=\"facit-svar\"><strong>Svar:</strong> 2 gånger så stort.</p></div>",
+  "ledtrad": "<p>Vilken kraft måste golvet bära i vart och ett av fallen?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "multipel",
+  "familjNyckel": "tryck__tryck"
+},
   {
     "id": "6.554",
     "kap": 6,

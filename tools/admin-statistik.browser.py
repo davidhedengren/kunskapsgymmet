@@ -37,6 +37,13 @@ with sync_playwright() as p:
  assert '+3' in page.locator('.kgstat-tabell tbody tr').nth(1).inner_text() # Oberoende skillnad från 33 respektive 30 uppgifter.
  with page.expect_download() as dl:page.get_by_role('button',name='Exportera dagsdata').click()
  path=dl.value.path();csv=Path(path).read_text(encoding='utf-8-sig');assert len(csv.splitlines())==31;assert 'alla_uppgifter;uppgifter;aktiva;nya' in csv
+ with page.expect_download() as dl:page.get_by_role('button',name='Exportera för analys',exact=True).click()
+ analysis_text=Path(dl.value.path()).read_text(encoding='utf-8');analysis=json.loads(analysis_text)
+ assert analysis['format']=='kunskapsgymmet-statistikanalys';assert len(analysis['dagsdata'])==30
+ assert analysis['vald_dagsjamforelse']['skillnad_a_minus_b']['uppgifter']==3
+ assert analysis['konton']['registrerade']==3;assert analysis['kurser'][0]['uppgifter']==540
+ assert analysis['sjudagarsjamforelse']['senaste']['unika_aktiva_konton']==3
+ assert 'example.test' not in analysis_text and uid(2) not in analysis_text and 'Elev Exempel' not in analysis_text
  page.get_by_role('button',name='Användare',exact=True).click();assert page.locator('details.admin-user').count()==3;assert page.locator('details.admin-user[open]').count()==0
  page.locator('details.admin-user summary').first.click();page.wait_for_timeout(50);assert page.locator('details.admin-user[open]').count()==1
  page.locator('#admin-sok').fill('Elev');assert page.locator('details.admin-user').count()==2;assert page.locator('details.admin-user[open]').count()==1

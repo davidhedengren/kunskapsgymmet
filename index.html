@@ -3251,6 +3251,7 @@ body.hm-drar{user-select:none}
 .hmfonster.drar{user-select:none;box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 4px 10px rgba(10,20,35,.14),0 34px 80px -20px rgba(10,20,35,.55)}
 .hm-raknare{width:390px;max-height:calc(100dvh - 16px)}
 .hm-raknare .hmf-topp{flex-wrap:wrap}
+.hm-raknare .hmf-topp,.hm-raknare .rk-kropp{zoom:var(--rk-skala,1)}
 .hmfonster.hm-raknare .hmf-storlek{display:block;width:28px;height:28px;border:0;padding:0;z-index:2}
 .hm-raknare .hmf-storlek:focus-visible{outline:2px solid var(--acc);outline-offset:-3px;opacity:1}
 .hmf-topp{display:flex;align-items:center;gap:8px;padding:10px 12px 9px 8px;cursor:grab;touch-action:none;flex:none}
@@ -3912,7 +3913,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-11-fakultet-formel-gravitation";
+const BANK_VERSION="2026-10-11-simmare-influens";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -15374,6 +15375,7 @@ function hjalpLayout(){
     let y=12;
     if(dr){
       const cw=Math.min(dw-24,440);
+      hjalpRaknareSkala(r,cw,H-24);
       Object.assign(r.style,{left:Math.round(x0+(dw-cw)/2)+"px",top:y+"px",width:cw+"px",height:""});
       y+=r.offsetHeight+12;
     }
@@ -15382,6 +15384,7 @@ function hjalpLayout(){
     kant.hidden=true;
     const w=W-16; let botten=H-8;
     if(dr){
+      hjalpRaknareSkala(r,w,H-16);
       Object.assign(r.style,{left:"8px",width:w+"px",height:""});
       r.style.top=(botten-r.offsetHeight)+"px"; botten-=r.offsetHeight+8;
     }
@@ -15454,11 +15457,14 @@ function hjalpPlacera(f){
   const p={...hjalpStandard(f),...(hjalp.pos[hjalpNyckel(f)]||{})};
   const W=window.innerWidth, H=window.innerHeight;
   if(p.w){
-    p.w=f.id==="hm-formel"?Math.max(280,Math.min(p.w,W-16)):Math.min(W-16,Math.max(300,p.w));
+    p.w=f.id==="hm-formel"?Math.max(280,Math.min(p.w,W-16)):Math.min(W-16,Math.max(240,p.w));
     f.style.width=p.w+"px";
   }
   if(f.id==="hm-formel"){ p.h=Math.max(220,Math.min(p.h||H-100,H-16)); f.style.height=p.h+"px"; }
-  else f.style.height=p.h?Math.min(Math.max(hjalpRaknareMinH(f),p.h),H-16)+"px":"";
+  else{
+    f.style.height=p.h?Math.min(Math.max(330,p.h),H-16)+"px":"";
+    hjalpRaknareSkala(f,p.w,p.h?parseFloat(f.style.height):H-16);
+  }
   const bredd=f.offsetWidth||p.w||300;
   p.x=Math.max(8-bredd+120,Math.min(p.x,W-120));
   p.y=Math.max(8,Math.min(p.y,H-56));
@@ -15476,17 +15482,16 @@ function hjalpSparaPos(f){
   hjalpSpara();
 }
 /* Flytta i rubriken; storleksändra hjälpmedlen i hörnet. */
-function hjalpRaknareMinH(f){
-  // Rubrik, skärm, sju rader med tangenter samt marginaler; rullning behövs bara på låga skärmar.
-  return f.querySelector(".hmf-topp").offsetHeight+f.querySelector(".rk-skarm").offsetHeight+350;
+function hjalpRaknareSkala(f,w,h){
+  // Kompakt fönster ska även ge mindre text, knappar och marginaler.
+  f.style.setProperty("--rk-skala",String(Math.min(1,w/390,h/550)));
 }
 function hjalpAndraStorlek(f,w,h){
   const r=f.getBoundingClientRect(), raknare=f.id==="hm-raknare";
   const W=window.innerWidth,H=window.innerHeight;
   if(raknare){
-    w=Math.min(W-16,Math.max(300,w));
-    f.style.width=w+"px";
-    h=Math.min(H-16,Math.max(hjalpRaknareMinH(f),h));
+    w=Math.min(W-16,Math.max(240,w)); h=Math.min(H-16,Math.max(330,h));
+    hjalpRaknareSkala(f,w,h);
     Object.assign(f.style,{width:w+"px",height:h+"px",
       left:Math.max(8,Math.min(r.left,W-w-8))+"px",top:Math.max(8,Math.min(r.top,H-h-8))+"px"});
   }else{
@@ -16399,6 +16404,6 @@ function kvRita(snabb){
       :`<p class="modal-text">Inga fynd${kv.filter?" för den här kontrollen":""}. 🎉</p>`}`:""}`;
 }
 </script>
-<script src="admin-statistik.js?v=2026-10-11"></script>
+<script src="admin-statistik.js?v=2026-10-11-analys"></script>
 </body>
 </html>

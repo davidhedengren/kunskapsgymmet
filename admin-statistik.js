@@ -81,7 +81,7 @@ function kgAdminRitaOversikt(host){
   const a=dagar.find(d=>d.dag===kgStatDagA),b=dagar.find(d=>d.dag===kgStatDagB);
   const format=(v,time=false)=>v==null?'–':time?kgAdminMin(v):kgAdminTal(v);
   const metrics=[['Alla uppgifter','alla_uppgifter',false],['Uppgifter inloggade','uppgifter',false],['Aktiva konton','aktiva',false],['Nya konton','nya',false],['Inloggningar','inloggningar',false],['Uppskattad aktiv tid','aktiv_minuter',true],['Aktiv tid per aktivt konto','snitt_minuter',true]];
-  host.innerHTML=`<div class="kgstat-heading"><div><h3>Användning av Kunskapsgymmet</h3><p>Uppdaterad ${esc(kgAdminTid(data.hamtad))} · svensk kalenderdag</p></div><button class="btn sm" onclick="kgStatExport()">Exportera dagsdata</button></div>
+  host.innerHTML=`<div class="kgstat-heading"><div><h3>Användning av Kunskapsgymmet</h3><p>Uppdaterad ${esc(kgAdminTid(data.hamtad))} · svensk kalenderdag</p></div><div class="kgstat-range"><button class="btn sm" onclick="kgStatExport()">Exportera dagsdata</button><button class="btn sm" onclick="kgStatExportAnalys()" title="Spara en analysfil som kan bifogas i chatten. Inga namn eller e-postadresser ingår.">Exportera för analys</button></div></div>
     <div class="kgstat-grid">
       ${kgStatKort(kgAdminTal(total),'Registrerade konton',`+${kgAdminTal(current.nya)} idag · +${kgAdminTal(kgStatPeriod(dagar,idag,7).nya)} senaste 7 dagarna`)}
       ${kgStatKort(format(current[taskKey]),allAvailable?'Uppgifter idag · alla':'Uppgifter idag · inloggade',`${diff(yesterday,taskKey)} mot igår<br>${diff(lastWeek,taskKey)} mot samma veckodag förra veckan`)}
@@ -112,4 +112,60 @@ function kgStatExport(){
   const rows=kgStatNormalisera(kgOversikt),keys=['dag','alla_uppgifter','uppgifter','aktiva','nya','inloggningar','aktiv_minuter','snitt_minuter'];
   const csv='\uFEFF'+[keys.join(';'),...rows.map(d=>keys.map(k=>d[k]==null?'':String(d[k]).replace('.',',')).join(';'))].join('\r\n');
   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='kunskapsgymmet-dagsstatistik-'+kgOversikt.idag+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+/* Ett uttryckligt urval av aggregerade fält: interna konto-ID:n och profiler
+   får inte följa med bara för att backend lägger till ett nytt fält. */
+function kgStatAnalysData(data,users=[],rapporter=[],dagA='',dagB=''){
+  const dagar=kgStatNormalisera(data),idag=String(data.idag||kgStatIdag()).slice(0,10);
+  const keys=['dag','alla_uppgifter','uppgifter','ratt','aktiva','nya','inloggningar','aktiv_minuter','snitt_minuter'];
+  const day=d=>d?Object.fromEntries(keys.map(k=>[k,d[k]==null?null:k==='dag'?d[k]:Number(d[k])])):null;
+  const vecka=kgStatPeriod(dagar,kgStatDatumOffset(idag,-1),7);
+  const forra=kgStatPeriod(dagar,kgStatDatumOffset(idag,-8),7);
+  const giltig=p=>!!(p.komplett&&data.forsta_aktivitet&&p.start>=data.forsta_aktivitet);
+  const period=p=>({fran:p.start,till:p.slut,hela_dagar:true,tillracklig_historik:giltig(p),
+    alla_uppgifter:giltig(p)&&p.rows.every(d=>d.alla_uppgifter!=null)?p.rows.reduce((n,d)=>n+d.alla_uppgifter,0):null,
+    uppgifter:giltig(p)?p.uppgifter:null,unika_aktiva_konton:giltig(p)?p.aktiva.size:null,
+    nya:giltig(p)?p.nya:null,aktiv_minuter:giltig(p)?p.minuter:null,snitt_minuter:giltig(p)?p.snitt:null,
+    ratt:giltig(p)?p.rows.reduce((n,d)=>n+(Number(d.ratt)||0),0):null});
+  const a=day(dagar.find(d=>d.dag===(dagA||idag))),b=day(dagar.find(d=>d.dag===(dagB||kgStatDatumOffset(idag,-1))));
+  const diff=(x,y)=>Object.fromEntries(keys.filter(k=>k!=='dag').map(k=>[k,x?.[k]==null||y?.[k]==null?null:x[k]-y[k]]));
+  const curr=period(vecka),prev=period(forra);
+  const delning=Object.fromEntries(['idag','vecka','totalt'].filter(k=>data.global?.inlogg?.[k]).map(k=>[k,
+    Object.fromEntries(['inloggade','anonyma','uppg_inloggade','uppg_anonyma'].map(f=>[f,Number(data.global.inlogg[k][f])||0]))]));
+  return {format:'kunskapsgymmet-statistikanalys',version:1,exporterad:new Date().toISOString(),
+    data_hamtad:data.hamtad||null,tidszon:'Europe/Stockholm',idag,
+    period:{fran:dagar[0]?.dag||null,till:dagar.at(-1)?.dag||null,antal_dagar:dagar.length},
+    forsta_registrerade_aktivitet:data.forsta_aktivitet||null,
+    konton:{registrerade:users.length,online_vid_hamtning:users.filter(u=>u.online).length},
+    dagsdata:dagar.map(day),
+    vald_dagsjamforelse:{a,b,skillnad_a_minus_b:diff(a,b)},
+    sjudagarsjamforelse:{senaste:curr,foregaende:prev,
+      skillnad:Object.fromEntries(['alla_uppgifter','uppgifter','unika_aktiva_konton','nya','aktiv_minuter','snitt_minuter','ratt'].map(k=>[k,curr[k]==null||prev[k]==null?null:curr[k]-prev[k]])),
+      aterkommande_konton:giltig(vecka)&&giltig(forra)?[...vecka.aktiva].filter(id=>forra.aktiva.has(id)).length:null},
+    kurser:(data.kurser||[]).map(k=>({kurs:k.kurs,uppgifter:Number(k.uppgifter)||0,ratt:Number(k.ratt)||0})),
+    uppgifter_per_timme_senaste_14_dagarna:(data.global?.timmar||[]).map(t=>({timme:Number(t.timme),antal:Number(t.antal)||0})),
+    inloggad_och_anonym_traning:delning,
+    felrapporter:{oppna_i_adminlistan:rapporter.filter(r=>r.status==='oppen').length,max_hamtade:1000},
+    definitioner:{alla_uppgifter:'Besvarade uppgifter från inloggad och anonym träning. Null om underlag saknas.',
+      uppgifter:'Besvarade uppgifter från inloggade konton.',ratt:'Antal rätt bland inloggade uppgifter.',
+      aktiva:'Unika konton med uppgifter, inloggning eller synlig närvarosignal under kalenderdagen.',
+      nya:'Nya registrerade konton enligt svensk kalenderdag.',
+      inloggningar:'Nya inloggningstillfällen. Besök med sparad inloggning behöver inte räknas.',
+      aktiv_minuter:'Uppskattad tid från synliga heartbeat-signaler, inte exakt sessionstid eller aktiv problemlösning.',
+      snitt_minuter:'Uppskattade minuter per aktivt konto och dag. Periodsnitt vägs med antal aktiva kontodagar.',
+      aterkommande_konton:'Konton aktiva i båda de avslutade sjudagarsperioderna.',
+      kurser:'Inloggad träning under dagsdatans 30-dagarsperiod.',
+      anonym:'Anonyma webbläsare är enhetsnycklar, inte identifierade personer.'},
+    begransningar:['Idag är en pågående dag och ska inte jämföras som en avslutad dag.',
+      'Null betyder att jämförelseunderlag saknas. Äldre dagsdata kan inte återskapas.',
+      'Kontolista och kursstatistik omfattar användare som de befintliga adminfunktionerna identifierar.',
+      'Aktiv tid är uppskattad närvaro och visar inte hur länge någon faktiskt arbetar eller är inloggad.',
+      'Geografisk position saknas. Exporten innehåller inga namn, e-postadresser, konto-ID:n eller rapporttexter.']};
+}
+function kgStatExportAnalys(){
+  if(!arAdmin||!kgOversikt)return;
+  const data=kgStatAnalysData(kgOversikt,kgAdminData.anvandare||[],kgAdminData.rapporter||[],kgStatDagA,kgStatDagB);
+  const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'}));
+  const a=document.createElement('a');a.href=url;a.download='kunskapsgymmet-analys-'+kgOversikt.idag+'.json';a.click();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
 }

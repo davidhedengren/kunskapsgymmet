@@ -19,3 +19,23 @@ test('Anonyma uppgifter och inloggade uppgifter blandas inte ihop med konton',()
  const days=c.kgStatNormalisera({global:{dagar:[{dag:'2026-10-10',uppgifter:50}]},dagar:[{dag:'2026-10-10',uppgifter:30,aktiva:3,aktiv_minuter:60},{dag:'2026-10-09',uppgifter:0,aktiva:0}]});
  assert.equal(days[0].alla_uppgifter,50);assert.equal(days[0].uppgifter,30);assert.equal(days[0].snitt_minuter,20);assert.equal(days[1].snitt_minuter,null);assert.equal(days[1].alla_uppgifter,null);
 });
+test('Analysfilen innehåller oberoende periodtal och inga personuppgifter',()=>{
+ const dagar=Array.from({length:15},(_,i)=>({dag:c.kgStatDatumOffset('2026-10-11',i-14),uppgifter:i+1,ratt:i,nya:1,aktiva:2,aktiva_ids:['hemligt-id','andra-id'],aktiv_minuter:20}));
+ const data={idag:'2026-10-11',forsta_aktivitet:'2026-09-01',dagar,global:{dagar:dagar.map(d=>({dag:d.dag,uppgifter:d.uppgifter+10})),epost:'ska-aldrig-exporteras'},kurser:[{kurs:'fy1',uppgifter:30,ratt:20,user_id:'person-id'}]};
+ const out=c.kgStatAnalysData(data,[{online:true,namn:'HEMLIGT NAMN',epost:'privat@example.test',user_id:'hemligt-id'}],[{status:'oppen',text:'privat rapporttext'}],'2026-10-11','2026-10-10');
+ assert.equal(out.sjudagarsjamforelse.senaste.uppgifter,77); // 8 + ... + 14.
+ assert.equal(out.sjudagarsjamforelse.foregaende.uppgifter,28); // 1 + ... + 7.
+ assert.equal(out.sjudagarsjamforelse.skillnad.uppgifter,49);
+ assert.equal(out.sjudagarsjamforelse.senaste.unika_aktiva_konton,2);
+ assert.equal(out.sjudagarsjamforelse.aterkommande_konton,2);
+ assert.equal(out.vald_dagsjamforelse.skillnad_a_minus_b.uppgifter,1);
+ assert.equal(out.dagsdata[0].alla_uppgifter,11);assert.equal(out.konton.registrerade,1);
+ assert.equal(out.felrapporter.oppna_i_adminlistan,1);
+ assert.doesNotMatch(JSON.stringify(out),/hemligt-id|andra-id|HEMLIGT NAMN|privat@example|person-id|privat rapporttext|ska-aldrig-exporteras/);
+});
+test('Analysfilen skiljer saknad historik från noll och väger tid rätt',()=>{
+ const out=c.kgStatAnalysData({idag:'2026-10-11',dagar:[{dag:'2026-10-11',uppgifter:0,aktiva:0}]});
+ assert.equal(out.dagsdata[0].uppgifter,0);assert.equal(out.dagsdata[0].alla_uppgifter,null);
+ assert.equal(out.dagsdata[0].snitt_minuter,null);assert.equal(out.sjudagarsjamforelse.senaste.uppgifter,null);
+ assert.equal(out.sjudagarsjamforelse.aterkommande_konton,null);assert.equal(out.vald_dagsjamforelse.b,null);
+});

@@ -8,8 +8,10 @@ genom att dra i hörnet.
 - Dra i hörnet nere till höger för att ändra både bredd och höjd med mus eller finger.
 - Hörnet är synligt även när räknaren är dockad. En storleksändring släpper
   loss fönstret; rubriken kan sedan användas för att flytta eller docka det igen.
-- Tangenterna fyller tillgänglig höjd. Minsta höjd beror på rubrik och skärm så
-  att de sju raderna med tangenter ryms. På låga skärmar går innehållet att rulla.
+- Efter användarens återkoppling samma dag har minimigränsen sänkts från
+  300 px bredd och innehållsberoende höjd till **240 × 330 px**. Text, knappar
+  och marginaler krymper samtidigt; det räcker inte att bara krympa fönstret.
+  Tangenterna fyller tillgänglig höjd. På låga skärmar går innehållet att rulla.
 - Fönstret hålls inom skärmen vid storleksändring och efter byte av skärmstorlek.
 - Flytande storlek och position sparas i den befintliga lokala inställningen
   `kunskapsgymmet-hjalpmedel3` och återställs efter sidladdning och uppgiftsbyte.

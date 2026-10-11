@@ -64,11 +64,24 @@ with sync_playwright() as p:
     assert abs(bounds(page)['width']-restored['width']-30)<=1
     # Uppgiftsbyte/omritning behåller storleken.
     before=bounds(page);page.evaluate('hjalpSynk()');assert bounds(page)==before
-    drag(page,handle,-700,-700);assert bounds(page)['width']==300
+    drag(page,handle,-700,-700);assert bounds(page)['width']==240 and bounds(page)['height']==330
+    assert page.locator('.rk-tangenter button').first.bounding_box()['height']<36
     assert page.locator('.rk-kropp').evaluate('(e)=>e.scrollHeight<=e.clientHeight+1')
     # Skärmen och alla tangenter ryms vid minsta storlek på en hög skärm.
     page.locator('.rk-tangenter button[data-v="lika"]').click()
+    for key in ['rensa','8','×','9','lika']:
+        page.locator(f'.rk-tangenter button[data-v="{key}"]').click()
+    assert '72' in page.locator('#rk-res').inner_text()
+    assert page.locator('#rk-in').is_visible()
     page.screenshot(path='/tmp/kg-raknare-liten.png')
+    # Även den kompakta storleken ska överleva omladdning, utan gammal höjdgräns.
+    page.reload();open_calculator(page)
+    assert bounds(page)['width']==240 and bounds(page)['height']==330,bounds(page)
+    page.evaluate('hjalp.dock.raknare=true;hjalpLayout()')
+    assert page.locator('#hm-raknare').evaluate('(e)=>Number(e.style.getPropertyValue("--rk-skala"))')==1
+    page.evaluate('hjalp.dock.raknare=false;hjalpLayout()')
+    page.wait_for_timeout(250) # Den befintliga öppningsanimationen skalar tillfälligt till 98 %.
+    assert bounds(page)['width']==240 and bounds(page)['height']==330,bounds(page)
     page.set_viewport_size({'width':390,'height':650});page.wait_for_timeout(200);within_screen(page)
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
     page.screenshot(path='/tmp/kg-raknare-mobil.png')

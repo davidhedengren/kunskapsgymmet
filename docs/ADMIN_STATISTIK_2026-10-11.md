@@ -46,6 +46,33 @@ aktiveringshjälp; användarfliken fortsätter fungera.
 
 ## Definitioner och gränser
 
+### Export för analys, tillagd efter användarens återkoppling
+
+**Exportera dagsdata** behåller CSV för kalkylblad. **Exportera för analys**
+laddar ned `kunskapsgymmet-analys-ÅÅÅÅ-MM-DD.json`, som kan bifogas i chatten.
+JSON-filen innehåller:
+
+- 30 dagars aggregerade uppgifter, rätta svar, aktiva och nya konton,
+  inloggningar och uppskattad aktiv tid.
+- Den valda dagsjämförelsen, två avslutade sjudagarsperioder och numeriska
+  skillnader, inklusive unika och återkommande konton.
+- Kursfördelning, uppgifter per timme när underlaget finns, fördelning mellan
+  inloggad och anonym träning samt antal öppna rapporter i adminlistan.
+- Svensk tidszon, hämtnings-/exporttid, måttens definitioner och begränsningar.
+
+Exporten väljer tillåtna fält uttryckligen; **inga namn, e-postadresser,
+konto-ID:n eller rapporttexter** följer med. Interna ID:n används endast för att
+räkna unika/återkommande konton. Saknad historik är `null`, inte noll.
+Idag markeras som pågående dag. Exporten är endast tillgänglig för admin och
+använder den redan hämtade statistiken. Ingen ytterligare SQL behövs utöver
+översiktens befintliga migrering.
+
+Två nya Node-tester verifierar oberoende periodtal, bortval av personuppgifter
+och saknad historik. Browsertestet laddar ned och läser en riktig JSON-fil.
+Samtliga Node-tester efter detta tillägg: **117/117 passerar**.
+
+### Måttens underlag
+
 Kalenderdagar använder `Europe/Stockholm` i databasen. En registrering räknas
 utifrån kontots skapandetid i den befintliga adminlistan. Konton som bara hör
 till en annan app ska inte introduceras i denna lista av den nya översikten.

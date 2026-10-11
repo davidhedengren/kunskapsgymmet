@@ -384,3 +384,25 @@ test('Ett fristående korts uttryckliga metadata går före huvuduppgiftens',()=
  assert.deepEqual(plain(b.rättSvar),[3,4]);assert.equal(b.svarsstruktur,'ordnad');assert.equal(c.answerLayout(b).n,2);assert.equal(c.answerLayout(b).ordnad,true);assert.equal(b.självrättning,true);
  assert.deepEqual(plain(task.rättSvar),[100,200]);
 });
+
+test('Namngivna Ma2-delkort bevarar fältordningen även efter uppdelning',()=>{
+  const ma2=bank('uppgifterma2.js');
+  for(const [id,index,labels] of [['2.711',0,['a','b','c']],['2.711',1,['E(3)','Q(3)']],
+    ['2.407',0,['a','b']],['2.436',2,['x-koordinat','y-koordinat']],
+    ['1.313',1,['Lådans vikt (kg)','Bokens vikt (kg)']],['2.707',0,['Biljettpris (kr)','Biljettintäkt (kr)']],
+    ['2.718',0,['k','x-koordinat','y-koordinat']],['2.141',1,['x-koordinat','y-koordinat']],
+    ['2.146',2,['x-koordinat','y-koordinat']],['4.299',1,['Alva (s)','Bea (s)']],
+    ['4.302',0,['Medelvärde','Standardavvikelse']],['4.302',1,['Medelvärde','Standardavvikelse']]]){
+    const q=c.expandGameTask(ma2.find(t=>t.id===id))[index],layout=c.answerLayout(q);
+    assert.equal(layout.ordnad,true,id);assert.equal(layout.n,labels.length,id);
+    assert.deepEqual(plain(q.svarEtiketter),labels,id);
+  }
+  // Rotlistor måste fortfarande tillåta omvänd ordning.
+  assert.equal(c.answerLayout(c.expandGameTask(ma2.find(t=>t.id==='2.04'))[0]).ordnad,false);
+});
+test('Ma2 4.95 c visar sin egen figur och procentdata på nivå 1',()=>{
+  const q=c.expandGameTask(bank('uppgifterma2.js').find(t=>t.id==='4.95'))[2];
+  assert.equal(q.rättSvar,80);assert.equal(q.svarEnhet,'%');assert.equal(q.traningsniva,1);
+  assert.match(q.t,/<svg/);assert.match(q.t,/10 %/);assert.match(q.s,/100-10-10/);
+  assert.equal(c.answerLayout(q).n,1);
+});

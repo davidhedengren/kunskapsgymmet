@@ -3362,6 +3362,53 @@ html[data-theme="dark"] .hm-raknare{
   .rk-tangenter{gap:7px}
   .rk-tangenter button{height:40px}
 }
+/* Adminöversikt och hopfällda användarkort. */
+.admin-user summary{cursor:pointer;list-style:none;min-height:48px}
+.admin-user summary::-webkit-details-marker{display:none}
+.admin-user summary:focus-visible{outline:2px solid var(--acc);outline-offset:5px;border-radius:8px}
+.admin-user-snabb{font-size:12px;color:var(--ink3)}
+.admin-chevron{font-size:22px;color:var(--ink3);transition:transform .15s}
+.admin-user[open] .admin-chevron{transform:rotate(180deg)}
+.admin-user-innehall{padding-top:14px}
+.kgstat-heading{display:flex;gap:16px;align-items:center;justify-content:space-between;margin:12px 0 18px;flex-wrap:wrap}
+.kgstat-heading h3,.kgstat-panel h3{font-size:17px;margin:0;color:var(--ink)}
+.kgstat-heading p,.kgstat-caption,.kgstat-notice{font-size:12px;color:var(--ink3);line-height:1.65;margin:6px 0}
+.kgstat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0}
+.kgstat-kort{border:1px solid var(--hair);border-radius:18px;background:var(--surface2);padding:18px;display:flex;flex-direction:column;gap:9px}
+.kgstat-kort>span{font-size:12px;color:var(--ink3)}
+.kgstat-kort strong{font-size:30px;line-height:1.15;color:var(--ink);font-variant-numeric:tabular-nums}
+.kgstat-kort small{font-size:11.5px;line-height:1.6;color:var(--ink3)}
+.kgstat-grafer{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:16px 0}
+.kgstat-panel{background:var(--surface2);border:1px solid var(--hair);border-radius:18px;padding:18px;margin-bottom:14px;min-width:0}
+.kgstat-panel p{font-size:13px;line-height:1.65;color:var(--ink3)}
+.kgstat-range,.kgstat-datum{display:flex;gap:8px;flex-wrap:wrap}
+.kgstat-datum label{font-size:12px;color:var(--ink3)}
+.kgstat-datum input{display:block;background:var(--surface);color:var(--ink);border:1px solid var(--hair);border-radius:9px;padding:8px;font:inherit;margin-top:4px;max-width:100%}
+.kgstat-chart-wrap{display:flex;gap:6px;margin-top:25px}
+.kgstat-axel{width:34px;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between;font-size:10px;color:var(--ink3);padding-bottom:24px}
+.kgstat-chart{display:grid;grid-template-columns:repeat(var(--kolumner),minmax(0,1fr));gap:4px;height:175px;flex:1;min-width:0;border-bottom:1px solid var(--hair)}
+.kgstat-bar{display:flex;flex-direction:column;min-width:0;align-items:center;padding:0;border:0;background:none;font:inherit;color:var(--ink3);cursor:pointer}
+.kgstat-track{height:130px;width:100%;display:flex;align-items:flex-end;background:linear-gradient(to bottom,var(--hair) 1px,transparent 1px) 0 0/100% 65px}
+.kgstat-track i{display:block;width:100%;border-radius:5px 5px 0 0;background:var(--acc);min-height:0;opacity:1}
+.kgstat-bar.anvandare i{background:var(--good)}
+.kgstat-bar.nya i{background:var(--warn)}
+.kgstat-bar.tid i{background:#a78bfa}
+.kgstat-bar:hover i,.kgstat-bar.vald i{outline:2px solid var(--ink);outline-offset:-2px}
+.kgstat-bar:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.kgstat-value{height:20px;font-size:9px;font-variant-numeric:tabular-nums}
+.kgstat-date{font-size:9px;white-space:nowrap;margin-top:7px;align-self:flex-start}
+.kgstat-chart[style*="30"] .kgstat-value{visibility:hidden}
+.kgstat-bar:last-child .kgstat-date{align-self:flex-end}
+.kgstat-tabellwrap{overflow-x:auto}
+.kgstat-tabell{border-collapse:collapse;width:100%;text-align:left;font-size:12px;white-space:nowrap}
+.kgstat-tabell th,.kgstat-tabell td{padding:12px 10px;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+.kgstat-tabell td{text-align:right}.kgstat-tabell th{font-weight:600}
+.kgstat-kurser>div{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:11px 0;border-bottom:1px solid var(--hair)}
+.kgstat-kurser span{color:var(--ink3)}
+details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
+@media(max-width:800px){.kgstat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.kgstat-grafer{grid-template-columns:1fr}}
+@media(max-width:480px){.kgstat-kort{padding:12px}.kgstat-kort strong{font-size:24px}.kgstat-panel{padding:12px}.kgstat-grid{gap:8px}.admin-user-snabb{display:none}.kgstat-chart{gap:3px}.kgstat-kurser>div{flex-direction:column;gap:5px}}
+
 </style>
 </head>
 
@@ -5672,7 +5719,7 @@ function kontoMeny(ev){
     ${arAdmin?`
     <div class="menyfalt">
       <div class="menyrubrik">Administration</div>
-      <button class="btn sm wide" onclick="oppnaAdmin()">Användare &amp; rapporter</button>
+      <button class="btn sm wide" onclick="oppnaAdmin('anvandare')">Användare &amp; rapporter</button>
       <button class="btn sm wide" onclick="oppnaFelrapportLogg()" style="margin-top:6px">Granska felrapporter</button>
       <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button>
     </div>`:""}
@@ -5704,10 +5751,12 @@ function franMenyn(fn){
 }
 
 let kgAdminData={anvandare:[],rapporter:[],detalj:null};
-let kgAdminFlik="anvandare", kgAdminUserFilter=null, kgAdminStatusFilter="alla";
+let kgAdminFlik="oversikt", kgAdminUserFilter=null, kgAdminStatusFilter="alla";
 let kgAdminAktivFilter="alla", kgAdminSort="sedd";
+const kgAdminOppnaUsers=new Set();
 
 async function kgAdminRpc(namn,kropp={}){
+  if(!arAdmin) throw new Error("Den globala statistiken är bara tillgänglig för admin.");
   if(!await giltigSession()) throw new Error("Logga in igen.");
   const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/"+namn,{
     method:"POST",headers:sbHeaders(true),body:JSON.stringify(kropp)
@@ -5751,11 +5800,13 @@ function kgAdminNiva(xp){ return levelFromXP(Math.max(0,Number(xp)||0)); }
 function kgAdminHarDagstat(){ return kgAdminData.anvandare.some(x=>Object.prototype.hasOwnProperty.call(x,"uppgifter_idag")); }
 function kgAdminAktivIdag(u){ return u.aktiv_idag===true || (u.forsta_sedd_idag!=null); }
 
-async function oppnaAdmin(){
+async function oppnaAdmin(flik="oversikt"){
+  if(!await kontrolleraAdmin()){ stangAdmin(); return; }
+  kgAdminFlik=flik; kgAdminOppnaUsers.clear();
   document.getElementById("kontomeny")?.remove();
-  stangAdmin();
+  document.querySelectorAll("[data-kg-admin]").forEach(el=>el.remove());
   const el=document.createElement("div");
-  el.className="modal"; el.id="adminruta";
+  el.className="modal"; el.id="adminruta"; el.dataset.kgAdmin="true";
   el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Administration">
       <div class="modal-topp">
         <div><div class="lbl">Kunskapsgymmet · admin</div><h2>Användare och aktivitet</h2></div>
@@ -5781,7 +5832,8 @@ async function kgAdminLadda(manuell=false){
   try{
     const [a,r]=await Promise.all([
       kgAdminRpc("kg_admin_anvandare"),
-      kgAdminRpc("kg_admin_felrapporter",{p_user:null,p_status:null,p_limit:1000})
+      kgAdminRpc("kg_admin_felrapporter",{p_user:null,p_status:null,p_limit:1000}),
+      kgAdminHamtaOversikt()
     ]);
     kgAdminData.anvandare=Array.isArray(a)?a:[];
     kgAdminData.rapporter=Array.isArray(r)?r:[];
@@ -5824,7 +5876,7 @@ function kgAdminRita(){
   const oppna=kgAdminData.rapporter.filter(x=>x.status==="oppen").length;
   const f=(v)=>typeof v==="number"?kgAdminTal(v):v;
   host.innerHTML=`
-    <div class="admin-summering">
+    ${kgAdminFlik!=="oversikt"?`<div class="admin-summering">
       <div class="admin-siffra"><strong>${f(alla.length)}</strong><span>registrerade användare</span></div>
       <div class="admin-siffra"><strong>${f(online)}</strong><span>online nu</span></div>
       <div class="admin-siffra today"><strong>${f(onlineIdag)}</strong><span>varit online idag</span></div>
@@ -5833,8 +5885,9 @@ function kgAdminRita(){
       <div class="admin-siffra"><strong>${f(uppg7)}</strong><span>uppgifter senaste 7 dagarna</span></div>
       <div class="admin-siffra"><strong>${f(aktiva7)}</strong><span>aktiva användare 7 dagar</span></div>
       <div class="admin-siffra"><strong>${f(oppna)}</strong><span>öppna felrapporter</span></div>
-    </div>
+    </div>`:""}
     <div class="admin-flikar">
+      <button class="${kgAdminFlik==="oversikt"?"pa":""}" onclick="kgAdminBytFlik('oversikt')">Översikt</button>
       <button class="${kgAdminFlik==="anvandare"||kgAdminFlik==="detalj"?"pa":""}" onclick="kgAdminBytFlik('anvandare')">Användare</button>
       <button class="${kgAdminFlik==="rapporter"?"pa":""}" onclick="kgAdminBytFlik('rapporter')">Felrapporter</button>
       <button class="${kgAdminFlik==="klasser"?"pa":""}" onclick="kgAdminBytFlik('klasser')">Klasser</button>
@@ -5926,6 +5979,7 @@ function kgAdminSattKlass(uid,klass){
 
 function kgAdminRitaLista(){
   const host=document.getElementById("adminlista"); if(!host) return;
+  if(kgAdminFlik==="oversikt"){ kgAdminRitaOversikt(host); return; }
   if(kgAdminFlik==="detalj"){ kgAdminRitaDetalj(host); return; }
   if(kgAdminFlik==="klasser"){ kgAdminRitaKlasser(host); return; }
   if(kgAdminFlik==="larare"){ kgAdminRitaLarare(host); return; }
@@ -6004,11 +6058,13 @@ function kgAdminUserKort(u){
   const statusklass=u.online?" online":idag?" today":"";
   const ui=Number(u.uppgifter_idag)||0, ri=Number(u.ratt_idag)||0;
   const uv=Number(u.uppgifter_7d)||0, rv=Number(u.ratt_7d)||0;
-  return `<div class="admin-user${u.online?" online":""}">
-    <div class="admin-user-topp">
+  return `<details class="admin-user${u.online?" online":""}" ${kgAdminOppnaUsers.has(u.user_id)?"open":""} ontoggle="this.open?kgAdminOppnaUsers.add('${esc(u.user_id)}'):kgAdminOppnaUsers.delete('${esc(u.user_id)}')">
+    <summary class="admin-user-topp">
       <div class="ident"><b>${esc(u.namn||"Okänd")}</b><small>${esc(u.epost||"Ingen e-post")}</small></div>
-      <span class="admin-status${statusklass}">${status}</span>
-    </div>
+      <span class="admin-user-snabb">${kgAdminTal(ui)} uppgifter idag</span>
+      <span class="admin-status${statusklass}">${status}</span><span class="admin-chevron" aria-hidden="true">⌄</span>
+    </summary>
+    <div class="admin-user-innehall">
     <div class="admin-meta">
       <span>${esc(kgAdminProviders(u.providers))}</span>
       <span>Skapad ${esc(kgAdminTid(u.skapad))}</span>
@@ -6029,7 +6085,8 @@ function kgAdminUserKort(u){
       <button class="admin-rapportknapp" onclick="kgAdminVisaRapporterFor('${u.user_id}')">Felrapporter: ${Number(u.rapporter)||0}${Number(u.oppna_rapporter)?` · ${Number(u.oppna_rapporter)} öppna`:""}</button>
       <span class="admin-meta" style="margin:0">${Number(u.aktiva_dagar_30d)||0} aktiva dagar / 30</span>
     </div>
-  </div>`;
+    </div>
+  </details>`;
 }
 
 function kgAdminRitaDetalj(host){
@@ -11802,7 +11859,7 @@ function stangPapperspaminnelse(){
    Varje besvarad uppgift skickas som en rad till kg_handelse. Raden är
    anonym: kurs, uppgift, resultat och en enhetsnyckel, ingen elevtext och
    inga namn. Statistiken räknas fram server-side i rpc kg_statistik och
-   visas bara för konton som ligger i kg_larare.
+   visas bara för Kunskapsgymmet-admin. Lärare ser sina egna grupper.
    ===================================================================== */
 function kgLoggaHandelse(t,{andel,correct,xp}){
   if(!MOLN_PA() || !t) return;
@@ -11825,7 +11882,7 @@ function kgLoggaHandelse(t,{andel,correct,xp}){
 let statistikData=null;
 async function hamtaStatistik(){
   if(!MOLN_PA()) throw new Error("Molnet är avstängt i den här versionen.");
-  if(!session) throw new Error("Logga in med ditt lärarkonto först.");
+  if(!session || !arAdmin) throw new Error("Den globala statistiken är bara tillgänglig för admin.");
   const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_statistik",{
     method:"POST",headers:sbHeaders(true),body:"{}"
   });
@@ -11834,30 +11891,7 @@ async function hamtaStatistik(){
   return r.json();
 }
 async function oppnaStatistik(){
-  document.getElementById("kontomeny")?.remove();
-  stangStatistik();
-  const el=document.createElement("div");
-  el.className="modal"; el.id="statruta";
-  el.innerHTML=`<div class="modal-kort" style="width:min(760px,100%)" role="dialog" aria-modal="true"
-      aria-label="Statistik">
-      <div class="modal-topp">
-        <div><div class="lbl">Lärarvy</div><h2>Statistik</h2></div>
-        <button class="iconbtn" onclick="stangStatistik()" aria-label="Stäng">✕</button>
-      </div>
-      <div id="statkropp"><p class="modal-text">Räknar…</p></div>
-      <div class="modal-fot">
-        <span class="spacer"></span>
-        <button class="btn" onclick="laddaNerStatistik()">Ladda ner</button>
-        <button class="btn primary" onclick="stangStatistik()">Stäng</button>
-      </div>
-    </div>`;
-  document.body.appendChild(el);
-  el.addEventListener("click",e=>{ if(e.target===el) stangStatistik(); });
-  requestAnimationFrame(()=>el.classList.add("visa"));
-  const host=document.getElementById("statkropp");
-  try{ statistikData=await hamtaStatistik(); }
-  catch(e){ if(host) host.innerHTML=`<p class="modal-text">${esc(e.message)}</p>`; return; }
-  ritaStatistik();
+  return oppnaAdmin("oversikt");
 }
 function stangStatistik(){
   const el=document.getElementById("statruta");
@@ -16315,5 +16349,6 @@ function kvRita(snabb){
       :`<p class="modal-text">Inga fynd${kv.filter?" för den här kontrollen":""}. 🎉</p>`}`:""}`;
 }
 </script>
+<script src="admin-statistik.js?v=2026-10-11"></script>
 </body>
 </html>

@@ -54083,7 +54083,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Bestäm rörelseenergin för varje föremål. Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><ol style=\"display:grid;gap:0.85rem\"><li>En löpare har massan 65 kg och farten 8,0 m/s. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En bil har massan 1400 kg och farten 70 km/h. Svara i kJ. Avrunda vid behov till 2 decimaler.</li><li>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna energin i J. Dividera sedan med 1000 för att få kJ.</p>\\[E_k=\\frac{65\\cdot8{,}0^2}{2}=2080\\,\\mathrm J=2{,}08\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Omvandla farten: \\(v=70/3{,}6\\) m/s. Behåll den oavrundade farten när den kvadreras.</p>\\[E_k=\\frac{1400(70/3{,}6)^2}{2}\\approx264660{,}49\\,\\mathrm J\\]<p>Dividera med 1000.</p>\\[E_k\\approx264{,}66\\,\\mathrm{kJ}\\]<p><strong>c)</strong></p><p>Omvandla båda storheterna till SI-enheter: 0,50 g = 0,00050 kg och 1,5 cm/s = 0,015 m/s.</p>\\[E_k=\\frac{0{,}00050\\cdot0{,}015^2}{2}=5{,}625\\cdot10^{-8}\\,\\mathrm J\\]<p>Dividera med \\(10^{-9}\\) J per nJ.</p>\\[E_k=56{,}25\\,\\mathrm{nJ}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Beräkna energin i J. Dividera sedan med 1000 för att få kJ.</p>\\[E_k=\\frac{65\\cdot8{,}0^2}{2}=2080\\,\\mathrm J=2{,}08\\,\\mathrm{kJ}\\]<p><strong>b)</strong></p><p>Omvandla farten: \\(v=70/3{,}6\\) m/s. Behåll den oavrundade farten när den kvadreras.</p>\\[E_k=\\frac{1400(70/3{,}6)^2}{2}\\approx264660{,}49\\,\\mathrm J\\]<p>Dividera med 1000.</p>\\[E_k\\approx264{,}66\\,\\mathrm{kJ}\\]<p><strong>c)</strong></p><p>Omvandla båda storheterna till SI-enheter: 0,50 g = 0,00050 kg och 1,5 cm/s = 0,015 m/s.</p>\\[E_k=\\frac{0{,}00050\\cdot0{,}015^2}{2}\\]\\[E_k=5{,}625\\cdot10^{-8}\\,\\mathrm J\\]<p>Dividera med \\(10^{-9}\\) J per nJ.</p>\\[E_k=56{,}25\\,\\mathrm{nJ}\\]</div>",
     "familj": "Rörelseenergi Ek = mv²/2",
     "formaga": [
       "procedur"
@@ -54159,7 +54159,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.",
         "t": "<p>Använd \\(E_k=\\dfrac{mv^2}{2}\\).</p><p>En insekt har massan 0,50 g och farten 1,5 cm/s. Ange energin i nJ, där 1 nJ = 10⁻⁹ J. Svara i nJ. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla båda storheterna till SI-enheter: 0,50 g = 0,00050 kg och 1,5 cm/s = 0,015 m/s.</p>\\[E_k=\\frac{0{,}00050\\cdot0{,}015^2}{2}=5{,}625\\cdot10^{-8}\\,\\mathrm J\\]<p>Dividera med \\(10^{-9}\\) J per nJ.</p>\\[E_k=56{,}25\\,\\mathrm{nJ}\\]</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Omvandla båda storheterna till SI-enheter: 0,50 g = 0,00050 kg och 1,5 cm/s = 0,015 m/s.</p>\\[E_k=\\frac{0{,}00050\\cdot0{,}015^2}{2}\\]\\[E_k=5{,}625\\cdot10^{-8}\\,\\mathrm J\\]<p>Dividera med \\(10^{-9}\\) J per nJ.</p>\\[E_k=56{,}25\\,\\mathrm{nJ}\\]</div>",
         "ledtrad": "<p>Både massan och farten måste omvandlas till SI-enheter.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -55598,7 +55598,7 @@ window.BANK = [
     "familjNyckel": "arbete__upprepade_lyft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      245.5,
+      246,
       441.90000000000003,
       5.3028
     ],
@@ -60384,7 +60384,7 @@ window.BANK = [
     ],
     "familjNyckel": "effekt__energi_under_aterkommande_drift",
     "svarstyp": "numeriskt",
-    "rättSvar": 17.549999999999997,
+    "rättSvar": 17.6,
     "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
@@ -61176,7 +61176,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(3/1/0)",
     "t": "<p>Vänstra vagnen på 3,0 kg har hastigheten +2,5 m/s. Högra vagnen på 4,0 kg har hastigheten −1,5 m/s. Efter stöten har vänstra vagnen hastigheten −1,0 m/s. Höger är positiv riktning. Bortse från andra krafters impuls under den korta stöten.</p><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 5.659 356.400 204.341\" role=\"img\" aria-label=\"Två vagnars massor och hastigheter före och efter stöten.\"><text x=\"12\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">Före</text><rect x=\"60\" y=\"56\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"78.24\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"78.24\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"117.76\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"117.76\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"98\" y=\"77\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><line x1=\"74\" y1=\"36\" x2=\"112\" y2=\"36\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"122,36 112,40.6 112,31.4\" fill=\"#2A5D9E\"/><text x=\"98\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">2,5 m/s</text><rect x=\"264\" y=\"56\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"282.24\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"282.24\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"321.76\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"321.76\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"302\" y=\"77\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">4,0 kg</text><line x1=\"326\" y1=\"36\" x2=\"288\" y2=\"36\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"278,36 288,31.4 288,40.6\" fill=\"#2A5D9E\"/><text x=\"302\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">1,5 m/s</text><text x=\"12\" y=\"178\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">Efter</text><rect x=\"60\" y=\"156\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"78.24\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"78.24\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"117.76\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"117.76\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"98\" y=\"177\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><line x1=\"122\" y1=\"136\" x2=\"84\" y2=\"136\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"74,136 84,131.4 84,140.6\" fill=\"#2A5D9E\"/><text x=\"98\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">1,0 m/s</text><rect x=\"264\" y=\"156\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"282.24\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"282.24\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"321.76\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"321.76\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"302\" y=\"177\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">4,0 kg</text><text x=\"302\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg><ol type=\"a\"><li>Bestäm vänstra vagnens rörelsemängd före stöten med tecken, i kg·m/s. Svara med tre värdesiffror.</li><li>Bestäm högra vagnens rörelsemängd före stöten med tecken, i kg·m/s. Svara med tre värdesiffror.</li><li>Bestäm den sammanlagda rörelsemängden före stöten med tecken, i kg·m/s. Svara med tre värdesiffror.</li><li>Bestäm högra vagnens sluthastighet med tecken, i m/s. Svara med tre värdesiffror.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Rörelsemängden är massa gånger hastighet. Höger är positiv riktning.</p>\\[p=mv=3{,}0\\cdot(+2{,}5)=+7{,}50\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: +7,50 kg·m/s.</strong></p><p><strong>b)</strong></p><p>Hastigheten är negativ eftersom vagnen går åt vänster.</p>\\[p=mv=4{,}0\\cdot(-1{,}5)=-6{,}00\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: −6,00 kg·m/s.</strong></p><p><strong>c)</strong></p><p>Addera båda vagnarnas rörelsemängder med tecken.</p>\\[\\begin{gathered}p_\\text{tot}=3{,}0\\cdot2{,}5+4{,}0\\cdot(-1{,}5)\\\\=7{,}50-6{,}00=+1{,}50\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]<p><strong>Svar: +1,50 kg·m/s.</strong></p><p><strong>d)</strong></p><p>Beräkna först rörelsemängden före stöten. Den bevaras under stöten.</p>\\[p_\\text{före}=3{,}0\\cdot2{,}5-4{,}0\\cdot1{,}5=1{,}50\\,\\mathrm{kg\\,m/s}\\]<p>Den vänstra vagnen har hastigheten −1,0 m/s efteråt. Lös ut den högra vagnens hastighet v.</p>\\[\\begin{gathered}1{,}50=3{,}0\\cdot(-1{,}0)+4{,}0v\\\\4{,}0v=1{,}50+3{,}00=4{,}50\\\\v=\\frac{4{,}50}{4{,}0}=+1{,}125\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: +1,13 m/s, åt höger.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Rörelsemängden är massa gånger hastighet. Höger är positiv riktning.</p>\\[p=mv=3{,}0\\cdot(+2{,}5)=+7{,}50\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: +7,50 kg·m/s.</strong></p><p><strong>b)</strong></p><p>Hastigheten är negativ eftersom vagnen går åt vänster.</p>\\[p=mv=4{,}0\\cdot(-1{,}5)=-6{,}00\\,\\mathrm{kg\\,m/s}\\]<p><strong>Svar: −6,00 kg·m/s.</strong></p><p><strong>c)</strong></p><p>Addera båda vagnarnas rörelsemängder med tecken.</p>\\[\\begin{gathered}p_\\text{tot}=3{,}0\\cdot2{,}5+4{,}0\\cdot(-1{,}5)\\\\=7{,}50-6{,}00=+1{,}50\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]<p><strong>Svar: +1,50 kg·m/s.</strong></p><p><strong>d)</strong></p><p>Beräkna först rörelsemängden före stöten. Den bevaras under stöten.</p>\\[p_\\text{före}=3{,}0\\cdot2{,}5-4{,}0\\cdot1{,}5\\]\\[p_\\text{före}=1{,}50\\,\\mathrm{kg\\,m/s}\\]<p>Den vänstra vagnen har hastigheten −1,0 m/s efteråt. Lös ut den högra vagnens hastighet v.</p>\\[\\begin{gathered}1{,}50=3{,}0\\cdot(-1{,}0)+4{,}0v\\\\4{,}0v=1{,}50+3{,}00=4{,}50\\\\v=\\frac{4{,}50}{4{,}0}\\\\v=+1{,}125\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: +1,13 m/s, åt höger.</strong></p></div>",
     "familj": "Stötar där vagnarna skiljs åt",
     "formaga": [
       "procedur"
@@ -61187,7 +61187,7 @@ window.BANK = [
       7.5,
       -6.0,
       1.5,
-      1.125
+      1.13
     ],
     "tolerans": [
       0.005,
@@ -61271,7 +61271,7 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Bestäm högra vagnens sluthastighet med tecken, i m/s. Svara med tre värdesiffror.",
         "t": "<p>Vänstra vagnen på 3,0 kg har hastigheten +2,5 m/s. Högra vagnen på 4,0 kg har hastigheten −1,5 m/s. Efter stöten har vänstra vagnen hastigheten −1,0 m/s. Höger är positiv riktning. Bortse från andra krafters impuls under den korta stöten.</p><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 5.659 356.400 204.341\" role=\"img\" aria-label=\"Två vagnars massor och hastigheter före och efter stöten.\"><text x=\"12\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">Före</text><rect x=\"60\" y=\"56\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"78.24\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"78.24\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"117.76\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"117.76\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"98\" y=\"77\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><line x1=\"74\" y1=\"36\" x2=\"112\" y2=\"36\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"122,36 112,40.6 112,31.4\" fill=\"#2A5D9E\"/><text x=\"98\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">2,5 m/s</text><rect x=\"264\" y=\"56\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"282.24\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"282.24\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"321.76\" cy=\"96\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"321.76\" cy=\"96\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"302\" y=\"77\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">4,0 kg</text><line x1=\"326\" y1=\"36\" x2=\"288\" y2=\"36\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"278,36 288,31.4 288,40.6\" fill=\"#2A5D9E\"/><text x=\"302\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">1,5 m/s</text><text x=\"12\" y=\"178\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">Efter</text><rect x=\"60\" y=\"156\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"78.24\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"78.24\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"117.76\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"117.76\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"98\" y=\"177\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><line x1=\"122\" y1=\"136\" x2=\"84\" y2=\"136\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"74,136 84,131.4 84,140.6\" fill=\"#2A5D9E\"/><text x=\"98\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">1,0 m/s</text><rect x=\"264\" y=\"156\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"282.24\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"282.24\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"321.76\" cy=\"196\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"321.76\" cy=\"196\" r=\"1.8\" fill=\"#2B2527\"/><text x=\"302\" y=\"177\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">4,0 kg</text><text x=\"302\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text></svg><p>Bestäm högra vagnens sluthastighet med tecken, i m/s. Svara med tre värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först rörelsemängden före stöten. Den bevaras under stöten.</p>\\[p_\\text{före}=3{,}0\\cdot2{,}5-4{,}0\\cdot1{,}5=1{,}50\\,\\mathrm{kg\\,m/s}\\]<p>Den vänstra vagnen har hastigheten −1,0 m/s efteråt. Lös ut den högra vagnens hastighet v.</p>\\[\\begin{gathered}1{,}50=3{,}0\\cdot(-1{,}0)+4{,}0v\\\\4{,}0v=1{,}50+3{,}00=4{,}50\\\\v=\\frac{4{,}50}{4{,}0}=+1{,}125\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: +1,13 m/s, åt höger.</strong></p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna först rörelsemängden före stöten. Den bevaras under stöten.</p>\\[p_\\text{före}=3{,}0\\cdot2{,}5-4{,}0\\cdot1{,}5\\]\\[p_\\text{före}=1{,}50\\,\\mathrm{kg\\,m/s}\\]<p>Den vänstra vagnen har hastigheten −1,0 m/s efteråt. Lös ut den högra vagnens hastighet v.</p>\\[\\begin{gathered}1{,}50=3{,}0\\cdot(-1{,}0)+4{,}0v\\\\4{,}0v=1{,}50+3{,}00=4{,}50\\\\v=\\frac{4{,}50}{4{,}0}\\\\v=+1{,}125\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: +1,13 m/s, åt höger.</strong></p></div>",
         "ledtrad": "<p>Använd systemets rörelsemängd och den kända sluthastigheten.</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -67537,9 +67537,9 @@ window.BANK = [
     "id": "6.261",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "djup från absoluttryck",
-    "poang": "(0/1/0)",
+    "poang": "(2/0/0)",
     "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En sensor i vatten visar det totala trycket 179,86 kPa. Vid ytan är lufttrycket 101,3 kPa. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm sensorns djup. Svara i m. Avrunda vid behov till 1 decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det totala trycket innehåller också lufttrycket. Dra bort lufttrycket för att få vattnets tryckökning.</p>\\[\\Delta p=179{,}86-101{,}3=78{,}56\\,\\mathrm{kPa}.\\]\\[78{,}56\\,\\mathrm{kPa}=78560\\,\\mathrm{Pa}.\\]\\[h=\\frac{78560}{1000\\cdot9{,}82}=8{,}0\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(8{,}0\\,\\mathrm{m}\\).</p></div>",
     "familj": "Absoluttryck, övertryck och lufttryck",
@@ -67554,7 +67554,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilken del av trycket kommer från vattenpelaren?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "m",
@@ -70283,7 +70283,7 @@ window.BANK = [
     "typ": "djup från vätsketryck",
     "poang": "(2/0/0)",
     "t": "<p>Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>En trycksensor i en öppen oljetank visar ett tryck som är 24 kPa högre än vid ytan. Oljans densitet är 870 kg/m³.</p><p>Bestäm sensorns djup. Svara i m. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd tryckskillnaden från ytan och lös ut djupet ur \\(\\Delta p=\\rho gh\\).</p>\\[\\Delta p=24000\\,\\mathrm{Pa}.\\]\\[h=\\frac{\\Delta p}{\\rho g}=\\frac{24000}{870\\cdot9{,}82}\\approx2{,}809186038\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(2{,}81\\,\\mathrm{m}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd tryckskillnaden från ytan och lös ut djupet ur \\(\\Delta p=\\rho gh\\).</p>\\[\\Delta p=24000\\,\\mathrm{Pa}.\\]\\[h=\\frac{\\Delta p}{\\rho g}=\\frac{24000}{870\\cdot9{,}82}\\]\\[h\\approx2{,}809186038\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(2{,}81\\,\\mathrm{m}\\).</p></div>",
     "familj": "Vätsketryck p = ρgh",
     "formaga": [
       "procedur"
@@ -70411,8 +70411,8 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En behållare är under vatten. Trycket på utsidan är 700 kPa större än på insidan. Trycket på insidan är lika med lufttrycket vid vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>På vilket djup är behållaren? Svara i m. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd tryckskillnaden från ytan och lös ut djupet ur \\(\\Delta p=\\rho gh\\).</p>\\[\\Delta p=700000\\,\\mathrm{Pa}.\\]\\[h=\\frac{\\Delta p}{\\rho g}=\\frac{700000}{998\\cdot9{,}82}\\approx71{,}42594762\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(71{,}4\\,\\mathrm{m}\\).</p></div>",
+    "t": "<p>På ett visst djup i vatten är trycket 700 kPa högre än vid vattenytan. Vattnets densitet är 998 kg/m³. Använd g = 9,82 m/s².</p><p>Hur stort är djupet? Svara i m med en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><p>Tryckökningen från ytan är 700 kPa = 700 000 Pa. Vattenpelaren ger tryckökningen Δp = ρgh. Lös ut djupet:</p>\\[h=\\frac{\\Delta p}{\\rho g}=\\frac{700000}{998\\cdot9{,}82}\\]\\[h\\approx71{,}42595\\,\\mathrm m.\\]<p><strong>Svar: 71,4 m.</strong></p></div>",
     "familj": "Vätsketryck p = ρgh",
     "formaga": [
       "procedur"
@@ -120536,7 +120536,7 @@ window.BANK = [
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      41.25,
+      41.3,
       61.875
     ],
     "tolerans": [
@@ -120818,7 +120818,7 @@ window.BANK = [
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 562.5,
+    "rättSvar": 563,
     "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
@@ -121030,7 +121030,7 @@ window.BANK = [
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -2.8349999999999995,
+      -2.84,
       -51.63636363636363
     ],
     "tolerans": [
@@ -132570,7 +132570,7 @@ window.BANK = [
     "rättSvar": [
       500,
       433.0127018922194,
-      736.5
+      737
     ],
     "tolerans": [
       0.5,
@@ -133291,8 +133291,8 @@ window.BANK = [
     "niva": "C",
     "typ": "jämföra två motståndsmodeller",
     "poang": "(0/2/0)",
-    "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan med lutningen 20° och stannar efter 2,0 m. Utöver tyngdkraften verkar en konstant bromskraft F nedför längs planet.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.</li><li>I ett nytt försök är lutningen 40° och startfarten 8,0 m/s. Använd motståndskraften 1,45 N i det nya försöket. Hur långt upp längs planet kommer klossen? Svara i m. Avrunda vid behov till 2 decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Startens rörelseenergi går till ökad lägesenergi och arbete mot motståndet.</p>\\[E_k=\\frac{0{,}50\\cdot5{,}0^2}{2}=6{,}25\\,\\mathrm J\\]\\[h=2{,}0\\sin20^\\circ\\]<p>Motståndet tar den energi som återstår efter höjdökningen, under sträckan 2,0 m.</p>\\[F=\\frac{6{,}25}{2{,}0}-0{,}50\\cdot9{,}82\\sin20^\\circ\\approx1{,}45\\,\\mathrm N\\]<p><strong>b)</strong></p><p>Använd motståndskraften 1,45 N som ges för det nya försöket. Startens rörelseenergi är</p>\\[E_k=\\frac{0{,}50\\cdot8{,}0^2}{2}=16\\,\\mathrm J\\]<p>Både tyngdkraftens del längs planet och motståndet bromsar.</p>\\[(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)s=16\\]\\[s=\\frac{16}{0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45}\\approx3{,}47\\,\\mathrm m\\]</div>",
+    "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan som lutar 20°. Klossen stannar efter 2,0 m. Utöver tyngdkraften verkar en konstant bromskraft F nedför längs planet. Använd g = 9,82 m/s².</p><p><strong>a)</strong> Bestäm F. Svara i N med två decimaler.</p><p><strong>b)</strong> I ett nytt försök är lutningen 40° och startfarten 8,0 m/s. Bromskraften F är oförändrad. Hur långt upp längs planet kommer klossen? Svara i m med två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Klossen stannar, så startens rörelseenergi blir lägesenergi och arbete mot bromskraften.</p>\\[E_k=\\frac{0{,}50\\cdot5{,}0^2}{2}=6{,}25\\,\\mathrm J.\\]<p>Höjdökningen är h = 2,0 sin20° ≈ 0,684 m. Lägesenergin ökar med:</p>\\[\\Delta E_p=0{,}50\\cdot9{,}82\\cdot2{,}0\\sin20^\\circ\\]\\[\\Delta E_p\\approx3{,}35864\\,\\mathrm J.\\]<p>Bromskraftens arbete tar resten av energin under sträckan 2,0 m:</p>\\[F=\\frac{6{,}25-3{,}35864\\ldots}{2{,}0}\\]\\[F=1{,}445681\\ldots\\,\\mathrm N\\approx1{,}45\\,\\mathrm N.\\]</div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Startens rörelseenergi är:</p>\\[E_k=\\frac{0{,}50\\cdot8{,}0^2}{2}=16\\,\\mathrm J.\\]<p>Tyngdkraftens del längs planet och samma bromskraft som i a bromsar klossen. Behåll bromskraftens oavrundade värde, F = 1,445681… N:</p>\\[16=(0{,}50\\cdot9{,}82\\sin40^\\circ+F)s.\\]<p>Lös ut sträckan:</p>\\[s=\\frac{16}{0{,}50\\cdot9{,}82\\sin40^\\circ+F}\\]\\[s\\approx3{,}47692\\,\\mathrm m\\approx3{,}48\\,\\mathrm m.\\]</div></div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
       "modellering",
@@ -133302,7 +133302,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.4456810962709665,
-      3.4736641821668446
+      3.4769243248647554
     ],
     "tolerans": [
       0.005,
@@ -133335,7 +133335,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.",
         "t": "<p>En kloss på 0,50 kg skjuts med farten 5,0 m/s uppför ett plan med lutningen 20° och stannar efter 2,0 m. Utöver tyngdkraften verkar en konstant bromskraft F nedför längs planet.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm F. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startens rörelseenergi går till ökad lägesenergi och arbete mot motståndet.</p>\\[E_k=\\frac{0{,}50\\cdot5{,}0^2}{2}=6{,}25\\,\\mathrm J\\]\\[h=2{,}0\\sin20^\\circ\\]<p>Motståndet tar den energi som återstår efter höjdökningen, under sträckan 2,0 m.</p>\\[F=\\frac{6{,}25}{2{,}0}-0{,}50\\cdot9{,}82\\sin20^\\circ\\approx1{,}45\\,\\mathrm N\\]</div>",
+        "s": "<div class=\"facit-v2\"><p>Klossen stannar, så startens rörelseenergi blir lägesenergi och arbete mot bromskraften.</p>\\[E_k=\\frac{0{,}50\\cdot5{,}0^2}{2}=6{,}25\\,\\mathrm J.\\]<p>Höjdökningen är h = 2,0 sin20° ≈ 0,684 m. Lägesenergin ökar med:</p>\\[\\Delta E_p=0{,}50\\cdot9{,}82\\cdot2{,}0\\sin20^\\circ\\]\\[\\Delta E_p\\approx3{,}35864\\,\\mathrm J.\\]<p>Bromskraftens arbete tar resten av energin under sträckan 2,0 m:</p>\\[F=\\frac{6{,}25-3{,}35864\\ldots}{2{,}0}\\]\\[F=1{,}445681\\ldots\\,\\mathrm N\\approx1{,}45\\,\\mathrm N.\\]</div>",
         "ledtrad": "<p>Vilken del av startenergin blir lägesenergi?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -133349,9 +133349,9 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur långt längs planet glider klossen innan den stannar? Svara i m med två decimaler.",
-        "t": "<p>En kloss på 0,50 kg skjuts med startfarten 8,0 m/s uppför ett plan som lutar 40°. En konstant motståndskraft på 1,45 N verkar nedför längs planet. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Hur långt längs planet glider klossen innan den stannar? Svara i m med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd motståndskraften 1,45 N som ges för det nya försöket. Startens rörelseenergi är</p>\\[E_k=\\frac{0{,}50\\cdot8{,}0^2}{2}=16\\,\\mathrm J\\]<p>Både tyngdkraftens del längs planet och motståndet bromsar.</p>\\[(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45)s=16\\]\\[s=\\frac{16}{0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}45}\\approx3{,}47\\,\\mathrm m\\]</div>",
-        "ledtrad": "<p>Vad anges vara oförändrat när lutningen ändras?</p>",
+        "t": "<p>En kloss på 0,50 kg skjuts med startfarten 8,0 m/s uppför ett plan som lutar 40°. En konstant motståndskraft på 1,4457 N verkar nedför längs planet. Bortse från annat motstånd och använd g = 9,82 m/s².</p><p>Hur långt längs planet glider klossen innan den stannar? Svara i m med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Startens rörelseenergi är:</p>\\[E_k=\\frac{0{,}50\\cdot8{,}0^2}{2}=16\\,\\mathrm J.\\]<p>Höjdökningen är s sin40°. Energin går till lägesenergi och arbete mot den givna bromskraften 1,4457 N:</p>\\[16=(0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}4457)s.\\]<p>Lös ut sträckan:</p>\\[s=\\frac{16}{0{,}50\\cdot9{,}82\\sin40^\\circ+1{,}4457}\\]\\[s\\approx3{,}47691\\,\\mathrm m\\approx3{,}48\\,\\mathrm m.\\]</div>",
+        "ledtrad": "<p>Hur mycket energi går till höjdökningen och hur mycket tar bromskraften bort på sträckan?</p>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
@@ -133359,7 +133359,8 @@ window.BANK = [
         "formaga": [
           "modellering",
           "procedur"
-        ]
+        ],
+        "rättSvar": 3.476910041971399
       }
     ],
     "omrTidigare": "arbete",
@@ -148736,7 +148737,7 @@ window.BANK = [
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3525.0,
+      3530,
       3.79526531611836
     ],
     "tolerans": [
@@ -150960,7 +150961,7 @@ window.BANK = [
     "typ": "golfboll",
     "poang": "(2/1/0)",
     "t": "<p>En golfboll på 45,9 g rör sig med farten 23,4 m/s på 15,0 m höjd över marken. Marken är nollnivå. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><ol type=\"a\"><li>Bestäm bollens mekaniska energi i J. Svara med tre värdesiffror.</li><li>Vilken höjd över marken skulle all denna energi motsvara om bollen stannade helt? Svara i m. Svara med tre värdesiffror.</li><li>Vilken fart har bollen strax före marken? Svara i m/s. Svara med tre värdesiffror.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan till 0,0459 kg. Beräkna rörelseenergin och lägesenergin var för sig.</p>\\[E_k=\\frac{0{,}0459\\cdot23{,}4^2}{2}=12{,}566502\\,\\mathrm J\\]\\[E_p=0{,}0459\\cdot9{,}82\\cdot15{,}0=6{,}76107\\,\\mathrm J\\]\\[\\begin{gathered}E_\\text{mek}=12{,}566502+6{,}76107\\\\=19{,}327572\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 19,3 J.</p><p><strong>b)</strong></p><p>Om bollen stannade helt skulle all mekanisk energi vara lägesenergi. Sätt startens rörelseenergi plus lägesenergi lika med mgh.</p>\\[\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0=mgh\\]<p>Förkorta massan och lös för höjden.</p>\\[h=15{,}0+\\frac{23{,}4^2}{2\\cdot9{,}82}\\approx42{,}9\\,\\mathrm m\\]<p>Detta är den största höjd energin räcker till. En snett kastad boll har kvar vågrät fart vid sin högsta punkt och når därför inte denna höjd.</p><p><strong>c)</strong></p><p>Vid marken har startens lägesenergi blivit mer rörelseenergi. Startens rörelseenergi finns också kvar.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{23{,}4^2+2\\cdot9{,}82\\cdot15{,}0}\\approx29{,}0\\,\\mathrm{m/s}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Omvandla massan till 0,0459 kg. Beräkna rörelseenergin och lägesenergin var för sig.</p>\\[E_k=\\frac{0{,}0459\\cdot23{,}4^2}{2}=12{,}566502\\,\\mathrm J\\]\\[E_p=0{,}0459\\cdot9{,}82\\cdot15{,}0=6{,}76107\\,\\mathrm J\\]\\[\\begin{gathered}E_\\text{mek}=12{,}566502+6{,}76107\\\\=19{,}327572\\,\\mathrm J\\end{gathered}\\]<p>Med tre värdesiffror: 19,3 J.</p><p><strong>b)</strong></p><p>Om bollen stannade helt skulle all mekanisk energi vara lägesenergi. Sätt startens rörelseenergi plus lägesenergi lika med mgh.</p>\\[\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0=mgh\\]<p>Förkorta massan och lös för höjden.</p>\\[h=15{,}0+\\frac{23{,}4^2}{2\\cdot9{,}82}\\approx42{,}9\\,\\mathrm m\\]<p>Detta är den största höjd energin räcker till. En snett kastad boll har kvar vågrät fart vid sin högsta punkt och når därför inte denna höjd.</p><p><strong>c)</strong></p><p>Vid marken har startens lägesenergi blivit mer rörelseenergi. Startens rörelseenergi finns också kvar.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{23{,}4^2+2\\cdot9{,}82\\cdot15{,}0}\\]\\[v\\approx29{,}0\\,\\mathrm{m/s}\\]</div>",
     "id": "5.474",
     "miniräknare": true,
     "geogebra": false,
@@ -151026,7 +151027,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Vilken fart har bollen strax före marken? Svara i m/s med tre värdesiffror.",
         "t": "<p>En golfboll har farten 23,4 m/s på 15,0 m höjd över marken. Bortse från luftmotståndet och använd g = 9,82 m/s².</p><p>Vilken fart har bollen strax före marken? Svara i m/s med tre värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid marken har startens lägesenergi blivit mer rörelseenergi. Startens rörelseenergi finns också kvar.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{23{,}4^2+2\\cdot9{,}82\\cdot15{,}0}\\approx29{,}0\\,\\mathrm{m/s}\\]</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid marken har startens lägesenergi blivit mer rörelseenergi. Startens rörelseenergi finns också kvar.</p>\\[\\frac{mv^2}{2}=\\frac{m\\cdot23{,}4^2}{2}+mg\\cdot15{,}0\\]<p>Förkorta massan och lös för slutfarten.</p>\\[v=\\sqrt{23{,}4^2+2\\cdot9{,}82\\cdot15{,}0}\\]\\[v\\approx29{,}0\\,\\mathrm{m/s}\\]</div>",
         "ledtrad": "<p>All energi som rörelseenergi.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -152326,7 +152327,7 @@ window.BANK = [
     "typ": "energiförluster",
     "poang": "(1/2/0)",
     "t": "<p>Använd g = 9,82 m/s².</p><ol type=\"a\"><li>En studsboll på 45 g släpps från vila 2,0 m över golvet och studsar upp till 1,6 m. Bortse från luftmotståndet. Hur mycket mekanisk energi omvandlas till andra energiformer vid studsen? Svara i J. Svara med tre värdesiffror.</li><li>En tennisboll på 57 g kastas rakt upp med 8,8 m/s. Den stiger 3,7 m över kastpunkten innan den vänder. Hur mycket mekanisk energi förlorar bollen genom luftmotståndet? Svara i J. Svara med tre värdesiffror.</li><li>Pelle på 80 kg åker från vila nedför en backe med höjdskillnaden 150 m och har farten 12 m/s längst ner. Han skjuter inte ifrån under färden. Hur mycket mekanisk energi förlorar han genom friktion och luftmotstånd? Svara i J. Svara med tre värdesiffror.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>I båda högsta lägena är farten noll. Skillnaden i lägesenergi har omvandlats till exempelvis inre energi och ljud. Massan är 0,045 kg.</p>\\[\\begin{gathered}E_\\text{förlust}=mg(h_1-h_2)\\\\=0{,}045\\cdot9{,}82(2{,}0-1{,}6)\\\\\\approx0{,}177\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Massan är 0,057 kg. Startens rörelseenergi blir dels lägesenergi, dels energi som överförs till luften.</p>\\[E_{k,1}=\\frac{0{,}057\\cdot8{,}8^2}{2}=2{,}20704\\,\\mathrm J\\]\\[\\Delta E_p=0{,}057\\cdot9{,}82\\cdot3{,}7=2{,}071038\\,\\mathrm J\\]\\[E_\\text{förlust}=2{,}20704-2{,}071038\\approx0{,}136\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Höjdminskningen frigör lägesenergi. En del blir rörelseenergi och resten överförs till omgivningen.</p>\\[E_p=80\\cdot9{,}82\\cdot150=117840\\,\\mathrm J\\]\\[E_k=\\frac{80\\cdot12^2}{2}=5760\\,\\mathrm J\\]\\[E_\\text{förlust}=117840-5760\\approx112000\\,\\mathrm J\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>I båda högsta lägena är farten noll. Skillnaden i lägesenergi har omvandlats till exempelvis inre energi och ljud. Massan är 0,045 kg.</p>\\[\\begin{gathered}E_\\text{förlust}=mg(h_1-h_2)\\\\=0{,}045\\cdot9{,}82(2{,}0-1{,}6)\\\\\\approx0{,}177\\,\\mathrm J\\end{gathered}\\]<p><strong>b)</strong></p><p>Massan är 0,057 kg. Startens rörelseenergi blir dels lägesenergi, dels energi som överförs till luften.</p>\\[E_{k,1}=\\frac{0{,}057\\cdot8{,}8^2}{2}\\]\\[E_{k,1}=2{,}20704\\,\\mathrm J\\]\\[\\Delta E_p=0{,}057\\cdot9{,}82\\cdot3{,}7\\]\\[\\Delta E_p=2{,}071038\\,\\mathrm J\\]\\[E_\\text{förlust}=2{,}20704-2{,}071038\\]\\[E_\\text{förlust}\\approx0{,}136\\,\\mathrm J\\]<p><strong>c)</strong></p><p>Höjdminskningen frigör lägesenergi. En del blir rörelseenergi och resten överförs till omgivningen.</p>\\[E_p=80\\cdot9{,}82\\cdot150=117840\\,\\mathrm J\\]\\[E_k=\\frac{80\\cdot12^2}{2}=5760\\,\\mathrm J\\]\\[E_\\text{förlust}=117840-5760\\approx112000\\,\\mathrm J\\]</div>",
     "id": "5.492",
     "miniräknare": true,
     "geogebra": false,
@@ -152381,7 +152382,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Hur mycket mekanisk energi förlorar bollen genom luftmotståndet? Svara i J. Svara med tre värdesiffror.",
         "t": "<p>En tennisboll på 57 g kastas rakt upp med 8,8 m/s. Den stiger 3,7 m över kastpunkten innan den vänder. Använd g = 9,82 m/s².</p><p>Hur mycket mekanisk energi förlorar bollen genom luftmotståndet? Svara i J. Svara med tre värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,057 kg. Startens rörelseenergi blir dels lägesenergi, dels energi som överförs till luften.</p>\\[E_{k,1}=\\frac{0{,}057\\cdot8{,}8^2}{2}=2{,}20704\\,\\mathrm J\\]\\[\\Delta E_p=0{,}057\\cdot9{,}82\\cdot3{,}7=2{,}071038\\,\\mathrm J\\]\\[E_\\text{förlust}=2{,}20704-2{,}071038\\approx0{,}136\\,\\mathrm J\\]</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,057 kg. Startens rörelseenergi blir dels lägesenergi, dels energi som överförs till luften.</p>\\[E_{k,1}=\\frac{0{,}057\\cdot8{,}8^2}{2}\\]\\[E_{k,1}=2{,}20704\\,\\mathrm J\\]\\[\\Delta E_p=0{,}057\\cdot9{,}82\\cdot3{,}7\\]\\[\\Delta E_p=2{,}071038\\,\\mathrm J\\]\\[E_\\text{förlust}=2{,}20704-2{,}071038\\]\\[E_\\text{förlust}\\approx0{,}136\\,\\mathrm J\\]</div>",
         "ledtrad": "<p>Jämför startens rörelseenergi med ökningen i lägesenergi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -152500,7 +152501,7 @@ window.BANK = [
     "typ": "brännboll och luftmotstånd",
     "poang": "(0/1/0)",
     "t": "<p>En boll på 75 g slås iväg från 1,2 m höjd med farten 40 m/s. Vid 20 m höjd har den farten 30 m/s. Använd g = 9,82 m/s².</p><p>Vilket arbete gör luftmotståndet på bollen under färden? Ange tecken och svara i J.</p><p>Svara med tre värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,075 kg. Beräkna rörelseenergin före och efter samt höjdökningen.</p>\\[E_{k,1}=\\frac{0{,}075\\cdot40^2}{2}=60\\,\\mathrm J\\]\\[E_{k,2}=\\frac{0{,}075\\cdot30^2}{2}=33{,}75\\,\\mathrm J\\]\\[\\Delta h=20-1{,}2=18{,}8\\,\\mathrm m\\]\\[\\Delta E_p=0{,}075\\cdot9{,}82\\cdot18{,}8=13{,}8462\\,\\mathrm J\\]<p>Luftmotståndets arbete är ändringen i den sammanlagda mekaniska energin.</p>\\[W_\\text{luft}=33{,}75+13{,}8462-60\\approx-12{,}4\\,\\mathrm J\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 0,075 kg. Beräkna rörelseenergin före och efter samt höjdökningen.</p>\\[E_{k,1}=\\frac{0{,}075\\cdot40^2}{2}\\]\\[E_{k,1}=60\\,\\mathrm J\\]\\[E_{k,2}=\\frac{0{,}075\\cdot30^2}{2}\\]\\[E_{k,2}=33{,}75\\,\\mathrm J\\]\\[\\Delta h=20-1{,}2=18{,}8\\,\\mathrm m\\]\\[\\Delta E_p=0{,}075\\cdot9{,}82\\cdot18{,}8\\]\\[\\Delta E_p=13{,}8462\\,\\mathrm J\\]<p>Luftmotståndets arbete är ändringen i den sammanlagda mekaniska energin.</p>\\[W_\\text{luft}=33{,}75+13{,}8462-60\\]\\[W_\\text{luft}\\approx-12{,}4\\,\\mathrm J\\]</div>",
     "id": "5.494",
     "miniräknare": true,
     "geogebra": false,
@@ -152855,7 +152856,7 @@ window.BANK = [
     "rättSvar": [
       3.967221644120707,
       1220,
-      76.25,
+      76.3,
       14.142135623730951
     ],
     "tolerans": [
@@ -153081,7 +153082,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       322072.7237654321,
-      370.5,
+      371,
       28.8,
       0.44000000000000006
     ],
@@ -153459,7 +153460,7 @@ window.BANK = [
       4240.384615384615,
       0.34541751527494907,
       21.43772375976517,
-      4805.0
+      4810
     ],
     "tolerans": [
       5.0,
@@ -154249,7 +154250,7 @@ window.BANK = [
     "typ": "bromsande kraft vid olika lutning",
     "poang": "(0/2/0)",
     "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><ol type=\"a\"><li>En kloss på 0,40 kg skjuts uppför ett plan med startfarten 6,0 m/s. Planet lutar 25° mot horisontalplanet och klossen stannar efter 2,5 m längs planet. Utöver tyngdkraften verkar en konstant kraft som bromsar rörelsen. Bestäm bromskraftens storlek i N. Svara med tre värdesiffror.</li><li>En kloss på 0,40 kg skjuts uppför ett plan med startfarten 7,0 m/s. Planet lutar 35° mot horisontalplanet. Utöver tyngdkraften verkar en konstant bromskraft på 1,22 N längs planet. Hur långt glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Startenergin blir ökad lägesenergi och energi som bromskraften tar bort.</p>\\[E_k=\\frac{0{,}40\\cdot6{,}0^2}{2}=7{,}2\\,\\mathrm J\\]\\[\\Delta E_p=0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ\\]\\[\\begin{gathered}F\\\\=\\frac{7{,}2-0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ}{2{,}5}\\\\\\approx1{,}22\\,\\mathrm N\\end{gathered}\\]<p><strong>b)</strong></p><p>Startenergin är</p>\\[E_k=\\frac{0{,}40\\cdot7{,}0^2}{2}=9{,}8\\,\\mathrm J\\]<p>Höjdökningen är s sin35°. Klossen stannar när lägesenergin och bromskraftens energiförlust tillsammans motsvarar startenergin.</p>\\[9{,}8=0{,}40\\cdot9{,}82\\,s\\sin35^\\circ+1{,}22s\\]\\[s=\\frac{9{,}8}{0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22}\\approx2{,}82\\,\\mathrm m\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Startenergin blir ökad lägesenergi och energi som bromskraften tar bort.</p>\\[E_k=\\frac{0{,}40\\cdot6{,}0^2}{2}=7{,}2\\,\\mathrm J\\]\\[\\Delta E_p=0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ\\]\\[\\begin{gathered}F\\\\=\\frac{7{,}2-0{,}40\\cdot9{,}82\\cdot2{,}5\\sin25^\\circ}{2{,}5}\\\\\\approx1{,}22\\,\\mathrm N\\end{gathered}\\]<p><strong>b)</strong></p><p>Startenergin är</p>\\[E_k=\\frac{0{,}40\\cdot7{,}0^2}{2}=9{,}8\\,\\mathrm J\\]<p>Höjdökningen är s sin35°. Klossen stannar när lägesenergin och bromskraftens energiförlust tillsammans motsvarar startenergin.</p>\\[9{,}8=0{,}40\\cdot9{,}82\\,s\\sin35^\\circ+1{,}22s\\]\\[F_\\parallel=0{,}40\\cdot9{,}82\\sin35^\\circ\\]\\[F_\\parallel\\approx2{,}25329\\,\\mathrm N\\]\\[s=\\frac{9{,}8}{F_\\parallel+1{,}22}\\approx2{,}82\\,\\mathrm m\\]</div>",
     "id": "5.543",
     "miniräknare": true,
     "geogebra": false,
@@ -154298,7 +154299,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "En kloss på 0,40 kg skjuts uppför ett plan med startfarten 7,0 m/s. Planet lutar 35° mot horisontalplanet. Utöver tyngdkraften verkar en konstant bromskraft på 1,22 N längs planet. Hur långt glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.",
         "t": "<p>Använd g = 9,82 m/s². Bortse från luftmotståndet.</p><p>En kloss på 0,40 kg skjuts uppför ett plan med startfarten 7,0 m/s. Planet lutar 35° mot horisontalplanet. Utöver tyngdkraften verkar en konstant bromskraft på 1,22 N längs planet. Hur långt glider klossen innan den stannar? Svara i m. Svara med tre värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startenergin är</p>\\[E_k=\\frac{0{,}40\\cdot7{,}0^2}{2}=9{,}8\\,\\mathrm J\\]<p>Höjdökningen är s sin35°. Klossen stannar när lägesenergin och bromskraftens energiförlust tillsammans motsvarar startenergin.</p>\\[9{,}8=0{,}40\\cdot9{,}82\\,s\\sin35^\\circ+1{,}22s\\]\\[s=\\frac{9{,}8}{0{,}40\\cdot9{,}82\\sin35^\\circ+1{,}22}\\approx2{,}82\\,\\mathrm m\\]</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Startenergin är</p>\\[E_k=\\frac{0{,}40\\cdot7{,}0^2}{2}=9{,}8\\,\\mathrm J\\]<p>Höjdökningen är s sin35°. Klossen stannar när lägesenergin och bromskraftens energiförlust tillsammans motsvarar startenergin.</p>\\[9{,}8=0{,}40\\cdot9{,}82\\,s\\sin35^\\circ+1{,}22s\\]\\[F_\\parallel=0{,}40\\cdot9{,}82\\sin35^\\circ\\]\\[F_\\parallel\\approx2{,}25329\\,\\mathrm N\\]\\[s=\\frac{9{,}8}{F_\\parallel+1{,}22}\\approx2{,}82\\,\\mathrm m\\]</div>",
         "ledtrad": "<p>Sätt startenergin lika med lägesenergins ökning plus 1,22 gånger sträckan.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -164453,7 +164454,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1964.0,
-      245.5,
+      246,
       0.025
     ],
     "tolerans": [
@@ -184785,7 +184786,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       315.37353705126185,
-      212.50000000000003,
+      213,
       3117.691453623979
     ],
     "tolerans": [
@@ -185131,7 +185132,7 @@ window.BANK = [
     "familj": "Arbete W = F·s",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.07365,
+      0.0737,
       84.86082824168365,
       78.125
     ],
@@ -186107,7 +186108,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.7899999999999999,
-      0.002275000000000013
+      0.00228
     ],
     "tolerans": [
       0.0005,
@@ -187184,7 +187185,7 @@ window.BANK = [
     "rättSvar": [
       3.033707865168539,
       9.103624875,
-      0.7875
+      0.788
     ],
     "tolerans": [
       0.005,

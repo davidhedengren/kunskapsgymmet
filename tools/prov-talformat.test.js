@@ -48,3 +48,17 @@ test('Tabellens delkort har egna klickbara resonemang och egen numerisk del',()=
   assert.equal(b.svarEnhet,'min');assert.notEqual(a.s,b.s);
  }
 });
+
+test('Kort facit följer värdesiffror även för heltal och bevarar betydelsefulla nollor',()=>{
+ c.state.currentTask={t:'Svara med tre värdesiffror.'};
+ for(const [v,want]of [[17676,'\\(1{,}77\\cdot10^{4}\\)'],[30,'30,0'],[8,'8,00'],[120,'120'],[1473,'\\(1{,}47\\cdot10^{3}\\)'],[79542,'\\(7{,}95\\cdot10^{4}\\)'],[999.9,'\\(1{,}00\\cdot10^{3}\\)'],[-999.9,'\\(-1{,}00\\cdot10^{3}\\)'],[.000099999,'\\(1{,}00\\cdot10^{-4}\\)'],[.00001234,'\\(1{,}23\\cdot10^{-5}\\)'],[1.2,'1,20']]){
+  assert.equal(c.visatSvar(v,0.5,'numeriskt'),want,String(v));
+ }
+ c.state.currentTask=null;
+});
+test('Kort facit ger begärda decimaler utan att ändra exakta heltal utan precisionskrav',()=>{
+ c.state.currentTask={t:'Svara med två decimaler.'};assert.equal(c.visatSvar(30,0.005,'numeriskt'),'30,00');assert.equal(c.visatSvar(0,0.005,'numeriskt'),'0,00');
+ c.state.currentTask={t:'Svara med två värdesiffror.'};assert.equal(c.visatSvar(30,0.5,'numeriskt'),'30');
+ c.state.currentTask=null;assert.equal(c.visatSvar(17676,50,'numeriskt'),'17676');
+ assert.equal(c.visatSvar(12,1e-9,'numeriskt'),'12');assert.equal(c.visatFacitTal(Infinity,0),'Infinity');
+});

@@ -3913,7 +3913,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-11-statistikfigurer-svarsfalt";
+const BANK_VERSION="2026-10-11-vardesiffror-stickprov";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -12503,14 +12503,26 @@ function checkAnswer(){
 /* Utan instruktion om decimaler/värdesiffror avrundas facit efter toleransen: så få decimaler
    som möjligt men ändå inom toleransen (0,51 kring 33,333 visas som 33,3). */
 function visatFacitTal(v,tol){
-  if(typeof v!=="number" || !Number.isFinite(v) || Number.isInteger(v)) return String(v);
+  if(typeof v!=="number" || !Number.isFinite(v)) return String(v);
   const txt=String(state.currentTask?.t||"").replace(/<[^>]+>/g," ");
   const ord={en:1,ett:1,två:2,tre:3,fyra:4};
   const md=txt.match(/(en|två|tre|fyra|[1-4])\s+decimal/i);
   const mv=txt.match(/(en|två|tre|fyra|[1-5])\s+värdesiffr/i);
   let s;
   if(md) s=v.toFixed(ord[md[1].toLowerCase()]||+md[1]);
-  else if(mv){ const n=ord[mv[1].toLowerCase()]||+mv[1]; s=Math.abs(v)>=1e-4&&Math.abs(v)<1e6 ? String(Number(v.toPrecision(n))) : v.toPrecision(n); }
+  else if(mv){
+    const n=ord[mv[1].toLowerCase()]||+mv[1];
+    const avrundat=Number(v.toPrecision(n));
+    const exponent=avrundat===0 ? 0 : Math.floor(Math.log10(Math.abs(avrundat)));
+    // Grundpotensform gör värdesiffrorna synliga även i exempelvis 17 700 J.
+    // Avrundningen kan ändra exponenten: 999,9 med tre värdesiffror blir 1,00·10³.
+    if(avrundat!==0 && (exponent>=n || exponent< -3)){
+      const [koefficient,e]=v.toExponential(n-1).split("e");
+      return koefficient.replace(".","{,}")+"\\cdot10^{"+Number(e)+"}";
+    }
+    s=avrundat.toFixed(Math.max(0,n-1-exponent));
+  }
+  else if(Number.isInteger(v)) return String(v);
   else if(typeof tol==="number" && tol>0 && Math.abs(v)>=1e-4){
     const d=Math.max(-12,Math.min(4,Math.ceil(-Math.log10(tol))));
     const steg=Math.pow(10,-d);

@@ -49,3 +49,10 @@ test('Små talsvar behåller sin storlek även när algebrabiblioteket avrundar 
   assert.equal(context.algebraicallyEquivalent('36e-48','3.6e-47'),true);
  }finally{delete context.window.nerdamer;}
 });
+
+test('Fakultet och kvoter av fakulteter godtas som exakta tal',()=>{
+ for(const [input,expected] of [['0!',1],['6!',720],['(3+3)!',720],['8!/(8-3)!',336],['9!/(2!*7!)',36],['4!/2!',12],['-6!',-720],['6!+1',721]])
+  assert.equal(value(input),expected,input);
+ for(const input of ['(-1)!','2.5!','171!','6!!','6!x','6!+','6! alert(1)'])
+  assert.ok(Number.isNaN(value(input)),input);
+});

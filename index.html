@@ -3267,6 +3267,8 @@ body.hm-drar{user-select:none}
 .hm-formel{min-width:280px;min-height:220px}
 .hp-sidor{flex:1 1 auto;min-height:0;overflow:auto;padding:2px 12px 16px;background:var(--surface2);
   touch-action:pan-x pan-y;overscroll-behavior:contain}
+.hp-sidor.panbar{cursor:grab}
+.hp-sidor.drar{cursor:grabbing;user-select:none}
 .hp-sidor canvas{display:block;margin:10px auto 0;border-radius:6px;background:#fff;box-shadow:var(--e1)}
 .hp-sidor .empty{padding:24px 8px;text-align:center;color:var(--ink3);font-size:13.5px}
 .hmf-storlek{position:absolute;right:0;bottom:0;width:22px;height:22px;cursor:nwse-resize;touch-action:none;
@@ -3857,7 +3859,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-10-enhetsprefix-6438";
+const BANK_VERSION="2026-10-11-fakultet-formel-gravitation";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10808,10 +10810,10 @@ function firstNumber(s){
 function isPureNumberExpression(s){
 
   const x=explicitMultiplikation(normalizeMathInput(s));
-  if(!x) return false;
+  if(!x || /!\s*!/.test(x)) return false;
   const scrub=x
     .replace(/\b(?:arcsin|arccos|arctan|sinh|cosh|tanh|sqrt|sin|cos|tan|asin|acos|atan|log10|lg|ln|log|abs|exp|pi|e)\b/g,"")
-    .replace(/[0-9.+\-*/^(),]/g,"");
+    .replace(/[0-9.+\-*/^(),!]/g,"");
   return scrub==="";
 }
 
@@ -15593,6 +15595,7 @@ function formelZoomaTill(ny,px,py){
   if(px===undefined){ px=box.clientWidth/2; py=box.clientHeight/2; }
   const kvot=ny/gammal, sx=box.scrollLeft+px, sy=box.scrollTop+py;
   hjalp.zoom=ny; formelVisaProcent();
+  box.classList.toggle("panbar",ny>1);
   const bredd=formelPassning(box)*ny;
   box.querySelectorAll("canvas").forEach(c=>{
     const a=Number(c.dataset.aspekt)||1.414;
@@ -15604,6 +15607,27 @@ function formelZoomaTill(ny,px,py){
 }
 function formelZooma(faktor){ formelZoomaTill(hjalp.zoom*faktor); }
 function formelZoomGester(box){
+  /* Dra den inzoomade sidan med musen. Pekarfångst behåller dragningen
+     även när pekaren lämnar rutan; touch fortsätter använda vanlig rullning. */
+  let drag=null;
+  box.classList.toggle("panbar",hjalp.zoom>1);
+  box.addEventListener("pointerdown",e=>{
+    if(e.pointerType!=="mouse" || e.button!==0 || hjalp.zoom<=1) return;
+    e.preventDefault();
+    drag={id:e.pointerId,x:e.clientX,y:e.clientY,left:box.scrollLeft,top:box.scrollTop};
+    box.setPointerCapture(e.pointerId); box.classList.add("drar");
+  });
+  box.addEventListener("pointermove",e=>{
+    if(!drag || drag.id!==e.pointerId) return;
+    box.scrollLeft=drag.left+drag.x-e.clientX;
+    box.scrollTop=drag.top+drag.y-e.clientY;
+  });
+  const slutaDra=e=>{
+    if(!drag || drag.id!==e.pointerId) return;
+    drag=null; box.classList.remove("drar");
+    if(box.hasPointerCapture(e.pointerId)) box.releasePointerCapture(e.pointerId);
+  };
+  for(const event of ["pointerup","pointercancel","lostpointercapture"]) box.addEventListener(event,slutaDra);
   box.addEventListener("wheel",e=>{
     if(!e.ctrlKey && !e.metaKey) return;
     e.preventDefault();

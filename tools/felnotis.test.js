@@ -12,6 +12,7 @@ function setup(){
     felOppnaAntal:null,felAntalHamtar:false,MOLN_PA:()=>true,
     esc:x=>String(x).replaceAll('&','&amp;').replaceAll('"','&quot;'),
     hamtaFelloggen:async()=>[{},{}],
+    kgOnlineHamta:()=>{},
     document:{visibilityState:'visible',querySelectorAll:selector=>selector==='.konto'
       ?[{querySelector:()=>badge,setAttribute:(k,v)=>attributes[k]=v}]:[menu]}
   });
@@ -79,11 +80,14 @@ test('Svar från tidigare konto får inte användas efter kontobyte',async()=>{
   assert.equal(c.felOppnaAntal,null);
 });
 test('Närvarotimern uppdaterar notisen endast för synlig adminsession',async()=>{
-  const {c}=setup();let calls=0;
+  const {c}=setup();let calls=0,onlineCalls=0;
   c.uppdateraFelAntal=()=>calls++;c.giltigSession=async()=>false;
+  c.kgOnlineHamta=()=>onlineCalls++;
   await c.kgHeartbeat();
   assert.equal(calls,1);
+  assert.equal(onlineCalls,1);
   c.document.visibilityState='hidden';await c.kgHeartbeat();
   c.document.visibilityState='visible';c.arAdmin=false;await c.kgHeartbeat();
   assert.equal(calls,1);
+  assert.equal(onlineCalls,1);
 });

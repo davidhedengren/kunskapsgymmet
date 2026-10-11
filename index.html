@@ -3249,7 +3249,10 @@ body.hm-drar{user-select:none}
   pointer-events:none;opacity:0;transition:opacity .15s ease}
 .hm-dockzon.syns{opacity:1}
 .hmfonster.drar{user-select:none;box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 4px 10px rgba(10,20,35,.14),0 34px 80px -20px rgba(10,20,35,.55)}
-.hm-raknare{width:390px}
+.hm-raknare{width:390px;max-height:calc(100dvh - 16px)}
+.hm-raknare .hmf-topp{flex-wrap:wrap}
+.hmfonster.hm-raknare .hmf-storlek{display:block;width:28px;height:28px;border:0;padding:0;z-index:2}
+.hm-raknare .hmf-storlek:focus-visible{outline:2px solid var(--acc);outline-offset:-3px;opacity:1}
 .hmf-topp{display:flex;align-items:center;gap:8px;padding:10px 12px 9px 8px;cursor:grab;touch-action:none;flex:none}
 .hmfonster.drar .hmf-topp{cursor:grabbing}
 .hmf-topp .spacer{flex:1}
@@ -3279,7 +3282,8 @@ body.hm-drar{user-select:none}
 .hm-raknare.sparrad .rk-sparr{display:block;position:absolute;inset:auto 22px 22px;padding:12px 14px;border-radius:14px;
   text-align:center;font:600 13px var(--ui);color:var(--ink);background:var(--surface);box-shadow:var(--e2)}
 .hm-raknare.sparrad .rk-tangenter,.hm-raknare.sparrad .rk-skarm{opacity:.35;pointer-events:none}
-.hm-raknare .rk-kropp{position:relative}
+.hm-raknare .rk-kropp{position:relative;display:flex;flex-direction:column;flex:1 1 auto;min-height:0;overflow:auto}
+.hm-raknare .rk-skarm{flex:none}
 
 /* ── Miniräknaren: en fysisk apparat med upphöjda tangenter ── */
 .hm-raknare{
@@ -3356,6 +3360,8 @@ html[data-theme="dark"] .hm-raknare{
   box-shadow:inset 0 1px 0 rgba(255,255,255,.5),inset 0 -2px 0 rgba(170,70,0,.35),0 1px 1px rgba(150,60,0,.25),0 5px 12px -5px rgba(255,140,0,.7)}
 .rk-tangenter .lika{grid-column:span 2}
 .rk-tangenter .noll{grid-column:span 2}
+.hm-raknare .rk-tangenter{flex:1 1 356px;min-height:300px;grid-auto-rows:minmax(36px,1fr)}
+.hm-raknare .rk-tangenter button{height:100%;min-height:36px}
 
 @media(max-width:640px){
   .hm-raknare{width:calc(100vw - 16px)}
@@ -15244,8 +15250,8 @@ async function kgAdminSlaIhop(fran,till){
 }
 /* ===== Hjälpmedel under träningen: formelblad och miniräknare =====
    Två fönster som dockas till höger (uppgiften krymper) eller dras loss och
-   flyttas fritt i rubrikraden. Formelbladet
-   går också att ändra storlek på (hörnet nere till höger) och zooma i (knappar,
+   flyttas fritt i rubrikraden. Båda fönstren går att ändra storlek på i hörnet
+   nere till höger. Formelbladet går också att zooma i (knappar,
    Ctrl/⌘ + scroll, nyp med två fingrar, dubbelklick). Fönstren ligger utanför
    #app så att de inte ritas om vid varje uppgift. Formelbladen är Skolverkets
    PDF:er i mappen formelblad/ och ritas med pdf.js, som laddas först när ett
@@ -15447,21 +15453,53 @@ function hjalpStandard(f){
 function hjalpPlacera(f){
   const p={...hjalpStandard(f),...(hjalp.pos[hjalpNyckel(f)]||{})};
   const W=window.innerWidth, H=window.innerHeight;
-  if(p.w){ p.w=Math.max(f.id==="hm-formel"?280:300,Math.min(p.w,W-16)); f.style.width=p.w+"px"; }
+  if(p.w){
+    p.w=f.id==="hm-formel"?Math.max(280,Math.min(p.w,W-16)):Math.min(W-16,Math.max(300,p.w));
+    f.style.width=p.w+"px";
+  }
   if(f.id==="hm-formel"){ p.h=Math.max(220,Math.min(p.h||H-100,H-16)); f.style.height=p.h+"px"; }
-  else f.style.height="";
+  else f.style.height=p.h?Math.min(Math.max(hjalpRaknareMinH(f),p.h),H-16)+"px":"";
   const bredd=f.offsetWidth||p.w||300;
   p.x=Math.max(8-bredd+120,Math.min(p.x,W-120));
   p.y=Math.max(8,Math.min(p.y,H-56));
+  if(f.id==="hm-raknare"){
+    // Alla tangenter och stängknappen ska gå att nå även efter en skärmändring.
+    p.x=Math.max(8,Math.min(p.x,W-bredd-8));
+    p.y=Math.max(8,Math.min(p.y,H-f.offsetHeight-8));
+  }
   f.style.left=Math.round(p.x)+"px"; f.style.top=Math.round(p.y)+"px";
 }
 function hjalpSparaPos(f){
   const r=f.getBoundingClientRect(), nyckel=hjalpNyckel(f);
   hjalp.pos[nyckel]={x:Math.round(r.left),y:Math.round(r.top),w:Math.round(r.width),
-    ...(nyckel==="formel"?{h:Math.round(r.height)}:{})};
+    h:Math.round(r.height)};
   hjalpSpara();
 }
-/* Flytta i rubriken; storleksändra flytande formelblad i hörnet. */
+/* Flytta i rubriken; storleksändra hjälpmedlen i hörnet. */
+function hjalpRaknareMinH(f){
+  // Rubrik, skärm, sju rader med tangenter samt marginaler; rullning behövs bara på låga skärmar.
+  return f.querySelector(".hmf-topp").offsetHeight+f.querySelector(".rk-skarm").offsetHeight+350;
+}
+function hjalpAndraStorlek(f,w,h){
+  const r=f.getBoundingClientRect(), raknare=f.id==="hm-raknare";
+  const W=window.innerWidth,H=window.innerHeight;
+  if(raknare){
+    w=Math.min(W-16,Math.max(300,w));
+    f.style.width=w+"px";
+    h=Math.min(H-16,Math.max(hjalpRaknareMinH(f),h));
+    Object.assign(f.style,{width:w+"px",height:h+"px",
+      left:Math.max(8,Math.min(r.left,W-w-8))+"px",top:Math.max(8,Math.min(r.top,H-h-8))+"px"});
+  }else{
+    f.style.width=Math.max(280,Math.min(w,W-r.left-8))+"px";
+    f.style.height=Math.max(220,Math.min(h,H-r.top-8))+"px";
+  }
+}
+function hjalpSlappStorlek(f){
+  if(!hjalpArDockad(f)) return;
+  hjalp.dock[hjalpNyckel(f)]=false;
+  f.classList.remove("dockad","anim");
+  hjalpSparaPos(f); hjalpLayout();
+}
 function hjalpDragbar(f){
   f.addEventListener("pointerdown",()=>hjalpFram(f),true);
   const topp=f.querySelector(".hmf-topp");
@@ -15508,20 +15546,31 @@ function hjalpDragbar(f){
   });
   const horn=f.querySelector(".hmf-storlek"); if(!horn) return;
   horn.addEventListener("pointerdown",e=>{
-    if(hjalpArDockad(f)) return;
+    if(e.button!==0 || (hjalpArDockad(f) && f.id!=="hm-raknare")) return;
     e.preventDefault(); e.stopPropagation();
+    hjalpSlappStorlek(f);
     const r=f.getBoundingClientRect(), x0=e.clientX, y0=e.clientY;
-    horn.setPointerCapture(e.pointerId); f.classList.add("drar");
+    horn.setPointerCapture(e.pointerId); f.classList.remove("anim"); f.classList.add("drar");
+    document.body.classList.add("hm-drar");
     const andra=ev=>{
-      f.style.width=Math.max(280,Math.min(r.width+ev.clientX-x0,window.innerWidth-r.left-8))+"px";
-      f.style.height=Math.max(220,Math.min(r.height+ev.clientY-y0,window.innerHeight-r.top-8))+"px";
+      hjalpAndraStorlek(f,r.width+ev.clientX-x0,r.height+ev.clientY-y0);
     };
     const slapp=()=>{
-      horn.removeEventListener("pointermove",andra); f.classList.remove("drar"); hjalpSparaPos(f); formelRita();
+      horn.removeEventListener("pointermove",andra);
+      ["pointerup","pointercancel","lostpointercapture"].forEach(n=>horn.removeEventListener(n,slapp));
+      if(horn.hasPointerCapture(e.pointerId)) horn.releasePointerCapture(e.pointerId);
+      f.classList.remove("drar"); document.body.classList.remove("hm-drar"); hjalpSparaPos(f); formelRita();
     };
     horn.addEventListener("pointermove",andra);
-    horn.addEventListener("pointerup",slapp,{once:true});
-    horn.addEventListener("pointercancel",slapp,{once:true});
+    ["pointerup","pointercancel","lostpointercapture"].forEach(n=>horn.addEventListener(n,slapp));
+  });
+  if(f.id==="hm-raknare") horn.addEventListener("keydown",e=>{
+    if(!["ArrowLeft","ArrowRight","ArrowUp","ArrowDown"].includes(e.key)) return;
+    e.preventDefault(); hjalpSlappStorlek(f);
+    const r=f.getBoundingClientRect(), steg=e.shiftKey?40:10;
+    hjalpAndraStorlek(f,r.width+(e.key==="ArrowRight"?steg:e.key==="ArrowLeft"?-steg:0),
+      r.height+(e.key==="ArrowDown"?steg:e.key==="ArrowUp"?-steg:0));
+    hjalpSparaPos(f);
   });
 }
 let hjalpResizeTimer=null;
@@ -15560,7 +15609,8 @@ function hjalpSkapaRaknare(){
       <div class="rk-tangenter">${tang.map(([txt,v,kl])=>
         `<button type="button" class="${kl||""}" data-v="${esc(v)}">${txt}</button>`).join("")}</div>
       <div class="rk-sparr">Miniräknare är inte tillåten på den här uppgiften.</div>
-    </div>`;
+    </div><button type="button" class="hmf-storlek" title="Dra för att ändra storlek"
+      aria-label="Ändra miniräknarens storlek med piltangenterna eller dra i hörnet"></button>`;
   document.body.appendChild(f);
   f.querySelector(".rk-tangenter").addEventListener("click",e=>{
     const b=e.target.closest("button[data-v]"); if(b) raknTangent(b.dataset.v);

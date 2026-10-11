@@ -3913,7 +3913,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-11-felrapporter-1902";
+const BANK_VERSION="2026-10-11-gaslag-delmetadata";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9273,6 +9273,7 @@ function svarsPlan(t){
     const harFacit=svar.every(x=>x!==null&&x!==undefined&&x!=="");
     return {
       svar, enhet, tol, format,
+      svar273: faltVarde(t.rättSvar273,i,svar.length),
       auto: harFacit && faltFlagga(t.självrättning,i,false),
       manuell: faltFlagga(t.manuellKomplettering,i,false)
     };
@@ -12464,8 +12465,10 @@ function checkAnswer(){
     if(varden.some(x=>!x.trim())){ toast("Fyll i alla svar för deluppgiften."); return; }
 
     const kvar=d.svar.map((v,j)=>({v,j}));
+    // Alternativet måste följa den aktuella delen, också i en heluppgift.
+    const rattningsTask={...t,rättSvar273:d.svar273};
     const utfall=varden.map(anv=>{
-      const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],t,k.j,d.format[k.j]));
+      const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],rattningsTask,k.j,d.format[k.j]));
       if(träff<0) return false;
       kvar.splice(träff,1);
       return true;

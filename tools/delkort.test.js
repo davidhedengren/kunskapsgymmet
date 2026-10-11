@@ -19,6 +19,19 @@ const ma3=bank('uppgiftermato1.js'),ma5=bank('uppgiftermatf1.js');
 const cards=id=>c.expandGameTask(ma3.find(q=>q.id===id));
 const plain=x=>JSON.parse(JSON.stringify(x));
 
+test('Heluppgiftens gaslagssvar använder rätt alternativ för varje del',()=>{
+  const q=bank('uppgifter.js').find(q=>q.id==='6.21');
+  const plan=c.svarsPlan(q);
+  assert.ok(Math.abs(plan.delar[0].svar273[0]-150*333/293)<1e-12);
+  assert.ok(Math.abs(plan.delar[1].svar273[0]-100*(333/293-1))<1e-12);
+  assert.notEqual(plan.delar[0].svar273[0],plan.delar[1].svar273[0]);
+  const nullFirst=c.svarsPlan(bank('uppgifter.js').find(q=>q.id==='6.4'));
+  assert.equal(nullFirst.delar[0].svar273[0],null);
+  assert.ok(nullFirst.delar[1].svar273[0]>0);
+  const nested=c.svarsPlan({rättSvar:[[10,20],30],rättSvar273:[[11,21],31],självrättning:true});
+  assert.deepEqual(plain(nested.delar.map(d=>d.svar273)),[[11,21],[31]]);
+});
+
 test('Ma2 3.158 har två namngivna numeriska vinkelfält utan LaTeX-krav',()=>{
   const q=bank('uppgifterma2.js').find(q=>q.id==='3.158');
   const layout=c.answerLayout(q);

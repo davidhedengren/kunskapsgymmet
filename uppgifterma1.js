@@ -64262,14 +64262,14 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En bil köps för 260 000 kr och säljs 5 år senare för 178 000 kr. Anta samma procentuella värdeminskning varje år.</p><p>Bestäm den genomsnittliga årliga minskningen i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[260000q^5=178000\\Rightarrow q=(\\frac{178}{260})^{\\frac{1}{5}}\\approx0{,}92702\\].</div></li><li><p>Årlig minskning är därför <strong>7,3 %</strong>.</p></li></ol></div>",
+    "t": "<p>En bil köps för 260 000 kr och säljs 5 år senare för 178 000 kr. Anta samma procentuella värdeminskning varje år.</p><p>Bestäm den genomsnittliga årliga minskningen i procent. Svara med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>På fem år ändras värdet med faktorn 178 000/260 000. Den årliga faktorn blir</p>\\[q=\\sqrt[5]{\\frac{178000}{260000}}\\approx0{,}92702.\\]<p>Minskningen är skillnaden mellan 1 och den årliga faktorn.</p>\\[(1-q)\\cdot100\\approx7{,}3\\%.\\]<p><strong>Svar:</strong> 7,3 % per år.</p></div>",
     "familj": "Genomsnittlig förändring i problem",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "7.3",
-    "tolerans": 0.1,
+    "rättSvar": 7.297951560290916,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64280,7 +64280,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Genomsnittlig årlig förändring"
-    ]
+    ],
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.08",
@@ -64292,14 +64294,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett kapital på 10 000 kr har vuxit till 10 500 kr efter ett år. Vilken var årsräntan?</p>",
+    "t": "<p>Ett kapital på 10 000 kr har vuxit till 10 500 kr efter ett år. Vilken var årsräntan i procent?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kapitalet har ökat med \\(10\\,500-10\\,000=500\\) kr.</p></li><li><div class=\"facit-berakning\"><p>Räntesatsen är därför</p><div class=\"facit-matte\">\\[500/10\\,000=0{,}05=5\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 %.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "5",
-    "tolerans": null,
+    "rättSvar": 5,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -64308,7 +64310,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Bestäm först ökningen i kronor och jämför den sedan med startkapitalet 10 000 kr.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.09",
@@ -64910,17 +64914,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En indextabell visar:</p><table class='data'><tr><th>År</th><th>2000</th><th>2010</th><th>2020</th><th>2025</th></tr><tr><th>Index</th><td>100</td><td>118</td><td>136</td><td>150</td></tr></table><p>En biobiljett kostade 75 kr år 2000.</p><p>a) Vad skulle den kosta 2025 om priset följt index?<br>b) Det verkliga priset 2025 är 135 kr. Hur många procent högre är det än det indexjusterade priset?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(75\\cdot150/100=\\)<strong>112,50 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(135-112,5)/112{,}5=0{,}20\\].</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> <strong>20 % högre.</strong></p></div></div>",
+    "t": "<p>En indextabell visar:</p><table class='data'><tr><th>År</th><th>2000</th><th>2010</th><th>2020</th><th>2025</th></tr><tr><th>Index</th><td>100</td><td>118</td><td>136</td><td>150</td></tr></table><p>En biobiljett kostade 75 kr år 2000.</p><p>a) Vad skulle den kosta 2025 om priset följt index? Svara i kr med två decimaler.<br>b) Det verkliga priset 2025 är 135 kr. Hur många procent högre är det än det indexjusterade priset?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(75\\cdot150/100=\\)<strong>112,50 kr</strong>.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Jämför prisskillnaden med det indexjusterade priset.</p>\\[\\frac{135-112{,}50}{112{,}50}\\cdot100=20\\%.\\]<p><strong>Svar:</strong> 20 %.</p></div></div></div></div>",
     "familj": "Procentuell förändring av index",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "112.50",
-      "20"
+      112.5,
+      20
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.005,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64935,7 +64942,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En indextabell visar:</p><table class='data'><tr><th>År</th><th>2000</th><th>2010</th><th>2020</th><th>2025</th></tr><tr><th>Index</th><td>100</td><td>118</td><td>136</td><td>150</td></tr></table><p>En biobiljett kostade 75 kr år 2000.</p><p>Vad skulle den kosta 2025 om priset följt index?</p>",
+        "t": "<p>En indextabell visar:</p><table class='data'><tr><th>År</th><th>2000</th><th>2010</th><th>2020</th><th>2025</th></tr><tr><th>Index</th><td>100</td><td>118</td><td>136</td><td>150</td></tr></table><p>En biobiljett kostade 75 kr år 2000.</p><p>Vad skulle den kosta 2025 om priset följt index? Svara i kr med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(75\\cdot150/100=\\)<strong>112,50 kr</strong>.</p></li></ol></div>",
         "niva": "C",
         "poang": "0/1/0",
@@ -64945,17 +64952,25 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En indextabell visar:</p><table class='data'><tr><th>År</th><th>2000</th><th>2010</th><th>2020</th><th>2025</th></tr><tr><th>Index</th><td>100</td><td>118</td><td>136</td><td>150</td></tr></table><p>En biobiljett kostade 75 kr år 2000.</p><p>Det verkliga priset 2025 är 135 kr. Hur många procent högre är det än det indexjusterade priset?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(135-112,5)/112{,}5=0{,}20\\].</div></li></ol></div>",
+        "t": "<p>En biobiljett kostar 135 kr. Om priset följt index skulle den ha kostat 112,50 kr.</p><p>Hur många procent högre är det verkliga priset?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Jämför prisskillnaden med det indexjusterade priset.</p>\\[\\frac{135-112{,}50}{112{,}50}\\cdot100=20\\%.\\]<p><strong>Svar:</strong> 20 %.</p></div>",
         "niva": "C",
         "poang": "0/1/0",
-        "ledtrad": "<p>Använd index 150 som faktorn 1,50 i a. I b ska den verkliga skillnaden jämföras med det indexjusterade priset, inte med ursprungspriset.</p>",
+        "ledtrad": "<p>Jämför skillnaden med 112,50 kr, inte med 135 kr.</p>",
         "traningsniva": 3,
         "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Beräkna och tolka index"
+    ],
+    "svarEnhet": [
+      "kr",
+      "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {
@@ -64968,18 +64983,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett prisindex har basåret 2015 med index 100. År 2025 är index 143.</p><p>a) Hur många procent har prisnivån stigit sedan basåret?<br>b) En vara kostade 250 kr år 2015. Vad motsvarar det år 2025 om priset följt index?<br>c) En annan vara kostar 480 kr när index är 160. Vad kostade den vid basåret?</p>",
+    "t": "<p>Ett prisindex har basåret 2015 med index 100. År 2025 är index 143.</p><p>a) Hur många procent har prisnivån stigit sedan basåret?<br>b) En vara kostade 250 kr år 2015. Vad motsvarar det år 2025 om priset följt index? Svara i kr med två decimaler.<br>c) En annan vara kostar 480 kr när index är 160. Vad kostade den vid basåret?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(143-100=43\\), alltså <strong>43 %</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(250\\cdot1{,}43=\\)<strong>357,50 kr</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{480}{1{,}60}=\\)<strong>300 kr</strong></p></li></ol></div></div></div></div>",
     "familj": "Index och priser",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "43",
-      "357.50",
-      "300"
+      43,
+      357.5,
+      300
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0.005,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -65003,7 +65022,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Ett prisindex har basåret 2015 med index 100. År 2025 är index 143.</p><p>En vara kostade 250 kr år 2015. Vad motsvarar det år 2025 om priset följt index?</p>",
+        "t": "<p>Ett prisindex har basåret 2015 med index 100. År 2025 är index 143.</p><p>En vara kostade 250 kr år 2015. Vad motsvarar det år 2025 om priset följt index? Svara i kr med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(250\\cdot1{,}43=\\)<strong>357,50 kr</strong></p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -65024,6 +65043,16 @@ window.BANKMA1 = [
     ],
     "familjTidigare": [
       "Beräkna och tolka index"
+    ],
+    "svarEnhet": [
+      "%",
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {
@@ -65091,17 +65120,21 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Momsen på en vara är 25 %. Priset med moms får man genom att multiplicera priset utan moms med förändringsfaktorn 1,25.</p><p>a) En verkstadsfaktura är 2 400 kr utan moms. Vad blir priset med moms?<br>b) En cykel kostar 1 875 kr med moms. Vad kostar den utan moms?<br>c) Hur mycket av de 1 875 kronorna är moms?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Att räkna bort moms är att dividera med förändringsfaktorn, inte att dra av 25 %.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2\\,400\\cdot1{,}25=\\)<strong>3 000 kr</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{1\\,875}{1{,}25}=\\)<strong>1 500 kr</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1\\,875-1\\,500=\\)<strong>375 kr</strong>.<br>Ett vanligt fel är att räkna \\(1\\,875\\cdot0{,}75=1\\,406\\) kr, vilket blir fel eftersom de 25 procenten avser priset <em>utan</em> moms</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Lägg till 25 % genom att multiplicera med 1,25.</p>\\[2400\\cdot1{,}25=3000\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 3 000 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Priset med moms är 1,25 gånger priset utan moms.</p>\\[1875/1{,}25=1500\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 1 500 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Räkna först bort momsen och jämför de två priserna.</p>\\[1875/1{,}25=1500\\,\\mathrm{kr}.\\]\\[1875-1500=375\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 375 kr.</p></div></div></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "3000",
-      "1500",
-      "375"
+      3000,
+      1500,
+      375
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -65113,24 +65146,24 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Momsen på en vara är 25 %. Priset med moms får man genom att multiplicera priset utan moms med förändringsfaktorn 1,25.</p><div class=\"spel-en-del\">En verkstadsfaktura är 2 400 kr utan moms. Vad blir priset med moms?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p></li><li><p>Att räkna bort moms är att dividera med förändringsfaktorn, inte att dra av 25 %.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,400\\cdot1{,}25=\\)<strong>3 000 kr</strong></p></div></div>",
-        "ledtrad": "<p>Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till 25 % genom att multiplicera med 1,25.</p>\\[2400\\cdot1{,}25=3000\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 3 000 kr.</p></div>",
+        "ledtrad": "<p>Multiplicera priset utan moms med 1,25.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Momsen på en vara är 25 %. Priset med moms får man genom att multiplicera priset utan moms med förändringsfaktorn 1,25.</p><div class=\"spel-en-del\">En cykel kostar 1 875 kr med moms. Vad kostar den utan moms?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p></li><li><p>Att räkna bort moms är att dividera med förändringsfaktorn, inte att dra av 25 %.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1\\,875}{1{,}25}=\\)<strong>1 500 kr</strong></p></div></div>",
-        "ledtrad": "<p>Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Priset med moms är 1,25 gånger priset utan moms.</p>\\[1875/1{,}25=1500\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 1 500 kr.</p></div>",
+        "ledtrad": "<p>Dividera priset med moms med 1,25 för att få priset utan moms.</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Momsen på en vara är 25 %. Priset med moms får man genom att multiplicera priset utan moms med förändringsfaktorn 1,25.</p><div class=\"spel-en-del\">Hur mycket av de 1 875 kronorna är moms?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p></li><li><p>Att räkna bort moms är att dividera med förändringsfaktorn, inte att dra av 25 %.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,875-1\\,500=\\)<strong>375 kr</strong>.<br>Ett vanligt fel är att räkna \\(1\\,875\\cdot0{,}75=1\\,406\\) kr, vilket blir fel eftersom de 25 procenten avser priset <em>utan</em> moms</p></div></div>",
-        "ledtrad": "<p>Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p>",
+        "t": "<p>En cykel kostar 1 875 kr med moms. Momsen är 25 % av priset utan moms.</p><p>Hur mycket av de 1 875 kronorna är moms? Svara i kr.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först bort momsen och jämför de två priserna.</p>\\[1875/1{,}25=1500\\,\\mathrm{kr}.\\]\\[1875-1500=375\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 375 kr.</p></div>",
+        "ledtrad": "<p>Dividera priset med moms med 1,25 för att få priset utan moms.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -65141,6 +65174,16 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Bestämma och använda förändringsfaktor"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {
@@ -65556,17 +65599,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>Vid köp av en bostad betalar Noor 99 000 kr i kontantinsats. Det motsvarar 18 % av priset.</p><p>a) Vad kostar bostaden?<br>b) Fyra år senare säljs den för 680 000 kr. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{99000}{0{,}18}=\\)<strong>550 000 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[550000q^4=680000\\Rightarrow q\\approx1{,}05448\\].</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Cirka 5,45 % per år.</strong></p></div></div>",
+    "t": "<p>Vid köp av en bostad betalar Noor 99 000 kr i kontantinsats. Det motsvarar 18 % av priset.</p><p>a) Vad kostar bostaden?<br>b) Fyra år senare säljs den för 680 000 kr. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen i procent. Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>99 000 kr är 18 % av priset, så hela priset är \\(99\\,000/0{,}18=550\\,000\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 550 000 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Den årliga faktorn är fjärde roten ur den totala faktorn.</p>\\[q=\\sqrt[4]{\\frac{680000}{550000}}\\approx1{,}054476.\\]\\[(q-1)\\cdot100\\approx5{,}45\\%.\\]<p><strong>Svar:</strong> 5,45 % per år.</p></div></div></div></div>",
     "familj": "Genomsnittlig förändring i problem",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "550000",
-      "5.45"
+      550000,
+      5.447565087352224
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0.005
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -65584,8 +65630,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Vid köp av en bostad betalar Noor 99 000 kr i kontantinsats. Det motsvarar 18 % av priset.</p><div class=\"spel-en-del\">Fyra år senare säljs den för 680 000 kr. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(550\\,000q^4=680\\,000\\), alltså \\(q\\approx1{,}05448\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 5,45 % per år.</p></div>",
+        "t": "<p>En bostad köps för 550 000 kr och säljs fyra år senare för 680 000 kr. Anta samma procentuella ökning varje år.</p><p>Bestäm den årliga ökningen i procent. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den årliga faktorn är fjärde roten ur den totala faktorn.</p>\\[q=\\sqrt[4]{\\frac{680000}{550000}}\\approx1{,}054476.\\]\\[(q-1)\\cdot100\\approx5{,}45\\%.\\]<p><strong>Svar:</strong> 5,45 % per år.</p></div>",
         "ledtrad": "<p>Fyra lika års-faktorer ska tillsammans ta värdet från 550 000 kr till 680 000 kr.</p>",
         "niva": "C"
       }
@@ -65596,6 +65642,14 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Genomsnittlig årlig förändring"
+    ],
+    "svarEnhet": [
+      "kr",
+      "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {
@@ -65608,14 +65662,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Efter tre år med 5,5 % årlig ränta finns 16 439,38 kr på ett konto. Inga insättningar eller uttag har gjorts. Hur stort var startkapitalet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tre års ränta ger faktorn \\(1{,}055^3\\).</p></li><li><p>Om startkapitalet är \\(K\\) gäller \\(K\\cdot1{,}055^3=16\\,439,38\\).</p></li><li><div class=\"facit-matte\">\\[K=16\\,439,38/1{,}055^3=14\\,000\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 000 kr.</p></div>",
+    "t": "<p>Efter tre år med 5,5 % årlig ränta finns 16 439,38 kr på ett konto. Inga insättningar eller uttag har gjorts. Hur stort var startkapitalet? Svara i hela kronor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kapitalet har multiplicerats med 1,055 tre gånger. Dividera därför slutbeloppet med samma faktor.</p>\\[K=\\frac{16439{,}38}{1{,}055^3}\\approx14000{,}0006\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 14 000 kr.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 14000,
-    "tolerans": null,
+    "rättSvar": 14000.000638710251,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -65625,7 +65679,8 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "3.40",
@@ -65637,8 +65692,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett sparkonto har räntan 2,4 % per år. Räntan läggs till kapitalet varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Skriv ett uttryck för kapitalet efter 5 år om insättningen är 12 000 kr.<br>c) Beräkna kapitalet efter 5 år. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>1,024</strong></p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>\\(12\\,000\\cdot1{,}024^5\\)</strong></p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(12\\,000\\cdot1{,}024^5\\approx\\)<strong>13 510,80 kr</strong></p></li></ol></div></div></div>",
+    "t": "<p>Du sätter in 12 000 kr på ett sparkonto med 2,4 % ränta per år. Räntan läggs till kapitalet varje år. Inga andra insättningar eller uttag görs.</p><p>a) Skriv förändringsfaktorn för ett år.</p><p>b) Skriv ett uttryck för kapitalet efter 5 år.</p><p>c) Beräkna kapitalet efter 5 år. Svara i kr med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\">\\[1+2{,}4/100=1{,}024.\\]<p><strong>Svar:</strong> 1,024.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Varje år multipliceras kapitalet med 1,024. Efter fem år blir uttrycket</p>\\[12000\\cdot1{,}024^5.\\]<p><strong>Svar:</strong> 12 000·1,024⁵ kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Multiplicera startkapitalet med förändringsfaktorn för fem år.</p>\\[12000\\cdot1{,}024^5\\approx13510{,}798882\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 13 510,80 kr.</p></div></div></div></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
@@ -65646,12 +65701,12 @@ window.BANKMA1 = [
     "rättSvar": [
       1.024,
       "12000*1.024^5",
-      13510.8
+      13510.798882111489
     ],
     "tolerans": [
-      0.0001,
+      0,
       null,
-      0.01
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -65669,34 +65724,44 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett sparkonto har räntan 2,4 % per år. Räntan läggs till kapitalet varje år.</p><p>Skriv förändringsfaktorn för ett år.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>1,024</strong></p></div>",
+        "t": "<p>Ett sparkonto har räntan 2,4 % per år.</p><p>Skriv förändringsfaktorn för ett år.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\">\\[1+2{,}4/100=1{,}024.\\]<p><strong>Svar:</strong> 1,024.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>2,4 % ränta motsvarar en faktor strax över 1. Samma faktor används en gång per år under fem år.</p>",
-        "traningsniva": 2,
-        "arbetsinsats": 2
+        "ledtrad": "<p>Lägg räntan i decimalform till 1.</p>",
+        "traningsniva": 1,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Ett sparkonto har räntan 2,4 % per år. Räntan läggs till kapitalet varje år.</p><p>Skriv ett uttryck för kapitalet efter 5 år om insättningen är 12 000 kr.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>\\(12\\,000\\cdot1{,}024^5\\)</strong></p></div>",
+        "t": "<p>Du sätter in 12 000 kr på ett sparkonto med 2,4 % ränta per år. Räntan läggs till kapitalet varje år. Inga andra insättningar eller uttag görs.</p><p>Skriv ett uttryck för kapitalet efter 5 år.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje år multipliceras kapitalet med 1,024. Efter fem år blir uttrycket</p>\\[12000\\cdot1{,}024^5.\\]<p><strong>Svar:</strong> 12 000·1,024⁵ kr.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>2,4 % ränta motsvarar en faktor strax över 1. Samma faktor används en gång per år under fem år.</p>",
+        "ledtrad": "<p>Multiplicera startkapitalet med årets förändringsfaktor fem gånger.</p>",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "t": "<p>Ett sparkonto har räntan 2,4 % per år. Räntan läggs till kapitalet varje år.</p><p>Beräkna kapitalet efter 5 år. Svara med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(12\\,000\\cdot1{,}024^5\\approx\\)<strong>13 510,80 kr</strong></p></li></ol></div>",
+        "t": "<p>Du sätter in 12 000 kr på ett sparkonto med 2,4 % ränta per år. Räntan läggs till kapitalet varje år. Inga andra insättningar eller uttag görs.</p><p>Beräkna kapitalet efter 5 år. Svara i kr med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera startkapitalet med förändringsfaktorn för fem år.</p>\\[12000\\cdot1{,}024^5\\approx13510{,}798882\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 13 510,80 kr.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>2,4 % ränta motsvarar en faktor strax över 1. Samma faktor används en gång per år under fem år.</p>",
+        "ledtrad": "<p>Multiplicera startkapitalet med årets förändringsfaktor fem gånger.</p>",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
+    ],
+    "svarEnhet": [
+      null,
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
     ]
   },
   {
@@ -67319,14 +67384,14 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>20 000 kr sätts in på ett konto. Första året är räntan 2,0 %. Direkt efter första årets ränta sätts ytterligare 5 000 kr in. Det andra året är räntan okänd. Tredje året är räntan 4,0 %. Efter tre år finns 27 208,48 kr. Bestäm räntan under det andra året.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Efter år 1 och insättningen finns 25 400 kr.</p></li><li><p>Låt förändringsfaktorn år 2 vara \\(q\\).</p></li><li><p>\\(25\\,400q\\cdot1{,}04=27 208{,}48\\), vilket ger \\(q=1{,}03\\).</p></li><li><p><strong>3,0 %</strong>.</p></li></ol></div></div>",
+    "t": "<p>20 000 kr sätts in på ett konto. Första året är räntan 2,0 %. Direkt efter första årets ränta sätts ytterligare 5 000 kr in. Det andra året är räntan okänd. Tredje året är räntan 4,0 %. Efter tre år finns 27 208,48 kr. Bestäm räntan i procent under det andra året. Svara med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter första årets ränta och den nya insättningen finns</p>\\[20000\\cdot1{,}02+5000=25400\\,\\mathrm{kr}.\\]<p>Slutbeloppet innehåller även tredje årets ränta. Andra årets faktor blir därför</p>\\[q=\\frac{27208{,}48}{25400\\cdot1{,}04}=1{,}03.\\]<p><strong>Svar:</strong> 3,0 %.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "3.0",
-    "tolerans": null,
+    "rättSvar": 3.0000000000000027,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -67334,9 +67399,11 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Ränta och ränta på ränta",
     "ledtrad": "<p>Följ tidslinjen: år 1-ränta, därefter insättningen 5 000 kr, sedan den okända faktorn och sist faktorn 1,04.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.81",
@@ -67348,14 +67415,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du sätter in 5 000 kr på ett konto med 4 % ränta. Hur stor blir räntan första året?</p>",
+    "t": "<p>Du sätter in 5 000 kr på ett konto med 4 % ränta. Hur stor blir räntan första året? Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>200 kr</strong></p></div></div>",
     "familj": "Ränta under ett år",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "200",
-    "tolerans": null,
+    "rättSvar": 200,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -67367,7 +67434,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Första årets ränta är 4 % av de 5 000 kr som står på kontot.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.82",
@@ -67379,14 +67448,14 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett kapital ökar med 5 % första året. Under de följande två åren är den årliga räntan samma okända procentsats \\(r\\). Efter tre år har kapitalet totalt ökat med 21,275 %.</p><p>Bestäm \\(r\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Total faktor är 1,21275.</p></li><li><div class=\"facit-matte\">\\[1{,}05(1+r)^2=1{,}21275\\Rightarrow(1+r)^2=1{,}155\\].</div></li><li><div class=\"facit-matte\">\\[1+r=\\sqrt{1{,}155}\\approx1{,}07471\\].</div></li><li><p><strong>\\(r\\approx7{,}47\\%\\)</strong>.</p></li></ol></div></div>",
+    "t": "<p>Ett kapital ökar med 5 % första året. Under de följande två åren är den årliga räntan samma procentsats. Efter tre år har kapitalet totalt ökat med 21,275 %.</p><p>Bestäm årsräntan under vart och ett av de två sista åren. Svara i procent med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala faktorn är 1,21275. Ta bort första årets faktor 1,05.</p>\\[q^2=1{,}21275/1{,}05=1{,}155.\\]<p>De två sista åren har samma faktor.</p>\\[q=\\sqrt{1{,}155}\\approx1{,}07471.\\]\\[(q-1)\\cdot100\\approx7{,}47\\%.\\]<p><strong>Svar:</strong> 7,47 %.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 7.47,
-    "tolerans": 0.02,
+    "rättSvar": 7.470926301023395,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -67394,9 +67463,11 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Ränta och ränta på ränta",
     "ledtrad": "<p>Efter första året återstår två år med samma okända faktor \\(q\\). Sätt \\(1{,}05q^2=1{,}21275\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.83",
@@ -67448,7 +67519,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 17143,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -67460,7 +67531,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skriv saldot efter ett år för båda kontona som uttryck i startkapitalet \\(K\\) och jämför dem.</p>",
     "traningsniva": 4,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "heltal"
   },
   {
     "id": "3.85",
@@ -67472,14 +67545,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett sparkapital på 18 000 kr får 3 % ränta under ett år. Hur stor är räntan i kronor?</p>",
+    "t": "<p>Ett sparkapital på 18 000 kr får 3 % ränta under ett år. Hur stor är räntan i kronor? Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>540 kr</strong>.</p></li></ol></div></div>",
     "familj": "Ränta under ett år",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "540",
-    "tolerans": null,
+    "rättSvar": 540,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -67491,7 +67564,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Beräkna 3 % av 18 000 kr.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.86",
@@ -67535,14 +67610,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>20 000 kr står på ett konto med 2 % ränta. Hur stor är räntan under det andra året om inga pengar sätts in eller tas ut?</p>",
+    "t": "<p>20 000 kr står på ett konto med 2 % ränta. Hur stor är räntan under det andra året om inga pengar sätts in eller tas ut? Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter år 1 finns 20 400 kr.</p></li><li><p>Räntan år 2 är \\(20\\,400\\cdot0{,}02=\\)<strong>408 kr</strong>.</p></li></ol></div>",
     "familj": "Ränta under ett år",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "408",
-    "tolerans": null,
+    "rättSvar": 408,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -67554,7 +67629,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Efter första året finns 20 400 kr. Det är det beloppet som ger ränta under år två.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.88",
@@ -67567,20 +67644,20 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Vad blir hyran efter 3 år?<br>c) Hur mycket mer betalar man per månad efter 3 år jämfört med i dag?</p><p>Svara b och c med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En höjning med 2,8 % ger förändringsfaktorn <strong>1,028</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter tre år är hyran \\(8\\,200\\cdot1{,}028^3\\approx8\\,908,27\\) kr.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är \\(8\\,908,27-8\\,200=708{,}27\\) kr.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) 1,028 &nbsp; b) 8 908,27 kr &nbsp; c) 708,27 kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En höjning med 2,8 % ger förändringsfaktorn <strong>1,028</strong>.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Hyran multipliceras med 1,028 tre gånger.</p>\\[8200\\cdot1{,}028^3=8908{,}2656128\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 8 908,27 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Räkna först den nya hyran och dra sedan bort dagens hyra.</p>\\[\\begin{aligned}\\Delta H&=8200\\cdot1{,}028^3-8200\\\\ &=708{,}2656128\\,\\mathrm{kr}.\\end{aligned}\\]<p><strong>Svar:</strong> 708,27 kr.</p></div></div></div></div>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.028,
-      8908.27,
-      708.27
+      8908.2664064,
+      708.2664064
     ],
     "tolerans": [
-      0.0001,
-      1,
-      1
+      0,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
@@ -67606,30 +67683,35 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En höjning med 2,8 % ger förändringsfaktorn <strong>1,028</strong>.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Samma höjning sker tre gånger. Använd därför faktorn 1,028 tre gånger och jämför sedan slutvärdet med 8 200 kr.</p>",
-        "traningsniva": 2,
-        "arbetsinsats": 2
+        "ledtrad": "<p>Lägg höjningen i decimalform till 1.</p>",
+        "traningsniva": 1,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>Vad blir hyran efter 3 år?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter tre år är hyran \\(8\\,200\\cdot1{,}028^3\\approx8\\,908,27\\) kr.</p></li></ol></div>",
+        "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>Vad blir hyran efter 3 år? Svara i kr med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Hyran multipliceras med 1,028 tre gånger.</p>\\[8200\\cdot1{,}028^3=8908{,}2656128\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 8 908,27 kr.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Samma höjning sker tre gånger. Använd därför faktorn 1,028 tre gånger och jämför sedan slutvärdet med 8 200 kr.</p>",
+        "ledtrad": "<p>Multiplicera hyran med förändringsfaktorn tre gånger.</p>",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>Hur mycket mer betalar man per månad efter 3 år jämfört med i dag?</p><p>Svara b och c med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är \\(8\\,908,27-8\\,200=708{,}27\\) kr.</p></li></ol></div>",
+        "t": "<p>En hyra är 8 200 kr i månaden och höjs med 2,8 % varje år.</p><p>Hur mycket mer betalar man per månad efter 3 år jämfört med i dag? Svara i kr med två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först den nya hyran och dra sedan bort dagens hyra.</p>\\[\\begin{aligned}\\Delta H&=8200\\cdot1{,}028^3-8200\\\\ &=708{,}2656128\\,\\mathrm{kr}.\\end{aligned}\\]<p><strong>Svar:</strong> 708,27 kr.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Samma höjning sker tre gånger. Använd därför faktorn 1,028 tre gånger och jämför sedan slutvärdet med 8 200 kr.</p>",
+        "ledtrad": "<p>Beräkna hyran efter tre år och dra bort dagens hyra.</p>",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
+    ],
+    "svarEnhet": [
+      null,
+      "kr",
+      "kr"
     ]
   },
   {
@@ -67642,14 +67724,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du sätter in 12 000 kr på ett konto. Efter det första året får du 384 kr i ränta. Vilken var årsräntan i procent?</p>",
+    "t": "<p>Du sätter in 12 000 kr på ett konto. Efter det första året får du 384 kr i ränta. Vilken var årsräntan i procent? Svara med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Räntesatsen är räntan dividerad med kapitalet:</p><div class=\"facit-matte\">\\[384/12000=0{,}032\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: 3,2 %.</strong></p></div>",
     "familj": "Ränta under ett år",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3.2,
-    "tolerans": 0.01,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -67661,7 +67743,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Vilken andel av 12 000 kr är 384 kr?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.90",
@@ -68536,14 +68620,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett amorteringsfritt lån är 900 000 kr och årsräntan 4,0 %. Hur mycket betalas i ränta per månad?</p>",
+    "t": "<p>Ett amorteringsfritt lån är 900 000 kr och årsräntan 4,0 %. Hur mycket betalas i ränta per månad? Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Årsränta = 36 000 kr.</p></li><li><p>Per månad: <strong>3 000 kr</strong>.</p></li></ol></div>",
     "familj": "Ränta under ett år",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "3000",
-    "tolerans": null,
+    "rättSvar": 3000,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -68555,7 +68639,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Beräkna först 4 % av 900 000 kr för ett helt år och fördela sedan årsräntan på tolv månader.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.113",
@@ -69067,14 +69153,14 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>10 000 kr växer till 11 255,09 kr på fyra år med samma ränta varje år. Bestäm årsräntan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10\\,000q^4=11\\,255,09\\].</div></li><li><p>Då \\(q\\approx1{,}03\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3,0 %</strong></p></div>",
+    "t": "<p>10 000 kr växer till 11 255,09 kr på fyra år med samma ränta varje år. Bestäm årsräntan i procent. Svara med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Samma förändringsfaktor används under fyra år. Den årliga faktorn är därför fjärde roten ur den totala faktorn.</p>\\[q=\\sqrt[4]{\\frac{11255{,}09}{10000}}\\approx1{,}03.\\]<p>Faktorn 1,03 innebär en ökning med 0,03 = 3 % per år.</p><p><strong>Svar:</strong> 3,0 %.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "3.0",
-    "tolerans": 0.1,
+    "rättSvar": 3.0000043469226023,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -69084,7 +69170,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Låt den årliga faktorn vara q. Fyra lika ränteår ger q upphöjt till 4 gånger startkapitalet.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.127",
@@ -69094,63 +69182,76 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "3/2/0",
-    "t": "<p>Ett lån på 120 000 kr återbetalas med 1 350 kr per månad i 10 år.</p><p>a) Hur mycket betalas totalt?<br>b) Hur stor är merkostnaden jämfört med lånebeloppet?<br>c) Om första månadens ränta är 780 kr, hur stor andel av första betalningen är ränta?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1350\\cdot120=\\)<strong>162 000 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>42 000 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{780}{1350}\\approx\\)<strong>57,8 %</strong>.</p></li></ol></div></div></div></div>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Ett lån på 120 000 kr återbetalas med 1 350 kr per månad i 10 år.</p><p>a) Hur mycket betalas totalt? Svara i kr.</p><p>b) Hur mycket mer betalas än lånebeloppet? Svara i kr.</p><p>c) Första månadens ränta är 780 kr. Hur många procent av första betalningen är ränta? Svara med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Tio år ger 10·12 = 120 månadsbetalningar.</p>\\[120\\cdot1350=162000\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 162 000 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Totalbetalningen är 120·1 350 = 162 000 kr. Dra bort det lånade beloppet.</p>\\[162000-120000=42000\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 42 000 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Dividera räntan med hela betalningen och multiplicera med 100.</p>\\[\\frac{780}{1350}\\cdot100\\approx57{,}7778\\%.\\]<p><strong>Svar:</strong> 57,8 %.</p></div></div></div></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "162000",
-      "42000",
-      "57.8"
+      162000,
+      42000,
+      57.77777777777777
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0,
+      0.05
+    ],
     "självrättning": true,
     "formaga": [
-      "modellering",
-      "resonemang"
+      "procedur"
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Ränta och ränta på ränta",
     "ledtrad": "<p>Tio år med månadsbetalning innebär 120 betalningar. I c jämför du första månadens ränta med hela månadsbetalningen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett lån på 120 000 kr återbetalas med 1 350 kr per månad i 10 år.</p><p>Hur mycket betalas totalt?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1350\\cdot120=\\)<strong>162 000 kr</strong>.</p></li></ol></div>",
+        "t": "<p>Ett lån återbetalas med 1 350 kr per månad i 10 år.</p><p>Hur mycket betalas totalt? Svara i kr.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tio år ger 10·12 = 120 månadsbetalningar.</p>\\[120\\cdot1350=162000\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 162 000 kr.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Tio år med månadsbetalning innebär 120 betalningar. I c jämför du första månadens ränta med hela månadsbetalningen.</p>",
-        "traningsniva": 3,
+        "ledtrad": "<p>Räkna antalet månadsbetalningar under tio år.</p>",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "b",
-        "t": "<p>Ett lån på 120 000 kr återbetalas med 1 350 kr per månad i 10 år.</p><p>Hur stor är merkostnaden jämfört med lånebeloppet?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>42 000 kr</strong>.</p></li></ol></div>",
+        "t": "<p>Ett lån på 120 000 kr återbetalas med 1 350 kr per månad i 10 år.</p><p>Hur mycket mer betalas än lånebeloppet? Svara i kr.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Totalbetalningen är 120·1 350 = 162 000 kr. Dra bort det lånade beloppet.</p>\\[162000-120000=42000\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 42 000 kr.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Tio år med månadsbetalning innebär 120 betalningar. I c jämför du första månadens ränta med hela månadsbetalningen.</p>",
-        "traningsniva": 3,
+        "ledtrad": "<p>Räkna först totalbetalningen och dra bort lånebeloppet.</p>",
+        "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "t": "<p>Ett lån på 120 000 kr återbetalas med 1 350 kr per månad i 10 år.</p><p>Om första månadens ränta är 780 kr, hur stor andel av första betalningen är ränta?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{780}{1350}\\approx\\)<strong>57,8 %</strong>.</p></li></ol></div>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "ledtrad": "<p>Tio år med månadsbetalning innebär 120 betalningar. I c jämför du första månadens ränta med hela månadsbetalningen.</p>",
-        "traningsniva": 3,
+        "t": "<p>Den första månadsbetalningen på ett lån är 1 350 kr. Av den är 780 kr ränta.</p><p>Hur många procent av betalningen är ränta? Svara med en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera räntan med hela betalningen och multiplicera med 100.</p>\\[\\frac{780}{1350}\\cdot100\\approx57{,}7778\\%.\\]<p><strong>Svar:</strong> 57,8 %.</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "ledtrad": "<p>Jämför räntan 780 kr med hela betalningen 1 350 kr.</p>",
+        "traningsniva": 2,
         "arbetsinsats": 2
       }
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {
@@ -72432,14 +72533,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>10 000 kr växer med 2,5 % ränta per år. Hur mycket finns efter 5 år?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(10000\\cdot1{,}025^5\\approx\\)<strong>11 314 kr</strong>.</p></li></ol></div>",
+    "t": "<p>10 000 kr växer med 2,5 % ränta per år. Hur mycket finns efter 5 år? Avrunda till hela kronor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 5 gånger.</p>\\[10000\\cdot1{,}025^{5}\\approx11314{,}082129\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 11 314 kr.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "11314",
-    "tolerans": 1,
+    "rättSvar": 11314.082128906244,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -72448,7 +72549,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>2,5 % ränta motsvarar faktorn 1,025. Hur många gånger ska den faktorn användas på fem år?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.204",
@@ -72936,14 +73039,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>8 000 kr sätts in på ett konto med 3 % årlig ränta. Hur mycket finns på kontot efter två år om inga uttag görs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8000\\cdot1{,}03^2=8487,2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>8 487,20 kr</strong></p></div>",
+    "t": "<p>8 000 kr sätts in på ett konto med 3 % årlig ränta. Hur mycket finns på kontot efter två år om inga uttag görs? Avrunda till hela kronor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 2 gånger.</p>\\[8000\\cdot1{,}03^{2}\\approx8487{,}2\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 8 487 kr.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "8487.20",
-    "tolerans": null,
+    "rättSvar": 8487.199999999999,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -72952,7 +73055,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Efter två år har faktorn 1,03 använts två gånger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.218",
@@ -73180,14 +73285,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>7 500 kr står på ett konto med 1,8 % årlig ränta. Hur mycket finns efter två år om räntan läggs till kapitalet varje år?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(7500\\cdot1{,}018^2\\approx\\)<strong>7772,43 kr</strong>,</p></li></ol></div>",
+    "t": "<p>7 500 kr står på ett konto med 1,8 % årlig ränta. Hur mycket finns efter två år om räntan läggs till kapitalet varje år? Avrunda till hela kronor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 2 gånger.</p>\\[7500\\cdot1{,}018^{2}\\approx7772{,}43\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 7 772 kr.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "7772.43",
-    "tolerans": 0.01,
+    "rättSvar": 7772.43,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -73196,7 +73301,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>1,8 % ränta motsvarar faktorn 1,018. Använd den för båda åren.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.224",
@@ -74224,7 +74331,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Du sparar 10 000 kr i ett år. Konto A ger 3 % ränta utan avgift. Konto B ger 3,5 % ränta men har en årsavgift på 100 kr. Vilket ger högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
+    "t": "<p>Du sparar 10 000 kr i ett år. Konto A ger 3 % ränta utan avgift. Konto B ger 3,5 % ränta men tar en årsavgift på 100 kr efter att räntan lagts till. Vilket ger högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konto A ger \\(10000\\cdot1{,}03=10300\\) kr.</p></li><li><p>Konto B ger \\(10000\\cdot1{,}035-100=10250\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong> ger högst saldo.</p></div></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
@@ -74287,7 +74394,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Konto A har 1,8 % ränta och konto B har 1,6 % ränta. Konto A tar dessutom 50 kr i årsavgift. Vilket konto är bäst för 2 000 kr under ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
+    "t": "<p>Konto A har 1,8 % ränta och konto B har 1,6 % ränta. Konto A tar dessutom 50 kr i årsavgift efter att räntan lagts till. Du sätter in 2 000 kr. Vilket konto har högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A ger \\(2000\\cdot1{,}018-50=1986\\) kr.</p></li><li><p>B ger \\(2000\\cdot1{,}016=2032\\) kr.</p></li><li><p>B ger högre saldo.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B</strong>.</p></div></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
@@ -78429,13 +78536,13 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>10 000 kr sätts in på ett konto med räntan 3 % per år. Räntan läggs till kapitalet varje år. Hur mycket finns på kontot efter 5 år? Avrunda till hela kronor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>10 000 · 1,03<sup>5</sup> ≈ 11 593 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>11 593 kr</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 5 gånger.</p>\\[10000\\cdot1{,}03^{5}\\approx11592{,}740743\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 11 593 kr.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 11593,
-    "tolerans": 1,
+    "rättSvar": 11592.740743,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -78458,13 +78565,13 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>25 000 kr sätts in på ett konto med räntan 2 % per år. Räntan läggs till kapitalet varje år. Hur mycket finns på kontot efter 10 år? Avrunda till hela kronor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>25 000 · 1,02<sup>10</sup> ≈ 30 475 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>30 475 kr</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 10 gånger.</p>\\[25000\\cdot1{,}02^{10}\\approx30474{,}8605\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 30 475 kr.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 30475,
-    "tolerans": 1,
+    "rättSvar": 30474.860499868933,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -78487,13 +78594,13 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>4000 kr sätts in på ett konto med räntan 4,5 % per år. Räntan läggs till kapitalet varje år. Hur mycket finns på kontot efter 3 år? Avrunda till hela kronor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>4000 · 1,045<sup>3</sup> ≈ 4565 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>4565 kr</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 3 gånger.</p>\\[4000\\cdot1{,}045^{3}\\approx4564{,}6645\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 4 565 kr.</p></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4565,
-    "tolerans": 1,
+    "rättSvar": 4564.664499999999,
+    "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -118029,17 +118136,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett recept för 12 portioner kräver 1,8 kg råvara.</p><p>a) Per portion?<br>b) Till 30 portioner?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fördela råvaran på 12 portioner</p><p>Dividera mängden råvara med antalet portioner:</p><div class=\"facit-matte\">\\[\\frac{1{,}8}{12}=0{,}15\\,\\text{kg per portion}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}15\\,\\text{kg}\\) per portion.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm mängden för en portion</p><p>Receptet kräver 1,8 kg för 12 portioner:</p><div class=\"facit-matte\">\\[\\frac{1{,}8}{12}=0{,}15\\,\\text{kg per portion}.\\]</div></li><li><p class=\"facit-rubrik\">Skala till 30 portioner</p><div class=\"facit-matte\">\\[30\\cdot0{,}15=4{,}5\\,\\text{kg}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\,\\text{kg}\\) till 30 portioner.</p></div></div></div></div>",
+    "t": "<p>Ett recept för 12 portioner kräver 1,8 kg råvara.</p><p>a) Hur mycket råvara behövs till en portion? Svara i kg.</p><p>b) Hur mycket råvara behövs till 30 portioner? Svara i kg.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Fördela råvaran på 12 lika stora portioner.</p>\\[1{,}8/12=0{,}15\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> 0,15 kg.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Varje portion kräver 0,15 kg. För 30 portioner blir mängden</p>\\[30\\cdot(1{,}8/12)=4{,}5\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> 4,5 kg.</p></div></div></div></div>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "0.15",
-      "4.5"
+      0.15,
+      4.5
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -118049,25 +118159,37 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett recept för 12 portioner kräver 1,8 kg råvara.</p><div class=\"spel-en-del\">Per portion?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fördela råvaran på 12 portioner</p><p>Dividera mängden råvara med antalet portioner:</p><div class=\"facit-matte\">\\[\\frac{1{,}8}{12}=0{,}15\\,\\text{kg per portion}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}15\\,\\text{kg}\\) per portion.</p></div>",
-        "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+        "t": "<p>Ett recept för 12 portioner kräver 1,8 kg råvara.</p><p>Hur mycket råvara behövs till en portion? Svara i kg.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fördela råvaran på 12 lika stora portioner.</p>\\[1{,}8/12=0{,}15\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> 0,15 kg.</p></div>",
+        "ledtrad": "<p>Fördela 1,8 kg på 12 lika stora portioner.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Ett recept för 12 portioner kräver 1,8 kg råvara.</p><div class=\"spel-en-del\">Till 30 portioner?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm mängden för en portion</p><p>Receptet kräver 1,8 kg för 12 portioner:</p><div class=\"facit-matte\">\\[\\frac{1{,}8}{12}=0{,}15\\,\\text{kg per portion}.\\]</div></li><li><p class=\"facit-rubrik\">Skala till 30 portioner</p><div class=\"facit-matte\">\\[30\\cdot0{,}15=4{,}5\\,\\text{kg}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\,\\text{kg}\\) till 30 portioner.</p></div>",
-        "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+        "t": "<p>Ett recept för 12 portioner kräver 1,8 kg råvara.</p><p>Hur mycket råvara behövs till 30 portioner? Svara i kg.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje portion kräver 0,15 kg. För 30 portioner blir mängden</p>\\[30\\cdot(1{,}8/12)=4{,}5\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> 4,5 kg.</p></div>",
+        "ledtrad": "<p>Bestäm mängden för en portion och multiplicera med 30.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Bestäm först mängden för en portion. Använd sedan samma mängd per portion för 30 portioner.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "7.02",
@@ -118108,8 +118230,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Gör om längdenheterna, som de anges på ritningar och rörmärkning.</p><p>a) 2,45 m till centimeter<br>b) 1 250 mm till meter<br>c) 32 mm till centimeter</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}45\\text{ m}=245\\text{ cm}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1\\,250\\text{ mm}=1{,}25\\text{ m}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[32\\text{ mm}=3,2\\text{ cm}\\].</div></li></ol></div></div></div>",
+    "t": "<p>a) Omvandla 2,45 m till cm.</p><p>b) Omvandla 1 250 mm till m.</p><p>c) Omvandla 32 mm till cm.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>En meter är 100 cm.</p>\\[2{,}45\\cdot100=245\\,\\mathrm{cm}.\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>En meter är 1 000 mm.</p>\\[1250/1000=1{,}25\\,\\mathrm m.\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>En centimeter är 10 mm.</p>\\[32/10=3{,}2\\,\\mathrm{cm}.\\]</div></div></div></div>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
     "miniräknare": false,
@@ -118119,7 +118241,11 @@ window.BANKMA1 = [
       1.25,
       3.2
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -118129,25 +118255,25 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Gör om längdenheterna, som de anges på ritningar och rörmärkning.</p><div class=\"spel-en-del\">2,45 m till centimeter</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li><li><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>245 cm</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "t": "<p>Omvandla 2,45 m till cm.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En meter är 100 cm.</p>\\[2{,}45\\cdot100=245\\,\\mathrm{cm}.\\]</div>",
+        "ledtrad": "<p>Hur många centimeter är en meter?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Gör om längdenheterna, som de anges på ritningar och rörmärkning.</p><div class=\"spel-en-del\">1 250 mm till meter</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li><li><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1,25 m</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "t": "<p>Omvandla 1 250 mm till m.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En meter är 1 000 mm.</p>\\[1250/1000=1{,}25\\,\\mathrm m.\\]</div>",
+        "ledtrad": "<p>Hur många millimeter är en meter?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Gör om längdenheterna, som de anges på ritningar och rörmärkning.</p><div class=\"spel-en-del\">32 mm till centimeter</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li><li><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3,2 cm</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "t": "<p>Omvandla 32 mm till cm.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En centimeter är 10 mm.</p>\\[32/10=3{,}2\\,\\mathrm{cm}.\\]</div>",
+        "ledtrad": "<p>Hur många millimeter är en centimeter?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -118155,7 +118281,17 @@ window.BANKMA1 = [
     "ledtrad": "<p>m→cm: multiplicera med 100. mm→m: dividera med 1 000. mm→cm: dividera med 10.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": [
+      "cm",
+      "m",
+      "cm"
+    ],
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ]
   },
   {
     "id": "7.04",
@@ -118225,14 +118361,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett arbete kräver netto 36 m² material. Man räknar med 8 % spill. Hur mycket material bör beställas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>8 % spill innebär förändringsfaktorn 1,08.</p></li><li><p>36·1,08 = <strong>38,88 m²</strong>, alltså cirka 38,9 m² om man avrundar till en decimal.</p></li></ol></div>",
+    "t": "<p>Ett arbete kräver 36 m² material. För att täcka spill beställer man 8 % mer än den mängden.</p><p>Hur mycket material beställs? Svara i m² med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till 8 % av de 36 m² som behövs.</p>\\[36\\cdot1{,}08=38{,}88\\,\\mathrm{m^2}.\\]<p><strong>Svar:</strong> 38,88 m².</p></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "38.88",
-    "tolerans": 0.01,
+    "rättSvar": 38.88,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -118243,7 +118379,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna materialåtgång, spill och kostnad"
-    ]
+    ],
+    "svarEnhet": "m²",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.07",
@@ -118254,7 +118392,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p>\n<p>a) Bestäm summan före avgiften.<br>b) Bestäm administrationsavgiften.<br>c) Bestäm totalkostnaden.</p>",
+    "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p>\n<p>a) Bestäm summan före avgiften. Svara i kr.<br>b) Bestäm administrationsavgiften. Svara i kr med två decimaler.<br>c) Bestäm totalkostnaden. Svara i kr med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>780+1 250 = <strong>2 030 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>6 % av 2 030 är 0,06·2 030 = <strong>121,80 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2 030+121,80 = <strong>2 151,80 kr</strong>.</p></li></ol></div></div></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
@@ -118265,7 +118403,11 @@ window.BANKMA1 = [
       121.8,
       2151.8
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0.005,
+      0.005
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -118280,37 +118422,47 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm summan före avgiften.</p>",
+        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr.</p><p>Vad kostar material och arbete tillsammans? Svara i kr.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>780+1 250 = <strong>2 030 kr</strong>.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Administrationsavgiften beräknas på summan av material och arbete, inte på bara en av delarna.</p>",
-        "traningsniva": 2,
-        "arbetsinsats": 2
+        "ledtrad": "<p>Addera kostnaden för material och arbete.</p>",
+        "traningsniva": 1,
+        "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm administrationsavgiften.</p>",
+        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm administrationsavgiften. Svara i kr med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>6 % av 2 030 är 0,06·2 030 = <strong>121,80 kr</strong>.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Administrationsavgiften beräknas på summan av material och arbete, inte på bara en av delarna.</p>",
+        "ledtrad": "<p>Räkna ut 6 % av materialets och arbetets sammanlagda kostnad.</p>",
         "traningsniva": 2,
         "arbetsinsats": 2
       },
       {
         "etikett": "c",
-        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm totalkostnaden.</p>",
+        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm totalkostnaden. Svara i kr med två decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2 030+121,80 = <strong>2 151,80 kr</strong>.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Administrationsavgiften beräknas på summan av material och arbete, inte på bara en av delarna.</p>",
+        "ledtrad": "<p>Räkna ut avgiften och lägg den till materialets och arbetets kostnad.</p>",
         "traningsniva": 2,
         "arbetsinsats": 2
       }
     ],
     "familjTidigare": [
       "Kostnadsberäkningar"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {
@@ -118322,14 +118474,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En hylla är märkt för högst 120 kg. Du vill använda högst 75 % av maxlasten. Hur stor last tillåter du?</p>",
+    "t": "<p>En hylla är märkt för högst 120 kg. Du vill använda högst 75 % av maxlasten. Hur stor last tillåter du? Svara i kg.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>0,75·120 = <strong>90 kg</strong>.</p></li></ol></div>",
     "familj": "Säkerhetsmarginal i procent",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "90",
-    "tolerans": null,
+    "rättSvar": 90,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -118340,7 +118492,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Beräkna kapacitet och säkerhetsmarginal"
-    ]
+    ],
+    "svarEnhet": "kg",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.09",
@@ -118388,14 +118542,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En blandning kräver 2,5 liter vätska till 10 kg material. Hur mycket vätska behövs till 18 kg om mängderna är proportionella?</p>",
+    "t": "<p>En blandning kräver 2,5 liter vätska till 10 kg material. Hur mycket vätska behövs till 18 kg om mängderna är proportionella? Svara i liter.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mängden per kilogram är \\(2{,}5/10=0{,}25\\) liter/kg.</p></li><li><p>Till 18 kg behövs \\(18\\cdot0{,}25=4,5\\) liter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 liter.</p></div>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "4.5",
-    "tolerans": null,
+    "rättSvar": 4.5,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -118403,7 +118557,9 @@ window.BANKMA1 = [
     "ledtrad": "<p>Beräkna först hur många liter som behövs per kilogram material.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "l",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.11",

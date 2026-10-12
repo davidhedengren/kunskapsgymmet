@@ -165469,7 +165469,7 @@ window.BANK = [
     "typ": "aluminium i olja",
     "poang": "(0/1/0)",
     "t": "<p>En aluminiumkloss är 2,0 cm lång, 3,0 cm bred och 5,0 cm hög. Den hänger stilla i en kraftmätare, helt under olja. Aluminiumets densitet är 2700 kg/m³ och oljans är 850 kg/m³. Använd \\(g=9{,}82\\,\\mathrm{m/s^2}\\).</p><p>Vad visar kraftmätaren? Svara i N med tre värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossens volym är \\(2{,}0\\cdot3{,}0\\cdot5{,}0=30\\,\\mathrm{cm^3}=30\\cdot10^{-6}\\,\\mathrm{m^3}\\).</p><p>Föremålet hålls stilla. Kraften från tråden och oljans lyftkraft balanserar tillsammans tyngdkraften.</p>\\[F_g=2700\\cdot30\\cdot10^{-6}\\cdot9{,}82=0{,}79542\\,\\mathrm N.\\]\\[F_L=850\\cdot30\\cdot10^{-6}\\cdot9{,}82=0{,}25041\\,\\mathrm N.\\]\\[F_{\\mathrm{mätare}}=0{,}79542-0{,}25041=0{,}54501\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}545\\,\\mathrm{N}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Klossens volym är</p>\\[V=2{,}0\\cdot3{,}0\\cdot5{,}0=30\\,\\mathrm{cm^3}.\\]\\[V=30\\cdot10^{-6}\\,\\mathrm{m^3}.\\]<p>Föremålet hålls stilla. Kraften från tråden och oljans lyftkraft balanserar tillsammans tyngdkraften.</p>\\[\\begin{aligned}F_g&=2700\\cdot30\\cdot10^{-6}\\cdot9{,}82\\\\ &=0{,}79542\\,\\mathrm N.\\end{aligned}\\]\\[\\begin{aligned}F_L&=850\\cdot30\\cdot10^{-6}\\cdot9{,}82\\\\ &=0{,}25041\\,\\mathrm N.\\end{aligned}\\]\\[\\begin{aligned}F_{\\mathrm{mätare}}&=0{,}79542-0{,}25041\\\\ &=0{,}54501\\,\\mathrm N.\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}545\\,\\mathrm{N}\\).</p></div>",
     "id": "6.473",
     "miniräknare": true,
     "geogebra": false,

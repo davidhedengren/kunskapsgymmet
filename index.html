@@ -3949,7 +3949,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-12-fy1-egna-tangenter";
+const BANK_VERSION="2026-10-12-fysik-formelsamling";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -6975,6 +6975,14 @@ function expandGameTask(t){
     q.rättSvar=metadata(t.rättSvar);
     q.tolerans=metadata(t.tolerans);
     if("rättSvar273" in t) q.rättSvar273=metadata(t.rättSvar273);
+    // Tabellvarianter hör till ett bestämt svarsfält och samma givna data.
+    // Ett kort med egna mellanresultat måste ange sina egna tabellvarianter.
+    if(t.svarTabell){
+      const mi=etikettIndex>=0?etikettIndex:i;
+      q.svarTabell=del?.svarTabell
+        || (!Object.prototype.hasOwnProperty.call(del,"rättSvar") && t.svarTabell[mi]
+              ? {0:t.svarTabell[mi]} : undefined);
+    }
     q.självrättning=metadata(t.självrättning);
     if("svarEnhet" in t) q.svarEnhet=metadata(t.svarEnhet);
     if("svarFormat" in t) q.svarFormat=metadata(t.svarFormat);
@@ -9431,6 +9439,8 @@ function svarsPlan(t){
     return {
       svar, enhet, tol, format,
       svar273: faltVarde(t.rättSvar273,i,svar.length),
+      svarTabell: Array.isArray(t.rättSvar)
+        ? (t.svarTabell?.[i]?{0:t.svarTabell[i]}:undefined) : t.svarTabell,
       auto: harFacit && faltFlagga(t.självrättning,i,false),
       manuell: faltFlagga(t.manuellKomplettering,i,false)
     };
@@ -10328,6 +10338,14 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
       || delSvarRattBas(anv,-Math.abs(facit),enhet,tol,t,idx,"numeriskt");
   }
   if(delSvarRattBas(anv,facit,enhet,tol,t,idx,format)) return true;
+  /* Avgränsade, fysikaliskt beräknade svar med andra vanliga tabellvärden.
+     Samma format, enhet och avrundning krävs; ingen generell tolerans vidgas. */
+  if(typeof facit==="number" && Array.isArray(t?.svarTabell?.[idx??0])){
+    for(const value of t.svarTabell[idx??0]){
+      if(typeof value==="number" && Number.isFinite(value)
+         && delSvarRattBas(anv,value,enhet,tol,t,idx,format)) return true;
+    }
+  }
   /* Vissa gaslagsuppgifter har ett separat avrundat svar när 273 används
      vid omvandlingen till/från kelvin. Bevara samma enhets- och formatkontroll. */
   const svar273=Array.isArray(t?.rättSvar273)?t.rättSvar273[idx]:t?.rättSvar273;
@@ -12633,7 +12651,7 @@ function checkAnswer(){
 
     const kvar=d.svar.map((v,j)=>({v,j}));
     // Alternativet måste följa den aktuella delen, också i en heluppgift.
-    const rattningsTask={...t,rättSvar273:d.svar273};
+    const rattningsTask={...t,rättSvar273:d.svar273,svarTabell:d.svarTabell};
     const utfall=varden.map(anv=>{
       const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],rattningsTask,k.j,d.format[k.j]));
       if(träff<0) return false;

@@ -486,10 +486,23 @@ window.GRUPPMA2 = {
     {
       "id": "cirkelgeometri",
       "namn": "Cirkelgeometri",
+      "kurs": ["2b"],
       "omr": [
         "randvinkel_medelpunkt",
         "kordasatsen_biskarningssatsen"
       ]
+    },
+    {
+      "id": "randvinkel_medelpunkt",
+      "namn": "Randvinklar och medelpunktsvinklar",
+      "kurs": ["2c"],
+      "omr": ["randvinkel_medelpunkt"]
+    },
+    {
+      "id": "kordasatsen_biskarningssatsen",
+      "namn": "Kordasatsen och bisektrissatsen",
+      "kurs": ["2c"],
+      "omr": ["kordasatsen_biskarningssatsen"]
     },
     {
       "id": "likformighet",

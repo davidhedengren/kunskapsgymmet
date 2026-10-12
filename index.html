@@ -3949,7 +3949,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-12-ma1-enheter-ranta";
+const BANK_VERSION="2026-10-12-ma2c-geometri-omraden";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7096,7 +7096,9 @@ function getCards(){
   areas.forEach(a=>{
     if(tagna.has(a.key)) return;
     const gruppLista=grupper[a.kap]||[];
-    const g=gruppLista.find(x=>Array.isArray(x.omr)&&x.omr.includes(a.key));
+    // Samma underområde kan grupperas olika i olika kursspår.
+    const g=gruppLista.find(x=>Array.isArray(x.omr)&&x.omr.includes(a.key)
+      && (!Array.isArray(x.kurs)||!x.kurs.length||x.kurs.includes(state.track)));
     if(g){
 
       const med=areas.filter(x=>x.kap===a.kap && g.omr.includes(x.key));

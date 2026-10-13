@@ -14597,8 +14597,8 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen \\(f(x)=-5\\cos(4x)+2\\), där \\(x\\) mäts i radianer, bestäm</p><p>a) amplitud<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) period<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) medellinje<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) största och minsta värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>5</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T=2\\pi/4=\\)<strong>\\(\\pi/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(y=2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdemängden är \\(2-5\\le f(x)\\le 2+5\\), alltså <strong>min −3 och max 7</strong>.</p></li></ol></div></div></div>",
+    "t": "<p>Funktionen är \\(f(x)=-5\\cos(4x)+2\\). Vinkeln \\(x\\) mäts i radianer.</p><p>a) Bestäm amplituden.</p><p>b) Bestäm perioden. Svara exakt i radianer.</p><p>c) Ange medellinjens y-värde.</p><p>d) Bestäm största och minsta funktionsvärdet. Svara med största värdet först.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Amplituden är absolutbeloppet av talet framför sinus eller cosinus: 5.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Perioden är \\(2\\pi\\) dividerat med faktorn framför \\(x\\): \\(\\pi/2\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Funktionen svänger kring y = 2. Medellinjens y-värde är 2.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Utgå från medellinjens y-värde 2. Lägg till amplituden 5 för det största värdet och dra bort den för det minsta.</p><p><strong>Svar:</strong> 7 respektive -3.</p></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -14649,8 +14649,8 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplitud</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>5 .</p></li></ol></div></div></div></div>",
+        "fraga": "<p>Bestäm amplituden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Amplituden är absolutbeloppet av talet framför sinus eller cosinus: 5.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -14658,8 +14658,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>period</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T=2\\pi/4=\\) \\(\\pi/2\\) .</p></li></ol></div></div></div></div>",
+        "fraga": "<p>Bestäm perioden. Svara exakt i radianer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Perioden är \\(2\\pi\\) dividerat med faktorn framför \\(x\\): \\(\\pi/2\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -14667,8 +14667,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>medellinje</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=2\\].</div></li></ol></div></div></div></div>",
+        "fraga": "<p>Ange medellinjens y-värde.</p>",
+        "s": "<div class=\"facit-v2\"><p>Funktionen svänger kring y = 2. Medellinjens y-värde är 2.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -14676,12 +14676,12 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>största och minsta värde.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdemängden är \\(2-5\\le f(x)\\le 2+5\\), alltså min −3 och max 7 .</p></li></ol></div></div></div></div>",
+        "fraga": "<p>Bestäm största och minsta funktionsvärdet. Svara med största värdet först.</p>",
+        "s": "<div class=\"facit-v2\"><p>Utgå från medellinjens y-värde 2. Lägg till amplituden 5 för det största värdet och dra bort den för det minsta.</p><p><strong>Svar:</strong> 7 respektive -3.</p></div>",
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
-          "största värde",
-          "minsta värde"
+          "största",
+          "minsta"
         ],
         "niva": "E",
         "poang": "1/0/0",
@@ -14690,8 +14690,8 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
-    "spelIntro": "<p>För funktionen \\(f(x)=-5\\cos(4x)+2\\), där \\(x\\) mäts i radianer, bestäm</p>",
+    "ledtrad": "<p>Skilj på hur högt grafen svänger, hur lång en svängning är och vilket y-värde den svänger kring.</p>",
+    "spelIntro": "<p>Funktionen är \\(f(x)=-5\\cos(4x)+2\\). Vinkeln \\(x\\) mäts i radianer.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -14955,8 +14955,8 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen \\(f(x)=2\\sin(3(x-\\pi/6))+1\\), bestäm</p><p>a) amplitud<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) period<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) fasförskjutning<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) medellinje.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\).</p></li><li><p class=\"facit-metod\">Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är \\(\\boxed{2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Perioden är \\(2\\pi/3\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formen \\(x-\\pi/6\\) betyder att grafen är förskjuten \\(\\boxed{\\pi/6}\\) åt höger.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Konstanten +1 ger medellinjen</p><div class=\"facit-matte\">\\[\\boxed{y=1}\\].</div></div></li></ol></div></div></div></div>",
+    "t": "<p>Funktionen är \\(f(x)=2\\sin(3(x-\\pi/6))+1\\). Vinkeln \\(x\\) mäts i radianer.</p><p>a) Bestäm amplituden.</p><p>b) Bestäm perioden. Svara exakt i radianer.</p><p>c) Hur långt är grafen förskjuten åt höger jämfört med \\(2\\sin(3x)+1\\)? Svara exakt i radianer.</p><p>d) Bestäm en ekvation för medellinjen.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Avståndet från medellinjen till en topp är 2.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>En hel svängning kräver att argumentet ökar med \\(2\\pi\\). Därför är perioden \\(2\\pi/3\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Argumentet är \\(3(x-\\pi/6)\\). Grafen har alltså förskjutits \\(\\pi/6\\) åt höger.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Funktionen svänger kring \\(y=1\\), som är medellinjen.</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -14998,8 +14998,8 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplitud</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är \\(\\boxed{2}\\).</p></li></ol></div></div>",
+        "fraga": "<p>Bestäm amplituden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Avståndet från medellinjen till en topp är 2.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -15007,8 +15007,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>period</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Perioden är \\(2\\pi/3\\).</p></li></ol></div></div>",
+        "fraga": "<p>Bestäm perioden. Svara exakt i radianer.</p>",
+        "s": "<div class=\"facit-v2\"><p>En hel svängning kräver att argumentet ökar med \\(2\\pi\\). Därför är perioden \\(2\\pi/3\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -15016,8 +15016,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>fasförskjutning</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formen \\(x-\\pi/6\\) betyder att grafen är förskjuten \\(\\boxed{\\pi/6}\\) åt höger.</p></li></ol></div></div>",
+        "fraga": "<p>Hur långt är grafen förskjuten åt höger jämfört med \\(2\\sin(3x)+1\\)? Svara exakt i radianer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Argumentet är \\(3(x-\\pi/6)\\). Grafen har alltså förskjutits \\(\\pi/6\\) åt höger.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -15025,8 +15025,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>medellinje.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Konstanten +1 ger medellinjen</p><div class=\"facit-matte\">\\[\\boxed{y=1}\\].</div></div></li></ol></div></div>",
+        "fraga": "<p>Bestäm en ekvation för medellinjen.</p>",
+        "s": "<div class=\"facit-v2\"><p>Funktionen svänger kring \\(y=1\\), som är medellinjen.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -15034,8 +15034,8 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
-    "spelIntro": "<p>För funktionen \\(f(x)=2\\sin(3(x-\\pi/6))+1\\), bestäm</p>",
+    "ledtrad": "<p>Skilj på hur högt grafen svänger, hur lång en svängning är och vilket y-värde den svänger kring.</p>",
+    "spelIntro": "<p>Funktionen är \\(f(x)=2\\sin(3(x-\\pi/6))+1\\). Vinkeln \\(x\\) mäts i radianer.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -16055,8 +16055,8 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För \\(f(x)=\\tan(2x)\\), bestäm</p><p>a) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) två lodräta asymptoter närmast origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(\\pi/8)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har period \\(\\pi\\), alltså blir perioden \\(\\pi/2\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\].</div></li><li><p>Närmast origo: <strong>\\(x=\\pm\\pi/4\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(\\pi/8)=\\tan(\\pi/4)=\\)<strong>1</strong>.</p></li></ol></div></div></div>",
+    "t": "<p>Funktionen är \\(f(x)=\\tan(2x)\\), där \\(x\\) mäts i radianer.</p><p>a) Bestäm perioden. Svara exakt i radianer.</p><p>b) Ange de två lodräta asymptoterna närmast origo. Svara med deras x-värden i radianer. Ordningen spelar ingen roll.</p><p>c) Beräkna \\(f(\\pi/8)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Tangens upprepas när argumentet ökar med \\(\\pi\\). Perioden blir därför \\(\\pi/2\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Asymptoterna finns när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\). De närmast origo ligger vid \\(x=-\\pi/4\\) och \\(x=\\pi/4\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\(f(\\pi/8)=\\tan(2\\cdot\\pi/8)=\\tan(\\pi/4)=1\\).</p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -16085,14 +16085,14 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Tangens har perioden \\(\\pi\\). Asymptoterna uppstår när cosinus i nämnaren är noll.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För \\(f(x)=\\tan(2x)\\), bestäm</p>",
+    "spelIntro": "<p>Funktionen är \\(f(x)=\\tan(2x)\\), där \\(x\\) mäts i radianer.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>perioden</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har period \\(\\pi\\), alltså blir perioden \\(\\pi/2\\).</p></li></ol></div></div>",
+        "fraga": "<p>Bestäm perioden. Svara exakt i radianer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Tangens upprepas när argumentet ökar med \\(\\pi\\). Perioden blir därför \\(\\pi/2\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -16100,8 +16100,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>två lodräta asymptoter närmast origo</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\].</div></li><li><div class=\"facit-berakning\"><p>Närmast origo:</p><div class=\"facit-matte\">\\[x=\\pm\\pi/4\\].</div></div></li></ol></div></div>",
+        "fraga": "<p>Ange de två lodräta asymptoterna närmast origo. Svara med deras x-värden i radianer. Ordningen spelar ingen roll.</p>",
+        "s": "<div class=\"facit-v2\"><p>Asymptoterna finns när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\). De närmast origo ligger vid \\(x=-\\pi/4\\) och \\(x=\\pi/4\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -16109,8 +16109,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(f(\\pi/8)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(\\pi/8)=\\tan(\\pi/4)=\\)1.</p></li></ol></div></div>",
+        "fraga": "<p>Beräkna \\(f(\\pi/8)\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>\\(f(\\pi/8)=\\tan(2\\cdot\\pi/8)=\\tan(\\pi/4)=1\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -16181,8 +16181,8 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Periodisk graf\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#E8ECEF\"/><line x1=\"151.8\" y1=\"25\" x2=\"151.8\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"151.8\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"200.1\" y1=\"25\" x2=\"200.1\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"200.1\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"248.5\" y1=\"25\" x2=\"248.5\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"248.5\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"296.9\" y1=\"25\" x2=\"296.9\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"296.9\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"345.2\" y1=\"25\" x2=\"345.2\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"345.2\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"393.6\" y1=\"25\" x2=\"393.6\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"393.6\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"206.1\" x2=\"442\" y2=\"206.1\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"210.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#E8ECEF\"/><line x1=\"55\" y1=\"154.4\" x2=\"442\" y2=\"154.4\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"158.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"128.5\" x2=\"442\" y2=\"128.5\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"132.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"102.6\" x2=\"442\" y2=\"102.6\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"106.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"76.8\" x2=\"442\" y2=\"76.8\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"80.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"50.9\" x2=\"442\" y2=\"50.9\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"54.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><polyline points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"411.0\" y=\"55.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11.5\" fill=\"#B43123\">f</text><text x=\"440\" y=\"172.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"111.4\" y=\"37\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm funktionens a) amplitud, b) medellinje och c) period.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde.</p></li><li><p class=\"facit-metod\">Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximivärdet är 5 och minimivärdet är −1.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Amplituden är</p><div class=\"facit-matte\">\\[(5-(-1))/2=\\boxed{3}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Medellinjen är</p><div class=\"facit-matte\">\\[(5+(-1))/2=\\boxed{y=2}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</p></li></ol></div></div></div></div>",
+    "t": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg aria-label=\"Periodisk graf\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 270\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"151.8\" x2=\"151.8\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"151.8\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"200.1\" x2=\"200.1\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"200.1\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"248.5\" x2=\"248.5\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"248.5\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"296.9\" x2=\"296.9\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"296.9\" y=\"250\">4</text><line stroke=\"#E8ECEF\" x1=\"345.2\" x2=\"345.2\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"345.2\" y=\"250\">5</text><line stroke=\"#E8ECEF\" x1=\"393.6\" x2=\"393.6\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"393.6\" y=\"250\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"206.1\" y2=\"206.1\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"210.1\">-1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"158.4\">1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"128.5\" y2=\"128.5\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"132.5\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"102.6\" y2=\"102.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"106.6\">3</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"76.8\" y2=\"76.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"80.8\">4</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"50.9\" y2=\"50.9\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.9\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><polyline fill=\"none\" points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"411.0\" y=\"55.0\">f</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"440\" y=\"172.2\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"111.4\" y=\"37\">y</text></svg></span><p>a) Bestäm funktionens amplitud.</p><p>b) Bestäm en ekvation för funktionens medellinje.</p><p>c) Bestäm funktionens period.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Grafens största värde är 5 och minsta värde är −1. Amplituden är halva skillnaden: \\((5-(-1))/2=3\\).</p><p><strong>Svar:</strong> 3.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Medellinjen ligger mitt mellan största och minsta värdet: \\((5+(-1))/2=2\\).</p><p><strong>Svar:</strong> \\(y=2\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Perioden är avståndet i x-led mellan två toppar som följer på varandra. I grafen är detta avstånd 4.</p><p><strong>Svar:</strong> 4.</p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -16219,8 +16219,8 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplitud,</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximivärdet är 5 och minimivärdet är −1.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Amplituden är</p><div class=\"facit-matte\">\\[(5-(-1))/2=\\boxed{3}\\].</div></div></li></ol></div></div>",
+        "fraga": "<p>Bestäm funktionens amplitud.</p>",
+        "s": "<div class=\"facit-v2\"><p>Grafens största värde är 5 och minsta värde är −1. Amplituden är halva skillnaden: \\((5-(-1))/2=3\\).</p><p><strong>Svar:</strong> 3.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -16228,8 +16228,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>medellinje och</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximivärdet är 5 och minimivärdet är −1.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Medellinjen är</p><div class=\"facit-matte\">\\[(5+(-1))/2=\\boxed{y=2}\\].</div></div></li></ol></div></div>",
+        "fraga": "<p>Bestäm en ekvation för funktionens medellinje.</p>",
+        "s": "<div class=\"facit-v2\"><p>Medellinjen ligger mitt mellan största och minsta värdet: \\((5+(-1))/2=2\\).</p><p><strong>Svar:</strong> \\(y=2\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -16237,8 +16237,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>period.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximivärdet är 5 och minimivärdet är −1.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</p></li></ol></div></div>",
+        "fraga": "<p>Bestäm funktionens period.</p>",
+        "s": "<div class=\"facit-v2\"><p>Perioden är avståndet i x-led mellan två toppar som följer på varandra. I grafen är detta avstånd 4.</p><p><strong>Svar:</strong> 4.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -16247,7 +16247,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
-    "spelIntro": "<p>Grafen visar en sinusfunktion.</p><p>Bestäm funktionens</p><span class=\"fig\"><svg aria-label=\"Periodisk graf\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 270\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"151.8\" x2=\"151.8\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"151.8\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"200.1\" x2=\"200.1\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"200.1\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"248.5\" x2=\"248.5\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"248.5\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"296.9\" x2=\"296.9\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"296.9\" y=\"250\">4</text><line stroke=\"#E8ECEF\" x1=\"345.2\" x2=\"345.2\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"345.2\" y=\"250\">5</text><line stroke=\"#E8ECEF\" x1=\"393.6\" x2=\"393.6\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"393.6\" y=\"250\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"206.1\" y2=\"206.1\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"210.1\">-1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"158.4\">1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"128.5\" y2=\"128.5\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"132.5\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"102.6\" y2=\"102.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"106.6\">3</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"76.8\" y2=\"76.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"80.8\">4</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"50.9\" y2=\"50.9\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.9\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><polyline fill=\"none\" points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"411.0\" y=\"55.0\">f</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"440\" y=\"172.2\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"111.4\" y=\"37\">y</text></svg></span>",
+    "spelIntro": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg aria-label=\"Periodisk graf\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 270\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"151.8\" x2=\"151.8\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"151.8\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"200.1\" x2=\"200.1\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"200.1\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"248.5\" x2=\"248.5\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"248.5\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"296.9\" x2=\"296.9\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"296.9\" y=\"250\">4</text><line stroke=\"#E8ECEF\" x1=\"345.2\" x2=\"345.2\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"345.2\" y=\"250\">5</text><line stroke=\"#E8ECEF\" x1=\"393.6\" x2=\"393.6\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"393.6\" y=\"250\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"206.1\" y2=\"206.1\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"210.1\">-1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"158.4\">1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"128.5\" y2=\"128.5\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"132.5\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"102.6\" y2=\"102.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"106.6\">3</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"76.8\" y2=\"76.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"80.8\">4</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"50.9\" y2=\"50.9\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.9\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><polyline fill=\"none\" points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"411.0\" y=\"55.0\">f</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"440\" y=\"172.2\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"111.4\" y=\"37\">y</text></svg></span>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -16335,8 +16335,8 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen \\(f(x)=3\\sin(2x)-4\\), där \\(x\\) mäts i radianer, bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) medellinjen<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) största och minsta värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li><li><p><strong>Metod:</strong> Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>3.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(T=2\\pi/2=\\pi\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=-4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Största värde \\(-1\\), minsta \\(-7\\).</p></li></ol></div></div></div>",
+    "t": "<p>Funktionen är \\(f(x)=3\\sin(2x)-4\\). Vinkeln \\(x\\) mäts i radianer.</p><p>a) Bestäm amplituden.</p><p>b) Bestäm perioden. Svara exakt i radianer.</p><p>c) Ange medellinjens y-värde.</p><p>d) Bestäm största och minsta funktionsvärdet. Svara med största värdet först.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Amplituden är absolutbeloppet av talet framför sinus eller cosinus: 3.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Perioden är \\(2\\pi\\) dividerat med faktorn framför \\(x\\): \\(\\pi\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Funktionen svänger kring y = -4. Medellinjens y-värde är -4.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Utgå från medellinjens y-värde -4. Lägg till amplituden 3 för det största värdet och dra bort den för det minsta.</p><p><strong>Svar:</strong> -1 respektive -7.</p></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -16355,14 +16355,14 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Skilj på hur högt grafen svänger, hur lång en svängning är och vilket y-värde den svänger kring.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För funktionen \\(f(x)=3\\sin(2x)-4\\), där \\(x\\) mäts i radianer, bestäm</p>",
+    "spelIntro": "<p>Funktionen är \\(f(x)=3\\sin(2x)-4\\). Vinkeln \\(x\\) mäts i radianer.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplituden</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>3.</p></li></ol></div></div>",
+        "fraga": "<p>Bestäm amplituden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Amplituden är absolutbeloppet av talet framför sinus eller cosinus: 3.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -16370,8 +16370,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>perioden</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=2\\pi/2=\\pi\\].</div></li></ol></div></div>",
+        "fraga": "<p>Bestäm perioden. Svara exakt i radianer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Perioden är \\(2\\pi\\) dividerat med faktorn framför \\(x\\): \\(\\pi\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -16379,8 +16379,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>medellinjen</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=-4\\].</div></li></ol></div></div>",
+        "fraga": "<p>Ange medellinjens y-värde.</p>",
+        "s": "<div class=\"facit-v2\"><p>Funktionen svänger kring y = -4. Medellinjens y-värde är -4.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -16388,12 +16388,17 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>största och minsta värde.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen.</p></li><li><p>Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p></li><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största värde \\(-1\\), minsta \\(-7\\).</p></li></ol></div></div>",
+        "fraga": "<p>Bestäm största och minsta funktionsvärdet. Svara med största värdet först.</p>",
+        "s": "<div class=\"facit-v2\"><p>Utgå från medellinjens y-värde -4. Lägg till amplituden 3 för det största värdet och dra bort den för det minsta.</p><p><strong>Svar:</strong> -1 respektive -7.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "svarEtiketter": [
+          "största",
+          "minsta"
+        ],
+        "svarsstruktur": "ordnad"
       }
     ],
     "svarFormat": [
@@ -16567,16 +16572,16 @@ window.BANKMATO2 = [
   {
     "id": "1.81",
     "kap": 2,
-    "omr": "kurvor_radianer",
+    "omr": "asinx_bcosx",
     "kurs": [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/4/0",
+    "poang": "0/8/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv uttrycket på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\).</p><p>a) \\(\\sin x+\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sqrt3\\sin x+\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin x-\\sqrt3\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3\\sin x+4\\cos x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Tänk så här:</strong> Jämför koefficienterna i</p><div class=\"facit-matte\">\\[a\\sin x+b\\cos x=R\\sin(x+v)\\].</div></div></li><li><p class=\"facit-metod\">Då gäller \\(R\\cos v=a\\) och \\(R\\sin v=b\\), vilket bestämmer både amplitud och fas.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(R\\cos v\\) som koefficient framför \\(\\sin x\\) och \\(R\\sin v\\) framför \\(\\cos x\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sqrt2\\sin(x+\\frac\\pi4)\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(2\\sin(x+\\frac\\pi6)\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(2\\sin(x-\\frac\\pi3)\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=5\\],</div></li><li><div class=\"facit-matte\">\\[\\cos v=3/5\\],</div></li><li><p>\\(\\sin v=4/5\\): <strong>\\(5\\sin(x+\\arctan(4/3))\\)</strong>.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Utveckla den erhållna formen tillbaka och kontrollera att båda ursprungliga koefficienterna återkommer.</p></li></ol></div>",
+    "t": "<p>Bestäm \\(R\\) och \\(v\\) så att uttrycket kan skrivas \\(R\\sin(x+v)\\), där \\(R&gt;0\\). Vinklarna \\(x\\) och \\(v\\) mäts i grader och \\(-90^\\circ&lt;v&lt;90^\\circ\\).</p><p>Ange \\(R\\) exakt och \\(v\\) med en decimal.</p><p>a) \\(\\sin x+\\cos x\\)</p><p>b) \\(\\sqrt3\\sin x+\\cos x\\)</p><p>c) \\(\\sin x-\\sqrt3\\cos x\\)</p><p>d) \\(3\\sin x+4\\cos x\\)</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=1\\) och \\(R\\sin v=1\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(1)^2+(1)^2}=\\sqrt2\\).</p><p>Dividera koefficienterna: \\(\\tan v=(1)/(1)\\). I det angivna intervallet blir \\(v\\approx45{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(R=\\sqrt2\\), \\(v\\approx45{,}0^\\circ\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=\\sqrt3\\) och \\(R\\sin v=1\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(\\sqrt3)^2+(1)^2}=2\\).</p><p>Dividera koefficienterna: \\(\\tan v=(1)/(\\sqrt3)\\). I det angivna intervallet blir \\(v\\approx30{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(R=2\\), \\(v\\approx30{,}0^\\circ\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=1\\) och \\(R\\sin v=−\\sqrt3\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(1)^2+(−\\sqrt3)^2}=2\\).</p><p>Dividera koefficienterna: \\(\\tan v=(−\\sqrt3)/(1)\\). I det angivna intervallet blir \\(v\\approx-60{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(R=2\\), \\(v\\approx-60{,}0^\\circ\\).</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=3\\) och \\(R\\sin v=4\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(3)^2+(4)^2}=5\\).</p><p>Dividera koefficienterna: \\(\\tan v=(4)/(3)\\). I det angivna intervallet blir \\(v\\approx53{,}1^\\circ\\).</p><p><strong>Svar:</strong> \\(R=5\\), \\(v\\approx53{,}1^\\circ\\).</p></div></div>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "procedur",
@@ -16584,16 +16589,40 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\sqrt2\\sin(x+\\frac\\pi4)",
-      "2\\sin(x+\\frac\\pi6)",
-      "2\\sin(x-\\frac\\pi3)",
-      "5\\sin(x+\\arctan(4/3))"
+      [
+        "\\sqrt{2}",
+        45.0
+      ],
+      [
+        2.0,
+        30.000000000000004
+      ],
+      [
+        2.0,
+        -59.99999999999999
+      ],
+      [
+        5.0,
+        53.13010235415598
+      ]
     ],
     "tolerans": [
-      null,
-      null,
-      null,
-      null
+      [
+        0,
+        0.05
+      ],
+      [
+        0,
+        0.05
+      ],
+      [
+        0,
+        0.05
+      ],
+      [
+        0,
+        0.05
+      ]
     ],
     "självrättning": [
       true,
@@ -16609,57 +16638,108 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      [
+        "numeriskt",
+        "grader"
+      ],
+      [
+        "numeriskt",
+        "grader"
+      ],
+      [
+        "numeriskt",
+        "grader"
+      ],
+      [
+        "numeriskt",
+        "grader"
+      ]
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(\\sin x+\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(R\\cos v\\) som koefficient framför \\(\\sin x\\) och \\(R\\sin v\\) framför \\(\\cos x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt2\\sin(x+\\frac\\pi4)\\].</div></li></ol></div></div></div></div>",
+        "fraga": "<p>Uttrycket är \\(\\sin x+\\cos x\\). Bestäm \\(R\\) och \\(v\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=1\\) och \\(R\\sin v=1\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(1)^2+(1)^2}=\\sqrt2\\).</p><p>Dividera koefficienterna: \\(\\tan v=(1)/(1)\\). I det angivna intervallet blir \\(v\\approx45{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(R=\\sqrt2\\), \\(v\\approx45{,}0^\\circ\\).</p></div>",
         "niva": "C",
-        "poang": "0/1/0",
+        "poang": "0/2/0",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "R",
+          "v"
+        ],
+        "svarsstruktur": "ordnad"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\sqrt3\\sin x+\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(R\\cos v\\) som koefficient framför \\(\\sin x\\) och \\(R\\sin v\\) framför \\(\\cos x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\sin(x+\\frac\\pi6)\\].</div></li></ol></div></div></div></div>",
+        "fraga": "<p>Uttrycket är \\(\\sqrt3\\sin x+\\cos x\\). Bestäm \\(R\\) och \\(v\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=\\sqrt3\\) och \\(R\\sin v=1\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(\\sqrt3)^2+(1)^2}=2\\).</p><p>Dividera koefficienterna: \\(\\tan v=(1)/(\\sqrt3)\\). I det angivna intervallet blir \\(v\\approx30{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(R=2\\), \\(v\\approx30{,}0^\\circ\\).</p></div>",
         "niva": "C",
-        "poang": "0/1/0",
+        "poang": "0/2/0",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "R",
+          "v"
+        ],
+        "svarsstruktur": "ordnad"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(\\sin x-\\sqrt3\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(R\\cos v\\) som koefficient framför \\(\\sin x\\) och \\(R\\sin v\\) framför \\(\\cos x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\sin(x-\\frac\\pi3)\\].</div></li></ol></div></div></div></div>",
+        "fraga": "<p>Uttrycket är \\(\\sin x-\\sqrt3\\cos x\\). Bestäm \\(R\\) och \\(v\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=1\\) och \\(R\\sin v=−\\sqrt3\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(1)^2+(−\\sqrt3)^2}=2\\).</p><p>Dividera koefficienterna: \\(\\tan v=(−\\sqrt3)/(1)\\). I det angivna intervallet blir \\(v\\approx-60{,}0^\\circ\\).</p><p><strong>Svar:</strong> \\(R=2\\), \\(v\\approx-60{,}0^\\circ\\).</p></div>",
         "niva": "C",
-        "poang": "0/1/0",
+        "poang": "0/2/0",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "R",
+          "v"
+        ],
+        "svarsstruktur": "ordnad"
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(3\\sin x+4\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(R\\cos v\\) som koefficient framför \\(\\sin x\\) och \\(R\\sin v\\) framför \\(\\cos x\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=5\\],</div></li><li><div class=\"facit-matte\">\\[\\cos v=3/5\\],</div></li><li><p>\\(\\sin v=4/5\\): \\(5\\sin(x+\\arctan(4/3))\\) .</p></li></ol></div></div></div></div>",
+        "fraga": "<p>Uttrycket är \\(3\\sin x+4\\cos x\\). Bestäm \\(R\\) och \\(v\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=3\\) och \\(R\\sin v=4\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(3)^2+(4)^2}=5\\).</p><p>Dividera koefficienterna: \\(\\tan v=(4)/(3)\\). I det angivna intervallet blir \\(v\\approx53{,}1^\\circ\\).</p><p><strong>Svar:</strong> \\(R=5\\), \\(v\\approx53{,}1^\\circ\\).</p></div>",
         "niva": "C",
-        "poang": "0/1/0",
+        "poang": "0/2/0",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "R",
+          "v"
+        ],
+        "svarsstruktur": "ordnad"
       }
     ],
-    "familjNyckel": "kurvor_radianer__skriva_om_kombinationer_av_sinus_och_cosinus",
+    "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
     "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
-    "spelIntro": "<p>Skriv uttrycket på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\).</p>",
+    "spelIntro": "<p>Bestäm \\(R\\) och \\(v\\) så att uttrycket kan skrivas \\(R\\sin(x+v)\\), där \\(R&gt;0\\). Vinklarna \\(x\\) och \\(v\\) mäts i grader och \\(-90^\\circ&lt;v&lt;90^\\circ\\).</p><p>Ange \\(R\\) exakt och \\(v\\) med en decimal.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
     "omrTidigare": [
-      "trig_kurvor_radianer"
+      "trig_kurvor_radianer",
+      "kurvor_radianer"
+    ],
+    "svarEnhet": [
+      [
+        null,
+        "°"
+      ],
+      [
+        null,
+        "°"
+      ],
+      [
+        null,
+        "°"
+      ],
+      [
+        null,
+        "°"
+      ]
     ]
   },
   {
@@ -17159,8 +17239,8 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen</p>\n<p>\\[\nf(x)=4\\sin(3x)-2\n\\]</p>\n<p>bestäm</p>\n<p>a) amplituden<br>\nb) perioden<br>\nc) största och minsta värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> I \\(A\\sin(bx+c)+d\\) eller \\(A\\cos(bx+c)+d\\) är amplituden \\(|A|\\), medellinjen \\(y=d\\) och perioden \\(2\\pi/|b|\\).</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är absolutbeloppet av koefficienten framför sinus:</p></li></ol></div></div>\n<p class=\"facit-svar\"><strong>\\(4\\).</strong></p>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\nT=\\frac{2\\pi}{3}.\n\\]</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Medellinjen är</p><div class=\"facit-matte\">\\[y=-2\\].</div></div></li><li><p>Därför</p></li></ol></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\nf_{\\max}=-2+4=2,\\qquad f_{\\min}=-2-4=-6.\n\\]</p></li></ol></div></div>",
+    "t": "<p>Funktionen är \\(f(x)=4\\sin(3x)-2\\). Vinkeln \\(x\\) mäts i radianer.</p><p>a) Bestäm amplituden.</p><p>b) Bestäm perioden. Svara exakt i radianer.</p><p>c) Bestäm största och minsta funktionsvärdet. Svara med största värdet först.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Amplituden är absolutbeloppet av talet framför sinus eller cosinus: 4.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Perioden är \\(2\\pi\\) dividerat med faktorn framför \\(x\\): \\(2*\\pi/3\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Utgå från medellinjens y-värde -2. Lägg till amplituden 4 för det största värdet och dra bort den för det minsta.</p><p><strong>Svar:</strong> 2 respektive -6.</p></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -17178,14 +17258,14 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Skilj på hur högt grafen svänger, hur lång en svängning är och vilket y-värde den svänger kring.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För funktionen</p><p>\\[ f(x)=4\\sin(3x)-2 \\]</p><p>bestäm</p>",
+    "spelIntro": "<p>Funktionen är \\(f(x)=4\\sin(3x)-2\\). Vinkeln \\(x\\) mäts i radianer.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplituden</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är absolutbeloppet av koefficienten framför sinus:</p></li><li><p>\\(4\\).</p></li></ol></div>",
+        "fraga": "<p>Bestäm amplituden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Amplituden är absolutbeloppet av talet framför sinus eller cosinus: 4.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -17193,8 +17273,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>perioden</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[ T=\\frac{2\\pi}{3}. \\]</p></li></ol></div>",
+        "fraga": "<p>Bestäm perioden. Svara exakt i radianer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Perioden är \\(2\\pi\\) dividerat med faktorn framför \\(x\\): \\(2*\\pi/3\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -17202,12 +17282,17 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>största och minsta värde.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Medellinjen är</p><div class=\"facit-matte\">\\[y=-2\\].</div></div></li><li><p>Därför</p></li><li><p>\\[ f_{\\max}=-2+4=2,\\qquad f_{\\min}=-2-4=-6. \\]</p></li></ol></div>",
+        "fraga": "<p>Bestäm största och minsta funktionsvärdet. Svara med största värdet först.</p>",
+        "s": "<div class=\"facit-v2\"><p>Utgå från medellinjens y-värde -2. Lägg till amplituden 4 för det största värdet och dra bort den för det minsta.</p><p><strong>Svar:</strong> 2 respektive -6.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "svarEtiketter": [
+          "största",
+          "minsta"
+        ],
+        "svarsstruktur": "ordnad"
       }
     ],
     "svarFormat": [
@@ -18130,8 +18215,8 @@ window.BANKMATO2 = [
     "poang": "0/4/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\).</p><p>a) \\(3\\sin x+4\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(5\\sin x-12\\cos x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Tänk så här:</strong> Jämför koefficienterna i</p><div class=\"facit-matte\">\\[a\\sin x+b\\cos x=R\\sin(x+v)\\].</div></div></li><li><p class=\"facit-metod\">Då gäller \\(R\\cos v=a\\) och \\(R\\sin v=b\\), vilket bestämmer både amplitud och fas.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Jämför</p><div class=\"facit-matte\">\\[R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=\\sqrt{3^2+4^2}=5\\].</div></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[\\cos v=3/5\\],</div></div></li><li><div class=\"facit-matte\">\\[\\sin v=4/5\\].</div></li><li><p>En möjlighet är <strong>\\(5\\sin(x+\\arctan(4/3))\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=13\\],</div></li><li><div class=\"facit-matte\">\\[\\cos v=5/13\\],</div></li><li><div class=\"facit-matte\">\\[\\sin v=-12/13\\].</div></li><li><p>En möjlighet är <strong>\\(13\\sin(x-\\arctan(12/5))\\)</strong>.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Utveckla den erhållna formen tillbaka och kontrollera att båda ursprungliga koefficienterna återkommer.</p></li></ol></div>",
+    "t": "<p>Bestäm \\(R\\) och \\(v\\) så att uttrycket kan skrivas \\(R\\sin(x+v)\\), där \\(R&gt;0\\). Vinklarna \\(x\\) och \\(v\\) mäts i grader och \\(-90^\\circ&lt;v&lt;90^\\circ\\).</p><p>Ange \\(R\\) exakt och \\(v\\) med en decimal.</p><p>a) \\(3\\sin x+4\\cos x\\)</p><p>b) \\(5\\sin x-12\\cos x\\)</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=3\\) och \\(R\\sin v=4\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(3)^2+(4)^2}=5\\).</p><p>Dividera koefficienterna: \\(\\tan v=(4)/(3)\\). I det angivna intervallet blir \\(v\\approx53{,}1^\\circ\\).</p><p><strong>Svar:</strong> \\(R=5\\), \\(v\\approx53{,}1^\\circ\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=5\\) och \\(R\\sin v=-12\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(5)^2+(-12)^2}=13\\).</p><p>Dividera koefficienterna: \\(\\tan v=(-12)/(5)\\). I det angivna intervallet blir \\(v\\approx-67{,}4^\\circ\\).</p><p><strong>Svar:</strong> \\(R=13\\), \\(v\\approx-67{,}4^\\circ\\).</p></div></div>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "procedur",
@@ -18139,12 +18224,24 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "5\\sin(x+\\arctan(4/3))",
-      "13\\sin(x-\\arctan(12/5))"
+      [
+        5.0,
+        53.13010235415598
+      ],
+      [
+        13.0,
+        -67.38013505195957
+      ]
     ],
     "tolerans": [
-      null,
-      null
+      [
+        0,
+        0.05
+      ],
+      [
+        0,
+        0.05
+      ]
     ],
     "självrättning": [
       true,
@@ -18156,35 +18253,63 @@ window.BANKMATO2 = [
       "b"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck"
+      [
+        "numeriskt",
+        "grader"
+      ],
+      [
+        "numeriskt",
+        "grader"
+      ]
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(3\\sin x+4\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Jämför</p><div class=\"facit-matte\">\\[R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=\\sqrt{3^2+4^2}=5\\].</div></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[\\cos v=3/5\\],</div></div></li><li><div class=\"facit-matte\">\\[\\sin v=4/5\\].</div></li><li><p>En möjlighet är \\(5\\sin(x+\\arctan(4/3))\\) .</p></li></ol></div></div></div></div>",
+        "fraga": "<p>Uttrycket är \\(3\\sin x+4\\cos x\\). Bestäm \\(R\\) och \\(v\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=3\\) och \\(R\\sin v=4\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(3)^2+(4)^2}=5\\).</p><p>Dividera koefficienterna: \\(\\tan v=(4)/(3)\\). I det angivna intervallet blir \\(v\\approx53{,}1^\\circ\\).</p><p><strong>Svar:</strong> \\(R=5\\), \\(v\\approx53{,}1^\\circ\\).</p></div>",
         "niva": "C",
+        "poang": "0/2/0",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "R",
+          "v"
+        ],
+        "svarsstruktur": "ordnad"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(5\\sin x-12\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Jämför</p><div class=\"facit-matte\">\\[R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=13\\],</div></li><li><div class=\"facit-matte\">\\[\\cos v=5/13\\],</div></li><li><div class=\"facit-matte\">\\[\\sin v=-12/13\\].</div></li><li><p>En möjlighet är \\(13\\sin(x-\\arctan(12/5))\\) .</p></li></ol></div></div></div></div>",
+        "fraga": "<p>Uttrycket är \\(5\\sin x-12\\cos x\\). Bestäm \\(R\\) och \\(v\\).</p>",
+        "s": "<div class=\"facit-v2\"><p>Additionsformeln ger \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\). Därför ska \\(R\\cos v=5\\) och \\(R\\sin v=-12\\).</p><p>Av \\(\\cos^2v+\\sin^2v=1\\) följer \\(R=\\sqrt{(5)^2+(-12)^2}=13\\).</p><p>Dividera koefficienterna: \\(\\tan v=(-12)/(5)\\). I det angivna intervallet blir \\(v\\approx-67{,}4^\\circ\\).</p><p><strong>Svar:</strong> \\(R=13\\), \\(v\\approx-67{,}4^\\circ\\).</p></div>",
         "niva": "C",
+        "poang": "0/2/0",
         "traningsniva": 3,
-        "arbetsinsats": 1
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "R",
+          "v"
+        ],
+        "svarsstruktur": "ordnad"
       }
     ],
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
     "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
-    "spelIntro": "<p>Skriv på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\).</p>",
+    "spelIntro": "<p>Bestäm \\(R\\) och \\(v\\) så att uttrycket kan skrivas \\(R\\sin(x+v)\\), där \\(R&gt;0\\). Vinklarna \\(x\\) och \\(v\\) mäts i grader och \\(-90^\\circ&lt;v&lt;90^\\circ\\).</p><p>Ange \\(R\\) exakt och \\(v\\) med en decimal.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
     "omrTidigare": [
       "trig_funktioner"
+    ],
+    "svarEnhet": [
+      [
+        null,
+        "°"
+      ],
+      [
+        null,
+        "°"
+      ]
     ]
   },
   {
@@ -18581,8 +18706,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Vilken omskrivning är korrekt?</p><p>\\[3\\sin x-4\\cos x\\]</p><p>A. \\(5\\sin(x+\\arctan(4/3))\\)<br>B. \\(5\\sin(x-\\arctan(4/3))\\)<br>C. \\(7\\sin(x-\\arctan(4/3))\\)<br>D. \\(5\\cos(x-\\arctan(4/3))\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Metod:</strong> Jämför med</p><div class=\"facit-matte\">\\[R\\sin(x-v)=R\\cos v\\sin x-R\\sin v\\cos x\\].</div></div></li><li><p>Här behövs \\(R\\cos v=3\\) och \\(R\\sin v=4\\).</p></li><li><p>Då \\(R=5\\) och \\(\\tan v=4/3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: B.</strong></p></div>",
+    "t": "<p>Vilken omskrivning av \\(3\\sin x-4\\cos x\\) är korrekt när fasvinkeln avrundas till en decimal? Alla vinklar mäts i grader.</p><p>A. \\(5\\sin(x+53{,}1^\\circ)\\)</p><p>B. \\(5\\sin(x-53{,}1^\\circ)\\)</p><p>C. \\(7\\sin(x-53{,}1^\\circ)\\)</p><p>D. \\(5\\cos(x-53{,}1^\\circ)\\)</p>",
+    "s": "<div class=\"facit-v2\"><p>Amplituden är \\(R=\\sqrt{3^2+(-4)^2}=5\\). För formen \\(R\\sin(x+v)\\) ska \\(5\\cos v=3\\) och \\(5\\sin v=-4\\). Då blir \\(\\tan v=-4/3\\), så \\(v\\approx-53{,}1^\\circ\\).</p><p><strong>Svar:</strong> B.</p></div>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "begrepp",

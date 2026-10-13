@@ -20,7 +20,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>Addera antalen i A och B. Hur många har då räknats två gånger?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -676,7 +676,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>Addera antalen i A och B. Hur många har då räknats två gånger?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -1167,8 +1167,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "skillnad mellan delmängd och element",
     "poang": "2/0/0",
-    "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><ol type=\"a\"><li>\\(2\\in A\\)</li><li>\\(\\{2\\}\\in A\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p></li></ol><ol type=\"a\"><li><strong>Falskt.</strong> Talet 2 är inte ett element i \\(A\\).</li><li><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett element i \\(A\\).</li></ol></div>",
+    "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Svara sant eller falskt.</p><p>a) Är talet \\(2\\) ett element i \\(A\\)?</p><p>b) Är mängden \\(\\{2\\}\\) ett element i \\(A\\)?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><strong>Falskt.</strong> Elementen i \\(A\\) är talet 1, mängden \\(\\{2\\}\\) och talet 3. Talet 2 är inte ett av dessa element.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett av de tre elementen i \\(A\\). En mängd kan själv vara ett element i en annan mängd.</p></div></div>",
     "id": "1.15",
     "miniräknare": true,
     "geogebra": false,
@@ -1196,21 +1196,23 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(2\\in A\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Falskt.</strong> Talet 2 är inte ett element i \\(A\\).</p></li></ol></div></div>",
+        "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Svara sant eller falskt.</p><p>Är talet \\(2\\) ett element i \\(A\\)?</p>",
+        "s": "<div class=\"facit-v2\"><p><strong>Falskt.</strong> Elementen i \\(A\\) är talet 1, mängden \\(\\{2\\}\\) och talet 3. Talet 2 är inte ett av dessa element.</p></div>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2
       },
       {
         "etikett": "b",
-        "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(\\{2\\}\\in A\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett element i \\(A\\).</p></li></ol></div></div>",
+        "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Svara sant eller falskt.</p><p>Är mängden \\(\\{2\\}\\) ett element i \\(A\\)?</p>",
+        "s": "<div class=\"facit-v2\"><p><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett av de tre elementen i \\(A\\). En mängd kan själv vara ett element i en annan mängd.</p></div>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Skilj på talet \\(2\\) och mängden \\(\\{2\\}\\). Läs de tre elementen mellan de yttre klamrarna.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -1984,8 +1986,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "använda inklusion–exklusion för två mängder",
     "poang": "2/0/0",
-    "t": "<p>Av 62 deltagare valde 36 aktivitet A och 31 aktivitet B. 8 valde båda.</p><p>Hur många valde minst en av aktiviteterna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Idé:</strong> De som valde båda finns med i båda delantalen och ska därför subtraheras en gång.</p></li><li><p>\\[36+31-8=59.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 59 deltagare.</p><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontroll:</strong> Kontrollera att snittet har subtraherats exakt en gång och att resultatet inte kan överstiga universalmängdens storlek.</p></li></ol></div>",
+    "t": "<p>62 deltagare får välja aktivitet A, aktivitet B, båda eller ingen. 36 väljer A, 31 väljer B och 8 väljer båda.</p><p>Hur många väljer minst en av aktiviteterna?</p>",
+    "s": "<div class=\"facit-v2\"><p>När antalen för A och B adderas räknas de 8 som väljer båda två gånger. Dra bort dem en gång.</p><p>\\(36+31-8=59\\).</p><p><strong>Svar:</strong> 59 deltagare.</p></div>",
     "id": "1.347",
     "miniräknare": false,
     "geogebra": false,
@@ -1999,7 +2001,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>Hur många gånger räknas de som väljer båda när du adderar antalen för A och B?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2105,8 +2107,8 @@ window.BANKMATF1 = [
     "typ": "två mängder med angivna antal i diagram",
     "poang": "2/0/0",
     "id": "1.164",
-    "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><ol type=\"a\"><li>Hur många tillhör \\(A\\cup B\\)?</li><li>Hur många tillhör exakt en av mängderna?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där unionen av A och B är markerad\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_164_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_164_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[|A\\cup B|=18+7+11=36\\].</div></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där exakt en av mängderna är markerad\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_164_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_164_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><g clip-path=\"url(#matf1_1_164_s_2_A2clip)\"><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/></g>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exakt en mängd ger \\(18+11=29\\) personer.</p></li></ol></div></div></div>",
+    "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar antalet elever i varje område. \\(A\\) och \\(B\\) är två grupper.</p><p>a) Hur många elever tillhör minst en av grupperna (\\(A\\cup B\\))?</p><p>b) Hur många elever tillhör exakt en av grupperna?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Unionen omfattar båda cirklarna, även området där de överlappar. Addera de tre antalen inuti cirklarna: \\(18+7+11=36\\). De 4 utanför tillhör ingen av grupperna.</p><p><strong>Svar:</strong> 36 elever.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Exakt en grupp betyder områdena som inte överlappar: \\(18+11=29\\).</p><p><strong>Svar:</strong> 29 elever.</p></div></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Inklusion–exklusion och antal i mängder",
@@ -2134,15 +2136,15 @@ window.BANKMATF1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Hur många tillhör \\(A\\cup B\\)?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[|A\\cup B|=18+7+11=36\\].</div></li></ol></div></div></div></div>",
+        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar antalet elever i varje område. \\(A\\) och \\(B\\) är två grupper.</p><p>Hur många elever tillhör minst en av grupperna (\\(A\\cup B\\))?</p>",
+        "s": "<div class=\"facit-v2\"><p>Unionen omfattar båda cirklarna, även området där de överlappar. Addera de tre antalen inuti cirklarna: \\(18+7+11=36\\). De 4 utanför tillhör ingen av grupperna.</p><p><strong>Svar:</strong> 36 elever.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Hur många tillhör exakt en av mängderna?</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exakt en mängd ger \\(18+11=29\\) personer.</p></li></ol></div></div></div></div>",
+        "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar antalet elever i varje område. \\(A\\) och \\(B\\) är två grupper.</p><p>Hur många elever tillhör exakt en av grupperna?</p>",
+        "s": "<div class=\"facit-v2\"><p>Exakt en grupp betyder områdena som inte överlappar: \\(18+11=29\\).</p><p><strong>Svar:</strong> 29 elever.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -2914,7 +2916,7 @@ window.BANKMATF1 = [
     "t": "<p>Hur många olika fyrsiffriga pinkoder finns om varje position kan vara någon av siffrorna 0–9 och siffror får upprepas?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>Idé:</strong> En pinkod har fyra positioner och varje position har 10 möjliga siffror. Eftersom siffror får upprepas påverkar ett val inte nästa. Multiplikationsprincipen ger</p><div class=\"facit-matte\">\\[10\\cdot10\\cdot10\\cdot10=10^4=\\mathbf{10\\,000}\\]</div></div>",
     "id": "1.24",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
@@ -4698,8 +4700,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "två föredrag i bestämd följd",
     "poang": "0/2/0",
-    "t": "<p>Sex olika föredrag ska ordnas under en konferens. Föredrag A ska hållas direkt före föredrag B.</p><p>Hur många scheman är möjliga?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Eftersom A måste ligga direkt före B behandlas ”AB” som ett enda block. Tillsammans med de fyra andra föredragen har vi då 5 objekt att ordna.</p><div class=\"facit-matte\">\\[5!=\\mathbf{120}\\]</div><p>Vi multiplicerar inte med 2 eftersom ordningen inom blocket är bestämd.</p></div>",
+    "t": "<p>Sex olika presentationer ska hållas på en konferens. Presentation A ska hållas direkt före presentation B.</p><p>På hur många sätt kan presentationerna ordnas?</p>",
+    "s": "<div class=\"facit-v2\"><p>Behandla A och B som ett sammanhängande block, AB. Blocket och de fyra andra presentationerna kan ordnas på \\(5!=120\\) sätt. Ordningen i blocket är redan bestämd: A före B.</p><p><strong>Svar:</strong> 120 sätt.</p></div>",
     "id": "1.77",
     "miniräknare": true,
     "geogebra": false,
@@ -4712,7 +4714,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Räkna A och B som ett block. Hur många saker ska då ordnas?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -8315,13 +8317,13 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "primtalsfaktorisering",
     "poang": "2/0/0",
-    "t": "<p>Primtalsfaktorisera 360.</p>",
+    "t": "<p>Skriv 360 som en produkt av primtal. Du får använda potenser eller upprepa faktorerna.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Primtalsfaktorisering fortsätter tills varje faktor är ett primtal.</p></li><li><p>\\[360=36\\cdot10=(2^2\\cdot3^2)(2\\cdot5)=2^3\\cdot3^2\\cdot5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(360=2^3\\cdot3^2\\cdot5\\).</p></div></div>",
     "id": "2.79",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
-    "svarstyp": "text",
+    "svarstyp": "uttryck",
     "rättSvar": "2^3*3^2*5",
     "tolerans": null,
     "självrättning": true,
@@ -8329,9 +8331,9 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primtalsfaktorisering",
     "ledtrad": "<p>Använd delbarhetsregler eller primtalsfaktorisering och kontrollera resultatet genom multiplikation.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "omrTidigare": [
       "delbarhet"
     ],
@@ -8573,7 +8575,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "primtalsfaktorisering",
     "poang": "2/0/0",
-    "t": "<p>Primtalsfaktorisera talet \\(756\\).</p>",
+    "t": "<p>Skriv 756 som en produkt av primtal. Du får använda potenser eller upprepa faktorerna.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning.</p></li><li><p>Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p></li><li><p>Vi delar stegvis med primtal:</p></li><li><p>\\[756=2\\cdot378=2^2\\cdot189=2^2\\cdot3\\cdot63=2^2\\cdot3^3\\cdot7.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{756=2^2\\cdot3^3\\cdot7}\\).</p></div>",
     "id": "2.157",
     "miniräknare": false,
@@ -8587,7 +8589,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primtalsfaktorisering",
     "ledtrad": "<p>Dela stegvis med små primtal tills kvoten är 1. Samla sedan lika primfaktorer som potenser.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -8990,7 +8992,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "primtalsfaktorisering",
     "poang": "2/0/0",
-    "t": "<p>Primtalsfaktorisera talet \\(840\\).</p>",
+    "t": "<p>Skriv 840 som en produkt av primtal. Du får använda potenser eller upprepa faktorerna.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning.</p></li><li><p>Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p></li><li><p>Vi delar steg för steg med primtal:</p></li><li><p>\\[840=84\\cdot10=(2\\cdot2\\cdot3\\cdot7)(2\\cdot5).\\]</p></li><li><p>Samla lika faktorer:</p></li><li><p>\\[840=2^3\\cdot3\\cdot5\\cdot7.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(840=2^3\\cdot3\\cdot5\\cdot7\\).</strong></p></div>",
     "miniräknare": false,
     "geogebra": false,
@@ -9003,7 +9005,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primtalsfaktorisering",
     "ledtrad": "<p>Dela stegvis med små primtal tills kvoten är 1. Samla sedan lika primfaktorer som potenser.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -30486,7 +30488,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Mängden är uppräknad mellan klamrarna. Vilka tal står där?</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30515,7 +30517,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Börja med 2 och sluta med 6. Ta med båda gränserna.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30544,7 +30546,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Kontrollera om talet 6 finns bland de uppräknade elementen.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30573,7 +30575,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Kontrollera om talet 5 finns bland de uppräknade elementen.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30691,7 +30693,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Ta med heltalen från och med 0, men stanna före 5.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -31277,7 +31279,7 @@ window.BANKMATF1 = [
     "t": "<p>Ett formulär har 10 ja/nej-frågor. Hur många olika svarsmönster finns?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Varje fråga har två svar. För varje svar på en fråga finns båda alternativen kvar på nästa.</p><div class=\"facit-matte\">\\[2^{10}=1024\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1024 val.</p></div>",
     "id": "1.501",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
@@ -32508,7 +32510,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "grundläggande kombinatorisk sannolikhet",
     "poang": "1/0/0",
-    "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för exakt 4 krona.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för exakt 4 krona.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Det finns \\(2^4\\) lika sannolika kastföljder. Välj de 4 platser som ska vara krona; resten är klave. Detta kan göras på \\(\\binom{4}{4}\\) sätt.</p><div class=\"facit-matte\">\\[P=\\frac{\\binom{4}{4}}{2^{4}}=\\frac{1}{16}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,/\\,16\\).</p></div>",
     "id": "1.548",
     "miniräknare": true,
@@ -32532,7 +32534,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "grundläggande kombinatorisk sannolikhet",
     "poang": "1/0/0",
-    "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för exakt 3 kronor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för exakt 3 kronor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Det finns \\(2^4\\) lika sannolika kastföljder. Välj de 3 platser som ska vara krona; resten är klave. Detta kan göras på \\(\\binom{4}{3}\\) sätt.</p><div class=\"facit-matte\">\\[P=\\frac{\\binom{4}{3}}{2^{4}}=\\frac{4}{16}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,/\\,4\\).</p></div>",
     "id": "1.549",
     "miniräknare": true,
@@ -32556,7 +32558,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "grundläggande kombinatorisk sannolikhet",
     "poang": "1/0/0",
-    "t": "<p>Ett rättvist mynt kastas 5 gånger. Bestäm sannolikheten för exakt 2 kronor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "t": "<p>Ett rättvist mynt kastas 5 gånger. Bestäm sannolikheten för exakt 2 kronor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Det finns \\(2^5\\) lika sannolika kastföljder. Välj de 2 platser som ska vara krona; resten är klave. Detta kan göras på \\(\\binom{5}{2}\\) sätt.</p><div class=\"facit-matte\">\\[P=\\frac{\\binom{5}{2}}{2^{5}}=\\frac{10}{32}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,/\\,16\\).</p></div>",
     "id": "1.550",
     "miniräknare": true,
@@ -32579,7 +32581,7 @@ window.BANKMATF1 = [
     "omr": "kombinatorik_sannolikhet",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för minst en krona.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för minst en krona.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Motsatsen till minst en krona är att alla 4 kast blir klave. Eftersom kasten är oberoende multipliceras sannolikheten 1/2 för varje kast. Dra sedan den sannolikheten från 1.</p><div class=\"facit-matte\">\\[P=1-\\left(\\frac12\\right)^{4}=1-\\frac1{16}=\\frac{15}{16}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{16}\\).</p></div>",
     "id": "1.551",
     "miniräknare": true,
@@ -32603,7 +32605,7 @@ window.BANKMATF1 = [
     "omr": "kombinatorik_sannolikhet",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett rättvist mynt kastas 5 gånger. Bestäm sannolikheten för exakt 3 kronor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "t": "<p>Ett rättvist mynt kastas 5 gånger. Bestäm sannolikheten för exakt 3 kronor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Det finns \\(2^5\\) lika sannolika kastföljder. Välj de 3 platser som ska vara krona; resten är klave. Detta kan göras på \\(\\binom{5}{3}\\) sätt.</p><div class=\"facit-matte\">\\[P=\\frac{\\binom{5}{3}}{2^{5}}=\\frac{10}{32}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,/\\,16\\).</p></div>",
     "id": "1.552",
     "miniräknare": true,
@@ -32627,7 +32629,7 @@ window.BANKMATF1 = [
     "omr": "kombinatorik_sannolikhet",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två vanliga tärningar kastas. Bestäm sannolikheten att summan blir 8.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "t": "<p>Två vanliga tärningar kastas. Bestäm sannolikheten att summan blir 8.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>De två tärningarna ger 6·6 = 36 lika sannolika ordnade utfall. Summan 8 fås i (2,6), (3,5), (4,4), (5,3) och (6,2), alltså i fem fall.</p><div class=\"facit-matte\">\\[P=\\frac5{36}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac5{36}\\).</p></div>",
     "id": "1.553",
     "miniräknare": true,
@@ -32651,7 +32653,7 @@ window.BANKMATF1 = [
     "omr": "kombinatorik_sannolikhet",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En påse innehåller 4 röda och 6 blå kulor. Man drar 2 kulor utan återläggning. Bestäm sannolikheten att båda är röda.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "t": "<p>En påse innehåller 4 röda och 6 blå kulor. Man drar 2 kulor utan återläggning. Bestäm sannolikheten att båda är röda.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\">Resonemang och beräkning</p><p>Alla grupper med 2 av de 10 föremålen är lika sannolika. För ett gynnsamt urval väljs 2 bland de 4 av den efterfrågade sorten och 0 bland de 6 övriga. Ordningen räknas inte.</p><div class=\"facit-matte\">\\[P=\\frac{\\binom{4}{2}\\binom{6}{0}}{\\binom{10}{2}}=\\frac{6}{45}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{15}\\).</p></div>",
     "id": "1.554",
     "miniräknare": true,
@@ -35528,7 +35530,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "blodgivare",
     "poang": "1/2/0",
-    "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?</li><li>Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?</li></ol>",
+    "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?</li><li>Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Välj de fyra positionerna för blodgrupp 0. De sex övriga ska ha en annan blodgrupp.</p><div class=\"facit-matte\">\\[\\binom{10}{4}0{,}38^4\\,0{,}62^6\\approx0{,}249\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}249\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Använd komplementet: färre än fyra med blodgrupp 0 är noll, en, två eller tre. För varje k gäller P(k) = tio över k gånger 0,38ᵏ gånger 0,62¹⁰⁻ᵏ. \\(1-P(0)-P(1)-P(2)-P(3)\\approx0{,}566\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}566\\)</p></div></div></div></div>",
     "id": "1.719",
     "miniräknare": true,
@@ -35558,12 +35560,12 @@ window.BANKMATF1 = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelIntro": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?",
-        "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?</p>",
+        "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj de fyra positionerna för blodgrupp 0. De sex övriga ska ha en annan blodgrupp.</p><div class=\"facit-matte\">\\[\\binom{10}{4}0{,}38^4\\,0{,}62^6\\approx0{,}249\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}249\\)</p></div>",
         "ledtrad": "<p>Använd binomialformeln.</p>",
         "niva": "E",
@@ -35573,7 +35575,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "fraga": "Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?",
-        "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?</p>",
+        "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Anta att personernas blodgrupper är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att minst 4 av de 10 har blodgrupp 0?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd komplementet: färre än fyra med blodgrupp 0 är noll, en, två eller tre. För varje k gäller P(k) = tio över k gånger 0,38ᵏ gånger 0,62¹⁰⁻ᵏ. \\(1-P(0)-P(1)-P(2)-P(3)\\approx0{,}566\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}566\\)</p></div>",
         "ledtrad": "<p>Det är enklast att räkna komplementet: högst 3.</p>",
         "niva": "C",
@@ -35590,7 +35592,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "pojkar och flickor",
     "poang": "2/0/0",
-    "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att alla barnen är flickor?</li><li>Hur stor är sannolikheten att det är fem pojkar och fem flickor?</li></ol>",
+    "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att alla barnen är flickor?</li><li>Hur stor är sannolikheten att det är fem pojkar och fem flickor?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Sannolikheten för en flicka är 1 − 0,52 = 0,48. Alla tio ska vara flickor.</p><div class=\"facit-matte\">\\[0{,}48^{10}\\approx0{,}00065\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx6{,}49\\cdot10^{-4}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Välj vilka fem av de tio barnen som är pojkar. En bestämd följd med fem pojkar och fem flickor har sannolikheten 0,52⁵·0,48⁵.</p><div class=\"facit-matte\">\\[\\binom{10}{5}0{,}52^5\\,0{,}48^5\\approx0{,}244\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}244\\)</p></div></div></div></div>",
     "id": "1.720",
     "miniräknare": true,
@@ -35619,12 +35621,12 @@ window.BANKMATF1 = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelIntro": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är sannolikheten att alla barnen är flickor?",
-        "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att alla barnen är flickor?</p>",
+        "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att alla barnen är flickor?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sannolikheten för en flicka är 1 − 0,52 = 0,48. Alla tio ska vara flickor.</p><div class=\"facit-matte\">\\[0{,}48^{10}\\approx0{,}00065\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx6{,}49\\cdot10^{-4}\\)</p></div>",
         "ledtrad": "<p>Sannolikheten för flicka är \\(1-0{,}52\\).</p>",
         "niva": "E",
@@ -35634,7 +35636,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "fraga": "Hur stor är sannolikheten att det är fem pojkar och fem flickor?",
-        "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att det är fem pojkar och fem flickor?</p>",
+        "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Anta att barnens kön är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att det är fem pojkar och fem flickor?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj vilka fem av de tio barnen som är pojkar. En bestämd följd med fem pojkar och fem flickor har sannolikheten 0,52⁵·0,48⁵.</p><div class=\"facit-matte\">\\[\\binom{10}{5}0{,}52^5\\,0{,}48^5\\approx0{,}244\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}244\\)</p></div>",
         "ledtrad": "<p>Använd binomialformeln.</p>",
         "niva": "E",
@@ -35834,7 +35836,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "telefonförsäljning",
     "poang": "0/4/0",
-    "t": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?</li><li>Hur många samtal måste hen minst ringa för att sannolikheten att sälja till minst en person ska vara större än 0,50? Svara med ett helt antal.</li></ol>",
+    "t": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?</li><li>Hur många samtal måste hen minst ringa för att sannolikheten att sälja till minst en person ska vara större än 0,50? Svara med ett helt antal.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Minst två försäljningar är motsatsen till noll eller en. Under oberoende används binomialmodellen.</p><div class=\"facit-matte\">\\[1-0{,}98^{100}-100\\cdot0{,}02\\cdot0{,}98^{99}\\approx0{,}597\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}597\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Ingen försäljning på n samtal har sannolikheten 0,98ⁿ. Formulera kravet på minst en försäljning och lös olikheten.</p><div class=\"facit-matte\">\\[1-0{,}98^n\\gt0{,}5\\iff n\\gt\\dfrac{\\ln0{,}5}{\\ln0{,}98}\\approx34{,}3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 35 samtal</p></div></div></div></div>",
     "id": "1.725",
     "miniräknare": true,
@@ -35864,12 +35866,12 @@ window.BANKMATF1 = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelIntro": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?",
-        "t": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?</p>",
+        "t": "<p>En telefonförsäljare säljer till 2,0 % av dem hen ringer, oberoende av varandra. Hen ringer 100 samtal per skift.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att hen säljer till minst 2 personer under ett skift?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Minst två försäljningar är motsatsen till noll eller en. Under oberoende används binomialmodellen.</p><div class=\"facit-matte\">\\[1-0{,}98^{100}-100\\cdot0{,}02\\cdot0{,}98^{99}\\approx0{,}597\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}597\\)</p></div>",
         "ledtrad": "<p>Använd komplementet: noll eller en försäljning.</p>",
         "niva": "C",
@@ -35896,7 +35898,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "lerduveskytte",
     "poang": "3/0/0",
-    "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att skytten inte missar någon?</li><li>Hur stor är sannolikheten att skytten missar exakt en?</li><li>Hur stor är sannolikheten att skytten missar exakt två?</li></ol>",
+    "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att skytten inte missar någon?</li><li>Hur stor är sannolikheten att skytten missar exakt en?</li><li>Hur stor är sannolikheten att skytten missar exakt två?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Alla 25 skott ska träffa. Multiplicera 0,95 för varje skott.</p><div class=\"facit-matte\">\\[0{,}95^{25}\\approx0{,}277\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}277\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Den enda missen kan ligga på 25 olika positioner. En sådan följd har sannolikheten 0,05·0,95²⁴.</p><div class=\"facit-matte\">\\[25\\cdot0{,}05\\cdot0{,}95^{24}\\approx0{,}365\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}365\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Välj de två positionerna för missar. Alla övriga 23 skott ska träffa.</p><div class=\"facit-matte\">\\[\\binom{25}{2}0{,}05^2\\,0{,}95^{23}\\approx0{,}231\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}231\\)</p></div></div></div></div>",
     "id": "1.726",
     "miniräknare": true,
@@ -35929,12 +35931,12 @@ window.BANKMATF1 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelIntro": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är sannolikheten att skytten inte missar någon?",
-        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att skytten inte missar någon?</p>",
+        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att skytten inte missar någon?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Alla 25 skott ska träffa. Multiplicera 0,95 för varje skott.</p><div class=\"facit-matte\">\\[0{,}95^{25}\\approx0{,}277\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}277\\)</p></div>",
         "ledtrad": "<p>Alla 25 ska träffas.</p>",
         "niva": "E",
@@ -35944,7 +35946,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "fraga": "Hur stor är sannolikheten att skytten missar exakt en?",
-        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att skytten missar exakt en?</p>",
+        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att skytten missar exakt en?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den enda missen kan ligga på 25 olika positioner. En sådan följd har sannolikheten 0,05·0,95²⁴.</p><div class=\"facit-matte\">\\[25\\cdot0{,}05\\cdot0{,}95^{24}\\approx0{,}365\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}365\\)</p></div>",
         "ledtrad": "<p>Vilken av lerduvorna missas?</p>",
         "niva": "E",
@@ -35954,7 +35956,7 @@ window.BANKMATF1 = [
       {
         "etikett": "c",
         "fraga": "Hur stor är sannolikheten att skytten missar exakt två?",
-        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att skytten missar exakt två?</p>",
+        "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att skytten missar exakt två?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj de två positionerna för missar. Alla övriga 23 skott ska träffa.</p><div class=\"facit-matte\">\\[\\binom{25}{2}0{,}05^2\\,0{,}95^{23}\\approx0{,}231\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}231\\)</p></div>",
         "ledtrad": "<p>Använd binomialformeln.</p>",
         "niva": "E",
@@ -35971,7 +35973,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "skidskytte",
     "poang": "2/2/0",
-    "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att hon skjuter fullt (inga bom) stående?</li><li>Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?</li><li>Hur stor är sannolikheten att hon får exakt en bom totalt?</li></ol>",
+    "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att hon skjuter fullt (inga bom) stående?</li><li>Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?</li><li>Hur stor är sannolikheten att hon får exakt en bom totalt?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Alla tio stående skott ska träffa.</p><div class=\"facit-matte\">\\[0{,}83^{10}\\approx0{,}155\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}155\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Fullt i båda omgångarna kräver både tio träffar stående och tio liggande. Multiplicera sannolikheterna.</p><div class=\"facit-matte\">\\[0{,}83^{10}\\cdot0{,}95^{10}\\approx0{,}093\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}0929\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Dela upp efter om den enda bommen kommer stående eller liggande. Fallen kan inte inträffa samtidigt, så deras sannolikheter adderas. Bommen stående: \\(10\\cdot0{,}17\\cdot0{,}83^9\\cdot0{,}95^{10}\\). Bommen liggande: \\(0{,}83^{10}\\cdot10\\cdot0{,}05\\cdot0{,}95^9\\). Summa \\(\\approx0{,}190+0{,}049\\approx0{,}239\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}239\\)</p></div></div></div></div>",
     "id": "1.727",
     "miniräknare": true,
@@ -35979,9 +35981,9 @@ window.BANKMATF1 = [
     "familj": "Kombinatorisk sannolikhet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "0.1551604119",
-      "0.0929002701",
-      "0.2391725406"
+      0.15516041187205845,
+      0.09290027009524247,
+      0.23917254063835416
     ],
     "tolerans": [
       null,
@@ -36005,12 +36007,12 @@ window.BANKMATF1 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelIntro": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är sannolikheten att hon skjuter fullt (inga bom) stående?",
-        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon skjuter fullt (inga bom) stående?</p>",
+        "fraga": "Hur stor är sannolikheten att alla 10 skotten träffar?",
+        "t": "<p>En skidskytt träffar 83 % av skotten stående. Hon skjuter 10 stående skott. Skotten är oberoende.</p><p>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</p><p>Hur stor är sannolikheten att alla 10 skotten träffar?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Alla tio stående skott ska träffa.</p><div class=\"facit-matte\">\\[0{,}83^{10}\\approx0{,}155\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}155\\)</p></div>",
         "ledtrad": "<p>Alla tio stående skott ska träffa.</p>",
         "niva": "E",
@@ -36020,7 +36022,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "fraga": "Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?",
-        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?</p>",
+        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att hon skjuter fullt på alla 20 skotten?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fullt i båda omgångarna kräver både tio träffar stående och tio liggande. Multiplicera sannolikheterna.</p><div class=\"facit-matte\">\\[0{,}83^{10}\\cdot0{,}95^{10}\\approx0{,}093\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}0929\\)</p></div>",
         "ledtrad": "<p>Båda serierna ska bli fulla.</p>",
         "niva": "E",
@@ -36030,7 +36032,7 @@ window.BANKMATF1 = [
       {
         "etikett": "c",
         "fraga": "Hur stor är sannolikheten att hon får exakt en bom totalt?",
-        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att hon får exakt en bom totalt?</p>",
+        "t": "<p>En skidskytt träffar 95 % av skotten liggande och 83 % stående. Hon skjuter 10 skott liggande och 10 stående. Skotten är oberoende.</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att hon får exakt en bom totalt?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dela upp efter om den enda bommen kommer stående eller liggande. Fallen kan inte inträffa samtidigt, så deras sannolikheter adderas. Bommen stående: \\(10\\cdot0{,}17\\cdot0{,}83^9\\cdot0{,}95^{10}\\). Bommen liggande: \\(0{,}83^{10}\\cdot10\\cdot0{,}05\\cdot0{,}95^9\\). Summa \\(\\approx0{,}190+0{,}049\\approx0{,}239\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}239\\)</p></div>",
         "ledtrad": "<p>Dela upp i två fall: bommen kommer stående eller liggande.</p>",
         "niva": "C",
@@ -36047,7 +36049,7 @@ window.BANKMATF1 = [
     "niva": "A",
     "typ": "slumpvis tippning",
     "poang": "2/3/1",
-    "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få exakt 12 rätt?</li><li>Hur stor är sannolikheten att få exakt 10 rätt?</li><li>Vilket antal rätt är mest sannolikt? Svara med ett helt antal.</li></ol>",
+    "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><ol type=\"a\"><li>Hur stor är sannolikheten att få exakt 12 rätt?</li><li>Hur stor är sannolikheten att få exakt 10 rätt?</li><li>Vilket antal rätt är mest sannolikt? Svara med ett helt antal.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Välj vilken av de tretton matcherna som är fel. En match blir rätt med sannolikheten 1/3 och fel med sannolikheten 2/3.</p><div class=\"facit-matte\">\\[\\binom{13}{12}\\left(\\tfrac13\\right)^{12}\\tfrac23=\\dfrac{26}{1\\,594\\,323}\\approx1{,}6\\cdot10^{-5}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx1{,}63\\cdot10^{-5}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Välj de tio rätta matchernas positioner. De tre övriga ska bli fel.</p><div class=\"facit-matte\">\\[\\binom{13}{10}\\left(\\tfrac13\\right)^{10}\\left(\\tfrac23\\right)^3=\\dfrac{286\\cdot8}{1\\,594\\,323}=\\dfrac{2\\,288}{1\\,594\\,323}\\approx0{,}0014\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}00144\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Jämför sannolikheterna för möjliga antal rätt. Förväntat värde anger ett genomsnitt, men är i sig inte ett bevis för vilket antal som är mest sannolikt. Prövning av \\(P(k)\\) för \\(k=0{,}1,\\dots,13\\) ger störst sannolikhet för \\(k=4\\), cirka 0,23. Det stämmer med att förväntat antal är \\(13\\cdot\\tfrac13\\approx4{,}3\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> 4 rätt</p></div></div></div></div>",
     "id": "1.728",
     "miniräknare": true,
@@ -36081,12 +36083,12 @@ window.BANKMATF1 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p>",
+    "spelIntro": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är sannolikheten att få exakt 12 rätt?",
-        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 12 rätt?</p>",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att få exakt 12 rätt?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj vilken av de tretton matcherna som är fel. En match blir rätt med sannolikheten 1/3 och fel med sannolikheten 2/3.</p><div class=\"facit-matte\">\\[\\binom{13}{12}\\left(\\tfrac13\\right)^{12}\\tfrac23=\\dfrac{26}{1\\,594\\,323}\\approx1{,}6\\cdot10^{-5}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx1{,}63\\cdot10^{-5}\\)</p></div>",
         "ledtrad": "<p>Använd binomialformeln med \\(p=\\tfrac13\\).</p>",
         "niva": "C",
@@ -36096,7 +36098,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "fraga": "Hur stor är sannolikheten att få exakt 10 rätt?",
-        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med exakt bråk, decimaltal eller procent.</em></p><p>Hur stor är sannolikheten att få exakt 10 rätt?</p>",
+        "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Anta att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p class=\"svarformat-info\"><em>Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.</em></p><p>Hur stor är sannolikheten att få exakt 10 rätt?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj de tio rätta matchernas positioner. De tre övriga ska bli fel.</p><div class=\"facit-matte\">\\[\\binom{13}{10}\\left(\\tfrac13\\right)^{10}\\left(\\tfrac23\\right)^3=\\dfrac{286\\cdot8}{1\\,594\\,323}=\\dfrac{2\\,288}{1\\,594\\,323}\\approx0{,}0014\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}00144\\)</p></div>",
         "ledtrad": "<p>Använd binomialformeln.</p>",
         "niva": "C",
@@ -38774,7 +38776,7 @@ window.BANKMATF1 = [
     "t": "<p>Hur många femsiffriga tal kan bildas med siffrorna 2, 4, 6, 8 och 9 om siffror får upprepas?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Varje av de fem positionerna har fem möjliga siffror.</p><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[5^5=3125\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 3125</p></div></div>",
     "id": "1.576",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
@@ -38891,10 +38893,10 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
-    "t": "<p>Ett anställningsnummer består av en av 26 bokstäver följd av tre siffror. Siffror får upprepas. Siffrorna väljs bland 0–9 och får användas flera gånger. Hur många nummer är möjliga?</p>",
+    "t": "<p>Ett anställningsnummer består av en av 26 bokstäver följd av tre siffror. Varje siffra väljs bland 0–9 och siffror får upprepas.</p><p>Hur många nummer är möjliga?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Välj först bokstaven och därefter tre oberoende siffror.</p><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[26\\cdot10\\cdot10\\cdot10=26\\,000\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 26000</p></div></div>",
     "id": "1.580",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
@@ -38954,7 +38956,7 @@ window.BANKMATF1 = [
     "t": "<p>Ett test har 5 frågor och varje fråga har 4 svarsalternativ. Hur många fullständiga svarsrader finns?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Varje fråga är ett oberoende val med fyra alternativ.</p><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[4^5=1024\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1024</p></div></div>",
     "id": "1.582",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
@@ -39131,7 +39133,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Hur många val finns för varje position?</p>",

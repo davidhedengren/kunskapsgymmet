@@ -3949,7 +3949,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-12-fysik-formelsamling";
+const BANK_VERSION="2026-10-13-felrapporter-matematik";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -8776,17 +8776,22 @@ function uppgiftsAlder(h,id){
    till en annan nivå eller ett annat område när en liten hink är slut,
    i stället för att snurra runt samma tre uppgifter. */
 function farskaUppgifter(pool,h){
-  const iPasset=new Set(state.lastIds);
+  // Hela historiken behövs: lastIds begränsas till de senaste 60 korten.
+  const historik=state.passHistory?.length ? state.passHistory.map(x=>x.task.id) : state.lastIds;
+  const antal=new Map();for(const id of historik)antal.set(id,(antal.get(id)||0)+1);
+  const iPasset=new Set(historik);
   const karens=Math.max(2,Math.min(SEDDA_KARENS_MAX,Math.floor(pool.length*.6)));
   const farska=pool.filter(t=>!iPasset.has(t.id) && uppgiftsAlder(h,t.id)>karens);
   if(farska.length) return farska;
 
-  // Allt är nyligen sett: ta de som legat längst sedan de visades.
-  // Uppgifter från detta pass undviks så länge det finns andra.
-  const senast=state.lastIds[state.lastIds.length-1];
   let bas=pool.filter(t=>!iPasset.has(t.id));
-  if(!bas.length) bas=pool.filter(t=>t.id!==senast);
-  if(!bas.length) bas=pool;
+  if(!bas.length && pool.length){
+    // Efter ett helt varv: välj bland dem som visats minst i detta pass.
+    const min=Math.min(...pool.map(t=>antal.get(t.id)||0));
+    bas=pool.filter(t=>(antal.get(t.id)||0)===min);
+    const senast=historik.at(-1),andra=bas.filter(t=>t.id!==senast);
+    if(andra.length)bas=andra;
+  }
   const aldst=bas.slice().sort((a,b)=>uppgiftsAlder(h,b.id)-uppgiftsAlder(h,a.id));
   return aldst.slice(0,Math.max(1,Math.ceil(aldst.length/3)));
 }
@@ -9438,6 +9443,7 @@ function svarsPlan(t){
     const harFacit=svar.every(x=>x!==null&&x!==undefined&&x!=="");
     return {
       svar, enhet, tol, format,
+      ordnad: t.spelDelar?.[i]?.svarsstruktur=== "ordnad",
       svar273: faltVarde(t.rättSvar273,i,svar.length),
       svarTabell: Array.isArray(t.rättSvar)
         ? (t.svarTabell?.[i]?{0:t.svarTabell[i]}:undefined) : t.svarTabell,
@@ -9979,6 +9985,7 @@ function formatRatt(anv,facit,meta){
   if(!a) return false;
 
   switch(format){
+    case "primtalsfaktorisering": return primtalsfaktoriseringRatt(anv,facit);
     case "multipel": {
       // Endast storleksförhållanden: ord får inte bli antal, krafter eller tryck.
       const ord=stadaSvar(a).toLowerCase().replace(/[.!]$/, "").trim();
@@ -10050,12 +10057,16 @@ function formatRatt(anv,facit,meta){
       const fv=numericValue(tillNerdamer(normalizeMathInput(f)));
       const exp=Number(m[2]??m[3]??0), skala=m[4]?100:1, v=taltolk(m[1])*Math.pow(10,exp)/skala;
       if(!Number.isFinite(v) || !Number.isFinite(fv)) return null;
+      if(v<0 || v>1 || fv<0 || fv>1) return false;
       if(naraNog(v,fv,tol)) return true;
       if(typeof tol==="number") return false;
       const decimaler=(m[1].split(/[.,]/)[1]||"").length;
       const varde=m[1].replace(/^[+-]/,"").replace(/[.,]/,"").replace(/^0+/,"").length;
       const steg=Math.pow(10,exp-decimaler)/skala;
-      return varde>=2 && Math.abs(v-fv)<=steg/2*(1+1e-9)+1e-12;
+      // Bara det korrekt avrundade grannvärdet godtas, också exakt mitt emellan.
+      const avrundat=Math.round(fv/steg+Number.EPSILON*Math.abs(fv/steg)*4)*steg;
+      return v>=0 && v<=1 && varde>=2
+        && Math.abs(v-avrundat)<=Math.max(Math.abs(avrundat),steg)*1e-9;
     }
     case "procent": {
       const v=talAv(hogerled(a.replace(/%/g,""))), fv=talAv(String(f).replace(/%/g,""));
@@ -10325,7 +10336,52 @@ function grundpotensProvRatt(anv,facit){
     && Math.abs(value-expected)<=Math.abs(expected)*1e-12;
 }
 
+/* Kräver primtalsfaktorer, inte bara ett uttryck med samma talvärde.
+   Upprepade primtal och positiva heltalspotenser är likvärdiga skrivsätt. */
+function primtalsfaktoriseringRatt(anv,facit){
+  const target=numericValue(tillNerdamer(normalizeMathInput(String(facit))));
+  if(!Number.isSafeInteger(target)||target<2) return false;
+  let s=normalizeMathInput(String(anv)).replace(/\s+/g,"");
+  if(s.includes("=")){
+    const pair=s.split("=");
+    if(pair.length!==2||!/^\d+$/.test(pair[0])||Number(pair[0])!==target) return false;
+    s=pair[1];
+  }
+  if(!s || s.length>200 || !/^[0-9*^()]+$/.test(s)) return false;
+  let pos=0;
+  const prime=n=>{
+    if(!Number.isSafeInteger(n)||n<2||n>target) return false;
+    if(n%2===0)return n===2;
+    for(let d=3;d*d<=n;d+=2)if(n%d===0)return false;
+    return true;
+  };
+  const integer=()=>{
+    const m=s.slice(pos).match(/^\d+/);if(!m)throw Error('tal');
+    pos+=m[0].length;return Number(m[0]);
+  };
+  const factor=()=>{
+    let value;
+    if(s[pos]==='('){pos++;value=product();if(s[pos++]!==')')throw Error('parentes');}
+    else{value=integer();if(!prime(value))throw Error('primtal');}
+    if(s[pos]==='^'){
+      pos++;const bracket=s[pos]==='(';if(bracket)pos++;
+      const exponent=integer();if(bracket&&s[pos++]!==')')throw Error('exponent');
+      if(!Number.isSafeInteger(exponent)||exponent<1||exponent>Math.log2(target))throw Error('exponent');
+      value=value**exponent;
+    }
+    if(!Number.isSafeInteger(value)||value>target)throw Error('storlek');
+    return value;
+  };
+  const product=()=>{
+    let value=factor();
+    while(s[pos]==='*'){pos++;value*=factor();if(!Number.isSafeInteger(value)||value>target)throw Error('storlek');}
+    return value;
+  };
+  try{const value=product();return pos===s.length&&value===target;}catch(_){return false;}
+}
+
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  if(format==="primtalsfaktorisering")return primtalsfaktoriseringRatt(anv,facit);
   if(format==="brak_i_intervall")return exempelBrakRatt(anv,t?.svarVillkor);
   if(format==="negativt_talpar")return negativtTalparRatt(anv,t?.svarVillkor);
   if(format==="forkortat_brak")return forkortatProvBrakRatt(anv,facit);
@@ -10922,7 +10978,7 @@ function latexToPlain(s){
   x=x.replace(/\\(?:d?frac)\s*\\pi\s*([+-]?\d)/g,"((\\pi)/($1))");
   /* (?![a-zA-Z]) i stället för \b: i "\cos5x" finns ingen ordgräns mellan s och 5.
      Mellanslaget före namnet hindrar att "i\sin0" blir ordet "isin0". */
-  x=x.replace(/\\(arcsin|arccos|arctan|asin|acos|atan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp|abs)(?![a-zA-Z])/g," $1");
+  x=x.replace(/\\(arcsin|arccos|arctan|asin|acos|atan|sinh|cosh|tanh|sin|cos|tan|ln|lg|log|exp|abs)(?![a-zA-Z])/g," $1");
 
   for(let i=0;i<4;i++){
     x=x.replace(/\^\s*\{([^{}]*)\}/g,"^($1)");
@@ -10930,7 +10986,7 @@ function latexToPlain(s){
   }
   x=x.replace(/\\cdot|\\times/g,"*");
   x=x.replace(/\\pi/g,"pi");
-  x=x.replace(/\\(arcsin|arccos|arctan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp)(?![a-zA-Z])/g," $1");
+  x=x.replace(/\\(arcsin|arccos|arctan|sinh|cosh|tanh|sin|cos|tan|ln|lg|log|exp)(?![a-zA-Z])/g," $1");
   x=x.replace(/\\,/g,"");
   x=x.replace(/\\text\s*\{([^{}]*)\}/g," $1 ");
 
@@ -12652,8 +12708,9 @@ function checkAnswer(){
     const kvar=d.svar.map((v,j)=>({v,j}));
     // Alternativet måste följa den aktuella delen, också i en heluppgift.
     const rattningsTask={...t,rättSvar273:d.svar273,svarTabell:d.svarTabell};
-    const utfall=varden.map(anv=>{
-      const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],rattningsTask,k.j,d.format[k.j]));
+    const utfall=varden.map((anv,j)=>{
+      const träff=kvar.findIndex(k=>(!d.ordnad || k.j===j)
+        && delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],rattningsTask,k.j,d.format[k.j]));
       if(träff<0) return false;
       kvar.splice(träff,1);
       return true;
@@ -12730,6 +12787,9 @@ function visatFacitUttryck(v,format){
   return s;
 }
 function visatSvar(v,tol,format){
+  // Sannolikheter lagras ibland som decimalsträngar. Visa dem lika pedagogiskt som numeriska facit.
+  if(format==="sannolikhet" && typeof v==="string" && /^\s*\d+(?:[.,]\d+)?(?:e[+-]?\d+)?\s*$/i.test(v))
+    v=Number(v.replace(",","."));
   if(format==="grundpotensform"){
     const value=Number(v),exponent=Math.floor(Math.log10(Math.abs(value)));
     if(Number.isFinite(value)&&value!==0){

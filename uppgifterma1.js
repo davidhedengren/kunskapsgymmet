@@ -124912,14 +124912,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett golv är 46 m². Material 285 kr/m². 7 % extra för spill. Frakt 650 kr. Total kostnad?</p>",
+    "t": "<p>Ett golv har arean 46 m². Golvmaterialet kostar 285 kr per m². Du köper 7 % extra material för spill. Frakten kostar 650 kr.</p><p>Vad blir den totala kostnaden? Svara i kr med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Med spill behövs</p><div class=\"facit-matte\">\\[46\\cdot 1{,}07=49{,}22\\, \\mathrm{m^2}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Materialet kostar</p><div class=\"facit-matte\">\\[49{,}22\\cdot 285=14\\,027{,}70 k r\\]</div></div></li><li><p>Med frakt blir totalen <strong>14 677,70 kr</strong>.</p></li></ol></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "14677.70",
-    "tolerans": null,
+    "rättSvar": 14677.700000000003,
+    "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -124930,7 +124930,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Kostnadsberäkningar"
-    ]
+    ],
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.163",
@@ -124941,7 +124943,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>18 enheter kostar 42 kr styck. Frakt 295 kr. Total?</p>",
+    "t": "<p>Du beställer 18 varor som kostar 42 kr styck. Frakten kostar 295 kr.</p><p>Vad kostar beställningen inklusive frakt? Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>18·42+295 = 756+295 = <strong>1 051 kr</strong>.</p></li></ol></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
@@ -124959,7 +124961,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Kostnadsberäkningar"
-    ]
+    ],
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.164",
@@ -125000,7 +125004,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett jobb kräver 6,5 arbetstimmar à 520 kr och material för 1 850 kr. Vad blir totalkostnaden?</p>",
+    "t": "<p>Ett jobb kräver 6,5 arbetstimmar à 520 kr och material för 1 850 kr. Vad blir totalkostnaden?</p><p>Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Arbetet kostar</p><div class=\"facit-matte\">\\[6{,}5\\cdot 520=3\\,380 k r\\]</div></div></li><li><p>Med material blir totalen 3 380+1 850 = <strong>5 230 kr</strong>.</p></li></ol></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
@@ -125018,7 +125022,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Kostnadsberäkningar"
-    ]
+    ],
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.166",
@@ -125108,7 +125114,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Material kostar 245 kr per enhet och det behövs 14 enheter. Frakten är 390 kr. Bestäm totalkostnaden.</p>",
+    "t": "<p>Material kostar 245 kr per enhet och det behövs 14 enheter. Frakten är 390 kr. Bestäm totalkostnaden.</p><p>Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>14·245+390 = 3 430+390 = <strong>3 820 kr</strong>.</p></li></ol></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
@@ -125127,7 +125133,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Kostnadsberäkningar"
-    ]
+    ],
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.168",
@@ -125138,7 +125146,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Material kostar 180 kr/enhet exkl. moms. 24 enheter, 12 % rabatt före 25 % moms. Pris inkl. moms?</p>",
+    "t": "<p>Du köper 24 varor som kostar 180 kr styck utan moms. Du får 12 % rabatt. Därefter läggs 25 % moms på det rabatterade priset.</p><p>Vad blir priset inklusive moms? Svara i kr.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Grundpris:</p><div class=\"facit-matte\">\\[24\\cdot 180=4\\,320 k r\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Efter 12 % rabatt:</p><div class=\"facit-matte\">\\[4\\,320\\cdot 0{,}88=3\\,801{,}60 k r\\]</div></div></li><li><p>Med 25 % moms: 3 801,60·1,25 = <strong>4 752 kr</strong>.</p></li></ol></div>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
@@ -125156,7 +125164,9 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Kostnadsberäkningar"
-    ]
+    ],
+    "svarEnhet": "kr",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.169",
@@ -130421,7 +130431,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En byggställning är dimensionerad för 300 kg/m². Man vill ha en säkerhetsfaktor 1,5. Vilken last per m² får användas som mest?</p>",
+    "t": "<p>En byggställning tål 300 kg/m². Säkerhetsfaktorn är 1,5, vilket betyder att den tillåtna lasten är 300 kg/m² delat med 1,5.</p><p>Hur stor last per m² får användas som mest? Svara i kg/m².</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Tillåten last =</p><div class=\"facit-matte\">\\[\\frac{300}{1{,}5}=200\\, \\mathrm{kg/m^2}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>200 kg/m²</strong></p></div></div>",
     "familj": "Säkerhetsfaktor",
     "geogebra": false,
@@ -130483,7 +130493,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kran har maxlasten 5 ton. Säkerhetsfaktorn är 2. Hur många ton får kranen lyfta?</p>",
+    "t": "<p>En kran klarar som mest 5 ton. Säkerhetsfaktorn är 2. Det betyder att den tillåtna lasten är hälften av den största last kranen klarar.</p><p>Hur många ton får kranen lyfta?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>5/2 = 2,5 ton.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>2,5 ton</strong></p></div></div>",
     "familj": "Säkerhetsmarginal i procent",
     "geogebra": false,
@@ -130514,7 +130524,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett rep har brottgränsen 12 kN. Med säkerhetsfaktorn 4, vilken är den största tillåtna belastningen?</p>",
+    "t": "<p>Ett rep går sönder vid en kraft på 12 kN. Säkerhetsfaktorn är 4, vilket betyder att den tillåtna belastningen är en fjärdedel av denna kraft.</p><p>Vilken är den största tillåtna belastningen? Svara i kN.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{12}{4}=3\\, \\mathrm{kN}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3 kN</strong></p></div></div>",
     "familj": "Säkerhetsfaktor",
     "geogebra": false,
@@ -130575,7 +130585,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En balk ska bära 480 kg och man kräver säkerhetsfaktorn 2,5. Hur stor last måste balken minst klara?</p>",
+    "t": "<p>En balk ska bära 480 kg. Säkerhetsfaktorn ska vara 2,5. Det betyder att balken måste klara 2,5 gånger den last den ska bära.</p><p>Hur stor last måste balken minst klara? Svara i kg.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[480\\cdot 2{,}5=1\\,200\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1200 kg</strong></p></div></div>",
     "familj": "Säkerhetsfaktor",
     "geogebra": false,
@@ -130759,7 +130769,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett bord tål 120 kg. Man vill använda säkerhetsfaktorn 1,6. Hur många kg får bordet belastas med?</p>",
+    "t": "<p>Ett bord tål 120 kg. Säkerhetsfaktorn är 1,6, vilket betyder att den tillåtna lasten är 120 kg delat med 1,6.</p><p>Hur många kg får bordet belastas med?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{120}{1{,}6}=75\\, \\mathrm{kg}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>75 kg</strong></p></div></div>",
     "familj": "Säkerhetsfaktor",
     "geogebra": false,

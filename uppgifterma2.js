@@ -1381,5 +1381,3706 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "Största medelvärde"
   ],
   "svarsstruktur": "ordnad"
-}
+},
+  {
+    "id": "4.322",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "typ": "Lästa serieböcker",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      4,
+      4,
+      4
+    ],
+    "tolerans": [
+      0.005,
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fem kompisar räknar sina lästa serieböcker.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Person</th><th scope=\"col\">Böcker</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>4</td></tr><tr><td>4</td><td>4</td></tr><tr><td>5</td><td>6</td></tr></tbody></table>",
+    "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+    "t": "<p>Fem kompisar räknar sina lästa serieböcker.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Person</th><th scope=\"col\">Böcker</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>4</td></tr><tr><td>4</td><td>4</td></tr><tr><td>5</td><td>6</td></tr></tbody></table><p>a) Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p><p>b) Bestäm medianen.</p><p>c) Bestäm typvärdet.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De 5 värdena har summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/5\\approx4{,}00\\]</div><p><strong>Svar:</strong> 4,00.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 2, 4, 4, 4, 6. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[4\\]</div><p><strong>Svar:</strong> 4.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Värdet 4 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 4.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>De 5 värdena har summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/5\\approx4{,}00\\]</div><p><strong>Svar:</strong> 4,00.</p></div>",
+        "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 2, 4, 4, 4, 6. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[4\\]</div><p><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 4 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.323",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "typ": "Mål per match",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      0.8333333333333334,
+      1.0,
+      1
+    ],
+    "tolerans": [
+      0.005,
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Diagrammet visar antalet mål för ett lag i sex matcher.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Mål och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal matcher</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><rect class=\"more-bar\" data-value=\"0\" x=\"77.000\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"240.500\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Mål</text></svg></div>",
+    "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+    "t": "<p>Diagrammet visar antalet mål för ett lag i sex matcher.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Mål och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal matcher</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><rect class=\"more-bar\" data-value=\"0\" x=\"77.000\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"240.500\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Mål</text></svg></div><p>a) Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p><p>b) Bestäm medianen.</p><p>c) Bestäm typvärdet.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De 6 värdena har summan 5.</p><div class=\"facit-matte\">\\[\\bar x=5/6\\approx0{,}83\\]</div><p><strong>Svar:</strong> 0,83.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 0, 0, 1, 1, 1, 2. De två mittersta värdena är 1 och 1.</p><div class=\"facit-matte\">\\[(1+1)/2=1\\]</div><p><strong>Svar:</strong> 1.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Värdet 1 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 1.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>De 6 värdena har summan 5.</p><div class=\"facit-matte\">\\[\\bar x=5/6\\approx0{,}83\\]</div><p><strong>Svar:</strong> 0,83.</p></div>",
+        "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 0, 0, 1, 1, 1, 2. De två mittersta värdena är 1 och 1.</p><div class=\"facit-matte\">\\[(1+1)/2=1\\]</div><p><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 1 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.324",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "typ": "Morgontemperaturer",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      -1,
+      -2,
+      -2
+    ],
+    "tolerans": [
+      0.005,
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C",
+      "°C"
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar temperaturen fem morgnar.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Morgon</th><th scope=\"col\">Temperatur (°C)</th></tr></thead><tbody><tr><td>1</td><td>−4</td></tr><tr><td>2</td><td>−2</td></tr><tr><td>3</td><td>0</td></tr><tr><td>4</td><td>−2</td></tr><tr><td>5</td><td>3</td></tr></tbody></table>",
+    "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+    "t": "<p>Tabellen visar temperaturen fem morgnar.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Morgon</th><th scope=\"col\">Temperatur (°C)</th></tr></thead><tbody><tr><td>1</td><td>−4</td></tr><tr><td>2</td><td>−2</td></tr><tr><td>3</td><td>0</td></tr><tr><td>4</td><td>−2</td></tr><tr><td>5</td><td>3</td></tr></tbody></table><p>a) Bestäm medelvärdet. Svara i °C. Avrunda vid behov till två decimaler.</p><p>b) Bestäm medianen. Svara i °C.</p><p>c) Bestäm typvärdet. Svara i °C.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De 5 värdena har summan −5.</p><div class=\"facit-matte\">\\[\\bar x=-5/5\\approx-1{,}00\\]</div><p><strong>Svar:</strong> −1,00 °C.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I storleksordning: −4, −2, −2, 0, 3. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[-2\\]</div><p><strong>Svar:</strong> −2 °C.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Värdet −2 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> −2 °C.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet. Svara i °C. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>De 5 värdena har summan −5.</p><div class=\"facit-matte\">\\[\\bar x=-5/5\\approx-1{,}00\\]</div><p><strong>Svar:</strong> −1,00 °C.</p></div>",
+        "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen. Svara i °C.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: −4, −2, −2, 0, 3. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[-2\\]</div><p><strong>Svar:</strong> −2 °C.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm typvärdet. Svara i °C.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet −2 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> −2 °C.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.325",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "typ": "Besök i cykelverkstaden",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      12,
+      12,
+      8
+    ],
+    "tolerans": [
+      0.005,
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En cykelverkstad räknar besöken under fem dagar.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Dag</th><th scope=\"col\">Besök</th></tr></thead><tbody><tr><td>1</td><td>14</td></tr><tr><td>2</td><td>8</td></tr><tr><td>3</td><td>12</td></tr><tr><td>4</td><td>8</td></tr><tr><td>5</td><td>18</td></tr></tbody></table>",
+    "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+    "t": "<p>En cykelverkstad räknar besöken under fem dagar.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Dag</th><th scope=\"col\">Besök</th></tr></thead><tbody><tr><td>1</td><td>14</td></tr><tr><td>2</td><td>8</td></tr><tr><td>3</td><td>12</td></tr><tr><td>4</td><td>8</td></tr><tr><td>5</td><td>18</td></tr></tbody></table><p>a) Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p><p>b) Bestäm medianen.</p><p>c) Bestäm typvärdet.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De 5 värdena har summan 60.</p><div class=\"facit-matte\">\\[\\bar x=60/5\\approx12{,}00\\]</div><p><strong>Svar:</strong> 12,00.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 8, 8, 12, 14, 18. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[12\\]</div><p><strong>Svar:</strong> 12.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Värdet 8 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 8.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>De 5 värdena har summan 60.</p><div class=\"facit-matte\">\\[\\bar x=60/5\\approx12{,}00\\]</div><p><strong>Svar:</strong> 12,00.</p></div>",
+        "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 8, 8, 12, 14, 18. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[12\\]</div><p><strong>Svar:</strong> 12.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 8 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.326",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "typ": "Skostorlekar",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      37.916666666666664,
+      38.0,
+      38
+    ],
+    "tolerans": [
+      0.005,
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Diagrammet visar skostorlekarna i en grupp.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Skostorlek och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal personer</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"211.33\" x2=\"445.00\" y2=\"211.33\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"217.33\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"180.67\" x2=\"445.00\" y2=\"180.67\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"186.67\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"119.33\" x2=\"445.00\" y2=\"119.33\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"125.33\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"88.67\" x2=\"445.00\" y2=\"88.67\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"94.67\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">6</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">36</text><rect class=\"more-bar\" data-value=\"36\" x=\"77.000\" y=\"211.333\" width=\"26\" height=\"30.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">37</text><rect class=\"more-bar\" data-value=\"37\" x=\"158.750\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">38</text><rect class=\"more-bar\" data-value=\"38\" x=\"240.500\" y=\"88.667\" width=\"26\" height=\"153.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"335.25\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">39</text><rect class=\"more-bar\" data-value=\"39\" x=\"322.250\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">40</text><rect class=\"more-bar\" data-value=\"40\" x=\"404.000\" y=\"211.333\" width=\"26\" height=\"30.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Skostorlek</text></svg></div>",
+    "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+    "t": "<p>Diagrammet visar skostorlekarna i en grupp.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Skostorlek och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal personer</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"211.33\" x2=\"445.00\" y2=\"211.33\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"217.33\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"180.67\" x2=\"445.00\" y2=\"180.67\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"186.67\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"119.33\" x2=\"445.00\" y2=\"119.33\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"125.33\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"88.67\" x2=\"445.00\" y2=\"88.67\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"94.67\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">6</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">36</text><rect class=\"more-bar\" data-value=\"36\" x=\"77.000\" y=\"211.333\" width=\"26\" height=\"30.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">37</text><rect class=\"more-bar\" data-value=\"37\" x=\"158.750\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">38</text><rect class=\"more-bar\" data-value=\"38\" x=\"240.500\" y=\"88.667\" width=\"26\" height=\"153.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"335.25\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">39</text><rect class=\"more-bar\" data-value=\"39\" x=\"322.250\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">40</text><rect class=\"more-bar\" data-value=\"40\" x=\"404.000\" y=\"211.333\" width=\"26\" height=\"30.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Skostorlek</text></svg></div><p>a) Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p><p>b) Bestäm medianen.</p><p>c) Bestäm typvärdet.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De 12 värdena har summan 455.</p><div class=\"facit-matte\">\\[\\bar x=455/12\\approx37{,}92\\]</div><p><strong>Svar:</strong> 37,92.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 36, 37, 37, 37, 38, 38, 38, 38, 38, 39, 39, 40. De två mittersta värdena är 38 och 38.</p><div class=\"facit-matte\">\\[(38+38)/2=38\\]</div><p><strong>Svar:</strong> 38.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Värdet 38 förekommer 5 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 38.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>De 12 värdena har summan 455.</p><div class=\"facit-matte\">\\[\\bar x=455/12\\approx37{,}92\\]</div><p><strong>Svar:</strong> 37,92.</p></div>",
+        "ledtrad": "<p>Summera alla observationer och dela med antalet. I en frekvenstabell måste varje värde räknas så många gånger som frekvensen anger.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 36, 37, 37, 37, 38, 38, 38, 38, 38, 39, 39, 40. De två mittersta värdena är 38 och 38.</p><div class=\"facit-matte\">\\[(38+38)/2=38\\]</div><p><strong>Svar:</strong> 38.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 38 förekommer 5 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 38.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.327",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "typ": "Typvärde för kategorier",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      "Blå",
+      13,
+      46.15384615384615
+    ],
+    "tolerans": [
+      0,
+      0,
+      0.05
+    ],
+    "svarFormat": [
+      "kort_text",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      "%"
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En grupp väljer vilken färg de vill ha på sina tröjor.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Färg</th><th scope=\"col\">Antal röster</th></tr></thead><tbody><tr><td>Blå</td><td>6</td></tr><tr><td>Grön</td><td>4</td></tr><tr><td>Röd</td><td>3</td></tr></tbody></table>",
+    "ledtrad": "<p>Vilken kategori har flest röster?</p>",
+    "t": "<p>En grupp väljer vilken färg de vill ha på sina tröjor.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Färg</th><th scope=\"col\">Antal röster</th></tr></thead><tbody><tr><td>Blå</td><td>6</td></tr><tr><td>Grön</td><td>4</td></tr><tr><td>Röd</td><td>3</td></tr></tbody></table><p>a) Vilken färg är typvärdet?</p><p>b) Hur många röster kom in totalt?</p><p>c) Hur många procent valde blå? Avrunda till en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Blå har flest röster, 6. Typvärde kan vara en kategori och behöver inte vara ett tal.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>6 + 4 + 3 = 13 röster.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><div class=\"facit-matte\">\\[6/13\\cdot100\\approx46{,}2\\%\\]</div><p>Svar: 46,2 %.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Vilken färg är typvärdet?</p>",
+        "s": "<div class=\"facit-v2\"><p>Blå har flest röster, 6. Typvärde kan vara en kategori och behöver inte vara ett tal.</p></div>",
+        "ledtrad": "<p>Vilken kategori har flest röster?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur många röster kom in totalt?</p>",
+        "s": "<div class=\"facit-v2\"><p>6 + 4 + 3 = 13 röster.</p></div>",
+        "ledtrad": "<p>Summera antalen i tabellen.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur många procent valde blå? Avrunda till en decimal.</p>",
+        "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[6/13\\cdot100\\approx46{,}2\\%\\]</div><p>Svar: 46,2 %.</p></div>",
+        "ledtrad": "<p>Jämför antalet blå röster med alla röster.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.328",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Väntetider vid kiosken",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      3.5,
+      3,
+      [
+        4,
+        1.632993161855452
+      ],
+      5
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "min",
+      "min",
+      [
+        "min",
+        "min"
+      ],
+      "min"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar sex kunders väntetider.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Kund</th><th scope=\"col\">Väntetid (min)</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td></tr><tr><td>3</td><td>3</td></tr><tr><td>4</td><td>4</td></tr><tr><td>5</td><td>5</td></tr><tr><td>6</td><td>7</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Tabellen visar sex kunders väntetider.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Kund</th><th scope=\"col\">Väntetid (min)</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td></tr><tr><td>3</td><td>3</td></tr><tr><td>4</td><td>4</td></tr><tr><td>5</td><td>5</td></tr><tr><td>6</td><td>7</td></tr></tbody></table><p>a) Bestäm medianen. Svara i min.</p><p>b) Bestäm typvärdet. Svara i min.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i min. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i min.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 2, 3, 3, 4, 5, 7. De två mittersta värdena är 3 och 4.</p><div class=\"facit-matte\">\\[(3+4)/2=3{,}5\\]</div><p><strong>Svar:</strong> 3,5 min.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 3 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 3 min.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 6 observationer med summan 24.</p><div class=\"facit-matte\">\\[\\bar x=24/6\\approx4{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(3)^2\\]</div><p>Summan blir 16. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{16/6}\\approx1{,}63\\]</div><p><strong>Svar:</strong> Medelvärde 4,00, standardavvikelse 1,63 min.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[7-(2)=5\\]</div><p><strong>Svar:</strong> 5 min.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i min.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 2, 3, 3, 4, 5, 7. De två mittersta värdena är 3 och 4.</p><div class=\"facit-matte\">\\[(3+4)/2=3{,}5\\]</div><p><strong>Svar:</strong> 3,5 min.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i min.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 3 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 3 min.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i min. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 6 observationer med summan 24.</p><div class=\"facit-matte\">\\[\\bar x=24/6\\approx4{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(3)^2\\]</div><p>Summan blir 16. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{16/6}\\approx1{,}63\\]</div><p><strong>Svar:</strong> Medelvärde 4,00, standardavvikelse 1,63 min.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i min.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[7-(2)=5\\]</div><p><strong>Svar:</strong> 5 min.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.329",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Antal syskon",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      1.0,
+      1,
+      [
+        1.5,
+        1.2041594578792296
+      ],
+      4
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Diagrammet visar hur många syskon eleverna i en grupp har.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Syskon och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal elever</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"205.20\" x2=\"445.00\" y2=\"205.20\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"211.20\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"168.40\" x2=\"445.00\" y2=\"168.40\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"174.40\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"131.60\" x2=\"445.00\" y2=\"131.60\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"137.60\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"94.80\" x2=\"445.00\" y2=\"94.80\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"100.80\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><rect class=\"more-bar\" data-value=\"0\" x=\"77.000\" y=\"168.400\" width=\"26\" height=\"73.600\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"158.750\" y=\"94.800\" width=\"26\" height=\"147.200\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"240.500\" y=\"168.400\" width=\"26\" height=\"73.600\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"335.25\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"322.250\" y=\"205.200\" width=\"26\" height=\"36.800\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"404.000\" y=\"205.200\" width=\"26\" height=\"36.800\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Syskon</text></svg></div>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Diagrammet visar hur många syskon eleverna i en grupp har.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Syskon och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal elever</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"205.20\" x2=\"445.00\" y2=\"205.20\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"211.20\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"168.40\" x2=\"445.00\" y2=\"168.40\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"174.40\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"131.60\" x2=\"445.00\" y2=\"131.60\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"137.60\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"94.80\" x2=\"445.00\" y2=\"94.80\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"100.80\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><rect class=\"more-bar\" data-value=\"0\" x=\"77.000\" y=\"168.400\" width=\"26\" height=\"73.600\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"158.750\" y=\"94.800\" width=\"26\" height=\"147.200\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"240.500\" y=\"168.400\" width=\"26\" height=\"73.600\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"335.25\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"322.250\" y=\"205.200\" width=\"26\" height=\"36.800\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"404.000\" y=\"205.200\" width=\"26\" height=\"36.800\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Syskon</text></svg></div><p>a) Bestäm medianen.</p><p>b) Bestäm typvärdet.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 0, 0, 1, 1, 1, 1, 2, 2, 3, 4. De två mittersta värdena är 1 och 1.</p><div class=\"facit-matte\">\\[(1+1)/2=1\\]</div><p><strong>Svar:</strong> 1.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 1 förekommer 4 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 1.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 10 observationer med summan 15.</p><div class=\"facit-matte\">\\[\\bar x=15/10\\approx1{,}50\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-1{,}5)^2+4\\cdot(-0{,}5)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0{,}5)^2+(1{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(2{,}5)^2\\]</div><p>Summan blir 14,5. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{14{,}5/10}\\approx1{,}20\\]</div><p><strong>Svar:</strong> Medelvärde 1,50, standardavvikelse 1,20.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[4-(0)=4\\]</div><p><strong>Svar:</strong> 4.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 0, 0, 1, 1, 1, 1, 2, 2, 3, 4. De två mittersta värdena är 1 och 1.</p><div class=\"facit-matte\">\\[(1+1)/2=1\\]</div><p><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 1 förekommer 4 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 10 observationer med summan 15.</p><div class=\"facit-matte\">\\[\\bar x=15/10\\approx1{,}50\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-1{,}5)^2+4\\cdot(-0{,}5)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0{,}5)^2+(1{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(2{,}5)^2\\]</div><p>Summan blir 14,5. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{14{,}5/10}\\approx1{,}20\\]</div><p><strong>Svar:</strong> Medelvärde 1,50, standardavvikelse 1,20.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[4-(0)=4\\]</div><p><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.330",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Bussförseningar",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      1.5,
+      0,
+      [
+        2,
+        2.5
+      ],
+      2.5
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "min",
+      "min",
+      [
+        "min",
+        "min"
+      ],
+      "min"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Varje prick visar en buss försening.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Försening (min) och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal bussar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><circle class=\"more-dot\" data-value=\"0\" cx=\"90.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"90.000\" cy=\"150.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"90.000\" cy=\"104.000\" r=\"6\" fill=\"#267a94\"/><text x=\"130.88\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><circle class=\"more-dot\" data-value=\"1\" cx=\"130.875\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><circle class=\"more-dot\" data-value=\"2\" cx=\"171.750\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"2\" cx=\"171.750\" cy=\"150.000\" r=\"6\" fill=\"#267a94\"/><text x=\"212.62\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><circle class=\"more-dot\" data-value=\"3\" cx=\"212.625\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">8</text><circle class=\"more-dot\" data-value=\"8\" cx=\"417.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Försening (min)</text></svg></div>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Varje prick visar en buss försening.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Försening (min) och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal bussar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><circle class=\"more-dot\" data-value=\"0\" cx=\"90.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"90.000\" cy=\"150.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"90.000\" cy=\"104.000\" r=\"6\" fill=\"#267a94\"/><text x=\"130.88\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><circle class=\"more-dot\" data-value=\"1\" cx=\"130.875\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><circle class=\"more-dot\" data-value=\"2\" cx=\"171.750\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"2\" cx=\"171.750\" cy=\"150.000\" r=\"6\" fill=\"#267a94\"/><text x=\"212.62\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><circle class=\"more-dot\" data-value=\"3\" cx=\"212.625\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">8</text><circle class=\"more-dot\" data-value=\"8\" cx=\"417.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Försening (min)</text></svg></div><p>a) Bestäm medianen. Svara i min.</p><p>b) Bestäm typvärdet. Svara i min.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i min. Avrunda vid behov till två decimaler.</p><p>d) Bestäm kvartilavståndet. Svara i min.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 0, 0, 0, 1, 2, 2, 3, 8. De två mittersta värdena är 1 och 2.</p><div class=\"facit-matte\">\\[(1+2)/2=1{,}5\\]</div><p><strong>Svar:</strong> 1,5 min.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 0 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 0 min.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 8 observationer med summan 16.</p><div class=\"facit-matte\">\\[\\bar x=16/8\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[3\\cdot(-2)^2+(-1)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(6)^2\\]</div><p>Summan blir 50. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{50/8}\\approx2{,}50\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 2,50 min.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ordna värdena: 0, 0, 0, 1, 2, 2, 3, 8. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 0 och övre kvartilen är 2,5.</p><div class=\"facit-matte\">\\[2{,}5-0=2{,}5\\]</div><p><strong>Svar:</strong> 2,5 min.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i min.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 0, 0, 0, 1, 2, 2, 3, 8. De två mittersta värdena är 1 och 2.</p><div class=\"facit-matte\">\\[(1+2)/2=1{,}5\\]</div><p><strong>Svar:</strong> 1,5 min.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i min.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 0 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 0 min.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i min. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 8 observationer med summan 16.</p><div class=\"facit-matte\">\\[\\bar x=16/8\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[3\\cdot(-2)^2+(-1)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(6)^2\\]</div><p>Summan blir 50. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{50/8}\\approx2{,}50\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 2,50 min.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet. Svara i min.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ordna värdena: 0, 0, 0, 1, 2, 2, 3, 8. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 0 och övre kvartilen är 2,5.</p><div class=\"facit-matte\">\\[2{,}5-0=2{,}5\\]</div><p><strong>Svar:</strong> 2,5 min.</p></div>",
+        "ledtrad": "<p>Dela den sorterade listan i två lika stora halvor. Jämför halvorna genom deras medianer.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.331",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Pennor i askar",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      10.0,
+      10,
+      [
+        10,
+        1.0
+      ],
+      3
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Alla sex askar i en leverans innehåller så här många pennor.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Pennor</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>8</td><td>1</td></tr><tr><td>10</td><td>3</td></tr><tr><td>11</td><td>2</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Alla sex askar i en leverans innehåller så här många pennor.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Pennor</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>8</td><td>1</td></tr><tr><td>10</td><td>3</td></tr><tr><td>11</td><td>2</td></tr></tbody></table><p>a) Bestäm medianen.</p><p>b) Bestäm typvärdet.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 8, 10, 10, 10, 11, 11. De två mittersta värdena är 10 och 10.</p><div class=\"facit-matte\">\\[(10+10)/2=10\\]</div><p><strong>Svar:</strong> 10.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 10 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 10.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 6 observationer med summan 60.</p><div class=\"facit-matte\">\\[\\bar x=60/6\\approx10{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+3\\cdot(0)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(1)^2\\]</div><p>Summan blir 6. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{6/6}\\approx1{,}00\\]</div><p><strong>Svar:</strong> Medelvärde 10,00, standardavvikelse 1,00.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[11-(8)=3\\]</div><p><strong>Svar:</strong> 3.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 8, 10, 10, 10, 11, 11. De två mittersta värdena är 10 och 10.</p><div class=\"facit-matte\">\\[(10+10)/2=10\\]</div><p><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 10 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 6 observationer med summan 60.</p><div class=\"facit-matte\">\\[\\bar x=60/6\\approx10{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+3\\cdot(0)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(1)^2\\]</div><p>Summan blir 6. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{6/6}\\approx1{,}00\\]</div><p><strong>Svar:</strong> Medelvärde 10,00, standardavvikelse 1,00.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[11-(8)=3\\]</div><p><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.332",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Batteriers drifttid",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      9.5,
+      9,
+      [
+        10,
+        1.7888543819998317
+      ],
+      5
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "h",
+      "h",
+      [
+        "h",
+        "h"
+      ],
+      "h"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Sex batterier väljs slumpmässigt som stickprov ur en stor leverans. Tabellen visar drifttiderna.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Batteri</th><th scope=\"col\">Drifttid (h)</th></tr></thead><tbody><tr><td>1</td><td>8</td></tr><tr><td>2</td><td>9</td></tr><tr><td>3</td><td>9</td></tr><tr><td>4</td><td>10</td></tr><tr><td>5</td><td>11</td></tr><tr><td>6</td><td>13</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Sex batterier väljs slumpmässigt som stickprov ur en stor leverans. Tabellen visar drifttiderna.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Batteri</th><th scope=\"col\">Drifttid (h)</th></tr></thead><tbody><tr><td>1</td><td>8</td></tr><tr><td>2</td><td>9</td></tr><tr><td>3</td><td>9</td></tr><tr><td>4</td><td>10</td></tr><tr><td>5</td><td>11</td></tr><tr><td>6</td><td>13</td></tr></tbody></table><p>a) Bestäm medianen. Svara i h.</p><p>b) Bestäm typvärdet. Svara i h.</p><p>c) Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i h. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i h.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 8, 9, 9, 10, 11, 13. De två mittersta värdena är 9 och 10.</p><div class=\"facit-matte\">\\[(9+10)/2=9{,}5\\]</div><p><strong>Svar:</strong> 9,5 h.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 9 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 9 h.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 6 observationer med summan 60.</p><div class=\"facit-matte\">\\[\\bar x=60/6\\approx10{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(3)^2\\]</div><p>Summan blir 16. Sx uppskattar spridningen från stickprovet, så vi delar med 6 − 1 = 5.</p><div class=\"facit-matte\">\\[s=\\sqrt{16/5}\\approx1{,}79\\]</div><p><strong>Svar:</strong> Medelvärde 10,00, standardavvikelse 1,79 h.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[13-(8)=5\\]</div><p><strong>Svar:</strong> 5 h.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i h.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 8, 9, 9, 10, 11, 13. De två mittersta värdena är 9 och 10.</p><div class=\"facit-matte\">\\[(9+10)/2=9{,}5\\]</div><p><strong>Svar:</strong> 9,5 h.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i h.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 9 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 9 h.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i h. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 6 observationer med summan 60.</p><div class=\"facit-matte\">\\[\\bar x=60/6\\approx10{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(3)^2\\]</div><p>Summan blir 16. Sx uppskattar spridningen från stickprovet, så vi delar med 6 − 1 = 5.</p><div class=\"facit-matte\">\\[s=\\sqrt{16/5}\\approx1{,}79\\]</div><p><strong>Svar:</strong> Medelvärde 10,00, standardavvikelse 1,79 h.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Stickprovet använder Sx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i h.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[13-(8)=5\\]</div><p><strong>Svar:</strong> 5 h.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.333",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Poäng på ett quiz",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      3.0,
+      3,
+      [
+        3.4,
+        1.624807680927192
+      ],
+      2
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Diagrammet visar poängen för alla deltagare i ett quiz.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Poäng och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal deltagare</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"77.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"144.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"131.500\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"199.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"186.000\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"240.500\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"308.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><rect class=\"more-bar\" data-value=\"5\" x=\"295.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">7</text><rect class=\"more-bar\" data-value=\"7\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Poäng</text></svg></div>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Diagrammet visar poängen för alla deltagare i ett quiz.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Poäng och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal deltagare</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"77.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"144.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"131.500\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"199.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"186.000\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"240.500\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"308.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><rect class=\"more-bar\" data-value=\"5\" x=\"295.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">7</text><rect class=\"more-bar\" data-value=\"7\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Poäng</text></svg></div><p>a) Bestäm medianen.</p><p>b) Bestäm typvärdet.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>d) Bestäm kvartilavståndet.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 1, 2, 2, 3, 3, 3, 4, 4, 5, 7. De två mittersta värdena är 3 och 3.</p><div class=\"facit-matte\">\\[(3+3)/2=3\\]</div><p><strong>Svar:</strong> 3.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 3 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 3.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 10 observationer med summan 34.</p><div class=\"facit-matte\">\\[\\bar x=34/10\\approx3{,}40\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}4)^2+2\\cdot(-1{,}4)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}4)^2+2\\cdot(0{,}6)^2\\]</div><div class=\"facit-matte\">\\[+(1{,}6)^2+(3{,}6)^2\\]</div><p>Summan blir 26,4. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{26{,}4/10}\\approx1{,}62\\]</div><p><strong>Svar:</strong> Medelvärde 3,40, standardavvikelse 1,62.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ordna värdena: 1, 2, 2, 3, 3, 3, 4, 4, 5, 7. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 2 och övre kvartilen är 4.</p><div class=\"facit-matte\">\\[4-2=2\\]</div><p><strong>Svar:</strong> 2.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 1, 2, 2, 3, 3, 3, 4, 4, 5, 7. De två mittersta värdena är 3 och 3.</p><div class=\"facit-matte\">\\[(3+3)/2=3\\]</div><p><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 3 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 10 observationer med summan 34.</p><div class=\"facit-matte\">\\[\\bar x=34/10\\approx3{,}40\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}4)^2+2\\cdot(-1{,}4)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}4)^2+2\\cdot(0{,}6)^2\\]</div><div class=\"facit-matte\">\\[+(1{,}6)^2+(3{,}6)^2\\]</div><p>Summan blir 26,4. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{26{,}4/10}\\approx1{,}62\\]</div><p><strong>Svar:</strong> Medelvärde 3,40, standardavvikelse 1,62.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ordna värdena: 1, 2, 2, 3, 3, 3, 4, 4, 5, 7. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 2 och övre kvartilen är 4.</p><div class=\"facit-matte\">\\[4-2=2\\]</div><p><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Dela den sorterade listan i två lika stora halvor. Jämför halvorna genom deras medianer.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.334",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Längder på plantor",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      14,
+      14,
+      [
+        15,
+        2.3664319132398464
+      ],
+      7
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm",
+      [
+        "cm",
+        "cm"
+      ],
+      "cm"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar längderna på alla fem plantor i ett fönster.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Planta</th><th scope=\"col\">Längd (cm)</th></tr></thead><tbody><tr><td>1</td><td>12</td></tr><tr><td>2</td><td>14</td></tr><tr><td>3</td><td>14</td></tr><tr><td>4</td><td>16</td></tr><tr><td>5</td><td>19</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Tabellen visar längderna på alla fem plantor i ett fönster.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Planta</th><th scope=\"col\">Längd (cm)</th></tr></thead><tbody><tr><td>1</td><td>12</td></tr><tr><td>2</td><td>14</td></tr><tr><td>3</td><td>14</td></tr><tr><td>4</td><td>16</td></tr><tr><td>5</td><td>19</td></tr></tbody></table><p>a) Bestäm medianen. Svara i cm.</p><p>b) Bestäm typvärdet. Svara i cm.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i cm. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i cm.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 12, 14, 14, 16, 19. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[14\\]</div><p><strong>Svar:</strong> 14 cm.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 14 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 14 cm.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 75.</p><div class=\"facit-matte\">\\[\\bar x=75/5\\approx15{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(1)^2+(4)^2\\]</div><p>Summan blir 28. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{28/5}\\approx2{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 15,00, standardavvikelse 2,37 cm.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[19-(12)=7\\]</div><p><strong>Svar:</strong> 7 cm.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i cm.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 12, 14, 14, 16, 19. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[14\\]</div><p><strong>Svar:</strong> 14 cm.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i cm.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 14 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 14 cm.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i cm. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 75.</p><div class=\"facit-matte\">\\[\\bar x=75/5\\approx15{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(1)^2+(4)^2\\]</div><p>Summan blir 28. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{28/5}\\approx2{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 15,00, standardavvikelse 2,37 cm.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i cm.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[19-(12)=7\\]</div><p><strong>Svar:</strong> 7 cm.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.335",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Fyllnadsvikt i påsar",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      100,
+      100,
+      [
+        100.4,
+        1.816590212458495
+      ],
+      5
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "g",
+      "g",
+      [
+        "g",
+        "g"
+      ],
+      "g"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fem påsar väljs slumpmässigt som stickprov ur dagens produktion. Tabellen visar deras vikter.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Påse</th><th scope=\"col\">Vikt (g)</th></tr></thead><tbody><tr><td>1</td><td>98</td></tr><tr><td>2</td><td>100</td></tr><tr><td>3</td><td>100</td></tr><tr><td>4</td><td>101</td></tr><tr><td>5</td><td>103</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Fem påsar väljs slumpmässigt som stickprov ur dagens produktion. Tabellen visar deras vikter.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Påse</th><th scope=\"col\">Vikt (g)</th></tr></thead><tbody><tr><td>1</td><td>98</td></tr><tr><td>2</td><td>100</td></tr><tr><td>3</td><td>100</td></tr><tr><td>4</td><td>101</td></tr><tr><td>5</td><td>103</td></tr></tbody></table><p>a) Bestäm medianen. Svara i g.</p><p>b) Bestäm typvärdet. Svara i g.</p><p>c) Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i g. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i g.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 98, 100, 100, 101, 103. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[100\\]</div><p><strong>Svar:</strong> 100 g.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 100 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 100 g.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 502.</p><div class=\"facit-matte\">\\[\\bar x=502/5\\approx100{,}40\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}4)^2+2\\cdot(-0{,}4)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}6)^2+(2{,}6)^2\\]</div><p>Summan blir 13,2. Sx uppskattar spridningen från stickprovet, så vi delar med 5 − 1 = 4.</p><div class=\"facit-matte\">\\[s=\\sqrt{13{,}2/4}\\approx1{,}82\\]</div><p><strong>Svar:</strong> Medelvärde 100,40, standardavvikelse 1,82 g.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[103-(98)=5\\]</div><p><strong>Svar:</strong> 5 g.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i g.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 98, 100, 100, 101, 103. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[100\\]</div><p><strong>Svar:</strong> 100 g.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i g.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 100 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 100 g.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i g. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 502.</p><div class=\"facit-matte\">\\[\\bar x=502/5\\approx100{,}40\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}4)^2+2\\cdot(-0{,}4)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}6)^2+(2{,}6)^2\\]</div><p>Summan blir 13,2. Sx uppskattar spridningen från stickprovet, så vi delar med 5 − 1 = 4.</p><div class=\"facit-matte\">\\[s=\\sqrt{13{,}2/4}\\approx1{,}82\\]</div><p><strong>Svar:</strong> Medelvärde 100,40, standardavvikelse 1,82 g.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Stickprovet använder Sx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i g.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[103-(98)=5\\]</div><p><strong>Svar:</strong> 5 g.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.336",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Träningstillfällen",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      2.0,
+      2,
+      [
+        2.4,
+        1.4966629547095767
+      ],
+      3
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Diagrammet visar antalet träningspass under en månad för en grupp medlemmar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Träningspass och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal medlemmar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><rect class=\"more-bar\" data-value=\"0\" x=\"77.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"155.40\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"142.400\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"220.80\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"207.800\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"286.20\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"273.200\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"351.60\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"338.600\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><rect class=\"more-bar\" data-value=\"5\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Träningspass</text></svg></div>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Diagrammet visar antalet träningspass under en månad för en grupp medlemmar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Träningspass och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal medlemmar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><rect class=\"more-bar\" data-value=\"0\" x=\"77.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"155.40\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"142.400\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"220.80\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"207.800\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"286.20\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"273.200\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"351.60\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"338.600\" y=\"150.000\" width=\"26\" height=\"92.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><rect class=\"more-bar\" data-value=\"5\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Träningspass</text></svg></div><p>a) Bestäm medianen.</p><p>b) Bestäm typvärdet.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>d) Bestäm kvartilavståndet.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 0, 1, 1, 2, 2, 2, 3, 4, 4, 5. De två mittersta värdena är 2 och 2.</p><div class=\"facit-matte\">\\[(2+2)/2=2\\]</div><p><strong>Svar:</strong> 2.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 10 observationer med summan 24.</p><div class=\"facit-matte\">\\[\\bar x=24/10\\approx2{,}40\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}4)^2+2\\cdot(-1{,}4)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}4)^2+(0{,}6)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(1{,}6)^2+(2{,}6)^2\\]</div><p>Summan blir 22,4. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{22{,}4/10}\\approx1{,}50\\]</div><p><strong>Svar:</strong> Medelvärde 2,40, standardavvikelse 1,50.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ordna värdena: 0, 1, 1, 2, 2, 2, 3, 4, 4, 5. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 1 och övre kvartilen är 4.</p><div class=\"facit-matte\">\\[4-1=3\\]</div><p><strong>Svar:</strong> 3.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 0, 1, 1, 2, 2, 2, 3, 4, 4, 5. De två mittersta värdena är 2 och 2.</p><div class=\"facit-matte\">\\[(2+2)/2=2\\]</div><p><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 10 observationer med summan 24.</p><div class=\"facit-matte\">\\[\\bar x=24/10\\approx2{,}40\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}4)^2+2\\cdot(-1{,}4)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}4)^2+(0{,}6)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(1{,}6)^2+(2{,}6)^2\\]</div><p>Summan blir 22,4. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{22{,}4/10}\\approx1{,}50\\]</div><p><strong>Svar:</strong> Medelvärde 2,40, standardavvikelse 1,50.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ordna värdena: 0, 1, 1, 2, 2, 2, 3, 4, 4, 5. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 1 och övre kvartilen är 4.</p><div class=\"facit-matte\">\\[4-1=3\\]</div><p><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Dela den sorterade listan i två lika stora halvor. Jämför halvorna genom deras medianer.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.337",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Boklån",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      2.0,
+      2,
+      [
+        2,
+        1.5491933384829668
+      ],
+      5
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar antalet boklån för tio besökare.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Boklån</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>0</td><td>2</td></tr><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td></tr><tr><td>3</td><td>1</td></tr><tr><td>4</td><td>1</td></tr><tr><td>5</td><td>1</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Tabellen visar antalet boklån för tio besökare.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Boklån</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>0</td><td>2</td></tr><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td></tr><tr><td>3</td><td>1</td></tr><tr><td>4</td><td>1</td></tr><tr><td>5</td><td>1</td></tr></tbody></table><p>a) Bestäm medianen.</p><p>b) Bestäm typvärdet.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 0, 0, 1, 1, 2, 2, 2, 3, 4, 5. De två mittersta värdena är 2 och 2.</p><div class=\"facit-matte\">\\[(2+2)/2=2\\]</div><p><strong>Svar:</strong> 2.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 10 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/10\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2+(3)^2\\]</div><p>Summan blir 24. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{24/10}\\approx1{,}55\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 1,55.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[5-(0)=5\\]</div><p><strong>Svar:</strong> 5.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 0, 0, 1, 1, 2, 2, 2, 3, 4, 5. De två mittersta värdena är 2 och 2.</p><div class=\"facit-matte\">\\[(2+2)/2=2\\]</div><p><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 10 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/10\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2+(3)^2\\]</div><p>Summan blir 24. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{24/10}\\approx1{,}55\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 1,55.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[5-(0)=5\\]</div><p><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.338",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Avvikelse från en mållängd",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      0.0,
+      0,
+      [
+        0.5,
+        2.0615528128088303
+      ],
+      2.5
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "mm",
+      "mm",
+      [
+        "mm",
+        "mm"
+      ],
+      "mm"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Varje prick visar hur många millimeter en del avviker från mållängden. Minus betyder att delen är för kort.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Avvikelse (mm) och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal delar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">−3</text><circle class=\"more-dot\" data-value=\"-3\" cx=\"90.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"183.43\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">−1</text><circle class=\"more-dot\" data-value=\"-1\" cx=\"183.429\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"230.14\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><circle class=\"more-dot\" data-value=\"0\" cx=\"230.143\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"230.143\" cy=\"150.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"230.143\" cy=\"104.000\" r=\"6\" fill=\"#267a94\"/><text x=\"276.86\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><circle class=\"more-dot\" data-value=\"1\" cx=\"276.857\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"370.29\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><circle class=\"more-dot\" data-value=\"3\" cx=\"370.286\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><circle class=\"more-dot\" data-value=\"4\" cx=\"417.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Avvikelse (mm)</text></svg></div>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Varje prick visar hur många millimeter en del avviker från mållängden. Minus betyder att delen är för kort.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Avvikelse (mm) och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal delar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">−3</text><circle class=\"more-dot\" data-value=\"-3\" cx=\"90.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"183.43\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">−1</text><circle class=\"more-dot\" data-value=\"-1\" cx=\"183.429\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"230.14\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><circle class=\"more-dot\" data-value=\"0\" cx=\"230.143\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"230.143\" cy=\"150.000\" r=\"6\" fill=\"#267a94\"/><circle class=\"more-dot\" data-value=\"0\" cx=\"230.143\" cy=\"104.000\" r=\"6\" fill=\"#267a94\"/><text x=\"276.86\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><circle class=\"more-dot\" data-value=\"1\" cx=\"276.857\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"370.29\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><circle class=\"more-dot\" data-value=\"3\" cx=\"370.286\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><circle class=\"more-dot\" data-value=\"4\" cx=\"417.000\" cy=\"196.000\" r=\"6\" fill=\"#267a94\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Avvikelse (mm)</text></svg></div><p>a) Bestäm medianen. Svara i mm.</p><p>b) Bestäm typvärdet. Svara i mm.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i mm. Avrunda vid behov till två decimaler.</p><p>d) Bestäm kvartilavståndet. Svara i mm.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: −3, −1, 0, 0, 0, 1, 3, 4. De två mittersta värdena är 0 och 0.</p><div class=\"facit-matte\">\\[(0+0)/2=0\\]</div><p><strong>Svar:</strong> 0 mm.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 0 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 0 mm.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 8 observationer med summan 4.</p><div class=\"facit-matte\">\\[\\bar x=4/8\\approx0{,}50\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3{,}5)^2+(-1{,}5)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}5)^2+(0{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(2{,}5)^2+(3{,}5)^2\\]</div><p>Summan blir 34. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{34/8}\\approx2{,}06\\]</div><p><strong>Svar:</strong> Medelvärde 0,50, standardavvikelse 2,06 mm.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ordna värdena: −3, −1, 0, 0, 0, 1, 3, 4. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är −0,5 och övre kvartilen är 2.</p><div class=\"facit-matte\">\\[2--0{,}5=2{,}5\\]</div><p><strong>Svar:</strong> 2,5 mm.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i mm.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: −3, −1, 0, 0, 0, 1, 3, 4. De två mittersta värdena är 0 och 0.</p><div class=\"facit-matte\">\\[(0+0)/2=0\\]</div><p><strong>Svar:</strong> 0 mm.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i mm.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 0 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 0 mm.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i mm. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 8 observationer med summan 4.</p><div class=\"facit-matte\">\\[\\bar x=4/8\\approx0{,}50\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3{,}5)^2+(-1{,}5)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}5)^2+(0{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(2{,}5)^2+(3{,}5)^2\\]</div><p>Summan blir 34. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{34/8}\\approx2{,}06\\]</div><p><strong>Svar:</strong> Medelvärde 0,50, standardavvikelse 2,06 mm.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet. Svara i mm.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ordna värdena: −3, −1, 0, 0, 0, 1, 3, 4. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är −0,5 och övre kvartilen är 2.</p><div class=\"facit-matte\">\\[2--0{,}5=2{,}5\\]</div><p><strong>Svar:</strong> 2,5 mm.</p></div>",
+        "ledtrad": "<p>Dela den sorterade listan i två lika stora halvor. Jämför halvorna genom deras medianer.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.339",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Löptider",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      12.600000000000001,
+      12.4,
+      [
+        12.7,
+        0.41231056256176624
+      ],
+      1.200000000000001
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "s",
+      "s",
+      [
+        "s",
+        "s"
+      ],
+      "s"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar sex löpares tider på en kort sträcka.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Löpare</th><th scope=\"col\">Tid (s)</th></tr></thead><tbody><tr><td>1</td><td>12,2</td></tr><tr><td>2</td><td>12,4</td></tr><tr><td>3</td><td>12,4</td></tr><tr><td>4</td><td>12,8</td></tr><tr><td>5</td><td>13</td></tr><tr><td>6</td><td>13,4</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Tabellen visar sex löpares tider på en kort sträcka.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Löpare</th><th scope=\"col\">Tid (s)</th></tr></thead><tbody><tr><td>1</td><td>12,2</td></tr><tr><td>2</td><td>12,4</td></tr><tr><td>3</td><td>12,4</td></tr><tr><td>4</td><td>12,8</td></tr><tr><td>5</td><td>13</td></tr><tr><td>6</td><td>13,4</td></tr></tbody></table><p>a) Bestäm medianen. Svara i s.</p><p>b) Bestäm typvärdet. Svara i s.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i s. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i s.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 12,2, 12,4, 12,4, 12,8, 13, 13,4. De två mittersta värdena är 12,4 och 12,8.</p><div class=\"facit-matte\">\\[(12{,}4+12{,}8)/2=12{,}6\\]</div><p><strong>Svar:</strong> 12,6 s.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 12,4 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 12,4 s.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 6 observationer med summan 76,2.</p><div class=\"facit-matte\">\\[\\bar x=76{,}2/6\\approx12{,}70\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-0{,}5)^2+2\\cdot(-0{,}3)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}1)^2+(0{,}3)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}7)^2\\]</div><p>Summan blir 1,02. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{1{,}02/6}\\approx0{,}41\\]</div><p><strong>Svar:</strong> Medelvärde 12,70, standardavvikelse 0,41 s.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[13{,}4-(12{,}2)=1{,}2\\]</div><p><strong>Svar:</strong> 1,2 s.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i s.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 12,2, 12,4, 12,4, 12,8, 13, 13,4. De två mittersta värdena är 12,4 och 12,8.</p><div class=\"facit-matte\">\\[(12{,}4+12{,}8)/2=12{,}6\\]</div><p><strong>Svar:</strong> 12,6 s.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i s.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 12,4 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 12,4 s.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i s. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 6 observationer med summan 76,2.</p><div class=\"facit-matte\">\\[\\bar x=76{,}2/6\\approx12{,}70\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-0{,}5)^2+2\\cdot(-0{,}3)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}1)^2+(0{,}3)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}7)^2\\]</div><p>Summan blir 1,02. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{1{,}02/6}\\approx0{,}41\\]</div><p><strong>Svar:</strong> Medelvärde 12,70, standardavvikelse 0,41 s.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i s.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[13{,}4-(12{,}2)=1{,}2\\]</div><p><strong>Svar:</strong> 1,2 s.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.340",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Kaffekoppars volym",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      190.0,
+      190,
+      [
+        190,
+        7.0710678118654755
+      ],
+      20
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "ml",
+      "ml",
+      [
+        "ml",
+        "ml"
+      ],
+      "ml"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Sex koppar väljs slumpmässigt som stickprov ur en lång serie serveringar. Tabellen visar volymerna.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Volym (ml)</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>180</td><td>1</td></tr><tr><td>185</td><td>1</td></tr><tr><td>190</td><td>2</td></tr><tr><td>195</td><td>1</td></tr><tr><td>200</td><td>1</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Sex koppar väljs slumpmässigt som stickprov ur en lång serie serveringar. Tabellen visar volymerna.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Volym (ml)</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>180</td><td>1</td></tr><tr><td>185</td><td>1</td></tr><tr><td>190</td><td>2</td></tr><tr><td>195</td><td>1</td></tr><tr><td>200</td><td>1</td></tr></tbody></table><p>a) Bestäm medianen. Svara i ml.</p><p>b) Bestäm typvärdet. Svara i ml.</p><p>c) Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i ml. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i ml.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 180, 185, 190, 190, 195, 200. De två mittersta värdena är 190 och 190.</p><div class=\"facit-matte\">\\[(190+190)/2=190\\]</div><p><strong>Svar:</strong> 190 ml.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 190 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 190 ml.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 6 observationer med summan 1140.</p><div class=\"facit-matte\">\\[\\bar x=1140/6\\approx190{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-10)^2+(-5)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0)^2+(5)^2\\]</div><div class=\"facit-matte\">\\[+(10)^2\\]</div><p>Summan blir 250. Sx uppskattar spridningen från stickprovet, så vi delar med 6 − 1 = 5.</p><div class=\"facit-matte\">\\[s=\\sqrt{250/5}\\approx7{,}07\\]</div><p><strong>Svar:</strong> Medelvärde 190,00, standardavvikelse 7,07 ml.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[200-(180)=20\\]</div><p><strong>Svar:</strong> 20 ml.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i ml.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 180, 185, 190, 190, 195, 200. De två mittersta värdena är 190 och 190.</p><div class=\"facit-matte\">\\[(190+190)/2=190\\]</div><p><strong>Svar:</strong> 190 ml.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i ml.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 190 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 190 ml.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i ml. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 6 observationer med summan 1140.</p><div class=\"facit-matte\">\\[\\bar x=1140/6\\approx190{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-10)^2+(-5)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0)^2+(5)^2\\]</div><div class=\"facit-matte\">\\[+(10)^2\\]</div><p>Summan blir 250. Sx uppskattar spridningen från stickprovet, så vi delar med 6 − 1 = 5.</p><div class=\"facit-matte\">\\[s=\\sqrt{250/5}\\approx7{,}07\\]</div><p><strong>Svar:</strong> Medelvärde 190,00, standardavvikelse 7,07 ml.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Stickprovet använder Sx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i ml.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[200-(180)=20\\]</div><p><strong>Svar:</strong> 20 ml.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.341",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Hundars ålder",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      2.5,
+      2,
+      [
+        3.5,
+        2.23606797749979
+      ],
+      3.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "år",
+      "år",
+      [
+        "år",
+        "år"
+      ],
+      "år"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Diagrammet visar åldrarna på hundarna i en träningsgrupp.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Ålder (år) och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal hundar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"77.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"136.71\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"123.714\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"183.43\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"170.429\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"230.14\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"217.143\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"323.57\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">6</text><rect class=\"more-bar\" data-value=\"6\" x=\"310.571\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">8</text><rect class=\"more-bar\" data-value=\"8\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Ålder (år)</text></svg></div>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Diagrammet visar åldrarna på hundarna i en träningsgrupp.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Ålder (år) och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal hundar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"196.00\" x2=\"445.00\" y2=\"196.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"202.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"150.00\" x2=\"445.00\" y2=\"150.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"156.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"104.00\" x2=\"445.00\" y2=\"104.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"110.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"77.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"136.71\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"123.714\" y=\"104.000\" width=\"26\" height=\"138.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"183.43\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"170.429\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"230.14\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"217.143\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"323.57\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">6</text><rect class=\"more-bar\" data-value=\"6\" x=\"310.571\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">8</text><rect class=\"more-bar\" data-value=\"8\" x=\"404.000\" y=\"196.000\" width=\"26\" height=\"46.000\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Ålder (år)</text></svg></div><p>a) Bestäm medianen. Svara i år.</p><p>b) Bestäm typvärdet. Svara i år.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i år. Avrunda vid behov till två decimaler.</p><p>d) Bestäm kvartilavståndet. Svara i år.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 1, 2, 2, 2, 3, 4, 6, 8. De två mittersta värdena är 2 och 3.</p><div class=\"facit-matte\">\\[(2+3)/2=2{,}5\\]</div><p><strong>Svar:</strong> 2,5 år.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2 år.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 8 observationer med summan 28.</p><div class=\"facit-matte\">\\[\\bar x=28/8\\approx3{,}50\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}5)^2+3\\cdot(-1{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(-0{,}5)^2+(0{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(2{,}5)^2+(4{,}5)^2\\]</div><p>Summan blir 40. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{40/8}\\approx2{,}24\\]</div><p><strong>Svar:</strong> Medelvärde 3,50, standardavvikelse 2,24 år.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ordna värdena: 1, 2, 2, 2, 3, 4, 6, 8. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 2 och övre kvartilen är 5.</p><div class=\"facit-matte\">\\[5-2=3\\]</div><p><strong>Svar:</strong> 3 år.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i år.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 1, 2, 2, 2, 3, 4, 6, 8. De två mittersta värdena är 2 och 3.</p><div class=\"facit-matte\">\\[(2+3)/2=2{,}5\\]</div><p><strong>Svar:</strong> 2,5 år.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i år.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2 år.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i år. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 8 observationer med summan 28.</p><div class=\"facit-matte\">\\[\\bar x=28/8\\approx3{,}50\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2{,}5)^2+3\\cdot(-1{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(-0{,}5)^2+(0{,}5)^2\\]</div><div class=\"facit-matte\">\\[+(2{,}5)^2+(4{,}5)^2\\]</div><p>Summan blir 40. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{40/8}\\approx2{,}24\\]</div><p><strong>Svar:</strong> Medelvärde 3,50, standardavvikelse 2,24 år.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet. Svara i år.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ordna värdena: 1, 2, 2, 2, 3, 4, 6, 8. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 2 och övre kvartilen är 5.</p><div class=\"facit-matte\">\\[5-2=3\\]</div><p><strong>Svar:</strong> 3 år.</p></div>",
+        "ledtrad": "<p>Dela den sorterade listan i två lika stora halvor. Jämför halvorna genom deras medianer.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.342",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Skärmtid",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      2.0,
+      2,
+      [
+        2.25,
+        0.8660254037844386
+      ],
+      1.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "h",
+      "h",
+      [
+        "h",
+        "h"
+      ],
+      "h"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar skärmtiden under åtta dagar för en person.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Dag</th><th scope=\"col\">Skärmtid (h)</th></tr></thead><tbody><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>1,5</td></tr><tr><td>3</td><td>2</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>2</td></tr><tr><td>6</td><td>2,5</td></tr><tr><td>7</td><td>3</td></tr><tr><td>8</td><td>4</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Tabellen visar skärmtiden under åtta dagar för en person.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Dag</th><th scope=\"col\">Skärmtid (h)</th></tr></thead><tbody><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>1,5</td></tr><tr><td>3</td><td>2</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>2</td></tr><tr><td>6</td><td>2,5</td></tr><tr><td>7</td><td>3</td></tr><tr><td>8</td><td>4</td></tr></tbody></table><p>a) Bestäm medianen. Svara i h.</p><p>b) Bestäm typvärdet. Svara i h.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i h. Avrunda vid behov till två decimaler.</p><p>d) Bestäm kvartilavståndet. Svara i h.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 1, 1,5, 2, 2, 2, 2,5, 3, 4. De två mittersta värdena är 2 och 2.</p><div class=\"facit-matte\">\\[(2+2)/2=2\\]</div><p><strong>Svar:</strong> 2 h.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2 h.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 8 observationer med summan 18.</p><div class=\"facit-matte\">\\[\\bar x=18/8\\approx2{,}25\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-1{,}25)^2+(-0{,}75)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}25)^2+(0{,}25)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}75)^2+(1{,}75)^2\\]</div><p>Summan blir 6. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{6/8}\\approx0{,}87\\]</div><p><strong>Svar:</strong> Medelvärde 2,25, standardavvikelse 0,87 h.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ordna värdena: 1, 1,5, 2, 2, 2, 2,5, 3, 4. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 1,75 och övre kvartilen är 2,75.</p><div class=\"facit-matte\">\\[2{,}75-1{,}75=1\\]</div><p><strong>Svar:</strong> 1 h.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i h.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 1, 1,5, 2, 2, 2, 2,5, 3, 4. De två mittersta värdena är 2 och 2.</p><div class=\"facit-matte\">\\[(2+2)/2=2\\]</div><p><strong>Svar:</strong> 2 h.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i h.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 2 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2 h.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i h. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 8 observationer med summan 18.</p><div class=\"facit-matte\">\\[\\bar x=18/8\\approx2{,}25\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-1{,}25)^2+(-0{,}75)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(-0{,}25)^2+(0{,}25)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}75)^2+(1{,}75)^2\\]</div><p>Summan blir 6. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{6/8}\\approx0{,}87\\]</div><p><strong>Svar:</strong> Medelvärde 2,25, standardavvikelse 0,87 h.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet. Svara i h.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ordna värdena: 1, 1,5, 2, 2, 2, 2,5, 3, 4. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 1,75 och övre kvartilen är 2,75.</p><div class=\"facit-matte\">\\[2{,}75-1{,}75=1\\]</div><p><strong>Svar:</strong> 1 h.</p></div>",
+        "ledtrad": "<p>Dela den sorterade listan i två lika stora halvor. Jämför halvorna genom deras medianer.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.343",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Skruvars längd",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      20,
+      20,
+      [
+        20.06,
+        0.21908902300206576
+      ],
+      0.5999999999999979
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "mm",
+      "mm",
+      [
+        "mm",
+        "mm"
+      ],
+      "mm"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fem skruvar väljs slumpmässigt som stickprov från en stor låda. Tabellen visar längderna.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Skruv</th><th scope=\"col\">Längd (mm)</th></tr></thead><tbody><tr><td>1</td><td>19,8</td></tr><tr><td>2</td><td>20</td></tr><tr><td>3</td><td>20</td></tr><tr><td>4</td><td>20,1</td></tr><tr><td>5</td><td>20,4</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Fem skruvar väljs slumpmässigt som stickprov från en stor låda. Tabellen visar längderna.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Skruv</th><th scope=\"col\">Längd (mm)</th></tr></thead><tbody><tr><td>1</td><td>19,8</td></tr><tr><td>2</td><td>20</td></tr><tr><td>3</td><td>20</td></tr><tr><td>4</td><td>20,1</td></tr><tr><td>5</td><td>20,4</td></tr></tbody></table><p>a) Bestäm medianen. Svara i mm.</p><p>b) Bestäm typvärdet. Svara i mm.</p><p>c) Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i mm. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i mm.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 19,8, 20, 20, 20,1, 20,4. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[20\\]</div><p><strong>Svar:</strong> 20 mm.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 20 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 20 mm.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 100,3.</p><div class=\"facit-matte\">\\[\\bar x=100{,}3/5\\approx20{,}06\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-0{,}26)^2+2\\cdot(-0{,}06)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}04)^2+(0{,}34)^2\\]</div><p>Summan blir 0,192. Sx uppskattar spridningen från stickprovet, så vi delar med 5 − 1 = 4.</p><div class=\"facit-matte\">\\[s=\\sqrt{0{,}192/4}\\approx0{,}22\\]</div><p><strong>Svar:</strong> Medelvärde 20,06, standardavvikelse 0,22 mm.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[20{,}4-(19{,}8)=0{,}6\\]</div><p><strong>Svar:</strong> 0,6 mm.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i mm.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 19,8, 20, 20, 20,1, 20,4. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[20\\]</div><p><strong>Svar:</strong> 20 mm.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i mm.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 20 förekommer 2 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 20 mm.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och uppskatta standardavvikelsen med Sx för stickprovet. Svara i mm. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 100,3.</p><div class=\"facit-matte\">\\[\\bar x=100{,}3/5\\approx20{,}06\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-0{,}26)^2+2\\cdot(-0{,}06)^2\\]</div><div class=\"facit-matte\">\\[+(0{,}04)^2+(0{,}34)^2\\]</div><p>Summan blir 0,192. Sx uppskattar spridningen från stickprovet, så vi delar med 5 − 1 = 4.</p><div class=\"facit-matte\">\\[s=\\sqrt{0{,}192/4}\\approx0{,}22\\]</div><p><strong>Svar:</strong> Medelvärde 20,06, standardavvikelse 0,22 mm.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Stickprovet använder Sx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i mm.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[20{,}4-(19{,}8)=0{,}6\\]</div><p><strong>Svar:</strong> 0,6 mm.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.344",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Lika stora paket",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      2,
+      2,
+      [
+        2,
+        0.0
+      ],
+      0
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg",
+      [
+        "kg",
+        "kg"
+      ],
+      "kg"
+    ],
+    "självrättning": [
+      true,
+      true,
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar vikten av fem paket.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Paket</th><th scope=\"col\">Vikt (kg)</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>2</td></tr><tr><td>3</td><td>2</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>2</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Tabellen visar vikten av fem paket.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Paket</th><th scope=\"col\">Vikt (kg)</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>2</td></tr><tr><td>3</td><td>2</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>2</td></tr></tbody></table><p>a) Bestäm medianen. Svara i kg.</p><p>b) Bestäm typvärdet. Svara i kg.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i kg. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden. Svara i kg.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 2, 2, 2, 2, 2. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[2\\]</div><p><strong>Svar:</strong> 2 kg.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Värdet 2 förekommer 5 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2 kg.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Alla fem paket väger 2 kg, så medelvärdet är 2 kg.</p><div class=\"facit-matte\">\\[\\bar x=10/5=2.\\]</div><p>Varje vikt är lika med medelvärdet. Alla avvikelser är därför 0, och standardavvikelsen är 0 kg.</p><p><strong>Svar:</strong> Medelvärde 2 kg och standardavvikelse 0 kg.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[2-(2)=0\\]</div><p><strong>Svar:</strong> 0 kg.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i kg.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 2, 2, 2, 2, 2. Det 3:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[2\\]</div><p><strong>Svar:</strong> 2 kg.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm typvärdet. Svara i kg.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 2 förekommer 5 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 2 kg.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i kg. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Alla fem paket väger 2 kg, så medelvärdet är 2 kg.</p><div class=\"facit-matte\">\\[\\bar x=10/5=2.\\]</div><p>Varje vikt är lika med medelvärdet. Alla avvikelser är därför 0, och standardavvikelsen är 0 kg.</p><p><strong>Svar:</strong> Medelvärde 2 kg och standardavvikelse 0 kg.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden. Svara i kg.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[2-(2)=0\\]</div><p><strong>Svar:</strong> 0 kg.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.345",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "typ": "Betyg i en kundundersökning",
+    "familj": "Beräkna och tolka standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      3,
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1.3093073414159544
+      ],
+      4
+    ],
+    "tolerans": [
+      0,
+      [
+        0,
+        0
+      ],
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Besökare sätter betyg från 1 till 5. Diagrammet visar alla svar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Betyg och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal svar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"180.67\" x2=\"445.00\" y2=\"180.67\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"186.67\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"119.33\" x2=\"445.00\" y2=\"119.33\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"125.33\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"77.000\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"158.750\" y=\"119.333\" width=\"26\" height=\"122.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"240.500\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"335.25\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"322.250\" y=\"119.333\" width=\"26\" height=\"122.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><rect class=\"more-bar\" data-value=\"5\" x=\"404.000\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Betyg</text></svg></div>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Besökare sätter betyg från 1 till 5. Diagrammet visar alla svar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"320\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Betyg och antal observationer\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"24.00\" y=\"28.00\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Antal svar</text><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"248.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">0</text><line x1=\"62.00\" y1=\"180.67\" x2=\"445.00\" y2=\"180.67\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"186.67\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><line x1=\"62.00\" y1=\"119.33\" x2=\"445.00\" y2=\"119.33\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"125.33\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><line x1=\"62.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dde5ec\" stroke-width=\"1\"/><text x=\"50.00\" y=\"64.00\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><line x1=\"62.00\" y1=\"58.00\" x2=\"62.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><line x1=\"62.00\" y1=\"242.00\" x2=\"445.00\" y2=\"242.00\" stroke=\"#253f53\" stroke-width=\"1.7\"/><text x=\"90.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">1</text><rect class=\"more-bar\" data-value=\"1\" x=\"77.000\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"171.75\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">2</text><rect class=\"more-bar\" data-value=\"2\" x=\"158.750\" y=\"119.333\" width=\"26\" height=\"122.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"253.50\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">3</text><rect class=\"more-bar\" data-value=\"3\" x=\"240.500\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"335.25\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">4</text><rect class=\"more-bar\" data-value=\"4\" x=\"322.250\" y=\"119.333\" width=\"26\" height=\"122.667\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"417.00\" y=\"270.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172b3a\">5</text><rect class=\"more-bar\" data-value=\"5\" x=\"404.000\" y=\"180.667\" width=\"26\" height=\"61.333\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"301.00\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172b3a\">Betyg</text></svg></div><p>a) Bestäm medianen.</p><p>b) Bestäm de två typvärdena.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>d) Bestäm variationsbredden.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 1, 2, 2, 3, 4, 4, 5. Det 4:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[3\\]</div><p><strong>Svar:</strong> 3.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Både 2 och 4 förekommer 2 gånger. Övriga värden förekommer färre gånger.</p><p><strong>Svar:</strong> 2 och 4.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 7 observationer med summan 21.</p><div class=\"facit-matte\">\\[\\bar x=21/7\\approx3{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+2\\cdot(1)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2\\]</div><p>Summan blir 12. σx beskriver de visade värdena, så vi delar med 7.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{12/7}\\approx1{,}31\\]</div><p><strong>Svar:</strong> Medelvärde 3,00, standardavvikelse 1,31.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[5-(1)=4\\]</div><p><strong>Svar:</strong> 4.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 1, 2, 2, 3, 4, 4, 5. Det 4:e värdet ligger i mitten.</p><div class=\"facit-matte\">\\[3\\]</div><p><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm de två typvärdena.</p>",
+        "s": "<div class=\"facit-v2\"><p>Både 2 och 4 förekommer 2 gånger. Övriga värden förekommer färre gånger.</p><p><strong>Svar:</strong> 2 och 4.</p></div>",
+        "ledtrad": "<p>Leta efter alla värden som delar den högsta frekvensen.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Typvärde 1",
+          "Typvärde 2"
+        ],
+        "svarsstruktur": "mängd"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 7 observationer med summan 21.</p><div class=\"facit-matte\">\\[\\bar x=21/7\\approx3{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+2\\cdot(1)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2\\]</div><p>Summan blir 12. σx beskriver de visade värdena, så vi delar med 7.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{12/7}\\approx1{,}31\\]</div><p><strong>Svar:</strong> Medelvärde 3,00, standardavvikelse 1,31.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<div class=\"facit-v2\"><p>Variationsbredden är största värdet minus minsta värdet.</p><div class=\"facit-matte\">\\[5-(1)=4\\]</div><p><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Läs av det minsta och det största värdet.</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.346",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "typ": "Samma medelvärde, olika precision",
+    "familj": "Jämföra spridning och förändring",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      [
+        20,
+        1.2649110640673518
+      ],
+      [
+        20,
+        2.5298221281347035
+      ],
+      "A"
+    ],
+    "tolerans": [
+      [
+        0.005,
+        0.005
+      ],
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "kort_text"
+    ],
+    "svarEnhet": [
+      [
+        "mm",
+        "mm"
+      ],
+      [
+        "mm",
+        "mm"
+      ],
+      null
+    ],
+    "självrättning": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två maskiner tillverkar delar med längderna i tabellen.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Mätning</th><th scope=\"col\">A (mm)</th><th scope=\"col\">B (mm)</th></tr></thead><tbody><tr><td>1</td><td>18</td><td>16</td></tr><tr><td>2</td><td>20</td><td>20</td></tr><tr><td>3</td><td>20</td><td>20</td></tr><tr><td>4</td><td>20</td><td>20</td></tr><tr><td>5</td><td>22</td><td>24</td></tr></tbody></table>",
+    "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+    "t": "<p>Två maskiner tillverkar delar med längderna i tabellen.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Mätning</th><th scope=\"col\">A (mm)</th><th scope=\"col\">B (mm)</th></tr></thead><tbody><tr><td>1</td><td>18</td><td>16</td></tr><tr><td>2</td><td>20</td><td>20</td></tr><tr><td>3</td><td>20</td><td>20</td></tr><tr><td>4</td><td>20</td><td>20</td></tr><tr><td>5</td><td>22</td><td>24</td></tr></tbody></table><p>a) För A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i mm. Avrunda vid behov till två decimaler.</p><p>b) För B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i mm. Avrunda vid behov till två decimaler.</p><p>c) Vilken maskin har minst spridning? Svara A eller B.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 100.</p><div class=\"facit-matte\">\\[\\bar x=100/5\\approx20{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+3\\cdot(0)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2\\]</div><p>Summan blir 8. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{8/5}\\approx1{,}26\\]</div><p><strong>Svar:</strong> Medelvärde 20,00, standardavvikelse 1,26 mm.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 100.</p><div class=\"facit-matte\">\\[\\bar x=100/5\\approx20{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-4)^2+3\\cdot(0)^2\\]</div><div class=\"facit-matte\">\\[+(4)^2\\]</div><p>Summan blir 32. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{32/5}\\approx2{,}53\\]</div><p><strong>Svar:</strong> Medelvärde 20,00, standardavvikelse 2,53 mm.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>I A ligger alla längder närmare gruppens mitt än yttervärdena i B. A har därför mindre standardavvikelse och jämnare längder.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>För A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i mm. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 100.</p><div class=\"facit-matte\">\\[\\bar x=100/5\\approx20{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+3\\cdot(0)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2\\]</div><p>Summan blir 8. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{8/5}\\approx1{,}26\\]</div><p><strong>Svar:</strong> Medelvärde 20,00, standardavvikelse 1,26 mm.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>För B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i mm. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 100.</p><div class=\"facit-matte\">\\[\\bar x=100/5\\approx20{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-4)^2+3\\cdot(0)^2\\]</div><div class=\"facit-matte\">\\[+(4)^2\\]</div><p>Summan blir 32. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{32/5}\\approx2{,}53\\]</div><p><strong>Svar:</strong> Medelvärde 20,00, standardavvikelse 2,53 mm.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Vilken maskin har minst spridning? Svara A eller B.</p>",
+        "s": "<div class=\"facit-v2\"><p>I A ligger alla längder närmare gruppens mitt än yttervärdena i B. A har därför mindre standardavvikelse och jämnare längder.</p></div>",
+        "ledtrad": "<p>Jämför avvikelserna från respektive medelvärde.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.347",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "3/1/0",
+    "typ": "Gåvor med ett extremvärde",
+    "familj": "Jämföra spridning och förändring",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "rättSvar": [
+      30.0,
+      [
+        20,
+        30
+      ],
+      [
+        90,
+        138.80441875771342
+      ],
+      "median"
+    ],
+    "tolerans": [
+      0,
+      [
+        0,
+        0
+      ],
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "kort_text"
+    ],
+    "svarEnhet": [
+      "kr",
+      [
+        "kr",
+        "kr"
+      ],
+      [
+        "kr",
+        "kr"
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Sex personer ger de belopp som visas i tabellen till en insamling.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Person</th><th scope=\"col\">Gåva (kr)</th></tr></thead><tbody><tr><td>1</td><td>20</td></tr><tr><td>2</td><td>20</td></tr><tr><td>3</td><td>30</td></tr><tr><td>4</td><td>30</td></tr><tr><td>5</td><td>40</td></tr><tr><td>6</td><td>400</td></tr></tbody></table>",
+    "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+    "t": "<p>Sex personer ger de belopp som visas i tabellen till en insamling.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Person</th><th scope=\"col\">Gåva (kr)</th></tr></thead><tbody><tr><td>1</td><td>20</td></tr><tr><td>2</td><td>20</td></tr><tr><td>3</td><td>30</td></tr><tr><td>4</td><td>30</td></tr><tr><td>5</td><td>40</td></tr><tr><td>6</td><td>400</td></tr></tbody></table><p>a) Bestäm medianen. Svara i kr.</p><p>b) Bestäm de två typvärdena. Svara i kr.</p><p>c) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i kr. Avrunda vid behov till två decimaler.</p><p>d) Vilket lägesmått påverkas minst om gåvan på 400 kr höjs till 4 000 kr: medelvärdet eller medianen? Svara median eller medelvärde.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 20, 20, 30, 30, 40, 400. De två mittersta värdena är 30 och 30.</p><div class=\"facit-matte\">\\[(30+30)/2=30\\]</div><p><strong>Svar:</strong> 30 kr.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Både 20 och 30 förekommer 2 gånger. Övriga värden förekommer färre gånger.</p><p><strong>Svar:</strong> 20 och 30.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Det finns 6 observationer med summan 540.</p><div class=\"facit-matte\">\\[\\bar x=540/6\\approx90{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-70)^2+2\\cdot(-60)^2\\]</div><div class=\"facit-matte\">\\[+(-50)^2+(310)^2\\]</div><p>Summan blir 115600. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{115600/6}\\approx138{,}80\\]</div><p><strong>Svar:</strong> Medelvärde 90,00, standardavvikelse 138,80 kr.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Det största värdet blir större, men de två mittersta värdena behåller sina platser och värden. Medianen ändras därför inte. Medelvärdet ökar eftersom summan ökar.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen. Svara i kr.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 20, 20, 30, 30, 40, 400. De två mittersta värdena är 30 och 30.</p><div class=\"facit-matte\">\\[(30+30)/2=30\\]</div><p><strong>Svar:</strong> 30 kr.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm de två typvärdena. Svara i kr.</p>",
+        "s": "<div class=\"facit-v2\"><p>Både 20 och 30 förekommer 2 gånger. Övriga värden förekommer färre gånger.</p><p><strong>Svar:</strong> 20 och 30.</p></div>",
+        "ledtrad": "<p>Leta efter alla värden som delar den högsta frekvensen.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Typvärde 1",
+          "Typvärde 2"
+        ],
+        "svarsstruktur": "mängd"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i kr. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 6 observationer med summan 540.</p><div class=\"facit-matte\">\\[\\bar x=540/6\\approx90{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-70)^2+2\\cdot(-60)^2\\]</div><div class=\"facit-matte\">\\[+(-50)^2+(310)^2\\]</div><p>Summan blir 115600. σx beskriver de visade värdena, så vi delar med 6.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{115600/6}\\approx138{,}80\\]</div><p><strong>Svar:</strong> Medelvärde 90,00, standardavvikelse 138,80 kr.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Vilket lägesmått påverkas minst om gåvan på 400 kr höjs till 4 000 kr: medelvärdet eller medianen? Svara median eller medelvärde.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det största värdet blir större, men de två mittersta värdena behåller sina platser och värden. Medianen ändras därför inte. Medelvärdet ökar eftersom summan ökar.</p></div>",
+        "ledtrad": "<p>Vilka platser bestämmer medianen?</p>",
+        "traningsniva": 3,
+        "niva": "C",
+        "poang": "0/1/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.348",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "2/1/0",
+    "typ": "En konstant läggs till",
+    "familj": "Jämföra spridning och förändring",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      [
+        5,
+        2.3664319132398464
+      ],
+      [
+        10,
+        2.3664319132398464
+      ],
+      0
+    ],
+    "tolerans": [
+      [
+        0.005,
+        0.005
+      ],
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "cm",
+        "cm"
+      ],
+      [
+        "cm",
+        "cm"
+      ],
+      "cm"
+    ],
+    "självrättning": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En sensor visar först värdena A. Vid en kontroll läggs 5 till varje värde, vilket ger B.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Mätning</th><th scope=\"col\">A (cm)</th><th scope=\"col\">B (cm)</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>7</td></tr><tr><td>2</td><td>4</td><td>9</td></tr><tr><td>3</td><td>4</td><td>9</td></tr><tr><td>4</td><td>6</td><td>11</td></tr><tr><td>5</td><td>9</td><td>14</td></tr></tbody></table>",
+    "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+    "t": "<p>En sensor visar först värdena A. Vid en kontroll läggs 5 till varje värde, vilket ger B.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Mätning</th><th scope=\"col\">A (cm)</th><th scope=\"col\">B (cm)</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>7</td></tr><tr><td>2</td><td>4</td><td>9</td></tr><tr><td>3</td><td>4</td><td>9</td></tr><tr><td>4</td><td>6</td><td>11</td></tr><tr><td>5</td><td>9</td><td>14</td></tr></tbody></table><p>a) För A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i cm. Avrunda vid behov till två decimaler.</p><p>b) För B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i cm. Avrunda vid behov till två decimaler.</p><p>c) Hur mycket förändras variationsbredden från A till B? Svara i cm.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 25.</p><div class=\"facit-matte\">\\[\\bar x=25/5\\approx5{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(1)^2+(4)^2\\]</div><p>Summan blir 28. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{28/5}\\approx2{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 5,00, standardavvikelse 2,37 cm.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 50.</p><div class=\"facit-matte\">\\[\\bar x=50/5\\approx10{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(1)^2+(4)^2\\]</div><p>Summan blir 28. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{28/5}\\approx2{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 10,00, standardavvikelse 2,37 cm.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Alla värden flyttas lika mycket. Största och minsta värdet ökar båda med 5 cm, så deras skillnad ändras med 0 cm.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>För A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i cm. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 25.</p><div class=\"facit-matte\">\\[\\bar x=25/5\\approx5{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(1)^2+(4)^2\\]</div><p>Summan blir 28. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{28/5}\\approx2{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 5,00, standardavvikelse 2,37 cm.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>För B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i cm. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 50.</p><div class=\"facit-matte\">\\[\\bar x=50/5\\approx10{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(1)^2+(4)^2\\]</div><p>Summan blir 28. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{28/5}\\approx2{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 10,00, standardavvikelse 2,37 cm.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur mycket förändras variationsbredden från A till B? Svara i cm.</p>",
+        "s": "<div class=\"facit-v2\"><p>Alla värden flyttas lika mycket. Största och minsta värdet ökar båda med 5 cm, så deras skillnad ändras med 0 cm.</p></div>",
+        "ledtrad": "<p>Undersök vad som händer med både det största och det minsta värdet.</p>",
+        "traningsniva": 3,
+        "niva": "C",
+        "poang": "0/1/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.349",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "2/1/0",
+    "typ": "Alla värden fördubblas",
+    "familj": "Jämföra spridning och förändring",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      [
+        4,
+        2.6832815729997477
+      ],
+      [
+        8,
+        5.366563145999495
+      ],
+      2
+    ],
+    "tolerans": [
+      [
+        0.005,
+        0.005
+      ],
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "m",
+        "m"
+      ],
+      [
+        "m",
+        "m"
+      ],
+      null
+    ],
+    "självrättning": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar sträckor A och de dubbla sträckorna B.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Mätning</th><th scope=\"col\">A (m)</th><th scope=\"col\">B (m)</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td><td>6</td></tr><tr><td>3</td><td>3</td><td>6</td></tr><tr><td>4</td><td>4</td><td>8</td></tr><tr><td>5</td><td>9</td><td>18</td></tr></tbody></table>",
+    "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+    "t": "<p>Tabellen visar sträckor A och de dubbla sträckorna B.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Mätning</th><th scope=\"col\">A (m)</th><th scope=\"col\">B (m)</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td><td>6</td></tr><tr><td>3</td><td>3</td><td>6</td></tr><tr><td>4</td><td>4</td><td>8</td></tr><tr><td>5</td><td>9</td><td>18</td></tr></tbody></table><p>a) För A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i m. Avrunda vid behov till två decimaler.</p><p>b) För B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i m. Avrunda vid behov till två decimaler.</p><p>c) Hur många gånger så stor är standardavvikelsen i B som i A?</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/5\\approx4{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(5)^2\\]</div><p>Summan blir 36. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{36/5}\\approx2{,}68\\]</div><p><strong>Svar:</strong> Medelvärde 4,00, standardavvikelse 2,68 m.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Det finns 5 observationer med summan 40.</p><div class=\"facit-matte\">\\[\\bar x=40/5\\approx8{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-6)^2+2\\cdot(-2)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(10)^2\\]</div><p>Summan blir 144. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{144/5}\\approx5{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 8,00, standardavvikelse 5,37 m.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När varje värde fördubblas fördubblas också varje avvikelse från medelvärdet. Standardavvikelsen blir därför 2 gånger så stor.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>För A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i m. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/5\\approx4{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-3)^2+2\\cdot(-1)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(5)^2\\]</div><p>Summan blir 36. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{36/5}\\approx2{,}68\\]</div><p><strong>Svar:</strong> Medelvärde 4,00, standardavvikelse 2,68 m.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>För B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Svara i m. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 5 observationer med summan 40.</p><div class=\"facit-matte\">\\[\\bar x=40/5\\approx8{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-6)^2+2\\cdot(-2)^2\\]</div><div class=\"facit-matte\">\\[+(0)^2+(10)^2\\]</div><p>Summan blir 144. σx beskriver de visade värdena, så vi delar med 5.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{144/5}\\approx5{,}37\\]</div><p><strong>Svar:</strong> Medelvärde 8,00, standardavvikelse 5,37 m.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur många gånger så stor är standardavvikelsen i B som i A?</p>",
+        "s": "<div class=\"facit-v2\"><p>När varje värde fördubblas fördubblas också varje avvikelse från medelvärdet. Standardavvikelsen blir därför 2 gånger så stor.</p></div>",
+        "ledtrad": "<p>Vad händer med avståndet från varje värde till medelvärdet?</p>",
+        "traningsniva": 3,
+        "niva": "C",
+        "poang": "0/1/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.350",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "2/1/0",
+    "typ": "Samma variationsbredd, olika spridning",
+    "familj": "Jämföra spridning och förändring",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "rättSvar": [
+      [
+        2,
+        1.0
+      ],
+      [
+        2,
+        1.6124515496597098
+      ],
+      "B"
+    ],
+    "tolerans": [
+      [
+        0.005,
+        0.005
+      ],
+      [
+        0.005,
+        0.005
+      ],
+      0
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "kort_text"
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        true
+      ],
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två grupper får poäng från 0 till 4. Tabellen visar hur många i varje grupp som får varje poäng.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Poäng</th><th scope=\"col\">Antal i A</th><th scope=\"col\">Antal i B</th></tr></thead><tbody><tr><td>0</td><td>1</td><td>3</td></tr><tr><td>1</td><td>1</td><td>1</td></tr><tr><td>2</td><td>6</td><td>2</td></tr><tr><td>3</td><td>1</td><td>1</td></tr><tr><td>4</td><td>1</td><td>3</td></tr></tbody></table>",
+    "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+    "t": "<p>Två grupper får poäng från 0 till 4. Tabellen visar hur många i varje grupp som får varje poäng.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Poäng</th><th scope=\"col\">Antal i A</th><th scope=\"col\">Antal i B</th></tr></thead><tbody><tr><td>0</td><td>1</td><td>3</td></tr><tr><td>1</td><td>1</td><td>1</td></tr><tr><td>2</td><td>6</td><td>2</td></tr><tr><td>3</td><td>1</td><td>1</td></tr><tr><td>4</td><td>1</td><td>3</td></tr></tbody></table><p>a) För grupp A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>b) För grupp B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>c) Båda grupperna har samma variationsbredd. Vilken grupp har ändå störst standardavvikelse? Svara A eller B.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Det finns 10 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/10\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+(-1)^2\\]</div><div class=\"facit-matte\">\\[+6\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2\\]</div><p>Summan blir 10. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{10/10}\\approx1{,}00\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 1,00.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Det finns 10 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/10\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[3\\cdot(-2)^2+(-1)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(2)^2\\]</div><p>Summan blir 26. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{26/10}\\approx1{,}61\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 1,61.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>B har fler observationer vid de yttersta poängen och färre nära mitten. Variationsbredden använder bara yttervärdena, medan standardavvikelsen tar hänsyn till alla observationer.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>För grupp A: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 10 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/10\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[(-2)^2+(-1)^2\\]</div><div class=\"facit-matte\">\\[+6\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+(2)^2\\]</div><p>Summan blir 10. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{10/10}\\approx1{,}00\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 1,00.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>För grupp B: bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 10 observationer med summan 20.</p><div class=\"facit-matte\">\\[\\bar x=20/10\\approx2{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[3\\cdot(-2)^2+(-1)^2\\]</div><div class=\"facit-matte\">\\[+2\\cdot(0)^2+(1)^2\\]</div><div class=\"facit-matte\">\\[+3\\cdot(2)^2\\]</div><p>Summan blir 26. σx beskriver de visade värdena, så vi delar med 10.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{26/10}\\approx1{,}61\\]</div><p><strong>Svar:</strong> Medelvärde 2,00, standardavvikelse 1,61.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Båda grupperna har samma variationsbredd. Vilken grupp har ändå störst standardavvikelse? Svara A eller B.</p>",
+        "s": "<div class=\"facit-v2\"><p>B har fler observationer vid de yttersta poängen och färre nära mitten. Variationsbredden använder bara yttervärdena, medan standardavvikelsen tar hänsyn till alla observationer.</p></div>",
+        "ledtrad": "<p>Se hur observationerna fördelas mellan mitten och ytterkanterna.</p>",
+        "traningsniva": 3,
+        "niva": "C",
+        "poang": "0/1/0",
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.351",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "4/1/0",
+    "typ": "Frekvenser med olika vikt",
+    "familj": "Jämföra spridning och förändring",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "rättSvar": [
+      [
+        25,
+        13.228756555322953
+      ],
+      20.0,
+      20,
+      20.0,
+      "nej"
+    ],
+    "tolerans": [
+      [
+        0.005,
+        0.005
+      ],
+      0,
+      0,
+      0,
+      0
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null
+      ],
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      [
+        true,
+        true
+      ],
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En förening säljer lotter. Tabellen visar hur många lotter var och en av åtta medlemmar säljer.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Sålda lotter</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>10</td><td>2</td></tr><tr><td>20</td><td>3</td></tr><tr><td>30</td><td>1</td></tr><tr><td>40</td><td>1</td></tr><tr><td>50</td><td>1</td></tr></tbody></table>",
+    "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+    "t": "<p>En förening säljer lotter. Tabellen visar hur många lotter var och en av åtta medlemmar säljer.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:left\"><thead><tr><th scope=\"col\">Sålda lotter</th><th scope=\"col\">Antal</th></tr></thead><tbody><tr><td>10</td><td>2</td></tr><tr><td>20</td><td>3</td></tr><tr><td>30</td><td>1</td></tr><tr><td>40</td><td>1</td></tr><tr><td>50</td><td>1</td></tr></tbody></table><p>a) Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p><p>b) Bestäm medianen.</p><p>c) Bestäm typvärdet.</p><p>d) Bestäm kvartilavståndet.</p><p>e) En elev tar medelvärdet av de fem olika värdena i första kolumnen och får 30. Ska varje rad väga lika mycket? Svara ja eller nej.</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Det finns 8 observationer med summan 200.</p><div class=\"facit-matte\">\\[\\bar x=200/8\\approx25{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-15)^2+3\\cdot(-5)^2\\]</div><div class=\"facit-matte\">\\[+(5)^2+(15)^2\\]</div><div class=\"facit-matte\">\\[+(25)^2\\]</div><p>Summan blir 1400. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{1400/8}\\approx13{,}23\\]</div><p><strong>Svar:</strong> Medelvärde 25,00, standardavvikelse 13,23.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>I storleksordning: 10, 10, 20, 20, 20, 30, 40, 50. De två mittersta värdena är 20 och 20.</p><div class=\"facit-matte\">\\[(20+20)/2=20\\]</div><p><strong>Svar:</strong> 20.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Värdet 20 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 20.</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Ordna värdena: 10, 10, 20, 20, 20, 30, 40, 50. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 15 och övre kvartilen är 35.</p><div class=\"facit-matte\">\\[35-15=20\\]</div><p><strong>Svar:</strong> 20.</p></div><p><strong>e)</strong></p><div class=\"facit-v2\"><p>Raderna representerar olika många medlemmar. Ett värde som förekommer flera gånger måste räknas med flera gånger när medelvärdet för medlemmarna beräknas.</p></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet och standardavvikelsen σx för de visade värdena. Avrunda vid behov till två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Det finns 8 observationer med summan 200.</p><div class=\"facit-matte\">\\[\\bar x=200/8\\approx25{,}00\\]</div><p>Kvadrera avvikelserna från det oavrundade medelvärdet och summera. Upprepade värden räknas med sin frekvens:</p><div class=\"facit-matte\">\\[2\\cdot(-15)^2+3\\cdot(-5)^2\\]</div><div class=\"facit-matte\">\\[+(5)^2+(15)^2\\]</div><div class=\"facit-matte\">\\[+(25)^2\\]</div><p>Summan blir 1400. σx beskriver de visade värdena, så vi delar med 8.</p><div class=\"facit-matte\">\\[\\sigma=\\sqrt{1400/8}\\approx13{,}23\\]</div><p><strong>Svar:</strong> Medelvärde 25,00, standardavvikelse 13,23.</p></div>",
+        "ledtrad": "<p>Kontrollera både värdelistan och eventuella frekvenser på räknaren. Spridningen i de visade värdena använder σx.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 2,
+        "svarEtiketter": [
+          "Medelvärde",
+          "Standardavvikelse"
+        ],
+        "svarsstruktur": "ordnad"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<div class=\"facit-v2\"><p>I storleksordning: 10, 10, 20, 20, 20, 30, 40, 50. De två mittersta värdena är 20 och 20.</p><div class=\"facit-matte\">\\[(20+20)/2=20\\]</div><p><strong>Svar:</strong> 20.</p></div>",
+        "ledtrad": "<p>Ordna observationerna efter storlek och hitta mitten. Räkna med alla upprepningar.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Värdet 20 förekommer 3 gånger, fler gånger än något annat värde.</p><p><strong>Svar:</strong> 20.</p></div>",
+        "ledtrad": "<p>Vilket värde förekommer flest gånger?</p>",
+        "traningsniva": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ordna värdena: 10, 10, 20, 20, 20, 30, 40, 50. Dela listan i två lika stora halvor. Kvartilerna är medianerna i halvorna.</p><p>Nedre kvartilen är 15 och övre kvartilen är 35.</p><div class=\"facit-matte\">\\[35-15=20\\]</div><p><strong>Svar:</strong> 20.</p></div>",
+        "ledtrad": "<p>Dela den sorterade listan i två lika stora halvor. Jämför halvorna genom deras medianer.</p>",
+        "traningsniva": 2,
+        "niva": "E",
+        "poang": "1/0/0",
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "e",
+        "fraga": "<p>En elev tar medelvärdet av de fem olika värdena i första kolumnen och får 30. Ska varje rad väga lika mycket? Svara ja eller nej.</p>",
+        "s": "<div class=\"facit-v2\"><p>Raderna representerar olika många medlemmar. Ett värde som förekommer flera gånger måste räknas med flera gånger när medelvärdet för medlemmarna beräknas.</p></div>",
+        "ledtrad": "<p>Vad betyder frekvensen i den andra kolumnen?</p>",
+        "traningsniva": 3,
+        "niva": "C",
+        "poang": "0/1/0",
+        "arbetsinsats": 1
+      }
+    ]
+  }
 ];

@@ -69,6 +69,7 @@ window.OMRMA2 = {
     "geometri_problemlosning": "Problemlösning"
   },
   "4": {
+    "tabeller_diagram": "Tabeller och diagram",
     "lagesmatt": "Medelvärde, median och typvärde",
     "kvartiler_percentiler": "Kvartiler och percentiler",
     "ladagram": "Lådagram",
@@ -322,6 +323,7 @@ window.SPARMA2 = {
     ]
   },
   "4": {
+    "tabeller_diagram": ["2a", "2b", "2c"],
     "lagesmatt": [
       "2a",
       "2b",
@@ -529,6 +531,11 @@ window.GRUPPMA2 = {
     }
   ],
   "4": [
+    {
+      "id": "tabeller_diagram",
+      "namn": "Tabeller och diagram",
+      "omr": ["tabeller_diagram"]
+    },
     {
       "id": "lages_spridningsmatt",
       "namn": "Läges- och spridningsmått",

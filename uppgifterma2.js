@@ -698,5 +698,688 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
   "tolerans": 1e-09,
   "svarEnhet": "cm",
   "ledtrad": "<p>Börja med basens förhållande. Vilka två trianglar är sedan likformiga?</p>"
+},
+{
+  "id": "4.307",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "läsa ett antal ur en frekvenstabell",
+  "t": "<p>Tabellen visar hur många husdjur eleverna i en klass har.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Antal husdjur</th><th scope=\"col\">Antal elever</th></tr></thead><tbody><tr><td>0</td><td>5</td></tr><tr><td>1</td><td>9</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>2</td></tr></tbody></table><p>Hur många elever har inga husdjur?</p>",
+  "s": "<div class=\"facit-v2\"><p>På raden för 0 husdjur står 5 i kolumnen Antal elever.</p><p><strong>Svar:</strong> 5 elever.</div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken rad gäller elever utan husdjur?</p>"
+},
+{
+  "id": "4.308",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "läsa en stolpe med en tydlig skala",
+  "t": "<p>Diagrammet visar hur elever tar sig till skolan.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"385\" viewBox=\"0 0 480 385\" role=\"img\" aria-label=\"Antal elever som går, cyklar, åker buss eller åker bil till skolan\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"383\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"32.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Antal elever</text><line x1=\"65.00\" y1=\"330.00\" x2=\"445.00\" y2=\"330.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"336.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"65.00\" y1=\"302.80\" x2=\"445.00\" y2=\"302.80\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"308.80\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"65.00\" y1=\"275.60\" x2=\"445.00\" y2=\"275.60\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"281.60\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"65.00\" y1=\"248.40\" x2=\"445.00\" y2=\"248.40\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"254.40\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"65.00\" y1=\"221.20\" x2=\"445.00\" y2=\"221.20\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"227.20\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"65.00\" y1=\"194.00\" x2=\"445.00\" y2=\"194.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"200.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"65.00\" y1=\"166.80\" x2=\"445.00\" y2=\"166.80\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"172.80\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"65.00\" y1=\"139.60\" x2=\"445.00\" y2=\"139.60\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"145.60\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">14</text><line x1=\"65.00\" y1=\"112.40\" x2=\"445.00\" y2=\"112.40\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"118.40\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">16</text><line x1=\"65.00\" y1=\"85.20\" x2=\"445.00\" y2=\"85.20\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"91.20\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">18</text><line x1=\"65.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"64.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"65.00\" y1=\"58.00\" x2=\"65.00\" y2=\"334.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"330.00\" x2=\"445.00\" y2=\"330.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"82.10\" y=\"221.20\" width=\"60.80\" height=\"108.80\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"112.50\" y=\"359.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Gång</text><rect x=\"177.10\" y=\"166.80\" width=\"60.80\" height=\"163.20\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"207.50\" y=\"359.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Cykel</text><rect x=\"272.10\" y=\"85.20\" width=\"60.80\" height=\"244.80\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"302.50\" y=\"359.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Buss</text><rect x=\"367.10\" y=\"248.40\" width=\"60.80\" height=\"81.60\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"397.50\" y=\"359.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Bil</text></svg></div><p>Hur många elever åker buss?</p>",
+  "s": "<div class=\"facit-v2\"><p>Stolpen för Buss når till 18 på den lodräta skalan. Varje steg på skalan är 2 elever.</p><p><strong>Svar:</strong> 18 elever.</div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 18,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs rubrikerna och skalorna innan du väljer värden.</p>"
+},
+{
+  "id": "4.309",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "läsa högsta värdet i ett linjediagram",
+  "t": "<p>Diagrammet visar antalet besök på ett bibliotek under fem dagar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Linjediagram: Antal besök, Dag\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"32.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Antal besök</text><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"241.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"65.00\" y1=\"199.60\" x2=\"445.00\" y2=\"199.60\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"205.60\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"65.00\" y1=\"164.20\" x2=\"445.00\" y2=\"164.20\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"170.20\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"65.00\" y1=\"128.80\" x2=\"445.00\" y2=\"128.80\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"134.80\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"65.00\" y1=\"93.40\" x2=\"445.00\" y2=\"93.40\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"99.40\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">80</text><line x1=\"65.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"64.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">100</text><line x1=\"65.00\" y1=\"58.00\" x2=\"65.00\" y2=\"235.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"65.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Mån</text><text x=\"160.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Tis</text><text x=\"255.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Ons</text><text x=\"350.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Tor</text><text x=\"445.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Fre</text><polyline class=\"stat-curve\" points=\"65.00,164.20 160.00,128.80 255.00,146.50 350.00,93.40 445.00,111.10\" fill=\"none\" stroke=\"#126779\" stroke-width=\"3\"/><circle class=\"stat-point\" cx=\"65.00\" cy=\"164.20\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"160.00\" cy=\"128.80\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"255.00\" cy=\"146.50\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"350.00\" cy=\"93.40\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"445.00\" cy=\"111.10\" r=\"4.5\" fill=\"#126779\"/><text x=\"255.00\" y=\"294.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172b3a\">Dag</text></svg></div><p>Vilken dag hade biblioteket flest besök? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2\"><p>Den högsta punkten ligger vid Tor. Den visar 80 besök.</p><p><strong>Svar:</strong> Torsdag.</div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "alternativ",
+  "rättSvar": "Torsdag",
+  "tolerans": null,
+  "svarFormat": "kort_text",
+  "svarEnhet": null,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs rubrikerna och skalorna innan du väljer värden.</p>",
+  "alternativ": [
+    {
+      "txt": "Måndag",
+      "ratt": false
+    },
+    {
+      "txt": "Tisdag",
+      "ratt": false
+    },
+    {
+      "txt": "Torsdag",
+      "ratt": true
+    },
+    {
+      "txt": "Fredag",
+      "ratt": false
+    }
+  ]
+},
+{
+  "id": "4.310",
+  "kap": 4,
+  "omr": "lagesmatt",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "median från en tabell med dagliga värden",
+  "t": "<p>Tabellen visar väntetiden vid en busshållplats under fem dagar.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Dag</th><th scope=\"col\">Väntetid (min)</th></tr></thead><tbody><tr><td>Måndag</td><td>4</td></tr><tr><td>Tisdag</td><td>8</td></tr><tr><td>Onsdag</td><td>6</td></tr><tr><td>Torsdag</td><td>10</td></tr><tr><td>Fredag</td><td>7</td></tr></tbody></table><p>Bestäm medianen för väntetiderna. Svara i minuter.</p>",
+  "s": "<div class=\"facit-v2\"><p>Ordna tiderna: 4, 6, 7, 8, 10. Av fem värden ligger det tredje i mitten.</p><p><strong>Svar:</strong> Medianen är 7 minuter.</div>",
+  "familj": "Beräkna lägesmått",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "min",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ordna väntetiderna efter storlek. Använd tiderna, inte dagarnas ordning.</p>"
+},
+{
+  "id": "4.311",
+  "kap": 4,
+  "omr": "lagesmatt",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "typ": "median och viktat medelvärde från frekvenser",
+  "t": "<p>20 elever berättar hur många böcker de läste förra månaden.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Antal böcker</th><th scope=\"col\">Antal elever</th></tr></thead><tbody><tr><td>0</td><td>4</td></tr><tr><td>1</td><td>8</td></tr><tr><td>2</td><td>6</td></tr><tr><td>3</td><td>2</td></tr></tbody></table><p>a) Bestäm medianen för antalet böcker.</p><p>b) Bestäm medelvärdet för antalet böcker.</p>",
+  "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De 4 första värdena är 0. De följande 8 är 1, alltså är både det 10:e och det 11:e värdet 1.</p><p><strong>Svar:</strong> Medianen är 1 bok.</div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Eleverna läste tillsammans \\(0\\cdot4+1\\cdot8+2\\cdot6+3\\cdot2=26\\) böcker. Det är 20 elever.</p><p>\\[\\bar x=\\frac{26}{20}=1{,}3.\\]</p><p><strong>Svar:</strong> 1,3 böcker.</div></div>",
+  "familj": "Beräkna lägesmått",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1,
+    1.3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    null
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs rubrikerna och skalorna innan du väljer värden.</p>",
+  "spelIntro": "<p>20 elever berättar hur många böcker de läste förra månaden.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Antal böcker</th><th scope=\"col\">Antal elever</th></tr></thead><tbody><tr><td>0</td><td>4</td></tr><tr><td>1</td><td>8</td></tr><tr><td>2</td><td>6</td></tr><tr><td>3</td><td>2</td></tr></tbody></table>",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>Bestäm medianen för antalet böcker.</p>",
+      "s": "<div class=\"facit-v2\"><p>De 4 första värdena är 0. De följande 8 är 1, alltså är både det 10:e och det 11:e värdet 1.</p><p><strong>Svar:</strong> Medianen är 1 bok.</div>",
+      "ledtrad": "<p>Det finns 20 värden. Vilka två platser ligger i mitten?</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>Bestäm medelvärdet för antalet böcker.</p>",
+      "s": "<div class=\"facit-v2\"><p>Eleverna läste tillsammans \\(0\\cdot4+1\\cdot8+2\\cdot6+3\\cdot2=26\\) böcker. Det är 20 elever.</p><p>\\[\\bar x=\\frac{26}{20}=1{,}3.\\]</p><p><strong>Svar:</strong> 1,3 böcker.</div>",
+      "ledtrad": "<p>Räkna först hur många böcker eleverna läste tillsammans. Dela sedan med antalet elever.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    }
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad"
+},
+{
+  "id": "4.312",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "typ": "jämföra andelar i grupper med olika storlek",
+  "t": "<p>Diagrammet visar hur elever i två klasser tar sig till skolan. Klass A har 40 elever och klass B har 80 elever.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"365\" viewBox=\"0 0 480 365\" role=\"img\" aria-label=\"Klass A: 20 cyklar, 10 åker buss, 10 går. Klass B: 24 cyklar, 40 åker buss, 16 går.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"363\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"30.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Antal elever</text><line x1=\"65.00\" y1=\"275.00\" x2=\"445.00\" y2=\"275.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"281.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"65.00\" y1=\"220.00\" x2=\"445.00\" y2=\"220.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"226.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"65.00\" y1=\"165.00\" x2=\"445.00\" y2=\"165.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"171.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"65.00\" y1=\"110.00\" x2=\"445.00\" y2=\"110.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"116.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"65.00\" y1=\"55.00\" x2=\"445.00\" y2=\"55.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"61.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">80</text><line x1=\"65.00\" y1=\"55.00\" x2=\"65.00\" y2=\"275.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"275.00\" x2=\"445.00\" y2=\"275.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"120.00\" y=\"220.00\" width=\"70.00\" height=\"55.00\" fill=\"#93c7dc\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"155.00\" y=\"253.50\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><rect x=\"120.00\" y=\"192.50\" width=\"70.00\" height=\"27.50\" fill=\"#eed38f\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"155.00\" y=\"212.25\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><rect x=\"120.00\" y=\"165.00\" width=\"70.00\" height=\"27.50\" fill=\"#b6d4a4\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"155.00\" y=\"184.75\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"155.00\" y=\"304.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><rect x=\"300.00\" y=\"209.00\" width=\"70.00\" height=\"66.00\" fill=\"#93c7dc\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"335.00\" y=\"248.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">24</text><rect x=\"300.00\" y=\"99.00\" width=\"70.00\" height=\"110.00\" fill=\"#eed38f\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"335.00\" y=\"160.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><rect x=\"300.00\" y=\"55.00\" width=\"70.00\" height=\"44.00\" fill=\"#b6d4a4\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"335.00\" y=\"83.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><text x=\"335.00\" y=\"304.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><rect x=\"48.00\" y=\"327.00\" width=\"18.00\" height=\"18.00\" fill=\"#93c7dc\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"75.00\" y=\"342.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Cykel</text><rect x=\"205.00\" y=\"327.00\" width=\"18.00\" height=\"18.00\" fill=\"#eed38f\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"232.00\" y=\"342.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Buss</text><rect x=\"344.00\" y=\"327.00\" width=\"18.00\" height=\"18.00\" fill=\"#b6d4a4\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"371.00\" y=\"342.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Gång</text></svg></div><p>a) Vilken klass har störst andel elever som cyklar? Svara A eller B.</p><p>b) Hur många procentenheter skiljer det mellan klassernas andelar som cyklar?</p>",
+  "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>I klass A cyklar 20 av 40 elever: \\(20/40=50\\%\\). I klass B cyklar 24 av 80: \\(24/80=30\\%\\).</p><p><strong>Svar:</strong> Klass A har störst andel.</div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Andelarna är \\(20/40=50\\%\\) i A och \\(24/80=30\\%\\) i B. Skillnaden är \\(50-30=20\\) procentenheter.</p><p><strong>Svar:</strong> 20 procentenheter.</div></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "A",
+    20
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "kort_text",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    "procentenheter"
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs rubrikerna och skalorna innan du väljer värden.</p>",
+  "spelIntro": "<p>Diagrammet visar hur elever i två klasser tar sig till skolan. Klass A har 40 elever och klass B har 80 elever.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"365\" viewBox=\"0 0 480 365\" role=\"img\" aria-label=\"Klass A: 20 cyklar, 10 åker buss, 10 går. Klass B: 24 cyklar, 40 åker buss, 16 går.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"363\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"30.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Antal elever</text><line x1=\"65.00\" y1=\"275.00\" x2=\"445.00\" y2=\"275.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"281.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"65.00\" y1=\"220.00\" x2=\"445.00\" y2=\"220.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"226.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"65.00\" y1=\"165.00\" x2=\"445.00\" y2=\"165.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"171.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"65.00\" y1=\"110.00\" x2=\"445.00\" y2=\"110.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"116.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"65.00\" y1=\"55.00\" x2=\"445.00\" y2=\"55.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"61.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">80</text><line x1=\"65.00\" y1=\"55.00\" x2=\"65.00\" y2=\"275.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"275.00\" x2=\"445.00\" y2=\"275.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"120.00\" y=\"220.00\" width=\"70.00\" height=\"55.00\" fill=\"#93c7dc\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"155.00\" y=\"253.50\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><rect x=\"120.00\" y=\"192.50\" width=\"70.00\" height=\"27.50\" fill=\"#eed38f\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"155.00\" y=\"212.25\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><rect x=\"120.00\" y=\"165.00\" width=\"70.00\" height=\"27.50\" fill=\"#b6d4a4\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"155.00\" y=\"184.75\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"155.00\" y=\"304.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><rect x=\"300.00\" y=\"209.00\" width=\"70.00\" height=\"66.00\" fill=\"#93c7dc\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"335.00\" y=\"248.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">24</text><rect x=\"300.00\" y=\"99.00\" width=\"70.00\" height=\"110.00\" fill=\"#eed38f\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"335.00\" y=\"160.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><rect x=\"300.00\" y=\"55.00\" width=\"70.00\" height=\"44.00\" fill=\"#b6d4a4\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-stack\"/><text x=\"335.00\" y=\"83.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><text x=\"335.00\" y=\"304.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><rect x=\"48.00\" y=\"327.00\" width=\"18.00\" height=\"18.00\" fill=\"#93c7dc\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"75.00\" y=\"342.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Cykel</text><rect x=\"205.00\" y=\"327.00\" width=\"18.00\" height=\"18.00\" fill=\"#eed38f\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"232.00\" y=\"342.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Buss</text><rect x=\"344.00\" y=\"327.00\" width=\"18.00\" height=\"18.00\" fill=\"#b6d4a4\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"371.00\" y=\"342.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Gång</text></svg></div>",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>Vilken klass har störst andel elever som cyklar? Svara A eller B.</p>",
+      "s": "<div class=\"facit-v2\"><p>I klass A cyklar 20 av 40 elever: \\(20/40=50\\%\\). I klass B cyklar 24 av 80: \\(24/80=30\\%\\).</p><p><strong>Svar:</strong> Klass A har störst andel.</div>",
+      "ledtrad": "<p>Jämför andelen i varje klass. Klasserna har olika många elever.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>Hur många procentenheter skiljer det mellan klassernas andelar som cyklar?</p>",
+      "s": "<div class=\"facit-v2\"><p>Andelarna är \\(20/40=50\\%\\) i A och \\(24/80=30\\%\\) i B. Skillnaden är \\(50-30=20\\) procentenheter.</p><p><strong>Svar:</strong> 20 procentenheter.</div>",
+      "ledtrad": "<p>Beräkna cyklisternas andel i varje klass och dra den mindre andelen från den större.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    }
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad"
+},
+{
+  "id": "4.313",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "beräkna ett antal utifrån ett cirkeldiagram",
+  "t": "<p>240 elever väljer var sin aktivitet. Diagrammet visar fördelningen.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"285\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Aktiviteter: simning 25 procent, fotboll 40 procent, dans 20 procent och gym 15 procent\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"283\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path class=\"stat-sector\" d=\"M150 144 L150.000 38.000 A106 106 0 0 1 256.000 144.000 Z\" fill=\"#98cbd8\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"194.55\" y=\"105.45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">25 %</text><path class=\"stat-sector\" d=\"M150 144 L256.000 144.000 A106 106 0 0 1 64.244 206.305 Z\" fill=\"#ead096\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"169.47\" y=\"209.92\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">40 %</text><path class=\"stat-sector\" d=\"M150 144 L64.244 206.305 A106 106 0 0 1 64.244 81.695 Z\" fill=\"#b5d5a8\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"87.00\" y=\"150.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">20 %</text><path class=\"stat-sector\" d=\"M150 144 L64.244 81.695 A106 106 0 0 1 150.000 38.000 Z\" fill=\"#c5b5df\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"121.40\" y=\"93.87\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">15 %</text><rect x=\"294.00\" y=\"70.00\" width=\"18.00\" height=\"18.00\" fill=\"#98cbd8\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"321.00\" y=\"85.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Simning</text><rect x=\"294.00\" y=\"113.00\" width=\"18.00\" height=\"18.00\" fill=\"#ead096\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"321.00\" y=\"128.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Fotboll</text><rect x=\"294.00\" y=\"156.00\" width=\"18.00\" height=\"18.00\" fill=\"#b5d5a8\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"321.00\" y=\"171.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Dans</text><rect x=\"294.00\" y=\"199.00\" width=\"18.00\" height=\"18.00\" fill=\"#c5b5df\" stroke=\"#24485f\" stroke-width=\"1.7\" /><text x=\"321.00\" y=\"214.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">Gym</text></svg></div><p>Hur många elever väljer simning?</p>",
+  "s": "<div class=\"facit-v2\"><p>Simning är 25 % av hela gruppen.</p><p>\\[0{,}25\\cdot240=60.\\]</p><p><strong>Svar:</strong> 60 elever.</div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs simningens andel i cirkeldiagrammet och använd hela gruppens antal.</p>"
+},
+{
+  "id": "4.314",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "summera frekvenser i ett histogram",
+  "t": "<p>Histogrammet visar väntetider i hela minuter vid en vårdcentral.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Diagram över antal väntetider för 0–4, 5–9, 10–14, 15–19\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"32.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Antal väntetider</text><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"241.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"65.00\" y1=\"205.50\" x2=\"445.00\" y2=\"205.50\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"211.50\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"65.00\" y1=\"176.00\" x2=\"445.00\" y2=\"176.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"182.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"65.00\" y1=\"146.50\" x2=\"445.00\" y2=\"146.50\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"152.50\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"65.00\" y1=\"117.00\" x2=\"445.00\" y2=\"117.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"123.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"65.00\" y1=\"87.50\" x2=\"445.00\" y2=\"87.50\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"93.50\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"65.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"64.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"65.00\" y1=\"58.00\" x2=\"65.00\" y2=\"239.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"65.00\" y=\"146.50\" width=\"95.00\" height=\"88.50\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"112.50\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">0–4</text><rect x=\"160.00\" y=\"87.50\" width=\"95.00\" height=\"147.50\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"207.50\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">5–9</text><rect x=\"255.00\" y=\"117.00\" width=\"95.00\" height=\"118.00\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"302.50\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10–14</text><rect x=\"350.00\" y=\"176.00\" width=\"95.00\" height=\"59.00\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"397.50\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">15–19</text><text x=\"255.00\" y=\"294.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172b3a\">Väntetid (min)</text></svg></div><p>Hur många av väntetiderna är kortare än 10 minuter?</p>",
+  "s": "<div class=\"facit-v2\"><p>Väntetiderna 0–4 och 5–9 minuter är kortare än 10 minuter. Deras antal är 6 respektive 10.</p><p><strong>Svar:</strong> 6 + 10 = 16 väntetider.</div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 16,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka av intervallen ligger helt under 10 minuter?</p>"
+},
+{
+  "id": "4.315",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "avläsa en percentil ur en kumulativ kurva",
+  "t": "<p>Diagrammet visar hur stor andel av resorna som tar högst en viss tid.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Linjediagram: Andel (%), Restid (min)\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"32.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Andel (%)</text><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"241.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"65.00\" y1=\"190.75\" x2=\"445.00\" y2=\"190.75\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"196.75\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">25</text><line x1=\"65.00\" y1=\"146.50\" x2=\"445.00\" y2=\"146.50\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"152.50\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"65.00\" y1=\"102.25\" x2=\"445.00\" y2=\"102.25\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"108.25\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">75</text><line x1=\"65.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"64.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">100</text><line x1=\"65.00\" y1=\"58.00\" x2=\"65.00\" y2=\"235.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"65.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"128.33\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"191.67\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><text x=\"255.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><text x=\"318.33\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><text x=\"381.67\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><text x=\"445.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">60</text><polyline class=\"stat-curve\" points=\"65.00,235.00 128.33,217.30 191.67,181.90 255.00,146.50 318.33,102.25 381.67,75.70 445.00,58.00\" fill=\"none\" stroke=\"#126779\" stroke-width=\"3\"/><circle class=\"stat-point\" cx=\"65.00\" cy=\"235.00\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"128.33\" cy=\"217.30\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"191.67\" cy=\"181.90\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"255.00\" cy=\"146.50\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"318.33\" cy=\"102.25\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"381.67\" cy=\"75.70\" r=\"4.5\" fill=\"#126779\"/><circle class=\"stat-point\" cx=\"445.00\" cy=\"58.00\" r=\"4.5\" fill=\"#126779\"/><text x=\"255.00\" y=\"294.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172b3a\">Restid (min)</text></svg></div><p>Läs av den 75:e percentilen för restiden. Svara i minuter.</p>",
+  "s": "<div class=\"facit-v2\"><p>Utgå från 75 % på den lodräta skalan. Gå till kurvan och sedan ned till tidsskalan. Där läses 40 minuter.</p><p><strong>Svar:</strong> 40 minuter.</div>",
+  "familj": "Percentiler",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 40,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "min",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Den 75:e percentilen är tiden som 75 % av resorna ligger på eller under.</p>"
+},
+{
+  "id": "4.316",
+  "kap": 4,
+  "omr": "ladagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "typ": "jämföra median och kvartilavstånd ur lådagram",
+  "t": "<p>Lådagrammen visar restiden till skolan i två grupper.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Två lådagram över restider i grupperna A och B\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"30.00\" y=\"29.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Restid till skolan</text><line x1=\"70.00\" y1=\"207.00\" x2=\"70.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"70.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"85.00\" y1=\"207.00\" x2=\"85.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"100.00\" y1=\"207.00\" x2=\"100.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"115.00\" y1=\"207.00\" x2=\"115.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"130.00\" y1=\"207.00\" x2=\"130.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"145.00\" y1=\"207.00\" x2=\"145.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"145.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"160.00\" y1=\"207.00\" x2=\"160.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"175.00\" y1=\"207.00\" x2=\"175.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"190.00\" y1=\"207.00\" x2=\"190.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"205.00\" y1=\"207.00\" x2=\"205.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"220.00\" y1=\"207.00\" x2=\"220.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"220.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"235.00\" y1=\"207.00\" x2=\"235.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"250.00\" y1=\"207.00\" x2=\"250.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"265.00\" y1=\"207.00\" x2=\"265.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"280.00\" y1=\"207.00\" x2=\"280.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"295.00\" y1=\"207.00\" x2=\"295.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"295.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"310.00\" y1=\"207.00\" x2=\"310.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"325.00\" y1=\"207.00\" x2=\"325.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"340.00\" y1=\"207.00\" x2=\"340.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"355.00\" y1=\"207.00\" x2=\"355.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"370.00\" y1=\"207.00\" x2=\"370.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"370.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"385.00\" y1=\"207.00\" x2=\"385.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"400.00\" y1=\"207.00\" x2=\"400.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"415.00\" y1=\"207.00\" x2=\"415.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"430.00\" y1=\"207.00\" x2=\"430.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"445.00\" y1=\"207.00\" x2=\"445.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"445.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><line x1=\"70.00\" y1=\"210.00\" x2=\"445.00\" y2=\"210.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"265.00\" y=\"285.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172b3a\">Restid (min)</text><text x=\"30.00\" y=\"91.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><line x1=\"160.00\" y1=\"85.00\" x2=\"220.00\" y2=\"85.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"280.00\" y1=\"85.00\" x2=\"370.00\" y2=\"85.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"160.00\" y1=\"72.00\" x2=\"160.00\" y2=\"98.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"370.00\" y1=\"72.00\" x2=\"370.00\" y2=\"98.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"220.00\" y=\"65.00\" width=\"60.00\" height=\"40.00\" fill=\"#c1deea\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-box\"/><line x1=\"250.00\" y1=\"65.00\" x2=\"250.00\" y2=\"105.00\" stroke=\"#172b3a\" stroke-width=\"3\" /><text x=\"30.00\" y=\"161.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><line x1=\"145.00\" y1=\"155.00\" x2=\"205.00\" y2=\"155.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"310.00\" y1=\"155.00\" x2=\"385.00\" y2=\"155.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"145.00\" y1=\"142.00\" x2=\"145.00\" y2=\"168.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"385.00\" y1=\"142.00\" x2=\"385.00\" y2=\"168.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"205.00\" y=\"135.00\" width=\"105.00\" height=\"40.00\" fill=\"#c1deea\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-box\"/><line x1=\"265.00\" y1=\"135.00\" x2=\"265.00\" y2=\"175.00\" stroke=\"#172b3a\" stroke-width=\"3\" /></svg></div><p>a) Vilken grupp har lägst median? Svara A eller B.</p><p>b) Hur många minuter skiljer det mellan gruppernas kvartilavstånd?</p>",
+  "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Medianen markeras av linjen inne i lådan. Den ligger vid 24 minuter i A och 26 minuter i B.</p><p><strong>Svar:</strong> Grupp A.</div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Kvartilavståndet är lådans bredd på tidsskalan. För A är det 28 − 20 = 8 minuter. För B är det 32 − 18 = 14 minuter.</p><p><strong>Svar:</strong> Skillnaden är 14 − 8 = 6 minuter.</div></div>",
+  "familj": "Jämföra och rita lådagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "A",
+    6
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "kort_text",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    "min"
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs rubrikerna och skalorna innan du väljer värden.</p>",
+  "spelIntro": "<p>Lådagrammen visar restiden till skolan i två grupper.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Två lådagram över restider i grupperna A och B\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"30.00\" y=\"29.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Restid till skolan</text><line x1=\"70.00\" y1=\"207.00\" x2=\"70.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"70.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"85.00\" y1=\"207.00\" x2=\"85.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"100.00\" y1=\"207.00\" x2=\"100.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"115.00\" y1=\"207.00\" x2=\"115.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"130.00\" y1=\"207.00\" x2=\"130.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"145.00\" y1=\"207.00\" x2=\"145.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"145.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"160.00\" y1=\"207.00\" x2=\"160.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"175.00\" y1=\"207.00\" x2=\"175.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"190.00\" y1=\"207.00\" x2=\"190.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"205.00\" y1=\"207.00\" x2=\"205.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"220.00\" y1=\"207.00\" x2=\"220.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"220.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"235.00\" y1=\"207.00\" x2=\"235.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"250.00\" y1=\"207.00\" x2=\"250.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"265.00\" y1=\"207.00\" x2=\"265.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"280.00\" y1=\"207.00\" x2=\"280.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"295.00\" y1=\"207.00\" x2=\"295.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"295.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"310.00\" y1=\"207.00\" x2=\"310.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"325.00\" y1=\"207.00\" x2=\"325.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"340.00\" y1=\"207.00\" x2=\"340.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"355.00\" y1=\"207.00\" x2=\"355.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"370.00\" y1=\"207.00\" x2=\"370.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"370.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"385.00\" y1=\"207.00\" x2=\"385.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"400.00\" y1=\"207.00\" x2=\"400.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"415.00\" y1=\"207.00\" x2=\"415.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"430.00\" y1=\"207.00\" x2=\"430.00\" y2=\"214.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><line x1=\"445.00\" y1=\"207.00\" x2=\"445.00\" y2=\"220.00\" stroke=\"#34495e\" stroke-width=\"1.5\" /><text x=\"445.00\" y=\"244.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><line x1=\"70.00\" y1=\"210.00\" x2=\"445.00\" y2=\"210.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"265.00\" y=\"285.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172b3a\">Restid (min)</text><text x=\"30.00\" y=\"91.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><line x1=\"160.00\" y1=\"85.00\" x2=\"220.00\" y2=\"85.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"280.00\" y1=\"85.00\" x2=\"370.00\" y2=\"85.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"160.00\" y1=\"72.00\" x2=\"160.00\" y2=\"98.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"370.00\" y1=\"72.00\" x2=\"370.00\" y2=\"98.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"220.00\" y=\"65.00\" width=\"60.00\" height=\"40.00\" fill=\"#c1deea\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-box\"/><line x1=\"250.00\" y1=\"65.00\" x2=\"250.00\" y2=\"105.00\" stroke=\"#172b3a\" stroke-width=\"3\" /><text x=\"30.00\" y=\"161.00\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><line x1=\"145.00\" y1=\"155.00\" x2=\"205.00\" y2=\"155.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"310.00\" y1=\"155.00\" x2=\"385.00\" y2=\"155.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"145.00\" y1=\"142.00\" x2=\"145.00\" y2=\"168.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"385.00\" y1=\"142.00\" x2=\"385.00\" y2=\"168.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"205.00\" y=\"135.00\" width=\"105.00\" height=\"40.00\" fill=\"#c1deea\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-box\"/><line x1=\"265.00\" y1=\"135.00\" x2=\"265.00\" y2=\"175.00\" stroke=\"#172b3a\" stroke-width=\"3\" /></svg></div>",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>Vilken grupp har lägst median? Svara A eller B.</p>",
+      "s": "<div class=\"facit-v2\"><p>Medianen markeras av linjen inne i lådan. Den ligger vid 24 minuter i A och 26 minuter i B.</p><p><strong>Svar:</strong> Grupp A.</div>",
+      "ledtrad": "<p>Jämför linjerna inne i lådorna, inte lådornas vänsterkant.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 1,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>Hur många minuter skiljer det mellan gruppernas kvartilavstånd?</p>",
+      "s": "<div class=\"facit-v2\"><p>Kvartilavståndet är lådans bredd på tidsskalan. För A är det 28 − 20 = 8 minuter. För B är det 32 − 18 = 14 minuter.</p><p><strong>Svar:</strong> Skillnaden är 14 − 8 = 6 minuter.</div>",
+      "ledtrad": "<p>Läs av båda kanterna på varje låda. Jämför skillnaderna.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    }
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad"
+},
+{
+  "id": "4.317",
+  "kap": 4,
+  "omr": "lagesmatt",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "median ur ett prickdiagram",
+  "t": "<p>Varje prick visar hur länge en elev väntade på bussen.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Prickdiagram över tio elevers väntetider\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"30.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Varje prick är en elev</text><line x1=\"65.00\" y1=\"230.00\" x2=\"445.00\" y2=\"230.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"230.00\" x2=\"65.00\" y2=\"238.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"65.00\" y=\"265.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"141.00\" y1=\"230.00\" x2=\"141.00\" y2=\"238.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"141.00\" y=\"265.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"217.00\" y1=\"230.00\" x2=\"217.00\" y2=\"238.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"217.00\" y=\"265.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"293.00\" y1=\"230.00\" x2=\"293.00\" y2=\"238.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"293.00\" y=\"265.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"369.00\" y1=\"230.00\" x2=\"369.00\" y2=\"238.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"369.00\" y=\"265.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"445.00\" y1=\"230.00\" x2=\"445.00\" y2=\"238.00\" stroke=\"#34495e\" stroke-width=\"2\" /><text x=\"445.00\" y=\"265.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><circle class=\"stat-dot\" cx=\"141.00\" cy=\"209.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"141.00\" cy=\"181.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"217.00\" cy=\"209.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"217.00\" cy=\"181.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"217.00\" cy=\"153.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"293.00\" cy=\"209.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"293.00\" cy=\"181.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"293.00\" cy=\"153.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"293.00\" cy=\"125.00\" r=\"7\" fill=\"#216d87\"/><circle class=\"stat-dot\" cx=\"369.00\" cy=\"209.00\" r=\"7\" fill=\"#216d87\"/><text x=\"255.00\" y=\"299.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172b3a\">Väntetid (min)</text></svg></div><p>Bestäm medianen för väntetiderna. Svara i minuter.</p>",
+  "s": "<div class=\"facit-v2\"><p>Det finns 10 prickar. Medianen är medelvärdet av det 5:e och det 6:e värdet. Det 5:e värdet är 4 minuter och det 6:e är 6 minuter.</p><p>\\[(4+6)/2=5.\\]</p><p><strong>Svar:</strong> 5 minuter.</div>",
+  "familj": "Beräkna lägesmått",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "min",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna prickarna och hitta de två mittersta värdena från vänster.</p>"
+},
+{
+  "id": "4.318",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "granska ett diagram med avklippt skala",
+  "t": "<p>Diagrammet visar en butiks försäljning. Butiken säger att försäljningen mer än fördubblades från april till maj.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Diagram över antal sålda cyklar för April, Maj\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"32.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Antal sålda cyklar</text><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"241.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">90</text><line x1=\"65.00\" y1=\"190.75\" x2=\"445.00\" y2=\"190.75\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"196.75\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">100</text><line x1=\"65.00\" y1=\"146.50\" x2=\"445.00\" y2=\"146.50\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"152.50\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">110</text><line x1=\"65.00\" y1=\"102.25\" x2=\"445.00\" y2=\"102.25\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"108.25\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">120</text><line x1=\"65.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"64.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">130</text><line x1=\"65.00\" y1=\"58.00\" x2=\"65.00\" y2=\"239.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"99.20\" y=\"190.75\" width=\"121.60\" height=\"44.25\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"160.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">April</text><rect x=\"289.20\" y=\"102.25\" width=\"121.60\" height=\"132.75\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"350.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Maj</text><line x1=\"61.00\" y1=\"242.00\" x2=\"69.00\" y2=\"250.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"61.00\" y1=\"250.00\" x2=\"69.00\" y2=\"258.00\" stroke=\"#34495e\" stroke-width=\"2\" /></svg></div><p>Vilken slutsats är riktig? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2\"><p>Skalan börjar vid 90, så stolparnas synliga höjder kan inte jämföras som hela antalet cyklar. Försäljningen ökade från 100 till 120 cyklar.</p><p>\\[\\frac{120-100}{100}\\cdot100=20\\%.\\]</p><p><strong>Svar:</strong> Försäljningen ökade med 20 %, inte till mer än det dubbla.</div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "alternativ",
+  "rättSvar": "Butiken har fel: försäljningen ökade med 20 %.",
+  "tolerans": null,
+  "svarFormat": "kort_text",
+  "svarEnhet": null,
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var börjar den lodräta skalan? Jämför de avlästa antalen.</p>",
+  "alternativ": [
+    {
+      "txt": "Butiken har rätt: majstolpen är tre gånger så hög.",
+      "ratt": false
+    },
+    {
+      "txt": "Butiken har fel: försäljningen ökade med 20 %.",
+      "ratt": true
+    },
+    {
+      "txt": "Butiken har fel: försäljningen ökade med 40 %.",
+      "ratt": false
+    },
+    {
+      "txt": "Butiken har rätt: försäljningen ökade med 200 %.",
+      "ratt": false
+    }
+  ]
+},
+{
+  "id": "4.319",
+  "kap": 4,
+  "omr": "lagesmatt",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "bestämma en saknad frekvens från medelvärdet",
+  "t": "<p>Tabellen visar hur många träningspass medlemmarna i en grupp gör per vecka. Medelvärdet är 1,2 pass.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Pass per vecka</th><th scope=\"col\">Antal medlemmar</th></tr></thead><tbody><tr><td>0</td><td>3</td></tr><tr><td>1</td><td>?</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>1</td></tr></tbody></table><p>Hur många medlemmar tränar en gång per vecka?</p>",
+  "s": "<div class=\"facit-v2\"><p>Låt \\(x\\) vara det saknade antalet. Gruppen har \\(8+x\\) medlemmar och de gör tillsammans \\(0\\cdot3+1\\cdot x+2\\cdot4+3\\cdot1=11+x\\) pass.</p><p>Medelvärdet ger</p><div class=\"facit-matte\">\\[\\frac{11+x}{8+x}=1{,}2.\\]</div><p>Multiplicera med \\(8+x\\): \\(11+x=9{,}6+1{,}2x\\). Då är \\(1{,}4=0{,}2x\\), så \\(x=7\\).</p><p>Kontroll: 15 medlemmar gör 18 pass, vilket ger \\(18/15=1{,}2\\).</p><p><strong>Svar:</strong> 7 medlemmar.</div>",
+  "familj": "Viktat medelvärde och saknade värden",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kalla det saknade antalet x. Både gruppens storlek och antalet pass beror på x.</p>"
+},
+{
+  "id": "4.320",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "jämföra gruppvis och sammanlagd andel",
+  "t": "<p>Två grupper går ett kort eller ett långt utbildningspass. Varje deltagare går bara ett pass.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Grupp</th><th scope=\"col\">Pass</th><th scope=\"col\">Deltagare</th><th scope=\"col\">Klara</th></tr></thead><tbody><tr><td>A</td><td>Kort</td><td>10</td><td>9</td></tr><tr><td>A</td><td>Långt</td><td>20</td><td>12</td></tr><tr><td>B</td><td>Kort</td><td>40</td><td>32</td></tr><tr><td>B</td><td>Långt</td><td>2</td><td>1</td></tr></tbody></table><p>A har större andel klara i vart och ett av passen. Har A också störst andel när båda passen räknas ihop? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2\"><p>I A blir \\(9+12=21\\) av \\(10+20=30\\) klara: \\(21/30=70\\%\\).</p><p>I B blir \\(32+1=33\\) av \\(40+2=42\\) klara: \\(33/42\\approx78{,}6\\%\\).</p><p>B har större andel deltagare i det korta passet, där fler blir klara i båda grupperna. Antalet deltagare avgör hur grupperna ska vägas samman.</p><p><strong>Svar:</strong> Nej, B har störst andel totalt.</div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "alternativ",
+  "rättSvar": "Nej, B har ungefär 79 % klara totalt, medan A har 70 %.",
+  "tolerans": null,
+  "svarFormat": "kort_text",
+  "svarEnhet": null,
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Summera antalet klara och antalet deltagare inom varje grupp. Jämför sedan andelarna.</p>",
+  "alternativ": [
+    {
+      "txt": "Ja, A är högst i varje pass och därför också totalt.",
+      "ratt": false
+    },
+    {
+      "txt": "Nej, B har ungefär 79 % klara totalt, medan A har 70 %.",
+      "ratt": true
+    },
+    {
+      "txt": "Ja, medelvärdet av A:s två procenttal är högre.",
+      "ratt": false
+    },
+    {
+      "txt": "Grupperna har samma andel klara totalt.",
+      "ratt": false
+    }
+  ]
+},
+{
+  "id": "4.321",
+  "kap": 4,
+  "omr": "lagesmatt",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "bestämma möjliga medelvärden när rådata saknas",
+  "t": "<p>Histogrammet visar väntetider i hela minuter. De enskilda tiderna syns inte.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Diagram över antal väntetider för 0–4, 5–9, 10–14\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"32.00\" y=\"28.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#172b3a\">Antal väntetider</text><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"241.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"65.00\" y1=\"199.60\" x2=\"445.00\" y2=\"199.60\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"205.60\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"65.00\" y1=\"164.20\" x2=\"445.00\" y2=\"164.20\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"170.20\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"65.00\" y1=\"128.80\" x2=\"445.00\" y2=\"128.80\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"134.80\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">3</text><line x1=\"65.00\" y1=\"93.40\" x2=\"445.00\" y2=\"93.40\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"99.40\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"65.00\" y1=\"58.00\" x2=\"445.00\" y2=\"58.00\" stroke=\"#dbe3ea\" stroke-width=\"1\" /><text x=\"53.00\" y=\"64.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"65.00\" y1=\"58.00\" x2=\"65.00\" y2=\"239.00\" stroke=\"#34495e\" stroke-width=\"2\" /><line x1=\"65.00\" y1=\"235.00\" x2=\"445.00\" y2=\"235.00\" stroke=\"#34495e\" stroke-width=\"2\" /><rect x=\"65.00\" y=\"128.80\" width=\"126.67\" height=\"106.20\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"128.33\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">0–4</text><rect x=\"191.67\" y=\"93.40\" width=\"126.67\" height=\"141.60\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"255.00\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">5–9</text><rect x=\"318.33\" y=\"128.80\" width=\"126.67\" height=\"106.20\" fill=\"#acd3ee\" stroke=\"#24485f\" stroke-width=\"1.7\" class=\"stat-bar\"/><text x=\"381.67\" y=\"264.00\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">10–14</text><text x=\"255.00\" y=\"294.00\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#172b3a\">Väntetid (min)</text></svg></div><p>Bestäm det minsta och det största medelvärde som väntetiderna kan ha. Svara i minuter.</p>",
+  "s": "<div class=\"facit-v2\"><p>Det finns \\(3+4+3=10\\) tider. För det minsta medelvärdet används den minsta tiden i varje intervall:</p><div class=\"facit-matte\">\\[\\frac{3\\cdot0+4\\cdot5+3\\cdot10}{10}=5.\\]</div><p>För det största medelvärdet används den största hela minuten i varje intervall:</p><div class=\"facit-matte\">\\[\\frac{3\\cdot4+4\\cdot9+3\\cdot14}{10}=9.\\]</div><p>Båda gränserna är möjliga: alla tider i ett intervall kan ligga vid dess lägsta respektive högsta värde.</p><p><strong>Svar:</strong> Minst 5 minuter och högst 9 minuter.</div>",
+  "familj": "Viktat medelvärde och saknade värden",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5,
+    9
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "min",
+    "min"
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka tider inom varje intervall skulle göra summan så liten eller så stor som möjligt?</p>",
+  "svarEtiketter": [
+    "Minsta medelvärde",
+    "Största medelvärde"
+  ],
+  "svarsstruktur": "ordnad"
 }
 ];

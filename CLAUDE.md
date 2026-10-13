@@ -25,3 +25,7 @@ Rutinen för att åtgärda felrapporter, formuleringar att undvika, kursmappning
 Läs även `AGENTS.md` och Uppgiftslabbets `agent/FELMONSTER_OCH_BESLUT.md`.
 Sök berörda uppgifts-ID:n i tidigare granskningar och kör deras regressionstester.
 En ändring av ett tidigare beslut ska ha en ny dokumenterad motivering.
+
+## Figurer vid konstruktion och omarbetning
+
+Användarbeslut 2026-10-13: vid nya eller omarbetade uppgifter ska du alltid sträva efter att ha med en figur, om det är möjligt. Följ masterrepots `CLAUDE.md`, avsnittet ”Figurer vid konstruktion och omarbetning”. Egna SVG-figurer ska hjälpa eleven att förstå situationen och ha tydliga, korrekt placerade beteckningar, sträckor, vinklar, enheter och pilar. Kontrollera modell, geometri och visning på mobil/dator. Varje separat kort behöver sin relevanta figur. Dokumentera kort när en figur inte bidrar till uppgiften.

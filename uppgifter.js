@@ -192861,5 +192861,527 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "manuellKomplettering": true
+  },
+  {
+    "id": "8.518",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "Tre kontakter mellan metallkulor",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2,
+      3
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "nC",
+      "nC",
+      "nC"
+    ],
+    "t": "<p>Tre likadana metallkulor är isolerade från omgivningen och har laddningarna i figuren. A och B får först röra vid varandra. Sedan får B och C röra vid varandra, och till sist C och A. Efter varje kontakt skiljs kulorna åt. Den tredje kulan hålls långt bort under kontakten.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"264\" viewBox=\"0 0 520 264\" role=\"img\" aria-label=\"Tre identiska kulor med +12, −4 och 0 nC; kontaktordning AB, BC, CA.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"258\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><circle cx=\"100\" cy=\"90\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"100\" y=\"98\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">+</text><text x=\"100\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">A</text><text x=\"100\" y=\"143\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">+12 nC</text><circle cx=\"260\" cy=\"90\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"260\" y=\"98\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">−</text><text x=\"260\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">B</text><text x=\"260\" y=\"143\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">−4 nC</text><circle cx=\"420\" cy=\"90\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"420\" y=\"98\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">0</text><text x=\"420\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">C</text><text x=\"420\" y=\"143\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">0 nC</text><text x=\"260\" y=\"194\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">Kontaktordning</text><text x=\"260\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"24\" fill=\"#173548\">A–B  →  B–C  →  C–A</text></svg></div><p>Vilken laddning har varje kula till sist? Svara i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p>Laddningen bevaras. Två likadana kulor delar den sammanlagda laddningen lika när de rör vid varandra.</p><p>Efter A–B har båda (12−4)/2 = 4 nC. C har fortfarande 0 nC.</p><p>Efter B–C har båda (4+0)/2 = 2 nC. A har fortfarande 4 nC.</p><p>Efter C–A har båda (2+4)/2 = 3 nC. B har fortfarande 2 nC.</p><p><strong>Svar:</strong> A: 3 nC, B: 2 nC, C: 3 nC. Summan är fortfarande 8 nC.</p></div>",
+    "ledtrad": "<p>Hur mycket laddning finns på de två kulor som rör vid varandra vid varje kontakt?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "8.519",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "poang": "0/2/0",
+    "typ": "Var tar krafterna ut varandra?",
+    "familj": "Kraftresultant från flera laddningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.4,
+    "tolerans": 0.005,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m",
+    "t": "<p>Två små laddade kulor sitter fast längs en x-axel. A har laddningen +1,5 nC och ligger vid x=0. B har laddningen −6,0 nC och ligger vid x=0,40 m.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"280\" viewBox=\"0 0 520 280\" role=\"img\" aria-label=\"Positiv laddning vid x=0 och fyra gånger större negativ laddning vid x=0,40 m.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"274\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><circle cx=\"280\" cy=\"110\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"280\" y=\"118\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">+</text><text x=\"280\" y=\"70\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">A</text><text x=\"280\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">+1,5 nC</text><circle cx=\"460\" cy=\"110\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"460\" y=\"118\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">−</text><text x=\"460\" y=\"70\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">B</text><text x=\"460\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">−6,0 nC</text><line x1=\"40\" y1=\"220\" x2=\"492\" y2=\"220\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"492.00,220.00 483.90,223.91 483.90,216.09\" fill=\"#547286\"/><text x=\"500\" y=\"227\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">x</text><line x1=\"280\" y1=\"210\" x2=\"280\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"460\" y1=\"210\" x2=\"460\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"280\" y=\"252\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">0</text><text x=\"460\" y=\"252\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">0,40 m</text><line x1=\"280\" y1=\"40\" x2=\"460\" y2=\"40\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"460.00,40.00 451.90,43.91 451.90,36.09\" fill=\"#547286\"/><line x1=\"460\" y1=\"40\" x2=\"280\" y2=\"40\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"280.00,40.00 288.10,36.09 288.10,43.91\" fill=\"#547286\"/><text x=\"370\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">0,40 m</text></svg></div><p>Vid vilket x-värde blir den sammanlagda elektriska kraften på en liten positiv testladdning noll? Svara i meter med två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>Mellan kulorna verkar båda krafterna åt höger. Till höger om B verkar B:s kraft åt vänster och är starkare, eftersom B har större laddning och ligger närmare testladdningen. Nollpunkten kan därför bara finnas till vänster om A.</p><p>Låt avståndet till A vara a. Avståndet till B är då a+0,40. Coulombs lag ger, efter att gemensamma faktorer strukits:</p><div class=\"facit-matte\">\\[\\frac{1{,}5}{a^2}=\\frac{6{,}0}{(a+0{,}40)^2}.\\]</div><p>B:s laddning är fyra gånger större, så avståndet till B måste vara dubbelt så stort:</p><div class=\"facit-matte\">\\[a+0{,}40=2a\\quad\\Rightarrow\\quad a=0{,}40\\ \\mathrm m.\\]</div><p>Punkten ligger till vänster om origo.</p><p><strong>Svar:</strong> x=−0,40 m.</p></div>",
+    "ledtrad": "<p>Börja med kraftens riktning på de tre delarna av axeln, innan du jämför storlekarna.</p>"
+  },
+  {
+    "id": "8.520",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "poang": "0/2/0",
+    "typ": "Två elektriska krafter i olika riktningar",
+    "familj": "Kraftresultant från flera laddningar",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5674918876668018,
+      30.650667957052878
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "µN",
+      "°"
+    ],
+    "t": "<p>Tre små laddade kulor sitter i lägena som figuren visar. A ligger 0,20 m till vänster om O och B ligger 0,30 m ovanför O.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"370\" viewBox=\"0 0 520 370\" role=\"img\" aria-label=\"Tre laddningar i en rätvinklig placering. Skalans 0,20 och 0,30 m motsvarar figurens avstånd.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"364\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><circle cx=\"70\" cy=\"230\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"70\" y=\"238\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">+</text><text x=\"70\" y=\"190\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">A</text><text x=\"70\" y=\"283\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">+3,0 nC</text><circle cx=\"190\" cy=\"50\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"190\" y=\"58\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">−</text><text x=\"240\" y=\"57\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">B: −4,0 nC</text><circle cx=\"190\" cy=\"230\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"190\" y=\"238\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">+</text><text x=\"232\" y=\"205\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">O</text><text x=\"190\" y=\"283\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">+2,0 nC</text><line x1=\"215\" y1=\"230\" x2=\"340\" y2=\"230\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"340.00,230.00 331.90,233.91 331.90,226.09\" fill=\"#547286\"/><text x=\"355\" y=\"237\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">x</text><line x1=\"190\" y1=\"203\" x2=\"190\" y2=\"130\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"190.00,130.00 193.91,138.10 186.09,138.10\" fill=\"#547286\"/><text x=\"206\" y=\"137\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">y</text><line x1=\"70\" y1=\"315\" x2=\"190\" y2=\"315\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"190.00,315.00 181.90,318.91 181.90,311.09\" fill=\"#547286\"/><line x1=\"190\" y1=\"315\" x2=\"70\" y2=\"315\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"70.00,315.00 78.10,311.09 78.10,318.91\" fill=\"#547286\"/><text x=\"130\" y=\"344\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">0,20 m</text><line x1=\"140\" y1=\"50\" x2=\"140\" y2=\"230\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"140.00,230.00 136.09,221.90 143.91,221.90\" fill=\"#547286\"/><line x1=\"140\" y1=\"230\" x2=\"140\" y2=\"50\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"140.00,50.00 143.91,58.10 136.09,58.10\" fill=\"#547286\"/><text x=\"89\" y=\"142\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">0,30 m</text></svg></div><p>Bestäm den sammanlagda elektriska kraftens storlek på O och dess vinkel mot positiva x-riktningen. Svara i µN respektive grader med en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><p>A stöter O åt höger, eftersom båda är positiva. B drar O uppåt, eftersom laddningarna har olika tecken. Krafterna är vinkelräta.</p><p>Med Coulombs konstant k≈8,99·10⁹ N·m²/C² blir komponenterna:</p><p>Laddningsprodukterna är 2,0·10⁻⁹ · 3,0·10⁻⁹ = 6,0·10⁻¹⁸ C² för x-komponenten och 8,0·10⁻¹⁸ C² för y-komponenten.</p><div class=\"facit-matte\">\\[F_x=k\\frac{6{,}0\\cdot10^{-18}}{0{,}20^2}\\approx1{,}3485\\ \\mu\\mathrm N.\\]</div><div class=\"facit-matte\">\\[F_y=k\\frac{8{,}0\\cdot10^{-18}}{0{,}30^2}\\approx0{,}7991\\ \\mu\\mathrm N.\\]</div><p>Pythagoras ger kraftens storlek; kvoten mellan komponenterna ger vinkeln:</p><div class=\"facit-matte\">\\[F=\\sqrt{F_x^2+F_y^2}\\approx1{,}5675\\ \\mu\\mathrm N.\\]</div><div class=\"facit-matte\">\\[\\theta=\\arctan(F_y/F_x)\\approx30{,}7^\\circ.\\]</div><p><strong>Svar:</strong> 1,6 µN och 30,7° ovanför positiva x-axeln.</p></div>",
+    "ledtrad": "<p>Bestäm först riktningen på varje kraft på O. Vilka komponenter behöver sedan läggas ihop?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Kraftens storlek",
+      "Vinkel"
+    ]
+  },
+  {
+    "id": "8.521",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "Jordningen bryts i olika ordning",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "manuellKomplettering": false,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "svarFormat": "kort_text",
+    "svarEnhet": null,
+    "t": "<p>En oladdad metallkula kopplas till jorden. En negativt laddad stav hålls nära kulan utan att röra den. Detta görs i två försök. I A tas jordledningen bort först och sedan staven. I B tas staven bort först och sedan jordledningen.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"387\" viewBox=\"0 0 520 387\" role=\"img\" aria-label=\"Negativ stav nära jordad metallkula. Två olika ordningar för att ta bort jordning och stav.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"381\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><rect x=\"55\" y=\"66\" width=\"52\" height=\"140\" rx=\"10\" fill=\"#cde7f0\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"81\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"27\" fill=\"#173548\">−</text><text x=\"81\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"27\" fill=\"#173548\">−</text><text x=\"81\" y=\"183\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"27\" fill=\"#173548\">−</text><circle cx=\"260\" cy=\"133\" r=\"43\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"260\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">Metall</text><line x1=\"260\" y1=\"176\" x2=\"260\" y2=\"205\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"260\" y1=\"205\" x2=\"260\" y2=\"230\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"240\" y1=\"230\" x2=\"280\" y2=\"230\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"247\" y1=\"237\" x2=\"273\" y2=\"237\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"254\" y1=\"244\" x2=\"266\" y2=\"244\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"140\" y=\"259\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">Negativ stav</text><text x=\"260\" y=\"290\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">Samma start i båda försöken</text><text x=\"260\" y=\"326\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">A: jord bort, sedan stav bort</text><text x=\"260\" y=\"359\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">B: stav bort, sedan jord bort</text></svg></div><p>Vilken laddning har kulan när båda delarna är borttagna? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p>När den negativa staven förs fram stöts elektroner från kulan till jorden.</p><p>I A bryts jordledningen medan staven är kvar. Elektronerna kan då inte komma tillbaka genom ledningen. Kulan har ett elektronunderskott och blir positiv.</p><p>I B flyttas staven bort medan kulan fortfarande är jordad. Elektroner kan återvända från jorden och kulan blir neutral innan ledningen bryts.</p><p><strong>Svar:</strong> A ger positiv laddning; B ger ingen nettoladdning.</p></div>",
+    "ledtrad": "<p>I vilket försök finns det fortfarande en väg för elektroner att gå tillbaka när staven tas bort?</p>",
+    "alternativ": [
+      {
+        "txt": "A: positiv. B: oladdad.",
+        "ratt": true
+      },
+      {
+        "txt": "A: oladdad. B: positiv.",
+        "ratt": false
+      },
+      {
+        "txt": "Båda blir positivt laddade.",
+        "ratt": false
+      },
+      {
+        "txt": "Båda blir negativt laddade.",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "8.522",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "typ": "En laddning lämnar en metallåda",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "nC",
+    "t": "<p>En liten kula med laddningen +6,0 nC hålls inne i en sluten, från början oladdad metallåda på isolerande underlag. Kulan rör inte metallen. Lådan jordas medan kulan är kvar. Sedan kopplas jordledningen bort och kulan tas ut utan att röra lådan.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"322\" viewBox=\"0 0 520 322\" role=\"img\" aria-label=\"Positiv kula i ett hålrum i en metallåda med jordförbindelse.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"316\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><rect x=\"105\" y=\"48\" width=\"305\" height=\"213\" rx=\"10\" fill=\"#b8cbd3\" stroke=\"#234253\" stroke-width=\"2.2\"/><rect x=\"129\" y=\"72\" width=\"257\" height=\"165\" rx=\"4\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><circle cx=\"255\" cy=\"154\" r=\"28\" fill=\"#ffeed7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"255\" y=\"162\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">+</text><text x=\"255\" y=\"207\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">+6,0 nC</text><text x=\"260\" y=\"31\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">Metallåda</text><line x1=\"410\" y1=\"154\" x2=\"465\" y2=\"154\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"465\" y1=\"154\" x2=\"465\" y2=\"237\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"465\" y1=\"237\" x2=\"465\" y2=\"262\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"445\" y1=\"262\" x2=\"485\" y2=\"262\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"452\" y1=\"269\" x2=\"478\" y2=\"269\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"459\" y1=\"276\" x2=\"471\" y2=\"276\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"255\" y=\"297\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">Kulan rör inte lådan</text></svg></div><p>Vilken nettoladdning har lådan efter att jordledningen har kopplats bort och kulan tagits ut? Svara i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p>Kulan får elektroner i metallen att samlas på hålrummets yta. På insidan induceras totalt −6,0 nC. När lådan ännu är isolerad finns samtidigt +6,0 nC på utsidan, så lådans nettoladdning är 0.</p><p>Vid jordningen tillförs elektroner från jorden. Utsidans positiva laddning neutraliseras, medan insidans −6,0 nC finns kvar så länge kulan är inne. Lådans nettoladdning är då −6,0 nC.</p><p>När jordledningen bryts kan lådan inte längre utbyta laddning med jorden. Att ta ut kulan utan kontakt ändrar hur lådans laddning fördelas, men inte dess nettoladdning.</p><p><strong>Svar:</strong> −6,0 nC.</p></div>",
+    "ledtrad": "<p>Skilj på laddningens fördelning på lådan och lådans sammanlagda laddning. När kan lådan utbyta elektroner med jorden?</p>"
+  },
+  {
+    "id": "8.523",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "Kraften efter att kulorna har rört vid varandra",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.563,
+    "tolerans": 0.0005,
+    "svarFormat": "numeriskt",
+    "svarEnhet": null,
+    "t": "<p>Två små likadana metallkulor har laddningarna +8,0 nC och −2,0 nC. Avståndet mellan mittpunkterna är 10 cm. De får röra vid varandra och flyttas sedan tillbaka till samma avstånd.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"287\" viewBox=\"0 0 520 287\" role=\"img\" aria-label=\"Två identiska kulor med motsatta laddningar förs ihop och säras åter till samma avstånd.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"281\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><circle cx=\"135\" cy=\"100\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"135\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">+</text><text x=\"135\" y=\"60\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">A</text><text x=\"135\" y=\"153\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">+8,0 nC</text><circle cx=\"385\" cy=\"100\" r=\"25\" fill=\"#e5f1f6\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"385\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#173548\">−</text><text x=\"385\" y=\"60\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">B</text><text x=\"385\" y=\"153\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">−2,0 nC</text><line x1=\"135\" y1=\"184\" x2=\"385\" y2=\"184\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"385.00,184.00 376.90,187.91 376.90,180.09\" fill=\"#547286\"/><line x1=\"385\" y1=\"184\" x2=\"135\" y2=\"184\" stroke=\"#547286\" stroke-width=\"1.8\"/><polygon points=\"135.00,184.00 143.10,180.09 143.10,187.91\" fill=\"#547286\"/><text x=\"260\" y=\"213\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">10 cm</text><text x=\"260\" y=\"258\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">Kontakt – skiljs åt – 10 cm igen</text></svg></div><p>Hur stor är kraften efter kontakten jämfört med före? Ange kvoten kraftens storlek efter / kraftens storlek före, med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den totala laddningen är 8−2=6 nC. Efter kontakten har båda kulorna 3 nC.</p><p>Avståndet är samma före och efter. I kvoten stryks därför Coulombs konstant och avståndets kvadrat:</p><div class=\"facit-matte\">\\[\\frac{F_{\\mathrm{efter}}}{F_{\\mathrm{före}}}=\\frac{3\\cdot3}{8\\cdot2}=\\frac9{16}=0{,}5625.\\]</div><p>Före kontakten attraherar kulorna varandra. Efteråt repellerar de varandra, men frågan gäller bara kraftens storlek.</p><p><strong>Svar:</strong> 0,563. Kraften är drygt hälften så stor efter kontakten.</p></div>",
+    "ledtrad": "<p>Vad händer med kulornas laddningar vid kontakten? Vilka faktorer i kraftkvoten är oförändrade?</p>"
+  },
+  {
+    "id": "8.524",
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "poang": "0/2/0",
+    "typ": "En strömbrytare avslöjar två okända värden",
+    "familj": "Blandade kopplingar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      15
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "V",
+      "Ω"
+    ],
+    "t": "<p>Spänningskällan håller samma spänning i båda lägena. Strömmen från källan är 0,30 A med S öppen och 0,60 A med S sluten.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"405\" viewBox=\"0 0 520 405\" role=\"img\" aria-label=\"En resistor på 10 ohm i serie med 30 ohm parallellt med en okänd resistor som kopplas in med S.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"399\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"60\" y1=\"60\" x2=\"60\" y2=\"173.0\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"42\" y1=\"173.0\" x2=\"78\" y2=\"173.0\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"50\" y1=\"187.0\" x2=\"70\" y2=\"187.0\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"60\" y1=\"187.0\" x2=\"60\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"87\" y=\"154.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"87\" y=\"185.0\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">U?</text><line x1=\"60\" y1=\"60\" x2=\"320\" y2=\"60\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"308\" y=\"83\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"343\" y=\"117\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">10 Ω</text><line x1=\"320\" y1=\"60\" x2=\"320\" y2=\"83\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"320\" y1=\"137\" x2=\"320\" y2=\"163\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"320\" cy=\"163\" r=\"4\" fill=\"#234253\"/><line x1=\"320\" y1=\"163\" x2=\"210\" y2=\"163\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"320\" y1=\"163\" x2=\"430\" y2=\"163\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"198\" y=\"203\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"233\" y=\"237\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">30 Ω</text><line x1=\"210\" y1=\"163\" x2=\"210\" y2=\"203\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"210\" y1=\"257\" x2=\"210\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"430\" y1=\"163\" x2=\"430\" y2=\"185\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"430\" y1=\"185\" x2=\"449\" y2=\"203\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"430\" cy=\"209\" r=\"3\" fill=\"#fff\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"430\" y1=\"212\" x2=\"430\" y2=\"221\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"418\" y=\"221\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"453\" y=\"255\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">R?</text><line x1=\"430\" y1=\"275\" x2=\"430\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"60\" y1=\"300\" x2=\"430\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"320\" cy=\"300\" r=\"4\" fill=\"#234253\"/><text x=\"485\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">S</text><text x=\"260\" y=\"344\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">S öppen: 0,30 A</text><text x=\"260\" y=\"376\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">S sluten: 0,60 A</text></svg></div><p>Bestäm källans spänning och den okända resistansen R. Svara i V respektive Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Med S öppen går strömmen genom 10 Ω och 30 Ω i serie. Den okända grenen är bruten.</p><div class=\"facit-matte\">\\[U=0{,}30(10+30)=12\\ \\mathrm V.\\]</div><p>Med S sluten är spänningen fortfarande 12 V. Hela kretsens resistans blir:</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=12/0{,}60=20\\ \\Omega.\\]</div><p>Efter resistorn på 10 Ω återstår en parallellkoppling med resistansen 20−10=10 Ω.</p><div class=\"facit-matte\">\\[\\frac1{10}=\\frac1{30}+\\frac1R\\quad\\Rightarrow\\quad R=15\\ \\Omega.\\]</div><p><strong>Svar:</strong> 12 V och 15 Ω.</p></div>",
+    "ledtrad": "<p>Vilken väg kan strömmen ta när brytaren är öppen? Vad blir då hela kretsens resistans?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Spänning",
+      "R"
+    ]
+  },
+  {
+    "id": "8.525",
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "poang": "0/2/0",
+    "typ": "Batteriet provas med två belastningar",
+    "familj": "Ems, polspänning och inre resistans",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      1
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "V",
+      "Ω"
+    ],
+    "t": "<p>Samma batteri provas med en resistor i taget. Med 5,0 Ω blir polspänningen 10,0 V. Med 3,0 Ω blir polspänningen 9,0 V.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"337\" viewBox=\"0 0 520 337\" role=\"img\" aria-label=\"Samma batteri med två olika yttre resistorer; polspänning mäts mellan batteriets anslutningar.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"331\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"117\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">Försök A</text><line x1=\"55\" y1=\"67\" x2=\"55\" y2=\"140.5\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"37\" y1=\"140.5\" x2=\"73\" y2=\"140.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"45\" y1=\"154.5\" x2=\"65\" y2=\"154.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"55\" y1=\"154.5\" x2=\"55\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"82\" y=\"121.5\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"82\" y=\"152.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">Batteri</text><line x1=\"55\" y1=\"67\" x2=\"190\" y2=\"67\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"55\" y1=\"228\" x2=\"190\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"178\" y=\"119\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"213\" y=\"153\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">5,0 Ω</text><line x1=\"190\" y1=\"67\" x2=\"190\" y2=\"119\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"190\" y1=\"173\" x2=\"190\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"140\" y=\"281\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">10,0 V</text><text x=\"140\" y=\"312\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#173548\">Polspänning</text><text x=\"347\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">Försök B</text><line x1=\"285\" y1=\"67\" x2=\"285\" y2=\"140.5\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"267\" y1=\"140.5\" x2=\"303\" y2=\"140.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"275\" y1=\"154.5\" x2=\"295\" y2=\"154.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"285\" y1=\"154.5\" x2=\"285\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"312\" y=\"121.5\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"312\" y=\"152.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">Batteri</text><line x1=\"285\" y1=\"67\" x2=\"420\" y2=\"67\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"285\" y1=\"228\" x2=\"420\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"408\" y=\"119\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"443\" y=\"153\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">3,0 Ω</text><line x1=\"420\" y1=\"67\" x2=\"420\" y2=\"119\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"173\" x2=\"420\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"370\" y=\"281\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#173548\">9,0 V</text><text x=\"370\" y=\"312\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#173548\">Polspänning</text></svg></div><p>Bestäm batteriets ems och inre resistans. Svara i V respektive Ω.</p>",
+    "s": "<div class=\"facit-v2\"><p>Strömmen i varje försök fås från den uppmätta polspänningen och den yttre resistansen:</p><div class=\"facit-matte\">\\[I_A=10/5=2\\ \\mathrm A.\\]</div><div class=\"facit-matte\">\\[I_B=9/3=3\\ \\mathrm A.\\]</div><p>Ems E är polspänningen plus spänningsfallet över den inre resistansen r:</p><div class=\"facit-matte\">\\[E=10+2r.\\]</div><div class=\"facit-matte\">\\[E=9+3r.\\]</div><p>Samma E i båda försöken ger 10+2r=9+3r, alltså r=1 Ω. Insättning ger E=12 V.</p><p><strong>Svar:</strong> ems 12 V och inre resistans 1 Ω.</p></div>",
+    "ledtrad": "<p>Beräkna först strömmen i varje försök. Vilken spänning måste läggas till polspänningen för att få ems?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Ems",
+      "Inre resistans"
+    ]
+  },
+  {
+    "id": "8.526",
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "Voltmetern ändrar den spänning den mäter",
+    "familj": "Blandade kopplingar",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "V",
+      "mA"
+    ],
+    "t": "<p>Två resistorer på 1,0 kΩ är anslutna i serie till 6,0 V. En voltmeter med resistansen 1,0 kΩ kopplas över den nedre resistorn som i figuren.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"375\" viewBox=\"0 0 520 375\" role=\"img\" aria-label=\"En voltmeter med ändlig resistans parallellkopplas med den nedre av två lika serieresistorer.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"369\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"60\" y1=\"65\" x2=\"60\" y2=\"175.5\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"42\" y1=\"175.5\" x2=\"78\" y2=\"175.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"50\" y1=\"189.5\" x2=\"70\" y2=\"189.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"60\" y1=\"189.5\" x2=\"60\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"87\" y=\"156.5\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"87\" y=\"187.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">6,0 V</text><line x1=\"60\" y1=\"65\" x2=\"340\" y2=\"65\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"328\" y=\"91\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"363\" y=\"125\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">1,0 kΩ</text><line x1=\"340\" y1=\"65\" x2=\"340\" y2=\"91\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"340\" y1=\"145\" x2=\"340\" y2=\"169\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"340\" cy=\"169\" r=\"4\" fill=\"#234253\"/><rect x=\"328\" y=\"211\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"363\" y=\"245\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">1,0 kΩ</text><line x1=\"340\" y1=\"169\" x2=\"340\" y2=\"211\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"340\" y1=\"265\" x2=\"340\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"60\" y1=\"300\" x2=\"450\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"340\" y1=\"169\" x2=\"450\" y2=\"169\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"450\" y1=\"169\" x2=\"450\" y2=\"216\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"450\" cy=\"238\" r=\"22\" fill=\"#fff\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"450\" y=\"245\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">V</text><line x1=\"450\" y1=\"260\" x2=\"450\" y2=\"300\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"340\" cy=\"300\" r=\"4\" fill=\"#234253\"/><text x=\"260\" y=\"345\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">Voltmeterns resistans: 1,0 kΩ</text></svg></div><p>Vad visar voltmetern, och hur stor är strömmen från spänningskällan när mätaren är inkopplad? Svara i V respektive mA.</p>",
+    "s": "<div class=\"facit-v2\"><p>Voltmetern är en extra strömväg parallellt med den nedre resistorn. Två lika resistanser på 1 000 Ω ger 500 Ω tillsammans.</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=1000+500=1500\\ \\Omega.\\]</div><div class=\"facit-matte\">\\[I=6/1500=0{,}004\\ \\mathrm A=4\\ \\mathrm{mA}.\\]</div><p>Spänningen över den nedre parallellkopplingen är också voltmeterns spänning:</p><div class=\"facit-matte\">\\[U_V=0{,}004\\cdot500=2\\ \\mathrm V.\\]</div><p><strong>Svar:</strong> 2 V och 4 mA. Utan voltmetern skulle spänningen över den nedre resistorn vara 3 V.</p></div>",
+    "ledtrad": "<p>Vilka två delar har samma spänning när voltmetern kopplas in?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Voltmeterns utslag",
+      "Ström från källan"
+    ]
+  },
+  {
+    "id": "8.527",
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "Vilken spänning behövs för värmaren?",
+    "familj": "Blandade kopplingar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      83.33333333333334
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "V",
+      "%"
+    ],
+    "t": "<p>En värmare med resistansen 4,0 Ω ska utveckla minst 25 W. Var och en av de två anslutningsledningarna har resistansen 0,40 Ω.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"354\" viewBox=\"0 0 520 354\" role=\"img\" aria-label=\"Värmare och två resistiva anslutningsledningar bildar en seriekrets.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"348\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"60\" y1=\"70\" x2=\"60\" y2=\"163.0\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"42\" y1=\"163.0\" x2=\"78\" y2=\"163.0\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"50\" y1=\"177.0\" x2=\"70\" y2=\"177.0\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"60\" y1=\"177.0\" x2=\"60\" y2=\"270\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"87\" y=\"144.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"87\" y=\"175.0\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">U?</text><line x1=\"60\" y1=\"70\" x2=\"190\" y2=\"70\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"190\" y=\"58\" width=\"70\" height=\"24\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"225\" y=\"47\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">0,40 Ω</text><line x1=\"260\" y1=\"70\" x2=\"420\" y2=\"70\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"70\" x2=\"420\" y2=\"140\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"403\" y=\"140\" width=\"34\" height=\"60\" rx=\"0\" fill=\"#ffeed7\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"420\" y1=\"200\" x2=\"420\" y2=\"270\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"447\" y=\"157\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#173548\">Värmare</text><text x=\"465\" y=\"189\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">4,0 Ω</text><line x1=\"60\" y1=\"270\" x2=\"190\" y2=\"270\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"190\" y=\"258\" width=\"70\" height=\"24\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"225\" y=\"247\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">0,40 Ω</text><line x1=\"260\" y1=\"270\" x2=\"420\" y2=\"270\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"260\" y=\"326\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">Minst 25 W i värmaren</text></svg></div><p>Vilken spänning behövs minst från källan? Hur många procent av källans effekt hamnar då i värmaren? Svara i V och procent, med en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><p>Effektkravet bestämmer först vilken ström som behövs genom värmaren:</p><div class=\"facit-matte\">\\[I=\\sqrt{P_v/R_v}=\\sqrt{25/4}=2{,}50\\ \\mathrm A.\\]</div><p>Samma ström måste gå genom båda ledningarna:</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=0{,}40+4{,}0+0{,}40=4{,}80\\ \\Omega.\\]</div><div class=\"facit-matte\">\\[U=IR_{\\mathrm{tot}}=2{,}50\\cdot4{,}80=12{,}0\\ \\mathrm V.\\]</div><p>Värmaren ska få 25 W. Källan levererar dessutom effekt till ledningarna, så dess totala effekt blir:</p><div class=\"facit-matte\">\\[P_{\\mathrm{tot}}=UI=12\\cdot2{,}50=30{,}0\\ \\mathrm W.\\]</div><div class=\"facit-matte\">\\[\\frac{25{,}0}{30{,}0}\\cdot100\\approx83{,}3\\,\\%.\\]</div><p><strong>Svar:</strong> minst 12,0 V och 83,3 %. De återstående 5,0 W värmer ledningarna.</p></div>",
+    "ledtrad": "<p>Vilken ström behövs för den önskade effekten i värmaren? Vilka spänningsfall måste källan sedan klara?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Minsta spänning",
+      "Andel av källans effekt"
+    ]
+  },
+  {
+    "id": "8.528",
+    "kap": 8,
+    "omr": "seriekoppling",
+    "niva": "C",
+    "poang": "0/2/0",
+    "typ": "Vilken lampa får högst effekt i serie?",
+    "familj": "Spänningsdelning i seriekoppling",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.333333333333333,
+      2.6666666666666665
+    ],
+    "tolerans": [
+      0.005,
+      0.005
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "W",
+      "W"
+    ],
+    "t": "<p>Lampa A är märkt 6,0 V och 3,0 W. Lampa B är märkt 6,0 V och 6,0 W. De kopplas i serie till 12 V. I denna uppgift räknas lampornas resistanser som konstanta.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"310\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Två lampor med olika märkeffekt sitter i serie. Värdena visar märkdata, inte den faktiska spänningen i kretsen.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"304\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"145.5\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"47\" y1=\"145.5\" x2=\"83\" y2=\"145.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"55\" y1=\"159.5\" x2=\"75\" y2=\"159.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"65\" y1=\"159.5\" x2=\"65\" y2=\"235\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"92\" y=\"126.5\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"92\" y=\"157.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">12 V</text><line x1=\"65\" y1=\"70\" x2=\"420\" y2=\"70\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"65\" y1=\"235\" x2=\"420\" y2=\"235\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"70\" x2=\"420\" y2=\"97\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"420\" cy=\"122\" r=\"25\" fill=\"#ffeed7\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"405\" y1=\"107\" x2=\"435\" y2=\"137\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"405\" y1=\"137\" x2=\"435\" y2=\"107\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"147\" x2=\"420\" y2=\"167\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"420\" cy=\"192\" r=\"25\" fill=\"#ffeed7\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"405\" y1=\"177\" x2=\"435\" y2=\"207\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"405\" y1=\"207\" x2=\"435\" y2=\"177\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"217\" x2=\"420\" y2=\"235\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"275\" y=\"127\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">A: 6,0 V · 3,0 W</text><text x=\"275\" y=\"197\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">B: 6,0 V · 6,0 W</text><text x=\"260\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">Resistanserna antas vara konstanta</text></svg></div><p>Bestäm den faktiska effekten i varje lampa. Svara i W med två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>Märkdata anger effekten vid 6 V. Därifrån får vi varje lampas resistans:</p><div class=\"facit-matte\">\\[R_A=6^2/3=12\\ \\Omega.\\]</div><div class=\"facit-matte\">\\[R_B=6^2/6=6\\ \\Omega.\\]</div><p>Samma ström går genom båda lamporna i serie:</p><div class=\"facit-matte\">\\[I=12/(12+6)=2/3\\ \\mathrm A.\\]</div><div class=\"facit-matte\">\\[P_A=I^2R_A=(2/3)^2\\cdot12\\approx5{,}33\\ \\mathrm W.\\]</div><div class=\"facit-matte\">\\[P_B=I^2R_B=(2/3)^2\\cdot6\\approx2{,}67\\ \\mathrm W.\\]</div><p><strong>Svar:</strong> A: 5,33 W, B: 2,67 W. A överskrider sin märkeffekt medan B ligger under sin. Detta bygger på uppgiftens antagande om konstant resistans.</p></div>",
+    "ledtrad": "<p>Märkeffekterna gäller vid 6 V. Vad säger märkdata om varje lampas resistans?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Lampa A",
+      "Lampa B"
+    ]
+  },
+  {
+    "id": "8.529",
+    "kap": 8,
+    "omr": "kopplingar",
+    "niva": "A",
+    "poang": "0/0/2",
+    "typ": "Nollström i förbindelsen mellan grenarna",
+    "familj": "Blandade kopplingar",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      2.3333333333333335
+    ],
+    "tolerans": [
+      0.005,
+      0.005
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Ω",
+      "A"
+    ],
+    "t": "<p>Kretsen kopplas till 12 V. Amperemetern mellan grenarnas mittpunkter visar 0,00 A.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"340\" viewBox=\"0 0 520 340\" role=\"img\" aria-label=\"Två seriekopplade resistorgrenar har en ampermeter mellan mittpunkterna. Strömmen i den förbindelsen är noll.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"334\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"55\" y1=\"60\" x2=\"55\" y2=\"178.0\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"37\" y1=\"178.0\" x2=\"73\" y2=\"178.0\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"45\" y1=\"192.0\" x2=\"65\" y2=\"192.0\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"55\" y1=\"192.0\" x2=\"55\" y2=\"310\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"82\" y=\"159.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"82\" y=\"190.0\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">12 V</text><line x1=\"55\" y1=\"60\" x2=\"440\" y2=\"60\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"55\" y1=\"310\" x2=\"440\" y2=\"310\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"210\" y1=\"60\" x2=\"210\" y2=\"86\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"198\" y=\"86\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"233\" y=\"120\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">6,0 Ω</text><line x1=\"210\" y1=\"140\" x2=\"210\" y2=\"185\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"210\" cy=\"185\" r=\"4\" fill=\"#234253\"/><line x1=\"210\" y1=\"185\" x2=\"210\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"198\" y=\"228\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"233\" y=\"262\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">3,0 Ω</text><line x1=\"210\" y1=\"282\" x2=\"210\" y2=\"310\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"440\" y1=\"60\" x2=\"440\" y2=\"86\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"428\" y=\"86\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"463\" y=\"120\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">R?</text><line x1=\"440\" y1=\"140\" x2=\"440\" y2=\"185\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"440\" cy=\"185\" r=\"4\" fill=\"#234253\"/><line x1=\"440\" y1=\"185\" x2=\"440\" y2=\"228\" stroke=\"#234253\" stroke-width=\"2.3\"/><rect x=\"428\" y=\"228\" width=\"24\" height=\"54\" rx=\"0\" fill=\"#eef4f7\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"463\" y=\"262\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">4,0 Ω</text><line x1=\"440\" y1=\"282\" x2=\"440\" y2=\"310\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"210\" cy=\"60\" r=\"4\" fill=\"#234253\"/><circle cx=\"440\" cy=\"60\" r=\"4\" fill=\"#234253\"/><circle cx=\"210\" cy=\"310\" r=\"4\" fill=\"#234253\"/><circle cx=\"440\" cy=\"310\" r=\"4\" fill=\"#234253\"/><line x1=\"210\" y1=\"185\" x2=\"303\" y2=\"185\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"325\" cy=\"185\" r=\"22\" fill=\"#fff\" stroke=\"#234253\" stroke-width=\"2.2\"/><text x=\"325\" y=\"192\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">A</text><line x1=\"347\" y1=\"185\" x2=\"440\" y2=\"185\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"325\" y=\"157\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">0,00 A</text></svg></div><p>Bestäm den okända resistansen R och strömmen från spänningskällan. Svara i Ω respektive A med två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>Noll ström genom amperemetern innebär att mittpunkterna har samma potential. Den vänstra grenen har resistansen 6+3=9 Ω och strömmen 12/9=4/3 A.</p><p>Spänningen över dess nedre resistor blir därför (4/3)·3=4 V. Den högra nedre resistorn måste ha samma spänning.</p><div class=\"facit-matte\">\\[I_{\\mathrm{höger}}=4/4=1\\ \\mathrm A.\\]</div><p>Över den okända övre resistorn återstår 12−4=8 V.</p><div class=\"facit-matte\">\\[R=8/1=8\\ \\Omega.\\]</div><p>Eftersom ingen ström går mellan grenarna adderas bara de två grenströmmarna:</p><div class=\"facit-matte\">\\[I_{\\mathrm{tot}}=4/3+1=7/3\\approx2{,}33\\ \\mathrm A.\\]</div><p><strong>Svar:</strong> R=8,00 Ω och strömmen 2,33 A.</p></div>",
+    "ledtrad": "<p>Vad måste gälla för mittpunkternas spänningar när ingen ström går mellan dem?</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "R",
+      "Ström från källan"
+    ]
   }
 ];

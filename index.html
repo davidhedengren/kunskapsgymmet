@@ -3449,6 +3449,24 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 @media(max-width:800px){.kgstat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.kgstat-grafer{grid-template-columns:1fr}}
 @media(max-width:480px){.kgstat-kort{padding:12px}.kgstat-kort strong{font-size:24px}.kgstat-panel{padding:12px}.kgstat-grid{gap:8px}.admin-user-snabb{display:none}.kgstat-chart{gap:3px}.kgstat-kurser>div{flex-direction:column;gap:5px}}
 
+
+/* Fristående önskemål och allmänna problem. */
+#kg-onskemal-ruta .modal-kort{padding:0;display:flex;flex-direction:column;max-height:calc(100dvh - 32px)}
+#kg-onskemal-ruta .modal-topp{padding:20px 22px 10px;flex:none}
+#kg-onskemal-ruta .modal-topp h2{flex:1}
+.kg-onskemal-kropp{padding:0 22px 18px;overflow:auto;min-height:0}
+.kg-onskemal-kropp label,.kg-onskemal-edit label{display:block;margin:12px 0 6px;font-size:14px;color:var(--ink2)}
+.kg-onskemal-kropp label span{font-size:12px;color:var(--ink3)}
+.kg-onskemal-kropp input,.kg-onskemal-kropp select,.kg-onskemal-kropp textarea,.kg-onskemal-edit select,.kg-onskemal-edit textarea,.kg-onskemal-toolbar select{width:100%;box-sizing:border-box;border:1px solid var(--hair);border-radius:10px;padding:10px;background:var(--surface2);color:var(--ink);font:inherit}
+.kg-onskemal-kropp textarea,.kg-onskemal-edit textarea{resize:vertical}
+.kg-onskemal-kropp .modal-fot{padding:14px 0 0;flex-wrap:wrap}
+.kg-onskemal-fel{font-size:13px;color:var(--warn);overflow-wrap:anywhere}
+.kg-onskemal-post{padding:16px;border:1px solid var(--hair);border-radius:14px;background:var(--surface2);margin:12px 0;min-width:0}
+.kg-onskemal-rad{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.kg-onskemal-rad span{font-size:13px;color:var(--ink2)}
+.kg-onskemal-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px;line-height:1.6}
+.kg-onskemal-toolbar{display:flex;gap:12px;align-items:end;flex-wrap:wrap}
+.kg-onskemal-toolbar label{display:grid;gap:6px;min-width:150px}
 </style>
 </head>
 
@@ -3583,6 +3601,8 @@ function sparaSession(s){
   if(session?.user?.id!==s?.user?.id){
     arAdmin=false;
     kgOnlineRensa();
+    if(typeof kgOnskemalRensa==='function')kgOnskemalRensa();
+    document.querySelectorAll('[data-kg-admin]').forEach(el=>el.remove());
     document.getElementById('mina-felrapporter')?.remove();
     felloggUtkast.clear();felloggSparar.clear();felloggFel.clear();
     stangFellogg();
@@ -5771,7 +5791,7 @@ function kontoMeny(ev){
       <div class="menyrubrik">Administration</div>
       <button class="btn sm wide" onclick="oppnaAdmin('anvandare')">Användare &amp; rapporter</button>
       <button class="btn sm wide" onclick="oppnaFelrapportLogg()" style="margin-top:6px">Granska felrapporter</button>
-      <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button>
+      <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button><button class="btn sm wide" onclick="oppnaAdmin('onskemal')" style="margin-top:6px">Inskickade önskemål</button>
     </div>`:""}
 
     <div class="menyfalt">
@@ -5782,7 +5802,7 @@ function kontoMeny(ev){
       ${arElevRoll?"":`<button class="btn sm wide quiet" onclick="oppnaLararprofil()" style="margin-top:6px">Jag är lärare</button>`}`}
     </div>
 
-    <div class="menyfalt"><button class="btn sm wide" onclick="oppnaMinaFelrapporter()">Mina felrapporter</button></div>
+    <div class="menyfalt"><button class="btn sm wide" onclick="kgOnskemalOppna()">Skicka in önskemål</button><button class="btn sm wide" onclick="kgOnskemalMina()" style="margin-top:6px">Mina önskemål</button><button class="btn sm wide" onclick="oppnaMinaFelrapporter()" style="margin-top:6px">Mina felrapporter</button></div>
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
   document.body.appendChild(el);
   const r=ev.currentTarget.getBoundingClientRect();
@@ -6052,6 +6072,7 @@ function kgAdminRita(){
       <button class="${kgAdminFlik==="oversikt"?"pa":""}" onclick="kgAdminBytFlik('oversikt')">Översikt</button>
       <button class="${kgAdminFlik==="anvandare"||kgAdminFlik==="detalj"?"pa":""}" onclick="kgAdminBytFlik('anvandare')">Användare</button>
       <button class="${kgAdminFlik==="rapporter"?"pa":""}" onclick="kgAdminBytFlik('rapporter')">Felrapporter</button>
+      <button class="${kgAdminFlik==="onskemal"?"pa":""}" onclick="kgAdminBytFlik('onskemal')">Önskemål</button>
       <button class="${kgAdminFlik==="klasser"?"pa":""}" onclick="kgAdminBytFlik('klasser')">Klasser</button>
       <button class="${kgAdminFlik==="larare"?"pa":""}" onclick="kgAdminBytFlik('larare')">Lärare</button>
       <button class="${kgAdminFlik==="skolor"?"pa":""}" onclick="kgAdminBytFlik('skolor')">Skolor</button>
@@ -6143,6 +6164,7 @@ function kgAdminRitaLista(){
   const host=document.getElementById("adminlista"); if(!host) return;
   if(kgAdminFlik==="oversikt"){ kgAdminRitaOversikt(host); return; }
   if(kgAdminFlik==="detalj"){ kgAdminRitaDetalj(host); return; }
+  if(kgAdminFlik==="onskemal"){ kgOnskemalAdminRita(host); return; }
   if(kgAdminFlik==="klasser"){ kgAdminRitaKlasser(host); return; }
   if(kgAdminFlik==="larare"){ kgAdminRitaLarare(host); return; }
   if(kgAdminFlik==="skolor"){ kgAdminRitaSkolor(host); return; }
@@ -16688,5 +16710,6 @@ function kvRita(snabb){
 }
 </script>
 <script src="admin-statistik.js?v=2026-10-11-analys"></script>
+<script src="onskemal.js?v=2026-10-13"></script>
 </body>
 </html>

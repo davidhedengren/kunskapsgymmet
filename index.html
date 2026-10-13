@@ -3949,7 +3949,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-13-felrapporter-matematik";
+const BANK_VERSION="2026-10-13-antal-satt";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9986,6 +9986,7 @@ function formatRatt(anv,facit,meta){
 
   switch(format){
     case "primtalsfaktorisering": return primtalsfaktoriseringRatt(anv,facit);
+    case "antal_satt": return antalSattRatt(anv,facit);
     case "multipel": {
       // Endast storleksförhållanden: ord får inte bli antal, krafter eller tryck.
       const ord=stadaSvar(a).toLowerCase().replace(/[.!]$/, "").trim();
@@ -10380,7 +10381,29 @@ function primtalsfaktoriseringRatt(anv,facit){
   try{const value=product();return pos===s.length&&value===target;}catch(_){return false;}
 }
 
+/* Avgränsat till diskreta antal med svarFormat "antal_satt". Fakultet,
+   produkt och korrekta likhetskedjor beskriver samma antal ordningar. */
+function antalSattRatt(anv,facit){
+  const value=x=>{
+    const normalized=normalizeMathInput(x);
+    return isPureNumberExpression(normalized)?numericValue(tillNerdamer(normalized)):NaN;
+  };
+  const expected=value(latexToPlain(String(facit)));
+  if(!Number.isSafeInteger(expected)||expected<0) return false;
+  let raw=latexToPlain(stadaSvar(anv));
+  if(raw.length>500)return false;
+  raw=raw.replace(/^(?:antal(?:\s+sätt)?|[A-Za-z])\s*=\s*/i,"");
+  const terms=raw.split("=");
+  return terms.length>0 && terms.every(term=>{
+    const expression=term.trim().replace(/\s*(?:(?:olika|möjliga)\s+)?(?:sätt|ordningar)\s*\.?$/i,"").trim();
+    if(!expression)return false;
+    const result=value(expression);
+    return Number.isSafeInteger(result) && result===expected;
+  });
+}
+
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  if(format==="antal_satt")return antalSattRatt(anv,facit);
   if(format==="primtalsfaktorisering")return primtalsfaktoriseringRatt(anv,facit);
   if(format==="brak_i_intervall")return exempelBrakRatt(anv,t?.svarVillkor);
   if(format==="negativt_talpar")return negativtTalparRatt(anv,t?.svarVillkor);

@@ -4496,12 +4496,12 @@ window.BANKMATF1 = [
     "familj": "Permutationer och ordnade urval",
     "svarstyp": "numeriskt",
     "rättSvar": 5040,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -4548,12 +4548,12 @@ window.BANKMATF1 = [
     "familj": "Permutationer och ordningar med placeringsvillkor",
     "svarstyp": "numeriskt",
     "rättSvar": 80640,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -4865,20 +4865,20 @@ window.BANKMATF1 = [
     "typ": "ordna personer i rad",
     "poang": "2/0/0",
     "t": "<p>Sex olika personer ställer sig i en kö. På hur många sätt kan de stå?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Alla sex personer är olika och alla platser används. Antalet permutationer är</p><div class=\"facit-matte\">\\[6!=720\\]</div><p><strong>720 sätt</strong>.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Första platsen i kön kan tas av någon av de 6 personerna. När den är fylld finns 5 personer kvar till nästa plats, sedan 4 och så vidare.</p><p>Multiplicera antalet val för de sex platserna:</p><div class=\"facit-matte\">\\[6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1=6!=720.\\]</div><p><strong>Svar:</strong> 720 sätt.</p></div>",
     "id": "1.136",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Permutationer och ordnade urval",
     "svarstyp": "numeriskt",
     "rättSvar": 720,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "svarFormat": "antal_satt",
+    "ledtrad": "<p>Hur många personer kan stå först? Hur många finns sedan kvar till nästa plats?</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -31516,7 +31516,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 1,
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -31543,7 +31543,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 1,
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -31570,7 +31570,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"

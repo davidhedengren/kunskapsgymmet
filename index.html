@@ -3969,7 +3969,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-13-avrundning";
+const BANK_VERSION="2026-10-13-begrepp-svar";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10129,12 +10129,15 @@ function formatRatt(anv,facit,meta){
       return la.every((v,i)=>naraNog(helTalvarde(v),helTalvarde(lf[i]),tol) || algebraisktLika(v,lf[i])===true);
     }
     case "lösningsmängd": case "losningsmangd": case "mängd": case "mangd": {
+      /* Ett extra avslutande listskiljetecken påverkar inte mängdens element.
+         Avgränsa toleransen till mängdformatet; decimaltal och koordinater lämnas orörda. */
+      const mangdSvar=String(a).replace(/[,;]\s*$/,"").trim();
       /* Den tomma mängden kan skrivas {}, ∅, Ø eller "tomma mängden". */
       const tom=x=>/^\s*(\{\s*\}|∅|Ø|ø|tomma mängden|den tomma mängden|saknar lösning|inga lösningar)\s*$/i.test(String(x));
-      if(tom(f)||tom(a)) return tom(f)&&tom(a);
+      if(tom(f)||tom(mangdSvar)) return tom(f)&&tom(mangdSvar);
       /* Gradtecken skrivs ofta efter varje lösning ("25,6°, 64,4°") och påverkar inte värdet. */
       const utanGrad=x=>String(x).replace(/\s*°/g,"");
-      const la=listaAv(utanGrad(a)).map(hogerled), lf=listaAv(utanGrad(f)).map(hogerled);
+      const la=listaAv(utanGrad(mangdSvar)).map(hogerled), lf=listaAv(utanGrad(f)).map(hogerled);
       const kvar=[...lf];
       if(la.length===lf.length && la.every(v=>{
         const i=kvar.findIndex(k=>naraNog(helTalvarde(v),helTalvarde(k),tol)||algebraisktLika(v,k)===true);
@@ -10143,7 +10146,7 @@ function formatRatt(anv,facit,meta){
       })) return true;
       /* "x=30,150" och "x=30°, 150°": samma rötter skrivna som en lista efter ett gemensamt "x=". */
       /* I facits mängd är kommat alltid en avgränsare, aldrig ett decimalkomma. */
-      return rotListaRatt(utanGrad(a),utanGrad(f).replace(/^\s*\{|\}\s*$/g,"").replace(/,\s*/g,", "),tol)===true;
+      return rotListaRatt(utanGrad(mangdSvar),utanGrad(f).replace(/^\s*\{|\}\s*$/g,"").replace(/,\s*/g,", "),tol)===true;
     }
     case "intervall": case "intervall_tal": {
       const ia=intervallAv(a), ifa=intervallAv(f);

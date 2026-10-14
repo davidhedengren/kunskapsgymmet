@@ -41724,9 +41724,9 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "E",
+    "niva": "C",
     "typ": "friktionstal ur glidsträcka",
-    "poang": "(2/0/0)",
+    "poang": "(0/2/0)",
     "t": "<p>En puck glider med startfarten 20,0 m/s på vågrät is och stannar efter 112 m. Glidfriktionen är den enda bromsande kraften och är konstant.  Bestäm glidfriktionstalet med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{20{,}0^2}{2\\cdot112}\\,\\mathrm{m/s^2}\\]<p>Friktionen är μmg, så mb = μmg ger μ = b/g.</p>\\[\\mu=\\frac{20{,}0^2}{2\\cdot112\\cdot9{,}82}\\approx0{,}18\\]</div>",
     "id": "4.533",
@@ -41743,7 +41743,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(v^2=2\\mu gs\\).</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
     "arbetsinsats": 1,
     "spel": true
@@ -41909,9 +41909,9 @@ window.BANK = [
   {
     "kap": 4,
     "omr": "friktion",
-    "niva": "E",
+    "niva": "C",
     "typ": "pulka som glider ut",
-    "poang": "(2/0/0)",
+    "poang": "(1/1/0)",
     "t": "<p>En pulka glider ut på vågrät mark med 4,0 m/s och stannar efter 15,0 m. Glidfriktionen är den enda bromsande kraften och är konstant.</p><ol type=\"a\"><li>Bestäm retardationen i m/s² med två decimaler.</li><li>Bestäm glidfriktionstalet med tre decimaler.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{4{,}0^2}{2\\cdot15{,}0}=0{,}533333\\ldots\\,\\mathrm{m/s^2}\\]<p>Svar: 0,53 m/s².</p><p><strong>b)</strong></p><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{4{,}0^2}{2\\cdot15{,}0}=0{,}533333\\ldots\\,\\mathrm{m/s^2}\\]<p>Friktionen är μmg och bromsar med mb. Massan förkortas bort.</p>\\[\\mu=\\frac{b}{g}=\\frac{4{,}0^2}{2\\cdot15{,}0\\cdot9{,}82}\\approx0{,}054\\]</div>",
     "id": "4.536",
@@ -41964,14 +41964,14 @@ window.BANK = [
         "t": "<p>En pulka glider ut på vågrät mark med 4,0 m/s och stannar efter 15,0 m. Glidfriktionen är den enda bromsande kraften och är konstant.</p><p>Bestäm glidfriktionstalet med tre decimaler.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid stopp är slutfarten noll. Sambandet 0 = v₀² − 2bs ger retardationen</p>\\[b=\\frac{v_0^2}{2s}=\\frac{4{,}0^2}{2\\cdot15{,}0}=0{,}533333\\ldots\\,\\mathrm{m/s^2}\\]<p>Friktionen är μmg och bromsar med mb. Massan förkortas bort.</p>\\[\\mu=\\frac{b}{g}=\\frac{4{,}0^2}{2\\cdot15{,}0\\cdot9{,}82}\\approx0{,}054\\]</div>",
         "ledtrad": "<p>\\(\\mu mg=ma\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2,
-        "arbetsinsats": 1
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
       }
     ],
     "ledtrad": "<p>Bromssträckan beror inte på massan.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
     "arbetsinsats": 2,
     "spel": true
@@ -46808,7 +46808,7 @@ window.BANK = [
         "ledtrad": "<p>Rita krafterna på B.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 4,
         "arbetsinsats": 2
       },
       {
@@ -46824,7 +46824,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Rita krafterna på en kula i taget.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "newton2__motstandskrafter_och_kopplade_kroppar",
     "arbetsinsats": 2,
     "spel": true

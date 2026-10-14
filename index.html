@@ -3249,7 +3249,7 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 /* ===== Hjälpmedel: formelblad och miniräknare ===== */
 .hm-grupp{margin-left:auto;display:flex;gap:8px;align-items:center}
 .hm-grupp:empty{display:none}
-.hmknapp{display:inline-flex;align-items:center;gap:7px}
+.hmknapp{display:inline-flex;align-items:center;gap:7px;text-decoration:none}
 .hmknapp svg{width:18px;height:18px;flex:none}
 .hmknapp.pa{background:var(--accSoft);color:var(--accInk);border-color:transparent}
 @media(max-width:640px){
@@ -3969,7 +3969,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-14-statistik-sx";
+const BANK_VERSION="2026-10-14-statistik-geogebra";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7012,7 +7012,7 @@ function expandGameTask(t){
 
     // Fristående kort kan ange avrundade mellanresultat och egna svar.
     // Då är kortets uttryckliga rättningsmetadata överordnad läraruppgiftens.
-    for(const key of ["rättSvar","tolerans","självrättning","svarEnhet","svarFormat","manuellKomplettering"]){
+    for(const key of ["rättSvar","tolerans","självrättning","svarEnhet","svarFormat","manuellKomplettering","miniräknare","geogebra"]){
       if(Object.prototype.hasOwnProperty.call(del,key)) q[key]=del[key];
     }
     if(Array.isArray(q.rättSvar) && q.rättSvar.length>1){
@@ -15624,6 +15624,9 @@ function hjalpKnappar(t){
       onclick="hjalpVaxla('formel')" title="Formelblad" aria-pressed="${hjalp.formel}">${HJALP_IKON.formel}<span>Formelblad</span></button>`);
   if(raknareTillaten(t)) k.push(`<button class="btn hmknapp${hjalp.raknare?" pa":""}" data-hjalp="raknare"
       onclick="hjalpVaxla('raknare')" title="Miniräknare" aria-pressed="${hjalp.raknare}">${HJALP_IKON.raknare}<span>Miniräknare</span></button>`);
+  if(t?.geogebra===true) k.push(`<a class="btn hmknapp" data-hjalp="geogebra"
+      href="https://www.geogebra.org/classic?lang=sv" target="_blank" rel="noopener noreferrer"
+      title="Öppna GeoGebra i en ny flik" aria-label="Öppna GeoGebra i en ny flik"><span>GeoGebra</span><span aria-hidden="true">↗</span></a>`);
   return k.join("");
 }
 function hjalpVaxla(vad){

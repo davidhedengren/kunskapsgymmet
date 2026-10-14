@@ -4,7 +4,7 @@ const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
 const c=vm.createContext({window:{},hjalp:{grader:true},state:{lastIds:[],passHistory:[],currentTask:{}},SEDDA_KARENS_MAX:250,MANGD_FORMAT:new Set(['mängd']),arAlt:()=>false});
 vm.runInContext(html.slice(html.indexOf('const MATTEFUNKTIONER='),html.indexOf('function explicitMultiplikation(')),c);
 vm.runInContext(html.slice(html.indexOf('const SVAR_ORD='),html.indexOf('function taggatAntalSvar(')),c);
-for(const name of ['latexToPlain','normalizeDecimalComma','normalizeMathInput','explicitMultiplikation','isPureNumberExpression','tillNerdamer','numericValue','raknTolka','primtalsfaktoriseringRatt','stadaSvar','naraNog','hogerled','taltolk','formatRatt','visatFacitTal','visatFacitUttryck','visatSvar','uppgiftsAlder','farskaUppgifter','metadataForDel','expandGameTask','nastlat','faltVarde','faltFlagga','svarsPlan','autoPerDel','expectedAnswersForTask','taggatAntalSvar','subtaskLetters','answerLayout','checkAnswer']){
+for(const name of ['latexToPlain','normalizeDecimalComma','normalizeMathInput','explicitMultiplikation','isPureNumberExpression','tillNerdamer','numericValue','raknTolka','primtalsfaktoriseringRatt','stadaSvar','naraNog','hogerled','taltolk','formatRatt','visatFacitTal','visatFacitUttryck','visatSvar','uppgiftsAlder','farskaUppgifter','metadataForDel','expandGameTask','nastlat','faltVarde','faltFlagga','svarsPlan','autoPerDel','expectedAnswersForTask','taggatAntalSvar','subtaskLetters','answerLayout','samlatMangdsvarTillatet','checkAnswer']){
  const start=html.indexOf(`function ${name}(`);assert.ok(start>=0,name);vm.runInContext(html.slice(start,html.indexOf('\n}',start)+2),c);
 }
 const value=s=>c.numericValue(c.tillNerdamer(c.normalizeMathInput(s)));

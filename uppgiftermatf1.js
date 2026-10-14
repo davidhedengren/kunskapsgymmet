@@ -2921,13 +2921,13 @@ window.BANKMATF1 = [
     "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -2951,15 +2951,15 @@ window.BANKMATF1 = [
     "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 2100,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -4102,23 +4102,41 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "välja och ordna utan återläggning",
     "poang": "1/0/0",
-    "t": "<p>Ett fotbollslag har 16 spelare. Fem ska utses till straffläggare och ordningen ska bestämmas. Vilket uttryck ger antalet möjliga straffläggarlistor?</p><p>A) \\(P(16,5)\\) &nbsp; B) \\(\\binom{16}{5}\\) &nbsp; C) \\(16!\\) &nbsp; D) \\(11!\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>Idé:</strong> Här väljer vi både <em>vilka</em> fem spelare som ska slå och <em>i vilken ordning</em> de ska slå. När ordningen spelar roll använder vi permutationer. För första straffen finns 16 val, därefter 15, 14, 13 och 12:</p><div class=\"facit-matte\">\\[P(16,5)=16\\cdot15\\cdot14\\cdot13\\cdot12\\]</div><p>Rätt alternativ är alltså <strong>A</strong>.</p></div>",
+    "t": "<p>Ett fotbollslag har 16 spelare. Fem ska utses till straffläggare. Varje spelare får slå en straff, och ordningen ska bestämmas.</p><p>Vilket uttryck ger antalet möjliga straffläggarlistor? Välj ett alternativ.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"150\" viewBox=\"0 0 440 150\" role=\"img\" aria-label=\"Fem numrerade platser i straffläggarlistan\"><rect width=\"440\" height=\"150\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"220\" y=\"30\" text-anchor=\"middle\">Straffläggarnas ordning</text><rect x=\"35\" y=\"53\" width=\"60\" height=\"48\" fill=\"#e6eff9\" stroke=\"#2463a2\"/><text x=\"65\" y=\"83\" text-anchor=\"middle\">1</text><rect x=\"112\" y=\"53\" width=\"60\" height=\"48\" fill=\"#e6eff9\" stroke=\"#2463a2\"/><text x=\"142\" y=\"83\" text-anchor=\"middle\">2</text><rect x=\"189\" y=\"53\" width=\"60\" height=\"48\" fill=\"#e6eff9\" stroke=\"#2463a2\"/><text x=\"219\" y=\"83\" text-anchor=\"middle\">3</text><rect x=\"266\" y=\"53\" width=\"60\" height=\"48\" fill=\"#e6eff9\" stroke=\"#2463a2\"/><text x=\"296\" y=\"83\" text-anchor=\"middle\">4</text><rect x=\"343\" y=\"53\" width=\"60\" height=\"48\" fill=\"#e6eff9\" stroke=\"#2463a2\"/><text x=\"373\" y=\"83\" text-anchor=\"middle\">5</text><text x=\"220\" y=\"133\" text-anchor=\"middle\">En spelare på varje plats</text></g></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>Idé:</strong> Här väljer vi både <em>vilka</em> fem spelare som ska slå och <em>i vilken ordning</em> de ska slå. När ordningen spelar roll använder vi permutationer. För första straffen finns 16 val, därefter 15, 14, 13 och 12:</p><div class=\"facit-matte\">\\[P(16,5)=16\\cdot15\\cdot14\\cdot13\\cdot12\\]</div><p>Rätt uttryck är alltså \\(P(16,5)\\). Kombinationer räknar grupper utan ordning; \\(16!\\) räknar alla 16 spelare i en lista, och \\(11!\\) räknar bara de elva som inte valts.</p></div>",
     "id": "1.20",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Permutationer och ordnade urval",
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
+    ],
+    "alternativ": [
+      {
+        "txt": "\\(P(16,5)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\binom{16}{5}\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(16!\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(11!\\)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -4135,14 +4153,14 @@ window.BANKMATF1 = [
     "familj": "Kombinationer och urval",
     "svarstyp": "numeriskt",
     "rättSvar": 33649,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -4161,13 +4179,13 @@ window.BANKMATF1 = [
     "familj": "Permutationer och ordningar med placeringsvillkor",
     "svarstyp": "numeriskt",
     "rättSvar": 622080,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>Behandla det som måste sitta ihop som ett block. Räkna både blockets placering bland övriga objekt och eventuell intern ordning i blocket.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -4188,12 +4206,12 @@ window.BANKMATF1 = [
     "familj": "Kombinationer och urval",
     "svarstyp": "numeriskt",
     "rättSvar": 2598960,
-    "tolerans": null,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "antal_satt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -21659,8 +21677,8 @@ window.BANKMATF1 = [
     "typ": "linjär approximation med figur",
     "poang": "2/0/0",
     "id": "3.26",
-    "t": "<span class=\"fig\"><svg height=\"270\" width=\"390\" viewBox=\"0 0 390 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen till y lika med roten ur x och tangentlinjen vid x lika med 16\">\n<rect width=\"390\" height=\"270\" fill=\"white\"/>\n<line x1=\"40.0\" y1=\"30\" x2=\"40.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"34.0\" y=\"257\" font-size=\"12\">12</text><line x1=\"95.0\" y1=\"30\" x2=\"95.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"89.0\" y=\"257\" font-size=\"12\">13</text><line x1=\"150.0\" y1=\"30\" x2=\"150.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"144.0\" y=\"257\" font-size=\"12\">14</text><line x1=\"205.0\" y1=\"30\" x2=\"205.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"199.0\" y=\"257\" font-size=\"12\">15</text><line x1=\"260.0\" y1=\"30\" x2=\"260.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"254.0\" y=\"257\" font-size=\"12\">16</text><line x1=\"315.0\" y1=\"30\" x2=\"315.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"309.0\" y=\"257\" font-size=\"12\">17</text><line x1=\"370.0\" y1=\"30\" x2=\"370.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"364.0\" y=\"257\" font-size=\"12\">18</text><line x1=\"425.0\" y1=\"30\" x2=\"425.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"419.0\" y=\"257\" font-size=\"12\">19</text><line x1=\"480.0\" y1=\"30\" x2=\"480.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"474.0\" y=\"257\" font-size=\"12\">20</text><line x1=\"35\" y1=\"226.0\" x2=\"370\" y2=\"226.0\" stroke=\"#e6e6e6\"/><line x1=\"35\" y1=\"181.0\" x2=\"370\" y2=\"181.0\" stroke=\"#e6e6e6\"/><line x1=\"35\" y1=\"136.0\" x2=\"370\" y2=\"136.0\" stroke=\"#e6e6e6\"/>\n<line x1=\"35\" y1=\"235\" x2=\"375\" y2=\"235\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"40\" y1=\"245\" x2=\"40\" y2=\"25\" stroke=\"#222\" stroke-width=\"2\"/>\n<path d=\"M 40.0,229.2 L 43.7,228.4 L 47.3,227.5 L 51.0,226.6 L 54.7,225.8 L 58.3,224.9 L 62.0,224.1 L 65.7,223.2 L 69.3,222.4 L 73.0,221.5 L 76.7,220.7 L 80.3,219.8 L 84.0,219.0 L 87.7,218.2 L 91.3,217.3 L 95.0,216.5 L 98.7,215.7 L 102.3,214.8 L 106.0,214.0 L 109.7,213.2 L 113.3,212.4 L 117.0,211.5 L 120.7,210.7 L 124.3,209.9 L 128.0,209.1 L 131.7,208.3 L 135.3,207.5 L 139.0,206.7 L 142.7,205.9 L 146.3,205.1 L 150.0,204.3 L 153.7,203.5 L 157.3,202.7 L 161.0,201.9 L 164.7,201.1 L 168.3,200.3 L 172.0,199.5 L 175.7,198.7 L 179.3,197.9 L 183.0,197.1 L 186.7,196.3 L 190.3,195.5 L 194.0,194.8 L 197.7,194.0 L 201.3,193.2 L 205.0,192.4 L 208.7,191.7 L 212.3,190.9 L 216.0,190.1 L 219.7,189.3 L 223.3,188.6 L 227.0,187.8 L 230.7,187.1 L 234.3,186.3 L 238.0,185.5 L 241.7,184.8 L 245.3,184.0 L 249.0,183.3 L 252.7,182.5 L 256.3,181.8 L 260.0,181.0 L 263.7,180.3 L 267.3,179.5 L 271.0,178.8 L 274.7,178.0 L 278.3,177.3 L 282.0,176.5 L 285.7,175.8 L 289.3,175.0 L 293.0,174.3 L 296.7,173.6 L 300.3,172.8 L 304.0,172.1 L 307.7,171.4 L 311.3,170.6 L 315.0,169.9 L 318.7,169.2 L 322.3,168.5 L 326.0,167.7 L 329.7,167.0 L 333.3,166.3 L 337.0,165.6 L 340.7,164.9 L 344.3,164.1 L 348.0,163.4 L 351.7,162.7 L 355.3,162.0 L 359.0,161.3 L 362.7,160.6 L 366.3,159.9 L 370.0,159.2 L 373.7,158.5 L 377.3,157.8 L 381.0,157.0 L 384.7,156.3 L 388.3,155.6 L 392.0,154.9 L 395.7,154.2 L 399.3,153.5 L 403.0,152.9 L 406.7,152.2 L 410.3,151.5 L 414.0,150.8 L 417.7,150.1 L 421.3,149.4 L 425.0,148.7 L 428.7,148.0 L 432.3,147.3 L 436.0,146.6 L 439.7,146.0 L 443.3,145.3 L 447.0,144.6 L 450.7,143.9 L 454.3,143.2 L 458.0,142.6 L 461.7,141.9 L 465.3,141.2 L 469.0,140.5 L 472.7,139.9 L 476.3,139.2 L 480.0,138.5\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.6\"/>\n<path d=\"M 40.0,226.0 L 43.7,225.2 L 47.3,224.5 L 51.0,223.8 L 54.7,223.0 L 58.3,222.2 L 62.0,221.5 L 65.7,220.7 L 69.3,220.0 L 73.0,219.2 L 76.7,218.5 L 80.3,217.7 L 84.0,217.0 L 87.7,216.2 L 91.3,215.5 L 95.0,214.8 L 98.7,214.0 L 102.3,213.2 L 106.0,212.5 L 109.7,211.8 L 113.3,211.0 L 117.0,210.2 L 120.7,209.5 L 124.3,208.8 L 128.0,208.0 L 131.7,207.3 L 135.3,206.5 L 139.0,205.8 L 142.7,205.0 L 146.3,204.2 L 150.0,203.5 L 153.7,202.8 L 157.3,202.0 L 161.0,201.2 L 164.7,200.5 L 168.3,199.7 L 172.0,199.0 L 175.7,198.2 L 179.3,197.5 L 183.0,196.7 L 186.7,196.0 L 190.3,195.2 L 194.0,194.5 L 197.7,193.8 L 201.3,193.0 L 205.0,192.2 L 208.7,191.5 L 212.3,190.8 L 216.0,190.0 L 219.7,189.2 L 223.3,188.5 L 227.0,187.8 L 230.7,187.0 L 234.3,186.2 L 238.0,185.5 L 241.7,184.8 L 245.3,184.0 L 249.0,183.2 L 252.7,182.5 L 256.3,181.8 L 260.0,181.0 L 263.7,180.3 L 267.3,179.5 L 271.0,178.7 L 274.7,178.0 L 278.3,177.3 L 282.0,176.5 L 285.7,175.7 L 289.3,175.0 L 293.0,174.2 L 296.7,173.5 L 300.3,172.7 L 304.0,172.0 L 307.7,171.2 L 311.3,170.5 L 315.0,169.8 L 318.7,169.0 L 322.3,168.2 L 326.0,167.5 L 329.7,166.8 L 333.3,166.0 L 337.0,165.2 L 340.7,164.5 L 344.3,163.8 L 348.0,163.0 L 351.7,162.2 L 355.3,161.5 L 359.0,160.8 L 362.7,160.0 L 366.3,159.2 L 370.0,158.5 L 373.7,157.8 L 377.3,157.0 L 381.0,156.2 L 384.7,155.5 L 388.3,154.8 L 392.0,154.0 L 395.7,153.2 L 399.3,152.5 L 403.0,151.7 L 406.7,151.0 L 410.3,150.2 L 414.0,149.5 L 417.7,148.8 L 421.3,148.0 L 425.0,147.2 L 428.7,146.5 L 432.3,145.8 L 436.0,145.0 L 439.7,144.2 L 443.3,143.5 L 447.0,142.8 L 450.7,142.0 L 454.3,141.2 L 458.0,140.5 L 461.7,139.7 L 465.3,139.0 L 469.0,138.3 L 472.7,137.5 L 476.3,136.7 L 480.0,136.0\" fill=\"none\" stroke=\"#777\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/>\n<circle cx=\"260.0\" cy=\"181.0\" r=\"4\" fill=\"#222\"/>\n<text x=\"160\" y=\"55\" font-size=\"14\">y = √x</text>\n<text x=\"210\" y=\"148\" font-size=\"14\">tangent</text>\n</svg></span><p>Använd tangentlinjen i \\(x=16\\) för att uppskatta \\(\\sqrt{16{,}3}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet.</p></li><li><p class=\"facit-metod\">I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Låt</p><div class=\"facit-matte\">\\[f(x)=\\sqrt{x}\\].</div></div></li><li><p>Då är \\(f(16)=4\\) och</p></li><li><p>\\[f'(x)=\\frac{1}{2\\sqrt{x}}\\Rightarrow f'(16)=\\frac{1}{8}.\\]</p></li><li><p>Tangentlinjen i \\(x=16\\) blir därför</p></li><li><p>\\[L(x)=4+\\frac{1}{8}(x-16).\\]</p></li><li><p>För \\(x=16,3\\) får vi</p></li><li><p>\\[L(16,3)=4+\\frac{1}{8}\\cdot 0{,}3=4+0{,}0375=4{,}0375.\\]</p></li></ol><p class=\"facit-svar\"><strong>Uppskattningen blir \\(\\sqrt{16{,}3}\\approx 4{,}0375\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En linjär approximation ska ligga nära funktionsvärdet när x ligger nära utvecklingspunkten.</p></li><li><p class=\"facit-not\">Jämför gärna tecken och storleksordning.</p></li></ol></div>",
+    "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = √x och tangenten vid x = 16\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = √x och tangenten vid x = 16</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">12</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">3,3</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">14</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">3,65</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">16</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">4</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">18</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">4,35</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">20</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">4,7</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,209.84 L60.75,208.66 L63.50,207.48 L66.25,206.31 L69.00,205.14 L71.75,203.97 L74.50,202.80 L77.25,201.64 L80.00,200.48 L82.75,199.33 L85.50,198.18 L88.25,197.03 L91.00,195.88 L93.75,194.74 L96.50,193.60 L99.25,192.46 L102.00,191.33 L104.75,190.20 L107.50,189.07 L110.25,187.94 L113.00,186.82 L115.75,185.70 L118.50,184.58 L121.25,183.47 L124.00,182.35 L126.75,181.24 L129.50,180.14 L132.25,179.03 L135.00,177.93 L137.75,176.84 L140.50,175.74 L143.25,174.65 L146.00,173.56 L148.75,172.47 L151.50,171.38 L154.25,170.30 L157.00,169.22 L159.75,168.14 L162.50,167.07 L165.25,165.99 L168.00,164.92 L170.75,163.85 L173.50,162.79 L176.25,161.72 L179.00,160.66 L181.75,159.60 L184.50,158.55 L187.25,157.49 L190.00,156.44 L192.75,155.39 L195.50,154.35 L198.25,153.30 L201.00,152.26 L203.75,151.22 L206.50,150.18 L209.25,149.15 L212.00,148.11 L214.75,147.08 L217.50,146.05 L220.25,145.02 L223.00,144.00 L225.75,142.98 L228.50,141.96 L231.25,140.94 L234.00,139.92 L236.75,138.91 L239.50,137.90 L242.25,136.88 L245.00,135.88 L247.75,134.87 L250.50,133.87 L253.25,132.86 L256.00,131.86 L258.75,130.87 L261.50,129.87 L264.25,128.88 L267.00,127.88 L269.75,126.89 L272.50,125.90 L275.25,124.92 L278.00,123.93 L280.75,122.95 L283.50,121.97 L286.25,120.99 L289.00,120.01 L291.75,119.04 L294.50,118.07 L297.25,117.09 L300.00,116.12 L302.75,115.16 L305.50,114.19 L308.25,113.23 L311.00,112.26 L313.75,111.30 L316.50,110.34 L319.25,109.39 L322.00,108.43 L324.75,107.48 L327.50,106.52 L330.25,105.57 L333.00,104.63 L335.75,103.68 L338.50,102.73 L341.25,101.79 L344.00,100.85 L346.75,99.91 L349.50,98.97 L352.25,98.03 L355.00,97.10 L357.75,96.16 L360.50,95.23 L363.25,94.30 L366.00,93.37 L368.75,92.44 L371.50,91.52 L374.25,90.59 L377.00,89.67 L379.75,88.75 L382.50,87.83 L385.25,86.91 L388.00,85.99\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,205.43 L60.75,204.40 L63.50,203.38 L66.25,202.36 L69.00,201.33 L71.75,200.31 L74.50,199.29 L77.25,198.26 L80.00,197.24 L82.75,196.21 L85.50,195.19 L88.25,194.17 L91.00,193.14 L93.75,192.12 L96.50,191.10 L99.25,190.07 L102.00,189.05 L104.75,188.02 L107.50,187.00 L110.25,185.98 L113.00,184.95 L115.75,183.93 L118.50,182.90 L121.25,181.88 L124.00,180.86 L126.75,179.83 L129.50,178.81 L132.25,177.79 L135.00,176.76 L137.75,175.74 L140.50,174.71 L143.25,173.69 L146.00,172.67 L148.75,171.64 L151.50,170.62 L154.25,169.60 L157.00,168.57 L159.75,167.55 L162.50,166.52 L165.25,165.50 L168.00,164.48 L170.75,163.45 L173.50,162.43 L176.25,161.40 L179.00,160.38 L181.75,159.36 L184.50,158.33 L187.25,157.31 L190.00,156.29 L192.75,155.26 L195.50,154.24 L198.25,153.21 L201.00,152.19 L203.75,151.17 L206.50,150.14 L209.25,149.12 L212.00,148.10 L214.75,147.07 L217.50,146.05 L220.25,145.02 L223.00,144.00 L225.75,142.98 L228.50,141.95 L231.25,140.93 L234.00,139.90 L236.75,138.88 L239.50,137.86 L242.25,136.83 L245.00,135.81 L247.75,134.79 L250.50,133.76 L253.25,132.74 L256.00,131.71 L258.75,130.69 L261.50,129.67 L264.25,128.64 L267.00,127.62 L269.75,126.60 L272.50,125.57 L275.25,124.55 L278.00,123.52 L280.75,122.50 L283.50,121.48 L286.25,120.45 L289.00,119.43 L291.75,118.40 L294.50,117.38 L297.25,116.36 L300.00,115.33 L302.75,114.31 L305.50,113.29 L308.25,112.26 L311.00,111.24 L313.75,110.21 L316.50,109.19 L319.25,108.17 L322.00,107.14 L324.75,106.12 L327.50,105.10 L330.25,104.07 L333.00,103.05 L335.75,102.02 L338.50,101.00 L341.25,99.98 L344.00,98.95 L346.75,97.93 L349.50,96.90 L352.25,95.88 L355.00,94.86 L357.75,93.83 L360.50,92.81 L363.25,91.79 L366.00,90.76 L368.75,89.74 L371.50,88.71 L374.25,87.69 L377.00,86.67 L379.75,85.64 L382.50,84.62 L385.25,83.60 L388.00,82.57\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span><p>Använd tangentlinjen i \\(x=16\\) för att uppskatta \\(\\sqrt{16{,}3}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>För \\(f(x)=\\sqrt{x}\\) är \\(f\\prime(x)=1/(2\\sqrt{x})\\). Vid x = 16 är värdet 4 och tangentens lutning 1/8.</p><p>Ökningen i x är \\(16{,}3-16=0{,}3\\), så tangentlinjen ger</p><div class=\"facit-matte\">\\[4+\\frac18\\cdot0{,}3=4{,}0375.\\]</div><p><strong>Svar:</strong> \\(\\sqrt{16{,}3}\\approx4{,}0375\\).</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
@@ -22693,8 +22711,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation av logaritm med figur",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"205\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till y = ln x med tangent i x = 1\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"211\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"50\" y1=\"190\" x2=\"380\" y2=\"190\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"35\" stroke=\"#555\" stroke-width=\"2\"/>\n<path d=\"M 70 170 C 130 135, 180 120, 325 84\" fill=\"none\" stroke=\"#0e5d9e\" stroke-width=\"2.5\"/>\n<line x1=\"82\" y1=\"158\" x2=\"340\" y2=\"93\" stroke=\"#b45f32\" stroke-width=\"2\"/>\n<circle cx=\"210\" cy=\"126\" r=\"4\" fill=\"#333\"/>\n<text x=\"217\" y=\"121\" font-size=\"12\">x = 1</text>\n<text x=\"280\" y=\"79\" font-size=\"13\">y = ln x</text>\n<text x=\"288\" y=\"103\" font-size=\"13\">tangent</text>\n</svg></span><p>Använd tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) för att uppskatta \\(\\ln(1,05)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled.</p></li><li><p class=\"facit-metod\">Det gör tecken, exponenter och eventuella villkor synliga.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi linjäriserar funktionen \\(f(x)=\\ln x\\) kring \\(x=1\\).</p></li><li><p>\\[f(1)=0,\\qquad f'(x)=\\frac{1}{x}\\Rightarrow f'(1)=1.\\]</p></li><li><p>Tangentlinjen blir därför</p></li><li><p>\\[L(x)=f(1)+f'(1)(x-1)=x-1.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt in</p><div class=\"facit-matte\">\\[x=1{,}05\\]:</div></div></li><li><p>\\[\\ln(1,05)\\approx L(1,05)=1{,}05-1=0{,}05.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\ln(1,05)\\approx0{,}05\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En linjär approximation ska ligga nära funktionsvärdet när x ligger nära utvecklingspunkten.</p></li><li><p class=\"facit-not\">Jämför gärna tecken och storleksordning.</p></li></ol></div>",
+    "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = ln x och tangenten vid x = 1\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = ln x och tangenten vid x = 1</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">0,6</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">-0,6</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">0,8</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">-0,35</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">1</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">-0,1</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">1,2</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">0,15</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">1,4</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">0,4</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,214.66 L60.75,212.76 L63.50,210.88 L66.25,209.02 L69.00,207.18 L71.75,205.36 L74.50,203.56 L77.25,201.78 L80.00,200.01 L82.75,198.27 L85.50,196.54 L88.25,194.83 L91.00,193.13 L93.75,191.46 L96.50,189.79 L99.25,188.15 L102.00,186.52 L104.75,184.90 L107.50,183.30 L110.25,181.72 L113.00,180.15 L115.75,178.59 L118.50,177.05 L121.25,175.52 L124.00,174.00 L126.75,172.50 L129.50,171.01 L132.25,169.54 L135.00,168.07 L137.75,166.62 L140.50,165.18 L143.25,163.75 L146.00,162.34 L148.75,160.93 L151.50,159.54 L154.25,158.16 L157.00,156.79 L159.75,155.43 L162.50,154.08 L165.25,152.74 L168.00,151.41 L170.75,150.10 L173.50,148.79 L176.25,147.49 L179.00,146.20 L181.75,144.92 L184.50,143.65 L187.25,142.39 L190.00,141.14 L192.75,139.90 L195.50,138.67 L198.25,137.44 L201.00,136.23 L203.75,135.02 L206.50,133.82 L209.25,132.63 L212.00,131.45 L214.75,130.27 L217.50,129.11 L220.25,127.95 L223.00,126.80 L225.75,125.66 L228.50,124.52 L231.25,123.39 L234.00,122.27 L236.75,121.16 L239.50,120.05 L242.25,118.95 L245.00,117.86 L247.75,116.78 L250.50,115.70 L253.25,114.63 L256.00,113.56 L258.75,112.50 L261.50,111.45 L264.25,110.41 L267.00,109.37 L269.75,108.33 L272.50,107.31 L275.25,106.29 L278.00,105.27 L280.75,104.26 L283.50,103.26 L286.25,102.26 L289.00,101.27 L291.75,100.29 L294.50,99.31 L297.25,98.33 L300.00,97.36 L302.75,96.40 L305.50,95.44 L308.25,94.49 L311.00,93.54 L313.75,92.60 L316.50,91.66 L319.25,90.73 L322.00,89.80 L324.75,88.88 L327.50,87.96 L330.25,87.05 L333.00,86.14 L335.75,85.24 L338.50,84.34 L341.25,83.45 L344.00,82.56 L346.75,81.67 L349.50,80.79 L352.25,79.92 L355.00,79.05 L357.75,78.18 L360.50,77.32 L363.25,76.46 L366.00,75.61 L368.75,74.76 L371.50,73.91 L374.25,73.07 L377.00,72.23 L379.75,71.40 L382.50,70.57 L385.25,69.75 L388.00,68.93\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,195.60 L60.75,194.45 L63.50,193.31 L66.25,192.16 L69.00,191.01 L71.75,189.87 L74.50,188.72 L77.25,187.57 L80.00,186.43 L82.75,185.28 L85.50,184.13 L88.25,182.99 L91.00,181.84 L93.75,180.69 L96.50,179.55 L99.25,178.40 L102.00,177.25 L104.75,176.11 L107.50,174.96 L110.25,173.81 L113.00,172.67 L115.75,171.52 L118.50,170.37 L121.25,169.23 L124.00,168.08 L126.75,166.93 L129.50,165.79 L132.25,164.64 L135.00,163.49 L137.75,162.35 L140.50,161.20 L143.25,160.05 L146.00,158.91 L148.75,157.76 L151.50,156.61 L154.25,155.47 L157.00,154.32 L159.75,153.17 L162.50,152.03 L165.25,150.88 L168.00,149.73 L170.75,148.59 L173.50,147.44 L176.25,146.29 L179.00,145.15 L181.75,144.00 L184.50,142.85 L187.25,141.71 L190.00,140.56 L192.75,139.41 L195.50,138.27 L198.25,137.12 L201.00,135.97 L203.75,134.83 L206.50,133.68 L209.25,132.53 L212.00,131.39 L214.75,130.24 L217.50,129.09 L220.25,127.95 L223.00,126.80 L225.75,125.65 L228.50,124.51 L231.25,123.36 L234.00,122.21 L236.75,121.07 L239.50,119.92 L242.25,118.77 L245.00,117.63 L247.75,116.48 L250.50,115.33 L253.25,114.19 L256.00,113.04 L258.75,111.89 L261.50,110.75 L264.25,109.60 L267.00,108.45 L269.75,107.31 L272.50,106.16 L275.25,105.01 L278.00,103.87 L280.75,102.72 L283.50,101.57 L286.25,100.43 L289.00,99.28 L291.75,98.13 L294.50,96.99 L297.25,95.84 L300.00,94.69 L302.75,93.55 L305.50,92.40 L308.25,91.25 L311.00,90.11 L313.75,88.96 L316.50,87.81 L319.25,86.67 L322.00,85.52 L324.75,84.37 L327.50,83.23 L330.25,82.08 L333.00,80.93 L335.75,79.79 L338.50,78.64 L341.25,77.49 L344.00,76.35 L346.75,75.20 L349.50,74.05 L352.25,72.91 L355.00,71.76 L357.75,70.61 L360.50,69.47 L363.25,68.32 L366.00,67.17 L368.75,66.03 L371.50,64.88 L374.25,63.73 L377.00,62.59 L379.75,61.44 L382.50,60.29 L385.25,59.15 L388.00,58.00\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"126.80\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span><p>Använd tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) för att uppskatta \\(\\ln(1,05)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>För \\(f(x)=\\ln x\\) är \\(f\\prime(x)=1/x\\). Vid x = 1 är värdet 0 och lutningen 1. Tangentlinjen är därför \\(y=x-1\\).</p><div class=\"facit-matte\">\\[\\ln(1{,}05)\\approx1{,}05-1=0{,}05.\\]</div><p><strong>Svar:</strong> 0,05.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
@@ -47966,15 +47984,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
-    "t": "<p>Använd linjär approximation av \\(\\sqrt{x}\\) kring \\(x=25\\) för att uppskatta \\(\\sqrt{25{,}4}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> För \\(f(x)=\\sqrt x\\) är \\(f(25)=5\\) och \\(f'(25)=1/10\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[L(x)=5+\\frac1{10}(x-25).\\]</p></li><li><p>\\[L(25,4)=5+0{,}04=5{,}04.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,04</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "t": "<p>Använd tangentlinjen till \\(f(x)=\\sqrt{x}\\) vid \\(x=36\\) för att uppskatta \\(\\sqrt{36{,}6}\\). Du får använda att \\(f(36)=6\\) och \\(f\\prime(36)=1/12\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Tangentens utgångspunkt\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Tangentens utgångspunkt</text><text x=\"28\" y=\"68\">x</text><text x=\"392\" y=\"68\" text-anchor=\"end\">36</text><text x=\"28\" y=\"103\">f(x)</text><text x=\"392\" y=\"103\" text-anchor=\"end\">6</text><text x=\"28\" y=\"138\">Lutning</text><text x=\"392\" y=\"138\" text-anchor=\"end\">1/12</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Värdet ökar med ungefär lutningen gånger ändringen i x: \\[6+\\frac1{12}\\cdot0{,}6=6{,}05.\\]</p><p><strong>Svar:</strong> 6,05.</p></div>",
     "id": "3.277",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.04,
-    "tolerans": 0.001,
+    "rättSvar": 6.05,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -47982,7 +48000,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47993,15 +48011,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
-    "t": "<p>Använd linjär approximation av \\(\\sqrt{x}\\) kring \\(x=16\\) för att uppskatta \\(\\sqrt{15{,}8}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Välj den närliggande punkten 16 där roten är exakt.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(16)=4\\],</div></li><li><div class=\"facit-matte\">\\[f'(16)=1/8\\].</div></li><li><p>\\[L(15,8)=4+\\frac18(-0,2)=3{,}975.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,975</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "t": "<p>Vid \\(x=5\\) gäller \\(f(5)=12\\) och \\(f\\prime(5)=-3\\). Använd tangentlinjen där för att uppskatta \\(f(4{,}9)\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Tangentens utgångspunkt\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Tangentens utgångspunkt</text><text x=\"28\" y=\"68\">x</text><text x=\"392\" y=\"68\" text-anchor=\"end\">5</text><text x=\"28\" y=\"103\">f(x)</text><text x=\"392\" y=\"103\" text-anchor=\"end\">12</text><text x=\"28\" y=\"138\">Lutning</text><text x=\"392\" y=\"138\" text-anchor=\"end\">−3</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Ändringen i x är \\(4{,}9-5=-0{,}1\\). Tangenten ger \\[12+(-3)\\cdot(-0{,}1)=12{,}3.\\] När x minskar och lutningen är negativ ökar funktionsvärdet.</p><p><strong>Svar:</strong> 12,3.</p></div>",
     "id": "3.278",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.975,
-    "tolerans": 0.001,
+    "rättSvar": 12.3,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48009,7 +48027,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -48047,15 +48065,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
-    "t": "<p>Använd den linjära approximationen till \\(\\ln x\\) kring \\(x=1\\) för att uppskatta \\(\\ln(1,04)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Tangentlinjen till \\(\\ln x\\) vid 1 är särskilt enkel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(1)=0\\],</div></li><li><div class=\"facit-matte\">\\[f'(1)=1\\].</div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[L(x)=x-1\\].</div></div></li><li><div class=\"facit-matte\">\\[L(1,04)=0{,}04\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,04</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "t": "<p>Tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) är \\(y=x-1\\). Använd den för att uppskatta \\(\\ln(0{,}97)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = ln x och tangenten vid x = 1\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = ln x och tangenten vid x = 1</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">0,8</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">-0,25</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">0,9</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">-0,125</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">1</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">0</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">1,1</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">0,125</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">1,2</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">0,25</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,220.76 L60.75,219.33 L63.50,217.91 L66.25,216.49 L69.00,215.08 L71.75,213.67 L74.50,212.27 L77.25,210.87 L80.00,209.48 L82.75,208.10 L85.50,206.72 L88.25,205.35 L91.00,203.98 L93.75,202.62 L96.50,201.26 L99.25,199.91 L102.00,198.56 L104.75,197.22 L107.50,195.88 L110.25,194.55 L113.00,193.23 L115.75,191.91 L118.50,190.59 L121.25,189.28 L124.00,187.97 L126.75,186.67 L129.50,185.38 L132.25,184.09 L135.00,182.80 L137.75,181.52 L140.50,180.24 L143.25,178.97 L146.00,177.71 L148.75,176.44 L151.50,175.19 L154.25,173.93 L157.00,172.68 L159.75,171.44 L162.50,170.20 L165.25,168.96 L168.00,167.73 L170.75,166.51 L173.50,165.29 L176.25,164.07 L179.00,162.85 L181.75,161.64 L184.50,160.44 L187.25,159.24 L190.00,158.04 L192.75,156.85 L195.50,155.66 L198.25,154.48 L201.00,153.30 L203.75,152.12 L206.50,150.95 L209.25,149.78 L212.00,148.62 L214.75,147.46 L217.50,146.30 L220.25,145.15 L223.00,144.00 L225.75,142.86 L228.50,141.71 L231.25,140.58 L234.00,139.44 L236.75,138.31 L239.50,137.19 L242.25,136.07 L245.00,134.95 L247.75,133.83 L250.50,132.72 L253.25,131.61 L256.00,130.51 L258.75,129.41 L261.50,128.31 L264.25,127.22 L267.00,126.13 L269.75,125.04 L272.50,123.96 L275.25,122.88 L278.00,121.80 L280.75,120.73 L283.50,119.66 L286.25,118.59 L289.00,117.53 L291.75,116.47 L294.50,115.41 L297.25,114.35 L300.00,113.30 L302.75,112.26 L305.50,111.21 L308.25,110.17 L311.00,109.13 L313.75,108.10 L316.50,107.07 L319.25,106.04 L322.00,105.01 L324.75,103.99 L327.50,102.97 L330.25,101.96 L333.00,100.94 L335.75,99.93 L338.50,98.93 L341.25,97.92 L344.00,96.92 L346.75,95.92 L349.50,94.93 L352.25,93.93 L355.00,92.94 L357.75,91.96 L360.50,90.97 L363.25,89.99 L366.00,89.01 L368.75,88.04 L371.50,87.06 L374.25,86.09 L377.00,85.12 L379.75,84.16 L382.50,83.20 L385.25,82.24 L388.00,81.28\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,212.80 L60.75,211.65 L63.50,210.51 L66.25,209.36 L69.00,208.21 L71.75,207.07 L74.50,205.92 L77.25,204.77 L80.00,203.63 L82.75,202.48 L85.50,201.33 L88.25,200.19 L91.00,199.04 L93.75,197.89 L96.50,196.75 L99.25,195.60 L102.00,194.45 L104.75,193.31 L107.50,192.16 L110.25,191.01 L113.00,189.87 L115.75,188.72 L118.50,187.57 L121.25,186.43 L124.00,185.28 L126.75,184.13 L129.50,182.99 L132.25,181.84 L135.00,180.69 L137.75,179.55 L140.50,178.40 L143.25,177.25 L146.00,176.11 L148.75,174.96 L151.50,173.81 L154.25,172.67 L157.00,171.52 L159.75,170.37 L162.50,169.23 L165.25,168.08 L168.00,166.93 L170.75,165.79 L173.50,164.64 L176.25,163.49 L179.00,162.35 L181.75,161.20 L184.50,160.05 L187.25,158.91 L190.00,157.76 L192.75,156.61 L195.50,155.47 L198.25,154.32 L201.00,153.17 L203.75,152.03 L206.50,150.88 L209.25,149.73 L212.00,148.59 L214.75,147.44 L217.50,146.29 L220.25,145.15 L223.00,144.00 L225.75,142.85 L228.50,141.71 L231.25,140.56 L234.00,139.41 L236.75,138.27 L239.50,137.12 L242.25,135.97 L245.00,134.83 L247.75,133.68 L250.50,132.53 L253.25,131.39 L256.00,130.24 L258.75,129.09 L261.50,127.95 L264.25,126.80 L267.00,125.65 L269.75,124.51 L272.50,123.36 L275.25,122.21 L278.00,121.07 L280.75,119.92 L283.50,118.77 L286.25,117.63 L289.00,116.48 L291.75,115.33 L294.50,114.19 L297.25,113.04 L300.00,111.89 L302.75,110.75 L305.50,109.60 L308.25,108.45 L311.00,107.31 L313.75,106.16 L316.50,105.01 L319.25,103.87 L322.00,102.72 L324.75,101.57 L327.50,100.43 L330.25,99.28 L333.00,98.13 L335.75,96.99 L338.50,95.84 L341.25,94.69 L344.00,93.55 L346.75,92.40 L349.50,91.25 L352.25,90.11 L355.00,88.96 L357.75,87.81 L360.50,86.67 L363.25,85.52 L366.00,84.37 L368.75,83.23 L371.50,82.08 L374.25,80.93 L377.00,79.79 L379.75,78.64 L382.50,77.49 L385.25,76.35 L388.00,75.20\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Sätt in \\(x=0{,}97\\) i tangentens ekvation: \\[0{,}97-1=-0{,}03.\\]</p><p><strong>Svar:</strong> -0,03.</p></div>",
     "id": "3.280",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.04,
-    "tolerans": 0.001,
+    "rättSvar": -0.03,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48063,7 +48081,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -48074,15 +48092,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
-    "t": "<p>Använd linjär approximation av \\(e^x\\) kring \\(x=0\\) för att uppskatta \\(e^{0{,}03}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Vid \\(x=0\\) är både \\(e^x\\) och dess derivata lika med 1.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L(x)=1+x\\].</div></li><li><p>Därför \\(e^{0{,}03}\\approx1{,}03\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,03</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "t": "<p>Tangentlinjen till \\(y=e^{-x}\\) vid \\(x=0\\) är \\(y=1-x\\). Använd den för att uppskatta \\(e^{-0{,}04}\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = e⁻ˣ och tangenten vid x = 0\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = e⁻ˣ och tangenten vid x = 0</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">-0,2</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">0,75</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">-0,1</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">0,875</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">0</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">1</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">0,1</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">1,125</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">0,2</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">1,25</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,67.84 L60.75,69.24 L63.50,70.63 L66.25,72.02 L69.00,73.40 L71.75,74.78 L74.50,76.16 L77.25,77.53 L80.00,78.89 L82.75,80.26 L85.50,81.61 L88.25,82.96 L91.00,84.31 L93.75,85.66 L96.50,86.99 L99.25,88.33 L102.00,89.66 L104.75,90.98 L107.50,92.31 L110.25,93.62 L113.00,94.94 L115.75,96.24 L118.50,97.55 L121.25,98.85 L124.00,100.14 L126.75,101.43 L129.50,102.72 L132.25,104.00 L135.00,105.28 L137.75,106.55 L140.50,107.82 L143.25,109.09 L146.00,110.35 L148.75,111.60 L151.50,112.86 L154.25,114.11 L157.00,115.35 L159.75,116.59 L162.50,117.83 L165.25,119.06 L168.00,120.28 L170.75,121.51 L173.50,122.73 L176.25,123.94 L179.00,125.16 L181.75,126.36 L184.50,127.57 L187.25,128.77 L190.00,129.96 L192.75,131.15 L195.50,132.34 L198.25,133.52 L201.00,134.70 L203.75,135.88 L206.50,137.05 L209.25,138.22 L212.00,139.38 L214.75,140.54 L217.50,141.70 L220.25,142.85 L223.00,144.00 L225.75,145.14 L228.50,146.29 L231.25,147.42 L234.00,148.56 L236.75,149.69 L239.50,150.81 L242.25,151.93 L245.00,153.05 L247.75,154.17 L250.50,155.28 L253.25,156.38 L256.00,157.49 L258.75,158.59 L261.50,159.68 L264.25,160.78 L267.00,161.87 L269.75,162.95 L272.50,164.03 L275.25,165.11 L278.00,166.19 L280.75,167.26 L283.50,168.32 L286.25,169.39 L289.00,170.45 L291.75,171.50 L294.50,172.56 L297.25,173.61 L300.00,174.65 L302.75,175.70 L305.50,176.74 L308.25,177.77 L311.00,178.80 L313.75,179.83 L316.50,180.86 L319.25,181.88 L322.00,182.90 L324.75,183.91 L327.50,184.93 L330.25,185.94 L333.00,186.94 L335.75,187.94 L338.50,188.94 L341.25,189.94 L344.00,190.93 L346.75,191.92 L349.50,192.90 L352.25,193.88 L355.00,194.86 L357.75,195.84 L360.50,196.81 L363.25,197.78 L366.00,198.75 L368.75,199.71 L371.50,200.67 L374.25,201.62 L377.00,202.58 L379.75,203.53 L382.50,204.47 L385.25,205.42 L388.00,206.36\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,75.20 L60.75,76.35 L63.50,77.49 L66.25,78.64 L69.00,79.79 L71.75,80.93 L74.50,82.08 L77.25,83.23 L80.00,84.37 L82.75,85.52 L85.50,86.67 L88.25,87.81 L91.00,88.96 L93.75,90.11 L96.50,91.25 L99.25,92.40 L102.00,93.55 L104.75,94.69 L107.50,95.84 L110.25,96.99 L113.00,98.13 L115.75,99.28 L118.50,100.43 L121.25,101.57 L124.00,102.72 L126.75,103.87 L129.50,105.01 L132.25,106.16 L135.00,107.31 L137.75,108.45 L140.50,109.60 L143.25,110.75 L146.00,111.89 L148.75,113.04 L151.50,114.19 L154.25,115.33 L157.00,116.48 L159.75,117.63 L162.50,118.77 L165.25,119.92 L168.00,121.07 L170.75,122.21 L173.50,123.36 L176.25,124.51 L179.00,125.65 L181.75,126.80 L184.50,127.95 L187.25,129.09 L190.00,130.24 L192.75,131.39 L195.50,132.53 L198.25,133.68 L201.00,134.83 L203.75,135.97 L206.50,137.12 L209.25,138.27 L212.00,139.41 L214.75,140.56 L217.50,141.71 L220.25,142.85 L223.00,144.00 L225.75,145.15 L228.50,146.29 L231.25,147.44 L234.00,148.59 L236.75,149.73 L239.50,150.88 L242.25,152.03 L245.00,153.17 L247.75,154.32 L250.50,155.47 L253.25,156.61 L256.00,157.76 L258.75,158.91 L261.50,160.05 L264.25,161.20 L267.00,162.35 L269.75,163.49 L272.50,164.64 L275.25,165.79 L278.00,166.93 L280.75,168.08 L283.50,169.23 L286.25,170.37 L289.00,171.52 L291.75,172.67 L294.50,173.81 L297.25,174.96 L300.00,176.11 L302.75,177.25 L305.50,178.40 L308.25,179.55 L311.00,180.69 L313.75,181.84 L316.50,182.99 L319.25,184.13 L322.00,185.28 L324.75,186.43 L327.50,187.57 L330.25,188.72 L333.00,189.87 L335.75,191.01 L338.50,192.16 L341.25,193.31 L344.00,194.45 L346.75,195.60 L349.50,196.75 L352.25,197.89 L355.00,199.04 L357.75,200.19 L360.50,201.33 L363.25,202.48 L366.00,203.63 L368.75,204.77 L371.50,205.92 L374.25,207.07 L377.00,208.21 L379.75,209.36 L382.50,210.51 L385.25,211.65 L388.00,212.80\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Tangentlinjen ger \\[1-0{,}04=0{,}96.\\]</p><p><strong>Svar:</strong> 0,96.</p></div>",
     "id": "3.281",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.03,
-    "tolerans": 0.001,
+    "rättSvar": 0.96,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48090,7 +48108,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -51704,5 +51722,175 @@ window.BANKMATF1 = [
     "rättSvar": "1/6",
     "tolerans": null,
     "svarFormat": "sannolikhet"
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "E",
+    "typ": "linjär approximation av kvadratrot",
+    "poang": "1/0/0",
+    "t": "<p>En sensor ger signalen 7 V när avståndet är 2 mm. Vid det avståndet ökar signalen med 3 V per millimeter.</p><p>Uppskatta signalen vid 2,1 mm med linjär approximation. Svara i V.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Sensor vid avståndet 2 mm\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Sensor vid avståndet 2 mm</text><text x=\"28\" y=\"68\">Signal</text><text x=\"392\" y=\"68\" text-anchor=\"end\">7 V</text><text x=\"28\" y=\"103\">Förändring</text><text x=\"392\" y=\"103\" text-anchor=\"end\">3 V/mm</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Ändringen i x är 0,1. Därför blir uppskattningen \\[7+3\\cdot0{,}1=7{,}3.\\]</p><p><strong>Svar:</strong> 7,3.</p></div>",
+    "id": "3.324",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.3,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "traningsniva": 1,
+    "spel": true,
+    "svarEnhet": "V"
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "E",
+    "typ": "linjär approximation av kvadratrot",
+    "poang": "1/0/0",
+    "t": "<p>Efter 10 minuter är en soppa 50 °C varm. Just då minskar temperaturen med 2 °C per minut.</p><p>Använd en linjär approximation för att uppskatta temperaturen efter 10,5 minuter. Svara i °C.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Soppan efter 10 minuter\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Soppan efter 10 minuter</text><text x=\"28\" y=\"68\">Temperatur</text><text x=\"392\" y=\"68\" text-anchor=\"end\">50 °C</text><text x=\"28\" y=\"103\">Temperaturändring</text><text x=\"392\" y=\"103\" text-anchor=\"end\">−2 °C/min</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Det går ytterligare 0,5 minuter. Med den aktuella minskningen blir temperaturen ungefär \\[50-2\\cdot0{,}5=49\\text{ °C}.\\]</p><p><strong>Svar:</strong> 49.</p></div>",
+    "id": "3.325",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 49,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "traningsniva": 1,
+    "spel": true,
+    "svarEnhet": "°C"
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "C",
+    "typ": "linjär approximation av kvadratrot",
+    "poang": "0/1/0",
+    "t": "<p>En kvadrat har sidan 10 cm. Sidan ökas till 10,2 cm.</p><p>Använd linjär approximation av arean för att uppskatta hur många procent arean ökar. Svara i procent.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Kvadrat med sidan 10 cm och en streckad större kvadrat med sidan 10,2 cm\"><rect width=\"420\" height=\"220\" fill=\"white\"/><rect x=\"115\" y=\"32\" width=\"150\" height=\"150\" fill=\"#e6eff9\" stroke=\"#2463a2\" stroke-width=\"2\"/><rect x=\"115\" y=\"29\" width=\"153\" height=\"153\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"16\"><text x=\"190\" y=\"206\" text-anchor=\"middle\">10 cm → 10,2 cm</text><text x=\"295\" y=\"88\">Sidan ökas</text><text x=\"295\" y=\"113\">med 0,2 cm</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Arean är \\(A(s)=s^2\\), så \\(A(10)=100\\) och \\(A\\prime(10)=20\\). Areaökningen uppskattas till \\(20\\cdot0{,}2=4\\) cm². Det är \\[\\frac4{100}\\cdot100\\%=4\\%.\\]</p><p><strong>Svar:</strong> 4.</p></div>",
+    "id": "3.326",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "traningsniva": 3,
+    "spel": true,
+    "svarEnhet": "%"
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "E",
+    "typ": "linjär approximation av kvadratrot",
+    "poang": "1/0/0",
+    "t": "<p>Vid \\(x=4\\) gäller \\(f(4)=12\\) och \\(f\\prime(4)=0{,}8\\).</p><p>Använd tangentlinjen där för att uppskatta vilket x-värde nära 4 som ger \\(f(x)=12{,}24\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Tangentens utgångspunkt\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Tangentens utgångspunkt</text><text x=\"28\" y=\"68\">x</text><text x=\"392\" y=\"68\" text-anchor=\"end\">4</text><text x=\"28\" y=\"103\">f(x)</text><text x=\"392\" y=\"103\" text-anchor=\"end\">12</text><text x=\"28\" y=\"138\">Lutning</text><text x=\"392\" y=\"138\" text-anchor=\"end\">0,8</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Funktionsvärdet ska öka med \\(12{,}24-12=0{,}24\\). På tangenten kräver det ändringen \\(0{,}24/0{,}8=0{,}3\\) i x. Därför är \\[x\\approx4+0{,}3=4{,}3.\\]</p><p><strong>Svar:</strong> 4,3.</p></div>",
+    "id": "3.327",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.3,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "traningsniva": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "E",
+    "typ": "linjär approximation av kvadratrot",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar \\(y=x^2\\) och tangentlinjen vid \\(x=2\\).</p><p>Använd tangentlinjen för att uppskatta \\(1{,}95^2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = x² och tangenten vid x = 2\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = x² och tangenten vid x = 2</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">1,5</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">1,8</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">1,75</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">2,925</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">2</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">4,05</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">2,25</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">5,175</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">2,5</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">6,3</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,212.80 L60.75,211.84 L63.50,210.88 L66.25,209.91 L69.00,208.94 L71.75,207.96 L74.50,206.97 L77.25,205.98 L80.00,204.99 L82.75,203.99 L85.50,202.98 L88.25,201.97 L91.00,200.95 L93.75,199.93 L96.50,198.90 L99.25,197.87 L102.00,196.83 L104.75,195.79 L107.50,194.74 L110.25,193.69 L113.00,192.63 L115.75,191.56 L118.50,190.49 L121.25,189.42 L124.00,188.34 L126.75,187.25 L129.50,186.16 L132.25,185.06 L135.00,183.96 L137.75,182.86 L140.50,181.74 L143.25,180.63 L146.00,179.50 L148.75,178.38 L151.50,177.24 L154.25,176.10 L157.00,174.96 L159.75,173.81 L162.50,172.66 L165.25,171.50 L168.00,170.33 L170.75,169.16 L173.50,167.98 L176.25,166.80 L179.00,165.62 L181.75,164.43 L184.50,163.23 L187.25,162.03 L190.00,160.82 L192.75,159.60 L195.50,158.39 L198.25,157.16 L201.00,155.93 L203.75,154.70 L206.50,153.46 L209.25,152.22 L212.00,150.96 L214.75,149.71 L217.50,148.45 L220.25,147.18 L223.00,145.91 L225.75,144.63 L228.50,143.35 L231.25,142.06 L234.00,140.77 L236.75,139.47 L239.50,138.17 L242.25,136.86 L245.00,135.55 L247.75,134.23 L250.50,132.90 L253.25,131.58 L256.00,130.24 L258.75,128.90 L261.50,127.55 L264.25,126.20 L267.00,124.85 L269.75,123.48 L272.50,122.12 L275.25,120.75 L278.00,119.37 L280.75,117.99 L283.50,116.60 L286.25,115.20 L289.00,113.80 L291.75,112.40 L294.50,110.99 L297.25,109.58 L300.00,108.16 L302.75,106.73 L305.50,105.30 L308.25,103.86 L311.00,102.42 L313.75,100.98 L316.50,99.52 L319.25,98.07 L322.00,96.60 L324.75,95.14 L327.50,93.66 L330.25,92.18 L333.00,90.70 L335.75,89.21 L338.50,87.72 L341.25,86.22 L344.00,84.71 L346.75,83.20 L349.50,81.69 L352.25,80.17 L355.00,78.64 L357.75,77.11 L360.50,75.57 L363.25,74.03 L366.00,72.48 L368.75,70.93 L371.50,69.37 L374.25,67.81 L377.00,66.24 L379.75,64.66 L382.50,63.09 L385.25,61.50 L388.00,59.91\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,222.36 L60.75,221.08 L63.50,219.81 L66.25,218.53 L69.00,217.26 L71.75,215.99 L74.50,214.71 L77.25,213.44 L80.00,212.16 L82.75,210.89 L85.50,209.61 L88.25,208.34 L91.00,207.07 L93.75,205.79 L96.50,204.52 L99.25,203.24 L102.00,201.97 L104.75,200.70 L107.50,199.42 L110.25,198.15 L113.00,196.87 L115.75,195.60 L118.50,194.33 L121.25,193.05 L124.00,191.78 L126.75,190.50 L129.50,189.23 L132.25,187.96 L135.00,186.68 L137.75,185.41 L140.50,184.13 L143.25,182.86 L146.00,181.59 L148.75,180.31 L151.50,179.04 L154.25,177.76 L157.00,176.49 L159.75,175.21 L162.50,173.94 L165.25,172.67 L168.00,171.39 L170.75,170.12 L173.50,168.84 L176.25,167.57 L179.00,166.30 L181.75,165.02 L184.50,163.75 L187.25,162.47 L190.00,161.20 L192.75,159.93 L195.50,158.65 L198.25,157.38 L201.00,156.10 L203.75,154.83 L206.50,153.56 L209.25,152.28 L212.00,151.01 L214.75,149.73 L217.50,148.46 L220.25,147.19 L223.00,145.91 L225.75,144.64 L228.50,143.36 L231.25,142.09 L234.00,140.81 L236.75,139.54 L239.50,138.27 L242.25,136.99 L245.00,135.72 L247.75,134.44 L250.50,133.17 L253.25,131.90 L256.00,130.62 L258.75,129.35 L261.50,128.07 L264.25,126.80 L267.00,125.53 L269.75,124.25 L272.50,122.98 L275.25,121.70 L278.00,120.43 L280.75,119.16 L283.50,117.88 L286.25,116.61 L289.00,115.33 L291.75,114.06 L294.50,112.79 L297.25,111.51 L300.00,110.24 L302.75,108.96 L305.50,107.69 L308.25,106.41 L311.00,105.14 L313.75,103.87 L316.50,102.59 L319.25,101.32 L322.00,100.04 L324.75,98.77 L327.50,97.50 L330.25,96.22 L333.00,94.95 L335.75,93.67 L338.50,92.40 L341.25,91.13 L344.00,89.85 L346.75,88.58 L349.50,87.30 L352.25,86.03 L355.00,84.76 L357.75,83.48 L360.50,82.21 L363.25,80.93 L366.00,79.66 L368.75,78.39 L371.50,77.11 L374.25,75.84 L377.00,74.56 L379.75,73.29 L382.50,72.01 L385.25,70.74 L388.00,69.47\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"145.91\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>För \\(f(x)=x^2\\) är \\(f\\prime(x)=2x\\). Vid x = 2 är värdet 4 och lutningen 4. Alltså \\[1{,}95^2\\approx4+4(1{,}95-2)=3{,}8.\\]</p><p><strong>Svar:</strong> 3,8.</p></div>",
+    "id": "3.328",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.8,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "traningsniva": 2,
+    "spel": true
+  },
+  {
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "E",
+    "typ": "linjär approximation av kvadratrot",
+    "poang": "2/0/0",
+    "t": "<p>En elev använder tangentlinjen till \\(f(x)=x^3\\) vid \\(x=0\\) för att uppskatta \\(f(0{,}2)\\).</p><p>Vad ger den linjära approximationen? Välj ett alternativ.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = x³ och tangenten vid x = 0\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = x³ och tangenten vid x = 0</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">-0,5</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">-0,15</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">-0,25</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">-0,075</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">0</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">0</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">0,25</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">0,075</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">0,5</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">0,15</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,215.67 L60.75,212.14 L63.50,208.74 L66.25,205.45 L69.00,202.27 L71.75,199.20 L74.50,196.25 L77.25,193.40 L80.00,190.65 L82.75,188.01 L85.50,185.47 L88.25,183.03 L91.00,180.69 L93.75,178.45 L96.50,176.30 L99.25,174.23 L102.00,172.26 L104.75,170.38 L107.50,168.58 L110.25,166.87 L113.00,165.23 L115.75,163.68 L118.50,162.21 L121.25,160.81 L124.00,159.48 L126.75,158.23 L129.50,157.04 L132.25,155.92 L135.00,154.87 L137.75,153.88 L140.50,152.96 L143.25,152.09 L146.00,151.28 L148.75,150.53 L151.50,149.83 L154.25,149.18 L157.00,148.59 L159.75,148.04 L162.50,147.53 L165.25,147.07 L168.00,146.65 L170.75,146.28 L173.50,145.94 L176.25,145.63 L179.00,145.36 L181.75,145.12 L184.50,144.91 L187.25,144.73 L190.00,144.57 L192.75,144.44 L195.50,144.33 L198.25,144.24 L201.00,144.17 L203.75,144.11 L206.50,144.07 L209.25,144.04 L212.00,144.02 L214.75,144.01 L217.50,144.00 L220.25,144.00 L223.00,144.00 L225.75,144.00 L228.50,144.00 L231.25,143.99 L234.00,143.98 L236.75,143.96 L239.50,143.93 L242.25,143.89 L245.00,143.83 L247.75,143.76 L250.50,143.67 L253.25,143.56 L256.00,143.43 L258.75,143.27 L261.50,143.09 L264.25,142.88 L267.00,142.64 L269.75,142.37 L272.50,142.06 L275.25,141.72 L278.00,141.35 L280.75,140.93 L283.50,140.47 L286.25,139.96 L289.00,139.41 L291.75,138.82 L294.50,138.17 L297.25,137.47 L300.00,136.72 L302.75,135.91 L305.50,135.04 L308.25,134.12 L311.00,133.13 L313.75,132.08 L316.50,130.96 L319.25,129.77 L322.00,128.52 L324.75,127.19 L327.50,125.79 L330.25,124.32 L333.00,122.77 L335.75,121.13 L338.50,119.42 L341.25,117.62 L344.00,115.74 L346.75,113.77 L349.50,111.70 L352.25,109.55 L355.00,107.31 L357.75,104.97 L360.50,102.53 L363.25,99.99 L366.00,97.35 L368.75,94.60 L371.50,91.75 L374.25,88.80 L377.00,85.73 L379.75,82.55 L382.50,79.26 L385.25,75.86 L388.00,72.33\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,144.00 L60.75,144.00 L63.50,144.00 L66.25,144.00 L69.00,144.00 L71.75,144.00 L74.50,144.00 L77.25,144.00 L80.00,144.00 L82.75,144.00 L85.50,144.00 L88.25,144.00 L91.00,144.00 L93.75,144.00 L96.50,144.00 L99.25,144.00 L102.00,144.00 L104.75,144.00 L107.50,144.00 L110.25,144.00 L113.00,144.00 L115.75,144.00 L118.50,144.00 L121.25,144.00 L124.00,144.00 L126.75,144.00 L129.50,144.00 L132.25,144.00 L135.00,144.00 L137.75,144.00 L140.50,144.00 L143.25,144.00 L146.00,144.00 L148.75,144.00 L151.50,144.00 L154.25,144.00 L157.00,144.00 L159.75,144.00 L162.50,144.00 L165.25,144.00 L168.00,144.00 L170.75,144.00 L173.50,144.00 L176.25,144.00 L179.00,144.00 L181.75,144.00 L184.50,144.00 L187.25,144.00 L190.00,144.00 L192.75,144.00 L195.50,144.00 L198.25,144.00 L201.00,144.00 L203.75,144.00 L206.50,144.00 L209.25,144.00 L212.00,144.00 L214.75,144.00 L217.50,144.00 L220.25,144.00 L223.00,144.00 L225.75,144.00 L228.50,144.00 L231.25,144.00 L234.00,144.00 L236.75,144.00 L239.50,144.00 L242.25,144.00 L245.00,144.00 L247.75,144.00 L250.50,144.00 L253.25,144.00 L256.00,144.00 L258.75,144.00 L261.50,144.00 L264.25,144.00 L267.00,144.00 L269.75,144.00 L272.50,144.00 L275.25,144.00 L278.00,144.00 L280.75,144.00 L283.50,144.00 L286.25,144.00 L289.00,144.00 L291.75,144.00 L294.50,144.00 L297.25,144.00 L300.00,144.00 L302.75,144.00 L305.50,144.00 L308.25,144.00 L311.00,144.00 L313.75,144.00 L316.50,144.00 L319.25,144.00 L322.00,144.00 L324.75,144.00 L327.50,144.00 L330.25,144.00 L333.00,144.00 L335.75,144.00 L338.50,144.00 L341.25,144.00 L344.00,144.00 L346.75,144.00 L349.50,144.00 L352.25,144.00 L355.00,144.00 L357.75,144.00 L360.50,144.00 L363.25,144.00 L366.00,144.00 L368.75,144.00 L371.50,144.00 L374.25,144.00 L377.00,144.00 L379.75,144.00 L382.50,144.00 L385.25,144.00 L388.00,144.00\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Vid x = 0 är både \\(f(0)=0\\) och \\(f\\prime(0)=3\\cdot0^2=0\\). Tangenten är alltså x-axeln och ger <strong>0</strong>.</p><p>Det exakta värdet är \\(0{,}2^3=0{,}008\\). Tangenten ger rätt värde och lutning vid 0, men fångar inte kurvans böjning. Att x ligger nära 0 garanterar inte ett litet procentuellt fel.</p></div>",
+    "id": "3.329",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Linjär approximation med derivata",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "traningsniva": 2,
+    "alternativ": [
+      {
+        "txt": "0",
+        "ratt": true
+      },
+      {
+        "txt": "0,008",
+        "ratt": false
+      },
+      {
+        "txt": "0,04",
+        "ratt": false
+      },
+      {
+        "txt": "0,12",
+        "ratt": false
+      }
+    ],
+    "spel": true
   }
 ];

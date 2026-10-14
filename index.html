@@ -3969,7 +3969,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-13-elektricitet-fordjupning";
+const BANK_VERSION="2026-10-14-mangder-approximation";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10934,7 +10934,7 @@ function sifferlage(facit,enhet){
 
 const SYMBOLER={
   matematik:[["−","−"],["(","("],[")",")"],["/","/"],["^","^"],
-             ["√","√"],["π","π"],["x","x"],["≈","≈"]],
+             ["√","√"],["π","π"],["x","x"],["≈","≈"],["∅","∅"]],
   fysik:    [["−","−"],[",",","],["·10^","·10^"],["^","^"],["√","√"],
              ["π","π"],["/","/"],["(","("],[")",")"]]
 };
@@ -10943,7 +10943,7 @@ const SYMBOLNAMN={
   "−":"Minustecken","(":"Vänsterparentes",")":"Högerparentes",
   "/":"Bråkstreck","^":"Upphöjt till","√":"Roten ur","π":"Pi",
   "x":"Variabeln x","≈":"Ungefär lika med",",":"Decimalkomma",
-  "·10^":"Grundpotensform, tio upphöjt till"
+  "·10^":"Grundpotensform, tio upphöjt till","∅":"Tomma mängden"
 };
 
 function symbolrad(t){
@@ -12380,7 +12380,7 @@ function renderTraining(){
         <span id="partlabel">Deluppgift a av ${antalDelar}</span>
       </div>`
     : layout.flersvar
-      ? `<div class="partline"><span>${inputCount===2?"Två svar":inputCount+" svar"} · ordningen spelar ingen roll</span></div>`
+      ? `<div class="partline"><span>${inputCount===2?"Två svar":inputCount+" svar"} · ordningen spelar ingen roll${samlatMangdsvarTillatet(t,layout)?". Skriv alla lösningar i ett fält, separerade med semikolon, eller ett tal per fält.":""}</span></div>`
       : "";
 
   const dots=Array.from({length:state.sessionTarget},(_,i)=>
@@ -12704,6 +12704,13 @@ function kollaAlt(){
   renderMath(document.getElementById("answer-zone"));
 }
 
+function samlatMangdsvarTillatet(t,layout){
+  return layout.flersvar && ["mängd","mangd","lösningsmängd","losningsmangd"].includes(layout.struktur)
+    && layout.info.answers.every(v=>typeof v==="number" && Number.isFinite(v))
+    && ![].concat(t.svarEnhet||[]).some(Boolean)
+    && [].concat(t.svarFormat||[]).every(f=>!f || f==="numeriskt");
+}
+
 function checkAnswer(){
   if(state.answered) return;
   const t=state.currentTask;
@@ -12716,7 +12723,21 @@ function checkAnswer(){
   const layout=answerLayout(t);
 
   if(layout.flersvar){
-    const svar=expected.map((_,i)=>document.getElementById("ans-"+i)?.value||"");
+    let svar=expected.map((_,i)=>document.getElementById("ans-"+i)?.value||"");
+    // En numerisk lösningsmängd kan skrivas samlad i ett fält eller ett tal per fält.
+    // Namngivna, ordnade svar (t.ex. koordinater) går aldrig genom denna väg.
+    if(samlatMangdsvarTillatet(t,layout) && svar.filter(x=>x.trim()).length===1){
+      const samlat=svar.find(x=>x.trim()).trim().replace(/^\{([\s\S]*)\}$/,"$1");
+      const listor=rotListor(samlat).filter(l=>l.length===expected.length);
+      if(!listor.length){ toast("Ange alla lösningar, tillsammans eller ett tal per fält."); return; }
+      const passar=lista=>{
+        const kvar=expected.map((v,i)=>({v,i}));
+        return lista.every(v=>{const j=kvar.findIndex(k=>naraNog(v,k.v,Array.isArray(t.tolerans)?t.tolerans[k.i]:t.tolerans));
+          if(j<0)return false;kvar.splice(j,1);return true;});
+      };
+      svar=(listor.find(passar)||listor[0]).map(String);
+      svar.forEach((v,i)=>{document.getElementById("ans-"+i).value=v;});
+    }
     if(svar.some(x=>!x.trim())){ toast("Fyll i alla svar först."); return; }
     const kvar=expected.map((v,i)=>({v,i}));
     const res=svar.map(anv=>{

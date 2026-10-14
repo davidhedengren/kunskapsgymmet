@@ -12972,6 +12972,11 @@ window.BANKMATO1 = [
     "kalla": "NP Ma3c ht 2013, uppgift 4",
     "familjTidigare": [
       "Lösa absolutbeloppsekvation"
+    ],
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {

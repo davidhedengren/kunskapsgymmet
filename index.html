@@ -1761,19 +1761,40 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .pt-markor{display:inline-block;width:.5em;height:1.05em;margin-left:2px;vertical-align:-.16em;border-radius:1px;
   background:var(--accInk);animation:ptBlink .9s steps(1) infinite}
 @keyframes ptBlink{50%{opacity:0}}
-.pt-uppdrag.pt-uppfall{margin:0;padding:0;border-radius:13px;background:var(--surface2);overflow:hidden}
+.pt-upp-yta{position:relative;z-index:3;min-width:0;min-height:60px;align-self:stretch}
+.pt-uppdrag.pt-uppfall{
+  --pergKant:color-mix(in srgb,var(--gold2) 38%,transparent);
+  position:absolute;top:6px;left:6px;right:6px;margin:0;padding:0;border-radius:3px;
+  border:1px solid var(--pergKant);color:var(--ink);
+  background:linear-gradient(175deg,color-mix(in srgb,var(--gold2) 10%,var(--surface)),color-mix(in srgb,var(--gold2) 18%,var(--surface)));
+  box-shadow:0 10px 22px -16px rgba(0,0,0,.45);overflow:visible;
+}
+.pt-uppfall:before,.pt-uppfall:after{
+  content:"";position:absolute;left:-6px;right:-6px;height:9px;border-radius:6px;pointer-events:none;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--gold2) 30%,var(--surface)),color-mix(in srgb,var(--gold2) 65%,var(--surface)),color-mix(in srgb,var(--gold2) 40%,var(--surface)));
+  box-shadow:0 2px 4px -2px rgba(0,0,0,.35);
+}
+.pt-uppfall:before{top:-6px}.pt-uppfall:after{bottom:-6px}
+.pt:has(.pt-uppfall[open]){overflow:visible;z-index:5}
 .pt-uppfall summary{display:flex;align-items:center;gap:9px;padding:12px;list-style:none;cursor:pointer;min-height:46px}
 .pt-uppfall summary::-webkit-details-marker{display:none}
 .pt-uppfall summary:focus-visible{outline:2px solid var(--acc);outline-offset:-3px;border-radius:13px}
-.pt-uppfall summary b{font-size:13px;font-weight:650;flex:1;min-width:0}
+.pt-uppfall summary b{font-family:Georgia,"Times New Roman",serif;font-size:14px;font-weight:700;flex:1;min-width:0}
 .pt-upp-ikon{width:23px;height:23px;flex:none;color:var(--gold2)}
 .pt-upp-antal{font-size:12px;font-weight:600;color:var(--ink3);white-space:nowrap;font-variant-numeric:tabular-nums}
 .pt-upp-antal.klar{color:var(--good)}
 .pt-upp-pil{width:14px;height:14px;flex:none;color:var(--ink3);transition:transform .18s var(--ease)}
 .pt-uppfall[open] .pt-upp-pil{transform:rotate(180deg)}
-.pt-upp-innehall{padding:0 12px 12px}
+.pt-upp-innehall{padding:0 12px 12px;max-height:var(--pt-upp-hojd,138px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:var(--pergKant) transparent}
+.pt-upp-innehall:focus-visible{outline:2px solid var(--acc);outline-offset:-3px}
 .pt-uppfall[open] .pt-upp-innehall{animation:ptUppRulla .2s var(--ease) both;transform-origin:top}
 @keyframes ptUppRulla{from{opacity:0;transform:translateY(-5px);clip-path:inset(0 0 100% 0)}to{opacity:1;transform:translateY(0);clip-path:inset(0)}}
+.pt-upp-datum{position:sticky;top:0;z-index:1;background:color-mix(in srgb,var(--gold2) 12%,var(--surface));display:grid;grid-template-columns:28px minmax(0,1fr) 28px;align-items:center;gap:6px;padding:6px 0 8px;border-top:1px dashed var(--pergKant)}
+.pt-upp-datum span{text-align:center;font-size:12px;font-weight:650;color:var(--ink2)}
+.pt-upp-datum button{font-size:23px;line-height:1;padding:3px;border-radius:6px;color:var(--ink2);background:var(--goldSoft)}
+.pt-upp-datum button:disabled{opacity:.3;cursor:default}
+.pt-upp-datum button:focus-visible{outline:2px solid var(--acc)}
+.pt-upp-till-idag{text-align:center;font-size:11.5px;margin:0 0 7px}
 .pt-upp-bonus{margin:0;padding:8px 0;font-size:12px;border-top:1px solid var(--hair)}
 .pt-uppfall li{grid-template-columns:16px minmax(0,1fr) auto;grid-template-areas:"bock text n" ". go go";
   gap:3px 9px;padding:8px 0;font-size:12.5px;line-height:1.4}
@@ -3898,6 +3919,7 @@ function markeraUppfylldaMedaljer(){
   }
 }
 function installCloudProfile(reply){
+  uppdragSattRetroStod(reply,session?.user?.id);
   profile=loadProfileFrom(reply.data);
   markeraUppfylldaMedaljer();
   acceptedProfile=JSON.parse(JSON.stringify(profile));
@@ -3927,6 +3949,7 @@ async function sendProfileNow(){
       else toast(syncMessage(reply.code));
       return reply;
     }
+    uppdragSattRetroStod(reply,uid);
     acceptedProfile=JSON.parse(JSON.stringify(reply.data));
     syncRevision=reply.revision;
     syncRetry=0;
@@ -3976,6 +3999,7 @@ async function synkaProfil(){
     const reply=await cloudRpc("read");
     if(syncOwner!==user.id || session?.user?.id!==user.id) return;
     if(!reply.ok || !reply.data) throw new Error("Kunde inte hämta din sparade profil.");
+    uppdragSattRetroStod(reply,user.id);
     acceptedProfile=JSON.parse(JSON.stringify(reply.data));
     if(cached?.pending && cached.revision===reply.revision && !reply.review){
       await skickaMolnprofil();
@@ -4010,6 +4034,7 @@ function sparaPagaendePass(){
         hintUsed:!!status.hintUsed,hintVisible:!!status.hintVisible},
       done:state.sessionDone, target:state.sessionTarget,
       xp:state.sessionXp, ratt:state.sessionCorrect,
+      uppdragsDag:state.uppdragsDag||null,
       passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
       area:state.focusArea, family:state.focusFamily, niva:state.focusNiva||null,
       felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-60)
@@ -4035,6 +4060,7 @@ function aterupptaPass(d){
   const t=availableTasks().find(x=>x.id===d.uppgift);
   if(!t){ rensaPagaendePass(); return false; }
   state.currentTask=t;
+  state.uppdragsDag=d.uppdragsDag||null;
   state.sessionDone=d.done||0; state.sessionTarget=d.target||8;
   state.sessionXp=d.xp||0; state.sessionCorrect=d.ratt||0;
   state.passTyp=d.passTyp||null;
@@ -4560,7 +4586,7 @@ function loadProfileFrom(p){
   p.felBelonade ||= {}; p.felFynd||=0;
   p.fortsatt||=0; p.sistFel=!!p.sistFel;
   p.nyheter ||= {};
-  p.uppdrag ??= null; p.uppdragDagar||=0; p.uppdragKlara||=0; p.uppdragHuvud||=0; p.uppdragDag ??= null;
+  p.uppdrag ??= null; p.uppdragsVecka ||= {}; p.uppdragRetroXp ||= 0; p.uppdragDagar||=0; p.uppdragKlara||=0; p.uppdragHuvud||=0; p.uppdragDag ??= null;
   p.bastaPass ??= null;
   p.lastDay ??= null;
 
@@ -5602,6 +5628,7 @@ function tranarenSager(text,{html=false,ms=null,kvar=false}={}){
   skrivFram(p,{tecken:1,ms:22}).then(()=>{ ava?.classList.remove("pratar"); clearTimeout(tchatTimer); if(!kvar) tchatTimer=setTimeout(tchatStang,tid); });
 }
 function afterRender(){
+  uppdragAnpassaYta();
   if(document.getElementById("provbanner")) provRitaBanner();
   tchatLage();
   matRullningslist();
@@ -7876,16 +7903,83 @@ function kursIdag(baraRatt=false){
   const t=new Date(); t.setHours(0,0,0,0);
   return (ensureCourseProfile().history||[]).filter(h=>h && h.at>=t.getTime() && (!baraRatt || h.ok)).length;
 }
+function uppdragVeckodagar(){
+  const nu=new Date();nu.setHours(12,0,0,0);
+  return Array.from({length:7},(_,i)=>{
+    const d=new Date(nu);d.setDate(d.getDate()-6+i);
+    return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+  });
+}
 function uppdragDag(){
+  const idag=uppdragNyckel(),dagar=uppdragVeckodagar();
+  const arkiv=profile.uppdragsVecka ||= {};
   let u=profile.uppdrag;
-  if(!u || u.nyckel!==uppdragNyckel()) u=profile.uppdrag={nyckel:uppdragNyckel(),kurser:{}};
+  // Rädda den tidigare uppsättningen innan datumet byts; fabricera inte äldre uppdrag.
+  if(u?.nyckel && dagar.includes(u.nyckel) && u.nyckel!==idag){
+    arkiv[u.nyckel]=u.kurser?u:{nyckel:u.nyckel,kurser:u.lista?{[u.kurs||state.course]:{lista:u.lista,klar:!!u.klar}}:{}};
+  }
+  if(!u || u.nyckel!==idag)u=profile.uppdrag={nyckel:idag,kurser:{}};
   if(!u.kurser){
-    /* Äldre form: en uppsättning för hela dagen i en kurs. */
     const gammal=u.lista?{[u.kurs||state.course]:{lista:u.lista,klar:!!u.klar}}:{};
     u=profile.uppdrag={nyckel:u.nyckel,kurser:gammal};
   }
+  // Efter JSON-inläsning återknyts dagens arkivpost till den levande uppsättningen.
+  for(const [dag,post] of Object.entries(arkiv)){
+    if(dag===idag)continue;
+    for(const kurs of Object.values(post.kurser||{})){
+      kurs.lista?.forEach(x=>{if(x.betald===undefined)x.betald=!!x.klar;});
+      if(kurs.bonusBetald===undefined)kurs.bonusBetald=!!kurs.klar;
+    }
+  }
+  arkiv[idag]=u;
+  Object.keys(arkiv).forEach(d=>{if(!dagar.includes(d))delete arkiv[d];});
   return u;
 }
+const uppdragRetroStod=new Set();
+function uppdragSattRetroStod(reply,uid){
+  if(!uid || uid!==session?.user?.id)return;
+  reply?.uppdragsbok?uppdragRetroStod.add(uid):uppdragRetroStod.delete(uid);
+}
+function uppdragRetroTillatet(){return !MOLN_PA() || !session || uppdragRetroStod.has(session.user?.id);}
+function uppdragTidigareSvar(t,correct,lagat){
+  const aktiv=state.uppdragsDag;
+  if(state.noXp || !uppdragRetroTillatet() || !aktiv || aktiv.agare!==ggAgare() || aktiv.kurs!==state.course)return;
+  let xp=0;
+  const dagar=uppdragVeckodagar(),idag=uppdragNyckel();
+  for(const [dag,post] of Object.entries(profile.uppdragsVecka||{})){
+    if(dag!==aktiv.datum || dag===idag || !dagar.includes(dag))continue;
+    const u=post.kurser?.[state.course];if(!u || u.klar)continue;
+    u.lista.forEach(x=>{
+      if(x.klar)return;
+      const kort=x.kort?getCards().find(k=>k.key===x.kort):null;
+      const omrade=kort?kort.omr.includes(t.omr):x.kort===t.omr;
+      let traff=false;
+      if(x.typ==="serie")x.n=correct?Math.min(x.mal,(x.n||0)+1):0;
+      else if(correct){
+        if(x.typ==="alla" || x.typ==="dagsmal")traff=true;
+        else if(x.typ==="laga")traff=!!lagat;
+        else if(x.typ==="omrade")traff=omrade;
+        else if(x.typ==="niva")traff=omrade&&x.niva.includes(levelOf(t));
+        else if(x.typ==="familj")traff=[].concat(t.familj||[]).includes(x.familj);
+        else if(x.typ==="utanledtrad")traff=omrade&&!state.hintUsed;
+        else if(x.typ==="utanhjalp")traff=!state.hintUsed;
+      }
+      if(traff)x.n=(x.n||0)+1;
+      if(x.n>=x.mal){
+        x.n=x.mal;x.klar=true;
+        if(!x.betald){xp+=uppdragXp(x)/2;x.betald=true;}
+      }
+    });
+    u.klar=u.lista.every(x=>x.klar);
+    if(u.klar && !u.bonusBetald){xp+=UPPDRAG_DAG_XP/2;u.bonusBetald=true;}
+  }
+  if(xp){
+    profile.uppdragRetroXp=(profile.uppdragRetroXp||0)+xp;
+    profile.xp+=xp;state.sessionXp+=xp;
+    toast("Äldre uppdrag klara: +"+xp+" XP");
+  }
+}
+
 function dagensUppdrag(){
   if(!state.course || !state.data) return null;
   const dag=uppdragDag();
@@ -7903,6 +7997,7 @@ function dagensUppdrag(){
 }
 function uppdragSvar(t,correct,lagat){
   if(state.noXp) return;
+  uppdragTidigareSvar(t,correct,lagat);
   const dag=profile.uppdrag;
   if(!dag || dag.nyckel!==uppdragNyckel() || !dag.kurser) return;
   const u=dag.kurser[state.course];
@@ -7956,6 +8051,27 @@ function uppdragSvar(t,correct,lagat){
 }
 // Visningsval är lokalt och kontobundet, utanför träningsprofil och XP.
 const uppdragVisningsval=new Map();
+let uppdragHojdObserver=null;
+function uppdragAnpassaYta(){
+  uppdragHojdObserver?.disconnect();uppdragHojdObserver=null;
+  const yta=document.querySelector(".pt-upp-yta");
+  if(!yta)return;
+  const rulle=yta.querySelector(".pt-uppfall"),rubrik=rulle?.querySelector("summary");
+  const vanster=yta.closest(".pt-topp")?.querySelector(".pt-vanster");
+  if(!rulle || !rubrik || !vanster)return;
+  const passa=()=>{
+    if(!yta.isConnected)return;
+    // Dator: använd bara höjden bredvid tränaren. Mobil: liten rulle ovanpå
+    // innehållet nedanför kortet, så öppningen inte flyttar kursens områden.
+    const hojd=matchMedia("(max-width:760px)").matches?Math.min(190,innerHeight*.45):yta.clientHeight-14;
+    rulle.style.setProperty("--pt-upp-hojd",Math.max(24,hojd-rubrik.offsetHeight)+"px");
+  };
+  passa();
+  if(typeof ResizeObserver!=="undefined"){
+    uppdragHojdObserver=new ResizeObserver(passa);
+    uppdragHojdObserver.observe(yta);uppdragHojdObserver.observe(vanster);uppdragHojdObserver.observe(rubrik);
+  }
+}
 function uppdragUtfallt(){
   const agare=ggAgare();
   if(uppdragVisningsval.has(agare)) return uppdragVisningsval.get(agare);
@@ -7972,32 +8088,77 @@ function oppnaDagensUppdrag(){
   oppnaPt();
   document.querySelector(".pt-uppfall summary")?.focus();
 }
+const uppdragBokVal=new Map();
+function uppdragBokNyckel(){return ggAgare()+":"+state.course;}
+function uppdragBokDatum(){
+  const dag=uppdragBokVal.get(uppdragBokNyckel());
+  return uppdragVeckodagar().includes(dag)?dag:uppdragNyckel();
+}
+function uppdragBladdra(steg){
+  const dagar=uppdragVeckodagar(),i=dagar.indexOf(uppdragBokDatum());
+  const dag=dagar[i+steg];if(!dag)return;
+  uppdragBokVal.set(uppdragBokNyckel(),dag);
+  oppnaDagensUppdrag();
+}
+function uppdragBokIdag(){
+  uppdragBokVal.delete(uppdragBokNyckel());oppnaDagensUppdrag();
+}
+function uppdragStarta(dag,index){
+  if(!uppdragVeckodagar().includes(dag))return;
+  const u=profile.uppdragsVecka?.[dag]?.kurser?.[state.course];
+  const x=u?.lista?.[index];if(!x)return;
+  if(x.kort && !getCards().some(k=>k.key===x.kort)){toast("Området finns inte längre i den valda kursen.");return;}
+  const retro=dag!==uppdragNyckel();
+  if(retro && !uppdragRetroTillatet()){toast("Äldre uppdrag är inte aktiverade än.");return;}
+  if(x.typ==="laga" && !felUppgifter(PASS.fel.antal).length){toast("Du har inga fel att repetera just nu.");return;}
+  state.uppdragValForPass=retro?{agare:ggAgare(),kurs:state.course,datum:dag}:null;
+  // Starta om seriemålet för ett nytt pass, så fem rätt verkligen följer på varandra.
+  if(retro)u.lista.forEach(v=>{if(v.typ==="serie"&&!v.klar)v.n=0;});
+  // Bygg starten från uppdragets data, aldrig genom eval av ett sparat on-uttryck.
+  if(x.typ==="familj" && x.kort)return startCardFamily(x.kort,x.familj);
+  if(x.typ==="niva" && x.kort)return startCardLevel(x.kort,x.niva.join(","));
+  if((x.typ==="omrade" || x.typ==="utanledtrad") && x.kort)return startCard(x.kort);
+  if(x.typ==="laga")return startPass("fel");
+  startPass("grund");
+}
 function uppdragIkon(){
   return `<svg class="pt-upp-ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 5h11a3 3 0 0 1 3 3v1h-5V7a2 2 0 0 0-4 0v11a3 3 0 0 1-6 0v-1h6M7 5a3 3 0 0 0-3 3v1h5"/>
-    <path d="M15 12h4m-4 3h4M9 9v8"/></svg>`;
+    <path d="M12 6v14M3 4c3-1 6-1 9 2 3-3 6-3 9-2v15c-3-1-6-1-9 1-3-2-6-2-9-1Z"/>
+    <path d="M6 8h3m6 0h3M6 11h3m6 0h3"/></svg>`;
 }
 function uppdragHTML(liten){
-  const u=dagensUppdrag();
-  if(!u) return "";
-  const klara=u.tak?0:u.lista.filter(x=>x.klar).length;
+  const idag=dagensUppdrag();
+  if(!idag)return "";
+  const klaraIdag=idag.tak?0:idag.lista.filter(x=>x.klar).length;
   if(liten){
-    if(u.tak) return "";
-    return `<button class="pt-upp-chip pt-upp-oppna${u.klar?" klar":""}" onclick="oppnaDagensUppdrag()"
-      aria-label="Visa dagens uppdrag: ${klara} av ${u.lista.length} klara">${uppdragIkon()}${u.klar?"Uppdragen klara":`Uppdrag ${klara}/${u.lista.length}`}</button>`;
+    if(idag.tak)return "";
+    return `<button class="pt-upp-chip pt-upp-oppna${idag.klar?" klar":""}" onclick="oppnaDagensUppdrag()"
+      aria-label="Visa uppdragsboken: ${klaraIdag} av ${idag.lista.length} klara idag">${uppdragIkon()}${idag.klar?"Uppdragen klara":`Uppdrag ${klaraIdag}/${idag.lista.length}`}</button>`;
   }
-  return `<details class="pt-uppdrag pt-uppfall" data-agare="${esc(ggAgare())}" ${uppdragUtfallt()?"open":""} ontoggle="uppdragSparaVisning(this)">
-    <summary>${uppdragIkon()}<b>Dagens uppdrag</b><span class="pt-upp-antal${u.klar?" klar":""}">${u.tak?"I morgon":`${klara}/${u.lista.length} klara`}</span>
+  const datum=uppdragBokDatum(),dagar=uppdragVeckodagar(),i=dagar.indexOf(datum),arIdag=datum===uppdragNyckel();
+  const u=arIdag?idag:profile.uppdragsVecka?.[datum]?.kurser?.[state.course];
+  const klara=u?.lista?.filter(x=>x.klar).length||0;
+  const datumtext=new Date(datum+"T12:00:00").toLocaleDateString("sv-SE",{weekday:"short",day:"numeric",month:"short"});
+  return `<div class="pt-upp-yta"><details class="pt-uppdrag pt-uppfall" data-agare="${esc(ggAgare())}" ${uppdragUtfallt()?"open":""} ontoggle="uppdragSparaVisning(this)">
+    <summary>${uppdragIkon()}<b>${arIdag?"Dagens uppdrag":"Uppdragsbok"}</b><span class="pt-upp-antal${u?.klar?" klar":""}">${u?.tak?"I morgon":u?.lista?`${klara}/${u.lista.length} klara`:""}</span>
       <svg class="pt-upp-pil" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary>
-    <div class="pt-upp-innehall">${u.tak?`<p class="pt-upp-annan">Du har redan uppdrag i ${UPPDRAG_MAX_KURSER} kurser idag. Nya uppdrag kommer i morgon.</p>`:`
-    ${UPPDRAG_XP_PA&&!u.klar?`<p class="pt-upp-bonus"><span class="pt-uppxp">Alla klara: +${UPPDRAG_DAG_XP} XP</span></p>`:""}
-    <ul>${u.lista.map(x=>`<li class="${x.klar?"klar":""}${x.huvud?" huvud":""}">
+    <div class="pt-upp-innehall" tabindex="0" role="region" aria-label="Uppdragsboken">
+    <nav class="pt-upp-datum" aria-label="Bläddra bland senaste veckans uppdrag">
+      <button onclick="uppdragBladdra(-1)" aria-label="Föregående dag" ${i===0?"disabled":""}>‹</button>
+      <span>${arIdag?"I dag · ":""}${esc(datumtext)}</span>
+      <button onclick="uppdragBladdra(1)" aria-label="Nästa dag" ${i===6?"disabled":""}>›</button>
+    </nav>
+    ${!arIdag?`<div class="pt-upp-till-idag"><button class="lank" onclick="uppdragBokIdag()">Till dagens uppdrag</button></div>`:""}
+    ${!u?`<p class="pt-upp-annan">Inga uppdrag sparade för den här dagen. Boken sparar dina uppdrag från och med den här uppdateringen.</p>`:u.tak?`<p class="pt-upp-annan">Du har redan uppdrag i ${UPPDRAG_MAX_KURSER} kurser idag. Nya uppdrag kommer i morgon.</p>`:`
+    ${!arIdag?`<p class="pt-upp-bonus pt-upp-annan">Äldre uppdrag ger halva XP-belöningen.${!u.klar?` Alla klara: +${UPPDRAG_DAG_XP/2} XP.`:""}</p>`:UPPDRAG_XP_PA&&!u.klar?`<p class="pt-upp-bonus"><span class="pt-uppxp">Alla klara: +${UPPDRAG_DAG_XP} XP</span></p>`:""}
+    ${!arIdag&&!uppdragRetroTillatet()?`<p class="pt-upp-annan">Äldre uppdrag är inte aktiverade än. Du kan träna på dagens uppdrag under tiden.</p>`:""}
+    <ul>${u.lista.map((x,index)=>`<li class="${x.klar?"klar":""}${x.huvud?" huvud":""}">
       <span class="pt-bock" aria-hidden="true"></span>
-      <span class="pt-upptext">${esc(x.text)}</span>
-      <span class="pt-uppn">${UPPDRAG_XP_PA?`<em class="pt-uppxp">+${uppdragXp(x)} XP</em>`:""}${x.n}/${x.mal}</span>
-      ${x.on && !x.klar?`<button class="pt-uppgo" onclick="${x.on}" aria-label="Börja: ${esc(x.text)}">Börja</button>`:""}
+      <span class="pt-upptext">${esc(!arIdag&&x.typ==="dagsmal"?`Slutför dagsmålet: ${x.mal} uppgifter i kursen`:x.text)}</span>
+      <span class="pt-uppn">${UPPDRAG_XP_PA?`<em class="pt-uppxp">+${uppdragXp(x)/(arIdag?1:2)} XP</em>`:""}${x.n}/${x.mal}</span>
+      ${!x.klar?`<button class="pt-uppgo" onclick="uppdragStarta('${datum}',${index})" ${!arIdag&&!uppdragRetroTillatet()?"disabled":""} aria-label="Träna: ${esc(x.text)}">${x.n?"Fortsätt":"Börja"}</button>`:""}
     </li>`).join("")}</ul>`}</div>
-  </details>`;
+  </details></div>`;
 }
 
 /* Tränarens avatar: en egen symbol (visselpipa) som skiljer kortet från områdeskorten. */
@@ -8964,6 +9125,7 @@ function chooseTask(){
 }
 
 function beginSession(typ){
+  state.uppdragsDag=state.uppdragValForPass||null;state.uppdragValForPass=null;
   state.passHistory=[];state.passIndex=-1;state.passReview=false;state.passLive=null;
   state.passCourse=state.course;
   if(typ!=="prov") state.prov=null;
@@ -9255,7 +9417,7 @@ function startCardLevel(key,nivaer){
   state.focusNiva=L; state.sessionTarget=6;
   navRecord("training"); nextTask();
 }
-function continueSession(){ const niva=state.focusNiva; beginSession(state.prov?"prov":undefined); state.focusNiva=niva; navRecord("training",true); nextTask(); }
+function continueSession(){ const niva=state.focusNiva;state.uppdragValForPass=state.uppdragsDag||null; beginSession(state.prov?"prov":undefined); state.focusNiva=niva; navRecord("training",true); nextTask(); }
 function nextTask(){
   if(state.passReview) return passFramat();
   tchatStang();

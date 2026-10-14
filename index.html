@@ -3510,6 +3510,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .larvy .toppvy{flex-wrap:wrap}
 @media(max-width:480px){.larlagen{padding-top:10px}.larlagen button{flex:1;padding:10px 8px;font-size:14px}.larvalkommen{padding:20px}.larvalkommen .provfalt{min-width:100%}.largrupp-topp .provkodbox{gap:8px}}
 </style>
+<link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-bok">
 </head>
 
 <body>
@@ -3532,6 +3533,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 <div id="toast" class="toast"></div>
 <div id="cheer" class="cheer" role="dialog" aria-live="polite"></div>
 
+<script src="uppdragsbok.js?v=2026-10-14-bok"></script>
 <script>
 
 const COURSES = {
@@ -5628,6 +5630,7 @@ function tranarenSager(text,{html=false,ms=null,kvar=false}={}){
   skrivFram(p,{tecken:1,ms:22}).then(()=>{ ava?.classList.remove("pratar"); clearTimeout(tchatTimer); if(!kvar) tchatTimer=setTimeout(tchatStang,tid); });
 }
 function afterRender(){
+  uppdragBokKontrollera();
   uppdragAnpassaYta();
   if(document.getElementById("provbanner")) provRitaBanner();
   tchatLage();
@@ -8083,10 +8086,7 @@ function uppdragSparaVisning(el){
   try{localStorage.setItem("kunskapsgymmet-uppdrag-visning:"+agare,el.open?"1":"0");}catch(_){}
 }
 function oppnaDagensUppdrag(){
-  const agare=ggAgare();uppdragVisningsval.set(agare,true);
-  try{localStorage.setItem("kunskapsgymmet-uppdrag-visning:"+agare,"1");}catch(_){}
-  oppnaPt();
-  document.querySelector(".pt-uppfall summary")?.focus();
+  uppdragVisaBok();
 }
 const uppdragBokVal=new Map();
 function uppdragBokNyckel(){return ggAgare()+":"+state.course;}
@@ -8098,10 +8098,10 @@ function uppdragBladdra(steg){
   const dagar=uppdragVeckodagar(),i=dagar.indexOf(uppdragBokDatum());
   const dag=dagar[i+steg];if(!dag)return;
   uppdragBokVal.set(uppdragBokNyckel(),dag);
-  oppnaDagensUppdrag();
+  uppdragBokRita(steg);
 }
 function uppdragBokIdag(){
-  uppdragBokVal.delete(uppdragBokNyckel());oppnaDagensUppdrag();
+  uppdragBokVal.delete(uppdragBokNyckel());uppdragBokRita(1);
 }
 function uppdragStarta(dag,index){
   if(!uppdragVeckodagar().includes(dag))return;
@@ -8111,6 +8111,7 @@ function uppdragStarta(dag,index){
   const retro=dag!==uppdragNyckel();
   if(retro && !uppdragRetroTillatet()){toast("Äldre uppdrag är inte aktiverade än.");return;}
   if(x.typ==="laga" && !felUppgifter(PASS.fel.antal).length){toast("Du har inga fel att repetera just nu.");return;}
+  stangUppdragsbok(false);
   state.uppdragValForPass=retro?{agare:ggAgare(),kurs:state.course,datum:dag}:null;
   // Starta om seriemålet för ett nytt pass, så fem rätt verkligen följer på varandra.
   if(retro)u.lista.forEach(v=>{if(v.typ==="serie"&&!v.klar)v.n=0;});
@@ -8129,36 +8130,11 @@ function uppdragIkon(){
 function uppdragHTML(liten){
   const idag=dagensUppdrag();
   if(!idag)return "";
-  const klaraIdag=idag.tak?0:idag.lista.filter(x=>x.klar).length;
-  if(liten){
-    if(idag.tak)return "";
-    return `<button class="pt-upp-chip pt-upp-oppna${idag.klar?" klar":""}" onclick="oppnaDagensUppdrag()"
-      aria-label="Visa uppdragsboken: ${klaraIdag} av ${idag.lista.length} klara idag">${uppdragIkon()}${idag.klar?"Uppdragen klara":`Uppdrag ${klaraIdag}/${idag.lista.length}`}</button>`;
-  }
-  const datum=uppdragBokDatum(),dagar=uppdragVeckodagar(),i=dagar.indexOf(datum),arIdag=datum===uppdragNyckel();
-  const u=arIdag?idag:profile.uppdragsVecka?.[datum]?.kurser?.[state.course];
-  const klara=u?.lista?.filter(x=>x.klar).length||0;
-  const datumtext=new Date(datum+"T12:00:00").toLocaleDateString("sv-SE",{weekday:"short",day:"numeric",month:"short"});
-  return `<div class="pt-upp-yta"><details class="pt-uppdrag pt-uppfall" data-agare="${esc(ggAgare())}" ${uppdragUtfallt()?"open":""} ontoggle="uppdragSparaVisning(this)">
-    <summary>${uppdragIkon()}<b>${arIdag?"Dagens uppdrag":"Uppdragsbok"}</b><span class="pt-upp-antal${u?.klar?" klar":""}">${u?.tak?"I morgon":u?.lista?`${klara}/${u.lista.length} klara`:""}</span>
-      <svg class="pt-upp-pil" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary>
-    <div class="pt-upp-innehall" tabindex="0" role="region" aria-label="Uppdragsboken">
-    <nav class="pt-upp-datum" aria-label="Bläddra bland senaste veckans uppdrag">
-      <button onclick="uppdragBladdra(-1)" aria-label="Föregående dag" ${i===0?"disabled":""}>‹</button>
-      <span>${arIdag?"I dag · ":""}${esc(datumtext)}</span>
-      <button onclick="uppdragBladdra(1)" aria-label="Nästa dag" ${i===6?"disabled":""}>›</button>
-    </nav>
-    ${!arIdag?`<div class="pt-upp-till-idag"><button class="lank" onclick="uppdragBokIdag()">Till dagens uppdrag</button></div>`:""}
-    ${!u?`<p class="pt-upp-annan">Inga uppdrag sparade för den här dagen. Boken sparar dina uppdrag från och med den här uppdateringen.</p>`:u.tak?`<p class="pt-upp-annan">Du har redan uppdrag i ${UPPDRAG_MAX_KURSER} kurser idag. Nya uppdrag kommer i morgon.</p>`:`
-    ${!arIdag?`<p class="pt-upp-bonus pt-upp-annan">Äldre uppdrag ger halva XP-belöningen.${!u.klar?` Alla klara: +${UPPDRAG_DAG_XP/2} XP.`:""}</p>`:UPPDRAG_XP_PA&&!u.klar?`<p class="pt-upp-bonus"><span class="pt-uppxp">Alla klara: +${UPPDRAG_DAG_XP} XP</span></p>`:""}
-    ${!arIdag&&!uppdragRetroTillatet()?`<p class="pt-upp-annan">Äldre uppdrag är inte aktiverade än. Du kan träna på dagens uppdrag under tiden.</p>`:""}
-    <ul>${u.lista.map((x,index)=>`<li class="${x.klar?"klar":""}${x.huvud?" huvud":""}">
-      <span class="pt-bock" aria-hidden="true"></span>
-      <span class="pt-upptext">${esc(!arIdag&&x.typ==="dagsmal"?`Slutför dagsmålet: ${x.mal} uppgifter i kursen`:x.text)}</span>
-      <span class="pt-uppn">${UPPDRAG_XP_PA?`<em class="pt-uppxp">+${uppdragXp(x)/(arIdag?1:2)} XP</em>`:""}${x.n}/${x.mal}</span>
-      ${!x.klar?`<button class="pt-uppgo" onclick="uppdragStarta('${datum}',${index})" ${!arIdag&&!uppdragRetroTillatet()?"disabled":""} aria-label="Träna: ${esc(x.text)}">${x.n?"Fortsätt":"Börja"}</button>`:""}
-    </li>`).join("")}</ul>`}</div>
-  </details></div>`;
+  if(!liten)return uppdragOmslag(idag);
+  if(idag.tak)return "";
+  const klara=idag.lista.filter(x=>x.klar).length;
+  return `<button class="pt-upp-chip pt-upp-oppna${idag.klar?" klar":""}" onclick="oppnaDagensUppdrag()"
+    aria-haspopup="dialog" aria-label="Visa uppdragsboken: ${klara} av ${idag.lista.length} klara idag">${uppdragIkon()}${idag.klar?"Uppdragen klara":`Uppdrag ${klara}/${idag.lista.length}`}</button>`;
 }
 
 /* Tränarens avatar: en egen symbol (visselpipa) som skiljer kortet från områdeskorten. */

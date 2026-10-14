@@ -1,7 +1,7 @@
 /* strukturma2.js — kapitel, underområden och elevsynliga träningsområden för Matematik nivå 2.
    OMR-nycklarna bevaras för uppgiftsbank och sparad progression.
    GRUPPMA2 definierar de elevsynliga områdena i Kunskapsgymmet; familj används som delmoment inom dessa.
-   Reviderad 2026-09-07. */
+   Reviderad 2026-10-14. */
 
 window.KAPNAMNMA2 = {
   "1": "Algebra",
@@ -379,6 +379,10 @@ window.SPARMA2 = {
   }
 };
 
+/* Ett synligt kort motsvarar ett avgränsat lektionsmoment. Familjerna är
+   uppgiftsvarianter inom momentet. Äldre samlingskort finns endast kvar för
+   sparade uppdrag; historisk:true ska aldrig visas som ett nytt områdeskort.
+   Uppgifts-ID, OMR och familjer behålls för elevernas sparade resultat. */
 window.GRUPPMA2 = {
   "1": [
     {
@@ -388,7 +392,8 @@ window.GRUPPMA2 = {
         "rata_linjens_ekvation",
         "linjara_representationer",
         "bestamma_linjara_funktioner"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "ekvationssystem",
@@ -401,7 +406,8 @@ window.GRUPPMA2 = {
         "ekvationssystem_tre_obekanta",
         "speciella_ekvationssystem",
         "ekvationssystem_tillampningar"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "algebraiska_regler",
@@ -411,6 +417,15 @@ window.GRUPPMA2 = {
         "konjugatregeln",
         "kvadreringsreglerna",
         "faktorisering"
+      ],
+      "historisk": true
+    },
+    {
+      "id": "konjugat_kvadrering",
+      "namn": "Konjugatregeln och kvadreringsreglerna",
+      "omr": [
+        "konjugatregeln",
+        "kvadreringsreglerna"
       ]
     }
   ],
@@ -426,7 +441,8 @@ window.GRUPPMA2 = {
         "mer_om_andragradsekvationer",
         "samband_roter_koefficienter",
         "andragradsekvationer_tillampningar"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "andragradsfunktioner",
@@ -437,7 +453,8 @@ window.GRUPPMA2 = {
         "symmetrilinje_extrempunkt",
         "fran_graf_till_formel",
         "andragradsfunktioner_tillampningar"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "potenser_potensekvationer",
@@ -445,7 +462,8 @@ window.GRUPPMA2 = {
       "omr": [
         "potensregler",
         "potensekvationer"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "potens_exponentialfunktioner",
@@ -455,7 +473,8 @@ window.GRUPPMA2 = {
         "exponentialfunktioner",
         "exponentialgraf",
         "jamfora_exponential_potens"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "logaritmer",
@@ -463,7 +482,8 @@ window.GRUPPMA2 = {
       "omr": [
         "logaritmbegreppet",
         "logaritmlagar"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "regressionsmodeller",
@@ -471,6 +491,18 @@ window.GRUPPMA2 = {
       "omr": [
         "regressionsanalys_olika_modeller",
         "modellval_regression"
+      ],
+      "historisk": true
+    },
+    {
+      "id": "andragrad_tillampning_2a",
+      "namn": "Andragradsekvationer – tillämpningar och fördjupning",
+      "kurs": [
+        "2a"
+      ],
+      "omr": [
+        "mer_om_andragradsekvationer",
+        "andragradsekvationer_tillampningar"
       ]
     }
   ],
@@ -483,12 +515,15 @@ window.GRUPPMA2 = {
         "sats_bevis",
         "implikation_ekvivalens",
         "yttervinkelsatsen"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "cirkelgeometri",
       "namn": "Cirkelgeometri",
-      "kurs": ["2b"],
+      "kurs": [
+        "2b"
+      ],
       "omr": [
         "randvinkel_medelpunkt",
         "kordasatsen_biskarningssatsen"
@@ -497,14 +532,22 @@ window.GRUPPMA2 = {
     {
       "id": "randvinkel_medelpunkt",
       "namn": "Randvinklar och medelpunktsvinklar",
-      "kurs": ["2c"],
-      "omr": ["randvinkel_medelpunkt"]
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "randvinkel_medelpunkt"
+      ]
     },
     {
       "id": "kordasatsen_biskarningssatsen",
       "namn": "Kordasatsen och bisektrissatsen",
-      "kurs": ["2c"],
-      "omr": ["kordasatsen_biskarningssatsen"]
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "kordasatsen_biskarningssatsen"
+      ]
     },
     {
       "id": "likformighet",
@@ -513,7 +556,8 @@ window.GRUPPMA2 = {
         "likformighet",
         "topptriangel_transversal",
         "bevis_likformighet"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "koordinatgeometri",
@@ -522,19 +566,25 @@ window.GRUPPMA2 = {
         "pythagoras",
         "avstandsformeln_mittpunktsformeln",
         "koordinatgeometri_problemlosning"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "geometri_problemlosning",
       "namn": "Problemlösning",
-      "omr": ["geometri_problemlosning"]
+      "omr": [
+        "geometri_problemlosning"
+      ]
     }
   ],
   "4": [
     {
       "id": "tabeller_diagram",
       "namn": "Tabeller och diagram",
-      "omr": ["tabeller_diagram"]
+      "omr": [
+        "tabeller_diagram"
+      ],
+      "historisk": true
     },
     {
       "id": "lages_spridningsmatt",
@@ -544,7 +594,8 @@ window.GRUPPMA2 = {
         "kvartiler_percentiler",
         "ladagram",
         "standardavvikelse"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "regression_korrelation",
@@ -552,7 +603,8 @@ window.GRUPPMA2 = {
       "omr": [
         "linjar_regression",
         "korrelation_koefficient"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "normalfordelning",
@@ -560,7 +612,8 @@ window.GRUPPMA2 = {
       "omr": [
         "normalfordelat_material",
         "normalfordelning_digitala_verktyg"
-      ]
+      ],
+      "historisk": true
     }
   ]
 };

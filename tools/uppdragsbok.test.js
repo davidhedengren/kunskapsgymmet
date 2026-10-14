@@ -8,6 +8,8 @@ function setup(){
  state:{course:'fy1',sessionXp:0,hintUsed:false,noXp:false,uppdragsDag:{agare:'guest',kurs:'fy1',datum:'2026-10-13'}},
  todayKey:()=> '2026-10-14',uppdragNyckel:()=> '2026-10-14',ggAgare:()=> 'guest',MOLN_PA:()=>true,
  getCards:()=>[{key:'kraft',omr:['kraft']}],levelOf:t=>t.niva,uppdragXp:x=>x.huvud?100:50,UPPDRAG_DAG_XP:100,toast:()=>{}});
+ const start=html.indexOf('function hittaTraningskort(');
+ vm.runInContext(html.slice(start,html.indexOf('\n}',start)+2),c);
  vm.runInContext(html.slice(html.indexOf('function uppdragVeckodagar(){'),html.indexOf('function dagensUppdrag(){')),c);
  return c;
 }

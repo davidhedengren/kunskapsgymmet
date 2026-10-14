@@ -4016,7 +4016,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-14-felrapporter-1325";
+const BANK_VERSION="2026-10-14-lektionsomraden-ma2";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7193,7 +7193,7 @@ function getCards(){
     if(tagna.has(a.key)) return;
     const gruppLista=grupper[a.kap]||[];
     // Samma underområde kan grupperas olika i olika kursspår.
-    const g=gruppLista.find(x=>Array.isArray(x.omr)&&x.omr.includes(a.key)
+    const g=gruppLista.find(x=>!x.historisk && Array.isArray(x.omr)&&x.omr.includes(a.key)
       && (!Array.isArray(x.kurs)||!x.kurs.length||x.kurs.includes(state.track)));
     if(g){
 
@@ -7209,6 +7209,25 @@ function getCards(){
     }
   });
   return kort;
+}
+
+/* Äldre dagsuppdrag behåller sitt ursprungliga urval när ett samlingskort
+   delas upp. De arkiverade korten ska inte påverka nya rekommendationer. */
+function hittaTraningskort(key){
+  const aktuellt=getCards().find(k=>k.key===key);
+  if(aktuellt) return aktuellt;
+  if(typeof key!=="string" || !key.startsWith("g:")) return null;
+  const areas=getAreas();
+  for(const [kap,grupper] of Object.entries(state.data?.grupp||{})){
+    if(!Array.isArray(grupper)) continue;
+    const g=grupper.find(x=>x.historisk && "g:"+x.id===key
+      && (!Array.isArray(x.kurs)||!x.kurs.length||x.kurs.includes(state.track)));
+    if(!g) continue;
+    const med=areas.filter(a=>String(a.kap)===String(kap)&&g.omr.includes(a.key));
+    if(med.length) return {key,name:g.namn,kap:med[0].kap,omr:med.map(a=>a.key),
+      delar:med,grupp:true,families:new Set(med.flatMap(a=>[...a.families]))};
+  }
+  return null;
 }
 
 function statusHelp(s){
@@ -7954,7 +7973,7 @@ function uppdragTidigareSvar(t,correct,lagat){
     const u=post.kurser?.[state.course];if(!u || u.klar)continue;
     u.lista.forEach(x=>{
       if(x.klar)return;
-      const kort=x.kort?getCards().find(k=>k.key===x.kort):null;
+      const kort=x.kort?hittaTraningskort(x.kort):null;
       const omrade=kort?kort.omr.includes(t.omr):x.kort===t.omr;
       let traff=false;
       if(x.typ==="serie")x.n=correct?Math.min(x.mal,(x.n||0)+1):0;
@@ -8005,7 +8024,7 @@ function uppdragSvar(t,correct,lagat){
   if(!dag || dag.nyckel!==uppdragNyckel() || !dag.kurser) return;
   const u=dag.kurser[state.course];
   if(!u || u.klar) return;
-  const omrIKort=k=>{ const kk=getCards().find(c=>c.key===k); return kk?kk.omr.includes(t.omr):t.omr===k; };
+  const omrIKort=k=>{ const kk=hittaTraningskort(k); return kk?kk.omr.includes(t.omr):t.omr===k; };
   const fs=[].concat(t.familj||[]);
   const nyss=[];
   u.lista.forEach(x=>{
@@ -9356,7 +9375,7 @@ function startChapter(kap){
 }
 
 function startCard(key){
-  const kort=getCards().find(k=>k.key===key);
+  const kort=hittaTraningskort(key);
   if(!kort) return startArea(key);
   if(!kort.grupp) return startArea(kort.omr[0]);
   state.focusArea=null;state.focusOmr=kort.omr;state.focusNamn=kort.name;
@@ -9365,7 +9384,7 @@ function startCard(key){
 }
 
 function startCardFamily(cardKey,family){
-  const kort=getCards().find(k=>k.key===cardKey);
+  const kort=hittaTraningskort(cardKey);
   if(!kort) return;
   state.focusArea=null;
   state.focusOmr=[...kort.omr];
@@ -9378,7 +9397,7 @@ function startCardFamily(cardKey,family){
 /* Startar ett kort pass i ett område på bestämda träningsnivåer.
    Används av återkopplingen i Träna mer på. */
 function startCardLevel(key,nivaer){
-  const kort=getCards().find(k=>k.key===key);
+  const kort=hittaTraningskort(key);
   if(!kort) return;
   const L=String(nivaer).split(",").filter(x=>NIVAER.includes(x));
   if(!L.length) return startCard(key);

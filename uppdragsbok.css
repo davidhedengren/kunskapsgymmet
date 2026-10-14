@@ -1,11 +1,14 @@
 /* Bokomslag och läsbara papperssidor, oberoende av appens färgtema. */
-.ub-ingang{display:flex;justify-content:center;align-items:center;min-height:190px}
-.ub-omslag{border:0;background:none;color:var(--ink);display:flex;flex-direction:column;align-items:center;gap:3px;padding:0 18px 4px;cursor:pointer;max-width:100%}
-.ub-omslag img{width:118px;height:177px;object-fit:contain;filter:drop-shadow(0 8px 8px #0004);transition:transform .28s ease,filter .28s ease}
+.ub-ingang{position:absolute;top:8px;right:12px;left:auto;width:84px;display:flex;justify-content:center;align-items:flex-start;min-height:0;align-self:auto}
+.ub-omslag{border:0;background:none;display:block;padding:0;cursor:pointer;max-width:100%}
+.ub-omslag img{display:block;width:72px;height:108px;object-fit:contain;filter:drop-shadow(0 5px 6px #0004);transition:transform .28s ease,filter .28s ease}
+.pt:has(.ub-ingang) .pt-topp{grid-template-columns:minmax(0,1fr)}
+.pt:has(.ub-ingang) .pt-huvud{padding-right:84px;min-height:86px}
+.pt-liten:has(.ub-ingang){padding-right:78px;min-height:90px}
+.pt-liten .ub-ingang{width:52px;right:10px;top:8px}
+.pt-liten .ub-omslag img{width:44px;height:66px}
 .ub-omslag:hover img{transform:translateY(-5px) rotate(-3deg);filter:drop-shadow(0 12px 11px #0005)}
 .ub-omslag:focus-visible{outline:2px solid var(--gold2);outline-offset:5px;border-radius:12px}
-.ub-omslag-text{font-size:12px;font-weight:650}.ub-omslag-status{font-size:11px;color:var(--ink3)}
-.ub-omslag-status.klar{color:var(--good)}
 .ub-dialog{--ub-paper:#f6efde;--ub-ink:#332a22;--ub-muted:#75644e;--ub-gold:#9c722e;
   position:fixed;inset:0;width:min(960px,calc(100vw - 40px));max-width:none;max-height:calc(100dvh - 28px);margin:auto;padding:0;
   background:none;border:0;color:var(--ub-ink);overflow:visible;font-family:var(--ui);outline:none}
@@ -17,11 +20,10 @@
   box-shadow:0 0 0 1px #b98b43,0 0 0 4px #12233b,0 18px 55px #0008;perspective:1800px}
 .ub-volym:after{content:"";position:absolute;left:12px;right:12px;bottom:6px;height:6px;background:repeating-linear-gradient(to bottom,#d6c6a6 0 1px,#f0e5cf 1px 2px);border-radius:0 0 5px 5px;pointer-events:none}
 .ub-spread{display:grid;grid-template-columns:1fr 1fr;position:relative;height:min(540px,calc(100dvh - 182px));min-height:160px;touch-action:pan-y;border-radius:3px 8px 8px 3px;overflow:hidden;background:var(--ub-paper)}
-.ub-page{position:relative;padding:28px 32px 30px;min-width:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#b8a78a transparent;
+.ub-page{position:relative;padding:28px 32px 78px;min-width:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#b8a78a transparent;
   background:radial-gradient(ellipse at 30% 30%,#fff9ed80,transparent 75%),var(--ub-paper)}
 .ub-vanster{box-shadow:inset -15px 0 18px -15px #6351359c,inset 2px 0 3px #d8ccb4}
 .ub-hoger{box-shadow:inset 15px 0 18px -15px #6351359c,inset -2px 0 3px #d8ccb4}
-.ub-overrubrik{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--ub-muted);margin-bottom:9px}
 .ub-veckodag{font:400 36px/1.08 Georgia,serif;margin:0;text-transform:capitalize;letter-spacing:-.025em}
 .ub-dag{font-size:14px;margin:6px 0 0;color:var(--ub-muted)}
 .ub-kurs{font-size:13px;line-height:1.4;margin:14px 0 0;font-weight:600}
@@ -47,7 +49,13 @@
 .ub-info{font-size:12px;line-height:1.55;color:var(--ub-muted);margin:10px 0 14px}
 .ub-folio{display:block;font:12px Georgia,serif;text-align:center;color:#a18b67;margin-top:18px}
 .ub-nav{display:flex;align-items:center;justify-content:center;gap:16px;padding:19px 8px 0;color:#f5e7c7}
-.ub-nav>button{width:44px;height:44px;border-radius:50%;border:1px solid #c9ad7044;background:#14263d;color:#f5e7c7;font:32px/1 Georgia,serif;cursor:pointer;flex:none}
+.ub-corner{position:absolute;bottom:13px;width:64px;height:64px;border:0;padding:0;background:none;z-index:4;cursor:pointer}
+.ub-corner.fram{right:10px}.ub-corner.bak{left:10px;transform:scaleX(-1)}
+.ub-corner:before,.ub-corner:after{content:"";position:absolute;inset:0;pointer-events:none}
+.ub-corner:before{background:linear-gradient(135deg,#89704b66,#c4af8355 60%,#eadcbe);clip-path:polygon(0 100%,100% 0,100% 100%)}
+.ub-corner:after{background:linear-gradient(135deg,#fffaf0 8%,#f0e5ce 52%,#c6b28d);clip-path:polygon(0 0,100% 0,0 100%);filter:drop-shadow(2px 3px 2px #67523855);transition:transform .22s ease}
+.ub-corner:not(:disabled):hover:after,.ub-corner:focus-visible:after{transform:translate(-3px,-3px)}
+.ub-corner:disabled{opacity:0;pointer-events:none;cursor:default}
 .ub-nav button:disabled{opacity:.3;cursor:default}.ub-nav button:not(:disabled):hover{background:#29435f}
 .ub-nav-mitt{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0;text-align:center}
 .ub-datum{font-size:11px;line-height:1.4;color:#e5d6b8}
@@ -65,16 +73,17 @@
 .ub-back{transform:rotateY(180deg)}.ub-face>.ub-page{height:100%;overflow:hidden}
 .ub-opening-cover{position:absolute;top:9px;bottom:13px;left:50%;right:10px;transform-origin:left center;z-index:6;pointer-events:none;backface-visibility:hidden}
 .ub-opening-cover img{height:100%;width:100%;object-fit:fill}
-@media(max-width:760px){.ub-ingang{min-height:0}.ub-omslag{flex-direction:row;flex-wrap:wrap;justify-content:center;column-gap:12px;padding:8px 4px}.ub-omslag img{width:85px;height:128px}.ub-omslag-text{font-size:13px}.ub-omslag-status{width:100%;margin-top:-5px}}
+@media(max-width:760px){.ub-ingang{width:70px;right:10px}.ub-omslag img{width:60px;height:90px}.pt:has(.ub-ingang) .pt-huvud{padding-right:70px;min-height:80px}}
 @media(max-width:640px){
   .ub-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 24px)}.ub-bar{padding-bottom:10px}
   .ub-volym{padding:7px 7px 11px 11px}.ub-spread{display:block;height:calc(100dvh - 184px);max-height:650px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#b8a78a transparent}
-  .ub-page{overflow:visible;padding:24px 22px 10px;box-shadow:none}.ub-hoger{padding-top:14px;padding-bottom:24px}
+  .ub-page{overflow:visible;padding:24px 22px 10px;box-shadow:none}.ub-hoger{padding-top:14px;padding-bottom:82px}
   .ub-veckodag{font-size:34px}.ub-sidrubrik{font-size:25px;margin-bottom:12px}.ub-trana{min-height:40px}.ub-folio{display:none}
   .ub-kurs{margin-top:10px}.ub-dagstatus{margin-top:17px}.ub-nav{padding-top:15px;gap:12px}.ub-datum{font-size:10px}
   .ub-flip.mobil,.ub-flip.mobil.bak{left:11px;right:7px;top:7px;bottom:11px;transform-origin:left center}
   .ub-flip.mobil.bak{transform-origin:right center}.ub-face>.ub-spread{height:100%;max-height:none;overflow:hidden}
   .ub-opening-cover{left:11px;right:7px;top:7px;bottom:11px}.ub-opening-cover img{object-fit:contain;background:#14243b}
   .ub-tom{min-height:190px}.ub-tom-vanster{padding:5px 0}
+  .ub-corner{width:54px;height:54px;bottom:11px}.ub-corner.bak{left:11px}.ub-corner.fram{right:7px}
 }
-@media(prefers-reduced-motion:reduce){.ub-omslag img{transition:none}.ub-omslag:hover img{transform:none}}
+@media(prefers-reduced-motion:reduce){.ub-omslag img,.ub-corner:after{transition:none}.ub-omslag:hover img{transform:none}}

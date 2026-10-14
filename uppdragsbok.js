@@ -6,10 +6,8 @@ const UPPDRAG_BOK_BILD="assets/uppdragsbok.webp";
 function uppdragOmslag(u){
   const klara=u.tak?0:u.lista.filter(x=>x.klar).length;
   return `<div class="pt-upp-yta ub-ingang"><button class="ub-omslag" onclick="oppnaDagensUppdrag()"
-    aria-haspopup="dialog" aria-label="Öppna uppdragsboken${u.tak?"":`: ${klara} av ${u.lista.length} klara idag`}">
+    aria-haspopup="dialog" title="Öppna uppdragsboken" aria-label="Öppna uppdragsboken${u.tak?"":`: ${klara} av ${u.lista.length} klara idag`}">
     <img src="${UPPDRAG_BOK_BILD}" alt="" width="480" height="720" decoding="async">
-    <span class="ub-omslag-text">Öppna uppdragsboken</span>
-    <span class="ub-omslag-status${u.klar?" klar":""}">${u.tak?"Dagens uppdrag fördelade":u.klar?"Alla dagens uppdrag klara":`${klara} av ${u.lista.length} klara idag`}</span>
   </button></div>`;
 }
 function uppdragBokUppgift(x,index,datum){
@@ -37,19 +35,18 @@ function uppdragBokSidor(){
   const status=lista.length?`${klara} av ${lista.length} uppdrag klara`:"Inga sparade uppdrag";
   const info=u?.tak?`Du har redan uppdrag i ${UPPDRAG_MAX_KURSER} kurser idag. Nya uppdrag kommer i morgon.`
     :!u?"Det finns inga sparade uppdrag för den här dagen i den här kursen."
-    :!arIdag?"Äldre uppdrag ger halva XP-belöningen.":"Ta ett steg i taget. Varje uppdrag för dig framåt.";
+    :!arIdag?"Äldre uppdrag ger halva XP-belöningen.":"";
   return {datum,i,datumtext,status,html:`
     <section class="ub-page ub-vanster" aria-label="${esc(datumtext)}">
-      <div class="ub-overrubrik">${arIdag?"Dagens sida":"En tidigare sida"}</div>
       <h2 class="ub-veckodag">${esc(veckodag)}</h2><p class="ub-dag">${esc(datumtext)}</p>
       <p class="ub-kurs">${esc(COURSES[state.course]?.name||"")}</p>
       <div class="ub-ornament" aria-hidden="true">✦</div>
       ${lista.length?uppdragBokUppgift(lista[huvud],huvud,datum):`<div class="ub-tom-vanster">${uppdragIkon()}<p>${u?.tak?"En ny sida i morgon":"En tom sida"}</p></div>`}
       <div class="ub-dagstatus"><b>${esc(status)}</b>${lista.length&&UPPDRAG_XP_PA?`<span class="ub-bonus${u.klar?" klar":""}">${esc(bonus)}</span>`:""}</div>
-      <p class="ub-info">${esc(info)}</p><span class="ub-folio" aria-hidden="true">${i*2+1}</span>
+      ${info?`<p class="ub-info">${esc(info)}</p>`:""}<span class="ub-folio" aria-hidden="true">${i*2+1}</span>
     </section>
     <section class="ub-page ub-hoger" aria-label="Dina uppdrag">
-      <div class="ub-overrubrik">${lista.length?"Steg för steg":"Din veckologg"}</div><h2 class="ub-sidrubrik">Dina uppdrag</h2>
+      <h2 class="ub-sidrubrik">Dina uppdrag</h2>
       ${lista.length?lista.map((x,index)=>index===huvud?"":uppdragBokUppgift(x,index,datum)).join("")
         :`<div class="ub-tom"><span aria-hidden="true">✧</span><h3>${u?.tak?"Dagens uppdrag fördelade":"Inga uppdrag sparade"}</h3><p>${esc(info)}</p><p>Bläddra till en annan dag för att se fler uppdrag.</p></div>`}
       ${!arIdag&&lista.length&&!uppdragRetroTillatet()?`<p class="ub-info">Äldre uppdrag är inte aktiverade än. Du kan träna på dagens uppdrag under tiden.</p>`:""}
@@ -62,12 +59,13 @@ function uppdragVisaBok(){
   const el=document.createElement("dialog");el.id="uppdragsbok";el.className="ub-dialog";
   el.setAttribute("aria-labelledby","ub-titel");
   el.innerHTML=`<div class="ub-bar"><h2 id="ub-titel">Uppdragsboken</h2><button class="ub-stang" aria-label="Stäng uppdragsboken" onclick="stangUppdragsbok()">×</button></div>
-    <div class="ub-volym"><div class="ub-spread" tabindex="0" aria-label="Uppdrag för vald dag"></div></div>
-    <nav class="ub-nav" aria-label="Bläddra bland senaste veckans uppdrag">
-      <button data-ub-nav="bak" onclick="uppdragBladdra(-1)" aria-label="Föregående dag">‹</button>
+    <div class="ub-volym"><div class="ub-spread" tabindex="0" aria-label="Uppdrag för vald dag"></div>
+      <button class="ub-corner bak" data-ub-nav="bak" onclick="uppdragBladdra(-1)" aria-label="Föregående dag" title="Bläddra till föregående dag"></button>
+      <button class="ub-corner fram" data-ub-nav="fram" onclick="uppdragBladdra(1)" aria-label="Nästa dag" title="Bläddra till nästa dag"></button>
+    </div>
+    <nav class="ub-nav" aria-label="Uppdragsbokens datum">
       <div class="ub-nav-mitt"><span class="ub-datum" aria-live="polite" aria-atomic="true"></span>
         <button class="ub-idag" onclick="uppdragBokIdag()" aria-label="Till dagens uppdrag">Till idag</button></div>
-      <button data-ub-nav="fram" onclick="uppdragBladdra(1)" aria-label="Nästa dag">›</button>
     </nav>`;
   uppdragBokDialog={el,agare:ggAgare(),kurs:state.course,view:state.view,focus:document.activeElement,animation:null};
   el.addEventListener("cancel",e=>{e.preventDefault();stangUppdragsbok();});

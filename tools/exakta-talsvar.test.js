@@ -35,6 +35,20 @@ for(const name of ['normalizeAnswer','algebraicallyEquivalent','oneAnswerCorrect
  const start=html.indexOf(`function ${name}(`);assert.ok(start>=0,name);
  vm.runInContext(html.slice(start,html.indexOf('\n}',start)+2),context);
 }
+for(const name of ['stadaSvar','hogerled','textNyckel','algebraisktLika','formatRatt']){
+ const start=html.indexOf(`function ${name}(`);assert.ok(start>=0,name);
+ vm.runInContext(html.slice(start,html.indexOf('\n}',start)+2),context);
+}
+test('Uttryckssvar med π från symbolraden rättas även utan algebrabibliotek',()=>{
+ assert.equal(typeof context.window.nerdamer,'undefined');
+ for(const input of ['π/3','pi/3','2π/6','π÷3','\\pi/3','π / 3'])
+  assert.equal(context.formatRatt(input,'pi/3',{format:'uttryck'}),true,input);
+ for(const input of ['π/2','-π/3','π/30','π/3+1','π/3)','π/0','pi/3x'])
+  assert.equal(context.formatRatt(input,'pi/3',{format:'uttryck'}),false,input);
+ assert.equal(context.formatRatt('√2','sqrt(2)',{format:'uttryck'}),true);
+ assert.equal(context.algebraisktLika('x+1','1+x'),null);
+ assert.equal(context.formatRatt('x+1','x+1',{format:'uttryck'}),true);
+});
 test('Små talsvar behåller sin storlek även när algebrabiblioteket avrundar till noll',()=>{
  // Efterlikna bibliotekets avrundning; den får inte bestämma numeriska talsvar.
  context.window.nerdamer=()=>({evaluate(){return this},text(){return '0'},toString(){return '0'}});

@@ -9944,6 +9944,11 @@ function textSvarRatt(anv,facit){
 
 function algebraisktLika(a,b){
   try{
+    // Exakta tal kräver inte det externa algebrabiblioteket. Använd samma
+    // normalisering för π från symbolraden, pi och exempelvis √2.
+    const u=tillNerdamer(normalizeMathInput(a)),v=tillNerdamer(normalizeMathInput(b));
+    if(isPureNumberExpression(u) && isPureNumberExpression(v))
+      return algebraicallyEquivalent(String(a),String(b))===true;
     if(typeof window.nerdamer!=="function") return null;
     return algebraicallyEquivalent(String(a),String(b))===true;
   }catch(_){ return null; }

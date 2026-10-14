@@ -91667,7 +91667,7 @@ window.BANKMATO2 = [
     ],
     "spel": true,
     "familjNyckel": "sinus_cosinuskurvor__sinus_och_cosinuskurvor_i_grader",
-    "ledtrad": "<p>Kan en amplitud vara negativ? Tänk på amplituden som ett avstånd från medellinjen.</p>",
+    "ledtrad": "<p><strong>Amplitud:</strong> Tänk på den som ett avstånd från medellinjen. Hur påverkar ett minustecken grafen?</p><p><strong>Period:</strong> Cosinus gör en hel svängning när dess vinkel ökar med \\(360^\\circ\\). Hur mycket behöver \\(x\\) öka för att \\(0{,}5x\\) ska öka så mycket?</p><p><strong>Medellinje:</strong> Vilken konstant har lagts till efter cosinustermen?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [

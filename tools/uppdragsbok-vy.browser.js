@@ -20,6 +20,13 @@ const url=process.env.KG_TEST_URL||'http://127.0.0.1:8001';
  await page.emulateMedia({reducedMotion:'reduce'});
  await page.goto(url);await page.waitForFunction(()=>typeof uppdragBokDatum==='function'&&typeof nerdamer==='function'&&typeof renderMathInElement==='function');
  await page.evaluate(async()=>{session=null;syncOwner=null;arLarare=false;arGruppLarare=false;await selectCourse('fy1');});
+ assert.equal(await page.locator('.ub-omslag-progress').innerText(),'0/4');
+ // Räknaren följer verkligt slutförda mål och vald kurs i båda tränarvyerna.
+ await page.evaluate(()=>{window.savedQuests=JSON.stringify(profile.uppdrag);const u=profile.uppdrag.kurser.fy1;u.lista.forEach((x,i)=>{x.typ='alla';x.mal=i+1;x.n=0;x.klar=false;});state.noXp=false;uppdragSvar(state.data.bank[0],true,false);renderDashboard();});
+ assert.equal(await page.locator('.ub-omslag-progress').innerText(),'1/4');
+ await page.evaluate(()=>{window.savedSession={task:state.currentTask,target:state.sessionTarget,done:state.sessionDone};state.currentTask=state.data.bank[0];state.sessionTarget=8;state.sessionDone=1;state.ptOppen=false;renderDashboard();});
+ assert.equal(await page.locator('.pt-liten .ub-omslag-progress').innerText(),'1/4');
+ await page.evaluate(()=>{profile.uppdrag=JSON.parse(savedQuests);state.currentTask=savedSession.task;state.sessionTarget=savedSession.target;state.sessionDone=savedSession.done;state.ptOppen=true;renderDashboard();});
  const open=async()=>{await page.locator('.ub-omslag,.pt-upp-oppna').first().click();await page.locator('#uppdragsbok[open]').waitFor();};
  await page.emulateMedia({reducedMotion:'reduce'});
  // Tangentbord öppnar omslaget. Bakgrunden är inert och fokus återgår vid stängning.

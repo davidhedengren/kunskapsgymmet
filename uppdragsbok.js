@@ -8,6 +8,7 @@ function uppdragOmslag(u){
   return `<div class="pt-upp-yta ub-ingang"><button class="ub-omslag" onclick="oppnaDagensUppdrag()"
     aria-haspopup="dialog" title="Öppna uppdragsboken" aria-label="Öppna uppdragsboken${u.tak?"":`: ${klara} av ${u.lista.length} klara idag`}">
     <img src="${UPPDRAG_BOK_BILD}" alt="" width="480" height="720" decoding="async">
+    ${u.tak?"":`<span class="ub-omslag-progress" aria-hidden="true">${klara}/${u.lista.length}</span>`}
   </button></div>`;
 }
 function uppdragBokUppgift(x,index,datum){

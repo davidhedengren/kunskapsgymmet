@@ -15,6 +15,13 @@ for(const name of ['stadaSvar','forenklatPolynom','sammaForenkladePolynom']){
 }
 const correct=(answer,expected)=>context.sammaForenkladePolynom(answer,expected);
 
+test('Stora variabelbokstäver godtas utan att förenklingskravet försvinner',()=>{
+  for(const [answer,expected] of [['10X+3','10x+3'],['3+10X','10x+3'],['5A-5','5a-5'],['Y+11','y+11'],['X/3','x/3'],['3YX','3xy']])
+    assert.ok(correct(answer,expected),answer);
+  for(const [answer,expected] of [['10X+4','10x+3'],['7X+5+3X-2','10x+3'],['X+x','2x'],['3X/9','x/3'],['10Y+3','10x+3']])
+    assert.equal(correct(answer,expected),false,answer);
+});
+
 test('Reducerade bråkkoefficienter och vanliga skrivsätt godkänns',()=>{
   for(const answer of ['x/3','(x)/3','x/(3)','(x)/(3)','(1/3)*x','(1/3)x','1/3*x','\\frac{x}{3}','Svar: x / 3'])
     assert.ok(correct(answer,'x/3'),answer);

@@ -13448,7 +13448,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm derivatan av</p><p>\\[g(x)=5x^3-2\\sqrt{x}.\\]</p><p>Skriv gärna \\(\\sqrt{x}\\) som en potens först.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[\\sqrt{x}=x^{1/2}\\].</div></div></li><li><p>Då blir funktionen</p></li><li><p>\\[g(x)=5x^3-2x^{1/2}.\\]</p></li><li><p>Derivera term för term:</p></li><li><p>\\[(5x^3)^{\\prime}=15x^2\\]</p></li><li><p>och</p></li><li><p>\\[(-2x^{1/2})^{\\prime}=-2\\cdot \\frac12 x^{-1/2}=-x^{-1/2}.\\]</p></li><li><p>\\[\\boxed{g^{\\prime}(x)=15x^2-x^{-1/2}}.\\]</p></li><li><p>Man kan också skriva svaret som</p></li><li><p>\\[\\boxed{g^{\\prime}(x)=15x^2-\\frac{1}{\\sqrt{x}}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[\\sqrt{x}=x^{1/2}\\].</div></div></li><li><p>Då blir funktionen</p></li><li><p>\\[g(x)=5x^3-2x^{1/2}.\\]</p></li><li><p>Derivera term för term:</p></li><li><p>\\[(5x^3)^{\\prime}=15x^2\\]</p></li><li><p>och</p></li><li><p>\\[(-2x^{1/2})^{\\prime}=-2\\cdot \\frac12 x^{-1/2}=-x^{-1/2}.\\]</p></li><li><p>\\[\\boxed{g^{\\prime}(x)=15x^2-x^{-1/2}}.\\]</p></li><li><p>Man kan också skriva svaret som</p></li><li><p>\\[\\boxed{g^{\\prime}(x)=15x^2-\\frac{1}{\\sqrt{x}}}.\\]</p></li></ol></div></div>",
     "familj": "Rötter och bråkexponenter",
     "geogebra": false,
     "miniräknare": true,
@@ -13460,7 +13460,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Skriv först rötter och bråk som potenser av \\(x\\). Derivera sedan term för term med potensregeln. Hur ändras exponenten när du deriverar?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -16576,7 +16576,7 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{4} - 5 x^{2} + 7\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 x^{4} - 5 x^{2} + 7\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=12 x^{3} - 10 x\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -16584,7 +16584,7 @@ window.BANKMATO1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=x \\left(2 x^{4} + x^{2} - 4\\right)\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=x \\left(2 x^{4} + x^{2} - 4\\right)\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=10 x^{4} + 3 x^{2} - 4\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -16801,17 +16801,17 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{x \\left(x^{3} - 6 x + 16\\right)}{2}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{x \\left(x^{3} - 6 x + 16\\right)}{2}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x^{3} - 6 x + 8\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Multiplicera in x i täljaren och dela varje term med 2 innan du deriverar.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=7 x^{3} - 2 x^{2} + x - 9\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=7 x^{3} - 2 x^{2} + x - 9\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=21 x^{2} - 4 x + 1\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Derivera varje term för sig. Vad blir derivatan av konstanten?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -17026,7 +17026,7 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=5 x^{6} - 4 x^{3} + 2\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=5 x^{6} - 4 x^{3} + 2\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=x^{2} \\left(30 x^{3} - 12\\right)\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -17034,7 +17034,7 @@ window.BANKMATO1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=x \\left(x^{4} - 10\\right)\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=x \\left(x^{4} - 10\\right)\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=5 x^{4} - 10\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -17253,7 +17253,7 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x \\left(2 x^{3} + 3 x^{2} - 6 x + 1\\right)\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x \\left(2 x^{3} + 3 x^{2} - 6 x + 1\\right)\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=8 x^{3} + 9 x^{2} - 12 x + 1\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -17261,7 +17261,7 @@ window.BANKMATO1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=9 x^{2} - 4 x + 1\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=9 x^{2} - 4 x + 1\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=18 x - 4\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -17477,7 +17477,7 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x \\left(4 x^{6} - x^{3} + 3\\right)\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x \\left(4 x^{6} - x^{3} + 3\\right)\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=28 x^{6} - 4 x^{3} + 3\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -17485,7 +17485,7 @@ window.BANKMATO1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=6 x^{5} + 2 x^{2} - 5\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=6 x^{5} + 2 x^{2} - 5\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=30 x^{4} + 4 x\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
         "niva": "E",
@@ -17703,17 +17703,17 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{3 x^{3}}{2} - \\frac{x^{2}}{4} + 2\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{3 x^{3}}{2} - \\frac{x^{2}}{4} + 2\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{x \\left(9 x - 1\\right)}{2}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Bråken framför potenserna är konstanta koefficienter. Hur använder du potensregeln på varje term?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=x^{2} \\left(- 2 x^{4} + 5 x^{2} - 7\\right)\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=x^{2} \\left(- 2 x^{4} + 5 x^{2} - 7\\right)\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=- 12 x^{5} + 20 x^{3} - 14 x\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Multiplicera först in x² och använd potenslagarna. Derivera sedan de förenklade termerna.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -17929,17 +17929,17 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{8} + x^{3} - 1\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 x^{8} + x^{3} - 1\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=x^{2} \\left(24 x^{5} + 3\\right)\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Derivera x⁸-termen och x³-termen var för sig. Konstantens derivata är 0.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\sqrt{x}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=\\sqrt{x}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=\\frac{1}{2 \\sqrt{x}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv kvadratroten som en potens med exponenten 1/2 och använd potensregeln.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -18154,17 +18154,17 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Potensregeln gäller också när exponenten är 3/2. Multiplicera med exponenten och minska den med ett.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\sqrt{x} \\left(x^{2} - 2\\right)\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=\\sqrt{x} \\left(x^{2} - 2\\right)\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=\\frac{5 x^{2} - 2}{2 \\sqrt{x}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv roten som x upphöjt till 1/2 och multiplicera in den i parentesen innan du deriverar.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -18382,17 +18382,17 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x + \\frac{1}{x^{2}}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 x + \\frac{1}{x^{2}}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3 - \\frac{2}{x^{3}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv bråktermen som en potens med negativ exponent. Använd sedan potensregeln för varje term.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\frac{2 \\left(2 - x^{5}\\right)}{x^{3}}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=\\frac{2 \\left(2 - x^{5}\\right)}{x^{3}}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=- 4 x - \\frac{12}{x^{4}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Fördela divisionen på termerna i täljaren och skriv resultatet med potenser. Derivera sedan term för term.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -18583,17 +18583,17 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{5 x^{\\frac{3}{2}} + 1}{x}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{5 x^{\\frac{3}{2}} + 1}{x}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=- \\frac{1}{x^{2}} + \\frac{5}{2 \\sqrt{x}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Dela varje term i täljaren med x och förenkla exponenterna innan du deriverar.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\frac{2 x^{\\frac{7}{2}} - 3}{x^{2}}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(g(x)=\\frac{2 x^{\\frac{7}{2}} - 3}{x^{2}}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd potensregeln term för term.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=\\frac{3 \\left(x^{\\frac{7}{2}} + 2\\right)}{x^{3}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Dela båda termerna i täljaren med x². Använd potenslagarna innan du deriverar.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -23021,7 +23021,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Skriv först rötter och bråk som potenser av \\(x\\). Derivera sedan term för term med potensregeln. Hur ändras exponenten när du deriverar?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -24775,25 +24775,25 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{2} - 4 x + 8\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 x^{2} - 4 x + 8\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=6 x - 4\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Derivera de två x-termerna var för sig. Vad händer med konstanten?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 5 x\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 5 x\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=4 x^{3} + 5\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Derivera x⁴ och 5x var för sig med potensregeln.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=- \\frac{2}{x^{2}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv 2/x som en potens med negativ exponent och använd potensregeln.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -24850,25 +24850,25 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=6 x^{3} - x^{2} + 1\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=6 x^{3} - x^{2} + 1\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x \\left(9 x - 1\\right)\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Derivera x³-termen och x²-termen var för sig. Konstantens derivata är 0.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 \\sqrt{x}\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 \\sqrt{x}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3}{2 \\sqrt{x}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv roten som en potens med exponenten 1/2. Behåll faktorn 3 när du deriverar.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=2 x + \\frac{1}{x^{2}}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=2 x + \\frac{1}{x^{2}}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 - \\frac{2}{x^{3}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv 1/x² som en potens med negativ exponent. Derivera den och 2x var för sig.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -24925,25 +24925,25 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{x^{4}}{2} + 7\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{x^{4}}{2} + 7\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x^{3}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Koefficienten 1/2 är konstant. Använd potensregeln på x⁴ och fundera på derivatan av 7.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x + \\frac{5}{x}\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x + \\frac{5}{x}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=1 - \\frac{5}{x^{2}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv 5/x som en potens med negativ exponent. Derivera den och x var för sig.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Använd potensregeln med exponenten 3/2.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -25000,25 +25000,25 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=8 x^{5} - 2 x\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=8 x^{5} - 2 x\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=40 x^{4} - 2\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Derivera 8x⁵ och −2x var för sig med potensregeln.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=4 \\sqrt{x} - 3\\)</div></p><p></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=4 \\sqrt{x} - 3\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{2}{\\sqrt{x}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv roten som en potens med exponenten 1/2. Konstanten −3 får derivatan 0.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{2} + \\frac{3}{x^{3}}\\)</div></p>",
+        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{2} + \\frac{3}{x^{3}}\\)</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x - \\frac{9}{x^{4}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+        "ledtrad": "<p>Skriv 3/x³ som en potens med negativ exponent. Derivera sedan de två termerna var för sig.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }

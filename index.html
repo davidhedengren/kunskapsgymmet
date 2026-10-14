@@ -3510,7 +3510,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .larvy .toppvy{flex-wrap:wrap}
 @media(max-width:480px){.larlagen{padding-top:10px}.larlagen button{flex:1;padding:10px 8px;font-size:14px}.larvalkommen{padding:20px}.larvalkommen .provfalt{min-width:100%}.largrupp-topp .provkodbox{gap:8px}}
 </style>
-<link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-horn">
+<link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
 </head>
 
 <body>
@@ -3533,7 +3533,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 <div id="toast" class="toast"></div>
 <div id="cheer" class="cheer" role="dialog" aria-live="polite"></div>
 
-<script src="uppdragsbok.js?v=2026-10-14-horn"></script>
+<script src="uppdragsbok.js?v=2026-10-14-progress"></script>
 <script>
 
 const COURSES = {
@@ -4016,7 +4016,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-14-verktygspolicy";
+const BANK_VERSION="2026-10-14-felrapporter-1325";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9990,7 +9990,8 @@ function rentBrakSvar(anv,facit,meta){
 /* Opt-in för förenklade polynom. Kontrollerar både termernas värden och formen.
    Inga provvärden eller eval används. Andra svarformat påverkas inte. */
 function forenklatPolynom(x){
-  let raw=stadaSvar(x).replace(/\\(?:left|right)/g,"")
+  // Samma bokstav med stor/liten form följer appens övriga uttrycksrättning.
+  let raw=stadaSvar(x).toLowerCase().replace(/\\(?:left|right)/g,"")
     .replace(/\\(?:cdot|times)/g,"*").replace(/[·⋅×]/g,"*")
     .replace(/−/g,"-").replace(/\^\{(\d+)\}/g,"^$1")
     .replace(/²/g,"^2").replace(/³/g,"^3").replace(/,/g,".").replace(/\s+/g,"");

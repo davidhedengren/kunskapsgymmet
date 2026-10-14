@@ -1,6 +1,7 @@
 /* Bokomslag och läsbara papperssidor, oberoende av appens färgtema. */
 .ub-ingang{position:absolute;top:8px;right:12px;left:auto;width:84px;display:flex;justify-content:center;align-items:flex-start;min-height:0;align-self:auto}
-.ub-omslag{border:0;background:none;display:block;padding:0;cursor:pointer;max-width:100%}
+.ub-omslag{position:relative;border:0;background:none;display:block;padding:0;cursor:pointer;max-width:100%}
+.ub-omslag-progress{position:absolute;bottom:2px;right:0;min-width:32px;padding:3px 6px;border:1px solid #b98b43;border-radius:20px;background:#f6efde;color:#332a22;font:700 12px/1.1 var(--ui);font-variant-numeric:tabular-nums;box-shadow:0 2px 5px #0005;pointer-events:none}
 .ub-omslag img{display:block;width:72px;height:108px;object-fit:contain;filter:drop-shadow(0 5px 6px #0004);transition:transform .28s ease,filter .28s ease}
 .pt:has(.ub-ingang) .pt-topp{grid-template-columns:minmax(0,1fr)}
 .pt:has(.ub-ingang) .pt-huvud{padding-right:84px;min-height:86px}

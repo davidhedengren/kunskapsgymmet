@@ -26,6 +26,8 @@ test('Att läsa historiken ändrar inte XP, framsteg eller uppdragens definition
 test('Slutförda uppdrag visas som klara och kan inte startas från boken',()=>{
   const c=setup();c.today.lista.forEach(x=>{x.klar=true;x.n=5;});c.today.klar=true;
   const page=c.uppdragBokSidor();assert.equal(page.status,'4 av 4 uppdrag klara');assert.match(page.html,/Alla uppdrag klara/);assert.match(page.html,/✓ Klart/);assert.doesNotMatch(page.html,/onclick="uppdragStarta/);
+  assert.match(c.uppdragOmslag(c.today),/>4\/4<\/span>/);
+  c.today.lista=c.today.lista.slice(0,2);assert.match(c.uppdragOmslag(c.today),/>2\/2<\/span>/);
 });
 test('Utan serverstöd går det att läsa äldre mål men startknapparna är spärrade',()=>{
   const c=setup();c.datum=dates.at(-2);c.uppdragRetroTillatet=()=>false;

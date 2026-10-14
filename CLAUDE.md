@@ -33,3 +33,7 @@ Användarbeslut 2026-10-13: vid nya eller omarbetade uppgifter ska du alltid str
 ## Statistik: standardavvikelse
 
 Användarbeslut 2026-10-14: rådataberäkningar använder Sx med n−1, även för frekvenstabeller och histogram. Följ masterrepots `agent/PEDAGOGISKA_REGLER.md`, avsnittet ”Statistik: Sx som räkningsstandard”. Fråga, facit, delkort och maskinsvar ska följa samma mått. Givna normalfördelningsparametrar σ behålls. Återställ inte FP28–29:s historiska σx-facit.
+
+## Verktyg: senaste användarbeslutet 2026-10-14
+
+Vid alla analyser, rättningar och nya/omarbetade uppgifter ska miniräknare och GeoGebra kontrolleras. Läs masterrepots `agent/PEDAGOGISKA_REGLER.md`, ”Verktygsval i varje granskning”. Tillåt miniräknare för beräkningar som inte görs snabbt i huvudet, såsom stora multiplikationer och numerisk trigonometri; neka bara när verktyget tar bort det som faktiskt prövas. Vi testar normalt inte huvudräkning eller aritmetiska handalgoritmer. Tillåt GeoGebra för digital grafanalys/ritning, statistik, regression och avancerade numeriska/symboliska beräkningar när digitala verktyg behövs. **GeoGebra innebär alltid också tillåten miniräknare.** Detta ersätter den tidigare miniräknarspärren för Sx-kort. Kontrollera huvuduppgift och delkort separat, och dokumentera beslut/undantag tillsammans med nivå, facit och självrättning.

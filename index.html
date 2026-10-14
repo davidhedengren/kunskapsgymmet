@@ -3969,7 +3969,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-14-statistik-geogebra";
+const BANK_VERSION="2026-10-14-verktygspolicy";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -15613,9 +15613,9 @@ const HJALP_IKON={
   greppa:`<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="9" cy="7" r="1.4"/><circle cx="15" cy="7" r="1.4"/><circle cx="9" cy="12" r="1.4"/><circle cx="15" cy="12" r="1.4"/><circle cx="9" cy="17" r="1.4"/><circle cx="15" cy="17" r="1.4"/></svg>`
 };
 
-/* Miniräknare är alltid tillåten i fysik, annars enligt uppgiftens "miniräknare". */
+/* Miniräknare är alltid tillåten med GeoGebra och i fysik, annars enligt uppgiftens flagga. */
 function raknareTillaten(t){
-  return t?.["miniräknare"]===true || COURSES[state.course]?.subject==="Fysik";
+  return t?.["miniräknare"]===true || t?.geogebra===true || COURSES[state.course]?.subject==="Fysik";
 }
 /* Knapparna i svarsraden. */
 function hjalpKnappar(t){

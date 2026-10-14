@@ -15,15 +15,27 @@ with sync_playwright()as p:
   for m in scope:
    count=page.evaluate('id=>expandGameTask(BANKMA2.find(q=>q.id===id)).length',m['id'])
    for part in range(count):
-    result=page.evaluate('''([id,part])=>{const q=expandGameTask(BANKMA2.find(q=>q.id===id))[part];review(q);const a=document.querySelector('[data-hjalp=geogebra]');return{permission:q.geogebra,calculator:raknareTillaten(q),calcButton:!!document.querySelector('[data-hjalp=raknare]'),href:a?.getAttribute('href'),target:a?.target,rel:a?.rel,iframes:document.querySelectorAll('iframe[src*="geogebra"]').length,overflow:document.documentElement.scrollWidth>innerWidth+1,latex:document.querySelectorAll('.katex-error').length};}''',[m['id'],part]);expected=not(part in m['statistikDelar'])if count>1 else False;assert result['permission']and result['href']=='https://www.geogebra.org/classic?lang=sv';assert result['calculator']==expected and result['calcButton']==expected,(m,part,result);assert result['target']=='_blank' and 'noopener' in result['rel'];assert not result['iframes'] and not result['overflow'] and not result['latex'];views.append([m['id'],part,width,result])
+    result=page.evaluate('''([id,part])=>{const q=expandGameTask(BANKMA2.find(q=>q.id===id))[part];review(q);const a=document.querySelector('[data-hjalp=geogebra]');return{permission:q.geogebra,calculator:raknareTillaten(q),calcButton:!!document.querySelector('[data-hjalp=raknare]'),href:a?.getAttribute('href'),target:a?.target,rel:a?.rel,iframes:document.querySelectorAll('iframe[src*="geogebra"]').length,overflow:document.documentElement.scrollWidth>innerWidth+1,latex:document.querySelectorAll('.katex-error').length};}''',[m['id'],part]);expected=True;assert result['permission']and result['href']=='https://www.geogebra.org/classic?lang=sv';assert result['calculator']==expected and result['calcButton']==expected,(m,part,result);assert result['target']=='_blank' and 'noopener' in result['rel'];assert not result['iframes'] and not result['overflow'] and not result['latex'];views.append([m['id'],part,width,result])
  # A regular task has no GeoGebra button, and explicit false child permission overrides true parent.
  assert page.evaluate("()=>{review(BANKMA2.find(q=>q.id==='4.322'));return !document.querySelector('[data-hjalp=geogebra]');}")
- assert page.evaluate("()=>{const q=expandGameTask({id:'tools',geogebra:true,'miniräknare':false,spelDelning:'deluppgifter',spelDelar:[{t:'A',geogebra:false,'miniräknare':true},{t:'B'}]});return q[0].geogebra===false&&q[0]['miniräknare']===true&&q[1].geogebra===true&&q[1]['miniräknare']===false;}")
+ assert page.evaluate("()=>{const q=expandGameTask({id:'tools',geogebra:true,'miniräknare':false,spelDelning:'deluppgifter',spelDelar:[{t:'A',geogebra:false,'miniräknare':true},{t:'B'}]});return q[0].geogebra===false&&q[0]['miniräknare']===true&&q[1].geogebra===true&&q[1]['miniräknare']===false&&raknareTillaten(q[1])===true;}")
  page.evaluate("()=>review(expandGameTask(BANKMA2.find(q=>q.id==='4.328'))[2])")
  with page.expect_popup()as popup_info:page.locator('[data-hjalp=geogebra]').click()
  popup=popup_info.value;popup.wait_for_load_state();assert popup.url=='https://www.geogebra.org/classic?lang=sv';assert popup.evaluate('window.opener===null');assert page.evaluate('state.currentTask.id')=='4.328c';popup.close()
- # Switching from a permitted calculator card blocks the calculator on the SD card.
- page.evaluate("()=>{review(expandGameTask(BANKMA2.find(q=>q.id==='4.328'))[0]);hjalpVaxla('raknare');review(expandGameTask(BANKMA2.find(q=>q.id==='4.328'))[2]);}");assert page.locator('#rk-in').is_disabled();assert page.locator('#hm-raknare').evaluate('el=>el.classList.contains("sparrad")');page.evaluate("hjalpVaxla('raknare')")
+ # Switching to an SD card preserves calculator permission when GeoGebra is allowed.
+ page.evaluate("()=>{review(expandGameTask(BANKMA2.find(q=>q.id==='4.328'))[0]);hjalpVaxla('raknare');review(expandGameTask(BANKMA2.find(q=>q.id==='4.328'))[2]);}");assert not page.locator('#rk-in').is_disabled();assert page.locator('#hm-raknare').evaluate('el=>!el.classList.contains("sparrad")');page.evaluate("hjalpVaxla('raknare')")
  page.evaluate("()=>{review(expandGameTask(BANKMA2.find(q=>q.id==='4.28'))[1]);document.getElementById('ans-0').value='3,8';checkAnswer();}");assert page.evaluate('outcome')==[True]
+ # Explicit digital-work tasks from the first cross-course policy review.
+ targets={'ma2':['1.342','2.757','4.287','4.292','5.181'],'mato1':['3.462','3.467','3.532','3.534','3.583','3.588','3.589','3.590','3.592'],'mato2':['2.573'],'matf1':['3.287']}
+ for course,ids in targets.items():
+  page.evaluate('async c=>await selectCourse(c)',course)
+  for width in [390,1280]:
+   page.set_viewport_size({'width':width,'height':1100})
+   for id in ids:
+    result=page.evaluate("""id=>{const q=state.data.bank.find(q=>q.id===id);review(q);return {geo:q.geogebra,calc:raknareTillaten(q),geoButton:!!document.querySelector('[data-hjalp=geogebra]'),calcButton:!!document.querySelector('[data-hjalp=raknare]')};}""",id);assert all(result.values()),(course,id,result);views.append([course,id,width,result])
+ page.evaluate('async()=>await selectCourse("ma2")')
+ # Given normal-distribution figures need ordinary arithmetic, not a new digital model.
+ for id,answer in [('4.44','654,4'),('4.115','409')]:
+  result=page.evaluate("""([id,answer])=>{const q=BANKMA2.find(q=>q.id===id);review(q);const geo=!!document.querySelector('[data-hjalp=geogebra]'),calc=!!document.querySelector('[data-hjalp=raknare]');document.getElementById('ans-0').value=answer;checkAnswer();return{geo,calc,outcome};}""",[id,answer]);assert result=={'geo':False,'calc':True,'outcome':[True]},(id,result);views.append(['ma2',id,page.viewport_size['width'],result])
  page.set_viewport_size({'width':390,'height':1100});page.evaluate("()=>review(expandGameTask(BANKMA2.find(q=>q.id==='4.328'))[2])");page.locator('.task').screenshot(path='/tmp/geogebra-tools-mobile.png')
- assert not errors,errors;Path('/tmp/geogebra-tools-browser.json').write_text(json.dumps({'views':views,'errors':errors},ensure_ascii=False,indent=2));print('PASS',len(views),'card views; external popup, permissions, calculator blocking and Sx grading');browser.close()
+ assert not errors,errors;Path('/tmp/geogebra-tools-browser.json').write_text(json.dumps({'views':views,'errors':errors},ensure_ascii=False,indent=2));print('PASS',len(views),'card views; external popup, permissions, calculator availability and Sx grading');browser.close()

@@ -24178,33 +24178,33 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.573",
-    "kap": 2,
-    "omr": "cirkelsektorn",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "A",
-    "poang": "0/1/3",
-    "t": "<p>Ett cirkelsegment avgränsas av en korda och den mindre bågen i en cirkel med radien 10 cm. Segmentets area är 10 cm².</p><p>Bestäm medelpunktsvinkeln \\(\\theta\\) i radianer med två decimaler. Använd ett digitalt verktyg för att lösa ekvationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Segmentet är sektorn minus triangeln:</p></li><li><p>\\[A=\\frac12r^2\\theta-\\frac12r^2\\sin\\theta=50(\\theta-\\sin\\theta).\\]</p></li><li><p>\\(50(\\theta-\\sin\\theta)=10\\) ger \\(\\theta-\\sin\\theta=0{,}2\\).</p></li><li><p>Ekvationen kan inte lösas algebraiskt, men ett digitalt verktyg ger \\(\\theta\\approx1{,}08\\) rad, alltså cirka \\(62^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[50(1{,}084-\\sin1{,}084)\\approx50\\cdot0{,}200=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\theta\\approx1{,}08\\) rad</p></div>",
-    "familj": "Båglängd, sektorarea och radianer",
-    "formaga": [
-      "problemlösning",
-      "modellering"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Segmentets area är sektorns area minus triangelns. Använd radianer.</p>",
-    "spel": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.083691880314489,
-    "tolerans": 0.01,
-    "svarEnhet": "rad"
-  },
+  "id": "2.573",
+  "kap": 2,
+  "omr": "cirkelsektorn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/1/3",
+  "t": "<p>Ett cirkelsegment avgränsas av en korda och den mindre bågen i en cirkel med radien 10 cm. Segmentets area är 10 cm².</p><p>Bestäm medelpunktsvinkeln \\(\\theta\\) i radianer med två decimaler. Använd ett digitalt verktyg för att lösa ekvationen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Segmentet är sektorn minus triangeln:</p></li><li><p>\\[A=\\frac12r^2\\theta-\\frac12r^2\\sin\\theta=50(\\theta-\\sin\\theta).\\]</p></li><li><p>\\(50(\\theta-\\sin\\theta)=10\\) ger \\(\\theta-\\sin\\theta=0{,}2\\).</p></li><li><p>Ekvationen kan inte lösas algebraiskt, men ett digitalt verktyg ger \\(\\theta\\approx1{,}08\\) rad, alltså cirka \\(62^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[50(1{,}084-\\sin1{,}084)\\approx50\\cdot0{,}200=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\theta\\approx1{,}08\\) rad</p></div>",
+  "familj": "Båglängd, sektorarea och radianer",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Segmentets area är sektorns area minus triangelns. Använd radianer.</p>",
+  "spel": true,
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.083691880314489,
+  "tolerans": 0.01,
+  "svarEnhet": "rad"
+},
   {
     "id": "1.599",
     "kap": 2,

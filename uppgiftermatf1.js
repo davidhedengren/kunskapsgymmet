@@ -23840,43 +23840,43 @@ window.BANKMATF1 = [
     ]
   },
   {
-    "id": "3.287",
-    "kap": 3,
-    "omr": "repetition_derivator",
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Bestäm alla \\(x\\) där tangenten till kurvan \\(y=x^3-2x\\) har en lutning som är lika med funktionsvärdet. Använd gärna ett digitalt verktyg och bekräfta exakt.</p><p>Svara exakt eller med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret är \\(y'=y\\): \\(3x^2-2=x^3-2x\\), alltså \\(x^3-3x^2-2x+2=0\\).</p></li><li><p>Ett digitalt verktyg ger tre nollställen, ungefär \\(-1\\),</p></li><li><p>\\(0{,}586\\) och \\(3{,}414\\).</p></li><li><p>Exakt: \\(x=-1\\) är en rot, eftersom \\(-1-3+2+2=0\\).</p></li><li><p>Polynomdivision ger \\((x+1)(x^2-4x+2)\\), och \\(x^2-4x+2=0\\) ger \\(x=2\\pm\\sqrt2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\), \\(x=2-\\sqrt2\\approx0{,}586\\) eller \\(x=2+\\sqrt2\\approx3{,}414\\)</p></div>",
-    "familj": "Derivata och ekvationer med digitala verktyg",
-    "formaga": [
-      "problemlösning",
-      "procedur"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Ställ upp \\(y'=y\\) och lös tredjegradsekvationen. Pröva små heltal för att hitta en rot.</p>",
-    "spel": true,
-    "traningsniva": 4,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -1,
-      0.5857864376269049,
-      3.414213562373095
-    ],
-    "tolerans": [
-      0.001,
-      0.001,
-      0.001
-    ],
-    "svarEtiketter": [
-      "x",
-      "x",
-      "x"
-    ],
-    "svarsstruktur": "mängd",
-    "typ": "derivata lika med funktionsvärde"
-  },
+  "id": "3.287",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p>Bestäm alla \\(x\\) där tangenten till kurvan \\(y=x^3-2x\\) har en lutning som är lika med funktionsvärdet. Använd gärna ett digitalt verktyg och bekräfta exakt.</p><p>Svara exakt eller med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret är \\(y'=y\\): \\(3x^2-2=x^3-2x\\), alltså \\(x^3-3x^2-2x+2=0\\).</p></li><li><p>Ett digitalt verktyg ger tre nollställen, ungefär \\(-1\\),</p></li><li><p>\\(0{,}586\\) och \\(3{,}414\\).</p></li><li><p>Exakt: \\(x=-1\\) är en rot, eftersom \\(-1-3+2+2=0\\).</p></li><li><p>Polynomdivision ger \\((x+1)(x^2-4x+2)\\), och \\(x^2-4x+2=0\\) ger \\(x=2\\pm\\sqrt2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\), \\(x=2-\\sqrt2\\approx0{,}586\\) eller \\(x=2+\\sqrt2\\approx3{,}414\\)</p></div>",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Ställ upp \\(y'=y\\) och lös tredjegradsekvationen. Pröva små heltal för att hitta en rot.</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -1,
+    0.5857864376269049,
+    3.414213562373095
+  ],
+  "tolerans": [
+    0.001,
+    0.001,
+    0.001
+  ],
+  "svarEtiketter": [
+    "x",
+    "x",
+    "x"
+  ],
+  "svarsstruktur": "mängd",
+  "typ": "derivata lika med funktionsvärde"
+},
   {
     "kap": 3,
     "omr": "integraler_area",

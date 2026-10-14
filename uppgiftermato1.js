@@ -47539,53 +47539,53 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.462",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Beräkna med digitalt verktyg</p><p>\\[I_1=\\int_0^2\\sqrt{1+x^2}\\,dx,\\qquad I_2=\\int_0^2\\left(1+\\frac{x}{2}\\right)dx.\\]</p><p>a) Ange \\(I_1\\) med tre decimaler.<br>b) Ange \\(I_2\\) med tre decimaler.<br>c) Hur mycket större är den större integralen? Ange svaret med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Numeriskt fås</p></li><li><p>\\[I_1\\approx2{,}958,\\qquad I_2=3{,}000.\\]</p></li><li><p>Alltså är \\(I_2\\) störst och skillnaden är</p></li><li><p>\\[3{,}000-2{,}958\\approx\\boxed{0{,}042}.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      2.958,
-      3.0,
-      0.042
-    ],
-    "tolerans": [
-      0.001,
-      0.001,
-      0.002
-    ],
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Beräkna båda integralerna med samma noggrannhet och jämför sedan värdena.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Jämföra bestämda integraler numeriskt"
-    ]
-  },
+  "id": "3.462",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Beräkna med digitalt verktyg</p><p>\\[I_1=\\int_0^2\\sqrt{1+x^2}\\,dx,\\qquad I_2=\\int_0^2\\left(1+\\frac{x}{2}\\right)dx.\\]</p><p>a) Ange \\(I_1\\) med tre decimaler.<br>b) Ange \\(I_2\\) med tre decimaler.<br>c) Hur mycket större är den större integralen? Ange svaret med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Numeriskt fås</p></li><li><p>\\[I_1\\approx2{,}958,\\qquad I_2=3{,}000.\\]</p></li><li><p>Alltså är \\(I_2\\) störst och skillnaden är</p></li><li><p>\\[3{,}000-2{,}958\\approx\\boxed{0{,}042}.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2.958,
+    3.0,
+    0.042
+  ],
+  "tolerans": [
+    0.001,
+    0.001,
+    0.002
+  ],
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Beräkna båda integralerna med samma noggrannhet och jämför sedan värdena.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Jämföra bestämda integraler numeriskt"
+  ]
+},
   {
     "id": "3.463",
     "kap": 3,
@@ -47736,40 +47736,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.467",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>Bestäm med digitalt verktyg det positiva talet \\(a\\) som uppfyller</p><p>\\[\\int_0^a e^{-x^3}\\,dx=0{,}800.\\]</p><p>Ange \\(a\\) med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Definiera exempelvis</p></li><li><p>\\[A(a)=\\int_0^a e^{-x^3}\\,dx.\\]</p></li><li><p>Lös ekvationen \\(A(a)=0{,}800\\) numeriskt.</p></li><li><p>Då fås</p></li><li><p>\\[a\\approx\\boxed{0{,}980}.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.98,
-    "tolerans": 0.002,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt den övre integrationsgränsen vara en variabel och lös sedan ekvationen där integralvärdet ska bli 0,800.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Bestäm integrationsgräns digitalt"
-    ]
-  },
+  "id": "3.467",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "1/2/0",
+  "t": "<p>Bestäm med digitalt verktyg det positiva talet \\(a\\) som uppfyller</p><p>\\[\\int_0^a e^{-x^3}\\,dx=0{,}800.\\]</p><p>Ange \\(a\\) med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Definiera exempelvis</p></li><li><p>\\[A(a)=\\int_0^a e^{-x^3}\\,dx.\\]</p></li><li><p>Lös ekvationen \\(A(a)=0{,}800\\) numeriskt.</p></li><li><p>Då fås</p></li><li><p>\\[a\\approx\\boxed{0{,}980}.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.98,
+  "tolerans": 0.002,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Låt den övre integrationsgränsen vara en variabel och lös sedan ekvationen där integralvärdet ska bli 0,800.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Bestäm integrationsgräns digitalt"
+  ]
+},
   {
     "id": "3.468",
     "kap": 3,
@@ -50160,54 +50160,54 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.532",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Studera integranden \\(\\sin(x^2)\\) på \\(0\\le x\\le3\\).</p><p>a) Förutsäg om integralen är positiv eller negativ.</p><p>b) Bestäm sedan med digitalt verktyg</p><p>\\[\\int_0^3\\sin(x^2)\\,dx\\]</p><p>med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De positiva bidragen är sammantaget större än de negativa, så integralvärdet bör vara positivt.</p></li><li><p>Digital beräkning ger</p></li><li><p>\\[\\int_0^3\\sin(x^2)\\,dx\\approx0{,}774.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> positiv; \\(0{,}774\\).</p></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "positiv",
-      0.774
-    ],
-    "tolerans": [
-      null,
-      0.002
-    ],
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "numeriskt"
-    ],
-    "ledtrad": "<p>Skissa eller studera grafen först. Beräkna därefter integralvärdet digitalt.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "tecken",
-      "integralvärde"
-    ],
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Förutsäga tecken och beräkna integral numeriskt"
-    ]
-  },
+  "id": "3.532",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Studera integranden \\(\\sin(x^2)\\) på \\(0\\le x\\le3\\).</p><p>a) Förutsäg om integralen är positiv eller negativ.</p><p>b) Bestäm sedan med digitalt verktyg</p><p>\\[\\int_0^3\\sin(x^2)\\,dx\\]</p><p>med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De positiva bidragen är sammantaget större än de negativa, så integralvärdet bör vara positivt.</p></li><li><p>Digital beräkning ger</p></li><li><p>\\[\\int_0^3\\sin(x^2)\\,dx\\approx0{,}774.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> positiv; \\(0{,}774\\).</p></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "positiv",
+    0.774
+  ],
+  "tolerans": [
+    null,
+    0.002
+  ],
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skissa eller studera grafen först. Beräkna därefter integralvärdet digitalt.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "tecken",
+    "integralvärde"
+  ],
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Förutsäga tecken och beräkna integral numeriskt"
+  ]
+},
   {
     "id": "3.533",
     "kap": 3,
@@ -50244,54 +50244,54 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.534",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm med digitalt verktyg</p><p>\\[\\int_0^4 \\frac{\\sin x}{1+x^2}\\,dx\\]</p><p>med tre decimaler. Avgör också om integralvärdet är positivt eller negativt innan du räknar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafiskt kan man först bedöma att de positiva bidragen dominerar.</p></li><li><p>Numeriskt fås</p></li><li><p>\\[\\int_0^4\\frac{\\sin x}{1+x^2}\\,dx\\approx\\boxed{0{,}692}.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "positiv",
-      0.692
-    ],
-    "tolerans": [
-      null,
-      0.002
-    ],
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "numeriskt"
-    ],
-    "ledtrad": "<p>Bedöm först grafens positiva och negativa delar. Använd sedan ett digitalt verktyg för värdet.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "tecken",
-      "integralvärde"
-    ],
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Förutsäga tecken och beräkna integral numeriskt"
-    ]
-  },
+  "id": "3.534",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Bestäm med digitalt verktyg</p><p>\\[\\int_0^4 \\frac{\\sin x}{1+x^2}\\,dx\\]</p><p>med tre decimaler. Avgör också om integralvärdet är positivt eller negativt innan du räknar.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafiskt kan man först bedöma att de positiva bidragen dominerar.</p></li><li><p>Numeriskt fås</p></li><li><p>\\[\\int_0^4\\frac{\\sin x}{1+x^2}\\,dx\\approx\\boxed{0{,}692}.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "positiv",
+    0.692
+  ],
+  "tolerans": [
+    null,
+    0.002
+  ],
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Bedöm först grafens positiva och negativa delar. Använd sedan ett digitalt verktyg för värdet.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "tecken",
+    "integralvärde"
+  ],
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Förutsäga tecken och beräkna integral numeriskt"
+  ]
+},
   {
     "id": "3.535",
     "kap": 3,
@@ -52005,53 +52005,53 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.583",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>För integralen</p><p>\\[\\int_0^2\\cos(x^2)\\,dx\\]</p><p>a) Förutsäg om integralvärdet är positivt eller negativt.</p><p>b) Bestäm sedan värdet med digitalt verktyg, med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen har både positiva och negativa delar, men de positiva bidragen dominerar på intervallet.</p></li><li><p>Integralvärdet bör därför vara positivt.</p></li><li><p>Digital beräkning ger</p></li><li><p>\\[\\int_0^2\\cos(x^2)\\,dx\\approx\\boxed{0{,}461}.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "positiv",
-      0.461
-    ],
-    "tolerans": [
-      null,
-      0.002
-    ],
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "numeriskt"
-    ],
-    "ledtrad": "<p>Studera först var \\(\\cos(x^2)\\) ligger över respektive under x-axeln. Beräkna därefter integralen numeriskt.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "tecken",
-      "integralvärde"
-    ],
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Förutsäga tecken och beräkna integral numeriskt"
-    ]
-  },
+  "id": "3.583",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>För integralen</p><p>\\[\\int_0^2\\cos(x^2)\\,dx\\]</p><p>a) Förutsäg om integralvärdet är positivt eller negativt.</p><p>b) Bestäm sedan värdet med digitalt verktyg, med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen har både positiva och negativa delar, men de positiva bidragen dominerar på intervallet.</p></li><li><p>Integralvärdet bör därför vara positivt.</p></li><li><p>Digital beräkning ger</p></li><li><p>\\[\\int_0^2\\cos(x^2)\\,dx\\approx\\boxed{0{,}461}.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "positiv",
+    0.461
+  ],
+  "tolerans": [
+    null,
+    0.002
+  ],
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Studera först var \\(\\cos(x^2)\\) ligger över respektive under x-axeln. Beräkna därefter integralen numeriskt.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "tecken",
+    "integralvärde"
+  ],
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Förutsäga tecken och beräkna integral numeriskt"
+  ]
+},
   {
     "id": "3.584",
     "kap": 3,
@@ -52192,109 +52192,109 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.588",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Bestäm med digitalt verktyg</p><p>\\[\\int_0^2 \\sqrt{1+x^4}\\,dx.\\]</p><p>Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Digital beräkning ger</p></li><li><p>\\[\\int_0^2\\sqrt{1+x^4}\\,dx\\approx\\boxed{3{,}653}.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.653,
-    "tolerans": 0.002,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Kontrollera att uttrycket \\(1+x^4\\) ligger helt under rottecknet och avrunda först i slutsvaret.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Beräkna integral digitalt"
-    ]
-  },
+  "id": "3.588",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm med digitalt verktyg</p><p>\\[\\int_0^2 \\sqrt{1+x^4}\\,dx.\\]</p><p>Svara med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Digital beräkning ger</p></li><li><p>\\[\\int_0^2\\sqrt{1+x^4}\\,dx\\approx\\boxed{3{,}653}.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.653,
+  "tolerans": 0.002,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Kontrollera att uttrycket \\(1+x^4\\) ligger helt under rottecknet och avrunda först i slutsvaret.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Beräkna integral digitalt"
+  ]
+},
   {
-    "id": "3.589",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En farkost har hastigheten \\(v(t)=4+2\\sin(t^2/4)\\) m/s för \\(0\\le t\\le4\\).</p><p>Bestäm sträckan under dessa fyra sekunder. Använd digitalt verktyg.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är positiv under hela intervallet, så sträckan är</p></li><li><p>\\[s=\\int_0^4\\left(4+2\\sin(t^2/4)\\right)dt\\approx\\boxed{19{,}219\\text{ m}}.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 19.219,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Eftersom hastigheten inte blir negativ behöver du inte dela upp intervallet. Integrera \\(v(t)\\) från 0 till 4.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Sträcka från en hastighetsmodell"
-    ]
-  },
+  "id": "3.589",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En farkost har hastigheten \\(v(t)=4+2\\sin(t^2/4)\\) m/s för \\(0\\le t\\le4\\).</p><p>Bestäm sträckan under dessa fyra sekunder. Använd digitalt verktyg.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är positiv under hela intervallet, så sträckan är</p></li><li><p>\\[s=\\int_0^4\\left(4+2\\sin(t^2/4)\\right)dt\\approx\\boxed{19{,}219\\text{ m}}.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 19.219,
+  "tolerans": 0.01,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Eftersom hastigheten inte blir negativ behöver du inte dela upp intervallet. Integrera \\(v(t)\\) från 0 till 4.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Sträcka från en hastighetsmodell"
+  ]
+},
   {
-    "id": "3.590",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm arean mellan graferna \\(y=e^{0{,}2x}\\) och \\(y=1\\) för \\(0\\le x\\le5\\).</p><p>Använd digitalt verktyg och svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exponentialkurvan ligger över \\(y=1\\) för \\(0&lt;x\\le5\\).</p></li><li><p>Arean är därför</p></li><li><p>\\[A=\\int_0^5(e^{0,2x}-1)\\,dx\\approx\\boxed{3{,}59}.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.59,
-    "tolerans": 0.02,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Area mellan två grafer fås genom att integrera övre funktion minus undre funktion.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Area mellan två grafer digitalt"
-    ]
-  },
+  "id": "3.590",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Bestäm arean mellan graferna \\(y=e^{0{,}2x}\\) och \\(y=1\\) för \\(0\\le x\\le5\\).</p><p>Använd digitalt verktyg och svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exponentialkurvan ligger över \\(y=1\\) för \\(0&lt;x\\le5\\).</p></li><li><p>Arean är därför</p></li><li><p>\\[A=\\int_0^5(e^{0,2x}-1)\\,dx\\approx\\boxed{3{,}59}.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.59,
+  "tolerans": 0.02,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Area mellan två grafer fås genom att integrera övre funktion minus undre funktion.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Area mellan två grafer digitalt"
+  ]
+},
   {
     "id": "3.591",
     "kap": 3,
@@ -52331,40 +52331,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.592",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm arean mellan \\(y=\\ln(x+1)\\) och \\(y=x/4\\) för \\(0\\le x\\le4\\).</p><p>Använd digitalt verktyg och svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På intervallet ligger \\(\\ln(x+1)\\) över \\(x/4\\).</p></li><li><p>Därför</p></li><li><p>\\[A=\\int_0^4(\\ln(x+1)-x/4)\\,dx\\approx2{,}05.\\]</p></li></ol></div>",
-    "familj": "Integraler med digitalt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2.05,
-    "tolerans": 0.02,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Kontrollera först vilken graf som ligger överst på intervallet. Integrera sedan övre funktion minus undre funktion.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "integraler_digitalt"
-    ],
-    "familjTidigare": [
-      "Area mellan logaritmkurva och linje"
-    ]
-  },
+  "id": "3.592",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Bestäm arean mellan \\(y=\\ln(x+1)\\) och \\(y=x/4\\) för \\(0\\le x\\le4\\).</p><p>Använd digitalt verktyg och svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På intervallet ligger \\(\\ln(x+1)\\) över \\(x/4\\).</p></li><li><p>Därför</p></li><li><p>\\[A=\\int_0^4(\\ln(x+1)-x/4)\\,dx\\approx2{,}05.\\]</p></li></ol></div>",
+  "familj": "Integraler med digitalt verktyg",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.05,
+  "tolerans": 0.02,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Kontrollera först vilken graf som ligger överst på intervallet. Integrera sedan övre funktion minus undre funktion.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "integraler_digitalt"
+  ],
+  "familjTidigare": [
+    "Area mellan logaritmkurva och linje"
+  ]
+},
   {
     "id": "3.593",
     "kap": 3,

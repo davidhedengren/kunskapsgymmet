@@ -23,3 +23,13 @@ Nya felmönster dokumenteras i masterrepons register, inte i en separat konkurre
 Fysik får alltid använda miniräknare enligt användarbeslut 2026-10-09.
 Använd `miniräknare:true` även för fysikens enkla begreppskort. Beslutet
 finns i masterrepots `agent/PEDAGOGISKA_REGLER.md`; nivå bedöms separat.
+
+## Obligatorisk kontroll av verktyg
+
+Vid varje konstruktion, granskning och rättning: kontrollera miniräknare och
+GeoGebra för huvuduppgift och delkort enligt masterrepots
+`agent/PEDAGOGISKA_REGLER.md`, ”Verktygsval i varje granskning”. Tillåt
+miniräknare för beräkningar som inte är snabb huvudräkning, så länge den inte
+tar bort det som prövas. GeoGebra tillåts när digitala funktioner behövs.
+**GeoGebra tillåtet innebär alltid att miniräknare också är tillåten.**
+Motivera pedagogiska undantag och kontrollera de faktiska kortens metadata.

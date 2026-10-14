@@ -3480,6 +3480,27 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .kg-onskemal-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px;line-height:1.6}
 .kg-onskemal-toolbar{display:flex;gap:12px;align-items:end;flex-wrap:wrap}
 .kg-onskemal-toolbar label{display:grid;gap:6px;min-width:150px}
+/* Godkänt lärarflöde: två tydliga lägen och en samlad gruppyta. */
+.larlageplats:empty{display:none}
+.hero-inloggad{padding-top:28px;padding-bottom:20px;min-height:0}
+.hero-inloggad h1{font-size:clamp(32px,5vw,48px)}
+.larlagen{display:flex;gap:6px;padding:16px 0 0;flex-wrap:wrap}
+.larlagen button{font:inherit;font-weight:700;color:var(--ink2);background:var(--surface);border:1px solid var(--hair2);border-radius:12px;padding:11px 18px;cursor:pointer}
+.larlagen button.pa{color:var(--acc);background:var(--accSoft);border-color:var(--acc)}
+.larvalkommen{padding:28px;border:1px solid var(--hair2);border-radius:20px;background:var(--surface);margin:18px 0 24px}
+.larvalkommen h2{margin:6px 0 12px;font-size:clamp(24px,4vw,34px);line-height:1.2}
+.larvalkommen p{color:var(--ink2);max-width:650px;line-height:1.6;margin-bottom:22px}
+.larvalkommen[hidden]{display:none}
+.larvalkommen .larny{align-items:end;flex-wrap:wrap}
+.larvalkommen .provfalt{flex:1;min-width:180px}
+.laroversikt-huvud{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:18px 0}
+.laroversikt-huvud h2,.laroversikt-huvud h3{margin:0}
+.larinstallningar{border-top:1px solid var(--hair2);padding-top:14px;margin-top:18px}
+.larinstallningar summary{cursor:pointer;font-weight:600;color:var(--ink2)}
+.larinstallningar[open] summary{margin-bottom:16px}
+.largrupp-topp .provkodbox{flex-wrap:wrap}
+.larvy .toppvy{flex-wrap:wrap}
+@media(max-width:480px){.larlagen{padding-top:10px}.larlagen button{flex:1;padding:10px 8px;font-size:14px}.larvalkommen{padding:20px}.larvalkommen .provfalt{min-width:100%}.largrupp-topp .provkodbox{gap:8px}}
 </style>
 </head>
 
@@ -4461,7 +4482,7 @@ async function minPlacering(){
 const navStack=[];
 
 function navDesc(view){
-  return {view,course:state.course,track:state.track,
+  return {view,larLage:larLage(),course:view==="larare"?null:state.course,track:state.track,
           area:state.focusArea,omr:state.focusOmr,namn:state.focusNamn,
           family:state.focusFamily,niva:state.focusNiva,pass:state.passTyp};
 }
@@ -4494,6 +4515,7 @@ function backToDashboard(){
 
 async function navRestore(st){
   stangKunskap();
+  if(session && arNagonLarare() && st?.larLage) larSattLage(st.larLage);
 
   if(st && st.view==="topplista"){
     if(st.course && st.course!==state.course) await selectCourse(st.course,{record:false,render:false});
@@ -5618,7 +5640,7 @@ function topbar(){
   /* Mätaren bär bara två saker: vilken nivå du är på och hur långt kvar
      det är. Rank och antal dagar står i rankkortet, där det finns plats
      att läsa dem i lugn och ro. */
-  const badge=profile.attempts?`<button class="pill xppill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""}. Visa min utveckling">
+  const badge=profile.attempts && state.view!=="larare"?`<button class="pill xppill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""}. Visa min utveckling">
       <span class="lvl" id="xplvl">${lp.level}</span>
       <span class="bar">
         <i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i>
@@ -5634,11 +5656,10 @@ function topbar(){
     </button>
     <div class="spacer"></div>
     <div class="top-status">${badge}<span id="kg-online-plats">${kgOnlineKnapp()}</span></div>
-    <span id="lararplats" class="lararplats">${lararKnapp()}</span>
     ${toppKnapp()}
     ${kontoKnapp()}
     <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge" aria-label="Byt färgläge">${themeIcon()}</button>
-  </div></header>`;
+  </div></header><div id="lararplats" class="shell larlageplats">${lararKnapp()}</div>`;
 }
 
 const PALL_IKON='<svg class="pallmarke" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
@@ -6733,26 +6754,29 @@ function kursgrupper(){
 }
 
 function renderHome(){
+  if(MOLN_PA() && session && arNagonLarare() && larLage()!=="traning") return oppnaLarare("grupper",false);
   document.title="Kunskapsgymmet";
   state.view="home";
+  const inloggad=!!session;
   const grupper=kursgrupper();
   let nr=0;
   app.innerHTML=topbar()+`
   <main class="shell view">
-    <section class="hero">
+    <section class="hero${inloggad?" hero-inloggad":""}">
       <div class="hero-text">
-        <h1><span>Träna på rätt saker.</span><em>På rätt nivå.</em></h1>
+        ${inloggad?`<h1>${arNagonLarare()?"Träna själv.":"Din träning."}</h1>`:`<h1><span>Träna på rätt saker.</span><em>På rätt nivå.</em></h1>`}
         <p>Välj kurs, välj område och börja.<br class="hero-bryt"> Nivån ställer in sig efter hur det går för dig.</p>
       </div>
-      <div class="hero-hoger"><div id="larstartplats">${larStartKnappar()}</div>
+      ${inloggad?"":`<div class="hero-hoger">
       <div class="kg-globalstats" id="kg-globalstats" hidden aria-label="Kunskapsgymmet i siffror">
         <div class="siffra"><b id="kg-stat-users">0</b><span>registrerade användare</span></div>
         <div class="siffra"><b id="kg-stat-attempts">0</b><span>lösta uppgifter</span></div>
       </div>
-      </div>
+      </div>`}
     </section>
     <div id="provbanner"></div>
-    <div class="kursgrupper">
+    <h2 id="egen-traning-rubrik" hidden>Träna på egen hand</h2>
+    <div class="kursgrupper" id="egna-kurser">
       ${grupper.map((g,gi)=>{
         const gt=COURSES[g.ids[0]]?.tint||"var(--acc)";
         const spann=kursspann(g.ids.length);
@@ -13975,6 +13999,7 @@ window.addEventListener("resize",()=>{
 function showFeedback(){ showProgress(); }
 
 function goHome(){
+  if(session && arNagonLarare() && larLage()!=="traning"){larStartKlasser();return;}
   if(navBackTo("home")) return;
   state.course=null;state.data=null;state.track=null;state.currentTask=null;
   state.openChapters=null;applyAccent();
@@ -14180,8 +14205,10 @@ function provKlara(p){ return Math.max(Number(p?.klara)||0, provLokal(p.id).klar
 
 async function provHamtaMina(){
   if(!MOLN_PA() || !session){ provLista=null; return null; }
+  const uid=session.user?.id;
   const r=await provRpc("kg_prov_for_mig");
-  provLista = Array.isArray(r) ? r : (r?.saknas ? false : provLista);
+  if(uid!==session?.user?.id) return null;
+  provLista = Array.isArray(r) ? [...new Map(r.map(p=>[String(p.id),p])).values()] : (r?.saknas ? false : provLista);
   return provLista;
 }
 
@@ -14209,18 +14236,20 @@ function provKortHtml(p){
 async function provRitaBanner(){
   const plats=document.getElementById("provbanner");
   if(!plats) return;
-  if(!MOLN_PA() || !session){ plats.innerHTML=""; return; }
+  if(!MOLN_PA() || !session || arNagonLarare()){ plats.innerHTML=""; return; }
   if(provLista===null) await provHamtaMina();
-  const el=document.getElementById("provbanner");
-  if(!el) return;
+  const el=plats;
+  if(!el.isConnected) return;
   if(provLista===false){ el.innerHTML=""; return; }
   const kursvy=state.view==="dashboard" && state.course;
   const lista=(provLista||[]).filter(p=>!kursvy || p.kurs===state.course);
+  const egen=document.getElementById("egen-traning-rubrik");if(egen)egen.hidden=!lista.length;
   if(!lista.length){
     el.innerHTML = kursvy ? "" : `<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Har du fått en kod av din lärare?</button></div>`;
     return;
   }
   el.innerHTML=`<section class="provbanner" aria-label="Träningspass">
+      ${kursvy?"":`<div class="laroversikt-huvud"><h2>Dina träningspass</h2><a class="lank" href="#egna-kurser" onclick="event.preventDefault();document.getElementById('egna-kurser').scrollIntoView({behavior:'smooth'})">Träna på egen hand ↓</a></div>`}
       ${lista.map(provKortHtml).join("")}
       ${kursvy?"":`<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Har du fått en kod av din lärare?</button></div>`}
     </section>`;
@@ -14431,22 +14460,24 @@ function oppnaProvLarare(){ oppnaLarare("pass"); }
 async function provRitaLararlista(){
   const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
   const r=await provRpc("kg_prov_mina");
-  if(!document.getElementById("provlarare-kropp")) return;
+  if(!kropp.isConnected) return;
   if(r?.saknas){
     kropp.innerHTML=`<div class="empty">Träningspass är inte aktiverade i databasen än. Kör
       <code>sql/2026-10-02-provtraning.sql</code> och <code>sql/2026-10-03-larargrupper.sql</code> i Supabase → SQL Editor.</div>`;
     return;
   }
   if(!r?.ok){ kropp.innerHTML=`<div class="empty">Kunde inte hämta träningspassen. Är kontot godkänt som lärare?</div>`; return; }
-  const lista=provLararLista=r.prov||[];
+  const grupp=state.larFlik==="grupper"?larGrupp():null;
+  provLararLista=r.prov||[];
+  const lista=provLararLista.filter(p=>!grupp||(p.grupper||[]).some(g=>Number(g.id)===Number(grupp.id)));
   kropp.innerHTML=`<p class="lartext">Välj vad passet ska omfatta och vilka grupper som ska få det. Kunskapsgymmet väljer och
       anpassar uppgifterna för varje elev, och du ser hur det går per område och per elev. Ge passet vilket namn du vill,
       till exempel ”Prov 2 – Algebra” eller ”Repetition kapitel 3”.</p>
-    <div class="larny"><button class="btn primary" onclick="provSkapaStart()">Skapa träningspass</button></div>
+    ${grupp?"":`<div class="larny"><button class="btn primary" onclick="provSkapaStart()">Skapa träningspass</button></div>`}
     ${lista.length?`<div class="provlista">${lista.map(p=>{
       const kurs=COURSES[p.kurs];
       const grupper=(p.grupper||[]).map(g=>g.namn).join(", ");
-      return `<details class="provrad${p.aktiv?"":" avslutad"}" ontoggle="if(this.open)provVisaResultat(${Number(p.id)})">
+      return `<details data-pass-id="${Number(p.id)}" class="provrad${p.aktiv?"":" avslutad"}" ontoggle="if(this.open)provVisaResultat(${Number(p.id)})">
         <summary><span class="provrad-titel"><b>${esc(p.titel)}</b>
           <small>${esc(kurs?.code||p.kurs)}${p.spar?" "+esc(p.spar):""}${p.datum?" · till "+esc(provDatum(p.datum)):""}${p.alla?" · alla uppgifter":""}${grupper?" · "+esc(grupper):""}${p.klass?" · "+esc(p.klass):""}${p.aktiv?"":" · avslutat"}</small></span>
           <span class="pt-upp-chip">${Number(p.tranat)||0} har tränat</span></summary>
@@ -14462,7 +14493,8 @@ async function provRitaLararlista(){
             <button class="btn sm quiet" onclick="provAvsluta(${Number(p.id)},${p.aktiv?"false":"true"})">${p.aktiv?"Avsluta passet":"Aktivera igen"}</button></div>
         </div>
       </details>`;}).join("")}</div>`
-      :`<div class="empty">Du har inte skapat något träningspass än.</div>`}`;
+      :`<div class="empty">${grupp?"Gruppen har inga träningspass än.":"Du har inte skapat något träningspass än."}</div>`}`;
+  if(state.larOppnaPass){const rad=kropp.querySelector(`[data-pass-id="${Number(state.larOppnaPass)}"]`);state.larOppnaPass=null;if(rad)rad.open=true;}
 }
 function provLank(kod){ return location.origin+location.pathname+"?kod="+encodeURIComponent(kod); }
 async function provKopiera(kod,lank){
@@ -14702,6 +14734,7 @@ async function provBytKurs(id){
 }
 async function provSkapaSkicka(){
   const s=provSkapa;
+  if(!s || s.sparar) return;
   s.titel=(document.getElementById("prov-titel")?.value||s.titel||"").trim();
   if(s.titel.length<2){ toast("Ge passet ett namn."); return; }
   if(!s.omraden.length){ toast("Välj minst ett område."); return; }
@@ -14710,9 +14743,17 @@ async function provSkapaSkicka(){
   const antal=s.alla ? Math.max(1,s.omraden.reduce((a,o)=>a+(per[o]?.alla||0),0)) : s.antal;
   const gem={p_titel:s.titel,p_spar:s.spar,p_omraden:s.omraden,p_nivaer:s.nivaer,p_antal:antal,
              p_alla:!!s.alla,p_datum:s.datum||null,p_grupper:s.grupper};
-  const r = s.redigeraId
-    ? await provRpc("kg_prov_andra",{p_prov:s.redigeraId,...gem})
-    : await provRpc("kg_prov_skapa",{...gem,p_kurs:s.kurs,p_kod:provForslagKod()});
+  const uid=session?.user?.id, host=document.getElementById("provlarare-kropp");
+  const kontroller=[...(host?.querySelectorAll("button:not(:disabled),input:not(:disabled),select:not(:disabled)")||[])];
+  s.sparar=true;kontroller.forEach(el=>el.disabled=true);
+  let r;
+  try{
+    r = s.redigeraId
+      ? await provRpc("kg_prov_andra",{p_prov:s.redigeraId,...gem})
+      : await provRpc("kg_prov_skapa",{...gem,p_kurs:s.kurs,p_kod:provForslagKod()});
+  }catch(_){r=null;}
+  finally{s.sparar=false;kontroller.forEach(el=>el.disabled=false);}
+  if(uid!==session?.user?.id || s!==provSkapa || !host?.isConnected) return;
   if(r?.saknas){ toast("Funktionen är inte aktiverad i databasen än. Kör sql/2026-10-04-skolor-och-larare.sql."); return; }
   if(!r?.ok){
     const fel={titel:"Namnet ska vara 2–60 tecken.",omraden:"Välj minst ett område.",nivaer:"Välj minst en nivå.",
@@ -14747,34 +14788,42 @@ const LARARE_IKON='<svg class="pallmarke" viewBox="0 0 24 24" fill="none" stroke
   +'<path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><path d="M15.5 5.2a3.2 3.2 0 0 1 0 5.6"/>'
   +'<path d="M17.6 14.8c1.6.7 2.6 2.4 2.9 4.7"/></svg>';
 let larData={grupper:null,elever:{}}, larSkaparKlass=false;
+let larLageMinne={uid:null,lage:null};
 
-function larStartKnappar(){
-  if(!MOLN_PA() || !session || !arNagonLarare()) return "";
-  return `<section class="larstart" aria-label="För dig som lärare"><strong>Träna tillsammans med dina grupper</strong>
-    <p>Skapa undervisningsgrupper, lägg till elever och följ deras träning.</p>
-    <div class="larstart-knappar"><button class="btn primary" onclick="larStartPass()">Skapa träningspass till eleverna</button>
-    <button class="btn" onclick="larStartKlasser()">Mina grupper</button></div></section>`;
+// Läget gäller bara detta konto i denna flik. Egen träning använder ordinarie profil.
+function larLage(){
+  if(larLageMinne.uid===session?.user?.id && larLageMinne.lage) return larLageMinne.lage;
+  try{return sessionStorage.getItem("kg-larlage:"+session?.user?.id)||"undervisning";}catch(_){return "undervisning";}
+}
+function larSattLage(lage){
+  larLageMinne={uid:session?.user?.id,lage};
+  try{sessionStorage.setItem("kg-larlage:"+session?.user?.id,lage);}catch(_){}
+}
+function larTranaSjalv(){
+  larSattLage("traning");
+  state.course=null;state.data=null;state.track=null;state.currentTask=null;state.openChapters=null;
+  applyAccent();navRecord("home");renderHome();window.scrollTo(0,0);
 }
 function larStartKlasser(){
-  state.larGrupp=null; state.larElev=null;
+  state.larGrupp=null;state.larElev=null;
   oppnaLarare("grupper");
 }
 function larStartPass(){
   state.larPassForval={grupper:[],kurs:null,omraden:[]};
   oppnaLarare("pass");
 }
-
 function lararKnapp(){
   if(!MOLN_PA() || !session || !arNagonLarare()) return "";
-  return `<button class="pill topppill lararpill${state.view==="larare"?" pa":""}" onclick="oppnaLarare()"
-      title="Min sida: grupper, elevstatistik och träningspass" aria-label="Min sida">
-    ${LARARE_IKON}<span class="topptext">Min sida</span></button>`;
+  const undervisar=state.view==="larare";
+  return `<nav class="larlagen" aria-label="Lärarläge">
+    <button class="${undervisar?"pa":""}" aria-pressed="${undervisar}" onclick="larStartKlasser()">Min undervisning</button>
+    <button class="${undervisar?"":"pa"}" aria-pressed="${!undervisar}" onclick="larTranaSjalv()">Träna själv</button>
+  </nav>`;
 }
 function uppdateraLararKnapp(){
   const plats=document.getElementById("lararplats");
   if(plats) plats.innerHTML=lararKnapp();
-  const start=document.getElementById("larstartplats");
-  if(start) start.innerHTML=larStartKnappar();
+  if(state.view==="home" && session && arNagonLarare() && larLage()!=="traning") renderHome();
 }
 function larSaknasHtml(){
   return `<div class="empty">Lärarfunktionerna är inte aktiverade i databasen än. Kör
@@ -14822,18 +14871,22 @@ function larBekrafta(rubrik,text,knapp,farlig){
 function oppnaLarare(flik,record){
   document.getElementById("kontomeny")?.remove();
   if(!session){ loggaIn(); return; }
+  if(!arNagonLarare()) return;
+  larSattLage("undervisning");
   if(flik) state.larFlik=flik;
   if(!state.larFlik) state.larFlik="grupper";
   if(record!==false) navRecord("larare");
   ritaLarare();
 }
 function ritaLarare(){
+  if(!session || !arNagonLarare()){state.view="home";renderHome();return;}
   state.view="larare";
+  document.title="Min undervisning · Kunskapsgymmet";
   const f=state.larFlik||"grupper";
   const flik=(id,txt)=>`<button class="fliknapp${f===id?" pa":""}" role="tab" aria-selected="${f===id?"true":"false"}"
       onclick="larByt('${id}')">${txt}</button>`;
   app.innerHTML=topbar()+`<main class="shell view larvy" style="padding-bottom:60px">
-    <div class="larhuvud"><div class="lbl">Lärare${larProfil?` · ${esc(larProfil.namn)}${larProfil.skola?` · ${esc(larProfil.skola.namn)}`:""}`:""}</div><h1>Min sida</h1>
+    <div class="larhuvud"><div class="lbl">Lärare${larProfil?` · ${esc(larProfil.namn)}${larProfil.skola?` · ${esc(larProfil.skola.namn)}`:""}`:""}</div><h1>Min undervisning</h1>
       ${larProfil?"":`<div class="larprofil-notis"><span>Fyll i ditt fullständiga namn och din skola, så att eleverna kan hitta dig och dina grupper.</span>
         <button class="btn sm primary" onclick="oppnaLararprofil()">Fyll i lärarprofil</button></div>`}</div>
     <div class="flikar larflikar" role="tablist">
@@ -14860,9 +14913,12 @@ function larTillbaka(tillGrupp){
 
 /* ── Mina grupper ── */
 async function larHamtaGrupper(){
+  const uid=session?.user?.id;
   const r=await klassRpc("kg_lar_grupper");
+  if(uid!==session?.user?.id) return null;
   if(r?.saknas) return "saknas";
   if(!r?.ok) return null;
+  larData.kursstod=!!r.kursstod;
   larData.grupper=r.grupper||[];
   return larData.grupper;
 }
@@ -14871,32 +14927,54 @@ async function larRitaGrupper(){
   if(state.larGrupp && state.larElev) return larRitaElev();
   if(state.larGrupp) return larRitaGrupp();
   const g=await larHamtaGrupper();
-  if(!document.getElementById("larkropp")) return;
+  if(!kropp.isConnected || state.larGrupp || state.larFlik!=="grupper") return;
   if(g==="saknas"){ kropp.innerHTML=larSaknasHtml(); return; }
   if(!g){ kropp.innerHTML=`<div class="empty">Kunde inte hämta dina grupper. Är kontot godkänt som lärare?</div>`; return; }
-  kropp.innerHTML=`<p class="lartext">Skapa en undervisningsgrupp och lägg till elever från en eller flera klasser, eller dela gruppens kod med dem.
-      Eleverna kan ha olika grupper och lärare i matematik och fysik. Klicka på en grupp för att se dess statistik.</p>
-    <div class="larny">
-      <input class="admin-sok" id="lar-nyklass" maxlength="40" aria-label="Gruppens namn" placeholder="Gruppens namn, t.ex. NA24b Ma2c"
-        onkeydown="if(event.key==='Enter')larSkapaGrupp()">
-      <button class="btn primary" id="lar-skapa-klass" onclick="larSkapaGrupp()">Skapa grupp</button>
-    </div>
+  kropp.innerHTML=`${!g.length?`<section class="larvalkommen">
+      <div class="lbl">Kom igång</div><h2>Välkommen till din undervisning</h2>
+      <p>Samla elever från en eller flera klasser i en grupp. Dela träningspass och följ hur det går.</p>
+      <div class="larstart-knappar"><button class="btn primary" onclick="larVisaNyGrupp()">Skapa min första grupp</button>
+        <button class="btn" onclick="larTranaSjalv()">Träna själv</button></div>
+    </section>`:`<div class="laroversikt-huvud"><div><h2>Mina grupper</h2>
+      <p class="lartext">Öppna en grupp för att dela träningspass, lägga till elever och följa deras träning.</p></div>
+      <button class="btn primary" onclick="larVisaNyGrupp()">Skapa grupp</button></div>`}
+    <form id="lar-nygrupp-form" class="larvalkommen" hidden onsubmit="event.preventDefault();larSkapaGrupp()">
+      <h3>Ny undervisningsgrupp</h3>
+      <div class="larny"><label class="provfalt"><span>Gruppens namn</span>
+        <input class="admin-sok" id="lar-nyklass" maxlength="40" placeholder="T.ex. NA26 Matematik" required></label>
+        ${larData.kursstod?`<label class="provfalt"><span>Kurs</span><select id="lar-nykurs" class="admin-sok" required>
+          <option value="">Välj kurs …</option>${larKursAlternativ()}</select></label>`:""}</div>
+      <div class="larstart-knappar"><button class="btn primary" id="lar-skapa-klass" type="submit">Skapa grupp</button>
+        <button class="btn" type="button" onclick="document.getElementById('lar-nygrupp-form').hidden=true">Avbryt</button></div>
+    </form>
     ${g.length?`<div class="largrid">${g.map(x=>`<button class="larkort" onclick="larValjGrupp(${Number(x.id)})">
         <span class="larkort-namn">${esc(x.namn)}</span>
+        ${x.kurs?`<span class="larkort-meta">${esc(larKursNamn(x.kurs))}</span>`:""}
         <span class="larkort-tal"><b>${Number(x.elever)||0}</b> elever · <b>${Number(x.aktiva)||0}</b> aktiva senaste veckan</span>
-        <span class="larkort-kod">Kod ${esc(x.kod)}</span>
+        <span class="larkort-kod">Öppna gruppen →</span>
         ${(x.larare||[]).length>1?`<span class="larkort-meta">Lärare: ${esc(x.larare.join(", "))}</span>`:""}
-      </button>`).join("")}</div>`
-      :`<div class="empty">Du har inga grupper än. Skapa den första ovan.</div>`}`;
+      </button>`).join("")}</div>`:""}`;
 }
+function larKursAlternativ(val=""){
+  return COURSE_ORDER.filter(id=>COURSES[id]&&id!=="hist").map(id=>`<option value="${esc(id)}"${id===val?" selected":""}>${esc(larKursNamn(id))}</option>`).join("");
+}
+function larVisaNyGrupp(){
+  const form=document.getElementById("lar-nygrupp-form");if(!form)return;
+  form.hidden=false;document.getElementById("lar-nyklass")?.focus();form.scrollIntoView({block:"nearest"});
+}
+
 async function larSkapaGrupp(){
   if(larSkaparKlass) return;
   const f=document.getElementById("lar-nyklass"), knapp=document.getElementById("lar-skapa-klass");
   const namn=(f?.value||"").trim();
   if(namn.length<2){ toast("Ge gruppen ett namn."); f?.focus(); return; }
+  const kurs=document.getElementById("lar-nykurs")?.value;
+  if(larData.kursstod && !kurs){toast("Välj gruppens kurs.");return;}
   larSkaparKlass=true; if(knapp) knapp.disabled=true; if(f) f.disabled=true;
   try{
-    const r=await klassRpc("kg_lar_grupp_skapa",{p_namn:namn});
+    const uid=session?.user?.id;
+    const r=kurs?await klassRpc("kg_lar_grupp_skapa_kurs",{p_namn:namn,p_kurs:kurs}):await klassRpc("kg_lar_grupp_skapa",{p_namn:namn});
+    if(uid!==session?.user?.id) return;
     if(r?.saknas){ toast("Lärarfunktionerna är inte aktiverade än. Kontakta administratören."); return; }
     if(!r?.ok){ toast(r?.code==="namn"?"Namnet ska vara 2–40 tecken.":"Kunde inte skapa gruppen. Försök igen."); return; }
     if(!f?.isConnected) return;
@@ -14906,7 +14984,8 @@ async function larSkapaGrupp(){
   }finally{larSkaparKlass=false; if(knapp) knapp.disabled=false; if(f) f.disabled=false;}
 }
 function larValjGrupp(id){
-  state.larGrupp=Number(id); state.larElev=null; state.larGruppFlik="elever";
+  state.larGrupp=Number(id); state.larElev=null; state.larGruppFlik="oversikt";
+  state.larKurs=larGrupp()?.kurs||null;
   larRitaGrupper(); window.scrollTo(0,0);
 }
 function larGrupp(){ return (larData.grupper||[]).find(x=>Number(x.id)===Number(state.larGrupp)); }
@@ -14921,16 +15000,18 @@ async function larRitaGrupp(){
   if(!larData.grupper) await larHamtaGrupper();
   const g=larGrupp();
   if(!g){ state.larGrupp=null; return larRitaGrupper(); }
-  const sub=state.larGruppFlik||"elever";
+  const sub=state.larGruppFlik||"oversikt";
   kropp.innerHTML=`<button class="lank larbak" onclick="larTillbaka()">← Mina grupper</button>
     <div class="largrupp-topp">
-      <h2>${esc(g.namn)}</h2>
+      <h2>${esc(g.namn)}</h2>${g.kurs?`<p class="lartext">${esc(larKursNamn(g.kurs))}</p>`:""}
       <div class="provkodbox"><span>Kod</span><b>${esc(g.kod)}</b>
         <button class="btn sm" onclick="larKopiera('${esc(g.kod)}','Koden är kopierad.')">Kopiera kod</button>
         <button class="btn sm" onclick="larKopiera(larGruppLank('${esc(g.kod)}'),'Länken är kopierad.')">Kopiera länk</button></div>
       <div class="larverktyg">
         <button class="btn sm primary" onclick="larNyttPass(${Number(g.id)})">Skapa träningspass</button>
         <button class="btn sm" onclick="larOppnaElevval()">Lägg till / flytta elever</button>
+      </div>
+      <details class="larinstallningar"><summary>Gruppinställningar</summary><div class="larverktyg">
         <button class="btn sm quiet" onclick="larBytNamn()">Byt namn</button>
         <button class="btn sm quiet" onclick="larKollega()">Lägg till kollega</button>
         <button class="btn sm quiet farligtext" onclick="larTaBortGrupp()">Ta bort gruppen</button>
@@ -14939,15 +15020,49 @@ async function larRitaGrupp(){
       <button class="vaxel larsynlig${g.synlig!==false?" pa":""}" role="switch" aria-checked="${g.synlig!==false?"true":"false"}" onclick="larVaxlaSynlig(this)">
         <span class="vtext">Synlig i skolans lista, så att eleverna kan gå med utan kod</span>
         <span class="vspar" aria-hidden="true"><i></i></span></button>
+      ${larData.kursstod?`<label class="provfalt larkursval"><span>Gruppens kurs</span><select class="admin-sok" onchange="larBytKurs(this)"><option value="">Välj kurs …</option>${larKursAlternativ(g.kurs)}</select></label>`:""}
       <div class="larklassrad"><span>Klass på topplistan: <b>${g.klass?esc(g.klass.namn):"ingen"}</b></span>
         <button class="btn sm quiet" onclick="larGruppKlass()">${g.klass?"Byt klass":"Koppla till klass"}</button></div>
+      </details>
     </div>
     <div class="toppvy" role="tablist">
+      <button class="${sub==="oversikt"?"pa":""}" onclick="state.larGruppFlik='oversikt';larRitaGrupp()">Översikt</button>
+      <button class="${sub==="pass"?"pa":""}" onclick="state.larGruppFlik='pass';larRitaGrupp()">Träningspass</button>
       <button class="${sub==="elever"?"pa":""}" onclick="state.larGruppFlik='elever';larRitaGrupp()">Elever</button>
       <button class="${sub==="omraden"?"pa":""}" onclick="state.larGruppFlik='omraden';larRitaGrupp()">Gruppens statistik per område</button>
     </div>
     <div id="largruppkropp"><div class="empty">Hämtar …</div></div>`;
-  if(sub==="omraden") larRitaOmraden(); else larRitaElever();
+  if(sub==="oversikt") larRitaOversikt();
+  else if(sub==="pass"){document.getElementById("largruppkropp").innerHTML='<div id="provlarare-kropp"></div>';provRitaLararlista();}
+  else if(sub==="omraden") larRitaOmraden(); else larRitaElever();
+}
+
+async function larBytKurs(falt){
+  const g=larGrupp(),kurs=falt.value,uid=session?.user?.id;if(!g)return;
+  falt.disabled=true;
+  const r=await klassRpc("kg_lar_grupp_kurs",{p_grupp:g.id,p_kurs:kurs||null});
+  if(uid!==session?.user?.id || !falt.isConnected)return;
+  falt.disabled=false;
+  if(!r?.ok){falt.value=g.kurs||"";toast("Kursen kunde inte sparas.");return;}
+  g.kurs=kurs||null;state.larKurs=g.kurs;larRitaGrupp();toast("Gruppens kurs är sparad.");
+}
+async function larRitaOversikt(){
+  const box=document.getElementById("largruppkropp"),g=larGrupp(),uid=session?.user?.id;if(!box||!g)return;
+  const [e,p]=await Promise.all([klassRpc("kg_lar_elever",{p_grupp:g.id}),provRpc("kg_prov_mina")]);
+  if(!box.isConnected || session?.user?.id!==uid || state.larGrupp!==Number(g.id) || state.larGruppFlik!=="oversikt")return;
+  const elever=e?.ok?(e.elever||[]):null;
+  const pass=p?.ok?(p.prov||[]).filter(x=>x.aktiv&&(x.grupper||[]).some(y=>Number(y.id)===Number(g.id))):null;
+  box.innerHTML=`<div class="statgrid larstat">
+      ${statRuta(elever?String(elever.length):"–","Elever")}
+      ${statRuta(elever?String(elever.filter(x=>Number(x.vecka)>0).length):"–","Aktiva senaste veckan")}
+      ${statRuta(elever?String(elever.reduce((n,x)=>n+(Number(x.vecka)||0),0)):"–","Uppgifter senaste veckan")}
+    </div><p class="lartext liten">Aktiviteten ovan gäller elevernas träning i alla kurser. Välj statistik per område för en viss kurs.</p>
+    ${!elever?`<p role="status">Elevstatistiken kunde inte hämtas. <button class="lank" onclick="larRitaOversikt()">Försök igen</button></p>`:!elever.length?`<div class="larvalkommen"><h3>Lägg till gruppens elever</h3><p>Välj hela klasser, kryssa i enskilda elever eller dela gruppens kod.</p><button class="btn primary" onclick="larOppnaElevval()">Lägg till elever</button></div>`:""}
+    <div class="laroversikt-huvud"><h3>Aktuella träningspass</h3><button class="btn" onclick="state.larGruppFlik='pass';larRitaGrupp()">Visa alla pass</button></div>
+    ${pass===null?`<p role="status">Träningspassen kunde inte hämtas. <button class="lank" onclick="larRitaOversikt()">Försök igen</button></p>`:pass.length?`<div class="largrid">${pass.map(x=>`<button class="larkort" onclick="larOppnaGruppPass(${Number(x.id)})"><span class="larkort-namn">${esc(x.titel)}</span><span class="larkort-meta">${esc(larKursNamn(x.kurs))}${x.datum?" · till "+esc(provDatum(x.datum)):""}</span><span>Visa resultat →</span></button>`).join("")}</div>`:`<p class="lartext">Inga aktiva pass än. Skapa ett pass när du vill ge gruppen något särskilt att träna på.</p>`}`;
+}
+async function larOppnaGruppPass(id){
+  state.larGruppFlik="pass";state.larOppnaPass=id;await larRitaGrupp();
 }
 
 // Valen lagras i Set även när listan filtreras. Flytt gäller endast vald källgrupp.
@@ -15040,7 +15155,7 @@ async function larRitaElever(ladda=true){
   const id=state.larGrupp, g=larGrupp();
   if(ladda || !larData.elever[id]){
     const r=await klassRpc("kg_lar_elever",{p_grupp:id});
-    if(!document.getElementById("largruppkropp")) return;
+    if(!box.isConnected || state.larGrupp!==id || state.larGruppFlik!=="elever") return;
     if(!r?.ok){ box.innerHTML=`<div class="empty">Kunde inte hämta eleverna.</div>`; return; }
     larData.elever[id]=r.elever||[];
   }
@@ -15181,7 +15296,7 @@ async function larRitaOmraden(){
     <div id="laromr"><div class="empty">Hämtar …</div></div>`;
   const [r,kd]=await Promise.all([klassRpc("kg_lar_grupp_omraden",{p_grupp:state.larGrupp,p_kurs:kurs}),
                                   provKursData(kurs).catch(()=>null)]);
-  const host=document.getElementById("laromr"); if(!host || state.larKurs!==kurs) return;
+  const host=box.querySelector("#laromr"); if(!box.isConnected || !host || state.larKurs!==kurs) return;
   if(!r?.ok){ host.innerHTML=`<div class="empty">Kunde inte hämta gruppens resultat.</div>`; return; }
   const ordning=kd?kd.kapitel.flatMap(k=>k.omraden):[];
   const omr=Object.entries(r.omraden||{}).map(([o,x])=>({omr:o,m:Number(x.m)||0,elever:Number(x.elever)||0,
@@ -15243,7 +15358,7 @@ function larRitaPass(){
   else provRitaLararlista();
 }
 function larNyttPass(grupp,kurs,omraden){
-  state.larPassForval={grupper:grupp?[Number(grupp)]:[],kurs:kurs||null,omraden:omraden||[]};
+  state.larPassForval={grupper:grupp?[Number(grupp)]:[],kurs:kurs||(larData.grupper||[]).find(g=>Number(g.id)===Number(grupp))?.kurs||null,omraden:omraden||[]};
   state.larFlik="pass";
   ritaLarare(); window.scrollTo(0,0);
 }

@@ -4213,9 +4213,13 @@ async function laddaMinKlass(){
 }
 async function oppnaKlassval(tvingad=false){
   if(!session){ loggaIn(); return; }
-  const lista=await klassRpc("kg_klasser",{},false);
-  if(!Array.isArray(lista)){ if(!tvingad) toast(lista?.saknas?"Klasserna är inte aktiverade än.":"Kunde inte hämta klasserna just nu."); return; }
+  const uid=session.user?.id;
+  const svar=await klassRpc("kg_klasser",{},false);
+  if(session?.user?.id!==uid) return;
+  if(!Array.isArray(svar)){ if(!tvingad) toast(svar?.saknas?"Klasserna är inte aktiverade än.":"Kunde inte hämta klasserna just nu."); return; }
+  const lista=tvingad?svar.filter(k=>!k.larare):svar;
   if(state.minKlass===undefined) await laddaMinKlass();
+  if(session?.user?.id!==uid) return;
   const min=state.minKlass?.id;
   document.getElementById("klassval")?.remove();
   const el=document.createElement("div");
@@ -4227,7 +4231,7 @@ async function oppnaKlassval(tvingad=false){
         ${tvingad?"":`<button class="iconbtn" onclick="stangKlassval()" aria-label="Stäng">✕</button>`}
       </div>
       <p class="modal-text">${tvingad
-        ? "Välj vilken klass du går i för att fortsätta. Då kommer du med på topplistan och din XP räknas för klassen. Finns inte din klass med kan du skapa den. Du kan byta klass en gång i veckan."
+        ? "Välj vilken klass du går i för att fortsätta. Din lärare kan då lägga till dig i rätt undervisningsgrupp. Din XP räknas också för klassen på topplistan. Finns inte din klass med kan du skapa den. Du kan byta klass en gång i veckan."
         : "Din XP räknas för klassen. Du kan byta klass en gång i veckan."}</p>
       ${lista.length?`<div class="valgrid">${lista.map(k=>`<button class="valruta${k.id===min?" vald":""}" onclick="valjKlass(${Number(k.id)})">
           <span class="kryss" aria-hidden="true"></span>
@@ -4249,19 +4253,25 @@ async function oppnaKlassval(tvingad=false){
   if(!tvingad) el.addEventListener("click",e=>{ if(e.target===el) stangKlassval(); });
   requestAnimationFrame(()=>el.classList.add("visa"));
 }
-/* Alla inloggade måste tillhöra en klass för att komma med på topplistan.
-   Rutan går inte att stänga utan att välja eller skapa en klass. Den väntar
-   tills andra rutor (rollval, skolfråga, namn) är stängda. */
-async function kravKlass(forsok=0){
-  if(!MOLN_PA() || !session) return false;
+/* Elever utan klass får rutan vid varje inloggning/sidstart, oberoende av
+   tidigare visade nyheter. Vänta på övrig onboarding och verifiera rollen. */
+async function kravKlass(forsok=0,anvandare=session?.user?.id){
+  if(!MOLN_PA() || !session || session.user?.id!==anvandare) return false;
   if(document.querySelector(".modal.visa") || document.getElementById("klassval")){
-    if(forsok<200) setTimeout(()=>kravKlass(forsok+1),1500);
+    if(forsok<200) setTimeout(()=>kravKlass(forsok+1,anvandare),1500);
     return false;
   }
+  const roll=await hamtaLarprofil();
+  if(!roll || roll.saknas || session?.user?.id!==anvandare || roll.larare || roll.godkand || arAdmin) return false;
   await laddaMinKlass();
-  if(state.minKlass || state.minKlass===false) return false;   // har klass, eller klasser inte installerade
+  if(session?.user?.id!==anvandare || state.minKlass || state.minKlass===false) return false;
+  // En annan onboardingruta kan ha öppnats under nätverksanropen.
+  if(document.querySelector(".modal.visa") || document.getElementById("klassval")){
+    if(forsok<200) setTimeout(()=>kravKlass(forsok+1,anvandare),1500);
+    return false;
+  }
   await oppnaKlassval(true);
-  return true;
+  return !!document.getElementById("klassval");
 }
 function stangKlassval(){
   const el=document.getElementById("klassval"); if(!el) return;
@@ -14032,7 +14042,7 @@ window.addEventListener("load",async()=>{
     provAnslutVantande();
     setTimeout(async()=>{
       if(await visaRollval() || await visaSkolfraga()){ kravKlass(); return; }
-      if(!(await kravKlass())) visaNyhetKlasser();
+      if(!(await kravKlass()) && !arNagonLarare() && !arAdmin) visaNyhetKlasser();
     },nyInloggning?1200:600);
   }
 
@@ -14602,9 +14612,9 @@ function provRitaSkapa(){
         <input class="admin-sok" type="date" value="${esc(s.datum)}" onchange="provSkapa.datum=this.value"></label>
     </div>
 
-    <div class="provfalt"><span>Vilka klasser ska få passet?</span>
+    <div class="provfalt"><span>Vilka grupper ska få passet?</span>
       ${s.grupplista.length?`<div class="provchips">${s.grupplista.map(g=>`<button type="button" class="valruta${s.grupper.includes(Number(g.id))?" vald":""}" onclick="provVaxlaGrupp(${Number(g.id)})"><span class="kryss" aria-hidden="true"></span><span class="valnamn">${esc(g.namn)}</span><span class="valstate">${Number(g.elever)||0}</span></button>`).join("")}</div>`
-        :`<p class="menytext">Du har inga klasser än. <button class="lank" onclick="larStartKlasser()">Skapa en under Mina klasser</button>, eller dela passets kod direkt med eleverna.</p>`}
+        :`<p class="menytext">Du har inga grupper än. <button class="lank" onclick="larStartKlasser()">Skapa en under Mina grupper</button>, eller dela passets kod direkt med eleverna.</p>`}
       <p class="menytext">Eleverna i valda grupper ser passet direkt på sin startsida. Passet får också en egen kod som alla kan gå med med.${s.datum?" Det visas till och med dagen efter slutdatumet.":""}</p></div>
 
     <div class="provfalt"><span>Nivåer som ska tränas</span>
@@ -14740,10 +14750,10 @@ let larData={grupper:null,elever:{}}, larSkaparKlass=false;
 
 function larStartKnappar(){
   if(!MOLN_PA() || !session || !arNagonLarare()) return "";
-  return `<section class="larstart" aria-label="För dig som lärare"><strong>Träna tillsammans med din klass</strong>
-    <p>Skapa klasser, lägg till elever och följ deras träning.</p>
+  return `<section class="larstart" aria-label="För dig som lärare"><strong>Träna tillsammans med dina grupper</strong>
+    <p>Skapa undervisningsgrupper, lägg till elever och följ deras träning.</p>
     <div class="larstart-knappar"><button class="btn primary" onclick="larStartPass()">Skapa träningspass till eleverna</button>
-    <button class="btn" onclick="larStartKlasser()">Mina klasser</button></div></section>`;
+    <button class="btn" onclick="larStartKlasser()">Mina grupper</button></div></section>`;
 }
 function larStartKlasser(){
   state.larGrupp=null; state.larElev=null;
@@ -14827,7 +14837,7 @@ function ritaLarare(){
       ${larProfil?"":`<div class="larprofil-notis"><span>Fyll i ditt fullständiga namn och din skola, så att eleverna kan hitta dig och dina grupper.</span>
         <button class="btn sm primary" onclick="oppnaLararprofil()">Fyll i lärarprofil</button></div>`}</div>
     <div class="flikar larflikar" role="tablist">
-      ${flik("grupper","Mina klasser")}${flik("pass","Träningspass")}
+      ${flik("grupper","Mina grupper")}${flik("pass","Träningspass")}
       <button class="fliknapp" onclick="oppnaFelrapportLogg()">Felrapporter${felOppnaAntal?" ("+felOppnaAntal+")":""}</button>
     </div>
     <div id="larkropp" class="larkropp"><div class="empty">Hämtar …</div></div>
@@ -14864,12 +14874,12 @@ async function larRitaGrupper(){
   if(!document.getElementById("larkropp")) return;
   if(g==="saknas"){ kropp.innerHTML=larSaknasHtml(); return; }
   if(!g){ kropp.innerHTML=`<div class="empty">Kunde inte hämta dina grupper. Är kontot godkänt som lärare?</div>`; return; }
-  kropp.innerHTML=`<p class="lartext">Skapa en klass och lägg till elever från skolans elevlista, eller dela klassens kod med dem.
-      Klicka på en klass för att se elevernas träning och statistik. Du kan också skapa separata grupper för olika kurser.</p>
+  kropp.innerHTML=`<p class="lartext">Skapa en undervisningsgrupp och lägg till elever från en eller flera klasser, eller dela gruppens kod med dem.
+      Eleverna kan ha olika grupper och lärare i matematik och fysik. Klicka på en grupp för att se dess statistik.</p>
     <div class="larny">
-      <input class="admin-sok" id="lar-nyklass" maxlength="40" aria-label="Klassens namn" placeholder="Klassens namn, t.ex. NA24b Ma2c"
+      <input class="admin-sok" id="lar-nyklass" maxlength="40" aria-label="Gruppens namn" placeholder="Gruppens namn, t.ex. NA24b Ma2c"
         onkeydown="if(event.key==='Enter')larSkapaGrupp()">
-      <button class="btn primary" id="lar-skapa-klass" onclick="larSkapaGrupp()">Skapa klass</button>
+      <button class="btn primary" id="lar-skapa-klass" onclick="larSkapaGrupp()">Skapa grupp</button>
     </div>
     ${g.length?`<div class="largrid">${g.map(x=>`<button class="larkort" onclick="larValjGrupp(${Number(x.id)})">
         <span class="larkort-namn">${esc(x.namn)}</span>
@@ -14877,20 +14887,20 @@ async function larRitaGrupper(){
         <span class="larkort-kod">Kod ${esc(x.kod)}</span>
         ${(x.larare||[]).length>1?`<span class="larkort-meta">Lärare: ${esc(x.larare.join(", "))}</span>`:""}
       </button>`).join("")}</div>`
-      :`<div class="empty">Du har inga klasser än. Skapa den första ovan.</div>`}`;
+      :`<div class="empty">Du har inga grupper än. Skapa den första ovan.</div>`}`;
 }
 async function larSkapaGrupp(){
   if(larSkaparKlass) return;
   const f=document.getElementById("lar-nyklass"), knapp=document.getElementById("lar-skapa-klass");
   const namn=(f?.value||"").trim();
-  if(namn.length<2){ toast("Ge klassen ett namn."); f?.focus(); return; }
+  if(namn.length<2){ toast("Ge gruppen ett namn."); f?.focus(); return; }
   larSkaparKlass=true; if(knapp) knapp.disabled=true; if(f) f.disabled=true;
   try{
     const r=await klassRpc("kg_lar_grupp_skapa",{p_namn:namn});
     if(r?.saknas){ toast("Lärarfunktionerna är inte aktiverade än. Kontakta administratören."); return; }
-    if(!r?.ok){ toast(r?.code==="namn"?"Namnet ska vara 2–40 tecken.":"Kunde inte skapa klassen. Försök igen."); return; }
+    if(!r?.ok){ toast(r?.code==="namn"?"Namnet ska vara 2–40 tecken.":"Kunde inte skapa gruppen. Försök igen."); return; }
     if(!f?.isConnected) return;
-    toast(`Klassen ${r.namn} är skapad. Lägg till elever eller dela koden ${r.kod}.`);
+    toast(`Gruppen ${r.namn} är skapad. Lägg till elever eller dela koden ${r.kod}.`);
     await larHamtaGrupper();
     if(f.isConnected) larValjGrupp(Number(r.id));
   }finally{larSkaparKlass=false; if(knapp) knapp.disabled=false; if(f) f.disabled=false;}
@@ -14912,7 +14922,7 @@ async function larRitaGrupp(){
   const g=larGrupp();
   if(!g){ state.larGrupp=null; return larRitaGrupper(); }
   const sub=state.larGruppFlik||"elever";
-  kropp.innerHTML=`<button class="lank larbak" onclick="larTillbaka()">← Mina klasser</button>
+  kropp.innerHTML=`<button class="lank larbak" onclick="larTillbaka()">← Mina grupper</button>
     <div class="largrupp-topp">
       <h2>${esc(g.namn)}</h2>
       <div class="provkodbox"><span>Kod</span><b>${esc(g.kod)}</b>
@@ -14934,13 +14944,13 @@ async function larRitaGrupp(){
     </div>
     <div class="toppvy" role="tablist">
       <button class="${sub==="elever"?"pa":""}" onclick="state.larGruppFlik='elever';larRitaGrupp()">Elever</button>
-      <button class="${sub==="omraden"?"pa":""}" onclick="state.larGruppFlik='omraden';larRitaGrupp()">Klassens statistik per område</button>
+      <button class="${sub==="omraden"?"pa":""}" onclick="state.larGruppFlik='omraden';larRitaGrupp()">Gruppens statistik per område</button>
     </div>
     <div id="largruppkropp"><div class="empty">Hämtar …</div></div>`;
   if(sub==="omraden") larRitaOmraden(); else larRitaElever();
 }
 
-// Valen lagras i Set även när listan filtreras. Flytt gäller endast vald källklass.
+// Valen lagras i Set även när listan filtreras. Flytt gäller endast vald källgrupp.
 let larElevval=null;
 async function larOppnaElevval(){
   const id=state.larGrupp, box=document.getElementById("largruppkropp");
@@ -14950,29 +14960,48 @@ async function larOppnaElevval(){
   if(state.larGrupp!==id || !box.isConnected) return;
   if(!r?.ok){
     box.innerHTML=`<div class="empty">${r?.code==="skola"?"Fyll i din skola i lärarprofilen för att se skolans elevlista.":"Elevlistan kunde inte hämtas. Försök igen eller kontakta administratören."}
-      <button class="btn" onclick="larRitaGrupp()">Tillbaka till klassen</button></div>`;
+      <button class="btn" onclick="larRitaGrupp()">Tillbaka till gruppen</button></div>`;
     return;
   }
   larElevval={grupp:id,elever:r.elever||[],val:new Set(),sparar:false};
-  box.innerHTML=`<h3>Lägg till elever i ${esc(larGrupp()?.namn||"klassen")}</h3>
-    <p class="lartext">Välj elever från din skola eller dina befintliga klasser. Elever som inte finns här kan gå med med klassens kod. <button class="lank" onclick="oppnaLararprofil()">Ändra min skola</button></p>
+  const klasser=[...new Map(larElevval.elever.filter(e=>e.klass).map(e=>[String(e.klass.id),e.klass])).values()]
+    .sort((a,b)=>a.namn.localeCompare(b.namn,"sv"));
+  box.innerHTML=`<h3>Lägg till elever i ${esc(larGrupp()?.namn||"gruppen")}</h3>
+    <p class="lartext">Välj en klass för att markera dess elever, eller välj elever en och en. Du kan kombinera flera klasser i samma grupp. Elever som inte finns här kan gå med med gruppens kod. <button class="lank" onclick="oppnaLararprofil()">Ändra min skola</button></p>
+    <div class="larvalverktyg"><label for="lar-importklass">Välj elever från en klass</label>
+      <select id="lar-importklass" class="admin-sok" ${r.klassimport&&klasser.length?"":"disabled"} onchange="larMarkeraKlass(this.value)"><option value="">Välj klass …</option>
+        ${klasser.map(k=>`<option value="${Number(k.id)}">${esc(k.namn)} (${larElevval.elever.filter(e=>Number(e.klass?.id)===Number(k.id)&&!e.medlem).length} att lägga till)</option>`).join("")}</select></div>
+    ${!r.klassimport?`<p class="lartext">Klassimporten behöver aktiveras av administratören. Du kan välja elever en och en under tiden.</p>`:!klasser.length?`<p class="lartext">Ingen klass är angiven för eleverna i listan. De kan välja sin klass på topplistan. Du kan också välja elever en och en här.</p>`:""}
+    <p class="lartext liten">Välj gärna flera klasser och justera kryssen innan du sparar. Befintliga gruppmedlemmar är redan ibockade. Klass och undervisningsgrupp är separata.</p>
     <input class="admin-sok" type="search" aria-label="Sök elev" placeholder="Sök elevens namn" oninput="larFiltreraElevval(this.value)">
     <div class="larelevval">${larElevval.elever.map(e=>`<label data-elevnamn="${esc(String(e.namn||"").toLocaleLowerCase("sv"))}">
-      <input type="checkbox" value="${esc(e.id)}" ${e.medlem?"disabled":""} onchange="larValjElevrad(this)">
-      <span>${esc(e.namn||"Okänd")}<small>${e.medlem?"Redan i klassen":esc((e.grupper||[]).map(g=>g.namn).join(", ")||"Ingen av dina klasser")}</small></span></label>`).join("")}</div>
-    <p id="larelevval-tomt" class="lartext" ${larElevval.elever.length?"hidden":""}>Inga elever hittades. Eleverna behöver ange sin skola eller gå med med klassens kod.</p>
+      <input type="checkbox" value="${esc(e.id)}" ${e.medlem?"checked disabled":""} onchange="larValjElevrad(this)">
+      <span>${esc(e.namn||"Okänd")}<small>${esc([e.klass?.namn,...(e.grupper||[]).map(g=>g.namn)].filter(Boolean).join(" · ")||"Ingen av dina grupper")}</small></span></label>`).join("")}</div>
+    <p id="larelevval-tomt" class="lartext" ${larElevval.elever.length?"hidden":""}>Inga elever hittades. Eleverna behöver ange sin skola eller gå med med gruppens kod.</p>
     <div class="larvalverktyg"><label for="lar-flytta-fran">Lägg till eller flytta</label>
-      <select id="lar-flytta-fran" class="admin-sok"><option value="">Lägg till – behåll övriga klasser</option>
+      <select id="lar-flytta-fran" class="admin-sok"><option value="">Lägg till – behåll övriga grupper</option>
       ${(larData.grupper||[]).filter(g=>Number(g.id)!==Number(id)).map(g=>`<option value="${Number(g.id)}">Flytta från ${esc(g.namn)}</option>`).join("")}</select></div>
-    <p class="lartext liten">Vid flytt tas bara den valda källklassen bort. Övriga undervisningsgrupper behålls. Om klassen är kopplad till topplistan ändras också elevens klass där. Du får tillgång till de valda elevernas träningsstatistik.</p>
-    <p id="larelevval-status" role="status" aria-live="polite">0 elever valda</p>
+    <p class="lartext liten">Vid flytt tas bara den valda källgruppen bort. Övriga undervisningsgrupper behålls. Om gruppen är kopplad till topplistan ändras också elevens klass där. Du får tillgång till de valda elevernas träningsstatistik.</p>
+    <p id="larelevval-status" role="status" aria-live="polite">0 nya elever valda</p>
     <div class="larvalverktyg"><button id="lar-elevval-spara" class="btn primary" disabled onclick="larSparaElevval()">Lägg till valda elever</button>
       <button class="btn" onclick="larRitaGrupp()">Tillbaka</button></div>`;
+}
+function larMarkeraKlass(id){
+  const v=larElevval; if(!v || v.sparar || !id) return;
+  const nya=v.elever.filter(e=>String(e.klass?.id)===String(id)&&!e.medlem);
+  nya.forEach(e=>v.val.add(e.id));
+  document.querySelectorAll(".larelevval input").forEach(el=>{if(!el.disabled) el.checked=v.val.has(el.value);});
+  const sok=document.querySelector('input[aria-label="Sök elev"]'); if(sok) sok.value="";
+  larFiltreraElevval("");
+  document.getElementById("larelevval-status").textContent=v.val.size+" nya elever valda";
+  document.getElementById("lar-elevval-spara").disabled=!v.val.size;
+  // Import tillför medlemskap; den ska aldrig ärva ett tidigare flyttval.
+  document.getElementById("lar-flytta-fran").value="";
 }
 function larValjElevrad(input){
   if(!larElevval || larElevval.sparar) return;
   if(input.checked) larElevval.val.add(input.value); else larElevval.val.delete(input.value);
-  document.getElementById("larelevval-status").textContent=larElevval.val.size+" elever valda";
+  document.getElementById("larelevval-status").textContent=larElevval.val.size+" nya elever valda";
   document.getElementById("lar-elevval-spara").disabled=!larElevval.val.size;
 }
 function larFiltreraElevval(text){
@@ -14985,17 +15014,17 @@ async function larSparaElevval(){
   v.sparar=true;
   const status=document.getElementById("larelevval-status"), knapp=document.getElementById("lar-elevval-spara");
   const fran=Number(document.getElementById("lar-flytta-fran").value)||null;
-  const kontroller=[...document.querySelectorAll(".larelevval input:not(:disabled),#lar-flytta-fran")];
+  const kontroller=[...document.querySelectorAll(".larelevval input:not(:disabled),#lar-flytta-fran,#lar-importklass")];
   kontroller.forEach(el=>el.disabled=true);
   knapp.disabled=true; status.textContent="Sparar …";
   const r=await klassRpc("kg_lar_elever_lagg_till",{p_grupp:v.grupp,p_elever:[...v.val],p_fran:fran});
   v.sparar=false;
   if(larElevval!==v || state.larGrupp!==v.grupp || !status.isConnected) return;
-  if(!r?.ok){kontroller.forEach(el=>el.disabled=false);status.textContent=r?.code==="kallklass"?"Alla valda elever måste tillhöra klassen du flyttar från. Dina val är kvar.":"Eleverna kunde inte sparas. Dina val är kvar. Försök igen eller kontakta administratören.";knapp.disabled=false;return;}
+  if(!r?.ok){kontroller.forEach(el=>el.disabled=false);status.textContent=r?.code==="kallklass"?"Alla valda elever måste tillhöra gruppen du flyttar från. Dina val är kvar.":"Eleverna kunde inte sparas. Dina val är kvar. Försök igen eller kontakta administratören.";knapp.disabled=false;return;}
   delete larData.elever[v.grupp]; if(fran) delete larData.elever[fran];
   await larHamtaGrupper();
   if(state.larGrupp!==v.grupp || !status.isConnected) return;
-  larElevval=null; state.larGruppFlik="elever"; toast(fran?"Eleverna har flyttats till klassen.":"Eleverna har lagts till i klassen.");
+  larElevval=null; state.larGruppFlik="elever"; toast(fran?"Eleverna har flyttats till gruppen.":"Eleverna har lagts till i gruppen.");
   larRitaGrupp();
 }
 
@@ -15017,7 +15046,7 @@ async function larRitaElever(ladda=true){
   }
   const lista=[...larData.elever[id]];
   if(!lista.length){
-    box.innerHTML=`<div class="empty">Klassen har inga elever än. Klicka på ”Lägg till / flytta elever” eller dela koden <b>${esc(g?.kod||"")}</b> eller länken med gruppen.</div>`;
+    box.innerHTML=`<div class="empty">Gruppen har inga elever än. Klicka på ”Lägg till / flytta elever” eller dela koden <b>${esc(g?.kod||"")}</b> eller länken med gruppen.</div>`;
     return;
   }
   const s=LAR_SORT[state.larSort]?state.larSort:"namn";

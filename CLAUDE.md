@@ -29,3 +29,7 @@ En ändring av ett tidigare beslut ska ha en ny dokumenterad motivering.
 ## Figurer vid konstruktion och omarbetning
 
 Användarbeslut 2026-10-13: vid nya eller omarbetade uppgifter ska du alltid sträva efter att ha med en figur, om det är möjligt. Följ masterrepots `CLAUDE.md`, avsnittet ”Figurer vid konstruktion och omarbetning”. Egna SVG-figurer ska hjälpa eleven att förstå situationen och ha tydliga, korrekt placerade beteckningar, sträckor, vinklar, enheter och pilar. Kontrollera modell, geometri och visning på mobil/dator. Varje separat kort behöver sin relevanta figur. Dokumentera kort när en figur inte bidrar till uppgiften.
+
+## Statistik: standardavvikelse
+
+Användarbeslut 2026-10-14: rådataberäkningar använder Sx med n−1, även för frekvenstabeller och histogram. Följ masterrepots `agent/PEDAGOGISKA_REGLER.md`, avsnittet ”Statistik: Sx som räkningsstandard”. Fråga, facit, delkort och maskinsvar ska följa samma mått. Givna normalfördelningsparametrar σ behålls. Återställ inte FP28–29:s historiska σx-facit.

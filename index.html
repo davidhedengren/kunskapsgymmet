@@ -6784,12 +6784,12 @@ function renderHome(){
         ${inloggad?`<h1>${arNagonLarare()?"Träna själv.":"Din träning."}</h1>`:`<h1><span>Träna på rätt saker.</span><em>På rätt nivå.</em></h1>`}
         <p>Välj kurs, välj område och börja.<br class="hero-bryt"> Nivån ställer in sig efter hur det går för dig.</p>
       </div>
-      ${inloggad?"":`<div class="hero-hoger">
+      <div class="hero-hoger">
       <div class="kg-globalstats" id="kg-globalstats" hidden aria-label="Kunskapsgymmet i siffror">
         <div class="siffra"><b id="kg-stat-users">0</b><span>registrerade användare</span></div>
         <div class="siffra"><b id="kg-stat-attempts">0</b><span>lösta uppgifter</span></div>
       </div>
-      </div>`}
+      </div>
     </section>
     <div id="provbanner"></div>
     <h2 id="egen-traning-rubrik" hidden>Träna på egen hand</h2>

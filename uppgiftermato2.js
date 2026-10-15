@@ -74428,7 +74428,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Villkoret nedan beskriver en mängd punkter i det komplexa talplanet. Bestäm vilken kurva punkterna bildar och rita den:</p><p>\\[|z-(1-i)|=3.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"420\" height=\"330\" viewBox=\"0 0 420 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan med lika skala på axlarna\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"85.0\" y1=\"35\" x2=\"85.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"285.0\" x2=\"335.0\" y2=\"285.0\" stroke=\"#E8ECEF\"/><line x1=\"110.0\" y1=\"35\" x2=\"110.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"260.0\" x2=\"335.0\" y2=\"260.0\" stroke=\"#E8ECEF\"/><line x1=\"135.0\" y1=\"35\" x2=\"135.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"235.0\" x2=\"335.0\" y2=\"235.0\" stroke=\"#E8ECEF\"/><line x1=\"160.0\" y1=\"35\" x2=\"160.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"210.0\" x2=\"335.0\" y2=\"210.0\" stroke=\"#E8ECEF\"/><line x1=\"185.0\" y1=\"35\" x2=\"185.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"185.0\" x2=\"335.0\" y2=\"185.0\" stroke=\"#E8ECEF\"/><line x1=\"210.0\" y1=\"35\" x2=\"210.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"160.0\" x2=\"335.0\" y2=\"160.0\" stroke=\"#E8ECEF\"/><line x1=\"235.0\" y1=\"35\" x2=\"235.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"135.0\" x2=\"335.0\" y2=\"135.0\" stroke=\"#E8ECEF\"/><line x1=\"260.0\" y1=\"35\" x2=\"260.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"110.0\" x2=\"335.0\" y2=\"110.0\" stroke=\"#E8ECEF\"/><line x1=\"285.0\" y1=\"35\" x2=\"285.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"85.0\" x2=\"335.0\" y2=\"85.0\" stroke=\"#E8ECEF\"/><line x1=\"310.0\" y1=\"35\" x2=\"310.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"60.0\" x2=\"335.0\" y2=\"60.0\" stroke=\"#E8ECEF\"/><line x1=\"335.0\" y1=\"35\" x2=\"335.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"35.0\" x2=\"335.0\" y2=\"35.0\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"160.0\" x2=\"335.0\" y2=\"160.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"210.0\" y1=\"35\" x2=\"210.0\" y2=\"285\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"235.0\" cy=\"185.0\" r=\"75.0\" fill=\"#DCEEF1\" fill-opacity=\"0.22\" stroke=\"#268FA3\" stroke-width=\"2\"/><circle cx=\"235.0\" cy=\"185.0\" r=\"5\" fill=\"#B43123\"/><text x=\"242.0\" y=\"178.0\" font-family=\"sans-serif\" font-size=\"11.5\" fill=\"#B43123\">C</text><text x=\"332.0\" y=\"152.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">Re</text><text x=\"218.0\" y=\"47\" font-family=\"sans-serif\" font-size=\"11\">Im</text></svg></span>",
+    "t": "<p>Villkoret nedan beskriver en mängd punkter i det komplexa talplanet. Bestäm vilken kurva punkterna bildar och rita den:</p><p>\\[|z-(1-i)|=3.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"420\" height=\"330\" viewBox=\"0 0 420 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan med lika skala på axlarna\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"85.0\" y1=\"35\" x2=\"85.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"285.0\" x2=\"335.0\" y2=\"285.0\" stroke=\"#E8ECEF\"/><line x1=\"110.0\" y1=\"35\" x2=\"110.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"260.0\" x2=\"335.0\" y2=\"260.0\" stroke=\"#E8ECEF\"/><line x1=\"135.0\" y1=\"35\" x2=\"135.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"235.0\" x2=\"335.0\" y2=\"235.0\" stroke=\"#E8ECEF\"/><line x1=\"160.0\" y1=\"35\" x2=\"160.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"210.0\" x2=\"335.0\" y2=\"210.0\" stroke=\"#E8ECEF\"/><line x1=\"185.0\" y1=\"35\" x2=\"185.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"185.0\" x2=\"335.0\" y2=\"185.0\" stroke=\"#E8ECEF\"/><line x1=\"210.0\" y1=\"35\" x2=\"210.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"160.0\" x2=\"335.0\" y2=\"160.0\" stroke=\"#E8ECEF\"/><line x1=\"235.0\" y1=\"35\" x2=\"235.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"135.0\" x2=\"335.0\" y2=\"135.0\" stroke=\"#E8ECEF\"/><line x1=\"260.0\" y1=\"35\" x2=\"260.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"110.0\" x2=\"335.0\" y2=\"110.0\" stroke=\"#E8ECEF\"/><line x1=\"285.0\" y1=\"35\" x2=\"285.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"85.0\" x2=\"335.0\" y2=\"85.0\" stroke=\"#E8ECEF\"/><line x1=\"310.0\" y1=\"35\" x2=\"310.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"60.0\" x2=\"335.0\" y2=\"60.0\" stroke=\"#E8ECEF\"/><line x1=\"335.0\" y1=\"35\" x2=\"335.0\" y2=\"285\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"35.0\" x2=\"335.0\" y2=\"35.0\" stroke=\"#E8ECEF\"/><line x1=\"85.0\" y1=\"160.0\" x2=\"335.0\" y2=\"160.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"210.0\" y1=\"35\" x2=\"210.0\" y2=\"285\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"235.0\" cy=\"185.0\" r=\"75.0\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2\"/><circle cx=\"235.0\" cy=\"185.0\" r=\"5\" fill=\"#B43123\"/><text x=\"242.0\" y=\"178.0\" font-family=\"sans-serif\" font-size=\"11.5\" fill=\"#B43123\">C</text><text x=\"332.0\" y=\"152.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">Re</text><text x=\"218.0\" y=\"47\" font-family=\"sans-serif\" font-size=\"11\">Im</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbeloppet är avstånd.</p></li><li><p>Villkoret säger att avståndet från punkten \\(1-i\\), dvs \\((1,-1)\\), är 3.</p></li><li><p>Punkterna bildar därför <strong>cirkeln med centrum \\((1,-1)\\) och radie 3</strong>.</p></li><li><div class=\"facit-berakning\"><p>I koordinater:</p><div class=\"facit-matte\">\\[\\boxed{(x-1)^2+(y+1)^2=9}\\].</div></div></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Ortslinjer och områden i komplexa talplanet",
     "formaga": [
@@ -74463,7 +74463,7 @@ window.BANKMATO2 = [
     "poang": "1/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm alla komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-(2+i)|=3.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"101.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"131.6\" y1=\"20.0\" x2=\"131.6\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"162.2\" y1=\"20.0\" x2=\"162.2\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"192.9\" y1=\"20.0\" x2=\"192.9\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"223.5\" y1=\"20.0\" x2=\"223.5\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"254.1\" y1=\"20.0\" x2=\"254.1\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"284.8\" y1=\"20.0\" x2=\"284.8\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"315.4\" y1=\"20.0\" x2=\"315.4\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"346.0\" y1=\"20.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"265.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"234.4\" x2=\"346.0\" y2=\"234.4\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"203.8\" x2=\"346.0\" y2=\"203.8\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"173.1\" x2=\"346.0\" y2=\"173.1\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"142.5\" x2=\"346.0\" y2=\"142.5\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"111.9\" x2=\"346.0\" y2=\"111.9\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"81.2\" x2=\"346.0\" y2=\"81.2\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"50.6\" x2=\"346.0\" y2=\"50.6\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"346.0\" y2=\"20.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"173.1\" x2=\"346.0\" y2=\"173.1\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"162.2\" y1=\"20.0\" x2=\"162.2\" y2=\"265.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<circle cx=\"223.5\" cy=\"142.5\" r=\"91.9\" fill=\"#FBF0EE\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<circle cx=\"223.5\" cy=\"142.5\" r=\"4.5\" fill=\"#B43123\"/>\n<text x=\"230.5\" y=\"135.5\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">2+i</text>\n<text x=\"343.0\" y=\"166.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Re</text>\n<text x=\"169.2\" y=\"32.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Im</text>\n</svg></span><p>a) Beskriv lösningsmängden geometriskt.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm de lösningar som ligger på den reella axeln.</p>",
+    "t": "<p>Bestäm alla komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-(2+i)|=3.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"101.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"131.6\" y1=\"20.0\" x2=\"131.6\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"162.2\" y1=\"20.0\" x2=\"162.2\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"192.9\" y1=\"20.0\" x2=\"192.9\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"223.5\" y1=\"20.0\" x2=\"223.5\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"254.1\" y1=\"20.0\" x2=\"254.1\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"284.8\" y1=\"20.0\" x2=\"284.8\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"315.4\" y1=\"20.0\" x2=\"315.4\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"346.0\" y1=\"20.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"265.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"234.4\" x2=\"346.0\" y2=\"234.4\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"203.8\" x2=\"346.0\" y2=\"203.8\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"173.1\" x2=\"346.0\" y2=\"173.1\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"142.5\" x2=\"346.0\" y2=\"142.5\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"111.9\" x2=\"346.0\" y2=\"111.9\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"81.2\" x2=\"346.0\" y2=\"81.2\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"50.6\" x2=\"346.0\" y2=\"50.6\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"346.0\" y2=\"20.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"173.1\" x2=\"346.0\" y2=\"173.1\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"162.2\" y1=\"20.0\" x2=\"162.2\" y2=\"265.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<circle cx=\"223.5\" cy=\"142.5\" r=\"91.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<circle cx=\"223.5\" cy=\"142.5\" r=\"4.5\" fill=\"#B43123\"/>\n<text x=\"230.5\" y=\"135.5\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">2+i</text>\n<text x=\"343.0\" y=\"166.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Re</text>\n<text x=\"169.2\" y=\"32.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Im</text>\n</svg></span><p>a) Beskriv lösningsmängden geometriskt.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm de lösningar som ligger på den reella axeln.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket \\(|z-(2+i)|\\) är avståndet från punkten \\(z\\) till punkten \\(2+i\\) i det komplexa talplanet.</p></li><li><p>Villkoret beskriver därför en <strong>cirkel med centrum \\((2,1)\\) och radie 3</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På den reella axeln är imaginärdelen 0.</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[z=x\\]:</div></div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[|x-(2+i)|=3.\\]</p></li><li><p>Kvadrera avståndet:</p></li><li><p>\\[(x-2)^2+1^2=9.\\]</p></li><li><p>\\[(x-2)^2=8\\Rightarrow x=2\\pm2\\sqrt2.\\]</p></li></ol><p class=\"facit-svar\"><strong>De reella lösningarna är \\(\\boxed{z=2\\pm2\\sqrt2}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Ortslinjer och områden i komplexa talplanet",
     "formaga": [
@@ -74493,7 +74493,7 @@ window.BANKMATO2 = [
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
     "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm alla komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-(2+i)|=3.\\]</p><span class=\"fig\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 420 300\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"418\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"101.0\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"131.6\" x2=\"131.6\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"162.2\" x2=\"162.2\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"192.9\" x2=\"192.9\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"223.5\" x2=\"223.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"254.1\" x2=\"254.1\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"284.8\" x2=\"284.8\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"315.4\" x2=\"315.4\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"346.0\" x2=\"346.0\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"265.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"234.4\" y2=\"234.4\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"203.8\" y2=\"203.8\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"173.1\" y2=\"173.1\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"111.9\" y2=\"111.9\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"81.2\" y2=\"81.2\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"50.6\" y2=\"50.6\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"20.0\" y2=\"20.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"101.0\" x2=\"346.0\" y1=\"173.1\" y2=\"173.1\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"162.2\" x2=\"162.2\" y1=\"20.0\" y2=\"265.0\"></line>\n<circle cx=\"223.5\" cy=\"142.5\" fill=\"#FBF0EE\" r=\"91.9\" stroke=\"#B43123\" stroke-width=\"2\"></circle>\n<circle cx=\"223.5\" cy=\"142.5\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"230.5\" y=\"135.5\">2+i</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"343.0\" y=\"166.1\">Re</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"169.2\" y=\"32.0\">Im</text>\n</svg></span>",
+    "spelIntro": "<p>Bestäm alla komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-(2+i)|=3.\\]</p><span class=\"fig\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 420 300\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"418\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"101.0\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"131.6\" x2=\"131.6\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"162.2\" x2=\"162.2\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"192.9\" x2=\"192.9\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"223.5\" x2=\"223.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"254.1\" x2=\"254.1\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"284.8\" x2=\"284.8\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"315.4\" x2=\"315.4\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"346.0\" x2=\"346.0\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"265.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"234.4\" y2=\"234.4\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"203.8\" y2=\"203.8\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"173.1\" y2=\"173.1\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"111.9\" y2=\"111.9\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"81.2\" y2=\"81.2\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"50.6\" y2=\"50.6\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"20.0\" y2=\"20.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"101.0\" x2=\"346.0\" y1=\"173.1\" y2=\"173.1\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"162.2\" x2=\"162.2\" y1=\"20.0\" y2=\"265.0\"></line>\n<circle cx=\"223.5\" cy=\"142.5\" fill=\"none\" r=\"91.9\" stroke=\"#B43123\" stroke-width=\"2\"></circle>\n<circle cx=\"223.5\" cy=\"142.5\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"230.5\" y=\"135.5\">2+i</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"343.0\" y=\"166.1\">Re</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"169.2\" y=\"32.0\">Im</text>\n</svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -74579,7 +74579,7 @@ window.BANKMATO2 = [
     "poang": "1/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm och beskriv mängden av komplexa tal som uppfyller</p><p>\\[|z-(2+i)|=3.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"460\" height=\"310\" viewBox=\"0 0 460 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan med en cirkel med centrum två plus i och radie tre\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g><line x1=\"89\" y1=\"25\" x2=\"89\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"127\" y1=\"25\" x2=\"127\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"165\" y1=\"25\" x2=\"165\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"203\" y1=\"25\" x2=\"203\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"241\" y1=\"25\" x2=\"241\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"279\" y1=\"25\" x2=\"279\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"317\" y1=\"25\" x2=\"317\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"355\" y1=\"25\" x2=\"355\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"393\" y1=\"25\" x2=\"393\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"284\" x2=\"410\" y2=\"284\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"246\" x2=\"410\" y2=\"246\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"208\" x2=\"410\" y2=\"208\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"170\" x2=\"410\" y2=\"170\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"132\" x2=\"410\" y2=\"132\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"94\" x2=\"410\" y2=\"94\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"56\" x2=\"410\" y2=\"56\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"18\" x2=\"410\" y2=\"18\" stroke=\"#E1E6EA\"/></g><line x1=\"60\" y1=\"170\" x2=\"425\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"165\" y1=\"292\" x2=\"165\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"241\" cy=\"132\" r=\"114\" fill=\"#DCEFF2\" fill-opacity=\"0.45\" stroke=\"#268FA3\" stroke-width=\"2.2\"/><circle cx=\"241\" cy=\"132\" r=\"5\" fill=\"#B43123\"/><text x=\"251\" y=\"124\" font-family=\"sans-serif\" font-size=\"12\">2 + i</text><text x=\"427\" y=\"163\" font-family=\"sans-serif\" font-size=\"11\">Re</text><text x=\"172\" y=\"23\" font-family=\"sans-serif\" font-size=\"11\">Im</text></svg></span><p>Bestäm dessutom de punkter i mängden som ligger på den reella axeln.</p>",
+    "t": "<p>Bestäm och beskriv mängden av komplexa tal som uppfyller</p><p>\\[|z-(2+i)|=3.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"460\" height=\"310\" viewBox=\"0 0 460 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan med en cirkel med centrum två plus i och radie tre\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g><line x1=\"89\" y1=\"25\" x2=\"89\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"127\" y1=\"25\" x2=\"127\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"165\" y1=\"25\" x2=\"165\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"203\" y1=\"25\" x2=\"203\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"241\" y1=\"25\" x2=\"241\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"279\" y1=\"25\" x2=\"279\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"317\" y1=\"25\" x2=\"317\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"355\" y1=\"25\" x2=\"355\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"393\" y1=\"25\" x2=\"393\" y2=\"280\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"284\" x2=\"410\" y2=\"284\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"246\" x2=\"410\" y2=\"246\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"208\" x2=\"410\" y2=\"208\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"170\" x2=\"410\" y2=\"170\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"132\" x2=\"410\" y2=\"132\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"94\" x2=\"410\" y2=\"94\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"56\" x2=\"410\" y2=\"56\" stroke=\"#E1E6EA\"/><line x1=\"65\" y1=\"18\" x2=\"410\" y2=\"18\" stroke=\"#E1E6EA\"/></g><line x1=\"60\" y1=\"170\" x2=\"425\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"165\" y1=\"292\" x2=\"165\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"241\" cy=\"132\" r=\"114\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.2\"/><circle cx=\"241\" cy=\"132\" r=\"5\" fill=\"#B43123\"/><text x=\"251\" y=\"124\" font-family=\"sans-serif\" font-size=\"12\">2 + i</text><text x=\"427\" y=\"163\" font-family=\"sans-serif\" font-size=\"11\">Re</text><text x=\"172\" y=\"23\" font-family=\"sans-serif\" font-size=\"11\">Im</text></svg></span><p>Bestäm dessutom de punkter i mängden som ligger på den reella axeln.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret betyder att avståndet från \\(z\\) till punkten \\(2+i\\) är 3.</p></li><li><p>Mängden är alltså en <strong>cirkel med centrum \\((2,1)\\) och radie 3</strong>.</p></li><li><div class=\"facit-berakning\"><p>På den reella axeln är</p><div class=\"facit-matte\">\\[z=x\\].</div></div></li><li><p>Då</p></li><li><p>\\[|x-(2+i)|^2=(x-2)^2+1=9.\\]</p></li><li><p>\\[(x-2)^2=8\\Rightarrow x=2\\pm2\\sqrt2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Skärningspunkterna är \\(z=2\\pm2\\sqrt2\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Ortslinjer och områden i komplexa talplanet",
     "formaga": [
@@ -74613,7 +74613,7 @@ window.BANKMATO2 = [
     "poang": "0/1/3",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm och beskriv mängden av komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-2|=2|z+1|.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"101.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"131.6\" y1=\"20.0\" x2=\"131.6\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"162.2\" y1=\"20.0\" x2=\"162.2\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"192.9\" y1=\"20.0\" x2=\"192.9\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"223.5\" y1=\"20.0\" x2=\"223.5\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"254.1\" y1=\"20.0\" x2=\"254.1\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"284.8\" y1=\"20.0\" x2=\"284.8\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"315.4\" y1=\"20.0\" x2=\"315.4\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"346.0\" y1=\"20.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"265.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"234.4\" x2=\"346.0\" y2=\"234.4\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"203.8\" x2=\"346.0\" y2=\"203.8\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"173.1\" x2=\"346.0\" y2=\"173.1\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"142.5\" x2=\"346.0\" y2=\"142.5\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"111.9\" x2=\"346.0\" y2=\"111.9\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"81.2\" x2=\"346.0\" y2=\"81.2\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"50.6\" x2=\"346.0\" y2=\"50.6\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"346.0\" y2=\"20.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"142.5\" x2=\"346.0\" y2=\"142.5\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"254.1\" y1=\"20.0\" x2=\"254.1\" y2=\"265.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<circle cx=\"192.9\" cy=\"142.5\" r=\"61.2\" fill=\"#FBF0EE\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<circle cx=\"315.4\" cy=\"142.5\" r=\"4.5\" fill=\"#268FA3\"/>\n<text x=\"320.4\" y=\"128.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">2</text>\n<circle cx=\"223.5\" cy=\"142.5\" r=\"4.5\" fill=\"#268FA3\"/>\n<text x=\"230.5\" y=\"135.5\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"230.5\" y=\"135.5\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">−1</text>\n<text x=\"343.0\" y=\"135.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Re</text>\n<text x=\"261.1\" y=\"32.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Im</text>\n</svg></span><p>Härled cirkelns ekvation och ange centrum och radie.</p>",
+    "t": "<p>Bestäm och beskriv mängden av komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-2|=2|z+1|.\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"101.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"131.6\" y1=\"20.0\" x2=\"131.6\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"162.2\" y1=\"20.0\" x2=\"162.2\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"192.9\" y1=\"20.0\" x2=\"192.9\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"223.5\" y1=\"20.0\" x2=\"223.5\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"254.1\" y1=\"20.0\" x2=\"254.1\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"284.8\" y1=\"20.0\" x2=\"284.8\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"315.4\" y1=\"20.0\" x2=\"315.4\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"346.0\" y1=\"20.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"265.0\" x2=\"346.0\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"234.4\" x2=\"346.0\" y2=\"234.4\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"203.8\" x2=\"346.0\" y2=\"203.8\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"173.1\" x2=\"346.0\" y2=\"173.1\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"142.5\" x2=\"346.0\" y2=\"142.5\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"111.9\" x2=\"346.0\" y2=\"111.9\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"81.2\" x2=\"346.0\" y2=\"81.2\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"50.6\" x2=\"346.0\" y2=\"50.6\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"20.0\" x2=\"346.0\" y2=\"20.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"101.0\" y1=\"142.5\" x2=\"346.0\" y2=\"142.5\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"254.1\" y1=\"20.0\" x2=\"254.1\" y2=\"265.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<circle cx=\"192.9\" cy=\"142.5\" r=\"61.2\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<circle cx=\"315.4\" cy=\"142.5\" r=\"4.5\" fill=\"#268FA3\"/>\n<text x=\"320.4\" y=\"128.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">2</text>\n<circle cx=\"223.5\" cy=\"142.5\" r=\"4.5\" fill=\"#268FA3\"/>\n<text x=\"230.5\" y=\"135.5\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"230.5\" y=\"135.5\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">−1</text>\n<text x=\"343.0\" y=\"135.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Re</text>\n<text x=\"261.1\" y=\"32.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Im</text>\n</svg></span><p>Härled cirkelns ekvation och ange centrum och radie.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja.</p></li><li><p class=\"facit-metod\">För system väljer du den metod som enklast tar bort en variabel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[z=x+iy\\].</div></div></li><li><p>Då är</p></li><li><p>\\[|z-2|^2=(x-2)^2+y^2\\]</p></li><li><p>och</p></li><li><p>\\[|z+1|^2=(x+1)^2+y^2.\\]</p></li><li><p>Kvadrera villkoret:</p></li><li><p>\\[(x-2)^2+y^2=4\\left((x+1)^2+y^2\\right).\\]</p></li><li><p>Utveckla:</p></li><li><p>\\[x^2-4x+4+y^2=4x^2+8x+4+4y^2.\\]</p></li><li><p>Samla termer:</p></li><li><p>\\[x^2+4x+y^2=0.\\]</p></li><li><p>Kvadratkomplettera:</p></li><li><p>\\[(x+2)^2+y^2=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Lösningsmängden är alltså cirkeln med centrum \\(\\boxed{(-2,0)}\\) och radie \\(\\boxed{2}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen.</p></li><li><p class=\"facit-not\">Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></li></ol></div>",
     "familj": "Ortslinjer och områden i komplexa talplanet",
     "formaga": [
@@ -77786,18 +77786,18 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Beräkna i polär form.</p><p>a) \\(2\\left(\\cos(\\pi/6)+i\\sin(\\pi/6)\\right)\\cdot3\\left(\\cos(\\pi/4)+i\\sin(\\pi/4)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{8\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)}{2\\left(\\cos(\\pi/3)+i\\sin(\\pi/3)\\right)}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(5\\left(\\cos(7\\pi/6)+i\\sin(7\\pi/6)\\right)\\cdot2\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{6\\left(\\cos(3\\pi/2)+i\\sin(3\\pi/2)\\right)}{3\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> I polär form multipliceras eller divideras beloppen.</p></li><li><p class=\"facit-metod\">Argumenten adderas vid multiplikation och subtraheras vid division.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(6\\left(\\cos(5\\pi/12)+i\\sin(5\\pi/12)\\right)\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(4\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)=4i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Argumentet blir \\(2\\pi\\): <strong>10</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2\\left(\\cos(\\pi)+i\\sin(\\pi)\\right)=-2\\)</strong>.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att resultatets belopp är positivt och att argument som skiljer sig med \\(2\\pi\\) beskriver samma riktning.</p></li></ol></div>",
+    "t": "<p>Beräkna i polär form.</p><p>Du kan använda \\(r(\\cos v+i\\sin v)\\) eller \\(re^{iv}\\). Ett reellt slutresultat får skrivas som ett reellt tal.</p><p>a) \\(2\\left(\\cos(\\pi/6)+i\\sin(\\pi/6)\\right)\\cdot3\\left(\\cos(\\pi/4)+i\\sin(\\pi/4)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{8\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)}{2\\left(\\cos(\\pi/3)+i\\sin(\\pi/3)\\right)}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(5\\left(\\cos(7\\pi/6)+i\\sin(7\\pi/6)\\right)\\cdot2\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{6\\left(\\cos(3\\pi/2)+i\\sin(3\\pi/2)\\right)}{3\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Multiplicera beloppen och addera argumenten.</p>\\[r=2\\cdot3=6,\\qquad v=\\frac{\\pi}{6}+\\frac{\\pi}{4}=\\frac{5\\pi}{12}.\\]<p>Svar: \\(6(\\cos(5\\pi/12)+i\\sin(5\\pi/12))\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Dividera beloppen och subtrahera argumenten.</p>\\[r=\\frac82=4,\\qquad v=\\frac{5\\pi}{6}-\\frac{\\pi}{3}=\\frac{\\pi}{2}.\\]<p>Svar: \\(4(\\cos(\\pi/2)+i\\sin(\\pi/2))\\), vilket är samma tal som \\(4i\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Beloppet är \\(5\\cdot2=10\\). Argumentet är \\(7\\pi/6+5\\pi/6=2\\pi\\), vilket ger samma riktning som 0.</p>\\[10(\\cos0+i\\sin0)=10.\\]</div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Beloppet är \\(6/3=2\\). Argumentet är \\(3\\pi/2-\\pi/2=\\pi\\).</p>\\[2(\\cos\\pi+i\\sin\\pi)=-2.\\]</div></div>",
     "familj": "Multiplikation och division i polär form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "6\\left(\\cos(5\\pi/12)+i\\sin(5\\pi/12)\\right)",
-      "4i",
-      10,
-      -2
+      "6*(cos(5*pi/12)+i*sin(5*pi/12))",
+      "4*(cos(pi/2)+i*sin(pi/2))",
+      "10*(cos(0)+i*sin(0))",
+      "2*(cos(pi)+i*sin(pi))"
     ],
     "tolerans": [
       null,
@@ -77814,12 +77814,12 @@ window.BANKMATO2 = [
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
     "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Beräkna i polär form.</p>",
+    "spelIntro": "<p>Beräkna i polär form.</p><p>Du kan använda \\(r(\\cos v+i\\sin v)\\) eller \\(re^{iv}\\). Ett reellt slutresultat får skrivas som ett reellt tal.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>\\(2\\left(\\cos(\\pi/6)+i\\sin(\\pi/6)\\right)\\cdot3\\left(\\cos(\\pi/4)+i\\sin(\\pi/4)\\right)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(6\\left(\\cos(5\\pi/12)+i\\sin(5\\pi/12)\\right)\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera beloppen och addera argumenten.</p>\\[r=2\\cdot3=6,\\qquad v=\\frac{\\pi}{6}+\\frac{\\pi}{4}=\\frac{5\\pi}{12}.\\]<p>Svar: \\(6(\\cos(5\\pi/12)+i\\sin(5\\pi/12))\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -77828,7 +77828,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\frac{8\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)}{2\\left(\\cos(\\pi/3)+i\\sin(\\pi/3)\\right)}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)=4i\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera beloppen och subtrahera argumenten.</p>\\[r=\\frac82=4,\\qquad v=\\frac{5\\pi}{6}-\\frac{\\pi}{3}=\\frac{\\pi}{2}.\\]<p>Svar: \\(4(\\cos(\\pi/2)+i\\sin(\\pi/2))\\), vilket är samma tal som \\(4i\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -77837,7 +77837,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(5\\left(\\cos(7\\pi/6)+i\\sin(7\\pi/6)\\right)\\cdot2\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Argumentet blir \\(2\\pi\\): 10.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beloppet är \\(5\\cdot2=10\\). Argumentet är \\(7\\pi/6+5\\pi/6=2\\pi\\), vilket ger samma riktning som 0.</p>\\[10(\\cos0+i\\sin0)=10.\\]</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -77846,7 +77846,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\frac{6\\left(\\cos(3\\pi/2)+i\\sin(3\\pi/2)\\right)}{3\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\left(\\cos(\\pi)+i\\sin(\\pi)\\right)=-2\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beloppet är \\(6/3=2\\). Argumentet är \\(3\\pi/2-\\pi/2=\\pi\\).</p>\\[2(\\cos\\pi+i\\sin\\pi)=-2.\\]</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -77854,10 +77854,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "numeriskt",
-      "numeriskt"
+      "polar",
+      "polar",
+      "polar",
+      "polar"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -77891,9 +77891,9 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)",
-      "3(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})",
-      "2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})"
+      "2*sqrt(2)*(cos(pi/4)+i*sin(pi/4))",
+      "3*(cos(3*pi/2)+i*sin(3*pi/2))",
+      "2*(cos(4*pi/3)+i*sin(4*pi/3))"
     ],
     "tolerans": [
       null,
@@ -77912,9 +77912,9 @@ window.BANKMATO2 = [
       "c"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar",
+      "polar",
+      "polar"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -78003,9 +78003,9 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)",
-      "\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)",
-      "2(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)"
+      "sqrt(2)*(cos(pi/4)+i*sin(pi/4))",
+      "sqrt(2)*(cos(3*pi/4)+i*sin(3*pi/4))",
+      "2*(cos(3*pi/2)+i*sin(3*pi/2))"
     ],
     "tolerans": [
       null,
@@ -78051,9 +78051,9 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar_0_2pi",
+      "polar_0_2pi",
+      "polar_0_2pi"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -78239,10 +78239,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar_0_2pi",
+      "polar_0_2pi",
+      "polar_0_2pi",
+      "polar_0_2pi"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -78799,9 +78799,9 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "6(\\cos(5\\pi/12)+i\\sin(5\\pi/12))",
-      "4(\\cos(\\pi/2)+i\\sin(\\pi/2))",
-      "10(\\cos(\\pi/2)+i\\sin(\\pi/2))"
+      "6*(cos(5*pi/12)+i*sin(5*pi/12))",
+      "4*(cos(pi/2)+i*sin(pi/2))",
+      "10*(cos(pi/2)+i*sin(pi/2))"
     ],
     "tolerans": [
       null,
@@ -78820,9 +78820,9 @@ window.BANKMATO2 = [
       "c"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar",
+      "polar",
+      "polar"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -78883,9 +78883,9 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2(\\cos\\frac\\pi6+i\\sin\\frac\\pi6)",
-      "\\sqrt2(\\cos\\frac{5\\pi}4+i\\sin\\frac{5\\pi}4)",
-      "3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)"
+      "2*(cos(pi/6)+i*sin(pi/6))",
+      "sqrt(2)*(cos(5*pi/4)+i*sin(5*pi/4))",
+      "3*(cos(pi/2)+i*sin(pi/2))"
     ],
     "tolerans": [
       null,
@@ -78904,9 +78904,9 @@ window.BANKMATO2 = [
       "c"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar_0_2pi",
+      "polar_0_2pi",
+      "polar_0_2pi"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -79528,17 +79528,17 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Beräkna på polär form.</p><p>\\[z_1=4e^{i\\pi/6},\\qquad z_2=2e^{i\\pi/3}.\\]</p><p>a) \\(z_1z_2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(z_1/z_2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(z_2^3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm absolutbelopp och argument separat.</p></li><li><p>Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{8e^{i\\pi/2}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{2e^{-i\\pi/6}}\\) (eller argument \\(11\\pi/6\\)).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{8e^{i\\pi}=-8}\\].</div></li></ol></div></div></div>",
+    "t": "<p>Beräkna i polär form.</p><p>\\[z_1=4e^{i\\pi/6},\\qquad z_2=2e^{i\\pi/3}.\\]</p><p>Du kan använda \\(r(\\cos v+i\\sin v)\\) eller \\(re^{iv}\\). Ett reellt slutresultat får skrivas som ett reellt tal.</p><p>a) \\(z_1z_2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(z_1/z_2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(z_2^3\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Multiplicera beloppen: \\(4\\cdot2=8\\). Addera argumenten: \\(\\pi/6+\\pi/3=\\pi/2\\).</p>\\[8e^{i\\pi/2}=8(\\cos(\\pi/2)+i\\sin(\\pi/2)).\\]</div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Dividera beloppen: \\(4/2=2\\). Subtrahera argumenten: \\(\\pi/6-\\pi/3=-\\pi/6\\).</p>\\[2e^{-i\\pi/6}=2(\\cos(-\\pi/6)+i\\sin(-\\pi/6)).\\]<p>Argumentet \\(11\\pi/6\\) ger samma komplexa tal.</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Upphöj beloppet till 3 och multiplicera argumentet med 3.</p>\\[2^3e^{i\\cdot3\\pi/3}=8e^{i\\pi}=8(\\cos\\pi+i\\sin\\pi)=-8.\\]</div></div>",
     "familj": "Multiplikation och division i polär form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "8e^{i\\pi/2}",
-      "2e^{-i\\pi/6}",
-      "8e^{i\\pi}"
+      "8*e^(i*pi/2)",
+      "2*e^(-i*pi/6)",
+      "8*e^(i*pi)"
     ],
     "tolerans": [
       null,
@@ -79557,16 +79557,16 @@ window.BANKMATO2 = [
       "c"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar",
+      "polar",
+      "polar"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>\\(z_1z_2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{8e^{i\\pi/2}}\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera beloppen: \\(4\\cdot2=8\\). Addera argumenten: \\(\\pi/6+\\pi/3=\\pi/2\\).</p>\\[8e^{i\\pi/2}=8(\\cos(\\pi/2)+i\\sin(\\pi/2)).\\]</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -79575,7 +79575,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(z_1/z_2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{2e^{-i\\pi/6}}\\) (eller argument \\(11\\pi/6\\)).</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera beloppen: \\(4/2=2\\). Subtrahera argumenten: \\(\\pi/6-\\pi/3=-\\pi/6\\).</p>\\[2e^{-i\\pi/6}=2(\\cos(-\\pi/6)+i\\sin(-\\pi/6)).\\]<p>Argumentet \\(11\\pi/6\\) ger samma komplexa tal.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -79584,7 +79584,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(z_2^3\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{8e^{i\\pi}=-8}\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Upphöj beloppet till 3 och multiplicera argumentet med 3.</p>\\[2^3e^{i\\cdot3\\pi/3}=8e^{i\\pi}=8(\\cos\\pi+i\\sin\\pi)=-8.\\]</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -79593,7 +79593,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
     "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
-    "spelIntro": "<p>Beräkna på polär form.</p><p>\\[z_1=4e^{i\\pi/6},\\qquad z_2=2e^{i\\pi/3}.\\]</p>",
+    "spelIntro": "<p>Beräkna i polär form.</p><p>\\[z_1=4e^{i\\pi/6},\\qquad z_2=2e^{i\\pi/3}.\\]</p><p>Du kan använda \\(r(\\cos v+i\\sin v)\\) eller \\(re^{iv}\\). Ett reellt slutresultat får skrivas som ett reellt tal.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -82228,8 +82228,8 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Det komplexa talet är \\(z=-3+3\\sqrt3\\,i\\).</p><p>Bestäm ett huvudargument i radianer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> På polär form hålls absolutbelopp och argument isär.</p></li><li><p>Multiplikation påverkar dem på enkla sätt: absolutbelopp multipliceras och argument adderas, vilket också är grunden för potenser och rötter.</p></li><li><p><strong>Metod:</strong> Punkten ligger i andra kvadranten.</p></li><li><p>Referensvinkeln är \\(\\pi/3\\), så argumentet är \\(\\pi-\\pi/3=2\\pi/3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\pi/3\\).</p></div>",
+    "t": "<p>Det komplexa talet är \\(z=-3+3\\sqrt3\\,i\\).</p><p>Bestäm argumentet \\(v\\) i intervallet \\(0\\le v\\lt2\\pi\\). Svara i radianer.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Realdelen är negativ och imaginärdelen positiv, så punkten ligger i andra kvadranten.</p><p>Referensvinkeln är \\(\\pi/3\\), eftersom \\(3\\sqrt3/3=\\sqrt3\\).</p>\\[v=\\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3}.\\]<p>Vinkeln ligger i det angivna intervallet.</p></div>",
     "familj": "Absolutbelopp och argument för komplexa tal",
     "formaga": [
       "procedur",
@@ -82241,7 +82241,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Vilken kvadrant ligger talet i? Bestäm först referensvinkeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -82260,7 +82260,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm absolutbelopp och huvudargument för \\(z=-3+3\\sqrt3 i\\), där \\(0\\le\\arg z&lt;2\\pi\\).</p>",
+    "t": "<p>Bestäm absolutbelopp och argument för \\(z=-3+3\\sqrt3 i\\), där \\(0\\le\\arg z&lt;2\\pi\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal.</p></li><li><p class=\"facit-metod\">Rita gärna en enkel tallinje innan du skriver svaret.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Absolutbeloppet är</p><div class=\"facit-matte\">\\[\\sqrt{(-3)^2+(3\\sqrt3)^2}=\\sqrt{36}=6\\].</div></div></li><li><p>Punkten ligger i andra kvadranten och \\(\\tan\\alpha=\\sqrt3\\), så referensvinkeln är \\(\\pi/3\\).</p></li><li><p>Därför är argumentet \\(2\\pi/3\\).</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></li></ol></div>",
     "familj": "Absolutbelopp och argument för komplexa tal",
     "formaga": [

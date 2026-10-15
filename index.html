@@ -4016,7 +4016,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-14-nivakalibrering-1645";
+const BANK_VERSION="2026-10-15-felrapporter-0945";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10221,6 +10221,77 @@ function primitivaSvarRatt(anv,facit){
   }catch(_){ return false; }
 }
 
+/* Avgränsad parser för konstanta komplexa tal. Ingen eval och inga variabler.
+   Eulers form beräknas direkt; bibliotekets förenkling kan vända tecknet i e^(-iθ). */
+function polartSvarVarde(s){
+  const raw=String(s).replace(/\^\s*\{?\\circ\}?/g,"°");
+  let x=tillNerdamer(normalizeMathInput(hogerled(raw)))
+    .replace(/(\d+(?:\.\d+)?)\s*(?:°|\^\(?\\circ\)?)/g,'($1*pi/180)');
+  if(!x || x.length>500) return null;
+  const tokens=x.match(/sqrt|exp|sin|cos|pi|[ei]|(?:\d+(?:\.\d*)?|\.\d+)|[()+\-*/^]/g)||[];
+  if(tokens.join('')!==x || tokens.length>200) return null;
+  let pos=0,depth=0;const vinklar=[];
+  const add=(a,b)=>[a[0]+b[0],a[1]+b[1]];
+  const mul=(a,b)=>[a[0]*b[0]-a[1]*b[1],a[0]*b[1]+a[1]*b[0]];
+  const exp=a=>[Math.exp(a[0])*Math.cos(a[1]),Math.exp(a[0])*Math.sin(a[1])];
+  const power=(a,b)=>{
+    const r=Math.hypot(...a);
+    if(!r){if(b[1]===0&&b[0]>0)return [0,0];throw Error('nollpotens');}
+    if(Math.abs(a[0]-Math.E)<1e-12&&Math.abs(a[1])<1e-12&&Math.abs(b[0])<1e-12)
+      vinklar.push({typ:'euler',v:b[1]});
+    return exp(mul(b,[Math.log(r),Math.atan2(a[1],a[0])]));
+  };
+  const primary=()=>{
+    if(++depth>32)throw Error('djup');
+    const t=tokens[pos++];let v;
+    if(t==='('){v=sum();if(tokens[pos++]!==')')throw Error('parentes');}
+    else if(['sin','cos','exp','sqrt'].includes(t)){
+      if(tokens[pos++]!=='(')throw Error('funktion');
+      const a=sum();if(tokens[pos++]!==')')throw Error('parentes');
+      if(t==='exp'){v=exp(a);if(Math.abs(a[0])<1e-12)vinklar.push({typ:'euler',v:a[1]});}
+      else if(t==='sqrt')v=power(a,[.5,0]);
+      else{
+        if(Math.abs(a[1])>1e-12)throw Error('komplex vinkel');
+        vinklar.push({typ:t,v:a[0]});v=[Math[t](a[0]),0];
+      }
+    }else if(t==='pi')v=[Math.PI,0];else if(t==='e')v=[Math.E,0];else if(t==='i')v=[0,1];
+    else if(t&&/^(?:\d+(?:\.\d*)?|\.\d+)$/.test(t))v=[Number(t),0];
+    else throw Error('tal');
+    depth--;return v;
+  };
+  const pow=()=>{const a=primary();return tokens[pos]==='^'?(pos++,power(a,unary())):a;};
+  const unary=()=>tokens[pos]==='-'?(pos++,mul([-1,0],unary())):tokens[pos]==='+'?(pos++,unary()):pow();
+  const product=()=>{
+    let a=unary();
+    while(tokens[pos]==='*'||tokens[pos]==='/'){
+      const op=tokens[pos++],b=unary();
+      if(op==='*')a=mul(a,b);
+      else{const d=b[0]**2+b[1]**2;if(!d)throw Error('division');a=mul(a,[b[0]/d,-b[1]/d]);}
+    }return a;
+  };
+  const sum=()=>{let a=product();while(tokens[pos]==='+'||tokens[pos]==='-'){const op=tokens[pos++],b=product();a=add(a,op==='-'?mul([-1,0],b):b);}return a;};
+  try{
+    const z=sum();if(pos!==tokens.length||!z.every(Number.isFinite))return null;
+    const e=vinklar.filter(a=>a.typ==='euler').at(-1);
+    const c=vinklar.filter(a=>a.typ==='cos').at(-1),si=vinklar.filter(a=>a.typ==='sin').at(-1);
+    let v=e?.v;
+    if(v===undefined&&c&&si&&Math.abs(Math.sin((c.v-si.v)/2))<1e-10&&/\bi\b/.test(x))v=c.v;
+    const r=Math.hypot(...z),tol=1e-10*Math.max(1,r);
+    const polar=v!==undefined&&Math.hypot(z[0]-r*Math.cos(v),z[1]-r*Math.sin(v))<=tol;
+    return {re:z[0],im:z[1],vinkel:v,polar,utanI:!/\bi\b/.test(x)};
+  }catch(_){return null;}
+}
+
+function polartSvarRatt(anv,facit,intervall=false){
+  const a=polartSvarVarde(anv),b=polartSvarVarde(facit);
+  if(!a||!b)return false;
+  const tol=1e-10*Math.max(1,Math.hypot(b.re,b.im));
+  if(Math.hypot(a.re-b.re,a.im-b.im)>tol)return false;
+  // Reella slutresultat får förenklas till ett reellt tal när inget intervall krävs.
+  if(!a.polar)return !intervall&&a.utanI&&Math.abs(b.im)<=tol;
+  return !intervall || (a.vinkel>=-1e-12&&a.vinkel<2*Math.PI-1e-12);
+}
+
 function formatRatt(anv,facit,meta){
   const format=String(meta.format||"").toLowerCase();
   const tol=meta.tolerans;
@@ -10228,6 +10299,8 @@ function formatRatt(anv,facit,meta){
   if(!a) return false;
 
   switch(format){
+    case "polar": return polartSvarRatt(a,f);
+    case "polar_0_2pi": return polartSvarRatt(a,f,true);
     case "primtalsfaktorisering": return primtalsfaktoriseringRatt(anv,facit);
     case "antal_satt": return antalSattRatt(anv,facit);
     case "multipel": {
@@ -11147,7 +11220,8 @@ function numerisktSvar(facit){
   return /^\d+(\.\d+)?$/.test(x);
 }
 
-function sifferlage(facit,enhet){
+function sifferlage(facit,enhet,format){
+  if(format && !["numeriskt","heltal","decimalform","grader","procent"].includes(format)) return false;
   if(enhet) return false;
   if(COURSES[state.course]?.subject==="Fysik") return false;
   return numerisktSvar(facit);
@@ -12578,7 +12652,7 @@ function renderTraining(){
           : `<input id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
               autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
               data-form-type="other" type="text"${etikett?"":` aria-label="Ditt svar"`}
-              inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i))?"decimal":"text"}"
+              inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i),plan?.delar[plan.rutor[i].del].format[plan.rutor[i].plats])?"decimal":"text"}"
               placeholder="${
                 rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))
                 : inputCount<2 ? (arRotLista(expectedInfo.answers[i]) ? "Alla lösningar, t.ex. x = 1, 4" : "Ditt svar")
@@ -12625,7 +12699,7 @@ function renderTraining(){
           <h3>Ditt svar</h3>
           ${partLine}
           <div class="ainputs">${fieldHtml}</div>
-          ${isLongAnswer?"":symbolrad(t)}
+          ${symbolrad(t)}
           <div id="ledtrad-holder">${state.hintVisible?ledtradRuta(t):""}</div>
           <div class="aacts">
             ${canAuto
@@ -13128,7 +13202,7 @@ function visaDelfacit(i,delIndex,komplettering){
     ruta.hidden=false;
     ruta.innerHTML=`<div class="lbl">${komplettering?"Jämför med facit":"Facit för den här delen"}</div>
       <div class="delfacit-txt">${delfacitText(t,nyckel)}</div>
-      ${komplettering?`<div class="hint" style="margin-top:8px">Uträkningen stämmer. Stämmer även din motivering?</div>`:""}
+      ${komplettering?`<div class="hint" style="margin-top:8px">Uträkningen stämmer. Stämmer även resten av din lösning?</div>`:""}
       <div class="aacts">
         <button class="btn soft sm" onclick="bedomDel(${i},true,${delIndex??-1})">${komplettering?"Ja, den stämmer":"Jag hade rätt"}</button>
         <button class="btn sm" onclick="bedomDel(${i},false,${delIndex??-1})">${komplettering?"Nej, inte riktigt":"Jag behöver träna mer"}</button>

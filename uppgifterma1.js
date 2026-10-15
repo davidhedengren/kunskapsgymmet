@@ -5694,7 +5694,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Utan att använda decimalform: avgör vilket av \\(\\frac{17}{23}\\) och \\(\\frac{20}{27}\\) som är störst. Motivera.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{17}{23}=\\frac{459}{621}\\) och \\(\\frac{20}{27}=\\frac{460}{621}\\).</p></li><li><p>Det andra bråket är alltså störst, med skillnaden \\(\\frac1{621}\\).</p></li></ol></div>",
     "ledtrad": "<p>Hur kan du jämföra bråken med lika stora delar?</p>",
@@ -6396,7 +6396,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ett recept använder \\(\\frac34\\) liter mjölk till 6 portioner. Du har \\(\\frac{17}{8}\\) liter mjölk.</p><p>Hur många <strong>hela</strong> portioner kan du som mest laga om proportionerna ska vara oförändrade?</p><p>Övriga ingredienser finns i tillräcklig mängd.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Till en portion går det åt \\(\\frac34\\div6=\\frac18\\) liter.</p></li><li><div class=\"facit-berakning\"><p>Antalet portioner blir</p><div class=\"facit-matte\">\\[\\frac{17}{8}\\div\\frac18=17\\].</div></div></li><li><p>Kontroll: 17 portioner kräver exakt \\(\\frac{17}{8}\\) liter.</p></li></ol><p class=\"facit-svar\">Svar: 17 hela portioner.</p></div>",
     "ledtrad": "<p>Hur mycket mjölk går åt till en portion?</p>",
@@ -8585,7 +8585,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Omvandla 2,4 h till min. Skriv svaret som ett vanligt tal, inte i tiopotensform.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd sambandet mellan enheterna</p><div class=\"facit-matte\">\\[1\\,\\mathrm{h}=60\\,\\mathrm{min}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla talvärdet</p><p>Från h till min multiplicerar vi talvärdet med 60:</p><div class=\"facit-matte\">\\[2{,}4\\cdot60=144\\,\\mathrm{min}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(144\\,\\mathrm{min}\\).</p></div>",
     "ledtrad": "<p>Hur många minuter går det på en timme?</p>",
@@ -13497,7 +13497,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En kabel på 2,45 m ska klippas till så många bitar som möjligt med längden 40 cm. Varje bit kräver dessutom 1 cm kabel som går förlorad vid klippningen. Hur många bitar går att få?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kabeln är 245 cm.</p></li><li><p>Varje färdig bit förbrukar 41 cm.</p></li><li><p>Fem bitar kräver 205 cm, men sex kräver 246 cm.</p></li><li><p>Alltså går det att få 5 bitar.</p></li></ol></div>",
     "ledtrad": "<p>Hur mycket av kabeln förbrukas för varje färdig bit?</p>",
@@ -13662,7 +13662,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En burk får innehålla högst 0,45 kg pärlor. Varje påse innehåller 125 g. Burken är tom från början och endast hela påsar får hällas i. Hur många påsar får plats?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla burkens gräns till gram</p><div class=\"facit-matte\">\\[0{,}45\\,\\mathrm{kg}=450\\,\\mathrm{g}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera antalet hela påsar</p><div class=\"facit-matte\">\\[3\\cdot125=375\\,\\mathrm{g}\\le450\\,\\mathrm{g}.\\]</div><div class=\"facit-matte\">\\[4\\cdot125=500\\,\\mathrm{g}\\gt450\\,\\mathrm{g}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\) hela påsar får plats.</p></div>",
     "ledtrad": "<p>Kontrollera både det antal du föreslår och en påse till.</p>",
@@ -13873,7 +13873,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En maskin ska köras i 2,5 dygn. Den körs 8 timmar varje arbetsdag och står stilla annars. Hur många arbetsdagar behövs för att nå den sammanlagda körtiden? Svara med ett tal i decimalform, där en hel arbetsdag motsvarar 8 timmars körtid.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2,5 dygn motsvarar 60 timmars körtid.</p></li><li><p>60 ÷ 8 = 7,5 arbetsdagar, alltså sju hela arbetsdagar och fyra timmar under den åttonde.</p></li></ol></div>",
     "ledtrad": "<p>Skilj mellan körtid och hur många arbetsdagar som går åt.</p>",
@@ -14833,7 +14833,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En akvariebehållare har invändig botten med längden 40 cm och bredden 25 cm. Behållaren är 30 cm hög. Den fylls med vatten till höjden 20 cm. Hur många liter vatten innehåller den?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Vattenvolymen är</p><div class=\"facit-matte\">\\[40\\cdot 25\\cdot 20=20\\,000\\, \\mathrm{cm^3}\\]</div></div></li><li><p>Eftersom 1 000 cm³ = 1 l innehåller behållaren 20 l.</p></li><li><p>Behållarens hela höjd används inte.</p></li></ol></div>",
     "ledtrad": "<p>Vilka av måtten bestämmer just vattnets volym?</p>",
@@ -15001,7 +15001,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En tank har 725 l vatten. Vattnet ska fördelas i kärl som rymmer 0,08 m³ vardera. Hur många kärl kan fyllas helt, och hur många liter blir över? Ange båda svaren.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje kärl rymmer 80 l.</p></li><li><p>Nio kärl rymmer 720 l, så 9 kärl fylls och 5 l blir över.</p></li><li><p>Tio kärl skulle kräva 800 l.</p></li></ol></div>",
     "ledtrad": "<p>Hur många liter rymmer ett kärl? Kontrollera sedan resten.</p>",
@@ -21369,7 +21369,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">1 h = 60 min, så</p><div class=\"facit-matte\">\\[2{,}4\\cdot 60=144\\, \\mathrm{min}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>144 min</strong></p></div></div>",
     "familj": "Längd, massa och tid",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
     "tolerans": 1e-09,
@@ -22211,7 +22211,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv koncentratets andel av varje blandning</p><div class=\"facit-matte\">\\[A:\\ \\frac2{2+7}=\\frac29,\\qquad B:\\ \\frac3{3+11}=\\frac3{14}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exakt med gemensam nämnare</p><div class=\"facit-matte\">\\[\\frac29=\\frac{28}{126},\\qquad\\frac3{14}=\\frac{27}{126}.\\]</div><p>28 delar av 126 är mer än 27 delar av 126. Det behövs ingen miniräknare eller avrundning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Blandning A.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "kort_text",
     "rättSvar": "A",
     "tolerans": null,
@@ -22645,7 +22645,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenttalet som ett bråk</p><div class=\"facit-matte\">\\[42\\,\\%=\\frac{42}{100}=\\frac{21}{50}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exakt med gemensam nämnare</p><div class=\"facit-matte\">\\[\\frac5{12}=\\frac{125}{300},\\qquad\\frac{21}{50}=\\frac{126}{300}.\\]</div><p>126 trehundradelar är mer än 125 trehundradelar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B: 42 %.</p></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "val",
     "rättSvar": "B",
     "tolerans": null,
@@ -29766,7 +29766,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>För ett färgbad används D = 0,15m gram färgämne till m kg textil. Hur stor massa textil räcker 9 gram färgämne till enligt receptet?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">9 = 0,15m ger</p><div class=\"facit-matte\">\\[m=\\frac{9}{0{,}15}=60\\, \\mathrm{kg}\\]</div></div></li><li><p>Kontroll: 0,15 · 60 = 9 gram.</p></li></ol></div>",
     "ledtrad": "<p>Vilken storhet är okänd i formeln?</p>",
@@ -30961,7 +30961,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ekvationen 7x + c = 1 000 ska ha lösningen x = 120. Bestäm c.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Sätt in x = 120:</p><div class=\"facit-matte\">\\[7\\cdot 120+c=1\\,000\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är</p><div class=\"facit-matte\">\\[c=1\\,000-840=160\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vad innebär det att ett givet x ska vara en lösning?</p>",
@@ -31452,7 +31452,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Temperaturen stiger från 10 °C till 25 °C. Sambandet är F = 1,8C + 32. Hur stor är temperaturökningen i Fahrenheitgrader?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ökningen är 1,8 · (25 − 10) = 27 Fahrenheitgrader.</p></li><li><p>Konstanten 32 försvinner när sluttemperatur och starttemperatur subtraheras.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[77-50=27\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Ska du omvandla en temperatur eller en skillnad mellan två temperaturer?</p>",
@@ -34445,7 +34445,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "arbetsinsats": 1,
     "t": "<p>Bestäm värdet av 49 · 51. Välj själv beräkningsmetod.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[49\\cdot 51=\\left(50-1\\right) \\left(50+1\\right)=50^{2}-1^{2}=2\\,500-1=2\\,499\\]</div></div></li></ol></div>",
@@ -41535,7 +41535,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in de kända värdena i formeln och räkna.</p></li><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}8\\cdot 25+32=45+32=77\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>77</strong></p></div></div>",
     "familj": "Beräkningar med formler",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 77,
     "tolerans": 1e-09,
@@ -41631,7 +41631,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in de kända värdena i formeln och räkna.</p></li><li><div class=\"facit-berakning\"><p>Lös ut v:</p><div class=\"facit-matte\">\\[v=\\frac{s}{t}=\\frac{36}{1{,}5}=24\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>24</strong></p></div></div>",
     "familj": "Beräkningar med formler",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
     "tolerans": 1e-09,
@@ -44054,7 +44054,8 @@ window.BANKMA1 = [
         "poang": "0/1/0",
         "ledtrad": "<p>I a läser du startvärde och förändringsfaktor direkt ur modellen. I b söker du det första hela t där \\(480\\cdot1{,}06^t\\) passerar 700.</p>",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "geogebra": false
       },
       {
         "etikett": "b",
@@ -44186,7 +44187,8 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Metod:</strong> Jämför med formen för en exponentialfunktion på formelbladet,</p><div class=\"facit-matte\">\\[y=Ca^x\\].</div></div></li><li><p>\\(C\\) är startvärdet och \\(a\\) beskriver den faktor som värdet multipliceras med för varje steg.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(120000\\cdot0{,}86^4\\approx\\)<strong>65641 kr</strong>.</p></div></div>",
         "ledtrad": "<p>Jämför med formen för en exponentialfunktion på formelbladet, \\(y=Ca^x\\). \\(C\\) är startvärdet och \\(a\\) beskriver den faktor som värdet multipliceras med för varje steg.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "geogebra": false
       },
       {
         "etikett": "b",
@@ -44277,7 +44279,7 @@ window.BANKMA1 = [
     "t": "<p>Arean av en cirkel ges av potensfunktionen \\(A=\\pi r^2\\).</p><p>a) Beräkna arean när \\(r=5\\) cm. Svara med en decimal.<br>b) Bestäm radien när arean är 200 cm². Svara med två decimaler.<br>c) Hur många gånger större blir arean om radien fördubblas?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A=\\pi\\cdot5^2\\approx\\)<strong>78,5 cm²</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\pi r^2=200\\Rightarrow r=\\sqrt{\\frac{200}{\\pi}}\\approx\\)<strong>7,98 cm</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\pi(2r)^2=4\\pi r^2\\), alltså <strong>4 gånger större</strong></p></li></ol></div></div></div></div>",
     "familj": "Skalning med potensfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -44410,7 +44412,7 @@ window.BANKMA1 = [
     "t": "<p>Du ska investera 100 000 kr i ett av två företag.</p><p><strong>A. Sun-Sational Energy:</strong> värdet ökar med 11 000 kr per år<br><strong>B. Energy Eco-lution:</strong> värdet ökar med 8,5 % per år</p><p>a) Ställ upp en matematisk modell för varje företag, där värdet \\(y\\) kr beror av tiden \\(x\\) år.<br>b) Beräkna investeringens värde efter 4 år enligt båda modellerna. Avrunda till närmaste hundratal kronor.<br>c) Vilket företag ger högst värde efter 4 år? Svara A eller B.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(y_A=100\\,000+11\\,000x\\)</strong> (linjär) och <strong>\\(y_B=100\\,000\\cdot1{,}085^x\\)</strong> (exponentiell)</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(y_A(4)=100\\,000+44\\,000=\\)<strong>144 000 kr</strong><br>\\(y_B(4)=100\\,000\\cdot1{,}085^4\\approx\\)<strong>138 600 kr</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Sun-Sational Energy</strong>, eftersom 144 000 kr &gt; 138 600 kr</p></li></ol></div></div></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -46883,7 +46885,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K(8)=59+96=\\)<strong>155 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K(0)=59\\), alltså <strong>den fasta kostnaden när inga extra användningar görs</strong>.</p></li></ol></div></div></div>",
     "familj": "Funktionsvärden från formel",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       155,
@@ -46932,7 +46934,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>I a sätter du \\(n=8\\). I b är \\(n=0\\), vilket visar vilken kostnad som finns även utan extra användningar.</p>",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "miniräknare": false
       }
     ],
     "omrTidigare": "funktionsvarden",
@@ -50734,7 +50737,11 @@ window.BANKMA1 = [
       25.3,
       5
     ],
-    "tolerans": [null, 0.005, 0],
+    "tolerans": [
+      null,
+      0.005,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -50755,7 +50762,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>Hur stor andel av mängden finns kvar efter varje timme?</p>",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "geogebra": false
       },
       {
         "etikett": "b",
@@ -50765,7 +50773,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje timme återstår samma andel. Hur många gånger ska startmängden multipliceras med den andelen?</p>",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "geogebra": false
       },
       {
         "etikett": "c",
@@ -50781,7 +50790,11 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka förändringsfaktor i exponentialfunktion"
     ],
-      "svarEnhet": [null, "mg", "h"]
+    "svarEnhet": [
+      null,
+      "mg",
+      "h"
+    ]
   },
   {
     "id": "2.189",
@@ -50879,7 +50892,7 @@ window.BANKMA1 = [
     "t": "<p>Antalet bakterier i en odling beskrivs av \\(y=2\\,000\\cdot1{,}4^x\\), där \\(x\\) är antalet timmar efter försökets början.</p><p>a) Hur många bakterier fanns från början?<br>b) Med hur många procent ökar antalet varje timme?<br>c) Beräkna antalet bakterier efter 4 timmar. Svara med två värdesiffror.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x=0\\) får man startvärdet.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[y=2\\,000\\cdot1{,}4^0=2\\,000\\cdot1=2\\,000\\]</p></li><li><p>Alltså fanns det <strong>2 000 bakterier från början</strong>.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringsfaktorn är \\(1{,}4\\).</p></li><li><p>Det betyder att mängden varje timme multipliceras med 1,4.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>En faktor på \\(1{,}4\\) motsvarar \\(100\\%+40\\%=140\\%\\), alltså en <strong>ökning med 40 % per timme</strong>.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt in</p><div class=\"facit-matte\">\\[x=4\\]:</div></div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[y=2\\,000\\cdot1{,}4^4=2\\,000\\cdot3{,}8416=7\\,683{,}2\\]</p></li><li><p>Avrundat till två värdesiffror blir det <strong>7 700 bakterier</strong>.</p></li></ol></div>",
     "familj": "Förändringsfaktorn i exponentialfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -51069,7 +51082,7 @@ window.BANKMA1 = [
     "t": "<p>En bil är värd 240 000 kr. Värdet minskar med 15 % per år.</p><p>a) Skriv en exponentialfunktion \\(V(t)\\) för värdet efter \\(t\\) år.<br>b) Beräkna bilens värde efter 3 år.<br>c) Beräkna bilens värde efter 10 år. Svara avrundat till hela tusental kronor.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Steg 1:</strong> En minskning med 15 % ger förändringsfaktorn</p><div class=\"facit-matte\">\\[1-0{,}15=0{,}85\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>\\(V(t)=240\\,000\\cdot0{,}85^t\\)</strong></p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V(3)=240\\,000\\cdot0{,}85^3=\\)<strong>147 390 kr</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V(10)=240\\,000\\cdot0{,}85^{10}\\approx47\\,250\\), alltså <strong>ungefär 47 000 kr</strong></p></li></ol></div></div></div></div>",
     "familj": "Förändringsfaktorn i exponentialfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -51136,7 +51149,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V=4^3=64\\) cm³.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(s^3=343\\Rightarrow s=7\\) cm.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((2s)^3=8s^3\\), så en fördubblad kantlängd ger åtta gånger så stor volym.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) 64 cm³ &nbsp; b) 7 cm &nbsp; c) 8 gånger.</p></div>",
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       64,
@@ -51179,7 +51192,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>Använd \\(V=s^3\\). I b söker du den positiva kantlängden vars kub är 343. I c jämför du \\((2s)^3\\) med \\(s^3\\).</p>",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "miniräknare": false
       },
       {
         "etikett": "b",
@@ -51199,7 +51213,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>Använd \\(V=s^3\\). I b söker du den positiva kantlängden vars kub är 343. I c jämför du \\((2s)^3\\) med \\(s^3\\).</p>",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "miniräknare": false
       }
     ]
   },
@@ -51513,7 +51528,7 @@ window.BANKMA1 = [
     "t": "<p>Två investeringsmodeller för 100 000 kr är</p><p>\\(y_A=100\\,000+11\\,000x\\)<br>\\(y_B=100\\,000\\cdot1{,}085^x\\)</p><p>där \\(x\\) är antalet år. Efter 4 år ger modell A mest. Undersök vilken modell som ger mest efter 10 år, och förklara varför ordningen kan skifta.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> \\(y_A(10)=100\\,000+110\\,000=210\\,000\\) kr.</p></li><li><p>\\(y_B(10)=100\\,000\\cdot1{,}085^{10}\\approx226\\,100\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Efter 10 år ger modell B mest.</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>Modell A ökar med lika mycket varje år, 11 000 kr.</p></li><li><p>Modell B ökar med 8,5 % av ett belopp som hela tiden växer, så den årliga ökningen blir större och större.</p></li><li><p>Därför hinner den exponentiella modellen i kapp och går om den linjära, trots att den ligger efter i början.</p></li></ol></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -54116,7 +54131,7 @@ window.BANKMA1 = [
     "t": "<p>Ett konto beskrivs av \\(K(x)=15\\,000\\cdot1{,}035^x\\).</p><p>a) Vilken årlig ränta motsvarar modellen?<br>b) Bestäm \\(K(4)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>3,5 %</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K(4)\\approx\\)<strong>17213 kr</strong>.</p></li></ol></div></div></div>",
     "familj": "Bestämma och använda exponentialfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -59473,7 +59488,7 @@ window.BANKMA1 = [
     "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{2}\\). När \\(x\\) multipliceras med 1,5 är det ursprungliga värdet på \\(y\\) 20.</p><p>Bestäm det nya värdet på \\(y\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Förändringsfaktorn för y är</p><div class=\"facit-matte\">\\[1{,}5^2=2{,}25\\].</div></div></li><li><div class=\"facit-berakning\"><p>Det nya värdet blir</p><div class=\"facit-matte\">\\[20\\cdot2{,}25=45\\].</div></div></li></ol></div>",
     "familj": "Skalning med potensfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 45,
@@ -59501,7 +59516,7 @@ window.BANKMA1 = [
     "t": "<p>En storhet följer \\(y=Cx^3\\). När x fördubblas blir det nya y-värdet 32.</p><p>Vilket var y-värdet före fördubblingen?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En fördubbling av x multiplicerar y med</p><div class=\"facit-matte\">\\[2^3=8\\].</div></div></li><li><div class=\"facit-berakning\"><p>Det ursprungliga värdet var därför</p><div class=\"facit-matte\">\\[32/8=4\\].</div></div></li></ol></div>",
     "familj": "Skalning med potensfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
@@ -59529,7 +59544,7 @@ window.BANKMA1 = [
     "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{0{,}5}\\). När \\(x\\) multipliceras med 4 är det ursprungliga värdet på \\(y\\) 9.</p><p>Bestäm det nya värdet på \\(y\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>När x multipliceras med 4 multipliceras y med</p><div class=\"facit-matte\">\\[4^{0{,}5}=2\\].</div></div></li><li><div class=\"facit-berakning\"><p>Det nya värdet är</p><div class=\"facit-matte\">\\[9\\cdot2=18\\].</div></div></li></ol></div>",
     "familj": "Skalning med potensfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
@@ -59557,7 +59572,7 @@ window.BANKMA1 = [
     "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{-1}\\). När \\(x\\) multipliceras med 3 är det ursprungliga värdet på \\(y\\) 30.</p><p>Bestäm det nya värdet på \\(y\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exponent \\(-1\\) ger faktorn \\(3^{-1}=1/3\\).</p></li><li><div class=\"facit-berakning\"><p>Det nya y-värdet är</p><div class=\"facit-matte\">\\[30/3=10\\].</div></div></li><li><p>Här minskar alltså y när x ökar.</p></li></ol></div>",
     "familj": "Skalning med potensfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
@@ -62897,7 +62912,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "självrättning": true,
     "ledtrad": "<p>Vilka villkor måste \\(x\\) och \\(60-2x\\) uppfylla för att vara sidor i en hage? Gör en tabell för \\(x=5, 10, 15, 20, 25\\).</p>",
     "spel": true,
@@ -62966,7 +62981,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[240-8\\cdot 12=240-96=144\\, \\mathrm{cm}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>144</strong></p></div></div>",
     "familj": "Funktionsvärden från formel",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
     "tolerans": 1e-09,
@@ -63327,7 +63342,7 @@ window.BANKMA1 = [
       "problemlösning"
     ],
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "självrättning": true,
     "ledtrad": "<p>Skriv en exponentialfunktion för varje kultur. Hur stor är A:s förändringsfaktor per timme om den fördubblas på 3 timmar?</p>",
     "spel": true,
@@ -64265,7 +64280,7 @@ window.BANKMA1 = [
     "t": "<p>En bil köps för 260 000 kr och säljs 5 år senare för 178 000 kr. Anta samma procentuella värdeminskning varje år.</p><p>Bestäm den genomsnittliga årliga minskningen i procent. Svara med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>På fem år ändras värdet med faktorn 178 000/260 000. Den årliga faktorn blir</p>\\[q=\\sqrt[5]{\\frac{178000}{260000}}\\approx0{,}92702.\\]<p>Minskningen är skillnaden mellan 1 och den årliga faktorn.</p>\\[(1-q)\\cdot100\\approx7{,}3\\%.\\]<p><strong>Svar:</strong> 7,3 % per år.</p></div>",
     "familj": "Genomsnittlig förändring i problem",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7.297951560290916,
@@ -65421,7 +65436,7 @@ window.BANKMA1 = [
     "t": "<p>Ett träd bär 40 frukter ett år och 46 nästa år. Anta att samma procentuella ökning fortsätter.</p><p>a) Bestäm ökningstakten.<br>b) Hur många frukter ger modellen efter ytterligare 5 år? Avrunda till närmaste heltal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor.</p></li><li><p>Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{46}{40}=1{,}15\\): <strong>15 %</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(46\\cdot1{,}15^5\\approx\\)<strong>93</strong>.</p></li></ol></div></div></div>",
     "familj": "Problemlösning med förändringar i flera steg",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -65602,7 +65617,7 @@ window.BANKMA1 = [
     "t": "<p>Vid köp av en bostad betalar Noor 99 000 kr i kontantinsats. Det motsvarar 18 % av priset.</p><p>a) Vad kostar bostaden?<br>b) Fyra år senare säljs den för 680 000 kr. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen i procent. Svara med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>99 000 kr är 18 % av priset, så hela priset är \\(99\\,000/0{,}18=550\\,000\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 550 000 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Den årliga faktorn är fjärde roten ur den totala faktorn.</p>\\[q=\\sqrt[4]{\\frac{680000}{550000}}\\approx1{,}054476.\\]\\[(q-1)\\cdot100\\approx5{,}45\\%.\\]<p><strong>Svar:</strong> 5,45 % per år.</p></div></div></div></div>",
     "familj": "Genomsnittlig förändring i problem",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -65665,7 +65680,7 @@ window.BANKMA1 = [
     "t": "<p>Efter tre år med 5,5 % årlig ränta finns 16 439,38 kr på ett konto. Inga insättningar eller uttag har gjorts. Hur stort var startkapitalet? Svara i hela kronor.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kapitalet har multiplicerats med 1,055 tre gånger. Dividera därför slutbeloppet med samma faktor.</p>\\[K=\\frac{16439{,}38}{1{,}055^3}\\approx14000{,}0006\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 14 000 kr.</p></div>",
     "familj": "Ränta på ränta",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 14000.000638710251,
@@ -65808,7 +65823,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>24 månader</strong>.</p></li></ol></div></div>",
     "familj": "Amortering och skuld",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "24",
     "tolerans": null,
@@ -66525,7 +66540,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>765</strong></p></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "765",
     "tolerans": null,
@@ -66714,7 +66729,7 @@ window.BANKMA1 = [
     "t": "<p>En befolkning ökar från 820 miljoner till 1,64 miljarder på 130 år. Anta konstant procentuell ökning per år.</p><p>Bestäm den genomsnittliga årliga ökningen i procent. Svara med tre decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor.</p></li><li><p>Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p></li><li><p>\\((1+r)^{130}=2\\Rightarrow r=2^{\\frac{1}{130}}-1\\approx\\)<strong>0,535 %</strong> per år.</p></li></ol></div>",
     "familj": "Problemlösning med förändringar i flera steg",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.535",
@@ -66747,7 +66762,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>28840</strong></p></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "28840",
     "tolerans": null,
@@ -66776,7 +66791,7 @@ window.BANKMA1 = [
     "t": "<p>Ett värde ökar med totalt 50 % på fem år. Anta samma procentuella ökning varje år. Bestäm den genomsnittliga årliga procentuella ökningen.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^5=1{,}50\\Rightarrow q=1{,}50^{\\frac{1}{5}}\\approx1{,}08447\\],</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Cirka 8,45 % per år,</strong></p></div>",
     "familj": "Genomsnittlig förändring i problem",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "8.45",
@@ -66912,7 +66927,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sänkning: 96 kr.</p></li><li><div class=\"facit-matte\">\\[\\frac{96}{640}=0{,}15\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>15 %</strong></p></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "15",
     "tolerans": null,
@@ -67387,7 +67402,7 @@ window.BANKMA1 = [
     "t": "<p>20 000 kr sätts in på ett konto. Första året är räntan 2,0 %. Direkt efter första årets ränta sätts ytterligare 5 000 kr in. Det andra året är räntan okänd. Tredje året är räntan 4,0 %. Efter tre år finns 27 208,48 kr. Bestäm räntan i procent under det andra året. Svara med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter första årets ränta och den nya insättningen finns</p>\\[20000\\cdot1{,}02+5000=25400\\,\\mathrm{kr}.\\]<p>Slutbeloppet innehåller även tredje årets ränta. Andra årets faktor blir därför</p>\\[q=\\frac{27208{,}48}{25400\\cdot1{,}04}=1{,}03.\\]<p><strong>Svar:</strong> 3,0 %.</p></div>",
     "familj": "Ränta på ränta",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3.0000000000000027,
@@ -67451,7 +67466,7 @@ window.BANKMA1 = [
     "t": "<p>Ett kapital ökar med 5 % första året. Under de följande två åren är den årliga räntan samma procentsats. Efter tre år har kapitalet totalt ökat med 21,275 %.</p><p>Bestäm årsräntan under vart och ett av de två sista åren. Svara i procent med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala faktorn är 1,21275. Ta bort första årets faktor 1,05.</p>\\[q^2=1{,}21275/1{,}05=1{,}155.\\]<p>De två sista åren har samma faktor.</p>\\[q=\\sqrt{1{,}155}\\approx1{,}07471.\\]\\[(q-1)\\cdot100\\approx7{,}47\\%.\\]<p><strong>Svar:</strong> 7,47 %.</p></div>",
     "familj": "Ränta på ränta",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7.470926301023395,
@@ -67549,7 +67564,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>540 kr</strong>.</p></li></ol></div></div>",
     "familj": "Ränta under ett år",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 540,
     "tolerans": 0,
@@ -67581,7 +67596,7 @@ window.BANKMA1 = [
     "t": "<p>Två femåriga sparkonton jämförs.</p><p><strong>A:</strong> 3,0 % ränta varje år, ingen avgift.<br><strong>B:</strong> 300 kr startavgift dras direkt, därefter 4,5 % ränta de två första åren och 2,2 % de tre sista.</p><p>För vilka startkapital ger konto B mer pengar efter fem år?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A ger \\(K\\cdot1{,}03^5\\).</p></li><li><p>B ger \\((K-300)\\cdot1{,}045^2\\cdot1{,}022^3\\).</p></li><li><p>Villkoret B &gt; A ger \\(K&gt;54\\,456,30\\ldots\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Konto B ger mer för \\(K&gt;54\\,456,30\\) kr, alltså från 54 457 kr om kapitalet anges i hela kronor.</p></div>",
     "familj": "Jämföra sparformer",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
     "rättSvar": "K>54456.3",
@@ -67646,7 +67661,7 @@ window.BANKMA1 = [
     "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Vad blir hyran efter 3 år?<br>c) Hur mycket mer betalar man per månad efter 3 år jämfört med i dag?</p><p>Svara b och c med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En höjning med 2,8 % ger förändringsfaktorn <strong>1,028</strong>.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Hyran multipliceras med 1,028 tre gånger.</p>\\[8200\\cdot1{,}028^3=8908{,}2656128\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 8 908,27 kr.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p>Räkna först den nya hyran och dra sedan bort dagens hyra.</p>\\[\\begin{aligned}\\Delta H&=8200\\cdot1{,}028^3-8200\\\\ &=708{,}2656128\\,\\mathrm{kr}.\\end{aligned}\\]<p><strong>Svar:</strong> 708,27 kr.</p></div></div></div></div>",
     "familj": "Ränta på ränta",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -68143,7 +68158,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringsfaktorn är kvoten nytt/gammalt:</p></li><li><p>\\[\\frac{215}{250}=0{,}86.\\]</p></li><li><p>Det betyder att 86 % återstår, alltså har energianvändningen minskat med \\(100-86=14\\) %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 0,86 &nbsp; b) 14 %.</p></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.86,
@@ -68257,7 +68272,8 @@ window.BANKMA1 = [
         "poang": "0/0/1",
         "ledtrad": "<p>Intäkten är pris gånger antal. Multiplicera därför de två förändringsfaktorerna och sätt produkten lika med 1.</p>",
         "traningsniva": 4,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "geogebra": false
       }
     ],
     "familjTidigare": [
@@ -68279,7 +68295,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{575}{500}=1{,}15.\\]</p></li><li><p>Faktor 1,15 betyder att det nya värdet är 115 % av det gamla.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 1,15 &nbsp; b) ökning med 15 %.</p></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.15,
@@ -68369,7 +68385,7 @@ window.BANKMA1 = [
     "t": "<p>Värdet på en fond ökar totalt med 30 % på sex år. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^6=1{,}30\\Rightarrow q=1{,}30^{\\frac{1}{6}}\\approx1{,}0447\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Cirka 4,47 % per år.</strong></p></div>",
     "familj": "Genomsnittlig förändring i problem",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "4.47",
@@ -68551,7 +68567,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{540}{1{,}20}=\\)<strong>450 kr</strong></p></li></ol></div></div>",
     "familj": "Index och priser",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "450",
     "tolerans": null,
@@ -68579,7 +68595,7 @@ window.BANKMA1 = [
     "t": "<p>Två sparformer erbjuds för en insättning på 20 000 kr som ska stå i 8 år.</p><p><strong>Alternativ A:</strong> 3,5 % ränta per år, där räntan läggs till kapitalet varje år.<br><strong>Alternativ B:</strong> banken garanterar att kapitalet har vuxit med totalt 30 % efter de 8 åren.</p><p>Vilket alternativ ger mest, och hur stor blir skillnaden? Motivera.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Alternativ A</strong> ger ränta på ränta:</p></li><li><p>\\[20\\,000\\cdot1{,}035^8\\approx26\\,336\\text{ kr}.\\]</p></li><li><p><strong>Alternativ B</strong> ger</p></li><li><p>\\[20\\,000\\cdot1{,}30=26\\,000\\text{ kr}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Alternativ A ger mest, ungefär 336 kr mer.</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>Att alternativen ligger så nära varandra beror på att \\(1{,}035^8\\approx1{,}317\\), alltså en total ökning på ungefär 31,7 % — bara knappt två procentenheter mer än B:s 30 %.</p></li><li><p>Observera att \\(8\\cdot3{,}5=28\\) % vore fel svar för alternativ A.</p></li><li><p>Ränta på ränta ger mer än så, eftersom räntan varje år beräknas på ett kapital som redan vuxit.</p></li></ol></div>",
     "familj": "Jämföra sparformer",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -69156,7 +69172,7 @@ window.BANKMA1 = [
     "t": "<p>10 000 kr växer till 11 255,09 kr på fyra år med samma ränta varje år. Bestäm årsräntan i procent. Svara med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Samma förändringsfaktor används under fyra år. Den årliga faktorn är därför fjärde roten ur den totala faktorn.</p>\\[q=\\sqrt[4]{\\frac{11255{,}09}{10000}}\\approx1{,}03.\\]<p>Faktorn 1,03 innebär en ökning med 0,03 = 3 % per år.</p><p><strong>Svar:</strong> 3,0 %.</p></div>",
     "familj": "Ränta på ränta",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3.0000043469226023,
@@ -69484,7 +69500,7 @@ window.BANKMA1 = [
     "t": "<p>En bils värde minskar från 250 000 kr till 170 000 kr på sex år. Anta samma procentuella minskning varje år. Bestäm den genomsnittliga årliga minskningen i procent.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^6=\\frac{170000}{250000}=0{,}68\\],</div></li><li><p>\\(q\\approx0{,}93775\\),</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Minskningen är cirka 6,23 % per år,</strong></p></div>",
     "familj": "Genomsnittlig förändring i problem",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "6.23",
@@ -69693,7 +69709,7 @@ window.BANKMA1 = [
     "t": "<p>En bil minskar i värde från 300 000 kr till 192 000 kr på fyra år. Anta samma procentuella minskning varje år. Bestäm den årliga minskningen.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^4=\\frac{192000}{300000}=0{,}64\\].</div></li><li><p>\\(q\\approx0{,}894\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Cirka 10,6 % per år.</strong></p></div>",
     "familj": "Genomsnittlig förändring i problem",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "10.6",
@@ -69928,7 +69944,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Räkna med ljushastigheten \\(3{,}0\\cdot10^8\\) m/s och avståndet \\(1{,}5\\cdot10^{11}\\) m mellan solen och jorden.</p><p>a) Hur långt färdas ljuset på en minut? Svara i grundpotensform med enheten meter.<br>b) Hur lång tid tar solljuset till jorden? Svara i minuter med en decimal.<br>c) Vad innebär det för påståendet att vi ser solen som den såg ut för ungefär åtta minuter sedan?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En minut är 60 s.</p></li><li><p>Sträckan är \\(3{,}0\\cdot10^8\\cdot60=1{,}8\\cdot10^{10}\\) m.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tiden är sträckan delad med hastigheten: \\(\\frac{1{,}5\\cdot10^{11}}{3{,}0\\cdot10^8}=500\\) s.</p></li><li><p>Det är \\(500/60\\approx8{,}3\\) minuter.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ja, som ungefärlig uppgift stämmer det.</p></li><li><p>Ljuset som når oss lämnade solen drygt åtta minuter tidigare; bilden visar alltså inte solens samtidiga tillstånd.</p></li></ol></div></div></div>",
     "ledtrad": "<p>Vilken enhet får sträcka delad med hastighet? Vad säger tiden om när ljuset lämnade solen?</p>",
@@ -70167,7 +70183,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{900}{720}=\\)<strong>1,25</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn 1,25 svarar mot en <strong>ökning med 25 %</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{720}{900}=0{,}80\\), alltså en <strong>minskning med 20 %</strong>.<br>Lägg märke till att sänkningen inte är 25 %, eftersom den räknas på det högre priset 900 kr</p></li></ol></div></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "1.25",
@@ -70966,7 +70982,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>För a) används \\(18000\\cdot1{,}095^8\\). I b) söker du det första heltal \\(n\\) som gör \\(18000\\cdot1{,}095^n&gt;30000\\).</p>",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "geogebra": false
       },
       {
         "etikett": "b",
@@ -71230,7 +71247,7 @@ window.BANKMA1 = [
     "t": "<p>Alternativ A börjar på 10 000 och ökar med 8 % per år. Alternativ B börjar på 11 500 och ökar med 4 % per år.</p><p>Vilket alternativ är störst efter 5 år, och hur stor är skillnaden?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> A: \\(10\\,000\\cdot1{,}08^5\\approx14\\,693\\).</p></li><li><p>B: \\(11\\,500\\cdot1{,}04^5\\approx13\\,991\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A är cirka 702 större.</strong></p></div></div>",
     "familj": "Problemlösning med förändringar i flera steg",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -71819,7 +71836,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>Modellen använder faktorn 1,042. För b söker du det första heltal \\(n\\) som gör \\(1{,}042^n&gt;2\\). Fundera sedan på varför räntan i kronor inte är konstant.</p>",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "geogebra": false
       },
       {
         "etikett": "b",
@@ -71839,7 +71857,8 @@ window.BANKMA1 = [
         "poang": "0/1/0",
         "ledtrad": "<p>Modellen använder faktorn 1,042. För b söker du det första heltal \\(n\\) som gör \\(1{,}042^n&gt;2\\). Fundera sedan på varför räntan i kronor inte är konstant.</p>",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "geogebra": false
       }
     ]
   },
@@ -72070,7 +72089,7 @@ window.BANKMA1 = [
     "t": "<p>Efter tre års minskning med 8 % per år är ett värde 38 934,40.</p><p>Bestäm startvärdet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor.</p></li><li><p>Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p></li><li><div class=\"facit-matte\">\\[V\\cdot0{,}92^3=38\\,934,40\\].</div></li><li><p>\\(V=\\frac{38\\,934,40}{0{,}92}^3=\\)<strong>50 000</strong>.</p></li></ol></div>",
     "familj": "Problemlösning med förändringar i flera steg",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "50000",
@@ -72290,7 +72309,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(0{,}80x=4800\\Rightarrow x=\\)<strong>6 000 kr</strong>.</p></li></ol></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "6000",
     "tolerans": null,
@@ -72381,7 +72400,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>312 kr motsvarar 80 %.</p></li><li><p>\\(\\frac{312}{0{,}80}=\\)<strong>390 kr</strong>.</p></li></ol></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "390",
     "tolerans": null,
@@ -72474,7 +72493,7 @@ window.BANKMA1 = [
     "t": "<p>Två investeringar har samma startvärde. A ökar 8 % per år i tre år. B ökar totalt 26 % under samma tre år.</p><p>Vilken har högst genomsnittlig årlig procentuell ökning?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> A har 8 % per år.</p></li><li><p>För B gäller \\(q^3=1{,}26\\), så \\(q=1{,}26^{\\frac{1}{3}}\\approx1{,}08008\\), dvs cirka 8,008 % per år.</p></li></ol>\n\n<p class=\"facit-svar\"><strong>Svar:</strong> <strong>B har alltså en marginellt högre genomsnittlig årlig ökning än A.</strong></p></div></div>",
     "familj": "Genomsnittlig förändring i problem",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
     "rättSvar": "B",
@@ -72536,7 +72555,7 @@ window.BANKMA1 = [
     "t": "<p>10 000 kr växer med 2,5 % ränta per år. Hur mycket finns efter 5 år? Avrunda till hela kronor.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 5 gånger.</p>\\[10000\\cdot1{,}025^{5}\\approx11314{,}082129\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 11 314 kr.</p></div>",
     "familj": "Ränta på ränta",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 11314.082128906244,
@@ -73288,7 +73307,7 @@ window.BANKMA1 = [
     "t": "<p>7 500 kr står på ett konto med 1,8 % årlig ränta. Hur mycket finns efter två år om räntan läggs till kapitalet varje år? Avrunda till hela kronor.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räntan läggs till kapitalet varje år. Multiplicera med årets förändringsfaktor 2 gånger.</p>\\[7500\\cdot1{,}018^{2}\\approx7772{,}43\\,\\mathrm{kr}.\\]<p><strong>Svar:</strong> 7 772 kr.</p></div>",
     "familj": "Ränta på ränta",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7772.43,
@@ -74869,7 +74888,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Med sidan s gäller</p><div class=\"facit-matte\">\\[s^3=343\\].</div></div></li><li><p>\\(s=\\sqrt[3]{343}=7\\), eftersom 7 · 7 · 7 = 343.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>7 cm</strong></p></div></div>",
     "familj": "Potensekvationer i tillämpningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
     "tolerans": 1e-09,
@@ -74902,7 +74921,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(s^2=169\\) och s är positiv, så \\(s=13\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>13 m</strong></p></div></div>",
     "familj": "Potensekvationer i tillämpningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
     "tolerans": 1e-09,
@@ -76092,7 +76111,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[250\\cdot 0{,}88=220 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>220</strong></p></div></div>",
     "familj": "Procentuell ökning och minskning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 220,
     "tolerans": 1e-09,
@@ -77248,7 +77267,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[300\\cdot 0{,}85=255 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>255</strong></p></div></div>",
     "familj": "Räkna med förändringsfaktor",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 255,
     "tolerans": 1e-09,
@@ -78412,7 +78431,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[12\\,000\\cdot 0{,}025=300 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>300 kr</strong></p></div></div>",
     "familj": "Ränta under ett år",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
     "tolerans": 1e-09,
@@ -78835,7 +78854,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{120\\,000}{8}=15\\,000 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>15 000 kr</strong></p></div></div>",
     "familj": "Amortering och skuld",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15000,
     "tolerans": 1e-09,
@@ -80406,7 +80425,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(\\tan v=\\frac{\\text{motstående}}{\\text{närliggande}}\\) kan man välja <strong>motstående katet 8 och närliggande katet 15</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{8^2+15^2}=\\sqrt{64+225}=\\sqrt{289}=\\)<strong>17</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin v=\\frac{8}{17}\\) och \\(\\cos v=\\frac{15}{17}\\)</strong>.<br>Andra trianglar med samma vinkel \\(v\\) är likformiga med denna, så kvoterna blir desamma oavsett vilken storlek man väljer</p></li></ol></div></div></div>",
     "familj": "Exakta trigonometriska värden och samband",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -80460,7 +80479,8 @@ window.BANKMA1 = [
         "poang": "1/0/0",
         "ledtrad": "<p>Tolka \\(\\tan v=8/15\\) som ett förhållande mellan två kateter. Välj först ett par katetlängder som har just det förhållandet.</p>",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "miniräknare": false
       },
       {
         "etikett": "b",
@@ -80851,7 +80871,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rita en rätvinklig triangel med motstående katet 5 och hypotenusa 13.</p></li><li><div class=\"facit-berakning\"><p>Den andra kateten blir</p><div class=\"facit-matte\">\\[\\sqrt{13^2-5^2}=12\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\tan v=\\frac{5}{12}\\)</strong></p></div>",
     "familj": "Exakta trigonometriska värden och samband",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "bråk",
     "rättSvar": "5/12",
     "tolerans": null,
@@ -81829,7 +81849,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{7^2+24^2}=\\sqrt{49+576}=\\sqrt{625}=\\)<strong>25 cm</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{26^2-10^2}=\\sqrt{676-100}=\\sqrt{576}=\\)<strong>24 cm</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nej.</strong> Om triangeln vore rätvinklig skulle \\(6^2+8^2=11^2\\) gälla, men \\(36+64=100\\) medan \\(11^2=121\\).</p></li><li><p>Eftersom \\(100\\ne121\\) är triangeln inte rätvinklig</p></li></ol></div></div></div>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       25,
@@ -84727,7 +84747,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[|(-7,-24)|=\\sqrt{(-7)^2+(-24)^2}=\\sqrt{625}=25\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25.</p></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "25",
     "tolerans": null,
@@ -85436,7 +85456,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Steg 1:</strong> Absolutbeloppet ges av</p><div class=\"facit-matte\">\\[|\\vec v|=\\sqrt{x^2+y^2}\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{81+144}=\\sqrt{225}=\\)<strong>15</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{64+225}=\\sqrt{289}=\\)<strong>17</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{4+1}=\\)<strong>\\(\\sqrt5\\)</strong></p></li></ol></div></div></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       15,
@@ -85474,7 +85494,8 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Vektorns absolutbelopp är dess längd.</p></li><li><p>På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p></li><li><div class=\"facit-berakning\"><p>Absolutbeloppet ges av</p><div class=\"facit-matte\">\\[|\\vec v|=\\sqrt{x^2+y^2}\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{4+1}=\\)<strong>\\(\\sqrt5\\)</strong></p></div></div>",
         "ledtrad": "<p>Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p>",
         "niva": "C",
-        "poang": "0/1/0"
+        "poang": "0/1/0",
+        "miniräknare": false
       }
     ],
     "ledtrad": "<p>Beräkna \\(\\sqrt{x^2+y^2}\\) för varje vektor. Var noga med att även negativa komponenter kvadreras.</p>",
@@ -85629,7 +85650,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om motstående katet är 5 och hypotenusan 13 blir den närliggande kateten 12.</p></li><li><p>Alltså \\(\\cos v=12/13\\) och \\(\\cos v-\\sin v=12/13-5/13=7/13\\).</p></li></ol></div>",
     "familj": "Exakta trigonometriska värden och samband",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "bråk",
     "rättSvar": "7/13",
     "tolerans": null,
@@ -86600,7 +86621,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj kateterna 5 och 12.</p></li><li><div class=\"facit-berakning\"><p>Då blir hypotenusan</p><div class=\"facit-matte\">\\[\\sqrt{5^2+12^2}=\\sqrt{169}=13\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Ja.</strong> Förhållandet \\(5:12\\) bestämmer vinkeln men inte triangelns storlek.</p></li><li><p>Alla likformiga trianglar med kateter \\(5k\\) och \\(12k\\),</p></li><li><p>\\(k&gt;0\\), har samma vinkel och hypotenusan \\(13k\\).</p></li></ol></div></div></div>",
     "familj": "Exakta trigonometriska värden och samband",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       13,
@@ -86647,7 +86668,8 @@ window.BANKMA1 = [
         "poang": "0/1/0",
         "ledtrad": "<p>Förhållandet 5:12 anger formen men inte storleken. Börja med triangeln vars kateter är 5 och 12.</p>",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "miniräknare": false
       }
     ],
     "familjTidigare": [
@@ -86941,7 +86963,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den raka förflyttningen är vektorns längd:</p><div class=\"facit-matte\">\\[\\sqrt{9^2+(-12)^2}=\\sqrt{225}=15\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15.</p></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "15",
     "tolerans": null,
@@ -87233,7 +87255,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt den okända kateten vara \\(x\\).</p></li><li><p>Då \\(x^2+7^2=25^2\\), så \\(x^2=625-49=576\\) och \\(x=24\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 cm.</p></div>",
     "familj": "Bestämma en katet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
     "tolerans": null,
@@ -89412,7 +89434,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\cos^{-1}(0{,}5)=60^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>60°</strong></p></div></div>",
     "familj": "Vinkel ur ett trigonometriskt värde",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
     "tolerans": 0.06,
@@ -91967,7 +91989,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[|\\vec v|=\\sqrt{(-8)^2+(-15)^2}=\\sqrt{289}=17\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>17</strong></p></div></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
     "tolerans": 1e-09,
@@ -92237,7 +92259,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\overrightarrow{AB}=(-7,24)\\].</div></li><li><div class=\"facit-matte\">\\[|\\overrightarrow{AB}|=\\sqrt{49+576}=25\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>25</strong></p></div></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
     "tolerans": 1e-09,
@@ -93066,7 +93088,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=b\\cdot h=2{,}5\\cdot5{,}0=12{,}5\\ \\mathrm{m^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 m²</p></div></div>",
     "familj": "Omkrets och area av månghörningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 12.5,
     "tolerans": 1e-09,
@@ -93615,7 +93637,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Sidan s uppfyller</p><div class=\"facit-matte\">\\[s^{3}=216\\]</div></div></li><li><p>Eftersom 6 · 6 · 6 = 216 är sidan 6 dm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 dm</p></div></div>",
     "familj": "Volym av rätblock, cylinder, kon och klot",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
     "tolerans": 1e-09,
@@ -94004,7 +94026,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sqrt{625}=25\\ \\mathrm m\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 m</p></div></div>",
     "familj": "Kvadratrötter",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
     "tolerans": 1e-09,
@@ -94280,7 +94302,7 @@ window.BANKMA1 = [
     "formaga": [
       "problemlösning"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Hur många plattor ligger det längs en sida när det är 400 plattor totalt?</p>",
@@ -102581,7 +102603,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om risken är \\(p\\) gäller \\(800p=12\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[p=12/800=0{,}015=1{,}5\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: 1,5 %.</strong></p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
     "tolerans": 0.01,
@@ -106139,7 +106161,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{4}{52}\\cdot\\frac{3}{51}=\\frac{12}{2652}=\\frac{1}{221}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{1}{221}\\)</strong></p></div></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "bråk",
     "rättSvar": "1/221",
     "tolerans": null,
@@ -107386,7 +107408,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}02\\cdot 1\\,250=25\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>25</strong></p></div></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
     "tolerans": 1e-09,
@@ -109880,7 +109902,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{74}{200}=0{,}37=37\\,\\%\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 37 %</p></div></div>",
     "familj": "Sannolikhet och relativ frekvens",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 37,
     "tolerans": 1e-09,
@@ -111329,7 +111351,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minskningen är \\(9\\,600-8\\,160=1\\,440\\) kWh.</p></li><li><p>Relativt ursprungsvärdet blir</p></li><li><div class=\"facit-matte\">\\[\\frac{1\\,440}{9\\,600}=0{,}15=15\\,\\%\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 %.</p></div>",
     "familj": "Hållbar utveckling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "15",
     "tolerans": null,
@@ -111920,7 +111942,7 @@ window.BANKMA1 = [
     "t": "<p>En kommun har 42 000 invånare. Befolkningen växer med 1,8 % per år.</p><p>Hur många invånare har kommunen efter 5 år enligt modellen? Diskutera också en anledning att vara försiktig med att lita på modellen på lång sikt.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Modellen är</p><div class=\"facit-matte\">\\[P(t)=42\\,000\\cdot1{,}018^t\\].</div></div></li><li><p>Efter fem år:</p></li><li><p>\\(P(5)\\approx45\\,919\\).</p></li><li><p><strong>Prognos:</strong> cirka 45 919 invånare.</p></li><li><p>Modellen antar samma procentuella tillväxt varje år.</p></li><li><p>På längre sikt kan till exempel flyttning, födelsetal, bostadsbyggande eller arbetsmarknad förändras, så antagandet behöver inte fortsätta gälla.</p></li></ol></div>",
     "familj": "Matematik i samhällslivet",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -113461,7 +113483,9 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(x=6,8\\) i vänsterledet: \\(4{,}5\\cdot6{,}8-7{,}2=23,4\\).</p></li><li><p>Eftersom vänsterledet blir lika med högerledet är lösningen verifierad.</p></li></ol></div>",
         "ledtrad": "<p>Skriv ekvationen korrekt i verktyget och använd en lösnings- eller grafmetod. Kontrollera den digitala lösningen genom att sätta in värdet i den ursprungliga ekvationen eller jämföra grafernas y-värden.</p>",
         "niva": "C",
-        "poang": "0/1/0"
+        "poang": "0/1/0",
+        "miniräknare": false,
+        "geogebra": false
       }
     ],
     "svarFormat": [
@@ -113695,7 +113719,7 @@ window.BANKMA1 = [
     "t": "<p>Vilken grafisk metod löser \\(3x+2=20\\)?</p><p>A. Rita bara \\(y=20\\) och läs av dess lutning.<br>B. Rita \\(y=3x+2\\) och \\(y=x\\) och läs av skärningens y-koordinat.<br>C. Rita \\(y=3x+2\\) och \\(y=20\\) och läs av skärningens x-koordinat.<br>D. Rita \\(y=3x\\) och \\(y=2\\) och addera skärningens koordinater.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ekvationen frågar när uttrycket \\(3x+2\\) har värdet 20.</p></li><li><p>Det syns där graferna \\(y=3x+2\\) och \\(y=20\\) skär varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar: C.</strong> Skärningens x-koordinat är 6.</p></div>",
     "familj": "Rita grafer med digitala verktyg",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
     "rättSvar": "C",
@@ -113729,7 +113753,7 @@ window.BANKMA1 = [
     "t": "<p>Tre modeller visas:</p><p>\\(A(x)=100+15x\\)<br>\\(B(x)=100\\cdot1{,}10^x\\)<br>\\(C(x)=130+8x\\), \\(x\\ge0\\).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"81.1\" y1=\"25\" x2=\"81.1\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"81.1\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"107.1\" y1=\"25\" x2=\"107.1\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"107.1\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"133.2\" y1=\"25\" x2=\"133.2\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"133.2\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"159.3\" y1=\"25\" x2=\"159.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"159.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"185.4\" y1=\"25\" x2=\"185.4\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"185.4\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"211.4\" y1=\"25\" x2=\"211.4\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"211.4\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"263.6\" y1=\"25\" x2=\"263.6\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"263.6\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"289.6\" y1=\"25\" x2=\"289.6\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"289.6\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">9</text><line x1=\"315.7\" y1=\"25\" x2=\"315.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"315.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"341.8\" y1=\"25\" x2=\"341.8\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"341.8\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">11</text><line x1=\"367.9\" y1=\"25\" x2=\"367.9\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"367.9\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"393.9\" y1=\"25\" x2=\"393.9\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"393.9\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">13</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"261.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">80</text><line x1=\"55\" y1=\"226.9\" x2=\"420\" y2=\"226.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"229.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"195.9\" x2=\"420\" y2=\"195.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"198.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"164.8\" x2=\"420\" y2=\"164.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"167.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"133.7\" x2=\"420\" y2=\"133.7\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"136.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">240</text><line x1=\"55\" y1=\"102.7\" x2=\"420\" y2=\"102.7\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"105.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">280</text><line x1=\"55\" y1=\"71.6\" x2=\"420\" y2=\"71.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"74.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">320</text><line x1=\"55\" y1=\"40.5\" x2=\"420\" y2=\"40.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"43.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">360</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,242.5 56.5,241.8 58.0,241.1 59.6,240.4 61.1,239.7 62.6,239.1 64.1,238.4 65.6,237.7 67.2,237.0 68.7,236.4 70.2,235.7 71.7,235.0 73.2,234.3 74.8,233.6 76.3,233.0 77.8,232.3 79.3,231.6 80.9,230.9 82.4,230.2 83.9,229.6 85.4,228.9 86.9,228.2 88.5,227.5 90.0,226.8 91.5,226.2 93.0,225.5 94.5,224.8 96.1,224.1 97.6,223.4 99.1,222.8 100.6,222.1 102.1,221.4 103.7,220.7 105.2,220.0 106.7,219.4 108.2,218.7 109.8,218.0 111.3,217.3 112.8,216.6 114.3,216.0 115.8,215.3 117.4,214.6 118.9,213.9 120.4,213.2 121.9,212.6 123.4,211.9 125.0,211.2 126.5,210.5 128.0,209.8 129.5,209.2 131.0,208.5 132.6,207.8 134.1,207.1 135.6,206.4 137.1,205.8 138.6,205.1 140.2,204.4 141.7,203.7 143.2,203.1 144.7,202.4 146.2,201.7 147.8,201.0 149.3,200.3 150.8,199.7 152.3,199.0 153.9,198.3 155.4,197.6 156.9,196.9 158.4,196.3 159.9,195.6 161.5,194.9 163.0,194.2 164.5,193.5 166.0,192.9 167.5,192.2 169.1,191.5 170.6,190.8 172.1,190.1 173.6,189.5 175.1,188.8 176.7,188.1 178.2,187.4 179.7,186.7 181.2,186.1 182.8,185.4 184.3,184.7 185.8,184.0 187.3,183.3 188.8,182.7 190.4,182.0 191.9,181.3 193.4,180.6 194.9,179.9 196.4,179.3 198.0,178.6 199.5,177.9 201.0,177.2 202.5,176.5 204.0,175.9 205.6,175.2 207.1,174.5 208.6,173.8 210.1,173.1 211.6,172.5 213.2,171.8 214.7,171.1 216.2,170.4 217.7,169.8 219.2,169.1 220.8,168.4 222.3,167.7 223.8,167.0 225.3,166.4 226.9,165.7 228.4,165.0 229.9,164.3 231.4,163.6 232.9,163.0 234.5,162.3 236.0,161.6 237.5,160.9 239.0,160.2 240.5,159.6 242.1,158.9 243.6,158.2 245.1,157.5 246.6,156.8 248.1,156.2 249.7,155.5 251.2,154.8 252.7,154.1 254.2,153.4 255.8,152.8 257.3,152.1 258.8,151.4 260.3,150.7 261.8,150.0 263.4,149.4 264.9,148.7 266.4,148.0 267.9,147.3 269.4,146.6 271.0,146.0 272.5,145.3 274.0,144.6 275.5,143.9 277.0,143.2 278.6,142.6 280.1,141.9 281.6,141.2 283.1,140.5 284.6,139.8 286.2,139.2 287.7,138.5 289.2,137.8 290.7,137.1 292.2,136.5 293.8,135.8 295.3,135.1 296.8,134.4 298.3,133.7 299.9,133.1 301.4,132.4 302.9,131.7 304.4,131.0 305.9,130.3 307.5,129.7 309.0,129.0 310.5,128.3 312.0,127.6 313.5,126.9 315.1,126.3 316.6,125.6 318.1,124.9 319.6,124.2 321.1,123.5 322.7,122.9 324.2,122.2 325.7,121.5 327.2,120.8 328.8,120.1 330.3,119.5 331.8,118.8 333.3,118.1 334.8,117.4 336.4,116.7 337.9,116.1 339.4,115.4 340.9,114.7 342.4,114.0 344.0,113.3 345.5,112.7 347.0,112.0 348.5,111.3 350.0,110.6 351.6,109.9 353.1,109.3 354.6,108.6 356.1,107.9 357.6,107.2 359.2,106.5 360.7,105.9 362.2,105.2 363.7,104.5 365.2,103.8 366.8,103.2 368.3,102.5 369.8,101.8 371.3,101.1 372.9,100.4 374.4,99.8 375.9,99.1 377.4,98.4 378.9,97.7 380.5,97.0 382.0,96.4 383.5,95.7 385.0,95.0 386.5,94.3 388.1,93.6 389.6,93.0 391.1,92.3 392.6,91.6 394.1,90.9 395.7,90.2 397.2,89.6 398.7,88.9 400.2,88.2 401.8,87.5 403.3,86.8 404.8,86.2 406.3,85.5 407.8,84.8 409.4,84.1 410.9,83.4 412.4,82.8 413.9,82.1 415.4,81.4 417.0,80.7 418.5,80.0 420.0,79.4\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"125.6\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">A</text><polyline points=\"55.0,242.5 56.5,242.0 58.0,241.6 59.6,241.2 61.1,240.7 62.6,240.3 64.1,239.8 65.6,239.4 67.2,238.9 68.7,238.5 70.2,238.0 71.7,237.6 73.2,237.1 74.8,236.6 76.3,236.2 77.8,235.7 79.3,235.2 80.9,234.8 82.4,234.3 83.9,233.8 85.4,233.3 86.9,232.8 88.5,232.4 90.0,231.9 91.5,231.4 93.0,230.9 94.5,230.4 96.1,229.9 97.6,229.4 99.1,228.9 100.6,228.4 102.1,227.9 103.7,227.3 105.2,226.8 106.7,226.3 108.2,225.8 109.8,225.3 111.3,224.7 112.8,224.2 114.3,223.7 115.8,223.1 117.4,222.6 118.9,222.0 120.4,221.5 121.9,220.9 123.4,220.4 125.0,219.8 126.5,219.3 128.0,218.7 129.5,218.1 131.0,217.6 132.6,217.0 134.1,216.4 135.6,215.9 137.1,215.3 138.6,214.7 140.2,214.1 141.7,213.5 143.2,212.9 144.7,212.3 146.2,211.7 147.8,211.1 149.3,210.5 150.8,209.9 152.3,209.3 153.9,208.7 155.4,208.0 156.9,207.4 158.4,206.8 159.9,206.2 161.5,205.5 163.0,204.9 164.5,204.2 166.0,203.6 167.5,202.9 169.1,202.3 170.6,201.6 172.1,201.0 173.6,200.3 175.1,199.6 176.7,199.0 178.2,198.3 179.7,197.6 181.2,196.9 182.8,196.2 184.3,195.5 185.8,194.9 187.3,194.2 188.8,193.5 190.4,192.7 191.9,192.0 193.4,191.3 194.9,190.6 196.4,189.9 198.0,189.2 199.5,188.4 201.0,187.7 202.5,187.0 204.0,186.2 205.6,185.5 207.1,184.7 208.6,184.0 210.1,183.2 211.6,182.4 213.2,181.7 214.7,180.9 216.2,180.1 217.7,179.3 219.2,178.6 220.8,177.8 222.3,177.0 223.8,176.2 225.3,175.4 226.9,174.6 228.4,173.7 229.9,172.9 231.4,172.1 232.9,171.3 234.5,170.5 236.0,169.6 237.5,168.8 239.0,167.9 240.5,167.1 242.1,166.2 243.6,165.4 245.1,164.5 246.6,163.6 248.1,162.8 249.7,161.9 251.2,161.0 252.7,160.1 254.2,159.2 255.8,158.3 257.3,157.4 258.8,156.5 260.3,155.6 261.8,154.7 263.4,153.8 264.9,152.9 266.4,151.9 267.9,151.0 269.4,150.0 271.0,149.1 272.5,148.1 274.0,147.2 275.5,146.2 277.0,145.2 278.6,144.3 280.1,143.3 281.6,142.3 283.1,141.3 284.6,140.3 286.2,139.3 287.7,138.3 289.2,137.3 290.7,136.3 292.2,135.2 293.8,134.2 295.3,133.2 296.8,132.1 298.3,131.1 299.9,130.0 301.4,129.0 302.9,127.9 304.4,126.8 305.9,125.8 307.5,124.7 309.0,123.6 310.5,122.5 312.0,121.4 313.5,120.3 315.1,119.2 316.6,118.0 318.1,116.9 319.6,115.8 321.1,114.6 322.7,113.5 324.2,112.3 325.7,111.2 327.2,110.0 328.8,108.9 330.3,107.7 331.8,106.5 333.3,105.3 334.8,104.1 336.4,102.9 337.9,101.7 339.4,100.5 340.9,99.2 342.4,98.0 344.0,96.8 345.5,95.5 347.0,94.3 348.5,93.0 350.0,91.8 351.6,90.5 353.1,89.2 354.6,87.9 356.1,86.6 357.6,85.3 359.2,84.0 360.7,82.7 362.2,81.4 363.7,80.0 365.2,78.7 366.8,77.3 368.3,76.0 369.8,74.6 371.3,73.3 372.9,71.9 374.4,70.5 375.9,69.1 377.4,67.7 378.9,66.3 380.5,64.9 382.0,63.5 383.5,62.0 385.0,60.6 386.5,59.2 388.1,57.7 389.6,56.2 391.1,54.8 392.6,53.3 394.1,51.8 395.7,50.3 397.2,48.8 398.7,47.3 400.2,45.8 401.8,44.2 403.3,42.7 404.8,41.1 406.3,39.6 407.8,38.0 409.4,36.5 410.9,34.9 412.4,33.3 413.9,31.7 415.4,30.1 417.0,28.5 418.5,26.8 420.0,25.2\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"100.0\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">B</text><polyline points=\"55.0,219.2 56.5,218.8 58.0,218.4 59.6,218.1 61.1,217.7 62.6,217.4 64.1,217.0 65.6,216.6 67.2,216.3 68.7,215.9 70.2,215.5 71.7,215.2 73.2,214.8 74.8,214.5 76.3,214.1 77.8,213.7 79.3,213.4 80.9,213.0 82.4,212.6 83.9,212.3 85.4,211.9 86.9,211.6 88.5,211.2 90.0,210.8 91.5,210.5 93.0,210.1 94.5,209.7 96.1,209.4 97.6,209.0 99.1,208.7 100.6,208.3 102.1,207.9 103.7,207.6 105.2,207.2 106.7,206.8 108.2,206.5 109.8,206.1 111.3,205.8 112.8,205.4 114.3,205.0 115.8,204.7 117.4,204.3 118.9,203.9 120.4,203.6 121.9,203.2 123.4,202.9 125.0,202.5 126.5,202.1 128.0,201.8 129.5,201.4 131.0,201.0 132.6,200.7 134.1,200.3 135.6,200.0 137.1,199.6 138.6,199.2 140.2,198.9 141.7,198.5 143.2,198.1 144.7,197.8 146.2,197.4 147.8,197.1 149.3,196.7 150.8,196.3 152.3,196.0 153.9,195.6 155.4,195.2 156.9,194.9 158.4,194.5 159.9,194.2 161.5,193.8 163.0,193.4 164.5,193.1 166.0,192.7 167.5,192.3 169.1,192.0 170.6,191.6 172.1,191.3 173.6,190.9 175.1,190.5 176.7,190.2 178.2,189.8 179.7,189.4 181.2,189.1 182.8,188.7 184.3,188.4 185.8,188.0 187.3,187.6 188.8,187.3 190.4,186.9 191.9,186.5 193.4,186.2 194.9,185.8 196.4,185.5 198.0,185.1 199.5,184.7 201.0,184.4 202.5,184.0 204.0,183.6 205.6,183.3 207.1,182.9 208.6,182.6 210.1,182.2 211.6,181.8 213.2,181.5 214.7,181.1 216.2,180.7 217.7,180.4 219.2,180.0 220.8,179.7 222.3,179.3 223.8,178.9 225.3,178.6 226.9,178.2 228.4,177.8 229.9,177.5 231.4,177.1 232.9,176.8 234.5,176.4 236.0,176.0 237.5,175.7 239.0,175.3 240.5,174.9 242.1,174.6 243.6,174.2 245.1,173.9 246.6,173.5 248.1,173.1 249.7,172.8 251.2,172.4 252.7,172.0 254.2,171.7 255.8,171.3 257.3,171.0 258.8,170.6 260.3,170.2 261.8,169.9 263.4,169.5 264.9,169.1 266.4,168.8 267.9,168.4 269.4,168.1 271.0,167.7 272.5,167.3 274.0,167.0 275.5,166.6 277.0,166.2 278.6,165.9 280.1,165.5 281.6,165.2 283.1,164.8 284.6,164.4 286.2,164.1 287.7,163.7 289.2,163.4 290.7,163.0 292.2,162.6 293.8,162.3 295.3,161.9 296.8,161.5 298.3,161.2 299.9,160.8 301.4,160.5 302.9,160.1 304.4,159.7 305.9,159.4 307.5,159.0 309.0,158.6 310.5,158.3 312.0,157.9 313.5,157.6 315.1,157.2 316.6,156.8 318.1,156.5 319.6,156.1 321.1,155.7 322.7,155.4 324.2,155.0 325.7,154.7 327.2,154.3 328.8,153.9 330.3,153.6 331.8,153.2 333.3,152.8 334.8,152.5 336.4,152.1 337.9,151.8 339.4,151.4 340.9,151.0 342.4,150.7 344.0,150.3 345.5,149.9 347.0,149.6 348.5,149.2 350.0,148.9 351.6,148.5 353.1,148.1 354.6,147.8 356.1,147.4 357.6,147.0 359.2,146.7 360.7,146.3 362.2,146.0 363.7,145.6 365.2,145.2 366.8,144.9 368.3,144.5 369.8,144.1 371.3,143.8 372.9,143.4 374.4,143.1 375.9,142.7 377.4,142.3 378.9,142.0 380.5,141.6 382.0,141.2 383.5,140.9 385.0,140.5 386.5,140.2 388.1,139.8 389.6,139.4 391.1,139.1 392.6,138.7 394.1,138.3 395.7,138.0 397.2,137.6 398.7,137.3 400.2,136.9 401.8,136.5 403.3,136.2 404.8,135.8 406.3,135.4 407.8,135.1 409.4,134.7 410.9,134.4 412.4,134.0 413.9,133.6 415.4,133.3 417.0,132.9 418.5,132.5 420.0,132.2\" fill=\"none\" stroke=\"#2f6b3a\" stroke-width=\"2.5\" stroke-dasharray=\"2 4\"/><text x=\"366.6\" y=\"140.1\" font-family=\"monospace\" font-size=\"11\" fill=\"#2f6b3a\">C</text></svg></span><p>Bestäm de intervall där respektive modell har störst värde. Ange skärningsvärden med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Parvisa skärningar är A=B vid \\(x=0\\) och \\(x\\approx8{,}89\\), A=C vid \\(x\\approx4{,}29\\) och B=C vid \\(x\\approx6{,}09\\).</p></li><li><p>För att avgöra vilken modell som är störst måste man kontrollera ordningen mellan skärningarna.</p></li><li><p><strong>C är störst för \\(0\\le x&lt;4{,}29\\).</strong><br><strong>A är störst för \\(4{,}29&lt;x&lt;8{,}89\\).</strong><br><strong>B är störst för \\(x&gt;8{,}89\\).</strong></p></li><li><p>Vid gränsvärdena kan två modeller vara lika.</p></li></ol></div>",
     "familj": "Rita grafer med digitala verktyg",
-    "geogebra": false,
+    "geogebra": true,
     "miniräknare": true,
     "svarstyp": "uttryck",
     "rättSvar": null,
@@ -113866,7 +113890,7 @@ window.BANKMA1 = [
     "t": "<p>Två modeller är \\(L(x)=50+8x\\) och \\(E(x)=90\\cdot1{,}04^x\\).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"100.6\" y1=\"25\" x2=\"100.6\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"100.6\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"146.2\" y1=\"25\" x2=\"146.2\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"146.2\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"191.9\" y1=\"25\" x2=\"191.9\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"191.9\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">15</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"283.1\" y1=\"25\" x2=\"283.1\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"283.1\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">25</text><line x1=\"328.8\" y1=\"25\" x2=\"328.8\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"328.8\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">30</text><line x1=\"374.4\" y1=\"25\" x2=\"374.4\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"374.4\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">35</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">40</text><line x1=\"55\" y1=\"252.3\" x2=\"420\" y2=\"252.3\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"255.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">50</text><line x1=\"55\" y1=\"223.9\" x2=\"420\" y2=\"223.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"226.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"195.5\" x2=\"420\" y2=\"195.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"198.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">150</text><line x1=\"55\" y1=\"167.1\" x2=\"420\" y2=\"167.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"170.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"138.7\" x2=\"420\" y2=\"138.7\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"141.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">250</text><line x1=\"55\" y1=\"110.2\" x2=\"420\" y2=\"110.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"113.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">300</text><line x1=\"55\" y1=\"81.8\" x2=\"420\" y2=\"81.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"84.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">350</text><line x1=\"55\" y1=\"53.4\" x2=\"420\" y2=\"53.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"56.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">400</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">450</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,252.3 56.5,251.6 58.0,250.8 59.6,250.0 61.1,249.3 62.6,248.5 64.1,247.8 65.6,247.0 67.2,246.3 68.7,245.5 70.2,244.7 71.7,244.0 73.2,243.2 74.8,242.5 76.3,241.7 77.8,241.0 79.3,240.2 80.9,239.4 82.4,238.7 83.9,237.9 85.4,237.2 86.9,236.4 88.5,235.6 90.0,234.9 91.5,234.1 93.0,233.4 94.5,232.6 96.1,231.9 97.6,231.1 99.1,230.3 100.6,229.6 102.1,228.8 103.7,228.1 105.2,227.3 106.7,226.6 108.2,225.8 109.8,225.0 111.3,224.3 112.8,223.5 114.3,222.8 115.8,222.0 117.4,221.3 118.9,220.5 120.4,219.7 121.9,219.0 123.4,218.2 125.0,217.5 126.5,216.7 128.0,215.9 129.5,215.2 131.0,214.4 132.6,213.7 134.1,212.9 135.6,212.2 137.1,211.4 138.6,210.6 140.2,209.9 141.7,209.1 143.2,208.4 144.7,207.6 146.2,206.9 147.8,206.1 149.3,205.3 150.8,204.6 152.3,203.8 153.9,203.1 155.4,202.3 156.9,201.5 158.4,200.8 159.9,200.0 161.5,199.3 163.0,198.5 164.5,197.8 166.0,197.0 167.5,196.2 169.1,195.5 170.6,194.7 172.1,194.0 173.6,193.2 175.1,192.5 176.7,191.7 178.2,190.9 179.7,190.2 181.2,189.4 182.8,188.7 184.3,187.9 185.8,187.2 187.3,186.4 188.8,185.6 190.4,184.9 191.9,184.1 193.4,183.4 194.9,182.6 196.4,181.8 198.0,181.1 199.5,180.3 201.0,179.6 202.5,178.8 204.0,178.1 205.6,177.3 207.1,176.5 208.6,175.8 210.1,175.0 211.6,174.3 213.2,173.5 214.7,172.8 216.2,172.0 217.7,171.2 219.2,170.5 220.8,169.7 222.3,169.0 223.8,168.2 225.3,167.5 226.9,166.7 228.4,165.9 229.9,165.2 231.4,164.4 232.9,163.7 234.5,162.9 236.0,162.1 237.5,161.4 239.0,160.6 240.5,159.9 242.1,159.1 243.6,158.4 245.1,157.6 246.6,156.8 248.1,156.1 249.7,155.3 251.2,154.6 252.7,153.8 254.2,153.1 255.8,152.3 257.3,151.5 258.8,150.8 260.3,150.0 261.8,149.3 263.4,148.5 264.9,147.8 266.4,147.0 267.9,146.2 269.4,145.5 271.0,144.7 272.5,144.0 274.0,143.2 275.5,142.4 277.0,141.7 278.6,140.9 280.1,140.2 281.6,139.4 283.1,138.7 284.6,137.9 286.2,137.1 287.7,136.4 289.2,135.6 290.7,134.9 292.2,134.1 293.8,133.4 295.3,132.6 296.8,131.8 298.3,131.1 299.9,130.3 301.4,129.6 302.9,128.8 304.4,128.1 305.9,127.3 307.5,126.5 309.0,125.8 310.5,125.0 312.0,124.3 313.5,123.5 315.1,122.7 316.6,122.0 318.1,121.2 319.6,120.5 321.1,119.7 322.7,119.0 324.2,118.2 325.7,117.4 327.2,116.7 328.8,115.9 330.3,115.2 331.8,114.4 333.3,113.7 334.8,112.9 336.4,112.1 337.9,111.4 339.4,110.6 340.9,109.9 342.4,109.1 344.0,108.3 345.5,107.6 347.0,106.8 348.5,106.1 350.0,105.3 351.6,104.6 353.1,103.8 354.6,103.0 356.1,102.3 357.6,101.5 359.2,100.8 360.7,100.0 362.2,99.3 363.7,98.5 365.2,97.7 366.8,97.0 368.3,96.2 369.8,95.5 371.3,94.7 372.9,94.0 374.4,93.2 375.9,92.4 377.4,91.7 378.9,90.9 380.5,90.2 382.0,89.4 383.5,88.6 385.0,87.9 386.5,87.1 388.1,86.4 389.6,85.6 391.1,84.9 392.6,84.1 394.1,83.3 395.7,82.6 397.2,81.8 398.7,81.1 400.2,80.3 401.8,79.6 403.3,78.8 404.8,78.0 406.3,77.3 407.8,76.5 409.4,75.8 410.9,75.0 412.4,74.3 413.9,73.5 415.4,72.7 417.0,72.0 418.5,71.2 420.0,70.5\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"122.7\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">L</text><polyline points=\"55.0,229.6 56.5,229.2 58.0,228.9 59.6,228.6 61.1,228.2 62.6,227.9 64.1,227.5 65.6,227.2 67.2,226.8 68.7,226.5 70.2,226.1 71.7,225.8 73.2,225.4 74.8,225.0 76.3,224.7 77.8,224.3 79.3,223.9 80.9,223.6 82.4,223.2 83.9,222.8 85.4,222.4 86.9,222.1 88.5,221.7 90.0,221.3 91.5,220.9 93.0,220.5 94.5,220.1 96.1,219.7 97.6,219.3 99.1,218.9 100.6,218.5 102.1,218.1 103.7,217.7 105.2,217.3 106.7,216.9 108.2,216.4 109.8,216.0 111.3,215.6 112.8,215.2 114.3,214.7 115.8,214.3 117.4,213.9 118.9,213.4 120.4,213.0 121.9,212.5 123.4,212.1 125.0,211.6 126.5,211.2 128.0,210.7 129.5,210.3 131.0,209.8 132.6,209.3 134.1,208.9 135.6,208.4 137.1,207.9 138.6,207.5 140.2,207.0 141.7,206.5 143.2,206.0 144.7,205.5 146.2,205.0 147.8,204.5 149.3,204.0 150.8,203.5 152.3,203.0 153.9,202.5 155.4,202.0 156.9,201.5 158.4,201.0 159.9,200.4 161.5,199.9 163.0,199.4 164.5,198.8 166.0,198.3 167.5,197.8 169.1,197.2 170.6,196.7 172.1,196.1 173.6,195.6 175.1,195.0 176.7,194.4 178.2,193.9 179.7,193.3 181.2,192.7 182.8,192.2 184.3,191.6 185.8,191.0 187.3,190.4 188.8,189.8 190.4,189.2 191.9,188.6 193.4,188.0 194.9,187.4 196.4,186.8 198.0,186.2 199.5,185.6 201.0,184.9 202.5,184.3 204.0,183.7 205.6,183.0 207.1,182.4 208.6,181.8 210.1,181.1 211.6,180.5 213.2,179.8 214.7,179.1 216.2,178.5 217.7,177.8 219.2,177.1 220.8,176.4 222.3,175.8 223.8,175.1 225.3,174.4 226.9,173.7 228.4,173.0 229.9,172.3 231.4,171.6 232.9,170.8 234.5,170.1 236.0,169.4 237.5,168.7 239.0,167.9 240.5,167.2 242.1,166.4 243.6,165.7 245.1,164.9 246.6,164.2 248.1,163.4 249.7,162.6 251.2,161.9 252.7,161.1 254.2,160.3 255.8,159.5 257.3,158.7 258.8,157.9 260.3,157.1 261.8,156.3 263.4,155.5 264.9,154.7 266.4,153.8 267.9,153.0 269.4,152.2 271.0,151.3 272.5,150.5 274.0,149.6 275.5,148.8 277.0,147.9 278.6,147.0 280.1,146.2 281.6,145.3 283.1,144.4 284.6,143.5 286.2,142.6 287.7,141.7 289.2,140.8 290.7,139.9 292.2,138.9 293.8,138.0 295.3,137.1 296.8,136.1 298.3,135.2 299.9,134.2 301.4,133.3 302.9,132.3 304.4,131.3 305.9,130.3 307.5,129.4 309.0,128.4 310.5,127.4 312.0,126.4 313.5,125.3 315.1,124.3 316.6,123.3 318.1,122.3 319.6,121.2 321.1,120.2 322.7,119.1 324.2,118.1 325.7,117.0 327.2,115.9 328.8,114.8 330.3,113.8 331.8,112.7 333.3,111.6 334.8,110.4 336.4,109.3 337.9,108.2 339.4,107.1 340.9,105.9 342.4,104.8 344.0,103.6 345.5,102.5 347.0,101.3 348.5,100.1 350.0,98.9 351.6,97.8 353.1,96.6 354.6,95.3 356.1,94.1 357.6,92.9 359.2,91.7 360.7,90.4 362.2,89.2 363.7,87.9 365.2,86.7 366.8,85.4 368.3,84.1 369.8,82.8 371.3,81.5 372.9,80.2 374.4,78.9 375.9,77.6 377.4,76.2 378.9,74.9 380.5,73.6 382.0,72.2 383.5,70.8 385.0,69.5 386.5,68.1 388.1,66.7 389.6,65.3 391.1,63.9 392.6,62.4 394.1,61.0 395.7,59.6 397.2,58.1 398.7,56.7 400.2,55.2 401.8,53.7 403.3,52.2 404.8,50.7 406.3,49.2 407.8,47.7 409.4,46.2 410.9,44.6 412.4,43.1 413.9,41.5 415.4,39.9 417.0,38.4 418.5,36.8 420.0,35.2\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"106.2\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">E</text></svg></span><p>En elev använder först fönstret \\(0\\le x\\le20\\) och hittar en skärning. Eleven drar slutsatsen att modellerna bara är lika en gång. Undersök \\(0\\le x\\le40\\), bestäm alla skärningar och förklara misstaget.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Skärningarna ligger vid ungefär <strong>\\(x=11{,}22\\)</strong> och <strong>\\(x=29{,}43\\)</strong>.</p></li><li><p>Det första fönstret visar bara den första.</p></li></ol><p class=\"facit-svar\"><strong>Ett olämpligt graffönster kan dölja lösningar.</strong></p></div></div>",
     "familj": "Rita grafer med digitala verktyg",
-    "geogebra": false,
+    "geogebra": true,
     "miniräknare": true,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -114163,7 +114187,7 @@ window.BANKMA1 = [
     "t": "<p>En rektangulär hage byggs mot en lång rak vägg. Endast tre sidor behöver stängsel och totalt finns 40 m stängsel. Låt de två korta sidorna vara \\(x\\) meter.</p><span class=\"fig\"><svg width=\"420\" height=\"235\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rektangulär hage mot vägg\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#333\" stroke-width=\"4\"/><line x1=\"105\" y1=\"55\" x2=\"105\" y2=\"185\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"105\" y1=\"185\" x2=\"315\" y2=\"185\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"315\" y1=\"185\" x2=\"315\" y2=\"55\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"210\" y=\"210\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">40 - 2x</text><text x=\"88\" y=\"125\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"12\">x</text><text x=\"365\" y=\"48\" font-family=\"monospace\" font-size=\"11\">vägg</text></svg></span><p>a) Visa att arean kan modelleras med \\(A(x)=x(40-2x)\\) och ange en rimlig definitionsmängd.<br>b) Använd digital grafritning för att bestämma alla bredder som ger en area på minst 150 m².</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor är \\(x\\), så den tredje stängselsidan är \\(40-2x\\).</p></li><li><div class=\"facit-berakning\"><p>Arean blir</p><div class=\"facit-matte\">\\[A(x)=x(40-2x)\\].</div></div></li><li><p>För positiva sidlängder gäller \\(0&lt;x&lt;20\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kravet \\(x(40-2x)\\ge150\\) har gränsvärden vid \\(x=5\\) och \\(x=15\\).</p></li><li><p>Parabeln ligger över 150 mellan rötterna.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\le x\\le15\\) meter.</p></div>",
     "familj": "Använda och formulera modeller",
-    "geogebra": false,
+    "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -114718,7 +114742,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är \\(42-28=14\\) kg.</p></li><li><div class=\"facit-berakning\"><p>Jämfört med det första alternativets 42 kg blir minskningen</p><div class=\"facit-matte\">\\[\\frac{14}{42}=\\frac13\\approx0{,}333\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 33,3 % lägre.</p></div>",
     "familj": "Hållbar utveckling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "33.3",
     "tolerans": 0.1,
@@ -114915,7 +114939,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minskningen är \\(12\\,500-10\\,750=1\\,750\\) kWh.</p></li><li><p>Relativt ursprungsvärdet:</p><div class=\"facit-matte\">\\[\\frac{1\\,750}{12\\,500}=0{,}14\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 %.</p></div>",
     "familj": "Hållbar utveckling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "14",
     "tolerans": null,
@@ -115145,7 +115169,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Andelen fyllda platser är</p><div class=\"facit-matte\">\\[\\frac{765}{900}=0{,}85\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 85 %.</p></div>",
     "familj": "Matematik i samhällslivet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "85",
     "tolerans": null,
@@ -115531,7 +115555,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter utgiften återstår \\(5\\,000-1\\,350=3\\,650\\) kr.</p></li><li><div class=\"facit-berakning\"><p>Andelen som är kvar är</p><div class=\"facit-matte\">\\[3\\,650/5\\,000=0{,}73\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 73 %.</p></div>",
     "familj": "Privatekonomi",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "73",
     "tolerans": null,
@@ -116204,7 +116228,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "självrättning": true,
     "ledtrad": "<p>Gör b först: när är räntan precis lika stor som uttaget? Pröva sedan formeln i ett kalkylblad.</p>",
     "spel": true,
@@ -120184,7 +120208,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}5\\text{ l/s}\\cdot60=150\\text{ l/min}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}5\\cdot3\\,600=9\\,000\\text{ l/h}=9,0\\text{ m}^3/\\text{h}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}45\\text{ m}^3/\\text{h}=450\\text{ l/h}=7,5\\text{ l/min}\\].</div></li></ol></div></div></div>",
     "familj": "Dosering, flöde och volym",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       150,
@@ -120872,7 +120896,7 @@ window.BANKMA1 = [
       "1a"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Ett snett stag är hypotenusan i en rätvinklig triangel med kateterna 30 cm och 40 cm. Använd c = √(a² + b²) för att bestämma stagets längd.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[c=\\sqrt{30^{2}+40^{2}}=\\sqrt{2\\,500}=50\\, \\mathrm{cm}\\]</div></div></li></ol></div>",
     "ledtrad": "<p>De två kateterna kvadreras var för sig.</p>",
@@ -121175,7 +121199,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 600·0,80 = <strong>1 280 N</strong>.<br>b) 250·0,70 = <strong>175 kg</strong>.<br>c) 40·0,90 = <strong>36 L</strong>.</p></li></ol></div></div></div>",
     "familj": "Säkerhetsmarginal i procent",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       1280,
@@ -121212,7 +121236,8 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt situationen till de matematiska storheter som ska jämföras.</p></li><li><p>Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\cdot0{,}90=\\)<strong>36 liter</strong></p></div></div>",
         "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "miniräknare": false
       }
     ],
     "ledtrad": "<p>Multiplicera maxvärdet med den tillåtna andelen i varje del.</p>",
@@ -121504,7 +121529,7 @@ window.BANKMA1 = [
       "1a"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>En behållare med 500 ml ska tömmas jämnt på 4 timmar. Vilket flöde behövs i ml/timme?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Flödet är 500/4 = 125 ml/timme.</p></li></ol></div>",
     "ledtrad": "<p>Fördela volymen jämnt på de fyra timmarna.</p>",
@@ -121729,7 +121754,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rabatten är 0,08·4 200 = <strong>336 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>4 200−336 = <strong>3 864 kr</strong>.</p></li></ol></div></div></div>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "336",
@@ -122233,7 +122258,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(7{,}2\\cdot25\\,000=180\\,000\\) cm = <strong>1,8 km</strong>.</p></li></ol></div>",
     "familj": "Skala på kartor och ritningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "1.8",
     "tolerans": null,
@@ -122407,7 +122432,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett möjligt överslag är:</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>600·0,5 ≈ <strong>300</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2 000+3 000+4 000 ≈ <strong>9 000</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det exakta värdet i a är 612·0,48 = 293,76, så överslaget 300 blev <strong>något för högt</strong>.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Andra välmotiverade avrundningar kan ge andra rimliga överslag.</p></li></ol></div>",
     "familj": "Överslag i yrkeslivet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -122437,7 +122462,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det exakta värdet ligger lite under 400·51 = 20 400, eftersom 398 är 2 mindre än 400.</p></li><li><p>Därför bör <strong>B</strong> ligga närmast.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[398\\cdot 51=20\\,298\\]</div></div></li><li><p>Felen blir 298 för A, 102 för B och 398 för C.</p></li></ol></div>",
     "familj": "Rimlighet och avrundade mått",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "val",
     "rättSvar": "B",
     "tolerans": null,
@@ -122678,7 +122703,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>20·8≈160, så produkten bör ligga i storleksordningen hundratal, inte över tusen.</p></li><li><p>Exakt värde är 138.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
     "familj": "Tabeller och kalkylblad",
     "geogebra": false,
-    "miniräknare": true,
+    "miniräknare": false,
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
@@ -122708,7 +122733,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Summan är 125,2 mm; 125,2/5 = <strong>25,04 mm</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>25,2−24,9 = <strong>0,3 mm</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>C</strong>.</p></li><li><p>Serien visar både ett centrum nära 25,0 och en faktisk variation mellan mätningarna.</p></li></ol></div></div></div>",
     "familj": "Mätinstrument och avläsning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       25.04,
@@ -122760,7 +122785,8 @@ window.BANKMA1 = [
         "poang": "0/1/0",
         "ledtrad": "<p>Medelvärde beskriver centrum. Variationsbredd beskriver hur långt det är mellan största och minsta observationen.</p>",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "miniräknare": false
       },
       {
         "etikett": "c",
@@ -122770,7 +122796,8 @@ window.BANKMA1 = [
         "poang": "0/1/0",
         "ledtrad": "<p>Medelvärde beskriver centrum. Variationsbredd beskriver hur långt det är mellan största och minsta observationen.</p>",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "miniräknare": false
       }
     ],
     "familjTidigare": [
@@ -126209,7 +126236,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>18 enheter per timme i 7 timmar ger 18·7 = <strong>126 enheter</strong>.</p></li></ol></div>",
     "familj": "Tabeller och kalkylblad",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 126,
     "tolerans": 1e-09,
@@ -127315,7 +127342,7 @@ window.BANKMA1 = [
       "1a"
     ],
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "t": "<p>Volymen som fylls på ges av V = qt, där q är flödet i liter/minut och t tiden i minuter. Bestäm V när q = 18 och t = 2,5.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=18\\cdot 2{,}5=45\\, \\mathrm{liter}\\]</div></div></li><li><p>Produkten av flöde och tid är en volym, inte ett flöde.</p></li></ol></div>",
     "ledtrad": "<p>Vilken enhet får produkten av liter/minut och minuter?</p>",
@@ -127546,7 +127573,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[3{,}5\\cdot 5=17{,}5\\, \\mathrm{g}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>17,5 g</strong></p></div></div>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 17.5,
     "tolerans": 1e-09,
@@ -127886,7 +127913,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Gör om till centimeter och dela med 50.</p>",
@@ -128787,7 +128814,7 @@ window.BANKMA1 = [
       "resonemang",
       "procedur"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Hur stor är en platta i m²? Ungefär hur många sådana går på en kvadratmeter?</p>",
@@ -129854,7 +129881,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[6\\cdot 550=3\\,300 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3300 kr</strong></p></div></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3300,
     "tolerans": 1e-09,
@@ -129947,7 +129974,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[4\\,200+1\\,850+395=6\\,445 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>6445 kr</strong></p></div></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 6445,
     "tolerans": 1e-09,
@@ -130040,7 +130067,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[80\\cdot 1{,}60=128 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>128 kr</strong></p></div></div>",
     "familj": "Moms, rabatt och påslag",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 128,
     "tolerans": 1e-09,
@@ -130869,7 +130896,7 @@ window.BANKMA1 = [
       "problemlösning",
       "modellering"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först hur mycket ett band får bära. Vilket av banden sätter gränsen?</p>",
@@ -130948,7 +130975,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[46\\cdot 5=230\\, \\mathrm{V}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>230 V</strong></p></div></div>",
     "familj": "Formler i yrkesarbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 230,
     "tolerans": 1e-09,
@@ -130979,7 +131006,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[230\\cdot 8=1\\,840\\, \\mathrm{W}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1840 W</strong></p></div></div>",
     "familj": "Formler i yrkesarbete",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1840,
     "tolerans": 1e-09,
@@ -132247,7 +132274,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två delar motsvarar 180 g, så en del är 90 g.</p></li><li><p>Mjölet är 7 delar: \\(7\\cdot90=630\\) g.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 630 g.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 630,
     "tolerans": 1e-09,
@@ -133626,7 +133653,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[2\\,814-(-430)=2\\,814+430=3\\,244\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3244 m</p></div></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3244,
     "tolerans": 1e-09,
@@ -133723,7 +133750,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Summan av temperaturerna är</p></li><li><p>\\[-8-5-11-2+0-6-3=-35\\]</p></li><li><p>Det är sju mätningar:</p></li><li><p>\\[\\frac{-35}{7}=-5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 °C</p></div></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": -5,
     "tolerans": 1e-09,
@@ -133756,7 +133783,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[-120\\,000+85\\,000-40\\,000+210\\,000=135\\,000\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 135 000 kr</p></div></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 135000,
     "tolerans": 1e-09,
@@ -134472,7 +134499,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv alla längder med tre decimaler: 5,800, 5,080, 5,790 och 5,807.</p></li><li><p>Längst är 5,807 m och kortast 5,080 m.</p></li><li><p>\\[5{,}807-5{,}080=0{,}727\\ \\text{m}=72{,}7\\ \\text{cm}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 72,7 cm</p></div></div>",
     "familj": "Jämföra decimaltal och tallinjen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 72.7,
     "tolerans": 1e-09,
@@ -135601,7 +135628,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{1\\,000}{47}\\approx21{,}3\\]</p></li><li><p>Hon kan köpa 21 biljetter.</p></li><li><p>Överslaget avrundade priset uppåt och gav därför för få biljetter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21 biljetter</p></div></div>",
     "familj": "Överslag i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 21,
     "tolerans": 1e-09,
@@ -136783,7 +136810,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\text{A: }\\frac{17}{25}=0{,}68\\qquad\\text{B: }\\frac{20}{30}=0{,}666\\ldots\\]</p></li><li><p>Lag A vann störst andel, trots att lag B vann fler matcher.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: Lag A</p></div></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
@@ -137451,7 +137478,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[7\\cdot340=2\\,380\\ \\text{m}\\approx2{,}4\\ \\text{km}\\]</p></li><li><p>Ljuset från blixten når dig nästan direkt, så det är ljudets färd som tar tid.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,38 km (ungefär 2,4 km)</p></div></div>",
     "familj": "Direkt proportionalitet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2.38,
     "tolerans": 0.03,
@@ -138588,7 +138615,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\text{Elevrådet: }\\frac7{12}\\approx0{,}583\\qquad\\text{Klassrådet: }\\frac{10}{18}\\approx0{,}556\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: i elevrådet</p></div></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
@@ -139041,7 +139068,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{180}{24}=7{,}5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,5 min</p></div></div>",
     "familj": "Direkt proportionalitet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
     "tolerans": 1e-09,
@@ -139323,7 +139350,7 @@ window.BANKMA1 = [
       "problemlösning",
       "procedur"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Räkna med andelar av hela arvet. Hur stor andel är kvar efter varje syskon?</p>",
@@ -139921,7 +139948,7 @@ window.BANKMA1 = [
       "problemlösning",
       "resonemang"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Räkna slag per timme, timmar per år och antal år. Avrunda varje tal så att du kan multiplicera i huvudet.</p>",
@@ -140146,7 +140173,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[8\\,849-(-10\\,935)=8\\,849+10\\,935=19\\,784\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19 784 m</p></div></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 19784,
     "tolerans": 1e-09,
@@ -142689,40 +142716,40 @@ window.BANKMA1 = [
   "svarEnhet": "km"
 },
 {
-  "id": "0.1126",
-  "kap": 0,
-  "omr": "enhetsbyten",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En bil färdas med 72 km/h i 25 minuter. Hur långt blir det? Svara i kilometer.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv tiden i timmar:</p>\\[\\frac{25}{60}=\\frac{5}{12}\\]<p>Sträckan är hastigheten gånger tiden:</p>\\[72\\cdot\\frac{5}{12}=30\\]<p class=\"facit-svar\"><strong>Svar:</strong> 30 km</p></div>",
-  "familj": "Enhetsbyten i tillämpningar",
-  "formaga": [
-    "procedur"
-  ],
-  "miniräknare": false,
-  "geogebra": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 30.0,
-  "tolerans": 1e-09,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Hastigheten är given per timme. Skriv tiden i timmar innan du räknar.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kallaProv": {
-    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
-    "uppgift": 16,
-    "variant": 2
+    "id": "0.1126",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En bil färdas med 72 km/h i 25 minuter. Hur långt blir det? Svara i kilometer.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv tiden i timmar:</p>\\[\\frac{25}{60}=\\frac{5}{12}\\]<p>Sträckan är hastigheten gånger tiden:</p>\\[72\\cdot\\frac{5}{12}=30\\]<p class=\"facit-svar\"><strong>Svar:</strong> 30 km</p></div>",
+    "familj": "Enhetsbyten i tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.0,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hastigheten är given per timme. Skriv tiden i timmar innan du räknar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kallaProv": {
+      "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+      "uppgift": 16,
+      "variant": 2
+    },
+    "svarEnhet": "km"
   },
-  "svarEnhet": "km"
-},
 {
   "id": "0.1127",
   "kap": 0,
@@ -142877,110 +142904,110 @@ window.BANKMA1 = [
   ]
 },
 {
-  "id": "0.1130",
-  "kap": 0,
-  "omr": "proportionalitet_grunder",
-  "kurs": [
-    "1a",
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En löneökning på 1,5 % motsvarar 300 kr. Hur många kronor skulle en ökning på 4 % av samma lön motsvara?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[300/1{,}5=200\\]<p>Multiplicera sedan med 4:</p>\\[200\\cdot4=800\\]<p class=\"facit-svar\"><strong>Svar:</strong> 800 kr</p></div>",
-  "familj": "Proportionella samband",
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "miniräknare": false,
-  "geogebra": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 800.0,
-  "tolerans": 1e-09,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kallaProv": {
-    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
-    "uppgift": 18,
-    "variant": 0
+    "id": "0.1130",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En löneökning på 1,5 % motsvarar 300 kr. Hur många kronor skulle en ökning på 4 % av samma lön motsvara?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[300/1{,}5=200\\]<p>Multiplicera sedan med 4:</p>\\[200\\cdot4=800\\]<p class=\"facit-svar\"><strong>Svar:</strong> 800 kr</p></div>",
+    "familj": "Proportionella samband",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 800.0,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kallaProv": {
+      "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+      "uppgift": 18,
+      "variant": 0
+    },
+    "svarEnhet": "kr"
   },
-  "svarEnhet": "kr"
-},
 {
-  "id": "0.1131",
-  "kap": 0,
-  "omr": "proportionalitet_grunder",
-  "kurs": [
-    "1a",
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En löneökning på 2 % motsvarar 500 kr. Hur många kronor skulle en ökning på 5 % av samma lön motsvara?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[500/2=250\\]<p>Multiplicera sedan med 5:</p>\\[250\\cdot5=1250\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1250 kr</p></div>",
-  "familj": "Proportionella samband",
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "miniräknare": false,
-  "geogebra": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 1250.0,
-  "tolerans": 1e-09,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kallaProv": {
-    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
-    "uppgift": 18,
-    "variant": 1
+    "id": "0.1131",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En löneökning på 2 % motsvarar 500 kr. Hur många kronor skulle en ökning på 5 % av samma lön motsvara?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[500/2=250\\]<p>Multiplicera sedan med 5:</p>\\[250\\cdot5=1250\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1250 kr</p></div>",
+    "familj": "Proportionella samband",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1250.0,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kallaProv": {
+      "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+      "uppgift": 18,
+      "variant": 1
+    },
+    "svarEnhet": "kr"
   },
-  "svarEnhet": "kr"
-},
 {
-  "id": "0.1132",
-  "kap": 0,
-  "omr": "proportionalitet_grunder",
-  "kurs": [
-    "1a",
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En löneökning på 2,5 % motsvarar 450 kr. Hur många kronor skulle en ökning på 6 % av samma lön motsvara?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[450/2{,}5=180\\]<p>Multiplicera sedan med 6:</p>\\[180\\cdot6=1080\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1080 kr</p></div>",
-  "familj": "Proportionella samband",
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "miniräknare": false,
-  "geogebra": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 1080.0,
-  "tolerans": 1e-09,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kallaProv": {
-    "prov": "Matematik 1a – Tal och beräkningar – HT2026",
-    "uppgift": 18,
-    "variant": 2
+    "id": "0.1132",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En löneökning på 2,5 % motsvarar 450 kr. Hur många kronor skulle en ökning på 6 % av samma lön motsvara?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[450/2{,}5=180\\]<p>Multiplicera sedan med 6:</p>\\[180\\cdot6=1080\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1080 kr</p></div>",
+    "familj": "Proportionella samband",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1080.0,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många kronor motsvarar 1 % av lönen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kallaProv": {
+      "prov": "Matematik 1a – Tal och beräkningar – HT2026",
+      "uppgift": 18,
+      "variant": 2
+    },
+    "svarEnhet": "kr"
   },
-  "svarEnhet": "kr"
-},
 {
   "id": "0.1133",
   "kap": 0,

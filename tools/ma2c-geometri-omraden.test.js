@@ -11,8 +11,9 @@ vm.runInContext(fs.readFileSync(path.join(root,'strukturma2.js'),'utf8'),c);
 const start=html.indexOf('function getCards(');
 vm.runInContext(html.slice(start,html.indexOf('\n}',start)+2),c);
 c.state.data.grupp=c.window.GRUPPMA2;
+// ST03: randvinklar ligger i 2c tillsammans med yttervinkelsatsen, men aldrig med kordasatsen.
 test('Ma2c har två separata geometrikort med egna uppgiftspooler',()=>{
- c.state.track='2c';const cards=c.getCards(),r=cards.find(k=>k.name==='Randvinklar och medelpunktsvinklar'),b=cards.find(k=>k.name==='Kordasatsen och bisektrissatsen');
+ c.state.track='2c';const cards=c.getCards(),r=cards.find(k=>k.name==='Yttervinkelsatsen och randvinklar'),b=cards.find(k=>k.name==='Kordasatsen och bisektrissatsen');
  assert.ok(r&&b);assert.deepEqual(Array.from(r.omr),['randvinkel_medelpunkt']);assert.deepEqual(Array.from(b.omr),['kordasatsen_biskarningssatsen']);
  assert.ok(!cards.some(k=>k.name==='Cirkelgeometri'));assert.equal(cards.length,3);
 });

@@ -382,7 +382,9 @@ window.SPARMA2 = {
 /* Ett synligt kort motsvarar ett avgränsat lektionsmoment. Familjerna är
    uppgiftsvarianter inom momentet. Äldre samlingskort finns endast kvar för
    sparade uppdrag; historisk:true ska aldrig visas som ett nytt områdeskort.
-   Uppgifts-ID, OMR och familjer behålls för elevernas sparade resultat. */
+   Uppgifts-ID, OMR och familjer behålls för elevernas sparade resultat.
+   Ma2c (2026-10-14, ST03): ett kort per avsnitt i Planering Ma2c (vt26 + 2627).
+   Närliggande lektionsmoment samlas så att kortet får 3–6 delmoment att punktträna. */
 window.GRUPPMA2 = {
   "1": [
     {
@@ -423,9 +425,63 @@ window.GRUPPMA2 = {
     {
       "id": "konjugat_kvadrering",
       "namn": "Konjugatregeln och kvadreringsreglerna",
+      "kurs": [
+        "2a",
+        "2b"
+      ],
       "omr": [
         "konjugatregeln",
         "kvadreringsreglerna"
+      ]
+    },
+    {
+      "id": "rata_linjen",
+      "namn": "Räta linjen",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "rata_linjens_ekvation",
+        "linjara_representationer",
+        "bestamma_linjara_funktioner"
+      ]
+    },
+    {
+      "id": "losa_ekvationssystem",
+      "namn": "Lösa linjära ekvationssystem",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "linjara_ekvationssystem",
+        "grafisk_losning_ekvationssystem",
+        "substitutionsmetoden",
+        "additionsmetoden"
+      ]
+    },
+    {
+      "id": "fler_ekvationssystem",
+      "namn": "Fler ekvationssystem och tillämpningar",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "ekvationssystem_tre_obekanta",
+        "speciella_ekvationssystem",
+        "ekvationssystem_tillampningar"
+      ]
+    },
+    {
+      "id": "parenteser_faktorisering",
+      "namn": "Uttryck med parenteser och faktorisering",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "multiplicera_parenteser",
+        "konjugatregeln",
+        "kvadreringsreglerna",
+        "faktorisering"
       ]
     }
   ],
@@ -504,6 +560,98 @@ window.GRUPPMA2 = {
         "mer_om_andragradsekvationer",
         "andragradsekvationer_tillampningar"
       ]
+    },
+    {
+      "id": "enkla_nollprodukt",
+      "namn": "Enkla andragradsekvationer och nollproduktmetoden",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "enkla_andragradsekvationer",
+        "nollproduktmetoden"
+      ]
+    },
+    {
+      "id": "kvadratkomplettering_losningsformel",
+      "namn": "Kvadratkomplettering och lösningsformeln",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "kvadratkomplettering",
+        "losningsformel_andragrad"
+      ]
+    },
+    {
+      "id": "fordjupning_rotekvationer",
+      "namn": "Fördjupning, tillämpningar och rotekvationer",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "mer_om_andragradsekvationer",
+        "samband_roter_koefficienter",
+        "andragradsekvationer_tillampningar",
+        "rotekvationer"
+      ]
+    },
+    {
+      "id": "andragradsfunktionens_graf",
+      "namn": "Andragradsfunktionens graf",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "andragradsfunktioner",
+        "andragradsfunktion_graf"
+      ]
+    },
+    {
+      "id": "extrempunkt_fran_graf",
+      "namn": "Största och minsta värde och från graf till formel",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "symmetrilinje_extrempunkt",
+        "fran_graf_till_formel"
+      ]
+    },
+    {
+      "id": "potenser_exponentialfunktioner",
+      "namn": "Potenser och exponentialfunktioner",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "potensregler",
+        "exponentialfunktioner",
+        "exponentialgraf"
+      ]
+    },
+    {
+      "id": "logaritmer_lektion",
+      "namn": "Logaritmer",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "logaritmbegreppet",
+        "logaritmlagar"
+      ]
+    },
+    {
+      "id": "exponential_potensekvationer",
+      "namn": "Exponentialekvationer och potensekvationer",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "exponentialekvationer",
+        "potensekvationer",
+        "jamfora_exponential_potens"
+      ]
     }
   ],
   "3": [
@@ -537,7 +685,8 @@ window.GRUPPMA2 = {
       ],
       "omr": [
         "randvinkel_medelpunkt"
-      ]
+      ],
+      "historisk": true
     },
     {
       "id": "kordasatsen_biskarningssatsen",
@@ -574,6 +723,61 @@ window.GRUPPMA2 = {
       "namn": "Problemlösning",
       "omr": [
         "geometri_problemlosning"
+      ]
+    },
+    {
+      "id": "bevis_och_logik",
+      "namn": "Bevis och logik",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "geometriska_begrepp_definitioner",
+        "sats_bevis"
+      ]
+    },
+    {
+      "id": "yttervinkel_randvinklar",
+      "namn": "Yttervinkelsatsen och randvinklar",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "yttervinkelsatsen",
+        "randvinkel_medelpunkt"
+      ]
+    },
+    {
+      "id": "pythagoras_likformighet",
+      "namn": "Pythagoras sats och likformighet",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "pythagoras",
+        "likformighet"
+      ]
+    },
+    {
+      "id": "likformighetssatser_bevis",
+      "namn": "Topptriangelsatsen, transversalsatsen och likformighetsbevis",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "topptriangel_transversal",
+        "bevis_likformighet"
+      ]
+    },
+    {
+      "id": "koordinatgeometri_lektion",
+      "namn": "Koordinatgeometri",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "avstandsformeln_mittpunktsformeln",
+        "koordinatgeometri_problemlosning"
       ]
     }
   ],
@@ -614,6 +818,50 @@ window.GRUPPMA2 = {
         "normalfordelning_digitala_verktyg"
       ],
       "historisk": true
+    },
+    {
+      "id": "lagesmatt_tabeller",
+      "namn": "Medelvärde, median och typvärde",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "tabeller_diagram",
+        "lagesmatt"
+      ]
+    },
+    {
+      "id": "kvartiler_ladagram",
+      "namn": "Kvartiler, percentiler och lådagram",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "kvartiler_percentiler",
+        "ladagram"
+      ]
+    },
+    {
+      "id": "korrelation_regression_lektion",
+      "namn": "Korrelation och linjär regression",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "korrelation_koefficient",
+        "linjar_regression"
+      ]
+    },
+    {
+      "id": "normalfordelning_lektion",
+      "namn": "Normalfördelning",
+      "kurs": [
+        "2c"
+      ],
+      "omr": [
+        "normalfordelat_material",
+        "normalfordelning_digitala_verktyg"
+      ]
     }
   ]
 };

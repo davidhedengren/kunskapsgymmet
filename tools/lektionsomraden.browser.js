@@ -39,9 +39,16 @@ const {chromium}=require('playwright');
     details.push({key:k.key,name:k.name,kap:k.kap,omr:k.omr,count:pool.length,families:cardFamilies(k),lessons:lessons.map(l=>l.genomgang.rubrik)});
    }
    check(before===snapshot(),'Sparat resultat förändrat');
-   check(cardStatus(cards.find(k=>k.key==='substitutionsmetoden')).m===.82,'Fel substitutionsresultat');
-   check(cardStatus(cards.find(k=>k.key==='additionsmetoden')).m===.34,'Fel additionsresultat');
-   check(cardStatus(cards.find(k=>k.key==='g:konjugat_kvadrering')).m===.5,'Fel samlat regelresultat');
+   if(track==='2c'){
+    // ST03: samlade planeringsavsnitt i 2c.
+    check(Math.abs(cardStatus(cards.find(k=>k.key==='g:losa_ekvationssystem')).m-.29)<1e-9,'Fel samlat metodresultat');
+    check(hittaTraningskort('substitutionsmetoden').omr.join()==='substitutionsmetoden','Äldre områdeskort saknas');
+    check(hittaTraningskort('g:konjugat_kvadrering').omr.length===2,'Äldre regelkort saknas');
+   }else{
+    check(cardStatus(cards.find(k=>k.key==='substitutionsmetoden')).m===.82,'Fel substitutionsresultat');
+    check(cardStatus(cards.find(k=>k.key==='additionsmetoden')).m===.34,'Fel additionsresultat');
+    check(cardStatus(cards.find(k=>k.key==='g:konjugat_kvadrering')).m===.5,'Fel samlat regelresultat');
+   }
    for(const gs of Object.values(state.data.grupp))for(const g of gs.filter(g=>g.historisk)){
     const old=hittaTraningskort('g:'+g.id);if(!old)continue;
     check(!cards.some(k=>k.key===old.key),'Historiskt kort synligt');
@@ -76,7 +83,8 @@ const {chromium}=require('playwright');
   await page.setViewportSize({width,height:1000});
   await page.evaluate(()=>{state.openChapters=new Set(['1','2','3','4']);renderDashboard();});
   await page.waitForTimeout(350);
-  for(const name of ['Substitutionsmetoden','Additionsmetoden','Konjugatregeln och kvadreringsreglerna','Standardavvikelse']){
+  // Senaste spåret i loopen ovan är 2c (ST03).
+  for(const name of ['Lösa linjära ekvationssystem','Uttryck med parenteser och faktorisering','Standardavvikelse']){
    const button=page.locator('.omr-oppna').filter({hasText:name});assert.equal(await button.count(),1);assert.ok(await button.isVisible());
   }
   await page.screenshot({path:'/tmp/lektionstruktur/ma2-'+width+'.png'});

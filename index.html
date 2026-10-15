@@ -4016,7 +4016,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-15-verktyg-ma1";
+const BANK_VERSION="2026-10-15-ma2c-lektionsomraden";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7216,12 +7216,18 @@ function getCards(){
 function hittaTraningskort(key){
   const aktuellt=getCards().find(k=>k.key===key);
   if(aktuellt) return aktuellt;
-  if(typeof key!=="string" || !key.startsWith("g:")) return null;
+  if(typeof key!=="string") return null;
   const areas=getAreas();
+  /* Ett område som numera ingår i ett samlat kort: äldre uppdrag tränar
+     fortfarande just det området. */
+  if(!key.startsWith("g:")){
+    const a=areas.find(x=>x.key===key);
+    return a?{key,name:a.name,kap:a.kap,omr:[a.key],delar:[a],grupp:false,families:a.families}:null;
+  }
   for(const [kap,grupper] of Object.entries(state.data?.grupp||{})){
     if(!Array.isArray(grupper)) continue;
-    const g=grupper.find(x=>x.historisk && "g:"+x.id===key
-      && (!Array.isArray(x.kurs)||!x.kurs.length||x.kurs.includes(state.track)));
+    /* Historiska grupper och grupper som numera gäller andra spår. */
+    const g=grupper.find(x=>"g:"+x.id===key);
     if(!g) continue;
     const med=areas.filter(a=>String(a.kap)===String(kap)&&g.omr.includes(a.key));
     if(med.length) return {key,name:g.namn,kap:med[0].kap,omr:med.map(a=>a.key),

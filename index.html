@@ -3509,6 +3509,15 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .largrupp-topp .provkodbox{flex-wrap:wrap}
 .larvy .toppvy{flex-wrap:wrap}
 @media(max-width:480px){.larlagen{padding-top:10px}.larlagen button{flex:1;padding:10px 8px;font-size:14px}.larvalkommen{padding:20px}.larvalkommen .provfalt{min-width:100%}.largrupp-topp .provkodbox{gap:8px}}
+.prov-mottagargrupp{border:1px solid var(--hair);border-radius:12px;margin:8px 0;overflow:hidden}
+.prov-mottagarrad{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px}
+.prov-mottagarrad label,.prov-elevlista label{display:flex;align-items:center;gap:10px;cursor:pointer;min-width:0}
+.prov-mottagarrad label{flex:1}.prov-mottagarrad b,.prov-mottagarrad small{display:block;overflow-wrap:anywhere}
+.prov-mottagarrad small{color:var(--ink3);font-size:12px;margin-top:3px}
+.prov-mottagargrupp input{width:18px;height:18px;flex:none;accent-color:var(--acc)}
+.prov-mottagarrad .btn{flex:none}.prov-elevlista{max-height:260px;overflow:auto;border-top:1px solid var(--hair);padding:8px 12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:4px 16px}
+.prov-elevlista label{padding:8px 0}.prov-elevlista span{overflow-wrap:anywhere}.prov-valda{margin:12px 0}
+@media(max-width:420px){.prov-mottagarrad{flex-wrap:wrap}.prov-elevlista{grid-template-columns:1fr}}
 </style>
 <link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
 </head>
@@ -14754,8 +14763,8 @@ async function provRitaLararlista(){
   if(!r?.ok){ kropp.innerHTML=`<div class="empty">Kunde inte hämta träningspassen. Är kontot godkänt som lärare?</div>`; return; }
   const grupp=state.larFlik==="grupper"?larGrupp():null;
   provLararLista=r.prov||[];
-  const lista=provLararLista.filter(p=>!grupp||(p.grupper||[]).some(g=>Number(g.id)===Number(grupp.id)));
-  kropp.innerHTML=`<p class="lartext">Välj vad passet ska omfatta och vilka grupper som ska få det. Kunskapsgymmet väljer och
+  const lista=provLararLista.filter(p=>!grupp||provTillGrupp(p,grupp.id));
+  kropp.innerHTML=`<p class="lartext">Välj vad passet ska omfatta och vilka elever eller grupper som ska få det. Kunskapsgymmet väljer och
       anpassar uppgifterna för varje elev, och du ser hur det går per område och per elev. Ge passet vilket namn du vill,
       till exempel ”Prov 2 – Algebra” eller ”Repetition kapitel 3”.</p>
     ${grupp?"":`<div class="larny"><button class="btn primary" onclick="provSkapaStart()">Skapa träningspass</button></div>`}
@@ -14764,7 +14773,7 @@ async function provRitaLararlista(){
       const grupper=(p.grupper||[]).map(g=>g.namn).join(", ");
       return `<details data-pass-id="${Number(p.id)}" class="provrad${p.aktiv?"":" avslutad"}" ontoggle="if(this.open)provVisaResultat(${Number(p.id)})">
         <summary><span class="provrad-titel"><b>${esc(p.titel)}</b>
-          <small>${esc(kurs?.code||p.kurs)}${p.spar?" "+esc(p.spar):""}${p.datum?" · till "+esc(provDatum(p.datum)):""}${p.alla?" · alla uppgifter":""}${grupper?" · "+esc(grupper):""}${p.klass?" · "+esc(p.klass):""}${p.aktiv?"":" · avslutat"}</small></span>
+          <small>${esc(kurs?.code||p.kurs)}${p.spar?" "+esc(p.spar):""}${p.datum?" · till "+esc(provDatum(p.datum)):""}${p.alla?" · alla uppgifter":""}${grupper?" · "+esc(grupper):""}${p.elever?.length?" · "+p.elever.length+" individuellt valda":""}${p.klass?" · "+esc(p.klass):""}${p.aktiv?"":" · avslutat"}</small></span>
           <span class="pt-upp-chip">${Number(p.tranat)||0} har tränat</span></summary>
         <div class="provrad-kropp">
           <div class="provkodbox"><span>Kod</span><b>${esc(p.kod)}</b>
@@ -14889,18 +14898,27 @@ async function provSkapaStart(forval={}){
   provSkapa={kurs,spar:red?(red.spar||null):(COURSES[kurs].defaultTrack||null),
              titel:red?red.titel:"",datum:red?(red.datum||""):"",
              grupper:red?(red.grupper||[]).map(g=>Number(g.id)):(forval.grupper||[]).map(Number),grupplista:[],
+             elever:(red?.elever||forval.elever||[]).map(e=>e.id),elevlista:[],elevstod:false,oppnaGrupper:[],
              nivaer:red?(red.nivaer||["E","C","A"]).slice():["E","C","A"],
              antal:red?(Number(red.antal)||30):30,alla:red?!!red.alla:false,
              omraden:(red?(red.omraden||[]):(forval.omraden||[])).slice(),kd:null,redigeraId:red?Number(red.id):null};
   const kropp=document.getElementById("provlarare-kropp");
   if(kropp) kropp.innerHTML=`<div class="empty">Läser in kursen …</div>`;
-  const g=await klassRpc("kg_lar_grupper");
-  provSkapa.grupplista=g?.ok?(g.grupper||[]):[];
+  const s=provSkapa,uid=session?.user?.id;
+  const [g,e]=await Promise.all([klassRpc("kg_lar_grupper"),provRpc("kg_prov_elevval")]);
+  if(s!==provSkapa || uid!==session?.user?.id || !kropp?.isConnected) return;
+  s.grupplista=g?.ok?(g.grupper||[]):[];
+  s.elevstod=e?.ok===true && e.elevval===true;
+  s.elevlista=s.elevstod?(e.elever||[]):[];
+  (red?.elever||forval.elever||[]).forEach(x=>{
+    if(!s.elevlista.some(y=>y.id===x.id))s.elevlista.push({...x,grupper:[]});
+  });
   /* En kollegas grupp i passet ligger kvar även om den inte är min. */
   if(red) (red.grupper||[]).forEach(x=>{
     if(!provSkapa.grupplista.some(y=>Number(y.id)===Number(x.id))) provSkapa.grupplista.push({id:x.id,namn:x.namn,elever:""});
   });
   await provSkapaLaddaKurs();
+  if(s!==provSkapa || uid!==session?.user?.id || !kropp?.isConnected) return;
   provSorteraOmraden();
   provRitaSkapa();
   window.scrollTo(0,0);
@@ -14929,10 +14947,9 @@ function provRitaSkapa(){
         <input class="admin-sok" type="date" value="${esc(s.datum)}" onchange="provSkapa.datum=this.value"></label>
     </div>
 
-    <div class="provfalt"><span>Vilka grupper ska få passet?</span>
-      ${s.grupplista.length?`<div class="provchips">${s.grupplista.map(g=>`<button type="button" class="valruta${s.grupper.includes(Number(g.id))?" vald":""}" onclick="provVaxlaGrupp(${Number(g.id)})"><span class="kryss" aria-hidden="true"></span><span class="valnamn">${esc(g.namn)}</span><span class="valstate">${Number(g.elever)||0}</span></button>`).join("")}</div>`
-        :`<p class="menytext">Du har inga grupper än. <button class="lank" onclick="larStartKlasser()">Skapa en under Mina grupper</button>, eller dela passets kod direkt med eleverna.</p>`}
-      <p class="menytext">Eleverna i valda grupper ser passet direkt på sin startsida. Passet får också en egen kod som alla kan gå med med.${s.datum?" Det visas till och med dagen efter slutdatumet.":""}</p></div>
+    <div class="provfalt" id="prov-mottagare"><span>Vilka ska få passet?</span>
+      ${provMottagareHtml(s)}
+      <p class="menytext">Valda elever och hela valda grupper ser passet på sin startsida. Andra elever kan också gå med om du delar koden eller länken med dem.${s.datum?" Det visas till och med dagen efter slutdatumet.":""}</p></div>
 
     <div class="provfalt"><span>Nivåer som ska tränas</span>
       <div class="provchips">${["E","C","A"].map(L=>`<button type="button" class="valruta${s.nivaer.includes(L)?" vald":""}" onclick="provVaxlaNiva('${L}')"><span class="kryss" aria-hidden="true"></span><span class="valnamn">${L}</span></button>`).join("")}</div></div>
@@ -14983,10 +15000,65 @@ function provKontrollHtml(per){
     <p class="menytext">${s.alla?`${tot} uppgifter. Varje elev får alla i blandad ordning, och ingen uppgift kommer två gånger innan alla är gjorda.`
       :`${tot} möjliga uppgifter. ${tot<s.antal?"Det är färre än omfattningen, så uppgifter kommer att upprepas.":"Varje elev får sitt eget urval."}`}</p>`;
 }
+function provMottagareHtml(s){
+  const grupper=s.grupplista.map(g=>{
+    const id=Number(g.id),alla=s.grupper.includes(id),oppet=s.oppnaGrupper.includes(id);
+    const elever=s.elevlista.filter(e=>(e.grupper||[]).map(Number).includes(id));
+    const antal=elever.filter(e=>s.elever.includes(e.id)).length;
+    return `<div class="prov-mottagargrupp">
+      <div class="prov-mottagarrad"><label><input type="checkbox" data-prov-grupp="${id}" ${alla?"checked":""} onchange="provVaxlaGrupp(${id})"><span><b>${esc(g.namn)}</b><small>${alla?"Hela gruppen":antal?antal+(antal===1?" vald elev":" valda elever"):"Ingen vald"}</small></span></label>
+      ${s.elevstod?`<button type="button" class="btn sm" aria-expanded="${oppet}" aria-controls="prov-elever-${id}" onclick="provOppnaElevval(${id})">${oppet?"Dölj elever":"Välj elever"}</button>`:""}</div>
+      ${oppet?`<div id="prov-elever-${id}" class="prov-elevlista">${elever.length?elever.map(e=>`<label><input type="checkbox" data-prov-elev="${esc(e.id)}" data-grupp="${id}" ${alla||s.elever.includes(e.id)?"checked":""} onchange="provVaxlaElev(this.dataset.provElev,${id},this.checked)"><span>${esc(e.namn||"Elev")}</span></label>`).join(""):`<p class="menytext">Gruppen har inga valbara elever.</p>`}</div>`:""}</div>`;
+  }).join("");
+  const valda=s.elevlista.filter(e=>s.elever.includes(e.id));
+  return `${grupper||`<p class="menytext">Du har inga grupper än. <button class="lank" onclick="larStartKlasser()">Skapa en under Mina grupper</button>, eller dela passets kod.</p>`}
+    ${valda.length?`<div class="prov-valda"><b>Individuellt valda (${valda.length})</b><div class="provchips">${valda.map(e=>`<button type="button" class="btn sm" data-elev="${esc(e.id)}" onclick="provTaBortMottagare(this.dataset.elev)" aria-label="Ta bort ${esc(e.namn||'elev')} som individuell mottagare">${esc(e.namn||"Elev")} ×</button>`).join("")}</div></div>`:""}
+    ${!s.elevstod?`<p class="menytext">Individuellt elevval är inte tillgängligt just nu. Hela grupper och koder fungerar som tidigare.</p>`:""}`;
+}
+function provRitaMottagare(){
+  // Behåll fokus vid tangentbordsval och scrollen i långa elevlistor.
+  const box=document.getElementById("prov-mottagare");if(!box)return;
+  const active=document.activeElement,grupp=active?.dataset.grupp,elev=active?.dataset.provElev;
+  const group=active?.dataset.provGrupp;
+  const scrolls=[...box.querySelectorAll('.prov-elevlista')].map(el=>[el.id,el.scrollTop]);
+  box.innerHTML='<span>Vilka ska få passet?</span>'+provMottagareHtml(provSkapa)+
+    '<p class="menytext">Valda elever och hela valda grupper ser passet på sin startsida. Andra elever kan också gå med om du delar koden eller länken med dem.</p>';
+  scrolls.forEach(([id,top])=>{const el=document.getElementById(id);if(el)el.scrollTop=top;});
+  const target=[...box.querySelectorAll('input')].find(el=>elev?el.dataset.provElev===elev&&el.dataset.grupp===grupp:group&&el.dataset.provGrupp===group);
+  target?.focus({preventScroll:true});
+}
+function provOppnaElevval(id){
+  const s=provSkapa;if(s.sparar)return;
+  s.oppnaGrupper=s.oppnaGrupper.includes(id)?s.oppnaGrupper.filter(x=>x!==id):[...s.oppnaGrupper,id];
+  provRitaMottagare();
+  document.getElementById('prov-elever-'+id)?.querySelector('input')?.focus({preventScroll:true});
+}
 function provVaxlaGrupp(id){
-  const s=provSkapa; id=Number(id);
+  const s=provSkapa;id=Number(id);if(s.sparar)return;
   s.grupper=s.grupper.includes(id)?s.grupper.filter(x=>x!==id):[...s.grupper,id];
-  provRitaSkapa();
+  // Gruppkrysset ersätter individuella kryss för just den gruppen.
+  const ids=s.elevlista.filter(e=>(e.grupper||[]).map(Number).includes(id)).map(e=>e.id);
+  s.elever=s.elever.filter(x=>!ids.includes(x));
+  provRitaMottagare();
+}
+function provVaxlaElev(uid,grupp,vald){
+  const s=provSkapa;if(s.sparar)return;
+  const elev=s.elevlista.find(e=>e.id===uid);if(!elev)return;
+  // Avmarkering ur en hel grupp omvandlar dess nuvarande medlemmar till individuella val.
+  const hela=s.grupper.filter(g=>(elev.grupper||[]).map(Number).includes(g));
+  if(hela.length){
+    s.elever=[...new Set([...s.elever,...s.elevlista.filter(e=>(e.grupper||[]).some(g=>hela.includes(Number(g)))).map(e=>e.id)])];
+    s.grupper=s.grupper.filter(g=>!hela.includes(g));
+  }
+  s.elever=vald?[...new Set([...s.elever,uid])]:s.elever.filter(x=>x!==uid);
+  provRitaMottagare();
+}
+function provTaBortMottagare(uid){
+  if(provSkapa.sparar)return;
+  provSkapa.elever=provSkapa.elever.filter(x=>x!==uid);provRitaMottagare();
+}
+function provTillGrupp(p,id){
+  return (p.grupper||[]).some(g=>Number(g.id)===Number(id))||(p.elevgrupper||[]).map(Number).includes(Number(id));
 }
 function provVaxlaOmrade(o){
   const s=provSkapa;
@@ -15024,18 +15096,20 @@ async function provSkapaSkicka(){
   if(s.titel.length<2){ toast("Ge passet ett namn."); return; }
   if(!s.omraden.length){ toast("Välj minst ett område."); return; }
   if(!s.nivaer.length){ toast("Välj minst en nivå."); return; }
+  if(s.elever.length&&!s.elevstod){toast("Elevvalet kunde inte hämtas. Öppna passet igen innan du sparar.");return;}
   const per=s.kd?provRakna(s.kd,s.spar,s.nivaer):{};
   const antal=s.alla ? Math.max(1,s.omraden.reduce((a,o)=>a+(per[o]?.alla||0),0)) : s.antal;
   const gem={p_titel:s.titel,p_spar:s.spar,p_omraden:s.omraden,p_nivaer:s.nivaer,p_antal:antal,
              p_alla:!!s.alla,p_datum:s.datum||null,p_grupper:s.grupper};
+  if(s.elevstod)gem.p_elever=s.elever;
   const uid=session?.user?.id, host=document.getElementById("provlarare-kropp");
   const kontroller=[...(host?.querySelectorAll("button:not(:disabled),input:not(:disabled),select:not(:disabled)")||[])];
   s.sparar=true;kontroller.forEach(el=>el.disabled=true);
   let r;
   try{
     r = s.redigeraId
-      ? await provRpc("kg_prov_andra",{p_prov:s.redigeraId,...gem})
-      : await provRpc("kg_prov_skapa",{...gem,p_kurs:s.kurs,p_kod:provForslagKod()});
+      ? await provRpc(s.elevstod?"kg_prov_andra_med_elever":"kg_prov_andra",{p_prov:s.redigeraId,...gem})
+      : await provRpc(s.elevstod?"kg_prov_skapa_med_elever":"kg_prov_skapa",{...gem,p_kurs:s.kurs,p_kod:provForslagKod()});
   }catch(_){r=null;}
   finally{s.sparar=false;kontroller.forEach(el=>el.disabled=false);}
   if(uid!==session?.user?.id || s!==provSkapa || !host?.isConnected) return;
@@ -15043,15 +15117,16 @@ async function provSkapaSkicka(){
   if(!r?.ok){
     const fel={titel:"Namnet ska vara 2–60 tecken.",omraden:"Välj minst ett område.",nivaer:"Välj minst en nivå.",
       larare_kravs:"Bara lärarkonton kan skapa träningspass.",okand_grupp:"En av grupperna finns inte längre.",
-      okand:"Passet finns inte längre."}[r?.code];
+      okand:"Passet finns inte längre.",elev_behorighet:"En vald elev är inte längre tillgänglig i dina grupper. Öppna passet igen och kontrollera elevvalet."}[r?.code];
     toast(fel||"Kunde inte spara träningspasset."); return;
   }
   if(s.redigeraId){ toast("Träningspasset är uppdaterat."); provRitaLararlista(); window.scrollTo(0,0); return; }
   const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
+  const individuella=s.elevlista.filter(e=>s.elever.includes(e.id)).map(e=>e.namn||"Elev");
   const valda=s.grupplista.filter(g=>s.grupper.includes(Number(g.id))).map(g=>g.namn);
   kropp.innerHTML=`<div class="provklar">
       <p class="modal-text">Träningspasset <b>${esc(s.titel)}</b> är skapat.${valda.length?` Eleverna i ${esc(valda.join(", "))} ser det direkt på sin startsida.`:""}
-        Du kan också dela koden eller länken, till exempel i Classroom eller Teams.</p>
+        ${individuella.length?` ${esc(individuella.join(", "))} får passet individuellt.`:""} Du kan också dela koden eller länken, till exempel i Classroom eller Teams.</p>
       <div class="provkodbox stor"><span>Kod</span><b>${esc(r.kod)}</b></div>
       <div class="provlank">${esc(provLank(r.kod))}</div>
       <div class="modal-fot">
@@ -15336,7 +15411,7 @@ async function larRitaOversikt(){
   const [e,p]=await Promise.all([klassRpc("kg_lar_elever",{p_grupp:g.id}),provRpc("kg_prov_mina")]);
   if(!box.isConnected || session?.user?.id!==uid || state.larGrupp!==Number(g.id) || state.larGruppFlik!=="oversikt")return;
   const elever=e?.ok?(e.elever||[]):null;
-  const pass=p?.ok?(p.prov||[]).filter(x=>x.aktiv&&(x.grupper||[]).some(y=>Number(y.id)===Number(g.id))):null;
+  const pass=p?.ok?(p.prov||[]).filter(x=>x.aktiv&&provTillGrupp(x,g.id)):null;
   box.innerHTML=`<div class="statgrid larstat">
       ${statRuta(elever?String(elever.length):"–","Elever")}
       ${statRuta(elever?String(elever.filter(x=>Number(x.vecka)>0).length):"–","Aktiva senaste veckan")}

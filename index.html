@@ -1335,17 +1335,6 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .area strong{font-size:14px;font-weight:600;line-height:1.25;letter-spacing:-.022em;
   hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
-.area .state.status-help{position:relative;width:max-content;max-width:100%}
-.area .state.status-help:after{
-  content:attr(data-tip);position:absolute;left:0;top:calc(100% + 8px);z-index:40;width:245px;max-width:min(245px,70vw);
-  padding:9px 10px;border:1px solid var(--hair2);border-radius:10px;background:var(--surface);color:var(--ink);
-  box-shadow:0 12px 28px rgba(0,0,0,.16);font-size:11px;font-weight:500;line-height:1.42;letter-spacing:0;
-  opacity:0;transform:translateY(-3px);pointer-events:none;transition:.16s var(--ease);white-space:normal
-}
-@media(hover:hover){
-  .area:not(.stack):hover .state.status-help:not(.ny):after{opacity:1;transform:translateY(0);transition-delay:.9s}
-}
-.omr-oppna:focus-visible .state.status-help:not(.ny):after{opacity:1;transform:translateY(0)}
 .meter{height:5px;border-radius:99px;background:var(--hair);overflow:hidden;flex:1;max-width:80px;
   box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
 .meter i{display:block;height:100%;border-radius:99px;width:0;transition:width 1.1s var(--ease);
@@ -7246,14 +7235,6 @@ function hittaTraningskort(key){
   return null;
 }
 
-function statusHelp(s){
-  if(!s?.seen) return "Ny · Du har ännu inget registrerat resultat här. Ringen börjar visa ett träningsvärde efter ditt första försök.";
-  const pct=Math.round(Math.max(0,Math.min(1,s.m||0))*100);
-  if(s.m>=.78) return `Stark · träningsvärde ${pct} %. Stark betyder minst 78 %. Fortsatt repetition hjälper dig att behålla nivån.`;
-  if(s.m>=.55) return `På gång · träningsvärde ${pct} %. På gång betyder 55–77 %. Fler stabila rätta svar tar dig mot Stark.`;
-  return `Behöver träning · träningsvärde ${pct} %. Det betyder under 55 %. Området prioriteras för mer repetition.`;
-}
-
 function cardStatus(kort){
   const cp=ensureCourseProfile();
   const varden=kort.omr.map(k=>typeof cp.areas[k]==="number"?cp.areas[k]:null);
@@ -8423,12 +8404,6 @@ function renderDashboard(){
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
-          /* En enda förklaring per kort: status, och för sammanslagna
-             områden även vilka delområden som ingår. Namnet står redan
-             på kortet och upprepas inte. */
-          const delarTxt=a.grupp&&a.delar.length>1 ? "Innehåller "+a.delar.map(d=>d.name).join(", ")+"." : "";
-          const statusTip=[delarTxt, s.seen?statusHelp(s):""].filter(Boolean).join(" ");
-
           const harDelar=cardFamilies(a).length>0;
           return `<div class="area ${s.tone}">
             <button class="omr-oppna" onclick="startCard('${esc(a.key)}')">
@@ -8438,11 +8413,10 @@ function renderDashboard(){
               </span>
               <span class="area-txt">
                 <strong>${esc(a.name)}</strong>
-                <span class="state status-help${statusTip?"":" ny"}"${statusTip?` data-tip="${esc(statusTip)}"`:""}>${s.label}</span>
+                <span class="state">${s.label}</span>
               </span>
             </button>
             ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"
-              title="Punktträna delmoment i ${esc(a.name)}"
               aria-label="Punktträna delmoment i ${esc(a.name)}">${PUNKT_IKON}</button>`:""}
           </div>`;
         }).join("")}
@@ -8577,7 +8551,6 @@ function showAreaPicker(record){
                   <strong>${esc(k.name)}</strong>
                 </button>
                 ${fam.length?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(k.key)}')"
-                  title="Blanda flera delmoment i ${esc(k.name)}"
                   aria-label="Blanda flera delmoment i ${esc(k.name)}">${PUNKT_IKON}</button>`:""}
               </div>
               ${fam.length?`<div class="delmoment">

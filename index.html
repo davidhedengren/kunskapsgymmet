@@ -4016,7 +4016,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-15-ma2c-lektionsomraden";
+const BANK_VERSION="2026-10-16-ma2-rapporter";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10114,6 +10114,8 @@ function kvadratkompletteratSvarRatt(anv,facit){
 }
 
 function faktoriseratSvarRatt(anv,facit){
+  // Även facit med enbart LaTeX-avgränsare måste rensas före f(x)=.
+  anv=latexToPlain(anv); facit=latexToPlain(facit);
   if(algebraisktLika(hogerled(anv),hogerled(facit))!==true || typeof nerdamer==="undefined") return false;
   const uttryck=s=>tillNerdamer(normalizeMathInput(hogerled(s))).replace(/\s+/g,"");
   const yttreParentes=s=>{
@@ -10177,6 +10179,28 @@ function faktoriseratSvarRatt(anv,facit){
     const facitGrad=Math.max(...faktorer(uttryck(facit)).map(grad));
     return faktorer(uttryck(anv)).every(f=>grad(f)<=facitGrad);
   }catch(_){ return false; }
+}
+
+/* Kravet gäller uttryckets form, inte bara dess talvärde. Exempelvis är
+   2lg3 lika med lg9, men först det senare är en enda logaritm. */
+function enLogaritmSvarRatt(anv,facit){
+  let s=normalizeMathInput(hogerled(anv));
+  const helaParentesen=x=>{
+    if(x[0]!=="(" || x.at(-1)!==")") return false;
+    let depth=0;
+    for(let i=0;i<x.length;i++){
+      if(x[i]==="(") depth++;
+      else if(x[i]===")") depth--;
+      if(depth<0 || (depth===0 && i<x.length-1)) return false;
+    }
+    return depth===0;
+  };
+  while(helaParentesen(s)) s=s.slice(1,-1);
+  const m=s.match(/^(lg|ln|log10|log)(\(.*\))$/);
+  if(!m || !helaParentesen(m[2])) return false;
+  // Inte en ny logaritm inuti argumentet heller.
+  if(/(?:lg|ln|log)\s*\(/.test(m[2])) return false;
+  return algebraisktLika(s,hogerled(latexToPlain(facit)))===true;
 }
 
 function funktionsuttryckRatt(anv,facit){
@@ -10468,6 +10492,8 @@ function formatRatt(anv,facit,meta){
       return kvadratkompletteratSvarRatt(a,f);
     case "faktoriserat":
       return faktoriseratSvarRatt(a,f);
+    case "en_logaritm":
+      return enLogaritmSvarRatt(a,f);
     case "funktionsuttryck":
       return funktionsuttryckRatt(a,f);
     case "primitiva":
@@ -10802,7 +10828,7 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   }
   /* Decimalform kräver den angivna representationen och målenheten.
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
-  if(["decimalform","energi_per_nukleon","faktoriserat","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
+  if(["decimalform","energi_per_nukleon","faktoriserat","en_logaritm","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
   /* Ett känt prefix måste räknas om innan någon genväg tar bort målenheten.
      Annars blev "412 kPa" först "412 k" och därefter "412" mot ett facit i Pa. */
@@ -12625,6 +12651,13 @@ function renderTraining(){
 
   const rutEtikett=i=>{
     const del = plan ? plan.rutor[i].del : i;
+
+    // Heluppgiftens namngivna fält ska motsvara samma fält på delkortet.
+    const underetikett=t.spelDelar?.[del]?.svarEtiketter?.[plan?.rutor[i]?.plats];
+    if(underetikett!=null){
+      const bokstav=String(t.spelDelar[del].etikett||String.fromCharCode(97+del));
+      return esc(bokstav+") "+underetikett);
+    }
 
     if(layout.etiketter && layout.etiketter[del]!==undefined){
       const namn=String(layout.etiketter[del]);

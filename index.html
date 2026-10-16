@@ -4015,7 +4015,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-16-ma2-rapporter";
+const BANK_VERSION="2026-10-16-mato1-rapporter";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11235,7 +11235,10 @@ function numerisktSvar(facit){
   return /^\d+(\.\d+)?$/.test(x);
 }
 
-function sifferlage(facit,enhet,format){
+function sifferlage(facit,enhet,format,t){
+  // Ett lagrat decimaltal kan motsvara ln2, √3 eller ett exakt bråk.
+  // Frågans tillåtna svar får inte begränsas av mobilens siffertangentbord.
+  if(/\bexakt(?:a)?\b/i.test(String(t?.t||""))) return false;
   if(format && !["numeriskt","heltal","decimalform","grader","procent"].includes(format)) return false;
   if(enhet) return false;
   if(COURSES[state.course]?.subject==="Fysik") return false;
@@ -11383,7 +11386,9 @@ function normalizeMathInput(s){
 
   x=x.replace(/(\d|\))\s*:\s*(\d|\()/g,"$1/$2");
 
-  x=x.replace(/√\s*\(([^()]+)\)/g,"sqrt($1)");
+  // Låt den vanliga uttrycksparsern hantera parenteserna, även nästlade.
+  // Ofullständiga parenteser ska fortfarande underkännas.
+  x=x.replace(/√(?=\s*\()/g,"sqrt");
   x=x.replace(/√\s*([a-z]\w*|\d+(?:\.\d+)?)/g,"sqrt($1)");
 
   x=x.replace(/(\d+(?:\.\d+)?)\s*%/g,"($1/100)");
@@ -12674,7 +12679,7 @@ function renderTraining(){
           : `<input id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
               autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
               data-form-type="other" type="text"${etikett?"":` aria-label="Ditt svar"`}
-              inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i),plan?.delar[plan.rutor[i].del].format[plan.rutor[i].plats])?"decimal":"text"}"
+              inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i),plan?.delar[plan.rutor[i].del].format[plan.rutor[i].plats],t)?"decimal":"text"}"
               placeholder="${
                 rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))
                 : inputCount<2 ? (arRotLista(expectedInfo.answers[i]) ? "Alla lösningar, t.ex. x = 1, 4" : "Ditt svar")

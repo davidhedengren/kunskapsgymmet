@@ -4,6 +4,8 @@ I formuläret **Nytt träningspass** kan läraren kryssa i en hel grupp eller ö
 
 Hela grupper och individuella elever kan kombineras. Samma elev räknas en gång även när urvalen överlappar. Hela grupper omfattar också framtida medlemmar; individuella urval omfattar bara de valda personerna. Lärarens gruppöversikt visar även egna pass till individuella elever i gruppen.
 
+I en enskild elevs statistik finns även **Skapa träningspass med de svagaste områdena**, under respektive kurs. Knappen förväljer eleven som enda mottagare och upp till fem aktuella områden med lägst uppskattad behärskning, där eleven har gjort minst två försök. Äldre områden och områden utan träningsuppgifter i kursens förvalda spår tas inte med. Du väljer passets namn och kan justera innehåll, nivåer, omfattning och mottagare innan du sparar. Saknas tillräckligt underlag visas ingen snabbknapp. Ingen ytterligare SQL-migration behövs för denna genväg.
+
 ## Aktivering
 
 1. Kör hela [2026-10-16-traningspass-elevval.sql](../sql/2026-10-16-traningspass-elevval.sql) i projektets Supabase SQL Editor. Den kräver de befintliga pass-, grupp- och lärarmigrationerna från 2–9 oktober. Körningen är transaktionell och kan upprepas.
@@ -25,5 +27,7 @@ Klienten erbjuder elevval först när `kg_prov_elevval` uttryckligen returnerar 
 `tools/prov-elevval.integration.js` kör den faktiska migrationen och befintliga pass-RPC:er i PGlite. Den kontrollerar en/flera/hela grupper, överlapp, elevsynlighet, rapportbehörighet, redigering, atomiska avslag, avaktiverad lärare, kodanslutning, migreringsupprepning och RPC-rättigheter.
 
 `tools/prov-elevval.browser.py` testar den faktiska sidan med lokala RPC-fixtures: kryssrutor, överlappande grupper, tangentbord/fokus, bibehållen titel, sparfel, redigering, äldre SQL och sex layouter i ljust/mörkt tema. Ange `CHROMIUM_PATH` vid behov. Webbserver på port 8083 krävs.
+
+`tools/elev-svagaste-pass.browser.py` testar genvägen från elevstatistiken: högst fem aktuella områden med träningsuppgifter och minst två försök, rätt kurs och endast eleven som mottagare, ändringar före sparande, flera kurser, tunt underlag, misslyckad kursinläsning, sent svar för en annan elev och äldre SQL. Kontrolleras i sex layouter i ljust/mörkt tema.
 
 Ingen produktionsdatabas har ändrats eller verifierats i denna molnmiljö. Git-publicering kör inte SQL-migrationen.

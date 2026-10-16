@@ -3517,6 +3517,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .prov-mottagargrupp input{width:18px;height:18px;flex:none;accent-color:var(--acc)}
 .prov-mottagarrad .btn{flex:none}.prov-elevlista{max-height:260px;overflow:auto;border-top:1px solid var(--hair);padding:8px 12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:4px 16px}
 .prov-elevlista label{padding:8px 0}.prov-elevlista span{overflow-wrap:anywhere}.prov-valda{margin:12px 0}
+.lar-elevpass .btn{white-space:normal;max-width:100%;text-align:center}
 @media(max-width:420px){.prov-mottagarrad{flex-wrap:wrap}.prov-elevlista{grid-template-columns:1fr}}
 </style>
 <link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
@@ -15553,12 +15554,15 @@ function larValjElev(uid){ state.larElev=uid; larRitaGrupper(); window.scrollTo(
 /* ── En elev ── */
 async function larRitaElev(){
   const kropp=document.getElementById("larkropp"); if(!kropp) return;
+  const uid=session?.user?.id,gruppId=state.larGrupp,elevId=state.larElev;
+  const aktuell=()=>kropp.isConnected && session?.user?.id===uid && state.larGrupp===gruppId && state.larElev===elevId && state.larFlik==="grupper";
   if(!larData.grupper) await larHamtaGrupper();
+  if(!aktuell()) return;
   const g=larGrupp();
   kropp.innerHTML=`<button class="lank larbak" onclick="larTillbaka(true)">← ${esc(g?.namn||"Gruppen")}</button>
     <div id="larelev"><div class="empty">Hämtar elevens träning …</div></div>`;
-  const r=await klassRpc("kg_lar_elev",{p_grupp:state.larGrupp,p_user:state.larElev});
-  const box=document.getElementById("larelev"); if(!box) return;
+  const r=await klassRpc("kg_lar_elev",{p_grupp:gruppId,p_user:elevId});
+  const box=kropp.querySelector("#larelev"); if(!box || !aktuell()) return;
   if(!r?.ok){ box.innerHTML=`<div class="empty">Kunde inte hämta eleven.</div>`; return; }
   const kurser=(r.kurser||[]).filter(k=>Number(k.forsok)>0 || (k.omraden||[]).length);
   const vecka=kurser.reduce((a,k)=>a+(Number(k.vecka)||0),0);
@@ -15602,11 +15606,11 @@ async function larRitaElev(){
   for(let i=0;i<kurser.length;i++){
     const k=kurser[i];
     const kd=await provKursData(k.kurs).catch(()=>null);
-    const sek=document.getElementById("larkurs-"+i); if(!sek) return;
-    sek.querySelector(".empty")?.replaceWith(larKursOmradenEl(k,kd));
+    const sek=box.querySelector("#larkurs-"+i); if(!sek || !aktuell() || !box.isConnected) return;
+    sek.querySelector(".empty")?.replaceWith(larKursOmradenEl(k,kd,{id:elevId,namn:r.namn||"Elev"}));
   }
 }
-function larKursOmradenEl(k,kd){
+function larKursOmradenEl(k,kd,elev){
   const namn=o=>kd?.namn?.[o]||o;
   const omr=(k.omraden||[]).map(o=>({...o,m:Number(o.m)||0,f:Number(o.f)||0,r:Number(o.r)||0}));
   const svaga=omr.filter(o=>o.f>=2 && o.m<.6).sort((a,b)=>a.m-b.m).slice(0,5);
@@ -15628,6 +15632,26 @@ function larKursOmradenEl(k,kd){
     ${omr.length?`<details class="laralla"><summary>Alla ${omr.length} områden eleven har tränat</summary>
       <div class="provres">${[...omr].sort((a,b)=>a.m-b.m).map(rad).join("")}</div></details>`:""}
     <p class="lartext liten">Procenten är Kunskapsgymmets uppskattning av hur säkert eleven behärskar området, utifrån alla svar.</p>`;
+  if(elev?.id && kd && COURSES[k.kurs] && k.kurs!=="hist"){
+    // Samma områden som kan väljas i passformuläret. Hoppa över äldre områdes-ID:n
+    // och för tunt underlag; välj upp till fem, med lägst behärskning först.
+    const ordning=kd.kapitel.flatMap(kap=>kap.omraden);
+    const per=provRakna(kd,COURSES[k.kurs].defaultTrack||null,["E","C","A"]);
+    const svagast=[...new Set((k.omraden||[]).filter(o=>o.f>=2 && o.m!=null && Number.isFinite(Number(o.m)) && ordning.includes(o.omr) && per[o.omr]?.alla>0)
+      .sort((a,b)=>a.m-b.m).map(o=>o.omr))].slice(0,5);
+    if(svagast.length){
+      const fot=document.createElement("div");fot.className="lar-elevpass";
+      const info=document.createElement("p");info.className="lartext liten";
+      info.textContent=`Förväljer ${svagast.length} av elevens svagaste områden med minst två försök. Du kan ändra innehållet innan du sparar.`;
+      const knapp=document.createElement("button");knapp.type="button";knapp.className="btn primary";
+      knapp.textContent="Skapa träningspass med de svagaste områdena";
+      knapp.addEventListener("click",()=>{
+        if(!el.isConnected || state.larElev!==elev.id) return;
+        larNyttPass(null,k.kurs,svagast,[{id:elev.id,namn:elev.namn}]);
+      });
+      fot.append(info,knapp);el.appendChild(fot);
+    }
+  }
   return el;
 }
 async function larTaBortElev(){
@@ -15717,8 +15741,8 @@ function larRitaPass(){
   if(state.larPassForval){ const f=state.larPassForval; state.larPassForval=null; provSkapaStart(f); }
   else provRitaLararlista();
 }
-function larNyttPass(grupp,kurs,omraden){
-  state.larPassForval={grupper:grupp?[Number(grupp)]:[],kurs:kurs||(larData.grupper||[]).find(g=>Number(g.id)===Number(grupp))?.kurs||null,omraden:omraden||[]};
+function larNyttPass(grupp,kurs,omraden,elever=[]){
+  state.larPassForval={grupper:grupp?[Number(grupp)]:[],elever:elever.map(e=>({...e})),kurs:kurs||(larData.grupper||[]).find(g=>Number(g.id)===Number(grupp))?.kurs||null,omraden:(omraden||[]).slice()};
   state.larFlik="pass";
   ritaLarare(); window.scrollTo(0,0);
 }

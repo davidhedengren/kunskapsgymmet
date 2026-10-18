@@ -13467,39 +13467,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.08",
-    "kap": 2,
-    "omr": "derivata_a_x",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Skriv om funktionen</p><p>\\[f(x)=5e^{0{,}4x}\\]</p><p>på formen \\(f(x)=5\\cdot a^x\\). Bestäm värdet på \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi använder sambandet</p></li><li><p>\\[e^{0{,}4x}=(e^{0,4})^x.\\]</p></li><li><p>Därför kan funktionen skrivas</p></li><li><p>\\[f(x)=5\\cdot (e^{0,4})^x.\\]</p></li><li><p>Alltså är</p></li><li><p>\\[a=e^{0{,}4}.\\]</p></li><li><p>Med räknare får man</p></li><li><p>\\[e^{0{,}4}\\approx 1{,}492.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=e^{0{,}4}\\approx 1{,}49}\\).</p></div></div>",
-    "familj": "Skriva a^x med basen e",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.49,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Skriva exponentialfunktioner med basen e"
-    ]
-  },
+  "id": "2.08",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Skriv om funktionen</p><p>\\[f(x)=5e^{0{,}4x}\\]</p><p>på formen \\(f(x)=5\\cdot a^x\\). Bestäm värdet på \\(a\\).</p><p>Svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Potenslagen \\(a^{uv}=(a^u)^v\\) ger \\(e^{0{,}4x}=(e^{0{,}4})^x\\).</p><p>Därför är \\(a=e^{0{,}4}\\approx1{,}49\\), så funktionen kan skrivas \\(f(x)=5\\cdot(e^{0{,}4})^x\\).</p></div>",
+  "familj": "Skriva a^x med basen e",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.4918246976412703,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Använd potenslagen \\(a^{uv}=(a^u)^v\\) för att få \\(x\\) som exponent på hela basen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Skriva exponentialfunktioner med basen e"
+  ]
+},
   {
     "id": "2.09",
     "kap": 2,
@@ -13689,80 +13689,80 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.14",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=3 x^{4} - 2 x^{2} + 5 x - 7\\)<br>b) \\(f_2(x)=5 x^{3} + 4 x\\)<br>c) \\(f_3(x)=3 - 2 x^{5}\\)<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=12 x^{3} - 4 x + 5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=15 x^{2} + 4\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=- 10 x^{4}\\]</div></li></ol></div></div></div>",
-    "familj": "Negativa exponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "12x^(3)-4x+5",
-      "15x^(2)+4",
-      "-10x^(4)"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=3 x^{4} - 2 x^{2} + 5 x - 7\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=12 x^{3} - 4 x + 5\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=5 x^{3} + 4 x\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=15 x^{2} + 4\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=3 - 2 x^{5}\\)<br/></div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=- 10 x^{4}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Tänk så här: Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera polynom med potensregeln"
-    ]
-  },
+  "id": "2.14",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=3 x^{4} - 2 x^{2} + 5 x - 7\\)<br>b) \\(f_2(x)=5 x^{3} + 4 x\\)<br>c) \\(f_3(x)=3 - 2 x^{5}\\)<br></p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\((3x^4)^{\\prime}=12x^3\\) och \\((-2x^2)^{\\prime}=-4x\\). Termen \\(5x\\) ger 5, medan konstanten −7 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=12 x^{3} - 4 x + 5\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Derivera termerna var för sig: \\(5x^3\\) ger \\(5\\cdot3x^2=15x^2\\), och \\(4x\\) ger 4.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=15 x^{2} + 4\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Konstanten 3 har derivatan 0. Potensregeln ger \\((-2x^5)^{\\prime}=-2\\cdot5x^4=-10x^4\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=- 10 x^{4}\\]</div></li></ol></div></div></div></section></div>",
+  "familj": "Negativa exponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "12x^(3)-4x+5",
+    "15x^(2)+4",
+    "-10x^(4)"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=3 x^{4} - 2 x^{2} + 5 x - 7\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\((3x^4)^{\\prime}=12x^3\\) och \\((-2x^2)^{\\prime}=-4x\\). Termen \\(5x\\) ger 5, medan konstanten −7 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=12 x^{3} - 4 x + 5\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=5 x^{3} + 4 x\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Derivera termerna var för sig: \\(5x^3\\) ger \\(5\\cdot3x^2=15x^2\\), och \\(4x\\) ger 4.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=15 x^{2} + 4\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=3 - 2 x^{5}\\)<br/></div></p>",
+      "s": "<div class=\"facit-v2\"><p>Konstanten 3 har derivatan 0. Potensregeln ger \\((-2x^5)^{\\prime}=-2\\cdot5x^4=-10x^4\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=- 10 x^{4}\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera term för term med potensregeln \\((x^n)'=nx^{n-1}\\). Skriv gärna rötter och bråkpotenser som potenser innan du deriverar.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Tänk så här: Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera polynom med potensregeln"
+  ]
+},
   {
     "id": "2.15",
     "kap": 2,
@@ -13866,80 +13866,80 @@ window.BANKMATO1 = [
   ]
 },
   {
-    "id": "2.18",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=x^{6} - 4 x^{3} + 2 x\\)<br>b) \\(f_2(x)=\\frac{x^{4}}{2} - 3 x^{2}\\)<br>c) \\(f_3(x)=7 x^{2} - 5 x + 1\\)<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 x^{5} - 12 x^{2} + 2\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=2 x^{3} - 6 x\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=14 x - 5\\]</div></li></ol></div></div></div>",
-    "familj": "Negativa exponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6x^(5)-12x^(2)+2",
-      "2x^(3)-6x",
-      "14x-5"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=x^{6} - 4 x^{3} + 2 x\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 x^{5} - 12 x^{2} + 2\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=\\frac{x^{4}}{2} - 3 x^{2}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=2 x^{3} - 6 x\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=7 x^{2} - 5 x + 1\\)<br/></div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=14 x - 5\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Tänk så här: Använd potensregeln term för term: exponenten flyttas fram som faktor och minskas sedan med ett. Konstanter får derivatan 0. Skriv gärna om rötter och bråkpotenser som potenser först när det gör regeln tydligare.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.18",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=x^{6} - 4 x^{3} + 2 x\\)<br>b) \\(f_2(x)=\\frac{x^{4}}{2} - 3 x^{2}\\)<br>c) \\(f_3(x)=7 x^{2} - 5 x + 1\\)<br></p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\((x^6)^{\\prime}=6x^5\\) och \\((-4x^3)^{\\prime}=-12x^2\\). Den linjära termen \\(2x\\) ger 2.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 x^{5} - 12 x^{2} + 2\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Skriv första termen som \\(\\frac12x^4\\). Derivatan blir \\(\\frac12\\cdot4x^3=2x^3\\). Termen \\(-3x^2\\) ger \\(-6x\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=2 x^{3} - 6 x\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Kvadrattermen ger \\(7\\cdot2x=14x\\), den linjära termen ger −5 och konstanten ger 0.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=14 x - 5\\]</div></li></ol></div></div></div></section></div>",
+  "familj": "Negativa exponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "6x^(5)-12x^(2)+2",
+    "2x^(3)-6x",
+    "14x-5"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=x^{6} - 4 x^{3} + 2 x\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\((x^6)^{\\prime}=6x^5\\) och \\((-4x^3)^{\\prime}=-12x^2\\). Den linjära termen \\(2x\\) ger 2.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 x^{5} - 12 x^{2} + 2\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=\\frac{x^{4}}{2} - 3 x^{2}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv första termen som \\(\\frac12x^4\\). Derivatan blir \\(\\frac12\\cdot4x^3=2x^3\\). Termen \\(-3x^2\\) ger \\(-6x\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=2 x^{3} - 6 x\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=7 x^{2} - 5 x + 1\\)<br/></div></p>",
+      "s": "<div class=\"facit-v2\"><p>Kvadrattermen ger \\(7\\cdot2x=14x\\), den linjära termen ger −5 och konstanten ger 0.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=14 x - 5\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Tänk så här: Använd potensregeln term för term: exponenten flyttas fram som faktor och minskas sedan med ett. Konstanter får derivatan 0. Skriv gärna om rötter och bråkpotenser som potenser först när det gör regeln tydligare.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.19",
     "kap": 2,
@@ -14042,80 +14042,80 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.22",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=4 x^{\\frac{3}{2}} - 2 \\sqrt{x}\\)<br>b) \\(f_2(x)=2 x^{2} + \\frac{3}{x}\\)<br>c) \\(f_3(x)=- x + \\frac{5}{x^{2}}\\)<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 \\sqrt{x} - \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=4 x - \\frac{3}{x^{2}}\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=-1 - \\frac{10}{x^{3}}\\]</div></li></ol></div></div></div>",
-    "familj": "Rötter och bråkexponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6sqrt(x)-(1)/(sqrt(x))",
-      "4x-(3)/(x^(2))",
-      "-1-(10)/(x^(3))"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=4 x^{\\frac{3}{2}} - 2 \\sqrt{x}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 \\sqrt{x} - \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=2 x^{2} + \\frac{3}{x}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=4 x - \\frac{3}{x^{2}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=- x + \\frac{5}{x^{2}}\\)<br/></div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=-1 - \\frac{10}{x^{3}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.22",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=4 x^{\\frac{3}{2}} - 2 \\sqrt{x}\\)<br>b) \\(f_2(x)=2 x^{2} + \\frac{3}{x}\\)<br>c) \\(f_3(x)=- x + \\frac{5}{x^{2}}\\)<br></p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Skriv \\(\\sqrt{x}=x^{1/2}\\). Potensregeln ger \\(4\\cdot\\frac32x^{1/2}=6\\sqrt{x}\\) och \\(-2\\cdot\\frac12x^{-1/2}=-1/\\sqrt{x}\\). Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 \\sqrt{x} - \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Skriv \\(3/x=3x^{-1}\\). Potensregeln ger \\((3x^{-1})^{\\prime}=-3x^{-2}\\). Derivatan av \\(2x^2\\) är \\(4x\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=4 x - \\frac{3}{x^{2}}\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Skriv \\(5/x^2=5x^{-2}\\). Potensregeln ger \\(5\\cdot(-2)x^{-3}=-10/x^3\\), medan derivatan av \\(-x\\) är −1. Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=-1 - \\frac{10}{x^{3}}\\]</div></li></ol></div></div></div></section></div>",
+  "familj": "Rötter och bråkexponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "6sqrt(x)-(1)/(sqrt(x))",
+    "4x-(3)/(x^(2))",
+    "-1-(10)/(x^(3))"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=4 x^{\\frac{3}{2}} - 2 \\sqrt{x}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(\\sqrt{x}=x^{1/2}\\). Potensregeln ger \\(4\\cdot\\frac32x^{1/2}=6\\sqrt{x}\\) och \\(-2\\cdot\\frac12x^{-1/2}=-1/\\sqrt{x}\\). Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=6 \\sqrt{x} - \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=2 x^{2} + \\frac{3}{x}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(3/x=3x^{-1}\\). Potensregeln ger \\((3x^{-1})^{\\prime}=-3x^{-2}\\). Derivatan av \\(2x^2\\) är \\(4x\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=4 x - \\frac{3}{x^{2}}\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=- x + \\frac{5}{x^{2}}\\)<br/></div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(5/x^2=5x^{-2}\\). Potensregeln ger \\(5\\cdot(-2)x^{-3}=-10/x^3\\), medan derivatan av \\(-x\\) är −1. Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=-1 - \\frac{10}{x^{3}}\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.23",
     "kap": 2,
@@ -14253,80 +14253,80 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.26",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=2 x^{5} + x^{3} - 8\\)<br>b) \\(f_2(x)=- 3 x^{4} + 6 x^{2}\\)<br>c) \\(f_3(x)=x^{\\frac{5}{2}} + 2 \\sqrt{x}\\)<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=10 x^{4} + 3 x^{2}\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=- 12 x^{3} + 12 x\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=\\frac{5 x^{\\frac{3}{2}}}{2} + \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div></div>",
-    "familj": "Rötter och bråkexponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "10x^4+3x^2",
-      "-12x^3+12x",
-      "(5/2)x^(3/2)+1/sqrt(x)"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=2 x^{5} + x^{3} - 8\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=10 x^{4} + 3 x^{2}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=- 3 x^{4} + 6 x^{2}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=- 12 x^{3} + 12 x\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=x^{\\frac{5}{2}} + 2 \\sqrt{x}\\)<br/></div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=\\frac{5 x^{\\frac{3}{2}}}{2} + \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.26",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(f_1(x)=2 x^{5} + x^{3} - 8\\)<br>b) \\(f_2(x)=- 3 x^{4} + 6 x^{2}\\)<br>c) \\(f_3(x)=x^{\\frac{5}{2}} + 2 \\sqrt{x}\\)<br></p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Derivera termvis: \\(2x^5\\) ger \\(10x^4\\), \\(x^3\\) ger \\(3x^2\\) och konstanten −8 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=10 x^{4} + 3 x^{2}\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Behåll koefficienternas tecken: \\(-3\\cdot4x^3=-12x^3\\) och \\(6\\cdot2x=12x\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=- 12 x^{3} + 12 x\\]</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\((x^{5/2})^{\\prime}=\\frac52x^{3/2}\\). Skriv \\(2\\sqrt{x}=2x^{1/2}\\); dess derivata är \\(x^{-1/2}=1/\\sqrt{x}\\). Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=\\frac{5 x^{\\frac{3}{2}}}{2} + \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div></div></section></div>",
+  "familj": "Rötter och bråkexponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "10x^4+3x^2",
+    "-12x^3+12x",
+    "(5/2)x^(3/2)+1/sqrt(x)"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=2 x^{5} + x^{3} - 8\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Derivera termvis: \\(2x^5\\) ger \\(10x^4\\), \\(x^3\\) ger \\(3x^2\\) och konstanten −8 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_1^{\\prime}(x)=10 x^{4} + 3 x^{2}\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=- 3 x^{4} + 6 x^{2}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Behåll koefficienternas tecken: \\(-3\\cdot4x^3=-12x^3\\) och \\(6\\cdot2x=12x\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_2^{\\prime}(x)=- 12 x^{3} + 12 x\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=x^{\\frac{5}{2}} + 2 \\sqrt{x}\\)<br/></div></p>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\((x^{5/2})^{\\prime}=\\frac52x^{3/2}\\). Skriv \\(2\\sqrt{x}=2x^{1/2}\\); dess derivata är \\(x^{-1/2}=1/\\sqrt{x}\\). Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_3^{\\prime}(x)=\\frac{5 x^{\\frac{3}{2}}}{2} + \\frac{1}{\\sqrt{x}}\\]</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.27",
     "kap": 2,
@@ -14911,39 +14911,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.44",
-    "kap": 2,
-    "omr": "naturliga_logaritmer",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[2e^{0{,}4x}=7.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Isolera exponentialtermen:</p></li><li><p>\\[e^{0{,}4x}=3{,}5.\\]</p></li><li><p>Logaritmera:</p></li><li><p>\\[0{,}4x=\\ln(3,5).\\]</p></li><li><p>\\[x=\\frac{\\ln(3,5)}{0{,}4}\\approx 3{,}13.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x\\approx 3{,}13}\\).</p></div>",
-    "familj": "Naturliga logaritmer och ekvationer",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.13,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Först när exponentialtermen är ensam är logaritmeringen enkel att följa. Ta ln på båda sidor, förenkla med logaritmlagarna och lös den återstående ekvationen. Kontrollera till sist att eventuella definitionsvillkor är uppfyllda.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Lösa exponentialekvationer med naturlig logaritm"
-    ]
-  },
+  "id": "2.44",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Lös ekvationen</p><p>\\[2e^{0{,}4x}=7.\\]</p><p>Svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Dividera båda leden med 2: \\[e^{0{,}4x}=\\frac{7}{2}.\\]</p><p>Logaritmera och använd \\(\\ln(e^u)=u\\): \\[0{,}4x=\\ln\\left(\\frac{7}{2}\\right).\\]</p><p>Dividera med \\(0{,}4\\): \\[x=\\frac{\\ln(7/2)}{0{,}4}\\approx 3{,}13.\\]</p><p>Behåll det exakta bråket i beräkningen och avrunda först svaret.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.13190742123842,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Först när exponentialtermen är ensam är logaritmeringen enkel att följa. Ta ln på båda sidor, förenkla med logaritmlagarna och lös den återstående ekvationen. Kontrollera till sist att eventuella definitionsvillkor är uppfyllda.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Lösa exponentialekvationer med naturlig logaritm"
+  ]
+},
   {
     "id": "2.45",
     "kap": 2,
@@ -15059,39 +15059,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.48",
-    "kap": 2,
-    "omr": "naturliga_logaritmer",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[5e^{0{,}2x}=12.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Isolera exponentialtermen:</p></li><li><p>\\[e^{0{,}2x}=2{,}4.\\]</p></li><li><p>Logaritmera:</p></li><li><p>\\[0{,}2x=\\ln(2,4).\\]</p></li><li><p>\\[x=\\frac{\\ln(2,4)}{0{,}2}\\approx 4{,}38.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x\\approx 4{,}38}\\).</p></div>",
-    "familj": "Naturliga logaritmer och ekvationer",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4.38,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Lösa exponentialekvationer med naturlig logaritm"
-    ]
-  },
+  "id": "2.48",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Lös ekvationen</p><p>\\[5e^{0{,}2x}=12.\\]</p><p>Svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Dividera båda leden med 5: \\[e^{0{,}2x}=\\frac{12}{5}.\\]</p><p>Logaritmera och använd \\(\\ln(e^u)=u\\): \\[0{,}2x=\\ln\\left(\\frac{12}{5}\\right).\\]</p><p>Dividera med \\(0{,}2\\): \\[x=\\frac{\\ln(12/5)}{0{,}2}\\approx 4{,}38.\\]</p><p>Behåll det exakta bråket i beräkningen och avrunda först svaret.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.377343686769499,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Lösa exponentialekvationer med naturlig logaritm"
+  ]
+},
   {
   "id": "2.49",
   "kap": 2,
@@ -15195,39 +15195,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.52",
-    "kap": 2,
-    "omr": "naturliga_logaritmer",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[3e^{0{,}5x}=20.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Isolera exponentialtermen:</p></li><li><p>\\[e^{0{,}5x}=6{,}6667.\\]</p></li><li><p>Logaritmera:</p></li><li><p>\\[0{,}5x=\\ln(6,6667).\\]</p></li><li><p>\\[x=\\frac{\\ln(6,6667)}{0{,}5}\\approx 3{,}79.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x\\approx 3{,}79}\\).</p></div>",
-    "familj": "Naturliga logaritmer och ekvationer",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.79,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Lösa exponentialekvationer med naturlig logaritm"
-    ]
-  },
+  "id": "2.52",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Lös ekvationen</p><p>\\[3e^{0{,}5x}=20.\\]</p><p>Svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Dividera båda leden med 3: \\[e^{0{,}5x}=\\frac{20}{3}.\\]</p><p>Logaritmera och använd \\(\\ln(e^u)=u\\): \\[0{,}5x=\\ln\\left(\\frac{20}{3}\\right).\\]</p><p>Dividera med \\(0{,}5\\): \\[x=\\frac{\\ln(20/3)}{0{,}5}\\approx 3{,}79.\\]</p><p>Behåll det exakta bråket i beräkningen och avrunda först svaret.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.7942399697717626,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Lösa exponentialekvationer med naturlig logaritm"
+  ]
+},
   {
   "id": "2.53",
   "kap": 2,
@@ -21187,80 +21187,80 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.202",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=4x^3-7x+2\\)<br>b) \\(g(x)=3\\sqrt{x}\\)<br>c) \\(h(x)=\\frac{5}{x^2}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=12x^2-7}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3\\sqrt{x}=3x^{1/2}\\), alltså \\(\\boxed{g^{\\prime}(x)=\\frac{3}{2\\sqrt{x}}}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5/x^2=5x^{-2}\\), alltså \\(\\boxed{h^{\\prime}(x)=-10x^{-3}=-\\frac{10}{x^3}}\\).</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></li></ol></div>",
-    "familj": "Rötter och bråkexponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "12x^2-7",
-      "(3)/(2sqrt(x))",
-      "-(10)/(x^3)"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(f(x)=4x^3-7x+2\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=12x^2-7}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(g(x)=3\\sqrt{x}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3\\sqrt{x}=3x^{1/2}\\), alltså \\(\\boxed{g^{\\prime}(x)=\\frac{3}{2\\sqrt{x}}}\\).</p></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(h(x)=\\frac{5}{x^2}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5/x^2=5x^{-2}\\), alltså \\(\\boxed{h^{\\prime}(x)=-10x^{-3}=-\\frac{10}{x^3}}\\).</p></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.202",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera.</p><p>a) \\(f(x)=4x^3-7x+2\\)<br>b) \\(g(x)=3\\sqrt{x}\\)<br>c) \\(h(x)=\\frac{5}{x^2}\\)</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\((4x^3)^{\\prime}=12x^2\\). Derivatan av \\(-7x\\) är −7 och konstanten 2 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=12x^2-7}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Skriv \\(3\\sqrt{x}=3x^{1/2}\\). Potensregeln ger \\(3\\cdot\\frac12x^{-1/2}=3/(2\\sqrt{x})\\), för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3\\sqrt{x}=3x^{1/2}\\), alltså \\(\\boxed{g^{\\prime}(x)=\\frac{3}{2\\sqrt{x}}}\\).</p></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Skriv \\(5/x^2=5x^{-2}\\). Multiplicera med exponenten −2 och minska exponenten med 1. Det ger \\(-10x^{-3}\\), för \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5/x^2=5x^{-2}\\), alltså \\(\\boxed{h^{\\prime}(x)=-10x^{-3}=-\\frac{10}{x^3}}\\).</p></li></ol></div></div></div></section></div>",
+  "familj": "Rötter och bråkexponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "12x^2-7",
+    "(3)/(2sqrt(x))",
+    "-(10)/(x^3)"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(f(x)=4x^3-7x+2\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\((4x^3)^{\\prime}=12x^2\\). Derivatan av \\(-7x\\) är −7 och konstanten 2 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=12x^2-7}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv rötter och bråk som potenser. Använd sedan potensregeln \\((cx^n)^{\\prime}=cnx^{n-1}\\).</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(g(x)=3\\sqrt{x}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(3\\sqrt{x}=3x^{1/2}\\). Potensregeln ger \\(3\\cdot\\frac12x^{-1/2}=3/(2\\sqrt{x})\\), för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3\\sqrt{x}=3x^{1/2}\\), alltså \\(\\boxed{g^{\\prime}(x)=\\frac{3}{2\\sqrt{x}}}\\).</p></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv rötter och bråk som potenser. Använd sedan potensregeln \\((cx^n)^{\\prime}=cnx^{n-1}\\).</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(h(x)=\\frac{5}{x^2}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(5/x^2=5x^{-2}\\). Multiplicera med exponenten −2 och minska exponenten med 1. Det ger \\(-10x^{-3}\\), för \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv vid behov om med potenser.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5/x^2=5x^{-2}\\), alltså \\(\\boxed{h^{\\prime}(x)=-10x^{-3}=-\\frac{10}{x^3}}\\).</p></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv rötter och bråk som potenser. Använd sedan potensregeln \\((cx^n)^{\\prime}=cnx^{n-1}\\).</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Skriv rötter och bråk som potenser. Använd sedan potensregeln \\((cx^n)^{\\prime}=cnx^{n-1}\\).</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.203",
     "kap": 2,
@@ -21461,80 +21461,80 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.207",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Bestäm derivatan.</p><p>a) \\(y=7x^5-x-8\\)<br>b) \\(y=0{,}4x^2-1{,}2\\)<br>c) \\(y=2x^{-2}-3x^{-3}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=35x^4-1}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=0{,}8x}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=-4x^{-3}+9x^{-4}}\\].</div></li></ol></div></div></div>",
-    "familj": "Negativa exponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "35x^4-1",
-      "0.8x",
-      "-4x^(-3)+9x^(-4)"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=7x^5-x-8\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=35x^4-1}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=0{,}4x^2-1{,}2\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=0{,}8x}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=2x^{-2}-3x^{-3}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=-4x^{-3}+9x^{-4}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Tänk så här: Använd potensregeln term för term: exponenten flyttas fram som faktor och minskas sedan med ett. Konstanter får derivatan 0. Skriv gärna om rötter och bråkpotenser som potenser först när det gör regeln tydligare.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.207",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Bestäm derivatan.</p><p>a) \\(y=7x^5-x-8\\)<br>b) \\(y=0{,}4x^2-1{,}2\\)<br>c) \\(y=2x^{-2}-3x^{-3}\\)</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\(7\\cdot5x^4=35x^4\\). Derivatan av \\(-x\\) är −1 och konstanten −8 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=35x^4-1}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Derivatan av \\(0{,}4x^2\\) är \\(0{,}4\\cdot2x=0{,}8x\\). Konstanten −1,2 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=0{,}8x}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Potensregeln gäller även negativa exponenter: \\(2\\cdot(-2)x^{-3}=-4x^{-3}\\) och \\(-3\\cdot(-3)x^{-4}=9x^{-4}\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=-4x^{-3}+9x^{-4}}\\].</div></li></ol></div></div></div></section></div>",
+  "familj": "Negativa exponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "35x^4-1",
+    "0.8x",
+    "-4x^(-3)+9x^(-4)"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=7x^5-x-8\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\(7\\cdot5x^4=35x^4\\). Derivatan av \\(-x\\) är −1 och konstanten −8 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=35x^4-1}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=0{,}4x^2-1{,}2\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Derivatan av \\(0{,}4x^2\\) är \\(0{,}4\\cdot2x=0{,}8x\\). Konstanten −1,2 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=0{,}8x}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=2x^{-2}-3x^{-3}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln gäller även negativa exponenter: \\(2\\cdot(-2)x^{-3}=-4x^{-3}\\) och \\(-3\\cdot(-3)x^{-4}=9x^{-4}\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{y^{\\prime}=-4x^{-3}+9x^{-4}}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Tänk så här: Använd potensregeln term för term: exponenten flyttas fram som faktor och minskas sedan med ett. Konstanter får derivatan 0. Skriv gärna om rötter och bråkpotenser som potenser först när det gör regeln tydligare.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.208",
     "kap": 2,
@@ -21604,77 +21604,77 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.210",
-    "kap": 2,
-    "omr": "deriveringsregler",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Bestäm värdet.</p><p>a) Om \\(f(x)=x^3+x^2-7\\), bestäm \\(f^{\\prime}(1)\\).<br>b) Om \\(g(x)=3\\sqrt{x}\\), bestäm \\(g^{\\prime}(4)\\).<br>c) Om \\(h(x)=2/x^2\\), bestäm \\(h^{\\prime}(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3x^2+2x\\Rightarrow \\boxed{5}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=3/(2\\sqrt{x})\\Rightarrow \\boxed{3/4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h^{\\prime}(x)=-4x^{-3}\\Rightarrow \\boxed{-4}\\].</div></li></ol></div></div></div>",
-    "familj": "Beräkna derivatans värde",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      5,
-      "3/4",
-      -4
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "uttryck",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(f(x)=x^3+x^2-7\\), bestäm \\(f^{\\prime}(1)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3x^2+2x\\Rightarrow \\boxed5\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(g(x)=3\\sqrt{x}\\), bestäm \\(g^{\\prime}(4)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=3/(2\\sqrt{x})\\Rightarrow \\boxed{3/4}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(h(x)=2/x^2\\), bestäm \\(h^{\\prime}(1)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h^{\\prime}(x)=-4x^{-3}\\Rightarrow \\boxed{-4}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Här behöver vi skilja på derivatafunktionen och själva derivatavärdet. Bestäm först derivatan och sätt sedan in det aktuella x-värdet. Det sista steget ska ge ett tal, eftersom frågan gäller lutningen i en bestämd punkt.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "familjTidigare": [
-      "Beräkna derivatavärden"
-    ]
-  },
+  "id": "2.210",
+  "kap": 2,
+  "omr": "deriveringsregler",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Bestäm värdet.</p><p>a) Om \\(f(x)=x^3+x^2-7\\), bestäm \\(f^{\\prime}(1)\\).<br>b) Om \\(g(x)=3\\sqrt{x}\\), bestäm \\(g^{\\prime}(4)\\).<br>c) Om \\(h(x)=2/x^2\\), bestäm \\(h^{\\prime}(1)\\).</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Derivera term för term och sätt sedan in 1: \\(f^{\\prime}(1)=3\\cdot1^2+2\\cdot1=5\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3x^2+2x\\Rightarrow \\boxed5\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Skriv \\(g(x)=3x^{1/2}\\). Då är \\(g^{\\prime}(x)=\\frac32x^{-1/2}\\). Vid \\(x=4\\) blir det \\(3/(2\\sqrt4)=3/4\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=3/(2\\sqrt{x})\\Rightarrow \\boxed{3/4}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Skriv \\(h(x)=2x^{-2}\\). Potensregeln ger \\(h^{\\prime}(x)=-4x^{-3}\\), så \\(h^{\\prime}(1)=-4\\cdot1^{-3}=-4\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h^{\\prime}(x)=-4x^{-3}\\Rightarrow \\boxed{-4}\\].</div></li></ol></div></div></div></section></div>",
+  "familj": "Beräkna derivatans värde",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5,
+    "3/4",
+    -4
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "uttryck",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(f(x)=x^3+x^2-7\\), bestäm \\(f^{\\prime}(1)\\).</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Derivera term för term och sätt sedan in 1: \\(f^{\\prime}(1)=3\\cdot1^2+2\\cdot1=5\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3x^2+2x\\Rightarrow \\boxed5\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(g(x)=3\\sqrt{x}\\), bestäm \\(g^{\\prime}(4)\\).</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(g(x)=3x^{1/2}\\). Då är \\(g^{\\prime}(x)=\\frac32x^{-1/2}\\). Vid \\(x=4\\) blir det \\(3/(2\\sqrt4)=3/4\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g^{\\prime}(x)=3/(2\\sqrt{x})\\Rightarrow \\boxed{3/4}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(h(x)=2/x^2\\), bestäm \\(h^{\\prime}(1)\\).</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(h(x)=2x^{-2}\\). Potensregeln ger \\(h^{\\prime}(x)=-4x^{-3}\\), så \\(h^{\\prime}(1)=-4\\cdot1^{-3}=-4\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h^{\\prime}(x)=-4x^{-3}\\Rightarrow \\boxed{-4}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Här behöver vi skilja på derivatafunktionen och själva derivatavärdet. Bestäm först derivatan och sätt sedan in det aktuella x-värdet. Det sista steget ska ge ett tal, eftersom frågan gäller lutningen i en bestämd punkt.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "familjTidigare": [
+    "Beräkna derivatavärden"
+  ]
+},
   {
     "id": "2.211",
     "kap": 2,
@@ -23004,80 +23004,80 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.248",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=x^4+x^2-7\\)<br>b) \\(g(x)=4\\sqrt{x}\\)<br>c) \\(h(x)=\\frac{3}{x^2}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=4x^3+2x}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(4x^{1/2}\\): \\(\\boxed{g^{\\prime}(x)=2x^{-1/2}=\\frac2{\\sqrt x}}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(3x^{-2}\\): \\(\\boxed{h^{\\prime}(x)=-6x^{-3}=-\\frac6{x^3}}\\).</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></li></ol></div>",
-    "familj": "Rötter och bråkexponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "4x^3+2x",
-      "(2)/(sqrt(x))",
-      "-(6)/(x^3)"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(f(x)=x^4+x^2-7\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=4x^3+2x}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(g(x)=4\\sqrt{x}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(4x^{1/2}\\): \\(\\boxed{g^{\\prime}(x)=2x^{-1/2}=\\frac2{\\sqrt x}}\\).</p></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(h(x)=\\frac{3}{x^2}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(3x^{-2}\\): \\(\\boxed{h^{\\prime}(x)=-6x^{-3}=-\\frac6{x^3}}\\).</p></li></ol></div></div>",
-        "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.248",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera.</p><p>a) \\(f(x)=x^4+x^2-7\\)<br>b) \\(g(x)=4\\sqrt{x}\\)<br>c) \\(h(x)=\\frac{3}{x^2}\\)</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\((x^4)^{\\prime}=4x^3\\) och \\((x^2)^{\\prime}=2x\\). Konstanten −7 har derivatan 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=4x^3+2x}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Skriv roten som \\(x^{1/2}\\). Multiplicera koefficienten 4 med exponenten \\(1/2\\) och minska exponenten med 1. Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(4x^{1/2}\\): \\(\\boxed{g^{\\prime}(x)=2x^{-1/2}=\\frac2{\\sqrt x}}\\).</p></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Skriv bråket som \\(3x^{-2}\\). Multiplicera med exponenten −2 och minska exponenten till −3. Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(3x^{-2}\\): \\(\\boxed{h^{\\prime}(x)=-6x^{-3}=-\\frac6{x^3}}\\).</p></li></ol></div></div></div></section></div>",
+  "familj": "Rötter och bråkexponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "4x^3+2x",
+    "(2)/(sqrt(x))",
+    "-(6)/(x^3)"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(f(x)=x^4+x^2-7\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\((x^4)^{\\prime}=4x^3\\) och \\((x^2)^{\\prime}=2x\\). Konstanten −7 har derivatan 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=4x^3+2x}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(g(x)=4\\sqrt{x}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv roten som \\(x^{1/2}\\). Multiplicera koefficienten 4 med exponenten \\(1/2\\) och minska exponenten med 1. Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(4x^{1/2}\\): \\(\\boxed{g^{\\prime}(x)=2x^{-1/2}=\\frac2{\\sqrt x}}\\).</p></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(h(x)=\\frac{3}{x^2}\\)</div></p>",
+      "s": "<div class=\"facit-v2\"><p>Skriv bråket som \\(3x^{-2}\\). Multiplicera med exponenten −2 och minska exponenten till −3. Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(3x^{-2}\\): \\(\\boxed{h^{\\prime}(x)=-6x^{-3}=-\\frac6{x^3}}\\).</p></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Skriv vid behov rötter och bråk som potenser. Använd sedan \\((cx^n)^{\\prime}=cnx^{n-1}\\) på varje term. Vad händer med en konstant?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.249",
     "kap": 3,
@@ -24849,305 +24849,305 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.301",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=3 x^{2} - 4 x + 8\\)</p><p>b) \\(f(x)=x^{4} + 5 x\\)</p><p>c) \\(f(x)=\\frac{2}{x}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=6 x - 4\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=4 x^{3} + 5\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=- \\frac{2}{x^{2}}\\].</div></li></ol></div></div></div>",
-    "familj": "Negativa exponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6x-4",
-      "4x^(3)+5",
-      "-(2)/(x^(2))"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 x^{2} - 4 x + 8\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=6 x - 4\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera de två x-termerna var för sig. Vad händer med konstanten?</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 5 x\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=4 x^{3} + 5\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera x⁴ och 5x var för sig med potensregeln.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x}\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=- \\frac{2}{x^{2}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Skriv 2/x som en potens med negativ exponent och använd potensregeln.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.301",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=3 x^{2} - 4 x + 8\\)</p><p>b) \\(f(x)=x^{4} + 5 x\\)</p><p>c) \\(f(x)=\\frac{2}{x}\\)</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Termen \\(3x^2\\) ger \\(6x\\), termen \\(-4x\\) ger −4 och konstanten 8 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=6 x - 4\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\((x^4)^{\\prime}=4x^3\\). Derivatan av \\(5x\\) är 5.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=4 x^{3} + 5\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Skriv \\(2/x=2x^{-1}\\). Potensregeln ger \\(2\\cdot(-1)x^{-2}=-2/x^2\\), för \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=- \\frac{2}{x^{2}}\\].</div></li></ol></div></div></div></section></div>",
+  "familj": "Negativa exponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "6x-4",
+    "4x^(3)+5",
+    "-(2)/(x^(2))"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 x^{2} - 4 x + 8\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Termen \\(3x^2\\) ger \\(6x\\), termen \\(-4x\\) ger −4 och konstanten 8 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=6 x - 4\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera de två x-termerna var för sig. Vad händer med konstanten?</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 5 x\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\((x^4)^{\\prime}=4x^3\\). Derivatan av \\(5x\\) är 5.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=4 x^{3} + 5\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera x⁴ och 5x var för sig med potensregeln.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x}\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(2/x=2x^{-1}\\). Potensregeln ger \\(2\\cdot(-1)x^{-2}=-2/x^2\\), för \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=- \\frac{2}{x^{2}}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv 2/x som en potens med negativ exponent och använd potensregeln.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
-    "id": "2.302",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=6 x^{3} - x^{2} + 1\\)</p><p>b) \\(f(x)=3 \\sqrt{x}\\)</p><p>c) \\(f(x)=2 x + \\frac{1}{x^{2}}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x \\left(9 x - 1\\right)\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3}{2 \\sqrt{x}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 - \\frac{2}{x^{3}}\\].</div></li></ol></div></div></div>",
-    "familj": "Rötter och bråkexponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "f'(x)=2*x*(9*x-1)",
-      "f'(x)=3/(2*sqrt(x))",
-      "f'(x)=2-2/x^3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=6 x^{3} - x^{2} + 1\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x \\left(9 x - 1\\right)\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera x³-termen och x²-termen var för sig. Konstantens derivata är 0.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 \\sqrt{x}\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3}{2 \\sqrt{x}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Skriv roten som en potens med exponenten 1/2. Behåll faktorn 3 när du deriverar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=2 x + \\frac{1}{x^{2}}\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 - \\frac{2}{x^{3}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Skriv 1/x² som en potens med negativ exponent. Derivera den och 2x var för sig.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Tänk så här: Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.302",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=6 x^{3} - x^{2} + 1\\)</p><p>b) \\(f(x)=3 \\sqrt{x}\\)</p><p>c) \\(f(x)=2 x + \\frac{1}{x^{2}}\\)</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Derivera termvis: \\(6x^3\\) ger \\(18x^2\\), \\(-x^2\\) ger \\(-2x\\) och konstanten ger 0. Svaret \\(18x^2-2x\\) kan också faktoriseras.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x \\left(9 x - 1\\right)\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Skriv \\(3\\sqrt{x}=3x^{1/2}\\). Potensregeln ger \\(\\frac32x^{-1/2}=3/(2\\sqrt{x})\\), för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3}{2 \\sqrt{x}}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Skriv \\(1/x^2=x^{-2}\\), vars derivata är \\(-2x^{-3}\\). Derivatan av \\(2x\\) är 2. Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 - \\frac{2}{x^{3}}\\].</div></li></ol></div></div></div></section></div>",
+  "familj": "Rötter och bråkexponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "f'(x)=2*x*(9*x-1)",
+    "f'(x)=3/(2*sqrt(x))",
+    "f'(x)=2-2/x^3"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=6 x^{3} - x^{2} + 1\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Derivera termvis: \\(6x^3\\) ger \\(18x^2\\), \\(-x^2\\) ger \\(-2x\\) och konstanten ger 0. Svaret \\(18x^2-2x\\) kan också faktoriseras.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x \\left(9 x - 1\\right)\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera x³-termen och x²-termen var för sig. Konstantens derivata är 0.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=3 \\sqrt{x}\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(3\\sqrt{x}=3x^{1/2}\\). Potensregeln ger \\(\\frac32x^{-1/2}=3/(2\\sqrt{x})\\), för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3}{2 \\sqrt{x}}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv roten som en potens med exponenten 1/2. Behåll faktorn 3 när du deriverar.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=2 x + \\frac{1}{x^{2}}\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(1/x^2=x^{-2}\\), vars derivata är \\(-2x^{-3}\\). Derivatan av \\(2x\\) är 2. Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 - \\frac{2}{x^{3}}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv 1/x² som en potens med negativ exponent. Derivera den och 2x var för sig.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Tänk så här: Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
-    "id": "2.303",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=\\frac{x^{4}}{2} + 7\\)</p><p>b) \\(f(x)=x + \\frac{5}{x}\\)</p><p>c) \\(f(x)=x^{\\frac{3}{2}}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x^{3}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=1 - \\frac{5}{x^{2}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\].</div></li></ol></div></div></div>",
-    "familj": "Rötter och bråkexponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2x^(3)",
-      "1-(5)/(x^(2))",
-      "(3sqrt(x))/(2)"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{x^{4}}{2} + 7\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x^{3}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Koefficienten 1/2 är konstant. Använd potensregeln på x⁴ och fundera på derivatan av 7.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x + \\frac{5}{x}\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=1 - \\frac{5}{x^{2}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Skriv 5/x som en potens med negativ exponent. Derivera den och x var för sig.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Använd potensregeln med exponenten 3/2.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Viktigt steg: Använd potensregeln term för term: exponenten flyttas fram som faktor och minskas sedan med ett. Konstanter får derivatan 0. Skriv gärna om rötter och bråkpotenser som potenser först när det gör regeln tydligare.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.303",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=\\frac{x^{4}}{2} + 7\\)</p><p>b) \\(f(x)=x + \\frac{5}{x}\\)</p><p>c) \\(f(x)=x^{\\frac{3}{2}}\\)</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Skriv \\(x^4/2=\\frac12x^4\\). Potensregeln ger \\(\\frac12\\cdot4x^3=2x^3\\). Konstanten 7 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x^{3}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Derivatan av \\(x\\) är 1. Skriv \\(5/x=5x^{-1}\\), som ger \\(-5x^{-2}\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=1 - \\frac{5}{x^{2}}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Multiplicera med exponenten \\(3/2\\) och minska exponenten med 1: \\(\\frac32x^{1/2}=\\frac32\\sqrt{x}\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\].</div></li></ol></div></div></div></section></div>",
+  "familj": "Rötter och bråkexponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "2x^(3)",
+    "1-(5)/(x^(2))",
+    "(3sqrt(x))/(2)"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=\\frac{x^{4}}{2} + 7\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(x^4/2=\\frac12x^4\\). Potensregeln ger \\(\\frac12\\cdot4x^3=2x^3\\). Konstanten 7 ger 0.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x^{3}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Koefficienten 1/2 är konstant. Använd potensregeln på x⁴ och fundera på derivatan av 7.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x + \\frac{5}{x}\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Derivatan av \\(x\\) är 1. Skriv \\(5/x=5x^{-1}\\), som ger \\(-5x^{-2}\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=1 - \\frac{5}{x^{2}}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv 5/x som en potens med negativ exponent. Derivera den och x var för sig.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Multiplicera med exponenten \\(3/2\\) och minska exponenten med 1: \\(\\frac32x^{1/2}=\\frac32\\sqrt{x}\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Använd potensregeln med exponenten 3/2.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Viktigt steg: Använd potensregeln term för term: exponenten flyttas fram som faktor och minskas sedan med ett. Konstanter får derivatan 0. Skriv gärna om rötter och bråkpotenser som potenser först när det gör regeln tydligare.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
-    "id": "2.304",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=8 x^{5} - 2 x\\)</p><p>b) \\(f(x)=4 \\sqrt{x} - 3\\)</p><p>c) \\(f(x)=x^{2} + \\frac{3}{x^{3}}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=40 x^{4} - 2\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{2}{\\sqrt{x}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x - \\frac{9}{x^{4}}\\].</div></li></ol></div></div></div>",
-    "familj": "Rötter och bråkexponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "40x^(4)-2",
-      "(2)/(sqrt(x))",
-      "2x-(9)/(x^(4))"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=8 x^{5} - 2 x\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=40 x^{4} - 2\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Derivera 8x⁵ och −2x var för sig med potensregeln.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=4 \\sqrt{x} - 3\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{2}{\\sqrt{x}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Skriv roten som en potens med exponenten 1/2. Konstanten −3 får derivatan 0.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{2} + \\frac{3}{x^{3}}\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x - \\frac{9}{x^{4}}\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Skriv 3/x³ som en potens med negativ exponent. Derivera sedan de två termerna var för sig.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.304",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Derivera funktionerna.</p><p>a) \\(f(x)=8 x^{5} - 2 x\\)</p><p>b) \\(f(x)=4 \\sqrt{x} - 3\\)</p><p>c) \\(f(x)=x^{2} + \\frac{3}{x^{3}}\\)</p>",
+  "s": "<div class=\"facit-v2\"><section class=\"facit-del\"><strong>a)</strong><div class=\"facit-v2\"><p>Potensregeln ger \\(8\\cdot5x^4=40x^4\\). Derivatan av \\(-2x\\) är −2.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=40 x^{4} - 2\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>b)</strong><div class=\"facit-v2\"><p>Skriv \\(4\\sqrt{x}=4x^{1/2}\\). Derivatan är \\(4\\cdot\\frac12x^{-1/2}=2/\\sqrt{x}\\). Konstanten −3 ger 0. Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{2}{\\sqrt{x}}\\].</div></li></ol></div></div></div></section><section class=\"facit-del\"><strong>c)</strong><div class=\"facit-v2\"><p>Skriv \\(3/x^3=3x^{-3}\\). Potensregeln ger \\(-9x^{-4}\\), medan \\(x^2\\) ger \\(2x\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x - \\frac{9}{x^{4}}\\].</div></li></ol></div></div></div></section></div>",
+  "familj": "Rötter och bråkexponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "40x^(4)-2",
+    "(2)/(sqrt(x))",
+    "2x-(9)/(x^(4))"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=8 x^{5} - 2 x\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Potensregeln ger \\(8\\cdot5x^4=40x^4\\). Derivatan av \\(-2x\\) är −2.</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=40 x^{4} - 2\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Derivera 8x⁵ och −2x var för sig med potensregeln.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=4 \\sqrt{x} - 3\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(4\\sqrt{x}=4x^{1/2}\\). Derivatan är \\(4\\cdot\\frac12x^{-1/2}=2/\\sqrt{x}\\). Konstanten −3 ger 0. Derivatan gäller för \\(x\\gt0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac{2}{\\sqrt{x}}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv roten som en potens med exponenten 1/2. Konstanten −3 får derivatan 0.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Derivera funktionen.</p><div class=\"spel-en-del\">\\(f(x)=x^{2} + \\frac{3}{x^{3}}\\)</div>",
+      "s": "<div class=\"facit-v2\"><p>Skriv \\(3/x^3=3x^{-3}\\). Potensregeln ger \\(-9x^{-4}\\), medan \\(x^2\\) ger \\(2x\\). Här måste \\(x\\ne0\\).</p><div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x - \\frac{9}{x^{4}}\\].</div></li></ol></div></div></div>",
+      "ledtrad": "<p>Skriv 3/x³ som en potens med negativ exponent. Derivera sedan de två termerna var för sig.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.305",
     "kap": 2,
@@ -29677,143 +29677,143 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.509",
-    "kap": 2,
-    "omr": "derivata_a_x",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Skriv om \\(1{,}05^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Metod:</strong></p><div class=\"facit-matte\">\\[b^x=e^{x\\ln b}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[k=\\ln(1{,}05)=0{,}04879\\].</div></div></li></ol></div></div>",
-    "familj": "Skriva a^x med basen e",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.04879016416943205,
-    "tolerans": 0.001,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Skriva exponentialfunktioner med basen e"
-    ]
-  },
+  "id": "2.509",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Skriv om \\(1{,}05^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Basen är \\(1{,}05\\). För att skriva samma förändring med basen \\(e\\) måste \\(e^k=1{,}05\\).</p><p>Logaritmera: \\[k=\\ln(1{,}05)\\approx 0{,}0488.\\]</p><p>Ett positivt k betyder att storheten växer.</p></div>",
+  "familj": "Skriva a^x med basen e",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.04879016416943205,
+  "tolerans": 5e-05,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Jämför baserna i \\(a^x=(e^k)^x\\). Vilken ekvation måste \\(k\\) uppfylla?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Skriva exponentialfunktioner med basen e"
+  ]
+},
   {
-    "id": "2.510",
-    "kap": 2,
-    "omr": "derivata_a_x",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Skriv om \\(0{,}8^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att skriva en potens med basen \\(e\\) använder vi \\(a^x=e^{x\\ln a}\\):</p></li><li><p>\\[0{,}8^x=e^{x\\ln0{,}8}.\\]</p></li><li><p>Alltså är</p></li><li><p>\\[k=\\ln0{,}8\\approx-0{,}22314.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx-0{,}223\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p>Minustecknet är rimligt: basen \\(0{,}8\\lt 1\\) beskriver avtagande exponentialförändring.</p></li></ol></div></div>",
-    "familj": "Skriva a^x med basen e",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": -0.2231435513142097,
-    "tolerans": 0.001,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Skriva exponentialfunktioner med basen e"
-    ]
-  },
+  "id": "2.510",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Skriv om \\(0{,}8^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Basen är \\(0{,}8\\). För att skriva samma förändring med basen \\(e\\) måste \\(e^k=0{,}8\\).</p><p>Logaritmera: \\[k=\\ln(0{,}8)\\approx -0{,}2231.\\]</p><p>Ett negativt k betyder att storheten avtar.</p></div>",
+  "familj": "Skriva a^x med basen e",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -0.2231435513142097,
+  "tolerans": 5e-05,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Jämför baserna i \\(a^x=(e^k)^x\\). Vilken ekvation måste \\(k\\) uppfylla?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Skriva exponentialfunktioner med basen e"
+  ]
+},
   {
-    "id": "2.511",
-    "kap": 2,
-    "omr": "derivata_a_x",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En storhet förändras med 3 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Förändringsfaktorn är \\(b=1{,}0300\\) och \\(b=e^k\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[k=\\ln b=0{,}02956\\].</div></div></li></ol></div>",
-    "familj": "Skriva a^x med basen e",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.02955880224154443,
-    "tolerans": 0.001,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Förändringsfaktorn är \\(b=1{,}0300\\) och \\(b=e^k\\). Alltså \\(k=\\ln b=0{,}02956\\).</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Skriva exponentialfunktioner med basen e"
-    ]
-  },
+  "id": "2.511",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En storhet ökar med 3 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>En ökning med 3 % ger förändringsfaktorn \\(1+0{,}03=1{,}03\\). Samma faktor i exponentialmodellen är \\(e^k\\).</p><p>Logaritmera: \\[k=\\ln(1{,}03)\\approx 0{,}0296.\\]</p><p>Ett positivt k betyder att storheten växer.</p></div>",
+  "familj": "Skriva a^x med basen e",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.02955880224154443,
+  "tolerans": 5e-05,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilken förändringsfaktor motsvarar en tidsenhet? Sätt den lika med \\(e^k\\) och använd naturliga logaritmen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Skriva exponentialfunktioner med basen e"
+  ]
+},
   {
-    "id": "2.512",
-    "kap": 2,
-    "omr": "derivata_a_x",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En storhet förändras med -4 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Förändringsfaktorn är \\(b=0{,}9600\\) och \\(b=e^k\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[k=\\ln b=-0{,}04082\\].</div></div></li></ol></div>",
-    "familj": "Skriva a^x med basen e",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": -0.040821994520255166,
-    "tolerans": 0.001,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Förändringsfaktorn är \\(b=0{,}9600\\) och \\(b=e^k\\). Alltså \\(k=\\ln b=-0{,}04082\\).</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Skriva exponentialfunktioner med basen e"
-    ]
-  },
+  "id": "2.512",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En storhet minskar med 4 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>En minskning med 4 % ger förändringsfaktorn \\(1-0{,}04=0{,}96\\). Samma faktor i exponentialmodellen är \\(e^k\\).</p><p>Logaritmera: \\[k=\\ln(0{,}96)\\approx -0{,}0408.\\]</p><p>Ett negativt k betyder att storheten avtar.</p></div>",
+  "familj": "Skriva a^x med basen e",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -0.040821994520255166,
+  "tolerans": 5e-05,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Vilken förändringsfaktor motsvarar en tidsenhet? Sätt den lika med \\(e^k\\) och använd naturliga logaritmen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Skriva exponentialfunktioner med basen e"
+  ]
+},
   {
     "id": "2.513",
     "kap": 2,
@@ -68639,41 +68639,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.547",
-    "kap": 2,
-    "omr": "talet_e",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Graf till två upphöjt till x med en sekant\"><line x1=\"45\" y1=\"220\" x2=\"355\" y2=\"220\" stroke=\"currentColor\"/><line x1=\"145\" y1=\"235\" x2=\"145\" y2=\"20\" stroke=\"currentColor\"/><path d=\"M55 204 C105 197 145 184 185 158 C225 127 265 88 325 35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><line x1=\"95\" y1=\"196\" x2=\"285\" y2=\"76\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"95\" cy=\"196\" r=\"4\" fill=\"currentColor\"/><circle cx=\"285\" cy=\"76\" r=\"4\" fill=\"currentColor\"/><text x=\"67\" y=\"190\" font-size=\"11\" fill=\"currentColor\">(-1;0,5)</text><text x=\"291\" y=\"72\" font-size=\"11\" fill=\"currentColor\">(2;4)</text><text x=\"300\" y=\"32\" font-size=\"11\" fill=\"currentColor\">y=2ˣ</text></svg></span><p>Funktionen \\(f(x)=2^x\\) har punkterna \\((-1;0,5)\\) och \\((2;4)\\) på grafen. En tangent till grafen är parallell med sekanten genom dessa punkter.</p><p>Bestäm x-koordinaten för tangeringspunkten. Svara med minst två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sekantens lutning är</p></li><li><p>\\[k=\\frac{4-0{,}5}{2-(-1)}=\\frac76.\\]</p></li><li><p>Eftersom \\(f'(x)=2^x\\ln2\\) löser vi</p></li><li><p>\\[2^x\\ln2=\\frac76.\\]</p></li><li><p>Det ger \\(x\\approx0{,}75\\).</p></li></ol></div>",
-    "familj": "Tangenter och lutning för e^kx",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.75,
-    "tolerans": 0.02,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Bestäm sekantens lutning. Sätt sedan \\(f'(x)\\) lika med denna lutning och lös exponentialekvationen.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 3,
-    "spel": true,
-    "kalla": "NP Ma3c vt 2022, uppgift 25",
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Tangent parallell med sekant för exponentialfunktion"
-    ]
-  },
+  "id": "2.547",
+  "kap": 2,
+  "omr": "talet_e",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"270\" viewBox=\"0 0 380 270\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\" role=\"img\" aria-label=\"Grafen y=2 upphöjt till x med sekant genom (-1;0,5) och (2;4)\"><path d=\"M25 225 H350 M130 245 V20\" stroke=\"currentColor\" fill=\"none\"/><polyline points=\"32.50,210.15 34.50,209.83 36.51,209.50 38.51,209.17 40.52,208.83 42.52,208.48 44.53,208.12 46.53,207.75 48.53,207.38 50.54,207.00 52.54,206.61 54.55,206.22 56.55,205.81 58.55,205.39 60.56,204.97 62.56,204.54 64.57,204.10 66.57,203.65 68.58,203.18 70.58,202.71 72.58,202.23 74.59,201.74 76.59,201.24 78.60,200.72 80.60,200.20 82.60,199.66 84.61,199.12 86.61,198.56 88.62,197.99 90.62,197.40 92.62,196.81 94.63,196.20 96.63,195.57 98.64,194.94 100.64,194.29 102.65,193.63 104.65,192.95 106.65,192.26 108.66,191.55 110.66,190.83 112.67,190.09 114.67,189.33 116.68,188.56 118.68,187.78 120.68,186.97 122.69,186.15 124.69,185.31 126.70,184.45 128.70,183.58 130.70,182.68 132.71,181.77 134.71,180.84 136.72,179.88 138.72,178.91 140.72,177.91 142.73,176.89 144.73,175.85 146.74,174.79 148.74,173.71 150.75,172.60 152.75,171.47 154.75,170.31 156.76,169.13 158.76,167.92 160.77,166.69 162.77,165.43 164.78,164.14 166.78,162.83 168.78,161.49 170.79,160.11 172.79,158.71 174.80,157.28 176.80,155.82 178.80,154.32 180.81,152.80 182.81,151.24 184.82,149.64 186.82,148.02 188.83,146.35 190.83,144.65 192.83,142.92 194.84,141.15 196.84,139.33 198.85,137.48 200.85,135.59 202.85,133.66 204.86,131.69 206.86,129.67 208.87,127.61 210.87,125.51 212.88,123.36 214.88,121.16 216.88,118.92 218.89,116.63 220.89,114.29 222.90,111.90 224.90,109.45 226.90,106.96 228.91,104.41 230.91,101.80 232.92,99.14 234.92,96.42 236.93,93.65 238.93,90.81 240.93,87.91 242.94,84.95 244.94,81.92 246.95,78.83 248.95,75.67 250.95,72.45 252.96,69.15 254.96,65.79 256.97,62.35 258.97,58.83 260.98,55.24 262.98,51.58 264.98,47.83 266.99,44.00 268.99,40.09 271.00,36.10 273.00,32.02\" stroke=\"#2D70B3\" stroke-width=\"2.5\" fill=\"none\"/><line x1=\"65\" y1=\"204\" x2=\"260\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"65\" cy=\"204\" r=\"4\"/><circle cx=\"260\" cy=\"57\" r=\"4\"/><text x=\"20\" y=\"193\" font-size=\"13\">(−1; 0,5)</text><text x=\"270\" y=\"55\" font-size=\"13\">(2; 4)</text><text x=\"353\" y=\"230\" font-size=\"13\">x</text><text x=\"135\" y=\"18\" font-size=\"13\">y</text><text x=\"118\" y=\"242\" font-size=\"12\">0</text><text x=\"200\" y=\"125\" font-size=\"13\">y = 2ˣ</text></svg></span><p>Funktionen \\(f(x)=2^x\\) har punkterna \\((-1;0,5)\\) och \\((2;4)\\) på grafen. En tangent till grafen är parallell med sekanten genom dessa punkter.</p><p>Bestäm x-koordinaten för tangeringspunkten. Svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Sekantens lutning är \\(k=(4-0{,}5)/(2-(-1))=7/6\\). En parallell tangent måste ha samma lutning.</p><p>Derivatan är \\(f^{\\prime}(x)=2^x\\ln2\\). Sätt den lika med \\(7/6\\) och isolera potensen: \\[2^x=\\frac{7}{6\\ln2}.\\]</p><p>Logaritmera och dividera med \\(\\ln2\\): \\[x=\\frac{\\ln(7/(6\\ln2))}{\\ln2}\\approx0{,}75.\\]</p></div>",
+  "familj": "Tangenter och lutning för e^kx",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.7511587942813458,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Bestäm sekantens lutning. Sätt sedan \\(f'(x)\\) lika med denna lutning och lös exponentialekvationen.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": true,
+  "kalla": "NP Ma3c vt 2022, uppgift 25",
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Tangent parallell med sekant för exponentialfunktion"
+  ]
+},
   {
     "id": "3.741",
     "kap": 3,
@@ -76854,41 +76854,42 @@ window.BANKMATO1 = [
     "svarsstruktur": "ordnad"
   },
   {
-    "id": "3.1149",
-    "kap": 3,
-    "omr": "deriverbarhet",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>I vilka punkter är funktionen \\(f(x)=|x^2-4|\\) inte deriverbar? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Där \\(x^2-4\\ge0\\), alltså \\(|x|\\ge2\\), är \\(f(x)=x^2-4\\).</p></li><li><p>Där \\(|x|&lt;2\\) är \\(f(x)=4-x^2\\).</p></li><li><p>I \\(x=2\\): från höger är lutningen \\(2x=4\\), från vänster \\(-2x=-4\\).</p></li><li><p>Lutningarna är olika, så grafen har en spets och \\(f\\) är inte deriverbar där.</p></li><li><p>På samma sätt i \\(x=-2\\): lutningen är \\(-4\\) från vänster och \\(4\\) från höger.</p></li><li><p>I alla andra punkter är \\(f\\) ett polynom lokalt och därför deriverbar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\) och \\(x=2\\)</p></div>",
-    "familj": "Deriverbarhet",
-    "formaga": [
-      "resonemang",
-      "begrepp"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Var byter uttrycket innanför beloppstecknet tecken? Jämför lutningen från vänster och höger där.</p>",
-    "spel": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -2,
-      2
-    ],
-    "tolerans": null,
-    "svarEtiketter": [
-      "x",
-      "x"
-    ],
-    "svarsstruktur": "mängd"
-  },
+  "id": "3.1149",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p>I vilka punkter är funktionen \\(f(x)=|x^2-4|\\) inte deriverbar? Motivera.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Där \\(x^2-4\\ge0\\), alltså \\(|x|\\ge2\\), är \\(f(x)=x^2-4\\).</p></li><li><p>Där \\(|x|&lt;2\\) är \\(f(x)=4-x^2\\).</p></li><li><p>I \\(x=2\\): från höger är lutningen \\(2x=4\\), från vänster \\(-2x=-4\\).</p></li><li><p>Lutningarna är olika, så grafen har en spets och \\(f\\) är inte deriverbar där.</p></li><li><p>På samma sätt i \\(x=-2\\): lutningen är \\(-4\\) från vänster och \\(4\\) från höger.</p></li><li><p>I alla andra punkter är \\(f\\) ett polynom lokalt och därför deriverbar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\) och \\(x=2\\)</p></div>",
+  "familj": "Deriverbarhet",
+  "formaga": [
+    "resonemang",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Var byter uttrycket innanför beloppstecknet tecken? Jämför lutningen från vänster och höger där.</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    2
+  ],
+  "tolerans": null,
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarsstruktur": "mängd",
+  "manuellKomplettering": true
+},
   {
     "id": "2.679",
     "kap": 3,
@@ -90746,41 +90747,42 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-    "id": "2.753",
-    "kap": 2,
-    "omr": "talet_e",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Massan av ett ämne är \\(m(t)=10e^{-0{,}2t}\\) gram efter \\(t\\) timmar. Bestäm \\(m'(0)\\) och tolka svaret.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(m'(t)=-0{,}2\\cdot10e^{-0{,}2t}\\), så \\(m'(0)=-2\\).</p></li><li><p>Massan minskar med 2 gram per timme vid start.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2 g/h</p></div>",
-    "familj": "Derivera e^kx",
-    "geogebra": false,
-    "miniräknare": false,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Glöm inte minustecknet i exponenten.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Tolka derivata i exponentialmodell"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": -2.0,
-    "tolerans": null,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "g/h"
-  },
+  "id": "2.753",
+  "kap": 2,
+  "omr": "talet_e",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Massan av ett ämne är \\(m(t)=10e^{-0{,}2t}\\) gram efter \\(t\\) timmar. Bestäm \\(m'(0)\\) och tolka svaret.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(m'(t)=-0{,}2\\cdot10e^{-0{,}2t}\\), så \\(m'(0)=-2\\).</p></li><li><p>Massan minskar med 2 gram per timme vid start.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2 g/h</p></div>",
+  "familj": "Derivera e^kx",
+  "geogebra": false,
+  "miniräknare": false,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Glöm inte minustecknet i exponenten.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Tolka derivata i exponentialmodell"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -2.0,
+  "tolerans": null,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "g/h",
+  "manuellKomplettering": true
+},
   {
     "id": "2.754",
     "kap": 2,
@@ -94091,40 +94093,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.1079",
-    "kap": 2,
-    "omr": "talet_e",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Massan av ett ämne är \\(m(t)=10e^{-0{,}2t}\\) gram efter \\(t\\) timmar. Bestäm \\(m'(0)\\) och tolka svaret.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(m'(t)=-0{,}2\\cdot10e^{-0{,}2t}\\), så \\(m'(0)=-2\\).</p></li><li><p>Massan minskar med 2 gram per timme vid start.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2 g/h</p></div>",
-    "familj": "Derivera e^kx",
-    "geogebra": false,
-    "miniräknare": false,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Glöm inte minustecknet i exponenten.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": [
-      "exponential_ln_derivata"
-    ],
-    "familjTidigare": [
-      "Variant: bestäm lutning från funktionsvärde"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": -2.0,
-    "tolerans": null,
-    "svarFormat": "numeriskt"
-  },
+  "id": "3.1079",
+  "kap": 2,
+  "omr": "talet_e",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Massan \\(m(t)\\), i gram, följer modellen \\(m(t)=m_0e^{-0{,}2t}\\), där \\(t\\) mäts i timmar. Vid en viss tidpunkt är minskningshastigheten 3 gram per timme.</p><p>Hur stor är massan vid den tidpunkten?</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivera modellen: \\(m^{\\prime}(t)=-0{,}2m_0e^{-0{,}2t}=-0{,}2m(t)\\).</p><p>Massan minskar, så \\(m^{\\prime}(t)=-3\\). Därför gäller \\(-0{,}2m(t)=-3\\), vilket ger \\(m(t)=15\\).</p><p><strong>Svar:</strong> Massan är 15 gram.</p></div>",
+  "familj": "Derivera e^kx",
+  "geogebra": false,
+  "miniräknare": false,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Uttryck derivatan med hjälp av själva massan \\(m(t)\\). Vilket tecken har derivatan när massan minskar?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "exponential_ln_derivata"
+  ],
+  "familjTidigare": [
+    "Variant: bestäm lutning från funktionsvärde"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": null,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "g"
+},
   {
     "id": "3.1080",
     "kap": 2,
